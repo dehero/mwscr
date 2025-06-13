@@ -5416,24 +5416,24 @@
       id: DKxUckuMUki
       mediaId: '17851054788436404'
       published: 2025-06-11-18-30-09
-      updated: 2025-06-13-12-39-09
+      updated: 2025-06-13-13-31-29
       followers: 1554
-      likes: 51
+      likes: 52
     - service: vk
       id: 2460
       published: 2025-06-11-18-30-15
-      updated: 2025-06-13-12-39-09
+      updated: 2025-06-13-13-31-28
       followers: 1320
       likes: 32
-      views: 226
+      views: 227
       reposts: 1
     - service: tg
       id: 882
       published: 2025-06-11-18-30-19
-      updated: 2025-06-13-12-39-08
+      updated: 2025-06-13-13-31-27
       followers: 746
-      likes: 48
-      views: 211
+      likes: 49
+      views: 213
       comments: !c |-
         iyCAkpPLQnl2Dwy7gACnbWJkdHNtb7NXaGF0IGEgYmVhdXR5LiDwn5mCk8tCeXYFkbsAAKtLYXdh
         emFreTIyM6Twn5CMAw==
@@ -12523,7 +12523,7 @@
     - service: vk
       id: 1783
       published: 2024-09-26-18-09-47
-      updated: 2025-06-06-13-26-19
+      updated: 2025-06-13-13-31-33
       followers: 958
       likes: 35
       views: 328
@@ -12539,10 +12539,10 @@
     - service: tg
       id: 546
       published: 2024-09-26-18-09-56
-      updated: 2025-06-06-13-26-16
+      updated: 2025-06-13-13-31-30
       followers: 557
       likes: 67
-      views: 568
+      views: 570
 2018-10-30-stairway-to-god:
   title: Stairway to God
   titleRu: Лестница к богу
