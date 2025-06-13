@@ -521,15 +521,24 @@
       id: DK2dzsbM69l
       mediaId: '18063616568130770'
       published: 2025-06-13-18-28-14
+      updated: 2025-06-13-19-15-41
       followers: 1553
+      likes: 5
     - service: vk
       id: 2462
       published: 2025-06-13-18-28-21
+      updated: 2025-06-13-19-15-41
       followers: 1323
+      likes: 8
+      views: 31
     - service: tg
       id: 884
       published: 2025-06-13-18-28-25
+      updated: 2025-06-13-19-15-41
       followers: 747
+      likes: 21
+      views: 63
+      comments: !c iwuAkZPLQnl2qd3KAACrS2F3YXpha3kyMjOgAw==
 2024-03-18-evening-on-azuras-coast: 2017-05-18-evening-on-azuras-coast
 2024-03-19-dirty-muriels-cornerclub:
   title: Dirty Muriel's Cornerclub
@@ -969,17 +978,17 @@
     - service: vk
       id: 2458
       published: 2025-06-09-18-28-37
-      updated: 2025-06-12-19-15-21
+      updated: 2025-06-13-19-15-45
       followers: 1318
       likes: 38
-      views: 206
+      views: 225
     - service: tg
       id: 880
       published: 2025-06-09-18-28-42
-      updated: 2025-06-12-19-15-20
+      updated: 2025-06-13-19-15-43
       followers: 745
-      likes: 65
-      views: 270
+      likes: 66
+      views: 310
     - service: ig
       id: DKsQFHnMKMW
       mediaId: '17910543366036193'
@@ -2310,7 +2319,7 @@
     - service: vk
       id: 1580
       published: 2024-06-13-18-20-39
-      updated: 2025-06-06-19-11-32
+      updated: 2025-06-13-19-15-55
       followers: 915
       likes: 38
       views: 322
@@ -2318,7 +2327,7 @@
     - service: tg
       id: 438
       published: 2024-06-13-18-20-46
-      updated: 2025-06-06-19-11-28
+      updated: 2025-06-13-19-15-51
       followers: 385
       likes: 56
       views: 491
