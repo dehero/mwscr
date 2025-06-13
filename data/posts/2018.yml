@@ -465,10 +465,10 @@
     - service: tg
       id: 480
       published: 2024-07-25-18-20-32
-      updated: 2025-06-06-14-13-51
+      updated: 2025-06-13-14-19-19
       followers: 399
       likes: 72
-      views: 694
+      views: 695
       comments: !c |-
         G2kAwGT+r/mf3zvw1GhvsNPIZVqkH+DWVkXTNc4DbmIktcaXUDzGyrkk01NmHD/kJvy/Ey2wsjLL
         ZG/fcc3mr7ebk6Pv+rv/Xr4n/dnwKQCmTq6cLK+yzaN4QBIFQlpgaTiVIAtJ88A=
@@ -5416,13 +5416,13 @@
       id: DKxUckuMUki
       mediaId: '17851054788436404'
       published: 2025-06-11-18-30-09
-      updated: 2025-06-13-13-31-29
+      updated: 2025-06-13-14-19-12
       followers: 1554
-      likes: 52
+      likes: 53
     - service: vk
       id: 2460
       published: 2025-06-11-18-30-15
-      updated: 2025-06-13-13-31-28
+      updated: 2025-06-13-14-19-11
       followers: 1320
       likes: 32
       views: 227
@@ -5430,10 +5430,10 @@
     - service: tg
       id: 882
       published: 2025-06-11-18-30-19
-      updated: 2025-06-13-13-31-27
+      updated: 2025-06-13-14-19-10
       followers: 746
       likes: 49
-      views: 213
+      views: 214
       comments: !c |-
         iyCAkpPLQnl2Dwy7gACnbWJkdHNtb7NXaGF0IGEgYmVhdXR5LiDwn5mCk8tCeXYFkbsAAKtLYXdh
         emFreTIyM6Twn5CMAw==
@@ -8994,7 +8994,7 @@
     - service: vk
       id: 1737
       published: 2024-09-05-18-28-36
-      updated: 2025-06-06-14-13-48
+      updated: 2025-06-13-14-19-17
       followers: 943
       likes: 27
       views: 287
@@ -9005,10 +9005,10 @@
     - service: tg
       id: 523
       published: 2024-09-05-18-28-44
-      updated: 2025-06-06-14-13-45
+      updated: 2025-06-13-14-19-14
       followers: 551
       likes: 57
-      views: 559
+      views: 560
 2018-08-16-wall-of-suran:
   title: Wall of Suran
   titleRu: Стена Сурана
@@ -9603,7 +9603,7 @@
     - service: vk
       id: 1674
       published: 2024-08-08-18-20-48
-      updated: 2025-06-06-14-13-54
+      updated: 2025-06-13-14-19-24
       followers: 927
       likes: 38
       views: 399
@@ -9614,7 +9614,7 @@
     - service: tg
       id: 494
       published: 2024-08-08-18-20-54
-      updated: 2025-06-06-14-13-50
+      updated: 2025-06-13-14-19-19
       followers: 508
       likes: 66
       views: 641
@@ -11440,7 +11440,7 @@
     - service: vk
       id: 1691
       published: 2024-08-15-18-20-37
-      updated: 2025-06-06-14-13-53
+      updated: 2025-06-13-14-19-22
       followers: 932
       likes: 36
       views: 329
@@ -11450,10 +11450,10 @@
     - service: tg
       id: 502
       published: 2024-08-15-18-20-44
-      updated: 2025-06-06-14-13-49
+      updated: 2025-06-13-14-19-18
       followers: 527
       likes: 60
-      views: 664
+      views: 665
 2018-10-06-herds-of-netches:
   title: Herds of Netches
   titleRu: Стада нетчей
