@@ -1118,6 +1118,19 @@
       likes: 4
       views: 831
       comments: !c iw6AkZPLQndUcvs/AACrUmF0dGVudmllY2imUHJldHR5Aw==
+    - service: ig
+      id: DK5CLi-MK5H
+      mediaId: '18006315368602717'
+      published: 2025-06-14-18-24-29
+      followers: 1554
+    - service: vk
+      id: 2465
+      published: 2025-06-14-18-24-35
+      followers: 1326
+    - service: tg
+      id: 885
+      published: 2025-06-14-18-24-42
+      followers: 746
 2020-10-21-land-of-rain:
   title: Land of Rain
   titleRu: Земля дождя
