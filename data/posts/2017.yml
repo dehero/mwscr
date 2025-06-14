@@ -1068,7 +1068,7 @@
     - service: vk
       id: 1554
       published: 2024-05-30-18-20-43
-      updated: 2025-06-07-04-16-54
+      updated: 2025-06-14-04-23-34
       followers: 916
       likes: 49
       views: 409
@@ -1081,7 +1081,7 @@
     - service: tg
       id: 424
       published: 2024-05-30-18-20-52
-      updated: 2025-06-07-04-16-47
+      updated: 2025-06-14-04-23-27
       followers: 378
       likes: 60
       views: 519
@@ -10983,24 +10983,24 @@
       id: DKz4-2pMLLR
       mediaId: '18066168299510430'
       published: 2025-06-12-18-27-53
-      updated: 2025-06-14-03-11-44
+      updated: 2025-06-14-04-23-21
       followers: 1554
       likes: 49
     - service: vk
       id: 2461
       published: 2025-06-12-18-27-59
-      updated: 2025-06-14-03-11-45
+      updated: 2025-06-14-04-23-20
       followers: 1320
-      likes: 36
-      views: 225
+      likes: 37
+      views: 226
       reposts: 1
     - service: tg
       id: 883
       published: 2025-06-12-18-28-02
-      updated: 2025-06-14-03-11-42
+      updated: 2025-06-14-04-23-19
       followers: 748
       likes: 58
-      views: 196
+      views: 198
       comments: !c |-
         ixuAkpPLQnl2V+iWgACrS2F3YXpha3kyMjOo8J+HqPCfh7OTy0J5dlZtcAAApWFuc2lzp015IGhv
         bWUD
@@ -11723,9 +11723,9 @@
       id: DFf-B2yTQHv
       mediaId: '18034411085196878'
       published: 2025-01-31-18-10-14
-      updated: 2025-06-07-04-16-50
+      updated: 2025-06-14-04-23-28
       followers: 1534
-      likes: 108
+      likes: 107
       views: 490
       comments: !c |-
         G98AwJyHsbGs8SG7EA7eih9t0NTcPsW/vq2uizWxqIi/eCNyVBIhirW6bgOcXKaTIz2e/Bc6Ny/R
@@ -11735,7 +11735,7 @@
     - service: vk
       id: 2100
       published: 2025-01-31-18-10-20
-      updated: 2025-06-07-04-16-49
+      updated: 2025-06-14-04-23-29
       followers: 1057
       likes: 59
       views: 454
@@ -11750,10 +11750,10 @@
     - service: tg
       id: 690
       published: 2025-01-31-18-10-27
-      updated: 2025-06-07-04-16-42
+      updated: 2025-06-14-04-23-21
       followers: 662
       likes: 74
-      views: 646
+      views: 648
       comments: !c CxiAkZPLQnlMaCGzgACobW9uZ2xlcmm8ZGFtbiB0aG9zZSBjYW5kZXMgYXJlIHByZXR0eQM=
 2017-10-14-land-of-ruins:
   title: Land of Ruins
@@ -14034,7 +14034,7 @@
     - service: vk
       id: 1606
       published: 2024-06-27-18-19-01
-      updated: 2025-06-07-04-16-52
+      updated: 2025-06-14-04-23-32
       followers: 917
       likes: 43
       views: 328
@@ -14042,10 +14042,10 @@
     - service: tg
       id: 452
       published: 2024-06-27-18-19-08
-      updated: 2025-06-07-04-16-45
+      updated: 2025-06-14-04-23-24
       followers: 388
       likes: 56
-      views: 506
+      views: 507
 2017-12-11-princess-of-dusk-and-dawn:
   title: Princess of Dusk and Dawn
   titleRu: Принцесса рассвета и заката
