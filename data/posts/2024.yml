@@ -982,17 +982,17 @@
     - service: vk
       id: 2458
       published: 2025-06-09-18-28-37
-      updated: 2025-06-14-20-19-29
+      updated: 2025-06-15-20-20-19
       followers: 1318
       likes: 38
-      views: 236
+      views: 243
     - service: tg
       id: 880
       published: 2025-06-09-18-28-42
-      updated: 2025-06-14-20-19-27
+      updated: 2025-06-15-20-20-17
       followers: 745
-      likes: 69
-      views: 330
+      likes: 70
+      views: 342
     - service: ig
       id: DKsQFHnMKMW
       mediaId: '17910543366036193'
@@ -2175,24 +2175,24 @@
       id: DK7nF8FMIPN
       mediaId: '18302046121175792'
       published: 2025-06-15-18-25-30
-      updated: 2025-06-15-19-15-10
+      updated: 2025-06-15-20-20-16
       followers: 1553
-      likes: 19
+      likes: 28
     - service: vk
       id: 2466
       published: 2025-06-15-18-25-37
-      updated: 2025-06-15-19-15-10
+      updated: 2025-06-15-20-20-16
       followers: 1328
-      likes: 11
-      views: 57
+      likes: 16
+      views: 96
       reposts: 1
     - service: tg
       id: 886
       published: 2025-06-15-18-25-41
-      updated: 2025-06-15-19-15-10
+      updated: 2025-06-15-20-20-16
       followers: 747
-      likes: 30
-      views: 79
+      likes: 34
+      views: 102
 2024-06-10-utensil:
   title: Utensil
   titleRu: Утварь
