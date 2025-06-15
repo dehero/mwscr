@@ -816,17 +816,17 @@
       id: DJM4hitTnhd
       mediaId: '18005959631685697'
       published: 2025-05-03-18-22-10
-      updated: 2025-06-08-19-10-56
+      updated: 2025-06-15-19-15-25
       followers: 1533
       likes: 76
       comments: !c iw6AkZPLQnlpwgE3AACrZGVsYW5vc3BpZXOmSWNvbmljAw==
     - service: vk
       id: 2332
       published: 2025-05-03-18-22-20
-      updated: 2025-06-08-19-10-54
+      updated: 2025-06-15-19-15-24
       followers: 1275
       likes: 71
-      views: 488
+      views: 496
       reposts: 1
       comments: !c |-
         G4EA+J0JdizEZBhaToDMxD//3kb4deqTDDsJRhh0n7uQlnHPF07c4FTjzQLcvmGYhuXMkcluSRzK
@@ -834,10 +834,10 @@
     - service: tg
       id: 826
       published: 2025-05-03-18-22-30
-      updated: 2025-06-08-19-10-51
+      updated: 2025-06-15-19-15-20
       followers: 736
       likes: 71
-      views: 539
+      views: 545
 2020-10-14-random-visitor:
   title: Random Visitor
   titleRu: Случайный посетитель
@@ -1122,9 +1122,9 @@
       id: DK5CLi-MK5H
       mediaId: '18006315368602717'
       published: 2025-06-14-18-24-29
-      updated: 2025-06-15-18-25-08
+      updated: 2025-06-15-19-15-12
       followers: 1554
-      likes: 93
+      likes: 94
       comments: !c |-
         G3IA6B0Jdgzlz9i2gZIRKn3w5jDR9DygS4nt/foccAmWJhRQeXfSW295HnDxL6UkxaVWP09dhKXF
         ZTmvry2i8ACPZus8KErUP+3bIyMvjPkZSIc6grxyN/vfYcPrawvKAbgps8gPy6jY8rasi25Cw8iy
@@ -1132,18 +1132,18 @@
     - service: vk
       id: 2465
       published: 2025-06-14-18-24-35
-      updated: 2025-06-15-18-25-07
+      updated: 2025-06-15-19-15-11
       followers: 1326
-      likes: 36
-      views: 231
+      likes: 37
+      views: 235
       reposts: 1
     - service: tg
       id: 885
       published: 2025-06-14-18-24-42
-      updated: 2025-06-15-18-25-08
+      updated: 2025-06-15-19-15-11
       followers: 746
-      likes: 49
-      views: 173
+      likes: 53
+      views: 190
 2020-10-21-land-of-rain:
   title: Land of Rain
   titleRu: Земля дождя

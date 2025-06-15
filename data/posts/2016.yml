@@ -582,7 +582,7 @@
     - service: vk
       id: 1644
       published: 2024-07-19-18-20-33
-      updated: 2025-06-08-19-12-00
+      updated: 2025-06-15-19-16-34
       followers: 919
       likes: 49
       views: 346
@@ -593,7 +593,7 @@
     - service: tg
       id: 474
       published: 2024-07-19-18-20-40
-      updated: 2025-06-08-19-11-37
+      updated: 2025-06-15-19-16-04
       followers: 400
       likes: 62
       views: 590
@@ -633,7 +633,7 @@
     - service: vk
       id: 1896
       published: 2024-11-16-18-09-40
-      updated: 2025-06-08-19-11-28
+      updated: 2025-06-15-19-16-06
       followers: 1007
       likes: 55
       views: 427
@@ -647,10 +647,10 @@
     - service: tg
       id: 597
       published: 2024-11-16-18-09-47
-      updated: 2025-06-08-19-11-08
+      updated: 2025-06-15-19-15-38
       followers: 573
       likes: 69
-      views: 722
+      views: 723
 2016-12-01-arvs-drelen:
   title: Arvs-Drelen
   titleRu: Арвс-Дрелен
@@ -1727,7 +1727,7 @@
     - service: vk
       id: 1593
       published: 2024-06-21-18-20-26
-      updated: 2025-06-08-19-12-04
+      updated: 2025-06-15-19-16-38
       followers: 919
       likes: 36
       views: 306
@@ -1735,7 +1735,7 @@
     - service: tg
       id: 446
       published: 2024-06-21-18-20-33
-      updated: 2025-06-08-19-11-41
+      updated: 2025-06-15-19-16-07
       followers: 386
       likes: 55
       views: 548
