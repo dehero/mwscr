@@ -1122,9 +1122,9 @@
       id: DK5CLi-MK5H
       mediaId: '18006315368602717'
       published: 2025-06-14-18-24-29
-      updated: 2025-06-15-14-16-22
+      updated: 2025-06-15-15-18-31
       followers: 1554
-      likes: 91
+      likes: 92
       comments: !c |-
         G3IA6B0Jdgzlz9i2gZIRKn3w5jDR9DygS4nt/foccAmWJhRQeXfSW295HnDxL6UkxaVWP09dhKXF
         ZTmvry2i8ACPZus8KErUP+3bIyMvjPkZSIc6grxyN/vfYcPrawvKAbgps8gPy6jY8rasi25Cw8iy
@@ -1132,18 +1132,18 @@
     - service: vk
       id: 2465
       published: 2025-06-14-18-24-35
-      updated: 2025-06-15-14-16-20
+      updated: 2025-06-15-15-18-30
       followers: 1326
       likes: 36
-      views: 211
+      views: 215
       reposts: 1
     - service: tg
       id: 885
       published: 2025-06-14-18-24-42
-      updated: 2025-06-15-14-16-21
+      updated: 2025-06-15-15-18-30
       followers: 746
-      likes: 47
-      views: 162
+      likes: 48
+      views: 166
 2020-10-21-land-of-rain:
   title: Land of Rain
   titleRu: Земля дождя
