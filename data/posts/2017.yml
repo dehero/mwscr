@@ -10983,24 +10983,24 @@
       id: DKz4-2pMLLR
       mediaId: '18066168299510430'
       published: 2025-06-12-18-27-53
-      updated: 2025-06-15-18-25-12
+      updated: 2025-06-16-18-28-14
       followers: 1554
-      likes: 56
+      likes: 58
     - service: vk
       id: 2461
       published: 2025-06-12-18-27-59
-      updated: 2025-06-15-18-25-11
+      updated: 2025-06-16-18-28-13
       followers: 1320
-      likes: 49
-      views: 337
+      likes: 52
+      views: 396
       reposts: 3
     - service: tg
       id: 883
       published: 2025-06-12-18-28-02
-      updated: 2025-06-15-18-25-09
+      updated: 2025-06-16-18-28-11
       followers: 748
-      likes: 64
-      views: 253
+      likes: 65
+      views: 289
       comments: !c |-
         ixuAkpPLQnl2V+iWgACrS2F3YXpha3kyMjOo8J+HqPCfh7OTy0J5dlZtcAAApWFuc2lzp015IGhv
         bWUD
@@ -13007,6 +13007,19 @@
       followers: 98
       likes: 12
       views: 224
+    - service: ig
+      id: DK-MO_hMGuI
+      mediaId: '17876900667355189'
+      published: 2025-06-16-18-28-33
+      followers: 1553
+    - service: vk
+      id: 2468
+      published: 2025-06-16-18-28-39
+      followers: 1328
+    - service: tg
+      id: 887
+      published: 2025-06-16-18-28-43
+      followers: 748
 2017-11-15-mzahnch-at-sunset:
   title: Mzahnch at Sunset
   titleRu: Мзанч на закате
