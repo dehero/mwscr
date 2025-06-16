@@ -18,6 +18,7 @@ import type { PostingService } from '../entities/service.js';
 
 export const INSTAGRAM_HIGHLIGHTS_ALBUM_ID = 'aGlnaGxpZ2h0OjE3OTkzNTcwNTM3Mzg1MTA3';
 export const INSTAGRAM_ACCOUNT_ID = '4170501247';
+export const INSTAGRAM_USERNAME = 'mwscr';
 
 export const InstagramPost = intersect([
   object({ ...Post.entries, title: PostTitle }),
@@ -56,7 +57,7 @@ export class Instagram implements PostingService<InstagramPublication> {
   }
 
   getSubscriptionUrl(): string {
-    return `https://instagram.com/mwscr/`;
+    return this.getUserProfileUrl(INSTAGRAM_USERNAME);
   }
 
   getUserProfileUrl(profileId: string) {
