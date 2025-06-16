@@ -1,43 +1,47 @@
 .container {
-  display: grid;
-  grid-template-columns: auto 1fr auto;
-  grid-auto-rows: auto;
-  gap: 0 8px;
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  box-sizing: border-box;
+  gap: 8px;
   padding: 8px;
   cursor: default;
   text-decoration: none;
   color: inherit;
-  grid-template-areas:
-    'icon title published'
-    'icon roles roles';
+  overflow: hidden;
+  justify-content: flex-start;
 }
 
-.icon {
-  grid-area: icon;
+.avatar {
+  margin-top: 16px;
+}
+
+.info {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  gap: 3px;
 }
 
 .title {
+  text-align: center;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  overflow-wrap: anywhere;
+  text-wrap: balance;
   color: var(--color-text-light);
-  white-space: nowrap;
-  grid-area: title;
 }
 
 .roles {
-  white-space: nowrap;
-  grid-area: roles;
+  text-align: center;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  overflow-wrap: anywhere;
+  text-wrap: balance;
 }
 
 .published {
   display: inline-flex;
   flex-flow: row nowrap;
   gap: 4px;
-  grid-area: published;
-}
-
-.divider {
-  grid-column: span 2;
-}
-
-.attributes {
-  grid-column: span 2;
 }
