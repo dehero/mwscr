@@ -1122,9 +1122,9 @@
       id: DK5CLi-MK5H
       mediaId: '18006315368602717'
       published: 2025-06-14-18-24-29
-      updated: 2025-06-16-15-21-23
+      updated: 2025-06-16-16-25-13
       followers: 1554
-      likes: 110
+      likes: 112
       comments: !c |-
         i0qAk5PLQnl3cxSIAACnOTcyb3RldrBXaGVyZT8gSG93PyDwn6eQk8tCeXcqZGCAAKxqZXRyb2lk
         bWFrZXPZLUkndmUgbmV2ZXIgc2VlbiB0aGVtIGRvIHRoaXMgYW5pbWF0aW9uLiBDb29sIZPLQnl3
@@ -1132,10 +1132,10 @@
     - service: vk
       id: 2465
       published: 2025-06-14-18-24-35
-      updated: 2025-06-16-15-21-21
+      updated: 2025-06-16-16-25-13
       followers: 1326
       likes: 51
-      views: 306
+      views: 311
       reposts: 1
       comments: !c |-
         G1kA+B0JdkziAxY/3LTb0BgMwmCy1i2GNGyGqqFbjIIw8IWq0YYGWZ6cQjCFsAEH7hGkHpBNeJ+j
@@ -1143,7 +1143,7 @@
     - service: tg
       id: 885
       published: 2025-06-14-18-24-42
-      updated: 2025-06-16-15-21-21
+      updated: 2025-06-16-16-25-12
       followers: 746
       likes: 56
       views: 217
