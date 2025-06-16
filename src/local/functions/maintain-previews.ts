@@ -35,7 +35,7 @@ export async function maintainPreviews() {
       continue;
     }
 
-    const previewPath = await createResourcePreview(url, 64, 64);
+    const previewPath = await createResourcePreview(url, 80, 80);
     if (previewPath) {
       deletablePreviewPaths.delete(previewPath);
     }
