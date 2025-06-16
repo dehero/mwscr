@@ -1,7 +1,7 @@
 import { createMediaQuery } from '@solid-primitives/media';
 import { makePersisted } from '@solid-primitives/storage';
 import type { JSX } from 'solid-js';
-import { createResource, createSignal, For, Show } from 'solid-js';
+import { createResource, createSignal, Show } from 'solid-js';
 import { usePageContext } from 'vike-solid/usePageContext';
 import type { Option } from '../../../core/entities/option.js';
 import { ALL_OPTION } from '../../../core/entities/option.js';
@@ -26,7 +26,7 @@ import { RadioGroup } from '../RadioGroup/RadioGroup.js';
 import { Select } from '../Select/Select.js';
 import { Spacer } from '../Spacer/Spacer.jsx';
 import { Toast } from '../Toaster/Toaster.js';
-import { UserPreview } from '../UserPreview/UserPreview.js';
+import { UserPreviews } from '../UserPreviews/UserPreviews.jsx';
 import styles from './UsersPage.module.css';
 
 export interface UsersPageSearchParams {
@@ -65,6 +65,10 @@ export const UsersPage = (): JSX.Element => {
   const pageContext = usePageContext();
   const { data } = useRouteInfo(pageContext, usersRoute);
   const narrowScreen = createMediaQuery('(max-width: 811px)');
+
+  let containerRef: HTMLDivElement | undefined;
+  let usersRef: HTMLDivElement | undefined;
+  const usersScrollTarget = () => (narrowScreen() ? containerRef : usersRef);
 
   const presetOptions = (): UsersPagePreset[] => {
     const options: UsersPagePreset[] = [...presets];
@@ -113,7 +117,7 @@ export const UsersPage = (): JSX.Element => {
   useLocalPatch(refetch);
 
   return (
-    <Frame component="main" class={styles.container}>
+    <Frame component="main" class={styles.container} ref={containerRef}>
       <Frame class={styles.parameters}>
         <fieldset class={styles.presets}>
           <Select options={presetOptions()} value={preset()} onChange={setPreset} />
@@ -192,11 +196,16 @@ export const UsersPage = (): JSX.Element => {
         </Show>
       </Frame>
 
-      <Frame class={styles.usersWrapper}>
-        <p class={styles.label}>{selectUserInfosResultToString(userInfos().totalCount, userInfos().params)}</p>
-        <div class={styles.users}>
-          <For each={userInfos().items}>{(info) => <UserPreview userInfo={info} />}</For>
-        </div>
+      <Frame variant="thin" class={styles.users} ref={usersRef}>
+        <Show when={userInfos()}>
+          {(userInfos) => (
+            <UserPreviews
+              scrollTarget={usersScrollTarget()}
+              userInfos={userInfos().items}
+              label={selectUserInfosResultToString(userInfos().totalCount, userInfos().params)}
+            />
+          )}
+        </Show>
       </Frame>
     </Frame>
   );

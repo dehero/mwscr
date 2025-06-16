@@ -4,9 +4,12 @@ import type { UserInfo } from '../../../core/entities/user-info.js';
 import { userRoute } from '../../routes/user-route.js';
 import { Frame } from '../Frame/Frame.js';
 import { GoldIcon } from '../GoldIcon/GoldIcon.js';
-import { Icon } from '../Icon/Icon.js';
+import { UserAvatar } from '../UserAvatar/UserAvatar.jsx';
 import { UserTooltip } from '../UserTooltip/UserTooltip.js';
 import styles from './UserPreview.module.css';
+
+export const USER_PREVIEW_MAX_WIDTH = 204;
+export const USER_PREVIEW_HEIGHT = 204;
 
 export interface UserPreviewProps {
   class?: string;
@@ -20,20 +23,20 @@ export const UserPreview: Component<UserPreviewProps> = (props) => {
 
   return (
     <Frame component="a" class={clsx(styles.container, props.class)} ref={setRef} href={url()}>
-      <Icon class={styles.icon} color={props.userInfo.roles.includes('author') ? 'stealth' : 'magic'}>
-        {props.userInfo.title[0]?.toLocaleUpperCase()}
-      </Icon>
+      <UserAvatar class={styles.avatar} userInfo={props.userInfo} />
 
-      <span class={styles.title}>{props.userInfo.title}</span>
+      <section class={styles.info}>
+        <span class={styles.title}>{props.userInfo.title}</span>
 
-      <Show when={authored()}>
-        <span class={styles.published}>
-          <GoldIcon />
-          {authored()}
-        </span>
-      </Show>
+        <span class={styles.roles}>{props.userInfo.roles.join(', ')}</span>
 
-      <span class={styles.roles}>{props.userInfo.roles.join(', ')}</span>
+        <Show when={authored()}>
+          <span class={styles.published}>
+            <GoldIcon />
+            {authored()}
+          </span>
+        </Show>
+      </section>
 
       <UserTooltip forRef={ref()} user={props.userInfo} />
     </Frame>

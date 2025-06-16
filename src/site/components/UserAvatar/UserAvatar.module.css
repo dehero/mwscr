@@ -1,0 +1,19 @@
+.avatar {
+  box-sizing: border-box;
+  max-width: 100%;
+  height: auto;
+  aspect-ratio: 1 / 1;
+  border-radius: 50%;
+  overflow: hidden;
+  border: none;
+}
+
+.fallback {
+  width: 80px;
+  background: var(--color-border);
+  color: var(--color-background);
+  font-size: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

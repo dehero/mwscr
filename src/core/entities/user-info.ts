@@ -6,6 +6,7 @@ import type { PostMark } from './post.js';
 import { getPostMarkFromScore } from './post.js';
 import type { PostsUsage } from './posts-usage.js';
 import { comparePostsUsages, createPostsUsage } from './posts-usage.js';
+import type { ImageResourceUrl } from './resource.js';
 import type { UserRole } from './user.js';
 import { getUserEntryTitle } from './user.js';
 
@@ -21,6 +22,7 @@ export interface UserInfo {
   rating: number;
   roles: UserRole[];
   talkedToTelegramBot: boolean;
+  avatar?: ImageResourceUrl;
 }
 
 export type UserInfoComparator = (a: UserInfo, b: UserInfo) => number;
@@ -108,6 +110,7 @@ export async function createUserInfos(dataManager: DataManager): Promise<UserInf
         rating,
         roles,
         talkedToTelegramBot: Boolean(user.profiles?.tg?.botChatId),
+        avatar: user.avatar,
       });
     }),
   );
