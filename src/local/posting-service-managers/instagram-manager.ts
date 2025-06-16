@@ -1,6 +1,8 @@
 /**
  * This module provides functions for interacting with the Instagram API.
  */
+import { posix } from 'path/posix';
+import { getCookie, igApi } from 'insta-fetcher';
 import type { AbstractRequest, CreatedObjectIdResponse, GetMediaInfoResponse } from 'instagram-graph-api';
 import {
   Client,
@@ -33,11 +35,12 @@ import { RESOURCE_MISSING_IMAGE } from '../../core/entities/resource.js';
 import type { PostingServiceManager } from '../../core/entities/service.js';
 import { USER_DEFAULT_AUTHOR } from '../../core/entities/user.js';
 import type { InstagramPublication } from '../../core/services/instagram.js';
-import { Instagram } from '../../core/services/instagram.js';
+import { Instagram, INSTAGRAM_USERNAME } from '../../core/services/instagram.js';
 import { site } from '../../core/services/site.js';
-import { asArray } from '../../core/utils/common-utils.js';
+import { asArray, getRevisionHash } from '../../core/utils/common-utils.js';
 import { formatDate, getDaysPassed } from '../../core/utils/date-utils.js';
 import { readResource } from '../data-managers/resources.js';
+import { saveUserAvatar } from '../data-managers/store-resources.js';
 import { users } from '../data-managers/users.js';
 import { createPostStory } from '../renderers/stories.js';
 import { siteStoreManager } from '../store-managers/site-store-manager.js';
@@ -49,6 +52,7 @@ const DEBUG_PUBLISHING = Boolean(process.env.DEBUG_PUBLISHING) || false;
 export class InstagramManager extends Instagram implements PostingServiceManager {
   private tempFiles: string[] = [];
   ig: Client | undefined;
+  fetcher: igApi | undefined;
 
   async parseCaption(caption: string) {
     const lines = caption.split('\n');
@@ -176,7 +180,21 @@ export class InstagramManager extends Instagram implements PostingServiceManager
       this.ig = new Client(INSTAGRAM_ACCESS_TOKEN, INSTAGRAM_PAGE_ID);
     }
 
-    return { ig: this.ig };
+    if (!this.fetcher) {
+      const { INSTAGRAM_PASSWORD } = process.env;
+      if (!INSTAGRAM_PASSWORD) {
+        throw new Error(`Need ${this.name} password`);
+      }
+
+      const cookie = await getCookie(INSTAGRAM_USERNAME, INSTAGRAM_PASSWORD);
+      if (typeof cookie !== 'string') {
+        throw new TypeError(`Cannot get ${this.name} cookie`);
+      }
+
+      this.fetcher = new igApi(cookie);
+    }
+
+    return { ig: this.ig, fetcher: this.fetcher };
   }
 
   async publishPostEntry(entry: PostEntry): Promise<void> {
@@ -382,7 +400,7 @@ export class InstagramManager extends Instagram implements PostingServiceManager
   }
 
   private async getPostComments(mediaId: string): Promise<PublicationComment[] | undefined> {
-    const { ig } = await this.connect();
+    const { ig, fetcher } = await this.connect();
     const comments: PublicationComment[] = [];
 
     // Get the comments for the media
@@ -393,6 +411,7 @@ export class InstagramManager extends Instagram implements PostingServiceManager
       CommentField.TIMESTAMP,
       CommentField.USERNAME,
       CommentField.USER,
+      CommentField.FROM,
       CommentField.TEXT,
     );
     const response = await request.execute();
@@ -404,9 +423,16 @@ export class InstagramManager extends Instagram implements PostingServiceManager
         continue;
       }
 
+      const user = await fetcher.fetchUser(item.username);
+      const avatar = await saveUserAvatar(
+        user.hd_profile_pic_url_info.url,
+        `${this.id}-${getRevisionHash(posix.basename(new URL(user.hd_profile_pic_url_info.url).pathname))}.jpg`,
+      );
+
       const [author] = await users.mergeOrAddItem({
         name: item.username,
-        profiles: { [this.id]: { id: item.user?.id, username: item.username } },
+        avatar,
+        profiles: { [this.id]: { id: item.from?.id, username: item.username } },
       });
 
       const replies: PublicationComment[] = [];
@@ -421,6 +447,7 @@ export class InstagramManager extends Instagram implements PostingServiceManager
           CommentField.TIMESTAMP,
           CommentField.USER,
           CommentField.USERNAME,
+          CommentField.FROM,
           CommentField.TEXT,
         );
         const response = await request.execute();
@@ -432,9 +459,17 @@ export class InstagramManager extends Instagram implements PostingServiceManager
           }
 
           const datetime = new Date(childItem.timestamp);
+
+          const user = await fetcher.fetchUser(item.username);
+          const avatar = await saveUserAvatar(
+            user.hd_profile_pic_url_info.url,
+            `${this.id}-${getRevisionHash(posix.basename(new URL(user.hd_profile_pic_url_info.url).pathname))}.jpg`,
+          );
+
           const [author] = await users.mergeOrAddItem({
             name: childItem.username,
-            profiles: { [this.id]: { id: childItem.user?.id, username: childItem.username } },
+            avatar,
+            profiles: { [this.id]: { id: childItem.from?.id, username: childItem.username } },
           });
 
           let text = childItem.text;
