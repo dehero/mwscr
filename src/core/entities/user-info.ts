@@ -15,6 +15,7 @@ export interface UserInfo {
   title: string;
   authored?: PostsUsage;
   requested?: PostsUsage;
+  commented?: PostsUsage;
   likes: number;
   views: number;
   engagement: number;
@@ -42,6 +43,7 @@ export type UserInfoSelection = EntitySelection<UserInfo, SelectUserInfosParams>
 
 export const selectUserInfosSortOptions = [
   { value: 'contribution', label: 'Contribution', fn: compareUserInfosByContribution },
+  { value: 'commentCount', label: 'Comments', fn: compareUserInfosByCommentCount },
   { value: 'id', label: 'ID', fn: compareUserInfosById },
 ] as const satisfies SelectUserInfoSortOption[];
 
@@ -59,6 +61,7 @@ export async function createUserInfos(dataManager: DataManager): Promise<UserInf
       const authored = await createPostsUsage(dataManager.postsManagers, 'getAuthorsUsageStats', id);
       const drawn = await createPostsUsage(dataManager.postsManagers, 'getDrawersUsageStats', id);
       const requested = await createPostsUsage(dataManager.postsManagers, 'getRequesterUsageStats', id);
+      const commented = await createPostsUsage(dataManager.postsManagers, 'getCommentersUsageStats', id);
 
       const likes = (await posts?.getAuthorsLikesStats())?.get(id) || 0;
       const views = (await posts?.getAuthorsViewsStats())?.get(id) || 0;
@@ -84,6 +87,10 @@ export async function createUserInfos(dataManager: DataManager): Promise<UserInf
         roles.push('requester');
       }
 
+      if (commented?.posts || commented?.extras) {
+        roles.push('commenter');
+      }
+
       if (
         !authored?.posts &&
         !authored?.extras &&
@@ -103,6 +110,7 @@ export async function createUserInfos(dataManager: DataManager): Promise<UserInf
         title: getUserEntryTitle(entry),
         authored,
         requested,
+        commented,
         likes,
         views,
         engagement,
@@ -132,9 +140,24 @@ export function compareUserInfosByContribution(direction: SortDirection): UserIn
   const byId = compareUserInfosById(direction);
 
   return direction === 'asc'
-    ? (a, b) => comparePostsUsages(a.authored, b.authored) || comparePostsUsages(a.requested, b.requested) || byId(a, b)
+    ? (a, b) =>
+        comparePostsUsages(a.authored, b.authored) ||
+        comparePostsUsages(a.requested, b.requested) ||
+        comparePostsUsages(a.commented, b.commented) ||
+        byId(a, b)
     : (a, b) =>
-        comparePostsUsages(b.authored, a.authored) || comparePostsUsages(b.requested, a.requested) || byId(b, a);
+        comparePostsUsages(b.authored, a.authored) ||
+        comparePostsUsages(b.requested, a.requested) ||
+        comparePostsUsages(b.commented, a.commented) ||
+        byId(b, a);
+}
+
+export function compareUserInfosByCommentCount(direction: SortDirection): UserInfoComparator {
+  const byId = compareUserInfosById(direction);
+
+  return direction === 'asc'
+    ? (a, b) => comparePostsUsages(a.commented, b.commented) || byId(a, b)
+    : (a, b) => comparePostsUsages(b.commented, a.commented) || byId(b, a);
 }
 
 export function selectUserInfos(
@@ -142,7 +165,11 @@ export function selectUserInfos(
   params: SelectUserInfosParams,
   limit?: number,
 ): UserInfoSelection {
-  const localParams: SelectUserInfosParams = { ...params, sortKey: 'contribution', sortDirection: 'desc' };
+  const localParams: SelectUserInfosParams = {
+    ...params,
+    sortKey: params.sortKey ?? 'contribution',
+    sortDirection: params.sortDirection ?? 'desc',
+  };
 
   const comparator =
     selectUserInfosSortOptions.find((comparator) => comparator.value === params.sortKey)?.fn ??
