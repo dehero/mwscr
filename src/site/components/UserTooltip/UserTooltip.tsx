@@ -7,35 +7,45 @@ import { GoldIcon } from '../GoldIcon/GoldIcon.js';
 import { Icon } from '../Icon/Icon.js';
 import type { TooltipProps } from '../Tooltip/Tooltip.js';
 import { Tooltip } from '../Tooltip/Tooltip.js';
+import { UserAvatar } from '../UserAvatar/UserAvatar.jsx';
 import styles from './UserTooltip.module.css';
 
 interface UserTooltipProps extends Omit<TooltipProps, 'children'> {
   user: UserInfo | string | undefined;
+  showAvatar?: boolean;
 }
 
 export const UserTooltip: Component<UserTooltipProps> = (props) => {
   const [local, rest] = splitProps(props, ['user']);
 
-  const [userInfo] = createResource(local.user, (user) =>
-    typeof user === 'string' ? dataManager.getUserInfo(user) : user,
+  const [userInfo] = createResource(
+    () => local.user,
+    (user) => (typeof user === 'string' ? dataManager.getUserInfo(user) : user),
   );
 
   const authored = () => postsUsageToString(userInfo()?.authored);
   const requested = () => postsUsageToString(userInfo()?.requested);
+  const commented = () => postsUsageToString(userInfo()?.commented);
 
   return (
     <Show when={userInfo()}>
       {(userInfo) => (
         <Tooltip {...rest}>
+          <Show when={props.showAvatar}>
+            <UserAvatar class={styles.avatar} userInfo={userInfo()} />
+          </Show>
+
           <span class={styles.title}>
-            <Icon
-              size="small"
-              variant="flat"
-              color={userInfo().roles.includes('author') ? 'stealth' : 'magic'}
-              class={styles.icon}
-            >
-              {getUserTitleLetter(userInfo().title)}
-            </Icon>
+            <Show when={!props.showAvatar}>
+              <Icon
+                size="small"
+                variant="flat"
+                color={userInfo().roles.includes('author') ? 'stealth' : 'magic'}
+                class={styles.icon}
+              >
+                {getUserTitleLetter(userInfo().title)}
+              </Icon>
+            </Show>
             {userInfo().title}
           </span>
 
@@ -53,6 +63,9 @@ export const UserTooltip: Component<UserTooltipProps> = (props) => {
           </Show>
           <Show when={requested()}>
             <span>Requested: {requested()}</span>
+          </Show>
+          <Show when={commented()}>
+            <span>Commented: {commented()}</span>
           </Show>
           <Show when={userInfo().mark}>
             <span class={styles.mark}>

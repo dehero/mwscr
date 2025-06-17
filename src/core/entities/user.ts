@@ -8,7 +8,7 @@ import type { Service } from './service.js';
 export const USER_DEFAULT_AUTHOR = 'dehero';
 export const USER_UNKNOWN = 'anonimous';
 
-export const UserRole = picklist(['admin', 'author', 'requester', 'drawer', 'beginner', 'foreigner']);
+export const UserRole = picklist(['admin', 'author', 'requester', 'drawer', 'commenter', 'beginner', 'foreigner']);
 
 export const UserProfile = object({
   id: optional(pipe(string(), trim(), nonEmpty())),
