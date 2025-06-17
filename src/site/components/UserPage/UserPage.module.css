@@ -32,14 +32,15 @@
 }
 
 .info {
-  display: grid;
-  grid-template-columns: auto 1fr;
-  grid-auto-rows: auto;
-  gap: 0 8px;
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  gap: 3px;
 }
 
-.icon {
-  grid-row: span 2;
+.avatar {
+  max-width: min(240px, 100%);
+  align-self: center;
 }
 
 .title {
