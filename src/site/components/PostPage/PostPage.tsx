@@ -438,7 +438,7 @@ export const PostPage = (): JSX.Element => {
                         </>
                       ),
                       link: userRoute.createUrl({ id: option.value ?? '' }),
-                      tooltip: (ref) => <UserTooltip forRef={ref} user={option.value} />,
+                      tooltip: (ref) => <UserTooltip forRef={ref} user={option.value} showAvatar />,
                     }),
                   ),
                   {
@@ -456,7 +456,7 @@ export const PostPage = (): JSX.Element => {
                     link: postInfo().requesterOption
                       ? userRoute.createUrl({ id: postInfo().requesterOption!.value ?? '' })
                       : undefined,
-                    tooltip: (ref) => <UserTooltip forRef={ref} user={postInfo().requesterOption!.value} />,
+                    tooltip: (ref) => <UserTooltip forRef={ref} user={postInfo().requesterOption!.value} showAvatar />,
                   },
                   {
                     label: 'Placement',

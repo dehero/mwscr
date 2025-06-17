@@ -4,6 +4,7 @@ import type { JSX } from 'solid-js';
 import { For, Show } from 'solid-js';
 import { usePageContext } from 'vike-solid/usePageContext';
 import { postTypeDescriptors } from '../../../core/entities/post.js';
+import { postsManagerDescriptors, PostsManagerName } from '../../../core/entities/posts-manager.js';
 import { isPostsUsageEmpty } from '../../../core/entities/posts-usage.js';
 import { telegram, TELEGRAM_BOT_NAME } from '../../../core/services/telegram.js';
 import { useRouteInfo } from '../../hooks/useRouteInfo.js';
@@ -21,6 +22,7 @@ import { getPostsPageSearchParamsFromSelectionParams } from '../PostsPage/PostsP
 import { Spacer } from '../Spacer/Spacer.js';
 import { Table } from '../Table/Table.js';
 import { useToaster } from '../Toaster/Toaster.js';
+import { UserAvatar } from '../UserAvatar/UserAvatar.jsx';
 import styles from './UserPage.module.css';
 
 export const UserPage = (): JSX.Element => {
@@ -40,32 +42,30 @@ export const UserPage = (): JSX.Element => {
       {(userInfo) => (
         <Frame component="main" class={styles.container}>
           <Frame component="section" variant="thin" class={styles.main}>
-            <div class={styles.info}>
-              <Icon class={styles.icon} color={userInfo().roles.includes('author') ? 'stealth' : 'magic'}>
-                {userInfo().title[0]?.toLocaleUpperCase()}
-              </Icon>
+            <UserAvatar userInfo={userInfo()} class={styles.avatar} original />
 
+            <div class={styles.info}>
               <p class={styles.title}>{userInfo().title}</p>
 
               <Show when={userInfo().roles.length > 0}>
                 <p class={styles.roles}>{userInfo().roles.join(', ')}</p>
               </Show>
-            </div>
 
-            <Show when={data().userLinks && data().userLinks!.length > 0}>
-              <p class={styles.links}>
-                <For each={data().userLinks}>
-                  {(link, index) => (
-                    <>
-                      <Show when={index() > 0}> • </Show>
-                      <a href={link.url} class={styles.link}>
-                        {link.text}
-                      </a>
-                    </>
-                  )}
-                </For>
-              </p>
-            </Show>
+              <Show when={data().userLinks && data().userLinks!.length > 0}>
+                <p class={styles.links}>
+                  <For each={data().userLinks}>
+                    {(link, index) => (
+                      <>
+                        <Show when={index() > 0}> • </Show>
+                        <a href={link.url} class={styles.link}>
+                          {link.text}
+                        </a>
+                      </>
+                    )}
+                  </For>
+                </p>
+              </Show>
+            </div>
 
             <Show when={!isPostsUsageEmpty(userInfo().authored)}>
               <Divider />
@@ -121,28 +121,24 @@ export const UserPage = (): JSX.Element => {
               <Table
                 class={styles.attributes}
                 label="Requested"
-                rows={[
-                  {
-                    label: 'Posts',
-                    value: userInfo().requested?.posts,
-                    link: postsRoute.createUrl({ managerName: 'posts', requester: id() }),
-                  },
-                  {
-                    label: 'Extras',
-                    value: userInfo().requested?.extras,
-                    link: postsRoute.createUrl({ managerName: 'extras', requester: id() }),
-                  },
-                  {
-                    label: 'Inbox',
-                    value: userInfo().requested?.inbox,
-                    link: postsRoute.createUrl({ managerName: 'inbox', requester: id() }),
-                  },
-                  {
-                    label: 'Trash',
-                    value: userInfo().requested?.trash,
-                    link: postsRoute.createUrl({ managerName: 'trash', requester: id() }),
-                  },
-                ]}
+                rows={PostsManagerName.options.map((name) => ({
+                  label: postsManagerDescriptors[name].title,
+                  value: userInfo().requested?.[name],
+                  link: postsRoute.createUrl({ managerName: name, requester: id() }),
+                }))}
+              />
+            </Show>
+
+            <Show when={!isPostsUsageEmpty(userInfo().commented)}>
+              <Divider />
+
+              <Table
+                class={styles.attributes}
+                label="Commented"
+                rows={PostsManagerName.options.map((name) => ({
+                  label: postsManagerDescriptors[name].title,
+                  value: userInfo().commented?.[name],
+                }))}
               />
             </Show>
 

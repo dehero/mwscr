@@ -2,7 +2,6 @@ import { createMediaQuery } from '@solid-primitives/media';
 import { makePersisted } from '@solid-primitives/storage';
 import type { JSX } from 'solid-js';
 import { createResource, createSignal, Show } from 'solid-js';
-import { usePageContext } from 'vike-solid/usePageContext';
 import type { Option } from '../../../core/entities/option.js';
 import { ALL_OPTION } from '../../../core/entities/option.js';
 import { safeParseSchema } from '../../../core/entities/schema.js';
@@ -13,9 +12,7 @@ import type { SortDirection } from '../../../core/utils/common-types.js';
 import { isObjectEqual } from '../../../core/utils/object-utils.js';
 import { dataManager } from '../../data-managers/manager.js';
 import { useLocalPatch } from '../../hooks/useLocalPatch.js';
-import { useRouteInfo } from '../../hooks/useRouteInfo.js';
 import { useSearchParams } from '../../hooks/useSearchParams.js';
-import { usersRoute } from '../../routes/users-route.js';
 import { Button } from '../Button/Button.js';
 import { Checkbox } from '../Checkbox/Checkbox.jsx';
 import { Divider } from '../Divider/Divider.jsx';
@@ -62,8 +59,6 @@ const presets = [
 export const UsersPage = (): JSX.Element => {
   const [searchParams, setSearchParams] = useSearchParams<UsersPageSearchParams>();
 
-  const pageContext = usePageContext();
-  const { data } = useRouteInfo(pageContext, usersRoute);
   const narrowScreen = createMediaQuery('(max-width: 811px)');
 
   let containerRef: HTMLDivElement | undefined;
@@ -110,9 +105,7 @@ export const UsersPage = (): JSX.Element => {
     sortDirection: sortDirection(),
   });
 
-  const [userInfos, { refetch }] = createResource(selectParams, (params) => dataManager.selectUserInfos(params), {
-    initialValue: data().firstUserInfos,
-  });
+  const [userInfos, { refetch }] = createResource(selectParams, (params) => dataManager.selectUserInfos(params));
 
   useLocalPatch(refetch);
 

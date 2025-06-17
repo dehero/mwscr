@@ -16,6 +16,10 @@
   margin-top: 16px;
 }
 
+.icon {
+  margin-right: 4px;
+}
+
 .info {
   display: flex;
   flex-flow: column nowrap;

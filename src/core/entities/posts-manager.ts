@@ -267,6 +267,34 @@ export abstract class PostsManager<TPost extends Post = Post> extends ListManage
     });
   }
 
+  async getCommentersUsageStats(): Promise<ListReaderStats> {
+    return this.createCache(this.getCommentersUsageStats.name, async () => {
+      const stats = new Map<string, number>();
+
+      for await (const [, post] of this.readAllEntries(true)) {
+        if (!post.posts) {
+          continue;
+        }
+        for (const publication of post.posts) {
+          if (!publication.comments) {
+            continue;
+          }
+          for (const comment of publication.comments) {
+            stats.set(comment.author, (stats.get(comment.author) || 0) + 1);
+            if (!comment.replies) {
+              continue;
+            }
+            for (const reply of comment.replies) {
+              stats.set(reply.author, (stats.get(reply.author) || 0) + 1);
+            }
+          }
+        }
+      }
+
+      return stats;
+    });
+  }
+
   async getLocationsUsageStats(): Promise<ListReaderStats> {
     return this.createCache(this.getLocationsUsageStats.name, async () => {
       const stats = new Map<string, number>();

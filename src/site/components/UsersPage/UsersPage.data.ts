@@ -1,14 +1,8 @@
 import type { DataManager } from '../../../core/entities/data-manager.js';
-import type { UserInfoSelection } from '../../../core/entities/user-info.js';
 
-export interface UsersPageData {
-  firstUserInfos: UserInfoSelection;
-}
+// eslint-disable-next-line @typescript-eslint/no-empty-interface
+export interface UsersPageData {}
 
-export async function getUsersPageData(dataManager: DataManager): Promise<UsersPageData> {
-  const firstUserInfos = await dataManager.selectUserInfos({}, 18);
-
-  return {
-    firstUserInfos,
-  };
+export async function getUsersPageData(_dataManager: DataManager): Promise<UsersPageData> {
+  return {};
 }
