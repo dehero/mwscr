@@ -290,14 +290,14 @@
     - service: tg
       id: 371
       published: 2024-04-07-18-16-13
-      updated: 2025-06-10-12-41-08
+      updated: 2025-06-17-13-32-35
       followers: 353
       likes: 74
       views: 479
     - service: vk
       id: 1485
       published: 2024-04-07-19-10-42
-      updated: 2025-06-10-12-41-29
+      updated: 2025-06-17-13-33-01
       followers: 909
       likes: 59
       views: 347
@@ -739,7 +739,7 @@
     - service: vk
       id: 1966
       published: 2024-12-16-18-11-45
-      updated: 2025-06-10-12-40-58
+      updated: 2025-06-17-13-32-34
       followers: 1027
       likes: 57
       views: 396
@@ -818,7 +818,7 @@
     - service: vk
       id: 1560
       published: 2024-06-02-18-19-25
-      updated: 2025-06-10-12-41-22
+      updated: 2025-06-17-13-32-54
       followers: 915
       likes: 48
       views: 386
@@ -826,11 +826,11 @@
     - service: tg
       id: 427
       published: 2024-06-02-18-19-30
-      updated: 2025-06-10-12-41-01
+      updated: 2025-06-17-13-32-30
       followers: 380
       likes: 65
       views: 500
-      comments: !c CxWAkZPLQnj9qMKhAACj4YWgu9Ca0YDQsNGB0LjQstC+0LUg0LzQtdGB0YLQvgM=
+      comments: !c ixeAkZPLQnj9qMKhAACoQmxhZ29jYmS70JrRgNCw0YHQuNCy0L7QtSDQvNC10YHRgtC+Aw==
 2016-12-05-balmora-walkthrough:
   title: Balmora Walkthrough
   titleRu: Прогулка по Балморе
@@ -1457,7 +1457,7 @@
     - service: vk
       id: 1512
       published: 2024-04-28-18-16-56
-      updated: 2025-06-10-12-41-26
+      updated: 2025-06-17-13-32-58
       followers: 911
       likes: 43
       views: 352
@@ -1465,7 +1465,7 @@
     - service: tg
       id: 392
       published: 2024-04-28-18-17-01
-      updated: 2025-06-10-12-41-05
+      updated: 2025-06-17-13-32-33
       followers: 354
       likes: 71
       views: 551

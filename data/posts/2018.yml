@@ -179,15 +179,15 @@
     - service: vk
       id: 1876
       published: 2024-11-04-18-10-22
-      updated: 2025-06-10-12-41-09
+      updated: 2025-06-17-13-32-42
       followers: 1003
       likes: 31
-      views: 315
+      views: 316
       reposts: 1
     - service: tg
       id: 585
       published: 2024-11-04-18-10-32
-      updated: 2025-06-10-12-40-46
+      updated: 2025-06-17-13-32-17
       followers: 565
       likes: 58
       views: 652
@@ -1628,7 +1628,7 @@
       id: DGdxQcuy3jz
       mediaId: '17897784168141465'
       published: 2025-02-24-18-11-33
-      updated: 2025-06-10-12-40-47
+      updated: 2025-06-17-13-32-26
       followers: 1536
       likes: 86
       views: 315
@@ -2300,7 +2300,7 @@
     - service: vk
       id: 1434
       published: 2024-03-03-18-16-44
-      updated: 2025-06-10-12-41-34
+      updated: 2025-06-17-13-33-07
       followers: 894
       likes: 34
       views: 300
@@ -2308,7 +2308,7 @@
     - service: tg
       id: 334
       published: 2024-03-03-18-16-50
-      updated: 2025-06-10-12-41-11
+      updated: 2025-06-17-13-32-38
       followers: 341
       likes: 64
       views: 536
@@ -2382,7 +2382,7 @@
     - service: vk
       id: 1503
       published: 2024-04-21-18-17-40
-      updated: 2025-06-10-12-41-27
+      updated: 2025-06-17-13-32-59
       followers: 909
       likes: 46
       views: 312
@@ -2394,7 +2394,7 @@
     - service: tg
       id: 385
       published: 2024-04-21-18-17-47
-      updated: 2025-06-10-12-41-05
+      updated: 2025-06-17-13-32-33
       followers: 354
       likes: 64
       views: 479
@@ -3827,7 +3827,7 @@
     - service: vk
       id: 1595
       published: 2024-06-23-18-18-57
-      updated: 2025-06-10-12-41-19
+      updated: 2025-06-17-13-32-51
       followers: 918
       likes: 36
       views: 299
@@ -3841,10 +3841,10 @@
     - service: tg
       id: 448
       published: 2024-06-23-18-19-06
-      updated: 2025-06-10-12-40-59
+      updated: 2025-06-17-13-32-27
       followers: 389
       likes: 53
-      views: 506
+      views: 507
 2018-04-08-the-symmetry-of-vivec:
   title: The Symmetry of Vivec
   titleRu: Симметрия Вивека
@@ -5161,14 +5161,14 @@
     - service: vk
       id: 1468
       published: 2024-03-24-18-11-49
-      updated: 2025-06-10-12-41-30
+      updated: 2025-06-17-13-33-03
       followers: 898
       likes: 41
       views: 353
     - service: tg
       id: 356
       published: 2024-03-24-18-11-58
-      updated: 2025-06-10-12-41-09
+      updated: 2025-06-17-13-32-35
       followers: 352
       likes: 60
       views: 552
@@ -6923,14 +6923,14 @@
     - service: vk
       id: 1667
       published: 2024-08-04-18-18-36
-      updated: 2025-06-10-12-41-12
+      updated: 2025-06-17-13-32-44
       followers: 927
       likes: 34
       views: 288
     - service: tg
       id: 490
       published: 2024-08-04-18-18-43
-      updated: 2025-06-10-12-40-50
+      updated: 2025-06-17-13-32-20
       followers: 476
       likes: 64
       views: 857
@@ -10842,7 +10842,7 @@
       id: DHB0S2fT4UF
       mediaId: '18058157302870144'
       published: 2025-03-10-18-10-45
-      updated: 2025-06-10-12-40-44
+      updated: 2025-06-17-13-32-24
       followers: 1534
       likes: 134
       views: 383
@@ -10914,7 +10914,7 @@
     - service: vk
       id: 1648
       published: 2024-07-21-18-19-00
-      updated: 2025-06-10-12-41-14
+      updated: 2025-06-17-13-32-47
       followers: 919
       likes: 26
       views: 289
@@ -10924,7 +10924,7 @@
     - service: tg
       id: 476
       published: 2024-07-21-18-19-07
-      updated: 2025-06-10-12-40-52
+      updated: 2025-06-17-13-32-22
       followers: 400
       likes: 52
       views: 593
@@ -11331,9 +11331,9 @@
       id: DEK-qqtJkm9
       mediaId: '17873375394164737'
       published: 2024-12-29-18-00-22
-      updated: 2025-06-10-12-41-08
+      updated: 2025-06-17-13-32-41
       followers: 1519
-      likes: 130
+      likes: 129
       views: 579
     - service: vk
       id: 1996
@@ -11510,7 +11510,7 @@
       id: DExn5skTWOM
       mediaId: '17876857326238567'
       published: 2025-01-13-18-11-48
-      updated: 2025-06-10-12-41-02
+      updated: 2025-06-17-13-32-36
       followers: 1524
       likes: 162
       views: 548
@@ -11520,7 +11520,7 @@
     - service: vk
       id: 2052
       published: 2025-01-13-18-12-09
-      updated: 2025-06-10-12-40-45
+      updated: 2025-06-17-13-32-26
       followers: 1052
       likes: 52
       views: 393
