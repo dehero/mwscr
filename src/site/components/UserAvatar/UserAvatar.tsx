@@ -1,15 +1,16 @@
 import clsx from 'clsx';
-import { type Component, onMount, Show } from 'solid-js';
+import { type Component, createResource, onMount, Show } from 'solid-js';
 import { parseResourceUrl } from '../../../core/entities/resource.js';
 import type { UserInfo } from '../../../core/entities/user-info.js';
 import { store } from '../../../core/stores/index.js';
+import { dataManager } from '../../data-managers/manager.js';
 import { getResourcePreviewUrl } from '../../data-managers/resources.js';
 import YellowExclamationMark from '../../images/exclamation.svg';
 import { useToaster } from '../Toaster/Toaster.jsx';
 import styles from './UserAvatar.module.css';
 
 export interface UserAvatarProps {
-  userInfo: UserInfo;
+  user: UserInfo | string;
   class?: string;
   onLoad?: () => void;
   onError?: () => void;
@@ -20,22 +21,27 @@ export const UserAvatar: Component<UserAvatarProps> = (props) => {
   const { addToast } = useToaster();
   let ref: HTMLImageElement | undefined;
 
+  const [userInfo] = createResource(
+    () => props.user,
+    (user) => (typeof user === 'string' ? dataManager.getUserInfo(user) : user),
+  );
+
   const url = () =>
-    props.userInfo.avatar
+    userInfo()?.avatar
       ? props.original
-        ? store.getPublicUrl(parseResourceUrl(props.userInfo.avatar).pathname)
-        : getResourcePreviewUrl(props.userInfo.avatar)
+        ? store.getPublicUrl(parseResourceUrl(userInfo()!.avatar!).pathname)
+        : getResourcePreviewUrl(userInfo()!.avatar!)
       : undefined;
 
   const handleLoad = () => {
-    if (ref?.src !== YellowExclamationMark) {
+    if (ref instanceof HTMLImageElement && ref.src !== YellowExclamationMark) {
       props.onLoad?.();
     }
   };
 
   const handleError = () => {
     addToast(props.original ? `Failed to load: ${url()}` : `Failed to load preview: ${url()}`);
-    if (ref && ref.src !== YellowExclamationMark) {
+    if (ref instanceof HTMLImageElement && ref.src !== YellowExclamationMark) {
       ref.src = YellowExclamationMark;
       ref.ariaLabel = 'yellow exclamation mark';
     }
@@ -44,7 +50,7 @@ export const UserAvatar: Component<UserAvatarProps> = (props) => {
 
   onMount(() => {
     const src = url();
-    if (ref && src) {
+    if (ref instanceof HTMLImageElement && src) {
       // Force trigger onLoad event after hydration by changing src
       ref.src = src;
     }
@@ -56,9 +62,9 @@ export const UserAvatar: Component<UserAvatarProps> = (props) => {
       fallback={
         <div
           class={clsx(props.class, styles.avatar, styles.fallback, props.original && styles.original)}
-          aria-label={props.userInfo.title}
+          aria-label={userInfo()?.title}
         >
-          {props.userInfo.title[0]?.toLocaleUpperCase()}
+          {userInfo()?.title[0]?.toLocaleUpperCase()}
         </div>
       }
       keyed
@@ -69,7 +75,7 @@ export const UserAvatar: Component<UserAvatarProps> = (props) => {
         draggable="false"
         onLoad={handleLoad}
         onError={handleError}
-        aria-label={props.userInfo.title}
+        aria-label={userInfo()?.title}
         ref={ref}
       />
     </Show>

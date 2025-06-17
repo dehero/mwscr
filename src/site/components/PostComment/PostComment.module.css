@@ -1,0 +1,26 @@
+.comment {
+  display: grid;
+  gap: 2px 6px;
+  grid-template-columns: 20px 1fr;
+  grid-template-rows: auto auto;
+  grid-template-areas: 'avatar title' 'avatar text';
+}
+
+.avatar {
+  grid-area: avatar;
+}
+
+.title {
+  grid-area: title;
+  color: var(--color-text-light);
+  font-weight: normal;
+  font-size: inherit;
+  margin: 0;
+  line-height: 1.25;
+  text-decoration: none;
+}
+
+.text {
+  grid-area: text;
+  margin: 0;
+}

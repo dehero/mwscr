@@ -42,7 +42,7 @@ export const UserPage = (): JSX.Element => {
       {(userInfo) => (
         <Frame component="main" class={styles.container}>
           <Frame component="section" variant="thin" class={styles.main}>
-            <UserAvatar userInfo={userInfo()} class={styles.avatar} original />
+            <UserAvatar user={userInfo()} class={styles.avatar} original />
 
             <div class={styles.info}>
               <p class={styles.title}>{userInfo().title}</p>

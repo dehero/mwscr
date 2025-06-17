@@ -3,9 +3,10 @@ import { type Component, For, Show } from 'solid-js';
 import { getAllPostCommentsSorted } from '../../../core/entities/post.js';
 import type { Publication } from '../../../core/entities/publication.js';
 import { groupBy } from '../../../core/utils/common-utils.js';
-import { dateToString, formatDate, formatTime } from '../../../core/utils/date-utils.js';
+import { dateToString, formatDate } from '../../../core/utils/date-utils.js';
 import { Divider } from '../Divider/Divider.js';
 import { Frame } from '../Frame/Frame.js';
+import { PostComment } from '../PostComment/PostComment.jsx';
 import styles from './PostComments.module.css';
 
 export interface PostCommentsProps {
@@ -31,22 +32,8 @@ export const PostComments: Component<PostCommentsProps> = (props) => {
               <For each={comments}>
                 {(comment) => (
                   <>
-                    <section class={styles.comment}>
-                      <h4 class={styles.title}>
-                        [{comment.service}] {formatTime(comment.datetime, true)} {comment.author}
-                      </h4>
-                      <p class={styles.text}>{comment.text}</p>
-                    </section>
-                    <For each={comment.replies}>
-                      {(reply) => (
-                        <section class={styles.reply}>
-                          <h5 class={styles.title}>
-                            {formatTime(comment.datetime, true)} {reply.author}
-                          </h5>
-                          <p class={styles.text}>{reply.text}</p>
-                        </section>
-                      )}
-                    </For>
+                    <PostComment comment={comment} class={styles.comment} service={comment.service} />
+                    <For each={comment.replies}>{(reply) => <PostComment comment={reply} class={styles.reply} />}</For>
                   </>
                 )}
               </For>
