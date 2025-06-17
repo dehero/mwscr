@@ -11,6 +11,7 @@ export class SiteStore implements Store {
     'photoshops/*.{jpg,png}',
     'snapshots/*.{jpg,png}',
     'outtakes/*.{jpg,png}',
+    'avatars/*.jpg',
   ];
 
   getPublicUrl(path: string): string | undefined {
