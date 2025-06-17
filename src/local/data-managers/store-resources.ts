@@ -279,7 +279,7 @@ export async function movePublishedPostResources([id, post]: PostEntry<Publishab
 }
 
 export async function saveUserAvatar(
-  resource: string | (() => Promise<Buffer | undefined>) | undefined,
+  resource: string | (() => Promise<Buffer | string | undefined>) | undefined,
   filename: ImageResourceUrl,
 ): Promise<ImageResourceUrl | undefined> {
   if (!resource) {
@@ -293,7 +293,9 @@ export async function saveUserAvatar(
       await moveResource(resource, newUrl);
     } else {
       const data = await resource();
-      if (data && data.byteLength > 0) {
+      if (typeof data === 'string') {
+        await moveResource(data, newUrl);
+      } else if (data && data.byteLength > 0) {
         await writeResource(newUrl, data);
       } else {
         return undefined;
