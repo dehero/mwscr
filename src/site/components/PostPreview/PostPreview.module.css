@@ -110,3 +110,7 @@
   column-count: 2;
   column-fill: auto;
 }
+
+.avatar {
+  max-width: 16px !important;
+}
