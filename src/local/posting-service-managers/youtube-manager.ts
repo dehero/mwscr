@@ -82,11 +82,15 @@ export class YouTubeManager extends YouTube implements PostingServiceManager {
       return;
     }
 
+    const authorChannelSnippet = snippet.authorChannelId?.value
+      ? await this.getChannelSnippet(snippet.authorChannelId.value)
+      : undefined;
+
     const text = snippet.textDisplay;
-    const nameRu = snippet.authorDisplayName;
+    const nameRu = authorChannelSnippet?.title ?? snippet.authorDisplayName;
     const name = transliterate(nameRu);
     const avatar = await saveUserAvatar(
-      snippet.authorProfileImageUrl ?? undefined,
+      authorChannelSnippet?.thumbnails?.high?.url ?? authorChannelSnippet?.thumbnails?.default?.url ?? undefined,
       `${this.id}-${getRevisionHash(snippet.authorProfileImageUrl ?? '')}.jpg`,
     );
 
@@ -102,6 +106,14 @@ export class YouTubeManager extends YouTube implements PostingServiceManager {
     await users.save();
 
     return { datetime, author, text };
+  }
+
+  private async getChannelSnippet(channelId: string) {
+    const { yt } = await this.connect();
+
+    const { data } = await yt.channels.list({ id: [channelId], part: ['snippet'] });
+
+    return data.items?.[0]?.snippet;
   }
 
   async updatePublication(publication: Publication) {
