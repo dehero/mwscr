@@ -1635,17 +1635,17 @@
     - service: vk
       id: 2147
       published: 2025-02-24-18-11-42
-      updated: 2025-06-10-12-40-39
+      updated: 2025-06-17-12-41-03
       followers: 1124
       likes: 34
-      views: 438
+      views: 439
     - service: tg
       id: 723
       published: 2025-02-24-18-11-50
-      updated: 2025-06-10-12-40-27
+      updated: 2025-06-17-12-40-55
       followers: 685
       likes: 59
-      views: 685
+      views: 688
 2018-02-13-urshilaku-camp:
   title: Urshilaku Camp
   titleRu: Лагерь Уршилаку
@@ -4218,16 +4218,16 @@
       id: DJSCDBPNh5G
       mediaId: '18074365795804472'
       published: 2025-05-05-18-21-33
-      updated: 2025-06-10-12-40-28
+      updated: 2025-06-17-12-40-49
       followers: 1531
       likes: 175
     - service: vk
       id: 2338
       published: 2025-05-05-18-21-56
-      updated: 2025-06-10-12-40-22
+      updated: 2025-06-17-12-40-47
       followers: 1277
       likes: 132
-      views: 1258
+      views: 1301
       reposts: 17
       comments: !c |-
         G8YAIJwJdizEZBhaTsY0jGRDlPx4glU4EhxohGZGLZlyMz1Q3Yy78BKhB2HkWXjXHUkiB43sWJ2y
@@ -4240,10 +4240,10 @@
         - 830
         - 831
       published: 2025-05-05-18-22-16
-      updated: 2025-06-10-12-40-19
+      updated: 2025-06-17-12-40-46
       followers: 736
       likes: 79
-      views: 616
+      views: 628
       comments: !c |-
         G7cBQORqbV8JWTeimtQbQ3y5d1xCl9BMM6ES0idkuvl5+1LlqtV7ZzqbciZcFzBFipJJ8f8xdyXe
         3ovbjkhi8pzN78EeP/g8MOzI2kcKiWJP0hQrrXkQ8QF+aQqUSsjnyOCbFWGGsluzi+FNVArqPlMl
@@ -7954,25 +7954,25 @@
       id: DIb9YQlAy9w
       mediaId: '18053498783517076'
       published: 2025-04-14-18-21-46
-      updated: 2025-06-10-12-40-34
+      updated: 2025-06-17-12-40-56
       followers: 1530
       likes: 64
       views: 228
     - service: vk
       id: 2278
       published: 2025-04-14-18-21-56
-      updated: 2025-06-10-12-40-26
+      updated: 2025-06-17-12-40-52
       followers: 1255
       likes: 65
-      views: 455
+      views: 459
       reposts: 3
     - service: tg
       id: 794
       published: 2025-04-14-18-22-04
-      updated: 2025-06-10-12-40-21
+      updated: 2025-06-17-12-40-48
       followers: 720
       likes: 61
-      views: 503
+      views: 506
 2018-07-18-view-of-private-property:
   title: View of Private Property
   titleRu: Вид на частную собственность
@@ -10849,10 +10849,10 @@
     - service: vk
       id: 2184
       published: 2025-03-10-18-11-05
-      updated: 2025-06-10-12-40-36
+      updated: 2025-06-17-12-41-00
       followers: 1177
       likes: 77
-      views: 597
+      views: 598
       reposts: 5
       comments: !c |-
         izaAkpPLQnlYGUkEAACpcWlyb25nNjY2sdCa0YDQsNGB0LjQstC+0LUuk8tCeVg9IE8AAKppZDYz
@@ -10864,10 +10864,10 @@
         - 742
         - 743
       published: 2025-03-10-18-11-24
-      updated: 2025-06-10-12-40-25
+      updated: 2025-06-17-12-40-53
       followers: 693
       likes: 71
-      views: 694
+      views: 697
       comments: !c CxiAkZPLQnlYFGcEAACvYWxpY2VfcmFiYml0XzAytU9kYWkgdW5kZXIgdGhlIGJyaWRnZQM=
 2018-09-24-verminous-fabricant:
   title: Verminous Fabricant
@@ -11548,10 +11548,10 @@
         - 665
         - 666
       published: 2025-01-13-18-12-27
-      updated: 2025-06-10-12-40-32
+      updated: 2025-06-17-12-40-59
       followers: 648
       likes: 65
-      views: 930
+      views: 932
 2018-10-07-on-the-way-to-the-crater:
   title: On the Way to the Crater
   titleRu: На пути к кратеру
