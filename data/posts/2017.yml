@@ -11394,10 +11394,10 @@
     - service: vk
       id: 2319
       published: 2025-04-29-18-24-00
-      updated: 2025-06-10-22-18-42
+      updated: 2025-06-17-23-18-33
       followers: 1274
       likes: 55
-      views: 433
+      views: 441
       comments: !c |-
         G9cDACwOTLxuijF6eBLvRjT+dUPCSCbzGPXIJcuEnUM5luA0IDQhWIzD9JxFlwtnhHyhdvfCpbSs
         jJD8z7k20iTYnqfgwPdrlRp5d35gB5qDN+OI9y5B/B9DIH3BJVaVx3d1pt7EYocnEJJoDHd3ArJH
@@ -11412,10 +11412,10 @@
     - service: tg
       id: 822
       published: 2025-04-29-18-30-21
-      updated: 2025-06-10-22-18-40
+      updated: 2025-06-17-23-18-31
       followers: 728
       likes: 59
-      views: 508
+      views: 514
 2017-10-04-in-the-evening-time:
   title: In the Evening Time
   titleRu: В вечерний час
@@ -13011,24 +13011,24 @@
       id: DK-MO_hMGuI
       mediaId: '17876900667355189'
       published: 2025-06-16-18-28-33
-      updated: 2025-06-17-22-18-26
+      updated: 2025-06-17-23-18-29
       followers: 1553
-      likes: 62
+      likes: 64
     - service: vk
       id: 2468
       published: 2025-06-16-18-28-39
-      updated: 2025-06-17-22-18-25
+      updated: 2025-06-17-23-18-30
       followers: 1328
       likes: 46
-      views: 337
+      views: 338
       reposts: 4
     - service: tg
       id: 887
       published: 2025-06-16-18-28-43
-      updated: 2025-06-17-22-18-24
+      updated: 2025-06-17-23-18-29
       followers: 748
-      likes: 56
-      views: 203
+      likes: 57
+      views: 204
       comments: !c iw2AkZPLQnl3oF8DgACrS2F3YXpha3kyMjOk8J+YiQM=
 2017-11-15-mzahnch-at-sunset:
   title: Mzahnch at Sunset
