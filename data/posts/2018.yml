@@ -5416,24 +5416,24 @@
       id: DKxUckuMUki
       mediaId: '17851054788436404'
       published: 2025-06-11-18-30-09
-      updated: 2025-06-17-19-16-06
+      updated: 2025-06-18-20-22-58
       followers: 1554
       likes: 63
     - service: vk
       id: 2460
       published: 2025-06-11-18-30-15
-      updated: 2025-06-17-19-16-05
+      updated: 2025-06-18-20-22-58
       followers: 1320
-      likes: 45
-      views: 335
+      likes: 46
+      views: 345
       reposts: 1
     - service: tg
       id: 882
       published: 2025-06-11-18-30-19
-      updated: 2025-06-17-19-16-02
+      updated: 2025-06-18-20-22-55
       followers: 746
-      likes: 60
-      views: 334
+      likes: 61
+      views: 355
       comments: !c |-
         iyCAkpPLQnl2Dwy7gACnbWJkdHNtb7NXaGF0IGEgYmVhdXR5LiDwn5mCk8tCeXYFkbsAAKtLYXdh
         emFreTIyM6Twn5CMAw==
@@ -11628,23 +11628,24 @@
       id: DLDVy6ssHHG
       mediaId: '18052606397372853'
       published: 2025-06-18-18-28-17
-      updated: 2025-06-18-19-15-59
+      updated: 2025-06-18-20-22-51
       followers: 1552
-      likes: 11
+      likes: 17
     - service: vk
       id: 2473
       published: 2025-06-18-18-28-24
-      updated: 2025-06-18-19-16-00
+      updated: 2025-06-18-20-22-50
       followers: 1326
-      likes: 7
-      views: 43
+      likes: 11
+      views: 70
+      reposts: 1
     - service: tg
       id: 889
       published: 2025-06-18-18-28-30
-      updated: 2025-06-18-19-16-01
+      updated: 2025-06-18-20-22-52
       followers: 750
-      likes: 23
-      views: 66
+      likes: 30
+      views: 93
       comments: !c iw2AkZPLQnl4RuVigACrS2F3YXpha3kyMjOk8J+RjQM=
 2018-10-09-severe-innkeeper:
   title: Severe Innkeeper
