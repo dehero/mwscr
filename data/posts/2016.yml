@@ -1286,24 +1286,30 @@
       id: DLAxCKwMros
       mediaId: '17862711228356418'
       published: 2025-06-17-18-28-37
-      updated: 2025-06-18-15-21-33
+      updated: 2025-06-18-16-25-27
       followers: 1553
-      likes: 57
+      likes: 58
     - service: vk
       id: 2470
       published: 2025-06-17-18-28-43
-      updated: 2025-06-18-15-21-33
+      updated: 2025-06-18-16-25-28
       followers: 1327
-      likes: 46
-      views: 217
+      likes: 47
+      views: 222
       reposts: 1
+      comments: !c |-
+        G6MBIKwOeHPIKymG0UZ76EfEP++fSPryqU1awRrUsOnERjg5l3w6pz7PaZY9R9EymUC1dkRvEtP2
+        dZ9UuyyyskAjKXNkshNHZyfJ8PKenmjioUUYRxG1tShrNwns8wNd4Ce94N3GRrPXiAxcip89n1+6
+        9n+M7w0V/u+l5sgGE4q4Or9agaBgrJhcsmkQ6hhElcftZHNGczU/eCH7y+wgJRX3oXM8IGvIAxxj
+        B2JaFDALCZ05zXat2SyNILkma395ILYLLsxB/FaUCAGktZUV+FxIE54iOQhaJLMTl0uSgHbXCAdR
+        Bj5WjiiG+gE=
     - service: tg
       id: 888
       published: 2025-06-17-18-28-46
-      updated: 2025-06-18-15-21-33
+      updated: 2025-06-18-16-25-28
       followers: 749
       likes: 48
-      views: 163
+      views: 164
 2016-12-19-hla-oad:
   title: Hla Oad
   titleRu: Хла Оуд
