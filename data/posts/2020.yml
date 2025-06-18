@@ -1122,9 +1122,9 @@
       id: DK5CLi-MK5H
       mediaId: '18006315368602717'
       published: 2025-06-14-18-24-29
-      updated: 2025-06-17-17-18-10
+      updated: 2025-06-18-17-19-32
       followers: 1554
-      likes: 117
+      likes: 119
       comments: !c |-
         i0qAk5PLQnl3cxSIAACnOTcyb3RldrBXaGVyZT8gSG93PyDwn6eQk8tCeXcqZGCAAKxqZXRyb2lk
         bWFrZXPZLUkndmUgbmV2ZXIgc2VlbiB0aGVtIGRvIHRoaXMgYW5pbWF0aW9uLiBDb29sIZPLQnl3
@@ -1132,10 +1132,10 @@
     - service: vk
       id: 2465
       published: 2025-06-14-18-24-35
-      updated: 2025-06-17-17-18-09
+      updated: 2025-06-18-17-19-29
       followers: 1326
-      likes: 59
-      views: 387
+      likes: 64
+      views: 426
       reposts: 1
       comments: !c |-
         GygBABwJdizLwsNXJCuj+P5E0jf+AxyTSIAysUCBWrGWsLKnc7O0Yv8Q5gdw1lusv9tPVYvKzySC
@@ -1145,10 +1145,10 @@
     - service: tg
       id: 885
       published: 2025-06-14-18-24-42
-      updated: 2025-06-17-17-18-08
+      updated: 2025-06-18-17-19-26
       followers: 746
-      likes: 59
-      views: 256
+      likes: 60
+      views: 283
 2020-10-21-land-of-rain:
   title: Land of Rain
   titleRu: Земля дождя
@@ -1628,7 +1628,7 @@
     - service: tg
       id: 238
       published: 2020-10-31
-      updated: 2025-06-11-16-27-44
+      updated: 2025-06-18-17-21-35
       followers: 167
       likes: 5
       views: 1264
@@ -1661,7 +1661,7 @@
     - service: tg
       id: 239
       published: 2020-11-01
-      updated: 2025-06-11-16-27-43
+      updated: 2025-06-18-17-21-34
       followers: 167
       likes: 6
       views: 1296
@@ -1673,17 +1673,17 @@
       id: DGOUfCCRu_h
       mediaId: '18033866441571025'
       published: 2025-02-18-18-11-31
-      updated: 2025-06-11-16-26-03
+      updated: 2025-06-18-17-19-54
       followers: 1539
       likes: 72
       views: 301
     - service: vk
       id: 2137
       published: 2025-02-18-18-11-39
-      updated: 2025-06-11-16-25-55
+      updated: 2025-06-18-17-19-45
       followers: 1092
       likes: 36
-      views: 461
+      views: 462
       reposts: 1
       comments: !c |-
         G6sA8JwJdiyXCQdrkYxJf0TgbTjB35iTABMtsSJM7nVulNANSUJi6scdQ2K1qM4tZs5AXg3W/I1i
@@ -1692,10 +1692,10 @@
     - service: tg
       id: 714
       published: 2025-02-18-18-11-48
-      updated: 2025-06-11-16-25-45
+      updated: 2025-06-18-17-19-36
       followers: 678
       likes: 59
-      views: 637
+      views: 638
       comments: !c iw+AkZPLQnlSitTSgACvQWxleGV5IFN0ZXBhbm92pPCfkKYD
 2020-11-02-dead-reflections:
   title: Dead Reflections
@@ -1732,7 +1732,7 @@
     - service: tg
       id: 240
       published: 2020-11-02
-      updated: 2025-06-11-16-27-43
+      updated: 2025-06-18-17-21-34
       followers: 166
       likes: 12
       views: 1387
@@ -1773,7 +1773,7 @@
     - service: tg
       id: 241
       published: 2020-11-03
-      updated: 2025-06-11-16-27-43
+      updated: 2025-06-18-17-21-34
       followers: 166
       likes: 10
       views: 1593
@@ -1814,7 +1814,7 @@
     - service: tg
       id: 242
       published: 2020-11-05
-      updated: 2025-06-11-16-27-42
+      updated: 2025-06-18-17-21-34
       followers: 166
       likes: 11
       views: 1815
@@ -1874,7 +1874,7 @@
     - service: tg
       id: 243
       published: 2020-11-07
-      updated: 2025-06-11-16-27-42
+      updated: 2025-06-18-17-21-33
       followers: 167
       likes: 10
       views: 1957
@@ -1922,10 +1922,10 @@
     - service: tg
       id: 244
       published: 2020-11-09
-      updated: 2025-06-11-16-27-42
+      updated: 2025-06-18-17-21-33
       followers: 169
       likes: 14
-      views: 2507
+      views: 2508
       comments: !c |-
         CyiAkpPLQnf+6WhCAACpUmVkb3JhbmFyvmh0dHBzOi8vdC5tZS9Nb3Jyb3dpbmRUZWxlZ3JhbZPL
         QndkLo7RAACpUHVkZGxlc1BrqGJpZyBkZWFsAw==
@@ -1966,7 +1966,7 @@
     - service: tg
       id: 245
       published: 2020-11-11
-      updated: 2025-06-11-16-27-41
+      updated: 2025-06-18-17-21-33
       followers: 169
       likes: 18
       views: 2565
