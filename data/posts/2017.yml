@@ -3333,7 +3333,7 @@
     - service: vk
       id: 1690
       published: 2024-08-14-18-25-51
-      updated: 2025-06-12-16-25-01
+      updated: 2025-06-19-18-34-08
       followers: 931
       likes: 52
       views: 509
@@ -3341,7 +3341,7 @@
     - service: tg
       id: 501
       published: 2024-08-14-18-26-00
-      updated: 2025-06-12-16-24-55
+      updated: 2025-06-19-18-34-00
       followers: 527
       likes: 67
       views: 679
@@ -6442,10 +6442,10 @@
     - service: vk
       id: 1923
       published: 2024-11-27-18-11-33
-      updated: 2025-06-12-16-24-48
+      updated: 2025-06-19-18-33-55
       followers: 1010
       likes: 62
-      views: 975
+      views: 982
       reposts: 4
     - service: tg
       id: 608
@@ -8470,7 +8470,7 @@
     - service: vk
       id: 1736
       published: 2024-09-04-18-31-41
-      updated: 2025-06-12-16-24-58
+      updated: 2025-06-19-18-34-05
       followers: 942
       likes: 37
       views: 355
@@ -8481,7 +8481,7 @@
     - service: tg
       id: 522
       published: 2024-09-04-18-31-49
-      updated: 2025-06-12-16-24-52
+      updated: 2025-06-19-18-33-56
       followers: 550
       likes: 68
       views: 830
@@ -9911,7 +9911,7 @@
     - service: vk
       id: 1817
       published: 2024-10-09-18-11-13
-      updated: 2025-06-12-16-24-53
+      updated: 2025-06-19-18-34-00
       followers: 957
       likes: 44
       views: 368
@@ -9919,10 +9919,10 @@
     - service: tg
       id: 559
       published: 2024-10-09-18-11-21
-      updated: 2025-06-12-16-24-48
+      updated: 2025-06-19-18-33-52
       followers: 559
       likes: 68
-      views: 665
+      views: 666
 2017-08-27-deadly-pass:
   title: Deadly Pass
   titleRu: Смертельный проход
@@ -13011,24 +13011,24 @@
       id: DK-MO_hMGuI
       mediaId: '17876900667355189'
       published: 2025-06-16-18-28-33
-      updated: 2025-06-18-18-27-59
+      updated: 2025-06-19-18-33-49
       followers: 1553
-      likes: 64
+      likes: 65
     - service: vk
       id: 2468
       published: 2025-06-16-18-28-39
-      updated: 2025-06-18-18-27-59
+      updated: 2025-06-19-18-33-47
       followers: 1328
-      likes: 55
-      views: 389
+      likes: 57
+      views: 435
       reposts: 4
     - service: tg
       id: 887
       published: 2025-06-16-18-28-43
-      updated: 2025-06-18-18-27-58
+      updated: 2025-06-19-18-33-48
       followers: 748
       likes: 61
-      views: 216
+      views: 238
       comments: !c iw2AkZPLQnl3oF8DgACrS2F3YXpha3kyMjOk8J+YiQM=
 2017-11-15-mzahnch-at-sunset:
   title: Mzahnch at Sunset
@@ -13574,6 +13574,19 @@
       followers: 103
       likes: 13
       views: 164
+    - service: ig
+      id: DLF7g14NNqb
+      mediaId: '18032560346432084'
+      published: 2025-06-19-18-36-21
+      followers: 1553
+    - service: vk
+      id: 2477
+      published: 2025-06-19-18-36-26
+      followers: 1326
+    - service: tg
+      id: 890
+      published: 2025-06-19-18-36-30
+      followers: 750
 2017-11-30-lava-kwama:
   title: Lava Kwama
   titleRu: Лавовые квама
@@ -14109,7 +14122,7 @@
     - service: vk
       id: 1833
       published: 2024-10-16-18-11-44
-      updated: 2025-06-12-16-24-51
+      updated: 2025-06-19-18-33-59
       followers: 965
       likes: 44
       views: 457
@@ -14117,10 +14130,10 @@
     - service: tg
       id: 566
       published: 2024-10-16-18-11-53
-      updated: 2025-06-12-16-24-47
+      updated: 2025-06-19-18-33-51
       followers: 562
       likes: 65
-      views: 545
+      views: 546
       comments: !c |-
         iyuAkZTLQnkpaLsDAACuU2hpc2tvcmliYWZpc2i9d2hlcmUgaXMgdGhpcyBzdGF0dWUgbG9jYXRl
         ZD+Ty0J5KWm0CQAApW13c2Nyr1NocmluZSBvZiBBenVyYQM=

@@ -210,7 +210,7 @@
     - service: vk
       id: 1750
       published: 2024-09-11-18-36-08
-      updated: 2025-06-12-16-24-57
+      updated: 2025-06-19-18-34-05
       followers: 945
       likes: 51
       views: 423
@@ -221,10 +221,10 @@
     - service: tg
       id: 529
       published: 2024-09-11-18-36-14
-      updated: 2025-06-12-16-24-52
+      updated: 2025-06-19-18-33-56
       followers: 555
       likes: 57
-      views: 995
+      views: 1000
       comments: !c ixaAkZTLQnkeJgMugAClYW5zaXOnbXkgaG9tZZPLQnkeK5YvAACpR2F0ZW1hdGU3oAM=
 2016-11-20-5-galom-daeus:
   title: Galom Daeus
@@ -680,17 +680,17 @@
       id: DIhG_1uAMEY
       mediaId: '17901096612163942'
       published: 2025-04-16-18-22-02
-      updated: 2025-06-12-16-24-47
+      updated: 2025-06-19-18-33-56
       followers: 1529
       likes: 87
       views: 307
     - service: vk
       id: 2282
       published: 2025-04-16-18-22-11
-      updated: 2025-06-12-16-24-47
+      updated: 2025-06-19-18-33-53
       followers: 1261
       likes: 75
-      views: 524
+      views: 528
       reposts: 2
       comments: !c |-
         G3MA+C0SzNOZIrBxyzn4pCAU2IEHFAjFAZdQxMkOdTWlBCks4wLeP73ICyTQyOLa2rKs//L9dMAX
@@ -698,10 +698,10 @@
     - service: tg
       id: 797
       published: 2025-04-16-18-22-22
-      updated: 2025-06-12-16-24-46
+      updated: 2025-06-19-18-33-50
       followers: 720
       likes: 59
-      views: 557
+      views: 560
 2016-12-02-molag-mar:
   title: Molag Mar
   titleRu: Молаг Мар
@@ -1675,7 +1675,7 @@
     - service: vk
       id: 1713
       published: 2024-08-28-18-23-48
-      updated: 2025-06-12-16-24-59
+      updated: 2025-06-19-18-34-07
       followers: 940
       likes: 49
       views: 368
@@ -1688,7 +1688,7 @@
     - service: tg
       id: 515
       published: 2024-08-28-18-23-56
-      updated: 2025-06-12-16-24-53
+      updated: 2025-06-19-18-33-57
       followers: 546
       likes: 70
       views: 656

@@ -28,7 +28,7 @@
     - service: vk
       id: 1213
       published: 2020-05-13
-      updated: 2025-06-12-16-25-19
+      updated: 2025-06-19-18-34-26
       followers: 379
       likes: 58
       views: 674
@@ -73,7 +73,7 @@
     - service: vk
       id: 1218
       published: 2020-05-14
-      updated: 2025-06-12-16-25-18
+      updated: 2025-06-19-18-34-25
       followers: 379
       likes: 41
       views: 592
@@ -136,7 +136,7 @@
     - service: vk
       id: 1220
       published: 2020-05-15
-      updated: 2025-06-12-16-25-17
+      updated: 2025-06-19-18-34-24
       followers: 379
       likes: 40
       views: 603
@@ -182,7 +182,7 @@
     - service: vk
       id: 1223
       published: 2020-05-16
-      updated: 2025-06-12-16-25-16
+      updated: 2025-06-19-18-34-24
       followers: 380
       likes: 54
       views: 623
@@ -222,7 +222,7 @@
     - service: vk
       id: 1225
       published: 2020-05-17
-      updated: 2025-06-12-16-25-16
+      updated: 2025-06-19-18-34-23
       followers: 381
       likes: 45
       views: 633
@@ -258,7 +258,7 @@
     - service: vk
       id: 1226
       published: 2020-05-18
-      updated: 2025-06-12-16-25-15
+      updated: 2025-06-19-18-34-22
       followers: 381
       likes: 43
       views: 633
@@ -301,7 +301,7 @@
     - service: vk
       id: 1228
       published: 2020-05-19
-      updated: 2025-06-12-16-25-14
+      updated: 2025-06-19-18-34-21
       followers: 381
       likes: 48
       views: 683
@@ -348,7 +348,7 @@
     - service: vk
       id: 1230
       published: 2020-05-20
-      updated: 2025-06-12-16-25-13
+      updated: 2025-06-19-18-34-21
       followers: 381
       likes: 65
       views: 712
@@ -384,7 +384,7 @@
     - service: vk
       id: 1232
       published: 2020-05-21
-      updated: 2025-06-12-16-25-13
+      updated: 2025-06-19-18-34-20
       followers: 383
       likes: 40
       views: 710
@@ -451,7 +451,7 @@
     - service: vk
       id: 1233
       published: 2020-05-22
-      updated: 2025-06-12-16-25-12
+      updated: 2025-06-19-18-34-19
       followers: 384
       likes: 49
       views: 718
@@ -488,7 +488,7 @@
     - service: vk
       id: 1234
       published: 2020-05-23
-      updated: 2025-06-12-16-25-11
+      updated: 2025-06-19-18-34-18
       followers: 385
       likes: 62
       views: 925
@@ -522,7 +522,7 @@
     - service: vk
       id: 1235
       published: 2020-05-24
-      updated: 2025-06-12-16-25-10
+      updated: 2025-06-19-18-34-18
       followers: 385
       likes: 52
       views: 849
@@ -563,7 +563,7 @@
     - service: vk
       id: 1237
       published: 2020-05-25
-      updated: 2025-06-12-16-25-10
+      updated: 2025-06-19-18-34-17
       followers: 386
       likes: 43
       views: 999
@@ -604,7 +604,7 @@
     - service: vk
       id: 1240
       published: 2020-05-26
-      updated: 2025-06-12-16-25-09
+      updated: 2025-06-19-18-34-16
       followers: 399
       likes: 47
       views: 1175
@@ -647,7 +647,7 @@
     - service: vk
       id: 1248
       published: 2020-10-10
-      updated: 2025-06-12-16-25-08
+      updated: 2025-06-19-18-34-15
       followers: 430
       likes: 51
       views: 685
@@ -694,7 +694,7 @@
     - service: vk
       id: 1249
       published: 2020-10-11
-      updated: 2025-06-12-16-25-07
+      updated: 2025-06-19-18-34-15
       followers: 432
       likes: 46
       views: 607
@@ -741,7 +741,7 @@
     - service: vk
       id: 1250
       published: 2020-10-12
-      updated: 2025-06-12-16-25-07
+      updated: 2025-06-19-18-34-14
       followers: 439
       likes: 73
       views: 762
@@ -790,7 +790,7 @@
     - service: vk
       id: 1253
       published: 2020-10-13
-      updated: 2025-06-12-16-25-06
+      updated: 2025-06-19-18-34-13
       followers: 440
       likes: 56
       views: 728
@@ -861,7 +861,7 @@
     - service: vk
       id: 1257
       published: 2020-10-14
-      updated: 2025-06-12-16-25-05
+      updated: 2025-06-19-18-34-12
       followers: 445
       likes: 48
       views: 668
@@ -903,7 +903,7 @@
     - service: vk
       id: 1258
       published: 2020-10-15
-      updated: 2025-06-12-16-25-04
+      updated: 2025-06-19-18-34-12
       followers: 445
       likes: 53
       views: 726
@@ -939,7 +939,7 @@
     - service: vk
       id: 1259
       published: 2020-10-16
-      updated: 2025-06-12-16-25-03
+      updated: 2025-06-19-18-34-11
       followers: 446
       likes: 52
       views: 696
@@ -1122,9 +1122,9 @@
       id: DK5CLi-MK5H
       mediaId: '18006315368602717'
       published: 2025-06-14-18-24-29
-      updated: 2025-06-18-17-19-32
+      updated: 2025-06-19-18-33-54
       followers: 1554
-      likes: 119
+      likes: 121
       comments: !c |-
         i0qAk5PLQnl3cxSIAACnOTcyb3RldrBXaGVyZT8gSG93PyDwn6eQk8tCeXcqZGCAAKxqZXRyb2lk
         bWFrZXPZLUkndmUgbmV2ZXIgc2VlbiB0aGVtIGRvIHRoaXMgYW5pbWF0aW9uLiBDb29sIZPLQnl3
@@ -1132,10 +1132,10 @@
     - service: vk
       id: 2465
       published: 2025-06-14-18-24-35
-      updated: 2025-06-18-17-19-29
+      updated: 2025-06-19-18-33-51
       followers: 1326
-      likes: 64
-      views: 426
+      likes: 65
+      views: 457
       reposts: 1
       comments: !c |-
         GygBABwJdizLwsNXJCuj+P5E0jf+AxyTSIAysUCBWrGWsLKnc7O0Yv8Q5gdw1lusv9tPVYvKzySC
@@ -1145,10 +1145,10 @@
     - service: tg
       id: 885
       published: 2025-06-14-18-24-42
-      updated: 2025-06-18-17-19-26
+      updated: 2025-06-19-18-33-50
       followers: 746
       likes: 60
-      views: 283
+      views: 300
 2020-10-21-land-of-rain:
   title: Land of Rain
   titleRu: Земля дождя
