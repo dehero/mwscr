@@ -88,7 +88,9 @@ export const CommentPreviews: Component<CommentPreviewsProps> = (props) => {
 
   return (
     <Frame class={clsx(styles.container, props.class)}>
-      <For each={groups()}>{(group) => <Group commentInfos={group[1]} hideAuthorName={props.hideAuthorName} />}</For>
+      <For each={groups()} fallback={<p class={styles.fallbackText}>No comments yet</p>}>
+        {(group) => <Group commentInfos={group[1]} hideAuthorName={props.hideAuthorName} />}
+      </For>
     </Frame>
   );
 };

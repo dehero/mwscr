@@ -9,9 +9,9 @@ export interface UserRouteParams extends SiteRouteParams {
 export const userRoute: SiteRoute<UserRouteParams, UserPageData> = {
   path: '/users/@id',
   meta: (params, data) => ({
-    title: data?.userInfo?.title || params.id,
+    title: data?.title || params.id,
     description: `Information, posts, requests and statistics of "${
-      data?.userInfo?.title || params.id
+      data?.title || params.id
     }" in Morrowind Screenshots project.`,
   }),
   createUrl: (params) => `/users/${params.id}/`,
