@@ -1109,7 +1109,7 @@
     - service: vk
       id: 1653
       published: 2024-07-23-18-20-55
-      updated: 2025-06-12-10-22-25
+      updated: 2025-06-19-11-18-26
       followers: 921
       likes: 40
       views: 308
@@ -1118,7 +1118,7 @@
     - service: tg
       id: 478
       published: 2024-07-23-18-21-00
-      updated: 2025-06-12-10-21-58
+      updated: 2025-06-19-11-18-01
       followers: 400
       likes: 62
       views: 578
@@ -1286,16 +1286,16 @@
       id: DLAxCKwMros
       mediaId: '17862711228356418'
       published: 2025-06-17-18-28-37
-      updated: 2025-06-19-10-21-15
+      updated: 2025-06-19-11-17-26
       followers: 1553
       likes: 62
     - service: vk
       id: 2470
       published: 2025-06-17-18-28-43
-      updated: 2025-06-19-10-21-15
+      updated: 2025-06-19-11-17-25
       followers: 1327
       likes: 51
-      views: 241
+      views: 243
       reposts: 1
       comments: !c |-
         G6MBIKwOeHPIKymG0UZ76EfEP++fSPryqU1awRrUsOnERjg5l3w6pz7PaZY9R9EymUC1dkRvEtP2
@@ -1306,10 +1306,10 @@
     - service: tg
       id: 888
       published: 2025-06-17-18-28-46
-      updated: 2025-06-19-10-21-14
+      updated: 2025-06-19-11-17-25
       followers: 749
       likes: 51
-      views: 209
+      views: 210
 2016-12-19-hla-oad:
   title: Hla Oad
   titleRu: Хла Оуд
@@ -1354,7 +1354,7 @@
     - service: vk
       id: 1564
       published: 2024-06-04-18-19-46
-      updated: 2025-06-12-10-22-32
+      updated: 2025-06-19-11-18-33
       followers: 915
       likes: 47
       views: 399
@@ -1370,7 +1370,7 @@
     - service: tg
       id: 429
       published: 2024-06-04-18-19-52
-      updated: 2025-06-12-10-22-07
+      updated: 2025-06-19-11-18-08
       followers: 383
       likes: 64
       views: 477
