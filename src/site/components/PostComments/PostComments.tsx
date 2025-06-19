@@ -1,22 +1,26 @@
 import clsx from 'clsx';
 import { type Component, For, Show } from 'solid-js';
-import { getAllPostCommentsSorted } from '../../../core/entities/post.js';
-import type { Publication } from '../../../core/entities/publication.js';
+import { compareCommentsByDatetime } from '../../../core/entities/comment.js';
+import { getPublicationsCommentsWithService, type Publication } from '../../../core/entities/publication.js';
 import { groupBy } from '../../../core/utils/common-utils.js';
 import { dateToString, formatDate } from '../../../core/utils/date-utils.js';
+import { Comment } from '../Comment/Comment.jsx';
 import { Divider } from '../Divider/Divider.js';
 import { Frame } from '../Frame/Frame.js';
-import { PostComment } from '../PostComment/PostComment.jsx';
 import styles from './PostComments.module.css';
 
 export interface PostCommentsProps {
-  class?: string;
   publications: Publication[];
+  class?: string;
 }
+
+const sorter = compareCommentsByDatetime('asc');
 
 export const PostComments: Component<PostCommentsProps> = (props) => {
   const commentGroups = () => [
-    ...groupBy(getAllPostCommentsSorted(props.publications), (comment) => dateToString(comment.datetime)).entries(),
+    ...groupBy(getPublicationsCommentsWithService(props.publications, sorter), (comment) =>
+      dateToString(comment.datetime),
+    ).entries(),
   ];
 
   return (
@@ -32,8 +36,8 @@ export const PostComments: Component<PostCommentsProps> = (props) => {
               <For each={comments}>
                 {(comment) => (
                   <>
-                    <PostComment comment={comment} class={styles.comment} service={comment.service} />
-                    <For each={comment.replies}>{(reply) => <PostComment comment={reply} class={styles.reply} />}</For>
+                    <Comment comment={comment} class={styles.comment} service={comment.service} hideDate />
+                    <For each={comment.replies}>{(reply) => <Comment comment={reply} class={styles.reply} />}</For>
                   </>
                 )}
               </For>

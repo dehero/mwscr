@@ -7,7 +7,7 @@
   gap: 8px;
   grid-template-columns: 1fr;
   grid-template-rows: auto;
-  grid-template-areas: 'main' 'posts';
+  grid-template-areas: 'main' 'posts' 'comments';
   overflow-y: auto;
 }
 
@@ -29,6 +29,11 @@
 
 .postHighlights {
   justify-content: center;
+}
+
+.comments {
+  grid-area: comments;
+  padding: 8px;
 }
 
 .info {
@@ -92,11 +97,17 @@
   text-align: center;
 }
 
+.fallbackText {
+  margin: 0;
+  color: var(--color-text-light);
+  align-self: center;
+}
+
 @media only screen and (min-width: 812px) {
   .container {
-    grid-template-columns: auto 1fr;
+    grid-template-columns: auto 1fr 1fr;
     grid-template-rows: 1fr;
-    grid-template-areas: 'main posts';
+    grid-template-areas: 'main comments posts';
     overflow: hidden;
     padding: 0 8px 8px 8px;
     margin: 0;
@@ -108,6 +119,7 @@
   }
 
   .main,
+  .comments,
   .posts {
     overflow-y: auto;
   }

@@ -1,3 +1,4 @@
+import type { CommentInfo } from '../../../core/entities/comment-info.js';
 import type { DataManager } from '../../../core/entities/data-manager.js';
 import type { Link } from '../../../core/entities/link.js';
 import { PostType } from '../../../core/entities/post.js';
@@ -23,6 +24,7 @@ export interface UserPageData {
   lastRejectedRequestInfo?: PostInfoSelection;
   editorsChoicePostInfo?: PostInfoSelection;
   lastExtraPostInfos: Array<[PostType, PostInfoSelection | undefined]>;
+  commentInfos: CommentInfo[];
 }
 
 export async function getUserPageData(dataManager: DataManager, params: UserRouteParams): Promise<UserPageData> {
@@ -110,5 +112,6 @@ export async function getUserPageData(dataManager: DataManager, params: UserRout
         ),
       )
     ).filter(([, info]) => info?.totalCount),
+    commentInfos: (await dataManager.getAllCommentInfos()).filter((comment) => comment.author === params.id),
   };
 }

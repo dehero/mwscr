@@ -1,32 +1,19 @@
 import type { InferOutput } from 'valibot';
-import {
-  array,
-  date,
-  minValue,
-  nonEmpty,
-  number,
-  object,
-  optional,
-  picklist,
-  pipe,
-  string,
-  trim,
-  unknown,
-} from 'valibot';
+import { array, date, minValue, nonEmpty, number, object, optional, picklist, pipe, string, unknown } from 'valibot';
 import { asArray } from '../utils/common-utils.js';
 import { getDaysPassed, getMinutesPassed, isDateInRange } from '../utils/date-utils.js';
+import type { CommentsComparator } from './comment.js';
+import { Comment } from './comment.js';
 
 export const PUBLICATION_IS_RECENT_DAYS = 31;
 export const PUBLICATION_MINIMUM_GAP_HOURS = 2;
-
-const BaseComment = object({ datetime: date(), author: pipe(string(), nonEmpty()), text: pipe(string(), trim()) });
 
 export const PublicationType = picklist(['story']);
 export type PublicationType = InferOutput<typeof PublicationType>;
 
 export const PublicationComment = object({
-  ...BaseComment.entries,
-  replies: optional(array(BaseComment)),
+  ...Comment.entries,
+  replies: optional(array(Comment)),
 });
 export type PublicationComment = InferOutput<typeof PublicationComment>;
 
@@ -48,6 +35,10 @@ export const Publication = object({
   comments: optional(array(PublicationComment)),
 });
 export type Publication = InferOutput<typeof Publication>;
+
+export interface PublicationCommentWithService extends PublicationComment {
+  service: string;
+}
 
 export function isPublicationUpdatable(publication: Publication): boolean {
   const updated = publication.updated ?? publication.published;
@@ -144,6 +135,22 @@ export function getPublicationsCommentCount(publications: Publication[]) {
         total + (publication.comments?.reduce((total, comment) => total + 1 + (comment.replies?.length ?? 0), 0) ?? 0),
       0,
     ) || 0
+  );
+}
+
+export function getPublicationsCommentsWithService(
+  publications: Publication[],
+  sorter: CommentsComparator,
+): PublicationCommentWithService[] {
+  return publications.flatMap(
+    (publication) =>
+      publication.comments
+        ?.map((comment) => ({
+          ...comment,
+          service: publication.service,
+          replies: [...(comment.replies ?? [])].sort(sorter),
+        }))
+        .sort(sorter) ?? [],
   );
 }
 
