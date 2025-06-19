@@ -34,3 +34,9 @@
   flex-flow: column nowrap;
   gap: 12px;
 }
+
+.fallbackText {
+  margin: 0;
+  color: var(--color-text-light);
+  text-align: center;
+}
