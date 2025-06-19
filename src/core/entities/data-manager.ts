@@ -1,10 +1,11 @@
 import { asArray } from '../utils/common-utils.js';
+import { type CommentInfo, createCommentInfos } from './comment-info.js';
 import type { DataPatch } from './data-patch.js';
 import { isNestedLocation } from './location.js';
 import type { LocationInfo } from './location-info.js';
 import { createLocationInfos } from './location-info.js';
 import type { LocationsReader } from './locations-reader.js';
-import type { PostLocation } from './post.js';
+import { type PostLocation } from './post.js';
 import type { PostInfo, PostInfoSelection, SelectPostInfosParams } from './post-info.js';
 import { createPostInfos, selectPostInfos } from './post-info.js';
 import type { PostsManager, PostsManagerName } from './posts-manager.js';
@@ -119,6 +120,10 @@ export class DataManager {
 
   findPostsManager(managerName: string): PostsManager | undefined {
     return this.postsManagers.find((manager) => manager.name === managerName);
+  }
+
+  async getAllCommentInfos(): Promise<CommentInfo[]> {
+    return this.createCache(this.getAllCommentInfos.name, () => createCommentInfos(this));
   }
 
   async getAllPostInfos(managerName: PostsManagerName): Promise<PostInfo[]> {
