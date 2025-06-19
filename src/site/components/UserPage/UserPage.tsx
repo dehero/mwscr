@@ -11,6 +11,7 @@ import { useRouteInfo } from '../../hooks/useRouteInfo.js';
 import { postsRoute } from '../../routes/posts-route.js';
 import { userRoute } from '../../routes/user-route.js';
 import { Button } from '../Button/Button.js';
+import { CommentPreviews } from '../CommentPreviews/CommentPreviews.jsx';
 import { Divider } from '../Divider/Divider.js';
 import { Frame } from '../Frame/Frame.js';
 import { GoldIcon } from '../GoldIcon/GoldIcon.js';
@@ -207,41 +208,62 @@ export const UserPage = (): JSX.Element => {
             </div>
           </Frame>
 
+          <CommentPreviews commentInfos={data().commentInfos} class={styles.comments} hideAuthorName />
+
           <Frame component="section" class={styles.posts}>
-            <PostHighlights
-              class={styles.postHighlights}
-              items={[
-                { label: 'Last Post', primary: true, selection: data().lastPostInfo },
-                { label: 'Last Original Post', primary: true, selection: data().lastOriginalPostInfo },
-                { label: 'First Post', selection: data().firstPostInfo },
-                { label: 'Top Rated Post', selection: data().topRatedPostInfo },
-                { label: "Editor's Choice Post", selection: data().editorsChoicePostInfo },
-                { label: 'Top Liked Post', selection: data().topLikedPostInfo },
-                { label: 'Less Liked Post', selection: data().lessLikedPostInfo },
-                { label: 'Last Fulfilled Request', selection: data().lastFulfilledPostInfo },
-              ]}
-            />
+            <Show
+              when={
+                data().lastPostInfo ||
+                data().lastOriginalPostInfo ||
+                data().firstPostInfo ||
+                data().topRatedPostInfo ||
+                data().editorsChoicePostInfo ||
+                data().topLikedPostInfo ||
+                data().lessLikedPostInfo ||
+                data().lastFulfilledPostInfo ||
+                data().lastExtraPostInfos.length > 0 ||
+                data().lastProposedPostInfo ||
+                data().lastRequestedPostInfo ||
+                data().lastRejectedPostInfo ||
+                data().lastRejectedRequestInfo
+              }
+              fallback={<p class={styles.fallbackText}>No content yet</p>}
+            >
+              <PostHighlights
+                class={styles.postHighlights}
+                items={[
+                  { label: 'Last Post', primary: true, selection: data().lastPostInfo },
+                  { label: 'Last Original Post', primary: true, selection: data().lastOriginalPostInfo },
+                  { label: 'First Post', selection: data().firstPostInfo },
+                  { label: 'Top Rated Post', selection: data().topRatedPostInfo },
+                  { label: "Editor's Choice Post", selection: data().editorsChoicePostInfo },
+                  { label: 'Top Liked Post', selection: data().topLikedPostInfo },
+                  { label: 'Less Liked Post', selection: data().lessLikedPostInfo },
+                  { label: 'Last Fulfilled Request', selection: data().lastFulfilledPostInfo },
+                ]}
+              />
 
-            <PostHighlights
-              class={styles.postHighlights}
-              items={data().lastExtraPostInfos.map(
-                ([type, selection]): PostHighlightsItem => ({
-                  label: `Last ${postTypeDescriptors[type].title}` as PostHighlightsItem['label'],
-                  primary: true,
-                  selection,
-                }),
-              )}
-            />
+              <PostHighlights
+                class={styles.postHighlights}
+                items={data().lastExtraPostInfos.map(
+                  ([type, selection]): PostHighlightsItem => ({
+                    label: `Last ${postTypeDescriptors[type].title}` as PostHighlightsItem['label'],
+                    primary: true,
+                    selection,
+                  }),
+                )}
+              />
 
-            <PostHighlights
-              class={styles.postHighlights}
-              items={[
-                { label: 'Last Proposal', primary: true, selection: data().lastProposedPostInfo },
-                { label: 'Last Pending Request', selection: data().lastRequestedPostInfo },
-                { label: 'Last Rejected Proposal', selection: data().lastRejectedPostInfo },
-                { label: 'Last Rejected Request', selection: data().lastRejectedRequestInfo },
-              ]}
-            />
+              <PostHighlights
+                class={styles.postHighlights}
+                items={[
+                  { label: 'Last Proposal', primary: true, selection: data().lastProposedPostInfo },
+                  { label: 'Last Pending Request', selection: data().lastRequestedPostInfo },
+                  { label: 'Last Rejected Proposal', selection: data().lastRejectedPostInfo },
+                  { label: 'Last Rejected Request', selection: data().lastRejectedRequestInfo },
+                ]}
+              />
+            </Show>
           </Frame>
         </Frame>
       )}

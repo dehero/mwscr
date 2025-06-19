@@ -8,7 +8,6 @@ import { areNestedLocations as areRelatedLocations } from './location.js';
 import type { MediaAspectRatio } from './media.js';
 import { postTitleFromString } from './post-title.js';
 import { PostDescription, PostVariant } from './post-variant.js';
-import type { PublicationComment } from './publication.js';
 import {
   getPublicationEngagement,
   getPublicationsStats,
@@ -106,10 +105,6 @@ export type PostEntriesComparator = (a: PostEntry, b: PostEntry) => number;
 export type PostFilter<TPost extends Post, TFilteredPost extends TPost> = (post: Post) => post is TFilteredPost;
 
 export type PostSource<TPost extends Post> = () => AsyncGenerator<PostEntry<TPost>>;
-
-export interface PostComment extends PublicationComment {
-  service: string;
-}
 
 export interface PostDistance {
   id: string | undefined;
@@ -352,21 +347,6 @@ export function getPostRating(post: Post) {
   }
 
   return ratings.reduce((acc, number) => acc + number, 0) / ratings.length;
-}
-
-export function getAllPostCommentsSorted(publications: Publication[] | undefined): PostComment[] {
-  return (
-    publications
-      ?.flatMap(
-        (publication) =>
-          publication.comments?.map((comment) => ({
-            ...comment,
-            service: publication.service,
-            replies: [...(comment.replies ?? [])].sort((a, b) => a.datetime.getTime() - b.datetime.getTime()),
-          })) ?? [],
-      )
-      .sort((a, b) => a.datetime.getTime() - b.datetime.getTime()) ?? []
-  );
 }
 
 export function getPostFirstPublished(post: Pick<Post, 'posts'>) {
