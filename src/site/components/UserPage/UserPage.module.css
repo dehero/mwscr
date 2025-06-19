@@ -43,6 +43,13 @@
   gap: 3px;
 }
 
+.avatarWrapper {
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  width: 240px;
+}
+
 .avatar {
   max-width: min(240px, 100%);
   align-self: center;

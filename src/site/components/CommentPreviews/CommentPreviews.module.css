@@ -2,5 +2,35 @@
   display: flex;
   flex-flow: column nowrap;
   padding: 4px 8px 8px 8px;
+  gap: 16px;
+}
+
+.group {
+  display: grid;
+  gap: 6px 8px;
+  grid-template-areas: 'preview title' 'preview divider' 'preview comments';
+  grid-template-columns: 84px 1fr;
+  grid-template-rows: auto auto 1fr;
+}
+
+.preview {
+  grid-area: preview;
+}
+
+.title {
+  grid-area: title;
+  margin: 0;
+  color: var(--color-text-light);
+  text-decoration: none;
+}
+
+.divider {
+  grid-area: divider;
+}
+
+.comments {
+  grid-area: comments;
+  display: flex;
+  flex-flow: column nowrap;
   gap: 12px;
 }

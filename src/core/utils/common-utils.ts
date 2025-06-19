@@ -61,18 +61,18 @@ export function greatestCommonDivisor(a: number, b: number) {
   return greatestCommonDivisor(b, a % b);
 }
 
-export function groupBy<K, V>(list: Array<V>, keyGetter: (input: V) => K): Map<K, Array<V>> {
+export function groupBy<K, V>(list: Array<V>, keyGetter: (item: V, map: Map<K, Array<V>>) => K): Map<K, Array<V>> {
   const map = new Map<K, Array<V>>();
 
-  list.forEach((item) => {
-    const key = keyGetter(item);
+  for (const item of list) {
+    const key = keyGetter(item, map);
     const collection = map.get(key);
     if (!collection) {
       map.set(key, [item]);
     } else {
       collection.push(item);
     }
-  });
+  }
 
   return map;
 }
