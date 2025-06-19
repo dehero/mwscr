@@ -32,6 +32,7 @@
   flex-flow: row wrap;
   gap: 3px;
   box-sizing: border-box;
+  aspect-ratio: 1 / 1;
 }
 
 .setItem {
