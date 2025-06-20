@@ -2217,7 +2217,7 @@
     - service: vk
       id: 1613
       published: 2024-07-04-18-19-51
-      updated: 2025-06-13-19-15-53
+      updated: 2025-06-20-20-21-34
       followers: 919
       likes: 32
       views: 284
@@ -2225,7 +2225,7 @@
     - service: tg
       id: 459
       published: 2024-07-04-18-19-57
-      updated: 2025-06-13-19-15-48
+      updated: 2025-06-20-20-21-30
       followers: 391
       likes: 57
       views: 592
@@ -3383,7 +3383,7 @@
     - service: vk
       id: 1592
       published: 2024-06-20-18-21-13
-      updated: 2025-06-13-19-15-54
+      updated: 2025-06-20-20-21-35
       followers: 919
       likes: 49
       views: 344
@@ -3391,13 +3391,13 @@
     - service: tg
       id: 445
       published: 2024-06-20-18-21-20
-      updated: 2025-06-13-19-15-48
+      updated: 2025-06-20-20-21-32
       followers: 387
       likes: 65
       views: 512
       comments: !c |-
-        iyWAkZPLQnkECYQ5gACtUGVyY29jZXRmb3J0edkx0K3RgtC+INCy0YvQs9C70Y/QtNC40YIg0YLQ
-        sNC6INC/0YDQtdC60YDQsNGB0L3QvgM=
+        iySAkZPLQnkECYQ5gACrQmVybXVkYfCfjYDZMdCt0YLQviDQstGL0LPQu9GP0LTQuNGCINGC0LDQ
+        uiDQv9GA0LXQutGA0LDRgdC90L4D
 2017-03-19-stairs-in-vansunalit-egg-mine:
   title: Stairs in Vansunalit Egg Mine
   titleRu: Лестница в яичной шахте Вансуналит
@@ -4889,14 +4889,14 @@
     - service: vk
       id: 1630
       published: 2024-07-11-18-20-26
-      updated: 2025-06-13-19-15-52
+      updated: 2025-06-20-20-21-33
       followers: 920
       likes: 40
       views: 272
     - service: tg
       id: 466
       published: 2024-07-11-18-20-33
-      updated: 2025-06-13-19-15-46
+      updated: 2025-06-20-20-21-28
       followers: 397
       likes: 62
       views: 525
@@ -10062,23 +10062,23 @@
       id: DLIfTf-tQSn
       mediaId: '18064831238158761'
       published: 2025-06-20-18-27-34
-      updated: 2025-06-20-19-15-38
+      updated: 2025-06-20-20-21-25
       followers: 1554
-      likes: 14
+      likes: 21
     - service: vk
       id: 2478
       published: 2025-06-20-18-27-40
-      updated: 2025-06-20-19-15-37
+      updated: 2025-06-20-20-21-24
       followers: 1326
-      likes: 2
-      views: 37
+      likes: 7
+      views: 64
     - service: tg
       id: 891
       published: 2025-06-20-18-27-44
-      updated: 2025-06-20-19-15-39
+      updated: 2025-06-20-20-21-23
       followers: 751
-      likes: 19
-      views: 69
+      likes: 26
+      views: 89
 2017-08-31-guard-tower-of-suran:
   title: Guard Tower of Suran
   titleRu: Башня стражи Сурана
@@ -13599,24 +13599,24 @@
       id: DLF7g14NNqb
       mediaId: '18032560346432084'
       published: 2025-06-19-18-36-21
-      updated: 2025-06-20-19-15-42
+      updated: 2025-06-20-20-21-29
       followers: 1553
-      likes: 62
+      likes: 63
     - service: vk
       id: 2477
       published: 2025-06-19-18-36-26
-      updated: 2025-06-20-19-15-41
+      updated: 2025-06-20-20-21-26
       followers: 1326
       likes: 32
-      views: 218
+      views: 220
       reposts: 2
     - service: tg
       id: 890
       published: 2025-06-19-18-36-30
-      updated: 2025-06-20-19-15-40
+      updated: 2025-06-20-20-21-25
       followers: 750
       likes: 49
-      views: 192
+      views: 197
 2017-11-30-lava-kwama:
   title: Lava Kwama
   titleRu: Лавовые квама

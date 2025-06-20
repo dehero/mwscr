@@ -457,7 +457,7 @@
     - service: vk
       id: 1656
       published: 2024-07-25-18-20-25
-      updated: 2025-06-13-19-15-50
+      updated: 2025-06-20-20-21-29
       followers: 921
       likes: 44
       views: 313
@@ -8182,7 +8182,7 @@
     - service: vk
       id: 1642
       published: 2024-07-18-18-21-19
-      updated: 2025-06-13-19-15-51
+      updated: 2025-06-20-20-21-31
       followers: 919
       likes: 39
       views: 284
@@ -8193,10 +8193,10 @@
     - service: tg
       id: 473
       published: 2024-07-18-18-21-26
-      updated: 2025-06-13-19-15-45
+      updated: 2025-06-20-20-21-27
       followers: 402
       likes: 61
-      views: 717
+      views: 718
 2018-07-24-flaming-archer:
   title: Flaming Archer
   titleRu: Пылающий лучник
