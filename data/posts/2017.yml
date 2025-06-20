@@ -1574,7 +1574,7 @@
     - service: vk
       id: 1818
       published: 2024-10-10-18-10-22
-      updated: 2025-06-13-13-31-31
+      updated: 2025-06-20-14-18-46
       followers: 960
       likes: 36
       views: 339
@@ -12634,7 +12634,7 @@
     - service: vk
       id: 1799
       published: 2024-10-03-18-10-11
-      updated: 2025-06-13-13-31-32
+      updated: 2025-06-20-14-18-48
       followers: 958
       likes: 47
       views: 359
@@ -12682,10 +12682,10 @@
     - service: tg
       id: 553
       published: 2024-10-03-18-10-19
-      updated: 2025-06-13-13-31-29
+      updated: 2025-06-20-14-18-43
       followers: 560
       likes: 65
-      views: 581
+      views: 582
       comments: !c ixiAkZPLQnkljeH0gACnQmFyYUZveL5UcnVseSwgdGhlIHJvYWQgbW9zdCB0cmF2ZWxsZWQD
 2017-11-06-shore-shroom:
   title: Shore Shroom
@@ -13578,24 +13578,24 @@
       id: DLF7g14NNqb
       mediaId: '18032560346432084'
       published: 2025-06-19-18-36-21
-      updated: 2025-06-20-13-30-47
+      updated: 2025-06-20-14-18-41
       followers: 1553
       likes: 59
     - service: vk
       id: 2477
       published: 2025-06-19-18-36-26
-      updated: 2025-06-20-13-30-46
+      updated: 2025-06-20-14-18-40
       followers: 1326
       likes: 30
-      views: 187
+      views: 192
       reposts: 1
     - service: tg
       id: 890
       published: 2025-06-19-18-36-30
-      updated: 2025-06-20-13-30-45
+      updated: 2025-06-20-14-18-39
       followers: 750
       likes: 46
-      views: 167
+      views: 169
 2017-11-30-lava-kwama:
   title: Lava Kwama
   titleRu: Лавовые квама
