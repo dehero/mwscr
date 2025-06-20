@@ -141,7 +141,7 @@ export class InstagramManager extends Instagram implements PostingServiceManager
     for (const userId of userIds) {
       const user = await users.getItem(userId);
       const name = user?.name || userId;
-      const profile = user?.profiles?.[this.id]?.username;
+      const profile = user?.profiles?.find((profile) => profile.service === this.id)?.username;
 
       mentions.push(profile ? `@${profile}` : name);
     }
@@ -430,9 +430,7 @@ export class InstagramManager extends Instagram implements PostingServiceManager
       );
 
       const [author] = await users.mergeOrAddItem({
-        name: item.username,
-        avatar,
-        profiles: { [this.id]: { id: item.from?.id, username: item.username } },
+        profiles: [{ service: this.id, id: item.from?.id, username: item.username, avatar, name: user.fullname }],
       });
 
       const replies: PublicationComment[] = [];
@@ -467,9 +465,9 @@ export class InstagramManager extends Instagram implements PostingServiceManager
           );
 
           const [author] = await users.mergeOrAddItem({
-            name: childItem.username,
-            avatar,
-            profiles: { [this.id]: { id: childItem.from?.id, username: childItem.username } },
+            profiles: [
+              { service: this.id, id: childItem.from?.id, username: childItem.username, avatar, name: user.fullname },
+            ],
           });
 
           let text = childItem.text;
