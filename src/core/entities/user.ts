@@ -109,6 +109,7 @@ export function mergeUserProfiles(
       profile1.avatar = profile2.avatar ?? profile1.avatar;
       profile1.name = profile2.name ?? profile1.name;
       profile1.deleted = profile2.deleted ?? profile1.deleted;
+      profile1.updated = profile2.updated ?? profile1.updated;
     } else {
       result.push(profile2);
     }
