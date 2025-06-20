@@ -1,5 +1,4 @@
 import 'dotenv/config';
-import transliterate from '@sindresorhus/transliterate';
 import { createInterface } from 'readline';
 import sharp from 'sharp';
 import { Api, TelegramClient } from 'telegram';
@@ -99,7 +98,7 @@ export class TelegramManager extends Telegram implements PostingServiceManager {
     for (const userId of userIds) {
       const user = await users.getItem(userId);
       const name = user?.name || userId;
-      const profile = user?.profiles?.[this.id]?.username;
+      const profile = user?.profiles?.find((profile) => profile.service === this.id)?.username;
 
       mentions.push(profile ? `<a href="${encodeURI(this.getUserProfileUrl(profile))}">${name}</a>` : name);
     }
@@ -258,18 +257,21 @@ export class TelegramManager extends Telegram implements PostingServiceManager {
             }, `${this.id}-${user.photo.photoId.toString()}.jpg`)
           : undefined;
 
-      const nameRu = user.deleted
-        ? 'deleted'
-        : [user.firstName, user.lastName].filter((item) => Boolean(item)).join(' ') ||
-          user.username ||
-          user.id.toString();
-      const name = transliterate(nameRu);
+      const name = !user.deleted
+        ? [user.firstName, user.lastName].filter((item) => Boolean(item)).join(' ')
+        : undefined;
 
       [author] = await users.mergeOrAddItem({
-        name,
-        nameRu: nameRu !== name ? nameRu : undefined,
-        avatar,
-        profiles: { [this.id]: { id: user.id.toString(), username: user.username || undefined } },
+        profiles: [
+          {
+            service: this.id,
+            id: user.id.toString(),
+            username: user.username || undefined,
+            avatar,
+            name,
+            deleted: user.deleted,
+          },
+        ],
       });
     } else {
       author = TELEGRAM_CHANNEL;
