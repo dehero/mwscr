@@ -2,6 +2,8 @@ import type { GithubIssue } from '../../../core/entities/github-issue.js';
 import { userName, userProfileIg, userProfileTg, userProfileVk } from '../../../core/entities/github-issue-field.js';
 import type { ListReaderEntry } from '../../../core/entities/list-manager.js';
 import { mergeUserWith, type User } from '../../../core/entities/user.js';
+import { getRevisionHash } from '../../../core/utils/common-utils.js';
+import { saveUserAvatar } from '../../data-managers/store-resources.js';
 import { users } from '../../data-managers/users.js';
 
 const MARKDOWN_LINK_REGEX = /\[([^\]]+)\]\(([^\)]+)\)/g;
@@ -59,10 +61,10 @@ export function extractIssueTextareaValue(field: IssueFieldWithLabel, text: stri
 }
 
 export async function extractIssueUser(issue: GithubIssue): Promise<ListReaderEntry<User>> {
-  let entry = await users.findEntry((user) => user.profiles?.gh === issue.user.login);
-  if (!entry) {
-    entry = await users.addItem({ profiles: { gh: { username: issue.user.login } } });
-  }
+  const avatar = await saveUserAvatar(issue.user.avatar_url, `gh-${getRevisionHash(issue.user.avatar_url)}.jpg`);
+  const entry = await users.mergeOrAddItem({
+    profiles: [{ service: 'gh', id: issue.user.id.toString(), username: issue.user.login, avatar }],
+  });
 
   const name = extractIssueFieldValue(userName, issue.body);
   const igUsername = extractIssueFieldValue(userProfileIg, issue.body);
@@ -71,11 +73,11 @@ export async function extractIssueUser(issue: GithubIssue): Promise<ListReaderEn
 
   const user: User = {
     name,
-    profiles: {
-      ig: igUsername ? { username: igUsername } : undefined,
-      tg: tgUsername ? { username: tgUsername } : undefined,
-      vk: vkUsername ? { username: vkUsername } : undefined,
-    },
+    profiles: [
+      igUsername ? { service: 'ig', username: igUsername } : undefined,
+      tgUsername ? { service: 'tg', username: tgUsername } : undefined,
+      vkUsername ? { service: 'vk', username: vkUsername } : undefined,
+    ].filter((profile) => typeof profile !== 'undefined'),
   };
 
   mergeUserWith(entry[1], user);

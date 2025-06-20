@@ -1,6 +1,5 @@
 import type { youtube_v3 } from '@googleapis/youtube';
 import { youtube } from '@googleapis/youtube';
-import transliterate from '@sindresorhus/transliterate';
 import type { PostEntry } from '../../core/entities/post.js';
 import type { Publication, PublicationComment } from '../../core/entities/publication.js';
 import type { PostingServiceManager } from '../../core/entities/service.js';
@@ -85,20 +84,23 @@ export class YouTubeManager extends YouTube implements PostingServiceManager {
     const authorChannelSnippet = snippet.authorChannelId?.value
       ? await this.getChannelSnippet(snippet.authorChannelId.value)
       : undefined;
-
-    const text = snippet.textDisplay;
-    const nameRu = authorChannelSnippet?.title ?? snippet.authorDisplayName;
-    const name = transliterate(nameRu);
     const avatar = await saveUserAvatar(
       authorChannelSnippet?.thumbnails?.high?.url ?? authorChannelSnippet?.thumbnails?.default?.url ?? undefined,
       `${this.id}-${getRevisionHash(snippet.authorProfileImageUrl ?? '')}.jpg`,
     );
 
+    const text = snippet.textDisplay;
+
     const [author] = await users.mergeOrAddItem({
-      name,
-      nameRu: nameRu !== name ? nameRu : undefined,
-      avatar,
-      profiles: { [this.id]: { id: snippet.authorChannelId?.value || undefined, username: snippet.authorDisplayName } },
+      profiles: [
+        {
+          service: this.id,
+          id: snippet.authorChannelId?.value || undefined,
+          username: snippet.authorDisplayName,
+          name: authorChannelSnippet?.title ?? undefined,
+          avatar,
+        },
+      ],
     });
 
     const datetime = new Date(snippet.publishedAt);

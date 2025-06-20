@@ -3,7 +3,6 @@ import TelegramBot from 'node-telegram-bot-api';
 import type { PostViolationDescriptor } from '../../core/entities/post.js';
 import { postViolationDescriptors } from '../../core/entities/post.js';
 import type { Resource } from '../../core/entities/resource.js';
-import { mergeUserWith } from '../../core/entities/user.js';
 import { site } from '../../core/services/site.js';
 import { telegram } from '../../core/services/telegram.js';
 import { asArray } from '../../core/utils/common-utils.js';
@@ -100,18 +99,16 @@ async function processMessage(message: TelegramBot.Message) {
   let author;
 
   try {
-    let userEntry = await users.findEntry(
-      (user) => user.profiles?.tg === message.from?.username || user.profiles?.tg?.botChatId === message.chat.id,
-    );
-    if (!userEntry) {
-      userEntry = await users.addItem({ profiles: { tg: { username: message.from.username } } });
-    }
-
-    author = userEntry[0];
-
-    mergeUserWith(userEntry[1], {
-      name: message.from.first_name,
-      profiles: { tg: { username: message.from.username, botChatId: message.chat.id } },
+    [author] = await users.mergeOrAddItem({
+      profiles: [
+        {
+          service: 'tg',
+          id: message.from.id.toString(),
+          username: message.from.username,
+          name: [message.from.first_name, message.from.last_name].filter(Boolean).join(' '),
+          botChatId: message.chat.id,
+        },
+      ],
     });
 
     await users.save();
@@ -134,8 +131,9 @@ async function processMessage(message: TelegramBot.Message) {
     try {
       let adminUrl;
       const [, admin] = (await users.findEntry((user) => Boolean(user.admin))) ?? [];
-      if (admin?.profiles?.tg?.username) {
-        adminUrl = telegram.getUserProfileUrl(admin.profiles.tg.username);
+      const tgUsername = admin?.profiles?.find((profile) => profile.service === 'tg')?.username;
+      if (tgUsername) {
+        adminUrl = telegram.getUserProfileUrl(tgUsername);
       }
 
       const url = await bot.getFileLink(message.document.file_id);

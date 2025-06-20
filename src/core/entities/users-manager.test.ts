@@ -23,7 +23,7 @@ test('UsersManager.createItemId', async (t) => {
   await t.test('should generate ID based on user name', async () => {
     const user: User = {
       name: 'John Doe',
-      profiles: {},
+      profiles: [],
     };
     const id = await manager.createItemId(user);
     assert.strictEqual(id, 'john-doe');
@@ -32,9 +32,7 @@ test('UsersManager.createItemId', async (t) => {
   await t.test('should generate ID based on first profile name', async () => {
     const user: User = {
       name: '         ',
-      profiles: {
-        ig: { username: 'john_doe' },
-      },
+      profiles: [{ service: 'ig', username: 'john_doe' }],
     };
     const id = await manager.createItemId(user);
     assert.strictEqual(id, 'john-doe');
@@ -43,10 +41,10 @@ test('UsersManager.createItemId', async (t) => {
   await t.test('should generate ID based on first profile name (when multiple)', async () => {
     const user: User = {
       name: '',
-      profiles: {
-        ig: { username: 'john_doe' },
-        tg: { username: 'john_doe2' },
-      },
+      profiles: [
+        { service: 'ig', username: 'john_doe' },
+        { service: 'tg', username: 'john_doe2' },
+      ],
     };
     const id = await manager.createItemId(user);
     assert.strictEqual(id, 'john-doe');
@@ -55,7 +53,7 @@ test('UsersManager.createItemId', async (t) => {
   await t.test('should generate ID with index for existing item', async () => {
     const user: User = {
       name: 'John Doe',
-      profiles: {},
+      profiles: [],
     };
     await manager.addItem(user);
     const id = await manager.createItemId(user);
