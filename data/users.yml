@@ -3,17 +3,17 @@
   nameRu: 3акром
   nameRuFrom: 3акрома
   profiles:
-    tg:
+    - service: tg
       botChatId: 988831875
       username: taletale
 adele:
   profiles:
-    tg:
+    - service: tg
       botChatId: 1924823021
       username: Shiskoribafish
 aleksey:
   profiles:
-    tg:
+    - service: tg
       botChatId: 451735380
       username: avrongols
 arseniy-dyak:
@@ -23,171 +23,171 @@ arseniy-dyak:
   profiles: {}
 bassyleus:
   profiles:
-    tg:
+    - service: tg
       botChatId: 783515562
       username: Bassyleus
 blu:
   profiles:
-    tg:
+    - service: tg
       botChatId: 5511607316
       username: tcnspih
 buck-the-cuck:
   profiles:
-    tg:
+    - service: tg
       botChatId: 5062369834
       username: fhgfh
 caius-cosades:
   profiles:
-    tg:
+    - service: tg
       botChatId: 6483220506
       username: Gatemate7
 darkness-rifho:
   name: Darkness Rifho
   profiles:
-    tg:
+    - service: tg
       username: midnight_in_mind
 dehero:
   profiles:
-    tg:
+    - service: tg
       botChatId: 414295239
       username: deherole
-    em:
+    - service: em
       username: dehero@outlook.com
-    gh:
+    - service: gh
       username: dehero
-    vk:
+    - service: vk
       username: dehero
 deviltrigger:
   profiles:
-    tg:
+    - service: tg
       botChatId: 7096566258
       username: zxcqwe431
 dmepikh:
   name: Dmitry Epikhin
   nameRu: Дмитрий Епихин
   profiles:
-    tg:
+    - service: tg
       username: dmepikh
 dmitrii:
   profiles:
-    tg:
+    - service: tg
       botChatId: 300009119
       username: dm4by
 eastcoast-lg:
   name: Luke Gordon
   profiles:
-    ig:
+    - service: ig
       username: eastcoast_lg
 ekaterina:
   profiles:
-    tg:
+    - service: tg
       botChatId: 816585640
       username: berskate
 eklersgovnom:
   name: Aleksey Gusev
   nameRu: Алексей Гусев
   profiles:
-    vk:
+    - service: vk
       username: eklersgovnom
 eldrad:
   profiles:
-    tg:
+    - service: tg
       botChatId: 398125107
       username: Master_Eldrad
 gleb:
   profiles:
-    tg:
+    - service: tg
       botChatId: 5357370117
       username: glebiris
 i-love-the-night:
   name: Max Lis
   nameRu: Макс Лис
   profiles:
-    vk:
+    - service: vk
       username: i_love_the_night
 id172608176:
   name: Vladimir
   nameRu: Владимир
   profiles:
-    vk:
+    - service: vk
       username: id172608176
 id810900694:
   name: Sergey Bakashinov
   nameRu: Сергей Бакашинов
   profiles:
-    vk:
+    - service: vk
       username: id810900694
 irina-bystritskaya:
   name: Irina Bystritskaya
   nameRu: Ирина Быстрицкая
   nameRuFrom: Ирины Быстрицкой
   profiles:
-    vk:
+    - service: vk
       username: club207258733
 kayracik:
   name: kayracik
   profiles:
-    gh:
+    - service: gh
       username: Helvgen
 knives-out:
   name: Knives Out
   profiles:
-    vk:
+    - service: vk
       username: id270989157
 konstantin:
   profiles:
-    tg:
+    - service: tg
       botChatId: 234404737
       username: epszaw
 mighty-markyys:
   name: Markus Alapoti
   profiles:
-    ig:
+    - service: ig
       username: mighty_markyys
 natty:
   name: Natty
 nihil-sum:
   profiles:
-    tg:
+    - service: tg
       botChatId: 563711962
       username: syomadyoma
 ohsweetnazareth:
   name: nazareth
   profiles:
-    gh:
+    - service: gh
       username: ohsweetnazareth
-    ig:
+    - service: ig
       username: ohsweetnazareth
 oleh:
   profiles:
-    tg:
+    - service: tg
       botChatId: 5645256528
       username: OlehShyha
 psyangst:
   profiles:
-    tg:
+    - service: tg
       botChatId: 257836200
       username: psyangst
 rachille:
   name: Rachille
   profiles:
-    ig:
+    - service: ig
       username: rachilleart
 remmlah:
   name: RemmLah
 rocksweet:
   profiles:
-    tg:
+    - service: tg
       botChatId: 456985367
       username: rocksweet
 spicebag:
   profiles:
-    tg:
+    - service: tg
       botChatId: 1110940743
       username: discodoyler
 talos:
   profiles:
-    tg:
+    - service: tg
       botChatId: 7165366272
       username: Feixiaomein
 vladyslav-zhuk:
@@ -195,15 +195,15 @@ vladyslav-zhuk:
   nameRu: Владислав Жук
 xnzayrpcad:
   profiles:
-    tg:
+    - service: tg
       botChatId: 7523695427
       username: dryteuiop
 yarlinnie:
   profiles:
-    tg:
+    - service: tg
       username: yarlinnie
 yaroslav:
   profiles:
-    tg:
+    - service: tg
       botChatId: 393415568
       username: bondarets
