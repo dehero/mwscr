@@ -63,7 +63,9 @@ export function extractIssueTextareaValue(field: IssueFieldWithLabel, text: stri
 export async function extractIssueUser(issue: GithubIssue): Promise<ListReaderEntry<User>> {
   const avatar = await saveUserAvatar(issue.user.avatar_url, `gh-${getRevisionHash(issue.user.avatar_url)}.jpg`);
   const entry = await users.mergeOrAddItem({
-    profiles: [{ service: 'gh', id: issue.user.id.toString(), username: issue.user.login, avatar }],
+    profiles: [
+      { service: 'gh', id: issue.user.id.toString(), username: issue.user.login, avatar, updated: new Date() },
+    ],
   });
 
   const name = extractIssueFieldValue(userName, issue.body);

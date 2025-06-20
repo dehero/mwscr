@@ -1,9 +1,6 @@
 import 'dotenv/config';
+import type { Objects, Responses } from 'vk-io';
 import { VK } from 'vk-io';
-// @ts-expect-error No proper typing
-import type { WallWallComment } from 'vk-io/lib/api/schemas/objects';
-// @ts-expect-error No proper typing
-import type { WallGetCommentExtendedResponse } from 'vk-io/lib/api/schemas/responses';
 import { markdownToText } from '../../core/entities/markdown.js';
 import type { Post, PostEntry } from '../../core/entities/post.js';
 import {
@@ -266,11 +263,9 @@ export class VKManager extends VKService implements PostingServiceManager {
     return [{ service: this.id, id: result.id, type: 'story', followers, published: new Date() }];
   }
 
-  private async getCommentInfo(message: WallWallComment, result: WallGetCommentExtendedResponse) {
+  private async getCommentInfo(message: Objects.WallWallComment, result: Responses.WallGetCommentExtendedResponse) {
     const user =
-      // @ts-expect-error No proper typing
       result.profiles.find((profile) => profile.id === message.from_id) ||
-      // @ts-expect-error No proper typing
       result.groups.find((group) => group.id === -(message.from_id || 0));
 
     if (!user || !message.date || !message.text) {
@@ -278,7 +273,7 @@ export class VKManager extends VKService implements PostingServiceManager {
     }
 
     const name = !user.deactivated
-      ? [user.first_name, user.last_name].filter((item) => Boolean(item)).join(' ') || user.screen_name
+      ? user.name || [user.first_name, user.last_name].filter((item) => Boolean(item)).join(' ') || undefined
       : undefined;
     const avatar = await saveUserAvatar(user.photo_max_orig, `${this.id}-${getRevisionHash(user.photo_max_orig)}.jpg`);
 
@@ -287,10 +282,11 @@ export class VKManager extends VKService implements PostingServiceManager {
         {
           service: this.id,
           id: user.id.toString(),
-          username: user.screen_name || `id${user.id}`,
+          username: user.screen_name,
           avatar,
           name,
-          deleted: Boolean(user.deactivated),
+          deleted: Boolean(user.deactivated) || undefined,
+          updated: new Date(),
         },
       ],
     });
@@ -315,7 +311,7 @@ export class VKManager extends VKService implements PostingServiceManager {
       thread_items_count: 10,
       extended: true,
       fields: ['screen_name', 'photo_max_orig'],
-    })) as unknown as WallGetCommentExtendedResponse;
+    })) as unknown as Responses.WallGetCommentExtendedResponse;
 
     for (const item of result.items) {
       const info = await this.getCommentInfo(item, result);

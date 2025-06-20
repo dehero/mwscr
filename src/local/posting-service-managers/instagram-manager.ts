@@ -423,14 +423,32 @@ export class InstagramManager extends Instagram implements PostingServiceManager
         continue;
       }
 
-      const user = await fetcher.fetchUser(item.username);
-      const avatar = await saveUserAvatar(
-        user.hd_profile_pic_url_info.url,
-        `${this.id}-${getRevisionHash(posix.basename(new URL(user.hd_profile_pic_url_info.url).pathname))}.jpg`,
-      );
+      let user;
+      let avatar;
+
+      try {
+        user = await fetcher.fetchUserV2(item.username);
+        avatar = user.profile_pic_url_hd
+          ? await saveUserAvatar(
+              user.profile_pic_url_hd,
+              `${this.id}-${getRevisionHash(posix.basename(new URL(user.profile_pic_url_hd).pathname))}.jpg`,
+            )
+          : undefined;
+      } catch {
+        // Do nothing, too often requests may be blocked for a meanwhile
+      }
 
       const [author] = await users.mergeOrAddItem({
-        profiles: [{ service: this.id, id: item.from?.id, username: item.username, avatar, name: user.fullname }],
+        profiles: [
+          {
+            service: this.id,
+            id: item.from?.id,
+            username: item.username,
+            avatar,
+            name: user?.full_name || undefined,
+            updated: new Date(),
+          },
+        ],
       });
 
       const replies: PublicationComment[] = [];
@@ -458,15 +476,31 @@ export class InstagramManager extends Instagram implements PostingServiceManager
 
           const datetime = new Date(childItem.timestamp);
 
-          const user = await fetcher.fetchUser(item.username);
-          const avatar = await saveUserAvatar(
-            user.hd_profile_pic_url_info.url,
-            `${this.id}-${getRevisionHash(posix.basename(new URL(user.hd_profile_pic_url_info.url).pathname))}.jpg`,
-          );
+          let user;
+          let avatar;
+
+          try {
+            user = await fetcher.fetchUserV2(childItem.username);
+            avatar = user.profile_pic_url_hd
+              ? await saveUserAvatar(
+                  user.profile_pic_url_hd,
+                  `${this.id}-${getRevisionHash(posix.basename(new URL(user.profile_pic_url_hd).pathname))}.jpg`,
+                )
+              : undefined;
+          } catch {
+            // Do nothing, too often requests may be blocked for a meanwhile
+          }
 
           const [author] = await users.mergeOrAddItem({
             profiles: [
-              { service: this.id, id: childItem.from?.id, username: childItem.username, avatar, name: user.fullname },
+              {
+                service: this.id,
+                id: childItem.from?.id,
+                username: childItem.username,
+                avatar,
+                name: user?.full_name || undefined,
+                updated: new Date(),
+              },
             ],
           });
 

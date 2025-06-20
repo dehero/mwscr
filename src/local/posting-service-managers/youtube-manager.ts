@@ -99,6 +99,7 @@ export class YouTubeManager extends YouTube implements PostingServiceManager {
           username: snippet.authorDisplayName,
           name: authorChannelSnippet?.title ?? undefined,
           avatar,
+          updated: new Date(),
         },
       ],
     });
