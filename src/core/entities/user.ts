@@ -1,5 +1,5 @@
 import type { InferOutput } from 'valibot';
-import { array, boolean, nonEmpty, number, object, optional, picklist, pipe, string, trim } from 'valibot';
+import { array, boolean, date, nonEmpty, number, object, optional, picklist, pipe, string, trim } from 'valibot';
 import { asArray } from '../utils/common-utils.js';
 import type { Link } from './link.js';
 import type { Option } from './option.js';
@@ -19,6 +19,7 @@ export const UserProfile = object({
   avatar: optional(ImageResourceUrl),
   name: optional(pipe(string(), trim(), nonEmpty())),
   deleted: optional(boolean()),
+  updated: optional(date()),
 });
 
 export const UserProfiles = array(UserProfile);

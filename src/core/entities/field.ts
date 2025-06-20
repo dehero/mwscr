@@ -45,12 +45,15 @@ export const Field = picklist([
   'comments',
 
   // User
+  'username',
+  'botChatId',
   'name',
   'nameRu',
   'nameRuFrom',
   'avatar',
   'admin',
   'profiles',
+  'deleted',
 
   // Location
   'cell',
