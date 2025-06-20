@@ -1,5 +1,4 @@
 import 'dotenv/config';
-import transliterate from '@sindresorhus/transliterate';
 import { VK } from 'vk-io';
 // @ts-expect-error No proper typing
 import type { WallWallComment } from 'vk-io/lib/api/schemas/objects';
@@ -59,7 +58,7 @@ export class VKManager extends VKService implements PostingServiceManager {
     for (const userId of userIds) {
       const user = await users.getItem(userId);
       const name = user?.nameRuFrom || user?.name || userId;
-      const profile = user?.profiles?.[this.id]?.username;
+      const profile = user?.profiles?.find((profile) => profile.service === this.id)?.username;
 
       mentions.push(profile ? `@${profile} (${name})` : name);
     }
@@ -278,15 +277,22 @@ export class VKManager extends VKService implements PostingServiceManager {
       return;
     }
 
-    const nameRu = [user.first_name, user.last_name].filter((item) => Boolean(item)).join(' ') || user.screen_name;
-    const name = transliterate(nameRu);
+    const name = !user.deactivated
+      ? [user.first_name, user.last_name].filter((item) => Boolean(item)).join(' ') || user.screen_name
+      : undefined;
     const avatar = await saveUserAvatar(user.photo_max_orig, `${this.id}-${getRevisionHash(user.photo_max_orig)}.jpg`);
 
     const [author] = await users.mergeOrAddItem({
-      name,
-      nameRu: nameRu !== name ? nameRu : undefined,
-      avatar,
-      profiles: { [this.id]: { id: user.id.toString(), username: user.screen_name || `id${user.id}` } },
+      profiles: [
+        {
+          service: this.id,
+          id: user.id.toString(),
+          username: user.screen_name || `id${user.id}`,
+          avatar,
+          name,
+          deleted: Boolean(user.deactivated),
+        },
+      ],
     });
 
     const datetime = new Date(message.date * 1000);

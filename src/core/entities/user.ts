@@ -1,5 +1,6 @@
 import type { InferOutput } from 'valibot';
-import { boolean, nonEmpty, number, object, optional, picklist, pipe, record, string, trim } from 'valibot';
+import { array, boolean, nonEmpty, number, object, optional, picklist, pipe, string, trim } from 'valibot';
+import { asArray } from '../utils/common-utils.js';
 import type { Link } from './link.js';
 import type { Option } from './option.js';
 import { ImageResourceUrl } from './resource.js';
@@ -11,13 +12,16 @@ export const USER_UNKNOWN = 'anonimous';
 export const UserRole = picklist(['admin', 'author', 'requester', 'drawer', 'commenter', 'beginner', 'foreigner']);
 
 export const UserProfile = object({
+  service: pipe(string(), nonEmpty()),
   id: optional(pipe(string(), trim(), nonEmpty())),
   username: optional(pipe(string(), trim(), nonEmpty())),
-  channel: optional(pipe(string(), trim(), nonEmpty())),
   botChatId: optional(number()),
+  avatar: optional(ImageResourceUrl),
+  name: optional(pipe(string(), trim(), nonEmpty())),
+  deleted: optional(boolean()),
 });
 
-export const UserProfiles = record(pipe(string(), nonEmpty()), optional(UserProfile));
+export const UserProfiles = array(UserProfile);
 
 export const User = object({
   name: optional(pipe(string(), trim(), nonEmpty())),
@@ -39,7 +43,7 @@ export function createUserLinks(userEntry: UserEntry, services: Service[]): Link
   const links = [];
 
   for (const service of services) {
-    const username = userEntry[1]?.profiles?.[service.id]?.username;
+    const username = userEntry[1]?.profiles?.find((p) => p.service === service.id)?.username;
     if (username) {
       const url = service.getUserProfileUrl(username);
       if (url) {
@@ -68,13 +72,16 @@ export function createUserOption(entry: UserEntry): Option {
 
 export function isUserEqual(a: User, b: User) {
   return Boolean(
-    a.profiles &&
-      Object.entries(a.profiles).some(
-        ([service, profile]) =>
-          (profile?.id && profile.id === b.profiles?.[service as keyof UserProfiles]?.id) ||
-          (profile?.username && profile.username === b.profiles?.[service as keyof UserProfiles]?.username) ||
-          (profile?.channel && profile.channel === b.profiles?.[service as keyof UserProfiles]?.channel),
-      ),
+    a.profiles?.some((aProfile) => b.profiles?.some((bProfile) => isUserProfileEqual(aProfile, bProfile))),
+  );
+}
+
+export function isUserProfileEqual(a: UserProfile, b: UserProfile) {
+  return Boolean(
+    a.service === b.service &&
+      ((a.id && a.id === b.id) ||
+        (a.username && a.username === b.username) ||
+        (a.botChatId && a.botChatId === b.botChatId)),
   );
 }
 
@@ -87,24 +94,24 @@ export function mergeUserWith(user: User, withUser: User) {
 }
 
 export function mergeUserProfiles(
-  profiles1: UserProfiles | undefined,
-  profiles2: UserProfiles | undefined,
-): UserProfiles | undefined {
-  if (!profiles1) {
-    return profiles2;
-  }
-  if (!profiles2) {
-    return profiles1;
-  }
-  const result = { ...profiles1 };
-  for (const name in profiles2) {
-    const key = name as keyof UserProfiles;
-    const value = result[key] || profiles2[key];
-    if (value) {
-      result[key] = value;
+  profiles1: UserProfile[] | undefined,
+  profiles2: UserProfile[] | undefined,
+): UserProfile[] | undefined {
+  const result = [...asArray(profiles1)];
+
+  for (const profile2 of profiles2 ?? []) {
+    const profile1 = result.find((profile1) => isUserProfileEqual(profile1, profile2));
+    if (profile1) {
+      profile1.id = profile2.id ?? profile1.id;
+      profile1.username = profile2.username ?? profile1.username;
+      profile1.botChatId = profile2.botChatId ?? profile1.botChatId;
+      profile1.avatar = profile2.avatar ?? profile1.avatar;
+      profile1.name = profile2.name ?? profile1.name;
+      profile1.deleted = profile2.deleted ?? profile1.deleted;
     } else {
-      delete result[key];
+      result.push(profile2);
     }
   }
-  return result;
+
+  return result.length > 0 ? result : undefined;
 }

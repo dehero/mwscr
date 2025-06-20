@@ -117,7 +117,7 @@ export async function createUserInfos(dataManager: DataManager): Promise<UserInf
         mark,
         rating,
         roles,
-        talkedToTelegramBot: Boolean(user.profiles?.tg?.botChatId),
+        talkedToTelegramBot: Boolean(user.profiles?.some((profile) => profile.service === 'tg' && profile.botChatId)),
         avatar: user.avatar,
       });
     }),
