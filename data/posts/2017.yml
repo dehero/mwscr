@@ -514,7 +514,7 @@
     - service: vk
       id: 1753
       published: 2024-09-12-18-31-04
-      updated: 2025-06-13-14-19-15
+      updated: 2025-06-20-15-20-23
       followers: 945
       likes: 39
       views: 333
@@ -526,7 +526,7 @@
     - service: tg
       id: 530
       published: 2024-09-12-18-31-10
-      updated: 2025-06-13-14-19-13
+      updated: 2025-06-20-15-20-20
       followers: 555
       likes: 62
       views: 544
@@ -4524,14 +4524,14 @@
     - service: vk
       id: 1701
       published: 2024-08-22-18-19-48
-      updated: 2025-06-13-14-19-20
+      updated: 2025-06-20-15-20-28
       followers: 937
       likes: 31
       views: 290
     - service: tg
       id: 509
       published: 2024-08-22-18-19-55
-      updated: 2025-06-13-14-19-16
+      updated: 2025-06-20-15-20-22
       followers: 539
       likes: 55
       views: 606
@@ -11578,14 +11578,14 @@
     - service: vk
       id: 1773
       published: 2024-09-19-18-29-58
-      updated: 2025-06-13-14-19-14
+      updated: 2025-06-20-15-20-21
       followers: 948
       likes: 37
       views: 320
     - service: tg
       id: 538
       published: 2024-09-19-18-30-04
-      updated: 2025-06-13-14-19-12
+      updated: 2025-06-20-15-20-17
       followers: 555
       likes: 59
       views: 576
@@ -13578,24 +13578,24 @@
       id: DLF7g14NNqb
       mediaId: '18032560346432084'
       published: 2025-06-19-18-36-21
-      updated: 2025-06-20-14-18-41
+      updated: 2025-06-20-15-20-16
       followers: 1553
       likes: 59
     - service: vk
       id: 2477
       published: 2025-06-19-18-36-26
-      updated: 2025-06-20-14-18-40
+      updated: 2025-06-20-15-20-15
       followers: 1326
-      likes: 30
-      views: 192
+      likes: 31
+      views: 199
       reposts: 1
     - service: tg
       id: 890
       published: 2025-06-19-18-36-30
-      updated: 2025-06-20-14-18-39
+      updated: 2025-06-20-15-20-14
       followers: 750
       likes: 46
-      views: 169
+      views: 170
 2017-11-30-lava-kwama:
   title: Lava Kwama
   titleRu: Лавовые квама
