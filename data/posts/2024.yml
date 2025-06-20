@@ -35,7 +35,7 @@
     - service: vk
       id: 1420
       published: 2024-02-28-19-19-28
-      updated: 2025-06-13-09-22-25
+      updated: 2025-06-20-10-22-03
       followers: 894
       likes: 40
       views: 328
@@ -54,7 +54,7 @@
     - service: tg
       id: 330
       published: 2024-02-28-19-19-34
-      updated: 2025-06-13-09-22-05
+      updated: 2025-06-20-10-21-42
       followers: 338
       likes: 75
       views: 639
@@ -752,7 +752,7 @@
     - service: vk
       id: 1471
       published: 2024-03-27-18-11-59
-      updated: 2025-06-13-09-22-21
+      updated: 2025-06-20-10-21-59
       followers: 905
       likes: 30
       views: 276
@@ -760,7 +760,7 @@
     - service: tg
       id: 359
       published: 2024-03-27-18-12-06
-      updated: 2025-06-13-09-22-01
+      updated: 2025-06-20-10-21-38
       followers: 354
       likes: 65
       views: 499
@@ -1113,14 +1113,14 @@
     - service: vk
       id: 1489
       published: 2024-04-10-18-19-29
-      updated: 2025-06-13-09-22-20
+      updated: 2025-06-20-10-21-57
       followers: 911
       likes: 30
       views: 230
     - service: tg
       id: 374
       published: 2024-04-10-18-19-36
-      updated: 2025-06-13-09-21-59
+      updated: 2025-06-20-10-21-37
       followers: 353
       likes: 58
       views: 502
@@ -1427,7 +1427,7 @@
     - service: vk
       id: 1508
       published: 2024-04-24-18-17-29
-      updated: 2025-06-13-09-22-18
+      updated: 2025-06-20-10-21-55
       followers: 909
       likes: 31
       views: 279
@@ -1435,7 +1435,7 @@
     - service: tg
       id: 388
       published: 2024-04-24-18-17-38
-      updated: 2025-06-13-09-21-58
+      updated: 2025-06-20-10-21-35
       followers: 354
       likes: 66
       views: 520
@@ -1750,7 +1750,7 @@
     - service: vk
       id: 1525
       published: 2024-05-08-18-19-16
-      updated: 2025-06-13-09-22-16
+      updated: 2025-06-20-10-21-54
       followers: 913
       likes: 42
       views: 304
@@ -1758,7 +1758,7 @@
     - service: tg
       id: 402
       published: 2024-05-08-18-19-25
-      updated: 2025-06-13-09-21-56
+      updated: 2025-06-20-10-21-33
       followers: 370
       likes: 69
       views: 469
@@ -1878,14 +1878,14 @@
     - service: vk
       id: 1533
       published: 2024-05-15-18-18-32
-      updated: 2025-06-13-09-22-15
+      updated: 2025-06-20-10-21-53
       followers: 915
       likes: 39
       views: 264
     - service: tg
       id: 409
       published: 2024-05-15-18-18-39
-      updated: 2025-06-13-09-21-56
+      updated: 2025-06-20-10-21-32
       followers: 370
       likes: 57
       views: 480
@@ -2310,7 +2310,7 @@
     - service: vk
       id: 1579
       published: 2024-06-12-18-20-23
-      updated: 2025-06-13-09-22-12
+      updated: 2025-06-20-10-21-49
       followers: 915
       likes: 35
       views: 298
@@ -2321,7 +2321,7 @@
     - service: tg
       id: 437
       published: 2024-06-12-18-20-29
-      updated: 2025-06-13-09-21-51
+      updated: 2025-06-20-10-21-26
       followers: 384
       likes: 54
       views: 488
@@ -3069,7 +3069,7 @@
     - service: vk
       id: 1943
       published: 2024-12-05-18-10-12
-      updated: 2025-06-13-09-21-45
+      updated: 2025-06-20-10-21-22
       followers: 1013
       likes: 63
       views: 477
@@ -3082,10 +3082,10 @@
     - service: tg
       id: 616
       published: 2024-12-05-18-10-19
-      updated: 2025-06-13-09-21-26
+      updated: 2025-06-20-10-21-06
       followers: 578
       likes: 73
-      views: 553
+      views: 554
 2024-12-06-tel-naga-great-hall:
   title: Tel Naga Great Hall
   titleRu: Большой Зал Тель Наги
@@ -3328,7 +3328,7 @@
     - service: vk
       id: 1959
       published: 2024-12-12-18-11-51
-      updated: 2025-06-13-09-21-43
+      updated: 2025-06-20-10-21-21
       followers: 1023
       likes: 45
       views: 389
@@ -3340,10 +3340,10 @@
     - service: tg
       id: 623
       published: 2024-12-12-18-11-57
-      updated: 2025-06-13-09-21-26
+      updated: 2025-06-20-10-21-05
       followers: 580
       likes: 63
-      views: 641
+      views: 642
 2024-12-13-redoran-stronghold-of-molag-mar: 2016-12-06-redoran-stronghold-of-molag-mar
 2024-12-14-gathal-llethri: 2018-11-30-gathal-llethri
 2024-12-15-aleft: 2017-01-26-aleft
@@ -3383,7 +3383,7 @@
     - service: vk
       id: 1991
       published: 2024-12-26-19-32-05
-      updated: 2025-06-13-09-21-40
+      updated: 2025-06-20-10-21-18
       followers: 1031
       likes: 57
       views: 476
@@ -3396,10 +3396,10 @@
     - service: tg
       id: 638
       published: 2024-12-26-19-32-13
-      updated: 2025-06-13-09-21-25
+      updated: 2025-06-20-10-21-04
       followers: 626
       likes: 74
-      views: 982
+      views: 983
 2024-12-27-tiny-boat:
   title: Tiny Boat
   titleRu: Маленькая лодочка
