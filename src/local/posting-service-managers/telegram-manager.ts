@@ -258,7 +258,7 @@ export class TelegramManager extends Telegram implements PostingServiceManager {
           : undefined;
 
       const name = !user.deleted
-        ? [user.firstName, user.lastName].filter((item) => Boolean(item)).join(' ')
+        ? [user.firstName, user.lastName].filter((item) => Boolean(item)).join(' ') || undefined
         : undefined;
 
       [author] = await users.mergeOrAddItem({
@@ -269,7 +269,8 @@ export class TelegramManager extends Telegram implements PostingServiceManager {
             username: user.username || undefined,
             avatar,
             name,
-            deleted: user.deleted,
+            deleted: user.deleted || undefined,
+            updated: new Date(),
           },
         ],
       });
