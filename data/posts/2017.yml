@@ -1068,7 +1068,7 @@
     - service: vk
       id: 1554
       published: 2024-05-30-18-20-43
-      updated: 2025-06-14-04-23-34
+      updated: 2025-06-21-04-24-10
       followers: 916
       likes: 49
       views: 409
@@ -1081,7 +1081,7 @@
     - service: tg
       id: 424
       published: 2024-05-30-18-20-52
-      updated: 2025-06-14-04-23-27
+      updated: 2025-06-21-04-24-03
       followers: 378
       likes: 60
       views: 519
@@ -10062,24 +10062,24 @@
       id: DLIfTf-tQSn
       mediaId: '18064831238158761'
       published: 2025-06-20-18-27-34
-      updated: 2025-06-21-03-12-43
+      updated: 2025-06-21-04-23-55
       followers: 1554
-      likes: 36
+      likes: 37
     - service: vk
       id: 2478
       published: 2025-06-20-18-27-40
-      updated: 2025-06-21-03-12-43
+      updated: 2025-06-21-04-23-54
       followers: 1326
-      likes: 17
-      views: 116
+      likes: 18
+      views: 130
       reposts: 1
     - service: tg
       id: 891
       published: 2025-06-20-18-27-44
-      updated: 2025-06-21-03-12-44
+      updated: 2025-06-21-04-23-53
       followers: 751
       likes: 34
-      views: 130
+      views: 132
 2017-08-31-guard-tower-of-suran:
   title: Guard Tower of Suran
   titleRu: Башня стражи Сурана
@@ -11745,7 +11745,7 @@
       id: DFf-B2yTQHv
       mediaId: '18034411085196878'
       published: 2025-01-31-18-10-14
-      updated: 2025-06-14-04-23-28
+      updated: 2025-06-21-04-24-04
       followers: 1534
       likes: 107
       views: 490
@@ -11757,7 +11757,7 @@
     - service: vk
       id: 2100
       published: 2025-01-31-18-10-20
-      updated: 2025-06-14-04-23-29
+      updated: 2025-06-21-04-24-05
       followers: 1057
       likes: 59
       views: 454
@@ -11772,10 +11772,10 @@
     - service: tg
       id: 690
       published: 2025-01-31-18-10-27
-      updated: 2025-06-14-04-23-21
+      updated: 2025-06-21-04-23-58
       followers: 662
       likes: 74
-      views: 648
+      views: 650
       comments: !c CxiAkZPLQnlMaCGzgACobW9uZ2xlcmm8ZGFtbiB0aG9zZSBjYW5kZXMgYXJlIHByZXR0eQM=
 2017-10-14-land-of-ruins:
   title: Land of Ruins
@@ -13600,24 +13600,24 @@
       id: DLF7g14NNqb
       mediaId: '18032560346432084'
       published: 2025-06-19-18-36-21
-      updated: 2025-06-21-03-12-46
+      updated: 2025-06-21-04-23-58
       followers: 1553
-      likes: 67
+      likes: 68
     - service: vk
       id: 2477
       published: 2025-06-19-18-36-26
-      updated: 2025-06-21-03-12-46
+      updated: 2025-06-21-04-23-57
       followers: 1326
       likes: 32
-      views: 230
+      views: 232
       reposts: 2
     - service: tg
       id: 890
       published: 2025-06-19-18-36-30
-      updated: 2025-06-21-03-12-45
+      updated: 2025-06-21-04-23-55
       followers: 750
       likes: 50
-      views: 207
+      views: 210
 2017-11-30-lava-kwama:
   title: Lava Kwama
   titleRu: Лавовые квама
@@ -14101,7 +14101,7 @@
     - service: vk
       id: 1606
       published: 2024-06-27-18-19-01
-      updated: 2025-06-14-04-23-32
+      updated: 2025-06-21-04-24-08
       followers: 917
       likes: 43
       views: 328
@@ -14109,10 +14109,10 @@
     - service: tg
       id: 452
       published: 2024-06-27-18-19-08
-      updated: 2025-06-14-04-23-24
+      updated: 2025-06-21-04-24-00
       followers: 388
       likes: 56
-      views: 507
+      views: 508
 2017-12-11-princess-of-dusk-and-dawn:
   title: Princess of Dusk and Dawn
   titleRu: Принцесса рассвета и заката
