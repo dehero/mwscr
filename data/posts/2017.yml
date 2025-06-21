@@ -3645,15 +3645,15 @@
     - service: tg
       id: 547
       published: 2024-09-27-18-10-13
-      updated: 2025-06-14-16-22-08
+      updated: 2025-06-21-16-22-19
       followers: 557
       likes: 70
-      views: 1072
+      views: 1078
       comments: !c iw2AkZPLQnkjerjngACremhlY2hrYV9kcnak8J+YjgM=
     - service: vk
       id: 1786
       published: 2024-09-27-19-01-39
-      updated: 2025-06-14-16-22-12
+      updated: 2025-06-21-16-22-21
       followers: 957
       likes: 41
       views: 360
@@ -10062,24 +10062,24 @@
       id: DLIfTf-tQSn
       mediaId: '18064831238158761'
       published: 2025-06-20-18-27-34
-      updated: 2025-06-21-15-18-27
+      updated: 2025-06-21-16-22-16
       followers: 1554
       likes: 54
     - service: vk
       id: 2478
       published: 2025-06-20-18-27-40
-      updated: 2025-06-21-15-18-25
+      updated: 2025-06-21-16-22-15
       followers: 1326
       likes: 26
-      views: 219
+      views: 229
       reposts: 1
     - service: tg
       id: 891
       published: 2025-06-20-18-27-44
-      updated: 2025-06-21-15-18-26
+      updated: 2025-06-21-16-22-14
       followers: 751
       likes: 41
-      views: 162
+      views: 163
 2017-08-31-guard-tower-of-suran:
   title: Guard Tower of Suran
   titleRu: Башня стражи Сурана
@@ -13600,24 +13600,24 @@
       id: DLF7g14NNqb
       mediaId: '18032560346432084'
       published: 2025-06-19-18-36-21
-      updated: 2025-06-21-15-18-29
+      updated: 2025-06-21-16-22-17
       followers: 1553
-      likes: 73
+      likes: 75
     - service: vk
       id: 2477
       published: 2025-06-19-18-36-26
-      updated: 2025-06-21-15-18-28
+      updated: 2025-06-21-16-22-18
       followers: 1326
       likes: 35
-      views: 264
+      views: 269
       reposts: 2
     - service: tg
       id: 890
       published: 2025-06-19-18-36-30
-      updated: 2025-06-21-15-18-28
+      updated: 2025-06-21-16-22-17
       followers: 750
       likes: 53
-      views: 223
+      views: 224
 2017-11-30-lava-kwama:
   title: Lava Kwama
   titleRu: Лавовые квама
