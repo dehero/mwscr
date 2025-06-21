@@ -1630,7 +1630,7 @@
     - service: vk
       id: 1472
       published: 2024-03-28-18-11-42
-      updated: 2025-06-14-13-27-06
+      updated: 2025-06-21-14-17-53
       followers: 906
       likes: 38
       views: 312
@@ -1638,7 +1638,7 @@
     - service: tg
       id: 360
       published: 2024-03-28-18-11-49
-      updated: 2025-06-14-13-26-57
+      updated: 2025-06-21-14-17-43
       followers: 355
       likes: 59
       views: 476
@@ -3902,7 +3902,7 @@
     - service: vk
       id: 1426
       published: 2024-02-29-18-00-56
-      updated: 2025-06-14-13-27-09
+      updated: 2025-06-21-14-17-57
       followers: 894
       likes: 52
       views: 377
@@ -3913,7 +3913,7 @@
     - service: tg
       id: 331
       published: 2024-02-29-18-01-07
-      updated: 2025-06-14-13-27-01
+      updated: 2025-06-21-14-17-49
       followers: 338
       likes: 83
       views: 656
@@ -4036,7 +4036,7 @@
     - service: vk
       id: 1448
       published: 2024-03-14-18-12-16
-      updated: 2025-06-14-13-27-07
+      updated: 2025-06-21-14-17-55
       followers: 896
       likes: 51
       views: 381
@@ -4050,10 +4050,10 @@
     - service: tg
       id: 346
       published: 2024-03-14-18-12-22
-      updated: 2025-06-14-13-26-59
+      updated: 2025-06-21-14-17-46
       followers: 351
       likes: 68
-      views: 529
+      views: 530
       comments: !c |-
         iyaAkpPLQnjj7YABgACqaGltbWVsaGVyeqbimLrvuI+Ty0J44+SyWAAAqUdhdGVtYXRlN7xnb2lu
         ZyB0aHJ1IHRoZSBob29kIGF0IG5pZ2h0Aw==
@@ -8266,7 +8266,7 @@
     - service: tg
       id: 354
       published: 2024-03-22
-      updated: 2025-06-14-13-26-57
+      updated: 2025-06-21-14-17-44
       followers: 353
       likes: 65
       views: 551
@@ -8939,7 +8939,7 @@
     - service: vk
       id: 1516
       published: 2024-05-02-18-21-03
-      updated: 2025-06-14-13-27-01
+      updated: 2025-06-21-14-17-48
       followers: 912
       likes: 29
       views: 241
@@ -9302,10 +9302,10 @@
     - service: vk
       id: 1871
       published: 2024-11-01-19-02-16
-      updated: 2025-06-14-13-26-56
+      updated: 2025-06-21-14-17-44
       followers: 1002
       likes: 37
-      views: 333
+      views: 334
 2017-08-13-hanud:
   title: Hanud
   titleRu: Хануд
@@ -10062,24 +10062,24 @@
       id: DLIfTf-tQSn
       mediaId: '18064831238158761'
       published: 2025-06-20-18-27-34
-      updated: 2025-06-21-13-26-55
+      updated: 2025-06-21-14-17-38
       followers: 1554
-      likes: 52
+      likes: 54
     - service: vk
       id: 2478
       published: 2025-06-20-18-27-40
-      updated: 2025-06-21-13-26-54
+      updated: 2025-06-21-14-17-37
       followers: 1326
-      likes: 25
-      views: 210
+      likes: 26
+      views: 216
       reposts: 1
     - service: tg
       id: 891
       published: 2025-06-20-18-27-44
-      updated: 2025-06-21-13-26-53
+      updated: 2025-06-21-14-17-38
       followers: 751
       likes: 39
-      views: 159
+      views: 160
 2017-08-31-guard-tower-of-suran:
   title: Guard Tower of Suran
   titleRu: Башня стражи Сурана
@@ -10604,7 +10604,7 @@
     - service: vk
       id: 1509
       published: 2024-04-25-18-18-02
-      updated: 2025-06-14-13-27-02
+      updated: 2025-06-21-14-17-50
       followers: 910
       likes: 54
       views: 386
@@ -10612,7 +10612,7 @@
     - service: tg
       id: 389
       published: 2024-04-25-18-18-08
-      updated: 2025-06-14-13-26-54
+      updated: 2025-06-21-14-17-41
       followers: 354
       likes: 74
       views: 547
@@ -13600,21 +13600,21 @@
       id: DLF7g14NNqb
       mediaId: '18032560346432084'
       published: 2025-06-19-18-36-21
-      updated: 2025-06-21-13-26-57
+      updated: 2025-06-21-14-17-40
       followers: 1553
       likes: 73
     - service: vk
       id: 2477
       published: 2025-06-19-18-36-26
-      updated: 2025-06-21-13-26-57
+      updated: 2025-06-21-14-17-40
       followers: 1326
-      likes: 34
-      views: 255
+      likes: 35
+      views: 262
       reposts: 2
     - service: tg
       id: 890
       published: 2025-06-19-18-36-30
-      updated: 2025-06-21-13-26-55
+      updated: 2025-06-21-14-17-39
       followers: 750
       likes: 52
       views: 222
