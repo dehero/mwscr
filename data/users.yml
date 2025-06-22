@@ -17,8 +17,10 @@ aleksey:
   profiles:
     tg: avrongols
 arseniy-dyak:
+  telegramBotChatId: 8182789616
   name: Arseniy Dyak
   nameRu: Арсений Дьяк
+  profiles: {}
 bassyleus:
   telegramBotChatId: 783515562
   name: Basileus
