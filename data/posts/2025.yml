@@ -271,7 +271,7 @@
     - service: vk
       id: 2105
       published: 2025-02-01-18-09-25
-      updated: 2025-06-15-19-15-45
+      updated: 2025-06-22-20-20-29
       followers: 1059
       likes: 40
       views: 457
@@ -279,7 +279,7 @@
     - service: tg
       id: 691
       published: 2025-02-01-18-09-32
-      updated: 2025-06-15-19-15-31
+      updated: 2025-06-22-20-20-18
       followers: 662
       likes: 68
       views: 617
@@ -513,17 +513,17 @@
     - service: vk
       id: 2195
       published: 2025-03-15-18-10-23
-      updated: 2025-06-15-19-15-36
+      updated: 2025-06-22-20-20-22
       followers: 1187
-      likes: 61
-      views: 496
+      likes: 60
+      views: 498
     - service: tg
       id: 748
       published: 2025-03-15-18-10-30
-      updated: 2025-06-15-19-15-25
+      updated: 2025-06-22-20-20-14
       followers: 705
       likes: 59
-      views: 530
+      views: 532
 2025-03-16-passage-to-the-north:
   title: Passage to the North
   titleRu: Проход на север
@@ -772,10 +772,10 @@
     - service: vk
       id: 2217
       published: 2025-03-22-18-10-15
-      updated: 2025-06-15-19-15-35
+      updated: 2025-06-22-20-20-21
       followers: 1202
       likes: 48
-      views: 434
+      views: 435
       reposts: 2
       comments: !c |-
         G6QA4J0HdizyAotV1mcQT/i3CG9x+1RmYRJggi2xSJN3QW1zmXahXcSPSP4EN1nu5ATfTMrsmxmc
@@ -784,10 +784,10 @@
     - service: tg
       id: 758
       published: 2025-03-22-18-10-23
-      updated: 2025-06-15-19-15-25
+      updated: 2025-06-22-20-20-13
       followers: 708
       likes: 62
-      views: 677
+      views: 678
       comments: !c iw6AkZPLQnldJXDDgACpTWF4VXBzaGVyqEdvIExlZnQuAw==
 2025-03-23-avus-belvilo:
   title: Avus Belvilo
@@ -943,17 +943,17 @@
     - service: vk
       id: 2241
       published: 2025-03-29-18-19-18
-      updated: 2025-06-15-19-15-33
+      updated: 2025-06-22-20-20-19
       followers: 1217
       likes: 53
-      views: 395
+      views: 396
     - service: tg
       id: 769
       published: 2025-03-29-18-19-24
-      updated: 2025-06-15-19-15-24
+      updated: 2025-06-22-20-20-13
       followers: 710
       likes: 61
-      views: 508
+      views: 509
 2025-03-30-frozen-water-stone:
   title: Frozen Water Stone
   titleRu: Камень Замороженной Воды
@@ -1103,18 +1103,18 @@
     - service: vk
       id: 2256
       published: 2025-04-05-19-41-10
-      updated: 2025-06-15-19-15-32
+      updated: 2025-06-22-20-20-19
       followers: 1231
       likes: 75
-      views: 837
+      views: 854
       reposts: 5
     - service: tg
       id: 781
       published: 2025-04-05-19-41-19
-      updated: 2025-06-15-19-15-24
+      updated: 2025-06-22-20-20-13
       followers: 716
       likes: 68
-      views: 512
+      views: 514
 2025-04-06-deadly-attack: 2020-05-21-deadly-attack
 2025-04-07-peeping:
   title: Peeping
@@ -1538,24 +1538,24 @@
       id: DI620bCz9HG
       mediaId: '17965778672882734'
       published: 2025-04-26-18-21-00
-      updated: 2025-06-15-19-15-25
+      updated: 2025-06-22-20-20-14
       followers: 1530
       likes: 101
     - service: vk
       id: 2307
       published: 2025-04-26-18-21-00
-      updated: 2025-06-15-19-15-25
+      updated: 2025-06-22-20-20-14
       followers: 1274
       likes: 68
-      views: 484
+      views: 487
       reposts: 3
     - service: tg
       id: 816
       published: 2025-04-26-20-01-00
-      updated: 2025-06-15-19-15-20
+      updated: 2025-06-22-20-20-09
       followers: 725
-      likes: 71
-      views: 581
+      likes: 72
+      views: 585
       comments: !c |-
         G/UA4I2Uq/3A3v+ca4Tf1sBl84FE0kXbHVBkcXs0DvfOft3eQ8lOdGD8tw0HCzjK8wAgCYLa4TQ1
         51XOk+i5VH7IGUd0JYipGjJDUb+julqc3CROBVLa9SxZBvC/Ucp0AD4meYuBFrXgW2rhFWgdkEw1
