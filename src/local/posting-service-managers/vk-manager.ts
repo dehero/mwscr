@@ -283,6 +283,7 @@ export class VKManager extends VKService implements PostingServiceManager {
           service: this.id,
           id: user.id.toString(),
           username: user.screen_name,
+          type: message.from_id < 0 ? 'channel' : undefined,
           avatar,
           name,
           deleted: Boolean(user.deactivated) || undefined,
