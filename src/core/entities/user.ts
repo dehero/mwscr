@@ -1,3 +1,4 @@
+import transliterate from '@sindresorhus/transliterate';
 import type { InferOutput } from 'valibot';
 import { array, boolean, date, nonEmpty, number, object, optional, picklist, pipe, string, trim } from 'valibot';
 import { asArray } from '../utils/common-utils.js';
@@ -5,6 +6,8 @@ import type { Link } from './link.js';
 import type { Option } from './option.js';
 import { ImageResourceUrl } from './resource.js';
 import type { Service } from './service.js';
+
+const USER_NAME_IS_RU_REGEX = /[ёа-я]/i;
 
 export const USER_DEFAULT_AUTHOR = 'dehero';
 export const USER_UNKNOWN = 'anonimous';
@@ -57,7 +60,54 @@ export function createUserLinks(userEntry: UserEntry, services: Service[]): Link
 }
 
 export function getUserEntryTitle(entry: UserEntry) {
-  return entry[1]?.name || entry[0];
+  let result = entry[1]?.name;
+
+  if (!result && entry[1]?.profiles) {
+    for (const profile of entry[1].profiles) {
+      const name = transliterate(profile.name?.trim() ?? '');
+      if (name) {
+        result = name;
+        break;
+      }
+    }
+  }
+
+  if (!result) {
+    result = entry[0];
+  }
+
+  return result;
+}
+
+export function getUserEntryTitleRu(entry: UserEntry) {
+  let result = entry[1]?.nameRu;
+
+  if (!result && entry[1]?.profiles) {
+    for (const profile of entry[1].profiles) {
+      const name = profile.name?.trim();
+      if (name && USER_NAME_IS_RU_REGEX.test(name)) {
+        result = name;
+        break;
+      }
+    }
+  }
+
+  return result;
+}
+
+export function getUserEntryAvatar(entry: UserEntry) {
+  let result = entry[1]?.avatar;
+
+  if (!result && entry[1]?.profiles) {
+    for (const profile of entry[1].profiles) {
+      if (profile.avatar) {
+        result = profile.avatar;
+        break;
+      }
+    }
+  }
+
+  return result;
 }
 
 export function getUserTitleLetter(title: string | undefined) {
@@ -109,6 +159,7 @@ export function mergeUserProfiles(
       profile1.avatar = profile2.avatar ?? profile1.avatar;
       profile1.name = profile2.name ?? profile1.name;
       profile1.deleted = profile2.deleted ?? profile1.deleted;
+      profile1.updated = profile2.updated ?? profile1.updated;
     } else {
       result.push(profile2);
     }
