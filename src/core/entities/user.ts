@@ -13,12 +13,14 @@ export const USER_DEFAULT_AUTHOR = 'dehero';
 export const USER_UNKNOWN = 'anonimous';
 
 export const UserRole = picklist(['admin', 'author', 'requester', 'drawer', 'commenter', 'beginner', 'foreigner']);
+export const UserType = picklist(['chat', 'channel', 'bot']);
 
 export const UserProfile = object({
   service: pipe(string(), nonEmpty()),
   id: optional(pipe(string(), trim(), nonEmpty())),
   username: optional(pipe(string(), trim(), nonEmpty())),
   botChatId: optional(number()),
+  type: optional(UserType),
   avatar: optional(ImageResourceUrl),
   name: optional(pipe(string(), trim(), nonEmpty())),
   deleted: optional(boolean()),
@@ -156,6 +158,7 @@ export function mergeUserProfiles(
       profile1.id = profile2.id ?? profile1.id;
       profile1.username = profile2.username ?? profile1.username;
       profile1.botChatId = profile2.botChatId ?? profile1.botChatId;
+      profile1.type = profile2.type ?? profile1.type;
       profile1.avatar = profile2.avatar ?? profile1.avatar;
       profile1.name = profile2.name ?? profile1.name;
       profile1.deleted = profile2.deleted ?? profile1.deleted;

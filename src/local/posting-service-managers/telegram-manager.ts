@@ -239,44 +239,64 @@ export class TelegramManager extends Telegram implements PostingServiceManager {
 
   async getCommentInfo(message: Api.Message, result: Api.messages.ChannelMessages) {
     const userId = message.fromId instanceof Api.PeerUser ? message.fromId.userId : undefined;
-    let author: string;
+    const chatId = message.fromId instanceof Api.PeerChat ? message.fromId.chatId : undefined;
+    const channelId = message.fromId instanceof Api.PeerChannel ? message.fromId.channelId : undefined;
 
-    if (userId) {
-      const user = result.users.find((user) => user.id.equals(userId));
-      if (!(user instanceof Api.User)) {
-        return;
-      }
+    if (!userId && !chatId && !channelId) {
+      return;
+    }
 
-      const avatar =
-        user.photo instanceof Api.UserProfilePhoto
-          ? await saveUserAvatar(async () => {
-              const { tg } = await this.connect();
-              const data = await tg.downloadProfilePhoto(user.id, { isBig: true });
+    const user = userId && result.users.find((user) => user.id.equals(userId));
+    const chat = chatId && result.chats.find((chat) => chat.id.equals(chatId));
+    const channel = channelId && result.chats.find((chat) => chat.id.equals(channelId));
 
-              return Buffer.isBuffer(data) ? data : undefined;
-            }, `${this.id}-${user.photo.photoId.toString()}.jpg`)
-          : undefined;
+    const id = chat?.id ?? channel?.id ?? user?.id;
 
-      const name = !user.deleted
-        ? [user.firstName, user.lastName].filter((item) => Boolean(item)).join(' ') || undefined
+    if (
+      !id ||
+      (user && !(user instanceof Api.User)) ||
+      (chat && !(chat instanceof Api.Chat)) ||
+      (channel && !(channel instanceof Api.Channel))
+    ) {
+      return;
+    }
+
+    const photo = chat?.photo ?? channel?.photo ?? user?.photo;
+
+    const avatar =
+      photo && !(photo instanceof Api.UserProfilePhotoEmpty) && !(photo instanceof Api.ChatPhotoEmpty)
+        ? await saveUserAvatar(async () => {
+            const { tg } = await this.connect();
+            const data = await tg.downloadProfilePhoto(id, { isBig: true });
+
+            return Buffer.isBuffer(data) ? data : undefined;
+          }, `${this.id}-${photo.photoId.toString()}.jpg`)
         : undefined;
 
-      [author] = await users.mergeOrAddItem({
-        profiles: [
-          {
-            service: this.id,
-            id: user.id.toString(),
-            username: user.username || undefined,
-            avatar,
-            name,
-            deleted: user.deleted || undefined,
-            updated: new Date(),
-          },
-        ],
-      });
-    } else {
-      author = TELEGRAM_CHANNEL;
-    }
+    const name =
+      !user?.deleted && !chat?.deactivated
+        ? chat?.title ||
+          channel?.title ||
+          [user?.firstName, user?.lastName].filter((item) => Boolean(item)).join(' ') ||
+          undefined
+        : undefined;
+
+    const [author] = await users.mergeOrAddItem({
+      profiles: [
+        {
+          service: this.id,
+          id: id.toString(),
+          username: channel?.username || user?.username || undefined,
+          type: channel ? 'channel' : chat ? 'chat' : user?.bot ? 'bot' : undefined,
+          avatar,
+          name,
+          deleted: (chat?.deactivated ?? user?.deleted) || undefined,
+          updated: new Date(),
+        },
+      ],
+    });
+
+    await users.save();
 
     const alt = message.document?.attributes.find(
       (attr): attr is Api.DocumentAttributeSticker => attr instanceof Api.DocumentAttributeSticker,
@@ -284,8 +304,6 @@ export class TelegramManager extends Telegram implements PostingServiceManager {
 
     const datetime = new Date(message.date * 1000);
     const text = message.message || alt || '';
-
-    await users.save();
 
     return { datetime, author, text };
   }
