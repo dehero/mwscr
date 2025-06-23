@@ -11,6 +11,7 @@ import {
   getPostEntryStats,
   getPostFirstPublished,
   getPostRating,
+  mergeAuthors,
   mergePostWith,
   Post,
   PostAuthor,
@@ -363,5 +364,37 @@ export abstract class PostsManager<TPost extends Post = Post> extends ListManage
 
       return stats;
     });
+  }
+
+  async replaceUser(user: string, replacement: string) {
+    for await (const [, post] of this.readAllEntries(true)) {
+      const authors = asArray(post.author);
+      if (authors.includes(user)) {
+        post.author = mergeAuthors(authors.map((author) => (author === user ? replacement : author)));
+      }
+      if (post.request?.user && post.request.user === user) {
+        post.request.user = replacement;
+      }
+      if (post.posts) {
+        for (const publication of post.posts) {
+          if (!publication.comments) {
+            continue;
+          }
+          for (const comment of publication.comments) {
+            if (comment.author === user) {
+              comment.author = replacement;
+            }
+            if (!comment.replies) {
+              continue;
+            }
+            for (const reply of comment.replies) {
+              if (reply.author === user) {
+                reply.author = replacement;
+              }
+            }
+          }
+        }
+      }
+    }
   }
 }
