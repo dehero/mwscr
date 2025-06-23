@@ -14,8 +14,6 @@
       username: 17haden_blake10
       name: Артемий Голицын
       avatar: store:/avatars/vk-da4324fc.jpg
-17haden-blake10-2:
-  profiles:
     - service: ig
       id: '581415578339330'
       updated: 2025-06-20-13-01-26
@@ -697,9 +695,8 @@ bruisedwolfcub:
       username: bruisedwolfcub
 buck-the-cuck:
   profiles:
-    - service: tg
-      username: fhgfh
-      botChatId: 5062369834
+    - service: ig
+      username: __deleted__bhiebeadjebaaicab
 butler-the-butler:
   profiles:
     - service: ig
@@ -712,14 +709,6 @@ butterstick:
       id: '1236525024887692'
       updated: 2025-06-20-13-05-17
       username: _butterstick
-c4-h6-o4:
-  profiles:
-    - service: tg
-      id: '5704974271'
-      updated: 2025-06-23-08-18-59
-      username: C4H6O4
-      name: Уна
-      avatar: store:/avatars/tg-5382177025499984534.jpg
 c8mrade-ph8enix:
   profiles:
     - service: tg
@@ -803,8 +792,6 @@ chernosotinec:
       username: Chernosotinec
       name: Артём Стекольщиков
       avatar: store:/avatars/vk-0897e5b1.jpg
-chernosotinec-2:
-  profiles:
     - service: tg
       id: '753492809'
       updated: 2025-06-23-08-08-40
@@ -1038,6 +1025,12 @@ darkness-rifho:
   profiles:
     - service: tg
       username: midnight_in_mind
+    - service: tg
+      id: '5704974271'
+      updated: 2025-06-23-08-18-59
+      username: C4H6O4
+      name: Уна
+      avatar: store:/avatars/tg-5382177025499984534.jpg
 daryna-dmytrenko:
   profiles:
     - service: vk
@@ -1085,6 +1078,9 @@ defiant-laughter:
       updated: 2025-06-20-13-08-03
       username: defiant_laughter
 dehero:
+  name: dehero
+  nameRu: dehero
+  admin: true
   profiles:
     - service: tg
       username: deherole
@@ -1099,6 +1095,26 @@ dehero:
       username: dehero
       name: Антон Курьянов
       avatar: store:/avatars/vk-f9562443.jpg
+    - type: channel
+      service: vk
+      id: '138249959'
+      updated: 2025-06-23-09-07-50
+      username: mwscr
+      name: Morrowind Screenshots
+      avatar: store:/avatars/vk-8148ed09.jpg
+    - service: ig
+      id: '17841404237421312'
+      updated: 2025-06-20-13-23-34
+      username: mwscr
+      name: Morrowind Screenshots
+      avatar: store:/avatars/ig-8438a98e.jpg
+    - type: channel
+      service: tg
+      id: '1264795946'
+      updated: 2025-06-23-08-23-51
+      username: mwscr
+      name: Morrowind Screenshots
+      avatar: store:/avatars/tg-1779384502849742762.jpg
 deimos-sparta:
   profiles:
     - service: vk
@@ -1497,6 +1513,11 @@ feronia-felix:
       username: FeroniaFelix
       name: ғeroɴια ғelιх
       avatar: store:/avatars/tg-5949590901640772888.jpg
+fhgfh:
+  profiles:
+    - service: tg
+      username: fhgfh
+      botChatId: 5062369834
 filavandrel-official:
   profiles:
     - service: vk
@@ -1823,16 +1844,6 @@ id172608176:
   profiles:
     - service: vk
       username: id172608176
-id810900694:
-  name: Sergey Bakashinov
-  nameRu: Сергей Бакашинов
-  profiles:
-    - service: vk
-      id: '810900694'
-      updated: 2025-06-23-09-07-54
-      username: id810900694
-      avatar: store:/avatars/vk-65cc4ff4.jpg
-      deleted: true
 idalexeyvav:
   profiles:
     - service: vk
@@ -1949,8 +1960,6 @@ irina-bystritskaya:
   profiles:
     - service: vk
       username: club207258733
-irina-bystritskaya-2:
-  profiles:
     - service: vk
       id: '56690300'
       updated: 2025-06-23-09-07-57
@@ -2815,32 +2824,12 @@ munson-sargassum:
       id: '1025567532994909'
       updated: 2025-06-20-13-08-02
       username: munson_sargassum
-mwscr:
+mwscrbot:
   profiles:
-    - type: channel
-      service: vk
-      id: '138249959'
-      updated: 2025-06-23-09-07-50
-      username: mwscr
-      name: Morrowind Screenshots
-      avatar: store:/avatars/vk-8148ed09.jpg
-mwscr-2:
-  profiles:
-    - service: ig
-      id: '17841404237421312'
-      updated: 2025-06-20-13-23-34
-      username: mwscr
-      name: Morrowind Screenshots
-      avatar: store:/avatars/ig-8438a98e.jpg
-mwscr-3:
-  profiles:
-    - type: channel
+    - type: bot
       service: tg
-      id: '1264795946'
-      updated: 2025-06-23-08-23-51
-      username: mwscr
-      name: Morrowind Screenshots
-      avatar: store:/avatars/tg-1779384502849742762.jpg
+      username: mwscrbot
+      name: Morrowind Ordinator
 mxmazur:
   profiles:
     - service: tg
@@ -3223,8 +3212,6 @@ peteevandrew:
       username: peteevandrew
       name: Андрей Петеев
       avatar: store:/avatars/vk-abb699c5.jpg
-peteevandrew-2:
-  profiles:
     - service: ig
       id: '1040325264836602'
       updated: 2025-06-20-13-03-52
@@ -3711,6 +3698,8 @@ semifelidae:
       updated: 2025-06-20-13-16-40
       username: semifelidae
 sergey-b:
+  name: Sergey Bakashinov
+  nameRu: Сергей Бакашинов
   profiles:
     - service: vk
       id: '889222999'
@@ -3718,6 +3707,12 @@ sergey-b:
       username: id889222999
       name: Сергей Б
       avatar: store:/avatars/vk-f1329566.jpg
+    - service: vk
+      id: '810900694'
+      updated: 2025-06-23-09-07-54
+      username: id810900694
+      avatar: store:/avatars/vk-65cc4ff4.jpg
+      deleted: true
 seriy-ottenok:
   profiles:
     - service: vk
@@ -3870,8 +3865,6 @@ smolmewsh:
       username: smolmewsh
       name: аянами мевшь
       avatar: store:/avatars/tg-1518186556369774608.jpg
-smolmewsh-2:
-  profiles:
     - service: ig
       id: '1300112064800555'
       updated: 2025-06-20-12-59-33
