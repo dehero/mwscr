@@ -49,6 +49,10 @@ export const UserTooltip: Component<UserTooltipProps> = (props) => {
             {userInfo().title}
           </span>
 
+          <Show when={userInfo().titleRu}>
+            <span class={styles.titleRu}>{userInfo().titleRu}</span>
+          </Show>
+
           <Show when={userInfo().roles.length > 0}>
             <span class={styles.roles}>Roles: {userInfo().roles.join(', ')}</span>
           </Show>
