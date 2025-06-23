@@ -3140,7 +3140,7 @@
       id: DKIGkWExlW9
       mediaId: 17851461927460444
       published: 2025-05-26-18-20-00
-      updated: 2025-06-16-21-18-59
+      updated: 2025-06-23-22-19-29
       followers: 1545
       likes: 98
       comments: !c |-
@@ -3150,10 +3150,10 @@
     - service: vk
       id: 2392
       published: 2025-05-26-18-20-00
-      updated: 2025-06-16-21-18-59
+      updated: 2025-06-23-22-19-27
       followers: 1309
       likes: 58
-      views: 477
+      views: 484
       reposts: 2
       comments: !c |-
         iyKAkZPLQnlxDOPSgAC0ZmlsYXZhbmRyZWxfb2ZmaWNpYWzZJNCU0L4g0YHQuNGFINC/0L7RgCDQ
@@ -3161,10 +3161,10 @@
     - service: tg
       id: 859
       published: 2025-05-26-19-35-00
-      updated: 2025-06-16-21-18-57
+      updated: 2025-06-23-22-19-27
       followers: 741
-      likes: 69
-      views: 420
+      likes: 70
+      views: 437
       comments: !c |-
         G3oBgCwO7MbOGx1qoEvxpr8R/RMXO8IvnAUaWM0kHvgFGhRpsk+nc0KbJxfywl3YAjTvYcPsFqMg
         agt1MfhtKBzdCV2Rgqypojtrm6kaDMloK/LwDz7K6fz0MS/kpWAcjIW0Mp0cQZIGol+UaUiRBoHc
@@ -5134,24 +5134,28 @@
       id: DLNoqLTtw8X
       mediaId: '17905224342189031'
       published: 2025-06-22-18-25-32
-      updated: 2025-06-23-21-18-46
+      updated: 2025-06-23-22-19-26
       followers: 1553
       likes: 55
     - service: vk
       id: 2480
       published: 2025-06-22-18-25-45
-      updated: 2025-06-23-21-18-45
+      updated: 2025-06-23-22-19-25
       followers: 1329
-      likes: 45
-      views: 216
+      likes: 46
+      views: 217
       reposts: 1
+      comments: !c |-
+        G60A+C0SbFsLb48T3NLHpmSiKM8QvkY9EsNOBUtY2YPa5jJOwauFUf3lNrZ/4zWfFtEwcJU5MtmJ
+        k9cOG3ACHjiHFsh8P7POPg5ZPe8fdQ7Wdw8q/EYFzV7UjiS3Y0yENomR9w2PYoSEwvjBEkkS23nW
+        35B1ahkKdPYG
     - service: tg
       id: 893
       published: 2025-06-22-18-25-51
-      updated: 2025-06-23-21-18-43
+      updated: 2025-06-23-22-19-25
       followers: 752
       likes: 57
-      views: 201
+      views: 202
       comments: !c Cw+AkZPLQnl5kEyIgACrS2F3YXpha3kyMjOnNe+4j+KDowM=
 2017-04-28-gloomy-barrow:
   title: Gloomy Barrow
@@ -10647,24 +10651,28 @@
       id: DLQNzSCtXC6
       mediaId: '18071090824976196'
       published: 2025-06-23-18-28-33
-      updated: 2025-06-23-21-18-45
+      updated: 2025-06-23-22-19-24
       followers: 1554
-      likes: 33
+      likes: 34
       comments: !c ixWAkZPLQnl54iL5AACrZGVsYW5vc3BpZXO0QmVzdCB2YW5pbGxhIGhpZGVvdXQD
     - service: vk
       id: 2481
       published: 2025-06-23-18-28-39
-      updated: 2025-06-23-21-18-43
+      updated: 2025-06-23-22-19-23
       followers: 1328
-      likes: 26
-      views: 83
+      likes: 28
+      views: 97
+      comments: !c |-
+        G9MA6K0OeHPoKqGmOVN75iOiIm4RPkipZ9gkGGGyp3MLOViKKR4H7kN/oNyWuzn9bkyRHywVQzNz
+        ZLILh73I8mADDtyCRDiFSc8nJrDF8/7rb+n4bqjwt6Um1y+dujmDl7KAtoZmFbpIsHO6lDCCxHIm
+        ofGyAypGMJPYz4XyhkAnHJIrKqMex1h0VRG/Py8=
     - service: tg
       id: 894
       published: 2025-06-23-18-28-43
-      updated: 2025-06-23-21-18-42
+      updated: 2025-06-23-22-19-24
       followers: 753
-      likes: 37
-      views: 108
+      likes: 40
+      views: 113
       comments: !c CxWAkZPLQnl56dTxgACvVmFpbCBBc3Rvcid6a2l5r9CS0LDQuSDQvNCw0LzQsAM=
 2017-09-15-lava-swamps:
   title: Lava Swamps
