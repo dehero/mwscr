@@ -40,7 +40,7 @@
   display: flex;
   flex-flow: column nowrap;
   align-items: center;
-  gap: 3px;
+  gap: 8px;
 }
 
 .avatarWrapper {
@@ -55,10 +55,22 @@
   align-self: center;
 }
 
+.titles {
+  display: flex;
+  flex-flow: column nowrap;
+  gap: 4px;
+  text-align: center;
+  text-wrap: balance;
+}
+
 .title {
   color: var(--color-text-light);
   font-size: inherit;
   font-weight: inherit;
+  margin: 0;
+}
+
+.titleRu {
   margin: 0;
 }
 
