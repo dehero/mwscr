@@ -132,7 +132,7 @@
     - service: vk
       id: 1433
       published: 2024-03-02-18-18-15
-      updated: 2025-06-16-17-17-51
+      updated: 2025-06-23-17-18-08
       followers: 895
       likes: 32
       views: 290
@@ -140,7 +140,7 @@
     - service: tg
       id: 333
       published: 2024-03-02-18-18-22
-      updated: 2025-06-16-17-17-45
+      updated: 2025-06-23-17-18-03
       followers: 340
       likes: 72
       views: 579
@@ -1050,23 +1050,23 @@
       id: DLLDxd0sUSs
       mediaId: '18373419742132850'
       published: 2025-06-21-18-24-46
-      updated: 2025-06-23-16-25-47
+      updated: 2025-06-23-17-18-02
       followers: 1553
       likes: 93
     - service: vk
       id: 2479
       published: 2025-06-21-18-24-51
-      updated: 2025-06-23-16-25-47
+      updated: 2025-06-23-17-18-01
       followers: 1327
       likes: 51
-      views: 279
+      views: 283
     - service: tg
       id: 892
       published: 2025-06-21-18-24-56
-      updated: 2025-06-23-16-25-46
+      updated: 2025-06-23-17-18-00
       followers: 752
       likes: 49
-      views: 254
+      views: 256
       comments: !c iw2AkZPLQnl5PH6tAACrS2F3YXpha3kyMjOk8J+SpQM=
 2024-04-09-telvanni-council-house:
   title: Telvanni Council House
