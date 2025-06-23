@@ -2886,10 +2886,10 @@
     - service: tg
       id: 712
       published: 2025-02-16-18-09-40
-      updated: 2025-06-16-05-21-19
+      updated: 2025-06-23-05-21-28
       followers: 677
       likes: 74
-      views: 705
+      views: 707
       comments: !c |-
         C0KAkpPLQnlSitoxgACvQWxleGV5IFN0ZXBhbm92pPCfjJ2Ty0J5UP+7EgAAq2FhcnljaGFnb2Zm
         2U3Qk9C70LDQstC90L7QtSAtINC90LUg0L/Rg9GC0LDRgtGMINCd0YfRg9GA0LTQsNC80YYg0Lgg
@@ -5134,23 +5134,23 @@
       id: DLNoqLTtw8X
       mediaId: '17905224342189031'
       published: 2025-06-22-18-25-32
-      updated: 2025-06-23-04-33-39
+      updated: 2025-06-23-05-21-24
       followers: 1553
       likes: 38
     - service: vk
       id: 2480
       published: 2025-06-22-18-25-45
-      updated: 2025-06-23-04-33-39
+      updated: 2025-06-23-05-21-24
       followers: 1329
       likes: 25
-      views: 122
+      views: 126
     - service: tg
       id: 893
       published: 2025-06-22-18-25-51
-      updated: 2025-06-23-04-33-38
+      updated: 2025-06-23-05-21-23
       followers: 752
-      likes: 47
-      views: 146
+      likes: 49
+      views: 149
       comments: !c Cw+AkZPLQnl5kEyIgACrS2F3YXpha3kyMjOnNe+4j+KDowM=
 2017-04-28-gloomy-barrow:
   title: Gloomy Barrow
@@ -7473,10 +7473,10 @@
     - service: tg
       id: 692
       published: 2025-02-02-18-09-19
-      updated: 2025-06-16-05-21-20
+      updated: 2025-06-23-05-21-29
       followers: 662
       likes: 69
-      views: 706
+      views: 708
 2017-06-26-floating-over-the-green-hills:
   title: Floating Over the Green Hills
   titleRu: Паря над зелёными холмами
@@ -8767,18 +8767,18 @@
     - service: vk
       id: 2146
       published: 2025-02-23-18-09-28
-      updated: 2025-06-16-05-21-23
+      updated: 2025-06-23-05-21-32
       followers: 1123
       likes: 31
-      views: 418
+      views: 419
       reposts: 1
     - service: tg
       id: 722
       published: 2025-02-23-18-09-36
-      updated: 2025-06-16-05-21-18
+      updated: 2025-06-23-05-21-27
       followers: 683
       likes: 53
-      views: 681
+      views: 683
 2017-07-29-near-berandas:
   title: Near Berandas
   titleRu: У Берандаса
