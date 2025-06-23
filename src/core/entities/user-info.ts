@@ -8,11 +8,12 @@ import type { PostsUsage } from './posts-usage.js';
 import { comparePostsUsages, createPostsUsage } from './posts-usage.js';
 import type { ImageResourceUrl } from './resource.js';
 import type { UserRole } from './user.js';
-import { getUserEntryTitle } from './user.js';
+import { getUserEntryAvatar, getUserEntryTitle, getUserEntryTitleRu } from './user.js';
 
 export interface UserInfo {
   id: string;
   title: string;
+  titleRu?: string;
   authored?: PostsUsage;
   requested?: PostsUsage;
   commented?: PostsUsage;
@@ -108,6 +109,7 @@ export async function createUserInfos(dataManager: DataManager): Promise<UserInf
       return cleanupUndefinedProps({
         id,
         title: getUserEntryTitle(entry),
+        titleRu: getUserEntryTitleRu(entry),
         authored,
         requested,
         commented,
@@ -118,7 +120,7 @@ export async function createUserInfos(dataManager: DataManager): Promise<UserInf
         rating,
         roles,
         talkedToTelegramBot: Boolean(user.profiles?.some((profile) => profile.service === 'tg' && profile.botChatId)),
-        avatar: user.avatar,
+        avatar: getUserEntryAvatar(entry),
       });
     }),
   );

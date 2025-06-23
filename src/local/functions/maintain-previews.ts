@@ -30,14 +30,15 @@ export async function maintainPreviews() {
   }
 
   for await (const [, user] of dataManager.users.readAllEntries(true)) {
-    const url = user.avatar;
-    if (!url) {
-      continue;
-    }
+    const urls = [user.avatar, ...(user.profiles?.map((profile) => profile.avatar) ?? [])].filter(
+      (url) => typeof url !== 'undefined',
+    );
 
-    const previewPath = await createResourcePreview(url, 80, 80);
-    if (previewPath) {
-      deletablePreviewPaths.delete(previewPath);
+    for (const url of urls) {
+      const previewPath = await createResourcePreview(url, 80, 80);
+      if (previewPath) {
+        deletablePreviewPaths.delete(previewPath);
+      }
     }
   }
 
