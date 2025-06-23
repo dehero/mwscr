@@ -56,7 +56,13 @@ export const UserPage = (): JSX.Element => {
               </div>
 
               <div class={styles.info}>
-                <p class={styles.title}>{userInfo().title}</p>
+                <section class={styles.titles}>
+                  <p class={styles.title}>{userInfo().title}</p>
+
+                  <Show when={userInfo().titleRu}>
+                    <p class={styles.titleRu}>{userInfo().titleRu}</p>
+                  </Show>
+                </section>
 
                 <Show when={userInfo().roles.length > 0}>
                   <p class={styles.roles}>{userInfo().roles.join(', ')}</p>
