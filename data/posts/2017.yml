@@ -5134,24 +5134,24 @@
       id: DLNoqLTtw8X
       mediaId: '17905224342189031'
       published: 2025-06-22-18-25-32
-      updated: 2025-06-23-18-28-12
+      updated: 2025-06-23-19-16-03
       followers: 1553
       likes: 53
     - service: vk
       id: 2480
       published: 2025-06-22-18-25-45
-      updated: 2025-06-23-18-28-10
+      updated: 2025-06-23-19-15-58
       followers: 1329
       likes: 42
-      views: 204
+      views: 207
       reposts: 1
     - service: tg
       id: 893
       published: 2025-06-22-18-25-51
-      updated: 2025-06-23-18-28-10
+      updated: 2025-06-23-19-15-59
       followers: 752
-      likes: 53
-      views: 177
+      likes: 55
+      views: 191
       comments: !c Cw+AkZPLQnl5kEyIgACrS2F3YXpha3kyMjOnNe+4j+KDowM=
 2017-04-28-gloomy-barrow:
   title: Gloomy Barrow
@@ -10647,15 +10647,24 @@
       id: DLQNzSCtXC6
       mediaId: '18071090824976196'
       published: 2025-06-23-18-28-33
+      updated: 2025-06-23-19-16-00
       followers: 1554
+      likes: 19
+      comments: !c ixWAkZPLQnl54iL5AACrZGVsYW5vc3BpZXO0QmVzdCB2YW5pbGxhIGhpZGVvdXQD
     - service: vk
       id: 2481
       published: 2025-06-23-18-28-39
+      updated: 2025-06-23-19-15-56
       followers: 1328
+      likes: 4
+      views: 18
     - service: tg
       id: 894
       published: 2025-06-23-18-28-43
+      updated: 2025-06-23-19-15-57
       followers: 753
+      likes: 18
+      views: 65
 2017-09-15-lava-swamps:
   title: Lava Swamps
   titleRu: Лавовые болота
