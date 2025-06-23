@@ -2170,7 +2170,7 @@
     - service: vk
       id: 1582
       published: 2024-06-15-18-19-44
-      updated: 2025-06-16-05-21-35
+      updated: 2025-06-23-06-30-37
       followers: 916
       likes: 53
       views: 446
@@ -2178,7 +2178,7 @@
     - service: tg
       id: 440
       published: 2024-06-15-18-19-53
-      updated: 2025-06-16-05-21-28
+      updated: 2025-06-23-06-30-29
       followers: 386
       likes: 71
       views: 558
@@ -2878,7 +2878,7 @@
     - service: vk
       id: 2133
       published: 2025-02-16-18-09-34
-      updated: 2025-06-16-05-21-25
+      updated: 2025-06-23-06-30-26
       followers: 1071
       likes: 45
       views: 490
@@ -5134,23 +5134,23 @@
       id: DLNoqLTtw8X
       mediaId: '17905224342189031'
       published: 2025-06-22-18-25-32
-      updated: 2025-06-23-05-21-24
+      updated: 2025-06-23-06-30-24
       followers: 1553
-      likes: 38
+      likes: 42
     - service: vk
       id: 2480
       published: 2025-06-22-18-25-45
-      updated: 2025-06-23-05-21-24
+      updated: 2025-06-23-06-30-22
       followers: 1329
-      likes: 25
-      views: 126
+      likes: 26
+      views: 133
     - service: tg
       id: 893
       published: 2025-06-22-18-25-51
-      updated: 2025-06-23-05-21-23
+      updated: 2025-06-23-06-30-23
       followers: 752
       likes: 49
-      views: 149
+      views: 155
       comments: !c Cw+AkZPLQnl5kEyIgACrS2F3YXpha3kyMjOnNe+4j+KDowM=
 2017-04-28-gloomy-barrow:
   title: Gloomy Barrow
@@ -7152,14 +7152,14 @@
     - service: vk
       id: 1594
       published: 2024-06-22-18-18-49
-      updated: 2025-06-16-05-21-34
+      updated: 2025-06-23-06-30-36
       followers: 920
       likes: 39
       views: 303
     - service: tg
       id: 447
       published: 2024-06-22-18-18-57
-      updated: 2025-06-16-05-21-27
+      updated: 2025-06-23-06-30-28
       followers: 387
       likes: 60
       views: 506
@@ -7461,7 +7461,7 @@
     - service: vk
       id: 2107
       published: 2025-02-02-18-09-12
-      updated: 2025-06-16-05-21-28
+      updated: 2025-06-23-06-30-29
       followers: 1060
       likes: 51
       views: 446
@@ -14245,7 +14245,7 @@
     - service: vk
       id: 1616
       published: 2024-07-06-18-18-40
-      updated: 2025-06-16-05-21-32
+      updated: 2025-06-23-06-30-34
       followers: 919
       likes: 50
       views: 301
@@ -14262,7 +14262,7 @@
     - service: tg
       id: 461
       published: 2024-07-06-18-18-45
-      updated: 2025-06-16-05-21-25
+      updated: 2025-06-23-06-30-27
       followers: 393
       likes: 59
       views: 492
