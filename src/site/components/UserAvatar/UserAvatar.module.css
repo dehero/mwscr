@@ -11,12 +11,21 @@
   object-fit: cover;
 }
 
+.avatar.small {
+  width: 20px;
+  font-size: 1rem;
+}
+
+.avatar.medium {
+  width: 80px;
+}
+
 .fallback {
   width: 80px;
   background: var(--color-border);
   color: var(--color-background);
-  font-size: 32px;
-  display: flex;
+  font-size: 2rem;
+  display: inline-flex;
   align-items: center;
   justify-content: center;
 }

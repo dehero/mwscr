@@ -41,7 +41,7 @@ export const Comment: Component<CommentProps> = (props) => {
   return (
     <section class={clsx(props.class, styles.comment)}>
       <a class={styles.avatar} href={userRoute.createUrl({ id: props.comment.author })} ref={setAvatarRef}>
-        <UserAvatar image={userInfo()?.avatar} title={userInfo()?.title ?? props.comment.author} />
+        <UserAvatar image={userInfo()?.avatar} title={userInfo()?.title ?? props.comment.author} size="small" />
       </a>
 
       <Show when={title()}>

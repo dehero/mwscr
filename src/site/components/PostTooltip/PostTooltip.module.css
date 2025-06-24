@@ -6,6 +6,11 @@
   margin-right: 4px;
 }
 
+.avatar {
+  margin-right: 4px;
+  vertical-align: bottom;
+}
+
 .divider {
   width: 100%;
 }

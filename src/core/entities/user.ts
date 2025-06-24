@@ -84,7 +84,7 @@ export function getUserEntryAvatar(entry: UserEntry) {
 
   if (!result && entry[1]?.profiles) {
     for (const profile of entry[1].profiles) {
-      if (profile.avatar) {
+      if (profile.avatar && !profile.deleted) {
         result = profile.avatar;
         break;
       }
@@ -102,6 +102,7 @@ export function createUserOption(entry: UserEntry): Option {
   return {
     value: entry[0],
     label: getUserEntryTitle(entry),
+    image: getUserEntryAvatar(entry),
   };
 }
 

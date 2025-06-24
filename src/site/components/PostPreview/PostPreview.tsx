@@ -1,5 +1,5 @@
 import clsx from 'clsx';
-import { type Component, createSignal, For, Show } from 'solid-js';
+import { type Component, createSignal, Show } from 'solid-js';
 import { Dynamic } from 'solid-js/web';
 import avatar from '../../../../assets/avatar.png?format=avif&imagetools';
 import { markdownToInlineHtml } from '../../../core/entities/markdown.js';
@@ -7,7 +7,6 @@ import { getLimitedAspectRatio } from '../../../core/entities/media.js';
 import { postAddonDescriptors, postTypeDescriptors, postViolationDescriptors } from '../../../core/entities/post.js';
 import type { PostInfo } from '../../../core/entities/post-info.js';
 import { createPostPath } from '../../../core/entities/posts-manager.js';
-import { getUserTitleLetter } from '../../../core/entities/user.js';
 import { capitalizeFirstLetter } from '../../../core/utils/common-utils.js';
 import { postRoute } from '../../routes/post-route.js';
 import { createDetachedDialogFragment } from '../DetachedDialogsProvider/DetachedDialogsProvider.jsx';
@@ -37,9 +36,7 @@ export interface PostPreviewProps {
 
 export const PostPreview: Component<PostPreviewProps> = (props) => {
   const title = () => props.postInfo.title || props.postInfo.id;
-  const authorLetters = () => props.postInfo.authorOptions.map((option) => getUserTitleLetter(option.label));
-  const requesterLetter = () =>
-    props.postInfo.requesterOption ? getUserTitleLetter(props.postInfo.requesterOption.label) : undefined;
+
   const url = () =>
     props.postInfo.status === 'added'
       ? createDetachedDialogFragment('post-editing', createPostPath(props.postInfo.managerName, props.postInfo.id))
@@ -128,6 +125,7 @@ export const PostPreview: Component<PostPreviewProps> = (props) => {
                 <Show when={props.postInfo.addon && !postAddonDescriptors[props.postInfo.addon].official}>
                   <span class={styles.addon}>{props.postInfo.addon}</span>
                 </Show>
+
                 <Frame class={styles.icons}>
                   <Icon color="combat" size="small" variant="flat">
                     <PostTypeGlyph type={props.postInfo.type} />
@@ -139,21 +137,6 @@ export const PostPreview: Component<PostPreviewProps> = (props) => {
                     </Icon>
                   </Show>
 
-                  <For each={authorLetters()}>
-                    {(letter) => (
-                      <Icon size="small" variant="flat" color="stealth">
-                        {letter}
-                      </Icon>
-                    )}
-                  </For>
-
-                  <Show when={requesterLetter()}>
-                    {(letter) => (
-                      <Icon size="small" variant="flat" color="magic">
-                        {letter()}
-                      </Icon>
-                    )}
-                  </Show>
                   <Show when={props.postInfo.violation}>
                     {(violation) => (
                       <Icon color="health" size="small" variant="flat">

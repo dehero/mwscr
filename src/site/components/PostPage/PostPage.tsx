@@ -10,7 +10,6 @@ import type { PostAction } from '../../../core/entities/post-action.js';
 import { createPostPath, postsManagerDescriptors } from '../../../core/entities/posts-manager.js';
 import { getPublicationsStats } from '../../../core/entities/publication.js';
 import { parseResourceUrl, resourceIsImage, resourceIsVideo } from '../../../core/entities/resource.js';
-import { getUserTitleLetter } from '../../../core/entities/user.js';
 import { store } from '../../../core/stores/index.js';
 import { asArray, capitalizeFirstLetter } from '../../../core/utils/common-utils.js';
 import { formatDate, isValidDate } from '../../../core/utils/date-utils.js';
@@ -42,6 +41,7 @@ import { Spacer } from '../Spacer/Spacer.js';
 import type { TableRow } from '../Table/Table.js';
 import { Table } from '../Table/Table.js';
 import { Toast, useToaster } from '../Toaster/Toaster.js';
+import { UserAvatar } from '../UserAvatar/UserAvatar.jsx';
 import { UserTooltip } from '../UserTooltip/UserTooltip.js';
 import { VideoPlayer } from '../VideoPlayer/VideoPlayer.jsx';
 import { WorldMap } from '../WorldMap/WorldMap.js';
@@ -431,9 +431,12 @@ export const PostPage = (): JSX.Element => {
                       label: 'Author',
                       value: () => (
                         <>
-                          <Icon color="stealth" size="small" variant="flat" class={clsx(styles.icon, styles.tableIcon)}>
-                            {getUserTitleLetter(option.label)}
-                          </Icon>
+                          <UserAvatar
+                            image={option.image}
+                            title={option.label ?? option.value ?? '?'}
+                            size="small"
+                            class={styles.avatar}
+                          />
                           {option.label}
                         </>
                       ),
@@ -446,9 +449,12 @@ export const PostPage = (): JSX.Element => {
                     value: postInfo().requesterOption
                       ? () => (
                           <>
-                            <Icon color="magic" size="small" variant="flat" class={clsx(styles.icon, styles.tableIcon)}>
-                              {getUserTitleLetter(postInfo().requesterOption?.label)}
-                            </Icon>
+                            <UserAvatar
+                              image={postInfo().requesterOption!.image}
+                              title={postInfo().requesterOption!.label ?? postInfo().requesterOption!.value ?? '?'}
+                              size="small"
+                              class={styles.avatar}
+                            />
                             {postInfo().requesterOption!.label}
                           </>
                         )
