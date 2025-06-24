@@ -1,6 +1,7 @@
 export interface Option<T = string> {
   value: T | undefined;
   label?: string;
+  image?: string;
 }
 
 export const ALL_OPTION = { value: undefined, label: 'All' } as const satisfies Option;
