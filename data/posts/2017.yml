@@ -5134,16 +5134,16 @@
       id: DLNoqLTtw8X
       mediaId: '17905224342189031'
       published: 2025-06-22-18-25-32
-      updated: 2025-06-24-06-29-53
+      updated: 2025-06-24-07-20-12
       followers: 1553
       likes: 57
     - service: vk
       id: 2480
       published: 2025-06-22-18-25-45
-      updated: 2025-06-24-06-29-52
+      updated: 2025-06-24-07-20-09
       followers: 1329
-      likes: 47
-      views: 236
+      likes: 48
+      views: 239
       reposts: 1
       comments: !c |-
         G60A+C0SbFsLb48T3NLHpmSiKM8QvkY9EsNOBUtY2YPa5jJOwauFUf3lNrZ/4zWfFtEwcJU5MtmJ
@@ -5152,10 +5152,10 @@
     - service: tg
       id: 893
       published: 2025-06-22-18-25-51
-      updated: 2025-06-24-06-29-51
+      updated: 2025-06-24-07-20-11
       followers: 752
-      likes: 57
-      views: 216
+      likes: 59
+      views: 219
       comments: !c Cw+AkZPLQnl5kEyIgACrS2F3YXpha3kyMjOnNe+4j+KDowM=
 2017-04-28-gloomy-barrow:
   title: Gloomy Barrow
@@ -10651,17 +10651,17 @@
       id: DLQNzSCtXC6
       mediaId: '18071090824976196'
       published: 2025-06-23-18-28-33
-      updated: 2025-06-24-06-29-52
+      updated: 2025-06-24-07-20-10
       followers: 1554
-      likes: 48
+      likes: 49
       comments: !c ixWAkZPLQnl54iL5AACrZGVsYW5vc3BpZXO0QmVzdCB2YW5pbGxhIGhpZGVvdXQD
     - service: vk
       id: 2481
       published: 2025-06-23-18-28-39
-      updated: 2025-06-24-06-29-50
+      updated: 2025-06-24-07-20-08
       followers: 1328
-      likes: 52
-      views: 205
+      likes: 53
+      views: 214
       comments: !c |-
         G9MA6K0OeHPoKqGmOVN75iOiIm4RPkipZ9gkGGGyp3MLOViKKR4H7kN/oNyWuzn9bkyRHywVQzNz
         ZLILh73I8mADDtyCRDiFSc8nJrDF8/7rb+n4bqjwt6Um1y+dujmDl7KAtoZmFbpIsHO6lDCCxHIm
@@ -10669,11 +10669,14 @@
     - service: tg
       id: 894
       published: 2025-06-23-18-28-43
-      updated: 2025-06-24-06-29-49
+      updated: 2025-06-24-07-20-09
       followers: 753
-      likes: 46
-      views: 144
-      comments: !c CxWAkZPLQnl56dTxgACvVmFpbCBBc3Rvcid6a2l5r9CS0LDQuSDQvNCw0LzQsAM=
+      likes: 50
+      views: 149
+      comments: !c |-
+        G5gACByJ6caCfOxYvKNGqHSer27jJ7J2aIEFC2VQAuERJO9jgEFtroRuSoeIvNvUmKdzI1co0eaM
+        MmcxnAQGkxu5GnSDIw2IIyzAQCzAEKdbELF89MFF0/m57ldgYy6n59B9nN2+4vOWHYegHDJaI1lJ
+        ixMOt5K4sZTIrc6Vi+QK/P/n2mpr8YLo03pjPYMqDwY=
 2017-09-15-lava-swamps:
   title: Lava Swamps
   titleRu: Лавовые болота
