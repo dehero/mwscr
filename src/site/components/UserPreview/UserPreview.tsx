@@ -1,11 +1,9 @@
 import clsx from 'clsx';
 import { type Component, createSignal, Show } from 'solid-js';
-// import { getUserTitleLetter } from '../../../core/entities/user.js';
 import type { UserInfo } from '../../../core/entities/user-info.js';
 import { userRoute } from '../../routes/user-route.js';
 import { Frame } from '../Frame/Frame.js';
 import { GoldIcon } from '../GoldIcon/GoldIcon.js';
-// import { Icon } from '../Icon/Icon.jsx';
 import { UserAvatar } from '../UserAvatar/UserAvatar.jsx';
 import { UserTooltip } from '../UserTooltip/UserTooltip.js';
 import styles from './UserPreview.module.css';
@@ -28,17 +26,7 @@ export const UserPreview: Component<UserPreviewProps> = (props) => {
       <UserAvatar class={styles.avatar} image={props.userInfo.avatar} title={props.userInfo.title} />
 
       <section class={styles.info}>
-        <span class={styles.title}>
-          {/* <Icon
-            size="small"
-            variant="flat"
-            color={props.userInfo.roles.includes('author') ? 'stealth' : 'magic'}
-            class={styles.icon}
-          >
-            {getUserTitleLetter(props.userInfo.title)}
-          </Icon> */}
-          {props.userInfo.title}
-        </span>
+        <span class={styles.title}>{props.userInfo.title}</span>
 
         <span class={styles.roles}>{props.userInfo.roles.join(', ')}</span>
 

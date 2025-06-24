@@ -9,15 +9,11 @@
   text-decoration: none;
   color: inherit;
   overflow: hidden;
-  justify-content: flex-start;
+  justify-content: center;
 }
 
 .avatar {
-  margin-top: 16px;
-}
-
-.icon {
-  margin-right: 4px;
+  flex: 0 1 80px;
 }
 
 .info {

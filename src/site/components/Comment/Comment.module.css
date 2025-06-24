@@ -1,7 +1,7 @@
 .comment {
   display: grid;
   gap: 2px 6px;
-  grid-template-columns: 20px 1fr;
+  grid-template-columns: auto 1fr;
   grid-template-rows: auto 1fr;
   grid-template-areas: 'avatar title' 'avatar text';
 }

@@ -172,6 +172,11 @@
   vertical-align: baseline;
 }
 
+.avatar {
+  margin-right: 4px;
+  vertical-align: bottom;
+}
+
 .authors {
   display: flex;
   align-items: flex-end;

@@ -54,14 +54,14 @@ export const UserPage = (): JSX.Element => {
           <Frame component="main" class={styles.container}>
             <Frame component="section" variant="thin" class={styles.main}>
               <div class={styles.avatarWrapper}>
-                <UserAvatar image={userInfo().avatar} title={userInfo().title} class={styles.avatar} original />
+                <UserAvatar image={userInfo().avatar} title={userInfo().title} class={styles.avatar} size="original" />
               </div>
 
               <div class={styles.info}>
                 <section class={styles.titles}>
                   <p class={styles.title}>{userInfo().title}</p>
 
-                  <Show when={userInfo().titleRu}>
+                  <Show when={userInfo().titleRu && userInfo().titleRu !== userInfo().title}>
                     <p class={styles.titleRu}>{userInfo().titleRu}</p>
                   </Show>
                 </section>
@@ -93,6 +93,7 @@ export const UserPage = (): JSX.Element => {
                                   image={profile.avatar}
                                   title={profile.name || profile.username || profile.service}
                                   class={styles.linkAvatar}
+                                  size="small"
                                 />
                               </Show>
                               {service?.name}

@@ -1,6 +1,7 @@
 import clsx from 'clsx';
 import { type Component, onMount, Show } from 'solid-js';
 import { parseResourceUrl } from '../../../core/entities/resource.js';
+import { getUserTitleLetter } from '../../../core/entities/user.js';
 import { store } from '../../../core/stores/index.js';
 import { getResourcePreviewUrl } from '../../data-managers/resources.js';
 import YellowExclamationMark from '../../images/exclamation.svg';
@@ -13,7 +14,7 @@ export interface UserAvatarProps {
   class?: string;
   onLoad?: () => void;
   onError?: () => void;
-  original?: boolean;
+  size?: 'small' | 'medium' | 'original';
 }
 
 export const UserAvatar: Component<UserAvatarProps> = (props) => {
@@ -22,7 +23,7 @@ export const UserAvatar: Component<UserAvatarProps> = (props) => {
 
   const url = () =>
     props.image
-      ? props.original
+      ? props.size === 'original'
         ? store.getPublicUrl(parseResourceUrl(props.image).pathname)
         : getResourcePreviewUrl(props.image)
       : undefined;
@@ -34,7 +35,7 @@ export const UserAvatar: Component<UserAvatarProps> = (props) => {
   };
 
   const handleError = () => {
-    addToast(props.original ? `Failed to load: ${url()}` : `Failed to load preview: ${url()}`);
+    addToast(props.size === 'original' ? `Failed to load: ${url()}` : `Failed to load preview: ${url()}`);
     if (ref instanceof HTMLImageElement && ref.src !== YellowExclamationMark) {
       ref.src = YellowExclamationMark;
       ref.ariaLabel = 'yellow exclamation mark';
@@ -55,17 +56,19 @@ export const UserAvatar: Component<UserAvatarProps> = (props) => {
       when={url()}
       fallback={
         <div
-          class={clsx(props.class, styles.avatar, styles.fallback, props.original && styles.original)}
+          // eslint-disable-next-line unicorn/explicit-length-check
+          class={clsx(props.class, styles.avatar, styles.fallback, props.size && styles[props.size])}
           aria-label={props.title}
         >
-          {props.title[0]?.toLocaleUpperCase()}
+          {getUserTitleLetter(props.title)}
         </div>
       }
       keyed
     >
       <img
         src={url()}
-        class={clsx(props.class, styles.avatar)}
+        // eslint-disable-next-line unicorn/explicit-length-check
+        class={clsx(props.class, styles.avatar, props.size && styles[props.size])}
         draggable="false"
         onLoad={handleLoad}
         onError={handleError}
