@@ -5134,13 +5134,13 @@
       id: DLNoqLTtw8X
       mediaId: '17905224342189031'
       published: 2025-06-22-18-25-32
-      updated: 2025-06-24-08-27-51
+      updated: 2025-06-24-09-22-13
       followers: 1553
       likes: 57
     - service: vk
       id: 2480
       published: 2025-06-22-18-25-45
-      updated: 2025-06-24-08-27-49
+      updated: 2025-06-24-09-22-12
       followers: 1329
       likes: 49
       views: 243
@@ -5152,7 +5152,7 @@
     - service: tg
       id: 893
       published: 2025-06-22-18-25-51
-      updated: 2025-06-24-08-27-50
+      updated: 2025-06-24-09-22-10
       followers: 752
       likes: 59
       views: 221
@@ -10651,17 +10651,17 @@
       id: DLQNzSCtXC6
       mediaId: '18071090824976196'
       published: 2025-06-23-18-28-33
-      updated: 2025-06-24-08-27-48
+      updated: 2025-06-24-09-22-11
       followers: 1554
       likes: 50
       comments: !c ixWAkZPLQnl54iL5AACrZGVsYW5vc3BpZXO0QmVzdCB2YW5pbGxhIGhpZGVvdXQD
     - service: vk
       id: 2481
       published: 2025-06-23-18-28-39
-      updated: 2025-06-24-08-27-47
+      updated: 2025-06-24-09-22-10
       followers: 1328
-      likes: 57
-      views: 236
+      likes: 61
+      views: 247
       comments: !c |-
         G9MA6K0OeHPoKqGmOVN75iOiIm4RPkipZ9gkGGGyp3MLOViKKR4H7kN/oNyWuzn9bkyRHywVQzNz
         ZLILh73I8mADDtyCRDiFSc8nJrDF8/7rb+n4bqjwt6Um1y+dujmDl7KAtoZmFbpIsHO6lDCCxHIm
@@ -10669,14 +10669,15 @@
     - service: tg
       id: 894
       published: 2025-06-23-18-28-43
-      updated: 2025-06-24-08-27-48
+      updated: 2025-06-24-09-22-09
       followers: 753
-      likes: 51
-      views: 153
+      likes: 52
+      views: 155
       comments: !c |-
-        G5gACByJ6caCfOxYvKNGqHSer27jJ7J2aIEFC2VQAuERJO9jgEFtroRuSoeIvNvUmKdzI1co0eaM
-        MmcxnAQGkxu5GnSDIw2IIyzAQCzAEKdbELF89MFF0/m57ldgYy6n59B9nN2+4vOWHYegHDJaI1lJ
-        ixMOt5K4sZTIrc6Vi+QK/P/n2mpr8YLo03pjPYMqDwY=
+        G7MACByJcSzFgqkrBFG/317/jZBeo//QoNK1iXjCk9h0omgohKZ74CECNbcSOqEQ6o0596pArFoz
+        pE450oA4wgIMxAL8Ub475SCIk5YFGJ2+ms1O9lrdcvQptXH4Kr66L1EzTZ/358nFyJYaapFKhtLp
+        WODnHfdMWtIABpIeokgSZKRlRMPSZPOXiQiKRtKUvj56xQHLKmr/58+D0xdLats/olvriVjtgAFL
+        c0EB
 2017-09-15-lava-swamps:
   title: Lava Swamps
   titleRu: Лавовые болота
