@@ -4153,10 +4153,10 @@
     - service: vk
       id: 2394
       published: 2025-05-27-18-13-01
-      updated: 2025-06-17-22-18-28
+      updated: 2025-06-24-22-18-56
       followers: 1309
       likes: 59
-      views: 607
+      views: 614
       reposts: 3
       comments: !c |-
         G28DIKwKbBuS9bCNZiYvM5p4Gf9P3NOW8M23bdpvcWbNBIE3E+AKNWliyblgTUBpTdm5DKO3V+/s
@@ -4171,10 +4171,10 @@
     - service: tg
       id: 860
       published: 2025-05-27-18-13-08
-      updated: 2025-06-17-22-18-26
+      updated: 2025-06-24-22-18-52
       followers: 741
       likes: 62
-      views: 491
+      views: 505
       comments: !c Cw+AkZPLQnlxMrKIgACuc3Rhc3lham95c3RpY2uk8J+RjQM=
     - service: ig
       id: DKMJ91kMjAm
@@ -7851,16 +7851,16 @@
       id: DJmpK9eTUmw
       mediaId: '18067704613955191'
       published: 2025-05-13-18-28-15
-      updated: 2025-06-17-21-18-52
+      updated: 2025-06-24-22-18-57
       followers: 1538
       likes: 82
     - service: vk
       id: 2356
       published: 2025-05-13-18-28-37
-      updated: 2025-06-17-21-18-51
+      updated: 2025-06-24-22-18-58
       followers: 1295
       likes: 49
-      views: 470
+      views: 473
       reposts: 3
     - service: tg
       id:
@@ -7869,10 +7869,10 @@
         - 842
         - 843
       published: 2025-05-13-18-28-57
-      updated: 2025-06-17-21-18-50
+      updated: 2025-06-24-22-18-53
       followers: 738
       likes: 63
-      views: 611
+      views: 619
 2018-07-16-to-the-swamps:
   title: To the Swamps
   titleRu: К болотам
