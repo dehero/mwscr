@@ -25,7 +25,7 @@ export const UserPreview: Component<UserPreviewProps> = (props) => {
 
   return (
     <Frame component="a" class={clsx(styles.container, props.class)} ref={setRef} href={url()}>
-      <UserAvatar class={styles.avatar} user={props.userInfo} />
+      <UserAvatar class={styles.avatar} image={props.userInfo.avatar} title={props.userInfo.title} />
 
       <section class={styles.info}>
         <span class={styles.title}>

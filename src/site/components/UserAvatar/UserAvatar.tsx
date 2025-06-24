@@ -1,16 +1,15 @@
 import clsx from 'clsx';
-import { type Component, createResource, onMount, Show } from 'solid-js';
+import { type Component, onMount, Show } from 'solid-js';
 import { parseResourceUrl } from '../../../core/entities/resource.js';
-import type { UserInfo } from '../../../core/entities/user-info.js';
 import { store } from '../../../core/stores/index.js';
-import { dataManager } from '../../data-managers/manager.js';
 import { getResourcePreviewUrl } from '../../data-managers/resources.js';
 import YellowExclamationMark from '../../images/exclamation.svg';
 import { useToaster } from '../Toaster/Toaster.jsx';
 import styles from './UserAvatar.module.css';
 
 export interface UserAvatarProps {
-  user: UserInfo | string;
+  image: string | undefined;
+  title: string;
   class?: string;
   onLoad?: () => void;
   onError?: () => void;
@@ -21,16 +20,11 @@ export const UserAvatar: Component<UserAvatarProps> = (props) => {
   const { addToast } = useToaster();
   let ref: HTMLImageElement | undefined;
 
-  const [userInfo] = createResource(
-    () => props.user,
-    (user) => (typeof user === 'string' ? dataManager.getUserInfo(user) : user),
-  );
-
   const url = () =>
-    userInfo()?.avatar
+    props.image
       ? props.original
-        ? store.getPublicUrl(parseResourceUrl(userInfo()!.avatar!).pathname)
-        : getResourcePreviewUrl(userInfo()!.avatar!)
+        ? store.getPublicUrl(parseResourceUrl(props.image).pathname)
+        : getResourcePreviewUrl(props.image)
       : undefined;
 
   const handleLoad = () => {
@@ -62,9 +56,9 @@ export const UserAvatar: Component<UserAvatarProps> = (props) => {
       fallback={
         <div
           class={clsx(props.class, styles.avatar, styles.fallback, props.original && styles.original)}
-          aria-label={userInfo()?.title}
+          aria-label={props.title}
         >
-          {userInfo()?.title[0]?.toLocaleUpperCase()}
+          {props.title[0]?.toLocaleUpperCase()}
         </div>
       }
       keyed
@@ -75,7 +69,7 @@ export const UserAvatar: Component<UserAvatarProps> = (props) => {
         draggable="false"
         onLoad={handleLoad}
         onError={handleError}
-        aria-label={userInfo()?.title}
+        aria-label={props.title}
         ref={ref}
       />
     </Show>

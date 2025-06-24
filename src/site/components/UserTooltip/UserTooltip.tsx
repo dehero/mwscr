@@ -32,7 +32,7 @@ export const UserTooltip: Component<UserTooltipProps> = (props) => {
       {(userInfo) => (
         <Tooltip {...rest}>
           <Show when={props.showAvatar}>
-            <UserAvatar class={styles.avatar} user={userInfo()} />
+            <UserAvatar class={styles.avatar} image={userInfo().avatar} title={userInfo().title} />
           </Show>
 
           <span class={styles.title}>

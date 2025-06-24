@@ -1,16 +1,15 @@
 import { render } from 'vike/abort';
 import type { CommentInfo } from '../../../core/entities/comment-info.js';
 import type { DataManager } from '../../../core/entities/data-manager.js';
-import type { Link } from '../../../core/entities/link.js';
 import { PostType } from '../../../core/entities/post.js';
 import type { PostInfoSelection } from '../../../core/entities/post-info.js';
-import { createUserLinks, getUserEntryTitle } from '../../../core/entities/user.js';
-import { services } from '../../../core/services/index.js';
+import type { UserProfile } from '../../../core/entities/user.js';
+import { getUserEntryTitle } from '../../../core/entities/user.js';
 import type { UserRouteParams } from '../../routes/user-route.js';
 
 export interface UserPageData {
   title: string;
-  userLinks?: Link[];
+  profiles?: UserProfile[];
   lastPostInfo?: PostInfoSelection;
   lastOriginalPostInfo?: PostInfoSelection;
   firstPostInfo?: PostInfoSelection;
@@ -35,7 +34,9 @@ export async function getUserPageData(dataManager: DataManager, params: UserRout
 
   return {
     title: getUserEntryTitle(userEntry),
-    userLinks: await createUserLinks(userEntry, services),
+    profiles: userEntry[1].profiles
+      ? [...userEntry[1].profiles].sort((a, b) => Number(a.deleted ?? 0) - Number(b.deleted ?? 0))
+      : undefined,
     lastPostInfo: await dataManager.selectPostInfo('posts', {
       author: params.id,
       sortKey: 'date',
