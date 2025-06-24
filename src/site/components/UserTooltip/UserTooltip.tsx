@@ -1,6 +1,5 @@
 import { type Component, createResource, Show, splitProps } from 'solid-js';
 import { postsUsageToString } from '../../../core/entities/posts-usage.js';
-import { getUserTitleLetter } from '../../../core/entities/user.js';
 import type { UserInfo } from '../../../core/entities/user-info.js';
 import { dataManager } from '../../data-managers/manager.js';
 import { GoldIcon } from '../GoldIcon/GoldIcon.js';
@@ -32,29 +31,17 @@ export const UserTooltip: Component<UserTooltipProps> = (props) => {
       {(userInfo) => (
         <Tooltip {...rest}>
           <Show when={props.showAvatar}>
-            <UserAvatar class={styles.avatar} image={userInfo().avatar} title={userInfo().title} />
+            <UserAvatar class={styles.avatar} image={userInfo().avatar} title={userInfo().title} size="medium" />
           </Show>
 
-          <span class={styles.title}>
-            <Show when={!props.showAvatar}>
-              <Icon
-                size="small"
-                variant="flat"
-                color={userInfo().roles.includes('author') ? 'stealth' : 'magic'}
-                class={styles.icon}
-              >
-                {getUserTitleLetter(userInfo().title)}
-              </Icon>
-            </Show>
-            {userInfo().title}
-          </span>
+          <span class={styles.title}>{userInfo().title}</span>
 
-          <Show when={userInfo().titleRu}>
+          <Show when={userInfo().titleRu && userInfo().titleRu !== userInfo().title}>
             <span class={styles.titleRu}>{userInfo().titleRu}</span>
           </Show>
 
           <Show when={userInfo().roles.length > 0}>
-            <span class={styles.roles}>Roles: {userInfo().roles.join(', ')}</span>
+            <span class={styles.roles}>{userInfo().roles.join(', ')}</span>
           </Show>
           <Show when={authored()}>
             <span class={styles.contribution}>

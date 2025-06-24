@@ -4,7 +4,6 @@ import { getPostDateById, postTypeDescriptors, postViolationDescriptors } from '
 import type { PostAction } from '../../../core/entities/post-action.js';
 import type { PostInfo } from '../../../core/entities/post-info.js';
 import { createPostPath, postsManagerDescriptors } from '../../../core/entities/posts-manager.js';
-import { getUserTitleLetter } from '../../../core/entities/user.js';
 import { asArray, capitalizeFirstLetter } from '../../../core/utils/common-utils.js';
 import { formatDate, isValidDate } from '../../../core/utils/date-utils.js';
 import { dataManager } from '../../data-managers/manager.js';
@@ -18,6 +17,7 @@ import { PostTypeGlyph } from '../PostTypeGlyph/PostTypeGlyph.jsx';
 import { useToaster } from '../Toaster/Toaster.jsx';
 import type { TooltipAction, TooltipProps } from '../Tooltip/Tooltip.js';
 import { Tooltip } from '../Tooltip/Tooltip.js';
+import { UserAvatar } from '../UserAvatar/UserAvatar.jsx';
 import styles from './PostTooltip.module.css';
 
 interface PostTooltipProps extends Omit<TooltipProps, 'children' | 'actions'> {
@@ -144,9 +144,12 @@ export const PostTooltip: Component<PostTooltipProps> = (props) => {
             {(option, index) => (
               <>
                 {index() > 0 ? ', ' : ''}
-                <Icon color="stealth" size="small" variant="flat" class={styles.icon}>
-                  {getUserTitleLetter(option.label)}
-                </Icon>
+                <UserAvatar
+                  image={option.image}
+                  title={option.label ?? option.value ?? '?'}
+                  size="small"
+                  class={styles.avatar}
+                />
                 {option.label}
               </>
             )}
@@ -157,9 +160,12 @@ export const PostTooltip: Component<PostTooltipProps> = (props) => {
         {(option) => (
           <span class={styles.author}>
             {'Requester: '}
-            <Icon color="magic" size="small" variant="flat" class={styles.icon}>
-              {getUserTitleLetter(option().label)}
-            </Icon>
+            <UserAvatar
+              image={option().image}
+              title={option().label ?? option().value ?? '?'}
+              size="small"
+              class={styles.avatar}
+            />
             {option().label}
           </span>
         )}
