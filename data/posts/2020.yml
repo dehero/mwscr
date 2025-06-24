@@ -465,22 +465,24 @@
     - service: vk
       id: 2484
       published: 2025-06-24-18-28-09
-      updated: 2025-06-24-19-15-59
+      updated: 2025-06-24-20-22-10
       followers: 1328
-      likes: 2
-      views: 25
+      likes: 3
+      views: 34
     - service: tg
       id: 895
       published: 2025-06-24-18-28-13
-      updated: 2025-06-24-19-16-00
+      updated: 2025-06-24-20-22-10
       followers: 753
-      likes: 19
-      views: 61
+      likes: 24
+      views: 90
     - service: ig
       id: DLS4FQzgAKX
       mediaId: '17868937881306574'
       published: 2025-06-24-19-16-30
+      updated: 2025-06-24-20-22-11
       followers: 1553
+      likes: 17
 2020-05-23-rainy-day-in-sadrith-mora:
   title: Rainy Day in Sadrith Mora
   titleRu: Дождливый день в Садрит Море
