@@ -92,11 +92,22 @@
 
 .links {
   margin: 0;
+  text-wrap: balance;
+  text-align: center;
+  line-height: 1.5;
 }
 
 .link {
+  display: inline-block;
   text-decoration: none;
+  white-space: nowrap;
   color: var(--color-text-selected);
+}
+
+.linkAvatar {
+  width: 20px;
+  margin-right: 4px;
+  vertical-align: sub;
 }
 
 .link:hover {
@@ -124,7 +135,7 @@
 
 @media only screen and (min-width: 812px) {
   .container {
-    grid-template-columns: auto 1fr 2fr;
+    grid-template-columns: minmax(var(--size-panel-min-width), 1fr) 1fr 2fr;
     grid-template-rows: 1fr;
     grid-template-areas: 'main comments posts';
     overflow: hidden;

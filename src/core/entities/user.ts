@@ -2,10 +2,8 @@ import transliterate from '@sindresorhus/transliterate';
 import type { InferOutput } from 'valibot';
 import { array, boolean, date, nonEmpty, number, object, optional, picklist, pipe, string, trim } from 'valibot';
 import { asArray } from '../utils/common-utils.js';
-import type { Link } from './link.js';
 import type { Option } from './option.js';
 import { ImageResourceUrl } from './resource.js';
-import type { Service } from './service.js';
 
 const USER_NAME_IS_RU_REGEX = /[ёа-я]/i;
 
@@ -13,14 +11,14 @@ export const USER_DEFAULT_AUTHOR = 'dehero';
 export const USER_UNKNOWN = 'anonimous';
 
 export const UserRole = picklist(['admin', 'author', 'requester', 'drawer', 'commenter', 'beginner', 'foreigner']);
-export const UserType = picklist(['chat', 'channel', 'bot']);
+export const UserProfileType = picklist(['chat', 'channel', 'bot']);
 
 export const UserProfile = object({
   service: pipe(string(), nonEmpty()),
   id: optional(pipe(string(), trim(), nonEmpty())),
   username: optional(pipe(string(), trim(), nonEmpty())),
   botChatId: optional(number()),
-  type: optional(UserType),
+  type: optional(UserProfileType),
   avatar: optional(ImageResourceUrl),
   name: optional(pipe(string(), trim(), nonEmpty())),
   deleted: optional(boolean()),
@@ -44,22 +42,6 @@ export type UserProfiles = InferOutput<typeof UserProfiles>;
 export type User = InferOutput<typeof User>;
 
 export type UserEntry = [string, User | undefined, ...unknown[]];
-
-export function createUserLinks(userEntry: UserEntry, services: Service[]): Link[] {
-  const links = [];
-
-  for (const service of services) {
-    const username = userEntry[1]?.profiles?.find((p) => p.service === service.id)?.username;
-    if (username) {
-      const url = service.getUserProfileUrl(username);
-      if (url) {
-        links.push({ text: service.name, url });
-      }
-    }
-  }
-
-  return links;
-}
 
 export function getUserEntryTitle(entry: UserEntry) {
   let result = entry[1]?.name;
