@@ -697,6 +697,7 @@ buck-the-cuck:
   profiles:
     - service: ig
       username: __deleted__bhiebeadjebaaicab
+      deleted: true
 butler-the-butler:
   profiles:
     - service: ig
@@ -1025,6 +1026,7 @@ darkness-rifho:
   profiles:
     - service: tg
       username: midnight_in_mind
+      deleted: true
     - service: tg
       id: '5704974271'
       updated: 2025-06-23-08-18-59
@@ -1958,7 +1960,8 @@ irina-bystritskaya:
   nameRu: Ирина Быстрицкая
   nameRuFrom: Ирины Быстрицкой
   profiles:
-    - service: vk
+    - type: channel
+      service: vk
       username: club207258733
     - service: vk
       id: '56690300'
