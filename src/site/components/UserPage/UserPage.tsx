@@ -2,10 +2,12 @@ import { writeClipboard } from '@solid-primitives/clipboard';
 import clsx from 'clsx';
 import type { JSX } from 'solid-js';
 import { createResource, For, Show } from 'solid-js';
+import { Dynamic } from 'solid-js/web';
 import { usePageContext } from 'vike-solid/usePageContext';
 import { postTypeDescriptors } from '../../../core/entities/post.js';
 import { postsManagerDescriptors, PostsManagerName } from '../../../core/entities/posts-manager.js';
 import { isPostsUsageEmpty } from '../../../core/entities/posts-usage.js';
+import { services } from '../../../core/services/index.js';
 import { telegram, TELEGRAM_BOT_NAME } from '../../../core/services/telegram.js';
 import { dataManager } from '../../data-managers/manager.js';
 import { useLocalPatch } from '../../hooks/useLocalPatch.js';
@@ -52,7 +54,7 @@ export const UserPage = (): JSX.Element => {
           <Frame component="main" class={styles.container}>
             <Frame component="section" variant="thin" class={styles.main}>
               <div class={styles.avatarWrapper}>
-                <UserAvatar user={userInfo()} class={styles.avatar} original />
+                <UserAvatar image={userInfo().avatar} title={userInfo().title} class={styles.avatar} original />
               </div>
 
               <div class={styles.info}>
@@ -68,17 +70,37 @@ export const UserPage = (): JSX.Element => {
                   <p class={styles.roles}>{userInfo().roles.join(', ')}</p>
                 </Show>
 
-                <Show when={data().userLinks && data().userLinks!.length > 0}>
+                <Show when={data().profiles && data().profiles!.length > 0}>
                   <p class={styles.links}>
-                    <For each={data().userLinks}>
-                      {(link, index) => (
-                        <>
-                          <Show when={index() > 0}> • </Show>
-                          <a href={link.url} class={styles.link}>
-                            {link.text}
-                          </a>
-                        </>
-                      )}
+                    <For each={data().profiles}>
+                      {(profile, index) => {
+                        const service = services.find((service) => service.id === profile.service);
+                        const url = profile.username && service?.getUserProfileUrl(profile.username);
+                        const attributes = [
+                          profile.type,
+                          !profile.username && 'anonimous',
+                          profile.deleted && 'deleted',
+                        ]
+                          .filter(Boolean)
+                          .join(', ');
+
+                        return (
+                          <>
+                            <Show when={index() > 0}>{' • '}</Show>
+                            <Dynamic component={url ? 'a' : 'span'} href={url} class={styles.link}>
+                              <Show when={profile.avatar}>
+                                <UserAvatar
+                                  image={profile.avatar}
+                                  title={profile.name || profile.username || profile.service}
+                                  class={styles.linkAvatar}
+                                />
+                              </Show>
+                              {service?.name}
+                              <Show when={attributes}> ({attributes})</Show>
+                            </Dynamic>
+                          </>
+                        );
+                      }}
                     </For>
                   </p>
                 </Show>
