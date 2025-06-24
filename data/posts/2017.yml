@@ -1219,14 +1219,14 @@
     - service: vk
       id: 1814
       published: 2024-10-07-18-10-38
-      updated: 2025-06-17-18-28-08
+      updated: 2025-06-24-19-16-12
       followers: 958
       likes: 42
       views: 334
     - service: tg
       id: 557
       published: 2024-10-07-18-10-45
-      updated: 2025-06-17-18-28-04
+      updated: 2025-06-24-19-16-05
       followers: 559
       likes: 62
       views: 514
@@ -7801,19 +7801,19 @@
     - service: vk
       id: 1766
       published: 2024-09-16-18-30-47
-      updated: 2025-06-17-18-28-13
+      updated: 2025-06-24-19-16-15
       followers: 947
       likes: 52
-      views: 402
+      views: 404
       reposts: 3
       comments: !c ixOAkZPLQnkgEr9RgACpdW50aXRsbDNkstGD0Y7RgtC90LXQvdGM0LrQvgM=
     - service: tg
       id: 534
       published: 2024-09-16-18-30-56
-      updated: 2025-06-17-18-28-07
+      updated: 2025-06-24-19-16-08
       followers: 557
       likes: 67
-      views: 870
+      views: 872
       comments: !c ixWAkZPLQnkfwrfFAACmQzRINk80uSJMb29rcyBsaWtlIGEgZHJlYW0iIPCfpKkD
 2017-07-05-banner-of-house-dagoth:
   title: Banner of House Dagoth
@@ -10089,24 +10089,24 @@
       id: DLIfTf-tQSn
       mediaId: '18064831238158761'
       published: 2025-06-20-18-27-34
-      updated: 2025-06-23-18-28-14
+      updated: 2025-06-24-19-16-04
       followers: 1554
-      likes: 67
+      likes: 68
     - service: vk
       id: 2478
       published: 2025-06-20-18-27-40
-      updated: 2025-06-23-18-28-13
+      updated: 2025-06-24-19-16-03
       followers: 1326
-      likes: 35
-      views: 321
+      likes: 37
+      views: 342
       reposts: 1
     - service: tg
       id: 891
       published: 2025-06-20-18-27-44
-      updated: 2025-06-23-18-28-11
+      updated: 2025-06-24-19-16-01
       followers: 751
-      likes: 50
-      views: 255
+      likes: 51
+      views: 295
 2017-08-31-guard-tower-of-suran:
   title: Guard Tower of Suran
   titleRu: Башня стражи Сурана
@@ -10651,17 +10651,17 @@
       id: DLQNzSCtXC6
       mediaId: '18071090824976196'
       published: 2025-06-23-18-28-33
-      updated: 2025-06-24-18-27-47
+      updated: 2025-06-24-19-16-02
       followers: 1554
       likes: 62
       comments: !c ixWAkZPLQnl54iL5AACrZGVsYW5vc3BpZXO0QmVzdCB2YW5pbGxhIGhpZGVvdXQD
     - service: vk
       id: 2481
       published: 2025-06-23-18-28-39
-      updated: 2025-06-24-18-27-46
+      updated: 2025-06-24-19-16-00
       followers: 1328
       likes: 73
-      views: 333
+      views: 340
       reposts: 1
       comments: !c |-
         G9MA6K0OeHPoKqGmOVN75iOiIm4RPkipZ9gkGGGyp3MLOViKKR4H7kN/oNyWuzn9bkyRHywVQzNz
@@ -10670,10 +10670,10 @@
     - service: tg
       id: 894
       published: 2025-06-23-18-28-43
-      updated: 2025-06-24-18-27-45
+      updated: 2025-06-24-19-16-01
       followers: 753
-      likes: 56
-      views: 173
+      likes: 57
+      views: 189
       comments: !c |-
         G7MACByJcSzFgqkrBFG/317/jZBeo//QoNK1iXjCk9h0omgohKZ74CECNbcSOqEQ6o0596pArFoz
         pE450oA4wgIMxAL8Ub475SCIk5YFGJ2+ms1O9lrdcvQptXH4Kr66L1EzTZ/358nFyJYaapFKhtLp
@@ -13659,24 +13659,24 @@
       id: DLF7g14NNqb
       mediaId: '18032560346432084'
       published: 2025-06-19-18-36-21
-      updated: 2025-06-23-18-28-16
+      updated: 2025-06-24-19-16-06
       followers: 1553
-      likes: 83
+      likes: 84
     - service: vk
       id: 2477
       published: 2025-06-19-18-36-26
-      updated: 2025-06-23-18-28-15
+      updated: 2025-06-24-19-16-05
       followers: 1326
-      likes: 49
-      views: 358
+      likes: 52
+      views: 401
       reposts: 2
     - service: tg
       id: 890
       published: 2025-06-19-18-36-30
-      updated: 2025-06-23-18-28-13
+      updated: 2025-06-24-19-16-03
       followers: 750
-      likes: 56
-      views: 289
+      likes: 57
+      views: 316
 2017-11-30-lava-kwama:
   title: Lava Kwama
   titleRu: Лавовые квама
