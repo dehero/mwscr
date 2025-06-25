@@ -509,7 +509,7 @@
     - service: vk
       id: 1815
       published: 2024-10-08-18-10-28
-      updated: 2025-06-18-17-20-34
+      updated: 2025-06-25-18-29-13
       followers: 958
       likes: 39
       views: 343
@@ -518,7 +518,7 @@
     - service: tg
       id: 558
       published: 2024-10-08-18-10-34
-      updated: 2025-06-18-17-20-02
+      updated: 2025-06-25-18-28-59
       followers: 559
       likes: 64
       views: 512
@@ -1366,15 +1366,15 @@
     - service: vk
       id: 1712
       published: 2024-08-27-18-20-10
-      updated: 2025-06-18-17-20-40
+      updated: 2025-06-25-18-29-20
       followers: 939
       likes: 30
-      views: 354
+      views: 357
       reposts: 1
     - service: tg
       id: 514
       published: 2024-08-27-18-20-15
-      updated: 2025-06-18-17-20-09
+      updated: 2025-06-25-18-29-03
       followers: 544
       likes: 62
       views: 646
@@ -1554,7 +1554,7 @@
     - service: vk
       id: 1668
       published: 2024-08-05-18-20-39
-      updated: 2025-06-18-17-20-44
+      updated: 2025-06-25-18-29-23
       followers: 926
       likes: 43
       views: 325
@@ -1562,10 +1562,10 @@
     - service: tg
       id: 491
       published: 2024-08-05-18-20-53
-      updated: 2025-06-18-17-20-16
+      updated: 2025-06-25-18-29-06
       followers: 490
       likes: 75
-      views: 709
+      views: 711
 2018-02-11-ghostfence:
   title: Ghostfence
   titleRu: Призрачный предел
@@ -2445,7 +2445,7 @@
     - service: vk
       id: 1698
       published: 2024-08-19-18-19-41
-      updated: 2025-06-18-17-20-41
+      updated: 2025-06-25-18-29-21
       followers: 934
       likes: 32
       views: 307
@@ -2453,7 +2453,7 @@
     - service: tg
       id: 506
       published: 2024-08-19-18-19-47
-      updated: 2025-06-18-17-20-10
+      updated: 2025-06-25-18-29-04
       followers: 534
       likes: 66
       views: 626
@@ -2925,14 +2925,14 @@
     - service: vk
       id: 1795
       published: 2024-10-01-18-12-42
-      updated: 2025-06-18-17-20-35
+      updated: 2025-06-25-18-29-15
       followers: 957
       likes: 36
       views: 577
     - service: tg
       id: 551
       published: 2024-10-01-18-12-49
-      updated: 2025-06-18-17-20-04
+      updated: 2025-06-25-18-29-00
       followers: 557
       likes: 59
       views: 590
@@ -3892,10 +3892,10 @@
     - service: vk
       id: 2075
       published: 2025-01-21-18-11-42
-      updated: 2025-06-18-17-19-59
+      updated: 2025-06-25-18-28-48
       followers: 1054
       likes: 52
-      views: 549
+      views: 552
       reposts: 6
       comments: !c |-
         G/AA6B0Hdiyz8HB04MYu/p/nZCP8x7ehD7ETSeLJfaAFpW7GmEkSLPJ5WlI2erNqW+40ShKTtn+Y
@@ -3908,10 +3908,10 @@
         - 676
         - 677
       published: 2025-01-21-18-12-00
-      updated: 2025-06-18-17-19-41
+      updated: 2025-06-25-18-28-37
       followers: 654
       likes: 74
-      views: 689
+      views: 691
 2018-04-09-empty-arena:
   title: Empty Arena
   titleRu: Пустая Арена
@@ -6330,15 +6330,15 @@
     - service: vk
       id: 1921
       published: 2024-11-26-18-11-20
-      updated: 2025-06-18-17-20-22
+      updated: 2025-06-25-18-29-00
       followers: 1010
       likes: 48
-      views: 573
+      views: 574
       reposts: 3
     - service: tg
       id: 607
       published: 2024-11-26-18-11-30
-      updated: 2025-06-18-17-19-52
+      updated: 2025-06-25-18-28-44
       followers: 577
       likes: 67
       views: 642
@@ -7167,7 +7167,7 @@
     - service: vk
       id: 1660
       published: 2024-07-29-18-20-53
-      updated: 2025-06-18-17-20-45
+      updated: 2025-06-25-18-29-24
       followers: 924
       likes: 34
       views: 277
@@ -7175,10 +7175,10 @@
     - service: tg
       id: 484
       published: 2024-07-29-18-21-01
-      updated: 2025-06-18-17-20-17
+      updated: 2025-06-25-18-29-07
       followers: 414
       likes: 59
-      views: 689
+      views: 690
 2018-06-28-light-on-the-water:
   title: Light on the Water
   titleRu: Свет над водой
@@ -8279,10 +8279,10 @@
     - service: vk
       id: 1829
       published: 2024-10-15-18-10-16
-      updated: 2025-06-18-17-20-32
+      updated: 2025-06-25-18-29-11
       followers: 964
       likes: 58
-      views: 697
+      views: 698
       reposts: 3
       comments: !c |-
         G8wCAKwK7Db0SzHo5mWOcC1a8xD/j9yjZM1L7Sc/qUKpIPWCtjawZTThyblkU1XZnuPmREIcr5cl
@@ -8295,7 +8295,7 @@
     - service: tg
       id: 565
       published: 2024-10-15-18-10-22
-      updated: 2025-06-18-17-20-00
+      updated: 2025-06-25-18-28-58
       followers: 562
       likes: 60
       views: 565
@@ -8407,14 +8407,14 @@
     - service: vk
       id: 1866
       published: 2024-10-29-18-10-39
-      updated: 2025-06-18-17-20-30
+      updated: 2025-06-25-18-29-08
       followers: 1000
       likes: 47
       views: 327
     - service: tg
       id: 579
       published: 2024-10-29-18-10-47
-      updated: 2025-06-18-17-19-57
+      updated: 2025-06-25-18-28-51
       followers: 564
       likes: 59
       views: 585
@@ -9730,7 +9730,7 @@
     - service: vk
       id: 1597
       published: 2024-06-24-18-20-03
-      updated: 2025-06-18-17-20-51
+      updated: 2025-06-25-18-29-30
       followers: 917
       likes: 52
       views: 328
@@ -9738,7 +9738,7 @@
     - service: tg
       id: 449
       published: 2024-06-24-18-20-11
-      updated: 2025-06-18-17-20-24
+      updated: 2025-06-25-18-29-12
       followers: 388
       likes: 66
       views: 600
@@ -9859,10 +9859,10 @@
     - service: vk
       id: 2205
       published: 2025-03-18-18-12-44
-      updated: 2025-06-18-17-19-37
+      updated: 2025-06-25-18-28-36
       followers: 1191
       likes: 52
-      views: 521
+      views: 522
       reposts: 3
       comments: !c |-
         CyOAkZPLQnla10GbAACqaWQ2MzU3MTUyMdkv0JzQsNCx0YDQuNCz0LDRiCAtINGD0LbQsNGB0L3Q
@@ -9874,7 +9874,7 @@
         - 753
         - 754
       published: 2025-03-18-18-13-11
-      updated: 2025-06-18-17-19-30
+      updated: 2025-06-25-18-28-31
       followers: 703
       likes: 61
       views: 614
@@ -12930,10 +12930,10 @@
     - service: vk
       id: 2169
       published: 2025-03-04-18-11-25
-      updated: 2025-06-18-17-19-41
+      updated: 2025-06-25-18-28-40
       followers: 1158
       likes: 37
-      views: 430
+      views: 431
       comments: !c |-
         G0kCACwHbGMF2i8TrJOEZal8D/R+VqdO/PPPyYaTwP+ooJNZx8PEAq6EShJP7gOduRwO8+owi4Mi
         giI4h5hrr5/karZjDzDAiP5/7Sa7dokHlsVSuxCVtVlvqariP+cpERWMwYtCSO0pRzaTJDpN646P
@@ -12945,10 +12945,10 @@
     - service: tg
       id: 734
       published: 2025-03-04-18-11-32
-      updated: 2025-06-18-17-19-33
+      updated: 2025-06-25-18-28-32
       followers: 690
       likes: 56
-      views: 512
+      views: 514
 2018-11-08-bittercup:
   title: Bittercup
   titleRu: Горькая Чаша
@@ -13699,19 +13699,19 @@
     - service: vk
       id: 2279
       published: 2025-04-15-18-19-56
-      updated: 2025-06-18-17-19-31
+      updated: 2025-06-25-18-28-30
       followers: 1258
       likes: 59
-      views: 474
+      views: 475
       reposts: 1
       comments: !c CxaAkZPLQnllW6DrgACuZWxsZW5fcmlwbGV5eXmy0J3QvtGB0YLQsNC70YzQttC4Aw==
     - service: tg
       id: 795
       published: 2025-04-15-18-20-03
-      updated: 2025-06-18-17-19-27
+      updated: 2025-06-25-18-28-29
       followers: 720
       likes: 73
-      views: 487
+      views: 491
 2018-11-24-ministry-of-truth:
   title: Ministry of Truth
   titleRu: Министерство Правды

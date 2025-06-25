@@ -228,17 +228,17 @@
     - service: vk
       id: 2094
       published: 2025-01-28-18-10-56
-      updated: 2025-06-18-17-19-56
+      updated: 2025-06-25-18-28-47
       followers: 1056
       likes: 34
-      views: 353
+      views: 354
     - service: tg
       id: 684
       published: 2025-01-28-18-11-02
-      updated: 2025-06-18-17-19-40
+      updated: 2025-06-25-18-28-37
       followers: 661
       likes: 60
-      views: 545
+      views: 546
 2025-01-29-balmora: 2018-02-18-balmora
 2025-01-30-red-threat: 2019-10-11-red-threat
 2025-01-31-cult-of-candles: 2017-10-13-cult-of-candles
@@ -857,10 +857,10 @@
     - service: vk
       id: 2222
       published: 2025-03-25-18-11-50
-      updated: 2025-06-18-17-19-36
+      updated: 2025-06-25-18-28-35
       followers: 1211
       likes: 53
-      views: 481
+      views: 482
       comments: !c |-
         Gz8BAJwHxq3xYEP05NduYjB64E82wq+T8RA2mFRUiU8gKLLkHg5stH0J2ZQmgKLAKd5SFhIzo6tN
         u5sJlCJUUUkmdJuSaASurne2PNIEcy7rPJKiKOEMexvozEbTG3odPjyElFbwef598H6B6XODwaT7
@@ -869,7 +869,7 @@
     - service: tg
       id: 761
       published: 2025-03-25-18-11-57
-      updated: 2025-06-18-17-19-29
+      updated: 2025-06-25-18-28-30
       followers: 709
       likes: 59
       views: 568
@@ -1190,17 +1190,17 @@
     - service: vk
       id: 2263
       published: 2025-04-08-18-21-15
-      updated: 2025-06-18-17-19-33
+      updated: 2025-06-25-18-28-32
       followers: 1239
       likes: 50
-      views: 383
+      views: 384
     - service: tg
       id: 784
       published: 2025-04-08-18-21-23
-      updated: 2025-06-18-17-19-28
+      updated: 2025-06-25-18-28-30
       followers: 717
       likes: 57
-      views: 560
+      views: 562
 2025-04-09-grazelands: 2017-03-03-grazelands
 2025-04-10-alchemy-corner: 2017-01-05-alchemy-corner
 2025-04-11-statues-of-gods: 2018-07-08-statues-of-gods
@@ -2257,3 +2257,4 @@
 2025-06-22-1-in-khuul: 2017-04-27-in-khuul
 2025-06-23-1-abandoned-island: 2017-09-14-abandoned-island
 2025-06-24-1-apothecary-door: 2020-05-22-apothecary-door
+2025-06-25-1-a-new-rise: 2019-10-01-a-new-rise

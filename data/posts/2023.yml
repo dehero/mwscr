@@ -44,10 +44,10 @@
     - service: tg
       id: 308
       published: 2023-07-28
-      updated: 2025-06-18-17-20-56
+      updated: 2025-06-25-18-29-36
       followers: 316
       likes: 79
-      views: 942
+      views: 943
       comments: !c |-
         G/gCAJwHtq0mvbgs3cjqqY8hv1x7o2Q+OxIa2vGtP4Sd5tjoVgKwUfhWxrj/034TTZRkFvFIopll
         Sebt7mPeaHgVf3gl0mxbYgvF0wo6OsPQMn/+XLqNhm88kAFgpWXon0VfAx3yv8NIhluG10FM6YfD
@@ -98,7 +98,7 @@
     - service: tg
       id: 309
       published: 2023-07-29
-      updated: 2025-06-18-17-20-56
+      updated: 2025-06-25-18-29-36
       followers: 319
       likes: 70
       views: 713
@@ -135,7 +135,7 @@
     - service: tg
       id: 310
       published: 2023-07-30
-      updated: 2025-06-18-17-20-56
+      updated: 2025-06-25-18-29-35
       followers: 319
       likes: 57
       views: 706
@@ -196,7 +196,7 @@
     - service: tg
       id: 311
       published: 2023-07-31
-      updated: 2025-06-18-17-20-55
+      updated: 2025-06-25-18-29-35
       followers: 317
       likes: 61
       views: 759
@@ -237,7 +237,7 @@
     - service: tg
       id: 312
       published: 2023-08-01
-      updated: 2025-06-18-17-20-55
+      updated: 2025-06-25-18-29-35
       followers: 317
       likes: 67
       views: 764
@@ -275,7 +275,7 @@
     - service: tg
       id: 313
       published: 2023-08-02
-      updated: 2025-06-18-17-20-46
+      updated: 2025-06-25-18-29-34
       followers: 316
       likes: 55
       views: 887
@@ -340,7 +340,7 @@
     - service: tg
       id: 314
       published: 2023-08-03
-      updated: 2025-06-18-17-20-45
+      updated: 2025-06-25-18-29-34
       followers: 317
       likes: 46
       views: 889
@@ -406,7 +406,7 @@
     - service: tg
       id: 315
       published: 2023-08-04
-      updated: 2025-06-18-17-20-44
+      updated: 2025-06-25-18-29-34
       followers: 320
       likes: 62
       views: 854
@@ -442,7 +442,7 @@
     - service: tg
       id: 316
       published: 2023-08-05
-      updated: 2025-06-18-17-20-43
+      updated: 2025-06-25-18-29-34
       followers: 321
       likes: 57
       views: 746
@@ -482,7 +482,7 @@
     - service: tg
       id: 317
       published: 2023-08-06
-      updated: 2025-06-18-17-20-43
+      updated: 2025-06-25-18-29-33
       followers: 320
       likes: 52
       views: 815
@@ -521,7 +521,7 @@
     - service: tg
       id: 318
       published: 2023-08-07
-      updated: 2025-06-18-17-20-42
+      updated: 2025-06-25-18-29-33
       followers: 319
       likes: 65
       views: 842
@@ -558,7 +558,7 @@
     - service: tg
       id: 319
       published: 2023-08-08
-      updated: 2025-06-18-17-20-41
+      updated: 2025-06-25-18-29-32
       followers: 319
       likes: 56
       views: 914
@@ -598,7 +598,7 @@
     - service: tg
       id: 320
       published: 2023-08-09
-      updated: 2025-06-18-17-20-41
+      updated: 2025-06-25-18-29-32
       followers: 319
       likes: 73
       views: 998
@@ -613,18 +613,18 @@
     - service: vk
       id: 2251
       published: 2025-04-01-18-21-46
-      updated: 2025-06-18-17-19-35
+      updated: 2025-06-25-18-28-34
       followers: 1226
       likes: 75
-      views: 442
+      views: 443
       reposts: 3
     - service: tg
       id: 773
       published: 2025-04-01-18-21-57
-      updated: 2025-06-18-17-19-29
+      updated: 2025-06-25-18-28-30
       followers: 712
       likes: 68
-      views: 631
+      views: 632
 2023-08-10-behind-a-barrel:
   title: Behind a Barrel
   titleRu: За бочкой
@@ -657,7 +657,7 @@
     - service: tg
       id: 321
       published: 2023-08-10
-      updated: 2025-06-18-17-20-41
+      updated: 2025-06-25-18-29-32
       followers: 320
       likes: 55
       views: 1187
@@ -715,7 +715,7 @@
         - 324
         - 325
       published: 2023-08-11
-      updated: 2025-06-18-17-20-40
+      updated: 2025-06-25-18-29-31
       followers: 322
       likes: 62
       views: 1337
@@ -752,7 +752,7 @@
     - service: tg
       id: 326
       published: 2023-09-16
-      updated: 2025-06-18-17-20-40
+      updated: 2025-06-25-18-29-31
       followers: 325
       likes: 62
       views: 1119
@@ -792,7 +792,7 @@
     - service: tg
       id: 327
       published: 2023-09-17
-      updated: 2025-06-18-17-20-39
+      updated: 2025-06-25-18-29-30
       followers: 326
       likes: 55
       views: 1315
@@ -834,10 +834,10 @@
     - service: tg
       id: 328
       published: 2023-09-18
-      updated: 2025-06-18-17-20-39
+      updated: 2025-06-25-18-29-29
       followers: 327
       likes: 89
-      views: 3285
+      views: 3286
       comments: !c |-
         Cy+Ak5PLQnjfEx14AACsdmlvbGV0c3BpZGVyqkFhYWFoIPCfjJmTy0J4vdqE9IAAr0FsZXhleSBT
         dGVwYW5vdqTwn5Kpk8tCeKq60WUAAK1PbG1lcl9JemRleWxhpPCfmLsD
