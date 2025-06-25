@@ -12,7 +12,7 @@ export interface CommentInfo extends Comment {
 export async function createCommentInfos(dataManager: DataManager): Promise<CommentInfo[]> {
   const sorter = compareCommentsByDatetime('desc');
 
-  return (
+  const result = (
     await Promise.all(
       dataManager.postsManagers.flatMap(async (manager) => {
         const entries = await manager.getAllEntries(true);
@@ -40,7 +40,7 @@ export async function createCommentInfos(dataManager: DataManager): Promise<Comm
         );
       }),
     )
-  )
-    .flat()
-    .sort(sorter);
+  ).flat();
+
+  return result.sort(sorter);
 }
