@@ -33,6 +33,7 @@ import {
 import type { Publication, PublicationComment } from '../../core/entities/publication.js';
 import { RESOURCE_MISSING_IMAGE } from '../../core/entities/resource.js';
 import type { PostingServiceManager } from '../../core/entities/service.js';
+import type { UserProfile } from '../../core/entities/user.js';
 import { USER_DEFAULT_AUTHOR } from '../../core/entities/user.js';
 import type { InstagramPublication } from '../../core/services/instagram.js';
 import { Instagram, INSTAGRAM_USERNAME } from '../../core/services/instagram.js';
@@ -46,6 +47,8 @@ import { createPostStory } from '../renderers/stories.js';
 import { siteStoreManager } from '../store-managers/site-store-manager.js';
 
 const INSTAGRAM_PAGE_ID = '17841404237421312'; // Instagram Business ID
+
+const DELETED_USERNAME_PREFIX = '__deleted__';
 
 const DEBUG_PUBLISHING = Boolean(process.env.DEBUG_PUBLISHING) || false;
 
@@ -444,6 +447,7 @@ export class InstagramManager extends Instagram implements PostingServiceManager
             service: this.id,
             id: item.from?.id,
             username: item.username,
+            deleted: item.username.startsWith(DELETED_USERNAME_PREFIX) || undefined,
             avatar,
             name: user?.full_name || undefined,
             updated: new Date(),
@@ -497,6 +501,7 @@ export class InstagramManager extends Instagram implements PostingServiceManager
                 service: this.id,
                 id: childItem.from?.id,
                 username: childItem.username,
+                deleted: childItem.username.startsWith(DELETED_USERNAME_PREFIX) || undefined,
                 avatar,
                 name: user?.full_name || undefined,
                 updated: new Date(),
@@ -649,6 +654,42 @@ export class InstagramManager extends Instagram implements PostingServiceManager
     } while (nextPage);
 
     return posts;
+  }
+
+  async updateUserProfile(profile: UserProfile) {
+    if (!profile.id && !profile.username) {
+      throw new Error(`Cannot find user profile id or username.`);
+    }
+
+    let user;
+    let url;
+
+    const { fetcher } = await this.connect();
+
+    if (profile.username) {
+      user = await fetcher.fetchUserV2(profile.username);
+      url = user.profile_pic_url_hd;
+    }
+    if (!user && profile.id) {
+      user = (await fetcher.accountInfo(profile.id)).user;
+      url = user.hd_profile_pic_url_info.url;
+    }
+
+    const avatar = url
+      ? await saveUserAvatar(url, `${this.id}-${getRevisionHash(posix.basename(new URL(url).pathname))}.jpg`)
+      : undefined;
+
+    if (!user) {
+      throw new Error(`Cannot find user profile "${profile.id || profile.username}".`);
+    }
+
+    profile.id = 'id' in user ? user.id : profile.id;
+    profile.username = user.username;
+    profile.type = undefined;
+    profile.deleted = user.username?.startsWith(DELETED_USERNAME_PREFIX) || undefined;
+    profile.name = user.full_name || undefined;
+    profile.avatar = avatar;
+    profile.updated = new Date();
   }
 }
 

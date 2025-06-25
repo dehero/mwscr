@@ -3,6 +3,7 @@ import { youtube } from '@googleapis/youtube';
 import type { PostEntry } from '../../core/entities/post.js';
 import type { Publication, PublicationComment } from '../../core/entities/publication.js';
 import type { PostingServiceManager } from '../../core/entities/service.js';
+import type { UserProfile } from '../../core/entities/user.js';
 import { YouTube } from '../../core/services/youtube.js';
 import { getRevisionHash } from '../../core/utils/common-utils.js';
 import { saveUserAvatar } from '../data-managers/store-resources.js';
@@ -82,12 +83,13 @@ export class YouTubeManager extends YouTube implements PostingServiceManager {
     }
 
     const authorChannelSnippet = snippet.authorChannelId?.value
-      ? await this.getChannelSnippet(snippet.authorChannelId.value)
-      : undefined;
-    const avatar = await saveUserAvatar(
-      authorChannelSnippet?.thumbnails?.high?.url ?? authorChannelSnippet?.thumbnails?.default?.url ?? undefined,
-      `${this.id}-${getRevisionHash(snippet.authorProfileImageUrl ?? '')}.jpg`,
-    );
+      ? (await this.getChannel(snippet.authorChannelId.value))?.snippet
+      : {};
+
+    const url =
+      authorChannelSnippet?.thumbnails?.high?.url ?? authorChannelSnippet?.thumbnails?.default?.url ?? undefined;
+
+    const avatar = await saveUserAvatar(url, `${this.id}-${getRevisionHash(url ?? '')}.jpg`);
 
     const text = snippet.textDisplay;
 
@@ -111,12 +113,16 @@ export class YouTubeManager extends YouTube implements PostingServiceManager {
     return { datetime, author, text };
   }
 
-  private async getChannelSnippet(channelId: string) {
+  private async getChannel(channelId: string | undefined, forUsername?: string) {
     const { yt } = await this.connect();
 
-    const { data } = await yt.channels.list({ id: [channelId], part: ['snippet'] });
+    const { data } = await yt.channels.list({
+      id: channelId ? [channelId] : undefined,
+      forUsername,
+      part: ['snippet'],
+    });
 
-    return data.items?.[0]?.snippet;
+    return data.items?.[0];
   }
 
   async updatePublication(publication: Publication) {
@@ -143,6 +149,27 @@ export class YouTubeManager extends YouTube implements PostingServiceManager {
 
   async grabPosts(_afterPublication?: Publication) {
     return [];
+  }
+
+  async updateUserProfile(profile: UserProfile) {
+    if (!profile.id && !profile.username) {
+      throw new Error(`Cannot find user profile id or username.`);
+    }
+
+    const channel = await this.getChannel(profile.id, profile.username);
+    if (!channel) {
+      throw new Error(`Cannot find user profile "${profile.id || profile.username}".`);
+    }
+
+    const url = channel.snippet?.thumbnails?.high?.url ?? channel.snippet?.thumbnails?.default?.url ?? undefined;
+
+    const avatar = await saveUserAvatar(url, `${this.id}-${getRevisionHash(url ?? '')}.jpg`);
+
+    profile.id = channel.id ?? undefined;
+    profile.username = channel.snippet?.customUrl ?? profile.username;
+    profile.name = channel.snippet?.title ?? undefined;
+    profile.avatar = avatar;
+    profile.updated = new Date();
   }
 }
 

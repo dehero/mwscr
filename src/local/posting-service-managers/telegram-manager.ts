@@ -19,6 +19,7 @@ import {
 import type { Publication, PublicationComment } from '../../core/entities/publication.js';
 import { parseResourceUrl, RESOURCE_MISSING_IMAGE } from '../../core/entities/resource.js';
 import type { PostingServiceManager } from '../../core/entities/service.js';
+import type { UserProfile, UserProfileType } from '../../core/entities/user.js';
 import { USER_DEFAULT_AUTHOR } from '../../core/entities/user.js';
 import { site } from '../../core/services/site.js';
 import type { TelegramPublication } from '../../core/services/telegram.js';
@@ -652,6 +653,85 @@ export class TelegramManager extends Telegram implements PostingServiceManager {
     }
 
     return posts;
+  }
+
+  async updateUserProfile(profile: UserProfile) {
+    const idOrUsername = (profile.id ? Number(profile.id) : undefined) ?? profile.username;
+    if (!idOrUsername) {
+      throw new Error(`Cannot find user profile id or username.`);
+    }
+
+    let chat;
+    let channel;
+    let user;
+    let type: UserProfileType | undefined;
+
+    const { tg } = await this.connect();
+
+    if (!profile.type || profile.type === 'bot') {
+      try {
+        [user] = await tg.invoke(new Api.users.GetUsers({ id: [idOrUsername] }));
+      } catch {
+        // Do nothing, entity is not a user
+      }
+    }
+
+    if (!user) {
+      const result = await tg.invoke(new Api.channels.GetChannels({ id: [idOrUsername] }));
+      if (!(result instanceof Api.messages.Chats)) {
+        throw new TypeError(`Wrong grab channel response type: expected Api.messages.Chats, got ${result.className}.`);
+      }
+
+      [channel] = result.chats;
+      if (channel) {
+        type = 'channel';
+      } else {
+        [chat] = result.chats;
+        if (chat) {
+          type = 'chat';
+        }
+      }
+    }
+
+    if (
+      (user && !(user instanceof Api.User)) ||
+      (chat && !(chat instanceof Api.Chat)) ||
+      (channel && !(channel instanceof Api.Channel))
+    ) {
+      return;
+    }
+
+    if (user?.bot) {
+      type = 'bot';
+    }
+
+    const photo = chat?.photo ?? channel?.photo ?? user?.photo;
+
+    const avatar =
+      photo && !(photo instanceof Api.UserProfilePhotoEmpty) && !(photo instanceof Api.ChatPhotoEmpty)
+        ? await saveUserAvatar(async () => {
+            const data = await tg.downloadProfilePhoto(idOrUsername, { isBig: true });
+
+            return Buffer.isBuffer(data) ? data : undefined;
+          }, `${this.id}-${photo.photoId.toString()}.jpg`)
+        : undefined;
+
+    const deleted = (chat?.deactivated ?? user?.deleted) || undefined;
+
+    const name = !deleted
+      ? chat?.title ||
+        channel?.title ||
+        [user?.firstName, user?.lastName].filter((item) => Boolean(item)).join(' ') ||
+        undefined
+      : undefined;
+
+    profile.id = chat?.id.toString() || channel?.id.toString() || user?.id.toString() || undefined;
+    profile.username = channel?.username || user?.username || undefined;
+    profile.type = type;
+    profile.deleted = deleted;
+    profile.name = name;
+    profile.avatar = avatar;
+    profile.updated = new Date();
   }
 }
 

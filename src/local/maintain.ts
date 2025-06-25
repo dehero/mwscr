@@ -8,6 +8,7 @@ import { importTelegramBotUpdates } from './functions/import-telegram-bot-update
 import { maintainPreviews } from './functions/maintain-previews.js';
 import { publishPosts } from './functions/publish-posts.js';
 import { updatePublications } from './functions/update-publications.js';
+import { updateUsers } from './functions/update-users.js';
 
 await createGithubIssueTemplates();
 
@@ -21,6 +22,8 @@ await importTelegramBotUpdates();
 await exchangeInboxAndTrash();
 
 await updatePublications();
+
+await updateUsers();
 
 await createNewPost();
 

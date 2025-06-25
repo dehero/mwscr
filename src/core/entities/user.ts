@@ -2,6 +2,7 @@ import transliterate from '@sindresorhus/transliterate';
 import type { InferOutput } from 'valibot';
 import { array, boolean, date, nonEmpty, number, object, optional, picklist, pipe, string, trim } from 'valibot';
 import { asArray } from '../utils/common-utils.js';
+import { getDaysPassed } from '../utils/date-utils.js';
 import type { Option } from './option.js';
 import { ImageResourceUrl } from './resource.js';
 
@@ -37,6 +38,7 @@ export const User = object({
 });
 
 export type UserRole = InferOutput<typeof UserRole>;
+export type UserProfileType = InferOutput<typeof UserProfileType>;
 export type UserProfile = InferOutput<typeof UserProfile>;
 export type UserProfiles = InferOutput<typeof UserProfiles>;
 export type User = InferOutput<typeof User>;
@@ -152,4 +154,14 @@ export function mergeUserProfiles(
   }
 
   return result.length > 0 ? result : undefined;
+}
+
+export function isUserProfileUpdatable(profile: UserProfile): boolean {
+  if (!profile.updated) {
+    return true;
+  }
+
+  const daysSinceLastUpdate = getDaysPassed(profile.updated);
+
+  return daysSinceLastUpdate >= 7;
 }
