@@ -1,5 +1,6 @@
 import type { Post, PostEntry } from './post.js';
 import type { Publication } from './publication.js';
+import type { UserProfile } from './user.js';
 
 export interface ServiceMessagingOptions {
   subject?: string;
@@ -44,4 +45,6 @@ export interface PostingServiceManager<TPublication extends Publication = Public
   publishPostEntry: (entry: PostEntry) => Promise<void>;
 
   updatePublication: (publication: Publication) => Promise<void>;
+
+  updateUserProfile: (profile: UserProfile) => Promise<void>;
 }
