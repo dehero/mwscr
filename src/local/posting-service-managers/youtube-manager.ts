@@ -113,12 +113,12 @@ export class YouTubeManager extends YouTube implements PostingServiceManager {
     return { datetime, author, text };
   }
 
-  private async getChannel(channelId: string | undefined, forUsername?: string) {
+  private async getChannel(id: string | undefined, username?: string) {
     const { yt } = await this.connect();
 
     const { data } = await yt.channels.list({
-      id: channelId ? [channelId] : undefined,
-      forUsername,
+      id: id ? [id] : undefined,
+      forHandle: username,
       part: ['snippet'],
     });
 
