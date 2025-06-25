@@ -1,3 +1,4 @@
+import type { CommentInfo } from '../../../core/entities/comment-info.js';
 import type { DataManager } from '../../../core/entities/data-manager.js';
 import { PostType } from '../../../core/entities/post.js';
 import type { PostInfoSelection } from '../../../core/entities/post-info.js';
@@ -17,6 +18,7 @@ export interface HomePageData {
   totalLikes: number;
   totalCommentCount: number;
   recentPostInfos: PostInfoSelection;
+  recentCommentInfos: CommentInfo[];
 }
 
 export async function getHomePageData(dataManager: DataManager): Promise<HomePageData> {
@@ -91,5 +93,6 @@ export async function getHomePageData(dataManager: DataManager): Promise<HomePag
     totalLikes,
     totalCommentCount,
     recentPostInfos,
+    recentCommentInfos: (await dataManager.getAllCommentInfos()).slice(0, 10),
   };
 }
