@@ -36,7 +36,7 @@ import type { PostingServiceManager } from '../../core/entities/service.js';
 import type { UserProfile } from '../../core/entities/user.js';
 import { USER_DEFAULT_AUTHOR } from '../../core/entities/user.js';
 import type { InstagramPublication } from '../../core/services/instagram.js';
-import { Instagram, INSTAGRAM_USERNAME } from '../../core/services/instagram.js';
+import { Instagram } from '../../core/services/instagram.js';
 import { site } from '../../core/services/site.js';
 import { asArray, getRevisionHash } from '../../core/utils/common-utils.js';
 import { formatDate, getDaysPassed } from '../../core/utils/date-utils.js';
@@ -184,12 +184,17 @@ export class InstagramManager extends Instagram implements PostingServiceManager
     }
 
     if (!this.fetcher) {
-      const { INSTAGRAM_PASSWORD } = process.env;
-      if (!INSTAGRAM_PASSWORD) {
-        throw new Error(`Need ${this.name} password`);
+      const { INSTAGRAM_FETCHER_USERNAME, INSTAGRAM_FETCHER_PASSWORD } = process.env;
+
+      if (!INSTAGRAM_FETCHER_USERNAME) {
+        throw new Error(`Need ${this.name} fetcher username`);
       }
 
-      const cookie = await getCookie(INSTAGRAM_USERNAME, INSTAGRAM_PASSWORD);
+      if (!INSTAGRAM_FETCHER_PASSWORD) {
+        throw new Error(`Need ${this.name} fetcher password`);
+      }
+
+      const cookie = await getCookie(INSTAGRAM_FETCHER_USERNAME, INSTAGRAM_FETCHER_PASSWORD);
       if (typeof cookie !== 'string') {
         throw new TypeError(`Cannot get ${this.name} cookie`);
       }
@@ -445,7 +450,7 @@ export class InstagramManager extends Instagram implements PostingServiceManager
         profiles: [
           {
             service: this.id,
-            id: item.from?.id,
+            id: user?.id,
             username: item.username,
             deleted: item.username.startsWith(DELETED_USERNAME_PREFIX) || undefined,
             avatar,
@@ -499,7 +504,7 @@ export class InstagramManager extends Instagram implements PostingServiceManager
             profiles: [
               {
                 service: this.id,
-                id: childItem.from?.id,
+                id: user?.id,
                 username: childItem.username,
                 deleted: childItem.username.startsWith(DELETED_USERNAME_PREFIX) || undefined,
                 avatar,
