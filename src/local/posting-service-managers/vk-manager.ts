@@ -13,6 +13,7 @@ import {
 import type { Publication, PublicationComment } from '../../core/entities/publication.js';
 import { RESOURCE_MISSING_IMAGE } from '../../core/entities/resource.js';
 import type { PostingServiceManager } from '../../core/entities/service.js';
+import type { UserProfile, UserProfileType } from '../../core/entities/user.js';
 import { USER_DEFAULT_AUTHOR } from '../../core/entities/user.js';
 import { site } from '../../core/services/site.js';
 import type { VKPublication } from '../../core/services/vk.js';
@@ -472,6 +473,48 @@ export class VKManager extends VKService implements PostingServiceManager {
     }
 
     return posts;
+  }
+
+  async updateUserProfile(profile: UserProfile) {
+    const idOrUsername = profile.id ? Number(profile.id) : profile.username;
+    if (!idOrUsername) {
+      throw new Error(`Cannot find user profile id or username.`);
+    }
+
+    let type: UserProfileType | undefined;
+    let user: Objects.UsersUserFull | Objects.GroupsGroupFull | undefined;
+
+    const { vk } = await this.connect();
+
+    [user] = await vk.api.users.get({ user_ids: [idOrUsername], fields: ['screen_name', 'photo_max_orig'] });
+
+    if (!user) {
+      const response = await vk.api.groups.getById({
+        group_id: idOrUsername,
+        fields: ['screen_name', 'photo_max_orig'],
+      });
+      user = response.groups[0];
+      if (user) {
+        type = 'channel';
+      }
+    }
+
+    if (!user) {
+      throw new Error(`Cannot find user profile "${idOrUsername}".`);
+    }
+
+    const name = !user.deactivated
+      ? user.name || [user.first_name, user.last_name].filter((item) => Boolean(item)).join(' ') || undefined
+      : undefined;
+    const avatar = await saveUserAvatar(user.photo_max_orig, `${this.id}-${getRevisionHash(user.photo_max_orig)}.jpg`);
+
+    profile.id = user.id.toString();
+    profile.username = user.screen_name;
+    profile.type = type;
+    profile.deleted = Boolean(user.deactivated) || undefined;
+    profile.name = name;
+    profile.avatar = avatar;
+    profile.updated = new Date();
   }
 }
 
