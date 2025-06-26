@@ -14,7 +14,12 @@ import type { Publication, PublicationComment } from '../../core/entities/public
 import { RESOURCE_MISSING_IMAGE } from '../../core/entities/resource.js';
 import type { PostingServiceManager } from '../../core/entities/service.js';
 import type { UserProfile, UserProfileType } from '../../core/entities/user.js';
-import { USER_DEFAULT_AUTHOR } from '../../core/entities/user.js';
+import {
+  isUserEqual,
+  isUserProfileEqual,
+  setUserProfileFollowing,
+  USER_DEFAULT_AUTHOR,
+} from '../../core/entities/user.js';
 import { site } from '../../core/services/site.js';
 import type { VKPublication } from '../../core/services/vk.js';
 import { VK as VKService, VK_GROUP_ID, VK_GROUP_NAME } from '../../core/services/vk.js';
@@ -518,6 +523,46 @@ export class VKManager extends VKService implements PostingServiceManager {
     profile.name = name;
     profile.avatar = avatar;
     profile.updated = new Date();
+  }
+
+  async grabFollowers() {
+    const { vk } = await this.connect();
+
+    const count = 500;
+    let offset = 0;
+
+    for (;;) {
+      if (offset > 0) {
+        await randomDelay(1000);
+      }
+
+      const response = await vk.api.groups.getMembers({ group_id: VK_GROUP_NAME, count, offset });
+
+      for (const item of response.items) {
+        const profile: UserProfile = { service: this.id, id: item.toString(), followed: new Date() };
+        const user = { profiles: [profile] };
+
+        const entry = await users.findEntry((item) => isUserEqual(item, user));
+
+        if (entry?.[1]) {
+          const existingProfile = entry[1].profiles?.find((p) => isUserProfileEqual(p, profile));
+
+          if (existingProfile) {
+            setUserProfileFollowing(existingProfile, true);
+          }
+        } else {
+          await this.updateUserProfile(profile);
+          await users.addItem(user);
+        }
+
+        await users.save();
+      }
+
+      offset += count;
+      if (offset >= response.count) {
+        break;
+      }
+    }
   }
 }
 
