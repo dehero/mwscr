@@ -21,7 +21,12 @@ import type { Publication, PublicationComment } from '../../core/entities/public
 import { parseResourceUrl, RESOURCE_MISSING_IMAGE } from '../../core/entities/resource.js';
 import type { PostingServiceManager } from '../../core/entities/service.js';
 import type { UserProfile, UserProfileType } from '../../core/entities/user.js';
-import { USER_DEFAULT_AUTHOR } from '../../core/entities/user.js';
+import {
+  isUserEqual,
+  isUserProfileEqual,
+  setUserProfileFollowing,
+  USER_DEFAULT_AUTHOR,
+} from '../../core/entities/user.js';
 import { site } from '../../core/services/site.js';
 import type { TelegramPublication } from '../../core/services/telegram.js';
 import { Telegram, TELEGRAM_CHANNEL } from '../../core/services/telegram.js';
@@ -554,6 +559,84 @@ export class TelegramManager extends Telegram implements PostingServiceManager {
     }
 
     return result.fullChat.participantsCount;
+  }
+
+  async grabFollowers() {
+    const { tg } = await this.connect();
+
+    // TODO: participants request is limited to 200, find a workaround
+    const result = await tg.invoke(
+      new Api.channels.GetParticipants({
+        channel: TELEGRAM_CHANNEL,
+        filter: new Api.ChannelParticipantsRecent(),
+        limit: 10000,
+      }),
+    );
+
+    if (!(result instanceof Api.channels.ChannelParticipants)) {
+      return;
+    }
+
+    let i = 0;
+
+    for (const participant of result.participants) {
+      console.log(`${++i}/${result.participants.length}`);
+
+      if (!(participant instanceof Api.ChannelParticipant)) {
+        continue;
+      }
+      const user = result.users.find((user) => user.id.eq(participant.userId));
+      if (!(user instanceof Api.User)) {
+        continue;
+      }
+      const followed = new Date(participant.date * 1000);
+
+      const searchedProfile: UserProfile = { service: this.id, id: user.id.toString() };
+      const searchedUser = { profiles: [searchedProfile] };
+
+      const entry = await users.findEntry((item) => isUserEqual(item, searchedUser));
+
+      if (entry?.[1]) {
+        const existingProfile = entry[1].profiles?.find((p) => isUserProfileEqual(p, searchedProfile));
+
+        if (existingProfile) {
+          setUserProfileFollowing(existingProfile, followed);
+        }
+      } else {
+        const avatar =
+          user.photo && !(user.photo instanceof Api.UserProfilePhotoEmpty)
+            ? await saveUserAvatar(async () => {
+                const data = await tg.downloadProfilePhoto(user.id, { isBig: true });
+
+                return Buffer.isBuffer(data) ? data : undefined;
+              }, `${this.id}-${user.photo.photoId.toString()}.jpg`)
+            : undefined;
+
+        const deleted = user.deleted || undefined;
+
+        const name = !deleted
+          ? [user.firstName, user.lastName].filter((item) => Boolean(item)).join(' ') || undefined
+          : undefined;
+
+        await users.addItem({
+          profiles: [
+            {
+              service: this.id,
+              id: user.id.toString() || undefined,
+              accessHash: user.accessHash?.toString() || undefined,
+              username: user.username || undefined,
+              deleted,
+              name,
+              avatar,
+              updated: new Date(),
+              followed,
+            },
+          ],
+        });
+      }
+    }
+
+    await users.save();
   }
 
   private async parseMessage(message: string) {

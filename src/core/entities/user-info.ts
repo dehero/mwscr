@@ -8,7 +8,7 @@ import type { PostsUsage } from './posts-usage.js';
 import { comparePostsUsages, createPostsUsage } from './posts-usage.js';
 import type { ImageResourceUrl } from './resource.js';
 import type { UserRole } from './user.js';
-import { getUserEntryAvatar, getUserEntryTitle, getUserEntryTitleRu } from './user.js';
+import { getUserEntryAvatar, getUserEntryTitle, getUserEntryTitleRu, isUserProfileFollowing } from './user.js';
 
 export interface UserInfo {
   id: string;
@@ -90,6 +90,10 @@ export async function createUserInfos(dataManager: DataManager): Promise<UserInf
 
       if (commented?.posts || commented?.extras) {
         roles.push('commenter');
+      }
+
+      if (user.profiles?.some(isUserProfileFollowing)) {
+        roles.push('follower');
       }
 
       if (

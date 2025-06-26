@@ -168,7 +168,7 @@ export abstract class ListReader<TItem> {
    * Returns first entry that fulfills predicate. If no entry found, it returns `undefined`.
    */
   async findEntry(predicate: (value: TItem) => boolean): Promise<ListReaderEntry<TItem> | undefined> {
-    for await (const entry of this.readAllEntries(true)) {
+    for await (const entry of this.yieldAllEntries(true)) {
       if (predicate(entry[1])) {
         return entry;
       }
@@ -181,7 +181,7 @@ export abstract class ListReader<TItem> {
    */
   async filterEntries(predicate: (value: TItem) => boolean): Promise<Array<ListReaderEntry<TItem>>> {
     const result = [];
-    for await (const entry of this.readAllEntries(true)) {
+    for await (const entry of this.yieldAllEntries(true)) {
       if (predicate(entry[1])) {
         result.push(entry);
       }
