@@ -465,17 +465,18 @@
     - service: vk
       id: 2484
       published: 2025-06-24-18-28-09
-      updated: 2025-06-26-09-21-21
+      updated: 2025-06-26-10-21-11
       followers: 1328
       likes: 39
-      views: 280
+      views: 284
+      reposts: 1
     - service: tg
       id: 895
       published: 2025-06-24-18-28-13
-      updated: 2025-06-26-09-21-20
+      updated: 2025-06-26-10-21-10
       followers: 753
       likes: 50
-      views: 229
+      views: 230
     - service: ig
       id: DLS4FQzgAKX
       mediaId: '17868937881306574'
