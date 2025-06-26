@@ -1,6 +1,6 @@
 import transliterate from '@sindresorhus/transliterate';
 import type { InferOutput } from 'valibot';
-import { array, boolean, date, nonEmpty, number, object, optional, picklist, pipe, string, trim } from 'valibot';
+import { array, boolean, date, nonEmpty, number, object, optional, picklist, pipe, string, trim, union } from 'valibot';
 import { asArray } from '../utils/common-utils.js';
 import { getDaysPassed } from '../utils/date-utils.js';
 import type { Option } from './option.js';
@@ -11,7 +11,16 @@ const USER_NAME_IS_RU_REGEX = /[ёа-я]/i;
 export const USER_DEFAULT_AUTHOR = 'dehero';
 export const USER_UNKNOWN = 'anonimous';
 
-export const UserRole = picklist(['admin', 'author', 'requester', 'drawer', 'commenter', 'beginner', 'foreigner']);
+export const UserRole = picklist([
+  'admin',
+  'author',
+  'requester',
+  'drawer',
+  'commenter',
+  'follower',
+  'beginner',
+  'foreigner',
+]);
 export const UserProfileType = picklist(['chat', 'channel', 'bot']);
 
 export const UserProfile = object({
@@ -25,6 +34,8 @@ export const UserProfile = object({
   name: optional(pipe(string(), trim(), nonEmpty())),
   deleted: optional(boolean()),
   updated: optional(date()),
+  followed: optional(union([date(), array(date())])),
+  unfollowed: optional(union([date(), array(date())])),
 });
 
 export const UserProfiles = array(UserProfile);
@@ -166,4 +177,27 @@ export function isUserProfileUpdatable(profile: UserProfile): boolean {
   const daysSinceLastUpdate = getDaysPassed(profile.updated);
 
   return daysSinceLastUpdate >= 7;
+}
+
+export function isUserProfileFollowing(profile: UserProfile) {
+  const lastFollowedTime = Math.max(...asArray(profile.followed).map((date) => date.getTime()));
+  const lastUnfollowedTime = Math.max(...asArray(profile.unfollowed).map((date) => date.getTime()));
+
+  return (lastFollowedTime && !lastUnfollowedTime) || lastFollowedTime > lastUnfollowedTime;
+}
+
+export function setUserProfileFollowing(profile: UserProfile, value: boolean | Date) {
+  const oldValue = isUserProfileFollowing(profile);
+
+  if (oldValue === Boolean(value)) {
+    return;
+  }
+
+  if (value) {
+    const newValue = [...asArray(profile.followed), value instanceof Date ? value : new Date()];
+    profile.followed = newValue.length > 1 ? newValue : newValue[0];
+  } else {
+    const newValue = [...asArray(profile.unfollowed), new Date()];
+    profile.unfollowed = newValue.length > 1 ? newValue : newValue[0];
+  }
 }
