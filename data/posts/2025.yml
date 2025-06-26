@@ -312,18 +312,18 @@
     - service: vk
       id: 2114
       published: 2025-02-05-18-11-07
-      updated: 2025-06-19-11-17-49
+      updated: 2025-06-26-12-40-29
       followers: 1060
       likes: 49
-      views: 471
+      views: 472
       reposts: 3
     - service: tg
       id: 695
       published: 2025-02-05-18-11-12
-      updated: 2025-06-19-11-17-37
+      updated: 2025-06-26-12-40-14
       followers: 664
       likes: 62
-      views: 698
+      views: 699
 2025-02-06-night-watch:
   title: Night Watch
   titleRu: Ночной дозор
@@ -637,10 +637,10 @@
     - service: vk
       id: 2208
       published: 2025-03-19-19-01-51
-      updated: 2025-06-19-11-17-38
+      updated: 2025-06-26-12-40-20
       followers: 1193
       likes: 40
-      views: 421
+      views: 422
       comments: !c |-
         G6oBIJwHtmOXhcHAfMErjeifuBjpH78OPcywKQj4KPFkH3m6tiwhfkiGPJCd3ANT3Zb7c9o2hIND
         eaqGrM6tBnA3dQNFmU4Zm7NQir1jthMdjgei+xtN6C/gOMOIK8BRRJmmG8MiGJIwX5kGweLz/ato
@@ -650,10 +650,10 @@
     - service: tg
       id: 755
       published: 2025-03-19-19-01-59
-      updated: 2025-06-19-11-17-29
+      updated: 2025-06-26-12-40-09
       followers: 705
       likes: 58
-      views: 554
+      views: 556
 2025-03-20-night-on-the-plantation:
   title: Night on the Plantation
   titleRu: Ночь на плантации
@@ -1064,18 +1064,18 @@
     - service: vk
       id: 2252
       published: 2025-04-02-18-21-44
-      updated: 2025-06-19-11-17-34
+      updated: 2025-06-26-12-40-17
       followers: 1228
       likes: 50
-      views: 383
+      views: 384
       reposts: 3
     - service: tg
       id: 775
       published: 2025-04-02-18-21-50
-      updated: 2025-06-19-11-17-28
+      updated: 2025-06-26-12-40-09
       followers: 713
       likes: 62
-      views: 661
+      views: 662
 2025-04-03-ships: 2018-03-25-ships
 2025-04-04-through-the-waterfalls: 2018-07-12-through-the-waterfalls
 2025-04-05-near-curio-manor:
@@ -1419,18 +1419,18 @@
     - service: vk
       id: 2303
       published: 2025-04-23-18-24-39
-      updated: 2025-06-19-12-39-59
+      updated: 2025-06-26-12-40-13
       followers: 1266
       likes: 40
-      views: 385
+      views: 388
       reposts: 1
     - service: tg
       id: 809
       published: 2025-04-23-18-24-45
-      updated: 2025-06-19-12-39-56
+      updated: 2025-06-26-12-40-07
       followers: 725
-      likes: 60
-      views: 521
+      likes: 61
+      views: 524
 2025-04-24-forgotten-basket:
   title: Forgotten Basket
   titleRu: Забытая корзина
@@ -1600,20 +1600,20 @@
     - service: tg
       id: 833
       published: 2025-05-07-18-50-42
-      updated: 2025-06-19-11-17-26
+      updated: 2025-06-26-12-40-06
       followers: 737
       likes: 71
-      views: 545
+      views: 550
       comments: !c |-
         CyGAkZTLQnlqwWzpAACpR2F0ZW1hdGU3qm5vIGRhdGUuLj+Ty0J5asFzA4AApW13c2NyslRoaXMg
         b25lIGlzIHJlY2VudAM=
     - service: vk
       id: 2344
       published: 2025-05-07-19-16-08
-      updated: 2025-06-19-11-17-28
+      updated: 2025-06-26-12-40-10
       followers: 1282
       likes: 46
-      views: 412
+      views: 416
 2025-05-08-prayer:
   title: Prayer
   titleRu: Молитва
@@ -1729,10 +1729,10 @@
     - service: vk
       id: 2357
       published: 2025-05-14-18-35-17
-      updated: 2025-06-19-11-17-26
+      updated: 2025-06-26-12-40-09
       followers: 1295
       likes: 52
-      views: 814
+      views: 818
       reposts: 2
       comments: !c |-
         GwABQBwHbqwbo7xXAcHz/DF/YtOny7AiiQrrsgIqmg2w/rn4nW6lBUNhVybzHDNHJtsNjjQwiOY5
@@ -1742,10 +1742,10 @@
     - service: tg
       id: 844
       published: 2025-05-14-18-35-24
-      updated: 2025-06-19-11-17-25
+      updated: 2025-06-26-12-40-06
       followers: 738
       likes: 65
-      views: 532
+      views: 541
 2025-05-15-stone-flora:
   title: Stone Flora
   titleRu: Каменная флора
