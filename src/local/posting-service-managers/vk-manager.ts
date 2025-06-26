@@ -486,7 +486,10 @@ export class VKManager extends VKService implements PostingServiceManager {
 
     const { vk } = await this.connect();
 
-    [user] = await vk.api.users.get({ user_ids: [idOrUsername], fields: ['screen_name', 'photo_max_orig'] });
+    if (!profile.type) {
+      [user] = await vk.api.users.get({ user_ids: [idOrUsername], fields: ['screen_name', 'photo_max_orig'] });
+      type = undefined;
+    }
 
     if (!user) {
       const response = await vk.api.groups.getById({
