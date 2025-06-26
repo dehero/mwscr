@@ -1,4 +1,5 @@
 import 'dotenv/config';
+import BigInteger from 'big-integer';
 import { createInterface } from 'readline';
 import sharp from 'sharp';
 import { Api, TelegramClient } from 'telegram';
@@ -287,6 +288,7 @@ export class TelegramManager extends Telegram implements PostingServiceManager {
         {
           service: this.id,
           id: id.toString(),
+          accessHash: channel?.accessHash?.toString() || user?.accessHash?.toString() || undefined,
           username: channel?.username || user?.username || undefined,
           type: channel ? 'channel' : chat ? 'chat' : user?.bot ? 'bot' : undefined,
           avatar,
@@ -656,9 +658,8 @@ export class TelegramManager extends Telegram implements PostingServiceManager {
   }
 
   async updateUserProfile(profile: UserProfile) {
-    const idOrUsername = (profile.id ? Number(profile.id) : undefined) ?? profile.username;
-    if (!idOrUsername) {
-      throw new Error(`Cannot find user profile id or username.`);
+    if (!(profile.id && profile.accessHash) && !profile.username) {
+      throw new Error(`Cannot find user profile id and accessHash or username.`);
     }
 
     let chat;
@@ -670,23 +671,43 @@ export class TelegramManager extends Telegram implements PostingServiceManager {
 
     if (!profile.type || profile.type === 'bot') {
       try {
-        [user] = await tg.invoke(new Api.users.GetUsers({ id: [idOrUsername] }));
+        if (profile.id && profile.accessHash) {
+          user = await tg.getEntity(
+            new Api.InputPeerUser({ userId: BigInteger(profile.id), accessHash: BigInteger(profile.accessHash) }),
+          );
+        } else if (profile.username) {
+          user = await tg.getEntity(profile.username);
+        }
       } catch {
         // Do nothing, entity is not a user
       }
     }
 
     if (!user) {
-      const result = await tg.invoke(new Api.channels.GetChannels({ id: [idOrUsername] }));
-      if (!(result instanceof Api.messages.Chats)) {
-        throw new TypeError(`Wrong grab channel response type: expected Api.messages.Chats, got ${result.className}.`);
+      if (profile.id && profile.accessHash) {
+        channel = await tg.getEntity(
+          new Api.InputPeerChannel({
+            channelId: BigInteger(profile.id),
+            accessHash: BigInteger(profile.accessHash),
+          }),
+        );
+      } else if (profile.username) {
+        channel = await tg.getEntity(profile.username);
       }
 
-      [channel] = result.chats;
       if (channel) {
         type = 'channel';
       } else {
-        [chat] = result.chats;
+        if (profile.id) {
+          chat = await tg.getEntity(
+            new Api.InputPeerChat({
+              chatId: BigInteger(profile.id),
+            }),
+          );
+        } else if (profile.username) {
+          chat = await tg.getEntity(profile.username);
+        }
+
         if (chat) {
           type = 'chat';
         }
@@ -705,12 +726,13 @@ export class TelegramManager extends Telegram implements PostingServiceManager {
       type = 'bot';
     }
 
+    const id = chat?.id ?? channel?.id ?? user?.id;
     const photo = chat?.photo ?? channel?.photo ?? user?.photo;
 
     const avatar =
-      photo && !(photo instanceof Api.UserProfilePhotoEmpty) && !(photo instanceof Api.ChatPhotoEmpty)
+      id && photo && !(photo instanceof Api.UserProfilePhotoEmpty) && !(photo instanceof Api.ChatPhotoEmpty)
         ? await saveUserAvatar(async () => {
-            const data = await tg.downloadProfilePhoto(idOrUsername, { isBig: true });
+            const data = await tg.downloadProfilePhoto(id, { isBig: true });
 
             return Buffer.isBuffer(data) ? data : undefined;
           }, `${this.id}-${photo.photoId.toString()}.jpg`)
@@ -726,6 +748,7 @@ export class TelegramManager extends Telegram implements PostingServiceManager {
       : undefined;
 
     profile.id = chat?.id.toString() || channel?.id.toString() || user?.id.toString() || undefined;
+    profile.accessHash = channel?.accessHash?.toString() || user?.accessHash?.toString() || undefined;
     profile.username = channel?.username || user?.username || undefined;
     profile.type = type;
     profile.deleted = deleted;
