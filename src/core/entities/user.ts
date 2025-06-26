@@ -17,6 +17,7 @@ export const UserProfileType = picklist(['chat', 'channel', 'bot']);
 export const UserProfile = object({
   service: pipe(string(), nonEmpty()),
   id: optional(pipe(string(), trim(), nonEmpty())),
+  accessHash: optional(pipe(string(), trim(), nonEmpty())),
   username: optional(pipe(string(), trim(), nonEmpty())),
   botChatId: optional(number()),
   type: optional(UserProfileType),
@@ -141,6 +142,7 @@ export function mergeUserProfiles(
     const profile1 = result.find((profile1) => isUserProfileEqual(profile1, profile2));
     if (profile1) {
       profile1.id = profile2.id ?? profile1.id;
+      profile1.accessHash = profile2.accessHash ?? profile1.accessHash;
       profile1.username = profile2.username ?? profile1.username;
       profile1.botChatId = profile2.botChatId ?? profile1.botChatId;
       profile1.type = profile2.type ?? profile1.type;

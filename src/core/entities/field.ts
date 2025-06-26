@@ -45,6 +45,7 @@ export const Field = picklist([
   'comments',
 
   // User
+  'accessHash',
   'username',
   'botChatId',
   'name',
