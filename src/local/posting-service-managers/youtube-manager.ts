@@ -118,7 +118,7 @@ export class YouTubeManager extends YouTube implements PostingServiceManager {
 
     const { data } = await yt.channels.list({
       id: id ? [id] : undefined,
-      forHandle: username,
+      forHandle: !id ? username : undefined,
       part: ['snippet'],
     });
 
