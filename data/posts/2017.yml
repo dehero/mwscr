@@ -3333,7 +3333,7 @@
     - service: vk
       id: 1690
       published: 2024-08-14-18-25-51
-      updated: 2025-06-19-18-34-08
+      updated: 2025-06-26-19-15-41
       followers: 931
       likes: 52
       views: 509
@@ -3341,7 +3341,7 @@
     - service: tg
       id: 501
       published: 2024-08-14-18-26-00
-      updated: 2025-06-19-18-34-00
+      updated: 2025-06-26-19-15-33
       followers: 527
       likes: 67
       views: 679
@@ -5140,11 +5140,11 @@
     - service: vk
       id: 2480
       published: 2025-06-22-18-25-45
-      updated: 2025-06-25-18-28-27
+      updated: 2025-06-26-19-15-23
       followers: 1329
-      likes: 53
-      views: 298
-      reposts: 1
+      likes: 59
+      views: 321
+      reposts: 2
       comments: !c |-
         G60A+C0SbFsLb48T3NLHpmSiKM8QvkY9EsNOBUtY2YPa5jJOwauFUf3lNrZ/4zWfFtEwcJU5MtmJ
         k9cOG3ACHjiHFsh8P7POPg5ZPe8fdQ7Wdw8q/EYFzV7UjiS3Y0yENomR9w2PYoSEwvjBEkkS23nW
@@ -5152,10 +5152,10 @@
     - service: tg
       id: 893
       published: 2025-06-22-18-25-51
-      updated: 2025-06-25-18-28-27
+      updated: 2025-06-26-19-15-21
       followers: 752
-      likes: 60
-      views: 253
+      likes: 64
+      views: 311
       comments: !c Cw+AkZPLQnl5kEyIgACrS2F3YXpha3kyMjOnNe+4j+KDowM=
 2017-04-28-gloomy-barrow:
   title: Gloomy Barrow
@@ -6469,10 +6469,10 @@
     - service: vk
       id: 1923
       published: 2024-11-27-18-11-33
-      updated: 2025-06-19-18-33-55
+      updated: 2025-06-26-19-15-28
       followers: 1010
       likes: 62
-      views: 982
+      views: 984
       reposts: 4
     - service: tg
       id: 608
@@ -8497,7 +8497,7 @@
     - service: vk
       id: 1736
       published: 2024-09-04-18-31-41
-      updated: 2025-06-19-18-34-05
+      updated: 2025-06-26-19-15-38
       followers: 942
       likes: 37
       views: 355
@@ -8508,7 +8508,7 @@
     - service: tg
       id: 522
       published: 2024-09-04-18-31-49
-      updated: 2025-06-19-18-33-56
+      updated: 2025-06-26-19-15-30
       followers: 550
       likes: 68
       views: 830
@@ -9938,7 +9938,7 @@
     - service: vk
       id: 1817
       published: 2024-10-09-18-11-13
-      updated: 2025-06-19-18-34-00
+      updated: 2025-06-26-19-15-33
       followers: 957
       likes: 44
       views: 368
@@ -9946,7 +9946,7 @@
     - service: tg
       id: 559
       published: 2024-10-09-18-11-21
-      updated: 2025-06-19-18-33-52
+      updated: 2025-06-26-19-15-26
       followers: 559
       likes: 68
       views: 666
@@ -10658,11 +10658,11 @@
     - service: vk
       id: 2481
       published: 2025-06-23-18-28-39
-      updated: 2025-06-25-18-28-25
+      updated: 2025-06-26-19-15-22
       followers: 1328
-      likes: 81
-      views: 405
-      reposts: 1
+      likes: 88
+      views: 434
+      reposts: 2
       comments: !c |-
         G9MA6K0OeHPoKqGmOVN75iOiIm4RPkipZ9gkGGGyp3MLOViKKR4H7kN/oNyWuzn9bkyRHywVQzNz
         ZLILh73I8mADDtyCRDiFSc8nJrDF8/7rb+n4bqjwt6Um1y+dujmDl7KAtoZmFbpIsHO6lDCCxHIm
@@ -10670,10 +10670,10 @@
     - service: tg
       id: 894
       published: 2025-06-23-18-28-43
-      updated: 2025-06-25-18-28-26
+      updated: 2025-06-26-19-15-20
       followers: 753
-      likes: 58
-      views: 221
+      likes: 65
+      views: 269
       comments: !c |-
         G7MACByJcSzFgqkrBFG/317/jZBeo//QoNK1iXjCk9h0omgohKZ74CECNbcSOqEQ6o0596pArFoz
         pE450oA4wgIMxAL8Ub475SCIk5YFGJ2+ms1O9lrdcvQptXH4Kr66L1EzTZ/358nFyJYaapFKhtLp
@@ -14212,7 +14212,7 @@
     - service: vk
       id: 1833
       published: 2024-10-16-18-11-44
-      updated: 2025-06-19-18-33-59
+      updated: 2025-06-26-19-15-32
       followers: 965
       likes: 44
       views: 457
@@ -14220,7 +14220,7 @@
     - service: tg
       id: 566
       published: 2024-10-16-18-11-53
-      updated: 2025-06-19-18-33-51
+      updated: 2025-06-26-19-15-25
       followers: 562
       likes: 65
       views: 546

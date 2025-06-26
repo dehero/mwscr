@@ -1056,17 +1056,18 @@
     - service: vk
       id: 2479
       published: 2025-06-21-18-24-51
-      updated: 2025-06-25-18-28-29
+      updated: 2025-06-26-19-15-25
       followers: 1327
-      likes: 53
-      views: 320
+      likes: 56
+      views: 335
+      reposts: 1
     - service: tg
       id: 892
       published: 2025-06-21-18-24-56
-      updated: 2025-06-25-18-28-28
+      updated: 2025-06-26-19-15-23
       followers: 752
-      likes: 51
-      views: 311
+      likes: 54
+      views: 345
       comments: !c iw2AkZPLQnl5PH6tAACrS2F3YXpha3kyMjOk8J+SpQM=
 2024-04-09-telvanni-council-house:
   title: Telvanni Council House
