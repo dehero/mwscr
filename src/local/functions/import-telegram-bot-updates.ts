@@ -107,7 +107,6 @@ async function processMessage(message: TelegramBot.Message) {
           username: message.from.username,
           name: [message.from.first_name, message.from.last_name].filter(Boolean).join(' ') || undefined,
           botChatId: message.chat.id,
-          updated: new Date(),
         },
       ],
     });
