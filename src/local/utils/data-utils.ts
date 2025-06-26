@@ -25,7 +25,7 @@ export function decompressData<T>(value: string): T {
   return packr.unpack(zlib.brotliDecompressSync(Buffer.from(value, 'base64')));
 }
 
-export async function streamToBuffer(stream: Readable | NodeJS.ReadableStream): Promise<Buffer> {
+export async function streamToBuffer(stream: Readable): Promise<Buffer> {
   return new Promise((resolve, reject) => {
     const data: Uint8Array[] = [];
 
