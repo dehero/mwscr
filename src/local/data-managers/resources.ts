@@ -74,7 +74,12 @@ export async function copyResource(fromUrl: string, toUrl: string): Promise<void
             throw new Error(`Unable to get body for "${fromUrl}"`);
           }
 
-          return storeManager.putStream(to.pathname, response.body);
+          const arrayBuffer = await response.arrayBuffer();
+          const data = Buffer.from(arrayBuffer);
+
+          // Started failing when saving VK avatars to Yandex.Disk using stream. Converting it to buffer as a quick fix.
+          // TODO: try using native fetch
+          return storeManager.put(to.pathname, data);
         }
         case 'file:': {
           const response = await fetch(fromUrl);

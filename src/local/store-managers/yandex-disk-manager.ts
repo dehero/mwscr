@@ -5,7 +5,6 @@ import { Readable } from 'stream';
 import type { PreviewSize } from 'ya-disk';
 import yaDisk from 'ya-disk';
 import type { StoreItem, StoreManager } from '../../core/entities/store.js';
-import { streamToBuffer } from '../utils/data-utils.js';
 
 type FilesResourceList = Awaited<ReturnType<typeof yaDisk.list>> & { total: number };
 
@@ -122,9 +121,7 @@ export class YandexDiskManager implements StoreManager {
     const { href, method } = await yaDisk.upload.link(store.token, srcPath, true);
     const response = await fetch(href, {
       method,
-      // Started failing when passing stream to body. Converting it to buffer as a quick fix.
-      // TODO: try using native fetch
-      body: await streamToBuffer(stream),
+      body: stream,
     });
 
     if (!response.ok) {
