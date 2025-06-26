@@ -55,6 +55,8 @@ export const Field = picklist([
   'admin',
   'profiles',
   'deleted',
+  'followed',
+  'unfollowed',
 
   // Location
   'cell',
