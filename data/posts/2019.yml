@@ -1534,18 +1534,18 @@
     - service: vk
       id: 2485
       published: 2025-06-25-18-30-45
-      updated: 2025-06-27-04-28-29
+      updated: 2025-06-27-05-19-55
       followers: 1328
-      likes: 56
-      views: 415
+      likes: 57
+      views: 420
       reposts: 4
     - service: tg
       id: 896
       published: 2025-06-25-18-30-49
-      updated: 2025-06-27-04-28-28
+      updated: 2025-06-27-05-19-54
       followers: 754
       likes: 54
-      views: 228
+      views: 229
       comments: !c iw2AkZPLQnl6hjgZgACrS2F3YXpha3kyMjOk8J+RgQM=
 2019-10-02-dreamer:
   title: Dreamer
