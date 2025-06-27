@@ -12365,18 +12365,19 @@
     - service: vk
       id: 2486
       published: 2025-06-26-18-28-54
-      updated: 2025-06-27-03-19-10
+      updated: 2025-06-27-04-28-27
       followers: 1328
-      likes: 11
-      views: 79
+      likes: 12
+      views: 92
       reposts: 1
     - service: tg
       id: 897
       published: 2025-06-26-18-28-58
-      updated: 2025-06-27-03-19-10
+      updated: 2025-06-27-04-28-26
       followers: 756
-      likes: 39
-      views: 99
+      likes: 43
+      views: 106
+      comments: !c iw+AkZPLQnl69+fcAACvVmFpbCBBc3Rvcid6a2l5pPCfpK8D
 2018-10-25-night-quay-of-tel-mora:
   title: Night Quay of Tel Mora
   titleRu: Ночная набережная Тель Моры
