@@ -465,10 +465,10 @@
     - service: tg
       id: 480
       published: 2024-07-25-18-20-32
-      updated: 2025-06-20-15-20-26
+      updated: 2025-06-27-15-20-39
       followers: 399
       likes: 72
-      views: 695
+      views: 697
       comments: !c |-
         G2kAwGT+r/mf3zvw1GhvsNPIZVqkH+DWVkXTNc4DbmIktcaXUDzGyrkk01NmHD/kJvy/Ey2wsjLL
         ZG/fcc3mr7ebk6Pv+rv/Xr4n/dnwKQCmTq6cLK+yzaN4QBIFQlpgaTiVIAtJ88A=
@@ -8997,7 +8997,7 @@
     - service: vk
       id: 1737
       published: 2024-09-05-18-28-36
-      updated: 2025-06-20-15-20-25
+      updated: 2025-06-27-15-20-38
       followers: 943
       likes: 27
       views: 287
@@ -9008,7 +9008,7 @@
     - service: tg
       id: 523
       published: 2024-09-05-18-28-44
-      updated: 2025-06-20-15-20-21
+      updated: 2025-06-27-15-20-34
       followers: 551
       likes: 57
       views: 560
@@ -9606,7 +9606,7 @@
     - service: vk
       id: 1674
       published: 2024-08-08-18-20-48
-      updated: 2025-06-20-15-20-30
+      updated: 2025-06-27-15-20-43
       followers: 927
       likes: 38
       views: 400
@@ -9617,10 +9617,10 @@
     - service: tg
       id: 494
       published: 2024-08-08-18-20-54
-      updated: 2025-06-20-15-20-25
+      updated: 2025-06-27-15-20-38
       followers: 508
       likes: 66
-      views: 641
+      views: 642
       comments: !c ixGAkZPLQnkT2JKcgACoZGFhcmthbmGvd2FubmEgbGl2ZSBoZXJlAw==
 2018-08-29-darius:
   title: Darius
@@ -11443,7 +11443,7 @@
     - service: vk
       id: 1691
       published: 2024-08-15-18-20-37
-      updated: 2025-06-20-15-20-29
+      updated: 2025-06-27-15-20-42
       followers: 932
       likes: 36
       views: 329
@@ -11453,7 +11453,7 @@
     - service: tg
       id: 502
       published: 2024-08-15-18-20-44
-      updated: 2025-06-20-15-20-24
+      updated: 2025-06-27-15-20-37
       followers: 527
       likes: 60
       views: 665
@@ -12365,19 +12365,24 @@
     - service: vk
       id: 2486
       published: 2025-06-26-18-28-54
-      updated: 2025-06-27-14-19-16
+      updated: 2025-06-27-15-20-32
       followers: 1328
-      likes: 32
-      views: 168
+      likes: 34
+      views: 173
       reposts: 2
     - service: tg
       id: 897
       published: 2025-06-26-18-28-58
-      updated: 2025-06-27-14-19-15
+      updated: 2025-06-27-15-20-31
       followers: 756
       likes: 48
-      views: 134
+      views: 137
       comments: !c iw+AkZPLQnl69+fcAACvVmFpbCBBc3Rvcid6a2l5pPCfpK8D
+    - service: ig
+      id: DLaLhKMMolt
+      mediaId: '17869988883391433'
+      published: 2025-06-27-15-21-01
+      followers: 1554
 2018-10-25-night-quay-of-tel-mora:
   title: Night Quay of Tel Mora
   titleRu: Ночная набережная Тель Моры
