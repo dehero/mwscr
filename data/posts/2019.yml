@@ -1534,19 +1534,24 @@
     - service: vk
       id: 2485
       published: 2025-06-25-18-30-45
-      updated: 2025-06-27-11-17-17
+      updated: 2025-06-27-12-39-07
       followers: 1328
       likes: 60
-      views: 457
+      views: 465
       reposts: 5
     - service: tg
       id: 896
       published: 2025-06-25-18-30-49
-      updated: 2025-06-27-11-17-16
+      updated: 2025-06-27-12-39-06
       followers: 754
       likes: 54
-      views: 232
+      views: 235
       comments: !c iw2AkZPLQnl6hjgZgACrS2F3YXpha3kyMjOk8J+RgQM=
+    - service: ig
+      id: DLZ5KTksdmG
+      mediaId: '18068498947844214'
+      published: 2025-06-27-12-40-35
+      followers: 1554
 2019-10-02-dreamer:
   title: Dreamer
   titleRu: Видящий
@@ -1965,7 +1970,7 @@
       id: DFdZSvtpKtB
       mediaId: '17890976667176344'
       published: 2025-01-30-18-10-45
-      updated: 2025-06-20-10-21-20
+      updated: 2025-06-27-12-40-07
       followers: 1534
       likes: 102
       views: 437
