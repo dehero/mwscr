@@ -1436,7 +1436,7 @@
     - service: vk
       id: 1976
       published: 2024-12-19-18-10-51
-      updated: 2025-06-20-10-21-19
+      updated: 2025-06-27-11-17-23
       followers: 1027
       likes: 64
       views: 437
@@ -1534,18 +1534,18 @@
     - service: vk
       id: 2485
       published: 2025-06-25-18-30-45
-      updated: 2025-06-27-10-21-19
+      updated: 2025-06-27-11-17-17
       followers: 1328
-      likes: 59
-      views: 452
-      reposts: 4
+      likes: 60
+      views: 457
+      reposts: 5
     - service: tg
       id: 896
       published: 2025-06-25-18-30-49
-      updated: 2025-06-27-10-21-18
+      updated: 2025-06-27-11-17-16
       followers: 754
       likes: 54
-      views: 231
+      views: 232
       comments: !c iw2AkZPLQnl6hjgZgACrS2F3YXpha3kyMjOk8J+RgQM=
 2019-10-02-dreamer:
   title: Dreamer

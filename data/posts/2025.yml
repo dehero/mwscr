@@ -1769,10 +1769,10 @@
     - service: vk
       id: 2360
       published: 2025-05-15-18-33-50
-      updated: 2025-06-20-11-17-00
+      updated: 2025-06-27-11-17-19
       followers: 1299
       likes: 33
-      views: 375
+      views: 381
       comments: !c |-
         G40A4I2UbsI8+AfONcLiiYwk8jKti3R6B5Lv40FujEqsEzyQd7ABBw6JZTaIjDzxMJHjSKPwe329
         v7xx0ymCiVFk5Vo4CBtJJ6354tO/xhMjTTkeHjlF8eADLg+K0JzUweQA8yRigNbcxJrorDVopqnO
@@ -1780,10 +1780,10 @@
     - service: tg
       id: 845
       published: 2025-05-15-18-33-57
-      updated: 2025-06-20-11-16-59
+      updated: 2025-06-27-11-17-16
       followers: 738
-      likes: 64
-      views: 483
+      likes: 65
+      views: 492
 2025-05-16-on-the-balcony-at-night:
   title: On the Balcony at Night
   titleRu: Ночью на балконе
