@@ -54,6 +54,10 @@ export function getMinutesPassed(fromDate: Date) {
   return Math.floor((Date.now() - fromDate.getTime()) / (1000 * 60));
 }
 
+export function getMillisecondsPassed(fromDate: Date) {
+  return Date.now() - fromDate.getTime();
+}
+
 export function getDayOfYear(date: Date) {
   const startTime = Date.UTC(date.getUTCFullYear(), 0, 0);
   const diff = date.getTime() - startTime;

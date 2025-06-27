@@ -38,8 +38,8 @@ import { USER_DEFAULT_AUTHOR } from '../../core/entities/user.js';
 import type { InstagramPublication } from '../../core/services/instagram.js';
 import { Instagram } from '../../core/services/instagram.js';
 import { site } from '../../core/services/site.js';
-import { asArray, getRevisionHash } from '../../core/utils/common-utils.js';
-import { formatDate, getDaysPassed } from '../../core/utils/date-utils.js';
+import { asArray, getRevisionHash, randomDelay } from '../../core/utils/common-utils.js';
+import { formatDate, getDaysPassed, getMillisecondsPassed } from '../../core/utils/date-utils.js';
 import { readResource } from '../data-managers/resources.js';
 import { saveUserAvatar } from '../data-managers/store-resources.js';
 import { users } from '../data-managers/users.js';
@@ -49,6 +49,8 @@ import { siteStoreManager } from '../store-managers/site-store-manager.js';
 const INSTAGRAM_PAGE_ID = '17841404237421312'; // Instagram Business ID
 
 const DELETED_USERNAME_PREFIX = '__deleted__';
+const FETCHER_DELAY_MINIMUM = 30000;
+const FETCHER_DELAY_MAXIMUM = 60000;
 
 const DEBUG_PUBLISHING = Boolean(process.env.DEBUG_PUBLISHING) || false;
 
@@ -56,6 +58,7 @@ export class InstagramManager extends Instagram implements PostingServiceManager
   private tempFiles: string[] = [];
   ig: Client | undefined;
   fetcher: igApi | undefined;
+  lastFetched: Date | undefined;
 
   async parseCaption(caption: string) {
     const lines = caption.split('\n');
@@ -435,7 +438,7 @@ export class InstagramManager extends Instagram implements PostingServiceManager
       let avatar;
 
       try {
-        user = await fetcher.fetchUserV2(item.username);
+        user = await this.fetchWithDelay(() => fetcher.fetchUserV2(item.username!));
         avatar = user.profile_pic_url_hd
           ? await saveUserAvatar(
               user.profile_pic_url_hd,
@@ -489,7 +492,7 @@ export class InstagramManager extends Instagram implements PostingServiceManager
           let avatar;
 
           try {
-            user = await fetcher.fetchUserV2(childItem.username);
+            user = await this.fetchWithDelay(() => fetcher.fetchUserV2(childItem.username!));
             avatar = user.profile_pic_url_hd
               ? await saveUserAvatar(
                   user.profile_pic_url_hd,
@@ -672,11 +675,11 @@ export class InstagramManager extends Instagram implements PostingServiceManager
     const { fetcher } = await this.connect();
 
     if (profile.username) {
-      user = await fetcher.fetchUserV2(profile.username);
+      user = await this.fetchWithDelay(() => fetcher.fetchUserV2(profile.username!));
       url = user.profile_pic_url_hd;
     }
     if (!user && profile.id) {
-      user = (await fetcher.accountInfo(profile.id)).user;
+      user = (await this.fetchWithDelay(() => fetcher.accountInfo(profile.id))).user;
       url = user.hd_profile_pic_url_info.url;
     }
 
@@ -695,6 +698,15 @@ export class InstagramManager extends Instagram implements PostingServiceManager
     profile.name = user.full_name || undefined;
     profile.avatar = avatar;
     profile.updated = new Date();
+  }
+
+  private async fetchWithDelay<R>(fn: () => Promise<R>) {
+    if (this.lastFetched && getMillisecondsPassed(this.lastFetched) < FETCHER_DELAY_MINIMUM) {
+      await randomDelay(FETCHER_DELAY_MAXIMUM, FETCHER_DELAY_MINIMUM);
+    }
+    this.lastFetched = new Date();
+
+    return fn();
   }
 }
 
