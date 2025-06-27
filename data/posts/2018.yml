@@ -776,7 +776,7 @@
     - service: tg
       id: 595
       published: 2024-11-14-18-11-10
-      updated: 2025-06-20-10-21-08
+      updated: 2025-06-27-10-21-32
       followers: 570
       likes: 58
       views: 852
@@ -1695,7 +1695,7 @@
     - service: tg
       id: 602
       published: 2024-11-21-18-11-06
-      updated: 2025-06-20-10-21-07
+      updated: 2025-06-27-10-21-31
       followers: 573
       likes: 59
       views: 687
@@ -3303,10 +3303,10 @@
     - service: vk
       id: 2253
       published: 2025-04-03-18-22-06
-      updated: 2025-06-20-10-21-00
+      updated: 2025-06-27-10-21-26
       followers: 1231
       likes: 77
-      views: 576
+      views: 577
       reposts: 5
       comments: !c |-
         G7sA8C0ObBtJ+TFBtLCOeMaPUOkUxY30x1MoKEowkCahiJM9spxuL6EakqHyTR1yj/DtvZjTkLLu
@@ -3319,10 +3319,10 @@
         - 778
         - 779
       published: 2025-04-03-18-22-28
-      updated: 2025-06-20-10-20-56
+      updated: 2025-06-27-10-21-21
       followers: 714
       likes: 66
-      views: 601
+      views: 602
 2018-03-26-traces-of-shipwreck:
   title: Traces of Shipwreck
   titleRu: Следы кораблекрушения
@@ -9530,10 +9530,10 @@
     - service: vk
       id: 2173
       published: 2025-03-06-18-11-28
-      updated: 2025-06-20-10-21-06
+      updated: 2025-06-27-10-21-30
       followers: 1164
       likes: 49
-      views: 500
+      views: 501
       reposts: 4
       comments: !c |-
         G/IDYCwLeHPqJMFe5Jj6e25yUGwcoZSIirX85yRGrTB/wkYilI8DUugiNApFKCM89qi6BSMRQiM9
@@ -9549,7 +9549,7 @@
     - service: tg
       id: 736
       published: 2025-03-06-18-11-35
-      updated: 2025-06-20-10-20-58
+      updated: 2025-06-27-10-21-23
       followers: 691
       likes: 61
       views: 503
@@ -9788,14 +9788,14 @@
     - service: tg
       id: 658
       published: 2025-01-09-18-11-31
-      updated: 2025-06-20-10-21-03
+      updated: 2025-06-27-10-21-28
       followers: 647
       likes: 64
-      views: 549
+      views: 550
     - service: vk
       id: 2036
       published: 2025-01-09-19-01-26
-      updated: 2025-06-20-10-21-16
+      updated: 2025-06-27-10-21-39
       followers: 1051
       likes: 59
       views: 422
@@ -11259,7 +11259,7 @@
     - service: tg
       id: 587
       published: 2024-11-06-18-11-51
-      updated: 2025-06-20-10-21-08
+      updated: 2025-06-27-10-21-33
       followers: 566
       likes: 59
       views: 662
@@ -12365,18 +12365,18 @@
     - service: vk
       id: 2486
       published: 2025-06-26-18-28-54
-      updated: 2025-06-27-09-21-02
+      updated: 2025-06-27-10-21-17
       followers: 1328
-      likes: 27
-      views: 137
+      likes: 28
+      views: 143
       reposts: 2
     - service: tg
       id: 897
       published: 2025-06-26-18-28-58
-      updated: 2025-06-27-09-21-01
+      updated: 2025-06-27-10-21-17
       followers: 756
-      likes: 46
-      views: 125
+      likes: 47
+      views: 126
       comments: !c iw+AkZPLQnl69+fcAACvVmFpbCBBc3Rvcid6a2l5pPCfpK8D
 2018-10-25-night-quay-of-tel-mora:
   title: Night Quay of Tel Mora

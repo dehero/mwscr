@@ -167,10 +167,10 @@
     - service: vk
       id: 2266
       published: 2025-04-10-18-22-07
-      updated: 2025-06-20-10-20-59
+      updated: 2025-06-27-10-21-25
       followers: 1246
       likes: 53
-      views: 448
+      views: 449
       reposts: 2
       comments: !c |-
         G5kA+J0Jxo2LXy94RYqbinr6G+n7rFmGTWKRJntmt1KVikOMWpeVMM4Y7EunJ3vOcroLArtYFVke
@@ -179,10 +179,10 @@
     - service: tg
       id: 786
       published: 2025-04-10-18-22-13
-      updated: 2025-06-20-10-20-55
+      updated: 2025-06-27-10-21-21
       followers: 722
       likes: 59
-      views: 629
+      views: 632
 2017-01-06-daedroth-in-grazelands:
   title: Daedroth in Grazelands
   titleRu: Даэдрот в Грейзленде
@@ -890,7 +890,7 @@
     - service: tg
       id: 581
       published: 2024-10-31-18-23-34
-      updated: 2025-06-20-10-21-10
+      updated: 2025-06-27-10-21-34
       followers: 564
       likes: 68
       views: 609
@@ -3039,18 +3039,18 @@
     - service: vk
       id: 2068
       published: 2025-01-16-18-10-34
-      updated: 2025-06-20-10-21-15
+      updated: 2025-06-27-10-21-38
       followers: 1053
       likes: 55
-      views: 378
+      views: 379
       reposts: 1
     - service: tg
       id: 669
       published: 2025-01-16-18-10-50
-      updated: 2025-06-20-10-21-02
+      updated: 2025-06-27-10-21-27
       followers: 655
       likes: 73
-      views: 563
+      views: 564
       comments: !c |-
         Cx+AkZPLQnlHEE4ggACoQWVsbGFyaWHZKdCv0LrRliDQutC+0LvRjNC+0YDQuCwg0Y/QutCwINC6
         0YDQsNGB0LAhAw==
@@ -7520,17 +7520,17 @@
     - service: vk
       id: 2142
       published: 2025-02-20-18-11-30
-      updated: 2025-06-20-10-21-09
+      updated: 2025-06-27-10-21-34
       followers: 1109
       likes: 31
-      views: 419
+      views: 420
     - service: tg
       id: 716
       published: 2025-02-20-18-11-40
-      updated: 2025-06-20-10-20-59
+      updated: 2025-06-27-10-21-24
       followers: 681
       likes: 58
-      views: 514
+      views: 515
       comments: !c |-
         G8oAAOTgmif+K7FhFQbIR5SNq7iCKnS41tFAh/vGzjXeZiiKsk3jyBjPMy7dof7ulEakkf1b7VvU
         zZWub4BlRCAd0g3kDVJBJdka/3qNSjcE0v9jW6RQgxQtgktZ/dOQ5YAsEGmO7OFShHUU1TQ3ikq+
@@ -12311,10 +12311,10 @@
     - service: vk
       id: 2399
       published: 2025-05-29-18-21-36
-      updated: 2025-06-20-10-20-54
+      updated: 2025-06-27-10-21-20
       followers: 1310
       likes: 54
-      views: 444
+      views: 449
       reposts: 1
       comments: !c |-
         G/cA8K0KzHP6w6ggGjaT9uCjxv/jn1jCp00+aBFquExwhJNznW2VEi2V4x4fp2zqttzNadu4Hj4w
@@ -12323,10 +12323,10 @@
     - service: tg
       id: 862
       published: 2025-05-29-18-21-42
-      updated: 2025-06-20-10-20-52
+      updated: 2025-06-27-10-21-18
       followers: 742
-      likes: 58
-      views: 474
+      likes: 59
+      views: 489
       comments: !c iw2AkZPLQnlyDmP9AACrS2F3YXpha3kyMjOk8J+ZggM=
     - service: ig
       id: DKP8TOYsgAS

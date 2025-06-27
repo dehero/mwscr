@@ -86,10 +86,10 @@
     - service: vk
       id: 2079
       published: 2025-01-23-18-50-59
-      updated: 2025-06-20-10-21-14
+      updated: 2025-06-27-10-21-38
       followers: 1054
       likes: 63
-      views: 519
+      views: 522
       reposts: 6
       comments: !c |-
         G9cBYJwFdsN14XDpwRubkC8ay4J4/vuLfcL3YWd2ZUHjAk2/NJGlG+g2TRGunMuJpLpphEViHvTV
@@ -101,10 +101,10 @@
     - service: tg
       id: 679
       published: 2025-01-23-18-51-07
-      updated: 2025-06-20-10-21-02
+      updated: 2025-06-27-10-21-27
       followers: 655
       likes: 75
-      views: 566
+      views: 568
 2025-01-24-near-mining-company-office: 2017-07-09-near-mining-company-office
 2025-01-25-sunset-ridge: 2019-10-20-sunset-ridge
 2025-01-26-dark-moon:
@@ -353,10 +353,10 @@
     - service: vk
       id: 2115
       published: 2025-02-06-18-11-33
-      updated: 2025-06-20-10-21-12
+      updated: 2025-06-27-10-21-36
       followers: 1061
       likes: 40
-      views: 620
+      views: 622
       reposts: 4
     - service: tg
       id:
@@ -365,10 +365,10 @@
         - 698
         - 699
       published: 2025-02-06-18-11-51
-      updated: 2025-06-20-10-21-01
+      updated: 2025-06-27-10-21-26
       followers: 664
       likes: 70
-      views: 1426
+      views: 1428
 2025-02-07-the-book-of-dawn-and-dusk: 2018-07-27-the-book-of-dawn-and-dusk
 2025-02-08-three-hunters: 2019-02-23-three-hunters
 2025-02-09-guardians-of-the-cave: 2019-03-01-guardians-of-the-cave
@@ -428,18 +428,18 @@
     - service: vk
       id: 2190
       published: 2025-03-13-18-12-13
-      updated: 2025-06-20-10-21-05
+      updated: 2025-06-27-10-21-30
       followers: 1182
       likes: 63
-      views: 489
+      views: 490
       reposts: 1
     - service: tg
       id: 746
       published: 2025-03-13-18-12-20
-      updated: 2025-06-20-10-20-58
+      updated: 2025-06-27-10-21-23
       followers: 696
       likes: 63
-      views: 525
+      views: 526
 2025-03-14-daedric-tanto-and-dwemer-coins:
   title: Daedric Tanto and Dwemer Coins
   titleRu: Даэдрический танто и двемерские монеты
@@ -682,10 +682,10 @@
     - service: vk
       id: 2210
       published: 2025-03-20-18-12-31
-      updated: 2025-06-20-10-21-04
+      updated: 2025-06-27-10-21-29
       followers: 1198
       likes: 52
-      views: 506
+      views: 507
       reposts: 3
       comments: !c |-
         G8IAEIzDuOH7Nd1EownJ6k//mUQolmAVDki4W/qnVsp43QP9QH29xfp/3ymFUKTPvzEmaGpVpUQn
@@ -695,10 +695,10 @@
     - service: tg
       id: 756
       published: 2025-03-20-18-12-38
-      updated: 2025-06-20-10-20-57
+      updated: 2025-06-27-10-21-23
       followers: 705
       likes: 64
-      views: 535
+      views: 538
       comments: !c |-
         G7wA4GRqbssraaG5hfi3ZohJ4uh4wrNWjmoSEo1bKKCTE73St6t8fuAo0AAk8YgCj+H1TApuRqO3
         0bCeKAlBm2Y8EoqnAr5wsbr7Lyd7r9Xxxu3foSfA5PJ9rYxAqdRIRyqlDzrbzEbqlVImFy610Jlc
@@ -1459,18 +1459,18 @@
     - service: vk
       id: 2305
       published: 2025-04-24-18-23-20
-      updated: 2025-06-20-10-20-57
+      updated: 2025-06-27-10-21-23
       followers: 1268
       likes: 63
-      views: 495
+      views: 498
       reposts: 2
     - service: tg
       id: 810
       published: 2025-04-24-18-23-26
-      updated: 2025-06-20-10-20-55
+      updated: 2025-06-27-10-21-20
       followers: 725
-      likes: 61
-      views: 854
+      likes: 62
+      views: 859
 2025-04-25-st-delyn-and-masser:
   title: St. Delyn and Masser
   titleRu: Святой Делин и Массер
@@ -1642,18 +1642,18 @@
     - service: vk
       id: 2346
       published: 2025-05-08-18-41-58
-      updated: 2025-06-20-10-20-55
+      updated: 2025-06-27-10-21-21
       followers: 1283
       likes: 36
-      views: 404
+      views: 408
       reposts: 1
     - service: tg
       id: 834
       published: 2025-05-08-18-42-05
-      updated: 2025-06-20-10-20-54
+      updated: 2025-06-27-10-21-19
       followers: 737
       likes: 65
-      views: 504
+      views: 510
       comments: !c |-
         G1gBIBRKe7WmZ0yA10XISCRHtMlswnsP6ELCfWwktMa04zu1ZLkDfcAoILgrqBW1JC1JE8tiibIQ
         o3Sbz+l0e0SCRUUxuPG8r5y7i/zshHhvotNW9DVp/708MlAFCqPPgWSCPa02khk3GoEhRzr0J2b1
