@@ -5140,22 +5140,23 @@
     - service: vk
       id: 2480
       published: 2025-06-22-18-25-45
-      updated: 2025-06-26-19-15-23
+      updated: 2025-06-27-20-21-14
       followers: 1329
-      likes: 59
-      views: 321
+      likes: 62
+      views: 351
       reposts: 2
       comments: !c |-
-        G60A+C0SbFsLb48T3NLHpmSiKM8QvkY9EsNOBUtY2YPa5jJOwauFUf3lNrZ/4zWfFtEwcJU5MtmJ
-        k9cOG3ACHjiHFsh8P7POPg5ZPe8fdQ7Wdw8q/EYFzV7UjiS3Y0yENomR9w2PYoSEwvjBEkkS23nW
-        35B1ahkKdPYG
+        GwkB6C0SbFsN6xcObjkHQ76JxD/vn1jR2tMmzVcvSJNOcBNaRjg5F2RuJVRn6EY3QJhO5K475Ns5
+        yAOMiwL6/33B36IIMg28zpGhyR5kOjk9YBhgIBDQDduiXLMwljin3BZnmpalP15+9f780/P8YrT9
+        LkQVfswEo3tHU5cRWShMDJsT+G5+wyNxDAYL40eC5owopz3HAJDsvKlU0QyPw0tf7+7T791rGwB7
+        1mTBR6eQ9OcYqZRrTSv7+rMexASRxEkO1wI=
     - service: tg
       id: 893
       published: 2025-06-22-18-25-51
-      updated: 2025-06-26-19-15-21
+      updated: 2025-06-27-20-21-12
       followers: 752
-      likes: 64
-      views: 311
+      likes: 65
+      views: 326
       comments: !c Cw+AkZPLQnl5kEyIgACrS2F3YXpha3kyMjOnNe+4j+KDowM=
 2017-04-28-gloomy-barrow:
   title: Gloomy Barrow
@@ -10658,10 +10659,10 @@
     - service: vk
       id: 2481
       published: 2025-06-23-18-28-39
-      updated: 2025-06-26-19-15-22
+      updated: 2025-06-27-20-21-13
       followers: 1328
-      likes: 88
-      views: 434
+      likes: 90
+      views: 461
       reposts: 2
       comments: !c |-
         G9MA6K0OeHPoKqGmOVN75iOiIm4RPkipZ9gkGGGyp3MLOViKKR4H7kN/oNyWuzn9bkyRHywVQzNz
@@ -10670,10 +10671,10 @@
     - service: tg
       id: 894
       published: 2025-06-23-18-28-43
-      updated: 2025-06-26-19-15-20
+      updated: 2025-06-27-20-21-10
       followers: 753
-      likes: 65
-      views: 269
+      likes: 66
+      views: 307
       comments: !c |-
         G7MACByJcSzFgqkrBFG/317/jZBeo//QoNK1iXjCk9h0omgohKZ74CECNbcSOqEQ6o0596pArFoz
         pE450oA4wgIMxAL8Ub475SCIk5YFGJ2+ms1O9lrdcvQptXH4Kr66L1EzTZ/358nFyJYaapFKhtLp
@@ -12193,23 +12194,23 @@
       id: DLaiAhpM6-y
       mediaId: '18062176805233926'
       published: 2025-06-27-18-37-32
-      updated: 2025-06-27-19-14-44
+      updated: 2025-06-27-20-21-08
       followers: 1553
-      likes: 13
+      likes: 20
     - service: vk
       id: 2488
       published: 2025-06-27-18-37-37
-      updated: 2025-06-27-19-14-45
+      updated: 2025-06-27-20-21-08
       followers: 1329
-      likes: 2
-      views: 10
+      likes: 15
+      views: 60
     - service: tg
       id: 898
       published: 2025-06-27-18-37-42
-      updated: 2025-06-27-19-14-44
+      updated: 2025-06-27-20-21-07
       followers: 758
-      likes: 23
-      views: 74
+      likes: 30
+      views: 92
       comments: !c iw2AkZPLQnl7K2KSAACrS2F3YXpha3kyMjOk8J+kpQM=
 2017-10-23-flacassia-fauseius-on-the-spot:
   title: Flacassia Fauseius On-The-Spot
