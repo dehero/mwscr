@@ -457,7 +457,7 @@
     - service: vk
       id: 1656
       published: 2024-07-25-18-20-25
-      updated: 2025-06-20-20-21-29
+      updated: 2025-06-27-21-16-38
       followers: 921
       likes: 44
       views: 313
@@ -8185,7 +8185,7 @@
     - service: vk
       id: 1642
       published: 2024-07-18-18-21-19
-      updated: 2025-06-20-20-21-31
+      updated: 2025-06-27-21-16-41
       followers: 919
       likes: 39
       views: 284
@@ -8196,10 +8196,10 @@
     - service: tg
       id: 473
       published: 2024-07-18-18-21-26
-      updated: 2025-06-20-20-21-27
+      updated: 2025-06-27-21-16-37
       followers: 402
       likes: 61
-      views: 718
+      views: 719
 2018-07-24-flaming-archer:
   title: Flaming Archer
   titleRu: Пылающий лучник
@@ -12365,15 +12365,15 @@
     - service: vk
       id: 2486
       published: 2025-06-26-18-28-54
-      updated: 2025-06-27-20-21-11
+      updated: 2025-06-27-21-16-35
       followers: 1328
       likes: 36
-      views: 198
+      views: 199
       reposts: 2
     - service: tg
       id: 897
       published: 2025-06-26-18-28-58
-      updated: 2025-06-27-20-21-09
+      updated: 2025-06-27-21-16-36
       followers: 756
       likes: 55
       views: 172
@@ -12382,9 +12382,9 @@
       id: DLaLhKMMolt
       mediaId: '17869988883391433'
       published: 2025-06-27-15-21-01
-      updated: 2025-06-27-20-21-10
+      updated: 2025-06-27-21-16-36
       followers: 1554
-      likes: 29
+      likes: 31
 2018-10-25-night-quay-of-tel-mora:
   title: Night Quay of Tel Mora
   titleRu: Ночная набережная Тель Моры
