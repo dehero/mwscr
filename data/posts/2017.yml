@@ -826,7 +826,7 @@
     - service: yt
       id: 8Waikj-VsSI
       published: 2017-01-22
-      updated: 2025-06-21-17-16-16
+      updated: 2025-06-28-17-16-24
       followers: 1
       likes: 7
       views: 133
@@ -1131,7 +1131,7 @@
     - service: yt
       id: lbg7_2GY9-U
       published: 2017-01-28
-      updated: 2025-06-21-17-16-13
+      updated: 2025-06-28-17-16-21
       followers: 2
       likes: 24
       views: 574
@@ -1840,10 +1840,10 @@
     - service: yt
       id: Fd77v5UL_ek
       published: 2017-02-12
-      updated: 2025-06-21-17-16-10
+      updated: 2025-06-28-17-16-17
       followers: 4
       likes: 33
-      views: 708
+      views: 709
       comments: !c |-
         G+gAoCwK7IZjg1xnd84NfTExG8H/173ufKL3qbUU3ol5wEulDhJM54DXczGQWwslGIsxDlWEf7it
         t5QEIT7YrgRCP24zuPGiFz0mZ9esw+AcQenkQAP0rEVhywI7BwFwBRjoxlL4wrHIsHg7HF6DDo6k
@@ -3645,15 +3645,15 @@
     - service: tg
       id: 547
       published: 2024-09-27-18-10-13
-      updated: 2025-06-21-16-22-19
+      updated: 2025-06-28-17-16-23
       followers: 557
       likes: 70
-      views: 1078
+      views: 1080
       comments: !c iw2AkZPLQnkjerjngACremhlY2hrYV9kcnak8J+YjgM=
     - service: vk
       id: 1786
       published: 2024-09-27-19-01-39
-      updated: 2025-06-21-16-22-21
+      updated: 2025-06-28-17-16-26
       followers: 957
       likes: 41
       views: 360
@@ -5075,10 +5075,10 @@
     - service: tg
       id: 531
       published: 2024-09-13-18-29-51
-      updated: 2025-06-21-17-16-16
+      updated: 2025-06-28-17-16-25
       followers: 556
       likes: 53
-      views: 958
+      views: 963
       comments: !c iw6AkZPLQnke7nQrgAClYW5zaXOsUHJhaXNlIFZlaGshAw==
 2017-04-27-in-khuul:
   title: In Khuul
@@ -12194,24 +12194,24 @@
       id: DLaiAhpM6-y
       mediaId: '18062176805233926'
       published: 2025-06-27-18-37-32
-      updated: 2025-06-28-16-22-17
+      updated: 2025-06-28-17-16-18
       followers: 1553
-      likes: 49
+      likes: 51
     - service: vk
       id: 2488
       published: 2025-06-27-18-37-37
-      updated: 2025-06-28-16-22-17
+      updated: 2025-06-28-17-16-19
       followers: 1329
-      likes: 42
-      views: 214
+      likes: 43
+      views: 221
       reposts: 1
     - service: tg
       id: 898
       published: 2025-06-27-18-37-42
-      updated: 2025-06-28-16-22-16
+      updated: 2025-06-28-17-16-19
       followers: 758
       likes: 49
-      views: 161
+      views: 162
       comments: !c iw2AkZPLQnl7K2KSAACrS2F3YXpha3kyMjOk8J+kpQM=
 2017-10-23-flacassia-fauseius-on-the-spot:
   title: Flacassia Fauseius On-The-Spot
