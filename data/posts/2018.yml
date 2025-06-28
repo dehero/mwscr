@@ -3605,7 +3605,7 @@
     - service: vk
       id: 1886
       published: 2024-11-08-18-40-06
-      updated: 2025-06-21-14-17-42
+      updated: 2025-06-28-15-18-24
       followers: 1005
       likes: 35
       views: 294
@@ -4024,7 +4024,7 @@
     - service: vk
       id: 1855
       published: 2024-10-25-18-10-15
-      updated: 2025-06-21-14-17-45
+      updated: 2025-06-28-15-18-26
       followers: 997
       likes: 42
       views: 317
@@ -12365,15 +12365,15 @@
     - service: vk
       id: 2486
       published: 2025-06-26-18-28-54
-      updated: 2025-06-28-14-16-30
+      updated: 2025-06-28-15-18-22
       followers: 1328
       likes: 37
-      views: 217
+      views: 219
       reposts: 2
     - service: tg
       id: 897
       published: 2025-06-26-18-28-58
-      updated: 2025-06-28-14-16-29
+      updated: 2025-06-28-15-18-21
       followers: 756
       likes: 58
       views: 191
@@ -12382,7 +12382,7 @@
       id: DLaLhKMMolt
       mediaId: '17869988883391433'
       published: 2025-06-27-15-21-01
-      updated: 2025-06-28-14-16-29
+      updated: 2025-06-28-15-18-21
       followers: 1554
       likes: 50
 2018-10-25-night-quay-of-tel-mora:
@@ -12788,7 +12788,7 @@
     - service: vk
       id: 1819
       published: 2024-10-11-18-09-53
-      updated: 2025-06-21-14-17-47
+      updated: 2025-06-28-15-18-28
       followers: 961
       likes: 32
       views: 347
