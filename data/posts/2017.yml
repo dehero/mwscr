@@ -1068,7 +1068,7 @@
     - service: vk
       id: 1554
       published: 2024-05-30-18-20-43
-      updated: 2025-06-21-04-24-10
+      updated: 2025-06-28-05-19-55
       followers: 916
       likes: 49
       views: 409
@@ -1081,7 +1081,7 @@
     - service: tg
       id: 424
       published: 2024-05-30-18-20-52
-      updated: 2025-06-21-04-24-03
+      updated: 2025-06-28-05-19-49
       followers: 378
       likes: 60
       views: 519
@@ -11805,7 +11805,7 @@
       id: DFf-B2yTQHv
       mediaId: '18034411085196878'
       published: 2025-01-31-18-10-14
-      updated: 2025-06-21-04-24-04
+      updated: 2025-06-28-05-19-51
       followers: 1534
       likes: 107
       views: 490
@@ -11817,10 +11817,10 @@
     - service: vk
       id: 2100
       published: 2025-01-31-18-10-20
-      updated: 2025-06-21-04-24-05
+      updated: 2025-06-28-05-19-49
       followers: 1057
       likes: 59
-      views: 454
+      views: 455
       reposts: 3
       comments: !c |-
         G1MCgKwOzFOmAyaDC3lcpr4TaSwTFXGwOKHXZirQjNMsCzhIJMJkTzSVbbHZjPZqyBaDhnTAyZh8
@@ -11832,10 +11832,10 @@
     - service: tg
       id: 690
       published: 2025-01-31-18-10-27
-      updated: 2025-06-21-04-23-58
+      updated: 2025-06-28-05-19-44
       followers: 662
       likes: 74
-      views: 650
+      views: 652
       comments: !c CxiAkZPLQnlMaCGzgACobW9uZ2xlcmm8ZGFtbiB0aG9zZSBjYW5kZXMgYXJlIHByZXR0eQM=
 2017-10-14-land-of-ruins:
   title: Land of Ruins
@@ -12194,24 +12194,24 @@
       id: DLaiAhpM6-y
       mediaId: '18062176805233926'
       published: 2025-06-27-18-37-32
-      updated: 2025-06-28-04-23-25
+      updated: 2025-06-28-05-19-40
       followers: 1553
-      likes: 38
+      likes: 40
     - service: vk
       id: 2488
       published: 2025-06-27-18-37-37
-      updated: 2025-06-28-04-23-25
+      updated: 2025-06-28-05-19-41
       followers: 1329
-      likes: 26
-      views: 121
+      likes: 30
+      views: 137
       reposts: 1
     - service: tg
       id: 898
       published: 2025-06-27-18-37-42
-      updated: 2025-06-28-04-23-24
+      updated: 2025-06-28-05-19-39
       followers: 758
-      likes: 41
-      views: 128
+      likes: 44
+      views: 133
       comments: !c iw2AkZPLQnl7K2KSAACrS2F3YXpha3kyMjOk8J+kpQM=
 2017-10-23-flacassia-fauseius-on-the-spot:
   title: Flacassia Fauseius On-The-Spot
@@ -14184,7 +14184,7 @@
     - service: vk
       id: 1606
       published: 2024-06-27-18-19-01
-      updated: 2025-06-21-04-24-08
+      updated: 2025-06-28-05-19-53
       followers: 917
       likes: 43
       views: 328
@@ -14192,10 +14192,10 @@
     - service: tg
       id: 452
       published: 2024-06-27-18-19-08
-      updated: 2025-06-21-04-24-00
+      updated: 2025-06-28-05-19-46
       followers: 388
       likes: 56
-      views: 508
+      views: 510
 2017-12-11-princess-of-dusk-and-dawn:
   title: Princess of Dusk and Dawn
   titleRu: Принцесса рассвета и заката
