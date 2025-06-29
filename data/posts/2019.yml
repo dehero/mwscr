@@ -615,7 +615,7 @@
       id: DLdFbXcM6lH
       mediaId: '17969804192764452'
       published: 2025-06-28-18-25-32
-      updated: 2025-06-29-12-36-47
+      updated: 2025-06-29-13-27-48
       followers: 1553
       likes: 63
       comments: !c |-
@@ -624,18 +624,18 @@
     - service: vk
       id: 2489
       published: 2025-06-28-18-25-41
-      updated: 2025-06-29-12-36-46
+      updated: 2025-06-29-13-27-45
       followers: 1332
-      likes: 38
-      views: 223
+      likes: 42
+      views: 229
       reposts: 2
     - service: tg
       id: 899
       published: 2025-06-28-18-25-44
-      updated: 2025-06-29-12-36-46
+      updated: 2025-06-29-13-27-45
       followers: 758
-      likes: 48
-      views: 165
+      likes: 49
+      views: 168
       comments: !c GyoA+OXpxZwlGCZJ1MoCagE3Dw/8FmQQRSrSYXCDDkNGz0ePvAJYVhN7V1EkCgA=
 2019-02-22-ordinator-of-mournhold:
   title: Ordinator of Mournhold
@@ -2282,16 +2282,16 @@
       id: DJw73hzz0MB
       mediaId: '18133230601416067'
       published: 2025-05-17-18-24-00
-      updated: 2025-06-22-13-26-52
+      updated: 2025-06-29-13-27-57
       followers: 1536
       likes: 74
     - service: vk
       id: 2362
       published: 2025-05-17-18-24-00
-      updated: 2025-06-22-13-26-51
+      updated: 2025-06-29-13-27-49
       followers: 1300
       likes: 66
-      views: 507
+      views: 512
       reposts: 2
       comments: !c |-
         G28A+I3DOBYcmpuZYgv+v10f4dPwO1PmSZIn2CQYYXIuLuzTU8wTybTSIODAgrf6v/1NijBIoaXZ
@@ -2299,10 +2299,10 @@
     - service: tg
       id: 847
       published: 2025-05-17-19-13-22
-      updated: 2025-06-22-13-26-49
+      updated: 2025-06-29-13-27-48
       followers: 737
-      likes: 66
-      views: 467
+      likes: 67
+      views: 477
 2019-10-22-the-wind-is-getting-stronger:
   title: The Wind Is Getting Stronger
   titleRu: Ветер крепчает
