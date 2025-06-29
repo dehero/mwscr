@@ -1497,18 +1497,18 @@
     - service: vk
       id: 2273
       published: 2025-04-12-18-19-27
-      updated: 2025-06-22-20-20-17
+      updated: 2025-06-29-20-20-34
       followers: 1249
       likes: 62
-      views: 475
+      views: 476
       reposts: 1
     - service: tg
       id: 792
       published: 2025-04-12-18-19-36
-      updated: 2025-06-22-20-20-11
+      updated: 2025-06-29-20-20-25
       followers: 720
       likes: 60
-      views: 571
+      views: 573
 2018-02-10-in-the-evening-canals-of-vivec:
   title: In the Evening Canals of Vivec
   titleRu: В вечерних каналах Вивека
@@ -7121,10 +7121,10 @@
     - service: tg
       id: 738
       published: 2025-03-08-18-08-20
-      updated: 2025-06-22-20-20-14
+      updated: 2025-06-29-20-20-29
       followers: 691
       likes: 70
-      views: 549
+      views: 550
 2018-06-27-arch-with-a-canopy:
   title: Arch with a Canopy
   titleRu: Арка с навесом
@@ -7671,10 +7671,11 @@
     - service: vk
       id: 2453
       published: 2025-06-08-18-16-43
-      updated: 2025-06-22-20-20-10
+      updated: 2025-06-29-20-20-26
       followers: 1316
       likes: 51
-      views: 450
+      views: 469
+      reposts: 1
       comments: !c |-
         G/UBYKwSeDO2eElquoV4MtwLIyTp5B/+TzbCrzunjWeWbJ2TBFnCBR6kiSX3YapuxoibhxCEpTnt
         s3+sCIu2LXNWsBn7NhU5GIi5WYKhPHzmyGQ3gxEbnkqrGzynwwHADKOsHtiW3IAHPVna8aIXGtED
@@ -7685,10 +7686,10 @@
     - service: tg
       id: 879
       published: 2025-06-08-18-16-51
-      updated: 2025-06-22-20-20-07
+      updated: 2025-06-29-20-20-21
       followers: 742
-      likes: 67
-      views: 473
+      likes: 69
+      views: 512
     - service: ig
       id: DKpq6H_N3Ka
       mediaId: '18072534205930276'
@@ -9185,10 +9186,10 @@
         - 720
         - 721
       published: 2025-02-22-18-12-41
-      updated: 2025-06-22-20-20-16
+      updated: 2025-06-29-20-20-31
       followers: 682
       likes: 62
-      views: 671
+      views: 675
       comments: !c |-
         CxyAkZPLQnlZNcqDAACtT2xtZXJfSXpkZXlsYb9XaGF0IGEgbmljZSBwbGFjZSEg8J+UpfCflKXw
         n5SlAw==
@@ -11184,10 +11185,10 @@
     - service: vk
       id: 2295
       published: 2025-04-19-18-20-51
-      updated: 2025-06-22-20-20-15
+      updated: 2025-06-29-20-20-33
       followers: 1263
       likes: 56
-      views: 473
+      views: 474
       reposts: 2
     - service: tg
       id:
@@ -11196,10 +11197,10 @@
         - 803
         - 804
       published: 2025-04-19-18-21-12
-      updated: 2025-06-22-20-20-09
+      updated: 2025-06-29-20-20-24
       followers: 722
       likes: 69
-      views: 619
+      views: 622
       comments: !c |-
         G3kBwJwHtq0l+zgYrWHn2Zjon7jYEf7xmyJPPE4DbQo0iDjZBxnbSumWNJHhK+weim1i6IZiqqZi
         quc9orDBQlpYTtOThZQ/V9kuCSmSCm5w4JRkFmlCiT9QypPC0JKDNNDW7fWhz70+/968vx7H7+ZM
@@ -12326,23 +12327,23 @@
       id: DLfqR4asKM3
       mediaId: '17884759560321836'
       published: 2025-06-29-18-26-03
-      updated: 2025-06-29-19-14-50
+      updated: 2025-06-29-20-20-20
       followers: 1553
-      likes: 18
+      likes: 26
     - service: vk
       id: 2490
       published: 2025-06-29-18-26-14
-      updated: 2025-06-29-19-14-48
+      updated: 2025-06-29-20-20-19
       followers: 1333
-      likes: 5
-      views: 29
+      likes: 10
+      views: 80
     - service: tg
       id: 900
       published: 2025-06-29-18-26-18
-      updated: 2025-06-29-19-14-49
+      updated: 2025-06-29-20-20-19
       followers: 760
-      likes: 21
-      views: 80
+      likes: 30
+      views: 117
 2018-10-24-snowfall-over-the-ice-river:
   title: Snowfall Over the Ice River
   titleRu: Снегопад над ледяной рекой
