@@ -615,7 +615,7 @@
       id: DLdFbXcM6lH
       mediaId: '17969804192764452'
       published: 2025-06-28-18-25-32
-      updated: 2025-06-29-18-25-38
+      updated: 2025-06-29-19-14-52
       followers: 1553
       likes: 70
       comments: !c |-
@@ -624,19 +624,21 @@
     - service: vk
       id: 2489
       published: 2025-06-28-18-25-41
-      updated: 2025-06-29-18-25-37
+      updated: 2025-06-29-19-14-50
       followers: 1332
       likes: 46
-      views: 258
+      views: 261
       reposts: 2
     - service: tg
       id: 899
       published: 2025-06-28-18-25-44
-      updated: 2025-06-29-18-25-36
+      updated: 2025-06-29-19-14-51
       followers: 758
-      likes: 50
-      views: 179
-      comments: !c GyoA+OXpxZwlGCZJ1MoCagE3Dw/8FmQQRSrSYXCDDkNGz0ePvAJYVhN7V1EkCgA=
+      likes: 52
+      views: 196
+      comments: !c |-
+        G1YAUIzUTrcGsTnJbDcg2w0eBg0adWWBFXAXdsOAk1pFyCgJbMCJDsZlmw9ge8BdaiVWimTdMZ+l
+        fjbROaUOlwEksVgj+K9ekBZ9l5ir3zqjaT0jMAA=
 2019-02-22-ordinator-of-mournhold:
   title: Ordinator of Mournhold
   titleRu: Ординатор Морнхолда
