@@ -66,12 +66,12 @@ export async function getHomePageData(dataManager: DataManager): Promise<HomePag
       sortKey: 'date',
       sortDirection: 'desc',
     }),
-    lastProposedPostInfo: await dataManager.selectPostInfo('inbox', {
+    lastProposedPostInfo: await dataManager.selectPostInfo('drafts', {
       requester: 'none',
       sortKey: 'date',
       sortDirection: 'desc',
     }),
-    lastRequestedPostInfo: await dataManager.selectPostInfo('inbox', {
+    lastRequestedPostInfo: await dataManager.selectPostInfo('drafts', {
       requester: 'any',
       sortKey: 'date',
       sortDirection: 'desc',

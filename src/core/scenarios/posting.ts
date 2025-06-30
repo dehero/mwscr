@@ -25,7 +25,7 @@ export interface PostingScenario {
 
 // const announcedPost: PostingScenario = {
 //   title: 'announced post',
-//   sourceManagers: ['inbox'],
+//   sourceManagers: ['drafts'],
 //   targetManager: 'posts',
 //   postingRules: [afterHour(18), lastPostedDaysAgo(1)],
 //   postCandidateRules: [needAnnouncement],
@@ -33,7 +33,7 @@ export interface PostingScenario {
 
 // const announcedExtra: PostingScenario = {
 //   title: 'announced extra',
-//   sourceManagers: ['inbox'],
+//   sourceManagers: ['drafts'],
 //   targetManager: 'extras',
 //   postingRules: [afterHour(9)],
 //   postCandidateRules: [needAnnouncement],
@@ -41,7 +41,7 @@ export interface PostingScenario {
 
 // const news: PostingScenario = {
 //   title: 'news',
-//   sourceManagers: ['inbox'],
+//   sourceManagers: ['drafts'],
 //   targetManager: 'extras',
 //   postingRules: [afterHour(9)],
 //   postCandidateRules: [needCertainType('news')],
@@ -49,7 +49,7 @@ export interface PostingScenario {
 
 // const redrawing: PostingScenario = {
 //   title: 'redrawing',
-//   sourceManagers: ['inbox'],
+//   sourceManagers: ['drafts'],
 //   targetManager: 'extras',
 //   postingRules: [afterHour(9)],
 //   postCandidateRules: [
@@ -61,7 +61,7 @@ export interface PostingScenario {
 
 const shot: PostingScenario = {
   title: 'shot',
-  sourceManagers: ['inbox', 'posts'],
+  sourceManagers: ['drafts', 'posts'],
   targetManager: 'posts',
   postingRules: [afterHour(18), lastPostedDaysAgo(1)],
   postCandidateRules: [
@@ -81,7 +81,7 @@ const shot: PostingScenario = {
 
 // const shotSet: PostingScenario = {
 //   title: 'shot-set',
-//   sourceManagers: ['inbox', 'posts'],
+//   sourceManagers: ['drafts', 'posts'],
 //   targetManager: 'posts',
 //   postingRules: [afterHour(18), lastPostedDaysAgo(1)],
 //   postCandidateRules: [
@@ -94,7 +94,7 @@ const shot: PostingScenario = {
 
 // const wallpaper: PostingScenario = {
 //   title: 'wallpaper',
-//   sourceManagers: ['inbox', 'posts'],
+//   sourceManagers: ['drafts', 'posts'],
 //   targetManager: 'posts',
 //   postingRules: [afterHour(18), lastPostedDaysAgo(1)],
 //   postCandidateRules: [

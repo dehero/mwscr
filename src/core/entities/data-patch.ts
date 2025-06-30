@@ -10,7 +10,7 @@ export const DataPatch = partial(
   object({
     posts: PostsManagerPatch,
     extras: PostsManagerPatch,
-    inbox: PostsManagerPatch,
+    drafts: PostsManagerPatch,
     trash: PostsManagerPatch,
     users: UsersManagerPatch,
   }),

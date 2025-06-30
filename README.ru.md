@@ -22,7 +22,7 @@
 
 - [Посты](https://mwscr.dehero.site/posts/)
 - [Дополнительные материалы](https://mwscr.dehero.site/extras/)
-- [Черновики](https://mwscr.dehero.site/inbox/)
+- [Черновики](https://mwscr.dehero.site/drafts/)
 - [Корзина](https://mwscr.dehero.site/trash/)
 - [Участники](https://mwscr.dehero.site/users/)
 
@@ -48,8 +48,8 @@
 
 ### Публикация
 
-[Черновики](https://mwscr.dehero.site/inbox/), успешно прошедшие [редактуру](CONTRIBUTING.ru.md#редактура), попадают в
-[шорт-лист](https://mwscr.dehero.site/inbox/?publishable=true), откуда постепенно берутся для создания новых постов.
+[Черновики](https://mwscr.dehero.site/drafts/), успешно прошедшие [редактуру](CONTRIBUTING.ru.md#редактура), попадают в
+[шорт-лист](https://mwscr.dehero.site/drafts/?publishable=true), откуда постепенно берутся для создания новых постов.
 Выбор нового поста происходит ежедневно.
 
 Пост публикуется одновременно во всех аккаунтах проекта, поддерживающих данный тип постов. В текст поста включаются:
@@ -68,7 +68,7 @@
 ### Данные
 
 Информация об основных [`data/posts`](data/posts), дополнительных [`data/extras`](data/extras), предлагаемых
-[`data/inbox`](data/inbox) и отклонённых [`data/trash`](data/trash) постах хранится в разбивке по годам в формате
+[`data/drafts`](data/drafts) и отклонённых [`data/trash`](data/trash) постах хранится в разбивке по годам в формате
 `YAML`. Оригиналы работ из-за своего большого размера представлены ссылками на внешнее хранилище `store:`, доступ к
 которому есть только у администратора проекта. Другие файлы:
 
@@ -132,10 +132,10 @@ npm run maintain
 1. Создать в [`.github/ISSUE_TEMPLATE`](.github/ISSUE_TEMPLATE) шаблоны для заявок согласно описаниям в
    [`src/local/github-issue-resolvers`](src/local/github-issue-resolvers).
 2. Добавить в [`data/posts`](data/posts) посты, созданные в аккаунтах проекта администратором вручную.
-3. Импортировать в [`data/inbox`](data/inbox) новые файлы из хранилища `store:/inbox`, добавленные администратором
+3. Импортировать в [`data/drafts`](data/drafts) новые файлы из хранилища `store:/inbox`, добавленные администратором
    вручную.
 4. Удалить отклонённые посты в корзину [`data/trash`](data/trash`), восстановить посты из корзины в предлагаемые
-   [`data/inbox`](data/inbox`).
+   [`data/drafts`](data/drafts`).
 5. Получить реакции на посты в [`data/posts`](data/posts) и [`data/extras`](data/extras) из аккаунтов проекта.
 6. Создать в [`data/posts`](data/posts) или [`data/extras`](data/extras) новый пост согласно сценариям, описанным в
    [`src/core/scenarios/posting.ts`](src/core/scenarios/posting.ts).

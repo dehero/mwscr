@@ -80,11 +80,11 @@ export async function createUserInfos(dataManager: DataManager): Promise<UserInf
         roles.push('author');
       }
 
-      if (drawn?.posts || drawn?.extras || drawn?.inbox) {
+      if (drawn?.posts || drawn?.extras || drawn?.drafts) {
         roles.push('drawer');
       }
 
-      if (requested?.posts || requested?.inbox) {
+      if (requested?.posts || requested?.drafts) {
         roles.push('requester');
       }
 
@@ -101,7 +101,7 @@ export async function createUserInfos(dataManager: DataManager): Promise<UserInf
         !authored?.extras &&
         !requested?.posts &&
         !requested?.extras &&
-        (authored?.inbox || requested?.inbox || authored?.trash || requested?.trash)
+        (authored?.drafts || requested?.drafts || authored?.trash || requested?.trash)
       ) {
         roles.push('beginner');
       }

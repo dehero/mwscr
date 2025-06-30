@@ -34,9 +34,9 @@ export const postsRouteInfos: Record<PostsManagerName, PostsPageInfo> = {
     typeKeys: ['news', 'mention', 'photoshop', 'redrawing', 'outtakes', 'achievement'],
     filters: ['date', 'author', 'tag', 'type', 'status'],
   },
-  inbox: {
-    label: 'Inbox',
-    title: 'Inbox',
+  drafts: {
+    label: 'Drafts',
+    title: 'Drafts',
     description: 'Pending posts of Morrowind Screenshots project.',
     sortKeys: ['date', 'id'],
     presetKeys: ['shortlist', 'requests', 'edits'],

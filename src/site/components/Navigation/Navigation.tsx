@@ -19,7 +19,7 @@ const navigationItems = [
   { route: homeRoute, params: {} },
   { route: postsRoute, params: { managerName: 'posts' } },
   { route: postsRoute, params: { managerName: 'extras' } },
-  { route: postsRoute, params: { managerName: 'inbox' } },
+  { route: postsRoute, params: { managerName: 'drafts' } },
   { route: postsRoute, params: { managerName: 'trash' } },
   { route: usersRoute, params: {} },
   { route: helpRoute, params: { topicId: '' } },

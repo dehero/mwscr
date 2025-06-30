@@ -56,7 +56,7 @@ export const ContributingDialog: DetachedDialog<ContributingDialogTab> = (props)
                     S
                   </Icon>
                   <p class={styles.variantTitle}>Submit Your Works</p>
-                  <p class={styles.variantDescription}>Add your screenshots, drawings or videos to Inbox.</p>
+                  <p class={styles.variantDescription}>Add your screenshots, drawings or videos to Drafts.</p>
                 </Frame>
 
                 <Frame
