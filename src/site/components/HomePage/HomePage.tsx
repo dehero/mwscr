@@ -133,9 +133,9 @@ export const HomePage = (): JSX.Element => {
                       link: postsRoute.createUrl({ managerName: 'extras' }),
                     },
                     {
-                      label: 'Inbox',
-                      value: data().totalPosts.inbox,
-                      link: postsRoute.createUrl({ managerName: 'inbox' }),
+                      label: 'Drafts',
+                      value: data().totalPosts.drafts,
+                      link: postsRoute.createUrl({ managerName: 'drafts' }),
                     },
                     {
                       label: 'Trash',

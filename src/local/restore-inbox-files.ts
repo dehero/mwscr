@@ -2,12 +2,12 @@ import 'dotenv/config';
 import { parseResourceUrl } from '../core/entities/resource.js';
 import { STORE_INBOX_DIR } from '../core/entities/store.js';
 import { asArray } from '../core/utils/common-utils.js';
-import { inbox } from './data-managers/posts.js';
+import { drafts } from './data-managers/posts.js';
 import { moveResource, resourceExists } from './data-managers/resources.js';
 
-const inboxEntries = await inbox.getAllEntries(true);
+const draftsEntries = await drafts.getAllEntries(true);
 
-for (const [, post] of inboxEntries) {
+for (const [, post] of draftsEntries) {
   const content = [...asArray(post.content), ...asArray(post.trash)];
 
   for (const url of content) {

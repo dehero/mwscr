@@ -49,16 +49,16 @@ interface SubmitVariantDescriptor {
 const submitVariants: SubmitVariantDescriptor[] = [
   {
     id: 'upload-files',
-    label: 'Upload files to Inbox',
+    label: 'Upload files to Drafts',
     description:
-      "Send images directly to Inbox, then edit proposed posts in-place. Changes are visible only in your current browser until you send Edits to the project's repository.",
+      "Send images directly to Drafts, then edit proposed posts in-place. Changes are visible only in your current browser until you send Edits to the project's repository.",
     allowedFormats: [['PNG', '≤ 5MB']],
   },
   {
     id: 'insert-links',
-    label: 'Insert links to Inbox',
+    label: 'Insert links to Drafts',
     description:
-      "Insert links to images or videos directly to Inbox, then edit proposed posts in-place. Changes are visible only in your current browser until you send Edits to the project's repository.",
+      "Insert links to images or videos directly to Drafts, then edit proposed posts in-place. Changes are visible only in your current browser until you send Edits to the project's repository.",
     allowedFormats: [
       ['PNG', '≤ 5MB'],
       ['MP4, AVI', '≤ 200MB'],
@@ -68,7 +68,7 @@ const submitVariants: SubmitVariantDescriptor[] = [
     id: 'telegram-bot',
     label: 'Send files to Telegram bot',
     description:
-      'Send images or videos to Telegram bot called "Ordinator". He will check them and put to Inbox if everything is ok. He answers within an hour.',
+      'Send images or videos to Telegram bot called "Ordinator". He will check them and put to Drafts if everything is ok. He answers within an hour.',
     allowedFormats: [
       ['PNG', '≤ 5MB'],
       ['MP4, AVI', '≤ 200MB'],
@@ -79,7 +79,7 @@ const submitVariants: SubmitVariantDescriptor[] = [
     id: 'github-issue',
     label: 'Send files via GitHub Issue',
     description:
-      "Create GitHub Issue in project's repository with your images or videos attached. Use ZIP archives to send large or multiple files. After the issue is created, files will be automatically checked by project's repository workflow and added to Inbox if everything is ok.",
+      "Create GitHub Issue in project's repository with your images or videos attached. Use ZIP archives to send large or multiple files. After the issue is created, files will be automatically checked by project's repository workflow and added to Drafts if everything is ok.",
     allowedFormats: [
       ['PNG', '≤ 5MB'],
       ['MP4', '≤ 10MB'],
@@ -90,7 +90,7 @@ const submitVariants: SubmitVariantDescriptor[] = [
     id: 'email',
     label: 'Send files via email',
     description:
-      'Send images or videos to project administrator via email. He will check them manually and put to Inbox if everything is ok. Use ZIP archives to send large or multiple files.',
+      'Send images or videos to project administrator via email. He will check them manually and put to Drafts if everything is ok. Use ZIP archives to send large or multiple files.',
     allowedFormats: [['PNG'], ['MP4, AVI'], ['ZIP']],
   },
 ] as const;
@@ -127,7 +127,7 @@ export const PostProposalDialog: DetachedDialog = (props) => {
 
     setUploadReport(items.map(({ name }): UploadReportItem => ({ name, errors: [] })));
 
-    const inbox = dataManager.findPostsManager('inbox');
+    const drafts = dataManager.findPostsManager('drafts');
 
     for (const [itemIndex, item] of items.entries()) {
       updateUploadReportItem(itemIndex, { status: 'Uploading' });
@@ -153,16 +153,16 @@ export const PostProposalDialog: DetachedDialog = (props) => {
         const id = `${USER_UNKNOWN}.${dateToString(new Date(), true)}${itemIndex > 0 ? itemIndex + 1 : ''}`;
 
         try {
-          await inbox?.addItem({ content: upload.url, title: upload.name, type: 'shot', author: USER_UNKNOWN }, id);
+          await drafts?.addItem({ content: upload.url, title: upload.name, type: 'shot', author: USER_UNKNOWN }, id);
 
           updateUploadReportItem(itemIndex, {
             status: 'Uploaded',
-            postInfo: await dataManager.getPostInfo('inbox', id),
+            postInfo: await dataManager.getPostInfo('drafts', id),
           });
 
           // @ts-expect-error No proper typing
           navigate(
-            postsRoute.createUrl({ managerName: 'inbox', status: 'added' }) +
+            postsRoute.createUrl({ managerName: 'drafts', status: 'added' }) +
               createDetachedDialogFragment('post-proposal'),
           );
         } catch (error) {
@@ -185,7 +185,7 @@ export const PostProposalDialog: DetachedDialog = (props) => {
       return;
     }
 
-    const inbox = dataManager.findPostsManager('inbox');
+    const drafts = dataManager.findPostsManager('drafts');
 
     const badUrls: Set<string> = new Set();
     let hasSuccess = false;
@@ -194,12 +194,12 @@ export const PostProposalDialog: DetachedDialog = (props) => {
       const id = `${USER_UNKNOWN}.${dateToString(new Date(), true)}${i > 0 ? i + 1 : ''}`;
 
       try {
-        await inbox?.addItem({ content: url, type: 'shot', author: USER_UNKNOWN }, id);
-        addToast(`"${url}" added to Inbox`);
+        await drafts?.addItem({ content: url, type: 'shot', author: USER_UNKNOWN }, id);
+        addToast(`"${url}" added to Drafts`);
 
         // @ts-expect-error No proper typing
         navigate(
-          postsRoute.createUrl({ managerName: 'inbox', status: 'added' }) +
+          postsRoute.createUrl({ managerName: 'drafts', status: 'added' }) +
             createDetachedDialogFragment('post-proposal'),
         );
         hasSuccess = true;
@@ -253,7 +253,7 @@ export const PostProposalDialog: DetachedDialog = (props) => {
         return {
           href: email.getUserMessagingUrl('dehero@outlook.com', {
             subject: 'proposal',
-            body: "Hello! I've attached .zip archive with works I'd like to propose. Please consider taking them to Inbox. Thank you!",
+            body: "Hello! I've attached .zip archive with works I'd like to propose. Please consider taking them to Drafts. Thank you!",
           }),
           target: '_blank',
           children: 'Create email',

@@ -1,7 +1,7 @@
 import type { GithubIssue } from '../../core/entities/github-issue.js';
 import { userName, userProfileIg, userProfileTg, userProfileVk } from '../../core/entities/github-issue-field.js';
 import { label } from '../../core/github-issues/post-proposal.js';
-import { inbox } from '../data-managers/posts.js';
+import { drafts } from '../data-managers/posts.js';
 import { importResourceToStore } from '../data-managers/store-resources.js';
 import { extractIssueLinks, extractIssueUrls, extractIssueUser } from './utils/issue-utils.js';
 
@@ -26,10 +26,10 @@ export async function resolve(issue: GithubIssue) {
     const draftEntries = await importResourceToStore(url, { title: text || issueTitle, author }, issueDate);
 
     for (const [id, post] of draftEntries) {
-      await inbox.addItem(post, id);
-      await inbox.save();
+      await drafts.addItem(post, id);
+      await drafts.save();
 
-      console.info(`Created inbox item "${id}" from "${url}".`);
+      console.info(`Created draft "${id}" from "${url}".`);
     }
   }
 }

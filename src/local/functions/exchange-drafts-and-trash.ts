@@ -1,42 +1,42 @@
 import { isTrashItem } from '../../core/entities/posts-manager.js';
-import { inbox, trash } from '../data-managers/posts.js';
-import { moveInboxItemResourcesToTrash, restoreTrashItemResources } from '../data-managers/store-resources.js';
+import { drafts, trash } from '../data-managers/posts.js';
+import { moveDraftResourcesToTrash, restoreTrashItemResources } from '../data-managers/store-resources.js';
 
-export async function exchangeInboxAndTrash() {
-  console.group('Exchanging inbox and trash...');
+export async function exchangeDraftsAndTrash() {
+  console.group('Exchanging drafts and trash...');
 
-  await cleanupInbox();
+  await cleanupDrafts();
 
   await tryRestoreTrashItems();
 
   console.groupEnd();
 }
 
-async function cleanupInbox() {
-  console.info('Cleaning inbox...');
+async function cleanupDrafts() {
+  console.info('Cleaning drafts...');
 
   try {
-    for await (const [id, item] of inbox.readAllEntries()) {
+    for await (const [id, item] of drafts.readAllEntries()) {
       if (isTrashItem(item)) {
         try {
-          await moveInboxItemResourcesToTrash(item);
+          await moveDraftResourcesToTrash(item);
           await trash.addItem(item, id);
-          await inbox.removeItem(id);
+          await drafts.removeItem(id);
 
           await trash.save();
-          await inbox.save();
+          await drafts.save();
 
-          console.info(`Moved rejected inbox item "${id}" to trash.`);
+          console.info(`Moved rejected draft "${id}" to trash.`);
         } catch (error) {
           if (error instanceof Error) {
-            console.warn(`Error moving resources for rejected inbox item "${id}": ${error.message}.`);
+            console.warn(`Error moving resources for rejected draft "${id}": ${error.message}.`);
           }
         }
       }
     }
   } catch (error) {
     if (error instanceof Error) {
-      console.error(`Error cleaning inbox: ${error.message}`);
+      console.error(`Error cleaning drafts: ${error.message}`);
     }
   }
 }
@@ -49,10 +49,10 @@ async function tryRestoreTrashItems() {
       if (!isTrashItem(item)) {
         try {
           await restoreTrashItemResources(item);
-          await inbox.addItem(item, id);
+          await drafts.addItem(item, id);
           await trash.removeItem(id);
 
-          await inbox.save();
+          await drafts.save();
           await trash.save();
 
           console.info(`Restored trash item "${id}".`);

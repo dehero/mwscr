@@ -124,7 +124,7 @@ export async function createPostInfos(managerName: string, dataManager: DataMana
 
       const status = await manager.getItemStatus(id);
 
-      if (manager.name === 'inbox' && status !== 'removed' && !isTrashItem(post)) {
+      if (manager.name === 'drafts' && status !== 'removed' && !isTrashItem(post)) {
         isPublishablePost(post, errors);
       }
 

@@ -6,7 +6,7 @@ import type { Resource } from '../../core/entities/resource.js';
 import { site } from '../../core/services/site.js';
 import { telegram } from '../../core/services/telegram.js';
 import { asArray } from '../../core/utils/common-utils.js';
-import { inbox } from '../data-managers/posts.js';
+import { drafts } from '../data-managers/posts.js';
 import { readResource } from '../data-managers/resources.js';
 import { importResourceToStore } from '../data-managers/store-resources.js';
 import { users } from '../data-managers/users.js';
@@ -161,12 +161,12 @@ async function processMessage(message: TelegramBot.Message) {
             }.${violation.solution ? ` ${violation.solution}` : ''}</blockquote>`,
           );
         } else {
-          await inbox.addItem(post, id);
-          await inbox.save();
+          await drafts.addItem(post, id);
+          await drafts.save();
 
-          console.info(`Created inbox item "${id}" from "${url}".`);
+          console.info(`Created draft "${id}" from "${url}".`);
 
-          const postUrl = site.getPostUrl(id, 'inbox');
+          const postUrl = site.getPostUrl(id, 'drafts');
 
           replies.push(
             `${getRandomAcceptPhrase()} I've accepted your work with ID\n<pre>${id}</pre>\nWait a couple of minutes for it to appear <a href="${encodeURI(

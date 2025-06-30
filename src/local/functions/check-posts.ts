@@ -2,7 +2,7 @@ import { locationMatchesString } from '../../core/entities/location.js';
 import { RESOURCE_MISSING_IMAGE } from '../../core/entities/resource.js';
 import { asArray } from '../../core/utils/common-utils.js';
 import { locations } from '../data-managers/locations.js';
-import { inbox, posts, postsManagers } from '../data-managers/posts.js';
+import { drafts, posts, postsManagers } from '../data-managers/posts.js';
 import { resourceExists } from '../data-managers/resources.js';
 
 export async function checkPosts() {
@@ -17,7 +17,7 @@ export async function checkPosts() {
 async function checkPostsContent() {
   console.info('Checking availability of published and pending posts content...');
 
-  for (const manager of [posts, inbox]) {
+  for (const manager of [posts, drafts]) {
     for await (const [id, post] of manager.readAllEntries()) {
       const content = asArray<string>(post.content);
 

@@ -4,8 +4,8 @@ import mime from 'mime';
 import type { PostContent, PostEntry, PostViolation } from '../../core/entities/post.js';
 import { mergePostContents } from '../../core/entities/post.js';
 import { postTitleFromString } from '../../core/entities/post-title.js';
-import type { DraftProposal, InboxItem, PublishablePost, TrashItem } from '../../core/entities/posts-manager.js';
-import { createInboxItemId } from '../../core/entities/posts-manager.js';
+import type { Draft, DraftProposal, PublishablePost, TrashItem } from '../../core/entities/posts-manager.js';
+import { createDraftId } from '../../core/entities/posts-manager.js';
 import type { Resource, ResourceType } from '../../core/entities/resource.js';
 import { ImageResourceUrl, parseResourceUrl, RESOURCE_MISSING_IMAGE } from '../../core/entities/resource.js';
 import { checkRules } from '../../core/entities/rule.js';
@@ -67,7 +67,7 @@ export async function importResourceToStore(
   // @ts-expect-error TODO: resolve typing issues
   const hash = getRevisionHash(data ?? filename);
 
-  const id = createInboxItemId(author, nameDate || date || templateDate || new Date(), title, hash);
+  const id = createDraftId(author, nameDate || date || templateDate || new Date(), title, hash);
   let content: PostContent = typeof resource === 'string' ? resource : filename;
 
   const errors: Set<string> = new Set();
@@ -139,10 +139,10 @@ export async function importResourceToStore(
     violation,
   };
 
-  return [[id, draft, 'inbox']];
+  return [[id, draft, 'drafts']];
 }
 
-export async function moveInboxItemResourcesToTrash(post: InboxItem) {
+export async function moveDraftResourcesToTrash(post: Draft) {
   const inboxDirUrl = `store:/${STORE_INBOX_DIR}`;
   const urls = [...asArray(post.content), ...asArray(post.trash)];
 
@@ -159,7 +159,7 @@ export async function moveResourceToTrash(url: string) {
   await moveResource(url, newUrl);
 }
 
-export async function restoreTrashItemResources(post: TrashItem | InboxItem) {
+export async function restoreTrashItemResources(post: TrashItem | Draft) {
   const trashDirUrl = `store:/${STORE_TRASH_DIR}`;
   const urls = [...asArray(post.content), ...asArray(post.trash)];
 

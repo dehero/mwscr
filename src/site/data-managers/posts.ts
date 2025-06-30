@@ -2,13 +2,13 @@ import type { ListManagerPatch, ListReaderChunk } from '../../core/entities/list
 import type { Post } from '../../core/entities/post.js';
 import type { PostsManagerName } from '../../core/entities/posts-manager.js';
 import {
+  Draft,
   getProposedPostChunkName,
   getPublishedPostChunkName,
-  InboxItem,
   PostsManager,
   PostsManagerPatch,
   PublishablePost,
-  TrashOrInboxItem,
+  TrashOrDraft,
 } from '../../core/entities/posts-manager.js';
 import type { Schema } from '../../core/entities/schema.js';
 import { safeParseSchema } from '../../core/entities/schema.js';
@@ -120,16 +120,16 @@ export const extras = new SitePostsManager<PublishablePost>({
   ItemSchema: PublishablePost,
 });
 
-export const inbox = new SitePostsManager<InboxItem>({
-  name: 'inbox',
+export const drafts = new SitePostsManager<Draft>({
+  name: 'drafts',
   getItemChunkName: getProposedPostChunkName,
-  ItemSchema: InboxItem,
+  ItemSchema: Draft,
 });
 
-export const trash = new SitePostsManager<TrashOrInboxItem>({
+export const trash = new SitePostsManager<TrashOrDraft>({
   name: 'trash',
   getItemChunkName: getProposedPostChunkName,
-  ItemSchema: TrashOrInboxItem,
+  ItemSchema: TrashOrDraft,
 });
 
-export const postsManagers: SitePostsManager[] = [posts, extras, inbox, trash];
+export const postsManagers: SitePostsManager[] = [posts, extras, drafts, trash];

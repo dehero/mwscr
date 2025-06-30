@@ -4,12 +4,12 @@ import type { Post } from '../../core/entities/post.js';
 import type { PostsManagerName, TrashItem } from '../../core/entities/posts-manager.js';
 import {
   createPublishedPostId,
+  Draft,
   getProposedPostChunkName,
   getPublishedPostChunkName,
-  InboxItem,
   PostsManager,
   PublishablePost,
-  TrashOrInboxItem,
+  TrashOrDraft,
 } from '../../core/entities/posts-manager.js';
 import type { Schema } from '../../core/entities/schema.js';
 import { isObject } from '../../core/utils/object-utils.js';
@@ -94,19 +94,19 @@ export const extras = new LocalPostsManager<PublishablePost>({
   ItemSchema: PublishablePost,
 });
 
-export const inbox = new LocalPostsManager<InboxItem>({
-  name: 'inbox',
-  dirPath: 'data/inbox',
+export const drafts = new LocalPostsManager<Draft>({
+  name: 'drafts',
+  dirPath: 'data/drafts',
   getItemChunkName: getProposedPostChunkName,
-  ItemSchema: InboxItem,
+  ItemSchema: Draft,
 });
 
-// Allow trash to contain restorable inbox items temporarily
-export const trash = new LocalPostsManager<TrashItem | InboxItem>({
+// Allow trash to contain restorable drafts temporarily
+export const trash = new LocalPostsManager<TrashItem | Draft>({
   name: 'trash',
   dirPath: 'data/trash',
   getItemChunkName: getProposedPostChunkName,
-  ItemSchema: TrashOrInboxItem,
+  ItemSchema: TrashOrDraft,
 });
 
-export const postsManagers: PostsManager[] = [posts, extras, inbox, trash];
+export const postsManagers: PostsManager[] = [posts, extras, drafts, trash];

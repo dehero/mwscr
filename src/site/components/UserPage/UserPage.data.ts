@@ -80,13 +80,13 @@ export async function getUserPageData(dataManager: DataManager, params: UserRout
       sortKey: 'date',
       sortDirection: 'desc',
     }),
-    lastProposedPostInfo: await dataManager.selectPostInfo('inbox', {
+    lastProposedPostInfo: await dataManager.selectPostInfo('drafts', {
       author: params.id,
       requester: 'none',
       sortKey: 'date',
       sortDirection: 'desc',
     }),
-    lastRequestedPostInfo: await dataManager.selectPostInfo('inbox', {
+    lastRequestedPostInfo: await dataManager.selectPostInfo('drafts', {
       requester: params.id,
       sortKey: 'date',
       sortDirection: 'desc',

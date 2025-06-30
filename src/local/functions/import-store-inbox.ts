@@ -5,16 +5,16 @@ import {
   mergePostWith,
 } from '../../core/entities/post.js';
 import type { DraftProposal } from '../../core/entities/posts-manager.js';
-import { createInboxItemId } from '../../core/entities/posts-manager.js';
+import { createDraftId } from '../../core/entities/posts-manager.js';
 import { resourceIsImage, resourceIsVideo } from '../../core/entities/resource.js';
 import type { StoreItem } from '../../core/entities/store.js';
 import { parseStoreResourceUrl, STORE_INBOX_DIR } from '../../core/entities/store.js';
 import { asArray, partition } from '../../core/utils/common-utils.js';
-import { inbox } from '../data-managers/posts.js';
+import { drafts } from '../data-managers/posts.js';
 import { storeManager } from '../store-managers/index.js';
 
 export async function importStoreInbox() {
-  console.group(`Importing inbox from store...`);
+  console.group(`Importing drafts from store...`);
 
   const items = await storeManager.readdir(STORE_INBOX_DIR);
 
@@ -22,7 +22,7 @@ export async function importStoreInbox() {
     await importNewItems(items);
   } catch (error) {
     if (error instanceof Error) {
-      console.error(`Error importing inbox items from store: ${error.message}`);
+      console.error(`Error importing drafts from store: ${error.message}`);
     }
   }
 
@@ -30,7 +30,7 @@ export async function importStoreInbox() {
     await moveDeletedItemsToTrash(items);
   } catch (error) {
     if (error instanceof Error) {
-      console.error(`Error moving deleted inbox items to trash: ${error.message}`);
+      console.error(`Error moving deleted drafts to trash: ${error.message}`);
     }
   }
 
@@ -38,7 +38,7 @@ export async function importStoreInbox() {
 }
 
 async function importNewItems(items: StoreItem[]) {
-  const inboxEntries = await inbox.getAllEntries(true);
+  const draftsEntries = await drafts.getAllEntries(true);
   let addedItems = 0;
 
   for (const item of items) {
@@ -51,7 +51,7 @@ async function importNewItems(items: StoreItem[]) {
       continue;
     }
 
-    const { distance } = getPostContentDistance(item.url, inboxEntries);
+    const { distance } = getPostContentDistance(item.url, draftsEntries);
     if (distance !== Infinity) {
       continue;
     }
@@ -61,7 +61,7 @@ async function importNewItems(items: StoreItem[]) {
       continue;
     }
 
-    const draft: DraftProposal = {
+    const proposal: DraftProposal = {
       content: item.url,
       type,
       author,
@@ -70,28 +70,28 @@ async function importNewItems(items: StoreItem[]) {
     let id;
 
     if (originalUrl) {
-      ({ id } = getPostContentDistance(originalUrl, inboxEntries));
+      ({ id } = getPostContentDistance(originalUrl, draftsEntries));
     }
 
     if (!id) {
-      id = createInboxItemId(author, date, key);
+      id = createDraftId(author, date, key);
     }
 
-    const inboxItem = await inbox.getItem(id);
+    const draft = await drafts.getItem(id);
 
-    if (inboxItem) {
-      mergePostWith(inboxItem, draft);
+    if (draft) {
+      mergePostWith(draft, proposal);
     } else {
-      await inbox.addItem(draft, id);
+      await drafts.addItem(proposal, id);
     }
-    await inbox.save();
+    await drafts.save();
 
-    console.info(`Imported new inbox item "${item.url}" to "${id}".`);
+    console.info(`Imported new draft "${item.url}" to "${id}".`);
     addedItems++;
   }
 
   if (addedItems === 0) {
-    console.info(`No new inbox items found in store.`);
+    console.info(`No new drafts found in store.`);
   }
 }
 
@@ -99,7 +99,7 @@ async function moveDeletedItemsToTrash(items: StoreItem[]) {
   const storeUrls = new Set(items.map(({ url }) => url));
   let processedItems = 0;
 
-  for await (const [id, item] of inbox.readAllEntries()) {
+  for await (const [id, item] of drafts.readAllEntries()) {
     if (!item.content || item.content.length === 0) {
       continue;
     }
@@ -112,22 +112,22 @@ async function moveDeletedItemsToTrash(items: StoreItem[]) {
     if (content.length === 0 && !item.request) {
       item.mark = 'D';
 
-      await inbox.save();
+      await drafts.save();
 
-      console.info(`Rejected inbox item "${id}".`);
+      console.info(`Rejected draft "${id}".`);
       processedItems++;
     } else if (trash.length > 0) {
       item.content = mergePostContents(content);
       item.trash = mergePostContents(item.trash, trash);
 
-      await inbox.save();
+      await drafts.save();
 
-      console.info(`Moved "${trash.join('", "')}" to trash for inbox item "${id}".`);
+      console.info(`Moved "${trash.join('", "')}" to trash for draft "${id}".`);
       processedItems++;
     }
   }
 
   if (processedItems === 0) {
-    console.info(`No inbox items moved to trash.`);
+    console.info(`No drafts moved to trash.`);
   }
 }
