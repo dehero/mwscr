@@ -42,9 +42,9 @@ export const RejectedProposal = object({
 export const DraftProposal = object({ ...Post.entries, content: PostContent, author: PostAuthor });
 export const RequestProposal = object({ ...Post.entries, request: PostRequest });
 
-export const TrashItem = union([ViolatingProposal, RejectedProposal]);
+export const Reject = union([ViolatingProposal, RejectedProposal]);
 export const Draft = union([DraftProposal, RequestProposal]);
-export const TrashOrDraft = union([TrashItem, Draft]);
+export const RejectOrDraft = union([Reject, Draft]);
 
 export const PublishablePost = intersect([
   object({
@@ -62,12 +62,12 @@ export type RejectedProposal = InferOutput<typeof RejectedProposal>;
 export type DraftProposal = InferOutput<typeof DraftProposal>;
 export type RequestProposal = InferOutput<typeof RequestProposal>;
 
-export type TrashItem = InferOutput<typeof TrashItem>;
+export type Reject = InferOutput<typeof Reject>;
 export type Draft = InferOutput<typeof Draft>;
-export type TrashOrDraft = InferOutput<typeof TrashOrDraft>;
+export type RejectOrDraft = InferOutput<typeof RejectOrDraft>;
 export type PublishablePost = InferOutput<typeof PublishablePost>;
 
-export const PostsManagerName = picklist(['posts', 'extras', 'drafts', 'trash']);
+export const PostsManagerName = picklist(['posts', 'extras', 'drafts', 'rejects']);
 export type PostsManagerName = InferOutput<typeof PostsManagerName>;
 
 export const PublicPostsManagerName = picklist(['posts', 'extras']);
@@ -86,11 +86,11 @@ export const postsManagerDescriptors = Object.freeze<Record<PostsManagerName, Po
   posts: { title: 'Posts', label: 'primary', actions: ['locate', 'precise'] },
   extras: { title: 'Extras', label: 'extra', actions: ['precise'] },
   drafts: { title: 'Drafts', label: 'pending', actions: ['edit', 'merge'] },
-  trash: { title: 'Trash', label: 'rejected', actions: ['edit', 'merge'] },
+  rejects: { title: 'Rejects', label: 'rejected', actions: ['edit', 'merge'] },
 });
 
-export function isTrashItem(post: Post, errors?: string[]): post is TrashItem {
-  return checkSchema(TrashItem, post, errors);
+export function isReject(post: Post, errors?: string[]): post is Reject {
+  return checkSchema(Reject, post, errors);
 }
 
 export function isPublishablePost(post: Post, errors?: string[]): post is PublishablePost {

@@ -55,9 +55,9 @@ export const postsRouteInfos: Record<PostsManagerName, PostsPageInfo> = {
       'official',
     ],
   },
-  trash: {
-    label: 'Trash',
-    title: 'Trash',
+  rejects: {
+    label: 'Rejects',
+    title: 'Rejects',
     description: 'Rejected posts of Morrowind Screenshots project.',
     sortKeys: ['date', 'id'],
     presetKeys: ['revisit', 'violations', 'edits'],

@@ -514,7 +514,7 @@ export const PostPage = (): JSX.Element => {
                         )
                       : undefined,
                     link: postInfo().violation
-                      ? postsRoute.createUrl({ managerName: 'trash', violation: postInfo().violation })
+                      ? postsRoute.createUrl({ managerName: 'rejects', violation: postInfo().violation })
                       : undefined,
                   },
                 ]}

@@ -8,7 +8,7 @@ import {
   PostsManager,
   PostsManagerPatch,
   PublishablePost,
-  TrashOrDraft,
+  RejectOrDraft,
 } from '../../core/entities/posts-manager.js';
 import type { Schema } from '../../core/entities/schema.js';
 import { safeParseSchema } from '../../core/entities/schema.js';
@@ -126,10 +126,10 @@ export const drafts = new SitePostsManager<Draft>({
   ItemSchema: Draft,
 });
 
-export const trash = new SitePostsManager<TrashOrDraft>({
-  name: 'trash',
+export const rejects = new SitePostsManager<RejectOrDraft>({
+  name: 'rejects',
   getItemChunkName: getProposedPostChunkName,
-  ItemSchema: TrashOrDraft,
+  ItemSchema: RejectOrDraft,
 });
 
-export const postsManagers: SitePostsManager[] = [posts, extras, drafts, trash];
+export const postsManagers: SitePostsManager[] = [posts, extras, drafts, rejects];

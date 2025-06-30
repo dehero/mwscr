@@ -20,7 +20,7 @@ const navigationItems = [
   { route: postsRoute, params: { managerName: 'posts' } },
   { route: postsRoute, params: { managerName: 'extras' } },
   { route: postsRoute, params: { managerName: 'drafts' } },
-  { route: postsRoute, params: { managerName: 'trash' } },
+  { route: postsRoute, params: { managerName: 'rejects' } },
   { route: usersRoute, params: {} },
   { route: helpRoute, params: { topicId: '' } },
 ] as RouteMatch[];
