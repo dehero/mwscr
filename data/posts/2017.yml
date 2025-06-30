@@ -1024,10 +1024,10 @@
     - service: tg
       id: 626
       published: 2024-12-15-18-11-17
-      updated: 2025-06-23-08-28-13
+      updated: 2025-06-30-09-23-15
       followers: 580
       likes: 68
-      views: 664
+      views: 665
       comments: !c |-
         G4kAMBwHuWn0btmfJgwjVLpVc74SIRvHZVVfXQ2AjhyBItmpJRQO92TqODxdfgxhAw6YW3BczMYB
         Tw4Sr2xyGvuZzN/ehodzxraRaCJTKAQsGQvs8MCORhJ1JBywo5ZnPVF8/mape+SabJOplUJFy4U1
@@ -4596,16 +4596,16 @@
       id: DJzfrg7uEpm
       mediaId: '18144753580380531'
       published: 2025-05-18-18-15-26
-      updated: 2025-06-23-08-28-15
+      updated: 2025-06-30-09-23-16
       followers: 1536
       likes: 116
     - service: vk
       id: 2366
       published: 2025-05-18-18-15-33
-      updated: 2025-06-23-08-28-14
+      updated: 2025-06-30-09-23-15
       followers: 1300
       likes: 73
-      views: 517
+      views: 526
       reposts: 2
       comments: !c |-
         G6QAAC0SeA51OyuBK/2AwFd1UXx/+4Sv8VQDT7Qw4CyxZM/yJlYpSqL9RihisQnpmdv4cWx5ZAnV
@@ -4614,10 +4614,10 @@
     - service: tg
       id: 848
       published: 2025-05-18-18-15-38
-      updated: 2025-06-23-08-28-11
+      updated: 2025-06-30-09-23-13
       followers: 737
-      likes: 71
-      views: 623
+      likes: 72
+      views: 635
 2017-04-16-tree-stone:
   title: Tree Stone
   titleRu: Камень дерева
@@ -4982,10 +4982,10 @@
     - service: tg
       id: 605
       published: 2024-11-24-18-09-33
-      updated: 2025-06-23-08-28-16
+      updated: 2025-06-30-09-23-18
       followers: 576
       likes: 65
-      views: 675
+      views: 676
 2017-04-25-castle-ebonheart:
   title: Castle Ebonheart
   titleRu: Замок Эбенгард
@@ -10710,7 +10710,7 @@
       id: DIZYY-GBfkh
       mediaId: '17965962740884241'
       published: 2025-04-13-18-20-05
-      updated: 2025-06-23-08-28-21
+      updated: 2025-06-30-09-23-22
       followers: 1530
       likes: 76
       views: 282
