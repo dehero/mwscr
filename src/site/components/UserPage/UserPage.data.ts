@@ -91,12 +91,12 @@ export async function getUserPageData(dataManager: DataManager, params: UserRout
       sortKey: 'date',
       sortDirection: 'desc',
     }),
-    lastRejectedPostInfo: await dataManager.selectPostInfo('trash', {
+    lastRejectedPostInfo: await dataManager.selectPostInfo('rejects', {
       author: params.id,
       sortKey: 'date',
       sortDirection: 'desc',
     }),
-    lastRejectedRequestInfo: await dataManager.selectPostInfo('trash', {
+    lastRejectedRequestInfo: await dataManager.selectPostInfo('rejects', {
       requester: params.id,
       sortKey: 'date',
       sortDirection: 'desc',

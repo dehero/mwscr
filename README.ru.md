@@ -23,7 +23,7 @@
 - [Посты](https://mwscr.dehero.site/posts/)
 - [Дополнительные материалы](https://mwscr.dehero.site/extras/)
 - [Черновики](https://mwscr.dehero.site/drafts/)
-- [Корзина](https://mwscr.dehero.site/trash/)
+- [Отклонённые](https://mwscr.dehero.site/rejects/)
 - [Участники](https://mwscr.dehero.site/users/)
 
 Если хотите принять участие в проекте, пожалуйста, прочитайте [руководство для участников](CONTRIBUTING.ru.md).
@@ -68,7 +68,7 @@
 ### Данные
 
 Информация об основных [`data/posts`](data/posts), дополнительных [`data/extras`](data/extras), предлагаемых
-[`data/drafts`](data/drafts) и отклонённых [`data/trash`](data/trash) постах хранится в разбивке по годам в формате
+[`data/drafts`](data/drafts) и отклонённых [`data/rejects`](data/rejects) постах хранится в разбивке по годам в формате
 `YAML`. Оригиналы работ из-за своего большого размера представлены ссылками на внешнее хранилище `store:`, доступ к
 которому есть только у администратора проекта. Другие файлы:
 
@@ -134,7 +134,7 @@ npm run maintain
 2. Добавить в [`data/posts`](data/posts) посты, созданные в аккаунтах проекта администратором вручную.
 3. Импортировать в [`data/drafts`](data/drafts) новые файлы из хранилища `store:/inbox`, добавленные администратором
    вручную.
-4. Удалить отклонённые посты в корзину [`data/trash`](data/trash`), восстановить посты из корзины в предлагаемые
+4. Перенести отклонённые посты из черновиков в [`data/rejects`](data/rejects`), вернуть отклонённые посты в черновики
    [`data/drafts`](data/drafts`).
 5. Получить реакции на посты в [`data/posts`](data/posts) и [`data/extras`](data/extras) из аккаунтов проекта.
 6. Создать в [`data/posts`](data/posts) или [`data/extras`](data/extras) новый пост согласно сценариям, описанным в

@@ -11,7 +11,7 @@ export const DataPatch = partial(
     posts: PostsManagerPatch,
     extras: PostsManagerPatch,
     drafts: PostsManagerPatch,
-    trash: PostsManagerPatch,
+    rejects: PostsManagerPatch,
     users: UsersManagerPatch,
   }),
 );

@@ -1,7 +1,7 @@
 import 'dotenv/config';
 import { createGithubIssueTemplates } from './functions/create-github-issue-templates.js';
 import { createNewPost } from './functions/create-new-post.js';
-import { exchangeDraftsAndTrash } from './functions/exchange-drafts-and-trash.js';
+import { exchangeDraftsAndRejects } from './functions/exchange-drafts-and-rejects.js';
 // import { grabManualPosts } from './functions/grab-manual-posts.js';
 import { importStoreInbox } from './functions/import-store-inbox.js';
 import { importTelegramBotUpdates } from './functions/import-telegram-bot-updates.js';
@@ -19,7 +19,7 @@ await importStoreInbox();
 
 await importTelegramBotUpdates();
 
-await exchangeDraftsAndTrash();
+await exchangeDraftsAndRejects();
 
 await updatePublications();
 

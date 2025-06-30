@@ -147,9 +147,9 @@ export const UserPage = (): JSX.Element => {
                       link: postsRoute.createUrl({ managerName: 'drafts', author: id() }),
                     },
                     {
-                      label: 'Trash',
-                      value: userInfo().authored?.trash,
-                      link: postsRoute.createUrl({ managerName: 'trash', author: id() }),
+                      label: 'Rejects',
+                      value: userInfo().authored?.rejects,
+                      link: postsRoute.createUrl({ managerName: 'rejects', author: id() }),
                     },
                   ]}
                 />

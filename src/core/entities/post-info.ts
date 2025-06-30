@@ -28,7 +28,7 @@ import {
   postViolationDescriptors,
 } from './post.js';
 import type { PostsManagerName } from './posts-manager.js';
-import { isPublishablePost, isTrashItem } from './posts-manager.js';
+import { isPublishablePost, isReject } from './posts-manager.js';
 import { createUserOption } from './user.js';
 
 export interface PostInfo {
@@ -124,7 +124,7 @@ export async function createPostInfos(managerName: string, dataManager: DataMana
 
       const status = await manager.getItemStatus(id);
 
-      if (manager.name === 'drafts' && status !== 'removed' && !isTrashItem(post)) {
+      if (manager.name === 'drafts' && status !== 'removed' && !isReject(post)) {
         isPublishablePost(post, errors);
       }
 

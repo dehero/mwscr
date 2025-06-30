@@ -1,7 +1,7 @@
 import { readdir, unlink } from 'fs/promises';
 import type { ListReaderChunk } from '../../core/entities/list-manager.js';
 import type { Post } from '../../core/entities/post.js';
-import type { PostsManagerName, TrashItem } from '../../core/entities/posts-manager.js';
+import type { PostsManagerName, Reject } from '../../core/entities/posts-manager.js';
 import {
   createPublishedPostId,
   Draft,
@@ -9,7 +9,7 @@ import {
   getPublishedPostChunkName,
   PostsManager,
   PublishablePost,
-  TrashOrDraft,
+  RejectOrDraft,
 } from '../../core/entities/posts-manager.js';
 import type { Schema } from '../../core/entities/schema.js';
 import { isObject } from '../../core/utils/object-utils.js';
@@ -101,12 +101,12 @@ export const drafts = new LocalPostsManager<Draft>({
   ItemSchema: Draft,
 });
 
-// Allow trash to contain restorable drafts temporarily
-export const trash = new LocalPostsManager<TrashItem | Draft>({
-  name: 'trash',
-  dirPath: 'data/trash',
+// Allow rejects to contain restorable drafts temporarily
+export const rejects = new LocalPostsManager<Reject | Draft>({
+  name: 'rejects',
+  dirPath: 'data/rejects',
   getItemChunkName: getProposedPostChunkName,
-  ItemSchema: TrashOrDraft,
+  ItemSchema: RejectOrDraft,
 });
 
-export const postsManagers: PostsManager[] = [posts, extras, drafts, trash];
+export const postsManagers: PostsManager[] = [posts, extras, drafts, rejects];

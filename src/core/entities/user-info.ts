@@ -101,7 +101,7 @@ export async function createUserInfos(dataManager: DataManager): Promise<UserInf
         !authored?.extras &&
         !requested?.posts &&
         !requested?.extras &&
-        (authored?.drafts || requested?.drafts || authored?.trash || requested?.trash)
+        (authored?.drafts || requested?.drafts || authored?.rejects || requested?.rejects)
       ) {
         roles.push('beginner');
       }

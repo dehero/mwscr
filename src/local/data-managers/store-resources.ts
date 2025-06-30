@@ -4,7 +4,7 @@ import mime from 'mime';
 import type { PostContent, PostEntry, PostViolation } from '../../core/entities/post.js';
 import { mergePostContents } from '../../core/entities/post.js';
 import { postTitleFromString } from '../../core/entities/post-title.js';
-import type { Draft, DraftProposal, PublishablePost, TrashItem } from '../../core/entities/posts-manager.js';
+import type { Draft, DraftProposal, PublishablePost, Reject } from '../../core/entities/posts-manager.js';
 import { createDraftId } from '../../core/entities/posts-manager.js';
 import type { Resource, ResourceType } from '../../core/entities/resource.js';
 import { ImageResourceUrl, parseResourceUrl, RESOURCE_MISSING_IMAGE } from '../../core/entities/resource.js';
@@ -159,7 +159,7 @@ export async function moveResourceToTrash(url: string) {
   await moveResource(url, newUrl);
 }
 
-export async function restoreTrashItemResources(post: TrashItem | Draft) {
+export async function restoreRejectResources(post: Reject | Draft) {
   const trashDirUrl = `store:/${STORE_TRASH_DIR}`;
   const urls = [...asArray(post.content), ...asArray(post.trash)];
 
