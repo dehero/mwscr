@@ -24,19 +24,21 @@
     - service: vk
       id: 1312
       published: 2022-06-25
-      updated: 2025-06-27-15-20-48
+      updated: 2025-06-30-21-05-40
       followers: 723
       likes: 43
       views: 626
       reposts: 2
-      comments: !c ixiAkZPLQngZ1sHEgACqaWQ1NjY5MDMwMLvRgdC/0LDRgdC40LHQviDwn5aQ8J+Pu/CfmIoD
+      comments: !c |-
+        ixyAkZPLQngZ1sHEgACyaXJpbmEtYnlzdHJpdHNrYXlhu9GB0L/QsNGB0LjQsdC+IPCflpDwn4+7
+        8J+YigM=
     - service: tg
       id:
         - 248
         - 249
       published: 2022-06-25
-      updated: 2025-06-27-15-20-45
+      updated: 2025-06-30-21-05-36
       followers: 238
       likes: 52
       views: 696
-      comments: !c CxCAkZPLQngZxDRBgACkwq3CrbDQktC+0LvRiNC10LHQvdC+Aw==
+      comments: !c CxGAkZPLQngZxDRBgACmdXNlci01sNCS0L7Qu9GI0LXQsdC90L4D

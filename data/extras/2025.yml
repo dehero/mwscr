@@ -29,20 +29,20 @@
     - service: vk
       id: 2016
       published: 2025-01-04-18-10-14
-      updated: 2025-06-27-15-20-45
+      updated: 2025-06-30-21-05-34
       followers: 1042
       likes: 57
       views: 451
       reposts: 4
       comments: !c |-
-        G2UA+MWobV2KkCCKZkjB362JRa0fkvt0XeLXb0MUGQksCcM1EwWD4VOvGOy/VyWTiKcJnMoJiiKN
-        McIBS9z8jk83/iVkaWfzlVTCTATikVg4FQz+GPQo3LDDAxfc/RbupyMlDQ==
+        G2QA+MWn3+ZPERJeCqTkNmtiUetCIk3luj7i6mADDjUQChLQWc4XrJFon82fckth/5M2KdWspUp5
+        oWZ+iQUOWOJWjWAcfAlZ/opWHEqhGbi+E1vWj8GEwg07PHDBvRrgfjpT0Q==
     - service: tg
       id:
         - 649
         - 650
       published: 2025-01-04-18-10-26
-      updated: 2025-06-27-15-20-45
+      updated: 2025-06-30-21-05-33
       followers: 644
       likes: 69
       views: 609
@@ -74,31 +74,31 @@
     - service: tg
       id: 796
       published: 2025-04-16-15-35-00
-      updated: 2025-06-25-15-22-10
+      updated: 2025-06-30-21-05-31
       followers: 720
       likes: 36
-      views: 515
+      views: 516
       comments: !c |-
-        G9sBwJwHdsOysbAKgQ76S/w//sEifPP6bBG3VaBRhMm5ZKnL0bKsbiK7kI9XzDfXaHbLXdGkStW2
-        d8bddpZlSZKTb3q97l+kKIVyOL+dn+tVe3qiUQs0AA9akGSHkwd6oRscrxdt/gtdb/j8RG0eK2Hz
-        +fqFir8MXT73ToyXckF17e2Ai+zfPe+fhMJc97qDhGkwwKNWeolLFIu926R6CaaGSf2HZM1WFgVI
-        iM5cPojJT+aFITTViyCi3+/4otweymcC8RxkeOeN9mel/7kf/YyCbP1LjZpmsFIEFeJ8OI+woLrO
-        QKyFMy2LiTOITxI0k95kcOaLnTnsaYwIIybBe8B0aEndCHLeCsyniwQKQ8sO
+        G90BwJwHdiwYYWYVDJ1n8f/4B4vwzesrZd5WAScRJueSpepmjMU9CFf6L5RtK2a33BVNykLcv4O7
+        jWVZkuREN5equYsiKAzEIsb22ExV+LoTvf072AHw9h2SLAgokYMmFEKa6OdF6Q1vx0vUOFDC7vP1
+        C80/j1w+dzFJvISi8PpbAhe1fBe9K42A782hX3ESDKhRLZ0ZVxOK9W7T7Juiukl9Q3KmhUMRakRn
+        bj8E8vC8MISG+BGEm/HKn+R6yK8J1H2g4Z0322+W/ms/+kq0fBVMjopU4KQIIoZ8OJsVo7jOQJCs
+        MskLpDKMTxylIrnZ4OgwcebSyxhujQRH7wHTocNVw6jyVnR9uElgYLTsAA==
     - service: vk
       id: 2281
       published: 2025-04-16-15-36-00
-      updated: 2025-06-25-15-22-10
+      updated: 2025-06-30-21-05-32
       followers: 1261
       likes: 58
-      views: 543
+      views: 544
       reposts: 1
       comments: !c |-
-        G98BAJwJtq2C9WJxwzztoIwk/uH/hp+wMOEMKuh4NvCdAY7WiDa4b3Tba6GRSIGU1ddF+w34PVRG
-        d+CQnbO8hSpUoZrgQ1Tyu43Z2J75WkStfAsuT/UB4wGyv6ekY9tY58vGAitgSz4Wl6XP83HoMzZY
-        2VpqqZ+8nj/v4t/Lx3ifuljeN7kz+8GJ1eKcAbjdNTycBFLfoPe7mAKmginMn3P+c5Sk0AC1zDe6
-        vR54PRorq5bhvfKAfiua8aVL2OLhrEbu3yUKwEIMPvkg//9gfNcd8g9/rQ2wuY6K21oMn2rBoJuy
-        C5BW4Mhd2TjRbhujXOBBI2DcG/qeUue9OIY0CLyQUUsEAJcniimAEozR0hJ2LBhB8juk9T4h8QCZ
-        FdYEI1zYra+cjcJyrAgkxjdTgpVhIFlDV1O0m/AnC0NYLA==
+        G90B4JwJ8dYvIzQ7rvoJ0UN/o0+YplrNRFEggTcHenPQEd3BvtFtr4VGIgVSVl8X7Tfg91AZ1XGu
+        bgvVUE+3WYoly/AieDjieexGW3kLHt3UA3z+B7LZHJYVyFxgAQYaeDQ0lnYXJVHz9j03tQ4Nf3nd
+        P8/X38trvDcwVN43uf/0Q5sUt+QE4HHUiHG+jvoEu9/FFDAVTEZ00PvnhHZ4XsI3ur2OdzMaK6sW
+        3f3yeFJEMy50mC3e1Yj7HlEAZhg8X6v+/2B8V07y+v3eWGjhOgIdz2fY0wgG3dRxADcG5NyVjTqL
+        5C3GDDdWgPHsmFuUZTvCQIYDUshY5coB5yeKKYAcjNFCEq0+jBk9PpUdE0IiADItrHmD8GC3KjcX
+        heVYEUiFb6YEK8NAsoaupoi2YUs+hqk+Aw==
     - type: story
       service: ig
       mediaId: '3612115338922286789'
@@ -129,38 +129,38 @@
     - service: vk
       id: 2417
       published: 2025-06-02-11-38-59
-      updated: 2025-06-30-16-25-29
+      updated: 2025-06-30-21-05-30
       followers: 1315
       likes: 31
       views: 353
       comments: !c |-
-        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
+        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
     - service: tg
       id: 870
       published: 2025-06-02-11-39-00
-      updated: 2025-06-30-16-25-29
+      updated: 2025-06-30-21-05-30
       followers: 742
       likes: 20
-      views: 462
+      views: 464
       comments: !c |-
-        G/0BACwSeI5kd+PmqyF6EIp/vr/YJ3zjzUrjO54lHlm2AbbQRFhwLpRzWjXhzBhU2F+WwJO2V2kH
-        pW5iblbiJEb93wJrQlmDUViPMUBtrtqysR1iEjZ4k2txtZl3ZBfrDvSmF73iv12u4TmKskQDijws
-        wYyib0l6w9LvotQcMuSH4/Xbpm1P63PPrzhoXyNB6Wi6DyTKBacqylzt425ImsBIMstCzd1Rdw4V
-        YE3jQUoQbEvq9QsfmbLemqwT2wUCYj8AwHdV50OH9q9OHtuACMiBEeMkdKqcFbFoSkGH5r/tC41W
-        5GoceNG0u9SJC4gBWKTGESFuSIdzkzXEZRZnk8XTgVCmcjIsk1Z10vNkrEgTb8nY63+t7w08atyv
-        7388TzfR/nLeqAE=
+        G/4BAJwJdqyLgTvfYiL+H7lnn/DNW6CZZFnCWQG3tQgLzoX/rVnTQitjcKE6p/DR812sg1I3MTcr
+        cRKj/n6BNaGswSisxxjUbfWhWfqNaeBAEDzcILdF0RputgOd6USnOtDheDR66C7RgDIvwYyi3SXp
+        Dun4Y2xHWqUfnq/fFkv2ouNzZzPHhOdrJUiVm+4DiUVBqcplVJe5G4ItY4LpspBzd9YdWRZIsXmQ
+        EjgZwXr95GM61lsLlcgUyOCXJwH6Lnxf2emWf3nyfB6LgsgYn5PQKSOks+hqwYDtwe0LjVaOag68
+        aJoueeNCfDJsV+PIEDeEQ9EkBX7a5gw2rQPQoBGlxWqE1KR6LLAjNTqrsdfvcXxv2DgYoVrfv55H
+        Wmh//Udq
     - type: story
       service: ig
       id: DKZjF5dOuJ5
@@ -195,7 +195,7 @@
     - service: vk
       id: 2423
       published: 2025-06-02-13-46-51
-      updated: 2025-06-30-16-25-28
+      updated: 2025-06-30-21-05-27
       followers: 1315
       likes: 30
       views: 272
@@ -204,11 +204,11 @@
         - 871
         - 872
       published: 2025-06-02-14-03-54
-      updated: 2025-06-30-16-25-28
+      updated: 2025-06-30-21-05-28
       followers: 743
       likes: 62
-      views: 540
-      comments: !c iw2AkZPLQnlzHJ+tAACrS2F3YXpha3kyMjOk8J+RjQM=
+      views: 543
+      comments: !c iw2AkZPLQnlzHJ+tAACra2F3YXpha3kyMjOk8J+RjQM=
     - service: ig
       id: DKZzrNXu-ap
       mediaId: '18307423723240522'
