@@ -53,7 +53,7 @@ export function postsUsageToString(usage: PostsUsage | undefined) {
   }
 
   return PostsManagerName.options
-    .map((name) => (usage[name] ? `${usage[name]} ${postsManagerDescriptors[name].label}` : undefined))
+    .map((name) => (usage[name] ? `${usage[name]} ${postsManagerDescriptors[name].itemsUnit}` : undefined))
     .filter((a) => a)
     .join(', ');
 }
