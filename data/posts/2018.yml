@@ -7061,15 +7061,23 @@
       id: DLiPW9TM4zK
       mediaId: '18098634301580421'
       published: 2025-06-30-18-28-29
+      updated: 2025-06-30-19-15-25
       followers: 1553
+      likes: 17
+      comments: !c CxqAkZPLQnl8IgzPgACrZGVsYW5vc3BpZXO9RGVhZHJpYyBydWluZXMgYXJlIGFsd2F5cyBmdW4D
     - service: vk
       id: 2491
       published: 2025-06-30-18-28-36
+      updated: 2025-06-30-19-15-23
       followers: 1334
+      views: 17
     - service: tg
       id: 901
       published: 2025-06-30-18-28-41
+      updated: 2025-06-30-19-15-22
       followers: 760
+      likes: 21
+      views: 75
 2018-06-26-smoking-house:
   title: Smoking House
   titleRu: Дымящий дом
@@ -12337,23 +12345,23 @@
       id: DLfqR4asKM3
       mediaId: '17884759560321836'
       published: 2025-06-29-18-26-03
-      updated: 2025-06-30-18-28-07
+      updated: 2025-06-30-19-15-27
       followers: 1553
       likes: 66
     - service: vk
       id: 2490
       published: 2025-06-29-18-26-14
-      updated: 2025-06-30-18-28-08
+      updated: 2025-06-30-19-15-26
       followers: 1333
-      likes: 31
-      views: 339
+      likes: 32
+      views: 352
     - service: tg
       id: 900
       published: 2025-06-29-18-26-18
-      updated: 2025-06-30-18-28-06
+      updated: 2025-06-30-19-15-22
       followers: 760
-      likes: 55
-      views: 214
+      likes: 56
+      views: 233
       comments: !c iwuAkZPLQnl7/OzngACrS2F3YXpha3kyMjOgAw==
 2018-10-24-snowfall-over-the-ice-river:
   title: Snowfall Over the Ice River
