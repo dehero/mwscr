@@ -2569,7 +2569,7 @@
     - service: tg
       id: 672
       published: 2025-01-19-18-09-23
-      updated: 2025-06-23-05-21-30
+      updated: 2025-06-30-05-21-46
       followers: 655
       likes: 66
       views: 573
@@ -9290,18 +9290,18 @@
     - service: vk
       id: 2183
       published: 2025-03-09-18-08-24
-      updated: 2025-06-23-05-21-30
+      updated: 2025-06-30-05-21-45
       followers: 1176
       likes: 55
-      views: 493
+      views: 494
       reposts: 2
     - service: tg
       id: 739
       published: 2025-03-09-18-08-31
-      updated: 2025-06-23-05-21-26
+      updated: 2025-06-30-05-21-42
       followers: 693
       likes: 60
-      views: 606
+      views: 607
 2018-08-23-night-shipwreck:
   title: Night Shipwreck
   titleRu: Ночное кораблекрушение
@@ -11356,7 +11356,7 @@
     - service: tg
       id: 641
       published: 2024-12-29-18-00-34
-      updated: 2025-06-23-05-21-32
+      updated: 2025-06-30-05-21-47
       followers: 642
       likes: 68
       views: 603
@@ -12327,23 +12327,23 @@
       id: DLfqR4asKM3
       mediaId: '17884759560321836'
       published: 2025-06-29-18-26-03
-      updated: 2025-06-30-04-33-18
+      updated: 2025-06-30-05-21-39
       followers: 1553
-      likes: 49
+      likes: 51
     - service: vk
       id: 2490
       published: 2025-06-29-18-26-14
-      updated: 2025-06-30-04-33-17
+      updated: 2025-06-30-05-21-39
       followers: 1333
       likes: 23
-      views: 158
+      views: 165
     - service: tg
       id: 900
       published: 2025-06-29-18-26-18
-      updated: 2025-06-30-04-33-16
+      updated: 2025-06-30-05-21-38
       followers: 760
       likes: 47
-      views: 173
+      views: 176
 2018-10-24-snowfall-over-the-ice-river:
   title: Snowfall Over the Ice River
   titleRu: Снегопад над ледяной рекой
