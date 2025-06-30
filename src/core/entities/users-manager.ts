@@ -2,9 +2,7 @@ import { textToId } from '../utils/common-utils.js';
 import type { ListReaderEntry } from './list-manager.js';
 import { ListManager, ListManagerPatch } from './list-manager.js';
 import type { UserProfile } from './user.js';
-import { isUserEqual, isUserProfileEqual, mergeUserWith, User } from './user.js';
-
-const SKIP_USERNAME_AS_ID_REGEX = /^(club|id)\d+$/;
+import { isUserEqual, isUserNameReadable, isUserProfileEqual, mergeUserWith, User } from './user.js';
 
 export const UsersManagerPatch = ListManagerPatch<User>(User);
 export type UsersManagerPatch = ListManagerPatch<User>;
@@ -19,7 +17,7 @@ export abstract class UsersManager extends ListManager<User> {
 
     if (item.profiles) {
       for (const profile of item.profiles) {
-        if (profile.username && !SKIP_USERNAME_AS_ID_REGEX.test(profile.username)) {
+        if (profile.username && isUserNameReadable(profile.username)) {
           baseId = textToId(profile.username);
           break;
         }
