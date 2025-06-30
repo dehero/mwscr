@@ -78,15 +78,15 @@ export type PostsManagerPatch = InferOutput<typeof PostsManagerPatch>;
 
 export interface PostsManagerDescriptor {
   title: string;
-  label: string;
+  itemsUnit: string;
   actions: PostAction[];
 }
 
 export const postsManagerDescriptors = Object.freeze<Record<PostsManagerName, PostsManagerDescriptor>>({
-  posts: { title: 'Posts', label: 'primary', actions: ['locate', 'precise'] },
-  extras: { title: 'Extras', label: 'extra', actions: ['precise'] },
-  drafts: { title: 'Drafts', label: 'pending', actions: ['edit', 'merge'] },
-  rejects: { title: 'Rejects', label: 'rejected', actions: ['edit', 'merge'] },
+  posts: { title: 'Posts', itemsUnit: 'posts', actions: ['locate', 'precise'] },
+  extras: { title: 'Extras', itemsUnit: 'extras', actions: ['precise'] },
+  drafts: { title: 'Drafts', itemsUnit: 'drafts', actions: ['edit', 'merge'] },
+  rejects: { title: 'Rejects', itemsUnit: 'rejects', actions: ['edit', 'merge'] },
 });
 
 export function isReject(post: Post, errors?: string[]): post is Reject {
