@@ -7,6 +7,7 @@ import type { Option } from './option.js';
 import { ImageResourceUrl } from './resource.js';
 
 const USER_NAME_IS_RU_REGEX = /[ёа-я]/i;
+const USER_NAME_SKIP_AS_ID_REGEX = /^(__deleted__.+|club\d+|id\d+)$/;
 
 export const USER_DEFAULT_AUTHOR = 'dehero';
 export const USER_UNKNOWN = 'anonimous';
@@ -66,6 +67,15 @@ export function getUserEntryTitle(entry: UserEntry) {
       if (name) {
         result = name;
         break;
+      }
+    }
+
+    if (!result) {
+      for (const profile of entry[1].profiles) {
+        if (profile.username && isUserNameReadable(profile.username)) {
+          result = profile.username;
+          break;
+        }
       }
     }
   }
@@ -204,4 +214,8 @@ export function setUserProfileFollowing(profile: UserProfile, value: boolean | D
     const newValue = [...asArray(profile.unfollowed), new Date()];
     profile.unfollowed = newValue.length > 1 ? newValue : newValue[0];
   }
+}
+
+export function isUserNameReadable(username: string) {
+  return !USER_NAME_SKIP_AS_ID_REGEX.test(username);
 }
