@@ -126,7 +126,7 @@ export const DataPatchEditor: Component<DataPatchEditorProps> = (props) => {
         }),
       ),
       {
-        label: 'Users',
+        label: 'Members',
         value: dataManager.users.patchSize,
         link:
           usersRoute.createUrl({ status: ANY_OPTION.value }) + createDetachedDialogFragment('contributing', 'patch'),

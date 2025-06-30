@@ -284,7 +284,7 @@ export const PostDialog: Component<PostDialogProps> = (props) => {
   );
 
   const loadingResources = () =>
-    [postEntry.loading && 'Post', locationOptions.loading && 'Locations', userOptions.loading && 'Users'].filter(
+    [postEntry.loading && 'Post', locationOptions.loading && 'Locations', userOptions.loading && 'Members'].filter(
       (value): value is string => typeof value === 'string',
     );
 

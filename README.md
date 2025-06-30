@@ -24,7 +24,7 @@ game from [Bethesda Softworks](https://elderscrolls.bethesda.net/en/morrowind). 
 - [Extras](https://mwscr.dehero.site/extras/)
 - [Drafts](https://mwscr.dehero.site/drafts/)
 - [Rejects](https://mwscr.dehero.site/rejects/)
-- [Users](https://mwscr.dehero.site/users/)
+- [Members](https://mwscr.dehero.site/users/)
 
 If you want to participate in the project, please read the [contributing guidelines](CONTRIBUTING.md).
 
@@ -73,7 +73,7 @@ Information about main [`data/posts`](data/posts), extra [`data/extras`](data/ex
 original works, due to their large size, are represented by links to the `store:` external storage, which only the
 project administrator has access to. Other files:
 
-- [`data/users.yml`](data/users.yml) - information about project contributors in `YAML` format;
+- [`data/users.yml`](data/users.yml) - information about project members in `YAML` format;
 - [`data/locations.yml`](data/locations.yml) - list of game locations in `YAML` format.
 
 ### Additional files
