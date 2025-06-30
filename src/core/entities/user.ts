@@ -170,13 +170,17 @@ export function mergeUserProfiles(
 }
 
 export function isUserProfileUpdatable(profile: UserProfile): boolean {
+  if (profile.deleted) {
+    return false;
+  }
+
   if (!profile.updated) {
     return true;
   }
 
   const daysSinceLastUpdate = getDaysPassed(profile.updated);
 
-  return daysSinceLastUpdate >= 7;
+  return daysSinceLastUpdate >= 28;
 }
 
 export function isUserProfileFollowing(profile: UserProfile) {

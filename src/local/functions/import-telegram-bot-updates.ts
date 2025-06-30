@@ -105,6 +105,7 @@ async function processMessage(message: TelegramBot.Message) {
           service: 'tg',
           id: message.from.id.toString(),
           username: message.from.username,
+          type: message.from.is_bot ? 'bot' : undefined,
           name: [message.from.first_name, message.from.last_name].filter(Boolean).join(' ') || undefined,
           botChatId: message.chat.id,
         },

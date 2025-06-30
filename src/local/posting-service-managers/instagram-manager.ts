@@ -411,7 +411,7 @@ export class InstagramManager extends Instagram implements PostingServiceManager
   }
 
   private async getPostComments(mediaId: string): Promise<PublicationComment[] | undefined> {
-    const { ig, fetcher } = await this.connect();
+    const { ig } = await this.connect();
     const comments: PublicationComment[] = [];
 
     // Get the comments for the media
@@ -422,7 +422,6 @@ export class InstagramManager extends Instagram implements PostingServiceManager
       CommentField.TIMESTAMP,
       CommentField.USERNAME,
       CommentField.USER,
-      CommentField.FROM,
       CommentField.TEXT,
     );
     const response = await request.execute();
@@ -434,34 +433,10 @@ export class InstagramManager extends Instagram implements PostingServiceManager
         continue;
       }
 
-      let user;
-      let avatar;
-
-      try {
-        user = await this.fetchWithDelay(() => fetcher.fetchUserV2(item.username!));
-        avatar = user.profile_pic_url_hd
-          ? await saveUserAvatar(
-              user.profile_pic_url_hd,
-              `${this.id}-${getRevisionHash(posix.basename(new URL(user.profile_pic_url_hd).pathname))}.jpg`,
-            )
-          : undefined;
-      } catch {
-        // Do nothing, too often requests may be blocked for a meanwhile
-      }
-
-      const [author] = await users.mergeOrAddItem({
-        profiles: [
-          {
-            service: this.id,
-            id: user?.id,
-            username: item.username,
-            deleted: item.username.startsWith(DELETED_USERNAME_PREFIX) || undefined,
-            avatar,
-            name: user?.full_name || undefined,
-            updated: new Date(),
-          },
-        ],
-      });
+      const [author] = await users.findOrAddItemByProfile(
+        { service: this.id, username: item.username },
+        (profile, isExisting) => (!isExisting ? this.updateUserProfile(profile) : undefined),
+      );
 
       const replies: PublicationComment[] = [];
       const mention = `@${item.username}`;
@@ -475,7 +450,6 @@ export class InstagramManager extends Instagram implements PostingServiceManager
           CommentField.TIMESTAMP,
           CommentField.USER,
           CommentField.USERNAME,
-          CommentField.FROM,
           CommentField.TEXT,
         );
         const response = await request.execute();
@@ -488,34 +462,10 @@ export class InstagramManager extends Instagram implements PostingServiceManager
 
           const datetime = new Date(childItem.timestamp);
 
-          let user;
-          let avatar;
-
-          try {
-            user = await this.fetchWithDelay(() => fetcher.fetchUserV2(childItem.username!));
-            avatar = user.profile_pic_url_hd
-              ? await saveUserAvatar(
-                  user.profile_pic_url_hd,
-                  `${this.id}-${getRevisionHash(posix.basename(new URL(user.profile_pic_url_hd).pathname))}.jpg`,
-                )
-              : undefined;
-          } catch {
-            // Do nothing, too often requests may be blocked for a meanwhile
-          }
-
-          const [author] = await users.mergeOrAddItem({
-            profiles: [
-              {
-                service: this.id,
-                id: user?.id,
-                username: childItem.username,
-                deleted: childItem.username.startsWith(DELETED_USERNAME_PREFIX) || undefined,
-                avatar,
-                name: user?.full_name || undefined,
-                updated: new Date(),
-              },
-            ],
-          });
+          const [author] = await users.findOrAddItemByProfile(
+            { service: this.id, username: childItem.username },
+            (profile, isExisting) => (!isExisting ? this.updateUserProfile(profile) : undefined),
+          );
 
           let text = childItem.text;
           if (text.startsWith(mention)) {

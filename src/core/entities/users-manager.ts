@@ -1,7 +1,8 @@
 import { textToId } from '../utils/common-utils.js';
 import type { ListReaderEntry } from './list-manager.js';
 import { ListManager, ListManagerPatch } from './list-manager.js';
-import { isUserEqual, mergeUserWith, User } from './user.js';
+import type { UserProfile } from './user.js';
+import { isUserEqual, isUserProfileEqual, mergeUserWith, User } from './user.js';
 
 const SKIP_USERNAME_AS_ID_REGEX = /^(club|id)\d+$/;
 
@@ -47,6 +48,22 @@ export abstract class UsersManager extends ListManager<User> {
     }
 
     return result;
+  }
+
+  async findOrAddItemByProfile(
+    profile: UserProfile,
+    fillProfile: (profile: UserProfile, isExisting: boolean) => void | Promise<void>,
+  ): Promise<ListReaderEntry<User>> {
+    for await (const entry of this.yieldAllEntries(true)) {
+      const existingProfile = entry[1].profiles?.find((p) => isUserProfileEqual(p, profile));
+      if (existingProfile) {
+        await fillProfile(existingProfile, true);
+        return entry;
+      }
+    }
+
+    await fillProfile(profile, false);
+    return this.addItem({ profiles: [profile] });
   }
 
   async mergeOrAddItem(item: User): Promise<ListReaderEntry<User>> {

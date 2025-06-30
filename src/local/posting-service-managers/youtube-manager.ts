@@ -82,33 +82,19 @@ export class YouTubeManager extends YouTube implements PostingServiceManager {
       return;
     }
 
-    const authorChannelSnippet = snippet.authorChannelId?.value
-      ? (await this.getChannel(snippet.authorChannelId.value))?.snippet
-      : {};
-
-    const url =
-      authorChannelSnippet?.thumbnails?.high?.url ?? authorChannelSnippet?.thumbnails?.default?.url ?? undefined;
-
-    const avatar = await saveUserAvatar(url, `${this.id}-${getRevisionHash(url ?? '')}.jpg`);
-
-    const text = snippet.textDisplay;
-
-    const [author] = await users.mergeOrAddItem({
-      profiles: [
-        {
-          service: this.id,
-          id: snippet.authorChannelId?.value || undefined,
-          username: snippet.authorDisplayName,
-          name: authorChannelSnippet?.title ?? undefined,
-          avatar,
-          updated: new Date(),
-        },
-      ],
-    });
-
-    const datetime = new Date(snippet.publishedAt);
+    const [author] = await users.findOrAddItemByProfile(
+      {
+        service: this.id,
+        id: snippet.authorChannelId?.value || undefined,
+        username: snippet.authorDisplayName,
+      },
+      (profile, isExisting) => (!isExisting ? this.updateUserProfile(profile) : undefined),
+    );
 
     await users.save();
+
+    const text = snippet.textDisplay;
+    const datetime = new Date(snippet.publishedAt);
 
     return { datetime, author, text };
   }
@@ -161,13 +147,17 @@ export class YouTubeManager extends YouTube implements PostingServiceManager {
       throw new Error(`Cannot find user profile "${profile.id || profile.username}".`);
     }
 
-    const url = channel.snippet?.thumbnails?.high?.url ?? channel.snippet?.thumbnails?.default?.url ?? undefined;
+    await this.fillUserProfile(channel, profile);
+  }
+
+  private async fillUserProfile(entity: youtube_v3.Schema$Channel, profile: UserProfile) {
+    const url = entity.snippet?.thumbnails?.high?.url ?? entity.snippet?.thumbnails?.default?.url ?? undefined;
 
     const avatar = await saveUserAvatar(url, `${this.id}-${getRevisionHash(url ?? '')}.jpg`);
 
-    profile.id = channel.id ?? undefined;
-    profile.username = channel.snippet?.customUrl ?? profile.username;
-    profile.name = channel.snippet?.title ?? undefined;
+    profile.id = entity.id ?? undefined;
+    profile.username = entity.snippet?.customUrl ?? profile.username;
+    profile.name = entity.snippet?.title ?? undefined;
     profile.avatar = avatar;
     profile.updated = new Date();
   }

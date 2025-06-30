@@ -21,12 +21,7 @@ import type { Publication, PublicationComment } from '../../core/entities/public
 import { parseResourceUrl, RESOURCE_MISSING_IMAGE } from '../../core/entities/resource.js';
 import type { PostingServiceManager } from '../../core/entities/service.js';
 import type { UserProfile, UserProfileType } from '../../core/entities/user.js';
-import {
-  isUserEqual,
-  isUserProfileEqual,
-  setUserProfileFollowing,
-  USER_DEFAULT_AUTHOR,
-} from '../../core/entities/user.js';
+import { setUserProfileFollowing, USER_DEFAULT_AUTHOR } from '../../core/entities/user.js';
 import { site } from '../../core/services/site.js';
 import type { TelegramPublication } from '../../core/services/telegram.js';
 import { Telegram, TELEGRAM_CHANNEL } from '../../core/services/telegram.js';
@@ -257,52 +252,20 @@ export class TelegramManager extends Telegram implements PostingServiceManager {
     const chat = chatId && result.chats.find((chat) => chat.id.equals(chatId));
     const channel = channelId && result.chats.find((chat) => chat.id.equals(channelId));
 
-    const id = chat?.id ?? channel?.id ?? user?.id;
+    const entity = chat ?? channel ?? user;
 
-    if (
-      !id ||
-      (user && !(user instanceof Api.User)) ||
-      (chat && !(chat instanceof Api.Chat)) ||
-      (channel && !(channel instanceof Api.Channel))
-    ) {
+    if (!entity || !(entity instanceof Api.User || entity instanceof Api.Chat || entity instanceof Api.Channel)) {
       return;
     }
 
-    const photo = chat?.photo ?? channel?.photo ?? user?.photo;
-
-    const avatar =
-      photo && !(photo instanceof Api.UserProfilePhotoEmpty) && !(photo instanceof Api.ChatPhotoEmpty)
-        ? await saveUserAvatar(async () => {
-            const { tg } = await this.connect();
-            const data = await tg.downloadProfilePhoto(id, { isBig: true });
-
-            return Buffer.isBuffer(data) ? data : undefined;
-          }, `${this.id}-${photo.photoId.toString()}.jpg`)
-        : undefined;
-
-    const name =
-      !user?.deleted && !chat?.deactivated
-        ? chat?.title ||
-          channel?.title ||
-          [user?.firstName, user?.lastName].filter((item) => Boolean(item)).join(' ') ||
-          undefined
-        : undefined;
-
-    const [author] = await users.mergeOrAddItem({
-      profiles: [
-        {
-          service: this.id,
-          id: id.toString(),
-          accessHash: channel?.accessHash?.toString() || user?.accessHash?.toString() || undefined,
-          username: channel?.username || user?.username || undefined,
-          type: channel ? 'channel' : chat ? 'chat' : user?.bot ? 'bot' : undefined,
-          avatar,
-          name,
-          deleted: (chat?.deactivated ?? user?.deleted) || undefined,
-          updated: new Date(),
-        },
-      ],
-    });
+    const [author] = await users.findOrAddItemByProfile(
+      {
+        service: this.id,
+        id: entity.id.toString(),
+        username: 'username' in entity ? entity.username : undefined,
+      },
+      (profile) => this.fillUserProfile(entity, profile),
+    );
 
     await users.save();
 
@@ -591,49 +554,21 @@ export class TelegramManager extends Telegram implements PostingServiceManager {
       }
       const followed = new Date(participant.date * 1000);
 
-      const searchedProfile: UserProfile = { service: this.id, id: user.id.toString() };
-      const searchedUser = { profiles: [searchedProfile] };
+      await users.findOrAddItemByProfile(
+        {
+          service: this.id,
+          id: user.id.toString() || undefined,
+          username: user.username || undefined,
+          followed,
+        },
+        (profile, isExisting) => {
+          if (isExisting) {
+            setUserProfileFollowing(profile, followed);
+          }
 
-      const entry = await users.findEntry((item) => isUserEqual(item, searchedUser));
-
-      if (entry?.[1]) {
-        const existingProfile = entry[1].profiles?.find((p) => isUserProfileEqual(p, searchedProfile));
-
-        if (existingProfile) {
-          setUserProfileFollowing(existingProfile, followed);
-        }
-      } else {
-        const avatar =
-          user.photo && !(user.photo instanceof Api.UserProfilePhotoEmpty)
-            ? await saveUserAvatar(async () => {
-                const data = await tg.downloadProfilePhoto(user.id, { isBig: true });
-
-                return Buffer.isBuffer(data) ? data : undefined;
-              }, `${this.id}-${user.photo.photoId.toString()}.jpg`)
-            : undefined;
-
-        const deleted = user.deleted || undefined;
-
-        const name = !deleted
-          ? [user.firstName, user.lastName].filter((item) => Boolean(item)).join(' ') || undefined
-          : undefined;
-
-        await users.addItem({
-          profiles: [
-            {
-              service: this.id,
-              id: user.id.toString() || undefined,
-              accessHash: user.accessHash?.toString() || undefined,
-              username: user.username || undefined,
-              deleted,
-              name,
-              avatar,
-              updated: new Date(),
-              followed,
-            },
-          ],
-        });
-      }
+          return this.fillUserProfile(user, profile);
+        },
+      );
     }
 
     await users.save();
@@ -745,81 +680,88 @@ export class TelegramManager extends Telegram implements PostingServiceManager {
       throw new Error(`Cannot find user profile id and accessHash or username.`);
     }
 
-    let chat;
-    let channel;
-    let user;
-    let type: UserProfileType | undefined;
+    let entity;
 
     const { tg } = await this.connect();
 
     if (!profile.type || profile.type === 'bot') {
       try {
         if (profile.id && profile.accessHash) {
-          user = await tg.getEntity(
+          entity = await tg.getEntity(
             new Api.InputPeerUser({ userId: BigInteger(profile.id), accessHash: BigInteger(profile.accessHash) }),
           );
         } else if (profile.username) {
-          user = await tg.getEntity(profile.username);
+          entity = await tg.getEntity(profile.username);
         }
       } catch {
         // Do nothing, entity is not a user
       }
     }
 
-    if (!user) {
+    if (!entity) {
       if (profile.id && profile.accessHash) {
-        channel = await tg.getEntity(
+        entity = await tg.getEntity(
           new Api.InputPeerChannel({
             channelId: BigInteger(profile.id),
             accessHash: BigInteger(profile.accessHash),
           }),
         );
       } else if (profile.username) {
-        channel = await tg.getEntity(profile.username);
+        entity = await tg.getEntity(profile.username);
       }
 
-      if (channel) {
-        type = 'channel';
-      } else {
+      if (!entity) {
         if (profile.id) {
-          chat = await tg.getEntity(
+          entity = await tg.getEntity(
             new Api.InputPeerChat({
               chatId: BigInteger(profile.id),
             }),
           );
         } else if (profile.username) {
-          chat = await tg.getEntity(profile.username);
-        }
-
-        if (chat) {
-          type = 'chat';
+          entity = await tg.getEntity(profile.username);
         }
       }
     }
 
-    if (
-      (user && !(user instanceof Api.User)) ||
-      (chat && !(chat instanceof Api.Chat)) ||
-      (channel && !(channel instanceof Api.Channel))
-    ) {
+    if (!entity || !(entity instanceof Api.User || entity instanceof Api.Chat || entity instanceof Api.Channel)) {
       return;
     }
 
-    if (user?.bot) {
-      type = 'bot';
-    }
+    await this.fillUserProfile(entity, profile);
+  }
 
-    const id = chat?.id ?? channel?.id ?? user?.id;
-    const photo = chat?.photo ?? channel?.photo ?? user?.photo;
+  private async fillUserProfile(entity: Api.User | Api.Channel | Api.Chat, profile: UserProfile) {
+    const id = entity.id;
+    const photo = entity.photo;
 
     const avatar =
-      id && photo && !(photo instanceof Api.UserProfilePhotoEmpty) && !(photo instanceof Api.ChatPhotoEmpty)
+      photo && !(photo instanceof Api.UserProfilePhotoEmpty) && !(photo instanceof Api.ChatPhotoEmpty)
         ? await saveUserAvatar(async () => {
+            const { tg } = await this.connect();
             const data = await tg.downloadProfilePhoto(id, { isBig: true });
 
             return Buffer.isBuffer(data) ? data : undefined;
           }, `${this.id}-${photo.photoId.toString()}.jpg`)
         : undefined;
+
+    let type: UserProfileType | undefined;
+    let chat: Api.Chat | undefined;
+    let channel: Api.Channel | undefined;
+    let user: Api.User | undefined;
+
+    if (entity instanceof Api.Channel) {
+      type = 'channel';
+      channel = entity;
+    } else if (entity instanceof Api.Chat) {
+      type = 'chat';
+      chat = entity;
+    } else {
+      user = entity;
+    }
+
+    if (user?.bot) {
+      type = 'bot';
+    }
 
     const deleted = (chat?.deactivated ?? user?.deleted) || undefined;
 
