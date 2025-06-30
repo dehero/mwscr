@@ -142,9 +142,9 @@ export const UserPage = (): JSX.Element => {
                         : undefined,
                     })),
                     {
-                      label: 'Inbox',
-                      value: userInfo().authored?.inbox,
-                      link: postsRoute.createUrl({ managerName: 'inbox', author: id() }),
+                      label: 'Drafts',
+                      value: userInfo().authored?.drafts,
+                      link: postsRoute.createUrl({ managerName: 'drafts', author: id() }),
                     },
                     {
                       label: 'Trash',

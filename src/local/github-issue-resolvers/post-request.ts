@@ -11,7 +11,7 @@ import type { RequestProposal } from '../../core/entities/posts-manager.js';
 import { createRequestProposalId } from '../../core/entities/posts-manager.js';
 import { safeParseSchema } from '../../core/entities/schema.js';
 import { label } from '../../core/github-issues/post-request.js';
-import { inbox } from '../data-managers/posts.js';
+import { drafts } from '../data-managers/posts.js';
 import { extractIssueFieldValue, extractIssueUser } from './utils/issue-utils.js';
 
 export * from '../../core/github-issues/post-request.js';
@@ -30,8 +30,8 @@ export async function resolve(issue: GithubIssue) {
   };
 
   const id = createRequestProposalId(request);
-  await inbox.addItem(request, id);
-  await inbox.save();
+  await drafts.addItem(request, id);
+  await drafts.save();
 
   console.info(`Created post request "${id}".`);
 }

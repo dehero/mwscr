@@ -21,7 +21,7 @@ convenient way:
   Issues.
 - [Send to administrator](mailto:dehero@outlook.com?subject=mwscr) via email.
 
-Proposed works will be automatically checked and will go to [inbox](https://mwscr.dehero.site/inbox/). After
+Proposed works will be automatically checked and will go to [drafts](https://mwscr.dehero.site/drafts/). After
 [editing](#editing), your works will be published or rejected.
 
 > [!WARNING]  
@@ -46,7 +46,7 @@ way:
 - Write a comment or private message to the administrator in any of the project accounts.
 - [Send to administrator](mailto:dehero@outlook.com?subject=mwscr) via email.
 
-Your request will be added to [inbox](https://mwscr.dehero.site/inbox/) and will remain there, waiting for the
+Your request will be added to [drafts](https://mwscr.dehero.site/drafts/) and will remain there, waiting for the
 appropriate material.
 
 > [!WARNING]  
@@ -265,7 +265,7 @@ set playPath to 0
 ## Editing
 
 Editing is performed by the project administrator. You can follow the process on the pages of the
-[Inbox](https://mwscr.dehero.site/inbox/) section. If you have any questions, write to
+[Drafts](https://mwscr.dehero.site/drafts/) section. If you have any questions, write to
 [administrator](https://mwscr.dehero.site/users/dehero/) in any convenient way.
 
 ### Search for violations
@@ -314,8 +314,8 @@ dehero.2024-02-17-10-53-36.1.png
 dehero.2024-02-17-10-53-36.2.png
 ```
 
-Processed versions will be added to [inbox](https://mwscr.dehero.site/inbox/) the next time files are imported from the
-storage.
+Processed versions will be added to [drafts](https://mwscr.dehero.site/drafts/) the next time files are imported from
+the storage.
 
 ### Preparing a post
 

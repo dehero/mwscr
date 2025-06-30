@@ -43,8 +43,8 @@ export const DraftProposal = object({ ...Post.entries, content: PostContent, aut
 export const RequestProposal = object({ ...Post.entries, request: PostRequest });
 
 export const TrashItem = union([ViolatingProposal, RejectedProposal]);
-export const InboxItem = union([DraftProposal, RequestProposal]);
-export const TrashOrInboxItem = union([TrashItem, InboxItem]);
+export const Draft = union([DraftProposal, RequestProposal]);
+export const TrashOrDraft = union([TrashItem, Draft]);
 
 export const PublishablePost = intersect([
   object({
@@ -63,11 +63,11 @@ export type DraftProposal = InferOutput<typeof DraftProposal>;
 export type RequestProposal = InferOutput<typeof RequestProposal>;
 
 export type TrashItem = InferOutput<typeof TrashItem>;
-export type InboxItem = InferOutput<typeof InboxItem>;
-export type TrashOrInboxItem = InferOutput<typeof TrashOrInboxItem>;
+export type Draft = InferOutput<typeof Draft>;
+export type TrashOrDraft = InferOutput<typeof TrashOrDraft>;
 export type PublishablePost = InferOutput<typeof PublishablePost>;
 
-export const PostsManagerName = picklist(['posts', 'extras', 'inbox', 'trash']);
+export const PostsManagerName = picklist(['posts', 'extras', 'drafts', 'trash']);
 export type PostsManagerName = InferOutput<typeof PostsManagerName>;
 
 export const PublicPostsManagerName = picklist(['posts', 'extras']);
@@ -85,7 +85,7 @@ export interface PostsManagerDescriptor {
 export const postsManagerDescriptors = Object.freeze<Record<PostsManagerName, PostsManagerDescriptor>>({
   posts: { title: 'Posts', label: 'primary', actions: ['locate', 'precise'] },
   extras: { title: 'Extras', label: 'extra', actions: ['precise'] },
-  inbox: { title: 'Inbox', label: 'pending', actions: ['edit', 'merge'] },
+  drafts: { title: 'Drafts', label: 'pending', actions: ['edit', 'merge'] },
   trash: { title: 'Trash', label: 'rejected', actions: ['edit', 'merge'] },
 });
 
@@ -124,7 +124,7 @@ export function getProposedPostChunkName(id: string) {
   return id.split('.')[1]?.split('-')[0] ?? new Date().getFullYear().toString();
 }
 
-export function createInboxItemId(creator: string | string[], date: Date, title: string, hash?: string): string {
+export function createDraftId(creator: string | string[], date: Date, title: string, hash?: string): string {
   const firstCreator = asArray(creator)[0];
   return `${firstCreator}.${dateToString(date)}-${textToId(title)}${hash ? `-${hash}` : ''}`;
 }
@@ -132,7 +132,7 @@ export function createInboxItemId(creator: string | string[], date: Date, title:
 export function createRequestProposalId(request: RequestProposal) {
   const hash = getRevisionHash(request.request.text);
 
-  return createInboxItemId(request.request.user, request.request.date, hash);
+  return createDraftId(request.request.user, request.request.date, hash);
 }
 
 export function createPostPath(managerName: PostsManagerName, id: string) {
