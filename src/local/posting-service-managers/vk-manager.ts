@@ -1,4 +1,5 @@
 import 'dotenv/config';
+import { posix } from 'path/posix';
 import type { Objects, Responses } from 'vk-io';
 import { VK } from 'vk-io';
 import { markdownToText } from '../../core/entities/markdown.js';
@@ -495,7 +496,7 @@ export class VKManager extends VKService implements PostingServiceManager {
       : undefined;
     const avatar = await saveUserAvatar(
       entity.photo_max_orig,
-      `${this.id}-${getRevisionHash(entity.photo_max_orig)}.jpg`,
+      `${this.id}-${getRevisionHash(posix.basename(new URL(entity.photo_max_orig).pathname))}.jpg`,
     );
 
     profile.id = entity.id.toString();
