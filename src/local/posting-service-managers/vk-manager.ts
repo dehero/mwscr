@@ -13,13 +13,8 @@ import {
 import type { Publication, PublicationComment } from '../../core/entities/publication.js';
 import { RESOURCE_MISSING_IMAGE } from '../../core/entities/resource.js';
 import type { PostingServiceManager } from '../../core/entities/service.js';
-import type { UserProfile, UserProfileType } from '../../core/entities/user.js';
-import {
-  isUserEqual,
-  isUserProfileEqual,
-  setUserProfileFollowing,
-  USER_DEFAULT_AUTHOR,
-} from '../../core/entities/user.js';
+import type { UserProfile } from '../../core/entities/user.js';
+import { setUserProfileFollowing, USER_DEFAULT_AUTHOR } from '../../core/entities/user.js';
 import { site } from '../../core/services/site.js';
 import type { VKPublication } from '../../core/services/vk.js';
 import { VK as VKService, VK_GROUP_ID, VK_GROUP_NAME } from '../../core/services/vk.js';
@@ -270,33 +265,18 @@ export class VKManager extends VKService implements PostingServiceManager {
   }
 
   private async getCommentInfo(message: Objects.WallWallComment, result: Responses.WallGetCommentExtendedResponse) {
-    const user =
+    const entity =
       result.profiles.find((profile) => profile.id === message.from_id) ||
       result.groups.find((group) => group.id === -(message.from_id || 0));
 
-    if (!user || !message.date || !message.text) {
+    if (!entity || !message.date || !message.text) {
       return;
     }
 
-    const name = !user.deactivated
-      ? user.name || [user.first_name, user.last_name].filter((item) => Boolean(item)).join(' ') || undefined
-      : undefined;
-    const avatar = await saveUserAvatar(user.photo_max_orig, `${this.id}-${getRevisionHash(user.photo_max_orig)}.jpg`);
-
-    const [author] = await users.mergeOrAddItem({
-      profiles: [
-        {
-          service: this.id,
-          id: user.id.toString(),
-          username: user.screen_name,
-          type: message.from_id < 0 ? 'channel' : undefined,
-          avatar,
-          name,
-          deleted: Boolean(user.deactivated) || undefined,
-          updated: new Date(),
-        },
-      ],
-    });
+    const [author] = await users.findOrAddItemByProfile(
+      { service: this.id, id: entity.id.toString(), username: entity.screen_name },
+      (profile) => this.fillUserProfile(entity, profile),
+    );
 
     const datetime = new Date(message.date * 1000);
     const text = message.text.replace(/\[[^|]+\|([^\]]+)\]/gm, '$1').trim();
@@ -486,40 +466,42 @@ export class VKManager extends VKService implements PostingServiceManager {
       throw new Error(`Cannot find user profile id or username.`);
     }
 
-    let type: UserProfileType | undefined;
-    let user: Objects.UsersUserFull | Objects.GroupsGroupFull | undefined;
+    let entity;
 
     const { vk } = await this.connect();
 
     if (!profile.type) {
-      [user] = await vk.api.users.get({ user_ids: [idOrUsername], fields: ['screen_name', 'photo_max_orig'] });
-      type = undefined;
+      [entity] = await vk.api.users.get({ user_ids: [idOrUsername], fields: ['screen_name', 'photo_max_orig'] });
     }
 
-    if (!user) {
+    if (!entity) {
       const response = await vk.api.groups.getById({
         group_id: idOrUsername,
         fields: ['screen_name', 'photo_max_orig'],
       });
-      user = response.groups[0];
-      if (user) {
-        type = 'channel';
-      }
+      entity = response.groups[0];
     }
 
-    if (!user) {
+    if (!entity) {
       throw new Error(`Cannot find user profile "${idOrUsername}".`);
     }
 
-    const name = !user.deactivated
-      ? user.name || [user.first_name, user.last_name].filter((item) => Boolean(item)).join(' ') || undefined
-      : undefined;
-    const avatar = await saveUserAvatar(user.photo_max_orig, `${this.id}-${getRevisionHash(user.photo_max_orig)}.jpg`);
+    await this.fillUserProfile(entity, profile);
+  }
 
-    profile.id = user.id.toString();
-    profile.username = user.screen_name;
-    profile.type = type;
-    profile.deleted = Boolean(user.deactivated) || undefined;
+  private async fillUserProfile(entity: Objects.UsersUserFull | Objects.GroupsGroupFull, profile: UserProfile) {
+    const name = !entity.deactivated
+      ? entity.name || [entity.first_name, entity.last_name].filter((item) => Boolean(item)).join(' ') || undefined
+      : undefined;
+    const avatar = await saveUserAvatar(
+      entity.photo_max_orig,
+      `${this.id}-${getRevisionHash(entity.photo_max_orig)}.jpg`,
+    );
+
+    profile.id = entity.id.toString();
+    profile.username = entity.screen_name;
+    profile.type = entity.name ? 'channel' : undefined;
+    profile.deleted = Boolean(entity.deactivated) || undefined;
     profile.name = name;
     profile.avatar = avatar;
     profile.updated = new Date();
@@ -539,21 +521,11 @@ export class VKManager extends VKService implements PostingServiceManager {
       const response = await vk.api.groups.getMembers({ group_id: VK_GROUP_NAME, count, offset });
 
       for (const item of response.items) {
-        const profile: UserProfile = { service: this.id, id: item.toString(), followed: new Date() };
-        const user = { profiles: [profile] };
-
-        const entry = await users.findEntry((item) => isUserEqual(item, user));
-
-        if (entry?.[1]) {
-          const existingProfile = entry[1].profiles?.find((p) => isUserProfileEqual(p, profile));
-
-          if (existingProfile) {
-            setUserProfileFollowing(existingProfile, true);
-          }
-        } else {
-          await this.updateUserProfile(profile);
-          await users.addItem(user);
-        }
+        await users.findOrAddItemByProfile(
+          { service: this.id, id: item.toString(), followed: new Date() },
+          (profile, isExisting) =>
+            isExisting ? setUserProfileFollowing(profile, true) : this.updateUserProfile(profile),
+        );
 
         await users.save();
       }
