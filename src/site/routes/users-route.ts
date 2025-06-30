@@ -8,8 +8,8 @@ export interface UsersRouteParams extends SiteRouteParams, UsersPageSearchParams
 export const usersRoute: SiteRoute<UsersRouteParams, UsersPageData> = {
   path: '/users',
   meta: () => ({
-    title: 'Users',
-    description: 'List of users of Morrowind Screenshots project.',
+    title: 'Members',
+    description: 'List of members of Morrowind Screenshots project.',
   }),
   createUrl: (params) => {
     const searchParams = new URLSearchParams(
