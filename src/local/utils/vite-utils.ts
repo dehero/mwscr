@@ -32,7 +32,7 @@ export async function getConstantRedirects() {
       });
   }
 
-  // TODO: redirect deleted drafts to trash
+  // TODO: redirect deleted drafts to rejects
 
   return redirects;
 }

@@ -1,10 +1,10 @@
 import 'dotenv/config';
-import { exchangeDraftsAndTrash } from './functions/exchange-drafts-and-trash.js';
+import { exchangeDraftsAndRejects } from './functions/exchange-drafts-and-rejects.js';
 import { maintainPreviews } from './functions/maintain-previews.js';
 import { resolveGithubIssue } from './functions/resolve-github-issue.js';
 
 await resolveGithubIssue();
 
-await exchangeDraftsAndTrash();
+await exchangeDraftsAndRejects();
 
 await maintainPreviews();

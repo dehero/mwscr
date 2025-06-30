@@ -271,7 +271,7 @@ Editing is performed by the project administrator. You can follow the process on
 ### Search for violations
 
 The content of the post is manually checked, and if any violations are found, the post is moved to
-[trash](https://mwscr.dehero.site/trash/). Possible violations:
+[rejects](https://mwscr.dehero.site/rejects/). Possible violations:
 
 - Inappropriate content
 - Graphic issues
@@ -400,4 +400,4 @@ A work will receive the mark given in the title of the column if:
 1. All indicators marked `+` are completed;
 2. At least one of the indicators marked `±` is filled in.
 
-If the selected mark is not publishable, such work is moved to [trash](https://mwscr.dehero.site/trash/).
+If the selected mark is not publishable, such work is moved to [rejects](https://mwscr.dehero.site/rejects/).

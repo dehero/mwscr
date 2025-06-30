@@ -138,9 +138,9 @@ export const HomePage = (): JSX.Element => {
                       link: postsRoute.createUrl({ managerName: 'drafts' }),
                     },
                     {
-                      label: 'Trash',
-                      value: data().totalPosts.trash,
-                      link: postsRoute.createUrl({ managerName: 'trash' }),
+                      label: 'Rejects',
+                      value: data().totalPosts.rejects,
+                      link: postsRoute.createUrl({ managerName: 'rejects' }),
                     },
                   ]}
                 />
