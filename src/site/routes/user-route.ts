@@ -10,7 +10,7 @@ export const userRoute: SiteRoute<UserRouteParams, UserPageData> = {
   path: '/users/@id',
   meta: (params, data) => ({
     title: data?.title || params.id,
-    description: `Information, posts, requests and statistics of "${
+    description: `Information, profiles, comments, posts, requests and statistics of "${
       data?.title || params.id
     }" in Morrowind Screenshots project.`,
   }),

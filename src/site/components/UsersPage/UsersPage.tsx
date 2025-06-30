@@ -168,7 +168,7 @@ export const UsersPage = (): JSX.Element => {
                 Clear
               </Button>
 
-              <Toast message="Searching Users" show={isSearching()} loading />
+              <Toast message="Searching Members" show={isSearching()} loading />
             </fieldset>
           </Label>
 

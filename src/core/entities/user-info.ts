@@ -204,7 +204,7 @@ export function selectUserInfosResultToString(count: number, params: SelectUserI
   if (params.role) {
     result.push(`${params.role}${count !== 1 ? 's' : ''}`);
   } else {
-    result.push(`user${count !== 1 ? 's' : ''}`);
+    result.push(`member${count !== 1 ? 's' : ''}`);
   }
 
   if (params.search) {
