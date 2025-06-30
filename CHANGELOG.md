@@ -2,6 +2,103 @@
 
 All notable changes to this project will be documented in this file.
 
+## [2.0.0](https://github.com/dehero/mwscr/compare/v1.65.0...v2.0.0) (2025-06-30)
+
+### ⚠ BREAKING CHANGES
+
+- rename Trash to Rejects
+- rename Inbox to Drafts
+
+### Features
+
+- add FORCE_UPDATE_PUBLICATIONS environment setting
+  ([2f63712](https://github.com/dehero/mwscr/commit/2f63712177ba86cd1a2bca9800926681d5a863a2))
+- add post title and content to comment previews
+  ([60b3714](https://github.com/dehero/mwscr/commit/60b37142cee8356f783e1b860a3f7ae726bc19f6))
+- add Russian title to user page and tooltip
+  ([a4c92bd](https://github.com/dehero/mwscr/commit/a4c92bd7b30bbc9193ebc5b6d3169fb4b337260e))
+- add updated field to user profile, resolve profile grabbing issues
+  ([439ecc8](https://github.com/dehero/mwscr/commit/439ecc818f72ebee32475e677355e709185330de))
+- add users that comment posts when grabbing post infos
+  ([76c4cc7](https://github.com/dehero/mwscr/commit/76c4cc768ca9794ecfc825f7666c84ceff427031))
+- allow keeping avatars on site store
+  ([638e2b8](https://github.com/dehero/mwscr/commit/638e2b8c862d8ac057eb9b770eeff7a96b6d6dbb))
+- implement grabbing user profile type
+  ([a84ca25](https://github.com/dehero/mwscr/commit/a84ca257933021439e14d5c35193a284be328984))
+- implement grabbing VK and Telegram followers
+  ([7fcd796](https://github.com/dehero/mwscr/commit/7fcd796976356b33d562a72835b5b2df85f0a99d))
+- implement user avatar field with saving it from VK, Telegram and YouTube
+  ([31dc4b4](https://github.com/dehero/mwscr/commit/31dc4b4059027582df5fd5483a2646e11d3c3a36))
+- implement user avatar saving from Instagram
+  ([9a8ff8c](https://github.com/dehero/mwscr/commit/9a8ff8c43ccadd705e492a9d43f59bbfc96ef106))
+- implement user profiles updating script
+  ([a699b5d](https://github.com/dehero/mwscr/commit/a699b5d2151593f49a53bacf91937d581038e6ec))
+- implement user replacement method for PostsManager
+  ([5f13c7d](https://github.com/dehero/mwscr/commit/5f13c7da731b22aece04d376fef4f9493ffa65d1))
+- improve user title and avatar, add Russian title resolving algorithms
+  ([5b96908](https://github.com/dehero/mwscr/commit/5b96908522c4c0a3011b8f34da046992435ef3b1))
+- refactor and optimize users grabbing algorithm
+  ([aaf86c4](https://github.com/dehero/mwscr/commit/aaf86c4b3cc83ae959391851a417e53c1240e45b))
+- replace user icons with avatars
+  ([6451fd2](https://github.com/dehero/mwscr/commit/6451fd2ca32d886703b1345f6578a77e4e47220f))
+- show all user profiles with avatars on user page
+  ([ec6c0a6](https://github.com/dehero/mwscr/commit/ec6c0a6a1d58630c6354608e2a9c1bbb5430972b))
+- show avatar and comment statistics on user page and tooltip
+  ([c210680](https://github.com/dehero/mwscr/commit/c2106806cfc51b5b89cf3e6bacf1b2128bdef159))
+- show comments chronologically on user page
+  ([d885f5b](https://github.com/dehero/mwscr/commit/d885f5b6152ba2e3fb7e588a9d95a259bc869961))
+- show recent comments on home page
+  ([e47cb0e](https://github.com/dehero/mwscr/commit/e47cb0e521a15d4f7bf501c53ece74e474c5d979))
+- show user avatars, full user and service names for post comments
+  ([5532ccc](https://github.com/dehero/mwscr/commit/5532ccc9f7579bd4d02b26944f35981dde02c9d6))
+- show Users as Members ([278d299](https://github.com/dehero/mwscr/commit/278d2993fd501a88140218719f9a341c46e6eae4))
+- start using complex structure for user profile
+  ([f18ec37](https://github.com/dehero/mwscr/commit/f18ec37360afc3a07ff78b30087c35d0a928f0e3))
+- turn user profiles from object to array
+  ([6391f7f](https://github.com/dehero/mwscr/commit/6391f7f9ad91e1afa663bdad27494c6a8f69b094))
+- update posts usage labels ([52b13a7](https://github.com/dehero/mwscr/commit/52b13a7271baa039a40a8087724168eb0790f710))
+- virtualize user list with displaying avatars in the list
+  ([81428af](https://github.com/dehero/mwscr/commit/81428afdd37a1b9a88d68e57b77e2790ba2a4a6c))
+
+### Bug Fixes
+
+- add accessHash to Telegram profiles to be able to update them
+  ([613c3e4](https://github.com/dehero/mwscr/commit/613c3e46f87b064593162c03e8af326b43620a56))
+- add long Instagram fetcher delay to avoid blocks
+  ([0182733](https://github.com/dehero/mwscr/commit/018273354cc6b7c69b1b6180cf0eca8edff4e18e))
+- don't treat groups as users when updating VK profiles
+  ([cfff9e3](https://github.com/dehero/mwscr/commit/cfff9e39e22b3225033d450f0cfc22589b4ce182))
+- improve user title detecting
+  ([b87ce29](https://github.com/dehero/mwscr/commit/b87ce29dc39e6b679640d4171a0693647e4e9013))
+- make VK avatar filenames more stable
+  ([4300d2a](https://github.com/dehero/mwscr/commit/4300d2a9634a629f464d15d39d276f23d74b946f))
+- move Yandex.Disk stream saving workaround closer to original fetch
+  ([8bf487c](https://github.com/dehero/mwscr/commit/8bf487cd74a8290acdeed2255fc4a58178bf1aa6))
+- resolve error when updating YouTube profile with username and id
+  ([924f07f](https://github.com/dehero/mwscr/commit/924f07f449b495cd65bfa9b15100561a18d46a33))
+- resolve Instagram user profile fetching issues
+  ([5c0be76](https://github.com/dehero/mwscr/commit/5c0be76375ec49ef821c3aa0bdbebde42d88fae8))
+- resolve saving empty VK avatars to Yandex.Disk
+  ([5c01097](https://github.com/dehero/mwscr/commit/5c01097ad331a82aa6d4493e45e4070b5f74c0ac))
+- resolve user page data loading and layout issues
+  ([b9e0f39](https://github.com/dehero/mwscr/commit/b9e0f393c64e3ff1ef4d7301382052a84603117f))
+- resolve YouTube profile updating issues
+  ([390340d](https://github.com/dehero/mwscr/commit/390340de9d792b89b3de7e1d337e1a0520209723))
+- save YouTube avatar with higher resolution and get YouTube user name from his channel title
+  ([8f28f00](https://github.com/dehero/mwscr/commit/8f28f0078c0944369eb99e28ba2433f682a12152))
+- use default id when no id for user can be created
+  ([0c9507b](https://github.com/dehero/mwscr/commit/0c9507b7c7a6d45b41005abcdc4b0965c51d41c8))
+
+### Continuous Integration
+
+- add Instagram fetcher and FORCE_UPDATE_PUBLICATIONS env variables
+  ([608a6b9](https://github.com/dehero/mwscr/commit/608a6b916fa6a285371a721d655e85d0c0a06569))
+
+### Code Refactoring
+
+- rename Inbox to Drafts ([9f06173](https://github.com/dehero/mwscr/commit/9f06173d70e7e147850133dbc815ccb9d280e3b7))
+- rename Trash to Rejects ([ecb24ad](https://github.com/dehero/mwscr/commit/ecb24ad5137084fcbbc97041405d2c124988f17d))
+
 ## [1.65.0](https://github.com/dehero/mwscr/compare/v1.64.0...v1.65.0) (2025-06-09)
 
 ### Features
