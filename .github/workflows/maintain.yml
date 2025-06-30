@@ -16,8 +16,11 @@ jobs:
     runs-on: self-hosted
     env:
       DEBUG_PUBLISHING: '${{ vars.DEBUG_PUBLISHING }}'
+      FORCE_UPDATE_PUBLICATIONS: '${{ vars.FORCE_UPDATE_PUBLICATIONS }}'
       GITHUB_BOT_EMAIL: '${{ secrets.BOT_EMAIL }}'
       GITHUB_BOT_NAME: '${{ secrets.BOT_NAME }}'
+      INSTAGRAM_FETCHER_USERNAME: '${{ secrets.INSTAGRAM_FETCHER_USERNAME }}'
+      INSTAGRAM_FETCHER_PASSWORD: '${{ secrets.INSTAGRAM_FETCHER_PASSWORD }}'
       INSTAGRAM_ACCESS_TOKEN: '${{ secrets.INSTAGRAM_ACCESS_TOKEN }}'
       SITE_SSH_HOST: '${{ secrets.SITE_SSH_HOST }}'
       SITE_SSH_USER: '${{ secrets.SITE_SSH_USER }}'
