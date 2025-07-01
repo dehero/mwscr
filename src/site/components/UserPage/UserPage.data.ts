@@ -35,7 +35,9 @@ export async function getUserPageData(dataManager: DataManager, params: UserRout
   return {
     title: getUserEntryTitle(userEntry),
     profiles: userEntry[1].profiles
-      ? [...userEntry[1].profiles].sort((a, b) => Number(a.deleted ?? 0) - Number(b.deleted ?? 0))
+      ? [...userEntry[1].profiles].sort(
+          (a, b) => Number(a.deleted ?? 0) - Number(b.deleted ?? 0) || (a.type ?? '').localeCompare(b.type ?? ''),
+        )
       : undefined,
     lastPostInfo: await dataManager.selectPostInfo('posts', {
       author: params.id,
