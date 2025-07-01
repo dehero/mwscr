@@ -1,31 +1,38 @@
 import type { PostEntry } from '../../core/entities/post.js';
 import { comparePostEntriesByDate } from '../../core/entities/post.js';
+import { PublicPostsManagerName } from '../../core/entities/posts-manager.js';
 import { PUBLICATION_IS_RECENT_DAYS, PUBLICATION_MINIMUM_GAP_HOURS } from '../../core/entities/publication.js';
 import type { PostingServiceManager } from '../../core/entities/service.js';
 import { getDaysPassed, getHoursPassed } from '../../core/utils/date-utils.js';
 import { dataManager } from '../data-managers/manager.js';
-import { posts } from '../data-managers/posts.js';
 import { postingServiceManagers } from '../posting-service-managers/index.js';
 
 export async function publishPosts() {
   console.group(`Publishing posts...`);
 
   const comparator = comparePostEntriesByDate('desc');
-  // const publicPostEntries = [...(await posts.getAllEntries()), ...(await extras.getAllEntries())].sort(comparator);
-  const publicPostEntries = (await posts.getAllEntries()).sort(comparator);
 
-  try {
-    for (const service of postingServiceManagers) {
-      const entry = await findFirstUnpublishedPostEntry(publicPostEntries, service);
-      if (entry) {
-        await publishPostToService(service, entry);
-      } else {
-        console.info(`No new posts found for ${service.name}.`);
-      }
+  for (const managerName of PublicPostsManagerName.options) {
+    const postsManager = dataManager.findPostsManager(managerName);
+    if (!postsManager) {
+      throw new Error(`Cannot find posts manager "${managerName}".`);
     }
-  } catch (error) {
-    if (error instanceof Error) {
-      console.error(`Error publishing posts: ${error.message}`);
+
+    const publicPostEntries = (await postsManager.getAllEntries()).sort(comparator);
+
+    try {
+      for (const service of postingServiceManagers) {
+        const entry = await findFirstUnpublishedPostEntry(publicPostEntries, service);
+        if (entry) {
+          await publishPostToService(service, entry);
+        } else {
+          console.info(`No new posts found for ${service.name}.`);
+        }
+      }
+    } catch (error) {
+      if (error instanceof Error) {
+        console.error(`Error publishing posts: ${error.message}`);
+      }
     }
   }
 
