@@ -97,7 +97,7 @@
   line-height: 1.5;
 }
 
-.link {
+a.link {
   display: inline-block;
   text-decoration: none;
   white-space: nowrap;
@@ -109,7 +109,7 @@
   vertical-align: sub;
 }
 
-.link:hover {
+a.link:hover {
   color: var(--color-text-selected-hover);
 }
 
