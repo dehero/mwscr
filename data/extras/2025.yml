@@ -242,23 +242,26 @@
     - service: vk
       id: 2493
       published: 2025-07-01-11-15-23
-      updated: 2025-07-01-11-41-13
+      updated: 2025-07-01-12-34-05
       followers: 1333
-      views: 17
+      likes: 1
+      views: 33
     - service: tg
       id: 902
       published: 2025-07-01-11-15-24
-      updated: 2025-07-01-11-41-13
+      updated: 2025-07-01-12-34-06
       followers: 760
-      likes: 9
-      views: 74
+      likes: 13
+      views: 104
       comments: !c |-
-        G7QA+C0OzHOPTlgonoNHd8SGxvPkbYT/fIojGGddAYeRJO+T5XQrKRoqOpns56gna1HpUjGp+ZNg
-        s0km08khhRS/PenbD0Z1Hp+xOdiA03BgXnAQ3HSX24UoSvlGPe9Psfs93pgckvIO9eJAQTtMWkqY
-        acdJUxRear/zLBDWmwGOlC7qlhFM4UNBtoTiQZQwoymhQQTfxUPyrz0A
+        G9gAaJwHto1qPbBYYfjkzAUiJG4R7jzFNLAgDivgIIgk+Qkn6eZKKoeHuh8HQ3VO3prZaCITXc/3
+        2vtpF8dpounK2NwNTsOAOcEwDozSSfaAqyOUZRjtx4vLhf0+MNyzWKA0iA01ev/DikWHricVxLMO
+        j+OJp8YxikzN8Cl0g4Se0aS4DYzpGT+dWOKhYLGvSTXUyKf8qU+4jUDVzTCmtYXW5HFoKSTj8tJo
+        2kArIgCr1nVy/ntt
     - type: story
       service: ig
       id: DLkFkpDszKY
       mediaId: '17943146264978244'
       published: 2025-07-01-11-41-28
+      updated: 2025-07-01-12-34-04
       followers: 1556
