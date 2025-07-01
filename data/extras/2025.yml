@@ -242,25 +242,27 @@
     - service: vk
       id: 2493
       published: 2025-07-01-11-15-23
-      updated: 2025-07-01-17-15-50
+      updated: 2025-07-01-18-22-47
       followers: 1333
       likes: 6
-      views: 106
+      views: 115
       comments: !c |-
-        G+oCAJwHttuUgcX6S+4ohkji/5F7tFbRV/zJbwVL1NR8WQY6HE1sci5MZVsJ1WC0hHEYjOtOqFre
-        JlQxal3od3djkp/YFI2Nbi4WrUFxoCAKBuHwkMp/dFMfHx/Md+FhY1Mf2FiU5pmF2QRNdIGk6Ta/
-        OjtCiZwR81h0+OPrr5yr/weX33ekrJQNknHI3v7rFMt9Y644ZpAFNmeC3pD0LCYTTsYE57xNrTeY
-        /1+NlCU9xriagASYePWMCqQTgwl5WleTOUQ3E8WIuD/MzyCJ/dQr3y84pn+6PqMd0AQ8hwsXHYik
-        qdvcgEKj/GBUgk86HkRhbl6oQqZBaRKLvdP58OMEOQ9yYWpF5c6BAi2O0Vn0FhMTqOHui1IFxInY
-        AtyaMTCDbYmLH/CMws351+9f3HrWZbZOQWsfHYQguU9oLV/kOjm4m+Qc8jZz3LLxfVyKaZKwhfUo
-        HjOMLCUFamKimNOdyL2HSwogZnAc
+        GwAEACyPd5kGmRgXNKCeeYjq8nH0vEzcMjNj/2STtkZOiaUlQUFQjpAgJEJhHOaeRGUTjbATkzci
+        dMsIhbTCHv7f3xGq1lStC/2e+3yzPftvYlM0NgFSeXyNxianLSNcq3/+XDocDnmqUYBJnxZt+f6j
+        0/Mk7wI90dLUsy039Y0N8UJ6Sp2I4abP77/F548uvy+vTtIaHh+nGw65//tf69fyN76plvGSCRYX
+        BB209BxMJhwZGVa7bpyA+f+rIxeSdsapCciAmVcvUYk8xLDFeLhHjSxSiOlIRuT3h/5lJHe03vJz
+        nJy9Pd4e1ratDTwXF05oCDLU3Q0ogPRDpBLSDfJDFFHMCZXIAEpDTJZ2x8HBCQp+yNUWZZU9Ggpm
+        Shhdi3Y1YgQaOFtIlRBHRBfgxngvlodYkxXv8HR0vpP/ve+/eLW4L5OKAkoPhBCQTfRaPpHbSaM2
+        ZEXepg+3BOPjCpjmEgY97Sr0SmXKHajEh82c9gjfOzhOKWDGZbF44N08BAPPdXiXGerRCemIhJHJ
+        M7Q9bPnCGkFmAXacojX9KW1oBRzGRDkdKaiGLh2AjXJsFqtYgDaPZhhHGfRYt6ztiboEp6QHjpS+
+        Aw==
     - service: tg
       id: 902
       published: 2025-07-01-11-15-24
-      updated: 2025-07-01-17-15-50
+      updated: 2025-07-01-18-22-47
       followers: 760
       likes: 18
-      views: 176
+      views: 180
       comments: !c |-
         G+8AaCwOzHOXXCi5EHSUfheC/+8v/YTPtgotyaZZJuClFW5FI1DPJYtus+c6go53hYOhunYbxrRi
         qyK4MJkIb0Mexmzrlm4am6/XDKgbnIYBemAJjvMgtgU6yW5j64giHnedWs9mr2Qd3355XYs4cGNa
@@ -271,5 +273,5 @@
       id: DLkFkpDszKY
       mediaId: '17943146264978244'
       published: 2025-07-01-11-41-28
-      updated: 2025-07-01-17-15-49
+      updated: 2025-07-01-18-22-45
       followers: 1556
