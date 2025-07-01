@@ -27,6 +27,14 @@
       updated: 2025-06-27-10-25-35
       username: 22coins7
       avatar: store:/avatars/ig-6071079b.jpg
+2abandon:
+  profiles:
+    - service: ig
+      id: '6943623308'
+      updated: 2025-07-01-22-15-55
+      username: 2abandon
+      name: ⛧Nic⛧
+      avatar: store:/avatars/ig-5cd0a51a.jpg
 364raneem:
   profiles:
     - service: ig
@@ -1143,7 +1151,7 @@ darkness-rifho:
       deleted: true
     - service: tg
       id: '5704974271'
-      updated: 2025-07-01-21-15-39
+      updated: 2025-07-01-22-16-01
       accessHash: '3506423524566292179'
       username: C4H6O4
       name: Уна
@@ -1215,7 +1223,7 @@ dehero:
       username: dehero
     - service: vk
       id: '3652910'
-      updated: 2025-07-01-21-15-39
+      updated: 2025-07-01-22-16-00
       username: dehero
       name: Антон Курьянов
       avatar: store:/avatars/vk-5356f76e.jpg
@@ -1235,7 +1243,7 @@ dehero:
     - type: channel
       service: tg
       id: '1264795946'
-      updated: 2025-07-01-21-15-39
+      updated: 2025-07-01-22-16-01
       accessHash: '-5789257269249675714'
       username: mwscr
       name: Morrowind Screenshots
@@ -1707,7 +1715,7 @@ filavandrel-official:
   profiles:
     - service: vk
       id: '682643734'
-      updated: 2025-07-01-21-15-39
+      updated: 2025-07-01-22-16-00
       username: filavandrel_official
       name: Filavandrel Aén Fidháil
       avatar: store:/avatars/vk-c54e400c.jpg
@@ -2435,7 +2443,7 @@ kawazaky223:
   profiles:
     - service: tg
       id: '5641856113'
-      updated: 2025-07-01-21-15-38
+      updated: 2025-07-01-22-16-00
       accessHash: '7421309771527577818'
       username: Kawazaky223
       name: Максим
@@ -2905,7 +2913,7 @@ max-upsher:
   profiles:
     - service: tg
       id: '1774562733'
-      updated: 2025-07-01-21-15-38
+      updated: 2025-07-01-22-16-00
       accessHash: '1025402626840048013'
       username: MaxUpsher
       name: Max Upsher
