@@ -39,13 +39,13 @@ export interface PostingScenario {
 //   postCandidateRules: [needAnnouncement],
 // };
 
-// const news: PostingScenario = {
-//   title: 'news',
-//   sourceManagers: ['drafts'],
-//   targetManager: 'extras',
-//   postingRules: [afterHour(9)],
-//   postCandidateRules: [needCertainType('news')],
-// };
+const news: PostingScenario = {
+  title: 'news',
+  sourceManagers: ['drafts'],
+  targetManager: 'extras',
+  postingRules: [afterHour(9)],
+  postCandidateRules: [needCertainType('news')],
+};
 
 // const redrawing: PostingScenario = {
 //   title: 'redrawing',
@@ -108,7 +108,7 @@ const shot: PostingScenario = {
 export const postingScenarios: PostingScenario[] = [
   // announcedPost,
   // announcedExtra,
-  // news,
+  news,
   // wallpaper,
   // shotSet,
   shot,
