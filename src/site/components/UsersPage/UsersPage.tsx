@@ -111,6 +111,8 @@ export const UsersPage = (): JSX.Element => {
 
   return (
     <Frame component="main" class={styles.container} ref={containerRef}>
+      <Toast message="Loading Members" show={userInfos.loading} loading />
+
       <Frame class={styles.parameters}>
         <fieldset class={styles.presets}>
           <Select options={presetOptions()} value={preset()} onChange={setPreset} />
