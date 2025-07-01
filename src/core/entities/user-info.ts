@@ -186,7 +186,7 @@ export function selectUserInfos(
     .filter(
       (info) =>
         (typeof params.role === 'undefined' || info.roles.includes(params.role)) &&
-        search(searchTokens, [info.title, info.id]),
+        search(searchTokens, [info.title, info.titleRu, info.id]),
     )
     .sort(comparator(params.sortDirection ?? 'desc'));
 
