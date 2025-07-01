@@ -1,6 +1,20 @@
 import transliterate from '@sindresorhus/transliterate';
 import type { InferOutput } from 'valibot';
-import { array, boolean, date, nonEmpty, number, object, optional, picklist, pipe, string, trim, union } from 'valibot';
+import {
+  array,
+  boolean,
+  date,
+  email,
+  nonEmpty,
+  number,
+  object,
+  optional,
+  picklist,
+  pipe,
+  string,
+  trim,
+  union,
+} from 'valibot';
 import { asArray } from '../utils/common-utils.js';
 import { getDaysPassed } from '../utils/date-utils.js';
 import type { Option } from './option.js';
@@ -29,6 +43,7 @@ export const UserProfile = object({
   id: optional(pipe(string(), trim(), nonEmpty())),
   accessHash: optional(pipe(string(), trim(), nonEmpty())),
   username: optional(pipe(string(), trim(), nonEmpty())),
+  email: optional(pipe(string(), email())),
   botChatId: optional(number()),
   type: optional(UserProfileType),
   avatar: optional(ImageResourceUrl),
@@ -47,6 +62,7 @@ export const User = object({
   nameRuFrom: optional(pipe(string(), trim(), nonEmpty())),
   avatar: optional(ImageResourceUrl),
   admin: optional(boolean()),
+  commits: optional(number()),
   profiles: optional(UserProfiles),
 });
 
@@ -154,6 +170,7 @@ export function mergeUserWith(user: User, withUser: User) {
   user.nameRu = user.nameRu || withUser.nameRu || undefined;
   user.nameRuFrom = user.nameRuFrom || withUser.nameRuFrom || undefined;
   user.avatar = user.avatar || withUser.avatar || undefined;
+  user.commits = withUser.commits || user.commits || undefined;
   user.profiles = mergeUserProfiles(user.profiles, withUser.profiles);
 }
 
@@ -169,6 +186,7 @@ export function mergeUserProfiles(
       profile1.id = profile2.id ?? profile1.id;
       profile1.accessHash = profile2.accessHash ?? profile1.accessHash;
       profile1.username = profile2.username ?? profile1.username;
+      profile2.email = profile2.email ?? profile1.email;
       profile1.botChatId = profile2.botChatId ?? profile1.botChatId;
       profile1.type = profile2.type ?? profile1.type;
       profile1.avatar = profile2.avatar ?? profile1.avatar;
