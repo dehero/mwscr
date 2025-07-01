@@ -242,26 +242,30 @@
     - service: vk
       id: 2493
       published: 2025-07-01-11-15-23
-      updated: 2025-07-01-12-34-05
+      updated: 2025-07-01-13-31-04
       followers: 1333
-      likes: 1
-      views: 33
+      likes: 3
+      views: 61
+      comments: !c |-
+        G+EA4C0SeA7FfhuBrosPWvS8bIwUf2UDYoepm9XUnKlamuVe1OlWYkUvincQsqDTaY9WowsJBpD2
+        5pnHV51sbnawAaeLYu7bMPPDxtj07G5PiOr35xe6/lq+j6fzs9vrbi+++7+fbZoQe7p1LHLA5Wzk
+        +PDEZMLRZcA2XmsA1X/VkTUdwziVCQEYIm0kkSKGLNdKRudUSoIhZy8E
     - service: tg
       id: 902
       published: 2025-07-01-11-15-24
-      updated: 2025-07-01-12-34-06
+      updated: 2025-07-01-13-31-06
       followers: 760
-      likes: 13
-      views: 104
+      likes: 15
+      views: 123
       comments: !c |-
-        G9gAaJwHto1qPbBYYfjkzAUiJG4R7jzFNLAgDivgIIgk+Qkn6eZKKoeHuh8HQ3VO3prZaCITXc/3
-        2vtpF8dpounK2NwNTsOAOcEwDozSSfaAqyOUZRjtx4vLhf0+MNyzWKA0iA01ev/DikWHricVxLMO
-        j+OJp8YxikzN8Cl0g4Se0aS4DYzpGT+dWOKhYLGvSTXUyKf8qU+4jUDVzTCmtYXW5HFoKSTj8tJo
-        2kArIgCr1nVy/ntt
+        G+8AaCwOzHOXXCi5EHSUfheC/+8v/YTPtgotyaZZJuClFW5FI1DPJYtus+c6go53hYOhunYbxrRi
+        qyK4MJkIb0Mexmzrlm4am6/XDKgbnIYBemAJjvMgtgU6yW5j64giHnedWs9mr2Qd3355XYs4cGNa
+        xghi99O5Swkn9KpMctmYwoSa6s2lZu3K7tF+kkkVJAYuz2MLSKCR0YjCqoLYNDKeqY1JOEuw7DwU
+        iEnKSw+8jDQgpT6DoanCB6ogLjb0NExuzouGjKpAZYQIfKsyWmX/s+4C
     - type: story
       service: ig
       id: DLkFkpDszKY
       mediaId: '17943146264978244'
       published: 2025-07-01-11-41-28
-      updated: 2025-07-01-12-34-04
+      updated: 2025-07-01-13-31-04
       followers: 1556
