@@ -107,8 +107,12 @@ export function getUserEntryAvatar(entry: UserEntry) {
   let result = entry[1]?.avatar;
 
   if (!result && entry[1]?.profiles) {
-    for (const profile of entry[1].profiles) {
-      if (profile.avatar && !profile.deleted) {
+    const profiles = entry[1].profiles
+      .filter((p) => !p.deleted)
+      .sort((a, b) => (a.type ?? '').localeCompare(b.type ?? ''));
+
+    for (const profile of profiles) {
+      if (profile.avatar) {
         result = profile.avatar;
         break;
       }
