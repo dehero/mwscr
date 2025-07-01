@@ -81,9 +81,9 @@ export const HomePage = (): JSX.Element => {
                   <a href="https://dehero.site" class={styles.link}>
                     dehero
                   </a>
-                  {' and '}
+                  {' and community '}
                   <a href={usersRoute.createUrl({})} class={styles.link}>
-                    contributors
+                    members
                   </a>
                 </p>
                 <p class={styles.license}>
@@ -146,7 +146,7 @@ export const HomePage = (): JSX.Element => {
                 />
                 <Divider />
                 <Table
-                  label="Contributors"
+                  label="Members"
                   link={usersRoute.createUrl({})}
                   rows={[
                     {
