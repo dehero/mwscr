@@ -238,3 +238,12 @@
   type: news
   author: dehero
   mark: A2
+  posts:
+    - service: vk
+      id: 2493
+      published: 2025-07-01-11-15-23
+      followers: 1333
+    - service: tg
+      id: 902
+      published: 2025-07-01-11-15-24
+      followers: 760
