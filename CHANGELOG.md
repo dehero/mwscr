@@ -2,6 +2,30 @@
 
 All notable changes to this project will be documented in this file.
 
+## [2.1.0](https://github.com/dehero/mwscr/compare/v2.0.0...v2.1.0) (2025-07-01)
+
+### Features
+
+- **site:** show commenter count on home page
+  ([7eb1c9c](https://github.com/dehero/mwscr/commit/7eb1c9c23dbc07ac7a1e309bbdcc4ab78803338f))
+
+### Bug Fixes
+
+- **site:** add loading indicator to members page
+  ([a594991](https://github.com/dehero/mwscr/commit/a59499122a68aae6109e8ea4593031e97bb41f79))
+- **site:** adjust navigation bar responsive threshold
+  ([7152a3d](https://github.com/dehero/mwscr/commit/7152a3dc459da185ed4e8013aa0237ce1e41b511))
+- **site:** don't highlight anonymous user profiles
+  ([848c07f](https://github.com/dehero/mwscr/commit/848c07f4183f8c3c82b8b5538b3ff3efcefa4636))
+- **site:** list user's own profiles first, then channels
+  ([19e2df5](https://github.com/dehero/mwscr/commit/19e2df509378e2986b51e432a114eb996a5d6a7c))
+- **site:** search by Russian user title as well
+  ([083ce70](https://github.com/dehero/mwscr/commit/083ce70439f9b35cdf310763ace8a2d3cb0bc2b6))
+- **site:** start naming contributors as community members
+  ([1e3154b](https://github.com/dehero/mwscr/commit/1e3154b3a248d18add0d79f858b23139d94c32ee))
+- **site:** take avatar from user's own profile at first
+  ([fc6ed3e](https://github.com/dehero/mwscr/commit/fc6ed3edf56b182fe68a4e6988acb4f0c9fce5ac))
+
 ## [2.0.0](https://github.com/dehero/mwscr/compare/v1.65.0...v2.0.0) (2025-06-30)
 
 ### ⚠ BREAKING CHANGES
