@@ -222,29 +222,18 @@
 2025-07-01-1-updating-comments-on-the-website:
   title: Updating Comments on the Website
   titleRu: Обновление комментариев на сайте
-  description: >-
+  description: |-
     [Members page](https://mwscr.dehero.site/users/) on the project website has been updated and now includes all users
-    who have ever left
-
-    comments under the project posts, with their avatars. On the member's personal page, there are more details,
-    including a link
-
-    to their profile and a block with all their comments on the project posts. The post page also displays avatars
-
-    and the main page of the site displays a block with the latest comments on posts. Thank you to the entire community
-
-    for your active participation in the comments!
-  descriptionRu: >-
+    who have ever left comments under the project posts, with their avatars. On the member's personal page, there are
+    more details, including a link to their profile and a block with all their comments on the project posts. The post
+    page also displays avatars and the main page of the site displays a block with the latest comments on posts. Thank
+    you to the entire community for your active participation in the comments!
+  descriptionRu: |-
     [Страница участников](https://mwscr.dehero.site/users/) на сайте проекта обновилась и теперь включает в себя всех
-    пользователей, когда-либо оставлявших
-
-    комментарии под постами проекта, с их аватарками. На личной странице участника - больше подробностей, включая ссылку
-
-    на его профиль и блок со всеми его комментариями к постам проекта. На странице поста также выводятся аватарки
-
-    комментаторов, а на главной странице сайта — блок с последними комментариями к постам. Спасибо всему сообществу за
-
-    активность в комментариях!
+    пользователей, когда-либо оставлявших комментарии под постами проекта, с их аватарками. На личной странице участника
+    — больше подробностей, включая ссылку на его профиль и блок со всеми его комментариями к постам проекта. На странице
+    поста также выводятся аватарки комментаторов, а на главной странице сайта — блок с последними комментариями к
+    постам. Спасибо всему сообществу за активность в комментариях!
   content: store:/news/2025-07-01-1-updating-comments-on-the-website.png
   type: news
   author: dehero
