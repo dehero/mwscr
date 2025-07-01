@@ -2,6 +2,12 @@
 
 All notable changes to this project will be documented in this file.
 
+## [2.1.1](https://github.com/dehero/mwscr/compare/v2.1.0...v2.1.1) (2025-07-01)
+
+### Bug Fixes
+
+- allow posting news ([fe03292](https://github.com/dehero/mwscr/commit/fe03292614d46bc803d0d57796e7c725466b3616))
+
 ## [2.1.0](https://github.com/dehero/mwscr/compare/v2.0.0...v2.1.0) (2025-07-01)
 
 ### Features
