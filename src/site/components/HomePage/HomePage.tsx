@@ -159,6 +159,11 @@ export const HomePage = (): JSX.Element => {
                       value: data().requesterCount,
                       link: usersRoute.createUrl({ role: 'requester', sort: 'contribution,desc' }),
                     },
+                    {
+                      label: 'Commenters',
+                      value: data().commenterCount,
+                      link: usersRoute.createUrl({ role: 'commenter', sort: 'contribution,desc' }),
+                    },
                   ]}
                 />
                 <Divider />
