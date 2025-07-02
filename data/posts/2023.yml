@@ -61,11 +61,17 @@
     - service: vk
       id: 2501
       published: 2025-07-02-18-24-04
+      updated: 2025-07-02-19-13-07
       followers: 1333
+      likes: 1
+      views: 14
     - service: tg
       id: 905
       published: 2025-07-02-18-24-07
+      updated: 2025-07-02-19-13-07
       followers: 760
+      likes: 27
+      views: 75
 2023-07-29-evening-at-the-suran-street-by-darkness-rifho:
   title: Evening at the Suran Street
   titleRu: Вечер на улице Сурана
