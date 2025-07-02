@@ -242,10 +242,10 @@
     - service: vk
       id: 2493
       published: 2025-07-01-11-15-23
-      updated: 2025-07-02-14-16-47
+      updated: 2025-07-02-15-18-06
       followers: 1333
       likes: 10
-      views: 185
+      views: 188
       comments: !c |-
         GwAEACyPd5kGmRgXNKCeeYjq8nH0vEzcMjNj/2STtkZOiaUlQUFQjpAgJEJhHOaeRGUTjbATkzci
         dMsIhbTCHv7f3xGq1lStC/2e+3yzPftvYlM0NgFSeXyNxianLSNcq3/+XDocDnmqUYBJnxZt+f6j
@@ -259,7 +259,7 @@
     - service: tg
       id: 902
       published: 2025-07-01-11-15-24
-      updated: 2025-07-02-14-16-46
+      updated: 2025-07-02-15-18-06
       followers: 760
       likes: 25
       views: 270
