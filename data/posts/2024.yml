@@ -686,15 +686,15 @@
     - service: vk
       id: 2500
       published: 2025-07-01-18-23-33
-      updated: 2025-07-02-20-16-38
+      updated: 2025-07-02-21-15-18
       followers: 1333
-      likes: 35
-      views: 230
+      likes: 36
+      views: 234
       reposts: 3
     - service: tg
       id: 904
       published: 2025-07-01-18-23-37
-      updated: 2025-07-02-20-16-40
+      updated: 2025-07-02-21-15-20
       followers: 760
       likes: 48
       views: 196
