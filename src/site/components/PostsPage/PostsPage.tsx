@@ -1,26 +1,32 @@
 import { createMediaQuery } from '@solid-primitives/media';
 import { makePersisted } from '@solid-primitives/storage';
 import type { JSX } from 'solid-js';
-import { createEffect, createMemo, createResource, createSignal, on, Show } from 'solid-js';
+import { createEffect, createMemo, createResource, createSignal, For, on, Show } from 'solid-js';
 import { usePageContext } from 'vike-solid/usePageContext';
 import type { PostType } from '../../../core/entities/post.js';
 import type { PostAction } from '../../../core/entities/post-action.js';
 import type { SelectPostInfosParams, SelectPostInfosSortKey } from '../../../core/entities/post-info.js';
 import { selectPostInfosResultToString } from '../../../core/entities/post-info.js';
-import { postsManagerDescriptors } from '../../../core/entities/posts-manager.js';
+import { createPostPath, postsManagerDescriptors } from '../../../core/entities/posts-manager.js';
 import type { SiteRouteMeta } from '../../../core/entities/site-route.js';
 import { dataManager } from '../../data-managers/manager.js';
 import { useLocalPatch } from '../../hooks/useLocalPatch.js';
 import { useRouteInfo } from '../../hooks/useRouteInfo.js';
 import { postsRoute } from '../../routes/posts-route.js';
 import { Button } from '../Button/Button.jsx';
+import { createDetachedDialogFragment } from '../DetachedDialogsProvider/DetachedDialogsProvider.jsx';
+import { Divider } from '../Divider/Divider.jsx';
 import { Frame } from '../Frame/Frame.js';
+import { Label } from '../Label/Label.jsx';
+// import { PostContentPreview } from '../PostContentPreview/PostContentPreview.jsx';
 import { PostPreviews } from '../PostPreviews/PostPreviews.js';
 import { Toast, useToaster } from '../Toaster/Toaster.jsx';
 import type { FilterKey, PresetKey } from './hooks/usePostsPageParameters.js';
 import { usePostsPageParameters } from './hooks/usePostsPageParameters.js';
 import { Parameters } from './Parameters.jsx';
 import styles from './PostsPage.module.css';
+import { RadioGroup } from '../RadioGroup/RadioGroup.jsx';
+import { Select } from '../Select/Select.jsx';
 
 export interface PostsPageInfo extends SiteRouteMeta {
   presetKeys?: PresetKey extends undefined ? never : PresetKey[];
@@ -49,6 +55,7 @@ export const PostsPage = (): JSX.Element => {
   });
 
   const [selected, setSelected] = createSignal<string[]>([]);
+  // const [selectedPostInfos] = createResource(selected, (ids) => dataManager.getPostInfos(params().managerName, ids));
 
   // Clear selection on manager change
   createEffect(
@@ -123,27 +130,87 @@ export const PostsPage = (): JSX.Element => {
         onExpandedOnNarrowScreenChange={setExpandParametersOnNarrowScreen}
       />
 
-      <Frame variant="thin" class={styles.posts} ref={postsRef}>
+      <Frame variant="thin" class={styles.postsWrapper}>
+        <div class={styles.toolbar}>
+          <Show when={selected().length > 0}>
+            <Label label={`Selection`}>
+              <fieldset class={styles.fieldset}>
+                {/* <div class={styles.selectedPosts}>
+                  <For each={selectedPostInfos()}>
+                    {(postInfo) => (
+                      <PostContentPreview content={postInfo.content} type={postInfo.type} class={styles.selectedPost} />
+                    )}
+                  </For>
+                </div> */}
+
+                <Button onClick={() => setSelected([])}>Clear</Button>
+                <Show when={postActions().includes('merge') && selected().length > 1}>
+                  <Button onClick={handleMerge}>Merge</Button>
+                </Show>
+                {/* <Show when={postActions().includes('compile') && selected().length > 1}>
+                  <Button
+                    href={createDetachedDialogFragment('post-editing', 'drafts', {
+                      mergeWith: selected().map((id) => createPostPath(params().managerName, id)),
+                      type: 'shot-set',
+                      mark: '',
+                      trash: '',
+                    })}
+                  >
+                    Compile
+                  </Button>
+                </Show> */}
+              </fieldset>
+            </Label>
+          </Show>
+          <Show when={postActions().includes('create')}>
+            <Button href={createDetachedDialogFragment('post-proposal')}>Submit Works</Button>
+          </Show>
+          <Show when={parameters.preset()}>
+            <Button href={postsRoute.createUrl({ managerName: params().managerName })}>
+              Reset Options<Show when={parameters.activeCount()}>{(count) => ` (${count()})`}</Show>
+            </Button>
+          </Show>
+          <Show when={parameters.sortOptions().length > 0}>
+            <Label label="Sort By">
+              <fieldset class={styles.fieldset}>
+                <div class={styles.selectWrapper}>
+                  <Select
+                    options={parameters.sortOptions()}
+                    value={parameters.sortKey()}
+                    onChange={parameters.setSortKey}
+                    class={styles.select}
+                  />
+                </div>
+                <RadioGroup
+                  name="sortDirection"
+                  options={[
+                    { value: 'asc', label: 'Asc' },
+                    { value: 'desc', label: 'Desc' },
+                  ]}
+                  value={parameters.sortDirection()}
+                  onChange={parameters.setSortDirection}
+                  class={styles.sortDirectionRadioGroup}
+                />
+              </fieldset>
+            </Label>
+          </Show>
+        </div>
+        <Divider class={styles.toolbarDivider} />
         <Show when={postInfos()}>
           {(postInfos) => (
-            <PostPreviews
-              scrollTarget={postsScrollTarget()}
-              postInfos={postInfos().items}
-              label={selectPostInfosResultToString(postInfos().totalCount, postInfos().params, selected().length)}
-              selected={selected()}
-              onSelectedChange={postActions().includes('merge') ? handleSelectedChange : undefined}
-              actions={[
-                selected().length > 0 ? <Button onClick={() => setSelected([])}>Clear Selection</Button> : undefined,
-                postActions().includes('merge') && selected().length > 1 ? (
-                  <Button onClick={handleMerge}>Merge</Button>
-                ) : undefined,
-                parameters.preset() ? (
-                  <Button href={postsRoute.createUrl({ managerName: params().managerName })}>
-                    Reset<Show when={parameters.activeCount()}>{(count) => ` (${count()})`}</Show>
-                  </Button>
-                ) : undefined,
-              ]}
-            />
+            <div class={styles.posts} ref={postsRef}>
+              <PostPreviews
+                scrollTarget={postsScrollTarget()}
+                postInfos={postInfos().items}
+                label={selectPostInfosResultToString(postInfos().totalCount, postInfos().params, selected().length)}
+                selected={selected()}
+                onSelectedChange={
+                  postActions().includes('merge') || postActions().includes('compile')
+                    ? handleSelectedChange
+                    : undefined
+                }
+              />
+            </div>
           )}
         </Show>
       </Frame>

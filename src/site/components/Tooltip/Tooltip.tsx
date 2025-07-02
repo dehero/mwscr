@@ -25,6 +25,7 @@ export interface TooltipProps {
   children?: JSX.Element | ((position: PositionRelativeToElement) => JSX.Element);
   actions?: TooltipAction[];
   forRef?: Element;
+  forceContextMenu?: boolean;
 }
 
 export const Tooltip: Component<TooltipProps> = (props) => {
@@ -35,9 +36,15 @@ export const Tooltip: Component<TooltipProps> = (props) => {
 
   const size = createElementSize(tooltipRef);
   const mousePosition = useMousePosition();
-  const allowContextMenu = createMemo(() => noHoverDevice() || Boolean(props.actions?.length));
+  const allowContextMenu = createMemo(
+    () => props.forceContextMenu || noHoverDevice() || Boolean(props.actions?.length),
+  );
   const position = createMemo(() =>
-    hideHover() ? null : noHoverDevice() ? contextMenuPosition() : contextMenuPosition() ?? mousePosition,
+    hideHover()
+      ? null
+      : props.forceContextMenu || noHoverDevice()
+        ? contextMenuPosition()
+        : contextMenuPosition() ?? mousePosition,
   );
 
   const relative = createPositionToElement(
@@ -107,7 +114,7 @@ export const Tooltip: Component<TooltipProps> = (props) => {
   });
 
   return (
-    <Show when={position() && mouseIsInside() && children()}>
+    <Show when={position() && mouseIsInside() && (children() || Boolean(props.actions?.length))}>
       <Portal>
         <Frame
           ref={setTooltipRef}

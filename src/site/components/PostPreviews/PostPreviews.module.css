@@ -5,6 +5,7 @@
   align-items: center;
   height: 24px;
   box-sizing: content-box;
+  overflow: hidden;
 }
 
 .label {
@@ -23,17 +24,17 @@
 
 .actions {
   display: flex;
-  flex-flow: row wrap;
+  flex-flow: row nowrap;
   gap: 4px;
 }
 
 .virtualContainerWrapper {
   /* Compensate column width rounding shift with container's right padding */
-  padding: 4px 0 4px 4px;
+  padding: 8px 0 8px 8px;
 }
 
 .virtualToolbar {
-  padding: 4px 8px 4px 4px;
+  padding: 8px;
 }
 
 .virtualItem {

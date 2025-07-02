@@ -61,6 +61,25 @@ export const ContributingDialog: DetachedDialog<ContributingDialogTab> = (props)
 
                 <Frame
                   component="a"
+                  href={
+                    postsRoute.createUrl({ managerName: 'posts', type: 'shot', original: 'true' }) +
+                    createDetachedDialogFragment('topic', { id: 'creating-compilation' })
+                  }
+                  onClick={props.onClose}
+                  variant="thin"
+                  class={styles.variant}
+                >
+                  <Icon color="stealth" class={styles.variantIcon}>
+                    S
+                  </Icon>
+                  <p class={styles.variantTitle}>Create Compilation</p>
+                  <p class={styles.variantDescription}>
+                    Compile published shots into your own compilation to create a new Shot-Set post.
+                  </p>
+                </Frame>
+
+                <Frame
+                  component="a"
                   href={createDetachedDialogFragment('post-request')}
                   onClick={props.onClose}
                   variant="thin"

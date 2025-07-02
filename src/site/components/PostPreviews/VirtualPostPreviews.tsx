@@ -12,7 +12,7 @@ import styles from './PostPreviews.module.css';
 import { Toolbar } from './Toolbar.jsx';
 
 const gap = 8;
-const padding = 4;
+const padding = 8;
 
 const calculateGridItemSize = (crossAxisSize: number) => {
   // Compensate column width rounding shift with container's right padding

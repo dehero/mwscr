@@ -17,6 +17,7 @@ import { mergePostContents } from '../../../core/entities/post.js';
 import { asArray } from '../../../core/utils/common-utils.js';
 import { Frame } from '../Frame/Frame.js';
 import { ResourcePreview } from '../ResourcePreview/ResourcePreview.js';
+import { Tooltip } from '../Tooltip/Tooltip.jsx';
 import styles from './PostContentEditor.module.css';
 
 const containerIds = ['content', 'snapshot', 'trash'] as const;
@@ -65,14 +66,17 @@ interface ListProps {
 
 const List: Component<ListProps> = (props) => {
   const droppable = createDroppable(props.id);
+  let ref: HTMLLabelElement | undefined;
+
   return (
-    <label class={styles.container}>
+    <label ref={ref} class={styles.container}>
       <span class={styles.label}>{getContainerLabel(props.id)}</span>
       <Frame ref={droppable} class={styles.list}>
         <SortableProvider ids={props.urls}>
           <For each={props.urls}>{(url) => <Item url={url} />}</For>
         </SortableProvider>
       </Frame>
+      <Tooltip forRef={ref} forceContextMenu actions={[{ label: 'Paste' }]} />
     </label>
   );
 };

@@ -49,7 +49,9 @@ export const PostTooltip: Component<PostTooltipProps> = (props) => {
 
   const actions = () =>
     [
-      props.postInfo.status !== 'removed' && postActions().includes('merge') && props.onSelectedChange
+      props.postInfo.status !== 'removed' &&
+      (postActions().includes('merge') || postActions().includes('compile')) &&
+      props.onSelectedChange
         ? {
             onExecute: () => props.onSelectedChange?.(!props.selected),
             label: props.selected ? 'Unselect' : 'Select',

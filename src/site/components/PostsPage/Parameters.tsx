@@ -47,7 +47,7 @@ interface ViewOption extends Option {
 }
 
 const allViewOptions: ViewOption[] = [
-  { label: 'All Options', value: undefined },
+  { label: 'All Filters', value: undefined },
   { label: 'Locations', value: 'locations', filter: 'location' },
   { label: 'Tags', value: 'tags', filter: 'tag' },
   { label: 'Map', value: 'map', filter: 'location' },
@@ -445,7 +445,7 @@ export const Parameters: Component<ParametersProps> = (props) => {
                 </Label>
               </Show>
 
-              <Show when={props.parameters.sortOptions().length > 0}>
+              {/* <Show when={props.parameters.sortOptions().length > 0}>
                 <Label label="Sort By" vertical>
                   <fieldset class={styles.fieldset}>
                     <div class={styles.selectWrapper}>
@@ -468,7 +468,7 @@ export const Parameters: Component<ParametersProps> = (props) => {
                     />
                   </fieldset>
                 </Label>
-              </Show>
+              </Show> */}
             </form>
           </Match>
           <Match when={view() === 'locations'} keyed>

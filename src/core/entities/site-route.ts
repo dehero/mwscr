@@ -10,7 +10,7 @@ export interface SiteRouteMeta {
   imageUrl?: string | string[];
 }
 
-export type SiteRouteParams = Record<string, string | undefined>;
+export type SiteRouteParams = Record<string, string | string[] | undefined>;
 
 export interface SiteRouteFragment {
   pathname?: string;
@@ -40,17 +40,29 @@ export interface SiteRouteInfo<TParams extends SiteRouteParams, TData, TMeta ext
 
 export function parseSiteRouteFragment(fragment: string): SiteRouteFragment {
   const [, pathname, search] = SITE_ROUTE_FRAGMENT_REGEX.exec(fragment) ?? [];
-  const searchParams = Object.fromEntries(new URLSearchParams(search));
+  const entries = [...new URLSearchParams(search)];
+  const searchParams: SiteRouteParams = {};
+
+  for (const [key, value] of entries) {
+    const searchParam = searchParams[key];
+    if (typeof searchParam === 'undefined') {
+      searchParams[key] = value;
+    } else if (Array.isArray(searchParam)) {
+      searchParams[key] = [...searchParam, value];
+    } else {
+      searchParams[key] = [searchParam, value];
+    }
+  }
 
   return { pathname, searchParams };
 }
 
 export function stringifySiteRouteFragment(fragment: SiteRouteFragment): string {
-  return fragment.pathname
-    ? `#${fragment.pathname}${
-        fragment.searchParams && Object.keys(fragment.searchParams).length > 0
-          ? `?${new URLSearchParams(cleanupUndefinedProps(fragment.searchParams) as Record<string, string>)}`
-          : ''
-      }`
-    : '';
+  const searchParams = new URLSearchParams(
+    Object.entries(cleanupUndefinedProps(fragment.searchParams as Record<string, unknown>)).flatMap(([key, value]) =>
+      Array.isArray(value) ? value.map((item) => [key, item]) : [[key, value]],
+    ),
+  );
+
+  return fragment.pathname ? `#${fragment.pathname}${searchParams.size > 0 ? `?${searchParams}` : ''}` : '';
 }

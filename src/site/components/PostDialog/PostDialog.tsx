@@ -1,6 +1,17 @@
 import clsx from 'clsx';
 import type { Component } from 'solid-js';
-import { createMemo, createResource, createSignal, createUniqueId, For, mergeProps, Show, splitProps } from 'solid-js';
+import {
+  createEffect,
+  createMemo,
+  createResource,
+  createSignal,
+  createUniqueId,
+  For,
+  mergeProps,
+  Show,
+  splitProps,
+  untrack,
+} from 'solid-js';
 import type { InferOutput } from 'valibot';
 import { picklist } from 'valibot';
 import type { Option } from '../../../core/entities/option.js';
@@ -12,6 +23,7 @@ import {
   mergeAuthors,
   mergePostLocations,
   mergePostTags,
+  mergePostWith,
   PostAddon,
   postAddonDescriptors,
   PostEngine,
@@ -22,7 +34,7 @@ import {
   PostViolation,
   postViolationDescriptors,
 } from '../../../core/entities/post.js';
-import { createPostPath } from '../../../core/entities/posts-manager.js';
+import { createPostPath, parsePostPath } from '../../../core/entities/posts-manager.js';
 import { createIssueUrl as createEditIssueUrl } from '../../../core/github-issues/post-editing.js';
 import { createIssueUrl as createLocateIssueUrl } from '../../../core/github-issues/post-location.js';
 import { email } from '../../../core/services/email.js';
@@ -116,6 +128,10 @@ async function getUserOptions(): Promise<Option[]> {
 export interface PostDialogProps extends Omit<DialogProps, 'title'> {
   id?: string;
   managerName?: string;
+  mergeWith?: string | string[];
+  type?: PostType;
+  mark?: PostMark;
+  trash?: PostContent;
   preset?: PostDialogPreset;
 }
 
@@ -123,6 +139,7 @@ export const PostDialog: Component<PostDialogProps> = (props) => {
   const [local, rest] = splitProps(mergeProps({ preset: 'edit' } as const, props), [
     'id',
     'managerName',
+    'mergeWith',
     'preset',
     'show',
   ]);
@@ -133,6 +150,24 @@ export const PostDialog: Component<PostDialogProps> = (props) => {
   const [postEntry] = createResource(
     () => (props.show && props.id ? props.id : undefined),
     (id) => manager()?.getEntry(id),
+  );
+
+  const [mergeWithEntries] = createResource(
+    () => (props.show && props.mergeWith ? props.mergeWith : undefined),
+    (mergeWith) => {
+      const paths = asArray(mergeWith);
+      return Promise.all(
+        paths.map((path) => {
+          const { managerName, id } = parsePostPath(path);
+          if (!managerName || !id) {
+            return undefined;
+          }
+          const manager = dataManager.findPostsManager(managerName);
+
+          return manager?.getEntry(id);
+        }),
+      );
+    },
   );
 
   const [patch, setPatch] = createSignal<Patch<Post>>({});
@@ -147,6 +182,37 @@ export const PostDialog: Component<PostDialogProps> = (props) => {
     patchObject(post, patch());
 
     return post;
+  });
+
+  createEffect(() => {
+    const entries = mergeWithEntries();
+    if (!entries) {
+      return;
+    }
+
+    const currentPost = untrack(() => post());
+
+    for (const entry of entries) {
+      if (!entry?.[1]) {
+        continue;
+      }
+
+      mergePostWith(currentPost, entry[1]);
+    }
+
+    setPatch(currentPost);
+  });
+
+  createEffect(() => {
+    const values = props;
+
+    for (const key of ['type', 'mark', 'trash'] as const) {
+      const value = values[key];
+      if (typeof value === 'undefined') {
+        continue;
+      }
+      setPatchField(key, value);
+    }
   });
 
   const setPatchField = <TField extends keyof Patch<Post>>(field: TField, value: Patch<Post>[TField]) => {

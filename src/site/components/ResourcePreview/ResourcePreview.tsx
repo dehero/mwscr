@@ -1,3 +1,4 @@
+import { writeClipboard } from '@solid-primitives/clipboard';
 import clsx from 'clsx';
 import type { Component } from 'solid-js';
 import { mergeProps, onMount, Show } from 'solid-js';
@@ -53,6 +54,11 @@ export const ResourcePreview: Component<ResourcePreviewProps> = (props) => {
     }
   });
 
+  const copyUrl = () => {
+    writeClipboard(props.url);
+    addToast('Resource URL copied to clipboard');
+  };
+
   return (
     <Show when={url()} keyed>
       {(url) => (
@@ -83,7 +89,9 @@ export const ResourcePreview: Component<ResourcePreviewProps> = (props) => {
             state={props.frameState}
           />
           <Show when={props.showTooltip}>
-            <Tooltip forRef={ref}>{props.url}</Tooltip>
+            <Tooltip forRef={ref} actions={[{ label: 'Copy', onExecute: copyUrl }]}>
+              {props.url}
+            </Tooltip>
           </Show>
         </>
         // {/* </Match> */}
