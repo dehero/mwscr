@@ -7070,10 +7070,10 @@
     - service: vk
       id: 2491
       published: 2025-06-30-18-28-36
-      updated: 2025-07-02-17-15-35
+      updated: 2025-07-02-18-23-18
       followers: 1334
-      likes: 56
-      views: 442
+      likes: 58
+      views: 448
       reposts: 2
       comments: !c |-
         G48A+J0JdmwKpDOzTxnXnhL9IzfSr0GqbRm2SBNL7unmLClYgoo7A7/Z8pASKaLumnXBYDT4dTct
@@ -7082,7 +7082,7 @@
     - service: tg
       id: 901
       published: 2025-06-30-18-28-41
-      updated: 2025-07-02-17-15-34
+      updated: 2025-07-02-18-23-16
       followers: 760
       likes: 54
       views: 275
@@ -12359,17 +12359,17 @@
     - service: vk
       id: 2490
       published: 2025-06-29-18-26-14
-      updated: 2025-07-01-18-22-34
+      updated: 2025-07-02-18-23-20
       followers: 1333
       likes: 33
-      views: 385
+      views: 411
     - service: tg
       id: 900
       published: 2025-06-29-18-26-18
-      updated: 2025-07-01-18-22-32
+      updated: 2025-07-02-18-23-19
       followers: 760
-      likes: 60
-      views: 286
+      likes: 61
+      views: 303
       comments: !c iwuAkZPLQnl7/OzngACra2F3YXpha3kyMjOgAw==
 2018-10-24-snowfall-over-the-ice-river:
   title: Snowfall Over the Ice River
