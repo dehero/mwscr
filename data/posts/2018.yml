@@ -7070,10 +7070,10 @@
     - service: vk
       id: 2491
       published: 2025-06-30-18-28-36
-      updated: 2025-07-02-16-20-25
+      updated: 2025-07-02-17-15-35
       followers: 1334
-      likes: 55
-      views: 436
+      likes: 56
+      views: 442
       reposts: 2
       comments: !c |-
         G48A+J0JdmwKpDOzTxnXnhL9IzfSr0GqbRm2SBNL7unmLClYgoo7A7/Z8pASKaLumnXBYDT4dTct
@@ -7082,7 +7082,7 @@
     - service: tg
       id: 901
       published: 2025-06-30-18-28-41
-      updated: 2025-07-02-16-20-26
+      updated: 2025-07-02-17-15-34
       followers: 760
       likes: 54
       views: 275
