@@ -61,19 +61,23 @@
     - service: vk
       id: 2501
       published: 2025-07-02-18-24-04
-      updated: 2025-07-03-18-22-36
+      updated: 2025-07-03-19-12-58
       followers: 1333
-      likes: 40
-      views: 262
+      likes: 41
+      views: 267
       reposts: 1
     - service: tg
       id: 905
       published: 2025-07-02-18-24-07
-      updated: 2025-07-03-18-22-38
+      updated: 2025-07-03-19-13-01
       followers: 760
       likes: 50
-      views: 169
-      comments: !c iw+AkZPLQnl8yizZgACra2F3YXpha3kyMjOo8J+HqPCfh7MD
+      views: 205
+      comments: !c |-
+        GzwBICyOx+2nFLWNo94R//xzsuFsoF93zs5Ug0TCuASCMLGS+zBtWyUVwVC9eYOhvxnrQ7aNb/1L
+        MqfbBF8QXKZoKOjmYteYFgRFRLCI8rf+mO8GRxoQh+s2TzLrGODAGy4yuMkKG2SzJu63x/O35r7d
+        b8vrkqVi8Ws1Q1KW8TEy4U4Gi03Ygkc0GgOh3XVo3L4yMWFDiUsDkzB0B49hGZA8QIDO0ENfeqJF
+        cQ+R4wAOC0pO5RgoLoXdPbVBDTFCDHfOkEQ574Pz7b98X9FY+BDx++cM+wA=
     - service: ig
       id: DLodyriseno
       mediaId: '18041435729646241'

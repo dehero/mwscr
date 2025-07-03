@@ -7070,10 +7070,10 @@
     - service: vk
       id: 2491
       published: 2025-06-30-18-28-36
-      updated: 2025-07-02-18-23-18
+      updated: 2025-07-03-19-13-02
       followers: 1334
-      likes: 58
-      views: 448
+      likes: 65
+      views: 491
       reposts: 2
       comments: !c |-
         G48A+J0JdmwKpDOzTxnXnhL9IzfSr0GqbRm2SBNL7unmLClYgoo7A7/Z8pASKaLumnXBYDT4dTct
@@ -7082,10 +7082,10 @@
     - service: tg
       id: 901
       published: 2025-06-30-18-28-41
-      updated: 2025-07-02-18-23-16
+      updated: 2025-07-03-19-13-01
       followers: 760
-      likes: 54
-      views: 275
+      likes: 57
+      views: 303
 2018-06-26-smoking-house:
   title: Smoking House
   titleRu: Дымящий дом
@@ -12359,17 +12359,18 @@
     - service: vk
       id: 2490
       published: 2025-06-29-18-26-14
-      updated: 2025-07-02-18-23-20
+      updated: 2025-07-03-19-13-04
       followers: 1333
-      likes: 33
-      views: 411
+      likes: 35
+      views: 436
+      reposts: 1
     - service: tg
       id: 900
       published: 2025-06-29-18-26-18
-      updated: 2025-07-02-18-23-19
+      updated: 2025-07-03-19-13-03
       followers: 760
       likes: 61
-      views: 303
+      views: 329
       comments: !c iwuAkZPLQnl7/OzngACra2F3YXpha3kyMjOgAw==
 2018-10-24-snowfall-over-the-ice-river:
   title: Snowfall Over the Ice River
