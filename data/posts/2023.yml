@@ -61,17 +61,17 @@
     - service: vk
       id: 2501
       published: 2025-07-02-18-24-04
-      updated: 2025-07-03-14-16-28
+      updated: 2025-07-03-15-17-45
       followers: 1333
-      likes: 34
-      views: 211
+      likes: 37
+      views: 221
     - service: tg
       id: 905
       published: 2025-07-02-18-24-07
-      updated: 2025-07-03-14-16-31
+      updated: 2025-07-03-15-17-48
       followers: 760
       likes: 50
-      views: 162
+      views: 164
       comments: !c iw+AkZPLQnl8yizZgACra2F3YXpha3kyMjOo8J+HqPCfh7MD
     - service: ig
       id: DLodyriseno
