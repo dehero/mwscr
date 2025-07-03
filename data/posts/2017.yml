@@ -5855,17 +5855,18 @@
     - service: vk
       id: 2503
       published: 2025-07-03-18-23-21
-      updated: 2025-07-03-19-12-57
+      updated: 2025-07-03-20-17-44
       followers: 1334
-      likes: 5
-      views: 29
+      likes: 13
+      views: 83
+      reposts: 1
     - service: tg
       id: 906
       published: 2025-07-03-18-23-25
-      updated: 2025-07-03-19-12-56
+      updated: 2025-07-03-20-17-43
       followers: 761
-      likes: 19
-      views: 88
+      likes: 28
+      views: 116
 2017-05-14-entrance-to-vivec:
   title: Entrance to Vivec
   titleRu: Вход в Вивек
