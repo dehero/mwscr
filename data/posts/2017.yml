@@ -5852,6 +5852,14 @@
       followers: 56
       likes: 8
       views: 243
+    - service: vk
+      id: 2503
+      published: 2025-07-03-18-23-21
+      followers: 1334
+    - service: tg
+      id: 906
+      published: 2025-07-03-18-23-25
+      followers: 761
 2017-05-14-entrance-to-vivec:
   title: Entrance to Vivec
   titleRu: Вход в Вивек
