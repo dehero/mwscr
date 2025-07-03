@@ -61,25 +61,25 @@
     - service: vk
       id: 2501
       published: 2025-07-02-18-24-04
-      updated: 2025-07-03-05-20-38
+      updated: 2025-07-03-05-50-23
       followers: 1333
-      likes: 20
-      views: 114
+      likes: 22
+      views: 121
     - service: tg
       id: 905
       published: 2025-07-02-18-24-07
-      updated: 2025-07-03-05-20-40
+      updated: 2025-07-03-05-50-26
       followers: 760
-      likes: 44
-      views: 136
+      likes: 45
+      views: 138
       comments: !c iw+AkZPLQnl8yizZgACra2F3YXpha3kyMjOo8J+HqPCfh7MD
     - service: ig
       id: DLodyriseno
       mediaId: '18041435729646241'
       published: 2025-07-03-04-30-02
-      updated: 2025-07-03-05-20-43
+      updated: 2025-07-03-05-50-27
       followers: 1558
-      likes: 15
+      likes: 16
 2023-07-29-evening-at-the-suran-street-by-darkness-rifho:
   title: Evening at the Suran Street
   titleRu: Вечер на улице Сурана
