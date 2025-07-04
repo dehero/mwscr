@@ -686,18 +686,18 @@
     - service: vk
       id: 2500
       published: 2025-07-01-18-23-33
-      updated: 2025-07-03-18-22-37
+      updated: 2025-07-04-19-13-20
       followers: 1333
-      likes: 41
-      views: 311
+      likes: 43
+      views: 358
       reposts: 4
     - service: tg
       id: 904
       published: 2025-07-01-18-23-37
-      updated: 2025-07-03-18-22-39
+      updated: 2025-07-04-19-13-24
       followers: 760
-      likes: 51
-      views: 219
+      likes: 53
+      views: 278
       comments: !c iwuAkZPLQnl8dLuPAACra2F3YXpha3kyMjOgAw==
 2024-03-24-dark-sanctuary-of-dark: 2018-05-09-dark-sanctuary-of-dark
 2024-03-25-bridge-at-ghostfence:
@@ -797,15 +797,23 @@
       id: DLsh3UWsQOb
       mediaId: '18136715590418129'
       published: 2025-07-04-18-22-37
+      updated: 2025-07-04-19-13-25
       followers: 1558
+      likes: 15
     - service: vk
       id: 2504
       published: 2025-07-04-18-22-42
+      updated: 2025-07-04-19-13-17
       followers: 1334
+      likes: 7
+      views: 24
     - service: tg
       id: 907
       published: 2025-07-04-18-22-45
+      updated: 2025-07-04-19-13-17
       followers: 761
+      likes: 17
+      views: 71
 2024-03-28-moonmoth-legion-fort: 2017-02-08-moonmoth-legion-fort
 2024-03-29-sneaking-scamp:
   title: Sneaking Scamp
