@@ -3090,10 +3090,10 @@
     - service: vk
       id: 1840
       published: 2024-10-17-18-09-16
-      updated: 2025-06-27-13-30-46
+      updated: 2025-07-04-14-15-44
       followers: 965
       likes: 49
-      views: 659
+      views: 660
       reposts: 2
       comments: !c iwuAkZPLQnkp0j58gACnaHlhcnZhcqTwn6WwAw==
     - service: tg
@@ -5855,18 +5855,18 @@
     - service: vk
       id: 2503
       published: 2025-07-03-18-23-21
-      updated: 2025-07-04-13-28-42
+      updated: 2025-07-04-14-15-39
       followers: 1334
       likes: 33
-      views: 225
+      views: 227
       reposts: 1
     - service: tg
       id: 906
       published: 2025-07-03-18-23-25
-      updated: 2025-07-04-13-28-46
+      updated: 2025-07-04-14-15-44
       followers: 761
       likes: 54
-      views: 216
+      views: 221
       comments: !c |-
         G3IAAJwHdix5QtlBNn6ESieobhEeccJhafCWNf+aVNx4CabJHllQN7RMm2G9PgqJaunLsLds2IAD
         1izxyAaV6xrTStuT/fz6pfZad5dprJiVB5cMAR0E61WusIGsMI6QNbd7P4Ky6RtMSw/f78cD
@@ -5874,9 +5874,9 @@
       id: DLrIT8msmCv
       mediaId: '17954788979976496'
       published: 2025-07-04-05-20-05
-      updated: 2025-07-04-13-28-45
+      updated: 2025-07-04-14-15-43
       followers: 1559
-      likes: 45
+      likes: 48
 2017-05-14-entrance-to-vivec:
   title: Entrance to Vivec
   titleRu: Вход в Вивек
