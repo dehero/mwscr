@@ -5855,26 +5855,28 @@
     - service: vk
       id: 2503
       published: 2025-07-03-18-23-21
-      updated: 2025-07-05-12-29-59
+      updated: 2025-07-05-13-24-48
       followers: 1334
       likes: 39
-      views: 279
+      views: 283
       reposts: 1
     - service: tg
       id: 906
       published: 2025-07-03-18-23-25
-      updated: 2025-07-05-12-30-03
+      updated: 2025-07-05-13-24-53
       followers: 761
       likes: 57
       views: 264
       comments: !c |-
-        G3IAAJwHdix5QtlBNn6ESieobhEeccJhafCWNf+aVNx4CabJHllQN7RMm2G9PgqJaunLsLds2IAD
-        1izxyAaV6xrTStuT/fz6pfZad5dprJiVB5cMAR0E61WusIGsMI6QNbd7P4Ky6RtMSw/f78cD
+        Gw0BACwObBth9uEGbMiP+bGIp7/Y6YHEb7ySxs8kOztpJsESuhL7muzDNKDMbiFXIaoc57ryN3Y2
+        tgEdHHvCGbwPO+W1TFhetgwr69PJiR7wIJjlAX4Bx8WcU2i5jS3HVXDqiIieezw/1fthnqb36ubd
+        Nbh8GVMTVqnjkSBgPqm6cQAJm9RNOpg1ZIkK7hIdEK64wMdov1Rk6pbIHxzr4VA3453t4cTIfet6
+        rdnV7fY4NlBbBJY2QFQJ6uaxQE5QobVlrPkzvf7jXg==
     - service: ig
       id: DLrIT8msmCv
       mediaId: '17954788979976496'
       published: 2025-07-04-05-20-05
-      updated: 2025-07-05-12-30-04
+      updated: 2025-07-05-13-24-52
       followers: 1559
       likes: 72
 2017-05-14-entrance-to-vivec:
