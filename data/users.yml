@@ -1715,7 +1715,7 @@ filavandrel-official:
   profiles:
     - service: vk
       id: '682643734'
-      updated: 2025-07-05-12-30-07
+      updated: 2025-07-05-20-16-39
       username: filavandrel_official
       name: Filavandrel Aén Fidháil
       avatar: store:/avatars/vk-c54e400c.jpg
@@ -2451,7 +2451,7 @@ kawazaky223:
   profiles:
     - service: tg
       id: '5641856113'
-      updated: 2025-07-05-19-13-36
+      updated: 2025-07-05-20-16-41
       accessHash: '7421309771527577818'
       username: Kawazaky223
       name: Максим
