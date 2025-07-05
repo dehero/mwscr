@@ -5855,15 +5855,15 @@
     - service: vk
       id: 2503
       published: 2025-07-03-18-23-21
-      updated: 2025-07-05-17-13-41
+      updated: 2025-07-05-18-20-18
       followers: 1334
       likes: 40
-      views: 285
+      views: 288
       reposts: 1
     - service: tg
       id: 906
       published: 2025-07-03-18-23-25
-      updated: 2025-07-05-17-13-43
+      updated: 2025-07-05-18-20-37
       followers: 761
       likes: 58
       views: 268
@@ -5876,7 +5876,7 @@
       id: DLrIT8msmCv
       mediaId: '17954788979976496'
       published: 2025-07-04-05-20-05
-      updated: 2025-07-05-17-13-45
+      updated: 2025-07-05-18-20-36
       followers: 1559
       likes: 73
 2017-05-14-entrance-to-vivec:
@@ -13500,6 +13500,19 @@
       followers: 100
       likes: 13
       views: 163
+    - service: ig
+      id: DLvGolxsLYQ
+      mediaId: '18088466710600021'
+      published: 2025-07-05-18-22-23
+      followers: 1559
+    - service: vk
+      id: 2505
+      published: 2025-07-05-18-22-29
+      followers: 1335
+    - service: tg
+      id: 908
+      published: 2025-07-05-18-22-37
+      followers: 761
 2017-11-25-ashinabi:
   title: Ashinabi
   titleRu: Ашинаби
