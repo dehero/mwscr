@@ -448,10 +448,10 @@ arseniy-dyak:
   profiles:
     - service: tg
       id: '8015414871'
-      updated: 2025-07-06-17-13-51
+      updated: 2025-07-06-18-21-10
       accessHash: '-4817807801428753368'
       name: Арсений Дьяк
-      avatar: store:/avatars/tg-5420228425697849473.jpg
+      avatar: store:/avatars/tg-5429309403900803146.jpg
 artem-solovev:
   profiles:
     - service: vk
@@ -2451,7 +2451,7 @@ kawazaky223:
   profiles:
     - service: tg
       id: '5641856113'
-      updated: 2025-07-06-17-13-52
+      updated: 2025-07-06-18-21-15
       accessHash: '7421309771527577818'
       username: Kawazaky223
       name: Максим
@@ -3873,7 +3873,7 @@ redoranar:
   profiles:
     - service: tg
       id: '627928484'
-      updated: 2025-07-05-18-20-36
+      updated: 2025-07-06-18-21-15
       accessHash: '4117269213935533016'
       username: Redoranar
       name: Egor
