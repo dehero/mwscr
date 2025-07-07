@@ -448,7 +448,7 @@ arseniy-dyak:
   profiles:
     - service: tg
       id: '8015414871'
-      updated: 2025-07-07-11-15-04
+      updated: 2025-07-07-12-33-50
       accessHash: '-4817807801428753368'
       name: Арсений Дьяк
       avatar: store:/avatars/tg-5429309403900803146.jpg
@@ -1151,11 +1151,11 @@ darkness-rifho:
       deleted: true
     - service: tg
       id: '5704974271'
-      updated: 2025-07-06-12-30-19
+      updated: 2025-07-07-12-33-56
       accessHash: '3506423524566292179'
       username: C4H6O4
       name: Уна
-      avatar: store:/avatars/tg-5408863628700020593.jpg
+      avatar: store:/avatars/tg-5429615033773585079.jpg
 daryna-dmytrenko:
   profiles:
     - service: vk
@@ -1223,7 +1223,7 @@ dehero:
       username: dehero
     - service: vk
       id: '3652910'
-      updated: 2025-07-06-12-30-20
+      updated: 2025-07-07-12-33-55
       username: dehero
       name: Антон Курьянов
       avatar: store:/avatars/vk-5356f76e.jpg
@@ -1243,7 +1243,7 @@ dehero:
     - type: channel
       service: tg
       id: '1264795946'
-      updated: 2025-07-06-12-30-19
+      updated: 2025-07-07-12-33-59
       accessHash: '-5789257269249675714'
       username: mwscr
       name: Morrowind Screenshots
@@ -1715,7 +1715,7 @@ filavandrel-official:
   profiles:
     - service: vk
       id: '682643734'
-      updated: 2025-07-06-20-17-34
+      updated: 2025-07-07-12-33-54
       username: filavandrel_official
       name: Filavandrel Aén Fidháil
       avatar: store:/avatars/vk-c54e400c.jpg
@@ -1896,7 +1896,7 @@ goosevich76:
   profiles:
     - service: tg
       id: '5385620621'
-      updated: 2025-07-07-11-15-03
+      updated: 2025-07-07-12-33-49
       accessHash: '-7130473396589324830'
       username: Goosevich76
       name: Гусьйоувич
@@ -2460,7 +2460,7 @@ kawazaky223:
   profiles:
     - service: tg
       id: '5641856113'
-      updated: 2025-07-07-11-15-04
+      updated: 2025-07-07-12-33-54
       accessHash: '7421309771527577818'
       username: Kawazaky223
       name: Максим
@@ -2930,7 +2930,7 @@ max-upsher:
   profiles:
     - service: tg
       id: '1774562733'
-      updated: 2025-07-06-12-30-18
+      updated: 2025-07-07-12-33-54
       accessHash: '1025402626840048013'
       username: MaxUpsher
       name: Max Upsher
