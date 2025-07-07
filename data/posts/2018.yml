@@ -4475,24 +4475,28 @@
       id: DL0QZTfsoWn
       mediaId: '17974160048903287'
       published: 2025-07-07-18-23-56
-      updated: 2025-07-07-19-14-21
+      updated: 2025-07-07-20-18-49
       followers: 1559
-      likes: 13
+      likes: 17
     - service: vk
       id: 2507
       published: 2025-07-07-18-24-02
-      updated: 2025-07-07-19-14-16
+      updated: 2025-07-07-20-18-42
       followers: 1334
-      likes: 2
-      views: 26
+      likes: 3
+      views: 39
     - service: tg
       id: 910
       published: 2025-07-07-18-24-07
-      updated: 2025-07-07-19-14-17
+      updated: 2025-07-07-20-18-46
       followers: 758
-      likes: 29
-      views: 70
-      comments: !c CxmAkZPLQnl+Y2A4gACnYnJnMTA5Mr/QutCw0Log0L7QvSDRgtGD0LTQsCDQt9Cw0LvQtdC3Aw==
+      likes: 33
+      views: 97
+      comments: !c |-
+        GxEBAJwHtq1ovQiTB4zG7YnE8+RtPKF/PqWhdQWeRZK8DxpIFm4jZhqVmMliSZOVOFHgb9jbBq7r
+        FvT5piCqQRTYKs3msnVy4NCCi0QHOtAVEwra3cbwdqMEnQZFx/WmP3fTMrr3lHASh2T8B5TWbSgs
+        LOak2ZMliTDG4/k60aNZ+v5nvr/zSLS/yb9BoFtiraEltuJoh5kWNCFhLUlAHIY4VMgywZCTEtdp
+        haBbQufWCNSbaDeyEB0B8kU1OIfy7f53Mw==
 2018-04-22-evening-dwemer-architecture:
   title: Evening Dwemer Architecture
   titleRu: Вечерняя двемерская архитектура
@@ -7092,10 +7096,10 @@
     - service: vk
       id: 2491
       published: 2025-06-30-18-28-36
-      updated: 2025-07-06-20-17-34
+      updated: 2025-07-07-20-18-50
       followers: 1334
-      likes: 68
-      views: 566
+      likes: 69
+      views: 577
       reposts: 3
       comments: !c |-
         G48A+J0JdmwKpDOzTxnXnhL9IzfSr0GqbRm2SBNL7unmLClYgoo7A7/Z8pASKaLumnXBYDT4dTct
@@ -7104,10 +7108,10 @@
     - service: tg
       id: 901
       published: 2025-06-30-18-28-41
-      updated: 2025-07-06-20-17-41
+      updated: 2025-07-07-20-18-57
       followers: 760
       likes: 59
-      views: 357
+      views: 383
 2018-06-26-smoking-house:
   title: Smoking House
   titleRu: Дымящий дом
