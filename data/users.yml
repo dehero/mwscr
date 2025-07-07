@@ -776,7 +776,7 @@ brg1092:
   profiles:
     - service: tg
       id: '5867861906'
-      updated: 2025-07-07-21-17-47
+      updated: 2025-07-07-22-16-31
       accessHash: '4411929981434940281'
       username: brg1092
       name: '2718'
@@ -1151,7 +1151,7 @@ darkness-rifho:
       deleted: true
     - service: tg
       id: '5704974271'
-      updated: 2025-07-07-21-28-52
+      updated: 2025-07-07-22-16-35
       accessHash: '3506423524566292179'
       username: C4H6O4
       name: Уна
@@ -1806,6 +1806,14 @@ gangtake:
       updated: 2025-06-27-11-31-18
       username: gangtake
       avatar: store:/avatars/ig-b17bbb45.jpg
+ganki-ro:
+  profiles:
+    - service: ig
+      id: '1052354893'
+      updated: 2025-07-07-22-27-53
+      username: ganki_ro
+      name: 巌木　露 / Ganki Ro
+      avatar: store:/avatars/ig-83bf51a3.jpg
 geenerval:
   profiles:
     - service: ig
@@ -1896,7 +1904,7 @@ goosevich76:
   profiles:
     - service: tg
       id: '5385620621'
-      updated: 2025-07-07-21-16-11
+      updated: 2025-07-07-22-16-36
       accessHash: '-7130473396589324830'
       username: Goosevich76
       name: Гусьйоувич
@@ -2384,6 +2392,14 @@ johnny-veretti:
       accessHash: '-7749866638725597396'
       name: Johnny Veretti
       avatar: store:/avatars/tg-2128020935434938284.jpg
+jon-heeler:
+  profiles:
+    - service: ig
+      id: '1493063456'
+      updated: 2025-07-07-22-34-37
+      username: jon.heeler
+      name: Jonas Hildner
+      avatar: store:/avatars/ig-3f43901a.jpg
 jonnsi6:
   profiles:
     - service: ig
@@ -2460,7 +2476,7 @@ kawazaky223:
   profiles:
     - service: tg
       id: '5641856113'
-      updated: 2025-07-07-21-48-35
+      updated: 2025-07-07-22-16-36
       accessHash: '7421309771527577818'
       username: Kawazaky223
       name: Максим
