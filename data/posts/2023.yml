@@ -61,10 +61,10 @@
     - service: vk
       id: 2501
       published: 2025-07-02-18-24-04
-      updated: 2025-07-06-19-13-19
+      updated: 2025-07-07-19-14-19
       followers: 1333
-      likes: 48
-      views: 367
+      likes: 49
+      views: 379
       reposts: 1
     - service: tg
       id: 905
