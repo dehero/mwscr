@@ -4478,26 +4478,26 @@
       id: DL0QZTfsoWn
       mediaId: '17974160048903287'
       published: 2025-07-07-18-23-56
-      updated: 2025-07-08-17-15-45
+      updated: 2025-07-08-18-23-17
       followers: 1559
       likes: 46
     - service: vk
       id: 2507
       published: 2025-07-07-18-24-02
-      updated: 2025-07-08-17-15-43
+      updated: 2025-07-08-18-23-15
       followers: 1334
-      likes: 27
-      views: 182
+      likes: 31
+      views: 192
       comments: !c |-
         iySAkZPLQnl+r10aAACoc2VyZ2V5LWLZNNCU0L7QvNCwINGBINC60L7RiNC60L4t0LbQtdC90L7Q
         uQoK0KHQtdC50LTQsCDQndC40L0D
     - service: tg
       id: 910
       published: 2025-07-07-18-24-07
-      updated: 2025-07-08-17-15-42
+      updated: 2025-07-08-18-23-16
       followers: 758
       likes: 51
-      views: 179
+      views: 180
       comments: !c |-
         GxEBAJwHtq1ovQiTB4zG7YnE8+RtPKF/PqWhdQWeRZK8DxpIFm4jZhqVmMliSZOVOFHgb9jbBq7r
         FvT5piCqQRTYKs3msnVy4NCCi0QHOtAVEwra3cbwdqMEnQZFx/WmP3fTMrr3lHASh2T8B5TWbSgs
@@ -9129,6 +9129,19 @@
       likes: 17
       views: 299
       reposts: 1
+    - service: ig
+      id: DL21O-2M0u0
+      mediaId: '18010982666773254'
+      published: 2025-07-08-18-24-17
+      followers: 1560
+    - service: vk
+      id: 2509
+      published: 2025-07-08-18-24-22
+      followers: 1334
+    - service: tg
+      id: 911
+      published: 2025-07-08-18-24-26
+      followers: 760
 2018-08-18-vampire-and-ghost:
   title: Vampire and Ghost
   titleRu: Вампир и призрак
