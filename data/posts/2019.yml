@@ -1562,18 +1562,18 @@
     - service: vk
       id: 2485
       published: 2025-06-25-18-30-45
-      updated: 2025-07-02-22-15-52
+      updated: 2025-07-09-22-16-24
       followers: 1328
       likes: 70
-      views: 708
+      views: 797
       reposts: 5
     - service: tg
       id: 896
       published: 2025-06-25-18-30-49
-      updated: 2025-07-02-22-15-58
+      updated: 2025-07-09-22-16-28
       followers: 754
-      likes: 65
-      views: 417
+      likes: 67
+      views: 485
       comments: !c iw2AkZPLQnl6hjgZgACra2F3YXpha3kyMjOk8J+RgQM=
     - service: ig
       id: DLZ5KTksdmG
@@ -1652,23 +1652,23 @@
       id: DL5aCGXsDyB
       mediaId: '18515532307004498'
       published: 2025-07-09-18-24-19
-      updated: 2025-07-09-21-15-49
+      updated: 2025-07-09-22-16-27
       followers: 1561
-      likes: 29
+      likes: 33
     - service: vk
       id: 2510
       published: 2025-07-09-18-24-37
-      updated: 2025-07-09-21-15-45
+      updated: 2025-07-09-22-16-23
       followers: 1335
       likes: 5
-      views: 53
+      views: 58
     - service: tg
       id: 912
       published: 2025-07-09-18-24-42
-      updated: 2025-07-09-21-15-44
+      updated: 2025-07-09-22-16-22
       followers: 758
-      likes: 24
-      views: 100
+      likes: 28
+      views: 113
 2019-10-04-rainy-welcome:
   title: Rainy Welcome
   titleRu: Дождливый приём
