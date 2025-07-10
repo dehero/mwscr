@@ -1436,7 +1436,7 @@ dremarretres:
   profiles:
     - service: vk
       id: '801308664'
-      updated: 2025-07-10-11-15-24
+      updated: 2025-07-10-12-34-54
       username: dremarretres
       name: Джон Шепард
       avatar: store:/avatars/vk-ac4f0700.jpg
@@ -2476,7 +2476,7 @@ kawazaky223:
   profiles:
     - service: tg
       id: '5641856113'
-      updated: 2025-07-10-11-15-23
+      updated: 2025-07-10-12-34-53
       accessHash: '7421309771527577818'
       username: Kawazaky223
       name: Максим
@@ -2946,7 +2946,7 @@ max-upsher:
   profiles:
     - service: tg
       id: '1774562733'
-      updated: 2025-07-10-11-15-23
+      updated: 2025-07-10-12-34-54
       accessHash: '1025402626840048013'
       username: MaxUpsher
       name: Max Upsher
