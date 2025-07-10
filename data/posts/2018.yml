@@ -9133,21 +9133,25 @@
       id: DL21O-2M0u0
       mediaId: '18010982666773254'
       published: 2025-07-08-18-24-17
-      updated: 2025-07-10-10-18-36
+      updated: 2025-07-10-11-15-26
       followers: 1560
-      likes: 76
+      likes: 78
     - service: vk
       id: 2509
       published: 2025-07-08-18-24-22
-      updated: 2025-07-10-10-18-30
+      updated: 2025-07-10-11-15-24
       followers: 1334
-      likes: 51
-      views: 308
-      reposts: 1
+      likes: 52
+      views: 314
+      reposts: 2
+      comments: !c |-
+        G9sAQJwHdiwYwdGZJyfZI6RdhANKKZQu0USj5KdzMyeDucjYbJj6x2QwGQZrIi/L5LIhFwduf75Z
+        HGQ6QEswyW1sTJc4XEZHot0+f5zda+Oup+aVqMY/DGzjXWZH9Y4kcCFDU2IOuGWv1Nuj8vMpVyK6
+        ooBTUILNOLobTJGQHsjjCkhVJg==
     - service: tg
       id: 911
       published: 2025-07-08-18-24-26
-      updated: 2025-07-10-10-18-33
+      updated: 2025-07-10-11-15-23
       followers: 760
       likes: 53
       views: 232
