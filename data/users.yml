@@ -776,7 +776,7 @@ brg1092:
   profiles:
     - service: tg
       id: '5867861906'
-      updated: 2025-07-10-19-14-04
+      updated: 2025-07-11-20-18-48
       accessHash: '4411929981434940281'
       username: brg1092
       name: '2718'
@@ -1151,11 +1151,11 @@ darkness-rifho:
       deleted: true
     - service: tg
       id: '5704974271'
-      updated: 2025-07-10-19-14-04
+      updated: 2025-07-11-20-18-50
       accessHash: '3506423524566292179'
       username: C4H6O4
       name: Уна
-      avatar: store:/avatars/tg-5436407069285678378.jpg
+      avatar: store:/avatars/tg-5442633363115602462.jpg
 daryna-dmytrenko:
   profiles:
     - service: vk
@@ -2476,7 +2476,7 @@ kawazaky223:
   profiles:
     - service: tg
       id: '5641856113'
-      updated: 2025-07-11-19-13-40
+      updated: 2025-07-11-20-18-54
       accessHash: '7421309771527577818'
       username: Kawazaky223
       name: Максим
@@ -2955,7 +2955,7 @@ mbdtsmo:
   profiles:
     - service: tg
       id: '5093097514'
-      updated: 2025-07-11-19-13-34
+      updated: 2025-07-11-20-18-43
       accessHash: '-613358669572386334'
       username: mbdtsmo
       name: M Bdtsmo
