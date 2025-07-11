@@ -1976,17 +1976,17 @@
     - service: vk
       id: 2512
       published: 2025-07-10-18-24-32
-      updated: 2025-07-11-18-23-01
+      updated: 2025-07-11-19-13-36
       followers: 1337
-      likes: 38
-      views: 319
+      likes: 39
+      views: 324
     - service: tg
       id: 913
       published: 2025-07-10-18-24-36
-      updated: 2025-07-11-18-23-03
+      updated: 2025-07-11-19-13-35
       followers: 759
-      likes: 54
-      views: 206
+      likes: 55
+      views: 218
       comments: !c |-
         G0sA+OV/b43w2wCHF4833t15UlncSyCDgGpFZFFII/WOQP9+PrEfl8Qnemvrp7Fuf6IzM4HPPezt
         7OrQuMw0k0GqfAluBF7VpgpbbiZDAQ==
@@ -4508,10 +4508,10 @@
     - service: vk
       id: 2507
       published: 2025-07-07-18-24-02
-      updated: 2025-07-10-18-23-32
+      updated: 2025-07-11-19-13-43
       followers: 1334
-      likes: 42
-      views: 338
+      likes: 43
+      views: 399
       comments: !c |-
         iySAkZPLQnl+r10aAACoc2VyZ2V5LWLZNNCU0L7QvNCwINGBINC60L7RiNC60L4t0LbQtdC90L7Q
         uQoK0KHQtdC50LTQsCDQndC40L0D
@@ -9163,10 +9163,10 @@
     - service: vk
       id: 2509
       published: 2025-07-08-18-24-22
-      updated: 2025-07-10-18-23-30
+      updated: 2025-07-11-19-13-41
       followers: 1334
-      likes: 55
-      views: 339
+      likes: 58
+      views: 376
       reposts: 2
       comments: !c |-
         G9sAQJwHdiwYwdGZJyfZI6RdhANKKZQu0USj5KdzMyeDucjYbJj6x2QwGQZrIi/L5LIhFwduf75Z
@@ -9175,10 +9175,10 @@
     - service: tg
       id: 911
       published: 2025-07-08-18-24-26
-      updated: 2025-07-10-18-23-29
+      updated: 2025-07-11-19-13-38
       followers: 760
-      likes: 54
-      views: 241
+      likes: 56
+      views: 275
       comments: !c |-
         G5IA+J0FdiyzmCCuPNuID8Uovr+RPqDP0gSYQFNCRZjsEQY1N0LvNrMlYGD78XqM3ETqg0X27gFu
         gRfxo0IqMdDIp0ohpXTeHx6k5xHxboRHhIQUoCh2/GddfNc/enbCBxzd4hnzJuxGVpCLNbasp6mo
