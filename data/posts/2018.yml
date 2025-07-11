@@ -1970,23 +1970,26 @@
       id: DL7-2DRMa6D
       mediaId: '18027718640694389'
       published: 2025-07-10-18-24-27
-      updated: 2025-07-11-07-18-13
+      updated: 2025-07-11-08-22-31
       followers: 1561
-      likes: 44
+      likes: 45
     - service: vk
       id: 2512
       published: 2025-07-10-18-24-32
-      updated: 2025-07-11-07-18-07
+      updated: 2025-07-11-08-22-28
       followers: 1337
-      likes: 30
-      views: 177
+      likes: 31
+      views: 192
     - service: tg
       id: 913
       published: 2025-07-10-18-24-36
-      updated: 2025-07-11-07-18-06
+      updated: 2025-07-11-08-22-28
       followers: 759
-      likes: 45
-      views: 164
+      likes: 47
+      views: 173
+      comments: !c |-
+        G0sA+OV/b43w2wCHF4833t15UlncSyCDgGpFZFFII/WOQP9+PrEfl8Qnemvrp7Fuf6IzM4HPPezt
+        7OrQuMw0k0GqfAluBF7VpgpbbiZDAQ==
 2018-02-20-nook-of-arena:
   title: Nook of Arena
   titleRu: Закуток Арены
