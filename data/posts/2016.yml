@@ -1505,6 +1505,14 @@
       followers: 1415
       likes: 68
       views: 269
+    - service: vk
+      id: 2513
+      published: 2025-07-11-18-23-45
+      followers: 1337
+    - service: tg
+      id: 914
+      published: 2025-07-11-18-23-48
+      followers: 760
 2016-12-23-stillness-of-vivec:
   title: Stillness of Vivec
   titleRu: Спокойствие Вивека
