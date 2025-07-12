@@ -1976,20 +1976,21 @@
     - service: vk
       id: 2512
       published: 2025-07-10-18-24-32
-      updated: 2025-07-12-04-28-41
+      updated: 2025-07-12-05-17-16
       followers: 1337
       likes: 39
       views: 344
     - service: tg
       id: 913
       published: 2025-07-10-18-24-36
-      updated: 2025-07-12-04-28-40
+      updated: 2025-07-12-05-17-19
       followers: 759
       likes: 56
-      views: 232
+      views: 239
       comments: !c |-
-        G0sA+OV/b43w2wCHF4833t15UlncSyCDgGpFZFFII/WOQP9+PrEfl8Qnemvrp7Fuf6IzM4HPPezt
-        7OrQuMw0k0GqfAluBF7VpgpbbiZDAQ==
+        iz6AkZTLQnl/h0wngACnbWJkdHNtb9k3V2hhdCBkaWQgeW91IGd1eXMgZW5jaGFudCB3aXRoIFZp
+        dmVjcyBBbG1hbGV4aWFzIHNvdWwgP5PLQnl/0KW+AACqbWF4LXVwc2hlcrxIdWguIE5vdyB0aGF0
+        J3MgYSBnb29kIGlkZWEuAw==
 2018-02-20-nook-of-arena:
   title: Nook of Arena
   titleRu: Закуток Арены

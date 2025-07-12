@@ -2946,7 +2946,7 @@ max-upsher:
   profiles:
     - service: tg
       id: '1774562733'
-      updated: 2025-07-11-19-13-38
+      updated: 2025-07-12-05-17-19
       accessHash: '1025402626840048013'
       username: MaxUpsher
       name: Max Upsher
@@ -2955,7 +2955,7 @@ mbdtsmo:
   profiles:
     - service: tg
       id: '5093097514'
-      updated: 2025-07-12-04-28-40
+      updated: 2025-07-12-05-17-18
       accessHash: '-613358669572386334'
       username: mbdtsmo
       name: M Bdtsmo
