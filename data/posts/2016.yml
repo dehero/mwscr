@@ -1508,17 +1508,17 @@
     - service: vk
       id: 2513
       published: 2025-07-11-18-23-45
-      updated: 2025-07-12-01-21-38
+      updated: 2025-07-12-03-23-22
       followers: 1337
-      likes: 8
-      views: 70
+      likes: 10
+      views: 76
     - service: tg
       id: 914
       published: 2025-07-11-18-23-48
-      updated: 2025-07-12-01-21-38
+      updated: 2025-07-12-03-23-22
       followers: 760
-      likes: 34
-      views: 110
+      likes: 36
+      views: 114
 2016-12-23-stillness-of-vivec:
   title: Stillness of Vivec
   titleRu: Спокойствие Вивека
