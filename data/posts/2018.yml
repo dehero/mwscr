@@ -1976,17 +1976,17 @@
     - service: vk
       id: 2512
       published: 2025-07-10-18-24-32
-      updated: 2025-07-12-17-13-48
+      updated: 2025-07-12-18-21-38
       followers: 1337
       likes: 43
-      views: 375
+      views: 378
     - service: tg
       id: 913
       published: 2025-07-10-18-24-36
-      updated: 2025-07-12-17-13-51
+      updated: 2025-07-12-18-21-40
       followers: 759
       likes: 61
-      views: 283
+      views: 285
       comments: !c |-
         iz6AkZTLQnl/h0wngACnbWJkdHNtb9k3V2hhdCBkaWQgeW91IGd1eXMgZW5jaGFudCB3aXRoIFZp
         dmVjcyBBbG1hbGV4aWFzIHNvdWwgP5PLQnl/0KW+AACqbWF4LXVwc2hlcrxIdWguIE5vdyB0aGF0
