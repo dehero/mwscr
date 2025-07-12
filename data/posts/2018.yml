@@ -4509,10 +4509,10 @@
     - service: vk
       id: 2507
       published: 2025-07-07-18-24-02
-      updated: 2025-07-11-19-13-43
+      updated: 2025-07-12-20-17-17
       followers: 1334
-      likes: 43
-      views: 399
+      likes: 45
+      views: 425
       comments: !c |-
         iySAkZPLQnl+r10aAACoc2VyZ2V5LWLZNNCU0L7QvNCwINGBINC60L7RiNC60L4t0LbQtdC90L7Q
         uQoK0KHQtdC50LTQsCDQndC40L0D
@@ -9164,11 +9164,11 @@
     - service: vk
       id: 2509
       published: 2025-07-08-18-24-22
-      updated: 2025-07-11-19-13-41
+      updated: 2025-07-12-20-17-15
       followers: 1334
-      likes: 58
-      views: 376
-      reposts: 2
+      likes: 63
+      views: 402
+      reposts: 4
       comments: !c |-
         G9sAQJwHdiwYwdGZJyfZI6RdhANKKZQu0USj5KdzMyeDucjYbJj6x2QwGQZrIi/L5LIhFwduf75Z
         HGQ6QEswyW1sTJc4XEZHot0+f5zda+Oup+aVqMY/DGzjXWZH9Y4kcCFDU2IOuGWv1Nuj8vMpVyK6
@@ -9176,10 +9176,10 @@
     - service: tg
       id: 911
       published: 2025-07-08-18-24-26
-      updated: 2025-07-11-19-13-38
+      updated: 2025-07-12-20-17-14
       followers: 760
-      likes: 56
-      views: 275
+      likes: 59
+      views: 313
       comments: !c |-
         G5IA+J0FdiyzmCCuPNuID8Uovr+RPqDP0gSYQFNCRZjsEQY1N0LvNrMlYGD78XqM3ETqg0X27gFu
         gRfxo0IqMdDIp0ohpXTeHx6k5xHxboRHhIQUoCh2/GddfNc/enbCBxzd4hnzJuxGVpCLNbasp6mo
