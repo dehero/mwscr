@@ -1983,10 +1983,10 @@
     - service: tg
       id: 913
       published: 2025-07-10-18-24-36
-      updated: 2025-07-12-18-21-40
+      updated: 2025-07-13-19-12-53
       followers: 759
-      likes: 61
-      views: 285
+      likes: 64
+      views: 330
       comments: !c |-
         iz6AkZTLQnl/h0wngACnbWJkdHNtb9k3V2hhdCBkaWQgeW91IGd1eXMgZW5jaGFudCB3aXRoIFZp
         dmVjcyBBbG1hbGV4aWFzIHNvdWwgP5PLQnl/0KW+AACqbWF4LXVwc2hlcrxIdWguIE5vdyB0aGF0
@@ -8412,11 +8412,20 @@
     - service: vk
       id: 2515
       published: 2025-07-13-18-22-15
+      updated: 2025-07-13-19-12-47
       followers: 1342
+      likes: 3
+      views: 26
     - service: tg
       id: 916
       published: 2025-07-13-18-22-19
+      updated: 2025-07-13-19-12-48
       followers: 762
+      likes: 22
+      views: 68
+      comments: !c |-
+        ix6AkZPLQnmAUGn+gACnZ29yaGVpbdkp0J3QvtGB0YLQsNC70YzQs9C40Y8g0LfQsNC80YPRh9C4
+        0LvQsCAoKCgD
 2018-07-27-the-book-of-dawn-and-dusk:
   title: The Book of Dawn and Dusk
   titleRu: Книга рассвета и заката
