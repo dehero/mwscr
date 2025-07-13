@@ -1436,7 +1436,7 @@ dremarretres:
   profiles:
     - service: vk
       id: '801308664'
-      updated: 2025-07-12-20-17-15
+      updated: 2025-07-13-21-14-47
       username: dremarretres
       name: Джон Шепард
       avatar: store:/avatars/vk-ac4f0700.jpg
@@ -1904,16 +1904,16 @@ goosevich76:
   profiles:
     - service: tg
       id: '5385620621'
-      updated: 2025-07-12-20-17-16
+      updated: 2025-07-13-21-14-55
       accessHash: '-7130473396589324830'
       username: Goosevich76
       name: Гусьйоувич
-      avatar: store:/avatars/tg-5440817017151157056.jpg
+      avatar: store:/avatars/tg-5449755685907724320.jpg
 gorheim:
   profiles:
     - service: tg
       id: '5456759154'
-      updated: 2025-07-13-20-17-07
+      updated: 2025-07-13-21-14-46
       accessHash: '3514684589658993491'
       username: Gorheim
       name: Gorheim Labolas
@@ -2476,7 +2476,7 @@ kawazaky223:
   profiles:
     - service: tg
       id: '5641856113'
-      updated: 2025-07-13-20-17-10
+      updated: 2025-07-13-21-14-58
       accessHash: '7421309771527577818'
       username: Kawazaky223
       name: Максим
@@ -2946,7 +2946,7 @@ max-upsher:
   profiles:
     - service: tg
       id: '1774562733'
-      updated: 2025-07-13-20-17-09
+      updated: 2025-07-13-21-14-50
       accessHash: '1025402626840048013'
       username: MaxUpsher
       name: Max Upsher
@@ -4160,7 +4160,7 @@ sergey-b:
   profiles:
     - service: vk
       id: '889222999'
-      updated: 2025-07-12-20-17-16
+      updated: 2025-07-13-21-14-49
       username: id889222999
       name: Сергей Б
       avatar: store:/avatars/vk-62b69af7.jpg

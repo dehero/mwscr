@@ -4509,10 +4509,10 @@
     - service: vk
       id: 2507
       published: 2025-07-07-18-24-02
-      updated: 2025-07-12-20-17-17
+      updated: 2025-07-13-21-14-49
       followers: 1334
-      likes: 45
-      views: 425
+      likes: 47
+      views: 442
       comments: !c |-
         iySAkZPLQnl+r10aAACoc2VyZ2V5LWLZNNCU0L7QvNCwINGBINC60L7RiNC60L4t0LbQtdC90L7Q
         uQoK0KHQtdC50LTQsCDQndC40L0D
@@ -8412,17 +8412,18 @@
     - service: vk
       id: 2515
       published: 2025-07-13-18-22-15
-      updated: 2025-07-13-20-17-03
+      updated: 2025-07-13-21-14-42
       followers: 1342
-      likes: 9
-      views: 57
+      likes: 18
+      views: 89
+      reposts: 1
     - service: tg
       id: 916
       published: 2025-07-13-18-22-19
-      updated: 2025-07-13-20-17-07
+      updated: 2025-07-13-21-14-46
       followers: 762
-      likes: 30
-      views: 93
+      likes: 37
+      views: 110
       comments: !c |-
         CyqAkpPLQnmAVEdAgACra2F3YXpha3kyMjOgk8tCeYBQaf6AAKdnb3JoZWlt2SnQndC+0YHRgtCw
         0LvRjNCz0LjRjyDQt9Cw0LzRg9GH0LjQu9CwICgoKAM=
@@ -9181,11 +9182,11 @@
     - service: vk
       id: 2509
       published: 2025-07-08-18-24-22
-      updated: 2025-07-12-20-17-15
+      updated: 2025-07-13-21-14-47
       followers: 1334
-      likes: 63
-      views: 402
-      reposts: 4
+      likes: 65
+      views: 426
+      reposts: 3
       comments: !c |-
         G9sAQJwHdiwYwdGZJyfZI6RdhANKKZQu0USj5KdzMyeDucjYbJj6x2QwGQZrIi/L5LIhFwduf75Z
         HGQ6QEswyW1sTJc4XEZHot0+f5zda+Oup+aVqMY/DGzjXWZH9Y4kcCFDU2IOuGWv1Nuj8vMpVyK6
@@ -9193,10 +9194,10 @@
     - service: tg
       id: 911
       published: 2025-07-08-18-24-26
-      updated: 2025-07-12-20-17-14
+      updated: 2025-07-13-21-14-50
       followers: 760
       likes: 59
-      views: 313
+      views: 328
       comments: !c |-
         G5IA+J0FdiyzmCCuPNuID8Uovr+RPqDP0gSYQFNCRZjsEQY1N0LvNrMlYGD78XqM3ETqg0X27gFu
         gRfxo0IqMdDIp0ohpXTeHx6k5xHxboRHhIQUoCh2/GddfNc/enbCBxzd4hnzJuxGVpCLNbasp6mo
@@ -12463,18 +12464,18 @@
     - service: vk
       id: 2490
       published: 2025-06-29-18-26-14
-      updated: 2025-07-06-20-17-38
+      updated: 2025-07-13-21-14-51
       followers: 1333
       likes: 38
-      views: 492
+      views: 515
       reposts: 1
     - service: tg
       id: 900
       published: 2025-06-29-18-26-18
-      updated: 2025-07-06-20-17-43
+      updated: 2025-07-13-21-14-58
       followers: 760
-      likes: 63
-      views: 404
+      likes: 65
+      views: 493
       comments: !c iwuAkZPLQnl7/OzngACra2F3YXpha3kyMjOgAw==
 2018-10-24-snowfall-over-the-ice-river:
   title: Snowfall Over the Ice River
