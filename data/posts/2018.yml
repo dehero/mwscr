@@ -1976,10 +1976,10 @@
     - service: vk
       id: 2512
       published: 2025-07-10-18-24-32
-      updated: 2025-07-12-18-21-38
+      updated: 2025-07-13-18-21-41
       followers: 1337
-      likes: 43
-      views: 378
+      likes: 46
+      views: 409
     - service: tg
       id: 913
       published: 2025-07-10-18-24-36
@@ -8409,6 +8409,14 @@
       followers: 193
       likes: 20
       views: 260
+    - service: vk
+      id: 2515
+      published: 2025-07-13-18-22-15
+      followers: 1342
+    - service: tg
+      id: 916
+      published: 2025-07-13-18-22-19
+      followers: 762
 2018-07-27-the-book-of-dawn-and-dusk:
   title: The Book of Dawn and Dusk
   titleRu: Книга рассвета и заката
