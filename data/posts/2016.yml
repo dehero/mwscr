@@ -1508,17 +1508,18 @@
     - service: vk
       id: 2513
       published: 2025-07-11-18-23-45
-      updated: 2025-07-13-13-26-22
+      updated: 2025-07-13-14-14-21
       followers: 1337
-      likes: 42
-      views: 251
+      likes: 43
+      views: 255
+      reposts: 1
     - service: tg
       id: 914
       published: 2025-07-11-18-23-48
-      updated: 2025-07-13-13-26-24
+      updated: 2025-07-13-14-14-24
       followers: 760
       likes: 60
-      views: 221
+      views: 223
       comments: !c |-
         G6kAQBwHdiyz8HC0sHMbPV834bM/figBN5mUWBEm+6DmRgnV1NTtGRPvGTyHtL3AThYdWiCJGO0Y
         JzoY3zS4/qLDxtiZyo9exffzk1FxcZTxnVRAxZQS4TixAmy5ju9FhcAzHZGz/8TIkqoHNKaSq1Cj
