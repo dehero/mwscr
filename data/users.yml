@@ -1715,7 +1715,7 @@ filavandrel-official:
   profiles:
     - service: vk
       id: '682643734'
-      updated: 2025-07-08-12-34-39
+      updated: 2025-07-14-20-19-32
       username: filavandrel_official
       name: Filavandrel Aén Fidháil
       avatar: store:/avatars/vk-c54e400c.jpg
@@ -1913,7 +1913,7 @@ gorheim:
   profiles:
     - service: tg
       id: '5456759154'
-      updated: 2025-07-14-19-14-22
+      updated: 2025-07-14-20-19-32
       accessHash: '3514684589658993491'
       username: Gorheim
       name: Gorheim Labolas
@@ -2476,7 +2476,7 @@ kawazaky223:
   profiles:
     - service: tg
       id: '5641856113'
-      updated: 2025-07-14-19-14-22
+      updated: 2025-07-14-20-19-34
       accessHash: '7421309771527577818'
       username: Kawazaky223
       name: Максим
@@ -2946,7 +2946,7 @@ max-upsher:
   profiles:
     - service: tg
       id: '1774562733'
-      updated: 2025-07-14-19-14-24
+      updated: 2025-07-14-20-19-34
       accessHash: '1025402626840048013'
       username: MaxUpsher
       name: Max Upsher
