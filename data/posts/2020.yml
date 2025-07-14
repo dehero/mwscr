@@ -1128,11 +1128,17 @@
     - service: vk
       id: 2516
       published: 2025-07-14-18-26-02
+      updated: 2025-07-14-19-14-20
       followers: 1342
+      likes: 3
+      views: 19
     - service: tg
       id: 917
       published: 2025-07-14-18-26-06
+      updated: 2025-07-14-19-14-19
       followers: 762
+      likes: 23
+      views: 87
 2020-10-20-longing-for-a-departed-hero:
   title: Longing for a Departed Hero
   titleRu: Тоска по ушедшему герою
