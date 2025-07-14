@@ -4509,10 +4509,10 @@
     - service: vk
       id: 2507
       published: 2025-07-07-18-24-02
-      updated: 2025-07-13-21-14-49
+      updated: 2025-07-14-21-16-59
       followers: 1334
       likes: 47
-      views: 442
+      views: 446
       comments: !c |-
         iySAkZPLQnl+r10aAACoc2VyZ2V5LWLZNNCU0L7QvNCwINGBINC60L7RiNC60L4t0LbQtdC90L7Q
         uQoK0KHQtdC50LTQsCDQndC40L0D
@@ -8412,18 +8412,18 @@
     - service: vk
       id: 2515
       published: 2025-07-13-18-22-15
-      updated: 2025-07-14-20-19-29
+      updated: 2025-07-14-21-16-25
       followers: 1342
       likes: 37
-      views: 360
+      views: 369
       reposts: 1
     - service: tg
       id: 916
       published: 2025-07-13-18-22-19
-      updated: 2025-07-14-20-19-32
+      updated: 2025-07-14-21-16-58
       followers: 762
       likes: 53
-      views: 215
+      views: 218
       comments: !c |-
         CyqAkpPLQnmAVEdAgACra2F3YXpha3kyMjOgk8tCeYBQaf6AAKdnb3JoZWlt2SnQndC+0YHRgtCw
         0LvRjNCz0LjRjyDQt9Cw0LzRg9GH0LjQu9CwICgoKAM=
@@ -9182,10 +9182,10 @@
     - service: vk
       id: 2509
       published: 2025-07-08-18-24-22
-      updated: 2025-07-13-21-14-47
+      updated: 2025-07-14-21-16-53
       followers: 1334
-      likes: 65
-      views: 426
+      likes: 67
+      views: 444
       reposts: 3
       comments: !c |-
         G9sAQJwHdiwYwdGZJyfZI6RdhANKKZQu0USj5KdzMyeDucjYbJj6x2QwGQZrIi/L5LIhFwduf75Z
@@ -9194,10 +9194,10 @@
     - service: tg
       id: 911
       published: 2025-07-08-18-24-26
-      updated: 2025-07-13-21-14-50
+      updated: 2025-07-14-21-17-08
       followers: 760
       likes: 59
-      views: 328
+      views: 344
       comments: !c |-
         G5IA+J0FdiyzmCCuPNuID8Uovr+RPqDP0gSYQFNCRZjsEQY1N0LvNrMlYGD78XqM3ETqg0X27gFu
         gRfxo0IqMdDIp0ohpXTeHx6k5xHxboRHhIQUoCh2/GddfNc/enbCBxzd4hnzJuxGVpCLNbasp6mo
@@ -11769,10 +11769,10 @@
     - service: vk
       id: 2473
       published: 2025-06-18-18-28-24
-      updated: 2025-07-07-21-16-18
+      updated: 2025-07-14-21-17-29
       followers: 1326
       likes: 62
-      views: 515
+      views: 529
       reposts: 4
       comments: !c |-
         izOAkZTLQnl4TLN4AACucm9tYW4tZHJvdm9zZWvZLtCk0L7RgtC+INGB0L4g0LfQstGD0LrQvtC8
@@ -11780,10 +11780,10 @@
     - service: tg
       id: 889
       published: 2025-06-18-18-28-30
-      updated: 2025-07-07-21-16-19
+      updated: 2025-07-14-21-17-28
       followers: 750
-      likes: 66
-      views: 499
+      likes: 67
+      views: 517
       comments: !c iw2AkZPLQnl4RuVigACra2F3YXpha3kyMjOk8J+RjQM=
 2018-10-09-severe-innkeeper:
   title: Severe Innkeeper
