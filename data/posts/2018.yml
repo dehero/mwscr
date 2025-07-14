@@ -1976,10 +1976,10 @@
     - service: vk
       id: 2512
       published: 2025-07-10-18-24-32
-      updated: 2025-07-13-18-21-41
+      updated: 2025-07-14-18-25-24
       followers: 1337
-      likes: 46
-      views: 409
+      likes: 47
+      views: 427
     - service: tg
       id: 913
       published: 2025-07-10-18-24-36
@@ -8412,15 +8412,15 @@
     - service: vk
       id: 2515
       published: 2025-07-13-18-22-15
-      updated: 2025-07-14-17-17-03
+      updated: 2025-07-14-18-25-22
       followers: 1342
       likes: 36
-      views: 327
+      views: 341
       reposts: 1
     - service: tg
       id: 916
       published: 2025-07-13-18-22-19
-      updated: 2025-07-14-17-17-05
+      updated: 2025-07-14-18-25-26
       followers: 762
       likes: 49
       views: 180
