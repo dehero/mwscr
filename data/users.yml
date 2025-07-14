@@ -92,7 +92,7 @@ a2-enkelli:
   profiles:
     - service: tg
       id: '7258424423'
-      updated: 2025-07-14-22-19-46
+      updated: 2025-07-14-23-17-02
       accessHash: '969825927170686844'
       username: A2_Enkelli
       name: †† elli ††
@@ -568,7 +568,7 @@ baltazawrrr:
   profiles:
     - service: tg
       id: '375728547'
-      updated: 2025-07-07-21-19-19
+      updated: 2025-07-14-23-17-02
       accessHash: '3701772235797251246'
       username: Baltazawrrr
       name: Danil Bieliaev
@@ -1299,7 +1299,7 @@ deus-en-shell:
   profiles:
     - service: tg
       id: '7256633327'
-      updated: 2025-07-07-21-19-19
+      updated: 2025-07-14-23-17-02
       accessHash: '5185725684921896823'
       username: DeusEnShell
       name: DeusEnShell
@@ -1913,7 +1913,7 @@ gorheim:
   profiles:
     - service: tg
       id: '5456759154'
-      updated: 2025-07-14-22-16-36
+      updated: 2025-07-14-23-16-59
       accessHash: '3514684589658993491'
       username: Gorheim
       name: Gorheim Labolas
@@ -2476,7 +2476,7 @@ kawazaky223:
   profiles:
     - service: tg
       id: '5641856113'
-      updated: 2025-07-14-22-46-08
+      updated: 2025-07-14-23-16-59
       accessHash: '7421309771527577818'
       username: Kawazaky223
       name: Максим
@@ -2556,10 +2556,10 @@ konstantin-matrosov:
   profiles:
     - service: vk
       id: '93073669'
-      updated: 2025-07-07-21-16-23
+      updated: 2025-07-14-23-17-01
       username: id93073669
       name: Константин Матросов
-      avatar: store:/avatars/vk-195b2cc7.jpg
+      avatar: store:/avatars/vk-3b5e092e.jpg
 konstantinmk:
   profiles:
     - service: vk
@@ -3066,7 +3066,7 @@ mister-purrfect:
   profiles:
     - service: vk
       id: '872831147'
-      updated: 2025-07-14-22-23-45
+      updated: 2025-07-14-23-17-02
       username: id872831147
       name: Mister Purrfect
       avatar: store:/avatars/vk-d502311b.jpg
@@ -4082,11 +4082,11 @@ scion-of-balance:
   profiles:
     - service: tg
       id: '5834663294'
-      updated: 2025-07-07-21-19-18
+      updated: 2025-07-14-23-17-02
       accessHash: '-2758740287553358448'
       username: Scion_of_Balance
       name: Byrgenwerth Graduate
-      avatar: store:/avatars/tg-5141353600713338820.jpg
+      avatar: store:/avatars/tg-5149981661730026659.jpg
 scr0up:
   profiles:
     - service: tg
@@ -5380,7 +5380,7 @@ weakest-hitler-enjoyer:
   profiles:
     - service: tg
       id: '1152790185'
-      updated: 2025-07-14-22-19-48
+      updated: 2025-07-14-23-17-00
       accessHash: '-505617958741633551'
       username: WeakestHitlerEnjoyer
       name: Joᛋᛋef 🇨🇭
