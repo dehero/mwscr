@@ -464,18 +464,18 @@
     - service: vk
       id: 2484
       published: 2025-06-24-18-28-09
-      updated: 2025-07-08-21-16-03
+      updated: 2025-07-15-21-16-14
       followers: 1328
-      likes: 54
-      views: 443
+      likes: 55
+      views: 463
       reposts: 3
     - service: tg
       id: 895
       published: 2025-06-24-18-28-13
-      updated: 2025-07-08-21-16-04
+      updated: 2025-07-15-21-16-15
       followers: 753
-      likes: 62
-      views: 499
+      likes: 64
+      views: 526
     - service: ig
       id: DLS4FQzgAKX
       mediaId: '17868937881306574'
@@ -1128,10 +1128,10 @@
     - service: vk
       id: 2516
       published: 2025-07-14-18-26-02
-      updated: 2025-07-15-20-19-30
+      updated: 2025-07-15-21-16-12
       followers: 1342
       likes: 19
-      views: 356
+      views: 365
       reposts: 1
       comments: !c |-
         G1sA+I2UbuYke/5aS/hBdgGTLCLtWpMPPAMk5+HFeisii0EuSWuuQWeYL19q13uYPW6t5WWXRHxk
@@ -1139,10 +1139,10 @@
     - service: tg
       id: 917
       published: 2025-07-14-18-26-06
-      updated: 2025-07-15-20-19-30
+      updated: 2025-07-15-21-16-13
       followers: 762
       likes: 50
-      views: 219
+      views: 221
       comments: !c iwuAkZPLQnmApi3OAACra2F3YXpha3kyMjOgAw==
 2020-10-20-longing-for-a-departed-hero:
   title: Longing for a Departed Hero

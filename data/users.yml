@@ -480,7 +480,7 @@ artyom-melikhoff:
   profiles:
     - service: vk
       id: '299405149'
-      updated: 2025-07-15-20-19-30
+      updated: 2025-07-15-21-16-12
       username: artyom_melikhoff
       name: Артём Мелихов
       avatar: store:/avatars/vk-dd464f34.jpg
@@ -2476,7 +2476,7 @@ kawazaky223:
   profiles:
     - service: tg
       id: '5641856113'
-      updated: 2025-07-15-20-19-29
+      updated: 2025-07-15-21-16-14
       accessHash: '7421309771527577818'
       username: Kawazaky223
       name: Максим
@@ -2946,7 +2946,7 @@ max-upsher:
   profiles:
     - service: tg
       id: '1774562733'
-      updated: 2025-07-15-19-15-53
+      updated: 2025-07-15-21-16-13
       accessHash: '1025402626840048013'
       username: MaxUpsher
       name: Max Upsher
