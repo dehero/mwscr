@@ -1128,17 +1128,17 @@
     - service: vk
       id: 2516
       published: 2025-07-14-18-26-02
-      updated: 2025-07-15-13-34-28
+      updated: 2025-07-15-14-16-48
       followers: 1342
-      likes: 15
-      views: 242
+      likes: 17
+      views: 253
       comments: !c |-
         G1sA+I2UbuYke/5aS/hBdgGTLCLtWpMPPAMk5+HFeisii0EuSWuuQWeYL19q13uYPW6t5WWXRHxk
         hV7gJrb9F7HCGlc88cCBJoymjIalxo1hhxvWOGE9WjSmHg4wAg==
     - service: tg
       id: 917
       published: 2025-07-14-18-26-06
-      updated: 2025-07-15-13-34-28
+      updated: 2025-07-15-14-16-50
       followers: 762
       likes: 47
       views: 195
