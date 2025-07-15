@@ -480,7 +480,7 @@ artyom-melikhoff:
   profiles:
     - service: vk
       id: '299405149'
-      updated: 2025-07-15-10-18-15
+      updated: 2025-07-15-12-35-46
       username: artyom_melikhoff
       name: Артём Мелихов
       avatar: store:/avatars/vk-dd464f34.jpg
@@ -1151,7 +1151,7 @@ darkness-rifho:
       deleted: true
     - service: tg
       id: '5704974271'
-      updated: 2025-07-14-22-26-28
+      updated: 2025-07-15-12-35-50
       accessHash: '3506423524566292179'
       username: C4H6O4
       name: Уна
@@ -1223,7 +1223,7 @@ dehero:
       username: dehero
     - service: vk
       id: '3652910'
-      updated: 2025-07-14-22-46-15
+      updated: 2025-07-15-12-35-50
       username: dehero
       name: Антон Курьянов
       avatar: store:/avatars/vk-5356f76e.jpg
@@ -1243,7 +1243,7 @@ dehero:
     - type: channel
       service: tg
       id: '1264795946'
-      updated: 2025-07-14-22-46-12
+      updated: 2025-07-15-12-35-50
       accessHash: '-5789257269249675714'
       username: mwscr
       name: Morrowind Screenshots
@@ -1715,7 +1715,7 @@ filavandrel-official:
   profiles:
     - service: vk
       id: '682643734'
-      updated: 2025-07-14-22-19-16
+      updated: 2025-07-15-12-35-50
       username: filavandrel_official
       name: Filavandrel Aén Fidháil
       avatar: store:/avatars/vk-c54e400c.jpg
@@ -1913,7 +1913,7 @@ gorheim:
   profiles:
     - service: tg
       id: '5456759154'
-      updated: 2025-07-15-10-18-14
+      updated: 2025-07-15-12-35-48
       accessHash: '3514684589658993491'
       username: Gorheim
       name: Gorheim Labolas
@@ -2476,7 +2476,7 @@ kawazaky223:
   profiles:
     - service: tg
       id: '5641856113'
-      updated: 2025-07-15-10-18-14
+      updated: 2025-07-15-12-35-50
       accessHash: '7421309771527577818'
       username: Kawazaky223
       name: Максим
@@ -2946,7 +2946,7 @@ max-upsher:
   profiles:
     - service: tg
       id: '1774562733'
-      updated: 2025-07-14-22-19-06
+      updated: 2025-07-15-12-35-50
       accessHash: '1025402626840048013'
       username: MaxUpsher
       name: Max Upsher
