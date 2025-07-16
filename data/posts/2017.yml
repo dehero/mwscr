@@ -9794,17 +9794,18 @@
     - service: vk
       id: 2518
       published: 2025-07-15-18-25-19
-      updated: 2025-07-16-07-19-13
+      updated: 2025-07-16-08-23-13
       followers: 1342
       likes: 24
-      views: 159
+      views: 182
     - service: tg
       id: 918
       published: 2025-07-15-18-25-23
-      updated: 2025-07-16-07-19-12
+      updated: 2025-07-16-08-23-15
       followers: 762
-      likes: 45
-      views: 149
+      likes: 48
+      views: 156
+      comments: !c iw6AkZPLQnmBI51ggAClYW5zaXOsVGhlIFVyaGVpbWF0Aw==
 2017-08-23-blessed-rain:
   title: Blessed Rain
   titleRu: Благословенный дождь
