@@ -9794,17 +9794,17 @@
     - service: vk
       id: 2518
       published: 2025-07-15-18-25-19
-      updated: 2025-07-16-17-17-59
+      updated: 2025-07-16-18-24-17
       followers: 1342
-      likes: 29
-      views: 290
+      likes: 30
+      views: 300
     - service: tg
       id: 918
       published: 2025-07-15-18-25-23
-      updated: 2025-07-16-17-18-02
+      updated: 2025-07-16-18-24-21
       followers: 762
-      likes: 54
-      views: 173
+      likes: 55
+      views: 176
       comments: !c CxqAkpPLQnmBJt+bAACra2F3YXpha3kyMjOgk8tCeYEjnWCAAKVhbnNpc6xUaGUgVXJoZWltYXQD
 2017-08-23-blessed-rain:
   title: Blessed Rain
@@ -10928,6 +10928,14 @@
       followers: 82
       likes: 12
       views: 131
+    - service: vk
+      id: 2519
+      published: 2025-07-16-18-24-36
+      followers: 1344
+    - service: tg
+      id: 919
+      published: 2025-07-16-18-24-39
+      followers: 762
 2017-09-20-director-of-corprusarium:
   title: Director of Corprusarium
   titleRu: Директор корпрусариума
