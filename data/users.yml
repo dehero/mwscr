@@ -405,7 +405,7 @@ ansis:
   profiles:
     - service: tg
       id: '517050552'
-      updated: 2025-07-16-16-21-48
+      updated: 2025-07-16-17-18-02
       accessHash: '5231096655311395455'
       username: ansis
       name: ansis
@@ -480,7 +480,7 @@ artyom-melikhoff:
   profiles:
     - service: vk
       id: '299405149'
-      updated: 2025-07-16-16-21-49
+      updated: 2025-07-16-17-18-04
       username: artyom_melikhoff
       name: Артём Мелихов
       avatar: store:/avatars/vk-dd464f34.jpg
@@ -1913,7 +1913,7 @@ gorheim:
   profiles:
     - service: tg
       id: '5456759154'
-      updated: 2025-07-15-17-15-51
+      updated: 2025-07-16-17-18-04
       accessHash: '3514684589658993491'
       username: Gorheim
       name: Gorheim Labolas
@@ -2476,7 +2476,7 @@ kawazaky223:
   profiles:
     - service: tg
       id: '5641856113'
-      updated: 2025-07-16-16-21-49
+      updated: 2025-07-16-17-18-04
       accessHash: '7421309771527577818'
       username: Kawazaky223
       name: Максим
