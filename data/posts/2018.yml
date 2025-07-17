@@ -10377,17 +10377,17 @@
     - service: vk
       id: 2520
       published: 2025-07-17-18-25-15
-      updated: 2025-07-17-22-16-58
+      updated: 2025-07-17-23-17-36
       followers: 1344
       likes: 8
       views: 55
     - service: tg
       id: 920
       published: 2025-07-17-18-25-21
-      updated: 2025-07-17-22-17-00
+      updated: 2025-07-17-23-17-38
       followers: 762
       likes: 34
-      views: 112
+      views: 114
       comments: !c |-
         iyGAkZPLQnmBmuRKAACpcmVkb3JhbmFy2S3QlNC10YDQtdCy0L4uINChINC60LDQvNC90Y/QvNC4
         LiDQkiDQv9C+0LvQtS4D
@@ -12539,18 +12539,18 @@
     - service: vk
       id: 2486
       published: 2025-06-26-18-28-54
-      updated: 2025-07-10-23-16-31
+      updated: 2025-07-17-23-17-39
       followers: 1328
-      likes: 46
-      views: 345
+      likes: 48
+      views: 356
       reposts: 2
     - service: tg
       id: 897
       published: 2025-06-26-18-28-58
-      updated: 2025-07-10-23-16-35
+      updated: 2025-07-17-23-17-40
       followers: 756
-      likes: 70
-      views: 452
+      likes: 71
+      views: 481
       comments: !c iw+AkZPLQnl69+fcAACvdmFpbC1hc3Rvci16a2l5pPCfpK8D
     - service: ig
       id: DLaLhKMMolt
