@@ -10375,11 +10375,20 @@
     - service: vk
       id: 2520
       published: 2025-07-17-18-25-15
+      updated: 2025-07-17-19-15-29
       followers: 1344
+      likes: 3
+      views: 18
     - service: tg
       id: 920
       published: 2025-07-17-18-25-21
+      updated: 2025-07-17-19-15-32
       followers: 762
+      likes: 18
+      views: 64
+      comments: !c |-
+        iyGAkZPLQnmBmuRKAACpcmVkb3JhbmFy2S3QlNC10YDQtdCy0L4uINChINC60LDQvNC90Y/QvNC4
+        LiDQkiDQv9C+0LvQtS4D
 2018-09-11-galmis-dren-smuggler:
   title: Galmis Dren, Smuggler
   titleRu: Гальмис Дрен, контрабандист
