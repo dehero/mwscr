@@ -2415,6 +2415,14 @@ jopa61:
       username: jopa61
       name: Leben In Kick
       avatar: store:/avatars/vk-8e808f03.jpg
+joseph-culp-art:
+  profiles:
+    - service: ig
+      id: '1455918177'
+      updated: 2025-07-17-20-47-05
+      username: joseph.culp.art
+      name: Joseph Daniel Culp
+      avatar: store:/avatars/ig-be9deac2.jpg
 jrirodmoss:
   profiles:
     - service: vk
@@ -2476,7 +2484,7 @@ kawazaky223:
   profiles:
     - service: tg
       id: '5641856113'
-      updated: 2025-07-17-20-20-39
+      updated: 2025-07-17-20-46-49
       accessHash: '7421309771527577818'
       username: Kawazaky223
       name: Максим
@@ -3898,7 +3906,7 @@ redoranar:
   profiles:
     - service: tg
       id: '627928484'
-      updated: 2025-07-17-20-20-39
+      updated: 2025-07-17-20-46-48
       accessHash: '4117269213935533016'
       username: Redoranar
       name: Egor
@@ -4006,6 +4014,14 @@ rozeefan:
       username: rozeefan
       name: Big Man Kevin 🇺🇸
       avatar: store:/avatars/tg-1084755452043044972.jpg
+rudy-brady:
+  profiles:
+    - service: ig
+      id: '6760842918'
+      updated: 2025-07-17-20-58-42
+      username: rudy_brady_
+      name: Ruby
+      avatar: store:/avatars/ig-3fba481c.jpg
 ruslanfivsky:
   profiles:
     - service: ig
