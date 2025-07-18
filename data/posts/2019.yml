@@ -45,17 +45,17 @@
     - service: vk
       id: 2514
       published: 2025-07-12-18-22-27
-      updated: 2025-07-17-20-15-14
+      updated: 2025-07-18-20-18-56
       followers: 1338
-      likes: 37
-      views: 343
+      likes: 40
+      views: 374
     - service: tg
       id: 915
       published: 2025-07-12-18-22-31
-      updated: 2025-07-17-20-15-18
+      updated: 2025-07-18-20-19-00
       followers: 761
       likes: 54
-      views: 308
+      views: 326
       comments: !c iw2AkZPLQnmAJyHhAACra2F3YXpha3kyMjOk8J+ZjwM=
     - service: ig
       id: DMOwL2voVx-

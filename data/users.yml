@@ -2484,7 +2484,7 @@ kawazaky223:
   profiles:
     - service: tg
       id: '5641856113'
-      updated: 2025-07-18-19-14-36
+      updated: 2025-07-18-20-19-01
       accessHash: '7421309771527577818'
       username: Kawazaky223
       name: Максим
@@ -2954,7 +2954,7 @@ max-upsher:
   profiles:
     - service: tg
       id: '1774562733'
-      updated: 2025-07-18-19-14-30
+      updated: 2025-07-18-20-19-01
       accessHash: '1025402626840048013'
       username: MaxUpsher
       name: Max Upsher
@@ -3411,6 +3411,15 @@ ob-vi-ous-ly:
       username: ob.vi.ous.ly
       name: Vincent ( ob.vi.ous.ly )
       avatar: store:/avatars/ig-e9eb1e00.jpg
+oberhort:
+  profiles:
+    - service: tg
+      id: '19254498'
+      updated: 2025-07-18-20-18-56
+      accessHash: '-564270059565994883'
+      username: oberhort
+      name: Игорь
+      avatar: store:/avatars/tg-82697439667140837.jpg
 octo-puss:
   profiles:
     - service: ig
@@ -3908,7 +3917,7 @@ redoranar:
   profiles:
     - service: tg
       id: '627928484'
-      updated: 2025-07-18-19-14-31
+      updated: 2025-07-18-20-18-59
       accessHash: '4117269213935533016'
       username: Redoranar
       name: Egor
@@ -4178,7 +4187,7 @@ sergey-b:
   profiles:
     - service: vk
       id: '889222999'
-      updated: 2025-07-18-19-14-31
+      updated: 2025-07-18-20-18-54
       username: id889222999
       name: Сергей Б
       avatar: store:/avatars/vk-b169a7ef.jpg
