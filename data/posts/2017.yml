@@ -9811,9 +9811,9 @@
       id: DMPnJZ9ssKX
       mediaId: '18038172848348442'
       published: 2025-07-18-09-22-12
-      updated: 2025-07-18-11-15-03
+      updated: 2025-07-18-12-35-12
       followers: 1568
-      likes: 18
+      likes: 21
 2017-08-23-blessed-rain:
   title: Blessed Rain
   titleRu: Благословенный дождь
@@ -10939,18 +10939,23 @@
     - service: vk
       id: 2519
       published: 2025-07-16-18-24-36
-      updated: 2025-07-18-11-14-59
+      updated: 2025-07-18-12-35-07
       followers: 1344
       likes: 25
-      views: 182
+      views: 183
     - service: tg
       id: 919
       published: 2025-07-16-18-24-39
-      updated: 2025-07-18-11-15-02
+      updated: 2025-07-18-12-35-11
       followers: 762
-      likes: 52
-      views: 281
+      likes: 53
+      views: 282
       comments: !c Cw2AkZPLQnmBSwY+gACra2F3YXpha3kyMjOj4pyLAw==
+    - service: ig
+      id: DMP9TSusCyW
+      mediaId: '18018603722537184'
+      published: 2025-07-18-12-35-47
+      followers: 1568
 2017-09-20-director-of-corprusarium:
   title: Director of Corprusarium
   titleRu: Директор корпрусариума
