@@ -2056,7 +2056,7 @@ hyarvar:
   profiles:
     - service: vk
       id: '702302403'
-      updated: 2025-07-14-22-30-39
+      updated: 2025-07-18-14-17-19
       username: hyarvar
       name: Хьярвар Драконорожденный
       avatar: store:/avatars/vk-b20f6d84.jpg
@@ -2484,7 +2484,7 @@ kawazaky223:
   profiles:
     - service: tg
       id: '5641856113'
-      updated: 2025-07-18-13-34-35
+      updated: 2025-07-18-14-17-18
       accessHash: '7421309771527577818'
       username: Kawazaky223
       name: Максим
@@ -2954,7 +2954,7 @@ max-upsher:
   profiles:
     - service: tg
       id: '1774562733'
-      updated: 2025-07-18-13-34-32
+      updated: 2025-07-18-14-17-17
       accessHash: '1025402626840048013'
       username: MaxUpsher
       name: Max Upsher
@@ -3908,7 +3908,7 @@ redoranar:
   profiles:
     - service: tg
       id: '627928484'
-      updated: 2025-07-18-13-34-33
+      updated: 2025-07-18-14-17-17
       accessHash: '4117269213935533016'
       username: Redoranar
       name: Egor

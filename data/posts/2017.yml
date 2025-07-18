@@ -3091,10 +3091,10 @@
     - service: vk
       id: 1840
       published: 2024-10-17-18-09-16
-      updated: 2025-07-11-14-17-13
+      updated: 2025-07-18-14-17-21
       followers: 965
       likes: 49
-      views: 663
+      views: 666
       reposts: 2
       comments: !c iwuAkZPLQnkp0j58gACnaHlhcnZhcqTwn6WwAw==
     - service: tg
@@ -9811,9 +9811,9 @@
       id: DMPnJZ9ssKX
       mediaId: '18038172848348442'
       published: 2025-07-18-09-22-12
-      updated: 2025-07-18-13-34-36
+      updated: 2025-07-18-14-17-23
       followers: 1568
-      likes: 26
+      likes: 27
 2017-08-23-blessed-rain:
   title: Blessed Rain
   titleRu: Благословенный дождь
@@ -10939,25 +10939,26 @@
     - service: vk
       id: 2519
       published: 2025-07-16-18-24-36
-      updated: 2025-07-18-13-34-30
+      updated: 2025-07-18-14-17-15
       followers: 1344
       likes: 25
-      views: 185
+      views: 187
+      reposts: 1
     - service: tg
       id: 919
       published: 2025-07-16-18-24-39
-      updated: 2025-07-18-13-34-35
+      updated: 2025-07-18-14-17-18
       followers: 762
       likes: 53
-      views: 283
+      views: 285
       comments: !c Cw2AkZPLQnmBSwY+gACra2F3YXpha3kyMjOj4pyLAw==
     - service: ig
       id: DMP9TSusCyW
       mediaId: '18018603722537184'
       published: 2025-07-18-12-35-47
-      updated: 2025-07-18-13-34-33
+      updated: 2025-07-18-14-17-20
       followers: 1568
-      likes: 12
+      likes: 16
 2017-09-20-director-of-corprusarium:
   title: Director of Corprusarium
   titleRu: Директор корпрусариума
