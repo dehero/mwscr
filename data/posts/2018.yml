@@ -2655,11 +2655,17 @@
     - service: vk
       id: 2522
       published: 2025-07-18-18-24-20
+      updated: 2025-07-18-19-14-27
       followers: 1345
+      likes: 4
+      views: 22
     - service: tg
       id: 921
       published: 2025-07-18-18-24-24
+      updated: 2025-07-18-19-14-26
       followers: 763
+      likes: 25
+      views: 87
 2018-03-08-dead-guar:
   title: Dead Guar
   titleRu: Мёртвый гуар
@@ -8422,18 +8428,18 @@
     - service: vk
       id: 2515
       published: 2025-07-13-18-22-15
-      updated: 2025-07-17-18-24-37
+      updated: 2025-07-18-19-14-38
       followers: 1342
-      likes: 41
-      views: 450
+      likes: 42
+      views: 461
       reposts: 1
     - service: tg
       id: 916
       published: 2025-07-13-18-22-19
-      updated: 2025-07-17-18-24-39
+      updated: 2025-07-18-19-14-37
       followers: 762
-      likes: 58
-      views: 299
+      likes: 60
+      views: 322
       comments: !c |-
         CyqAkpPLQnmAVEdAgACra2F3YXpha3kyMjOgk8tCeYBQaf6AAKdnb3JoZWlt2SnQndC+0YHRgtCw
         0LvRjNCz0LjRjyDQt9Cw0LzRg9GH0LjQu9CwICgoKAM=
@@ -10392,10 +10398,10 @@
     - service: vk
       id: 2520
       published: 2025-07-17-18-25-15
-      updated: 2025-07-18-18-23-25
+      updated: 2025-07-18-19-14-32
       followers: 1344
       likes: 26
-      views: 146
+      views: 150
       reposts: 1
       comments: !c |-
         G9YAYJ0JdozKK3T3hoioW5zQaaoBFqVB3gSYRJ7skb2q243RT8iELTvNC6RFGSByxx7TXfv1EMjP
@@ -10404,10 +10410,10 @@
     - service: tg
       id: 920
       published: 2025-07-17-18-25-21
-      updated: 2025-07-18-18-23-26
+      updated: 2025-07-18-19-14-31
       followers: 762
-      likes: 54
-      views: 176
+      likes: 56
+      views: 204
       comments: !c |-
         G68A4B0HubnojiSu9KGfeP7f2wgf0GfZmYx0QhVhcj94QA3eDCXQiyltQN2v0d7rWCip2x6L5cY0
         8CAIKhPR25K1HjbgRAPkEQaQARdd4WaITjo357yJw+8/wbgXbtpzVWMEOgiGEJcbP3EyM9XAmssd
