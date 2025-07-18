@@ -2484,7 +2484,7 @@ kawazaky223:
   profiles:
     - service: tg
       id: '5641856113'
-      updated: 2025-07-18-12-35-11
+      updated: 2025-07-18-13-34-35
       accessHash: '7421309771527577818'
       username: Kawazaky223
       name: Максим
@@ -2954,7 +2954,7 @@ max-upsher:
   profiles:
     - service: tg
       id: '1774562733'
-      updated: 2025-07-18-12-35-09
+      updated: 2025-07-18-13-34-32
       accessHash: '1025402626840048013'
       username: MaxUpsher
       name: Max Upsher
@@ -3549,9 +3549,11 @@ ourdotv:
 outdoortraveling:
   profiles:
     - service: ig
-      id: '710245065308947'
-      updated: 2025-06-20-13-10-09
+      id: '54915998'
+      updated: 2025-07-18-13-35-34
       username: outdoortraveling_
+      name: Luca Lautenschläger
+      avatar: store:/avatars/ig-a977ae28.jpg
 ow3n-inst4gram:
   profiles:
     - service: ig
@@ -3906,7 +3908,7 @@ redoranar:
   profiles:
     - service: tg
       id: '627928484'
-      updated: 2025-07-18-12-35-10
+      updated: 2025-07-18-13-34-33
       accessHash: '4117269213935533016'
       username: Redoranar
       name: Egor
@@ -4585,9 +4587,11 @@ swekg:
 syfy-bioware123:
   profiles:
     - service: ig
-      id: '4258644157794854'
-      updated: 2025-06-20-13-12-04
+      id: '2089781217'
+      updated: 2025-07-18-13-37-04
       username: syfy_bioware123
+      name: Gamer _VP_creator
+      avatar: store:/avatars/ig-05bacadc.jpg
 syntax3rrur:
   profiles:
     - service: ig
