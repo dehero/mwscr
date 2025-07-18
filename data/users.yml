@@ -2484,7 +2484,7 @@ kawazaky223:
   profiles:
     - service: tg
       id: '5641856113'
-      updated: 2025-07-18-16-22-45
+      updated: 2025-07-18-17-18-17
       accessHash: '7421309771527577818'
       username: Kawazaky223
       name: Максим
@@ -2954,7 +2954,7 @@ max-upsher:
   profiles:
     - service: tg
       id: '1774562733'
-      updated: 2025-07-18-16-22-42
+      updated: 2025-07-18-17-18-15
       accessHash: '1025402626840048013'
       username: MaxUpsher
       name: Max Upsher
@@ -3908,7 +3908,7 @@ redoranar:
   profiles:
     - service: tg
       id: '627928484'
-      updated: 2025-07-18-16-22-43
+      updated: 2025-07-18-17-18-16
       accessHash: '4117269213935533016'
       username: Redoranar
       name: Egor
@@ -4178,10 +4178,10 @@ sergey-b:
   profiles:
     - service: vk
       id: '889222999'
-      updated: 2025-07-14-22-46-10
+      updated: 2025-07-18-17-18-18
       username: id889222999
       name: Сергей Б
-      avatar: store:/avatars/vk-62b69af7.jpg
+      avatar: store:/avatars/vk-b169a7ef.jpg
     - service: vk
       id: '810900694'
       updated: 2025-07-14-22-46-14

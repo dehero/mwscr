@@ -10384,17 +10384,22 @@
     - service: vk
       id: 2520
       published: 2025-07-17-18-25-15
-      updated: 2025-07-18-16-22-38
+      updated: 2025-07-18-17-18-18
       followers: 1344
-      likes: 25
-      views: 137
+      likes: 26
+      views: 140
+      reposts: 1
+      comments: !c |-
+        G9YAYJ0JdozKK3T3hoioW5zQaaoBFqVB3gSYRJ7skb2q243RT8iELTvNC6RFGSByxx7TXfv1EMjP
+        IwksSJqXZS1nsAEH7vFA8yyD2MQ8OOS2w8XjLOgK9/O3w3//MX27bUfr22cWsqmmFnQxWhItdoHa
+        DqGI09tZkQnDEMaiWdzxSVNjRtU1qs5R651nB1aHGmxWgQZRVkAhc4C04oGvDh5ZFg==
     - service: tg
       id: 920
       published: 2025-07-17-18-25-21
-      updated: 2025-07-18-16-22-44
+      updated: 2025-07-18-17-18-16
       followers: 762
       likes: 54
-      views: 172
+      views: 173
       comments: !c |-
         G68A4B0HubnojiSu9KGfeP7f2wgf0GfZmYx0QhVhcj94QA3eDCXQiyltQN2v0d7rWCip2x6L5cY0
         8CAIKhPR25K1HjbgRAPkEQaQARdd4WaITjo357yJw+8/wbgXbtpzVWMEOgiGEJcbP3EyM9XAmssd
