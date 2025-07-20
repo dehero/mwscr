@@ -386,6 +386,14 @@
         sAwiBf6HCE6czP5JMxPqFBLjScaogRKexdFN8AXWluB4Jcp2LoQhFCNr2qrrWS7gUgQsNwlQukPB
         zJCgQuUBhSXICF2a5CoLV06R2hBqeakSr3ADGpaWym1tu1iI3vtlUGjI0rtO6OO8t3eACkPv/b1t
         CCZfnhMi5XxPRic/eOBswYHy+T/z/7jejxxGva/vERoLAA==
+    - service: vk
+      id: 2523
+      published: 2025-07-20-18-36-19
+      followers: 1349
+    - service: tg
+      id: 922
+      published: 2025-07-20-18-36-23
+      followers: 763
 2022-07-01-tel-aruhn-at-dawn:
   title: Tel Aruhn at Dawn
   titleRu: Тель Арун на заре
