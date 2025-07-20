@@ -2655,17 +2655,18 @@
     - service: vk
       id: 2522
       published: 2025-07-18-18-24-20
-      updated: 2025-07-19-17-16-03
+      updated: 2025-07-20-10-02-18
       followers: 1345
-      likes: 17
-      views: 135
+      likes: 22
+      views: 173
     - service: tg
       id: 921
       published: 2025-07-18-18-24-24
-      updated: 2025-07-19-17-16-02
+      updated: 2025-07-20-10-02-20
       followers: 763
-      likes: 47
-      views: 181
+      likes: 48
+      views: 193
+      comments: !c iw2AkZPLQnmCbLDJAACra2F3YXpha3kyMjOk8J+YkQM=
 2018-03-08-dead-guar:
   title: Dead Guar
   titleRu: Мёртвый гуар
@@ -8428,18 +8429,18 @@
     - service: vk
       id: 2515
       published: 2025-07-13-18-22-15
-      updated: 2025-07-18-19-14-38
+      updated: 2025-07-20-10-02-25
       followers: 1342
       likes: 42
-      views: 461
+      views: 482
       reposts: 1
     - service: tg
       id: 916
       published: 2025-07-13-18-22-19
-      updated: 2025-07-18-19-14-37
+      updated: 2025-07-20-10-02-24
       followers: 762
-      likes: 60
-      views: 322
+      likes: 61
+      views: 337
       comments: !c |-
         CyqAkpPLQnmAVEdAgACra2F3YXpha3kyMjOgk8tCeYBQaf6AAKdnb3JoZWlt2SnQndC+0YHRgtCw
         0LvRjNCz0LjRjyDQt9Cw0LzRg9GH0LjQu9CwICgoKAM=
