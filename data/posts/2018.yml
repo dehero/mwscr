@@ -2655,17 +2655,17 @@
     - service: vk
       id: 2522
       published: 2025-07-18-18-24-20
-      updated: 2025-07-20-17-23-38
+      updated: 2025-07-21-17-27-19
       followers: 1345
-      likes: 27
-      views: 207
+      likes: 28
+      views: 246
     - service: tg
       id: 921
       published: 2025-07-18-18-24-24
-      updated: 2025-07-20-17-23-41
+      updated: 2025-07-21-17-27-23
       followers: 763
-      likes: 49
-      views: 195
+      likes: 54
+      views: 238
       comments: !c iw2AkZPLQnmCbLDJAACra2F3YXpha3kyMjOk8J+YkQM=
 2018-03-08-dead-guar:
   title: Dead Guar
@@ -10399,11 +10399,11 @@
     - service: vk
       id: 2520
       published: 2025-07-17-18-25-15
-      updated: 2025-07-20-17-23-43
+      updated: 2025-07-21-17-27-24
       followers: 1344
-      likes: 38
-      views: 240
-      reposts: 2
+      likes: 43
+      views: 283
+      reposts: 3
       comments: !c |-
         G9YAYJ0JdozKK3T3hoioW5zQaaoBFqVB3gSYRJ7skb2q243RT8iELTvNC6RFGSByxx7TXfv1EMjP
         IwksSJqXZS1nsAEH7vFA8yyD2MQ8OOS2w8XjLOgK9/O3w3//MX27bUfr22cWsqmmFnQxWhItdoHa
@@ -10411,10 +10411,10 @@
     - service: tg
       id: 920
       published: 2025-07-17-18-25-21
-      updated: 2025-07-20-17-23-43
+      updated: 2025-07-21-17-27-25
       followers: 762
-      likes: 60
-      views: 245
+      likes: 61
+      views: 278
       comments: !c |-
         G+UAQByHsdtkaOovXehCjBfx9bcjPKDP0jQ1kZZAFWGyDzygprZJqlwnVI3U9J8QkW0V97aWTd0W
         k+XGNPFwEDxMRbUla70bnGiAEIUQgASYBrjC4CEr8VjXPh37S1/4qdiqcylKc85ARQ7Df944AtRa
