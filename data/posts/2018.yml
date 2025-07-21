@@ -7144,10 +7144,10 @@
     - service: vk
       id: 2491
       published: 2025-06-30-18-28-36
-      updated: 2025-07-14-20-19-33
+      updated: 2025-07-21-20-30-56
       followers: 1334
-      likes: 70
-      views: 607
+      likes: 71
+      views: 628
       reposts: 3
       comments: !c |-
         G48A+J0JdmwKpDOzTxnXnhL9IzfSr0GqbRm2SBNL7unmLClYgoo7A7/Z8pASKaLumnXBYDT4dTct
@@ -7156,10 +7156,10 @@
     - service: tg
       id: 901
       published: 2025-06-30-18-28-41
-      updated: 2025-07-14-20-19-34
+      updated: 2025-07-21-20-30-55
       followers: 760
-      likes: 62
-      views: 461
+      likes: 63
+      views: 490
 2018-06-26-smoking-house:
   title: Smoking House
   titleRu: Дымящий дом
