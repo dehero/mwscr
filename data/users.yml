@@ -1243,7 +1243,7 @@ dehero:
     - type: channel
       service: tg
       id: '1264795946'
-      updated: 2025-07-21-20-30-55
+      updated: 2025-07-21-21-27-11
       accessHash: '-5789257269249675714'
       username: mwscr
       name: Morrowind Screenshots
@@ -1436,7 +1436,7 @@ dremarretres:
   profiles:
     - service: vk
       id: '801308664'
-      updated: 2025-07-15-22-17-21
+      updated: 2025-07-21-21-27-24
       username: dremarretres
       name: Джон Шепард
       avatar: store:/avatars/vk-ac4f0700.jpg
@@ -2484,7 +2484,7 @@ kawazaky223:
   profiles:
     - service: tg
       id: '5641856113'
-      updated: 2025-07-21-17-27-25
+      updated: 2025-07-21-21-27-23
       accessHash: '7421309771527577818'
       username: Kawazaky223
       name: Максим
@@ -3082,7 +3082,7 @@ mlennic:
   profiles:
     - service: tg
       id: '402884048'
-      updated: 2025-07-14-22-46-11
+      updated: 2025-07-21-21-27-12
       accessHash: '308008325024369067'
       username: mlennic
       name: Kosmos
@@ -3996,7 +3996,7 @@ roman-drovosek:
   profiles:
     - service: vk
       id: '279905837'
-      updated: 2025-07-14-22-30-51
+      updated: 2025-07-21-21-27-24
       username: roman_drovosek
       name: Roman Drovosek
       avatar: store:/avatars/vk-7b3ad9e0.jpg
@@ -4187,7 +4187,7 @@ sergey-b:
   profiles:
     - service: vk
       id: '889222999'
-      updated: 2025-07-21-17-27-24
+      updated: 2025-07-21-21-27-26
       username: id889222999
       name: Сергей Б
       avatar: store:/avatars/vk-b169a7ef.jpg
@@ -5184,7 +5184,7 @@ vail-astor-zkiy:
   profiles:
     - service: tg
       id: '1245638625'
-      updated: 2025-07-21-20-30-52
+      updated: 2025-07-21-21-27-12
       accessHash: '-6135365331334675689'
       name: Vail Astor'zkiy
 valeriy-zhmishenko:
@@ -5326,7 +5326,7 @@ vladkr114:
   profiles:
     - service: vk
       id: '210352858'
-      updated: 2025-07-14-22-29-53
+      updated: 2025-07-21-21-27-16
       username: vladkr114
       name: Влад Крамской
       avatar: store:/avatars/vk-dfe1d842.jpg
