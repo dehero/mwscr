@@ -1243,7 +1243,7 @@ dehero:
     - type: channel
       service: tg
       id: '1264795946'
-      updated: 2025-07-21-14-29-54
+      updated: 2025-07-21-15-30-32
       accessHash: '-5789257269249675714'
       username: mwscr
       name: Morrowind Screenshots
@@ -5184,7 +5184,7 @@ vail-astor-zkiy:
   profiles:
     - service: tg
       id: '1245638625'
-      updated: 2025-07-21-14-29-52
+      updated: 2025-07-21-15-30-30
       accessHash: '-6135365331334675689'
       name: Vail Astor'zkiy
 valeriy-zhmishenko:
