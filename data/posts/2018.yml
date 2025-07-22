@@ -14241,11 +14241,23 @@
     - service: vk
       id: 2526
       published: 2025-07-22-18-40-41
+      updated: 2025-07-22-19-23-40
       followers: 1349
+      likes: 3
+      views: 15
     - service: tg
       id: 924
       published: 2025-07-22-18-40-51
+      updated: 2025-07-22-19-23-44
       followers: 764
+      likes: 19
+      views: 77
+      comments: !c |-
+        GwYCACwOzFOfDmxovC3jU3YaxBn9IyeSfqCC1qRc8qYZ8DLiyT2zbZQQOUMztAc3fOf2hGqo6txq
+        xKrN2s7PmG4MQ2vq5JCucOtbBbXgQFgDRGHFM9uBznHGuyvZXSKJd+0SSQON4gccTyixNL3hK8ez
+        kNjkgufzX5YZ7XcrlNirvwLELL7eyCAL6hleYDKpw8ow7Ugs0pvvCXpDV4DlMtuQqw+ipLzggTxv
+        io7Bj/a92Cbmtz4ZYvg3iLlN3sqdeKeaQjGBgOR0mwrXMwC3J/rfEYjx44aKqiBq3mCROk4SwwIF
+        lFg/FX6RFAKZqBjMJM5uxaWSptnAjRKReaEgFbnC6tmB0xNQwpE0mMcV3X2UCgE=
 2018-12-05-belowdecks:
   title: Belowdecks
   titleRu: В трюме
