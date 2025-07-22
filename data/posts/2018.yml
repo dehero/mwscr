@@ -2662,10 +2662,10 @@
     - service: tg
       id: 921
       published: 2025-07-18-18-24-24
-      updated: 2025-07-21-17-27-23
+      updated: 2025-07-22-18-40-19
       followers: 763
-      likes: 54
-      views: 238
+      likes: 57
+      views: 286
       comments: !c iw2AkZPLQnmCbLDJAACra2F3YXpha3kyMjOk8J+YkQM=
 2018-03-08-dead-guar:
   title: Dead Guar
@@ -10399,10 +10399,10 @@
     - service: vk
       id: 2520
       published: 2025-07-17-18-25-15
-      updated: 2025-07-21-17-27-24
+      updated: 2025-07-22-18-40-21
       followers: 1344
-      likes: 43
-      views: 283
+      likes: 45
+      views: 305
       reposts: 3
       comments: !c |-
         G9YAYJ0JdozKK3T3hoioW5zQaaoBFqVB3gSYRJ7skb2q243RT8iELTvNC6RFGSByxx7TXfv1EMjP
@@ -10411,10 +10411,10 @@
     - service: tg
       id: 920
       published: 2025-07-17-18-25-21
-      updated: 2025-07-21-17-27-25
+      updated: 2025-07-22-18-40-22
       followers: 762
-      likes: 61
-      views: 278
+      likes: 63
+      views: 324
       comments: !c |-
         G+UAQByHsdtkaOovXehCjBfx9bcjPKDP0jQ1kZZAFWGyDzygprZJqlwnVI3U9J8QkW0V97aWTd0W
         k+XGNPFwEDxMRbUla70bnGiAEIUQgASYBrjC4CEr8VjXPh37S1/4qdiqcylKc85ARQ7Df944AtRa
@@ -14238,6 +14238,14 @@
       updated: 2025-07-21-23-28-47
       likes: 2
       views: 518
+    - service: vk
+      id: 2526
+      published: 2025-07-22-18-40-41
+      followers: 1349
+    - service: tg
+      id: 924
+      published: 2025-07-22-18-40-51
+      followers: 764
 2018-12-05-belowdecks:
   title: Belowdecks
   titleRu: В трюме
