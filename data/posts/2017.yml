@@ -8896,18 +8896,21 @@
     - service: vk
       id: 2524
       published: 2025-07-21-18-40-38
-      updated: 2025-07-22-14-27-22
+      updated: 2025-07-22-15-31-07
       followers: 1350
-      likes: 21
-      views: 171
+      likes: 23
+      views: 177
       reposts: 2
+      comments: !c |-
+        G1UA+MWqTVHy0QwejbLdteJaiUofn/FUGzK+7skIlRRlIpPSAFVOavvjU04K4R9z3OhprqElomL2
+        0Qp/Eq5YMVKKDTNGhgdGqjHiTjueYWCYsVE2+3CjAg==
     - service: tg
       id: 923
       published: 2025-07-21-18-40-42
-      updated: 2025-07-22-14-27-21
+      updated: 2025-07-22-15-31-01
       followers: 764
       likes: 50
-      views: 164
+      views: 165
 2017-07-31-at-the-coast:
   title: At the Coast
   titleRu: На побережье
