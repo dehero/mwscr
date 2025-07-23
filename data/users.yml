@@ -1115,7 +1115,7 @@ danya-r:
   profiles:
     - service: tg
       id: '6217540848'
-      updated: 2025-07-23-18-40-04
+      updated: 2025-07-23-19-23-26
       accessHash: '144997878637800057'
       name: Даня ᦓꫝꪖρꪮᦓꫝꪀ꠸ᛕꪮꪜ
       avatar: store:/avatars/tg-5285154641996281850.jpg
@@ -2484,7 +2484,7 @@ kawazaky223:
   profiles:
     - service: tg
       id: '5641856113'
-      updated: 2025-07-23-17-27-49
+      updated: 2025-07-23-19-23-29
       accessHash: '7421309771527577818'
       username: Kawazaky223
       name: Максим
@@ -2954,7 +2954,7 @@ max-upsher:
   profiles:
     - service: tg
       id: '1774562733'
-      updated: 2025-07-22-22-26-54
+      updated: 2025-07-23-19-23-29
       accessHash: '1025402626840048013'
       username: MaxUpsher
       name: Max Upsher
@@ -3324,7 +3324,7 @@ nihil-sum:
   profiles:
     - service: tg
       id: '563711962'
-      updated: 2025-07-23-18-40-03
+      updated: 2025-07-23-19-23-26
       accessHash: '4311900909005184860'
       username: syomadyoma
       botChatId: 563711962
@@ -3415,7 +3415,7 @@ oberhort:
   profiles:
     - service: tg
       id: '19254498'
-      updated: 2025-07-22-18-40-22
+      updated: 2025-07-23-19-23-29
       accessHash: '-564270059565994883'
       username: oberhort
       name: Игорь
@@ -3917,7 +3917,7 @@ redoranar:
   profiles:
     - service: tg
       id: '627928484'
-      updated: 2025-07-22-18-40-22
+      updated: 2025-07-23-19-23-29
       accessHash: '4117269213935533016'
       username: Redoranar
       name: Egor
@@ -4187,7 +4187,7 @@ sergey-b:
   profiles:
     - service: vk
       id: '889222999'
-      updated: 2025-07-22-18-40-20
+      updated: 2025-07-23-19-23-27
       username: id889222999
       name: Сергей Б
       avatar: store:/avatars/vk-b169a7ef.jpg
@@ -4201,7 +4201,7 @@ sergey-churbanov:
   profiles:
     - service: vk
       id: '1060712354'
-      updated: 2025-07-23-18-40-05
+      updated: 2025-07-23-19-23-24
       username: id1060712354
       name: Сергей Чурбанов
       avatar: store:/avatars/vk-6499ce8d.jpg
