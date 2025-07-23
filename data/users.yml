@@ -1115,7 +1115,7 @@ danya-r:
   profiles:
     - service: tg
       id: '6217540848'
-      updated: 2025-07-23-12-59-20
+      updated: 2025-07-23-13-44-54
       accessHash: '144997878637800057'
       name: Даня ᦓꫝꪖρꪮᦓꫝꪀ꠸ᛕꪮꪜ
       avatar: store:/avatars/tg-5285154641996281850.jpg
@@ -3324,7 +3324,7 @@ nihil-sum:
   profiles:
     - service: tg
       id: '563711962'
-      updated: 2025-07-23-12-59-19
+      updated: 2025-07-23-13-44-53
       accessHash: '4311900909005184860'
       username: syomadyoma
       botChatId: 563711962
@@ -4201,7 +4201,7 @@ sergey-churbanov:
   profiles:
     - service: vk
       id: '1060712354'
-      updated: 2025-07-23-12-59-20
+      updated: 2025-07-23-13-44-55
       username: id1060712354
       name: Сергей Чурбанов
       avatar: store:/avatars/vk-6499ce8d.jpg
@@ -5493,7 +5493,8 @@ xnzayrpcad:
   profiles:
     - service: tg
       id: '7523695427'
-      updated: 2025-06-25-13-24-05
+      updated: 2025-07-23-13-45-01
+      accessHash: '3683185995960089433'
       username: dryteuiop
       botChatId: 7523695427
       name: Xnzayrpcad Jzjfongjiw
@@ -5530,7 +5531,8 @@ yaroslav:
   profiles:
     - service: tg
       id: '393415568'
-      updated: 2025-06-25-13-24-05
+      updated: 2025-07-23-13-45-02
+      accessHash: '-6464076418226165380'
       username: bondarets
       botChatId: 393415568
       name: Yaroslav
