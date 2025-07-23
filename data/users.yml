@@ -1115,7 +1115,7 @@ danya-r:
   profiles:
     - service: tg
       id: '6217540848'
-      updated: 2025-07-23-13-44-54
+      updated: 2025-07-23-14-29-38
       accessHash: '144997878637800057'
       name: Даня ᦓꫝꪖρꪮᦓꫝꪀ꠸ᛕꪮꪜ
       avatar: store:/avatars/tg-5285154641996281850.jpg
@@ -3324,7 +3324,7 @@ nihil-sum:
   profiles:
     - service: tg
       id: '563711962'
-      updated: 2025-07-23-13-44-53
+      updated: 2025-07-23-14-29-37
       accessHash: '4311900909005184860'
       username: syomadyoma
       botChatId: 563711962
@@ -4201,7 +4201,7 @@ sergey-churbanov:
   profiles:
     - service: vk
       id: '1060712354'
-      updated: 2025-07-23-13-44-55
+      updated: 2025-07-23-14-29-38
       username: id1060712354
       name: Сергей Чурбанов
       avatar: store:/avatars/vk-6499ce8d.jpg
