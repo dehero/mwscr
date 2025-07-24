@@ -187,22 +187,27 @@ export class InstagramManager extends Instagram implements PostingServiceManager
     }
 
     if (!this.fetcher) {
-      const { INSTAGRAM_FETCHER_USERNAME, INSTAGRAM_FETCHER_PASSWORD } = process.env;
+      try {
+        const { INSTAGRAM_FETCHER_USERNAME, INSTAGRAM_FETCHER_PASSWORD } = process.env;
 
-      if (!INSTAGRAM_FETCHER_USERNAME) {
-        throw new Error(`Need ${this.name} fetcher username`);
+        if (!INSTAGRAM_FETCHER_USERNAME) {
+          throw new Error(`Need ${this.name} fetcher username`);
+        }
+
+        if (!INSTAGRAM_FETCHER_PASSWORD) {
+          throw new Error(`Need ${this.name} fetcher password`);
+        }
+
+        const cookie = await getCookie(INSTAGRAM_FETCHER_USERNAME, INSTAGRAM_FETCHER_PASSWORD);
+        if (typeof cookie !== 'string') {
+          throw new TypeError(`Cannot get ${this.name} cookie`);
+        }
+
+        this.fetcher = new igApi(cookie);
+      } catch {
+        // Can do without fetcher (no user profile grabbing will be available)
+        this.fetcher = undefined;
       }
-
-      if (!INSTAGRAM_FETCHER_PASSWORD) {
-        throw new Error(`Need ${this.name} fetcher password`);
-      }
-
-      const cookie = await getCookie(INSTAGRAM_FETCHER_USERNAME, INSTAGRAM_FETCHER_PASSWORD);
-      if (typeof cookie !== 'string') {
-        throw new TypeError(`Cannot get ${this.name} cookie`);
-      }
-
-      this.fetcher = new igApi(cookie);
     }
 
     return { ig: this.ig, fetcher: this.fetcher };
@@ -623,6 +628,9 @@ export class InstagramManager extends Instagram implements PostingServiceManager
     let url;
 
     const { fetcher } = await this.connect();
+    if (!fetcher) {
+      return;
+    }
 
     if (profile.username) {
       user = await this.fetchWithDelay(() => fetcher.fetchUserV2(profile.username!));
