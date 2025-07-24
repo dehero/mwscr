@@ -275,20 +275,20 @@
     - service: vk
       id: 2527
       published: 2025-07-23-18-40-24
-      updated: 2025-07-24-06-41-19
+      updated: 2025-07-24-07-23-49
       followers: 1349
-      likes: 17
-      views: 104
+      likes: 19
+      views: 113
       comments: !c |-
         ixqAkZPLQnmDifuygACwc2VyZ2V5LWNodXJiYW5vdrnQltGL0YDQvdCw0Y8g0LHQvtGA0L7QtNCw
         Aw==
     - service: tg
       id: 925
       published: 2025-07-23-18-40-30
-      updated: 2025-07-24-06-41-21
+      updated: 2025-07-24-07-23-49
       followers: 765
-      likes: 46
-      views: 146
+      likes: 47
+      views: 151
       comments: !c iwuAkZPLQnmDjDrkgACra2F3YXpha3kyMjOgAw==
 2020-05-19-night-guard:
   title: Night Guard
@@ -1166,9 +1166,9 @@
       id: DMPTAzKMjL2
       mediaId: '18073958353804419'
       published: 2025-07-18-06-26-22
-      updated: 2025-07-18-16-22-47
+      updated: 2025-07-24-07-24-01
       followers: 1568
-      likes: 29
+      likes: 49
 2020-10-20-longing-for-a-departed-hero:
   title: Longing for a Departed Hero
   titleRu: Тоска по ушедшему герою
