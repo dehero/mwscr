@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file.
 
+## [2.1.3](https://github.com/dehero/mwscr/compare/v2.1.2...v2.1.3) (2025-07-24)
+
+### Bug Fixes
+
+- allow posting to Instagram without connecting to fetcher
+  ([ef3ee8e](https://github.com/dehero/mwscr/commit/ef3ee8e058a4b0236ef31a821b6f8969f8d8aaf0))
+
 ## [2.1.2](https://github.com/dehero/mwscr/compare/v2.1.1...v2.1.2) (2025-07-01)
 
 ### Bug Fixes
