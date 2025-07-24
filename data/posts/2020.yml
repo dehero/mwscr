@@ -275,20 +275,20 @@
     - service: vk
       id: 2527
       published: 2025-07-23-18-40-24
-      updated: 2025-07-24-04-03-28
+      updated: 2025-07-24-05-32-29
       followers: 1349
-      likes: 15
-      views: 85
+      likes: 16
+      views: 96
       comments: !c |-
         ixqAkZPLQnmDifuygACwc2VyZ2V5LWNodXJiYW5vdrnQltGL0YDQvdCw0Y8g0LHQvtGA0L7QtNCw
         Aw==
     - service: tg
       id: 925
       published: 2025-07-23-18-40-30
-      updated: 2025-07-24-04-03-28
+      updated: 2025-07-24-05-32-29
       followers: 765
-      likes: 39
-      views: 127
+      likes: 43
+      views: 137
       comments: !c iwuAkZPLQnmDjDrkgACra2F3YXpha3kyMjOgAw==
 2020-05-19-night-guard:
   title: Night Guard
