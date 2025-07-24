@@ -275,26 +275,28 @@
     - service: vk
       id: 2527
       published: 2025-07-23-18-40-24
-      updated: 2025-07-24-18-39-30
+      updated: 2025-07-24-19-23-41
       followers: 1349
       likes: 25
-      views: 187
+      views: 192
       comments: !c |-
         ixqAkZPLQnmDifuygACwc2VyZ2V5LWNodXJiYW5vdrnQltGL0YDQvdCw0Y8g0LHQvtGA0L7QtNCw
         Aw==
     - service: tg
       id: 925
       published: 2025-07-23-18-40-30
-      updated: 2025-07-24-18-39-29
+      updated: 2025-07-24-19-23-25
       followers: 765
-      likes: 51
-      views: 173
+      likes: 55
+      views: 192
       comments: !c iwuAkZPLQnmDjDrkgACra2F3YXpha3kyMjOgAw==
     - service: ig
       id: DMgD1nltOXF
       mediaId: '18050817164185932'
       published: 2025-07-24-18-40-50
+      updated: 2025-07-24-19-23-28
       followers: 1573
+      likes: 12
 2020-05-19-night-guard:
   title: Night Guard
   titleRu: Ночной страж
