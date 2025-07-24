@@ -2488,7 +2488,7 @@ kawazaky223:
   profiles:
     - service: tg
       id: '5641856113'
-      updated: 2025-07-24-19-23-25
+      updated: 2025-07-24-20-29-27
       accessHash: '7421309771527577818'
       username: Kawazaky223
       name: Максим
@@ -2958,7 +2958,7 @@ max-upsher:
   profiles:
     - service: tg
       id: '1774562733'
-      updated: 2025-07-23-21-27-35
+      updated: 2025-07-24-20-29-25
       accessHash: '1025402626840048013'
       username: MaxUpsher
       name: Max Upsher
@@ -2967,7 +2967,7 @@ mbdtsmo:
   profiles:
     - service: tg
       id: '5093097514'
-      updated: 2025-07-21-22-27-44
+      updated: 2025-07-24-20-29-25
       accessHash: '-613358669572386334'
       username: mbdtsmo
       name: M Bdtsmo
@@ -3419,7 +3419,7 @@ oberhort:
   profiles:
     - service: tg
       id: '19254498'
-      updated: 2025-07-23-19-23-29
+      updated: 2025-07-24-20-29-22
       accessHash: '-564270059565994883'
       username: oberhort
       name: Игорь
@@ -3921,7 +3921,7 @@ redoranar:
   profiles:
     - service: tg
       id: '627928484'
-      updated: 2025-07-23-19-23-29
+      updated: 2025-07-24-20-29-27
       accessHash: '4117269213935533016'
       username: Redoranar
       name: Egor
@@ -4191,7 +4191,7 @@ sergey-b:
   profiles:
     - service: vk
       id: '889222999'
-      updated: 2025-07-23-19-23-27
+      updated: 2025-07-24-20-29-22
       username: id889222999
       name: Сергей Б
       avatar: store:/avatars/vk-b169a7ef.jpg
@@ -4205,7 +4205,7 @@ sergey-churbanov:
   profiles:
     - service: vk
       id: '1060712354'
-      updated: 2025-07-24-19-23-42
+      updated: 2025-07-24-20-29-20
       username: id1060712354
       name: Сергей Чурбанов
       avatar: store:/avatars/vk-6499ce8d.jpg

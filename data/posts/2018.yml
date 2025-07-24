@@ -1976,17 +1976,17 @@
     - service: vk
       id: 2512
       published: 2025-07-10-18-24-32
-      updated: 2025-07-17-20-15-17
+      updated: 2025-07-24-20-29-24
       followers: 1337
       likes: 50
-      views: 465
+      views: 489
     - service: tg
       id: 913
       published: 2025-07-10-18-24-36
-      updated: 2025-07-17-20-15-19
+      updated: 2025-07-24-20-29-25
       followers: 759
-      likes: 67
-      views: 433
+      likes: 68
+      views: 530
       comments: !c |-
         iz6AkZTLQnl/h0wngACnbWJkdHNtb9k3V2hhdCBkaWQgeW91IGd1eXMgZW5jaGFudCB3aXRoIFZp
         dmVjcyBBbG1hbGV4aWFzIHNvdWwgP5PLQnl/0KW+AACqbWF4LXVwc2hlcrxIdWguIE5vdyB0aGF0
@@ -2662,18 +2662,18 @@
     - service: tg
       id: 921
       published: 2025-07-18-18-24-24
-      updated: 2025-07-23-19-23-28
+      updated: 2025-07-24-20-29-21
       followers: 763
-      likes: 58
-      views: 331
+      likes: 59
+      views: 355
       comments: !c iw2AkZPLQnmCbLDJAACra2F3YXpha3kyMjOk8J+YkQM=
     - service: ig
       id: DMe2gNAtdul
       mediaId: '18054985205611176'
       published: 2025-07-24-07-25-05
-      updated: 2025-07-24-19-23-49
+      updated: 2025-07-24-20-29-49
       followers: 1572
-      likes: 29
+      likes: 31
 2018-03-08-dead-guar:
   title: Dead Guar
   titleRu: Мёртвый гуар
@@ -4949,10 +4949,10 @@
     - service: vk
       id: 2529
       published: 2025-07-24-18-40-55
-      updated: 2025-07-24-19-23-39
+      updated: 2025-07-24-20-29-19
       followers: 1350
-      likes: 2
-      views: 15
+      likes: 5
+      views: 32
       comments: !c |-
         G60AaJwJdizKCyxu0a9EUZxI+uNJQGOQySQWKFGnJBWv7GF1bpYSnSUB/spUrrrtORujQVjbd7jh
         FzSEYJXdwwaccSA+bTiQTjbSffioirr35zcQH619X+Z1Yj3ulJ1n/a9uCzki741Dqi1dyuttDHLr
@@ -4960,10 +4960,10 @@
     - service: tg
       id: 926
       published: 2025-07-24-18-41-00
-      updated: 2025-07-24-19-23-23
+      updated: 2025-07-24-20-29-18
       followers: 766
-      likes: 13
-      views: 73
+      likes: 22
+      views: 101
       comments: !c iwuAkZPLQnmD3Px6AACra2F3YXpha3kyMjOgAw==
 2018-05-03-sunset-over-the-lava-river:
   title: Sunset Over the Lava River
@@ -10425,10 +10425,10 @@
     - service: vk
       id: 2520
       published: 2025-07-17-18-25-15
-      updated: 2025-07-23-19-23-27
+      updated: 2025-07-24-20-29-22
       followers: 1344
       likes: 46
-      views: 325
+      views: 330
       reposts: 3
       comments: !c |-
         G9YAYJ0JdozKK3T3hoioW5zQaaoBFqVB3gSYRJ7skb2q243RT8iELTvNC6RFGSByxx7TXfv1EMjP
@@ -10437,10 +10437,10 @@
     - service: tg
       id: 920
       published: 2025-07-17-18-25-21
-      updated: 2025-07-23-19-23-29
+      updated: 2025-07-24-20-29-23
       followers: 762
       likes: 63
-      views: 350
+      views: 372
       comments: !c |-
         G+UAQByHsdtkaOovXehCjBfx9bcjPKDP0jQ1kZZAFWGyDzygprZJqlwnVI3U9J8QkW0V97aWTd0W
         k+XGNPFwEDxMRbUla70bnGiAEIUQgASYBrjC4CEr8VjXPh37S1/4qdiqcylKc85ARQ7Df944AtRa
@@ -14289,9 +14289,9 @@
       id: DMft8aENiNt
       mediaId: '18014446403577101'
       published: 2025-07-24-15-29-30
-      updated: 2025-07-24-19-23-31
+      updated: 2025-07-24-20-29-31
       followers: 1572
-      likes: 21
+      likes: 25
 2018-12-05-belowdecks:
   title: Belowdecks
   titleRu: В трюме
