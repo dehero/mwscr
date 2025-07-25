@@ -2671,9 +2671,9 @@
       id: DMe2gNAtdul
       mediaId: '18054985205611176'
       published: 2025-07-24-07-25-05
-      updated: 2025-07-24-21-27-25
+      updated: 2025-07-25-01-04-36
       followers: 1572
-      likes: 35
+      likes: 39
 2018-03-08-dead-guar:
   title: Dead Guar
   titleRu: Мёртвый гуар
@@ -4946,10 +4946,11 @@
     - service: vk
       id: 2529
       published: 2025-07-24-18-40-55
-      updated: 2025-07-24-21-26-59
+      updated: 2025-07-25-01-04-01
       followers: 1350
-      likes: 6
-      views: 41
+      likes: 8
+      views: 65
+      reposts: 2
       comments: !c |-
         G60AaJwJdizKCyxu0a9EUZxI+uNJQGOQySQWKFGnJBWv7GF1bpYSnSUB/spUrrrtORujQVjbd7jh
         FzSEYJXdwwaccSA+bTiQTjbSffioirr35zcQH619X+Z1Yj3ulJ1n/a9uCzki741Dqi1dyuttDHLr
@@ -4957,16 +4958,18 @@
     - service: tg
       id: 926
       published: 2025-07-24-18-41-00
-      updated: 2025-07-24-21-27-00
+      updated: 2025-07-25-01-04-00
       followers: 766
-      likes: 24
-      views: 109
+      likes: 29
+      views: 124
       comments: !c iwuAkZPLQnmD3Px6AACra2F3YXpha3kyMjOgAw==
     - service: ig
       id: DMgiQ8HMbCf
       mediaId: '17868910083328565'
       published: 2025-07-24-23-06-44
+      updated: 2025-07-25-01-04-07
       followers: 1573
+      likes: 21
 2018-05-03-sunset-over-the-lava-river:
   title: Sunset Over the Lava River
   titleRu: Закат над лавовой рекой
@@ -12602,18 +12605,18 @@
     - service: vk
       id: 2486
       published: 2025-06-26-18-28-54
-      updated: 2025-07-17-23-17-39
+      updated: 2025-07-25-01-04-05
       followers: 1328
       likes: 48
-      views: 356
+      views: 369
       reposts: 2
     - service: tg
       id: 897
       published: 2025-06-26-18-28-58
-      updated: 2025-07-17-23-17-40
+      updated: 2025-07-25-01-04-04
       followers: 756
       likes: 71
-      views: 481
+      views: 494
       comments: !c iw+AkZPLQnl69+fcAACvdmFpbC1hc3Rvci16a2l5pPCfpK8D
     - service: ig
       id: DLaLhKMMolt
@@ -14291,9 +14294,9 @@
       id: DMft8aENiNt
       mediaId: '18014446403577101'
       published: 2025-07-24-15-29-30
-      updated: 2025-07-24-21-27-08
+      updated: 2025-07-25-01-04-16
       followers: 1572
-      likes: 28
+      likes: 30
 2018-12-05-belowdecks:
   title: Belowdecks
   titleRu: В трюме
