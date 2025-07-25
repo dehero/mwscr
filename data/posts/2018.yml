@@ -2655,10 +2655,10 @@
     - service: vk
       id: 2522
       published: 2025-07-18-18-24-20
-      updated: 2025-07-24-18-39-34
+      updated: 2025-07-25-20-14-47
       followers: 1345
-      likes: 31
-      views: 307
+      likes: 32
+      views: 319
     - service: tg
       id: 921
       published: 2025-07-18-18-24-24
@@ -2671,9 +2671,9 @@
       id: DMe2gNAtdul
       mediaId: '18054985205611176'
       published: 2025-07-24-07-25-05
-      updated: 2025-07-25-01-04-36
+      updated: 2025-07-25-20-15-04
       followers: 1572
-      likes: 39
+      likes: 41
 2018-03-08-dead-guar:
   title: Dead Guar
   titleRu: Мёртвый гуар
@@ -4946,30 +4946,35 @@
     - service: vk
       id: 2529
       published: 2025-07-24-18-40-55
-      updated: 2025-07-25-01-04-01
+      updated: 2025-07-25-20-14-40
       followers: 1350
-      likes: 8
-      views: 65
+      likes: 20
+      views: 172
       reposts: 2
       comments: !c |-
-        G60AaJwJdizKCyxu0a9EUZxI+uNJQGOQySQWKFGnJBWv7GF1bpYSnSUB/spUrrrtORujQVjbd7jh
-        FzSEYJXdwwaccSA+bTiQTjbSffioirr35zcQH619X+Z1Yj3ulJ1n/a9uCzki741Dqi1dyuttDHLr
-        ki0DkZlUdpQikVwmgRYg8VHh+BHBw1QNjyzVw4sP0Ds=
+        G2YDQCwKbNuhddgrGTS/IZfM+H/i4hfhg+TP7G6AIYSB1DRh9BMIm0kwOVfNxTBCIjkcCJX1l/9c
+        22YW3SqQSEootWxm976niEsj/HRuMVEDOqYG+QbOjVpsHUuymSAKLFM3tQsoDDQAH1PHWLqwOKC3
+        OOEsHFsDyyAoN0UHQXC2VpJDWp4Q593v/2vos/3h9fsq1iSodiifx87dxyNoInZMssmT4li5+LKq
+        5OBgB3BxrmoMx4QObKPbhsOK38o4J6CtMSnPCpBU4n0qPpuLmunzMft7gXpaT30oTV4G7/zR947L
+        Xg5/F+avj7eHH9/Mkv/3gww/vkiqYngOa1PbOb80gLnyB71zgwYmQISiY5c+jNmNhg9Dy1CfcQ6E
+        8gQWKXdItfVgq2YgTHJCkoVM6hkURtOGzjyeTt7txghZfpTb+R3fvSMeA1Z5l/fiMKYSZFo73YT5
+        pspy6HBeppMpXKmwyPbEJBxyixwoQB6V1fgnOCzwqrBX8WAMvmtQT6xZM4NOIAl1c1h6kVWkYDAB
+        neqwNqwlZb2sAs36QoV3c9BTIBEzwGHDcc/a/hZBPbkO+AUIVVezIEBWUcE+9gI=
     - service: tg
       id: 926
       published: 2025-07-24-18-41-00
-      updated: 2025-07-25-01-04-00
+      updated: 2025-07-25-20-14-39
       followers: 766
-      likes: 29
-      views: 124
+      likes: 47
+      views: 190
       comments: !c iwuAkZPLQnmD3Px6AACra2F3YXpha3kyMjOgAw==
     - service: ig
       id: DMgiQ8HMbCf
       mediaId: '17868910083328565'
       published: 2025-07-24-23-06-44
-      updated: 2025-07-25-01-04-07
+      updated: 2025-07-25-20-14-44
       followers: 1573
-      likes: 21
+      likes: 76
 2018-05-03-sunset-over-the-lava-river:
   title: Sunset Over the Lava River
   titleRu: Закат над лавовой рекой
@@ -8479,9 +8484,9 @@
       id: DMO-hjNo1OE
       mediaId: '18197350498311168'
       published: 2025-07-18-03-27-16
-      updated: 2025-07-24-07-24-04
+      updated: 2025-07-25-20-15-18
       followers: 1568
-      likes: 42
+      likes: 45
 2018-07-27-the-book-of-dawn-and-dusk:
   title: The Book of Dawn and Dusk
   titleRu: Книга рассвета и заката
@@ -10455,9 +10460,9 @@
       id: DMQQCL-MZcJ
       mediaId: '18064094723186502'
       published: 2025-07-18-15-19-27
-      updated: 2025-07-24-07-23-51
+      updated: 2025-07-25-20-15-07
       followers: 1568
-      likes: 75
+      likes: 77
 2018-09-11-galmis-dren-smuggler:
   title: Galmis Dren, Smuggler
   titleRu: Гальмис Дрен, контрабандист
@@ -14272,17 +14277,17 @@
     - service: vk
       id: 2526
       published: 2025-07-22-18-40-41
-      updated: 2025-07-24-18-39-32
+      updated: 2025-07-25-20-14-41
       followers: 1349
-      likes: 21
-      views: 170
+      likes: 23
+      views: 189
     - service: tg
       id: 924
       published: 2025-07-22-18-40-51
-      updated: 2025-07-24-18-39-31
+      updated: 2025-07-25-20-14-42
       followers: 764
-      likes: 48
-      views: 223
+      likes: 51
+      views: 252
       comments: !c |-
         G0MCQJwHttuUgcX6hTtjnGwkKsZiqV5IH79+KzbB1EUwVBFTtMyabaOEyBmaoT266TO2J1RDVXUT
         ZxAaLDgk0nXdQiBfhtAXQt7c8vaxfHmtqNf8IDCzE1K7dXfAY4wZt5W0JXLx1pdIGmiAB/zCNJDE
@@ -14294,9 +14299,9 @@
       id: DMft8aENiNt
       mediaId: '18014446403577101'
       published: 2025-07-24-15-29-30
-      updated: 2025-07-25-01-04-16
+      updated: 2025-07-25-20-14-51
       followers: 1572
-      likes: 30
+      likes: 34
 2018-12-05-belowdecks:
   title: Belowdecks
   titleRu: В трюме

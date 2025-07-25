@@ -61,7 +61,7 @@
       id: DMOwL2voVx-
       mediaId: '18072508969999645'
       published: 2025-07-18-01-22-00
-      updated: 2025-07-24-07-24-09
+      updated: 2025-07-25-20-15-24
       followers: 1568
       likes: 58
       comments: !c ixWAkZPLQnmBsl4OAACwc29tZW9uZS1zaW1wbGU0Mq9GZWVscyBsaWtlIGhvbWUD
@@ -1675,9 +1675,9 @@
       id: DL5aCGXsDyB
       mediaId: '18515532307004498'
       published: 2025-07-09-18-24-19
-      updated: 2025-07-18-12-35-17
+      updated: 2025-07-25-20-15-29
       followers: 1561
-      likes: 65
+      likes: 66
     - service: vk
       id: 2510
       published: 2025-07-09-18-24-37
@@ -2192,11 +2192,26 @@
     - service: vk
       id: 2531
       published: 2025-07-25-00-59-21
+      updated: 2025-07-25-20-14-35
       followers: 1350
+      likes: 16
+      views: 134
+      reposts: 2
     - service: tg
       id: 927
       published: 2025-07-25-00-59-24
+      updated: 2025-07-25-20-14-38
       followers: 765
+      likes: 50
+      views: 151
+      comments: !c |-
+        iyKAkpPLQnmD/o9ygACra2F3YXpha3kyMjOgk8tCeYP9Ab4AAK92YWlsLWFzdG9yLXpraXmz0JrR
+        gNCw0LHQvtGH0LXQuy4uLgM=
+    - service: ig
+      id: DMi0vszNT3e
+      mediaId: '18320943061239341'
+      published: 2025-07-25-20-26-39
+      followers: 1573
 2019-10-15-no-name-club:
   title: No Name Club
   titleRu: Клуб "Никаких Имён"
