@@ -2488,7 +2488,7 @@ kawazaky223:
   profiles:
     - service: tg
       id: '5641856113'
-      updated: 2025-07-25-20-14-44
+      updated: 2025-07-26-18-37-18
       accessHash: '7421309771527577818'
       username: Kawazaky223
       name: Максим
@@ -2568,7 +2568,7 @@ konstantin-matrosov:
   profiles:
     - service: vk
       id: '93073669'
-      updated: 2025-07-25-20-14-39
+      updated: 2025-07-26-18-37-15
       username: id93073669
       name: Константин Матросов
       avatar: store:/avatars/vk-3b5e092e.jpg
@@ -2958,7 +2958,7 @@ max-upsher:
   profiles:
     - service: tg
       id: '1774562733'
-      updated: 2025-07-24-20-29-25
+      updated: 2025-07-26-18-37-17
       accessHash: '1025402626840048013'
       username: MaxUpsher
       name: Max Upsher
@@ -4191,7 +4191,7 @@ sergey-b:
   profiles:
     - service: vk
       id: '889222999'
-      updated: 2025-07-25-20-14-39
+      updated: 2025-07-26-18-37-15
       username: id889222999
       name: Сергей Б
       avatar: store:/avatars/vk-b169a7ef.jpg
@@ -4205,7 +4205,7 @@ sergey-churbanov:
   profiles:
     - service: vk
       id: '1060712354'
-      updated: 2025-07-25-20-14-44
+      updated: 2025-07-26-18-37-17
       username: id1060712354
       name: Сергей Чурбанов
       avatar: store:/avatars/vk-6499ce8d.jpg
@@ -5196,7 +5196,7 @@ vail-astor-zkiy:
   profiles:
     - service: tg
       id: '1245638625'
-      updated: 2025-07-25-20-14-45
+      updated: 2025-07-26-18-37-13
       accessHash: '-6135365331334675689'
       name: Vail Astor'zkiy
 valeriy-zhmishenko:
