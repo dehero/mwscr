@@ -776,7 +776,7 @@ brg1092:
   profiles:
     - service: tg
       id: '5867861906'
-      updated: 2025-07-27-21-23-35
+      updated: 2025-07-27-22-24-22
       accessHash: '4411929981434940281'
       username: brg1092
       name: '2718'
@@ -1908,11 +1908,11 @@ goosevich76:
   profiles:
     - service: tg
       id: '5385620621'
-      updated: 2025-07-20-21-25-07
+      updated: 2025-07-27-22-24-31
       accessHash: '-7130473396589324830'
       username: Goosevich76
       name: Гусьйоувич
-      avatar: store:/avatars/tg-5449755685907724320.jpg
+      avatar: store:/avatars/tg-5192863852163887084.jpg
 gorheim:
   profiles:
     - service: tg
@@ -2488,7 +2488,7 @@ kawazaky223:
   profiles:
     - service: tg
       id: '5641856113'
-      updated: 2025-07-27-21-23-40
+      updated: 2025-07-27-22-24-34
       accessHash: '7421309771527577818'
       username: Kawazaky223
       name: Максим
@@ -4205,7 +4205,7 @@ sergey-churbanov:
   profiles:
     - service: vk
       id: '1060712354'
-      updated: 2025-07-27-21-23-42
+      updated: 2025-07-27-22-24-26
       username: id1060712354
       name: Сергей Чурбанов
       avatar: store:/avatars/vk-6499ce8d.jpg
