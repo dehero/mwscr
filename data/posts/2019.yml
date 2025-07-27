@@ -45,17 +45,17 @@
     - service: vk
       id: 2514
       published: 2025-07-12-18-22-27
-      updated: 2025-07-20-10-02-26
+      updated: 2025-07-27-10-26-38
       followers: 1338
       likes: 40
-      views: 381
+      views: 404
     - service: tg
       id: 915
       published: 2025-07-12-18-22-31
-      updated: 2025-07-20-10-02-26
+      updated: 2025-07-27-10-26-38
       followers: 761
       likes: 55
-      views: 335
+      views: 453
       comments: !c iw2AkZPLQnmAJyHhAACra2F3YXpha3kyMjOk8J+ZjwM=
     - service: ig
       id: DMOwL2voVx-
@@ -647,18 +647,18 @@
     - service: vk
       id: 2489
       published: 2025-06-28-18-25-41
-      updated: 2025-07-20-10-02-28
+      updated: 2025-07-27-10-26-40
       followers: 1332
       likes: 60
-      views: 415
+      views: 423
       reposts: 3
     - service: tg
       id: 899
       published: 2025-06-28-18-25-44
-      updated: 2025-07-20-10-02-28
+      updated: 2025-07-27-10-26-46
       followers: 758
       likes: 63
-      views: 525
+      views: 541
       comments: !c |-
         G1YAiIzUUY370dbdUU5wwcPh8MuplQVWwC1sx4CTSkUINuBEB+OzidcBbA+4aiWMEJI75lvqtwGO
         S0GgYux5izj6aIOqZd/FHhp3mCFkoQoxHQ==
@@ -2211,7 +2211,7 @@
       id: DMi0vszNT3e
       mediaId: '18320943061239341'
       published: 2025-07-25-20-26-39
-      updated: 2025-07-27-09-26-34
+      updated: 2025-07-27-10-26-43
       followers: 1573
       likes: 63
 2019-10-15-no-name-club:

@@ -405,7 +405,7 @@ ansis:
   profiles:
     - service: tg
       id: '517050552'
-      updated: 2025-07-23-11-25-10
+      updated: 2025-07-27-10-26-46
       accessHash: '5231096655311395455'
       username: ansis
       name: ansis
@@ -448,10 +448,10 @@ arseniy-dyak:
   profiles:
     - service: tg
       id: '8015414871'
-      updated: 2025-07-20-10-02-26
+      updated: 2025-07-27-10-26-42
       accessHash: '-4817807801428753368'
       name: Арсений Дьяк
-      avatar: store:/avatars/tg-5420228425697849473.jpg
+      avatar: store:/avatars/tg-5199637741439152331.jpg
 artem-solovev:
   profiles:
     - service: vk
@@ -2488,7 +2488,7 @@ kawazaky223:
   profiles:
     - service: tg
       id: '5641856113'
-      updated: 2025-07-27-09-26-27
+      updated: 2025-07-27-10-26-40
       accessHash: '7421309771527577818'
       username: Kawazaky223
       name: Максим
@@ -2917,7 +2917,7 @@ martin-freeeman:
   profiles:
     - service: tg
       id: '694645161'
-      updated: 2025-07-20-10-02-27
+      updated: 2025-07-27-10-26-43
       accessHash: '2151534684860554385'
       username: Martin_Freeeman
       name: Martin Freeman
@@ -4205,7 +4205,7 @@ sergey-churbanov:
   profiles:
     - service: vk
       id: '1060712354'
-      updated: 2025-07-27-09-26-26
+      updated: 2025-07-27-10-26-36
       username: id1060712354
       name: Сергей Чурбанов
       avatar: store:/avatars/vk-6499ce8d.jpg
