@@ -776,7 +776,7 @@ brg1092:
   profiles:
     - service: tg
       id: '5867861906'
-      updated: 2025-07-27-20-27-45
+      updated: 2025-07-27-21-23-35
       accessHash: '4411929981434940281'
       username: brg1092
       name: '2718'
@@ -2488,7 +2488,7 @@ kawazaky223:
   profiles:
     - service: tg
       id: '5641856113'
-      updated: 2025-07-27-20-27-56
+      updated: 2025-07-27-21-23-40
       accessHash: '7421309771527577818'
       username: Kawazaky223
       name: Максим
@@ -4205,7 +4205,7 @@ sergey-churbanov:
   profiles:
     - service: vk
       id: '1060712354'
-      updated: 2025-07-27-20-27-52
+      updated: 2025-07-27-21-23-42
       username: id1060712354
       name: Сергей Чурбанов
       avatar: store:/avatars/vk-6499ce8d.jpg
