@@ -92,7 +92,7 @@ a2-enkelli:
   profiles:
     - service: tg
       id: '7258424423'
-      updated: 2025-07-21-23-27-32
+      updated: 2025-07-28-02-19-33
       accessHash: '969825927170686844'
       username: A2_Enkelli
       name: †† elli ††
@@ -776,7 +776,7 @@ brg1092:
   profiles:
     - service: tg
       id: '5867861906'
-      updated: 2025-07-27-23-25-26
+      updated: 2025-07-28-02-19-33
       accessHash: '4411929981434940281'
       username: brg1092
       name: '2718'
@@ -2488,7 +2488,7 @@ kawazaky223:
   profiles:
     - service: tg
       id: '5641856113'
-      updated: 2025-07-27-23-25-32
+      updated: 2025-07-28-02-19-34
       accessHash: '7421309771527577818'
       username: Kawazaky223
       name: Максим
@@ -4205,7 +4205,7 @@ sergey-churbanov:
   profiles:
     - service: vk
       id: '1060712354'
-      updated: 2025-07-27-23-25-31
+      updated: 2025-07-28-02-19-32
       username: id1060712354
       name: Сергей Чурбанов
       avatar: store:/avatars/vk-6499ce8d.jpg
