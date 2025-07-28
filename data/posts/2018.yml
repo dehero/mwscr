@@ -8465,18 +8465,18 @@
     - service: vk
       id: 2515
       published: 2025-07-13-18-22-15
-      updated: 2025-07-21-10-32-00
+      updated: 2025-07-28-11-23-30
       followers: 1342
       likes: 43
-      views: 492
+      views: 510
       reposts: 1
     - service: tg
       id: 916
       published: 2025-07-13-18-22-19
-      updated: 2025-07-21-10-32-03
+      updated: 2025-07-28-11-23-28
       followers: 762
       likes: 61
-      views: 343
+      views: 460
       comments: !c |-
         CyqAkpPLQnmAVEdAgACra2F3YXpha3kyMjOgk8tCeYBQaf6AAKdnb3JoZWlt2SnQndC+0YHRgtCw
         0LvRjNCz0LjRjyDQt9Cw0LzRg9GH0LjQu9CwICgoKAM=
@@ -11359,13 +11359,13 @@
       id: DMlOV1HNDFf
       mediaId: '18383403958193251'
       published: 2025-07-26-18-48-46
-      updated: 2025-07-28-10-29-09
+      updated: 2025-07-28-11-23-23
       followers: 1574
       likes: 51
     - service: vk
       id: 2535
       published: 2025-07-26-18-48-52
-      updated: 2025-07-28-10-29-14
+      updated: 2025-07-28-11-23-28
       followers: 1351
       likes: 20
       views: 137
@@ -11373,7 +11373,7 @@
     - service: tg
       id: 928
       published: 2025-07-26-18-48-55
-      updated: 2025-07-28-10-29-12
+      updated: 2025-07-28-11-23-26
       followers: 767
       likes: 60
       views: 231
