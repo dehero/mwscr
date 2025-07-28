@@ -1292,10 +1292,10 @@
     - service: vk
       id: 2470
       published: 2025-06-17-18-28-43
-      updated: 2025-07-21-21-27-26
+      updated: 2025-07-28-22-27-20
       followers: 1327
-      likes: 54
-      views: 389
+      likes: 55
+      views: 392
       reposts: 1
       comments: !c |-
         G50BwCwO7DYfCzGx5eSX1XoyxD/vn0j68qlNWsEilajpBEY+OZd8Oqc+z2mWPUfRMplALW8xCYUm
@@ -1306,10 +1306,10 @@
     - service: tg
       id: 888
       published: 2025-06-17-18-28-46
-      updated: 2025-07-21-21-27-21
+      updated: 2025-07-28-22-27-20
       followers: 749
       likes: 64
-      views: 523
+      views: 535
 2016-12-19-hla-oad:
   title: Hla Oad
   titleRu: Хла Оуд

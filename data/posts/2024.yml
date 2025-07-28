@@ -1101,18 +1101,18 @@
     - service: vk
       id: 2479
       published: 2025-06-21-18-24-51
-      updated: 2025-07-21-21-27-19
+      updated: 2025-07-28-22-27-08
       followers: 1327
       likes: 59
-      views: 433
+      views: 436
       reposts: 1
     - service: tg
       id: 892
       published: 2025-06-21-18-24-56
-      updated: 2025-07-21-21-27-16
+      updated: 2025-07-28-22-27-12
       followers: 752
       likes: 59
-      views: 547
+      views: 560
       comments: !c iw2AkZPLQnl5PH6tAACra2F3YXpha3kyMjOk8J+SpQM=
 2024-04-09-telvanni-council-house:
   title: Telvanni Council House
@@ -2252,18 +2252,18 @@
     - service: vk
       id: 2466
       published: 2025-06-15-18-25-37
-      updated: 2025-07-21-21-27-27
+      updated: 2025-07-28-22-27-23
       followers: 1328
-      likes: 55
-      views: 447
+      likes: 56
+      views: 450
       reposts: 1
     - service: tg
       id: 886
       published: 2025-06-15-18-25-41
-      updated: 2025-07-21-21-27-23
+      updated: 2025-07-28-22-27-23
       followers: 747
       likes: 67
-      views: 540
+      views: 551
       comments: !c iw2AkZPLQnl3oFvXAACra2F3YXpha3kyMjOk8J+RjAM=
 2024-06-10-utensil:
   title: Utensil

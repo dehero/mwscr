@@ -4528,10 +4528,10 @@
     - service: vk
       id: 2507
       published: 2025-07-07-18-24-02
-      updated: 2025-07-21-21-27-12
+      updated: 2025-07-28-22-26-58
       followers: 1334
       likes: 47
-      views: 489
+      views: 506
       comments: !c |-
         iySAkZPLQnl+r10aAACoc2VyZ2V5LWLZNNCU0L7QvNCwINGBINC60L7RiNC60L4t0LbQtdC90L7Q
         uQoK0KHQtdC50LTQsCDQndC40L0D
@@ -11883,10 +11883,10 @@
     - service: vk
       id: 2473
       published: 2025-06-18-18-28-24
-      updated: 2025-07-21-21-27-24
+      updated: 2025-07-28-22-27-16
       followers: 1326
       likes: 63
-      views: 544
+      views: 548
       reposts: 4
       comments: !c |-
         izOAkZTLQnl4TLN4AACucm9tYW4tZHJvdm9zZWvZLtCk0L7RgtC+INGB0L4g0LfQstGD0LrQvtC8
@@ -11894,10 +11894,10 @@
     - service: tg
       id: 889
       published: 2025-06-18-18-28-30
-      updated: 2025-07-21-21-27-19
+      updated: 2025-07-28-22-27-18
       followers: 750
       likes: 67
-      views: 533
+      views: 548
       comments: !c iw2AkZPLQnl4RuVigACra2F3YXpha3kyMjOk8J+RjQM=
 2018-10-09-severe-innkeeper:
   title: Severe Innkeeper

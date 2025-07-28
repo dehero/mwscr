@@ -826,7 +826,7 @@
     - service: yt
       id: 8Waikj-VsSI
       published: 2017-01-22
-      updated: 2025-07-21-21-27-08
+      updated: 2025-07-28-22-26-52
       followers: 1
       likes: 7
       views: 133
@@ -1129,7 +1129,7 @@
     - service: yt
       id: lbg7_2GY9-U
       published: 2017-01-28
-      updated: 2025-07-21-21-27-07
+      updated: 2025-07-28-22-26-50
       followers: 2
       likes: 24
       views: 574
@@ -1835,7 +1835,7 @@
     - service: yt
       id: Fd77v5UL_ek
       published: 2017-02-12
-      updated: 2025-07-21-21-27-04
+      updated: 2025-07-28-22-26-48
       followers: 4
       likes: 33
       views: 713
@@ -5138,10 +5138,10 @@
     - service: vk
       id: 2480
       published: 2025-06-22-18-25-45
-      updated: 2025-07-21-21-27-17
+      updated: 2025-07-28-22-27-05
       followers: 1329
       likes: 67
-      views: 432
+      views: 435
       reposts: 2
       comments: !c |-
         GwYB4JwJtq2C9cLhlWc6iGSESs7z8Pfui2ZPGwtxLRpTsESKeJ6rgadzK6E6Qze6AcJwHq6eLHdB
@@ -5151,10 +5151,10 @@
     - service: tg
       id: 893
       published: 2025-06-22-18-25-51
-      updated: 2025-07-21-21-27-14
+      updated: 2025-07-28-22-27-09
       followers: 752
       likes: 68
-      views: 528
+      views: 543
       comments: !c Cw+AkZPLQnl5kEyIgACra2F3YXpha3kyMjOnNe+4j+KDowM=
 2017-04-28-gloomy-barrow:
   title: Gloomy Barrow
@@ -5641,13 +5641,13 @@
       id: DMnxqv4MHJT
       mediaId: '18409413934128313'
       published: 2025-07-27-18-35-57
-      updated: 2025-07-28-21-23-54
+      updated: 2025-07-28-22-26-54
       followers: 1573
       likes: 50
     - service: vk
       id: 2537
       published: 2025-07-27-18-36-03
-      updated: 2025-07-28-21-24-00
+      updated: 2025-07-28-22-26-56
       followers: 1352
       likes: 17
       views: 155
@@ -5660,10 +5660,10 @@
     - service: tg
       id: 929
       published: 2025-07-27-18-36-07
-      updated: 2025-07-28-21-23-57
+      updated: 2025-07-28-22-27-04
       followers: 768
       likes: 52
-      views: 211
+      views: 212
       comments: !c |-
         G3IBABwHdqwx+HBYSnfSHBF1Iz38gIOIy/Ik4Qdumok02VPdxDmswDuEGrCS5j3F3JpPXJP0Q78t
         +vwfuOs87XubQSTw7ME3ndlOcA/G22hFQRQNaOddTl2YQJdBmr9LXmvzl6biSbk7Meev3P1P+Nfl
@@ -10204,18 +10204,18 @@
     - service: vk
       id: 2478
       published: 2025-06-20-18-27-40
-      updated: 2025-07-21-21-27-20
+      updated: 2025-07-28-22-27-10
       followers: 1326
       likes: 39
-      views: 443
+      views: 446
       reposts: 1
     - service: tg
       id: 891
       published: 2025-06-20-18-27-44
-      updated: 2025-07-21-21-27-16
+      updated: 2025-07-28-22-27-13
       followers: 751
       likes: 60
-      views: 502
+      views: 517
 2017-08-31-guard-tower-of-suran:
   title: Guard Tower of Suran
   titleRu: Башня стражи Сурана
@@ -10767,10 +10767,10 @@
     - service: vk
       id: 2481
       published: 2025-06-23-18-28-39
-      updated: 2025-07-21-21-27-14
+      updated: 2025-07-28-22-27-02
       followers: 1328
       likes: 93
-      views: 566
+      views: 570
       reposts: 3
       comments: !c |-
         G9AA6C0OeHPIJcWQ93b+B/H/PDeM8IOUQqARdSYy8sl9OJ1byMFSTPE4cB/6A+W23M3pd2OK/GCp
@@ -10779,10 +10779,10 @@
     - service: tg
       id: 894
       published: 2025-06-23-18-28-43
-      updated: 2025-07-21-21-27-13
+      updated: 2025-07-28-22-27-07
       followers: 753
       likes: 73
-      views: 527
+      views: 541
       comments: !c |-
         G7MACIzEOIZyWaYzkXj+3xvpZ/28DRfJjodBEEFy39C5zmcTX4NNcJZlRWvKf5D2TNBowLd/pxxp
         QBxhAQZiAf4o351yEMRJywKMTl+d89N+AO8bgHe0ywas7pMkNfx1iju5QM4OwbOmaFkq/2HGPUuc
@@ -13250,18 +13250,18 @@
     - service: vk
       id: 2468
       published: 2025-06-16-18-28-39
-      updated: 2025-07-21-21-27-26
+      updated: 2025-07-28-22-27-22
       followers: 1328
       likes: 60
-      views: 570
+      views: 573
       reposts: 4
     - service: tg
       id: 887
       published: 2025-06-16-18-28-43
-      updated: 2025-07-21-21-27-22
+      updated: 2025-07-28-22-27-21
       followers: 748
       likes: 71
-      views: 519
+      views: 531
       comments: !c iw2AkZPLQnl3oF8DgACra2F3YXpha3kyMjOk8J+YiQM=
 2017-11-15-mzahnch-at-sunset:
   title: Mzahnch at Sunset
@@ -13845,18 +13845,18 @@
     - service: vk
       id: 2477
       published: 2025-06-19-18-36-26
-      updated: 2025-07-21-21-27-22
+      updated: 2025-07-28-22-27-12
       followers: 1326
       likes: 58
-      views: 498
+      views: 501
       reposts: 3
     - service: tg
       id: 890
       published: 2025-06-19-18-36-30
-      updated: 2025-07-21-21-27-18
+      updated: 2025-07-28-22-27-15
       followers: 750
       likes: 67
-      views: 522
+      views: 537
 2017-11-30-lava-kwama:
   title: Lava Kwama
   titleRu: Лавовые квама
