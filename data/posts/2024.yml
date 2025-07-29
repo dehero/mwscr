@@ -686,18 +686,18 @@
     - service: vk
       id: 2500
       published: 2025-07-01-18-23-33
-      updated: 2025-07-22-21-27-15
+      updated: 2025-07-29-22-26-13
       followers: 1333
-      likes: 48
-      views: 488
+      likes: 49
+      views: 493
       reposts: 4
     - service: tg
       id: 904
       published: 2025-07-01-18-23-37
-      updated: 2025-07-22-21-27-15
+      updated: 2025-07-29-22-26-14
       followers: 760
       likes: 58
-      views: 485
+      views: 499
       comments: !c iwuAkZPLQnl8dLuPAACra2F3YXpha3kyMjOgAw==
 2024-03-24-dark-sanctuary-of-dark: 2018-05-09-dark-sanctuary-of-dark
 2024-03-25-bridge-at-ghostfence:
@@ -1425,23 +1425,23 @@
       id: DMs7zZmsm5-
       mediaId: '18087010792765166'
       published: 2025-07-29-18-40-41
-      updated: 2025-07-29-21-25-49
+      updated: 2025-07-29-22-26-10
       followers: 1573
-      likes: 44
+      likes: 54
     - service: vk
       id: 2544
       published: 2025-07-29-18-40-47
-      updated: 2025-07-29-21-25-49
+      updated: 2025-07-29-22-26-09
       followers: 1355
       likes: 8
-      views: 56
+      views: 61
     - service: tg
       id: 931
       published: 2025-07-29-18-40-51
-      updated: 2025-07-29-21-25-48
+      updated: 2025-07-29-22-26-09
       followers: 770
-      likes: 35
-      views: 113
+      likes: 38
+      views: 122
 2024-04-21-a-little-joy-for-hard-worker: 2018-03-02-a-little-joy-for-hard-worker
 2024-04-22-sunset-over-molag-amur:
   title: Sunset Over Molag Amur
