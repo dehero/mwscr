@@ -412,16 +412,16 @@
       id: DMqW8NUsqF3
       mediaId: '18145345993403044'
       published: 2025-07-28-18-40-05
-      updated: 2025-07-30-02-10-06
+      updated: 2025-07-30-04-06-50
       followers: 1572
       likes: 66
     - service: vk
       id: 2540
       published: 2025-07-28-18-40-11
-      updated: 2025-07-30-02-09-46
+      updated: 2025-07-30-04-06-53
       followers: 1356
       likes: 36
-      views: 413
+      views: 421
       reposts: 5
       comments: !c |-
         GwwBABwHdmNXESb5cdfiQKPn40aTJvQnSzHILCrhmznxk32ggdzhtmiJSAmQy22oJn3tiE1PNxeT
@@ -431,10 +431,13 @@
     - service: tg
       id: 930
       published: 2025-07-28-18-40-17
-      updated: 2025-07-30-02-09-43
+      updated: 2025-07-30-04-06-52
       followers: 769
-      likes: 56
-      views: 227
+      likes: 57
+      views: 232
+      comments: !c |-
+        iyaAkZPLQnmFlx3HgACra2F3YXpha3kyMjPZNdCT0YDQuNCx0L7QvNC10LHQtdC70Ywg0LHRi9C7
+        0LAg0LHRiyDQutGA0LDRgdC40LLRiNC1Aw==
 2019-02-16-vevrana-aryon:
   title: Vevrana Aryon
   titleRu: Веврана Арион
