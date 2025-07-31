@@ -5641,16 +5641,16 @@
       id: DMnxqv4MHJT
       mediaId: '18409413934128313'
       published: 2025-07-27-18-35-57
-      updated: 2025-07-30-18-39-57
+      updated: 2025-07-31-19-23-23
       followers: 1573
-      likes: 54
+      likes: 55
     - service: vk
       id: 2537
       published: 2025-07-27-18-36-03
-      updated: 2025-07-30-18-40-00
+      updated: 2025-07-31-19-23-25
       followers: 1352
-      likes: 24
-      views: 237
+      likes: 26
+      views: 280
       comments: !c |-
         G18B4J0Hto1qPbBYf+CWReKf7y/2CZ+ufLalQKK8KeEmSCw5l2xtueVoKNHkLVR0e4cP/ELUpJ87
         nrEt1eTuXW1t99M0SCWgANPNxWQNIqIiovhzWEjxOjnjQPyAAbYgwBaIVFvziCIMdGPNYIq3KIMF
@@ -5660,10 +5660,10 @@
     - service: tg
       id: 929
       published: 2025-07-27-18-36-07
-      updated: 2025-07-30-18-40-06
+      updated: 2025-07-31-19-23-26
       followers: 768
       likes: 56
-      views: 263
+      views: 305
       comments: !c |-
         G3IBABwHdqwx+HBYSnfSHBF1Iz38gIOIy/Ik4Qdumok02VPdxDmswDuEGrCS5j3F3JpPXJP0Q78t
         +vwfuOs87XubQSTw7ME3ndlOcA/G22hFQRQNaOddTl2YQJdBmr9LXmvzl6biSbk7Meev3P1P+Nfl
@@ -9502,15 +9502,24 @@
       id: DMyFSkJsszB
       mediaId: '18043881608639484'
       published: 2025-07-31-18-39-54
+      updated: 2025-07-31-19-23-19
       followers: 1572
+      likes: 14
     - service: vk
       id: 2549
       published: 2025-07-31-18-40-00
+      updated: 2025-07-31-19-23-16
       followers: 1358
+      likes: 8
+      views: 21
+      reposts: 2
     - service: tg
       id: 933
       published: 2025-07-31-18-40-06
+      updated: 2025-07-31-19-23-17
       followers: 769
+      likes: 17
+      views: 74
 2017-08-15-yagrum-bagarn-talks-to-uupse-fyr:
   title: Yagrum Bagarn Talks to Uupse Fyr
   titleRu: Ягрум Багарн беседует с Уупсой Фир
