@@ -2497,7 +2497,7 @@ kawazaky223:
   profiles:
     - service: tg
       id: '5641856113'
-      updated: 2025-07-31-19-23-28
+      updated: 2025-07-31-20-29-35
       accessHash: '7421309771527577818'
       username: Kawazaky223
       name: Максим
@@ -2577,7 +2577,7 @@ konstantin-matrosov:
   profiles:
     - service: vk
       id: '93073669'
-      updated: 2025-07-30-20-27-48
+      updated: 2025-07-31-20-29-33
       username: id93073669
       name: Константин Матросов
       avatar: store:/avatars/vk-3b5e092e.jpg
@@ -2967,7 +2967,7 @@ max-upsher:
   profiles:
     - service: tg
       id: '1774562733'
-      updated: 2025-07-30-22-26-20
+      updated: 2025-07-31-20-29-37
       accessHash: '1025402626840048013'
       username: MaxUpsher
       name: Max Upsher
@@ -2976,7 +2976,7 @@ mbdtsmo:
   profiles:
     - service: tg
       id: '5093097514'
-      updated: 2025-07-28-23-27-31
+      updated: 2025-07-31-20-29-37
       accessHash: '-613358669572386334'
       username: mbdtsmo
       name: M Bdtsmo
@@ -3428,7 +3428,7 @@ oberhort:
   profiles:
     - service: tg
       id: '19254498'
-      updated: 2025-07-24-20-29-22
+      updated: 2025-07-31-20-29-35
       accessHash: '-564270059565994883'
       username: oberhort
       name: Игорь
@@ -3930,7 +3930,7 @@ redoranar:
   profiles:
     - service: tg
       id: '627928484'
-      updated: 2025-07-29-02-42-33
+      updated: 2025-07-31-20-29-36
       accessHash: '4117269213935533016'
       username: Redoranar
       name: Egor
@@ -4199,7 +4199,7 @@ sergey-b:
   profiles:
     - service: vk
       id: '889222999'
-      updated: 2025-07-30-20-27-48
+      updated: 2025-07-31-20-29-35
       username: id889222999
       name: Сергей Б
       avatar: store:/avatars/vk-5031f51d.jpg
@@ -4213,7 +4213,7 @@ sergey-churbanov:
   profiles:
     - service: vk
       id: '1060712354'
-      updated: 2025-07-31-19-23-27
+      updated: 2025-07-31-20-29-33
       username: id1060712354
       name: Сергей Чурбанов
       avatar: store:/avatars/vk-6499ce8d.jpg
