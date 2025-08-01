@@ -3840,16 +3840,16 @@
       id: DMvgrhpsHIr
       mediaId: '18092208196656689'
       published: 2025-07-30-18-41-23
-      updated: 2025-08-01-17-26-01
+      updated: 2025-08-01-18-38-02
       followers: 1572
       likes: 62
     - service: vk
       id: 2545
       published: 2025-07-30-18-41-30
-      updated: 2025-08-01-17-26-04
+      updated: 2025-08-01-18-38-08
       followers: 1356
       likes: 45
-      views: 412
+      views: 418
       reposts: 1
       comments: !c |-
         GzkA+GX0tChtvFjSb2/f3qNlJAVpFt8nW8OgijYTKVUOeut2kKL7b1wCH3EneQGp8tBp+Ip3f/3X
@@ -3857,10 +3857,10 @@
     - service: tg
       id: 932
       published: 2025-07-30-18-41-35
-      updated: 2025-08-01-17-26-06
+      updated: 2025-08-01-18-38-06
       followers: 769
       likes: 55
-      views: 230
+      views: 233
       comments: !c iw2AkZPLQnmGScUhgACra2F3YXpha3kyMjOk8J+YjgM=
 2018-04-07-dont-go-this-way:
   title: Don't Go This Way
@@ -8865,6 +8865,19 @@
       followers: 197
       likes: 24
       views: 284
+    - service: ig
+      id: DM0qCdYMIBx
+      mediaId: '17917806177120558'
+      published: 2025-08-01-18-39-23
+      followers: 1573
+    - service: vk
+      id: 2551
+      published: 2025-08-01-18-39-31
+      followers: 1357
+    - service: tg
+      id: 934
+      published: 2025-08-01-18-39-37
+      followers: 768
 2018-08-07-spear-of-god:
   title: Spear of God
   titleRu: Копьё бога
