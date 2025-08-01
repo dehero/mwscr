@@ -2497,7 +2497,7 @@ kawazaky223:
   profiles:
     - service: tg
       id: '5641856113'
-      updated: 2025-07-31-21-25-52
+      updated: 2025-08-01-04-17-00
       accessHash: '7421309771527577818'
       username: Kawazaky223
       name: Максим
@@ -4213,7 +4213,7 @@ sergey-churbanov:
   profiles:
     - service: vk
       id: '1060712354'
-      updated: 2025-08-01-02-26-15
+      updated: 2025-08-01-04-16-59
       username: id1060712354
       name: Сергей Чурбанов
       avatar: store:/avatars/vk-6499ce8d.jpg
@@ -5204,7 +5204,7 @@ vail-astor-zkiy:
   profiles:
     - service: tg
       id: '1245638625'
-      updated: 2025-08-01-02-26-13
+      updated: 2025-08-01-04-17-00
       accessHash: '-6135365331334675689'
       name: Vail Astor'zkiy
 valeriy-zhmishenko:
