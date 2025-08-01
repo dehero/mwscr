@@ -2655,10 +2655,10 @@
     - service: vk
       id: 2522
       published: 2025-07-18-18-24-20
-      updated: 2025-07-25-20-14-47
+      updated: 2025-08-01-20-28-53
       followers: 1345
-      likes: 32
-      views: 319
+      likes: 33
+      views: 352
     - service: tg
       id: 921
       published: 2025-07-18-18-24-24
@@ -8513,9 +8513,9 @@
       id: DMO-hjNo1OE
       mediaId: '18197350498311168'
       published: 2025-07-18-03-27-16
-      updated: 2025-07-25-20-15-18
+      updated: 2025-08-01-20-28-57
       followers: 1568
-      likes: 45
+      likes: 46
 2018-07-27-the-book-of-dawn-and-dusk:
   title: The Book of Dawn and Dusk
   titleRu: Книга рассвета и заката
@@ -8869,23 +8869,23 @@
       id: DM0qCdYMIBx
       mediaId: '17917806177120558'
       published: 2025-08-01-18-39-23
-      updated: 2025-08-01-19-22-15
+      updated: 2025-08-01-20-28-36
       followers: 1573
-      likes: 14
+      likes: 26
     - service: vk
       id: 2551
       published: 2025-08-01-18-39-31
-      updated: 2025-08-01-19-22-14
+      updated: 2025-08-01-20-28-34
       followers: 1357
       likes: 3
-      views: 17
+      views: 57
     - service: tg
       id: 934
       published: 2025-08-01-18-39-37
-      updated: 2025-08-01-19-22-18
+      updated: 2025-08-01-20-28-37
       followers: 768
-      likes: 18
-      views: 62
+      likes: 22
+      views: 90
       comments: !c iw2AkZPLQnmGb6rKgACra2F3YXpha3kyMjOk8J+lrAM=
 2018-08-07-spear-of-god:
   title: Spear of God
@@ -10511,7 +10511,7 @@
       id: DMQQCL-MZcJ
       mediaId: '18064094723186502'
       published: 2025-07-18-15-19-27
-      updated: 2025-07-25-20-15-07
+      updated: 2025-08-01-20-28-48
       followers: 1568
       likes: 77
 2018-09-11-galmis-dren-smuggler:
@@ -11410,24 +11410,24 @@
       id: DMlOV1HNDFf
       mediaId: '18383403958193251'
       published: 2025-07-26-18-48-46
-      updated: 2025-07-31-19-23-25
+      updated: 2025-08-01-20-28-46
       followers: 1574
       likes: 60
     - service: vk
       id: 2535
       published: 2025-07-26-18-48-52
-      updated: 2025-07-31-19-23-27
+      updated: 2025-08-01-20-28-51
       followers: 1351
-      likes: 27
-      views: 234
+      likes: 28
+      views: 274
       comments: !c ixWAkZPLQnmEpjiXAACwc2VyZ2V5LWNodXJiYW5vdq9aYSAgTW9ycm93aW5kISED
     - service: tg
       id: 928
       published: 2025-07-26-18-48-55
-      updated: 2025-07-31-19-23-28
+      updated: 2025-08-01-20-28-45
       followers: 767
-      likes: 65
-      views: 326
+      likes: 67
+      views: 344
       comments: !c iw2AkZPLQnmEn+dnAACra2F3YXpha3kyMjOk8J+klgM=
 2018-09-30-ancestral-tombs:
   title: Ancestral Tombs
