@@ -48,6 +48,16 @@
       updated: 2025-07-29-02-42-34
       likes: 2
       views: 614
+    - service: vk
+      id: 2552
+      published: 2025-08-02-11-22-34
+      followers: 1357
+    - service: tg
+      id:
+        - 935
+        - 936
+      published: 2025-08-02-11-22-52
+      followers: 768
 2019-05-11-misty-pairs:
   title: Misty Pairs
   titleRu: Туманные пары
