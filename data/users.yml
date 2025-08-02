@@ -2497,7 +2497,7 @@ kawazaky223:
   profiles:
     - service: tg
       id: '5641856113'
-      updated: 2025-08-01-23-25-50
+      updated: 2025-08-02-02-04-03
       accessHash: '7421309771527577818'
       username: Kawazaky223
       name: Максим
@@ -4122,9 +4122,10 @@ scion-of-balance:
   profiles:
     - service: tg
       id: '5834663294'
-      updated: 2025-07-29-02-24-39
+      updated: 2025-08-02-02-03-55
       accessHash: '-2758740287553358448'
-      name: Riichi
+      username: vorpalhopper
+      name: Vorpalhopper
       avatar: store:/avatars/tg-4918367669028236830.jpg
 scr0up:
   profiles:
@@ -4213,7 +4214,7 @@ sergey-churbanov:
   profiles:
     - service: vk
       id: '1060712354'
-      updated: 2025-08-01-23-25-48
+      updated: 2025-08-02-02-03-56
       username: id1060712354
       name: Сергей Чурбанов
       avatar: store:/avatars/vk-6499ce8d.jpg
