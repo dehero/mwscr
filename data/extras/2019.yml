@@ -51,13 +51,25 @@
     - service: vk
       id: 2552
       published: 2025-08-02-11-22-34
+      updated: 2025-08-03-22-17-36
       followers: 1357
+      likes: 35
+      views: 455
+      reposts: 2
+      comments: !c |-
+        C0KAkpPLQnmGq0NiAACwc2VyZ2V5LWNodXJiYW5vdtkl0JDRhdCw0YXQsCDQt9C90LDQutC+0LzR
+        i9C5INC80L7RgdGCLpPLQnmGt+WDgACwYXJ0eW9tLW1lbGlraG9mZtkl0J7RgtC70LjRh9C90LDR
+        jyDRgNCw0LHQvtGC0LDwn5GN8J+PvAM=
     - service: tg
       id:
         - 935
         - 936
       published: 2025-08-02-11-22-52
+      updated: 2025-08-03-22-17-36
       followers: 768
+      likes: 51
+      views: 218
+      comments: !c iw2AkZPLQnmGrhnyAACra2F3YXpha3kyMjOk8J+ZjwM=
 2019-05-11-misty-pairs:
   title: Misty Pairs
   titleRu: Туманные пары
@@ -99,6 +111,12 @@
       updated: 2025-07-29-02-42-34
       likes: 2
       views: 649
+    - service: tg
+      id:
+        - 941
+        - 942
+      published: 2025-08-03-22-51-04
+      followers: 769
 2019-05-14-towers-of-mzanchend-by-knives-out:
   title: Towers of Mzanchend
   titleRu: Башни Мзанченда
