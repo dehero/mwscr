@@ -1,9 +1,9 @@
 import type { PostEntry } from '../../core/entities/post.js';
-import { comparePostEntriesByDate } from '../../core/entities/post.js';
+import { comparePostEntriesByDate, getPostDateById } from '../../core/entities/post.js';
 import { PublicPostsManagerName } from '../../core/entities/posts-manager.js';
-import { PUBLICATION_IS_RECENT_DAYS, PUBLICATION_MINIMUM_GAP_HOURS } from '../../core/entities/publication.js';
+import { PUBLICATION_MINIMUM_GAP_HOURS } from '../../core/entities/publication.js';
 import type { PostingServiceManager } from '../../core/entities/service.js';
-import { getDaysPassed, getHoursPassed } from '../../core/utils/date-utils.js';
+import { getHoursPassed } from '../../core/utils/date-utils.js';
 import { dataManager } from '../data-managers/manager.js';
 import { postingServiceManagers } from '../posting-service-managers/index.js';
 
@@ -72,8 +72,12 @@ async function findFirstUnpublishedPostEntry(postEntries: PostEntry[], service: 
   let result: PostEntry | undefined;
 
   for (const entry of publishableEntries) {
+    const postDate = getPostDateById(entry[0]);
+    if (!postDate) {
+      return undefined;
+    }
     const lastPublication = entry[1].posts?.find(
-      (post) => post.service === service.id && getDaysPassed(post.published) <= PUBLICATION_IS_RECENT_DAYS,
+      (publication) => publication.service === service.id && publication.published.getTime() >= postDate.getTime(),
     );
     if (lastPublication) {
       // Do not publish too often
