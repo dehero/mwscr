@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file.
 
+## [2.1.4](https://github.com/dehero/mwscr/compare/v2.1.3...v2.1.4) (2025-08-06)
+
+### Bug Fixes
+
+- check post and last publication date before posting
+  ([ccc3629](https://github.com/dehero/mwscr/commit/ccc36290cab07a515960068aff1dc90ae79660d3))
+
 ## [2.1.3](https://github.com/dehero/mwscr/compare/v2.1.2...v2.1.3) (2025-07-24)
 
 ### Bug Fixes
