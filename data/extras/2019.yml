@@ -27,7 +27,7 @@
     - service: vk
       id: 1158
       published: 2019-05-08
-      updated: 2025-07-29-02-42-40
+      updated: 2025-08-06-09-35-20
       followers: 347
       likes: 61
       views: 663
@@ -45,17 +45,17 @@
         - 170
         - 171
       published: 2019-05-08
-      updated: 2025-07-29-02-42-34
+      updated: 2025-08-06-09-35-14
       likes: 2
       views: 614
     - service: vk
       id: 2552
       published: 2025-08-02-11-22-34
-      updated: 2025-08-03-22-17-36
+      updated: 2025-08-06-09-35-06
       followers: 1357
-      likes: 35
-      views: 455
-      reposts: 2
+      likes: 46
+      views: 582
+      reposts: 3
       comments: !c |-
         C0KAkpPLQnmGq0NiAACwc2VyZ2V5LWNodXJiYW5vdtkl0JDRhdCw0YXQsCDQt9C90LDQutC+0LzR
         i9C5INC80L7RgdGCLpPLQnmGt+WDgACwYXJ0eW9tLW1lbGlraG9mZtkl0J7RgtC70LjRh9C90LDR
@@ -65,11 +65,16 @@
         - 935
         - 936
       published: 2025-08-02-11-22-52
-      updated: 2025-08-03-22-17-36
+      updated: 2025-08-06-09-35-06
       followers: 768
-      likes: 51
-      views: 218
+      likes: 57
+      views: 294
       comments: !c iw2AkZPLQnmGrhnyAACra2F3YXpha3kyMjOk8J+ZjwM=
+    - service: ig
+      id: DNAlJ9jN_U5
+      mediaId: '18110035537520720'
+      published: 2025-08-06-09-47-38
+      followers: 1573
 2019-05-11-misty-pairs:
   title: Misty Pairs
   titleRu: Туманные пары
@@ -97,7 +102,7 @@
     - service: vk
       id: 1165
       published: 2019-05-11
-      updated: 2025-07-29-02-42-39
+      updated: 2025-08-06-09-35-18
       followers: 349
       likes: 49
       views: 644
@@ -108,7 +113,7 @@
         - 175
         - 176
       published: 2019-05-11
-      updated: 2025-07-29-02-42-34
+      updated: 2025-08-06-09-35-14
       likes: 2
       views: 649
 2019-05-14-towers-of-mzanchend-by-knives-out:
@@ -139,7 +144,7 @@
     - service: vk
       id: 1169
       published: 2019-05-14
-      updated: 2025-07-29-02-42-38
+      updated: 2025-08-06-09-35-18
       followers: 350
       likes: 44
       views: 772
@@ -149,7 +154,7 @@
         - 180
         - 181
       published: 2019-05-14
-      updated: 2025-07-29-02-42-34
+      updated: 2025-08-06-09-35-14
       likes: 2
       views: 726
     - service: ig
@@ -164,10 +169,10 @@
     - service: vk
       id: 2050
       published: 2025-01-12-18-10-03
-      updated: 2025-07-29-02-42-32
+      updated: 2025-08-06-09-35-12
       followers: 1052
       likes: 38
-      views: 411
+      views: 412
       reposts: 2
       comments: !c |-
         G/sAaJ0Jti2Bddg61/IhNPonLuYn9Bvv0ANOOCmxJrJkH1mUz3fzUDJPD5tLrBeNDXSjsX/CQbnN
@@ -179,10 +184,10 @@
         - 661
         - 662
       published: 2025-01-12-18-10-23
-      updated: 2025-07-29-02-42-31
+      updated: 2025-08-06-09-35-10
       followers: 648
       likes: 66
-      views: 626
+      views: 628
       comments: !c |-
         G34CgJwHdiwYYWb2BSpEEP+P3LMI3/wv0CiyqHkJtwJOI0jOVXUiQWjSALnkesnupYmHzg//s+1M
         xRas2cB/7EQHg1CK39hc7jAUUcpj2ZuzWHchB8DfIeFT/LTtmGH2lbaoJYVhQBGl23y8vSOsdZgm

@@ -18,10 +18,10 @@
     - service: vk
       id: 3
       published: 2017-01-22
-      updated: 2025-07-29-02-41-29
+      updated: 2025-08-06-09-34-04
       followers: 4
-      likes: 3
-      views: 55
+      likes: 4
+      views: 56
     - service: ig
       id: C56Z9krvS4F
       mediaId: '18391346755078515'
@@ -36,7 +36,7 @@
     - service: vk
       id: 1499
       published: 2024-04-18-18-17-57
-      updated: 2025-07-29-02-25-44
+      updated: 2025-08-06-09-16-55
       followers: 910
       likes: 32
       views: 288
@@ -47,7 +47,7 @@
     - service: tg
       id: 382
       published: 2024-04-18-18-18-06
-      updated: 2025-07-28-23-35-15
+      updated: 2025-08-06-09-13-49
       followers: 354
       likes: 66
       views: 456
@@ -77,7 +77,7 @@
     - service: vk
       id: 4
       published: 2017-01-22
-      updated: 2025-07-29-02-41-30
+      updated: 2025-08-06-09-34-05
       followers: 4
       likes: 2
       views: 53
@@ -92,10 +92,10 @@
     - service: vk
       id: 2312
       published: 2025-04-28-18-25-04
-      updated: 2025-07-28-23-29-01
+      updated: 2025-08-06-09-07-03
       followers: 1274
       likes: 71
-      views: 493
+      views: 495
       reposts: 1
       comments: !c |-
         G4YBABwHTtm8gPMIrp76EUJz0iui4sTnCJ0GYpQAh0slaUTa6UwJKnugGTrXVEdFBTiTqI/GSr4M
@@ -107,10 +107,10 @@
     - service: tg
       id: 821
       published: 2025-04-28-18-25-09
-      updated: 2025-07-28-23-28-35
+      updated: 2025-08-06-09-06-32
       followers: 726
       likes: 79
-      views: 637
+      views: 638
       comments: !c |-
         GykBIBwHdpMPbL57lMMyEz0fN4owkD5TYZBwYE0U6ck+spu4WSglENlY3Ma5NBsU7QHaZf2oBTib
         HXFA3q6laWAtat4Wa/DzV3p83RhWQ/rh4BDB9b5/8EVDzC4DX4LLV6nGpgyi/sV2dSASeGZpglnv
@@ -138,10 +138,10 @@
     - service: vk
       id: 5
       published: 2017-01-22
-      updated: 2025-07-29-02-41-31
+      updated: 2025-08-06-09-34-06
       followers: 4
-      likes: 2
-      views: 53
+      likes: 3
+      views: 54
     - service: ig
       id: DC7LMkPPlFg
       mediaId: '18041061017000292'
@@ -153,10 +153,10 @@
     - service: vk
       id: 1924
       published: 2024-11-28-18-10-44
-      updated: 2025-07-28-23-33-16
+      updated: 2025-08-06-09-11-27
       followers: 1012
       likes: 50
-      views: 442
+      views: 443
       reposts: 4
       comments: !c |-
         G44A6J0Hto1sOxwMv/RubEZE3SK88OE5pJ/GI2oSiTzZwyDPXMZVcOLzVV0de+ZJNtyC6koe8EsM
@@ -165,10 +165,10 @@
     - service: tg
       id: 609
       published: 2024-11-28-18-10-52
-      updated: 2025-07-28-23-31-03
+      updated: 2025-08-06-09-09-12
       followers: 578
       likes: 59
-      views: 695
+      views: 696
 2016-11-20-4-aldruhn-under-skar:
   title: Ald'ruhn, Under-Skar
   titleRu: Альд'рун, под Скаром
@@ -196,9 +196,9 @@
     - service: vk
       id: 6
       published: 2017-01-22
-      updated: 2025-07-29-02-41-32
-      likes: 3
-      views: 53
+      updated: 2025-08-06-09-34-06
+      likes: 4
+      views: 54
     - service: ig
       id: C_yYGnMNlpF
       mediaId: '18265611079219764'
@@ -210,7 +210,7 @@
     - service: vk
       id: 1750
       published: 2024-09-11-18-36-08
-      updated: 2025-07-28-23-35-32
+      updated: 2025-08-06-09-13-44
       followers: 945
       likes: 51
       views: 424
@@ -221,10 +221,10 @@
     - service: tg
       id: 529
       published: 2024-09-11-18-36-14
-      updated: 2025-07-28-23-32-28
+      updated: 2025-08-06-09-10-46
       followers: 555
       likes: 57
-      views: 1026
+      views: 1030
       comments: !c ixiAkZTLQnkeJgMugAClYW5zaXOnbXkgaG9tZZPLQnkeK5YvAACtY2FpdXMtY29zYWRlc6AD
 2016-11-20-5-galom-daeus:
   title: Galom Daeus
@@ -247,10 +247,10 @@
     - service: vk
       id: 7
       published: 2017-01-22
-      updated: 2025-07-29-02-41-32
+      updated: 2025-08-06-09-34-07
       followers: 4
-      likes: 2
-      views: 61
+      likes: 3
+      views: 62
 2016-11-21-sheogorad:
   title: Sheogorad
   titleRu: Шигорад
@@ -272,10 +272,10 @@
     - service: vk
       id: 8
       published: 2017-01-22
-      updated: 2025-07-29-02-41-33
+      updated: 2025-08-06-09-34-08
       followers: 4
-      likes: 3
-      views: 53
+      likes: 4
+      views: 54
     - service: ig
       id: C5eFAr9gjlh
       mediaId: '18097466893401205'
@@ -290,14 +290,14 @@
     - service: tg
       id: 371
       published: 2024-04-07-18-16-13
-      updated: 2025-07-28-23-35-25
+      updated: 2025-08-06-09-14-01
       followers: 353
       likes: 74
-      views: 482
+      views: 483
     - service: vk
       id: 1485
       published: 2024-04-07-19-10-42
-      updated: 2025-07-29-02-25-54
+      updated: 2025-08-06-09-17-06
       followers: 909
       likes: 59
       views: 347
@@ -329,10 +329,10 @@
     - service: vk
       id: 9
       published: 2017-01-22
-      updated: 2025-07-29-02-41-34
+      updated: 2025-08-06-09-34-09
       followers: 4
-      likes: 2
-      views: 51
+      likes: 3
+      views: 52
     - service: ig
       id: C7j-qgXsfuy
       mediaId: '18012843287171672'
@@ -344,17 +344,17 @@
     - service: vk
       id: 1553
       published: 2024-05-29-18-18-55
-      updated: 2025-07-29-02-24-39
+      updated: 2025-08-06-09-16-09
       followers: 917
       likes: 26
       views: 278
     - service: tg
       id: 423
       published: 2024-05-29-18-19-00
-      updated: 2025-07-28-23-34-29
+      updated: 2025-08-06-09-13-01
       followers: 378
       likes: 62
-      views: 472
+      views: 473
 2016-11-23-lanterns-of-tel-branora:
   title: Lanterns of Tel Branora
   titleRu: Фонари Тель Браноры
@@ -378,10 +378,10 @@
     - service: vk
       id: 10
       published: 2017-01-22
-      updated: 2025-07-29-02-41-35
+      updated: 2025-08-06-09-34-09
       followers: 4
-      likes: 2
-      views: 55
+      likes: 3
+      views: 56
       reposts: 1
 2016-11-24-quarters-of-vivec:
   title: Quarters of Vivec
@@ -407,10 +407,10 @@
     - service: vk
       id: 11
       published: 2017-01-22
-      updated: 2025-07-29-02-41-36
+      updated: 2025-08-06-09-34-10
       followers: 4
-      likes: 2
-      views: 54
+      likes: 3
+      views: 55
       reposts: 1
 2016-11-25-rain-on-dren-plantation:
   title: Rain on Dren Plantation
@@ -435,10 +435,10 @@
     - service: vk
       id: 12
       published: 2017-01-22
-      updated: 2025-07-29-02-41-36
+      updated: 2025-08-06-09-34-11
       followers: 4
-      likes: 2
-      views: 49
+      likes: 3
+      views: 50
 2016-11-26-imperial-pennant-and-masser:
   title: Imperial Pennant and Masser
   titleRu: Имперский вымпел и Массер
@@ -464,10 +464,10 @@
     - service: vk
       id: 13
       published: 2017-01-22
-      updated: 2025-07-29-02-41-37
+      updated: 2025-08-06-09-34-12
       followers: 4
-      likes: 3
-      views: 49
+      likes: 4
+      views: 50
 2016-11-27-lonely-fargoth:
   title: Lonely Fargoth
   titleRu: Одинокий Фаргот
@@ -491,10 +491,10 @@
     - service: vk
       id: 14
       published: 2017-01-22
-      updated: 2025-07-29-02-41-38
+      updated: 2025-08-06-09-34-12
       followers: 4
-      likes: 3
-      views: 51
+      likes: 4
+      views: 52
     - service: ig
       id: C-ihqretmf0
       mediaId: '18026414039205308'
@@ -506,7 +506,7 @@
     - service: vk
       id: 1687
       published: 2024-08-11-18-20-27
-      updated: 2025-07-28-23-36-20
+      updated: 2025-08-06-09-14-34
       followers: 930
       likes: 47
       views: 321
@@ -514,7 +514,7 @@
     - service: tg
       id: 498
       published: 2024-08-11-18-20-32
-      updated: 2025-07-28-23-33-04
+      updated: 2025-08-06-09-11-23
       followers: 520
       likes: 68
       views: 667
@@ -542,10 +542,10 @@
     - service: vk
       id: 15
       published: 2017-01-22
-      updated: 2025-07-29-02-41-39
+      updated: 2025-08-06-09-34-13
       followers: 4
-      likes: 1
-      views: 54
+      likes: 2
+      views: 55
 2016-11-29-nchuleftingth-expedition:
   title: Nchuleftingth Expedition
   titleRu: Экспедиция в Нчулефтингт
@@ -567,10 +567,10 @@
     - service: vk
       id: 16
       published: 2017-01-22
-      updated: 2025-07-29-02-41-39
+      updated: 2025-08-06-09-34-14
       followers: 4
-      likes: 1
-      views: 54
+      likes: 2
+      views: 55
     - service: ig
       id: C9nTZbKNLvv
       mediaId: '18057727063715097'
@@ -582,7 +582,7 @@
     - service: vk
       id: 1644
       published: 2024-07-19-18-20-33
-      updated: 2025-07-28-23-36-50
+      updated: 2025-08-06-09-15-04
       followers: 919
       likes: 49
       views: 347
@@ -593,7 +593,7 @@
     - service: tg
       id: 474
       published: 2024-07-19-18-20-40
-      updated: 2025-07-28-23-33-35
+      updated: 2025-08-06-09-11-56
       followers: 400
       likes: 62
       views: 591
@@ -618,10 +618,10 @@
     - service: vk
       id: 17
       published: 2017-01-22
-      updated: 2025-07-29-02-41-40
+      updated: 2025-08-06-09-34-15
       followers: 4
-      likes: 3
-      views: 55
+      likes: 4
+      views: 56
     - service: ig
       id: DCcRiohACzQ
       mediaId: '18082753906486129'
@@ -633,10 +633,10 @@
     - service: vk
       id: 1896
       published: 2024-11-16-18-09-40
-      updated: 2025-07-28-23-33-38
+      updated: 2025-08-06-09-11-49
       followers: 1007
       likes: 55
-      views: 428
+      views: 429
       reposts: 2
       comments: !c |-
         G1QBYJ0HtnuUgp2c/0BbqhlKC/Fwv/q8Qm+7scDXo3lprRPb+o4g5+HB/2y7EqohOdfdnsDfoQjg
@@ -647,7 +647,7 @@
     - service: tg
       id: 597
       published: 2024-11-16-18-09-47
-      updated: 2025-07-28-23-31-16
+      updated: 2025-08-06-09-09-28
       followers: 573
       likes: 69
       views: 727
@@ -672,10 +672,10 @@
     - service: vk
       id: 18
       published: 2017-01-22
-      updated: 2025-07-29-02-41-41
+      updated: 2025-08-06-09-34-16
       followers: 4
-      likes: 2
-      views: 58
+      likes: 3
+      views: 59
     - service: ig
       id: DIhG_1uAMEY
       mediaId: '17901096612163942'
@@ -687,10 +687,10 @@
     - service: vk
       id: 2282
       published: 2025-04-16-18-22-11
-      updated: 2025-07-28-23-29-16
+      updated: 2025-08-06-09-07-18
       followers: 1261
       likes: 75
-      views: 535
+      views: 537
       reposts: 2
       comments: !c |-
         G3MA+C0SzNOZIrBxyzn4pCAU2IEHFAjFAZdQxMkOdTWlBCks4wLeP73ICyTQyOLa2rKs//L9dMAX
@@ -698,10 +698,10 @@
     - service: tg
       id: 797
       published: 2025-04-16-18-22-22
-      updated: 2025-07-28-23-28-43
+      updated: 2025-08-06-09-06-42
       followers: 720
       likes: 60
-      views: 574
+      views: 575
 2016-12-02-molag-mar:
   title: Molag Mar
   titleRu: Молаг Мар
@@ -723,10 +723,10 @@
     - service: vk
       id: 19
       published: 2017-01-22
-      updated: 2025-07-29-02-41-42
+      updated: 2025-08-06-09-34-16
       followers: 4
-      likes: 2
-      views: 56
+      likes: 3
+      views: 57
     - service: ig
       id: DDphn0uzA0I
       mediaId: '17959880600728426'
@@ -739,18 +739,18 @@
     - service: vk
       id: 1966
       published: 2024-12-16-18-11-45
-      updated: 2025-07-28-23-32-45
+      updated: 2025-08-06-09-10-54
       followers: 1027
       likes: 57
-      views: 397
+      views: 398
       reposts: 4
     - service: tg
       id: 627
       published: 2024-12-16-18-11-52
-      updated: 2025-07-28-23-30-47
+      updated: 2025-08-06-09-08-57
       followers: 581
       likes: 78
-      views: 723
+      views: 724
       comments: !c |-
         G+4A4K0SuLOYByPKFBpbHvbRP3KL8M9bDpG1hCJO7qnbSgqCYGi/OLn+bqGqbnt+jc9pmyCC4+/V
         YvaU5aWcG1mGvWU75TRwTTShALQlmtGFDh6y7YGSNZFPz/vX8v9xfHfF/H6ruVCsWVskZoHMI9zw
@@ -776,10 +776,10 @@
     - service: vk
       id: 20
       published: 2017-01-22
-      updated: 2025-07-29-02-41-42
+      updated: 2025-08-06-09-34-17
       followers: 4
-      likes: 1
-      views: 54
+      likes: 2
+      views: 55
 2016-12-04-vos-from-tel-vos:
   title: Vos from Tel Vos
   titleRu: Вос из Тель Воса
@@ -803,10 +803,10 @@
     - service: vk
       id: 21
       published: 2017-01-22
-      updated: 2025-07-29-02-41-43
+      updated: 2025-08-06-09-34-18
       followers: 4
-      likes: 2
-      views: 59
+      likes: 3
+      views: 60
     - service: ig
       id: C7uR50dPL4F
       mediaId: '18029333957020396'
@@ -818,7 +818,7 @@
     - service: vk
       id: 1560
       published: 2024-06-02-18-19-25
-      updated: 2025-07-29-02-24-35
+      updated: 2025-08-06-09-16-05
       followers: 915
       likes: 48
       views: 386
@@ -826,7 +826,7 @@
     - service: tg
       id: 427
       published: 2024-06-02-18-19-30
-      updated: 2025-07-28-23-34-25
+      updated: 2025-08-06-09-12-57
       followers: 380
       likes: 65
       views: 502
@@ -853,7 +853,7 @@
     - service: vk
       id: 22
       published: 2017-01-22
-      updated: 2025-07-29-02-41-44
+      updated: 2025-08-06-09-34-19
       followers: 4
       likes: 1
       views: 65
@@ -880,10 +880,10 @@
     - service: vk
       id: 23
       published: 2017-01-22
-      updated: 2025-07-29-02-41-45
+      updated: 2025-08-06-09-34-19
       followers: 4
-      likes: 1
-      views: 56
+      likes: 2
+      views: 57
     - service: ig
       id: DDhzL3sO4Ky
       mediaId: '17846310591368957'
@@ -898,17 +898,17 @@
     - service: vk
       id: 1960
       published: 2024-12-13-18-11-18
-      updated: 2025-07-28-23-32-50
+      updated: 2025-08-06-09-11-00
       followers: 1024
       likes: 35
-      views: 317
+      views: 319
     - service: tg
       id: 624
       published: 2024-12-13-18-11-26
-      updated: 2025-07-28-23-30-51
+      updated: 2025-08-06-09-09-01
       followers: 580
       likes: 63
-      views: 644
+      views: 647
       comments: !c |-
         G4YA6I3UTjc8sgT/wLkIFzbw7aLsuCzboqkSOEnzfTy3Mc/YrSVFYIXBBpxoODAnPAgvdKPsUHHZ
         j5dXqOcadgy4FYqVRqeT+acJrUsutOYHUzNWU4S14DXX2iRNEmLEaYN5xkSUpvSjJ4a7sPGE/+zi
@@ -936,10 +936,10 @@
     - service: vk
       id: 24
       published: 2017-01-22
-      updated: 2025-07-29-02-41-45
+      updated: 2025-08-06-09-34-20
       followers: 4
-      likes: 1
-      views: 57
+      likes: 2
+      views: 58
 2016-12-08-manats-farmhouse:
   title: Manat's Farmhouse
   titleRu: Ферма Маната
@@ -961,10 +961,10 @@
     - service: vk
       id: 25
       published: 2017-01-22
-      updated: 2025-07-29-02-41-46
+      updated: 2025-08-06-09-34-21
       followers: 4
-      likes: 2
-      views: 61
+      likes: 3
+      views: 62
 2016-12-09-silt-strider-port-of-molag-mar:
   title: Silt Strider Port of Molag Mar
   titleRu: Порт Силт Страйдеров Молаг Мара
@@ -988,9 +988,10 @@
     - service: vk
       id: 26
       published: 2017-01-22
-      updated: 2025-07-29-02-41-47
+      updated: 2025-08-06-09-34-22
       followers: 4
-      views: 62
+      likes: 1
+      views: 63
 2016-12-10-somewhere-nearby-vivec:
   title: Somewhere Nearby Vivec
   titleRu: Где-то около Вивека
@@ -1014,10 +1015,10 @@
     - service: vk
       id: 27
       published: 2017-01-22
-      updated: 2025-07-29-02-41-48
+      updated: 2025-08-06-09-34-23
       followers: 4
-      likes: 1
-      views: 65
+      likes: 2
+      views: 66
     - service: ig
       id: C7w22D9vfx2
       mediaId: '17851169739208234'
@@ -1030,7 +1031,7 @@
     - service: vk
       id: 1561
       published: 2024-06-03-18-20-43
-      updated: 2025-07-28-23-37-52
+      updated: 2025-08-06-09-16-04
       followers: 915
       likes: 36
       views: 294
@@ -1039,7 +1040,7 @@
     - service: tg
       id: 428
       published: 2024-06-03-18-20-51
-      updated: 2025-07-28-23-34-25
+      updated: 2025-08-06-09-12-56
       followers: 383
       likes: 59
       views: 495
@@ -1066,7 +1067,7 @@
     - service: vk
       id: 28
       published: 2017-01-22
-      updated: 2025-07-29-02-41-48
+      updated: 2025-08-06-09-34-23
       followers: 4
       views: 89
 2016-12-12-buckmoth-legion-fort-from-aldruhn:
@@ -1094,10 +1095,10 @@
     - service: vk
       id: 29
       published: 2017-01-22
-      updated: 2025-07-29-02-41-49
+      updated: 2025-08-06-09-34-24
       followers: 4
-      likes: 2
-      views: 63
+      likes: 3
+      views: 64
     - service: ig
       id: C9xmndhv1oc
       mediaId: '17926779506919376'
@@ -1109,7 +1110,7 @@
     - service: vk
       id: 1653
       published: 2024-07-23-18-20-55
-      updated: 2025-07-28-23-36-45
+      updated: 2025-08-06-09-14-59
       followers: 921
       likes: 40
       views: 309
@@ -1118,7 +1119,7 @@
     - service: tg
       id: 478
       published: 2024-07-23-18-21-00
-      updated: 2025-07-28-23-33-31
+      updated: 2025-08-06-09-11-51
       followers: 400
       likes: 62
       views: 579
@@ -1146,10 +1147,10 @@
     - service: vk
       id: 30
       published: 2017-01-22
-      updated: 2025-07-29-02-41-50
+      updated: 2025-08-06-09-34-25
       followers: 4
-      likes: 1
-      views: 65
+      likes: 2
+      views: 66
 2016-12-14-pelagiad:
   title: Pelagiad
   titleRu: Пелагиад
@@ -1171,10 +1172,10 @@
     - service: vk
       id: 31
       published: 2017-01-22
-      updated: 2025-07-29-02-41-51
+      updated: 2025-08-06-09-34-26
       followers: 4
-      likes: 2
-      views: 66
+      likes: 3
+      views: 67
 2016-12-15-cloud-crowns-of-foyada-mamaea:
   title: Cloud Crowns of Foyada Mamaea
   titleRu: Облачные кроны Фояды Мамея
@@ -1197,9 +1198,10 @@
     - service: vk
       id: 32
       published: 2017-01-22
-      updated: 2025-07-29-02-41-51
+      updated: 2025-08-06-09-34-26
       followers: 4
-      views: 64
+      likes: 1
+      views: 65
 2016-12-16-gnisis-temple:
   title: Gnisis Temple
   titleRu: Храм Гнисиса
@@ -1223,10 +1225,10 @@
     - service: vk
       id: 33
       published: 2017-01-22
-      updated: 2025-07-29-02-41-52
+      updated: 2025-08-06-09-34-27
       followers: 4
-      likes: 1
-      views: 62
+      likes: 2
+      views: 63
 2016-12-17-a-path-to-vivec:
   title: A Path to Vivec
   titleRu: Путь к Вивеку
@@ -1251,7 +1253,7 @@
     - service: vk
       id: 34
       published: 2017-01-22
-      updated: 2025-07-29-02-41-53
+      updated: 2025-08-06-09-34-28
       followers: 4
       views: 77
 2016-12-18-the-governors-hall-in-caldera-from-distance:
@@ -1278,10 +1280,10 @@
     - service: vk
       id: 35
       published: 2017-01-22
-      updated: 2025-07-29-02-41-54
+      updated: 2025-08-06-09-34-29
       followers: 4
-      likes: 1
-      views: 68
+      likes: 2
+      views: 69
     - service: ig
       id: DLAxCKwMros
       mediaId: '17862711228356418'
@@ -1292,10 +1294,10 @@
     - service: vk
       id: 2470
       published: 2025-06-17-18-28-43
-      updated: 2025-07-28-22-27-20
+      updated: 2025-08-06-09-05-42
       followers: 1327
       likes: 55
-      views: 392
+      views: 404
       reposts: 1
       comments: !c |-
         G50BwCwO7DYfCzGx5eSX1XoyxD/vn0j68qlNWsEilajpBEY+OZd8Oqc+z2mWPUfRMplALW8xCYUm
@@ -1306,10 +1308,10 @@
     - service: tg
       id: 888
       published: 2025-06-17-18-28-46
-      updated: 2025-07-28-22-27-20
+      updated: 2025-08-06-09-05-35
       followers: 749
       likes: 64
-      views: 535
+      views: 545
 2016-12-19-hla-oad:
   title: Hla Oad
   titleRu: Хла Оуд
@@ -1333,9 +1335,10 @@
     - service: vk
       id: 36
       published: 2017-01-22
-      updated: 2025-07-29-02-41-54
+      updated: 2025-08-06-09-34-30
       followers: 4
-      views: 71
+      likes: 1
+      views: 72
       reposts: 1
     - service: ig
       id: C7zbiOkvtTq
@@ -1354,7 +1357,7 @@
     - service: vk
       id: 1564
       published: 2024-06-04-18-19-46
-      updated: 2025-07-28-23-37-51
+      updated: 2025-08-06-09-16-03
       followers: 915
       likes: 47
       views: 399
@@ -1370,7 +1373,7 @@
     - service: tg
       id: 429
       published: 2024-06-04-18-19-52
-      updated: 2025-07-28-23-34-24
+      updated: 2025-08-06-09-12-55
       followers: 383
       likes: 64
       views: 480
@@ -1398,10 +1401,10 @@
     - service: vk
       id: 37
       published: 2017-01-22
-      updated: 2025-07-29-02-41-55
+      updated: 2025-08-06-09-34-30
       followers: 4
-      likes: 2
-      views: 75
+      likes: 3
+      views: 76
     - service: ig
       id: C5JeKzqs_SW
       mediaId: '18035191825875556'
@@ -1417,14 +1420,14 @@
     - service: vk
       id: 1474
       published: 2024-03-30-18-11-53
-      updated: 2025-07-29-02-26-04
+      updated: 2025-08-06-09-17-13
       followers: 905
       likes: 38
       views: 281
     - service: tg
       id: 362
       published: 2024-03-30-18-11-58
-      updated: 2025-07-28-23-35-32
+      updated: 2025-08-06-09-14-10
       followers: 354
       likes: 70
       views: 489
@@ -1452,9 +1455,10 @@
     - service: vk
       id: 38
       published: 2017-01-22
-      updated: 2025-07-29-02-41-56
+      updated: 2025-08-06-09-34-31
       followers: 4
-      views: 74
+      likes: 1
+      views: 75
 2016-12-22-ebonheart-towers:
   title: Ebonheart Towers
   titleRu: Башни Эбенгарда
@@ -1479,13 +1483,14 @@
     - service: vk
       id: 39
       published: 2017-01-22
-      updated: 2025-07-29-02-41-57
+      updated: 2025-08-06-09-34-32
       followers: 4
-      views: 76
+      likes: 1
+      views: 77
     - service: vk
       id: 1512
       published: 2024-04-28-18-16-56
-      updated: 2025-07-29-02-25-34
+      updated: 2025-08-06-09-16-45
       followers: 911
       likes: 43
       views: 352
@@ -1493,7 +1498,7 @@
     - service: tg
       id: 392
       published: 2024-04-28-18-17-01
-      updated: 2025-07-28-23-35-02
+      updated: 2025-08-06-09-13-37
       followers: 354
       likes: 71
       views: 554
@@ -1556,7 +1561,7 @@
     - service: vk
       id: 40
       published: 2017-01-22
-      updated: 2025-07-29-02-41-57
+      updated: 2025-08-06-09-34-33
       followers: 4
       likes: 2
       views: 108
@@ -1580,10 +1585,10 @@
     - service: vk
       id: 41
       published: 2017-01-22
-      updated: 2025-07-29-02-41-58
+      updated: 2025-08-06-09-34-33
       followers: 4
-      likes: 1
-      views: 76
+      likes: 2
+      views: 77
 2016-12-25-telvanni-weaponsmiths-stands:
   title: Telvanni Weaponsmith's Stands
   titleRu: Подставки Телванийского оружейника
@@ -1605,10 +1610,10 @@
     - service: vk
       id: 42
       published: 2017-01-22
-      updated: 2025-07-29-02-41-59
+      updated: 2025-08-06-09-34-34
       followers: 4
-      likes: 2
-      views: 76
+      likes: 3
+      views: 77
 2016-12-26-grazelands:
   title: Grazelands
   titleRu: Грейзленд
@@ -1632,10 +1637,10 @@
     - service: vk
       id: 43
       published: 2017-01-22
-      updated: 2025-07-29-02-42-00
+      updated: 2025-08-06-09-34-35
       followers: 4
-      likes: 1
-      views: 78
+      likes: 2
+      views: 79
 2016-12-27-mzanchend-guards:
   title: Mzanchend Guards
   titleRu: Стражи Мзанченда
@@ -1659,10 +1664,10 @@
     - service: vk
       id: 44
       published: 2017-01-22
-      updated: 2025-07-29-02-42-01
+      updated: 2025-08-06-09-34-36
       followers: 4
-      likes: 1
-      views: 81
+      likes: 2
+      views: 82
 2016-12-28-close-to-caldera-clothier:
   title: Close to Caldera Clothier
   titleRu: У Кальдерского портного
@@ -1684,10 +1689,10 @@
     - service: vk
       id: 45
       published: 2017-01-22
-      updated: 2025-07-29-02-42-01
+      updated: 2025-08-06-09-34-36
       followers: 4
-      likes: 3
-      views: 87
+      likes: 4
+      views: 88
       reposts: 1
     - service: ig
       id: C_OTj8gJOd2
@@ -1701,7 +1706,7 @@
     - service: vk
       id: 1713
       published: 2024-08-28-18-23-48
-      updated: 2025-07-28-23-35-56
+      updated: 2025-08-06-09-14-08
       followers: 940
       likes: 49
       views: 369
@@ -1714,7 +1719,7 @@
     - service: tg
       id: 515
       published: 2024-08-28-18-23-56
-      updated: 2025-07-28-23-32-47
+      updated: 2025-08-06-09-11-03
       followers: 546
       likes: 70
       views: 660
@@ -1740,7 +1745,7 @@
     - service: vk
       id: 46
       published: 2017-01-22
-      updated: 2025-07-29-02-42-02
+      updated: 2025-08-06-09-34-37
       followers: 4
       likes: 1
       views: 93
@@ -1765,10 +1770,10 @@
     - service: vk
       id: 47
       published: 2017-01-22
-      updated: 2025-07-29-02-42-03
+      updated: 2025-08-06-09-34-38
       followers: 4
-      likes: 3
-      views: 92
+      likes: 4
+      views: 93
       reposts: 1
     - service: ig
       id: C8fNH04tqd6
@@ -1781,7 +1786,7 @@
     - service: vk
       id: 1593
       published: 2024-06-21-18-20-26
-      updated: 2025-07-28-23-37-29
+      updated: 2025-08-06-09-15-42
       followers: 919
       likes: 36
       views: 306
@@ -1789,7 +1794,7 @@
     - service: tg
       id: 446
       published: 2024-06-21-18-20-33
-      updated: 2025-07-28-23-34-07
+      updated: 2025-08-06-09-12-34
       followers: 386
       likes: 55
       views: 551
@@ -1815,10 +1820,10 @@
     - service: vk
       id: 48
       published: 2017-01-22
-      updated: 2025-07-29-02-42-04
+      updated: 2025-08-06-09-34-39
       followers: 4
-      likes: 4
-      views: 90
+      likes: 5
+      views: 91
     - service: ig
       id: DAys4YOh7OF
       mediaId: '17855403861278191'
@@ -1836,14 +1841,14 @@
     - service: tg
       id: 556
       published: 2024-10-06-18-09-23
-      updated: 2025-07-28-23-32-04
+      updated: 2025-08-06-09-10-18
       followers: 559
       likes: 66
       views: 577
     - service: vk
       id: 1812
       published: 2024-10-06-19-01-29
-      updated: 2025-07-28-23-34-49
+      updated: 2025-08-06-09-12-59
       followers: 958
       likes: 53
       views: 385
