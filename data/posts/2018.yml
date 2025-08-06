@@ -2829,19 +2829,6 @@
       followers: 141
       likes: 16
       views: 215
-    - service: ig
-      id: DM6NtzXIdsJ
-      mediaId: '18117626296495505'
-      published: 2025-08-03-22-27-26
-      followers: 1572
-    - service: vk
-      id: 2558
-      published: 2025-08-03-22-27-31
-      followers: 1356
-    - service: tg
-      id: 940
-      published: 2025-08-03-22-27-35
-      followers: 769
 2018-03-13-to-the-sunset:
   title: To the Sunset
   titleRu: К закату
@@ -6280,7 +6267,7 @@
   title: Mournhold Cactus
   titleRu: Морнхолдский кактус
   placement: Indoors
-  location: 'Mournhold, Royal Palace: Guards'' Quarters'
+  location: "Mournhold, Royal Palace: Guards' Quarters"
   content: store:/shots/2018-06-02-mournhold-cactus.png
   type: shot
   author: dehero
@@ -6584,7 +6571,7 @@
   placement: Indoors
   location:
     - Imperial Prison Ship
-    - 'Mournhold, Royal Palace: Barenziah''s Chambers'
+    - "Mournhold, Royal Palace: Barenziah's Chambers"
     - Tower of Tel Fyr, Hall of Fyr
     - Seyda Neen, Census and Excise Office
   content:
@@ -8684,6 +8671,19 @@
       followers: 194
       likes: 24
       views: 340
+    - service: ig
+      id: DM543yhsZtW
+      mediaId: '17894475237269603'
+      published: 2025-08-03-19-25-00
+      followers: 1572
+    - service: vk
+      id: 2552
+      published: 2025-08-03-19-25-00
+      followers: 1356
+    - service: tg
+      id: 937
+      published: 2025-08-03-19-25-28
+      followers: 769
 2018-07-31-spires:
   title: Spires
   titleRu: Острия
