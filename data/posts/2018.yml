@@ -1976,17 +1976,17 @@
     - service: vk
       id: 2512
       published: 2025-07-10-18-24-32
-      updated: 2025-07-31-20-29-38
+      updated: 2025-08-07-21-14-22
       followers: 1337
       likes: 50
-      views: 507
+      views: 515
     - service: tg
       id: 913
       published: 2025-07-10-18-24-36
-      updated: 2025-07-31-20-29-37
+      updated: 2025-08-07-21-14-32
       followers: 759
       likes: 68
-      views: 566
+      views: 595
       comments: !c |-
         iz6AkZTLQnl/h0wngACnbWJkdHNtb9k3V2hhdCBkaWQgeW91IGd1eXMgZW5jaGFudCB3aXRoIFZp
         dmVjcyBBbG1hbGV4aWFzIHNvdWwgP5PLQnl/0KW+AACqbWF4LXVwc2hlcrxIdWguIE5vdyB0aGF0
@@ -2662,10 +2662,10 @@
     - service: tg
       id: 921
       published: 2025-07-18-18-24-24
-      updated: 2025-07-31-20-29-34
+      updated: 2025-08-07-21-14-19
       followers: 763
       likes: 60
-      views: 464
+      views: 521
       comments: !c iw2AkZPLQnmCbLDJAACra2F3YXpha3kyMjOk8J+YkQM=
     - service: ig
       id: DMe2gNAtdul
@@ -4975,10 +4975,10 @@
     - service: vk
       id: 2529
       published: 2025-07-24-18-40-55
-      updated: 2025-07-31-20-29-34
+      updated: 2025-08-07-21-14-09
       followers: 1350
-      likes: 36
-      views: 383
+      likes: 37
+      views: 397
       reposts: 2
       comments: !c |-
         G2YDQCwKbNuhddgrGTS/IZfM+H/i4hfhg+TP7G6AIYSB1DRh9BMIm0kwOVfNxTBCIjkcCJX1l/9c
@@ -4992,10 +4992,10 @@
     - service: tg
       id: 926
       published: 2025-07-24-18-41-00
-      updated: 2025-07-31-20-29-32
+      updated: 2025-08-07-21-14-11
       followers: 766
-      likes: 55
-      views: 362
+      likes: 57
+      views: 484
       comments: !c iwuAkZPLQnmD3Px6AACra2F3YXpha3kyMjOgAw==
     - service: ig
       id: DMgiQ8HMbCf
@@ -10519,11 +10519,11 @@
     - service: vk
       id: 2520
       published: 2025-07-17-18-25-15
-      updated: 2025-07-31-20-29-36
+      updated: 2025-08-07-21-14-18
       followers: 1344
       likes: 46
-      views: 361
-      reposts: 3
+      views: 375
+      reposts: 2
       comments: !c |-
         G9YAYJ0JdozKK3T3hoioW5zQaaoBFqVB3gSYRJ7skb2q243RT8iELTvNC6RFGSByxx7TXfv1EMjP
         IwksSJqXZS1nsAEH7vFA8yyD2MQ8OOS2w8XjLOgK9/O3w3//MX27bUfr22cWsqmmFnQxWhItdoHa
@@ -10531,10 +10531,10 @@
     - service: tg
       id: 920
       published: 2025-07-17-18-25-21
-      updated: 2025-07-31-20-29-36
+      updated: 2025-08-07-21-14-30
       followers: 762
       likes: 64
-      views: 477
+      views: 522
       comments: !c |-
         G+UAQByHsdtkaOovXehCjBfx9bcjPKDP0jQ1kZZAFWGyDzygprZJqlwnVI3U9J8QkW0V97aWTd0W
         k+XGNPFwEDxMRbUla70bnGiAEIUQgASYBrjC4CEr8VjXPh37S1/4qdiqcylKc85ARQ7Df944AtRa
