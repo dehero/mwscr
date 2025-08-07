@@ -51,10 +51,10 @@
     - service: vk
       id: 2552
       published: 2025-08-02-11-22-34
-      updated: 2025-08-06-09-35-06
+      updated: 2025-08-07-10-18-22
       followers: 1357
-      likes: 46
-      views: 582
+      likes: 47
+      views: 635
       reposts: 3
       comments: !c |-
         C0KAkpPLQnmGq0NiAACwc2VyZ2V5LWNodXJiYW5vdtkl0JDRhdCw0YXQsCDQt9C90LDQutC+0LzR
@@ -65,16 +65,16 @@
         - 935
         - 936
       published: 2025-08-02-11-22-52
-      updated: 2025-08-06-09-35-06
+      updated: 2025-08-07-10-18-22
       followers: 768
-      likes: 57
-      views: 294
+      likes: 59
+      views: 358
       comments: !c iw2AkZPLQnmGrhnyAACra2F3YXpha3kyMjOk8J+ZjwM=
     - service: ig
       id: DNAlJ9jN_U5
       mediaId: '18110035537520720'
       published: 2025-08-06-09-47-38
-      updated: 2025-08-07-09-23-09
+      updated: 2025-08-07-10-18-18
       followers: 1573
       likes: 54
 2019-05-11-misty-pairs:
