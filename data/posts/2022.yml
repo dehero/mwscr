@@ -732,6 +732,19 @@
       likes: 43
       views: 631
       comments: !c ixWAkZPLQnkBtZF7AACoYW5ub2RhcnS3VGhlIG9yYyBpcyBhbGl2ZSB0aG91Z2gD
+    - service: ig
+      id: DNEFRoMsHSh
+      mediaId: '18122328346483039'
+      published: 2025-08-07-18-25-59
+      followers: 1574
+    - service: vk
+      id: 2561
+      published: 2025-08-07-18-26-04
+      followers: 1362
+    - service: tg
+      id: 944
+      published: 2025-08-07-18-26-07
+      followers: 773
 2022-07-07-misty-peaks:
   title: Misty Peaks
   titleRu: Туманные пики
