@@ -6293,6 +6293,19 @@
       followers: 56
       likes: 5
       views: 105
+    - service: ig
+      id: DNGpyNYs1F0
+      mediaId: '17870239629333855'
+      published: 2025-08-08-18-23-29
+      followers: 1575
+    - service: vk
+      id: 2563
+      published: 2025-08-08-18-23-49
+      followers: 1362
+    - service: tg
+      id: 945
+      published: 2025-08-08-18-24-03
+      followers: 773
 2017-05-23-equalizer:
   title: Equalizer
   titleRu: Эквалайзер
@@ -9934,23 +9947,23 @@
       id: DNBga1Sso0Z
       mediaId: '17898572103258644'
       published: 2025-08-06-18-25-26
-      updated: 2025-08-08-17-13-00
+      updated: 2025-08-08-18-21-56
       followers: 1572
       likes: 71
     - service: vk
       id: 2560
       published: 2025-08-06-18-25-35
-      updated: 2025-08-08-17-13-12
+      updated: 2025-08-08-18-21-52
       followers: 1360
       likes: 21
-      views: 105
+      views: 110
     - service: tg
       id: 943
       published: 2025-08-06-18-25-41
-      updated: 2025-08-08-17-13-10
+      updated: 2025-08-08-18-21-46
       followers: 772
       likes: 57
-      views: 255
+      views: 257
 2017-08-24-wraith-of-sul-senipul:
   title: Wraith of Sul-Senipul
   titleRu: Призрак Сул-Сенипула
