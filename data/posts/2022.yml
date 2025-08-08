@@ -736,24 +736,30 @@
       id: DNEFRoMsHSh
       mediaId: '18122328346483039'
       published: 2025-08-07-18-25-59
-      updated: 2025-08-08-16-18-34
+      updated: 2025-08-08-17-12-59
       followers: 1574
       likes: 46
     - service: vk
       id: 2561
       published: 2025-08-07-18-26-04
-      updated: 2025-08-08-16-18-32
+      updated: 2025-08-08-17-13-09
       followers: 1362
-      likes: 17
-      views: 224
+      likes: 18
+      views: 238
       reposts: 2
+      comments: !c |-
+        GwMCYJwJtq2C9cJ47jeReJ66mK/QH99b0DNobsqChMImksST9zXPG0/V7UbIx5+g8IVtgbG1aAWU
+        22au5jT2DIWhhyGZbc3Ms5ObdgYaBgj9XFaA2bvvwdluPtB0gOnw0znx4PL008Y6oSTeezzf3Xz/
+        38brdnQ+bKfLmuSuf9r3z+j4N2FYvbixJWd0d71L5poG+7CTh0c6u19KUAgAEgDMnK7CPhywNSHN
+        ImdctusltTL5O75xlKjaKMXfdLaCghzcxKaJNkZ9wcqFKhxm03oGmQZooYBx9nfPfWAPFw5Ph6WV
+        B2ewigKOkGJFyasVRNH4ogk6Ti6aMtmAydsmFg==
     - service: tg
       id: 944
       published: 2025-08-07-18-26-07
-      updated: 2025-08-08-16-18-37
+      updated: 2025-08-08-17-13-09
       followers: 773
       likes: 45
-      views: 186
+      views: 188
       comments: !c iw2AkZPLQnmIYeHCgACra2F3YXpha3kyMjOk8J+YhwM=
 2022-07-07-misty-peaks:
   title: Misty Peaks
