@@ -6297,27 +6297,28 @@
       id: DNGpyNYs1F0
       mediaId: '17870239629333855'
       published: 2025-08-08-18-23-29
-      updated: 2025-08-09-18-21-05
+      updated: 2025-08-09-19-12-33
       followers: 1575
       likes: 46
       comments: !c CxaAkZPLQnmI9hV1AACud2FsdGVyLW55cXZpc3SyRmFudGFzdGljIPCflKXwn5mMAw==
     - service: vk
       id: 2563
       published: 2025-08-08-18-23-49
-      updated: 2025-08-09-18-20-58
+      updated: 2025-08-09-19-12-14
       followers: 1362
       likes: 13
-      views: 153
+      views: 165
       comments: !c |-
         G24A+I3UUS26z3z+7+cnrAYu0rbYdjyij88zQPI+HC3z7ORgAw4EUgtcG08fVKGpDUdPR/3vMXlq
         lfULfYYb9TF+ixl2WJE8HtjoNKnhYaLc9f2xWJKOhDONBR40blhhS+NOKhJW2C4+GQ==
     - service: tg
       id: 945
       published: 2025-08-08-18-24-03
-      updated: 2025-08-09-18-20-54
+      updated: 2025-08-09-19-12-21
       followers: 773
-      likes: 49
-      views: 169
+      likes: 51
+      views: 191
+      comments: !c iwuAkZPLQnmJAezzgACra2F3YXpha3kyMjOgAw==
 2017-05-23-equalizer:
   title: Equalizer
   titleRu: Эквалайзер
@@ -9959,23 +9960,23 @@
       id: DNBga1Sso0Z
       mediaId: '17898572103258644'
       published: 2025-08-06-18-25-26
-      updated: 2025-08-08-18-21-56
+      updated: 2025-08-09-19-12-38
       followers: 1572
-      likes: 71
+      likes: 73
     - service: vk
       id: 2560
       published: 2025-08-06-18-25-35
-      updated: 2025-08-08-18-21-52
+      updated: 2025-08-09-19-12-16
       followers: 1360
-      likes: 21
-      views: 110
+      likes: 26
+      views: 160
     - service: tg
       id: 943
       published: 2025-08-06-18-25-41
-      updated: 2025-08-08-18-21-46
+      updated: 2025-08-09-19-12-22
       followers: 772
-      likes: 57
-      views: 257
+      likes: 64
+      views: 294
 2017-08-24-wraith-of-sul-senipul:
   title: Wraith of Sul-Senipul
   titleRu: Призрак Сул-Сенипула
