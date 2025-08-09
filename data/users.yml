@@ -2497,7 +2497,7 @@ kawazaky223:
   profiles:
     - service: tg
       id: '5641856113'
-      updated: 2025-08-09-20-16-15
+      updated: 2025-08-09-21-13-58
       accessHash: '7421309771527577818'
       username: Kawazaky223
       name: Максим
@@ -3741,7 +3741,7 @@ pohotlivaya-argonianskaya-deva:
   profiles:
     - service: tg
       id: '754205623'
-      updated: 2025-08-09-20-16-14
+      updated: 2025-08-09-21-13-56
       accessHash: '-9198477663948575721'
       username: PohotlivayaArgonianskayaDeva
       name: Илья
@@ -4223,7 +4223,7 @@ sergey-churbanov:
   profiles:
     - service: vk
       id: '1060712354'
-      updated: 2025-08-09-20-16-16
+      updated: 2025-08-09-21-13-57
       username: id1060712354
       name: Сергей Чурбанов
       avatar: store:/avatars/vk-6499ce8d.jpg
