@@ -448,7 +448,7 @@ arseniy-dyak:
   profiles:
     - service: tg
       id: '8015414871'
-      updated: 2025-08-03-22-17-16
+      updated: 2025-08-10-06-21-57
       accessHash: '-4817807801428753368'
       name: Арсений Дьяк
       avatar: store:/avatars/tg-5208949548364460429.jpg
@@ -1611,6 +1611,14 @@ ellen-ripleyyy:
       username: ellen_ripleyyy
       name: Эллен Рипли
       avatar: store:/avatars/vk-693a2660.jpg
+ellia-isard:
+  profiles:
+    - service: vk
+      id: '215194827'
+      updated: 2025-08-10-06-22-02
+      username: ellia_isard
+      name: Эллия Айсард
+      avatar: store:/avatars/vk-4aa5204c.jpg
 endless-motion:
   profiles:
     - service: ig
@@ -1938,6 +1946,15 @@ grapplerbaki:
       username: grapplerbaki
       name: Егор Строчков
       avatar: store:/avatars/vk-c6c3d8e6.jpg
+grozovetz:
+  profiles:
+    - service: tg
+      id: '6450079125'
+      updated: 2025-08-10-06-21-57
+      accessHash: '-8599884052450679527'
+      username: grozovetz
+      name: Адвестир
+      avatar: store:/avatars/tg-5461026547675823440.jpg
 gutzzerk:
   profiles:
     - service: vk
@@ -2497,7 +2514,7 @@ kawazaky223:
   profiles:
     - service: tg
       id: '5641856113'
-      updated: 2025-08-10-05-19-55
+      updated: 2025-08-10-06-21-59
       accessHash: '7421309771527577818'
       username: Kawazaky223
       name: Максим
@@ -3741,7 +3758,7 @@ pohotlivaya-argonianskaya-deva:
   profiles:
     - service: tg
       id: '754205623'
-      updated: 2025-08-10-04-36-27
+      updated: 2025-08-10-06-21-57
       accessHash: '-9198477663948575721'
       username: PohotlivayaArgonianskayaDeva
       name: Илья
@@ -4223,7 +4240,7 @@ sergey-churbanov:
   profiles:
     - service: vk
       id: '1060712354'
-      updated: 2025-08-10-05-20-01
+      updated: 2025-08-10-06-22-08
       username: id1060712354
       name: Сергей Чурбанов
       avatar: store:/avatars/vk-6499ce8d.jpg
@@ -4832,7 +4849,7 @@ todor:
   profiles:
     - service: tg
       id: '1305695186'
-      updated: 2025-08-06-09-11-28
+      updated: 2025-08-10-06-21-58
       accessHash: '8819682207926865502'
       name: Todor
       avatar: store:/avatars/tg-5287644949933844012.jpg
