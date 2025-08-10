@@ -3510,15 +3510,23 @@
       id: DNL0UwKMXii
       mediaId: '18049887461539710'
       published: 2025-08-10-18-31-50
+      updated: 2025-08-10-19-12-31
       followers: 1575
+      likes: 15
     - service: vk
       id: 2570
       published: 2025-08-10-18-32-01
+      updated: 2025-08-10-19-12-22
       followers: 1363
+      likes: 4
+      views: 18
     - service: tg
       id: 947
       published: 2025-08-10-18-32-05
+      updated: 2025-08-10-19-12-23
       followers: 776
+      likes: 27
+      views: 80
 2017-03-22-betty-netch-and-far-caldera:
   title: Betty Netch and Far Caldera
   titleRu: Самка нетча и далёкая Кальдера
@@ -9980,10 +9988,11 @@
     - service: vk
       id: 2560
       published: 2025-08-06-18-25-35
-      updated: 2025-08-09-19-12-16
+      updated: 2025-08-10-19-12-34
       followers: 1360
-      likes: 26
-      views: 160
+      likes: 35
+      views: 231
+      reposts: 1
     - service: tg
       id: 943
       published: 2025-08-06-18-25-41
