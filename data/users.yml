@@ -448,7 +448,7 @@ arseniy-dyak:
   profiles:
     - service: tg
       id: '8015414871'
-      updated: 2025-08-10-17-12-43
+      updated: 2025-08-10-18-20-10
       accessHash: '-4817807801428753368'
       name: Арсений Дьяк
       avatar: store:/avatars/tg-5208949548364460429.jpg
@@ -1615,7 +1615,7 @@ ellia-isard:
   profiles:
     - service: vk
       id: '215194827'
-      updated: 2025-08-10-17-12-44
+      updated: 2025-08-10-18-20-10
       username: ellia_isard
       name: Эллия Айсард
       avatar: store:/avatars/vk-4aa5204c.jpg
@@ -1950,7 +1950,7 @@ grozovetz:
   profiles:
     - service: tg
       id: '6450079125'
-      updated: 2025-08-10-17-12-43
+      updated: 2025-08-10-18-20-11
       accessHash: '-8599884052450679527'
       username: grozovetz
       name: Адвестир
@@ -2176,7 +2176,7 @@ ilya-denisov:
   profiles:
     - service: vk
       id: '134482858'
-      updated: 2025-08-10-17-12-47
+      updated: 2025-08-10-18-20-13
       username: id134482858
       name: Илья Денисов
       avatar: store:/avatars/vk-45d9d8dd.jpg
@@ -2514,7 +2514,7 @@ kawazaky223:
   profiles:
     - service: tg
       id: '5641856113'
-      updated: 2025-08-10-17-12-46
+      updated: 2025-08-10-18-20-13
       accessHash: '7421309771527577818'
       username: Kawazaky223
       name: Максим
@@ -3758,7 +3758,7 @@ pohotlivaya-argonianskaya-deva:
   profiles:
     - service: tg
       id: '754205623'
-      updated: 2025-08-10-17-12-43
+      updated: 2025-08-10-18-20-11
       accessHash: '-9198477663948575721'
       username: PohotlivayaArgonianskayaDeva
       name: Илья
@@ -4240,7 +4240,7 @@ sergey-churbanov:
   profiles:
     - service: vk
       id: '1060712354'
-      updated: 2025-08-10-17-12-47
+      updated: 2025-08-10-18-20-12
       username: id1060712354
       name: Сергей Чурбанов
       avatar: store:/avatars/vk-6499ce8d.jpg
@@ -4849,7 +4849,7 @@ todor:
   profiles:
     - service: tg
       id: '1305695186'
-      updated: 2025-08-10-17-12-44
+      updated: 2025-08-10-18-20-11
       accessHash: '8819682207926865502'
       name: Todor
       avatar: store:/avatars/tg-5287644949933844012.jpg

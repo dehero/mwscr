@@ -3506,6 +3506,19 @@
       followers: 46
       likes: 7
       views: 124
+    - service: ig
+      id: DNL0UwKMXii
+      mediaId: '18049887461539710'
+      published: 2025-08-10-18-31-50
+      followers: 1575
+    - service: vk
+      id: 2570
+      published: 2025-08-10-18-32-01
+      followers: 1363
+    - service: tg
+      id: 947
+      published: 2025-08-10-18-32-05
+      followers: 776
 2017-03-22-betty-netch-and-far-caldera:
   title: Betty Netch and Far Caldera
   titleRu: Самка нетча и далёкая Кальдера
@@ -6297,17 +6310,17 @@
       id: DNGpyNYs1F0
       mediaId: '17870239629333855'
       published: 2025-08-08-18-23-29
-      updated: 2025-08-10-17-12-47
+      updated: 2025-08-10-18-20-27
       followers: 1575
       likes: 49
       comments: !c CxaAkZPLQnmI9hV1AACud2FsdGVyLW55cXZpc3SyRmFudGFzdGljIPCflKXwn5mMAw==
     - service: vk
       id: 2563
       published: 2025-08-08-18-23-49
-      updated: 2025-08-10-17-12-48
+      updated: 2025-08-10-18-20-13
       followers: 1362
       likes: 20
-      views: 242
+      views: 244
       comments: !c |-
         G7sA+I3EOBZyaCoftoiiW4QbvQSecRzhiQaJv8wO3DTS8iygPIFz3uyc75t3D+g0GslgAw4EEsYC
         HG8f7FAlJm5mo4PljwKHx//SBksPYJLrUXWi70PM71ArvNKF9oas6t1DPt0tRby0UfNF0XS2+CK5
@@ -6315,10 +6328,10 @@
     - service: tg
       id: 945
       published: 2025-08-08-18-24-03
-      updated: 2025-08-10-17-12-46
+      updated: 2025-08-10-18-20-14
       followers: 773
       likes: 56
-      views: 232
+      views: 233
       comments: !c iwuAkZPLQnmJAezzgACra2F3YXpha3kyMjOgAw==
 2017-05-23-equalizer:
   title: Equalizer
