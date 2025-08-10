@@ -6297,27 +6297,28 @@
       id: DNGpyNYs1F0
       mediaId: '17870239629333855'
       published: 2025-08-08-18-23-29
-      updated: 2025-08-10-16-18-15
+      updated: 2025-08-10-17-12-47
       followers: 1575
       likes: 49
       comments: !c CxaAkZPLQnmI9hV1AACud2FsdGVyLW55cXZpc3SyRmFudGFzdGljIPCflKXwn5mMAw==
     - service: vk
       id: 2563
       published: 2025-08-08-18-23-49
-      updated: 2025-08-10-16-18-17
+      updated: 2025-08-10-17-12-48
       followers: 1362
-      likes: 19
-      views: 237
+      likes: 20
+      views: 242
       comments: !c |-
-        G24A+I3UUS26z3z+7+cnrAYu0rbYdjyij88zQPI+HC3z7ORgAw4EUgtcG08fVKGpDUdPR/3vMXlq
-        lfULfYYb9TF+ixl2WJE8HtjoNKnhYaLc9f2xWJKOhDONBR40blhhS+NOKhJW2C4+GQ==
+        G7sA+I3EOBZyaCoftoiiW4QbvQSecRzhiQaJv8wO3DTS8iygPIFz3uyc75t3D+g0GslgAw4EEsYC
+        HG8f7FAlJm5mo4PljwKHx//SBksPYJLrUXWi70PM71ArvNKF9oas6t1DPt0tRby0UfNF0XS2+CK5
+        6pyNDlbY+w8A3yMNcJiiFd5UnR5xdibRdBthNzp5h3xJx9HwO+pB1a1GPvsA
     - service: tg
       id: 945
       published: 2025-08-08-18-24-03
-      updated: 2025-08-10-16-18-19
+      updated: 2025-08-10-17-12-46
       followers: 773
-      likes: 55
-      views: 231
+      likes: 56
+      views: 232
       comments: !c iwuAkZPLQnmJAezzgACra2F3YXpha3kyMjOgAw==
 2017-05-23-equalizer:
   title: Equalizer
