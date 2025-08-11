@@ -1072,6 +1072,19 @@
       followers: 123
       likes: 8
       views: 181
+    - service: ig
+      id: DNOYSrmsw9T
+      mediaId: '17966476211793884'
+      published: 2025-08-11-18-24-33
+      followers: 1575
+    - service: vk
+      id: 2571
+      published: 2025-08-11-18-24-39
+      followers: 1362
+    - service: tg
+      id: 948
+      published: 2025-08-11-18-24-45
+      followers: 775
 2018-01-30-madach-tradehouse:
   title: Madach Tradehouse
   titleRu: Трактир Мадач
@@ -10296,7 +10309,7 @@
       id: DNJPjnYsm9-
       mediaId: '18088677520685757'
       published: 2025-08-09-18-32-07
-      updated: 2025-08-11-17-16-51
+      updated: 2025-08-11-18-23-12
       followers: 1574
       likes: 47
       comments: !c |-
@@ -10305,10 +10318,10 @@
     - service: vk
       id: 2566
       published: 2025-08-09-18-32-13
-      updated: 2025-08-11-17-16-53
+      updated: 2025-08-11-18-23-14
       followers: 1362
-      likes: 15
-      views: 193
+      likes: 16
+      views: 197
       reposts: 1
       comments: !c |-
         GzIBwByHcSyy8PKNtCb46NdGSsxO/3fX0ZRFtFQo0UvXt+BQuim0wrgluAn9o73xWQeo23grpmC1
@@ -10318,10 +10331,10 @@
     - service: tg
       id: 946
       published: 2025-08-09-18-32-17
-      updated: 2025-08-11-17-16-54
+      updated: 2025-08-11-18-23-19
       followers: 775
       likes: 50
-      views: 232
+      views: 233
       comments: !c |-
         G7IBIJwFzjmPYKP5Ubq7hqbMjH++v9gnfOOBB75gS0FQE2mBBk0BB5Kci5KrTUNvC2UpoPM9HgcG
         3KzE0rFES2HSjdZ4e3zRt60Z05dfTAcvmzgU/OeHtrTUtlK15REEpnHXdQE9YFwsnU+GG+18uLtB
