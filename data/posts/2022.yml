@@ -46,7 +46,7 @@
     - service: tg
       id: 246
       published: 2022-06-23
-      updated: 2025-08-06-09-16-01
+      updated: 2025-08-13-09-32-13
       followers: 226
       likes: 86
       views: 1196
@@ -74,18 +74,18 @@
     - service: vk
       id: 2129
       published: 2025-02-13-18-17-15
-      updated: 2025-08-06-09-08-58
+      updated: 2025-08-13-09-23-23
       followers: 1069
       likes: 59
-      views: 524
+      views: 526
       reposts: 3
     - service: tg
       id: 706
       published: 2025-02-13-18-17-22
-      updated: 2025-08-06-09-07-51
+      updated: 2025-08-13-09-21-51
       followers: 676
-      likes: 65
-      views: 545
+      likes: 67
+      views: 549
 2022-06-24-evening-talk-in-vos:
   title: Evening Talk in Vos
   titleRu: Вечерняя беседа в Восе
@@ -119,7 +119,7 @@
     - service: tg
       id: 247
       published: 2022-06-24
-      updated: 2025-08-06-09-15-57
+      updated: 2025-08-13-09-32-08
       followers: 236
       likes: 58
       views: 729
@@ -173,7 +173,7 @@
         - 252
         - 253
       published: 2022-06-26
-      updated: 2025-08-06-09-15-55
+      updated: 2025-08-13-09-31-58
       followers: 242
       likes: 57
       views: 692
@@ -184,10 +184,10 @@
     - service: vk
       id: 2226
       published: 2025-03-26-18-12-43
-      updated: 2025-08-06-09-07-53
+      updated: 2025-08-13-09-21-58
       followers: 1213
       likes: 81
-      views: 639
+      views: 641
       reposts: 3
       comments: !c |-
         G9gDAKwOzEOh+WGatLfgVDwk+NC6RMXY83sh/5CufnkmY1JDF7RLF8HQBW2CJVhmU1NrE1tvJoza
@@ -206,10 +206,10 @@
         - 764
         - 765
       published: 2025-03-26-18-13-07
-      updated: 2025-08-06-09-07-05
+      updated: 2025-08-13-09-21-05
       followers: 710
       likes: 62
-      views: 747
+      views: 750
     - service: ig
       id: DHrG6TzS39F
       mediaId: '17904383484108059'
@@ -255,7 +255,7 @@
     - service: tg
       id: 254
       published: 2022-06-27
-      updated: 2025-08-06-09-15-54
+      updated: 2025-08-13-09-31-56
       followers: 241
       likes: 49
       views: 668
@@ -295,7 +295,7 @@
     - service: tg
       id: 255
       published: 2022-06-28
-      updated: 2025-08-06-09-15-53
+      updated: 2025-08-13-09-31-54
       followers: 242
       likes: 48
       views: 684
@@ -332,7 +332,7 @@
     - service: tg
       id: 256
       published: 2022-06-29
-      updated: 2025-08-06-09-15-53
+      updated: 2025-08-13-09-31-54
       followers: 245
       likes: 47
       views: 621
@@ -369,10 +369,10 @@
     - service: tg
       id: 257
       published: 2022-06-30
-      updated: 2025-08-06-09-15-52
+      updated: 2025-08-13-09-31-52
       followers: 246
       likes: 46
-      views: 663
+      views: 665
       comments: !c |-
         G1cEACwG7NbkU9kZj6eeZoNhcYpIGc3x/PdjbacvkojMg2wWSdm0MjQIXUNbTRE7F/s0QkTTxax5
         4V+iJYQgCA6JK7d1lNuum7p5kT4Fmr5IAl3W+a/GWta9N8A3cKnwRH61tqFk3elo6J7NT/bsVUoF
@@ -443,10 +443,10 @@
     - service: tg
       id: 258
       published: 2022-07-01
-      updated: 2025-08-06-09-15-50
+      updated: 2025-08-13-09-31-49
       followers: 247
       likes: 48
-      views: 638
+      views: 639
     - service: ig
       id: DFIy-QvpBXC
       mediaId: '17919683631030829'
@@ -458,10 +458,10 @@
     - service: vk
       id: 2077
       published: 2025-01-22-18-11-15
-      updated: 2025-08-06-09-09-40
+      updated: 2025-08-13-09-24-10
       followers: 1054
       likes: 38
-      views: 347
+      views: 348
       reposts: 1
       comments: !c |-
         G0YB4K0SeFPfQg0HgvWO468c/4/cswjfPtVWfzFkEbVEIk/OhdQ24wTCjIUjZU87qG3SvDZPf4pU
@@ -471,10 +471,10 @@
     - service: tg
       id: 678
       published: 2025-01-22-18-11-24
-      updated: 2025-08-06-09-08-12
+      updated: 2025-08-13-09-22-21
       followers: 655
-      likes: 66
-      views: 579
+      likes: 67
+      views: 582
 2022-07-02-niras-farys-priest:
   title: Niras Farys, Priest
   titleRu: Нирас Фарис, священник
@@ -505,10 +505,10 @@
     - service: tg
       id: 259
       published: 2022-07-02
-      updated: 2025-08-06-09-15-49
+      updated: 2025-08-13-09-31-48
       followers: 248
       likes: 44
-      views: 700
+      views: 701
 2022-07-03-crossing-the-edge-of-bitter-coast:
   title: Crossing the Edge of Bitter Coast
   titleRu: Пересекая край Горького берега
@@ -547,7 +547,7 @@
     - service: tg
       id: 260
       published: 2022-07-03
-      updated: 2025-08-06-09-15-48
+      updated: 2025-08-13-09-31-47
       followers: 252
       likes: 49
       views: 675
@@ -598,10 +598,10 @@
         - 263
         - 264
       published: 2022-07-04
-      updated: 2025-08-06-09-15-48
+      updated: 2025-08-13-09-31-47
       followers: 253
       likes: 62
-      views: 710
+      views: 711
       comments: !c |-
         GygBQIzEOEZysYjDfn6c/RQGuFJ1EX6jktoaqANDvcz8PIc324EOA4wjCvl/UThL8nk0l7BLugvq
         Vp/nMkWSoru/butLVcDK3d9ltI/GY4GILwWHbooy7G25tg/tn9ZmFYc8YSkZ00GX15dKE2B9omRx
@@ -611,10 +611,10 @@
     - service: vk
       id: 2165
       published: 2025-03-02-18-10-15
-      updated: 2025-08-06-09-08-31
+      updated: 2025-08-13-09-22-51
       followers: 1153
       likes: 65
-      views: 586
+      views: 587
       reposts: 6
       comments: !c CxSAkZPLQnlVsX4xgACmbWlicm5kttCa0YPQtNCwINC/0LvRi9Cyw6vQvD8D
     - service: tg
@@ -624,10 +624,10 @@
         - 731
         - 732
       published: 2025-03-02-18-10-35
-      updated: 2025-08-06-09-07-27
+      updated: 2025-08-13-09-21-31
       followers: 687
-      likes: 66
-      views: 1033
+      likes: 68
+      views: 1035
     - service: ig
       id: DGtT0r1vKNh
       mediaId: '18013972115704127'
@@ -664,7 +664,7 @@
     - service: tg
       id: 265
       published: 2022-07-05
-      updated: 2025-08-06-09-15-44
+      updated: 2025-08-13-09-31-42
       followers: 253
       likes: 44
       views: 653
@@ -680,17 +680,17 @@
     - service: tg
       id: 726
       published: 2025-02-27-18-13-32
-      updated: 2025-08-06-09-07-35
+      updated: 2025-08-13-09-21-34
       followers: 686
-      likes: 58
-      views: 581
+      likes: 59
+      views: 583
     - service: vk
       id: 2153
       published: 2025-02-27-19-01-40
-      updated: 2025-08-06-09-08-35
+      updated: 2025-08-13-09-22-59
       followers: 1143
       likes: 36
-      views: 581
+      views: 582
 2022-07-06-still-life-with-orc:
   title: Still Life with Orc
   titleRu: Натюрморт с орком
@@ -727,7 +727,7 @@
     - service: tg
       id: 266
       published: 2022-07-06
-      updated: 2025-08-06-09-15-44
+      updated: 2025-08-13-09-31-41
       followers: 255
       likes: 43
       views: 631
@@ -791,7 +791,7 @@
     - service: tg
       id: 267
       published: 2022-07-07
-      updated: 2025-08-06-09-15-43
+      updated: 2025-08-13-09-31-40
       followers: 256
       likes: 55
       views: 706
@@ -828,10 +828,10 @@
     - service: tg
       id: 268
       published: 2022-07-08
-      updated: 2025-08-06-09-15-41
+      updated: 2025-08-13-09-31-37
       followers: 256
       likes: 48
-      views: 650
+      views: 651
 2022-07-09-three-coins-for-the-bard:
   title: Three Coins for the Bard
   titleRu: Три монеты для барда
@@ -869,7 +869,7 @@
     - service: tg
       id: 269
       published: 2022-07-09
-      updated: 2025-08-06-09-15-40
+      updated: 2025-08-13-09-31-37
       followers: 257
       likes: 55
       views: 706
@@ -911,7 +911,7 @@
     - service: tg
       id: 270
       published: 2022-07-10
-      updated: 2025-08-06-09-15-39
+      updated: 2025-08-13-09-31-35
       followers: 257
       likes: 60
       views: 789
@@ -968,7 +968,7 @@
         - 273
         - 274
       published: 2022-07-11
-      updated: 2025-08-06-09-15-38
+      updated: 2025-08-13-09-31-34
       followers: 257
       likes: 56
       views: 744
@@ -993,10 +993,10 @@
     - service: vk
       id: 2020
       published: 2025-01-05-18-10-20
-      updated: 2025-08-06-09-10-19
+      updated: 2025-08-13-09-24-50
       followers: 1043
       likes: 56
-      views: 401
+      views: 402
       reposts: 5
       comments: !c |-
         G54BoCwOjFvLA+sgxS3V6Bwf4o3+iYuR/rwONOIzTS+hZppJPNn307xfDLsaBn+xJCQx8g0Hh/rr
@@ -1011,10 +1011,10 @@
         - 653
         - 654
       published: 2025-01-05-18-10-40
-      updated: 2025-08-06-09-08-35
+      updated: 2025-08-13-09-22-46
       followers: 644
-      likes: 77
-      views: 1140
+      likes: 78
+      views: 1142
       comments: !c |-
         GzYBQOTvx9VPcWc7mKi6IcGIRCJPDoXvxwNDuZ1+ZjvQ4XSqM1xX0A8w2kVx512OJRhbesPf7UBS
         aiY+2ajfiyLie1USoYU/4NCQbGaN84UNNbiDSwLOwAVc4+w+YlzCCZzKgtIvcAXXcIAzcIvzcBny
@@ -1062,7 +1062,7 @@
     - service: tg
       id: 275
       published: 2022-07-12
-      updated: 2025-08-06-09-15-37
+      updated: 2025-08-13-09-31-33
       followers: 258
       likes: 48
       views: 716
@@ -1102,7 +1102,7 @@
     - service: tg
       id: 276
       published: 2022-07-13
-      updated: 2025-08-06-09-15-36
+      updated: 2025-08-13-09-31-32
       followers: 260
       likes: 52
       views: 749
@@ -1149,7 +1149,7 @@
     - service: tg
       id: 277
       published: 2022-07-14
-      updated: 2025-08-06-09-15-34
+      updated: 2025-08-13-09-31-30
       followers: 260
       likes: 40
       views: 747
@@ -1188,7 +1188,7 @@
     - service: tg
       id: 278
       published: 2022-07-15
-      updated: 2025-08-06-09-15-33
+      updated: 2025-08-13-09-31-30
       followers: 262
       likes: 50
       views: 775
@@ -1202,10 +1202,10 @@
     - service: vk
       id: 2350
       published: 2025-05-11-18-23-47
-      updated: 2025-08-06-09-06-43
+      updated: 2025-08-13-09-20-39
       followers: 1292
       likes: 50
-      views: 500
+      views: 502
       reposts: 2
       comments: !c |-
         G8cA4ByHcSyy8PJqIAwhnvBvn/DmpZhlCScl0lZkyTuigtpcCdEQF+oxJ/zEd+rmmw/Q/4pw21o2
@@ -1215,10 +1215,10 @@
     - service: tg
       id: 838
       published: 2025-05-11-18-23-53
-      updated: 2025-08-06-09-06-15
+      updated: 2025-08-13-09-20-18
       followers: 738
       likes: 63
-      views: 563
+      views: 566
 2022-07-16-two-at-the-lantern:
   title: Two at the Lantern
   titleRu: Двое у фонаря
@@ -1251,7 +1251,7 @@
     - service: tg
       id: 279
       published: 2022-07-16
-      updated: 2025-08-06-09-15-32
+      updated: 2025-08-13-09-31-29
       followers: 262
       likes: 49
       views: 785
@@ -1285,7 +1285,7 @@
     - service: tg
       id: 280
       published: 2022-07-17
-      updated: 2025-08-06-09-15-32
+      updated: 2025-08-13-09-31-28
       followers: 262
       likes: 49
       views: 777
@@ -1330,10 +1330,10 @@
     - service: tg
       id: 281
       published: 2022-07-18
-      updated: 2025-08-06-09-15-31
+      updated: 2025-08-13-09-31-28
       followers: 267
       likes: 50
-      views: 804
+      views: 805
 2022-07-19-stillness-of-vivec:
   title: Stillness of Vivec
   titleRu: Тишина Вивека
@@ -1366,7 +1366,7 @@
     - service: tg
       id: 282
       published: 2022-07-19
-      updated: 2025-08-06-09-15-30
+      updated: 2025-08-13-09-31-27
       followers: 267
       likes: 62
       views: 826
@@ -1400,7 +1400,7 @@
     - service: tg
       id: 283
       published: 2022-07-20
-      updated: 2025-08-06-09-15-29
+      updated: 2025-08-13-09-31-26
       followers: 266
       likes: 56
       views: 835
@@ -1446,7 +1446,7 @@
     - service: tg
       id: 284
       published: 2022-07-21
-      updated: 2025-08-06-09-15-27
+      updated: 2025-08-13-09-31-23
       followers: 267
       likes: 50
       views: 1617
@@ -1496,7 +1496,7 @@
         - 287
         - 288
       published: 2022-07-22
-      updated: 2025-08-06-09-15-26
+      updated: 2025-08-13-09-31-22
       followers: 271
       likes: 60
       views: 870
@@ -1532,7 +1532,7 @@
     - service: tg
       id: 289
       published: 2022-07-23
-      updated: 2025-08-06-09-15-25
+      updated: 2025-08-13-09-31-21
       followers: 272
       likes: 56
       views: 915
@@ -1566,7 +1566,7 @@
     - service: tg
       id: 290
       published: 2022-07-24
-      updated: 2025-08-06-09-15-24
+      updated: 2025-08-13-09-31-20
       followers: 272
       likes: 54
       views: 953
@@ -1598,7 +1598,7 @@
     - service: tg
       id: 291
       published: 2022-07-25
-      updated: 2025-08-06-09-15-24
+      updated: 2025-08-13-09-31-20
       followers: 272
       likes: 55
       views: 1024
@@ -1644,7 +1644,7 @@
         - 294
         - 295
       published: 2022-07-26
-      updated: 2025-08-06-09-15-23
+      updated: 2025-08-13-09-31-19
       followers: 273
       likes: 55
       views: 1071
@@ -1679,7 +1679,7 @@
     - service: tg
       id: 296
       published: 2022-07-27
-      updated: 2025-08-06-09-15-22
+      updated: 2025-08-13-09-31-18
       followers: 272
       likes: 55
       views: 1138
@@ -1730,7 +1730,7 @@
     - service: tg
       id: 297
       published: 2022-07-28
-      updated: 2025-08-06-09-15-20
+      updated: 2025-08-13-09-31-17
       followers: 274
       likes: 55
       views: 1188
@@ -1738,25 +1738,25 @@
       id: DNQ9FpnMEuC
       mediaId: '18125731516461672'
       published: 2025-08-12-18-24-34
-      updated: 2025-08-13-08-21-23
+      updated: 2025-08-13-09-18-24
       followers: 1574
-      likes: 32
+      likes: 34
     - service: vk
       id: 2573
       published: 2025-08-12-18-24-42
-      updated: 2025-08-13-08-21-27
+      updated: 2025-08-13-09-18-55
       followers: 1362
       likes: 17
-      views: 116
+      views: 123
       reposts: 2
       comments: !c CxqAkZPLQnmKIu/EgACwc2VyZ2V5LWNodXJiYW5vdrjQndGDINC00LDQsNCw0LDQsNCwLiAuLj8D
     - service: tg
       id: 949
       published: 2025-08-12-18-24-47
-      updated: 2025-08-13-08-21-27
+      updated: 2025-08-13-09-18-29
       followers: 776
-      likes: 41
-      views: 183
+      likes: 43
+      views: 189
       comments: !c iw2AkZPLQnmKHWWOAACra2F3YXpha3kyMjOk8J+knQM=
 2022-07-29-sunset-cypresses:
   title: Sunset Cypresses
@@ -1797,7 +1797,7 @@
     - service: tg
       id: 298
       published: 2022-07-29
-      updated: 2025-08-06-09-15-20
+      updated: 2025-08-13-09-31-16
       followers: 274
       likes: 59
       views: 1360
@@ -1830,7 +1830,7 @@
     - service: tg
       id: 299
       published: 2022-07-30
-      updated: 2025-08-06-09-15-19
+      updated: 2025-08-13-09-31-16
       followers: 278
       likes: 51
       views: 1344
@@ -1882,7 +1882,7 @@
         - 302
         - 303
       published: 2022-07-31
-      updated: 2025-08-06-09-15-18
+      updated: 2025-08-13-09-31-15
       followers: 277
       likes: 58
       views: 1588
@@ -1919,7 +1919,7 @@
     - service: tg
       id: 304
       published: 2022-08-01
-      updated: 2025-08-06-09-15-17
+      updated: 2025-08-13-09-31-15
       followers: 279
       likes: 56
       views: 1667
@@ -1960,7 +1960,7 @@
     - service: tg
       id: 305
       published: 2022-08-02
-      updated: 2025-08-06-09-15-16
+      updated: 2025-08-13-09-31-14
       followers: 281
       likes: 69
       views: 2198
@@ -2008,7 +2008,7 @@
     - service: tg
       id: 306
       published: 2022-08-03
-      updated: 2025-08-06-09-15-14
+      updated: 2025-08-13-09-31-04
       followers: 281
       likes: 81
       views: 2225
