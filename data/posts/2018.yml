@@ -254,6 +254,19 @@
       followers: 118
       likes: 12
       views: 199
+    - service: ig
+      id: DNThsueAgfk
+      mediaId: '18017654285632593'
+      published: 2025-08-13-18-22-57
+      followers: 1574
+    - service: vk
+      id: 2575
+      published: 2025-08-13-18-23-03
+      followers: 1362
+    - service: tg
+      id: 950
+      published: 2025-08-13-18-23-09
+      followers: 779
 2018-01-09-dead-trees-of-the-east-coast:
   title: Dead Trees of the East Coast
   titleRu: Мёртвые деревья восточного побережья
@@ -1076,23 +1089,23 @@
       id: DNOYSrmsw9T
       mediaId: '17966476211793884'
       published: 2025-08-11-18-24-33
-      updated: 2025-08-13-17-12-55
+      updated: 2025-08-13-18-21-36
       followers: 1575
       likes: 69
     - service: vk
       id: 2571
       published: 2025-08-11-18-24-39
-      updated: 2025-08-13-17-12-58
+      updated: 2025-08-13-18-21-39
       followers: 1362
       likes: 19
-      views: 135
+      views: 136
       comments: !c |-
         G2UA4B2JsS2i/YCNLj7L28cgdJsgBpvwkWYKkwJTjE0WlPsCecswuGyn3ALWMIKAmrfcf/CQtfpi
         YxRnbd9w6i8TTe6dpsjN8BalFzcWRv4uY57rJP6AKxlbwZEgEePYqzQ=
     - service: tg
       id: 948
       published: 2025-08-11-18-24-45
-      updated: 2025-08-13-17-12-57
+      updated: 2025-08-13-18-21-40
       followers: 775
       likes: 50
       views: 249
