@@ -1153,7 +1153,7 @@ darkness-rifho:
       deleted: true
     - service: tg
       id: '5704974271'
-      updated: 2025-08-14-08-21-36
+      updated: 2025-08-14-09-18-52
       accessHash: '3506423524566292179'
       username: C4H6O4
       name: Уна
@@ -2515,7 +2515,7 @@ kawazaky223:
   profiles:
     - service: tg
       id: '5641856113'
-      updated: 2025-08-14-08-21-37
+      updated: 2025-08-14-09-18-53
       accessHash: '7421309771527577818'
       username: Kawazaky223
       name: Максим
@@ -4250,7 +4250,7 @@ sergey-churbanov:
   profiles:
     - service: vk
       id: '1060712354'
-      updated: 2025-08-14-08-21-38
+      updated: 2025-08-14-09-18-53
       username: id1060712354
       name: Сергей Чурбанов
       avatar: store:/avatars/vk-6499ce8d.jpg
