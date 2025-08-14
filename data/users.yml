@@ -448,10 +448,10 @@ arseniy-dyak:
   profiles:
     - service: tg
       id: '8015414871'
-      updated: 2025-08-13-20-16-53
+      updated: 2025-08-14-20-17-50
       accessHash: '-4817807801428753368'
       name: Арсений Дьяк
-      avatar: store:/avatars/tg-5208949548364460429.jpg
+      avatar: store:/avatars/tg-5255813298035751737.jpg
 artem-solovev:
   profiles:
     - service: vk
@@ -1153,7 +1153,7 @@ darkness-rifho:
       deleted: true
     - service: tg
       id: '5704974271'
-      updated: 2025-08-14-19-13-12
+      updated: 2025-08-14-20-17-45
       accessHash: '3506423524566292179'
       username: C4H6O4
       name: Уна
@@ -1616,7 +1616,7 @@ ellia-isard:
   profiles:
     - service: vk
       id: '215194827'
-      updated: 2025-08-13-20-16-57
+      updated: 2025-08-14-20-17-43
       username: ellia_isard
       name: Эллия Айсард
       avatar: store:/avatars/vk-4aa5204c.jpg
@@ -1951,11 +1951,11 @@ grozovetz:
   profiles:
     - service: tg
       id: '6450079125'
-      updated: 2025-08-13-20-16-53
+      updated: 2025-08-14-20-17-56
       accessHash: '-8599884052450679527'
       username: grozovetz
       name: Адвестир
-      avatar: store:/avatars/tg-5461026547675823440.jpg
+      avatar: store:/avatars/tg-5424986368993520906.jpg
 gutzzerk:
   profiles:
     - service: vk
@@ -2177,7 +2177,7 @@ ilya-denisov:
   profiles:
     - service: vk
       id: '134482858'
-      updated: 2025-08-13-20-16-59
+      updated: 2025-08-14-20-17-46
       username: id134482858
       name: Илья Денисов
       avatar: store:/avatars/vk-45d9d8dd.jpg
@@ -2515,7 +2515,7 @@ kawazaky223:
   profiles:
     - service: tg
       id: '5641856113'
-      updated: 2025-08-14-19-13-14
+      updated: 2025-08-14-20-18-01
       accessHash: '7421309771527577818'
       username: Kawazaky223
       name: Максим
@@ -3759,7 +3759,7 @@ pohotlivaya-argonianskaya-deva:
   profiles:
     - service: tg
       id: '754205623'
-      updated: 2025-08-13-20-16-54
+      updated: 2025-08-14-20-18-00
       accessHash: '-9198477663948575721'
       username: PohotlivayaArgonianskayaDeva
       name: Илья
@@ -4125,7 +4125,7 @@ sarudelsur:
   profiles:
     - service: tg
       id: '8446161342'
-      updated: 2025-08-14-19-13-14
+      updated: 2025-08-14-20-17-44
       accessHash: '-2612313514511119416'
       username: sarudelsur
       name: Hozu
@@ -4250,7 +4250,7 @@ sergey-churbanov:
   profiles:
     - service: vk
       id: '1060712354'
-      updated: 2025-08-14-18-22-23
+      updated: 2025-08-14-20-17-46
       username: id1060712354
       name: Сергей Чурбанов
       avatar: store:/avatars/vk-6499ce8d.jpg
@@ -4858,7 +4858,7 @@ todor:
   profiles:
     - service: tg
       id: '1305695186'
-      updated: 2025-08-13-20-16-55
+      updated: 2025-08-14-20-18-00
       accessHash: '8819682207926865502'
       name: Todor
       avatar: store:/avatars/tg-5287644949933844012.jpg
