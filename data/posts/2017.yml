@@ -3198,24 +3198,26 @@
       id: DNWGmTURktt
       mediaId: '18074617732952766'
       published: 2025-08-14-18-23-52
-      updated: 2025-08-14-20-17-47
+      updated: 2025-08-14-21-14-32
       followers: 1574
-      likes: 17
+      likes: 22
     - service: vk
       id: 2578
       published: 2025-08-14-18-23-58
-      updated: 2025-08-14-20-17-39
+      updated: 2025-08-14-21-14-30
       followers: 1363
       likes: 4
-      views: 37
+      views: 43
     - service: tg
       id: 951
       published: 2025-08-14-18-24-03
-      updated: 2025-08-14-20-17-42
+      updated: 2025-08-14-21-14-36
       followers: 780
-      likes: 29
-      views: 101
-      comments: !c iw2AkZPLQnmKnY/bgACra2F3YXpha3kyMjOk8J+ZjwM=
+      likes: 32
+      views: 111
+      comments: !c |-
+        ix2AkpPLQnmKpjT+AACwc2Npb24tb2YtYmFsYW5jZaTwn5Ock8tCeYqdj9uAAKtrYXdhemFreTIy
+        M6Twn5mPAw==
 2017-03-15-view-of-the-night-suran:
   title: View of the Night Suran
   titleRu: Вид на ночной Суран
@@ -5943,10 +5945,10 @@
     - service: vk
       id: 2503
       published: 2025-07-03-18-23-21
-      updated: 2025-08-07-21-14-28
+      updated: 2025-08-14-21-14-49
       followers: 1334
       likes: 53
-      views: 456
+      views: 462
       reposts: 1
     - service: tg
       id: 906

@@ -1153,7 +1153,7 @@ darkness-rifho:
       deleted: true
     - service: tg
       id: '5704974271'
-      updated: 2025-08-14-20-17-45
+      updated: 2025-08-14-21-14-39
       accessHash: '3506423524566292179'
       username: C4H6O4
       name: Уна
@@ -2515,7 +2515,7 @@ kawazaky223:
   profiles:
     - service: tg
       id: '5641856113'
-      updated: 2025-08-14-20-18-01
+      updated: 2025-08-14-21-15-17
       accessHash: '7421309771527577818'
       username: Kawazaky223
       name: Максим
@@ -2595,7 +2595,7 @@ konstantin-matrosov:
   profiles:
     - service: vk
       id: '93073669'
-      updated: 2025-08-13-09-19-33
+      updated: 2025-08-14-21-14-36
       username: id93073669
       name: Константин Матросов
       avatar: store:/avatars/vk-3b5e092e.jpg
@@ -2985,7 +2985,7 @@ max-upsher:
   profiles:
     - service: tg
       id: '1774562733'
-      updated: 2025-08-14-01-13-28
+      updated: 2025-08-14-21-15-17
       accessHash: '1025402626840048013'
       username: MaxUpsher
       name: Max Upsher
@@ -3446,7 +3446,7 @@ oberhort:
   profiles:
     - service: tg
       id: '19254498'
-      updated: 2025-08-07-21-14-21
+      updated: 2025-08-14-21-15-17
       accessHash: '-564270059565994883'
       username: oberhort
       name: Игорь
@@ -3957,7 +3957,7 @@ redoranar:
   profiles:
     - service: tg
       id: '627928484'
-      updated: 2025-08-13-10-33-34
+      updated: 2025-08-14-21-15-17
       accessHash: '4117269213935533016'
       username: Redoranar
       name: Egor
@@ -4125,7 +4125,7 @@ sarudelsur:
   profiles:
     - service: tg
       id: '8446161342'
-      updated: 2025-08-14-20-17-44
+      updated: 2025-08-14-21-14-37
       accessHash: '-2612313514511119416'
       username: sarudelsur
       name: Hozu
@@ -4158,7 +4158,7 @@ scion-of-balance:
   profiles:
     - service: tg
       id: '5834663294'
-      updated: 2025-08-13-09-22-16
+      updated: 2025-08-14-21-14-34
       accessHash: '-2758740287553358448'
       username: vorpalhopper
       name: Vorpalhopper
@@ -4236,7 +4236,7 @@ sergey-b:
   profiles:
     - service: vk
       id: '889222999'
-      updated: 2025-08-13-10-33-33
+      updated: 2025-08-14-21-14-41
       username: id889222999
       avatar: store:/avatars/vk-7f160215.jpg
       deleted: true
@@ -4250,7 +4250,7 @@ sergey-churbanov:
   profiles:
     - service: vk
       id: '1060712354'
-      updated: 2025-08-14-20-17-46
+      updated: 2025-08-14-21-14-35
       username: id1060712354
       name: Сергей Чурбанов
       avatar: store:/avatars/vk-6499ce8d.jpg
