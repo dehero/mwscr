@@ -944,15 +944,27 @@
       id: DNYrW4ruIMn
       mediaId: '18076197691961759'
       published: 2025-08-15-18-23-34
+      updated: 2025-08-15-19-12-45
       followers: 1577
+      likes: 10
     - service: vk
       id: 2583
       published: 2025-08-15-18-23-39
+      updated: 2025-08-15-19-12-52
       followers: 1364
+      likes: 2
+      views: 20
+      comments: !c |-
+        iyOAkZPLQnmK8lAlgACwc2VyZ2V5LWNodXJiYW5vdtkq0JAg0LfQsNGH0LXQvCDQvtC9INGC0LDQ
+        vD8g0JzQsNC90LXQutC10L0uAw==
     - service: tg
       id: 952
       published: 2025-08-15-18-23-43
+      updated: 2025-08-15-19-12-48
       followers: 780
+      likes: 22
+      views: 70
+      comments: !c iw2AkZPLQnmK8YTHAACra2F3YXpha3kyMjOk8J+QpgM=
 2024-04-03-god-of-madness-and-his-follower: 2017-06-07-god-of-madness-and-his-follower
 2024-04-04-view-of-elf-skerring:
   title: View of Elf-Skerring
