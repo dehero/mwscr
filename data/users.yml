@@ -1153,7 +1153,7 @@ darkness-rifho:
       deleted: true
     - service: tg
       id: '5704974271'
-      updated: 2025-08-15-16-18-59
+      updated: 2025-08-15-17-13-43
       accessHash: '3506423524566292179'
       username: C4H6O4
       name: Уна
@@ -2529,7 +2529,7 @@ kawazaky223:
   profiles:
     - service: tg
       id: '5641856113'
-      updated: 2025-08-15-16-18-57
+      updated: 2025-08-15-17-13-43
       accessHash: '7421309771527577818'
       username: Kawazaky223
       name: Максим
@@ -4139,7 +4139,7 @@ sarudelsur:
   profiles:
     - service: tg
       id: '8446161342'
-      updated: 2025-08-15-16-18-57
+      updated: 2025-08-15-17-13-43
       accessHash: '-2612313514511119416'
       username: sarudelsur
       name: Hozu
@@ -4172,7 +4172,7 @@ scion-of-balance:
   profiles:
     - service: tg
       id: '5834663294'
-      updated: 2025-08-15-16-18-54
+      updated: 2025-08-15-17-13-40
       accessHash: '-2758740287553358448'
       username: vorpalhopper
       name: Vorpalhopper
@@ -4264,7 +4264,7 @@ sergey-churbanov:
   profiles:
     - service: vk
       id: '1060712354'
-      updated: 2025-08-15-16-18-56
+      updated: 2025-08-15-17-13-38
       username: id1060712354
       name: Сергей Чурбанов
       avatar: store:/avatars/vk-6499ce8d.jpg
