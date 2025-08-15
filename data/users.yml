@@ -1153,7 +1153,7 @@ darkness-rifho:
       deleted: true
     - service: tg
       id: '5704974271'
-      updated: 2025-08-15-12-29-34
+      updated: 2025-08-15-13-27-36
       accessHash: '3506423524566292179'
       username: C4H6O4
       name: Уна
@@ -1652,6 +1652,16 @@ er115:
       username: er115
       name: Евгения Узурпатова
       avatar: store:/avatars/vk-34e3e620.jpg
+erhgo4i45gjdf5567:
+  profiles:
+    - service: tg
+      id: '8064575089'
+      updated: 2025-08-15-13-27-43
+      accessHash: '7810440503977774761'
+      username: erhgo4i45gjdf5567
+      botChatId: 8064575089
+      name: Ннг
+      avatar: store:/avatars/tg-5213216710042187920.jpg
 escrinshots-random:
   profiles:
     - service: ig
@@ -2519,7 +2529,7 @@ kawazaky223:
   profiles:
     - service: tg
       id: '5641856113'
-      updated: 2025-08-15-12-29-34
+      updated: 2025-08-15-13-27-36
       accessHash: '7421309771527577818'
       username: Kawazaky223
       name: Максим
@@ -4129,7 +4139,7 @@ sarudelsur:
   profiles:
     - service: tg
       id: '8446161342'
-      updated: 2025-08-15-12-29-33
+      updated: 2025-08-15-13-27-36
       accessHash: '-2612313514511119416'
       username: sarudelsur
       name: Hozu
@@ -4162,7 +4172,7 @@ scion-of-balance:
   profiles:
     - service: tg
       id: '5834663294'
-      updated: 2025-08-15-12-29-32
+      updated: 2025-08-15-13-27-34
       accessHash: '-2758740287553358448'
       username: vorpalhopper
       name: Vorpalhopper
