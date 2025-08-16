@@ -92,7 +92,7 @@ a2-enkelli:
   profiles:
     - service: tg
       id: '7258424423'
-      updated: 2025-08-16-19-11-54
+      updated: 2025-08-16-20-15-26
       accessHash: '969825927170686844'
       username: A2_Enkelli
       name: †† elli ††
@@ -496,7 +496,7 @@ arya-stark:
   profiles:
     - service: vk
       id: '820702664'
-      updated: 2025-08-15-19-12-56
+      updated: 2025-08-16-20-15-27
       username: id820702664
       name: Арья Старк
       avatar: store:/avatars/vk-689aa89d.jpg
@@ -1153,7 +1153,7 @@ darkness-rifho:
       deleted: true
     - service: tg
       id: '5704974271'
-      updated: 2025-08-16-19-11-55
+      updated: 2025-08-16-20-15-30
       accessHash: '3506423524566292179'
       username: C4H6O4
       name: Уна
@@ -1225,7 +1225,7 @@ dehero:
       username: dehero
     - service: vk
       id: '3652910'
-      updated: 2025-08-15-19-12-58
+      updated: 2025-08-16-20-15-30
       username: dehero
       name: Антон Курьянов
       avatar: store:/avatars/vk-5356f76e.jpg
@@ -1940,7 +1940,7 @@ goosevich76:
   profiles:
     - service: tg
       id: '5385620621'
-      updated: 2025-08-15-20-16-56
+      updated: 2025-08-16-20-15-31
       accessHash: '-7130473396589324830'
       username: Goosevich78
       name: Ґузьйоувишщь
@@ -2529,7 +2529,7 @@ kawazaky223:
   profiles:
     - service: tg
       id: '5641856113'
-      updated: 2025-08-16-19-11-55
+      updated: 2025-08-16-20-15-32
       accessHash: '7421309771527577818'
       username: Kawazaky223
       name: Максим
@@ -4139,7 +4139,7 @@ sarudelsur:
   profiles:
     - service: tg
       id: '8446161342'
-      updated: 2025-08-16-19-11-55
+      updated: 2025-08-16-20-15-30
       accessHash: '-2612313514511119416'
       username: sarudelsur
       name: Hozu
@@ -4263,7 +4263,7 @@ sergey-churbanov:
   profiles:
     - service: vk
       id: '1060712354'
-      updated: 2025-08-16-19-11-56
+      updated: 2025-08-16-20-15-26
       username: id1060712354
       name: Сергей Чурбанов
       avatar: store:/avatars/vk-6499ce8d.jpg
@@ -5624,7 +5624,7 @@ yourenemieswillpay:
   profiles:
     - service: vk
       id: '154353264'
-      updated: 2025-08-15-19-12-58
+      updated: 2025-08-16-20-15-30
       username: yourenemieswillpay
       name: Кирилл Заречный
       avatar: store:/avatars/vk-a2026737.jpg
