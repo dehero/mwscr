@@ -3198,16 +3198,16 @@
       id: DNWGmTURktt
       mediaId: '18074617732952766'
       published: 2025-08-14-18-23-52
-      updated: 2025-08-16-17-12-24
+      updated: 2025-08-16-18-19-15
       followers: 1574
       likes: 37
     - service: vk
       id: 2578
       published: 2025-08-14-18-23-58
-      updated: 2025-08-16-17-12-27
+      updated: 2025-08-16-18-19-19
       followers: 1363
       likes: 19
-      views: 322
+      views: 327
       comments: !c |-
         G4sAWBwHdoyzklx+YQQhENxGioQCodICY9DYdHMjVKOW7izd8kd1bjnQGDkAjGYyFEtQt08nrVgQ
         V+CQA4HUWnQO1ALMA67NOreqhFlpu+6P1/lJCO/ett5WqsPUeTw7YyJFlfz9wlApjWdwgWYrkQ5Y
@@ -3215,10 +3215,10 @@
     - service: tg
       id: 951
       published: 2025-08-14-18-24-03
-      updated: 2025-08-16-17-12-27
+      updated: 2025-08-16-18-19-18
       followers: 780
       likes: 52
-      views: 229
+      views: 230
       comments: !c |-
         ix2AkpPLQnmKpjT+AACwc2Npb24tb2YtYmFsYW5jZaTwn5Ock8tCeYqdj9uAAKtrYXdhemFreTIy
         M6Twn5mPAw==
@@ -11513,6 +11513,19 @@
       followers: 400
       likes: 64
       views: 617
+    - service: ig
+      id: DNbPzURu9ZM
+      mediaId: '18075976495987065'
+      published: 2025-08-16-18-20-29
+      followers: 1577
+    - service: vk
+      id: 2586
+      published: 2025-08-16-18-20-34
+      followers: 1365
+    - service: tg
+      id: 953
+      published: 2025-08-16-18-20-38
+      followers: 779
 2017-09-28-mining-company-office:
   title: Mining Company Office
   titleRu: Офис Горнодобывающей Компании
