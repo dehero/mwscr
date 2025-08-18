@@ -439,7 +439,7 @@ ar1ecc:
   profiles:
     - service: tg
       id: '7014212246'
-      updated: 2025-08-18-11-14-11
+      updated: 2025-08-18-12-32-59
       accessHash: '-1250228823173868729'
       username: ar1ecc
       name: ar1ec
@@ -488,7 +488,7 @@ artyom-melikhoff:
   profiles:
     - service: vk
       id: '299405149'
-      updated: 2025-08-18-01-17-17
+      updated: 2025-08-18-12-33-00
       username: artyom_melikhoff
       name: Артём Мелихов
       avatar: store:/avatars/vk-dd464f34.jpg
@@ -504,7 +504,7 @@ arya-stark:
   profiles:
     - service: vk
       id: '820702664'
-      updated: 2025-08-18-11-14-09
+      updated: 2025-08-18-12-32-58
       username: id820702664
       name: Арья Старк
       avatar: store:/avatars/vk-689aa89d.jpg
@@ -1125,9 +1125,9 @@ danya-r:
   profiles:
     - service: tg
       id: '6217540848'
-      updated: 2025-08-13-09-20-37
+      updated: 2025-08-18-12-33-01
       accessHash: '144997878637800057'
-      name: Даня ᦓꫝꪖρꪮᦓꫝꪀ꠸ᛕꪮꪜ
+      name: ᦔꪖꪀꪗꪖ ᦓꫝꪖρꪮᦓꫝꪀ꠸ᛕꪮꪜ🔬
       avatar: store:/avatars/tg-5285154641996281850.jpg
 danyliuk2002:
   profiles:
@@ -2537,7 +2537,7 @@ kawazaky223:
   profiles:
     - service: tg
       id: '5641856113'
-      updated: 2025-08-18-11-14-11
+      updated: 2025-08-18-12-33-01
       accessHash: '7421309771527577818'
       username: Kawazaky223
       name: Максим
@@ -4180,7 +4180,7 @@ scion-of-balance:
   profiles:
     - service: tg
       id: '5834663294'
-      updated: 2025-08-18-11-14-11
+      updated: 2025-08-18-12-32-59
       accessHash: '-2758740287553358448'
       username: vorpalhopper
       name: Vorpalhopper
@@ -4271,7 +4271,7 @@ sergey-churbanov:
   profiles:
     - service: vk
       id: '1060712354'
-      updated: 2025-08-18-01-17-19
+      updated: 2025-08-18-12-33-00
       username: id1060712354
       name: Сергей Чурбанов
       avatar: store:/avatars/vk-6499ce8d.jpg
@@ -5596,7 +5596,7 @@ ya-hs-che-suda-stavit:
   profiles:
     - service: tg
       id: '1336542246'
-      updated: 2025-08-18-11-14-09
+      updated: 2025-08-18-12-32-56
       accessHash: '5504493057447045891'
       username: Ya_hs_che_suda_stavit
       name: Hist 2
