@@ -10052,10 +10052,10 @@
     - service: vk
       id: 2560
       published: 2025-08-06-18-25-35
-      updated: 2025-08-13-21-14-31
+      updated: 2025-08-20-21-15-33
       followers: 1360
-      likes: 39
-      views: 307
+      likes: 41
+      views: 329
       reposts: 1
     - service: tg
       id: 943
@@ -13723,23 +13723,23 @@
       id: DNlkoviRtWC
       mediaId: '17945813988011308'
       published: 2025-08-20-18-35-01
-      updated: 2025-08-20-20-19-03
+      updated: 2025-08-20-21-15-39
       followers: 1580
-      likes: 20
+      likes: 28
     - service: vk
       id: 2593
       published: 2025-08-20-18-35-07
-      updated: 2025-08-20-20-18-57
+      updated: 2025-08-20-21-15-32
       followers: 1365
-      likes: 9
-      views: 44
+      likes: 10
+      views: 57
     - service: tg
       id: 956
       published: 2025-08-20-18-35-11
-      updated: 2025-08-20-20-18-56
+      updated: 2025-08-20-21-15-31
       followers: 782
-      likes: 24
-      views: 95
+      likes: 29
+      views: 106
 2017-11-22-at-the-margin:
   title: At the Margin
   titleRu: У предела
