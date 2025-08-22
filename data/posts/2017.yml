@@ -3118,10 +3118,10 @@
     - service: vk
       id: 1840
       published: 2024-10-17-18-09-16
-      updated: 2025-08-15-22-14-53
+      updated: 2025-08-22-23-13-44
       followers: 965
       likes: 49
-      views: 693
+      views: 706
       reposts: 2
       comments: !c iwuAkZPLQnkp0j58gACnaHlhcnZhcqTwn6WwAw==
     - service: tg
@@ -5997,7 +5997,7 @@
       id: DLrIT8msmCv
       mediaId: '17954788979976496'
       published: 2025-07-04-05-20-05
-      updated: 2025-08-15-22-14-59
+      updated: 2025-08-22-23-14-23
       followers: 1559
       likes: 92
 2017-05-14-entrance-to-vivec:
@@ -10011,7 +10011,7 @@
       id: DMPnJZ9ssKX
       mediaId: '18038172848348442'
       published: 2025-07-18-09-22-12
-      updated: 2025-08-15-22-14-52
+      updated: 2025-08-22-23-14-02
       followers: 1568
       likes: 72
 2017-08-23-blessed-rain:
@@ -11178,7 +11178,7 @@
       id: DMP9TSusCyW
       mediaId: '18018603722537184'
       published: 2025-07-18-12-35-47
-      updated: 2025-08-15-22-14-50
+      updated: 2025-08-22-23-13-58
       followers: 1568
       likes: 65
 2017-09-20-director-of-corprusarium:
@@ -12910,26 +12910,26 @@
       id: DNqt57gx86Q
       mediaId: '18047510327641715'
       published: 2025-08-22-18-32-14
-      updated: 2025-08-22-22-13-38
+      updated: 2025-08-22-23-13-46
       followers: 1580
-      likes: 35
+      likes: 38
     - service: vk
       id: 2594
       published: 2025-08-22-18-32-19
-      updated: 2025-08-22-22-13-34
+      updated: 2025-08-22-23-13-40
       followers: 1373
-      likes: 5
-      views: 27
+      likes: 6
+      views: 28
       comments: !c |-
         CyCAkZPLQnmNNc4AAACwc2VyZ2V5LWNodXJiYW5vdtkj0J3RgyDQtNCwLCDQvtC90Lgg0LLRi9GA
         0L7RgdC70Lg/LikD
     - service: tg
       id: 957
       published: 2025-08-22-18-32-23
-      updated: 2025-08-22-22-13-31
+      updated: 2025-08-22-23-13-37
       followers: 783
-      likes: 33
-      views: 111
+      likes: 36
+      views: 116
 2017-11-01-nerano-ancestral-tomb:
   title: Nerano Ancestral Tomb
   titleRu: Родовая гробница Нерано
