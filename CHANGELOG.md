@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file.
 
+## [2.2.0](https://github.com/dehero/mwscr/compare/v2.1.4...v2.2.0) (2025-08-22)
+
+### Features
+
+- **site:** improve parameters lists perception
+  ([b115110](https://github.com/dehero/mwscr/commit/b115110315e909700867346de07c514e050078e2))
+
 ## [2.1.4](https://github.com/dehero/mwscr/compare/v2.1.3...v2.1.4) (2025-08-06)
 
 ### Bug Fixes
