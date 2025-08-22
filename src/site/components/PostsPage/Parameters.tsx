@@ -207,7 +207,7 @@ export const Parameters: Component<ParametersProps> = (props) => {
         <Switch>
           <Match when={typeof view() === 'undefined'} keyed>
             <form class={styles.parameters}>
-              <Label label="Preset" vertical>
+              <Label label="Preset" labelClass={styles.labelWithFixedWidth}>
                 <div class={styles.selectWrapper}>
                   <Select
                     options={props.parameters.presetOptions()}
@@ -218,7 +218,7 @@ export const Parameters: Component<ParametersProps> = (props) => {
                 </div>
               </Label>
 
-              <Label label="Search by Title or Description" vertical>
+              <Label label="Search" labelClass={styles.labelWithFixedWidth}>
                 <fieldset class={styles.fieldset}>
                   <div class={styles.searchInputWrapper}>
                     <Input
@@ -247,7 +247,7 @@ export const Parameters: Component<ParametersProps> = (props) => {
               </Label>
 
               <Show when={!props.routeInfo.meta().filters || props.routeInfo.meta().filters!.includes('original')}>
-                <Label label="Recency" component="div" vertical>
+                <Label label="Recency" component="div" labelClass={styles.labelWithFixedWidth}>
                   <RadioGroup
                     name="original"
                     options={[ALL_OPTION, { value: 'true', label: 'Originals' }, { value: 'false', label: 'Reposts' }]}
@@ -258,7 +258,7 @@ export const Parameters: Component<ParametersProps> = (props) => {
               </Show>
 
               <Show when={!props.routeInfo.meta().filters || props.routeInfo.meta().filters!.includes('official')}>
-                <Label label="Origin" component="div" vertical>
+                <Label label="Origin" component="div" labelClass={styles.labelWithFixedWidth}>
                   <RadioGroup
                     name="official"
                     options={[
@@ -273,7 +273,7 @@ export const Parameters: Component<ParametersProps> = (props) => {
               </Show>
 
               <Show when={!props.routeInfo.meta().filters || props.routeInfo.meta().filters!.includes('publishable')}>
-                <Label label="Publishability" component="div" vertical>
+                <Label label="Publishability" component="div" labelClass={styles.labelWithFixedWidth}>
                   <RadioGroup
                     name="publishable"
                     options={[ALL_OPTION, { value: 'true', label: 'Ready' }, { value: 'false', label: 'In Work' }]}
@@ -284,7 +284,7 @@ export const Parameters: Component<ParametersProps> = (props) => {
               </Show>
 
               <Show when={!props.routeInfo.meta().filters || props.routeInfo.meta().filters!.includes('date')}>
-                <Label label="Date" vertical>
+                <Label label="Date" labelClass={styles.labelWithFixedWidth}>
                   <DatePicker
                     value={props.parameters.date()}
                     onChange={props.parameters.setDate}
@@ -295,7 +295,7 @@ export const Parameters: Component<ParametersProps> = (props) => {
               </Show>
 
               <Show when={!props.routeInfo.meta().filters || props.routeInfo.meta().filters!.includes('type')}>
-                <Label label="Type" vertical>
+                <Label label="Type" labelClass={styles.labelWithFixedWidth}>
                   <div class={styles.selectWrapper}>
                     <Select
                       name="type"
@@ -309,7 +309,7 @@ export const Parameters: Component<ParametersProps> = (props) => {
               </Show>
 
               <Show when={!props.routeInfo.meta().filters || props.routeInfo.meta().filters!.includes('placement')}>
-                <Label label="Placement" vertical>
+                <Label label="Placement" labelClass={styles.labelWithFixedWidth}>
                   <div class={styles.selectWrapper}>
                     <Select
                       name="placement"
@@ -328,7 +328,7 @@ export const Parameters: Component<ParametersProps> = (props) => {
               </Show>
 
               <Show when={!props.routeInfo.meta().filters || props.routeInfo.meta().filters!.includes('location')}>
-                <Label label="Location" vertical class={styles.label}>
+                <Label label="Location" class={styles.label} labelClass={styles.labelWithFixedWidth}>
                   <Button onClick={() => setView('locations')}>
                     {locationOption()?.label}
                     <Show when={locationOption()?.postCount}>{(postCount) => <> ({postCount})</>}</Show>
@@ -337,7 +337,7 @@ export const Parameters: Component<ParametersProps> = (props) => {
               </Show>
 
               <Show when={!props.routeInfo.meta().filters || props.routeInfo.meta().filters!.includes('addon')}>
-                <Label label="Addon" vertical>
+                <Label label="Addon" labelClass={styles.labelWithFixedWidth}>
                   <div class={styles.selectWrapper}>
                     <Select
                       name="addon"
@@ -351,7 +351,7 @@ export const Parameters: Component<ParametersProps> = (props) => {
               </Show>
 
               <Show when={!props.routeInfo.meta().filters || props.routeInfo.meta().filters!.includes('tag')}>
-                <Label label="Tag" vertical class={styles.label}>
+                <Label label="Tag" class={styles.label} labelClass={styles.labelWithFixedWidth}>
                   <Button onClick={() => setView('tags')}>
                     {tagOption()?.label}
                     <Show when={tagOption()?.postCount}>{(postCount) => <> ({postCount})</>}</Show>
@@ -360,7 +360,7 @@ export const Parameters: Component<ParametersProps> = (props) => {
               </Show>
 
               <Show when={!props.routeInfo.meta().filters || props.routeInfo.meta().filters!.includes('author')}>
-                <Label label="Author" vertical>
+                <Label label="Author" labelClass={styles.labelWithFixedWidth}>
                   <div class={styles.selectWrapper}>
                     <Select
                       name="author"
@@ -374,7 +374,7 @@ export const Parameters: Component<ParametersProps> = (props) => {
               </Show>
 
               <Show when={!props.routeInfo.meta().filters || props.routeInfo.meta().filters!.includes('requester')}>
-                <Label label="Requester" vertical>
+                <Label label="Requester" labelClass={styles.labelWithFixedWidth}>
                   <div class={styles.selectWrapper}>
                     <Select
                       name="requester"
@@ -388,7 +388,7 @@ export const Parameters: Component<ParametersProps> = (props) => {
               </Show>
 
               <Show when={!props.routeInfo.meta().filters || props.routeInfo.meta().filters!.includes('mark')}>
-                <Label label="Editor's Mark" vertical>
+                <Label label="Editor's Mark" labelClass={styles.labelWithFixedWidth}>
                   <div class={styles.selectWrapper}>
                     <Select
                       name="mark"
@@ -402,7 +402,7 @@ export const Parameters: Component<ParametersProps> = (props) => {
               </Show>
 
               <Show when={!props.routeInfo.meta().filters || props.routeInfo.meta().filters!.includes('violation')}>
-                <Label label="Violation" vertical>
+                <Label label="Violation" labelClass={styles.labelWithFixedWidth}>
                   <div class={styles.selectWrapper}>
                     <Select
                       name="violation"
@@ -424,7 +424,7 @@ export const Parameters: Component<ParametersProps> = (props) => {
               </Show>
 
               <Show when={!props.routeInfo.meta().filters || props.routeInfo.meta().filters!.includes('status')}>
-                <Label label="Unsaved Status" vertical>
+                <Label label="Unsaved Status" labelClass={styles.labelWithFixedWidth}>
                   <div class={styles.selectWrapper}>
                     <Select
                       name="status"
@@ -446,7 +446,7 @@ export const Parameters: Component<ParametersProps> = (props) => {
               </Show>
 
               <Show when={props.parameters.sortOptions().length > 0}>
-                <Label label="Sort By" vertical>
+                <Label label="Order By" labelClass={styles.labelWithFixedWidth}>
                   <fieldset class={styles.fieldset}>
                     <div class={styles.selectWrapper}>
                       <Select

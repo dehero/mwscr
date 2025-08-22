@@ -100,7 +100,7 @@ export function usePostsPageParameters(routeInfo: SiteRouteInfo<PostsPageParams,
     const currentPreset = options.find((preset) => isObjectEqual(preset.searchParams, searchParams()));
 
     if (!currentPreset) {
-      options.push({ value: 'custom', label: 'Custom Selection', searchParams: searchParams() });
+      options.push({ value: 'custom', label: `Custom Options (${activeCount()})`, searchParams: searchParams() });
     }
 
     return options;

@@ -37,6 +37,7 @@
   padding: 0;
   margin: 0;
   border: none;
+  width: 100%;
 }
 
 .users {
@@ -66,6 +67,10 @@
   padding: 0;
   margin: 0;
   border: none;
+}
+
+.labelWithFixedWidth {
+  flex: 0 0 120px;
 }
 
 @media only screen and (min-width: 812px) {

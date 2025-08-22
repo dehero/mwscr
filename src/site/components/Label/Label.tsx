@@ -6,6 +6,7 @@ import styles from './Label.module.css';
 
 export interface LabelProps {
   class?: string;
+  labelClass?: string;
   children?: JSX.Element;
   component?: keyof JSX.IntrinsicElements;
   label?: string;
@@ -22,11 +23,11 @@ export const Label: Component<LabelProps> = (props) => {
       class={clsx(styles.container, props.vertical && styles.vertical, props.class)}
     >
       <Show when={props.label && props.position !== 'end'}>
-        <span class={styles.label}>{props.label}</span>
+        <span class={clsx(styles.label, props.labelClass)}>{props.label}</span>
       </Show>
       {props.children}
       <Show when={props.label && props.position === 'end'}>
-        <span class={clsx(styles.label, styles.alignEnd)}>{props.label}</span>
+        <span class={clsx(styles.label, styles.alignEnd, props.labelClass)}>{props.label}</span>
       </Show>
     </Dynamic>
   );

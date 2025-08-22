@@ -139,16 +139,7 @@ export const UsersPage = (): JSX.Element => {
         <Show when={!narrowScreen() || expandParametersOnNarrowScreen()}>
           <Divider />
 
-          <Label label="Role" vertical>
-            <Select
-              name="role"
-              options={[ALL_OPTION, ...UserRole.options.map((value) => ({ value }))]}
-              value={userRole()}
-              onChange={setUserRole}
-            />
-          </Label>
-
-          <Label label="Search by Name or ID" vertical>
+          <Label label="Search" labelClass={styles.labelWithFixedWidth}>
             <fieldset class={styles.fieldset}>
               <Input
                 name="search"
@@ -174,7 +165,16 @@ export const UsersPage = (): JSX.Element => {
             </fieldset>
           </Label>
 
-          <Label label="Order By" vertical>
+          <Label label="Role" labelClass={styles.labelWithFixedWidth}>
+            <Select
+              name="role"
+              options={[ALL_OPTION, ...UserRole.options.map((value) => ({ value }))]}
+              value={userRole()}
+              onChange={setUserRole}
+            />
+          </Label>
+
+          <Label label="Order By" labelClass={styles.labelWithFixedWidth}>
             <fieldset class={styles.fieldset}>
               <Select options={selectUserInfosSortOptions} value={sortKey()} onChange={setSortKey} />
               <RadioGroup
