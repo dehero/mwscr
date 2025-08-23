@@ -6942,15 +6942,23 @@
       id: DNtSc2tYvSU
       mediaId: '18522714049047843'
       published: 2025-08-23-18-30-04
+      updated: 2025-08-23-19-11-06
       followers: 1581
+      likes: 11
     - service: vk
       id: 2596
       published: 2025-08-23-18-30-11
+      updated: 2025-08-23-19-10-58
       followers: 1378
+      likes: 3
+      views: 21
     - service: tg
       id: 958
       published: 2025-08-23-18-30-18
+      updated: 2025-08-23-19-10-59
       followers: 782
+      likes: 18
+      views: 61
 2017-06-06-vos:
   title: Vos
   titleRu: Вос
@@ -12923,27 +12931,27 @@
       id: DNqt57gx86Q
       mediaId: '18047510327641715'
       published: 2025-08-22-18-32-14
-      updated: 2025-08-23-18-18-26
+      updated: 2025-08-23-19-11-10
       followers: 1580
-      likes: 54
+      likes: 55
     - service: vk
       id: 2594
       published: 2025-08-22-18-32-19
-      updated: 2025-08-23-18-18-21
+      updated: 2025-08-23-19-11-03
       followers: 1373
-      likes: 21
-      views: 163
-      reposts: 1
+      likes: 24
+      views: 175
+      reposts: 2
       comments: !c |-
         CyCAkZPLQnmNNc4AAACwc2VyZ2V5LWNodXJiYW5vdtkj0J3RgyDQtNCwLCDQvtC90Lgg0LLRi9GA
         0L7RgdC70Lg/LikD
     - service: tg
       id: 957
       published: 2025-08-22-18-32-23
-      updated: 2025-08-23-18-18-17
+      updated: 2025-08-23-19-11-00
       followers: 783
-      likes: 55
-      views: 170
+      likes: 57
+      views: 182
 2017-11-01-nerano-ancestral-tomb:
   title: Nerano Ancestral Tomb
   titleRu: Родовая гробница Нерано
@@ -13761,24 +13769,24 @@
       id: DNlkoviRtWC
       mediaId: '17945813988011308'
       published: 2025-08-20-18-35-01
-      updated: 2025-08-22-18-20-26
+      updated: 2025-08-23-19-11-14
       followers: 1580
-      likes: 57
+      likes: 60
     - service: vk
       id: 2593
       published: 2025-08-20-18-35-07
-      updated: 2025-08-22-18-20-20
+      updated: 2025-08-23-19-11-04
       followers: 1365
-      likes: 38
-      views: 395
+      likes: 41
+      views: 499
       reposts: 2
     - service: tg
       id: 956
       published: 2025-08-20-18-35-11
-      updated: 2025-08-22-18-20-19
+      updated: 2025-08-23-19-11-01
       followers: 782
-      likes: 51
-      views: 197
+      likes: 57
+      views: 252
 2017-11-22-at-the-margin:
   title: At the Margin
   titleRu: У предела
