@@ -3571,18 +3571,18 @@
     - service: vk
       id: 2570
       published: 2025-08-10-18-32-01
-      updated: 2025-08-17-22-14-17
+      updated: 2025-08-24-23-13-37
       followers: 1363
       likes: 31
-      views: 231
+      views: 264
       reposts: 2
     - service: tg
       id: 947
       published: 2025-08-10-18-32-05
-      updated: 2025-08-17-22-14-20
+      updated: 2025-08-24-23-13-36
       followers: 776
-      likes: 67
-      views: 890
+      likes: 69
+      views: 1060
       comments: !c |-
         G4oCACwS7FgKI4Wk3RAVsnC+qRHn2iZ9hAXnEEiUo8aBxxjMrLAVqLbYB6HVC4mFfILDkYzleunt
         1iItOjc3c7MEsykekCGDqcEUzBlSbXVb7A/a8lBBUDhchvzJajB0J2/pcAPbbDoA/ku/1wIaBZYH
@@ -6942,16 +6942,16 @@
       id: DNtSc2tYvSU
       mediaId: '18522714049047843'
       published: 2025-08-23-18-30-04
-      updated: 2025-08-24-22-13-46
+      updated: 2025-08-24-23-13-45
       followers: 1581
       likes: 62
     - service: vk
       id: 2596
       published: 2025-08-23-18-30-11
-      updated: 2025-08-24-22-13-40
+      updated: 2025-08-24-23-13-35
       followers: 1378
       likes: 32
-      views: 200
+      views: 201
       comments: !c |-
         G7YBQJ0Hxi3zhkH4cgtPxIbGP99fbAnffFpoVijiLEoS30DjgsSSc506Z4yeUbQvGUkPlpuiNR4p
         cPfHSNYHgTJkCNfUt+Y2immpGvqY5wPycD5gbYZiCprtRMcwpN9uEM9KNB9pxLuLurDzmKY7pOts
@@ -6961,10 +6961,10 @@
     - service: tg
       id: 958
       published: 2025-08-23-18-30-18
-      updated: 2025-08-24-22-13-36
+      updated: 2025-08-24-23-13-31
       followers: 782
-      likes: 46
-      views: 192
+      likes: 47
+      views: 193
 2017-06-06-vos:
   title: Vos
   titleRu: Вос
