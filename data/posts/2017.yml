@@ -1094,18 +1094,18 @@
     - service: vk
       id: 2587
       published: 2025-08-17-18-22-36
-      updated: 2025-08-23-07-13-21
+      updated: 2025-08-24-07-13-43
       followers: 1365
-      likes: 31
-      views: 392
+      likes: 35
+      views: 426
       reposts: 3
     - service: tg
       id: 954
       published: 2025-08-17-18-22-41
-      updated: 2025-08-23-07-13-20
+      updated: 2025-08-24-07-13-41
       followers: 778
-      likes: 66
-      views: 336
+      likes: 67
+      views: 357
       comments: !c |-
         G34A+I1UNX9/f2qW5wI2NRssZGvgWPSBkt3WGq8t6xVkvmCxsQgOOSC54YG5eaAR1TBUE9JNFuP0
         NOs980fYrbakMJWc0JPS3LWkNLOKKFtnCK1j4SfCEW4bgpvKyHlaFs4s3OGxob3bTk+zPlAMwk6J
@@ -6942,23 +6942,23 @@
       id: DNtSc2tYvSU
       mediaId: '18522714049047843'
       published: 2025-08-23-18-30-04
-      updated: 2025-08-24-06-20-45
+      updated: 2025-08-24-07-13-40
       followers: 1581
-      likes: 44
+      likes: 45
     - service: vk
       id: 2596
       published: 2025-08-23-18-30-11
-      updated: 2025-08-24-06-20-39
+      updated: 2025-08-24-07-13-33
       followers: 1378
       likes: 15
-      views: 82
+      views: 88
     - service: tg
       id: 958
       published: 2025-08-23-18-30-18
-      updated: 2025-08-24-06-20-38
+      updated: 2025-08-24-07-13-32
       followers: 782
-      likes: 37
-      views: 131
+      likes: 38
+      views: 135
 2017-06-06-vos:
   title: Vos
   titleRu: Вос
@@ -11571,10 +11571,10 @@
     - service: vk
       id: 2586
       published: 2025-08-16-18-20-34
-      updated: 2025-08-23-07-13-23
+      updated: 2025-08-24-07-13-44
       followers: 1365
       likes: 62
-      views: 523
+      views: 534
       reposts: 4
       comments: !c |-
         iyKAkZPLQnmLtOQogACqYXJ5YS1zdGFya9ku0Jgg0LrQvtC80LDRgCDQt9Cw0LLQuNGBINCyINCy
@@ -11582,10 +11582,10 @@
     - service: tg
       id: 953
       published: 2025-08-16-18-20-38
-      updated: 2025-08-23-07-13-22
+      updated: 2025-08-24-07-13-42
       followers: 779
-      likes: 67
-      views: 399
+      likes: 68
+      views: 410
       comments: !c |-
         i06Ak5PLQnmLe/EOgACmYXIxZWNjoJPLQnmLZUeLAACwc2Npb24tb2YtYmFsYW5jZa5UaGUgQ2xp
         ZmZyYWNlcpPLQnmLRBnkAACra2F3YXpha3kyMjPZSUxvZGtvNGthICYgVFZBUiBQT0RMQVlBLCBV
@@ -12931,16 +12931,16 @@
       id: DNqt57gx86Q
       mediaId: '18047510327641715'
       published: 2025-08-22-18-32-14
-      updated: 2025-08-24-06-20-49
+      updated: 2025-08-24-07-13-44
       followers: 1580
       likes: 57
     - service: vk
       id: 2594
       published: 2025-08-22-18-32-19
-      updated: 2025-08-24-06-20-43
+      updated: 2025-08-24-07-13-38
       followers: 1373
       likes: 31
-      views: 214
+      views: 219
       reposts: 2
       comments: !c |-
         CyCAkZPLQnmNNc4AAACwc2VyZ2V5LWNodXJiYW5vdtkj0J3RgyDQtNCwLCDQvtC90Lgg0LLRi9GA
@@ -12948,10 +12948,10 @@
     - service: tg
       id: 957
       published: 2025-08-22-18-32-23
-      updated: 2025-08-24-06-20-39
+      updated: 2025-08-24-07-13-34
       followers: 783
       likes: 58
-      views: 204
+      views: 206
 2017-11-01-nerano-ancestral-tomb:
   title: Nerano Ancestral Tomb
   titleRu: Родовая гробница Нерано

@@ -439,7 +439,7 @@ ar1ecc:
   profiles:
     - service: tg
       id: '7014212246'
-      updated: 2025-08-23-07-13-22
+      updated: 2025-08-24-07-13-42
       accessHash: '-1250228823173868729'
       username: ar1ecc
       name: ar1ec
@@ -504,7 +504,7 @@ arya-stark:
   profiles:
     - service: vk
       id: '820702664'
-      updated: 2025-08-23-07-13-23
+      updated: 2025-08-24-07-13-44
       username: id820702664
       name: Арья Старк
       avatar: store:/avatars/vk-689aa89d.jpg
@@ -1947,7 +1947,7 @@ goosevich76:
   profiles:
     - service: tg
       id: '5385620621'
-      updated: 2025-08-23-07-13-19
+      updated: 2025-08-24-07-13-38
       accessHash: '-7130473396589324830'
       username: Goosevich78
       name: Ґузьйоувишщь
@@ -2536,7 +2536,7 @@ kawazaky223:
   profiles:
     - service: tg
       id: '5641856113'
-      updated: 2025-08-23-22-13-27
+      updated: 2025-08-24-07-13-42
       accessHash: '7421309771527577818'
       username: Kawazaky223
       name: Максим
@@ -4145,7 +4145,7 @@ sarudelsur:
   profiles:
     - service: tg
       id: '8446161342'
-      updated: 2025-08-23-07-13-19
+      updated: 2025-08-24-07-13-38
       accessHash: '-2612313514511119416'
       username: sarudelsur
       name: Hozu
@@ -4178,7 +4178,7 @@ scion-of-balance:
   profiles:
     - service: tg
       id: '5834663294'
-      updated: 2025-08-23-13-21-26
+      updated: 2025-08-24-07-13-42
       accessHash: '-2758740287553358448'
       username: vorpalhopper
       name: Vorpalhopper
@@ -4269,7 +4269,7 @@ sergey-churbanov:
   profiles:
     - service: vk
       id: '1060712354'
-      updated: 2025-08-24-06-20-43
+      updated: 2025-08-24-07-13-38
       username: id1060712354
       name: Сергей Чурбанов
       avatar: store:/avatars/vk-6499ce8d.jpg
@@ -5594,7 +5594,7 @@ ya-hs-che-suda-stavit:
   profiles:
     - service: tg
       id: '1336542246'
-      updated: 2025-08-23-07-13-20
+      updated: 2025-08-24-07-13-40
       accessHash: '5504493057447045891'
       username: Ya_hs_che_suda_stavit
       name: Hist 2
