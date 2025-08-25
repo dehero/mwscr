@@ -488,7 +488,7 @@ artyom-melikhoff:
   profiles:
     - service: vk
       id: '299405149'
-      updated: 2025-08-25-03-12-02
+      updated: 2025-08-25-13-27-33
       username: artyom_melikhoff
       name: Артём Мелихов
       avatar: store:/avatars/vk-dd464f34.jpg
@@ -1124,10 +1124,10 @@ danya-r:
   profiles:
     - service: tg
       id: '6217540848'
-      updated: 2025-08-20-15-19-11
+      updated: 2025-08-25-13-27-34
       accessHash: '144997878637800057'
-      name: ᦔꪖꪀꪗꪖ ᦓꫝꪖρꪮᦓꫝꪀ꠸ᛕꪮꪜ🔬
-      avatar: store:/avatars/tg-5285154641996281850.jpg
+      name: 🏝ᦔꪖꪀꪗꪖ ᦓꫝꪖρꪮᦓꫝꪀ꠸ᛕꪮꪜ🏝
+      avatar: store:/avatars/tg-5285480780337902526.jpg
 danyliuk2002:
   profiles:
     - service: vk
@@ -1750,7 +1750,7 @@ filavandrel-official:
   profiles:
     - service: vk
       id: '682643734'
-      updated: 2025-08-25-12-30-07
+      updated: 2025-08-25-13-27-31
       username: filavandrel_official
       name: Filavandrel Aén Fidháil
       avatar: store:/avatars/vk-dbbe470a.jpg
@@ -2536,7 +2536,7 @@ kawazaky223:
   profiles:
     - service: tg
       id: '5641856113'
-      updated: 2025-08-25-07-15-41
+      updated: 2025-08-25-13-27-37
       accessHash: '7421309771527577818'
       username: Kawazaky223
       name: Максим
@@ -3126,7 +3126,7 @@ mister-purrfect:
   profiles:
     - service: vk
       id: '872831147'
-      updated: 2025-08-25-12-30-06
+      updated: 2025-08-25-13-27-31
       username: id872831147
       name: Mister Purrfect
       avatar: store:/avatars/vk-d502311b.jpg
@@ -4269,7 +4269,7 @@ sergey-churbanov:
   profiles:
     - service: vk
       id: '1060712354'
-      updated: 2025-08-25-12-30-07
+      updated: 2025-08-25-13-27-33
       username: id1060712354
       name: Сергей Чурбанов
       avatar: store:/avatars/vk-6499ce8d.jpg
