@@ -504,7 +504,7 @@ arya-stark:
   profiles:
     - service: vk
       id: '820702664'
-      updated: 2025-08-24-07-13-44
+      updated: 2025-08-25-07-15-41
       username: id820702664
       name: Арья Старк
       avatar: store:/avatars/vk-689aa89d.jpg
@@ -1750,7 +1750,7 @@ filavandrel-official:
   profiles:
     - service: vk
       id: '682643734'
-      updated: 2025-08-25-06-24-22
+      updated: 2025-08-25-07-15-40
       username: filavandrel_official
       name: Filavandrel Aén Fidháil
       avatar: store:/avatars/vk-dbbe470a.jpg
@@ -1947,7 +1947,7 @@ goosevich76:
   profiles:
     - service: tg
       id: '5385620621'
-      updated: 2025-08-24-23-13-36
+      updated: 2025-08-25-07-15-40
       accessHash: '-7130473396589324830'
       username: Goosevich78
       name: Ґузьйоувишщь
@@ -2536,7 +2536,7 @@ kawazaky223:
   profiles:
     - service: tg
       id: '5641856113'
-      updated: 2025-08-25-03-12-07
+      updated: 2025-08-25-07-15-41
       accessHash: '7421309771527577818'
       username: Kawazaky223
       name: Максим
@@ -3126,7 +3126,7 @@ mister-purrfect:
   profiles:
     - service: vk
       id: '872831147'
-      updated: 2025-08-25-06-24-21
+      updated: 2025-08-25-07-15-39
       username: id872831147
       name: Mister Purrfect
       avatar: store:/avatars/vk-d502311b.jpg
@@ -4145,7 +4145,7 @@ sarudelsur:
   profiles:
     - service: tg
       id: '8446161342'
-      updated: 2025-08-24-23-13-36
+      updated: 2025-08-25-07-15-39
       accessHash: '-2612313514511119416'
       username: sarudelsur
       name: Hozu
@@ -4269,7 +4269,7 @@ sergey-churbanov:
   profiles:
     - service: vk
       id: '1060712354'
-      updated: 2025-08-25-06-24-22
+      updated: 2025-08-25-07-15-39
       username: id1060712354
       name: Сергей Чурбанов
       avatar: store:/avatars/vk-6499ce8d.jpg
@@ -5594,7 +5594,7 @@ ya-hs-che-suda-stavit:
   profiles:
     - service: tg
       id: '1336542246'
-      updated: 2025-08-24-07-13-40
+      updated: 2025-08-25-07-15-41
       accessHash: '5504493057447045891'
       username: Ya_hs_che_suda_stavit
       name: Hist 2
