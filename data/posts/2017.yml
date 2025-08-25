@@ -7628,15 +7628,26 @@
       id: DNyceu54oMo
       mediaId: '17998181432810274'
       published: 2025-08-25-18-33-53
+      updated: 2025-08-25-19-12-09
       followers: 1581
+      likes: 13
     - service: vk
       id: 2602
       published: 2025-08-25-18-33-59
+      updated: 2025-08-25-19-12-06
       followers: 1380
+      likes: 5
+      views: 17
+      comments: !c |-
+        G2EA+I2T5WafQv7DuUY4TeAibauwSN4u8EAzQPL9ywQGx95CoYkokkGoUk0bp5eWz/kXzDo0A9vM
+        Jd3p302OmFFNLYsVFThgjyue1MigitEdlnhgjSuLDdY0nAE=
     - service: tg
       id: 960
       published: 2025-08-25-18-34-02
+      updated: 2025-08-25-19-12-02
       followers: 782
+      likes: 23
+      views: 70
 2017-06-25-heran-ancestral-tomb:
   title: Heran Ancestral Tomb
   titleRu: Родовая гробница Херанов
@@ -13788,24 +13799,24 @@
       id: DNlkoviRtWC
       mediaId: '17945813988011308'
       published: 2025-08-20-18-35-01
-      updated: 2025-08-24-19-11-37
+      updated: 2025-08-25-19-12-16
       followers: 1580
-      likes: 61
+      likes: 62
     - service: vk
       id: 2593
       published: 2025-08-20-18-35-07
-      updated: 2025-08-24-19-11-29
+      updated: 2025-08-25-19-12-07
       followers: 1365
-      likes: 43
-      views: 530
+      likes: 45
+      views: 563
       reposts: 2
     - service: tg
       id: 956
       published: 2025-08-20-18-35-11
-      updated: 2025-08-24-19-11-25
+      updated: 2025-08-25-19-12-03
       followers: 782
-      likes: 57
-      views: 304
+      likes: 60
+      views: 340
 2017-11-22-at-the-margin:
   title: At the Margin
   titleRu: У предела
