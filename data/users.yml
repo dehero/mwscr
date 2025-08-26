@@ -4145,7 +4145,7 @@ sarudelsur:
   profiles:
     - service: tg
       id: '8446161342'
-      updated: 2025-08-26-01-08-32
+      updated: 2025-08-26-03-06-03
       accessHash: '-2612313514511119416'
       username: sarudelsur
       name: Hozu
@@ -4269,7 +4269,7 @@ sergey-churbanov:
   profiles:
     - service: vk
       id: '1060712354'
-      updated: 2025-08-26-01-08-33
+      updated: 2025-08-26-03-06-04
       username: id1060712354
       name: Сергей Чурбанов
       avatar: store:/avatars/vk-6499ce8d.jpg
