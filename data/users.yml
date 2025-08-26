@@ -2536,7 +2536,7 @@ kawazaky223:
   profiles:
     - service: tg
       id: '5641856113'
-      updated: 2025-08-26-15-15-29
+      updated: 2025-08-26-16-17-51
       accessHash: '7421309771527577818'
       username: Kawazaky223
       name: Максим
@@ -4145,7 +4145,7 @@ sarudelsur:
   profiles:
     - service: tg
       id: '8446161342'
-      updated: 2025-08-26-15-15-28
+      updated: 2025-08-26-16-17-50
       accessHash: '-2612313514511119416'
       username: sarudelsur
       name: Hozu
@@ -4269,7 +4269,7 @@ sergey-churbanov:
   profiles:
     - service: vk
       id: '1060712354'
-      updated: 2025-08-26-15-15-27
+      updated: 2025-08-26-16-17-49
       username: id1060712354
       name: Сергей Чурбанов
       avatar: store:/avatars/vk-6499ce8d.jpg
