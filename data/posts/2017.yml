@@ -10105,10 +10105,10 @@
     - service: vk
       id: 2560
       published: 2025-08-06-18-25-35
-      updated: 2025-08-20-21-15-33
+      updated: 2025-08-27-22-13-39
       followers: 1360
-      likes: 41
-      views: 329
+      likes: 42
+      views: 363
       reposts: 1
     - service: tg
       id: 943
@@ -10759,26 +10759,27 @@
       id: DN3l2Qc4iRy
       mediaId: '18063386042339806'
       published: 2025-08-27-18-31-57
-      updated: 2025-08-27-21-13-36
+      updated: 2025-08-27-22-13-44
       followers: 1580
-      likes: 24
+      likes: 29
     - service: vk
       id: 2607
       published: 2025-08-27-18-32-02
-      updated: 2025-08-27-21-13-29
+      updated: 2025-08-27-22-13-37
       followers: 1381
-      likes: 7
-      views: 46
+      likes: 8
+      views: 63
     - service: tg
       id: 962
       published: 2025-08-27-18-32-05
-      updated: 2025-08-27-21-13-33
+      updated: 2025-08-27-22-13-41
       followers: 782
-      likes: 29
-      views: 112
+      likes: 30
+      views: 115
       comments: !c |-
-        G3IA4B0JdozLSnLmIJs7QqXDf+5I//x2kuLNW4m1BCNM3sfAU7c955f41h7ezjUVYQqCTAzRDJPJ
-        g4kcuLTmIV7MHoiGxWg2f2tfHfXnFzmlm+pqzxiOEARQbuLYIeCKbneyeWKpMWT1zhtJKCQ=
+        GwsBgBwHdiyz8HB0ZeEiENpFOqBYMupKqAhfNvF3G/OM2TqBREUQut5iUi60l6g9SGaC8F3DNKNE
+        WQo2zdjsRAOEWxAGSYKBtIgTKPIMXl9PVmSyIPF/Zm7rfCjj7B94k5gSOQHQ39ysvceLTbxy/DxG
+        ue4oLJYMkOVDvWI7pBwuuyI9XHLbZVDWx8C/jItNaZQm5p2KNqeZNvd6ENofwJ+UxlsVq6ZtuYYE
 2017-09-09-floating-bottle:
   title: Floating Bottle
   titleRu: Плавучая бутылка
