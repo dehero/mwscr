@@ -7629,26 +7629,26 @@
       id: DNyceu54oMo
       mediaId: '17998181432810274'
       published: 2025-08-25-18-33-53
-      updated: 2025-08-27-17-39-23
+      updated: 2025-08-27-18-20-17
       followers: 1581
-      likes: 68
+      likes: 69
     - service: vk
       id: 2602
       published: 2025-08-25-18-33-59
-      updated: 2025-08-27-17-39-16
+      updated: 2025-08-27-18-20-11
       followers: 1380
-      likes: 45
-      views: 408
+      likes: 46
+      views: 412
       comments: !c |-
         G2EA+I2T5WafQv7DuUY4TeAibauwSN4u8EAzQPL9ywQGx95CoYkokkGoUk0bp5eWz/kXzDo0A9vM
         Jd3p302OmFFNLYsVFThgjyue1MigitEdlnhgjSuLDdY0nAE=
     - service: tg
       id: 960
       published: 2025-08-25-18-34-02
-      updated: 2025-08-27-17-39-15
+      updated: 2025-08-27-18-20-12
       followers: 782
       likes: 56
-      views: 233
+      views: 234
       comments: !c ixiAkpPLQnmOXrTWAACra2F3YXpha3kyMjOk8J+Zj5PLQnmOLvbpgACqc2FydWRlbHN1cqAD
 2017-06-25-heran-ancestral-tomb:
   title: Heran Ancestral Tomb
@@ -10755,6 +10755,19 @@
       followers: 79
       likes: 12
       views: 136
+    - service: ig
+      id: DN3l2Qc4iRy
+      mediaId: '18063386042339806'
+      published: 2025-08-27-18-31-57
+      followers: 1580
+    - service: vk
+      id: 2607
+      published: 2025-08-27-18-32-02
+      followers: 1381
+    - service: tg
+      id: 962
+      published: 2025-08-27-18-32-05
+      followers: 782
 2017-09-09-floating-bottle:
   title: Floating Bottle
   titleRu: Плавучая бутылка
