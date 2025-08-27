@@ -1230,7 +1230,10 @@ dehero:
     - service: em
       username: dehero@outlook.com
     - service: gh
+      id: '1607322'
+      updated: 2025-08-27-18-04-50
       username: dehero
+      avatar: store:/avatars/gh-c8afe641.jpg
     - service: vk
       id: '3652910'
       updated: 2025-08-27-16-47-31
