@@ -6942,16 +6942,16 @@
       id: DNtSc2tYvSU
       mediaId: '18522714049047843'
       published: 2025-08-23-18-30-04
-      updated: 2025-08-26-19-12-03
+      updated: 2025-08-27-19-12-53
       followers: 1581
-      likes: 78
+      likes: 80
     - service: vk
       id: 2596
       published: 2025-08-23-18-30-11
-      updated: 2025-08-26-19-11-55
+      updated: 2025-08-27-19-12-38
       followers: 1378
-      likes: 45
-      views: 308
+      likes: 46
+      views: 333
       comments: !c |-
         G7YBQJ0Hxi3zhkH4cgtPxIbGP99fbAnffFpoVijiLEoS30DjgsSSc506Z4yeUbQvGUkPlpuiNR4p
         cPfHSNYHgTJkCNfUt+Y2immpGvqY5wPycD5gbYZiCprtRMcwpN9uEM9KNB9pxLuLurDzmKY7pOts
@@ -6961,10 +6961,10 @@
     - service: tg
       id: 958
       published: 2025-08-23-18-30-18
-      updated: 2025-08-26-19-11-53
+      updated: 2025-08-27-19-12-40
       followers: 782
-      likes: 58
-      views: 254
+      likes: 60
+      views: 293
       comments: !c iw2AkZPLQnmOXqrTgACra2F3YXpha3kyMjOk8J+SpQM=
 2017-06-06-vos:
   title: Vos
@@ -10759,15 +10759,26 @@
       id: DN3l2Qc4iRy
       mediaId: '18063386042339806'
       published: 2025-08-27-18-31-57
+      updated: 2025-08-27-19-12-40
       followers: 1580
+      likes: 11
     - service: vk
       id: 2607
       published: 2025-08-27-18-32-02
+      updated: 2025-08-27-19-12-32
       followers: 1381
+      likes: 2
+      views: 10
     - service: tg
       id: 962
       published: 2025-08-27-18-32-05
+      updated: 2025-08-27-19-12-36
       followers: 782
+      likes: 16
+      views: 70
+      comments: !c |-
+        G3IA4B0JdozLSnLmIJs7QqXDf+5I//x2kuLNW4m1BCNM3sfAU7c955f41h7ezjUVYQqCTAzRDJPJ
+        g4kcuLTmIV7MHoiGxWg2f2tfHfXnFzmlm+pqzxiOEARQbuLYIeCKbneyeWKpMWT1zhtJKCQ=
 2017-09-09-floating-bottle:
   title: Floating Bottle
   titleRu: Плавучая бутылка
@@ -12976,16 +12987,16 @@
       id: DNqt57gx86Q
       mediaId: '18047510327641715'
       published: 2025-08-22-18-32-14
-      updated: 2025-08-26-19-12-07
+      updated: 2025-08-27-19-12-57
       followers: 1580
       likes: 66
     - service: vk
       id: 2594
       published: 2025-08-22-18-32-19
-      updated: 2025-08-26-19-11-56
+      updated: 2025-08-27-19-12-41
       followers: 1373
       likes: 40
-      views: 377
+      views: 420
       reposts: 2
       comments: !c |-
         CyCAkZPLQnmNNc4AAACwc2VyZ2V5LWNodXJiYW5vdtkj0J3RgyDQtNCwLCDQvtC90Lgg0LLRi9GA
@@ -12993,10 +13004,10 @@
     - service: tg
       id: 957
       published: 2025-08-22-18-32-23
-      updated: 2025-08-26-19-11-54
+      updated: 2025-08-27-19-12-42
       followers: 783
-      likes: 65
-      views: 285
+      likes: 67
+      views: 311
       comments: !c iw2AkZPLQnmOXqS5AACra2F3YXpha3kyMjOk8J+YhwM=
 2017-11-01-nerano-ancestral-tomb:
   title: Nerano Ancestral Tomb

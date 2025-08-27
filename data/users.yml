@@ -92,7 +92,7 @@ a2-enkelli:
   profiles:
     - service: tg
       id: '7258424423'
-      updated: 2025-08-27-18-20-10
+      updated: 2025-08-27-19-12-37
       accessHash: '969825927170686844'
       username: A2_Enkelli
       name: †† elli ††
@@ -1754,7 +1754,7 @@ filavandrel-official:
   profiles:
     - service: vk
       id: '682643734'
-      updated: 2025-08-27-16-47-23
+      updated: 2025-08-27-19-12-38
       username: filavandrel_official
       name: Filavandrel Aén Fidháil
       avatar: store:/avatars/vk-dbbe470a.jpg
@@ -2540,7 +2540,7 @@ kawazaky223:
   profiles:
     - service: tg
       id: '5641856113'
-      updated: 2025-08-27-18-20-11
+      updated: 2025-08-27-19-12-42
       accessHash: '7421309771527577818'
       username: Kawazaky223
       name: Максим
@@ -3130,7 +3130,7 @@ mister-purrfect:
   profiles:
     - service: vk
       id: '872831147'
-      updated: 2025-08-27-16-25-39
+      updated: 2025-08-27-19-12-38
       username: id872831147
       name: Mister Purrfect
       avatar: store:/avatars/vk-d502311b.jpg
@@ -4149,7 +4149,7 @@ sarudelsur:
   profiles:
     - service: tg
       id: '8446161342'
-      updated: 2025-08-27-18-20-11
+      updated: 2025-08-27-19-12-37
       accessHash: '-2612313514511119416'
       username: sarudelsur
       name: Hozu
@@ -4273,7 +4273,7 @@ sergey-churbanov:
   profiles:
     - service: vk
       id: '1060712354'
-      updated: 2025-08-27-18-20-11
+      updated: 2025-08-27-19-12-39
       username: id1060712354
       name: Сергей Чурбанов
       avatar: store:/avatars/vk-6499ce8d.jpg
