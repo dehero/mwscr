@@ -91,11 +91,12 @@ export async function selectPostByScenario(
     return;
   }
 
-  const sourceManagers = dataManager.postsManagers.filter((manager) =>
-    postingScenario.sourceManagers.includes(manager.name),
-  );
+  for (const sourceManagerName of postingScenario.sourceManagers) {
+    const sourceManager = dataManager.findPostsManager(sourceManagerName);
+    if (!sourceManager) {
+      throw new Error(`Cannot find posts source manager "${sourceManagerName}".`);
+    }
 
-  for (const sourceManager of sourceManagers) {
     console.info(`Running scenario "${postingScenario.title}" on ${sourceManager.name} items...`);
 
     const sourcePostEntries = await getPostEntriesFromSource(
