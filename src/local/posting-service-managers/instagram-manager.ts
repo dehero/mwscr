@@ -57,7 +57,7 @@ const DEBUG_PUBLISHING = Boolean(process.env.DEBUG_PUBLISHING) || false;
 export class InstagramManager extends Instagram implements PostingServiceManager {
   private tempFiles: string[] = [];
   ig: Client | undefined;
-  fetcher: igApi | undefined;
+  fetcher: igApi | undefined | null;
   lastFetched: Date | undefined;
 
   async parseCaption(caption: string) {
@@ -186,7 +186,7 @@ export class InstagramManager extends Instagram implements PostingServiceManager
       this.ig = new Client(INSTAGRAM_ACCESS_TOKEN, INSTAGRAM_PAGE_ID);
     }
 
-    if (!this.fetcher) {
+    if (typeof this.fetcher === 'undefined') {
       try {
         const { INSTAGRAM_FETCHER_USERNAME, INSTAGRAM_FETCHER_PASSWORD } = process.env;
 
@@ -206,7 +206,7 @@ export class InstagramManager extends Instagram implements PostingServiceManager
         this.fetcher = new igApi(cookie);
       } catch {
         // Can do without fetcher (no user profile grabbing will be available)
-        this.fetcher = undefined;
+        this.fetcher = null;
       }
     }
 
