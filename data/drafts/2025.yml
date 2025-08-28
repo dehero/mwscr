@@ -204,6 +204,16 @@ ohsweetnazareth.2025-05-10-barkeep-in-indarys-manor-796acb11:
   type: shot
   author: ohsweetnazareth
 virgile-loheac.2025-08-14-saruse-hloran:
-  content: store:/inbox/virgile-loheac.2025-08-14-saruse-hloran.png
-  type: shot
-  author: virgile-loheac
+  title: Saruse Hloran, House Redoran
+  titleRu: Саруз Хлоран, Дом Редоран
+  placement: Indoors
+  content:
+    - store:/inbox/virgile-loheac.2025-08-14-saruse-hloran.png
+    - store:/shots/2018-01-29-saruse-hloran-house-redoran.png
+  type: redrawing
+  author:
+    - virgile-loheac
+    - dehero
+  tags:
+    - redoran
+  mark: A2
