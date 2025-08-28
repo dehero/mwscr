@@ -2,6 +2,20 @@
 
 All notable changes to this project will be documented in this file.
 
+## [2.3.0](https://github.com/dehero/mwscr/compare/v2.2.0...v2.3.0) (2025-08-28)
+
+### Features
+
+- allow posting redrawings again
+  ([5cbf849](https://github.com/dehero/mwscr/commit/5cbf849a643eb3de09dedcea769042c0f6ee13d9))
+
+### Bug Fixes
+
+- don't try to connect Instagram fetcher again if failed once
+  ([663b102](https://github.com/dehero/mwscr/commit/663b102153d2d83fb9672a9b0bee5a9282535394))
+- use right order for source posts managers when posting
+  ([f0fe90b](https://github.com/dehero/mwscr/commit/f0fe90b08316ccc8c7b1a341f16285aedf07acce))
+
 ## [2.2.0](https://github.com/dehero/mwscr/compare/v2.1.4...v2.2.0) (2025-08-22)
 
 ### Features
