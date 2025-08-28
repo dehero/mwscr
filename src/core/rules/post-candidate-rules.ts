@@ -2,6 +2,7 @@ import type { PostMark } from '../entities/post.js';
 import {
   getPostAuthorDistance,
   getPostContentDistance,
+  getPostDateById,
   getPostIdDistance,
   getPostMarkDistance,
   getPostRelatedLocationDistance,
@@ -11,6 +12,7 @@ import {
 } from '../entities/post.js';
 import type { PublishablePost } from '../entities/posts-manager.js';
 import type { Rule } from '../entities/rule.js';
+import { getDaysPassed } from '../utils/date-utils.js';
 import type { PostingRuleContext } from './posting-rules.js';
 
 export type PostCandidateRule = Rule<PublishablePost, PostingRuleContext>;
@@ -46,6 +48,30 @@ export function needMinTypeDistance(minTypeDistance: number): PostCandidateRule 
       return `${message}, expected minimum ${minTypeDistance}`;
     }
 
+    return undefined;
+  };
+}
+
+export function needMinTypeDaysAgo(minDaysAgo: number): PostCandidateRule {
+  return ({ type }: PublishablePost, context?: PostingRuleContext) => {
+    if (!context) {
+      return undefined;
+    }
+
+    for (const [id, post] of context.publicPostEntries[context.targetManager]) {
+      if (post.type !== type) {
+        continue;
+      }
+      const date = getPostDateById(id);
+      if (!date) {
+        continue;
+      }
+      const daysAgo = getDaysPassed(date);
+      if (daysAgo < minDaysAgo) {
+        return `found type "${type}" in "${id}" ${daysAgo} days ago, expected minimum ${minDaysAgo}`;
+      }
+      return undefined;
+    }
     return undefined;
   };
 }

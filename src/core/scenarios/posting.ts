@@ -9,6 +9,7 @@ import {
   needMinMarkDistance,
   needMinRelatedLocationDistance,
   needMinThirdPartyDistance,
+  needMinTypeDaysAgo,
   //   needMinTypeDistance,
 } from '../rules/post-candidate-rules.js';
 import { needCertainType } from '../rules/post-rules.js';
@@ -47,17 +48,13 @@ const news: PostingScenario = {
   postCandidateRules: [needCertainType('news')],
 };
 
-// const redrawing: PostingScenario = {
-//   title: 'redrawing',
-//   sourceManagers: ['drafts'],
-//   targetManager: 'extras',
-//   postingRules: [afterHour(9)],
-//   postCandidateRules: [
-//     needCertainType('redrawing'),
-//     needMinTypeDistance(2),
-//     needMinContentDistance(PUBLICATION_IS_RECENT_DAYS),
-//   ],
-// };
+const redrawing: PostingScenario = {
+  title: 'redrawing',
+  sourceManagers: ['drafts'],
+  targetManager: 'extras',
+  postingRules: [afterHour(9)],
+  postCandidateRules: [needCertainType('redrawing'), needMinTypeDaysAgo(7)],
+};
 
 const shot: PostingScenario = {
   title: 'shot',
@@ -112,5 +109,5 @@ export const postingScenarios: PostingScenario[] = [
   // wallpaper,
   // shotSet,
   shot,
-  // redrawing,
+  redrawing,
 ];
