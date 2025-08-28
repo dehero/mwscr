@@ -276,3 +276,33 @@
       updated: 2025-07-02-11-15-05
       followers: 1556
 2025-08-02-1-an-old-bridge: 2019-05-08-an-old-bridge
+2025-08-28-1-saruse-hloran-house-redoran:
+  title: Saruse Hloran, House Redoran
+  titleRu: Саруз Хлоран, Дом Редоран
+  placement: Indoors
+  content:
+    - store:/drawings/2025-08-28-1-saruse-hloran-house-redoran.png
+    - store:/shots/2018-01-29-saruse-hloran-house-redoran.png
+  type: redrawing
+  author:
+    - virgile-loheac
+    - dehero
+  tags:
+    - redoran
+  mark: A2
+  posts:
+    - service: ig
+      id: DN5kVpZEafB
+      mediaId: '17953417007859360'
+      published: 2025-08-28-12-57-10
+      followers: 1580
+    - service: vk
+      id: 2609
+      published: 2025-08-28-12-57-16
+      followers: 1383
+    - service: tg
+      id:
+        - 963
+        - 964
+      published: 2025-08-28-12-57-21
+      followers: 781
