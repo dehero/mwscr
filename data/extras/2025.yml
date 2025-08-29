@@ -295,26 +295,30 @@
       id: DN5kVpZEafB
       mediaId: '17953417007859360'
       published: 2025-08-28-12-57-10
-      updated: 2025-08-29-01-05-48
+      updated: 2025-08-29-02-59-26
       followers: 1580
-      likes: 97
+      likes: 99
       comments: !c CxKAkZPLQnmPGuYVAACtY2hlbWljYWx0YWludKtCVUcgU0hJRUxEIQM=
     - service: vk
       id: 2609
       published: 2025-08-28-12-57-16
-      updated: 2025-08-29-01-05-47
+      updated: 2025-08-29-02-59-26
       followers: 1383
-      likes: 9
-      views: 224
+      likes: 10
+      views: 229
+      comments: !c |-
+        G30AaMWKtX2KH8pPF09JDNWq3iHT1KbrXqQ0wCEn4F9mEWUWBCSBQ26nMxdl/YynT6M85OUFwyyt
+        TK6cjHNxLxaOhpK+/zMxoyZ2uFGP3V5iScMXjoUjSw2ssaNKQxfVEtvwwB1bqtuG1MYRp/983Ifh
+        FQ==
     - service: tg
       id:
         - 963
         - 964
       published: 2025-08-28-12-57-21
-      updated: 2025-08-29-01-05-48
+      updated: 2025-08-29-02-59-26
       followers: 781
       likes: 37
-      views: 174
+      views: 175
       comments: !c |-
         G9AAmCwO7GYvj2Bwvf8sUYnnw9sIbxhieBxxNLFGmLwvEgQ1N0KOpuIMFcHwk3Exu67NDqQtsAxC
         DeTurK2tRa/86raYXhZtbciv8qNgkVuzrVgzpG5wooFxmEDAUBjaOGzAQWbbxKMuNF2t9WZufN9s
