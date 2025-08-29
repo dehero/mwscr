@@ -2309,3 +2309,35 @@
 2025-08-26-1-red-candles: 2023-08-05-red-candles
 2025-08-27-1-sky-castle: 2017-09-08-sky-castle
 2025-08-28-1-entrance-to-cavern-of-the-incarnate: 2017-04-22-entrance-to-cavern-of-the-incarnate
+2025-08-29-1-curls:
+  title: Curls
+  titleRu: Завитки
+  placement: Outdoors
+  location: Vos
+  content: store:/shots/2025-08-29-1-curls.png
+  trash:
+    - store:/trash/dehero.2025-08-26-22-29-11.1.png
+    - store:/trash/dehero.2025-08-26-22-29-11.png
+    - store:/trash/dehero.2025-08-26-22-28-24.png
+  type: shot
+  author: dehero
+  engine: OpenMW
+  tags:
+    - boat
+    - lantern
+    - shore
+  mark: A2
+  posts:
+    - service: ig
+      id: DN8uJf6jlcT
+      mediaId: '17846614650534515'
+      published: 2025-08-29-18-20-37
+      followers: 1582
+    - service: vk
+      id: 2612
+      published: 2025-08-29-18-20-43
+      followers: 1391
+    - service: tg
+      id: 966
+      published: 2025-08-29-18-20-46
+      followers: 783
