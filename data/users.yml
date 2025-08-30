@@ -1169,7 +1169,7 @@ darkness-rifho:
       deleted: true
     - service: tg
       id: '5704974271'
-      updated: 2025-08-30-21-12-13
+      updated: 2025-08-30-22-12-40
       accessHash: '3506423524566292179'
       username: C4H6O4
       name: Уна
@@ -1762,7 +1762,7 @@ filavandrel-official:
   profiles:
     - service: vk
       id: '682643734'
-      updated: 2025-08-29-21-12-52
+      updated: 2025-08-30-22-12-43
       username: filavandrel_official
       name: Filavandrel Aén Fidháil
       avatar: store:/avatars/vk-dbbe470a.jpg
@@ -1959,7 +1959,7 @@ goosevich76:
   profiles:
     - service: tg
       id: '5385620621'
-      updated: 2025-08-30-21-12-13
+      updated: 2025-08-30-22-12-40
       accessHash: '-7130473396589324830'
       username: Goosevich78
       name: Ґузьйоувишщь
@@ -2548,7 +2548,7 @@ kawazaky223:
   profiles:
     - service: tg
       id: '5641856113'
-      updated: 2025-08-30-21-12-14
+      updated: 2025-08-30-22-12-41
       accessHash: '7421309771527577818'
       username: Kawazaky223
       name: Максим
@@ -3138,7 +3138,7 @@ mister-purrfect:
   profiles:
     - service: vk
       id: '872831147'
-      updated: 2025-08-29-21-12-52
+      updated: 2025-08-30-22-12-42
       username: id872831147
       name: Mister Purrfect
       avatar: store:/avatars/vk-d502311b.jpg
@@ -4281,7 +4281,7 @@ sergey-churbanov:
   profiles:
     - service: vk
       id: '1060712354'
-      updated: 2025-08-30-20-14-13
+      updated: 2025-08-30-22-12-43
       username: id1060712354
       name: Сергей Чурбанов
       avatar: store:/avatars/vk-6499ce8d.jpg
