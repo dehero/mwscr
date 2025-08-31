@@ -2371,23 +2371,25 @@
       id: DOB39yHDJnh
       mediaId: '18501616552068360'
       published: 2025-08-31-18-22-39
-      updated: 2025-08-31-22-13-18
+      updated: 2025-08-31-23-13-07
       followers: 1582
-      likes: 43
+      likes: 47
     - service: vk
       id: 2614
       published: 2025-08-31-18-22-45
-      updated: 2025-08-31-22-13-18
+      updated: 2025-08-31-23-13-10
       followers: 1396
-      likes: 14
-      views: 82
+      likes: 17
+      views: 99
+      reposts: 1
       comments: !c |-
-        CyKAkZPLQnmQIl5TAAC0ZmlsYXZhbmRyZWwtb2ZmaWNpYWzZI9Ca0YLQvi3RgtC+INC30LDQvNC+
-        0YDQvtGH0LjQu9GB0Y8pAw==
+        G88AICwOeHMuJCkUZudw9NWI0A2Vra2oFQ1AIEEQHMYREH5CLTNm5l6ibnsJWayGPg/D4f/Z7Mgr
+        opTCu9tai/KHrymvZHOzc8qJBsoZ5tYWWFt4POyArbZtWJjv55/nZUV851W/Nx6TFoO+7kXcqIsH
+        mgPOkApz1Qbx2x4/e3cOy1u+azCMqKQDMKQoC2X+YqEin9LFZs2ytEkQMhhGdNpbBwOUIMiwVg==
     - service: tg
       id: 968
       published: 2025-08-31-18-22-49
-      updated: 2025-08-31-22-13-15
+      updated: 2025-08-31-23-13-04
       followers: 786
-      likes: 34
-      views: 117
+      likes: 35
+      views: 124
