@@ -2353,3 +2353,30 @@
         ixqAkpPLQnmPdlIigACuZGFya25lc3MtcmlmaG+k8J+YgJPLQnmPcsekAACra2F3YXpha3kyMjOg
         Aw==
 2025-08-30-1-skaal-storages: 2023-08-07-skaal-storages
+2025-08-31-1-rare-weapon:
+  title: Rare Weapon
+  titleRu: Редкое оружие
+  placement: Indoors
+  location: Vivec, Hlaalu Vaults
+  content: store:/shots/2025-08-31-1-rare-weapon.png
+  type: shot
+  author: dehero
+  engine: OpenMW
+  tags:
+    - sword
+    - weapon
+  mark: B1
+  posts:
+    - service: ig
+      id: DOB39yHDJnh
+      mediaId: '18501616552068360'
+      published: 2025-08-31-18-22-39
+      followers: 1582
+    - service: vk
+      id: 2614
+      published: 2025-08-31-18-22-45
+      followers: 1396
+    - service: tg
+      id: 968
+      published: 2025-08-31-18-22-49
+      followers: 786
