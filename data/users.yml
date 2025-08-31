@@ -447,7 +447,7 @@ ar1ecc:
   profiles:
     - service: tg
       id: '7014212246'
-      updated: 2025-08-24-07-13-42
+      updated: 2025-08-31-08-17-17
       accessHash: '-1250228823173868729'
       username: ar1ecc
       name: ar1ec
@@ -512,7 +512,7 @@ arya-stark:
   profiles:
     - service: vk
       id: '820702664'
-      updated: 2025-08-27-16-47-28
+      updated: 2025-08-31-08-17-16
       username: id820702664
       name: Арья Старк
       avatar: store:/avatars/vk-689aa89d.jpg
@@ -1169,7 +1169,7 @@ darkness-rifho:
       deleted: true
     - service: tg
       id: '5704974271'
-      updated: 2025-08-31-07-13-22
+      updated: 2025-08-31-08-17-16
       accessHash: '3506423524566292179'
       username: C4H6O4
       name: Уна
@@ -1959,7 +1959,7 @@ goosevich76:
   profiles:
     - service: tg
       id: '5385620621'
-      updated: 2025-08-31-07-13-21
+      updated: 2025-08-31-08-17-15
       accessHash: '-7130473396589324830'
       username: Goosevich78
       name: Ґузьйоувишщь
@@ -2548,7 +2548,7 @@ kawazaky223:
   profiles:
     - service: tg
       id: '5641856113'
-      updated: 2025-08-31-07-13-22
+      updated: 2025-08-31-08-17-17
       accessHash: '7421309771527577818'
       username: Kawazaky223
       name: Максим
@@ -4190,7 +4190,7 @@ scion-of-balance:
   profiles:
     - service: tg
       id: '5834663294'
-      updated: 2025-08-30-14-11-40
+      updated: 2025-08-31-08-17-17
       accessHash: '-2758740287553358448'
       username: vorpalhopper
       name: Vorpalhopper
