@@ -1094,18 +1094,18 @@
     - service: vk
       id: 2587
       published: 2025-08-17-18-22-36
-      updated: 2025-08-25-07-15-43
+      updated: 2025-09-01-07-16-02
       followers: 1365
-      likes: 37
-      views: 435
-      reposts: 3
+      likes: 39
+      views: 480
+      reposts: 4
     - service: tg
       id: 954
       published: 2025-08-17-18-22-41
-      updated: 2025-08-25-07-15-41
+      updated: 2025-09-01-07-16-01
       followers: 778
-      likes: 67
-      views: 376
+      likes: 72
+      views: 517
       comments: !c |-
         G34A+I1UNX9/f2qW5wI2NRssZGvgWPSBkt3WGq8t6xVkvmCxsQgOOSC54YG5eaAR1TBUE9JNFuP0
         NOs980fYrbakMJWc0JPS3LWkNLOKKFtnCK1j4SfCEW4bgpvKyHlaFs4s3OGxob3bTk+zPlAMwk6J
