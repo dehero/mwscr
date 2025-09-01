@@ -92,11 +92,11 @@ a2-enkelli:
   profiles:
     - service: tg
       id: '7258424423'
-      updated: 2025-09-01-12-29-45
+      updated: 2025-09-01-20-15-08
       accessHash: '969825927170686844'
       username: A2_Enkelli
       name: †† elli ††
-      avatar: store:/avatars/tg-5278327404932234283.jpg
+      avatar: store:/avatars/tg-5310200902696695630.jpg
 aarychagoff:
   profiles:
     - service: tg
@@ -794,7 +794,7 @@ brg1092:
   profiles:
     - service: tg
       id: '5867861906'
-      updated: 2025-09-01-19-11-30
+      updated: 2025-09-01-20-14-59
       accessHash: '4411929981434940281'
       username: brg1092
       name: 2𝜋
@@ -1762,7 +1762,7 @@ filavandrel-official:
   profiles:
     - service: vk
       id: '682643734'
-      updated: 2025-09-01-19-11-33
+      updated: 2025-09-01-20-15-02
       username: filavandrel_official
       name: Filavandrel Aén Fidháil
       avatar: store:/avatars/vk-dbbe470a.jpg
@@ -2548,7 +2548,7 @@ kawazaky223:
   profiles:
     - service: tg
       id: '5641856113'
-      updated: 2025-09-01-19-11-40
+      updated: 2025-09-01-20-15-13
       accessHash: '7421309771527577818'
       username: Kawazaky223
       name: Максим
@@ -3655,7 +3655,7 @@ palych:
   profiles:
     - service: vk
       id: '485933'
-      updated: 2025-09-01-19-11-34
+      updated: 2025-09-01-20-15-03
       username: palych
       name: Павел Красовский
       avatar: store:/avatars/vk-ee218ff0.jpg
@@ -4165,7 +4165,7 @@ sarudelsur:
   profiles:
     - service: tg
       id: '8446161342'
-      updated: 2025-09-01-01-16-48
+      updated: 2025-09-01-20-15-13
       accessHash: '-2612313514511119416'
       username: sarudelsur
       name: Hozu
@@ -4289,7 +4289,7 @@ sergey-churbanov:
   profiles:
     - service: vk
       id: '1060712354'
-      updated: 2025-09-01-14-14-22
+      updated: 2025-09-01-20-15-05
       username: id1060712354
       name: Сергей Чурбанов
       avatar: store:/avatars/vk-6499ce8d.jpg
