@@ -1762,7 +1762,7 @@ filavandrel-official:
   profiles:
     - service: vk
       id: '682643734'
-      updated: 2025-08-31-23-13-08
+      updated: 2025-09-01-01-16-47
       username: filavandrel_official
       name: Filavandrel Aén Fidháil
       avatar: store:/avatars/vk-dbbe470a.jpg
@@ -1959,7 +1959,7 @@ goosevich76:
   profiles:
     - service: tg
       id: '5385620621'
-      updated: 2025-08-31-23-13-09
+      updated: 2025-09-01-01-16-49
       accessHash: '-7130473396589324830'
       username: Goosevich78
       name: Ґузьйоувишщь
@@ -2548,7 +2548,7 @@ kawazaky223:
   profiles:
     - service: tg
       id: '5641856113'
-      updated: 2025-08-31-23-13-08
+      updated: 2025-09-01-01-16-49
       accessHash: '7421309771527577818'
       username: Kawazaky223
       name: Максим
@@ -3655,7 +3655,7 @@ palych:
   profiles:
     - service: vk
       id: '485933'
-      updated: 2025-08-31-23-13-10
+      updated: 2025-09-01-01-16-48
       username: palych
       name: Павел Красовский
       avatar: store:/avatars/vk-ee218ff0.jpg
@@ -4165,7 +4165,7 @@ sarudelsur:
   profiles:
     - service: tg
       id: '8446161342'
-      updated: 2025-08-31-20-14-51
+      updated: 2025-09-01-01-16-48
       accessHash: '-2612313514511119416'
       username: sarudelsur
       name: Hozu
