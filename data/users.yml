@@ -794,7 +794,7 @@ brg1092:
   profiles:
     - service: tg
       id: '5867861906'
-      updated: 2025-09-01-21-12-22
+      updated: 2025-09-01-22-13-31
       accessHash: '4411929981434940281'
       username: brg1092
       name: 2𝜋
@@ -1169,7 +1169,7 @@ darkness-rifho:
       deleted: true
     - service: tg
       id: '5704974271'
-      updated: 2025-09-01-19-11-40
+      updated: 2025-09-01-22-13-34
       accessHash: '3506423524566292179'
       username: C4H6O4
       name: Уна
@@ -1244,7 +1244,7 @@ dehero:
       avatar: store:/avatars/gh-c8afe641.jpg
     - service: vk
       id: '3652910'
-      updated: 2025-08-27-16-47-31
+      updated: 2025-09-01-22-13-35
       username: dehero
       name: Антон Курьянов
       avatar: store:/avatars/vk-5356f76e.jpg
@@ -1762,7 +1762,7 @@ filavandrel-official:
   profiles:
     - service: vk
       id: '682643734'
-      updated: 2025-09-01-21-12-25
+      updated: 2025-09-01-22-13-29
       username: filavandrel_official
       name: Filavandrel Aén Fidháil
       avatar: store:/avatars/vk-dbbe470a.jpg
@@ -1959,7 +1959,7 @@ goosevich76:
   profiles:
     - service: tg
       id: '5385620621'
-      updated: 2025-09-01-17-12-36
+      updated: 2025-09-01-22-13-34
       accessHash: '-7130473396589324830'
       username: Goosevich78
       name: Ґузьйоувишщь
@@ -2548,7 +2548,7 @@ kawazaky223:
   profiles:
     - service: tg
       id: '5641856113'
-      updated: 2025-09-01-21-12-25
+      updated: 2025-09-01-22-13-34
       accessHash: '7421309771527577818'
       username: Kawazaky223
       name: Максим
@@ -3047,6 +3047,15 @@ megachif1178896:
       username: xxxjuggernaut
       name: Максим Коротеев
       avatar: store:/avatars/vk-433a7a24.jpg
+methamar:
+  profiles:
+    - service: tg
+      id: '227628220'
+      updated: 2025-09-01-22-13-30
+      accessHash: '5119360306419431594'
+      username: methamar
+      name: эмбэ
+      avatar: store:/avatars/tg-977655761002932203.jpg
 meti-eris:
   profiles:
     - service: ig
@@ -3655,7 +3664,7 @@ palych:
   profiles:
     - service: vk
       id: '485933'
-      updated: 2025-09-01-21-12-26
+      updated: 2025-09-01-22-13-30
       username: palych
       name: Павел Красовский
       avatar: store:/avatars/vk-ee218ff0.jpg
@@ -4165,7 +4174,7 @@ sarudelsur:
   profiles:
     - service: tg
       id: '8446161342'
-      updated: 2025-09-01-20-15-13
+      updated: 2025-09-01-22-13-34
       accessHash: '-2612313514511119416'
       username: sarudelsur
       name: Hozu
@@ -5667,7 +5676,7 @@ yourenemieswillpay:
   profiles:
     - service: vk
       id: '154353264'
-      updated: 2025-08-27-16-35-09
+      updated: 2025-09-01-22-13-35
       username: yourenemieswillpay
       name: Кирилл Заречный
       avatar: store:/avatars/vk-a2026737.jpg
