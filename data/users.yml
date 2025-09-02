@@ -1955,6 +1955,14 @@ goblin-uk:
   profiles:
     - service: ig
       username: goblin.uk
+golden-morgan:
+  profiles:
+    - service: vk
+      id: '157461309'
+      updated: 2025-09-02-19-11-03
+      username: golden_morgan
+      name: Marco Polo
+      avatar: store:/avatars/vk-f7f43d22.jpg
 goosevich76:
   profiles:
     - service: tg
@@ -2548,7 +2556,7 @@ kawazaky223:
   profiles:
     - service: tg
       id: '5641856113'
-      updated: 2025-09-02-18-18-41
+      updated: 2025-09-02-19-10-59
       accessHash: '7421309771527577818'
       username: Kawazaky223
       name: Максим
@@ -2937,7 +2945,7 @@ maksim-kopytov:
   profiles:
     - service: vk
       id: '799521846'
-      updated: 2025-09-02-18-18-36
+      updated: 2025-09-02-19-11-00
       username: id799521846
       name: Максим Копытов
       avatar: store:/avatars/vk-0da189cf.jpg
@@ -4298,7 +4306,7 @@ sergey-churbanov:
   profiles:
     - service: vk
       id: '1060712354'
-      updated: 2025-09-02-18-18-35
+      updated: 2025-09-02-19-10-59
       username: id1060712354
       name: Сергей Чурбанов
       avatar: store:/avatars/vk-6499ce8d.jpg
