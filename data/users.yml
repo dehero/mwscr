@@ -512,7 +512,7 @@ arya-stark:
   profiles:
     - service: vk
       id: '820702664'
-      updated: 2025-08-31-08-17-16
+      updated: 2025-09-02-10-16-11
       username: id820702664
       name: Арья Старк
       avatar: store:/avatars/vk-689aa89d.jpg
@@ -794,7 +794,7 @@ brg1092:
   profiles:
     - service: tg
       id: '5867861906'
-      updated: 2025-09-02-09-16-04
+      updated: 2025-09-02-10-16-09
       accessHash: '4411929981434940281'
       username: brg1092
       name: 2𝜋
@@ -1762,7 +1762,7 @@ filavandrel-official:
   profiles:
     - service: vk
       id: '682643734'
-      updated: 2025-09-02-09-16-04
+      updated: 2025-09-02-10-16-09
       username: filavandrel_official
       name: Filavandrel Aén Fidháil
       avatar: store:/avatars/vk-dbbe470a.jpg
@@ -1959,7 +1959,7 @@ goosevich76:
   profiles:
     - service: tg
       id: '5385620621'
-      updated: 2025-09-01-22-13-34
+      updated: 2025-09-02-10-16-11
       accessHash: '-7130473396589324830'
       username: Goosevich78
       name: Ґузьйоувишщь
@@ -2548,7 +2548,7 @@ kawazaky223:
   profiles:
     - service: tg
       id: '5641856113'
-      updated: 2025-09-02-09-16-04
+      updated: 2025-09-02-10-16-11
       accessHash: '7421309771527577818'
       username: Kawazaky223
       name: Максим
@@ -2937,7 +2937,7 @@ maksim-kopytov:
   profiles:
     - service: vk
       id: '799521846'
-      updated: 2025-09-02-09-16-01
+      updated: 2025-09-02-10-16-07
       username: id799521846
       name: Максим Копытов
       avatar: store:/avatars/vk-0da189cf.jpg
@@ -3051,7 +3051,7 @@ methamar:
   profiles:
     - service: tg
       id: '227628220'
-      updated: 2025-09-02-09-16-04
+      updated: 2025-09-02-10-16-09
       accessHash: '5119360306419431594'
       username: methamar
       name: эмбэ
@@ -3664,7 +3664,7 @@ palych:
   profiles:
     - service: vk
       id: '485933'
-      updated: 2025-09-02-09-16-04
+      updated: 2025-09-02-10-16-10
       username: palych
       name: Павел Красовский
       avatar: store:/avatars/vk-ee218ff0.jpg
@@ -4174,7 +4174,7 @@ sarudelsur:
   profiles:
     - service: tg
       id: '8446161342'
-      updated: 2025-09-01-22-13-34
+      updated: 2025-09-02-10-16-10
       accessHash: '-2612313514511119416'
       username: sarudelsur
       name: Hozu
@@ -4298,7 +4298,7 @@ sergey-churbanov:
   profiles:
     - service: vk
       id: '1060712354'
-      updated: 2025-09-02-09-16-01
+      updated: 2025-09-02-10-16-06
       username: id1060712354
       name: Сергей Чурбанов
       avatar: store:/avatars/vk-6499ce8d.jpg
