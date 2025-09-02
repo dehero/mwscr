@@ -1,6 +1,5 @@
 import { VirtualContainer } from '@minht11/solid-virtual-container';
-import { type Component, Show } from 'solid-js';
-import { isJSXElementEmpty } from '../../utils/jsx-utils.js';
+import { type Component } from 'solid-js';
 import {
   POST_PREVIEW_GAP,
   POST_PREVIEW_INFO_MIN_HEIGHT,
@@ -9,10 +8,9 @@ import {
 } from '../PostPreview/PostPreview.jsx';
 import type { PostPreviewsProps } from './PostPreviews.jsx';
 import styles from './PostPreviews.module.css';
-import { Toolbar } from './Toolbar.jsx';
 
 const gap = 8;
-const padding = 4;
+const padding = 8;
 
 const calculateGridItemSize = (crossAxisSize: number) => {
   // Compensate column width rounding shift with container's right padding
@@ -31,9 +29,6 @@ export const VirtualPostPreviews: Component<PostPreviewsProps> = (props) => {
 
   return (
     <div class={styles.virtualContainerWrapper}>
-      <Show when={props.label || !isJSXElementEmpty(props.actions)}>
-        <Toolbar label={props.label} actions={props.actions} class={styles.virtualToolbar} />
-      </Show>
       <VirtualContainer
         items={props.postInfos}
         scrollTarget={props.scrollTarget || containerRef}
