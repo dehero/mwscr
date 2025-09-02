@@ -290,17 +290,9 @@ export const selectPostInfos = (
   };
 };
 
-export function selectPostInfosResultToString(count: number, params: SelectPostInfosParams, selected: number) {
+export function selectPostInfosResultToString(count: number, params: SelectPostInfosParams) {
   const result: string[] = [count.toString()];
   const sortOption = selectPostInfosSortOptions.find((comparator) => comparator.value === params.sortKey);
-
-  if (selected) {
-    if (selected === count) {
-      result.unshift('Selected all');
-    } else {
-      result.unshift(`Selected ${selected} of`);
-    }
-  }
 
   if (typeof params.original !== 'undefined') {
     result.push(params.original ? 'original' : 'reposted');

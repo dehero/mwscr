@@ -23,17 +23,71 @@
   grid-area: parameters;
 }
 
-.posts {
+.postsWrapper {
   grid-area: posts;
   display: flex;
   flex-flow: column nowrap;
-  gap: 8px;
+}
+
+.posts {
   /* Make scroller composited for faster scrolling,
     * the downside of that is that on lower
     * end devices Browser will scroll first and
     * then render DOM, making some content flash white.
     */
   will-change: transform;
+}
+
+.toolbar {
+  display: flex;
+  flex-flow: row wrap;
+  gap: 12px;
+  box-sizing: border-box;
+  overflow: hidden;
+  flex: 0 0 auto;
+  padding: 8px 12px;
+  min-height: 49px;
+  align-items: center;
+}
+
+.toolbarDivider {
+  margin: 0 12px;
+}
+
+.fieldset {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  gap: 4px;
+  padding: 0;
+  margin: 0;
+  border: none;
+}
+
+.selectedPosts {
+  display: flex;
+  flex-flow: row nowrap;
+  height: 32px;
+  margin: -4px 0;
+  gap: 2px;
+}
+
+.selectedPost {
+  max-width: 32px;
+}
+
+.sortDirectionRadioGroup {
+  flex-wrap: nowrap;
+}
+
+.postInfosLabel {
+  color: var(--color-text-light);
+  margin: 0;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  flex: 1 1 auto;
+  text-align: left;
 }
 
 @media only screen and (min-width: 812px) {

@@ -164,6 +164,20 @@ export class DataManager {
     return (await this.getAllPostInfos(managerName)).find((info) => info.id === id);
   }
 
+  async getPostInfos(managerName: PostsManagerName, id: string | string[]): Promise<PostInfo[] | undefined> {
+    const ids = new Set(asArray(id));
+
+    if (ids.size === 0) {
+      return undefined;
+    }
+
+    const infos = new Map(
+      (await this.getAllPostInfos(managerName)).filter((info) => ids.has(info.id)).map((info) => [info.id, info]),
+    );
+
+    return [...ids].map((id) => infos.get(id)).filter((info): info is PostInfo => typeof info !== 'undefined');
+  }
+
   async getTagInfos(id: string | string[]): Promise<TagInfo[] | undefined> {
     const ids = new Set(asArray(id));
 
