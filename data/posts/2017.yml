@@ -10522,7 +10522,7 @@
       id: DOEcgvTjFgK
       mediaId: '18397821478189401'
       published: 2025-09-01-18-20-24
-      updated: 2025-09-03-07-14-26
+      updated: 2025-09-03-08-19-09
       followers: 1583
       likes: 60
       comments: !c |-
@@ -10531,11 +10531,11 @@
     - service: vk
       id: 2617
       published: 2025-09-01-18-20-33
-      updated: 2025-09-03-07-14-27
+      updated: 2025-09-03-08-19-09
       followers: 1396
-      likes: 28
-      views: 171
-      reposts: 1
+      likes: 29
+      views: 175
+      reposts: 2
       comments: !c |-
         G0cBIJwHtg2/DPWQYgEz/azRP3Ex0j9+B3woRREFCdYknuwDSXUTIzwIg3DNeKGMdNZc5xYbI2Ry
         +s8MCps2WlDdFtNqEBkq515UhPVmqbflnQcSmH8UciIBJpbWjcLGQ5je8NE+tzRcEu6er1/o4f+j
@@ -10544,13 +10544,15 @@
     - service: tg
       id: 969
       published: 2025-09-01-18-20-39
-      updated: 2025-09-03-07-14-25
+      updated: 2025-09-03-08-19-10
       followers: 787
-      likes: 55
-      views: 228
+      likes: 57
+      views: 234
       comments: !c |-
-        G18A+I3EOBZyaE7YCSI9ST/ePHyRnhtvOrFlgiOc3OHUbc/ZYq2fJkFQTOmG33PREkWmsKa9ny+d
-        2UYRvat3X71O1fwzS6AhLDKC8XACDxnhsFEM4eLCPsIhePwgrFlmJg==
+        G80AACwO7DbWSzHYLlQvOD77oURE3Z7wxn+CQi3KrISaCJM9zOn2kKMxgtOLfkfLHdKLvDzo62Nr
+        SUFbdgWt1faBaGCFS8uE5WXTyRHfDgQBZlkLLLCQIsk+D5xjxVBFzPNcve6Pu+/nGM8eklSO3IrT
+        RsmF3XM5GDdFQ/527kluinZWqQfjs9FhkmpU1lwj3tOqzRhsv5D5ePlganJqeThoS1BU9MzUC83x
+        OizlAg==
 2017-09-01-the-last-refuge:
   title: The Last Refuge
   titleRu: Последнее прибежище
