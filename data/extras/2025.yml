@@ -29,7 +29,7 @@
     - service: vk
       id: 2016
       published: 2025-01-04-18-10-14
-      updated: 2025-08-27-16-47-29
+      updated: 2025-09-03-17-41-42
       followers: 1042
       likes: 57
       views: 455
@@ -42,7 +42,7 @@
         - 649
         - 650
       published: 2025-01-04-18-10-26
-      updated: 2025-08-27-16-47-27
+      updated: 2025-09-03-17-41-39
       followers: 644
       likes: 69
       views: 615
@@ -74,10 +74,10 @@
     - service: tg
       id: 796
       published: 2025-04-16-15-35-00
-      updated: 2025-08-27-16-47-25
+      updated: 2025-09-03-17-41-38
       followers: 720
       likes: 36
-      views: 535
+      views: 536
       comments: !c |-
         G90BwJwHdiwYYWYVDJ1n8f/4B4vwzesrZd5WAScRJueSpepmjMU9CFf6L5RtK2a33BVNykLcv4O7
         jWVZkuREN5equYsiKAzEIsb22ExV+LoTvf072AHw9h2SLAgokYMmFEKa6OdF6Q1vx0vUOFDC7vP1
@@ -87,10 +87,10 @@
     - service: vk
       id: 2281
       published: 2025-04-16-15-36-00
-      updated: 2025-08-27-16-47-27
+      updated: 2025-09-03-17-41-40
       followers: 1261
       likes: 58
-      views: 555
+      views: 559
       reposts: 1
       comments: !c |-
         G90B4JwJ8dYvIzQ7rvoJ0UN/o0+YplrNRFEggTcHenPQEd3BvtFtr4VGIgVSVl8X7Tfg91AZ1XGu
@@ -129,10 +129,10 @@
     - service: vk
       id: 2417
       published: 2025-06-02-11-38-59
-      updated: 2025-08-27-16-47-26
+      updated: 2025-09-03-17-41-39
       followers: 1315
       likes: 31
-      views: 388
+      views: 393
       comments: !c |-
         GxUHYCwLbLfFFEYjsEsv18a/J9n4f577+E2D0F2P/tRsgUQS2PdWoFFgrcjHfShNJ8bJAKHTNvD4
         XSdW3STnM9t2UpIt2w3R1Pe/m8wDeEnJ1E2xX+12KUt5niAKk3oyHVJTo9G+vQkp4n8tp+XcSZQF
@@ -150,10 +150,10 @@
     - service: tg
       id: 870
       published: 2025-06-02-11-39-00
-      updated: 2025-08-27-16-47-24
+      updated: 2025-09-03-17-41-37
       followers: 742
       likes: 21
-      views: 518
+      views: 521
       comments: !c |-
         G/4BAJwJdqyLgTvfYiL+H7lnn/DNW6CZZFnCWQG3tQgLzoX/rVnTQitjcKE6p/DR812sg1I3MTcr
         cRKj/n6BNaGswSisxxjUbfWhWfqNaeBAEDzcILdF0RputgOd6USnOtDheDR66C7RgDIvwYyi3SXp
@@ -195,19 +195,19 @@
     - service: vk
       id: 2423
       published: 2025-06-02-13-46-51
-      updated: 2025-08-27-16-47-24
+      updated: 2025-09-03-17-41-37
       followers: 1315
       likes: 30
-      views: 312
+      views: 317
     - service: tg
       id:
         - 871
         - 872
       published: 2025-06-02-14-03-54
-      updated: 2025-08-27-16-47-24
+      updated: 2025-09-03-17-41-37
       followers: 743
       likes: 64
-      views: 615
+      views: 620
       comments: !c iw2AkZPLQnlzHJ+tAACra2F3YXpha3kyMjOk8J+RjQM=
     - service: ig
       id: DKZzrNXu-ap
@@ -242,10 +242,10 @@
     - service: vk
       id: 2493
       published: 2025-07-01-11-15-23
-      updated: 2025-08-27-16-47-23
+      updated: 2025-09-03-17-41-36
       followers: 1333
       likes: 14
-      views: 365
+      views: 373
       comments: !c |-
         GwAEACyPd5kGmRgXNKCeeYjq8nH0vEzcMjNj/2STtkZOiaUlQUFQjpAgJEJhHOaeRGUTjbATkzci
         dMsIhbTCHv7f3xGq1lStC/2e+3yzPftvYlM0NgFSeXyNxianLSNcq3/+XDocDnmqUYBJnxZt+f6j
@@ -259,10 +259,10 @@
     - service: tg
       id: 902
       published: 2025-07-01-11-15-24
-      updated: 2025-08-27-16-47-23
+      updated: 2025-09-03-17-41-36
       followers: 760
       likes: 34
-      views: 653
+      views: 662
       comments: !c |-
         G+8AaCwOzHOXXCi5EHSUfheC/+8v/YTPtgotyaZZJuClFW5FI1DPJYtus+c6go53hYOhunYbxrRi
         qyK4MJkIb0Mexmzrlm4am6/XDKgbnIYBemAJjvMgtgU6yW5j64giHnedWs9mr2Qd3355XYs4cGNa
