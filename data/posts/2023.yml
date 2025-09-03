@@ -229,6 +229,19 @@
       comments: !c |-
         G18A4I2ULuJNRp5GLBqQiORCOjqn9QLSK8mY1gJ/sNT+mdxchgw5AQ8pTrG9VS8Yzp1cdFn6EzLT
         Mul5owpVVf4n2wiGnWHHiueRMy7ZV7qJ11k3YMWNa7WTEQ==
+    - service: ig
+      id: DOJmMF4jRTd
+      mediaId: '17922073773131202'
+      published: 2025-09-03-18-21-10
+      followers: 1582
+    - service: vk
+      id: 2629
+      published: 2025-09-03-18-21-16
+      followers: 1404
+    - service: tg
+      id: 971
+      published: 2025-09-03-18-21-19
+      followers: 788
 2023-08-01-stillness:
   title: Stillness
   titleRu: Спокойствие
@@ -581,16 +594,16 @@
       id: DN_Srr3ETir
       mediaId: '17858214702482296'
       published: 2025-08-30-18-18-21
-      updated: 2025-09-02-18-18-41
+      updated: 2025-09-03-18-20-18
       followers: 1582
       likes: 76
     - service: tg
       id: 967
       published: 2025-08-30-18-18-37
-      updated: 2025-09-02-18-18-40
+      updated: 2025-09-03-18-20-18
       followers: 785
       likes: 58
-      views: 245
+      views: 288
       comments: !c |-
         G5cA+I3EOBZyaH6kheCJP/VbRA8wY1I0oqt7Cjal8lggBZ/vsJa31LSgi0JX4o8g+glFVC94NkOx
         aRlswAmHAcPAMvBGtwrmHLSSble/9CY9dTDm0ctX+TbvbVzXO/6ST3u4tqc1Gi1/y3YUUp/1I7vM
