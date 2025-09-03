@@ -320,23 +320,33 @@
       id: DOHBLGejoKR
       mediaId: '18527167078031395'
       published: 2025-09-02-18-19-16
-      updated: 2025-09-02-23-12-31
+      updated: 2025-09-03-01-02-48
       followers: 1583
       likes: 40
     - service: vk
       id: 2621
       published: 2025-09-02-18-19-38
-      updated: 2025-09-02-23-12-28
+      updated: 2025-09-03-01-02-46
       followers: 1400
-      likes: 12
-      views: 62
+      likes: 15
+      views: 71
+      comments: !c |-
+        GyQFACwO7MbTWxHjiQ+Q6YbG/38crCjhN9580IhDbCJZ8ZVzVVoqATRrdExcxff66JZMUVXd1J1G
+        eLRqW8b+7GGgDaUAoieLSY0+xvfNFCFVfv2ZEw1YFBPUfbOhc3Prnw+Uo9dN1VotJQ5gJsb5ZAUt
+        1twa0qNPr1iqt5uYY4hE/+H7+z/v/f8PPP4+sycavbNCwI+nXw7cJHU6GJJFpS5qgczXKCGSBx9f
+        oLH6tUwfnSHCaZmTBeixLqDZENrPn2C1oEn1JErU22ZVzGAzpsBiJkyDkPDYRO/uVxSEooFSlyZ5
+        hiGCDyngktqqbgmze+G3Q2mvsABxDxKV+oKWPTvSCCY12CWYvC3hTXhuzKodDCUfJPDzX/GB9HYi
+        nTV6sjisn0NRLxQcZ668HR6NfWoBAZU27VGV4kcBBGMCwRp+NVw4e9O6IBiU2hOos9jEWTLq7Ez3
+        2E38CiUrOouokToXl0lqYmLdIEZKQI9PGK3kuzlJZEwzsAALPNZbl0QAhUWDqw2syEO/s0KMTRjX
+        jY08gUF7tjv4PWXiOrnWryOSIRrnlcLq3Z8rP0MGtEgu+3SXnDLlEdJYYZJBq0hUu0I4cmAD5tBk
+        llbgAmqjEqASqY/H3BOuVtUrybKsVQjRuwWeUFKr34FHowbdRKOuYyEIyDa72FZEe1YGkYbX53AG
     - service: tg
       id: 970
       published: 2025-09-02-18-19-42
-      updated: 2025-09-02-23-12-28
+      updated: 2025-09-03-01-02-43
       followers: 787
-      likes: 33
-      views: 121
+      likes: 35
+      views: 129
 2024-03-10-fortresss-face:
   title: Fortress's Face
   titleRu: Лицо крепости
