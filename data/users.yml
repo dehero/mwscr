@@ -496,7 +496,7 @@ artyom-melikhoff:
   profiles:
     - service: vk
       id: '299405149'
-      updated: 2025-09-03-18-20-14
+      updated: 2025-09-03-19-12-09
       username: artyom_melikhoff
       name: Артём Мелихов
       avatar: store:/avatars/vk-dd464f34.jpg
@@ -1643,7 +1643,7 @@ ellia-isard:
   profiles:
     - service: vk
       id: '215194827'
-      updated: 2025-09-03-18-20-14
+      updated: 2025-09-03-19-12-08
       username: ellia_isard
       name: Эллия Айсард
       avatar: store:/avatars/vk-4aa5204c.jpg
@@ -2564,7 +2564,7 @@ kawazaky223:
   profiles:
     - service: tg
       id: '5641856113'
-      updated: 2025-09-03-18-20-19
+      updated: 2025-09-03-19-12-07
       accessHash: '7421309771527577818'
       username: Kawazaky223
       name: Максим
@@ -2945,7 +2945,7 @@ maks-perunov:
   profiles:
     - service: vk
       id: '35868942'
-      updated: 2025-09-03-18-20-14
+      updated: 2025-09-03-19-12-08
       username: id35868942
       name: Макс Перунов
       avatar: store:/avatars/vk-3bb92045.jpg
@@ -4845,6 +4845,16 @@ theclockworkgod:
       username: theclockworkgod
       name: The Clockwork God
       avatar: store:/avatars/ig-cd7d75ff.jpg
+thedrongo7:
+  profiles:
+    - service: tg
+      id: '149400692'
+      updated: 2025-09-03-19-12-15
+      accessHash: '5348913575804649535'
+      username: Thedrongo7
+      botChatId: 149400692
+      name: しぶき 🥀🥀🥀
+      avatar: store:/avatars/tg-641671086596007856.jpg
 theeaglethesun:
   profiles:
     - service: tg
