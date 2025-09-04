@@ -69,10 +69,10 @@
     - service: tg
       id: 905
       published: 2025-07-02-18-24-07
-      updated: 2025-08-28-05-14-45
+      updated: 2025-09-04-06-21-01
       followers: 760
       likes: 69
-      views: 571
+      views: 579
       comments: !c |-
         GzwBICyOx+2nFLWNo94R//xzsuFsoF93zs5Ug0TCuASCMLGS+zBtWyUVwVC9eYOhvxnrQ7aNb/1L
         MqfbBF8QXKZoKOjmYteYFgRFRLCI8rf+mO8GRxoQh+s2TzLrGODAGy4yuMkKG2SzJu63x/O35r7d
@@ -233,26 +233,26 @@
       id: DOJmMF4jRTd
       mediaId: '17922073773131202'
       published: 2025-09-03-18-21-10
-      updated: 2025-09-04-05-13-53
+      updated: 2025-09-04-06-21-01
       followers: 1582
-      likes: 42
+      likes: 46
     - service: vk
       id: 2629
       published: 2025-09-03-18-21-16
-      updated: 2025-09-04-05-13-54
+      updated: 2025-09-04-06-21-01
       followers: 1404
-      likes: 9
-      views: 123
+      likes: 10
+      views: 137
       comments: !c |-
         Cy+AkZPLQnmRFaD7gACwc2VyZ2V5LWNodXJiYW5vdtlB0K3RjdC5KSDQt9C00LDRgNC+0LLQsCEg
         0JrQsNC6INGA0L7QtNC90LjQuj8gINCYINC30LDQvdCw0YfQutCwKS4D
     - service: tg
       id: 971
       published: 2025-09-03-18-21-19
-      updated: 2025-09-04-05-13-51
+      updated: 2025-09-04-06-20-57
       followers: 788
-      likes: 41
-      views: 127
+      likes: 42
+      views: 130
 2023-08-01-stillness:
   title: Stillness
   titleRu: Спокойствие
