@@ -93,9 +93,8 @@ rachille.2024-06-25-dark-sanctuary-of-dark:
   description: '[Original post in Tumblr](https://rachilleart.tumblr.com/post/754270188615188480)'
   descriptionRu: '[Оригинальный пост в Tumblr](https://rachilleart.tumblr.com/post/754270188615188480)'
   placement: Indoors
-  content:
-    - store:/inbox/2024-06-25-dark-sanctuary-of-dark.png
-    - store:/shots/2018-05-09-dark-sanctuary-of-dark.png
+  content: store:/shots/2018-05-09-dark-sanctuary-of-dark.png
+  trash: store:/inbox/2024-06-25-dark-sanctuary-of-dark.png
   type: redrawing
   author:
     - rachille
