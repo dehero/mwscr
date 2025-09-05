@@ -1,6 +1,17 @@
 import clsx from 'clsx';
 import type { Component } from 'solid-js';
-import { createMemo, createResource, createSignal, createUniqueId, For, mergeProps, Show, splitProps } from 'solid-js';
+import {
+  createEffect,
+  createMemo,
+  createResource,
+  createSignal,
+  createUniqueId,
+  For,
+  mergeProps,
+  Show,
+  splitProps,
+  untrack,
+} from 'solid-js';
 import type { InferOutput } from 'valibot';
 import { picklist } from 'valibot';
 import type { Option } from '../../../core/entities/option.js';
@@ -12,6 +23,7 @@ import {
   mergeAuthors,
   mergePostLocations,
   mergePostTags,
+  mergePostWith,
   PostAddon,
   postAddonDescriptors,
   PostEngine,
@@ -22,11 +34,13 @@ import {
   PostViolation,
   postViolationDescriptors,
 } from '../../../core/entities/post.js';
-import { createPostPath } from '../../../core/entities/posts-manager.js';
+import { createPostPath, parsePostPath } from '../../../core/entities/posts-manager.js';
+import { USER_UNKNOWN } from '../../../core/entities/user.js';
 import { createIssueUrl as createEditIssueUrl } from '../../../core/github-issues/post-editing.js';
 import { createIssueUrl as createLocateIssueUrl } from '../../../core/github-issues/post-location.js';
 import { email } from '../../../core/services/email.js';
 import { asArray, listItems } from '../../../core/utils/common-utils.js';
+import { dateToString } from '../../../core/utils/date-utils.js';
 import { dataManager } from '../../data-managers/manager.js';
 import { Button } from '../Button/Button.jsx';
 import { DatePicker } from '../DatePicker/DatePicker.jsx';
@@ -43,17 +57,17 @@ import styles from './PostDialog.module.css';
 export const PostDialogPreset = picklist(['edit', 'locate', 'precise']);
 export type PostDialogPreset = InferOutput<typeof PostDialogPreset>;
 
-export type PostDialogFeature = 'useColumnLayout' | 'previewContent';
+export type PostDialogFeature = 'useColumnLayout' | 'previewContent' | 'addContent';
 
 export interface PostDialogPresetDescriptor {
-  title: string;
+  title: (props: PostDialogProps) => string;
   fields: Array<keyof Post>;
   features: PostDialogFeature[];
 }
 
 export const postDialogPresetDescriptors = Object.freeze<Record<PostDialogPreset, PostDialogPresetDescriptor>>({
   edit: {
-    title: 'Edit Post',
+    title: (props) => (props.id ? 'Edit Post' : 'Create Draft'),
     fields: [
       'content',
       'snapshot',
@@ -74,11 +88,11 @@ export const postDialogPresetDescriptors = Object.freeze<Record<PostDialogPreset
       'request',
       'created',
     ],
-    features: ['useColumnLayout'],
+    features: ['useColumnLayout', 'addContent'],
   },
-  locate: { title: 'Locate Post', fields: ['location', 'placement'], features: ['previewContent'] },
+  locate: { title: () => 'Locate Post', fields: ['location', 'placement'], features: ['previewContent'] },
   precise: {
-    title: 'Precise Post',
+    title: () => 'Precise Post',
     fields: [
       'title',
       'titleRu',
@@ -116,6 +130,10 @@ async function getUserOptions(): Promise<Option[]> {
 export interface PostDialogProps extends Omit<DialogProps, 'title'> {
   id?: string;
   managerName?: string;
+  mergeWith?: string | string[];
+  type?: PostType;
+  mark?: PostMark;
+  trash?: PostContent;
   preset?: PostDialogPreset;
 }
 
@@ -123,6 +141,7 @@ export const PostDialog: Component<PostDialogProps> = (props) => {
   const [local, rest] = splitProps(mergeProps({ preset: 'edit' } as const, props), [
     'id',
     'managerName',
+    'mergeWith',
     'preset',
     'show',
   ]);
@@ -131,8 +150,26 @@ export const PostDialog: Component<PostDialogProps> = (props) => {
   const manager = () => (props.managerName ? dataManager.findPostsManager(props.managerName) : undefined);
 
   const [postEntry] = createResource(
-    () => (props.show && props.id ? props.id : undefined),
-    (id) => manager()?.getEntry(id),
+    () => (props.show ? { id: props.id } : undefined),
+    ({ id }) => (id ? manager()?.getEntry(id) : undefined),
+  );
+
+  const [mergeWithEntries] = createResource(
+    () => (props.show && props.mergeWith ? props.mergeWith : undefined),
+    (mergeWith) => {
+      const paths = asArray(mergeWith);
+      return Promise.all(
+        paths.map((path) => {
+          const { managerName, id } = parsePostPath(path);
+          if (!managerName || !id) {
+            return undefined;
+          }
+          const manager = dataManager.findPostsManager(managerName);
+
+          return manager?.getEntry(id);
+        }),
+      );
+    },
   );
 
   const [patch, setPatch] = createSignal<Patch<Post>>({});
@@ -149,6 +186,37 @@ export const PostDialog: Component<PostDialogProps> = (props) => {
     return post;
   });
 
+  createEffect(() => {
+    const entries = mergeWithEntries();
+    if (!entries) {
+      return;
+    }
+
+    const currentPost = untrack(() => post());
+
+    for (const entry of entries) {
+      if (!entry?.[1]) {
+        continue;
+      }
+
+      mergePostWith(currentPost, entry[1]);
+    }
+
+    setPatch(currentPost);
+  });
+
+  createEffect(() => {
+    const values = props;
+
+    for (const key of ['type', 'mark', 'trash'] as const) {
+      const value = values[key];
+      if (typeof value === 'undefined') {
+        continue;
+      }
+      setPatchField(key, value);
+    }
+  });
+
   const setPatchField = <TField extends keyof Patch<Post>>(field: TField, value: Patch<Post>[TField]) => {
     let newValue: Patch<Post>[TField] | null = value;
 
@@ -162,7 +230,7 @@ export const PostDialog: Component<PostDialogProps> = (props) => {
   const [submitVariant, setSubmitVariant] = createSignal<'patch' | 'github-issue' | 'email'>('patch');
   const submitButtonProps = createMemo(() => {
     const entry = postEntry();
-    const targetId = entry?.[3] ?? entry?.[0];
+    const targetId = entry?.[3] ?? entry?.[0] ?? `${USER_UNKNOWN}.${dateToString(new Date(), true)}`;
     const variant = submitVariant();
 
     if (!manager() || !targetId) {
@@ -172,7 +240,7 @@ export const PostDialog: Component<PostDialogProps> = (props) => {
     switch (variant) {
       case 'patch': {
         return {
-          onClick: () => manager()?.mergePatch({ [targetId]: patch() }),
+          onClick: () => manager()?.mergePatch({ [targetId]: post() }),
         };
       }
 
@@ -284,9 +352,11 @@ export const PostDialog: Component<PostDialogProps> = (props) => {
   );
 
   const loadingResources = () =>
-    [postEntry.loading && 'Post', locationOptions.loading && 'Locations', userOptions.loading && 'Members'].filter(
-      (value): value is string => typeof value === 'string',
-    );
+    [
+      (postEntry.loading || mergeWithEntries.loading) && 'Post',
+      locationOptions.loading && 'Locations',
+      userOptions.loading && 'Members',
+    ].filter((value): value is string => typeof value === 'string');
 
   return (
     <>
@@ -296,7 +366,7 @@ export const PostDialog: Component<PostDialogProps> = (props) => {
         loading
       />
       <Dialog
-        title={preset().title}
+        title={preset().title(props)}
         show={props.show && loadingResources().length === 0}
         {...rest}
         actions={[

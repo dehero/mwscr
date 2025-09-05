@@ -4,7 +4,6 @@ import { createMemo, createResource, createSignal, Show } from 'solid-js';
 import { navigate } from 'vike/client/router';
 import { PostViolation, postViolationDescriptors } from '../../../core/entities/post.js';
 import type { PostInfo } from '../../../core/entities/post-info.js';
-import { createPostPath } from '../../../core/entities/posts-manager.js';
 import type { TopicInfo } from '../../../core/entities/topic-info.js';
 import { USER_UNKNOWN } from '../../../core/entities/user.js';
 import { createIssueUrl as createProposalIssueUrl } from '../../../core/github-issues/post-proposal.js';
@@ -21,15 +20,12 @@ import {
   type DetachedDialog,
 } from '../DetachedDialogsProvider/DetachedDialogsProvider.jsx';
 import { Dialog } from '../Dialog/Dialog.js';
-import { Frame } from '../Frame/Frame.jsx';
 import { Input } from '../Input/Input.jsx';
-import { PostTooltip } from '../PostTooltip/PostTooltip.jsx';
-import { ProgressBar } from '../ProgressBar/ProgressBar.jsx';
 import { Select } from '../Select/Select.jsx';
 import { Table } from '../Table/Table.jsx';
 import { useToaster } from '../Toaster/Toaster.jsx';
-import { Tooltip } from '../Tooltip/Tooltip.jsx';
 import { TopicTooltip } from '../TopicTooltip/TopicTooltip.jsx';
+import { UploadReportDialog } from '../UploadReportDialog/UploadReportDialog.jsx';
 import styles from './PostProposalDialog.module.css';
 
 interface UploadReportItem {
@@ -117,7 +113,6 @@ export const PostProposalDialog: DetachedDialog = (props) => {
   const [uploadReport, setUploadReport] = createSignal<UploadReportItem[]>([]);
   const updateUploadReportItem = (index: number, update: Partial<UploadReportItem>) =>
     setUploadReport((report) => report.map((item, i) => ({ ...item, ...(index === i ? update : item) })));
-  const processedUploadsCount = () => uploadReport().reduce((acc, item) => acc + (item.status ? 1 : 0), 0);
 
   const processUploadFiles = async (items: UploadFile[]) => {
     if (items.length === 0) {
@@ -273,52 +268,10 @@ export const PostProposalDialog: DetachedDialog = (props) => {
 
   return (
     <>
-      <Dialog
-        show={uploadReport().length > 0}
-        modal
-        onClose={handleClose}
-        actions={
-          <Button onClick={handleClose}>
-            {processedUploadsCount() < uploadReport().length ? 'Stop Uploading' : 'OK'}
-          </Button>
-        }
-      >
-        <p class={styles.progressText}>
-          Processed {processedUploadsCount()} of {uploadReport().length} files
-        </p>
+      <UploadReportDialog show={uploadReport().length > 0} uploadReport={uploadReport()} onClose={handleClose} />
 
-        <ProgressBar value={processedUploadsCount()} maximum={uploadReport().length} class={styles.progressBar} />
-
-        <Frame class={styles.uploadReport}>
-          <Table
-            label="File"
-            value="Status"
-            class={styles.progressTable}
-            rows={uploadReport().map((item) => ({
-              label: item.name,
-              value: item.status ?? 'Pending',
-              tooltip: (forRef) =>
-                item.postInfo ? (
-                  <PostTooltip postInfo={item.postInfo} forRef={forRef} />
-                ) : item.errors.length > 0 ? (
-                  <Tooltip class={styles.uploadTooltip} forRef={forRef}>
-                    {item.errors.join('\n\n')}
-                  </Tooltip>
-                ) : undefined,
-              link: item.postInfo
-                ? createDetachedDialogFragment(
-                    'post-editing',
-                    createPostPath(item.postInfo.managerName, item.postInfo.id),
-                  )
-                : undefined,
-            }))}
-            showEmptyValueRows
-            shrink="label"
-          />
-        </Frame>
-      </Dialog>
       <Dialog
-        title="Submit Your Works"
+        title="Submit Files"
         modal
         {...props}
         show={props.show && uploadReport().length === 0}

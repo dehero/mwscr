@@ -31,29 +31,6 @@
   flex: 0 0 auto;
 }
 
-.progressText {
-  text-align: center;
-  margin: 0 0 8px 0;
-}
-
-.progressBar {
-  margin: 0 0 12px 0;
-}
-
-.progressTable {
-  width: 360px;
-  max-width: 100%;
-}
-
-.uploadReport {
-  padding: 6px 8px;
-}
-
-.uploadTooltip {
-  width: 300px;
-  overflow-wrap: anywhere;
-}
-
 @media only screen and (min-width: 512px) {
   .container {
     flex-flow: row nowrap;

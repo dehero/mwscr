@@ -167,6 +167,12 @@ export const PostsPage = (): JSX.Element => {
               </Show>
             </fieldset>
           </Show>
+          <Show when={postActions().includes('create')}>
+            <fieldset class={styles.fieldset}>
+              <Button href={createDetachedDialogFragment('post-editing', 'drafts')}>Create Draft</Button>
+              <Button href={createDetachedDialogFragment('post-proposal')}>Submit Files</Button>
+            </fieldset>
+          </Show>
           <Show when={parameters.preset()}>
             <Button href={postsRoute.createUrl({ managerName: params().managerName })}>Reset Options</Button>
           </Show>
@@ -179,7 +185,11 @@ export const PostsPage = (): JSX.Element => {
                 scrollTarget={postsScrollTarget()}
                 postInfos={postInfos().items}
                 selected={selected()}
-                onSelectedChange={postActions().includes('merge') ? handleSelectedChange : undefined}
+                onSelectedChange={
+                  postActions().includes('merge') || postActions().includes('compile')
+                    ? handleSelectedChange
+                    : undefined
+                }
               />
             </div>
           )}

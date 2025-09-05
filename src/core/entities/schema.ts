@@ -113,7 +113,7 @@ function validbotIssuesToMessages(issues: BaseIssue<unknown>[], path?: BaseIssue
 
   for (const issue of outputIssues) {
     messages.add(
-      `${getFieldTitleFromPath(issue.path ?? path)} ${uncapitalizeFirstLetter(
+      `${getFieldTitleFromPath(issue.path ?? path) ?? 'field'} ${uncapitalizeFirstLetter(
         issue.message,
       )}, got ${uncapitalizeFirstLetter(issue.received)}`,
     );

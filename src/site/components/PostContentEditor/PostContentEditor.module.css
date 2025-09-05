@@ -7,6 +7,14 @@
   grid-column: span 2;
 }
 
+.toolbar {
+  grid-column: span 2;
+  display: flex;
+  flex-flow: row nowrap;
+  gap: 8px;
+  align-items: center;
+}
+
 .list {
   display: flex;
   flex-flow: row wrap;
@@ -39,4 +47,11 @@
 
 .preview {
   max-height: 84px;
+}
+
+.linksText {
+  width: 300px;
+  max-width: 100%;
+  white-space: pre;
+  overflow-wrap: normal;
 }

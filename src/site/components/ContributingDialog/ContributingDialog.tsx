@@ -55,8 +55,25 @@ export const ContributingDialog: DetachedDialog<ContributingDialogTab> = (props)
                   <Icon color="stealth" class={styles.variantIcon}>
                     S
                   </Icon>
-                  <p class={styles.variantTitle}>Submit Your Works</p>
+                  <p class={styles.variantTitle}>Submit Files</p>
                   <p class={styles.variantDescription}>Add your screenshots, drawings or videos to Drafts.</p>
+                </Frame>
+
+                <Frame
+                  component="a"
+                  href={
+                    postsRoute.createUrl({ managerName: 'posts', type: 'shot', original: 'true' }) +
+                    createDetachedDialogFragment('topic', 'creating-compilation')
+                  }
+                  onClick={props.onClose}
+                  variant="thin"
+                  class={styles.variant}
+                >
+                  <Icon color="stealth" class={styles.variantIcon}>
+                    C
+                  </Icon>
+                  <p class={styles.variantTitle}>Create Compilation</p>
+                  <p class={styles.variantDescription}>Combine published shots into your own compilation.</p>
                 </Frame>
 
                 <Frame
