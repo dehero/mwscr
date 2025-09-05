@@ -19,7 +19,7 @@
       id: DEaci7aTwYz
       mediaId: '18028131065547889'
       published: 2025-01-04-18-10-03
-      updated: 2025-08-29-08-43-57
+      updated: 2025-09-05-09-45-01
       followers: 1522
       likes: 178
       views: 818
@@ -213,7 +213,7 @@
       id: DKZzrNXu-ap
       mediaId: '18307423723240522'
       published: 2025-06-02-15-21-18
-      updated: 2025-08-29-08-43-54
+      updated: 2025-09-05-09-44-58
       followers: 1551
       likes: 91
       comments: !c |-
@@ -295,19 +295,19 @@
       id: DN5kVpZEafB
       mediaId: '17953417007859360'
       published: 2025-08-28-12-57-10
-      updated: 2025-09-03-14-14-46
+      updated: 2025-09-05-09-44-55
       followers: 1580
-      likes: 135
+      likes: 136
       comments: !c |-
         iyqAkpPLQnmPUUTIgACzenVyYXdza2lhbmRyemVqODkwMLJOaWNlIGRyaXAgTXV0aHNlcmGTy0J5
         jxrmFQAArWNoZW1pY2FsdGFpbnSrQlVHIFNISUVMRCED
     - service: vk
       id: 2609
       published: 2025-08-28-12-57-16
-      updated: 2025-09-03-14-14-45
+      updated: 2025-09-05-09-44-53
       followers: 1383
       likes: 27
-      views: 432
+      views: 438
       reposts: 1
       comments: !c |-
         G30AaMWKtX2KH8pPF09JDNWq3iHT1KbrXqQ0wCEn4F9mEWUWBCSBQ26nMxdl/YynT6M85OUFwyyt
@@ -318,10 +318,10 @@
         - 963
         - 964
       published: 2025-08-28-12-57-21
-      updated: 2025-09-03-14-14-46
+      updated: 2025-09-05-09-44-59
       followers: 781
-      likes: 51
-      views: 346
+      likes: 53
+      views: 381
       comments: !c |-
         G9AAmCwO7GYvj2Bwvf8sUYnnw9sIbxhieBxxNLFGmLwvEgQ1N0KOpuIMFcHwk3Exu67NDqQtsAxC
         DeTurK2tRa/86raYXhZtbciv8qNgkVuzrVgzpG5wooFxmEDAUBjaOGzAQWbbxKMuNF2t9WZufN9s
@@ -349,14 +349,27 @@
       id: DOLMistETzn
       mediaId: '17967116450955441'
       published: 2025-09-04-09-15-00
+      updated: 2025-09-05-09-44-54
       followers: 1583
+      likes: 40
+      comments: !c |-
+        G6gAQKwOePNaFJxMwTdl8/S1alxqWncR/iBJIJUFCXz9W23fvkXWAm+RB1QDBLVRKqTVBAE0T7cT
+        jMwro3LKAXstaQn1+YHwIHcbO1/JEVKQ9Fi/bMUx7qTWh6r8YPCQidQwxiiHZigkgDmpmm6kKxV3
+        WLpM+zUMuiTpuki8IqsRiCmdcs6goK+xRHs=
     - service: vk
       id: 2631
       published: 2025-09-04-09-15-00
+      updated: 2025-09-05-09-44-53
       followers: 1404
+      likes: 12
+      views: 276
     - service: tg
       id:
         - 972
         - 973
       published: 2025-09-04-09-15-00
+      updated: 2025-09-05-09-44-53
       followers: 787
+      likes: 44
+      views: 183
+      comments: !c iwuAkZPLQnmRXeJMAACra2F3YXpha3kyMjOgAw==
