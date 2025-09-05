@@ -556,18 +556,26 @@ export function mergeAuthors(author1: PostAuthor | undefined, author2?: PostAuth
   return result.length > 0 ? (result.length === 1 ? result[0] : result) : undefined;
 }
 
-export function mergePostContents(content1: PostContent | undefined, content2?: PostContent | undefined) {
-  const result = [...asArray(content1)];
+export function mergePostContents(
+  content1: PostContent | undefined,
+  content2?: PostContent | undefined,
+  exclude?: boolean,
+) {
+  const urls1 = new Set([...asArray(content1)]);
   const urls2 = asArray(content2);
 
   for (const url2 of urls2) {
     if (url2 === RESOURCE_MISSING_IMAGE || url2 === RESOURCE_MISSING_VIDEO) {
       continue;
     }
-    if (!result.includes(url2)) {
-      result.push(url2);
+    if (exclude) {
+      urls1.delete(url2);
+    } else {
+      urls1.add(url2);
     }
   }
+
+  const result = [...urls1.values()];
 
   return result.length > 0 ? (result.length === 1 ? result[0] : result) : undefined;
 }
