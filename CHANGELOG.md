@@ -2,6 +2,15 @@
 
 All notable changes to this project will be documented in this file.
 
+## [2.4.0](https://github.com/dehero/mwscr/compare/v2.3.0...v2.4.0) (2025-09-05)
+
+### Features
+
+- **site:** implement creating drafts and compilations
+  ([ab5c3b6](https://github.com/dehero/mwscr/commit/ab5c3b6260619ee3754a25cd8e1e65db555830f9))
+- **site:** show selected posts on posts page toolbar
+  ([2aa6fac](https://github.com/dehero/mwscr/commit/2aa6facdc95d64fe9371f9a616dc24d6c02a210f))
+
 ## [2.3.0](https://github.com/dehero/mwscr/compare/v2.2.0...v2.3.0) (2025-08-28)
 
 ### Features
