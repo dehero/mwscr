@@ -398,7 +398,7 @@ anonim:
   profiles:
     - service: tg
       id: '6469120788'
-      updated: 2025-09-06-21-16-30
+      updated: 2025-09-06-22-16-52
       accessHash: '-3557204299452739678'
       name: Аноним
       avatar: store:/avatars/tg-5208766741671439632.jpg
@@ -1770,7 +1770,7 @@ filavandrel-official:
   profiles:
     - service: vk
       id: '682643734'
-      updated: 2025-09-06-09-17-58
+      updated: 2025-09-06-22-16-54
       username: filavandrel_official
       name: Filavandrel Aén Fidháil
       avatar: store:/avatars/vk-dbbe470a.jpg
@@ -1975,7 +1975,7 @@ goosevich76:
   profiles:
     - service: tg
       id: '5385620621'
-      updated: 2025-09-06-21-16-30
+      updated: 2025-09-06-22-16-52
       accessHash: '-7130473396589324830'
       username: Goosevich78
       name: Ґузьйоувишщь
@@ -2568,7 +2568,7 @@ kawazaky223:
   profiles:
     - service: tg
       id: '5641856113'
-      updated: 2025-09-06-21-16-30
+      updated: 2025-09-06-22-16-53
       accessHash: '7421309771527577818'
       username: Kawazaky223
       name: Максим
@@ -3167,7 +3167,7 @@ mister-purrfect:
   profiles:
     - service: vk
       id: '872831147'
-      updated: 2025-09-03-17-19-37
+      updated: 2025-09-06-22-16-53
       username: id872831147
       name: Mister Purrfect
       avatar: store:/avatars/vk-d502311b.jpg
@@ -3604,7 +3604,7 @@ olmer-izdeyla:
   profiles:
     - service: tg
       id: '835160756'
-      updated: 2025-09-06-21-16-29
+      updated: 2025-09-06-22-16-52
       accessHash: '5779481472375422362'
       username: Olmer_Izdeyla
       name: Olmer Izdeyla
@@ -4194,7 +4194,7 @@ sarudelsur:
   profiles:
     - service: tg
       id: '8446161342'
-      updated: 2025-09-06-21-16-28
+      updated: 2025-09-06-22-16-50
       accessHash: '-2612313514511119416'
       username: sarudelsur
       name: Hozu
@@ -4318,7 +4318,7 @@ sergey-churbanov:
   profiles:
     - service: vk
       id: '1060712354'
-      updated: 2025-09-06-18-24-30
+      updated: 2025-09-06-22-16-54
       username: id1060712354
       name: Сергей Чурбанов
       avatar: store:/avatars/vk-6499ce8d.jpg
@@ -5686,6 +5686,14 @@ yasindr-a:
       updated: 2025-06-27-14-12-18
       username: yasindr.a
       avatar: store:/avatars/ig-5e87f9d0.jpg
+yellow-submarine:
+  profiles:
+    - service: vk
+      id: '21865013'
+      updated: 2025-09-06-22-16-56
+      username: id21865013
+      name: Yellow Submarine
+      avatar: store:/avatars/vk-0251fbbd.jpg
 yoshi-23ii:
   profiles:
     - service: ig
