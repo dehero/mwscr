@@ -320,16 +320,17 @@
       id: DOHBLGejoKR
       mediaId: '18527167078031395'
       published: 2025-09-02-18-19-16
-      updated: 2025-09-06-13-20-50
+      updated: 2025-09-07-13-21-52
       followers: 1583
       likes: 59
     - service: vk
       id: 2621
       published: 2025-09-02-18-19-38
-      updated: 2025-09-06-13-20-52
+      updated: 2025-09-07-13-21-55
       followers: 1400
-      likes: 46
-      views: 579
+      likes: 50
+      views: 607
+      reposts: 1
       comments: !c |-
         G2YNACwPbDeIhUFkO+Iouu0dLsFEUS3L9wR3HHqzP8HfSMEFiKhFCjHgLECecJtFuLR3+n5AcQna
         G/ZVuUS2vHQU1f7/vrVsZoF3Eg9sBZqZ+5btb8CdQOKAAwsoq6a837a5vEMISdQMtaCxZiaIwmSW
@@ -355,10 +356,10 @@
     - service: tg
       id: 970
       published: 2025-09-02-18-19-42
-      updated: 2025-09-06-13-20-52
+      updated: 2025-09-07-13-21-56
       followers: 787
       likes: 55
-      views: 275
+      views: 304
       comments: !c iw2AkZPLQnmRBMNbAACra2F3YXpha3kyMjOk8J+nlAM=
 2024-03-10-fortresss-face:
   title: Fortress's Face
@@ -1059,21 +1060,21 @@
       id: DOOwgH0jXP3
       mediaId: '18066362639221855'
       published: 2025-09-05-18-27-30
-      updated: 2025-09-07-12-36-25
+      updated: 2025-09-07-13-21-51
       followers: 1584
-      likes: 69
+      likes: 70
     - service: vk
       id: 2634
       published: 2025-09-05-18-27-38
-      updated: 2025-09-07-12-36-19
+      updated: 2025-09-07-13-21-49
       followers: 1406
       likes: 21
-      views: 161
+      views: 164
       reposts: 2
     - service: tg
       id: 974
       published: 2025-09-05-18-27-44
-      updated: 2025-09-07-12-36-25
+      updated: 2025-09-07-13-21-55
       followers: 789
       likes: 55
       views: 222
