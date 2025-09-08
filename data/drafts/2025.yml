@@ -103,17 +103,25 @@ dehero.2025-06-01-15-17-14:
   type: shot
   author: dehero
 dehero.2025-06-01-15-22-03:
+  placement: Indoors
+  location: Aralen Ancestral Tomb
   content:
     - store:/inbox/dehero.2025-06-01-15-22-03.png
     - store:/inbox/dehero.2025-06-01-15-23-01.png
     - store:/inbox/dehero.2025-06-01-15-22-17.png
   type: shot
   author: dehero
+  engine: OpenMW
 dehero.2025-06-01-15-28-59:
+  placement: Outdoors
+  location: Molag Amur Region
   content: store:/inbox/dehero.2025-06-01-15-28-59.png
   type: shot
   author: dehero
+  engine: OpenMW
 dehero.2025-06-01-15-29-38:
+  placement: Outdoors
+  location: Mababi
   content:
     - store:/inbox/dehero.2025-06-01-15-29-38.png
     - store:/inbox/dehero.2025-06-01-15-30-44.png
@@ -121,14 +129,20 @@ dehero.2025-06-01-15-29-38:
     - store:/inbox/dehero.2025-06-01-15-30-13.png
   type: shot
   author: dehero
+  engine: OpenMW
 dehero.2025-06-04-19-35-19:
+  placement: Indoors
+  location: Panat
   content:
     - store:/inbox/dehero.2025-06-04-19-35-19.png
     - store:/inbox/dehero.2025-06-04-19-35-57.png
     - store:/inbox/dehero.2025-06-04-19-36-32.png
   type: shot
   author: dehero
+  engine: OpenMW
 dehero.2025-06-04-19-39-55:
+  placement: Indoors
+  location: Panat
   content:
     - store:/inbox/dehero.2025-06-04-19-39-55.png
     - store:/inbox/dehero.2025-06-04-19-40-36.png
@@ -137,19 +151,28 @@ dehero.2025-06-04-19-39-55:
   type: shot
   author: dehero
 dehero.2025-06-04-19-42-46:
+  placement: Indoors
+  location: Panat
   content:
     - store:/inbox/dehero.2025-06-04-19-42-46.png
     - store:/inbox/dehero.2025-06-04-19-43-22.png
   type: shot
   author: dehero
 dehero.2025-06-04-19-48-48:
+  title: Naris Selaren
+  titleRu: Нарис Селарен
+  placement: Indoors
+  location: Sha-Adnius
   content:
     - store:/inbox/dehero.2025-06-04-19-48-48.png
     - store:/inbox/dehero.2025-06-04-19-48-55.png
     - store:/inbox/dehero.2025-06-04-19-49-17.png
   type: shot
   author: dehero
+  engine: OpenMW
 dehero.2025-06-04-19-51-16:
+  placement: Indoors
+  location: Sha-Adnius
   content:
     - store:/inbox/dehero.2025-06-04-19-51-16.png
     - store:/inbox/dehero.2025-06-04-19-51-04.png
@@ -157,7 +180,10 @@ dehero.2025-06-04-19-51-16:
     - store:/inbox/dehero.2025-06-04-19-49-44.png
   type: shot
   author: dehero
+  engine: OpenMW
 dehero.2025-06-04-19-53-43:
+  placement: Indoors
+  location: Sha-Adnius
   content:
     - store:/inbox/dehero.2025-06-04-19-53-43.png
     - store:/inbox/dehero.2025-06-04-19-53-40.png
@@ -165,47 +191,62 @@ dehero.2025-06-04-19-53-43:
   type: shot
   author: dehero
 dehero.2025-06-04-19-59-05:
+  placement: Outdoors
+  location: Assarnatamat
   content: store:/inbox/dehero.2025-06-04-19-59-05.png
   type: shot
   author: dehero
 dehero.2025-08-26-22-30-23:
+  placement: Outdoors
+  location: Vos
   content: store:/inbox/dehero.2025-08-26-22-30-23.png
   type: shot
   author: dehero
 dehero.2025-08-26-22-37-16:
-  content: store:/inbox/dehero.2025-08-26-22-37-16.png
-  type: shot
-  author: dehero
-dehero.2025-08-26-22-38-26:
-  content: store:/inbox/dehero.2025-08-26-22-38-26.png
-  type: shot
-  author: dehero
-dehero.2025-08-26-22-39-08:
-  content: store:/inbox/dehero.2025-08-26-22-39-08.png
+  placement: Indoors
+  location: Bthanchend
+  content:
+    - store:/inbox/dehero.2025-08-26-22-37-16.png
+    - store:/inbox/dehero.2025-08-26-22-38-26.png
+    - store:/inbox/dehero.2025-08-26-22-39-08.png
   type: shot
   author: dehero
 dehero.2025-08-26-22-48-17:
+  placement: Outdoors
+  location: Mzanchend
   content: store:/inbox/dehero.2025-08-26-22-48-17.png
   type: shot
   author: dehero
 dehero.2025-08-26-23-01-26:
+  placement: Indoors
+  location: Morvayn Manor
   content: store:/inbox/dehero.2025-08-26-23-01-26.png
   type: shot
   author: dehero
+  engine: OpenMW
 dehero.2025-08-26-23-08-10:
+  placement: Indoors
+  location: Morvayn Manor
   content: store:/inbox/dehero.2025-08-26-23-08-10.png
   type: shot
   author: dehero
 dehero.2025-08-26-23-09-44:
+  placement: Indoors
+  location: Morvayn Manor
   content:
     - store:/inbox/dehero.2025-08-26-23-09-44.png
     - store:/inbox/dehero.2025-08-26-23-09-44.1.png
   type: shot
   author: dehero
+  engine: OpenMW
 dehero.2025-08-26-23-19-12-2:
+  placement: Indoors
+  location: Solstheim, Frossel
   content: store:/inbox/dehero.2025-08-26-23-19-12-2.png
   type: shot
   author: dehero
+  engine: OpenMW
+  addon: Bloodmoon
 ohsweetnazareth.2025-05-02-keenings-respite-b6ff886e:
   title: Keening's Respite
   content: store:/inbox/ohsweetnazareth.2025-05-02-keenings-respite-b6ff886e.png
