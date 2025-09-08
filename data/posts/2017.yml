@@ -1950,24 +1950,24 @@
       id: DOT54liDCtI
       mediaId: '18077064985824412'
       published: 2025-09-07-18-25-43
-      updated: 2025-09-08-17-18-09
+      updated: 2025-09-08-18-29-59
       followers: 1585
-      likes: 65
+      likes: 66
     - service: vk
       id: 2636
       published: 2025-09-07-18-25-58
-      updated: 2025-09-08-17-18-06
+      updated: 2025-09-08-18-29-55
       followers: 1411
-      likes: 31
-      views: 200
+      likes: 32
+      views: 206
       reposts: 1
     - service: tg
       id: 976
       published: 2025-09-07-18-26-04
-      updated: 2025-09-08-17-18-10
+      updated: 2025-09-08-18-29-59
       followers: 793
       likes: 47
-      views: 176
+      views: 180
       comments: !c |-
         G/EA4J0HdixtQtnAWt+RoUHR77ef4kvtA43sUaWLSeieLRGK7hESQyhAzI1KiBaDxVGNDMeG3xGr
         lreYvnyg5Ru/vQm/eRipy0GVM6CkOjnRJxYAt4tG0lUijlvIuY0N13IprnJF8/X67iquyuPWsI5Z
@@ -10361,6 +10361,15 @@
       followers: 74
       likes: 12
       views: 135
+    - service: ig
+      id: DOWfOlKjJFS
+      mediaId: '18113454772554178'
+      published: 2025-09-08-18-30-28
+      followers: 1586
+    - service: tg
+      id: 977
+      published: 2025-09-08-18-30-42
+      followers: 792
 2017-08-28-shishara:
   title: Shishara
   titleRu: Шишара
