@@ -1950,24 +1950,24 @@
       id: DOT54liDCtI
       mediaId: '18077064985824412'
       published: 2025-09-07-18-25-43
-      updated: 2025-09-08-19-17-05
+      updated: 2025-09-08-20-22-04
       followers: 1585
       likes: 66
     - service: vk
       id: 2636
       published: 2025-09-07-18-25-58
-      updated: 2025-09-08-19-17-01
+      updated: 2025-09-08-20-22-02
       followers: 1411
       likes: 32
-      views: 207
+      views: 210
       reposts: 1
     - service: tg
       id: 976
       published: 2025-09-07-18-26-04
-      updated: 2025-09-08-19-17-07
+      updated: 2025-09-08-20-22-08
       followers: 793
       likes: 48
-      views: 202
+      views: 208
       comments: !c |-
         G/EA4J0HdixtQtnAWt+RoUHR77ef4kvtA43sUaWLSeieLRGK7hESQyhAzI1KiBaDxVGNDMeG3xGr
         lreYvnyg5Ru/vQm/eRipy0GVM6CkOjnRJxYAt4tG0lUijlvIuY0N13IprnJF8/X67iquyuPWsI5Z
@@ -7686,26 +7686,26 @@
       id: DNyceu54oMo
       mediaId: '17998181432810274'
       published: 2025-08-25-18-33-53
-      updated: 2025-09-01-20-15-04
+      updated: 2025-09-08-20-22-06
       followers: 1581
-      likes: 76
+      likes: 79
     - service: vk
       id: 2602
       published: 2025-08-25-18-33-59
-      updated: 2025-09-01-20-15-05
+      updated: 2025-09-08-20-22-07
       followers: 1380
-      likes: 53
-      views: 520
+      likes: 55
+      views: 540
       comments: !c |-
         G2EA+I2T5WafQv7DuUY4TeAibauwSN4u8EAzQPL9ywQGx95CoYkokkGoUk0bp5eWz/kXzDo0A9vM
         Jd3p302OmFFNLYsVFThgjyue1MigitEdlnhgjSuLDdY0nAE=
     - service: tg
       id: 960
       published: 2025-08-25-18-34-02
-      updated: 2025-09-01-20-15-13
+      updated: 2025-09-08-20-22-09
       followers: 782
-      likes: 59
-      views: 374
+      likes: 60
+      views: 463
       comments: !c ixiAkpPLQnmOXrTWAACra2F3YXpha3kyMjOk8J+Zj5PLQnmOLvbpgACqc2FydWRlbHN1cqAD
 2017-06-25-heran-ancestral-tomb:
   title: Heran Ancestral Tomb
@@ -10365,21 +10365,25 @@
       id: DOWfOlKjJFS
       mediaId: '18113454772554178'
       published: 2025-09-08-18-30-28
-      updated: 2025-09-08-19-17-03
+      updated: 2025-09-08-20-22-03
       followers: 1586
-      likes: 19
+      likes: 27
     - service: tg
       id: 977
       published: 2025-09-08-18-30-42
-      updated: 2025-09-08-19-17-05
+      updated: 2025-09-08-20-22-05
       followers: 792
       likes: 20
-      views: 74
-      comments: !c iw2AkZPLQnmSq9b5AACra2F3YXpha3kyMjOk8J+nuAM=
+      views: 94
+      comments: !c ixiAkpPLQnmSrX4RgACqc2FydWRlbHN1cqCTy0J5kqvW+QAAq2thd2F6YWt5MjIzpPCfp7gD
     - service: vk
       id: 2637
       published: 2025-09-08-19-17-15
+      updated: 2025-09-08-20-22-00
       followers: 1412
+      likes: 3
+      views: 25
+      reposts: 1
 2017-08-28-shishara:
   title: Shishara
   titleRu: Шишара
