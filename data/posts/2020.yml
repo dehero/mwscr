@@ -1090,6 +1090,19 @@
       likes: 4
       views: 787
       comments: !c CwyAkZPLQndThctGgACoYW5ub2RhcnSk8J+YjQM=
+    - service: ig
+      id: DOZDkCRlG95
+      mediaId: '18036367682484300'
+      published: 2025-09-09-18-26-31
+      followers: 1586
+    - service: vk
+      id: 2639
+      published: 2025-09-09-18-26-37
+      followers: 1414
+    - service: tg
+      id: 978
+      published: 2025-09-09-18-26-41
+      followers: 793
 2020-10-18-on-the-other-side:
   title: On the Other Side
   titleRu: На том берегу
