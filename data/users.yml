@@ -496,7 +496,7 @@ artyom-melikhoff:
   profiles:
     - service: vk
       id: '299405149'
-      updated: 2025-09-09-13-32-34
+      updated: 2025-09-10-14-19-21
       username: artyom_melikhoff
       name: Артём Мелихов
       avatar: store:/avatars/vk-dd464f34.jpg
@@ -1643,7 +1643,7 @@ ellia-isard:
   profiles:
     - service: vk
       id: '215194827'
-      updated: 2025-09-09-13-32-34
+      updated: 2025-09-10-14-19-22
       username: ellia_isard
       name: Эллия Айсард
       avatar: store:/avatars/vk-4aa5204c.jpg
@@ -1967,7 +1967,7 @@ golden-morgan:
   profiles:
     - service: vk
       id: '157461309'
-      updated: 2025-09-10-13-27-58
+      updated: 2025-09-10-14-19-17
       username: golden_morgan
       name: Marco Polo
       avatar: store:/avatars/vk-f7f43d22.jpg
@@ -1975,7 +1975,7 @@ goosevich76:
   profiles:
     - service: tg
       id: '5385620621'
-      updated: 2025-09-10-13-27-57
+      updated: 2025-09-10-14-19-18
       accessHash: '-7130473396589324830'
       username: Goosevich78
       name: Ґузьйоувишщь
@@ -2568,7 +2568,7 @@ kawazaky223:
   profiles:
     - service: tg
       id: '5641856113'
-      updated: 2025-09-10-13-27-58
+      updated: 2025-09-10-14-19-22
       accessHash: '7421309771527577818'
       username: Kawazaky223
       name: Максим
@@ -2949,7 +2949,7 @@ maks-perunov:
   profiles:
     - service: vk
       id: '35868942'
-      updated: 2025-09-09-13-32-33
+      updated: 2025-09-10-14-19-21
       username: id35868942
       name: Макс Перунов
       avatar: store:/avatars/vk-3bb92045.jpg
@@ -4194,7 +4194,7 @@ sarudelsur:
   profiles:
     - service: tg
       id: '8446161342'
-      updated: 2025-09-10-13-27-58
+      updated: 2025-09-10-14-19-20
       accessHash: '-2612313514511119416'
       username: sarudelsur
       name: Hozu
@@ -4318,7 +4318,7 @@ sergey-churbanov:
   profiles:
     - service: vk
       id: '1060712354'
-      updated: 2025-09-10-13-27-59
+      updated: 2025-09-10-14-19-18
       username: id1060712354
       name: Сергей Чурбанов
       avatar: store:/avatars/vk-6499ce8d.jpg
@@ -5672,7 +5672,7 @@ ya-hs-che-suda-stavit:
   profiles:
     - service: tg
       id: '1336542246'
-      updated: 2025-09-10-13-27-54
+      updated: 2025-09-10-14-19-15
       accessHash: '5504493057447045891'
       username: Ya_hs_che_suda_stavit
       name: Hist 2
