@@ -92,10 +92,10 @@
     - service: vk
       id: 2312
       published: 2025-04-28-18-25-04
-      updated: 2025-09-03-17-14-34
+      updated: 2025-09-10-17-19-20
       followers: 1274
       likes: 71
-      views: 501
+      views: 502
       reposts: 1
       comments: !c |-
         G4YBABwHTtm8gPMIrp76EUJz0iui4sTnCJ0GYpQAh0slaUTa6UwJKnugGTrXVEdFBTiTqI/GSr4M
@@ -107,10 +107,10 @@
     - service: tg
       id: 821
       published: 2025-04-28-18-25-09
-      updated: 2025-09-03-17-14-00
+      updated: 2025-09-10-17-18-44
       followers: 726
       likes: 80
-      views: 646
+      views: 647
       comments: !c |-
         GykBIBwHdpMPbL57lMMyEz0fN4owkD5TYZBwYE0U6ck+spu4WSglENlY3Ma5NBsU7QHaZf2oBTib
         HXFA3q6laWAtat4Wa/DzV3p83RhWQ/rh4BDB9b5/8EVDzC4DX4LLV6nGpgyi/sV2dSASeGZpglnv
@@ -165,10 +165,10 @@
     - service: tg
       id: 609
       published: 2024-11-28-18-10-52
-      updated: 2025-09-03-17-16-33
+      updated: 2025-09-10-17-21-22
       followers: 578
       likes: 59
-      views: 700
+      views: 701
 2016-11-20-4-aldruhn-under-skar:
   title: Ald'ruhn, Under-Skar
   titleRu: Альд'рун, под Скаром
@@ -647,7 +647,7 @@
     - service: tg
       id: 597
       published: 2024-11-16-18-09-47
-      updated: 2025-09-03-17-16-56
+      updated: 2025-09-10-17-21-45
       followers: 573
       likes: 70
       views: 734
@@ -687,10 +687,10 @@
     - service: vk
       id: 2282
       published: 2025-04-16-18-22-11
-      updated: 2025-09-03-17-14-51
+      updated: 2025-09-10-17-19-36
       followers: 1261
       likes: 75
-      views: 544
+      views: 545
       reposts: 2
       comments: !c |-
         G3MA+C0SzNOZIrBxyzn4pCAU2IEHFAjFAZdQxMkOdTWlBCks4wLeP73ICyTQyOLa2rKs//L9dMAX
@@ -698,10 +698,10 @@
     - service: tg
       id: 797
       published: 2025-04-16-18-22-22
-      updated: 2025-09-03-17-14-11
+      updated: 2025-09-10-17-18-55
       followers: 720
       likes: 61
-      views: 581
+      views: 584
 2016-12-02-molag-mar:
   title: Molag Mar
   titleRu: Молаг Мар
@@ -747,10 +747,10 @@
     - service: tg
       id: 627
       published: 2024-12-16-18-11-52
-      updated: 2025-09-03-17-16-18
+      updated: 2025-09-10-17-21-01
       followers: 581
       likes: 79
-      views: 729
+      views: 730
       comments: !c |-
         G+4A4K0SuLOYByPKFBpbHvbRP3KL8M9bDpG1hCJO7qnbSgqCYGi/OLn+bqGqbnt+jc9pmyCC4+/V
         YvaU5aWcG1mGvWU75TRwTTShALQlmtGFDh6y7YGSNZFPz/vX8v9xfHfF/H6ruVCsWVskZoHMI9zw
@@ -905,7 +905,7 @@
     - service: tg
       id: 624
       published: 2024-12-13-18-11-26
-      updated: 2025-09-03-17-16-22
+      updated: 2025-09-10-17-21-11
       followers: 580
       likes: 64
       views: 653
@@ -1320,10 +1320,10 @@
     - service: vk
       id: 2470
       published: 2025-06-17-18-28-43
-      updated: 2025-09-03-17-13-14
+      updated: 2025-09-10-17-17-49
       followers: 1327
       likes: 55
-      views: 425
+      views: 429
       reposts: 1
       comments: !c |-
         G50BwCwO7DYfCzGx5eSX1XoyxD/vn0j68qlNWsEilajpBEY+OZd8Oqc+z2mWPUfRMplALW8xCYUm
@@ -1334,10 +1334,10 @@
     - service: tg
       id: 888
       published: 2025-06-17-18-28-46
-      updated: 2025-09-03-17-13-03
+      updated: 2025-09-10-17-17-44
       followers: 749
-      likes: 64
-      views: 568
+      likes: 65
+      views: 573
 2016-12-19-hla-oad:
   title: Hla Oad
   titleRu: Хла Оуд
