@@ -10867,24 +10867,29 @@
       id: DObrczYDtbd
       mediaId: '18067557422190152'
       published: 2025-09-10-18-53-29
-      updated: 2025-09-11-08-26-53
+      updated: 2025-09-11-09-20-46
       followers: 1587
-      likes: 43
+      likes: 44
     - service: vk
       id: 2641
       published: 2025-09-10-18-53-37
-      updated: 2025-09-11-08-26-51
+      updated: 2025-09-11-09-20-49
       followers: 1416
-      likes: 13
-      views: 191
-      reposts: 1
+      likes: 16
+      views: 204
+      reposts: 2
+      comments: !c |-
+        GxYB6C0SeA7FfhuBrsuIj/6RE0v4y1ykpkmBRz65BzqgqW4aobEICMItg+YNo726TXM1B9k2zxHO
+        raZcnnaFtenkDg4H+qKAA6EWRRAklHBOuS1JIYn75bfS+/munv1eGB/HL/E8jHxOy64UqiIOe0Fc
+        VvWrzhtt2NRNFVIkVLPB4w4qrPef/541AIhxAuUC9i6CICCEZTsVXObJNUGrF7y50yAQzCds1aOc
+        qvl5kSM4MUlD//UF
     - service: tg
       id: 979
       published: 2025-09-10-18-53-42
-      updated: 2025-09-11-08-26-56
+      updated: 2025-09-11-09-20-47
       followers: 795
       likes: 44
-      views: 156
+      views: 158
       comments: !c |-
         CxuAkpPLQnmTUoNuAACra2F3YXpha3kyMjOk8J+koZPLQnmTUYmsgACrZ29vc2V2aWNoNzak8J+n
         kAM=
