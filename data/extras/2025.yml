@@ -349,7 +349,7 @@
       id: DOLMistETzn
       mediaId: '17967116450955441'
       published: 2025-09-04-09-15-00
-      updated: 2025-09-10-10-20-56
+      updated: 2025-09-11-11-16-30
       followers: 1583
       likes: 54
       comments: !c |-
@@ -359,17 +359,17 @@
     - service: vk
       id: 2631
       published: 2025-09-04-09-15-00
-      updated: 2025-09-10-10-20-55
+      updated: 2025-09-11-11-16-28
       followers: 1404
       likes: 24
-      views: 448
+      views: 458
     - service: tg
       id:
         - 972
         - 973
       published: 2025-09-04-09-15-00
-      updated: 2025-09-10-10-20-55
+      updated: 2025-09-11-11-16-28
       followers: 787
-      likes: 55
-      views: 350
+      likes: 56
+      views: 382
       comments: !c iwuAkZPLQnmRXeJMAACra2F3YXpha3kyMjOgAw==
