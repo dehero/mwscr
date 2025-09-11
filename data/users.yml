@@ -398,7 +398,7 @@ anonim:
   profiles:
     - service: tg
       id: '6469120788'
-      updated: 2025-09-10-19-16-17
+      updated: 2025-09-11-20-19-10
       accessHash: '-3557204299452739678'
       name: Аноним
       avatar: store:/avatars/tg-5330526380158482543.jpg
@@ -744,7 +744,7 @@ bobrovnikov:
   profiles:
     - service: tg
       id: '864611'
-      updated: 2025-09-11-19-15-35
+      updated: 2025-09-11-20-19-07
       accessHash: '-4256453567611932495'
       username: bobrovnikov
       name: Denis Bobrovnikov
@@ -794,7 +794,7 @@ brg1092:
   profiles:
     - service: tg
       id: '5867861906'
-      updated: 2025-09-11-19-15-31
+      updated: 2025-09-11-20-19-05
       accessHash: '4411929981434940281'
       username: brg1092
       name: 2𝜋
@@ -1264,7 +1264,7 @@ dehero:
     - type: channel
       service: tg
       id: '1264795946'
-      updated: 2025-09-11-19-15-41
+      updated: 2025-09-11-20-19-06
       accessHash: '-5789257269249675714'
       username: mwscr
       name: Morrowind Screenshots
@@ -1975,7 +1975,7 @@ goosevich76:
   profiles:
     - service: tg
       id: '5385620621'
-      updated: 2025-09-11-19-15-41
+      updated: 2025-09-11-20-19-10
       accessHash: '-7130473396589324830'
       username: Goosevich78
       name: Ґузьйоувишщь
@@ -2472,7 +2472,7 @@ johnmara:
   profiles:
     - service: vk
       id: '20423877'
-      updated: 2025-09-11-19-15-36
+      updated: 2025-09-11-20-19-04
       username: johnmara
       name: Слава Березовский
       avatar: store:/avatars/vk-94a6386c.jpg
@@ -2576,7 +2576,7 @@ kawazaky223:
   profiles:
     - service: tg
       id: '5641856113'
-      updated: 2025-09-11-19-15-43
+      updated: 2025-09-11-20-19-09
       accessHash: '7421309771527577818'
       username: Kawazaky223
       name: Максим
@@ -3620,7 +3620,7 @@ olmer-izdeyla:
   profiles:
     - service: tg
       id: '835160756'
-      updated: 2025-09-10-19-16-17
+      updated: 2025-09-11-20-19-09
       accessHash: '5779481472375422362'
       username: Olmer_Izdeyla
       name: Olmer Izdeyla
@@ -4334,7 +4334,7 @@ sergey-churbanov:
   profiles:
     - service: vk
       id: '1060712354'
-      updated: 2025-09-11-12-39-53
+      updated: 2025-09-11-20-19-07
       username: id1060712354
       name: Сергей Чурбанов
       avatar: store:/avatars/vk-6499ce8d.jpg
