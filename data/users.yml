@@ -744,7 +744,7 @@ bobrovnikov:
   profiles:
     - service: tg
       id: '864611'
-      updated: 2025-09-12-16-21-05
+      updated: 2025-09-12-17-16-58
       accessHash: '-4256453567611932495'
       username: bobrovnikov
       name: Denis Bobrovnikov
@@ -794,7 +794,7 @@ brg1092:
   profiles:
     - service: tg
       id: '5867861906'
-      updated: 2025-09-12-16-21-04
+      updated: 2025-09-12-17-16-57
       accessHash: '4411929981434940281'
       username: brg1092
       name: 2𝜋
@@ -1264,7 +1264,7 @@ dehero:
     - type: channel
       service: tg
       id: '1264795946'
-      updated: 2025-09-12-16-21-04
+      updated: 2025-09-12-17-16-57
       accessHash: '-5789257269249675714'
       username: mwscr
       name: Morrowind Screenshots
@@ -1975,7 +1975,7 @@ goosevich76:
   profiles:
     - service: tg
       id: '5385620621'
-      updated: 2025-09-12-16-21-06
+      updated: 2025-09-12-17-16-59
       accessHash: '-7130473396589324830'
       username: Goosevich78
       name: Ґузьйоувишщь
@@ -2472,7 +2472,7 @@ johnmara:
   profiles:
     - service: vk
       id: '20423877'
-      updated: 2025-09-12-16-21-05
+      updated: 2025-09-12-17-16-55
       username: johnmara
       name: Слава Березовский
       avatar: store:/avatars/vk-94a6386c.jpg
@@ -2576,7 +2576,7 @@ kawazaky223:
   profiles:
     - service: tg
       id: '5641856113'
-      updated: 2025-09-12-16-21-05
+      updated: 2025-09-12-17-16-58
       accessHash: '7421309771527577818'
       username: Kawazaky223
       name: Максим
@@ -4210,7 +4210,7 @@ sarudelsur:
   profiles:
     - service: tg
       id: '8446161342'
-      updated: 2025-09-12-16-21-04
+      updated: 2025-09-12-17-16-56
       accessHash: '-2612313514511119416'
       username: sarudelsur
       name: Hozu
