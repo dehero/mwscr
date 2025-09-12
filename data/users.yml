@@ -430,7 +430,7 @@ anton-mezhuev:
   profiles:
     - service: vk
       id: '63571521'
-      updated: 2025-09-10-18-32-05
+      updated: 2025-09-12-22-17-37
       username: id63571521
       name: Антон Межуев
       avatar: store:/avatars/vk-295e8e4f.jpg
@@ -794,7 +794,7 @@ brg1092:
   profiles:
     - service: tg
       id: '5867861906'
-      updated: 2025-09-12-21-16-48
+      updated: 2025-09-12-22-17-36
       accessHash: '4411929981434940281'
       username: brg1092
       name: 2𝜋
@@ -1264,7 +1264,7 @@ dehero:
     - type: channel
       service: tg
       id: '1264795946'
-      updated: 2025-09-12-21-16-49
+      updated: 2025-09-12-22-17-36
       accessHash: '-5789257269249675714'
       username: mwscr
       name: Morrowind Screenshots
@@ -2576,7 +2576,7 @@ kawazaky223:
   profiles:
     - service: tg
       id: '5641856113'
-      updated: 2025-09-12-21-16-48
+      updated: 2025-09-12-22-17-38
       accessHash: '7421309771527577818'
       username: Kawazaky223
       name: Максим
@@ -4210,7 +4210,7 @@ sarudelsur:
   profiles:
     - service: tg
       id: '8446161342'
-      updated: 2025-09-12-21-16-48
+      updated: 2025-09-12-22-17-36
       accessHash: '-2612313514511119416'
       username: sarudelsur
       name: Hozu
@@ -4334,7 +4334,7 @@ sergey-churbanov:
   profiles:
     - service: vk
       id: '1060712354'
-      updated: 2025-09-12-20-21-04
+      updated: 2025-09-12-22-17-37
       username: id1060712354
       name: Сергей Чурбанов
       avatar: store:/avatars/vk-6499ce8d.jpg
@@ -4952,7 +4952,7 @@ todor:
   profiles:
     - service: tg
       id: '1305695186'
-      updated: 2025-09-12-21-16-47
+      updated: 2025-09-12-22-17-35
       accessHash: '8819682207926865502'
       name: Todor
       avatar: store:/avatars/tg-5305295556123424826.jpg
