@@ -2554,11 +2554,22 @@
     - service: vk
       id: 2648
       published: 2025-09-13-18-25-04
+      updated: 2025-09-13-19-13-28
       followers: 1419
+      likes: 4
+      views: 19
     - service: tg
       id: 982
       published: 2025-09-13-18-25-07
+      updated: 2025-09-13-19-13-28
       followers: 799
+      likes: 21
+      views: 82
+    - service: ig
+      id: DOjcLEhDabr
+      mediaId: '18076803986481758'
+      published: 2025-09-13-19-13-55
+      followers: 1584
 2024-06-14-sleeping-silt-strider:
   title: Sleeping Silt Strider
   titleRu: Спящий Силт Страйдер
