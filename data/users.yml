@@ -794,7 +794,7 @@ brg1092:
   profiles:
     - service: tg
       id: '5867861906'
-      updated: 2025-09-13-19-13-32
+      updated: 2025-09-13-20-19-11
       accessHash: '4411929981434940281'
       username: brg1092
       name: 2𝜋
@@ -1967,7 +1967,7 @@ golden-morgan:
   profiles:
     - service: vk
       id: '157461309'
-      updated: 2025-09-12-19-15-34
+      updated: 2025-09-13-20-19-17
       username: golden_morgan
       name: Marco Polo
       avatar: store:/avatars/vk-f7f43d22.jpg
@@ -1975,7 +1975,7 @@ goosevich76:
   profiles:
     - service: tg
       id: '5385620621'
-      updated: 2025-09-13-19-13-35
+      updated: 2025-09-13-20-19-15
       accessHash: '-7130473396589324830'
       username: Goosevich78
       name: Ґузьйоувишщь
@@ -2576,7 +2576,7 @@ kawazaky223:
   profiles:
     - service: tg
       id: '5641856113'
-      updated: 2025-09-13-19-13-35
+      updated: 2025-09-13-20-19-15
       accessHash: '7421309771527577818'
       username: Kawazaky223
       name: Максим
@@ -3417,7 +3417,7 @@ neulovimiy-djo:
   profiles:
     - service: vk
       id: '40753227'
-      updated: 2025-09-12-19-15-34
+      updated: 2025-09-13-20-19-17
       username: neulovimiy_djo
       name: Иван Чернозём
       avatar: store:/avatars/vk-7870da4f.jpg
@@ -4817,6 +4817,14 @@ the-athletic-photographer:
       username: the_athletic_photographer
       name: John Ruggio
       avatar: store:/avatars/ig-1ce3b362.jpg
+the-best-song78:
+  profiles:
+    - service: vk
+      id: '825763367'
+      updated: 2025-09-13-20-19-13
+      username: the_best_song78
+      name: Vladislav Dmitrievich
+      avatar: store:/avatars/vk-cfd58d0c.jpg
 the-breton-knight:
   profiles:
     - service: ig
@@ -4952,7 +4960,7 @@ todor:
   profiles:
     - service: tg
       id: '1305695186'
-      updated: 2025-09-13-19-13-32
+      updated: 2025-09-13-20-19-11
       accessHash: '8819682207926865502'
       name: Todor
       avatar: store:/avatars/tg-5305295556123424826.jpg
@@ -5688,7 +5696,7 @@ ya-hs-che-suda-stavit:
   profiles:
     - service: tg
       id: '1336542246'
-      updated: 2025-09-12-20-21-08
+      updated: 2025-09-13-20-19-12
       accessHash: '5504493057447045891'
       username: Ya_hs_che_suda_stavit
       name: Hist 2
