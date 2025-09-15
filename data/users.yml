@@ -592,7 +592,7 @@ bara-fox:
   profiles:
     - service: tg
       id: '5196274219'
-      updated: 2025-09-15-09-23-28
+      updated: 2025-09-15-10-21-32
       accessHash: '-7229804243629770662'
       username: BaraFox
       name: Bara
@@ -743,7 +743,7 @@ bobrovnikov:
   profiles:
     - service: tg
       id: '864611'
-      updated: 2025-09-15-09-23-26
+      updated: 2025-09-15-10-21-30
       accessHash: '-4256453567611932495'
       username: bobrovnikov
       name: Denis Bobrovnikov
@@ -1974,7 +1974,7 @@ goosevich76:
   profiles:
     - service: tg
       id: '5385620621'
-      updated: 2025-09-15-09-23-29
+      updated: 2025-09-15-10-21-32
       accessHash: '-7130473396589324830'
       username: Goosevich78
       name: Ґузьйоувишщь
@@ -2575,7 +2575,7 @@ kawazaky223:
   profiles:
     - service: tg
       id: '5641856113'
-      updated: 2025-09-15-09-23-28
+      updated: 2025-09-15-10-21-32
       accessHash: '7421309771527577818'
       username: Kawazaky223
       name: Максим
@@ -2655,7 +2655,7 @@ konstantin-matrosov:
   profiles:
     - service: vk
       id: '93073669'
-      updated: 2025-09-15-09-23-27
+      updated: 2025-09-15-10-21-32
       username: id93073669
       name: Константин Матросов
       avatar: store:/avatars/vk-3b5e092e.jpg
@@ -4042,7 +4042,7 @@ redoranar:
   profiles:
     - service: tg
       id: '627928484'
-      updated: 2025-09-12-09-20-45
+      updated: 2025-09-15-10-21-34
       accessHash: '4117269213935533016'
       username: Redoranar
       name: Egor
@@ -4217,7 +4217,7 @@ sarudelsur:
   profiles:
     - service: tg
       id: '8446161342'
-      updated: 2025-09-15-09-23-28
+      updated: 2025-09-15-10-21-32
       accessHash: '-2612313514511119416'
       username: sarudelsur
       name: Hozu
@@ -4535,7 +4535,7 @@ sol-sunich:
   profiles:
     - service: tg
       id: '1017031108'
-      updated: 2025-09-15-09-23-26
+      updated: 2025-09-15-10-21-30
       accessHash: '-8600220183224537901'
       username: sol_sunich
       name: ☉
@@ -4837,7 +4837,7 @@ the-best-song78:
   profiles:
     - service: vk
       id: '825763367'
-      updated: 2025-09-15-09-23-26
+      updated: 2025-09-15-10-21-32
       username: the_best_song78
       name: Vladislav Dmitrievich
       avatar: store:/avatars/vk-cfd58d0c.jpg
