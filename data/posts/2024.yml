@@ -2554,10 +2554,10 @@
     - service: vk
       id: 2648
       published: 2025-09-13-18-25-04
-      updated: 2025-09-15-10-21-33
+      updated: 2025-09-15-11-17-05
       followers: 1419
       likes: 20
-      views: 300
+      views: 303
       comments: !c |-
         GzoBIBwHuTnqwsoqv9JJEBFxo8i6vEkaDyFNsoAr8eAFX/ZU3YT2CIlSy/qF8r5FWA6vjXh+vPFs
         glFfyd/UBI9QOjnTA0F0wSCQgO7aEg6oeaI5D+n5khhtZOX9/Nn58vG6hu/wBhQQzLoQ+mB3h+hg
@@ -2566,7 +2566,7 @@
     - service: tg
       id: 982
       published: 2025-09-13-18-25-07
-      updated: 2025-09-15-10-21-32
+      updated: 2025-09-15-11-17-06
       followers: 799
       likes: 54
       views: 242
@@ -2578,9 +2578,9 @@
       id: DOjcLEhDabr
       mediaId: '18076803986481758'
       published: 2025-09-13-19-13-55
-      updated: 2025-09-15-10-21-30
+      updated: 2025-09-15-11-17-02
       followers: 1584
-      likes: 75
+      likes: 76
 2024-06-14-sleeping-silt-strider:
   title: Sleeping Silt Strider
   titleRu: Спящий Силт Страйдер
