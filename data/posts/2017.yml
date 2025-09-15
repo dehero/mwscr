@@ -9485,27 +9485,27 @@
       id: DOeM_flD0t-
       mediaId: '17849274069555789'
       published: 2025-09-11-18-25-04
-      updated: 2025-09-14-18-24-56
+      updated: 2025-09-15-18-29-17
       followers: 1586
-      likes: 91
+      likes: 92
       comments: !c |-
         G2UA4K0T6O1dDKgIdA7M2D09VWRps7lNLmsAoalSNWZWSXl9VpeXrWfS3vDV2iQ45ID9LckTDIwC
         h5xR/B1a0KV9hyCP3bEOEqxVDGvQAgKk26CvIdxtbeEC
     - service: vk
       id: 2644
       published: 2025-09-11-18-25-11
-      updated: 2025-09-14-18-24-55
+      updated: 2025-09-15-18-29-11
       followers: 1415
-      likes: 27
-      views: 368
+      likes: 29
+      views: 387
       reposts: 1
     - service: tg
       id: 980
       published: 2025-09-11-18-25-15
-      updated: 2025-09-14-18-25-08
+      updated: 2025-09-15-18-29-19
       followers: 796
-      likes: 53
-      views: 263
+      likes: 58
+      views: 309
       comments: !c |-
         G/UAYJwHtvOUgIVB4w9oyBhqMaD5zv2ZnC5pVDixiKb4lNRYBZjPZ9+6Aa4+4cEGnNFkiU9Pmw11
         w3E9pBg9bHna3WOSJ5ZzlGYBR9NNhnPdkKY3fHbvWuEQSbm8jkYtV/zxFHCKhDCRFTtKwoX5dt3y
@@ -13895,6 +13895,19 @@
       likes: 61
       views: 480
       comments: !c CxOAkZPLQnjps+/8gACoYWVsbGFyaWGyVmVsZGlnIGZpbnQgYmlsZGUhAw==
+    - service: ig
+      id: DOogtOCjT95
+      mediaId: '18007720238631949'
+      published: 2025-09-15-18-29-44
+      followers: 1584
+    - service: vk
+      id: 2653
+      published: 2025-09-15-18-29-52
+      followers: 1419
+    - service: tg
+      id: 986
+      published: 2025-09-15-18-29-57
+      followers: 798
 2017-11-19-bottle-collection:
   title: Bottle Collection
   titleRu: Коллекция бутылок

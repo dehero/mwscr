@@ -743,7 +743,7 @@ bobrovnikov:
   profiles:
     - service: tg
       id: '864611'
-      updated: 2025-09-15-17-17-30
+      updated: 2025-09-15-18-29-15
       accessHash: '-4256453567611932495'
       username: bobrovnikov
       name: Denis Bobrovnikov
@@ -793,7 +793,7 @@ brg1092:
   profiles:
     - service: tg
       id: '5867861906'
-      updated: 2025-09-15-11-17-07
+      updated: 2025-09-15-18-29-19
       accessHash: '4411929981434940281'
       username: brg1092
       name: 2𝜋
@@ -1263,7 +1263,7 @@ dehero:
     - type: channel
       service: tg
       id: '1264795946'
-      updated: 2025-09-15-05-20-10
+      updated: 2025-09-15-18-29-19
       accessHash: '-5789257269249675714'
       username: mwscr
       name: Morrowind Screenshots
@@ -2575,7 +2575,7 @@ kawazaky223:
   profiles:
     - service: tg
       id: '5641856113'
-      updated: 2025-09-15-17-17-32
+      updated: 2025-09-15-18-29-18
       accessHash: '7421309771527577818'
       username: Kawazaky223
       name: Максим
@@ -4042,7 +4042,7 @@ redoranar:
   profiles:
     - service: tg
       id: '627928484'
-      updated: 2025-09-15-17-17-36
+      updated: 2025-09-15-18-29-20
       accessHash: '4117269213935533016'
       username: Redoranar
       name: Egor
@@ -4217,7 +4217,7 @@ sarudelsur:
   profiles:
     - service: tg
       id: '8446161342'
-      updated: 2025-09-15-17-17-33
+      updated: 2025-09-15-18-29-18
       accessHash: '-2612313514511119416'
       username: sarudelsur
       name: Hozu
@@ -4535,7 +4535,7 @@ sol-sunich:
   profiles:
     - service: tg
       id: '1017031108'
-      updated: 2025-09-15-17-17-30
+      updated: 2025-09-15-18-29-15
       accessHash: '-8600220183224537901'
       username: sol_sunich
       name: ☉
@@ -4976,7 +4976,7 @@ todor:
   profiles:
     - service: tg
       id: '1305695186'
-      updated: 2025-09-15-05-20-09
+      updated: 2025-09-15-18-29-17
       accessHash: '8819682207926865502'
       name: Todor
       avatar: store:/avatars/tg-5305295556123424826.jpg
