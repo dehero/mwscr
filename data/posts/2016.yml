@@ -1539,18 +1539,18 @@
     - service: vk
       id: 2513
       published: 2025-07-11-18-23-45
-      updated: 2025-09-08-04-25-52
+      updated: 2025-09-15-05-20-26
       followers: 1337
-      likes: 53
-      views: 477
+      likes: 54
+      views: 483
       reposts: 1
     - service: tg
       id: 914
       published: 2025-07-11-18-23-48
-      updated: 2025-09-08-04-25-51
+      updated: 2025-09-15-05-20-15
       followers: 760
-      likes: 67
-      views: 567
+      likes: 68
+      views: 573
       comments: !c |-
         G6kAQBwHdiyz8HC0sHMbPV834bM/figBN5mUWBEm+6DmRgnV1NTtGRPvGTyHtL3AThYdWiCJGO0Y
         JzoY3zS4/qLDxtiZyo9exffzk1FxcZTxnVRAxZQS4TixAmy5ju9FhcAzHZGz/8TIkqoHNKaSq1Cj
