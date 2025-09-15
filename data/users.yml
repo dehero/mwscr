@@ -398,7 +398,7 @@ anonim:
   profiles:
     - service: tg
       id: '6469120788'
-      updated: 2025-09-15-22-17-59
+      updated: 2025-09-15-23-17-19
       accessHash: '-3557204299452739678'
       name: Аноним
       avatar: store:/avatars/tg-5330526380158482543.jpg
@@ -743,7 +743,7 @@ bobrovnikov:
   profiles:
     - service: tg
       id: '864611'
-      updated: 2025-09-15-22-18-01
+      updated: 2025-09-15-23-17-20
       accessHash: '-4256453567611932495'
       username: bobrovnikov
       name: Denis Bobrovnikov
@@ -1132,7 +1132,7 @@ danya-r:
   profiles:
     - service: tg
       id: '6217540848'
-      updated: 2025-09-15-22-17-59
+      updated: 2025-09-15-23-17-19
       accessHash: '144997878637800057'
       name: 🏝ᦔꪖꪀꪗꪖ ᦓꫝꪖρꪮᦓꫝꪀ꠸ᛕꪮꪜ🏝
       avatar: store:/avatars/tg-5285480780337902526.jpg
@@ -1168,7 +1168,7 @@ darkness-rifho:
       deleted: true
     - service: tg
       id: '5704974271'
-      updated: 2025-09-13-10-18-26
+      updated: 2025-09-15-23-17-22
       accessHash: '3506423524566292179'
       username: C4H6O4
       name: Уна
@@ -1243,7 +1243,7 @@ dehero:
       avatar: store:/avatars/gh-c8afe641.jpg
     - service: vk
       id: '3652910'
-      updated: 2025-09-10-18-53-07
+      updated: 2025-09-15-23-17-22
       username: dehero
       name: Антон Курьянов
       avatar: store:/avatars/vk-5356f76e.jpg
@@ -1974,11 +1974,11 @@ goosevich76:
   profiles:
     - service: tg
       id: '5385620621'
-      updated: 2025-09-15-20-21-26
+      updated: 2025-09-15-23-17-25
       accessHash: '-7130473396589324830'
       username: Goosevich78
       name: Ґузьйоувишщь
-      avatar: store:/avatars/tg-5335044260552115982.jpg
+      avatar: store:/avatars/tg-5350509041920638299.jpg
 gorheim:
   profiles:
     - service: tg
@@ -2575,7 +2575,7 @@ kawazaky223:
   profiles:
     - service: tg
       id: '5641856113'
-      updated: 2025-09-15-22-18-01
+      updated: 2025-09-15-23-17-28
       accessHash: '7421309771527577818'
       username: Kawazaky223
       name: Максим
@@ -4042,7 +4042,7 @@ redoranar:
   profiles:
     - service: tg
       id: '627928484'
-      updated: 2025-09-15-22-18-02
+      updated: 2025-09-15-23-17-30
       accessHash: '4117269213935533016'
       username: Redoranar
       name: Egor
@@ -4217,7 +4217,7 @@ sarudelsur:
   profiles:
     - service: tg
       id: '8446161342'
-      updated: 2025-09-15-21-18-01
+      updated: 2025-09-15-23-17-22
       accessHash: '-2612313514511119416'
       username: sarudelsur
       name: Hozu
@@ -4535,7 +4535,7 @@ sol-sunich:
   profiles:
     - service: tg
       id: '1017031108'
-      updated: 2025-09-15-22-18-01
+      updated: 2025-09-15-23-17-20
       accessHash: '-8600220183224537901'
       username: sol_sunich
       name: ☉
@@ -5764,7 +5764,7 @@ yourenemieswillpay:
   profiles:
     - service: vk
       id: '154353264'
-      updated: 2025-09-10-18-40-49
+      updated: 2025-09-15-23-17-22
       username: yourenemieswillpay
       name: Кирилл Заречный
       avatar: store:/avatars/vk-a2026737.jpg
