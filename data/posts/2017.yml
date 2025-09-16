@@ -13899,24 +13899,24 @@
       id: DOogtOCjT95
       mediaId: '18007720238631949'
       published: 2025-09-15-18-29-44
-      updated: 2025-09-16-17-17-44
+      updated: 2025-09-16-18-29-02
       followers: 1584
       likes: 54
     - service: vk
       id: 2653
       published: 2025-09-15-18-29-52
-      updated: 2025-09-16-17-17-40
+      updated: 2025-09-16-18-28-58
       followers: 1419
       likes: 28
-      views: 199
+      views: 208
       reposts: 2
     - service: tg
       id: 986
       published: 2025-09-15-18-29-57
-      updated: 2025-09-16-17-17-47
+      updated: 2025-09-16-18-29-05
       followers: 798
-      likes: 45
-      views: 170
+      likes: 46
+      views: 172
       comments: !c |-
         G5QEIJyHsWOiuXDxl0xkpfOiQhbuhcUhj3gagkNV6SY1BImSgMZBUpTEzPrRfQNJOUoxyk67AOdo
         3+7bY+YLRYlkyQ4pKNG6nP7uZpjf33RBaVoXzSRv2/ie77G5hBpRGRgS9lZQ99TU3G5tceBxSxyR
@@ -14701,6 +14701,19 @@
       likes: 88
       views: 374
       comments: !c CxKAkZPLQnkKibmUAACzYmVmcmllbmRlZC1zdHJhbmdlcqVDb3N5LgM=
+    - service: ig
+      id: DOrFi8CDq8p
+      mediaId: '18326558461226746'
+      published: 2025-09-16-18-30-08
+      followers: 1583
+    - service: vk
+      id: 2654
+      published: 2025-09-16-18-30-15
+      followers: 1420
+    - service: tg
+      id: 987
+      published: 2025-09-16-18-30-21
+      followers: 797
 2017-12-08-lower-circle:
   title: Lower Circle
   titleRu: Низший круг
