@@ -3189,17 +3189,18 @@
     - service: vk
       id: 2646
       published: 2025-09-12-18-24-54
-      updated: 2025-09-15-18-29-10
+      updated: 2025-09-16-19-16-08
       followers: 1417
-      likes: 20
-      views: 163
+      likes: 21
+      views: 179
+      reposts: 1
     - service: tg
       id: 981
       published: 2025-09-12-18-25-00
-      updated: 2025-09-15-18-29-18
+      updated: 2025-09-16-19-16-14
       followers: 798
-      likes: 62
-      views: 290
+      likes: 63
+      views: 306
       comments: !c |-
         GwABQByFcSwsvLxpNjuhco/4rxvpjR/4EZdm2Qk2vwCbIMKTfeq2pf6Qm13YD4OhzFK8PI1AQOOL
         omkLuDTUZWPSXFjmF+3VDY54IB2GYYEBG2TgwQZbfN1ht7HzFHxmFI1+rmepWd+XLf5jK3Wj45pz
@@ -10917,16 +10918,16 @@
       id: DObrczYDtbd
       mediaId: '18067557422190152'
       published: 2025-09-10-18-53-29
-      updated: 2025-09-15-19-16-01
+      updated: 2025-09-16-19-16-16
       followers: 1587
-      likes: 58
+      likes: 59
     - service: vk
       id: 2641
       published: 2025-09-10-18-53-37
-      updated: 2025-09-15-19-16-03
+      updated: 2025-09-16-19-16-18
       followers: 1416
-      likes: 33
-      views: 497
+      likes: 34
+      views: 528
       reposts: 2
       comments: !c |-
         GxYB6C0SeA7FfhuBrsuIj/6RE0v4y1ykpkmBRz65BzqgqW4aobEICMItg+YNo726TXM1B9k2zxHO
@@ -10936,10 +10937,10 @@
     - service: tg
       id: 979
       published: 2025-09-10-18-53-42
-      updated: 2025-09-15-19-16-04
+      updated: 2025-09-16-19-16-19
       followers: 795
       likes: 59
-      views: 338
+      views: 364
       comments: !c |-
         G2kA6BWh0gfOOcIBtw9sA4sOqjdmAx7sJneDEwikADUPMApAFjlUmsYpC8x7tfoR8WrMigp4Mybj
         mIEhq2bw9VIZjee5RrYOD/736wOSag3gVOmQTmg1hiD4gsuRZPepIprmBECshGO+zwE=

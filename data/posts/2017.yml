@@ -9485,7 +9485,7 @@
       id: DOeM_flD0t-
       mediaId: '17849274069555789'
       published: 2025-09-11-18-25-04
-      updated: 2025-09-15-18-29-17
+      updated: 2025-09-16-19-16-15
       followers: 1586
       likes: 92
       comments: !c |-
@@ -9494,18 +9494,18 @@
     - service: vk
       id: 2644
       published: 2025-09-11-18-25-11
-      updated: 2025-09-15-18-29-11
+      updated: 2025-09-16-19-16-10
       followers: 1415
-      likes: 29
-      views: 387
+      likes: 31
+      views: 402
       reposts: 1
     - service: tg
       id: 980
       published: 2025-09-11-18-25-15
-      updated: 2025-09-15-18-29-19
+      updated: 2025-09-16-19-16-17
       followers: 796
       likes: 58
-      views: 309
+      views: 331
       comments: !c |-
         G/UAYJwHtvOUgIVB4w9oyBhqMaD5zv2ZnC5pVDixiKb4lNRYBZjPZ9+6Aa4+4cEGnNFkiU9Pmw11
         w3E9pBg9bHna3WOSJ5ZzlGYBR9NNhnPdkKY3fHbvWuEQSbm8jkYtV/zxFHCKhDCRFTtKwoX5dt3y
@@ -13899,24 +13899,24 @@
       id: DOogtOCjT95
       mediaId: '18007720238631949'
       published: 2025-09-15-18-29-44
-      updated: 2025-09-16-18-29-02
+      updated: 2025-09-16-19-16-11
       followers: 1584
       likes: 54
     - service: vk
       id: 2653
       published: 2025-09-15-18-29-52
-      updated: 2025-09-16-18-28-58
+      updated: 2025-09-16-19-16-07
       followers: 1419
       likes: 28
-      views: 208
+      views: 212
       reposts: 2
     - service: tg
       id: 986
       published: 2025-09-15-18-29-57
-      updated: 2025-09-16-18-29-05
+      updated: 2025-09-16-19-16-13
       followers: 798
-      likes: 46
-      views: 172
+      likes: 48
+      views: 189
       comments: !c |-
         G5QEIJyHsWOiuXDxl0xkpfOiQhbuhcUhj3gagkNV6SY1BImSgMZBUpTEzPrRfQNJOUoxyk67AOdo
         3+7bY+YLRYlkyQ4pKNG6nP7uZpjf33RBaVoXzSRv2/ie77G5hBpRGRgS9lZQ99TU3G5tceBxSxyR
@@ -14705,15 +14705,23 @@
       id: DOrFi8CDq8p
       mediaId: '18326558461226746'
       published: 2025-09-16-18-30-08
+      updated: 2025-09-16-19-16-09
       followers: 1583
+      likes: 16
     - service: vk
       id: 2654
       published: 2025-09-16-18-30-15
+      updated: 2025-09-16-19-16-06
       followers: 1420
+      likes: 4
+      views: 19
     - service: tg
       id: 987
       published: 2025-09-16-18-30-21
+      updated: 2025-09-16-19-16-05
       followers: 797
+      likes: 13
+      views: 65
 2017-12-08-lower-circle:
   title: Lower Circle
   titleRu: Низший круг
