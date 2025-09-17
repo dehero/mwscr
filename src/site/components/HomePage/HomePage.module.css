@@ -131,6 +131,9 @@
 
 .comments {
   grid-area: comments;
+  width: 518px;
+  max-width: 100%;
+  box-sizing: border-box;
 }
 
 @media only screen and (min-height: 750px) and (min-width: 750px),
@@ -158,22 +161,21 @@
 
 @media only screen and (min-height: 750px) and (min-width: 750px) {
   .container {
-    grid-template-columns: minmax(var(--size-panel-min-width), max-content) minmax(var(--size-panel-min-width), 1fr) minmax(
-        var(--size-panel-min-width),
-        max-content
-      );
+    grid-template-columns:
+      minmax(var(--size-panel-min-width), max-content) minmax(var(--size-panel-min-width), 1fr)
+      minmax(var(--size-panel-min-width), max-content)
+      minmax(var(--size-panel-min-width), max-content);
     grid-template-rows: auto;
-    grid-template-areas: 'about posts diagrams' 'about posts diagrams' 'statistics comments diagrams';
+    grid-template-areas: 'about posts comments diagrams' 'about posts comments diagrams' 'statistics posts comments diagrams';
   }
 }
 
 @media only screen and (max-height: 750px) and (min-width: 925px) {
   .container {
-    grid-template-columns: minmax(var(--size-panel-min-width), max-content) min(var(--size-panel-min-width)) minmax(
-        361px,
-        1fr
-      );
+    grid-template-columns:
+      minmax(var(--size-panel-min-width), max-content) min(var(--size-panel-min-width)) minmax(361px, 1fr)
+      minmax(var(--size-panel-min-width), max-content);
     grid-template-rows: auto;
-    grid-template-areas: 'about statistics posts' 'about statistics posts' 'about diagrams comments';
+    grid-template-areas: 'about statistics posts comments' 'about statistics posts comments' 'about diagrams posts comments';
   }
 }
