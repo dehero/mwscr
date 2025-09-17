@@ -9,6 +9,7 @@ import { maintainPreviews } from './functions/maintain-previews.js';
 import { publishPosts } from './functions/publish-posts.js';
 import { updatePublications } from './functions/update-publications.js';
 import { updateUsers } from './functions/update-users.js';
+import { importResourcesToStore } from './functions/import-resources-to-store.js';
 
 await createGithubIssueTemplates();
 
@@ -16,6 +17,8 @@ await createGithubIssueTemplates();
 // await grabManualPosts();
 
 await importStoreInbox();
+
+await importResourcesToStore();
 
 await importTelegramBotUpdates();
 
