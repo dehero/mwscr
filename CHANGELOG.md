@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file.
 
+## [2.5.0](https://github.com/dehero/mwscr/compare/v2.4.0...v2.5.0) (2025-09-17)
+
+### Features
+
+- **site:** change home page layout to display comments vertically
+  ([545f86e](https://github.com/dehero/mwscr/commit/545f86e8c03e26389320731351d05694d08ac26a))
+
 ## [2.4.0](https://github.com/dehero/mwscr/compare/v2.3.0...v2.4.0) (2025-09-05)
 
 ### Features
