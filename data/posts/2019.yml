@@ -552,10 +552,10 @@
     - service: vk
       id: 2412
       published: 2025-06-01-18-25-47
-      updated: 2025-09-10-17-18-17
+      updated: 2025-09-17-18-30-19
       followers: 1314
       likes: 65
-      views: 599
+      views: 601
       reposts: 1
       comments: !c |-
         G7gA4J0JNk6oR3kXHkR1e8LjJgk0wySIsusPqAm4LKJkF3MbO/OKYRiFlQ1cha2DQw5crhi0ADAI
@@ -564,7 +564,7 @@
     - service: tg
       id: 868
       published: 2025-06-01-18-25-50
-      updated: 2025-09-10-17-18-00
+      updated: 2025-09-17-18-30-06
       followers: 742
       likes: 61
       views: 564
@@ -775,14 +775,14 @@
     - service: vk
       id: 2119
       published: 2025-02-08-18-09-23
-      updated: 2025-09-10-17-21-24
+      updated: 2025-09-17-18-33-19
       followers: 1062
       likes: 38
       views: 390
     - service: tg
       id: 701
       published: 2025-02-08-18-09-32
-      updated: 2025-09-10-17-20-04
+      updated: 2025-09-17-18-32-05
       followers: 672
       likes: 54
       views: 541
@@ -935,7 +935,7 @@
     - service: vk
       id: 2120
       published: 2025-02-09-18-09-21
-      updated: 2025-09-10-17-21-23
+      updated: 2025-09-17-18-33-17
       followers: 1063
       likes: 43
       views: 434
@@ -943,10 +943,10 @@
     - service: tg
       id: 702
       published: 2025-02-09-18-09-27
-      updated: 2025-09-10-17-20-04
+      updated: 2025-09-17-18-32-04
       followers: 673
       likes: 61
-      views: 523
+      views: 524
 2019-03-04-evening-road:
   title: Evening Road
   titleRu: Вечерняя дорога
@@ -1102,10 +1102,10 @@
     - service: tg
       id: 603
       published: 2024-11-22-18-11-36
-      updated: 2025-09-10-17-21-39
+      updated: 2025-09-17-18-33-43
       followers: 574
       likes: 71
-      views: 1527
+      views: 1528
 2019-03-18-misty-pairs:
   title: Misty Pairs
   titleRu: Туманные пары
@@ -1527,7 +1527,7 @@
     - service: tg
       id: 630
       published: 2024-12-19-18-10-59
-      updated: 2025-09-10-17-20-57
+      updated: 2025-09-17-18-32-54
       followers: 584
       likes: 71
       views: 592
@@ -1842,7 +1842,7 @@
     - service: tg
       id: 592
       published: 2024-11-11-18-10-12
-      updated: 2025-09-10-17-21-49
+      updated: 2025-09-17-18-33-53
       followers: 564
       likes: 65
       views: 571
@@ -2088,7 +2088,7 @@
     - service: vk
       id: 2098
       published: 2025-01-30-18-10-52
-      updated: 2025-09-10-17-21-39
+      updated: 2025-09-17-18-33-33
       followers: 1057
       likes: 41
       views: 368
@@ -2096,7 +2096,7 @@
     - service: tg
       id: 689
       published: 2025-01-30-18-10-59
-      updated: 2025-09-10-17-20-10
+      updated: 2025-09-17-18-32-14
       followers: 661
       likes: 74
       views: 697
@@ -2329,7 +2329,7 @@
     - service: vk
       id: 2086
       published: 2025-01-25-18-09-30
-      updated: 2025-09-10-17-21-47
+      updated: 2025-09-17-18-33-43
       followers: 1054
       likes: 33
       views: 329
@@ -2337,7 +2337,7 @@
     - service: tg
       id: 681
       published: 2025-01-25-18-09-38
-      updated: 2025-09-10-17-20-20
+      updated: 2025-09-17-18-32-17
       followers: 658
       likes: 64
       views: 566
@@ -2393,10 +2393,10 @@
     - service: vk
       id: 2362
       published: 2025-05-17-18-24-00
-      updated: 2025-09-10-17-18-52
+      updated: 2025-09-17-18-30-55
       followers: 1300
       likes: 66
-      views: 544
+      views: 546
       reposts: 2
       comments: !c |-
         G3IA+I3TZXZoRb7s+VND+DWLAhaR8BjThu624iWZ97DLbeys7XiORCuoJkUYpNDS7+izj0Aep8tN
@@ -2404,10 +2404,10 @@
     - service: tg
       id: 847
       published: 2025-05-17-19-13-22
-      updated: 2025-09-10-17-18-24
+      updated: 2025-09-17-18-30-21
       followers: 737
       likes: 69
-      views: 514
+      views: 517
 2019-10-22-the-wind-is-getting-stronger:
   title: The Wind Is Getting Stronger
   titleRu: Ветер крепчает
@@ -2461,7 +2461,7 @@
     - service: tg
       id: 671
       published: 2025-01-18-18-09-39
-      updated: 2025-09-10-17-20-25
+      updated: 2025-09-17-18-32-22
       followers: 655
       likes: 65
       views: 656
@@ -2469,7 +2469,7 @@
     - service: vk
       id: 2070
       published: 2025-01-18-19-01-37
-      updated: 2025-09-10-17-21-57
+      updated: 2025-09-17-18-33-57
       followers: 1054
       likes: 41
       views: 360

@@ -438,6 +438,19 @@
       followers: 350
       likes: 63
       views: 616
+    - service: ig
+      id: DOtq132Df4D
+      mediaId: '18076583375050758'
+      published: 2025-09-17-18-34-29
+      followers: 1583
+    - service: vk
+      id: 2655
+      published: 2025-09-17-18-34-35
+      followers: 1422
+    - service: tg
+      id: 988
+      published: 2025-09-17-18-34-38
+      followers: 797
 2024-03-12-neloth:
   title: Neloth
   titleRu: Нелот
@@ -572,10 +585,10 @@
     - service: vk
       id: 2462
       published: 2025-06-13-18-28-21
-      updated: 2025-09-10-17-17-55
+      updated: 2025-09-17-18-29-59
       followers: 1323
       likes: 75
-      views: 583
+      views: 585
       reposts: 1
       comments: !c |-
         G2YA+C2Sx51PqajnjgRVuyc8fdUAixJsEok82XUbO2s2rgWCGBk049gDm/mgXtvduqXsbFrZZacm
@@ -583,10 +596,10 @@
     - service: tg
       id: 884
       published: 2025-06-13-18-28-25
-      updated: 2025-09-10-17-17-48
+      updated: 2025-09-17-18-29-56
       followers: 747
       likes: 78
-      views: 830
+      views: 832
       comments: !c iwuAkZPLQnl2qd3KAACra2F3YXpha3kyMjOgAw==
 2024-03-18-evening-on-azuras-coast: 2017-05-18-evening-on-azuras-coast
 2024-03-19-dirty-muriels-cornerclub:
@@ -731,18 +744,18 @@
     - service: vk
       id: 2500
       published: 2025-07-01-18-23-33
-      updated: 2025-09-10-17-17-31
+      updated: 2025-09-17-18-29-34
       followers: 1333
       likes: 50
-      views: 546
+      views: 548
       reposts: 5
     - service: tg
       id: 904
       published: 2025-07-01-18-23-37
-      updated: 2025-09-10-17-17-32
+      updated: 2025-09-17-18-29-41
       followers: 760
       likes: 60
-      views: 729
+      views: 734
       comments: !c iwuAkZPLQnl8dLuPAACra2F3YXpha3kyMjOgAw==
 2024-03-24-dark-sanctuary-of-dark: 2018-05-09-dark-sanctuary-of-dark
 2024-03-25-bridge-at-ghostfence:
@@ -1126,14 +1139,14 @@
     - service: vk
       id: 2458
       published: 2025-06-09-18-28-37
-      updated: 2025-09-10-17-18-00
+      updated: 2025-09-17-18-30-05
       followers: 1318
       likes: 43
-      views: 354
+      views: 356
     - service: tg
       id: 880
       published: 2025-06-09-18-28-42
-      updated: 2025-09-10-17-17-52
+      updated: 2025-09-17-18-29-59
       followers: 745
       likes: 78
       views: 608
@@ -1200,18 +1213,18 @@
     - service: vk
       id: 2479
       published: 2025-06-21-18-24-51
-      updated: 2025-09-10-17-17-42
+      updated: 2025-09-17-18-29-44
       followers: 1327
       likes: 59
-      views: 479
+      views: 481
       reposts: 1
     - service: tg
       id: 892
       published: 2025-06-21-18-24-56
-      updated: 2025-09-10-17-17-39
+      updated: 2025-09-17-18-29-49
       followers: 752
       likes: 61
-      views: 899
+      views: 901
       comments: !c iw2AkZPLQnl5PH6tAACra2F3YXpha3kyMjOk8J+SpQM=
 2024-04-09-telvanni-council-house:
   title: Telvanni Council House
@@ -1524,24 +1537,24 @@
       id: DMs7zZmsm5-
       mediaId: '18087010792765166'
       published: 2025-07-29-18-40-41
-      updated: 2025-09-10-17-17-19
+      updated: 2025-09-17-18-29-17
       followers: 1573
       likes: 118
     - service: vk
       id: 2544
       published: 2025-07-29-18-40-47
-      updated: 2025-09-10-17-17-18
+      updated: 2025-09-17-18-29-18
       followers: 1355
       likes: 37
-      views: 571
+      views: 577
       reposts: 2
     - service: tg
       id: 931
       published: 2025-07-29-18-40-51
-      updated: 2025-09-10-17-17-20
+      updated: 2025-09-17-18-29-19
       followers: 770
       likes: 69
-      views: 637
+      views: 648
       comments: !c iw+AkZPLQnmGScoDgACra2F3YXpha3kyMjOo8J+HqPCfh7MD
 2024-04-21-a-little-joy-for-hard-worker: 2018-03-02-a-little-joy-for-hard-worker
 2024-04-22-sunset-over-molag-amur:
@@ -2374,18 +2387,18 @@
     - service: vk
       id: 2466
       published: 2025-06-15-18-25-37
-      updated: 2025-09-10-17-17-51
+      updated: 2025-09-17-18-29-56
       followers: 1328
       likes: 56
-      views: 485
+      views: 487
       reposts: 1
     - service: tg
       id: 886
       published: 2025-06-15-18-25-41
-      updated: 2025-09-10-17-17-46
+      updated: 2025-09-17-18-29-55
       followers: 747
       likes: 69
-      views: 608
+      views: 609
       comments: !c iw2AkZPLQnl3oFvXAACra2F3YXpha3kyMjOk8J+RjAM=
 2024-06-10-utensil:
   title: Utensil
@@ -2554,10 +2567,10 @@
     - service: vk
       id: 2648
       published: 2025-09-13-18-25-04
-      updated: 2025-09-16-17-17-50
+      updated: 2025-09-17-18-29-12
       followers: 1419
-      likes: 23
-      views: 338
+      likes: 26
+      views: 360
       comments: !c |-
         GzoBIBwHuTnqwsoqv9JJEBFxo8i6vEkaDyFNsoAr8eAFX/ZU3YT2CIlSy/qF8r5FWA6vjXh+vPFs
         glFfyd/UBI9QOjnTA0F0wSCQgO7aEg6oeaI5D+n5khhtZOX9/Nn58vG6hu/wBhQQzLoQ+mB3h+hg
@@ -2566,10 +2579,10 @@
     - service: tg
       id: 982
       published: 2025-09-13-18-25-07
-      updated: 2025-09-16-17-17-51
+      updated: 2025-09-17-18-29-16
       followers: 799
-      likes: 58
-      views: 261
+      likes: 61
+      views: 275
       comments: !c |-
         G40AIIyUqqNzNHTNA3nw1Ap/e32wiKYHX0T5BDagia3zRn336eRAD3ggfmK1QAowCoDDwENWmkAQ
         3sxrNPrKjFcQPoBXoDVarwUdy3Ln/27+Vg/qDADPQssr0wqLKt+PBfjBXR8aYSftj1ZIZc8zBmxX
@@ -3148,7 +3161,7 @@
     - service: tg
       id: 613
       published: 2024-12-02-18-11-24
-      updated: 2025-09-10-17-21-19
+      updated: 2025-09-17-18-33-15
       followers: 575
       likes: 74
       views: 550
@@ -3207,7 +3220,7 @@
     - service: tg
       id: 614
       published: 2024-12-03-22-09-13
-      updated: 2025-09-10-17-21-18
+      updated: 2025-09-17-18-33-14
       followers: 574
       likes: 57
       views: 510
@@ -3252,7 +3265,7 @@
     - service: tg
       id: 615
       published: 2024-12-04-19-10-20
-      updated: 2025-09-10-17-21-17
+      updated: 2025-09-17-18-33-13
       followers: 574
       likes: 64
       views: 605
@@ -3302,7 +3315,7 @@
     - service: tg
       id: 616
       published: 2024-12-05-18-10-19
-      updated: 2025-09-10-17-21-16
+      updated: 2025-09-17-18-33-13
       followers: 578
       likes: 73
       views: 564
@@ -3337,7 +3350,7 @@
     - service: tg
       id: 617
       published: 2024-12-06-18-11-36
-      updated: 2025-09-10-17-21-16
+      updated: 2025-09-17-18-33-12
       followers: 578
       likes: 59
       views: 522
@@ -3388,7 +3401,7 @@
     - service: tg
       id: 618
       published: 2024-12-07-18-10-10
-      updated: 2025-09-10-17-21-16
+      updated: 2025-09-17-18-33-12
       followers: 579
       likes: 67
       views: 542
@@ -3429,7 +3442,7 @@
     - service: tg
       id: 619
       published: 2024-12-08-18-10-15
-      updated: 2025-09-10-17-21-13
+      updated: 2025-09-17-18-33-11
       followers: 581
       likes: 64
       views: 515
@@ -3471,7 +3484,7 @@
     - service: tg
       id: 620
       published: 2024-12-09-19-02-22
-      updated: 2025-09-10-17-21-13
+      updated: 2025-09-17-18-33-11
       followers: 580
       likes: 63
       views: 521
@@ -3507,7 +3520,7 @@
     - service: tg
       id: 622
       published: 2024-12-11-18-16-12
-      updated: 2025-09-10-17-21-11
+      updated: 2025-09-17-18-33-09
       followers: 581
       likes: 69
       views: 657
@@ -3560,7 +3573,7 @@
     - service: tg
       id: 623
       published: 2024-12-12-18-11-57
-      updated: 2025-09-10-17-21-11
+      updated: 2025-09-17-18-33-08
       followers: 580
       likes: 64
       views: 654
@@ -3616,10 +3629,10 @@
     - service: tg
       id: 638
       published: 2024-12-26-19-32-13
-      updated: 2025-09-10-17-20-46
+      updated: 2025-09-17-18-32-47
       followers: 626
       likes: 74
-      views: 994
+      views: 995
 2024-12-27-tiny-boat:
   title: Tiny Boat
   titleRu: Маленькая лодочка
@@ -3651,7 +3664,7 @@
     - service: tg
       id: 639
       published: 2024-12-27-18-10-46
-      updated: 2025-09-10-17-20-45
+      updated: 2025-09-17-18-32-47
       followers: 631
       likes: 68
       views: 739
@@ -3699,7 +3712,7 @@
     - service: tg
       id: 640
       published: 2024-12-28-18-09-36
-      updated: 2025-09-10-17-20-44
+      updated: 2025-09-17-18-32-46
       followers: 638
       likes: 75
       views: 651
@@ -3748,7 +3761,7 @@
     - service: tg
       id: 642
       published: 2024-12-30-18-10-55
-      updated: 2025-09-10-17-20-42
+      updated: 2025-09-17-18-32-44
       followers: 642
       likes: 79
       views: 993
@@ -3794,7 +3807,7 @@
     - service: tg
       id: 643
       published: 2024-12-31-18-10-35
-      updated: 2025-09-10-17-20-42
+      updated: 2025-09-17-18-32-44
       followers: 643
       likes: 69
       views: 595
