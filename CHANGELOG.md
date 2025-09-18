@@ -2,6 +2,25 @@
 
 All notable changes to this project will be documented in this file.
 
+## [2.6.0](https://github.com/dehero/mwscr/compare/v2.5.0...v2.6.0) (2025-09-18)
+
+### Features
+
+- **site:** enable Recency filter for Extras
+  ([645adf4](https://github.com/dehero/mwscr/commit/645adf43e9aefd504b7802753cf3dd0987bc8088))
+- **site:** use RadioGroup for post type filter
+  ([b89a86d](https://github.com/dehero/mwscr/commit/b89a86d4ba16f12e79aa3ef01a96b789e827939e))
+
+### Bug Fixes
+
+- **site:** use correct post type titles for multiple posts selection
+  ([744b03e](https://github.com/dehero/mwscr/commit/744b03e1096dccfe545797f0475e229bdd1a7b9e))
+
+### Documentation
+
+- add topics for missing post types, rename Shot-Set to Shot Compilation
+  ([9b86512](https://github.com/dehero/mwscr/commit/9b865121cd8eda4656219d0b2f0060f2544f792c))
+
 ## [2.5.0](https://github.com/dehero/mwscr/compare/v2.4.0...v2.5.0) (2025-09-17)
 
 ### Features
