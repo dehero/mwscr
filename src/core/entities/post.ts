@@ -194,9 +194,9 @@ export const postTypeDescriptors = Object.freeze<Record<PostType, PostTypeDescri
     aspectRatio: '1/1',
   },
   'shot-set': {
-    title: 'Shot-Set',
+    title: 'Shot Compilation',
     titleRu: 'Подборка',
-    titleMultiple: 'Shot-Sets',
+    titleMultiple: 'Shot Compilations',
     titleMultipleRu: 'Подборки',
     letter: 'H',
     aspectRatio: '1/1',

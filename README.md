@@ -30,21 +30,24 @@ If you want to participate in the project, please read the [contributing guideli
 
 ### Main post types
 
-- `shot` - square screenshot;
-- `shot-set` - thematic set of four previously published square screenshots;
-- `wallpaper` - rectangular screenshot suitable as desktop wallpaper;
-- `wallpaper-v` - vertical screenshot suitable as mobile phone wallpaper;
-- `clip` - a square video up to 1 minute long;
-- `video` - rectangular video up to 1 hour long.
+- [Shot](https://mwscr.dehero.site/help/shot/) - square screenshot;
+- [Shot Compilation](https://mwscr.dehero.site/help/shot-set/) - thematic set of four previously published square
+  screenshots;
+- [Wallpaper](https://mwscr.dehero.site/help/wallpaper/) - rectangular screenshot suitable as desktop wallpaper;
+- [Vertical Wallpaper](https://mwscr.dehero.site/help/wallpaper-v/) - vertical screenshot suitable as mobile phone
+  wallpaper;
+- [Clip](https://mwscr.dehero.site/help/clip/) - a square video up to 1 minute long;
+- [Video](https://mwscr.dehero.site/help/video/) - rectangular video up to 1 hour long.
 
-### Additional post types
+### Extra post types
 
-- `news` - project news;
-- `mention` - mention of the project;
-- `photoshop` - a photomontage based on a previously published screenshot;
-- `redrawing` - a drawing based on a previously published screenshot;
-- `outtakes` - interesting screenshots that were rejected or violate the rules of the project;
-- `achievement` - a special achievement in the project or in the game.
+- [News](https://mwscr.dehero.site/help/news/) - project news;
+- [Mention](https://mwscr.dehero.site/help/mention/) - mention of the project;
+- [Photoshop](https://mwscr.dehero.site/help/photoshop/) - a photomontage based on a previously published screenshot;
+- [Redrawing](https://mwscr.dehero.site/help/redrawing/) - a drawing based on a previously published screenshot;
+- [Outtakes](https://mwscr.dehero.site/help/outtakes/) - interesting screenshots that were rejected or violate the rules
+  of the project;
+- [Achievement](https://mwscr.dehero.site/help/achievement/) - a special achievement in the project or in the game.
 
 ### Publication
 
@@ -56,7 +59,7 @@ The post is published simultaneously on all project accounts that support this t
 includes:
 
 - title;
-- description (if any)
+- description (if any);
 - author (if the author is not the project administrator);
 - requester (if the post was made by request);
 - tags;

@@ -349,9 +349,10 @@ The title should be filled in English and translated into Russian (for publicati
 
 #### Author
 
-The project contributor who proposed the original work for publication. For `redrawing` type posts, the first author is
-the author of the drawing, and the second author is the author of the original post. For `shot-set' posts, the authors
-of all images in the set are listed.
+The project contributor who proposed the original work for publication. For
+[Redrawing](https://mwscr.dehero.site/help/redrawing/) type posts, the first author is the author of the drawing, and
+the second author is the author of the original post. For [Shot Compilation]((https://mwscr.dehero.site/help/shot-set/)
+posts, the authors of all images in the set are listed.
 
 Each of these authors must be added to the [project members list](data/users.yml) beforehand.
 
