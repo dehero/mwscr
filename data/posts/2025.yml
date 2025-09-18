@@ -2413,3 +2413,29 @@
 2025-09-15-1-at-the-edge-of-sheogorad: 2017-11-18-at-the-edge-of-sheogorad
 2025-09-16-1-puzzled-ashlanders: 2017-12-07-puzzled-ashlanders
 2025-09-17-1-gray-thorns: 2024-03-11-gray-thorns
+2025-09-18-1-the-path-to-madness:
+  title: The Path to Madness
+  titleRu: Путь к безумию
+  placement: Indoors
+  location: Morvayn Manor
+  content: store:/shots/2025-09-18-1-the-path-to-madness.png
+  type: shot
+  author: dehero
+  engine: OpenMW
+  tags:
+    - candle
+  mark: A2
+  posts:
+    - service: ig
+      id: DOwPKuclQTK
+      mediaId: '18142983676423127'
+      published: 2025-09-18-18-30-23
+      followers: 1584
+    - service: vk
+      id: 2657
+      published: 2025-09-18-18-30-28
+      followers: 1423
+    - service: tg
+      id: 989
+      published: 2025-09-18-18-30-31
+      followers: 798

@@ -838,24 +838,27 @@
       id: DOl7ewGDYaa
       mediaId: '18307062892223016'
       published: 2025-09-14-18-25-57
-      updated: 2025-09-17-18-29-10
+      updated: 2025-09-18-18-29-44
       followers: 1584
       likes: 63
     - service: vk
       id: 2651
       published: 2025-09-14-18-26-04
-      updated: 2025-09-17-18-29-05
+      updated: 2025-09-18-18-29-45
       followers: 1419
-      likes: 35
-      views: 258
-      reposts: 1
+      likes: 51
+      views: 780
+      reposts: 2
+      comments: !c |-
+        G1oA4MW+Py2EAQloJauUWOjbT7j08YDUcgdS9+E1IZpwBJICyFpevnRWf6uWC53hOa7vMIk5vut4
+        xl8uMnXmzQsaPInjxIgdF0WYRRR4EscTD5EC7JhJoQI=
     - service: tg
       id: 983
       published: 2025-09-14-18-26-07
-      updated: 2025-09-17-18-29-13
+      updated: 2025-09-18-18-29-49
       followers: 797
-      likes: 59
-      views: 257
+      likes: 61
+      views: 280
       comments: !c |-
         CyiAk5PLQnmUpgwVgACrYm9icm92bmlrb3ak8J+PsJPLQnmUn1vtAACqc29sLXN1bmljaKTwn4yd
         k8tCeZSbFbAAAKtrYXdhemFreTIyM6Twn5iOAw==
@@ -3183,7 +3186,7 @@
       id: DOgxwPGiSJl
       mediaId: '18089682832640017'
       published: 2025-09-12-18-24-47
-      updated: 2025-09-17-18-29-12
+      updated: 2025-09-18-18-29-46
       followers: 1584
       likes: 63
     - service: vk
