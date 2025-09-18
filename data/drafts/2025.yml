@@ -225,13 +225,18 @@ dehero.2025-08-26-23-01-26:
   author: dehero
   engine: OpenMW
 dehero.2025-08-26-23-08-10:
+  title: The Path to Madness
+  titleRu: Путь к безумию
   placement: Indoors
   location: Morvayn Manor
-  content:
-    - store:/inbox/dehero.2025-08-26-23-08-10.png
-    - store:/inbox/dehero.2025-08-26-23-08-10.1.png
+  content: store:/inbox/dehero.2025-08-26-23-08-10.1.png
+  trash: store:/inbox/dehero.2025-08-26-23-08-10.png
   type: shot
   author: dehero
+  engine: OpenMW
+  tags:
+    - candle
+  mark: A2
 dehero.2025-08-26-23-09-44:
   placement: Indoors
   location: Morvayn Manor
