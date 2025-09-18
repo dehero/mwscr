@@ -92,7 +92,7 @@ a2-enkelli:
   profiles:
     - service: tg
       id: '7258424423'
-      updated: 2025-09-18-17-17-30
+      updated: 2025-09-18-17-59-08
       accessHash: '969825927170686844'
       username: A2_Enkelli
       name: †† elli ††
@@ -413,7 +413,7 @@ ansis:
   profiles:
     - service: tg
       id: '517050552'
-      updated: 2025-09-18-17-17-28
+      updated: 2025-09-18-17-59-07
       accessHash: '5231096655311395455'
       username: ansis
       name: ansis
@@ -837,7 +837,7 @@ caius-cosades:
   profiles:
     - service: tg
       id: '6483220506'
-      updated: 2025-09-18-17-17-28
+      updated: 2025-09-18-17-59-07
       accessHash: '-5537197680289822260'
       username: Gatemate7
       botChatId: 6483220506
@@ -1132,7 +1132,7 @@ danya-r:
   profiles:
     - service: tg
       id: '6217540848'
-      updated: 2025-09-18-17-17-31
+      updated: 2025-09-18-17-59-08
       accessHash: '144997878637800057'
       name: 🏝ᦔꪖꪀꪗꪖ ᦓꫝꪖρꪮᦓꫝꪀ꠸ᛕꪮꪜ🏝
       avatar: store:/avatars/tg-5357362473990225463.jpg
@@ -1358,6 +1358,12 @@ digitalboyare:
       username: digitalboyare
       name: Kirill Shalashov
       avatar: store:/avatars/ig-5c488821.jpg
+dima-gizatullin:
+  profiles:
+    - service: tg
+      id: '6249390178'
+      botChatId: 6249390178
+      name: Дима Гизатуллин
 dima-sery:
   profiles:
     - service: tg
@@ -1888,7 +1894,7 @@ georrrrrg:
   profiles:
     - service: tg
       id: '1949040922'
-      updated: 2025-09-18-17-17-30
+      updated: 2025-09-18-17-59-08
       accessHash: '-2007640679099785628'
       username: Georrrrrg
       name: Егор
@@ -2575,7 +2581,7 @@ kawazaky223:
   profiles:
     - service: tg
       id: '5641856113'
-      updated: 2025-09-18-17-17-31
+      updated: 2025-09-18-17-59-09
       accessHash: '7421309771527577818'
       username: Kawazaky223
       name: Максим
@@ -4217,7 +4223,7 @@ sarudelsur:
   profiles:
     - service: tg
       id: '8446161342'
-      updated: 2025-09-18-17-17-31
+      updated: 2025-09-18-17-59-09
       accessHash: '-2612313514511119416'
       username: sarudelsur
       name: Hozu

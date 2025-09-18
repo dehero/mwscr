@@ -227,7 +227,9 @@ dehero.2025-08-26-23-01-26:
 dehero.2025-08-26-23-08-10:
   placement: Indoors
   location: Morvayn Manor
-  content: store:/inbox/dehero.2025-08-26-23-08-10.png
+  content:
+    - store:/inbox/dehero.2025-08-26-23-08-10.png
+    - store:/inbox/dehero.2025-08-26-23-08-10.1.png
   type: shot
   author: dehero
 dehero.2025-08-26-23-09-44:
