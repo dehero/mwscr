@@ -311,7 +311,8 @@ export function selectPostInfosResultToString(count: number, params: SelectPostI
   }
 
   if (params.type) {
-    result.push(`${postTypeDescriptors[params.type].title.toLocaleLowerCase()}${count !== 1 ? 's' : ''}`);
+    const { title, titleMultiple } = postTypeDescriptors[params.type];
+    result.push((count !== 1 ? titleMultiple : title).toLocaleLowerCase());
   } else {
     result.push(`post${count !== 1 ? 's' : ''}`);
   }
