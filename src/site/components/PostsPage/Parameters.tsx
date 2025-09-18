@@ -297,7 +297,7 @@ export const Parameters: Component<ParametersProps> = (props) => {
               <Show when={!props.routeInfo.meta().filters || props.routeInfo.meta().filters!.includes('type')}>
                 <Label label="Type" labelClass={styles.labelWithFixedWidth}>
                   <div class={styles.selectWrapper}>
-                    <Select
+                    <RadioGroup
                       name="type"
                       options={props.parameters.typeOptions()}
                       value={props.parameters.type()}
