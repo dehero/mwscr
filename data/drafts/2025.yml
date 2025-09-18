@@ -247,6 +247,26 @@ dehero.2025-08-26-23-19-12-2:
   author: dehero
   engine: OpenMW
   addon: Bloodmoon
+dehero.2025-09-18-08-29-02:
+  title: Foggy Repetitions
+  titleRu: Туманные повторы
+  placement: Outdoors
+  location: Ascadian Isles Region
+  content:
+    - store:/shots/2024-03-02-queue.png
+    - store:/shots/2019-03-18-misty-pairs.png
+    - store:/shots/2022-07-08-squad.png
+    - store:/shots/2022-06-30-rivals.png
+  trash: store:/trash/dehero.2022-06-29-22-45-03.1.png
+  type: shot-set
+  author: dehero
+  engine: OpenMW
+  tags:
+    - tree
+    - mushroom
+    - fog
+    - netch
+  mark: A2
 ohsweetnazareth.2025-05-02-keenings-respite-b6ff886e:
   title: Keening's Respite
   content: store:/inbox/ohsweetnazareth.2025-05-02-keenings-respite-b6ff886e.png
