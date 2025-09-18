@@ -10192,10 +10192,10 @@
     - service: vk
       id: 2560
       published: 2025-08-06-18-25-35
-      updated: 2025-09-10-23-18-14
+      updated: 2025-09-18-01-25-41
       followers: 1360
-      likes: 42
-      views: 399
+      likes: 43
+      views: 405
       reposts: 1
     - service: tg
       id: 943
@@ -14705,24 +14705,24 @@
       id: DOrFi8CDq8p
       mediaId: '18326558461226746'
       published: 2025-09-16-18-30-08
-      updated: 2025-09-17-23-17-27
+      updated: 2025-09-18-01-25-46
       followers: 1583
       likes: 55
     - service: vk
       id: 2654
       published: 2025-09-16-18-30-15
-      updated: 2025-09-17-23-17-24
+      updated: 2025-09-18-01-25-40
       followers: 1420
       likes: 30
-      views: 158
+      views: 162
       reposts: 3
     - service: tg
       id: 987
       published: 2025-09-16-18-30-21
-      updated: 2025-09-17-23-17-29
+      updated: 2025-09-18-01-25-43
       followers: 797
-      likes: 50
-      views: 204
+      likes: 51
+      views: 206
       comments: !c ixiAkpPLQnmVjuKHgACqc2FydWRlbHN1cqCTy0J5lWGiDoAAq2thd2F6YWt5MjIzpPCfjJ8D
 2017-12-08-lower-circle:
   title: Lower Circle

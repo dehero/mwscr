@@ -275,20 +275,20 @@
     - service: vk
       id: 2527
       published: 2025-07-23-18-40-24
-      updated: 2025-09-10-23-18-16
+      updated: 2025-09-18-01-25-46
       followers: 1349
       likes: 36
-      views: 387
+      views: 393
       comments: !c |-
         ixqAkZPLQnmDifuygACwc2VyZ2V5LWNodXJiYW5vdrnQltGL0YDQvdCw0Y8g0LHQvtGA0L7QtNCw
         Aw==
     - service: tg
       id: 925
       published: 2025-07-23-18-40-30
-      updated: 2025-09-10-23-18-14
+      updated: 2025-09-18-01-25-44
       followers: 765
       likes: 67
-      views: 566
+      views: 574
       comments: !c iwuAkZPLQnmDjDrkgACra2F3YXpha3kyMjOgAw==
     - service: ig
       id: DMgD1nltOXF
