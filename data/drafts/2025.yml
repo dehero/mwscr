@@ -86,11 +86,19 @@ dehero.2025-05-23-e1e29151:
       Remake old Morrowind screenshots (https://www.imperial-library.info/content/morrowind-screenshots) published by
       Bethesda itself during the promotion of the game.
 dehero.2025-06-01-15-04-24:
-  content:
-    - store:/inbox/dehero.2025-06-01-15-04-24.png
-    - store:/inbox/dehero.2025-06-01-15-04-24.1.png
+  title: Near the Fence
+  titleRu: У Предела
+  placement: Outdoors
+  location: Ashlands Region
+  content: store:/inbox/dehero.2025-06-01-15-04-24.1.png
+  trash: store:/inbox/dehero.2025-06-01-15-04-24.png
   type: shot
   author: dehero
+  engine: OpenMW
+  tags:
+    - ghostfence
+    - tree
+  mark: B1
 dehero.2025-06-01-15-06-11:
   content:
     - store:/inbox/dehero.2025-06-01-15-06-11.png
