@@ -92,7 +92,7 @@ a2-enkelli:
   profiles:
     - service: tg
       id: '7258424423'
-      updated: 2025-09-19-20-21-20
+      updated: 2025-09-19-21-17-31
       accessHash: '969825927170686844'
       username: A2_Enkelli
       name: †† elli ††
@@ -519,7 +519,7 @@ arya-stark:
   profiles:
     - service: vk
       id: '820702664'
-      updated: 2025-09-19-20-21-23
+      updated: 2025-09-19-21-17-32
       username: id820702664
       name: Арья Старк
       avatar: store:/avatars/vk-689aa89d.jpg
@@ -583,7 +583,7 @@ balmora-blue:
   profiles:
     - service: vk
       id: '319590859'
-      updated: 2025-09-19-20-21-22
+      updated: 2025-09-19-21-17-32
       username: balmora.blue
       name: Любовь Любовь
       avatar: store:/avatars/vk-daaeb582.jpg
@@ -801,7 +801,7 @@ brg1092:
   profiles:
     - service: tg
       id: '5867861906'
-      updated: 2025-09-18-20-22-09
+      updated: 2025-09-19-21-17-33
       accessHash: '4411929981434940281'
       username: brg1092
       name: 2𝜋
@@ -1478,7 +1478,7 @@ dremarretres:
   profiles:
     - service: vk
       id: '801308664'
-      updated: 2025-09-19-20-21-23
+      updated: 2025-09-19-21-17-32
       username: dremarretres
       name: Джон Шепард
       avatar: store:/avatars/vk-ac4f0700.jpg
@@ -1919,7 +1919,7 @@ ghost63rus:
   profiles:
     - service: vk
       id: '841031998'
-      updated: 2025-09-19-20-21-23
+      updated: 2025-09-19-21-17-32
       username: ghost63rus
       name: Дмитрий Кузнецов
       avatar: store:/avatars/vk-14a464ad.jpg
@@ -2597,7 +2597,7 @@ kawazaky223:
   profiles:
     - service: tg
       id: '5641856113'
-      updated: 2025-09-19-20-21-22
+      updated: 2025-09-19-21-17-33
       accessHash: '7421309771527577818'
       username: Kawazaky223
       name: Максим
@@ -4239,7 +4239,7 @@ sarudelsur:
   profiles:
     - service: tg
       id: '8446161342'
-      updated: 2025-09-19-20-21-21
+      updated: 2025-09-19-21-17-32
       accessHash: '-2612313514511119416'
       username: sarudelsur
       name: Hozu
@@ -5006,7 +5006,7 @@ todor:
   profiles:
     - service: tg
       id: '1305695186'
-      updated: 2025-09-18-20-22-08
+      updated: 2025-09-19-21-17-33
       accessHash: '8819682207926865502'
       name: Todor
       avatar: store:/avatars/tg-5305295556123424826.jpg
