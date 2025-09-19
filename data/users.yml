@@ -92,7 +92,7 @@ a2-enkelli:
   profiles:
     - service: tg
       id: '7258424423'
-      updated: 2025-09-19-18-28-26
+      updated: 2025-09-19-20-21-20
       accessHash: '969825927170686844'
       username: A2_Enkelli
       name: †† elli ††
@@ -406,7 +406,7 @@ anonim:
   profiles:
     - service: tg
       id: '6469120788'
-      updated: 2025-09-19-19-15-47
+      updated: 2025-09-19-20-21-22
       accessHash: '-3557204299452739678'
       name: Аноним
       avatar: store:/avatars/tg-5330526380158482543.jpg
@@ -519,7 +519,7 @@ arya-stark:
   profiles:
     - service: vk
       id: '820702664'
-      updated: 2025-09-19-19-15-45
+      updated: 2025-09-19-20-21-23
       username: id820702664
       name: Арья Старк
       avatar: store:/avatars/vk-689aa89d.jpg
@@ -583,7 +583,7 @@ balmora-blue:
   profiles:
     - service: vk
       id: '319590859'
-      updated: 2025-09-19-19-15-43
+      updated: 2025-09-19-20-21-22
       username: balmora.blue
       name: Любовь Любовь
       avatar: store:/avatars/vk-daaeb582.jpg
@@ -1478,7 +1478,7 @@ dremarretres:
   profiles:
     - service: vk
       id: '801308664'
-      updated: 2025-09-19-19-15-44
+      updated: 2025-09-19-20-21-23
       username: dremarretres
       name: Джон Шепард
       avatar: store:/avatars/vk-ac4f0700.jpg
@@ -1919,7 +1919,7 @@ ghost63rus:
   profiles:
     - service: vk
       id: '841031998'
-      updated: 2025-09-19-19-15-45
+      updated: 2025-09-19-20-21-23
       username: ghost63rus
       name: Дмитрий Кузнецов
       avatar: store:/avatars/vk-14a464ad.jpg
@@ -1996,7 +1996,7 @@ goosevich76:
   profiles:
     - service: tg
       id: '5385620621'
-      updated: 2025-09-19-19-15-52
+      updated: 2025-09-19-20-21-22
       accessHash: '-7130473396589324830'
       username: horwwwaty
       name: choven
@@ -2597,7 +2597,7 @@ kawazaky223:
   profiles:
     - service: tg
       id: '5641856113'
-      updated: 2025-09-19-19-15-51
+      updated: 2025-09-19-20-21-22
       accessHash: '7421309771527577818'
       username: Kawazaky223
       name: Максим
@@ -3641,7 +3641,7 @@ olmer-izdeyla:
   profiles:
     - service: tg
       id: '835160756'
-      updated: 2025-09-17-20-25-56
+      updated: 2025-09-19-20-21-21
       accessHash: '5779481472375422362'
       username: Olmer_Izdeyla
       name: Olmer Izdeyla
@@ -4239,7 +4239,7 @@ sarudelsur:
   profiles:
     - service: tg
       id: '8446161342'
-      updated: 2025-09-19-19-15-52
+      updated: 2025-09-19-20-21-21
       accessHash: '-2612313514511119416'
       username: sarudelsur
       name: Hozu
