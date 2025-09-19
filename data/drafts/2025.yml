@@ -216,13 +216,20 @@ dehero.2025-08-26-22-37-16:
   type: shot
   author: dehero
 dehero.2025-08-26-22-48-17:
+  title: Low Sky Above Mzanchend
+  titleRu: Низкое небо над Мзанчендом
   placement: Outdoors
   location: Mzanchend
-  content:
-    - store:/inbox/dehero.2025-08-26-22-48-17.png
-    - store:/inbox/dehero.2025-08-26-22-48-17.1.png
+  content: store:/inbox/dehero.2025-08-26-22-48-17.1.png
+  trash: store:/inbox/dehero.2025-08-26-22-48-17.png
   type: shot
   author: dehero
+  engine: OpenMW
+  tags:
+    - dwemer
+    - tower
+    - lava
+  mark: B1
 dehero.2025-08-26-23-01-26:
   placement: Indoors
   location: Morvayn Manor
@@ -240,15 +247,21 @@ dehero.2025-08-26-23-09-44:
   author: dehero
   engine: OpenMW
 dehero.2025-08-26-23-19-12-2:
+  title: On Guard
+  titleRu: На страже
   placement: Indoors
   location: Solstheim, Frossel
-  content:
-    - store:/inbox/dehero.2025-08-26-23-19-12-2.png
-    - store:/inbox/dehero.2025-08-26-23-19-12-2.1.png
+  content: store:/inbox/dehero.2025-08-26-23-19-12-2.1.png
+  trash: store:/inbox/dehero.2025-08-26-23-19-12-2.png
   type: shot
   author: dehero
   engine: OpenMW
   addon: Bloodmoon
+  tags:
+    - ice
+    - cave
+    - riekling
+  mark: B1
 dehero.2025-09-18-08-29-02:
   title: Foggy Repetitions
   titleRu: Туманные повторы
