@@ -2581,22 +2581,27 @@
     - service: vk
       id: 2648
       published: 2025-09-13-18-25-04
-      updated: 2025-09-18-18-29-47
+      updated: 2025-09-19-19-16-01
       followers: 1419
-      likes: 28
-      views: 443
+      likes: 32
+      views: 562
       comments: !c |-
-        GzoBIBwHuTnqwsoqv9JJEBFxo8i6vEkaDyFNsoAr8eAFX/ZU3YT2CIlSy/qF8r5FWA6vjXh+vPFs
-        glFfyd/UBI9QOjnTA0F0wSCQgO7aEg6oeaI5D+n5khhtZOX9/Nn58vG6hu/wBhQQzLoQ+mB3h+hg
-        7yTIXRA3gp9rDQf027O0qkVaBykkoi6zKmuf/7+LNEMzxycOd5/DqoPNHal9j7DK/FKuwcvSMdIJ
-        wdByypcZtad+wWZXWAUdgVQwHgXKsjGOAGEsIZBoIRatOnQNQjsTOAE=
+        G4oDACwOzNM/RWCxHtuMSX8k/p+4py3hW//tTBNFEaeFNR54C5wuBJol5+apOlEj+ICxA3iEvKbR
+        /DhxdcAO/81toUsfaGo2S7RZ4t37KoMdDmFYmqGZouq2mB58UFs9uCBeBS/CQ4o30azehm7GARUm
+        mvsYA8fmaRMkTiTwi6aFacLpC75uNTj69grEmV6lyJA2r9ff2fuS3x+n2zuQCSx560upMXpjVmbv
+        Ea9GJ+LTpwb0GX5e4K83nDLHlq6NK8Q+tmDraW6r89hxqRy2K5HUHufwYB1NoJEmEn1vw51xDobh
+        Qf1+eEnp+/VlJJ9f+qIp92zbL/7/h8TzUh5zWJuuYwZCmUR5bQbqjQ6xB/s1PNzKjkLSpY3QeT/g
+        AwUjI+sUgEiCQNPTBwTYCqdZEM5mcpbHBH5kQRRDkQWAP7se/vvJ/5KDGt7ewFOhFQepYHUEImiG
+        Mw0SF8NzUsjKfMWJhV94YOpul1Asq7HAYSrmXDpOvdpw8VA7rlM2sdTeEEkV4Kb8sot0LsdzYSCs
+        C5186ckQxT0/4ovUmiCRN4flgXa/nYV3ga5VBjlHddifXqLZYLCwImKm0OSI4kDy7f/vbs+KYXBy
+        2IBKTDp0V4ppyENmdz4Zf53MngE=
     - service: tg
       id: 982
       published: 2025-09-13-18-25-07
-      updated: 2025-09-18-18-29-51
+      updated: 2025-09-19-19-15-53
       followers: 799
       likes: 61
-      views: 288
+      views: 333
       comments: !c |-
         C1SAlJPLQnmVp1KiAACpZ2VvcnJycnJnpuKYoO+4j5PLQnmUmw0kgACra2F3YXpha3kyMjOk8J+Y
         tpPLQnmUUvsxAACqc2FydWRlbHN1cqCUy0J5lFKjygAAqGJhcmEtZm942TBJIHN0aWxsIGhhdmUg
