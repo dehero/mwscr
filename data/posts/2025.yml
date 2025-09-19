@@ -2431,16 +2431,16 @@
       id: DOwPKuclQTK
       mediaId: '18142983676423127'
       published: 2025-09-18-18-30-23
-      updated: 2025-09-19-17-16-55
+      updated: 2025-09-19-18-28-23
       followers: 1584
-      likes: 78
+      likes: 79
     - service: vk
       id: 2657
       published: 2025-09-18-18-30-28
-      updated: 2025-09-19-17-16-57
+      updated: 2025-09-19-18-28-25
       followers: 1423
       likes: 41
-      views: 1067
+      views: 1104
       reposts: 5
       comments: !c |-
         GxQFACwOzDOfzrA0HC4a5Utjp5wR//3Yz1K5DX+RStIMoZhMt/QT0z2RaGKliO+JEDVj5tIyAQAF
@@ -2457,8 +2457,35 @@
     - service: tg
       id: 989
       published: 2025-09-18-18-30-31
-      updated: 2025-09-19-17-16-57
+      updated: 2025-09-19-18-28-24
       followers: 798
       likes: 46
-      views: 179
+      views: 180
       comments: !c ixiAkpPLQnmV5kZbAACqc2FydWRlbHN1cqCTy0J5leJplgAAq2thd2F6YWt5MjIzpPCfmJ4D
+2025-09-19-1-near-the-fence:
+  title: Near the Fence
+  titleRu: У Предела
+  placement: Outdoors
+  location: Ashlands Region
+  content: store:/shots/2025-09-19-1-near-the-fence.png
+  type: shot
+  author: dehero
+  engine: OpenMW
+  tags:
+    - ghostfence
+    - tree
+  mark: B1
+  posts:
+    - service: ig
+      id: DOyzzyekWF6
+      mediaId: '18073104515141831'
+      published: 2025-09-19-18-29-04
+      followers: 1585
+    - service: vk
+      id: 2670
+      published: 2025-09-19-18-29-09
+      followers: 1426
+    - service: tg
+      id: 990
+      published: 2025-09-19-18-29-13
+      followers: 801
