@@ -86,7 +86,9 @@ dehero.2025-05-23-e1e29151:
       Remake old Morrowind screenshots (https://www.imperial-library.info/content/morrowind-screenshots) published by
       Bethesda itself during the promotion of the game.
 dehero.2025-06-01-15-04-24:
-  content: store:/inbox/dehero.2025-06-01-15-04-24.png
+  content:
+    - store:/inbox/dehero.2025-06-01-15-04-24.png
+    - store:/inbox/dehero.2025-06-01-15-04-24.1.png
   type: shot
   author: dehero
 dehero.2025-06-01-15-06-11:
@@ -193,7 +195,9 @@ dehero.2025-06-04-19-53-43:
 dehero.2025-06-04-19-59-05:
   placement: Outdoors
   location: Assarnatamat
-  content: store:/inbox/dehero.2025-06-04-19-59-05.png
+  content:
+    - store:/inbox/dehero.2025-06-04-19-59-05.png
+    - store:/inbox/dehero.2025-06-04-19-59-05.1.png
   type: shot
   author: dehero
 dehero.2025-08-26-22-30-23:
@@ -214,7 +218,9 @@ dehero.2025-08-26-22-37-16:
 dehero.2025-08-26-22-48-17:
   placement: Outdoors
   location: Mzanchend
-  content: store:/inbox/dehero.2025-08-26-22-48-17.png
+  content:
+    - store:/inbox/dehero.2025-08-26-22-48-17.png
+    - store:/inbox/dehero.2025-08-26-22-48-17.1.png
   type: shot
   author: dehero
 dehero.2025-08-26-23-01-26:
@@ -236,7 +242,9 @@ dehero.2025-08-26-23-09-44:
 dehero.2025-08-26-23-19-12-2:
   placement: Indoors
   location: Solstheim, Frossel
-  content: store:/inbox/dehero.2025-08-26-23-19-12-2.png
+  content:
+    - store:/inbox/dehero.2025-08-26-23-19-12-2.png
+    - store:/inbox/dehero.2025-08-26-23-19-12-2.1.png
   type: shot
   author: dehero
   engine: OpenMW
