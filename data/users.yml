@@ -92,7 +92,7 @@ a2-enkelli:
   profiles:
     - service: tg
       id: '7258424423'
-      updated: 2025-09-19-15-20-27
+      updated: 2025-09-19-16-24-03
       accessHash: '969825927170686844'
       username: A2_Enkelli
       name: †† elli ††
@@ -421,7 +421,7 @@ ansis:
   profiles:
     - service: tg
       id: '517050552'
-      updated: 2025-09-19-15-20-26
+      updated: 2025-09-19-16-24-02
       accessHash: '5231096655311395455'
       username: ansis
       name: ansis
@@ -519,7 +519,7 @@ arya-stark:
   profiles:
     - service: vk
       id: '820702664'
-      updated: 2025-09-19-15-20-25
+      updated: 2025-09-19-16-24-08
       username: id820702664
       name: Арья Старк
       avatar: store:/avatars/vk-689aa89d.jpg
@@ -583,7 +583,7 @@ balmora-blue:
   profiles:
     - service: vk
       id: '319590859'
-      updated: 2025-09-19-15-20-25
+      updated: 2025-09-19-16-24-08
       username: balmora.blue
       name: Любовь Любовь
       avatar: store:/avatars/vk-daaeb582.jpg
@@ -845,7 +845,7 @@ caius-cosades:
   profiles:
     - service: tg
       id: '6483220506'
-      updated: 2025-09-19-15-20-25
+      updated: 2025-09-19-16-24-02
       accessHash: '-5537197680289822260'
       username: Gatemate7
       botChatId: 6483220506
@@ -1140,7 +1140,7 @@ danya-r:
   profiles:
     - service: tg
       id: '6217540848'
-      updated: 2025-09-19-15-20-27
+      updated: 2025-09-19-16-24-03
       accessHash: '144997878637800057'
       name: 🌊𐌃𐌀𐌍𐌙𐌀 𐌔Ƕ𐌀𐌓𐌏𐌔Ƕ𐌍𐌉𐌊𐌏ᕓ🌊
       avatar: store:/avatars/tg-5357362473990225463.jpg
@@ -1478,7 +1478,7 @@ dremarretres:
   profiles:
     - service: vk
       id: '801308664'
-      updated: 2025-09-19-15-20-25
+      updated: 2025-09-19-16-24-08
       username: dremarretres
       name: Джон Шепард
       avatar: store:/avatars/vk-ac4f0700.jpg
@@ -1902,7 +1902,7 @@ georrrrrg:
   profiles:
     - service: tg
       id: '1949040922'
-      updated: 2025-09-19-15-20-26
+      updated: 2025-09-19-16-24-03
       accessHash: '-2007640679099785628'
       username: Georrrrrg
       name: Егор
@@ -1919,10 +1919,10 @@ ghost63rus:
   profiles:
     - service: vk
       id: '841031998'
-      updated: 2025-09-19-15-20-25
+      updated: 2025-09-19-16-24-08
       username: ghost63rus
       name: Дмитрий Кузнецов
-      avatar: store:/avatars/vk-34c6e1c3.jpg
+      avatar: store:/avatars/vk-14a464ad.jpg
 glavinicmartin:
   profiles:
     - service: ig
@@ -2597,7 +2597,7 @@ kawazaky223:
   profiles:
     - service: tg
       id: '5641856113'
-      updated: 2025-09-19-15-20-26
+      updated: 2025-09-19-16-24-03
       accessHash: '7421309771527577818'
       username: Kawazaky223
       name: Максим
@@ -4239,7 +4239,7 @@ sarudelsur:
   profiles:
     - service: tg
       id: '8446161342'
-      updated: 2025-09-19-15-20-26
+      updated: 2025-09-19-16-24-03
       accessHash: '-2612313514511119416'
       username: sarudelsur
       name: Hozu
