@@ -92,7 +92,7 @@ a2-enkelli:
   profiles:
     - service: tg
       id: '7258424423'
-      updated: 2025-09-20-09-18-59
+      updated: 2025-09-20-10-19-13
       accessHash: '969825927170686844'
       username: A2_Enkelli
       name: †† elli ††
@@ -519,7 +519,7 @@ arya-stark:
   profiles:
     - service: vk
       id: '820702664'
-      updated: 2025-09-20-09-19-01
+      updated: 2025-09-20-10-19-16
       username: id820702664
       name: Арья Старк
       avatar: store:/avatars/vk-689aa89d.jpg
@@ -583,7 +583,7 @@ balmora-blue:
   profiles:
     - service: vk
       id: '319590859'
-      updated: 2025-09-20-09-19-00
+      updated: 2025-09-20-10-19-14
       username: balmora.blue
       name: Любовь Любовь
       avatar: store:/avatars/vk-daaeb582.jpg
@@ -1176,7 +1176,7 @@ darkness-rifho:
       deleted: true
     - service: tg
       id: '5704974271'
-      updated: 2025-09-17-21-17-49
+      updated: 2025-09-20-10-19-15
       accessHash: '3506423524566292179'
       username: C4H6O4
       name: Уна
@@ -1478,7 +1478,7 @@ dremarretres:
   profiles:
     - service: vk
       id: '801308664'
-      updated: 2025-09-20-09-19-01
+      updated: 2025-09-20-10-19-14
       username: dremarretres
       name: Джон Шепард
       avatar: store:/avatars/vk-ac4f0700.jpg
@@ -1919,7 +1919,7 @@ ghost63rus:
   profiles:
     - service: vk
       id: '841031998'
-      updated: 2025-09-20-09-19-01
+      updated: 2025-09-20-10-19-14
       username: ghost63rus
       name: Дмитрий Кузнецов
       avatar: store:/avatars/vk-14a464ad.jpg
@@ -2597,7 +2597,7 @@ kawazaky223:
   profiles:
     - service: tg
       id: '5641856113'
-      updated: 2025-09-20-09-19-00
+      updated: 2025-09-20-10-19-16
       accessHash: '7421309771527577818'
       username: Kawazaky223
       name: Максим
@@ -4064,7 +4064,7 @@ redoranar:
   profiles:
     - service: tg
       id: '627928484'
-      updated: 2025-09-19-09-23-15
+      updated: 2025-09-20-10-19-16
       accessHash: '4117269213935533016'
       username: Redoranar
       name: Egor
@@ -4239,7 +4239,7 @@ sarudelsur:
   profiles:
     - service: tg
       id: '8446161342'
-      updated: 2025-09-20-09-19-00
+      updated: 2025-09-20-10-19-14
       accessHash: '-2612313514511119416'
       username: sarudelsur
       name: Hozu
