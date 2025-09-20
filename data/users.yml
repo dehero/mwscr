@@ -92,7 +92,7 @@ a2-enkelli:
   profiles:
     - service: tg
       id: '7258424423'
-      updated: 2025-09-20-01-24-23
+      updated: 2025-09-20-02-54-52
       accessHash: '969825927170686844'
       username: A2_Enkelli
       name: †† elli ††
@@ -519,7 +519,7 @@ arya-stark:
   profiles:
     - service: vk
       id: '820702664'
-      updated: 2025-09-20-01-24-24
+      updated: 2025-09-20-02-54-55
       username: id820702664
       name: Арья Старк
       avatar: store:/avatars/vk-689aa89d.jpg
@@ -583,7 +583,7 @@ balmora-blue:
   profiles:
     - service: vk
       id: '319590859'
-      updated: 2025-09-20-01-24-24
+      updated: 2025-09-20-02-54-54
       username: balmora.blue
       name: Любовь Любовь
       avatar: store:/avatars/vk-daaeb582.jpg
@@ -1478,7 +1478,7 @@ dremarretres:
   profiles:
     - service: vk
       id: '801308664'
-      updated: 2025-09-20-01-24-24
+      updated: 2025-09-20-02-54-54
       username: dremarretres
       name: Джон Шепард
       avatar: store:/avatars/vk-ac4f0700.jpg
@@ -1919,7 +1919,7 @@ ghost63rus:
   profiles:
     - service: vk
       id: '841031998'
-      updated: 2025-09-20-01-24-24
+      updated: 2025-09-20-02-54-54
       username: ghost63rus
       name: Дмитрий Кузнецов
       avatar: store:/avatars/vk-14a464ad.jpg
@@ -2161,7 +2161,7 @@ hyarvar:
   profiles:
     - service: vk
       id: '702302403'
-      updated: 2025-09-17-20-30-12
+      updated: 2025-09-20-02-55-01
       username: hyarvar
       name: Хьярвар Драконорожденный
       avatar: store:/avatars/vk-b20f6d84.jpg
@@ -2597,7 +2597,7 @@ kawazaky223:
   profiles:
     - service: tg
       id: '5641856113'
-      updated: 2025-09-20-01-24-24
+      updated: 2025-09-20-02-54-54
       accessHash: '7421309771527577818'
       username: Kawazaky223
       name: Максим
@@ -4239,7 +4239,7 @@ sarudelsur:
   profiles:
     - service: tg
       id: '8446161342'
-      updated: 2025-09-20-01-24-24
+      updated: 2025-09-20-02-54-53
       accessHash: '-2612313514511119416'
       username: sarudelsur
       name: Hozu
@@ -4363,7 +4363,7 @@ sergey-churbanov:
   profiles:
     - service: vk
       id: '1060712354'
-      updated: 2025-09-19-23-17-42
+      updated: 2025-09-20-02-54-56
       username: id1060712354
       name: Сергей Чурбанов
       avatar: store:/avatars/vk-6499ce8d.jpg
