@@ -2431,16 +2431,16 @@
       id: DOwPKuclQTK
       mediaId: '18142983676423127'
       published: 2025-09-18-18-30-23
-      updated: 2025-09-20-17-14-41
+      updated: 2025-09-20-18-25-03
       followers: 1584
       likes: 86
     - service: vk
       id: 2657
       published: 2025-09-18-18-30-28
-      updated: 2025-09-20-17-14-43
+      updated: 2025-09-20-18-25-02
       followers: 1423
       likes: 52
-      views: 1256
+      views: 1259
       reposts: 5
       comments: !c |-
         GxQFACwOzDOfzrA0HC4a5Utjp5wR//3Yz1K5DX+RStIMoZhMt/QT0z2RaGKliO+JEDVj5tIyAQAF
@@ -2457,7 +2457,7 @@
     - service: tg
       id: 989
       published: 2025-09-18-18-30-31
-      updated: 2025-09-20-17-14-42
+      updated: 2025-09-20-18-25-01
       followers: 798
       likes: 55
       views: 226
@@ -2480,21 +2480,49 @@
       id: DOyzzyekWF6
       mediaId: '18073104515141831'
       published: 2025-09-19-18-29-04
-      updated: 2025-09-20-17-14-39
+      updated: 2025-09-20-18-25-02
       followers: 1585
       likes: 55
     - service: vk
       id: 2670
       published: 2025-09-19-18-29-09
-      updated: 2025-09-20-17-14-37
+      updated: 2025-09-20-18-24-57
       followers: 1426
       likes: 22
-      views: 194
+      views: 207
     - service: tg
       id: 990
       published: 2025-09-19-18-29-13
-      updated: 2025-09-20-17-14-41
+      updated: 2025-09-20-18-25-00
       followers: 801
       likes: 47
       views: 161
       comments: !c ixaAkpPLQnmWNp9ygACqYTItZW5rZWxsaaCTy0J5ljTMaAAAq2thd2F6YWt5MjIzoAM=
+2025-09-20-1-low-sky-above-mzanchend:
+  title: Low Sky Above Mzanchend
+  titleRu: Низкое небо над Мзанчендом
+  placement: Outdoors
+  location: Mzanchend
+  content: store:/shots/2025-09-20-1-low-sky-above-mzanchend.png
+  type: shot
+  author: dehero
+  engine: OpenMW
+  tags:
+    - dwemer
+    - tower
+    - lava
+  mark: B1
+  posts:
+    - service: ig
+      id: DO1YNFQlEUy
+      mediaId: '18067212190993613'
+      published: 2025-09-20-18-25-36
+      followers: 1584
+    - service: vk
+      id: 2671
+      published: 2025-09-20-18-25-41
+      followers: 1428
+    - service: tg
+      id: 991
+      published: 2025-09-20-18-25-44
+      followers: 801
