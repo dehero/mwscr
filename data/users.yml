@@ -92,7 +92,7 @@ a2-enkelli:
   profiles:
     - service: tg
       id: '7258424423'
-      updated: 2025-09-20-23-17-38
+      updated: 2025-09-21-01-41-59
       accessHash: '969825927170686844'
       username: A2_Enkelli
       name: †† elli ††
@@ -471,7 +471,7 @@ arseniy-dyak:
   profiles:
     - service: tg
       id: '8015414871'
-      updated: 2025-09-15-05-20-15
+      updated: 2025-09-21-01-42-00
       accessHash: '-4817807801428753368'
       name: Арсений Дьяк
       avatar: store:/avatars/tg-5269324453400147889.jpg
@@ -2025,11 +2025,11 @@ grozovetz:
   profiles:
     - service: tg
       id: '6450079125'
-      updated: 2025-09-14-01-39-41
+      updated: 2025-09-21-01-42-02
       accessHash: '-8599884052450679527'
       username: grozovetz
       name: Константин
-      avatar: store:/avatars/tg-5424986368993520906.jpg
+      avatar: store:/avatars/tg-5363815902870633196.jpg
 gutzzerk:
   profiles:
     - service: vk
@@ -2597,7 +2597,7 @@ kawazaky223:
   profiles:
     - service: tg
       id: '5641856113'
-      updated: 2025-09-20-23-17-39
+      updated: 2025-09-21-01-42-05
       accessHash: '7421309771527577818'
       username: Kawazaky223
       name: Максим
@@ -3770,7 +3770,7 @@ peteevandrew:
   profiles:
     - service: vk
       id: '307619379'
-      updated: 2025-09-20-23-17-39
+      updated: 2025-09-21-01-41-58
       username: peteevandrew
       name: Андрей Петеев
       avatar: store:/avatars/vk-d3f26d8e.jpg
@@ -3866,7 +3866,7 @@ pohotlivaya-argonianskaya-deva:
   profiles:
     - service: tg
       id: '754205623'
-      updated: 2025-09-14-01-39-41
+      updated: 2025-09-21-01-42-05
       accessHash: '-9198477663948575721'
       username: PohotlivayaArgonianskayaDeva
       name: Илья
@@ -5006,7 +5006,7 @@ todor:
   profiles:
     - service: tg
       id: '1305695186'
-      updated: 2025-09-19-22-18-05
+      updated: 2025-09-21-01-42-05
       accessHash: '8819682207926865502'
       name: Todor
       avatar: store:/avatars/tg-5305295556123424826.jpg
