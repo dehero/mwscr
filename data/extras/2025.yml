@@ -449,22 +449,25 @@
       id: DO5jyBIEXAb
       mediaId: '17930776751982806'
       published: 2025-09-22-09-23-41
-      updated: 2025-09-22-10-21-22
+      updated: 2025-09-22-11-16-44
       followers: 1582
-      likes: 13
+      likes: 19
     - service: vk
       id: 2673
       published: 2025-09-22-09-23-50
-      updated: 2025-09-22-10-21-22
+      updated: 2025-09-22-11-16-43
       followers: 1429
-      likes: 3
-      views: 24
+      likes: 8
+      views: 66
+      comments: !c |-
+        CyeAkZPLQnmXDy0xAACubWFsaWdub3V0c2lkZXLZM9Cn0YPQtNC90L4hINCa0LjRgNC60LHRgNCw
+        0LnQtNC+0Lwg0L3QsNCy0LXRj9C70L4pLgM=
     - service: tg
       id:
         - 992
         - 993
       published: 2025-09-22-09-23-57
-      updated: 2025-09-22-10-21-22
+      updated: 2025-09-22-11-16-44
       followers: 798
-      likes: 26
-      views: 74
+      likes: 28
+      views: 87
