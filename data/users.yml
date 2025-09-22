@@ -2300,7 +2300,7 @@ init-medigel:
   profiles:
     - service: vk
       id: '1063780894'
-      updated: 2025-09-22-21-16-22
+      updated: 2025-09-22-22-17-35
       username: id1063780894
       name: Init Medigel
       avatar: store:/avatars/vk-4eabdc99.jpg
@@ -2605,7 +2605,7 @@ kawazaky223:
   profiles:
     - service: tg
       id: '5641856113'
-      updated: 2025-09-22-21-16-22
+      updated: 2025-09-22-22-17-35
       accessHash: '7421309771527577818'
       username: Kawazaky223
       name: Максим
@@ -3002,7 +3002,7 @@ malignoutsider:
   profiles:
     - service: vk
       id: '104145157'
-      updated: 2025-09-22-21-16-22
+      updated: 2025-09-22-22-17-35
       username: malignoutsider
       name: Роберт Сабиров
       avatar: store:/avatars/vk-8f773362.jpg
@@ -4158,7 +4158,7 @@ roman-fetisov:
   profiles:
     - service: vk
       id: '639887914'
-      updated: 2025-09-15-21-17-59
+      updated: 2025-09-22-22-17-29
       username: id639887914
       name: Роман Фетисов
       avatar: store:/avatars/vk-77942374.jpg
@@ -4247,7 +4247,7 @@ sarudelsur:
   profiles:
     - service: tg
       id: '8446161342'
-      updated: 2025-09-22-06-27-02
+      updated: 2025-09-22-22-17-34
       accessHash: '-2612313514511119416'
       username: sarudelsur
       name: Hozu
@@ -4371,7 +4371,7 @@ sergey-churbanov:
   profiles:
     - service: vk
       id: '1060712354'
-      updated: 2025-09-22-16-24-38
+      updated: 2025-09-22-22-17-33
       username: id1060712354
       name: Сергей Чурбанов
       avatar: store:/avatars/vk-6499ce8d.jpg
@@ -5014,7 +5014,7 @@ todor:
   profiles:
     - service: tg
       id: '1305695186'
-      updated: 2025-09-22-21-16-21
+      updated: 2025-09-22-22-17-30
       accessHash: '8819682207926865502'
       name: Todor
       avatar: store:/avatars/tg-5305295556123424826.jpg
