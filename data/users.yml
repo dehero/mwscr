@@ -92,7 +92,7 @@ a2-enkelli:
   profiles:
     - service: tg
       id: '7258424423'
-      updated: 2025-09-22-06-27-04
+      updated: 2025-09-23-06-28-59
       accessHash: '969825927170686844'
       username: A2_Enkelli
       name: †† elli ††
@@ -406,7 +406,7 @@ anonim:
   profiles:
     - service: tg
       id: '6469120788'
-      updated: 2025-09-22-06-26-50
+      updated: 2025-09-23-06-29-06
       accessHash: '-3557204299452739678'
       name: Аноним
       avatar: store:/avatars/tg-5330526380158482543.jpg
@@ -421,7 +421,7 @@ ansis:
   profiles:
     - service: tg
       id: '517050552'
-      updated: 2025-09-22-06-27-09
+      updated: 2025-09-23-06-28-59
       accessHash: '5231096655311395455'
       username: ansis
       name: ansis
@@ -519,7 +519,7 @@ arya-stark:
   profiles:
     - service: vk
       id: '820702664'
-      updated: 2025-09-23-05-18-18
+      updated: 2025-09-23-06-29-10
       username: id820702664
       name: Арья Старк
       avatar: store:/avatars/vk-689aa89d.jpg
@@ -583,7 +583,7 @@ balmora-blue:
   profiles:
     - service: vk
       id: '319590859'
-      updated: 2025-09-22-06-26-41
+      updated: 2025-09-23-06-29-05
       username: balmora.blue
       name: Любовь Любовь
       avatar: store:/avatars/vk-daaeb582.jpg
@@ -845,7 +845,7 @@ caius-cosades:
   profiles:
     - service: tg
       id: '6483220506'
-      updated: 2025-09-22-06-26-42
+      updated: 2025-09-23-06-28-58
       accessHash: '-5537197680289822260'
       username: Gatemate7
       botChatId: 6483220506
@@ -1140,7 +1140,7 @@ danya-r:
   profiles:
     - service: tg
       id: '6217540848'
-      updated: 2025-09-22-16-24-40
+      updated: 2025-09-23-06-29-06
       accessHash: '144997878637800057'
       name: 🌊𐌃𐌀𐌍𐌙𐌀 𐌔Ƕ𐌀𐌓𐌏𐌔Ƕ𐌍𐌉𐌊𐌏ᕓ🌊
       avatar: store:/avatars/tg-5357362473990225463.jpg
@@ -1478,7 +1478,7 @@ dremarretres:
   profiles:
     - service: vk
       id: '801308664'
-      updated: 2025-09-22-06-26-41
+      updated: 2025-09-23-06-29-05
       username: dremarretres
       name: Джон Шепард
       avatar: store:/avatars/vk-ac4f0700.jpg
@@ -1902,7 +1902,7 @@ georrrrrg:
   profiles:
     - service: tg
       id: '1949040922'
-      updated: 2025-09-22-06-26-58
+      updated: 2025-09-23-06-28-59
       accessHash: '-2007640679099785628'
       username: Georrrrrg
       name: Егор
@@ -1919,10 +1919,10 @@ ghost63rus:
   profiles:
     - service: vk
       id: '841031998'
-      updated: 2025-09-22-06-26-41
+      updated: 2025-09-23-06-29-05
       username: ghost63rus
       name: Дмитрий Кузнецов
-      avatar: store:/avatars/vk-14a464ad.jpg
+      avatar: store:/avatars/vk-ac6a3097.jpg
 glavinicmartin:
   profiles:
     - service: ig
@@ -2300,7 +2300,7 @@ init-medigel:
   profiles:
     - service: vk
       id: '1063780894'
-      updated: 2025-09-23-05-18-18
+      updated: 2025-09-23-06-29-10
       username: id1063780894
       name: Init Medigel
       avatar: store:/avatars/vk-4eabdc99.jpg
@@ -2605,7 +2605,7 @@ kawazaky223:
   profiles:
     - service: tg
       id: '5641856113'
-      updated: 2025-09-23-05-18-18
+      updated: 2025-09-23-06-29-10
       accessHash: '7421309771527577818'
       username: Kawazaky223
       name: Максим
@@ -3002,7 +3002,7 @@ malignoutsider:
   profiles:
     - service: vk
       id: '104145157'
-      updated: 2025-09-23-05-18-18
+      updated: 2025-09-23-06-29-09
       username: malignoutsider
       name: Роберт Сабиров
       avatar: store:/avatars/vk-8f773362.jpg
@@ -3778,7 +3778,7 @@ peteevandrew:
   profiles:
     - service: vk
       id: '307619379'
-      updated: 2025-09-22-06-26-39
+      updated: 2025-09-23-06-28-57
       username: peteevandrew
       name: Андрей Петеев
       avatar: store:/avatars/vk-d3f26d8e.jpg
@@ -4072,7 +4072,7 @@ redoranar:
   profiles:
     - service: tg
       id: '627928484'
-      updated: 2025-09-22-06-27-13
+      updated: 2025-09-23-06-29-10
       accessHash: '4117269213935533016'
       username: Redoranar
       name: Egor
@@ -4247,7 +4247,7 @@ sarudelsur:
   profiles:
     - service: tg
       id: '8446161342'
-      updated: 2025-09-23-01-21-09
+      updated: 2025-09-23-06-29-05
       accessHash: '-2612313514511119416'
       username: sarudelsur
       name: Hozu
@@ -5014,7 +5014,7 @@ todor:
   profiles:
     - service: tg
       id: '1305695186'
-      updated: 2025-09-23-05-18-17
+      updated: 2025-09-23-06-28-56
       accessHash: '8819682207926865502'
       name: Todor
       avatar: store:/avatars/tg-5305295556123424826.jpg
