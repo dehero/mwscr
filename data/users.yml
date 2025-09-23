@@ -519,7 +519,7 @@ arya-stark:
   profiles:
     - service: vk
       id: '820702664'
-      updated: 2025-09-23-12-38-12
+      updated: 2025-09-23-13-29-01
       username: id820702664
       name: Арья Старк
       avatar: store:/avatars/vk-689aa89d.jpg
@@ -1376,7 +1376,7 @@ dima-sery:
   profiles:
     - service: tg
       id: '134487499'
-      updated: 2025-09-16-12-41-27
+      updated: 2025-09-23-13-28-59
       accessHash: '1922176179429650860'
       username: Dima_Sery
       name: Dima Sery
@@ -1988,7 +1988,7 @@ golden-morgan:
   profiles:
     - service: vk
       id: '157461309'
-      updated: 2025-09-16-20-21-47
+      updated: 2025-09-23-13-28-54
       username: golden_morgan
       name: Marco Polo
       avatar: store:/avatars/vk-f7f43d22.jpg
@@ -2300,7 +2300,7 @@ init-medigel:
   profiles:
     - service: vk
       id: '1063780894'
-      updated: 2025-09-23-12-38-12
+      updated: 2025-09-23-13-29-01
       username: id1063780894
       name: Init Medigel
       avatar: store:/avatars/vk-4eabdc99.jpg
@@ -2605,7 +2605,7 @@ kawazaky223:
   profiles:
     - service: tg
       id: '5641856113'
-      updated: 2025-09-23-12-38-12
+      updated: 2025-09-23-13-29-01
       accessHash: '7421309771527577818'
       username: Kawazaky223
       name: Максим
@@ -2994,7 +2994,7 @@ maksim-kopytov:
   profiles:
     - service: vk
       id: '799521846'
-      updated: 2025-09-22-06-27-03
+      updated: 2025-09-23-13-28-54
       username: id799521846
       name: Максим Копытов
       avatar: store:/avatars/vk-0da189cf.jpg
@@ -3002,7 +3002,7 @@ malignoutsider:
   profiles:
     - service: vk
       id: '104145157'
-      updated: 2025-09-23-12-38-12
+      updated: 2025-09-23-13-29-01
       username: malignoutsider
       name: Роберт Сабиров
       avatar: store:/avatars/vk-8f773362.jpg
@@ -4371,7 +4371,7 @@ sergey-churbanov:
   profiles:
     - service: vk
       id: '1060712354'
-      updated: 2025-09-22-22-17-33
+      updated: 2025-09-23-13-28-54
       username: id1060712354
       name: Сергей Чурбанов
       avatar: store:/avatars/vk-6499ce8d.jpg
@@ -5014,7 +5014,7 @@ todor:
   profiles:
     - service: tg
       id: '1305695186'
-      updated: 2025-09-23-12-38-10
+      updated: 2025-09-23-13-28-59
       accessHash: '8819682207926865502'
       name: Todor
       avatar: store:/avatars/tg-5305295556123424826.jpg
