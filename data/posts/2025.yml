@@ -2520,23 +2520,52 @@
       id: DO1YNFQlEUy
       mediaId: '18067212190993613'
       published: 2025-09-20-18-25-36
-      updated: 2025-09-22-17-15-42
+      updated: 2025-09-23-18-28-18
       followers: 1584
-      likes: 56
+      likes: 58
     - service: vk
       id: 2671
       published: 2025-09-20-18-25-41
-      updated: 2025-09-22-17-15-38
+      updated: 2025-09-23-18-28-14
       followers: 1428
-      likes: 37
-      views: 427
-      reposts: 1
+      likes: 41
+      views: 467
+      reposts: 2
     - service: tg
       id: 991
       published: 2025-09-20-18-25-44
-      updated: 2025-09-22-17-15-43
+      updated: 2025-09-23-18-28-18
       followers: 801
-      likes: 56
-      views: 214
+      likes: 58
+      views: 251
       comments: !c iwuAkZPLQnmW2l6jAACra2F3YXpha3kyMjOgAw==
 2025-09-22-1-isolated-shelter: 2020-05-13-isolated-shelter
+2025-09-23-1-on-guard:
+  title: On Guard
+  titleRu: На страже
+  placement: Indoors
+  location: Solstheim, Frossel
+  content: store:/shots/2025-09-23-1-on-guard.png
+  type: shot
+  author: dehero
+  engine: OpenMW
+  addon: Bloodmoon
+  tags:
+    - ice
+    - cave
+    - riekling
+  mark: B1
+  posts:
+    - service: ig
+      id: DO9G9vAERIK
+      mediaId: '18084414376737213'
+      published: 2025-09-23-18-28-52
+      followers: 1582
+    - service: vk
+      id: 2679
+      published: 2025-09-23-18-28-57
+      followers: 1429
+    - service: tg
+      id: 995
+      published: 2025-09-23-18-29-01
+      followers: 802
