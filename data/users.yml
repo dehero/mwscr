@@ -519,7 +519,7 @@ arya-stark:
   profiles:
     - service: vk
       id: '820702664'
-      updated: 2025-09-23-22-16-57
+      updated: 2025-09-23-23-16-25
       username: id820702664
       name: Арья Старк
       avatar: store:/avatars/vk-689aa89d.jpg
@@ -2300,7 +2300,7 @@ init-medigel:
   profiles:
     - service: vk
       id: '1063780894'
-      updated: 2025-09-23-22-16-56
+      updated: 2025-09-23-23-16-25
       username: id1063780894
       name: Init Medigel
       avatar: store:/avatars/vk-4eabdc99.jpg
@@ -2605,7 +2605,7 @@ kawazaky223:
   profiles:
     - service: tg
       id: '5641856113'
-      updated: 2025-09-23-22-16-56
+      updated: 2025-09-23-23-16-25
       accessHash: '7421309771527577818'
       username: Kawazaky223
       name: Максим
@@ -3002,7 +3002,7 @@ malignoutsider:
   profiles:
     - service: vk
       id: '104145157'
-      updated: 2025-09-23-22-16-56
+      updated: 2025-09-23-23-16-25
       username: malignoutsider
       name: Роберт Сабиров
       avatar: store:/avatars/vk-8f773362.jpg
@@ -5014,7 +5014,7 @@ todor:
   profiles:
     - service: tg
       id: '1305695186'
-      updated: 2025-09-23-22-16-54
+      updated: 2025-09-23-23-16-23
       accessHash: '8819682207926865502'
       name: Todor
       avatar: store:/avatars/tg-5305295556123424826.jpg
