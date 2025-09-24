@@ -74,7 +74,7 @@
     - service: vk
       id: 2129
       published: 2025-02-13-18-17-15
-      updated: 2025-09-17-18-33-11
+      updated: 2025-09-24-19-19-41
       followers: 1069
       likes: 59
       views: 528
@@ -82,10 +82,10 @@
     - service: tg
       id: 706
       published: 2025-02-13-18-17-22
-      updated: 2025-09-17-18-32-02
+      updated: 2025-09-24-19-18-24
       followers: 676
       likes: 67
-      views: 553
+      views: 557
 2022-06-24-evening-talk-in-vos:
   title: Evening Talk in Vos
   titleRu: Вечерняя беседа в Восе
@@ -184,7 +184,7 @@
     - service: vk
       id: 2226
       published: 2025-03-26-18-12-43
-      updated: 2025-09-17-18-32-09
+      updated: 2025-09-24-19-18-32
       followers: 1213
       likes: 81
       views: 645
@@ -206,10 +206,10 @@
         - 764
         - 765
       published: 2025-03-26-18-13-07
-      updated: 2025-09-17-18-31-15
+      updated: 2025-09-24-19-17-33
       followers: 710
       likes: 62
-      views: 754
+      views: 757
     - service: ig
       id: DHrG6TzS39F
       mediaId: '17904383484108059'
@@ -458,7 +458,7 @@
     - service: vk
       id: 2077
       published: 2025-01-22-18-11-15
-      updated: 2025-09-17-18-33-50
+      updated: 2025-09-24-19-20-18
       followers: 1054
       likes: 38
       views: 349
@@ -471,10 +471,10 @@
     - service: tg
       id: 678
       published: 2025-01-22-18-11-24
-      updated: 2025-09-17-18-32-19
+      updated: 2025-09-24-19-18-40
       followers: 655
       likes: 67
-      views: 583
+      views: 585
 2022-07-02-niras-farys-priest:
   title: Niras Farys, Priest
   titleRu: Нирас Фарис, священник
@@ -611,7 +611,7 @@
     - service: vk
       id: 2165
       published: 2025-03-02-18-10-15
-      updated: 2025-09-17-18-32-44
+      updated: 2025-09-24-19-19-16
       followers: 1153
       likes: 65
       views: 589
@@ -624,10 +624,10 @@
         - 731
         - 732
       published: 2025-03-02-18-10-35
-      updated: 2025-09-17-18-31-44
+      updated: 2025-09-24-19-18-00
       followers: 687
       likes: 68
-      views: 1043
+      views: 1047
     - service: ig
       id: DGtT0r1vKNh
       mediaId: '18013972115704127'
@@ -680,14 +680,14 @@
     - service: tg
       id: 726
       published: 2025-02-27-18-13-32
-      updated: 2025-09-17-18-31-47
+      updated: 2025-09-24-19-18-02
       followers: 686
       likes: 59
-      views: 585
+      views: 588
     - service: vk
       id: 2153
       published: 2025-02-27-19-01-40
-      updated: 2025-09-17-18-32-47
+      updated: 2025-09-24-19-19-20
       followers: 1143
       likes: 36
       views: 585
@@ -1011,10 +1011,10 @@
         - 653
         - 654
       published: 2025-01-05-18-10-40
-      updated: 2025-09-17-18-32-37
+      updated: 2025-09-24-19-19-06
       followers: 644
       likes: 78
-      views: 1149
+      views: 1152
       comments: !c |-
         GzYBQOTvx9VPcWc7mKi6IcGIRCJPDoXvxwNDuZ1+ZjvQ4XSqM1xX0A8w2kVx512OJRhbesPf7UBS
         aiY+2ajfiyLie1USoYU/4NCQbGaN84UNNbiDSwLOwAVc4+w+YlzCCZzKgtIvcAXXcIAzcIvzcBny
@@ -1202,10 +1202,10 @@
     - service: vk
       id: 2350
       published: 2025-05-11-18-23-47
-      updated: 2025-09-17-18-31-06
+      updated: 2025-09-24-19-17-30
       followers: 1292
       likes: 50
-      views: 514
+      views: 516
       reposts: 2
       comments: !c |-
         G8cA4ByHcSyy8PJqIAwhnvBvn/DmpZhlCScl0lZkyTuigtpcCdEQF+oxJ/zEd+rmmw/Q/4pw21o2
@@ -1215,10 +1215,10 @@
     - service: tg
       id: 838
       published: 2025-05-11-18-23-53
-      updated: 2025-09-17-18-30-29
+      updated: 2025-09-24-19-16-51
       followers: 738
       likes: 63
-      views: 573
+      views: 578
 2022-07-16-two-at-the-lantern:
   title: Two at the Lantern
   titleRu: Двое у фонаря
@@ -1738,16 +1738,16 @@
       id: DNQ9FpnMEuC
       mediaId: '18125731516461672'
       published: 2025-08-12-18-24-34
-      updated: 2025-09-17-18-29-16
+      updated: 2025-09-24-19-15-49
       followers: 1574
       likes: 56
     - service: vk
       id: 2573
       published: 2025-08-12-18-24-42
-      updated: 2025-09-17-18-29-17
+      updated: 2025-09-24-19-15-50
       followers: 1362
       likes: 43
-      views: 444
+      views: 454
       reposts: 4
       comments: !c |-
         G8QAKBwHbizZCKn71i944k8NR+jiuQ8a4jnbLdqKlYoFGvsd1vKWulI1tWk/32RV+lBueLPZSeId
@@ -1756,10 +1756,10 @@
     - service: tg
       id: 949
       published: 2025-08-12-18-24-47
-      updated: 2025-09-17-18-29-19
+      updated: 2025-09-24-19-15-49
       followers: 776
       likes: 64
-      views: 581
+      views: 595
       comments: !c iw2AkZPLQnmKHWWOAACra2F3YXpha3kyMjOk8J+knQM=
 2022-07-29-sunset-cypresses:
   title: Sunset Cypresses

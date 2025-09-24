@@ -175,17 +175,17 @@
     - service: vk
       id: 2382
       published: 2025-05-24-18-18-58
-      updated: 2025-09-17-18-30-38
+      updated: 2025-09-24-19-17-04
       followers: 1305
       likes: 55
-      views: 443
+      views: 445
     - service: tg
       id: 857
       published: 2025-05-24-18-19-06
-      updated: 2025-09-17-18-30-15
+      updated: 2025-09-24-19-16-41
       followers: 739
       likes: 65
-      views: 548
+      views: 553
 2023-07-31-overhanging-rock-by-darkness-rifho:
   title: Overhanging Rock
   titleRu: Нависающая скала
@@ -341,10 +341,10 @@
     - service: vk
       id: 2341
       published: 2025-05-06-18-24-44
-      updated: 2025-09-17-18-31-10
+      updated: 2025-09-24-19-17-35
       followers: 1281
       likes: 45
-      views: 463
+      views: 465
       reposts: 2
       comments: !c |-
         G+oAEJ0Htg3rHDPI4QvhoV38P/3FPuEb31n0xgMPuMSLIDnXbfqcr0SRsylU26iYkyUJoinvThF5
@@ -354,10 +354,10 @@
     - service: tg
       id: 832
       published: 2025-05-06-18-24-51
-      updated: 2025-09-17-18-30-34
+      updated: 2025-09-24-19-16-55
       followers: 738
       likes: 68
-      views: 689
+      views: 693
 2023-08-03-spinning-wheel:
   title: Spinning-Wheel
   titleRu: Прялка
@@ -408,7 +408,7 @@
     - service: vk
       id: 2233
       published: 2025-03-27-18-12-06
-      updated: 2025-09-17-18-32-08
+      updated: 2025-09-24-19-18-31
       followers: 1215
       likes: 41
       views: 433
@@ -422,10 +422,10 @@
     - service: tg
       id: 767
       published: 2025-03-27-18-12-12
-      updated: 2025-09-17-18-31-15
+      updated: 2025-09-24-19-17-33
       followers: 710
       likes: 64
-      views: 503
+      views: 506
 2023-08-04-holy-fir:
   title: Holy Fir
   titleRu: Святая ель
@@ -717,7 +717,7 @@
     - service: vk
       id: 2251
       published: 2025-04-01-18-21-46
-      updated: 2025-09-17-18-32-01
+      updated: 2025-09-24-19-18-23
       followers: 1226
       likes: 75
       views: 453
@@ -725,10 +725,10 @@
     - service: tg
       id: 773
       published: 2025-04-01-18-21-57
-      updated: 2025-09-17-18-31-12
+      updated: 2025-09-24-19-17-31
       followers: 712
       likes: 68
-      views: 648
+      views: 651
 2023-08-10-behind-a-barrel:
   title: Behind a Barrel
   titleRu: За бочкой
