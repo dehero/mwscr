@@ -511,7 +511,7 @@ artyom-melikhoff:
   profiles:
     - service: vk
       id: '299405149'
-      updated: 2025-09-22-16-24-39
+      updated: 2025-09-24-15-19-46
       username: artyom_melikhoff
       name: Артём Мелихов
       avatar: store:/avatars/vk-4c16e471.jpg
@@ -1664,7 +1664,7 @@ ellia-isard:
   profiles:
     - service: vk
       id: '215194827'
-      updated: 2025-09-20-23-17-42
+      updated: 2025-09-24-15-19-46
       username: ellia_isard
       name: Эллия Айсард
       avatar: store:/avatars/vk-4aa5204c.jpg
@@ -2613,7 +2613,7 @@ kawazaky223:
   profiles:
     - service: tg
       id: '5641856113'
-      updated: 2025-09-24-14-19-47
+      updated: 2025-09-24-15-19-45
       accessHash: '7421309771527577818'
       username: Kawazaky223
       name: Максим
@@ -2994,7 +2994,7 @@ maks-perunov:
   profiles:
     - service: vk
       id: '35868942'
-      updated: 2025-09-17-20-42-34
+      updated: 2025-09-24-15-19-46
       username: id35868942
       name: Макс Перунов
       avatar: store:/avatars/vk-3bb92045.jpg
@@ -5022,7 +5022,7 @@ todor:
   profiles:
     - service: tg
       id: '1305695186'
-      updated: 2025-09-24-14-19-47
+      updated: 2025-09-24-15-19-44
       accessHash: '8819682207926865502'
       name: Todor
       avatar: store:/avatars/tg-5305295556123424826.jpg
