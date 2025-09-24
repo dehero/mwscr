@@ -2561,21 +2561,54 @@
       id: DO9G9vAERIK
       mediaId: '18084414376737213'
       published: 2025-09-23-18-28-52
-      updated: 2025-09-24-17-17-03
+      updated: 2025-09-24-18-25-27
       followers: 1582
       likes: 42
     - service: vk
       id: 2679
       published: 2025-09-23-18-28-57
-      updated: 2025-09-24-17-17-00
+      updated: 2025-09-24-18-25-23
       followers: 1429
-      likes: 21
-      views: 251
+      likes: 22
+      views: 264
     - service: tg
       id: 995
       published: 2025-09-23-18-29-01
-      updated: 2025-09-24-17-17-04
+      updated: 2025-09-24-18-25-27
       followers: 802
       likes: 51
       views: 184
       comments: !c iwuAkZPLQnmXgECzgACra2F3YXpha3kyMjOgAw==
+2025-09-24-1-elder-and-scroll:
+  title: Elder and Scroll
+  titleRu: Древний и свиток
+  placement: Indoors
+  content: store:/shots/2025-09-24-1-elder-and-scroll.png
+  trash:
+    - store:/trash/dehero.2025-08-26-23-28-23.1.png
+    - store:/trash/dehero.2025-08-26-23-28-04.png
+    - store:/trash/dehero.2025-08-26-23-28-23.2.png
+    - store:/trash/dehero.2025-08-26-23-28-23.png
+  type: shot
+  author: dehero
+  engine: OpenMW
+  tags:
+    - urn
+    - candle
+    - web
+    - scroll
+  mark: B1
+  posts:
+    - service: ig
+      id: DO_rbtAER6E
+      mediaId: '17938699731074336'
+      published: 2025-09-24-18-25-59
+      followers: 1581
+    - service: vk
+      id: 2682
+      published: 2025-09-24-18-26-04
+      followers: 1429
+    - service: tg
+      id: 996
+      published: 2025-09-24-18-26-08
+      followers: 802
