@@ -225,23 +225,26 @@ dehero.2025-08-26-23-09-44:
   type: shot
   author: dehero
   engine: OpenMW
-dehero.2025-08-26-23-28-04:
-  content: store:/inbox/dehero.2025-08-26-23-28-04.png
-  type: shot
-  author: dehero
-dehero.2025-08-26-23-28-23:
-  content:
+dehero.2025-08-26-23-28-33:
+  title: Elder and Scroll
+  titleRu: Древний и свиток
+  placement: Indoors
+  content: store:/inbox/dehero.2025-08-26-23-28-33.1.png
+  trash:
+    - store:/inbox/dehero.2025-08-26-23-28-33.png
     - store:/inbox/dehero.2025-08-26-23-28-23.1.png
+    - store:/inbox/dehero.2025-08-26-23-28-04.png
     - store:/inbox/dehero.2025-08-26-23-28-23.2.png
     - store:/inbox/dehero.2025-08-26-23-28-23.png
   type: shot
   author: dehero
-dehero.2025-08-26-23-28-33:
-  content:
-    - store:/inbox/dehero.2025-08-26-23-28-33.1.png
-    - store:/inbox/dehero.2025-08-26-23-28-33.png
-  type: shot
-  author: dehero
+  engine: OpenMW
+  tags:
+    - urn
+    - candle
+    - web
+    - scroll
+  mark: B1
 dehero.2025-09-18-08-29-02:
   title: Foggy Repetitions
   titleRu: Туманные повторы
