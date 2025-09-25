@@ -429,7 +429,7 @@ ansis:
   profiles:
     - service: tg
       id: '517050552'
-      updated: 2025-09-25-01-22-27
+      updated: 2025-09-25-03-01-31
       accessHash: '5231096655311395455'
       username: ansis
       name: ansis
@@ -2613,7 +2613,7 @@ kawazaky223:
   profiles:
     - service: tg
       id: '5641856113'
-      updated: 2025-09-25-01-22-28
+      updated: 2025-09-25-03-01-31
       accessHash: '7421309771527577818'
       username: Kawazaky223
       name: Максим
@@ -4379,7 +4379,7 @@ sergey-churbanov:
   profiles:
     - service: vk
       id: '1060712354'
-      updated: 2025-09-24-21-16-49
+      updated: 2025-09-25-03-01-33
       username: id1060712354
       name: Сергей Чурбанов
       avatar: store:/avatars/vk-6499ce8d.jpg
