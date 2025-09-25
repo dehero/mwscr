@@ -575,7 +575,7 @@ export function mergePostContents(
     }
   }
 
-  const result = [...urls1.values()];
+  const result = [...urls1.values()].filter(Boolean);
 
   return result.length > 0 ? (result.length === 1 ? result[0] : result) : undefined;
 }
