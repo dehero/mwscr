@@ -202,6 +202,8 @@ export const PostDialog: Component<PostDialogProps> = (props) => {
       mergePostWith(currentPost, entry[1]);
     }
 
+    delete currentPost.posts;
+
     setPatch(currentPost);
   });
 
