@@ -2,6 +2,15 @@
 
 All notable changes to this project will be documented in this file.
 
+## [2.6.1](https://github.com/dehero/mwscr/compare/v2.6.0...v2.6.1) (2025-09-25)
+
+### Bug Fixes
+
+- cleanup empty resource URLs in post content
+  ([20a95c7](https://github.com/dehero/mwscr/commit/20a95c7d38bca8ada136798736a4c245a79cd4a2))
+- **site:** ignore existing publications when creating compilation
+  ([76443a6](https://github.com/dehero/mwscr/commit/76443a6b5a17b573a862c8f06194f09a09ea75ac))
+
 ## [2.6.0](https://github.com/dehero/mwscr/compare/v2.5.0...v2.6.0) (2025-09-18)
 
 ### Features
