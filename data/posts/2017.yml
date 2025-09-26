@@ -5157,16 +5157,16 @@
       id: DPCQhJfkUvw
       mediaId: '18531152812017994'
       published: 2025-09-25-18-28-32
-      updated: 2025-09-26-17-16-23
+      updated: 2025-09-26-18-25-01
       followers: 1581
-      likes: 70
+      likes: 71
     - service: vk
       id: 2683
       published: 2025-09-25-18-28-42
-      updated: 2025-09-26-17-16-25
+      updated: 2025-09-26-18-25-00
       followers: 1429
       likes: 44
-      views: 596
+      views: 605
       reposts: 2
       comments: !c |-
         GxoBYCwSbBsG5WMGe8bjJx2h0umfuNFMRB8o9AgDbBKL9GQf2dls+1KiwWmoN4B5ynPELtQ2cV6D
@@ -5176,7 +5176,7 @@
     - service: tg
       id: 997
       published: 2025-09-25-18-28-46
-      updated: 2025-09-26-17-16-25
+      updated: 2025-09-26-18-25-01
       followers: 809
       likes: 50
       views: 178
@@ -8878,6 +8878,19 @@
       followers: 69
       likes: 6
       views: 136
+    - service: ig
+      id: DPE09FDESKF
+      mediaId: '18078247130065592'
+      published: 2025-09-26-18-25-23
+      followers: 1582
+    - service: vk
+      id: 2685
+      published: 2025-09-26-18-25-34
+      followers: 1432
+    - service: tg
+      id: 998
+      published: 2025-09-26-18-25-38
+      followers: 811
 2017-07-23-sun-over-ald-sotha:
   title: Sun Over Ald Sotha
   titleRu: Солнце над Альд Сотой
