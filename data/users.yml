@@ -414,7 +414,7 @@ anonim:
   profiles:
     - service: tg
       id: '6469120788'
-      updated: 2025-09-23-06-29-06
+      updated: 2025-09-26-10-20-12
       accessHash: '-3557204299452739678'
       name: Аноним
       avatar: store:/avatars/tg-5330526380158482543.jpg
@@ -527,7 +527,7 @@ arya-stark:
   profiles:
     - service: vk
       id: '820702664'
-      updated: 2025-09-26-09-20-38
+      updated: 2025-09-26-10-21-35
       username: id820702664
       name: Арья Старк
       avatar: store:/avatars/vk-689aa89d.jpg
@@ -1148,7 +1148,7 @@ danya-r:
   profiles:
     - service: tg
       id: '6217540848'
-      updated: 2025-09-25-07-19-24
+      updated: 2025-09-26-10-20-11
       accessHash: '144997878637800057'
       name: 🌊𐌃𐌀𐌍𐌙𐌀 𐌔Ƕ𐌀𐌓𐌏𐌔Ƕ𐌍𐌉𐌊𐌏ᕓ🌊
       avatar: store:/avatars/tg-5357362473990225463.jpg
@@ -2308,7 +2308,7 @@ init-medigel:
   profiles:
     - service: vk
       id: '1063780894'
-      updated: 2025-09-25-10-20-20
+      updated: 2025-09-26-10-21-35
       username: id1063780894
       name: Init Medigel
       avatar: store:/avatars/vk-4eabdc99.jpg
@@ -2613,7 +2613,7 @@ kawazaky223:
   profiles:
     - service: tg
       id: '5641856113'
-      updated: 2025-09-26-09-20-39
+      updated: 2025-09-26-10-21-34
       accessHash: '7421309771527577818'
       username: Kawazaky223
       name: Максим
@@ -2693,7 +2693,7 @@ konstantin-matrosov:
   profiles:
     - service: vk
       id: '93073669'
-      updated: 2025-09-24-19-16-26
+      updated: 2025-09-26-10-20-23
       username: id93073669
       name: Константин Матросов
       avatar: store:/avatars/vk-3b5e092e.jpg
@@ -3010,7 +3010,7 @@ malignoutsider:
   profiles:
     - service: vk
       id: '104145157'
-      updated: 2025-09-25-10-20-20
+      updated: 2025-09-26-10-21-35
       username: malignoutsider
       name: Роберт Сабиров
       avatar: store:/avatars/vk-8f773362.jpg
@@ -3083,7 +3083,7 @@ max-upsher:
   profiles:
     - service: tg
       id: '1774562733'
-      updated: 2025-09-25-05-18-28
+      updated: 2025-09-26-10-20-23
       accessHash: '1025402626840048013'
       username: MaxUpsher
       name: Max Upsher
@@ -3092,7 +3092,7 @@ mbdtsmo:
   profiles:
     - service: tg
       id: '5093097514'
-      updated: 2025-09-24-19-16-17
+      updated: 2025-09-26-10-20-23
       accessHash: '-613358669572386334'
       username: mbdtsmo
       name: M Bdtsmo
@@ -3561,7 +3561,7 @@ oberhort:
   profiles:
     - service: tg
       id: '19254498'
-      updated: 2025-09-19-09-22-10
+      updated: 2025-09-26-10-20-20
       accessHash: '-564270059565994883'
       username: oberhort
       name: Игорь
@@ -4080,7 +4080,7 @@ redoranar:
   profiles:
     - service: tg
       id: '627928484'
-      updated: 2025-09-24-21-42-14
+      updated: 2025-09-26-10-20-25
       accessHash: '4117269213935533016'
       username: Redoranar
       name: Egor
@@ -4288,7 +4288,7 @@ scion-of-balance:
   profiles:
     - service: tg
       id: '5834663294'
-      updated: 2025-09-24-19-18-36
+      updated: 2025-09-26-10-20-13
       accessHash: '-2758740287553358448'
       username: vorpalhopper
       name: Vorpalhopper
@@ -4365,7 +4365,7 @@ sergey-b:
   profiles:
     - service: vk
       id: '889222999'
-      updated: 2025-09-24-21-42-14
+      updated: 2025-09-26-10-20-26
       username: id889222999
       avatar: store:/avatars/vk-7f160215.jpg
       deleted: true
@@ -4379,7 +4379,7 @@ sergey-churbanov:
   profiles:
     - service: vk
       id: '1060712354'
-      updated: 2025-09-25-12-44-01
+      updated: 2025-09-26-10-20-23
       username: id1060712354
       name: Сергей Чурбанов
       avatar: store:/avatars/vk-6499ce8d.jpg
@@ -5420,7 +5420,7 @@ vail-astor-zkiy:
   profiles:
     - service: tg
       id: '1245638625'
-      updated: 2025-09-24-21-42-12
+      updated: 2025-09-26-10-20-27
       accessHash: '-6135365331334675689'
       name: Vail Astor'zkiy
 valeriy-zhmishenko:
