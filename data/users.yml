@@ -527,7 +527,7 @@ arya-stark:
   profiles:
     - service: vk
       id: '820702664'
-      updated: 2025-09-26-14-18-05
+      updated: 2025-09-26-15-19-42
       username: id820702664
       name: Арья Старк
       avatar: store:/avatars/vk-689aa89d.jpg
@@ -2613,7 +2613,7 @@ kawazaky223:
   profiles:
     - service: tg
       id: '5641856113'
-      updated: 2025-09-26-14-18-07
+      updated: 2025-09-26-15-19-47
       accessHash: '7421309771527577818'
       username: Kawazaky223
       name: Максим
@@ -4379,7 +4379,7 @@ sergey-churbanov:
   profiles:
     - service: vk
       id: '1060712354'
-      updated: 2025-09-26-10-20-23
+      updated: 2025-09-26-15-19-45
       username: id1060712354
       name: Сергей Чурбанов
       avatar: store:/avatars/vk-6499ce8d.jpg
