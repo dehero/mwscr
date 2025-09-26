@@ -527,7 +527,7 @@ arya-stark:
   profiles:
     - service: vk
       id: '820702664'
-      updated: 2025-09-26-15-19-42
+      updated: 2025-09-26-16-23-10
       username: id820702664
       name: Арья Старк
       avatar: store:/avatars/vk-689aa89d.jpg
@@ -2613,7 +2613,7 @@ kawazaky223:
   profiles:
     - service: tg
       id: '5641856113'
-      updated: 2025-09-26-15-19-47
+      updated: 2025-09-26-16-23-12
       accessHash: '7421309771527577818'
       username: Kawazaky223
       name: Максим
