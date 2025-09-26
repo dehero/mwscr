@@ -429,7 +429,7 @@ ansis:
   profiles:
     - service: tg
       id: '517050552'
-      updated: 2025-09-25-18-28-09
+      updated: 2025-09-26-19-14-37
       accessHash: '5231096655311395455'
       username: ansis
       name: ansis
@@ -527,7 +527,7 @@ arya-stark:
   profiles:
     - service: vk
       id: '820702664'
-      updated: 2025-09-26-18-25-00
+      updated: 2025-09-26-19-14-36
       username: id820702664
       name: Арья Старк
       avatar: store:/avatars/vk-689aa89d.jpg
@@ -2613,7 +2613,7 @@ kawazaky223:
   profiles:
     - service: tg
       id: '5641856113'
-      updated: 2025-09-26-18-25-02
+      updated: 2025-09-26-19-14-37
       accessHash: '7421309771527577818'
       username: Kawazaky223
       name: Максим
@@ -2693,7 +2693,7 @@ konstantin-matrosov:
   profiles:
     - service: vk
       id: '93073669'
-      updated: 2025-09-26-10-20-23
+      updated: 2025-09-26-19-14-33
       username: id93073669
       name: Константин Матросов
       avatar: store:/avatars/vk-3b5e092e.jpg
@@ -5030,7 +5030,7 @@ todor:
   profiles:
     - service: tg
       id: '1305695186'
-      updated: 2025-09-25-18-28-09
+      updated: 2025-09-26-19-14-38
       accessHash: '8819682207926865502'
       name: Todor
       avatar: store:/avatars/tg-5305295556123424826.jpg

@@ -5157,16 +5157,16 @@
       id: DPCQhJfkUvw
       mediaId: '18531152812017994'
       published: 2025-09-25-18-28-32
-      updated: 2025-09-26-18-25-01
+      updated: 2025-09-26-19-14-34
       followers: 1581
-      likes: 71
+      likes: 72
     - service: vk
       id: 2683
       published: 2025-09-25-18-28-42
-      updated: 2025-09-26-18-25-00
+      updated: 2025-09-26-19-14-36
       followers: 1429
       likes: 44
-      views: 605
+      views: 612
       reposts: 2
       comments: !c |-
         GxoBYCwSbBsG5WMGe8bjJx2h0umfuNFMRB8o9AgDbBKL9GQf2dls+1KiwWmoN4B5ynPELtQ2cV6D
@@ -5176,10 +5176,10 @@
     - service: tg
       id: 997
       published: 2025-09-25-18-28-46
-      updated: 2025-09-26-18-25-01
+      updated: 2025-09-26-19-14-35
       followers: 809
-      likes: 50
-      views: 178
+      likes: 54
+      views: 197
       comments: !c iw2AkZPLQnmYJG+1AACra2F3YXpha3kyMjOk8J+PsAM=
 2017-04-26-divine-pentagon:
   title: Divine Pentagon
@@ -8882,15 +8882,28 @@
       id: DPE09FDESKF
       mediaId: '18078247130065592'
       published: 2025-09-26-18-25-23
+      updated: 2025-09-26-19-14-33
       followers: 1582
+      likes: 20
     - service: vk
       id: 2685
       published: 2025-09-26-18-25-34
+      updated: 2025-09-26-19-14-34
       followers: 1432
+      likes: 3
+      views: 16
+      reposts: 1
+      comments: !c |-
+        G7sAOIyUbsKa4Hk6NYQHkhMIWXBOG7NjYwGLFZzvY3VuJWRMJkO+gpPJuVNuiWjAiWRhIBjhBQ8b
+        cOQxLdig038ut5fVzPL9MIynF4VZboe5E5qBnadRFpX/O4ugkXJLkik9WvuBkiObhLKDJ0Sw+5JW
+        wAIDFETSyk6RigdwQCBZaIQjxSA5XD6otQY=
     - service: tg
       id: 998
       published: 2025-09-26-18-25-38
+      updated: 2025-09-26-19-14-30
       followers: 811
+      likes: 18
+      views: 81
 2017-07-23-sun-over-ald-sotha:
   title: Sun Over Ald Sotha
   titleRu: Солнце над Альд Сотой
