@@ -92,7 +92,7 @@ a2-enkelli:
   profiles:
     - service: tg
       id: '7258424423'
-      updated: 2025-09-26-08-26-16
+      updated: 2025-09-26-13-53-55
       accessHash: '969825927170686844'
       username: A2_Enkelli
       name: †† elli ††
@@ -101,7 +101,7 @@ aarychagoff:
   profiles:
     - service: tg
       id: '1343549669'
-      updated: 2025-09-24-21-17-46
+      updated: 2025-09-26-13-53-55
       accessHash: '-8044934406214364524'
       username: aarychagoff
       name: Andrei Rychagov
@@ -511,7 +511,7 @@ artyom-melikhoff:
   profiles:
     - service: vk
       id: '299405149'
-      updated: 2025-09-24-21-42-16
+      updated: 2025-09-26-13-53-55
       username: artyom_melikhoff
       name: Артём Мелихов
       avatar: store:/avatars/vk-4c16e471.jpg
@@ -527,7 +527,7 @@ arya-stark:
   profiles:
     - service: vk
       id: '820702664'
-      updated: 2025-09-26-11-15-43
+      updated: 2025-09-26-13-27-39
       username: id820702664
       name: Арья Старк
       avatar: store:/avatars/vk-689aa89d.jpg
@@ -2613,7 +2613,7 @@ kawazaky223:
   profiles:
     - service: tg
       id: '5641856113'
-      updated: 2025-09-26-11-15-42
+      updated: 2025-09-26-13-53-55
       accessHash: '7421309771527577818'
       username: Kawazaky223
       name: Максим
