@@ -527,7 +527,7 @@ arya-stark:
   profiles:
     - service: vk
       id: '820702664'
-      updated: 2025-09-26-23-16-47
+      updated: 2025-09-27-01-18-53
       username: id820702664
       name: Арья Старк
       avatar: store:/avatars/vk-689aa89d.jpg
@@ -2259,7 +2259,7 @@ ilya-denisov:
   profiles:
     - service: vk
       id: '134482858'
-      updated: 2025-09-24-21-25-31
+      updated: 2025-09-27-01-18-57
       username: id134482858
       name: Илья Денисов
       avatar: store:/avatars/vk-45d9d8dd.jpg
@@ -2613,7 +2613,7 @@ kawazaky223:
   profiles:
     - service: tg
       id: '5641856113'
-      updated: 2025-09-26-23-16-50
+      updated: 2025-09-27-01-18-56
       accessHash: '7421309771527577818'
       username: Kawazaky223
       name: Максим
@@ -2693,7 +2693,7 @@ konstantin-matrosov:
   profiles:
     - service: vk
       id: '93073669'
-      updated: 2025-09-26-23-16-45
+      updated: 2025-09-27-01-18-52
       username: id93073669
       name: Константин Матросов
       avatar: store:/avatars/vk-3b5e092e.jpg
@@ -4379,7 +4379,7 @@ sergey-churbanov:
   profiles:
     - service: vk
       id: '1060712354'
-      updated: 2025-09-26-23-16-50
+      updated: 2025-09-27-01-18-56
       username: id1060712354
       name: Сергей Чурбанов
       avatar: store:/avatars/vk-6499ce8d.jpg
