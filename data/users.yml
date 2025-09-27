@@ -429,7 +429,7 @@ ansis:
   profiles:
     - service: tg
       id: '517050552'
-      updated: 2025-09-26-19-14-37
+      updated: 2025-09-27-20-19-05
       accessHash: '5231096655311395455'
       username: ansis
       name: ansis
@@ -511,7 +511,7 @@ artyom-melikhoff:
   profiles:
     - service: vk
       id: '299405149'
-      updated: 2025-09-27-19-13-36
+      updated: 2025-09-27-20-19-05
       username: artyom_melikhoff
       name: Артём Мелихов
       avatar: store:/avatars/vk-4c16e471.jpg
@@ -527,7 +527,7 @@ arya-stark:
   profiles:
     - service: vk
       id: '820702664'
-      updated: 2025-09-27-18-23-53
+      updated: 2025-09-27-20-19-13
       username: id820702664
       name: Арья Старк
       avatar: store:/avatars/vk-689aa89d.jpg
@@ -2613,7 +2613,7 @@ kawazaky223:
   profiles:
     - service: tg
       id: '5641856113'
-      updated: 2025-09-27-19-13-37
+      updated: 2025-09-27-20-19-06
       accessHash: '7421309771527577818'
       username: Kawazaky223
       name: Максим
@@ -2693,7 +2693,7 @@ konstantin-matrosov:
   profiles:
     - service: vk
       id: '93073669'
-      updated: 2025-09-27-19-13-35
+      updated: 2025-09-27-20-19-05
       username: id93073669
       name: Константин Матросов
       avatar: store:/avatars/vk-3b5e092e.jpg
@@ -3786,7 +3786,7 @@ peteevandrew:
   profiles:
     - service: vk
       id: '307619379'
-      updated: 2025-09-27-19-13-36
+      updated: 2025-09-27-20-19-05
       username: peteevandrew
       name: Андрей Петеев
       avatar: store:/avatars/vk-d3f26d8e.jpg
@@ -5002,6 +5002,14 @@ thepresidentof-foodselection:
       username: thepresidentof_foodselection
       name: Nicholas
       avatar: store:/avatars/ig-1dbf0980.jpg
+thicktomboygf:
+  profiles:
+    - service: vk
+      id: '524989152'
+      updated: 2025-09-27-20-19-07
+      username: thicktomboygf
+      name: Инга Сколова
+      avatar: store:/avatars/vk-8e9f9557.jpg
 thomas-kelly:
   profiles:
     - service: tg
@@ -5030,7 +5038,7 @@ todor:
   profiles:
     - service: tg
       id: '1305695186'
-      updated: 2025-09-26-23-16-48
+      updated: 2025-09-27-20-19-06
       accessHash: '8819682207926865502'
       name: Todor
       avatar: store:/avatars/tg-5305295556123424826.jpg
