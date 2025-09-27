@@ -2581,10 +2581,10 @@
     - service: vk
       id: 2648
       published: 2025-09-13-18-25-04
-      updated: 2025-09-20-20-19-29
+      updated: 2025-09-27-21-15-12
       followers: 1419
-      likes: 32
-      views: 571
+      likes: 33
+      views: 603
       comments: !c |-
         G4oDACwOzNM/RWCxHtuMSX8k/p+4py3hW//tTBNFEaeFNR54C5wuBJol5+apOlEj+ICxA3iEvKbR
         /DhxdcAO/81toUsfaGo2S7RZ4t37KoMdDmFYmqGZouq2mB58UFs9uCBeBS/CQ4o30azehm7GARUm
@@ -2598,15 +2598,14 @@
     - service: tg
       id: 982
       published: 2025-09-13-18-25-07
-      updated: 2025-09-20-20-19-29
+      updated: 2025-09-27-21-15-11
       followers: 799
-      likes: 61
-      views: 348
+      likes: 63
+      views: 445
       comments: !c |-
-        C1SAlJPLQnmVp1KiAACpZ2VvcnJycnJnpuKYoO+4j5PLQnmUmw0kgACra2F3YXpha3kyMjOk8J+Y
-        tpPLQnmUUvsxAACqc2FydWRlbHN1cqCUy0J5lFKjygAAqGJhcmEtZm942TBJIHN0aWxsIGhhdmUg
-        bm8gZnVja2luZyBpZGVhIGhvdyB0aGF0IHNoaXQgd29ya3OTy0J5lFK+pQAAq2dvb3NldmljaDc2
-        oAM=
+        G5IA4OXv5/ZCWehaTfra6g9tZpglQhOTW+dIXIeQqIQCbnCkAXGCxcuDbbu+Dc24MOGoweBtt3Uw
+        eOvN0QXtAW6+my+5+efvdPt7dPJ7uMDoNmSxWTdbZtwURen430zvQ93o8AK4WmbJZLx848MbgDKv
+        Mhr3qltIzlOQr4NRlYOwgo/APgzR8xSZn88/EJB2oKlb
     - service: ig
       id: DOjcLEhDabr
       mediaId: '18076803986481758'
