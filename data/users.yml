@@ -511,7 +511,7 @@ artyom-melikhoff:
   profiles:
     - service: vk
       id: '299405149'
-      updated: 2025-09-27-14-15-16
+      updated: 2025-09-27-15-16-21
       username: artyom_melikhoff
       name: Артём Мелихов
       avatar: store:/avatars/vk-4c16e471.jpg
@@ -527,7 +527,7 @@ arya-stark:
   profiles:
     - service: vk
       id: '820702664'
-      updated: 2025-09-27-14-15-19
+      updated: 2025-09-27-15-16-23
       username: id820702664
       name: Арья Старк
       avatar: store:/avatars/vk-689aa89d.jpg
@@ -2613,7 +2613,7 @@ kawazaky223:
   profiles:
     - service: tg
       id: '5641856113'
-      updated: 2025-09-27-14-15-17
+      updated: 2025-09-27-15-16-22
       accessHash: '7421309771527577818'
       username: Kawazaky223
       name: Максим
@@ -2693,7 +2693,7 @@ konstantin-matrosov:
   profiles:
     - service: vk
       id: '93073669'
-      updated: 2025-09-27-14-15-16
+      updated: 2025-09-27-15-16-21
       username: id93073669
       name: Константин Матросов
       avatar: store:/avatars/vk-3b5e092e.jpg
@@ -3786,7 +3786,7 @@ peteevandrew:
   profiles:
     - service: vk
       id: '307619379'
-      updated: 2025-09-27-14-15-16
+      updated: 2025-09-27-15-16-21
       username: peteevandrew
       name: Андрей Петеев
       avatar: store:/avatars/vk-d3f26d8e.jpg
