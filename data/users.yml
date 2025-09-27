@@ -527,7 +527,7 @@ arya-stark:
   profiles:
     - service: vk
       id: '820702664'
-      updated: 2025-09-27-10-17-21
+      updated: 2025-09-27-11-13-49
       username: id820702664
       name: Арья Старк
       avatar: store:/avatars/vk-689aa89d.jpg
@@ -1184,7 +1184,7 @@ darkness-rifho:
       deleted: true
     - service: tg
       id: '5704974271'
-      updated: 2025-09-24-22-17-39
+      updated: 2025-09-27-11-13-48
       accessHash: '3506423524566292179'
       username: C4H6O4
       name: Уна
@@ -2308,7 +2308,7 @@ init-medigel:
   profiles:
     - service: vk
       id: '1063780894'
-      updated: 2025-09-26-10-21-35
+      updated: 2025-09-27-11-13-49
       username: id1063780894
       name: Init Medigel
       avatar: store:/avatars/vk-4eabdc99.jpg
@@ -2613,7 +2613,7 @@ kawazaky223:
   profiles:
     - service: tg
       id: '5641856113'
-      updated: 2025-09-27-10-17-19
+      updated: 2025-09-27-11-13-49
       accessHash: '7421309771527577818'
       username: Kawazaky223
       name: Максим
@@ -2693,7 +2693,7 @@ konstantin-matrosov:
   profiles:
     - service: vk
       id: '93073669'
-      updated: 2025-09-27-10-17-17
+      updated: 2025-09-27-11-13-43
       username: id93073669
       name: Константин Матросов
       avatar: store:/avatars/vk-3b5e092e.jpg
@@ -3010,7 +3010,7 @@ malignoutsider:
   profiles:
     - service: vk
       id: '104145157'
-      updated: 2025-09-26-10-21-35
+      updated: 2025-09-27-11-13-49
       username: malignoutsider
       name: Роберт Сабиров
       avatar: store:/avatars/vk-8f773362.jpg
@@ -3786,7 +3786,7 @@ peteevandrew:
   profiles:
     - service: vk
       id: '307619379'
-      updated: 2025-09-27-10-17-17
+      updated: 2025-09-27-11-13-43
       username: peteevandrew
       name: Андрей Петеев
       avatar: store:/avatars/vk-d3f26d8e.jpg
