@@ -511,7 +511,7 @@ artyom-melikhoff:
   profiles:
     - service: vk
       id: '299405149'
-      updated: 2025-09-28-07-16-10
+      updated: 2025-09-28-08-21-15
       username: artyom_melikhoff
       name: Артём Мелихов
       avatar: store:/avatars/vk-4c16e471.jpg
@@ -2613,7 +2613,7 @@ kawazaky223:
   profiles:
     - service: tg
       id: '5641856113'
-      updated: 2025-09-28-07-16-10
+      updated: 2025-09-28-08-21-16
       accessHash: '7421309771527577818'
       username: Kawazaky223
       name: Максим
@@ -2693,7 +2693,7 @@ konstantin-matrosov:
   profiles:
     - service: vk
       id: '93073669'
-      updated: 2025-09-28-07-16-09
+      updated: 2025-09-28-08-21-14
       username: id93073669
       name: Константин Матросов
       avatar: store:/avatars/vk-3b5e092e.jpg
@@ -3067,7 +3067,7 @@ max-nafig:
   profiles:
     - service: vk
       id: '55201916'
-      updated: 2025-09-28-07-16-10
+      updated: 2025-09-28-08-21-15
       username: max_nafig
       name: Макс Нафиг
       avatar: store:/avatars/vk-e99f7f69.jpg
@@ -3786,7 +3786,7 @@ peteevandrew:
   profiles:
     - service: vk
       id: '307619379'
-      updated: 2025-09-28-07-16-09
+      updated: 2025-09-28-08-21-15
       username: peteevandrew
       name: Андрей Петеев
       avatar: store:/avatars/vk-d3f26d8e.jpg
@@ -5006,7 +5006,7 @@ thicktomboygf:
   profiles:
     - service: vk
       id: '524989152'
-      updated: 2025-09-28-07-16-10
+      updated: 2025-09-28-08-21-15
       username: thicktomboygf
       name: Инга Сколова
       avatar: store:/avatars/vk-8e9f9557.jpg
@@ -5364,6 +5364,13 @@ user-37:
       updated: 2025-09-24-21-42-23
       username: id207519045
       avatar: store:/avatars/vk-7f160215.jpg
+      deleted: true
+user-38:
+  profiles:
+    - service: tg
+      id: '7893339936'
+      updated: 2025-09-28-08-21-10
+      accessHash: '8383706967462978293'
       deleted: true
 user-4:
   profiles:

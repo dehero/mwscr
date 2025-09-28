@@ -2288,25 +2288,27 @@
       id: DPHZnVgkdKI
       mediaId: '18289257820259881'
       published: 2025-09-27-18-24-13
-      updated: 2025-09-28-07-16-08
+      updated: 2025-09-28-08-21-12
       followers: 1584
-      likes: 45
+      likes: 46
     - service: vk
       id: 2690
       published: 2025-09-27-18-24-20
-      updated: 2025-09-28-07-16-05
+      updated: 2025-09-28-08-21-10
       followers: 1437
-      likes: 17
-      views: 240
+      likes: 18
+      views: 255
       reposts: 1
     - service: tg
       id: 999
       published: 2025-09-27-18-24-24
-      updated: 2025-09-28-07-16-09
+      updated: 2025-09-28-08-21-16
       followers: 812
-      likes: 42
-      views: 161
-      comments: !c iw2AkZPLQnmYyTIsgACra2F3YXpha3kyMjOk8J+kkAM=
+      likes: 43
+      views: 166
+      comments: !c |-
+        CyiAkpPLQnmY9aZNAACndXNlci0zONkhSHVycnkgdXAgYW5kIHJlY2xhaW0gc2xlZXBpbmcgU09M
+        k8tCeZjJMiyAAKtrYXdhemFreTIyM6Twn6SQAw==
 2019-10-20-sunset-ridge:
   title: Sunset Ridge
   titleRu: Закатный хребет
