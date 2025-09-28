@@ -483,6 +483,14 @@ arseniy-dyak:
       accessHash: '-4817807801428753368'
       name: Арсений Дьяк
       avatar: store:/avatars/tg-5386673761769618098.jpg
+artem-petrov:
+  profiles:
+    - service: vk
+      id: '4238605'
+      updated: 2025-09-28-12-34-35
+      username: id4238605
+      name: Артем Петров
+      avatar: store:/avatars/vk-77942374.jpg
 artem-solovev:
   profiles:
     - service: vk
@@ -511,7 +519,7 @@ artyom-melikhoff:
   profiles:
     - service: vk
       id: '299405149'
-      updated: 2025-09-28-11-13-49
+      updated: 2025-09-28-12-34-37
       username: artyom_melikhoff
       name: Артём Мелихов
       avatar: store:/avatars/vk-4c16e471.jpg
@@ -2613,7 +2621,7 @@ kawazaky223:
   profiles:
     - service: tg
       id: '5641856113'
-      updated: 2025-09-28-11-13-50
+      updated: 2025-09-28-12-34-37
       accessHash: '7421309771527577818'
       username: Kawazaky223
       name: Максим
@@ -2693,7 +2701,7 @@ konstantin-matrosov:
   profiles:
     - service: vk
       id: '93073669'
-      updated: 2025-09-28-11-13-49
+      updated: 2025-09-28-12-34-36
       username: id93073669
       name: Константин Матросов
       avatar: store:/avatars/vk-3b5e092e.jpg
@@ -3067,7 +3075,7 @@ max-nafig:
   profiles:
     - service: vk
       id: '55201916'
-      updated: 2025-09-28-11-13-49
+      updated: 2025-09-28-12-34-37
       username: max_nafig
       name: Макс Нафиг
       avatar: store:/avatars/vk-e99f7f69.jpg
@@ -3786,7 +3794,7 @@ peteevandrew:
   profiles:
     - service: vk
       id: '307619379'
-      updated: 2025-09-28-11-13-49
+      updated: 2025-09-28-12-34-37
       username: peteevandrew
       name: Андрей Петеев
       avatar: store:/avatars/vk-d3f26d8e.jpg
@@ -5006,7 +5014,7 @@ thicktomboygf:
   profiles:
     - service: vk
       id: '524989152'
-      updated: 2025-09-28-11-13-49
+      updated: 2025-09-28-12-34-38
       username: thicktomboygf
       name: Инга Сколова
       avatar: store:/avatars/vk-8e9f9557.jpg
