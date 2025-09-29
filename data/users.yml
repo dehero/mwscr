@@ -92,7 +92,7 @@ a2-enkelli:
   profiles:
     - service: tg
       id: '7258424423'
-      updated: 2025-09-29-06-30-49
+      updated: 2025-09-29-12-40-24
       accessHash: '969825927170686844'
       username: A2_Enkelli
       name: †† elli ††
@@ -261,7 +261,7 @@ aleksey-yeskela:
   profiles:
     - service: vk
       id: '1047357639'
-      updated: 2025-09-29-06-30-38
+      updated: 2025-09-29-12-40-26
       username: id1047357639
       name: Алексей Йескела
       avatar: store:/avatars/vk-77942374.jpg
@@ -429,7 +429,7 @@ ansis:
   profiles:
     - service: tg
       id: '517050552'
-      updated: 2025-09-29-11-16-08
+      updated: 2025-09-29-12-40-25
       accessHash: '5231096655311395455'
       username: ansis
       name: ansis
@@ -487,7 +487,7 @@ artem-petrov:
   profiles:
     - service: vk
       id: '4238605'
-      updated: 2025-09-29-11-16-08
+      updated: 2025-09-29-12-40-24
       username: id4238605
       name: Артем Петров
       avatar: store:/avatars/vk-77942374.jpg
@@ -535,7 +535,7 @@ arya-stark:
   profiles:
     - service: vk
       id: '820702664'
-      updated: 2025-09-29-11-16-10
+      updated: 2025-09-29-12-40-23
       username: id820702664
       name: Арья Старк
       avatar: store:/avatars/vk-689aa89d.jpg
@@ -817,7 +817,7 @@ brg1092:
   profiles:
     - service: tg
       id: '5867861906'
-      updated: 2025-09-29-06-30-50
+      updated: 2025-09-29-12-40-26
       accessHash: '4411929981434940281'
       username: brg1092
       name: 2𝜋
@@ -861,7 +861,7 @@ caius-cosades:
   profiles:
     - service: tg
       id: '6483220506'
-      updated: 2025-09-29-11-16-08
+      updated: 2025-09-29-12-40-25
       accessHash: '-5537197680289822260'
       username: Gatemate7
       botChatId: 6483220506
@@ -1799,7 +1799,7 @@ filavandrel-official:
   profiles:
     - service: vk
       id: '682643734'
-      updated: 2025-09-28-01-37-05
+      updated: 2025-09-29-12-40-25
       username: filavandrel_official
       name: Filavandrel Aén Fidháil
       avatar: store:/avatars/vk-dbbe470a.jpg
@@ -2621,7 +2621,7 @@ kawazaky223:
   profiles:
     - service: tg
       id: '5641856113'
-      updated: 2025-09-29-11-16-10
+      updated: 2025-09-29-12-40-35
       accessHash: '7421309771527577818'
       username: Kawazaky223
       name: Максим
@@ -2869,11 +2869,11 @@ loftydelusion:
   profiles:
     - service: tg
       id: '6735256969'
-      updated: 2025-09-24-21-42-13
+      updated: 2025-09-29-12-40-30
       accessHash: '7923451850129434076'
       username: Loftydelusion
       name: Delusion
-      avatar: store:/avatars/tg-5879714231866215083.jpg
+      avatar: store:/avatars/tg-5960630840197237129.jpg
 logodesign-logodaku:
   profiles:
     - service: ig
@@ -3124,7 +3124,7 @@ methamar:
   profiles:
     - service: tg
       id: '227628220'
-      updated: 2025-09-22-12-39-26
+      updated: 2025-09-29-12-40-26
       accessHash: '5119360306419431594'
       username: methamar
       name: эмбэ
@@ -3745,7 +3745,7 @@ palych:
   profiles:
     - service: vk
       id: '485933'
-      updated: 2025-09-22-12-39-24
+      updated: 2025-09-29-12-40-25
       username: palych
       name: Павел Красовский
       avatar: store:/avatars/vk-ee218ff0.jpg
