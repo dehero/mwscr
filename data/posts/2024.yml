@@ -875,17 +875,17 @@
     - service: vk
       id: 2504
       published: 2025-07-04-18-22-42
-      updated: 2025-09-22-06-27-09
+      updated: 2025-09-29-06-30-56
       followers: 1334
       likes: 53
-      views: 430
+      views: 436
     - service: tg
       id: 907
       published: 2025-07-04-18-22-45
-      updated: 2025-09-22-06-27-09
+      updated: 2025-09-29-06-30-55
       followers: 761
-      likes: 66
-      views: 597
+      likes: 69
+      views: 604
       comments: !c iw2AkZPLQnl9qS40gACra2F3YXpha3kyMjOk8J+kqgM=
 2024-03-28-moonmoth-legion-fort: 2017-02-08-moonmoth-legion-fort
 2024-03-29-sneaking-scamp:
@@ -1907,26 +1907,26 @@
       id: DPJ-X8KEfAx
       mediaId: '18104289607593685'
       published: 2025-09-28-18-23-56
-      updated: 2025-09-29-05-19-40
+      updated: 2025-09-29-06-30-34
       followers: 1584
-      likes: 65
+      likes: 67
     - service: vk
       id: 2694
       published: 2025-09-28-18-24-03
-      updated: 2025-09-29-05-19-42
+      updated: 2025-09-29-06-30-35
       followers: 1438
-      likes: 23
-      views: 145
+      likes: 24
+      views: 162
       comments: !c |-
         G2EA+B0Jti2HFcKzP9pCqIhqR3oxxlmWYJNYpMk+ZnlTuyaqyZgmaQIh23H2M74VWq6wpEEKkZQ0
         2PJO7/PcavaCuX2ubuL43qicSs7j3/MxKgF0GzoGiG1WrBK0aIAC
     - service: tg
       id: 1000
       published: 2025-09-28-18-24-08
-      updated: 2025-09-29-05-19-42
+      updated: 2025-09-29-06-30-34
       followers: 813
-      likes: 44
-      views: 162
+      likes: 45
+      views: 167
       comments: !c |-
         CziAkpPLQnmZGn8pgACra2F3YXpha3kyMjOk8J+qupTLQnmZGScrAAClYW5zaXOpQkVBVVRJRlVM
         k8tCeZkZtIaAAK1jYWl1cy1jb3NhZGVz2SFpdCBpcyBsaXRlcmFsbHkgdW5tb2RkZWQgZ3JhcGhp
