@@ -8821,6 +8821,19 @@
       followers: 550
       likes: 68
       views: 837
+    - service: ig
+      id: DPMjuUhjndT
+      mediaId: '17855731008476639'
+      published: 2025-09-29-18-28-46
+      followers: 1585
+    - service: vk
+      id: 2696
+      published: 2025-09-29-18-29-01
+      followers: 1440
+    - service: tg
+      id: 1001
+      published: 2025-09-29-18-29-07
+      followers: 813
 2017-07-21-scamp-defending-the-entrance-to-maelkashishi:
   title: Scamp Defending the Entrance to Maelkashishi
   titleRu: Скамп, охраняющий вход в Мелкашиши
@@ -8881,17 +8894,17 @@
       id: DPE09FDESKF
       mediaId: '18078247130065592'
       published: 2025-09-26-18-25-23
-      updated: 2025-09-28-18-23-25
+      updated: 2025-09-29-18-28-25
       followers: 1582
-      likes: 63
+      likes: 64
       comments: !c ixWAkZPLQnmYlPr8gACoMjJjb2lucze3QWx3YXlzIGxvdmVkIHRoaXMgcGF0aW8D
     - service: vk
       id: 2685
       published: 2025-09-26-18-25-34
-      updated: 2025-09-28-18-23-23
+      updated: 2025-09-29-18-28-24
       followers: 1432
-      likes: 40
-      views: 297
+      likes: 42
+      views: 353
       reposts: 3
       comments: !c |-
         G2kDgJwHduOFUfVcgBifEUX7PfvZki5YBH2xm8VmalqKoCBYomU2RTWca0bIRxYqRy1n7v2vW6sc
@@ -8905,10 +8918,10 @@
     - service: tg
       id: 998
       published: 2025-09-26-18-25-38
-      updated: 2025-09-28-18-23-22
+      updated: 2025-09-29-18-28-22
       followers: 811
-      likes: 59
-      views: 245
+      likes: 61
+      views: 274
       comments: !c ixGAkZPLQnmYmJKqAACra2F3YXpha3kyMjOs8J+rkfCfpZDwn6WUAw==
 2017-07-23-sun-over-ald-sotha:
   title: Sun Over Ald Sotha
