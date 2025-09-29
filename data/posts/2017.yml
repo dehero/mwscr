@@ -5156,16 +5156,16 @@
       id: DPCQhJfkUvw
       mediaId: '18531152812017994'
       published: 2025-09-25-18-28-32
-      updated: 2025-09-28-19-13-43
+      updated: 2025-09-29-19-15-53
       followers: 1581
-      likes: 83
+      likes: 86
     - service: vk
       id: 2683
       published: 2025-09-25-18-28-42
-      updated: 2025-09-28-19-13-42
+      updated: 2025-09-29-19-15-55
       followers: 1429
-      likes: 53
-      views: 777
+      likes: 54
+      views: 803
       reposts: 2
       comments: !c |-
         GxoBYCwSbBsG5WMGe8bjJx2h0umfuNFMRB8o9AgDbBKL9GQf2dls+1KiwWmoN4B5ynPELtQ2cV6D
@@ -5175,10 +5175,10 @@
     - service: tg
       id: 997
       published: 2025-09-25-18-28-46
-      updated: 2025-09-28-19-13-44
+      updated: 2025-09-29-19-15-56
       followers: 809
-      likes: 62
-      views: 278
+      likes: 66
+      views: 309
       comments: !c iw2AkZPLQnmYJG+1AACra2F3YXpha3kyMjOk8J+PsAM=
 2017-04-26-divine-pentagon:
   title: Divine Pentagon
@@ -8825,15 +8825,24 @@
       id: DPMjuUhjndT
       mediaId: '17855731008476639'
       published: 2025-09-29-18-28-46
+      updated: 2025-09-29-19-15-51
       followers: 1585
+      likes: 11
     - service: vk
       id: 2696
       published: 2025-09-29-18-29-01
+      updated: 2025-09-29-19-15-47
       followers: 1440
+      likes: 5
+      views: 16
     - service: tg
       id: 1001
       published: 2025-09-29-18-29-07
+      updated: 2025-09-29-19-15-52
       followers: 813
+      likes: 18
+      views: 73
+      comments: !c CxWAkZPLQnmZbQu7AACrZ29vc2V2aWNoNzaz0Y8g0LEg0YLQsNC8INC20LjQuwM=
 2017-07-21-scamp-defending-the-entrance-to-maelkashishi:
   title: Scamp Defending the Entrance to Maelkashishi
   titleRu: Скамп, охраняющий вход в Мелкашиши
