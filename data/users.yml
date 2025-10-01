@@ -92,7 +92,7 @@ a2-enkelli:
   profiles:
     - service: tg
       id: '7258424423'
-      updated: 2025-10-01-06-29-01
+      updated: 2025-10-01-07-19-10
       accessHash: '969825927170686844'
       username: A2_Enkelli
       name: †† elli ††
@@ -141,6 +141,16 @@ adele:
       botChatId: 1924823021
       name: Adele❄️🌊
       avatar: store:/avatars/tg-5242668825504245893.jpg
+adonis-vernaliis:
+  profiles:
+    - service: tg
+      id: '991525408'
+      updated: 2025-10-01-07-19-17
+      accessHash: '7239172452363329644'
+      username: AdonisVernaliis
+      botChatId: 991525408
+      name: Adonis Vernalis
+      avatar: store:/avatars/tg-4258569200969295906.jpg
 adventures-of-the-dovah:
   profiles:
     - service: ig
@@ -429,7 +439,7 @@ ansis:
   profiles:
     - service: tg
       id: '517050552'
-      updated: 2025-10-01-06-29-00
+      updated: 2025-10-01-07-19-09
       accessHash: '5231096655311395455'
       username: ansis
       name: ansis
@@ -487,7 +497,7 @@ artem-petrov:
   profiles:
     - service: vk
       id: '4238605'
-      updated: 2025-10-01-06-29-02
+      updated: 2025-10-01-07-19-11
       username: id4238605
       name: Артем Петров
       avatar: store:/avatars/vk-77942374.jpg
@@ -535,7 +545,7 @@ arya-stark:
   profiles:
     - service: vk
       id: '820702664'
-      updated: 2025-10-01-06-29-02
+      updated: 2025-10-01-07-19-11
       username: id820702664
       name: Арья Старк
       avatar: store:/avatars/vk-689aa89d.jpg
@@ -2012,7 +2022,7 @@ goosevich76:
   profiles:
     - service: tg
       id: '5385620621'
-      updated: 2025-10-01-06-29-00
+      updated: 2025-10-01-07-19-10
       accessHash: '-7130473396589324830'
       username: horwwwaty
       name: choven
@@ -2631,7 +2641,7 @@ kawazaky223:
   profiles:
     - service: tg
       id: '5641856113'
-      updated: 2025-10-01-06-29-00
+      updated: 2025-10-01-07-19-10
       accessHash: '7421309771527577818'
       username: Kawazaky223
       name: Максим
