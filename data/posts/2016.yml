@@ -92,10 +92,10 @@
     - service: vk
       id: 2312
       published: 2025-04-28-18-25-04
-      updated: 2025-09-24-19-17-45
+      updated: 2025-10-01-20-23-54
       followers: 1274
       likes: 72
-      views: 504
+      views: 505
       reposts: 1
       comments: !c |-
         G4YBABwHTtm8gPMIrp76EUJz0iui4sTnCJ0GYpQAh0slaUTa6UwJKnugGTrXVEdFBTiTqI/GSr4M
@@ -107,10 +107,10 @@
     - service: tg
       id: 821
       published: 2025-04-28-18-25-09
-      updated: 2025-09-24-19-17-05
+      updated: 2025-10-01-20-23-25
       followers: 726
       likes: 81
-      views: 653
+      views: 655
       comments: !c |-
         GykBIBwHdpMPbL57lMMyEz0fN4owkD5TYZBwYE0U6ck+spu4WSglENlY3Ma5NBsU7QHaZf2oBTib
         HXFA3q6laWAtat4Wa/DzV3p83RhWQ/rh4BDB9b5/8EVDzC4DX4LLV6nGpgyi/sV2dSASeGZpglnv
@@ -165,7 +165,7 @@
     - service: tg
       id: 609
       published: 2024-11-28-18-10-52
-      updated: 2025-09-24-19-19-39
+      updated: 2025-10-01-20-25-54
       followers: 578
       likes: 59
       views: 701
@@ -647,7 +647,7 @@
     - service: tg
       id: 597
       published: 2024-11-16-18-09-47
-      updated: 2025-09-24-19-19-56
+      updated: 2025-10-01-20-26-16
       followers: 573
       likes: 70
       views: 735
@@ -687,7 +687,7 @@
     - service: vk
       id: 2282
       published: 2025-04-16-18-22-11
-      updated: 2025-09-24-19-18-02
+      updated: 2025-10-01-20-24-06
       followers: 1261
       likes: 75
       views: 546
@@ -698,10 +698,10 @@
     - service: tg
       id: 797
       published: 2025-04-16-18-22-22
-      updated: 2025-09-24-19-17-18
+      updated: 2025-10-01-20-23-36
       followers: 720
       likes: 61
-      views: 590
+      views: 592
 2016-12-02-molag-mar:
   title: Molag Mar
   titleRu: Молаг Мар
@@ -747,7 +747,7 @@
     - service: tg
       id: 627
       published: 2024-12-16-18-11-52
-      updated: 2025-09-24-19-19-23
+      updated: 2025-10-01-20-25-40
       followers: 581
       likes: 79
       views: 731
@@ -905,7 +905,7 @@
     - service: tg
       id: 624
       published: 2024-12-13-18-11-26
-      updated: 2025-09-24-19-19-27
+      updated: 2025-10-01-20-25-44
       followers: 580
       likes: 64
       views: 654
@@ -1318,10 +1318,10 @@
     - service: vk
       id: 2470
       published: 2025-06-17-18-28-43
-      updated: 2025-09-24-19-16-23
+      updated: 2025-10-01-20-22-27
       followers: 1327
       likes: 55
-      views: 434
+      views: 435
       reposts: 1
       comments: !c |-
         G50BwCwO7DYfCzGx5eSX1XoyxD/vn0j68qlNWsEilajpBEY+OZd8Oqc+z2mWPUfRMplALW8xCYUm
@@ -1332,10 +1332,10 @@
     - service: tg
       id: 888
       published: 2025-06-17-18-28-46
-      updated: 2025-09-24-19-16-11
+      updated: 2025-10-01-20-22-26
       followers: 749
       likes: 65
-      views: 578
+      views: 580
 2016-12-19-hla-oad:
   title: Hla Oad
   titleRu: Хла Оуд
