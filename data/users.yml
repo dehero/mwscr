@@ -92,7 +92,7 @@ a2-enkelli:
   profiles:
     - service: tg
       id: '7258424423'
-      updated: 2025-10-01-15-19-34
+      updated: 2025-10-01-16-24-08
       accessHash: '969825927170686844'
       username: A2_Enkelli
       name: †† elli ††
@@ -439,7 +439,7 @@ ansis:
   profiles:
     - service: tg
       id: '517050552'
-      updated: 2025-10-01-15-19-32
+      updated: 2025-10-01-16-24-07
       accessHash: '5231096655311395455'
       username: ansis
       name: ansis
@@ -497,7 +497,7 @@ artem-petrov:
   profiles:
     - service: vk
       id: '4238605'
-      updated: 2025-10-01-15-19-33
+      updated: 2025-10-01-16-24-08
       username: id4238605
       name: Артем Петров
       avatar: store:/avatars/vk-77942374.jpg
@@ -529,7 +529,7 @@ artyom-melikhoff:
   profiles:
     - service: vk
       id: '299405149'
-      updated: 2025-09-30-19-15-07
+      updated: 2025-10-01-16-24-12
       username: artyom_melikhoff
       name: Артём Мелихов
       avatar: store:/avatars/vk-4c16e471.jpg
@@ -545,7 +545,7 @@ arya-stark:
   profiles:
     - service: vk
       id: '820702664'
-      updated: 2025-10-01-15-19-33
+      updated: 2025-10-01-16-24-08
       username: id820702664
       name: Арья Старк
       avatar: store:/avatars/vk-689aa89d.jpg
@@ -1682,7 +1682,7 @@ ellia-isard:
   profiles:
     - service: vk
       id: '215194827'
-      updated: 2025-09-28-01-37-07
+      updated: 2025-10-01-16-24-12
       username: ellia_isard
       name: Эллия Айсард
       avatar: store:/avatars/vk-4aa5204c.jpg
@@ -2022,7 +2022,7 @@ goosevich76:
   profiles:
     - service: tg
       id: '5385620621'
-      updated: 2025-10-01-15-19-34
+      updated: 2025-10-01-16-24-08
       accessHash: '-7130473396589324830'
       username: horwwwaty
       name: choven
@@ -2641,7 +2641,7 @@ kawazaky223:
   profiles:
     - service: tg
       id: '5641856113'
-      updated: 2025-10-01-15-19-33
+      updated: 2025-10-01-16-24-11
       accessHash: '7421309771527577818'
       username: Kawazaky223
       name: Максим
@@ -3022,7 +3022,7 @@ maks-perunov:
   profiles:
     - service: vk
       id: '35868942'
-      updated: 2025-09-24-21-39-31
+      updated: 2025-10-01-16-24-11
       username: id35868942
       name: Макс Перунов
       avatar: store:/avatars/vk-3bb92045.jpg
