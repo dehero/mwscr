@@ -439,7 +439,7 @@ ansis:
   profiles:
     - service: tg
       id: '517050552'
-      updated: 2025-10-01-18-27-36
+      updated: 2025-10-01-19-15-29
       accessHash: '5231096655311395455'
       username: ansis
       name: ansis
@@ -529,7 +529,7 @@ artyom-melikhoff:
   profiles:
     - service: vk
       id: '299405149'
-      updated: 2025-10-01-16-24-12
+      updated: 2025-10-01-19-15-32
       username: artyom_melikhoff
       name: Артём Мелихов
       avatar: store:/avatars/vk-4c16e471.jpg
@@ -2641,7 +2641,7 @@ kawazaky223:
   profiles:
     - service: tg
       id: '5641856113'
-      updated: 2025-10-01-18-27-39
+      updated: 2025-10-01-19-15-30
       accessHash: '7421309771527577818'
       username: Kawazaky223
       name: Максим
@@ -2721,7 +2721,7 @@ konstantin-matrosov:
   profiles:
     - service: vk
       id: '93073669'
-      updated: 2025-09-30-19-15-07
+      updated: 2025-10-01-19-15-32
       username: id93073669
       name: Константин Матросов
       avatar: store:/avatars/vk-3b5e092e.jpg
@@ -3095,7 +3095,7 @@ max-nafig:
   profiles:
     - service: vk
       id: '55201916'
-      updated: 2025-09-30-19-15-07
+      updated: 2025-10-01-19-15-32
       username: max_nafig
       name: Макс Нафиг
       avatar: store:/avatars/vk-e99f7f69.jpg
@@ -3814,7 +3814,7 @@ peteevandrew:
   profiles:
     - service: vk
       id: '307619379'
-      updated: 2025-09-30-19-15-07
+      updated: 2025-10-01-19-15-32
       username: peteevandrew
       name: Андрей Петеев
       avatar: store:/avatars/vk-d3f26d8e.jpg
@@ -4967,7 +4967,7 @@ thedrongo7:
   profiles:
     - service: tg
       id: '149400692'
-      updated: 2025-09-03-19-12-15
+      updated: 2025-10-01-19-15-36
       accessHash: '5348913575804649535'
       username: Thedrongo7
       botChatId: 149400692
@@ -5034,7 +5034,7 @@ thicktomboygf:
   profiles:
     - service: vk
       id: '524989152'
-      updated: 2025-09-30-19-15-08
+      updated: 2025-10-01-19-15-32
       username: thicktomboygf
       name: Инга Сколова
       avatar: store:/avatars/vk-8e9f9557.jpg
