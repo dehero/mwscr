@@ -6514,6 +6514,19 @@
       likes: 69
       views: 659
       comments: !c Cw+AkZPLQnkPIJkoAACuZGFya25lc3MtcmlmaG+k8J+YjgM=
+    - service: ig
+      id: DPUR72Pj8yy
+      mediaId: '17984236796904336'
+      published: 2025-10-02-18-27-15
+      followers: 1583
+    - service: vk
+      id: 2704
+      published: 2025-10-02-18-27-28
+      followers: 1443
+    - service: tg
+      id: 1004
+      published: 2025-10-02-18-27-33
+      followers: 826
 2018-06-06-i-think-i-got-sick:
   title: I Think I Got Sick
   titleRu: Кажется, я заболела
@@ -7083,21 +7096,21 @@
       id: DPRtOnXCY1D
       mediaId: '17930106606102010'
       published: 2025-10-01-18-28-01
-      updated: 2025-10-02-17-14-51
+      updated: 2025-10-02-18-26-50
       followers: 1583
-      likes: 77
+      likes: 78
     - service: vk
       id: 2703
       published: 2025-10-01-18-28-09
-      updated: 2025-10-02-17-14-47
+      updated: 2025-10-02-18-26-45
       followers: 1442
-      likes: 27
-      views: 312
+      likes: 29
+      views: 338
       reposts: 1
     - service: tg
       id: 1003
       published: 2025-10-01-18-28-17
-      updated: 2025-10-02-17-14-52
+      updated: 2025-10-02-18-26-51
       followers: 822
       likes: 57
       views: 215
