@@ -885,6 +885,19 @@
       followers: 122
       likes: 11
       views: 172
+    - service: ig
+      id: DPW2vIxDti_
+      mediaId: '18061618190625752'
+      published: 2025-10-03-18-27-17
+      followers: 1581
+    - service: vk
+      id: 2707
+      published: 2025-10-03-18-27-26
+      followers: 1443
+    - service: tg
+      id: 1005
+      published: 2025-10-03-18-27-31
+      followers: 830
 2018-01-24-goblin-bruiser:
   title: Goblin Bruiser
   titleRu: Гоблин-борец
@@ -6518,16 +6531,16 @@
       id: DPUR72Pj8yy
       mediaId: '17984236796904336'
       published: 2025-10-02-18-27-15
-      updated: 2025-10-03-17-15-40
+      updated: 2025-10-03-18-26-26
       followers: 1583
-      likes: 49
+      likes: 50
     - service: vk
       id: 2704
       published: 2025-10-02-18-27-28
-      updated: 2025-10-03-17-15-38
+      updated: 2025-10-03-18-26-23
       followers: 1443
-      likes: 31
-      views: 644
+      likes: 32
+      views: 673
       reposts: 1
       comments: !c |-
         ix2AkZPLQnmamGRMgACrdWJlci16YXJ5YWTZI9CQINC+0L3QuCDRgyDQstCw0YEg0LTRgNC10LLQ
@@ -6535,10 +6548,10 @@
     - service: tg
       id: 1004
       published: 2025-10-02-18-27-33
-      updated: 2025-10-03-17-15-37
+      updated: 2025-10-03-18-26-24
       followers: 826
-      likes: 47
-      views: 245
+      likes: 49
+      views: 248
       comments: !c |-
         ix+AkpPLQnmagyXSgACra2F3YXpha3kyMjOk8J+nkJPLQnmaYvMlgACqaGltbWVsaGVyeq5FbGRl
         ciwgSSBndWVzcwM=
@@ -7111,24 +7124,24 @@
       id: DPRtOnXCY1D
       mediaId: '17930106606102010'
       published: 2025-10-01-18-28-01
-      updated: 2025-10-03-17-15-42
+      updated: 2025-10-03-18-26-28
       followers: 1583
-      likes: 84
+      likes: 85
     - service: vk
       id: 2703
       published: 2025-10-01-18-28-09
-      updated: 2025-10-03-17-15-43
+      updated: 2025-10-03-18-26-25
       followers: 1442
       likes: 31
-      views: 437
+      views: 440
       reposts: 1
     - service: tg
       id: 1003
       published: 2025-10-01-18-28-17
-      updated: 2025-10-03-17-15-41
+      updated: 2025-10-03-18-26-27
       followers: 822
       likes: 66
-      views: 283
+      views: 284
       comments: !c |-
         G+8CIJwFdssHSpfuK6ZIcx49JvOVz3fzH/AB3VUkAY2pCfWyfEyKjtrUy6ZptPzHuTwln7sbogPU
         N2F+k982hZ+GjtSMYU/KT00CGbUMEkkqBZD//96JfjC9669Na9NoWPQ+YpgWdcIC+mjB/2/uh4aG
