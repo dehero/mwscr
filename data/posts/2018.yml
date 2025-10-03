@@ -889,15 +889,25 @@
       id: DPW2vIxDti_
       mediaId: '18061618190625752'
       published: 2025-10-03-18-27-17
+      updated: 2025-10-03-19-14-45
       followers: 1581
+      likes: 12
     - service: vk
       id: 2707
       published: 2025-10-03-18-27-26
+      updated: 2025-10-03-19-14-42
       followers: 1443
+      views: 16
     - service: tg
       id: 1005
       published: 2025-10-03-18-27-31
+      updated: 2025-10-03-19-14-48
       followers: 830
+      likes: 21
+      views: 79
+      comments: !c |-
+        iyGAkpPLQnmatU9gAACrZ29vc2V2aWNoNzan8J+Vr++4j5PLQnmatUywgACrZ29vc2V2aWNoNzau
+        0LLQsNC50LHQvtCy0L4D
 2018-01-24-goblin-bruiser:
   title: Goblin Bruiser
   titleRu: Гоблин-борец
@@ -6531,16 +6541,16 @@
       id: DPUR72Pj8yy
       mediaId: '17984236796904336'
       published: 2025-10-02-18-27-15
-      updated: 2025-10-03-18-26-26
+      updated: 2025-10-03-19-14-46
       followers: 1583
       likes: 50
     - service: vk
       id: 2704
       published: 2025-10-02-18-27-28
-      updated: 2025-10-03-18-26-23
+      updated: 2025-10-03-19-14-47
       followers: 1443
-      likes: 32
-      views: 673
+      likes: 34
+      views: 699
       reposts: 1
       comments: !c |-
         ix2AkZPLQnmamGRMgACrdWJlci16YXJ5YWTZI9CQINC+0L3QuCDRgyDQstCw0YEg0LTRgNC10LLQ
@@ -6548,10 +6558,10 @@
     - service: tg
       id: 1004
       published: 2025-10-02-18-27-33
-      updated: 2025-10-03-18-26-24
+      updated: 2025-10-03-19-14-50
       followers: 826
-      likes: 49
-      views: 248
+      likes: 53
+      views: 265
       comments: !c |-
         ix+AkpPLQnmagyXSgACra2F3YXpha3kyMjOk8J+nkJPLQnmaYvMlgACqaGltbWVsaGVyeq5FbGRl
         ciwgSSBndWVzcwM=
