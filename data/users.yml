@@ -456,7 +456,7 @@ anton-mezhuev:
   profiles:
     - service: vk
       id: '63571521'
-      updated: 2025-10-01-22-20-00
+      updated: 2025-10-04-01-18-17
       username: id63571521
       name: Антон Межуев
       avatar: store:/avatars/vk-295e8e4f.jpg
@@ -831,7 +831,7 @@ brg1092:
   profiles:
     - service: tg
       id: '5867861906'
-      updated: 2025-10-02-22-16-46
+      updated: 2025-10-04-01-18-15
       accessHash: '4411929981434940281'
       username: brg1092
       name: 2𝜋
@@ -2026,7 +2026,7 @@ goosevich76:
   profiles:
     - service: tg
       id: '5385620621'
-      updated: 2025-10-03-23-16-02
+      updated: 2025-10-04-01-18-11
       accessHash: '-7130473396589324830'
       username: horwwwaty
       name: choven
@@ -2128,7 +2128,7 @@ himmelherz:
   profiles:
     - service: tg
       id: '588028426'
-      updated: 2025-10-03-23-16-04
+      updated: 2025-10-04-01-18-13
       accessHash: '3598871882011829639'
       username: himmelherz
       name: Roman
@@ -2645,7 +2645,7 @@ kawazaky223:
   profiles:
     - service: tg
       id: '5641856113'
-      updated: 2025-10-03-23-16-03
+      updated: 2025-10-04-01-18-16
       accessHash: '7421309771527577818'
       username: Kawazaky223
       name: Максим
@@ -4411,7 +4411,7 @@ sergey-churbanov:
   profiles:
     - service: vk
       id: '1060712354'
-      updated: 2025-10-03-16-22-44
+      updated: 2025-10-04-01-18-16
       username: id1060712354
       name: Сергей Чурбанов
       avatar: store:/avatars/vk-6499ce8d.jpg
@@ -5070,7 +5070,7 @@ todor:
   profiles:
     - service: tg
       id: '1305695186'
-      updated: 2025-10-01-22-18-17
+      updated: 2025-10-04-01-18-15
       accessHash: '8819682207926865502'
       name: Todor
       avatar: store:/avatars/tg-5305295556123424826.jpg
@@ -5151,7 +5151,7 @@ uber-zaryad:
   profiles:
     - service: vk
       id: '790973813'
-      updated: 2025-10-03-23-16-01
+      updated: 2025-10-04-01-18-13
       username: id790973813
       name: Убер Заряд
       avatar: store:/avatars/vk-8878ae01.jpg
