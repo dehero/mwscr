@@ -271,7 +271,7 @@ aleksey-yeskela:
   profiles:
     - service: vk
       id: '1047357639'
-      updated: 2025-09-29-12-40-26
+      updated: 2025-10-04-22-16-09
       username: id1047357639
       name: Алексей Йескела
       avatar: store:/avatars/vk-77942374.jpg
@@ -439,7 +439,7 @@ ansis:
   profiles:
     - service: tg
       id: '517050552'
-      updated: 2025-10-04-21-14-52
+      updated: 2025-10-04-22-16-05
       accessHash: '5231096655311395455'
       username: ansis
       name: ansis
@@ -626,7 +626,7 @@ bara-fox:
   profiles:
     - service: tg
       id: '5196274219'
-      updated: 2025-10-01-22-19-52
+      updated: 2025-10-04-22-16-15
       accessHash: '-7229804243629770662'
       username: BaraFox
       name: Bara
@@ -1932,11 +1932,11 @@ georrrrrg:
   profiles:
     - service: tg
       id: '1949040922'
-      updated: 2025-10-02-12-37-14
+      updated: 2025-10-04-22-16-11
       accessHash: '-2007640679099785628'
       username: Georrrrrg
       name: Егор
-      avatar: store:/avatars/tg-5451807250051101510.jpg
+      avatar: store:/avatars/tg-5404457877017590637.jpg
 gestaltme:
   profiles:
     - service: ig
@@ -2026,7 +2026,7 @@ goosevich76:
   profiles:
     - service: tg
       id: '5385620621'
-      updated: 2025-10-04-21-14-57
+      updated: 2025-10-04-22-16-15
       accessHash: '-7130473396589324830'
       username: horwwwaty
       name: choven
@@ -2081,7 +2081,7 @@ h4shirama-s3nju:
   profiles:
     - service: tg
       id: '5619748563'
-      updated: 2025-10-04-21-14-52
+      updated: 2025-10-04-22-16-05
       accessHash: '-759856355370590559'
       username: H4shiramaS3nju
       name: 柱間 千住 ✝️
@@ -2654,7 +2654,7 @@ kawazaky223:
   profiles:
     - service: tg
       id: '5641856113'
-      updated: 2025-10-04-21-15-00
+      updated: 2025-10-04-22-16-15
       accessHash: '7421309771527577818'
       username: Kawazaky223
       name: Максим
@@ -2734,7 +2734,7 @@ konstantin-matrosov:
   profiles:
     - service: vk
       id: '93073669'
-      updated: 2025-10-03-21-15-57
+      updated: 2025-10-04-22-16-09
       username: id93073669
       name: Константин Матросов
       avatar: store:/avatars/vk-3b5e092e.jpg
@@ -4436,7 +4436,7 @@ sh2162:
   profiles:
     - service: vk
       id: '175206341'
-      updated: 2025-09-27-21-15-11
+      updated: 2025-10-04-22-16-09
       username: sh2162
       name: Саня Змей
       avatar: store:/avatars/vk-61e7091c.jpg
@@ -4924,7 +4924,7 @@ the-best-song78:
   profiles:
     - service: vk
       id: '825763367'
-      updated: 2025-09-27-21-15-11
+      updated: 2025-10-04-22-16-09
       username: the_best_song78
       name: Vladislav Dmitrievich
       avatar: store:/avatars/vk-cfd58d0c.jpg
