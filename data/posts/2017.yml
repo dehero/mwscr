@@ -12318,15 +12318,26 @@
       id: DPZbM8wDi0b
       mediaId: '18079748839818695'
       published: 2025-10-04-18-24-27
+      updated: 2025-10-04-19-13-34
       followers: 1581
+      likes: 14
     - service: vk
       id: 2709
       published: 2025-10-04-18-24-51
+      updated: 2025-10-04-19-13-30
       followers: 1445
+      likes: 2
+      views: 17
     - service: tg
       id: 1006
       published: 2025-10-04-18-24-56
+      updated: 2025-10-04-19-13-46
       followers: 832
+      likes: 19
+      views: 72
+      comments: !c |-
+        izGAkZTLQnmbB4pmgACvaDRzaGlyYW1hLXMzbmp12SlhIGdvb2QgcGxhY2UgZm9yIGEgYmVlciBh
+        bmQgYWxzbyBzdHVkeWluZ5PLQnmbCd8UgAClYW5zaXOtQm90aCBhdCBvbmNlPwM=
 2017-10-10-on-the-pass:
   title: On the Pass
   titleRu: На перевале
