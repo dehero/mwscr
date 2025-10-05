@@ -1911,15 +1911,24 @@
       id: DPcADwVDkrs
       mediaId: '17943184098066820'
       published: 2025-10-05-18-24-58
+      updated: 2025-10-05-19-13-48
       followers: 1579
+      likes: 22
     - service: vk
       id: 2712
       published: 2025-10-05-18-25-05
+      updated: 2025-10-05-19-13-44
       followers: 1445
+      likes: 6
+      views: 27
     - service: tg
       id: 1007
       published: 2025-10-05-18-25-10
+      updated: 2025-10-05-19-13-49
       followers: 832
+      likes: 23
+      views: 90
+      comments: !c iw2AkZPLQnmbWxiJgACra2F3YXpha3kyMjOk8J+NhAM=
 2018-02-16-draugr:
   title: Draugr
   titleRu: Драугр
@@ -7148,16 +7157,16 @@
       id: DPRtOnXCY1D
       mediaId: '17930106606102010'
       published: 2025-10-01-18-28-01
-      updated: 2025-10-04-19-13-37
+      updated: 2025-10-05-19-13-54
       followers: 1583
-      likes: 86
+      likes: 88
     - service: vk
       id: 2703
       published: 2025-10-01-18-28-09
-      updated: 2025-10-04-19-13-33
+      updated: 2025-10-05-19-13-55
       followers: 1442
-      likes: 38
-      views: 506
+      likes: 39
+      views: 526
       reposts: 1
     - service: tg
       id: 1003
