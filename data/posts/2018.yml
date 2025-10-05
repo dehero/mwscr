@@ -1911,23 +1911,27 @@
       id: DPcADwVDkrs
       mediaId: '17943184098066820'
       published: 2025-10-05-18-24-58
-      updated: 2025-10-05-20-18-52
+      updated: 2025-10-05-21-15-35
       followers: 1579
-      likes: 32
+      likes: 39
     - service: vk
       id: 2712
       published: 2025-10-05-18-25-05
-      updated: 2025-10-05-20-18-49
+      updated: 2025-10-05-21-15-39
       followers: 1445
-      likes: 7
-      views: 39
+      likes: 14
+      views: 66
+      reposts: 1
+      comments: !c |-
+        CymAkZPLQnmbYNmugACqYWxleGNoZXIxNtk70K3RgtC+INCz0LTQtT8g0J3QtSDQvNC+0LPRgyDQ
+        stGB0L/QvtC80L3QuNGC0Ywg0LzQtdGB0YLQvi4D
     - service: tg
       id: 1007
       published: 2025-10-05-18-25-10
-      updated: 2025-10-05-20-18-56
+      updated: 2025-10-05-21-15-36
       followers: 832
-      likes: 31
-      views: 120
+      likes: 36
+      views: 132
       comments: !c iw2AkZPLQnmbWxiJgACra2F3YXpha3kyMjOk8J+NhAM=
 2018-02-16-draugr:
   title: Draugr
