@@ -92,7 +92,7 @@ a2-enkelli:
   profiles:
     - service: tg
       id: '7258424423'
-      updated: 2025-10-06-07-20-18
+      updated: 2025-10-06-20-21-00
       accessHash: '969825927170686844'
       username: A2_Enkelli
       name: †† elli ††
@@ -304,7 +304,7 @@ alexcher16:
   profiles:
     - service: vk
       id: '14644107'
-      updated: 2025-10-06-19-15-41
+      updated: 2025-10-06-20-20-56
       username: alexcher16
       name: Алексей Черноткач
       avatar: store:/avatars/vk-cf71ed78.jpg
@@ -447,7 +447,7 @@ ansis:
   profiles:
     - service: tg
       id: '517050552'
-      updated: 2025-10-06-18-28-16
+      updated: 2025-10-06-20-21-00
       accessHash: '5231096655311395455'
       username: ansis
       name: ansis
@@ -505,7 +505,7 @@ artem-petrov:
   profiles:
     - service: vk
       id: '4238605'
-      updated: 2025-10-06-19-15-41
+      updated: 2025-10-06-20-20-56
       username: id4238605
       name: Артем Петров
       avatar: store:/avatars/vk-77942374.jpg
@@ -513,7 +513,7 @@ artem-solovev:
   profiles:
     - service: vk
       id: '733007624'
-      updated: 2025-10-06-19-15-41
+      updated: 2025-10-06-20-20-57
       username: id733007624
       name: Артем Соловьев
       avatar: store:/avatars/vk-04a89351.jpg
@@ -642,7 +642,7 @@ barry-banana-dragon:
   profiles:
     - service: tg
       id: '5324055165'
-      updated: 2025-10-05-20-18-59
+      updated: 2025-10-06-20-21-00
       accessHash: '-4800900764138736838'
       username: BarryBananaDragon
       name: סַמָּאֵל 🗡️
@@ -1734,7 +1734,7 @@ erhgo4i45gjdf5567:
   profiles:
     - service: tg
       id: '8064575089'
-      updated: 2025-10-05-20-18-59
+      updated: 2025-10-06-20-21-00
       accessHash: '7810440503977774761'
       username: erhgo4i45gjdf5567
       botChatId: 8064575089
@@ -2662,7 +2662,7 @@ kawazaky223:
   profiles:
     - service: tg
       id: '5641856113'
-      updated: 2025-10-06-19-15-40
+      updated: 2025-10-06-20-21-00
       accessHash: '7421309771527577818'
       username: Kawazaky223
       name: Максим
