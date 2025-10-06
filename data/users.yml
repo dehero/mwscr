@@ -304,7 +304,7 @@ alexcher16:
   profiles:
     - service: vk
       id: '14644107'
-      updated: 2025-10-06-17-17-41
+      updated: 2025-10-06-18-28-09
       username: alexcher16
       name: Алексей Черноткач
       avatar: store:/avatars/vk-cf71ed78.jpg
@@ -447,7 +447,7 @@ ansis:
   profiles:
     - service: tg
       id: '517050552'
-      updated: 2025-10-06-17-17-39
+      updated: 2025-10-06-18-28-16
       accessHash: '5231096655311395455'
       username: ansis
       name: ansis
@@ -505,7 +505,7 @@ artem-petrov:
   profiles:
     - service: vk
       id: '4238605'
-      updated: 2025-10-06-17-17-40
+      updated: 2025-10-06-18-28-09
       username: id4238605
       name: Артем Петров
       avatar: store:/avatars/vk-77942374.jpg
@@ -513,7 +513,7 @@ artem-solovev:
   profiles:
     - service: vk
       id: '733007624'
-      updated: 2025-10-06-17-17-41
+      updated: 2025-10-06-18-28-09
       username: id733007624
       name: Артем Соловьев
       avatar: store:/avatars/vk-04a89351.jpg
@@ -553,7 +553,7 @@ arya-stark:
   profiles:
     - service: vk
       id: '820702664'
-      updated: 2025-10-06-17-17-44
+      updated: 2025-10-06-18-28-18
       username: id820702664
       name: Арья Старк
       avatar: store:/avatars/vk-689aa89d.jpg
@@ -2034,7 +2034,7 @@ goosevich76:
   profiles:
     - service: tg
       id: '5385620621'
-      updated: 2025-10-06-07-20-16
+      updated: 2025-10-06-18-28-11
       accessHash: '-7130473396589324830'
       username: horwwwaty
       name: choven
@@ -2145,7 +2145,7 @@ himmelherz:
   profiles:
     - service: tg
       id: '588028426'
-      updated: 2025-10-05-18-24-17
+      updated: 2025-10-06-18-28-13
       accessHash: '3598871882011829639'
       username: himmelherz
       name: Roman
@@ -2662,7 +2662,7 @@ kawazaky223:
   profiles:
     - service: tg
       id: '5641856113'
-      updated: 2025-10-06-17-17-42
+      updated: 2025-10-06-18-28-15
       accessHash: '7421309771527577818'
       username: Kawazaky223
       name: Максим
@@ -5168,7 +5168,7 @@ uber-zaryad:
   profiles:
     - service: vk
       id: '790973813'
-      updated: 2025-10-05-18-24-02
+      updated: 2025-10-06-18-28-16
       username: id790973813
       name: Убер Заряд
       avatar: store:/avatars/vk-8878ae01.jpg
@@ -5727,7 +5727,7 @@ wenya-fox:
   profiles:
     - service: tg
       id: '2134652228'
-      updated: 2025-09-08-17-18-17
+      updated: 2025-10-06-18-28-21
       accessHash: '-7611750683729901996'
       username: WenyaFox
       botChatId: 2134652228
