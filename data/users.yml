@@ -447,7 +447,7 @@ ansis:
   profiles:
     - service: tg
       id: '517050552'
-      updated: 2025-10-07-21-16-24
+      updated: 2025-10-07-22-17-48
       accessHash: '5231096655311395455'
       username: ansis
       name: ansis
@@ -2026,7 +2026,7 @@ golden-morgan:
   profiles:
     - service: vk
       id: '157461309'
-      updated: 2025-10-07-13-29-54
+      updated: 2025-10-07-22-17-50
       username: golden_morgan
       name: Marco Polo
       avatar: store:/avatars/vk-f7f43d22.jpg
@@ -2034,7 +2034,7 @@ goosevich76:
   profiles:
     - service: tg
       id: '5385620621'
-      updated: 2025-10-07-19-15-38
+      updated: 2025-10-07-22-17-49
       accessHash: '-7130473396589324830'
       username: horwwwaty
       name: choven
@@ -2662,7 +2662,7 @@ kawazaky223:
   profiles:
     - service: tg
       id: '5641856113'
-      updated: 2025-10-07-21-16-25
+      updated: 2025-10-07-22-17-49
       accessHash: '7421309771527577818'
       username: Kawazaky223
       name: Максим
@@ -3503,7 +3503,7 @@ neulovimiy-djo:
   profiles:
     - service: vk
       id: '40753227'
-      updated: 2025-09-30-21-17-04
+      updated: 2025-10-07-22-17-50
       username: neulovimiy_djo
       name: Иван Чернозём
       avatar: store:/avatars/vk-7870da4f.jpg
@@ -5837,7 +5837,7 @@ ya-hs-che-suda-stavit:
   profiles:
     - service: tg
       id: '1336542246'
-      updated: 2025-10-06-09-22-57
+      updated: 2025-10-07-22-17-49
       accessHash: '5504493057447045891'
       username: Ya_hs_che_suda_stavit
       name: Hist 2
