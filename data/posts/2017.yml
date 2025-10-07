@@ -6623,25 +6623,26 @@
     - service: vk
       id: 2717
       published: 2025-10-06-18-28-57
-      updated: 2025-10-07-03-32-51
+      updated: 2025-10-07-04-22-33
       followers: 1448
-      likes: 8
-      views: 103
+      likes: 9
+      views: 112
       reposts: 1
     - service: tg
       id: 1008
       published: 2025-10-06-18-29-03
-      updated: 2025-10-07-03-32-50
+      updated: 2025-10-07-04-22-40
       followers: 833
-      likes: 30
-      views: 151
+      likes: 32
+      views: 155
+      comments: !c ixCAkZPLQnmbzP+3gACra2F3YXpha3kyMjOq8J+nneKAjeKZgAM=
     - service: ig
       id: DPe4iHTicLq
       mediaId: '18526320724015258'
       published: 2025-10-06-21-16-57
-      updated: 2025-10-07-03-32-58
+      updated: 2025-10-07-04-22-36
       followers: 1580
-      likes: 23
+      likes: 25
 2017-05-26-in-the-shrine-of-azura:
   title: In the Shrine of Azura
   titleRu: В святилище Азуры
