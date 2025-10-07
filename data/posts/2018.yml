@@ -889,24 +889,24 @@
       id: DPW2vIxDti_
       mediaId: '18061618190625752'
       published: 2025-10-03-18-27-17
-      updated: 2025-10-06-18-28-10
+      updated: 2025-10-07-19-15-34
       followers: 1581
-      likes: 46
+      likes: 49
     - service: vk
       id: 2707
       published: 2025-10-03-18-27-26
-      updated: 2025-10-06-18-28-13
+      updated: 2025-10-07-19-15-29
       followers: 1443
-      likes: 29
-      views: 280
+      likes: 33
+      views: 298
       reposts: 1
     - service: tg
       id: 1005
       published: 2025-10-03-18-27-31
-      updated: 2025-10-06-18-28-11
+      updated: 2025-10-07-19-15-39
       followers: 830
-      likes: 61
-      views: 267
+      likes: 62
+      views: 321
       comments: !c |-
         Cy+Ak5PLQnma2HwDgACra2F3YXpha3kyMjOk8J+Vr5PLQnmatU9gAACrZ29vc2V2aWNoNzan8J+V
         r++4j5PLQnmatUywgACrZ29vc2V2aWNoNzau0LLQsNC50LHQvtCy0L4D
@@ -6574,16 +6574,16 @@
       id: DPUR72Pj8yy
       mediaId: '17984236796904336'
       published: 2025-10-02-18-27-15
-      updated: 2025-10-06-18-28-14
+      updated: 2025-10-07-19-15-37
       followers: 1583
       likes: 53
     - service: vk
       id: 2704
       published: 2025-10-02-18-27-28
-      updated: 2025-10-06-18-28-16
+      updated: 2025-10-07-19-15-36
       followers: 1443
-      likes: 44
-      views: 874
+      likes: 48
+      views: 894
       reposts: 1
       comments: !c |-
         ix2AkZPLQnmamGRMgACrdWJlci16YXJ5YWTZI9CQINC+0L3QuCDRgyDQstCw0YEg0LTRgNC10LLQ
@@ -6591,10 +6591,10 @@
     - service: tg
       id: 1004
       published: 2025-10-02-18-27-33
-      updated: 2025-10-06-18-28-14
+      updated: 2025-10-07-19-15-40
       followers: 826
-      likes: 62
-      views: 386
+      likes: 63
+      views: 413
       comments: !c |-
         ix+AkpPLQnmagyXSgACra2F3YXpha3kyMjOk8J+nkJPLQnmaYvMlgACqaGltbWVsaGVyeq5FbGRl
         ciwgSSBndWVzcwM=
@@ -7773,11 +7773,20 @@
       id: DPhKHhTjjOB
       mediaId: '18059863949452859'
       published: 2025-10-07-18-29-04
+      updated: 2025-10-07-19-15-30
       followers: 1582
+      likes: 8
     - service: tg
       id: 1009
       published: 2025-10-07-18-29-18
+      updated: 2025-10-07-19-15-27
       followers: 834
+      likes: 23
+      views: 85
+    - service: vk
+      id: 2718
+      published: 2025-10-07-19-15-56
+      followers: 1452
 2018-07-05-a-little-rat-entering-holamayan:
   title: A Little Rat Entering Holamayan
   titleRu: Маленькая крыса входит в Холамаян
