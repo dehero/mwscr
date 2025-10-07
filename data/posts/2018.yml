@@ -7181,10 +7181,10 @@
     - service: tg
       id: 1003
       published: 2025-10-01-18-28-17
-      updated: 2025-10-06-20-21-01
+      updated: 2025-10-07-21-16-25
       followers: 822
-      likes: 73
-      views: 387
+      likes: 74
+      views: 405
       comments: !c |-
         G+8CIJwFdssHSpfuK6ZIcx49JvOVz3fzH/AB3VUkAY2pCfWyfEyKjtrUy6ZptPzHuTwln7sbogPU
         N2F+k982hZ+GjtSMYU/KT00CGbUMEkkqBZD//96JfjC9669Na9NoWPQ+YpgWdcIC+mjB/2/uh4aG
@@ -7773,23 +7773,23 @@
       id: DPhKHhTjjOB
       mediaId: '18059863949452859'
       published: 2025-10-07-18-29-04
-      updated: 2025-10-07-20-20-26
+      updated: 2025-10-07-21-16-19
       followers: 1582
-      likes: 18
+      likes: 19
     - service: tg
       id: 1009
       published: 2025-10-07-18-29-18
-      updated: 2025-10-07-20-20-23
+      updated: 2025-10-07-21-16-16
       followers: 834
-      likes: 32
-      views: 122
+      likes: 33
+      views: 128
     - service: vk
       id: 2718
       published: 2025-10-07-19-15-56
-      updated: 2025-10-07-20-20-22
+      updated: 2025-10-07-21-16-15
       followers: 1452
-      likes: 2
-      views: 14
+      likes: 7
+      views: 27
 2018-07-05-a-little-rat-entering-holamayan:
   title: A Little Rat Entering Holamayan
   titleRu: Маленькая крыса входит в Холамаян
