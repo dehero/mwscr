@@ -304,7 +304,7 @@ alexcher16:
   profiles:
     - service: vk
       id: '14644107'
-      updated: 2025-10-07-06-28-36
+      updated: 2025-10-07-07-18-45
       username: alexcher16
       name: Алексей Черноткач
       avatar: store:/avatars/vk-cf71ed78.jpg
@@ -432,7 +432,7 @@ anonim:
   profiles:
     - service: tg
       id: '6469120788'
-      updated: 2025-10-03-22-16-43
+      updated: 2025-10-07-07-18-47
       accessHash: '-3557204299452739678'
       name: Аноним
       avatar: store:/avatars/tg-5386639419211116910.jpg
@@ -505,7 +505,7 @@ artem-petrov:
   profiles:
     - service: vk
       id: '4238605'
-      updated: 2025-10-07-06-28-36
+      updated: 2025-10-07-07-18-45
       username: id4238605
       name: Артем Петров
       avatar: store:/avatars/vk-77942374.jpg
@@ -513,7 +513,7 @@ artem-solovev:
   profiles:
     - service: vk
       id: '733007624'
-      updated: 2025-10-07-06-28-36
+      updated: 2025-10-07-07-18-46
       username: id733007624
       name: Артем Соловьев
       avatar: store:/avatars/vk-04a89351.jpg
@@ -553,7 +553,7 @@ arya-stark:
   profiles:
     - service: vk
       id: '820702664'
-      updated: 2025-10-06-21-16-36
+      updated: 2025-10-07-07-18-50
       username: id820702664
       name: Арья Старк
       avatar: store:/avatars/vk-689aa89d.jpg
@@ -1178,7 +1178,7 @@ danya-r:
   profiles:
     - service: tg
       id: '6217540848'
-      updated: 2025-10-06-17-17-41
+      updated: 2025-10-07-07-18-48
       accessHash: '144997878637800057'
       name: 🐨𐌃𐌀𐌍𐌙𐌀 𐌔Ƕ𐌀𐌓𐌏𐌔Ƕ𐌍𐌉𐌊𐌏ᕓ🐨
       avatar: store:/avatars/tg-5397941737319691713.jpg
@@ -2662,7 +2662,7 @@ kawazaky223:
   profiles:
     - service: tg
       id: '5641856113'
-      updated: 2025-10-07-06-28-35
+      updated: 2025-10-07-07-18-50
       accessHash: '7421309771527577818'
       username: Kawazaky223
       name: Максим
@@ -4129,11 +4129,11 @@ redoranar:
   profiles:
     - service: tg
       id: '627928484'
-      updated: 2025-10-03-11-16-05
+      updated: 2025-10-07-07-18-54
       accessHash: '4117269213935533016'
       username: Redoranar
       name: Egor
-      avatar: store:/avatars/tg-2696932303463098341.jpg
+      avatar: store:/avatars/tg-2696932303463098355.jpg
 remmlah:
   name: RemmLah
 resist-it:
