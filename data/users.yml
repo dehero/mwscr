@@ -304,7 +304,7 @@ alexcher16:
   profiles:
     - service: vk
       id: '14644107'
-      updated: 2025-10-06-23-16-58
+      updated: 2025-10-07-01-21-23
       username: alexcher16
       name: Алексей Черноткач
       avatar: store:/avatars/vk-cf71ed78.jpg
@@ -505,7 +505,7 @@ artem-petrov:
   profiles:
     - service: vk
       id: '4238605'
-      updated: 2025-10-06-23-16-57
+      updated: 2025-10-07-01-21-22
       username: id4238605
       name: Артем Петров
       avatar: store:/avatars/vk-77942374.jpg
@@ -513,7 +513,7 @@ artem-solovev:
   profiles:
     - service: vk
       id: '733007624'
-      updated: 2025-10-06-23-16-58
+      updated: 2025-10-07-01-21-23
       username: id733007624
       name: Артем Соловьев
       avatar: store:/avatars/vk-04a89351.jpg
@@ -2662,7 +2662,7 @@ kawazaky223:
   profiles:
     - service: tg
       id: '5641856113'
-      updated: 2025-10-06-23-16-56
+      updated: 2025-10-07-01-21-25
       accessHash: '7421309771527577818'
       username: Kawazaky223
       name: Максим
@@ -4215,7 +4215,7 @@ roman-fetisov:
   profiles:
     - service: vk
       id: '639887914'
-      updated: 2025-09-29-23-17-04
+      updated: 2025-10-07-01-21-26
       username: id639887914
       name: Роман Фетисов
       avatar: store:/avatars/vk-77942374.jpg
@@ -4428,7 +4428,7 @@ sergey-churbanov:
   profiles:
     - service: vk
       id: '1060712354'
-      updated: 2025-10-06-17-17-45
+      updated: 2025-10-07-01-21-28
       username: id1060712354
       name: Сергей Чурбанов
       avatar: store:/avatars/vk-6499ce8d.jpg
