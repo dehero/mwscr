@@ -304,7 +304,7 @@ alexcher16:
   profiles:
     - service: vk
       id: '14644107'
-      updated: 2025-10-07-01-21-23
+      updated: 2025-10-07-02-57-49
       username: alexcher16
       name: Алексей Черноткач
       avatar: store:/avatars/vk-cf71ed78.jpg
@@ -505,7 +505,7 @@ artem-petrov:
   profiles:
     - service: vk
       id: '4238605'
-      updated: 2025-10-07-01-21-22
+      updated: 2025-10-07-02-57-48
       username: id4238605
       name: Артем Петров
       avatar: store:/avatars/vk-77942374.jpg
@@ -513,7 +513,7 @@ artem-solovev:
   profiles:
     - service: vk
       id: '733007624'
-      updated: 2025-10-07-01-21-23
+      updated: 2025-10-07-02-57-49
       username: id733007624
       name: Артем Соловьев
       avatar: store:/avatars/vk-04a89351.jpg
@@ -1214,11 +1214,11 @@ darkness-rifho:
       deleted: true
     - service: tg
       id: '5704974271'
-      updated: 2025-10-04-12-33-57
+      updated: 2025-10-07-02-57-55
       accessHash: '3506423524566292179'
       username: C4H6O4
       name: Уна
-      avatar: store:/avatars/tg-5341339183664463120.jpg
+      avatar: store:/avatars/tg-5413793602615771520.jpg
 daryna-dmytrenko:
   profiles:
     - service: vk
@@ -1289,7 +1289,7 @@ dehero:
       avatar: store:/avatars/gh-c8afe641.jpg
     - service: vk
       id: '3652910'
-      updated: 2025-10-01-22-40-58
+      updated: 2025-10-07-02-57-53
       username: dehero
       name: Антон Курьянов
       avatar: store:/avatars/vk-5356f76e.jpg
@@ -2034,7 +2034,7 @@ goosevich76:
   profiles:
     - service: tg
       id: '5385620621'
-      updated: 2025-10-06-21-16-33
+      updated: 2025-10-07-02-57-59
       accessHash: '-7130473396589324830'
       username: horwwwaty
       name: choven
@@ -2662,7 +2662,7 @@ kawazaky223:
   profiles:
     - service: tg
       id: '5641856113'
-      updated: 2025-10-07-01-21-25
+      updated: 2025-10-07-02-57-59
       accessHash: '7421309771527577818'
       username: Kawazaky223
       name: Максим
@@ -5890,7 +5890,7 @@ yourenemieswillpay:
   profiles:
     - service: vk
       id: '154353264'
-      updated: 2025-10-01-22-28-46
+      updated: 2025-10-07-02-57-52
       username: yourenemieswillpay
       name: Кирилл Заречный
       avatar: store:/avatars/vk-a2026737.jpg
