@@ -127,10 +127,10 @@
     - service: vk
       id: 1977
       published: 2024-12-20-18-10-34
-      updated: 2025-10-01-22-17-31
+      updated: 2025-10-08-22-18-49
       followers: 1027
       likes: 40
-      views: 424
+      views: 425
       reposts: 2
       comments: !c CxKAkZPLQnk+VmAkAACoc2VyZ2V5LWKw0JIg0LLQtdC00YDQtSApKQM=
     - service: tg
@@ -1388,10 +1388,10 @@
     - service: vk
       id: 2011
       published: 2025-01-02-18-10-56
-      updated: 2025-10-01-21-17-41
+      updated: 2025-10-08-22-18-20
       followers: 1040
       likes: 58
-      views: 391
+      views: 392
     - service: tg
       id: 645
       published: 2025-01-02-18-11-03

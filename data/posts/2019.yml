@@ -515,23 +515,23 @@
       id: DPju6-BDsCu
       mediaId: '17853187992555575'
       published: 2025-10-08-18-29-07
-      updated: 2025-10-08-21-17-14
+      updated: 2025-10-08-22-17-55
       followers: 1585
-      likes: 19
+      likes: 23
     - service: vk
       id: 2719
       published: 2025-10-08-18-29-12
-      updated: 2025-10-08-21-17-10
+      updated: 2025-10-08-22-17-51
       followers: 1454
-      likes: 9
-      views: 41
+      likes: 10
+      views: 46
     - service: tg
       id: 1010
       published: 2025-10-08-18-29-16
-      updated: 2025-10-08-21-17-11
+      updated: 2025-10-08-22-17-52
       followers: 836
-      likes: 29
-      views: 102
+      likes: 31
+      views: 112
       comments: !c |-
         CyCAkZPLQnmcUaDXgACvdmFpbC1hc3Rvci16a2l52SRXaHkgYXJlIHRoZXJlIG5vIGZ1bm55IHN0
         aWNrZXJzIG5vdz8D
@@ -1022,10 +1022,10 @@
     - service: tg
       id: 570
       published: 2024-10-20-18-09-24
-      updated: 2025-10-01-21-17-35
+      updated: 2025-10-08-22-18-15
       followers: 561
       likes: 69
-      views: 817
+      views: 818
       comments: !c CwqAkZPLQnkqshBWgACod2lsenV1bGygAw==
 2019-03-07-mzahnch:
   title: Mzahnch
@@ -1543,10 +1543,10 @@
     - service: vk
       id: 1976
       published: 2024-12-19-18-10-51
-      updated: 2025-10-01-22-17-33
+      updated: 2025-10-08-22-18-50
       followers: 1027
       likes: 64
-      views: 440
+      views: 441
       reposts: 3
     - service: tg
       id: 630
