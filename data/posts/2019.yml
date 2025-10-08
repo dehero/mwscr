@@ -515,23 +515,23 @@
       id: DPju6-BDsCu
       mediaId: '17853187992555575'
       published: 2025-10-08-18-29-07
-      updated: 2025-10-08-20-20-46
+      updated: 2025-10-08-21-17-14
       followers: 1585
-      likes: 12
+      likes: 19
     - service: vk
       id: 2719
       published: 2025-10-08-18-29-12
-      updated: 2025-10-08-20-20-39
+      updated: 2025-10-08-21-17-10
       followers: 1454
-      likes: 8
-      views: 35
+      likes: 9
+      views: 41
     - service: tg
       id: 1010
       published: 2025-10-08-18-29-16
-      updated: 2025-10-08-20-20-40
+      updated: 2025-10-08-21-17-11
       followers: 836
-      likes: 27
-      views: 90
+      likes: 29
+      views: 102
       comments: !c |-
         CyCAkZPLQnmcUaDXgACvdmFpbC1hc3Rvci16a2l52SRXaHkgYXJlIHRoZXJlIG5vIGZ1bm55IHN0
         aWNrZXJzIG5vdz8D
@@ -576,10 +576,10 @@
     - service: vk
       id: 2412
       published: 2025-06-01-18-25-47
-      updated: 2025-10-01-20-22-54
+      updated: 2025-10-08-21-18-23
       followers: 1314
       likes: 65
-      views: 605
+      views: 607
       reposts: 1
       comments: !c |-
         G7gA4J0JNk6oR3kXHkR1e8LjJgk0wySIsusPqAm4LKJkF3MbO/OKYRiFlQ1cha2DQw5crhi0ADAI
@@ -588,10 +588,10 @@
     - service: tg
       id: 868
       published: 2025-06-01-18-25-50
-      updated: 2025-10-01-20-22-39
+      updated: 2025-10-08-21-18-12
       followers: 742
       likes: 62
-      views: 571
+      views: 575
       comments: !c iw2AkZPLQnlyzUJLAACra2F3YXpha3kyMjOk8J+rpQM=
 2019-02-19-sandy-shore-of-west-gash:
   title: Sandy Shore of West Gash
@@ -799,17 +799,17 @@
     - service: vk
       id: 2119
       published: 2025-02-08-18-09-23
-      updated: 2025-10-01-20-26-00
+      updated: 2025-10-08-21-21-33
       followers: 1062
       likes: 38
-      views: 390
+      views: 391
     - service: tg
       id: 701
       published: 2025-02-08-18-09-32
-      updated: 2025-10-01-20-24-46
+      updated: 2025-10-08-21-20-09
       followers: 672
       likes: 54
-      views: 543
+      views: 545
 2019-02-24-mehrunes-dagon-and-his-worshiper:
   title: Mehrunes Dagon and His Worshiper
   titleRu: Мехрун Дагон и его идолопоклонник
@@ -959,18 +959,18 @@
     - service: vk
       id: 2120
       published: 2025-02-09-18-09-21
-      updated: 2025-10-01-20-25-59
+      updated: 2025-10-08-21-21-32
       followers: 1063
-      likes: 43
-      views: 434
+      likes: 44
+      views: 435
       reposts: 1
     - service: tg
       id: 702
       published: 2025-02-09-18-09-27
-      updated: 2025-10-01-20-24-46
+      updated: 2025-10-08-21-20-09
       followers: 673
       likes: 61
-      views: 526
+      views: 527
 2019-03-04-evening-road:
   title: Evening Road
   titleRu: Вечерняя дорога
@@ -1126,10 +1126,10 @@
     - service: tg
       id: 603
       published: 2024-11-22-18-11-36
-      updated: 2025-10-01-20-26-09
+      updated: 2025-10-08-21-21-30
       followers: 574
-      likes: 71
-      views: 1531
+      likes: 72
+      views: 1534
 2019-03-18-misty-pairs:
   title: Misty Pairs
   titleRu: Туманные пары
@@ -1551,7 +1551,7 @@
     - service: tg
       id: 630
       published: 2024-12-19-18-10-59
-      updated: 2025-10-01-20-25-38
+      updated: 2025-10-08-21-20-59
       followers: 584
       likes: 71
       views: 592
@@ -1866,10 +1866,10 @@
     - service: tg
       id: 592
       published: 2024-11-11-18-10-12
-      updated: 2025-10-01-20-26-20
+      updated: 2025-10-08-21-21-40
       followers: 564
       likes: 65
-      views: 571
+      views: 572
 2019-10-06-dwemer-telescope:
   title: Dwemer Telescope
   titleRu: Двемерский телескоп
@@ -2112,18 +2112,18 @@
     - service: vk
       id: 2098
       published: 2025-01-30-18-10-52
-      updated: 2025-10-01-20-26-20
+      updated: 2025-10-08-21-21-55
       followers: 1057
       likes: 41
-      views: 368
+      views: 369
       reposts: 1
     - service: tg
       id: 689
       published: 2025-01-30-18-10-59
-      updated: 2025-10-01-20-24-53
+      updated: 2025-10-08-21-20-18
       followers: 661
       likes: 74
-      views: 699
+      views: 701
 2019-10-12-imperial-candelabrum:
   title: Imperial Candelabrum
   titleRu: Имперский канделябр
@@ -2379,15 +2379,15 @@
     - service: vk
       id: 2086
       published: 2025-01-25-18-09-30
-      updated: 2025-10-01-20-26-29
+      updated: 2025-10-08-21-21-59
       followers: 1054
       likes: 33
-      views: 329
+      views: 330
       reposts: 1
     - service: tg
       id: 681
       published: 2025-01-25-18-09-38
-      updated: 2025-10-01-20-24-56
+      updated: 2025-10-08-21-20-22
       followers: 658
       likes: 64
       views: 569
@@ -2443,10 +2443,10 @@
     - service: vk
       id: 2362
       published: 2025-05-17-18-24-00
-      updated: 2025-10-01-20-23-26
+      updated: 2025-10-08-21-18-55
       followers: 1300
-      likes: 66
-      views: 549
+      likes: 67
+      views: 551
       reposts: 2
       comments: !c |-
         G3IA+I3TZXZoRb7s+VND+DWLAhaR8BjThu624iWZ97DLbeys7XiORCuoJkUYpNDS7+izj0Aep8tN
@@ -2454,10 +2454,10 @@
     - service: tg
       id: 847
       published: 2025-05-17-19-13-22
-      updated: 2025-10-01-20-23-02
+      updated: 2025-10-08-21-18-27
       followers: 737
       likes: 69
-      views: 524
+      views: 527
 2019-10-22-the-wind-is-getting-stronger:
   title: The Wind Is Getting Stronger
   titleRu: Ветер крепчает
@@ -2511,7 +2511,7 @@
     - service: tg
       id: 671
       published: 2025-01-18-18-09-39
-      updated: 2025-10-01-20-25-08
+      updated: 2025-10-08-21-20-26
       followers: 655
       likes: 65
       views: 657
@@ -2519,10 +2519,10 @@
     - service: vk
       id: 2070
       published: 2025-01-18-19-01-37
-      updated: 2025-10-01-20-26-38
+      updated: 2025-10-08-21-22-07
       followers: 1054
       likes: 41
-      views: 360
+      views: 361
       comments: !c |-
         G24A+I3UTjccqT345/9U0i8YDgUkxz9mrQ4bYwqUbN6HrVA/GSqlyIJQ7O6NlgQgj1qSAbAQUNof
         H27X+6EDcK9i27JBZbtRkH59eLIBUw/RCDG8BiylKaclbTTWEOdJQn0NUILLUUZD9c2f9ivchg==

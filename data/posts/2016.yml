@@ -92,10 +92,10 @@
     - service: vk
       id: 2312
       published: 2025-04-28-18-25-04
-      updated: 2025-10-01-20-23-54
+      updated: 2025-10-08-21-19-28
       followers: 1274
       likes: 72
-      views: 505
+      views: 508
       reposts: 1
       comments: !c |-
         G4YBABwHTtm8gPMIrp76EUJz0iui4sTnCJ0GYpQAh0slaUTa6UwJKnugGTrXVEdFBTiTqI/GSr4M
@@ -107,10 +107,10 @@
     - service: tg
       id: 821
       published: 2025-04-28-18-25-09
-      updated: 2025-10-01-20-23-25
+      updated: 2025-10-08-21-18-52
       followers: 726
       likes: 81
-      views: 655
+      views: 658
       comments: !c |-
         GykBIBwHdpMPbL57lMMyEz0fN4owkD5TYZBwYE0U6ck+spu4WSglENlY3Ma5NBsU7QHaZf2oBTib
         HXFA3q6laWAtat4Wa/DzV3p83RhWQ/rh4BDB9b5/8EVDzC4DX4LLV6nGpgyi/sV2dSASeGZpglnv
@@ -165,10 +165,10 @@
     - service: tg
       id: 609
       published: 2024-11-28-18-10-52
-      updated: 2025-10-01-20-25-54
+      updated: 2025-10-08-21-21-21
       followers: 578
       likes: 59
-      views: 701
+      views: 703
 2016-11-20-4-aldruhn-under-skar:
   title: Ald'ruhn, Under-Skar
   titleRu: Альд'рун, под Скаром
@@ -647,10 +647,10 @@
     - service: tg
       id: 597
       published: 2024-11-16-18-09-47
-      updated: 2025-10-01-20-26-16
+      updated: 2025-10-08-21-21-36
       followers: 573
-      likes: 70
-      views: 735
+      likes: 71
+      views: 738
 2016-12-01-arvs-drelen:
   title: Arvs-Drelen
   titleRu: Арвс-Дрелен
@@ -687,10 +687,10 @@
     - service: vk
       id: 2282
       published: 2025-04-16-18-22-11
-      updated: 2025-10-01-20-24-06
+      updated: 2025-10-08-21-19-43
       followers: 1261
       likes: 75
-      views: 546
+      views: 547
       reposts: 2
       comments: !c |-
         G3MA+C0SzNOZIrBxyzn4pCAU2IEHFAjFAZdQxMkOdTWlBCks4wLeP73ICyTQyOLa2rKs//L9dMAX
@@ -698,10 +698,10 @@
     - service: tg
       id: 797
       published: 2025-04-16-18-22-22
-      updated: 2025-10-01-20-23-36
+      updated: 2025-10-08-21-19-01
       followers: 720
       likes: 61
-      views: 592
+      views: 595
 2016-12-02-molag-mar:
   title: Molag Mar
   titleRu: Молаг Мар
@@ -747,7 +747,7 @@
     - service: tg
       id: 627
       published: 2024-12-16-18-11-52
-      updated: 2025-10-01-20-25-40
+      updated: 2025-10-08-21-21-02
       followers: 581
       likes: 79
       views: 731
@@ -905,10 +905,10 @@
     - service: tg
       id: 624
       published: 2024-12-13-18-11-26
-      updated: 2025-10-01-20-25-44
+      updated: 2025-10-08-21-21-06
       followers: 580
       likes: 64
-      views: 654
+      views: 657
       comments: !c |-
         G4YA6I3UTjc8sgT/wLkIFzbw7aLsuCzboqkSOEnzfTy3Mc/YrSVFYIXBBpxoODAnPAgvdKPsUHHZ
         j5dXqOcadgy4FYqVRqeT+acJrUsutOYHUzNWU4S14DXX2iRNEmLEaYN5xkSUpvSjJ4a7sPGE/+zi
@@ -1318,10 +1318,10 @@
     - service: vk
       id: 2470
       published: 2025-06-17-18-28-43
-      updated: 2025-10-01-20-22-27
+      updated: 2025-10-08-21-17-57
       followers: 1327
       likes: 55
-      views: 435
+      views: 439
       reposts: 1
       comments: !c |-
         G50BwCwO7DYfCzGx5eSX1XoyxD/vn0j68qlNWsEilajpBEY+OZd8Oqc+z2mWPUfRMplALW8xCYUm
@@ -1332,10 +1332,10 @@
     - service: tg
       id: 888
       published: 2025-06-17-18-28-46
-      updated: 2025-10-01-20-22-26
+      updated: 2025-10-08-21-17-57
       followers: 749
       likes: 65
-      views: 580
+      views: 584
 2016-12-19-hla-oad:
   title: Hla Oad
   titleRu: Хла Оуд
