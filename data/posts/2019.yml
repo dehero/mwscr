@@ -515,15 +515,26 @@
       id: DPju6-BDsCu
       mediaId: '17853187992555575'
       published: 2025-10-08-18-29-07
+      updated: 2025-10-08-19-15-06
       followers: 1585
+      likes: 6
     - service: vk
       id: 2719
       published: 2025-10-08-18-29-12
+      updated: 2025-10-08-19-15-03
       followers: 1454
+      likes: 6
+      views: 24
     - service: tg
       id: 1010
       published: 2025-10-08-18-29-16
+      updated: 2025-10-08-19-15-04
       followers: 836
+      likes: 23
+      views: 74
+      comments: !c |-
+        CyCAkZPLQnmcUaDXgACvdmFpbC1hc3Rvci16a2l52SRXaHkgYXJlIHRoZXJlIG5vIGZ1bm55IHN0
+        aWNrZXJzIG5vdz8D
 2019-02-18-daedric-exit:
   title: Daedric Exit
   titleRu: Даэдрический выход
