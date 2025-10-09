@@ -1340,23 +1340,27 @@
       id: DPmTmhFD2u9
       mediaId: '18295869616251373'
       published: 2025-10-09-18-28-10
-      updated: 2025-10-09-19-16-21
+      updated: 2025-10-09-20-21-25
       followers: 1586
-      likes: 18
+      likes: 23
     - service: vk
       id: 2721
       published: 2025-10-09-18-28-19
-      updated: 2025-10-09-19-16-18
+      updated: 2025-10-09-20-21-28
       followers: 1458
-      likes: 5
-      views: 23
+      likes: 10
+      views: 53
+      comments: !c |-
+        G30A+J0Hto1qPbBYGbn7akhE5RnCA3rRGMQoU61YBSt7kFsrLRjKkPcZiqfZDmkiiQfDoO2u7eLt
+        77okDDzkKi+zJNEpeErv8xfv22N9R8WcxZtQZx9qOn91uak5RvlUxEOa3BWHRizFwWg1Ec2CLCQX
+        PekuwD9mAA==
     - service: tg
       id: 1011
       published: 2025-10-09-18-28-24
-      updated: 2025-10-09-19-16-23
+      updated: 2025-10-09-20-21-26
       followers: 835
-      likes: 23
-      views: 82
+      likes: 26
+      views: 102
       comments: !c ixmAkpPLQnmcpem/AACra2F3YXpha3kyMjOk8J+YjZPLQnmcpPShAAClYW5zaXOnQUxNU0lWSQM=
 2017-02-02-selling-some-stuff-in-sadrith-mora:
   title: Selling Some Stuff in Sadrith Mora
@@ -6662,9 +6666,9 @@
       id: DPe4iHTicLq
       mediaId: '18526320724015258'
       published: 2025-10-06-21-16-57
-      updated: 2025-10-08-20-20-50
+      updated: 2025-10-09-20-21-29
       followers: 1580
-      likes: 48
+      likes: 49
 2017-05-26-in-the-shrine-of-azura:
   title: In the Shrine of Azura
   titleRu: В святилище Азуры
