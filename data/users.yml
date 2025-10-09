@@ -92,7 +92,7 @@ a2-enkelli:
   profiles:
     - service: tg
       id: '7258424423'
-      updated: 2025-10-09-07-18-34
+      updated: 2025-10-09-08-25-50
       accessHash: '969825927170686844'
       username: A2_Enkelli
       name: †† elli ††
@@ -447,7 +447,7 @@ ansis:
   profiles:
     - service: tg
       id: '517050552'
-      updated: 2025-10-09-07-18-34
+      updated: 2025-10-09-08-25-50
       accessHash: '5231096655311395455'
       username: ansis
       name: ansis
@@ -553,7 +553,7 @@ arya-stark:
   profiles:
     - service: vk
       id: '820702664'
-      updated: 2025-10-09-07-18-28
+      updated: 2025-10-09-08-25-46
       username: id820702664
       name: Арья Старк
       avatar: store:/avatars/vk-689aa89d.jpg
@@ -882,7 +882,7 @@ caius-cosades:
   profiles:
     - service: tg
       id: '6483220506'
-      updated: 2025-10-08-23-41-06
+      updated: 2025-10-09-08-25-50
       accessHash: '-5537197680289822260'
       username: Gatemate7
       botChatId: 6483220506
@@ -1177,7 +1177,7 @@ danya-r:
   profiles:
     - service: tg
       id: '6217540848'
-      updated: 2025-10-08-21-18-54
+      updated: 2025-10-09-08-25-50
       accessHash: '144997878637800057'
       name: 🐨𐌃𐌀𐌍𐌙𐌀 𐌔Ƕ𐌀𐌓𐌏𐌔Ƕ𐌍𐌉𐌊𐌏ᕓ🐨
       avatar: store:/avatars/tg-5397941737319691713.jpg
@@ -1938,7 +1938,7 @@ georrrrrg:
   profiles:
     - service: tg
       id: '1949040922'
-      updated: 2025-10-08-23-20-30
+      updated: 2025-10-09-08-25-50
       accessHash: '-2007640679099785628'
       username: Georrrrrg
       name: Егор
@@ -2660,7 +2660,7 @@ kawazaky223:
   profiles:
     - service: tg
       id: '5641856113'
-      updated: 2025-10-09-07-18-35
+      updated: 2025-10-09-08-25-50
       accessHash: '7421309771527577818'
       username: Kawazaky223
       name: Максим
@@ -5482,7 +5482,7 @@ vail-astor-zkiy:
   profiles:
     - service: tg
       id: '1245638625'
-      updated: 2025-10-09-07-18-34
+      updated: 2025-10-09-08-25-47
       accessHash: '-6135365331334675689'
       name: Vail Astor'zkiy
 valeriy-zhmishenko:
