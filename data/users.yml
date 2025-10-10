@@ -92,7 +92,7 @@ a2-enkelli:
   profiles:
     - service: tg
       id: '7258424423'
-      updated: 2025-10-10-10-20-20
+      updated: 2025-10-10-11-16-41
       accessHash: '969825927170686844'
       username: A2_Enkelli
       name: †† elli ††
@@ -432,7 +432,7 @@ anonim:
   profiles:
     - service: tg
       id: '6469120788'
-      updated: 2025-10-07-07-18-47
+      updated: 2025-10-10-11-16-44
       accessHash: '-3557204299452739678'
       name: Аноним
       avatar: store:/avatars/tg-5386639419211116910.jpg
@@ -447,7 +447,7 @@ ansis:
   profiles:
     - service: tg
       id: '517050552'
-      updated: 2025-10-10-10-20-20
+      updated: 2025-10-10-11-16-42
       accessHash: '5231096655311395455'
       username: ansis
       name: ansis
@@ -553,7 +553,7 @@ arya-stark:
   profiles:
     - service: vk
       id: '820702664'
-      updated: 2025-10-10-10-20-20
+      updated: 2025-10-10-11-16-41
       username: id820702664
       name: Арья Старк
       avatar: store:/avatars/vk-689aa89d.jpg
@@ -1177,7 +1177,7 @@ danya-r:
   profiles:
     - service: tg
       id: '6217540848'
-      updated: 2025-10-09-08-25-50
+      updated: 2025-10-10-11-16-44
       accessHash: '144997878637800057'
       name: 🐨𐌃𐌀𐌍𐌙𐌀 𐌔Ƕ𐌀𐌓𐌏𐌔Ƕ𐌍𐌉𐌊𐌏ᕓ🐨
       avatar: store:/avatars/tg-5397941737319691713.jpg
@@ -2660,7 +2660,7 @@ kawazaky223:
   profiles:
     - service: tg
       id: '5641856113'
-      updated: 2025-10-10-10-20-20
+      updated: 2025-10-10-11-17-04
       accessHash: '7421309771527577818'
       username: Kawazaky223
       name: Максим
@@ -2740,7 +2740,7 @@ konstantin-matrosov:
   profiles:
     - service: vk
       id: '93073669'
-      updated: 2025-10-10-10-20-17
+      updated: 2025-10-10-11-16-51
       username: id93073669
       name: Константин Матросов
       avatar: store:/avatars/vk-3b5e092e.jpg
@@ -3130,16 +3130,15 @@ max-upsher:
   profiles:
     - service: tg
       id: '1774562733'
-      updated: 2025-10-09-06-29-38
+      updated: 2025-10-10-11-17-01
       accessHash: '1025402626840048013'
       username: MaxUpsher
       name: Max Upsher
-      avatar: store:/avatars/tg-5474278587663252099.jpg
 mbdtsmo:
   profiles:
     - service: tg
       id: '5093097514'
-      updated: 2025-10-08-21-18-01
+      updated: 2025-10-10-11-17-00
       accessHash: '-613358669572386334'
       username: mbdtsmo
       name: M Bdtsmo
@@ -3196,7 +3195,7 @@ mibrnd:
   profiles:
     - service: vk
       id: '853706470'
-      updated: 2025-10-10-10-20-20
+      updated: 2025-10-10-11-16-41
       username: mibrnd
       name: Михаил Барановский
       avatar: store:/avatars/vk-909337ed.jpg
@@ -3608,7 +3607,7 @@ oberhort:
   profiles:
     - service: tg
       id: '19254498'
-      updated: 2025-10-03-11-15-54
+      updated: 2025-10-10-11-16-54
       accessHash: '-564270059565994883'
       username: oberhort
       name: Игорь
@@ -4127,7 +4126,7 @@ redoranar:
   profiles:
     - service: tg
       id: '627928484'
-      updated: 2025-10-08-23-41-07
+      updated: 2025-10-10-11-17-04
       accessHash: '4117269213935533016'
       username: Redoranar
       name: Egor
@@ -4335,7 +4334,7 @@ scion-of-balance:
   profiles:
     - service: tg
       id: '5834663294'
-      updated: 2025-10-08-21-20-20
+      updated: 2025-10-10-11-16-47
       accessHash: '-2758740287553358448'
       username: vorpalhopper
       name: Vorpalhopper
@@ -4412,7 +4411,7 @@ sergey-b:
   profiles:
     - service: vk
       id: '889222999'
-      updated: 2025-10-08-23-41-06
+      updated: 2025-10-10-11-16-54
       username: id889222999
       avatar: store:/avatars/vk-7f160215.jpg
       deleted: true
@@ -4426,7 +4425,7 @@ sergey-churbanov:
   profiles:
     - service: vk
       id: '1060712354'
-      updated: 2025-10-09-13-30-19
+      updated: 2025-10-10-11-16-51
       username: id1060712354
       name: Сергей Чурбанов
       avatar: store:/avatars/vk-6499ce8d.jpg
@@ -5482,7 +5481,7 @@ vail-astor-zkiy:
   profiles:
     - service: tg
       id: '1245638625'
-      updated: 2025-10-10-10-20-20
+      updated: 2025-10-10-11-17-06
       accessHash: '-6135365331334675689'
       name: Vail Astor'zkiy
 valeriy-zhmishenko:
