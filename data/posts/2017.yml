@@ -1341,16 +1341,16 @@
       id: DPmTmhFD2u9
       mediaId: '18295869616251373'
       published: 2025-10-09-18-28-10
-      updated: 2025-10-10-17-17-05
+      updated: 2025-10-10-18-27-14
       followers: 1586
-      likes: 55
+      likes: 56
     - service: vk
       id: 2721
       published: 2025-10-09-18-28-19
-      updated: 2025-10-10-17-17-06
+      updated: 2025-10-10-18-27-13
       followers: 1458
       likes: 43
-      views: 281
+      views: 288
       reposts: 1
       comments: !c |-
         G30A+J0Hto1qPbBYGbn7akhE5RnCA3rRGMQoU61YBSt7kFsrLRjKkPcZiqfZDmkiiQfDoO2u7eLt
@@ -1359,10 +1359,10 @@
     - service: tg
       id: 1011
       published: 2025-10-09-18-28-24
-      updated: 2025-10-10-17-17-07
+      updated: 2025-10-10-18-27-12
       followers: 835
       likes: 48
-      views: 193
+      views: 195
       comments: !c ixmAkpPLQnmcpem/AACra2F3YXpha3kyMjOk8J+YjZPLQnmcpPShAAClYW5zaXOnQUxNU0lWSQM=
 2017-02-02-selling-some-stuff-in-sadrith-mora:
   title: Selling Some Stuff in Sadrith Mora
@@ -14426,6 +14426,15 @@
       followers: 103
       likes: 17
       views: 159
+    - service: ig
+      id: DPo4WeiDLlZ
+      mediaId: '18082174219801980'
+      published: 2025-10-10-18-27-45
+      followers: 1587
+    - service: tg
+      id: 1012
+      published: 2025-10-10-18-28-05
+      followers: 835
 2017-11-28-evening-mournhold:
   title: Evening Mournhold
   titleRu: Вечерний Морнхолд
