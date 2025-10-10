@@ -92,7 +92,7 @@ a2-enkelli:
   profiles:
     - service: tg
       id: '7258424423'
-      updated: 2025-10-10-08-25-16
+      updated: 2025-10-10-09-20-52
       accessHash: '969825927170686844'
       username: A2_Enkelli
       name: †† elli ††
@@ -255,7 +255,7 @@ aleksey-kobzev:
   profiles:
     - service: vk
       id: '51091828'
-      updated: 2025-10-03-09-19-05
+      updated: 2025-10-10-09-21-06
       username: id51091828
       name: Алексей Кобзев
       avatar: store:/avatars/vk-007e8576.jpg
@@ -447,7 +447,7 @@ ansis:
   profiles:
     - service: tg
       id: '517050552'
-      updated: 2025-10-10-08-25-16
+      updated: 2025-10-10-09-20-53
       accessHash: '5231096655311395455'
       username: ansis
       name: ansis
@@ -553,7 +553,7 @@ arya-stark:
   profiles:
     - service: vk
       id: '820702664'
-      updated: 2025-10-10-08-25-13
+      updated: 2025-10-10-09-21-06
       username: id820702664
       name: Арья Старк
       avatar: store:/avatars/vk-689aa89d.jpg
@@ -617,10 +617,10 @@ balmora-blue:
   profiles:
     - service: vk
       id: '319590859'
-      updated: 2025-10-08-21-20-18
+      updated: 2025-10-10-09-21-00
       username: balmora.blue
       name: Любовь Любовь
-      avatar: store:/avatars/vk-daaeb582.jpg
+      avatar: store:/avatars/vk-0fb746c0.jpg
 baltazawrrr:
   profiles:
     - service: tg
@@ -1515,7 +1515,7 @@ dremarretres:
   profiles:
     - service: vk
       id: '801308664'
-      updated: 2025-10-08-21-18-21
+      updated: 2025-10-10-09-21-06
       username: dremarretres
       name: Джон Шепард
       avatar: store:/avatars/vk-ac4f0700.jpg
@@ -1955,10 +1955,10 @@ ghost63rus:
   profiles:
     - service: vk
       id: '841031998'
-      updated: 2025-10-03-09-19-05
+      updated: 2025-10-10-09-21-06
       username: ghost63rus
       name: Дмитрий Кузнецов
-      avatar: store:/avatars/vk-ac6a3097.jpg
+      avatar: store:/avatars/vk-049ebccf.jpg
 glavinicmartin:
   profiles:
     - service: ig
@@ -2660,7 +2660,7 @@ kawazaky223:
   profiles:
     - service: tg
       id: '5641856113'
-      updated: 2025-10-10-08-25-16
+      updated: 2025-10-10-09-20-53
       accessHash: '7421309771527577818'
       username: Kawazaky223
       name: Максим
@@ -2740,7 +2740,7 @@ konstantin-matrosov:
   profiles:
     - service: vk
       id: '93073669'
-      updated: 2025-10-10-08-25-12
+      updated: 2025-10-10-09-20-49
       username: id93073669
       name: Константин Матросов
       avatar: store:/avatars/vk-3b5e092e.jpg
@@ -3196,7 +3196,7 @@ mibrnd:
   profiles:
     - service: vk
       id: '853706470'
-      updated: 2025-10-10-08-25-13
+      updated: 2025-10-10-09-20-51
       username: mibrnd
       name: Михаил Барановский
       avatar: store:/avatars/vk-909337ed.jpg
@@ -5482,7 +5482,7 @@ vail-astor-zkiy:
   profiles:
     - service: tg
       id: '1245638625'
-      updated: 2025-10-10-08-25-16
+      updated: 2025-10-10-09-20-53
       accessHash: '-6135365331334675689'
       name: Vail Astor'zkiy
 valeriy-zhmishenko:
@@ -5633,7 +5633,7 @@ vladkr114:
   profiles:
     - service: vk
       id: '210352858'
-      updated: 2025-10-09-13-30-19
+      updated: 2025-10-10-09-21-06
       username: vladkr114
       name: Влад Крамской
       avatar: store:/avatars/vk-dfe1d842.jpg
