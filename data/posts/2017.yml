@@ -1341,16 +1341,16 @@
       id: DPmTmhFD2u9
       mediaId: '18295869616251373'
       published: 2025-10-09-18-28-10
-      updated: 2025-10-11-04-21-09
+      updated: 2025-10-11-05-17-17
       followers: 1586
       likes: 57
     - service: vk
       id: 2721
       published: 2025-10-09-18-28-19
-      updated: 2025-10-11-04-21-12
+      updated: 2025-10-11-05-17-20
       followers: 1458
       likes: 44
-      views: 306
+      views: 308
       reposts: 1
       comments: !c |-
         G30A+J0Hto1qPbBYGbn7akhE5RnCA3rRGMQoU61YBSt7kFsrLRjKkPcZiqfZDmkiiQfDoO2u7eLt
@@ -1359,10 +1359,10 @@
     - service: tg
       id: 1011
       published: 2025-10-09-18-28-24
-      updated: 2025-10-11-04-21-13
+      updated: 2025-10-11-05-17-19
       followers: 835
       likes: 56
-      views: 222
+      views: 223
       comments: !c ixmAkpPLQnmcpem/AACra2F3YXpha3kyMjOk8J+YjZPLQnmcpPShAAClYW5zaXOnQUxNU0lWSQM=
 2017-02-02-selling-some-stuff-in-sadrith-mora:
   title: Selling Some Stuff in Sadrith Mora
@@ -6108,7 +6108,7 @@
       id: DLrIT8msmCv
       mediaId: '17954788979976496'
       published: 2025-07-04-05-20-05
-      updated: 2025-10-04-04-21-07
+      updated: 2025-10-11-05-17-23
       followers: 1559
       likes: 92
 2017-05-14-entrance-to-vivec:
@@ -14430,24 +14430,29 @@
       id: DPo4WeiDLlZ
       mediaId: '18082174219801980'
       published: 2025-10-10-18-27-45
-      updated: 2025-10-11-04-21-08
+      updated: 2025-10-11-05-17-16
       followers: 1587
-      likes: 38
+      likes: 39
     - service: tg
       id: 1012
       published: 2025-10-10-18-28-05
-      updated: 2025-10-11-04-21-05
+      updated: 2025-10-11-05-17-12
       followers: 835
-      likes: 41
-      views: 128
+      likes: 42
+      views: 132
     - service: vk
       id: 2726
       published: 2025-10-10-19-15-36
-      updated: 2025-10-11-04-21-06
+      updated: 2025-10-11-05-17-18
       followers: 1459
-      likes: 17
-      views: 236
+      likes: 19
+      views: 249
       reposts: 1
+      comments: !c |-
+        GwABwBwJNk5zwUavGfyTtwj/ec2s88Fos10wwS6CCJL3MHVbKcmmwWYck8M+9IYq5NYs2RbN6XRJ
+        BsKH0F8ntyMGIsHnAUUFFlLkgacUWG5jOB1XnBWBdNrez1dr5Hlt8dbR+mzrWG32Nur//2xWUGu+
+        EIJzQOLQKRG9x66C9AIR4iGhBIZF0Cnyjx8TCuVotgCnzoqmvFwXvVIQqxKa6wsGGBGBQBDgOjqZ
+        pJGxIgs=
 2017-11-28-evening-mournhold:
   title: Evening Mournhold
   titleRu: Вечерний Морнхолд

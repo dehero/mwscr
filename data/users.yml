@@ -271,7 +271,7 @@ aleksey-yeskela:
   profiles:
     - service: vk
       id: '1047357639'
-      updated: 2025-10-06-13-29-21
+      updated: 2025-10-11-05-17-18
       username: id1047357639
       name: Алексей Йескела
       avatar: store:/avatars/vk-77942374.jpg
@@ -447,7 +447,7 @@ ansis:
   profiles:
     - service: tg
       id: '517050552'
-      updated: 2025-10-11-04-21-13
+      updated: 2025-10-11-05-17-19
       accessHash: '5231096655311395455'
       username: ansis
       name: ansis
@@ -2660,7 +2660,7 @@ kawazaky223:
   profiles:
     - service: tg
       id: '5641856113'
-      updated: 2025-10-11-04-21-14
+      updated: 2025-10-11-05-17-19
       accessHash: '7421309771527577818'
       username: Kawazaky223
       name: Максим
@@ -2740,7 +2740,7 @@ konstantin-matrosov:
   profiles:
     - service: vk
       id: '93073669'
-      updated: 2025-10-11-04-21-11
+      updated: 2025-10-11-05-17-20
       username: id93073669
       name: Константин Матросов
       avatar: store:/avatars/vk-3b5e092e.jpg
