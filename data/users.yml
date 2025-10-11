@@ -447,7 +447,7 @@ ansis:
   profiles:
     - service: tg
       id: '517050552'
-      updated: 2025-10-11-03-26-54
+      updated: 2025-10-11-04-21-13
       accessHash: '5231096655311395455'
       username: ansis
       name: ansis
@@ -2206,7 +2206,7 @@ hyarvar:
   profiles:
     - service: vk
       id: '702302403'
-      updated: 2025-10-08-23-25-33
+      updated: 2025-10-11-04-21-19
       username: hyarvar
       name: Хьярвар Драконорожденный
       avatar: store:/avatars/vk-b20f6d84.jpg
@@ -2660,7 +2660,7 @@ kawazaky223:
   profiles:
     - service: tg
       id: '5641856113'
-      updated: 2025-10-11-03-26-54
+      updated: 2025-10-11-04-21-14
       accessHash: '7421309771527577818'
       username: Kawazaky223
       name: Максим
@@ -2740,7 +2740,7 @@ konstantin-matrosov:
   profiles:
     - service: vk
       id: '93073669'
-      updated: 2025-10-11-03-26-57
+      updated: 2025-10-11-04-21-11
       username: id93073669
       name: Константин Матросов
       avatar: store:/avatars/vk-3b5e092e.jpg
@@ -4425,7 +4425,7 @@ sergey-churbanov:
   profiles:
     - service: vk
       id: '1060712354'
-      updated: 2025-10-11-02-53-29
+      updated: 2025-10-11-04-21-15
       username: id1060712354
       name: Сергей Чурбанов
       avatar: store:/avatars/vk-6499ce8d.jpg

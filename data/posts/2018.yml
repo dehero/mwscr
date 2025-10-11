@@ -2795,10 +2795,10 @@
     - service: vk
       id: 2522
       published: 2025-07-18-18-24-20
-      updated: 2025-10-04-04-20-59
+      updated: 2025-10-11-04-21-18
       followers: 1345
       likes: 34
-      views: 455
+      views: 458
     - service: tg
       id: 921
       published: 2025-07-18-18-24-24
@@ -8768,7 +8768,7 @@
       id: DMO-hjNo1OE
       mediaId: '18197350498311168'
       published: 2025-07-18-03-27-16
-      updated: 2025-10-04-04-21-03
+      updated: 2025-10-11-04-21-21
       followers: 1568
       likes: 46
 2018-07-27-the-book-of-dawn-and-dusk:
@@ -10865,7 +10865,7 @@
       id: DMQQCL-MZcJ
       mediaId: '18064094723186502'
       published: 2025-07-18-15-19-27
-      updated: 2025-10-04-04-20-56
+      updated: 2025-10-11-04-21-13
       followers: 1568
       likes: 77
 2018-09-11-galmis-dren-smuggler:
@@ -11795,24 +11795,24 @@
       id: DMlOV1HNDFf
       mediaId: '18383403958193251'
       published: 2025-07-26-18-48-46
-      updated: 2025-10-04-04-20-54
+      updated: 2025-10-11-04-21-11
       followers: 1574
       likes: 63
     - service: vk
       id: 2535
       published: 2025-07-26-18-48-52
-      updated: 2025-10-04-04-20-58
+      updated: 2025-10-11-04-21-16
       followers: 1351
       likes: 31
-      views: 391
+      views: 395
       comments: !c ixWAkZPLQnmEpjiXAACwc2VyZ2V5LWNodXJiYW5vdq9aYSAgTW9ycm93aW5kISED
     - service: tg
       id: 928
       published: 2025-07-26-18-48-55
-      updated: 2025-10-04-04-20-57
+      updated: 2025-10-11-04-21-15
       followers: 767
       likes: 73
-      views: 590
+      views: 592
       comments: !c iw2AkZPLQnmEn+dnAACra2F3YXpha3kyMjOk8J+klgM=
 2018-09-30-ancestral-tombs:
   title: Ancestral Tombs
