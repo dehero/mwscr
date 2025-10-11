@@ -447,7 +447,7 @@ ansis:
   profiles:
     - service: tg
       id: '517050552'
-      updated: 2025-10-10-23-16-39
+      updated: 2025-10-11-01-19-14
       accessHash: '5231096655311395455'
       username: ansis
       name: ansis
@@ -464,7 +464,7 @@ anton-mezhuev:
   profiles:
     - service: vk
       id: '63571521'
-      updated: 2025-10-08-23-19-20
+      updated: 2025-10-11-01-19-18
       username: id63571521
       name: Антон Межуев
       avatar: store:/avatars/vk-295e8e4f.jpg
@@ -838,7 +838,7 @@ brg1092:
   profiles:
     - service: tg
       id: '5867861906'
-      updated: 2025-10-09-22-17-40
+      updated: 2025-10-11-01-19-16
       accessHash: '4411929981434940281'
       username: brg1092
       name: 2𝜋
@@ -2660,7 +2660,7 @@ kawazaky223:
   profiles:
     - service: tg
       id: '5641856113'
-      updated: 2025-10-10-23-16-39
+      updated: 2025-10-11-01-19-17
       accessHash: '7421309771527577818'
       username: Kawazaky223
       name: Максим
@@ -2740,7 +2740,7 @@ konstantin-matrosov:
   profiles:
     - service: vk
       id: '93073669'
-      updated: 2025-10-10-23-16-41
+      updated: 2025-10-11-01-19-15
       username: id93073669
       name: Константин Матросов
       avatar: store:/avatars/vk-3b5e092e.jpg
@@ -4425,7 +4425,7 @@ sergey-churbanov:
   profiles:
     - service: vk
       id: '1060712354'
-      updated: 2025-10-10-16-23-23
+      updated: 2025-10-11-01-19-17
       username: id1060712354
       name: Сергей Чурбанов
       avatar: store:/avatars/vk-6499ce8d.jpg
@@ -5088,7 +5088,7 @@ todor:
   profiles:
     - service: tg
       id: '1305695186'
-      updated: 2025-10-08-23-17-41
+      updated: 2025-10-11-01-19-16
       accessHash: '8819682207926865502'
       name: Todor
       avatar: store:/avatars/tg-5305295556123424826.jpg
