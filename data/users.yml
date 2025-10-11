@@ -92,7 +92,7 @@ a2-enkelli:
   profiles:
     - service: tg
       id: '7258424423'
-      updated: 2025-10-11-21-15-07
+      updated: 2025-10-11-22-16-20
       accessHash: '969825927170686844'
       username: A2_Enkelli
       name: †† elli ††
@@ -271,7 +271,7 @@ aleksey-yeskela:
   profiles:
     - service: vk
       id: '1047357639'
-      updated: 2025-10-11-21-15-05
+      updated: 2025-10-11-22-16-24
       username: id1047357639
       name: Алексей Йескела
       avatar: store:/avatars/vk-77942374.jpg
@@ -447,7 +447,7 @@ ansis:
   profiles:
     - service: tg
       id: '517050552'
-      updated: 2025-10-11-21-15-17
+      updated: 2025-10-11-22-16-20
       accessHash: '5231096655311395455'
       username: ansis
       name: ansis
@@ -505,7 +505,7 @@ artem-petrov:
   profiles:
     - service: vk
       id: '4238605'
-      updated: 2025-10-11-21-15-20
+      updated: 2025-10-11-22-16-22
       username: id4238605
       name: Артем Петров
       avatar: store:/avatars/vk-77942374.jpg
@@ -2087,7 +2087,7 @@ h4shirama-s3nju:
   profiles:
     - service: tg
       id: '5619748563'
-      updated: 2025-10-11-21-15-17
+      updated: 2025-10-11-22-16-17
       accessHash: '-759856355370590559'
       username: H4shiramaS3nju
       name: 柱間 千住 ✝️ :("");
@@ -2660,7 +2660,7 @@ kawazaky223:
   profiles:
     - service: tg
       id: '5641856113'
-      updated: 2025-10-11-21-15-16
+      updated: 2025-10-11-22-16-23
       accessHash: '7421309771527577818'
       username: Kawazaky223
       name: Максим
@@ -2740,7 +2740,7 @@ konstantin-matrosov:
   profiles:
     - service: vk
       id: '93073669'
-      updated: 2025-10-11-18-22-36
+      updated: 2025-10-11-22-16-23
       username: id93073669
       name: Константин Матросов
       avatar: store:/avatars/vk-3b5e092e.jpg
@@ -3500,7 +3500,7 @@ nerevarine:
   profiles:
     - service: tg
       id: '373264328'
-      updated: 2025-10-11-21-15-07
+      updated: 2025-10-11-22-16-19
       accessHash: '9078366854792939477'
       username: Nerevarine
       name: Otto Godblessed
@@ -4450,7 +4450,7 @@ sh2162:
   profiles:
     - service: vk
       id: '175206341'
-      updated: 2025-10-04-22-16-09
+      updated: 2025-10-11-22-16-24
       username: sh2162
       name: Саня Змей
       avatar: store:/avatars/vk-61e7091c.jpg
@@ -4946,7 +4946,7 @@ the-best-song78:
   profiles:
     - service: vk
       id: '825763367'
-      updated: 2025-10-04-22-16-09
+      updated: 2025-10-11-22-16-23
       username: the_best_song78
       name: Vladislav Dmitrievich
       avatar: store:/avatars/vk-cfd58d0c.jpg
