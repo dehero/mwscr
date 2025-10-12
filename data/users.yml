@@ -92,7 +92,7 @@ a2-enkelli:
   profiles:
     - service: tg
       id: '7258424423'
-      updated: 2025-10-12-17-15-16
+      updated: 2025-10-12-18-23-53
       accessHash: '969825927170686844'
       username: A2_Enkelli
       name: †† elli ††
@@ -271,7 +271,7 @@ aleksey-yeskela:
   profiles:
     - service: vk
       id: '1047357639'
-      updated: 2025-10-12-17-15-12
+      updated: 2025-10-12-18-23-49
       username: id1047357639
       name: Алексей Йескела
       avatar: store:/avatars/vk-77942374.jpg
@@ -447,7 +447,7 @@ ansis:
   profiles:
     - service: tg
       id: '517050552'
-      updated: 2025-10-12-17-15-16
+      updated: 2025-10-12-18-23-56
       accessHash: '5231096655311395455'
       username: ansis
       name: ansis
@@ -513,7 +513,7 @@ artem-solovev:
   profiles:
     - service: vk
       id: '733007624'
-      updated: 2025-10-12-17-15-13
+      updated: 2025-10-12-18-23-49
       username: id733007624
       name: Артем Соловьев
       avatar: store:/avatars/vk-04a89351.jpg
@@ -2087,7 +2087,7 @@ h4shirama-s3nju:
   profiles:
     - service: tg
       id: '5619748563'
-      updated: 2025-10-12-17-15-13
+      updated: 2025-10-12-18-23-49
       accessHash: '-759856355370590559'
       username: H4shiramaS3nju
       name: 柱間 千住 ✝️ :("");
@@ -2660,7 +2660,7 @@ kawazaky223:
   profiles:
     - service: tg
       id: '5641856113'
-      updated: 2025-10-12-17-15-16
+      updated: 2025-10-12-18-23-56
       accessHash: '7421309771527577818'
       username: Kawazaky223
       name: Максим
@@ -2740,7 +2740,7 @@ konstantin-matrosov:
   profiles:
     - service: vk
       id: '93073669'
-      updated: 2025-10-11-22-16-23
+      updated: 2025-10-12-18-23-53
       username: id93073669
       name: Константин Матросов
       avatar: store:/avatars/vk-3b5e092e.jpg
@@ -3500,7 +3500,7 @@ nerevarine:
   profiles:
     - service: tg
       id: '373264328'
-      updated: 2025-10-12-17-15-15
+      updated: 2025-10-12-18-23-52
       accessHash: '9078366854792939477'
       username: Nerevarine
       name: Otto Godblessed
