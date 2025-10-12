@@ -6651,22 +6651,23 @@
     - service: vk
       id: 2717
       published: 2025-10-06-18-28-57
-      updated: 2025-10-11-21-15-15
+      updated: 2025-10-12-21-16-08
       followers: 1448
-      likes: 42
-      views: 928
-      reposts: 1
+      likes: 49
+      views: 1311
+      reposts: 2
       comments: !c |-
-        G4wA4C0SbBsG5WMGO8xS3PBRfH/7hE+DYg0iauJAIk32QDd9vtO3ODKkW7Wz1SqLXdAcm9mYzafy
-        7SZnl63D1NrqpCQ2iRW0zfv5WV96f63vOmlJFi90e05sRpC5Blk9VAY2U7S51DhGwbEjmMDkomrG
-        jhZUAj99tg0=
+        G/YAABwFbnvxDEJH98LQsyICbyN8HWwuURZwCRVpcq9uK6ULZuu4TM/95uA5pCWNBzqgRxRmk9x4
+        bnDEAXIWJhrSJNMw0QqD4/DMH6PO6M37+fk52fvH+I4oDIpUKV1FFr62fVc7UDKPJHso9kCntgTa
+        97pRd9yx0OYQpq0CB7v0CEcQdiHUxx/n7INuv9dspJbRAHVRKQwWuaVADW+7YLpe7dKOCVp1+/is
+        sSuSRJU5AQ==
     - service: tg
       id: 1008
       published: 2025-10-06-18-29-03
-      updated: 2025-10-11-21-15-09
+      updated: 2025-10-12-21-15-58
       followers: 833
-      likes: 55
-      views: 348
+      likes: 57
+      views: 367
       comments: !c ixCAkZPLQnmbzP+3gACra2F3YXpha3kyMjOq8J+nneKAjeKZgAM=
     - service: ig
       id: DPe4iHTicLq

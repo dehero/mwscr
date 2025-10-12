@@ -304,7 +304,7 @@ alexcher16:
   profiles:
     - service: vk
       id: '14644107'
-      updated: 2025-10-11-21-15-20
+      updated: 2025-10-12-21-16-14
       username: alexcher16
       name: Алексей Черноткач
       avatar: store:/avatars/vk-cf71ed78.jpg
@@ -447,7 +447,7 @@ ansis:
   profiles:
     - service: tg
       id: '517050552'
-      updated: 2025-10-12-20-19-23
+      updated: 2025-10-12-21-15-57
       accessHash: '5231096655311395455'
       username: ansis
       name: ansis
@@ -505,7 +505,7 @@ artem-petrov:
   profiles:
     - service: vk
       id: '4238605'
-      updated: 2025-10-12-04-21-45
+      updated: 2025-10-12-21-16-14
       username: id4238605
       name: Артем Петров
       avatar: store:/avatars/vk-77942374.jpg
@@ -513,7 +513,7 @@ artem-solovev:
   profiles:
     - service: vk
       id: '733007624'
-      updated: 2025-10-12-19-13-53
+      updated: 2025-10-12-21-16-14
       username: id733007624
       name: Артем Соловьев
       avatar: store:/avatars/vk-04a89351.jpg
@@ -2087,7 +2087,7 @@ h4shirama-s3nju:
   profiles:
     - service: tg
       id: '5619748563'
-      updated: 2025-10-12-20-19-17
+      updated: 2025-10-12-21-15-57
       accessHash: '-759856355370590559'
       username: H4shiramaS3nju
       name: 柱間 千住 ✝️ :("");
@@ -2660,7 +2660,7 @@ kawazaky223:
   profiles:
     - service: tg
       id: '5641856113'
-      updated: 2025-10-12-20-19-22
+      updated: 2025-10-12-21-16-00
       accessHash: '7421309771527577818'
       username: Kawazaky223
       name: Максим
@@ -4430,6 +4430,14 @@ sergey-b:
       username: id810900694
       avatar: store:/avatars/vk-7f160215.jpg
       deleted: true
+sergey-b-2:
+  profiles:
+    - service: vk
+      id: '1077446394'
+      updated: 2025-10-12-21-16-08
+      username: id1077446394
+      name: Сергей Б
+      avatar: store:/avatars/vk-12075792.jpg
 sergey-churbanov:
   profiles:
     - service: vk
@@ -4685,10 +4693,10 @@ sonmuravja:
   profiles:
     - service: vk
       id: '845329081'
-      updated: 2025-10-11-21-15-14
+      updated: 2025-10-12-21-16-03
       username: sonmuravja
       name: Егор Другаков
-      avatar: store:/avatars/vk-dc5e4d54.jpg
+      avatar: store:/avatars/vk-f191668a.jpg
 sothaseel:
   profiles:
     - service: ig
