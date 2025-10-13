@@ -3397,6 +3397,19 @@
         G4QAwBwHuRnrjhXVgx9isZgRKh0ib1L8INqHFlhnqmLG2G9CPyXq6DDo5Za7Pes/0AP+2r6sLXur
         C8K0eSqJ5QEX8Ta1MinElS5lSvWmlIKZYhqHF/vdtWqRiuXqfn8+BYBNeprQL0QOg3ULwmQBRleh
         vgmyCuANHyjuz1tKhwEMK6g=
+    - service: ig
+      id: DPwmvA5DhdI
+      mediaId: '18068583380522542'
+      published: 2025-10-13-18-27-43
+      followers: 1586
+    - service: vk
+      id: 2733
+      published: 2025-10-13-18-27-49
+      followers: 1469
+    - service: tg
+      id: 1015
+      published: 2025-10-13-18-27-54
+      followers: 836
 2018-03-23-in-dunmer-stronghold:
   title: In Dunmer Stronghold
   titleRu: В данмерской крепости
@@ -8930,16 +8943,16 @@
       id: DM543yhsZtW
       mediaId: '17894475237269603'
       published: 2025-08-03-19-25-00
-      updated: 2025-10-06-17-17-40
+      updated: 2025-10-13-18-27-08
       followers: 1572
       likes: 69
     - service: vk
       id: 2552
       published: 2025-08-03-19-25-00
-      updated: 2025-10-06-17-17-45
+      updated: 2025-10-13-18-27-10
       followers: 1356
-      likes: 52
-      views: 807
+      likes: 53
+      views: 812
       reposts: 3
       comments: !c |-
         C0KAkpPLQnmGq0NiAACwc2VyZ2V5LWNodXJiYW5vdtkl0JDRhdCw0YXQsCDQt9C90LDQutC+0LzR
@@ -8948,10 +8961,10 @@
     - service: tg
       id: 937
       published: 2025-08-03-19-25-28
-      updated: 2025-10-06-17-17-42
+      updated: 2025-10-13-18-27-12
       followers: 769
       likes: 64
-      views: 749
+      views: 752
       comments: !c CxmAkpPLQnmHYFXgAACnZGFueWEtcqTwn6eAk8tCeYc5DzAAAKtrYXdhemFreTIyM6Twn5iHAw==
 2018-07-31-spires:
   title: Spires

@@ -92,7 +92,7 @@ a2-enkelli:
   profiles:
     - service: tg
       id: '7258424423'
-      updated: 2025-10-13-17-17-13
+      updated: 2025-10-13-18-27-00
       accessHash: '969825927170686844'
       username: A2_Enkelli
       name: †† elli ††
@@ -447,7 +447,7 @@ ansis:
   profiles:
     - service: tg
       id: '517050552'
-      updated: 2025-10-13-17-17-13
+      updated: 2025-10-13-18-27-08
       accessHash: '5231096655311395455'
       username: ansis
       name: ansis
@@ -537,7 +537,7 @@ artyom-melikhoff:
   profiles:
     - service: vk
       id: '299405149'
-      updated: 2025-10-13-08-28-39
+      updated: 2025-10-13-18-27-10
       username: artyom_melikhoff
       name: Артём Мелихов
       avatar: store:/avatars/vk-4c16e471.jpg
@@ -1177,7 +1177,7 @@ danya-r:
   profiles:
     - service: tg
       id: '6217540848'
-      updated: 2025-10-12-01-26-04
+      updated: 2025-10-13-18-27-11
       accessHash: '144997878637800057'
       name: 🍲𐌃𐌀𐌍𐌙𐌀 𐌔Ƕ𐌀𐌓𐌏𐌔Ƕ𐌍𐌉𐌊𐌏ᕓ🍲
       avatar: store:/avatars/tg-5424794233631536949.jpg
@@ -2660,7 +2660,7 @@ kawazaky223:
   profiles:
     - service: tg
       id: '5641856113'
-      updated: 2025-10-13-17-17-13
+      updated: 2025-10-13-18-27-12
       accessHash: '7421309771527577818'
       username: Kawazaky223
       name: Максим
@@ -2740,7 +2740,7 @@ konstantin-matrosov:
   profiles:
     - service: vk
       id: '93073669'
-      updated: 2025-10-12-18-23-53
+      updated: 2025-10-13-18-27-01
       username: id93073669
       name: Константин Матросов
       avatar: store:/avatars/vk-3b5e092e.jpg
@@ -3500,7 +3500,7 @@ nerevarine:
   profiles:
     - service: tg
       id: '373264328'
-      updated: 2025-10-12-18-23-52
+      updated: 2025-10-13-18-27-00
       accessHash: '9078366854792939477'
       username: Nerevarine
       name: Otto Godblessed
@@ -4442,7 +4442,7 @@ sergey-churbanov:
   profiles:
     - service: vk
       id: '1060712354'
-      updated: 2025-10-13-08-28-39
+      updated: 2025-10-13-18-27-08
       username: id1060712354
       name: Сергей Чурбанов
       avatar: store:/avatars/vk-6499ce8d.jpg
