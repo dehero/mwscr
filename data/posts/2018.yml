@@ -3401,24 +3401,27 @@
       id: DPwmvA5DhdI
       mediaId: '18068583380522542'
       published: 2025-10-13-18-27-43
-      updated: 2025-10-14-14-20-27
+      updated: 2025-10-14-15-21-40
       followers: 1586
       likes: 44
     - service: vk
       id: 2733
       published: 2025-10-13-18-27-49
-      updated: 2025-10-14-14-20-24
+      updated: 2025-10-14-15-21-39
       followers: 1469
-      likes: 41
-      views: 458
+      likes: 44
+      views: 516
       reposts: 3
+      comments: !c |-
+        ix6AkZPLQnmeM+qpgACqYXJ5YS1zdGFya9km0JTQsNC70YHRjyDQvNC90LUg0LLQsNGIINCS0LjQ
+        stC10LouLi4D
     - service: tg
       id: 1015
       published: 2025-10-13-18-27-54
-      updated: 2025-10-14-14-20-29
+      updated: 2025-10-14-15-21-37
       followers: 836
       likes: 57
-      views: 196
+      views: 197
       comments: !c CxCAkZPLQnmd7UgkgACvaDRzaGlyYW1hLXMzbmp1pWJhc2VkAw==
 2018-03-23-in-dunmer-stronghold:
   title: In Dunmer Stronghold
