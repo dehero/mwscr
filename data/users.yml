@@ -92,7 +92,7 @@ a2-enkelli:
   profiles:
     - service: tg
       id: '7258424423'
-      updated: 2025-10-14-12-41-36
+      updated: 2025-10-14-13-30-20
       accessHash: '969825927170686844'
       username: A2_Enkelli
       name: †† elli ††
@@ -553,7 +553,7 @@ arya-stark:
   profiles:
     - service: vk
       id: '820702664'
-      updated: 2025-10-14-07-19-38
+      updated: 2025-10-14-13-30-20
       username: id820702664
       name: Арья Старк
       avatar: store:/avatars/vk-689aa89d.jpg
@@ -1413,7 +1413,7 @@ dima-sery:
   profiles:
     - service: tg
       id: '134487499'
-      updated: 2025-10-07-13-29-53
+      updated: 2025-10-14-13-30-20
       accessHash: '1922176179429650860'
       username: Dima_Sery
       name: Dima Sery
@@ -2024,7 +2024,7 @@ golden-morgan:
   profiles:
     - service: vk
       id: '157461309'
-      updated: 2025-10-07-22-17-50
+      updated: 2025-10-14-13-30-17
       username: golden_morgan
       name: Marco Polo
       avatar: store:/avatars/vk-f7f43d22.jpg
@@ -2087,7 +2087,7 @@ h4shirama-s3nju:
   profiles:
     - service: tg
       id: '5619748563'
-      updated: 2025-10-14-12-41-35
+      updated: 2025-10-14-13-30-18
       accessHash: '-759856355370590559'
       username: H4shiramaS3nju
       name: 柱間 千住 ✝️ :("");
@@ -2660,7 +2660,7 @@ kawazaky223:
   profiles:
     - service: tg
       id: '5641856113'
-      updated: 2025-10-14-12-41-36
+      updated: 2025-10-14-13-30-22
       accessHash: '7421309771527577818'
       username: Kawazaky223
       name: Максим
@@ -3049,7 +3049,7 @@ maksim-kopytov:
   profiles:
     - service: vk
       id: '799521846'
-      updated: 2025-10-13-08-28-21
+      updated: 2025-10-14-13-30-17
       username: id799521846
       name: Максим Копытов
       avatar: store:/avatars/vk-0da189cf.jpg
@@ -4442,7 +4442,7 @@ sergey-churbanov:
   profiles:
     - service: vk
       id: '1060712354'
-      updated: 2025-10-14-01-22-24
+      updated: 2025-10-14-13-30-17
       username: id1060712354
       name: Сергей Чурбанов
       avatar: store:/avatars/vk-6499ce8d.jpg
