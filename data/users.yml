@@ -92,7 +92,7 @@ a2-enkelli:
   profiles:
     - service: tg
       id: '7258424423'
-      updated: 2025-10-14-01-22-20
+      updated: 2025-10-14-03-01-02
       accessHash: '969825927170686844'
       username: A2_Enkelli
       name: †† elli ††
@@ -1213,11 +1213,11 @@ darkness-rifho:
       deleted: true
     - service: tg
       id: '5704974271'
-      updated: 2025-10-11-12-34-17
+      updated: 2025-10-14-03-01-08
       accessHash: '3506423524566292179'
       username: C4H6O4
       name: Уна
-      avatar: store:/avatars/tg-5418090648675941849.jpg
+      avatar: store:/avatars/tg-5429574798519959940.jpg
 daryna-dmytrenko:
   profiles:
     - service: vk
@@ -1288,7 +1288,7 @@ dehero:
       avatar: store:/avatars/gh-c8afe641.jpg
     - service: vk
       id: '3652910'
-      updated: 2025-10-08-23-41-10
+      updated: 2025-10-14-03-01-05
       username: dehero
       name: Антон Курьянов
       avatar: store:/avatars/vk-5356f76e.jpg
@@ -2032,7 +2032,7 @@ goosevich76:
   profiles:
     - service: tg
       id: '5385620621'
-      updated: 2025-10-13-21-16-54
+      updated: 2025-10-14-03-01-12
       accessHash: '-7130473396589324830'
       username: horwwwaty
       name: choven
@@ -2087,7 +2087,7 @@ h4shirama-s3nju:
   profiles:
     - service: tg
       id: '5619748563'
-      updated: 2025-10-14-01-22-18
+      updated: 2025-10-14-03-01-01
       accessHash: '-759856355370590559'
       username: H4shiramaS3nju
       name: 柱間 千住 ✝️ :("");
@@ -2660,7 +2660,7 @@ kawazaky223:
   profiles:
     - service: tg
       id: '5641856113'
-      updated: 2025-10-14-01-22-23
+      updated: 2025-10-14-03-01-12
       accessHash: '7421309771527577818'
       username: Kawazaky223
       name: Максим
@@ -5916,7 +5916,7 @@ yourenemieswillpay:
   profiles:
     - service: vk
       id: '154353264'
-      updated: 2025-10-08-23-28-28
+      updated: 2025-10-14-03-01-04
       username: yourenemieswillpay
       name: Кирилл Заречный
       avatar: store:/avatars/vk-a2026737.jpg
