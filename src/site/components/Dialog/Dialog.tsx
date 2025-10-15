@@ -7,6 +7,7 @@ import styles from './Dialog.module.css';
 
 export interface DialogProps {
   class?: string;
+  contentClass?: string;
   children?: JSX.Element;
   title?: string;
   show: boolean;
@@ -44,7 +45,7 @@ export const Dialog: Component<DialogProps> = (props) => {
               <div class={styles.header}>{props.title}</div>
             </Show>
             <Frame variant="thick" class={styles.body}>
-              <div class={styles.content}>{props.children}</div>
+              <div class={clsx(styles.content, props.contentClass)}>{props.children}</div>
               <Show when={props.actions || props.summary}>
                 <div class={styles.footer}>
                   {props.summary}

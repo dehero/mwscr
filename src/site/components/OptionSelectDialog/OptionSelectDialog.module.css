@@ -1,0 +1,23 @@
+.container {
+  display: flex;
+  flex-flow: column nowrap;
+  gap: 6px;
+}
+
+.optionsWrapper {
+  box-sizing: border-box;
+  overflow: hidden auto;
+  height: 400px;
+  max-height: 100%;
+  width: 400px;
+  max-width: 100%;
+  flex: 1 1 auto;
+}
+
+.options {
+  margin: 4px 8px;
+}
+
+.searchInput {
+  flex: 0 0 auto;
+}
