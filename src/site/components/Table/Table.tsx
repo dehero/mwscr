@@ -56,7 +56,8 @@ export const Table: Component<TableProps> = (props) => {
       props.scrollTarget.scrollTo({
         top:
           index * TABLE_ITEM_HEIGHT +
-          (hasHeader() ? TABLE_ITEM_HEIGHT : 0) +
+          (hasHeader() ? TABLE_ITEM_HEIGHT : 0) -
+          props.scrollTarget.offsetTop +
           ref.offsetTop -
           Math.floor(props.scrollTarget.clientHeight / 2),
         left: props.scrollTarget.scrollTop,
