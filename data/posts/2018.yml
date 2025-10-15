@@ -326,6 +326,15 @@
       followers: 387
       likes: 59
       views: 575
+    - service: ig
+      id: DP1wixojmBz
+      mediaId: '18293817118260913'
+      published: 2025-10-15-18-29-41
+      followers: 1587
+    - service: tg
+      id: 1017
+      published: 2025-10-15-18-29-53
+      followers: 837
 2018-01-10-rayana-drolans-shack:
   title: Rayana Drolan's Shack
   titleRu: Лачуга Райны Дролан
@@ -12555,27 +12564,27 @@
       id: DPrcoHnjimv
       mediaId: '18366480937159625'
       published: 2025-10-11-18-23-12
-      updated: 2025-10-14-18-28-27
+      updated: 2025-10-15-18-29-00
       followers: 1588
-      likes: 81
+      likes: 83
       comments: !c |-
         G1oA4B2JsS2KPc58VRioImHVbU/xofzhWEUwtYNBi5MjZkO3RnsqrzObYxzooHRdA+27LzJ4yFJ8
         tYkUrverxSmXem1RmcnO4AMSA6f6bLwvILuPOhIeAoOl
     - service: vk
       id: 2729
       published: 2025-10-11-18-23-23
-      updated: 2025-10-14-18-28-23
+      updated: 2025-10-15-18-29-01
       followers: 1463
-      likes: 67
-      views: 609
+      likes: 69
+      views: 640
       reposts: 2
     - service: tg
       id: 1013
       published: 2025-10-11-18-23-27
-      updated: 2025-10-14-18-28-25
+      updated: 2025-10-15-18-29-02
       followers: 836
       likes: 77
-      views: 295
+      views: 335
       comments: !c |-
         G5cA4I2UbsK8oWvek3UCPYVYRNPbNHW2UeIEBvT1Ce+UEw2M2wLLwkAPQAc93lOWumIU9uK/8+Vv
         LDfz4G7gmTmTszrZoqravePvitewAODhlF3S7YxMPq3RMR6LGseP2BrtK1Gkgo1Bp2+sd3HSOoUj
