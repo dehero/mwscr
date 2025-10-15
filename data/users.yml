@@ -92,11 +92,11 @@ a2-enkelli:
   profiles:
     - service: tg
       id: '7258424423'
-      updated: 2025-10-15-01-24-44
+      updated: 2025-10-15-17-17-35
       accessHash: '969825927170686844'
       username: A2_Enkelli
       name: †† elli ††
-      avatar: store:/avatars/tg-5420132222725388806.jpg
+      avatar: store:/avatars/tg-5438111423977879887.jpg
 aarychagoff:
   profiles:
     - service: tg
@@ -537,7 +537,7 @@ artyom-melikhoff:
   profiles:
     - service: vk
       id: '299405149'
-      updated: 2025-10-13-18-27-10
+      updated: 2025-10-15-17-17-35
       username: artyom_melikhoff
       name: Артём Мелихов
       avatar: store:/avatars/vk-4c16e471.jpg
@@ -553,7 +553,7 @@ arya-stark:
   profiles:
     - service: vk
       id: '820702664'
-      updated: 2025-10-15-16-21-03
+      updated: 2025-10-15-17-17-31
       username: id820702664
       name: Арья Старк
       avatar: store:/avatars/vk-689aa89d.jpg
@@ -1692,7 +1692,7 @@ ellia-isard:
   profiles:
     - service: vk
       id: '215194827'
-      updated: 2025-10-12-04-21-46
+      updated: 2025-10-15-17-17-35
       username: ellia_isard
       name: Эллия Айсард
       avatar: store:/avatars/vk-4aa5204c.jpg
@@ -2087,7 +2087,7 @@ h4shirama-s3nju:
   profiles:
     - service: tg
       id: '5619748563'
-      updated: 2025-10-15-16-21-02
+      updated: 2025-10-15-17-17-31
       accessHash: '-759856355370590559'
       username: H4shiramaS3nju
       name: 柱間 千住 ✝️ :("");
@@ -2660,7 +2660,7 @@ kawazaky223:
   profiles:
     - service: tg
       id: '5641856113'
-      updated: 2025-10-15-16-21-02
+      updated: 2025-10-15-17-17-40
       accessHash: '7421309771527577818'
       username: Kawazaky223
       name: Максим
@@ -3041,7 +3041,7 @@ maks-perunov:
   profiles:
     - service: vk
       id: '35868942'
-      updated: 2025-10-08-23-38-20
+      updated: 2025-10-15-17-17-34
       username: id35868942
       name: Макс Перунов
       avatar: store:/avatars/vk-3bb92045.jpg
@@ -4434,7 +4434,7 @@ sergey-b-2:
   profiles:
     - service: vk
       id: '1077446394'
-      updated: 2025-10-15-16-21-00
+      updated: 2025-10-15-17-17-29
       username: id1077446394
       name: Сергей Б
       avatar: store:/avatars/vk-12075792.jpg
@@ -5830,7 +5830,7 @@ xnzayrpcad:
   profiles:
     - service: tg
       id: '7523695427'
-      updated: 2025-09-17-16-25-49
+      updated: 2025-10-15-17-17-43
       accessHash: '3683185995960089433'
       username: dryteuiop
       botChatId: 7523695427
@@ -5876,7 +5876,7 @@ yaroslav:
   profiles:
     - service: tg
       id: '393415568'
-      updated: 2025-09-17-16-25-49
+      updated: 2025-10-15-17-17-43
       accessHash: '-6464076418226165380'
       username: bondarets
       botChatId: 393415568
