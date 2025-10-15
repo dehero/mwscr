@@ -2,6 +2,22 @@
 
 All notable changes to this project will be documented in this file.
 
+## [2.8.0](https://github.com/dehero/mwscr/compare/v2.7.0...v2.8.0) (2025-10-15)
+
+### Features
+
+- **site:** cleanup displayed user titles
+  ([f565370](https://github.com/dehero/mwscr/commit/f565370ca125b67243fd24d460dd54a2376a8abb))
+- **site:** implement option select button and dialog
+  ([bfe381d](https://github.com/dehero/mwscr/commit/bfe381dc0b65ae825c865d29f5332f8909bc1013))
+- **site:** use new OptionSelectButton for selecting author and location in post dialog
+  ([44c3498](https://github.com/dehero/mwscr/commit/44c3498e5f9455b6227a14495b79a9708e6f708a))
+
+### Bug Fixes
+
+- **site:** fix scrollTo offset for selected row in Table
+  ([02dc00a](https://github.com/dehero/mwscr/commit/02dc00a739dd607bba4a0620b820e9ded1110221))
+
 ## [2.7.0](https://github.com/dehero/mwscr/compare/v2.6.1...v2.7.0) (2025-09-25)
 
 ### Features
