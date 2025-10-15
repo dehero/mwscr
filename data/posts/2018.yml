@@ -330,11 +330,20 @@
       id: DP1wixojmBz
       mediaId: '18293817118260913'
       published: 2025-10-15-18-29-41
+      updated: 2025-10-15-19-15-50
       followers: 1587
+      likes: 10
     - service: tg
       id: 1017
       published: 2025-10-15-18-29-53
+      updated: 2025-10-15-19-15-47
       followers: 837
+      likes: 25
+      views: 86
+    - service: vk
+      id: 2739
+      published: 2025-10-15-19-16-01
+      followers: 1467
 2018-01-10-rayana-drolans-shack:
   title: Rayana Drolan's Shack
   titleRu: Лачуга Райны Дролан

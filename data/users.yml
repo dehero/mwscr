@@ -505,7 +505,7 @@ artem-petrov:
   profiles:
     - service: vk
       id: '4238605'
-      updated: 2025-10-15-18-28-58
+      updated: 2025-10-15-19-15-52
       username: id4238605
       name: Артем Петров
       avatar: store:/avatars/vk-77942374.jpg
@@ -2660,7 +2660,7 @@ kawazaky223:
   profiles:
     - service: tg
       id: '5641856113'
-      updated: 2025-10-15-18-29-07
+      updated: 2025-10-15-19-15-52
       accessHash: '7421309771527577818'
       username: Kawazaky223
       name: Максим
@@ -4434,7 +4434,7 @@ sergey-b-2:
   profiles:
     - service: vk
       id: '1077446394'
-      updated: 2025-10-15-18-28-58
+      updated: 2025-10-15-19-15-53
       username: id1077446394
       name: Сергей Б
       avatar: store:/avatars/vk-12075792.jpg
