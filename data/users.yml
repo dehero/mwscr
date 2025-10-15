@@ -92,11 +92,11 @@ a2-enkelli:
   profiles:
     - service: tg
       id: '7258424423'
-      updated: 2025-10-15-20-22-05
+      updated: 2025-10-15-21-17-25
       accessHash: '969825927170686844'
       username: A2_Enkelli
       name: †† elli ††
-      avatar: store:/avatars/tg-5438111423977879887.jpg
+      avatar: store:/avatars/tg-5440529013824161090.jpg
 aarychagoff:
   profiles:
     - service: tg
@@ -505,7 +505,7 @@ artem-petrov:
   profiles:
     - service: vk
       id: '4238605'
-      updated: 2025-10-15-20-22-03
+      updated: 2025-10-15-21-17-18
       username: id4238605
       name: Артем Петров
       avatar: store:/avatars/vk-77942374.jpg
@@ -2660,7 +2660,7 @@ kawazaky223:
   profiles:
     - service: tg
       id: '5641856113'
-      updated: 2025-10-15-20-22-05
+      updated: 2025-10-15-21-17-26
       accessHash: '7421309771527577818'
       username: Kawazaky223
       name: Максим
@@ -4434,7 +4434,7 @@ sergey-b-2:
   profiles:
     - service: vk
       id: '1077446394'
-      updated: 2025-10-15-20-22-04
+      updated: 2025-10-15-21-17-19
       username: id1077446394
       name: Сергей Б
       avatar: store:/avatars/vk-12075792.jpg
