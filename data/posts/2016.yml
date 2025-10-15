@@ -92,7 +92,7 @@
     - service: vk
       id: 2312
       published: 2025-04-28-18-25-04
-      updated: 2025-10-08-21-19-28
+      updated: 2025-10-15-22-18-49
       followers: 1274
       likes: 72
       views: 508
@@ -107,10 +107,10 @@
     - service: tg
       id: 821
       published: 2025-04-28-18-25-09
-      updated: 2025-10-08-21-18-52
+      updated: 2025-10-15-22-18-17
       followers: 726
       likes: 81
-      views: 658
+      views: 659
       comments: !c |-
         GykBIBwHdpMPbL57lMMyEz0fN4owkD5TYZBwYE0U6ck+spu4WSglENlY3Ma5NBsU7QHaZf2oBTib
         HXFA3q6laWAtat4Wa/DzV3p83RhWQ/rh4BDB9b5/8EVDzC4DX4LLV6nGpgyi/sV2dSASeGZpglnv
@@ -165,7 +165,7 @@
     - service: tg
       id: 609
       published: 2024-11-28-18-10-52
-      updated: 2025-10-08-21-21-21
+      updated: 2025-10-15-22-20-51
       followers: 578
       likes: 59
       views: 703
@@ -647,7 +647,7 @@
     - service: tg
       id: 597
       published: 2024-11-16-18-09-47
-      updated: 2025-10-08-21-21-36
+      updated: 2025-10-15-22-21-04
       followers: 573
       likes: 71
       views: 738
@@ -687,7 +687,7 @@
     - service: vk
       id: 2282
       published: 2025-04-16-18-22-11
-      updated: 2025-10-08-21-19-43
+      updated: 2025-10-15-22-19-03
       followers: 1261
       likes: 75
       views: 547
@@ -698,10 +698,10 @@
     - service: tg
       id: 797
       published: 2025-04-16-18-22-22
-      updated: 2025-10-08-21-19-01
+      updated: 2025-10-15-22-18-25
       followers: 720
       likes: 61
-      views: 595
+      views: 596
 2016-12-02-molag-mar:
   title: Molag Mar
   titleRu: Молаг Мар
@@ -747,7 +747,7 @@
     - service: tg
       id: 627
       published: 2024-12-16-18-11-52
-      updated: 2025-10-08-21-21-02
+      updated: 2025-10-15-22-20-32
       followers: 581
       likes: 79
       views: 731
@@ -905,7 +905,7 @@
     - service: tg
       id: 624
       published: 2024-12-13-18-11-26
-      updated: 2025-10-08-21-21-06
+      updated: 2025-10-15-22-20-35
       followers: 580
       likes: 64
       views: 657
@@ -1318,10 +1318,10 @@
     - service: vk
       id: 2470
       published: 2025-06-17-18-28-43
-      updated: 2025-10-08-21-17-57
+      updated: 2025-10-15-22-17-27
       followers: 1327
-      likes: 55
-      views: 439
+      likes: 56
+      views: 443
       reposts: 1
       comments: !c |-
         G50BwCwO7DYfCzGx5eSX1XoyxD/vn0j68qlNWsEilajpBEY+OZd8Oqc+z2mWPUfRMplALW8xCYUm
@@ -1332,7 +1332,7 @@
     - service: tg
       id: 888
       published: 2025-06-17-18-28-46
-      updated: 2025-10-08-21-17-57
+      updated: 2025-10-15-22-17-23
       followers: 749
       likes: 65
       views: 584
