@@ -3,11 +3,13 @@ import type { InferOutput } from 'valibot';
 import { array, boolean, date, nonEmpty, number, object, optional, picklist, pipe, string, trim, union } from 'valibot';
 import { asArray } from '../utils/common-utils.js';
 import { getDaysPassed } from '../utils/date-utils.js';
+import { stripHashtags } from '../utils/string-utils.js';
 import type { Option } from './option.js';
 import { ImageResourceUrl } from './resource.js';
 
 const USER_NAME_IS_RU_REGEX = /[ёа-я]/i;
 const USER_NAME_SKIP_AS_ID_REGEX = /^(__deleted__.+|club\d+|id\d+)$/;
+const USER_TITLE_CLEANUP_REGEX = /([a-z0-9].*[a-z0-9.\)>])/gi;
 
 export const USER_DEFAULT_AUTHOR = 'dehero';
 export const USER_UNKNOWN = 'anonimous';
@@ -78,6 +80,10 @@ export function getUserEntryTitle(entry: UserEntry) {
         }
       }
     }
+  }
+
+  if (result) {
+    result = cleanupUserTitle(result);
   }
 
   if (!result) {
@@ -222,4 +228,12 @@ export function setUserProfileFollowing(profile: UserProfile, value: boolean | D
 
 export function isUserNameReadable(username: string) {
   return !USER_NAME_SKIP_AS_ID_REGEX.test(username);
+}
+
+export function cleanupUserTitle(title: string) {
+  return stripHashtags(title)
+    .split(/\s[\/\\•\|-]\s/)[0]
+    ?.match(USER_TITLE_CLEANUP_REGEX)?.[0]
+    ?.replaceAll(/\s+/g, ' ')
+    ?.trim();
 }
