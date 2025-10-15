@@ -1,22 +1,29 @@
 import type { PositionRelativeToElement } from '@solid-primitives/mouse';
-import { type Component, Show, splitProps } from 'solid-js';
+import { type Component, createResource, Show, splitProps } from 'solid-js';
 import type { LocationInfo } from '../../../core/entities/location-info.js';
 import { isPostsUsageEmpty, postsUsageToString } from '../../../core/entities/posts-usage.js';
+import { dataManager } from '../../data-managers/manager.js';
 import type { TooltipProps } from '../Tooltip/Tooltip.js';
 import { Tooltip } from '../Tooltip/Tooltip.js';
 import styles from './LocationTooltip.module.css';
 
 interface LocationTooltipProps extends Omit<TooltipProps, 'children'> {
-  location: LocationInfo | ((position: PositionRelativeToElement) => LocationInfo | undefined);
+  location: string | LocationInfo | ((position: PositionRelativeToElement) => LocationInfo | undefined);
 }
 
 export const LocationTooltip: Component<LocationTooltipProps> = (props) => {
   const [local, rest] = splitProps(props, ['location']);
 
+  const [locationInfo] = createResource(
+    () => local.location,
+    (location) => (typeof location === 'string' ? dataManager.getLocationInfo(location) : location),
+  );
+
   return (
     <Tooltip {...rest}>
       {(position) => {
-        const location = typeof local.location === 'function' ? local.location(position) : local.location;
+        const info = locationInfo();
+        const location = typeof info === 'function' ? info(position) : info;
 
         if (!location) {
           return;
@@ -31,7 +38,7 @@ export const LocationTooltip: Component<LocationTooltipProps> = (props) => {
               <span>Addon: {location.addon}</span>
             </Show>
             <Show when={'discovered' in location && !isPostsUsageEmpty(location.discovered)}>
-              <span>Posts: {'discovered' in location && postsUsageToString(location.discovered)}</span>
+              <span>Usage: {'discovered' in location && postsUsageToString(location.discovered)}</span>
             </Show>
           </>
         );

@@ -48,10 +48,13 @@ import type { DialogProps } from '../Dialog/Dialog.jsx';
 import { Dialog } from '../Dialog/Dialog.jsx';
 import { Input } from '../Input/Input.jsx';
 import { Label } from '../Label/Label.jsx';
+import { LocationTooltip } from '../LocationTooltip/LocationTooltip.jsx';
+import { OptionSelectButton } from '../OptionSelectButton/OptionSelectButton.jsx';
 import { PostContentEditor } from '../PostContentEditor/PostContentEditor.jsx';
 import { PostContentPreview } from '../PostContentPreview/PostContentPreview.jsx';
 import { Select } from '../Select/Select.jsx';
 import { Toast } from '../Toaster/Toaster.jsx';
+import { UserTooltip } from '../UserTooltip/UserTooltip.jsx';
 import styles from './PostDialog.module.css';
 
 export const PostDialogPreset = picklist(['edit', 'locate', 'precise']);
@@ -113,18 +116,24 @@ export const postDialogPresetDescriptors = Object.freeze<Record<PostDialogPreset
 });
 
 async function getLocationOptions(): Promise<Option[]> {
-  return (await dataManager.getAllLocationInfos())
-    .map((info) => ({
-      value: info.title,
-      label: info.title,
-    }))
-    .sort((a, b) => a.label.localeCompare(b.label));
+  return [
+    EMPTY_OPTION,
+    ...(await dataManager.getAllLocationInfos())
+      .map((info) => ({
+        value: info.title,
+        label: info.title,
+      }))
+      .sort((a, b) => a.label.localeCompare(b.label)),
+  ];
 }
 
 async function getUserOptions(): Promise<Option[]> {
-  return (await dataManager.getAllUserInfos())
-    .map((info) => ({ label: info.title, value: info.id }))
-    .sort((a, b) => a.label.localeCompare(b.label));
+  return [
+    EMPTY_OPTION,
+    ...(await dataManager.getAllUserInfos())
+      .map((info) => ({ label: info.title, value: info.id, image: info.avatar }))
+      .sort((a, b) => a.label.localeCompare(b.label)),
+  ];
 }
 
 export interface PostDialogProps extends Omit<DialogProps, 'title'> {
@@ -509,28 +518,20 @@ export const PostDialog: Component<PostDialogProps> = (props) => {
                   }
                 >
                   <fieldset class={clsx(styles.fieldset, styles.locations)}>
-                    <For each={asArray(post().location)}>
+                    <For each={[...asArray(post().location), undefined]}>
                       {(location, index) => (
-                        <div class={styles.selectWrapper}>
-                          <Select
-                            options={[{ label: '[Remove]', value: EMPTY_OPTION.value }, ...(locationOptions() ?? [])]}
-                            name="location"
-                            value={location}
-                            onChange={(location) => setPostLocation(index(), location)}
-                            class={styles.select}
-                          />
-                        </div>
+                        <OptionSelectButton
+                          title="Select Location"
+                          options={locationOptions() ?? []}
+                          value={location}
+                          onChange={(location) => setPostLocation(index(), location)}
+                          optionTooltip={(value, forRef) =>
+                            value ? <LocationTooltip forRef={forRef} location={value} /> : undefined
+                          }
+                          emptyLabel="+"
+                        />
                       )}
                     </For>
-                    <div class={styles.selectWrapper}>
-                      <Select
-                        options={[{ label: '[Add]', value: EMPTY_OPTION.value }, ...(locationOptions() ?? [])]}
-                        name="location"
-                        value={undefined}
-                        onChange={(location) => setPostLocation(asArray(post().location).length, location)}
-                        class={styles.select}
-                      />
-                    </div>
                   </fieldset>
                 </Show>
               </Label>
@@ -587,28 +588,18 @@ export const PostDialog: Component<PostDialogProps> = (props) => {
             <Show when={preset().fields.includes('author')}>
               <Label label="Author" vertical class={styles.author}>
                 <fieldset class={clsx(styles.fieldset, styles.authors)}>
-                  <For each={asArray(post().author)}>
+                  <For each={[...asArray(post().author), undefined]}>
                     {(author, index) => (
-                      <div class={styles.selectWrapper}>
-                        <Select
-                          options={[{ label: '[Remove]', value: EMPTY_OPTION.value }, ...(userOptions() ?? [])]}
-                          name="author"
-                          value={author}
-                          onChange={(author) => setPostAuthor(index(), author)}
-                          class={styles.select}
-                        />
-                      </div>
+                      <OptionSelectButton
+                        title="Select Author"
+                        options={userOptions() ?? []}
+                        value={author}
+                        onChange={(author) => setPostAuthor(index(), author)}
+                        optionTooltip={(value, forRef) => <UserTooltip forRef={forRef} user={value} showAvatar />}
+                        emptyLabel="+"
+                      />
                     )}
                   </For>
-                  <div class={styles.selectWrapper}>
-                    <Select
-                      options={[{ label: '[Add]', value: EMPTY_OPTION.value }, ...(userOptions() ?? [])]}
-                      name="author"
-                      value={undefined}
-                      onChange={(author) => setPostAuthor(asArray(post().author).length, author)}
-                      class={styles.select}
-                    />
-                  </div>
                 </fieldset>
               </Label>
             </Show>
