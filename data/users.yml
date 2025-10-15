@@ -553,7 +553,7 @@ arya-stark:
   profiles:
     - service: vk
       id: '820702664'
-      updated: 2025-10-15-09-21-07
+      updated: 2025-10-15-10-21-22
       username: id820702664
       name: Арья Старк
       avatar: store:/avatars/vk-689aa89d.jpg
@@ -2087,7 +2087,7 @@ h4shirama-s3nju:
   profiles:
     - service: tg
       id: '5619748563'
-      updated: 2025-10-15-09-21-06
+      updated: 2025-10-15-10-21-25
       accessHash: '-759856355370590559'
       username: H4shiramaS3nju
       name: 柱間 千住 ✝️ :("");
@@ -2660,7 +2660,7 @@ kawazaky223:
   profiles:
     - service: tg
       id: '5641856113'
-      updated: 2025-10-15-09-21-06
+      updated: 2025-10-15-10-21-24
       accessHash: '7421309771527577818'
       username: Kawazaky223
       name: Максим
