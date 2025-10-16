@@ -304,20 +304,20 @@
     - service: vk
       id: 2527
       published: 2025-07-23-18-40-24
-      updated: 2025-10-09-03-36-37
+      updated: 2025-10-16-04-22-21
       followers: 1349
       likes: 36
-      views: 411
+      views: 416
       comments: !c |-
         ixqAkZPLQnmDifuygACwc2VyZ2V5LWNodXJiYW5vdrnQltGL0YDQvdCw0Y8g0LHQvtGA0L7QtNCw
         Aw==
     - service: tg
       id: 925
       published: 2025-07-23-18-40-30
-      updated: 2025-10-09-03-36-36
+      updated: 2025-10-16-04-22-19
       followers: 765
-      likes: 67
-      views: 587
+      likes: 68
+      views: 591
       comments: !c iwuAkZPLQnmDjDrkgACra2F3YXpha3kyMjOgAw==
     - service: ig
       id: DMgD1nltOXF
