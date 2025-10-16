@@ -92,7 +92,7 @@ a2-enkelli:
   profiles:
     - service: tg
       id: '7258424423'
-      updated: 2025-10-16-09-21-37
+      updated: 2025-10-16-10-21-47
       accessHash: '969825927170686844'
       username: A2_Enkelli
       name: †† elli ††
@@ -505,7 +505,7 @@ artem-petrov:
   profiles:
     - service: vk
       id: '4238605'
-      updated: 2025-10-16-09-21-40
+      updated: 2025-10-16-10-21-51
       username: id4238605
       name: Артем Петров
       avatar: store:/avatars/vk-77942374.jpg
@@ -1078,7 +1078,7 @@ cyberkefiroctopuses9116:
   profiles:
     - service: yt
       id: UCQrVTmtQJBALuZTJ97Wxhwg
-      updated: 2025-09-18-09-21-46
+      updated: 2025-10-16-10-21-53
       username: '@cyberkefiroctopuses9116'
       name: Cyberkefir & Octopuses
       avatar: store:/avatars/yt-8da46b2c.jpg
@@ -1316,7 +1316,7 @@ dehero:
     - type: channel
       service: yt
       id: UCoSD49h3Nrss_Zix8boMwlw
-      updated: 2025-09-18-09-21-46
+      updated: 2025-10-16-10-21-53
       username: '@mwscr'
       name: Morrowind Screenshots
       avatar: store:/avatars/yt-fbce97ab.jpg
@@ -1649,7 +1649,7 @@ eklersgovnom:
   profiles:
     - service: vk
       id: '336885466'
-      updated: 2025-09-18-09-21-46
+      updated: 2025-10-16-10-21-53
       username: eklersgovnom
       name: Алексей Гусев
       avatar: store:/avatars/vk-90557e25.jpg
@@ -2381,7 +2381,7 @@ irina-bystritskaya:
     - type: channel
       service: vk
       id: '207258733'
-      updated: 2025-09-18-09-21-47
+      updated: 2025-10-16-10-21-54
       username: club207258733
       name: инсомния
       avatar: store:/avatars/vk-d0e71933.jpg
@@ -2660,7 +2660,7 @@ kawazaky223:
   profiles:
     - service: tg
       id: '5641856113'
-      updated: 2025-10-16-09-21-42
+      updated: 2025-10-16-10-21-49
       accessHash: '7421309771527577818'
       username: Kawazaky223
       name: Максим
@@ -2900,7 +2900,7 @@ lmatt88:
   profiles:
     - service: yt
       id: UC_Es79p5960n1Bp2zpqOlYA
-      updated: 2025-09-18-09-21-47
+      updated: 2025-10-16-10-21-54
       username: '@lmatt88'
       name: Taro
       avatar: store:/avatars/yt-a8983253.jpg
@@ -3450,7 +3450,7 @@ nars-mcain:
   profiles:
     - service: yt
       id: UC1xja6c2XGr4CGB0jmTQrZQ
-      updated: 2025-09-18-09-21-47
+      updated: 2025-10-16-10-21-54
       username: '@narsmcain'
       name: Nars Mccain
       avatar: store:/avatars/yt-89e0a84e.jpg
@@ -4434,7 +4434,7 @@ sergey-b-2:
   profiles:
     - service: vk
       id: '1077446394'
-      updated: 2025-10-16-09-21-41
+      updated: 2025-10-16-10-21-51
       username: id1077446394
       name: Сергей Б
       avatar: store:/avatars/vk-12075792.jpg
