@@ -330,16 +330,16 @@
       id: DP1wixojmBz
       mediaId: '18293817118260913'
       published: 2025-10-15-18-29-41
-      updated: 2025-10-16-18-27-57
+      updated: 2025-10-16-19-14-21
       followers: 1587
       likes: 35
     - service: tg
       id: 1017
       published: 2025-10-15-18-29-53
-      updated: 2025-10-16-18-27-59
+      updated: 2025-10-16-19-14-27
       followers: 837
-      likes: 54
-      views: 190
+      likes: 56
+      views: 202
       comments: !c |-
         G5YAQKwOeBPrKqNpVWN6xYU6xgs1eW0JPhzo9t9gJVJFkaLzP2+CB/psewNsoaHNXjCRIw20hXz1
         p0yLW4XVgQ5O9Kw3/0DiAvBIojxlJRJUFPvfSn2s+yEbnI052qJmlTqgTHofkXaTtW312kUx19ku
@@ -347,10 +347,10 @@
     - service: vk
       id: 2739
       published: 2025-10-15-19-16-01
-      updated: 2025-10-16-18-28-01
+      updated: 2025-10-16-19-14-25
       followers: 1467
-      likes: 48
-      views: 412
+      likes: 49
+      views: 420
       reposts: 1
       comments: !c |-
         G6cA+C0OeHNwJczMXoGQwhM9+LdI2v68Qg84SrCVUJR4cg9qbiFWYzU0RH5DxNOWl2phTN/XJe1G
@@ -7283,11 +7283,26 @@
     - service: vk
       id: 2743
       published: 2025-10-16-18-28-53
+      updated: 2025-10-16-19-14-18
       followers: 1467
+      likes: 1
+      views: 22
+      reposts: 1
     - service: tg
       id: 1018
       published: 2025-10-16-18-28-57
+      updated: 2025-10-16-19-14-23
       followers: 836
+      likes: 21
+      views: 73
+      comments: !c |-
+        CzOAk5PLQnme5rpMAACra2F3YXpha3kyMjOk8J+YhpPLQnme5KVWgACqYTItZW5rZWxsaapTdHJh
+        bmdlLi4uk8tCeZ7kouWAAKphMi1lbmtlbGxptUNhbnQgc2VlIGFueSBtdWRjcmFicwM=
+    - service: ig
+      id: DP4ah_ND7b_
+      mediaId: '18062486108610167'
+      published: 2025-10-16-19-15-01
+      followers: 1587
 2018-06-20-redoran-lantern:
   title: Redoran Lantern
   titleRu: Редоранский фонарь
@@ -12593,27 +12608,27 @@
       id: DPrcoHnjimv
       mediaId: '18366480937159625'
       published: 2025-10-11-18-23-12
-      updated: 2025-10-15-18-29-00
+      updated: 2025-10-16-19-14-24
       followers: 1588
-      likes: 83
+      likes: 85
       comments: !c |-
         G1oA4B2JsS2KPc58VRioImHVbU/xofzhWEUwtYNBi5MjZkO3RnsqrzObYxzooHRdA+27LzJ4yFJ8
         tYkUrverxSmXem1RmcnO4AMSA6f6bLwvILuPOhIeAoOl
     - service: vk
       id: 2729
       published: 2025-10-11-18-23-23
-      updated: 2025-10-15-18-29-01
+      updated: 2025-10-16-19-14-28
       followers: 1463
-      likes: 69
-      views: 640
+      likes: 72
+      views: 682
       reposts: 2
     - service: tg
       id: 1013
       published: 2025-10-11-18-23-27
-      updated: 2025-10-15-18-29-02
+      updated: 2025-10-16-19-14-30
       followers: 836
       likes: 77
-      views: 335
+      views: 367
       comments: !c |-
         G5cA4I2UbsK8oWvek3UCPYVYRNPbNHW2UeIEBvT1Ce+UEw2M2wLLwkAPQAc93lOWumIU9uK/8+Vv
         LDfz4G7gmTmTszrZoqravePvitewAODhlF3S7YxMPq3RMR6LGseP2BrtK1Gkgo1Bp2+sd3HSOoUj
