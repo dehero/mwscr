@@ -92,7 +92,7 @@ a2-enkelli:
   profiles:
     - service: tg
       id: '7258424423'
-      updated: 2025-10-17-17-16-39
+      updated: 2025-10-17-18-25-21
       accessHash: '969825927170686844'
       username: A2_Enkelli
       name: †† elli ††
@@ -537,7 +537,7 @@ artyom-melikhoff:
   profiles:
     - service: vk
       id: '299405149'
-      updated: 2025-10-17-17-16-36
+      updated: 2025-10-17-18-25-15
       username: artyom_melikhoff
       name: Артём Мелихов
       avatar: store:/avatars/vk-4c16e471.jpg
@@ -553,7 +553,7 @@ arya-stark:
   profiles:
     - service: vk
       id: '820702664'
-      updated: 2025-10-17-10-20-47
+      updated: 2025-10-17-18-25-19
       username: id820702664
       name: Арья Старк
       avatar: store:/avatars/vk-689aa89d.jpg
@@ -2087,7 +2087,7 @@ h4shirama-s3nju:
   profiles:
     - service: tg
       id: '5619748563'
-      updated: 2025-10-16-19-14-29
+      updated: 2025-10-17-18-25-19
       accessHash: '-759856355370590559'
       username: H4shiramaS3nju
       name: 柱間 千住 ✝️ :("");
@@ -2660,7 +2660,7 @@ kawazaky223:
   profiles:
     - service: tg
       id: '5641856113'
-      updated: 2025-10-17-17-16-41
+      updated: 2025-10-17-18-25-21
       accessHash: '7421309771527577818'
       username: Kawazaky223
       name: Максим
@@ -4435,7 +4435,7 @@ sergey-b-2:
   profiles:
     - service: vk
       id: '1077446394'
-      updated: 2025-10-17-17-16-35
+      updated: 2025-10-17-18-25-15
       username: id1077446394
       name: Сергей Б
       avatar: store:/avatars/vk-12075792.jpg
