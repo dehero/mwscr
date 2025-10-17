@@ -13065,24 +13065,26 @@
       id: DP65sTZDmWC
       mediaId: '18381877891178063'
       published: 2025-10-17-18-25-48
-      updated: 2025-10-17-19-15-23
+      updated: 2025-10-17-20-21-12
       followers: 1586
-      likes: 10
+      likes: 15
     - service: vk
       id: 2745
       published: 2025-10-17-18-26-01
-      updated: 2025-10-17-19-15-19
+      updated: 2025-10-17-20-21-09
       followers: 1467
       likes: 2
-      views: 22
+      views: 30
     - service: tg
       id: 1019
       published: 2025-10-17-18-26-04
-      updated: 2025-10-17-19-15-25
+      updated: 2025-10-17-20-21-15
       followers: 834
-      likes: 26
-      views: 78
-      comments: !c iw2AkZPLQnmfOXexgACra2F3YXpha3kyMjOk8J+nkAM=
+      likes: 33
+      views: 104
+      comments: !c |-
+        iyOAkpPLQnmfOdASgACqYTItZW5rZWxsabZubyBjcmFicyB0b2RheSBpIGd1ZXNzk8tCeZ85d7GA
+        AKtrYXdhemFreTIyM6Twn6eQAw==
 2017-10-26-centurion-spider:
   title: Centurion Spider
   titleRu: Паук-центурион
