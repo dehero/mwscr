@@ -42,70 +42,71 @@ export const HomePage = (): JSX.Element => {
           return (
             <Frame component="main" class={styles.container}>
               <Frame class={styles.about}>
-                <img src={icon} class={styles.icon} alt="screenshot of a tree" width={320} />
-                <section class={styles.heading}>
-                  <p class={styles.title}>Morrowind Screenshots</p>
-                  <p class={styles.description}>
-                    Original screenshots and videos from The&nbsp;Elder&nbsp;Scrolls&nbsp;III:&nbsp;Morrowind.
-                    No&nbsp;graphic and unlore mods. No&nbsp;color filters. No&nbsp;interface.
+                <div class={styles.info}>
+                  <img src={icon} class={styles.icon} alt="screenshot of a tree" width={320} />
+                  <section class={styles.heading}>
+                    <p class={styles.title}>Morrowind Screenshots</p>
+                    <p class={styles.description}>
+                      Original screenshots and videos from The&nbsp;Elder&nbsp;Scrolls&nbsp;III:&nbsp;Morrowind.
+                      No&nbsp;graphic and unlore mods. No&nbsp;color filters. No&nbsp;interface.
+                    </p>
+                  </section>
+                  <p class={styles.links}>
+                    <a href="https://instagram.com/mwscr/" class={styles.link}>
+                      Instagram
+                    </a>
+                    {' • '}
+                    <a href="https://vk.com/mwscr" class={styles.link}>
+                      VK
+                    </a>
+                    {' • '}
+                    <a href="https://t.me/mwscr" class={styles.link}>
+                      Telegram
+                    </a>
+                    {' • '}
+                    <a href="https://www.youtube.com/@mwscr" class={styles.link}>
+                      YouTube
+                    </a>
+                    {' • '}
+                    <a href="https://github.com/dehero/mwscr" class={styles.link}>
+                      GitHub
+                    </a>
                   </p>
-                </section>
-                <p class={styles.links}>
-                  <a href="https://instagram.com/mwscr/" class={styles.link}>
-                    Instagram
-                  </a>
-                  {' • '}
-                  <a href="https://vk.com/mwscr" class={styles.link}>
-                    VK
-                  </a>
-                  {' • '}
-                  <a href="https://t.me/mwscr" class={styles.link}>
-                    Telegram
-                  </a>
-                  {' • '}
-                  <a href="https://www.youtube.com/@mwscr" class={styles.link}>
-                    YouTube
-                  </a>
-                  {' • '}
-                  <a href="https://github.com/dehero/mwscr" class={styles.link}>
-                    GitHub
-                  </a>
-                </p>
-                <p class={styles.version}>
-                  v{import.meta.env.VITE_APP_VERSION}
-                  {', '}
-                  {formatDate(data().buildDate)}, {formatTime(data().buildDate)}
-                </p>
-                <p class={styles.copyright}>
-                  <GoldIcon />{' '}
-                  <a href="https://dehero.site" class={styles.link}>
-                    dehero
-                  </a>
-                  {' and community '}
-                  <a href={usersRoute.createUrl({})} class={styles.link}>
-                    members
-                  </a>
-                </p>
-                <p class={styles.license}>
-                  {'Licenced under '}
-                  <a href="https://github.com/dehero/mwscr/blob/main/LICENSE" class={styles.link}>
-                    CC-BY-4.0
-                  </a>
-                  {' and '}
-                  <a href="https://github.com/dehero/mwscr/blob/main/LICENSE-CODE" class={styles.link}>
-                    MIT
-                  </a>
-                </p>
-                <p class={styles.actions}>
-                  <Button href={createDetachedDialogFragment('subscription')}>Subscribe</Button>
+                  <p class={styles.version}>
+                    v{import.meta.env.VITE_APP_VERSION}
+                    {', '}
+                    {formatDate(data().buildDate)}, {formatTime(data().buildDate)}
+                  </p>
+                  <p class={styles.copyright}>
+                    <GoldIcon />{' '}
+                    <a href="https://dehero.site" class={styles.link}>
+                      dehero
+                    </a>
+                    {' and community '}
+                    <a href={usersRoute.createUrl({})} class={styles.link}>
+                      members
+                    </a>
+                  </p>
+                  <p class={styles.license}>
+                    {'Licenced under '}
+                    <a href="https://github.com/dehero/mwscr/blob/main/LICENSE" class={styles.link}>
+                      CC-BY-4.0
+                    </a>
+                    {' and '}
+                    <a href="https://github.com/dehero/mwscr/blob/main/LICENSE-CODE" class={styles.link}>
+                      MIT
+                    </a>
+                  </p>
+                  <p class={styles.actions}>
+                    <Button href={createDetachedDialogFragment('subscription')}>Subscribe</Button>
 
-                  <Button href={createDetachedDialogFragment('contributing')}>Contribute</Button>
+                    <Button href={createDetachedDialogFragment('contributing')}>Contribute</Button>
 
-                  <Button href={createDetachedDialogFragment('sponsorship')}>Sponsor</Button>
-                </p>
-              </Frame>
+                    <Button href={createDetachedDialogFragment('sponsorship')}>Sponsor</Button>
+                  </p>
+                </div>
+                <Divider />
 
-              <Frame class={styles.statistics}>
                 <Table
                   rows={[
                     {
@@ -142,27 +143,10 @@ export const HomePage = (): JSX.Element => {
                       value: data().totalPosts.rejects,
                       link: postsRoute.createUrl({ managerName: 'rejects' }),
                     },
-                  ]}
-                />
-                <Divider />
-                <Table
-                  label="Members"
-                  link={usersRoute.createUrl({})}
-                  rows={[
                     {
-                      label: 'Authors',
-                      value: data().authorCount,
-                      link: usersRoute.createUrl({ role: 'author', sort: 'contribution,desc' }),
-                    },
-                    {
-                      label: 'Requesters',
-                      value: data().requesterCount,
-                      link: usersRoute.createUrl({ role: 'requester', sort: 'contribution,desc' }),
-                    },
-                    {
-                      label: 'Commenters',
-                      value: data().commenterCount,
-                      link: usersRoute.createUrl({ role: 'commenter', sort: 'contribution,desc' }),
+                      label: 'Members',
+                      value: data().membersCount,
+                      link: usersRoute.createUrl({}),
                     },
                   ]}
                 />

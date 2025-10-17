@@ -8,9 +8,7 @@ import { PUBLICATION_IS_RECENT_DAYS } from '../../../core/entities/publication.j
 export interface HomePageData {
   buildDate: Date;
   totalPosts: PostsUsage;
-  authorCount: number;
-  requesterCount: number;
-  commenterCount: number;
+  membersCount: number;
   lastOriginalPostInfo?: PostInfoSelection;
   lastFulfilledPostInfo?: PostInfoSelection;
   lastProposedPostInfo?: PostInfoSelection;
@@ -26,9 +24,7 @@ export async function getHomePageData(dataManager: DataManager): Promise<HomePag
   const userInfos = await dataManager.getAllUserInfos();
   const postInfos = await dataManager.getAllPostInfos('posts');
 
-  const authorCount = userInfos.reduce((acc, userInfo) => acc + (userInfo.roles.includes('author') ? 1 : 0), 0);
-  const requesterCount = userInfos.reduce((acc, userInfo) => acc + (userInfo.roles.includes('requester') ? 1 : 0), 0);
-  const commenterCount = userInfos.reduce((acc, userInfo) => acc + (userInfo.roles.includes('commenter') ? 1 : 0), 0);
+  const membersCount = userInfos.length;
 
   const recentEndDate = new Date();
   const recentStartDate = new Date(recentEndDate);
@@ -56,9 +52,7 @@ export async function getHomePageData(dataManager: DataManager): Promise<HomePag
         ]),
       ),
     ),
-    authorCount,
-    requesterCount,
-    commenterCount,
+    membersCount,
     lastOriginalPostInfo: await dataManager.selectPostInfo('posts', {
       original: true,
       sortKey: 'date',

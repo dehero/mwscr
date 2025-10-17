@@ -13,8 +13,15 @@
   grid-area: about;
   display: flex;
   flex-flow: column nowrap;
+  gap: 10px;
+  padding: 8px;
+}
+
+.info {
+  display: flex;
+  flex-flow: column nowrap;
   gap: 8px;
-  padding: 12px;
+  padding: 12px 12px 0 12px;
   align-items: center;
   text-overflow: ellipsis;
 }
@@ -73,14 +80,6 @@
 
 .link:hover {
   color: var(--color-text-selected-hover);
-}
-
-.statistics {
-  display: flex;
-  flex-flow: column nowrap;
-  gap: 10px;
-  padding: 8px;
-  grid-area: statistics;
 }
 
 .goldIcon {
@@ -166,16 +165,20 @@
       minmax(var(--size-panel-min-width), max-content)
       minmax(var(--size-panel-min-width), max-content);
     grid-template-rows: auto;
-    grid-template-areas: 'about posts comments diagrams' 'about posts comments diagrams' 'statistics posts comments diagrams';
+    grid-template-areas: 'about posts comments diagrams';
   }
 }
 
 @media only screen and (max-height: 750px) and (min-width: 925px) {
   .container {
     grid-template-columns:
-      minmax(var(--size-panel-min-width), max-content) min(var(--size-panel-min-width)) minmax(361px, 1fr)
+      minmax(var(--size-panel-min-width), max-content) minmax(var(--size-panel-min-width), 1fr)
       minmax(var(--size-panel-min-width), max-content);
     grid-template-rows: auto;
-    grid-template-areas: 'about statistics posts comments' 'about statistics posts comments' 'about diagrams posts comments';
+    grid-template-areas: 'about posts diagrams' 'about comments diagrams';
+  }
+
+  .comments {
+    width: auto;
   }
 }
