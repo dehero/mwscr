@@ -4629,32 +4629,33 @@
       id: DPzLrAsDy_k
       mediaId: '17936744654966298'
       published: 2025-10-14-18-28-59
-      updated: 2025-10-16-18-27-59
+      updated: 2025-10-17-19-15-26
       followers: 1587
       likes: 47
     - service: vk
       id: 2735
       published: 2025-10-14-18-29-21
-      updated: 2025-10-16-18-28-04
+      updated: 2025-10-17-19-15-38
       followers: 1469
-      likes: 55
-      views: 635
+      likes: 59
+      views: 1238
       reposts: 2
       comments: !c |-
-        G70CICwK7DZioddkhK8olrdLIJ7Hv2cBBnj36b+tPrQ8ooQCCfRJ2LxFlpwL3NaWlcv9G+EQphXF
-        zKbvtURYLEC4LXO2GrNwmwwVhaFga///oeo2NpenOQNpRSERtH+lMHl1iw+P9NCO7HkrLQwDuh1v
-        wQpbwnSBeoAaTyGgnqfH+HypWljRmifn4xPvlOc3bK8bFTw4rNxzQYt1MMwY51Y+9/fdO0HoXqI5
-        qv171YqikU/1gmntLmjbfX3Sh//99z2Ur3l/hLfoSCEGhJqiWkACobbEMuW6AQyzerXqyBgc4fKR
-        fA10PH2PhI9bZ+T4SJpQoKhaFf8noMmm0Yo0lhnZVLVxiAC7h9mh1CBWhBkD2oQHpyBntbdCsZao
-        z9iFRuDqExjJYKViqvVqmUVbzVCCwUlR9bmo4VABSqjHxhuFplFvDrbqzHAMSyE1wkxPgKvQgmLb
-        ANo5/+l/6aVmoJxfUIzW3pVjFk9HKnEDDsUkqZkq8liAdgE=
+        G/4CACwO7LYdC5k4xXxFWclBieeJQw1gAP+F1vQQhXtekHJtY88nyXwfuNvMqQkBrAOvgXr3Hopf
+        ki0DWsYLD+3ejAJP05C7e82/tvZJFmjqtphejPEwvHBVzhVurVZT0VKY/N9bPBzgGEd2dmtRL6Ed
+        3Acr7BOm8XEB9cKUAsq2STR8w2J2ZcUnEt15efuio9iLT7Hcn8IygpjSqZeCJu/AMZPJzNZyMTwb
+        PFoIXas04NbXrTdSFEJf1TNra3HgG+7HOwD3rz+/XXmb90f0BhsyiAZhwqgvIIGhNsQUchcNOGbs
+        JfWTTCac4PQRbzbA/NQpKnm/d4wcX4kYChSVePJ/AkQWWhtkMUVkoZLJPAYsfBAP2AZNqiGiQdva
+        O9ugjjW2jmFT1D7NZojEHfsMVGWIwIqol3rXUrfONgSDhlBUgXaamLABUrAnSz5YaxxdoiL2Opo4
+        mr6gBHGxFVBNsgsayxHAXft/ymeuaioG/YzHkHbdssjI0yF1cQcdiqBpS4h6TEo+QnnvVud/sTyf
+        KJi2QH1KaU8qkrBB5ziK0pEhjUTKJxAB
     - service: tg
       id: 1016
       published: 2025-10-14-18-29-25
-      updated: 2025-10-16-18-28-02
+      updated: 2025-10-17-19-15-30
       followers: 836
-      likes: 56
-      views: 258
+      likes: 61
+      views: 297
       comments: !c iw2AkZPLQnmeQLWQgACra2F3YXpha3kyMjOk8J+YhwM=
 2017-04-13-corridors-of-hlormaren:
   title: Corridors of Hlormaren
@@ -13064,15 +13065,24 @@
       id: DP65sTZDmWC
       mediaId: '18381877891178063'
       published: 2025-10-17-18-25-48
+      updated: 2025-10-17-19-15-23
       followers: 1586
+      likes: 10
     - service: vk
       id: 2745
       published: 2025-10-17-18-26-01
+      updated: 2025-10-17-19-15-19
       followers: 1467
+      likes: 2
+      views: 22
     - service: tg
       id: 1019
       published: 2025-10-17-18-26-04
+      updated: 2025-10-17-19-15-25
       followers: 834
+      likes: 26
+      views: 78
+      comments: !c iw2AkZPLQnmfOXexgACra2F3YXpha3kyMjOk8J+nkAM=
 2017-10-26-centurion-spider:
   title: Centurion Spider
   titleRu: Паук-центурион
@@ -14479,16 +14489,16 @@
       id: DPo4WeiDLlZ
       mediaId: '18082174219801980'
       published: 2025-10-10-18-27-45
-      updated: 2025-10-16-19-14-26
+      updated: 2025-10-17-19-15-31
       followers: 1587
-      likes: 65
+      likes: 66
     - service: tg
       id: 1012
       published: 2025-10-10-18-28-05
-      updated: 2025-10-16-19-14-32
+      updated: 2025-10-17-19-15-35
       followers: 835
-      likes: 65
-      views: 333
+      likes: 66
+      views: 353
       comments: !c |-
         G/kAAGRqbiuJ6tpEU/sxFTztyOJSokcSleM6urmQDc2QugyTCCL9sL8/lPZgideTdR1vxj4IPjRb
         r0R+HFPFFOjAoRKaARLJoYf/dFv+KuVvv9i0mdRXCFoDTibl1X9aKynE4huPNMiCAqDzPp9/GdBE

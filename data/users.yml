@@ -92,7 +92,7 @@ a2-enkelli:
   profiles:
     - service: tg
       id: '7258424423'
-      updated: 2025-10-17-18-25-21
+      updated: 2025-10-17-19-15-34
       accessHash: '969825927170686844'
       username: A2_Enkelli
       name: †† elli ††
@@ -447,7 +447,7 @@ ansis:
   profiles:
     - service: tg
       id: '517050552'
-      updated: 2025-10-16-19-14-33
+      updated: 2025-10-17-19-15-35
       accessHash: '5231096655311395455'
       username: ansis
       name: ansis
@@ -505,7 +505,7 @@ artem-petrov:
   profiles:
     - service: vk
       id: '4238605'
-      updated: 2025-10-16-18-28-03
+      updated: 2025-10-17-19-15-32
       username: id4238605
       name: Артем Петров
       avatar: store:/avatars/vk-77942374.jpg
@@ -537,7 +537,7 @@ artyom-melikhoff:
   profiles:
     - service: vk
       id: '299405149'
-      updated: 2025-10-17-18-25-15
+      updated: 2025-10-17-19-15-28
       username: artyom_melikhoff
       name: Артём Мелихов
       avatar: store:/avatars/vk-4c16e471.jpg
@@ -1977,6 +1977,14 @@ gleb:
       botChatId: 5357370117
       name: Gleb
       avatar: store:/avatars/tg-5386866769009959576.jpg
+gleb-zheltuhin:
+  profiles:
+    - service: vk
+      id: '29014473'
+      updated: 2025-10-17-19-15-38
+      username: gleb_zheltuhin
+      name: Глеб Желтухин
+      avatar: store:/avatars/vk-971eefc1.jpg
 glider13:
   profiles:
     - service: tg
@@ -2087,7 +2095,7 @@ h4shirama-s3nju:
   profiles:
     - service: tg
       id: '5619748563'
-      updated: 2025-10-17-18-25-19
+      updated: 2025-10-17-19-15-32
       accessHash: '-759856355370590559'
       username: H4shiramaS3nju
       name: 柱間 千住 ✝️ :("");
@@ -2660,7 +2668,7 @@ kawazaky223:
   profiles:
     - service: tg
       id: '5641856113'
-      updated: 2025-10-17-18-25-21
+      updated: 2025-10-17-19-15-34
       accessHash: '7421309771527577818'
       username: Kawazaky223
       name: Максим
@@ -3500,7 +3508,7 @@ nerevarine:
   profiles:
     - service: tg
       id: '373264328'
-      updated: 2025-10-16-19-14-31
+      updated: 2025-10-17-19-15-34
       accessHash: '9078366854792939477'
       username: Nerevarine
       name: Otto Godblessed
@@ -4435,7 +4443,7 @@ sergey-b-2:
   profiles:
     - service: vk
       id: '1077446394'
-      updated: 2025-10-17-18-25-15
+      updated: 2025-10-17-19-15-34
       username: id1077446394
       name: Сергей Б
       avatar: store:/avatars/vk-12075792.jpg
