@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file.
 
+## [2.9.0](https://github.com/dehero/mwscr/compare/v2.8.0...v2.9.0) (2025-10-17)
+
+### Features
+
+- **site:** merge about and statistics blocks on home page
+  ([174881c](https://github.com/dehero/mwscr/commit/174881c93a2c7568230574b9ffda1c91b2d6357d))
+
 ## [2.8.0](https://github.com/dehero/mwscr/compare/v2.7.0...v2.8.0) (2025-10-15)
 
 ### Features
