@@ -4253,15 +4253,26 @@
       id: DP9eaRMDicF
       mediaId: '17951848449013873'
       published: 2025-10-18-18-25-07
+      updated: 2025-10-18-19-13-52
       followers: 1586
+      likes: 10
     - service: vk
       id: 2748
       published: 2025-10-18-18-25-13
+      updated: 2025-10-18-19-13-49
       followers: 1470
+      likes: 5
+      views: 20
     - service: tg
       id: 1020
       published: 2025-10-18-18-25-17
+      updated: 2025-10-18-19-13-53
       followers: 835
+      likes: 26
+      views: 86
+      comments: !c |-
+        ix2AkZPLQnmfizJNAACqYTItZW5rZWxsadkkVGhpcyBpcyBmYW1vdXMgR25pc2lzIE11ZGNyYWIg
+        VGVtcGxlAw==
 2017-04-04-banks-and-arches:
   title: Banks and Arches
   titleRu: Берега и арки
@@ -13078,24 +13089,24 @@
       id: DP65sTZDmWC
       mediaId: '18381877891178063'
       published: 2025-10-17-18-25-48
-      updated: 2025-10-18-18-24-11
+      updated: 2025-10-18-19-13-54
       followers: 1586
       likes: 45
     - service: vk
       id: 2745
       published: 2025-10-17-18-26-01
-      updated: 2025-10-18-18-24-07
+      updated: 2025-10-18-19-13-50
       followers: 1467
       likes: 39
-      views: 366
+      views: 373
       reposts: 1
     - service: tg
       id: 1019
       published: 2025-10-17-18-26-04
-      updated: 2025-10-18-18-24-14
+      updated: 2025-10-18-19-13-55
       followers: 834
-      likes: 52
-      views: 179
+      likes: 59
+      views: 202
       comments: !c |-
         iyOAkpPLQnmfOdASgACqYTItZW5rZWxsabZubyBjcmFicyB0b2RheSBpIGd1ZXNzk8tCeZ85d7GA
         AKtrYXdhemFreTIyM6Twn6eQAw==
