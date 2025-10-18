@@ -347,11 +347,11 @@
     - service: vk
       id: 2739
       published: 2025-10-15-19-16-01
-      updated: 2025-10-17-19-15-29
+      updated: 2025-10-18-20-19-06
       followers: 1467
-      likes: 53
-      views: 927
-      reposts: 1
+      likes: 60
+      views: 1052
+      reposts: 2
       comments: !c |-
         G9YCQKwK7DbyC50mG+LPg32tAE/8P2OPMxXhGQd/i91gtGiyLVQRDFkMYsgrBsu5qi0mpEU5CMEC
         AYtp9uvf2HadqtuxhgQkWrUd7Dw/LEtAOZQkZcTaSiFbnUOpYmUfh0KpiVByW3ecWKIBaIFmWaC/
@@ -12614,27 +12614,27 @@
       id: DPrcoHnjimv
       mediaId: '18366480937159625'
       published: 2025-10-11-18-23-12
-      updated: 2025-10-17-19-15-29
+      updated: 2025-10-18-20-19-06
       followers: 1588
-      likes: 86
+      likes: 88
       comments: !c |-
         G1oA4B2JsS2KPc58VRioImHVbU/xofzhWEUwtYNBi5MjZkO3RnsqrzObYxzooHRdA+27LzJ4yFJ8
         tYkUrverxSmXem1RmcnO4AMSA6f6bLwvILuPOhIeAoOl
     - service: vk
       id: 2729
       published: 2025-10-11-18-23-23
-      updated: 2025-10-17-19-15-39
+      updated: 2025-10-18-20-19-12
       followers: 1463
-      likes: 73
-      views: 729
+      likes: 77
+      views: 753
       reposts: 2
     - service: tg
       id: 1013
       published: 2025-10-11-18-23-27
-      updated: 2025-10-17-19-15-33
+      updated: 2025-10-18-20-19-11
       followers: 836
-      likes: 79
-      views: 383
+      likes: 80
+      views: 449
       comments: !c |-
         G5cA4I2UbsK8oWvek3UCPYVYRNPbNHW2UeIEBvT1Ce+UEw2M2wLLwkAPQAc93lOWumIU9uK/8+Vv
         LDfz4G7gmTmTszrZoqravePvitewAODhlF3S7YxMPq3RMR6LGseP2BrtK1Gkgo1Bp2+sd3HSOoUj
