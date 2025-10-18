@@ -4249,6 +4249,19 @@
       followers: 49
       likes: 4
       views: 128
+    - service: ig
+      id: DP9eaRMDicF
+      mediaId: '17951848449013873'
+      published: 2025-10-18-18-25-07
+      followers: 1586
+    - service: vk
+      id: 2748
+      published: 2025-10-18-18-25-13
+      followers: 1470
+    - service: tg
+      id: 1020
+      published: 2025-10-18-18-25-17
+      followers: 835
 2017-04-04-banks-and-arches:
   title: Banks and Arches
   titleRu: Берега и арки
@@ -13065,24 +13078,24 @@
       id: DP65sTZDmWC
       mediaId: '18381877891178063'
       published: 2025-10-17-18-25-48
-      updated: 2025-10-18-17-14-41
+      updated: 2025-10-18-18-24-11
       followers: 1586
       likes: 45
     - service: vk
       id: 2745
       published: 2025-10-17-18-26-01
-      updated: 2025-10-18-17-14-38
+      updated: 2025-10-18-18-24-07
       followers: 1467
-      likes: 38
-      views: 348
+      likes: 39
+      views: 366
       reposts: 1
     - service: tg
       id: 1019
       published: 2025-10-17-18-26-04
-      updated: 2025-10-18-17-14-42
+      updated: 2025-10-18-18-24-14
       followers: 834
       likes: 52
-      views: 177
+      views: 179
       comments: !c |-
         iyOAkpPLQnmfOdASgACqYTItZW5rZWxsabZubyBjcmFicyB0b2RheSBpIGd1ZXNzk8tCeZ85d7GA
         AKtrYXdhemFreTIyM6Twn6eQAw==
