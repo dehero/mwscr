@@ -92,7 +92,7 @@ a2-enkelli:
   profiles:
     - service: tg
       id: '7258424423'
-      updated: 2025-10-18-21-15-44
+      updated: 2025-10-18-22-16-39
       accessHash: '969825927170686844'
       username: A2_Enkelli
       name: †† elli ††
@@ -271,7 +271,7 @@ aleksey-yeskela:
   profiles:
     - service: vk
       id: '1047357639'
-      updated: 2025-10-17-22-17-26
+      updated: 2025-10-18-22-16-48
       username: id1047357639
       name: Алексей Йескела
       avatar: store:/avatars/vk-77942374.jpg
@@ -505,7 +505,7 @@ artem-petrov:
   profiles:
     - service: vk
       id: '4238605'
-      updated: 2025-10-18-20-19-09
+      updated: 2025-10-18-22-16-39
       username: id4238605
       name: Артем Петров
       avatar: store:/avatars/vk-77942374.jpg
@@ -2668,7 +2668,7 @@ kawazaky223:
   profiles:
     - service: tg
       id: '5641856113'
-      updated: 2025-10-18-21-15-45
+      updated: 2025-10-18-22-16-46
       accessHash: '7421309771527577818'
       username: Kawazaky223
       name: Максим
@@ -2748,7 +2748,7 @@ konstantin-matrosov:
   profiles:
     - service: vk
       id: '93073669'
-      updated: 2025-10-17-21-16-56
+      updated: 2025-10-18-22-16-48
       username: id93073669
       name: Константин Матросов
       avatar: store:/avatars/vk-3b5e092e.jpg
@@ -4467,7 +4467,7 @@ sh2162:
   profiles:
     - service: vk
       id: '175206341'
-      updated: 2025-10-11-22-16-24
+      updated: 2025-10-18-22-16-48
       username: sh2162
       name: Саня Змей
       avatar: store:/avatars/vk-61e7091c.jpg
@@ -4963,7 +4963,7 @@ the-best-song78:
   profiles:
     - service: vk
       id: '825763367'
-      updated: 2025-10-11-22-16-23
+      updated: 2025-10-18-22-16-47
       username: the_best_song78
       name: Vladislav Dmitrievich
       avatar: store:/avatars/vk-cfd58d0c.jpg
