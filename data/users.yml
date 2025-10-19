@@ -92,7 +92,7 @@ a2-enkelli:
   profiles:
     - service: tg
       id: '7258424423'
-      updated: 2025-10-19-19-14-26
+      updated: 2025-10-19-20-20-07
       accessHash: '969825927170686844'
       username: A2_Enkelli
       name: †† elli ††
@@ -447,7 +447,7 @@ ansis:
   profiles:
     - service: tg
       id: '517050552'
-      updated: 2025-10-18-21-15-47
+      updated: 2025-10-19-20-20-09
       accessHash: '5231096655311395455'
       username: ansis
       name: ansis
@@ -505,7 +505,7 @@ artem-petrov:
   profiles:
     - service: vk
       id: '4238605'
-      updated: 2025-10-19-04-23-07
+      updated: 2025-10-19-20-20-11
       username: id4238605
       name: Артем Петров
       avatar: store:/avatars/vk-77942374.jpg
@@ -537,7 +537,7 @@ artyom-melikhoff:
   profiles:
     - service: vk
       id: '299405149'
-      updated: 2025-10-18-20-19-05
+      updated: 2025-10-19-20-20-08
       username: artyom_melikhoff
       name: Артём Мелихов
       avatar: store:/avatars/vk-4c16e471.jpg
@@ -553,7 +553,7 @@ arya-stark:
   profiles:
     - service: vk
       id: '820702664'
-      updated: 2025-10-19-19-14-15
+      updated: 2025-10-19-20-20-14
       username: id820702664
       name: Арья Старк
       avatar: store:/avatars/vk-689aa89d.jpg
@@ -882,7 +882,7 @@ caius-cosades:
   profiles:
     - service: tg
       id: '6483220506'
-      updated: 2025-10-16-08-27-39
+      updated: 2025-10-19-20-20-10
       accessHash: '-5537197680289822260'
       username: Gatemate7
       botChatId: 6483220506
@@ -1982,7 +1982,7 @@ gleb-zheltuhin:
   profiles:
     - service: vk
       id: '29014473'
-      updated: 2025-10-18-20-19-10
+      updated: 2025-10-19-20-20-12
       username: gleb_zheltuhin
       name: Глеб Желтухин
       avatar: store:/avatars/vk-971eefc1.jpg
@@ -2669,7 +2669,7 @@ kawazaky223:
   profiles:
     - service: tg
       id: '5641856113'
-      updated: 2025-10-19-19-14-26
+      updated: 2025-10-19-20-20-08
       accessHash: '7421309771527577818'
       username: Kawazaky223
       name: Максим
@@ -4444,7 +4444,7 @@ sergey-b-2:
   profiles:
     - service: vk
       id: '1077446394'
-      updated: 2025-10-18-20-19-10
+      updated: 2025-10-19-20-20-12
       username: id1077446394
       name: Сергей Б
       avatar: store:/avatars/vk-12075792.jpg
