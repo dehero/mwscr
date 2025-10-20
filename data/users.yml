@@ -92,7 +92,7 @@ a2-enkelli:
   profiles:
     - service: tg
       id: '7258424423'
-      updated: 2025-10-20-19-16-18
+      updated: 2025-10-20-20-22-02
       accessHash: '969825927170686844'
       username: A2_Enkelli
       name: †† elli ††
@@ -505,7 +505,7 @@ artem-petrov:
   profiles:
     - service: vk
       id: '4238605'
-      updated: 2025-10-19-22-17-04
+      updated: 2025-10-20-20-22-03
       username: id4238605
       name: Артем Петров
       avatar: store:/avatars/vk-77942374.jpg
@@ -537,7 +537,7 @@ artyom-melikhoff:
   profiles:
     - service: vk
       id: '299405149'
-      updated: 2025-10-20-18-29-28
+      updated: 2025-10-20-20-22-01
       username: artyom_melikhoff
       name: Артём Мелихов
       avatar: store:/avatars/vk-4c16e471.jpg
@@ -1430,7 +1430,7 @@ dish-man:
   profiles:
     - service: vk
       id: '180745700'
-      updated: 2025-10-20-19-16-13
+      updated: 2025-10-20-20-21-58
       username: dish_man
       name: Станислав Беляев
       avatar: store:/avatars/vk-68b120ff.jpg
@@ -1805,7 +1805,7 @@ feanor2la:
   profiles:
     - service: vk
       id: '16294877'
-      updated: 2025-10-15-22-19-21
+      updated: 2025-10-20-20-21-58
       username: feanor2la
       name: Иван Урлапов
       avatar: store:/avatars/vk-9f79c7ac.jpg
@@ -1989,7 +1989,7 @@ gleb-zheltuhin:
   profiles:
     - service: vk
       id: '29014473'
-      updated: 2025-10-19-20-20-12
+      updated: 2025-10-20-20-22-04
       username: gleb_zheltuhin
       name: Глеб Желтухин
       avatar: store:/avatars/vk-971eefc1.jpg
@@ -2676,7 +2676,7 @@ kawazaky223:
   profiles:
     - service: tg
       id: '5641856113'
-      updated: 2025-10-20-19-16-19
+      updated: 2025-10-20-20-22-03
       accessHash: '7421309771527577818'
       username: Kawazaky223
       name: Максим
@@ -3920,7 +3920,7 @@ pkellerman:
   profiles:
     - service: vk
       id: '11823909'
-      updated: 2025-10-20-19-16-14
+      updated: 2025-10-20-20-21-58
       username: pkellerman
       name: Антон Подлужный
       avatar: store:/avatars/vk-9bff06f8.jpg
@@ -4451,7 +4451,7 @@ sergey-b-2:
   profiles:
     - service: vk
       id: '1077446394'
-      updated: 2025-10-19-20-20-12
+      updated: 2025-10-20-20-22-04
       username: id1077446394
       name: Сергей Б
       avatar: store:/avatars/vk-12075792.jpg

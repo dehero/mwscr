@@ -346,11 +346,11 @@
     - service: vk
       id: 2739
       published: 2025-10-15-19-16-01
-      updated: 2025-10-19-20-20-08
+      updated: 2025-10-20-20-22-01
       followers: 1467
-      likes: 62
-      views: 1165
-      reposts: 2
+      likes: 63
+      views: 1232
+      reposts: 1
       comments: !c |-
         G9YCQKwK7DbyC50mG+LPg32tAE/8P2OPMxXhGQd/i91gtGiyLVQRDFkMYsgrBsu5qi0mpEU5CMEC
         AYtp9uvf2HadqtuxhgQkWrUd7Dw/LEtAOZQkZcTaSiFbnUOpYmUfh0KpiVByW3ecWKIBaIFmWaC/
@@ -2247,26 +2247,28 @@
       id: DQColV8DlTf
       mediaId: '18106903804611854'
       published: 2025-10-20-18-30-13
-      updated: 2025-10-20-19-16-11
+      updated: 2025-10-20-20-21-55
       followers: 1585
-      likes: 17
+      likes: 26
     - service: vk
       id: 2752
       published: 2025-10-20-18-30-24
-      updated: 2025-10-20-19-16-07
+      updated: 2025-10-20-20-21-52
       followers: 1473
-      likes: 3
-      views: 18
+      likes: 6
+      views: 32
     - service: tg
       id: 1022
       published: 2025-10-20-18-31-09
-      updated: 2025-10-20-19-16-14
+      updated: 2025-10-20-20-22-00
       followers: 838
-      likes: 23
-      views: 98
+      likes: 35
+      views: 120
       comments: !c |-
-        G2wA6B0Jdkzkg090Fhmh0jssElRVt0wuMzO30VK8EMUQ7UbF+oO8oCgspKgHXItt48WJOWdOIshM
-        NVJU1pdbU5zYEY0kz5Z7r99EStf5hdw4jbEK7GOnRiGMDM94XCkV+qa4fbAY
+        G8wAABwHdosPWsXwY9fFwiKWjDg1hH+ebJBcPLh0jC2yynOAlLRakDrlVEIsaG1RZFd8JjFD6+T4
+        YCmH2tqyILCEiyFLPJTcxq5jqXQaFUEdN/fScOCBIN4xOmM0ooHnhdtve/l/JgKxi5+XwVNq5MRx
+        8CVtVKlvw/UKadahyhBKqVE5DoLahkl3ZYcznF4quaOKBmQu1NYobQFcSclMjAEdZJMwQm5olYZZ
+        BQI=
 2018-02-22-bridge-at-the-border-of-two-regions:
   title: Bridge at the Border of Two Regions
   titleRu: Мост на границе двух регионов
