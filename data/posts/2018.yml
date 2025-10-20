@@ -330,20 +330,19 @@
       id: DP1wixojmBz
       mediaId: '18293817118260913'
       published: 2025-10-15-18-29-41
-      updated: 2025-10-19-19-14-17
+      updated: 2025-10-20-19-16-15
       followers: 1587
-      likes: 39
+      likes: 40
     - service: tg
       id: 1017
       published: 2025-10-15-18-29-53
-      updated: 2025-10-19-19-14-22
+      updated: 2025-10-20-19-16-19
       followers: 837
-      likes: 67
-      views: 333
+      likes: 70
+      views: 361
       comments: !c |-
-        G5YAQKwOeBPrKqNpVWN6xYU6xgs1eW0JPhzo9t9gJVJFkaLzP2+CB/psewNsoaHNXjCRIw20hXz1
-        p0yLW4XVgQ5O9Kw3/0DiAvBIojxlJRJUFPvfSn2s+yEbnI052qJmlTqgTHofkXaTtW312kUx19ku
-        0kzEYH698Cq/othNky6KO19MPBeLYnZ/NQ==
+        G38A4I3URjWmnDZ186f4gzQx7CnBMaYFXLjOt3EZY7MMTjgQzryBxAXgR7nH2DuOiyNe87I+Hmt0
+        AqepCm4Wu0kSfrwyLcahGoMIC+znhjHlHyjutHXsyrTyXAQ6a0RRqT95Bg==
     - service: vk
       id: 2739
       published: 2025-10-15-19-16-01
@@ -2248,15 +2247,26 @@
       id: DQColV8DlTf
       mediaId: '18106903804611854'
       published: 2025-10-20-18-30-13
+      updated: 2025-10-20-19-16-11
       followers: 1585
+      likes: 17
     - service: vk
       id: 2752
       published: 2025-10-20-18-30-24
+      updated: 2025-10-20-19-16-07
       followers: 1473
+      likes: 3
+      views: 18
     - service: tg
       id: 1022
       published: 2025-10-20-18-31-09
+      updated: 2025-10-20-19-16-14
       followers: 838
+      likes: 23
+      views: 98
+      comments: !c |-
+        G2wA6B0Jdkzkg090Fhmh0jssElRVt0wuMzO30VK8EMUQ7UbF+oO8oCgspKgHXItt48WJOWdOIshM
+        NVJU1pdbU5zYEY0kz5Z7r99EStf5hdw4jbEK7GOnRiGMDM94XCkV+qa4fbAY
 2018-02-22-bridge-at-the-border-of-two-regions:
   title: Bridge at the Border of Two Regions
   titleRu: Мост на границе двух регионов
@@ -3448,16 +3458,16 @@
       id: DPwmvA5DhdI
       mediaId: '18068583380522542'
       published: 2025-10-13-18-27-43
-      updated: 2025-10-19-19-14-20
+      updated: 2025-10-20-19-16-18
       followers: 1586
       likes: 51
     - service: vk
       id: 2733
       published: 2025-10-13-18-27-49
-      updated: 2025-10-19-19-14-16
+      updated: 2025-10-20-19-16-17
       followers: 1469
-      likes: 59
-      views: 899
+      likes: 63
+      views: 961
       reposts: 4
       comments: !c |-
         ix6AkZPLQnmeM+qpgACqYXJ5YS1zdGFya9km0JTQsNC70YHRjyDQvNC90LUg0LLQsNGIINCS0LjQ
@@ -3465,10 +3475,10 @@
     - service: tg
       id: 1015
       published: 2025-10-13-18-27-54
-      updated: 2025-10-19-19-14-24
+      updated: 2025-10-20-19-16-20
       followers: 836
-      likes: 69
-      views: 369
+      likes: 70
+      views: 407
       comments: !c |-
         ix2AkpPLQnmeQJVWgACra2F3YXpha3kyMjOk8J+lkJPLQnmd7UgkgACvaDRzaGlyYW1hLXMzbmp1
         pWJhc2VkAw==
@@ -7319,7 +7329,7 @@
       id: DP4ah_ND7b_
       mediaId: '18062486108610167'
       published: 2025-10-16-19-15-01
-      updated: 2025-10-19-19-14-14
+      updated: 2025-10-20-19-16-13
       followers: 1587
       likes: 52
 2018-06-20-redoran-lantern:
