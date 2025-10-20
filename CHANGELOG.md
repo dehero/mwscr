@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file.
 
+## [2.9.1](https://github.com/dehero/mwscr/compare/v2.9.0...v2.9.1) (2025-10-20)
+
+### Bug Fixes
+
+- exclude comments without text from being saved to data
+  ([faf6a2d](https://github.com/dehero/mwscr/commit/faf6a2d9652126ad3a0a34feed0ee2790f582639))
+
 ## [2.9.0](https://github.com/dehero/mwscr/compare/v2.8.0...v2.9.0) (2025-10-17)
 
 ### Features
