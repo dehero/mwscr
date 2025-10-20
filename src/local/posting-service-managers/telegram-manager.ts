@@ -258,6 +258,16 @@ export class TelegramManager extends Telegram implements PostingServiceManager {
       return;
     }
 
+    const alt = message.document?.attributes.find(
+      (attr): attr is Api.DocumentAttributeSticker => attr instanceof Api.DocumentAttributeSticker,
+    )?.alt;
+
+    const text = (message.message || alt || '').trim();
+
+    if (!text) {
+      return;
+    }
+
     const [author] = await users.findOrAddItemByProfile(
       {
         service: this.id,
@@ -269,12 +279,7 @@ export class TelegramManager extends Telegram implements PostingServiceManager {
 
     await users.save();
 
-    const alt = message.document?.attributes.find(
-      (attr): attr is Api.DocumentAttributeSticker => attr instanceof Api.DocumentAttributeSticker,
-    )?.alt;
-
     const datetime = new Date(message.date * 1000);
-    const text = message.message || alt || '';
 
     return { datetime, author, text };
   }

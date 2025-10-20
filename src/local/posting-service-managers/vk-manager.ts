@@ -274,15 +274,19 @@ export class VKManager extends VKService implements PostingServiceManager {
       return;
     }
 
+    const text = message.text.replace(/\[[^|]+\|([^\]]+)\]/gm, '$1').trim();
+    if (!text) {
+      return;
+    }
+
     const [author] = await users.findOrAddItemByProfile(
       { service: this.id, id: entity.id.toString(), username: entity.screen_name },
       (profile) => this.fillUserProfile(entity, profile),
     );
 
-    const datetime = new Date(message.date * 1000);
-    const text = message.text.replace(/\[[^|]+\|([^\]]+)\]/gm, '$1').trim();
-
     await users.save();
+
+    const datetime = new Date(message.date * 1000);
 
     return { datetime, author, text };
   }

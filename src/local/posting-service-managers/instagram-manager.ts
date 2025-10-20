@@ -438,6 +438,11 @@ export class InstagramManager extends Instagram implements PostingServiceManager
         continue;
       }
 
+      const text = item.text.trim();
+      if (!text) {
+        continue;
+      }
+
       const [author] = await users.findOrAddItemByProfile(
         { service: this.id, username: item.username },
         (profile, isExisting) => (!isExisting ? this.updateUserProfile(profile) : undefined),
@@ -445,7 +450,6 @@ export class InstagramManager extends Instagram implements PostingServiceManager
 
       const replies: PublicationComment[] = [];
       const mention = `@${item.username}`;
-      const text = item.text.trim();
 
       if (item.replies?.data.length) {
         // Get the replies for each comment if there are any
@@ -465,18 +469,22 @@ export class InstagramManager extends Instagram implements PostingServiceManager
             continue;
           }
 
+          let text = childItem.text;
+          if (text.startsWith(mention)) {
+            text = text.slice(mention.length);
+          }
+          text = text.trim();
+
+          if (!text) {
+            continue;
+          }
+
           const datetime = new Date(childItem.timestamp);
 
           const [author] = await users.findOrAddItemByProfile(
             { service: this.id, username: childItem.username },
             (profile, isExisting) => (!isExisting ? this.updateUserProfile(profile) : undefined),
           );
-
-          let text = childItem.text;
-          if (text.startsWith(mention)) {
-            text = text.slice(mention.length);
-          }
-          text = text.trim();
 
           replies.push({ datetime, author, text });
         }

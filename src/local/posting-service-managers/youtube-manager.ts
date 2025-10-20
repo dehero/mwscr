@@ -82,6 +82,11 @@ export class YouTubeManager extends YouTube implements PostingServiceManager {
       return;
     }
 
+    const text = snippet.textDisplay.trim();
+    if (!text) {
+      return;
+    }
+
     const [author] = await users.findOrAddItemByProfile(
       {
         service: this.id,
@@ -93,7 +98,6 @@ export class YouTubeManager extends YouTube implements PostingServiceManager {
 
     await users.save();
 
-    const text = snippet.textDisplay;
     const datetime = new Date(snippet.publishedAt);
 
     return { datetime, author, text };
