@@ -2244,6 +2244,19 @@
       likes: 22
       views: 223
       reposts: 1
+    - service: ig
+      id: DQColV8DlTf
+      mediaId: '18106903804611854'
+      published: 2025-10-20-18-30-13
+      followers: 1585
+    - service: vk
+      id: 2752
+      published: 2025-10-20-18-30-24
+      followers: 1473
+    - service: tg
+      id: 1022
+      published: 2025-10-20-18-31-09
+      followers: 838
 2018-02-22-bridge-at-the-border-of-two-regions:
   title: Bridge at the Border of Two Regions
   titleRu: Мост на границе двух регионов
@@ -7287,18 +7300,18 @@
     - service: vk
       id: 2743
       published: 2025-10-16-18-28-53
-      updated: 2025-10-19-18-24-51
+      updated: 2025-10-20-18-29-25
       followers: 1467
-      likes: 59
-      views: 1631
+      likes: 64
+      views: 1846
       reposts: 1
     - service: tg
       id: 1018
       published: 2025-10-16-18-28-57
-      updated: 2025-10-19-18-24-57
+      updated: 2025-10-20-18-29-23
       followers: 836
-      likes: 58
-      views: 267
+      likes: 64
+      views: 315
       comments: !c |-
         CzOAk5PLQnme5rpMAACra2F3YXpha3kyMjOk8J+YhpPLQnme5KVWgACqYTItZW5rZWxsaapTdHJh
         bmdlLi4uk8tCeZ7kouWAAKphMi1lbmtlbGxptUNhbnQgc2VlIGFueSBtdWRjcmFicwM=
@@ -9017,16 +9030,16 @@
       id: DM543yhsZtW
       mediaId: '17894475237269603'
       published: 2025-08-03-19-25-00
-      updated: 2025-10-13-18-27-08
+      updated: 2025-10-20-18-29-14
       followers: 1572
       likes: 69
     - service: vk
       id: 2552
       published: 2025-08-03-19-25-00
-      updated: 2025-10-13-18-27-10
+      updated: 2025-10-20-18-29-28
       followers: 1356
       likes: 53
-      views: 812
+      views: 822
       reposts: 3
       comments: !c |-
         C0KAkpPLQnmGq0NiAACwc2VyZ2V5LWNodXJiYW5vdtkl0JDRhdCw0YXQsCDQt9C90LDQutC+0LzR
@@ -9035,10 +9048,10 @@
     - service: tg
       id: 937
       published: 2025-08-03-19-25-28
-      updated: 2025-10-13-18-27-12
+      updated: 2025-10-20-18-29-26
       followers: 769
-      likes: 64
-      views: 752
+      likes: 65
+      views: 759
       comments: !c CxmAkpPLQnmHYFXgAACnZGFueWEtcqTwn6eAk8tCeYc5DzAAAKtrYXdhemFreTIyM6Twn5iHAw==
 2018-07-31-spires:
   title: Spires
