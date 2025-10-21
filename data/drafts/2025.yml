@@ -248,8 +248,30 @@ dehero.2025-09-18-08-29-02:
 kaltesblut.2025-09-30-morrowind-19-13-59-306-057fd61f:
   title: Morrowind 19.13.59.306
   content: store:/inbox/kaltesblut.2025-09-30-morrowind-19-13-59-306-057fd61f.png
-  type: shot
+  type: outtakes
   author: kaltesblut
+ohsweetnazareth.2025-02-20-ash-statue-in-maran-adon:
+  title: Ash Statue in Maran-Adon
+  location: Maran-Adon
+  content:
+    - store:/inbox/ohsweetnazareth.2025-02-20-ash-statue-in-maran-adon.png
+  type: outtakes
+  author: ohsweetnazareth
+  violation: no-anti-aliasing
+ohsweetnazareth.2025-03-11-within-the-house-of-earthly-delights-suran-6744e791:
+  title: Within the House of Earthly Delights, Suran
+  content:
+    - store:/inbox/ohsweetnazareth.2025-03-11-within-the-house-of-earthly-delights-suran-6744e791.png
+  type: outtakes
+  author: ohsweetnazareth
+  violation: no-anti-aliasing
+ohsweetnazareth.2025-03-13-evening-at-ald-sotha-57687677:
+  title: Evening at Ald Sotha
+  content:
+    - store:/inbox/ohsweetnazareth.2025-03-13-evening-at-ald-sotha-57687677.png
+  type: outtakes
+  author: ohsweetnazareth
+  violation: no-anti-aliasing
 ohsweetnazareth.2025-05-02-keenings-respite-b6ff886e:
   title: Keening's Respite
   content: store:/inbox/ohsweetnazareth.2025-05-02-keenings-respite-b6ff886e.png

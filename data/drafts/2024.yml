@@ -65,6 +65,15 @@ id810900694.2024-10-13-giant-rat-scum:
   snapshot: store:/inbox/2024-10-13-giant-rat-shapshot.jpg
   type: photoshop
   author: sergey-b
+kayracik.2024-09-05-20-09-00:
+  content:
+    - store:/inbox/kayracik.2024-09-05-20-09-00.png
+    - store:/inbox/kayracik.2024-09-05-20-09-00.1.png
+    - store:/inbox/kayracik.2024-09-05-20-09-00.2.png
+    - store:/inbox/kayracik.2024-09-05-20-09-00.3.png
+  type: outtakes
+  author: kayracik
+  violation: no-anti-aliasing
 natty.2024-03-10-12-44-23:
   content: store:/inbox/natty.2024-03-10-12-44-23.1.png
   trash: store:/inbox/natty.2024-03-10-12-44-23.png
@@ -78,3 +87,16 @@ natty.2024-10-06-15-21-49:
   content: store:/inbox/natty.2024-10-06-15-21-49.png
   type: shot
   author: natty
+vladyslav-zhuk.2024-05-20-715f7a34:
+  title: Daedric Chaos
+  content:
+    - store:/inbox/vladyslav-zhuk.2024-05-20-715f7a34.png
+  type: outtakes
+  author: vladyslav-zhuk
+  violation: jpeg-artifacts
+vladyslav-zhuk.2024-05-20-d3c543d1:
+  content:
+    - store:/inbox/vladyslav-zhuk.2024-05-20-d3c543d1.png
+  type: outtakes
+  author: vladyslav-zhuk
+  violation: jpeg-artifacts
