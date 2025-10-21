@@ -39,6 +39,7 @@ export const PostViolation = picklist([
   'unreachable-resource',
   'unsupported-resource',
 ]);
+export const PostViolations = union([PostViolation, array(PostViolation)]);
 export const PostAuthor = union([pipe(string(), nonEmpty()), array(pipe(string(), nonEmpty()))]);
 export const PostTag = pipe(string(), nonEmpty());
 export const PostRequest = object({ date: date(), user: pipe(string(), nonEmpty()), text: pipe(string(), nonEmpty()) });
@@ -62,7 +63,7 @@ export const Post = pipe(
     addon: optional(PostAddon),
     request: optional(PostRequest),
     mark: optional(PostMark),
-    violation: optional(PostViolation),
+    violation: optional(PostViolations),
     announcement: optional(PostAnnouncement),
     created: optional(date()),
     posts: optional(array(Publication)),
@@ -93,6 +94,7 @@ export type PostAddon = InferOutput<typeof PostAddon>;
 export type PostEngine = InferOutput<typeof PostEngine>;
 export type PostMark = InferOutput<typeof PostMark>;
 export type PostViolation = InferOutput<typeof PostViolation>;
+export type PostViolations = InferOutput<typeof PostViolations>;
 export type PostAuthor = InferOutput<typeof PostAuthor>;
 export type PostTag = InferOutput<typeof PostTag>;
 export type PostRequest = InferOutput<typeof PostRequest>;
@@ -537,7 +539,7 @@ export function mergePostWith(post: Post, withPost: Post) {
   post.placement = mergePostPlacements(post.placement, withPost.placement);
   post.request = mergePostRequests(post.request, withPost.request);
   post.mark = post.mark || withPost.mark;
-  post.violation = post.violation || withPost.violation;
+  post.violation = mergePostViolations(post.violation, withPost.violation);
   post.posts = mergePublications(post.posts, withPost.posts);
   post.announcement = post.announcement || withPost.announcement;
   post.created = post.created || withPost.created;
@@ -619,6 +621,15 @@ export function mergePostTags(tags1: string[] | undefined, tags2?: string[] | un
   const result = new Set([...(tags1 ?? []), ...(tags2 ?? [])].filter(Boolean));
 
   return result.size > 0 ? [...result] : undefined;
+}
+
+export function mergePostViolations(
+  violation1: PostViolations | undefined,
+  violation2?: PostViolations,
+): PostViolations | undefined {
+  const result = [...new Set([...asArray(violation1), ...asArray(violation2)])];
+
+  return result.length > 0 ? (result.length === 1 ? result[0] : result) : undefined;
 }
 
 export function createPostPublicationTags(post: Post): string[] {

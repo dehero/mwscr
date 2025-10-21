@@ -15,7 +15,7 @@ export async function maintainPreviews() {
 
   for (const manager of dataManager.postsManagers) {
     for await (const [, post] of manager.readAllEntries(true)) {
-      if (post.violation === 'inappropriate-content') {
+      if (asArray(post.violation).includes('inappropriate-content')) {
         // Force delete previews of inappropriate content
         continue;
       }

@@ -149,17 +149,19 @@ async function processMessage(message: TelegramBot.Message) {
 
       for (const [id, post] of postEntries) {
         if (post.violation) {
-          const violation: PostViolationDescriptor = postViolationDescriptors[post.violation];
-          replies.push(
-            `${getRandomRejectPhrase()}\n<blockquote><b>${esc(asArray(post.content).join(', '))}</b>\n${
-              violation.topicId
-                ? // TODO: don't use hardcoded site domain
-                  `<a href="${encodeURI(`https://mwscr.dehero.site/help/${violation.topicId}/`)}">${
-                    violation.title
-                  }</a>`
-                : violation.title
-            }.${violation.solution ? ` ${violation.solution}` : ''}</blockquote>`,
-          );
+          for (const violation of asArray(post.violation)) {
+            const descriptor: PostViolationDescriptor = postViolationDescriptors[violation];
+            replies.push(
+              `${getRandomRejectPhrase()}\n<blockquote><b>${esc(asArray(post.content).join(', '))}</b>\n${
+                descriptor.topicId
+                  ? // TODO: don't use hardcoded site domain
+                    `<a href="${encodeURI(`https://mwscr.dehero.site/help/${descriptor.topicId}/`)}">${
+                      descriptor.title
+                    }</a>`
+                  : descriptor.title
+              }.${descriptor.solution ? ` ${descriptor.solution}` : ''}</blockquote>`,
+            );
+          }
         } else {
           await drafts.addItem(post, id);
           await drafts.save();

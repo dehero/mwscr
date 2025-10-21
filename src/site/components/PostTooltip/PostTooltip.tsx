@@ -194,15 +194,20 @@ export const PostTooltip: Component<PostTooltipProps> = (props) => {
         </span>
       </Show>
       <Show when={local.postInfo.violation}>
-        {(violation) => (
-          <span class={styles.addon}>
-            {'Violation: '}
-            <Icon color="health" size="small" variant="flat" class={styles.icon}>
-              {postViolationDescriptors[violation()].letter}
-            </Icon>
-            {postViolationDescriptors[violation()].title}
-          </span>
-        )}
+        <span class={styles.violation}>
+          {'Violation: '}
+          <For each={asArray(local.postInfo.violation)}>
+            {(violation, index) => (
+              <>
+                {index() > 0 ? ', ' : ''}
+                <Icon color="health" size="small" variant="flat" class={styles.icon}>
+                  {postViolationDescriptors[violation].letter}
+                </Icon>
+                {postViolationDescriptors[violation].title}
+              </>
+            )}
+          </For>
+        </span>
       </Show>
       <Show when={local.postInfo.tags?.length}>
         <span class={styles.tags}>Tags: {local.postInfo.tags?.join(', ')}</span>

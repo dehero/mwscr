@@ -1,4 +1,4 @@
-import { PostAddon, PostEngine, PostMark, PostType, PostViolation } from './post.js';
+import { PostAddon, PostEngine, PostMark, PostType } from './post.js';
 
 export const postContent = {
   type: 'textarea',
@@ -71,11 +71,12 @@ export const postMark = {
 } as const;
 
 export const postViolation = {
-  type: 'dropdown',
+  type: 'input',
   id: 'postViolation',
   attributes: {
     label: 'Violation',
-    options: PostViolation.options,
+    description: 'List of violations',
+    render: 'txt',
   },
 } as const;
 

@@ -23,6 +23,7 @@ import {
   mergeAuthors,
   mergePostLocations,
   mergePostTags,
+  mergePostViolations,
   mergePostWith,
   PostAddon,
   postAddonDescriptors,
@@ -114,6 +115,11 @@ export const postDialogPresetDescriptors = Object.freeze<Record<PostDialogPreset
     features: ['previewContent'],
   },
 });
+
+const violationOptions = PostViolation.options.map((value) => ({
+  value,
+  label: postViolationDescriptors[value].title,
+}));
 
 async function getLocationOptions(): Promise<Option[]> {
   return [
@@ -341,6 +347,20 @@ export const PostDialog: Component<PostDialogProps> = (props) => {
       locations.splice(index, 1);
     }
     setPatchField('location', mergePostLocations(locations));
+  };
+
+  const setPostViolation = (index: number, violation: PostViolation | undefined) => {
+    const violations = asArray(post().violation);
+    if (violation) {
+      if (index < violations.length) {
+        violations[index] = violation;
+      } else {
+        violations.push(violation);
+      }
+    } else {
+      violations.splice(index, 1);
+    }
+    setPatchField('violation', mergePostViolations(violations));
   };
 
   const handleSubmit = () => {
@@ -620,21 +640,30 @@ export const PostDialog: Component<PostDialogProps> = (props) => {
 
                 <Show when={preset().fields.includes('violation')}>
                   <Label label="Violation" vertical>
-                    <div class={styles.selectWrapper}>
-                      <Select
-                        name="violation"
-                        options={[
-                          EMPTY_OPTION,
-                          ...PostViolation.options.map((value) => ({
-                            value,
-                            label: postViolationDescriptors[value].title,
-                          })),
-                        ]}
-                        value={post().violation ?? undefined}
-                        onChange={(value) => setPatchField('violation', value)}
-                        class={styles.select}
-                      />
-                    </div>
+                    <fieldset class={clsx(styles.fieldset, styles.violations)}>
+                      <For each={asArray(post().violation)}>
+                        {(violation, index) => (
+                          <div class={styles.selectWrapper}>
+                            <Select
+                              options={[{ label: '[Remove]', value: EMPTY_OPTION.value }, ...violationOptions]}
+                              name="violation"
+                              value={violation}
+                              onChange={(violation) => setPostViolation(index(), violation)}
+                              class={styles.select}
+                            />
+                          </div>
+                        )}
+                      </For>
+                      <div class={styles.selectWrapper}>
+                        <Select
+                          options={[{ label: '[Add]', value: EMPTY_OPTION.value }, ...violationOptions]}
+                          name="violation"
+                          value={undefined}
+                          onChange={(violation) => setPostViolation(asArray(post().violation).length, violation)}
+                          class={styles.select}
+                        />
+                      </div>
+                    </fieldset>
                   </Label>
                 </Show>
               </fieldset>

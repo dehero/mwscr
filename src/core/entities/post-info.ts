@@ -16,6 +16,7 @@ import type {
   PostRequest,
   PostType,
   PostViolation,
+  PostViolations,
 } from './post.js';
 import {
   comparePostEntriesByDate,
@@ -51,7 +52,7 @@ export interface PostInfo {
   // TODO: don't include request.user, use requesterOption
   request?: PostRequest;
   mark?: PostMark;
-  violation?: PostViolation;
+  violation?: PostViolations;
   published: boolean;
   publishableErrors?: string[];
   commentCount: number;
@@ -278,7 +279,7 @@ export const selectPostInfos = (
         (typeof params.violation === 'undefined' ||
           (params.violation === ANY_OPTION.value && info.violation) ||
           (params.violation === NONE_OPTION.value && !info.violation) ||
-          info.violation === params.violation) &&
+          (info.violation && asArray(info.violation).some((violation) => violation === params.violation))) &&
         search(searchTokens, [info.title, info.titleRu, info.description, info.descriptionRu]),
     );
   });

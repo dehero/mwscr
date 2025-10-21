@@ -34,7 +34,7 @@ export function createIssueUrl(path?: string, post?: Post): string {
   url.searchParams.set(postTags.id, post?.tags?.join(' ') || '');
   url.searchParams.set(postLocation.id, asArray(post?.location).join('\n'));
   url.searchParams.set(postMark.id, post?.mark || '');
-  url.searchParams.set(postViolation.id, post?.violation || '');
+  url.searchParams.set(postViolation.id, asArray(post?.violation).join(' '));
   url.searchParams.set(postTrash.id, asArray(post?.trash).join('\n'));
   url.searchParams.set(postRequestText.id, post?.request?.text || '');
 

@@ -1,5 +1,5 @@
 import clsx from 'clsx';
-import { type Component, createSignal, Show } from 'solid-js';
+import { type Component, createSignal, For, Show } from 'solid-js';
 import { Dynamic } from 'solid-js/web';
 import avatar from '../../../../assets/avatar.png?format=avif&imagetools';
 import { markdownToInlineHtml } from '../../../core/entities/markdown.js';
@@ -7,7 +7,7 @@ import { getLimitedAspectRatio } from '../../../core/entities/media.js';
 import { postAddonDescriptors, postTypeDescriptors, postViolationDescriptors } from '../../../core/entities/post.js';
 import type { PostInfo } from '../../../core/entities/post-info.js';
 import { createPostPath } from '../../../core/entities/posts-manager.js';
-import { capitalizeFirstLetter } from '../../../core/utils/common-utils.js';
+import { asArray, capitalizeFirstLetter } from '../../../core/utils/common-utils.js';
 import { postRoute } from '../../routes/post-route.js';
 import { createDetachedDialogFragment } from '../DetachedDialogsProvider/DetachedDialogsProvider.jsx';
 import { Divider } from '../Divider/Divider.js';
@@ -137,13 +137,13 @@ export const PostPreview: Component<PostPreviewProps> = (props) => {
                     </Icon>
                   </Show>
 
-                  <Show when={props.postInfo.violation}>
+                  <For each={asArray(props.postInfo.violation)}>
                     {(violation) => (
                       <Icon color="health" size="small" variant="flat">
-                        {postViolationDescriptors[violation()].letter}
+                        {postViolationDescriptors[violation].letter}
                       </Icon>
                     )}
-                  </Show>
+                  </For>
 
                   <Show when={props.postInfo.status}>
                     {(status) => (

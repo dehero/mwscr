@@ -19,11 +19,12 @@ import {
   mergeAuthors,
   mergePostContents,
   mergePostLocations,
+  mergePostViolations,
   PostAddon,
   PostEngine,
   PostMark,
   PostType,
-  PostViolation,
+  PostViolations,
 } from '../../core/entities/post.js';
 import { parsePostPath } from '../../core/entities/posts-manager.js';
 import { ResourceUrl } from '../../core/entities/resource.js';
@@ -67,7 +68,7 @@ export async function resolve(issue: GithubIssue) {
   const engineStr = extractIssueFieldValue(postEngine, issue.body);
   const addonStr = extractIssueFieldValue(postAddon, issue.body);
   const markStr = extractIssueFieldValue(postMark, issue.body);
-  const violationStr = extractIssueFieldValue(postViolation, issue.body);
+  const rawViolation = extractIssueFieldValue(postViolation, issue.body)?.split(/\s+/).filter(Boolean);
   const rawLocation = extractIssueTextareaValue(postLocation, issue.body)?.split(/\r?\n/).filter(Boolean);
   const requestText = extractIssueFieldValue(postRequestText, issue.body);
   const rawContent = extractIssueTextareaValue(postContent, issue.body)
@@ -97,7 +98,7 @@ export async function resolve(issue: GithubIssue) {
   post.engine = safeParseSchema(PostEngine, engineStr);
   post.addon = safeParseSchema(PostAddon, addonStr);
   post.mark = safeParseSchema(PostMark, markStr);
-  post.violation = safeParseSchema(PostViolation, violationStr);
+  post.violation = mergePostViolations(safeParseSchema(PostViolations, rawViolation));
   post.location = mergePostLocations(
     rawLocation
       ? (
@@ -131,7 +132,7 @@ export async function createIssueTemplate() {
       postTags,
       postLocation,
       issueDropdownToInput(postMark),
-      issueDropdownToInput(postViolation),
+      postViolation,
       postTrash,
       postRequestText,
     ],

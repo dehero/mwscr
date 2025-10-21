@@ -496,7 +496,7 @@ export const PostPage = (): JSX.Element => {
                       ? postsRoute.createUrl({ managerName: 'posts', mark: postInfo().mark, original: 'true' })
                       : undefined,
                   },
-                  {
+                  ...asArray(postInfo().violation).map((violation) => ({
                     label: 'Violation',
                     value: postInfo().violation
                       ? () => (
@@ -507,16 +507,16 @@ export const PostPage = (): JSX.Element => {
                               variant="flat"
                               class={clsx(styles.icon, styles.tableIcon)}
                             >
-                              {postViolationDescriptors[postInfo().violation!].letter}
+                              {postViolationDescriptors[violation].letter}
                             </Icon>
-                            {postViolationDescriptors[postInfo().violation!].title}
+                            {postViolationDescriptors[violation].title}
                           </>
                         )
                       : undefined,
                     link: postInfo().violation
-                      ? postsRoute.createUrl({ managerName: 'rejects', violation: postInfo().violation })
+                      ? postsRoute.createUrl({ managerName: 'rejects', violation: violation })
                       : undefined,
-                  },
+                  })),
                 ]}
               />
 
