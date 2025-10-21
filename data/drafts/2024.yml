@@ -77,7 +77,7 @@ kayracik.2024-09-05-20-09-00:
 natty.2024-03-10-12-44-23:
   content: store:/inbox/natty.2024-03-10-12-44-23.1.png
   trash: store:/inbox/natty.2024-03-10-12-44-23.png
-  type: shot
+  type: outtakes
   author: natty
 natty.2024-03-10-16-08-11:
   content: store:/inbox/natty.2024-03-10-16-08-11.png
@@ -99,4 +99,7 @@ vladyslav-zhuk.2024-05-20-d3c543d1:
     - store:/inbox/vladyslav-zhuk.2024-05-20-d3c543d1.png
   type: outtakes
   author: vladyslav-zhuk
-  violation: jpeg-artifacts
+  violation:
+    - jpeg-artifacts
+    - non-vanilla-look
+    - no-anti-aliasing

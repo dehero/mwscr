@@ -3,6 +3,22 @@ anonimous.2025-09-08-07-50-37:
   titleRu: Тест
   content: https://mwscr.dehero.site/uploads/e1aa8d49a3c693d6adaf4146d7ebf135.png
   type: shot
+anonimous.2025-10-21-10-55-14:
+  title: Outtakes
+  titleRu: Невошедшее
+  description: >-
+    Dear followers! A new type of materials has appeared in the Extra section of the project - "Outtakes". It will
+    publish selections of 3 interesting screenshots that did not make it to a separate post, or violate the rules of the
+    main project feed. It will also publish some previously rejected screenshots. The first such post will appear today.
+    [Submit your screenshots] (https://mwscr.dehero.site/#post-proposal) — it is much easier to get into this section.
+  descriptionRu: >-
+    Дорогие подписчики! В дополнительных материалах проекта появилась новая рубрика — "Невошедшее". В ней будут
+    публиковаться подборки из 3 интересных скриншотов, которые недотянули до отдельного поста, или нарушают правила
+    основной ленты проекта. В её рамках будут опубликованы и некоторые отвергнутые ранее скриншоты. Первый такой пост
+    появится уже сегодня. [Предлагайте свои скриншоты] (https://mwscr.dehero.site/#post-proposal) — в эту рубрику
+    попасть гораздо проще.
+  type: news
+  author: dehero
 arseniy-dyak.2025-04-17-resque-of-tarhiel:
   title: Resque of Tarhiel
   titleRu: Спасение Тархиеля
@@ -96,7 +112,7 @@ dehero.2025-06-01-15-06-11:
   author: dehero
 dehero.2025-06-01-15-17-14:
   content: store:/inbox/dehero.2025-06-01-15-17-14.png
-  type: shot
+  type: outtakes
   author: dehero
 dehero.2025-06-01-15-22-03:
   placement: Indoors
@@ -250,6 +266,9 @@ kaltesblut.2025-09-30-morrowind-19-13-59-306-057fd61f:
   content: store:/inbox/kaltesblut.2025-09-30-morrowind-19-13-59-306-057fd61f.png
   type: outtakes
   author: kaltesblut
+  violation:
+    - non-vanilla-look
+    - no-anti-aliasing
 ohsweetnazareth.2025-02-20-ash-statue-in-maran-adon:
   title: Ash Statue in Maran-Adon
   location: Maran-Adon
@@ -264,7 +283,9 @@ ohsweetnazareth.2025-03-11-within-the-house-of-earthly-delights-suran-6744e791:
     - store:/inbox/ohsweetnazareth.2025-03-11-within-the-house-of-earthly-delights-suran-6744e791.png
   type: outtakes
   author: ohsweetnazareth
-  violation: no-anti-aliasing
+  violation:
+    - no-anti-aliasing
+    - non-vanilla-look
 ohsweetnazareth.2025-03-13-evening-at-ald-sotha-57687677:
   title: Evening at Ald Sotha
   content:
