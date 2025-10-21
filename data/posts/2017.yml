@@ -12924,15 +12924,30 @@
       id: DQFNNE9jOsM
       mediaId: '17862019473507307'
       published: 2025-10-21-18-28-42
+      updated: 2025-10-21-19-16-37
       followers: 1585
+      likes: 15
+      comments: !c |-
+        G2wAkJwJtk2KfOSyM4+NliiRq2+bYzam73p2CTosSAt8jd+djVUKUQ3WCagHXHwg0qhUYp5TDi1r
+        HgZalB5/dZ98ceAY1rguD54/sr9LOA5iiWDi26KOLtqzG3RpQoZLITk=
     - service: vk
       id: 2754
       published: 2025-10-21-18-28-48
+      updated: 2025-10-21-19-16-31
       followers: 1474
+      likes: 2
+      views: 14
     - service: tg
       id: 1023
       published: 2025-10-21-18-28-52
+      updated: 2025-10-21-19-16-51
       followers: 839
+      likes: 30
+      views: 79
+      comments: !c |-
+        Cz2Ak5PLQnmggkwdAACqYTItZW5rZWxsadkjSGUgZ290IHRoYXQgbXVkY3JhYiB2aWJlIGluIGhp
+        bSBuZ2yTy0J5oID+X4AAsXYtdm9uZGVyZnVsLXdvcmxkqFRIRSBHT0FUk8tCeaCAiLKAAKtnb29z
+        ZXZpY2g3NqTwn6SpAw==
 2017-10-22-mushroom-field:
   title: Mushroom Field
   titleRu: Грибное поле
@@ -13102,24 +13117,24 @@
       id: DP65sTZDmWC
       mediaId: '18381877891178063'
       published: 2025-10-17-18-25-48
-      updated: 2025-10-20-18-29-12
+      updated: 2025-10-21-19-16-41
       followers: 1586
-      likes: 56
+      likes: 61
     - service: vk
       id: 2745
       published: 2025-10-17-18-26-01
-      updated: 2025-10-20-18-29-19
+      updated: 2025-10-21-19-16-34
       followers: 1467
-      likes: 52
-      views: 856
+      likes: 60
+      views: 900
       reposts: 2
     - service: tg
       id: 1019
       published: 2025-10-17-18-26-04
-      updated: 2025-10-20-18-29-16
+      updated: 2025-10-21-19-16-55
       followers: 834
-      likes: 70
-      views: 277
+      likes: 71
+      views: 325
       comments: !c |-
         iyOAkpPLQnmfOdASgACqYTItZW5rZWxsabZubyBjcmFicyB0b2RheSBpIGd1ZXNzk8tCeZ85d7GA
         AKtrYXdhemFreTIyM6Twn6eQAw==
