@@ -92,7 +92,7 @@ a2-enkelli:
   profiles:
     - service: tg
       id: '7258424423'
-      updated: 2025-10-21-21-18-03
+      updated: 2025-10-21-22-19-45
       accessHash: '969825927170686844'
       username: A2_Enkelli
       name: †† elli ††
@@ -447,7 +447,7 @@ ansis:
   profiles:
     - service: tg
       id: '517050552'
-      updated: 2025-10-21-21-18-06
+      updated: 2025-10-21-22-19-48
       accessHash: '5231096655311395455'
       username: ansis
       name: ansis
@@ -2040,7 +2040,7 @@ golden-morgan:
   profiles:
     - service: vk
       id: '157461309'
-      updated: 2025-10-21-13-33-50
+      updated: 2025-10-21-22-19-46
       username: golden_morgan
       name: Marco Polo
       avatar: store:/avatars/vk-f7f43d22.jpg
@@ -2048,7 +2048,7 @@ goosevich76:
   profiles:
     - service: tg
       id: '5385620621'
-      updated: 2025-10-21-21-18-00
+      updated: 2025-10-21-22-19-50
       accessHash: '-7130473396589324830'
       username: horwwwaty
       name: choven
@@ -2676,7 +2676,7 @@ kawazaky223:
   profiles:
     - service: tg
       id: '5641856113'
-      updated: 2025-10-21-21-18-06
+      updated: 2025-10-21-22-19-50
       accessHash: '7421309771527577818'
       username: Kawazaky223
       name: Максим
@@ -3525,7 +3525,7 @@ neulovimiy-djo:
   profiles:
     - service: vk
       id: '40753227'
-      updated: 2025-10-14-22-18-25
+      updated: 2025-10-21-22-19-47
       username: neulovimiy_djo
       name: Иван Чернозём
       avatar: store:/avatars/vk-7870da4f.jpg
@@ -5531,7 +5531,7 @@ v-vonderful-world:
   profiles:
     - service: tg
       id: '150947892'
-      updated: 2025-10-21-21-18-00
+      updated: 2025-10-21-22-19-43
       accessHash: '-5337457668406607581'
       username: VVonderfulWorld
       name: 𝔑𝔬𝔵
