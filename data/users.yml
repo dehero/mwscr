@@ -92,7 +92,7 @@ a2-enkelli:
   profiles:
     - service: tg
       id: '7258424423'
-      updated: 2025-10-21-19-16-58
+      updated: 2025-10-21-20-22-24
       accessHash: '969825927170686844'
       username: A2_Enkelli
       name: †† elli ††
@@ -447,7 +447,7 @@ ansis:
   profiles:
     - service: tg
       id: '517050552'
-      updated: 2025-10-20-09-23-31
+      updated: 2025-10-21-20-22-28
       accessHash: '5231096655311395455'
       username: ansis
       name: ansis
@@ -505,7 +505,7 @@ artem-petrov:
   profiles:
     - service: vk
       id: '4238605'
-      updated: 2025-10-20-21-17-55
+      updated: 2025-10-21-20-22-28
       username: id4238605
       name: Артем Петров
       avatar: store:/avatars/vk-77942374.jpg
@@ -537,7 +537,7 @@ artyom-melikhoff:
   profiles:
     - service: vk
       id: '299405149'
-      updated: 2025-10-20-20-22-01
+      updated: 2025-10-21-20-22-24
       username: artyom_melikhoff
       name: Артём Мелихов
       avatar: store:/avatars/vk-4c16e471.jpg
@@ -1989,7 +1989,7 @@ gleb-zheltuhin:
   profiles:
     - service: vk
       id: '29014473'
-      updated: 2025-10-20-20-22-04
+      updated: 2025-10-21-20-22-30
       username: gleb_zheltuhin
       name: Глеб Желтухин
       avatar: store:/avatars/vk-971eefc1.jpg
@@ -2048,7 +2048,7 @@ goosevich76:
   profiles:
     - service: tg
       id: '5385620621'
-      updated: 2025-10-21-19-16-51
+      updated: 2025-10-21-20-22-21
       accessHash: '-7130473396589324830'
       username: horwwwaty
       name: choven
@@ -2676,7 +2676,7 @@ kawazaky223:
   profiles:
     - service: tg
       id: '5641856113'
-      updated: 2025-10-21-19-16-56
+      updated: 2025-10-21-20-22-28
       accessHash: '7421309771527577818'
       username: Kawazaky223
       name: Максим
@@ -4451,7 +4451,7 @@ sergey-b-2:
   profiles:
     - service: vk
       id: '1077446394'
-      updated: 2025-10-20-21-17-52
+      updated: 2025-10-21-20-22-30
       username: id1077446394
       name: Сергей Б
       avatar: store:/avatars/vk-12075792.jpg
@@ -5531,7 +5531,7 @@ v-vonderful-world:
   profiles:
     - service: tg
       id: '150947892'
-      updated: 2025-10-21-19-16-46
+      updated: 2025-10-21-20-22-21
       accessHash: '-5337457668406607581'
       username: VVonderfulWorld
       name: 𝔑𝔬𝔵
