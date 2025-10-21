@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file.
 
+## [2.10.0](https://github.com/dehero/mwscr/compare/v2.9.1...v2.10.0) (2025-10-21)
+
+### Features
+
+- allow multiple violations per post
+  ([bd2ba3c](https://github.com/dehero/mwscr/commit/bd2ba3c259ebf566b1b0dfc8344283a484aef6f9))
+
 ## [2.9.1](https://github.com/dehero/mwscr/compare/v2.9.0...v2.9.1) (2025-10-20)
 
 ### Bug Fixes
