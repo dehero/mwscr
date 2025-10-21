@@ -63,10 +63,8 @@ body:
     id: postViolation
     attributes:
       label: Violation
-      placeholder: >-
-        inappropriate-content jpeg-artifacts graphic-issues no-anti-aliasing
-        non-vanilla-look uses-mods ui-visible unreachable-resource
-        unsupported-resource
+      description: List of violations
+      render: txt
   - type: textarea
     id: postTrash
     attributes:
