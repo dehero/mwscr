@@ -74,7 +74,7 @@
     - service: vk
       id: 2129
       published: 2025-02-13-18-17-15
-      updated: 2025-10-15-22-20-36
+      updated: 2025-10-22-23-13-25
       followers: 1069
       likes: 60
       views: 529
@@ -82,7 +82,7 @@
     - service: tg
       id: 706
       published: 2025-02-13-18-17-22
-      updated: 2025-10-15-22-19-30
+      updated: 2025-10-22-23-12-05
       followers: 676
       likes: 67
       views: 559
@@ -184,7 +184,7 @@
     - service: vk
       id: 2226
       published: 2025-03-26-18-12-43
-      updated: 2025-10-15-22-19-35
+      updated: 2025-10-22-23-12-20
       followers: 1213
       likes: 81
       views: 647
@@ -206,7 +206,7 @@
         - 764
         - 765
       published: 2025-03-26-18-13-07
-      updated: 2025-10-15-22-18-46
+      updated: 2025-10-22-23-11-19
       followers: 710
       likes: 62
       views: 764
@@ -458,7 +458,7 @@
     - service: vk
       id: 2077
       published: 2025-01-22-18-11-15
-      updated: 2025-10-15-22-21-12
+      updated: 2025-10-22-23-14-03
       followers: 1054
       likes: 38
       views: 350
@@ -471,10 +471,10 @@
     - service: tg
       id: 678
       published: 2025-01-22-18-11-24
-      updated: 2025-10-15-22-19-51
+      updated: 2025-10-22-23-12-23
       followers: 655
       likes: 67
-      views: 585
+      views: 586
 2022-07-02-niras-farys-priest:
   title: Niras Farys, Priest
   titleRu: Нирас Фарис, священник
@@ -611,7 +611,7 @@
     - service: vk
       id: 2165
       published: 2025-03-02-18-10-15
-      updated: 2025-10-15-22-20-10
+      updated: 2025-10-22-23-12-55
       followers: 1153
       likes: 66
       views: 590
@@ -624,7 +624,7 @@
         - 731
         - 732
       published: 2025-03-02-18-10-35
-      updated: 2025-10-15-22-19-15
+      updated: 2025-10-22-23-11-37
       followers: 687
       likes: 68
       views: 1050
@@ -680,14 +680,14 @@
     - service: tg
       id: 726
       published: 2025-02-27-18-13-32
-      updated: 2025-10-15-22-19-17
+      updated: 2025-10-22-23-11-50
       followers: 686
       likes: 59
       views: 591
     - service: vk
       id: 2153
       published: 2025-02-27-19-01-40
-      updated: 2025-10-15-22-20-14
+      updated: 2025-10-22-23-13-01
       followers: 1143
       likes: 36
       views: 586
@@ -1011,16 +1011,15 @@
         - 653
         - 654
       published: 2025-01-05-18-10-40
-      updated: 2025-10-15-22-20-14
+      updated: 2025-10-22-23-12-38
       followers: 644
       likes: 78
       views: 1154
       comments: !c |-
-        GzYBQOTvx9VPcWc7mKi6IcGIRCJPDoXvxwNDuZ1+ZjvQ4XSqM1xX0A8w2kVx512OJRhbesPf7UBS
-        aiY+2ajfiyLie1USoYU/4NCQbGaN84UNNbiDSwLOwAVc4+w+YlzCCZzKgtIvcAXXcIAzcIvzcBny
-        xYnxK422Rovd4na7giRLwGuxbPa9cu43XfztZv8uyg1DVU9F3s+Jft555gjP0YD3RQYHdH3HWZzn
-        +zdPaBtc8+l8gXM4wIHm15d/leQNfuxj9V+dRnOHy2myG7yWF1aFClyy+iTcnCdbELs7LE4TEb/F
-        vtcZAg==
+        G8IAIIzEOIZyWe7EIJ/v1CPMi0dh7AEYsNBsSeY/DHWAdNqlUpSVpYEnPHQsKgp0/dggb/Lnr5MT
+        PRi2WkkWYJhQzGmCsQVuw1/wlvAJFj05TTeU45c0hKxRbPOcqfHOCRHxYGeowIaTyodE7Zgwq2H6
+        ggMnKhW4qcI+82Bib06uim7pnucmnB4Hun75iht/3Pyy/G8uifDTabFdR7XkQD9BXWMXLisQq2em
+        s6uWuqOyMEWONAM=
 2022-07-12-leaving-holamayan:
   title: Leaving Holamayan
   titleRu: Покидая Холамаян
@@ -1202,10 +1201,10 @@
     - service: vk
       id: 2350
       published: 2025-05-11-18-23-47
-      updated: 2025-10-15-22-18-32
+      updated: 2025-10-22-23-11-08
       followers: 1292
       likes: 51
-      views: 521
+      views: 523
       reposts: 2
       comments: !c |-
         G8cA4ByHcSyy8PJqIAwhnvBvn/DmpZhlCScl0lZkyTuigtpcCdEQF+oxJ/zEd+rmmw/Q/4pw21o2
@@ -1215,7 +1214,7 @@
     - service: tg
       id: 838
       published: 2025-05-11-18-23-53
-      updated: 2025-10-15-22-18-02
+      updated: 2025-10-22-23-10-32
       followers: 738
       likes: 63
       views: 603
@@ -1738,16 +1737,16 @@
       id: DNQ9FpnMEuC
       mediaId: '18125731516461672'
       published: 2025-08-12-18-24-34
-      updated: 2025-10-15-22-16-44
+      updated: 2025-10-22-23-09-25
       followers: 1574
       likes: 56
     - service: vk
       id: 2573
       published: 2025-08-12-18-24-42
-      updated: 2025-10-15-22-16-49
+      updated: 2025-10-22-23-09-23
       followers: 1362
       likes: 43
-      views: 481
+      views: 491
       reposts: 4
       comments: !c |-
         G8QAKBwHbizZCKn71i944k8NR+jiuQ8a4jnbLdqKlYoFGvsd1vKWulI1tWk/32RV+lBueLPZSeId
@@ -1756,10 +1755,10 @@
     - service: tg
       id: 949
       published: 2025-08-12-18-24-47
-      updated: 2025-10-15-22-16-49
+      updated: 2025-10-22-23-09-26
       followers: 776
-      likes: 64
-      views: 634
+      likes: 65
+      views: 642
       comments: !c iw2AkZPLQnmKHWWOAACra2F3YXpha3kyMjOk8J+knQM=
 2022-07-29-sunset-cypresses:
   title: Sunset Cypresses

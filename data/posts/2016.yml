@@ -92,10 +92,10 @@
     - service: vk
       id: 2312
       published: 2025-04-28-18-25-04
-      updated: 2025-10-15-22-18-49
+      updated: 2025-10-22-23-11-33
       followers: 1274
       likes: 72
-      views: 508
+      views: 510
       reposts: 1
       comments: !c |-
         G4YBABwHTtm8gPMIrp76EUJz0iui4sTnCJ0GYpQAh0slaUTa6UwJKnugGTrXVEdFBTiTqI/GSr4M
@@ -107,15 +107,15 @@
     - service: tg
       id: 821
       published: 2025-04-28-18-25-09
-      updated: 2025-10-15-22-18-17
+      updated: 2025-10-22-23-10-47
       followers: 726
       likes: 81
-      views: 659
+      views: 660
       comments: !c |-
-        GykBIBwHdpMPbL57lMMyEz0fN4owkD5TYZBwYE0U6ck+spu4WSglENlY3Ma5NBsU7QHaZf2oBTib
-        HXFA3q6laWAtat4Wa/DzV3p83RhWQ/rh4BDB9b5/8EVDzC4DX4LLV6nGpgyi/sV2dSASeGZpglnv
-        PM08MxgAheozo1K+CGB5Q/vzPndmTTY7sp2peet9Tz+cKUWp87xpDdYhNSX1s4AHmdVpy7c6sQQ6
-        gK8u6ymrs2gc7B3TdE6b04od0GF4F7CbTWlZBsfsMzMllXvtxCP6J/ED
+        GxMBACwObCc0ME0obunnUpGyRqh0/iFvIxzIxpZJgXVRpMn7ZOncSio6R7IykMnOuKGqcyNnUyO1
+        /wTcYKNaiqk79WQxvcaPaMxGrlIzky4gCzo5cGkHuVDh53ksgQSecVgSiAY7YGdyaTh2zutbLX8X
+        xnt4IS2UPm8XcrNRXfJDNHKejefiZv8XCFK3MVVzypMbY5Oq+x+bjkgxMdwTQFUDYgPCnp69gJYq
+        3Oa1BUeFgAkoE8b9I+kWpdB7k0aBV83F/Ovc
 2016-11-20-3-molag-amur:
   title: Molag Amur
   titleRu: Молаг Амур
@@ -165,7 +165,7 @@
     - service: tg
       id: 609
       published: 2024-11-28-18-10-52
-      updated: 2025-10-15-22-20-51
+      updated: 2025-10-22-23-13-24
       followers: 578
       likes: 59
       views: 703
@@ -647,7 +647,7 @@
     - service: tg
       id: 597
       published: 2024-11-16-18-09-47
-      updated: 2025-10-15-22-21-04
+      updated: 2025-10-22-23-13-37
       followers: 573
       likes: 71
       views: 738
@@ -687,10 +687,10 @@
     - service: vk
       id: 2282
       published: 2025-04-16-18-22-11
-      updated: 2025-10-15-22-19-03
+      updated: 2025-10-22-23-11-45
       followers: 1261
       likes: 75
-      views: 547
+      views: 549
       reposts: 2
       comments: !c |-
         G3MA+C0SzNOZIrBxyzn4pCAU2IEHFAjFAZdQxMkOdTWlBCks4wLeP73ICyTQyOLa2rKs//L9dMAX
@@ -698,7 +698,7 @@
     - service: tg
       id: 797
       published: 2025-04-16-18-22-22
-      updated: 2025-10-15-22-18-25
+      updated: 2025-10-22-23-10-57
       followers: 720
       likes: 61
       views: 596
@@ -747,7 +747,7 @@
     - service: tg
       id: 627
       published: 2024-12-16-18-11-52
-      updated: 2025-10-15-22-20-32
+      updated: 2025-10-22-23-13-01
       followers: 581
       likes: 79
       views: 731
@@ -905,7 +905,7 @@
     - service: tg
       id: 624
       published: 2024-12-13-18-11-26
-      updated: 2025-10-15-22-20-35
+      updated: 2025-10-22-23-13-13
       followers: 580
       likes: 64
       views: 657
@@ -1350,10 +1350,10 @@
     - service: vk
       id: 2470
       published: 2025-06-17-18-28-43
-      updated: 2025-10-15-22-17-27
+      updated: 2025-10-22-23-09-56
       followers: 1327
       likes: 56
-      views: 443
+      views: 445
       reposts: 1
       comments: !c |-
         G50BwCwO7DYfCzGx5eSX1XoyxD/vn0j68qlNWsEilajpBEY+OZd8Oqc+z2mWPUfRMplALW8xCYUm
@@ -1364,7 +1364,7 @@
     - service: tg
       id: 888
       published: 2025-06-17-18-28-46
-      updated: 2025-10-15-22-17-23
+      updated: 2025-10-22-23-09-46
       followers: 749
       likes: 65
       views: 584
