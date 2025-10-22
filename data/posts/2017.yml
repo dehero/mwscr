@@ -12924,7 +12924,7 @@
       id: DQFNNE9jOsM
       mediaId: '17862019473507307'
       published: 2025-10-21-18-28-42
-      updated: 2025-10-22-03-10-59
+      updated: 2025-10-22-04-22-52
       followers: 1585
       likes: 40
       comments: !c |-
@@ -12933,17 +12933,20 @@
     - service: vk
       id: 2754
       published: 2025-10-21-18-28-48
-      updated: 2025-10-22-03-10-52
+      updated: 2025-10-22-04-22-54
       followers: 1474
-      likes: 20
-      views: 158
+      likes: 23
+      views: 200
+      comments: !c |-
+        CySAkZPLQnmgoNFYgACxYW5kcmV5LXlhcHJpbnRzZXbZKtCf0YDQtdC60YDQsNGB0L3Ri9C5INC7
+        0LXRgtC90LjQuSDQtNC10L3RjAM=
     - service: tg
       id: 1023
       published: 2025-10-21-18-28-52
-      updated: 2025-10-22-03-10-58
+      updated: 2025-10-22-04-23-14
       followers: 839
-      likes: 49
-      views: 142
+      likes: 53
+      views: 147
       comments: !c |-
         Cz2Ak5PLQnmggkwdAACqYTItZW5rZWxsadkjSGUgZ290IHRoYXQgbXVkY3JhYiB2aWJlIGluIGhp
         bSBuZ2yTy0J5oID+X4AAsXYtdm9uZGVyZnVsLXdvcmxkqFRIRSBHT0FUk8tCeaCAiLKAAKtnb29z
