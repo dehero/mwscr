@@ -92,7 +92,7 @@ a2-enkelli:
   profiles:
     - service: tg
       id: '7258424423'
-      updated: 2025-10-22-19-14-16
+      updated: 2025-10-22-20-13-16
       accessHash: '969825927170686844'
       username: A2_Enkelli
       name: †† elli ††
@@ -407,7 +407,7 @@ andrey-yaprintsev:
   profiles:
     - service: vk
       id: '599320069'
-      updated: 2025-10-22-19-14-13
+      updated: 2025-10-22-20-13-08
       username: id599320069
       name: Андрей Япринцев
       avatar: store:/avatars/vk-4e415fa2.jpg
@@ -447,7 +447,7 @@ ansis:
   profiles:
     - service: tg
       id: '517050552'
-      updated: 2025-10-22-19-14-14
+      updated: 2025-10-22-20-13-10
       accessHash: '5231096655311395455'
       username: ansis
       name: ansis
@@ -2056,7 +2056,7 @@ goosevich76:
   profiles:
     - service: tg
       id: '5385620621'
-      updated: 2025-10-22-19-14-14
+      updated: 2025-10-22-20-13-11
       accessHash: '-7130473396589324830'
       username: horwwwaty
       name: choven
@@ -2684,7 +2684,7 @@ kawazaky223:
   profiles:
     - service: tg
       id: '5641856113'
-      updated: 2025-10-22-19-14-24
+      updated: 2025-10-22-20-13-14
       accessHash: '7421309771527577818'
       username: Kawazaky223
       name: Максим
@@ -2742,6 +2742,14 @@ knives-out:
       username: id270989157
       name: Knives Out
       avatar: store:/avatars/vk-0013054f.jpg
+kokoc-999:
+  profiles:
+    - service: vk
+      id: '195199347'
+      updated: 2025-10-22-20-13-17
+      username: kokoc_999
+      name: Сергей Балконский
+      avatar: store:/avatars/vk-2ef461b9.jpg
 konst-mk:
   profiles:
     - service: ig
@@ -3162,7 +3170,7 @@ mbdtsmo:
   profiles:
     - service: tg
       id: '5093097514'
-      updated: 2025-10-22-19-14-14
+      updated: 2025-10-22-20-13-10
       accessHash: '-613358669572386334'
       username: mbdtsmo
       name: M Bdtsmo
@@ -3865,7 +3873,7 @@ peteevandrew:
   profiles:
     - service: vk
       id: '307619379'
-      updated: 2025-10-22-19-14-13
+      updated: 2025-10-22-20-13-09
       username: peteevandrew
       name: Андрей Петеев
       avatar: store:/avatars/vk-d3f26d8e.jpg
@@ -5539,7 +5547,7 @@ v-vonderful-world:
   profiles:
     - service: tg
       id: '150947892'
-      updated: 2025-10-22-19-14-14
+      updated: 2025-10-22-20-13-11
       accessHash: '-5337457668406607581'
       username: VVonderfulWorld
       name: 𝔑𝔬𝔵
