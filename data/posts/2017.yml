@@ -783,16 +783,16 @@
       id: DQH3R7LEQUG
       mediaId: '18295437574283457'
       published: 2025-10-22-19-14-52
-      updated: 2025-10-23-04-12-55
+      updated: 2025-10-23-05-11-09
       followers: 1586
       likes: 39
     - service: vk
       id: 2761
       published: 2025-10-22-19-14-58
-      updated: 2025-10-23-04-12-54
+      updated: 2025-10-23-05-11-11
       followers: 1478
-      likes: 19
-      views: 193
+      likes: 24
+      views: 256
       comments: !c |-
         G4wAaI3EOIZyWS5FBGG7EQ5o6EGYZAl2gQSYePK/eOolr0gN3u6xpDyR6/cJD2xNiCLBgAU8ZLle
         sskCi30+W/dvCcRrM8pdm45uKVO6nH8uFR2XgQcDvbyoREjPAeOHg4crBTpR5OJRC8xqi0pKXjqR
@@ -800,13 +800,14 @@
     - service: tg
       id: 1024
       published: 2025-10-22-19-15-03
-      updated: 2025-10-23-04-12-55
+      updated: 2025-10-23-05-11-10
       followers: 840
-      likes: 40
-      views: 399
+      likes: 42
+      views: 415
       comments: !c |-
-        CzOAkpPLQnmg1exRAACqYTItZW5rZWxsadk0SXRzIHRoZSBmdXJ0aGVzdCB0aGluZyBmcm9tIGEg
-        bXVkY3JhYiB0aGF0IGl0IGNhbiBiZZPLQnmg1Y1YgACrZ29vc2V2aWNoNzak8J+kqQM=
+        G5gAgGXgnCMcyKvwt+Ptuuw3HSQ6qMDPqadqp5xogXGQQDtJIBrfA66SEMphTKfWjmD9b7OHgQ7E
+        K5TSftUyM4Df/LSMGMgPhSAmqNcbusd85bmKkY/NzQUAQ0ivwngGY1nqYHR6FNBDYmARQRQPuMmq
+        IZDzoogMwfHIJkmfm4j7CEF4EdAIaTG3X7X2AA==
 2017-01-22-1-rain-rain-everywhere:
   title: Rain, Rain Everywhere
   titleRu: Дождь, дождь повсюду
@@ -10425,10 +10426,10 @@
     - service: vk
       id: 2560
       published: 2025-08-06-18-25-35
-      updated: 2025-10-16-04-22-20
+      updated: 2025-10-23-05-11-16
       followers: 1360
       likes: 43
-      views: 437
+      views: 444
       reposts: 1
     - service: tg
       id: 943
@@ -12951,7 +12952,7 @@
       id: DQFNNE9jOsM
       mediaId: '17862019473507307'
       published: 2025-10-21-18-28-42
-      updated: 2025-10-23-04-12-58
+      updated: 2025-10-23-05-11-12
       followers: 1585
       likes: 53
       comments: !c |-
@@ -12960,10 +12961,10 @@
     - service: vk
       id: 2754
       published: 2025-10-21-18-28-48
-      updated: 2025-10-23-04-12-57
+      updated: 2025-10-23-05-11-14
       followers: 1474
       likes: 48
-      views: 933
+      views: 981
       comments: !c |-
         G8EAIBwHdiyz8HB04MYuiuhGev6pBBZRUKJJwsksaCBzM+RoilrMDNQhjGt5a92mFCWJbK4KGPv2
         PzNB6Jja6OT0WBYYtn1LINESybmE8oA7p6Gk3XV/hu7Ncnv3GBJIky+6Z9SvnNgRMUlUy7vSOZXH
@@ -12971,15 +12972,15 @@
     - service: tg
       id: 1023
       published: 2025-10-21-18-28-52
-      updated: 2025-10-23-04-12-58
+      updated: 2025-10-23-05-11-13
       followers: 839
-      likes: 68
-      views: 245
+      likes: 69
+      views: 248
       comments: !c |-
-        G90AQIyUbsK8kzV9ZZpcU0ukmYR5uGdQBVUPpIAGqlMTfkLVmeXXJ7wbHGgYoC+8yG+zDPzjCLuN
-        PadbxOmQoM1m9VcKTr/7OUHcSdUSrHdsiZGcDriZiNARFPRIE2Egk7aNZhQsh5bQDBtgenw+FYqx
-        LUV7NRQlHs8kcRUXnVDni0zHUJVQloV3pIHAaXZ1qhWHoU2SAlegEOiAFxRQORmD2b8Z8XJjrqYy
-        aLKOHIsePyaNKtT7xYkMyx/95jTtKQFL84X87W6f
+        G/gAYORiTqMrfO8CusCayQe/QKTqAVDBSPgJVeNGem9cvowD+qJfA982y8CPo4y7jT2nW4N6jQhc
+        DbqfmtLq78BDkGuELtBlOlKSSmW7r+XoodHHqBX2dDwTyjwFNxrJU4GXNABqC8WgQKcBdUXpbBbS
+        CfclAmmsHhuT4zHGcNlMLHEzxWJCYbcsNFHbxu9caKkA4hGIRkNPwgRoIJFdqupYjmPTNIPmQwyg
+        NDQYiqGA6KD5TzaRW16QT8Q5SPtzUcFQ8eQz6VGjU+1zYeeu10AiEVfAs0GVcve13J0B
 2017-10-22-mushroom-field:
   title: Mushroom Field
   titleRu: Грибное поле
