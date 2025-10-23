@@ -92,7 +92,7 @@ a2-enkelli:
   profiles:
     - service: tg
       id: '7258424423'
-      updated: 2025-10-23-19-09-47
+      updated: 2025-10-23-20-11-52
       accessHash: '969825927170686844'
       username: A2_Enkelli
       name: †† elli ††
@@ -447,7 +447,7 @@ ansis:
   profiles:
     - service: tg
       id: '517050552'
-      updated: 2025-10-23-19-09-47
+      updated: 2025-10-23-20-11-54
       accessHash: '5231096655311395455'
       username: ansis
       name: ansis
@@ -545,7 +545,7 @@ artyom-melikhoff:
   profiles:
     - service: vk
       id: '299405149'
-      updated: 2025-10-23-19-09-46
+      updated: 2025-10-23-20-11-46
       username: artyom_melikhoff
       name: Артём Мелихов
       avatar: store:/avatars/vk-4c16e471.jpg
@@ -650,7 +650,7 @@ barl-zild:
   profiles:
     - service: vk
       id: '312072202'
-      updated: 2025-10-22-19-14-19
+      updated: 2025-10-23-20-11-49
       username: barl_zild
       name: Максим Сафонов
       avatar: store:/avatars/vk-40147995.jpg
@@ -1446,7 +1446,7 @@ dish-man:
   profiles:
     - service: vk
       id: '180745700'
-      updated: 2025-10-22-19-14-14
+      updated: 2025-10-23-20-11-48
       username: dish_man
       name: Станислав Беляев
       avatar: store:/avatars/vk-68b120ff.jpg
@@ -1820,7 +1820,7 @@ feanor2la:
   profiles:
     - service: vk
       id: '16294877'
-      updated: 2025-10-22-23-12-09
+      updated: 2025-10-23-20-11-48
       username: feanor2la
       name: Иван Урлапов
       avatar: store:/avatars/vk-9f79c7ac.jpg
@@ -2063,7 +2063,7 @@ goosevich76:
   profiles:
     - service: tg
       id: '5385620621'
-      updated: 2025-10-23-19-09-47
+      updated: 2025-10-23-20-11-49
       accessHash: '-7130473396589324830'
       username: horwwwaty
       name: choven
@@ -2691,7 +2691,7 @@ kawazaky223:
   profiles:
     - service: tg
       id: '5641856113'
-      updated: 2025-10-23-19-09-47
+      updated: 2025-10-23-20-11-53
       accessHash: '7421309771527577818'
       username: Kawazaky223
       name: Максим
@@ -2779,7 +2779,7 @@ konstantin-matrosov:
   profiles:
     - service: vk
       id: '93073669'
-      updated: 2025-10-22-23-10-00
+      updated: 2025-10-23-20-11-53
       username: id93073669
       name: Константин Матросов
       avatar: store:/avatars/vk-3b5e092e.jpg
@@ -3944,7 +3944,7 @@ pkellerman:
   profiles:
     - service: vk
       id: '11823909'
-      updated: 2025-10-23-02-29-18
+      updated: 2025-10-23-20-11-48
       username: pkellerman
       name: Антон Подлужный
       avatar: store:/avatars/vk-9bff06f8.jpg
