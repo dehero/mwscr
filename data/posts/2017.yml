@@ -783,7 +783,7 @@
       id: DQH3R7LEQUG
       mediaId: '18295437574283457'
       published: 2025-10-22-19-14-52
-      updated: 2025-10-24-17-10-10
+      updated: 2025-10-24-18-15-41
       followers: 1586
       likes: 69
       comments: !c |-
@@ -792,10 +792,10 @@
     - service: vk
       id: 2761
       published: 2025-10-22-19-14-58
-      updated: 2025-10-24-17-10-09
+      updated: 2025-10-24-18-15-44
       followers: 1478
-      likes: 50
-      views: 1618
+      likes: 51
+      views: 1670
       reposts: 1
       comments: !c |-
         GxEB0BwHzjkvYKPpk3cpREYR3Z7wgB490CjhEkgTT2Z1bikYepFgP2PMK3gtb92kqhRS9nvDfjZF
@@ -805,10 +805,10 @@
     - service: tg
       id: 1024
       published: 2025-10-22-19-15-03
-      updated: 2025-10-24-17-10-08
+      updated: 2025-10-24-18-15-42
       followers: 840
       likes: 59
-      views: 722
+      views: 725
       comments: !c |-
         G5gAgGXgnCMcyKvwt+Ptuuw3HSQ6qMDPqadqp5xogXGQQDtJIBrfA66SEMphTKfWjmD9b7OHgQ7E
         K5TSftUyM4Df/LSMGMgPhSAmqNcbusd85bmKkY/NzQUAQ0ivwngGY1nqYHR6FNBDYmARQRQPuMmq
@@ -9992,16 +9992,16 @@
       id: DMyFSkJsszB
       mediaId: '18043881608639484'
       published: 2025-07-31-18-39-54
-      updated: 2025-10-17-17-16-37
+      updated: 2025-10-24-18-15-43
       followers: 1572
       likes: 70
     - service: vk
       id: 2549
       published: 2025-07-31-18-40-00
-      updated: 2025-10-17-17-16-40
+      updated: 2025-10-24-18-15-46
       followers: 1358
       likes: 39
-      views: 1270
+      views: 1280
       reposts: 3
       comments: !c |-
         Cy+AkZPLQnmGIU0GAACwc2VyZ2V5LWNodXJiYW5vdtlB0KXRhdCwINGF0LDRhdCw0YXQsC4g0JTQ
@@ -10009,11 +10009,10 @@
     - service: tg
       id: 933
       published: 2025-07-31-18-40-06
-      updated: 2025-10-17-17-16-41
+      updated: 2025-10-24-18-15-45
       followers: 769
       likes: 64
-      views: 636
-      comments: !c iwuAkZPLQnmGScIzgACra2F3YXpha3kyMjOgAw==
+      views: 640
 2017-08-15-yagrum-bagarn-talks-to-uupse-fyr:
   title: Yagrum Bagarn Talks to Uupse Fyr
   titleRu: Ягрум Багарн беседует с Уупсой Фир
