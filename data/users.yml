@@ -92,7 +92,7 @@ a2-enkelli:
   profiles:
     - service: tg
       id: '7258424423'
-      updated: 2025-10-24-00-43-46
+      updated: 2025-10-24-02-17-37
       accessHash: '969825927170686844'
       username: A2_Enkelli
       name: †† elli ††
@@ -447,7 +447,7 @@ ansis:
   profiles:
     - service: tg
       id: '517050552'
-      updated: 2025-10-24-00-43-46
+      updated: 2025-10-24-02-17-36
       accessHash: '5231096655311395455'
       username: ansis
       name: ansis
@@ -545,7 +545,7 @@ artyom-melikhoff:
   profiles:
     - service: vk
       id: '299405149'
-      updated: 2025-10-24-00-43-45
+      updated: 2025-10-24-02-17-35
       username: artyom_melikhoff
       name: Артём Мелихов
       avatar: store:/avatars/vk-4c16e471.jpg
@@ -2063,7 +2063,7 @@ goosevich76:
   profiles:
     - service: tg
       id: '5385620621'
-      updated: 2025-10-24-00-43-47
+      updated: 2025-10-24-02-17-37
       accessHash: '-7130473396589324830'
       username: horwwwaty
       name: choven
@@ -2691,7 +2691,7 @@ kawazaky223:
   profiles:
     - service: tg
       id: '5641856113'
-      updated: 2025-10-24-00-43-48
+      updated: 2025-10-24-02-17-36
       accessHash: '7421309771527577818'
       username: Kawazaky223
       name: Максим
@@ -6041,7 +6041,7 @@ zuriz:
   profiles:
     - service: vk
       id: '41386909'
-      updated: 2025-10-22-23-10-28
+      updated: 2025-10-24-02-17-34
       username: zuriz
       name: Роман Зуризятинов
       avatar: store:/avatars/vk-2617f79c.jpg
