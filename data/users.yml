@@ -92,7 +92,7 @@ a2-enkelli:
   profiles:
     - service: tg
       id: '7258424423'
-      updated: 2025-10-24-19-08-52
+      updated: 2025-10-24-20-11-50
       accessHash: '969825927170686844'
       username: A2_Enkelli
       name: †† elli ††
@@ -447,7 +447,7 @@ ansis:
   profiles:
     - service: tg
       id: '517050552'
-      updated: 2025-10-24-19-08-52
+      updated: 2025-10-24-20-11-50
       accessHash: '5231096655311395455'
       username: ansis
       name: ansis
@@ -1304,7 +1304,7 @@ dehero:
       avatar: store:/avatars/gh-c8afe641.jpg
     - service: vk
       id: '3652910'
-      updated: 2025-10-24-19-08-48
+      updated: 2025-10-24-20-11-47
       username: dehero
       name: Антон Курьянов
       avatar: store:/avatars/vk-5356f76e.jpg
@@ -1324,7 +1324,7 @@ dehero:
     - type: channel
       service: tg
       id: '1264795946'
-      updated: 2025-10-24-00-43-49
+      updated: 2025-10-24-20-11-47
       accessHash: '-5789257269249675714'
       username: mwscr
       name: Morrowind Screenshots
@@ -2699,7 +2699,7 @@ kawazaky223:
   profiles:
     - service: tg
       id: '5641856113'
-      updated: 2025-10-24-19-08-52
+      updated: 2025-10-24-20-11-50
       accessHash: '7421309771527577818'
       username: Kawazaky223
       name: Максим
@@ -3552,7 +3552,7 @@ nerevarine:
   profiles:
     - service: tg
       id: '373264328'
-      updated: 2025-10-17-19-15-34
+      updated: 2025-10-24-20-11-50
       accessHash: '9078366854792939477'
       username: Nerevarine
       name: Otto Godblessed
@@ -3893,7 +3893,7 @@ peteevandrew:
   profiles:
     - service: vk
       id: '307619379'
-      updated: 2025-10-24-19-08-53
+      updated: 2025-10-24-20-11-47
       username: peteevandrew
       name: Андрей Петеев
       avatar: store:/avatars/vk-d3f26d8e.jpg
@@ -5576,7 +5576,7 @@ vail-astor-zkiy:
   profiles:
     - service: tg
       id: '1245638625'
-      updated: 2025-10-24-12-21-15
+      updated: 2025-10-24-20-11-47
       accessHash: '-6135365331334675689'
       name: Vail Astor'zkiy
 valeriy-zhmishenko:
@@ -6061,7 +6061,7 @@ zuriz:
   profiles:
     - service: vk
       id: '41386909'
-      updated: 2025-10-24-19-08-48
+      updated: 2025-10-24-20-11-46
       username: zuriz
       name: Роман Зуризятинов
       avatar: store:/avatars/vk-2617f79c.jpg
