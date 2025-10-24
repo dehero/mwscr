@@ -92,7 +92,7 @@ a2-enkelli:
   profiles:
     - service: tg
       id: '7258424423'
-      updated: 2025-10-24-20-11-50
+      updated: 2025-10-24-21-09-41
       accessHash: '969825927170686844'
       username: A2_Enkelli
       name: †† elli ††
@@ -447,7 +447,7 @@ ansis:
   profiles:
     - service: tg
       id: '517050552'
-      updated: 2025-10-24-20-11-50
+      updated: 2025-10-24-21-09-40
       accessHash: '5231096655311395455'
       username: ansis
       name: ansis
@@ -650,7 +650,7 @@ barl-zild:
   profiles:
     - service: vk
       id: '312072202'
-      updated: 2025-10-23-20-11-49
+      updated: 2025-10-24-21-09-50
       username: barl_zild
       name: Максим Сафонов
       avatar: store:/avatars/vk-40147995.jpg
@@ -1304,7 +1304,7 @@ dehero:
       avatar: store:/avatars/gh-c8afe641.jpg
     - service: vk
       id: '3652910'
-      updated: 2025-10-24-20-11-47
+      updated: 2025-10-24-21-09-41
       username: dehero
       name: Антон Курьянов
       avatar: store:/avatars/vk-5356f76e.jpg
@@ -1324,7 +1324,7 @@ dehero:
     - type: channel
       service: tg
       id: '1264795946'
-      updated: 2025-10-24-20-11-47
+      updated: 2025-10-24-21-09-38
       accessHash: '-5789257269249675714'
       username: mwscr
       name: Morrowind Screenshots
@@ -1446,7 +1446,7 @@ dish-man:
   profiles:
     - service: vk
       id: '180745700'
-      updated: 2025-10-23-20-11-48
+      updated: 2025-10-24-21-09-43
       username: dish_man
       name: Станислав Беляев
       avatar: store:/avatars/vk-68b120ff.jpg
@@ -1820,7 +1820,7 @@ feanor2la:
   profiles:
     - service: vk
       id: '16294877'
-      updated: 2025-10-23-20-11-48
+      updated: 2025-10-24-21-09-50
       username: feanor2la
       name: Иван Урлапов
       avatar: store:/avatars/vk-9f79c7ac.jpg
@@ -2699,7 +2699,7 @@ kawazaky223:
   profiles:
     - service: tg
       id: '5641856113'
-      updated: 2025-10-24-20-11-50
+      updated: 2025-10-24-21-09-40
       accessHash: '7421309771527577818'
       username: Kawazaky223
       name: Максим
@@ -3893,7 +3893,7 @@ peteevandrew:
   profiles:
     - service: vk
       id: '307619379'
-      updated: 2025-10-24-20-11-47
+      updated: 2025-10-24-21-09-41
       username: peteevandrew
       name: Андрей Петеев
       avatar: store:/avatars/vk-d3f26d8e.jpg
@@ -3956,7 +3956,7 @@ pkellerman:
   profiles:
     - service: vk
       id: '11823909'
-      updated: 2025-10-23-20-11-48
+      updated: 2025-10-24-21-09-43
       username: pkellerman
       name: Антон Подлужный
       avatar: store:/avatars/vk-9bff06f8.jpg
@@ -4864,6 +4864,14 @@ stellarshift69:
       username: stellarshift69
       name: b
       avatar: store:/avatars/ig-7cb9a2ad.jpg
+stellex:
+  profiles:
+    - service: vk
+      id: '37141641'
+      updated: 2025-10-24-21-09-50
+      username: stellex
+      name: Сергей Stellex
+      avatar: store:/avatars/vk-57e20787.jpg
 stevenbuitenhuis:
   profiles:
     - service: ig
@@ -5576,7 +5584,7 @@ vail-astor-zkiy:
   profiles:
     - service: tg
       id: '1245638625'
-      updated: 2025-10-24-20-11-47
+      updated: 2025-10-24-21-09-37
       accessHash: '-6135365331334675689'
       name: Vail Astor'zkiy
 valeriy-zhmishenko:
@@ -6061,7 +6069,7 @@ zuriz:
   profiles:
     - service: vk
       id: '41386909'
-      updated: 2025-10-24-20-11-46
+      updated: 2025-10-24-21-09-40
       username: zuriz
       name: Роман Зуризятинов
       avatar: store:/avatars/vk-2617f79c.jpg
