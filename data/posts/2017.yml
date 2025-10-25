@@ -6580,17 +6580,17 @@
       id: DNGpyNYs1F0
       mediaId: '17870239629333855'
       published: 2025-08-08-18-23-29
-      updated: 2025-10-18-03-28-24
+      updated: 2025-10-25-03-29-59
       followers: 1575
       likes: 61
       comments: !c CxaAkZPLQnmI9hV1AACud2FsdGVyLW55cXZpc3SyRmFudGFzdGljIPCflKXwn5mMAw==
     - service: vk
       id: 2563
       published: 2025-08-08-18-23-49
-      updated: 2025-10-18-02-55-01
+      updated: 2025-10-25-03-29-57
       followers: 1362
       likes: 26
-      views: 490
+      views: 498
       comments: !c |-
         G7sA+I3EOBZyaCoftoiiW4QbvQSecRzhiQaJv8wO3DTS8iygPIFz3uyc75t3D+g0GslgAw4EEsYC
         HG8f7FAlJm5mo4PljwKHx//SBksPYJLrUXWi70PM71ArvNKF9oas6t1DPt0tRby0UfNF0XS2+CK5
@@ -6598,11 +6598,10 @@
     - service: tg
       id: 945
       published: 2025-08-08-18-24-03
-      updated: 2025-10-18-02-55-01
+      updated: 2025-10-25-03-29-56
       followers: 773
       likes: 66
-      views: 601
-      comments: !c iwuAkZPLQnmJAezzgACra2F3YXpha3kyMjOgAw==
+      views: 608
 2017-05-23-equalizer:
   title: Equalizer
   titleRu: Эквалайзер
