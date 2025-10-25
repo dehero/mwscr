@@ -92,7 +92,7 @@ a2-enkelli:
   profiles:
     - service: tg
       id: '7258424423'
-      updated: 2025-10-25-07-09-59
+      updated: 2025-10-25-08-12-32
       accessHash: '969825927170686844'
       username: A2_Enkelli
       name: †† elli ††
@@ -447,7 +447,7 @@ ansis:
   profiles:
     - service: tg
       id: '517050552'
-      updated: 2025-10-25-07-09-59
+      updated: 2025-10-25-08-12-31
       accessHash: '5231096655311395455'
       username: ansis
       name: ansis
@@ -1304,7 +1304,7 @@ dehero:
       avatar: store:/avatars/gh-c8afe641.jpg
     - service: vk
       id: '3652910'
-      updated: 2025-10-25-07-10-00
+      updated: 2025-10-25-08-12-29
       username: dehero
       name: Антон Курьянов
       avatar: store:/avatars/vk-5356f76e.jpg
@@ -1324,7 +1324,7 @@ dehero:
     - type: channel
       service: tg
       id: '1264795946'
-      updated: 2025-10-25-07-09-58
+      updated: 2025-10-25-08-12-29
       accessHash: '-5789257269249675714'
       username: mwscr
       name: Morrowind Screenshots
@@ -2699,7 +2699,7 @@ kawazaky223:
   profiles:
     - service: tg
       id: '5641856113'
-      updated: 2025-10-25-05-09-57
+      updated: 2025-10-25-08-12-32
       accessHash: '7421309771527577818'
       username: Kawazaky223
       name: Максим
@@ -2729,7 +2729,7 @@ kevy-c:
   profiles:
     - service: tg
       id: '5067683234'
-      updated: 2025-10-25-07-09-57
+      updated: 2025-10-25-08-12-28
       accessHash: '-903667913374325979'
       username: Kevy_c
       name: Dash
@@ -3902,7 +3902,7 @@ peteevandrew:
   profiles:
     - service: vk
       id: '307619379'
-      updated: 2025-10-25-07-10-00
+      updated: 2025-10-25-08-12-29
       username: peteevandrew
       name: Андрей Петеев
       avatar: store:/avatars/vk-d3f26d8e.jpg
@@ -5203,7 +5203,7 @@ trupach:
   profiles:
     - service: tg
       id: '688773096'
-      updated: 2025-10-23-02-25-13
+      updated: 2025-10-25-08-12-27
       accessHash: '-8584863660369083930'
       username: trupach
       name: Trup4ch
@@ -5593,7 +5593,7 @@ vail-astor-zkiy:
   profiles:
     - service: tg
       id: '1245638625'
-      updated: 2025-10-25-07-09-57
+      updated: 2025-10-25-08-12-29
       accessHash: '-6135365331334675689'
       name: Vail Astor'zkiy
 valeriy-zhmishenko:
@@ -6078,7 +6078,7 @@ zuriz:
   profiles:
     - service: vk
       id: '41386909'
-      updated: 2025-10-25-07-10-00
+      updated: 2025-10-25-08-12-28
       username: zuriz
       name: Роман Зуризятинов
       avatar: store:/avatars/vk-2617f79c.jpg
