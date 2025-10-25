@@ -92,7 +92,7 @@ a2-enkelli:
   profiles:
     - service: tg
       id: '7258424423'
-      updated: 2025-10-25-18-13-22
+      updated: 2025-10-25-19-08-08
       accessHash: '969825927170686844'
       username: A2_Enkelli
       name: †† elli ††
@@ -447,7 +447,7 @@ ansis:
   profiles:
     - service: tg
       id: '517050552'
-      updated: 2025-10-25-18-13-22
+      updated: 2025-10-25-19-08-07
       accessHash: '5231096655311395455'
       username: ansis
       name: ansis
@@ -1324,7 +1324,7 @@ dehero:
     - type: channel
       service: tg
       id: '1264795946'
-      updated: 2025-10-25-18-13-20
+      updated: 2025-10-25-19-08-08
       accessHash: '-5789257269249675714'
       username: mwscr
       name: Morrowind Screenshots
@@ -2699,7 +2699,7 @@ kawazaky223:
   profiles:
     - service: tg
       id: '5641856113'
-      updated: 2025-10-25-18-13-21
+      updated: 2025-10-25-19-08-12
       accessHash: '7421309771527577818'
       username: Kawazaky223
       name: Максим
@@ -2729,7 +2729,7 @@ kevy-c:
   profiles:
     - service: tg
       id: '5067683234'
-      updated: 2025-10-25-18-13-19
+      updated: 2025-10-25-19-08-07
       accessHash: '-903667913374325979'
       username: Kevy_c
       name: Dash
@@ -4405,7 +4405,7 @@ scion-of-balance:
   profiles:
     - service: tg
       id: '5834663294'
-      updated: 2025-10-24-12-20-45
+      updated: 2025-10-25-19-08-10
       accessHash: '-2758740287553358448'
       username: vorpalhopper
       name: Vorpalhopper
@@ -5203,7 +5203,7 @@ trupach:
   profiles:
     - service: tg
       id: '688773096'
-      updated: 2025-10-25-18-13-19
+      updated: 2025-10-25-19-08-07
       accessHash: '-8584863660369083930'
       username: trupach
       name: Trup4ch
@@ -5593,7 +5593,7 @@ vail-astor-zkiy:
   profiles:
     - service: tg
       id: '1245638625'
-      updated: 2025-10-25-18-13-20
+      updated: 2025-10-25-19-08-07
       accessHash: '-6135365331334675689'
       name: Vail Astor'zkiy
 valeriy-zhmishenko:

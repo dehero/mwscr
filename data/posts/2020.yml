@@ -677,15 +677,24 @@
       id: DQPet9eDPF9
       mediaId: '18101307049679223'
       published: 2025-10-25-18-14-07
+      updated: 2025-10-25-19-08-05
       followers: 1588
+      likes: 14
     - service: vk
       id: 2774
       published: 2025-10-25-18-14-12
+      updated: 2025-10-25-19-08-00
       followers: 1483
+      likes: 4
+      views: 23
     - service: tg
       id: 1027
       published: 2025-10-25-18-14-17
+      updated: 2025-10-25-19-08-01
       followers: 846
+      likes: 18
+      views: 85
+      comments: !c ixOAkZPLQnmhyeq4AACvdmFpbC1hc3Rvci16a2l5rFdhdGVyKEdyZWVmKQM=
 2020-05-26-forgotten-urns:
   title: Forgotten Urns
   titleRu: Забытые урны
