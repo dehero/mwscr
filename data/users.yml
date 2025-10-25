@@ -92,7 +92,7 @@ a2-enkelli:
   profiles:
     - service: tg
       id: '7258424423'
-      updated: 2025-10-25-21-08-51
+      updated: 2025-10-25-22-09-15
       accessHash: '969825927170686844'
       username: A2_Enkelli
       name: †† elli ††
@@ -447,7 +447,7 @@ ansis:
   profiles:
     - service: tg
       id: '517050552'
-      updated: 2025-10-25-21-08-54
+      updated: 2025-10-25-22-09-17
       accessHash: '5231096655311395455'
       username: ansis
       name: ansis
@@ -561,7 +561,7 @@ arya-stark:
   profiles:
     - service: vk
       id: '820702664'
-      updated: 2025-10-24-11-10-09
+      updated: 2025-10-25-22-09-19
       username: id820702664
       name: Арья Старк
       avatar: store:/avatars/vk-689aa89d.jpg
@@ -650,7 +650,7 @@ barl-zild:
   profiles:
     - service: vk
       id: '312072202'
-      updated: 2025-10-24-21-09-50
+      updated: 2025-10-25-22-09-16
       username: barl_zild
       name: Максим Сафонов
       avatar: store:/avatars/vk-40147995.jpg
@@ -1324,7 +1324,7 @@ dehero:
     - type: channel
       service: tg
       id: '1264795946'
-      updated: 2025-10-25-21-08-52
+      updated: 2025-10-25-22-09-12
       accessHash: '-5789257269249675714'
       username: mwscr
       name: Morrowind Screenshots
@@ -1446,7 +1446,7 @@ dish-man:
   profiles:
     - service: vk
       id: '180745700'
-      updated: 2025-10-24-21-09-43
+      updated: 2025-10-25-22-09-14
       username: dish_man
       name: Станислав Беляев
       avatar: store:/avatars/vk-68b120ff.jpg
@@ -1820,7 +1820,7 @@ feanor2la:
   profiles:
     - service: vk
       id: '16294877'
-      updated: 2025-10-24-21-09-50
+      updated: 2025-10-25-22-09-15
       username: feanor2la
       name: Иван Урлапов
       avatar: store:/avatars/vk-9f79c7ac.jpg
@@ -1842,7 +1842,7 @@ filavandrel-official:
   profiles:
     - service: vk
       id: '682643734'
-      updated: 2025-10-23-02-44-48
+      updated: 2025-10-25-22-09-19
       username: filavandrel_official
       name: Filavandrel Aén Fidháil
       avatar: store:/avatars/vk-e1fad8d6.jpg
@@ -2122,7 +2122,7 @@ h4shirama-s3nju:
   profiles:
     - service: tg
       id: '5619748563'
-      updated: 2025-10-25-21-08-54
+      updated: 2025-10-25-22-09-17
       accessHash: '-759856355370590559'
       username: Hashirama_S3njuu
       name: 柱間 千住 ✝️ :("");
@@ -2335,7 +2335,7 @@ ilya-denisov:
   profiles:
     - service: vk
       id: '134482858'
-      updated: 2025-10-25-21-08-47
+      updated: 2025-10-25-22-09-10
       username: id134482858
       name: Илья Денисов
       avatar: store:/avatars/vk-45d9d8dd.jpg
@@ -2699,7 +2699,7 @@ kawazaky223:
   profiles:
     - service: tg
       id: '5641856113'
-      updated: 2025-10-25-21-08-54
+      updated: 2025-10-25-22-09-17
       accessHash: '7421309771527577818'
       username: Kawazaky223
       name: Максим
@@ -2729,7 +2729,7 @@ kevy-c:
   profiles:
     - service: tg
       id: '5067683234'
-      updated: 2025-10-25-21-08-50
+      updated: 2025-10-25-22-09-11
       accessHash: '-903667913374325979'
       username: Kevy_c
       name: Dash
@@ -3965,7 +3965,7 @@ pkellerman:
   profiles:
     - service: vk
       id: '11823909'
-      updated: 2025-10-24-21-09-43
+      updated: 2025-10-25-22-09-14
       username: pkellerman
       name: Антон Подлужный
       avatar: store:/avatars/vk-9bff06f8.jpg
@@ -4877,7 +4877,7 @@ stellex:
   profiles:
     - service: vk
       id: '37141641'
-      updated: 2025-10-24-21-09-50
+      updated: 2025-10-25-22-09-15
       username: stellex
       name: Сергей Stellex
       avatar: store:/avatars/vk-57e20787.jpg
@@ -5203,7 +5203,7 @@ trupach:
   profiles:
     - service: tg
       id: '688773096'
-      updated: 2025-10-25-21-08-50
+      updated: 2025-10-25-22-09-10
       accessHash: '-8584863660369083930'
       username: trupach
       name: Trup4ch
@@ -5593,7 +5593,7 @@ vail-astor-zkiy:
   profiles:
     - service: tg
       id: '1245638625'
-      updated: 2025-10-25-21-08-50
+      updated: 2025-10-25-22-09-11
       accessHash: '-6135365331334675689'
       name: Vail Astor'zkiy
 valeriy-zhmishenko:
