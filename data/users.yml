@@ -92,7 +92,7 @@ a2-enkelli:
   profiles:
     - service: tg
       id: '7258424423'
-      updated: 2025-10-26-03-35-55
+      updated: 2025-10-26-04-12-31
       accessHash: '969825927170686844'
       username: A2_Enkelli
       name: †† elli ††
@@ -447,7 +447,7 @@ ansis:
   profiles:
     - service: tg
       id: '517050552'
-      updated: 2025-10-26-03-35-53
+      updated: 2025-10-26-04-12-29
       accessHash: '5231096655311395455'
       username: ansis
       name: ansis
@@ -1324,7 +1324,7 @@ dehero:
     - type: channel
       service: tg
       id: '1264795946'
-      updated: 2025-10-26-03-35-55
+      updated: 2025-10-26-04-12-31
       accessHash: '-5789257269249675714'
       username: mwscr
       name: Morrowind Screenshots
@@ -2335,7 +2335,7 @@ ilya-denisov:
   profiles:
     - service: vk
       id: '134482858'
-      updated: 2025-10-26-03-35-50
+      updated: 2025-10-26-04-12-28
       username: id134482858
       name: Илья Денисов
       avatar: store:/avatars/vk-45d9d8dd.jpg
@@ -2699,7 +2699,7 @@ kawazaky223:
   profiles:
     - service: tg
       id: '5641856113'
-      updated: 2025-10-26-03-35-53
+      updated: 2025-10-26-04-12-29
       accessHash: '7421309771527577818'
       username: Kawazaky223
       name: Максим
@@ -2729,7 +2729,7 @@ kevy-c:
   profiles:
     - service: tg
       id: '5067683234'
-      updated: 2025-10-26-03-35-53
+      updated: 2025-10-26-04-12-29
       accessHash: '-903667913374325979'
       username: Kevy_c
       name: Dash
@@ -3998,7 +3998,7 @@ pohotlivaya-argonianskaya-deva:
   profiles:
     - service: tg
       id: '754205623'
-      updated: 2025-10-26-03-35-52
+      updated: 2025-10-26-04-12-28
       accessHash: '-9198477663948575721'
       username: PohotlivayaArgonianskayaDeva
       name: Илья
@@ -4496,7 +4496,7 @@ sergey-b-2:
   profiles:
     - service: vk
       id: '1077446394'
-      updated: 2025-10-26-03-35-50
+      updated: 2025-10-26-04-12-28
       username: id1077446394
       name: Сергей Б
       avatar: store:/avatars/vk-12075792.jpg
@@ -5203,7 +5203,7 @@ trupach:
   profiles:
     - service: tg
       id: '688773096'
-      updated: 2025-10-26-03-35-53
+      updated: 2025-10-26-04-12-29
       accessHash: '-8584863660369083930'
       username: trupach
       name: Trup4ch
@@ -5593,7 +5593,7 @@ vail-astor-zkiy:
   profiles:
     - service: tg
       id: '1245638625'
-      updated: 2025-10-26-03-35-54
+      updated: 2025-10-26-04-12-31
       accessHash: '-6135365331334675689'
       name: Vail Astor'zkiy
 valeriy-zhmishenko:
