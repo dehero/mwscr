@@ -1944,16 +1944,16 @@
       id: DPcADwVDkrs
       mediaId: '17943184098066820'
       published: 2025-10-05-18-24-58
-      updated: 2025-10-19-22-17-02
+      updated: 2025-10-26-23-09-47
       followers: 1579
       likes: 82
     - service: vk
       id: 2712
       published: 2025-10-05-18-25-05
-      updated: 2025-10-19-22-17-05
+      updated: 2025-10-26-23-09-50
       followers: 1445
-      likes: 86
-      views: 1287
+      likes: 87
+      views: 1333
       reposts: 5
       comments: !c |-
         G64CAByH6cZHNj4+uSY0ExWycFWi4lrdvqxFaZRDWCDBCALxCI2ZlQRVJjPCH4fF4Gj6ly/b2lsw
@@ -1966,10 +1966,10 @@
     - service: tg
       id: 1007
       published: 2025-10-05-18-25-10
-      updated: 2025-10-19-22-17-05
+      updated: 2025-10-26-23-09-50
       followers: 832
-      likes: 69
-      views: 505
+      likes: 70
+      views: 545
       comments: !c iw2AkZPLQnmbWxiJgACra2F3YXpha3kyMjOk8J+NhAM=
 2018-02-16-draugr:
   title: Draugr
@@ -7689,23 +7689,23 @@
       id: DQSDh_ekZfS
       mediaId: '17990028470889935'
       published: 2025-10-26-18-14-17
-      updated: 2025-10-26-22-09-43
+      updated: 2025-10-26-23-09-45
       followers: 1588
-      likes: 31
+      likes: 32
     - service: vk
       id: 2780
       published: 2025-10-26-18-14-23
-      updated: 2025-10-26-22-09-41
+      updated: 2025-10-26-23-09-42
       followers: 1486
-      likes: 17
-      views: 144
+      likes: 21
+      views: 158
     - service: tg
       id: 1028
       published: 2025-10-26-18-14-29
-      updated: 2025-10-26-22-09-40
+      updated: 2025-10-26-23-09-41
       followers: 848
-      likes: 34
-      views: 124
+      likes: 35
+      views: 128
 2018-06-28-light-on-the-water:
   title: Light on the Water
   titleRu: Свет над водой
