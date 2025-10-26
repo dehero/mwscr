@@ -8154,23 +8154,23 @@
       id: DQM6JVBEaMB
       mediaId: '18096341764748362'
       published: 2025-10-24-18-16-04
-      updated: 2025-10-26-00-51-33
+      updated: 2025-10-26-02-26-52
       followers: 1587
-      likes: 44
+      likes: 45
     - service: vk
       id: 2772
       published: 2025-10-24-18-16-12
-      updated: 2025-10-26-00-51-36
+      updated: 2025-10-26-02-26-47
       followers: 1482
       likes: 45
-      views: 1101
+      views: 1105
     - service: tg
       id: 1026
       published: 2025-10-24-18-16-16
-      updated: 2025-10-26-00-51-38
+      updated: 2025-10-26-02-26-50
       followers: 842
       likes: 57
-      views: 243
+      views: 245
       comments: !c |-
         G9kBIJwFdvNKCB/HoLHZp9WoR5PXRjzQ2bDpBSrAqs8LqEr8/3K6KIx+9pa4ZQzHt/2u8UnaC8og
         UabK1AhGDlkB5k5n6NE5f3o81cc3jVxoAQ43bBzigAujiWdzo4KhnsizoQyf4LWx/4n5/ODFGWGF
@@ -9903,22 +9903,18 @@
     - service: vk
       id: 2635
       published: 2025-09-06-18-25-06
-      updated: 2025-10-19-01-40-36
+      updated: 2025-10-26-02-26-49
       followers: 1408
       likes: 53
-      views: 495
+      views: 508
       reposts: 1
     - service: tg
       id: 975
       published: 2025-09-06-18-25-11
-      updated: 2025-10-19-01-40-40
+      updated: 2025-10-26-02-26-53
       followers: 790
       likes: 64
-      views: 577
-      comments: !c |-
-        G4wAwIyUbsI8///nFvJE0w9lc6RZamKSOMSR2E7HJEW9L5IazjhKCCaQ1b6b8RzjRFdceR6QroEG
-        oFvDScXMYfjMzjaL6A88GrlJbp5rzFzX20K4h124FHPtWc7obyMAifu0e841Su1GqdmsaaS/f8nu
-        voJAhqEVRAEKRNMaSwGSodAwjtGSIeDjXqUA
+      views: 584
 2018-08-21-dusk-in-hla-oad:
   title: Dusk in Hla Oad
   titleRu: Закат солнца в Хла Оуд
