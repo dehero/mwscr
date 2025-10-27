@@ -2675,11 +2675,16 @@
       id: DQUotPzEUFh
       mediaId: '18062212865426671'
       published: 2025-10-27-18-17-37
+      updated: 2025-10-27-19-09-06
       followers: 1586
+      likes: 14
     - service: vk
       id: 2786
       published: 2025-10-27-18-17-50
+      updated: 2025-10-27-19-09-02
       followers: 1487
+      likes: 4
+      views: 22
     - service: tg
       id:
         - 1029
@@ -2687,4 +2692,7 @@
         - 1031
         - 1032
       published: 2025-10-27-18-18-00
+      updated: 2025-10-27-19-09-03
       followers: 847
+      likes: 18
+      views: 71
