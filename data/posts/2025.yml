@@ -2651,3 +2651,40 @@
 2025-10-24-1-plans-of-vivec: 2018-07-09-plans-of-vivec
 2025-10-25-1-water-supply: 2020-05-25-water-supply
 2025-10-26-1-arch-with-a-canopy: 2018-06-27-arch-with-a-canopy
+2025-10-27-1-foggy-repetitions:
+  title: Foggy Repetitions
+  titleRu: Туманные повторы
+  placement: Outdoors
+  location: Ascadian Isles Region
+  content:
+    - store:/shots/2024-03-02-queue.png
+    - store:/shots/2019-03-18-misty-pairs.png
+    - store:/shots/2022-07-08-squad.png
+    - store:/shots/2022-06-30-rivals.png
+  type: shot-set
+  author: dehero
+  engine: OpenMW
+  tags:
+    - tree
+    - mushroom
+    - fog
+    - netch
+  mark: A2
+  posts:
+    - service: ig
+      id: DQUotPzEUFh
+      mediaId: '18062212865426671'
+      published: 2025-10-27-18-17-37
+      followers: 1586
+    - service: vk
+      id: 2786
+      published: 2025-10-27-18-17-50
+      followers: 1487
+    - service: tg
+      id:
+        - 1029
+        - 1030
+        - 1031
+        - 1032
+      published: 2025-10-27-18-18-00
+      followers: 847
