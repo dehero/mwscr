@@ -2675,16 +2675,20 @@
       id: DQUotPzEUFh
       mediaId: '18062212865426671'
       published: 2025-10-27-18-17-37
-      updated: 2025-10-27-19-09-06
+      updated: 2025-10-27-20-09-38
       followers: 1586
-      likes: 14
+      likes: 19
     - service: vk
       id: 2786
       published: 2025-10-27-18-17-50
-      updated: 2025-10-27-19-09-02
+      updated: 2025-10-27-20-09-38
       followers: 1487
-      likes: 4
-      views: 22
+      likes: 12
+      views: 79
+      reposts: 1
+      comments: !c |-
+        G18A+I3UTnWoV/LfNkVj1MWDMQSlxpiKnEWR6qaqqZtTmPm+bInCx1wBgHKcvJRWNr0JwtIOTE3u
+        HDMoSseN/ioWxPFkOOLAsKWBEccWT+pxJo6DxHCmHk/saRDP5hc=
     - service: tg
       id:
         - 1029
@@ -2692,7 +2696,10 @@
         - 1031
         - 1032
       published: 2025-10-27-18-18-00
-      updated: 2025-10-27-19-09-03
+      updated: 2025-10-27-20-09-39
       followers: 847
-      likes: 18
-      views: 71
+      likes: 27
+      views: 96
+      comments: !c |-
+        G2sA+C0S7JiUIbqkCX98HQY4qaomlwvg8/8/96TvHl/brDS6baaps6/8SyIYHHIAfIy1JRqAJVin
+        QAMmTHmSP84tpDU0Vs1DNY7d/f8KvfUJe5ajDIsYxWH+AABJlijoHL/ANAAA
