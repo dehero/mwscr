@@ -92,7 +92,7 @@ a2-enkelli:
   profiles:
     - service: tg
       id: '7258424423'
-      updated: 2025-10-28-22-10-24
+      updated: 2025-10-28-23-10-11
       accessHash: '969825927170686844'
       username: A2_Enkelli
       name: †† elli ††
@@ -447,7 +447,7 @@ ansis:
   profiles:
     - service: tg
       id: '517050552'
-      updated: 2025-10-28-22-10-24
+      updated: 2025-10-28-23-10-11
       accessHash: '5231096655311395455'
       username: ansis
       name: ansis
@@ -972,7 +972,7 @@ chernosotinec:
   profiles:
     - service: vk
       id: '355750944'
-      updated: 2025-10-28-22-10-22
+      updated: 2025-10-28-23-10-10
       username: Chernosotinec
       name: Артём Стекольщиков
       avatar: store:/avatars/vk-8aee5603.jpg
@@ -2016,7 +2016,7 @@ gleb-zheltuhin:
   profiles:
     - service: vk
       id: '29014473'
-      updated: 2025-10-28-22-10-21
+      updated: 2025-10-28-23-10-10
       username: gleb_zheltuhin
       name: Глеб Желтухин
       avatar: store:/avatars/vk-971eefc1.jpg
@@ -2067,7 +2067,7 @@ golden-morgan:
   profiles:
     - service: vk
       id: '157461309'
-      updated: 2025-10-28-14-11-23
+      updated: 2025-10-28-23-10-12
       username: golden_morgan
       name: Marco Polo
       avatar: store:/avatars/vk-f7f43d22.jpg
@@ -2075,7 +2075,7 @@ goosevich76:
   profiles:
     - service: tg
       id: '5385620621'
-      updated: 2025-10-28-21-10-18
+      updated: 2025-10-28-23-10-12
       accessHash: '-7130473396589324830'
       username: horwwwaty
       name: choven
@@ -2719,7 +2719,7 @@ kawazaky223:
   profiles:
     - service: tg
       id: '5641856113'
-      updated: 2025-10-28-22-10-24
+      updated: 2025-10-28-23-10-12
       accessHash: '7421309771527577818'
       username: Kawazaky223
       name: Максим
@@ -3590,7 +3590,7 @@ neulovimiy-djo:
   profiles:
     - service: vk
       id: '40753227'
-      updated: 2025-10-21-22-19-47
+      updated: 2025-10-28-23-10-12
       username: neulovimiy_djo
       name: Иван Чернозём
       avatar: store:/avatars/vk-7870da4f.jpg
