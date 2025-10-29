@@ -783,19 +783,19 @@
       id: DQH3R7LEQUG
       mediaId: '18295437574283457'
       published: 2025-10-22-19-14-52
-      updated: 2025-10-28-21-10-09
+      updated: 2025-10-29-22-10-24
       followers: 1586
-      likes: 89
+      likes: 92
       comments: !c |-
         CxuAkZPLQnmhXlV1gACnbW9ybXVpbNkiQmlnIG1ldGFwaHlzaWNhbCBhdXRvbWF0b24gZ28gYnJy
         cgM=
     - service: vk
       id: 2761
       published: 2025-10-22-19-14-58
-      updated: 2025-10-28-21-10-15
+      updated: 2025-10-29-22-10-25
       followers: 1478
       likes: 68
-      views: 2069
+      views: 2082
       reposts: 1
       comments: !c |-
         G+EBAJ0Htg1rGy4s/pGFlRAz/vn+RhE+kD56oCWJJ9BMtOIr50JqmxIIaxGGkPcdn4VmGwdU7Tyx
@@ -806,10 +806,10 @@
     - service: tg
       id: 1024
       published: 2025-10-22-19-15-03
-      updated: 2025-10-28-21-10-14
+      updated: 2025-10-29-22-10-23
       followers: 840
       likes: 66
-      views: 919
+      views: 942
       comments: !c |-
         G5gAgGXgnCMcyKvwt+Ptuuw3HSQ6qMDPqadqp5xogXGQQDtJIBrfA66SEMphTKfWjmD9b7OHgQ7E
         K5TSftUyM4Df/LSMGMgPhSAmqNcbusd85bmKkY/NzQUAQ0ivwngGY1nqYHR6FNBDYmARQRQPuMmq
@@ -1190,7 +1190,7 @@
     - service: yt
       id: lbg7_2GY9-U
       published: 2017-01-28
-      updated: 2025-10-22-22-08-42
+      updated: 2025-10-29-22-10-13
       followers: 2
       likes: 24
       views: 574
@@ -3776,23 +3776,23 @@
       id: DQZyPk3l4Hw
       mediaId: '17947401965918568'
       published: 2025-10-29-18-17-11
-      updated: 2025-10-29-21-10-11
+      updated: 2025-10-29-22-10-18
       followers: 1586
-      likes: 24
+      likes: 27
     - service: vk
       id: 2797
       published: 2025-10-29-18-17-19
-      updated: 2025-10-29-21-10-04
+      updated: 2025-10-29-22-10-14
       followers: 1489
-      likes: 7
-      views: 31
+      likes: 9
+      views: 33
     - service: tg
       id: 1034
       published: 2025-10-29-18-17-25
-      updated: 2025-10-29-21-10-09
+      updated: 2025-10-29-22-10-19
       followers: 848
-      likes: 30
-      views: 110
+      likes: 33
+      views: 120
       comments: !c CxGAkZPLQnmjExKigACqYTItZW5rZWxsaaxzaHJvb21idXJnZXID
 2017-03-25-the-two-towers:
   title: The Two Towers

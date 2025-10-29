@@ -92,7 +92,7 @@ a2-enkelli:
   profiles:
     - service: tg
       id: '7258424423'
-      updated: 2025-10-29-21-10-17
+      updated: 2025-10-29-22-10-23
       accessHash: '969825927170686844'
       username: A2_Enkelli
       name: †† elli ††
@@ -447,7 +447,7 @@ ansis:
   profiles:
     - service: tg
       id: '517050552'
-      updated: 2025-10-29-21-10-17
+      updated: 2025-10-29-22-10-23
       accessHash: '5231096655311395455'
       username: ansis
       name: ansis
@@ -545,7 +545,7 @@ artyom-melikhoff:
   profiles:
     - service: vk
       id: '299405149'
-      updated: 2025-10-29-21-10-15
+      updated: 2025-10-29-22-10-25
       username: artyom_melikhoff
       name: Артём Мелихов
       avatar: store:/avatars/vk-4c16e471.jpg
@@ -2075,7 +2075,7 @@ goosevich76:
   profiles:
     - service: tg
       id: '5385620621'
-      updated: 2025-10-28-23-10-12
+      updated: 2025-10-29-22-10-23
       accessHash: '-7130473396589324830'
       username: horwwwaty
       name: choven
@@ -2719,7 +2719,7 @@ kawazaky223:
   profiles:
     - service: tg
       id: '5641856113'
-      updated: 2025-10-29-21-10-16
+      updated: 2025-10-29-22-10-23
       accessHash: '7421309771527577818'
       username: Kawazaky223
       name: Максим
@@ -4535,7 +4535,7 @@ sergey-b-2:
   profiles:
     - service: vk
       id: '1077446394'
-      updated: 2025-10-29-21-10-15
+      updated: 2025-10-29-22-10-25
       username: id1077446394
       name: Сергей Б
       avatar: store:/avatars/vk-12075792.jpg
@@ -5952,7 +5952,7 @@ xhoskin:
   profiles:
     - service: vk
       id: '26696170'
-      updated: 2025-10-28-21-10-13
+      updated: 2025-10-29-22-10-25
       username: xhoskin
       name: Алексей Иванов
       avatar: store:/avatars/vk-babdaa8e.jpg
