@@ -92,7 +92,7 @@ a2-enkelli:
   profiles:
     - service: tg
       id: '7258424423'
-      updated: 2025-10-29-19-12-25
+      updated: 2025-10-29-20-12-21
       accessHash: '969825927170686844'
       username: A2_Enkelli
       name: †† elli ††
@@ -545,7 +545,7 @@ artyom-melikhoff:
   profiles:
     - service: vk
       id: '299405149'
-      updated: 2025-10-28-21-10-12
+      updated: 2025-10-29-20-12-29
       username: artyom_melikhoff
       name: Артём Мелихов
       avatar: store:/avatars/vk-4c16e471.jpg
@@ -1724,7 +1724,7 @@ ellia-isard:
   profiles:
     - service: vk
       id: '215194827'
-      updated: 2025-10-26-05-10-34
+      updated: 2025-10-29-20-12-29
       username: ellia_isard
       name: Эллия Айсард
       avatar: store:/avatars/vk-4aa5204c.jpg
@@ -2719,7 +2719,7 @@ kawazaky223:
   profiles:
     - service: tg
       id: '5641856113'
-      updated: 2025-10-29-19-12-25
+      updated: 2025-10-29-20-12-27
       accessHash: '7421309771527577818'
       username: Kawazaky223
       name: Максим
@@ -3127,7 +3127,7 @@ maks-perunov:
   profiles:
     - service: vk
       id: '35868942'
-      updated: 2025-10-23-02-42-10
+      updated: 2025-10-29-20-12-28
       username: id35868942
       name: Макс Перунов
       avatar: store:/avatars/vk-3bb92045.jpg
@@ -4535,7 +4535,7 @@ sergey-b-2:
   profiles:
     - service: vk
       id: '1077446394'
-      updated: 2025-10-29-19-12-25
+      updated: 2025-10-29-20-12-22
       username: id1077446394
       name: Сергей Б
       avatar: store:/avatars/vk-12075792.jpg
@@ -5123,7 +5123,7 @@ thedrongo7:
   profiles:
     - service: tg
       id: '149400692'
-      updated: 2025-10-01-19-15-36
+      updated: 2025-10-29-20-12-32
       accessHash: '5348913575804649535'
       username: Thedrongo7
       botChatId: 149400692

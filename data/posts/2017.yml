@@ -1923,10 +1923,10 @@
     - service: yt
       id: Fd77v5UL_ek
       published: 2017-02-12
-      updated: 2025-10-22-19-14-08
+      updated: 2025-10-29-20-12-15
       followers: 4
       likes: 33
-      views: 719
+      views: 720
       comments: !c |-
         G+YAgBwHuTn0gvF3N1LPirX9UPpbQr2S2psi3kSTh0ITqzRC0b0I5NZCCcZijEMV4R9uZdeskwMN
         0LMWhS0L7BwEwBVgoBsr/QvHIsPiabd7VewDeyRzcD2p1SqV7ocYKAlutSWKgcUSkWHOvtRoxj1F
@@ -3776,23 +3776,23 @@
       id: DQZyPk3l4Hw
       mediaId: '17947401965918568'
       published: 2025-10-29-18-17-11
-      updated: 2025-10-29-19-12-16
+      updated: 2025-10-29-20-12-19
       followers: 1586
-      likes: 15
+      likes: 19
     - service: vk
       id: 2797
       published: 2025-10-29-18-17-19
-      updated: 2025-10-29-19-12-12
+      updated: 2025-10-29-20-12-16
       followers: 1489
-      likes: 4
-      views: 18
+      likes: 5
+      views: 27
     - service: tg
       id: 1034
       published: 2025-10-29-18-17-25
-      updated: 2025-10-29-19-12-18
+      updated: 2025-10-29-20-12-21
       followers: 848
-      likes: 21
-      views: 79
+      likes: 28
+      views: 102
       comments: !c CxGAkZPLQnmjExKigACqYTItZW5rZWxsaaxzaHJvb21idXJnZXID
 2017-03-25-the-two-towers:
   title: The Two Towers
@@ -15080,24 +15080,24 @@
       id: DOrFi8CDq8p
       mediaId: '18326558461226746'
       published: 2025-09-16-18-30-08
-      updated: 2025-10-22-19-14-22
+      updated: 2025-10-29-20-12-25
       followers: 1583
       likes: 73
     - service: vk
       id: 2654
       published: 2025-09-16-18-30-15
-      updated: 2025-10-22-19-14-22
+      updated: 2025-10-29-20-12-26
       followers: 1420
-      likes: 45
-      views: 426
+      likes: 46
+      views: 444
       reposts: 3
     - service: tg
       id: 987
       published: 2025-09-16-18-30-21
-      updated: 2025-10-22-19-14-18
+      updated: 2025-10-29-20-12-25
       followers: 797
       likes: 65
-      views: 528
+      views: 535
       comments: !c iw2AkZPLQnmVYaIOgACra2F3YXpha3kyMjOk8J+MnwM=
 2017-12-08-lower-circle:
   title: Lower Circle
