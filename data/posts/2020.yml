@@ -677,17 +677,17 @@
       id: DQPet9eDPF9
       mediaId: '18101307049679223'
       published: 2025-10-25-18-14-07
-      updated: 2025-10-28-17-10-59
+      updated: 2025-10-29-17-11-11
       followers: 1588
-      likes: 42
+      likes: 44
     - service: vk
       id: 2774
       published: 2025-10-25-18-14-12
-      updated: 2025-10-28-17-11-05
+      updated: 2025-10-29-17-11-22
       followers: 1483
-      likes: 61
-      views: 1271
-      reposts: 2
+      likes: 64
+      views: 1321
+      reposts: 3
       comments: !c |-
         G54GAJwHtg1lG20efsdpzOOff+59e/xFctPao3gEA9I5NJblYw2wFfG6zxRVjSWxDBNsJ8TC9r/5
         3JrzJU3q1186IeiipYHFJPze7vX9c5tSMaId9EAyEetv21we51OSCipBKejNus9G/3M5rejwsDS6
@@ -706,14 +706,15 @@
     - service: tg
       id: 1027
       published: 2025-10-25-18-14-17
-      updated: 2025-10-28-17-11-02
+      updated: 2025-10-29-17-11-24
       followers: 846
-      likes: 58
-      views: 265
+      likes: 60
+      views: 292
       comments: !c |-
-        G5cAABwHdkz4nY2jNGPIf7jmER5xm15zpCVYai/S1+8vwWebo5YXrOFgn0wUNhFczItlXbaWF8oN
-        TjRACClNcsjiQQaHHHweR8mxh7y4cP1rPwxzVGyaCwcSBG2YMvSslErgiyhxlOaxT1r0K2byKMYC
-        Iw44YsKRJRs9PmJBDtaUdOL0X+/OAgtBd9t05XxXxYms0XoB
+        G/8AQBwHdiy2UPbiXhb8E3Oblr5hGrq3imfRJBapq4TGUfH30dCBqlv5JvQiZCFxnPlhflU3nUbM
+        igYGXyDsGYRkd47rC33jcYMTTBMZwMaNBpr9cB1ktj3Ghr7NcxzlYLW9FHz/go9hHGp66Wyy4CBY
+        0S7oo1IkXjhlBlTmJZ3eoW85GmiKEQVs8NRl4omweqTm60vB32NzDSNoRmt0nyg7DFxyoi8y5uKp
+        q4H6kFQi8tNPZ6kHfM3UV1hhdSnu0z+570A6jKlGTxX/DpFLVWPOAQ==
 2020-05-26-forgotten-urns:
   title: Forgotten Urns
   titleRu: Забытые урны

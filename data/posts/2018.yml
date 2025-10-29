@@ -111,19 +111,19 @@
       id: DQXNae8lznM
       mediaId: '18167023342337908'
       published: 2025-10-28-18-16-52
-      updated: 2025-10-29-16-14-11
+      updated: 2025-10-29-17-11-07
       followers: 1587
-      likes: 38
+      likes: 39
       comments: !c |-
         izSAkZPLQnmizkVagACtZGFuaWVsbGUtaGlpadlPWW91IGtub3cgdGhlcmVzIGF0bGVhc3QgMiBO
         UENzIGp1c3QgZHlpbmcgdG8gZGlyZWN0IHlvdSB0byBnbyB0aHJvdWdoIHRoYXQgYXJjaAM=
     - service: vk
       id: 2792
       published: 2025-10-28-18-16-59
-      updated: 2025-10-29-16-14-14
+      updated: 2025-10-29-17-11-12
       followers: 1489
       likes: 46
-      views: 391
+      views: 407
       comments: !c |-
         G2MBAKwSeBNbVxkNjcuME4FXif6Ji5H+Ob8TCZvJJKImsDDSZJ8G3/xthtjN4XYyhwDvd/VkcpbT
         zz42NqE0JSOWeXJQDdBSdkYnB+xflAca0AUiDDywOMoswNzGXuMEjVqiIvT3ev/c5/8b+z77WP/r
@@ -132,10 +132,10 @@
     - service: tg
       id: 1033
       published: 2025-10-28-18-17-04
-      updated: 2025-10-29-16-14-09
+      updated: 2025-10-29-17-11-06
       followers: 849
       likes: 46
-      views: 172
+      views: 174
 2018-01-05-guards-of-skyrim-mission-in-ebonheart:
   title: Guards of Skyrim Mission in Ebonheart
   titleRu: Стража миссии Скайрима в Эбенгарде
@@ -7718,28 +7718,30 @@
       id: DQSDh_ekZfS
       mediaId: '17990028470889935'
       published: 2025-10-26-18-14-17
-      updated: 2025-10-28-17-10-57
+      updated: 2025-10-29-17-11-09
       followers: 1588
-      likes: 59
+      likes: 60
     - service: vk
       id: 2780
       published: 2025-10-26-18-14-23
-      updated: 2025-10-28-17-11-00
+      updated: 2025-10-29-17-11-16
       followers: 1486
-      likes: 68
-      views: 1036
+      likes: 71
+      views: 1091
       reposts: 1
       comments: !c |-
-        G8QAIJwHtq3x7NRIJvdHso5Q6fBPO+OEviUVejjD3Sa0290IkvfIppsrKQoLaRwHin4P+VCbq12w
-        GLrFlg7BFfdlec460CeZwiDo6iZ7CQgHG3CaEG877sOAfjUuiUGp7jjvHYHXRvmWoUUqWMF9xsci
-        mENxyYwoG8eDGJcOS0mP4mEHzmtHUO9T3sPpGoqfc1lJJNE9JMQeWxBuoaPEzeZvAMgKpZin/PEe
+        G7sBgJwHtm0nC/aGvZoZm9LoeTmxhD/ltkUejgcy4GVCzZIRTO6RzdxWKUG6YEjn2MHNuRnyx/Tq
+        NmsWLIZusaX9RxH+I5gN1VBsyaTOrZsszUQxNtw+x2AEsTykyNMTDcxrQcQJFFiE6fW7XOuCJzvd
+        brkYlVVQprv06S+83r/MlcZ6Lt9bwAsUohyhHW0dgmak+OzDmld1lKmYA7zT3NM1OEZVqPN78bkH
+        VdLcvmWXJxIjim04ZO4mDhhnKFRDOjf+eha4gXKZzX+uq9vB/09YrgfeBeXI7hfr4Dxjh97qJoGk
+        A+vsk0i2lUYaYnBHmaUipm08zdMGFJXTwYZdAvGWPwyDSuIsao7znyjCJrTQKCtgGA0bQ1FE45MD
     - service: tg
       id: 1028
       published: 2025-10-26-18-14-29
-      updated: 2025-10-28-17-11-00
+      updated: 2025-10-29-17-11-14
       followers: 848
-      likes: 54
-      views: 230
+      likes: 57
+      views: 250
       comments: !c |-
         CzSAkpPLQnmiQp0oAAClYW5zaXPZNEl0IG1heSBub3QgZmVlbCB0b28gaG9tZXksIGJ1dCBpdCdz
         IGhvbWUgbm9uZXRoZWxlc3OTy0J5okHdBIAAq2thd2F6YWt5MjIzq/CfmLbigI3wn4yrAw==
