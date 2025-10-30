@@ -74,18 +74,18 @@
     - service: vk
       id: 2129
       published: 2025-02-13-18-17-15
-      updated: 2025-10-22-23-13-25
+      updated: 2025-10-30-00-54-05
       followers: 1069
       likes: 60
-      views: 529
+      views: 531
       reposts: 3
     - service: tg
       id: 706
       published: 2025-02-13-18-17-22
-      updated: 2025-10-22-23-12-05
+      updated: 2025-10-30-00-52-45
       followers: 676
       likes: 67
-      views: 559
+      views: 561
 2022-06-24-evening-talk-in-vos:
   title: Evening Talk in Vos
   titleRu: Вечерняя беседа в Восе
@@ -183,10 +183,10 @@
     - service: vk
       id: 2226
       published: 2025-03-26-18-12-43
-      updated: 2025-10-22-23-12-20
+      updated: 2025-10-30-00-53-02
       followers: 1213
       likes: 81
-      views: 647
+      views: 648
       reposts: 3
       comments: !c |-
         G9gDAKwOzEOh+WGatLfgVDwk+NC6RMXY83sh/5CufnkmY1JDF7RLF8HQBW2CJVhmU1NrE1tvJoza
@@ -205,7 +205,7 @@
         - 764
         - 765
       published: 2025-03-26-18-13-07
-      updated: 2025-10-22-23-11-19
+      updated: 2025-10-30-00-52-02
       followers: 710
       likes: 62
       views: 764
@@ -457,7 +457,7 @@
     - service: vk
       id: 2077
       published: 2025-01-22-18-11-15
-      updated: 2025-10-22-23-14-03
+      updated: 2025-10-30-00-54-49
       followers: 1054
       likes: 38
       views: 350
@@ -470,10 +470,10 @@
     - service: tg
       id: 678
       published: 2025-01-22-18-11-24
-      updated: 2025-10-22-23-12-23
+      updated: 2025-10-30-00-53-07
       followers: 655
       likes: 67
-      views: 586
+      views: 587
 2022-07-02-niras-farys-priest:
   title: Niras Farys, Priest
   titleRu: Нирас Фарис, священник
@@ -610,7 +610,7 @@
     - service: vk
       id: 2165
       published: 2025-03-02-18-10-15
-      updated: 2025-10-22-23-12-55
+      updated: 2025-10-30-00-53-38
       followers: 1153
       likes: 66
       views: 590
@@ -623,10 +623,10 @@
         - 731
         - 732
       published: 2025-03-02-18-10-35
-      updated: 2025-10-22-23-11-37
+      updated: 2025-10-30-00-52-20
       followers: 687
       likes: 68
-      views: 1050
+      views: 1054
     - service: ig
       id: DGtT0r1vKNh
       mediaId: '18013972115704127'
@@ -679,14 +679,14 @@
     - service: tg
       id: 726
       published: 2025-02-27-18-13-32
-      updated: 2025-10-22-23-11-50
+      updated: 2025-10-30-00-52-22
       followers: 686
       likes: 59
-      views: 591
+      views: 592
     - service: vk
       id: 2153
       published: 2025-02-27-19-01-40
-      updated: 2025-10-22-23-13-01
+      updated: 2025-10-30-00-53-43
       followers: 1143
       likes: 36
       views: 586
@@ -992,7 +992,7 @@
     - service: vk
       id: 2020
       published: 2025-01-05-18-10-20
-      updated: 2025-10-23-00-47-27
+      updated: 2025-10-30-00-55-26
       followers: 1043
       likes: 56
       views: 404
@@ -1010,7 +1010,7 @@
         - 653
         - 654
       published: 2025-01-05-18-10-40
-      updated: 2025-10-22-23-12-38
+      updated: 2025-10-30-00-53-24
       followers: 644
       likes: 78
       views: 1154
@@ -1200,10 +1200,10 @@
     - service: vk
       id: 2350
       published: 2025-05-11-18-23-47
-      updated: 2025-10-22-23-11-08
+      updated: 2025-10-30-00-51-51
       followers: 1292
       likes: 51
-      views: 523
+      views: 524
       reposts: 2
       comments: !c |-
         G8cA4ByHcSyy8PJqIAwhnvBvn/DmpZhlCScl0lZkyTuigtpcCdEQF+oxJ/zEd+rmmw/Q/4pw21o2
@@ -1213,7 +1213,7 @@
     - service: tg
       id: 838
       published: 2025-05-11-18-23-53
-      updated: 2025-10-22-23-10-32
+      updated: 2025-10-30-00-51-10
       followers: 738
       likes: 63
       views: 603

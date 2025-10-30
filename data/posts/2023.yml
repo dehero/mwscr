@@ -176,10 +176,10 @@
     - service: vk
       id: 2382
       published: 2025-05-24-18-18-58
-      updated: 2025-10-22-23-10-38
+      updated: 2025-10-30-00-51-28
       followers: 1305
       likes: 55
-      views: 452
+      views: 454
     - service: tg
       id: 857
       published: 2025-05-24-18-19-06
@@ -234,16 +234,16 @@
       id: DOJmMF4jRTd
       mediaId: '17922073773131202'
       published: 2025-09-03-18-21-10
-      updated: 2025-10-23-00-47-14
+      updated: 2025-10-30-00-50-50
       followers: 1582
       likes: 68
     - service: vk
       id: 2629
       published: 2025-09-03-18-21-16
-      updated: 2025-10-23-00-47-12
+      updated: 2025-10-30-00-50-46
       followers: 1404
       likes: 43
-      views: 552
+      views: 565
       reposts: 1
       comments: !c |-
         Cy+AkZPLQnmRFaD7gACwc2VyZ2V5LWNodXJiYW5vdtlB0K3RjdC5KSDQt9C00LDRgNC+0LLQsCEg
@@ -251,10 +251,10 @@
     - service: tg
       id: 971
       published: 2025-09-03-18-21-19
-      updated: 2025-10-23-00-47-08
+      updated: 2025-10-30-00-50-46
       followers: 788
       likes: 75
-      views: 564
+      views: 568
       comments: !c iw2AkZPLQnmRXdWaAACra2F3YXpha3kyMjOk8J+koQM=
 2023-08-01-stillness:
   title: Stillness
@@ -342,10 +342,10 @@
     - service: vk
       id: 2341
       published: 2025-05-06-18-24-44
-      updated: 2025-10-22-23-11-17
+      updated: 2025-10-30-00-51-55
       followers: 1281
       likes: 46
-      views: 471
+      views: 472
       reposts: 2
       comments: !c |-
         G+oAEJ0Htg3rHDPI4QvhoV38P/3FPuEb31n0xgMPuMSLIDnXbfqcr0SRsylU26iYkyUJoinvThF5
@@ -355,7 +355,7 @@
     - service: tg
       id: 832
       published: 2025-05-06-18-24-51
-      updated: 2025-10-22-23-10-37
+      updated: 2025-10-30-00-51-19
       followers: 738
       likes: 69
       views: 700
@@ -409,7 +409,7 @@
     - service: vk
       id: 2233
       published: 2025-03-27-18-12-06
-      updated: 2025-10-22-23-12-18
+      updated: 2025-10-30-00-52-54
       followers: 1215
       likes: 41
       views: 434
@@ -423,7 +423,7 @@
     - service: tg
       id: 767
       published: 2025-03-27-18-12-12
-      updated: 2025-10-22-23-11-18
+      updated: 2025-10-30-00-51-53
       followers: 710
       likes: 64
       views: 514
@@ -718,7 +718,7 @@
     - service: vk
       id: 2251
       published: 2025-04-01-18-21-46
-      updated: 2025-10-22-23-12-13
+      updated: 2025-10-30-00-52-46
       followers: 1226
       likes: 75
       views: 454
@@ -726,7 +726,7 @@
     - service: tg
       id: 773
       published: 2025-04-01-18-21-57
-      updated: 2025-10-22-23-11-16
+      updated: 2025-10-30-00-51-51
       followers: 712
       likes: 68
       views: 660
