@@ -111,19 +111,19 @@
       id: DQXNae8lznM
       mediaId: '18167023342337908'
       published: 2025-10-28-18-16-52
-      updated: 2025-10-30-15-12-52
+      updated: 2025-10-30-16-14-17
       followers: 1587
-      likes: 44
+      likes: 45
       comments: !c |-
         izSAkZPLQnmizkVagACtZGFuaWVsbGUtaGlpadlPWW91IGtub3cgdGhlcmVzIGF0bGVhc3QgMiBO
         UENzIGp1c3QgZHlpbmcgdG8gZGlyZWN0IHlvdSB0byBnbyB0aHJvdWdoIHRoYXQgYXJjaAM=
     - service: vk
       id: 2792
       published: 2025-10-28-18-16-59
-      updated: 2025-10-30-15-12-53
+      updated: 2025-10-30-16-14-19
       followers: 1489
       likes: 57
-      views: 711
+      views: 736
       reposts: 1
       comments: !c |-
         G2MBAKwSeBNbVxkNjcuME4FXif6Ji5H+Ob8TCZvJJKImsDDSZJ8G3/xthtjN4XYyhwDvd/VkcpbT
@@ -133,7 +133,7 @@
     - service: tg
       id: 1033
       published: 2025-10-28-18-17-04
-      updated: 2025-10-30-15-12-55
+      updated: 2025-10-30-16-14-20
       followers: 849
       likes: 52
       views: 238
