@@ -92,7 +92,7 @@ a2-enkelli:
   profiles:
     - service: tg
       id: '7258424423'
-      updated: 2025-10-30-08-14-38
+      updated: 2025-10-30-09-12-07
       accessHash: '969825927170686844'
       username: A2_Enkelli
       name: †† elli ††
@@ -3216,7 +3216,7 @@ max-upsher:
   profiles:
     - service: tg
       id: '1774562733'
-      updated: 2025-10-30-03-58-05
+      updated: 2025-10-30-09-12-09
       accessHash: '1025402626840048013'
       username: MaxUpsher
       name: Max Upsher
@@ -4535,7 +4535,7 @@ sergey-b-2:
   profiles:
     - service: vk
       id: '1077446394'
-      updated: 2025-10-30-08-14-38
+      updated: 2025-10-30-09-12-05
       username: id1077446394
       name: Сергей Б
       avatar: store:/avatars/vk-12075792.jpg
