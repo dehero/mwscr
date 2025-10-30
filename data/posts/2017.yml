@@ -754,6 +754,19 @@
       followers: 534
       likes: 62
       views: 663
+    - service: ig
+      id: DQcW4q6CaW8
+      mediaId: '18082821593109100'
+      published: 2025-10-30-18-15-49
+      followers: 1587
+    - service: vk
+      id: 2798
+      published: 2025-10-30-18-15-55
+      followers: 1491
+    - service: tg
+      id: 1035
+      published: 2025-10-30-18-15-59
+      followers: 849
 2017-01-21-building-akulakhan:
   title: Building Akulakhan
   titleRu: Строительство Акулахана
@@ -3776,24 +3789,24 @@
       id: DQZyPk3l4Hw
       mediaId: '17947401965918568'
       published: 2025-10-29-18-17-11
-      updated: 2025-10-30-17-10-39
+      updated: 2025-10-30-18-15-03
       followers: 1586
       likes: 39
     - service: vk
       id: 2797
       published: 2025-10-29-18-17-19
-      updated: 2025-10-30-17-10-36
+      updated: 2025-10-30-18-14-59
       followers: 1489
-      likes: 30
-      views: 261
+      likes: 34
+      views: 278
       reposts: 1
     - service: tg
       id: 1034
       published: 2025-10-29-18-17-25
-      updated: 2025-10-30-17-10-42
+      updated: 2025-10-30-18-15-04
       followers: 848
-      likes: 55
-      views: 187
+      likes: 56
+      views: 188
       comments: !c CxGAkZPLQnmjExKigACqYTItZW5rZWxsaaxzaHJvb21idXJnZXID
 2017-03-25-the-two-towers:
   title: The Two Towers
