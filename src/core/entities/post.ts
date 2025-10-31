@@ -121,6 +121,8 @@ interface PostTypeDescriptor {
   titleMultipleRu: string;
   letter: string;
   aspectRatio?: MediaAspectRatio;
+  strict?: boolean;
+  topicId: string;
 }
 
 interface PostAddonDescriptor {
@@ -142,6 +144,7 @@ export interface PostViolationDescriptor {
   letter: string;
   topicId: string;
   solution?: string;
+  strict?: boolean;
 }
 
 type PostTagDescriptor = [tag: PostTag, rule: (post: Post) => boolean, parse?: (post: Post) => void];
@@ -194,6 +197,8 @@ export const postTypeDescriptors = Object.freeze<Record<PostType, PostTypeDescri
     titleMultipleRu: 'Кадры',
     letter: 'S',
     aspectRatio: '1/1',
+    strict: true,
+    topicId: 'shot',
   },
   'shot-set': {
     title: 'Shot Compilation',
@@ -202,6 +207,8 @@ export const postTypeDescriptors = Object.freeze<Record<PostType, PostTypeDescri
     titleMultipleRu: 'Подборки',
     letter: 'H',
     aspectRatio: '1/1',
+    strict: true,
+    topicId: 'shot-set',
   },
   video: {
     title: 'Video',
@@ -210,6 +217,8 @@ export const postTypeDescriptors = Object.freeze<Record<PostType, PostTypeDescri
     titleMultipleRu: 'Видео',
     letter: 'V',
     aspectRatio: '16/9',
+    strict: true,
+    topicId: 'video',
   },
   clip: {
     title: 'Clip',
@@ -218,6 +227,8 @@ export const postTypeDescriptors = Object.freeze<Record<PostType, PostTypeDescri
     titleMultipleRu: 'Клипы',
     letter: 'C',
     aspectRatio: '1/1',
+    strict: true,
+    topicId: 'clip',
   },
   redrawing: {
     title: 'Redrawing',
@@ -226,6 +237,7 @@ export const postTypeDescriptors = Object.freeze<Record<PostType, PostTypeDescri
     titleMultipleRu: 'Перерисовки',
     letter: 'R',
     aspectRatio: '1/1',
+    topicId: 'redrawing',
   },
   wallpaper: {
     title: 'Wallpaper',
@@ -234,6 +246,8 @@ export const postTypeDescriptors = Object.freeze<Record<PostType, PostTypeDescri
     titleMultipleRu: 'Обои',
     letter: 'W',
     aspectRatio: '16/9',
+    strict: true,
+    topicId: 'wallpaper',
   },
   'wallpaper-v': {
     title: 'Vertical Wallpaper',
@@ -242,6 +256,8 @@ export const postTypeDescriptors = Object.freeze<Record<PostType, PostTypeDescri
     titleMultipleRu: 'Вертикальные обои',
     letter: 'M',
     aspectRatio: '9/19.5',
+    strict: true,
+    topicId: 'wallpaper-v',
   },
   mention: {
     title: 'Mention',
@@ -249,6 +265,7 @@ export const postTypeDescriptors = Object.freeze<Record<PostType, PostTypeDescri
     titleMultiple: 'Mentions',
     titleMultipleRu: 'Упоминания',
     letter: 'M',
+    topicId: 'mention',
   },
   news: {
     title: 'News',
@@ -256,6 +273,7 @@ export const postTypeDescriptors = Object.freeze<Record<PostType, PostTypeDescri
     titleMultiple: 'News',
     titleMultipleRu: 'Новости',
     letter: 'N',
+    topicId: 'news',
   },
   photoshop: {
     title: 'Photoshop',
@@ -263,6 +281,7 @@ export const postTypeDescriptors = Object.freeze<Record<PostType, PostTypeDescri
     titleMultiple: 'Photoshops',
     titleMultipleRu: 'Фотомонтажи',
     letter: 'P',
+    topicId: 'photoshop',
   },
   outtakes: {
     title: 'Outtakes',
@@ -270,6 +289,7 @@ export const postTypeDescriptors = Object.freeze<Record<PostType, PostTypeDescri
     titleMultiple: 'Outtakes',
     titleMultipleRu: 'Невошедшее',
     letter: 'E',
+    topicId: 'outtakes',
   },
   achievement: {
     title: 'Achievement',
@@ -277,6 +297,7 @@ export const postTypeDescriptors = Object.freeze<Record<PostType, PostTypeDescri
     titleMultiple: 'Achievements',
     titleMultipleRu: 'Достижения',
     letter: 'A',
+    topicId: 'achievement',
   },
 });
 
@@ -293,9 +314,9 @@ export const postMarkDescriptors = Object.freeze<Record<PostMark, PostMarkDescri
 
 export const postViolationDescriptors = Object.freeze<Record<PostViolation, PostViolationDescriptor>>({
   'inappropriate-content': { title: 'Inappropriate content', letter: 'C', topicId: 'appropriate-content' },
-  'jpeg-artifacts': { title: 'JPEG artifacts', letter: 'J', topicId: 'no-jpeg-artifacts' },
-  'graphic-issues': { title: 'Graphic issues', letter: 'G', topicId: 'no-graphic-issues' },
-  'no-anti-aliasing': { title: 'No anti-aliasing', topicId: 'anti-aliasing', letter: 'A' },
+  'jpeg-artifacts': { title: 'JPEG artifacts', letter: 'J', topicId: 'no-jpeg-artifacts', strict: true },
+  'graphic-issues': { title: 'Graphic issues', letter: 'G', topicId: 'no-graphic-issues', strict: true },
+  'no-anti-aliasing': { title: 'No anti-aliasing', topicId: 'anti-aliasing', letter: 'A', strict: true },
   'non-vanilla-look': { title: 'Non-vanilla look', topicId: 'vanilla-look', letter: 'N' },
   'uses-mods': {
     title: 'Uses or requires mods',
@@ -306,6 +327,7 @@ export const postViolationDescriptors = Object.freeze<Record<PostViolation, Post
     title: 'UI is visible',
     topicId: 'no-ui',
     letter: 'U',
+    strict: true,
   },
   'unreachable-resource': {
     title: 'Unreachable resource',
