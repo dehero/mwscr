@@ -2723,7 +2723,7 @@ kawazaky223:
   profiles:
     - service: tg
       id: '5641856113'
-      updated: 2025-10-31-18-34-44
+      updated: 2025-10-31-19-09-00
       accessHash: '7421309771527577818'
       username: Kawazaky223
       name: Максим
@@ -3679,6 +3679,15 @@ noeld-wizard:
       username: NoeldWizard
       name: Karimov 🐺
       avatar: store:/avatars/tg-2025028830857635795.jpg
+nogodcomplex:
+  profiles:
+    - service: tg
+      id: '598230752'
+      updated: 2025-10-31-19-08-54
+      accessHash: '1286169933223853262'
+      username: nogodcomplex
+      name: emptymind
+      avatar: store:/avatars/tg-2569381515757725770.jpg
 non-nobis777:
   profiles:
     - service: ig
@@ -4044,7 +4053,7 @@ pohotlivaya-argonianskaya-deva:
   profiles:
     - service: tg
       id: '754205623'
-      updated: 2025-10-31-18-16-02
+      updated: 2025-10-31-19-09-01
       accessHash: '-9198477663948575721'
       username: PohotlivayaArgonianskayaDeva
       name: Илья
@@ -4468,11 +4477,11 @@ scrl-p:
   profiles:
     - service: tg
       id: '6913665337'
-      updated: 2025-10-30-18-15-11
+      updated: 2025-10-31-19-09-01
       accessHash: '3180581473506029907'
       username: ScrlP
       name: 𝐃𝐫𝐞𝐚𝐦𝐂𝐚𝐭𝐜𝐡𝐞𝐫
-      avatar: store:/avatars/tg-5463127976389508015.jpg
+      avatar: store:/avatars/tg-5197596287648790845.jpg
 scrolls-of-harmony:
   profiles:
     - service: ig
@@ -4551,7 +4560,7 @@ sergey-b-2:
   profiles:
     - service: vk
       id: '1077446394'
-      updated: 2025-10-31-18-16-14
+      updated: 2025-10-31-19-08-51
       username: id1077446394
       name: Сергей Б
       avatar: store:/avatars/vk-12075792.jpg
@@ -5648,7 +5657,7 @@ vail-astor-zkiy:
   profiles:
     - service: tg
       id: '1245638625'
-      updated: 2025-10-31-12-22-19
+      updated: 2025-10-31-19-09-01
       accessHash: '-6135365331334675689'
       name: Vail Astor'zkiy
 valeriy-zhmishenko:
@@ -6038,7 +6047,7 @@ yellow-submarine:
   profiles:
     - service: vk
       id: '21865013'
-      updated: 2025-10-31-18-16-14
+      updated: 2025-10-31-19-08-51
       username: id21865013
       name: Yellow Submarine
       avatar: store:/avatars/vk-0251fbbd.jpg
