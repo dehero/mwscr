@@ -92,7 +92,7 @@ a2-enkelli:
   profiles:
     - service: tg
       id: '7258424423'
-      updated: 2025-10-31-17-11-16
+      updated: 2025-10-31-18-34-44
       accessHash: '969825927170686844'
       username: A2_Enkelli
       name: †† elli ††
@@ -101,7 +101,7 @@ aarychagoff:
   profiles:
     - service: tg
       id: '1343549669'
-      updated: 2025-10-30-00-55-38
+      updated: 2025-10-31-18-34-44
       accessHash: '-8044934406214364524'
       username: aarychagoff
       name: Andrei Rychagov
@@ -271,7 +271,7 @@ aleksey-yeskela:
   profiles:
     - service: vk
       id: '1047357639'
-      updated: 2025-10-30-18-15-10
+      updated: 2025-10-31-18-16-10
       username: id1047357639
       name: Алексей Йескела
       avatar: store:/avatars/vk-893f32cb.jpg
@@ -447,7 +447,7 @@ ansis:
   profiles:
     - service: tg
       id: '517050552'
-      updated: 2025-10-30-21-10-14
+      updated: 2025-10-31-18-16-00
       accessHash: '5231096655311395455'
       username: ansis
       name: ansis
@@ -545,7 +545,7 @@ artyom-melikhoff:
   profiles:
     - service: vk
       id: '299405149'
-      updated: 2025-10-30-03-58-25
+      updated: 2025-10-31-18-34-44
       username: artyom_melikhoff
       name: Артём Мелихов
       avatar: store:/avatars/vk-4c16e471.jpg
@@ -1488,7 +1488,7 @@ dmrashodov:
   profiles:
     - service: vk
       id: '1070374914'
-      updated: 2025-10-30-20-11-56
+      updated: 2025-10-31-18-16-14
       username: dmrashodov
       name: Дмитрий Расходов
       avatar: store:/avatars/vk-4c59a7d8.jpg
@@ -1832,7 +1832,7 @@ feanor2la:
   profiles:
     - service: vk
       id: '16294877'
-      updated: 2025-10-30-18-15-13
+      updated: 2025-10-31-18-16-14
       username: feanor2la
       name: Иван Урлапов
       avatar: store:/avatars/vk-9f79c7ac.jpg
@@ -2351,7 +2351,7 @@ ilya-denisov:
   profiles:
     - service: vk
       id: '134482858'
-      updated: 2025-10-30-18-15-13
+      updated: 2025-10-31-18-16-13
       username: id134482858
       name: Илья Денисов
       avatar: store:/avatars/vk-45d9d8dd.jpg
@@ -2367,7 +2367,7 @@ ilya-nikitin:
   profiles:
     - service: vk
       id: '13566712'
-      updated: 2025-10-30-18-15-11
+      updated: 2025-10-31-18-16-11
       username: id13566712
       name: Илья Никитин
       avatar: store:/avatars/vk-f351ba78.jpg
@@ -2723,7 +2723,7 @@ kawazaky223:
   profiles:
     - service: tg
       id: '5641856113'
-      updated: 2025-10-31-17-11-14
+      updated: 2025-10-31-18-34-44
       accessHash: '7421309771527577818'
       username: Kawazaky223
       name: Максим
@@ -3183,6 +3183,14 @@ martin-freeeman:
       accessHash: '2151534684860554385'
       username: Martin_Freeeman
       name: Martin Freeman
+marylingoth2007:
+  profiles:
+    - service: vk
+      id: '590330773'
+      updated: 2025-10-31-18-16-04
+      username: marylingoth2007
+      name: Мэрилин Гот Скриптум
+      avatar: store:/avatars/vk-678f5704.jpg
 marysbelt:
   profiles:
     - service: ig
@@ -3541,6 +3549,10 @@ nafaninn:
       username: nafaninn
       name: Ivan Narozhny
       avatar: store:/avatars/ig-ef9f231d.jpg
+namejs25:
+  profiles:
+    - service: ig
+      username: namejs25
 nars-mcain:
   profiles:
     - service: yt
@@ -4032,7 +4044,7 @@ pohotlivaya-argonianskaya-deva:
   profiles:
     - service: tg
       id: '754205623'
-      updated: 2025-10-30-18-15-10
+      updated: 2025-10-31-18-16-02
       accessHash: '-9198477663948575721'
       username: PohotlivayaArgonianskayaDeva
       name: Илья
@@ -4539,7 +4551,7 @@ sergey-b-2:
   profiles:
     - service: vk
       id: '1077446394'
-      updated: 2025-10-31-17-11-15
+      updated: 2025-10-31-18-16-14
       username: id1077446394
       name: Сергей Б
       avatar: store:/avatars/vk-12075792.jpg
@@ -4547,7 +4559,7 @@ sergey-churbanov:
   profiles:
     - service: vk
       id: '1060712354'
-      updated: 2025-10-31-12-22-21
+      updated: 2025-10-31-18-16-16
       username: id1060712354
       name: Сергей Чурбанов
       avatar: store:/avatars/vk-6499ce8d.jpg
@@ -6026,7 +6038,7 @@ yellow-submarine:
   profiles:
     - service: vk
       id: '21865013'
-      updated: 2025-10-31-17-11-15
+      updated: 2025-10-31-18-16-14
       username: id21865013
       name: Yellow Submarine
       avatar: store:/avatars/vk-0251fbbd.jpg
