@@ -92,7 +92,7 @@ a2-enkelli:
   profiles:
     - service: tg
       id: '7258424423'
-      updated: 2025-10-30-23-09-54
+      updated: 2025-10-31-00-48-09
       accessHash: '969825927170686844'
       username: A2_Enkelli
       name: †† elli ††
@@ -854,7 +854,7 @@ brg1092:
   profiles:
     - service: tg
       id: '5867861906'
-      updated: 2025-10-30-00-51-33
+      updated: 2025-10-31-00-48-10
       accessHash: '4411929981434940281'
       username: brg1092
       name: 2𝜋
@@ -1328,7 +1328,7 @@ dehero:
     - type: channel
       service: tg
       id: '1264795946'
-      updated: 2025-10-30-20-11-57
+      updated: 2025-10-31-00-48-11
       accessHash: '-5789257269249675714'
       username: mwscr
       name: Morrowind Screenshots
@@ -2723,7 +2723,7 @@ kawazaky223:
   profiles:
     - service: tg
       id: '5641856113'
-      updated: 2025-10-30-23-09-56
+      updated: 2025-10-31-00-48-10
       accessHash: '7421309771527577818'
       username: Kawazaky223
       name: Максим
@@ -4539,7 +4539,7 @@ sergey-b-2:
   profiles:
     - service: vk
       id: '1077446394'
-      updated: 2025-10-30-23-09-54
+      updated: 2025-10-31-00-48-08
       username: id1077446394
       name: Сергей Б
       avatar: store:/avatars/vk-12075792.jpg
