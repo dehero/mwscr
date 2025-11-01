@@ -2723,7 +2723,7 @@ kawazaky223:
   profiles:
     - service: tg
       id: '5641856113'
-      updated: 2025-11-01-05-10-31
+      updated: 2025-11-01-06-14-36
       accessHash: '7421309771527577818'
       username: Kawazaky223
       name: Максим
@@ -3683,7 +3683,7 @@ nogodcomplex:
   profiles:
     - service: tg
       id: '598230752'
-      updated: 2025-11-01-05-10-28
+      updated: 2025-11-01-06-14-34
       accessHash: '1286169933223853262'
       username: nogodcomplex
       name: emptymind
@@ -3957,7 +3957,7 @@ peteevandrew:
   profiles:
     - service: vk
       id: '307619379'
-      updated: 2025-11-01-05-10-32
+      updated: 2025-11-01-06-14-35
       username: peteevandrew
       name: Андрей Петеев
       avatar: store:/avatars/vk-d3f26d8e.jpg
@@ -4560,7 +4560,7 @@ sergey-b-2:
   profiles:
     - service: vk
       id: '1077446394'
-      updated: 2025-11-01-05-10-31
+      updated: 2025-11-01-06-14-35
       username: id1077446394
       name: Сергей Б
       avatar: store:/avatars/vk-12075792.jpg
@@ -4770,7 +4770,7 @@ sol-sunich:
   profiles:
     - service: tg
       id: '1017031108'
-      updated: 2025-11-01-05-10-27
+      updated: 2025-11-01-06-14-34
       accessHash: '-8600220183224537901'
       username: sol_sunich
       name: ⊙
@@ -6047,7 +6047,7 @@ yellow-submarine:
   profiles:
     - service: vk
       id: '21865013'
-      updated: 2025-11-01-05-10-32
+      updated: 2025-11-01-06-14-35
       username: id21865013
       name: Yellow Submarine
       avatar: store:/avatars/vk-0251fbbd.jpg
