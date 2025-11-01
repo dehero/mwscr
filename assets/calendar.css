@@ -1,0 +1,154 @@
+:root {
+  --color-text: #caa560;
+  --color-text-light: #dfc89e;
+  --color-background: #000000;
+  --color-text-selected: #6070ca;
+  --color-text-selected-hover: #9ea8df;
+  --color-border: #ac8d54;
+  font-family: MysticCards, serif;
+  font-size: 80px;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  background: var(--color-background);
+  color: var(--color-text);
+  width: 3508px;
+  height: 4961px;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.cover-page {
+  display: flex;
+  flex-flow: column nowrap;
+  gap: 1rem;
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo {
+  border-radius: 50%;
+  width: 1500px;
+  height: 1500px;
+}
+
+.name {
+  font-size: 1.75em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  color: var(--color-text-light);
+}
+
+.info {
+  display: flex;
+  align-items: baseline;
+  justify-content: center;
+  gap: 1rem;
+  margin: 0;
+}
+
+.prefix {
+  font-size: 1.75rem;
+  display: inline-block;
+}
+
+.year {
+  font-size: 2rem;
+  display: inline-block;
+}
+
+.month-page {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+}
+
+.image {
+  flex: 1 1 auto;
+  position: relative;
+  min-height: 0;
+}
+
+.screenshot {
+  object-fit: cover;
+  object-position: center;
+  width: 100%;
+  height: 100%;
+}
+
+.title {
+  position: absolute;
+  font-size: 1.75em;
+  bottom: 1rem;
+  right: 1.75rem;
+  color: var(--color-text-light);
+  text-shadow: 5px 5px 5px black;
+}
+
+.calendar {
+  flex: 0 0 auto;
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 1.5rem;
+  box-sizing: border-box;
+}
+
+.weekdays {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  grid-auto-rows: 3.5rem;
+}
+
+.weekday {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.75rem;
+  color: var(--color-text-light);
+  box-sizing: border-box;
+}
+
+.weekday.highlighted {
+  color: var(--color-text-selected);
+}
+
+.days {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  grid-auto-rows: 3.5rem;
+  flex: 1;
+}
+
+.day {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2.25rem;
+  box-sizing: border-box;
+}
+
+.day.highlighted {
+  color: var(--color-text-selected);
+}
+
+.footer {
+  font-family: 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
+  font-size: 0.75rem;
+  color: var(--color-border);
+  flex: 0 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 1.5rem;
+  display: flex;
+  flex-flow: row nowrap;
+  gap: 1rem;
+}

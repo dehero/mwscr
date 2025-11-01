@@ -1,10 +1,9 @@
 import { readFile } from 'fs/promises';
-import sharp from 'sharp';
 import { markdownToText } from '../../core/entities/markdown.js';
 import type { Post } from '../../core/entities/post.js';
 import { asArray } from '../../core/utils/common-utils.js';
-import { readResource } from '../data-managers/resources.js';
 import { htmlToImage } from '../utils/image-utils.js';
+import { getResourceForHtml } from './utils/resource-utils.js';
 
 let storyStyle: string | undefined;
 let fontDataUrl: string | undefined;
@@ -75,8 +74,8 @@ export async function createStoryHtml({
     }
   }
 
-  const image = await getResourceForStoryHtml(imageUrl);
-  const refImage = refImageUrl ? await getResourceForStoryHtml(refImageUrl) : undefined;
+  const image = await getResourceForHtml(imageUrl);
+  const refImage = refImageUrl ? await getResourceForHtml(refImageUrl) : undefined;
 
   const { text, links } = description ? markdownToText(description) : {};
 
@@ -103,16 +102,4 @@ export async function createStoryHtml({
 </body>
 </html>
 `;
-}
-
-async function getResourceForStoryHtml(url: string) {
-  const [imageData, imageMimeType] = await readResource(url);
-  const metadata = await sharp(imageData).metadata();
-  const heightMultiplier = metadata.height && metadata.width ? metadata.height / metadata.width : 0;
-  const dataUrl = `data:${imageMimeType};base64,${imageData.toString('base64')}`;
-
-  return {
-    dataUrl,
-    heightMultiplier,
-  };
 }
