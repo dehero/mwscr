@@ -447,7 +447,7 @@ ansis:
   profiles:
     - service: tg
       id: '517050552'
-      updated: 2025-11-01-19-07-58
+      updated: 2025-11-01-20-09-59
       accessHash: '5231096655311395455'
       username: ansis
       name: ansis
@@ -1488,7 +1488,7 @@ dmrashodov:
   profiles:
     - service: vk
       id: '1070374914'
-      updated: 2025-11-01-19-08-03
+      updated: 2025-11-01-20-09-58
       username: dmrashodov
       name: Дмитрий Расходов
       avatar: store:/avatars/vk-4c59a7d8.jpg
@@ -2723,7 +2723,7 @@ kawazaky223:
   profiles:
     - service: tg
       id: '5641856113'
-      updated: 2025-11-01-19-07-58
+      updated: 2025-11-01-20-10-06
       accessHash: '7421309771527577818'
       username: Kawazaky223
       name: Максим
@@ -2753,7 +2753,7 @@ kevy-c:
   profiles:
     - service: tg
       id: '5067683234'
-      updated: 2025-11-01-19-07-39
+      updated: 2025-11-01-20-09-57
       accessHash: '-903667913374325979'
       username: Kevy_c
       name: Dash
@@ -3683,7 +3683,7 @@ nogodcomplex:
   profiles:
     - service: tg
       id: '598230752'
-      updated: 2025-11-01-19-07-44
+      updated: 2025-11-01-20-09-59
       accessHash: '1286169933223853262'
       username: nogodcomplex
       name: emptymind
@@ -4053,7 +4053,7 @@ pohotlivaya-argonianskaya-deva:
   profiles:
     - service: tg
       id: '754205623'
-      updated: 2025-10-31-19-09-01
+      updated: 2025-11-01-20-10-02
       accessHash: '-9198477663948575721'
       username: PohotlivayaArgonianskayaDeva
       name: Илья
@@ -4460,7 +4460,7 @@ scion-of-balance:
   profiles:
     - service: tg
       id: '5834663294'
-      updated: 2025-10-31-12-21-58
+      updated: 2025-11-01-20-10-04
       accessHash: '-2758740287553358448'
       username: quartzbaluarte
       name: Quartz
@@ -4477,11 +4477,9 @@ scrl-p:
   profiles:
     - service: tg
       id: '6913665337'
-      updated: 2025-10-31-19-09-01
+      updated: 2025-11-01-20-10-03
       accessHash: '3180581473506029907'
-      username: ScrlP
       name: 𝐃𝐫𝐞𝐚𝐦𝐂𝐚𝐭𝐜𝐡𝐞𝐫
-      avatar: store:/avatars/tg-5197596287648790845.jpg
 scrolls-of-harmony:
   profiles:
     - service: ig
@@ -4770,7 +4768,7 @@ sol-sunich:
   profiles:
     - service: tg
       id: '1017031108'
-      updated: 2025-11-01-19-07-41
+      updated: 2025-11-01-20-09-59
       accessHash: '-8600220183224537901'
       username: sol_sunich
       name: ⊙
@@ -5657,7 +5655,7 @@ vail-astor-zkiy:
   profiles:
     - service: tg
       id: '1245638625'
-      updated: 2025-10-31-20-12-29
+      updated: 2025-11-01-20-10-03
       accessHash: '-6135365331334675689'
       name: Vail Astor'zkiy
 valeriy-zhmishenko:
