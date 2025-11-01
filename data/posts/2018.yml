@@ -2887,10 +2887,10 @@
     - service: vk
       id: 2522
       published: 2025-07-18-18-24-20
-      updated: 2025-10-25-05-10-01
+      updated: 2025-11-01-05-10-37
       followers: 1345
       likes: 34
-      views: 472
+      views: 476
     - service: tg
       id: 921
       published: 2025-07-18-18-24-24
@@ -8978,7 +8978,7 @@
       id: DMO-hjNo1OE
       mediaId: '18197350498311168'
       published: 2025-07-18-03-27-16
-      updated: 2025-10-25-05-10-04
+      updated: 2025-11-01-05-10-41
       followers: 1568
       likes: 46
 2018-07-27-the-book-of-dawn-and-dusk:
@@ -11070,7 +11070,7 @@
       id: DMQQCL-MZcJ
       mediaId: '18064094723186502'
       published: 2025-07-18-15-19-27
-      updated: 2025-10-25-05-09-58
+      updated: 2025-11-01-05-10-36
       followers: 1568
       likes: 77
 2018-09-11-galmis-dren-smuggler:
@@ -12000,21 +12000,21 @@
       id: DMlOV1HNDFf
       mediaId: '18383403958193251'
       published: 2025-07-26-18-48-46
-      updated: 2025-10-25-05-09-56
+      updated: 2025-11-01-05-10-34
       followers: 1574
       likes: 63
     - service: vk
       id: 2535
       published: 2025-07-26-18-48-52
-      updated: 2025-10-25-05-09-59
+      updated: 2025-11-01-05-10-35
       followers: 1351
       likes: 31
-      views: 409
+      views: 412
       comments: !c ixWAkZPLQnmEpjiXAACwc2VyZ2V5LWNodXJiYW5vdq9aYSAgTW9ycm93aW5kISED
     - service: tg
       id: 928
       published: 2025-07-26-18-48-55
-      updated: 2025-10-25-05-09-57
+      updated: 2025-11-01-05-10-31
       followers: 767
       likes: 74
       views: 602
@@ -14047,24 +14047,26 @@
       id: DQe95I7iTBB
       mediaId: '18082803599045543'
       published: 2025-10-31-18-35-10
-      updated: 2025-11-01-04-12-16
+      updated: 2025-11-01-05-10-30
       followers: 1587
-      likes: 27
+      likes: 28
     - service: vk
       id: 2802
       published: 2025-10-31-18-35-16
-      updated: 2025-11-01-04-12-13
+      updated: 2025-11-01-05-10-24
       followers: 1492
-      likes: 22
-      views: 96
+      likes: 28
+      views: 118
     - service: tg
       id: 1036
       published: 2025-10-31-18-35-21
-      updated: 2025-11-01-04-12-17
+      updated: 2025-11-01-05-10-28
       followers: 850
       likes: 35
-      views: 128
-      comments: !c CxmAkZPLQnmjuRwBgACsbm9nb2Rjb21wbGV4utC+0Ycg0LrRgNGD0YLQvtC5INGB0LDQudGCAw==
+      views: 134
+      comments: !c |-
+        G2QA+MV/ONc24QSZyEj7sqzKbuddtgS5et9P4BqDWixaSQaBC0DH2HmqteWPc+rMoZBJKoVSOqbZ
+        AebwEeGBEJGMO41k3KhOzf90sobLszqlM1ZGT4KHiHoyPKpTi5qI4M4G
 2018-11-11-through-the-snowy-forest:
   title: Through the Snowy Forest
   titleRu: Сквозь заснеженный лес
