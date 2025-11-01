@@ -3339,18 +3339,18 @@
     - service: vk
       id: 2646
       published: 2025-09-12-18-24-54
-      updated: 2025-10-25-02-19-09
+      updated: 2025-11-01-02-27-26
       followers: 1417
-      likes: 30
-      views: 323
+      likes: 31
+      views: 333
       reposts: 2
     - service: tg
       id: 981
       published: 2025-09-12-18-25-00
-      updated: 2025-10-25-02-19-10
+      updated: 2025-11-01-02-27-22
       followers: 798
       likes: 69
-      views: 554
+      views: 560
       comments: !c |-
         GwABQByFcSwsvLxpNjuhco/4rxvpjR/4EZdm2Qk2vwCbIMKTfeq2pf6Qm13YD4OhzFK8PI1AQOOL
         omkLuDTUZWPSXFjmF+3VDY54IB2GYYEBG2TgwQZbfN1ht7HzFHxmFI1+rmepWd+XLf5jK3Wj45pz
@@ -14047,23 +14047,23 @@
       id: DQe95I7iTBB
       mediaId: '18082803599045543'
       published: 2025-10-31-18-35-10
-      updated: 2025-11-01-00-52-19
+      updated: 2025-11-01-02-27-21
       followers: 1587
-      likes: 22
+      likes: 26
     - service: vk
       id: 2802
       published: 2025-10-31-18-35-16
-      updated: 2025-11-01-00-52-15
+      updated: 2025-11-01-02-27-15
       followers: 1492
-      likes: 17
-      views: 67
+      likes: 18
+      views: 75
     - service: tg
       id: 1036
       published: 2025-10-31-18-35-21
-      updated: 2025-11-01-00-52-21
+      updated: 2025-11-01-02-27-19
       followers: 850
-      likes: 31
-      views: 121
+      likes: 32
+      views: 122
       comments: !c CxmAkZPLQnmjuRwBgACsbm9nb2Rjb21wbGV4utC+0Ycg0LrRgNGD0YLQvtC5INGB0LDQudGCAw==
 2018-11-11-through-the-snowy-forest:
   title: Through the Snowy Forest

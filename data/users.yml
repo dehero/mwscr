@@ -464,7 +464,7 @@ anton-mezhuev:
   profiles:
     - service: vk
       id: '63571521'
-      updated: 2025-10-30-02-29-50
+      updated: 2025-11-01-02-27-28
       username: id63571521
       name: Антон Межуев
       avatar: store:/avatars/vk-295e8e4f.jpg
@@ -854,7 +854,7 @@ brg1092:
   profiles:
     - service: tg
       id: '5867861906'
-      updated: 2025-10-31-00-48-10
+      updated: 2025-11-01-02-27-22
       accessHash: '4411929981434940281'
       username: brg1092
       name: 2𝜋
@@ -2723,7 +2723,7 @@ kawazaky223:
   profiles:
     - service: tg
       id: '5641856113'
-      updated: 2025-11-01-00-52-24
+      updated: 2025-11-01-02-27-24
       accessHash: '7421309771527577818'
       username: Kawazaky223
       name: Максим
@@ -3683,7 +3683,7 @@ nogodcomplex:
   profiles:
     - service: tg
       id: '598230752'
-      updated: 2025-11-01-00-52-21
+      updated: 2025-11-01-02-27-19
       accessHash: '1286169933223853262'
       username: nogodcomplex
       name: emptymind
@@ -3957,7 +3957,7 @@ peteevandrew:
   profiles:
     - service: vk
       id: '307619379'
-      updated: 2025-10-31-23-10-38
+      updated: 2025-11-01-02-27-24
       username: peteevandrew
       name: Андрей Петеев
       avatar: store:/avatars/vk-d3f26d8e.jpg
@@ -4560,7 +4560,7 @@ sergey-b-2:
   profiles:
     - service: vk
       id: '1077446394'
-      updated: 2025-11-01-00-52-21
+      updated: 2025-11-01-02-27-23
       username: id1077446394
       name: Сергей Б
       avatar: store:/avatars/vk-12075792.jpg
@@ -4568,7 +4568,7 @@ sergey-churbanov:
   profiles:
     - service: vk
       id: '1060712354'
-      updated: 2025-10-31-18-16-16
+      updated: 2025-11-01-02-27-27
       username: id1060712354
       name: Сергей Чурбанов
       avatar: store:/avatars/vk-6499ce8d.jpg
@@ -5247,7 +5247,7 @@ todor:
   profiles:
     - service: tg
       id: '1305695186'
-      updated: 2025-10-30-02-28-01
+      updated: 2025-11-01-02-27-22
       accessHash: '8819682207926865502'
       name: Todor
       avatar: store:/avatars/tg-5305295556123424826.jpg
@@ -6047,7 +6047,7 @@ yellow-submarine:
   profiles:
     - service: vk
       id: '21865013'
-      updated: 2025-11-01-00-52-21
+      updated: 2025-11-01-02-27-23
       username: id21865013
       name: Yellow Submarine
       avatar: store:/avatars/vk-0251fbbd.jpg
