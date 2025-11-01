@@ -1,5 +1,4 @@
 import { readFile } from 'fs/promises';
-import sharp from 'sharp';
 import { markdownToText } from '../../core/entities/markdown.js';
 import type { Post } from '../../core/entities/post.js';
 import { getUserEntryAvatar, getUserEntryTitle, getUserEntryTitleRu } from '../../core/entities/user.js';
@@ -7,6 +6,7 @@ import { asArray } from '../../core/utils/common-utils.js';
 import { readResource } from '../data-managers/resources.js';
 import { users } from '../data-managers/users.js';
 import { htmlToImage } from '../utils/image-utils.js';
+import { getResourceForHtml } from './utils/resource-utils.js';
 
 let storyStyle: string | undefined;
 let fontDataUrl: string | undefined;
@@ -143,16 +143,4 @@ export async function createStoryHtml({
 </body>
 </html>
 `;
-}
-
-async function getResourceForStoryHtml(url: string) {
-  const [imageData, imageMimeType] = await readResource(url);
-  const metadata = await sharp(imageData).metadata();
-  const heightMultiplier = metadata.height && metadata.width ? metadata.height / metadata.width : 0;
-  const dataUrl = `data:${imageMimeType};base64,${imageData.toString('base64')}`;
-
-  return {
-    dataUrl,
-    heightMultiplier,
-  };
 }
