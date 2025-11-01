@@ -1,12 +1,11 @@
 import { readFile } from 'fs/promises';
-import sharp from 'sharp';
 import { markdownToText } from '../../core/entities/markdown.ts';
 import type { Post } from '../../core/entities/post.ts';
 import { getUserEntryAvatar, getUserEntryTitle, getUserEntryTitleRu } from '../../core/entities/user.ts';
 import { asArray } from '../../core/utils/common-utils.ts';
-import { readResource } from '../data-managers/resources.ts';
 import { users } from '../data-managers/users.ts';
 import { htmlToImage } from '../utils/image-utils.ts';
+import { getResourceForHtml } from './utils/resource-utils.ts';
 
 let storyStyle: string | undefined;
 let fontDataUrl: string | undefined;
@@ -109,9 +108,9 @@ export async function createStoryHtml({
     }
   }
 
-  const image = await getResourceForStoryHtml(imageUrl);
-  const refImage = refImageUrl ? await getResourceForStoryHtml(refImageUrl) : undefined;
-  const avatar = avatarUrl ? await getResourceForStoryHtml(avatarUrl) : undefined;
+  const image = await getResourceForHtml(imageUrl);
+  const refImage = refImageUrl ? await getResourceForHtml(refImageUrl) : undefined;
+  const avatar = avatarUrl ? await getResourceForHtml(avatarUrl) : undefined;
 
   const { text, links } = description ? markdownToText(description) : {};
 
@@ -143,16 +142,4 @@ export async function createStoryHtml({
 </body>
 </html>
 `;
-}
-
-async function getResourceForStoryHtml(url: string) {
-  const [imageData, imageMimeType] = await readResource(url);
-  const metadata = await sharp(imageData).metadata();
-  const heightMultiplier = metadata.height && metadata.width ? metadata.height / metadata.width : 0;
-  const dataUrl = `data:${imageMimeType};base64,${imageData.toString('base64')}`;
-
-  return {
-    dataUrl,
-    heightMultiplier,
-  };
 }
