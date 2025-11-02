@@ -111,9 +111,9 @@
       id: DQXNae8lznM
       mediaId: '18167023342337908'
       published: 2025-10-28-18-16-52
-      updated: 2025-11-01-19-07-46
+      updated: 2025-11-02-19-08-00
       followers: 1587
-      likes: 48
+      likes: 49
       comments: !c |-
         izSAkZPLQnmizkVagACtZGFuaWVsbGUtaGlpadlPWW91IGtub3cgdGhlcmVzIGF0bGVhc3QgMiBO
         UENzIGp1c3QgZHlpbmcgdG8gZGlyZWN0IHlvdSB0byBnbyB0aHJvdWdoIHRoYXQgYXJjaAM=
@@ -10861,15 +10861,23 @@
       id: DQkFDBYjHfY
       mediaId: '17877549345425801'
       published: 2025-11-02-18-13-51
+      updated: 2025-11-02-19-07-53
       followers: 1588
+      likes: 13
     - service: vk
       id: 2808
       published: 2025-11-02-18-13-57
+      updated: 2025-11-02-19-07-49
       followers: 1495
+      likes: 3
+      views: 20
     - service: tg
       id: 1038
       published: 2025-11-02-18-14-01
+      updated: 2025-11-02-19-07-50
       followers: 851
+      likes: 26
+      views: 76
 2018-09-07-red-light:
   title: Red Light
   titleRu: Красный фонарь
