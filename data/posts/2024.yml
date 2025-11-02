@@ -2654,10 +2654,10 @@
     - service: tg
       id: 982
       published: 2025-09-13-18-25-07
-      updated: 2025-10-26-02-26-52
+      updated: 2025-11-02-02-30-44
       followers: 799
       likes: 64
-      views: 513
+      views: 517
       comments: !c |-
         G3sA4OV/LvdBDnzqbbCz0wMbYxUFNtb0XsAFlAZSbnDAnmABBpbl2jhswI0Lb8OQPfv9t9gYnuUd
         wNUyotRhnb6Tze/Zzt/BHCFbcPeUSmkqXoPnhcN/PXnolvcvgIuqpAplRvWHlQClXxmFmsUKwXm0
@@ -3104,23 +3104,23 @@
       id: DQhgUJcDPva
       mediaId: '18393361645127916'
       published: 2025-11-01-18-14-25
-      updated: 2025-11-02-00-52-48
+      updated: 2025-11-02-02-30-46
       followers: 1588
-      likes: 29
+      likes: 30
     - service: vk
       id: 2805
       published: 2025-11-01-18-14-32
-      updated: 2025-11-02-00-52-45
+      updated: 2025-11-02-02-30-36
       followers: 1494
-      likes: 27
-      views: 106
+      likes: 28
+      views: 122
     - service: tg
       id: 1037
       published: 2025-11-01-18-14-36
-      updated: 2025-11-02-00-52-45
+      updated: 2025-11-02-02-30-35
       followers: 850
       likes: 43
-      views: 149
+      views: 154
 2024-10-05-scamp-before-the-throw:
   title: Scamp Before the Throw
   titleRu: Скамп перед броском

@@ -447,7 +447,7 @@ ansis:
   profiles:
     - service: tg
       id: '517050552'
-      updated: 2025-11-02-00-52-52
+      updated: 2025-11-02-02-30-42
       accessHash: '5231096655311395455'
       username: ansis
       name: ansis
@@ -642,7 +642,7 @@ bara-fox:
   profiles:
     - service: tg
       id: '5196274219'
-      updated: 2025-10-30-02-29-52
+      updated: 2025-11-02-02-30-44
       accessHash: '-7229804243629770662'
       username: BaraFox
       name: Bara
@@ -1488,7 +1488,7 @@ dmrashodov:
   profiles:
     - service: vk
       id: '1070374914'
-      updated: 2025-11-02-00-52-51
+      updated: 2025-11-02-02-30-41
       username: dmrashodov
       name: Дмитрий Расходов
       avatar: store:/avatars/vk-4c59a7d8.jpg
@@ -1977,7 +1977,7 @@ georrrrrg:
   profiles:
     - service: tg
       id: '1949040922'
-      updated: 2025-10-30-14-14-24
+      updated: 2025-11-02-02-30-44
       accessHash: '-2007640679099785628'
       username: Georrrrrg
       name: Егор
@@ -2723,7 +2723,7 @@ kawazaky223:
   profiles:
     - service: tg
       id: '5641856113'
-      updated: 2025-11-02-00-52-51
+      updated: 2025-11-02-02-30-44
       accessHash: '7421309771527577818'
       username: Kawazaky223
       name: Максим
@@ -2753,7 +2753,7 @@ kevy-c:
   profiles:
     - service: tg
       id: '5067683234'
-      updated: 2025-11-02-00-52-50
+      updated: 2025-11-02-02-30-41
       accessHash: '-903667913374325979'
       username: Kevy_c
       name: Dash
@@ -3683,7 +3683,7 @@ nogodcomplex:
   profiles:
     - service: tg
       id: '598230752'
-      updated: 2025-11-02-00-52-52
+      updated: 2025-11-02-02-30-43
       accessHash: '1286169933223853262'
       username: nogodcomplex
       name: emptymind
@@ -4768,7 +4768,7 @@ sol-sunich:
   profiles:
     - service: tg
       id: '1017031108'
-      updated: 2025-11-02-00-52-52
+      updated: 2025-11-02-02-30-43
       accessHash: '-8600220183224537901'
       username: sol_sunich
       name: ⊙
