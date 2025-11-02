@@ -1904,16 +1904,16 @@
       id: DPJ-X8KEfAx
       mediaId: '18104289607593685'
       published: 2025-09-28-18-23-56
-      updated: 2025-10-26-21-08-55
+      updated: 2025-11-02-21-09-05
       followers: 1584
       likes: 87
     - service: vk
       id: 2694
       published: 2025-09-28-18-24-03
-      updated: 2025-10-26-21-08-57
+      updated: 2025-11-02-21-09-08
       followers: 1438
-      likes: 57
-      views: 950
+      likes: 58
+      views: 960
       reposts: 2
       comments: !c |-
         G2EA+B0Jti2HFcKzP9pCqIhqR3oxxlmWYJNYpMk+ZnlTuyaqyZgmaQIh23H2M74VWq6wpEEKkZQ0
@@ -1921,10 +1921,10 @@
     - service: tg
       id: 1000
       published: 2025-09-28-18-24-08
-      updated: 2025-10-26-21-08-57
+      updated: 2025-11-02-21-09-09
       followers: 813
       likes: 66
-      views: 553
+      views: 566
       comments: !c |-
         G6wAOIyUbsK8/7nc1wO8ozkrsDDv+c3ZmhRI28e2qBdYQFef8Do50YPxj7eLBp5rnrTlBseJpsUa
         RDYtOuDf9frfHB3byA/gYdQVJ42cOA4qpuV0Og4+uJLYsmKnH3RzJ8/gjtxiC2EJz8gYGGMjGtXr
@@ -3104,24 +3104,24 @@
       id: DQhgUJcDPva
       mediaId: '18393361645127916'
       published: 2025-11-01-18-14-25
-      updated: 2025-11-02-20-10-52
+      updated: 2025-11-02-21-09-03
       followers: 1588
-      likes: 48
+      likes: 49
     - service: vk
       id: 2805
       published: 2025-11-01-18-14-32
-      updated: 2025-11-02-20-10-56
+      updated: 2025-11-02-21-09-04
       followers: 1494
-      likes: 67
-      views: 605
+      likes: 68
+      views: 632
       comments: !c ixiAkZPLQnmkPZrzgACvYWxla3NleS15ZXNrZWxhtk1vcm93aW5kIGZvcmV2ZXLimb7vuI8D
     - service: tg
       id: 1037
       published: 2025-11-01-18-14-36
-      updated: 2025-11-02-20-10-50
+      updated: 2025-11-02-21-09-00
       followers: 850
-      likes: 62
-      views: 247
+      likes: 63
+      views: 249
 2024-10-05-scamp-before-the-throw:
   title: Scamp Before the Throw
   titleRu: Скамп перед броском
