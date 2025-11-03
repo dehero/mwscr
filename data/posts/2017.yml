@@ -6791,11 +6791,11 @@
     - service: vk
       id: 2717
       published: 2025-10-06-18-28-57
-      updated: 2025-10-27-22-10-05
+      updated: 2025-11-03-22-11-05
       followers: 1448
-      likes: 51
-      views: 1439
-      reposts: 2
+      likes: 52
+      views: 1453
+      reposts: 1
       comments: !c |-
         G/YAABwFbnvxDEJH98LQsyICbyN8HWwuURZwCRVpcq9uK6ULZuu4TM/95uA5pCWNBzqgRxRmk9x4
         bnDEAXIWJhrSJNMw0QqD4/DMH6PO6M37+fk52fvH+I4oDIpUKV1FFr62fVc7UDKPJHso9kCntgTa
@@ -6804,10 +6804,10 @@
     - service: tg
       id: 1008
       published: 2025-10-06-18-29-03
-      updated: 2025-10-27-22-09-57
+      updated: 2025-11-03-22-11-03
       followers: 833
-      likes: 60
-      views: 495
+      likes: 61
+      views: 519
       comments: !c ixCAkZPLQnmbzP+3gACra2F3YXpha3kyMjOq8J+nneKAjeKZgAM=
     - service: ig
       id: DPe4iHTicLq
@@ -7277,25 +7277,25 @@
     - service: vk
       id: 2810
       published: 2025-11-03-18-16-27
-      updated: 2025-11-03-21-10-13
+      updated: 2025-11-03-22-10-55
       followers: 1496
-      likes: 16
-      views: 88
+      likes: 21
+      views: 117
       reposts: 1
     - service: tg
       id: 1039
       published: 2025-11-03-18-16-32
-      updated: 2025-11-03-21-10-12
+      updated: 2025-11-03-22-10-54
       followers: 851
-      likes: 34
-      views: 144
+      likes: 36
+      views: 154
     - service: ig
       id: DQmwKWqjwt1
       mediaId: '18162502384381306'
       published: 2025-11-03-19-09-06
-      updated: 2025-11-03-21-10-17
+      updated: 2025-11-03-22-10-58
       followers: 1588
-      likes: 20
+      likes: 25
 2017-06-07-god-of-madness-and-his-follower:
   title: God of Madness and His Follower
   titleRu: Бог безумия и его последователь
@@ -9045,17 +9045,17 @@
       id: DPMjuUhjndT
       mediaId: '17855731008476639'
       published: 2025-09-29-18-28-46
-      updated: 2025-10-27-22-09-56
+      updated: 2025-11-03-22-11-02
       followers: 1585
       likes: 73
       comments: !c iwyAkZPLQnmZdpZbgACpaXN0c2llbGl6pPCflKUD
     - service: vk
       id: 2696
       published: 2025-09-29-18-29-01
-      updated: 2025-10-27-22-10-06
+      updated: 2025-11-03-22-11-07
       followers: 1440
-      likes: 70
-      views: 875
+      likes: 71
+      views: 884
       reposts: 2
       comments: !c |-
         G20BQJwH2TnJjRN8w0LWcFGUZwhfK0EvcsQ6IavsuWyLH3p3BqvBjggTd95Z7gQiDiTINNC7+7ba
@@ -9066,10 +9066,10 @@
     - service: tg
       id: 1001
       published: 2025-09-29-18-29-07
-      updated: 2025-10-27-22-09-58
+      updated: 2025-11-03-22-11-05
       followers: 813
       likes: 72
-      views: 553
+      views: 562
       comments: !c |-
         izqAkpPLQnmZbx85gACra2F3YXpha3kyMjOk8J+PsJTLQnmZbQu7AACrZ29vc2V2aWNoNzaz0Y8g
         0LEg0YLQsNC8INC20LjQu5PLQnmZgZcCAACqYTItZW5rZWxsabrQotCw0Lwg0LrRg9GH0LAg0L7R
