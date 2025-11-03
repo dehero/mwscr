@@ -120,10 +120,10 @@
     - service: vk
       id: 2792
       published: 2025-10-28-18-16-59
-      updated: 2025-11-02-20-10-58
+      updated: 2025-11-03-20-12-42
       followers: 1489
-      likes: 69
-      views: 1289
+      likes: 71
+      views: 1323
       reposts: 2
       comments: !c |-
         GwsCQCwSeI7VcUuhuNx4DVKP/yfuaUv4Zv1/kp1JbKcsiKzAikoiSM6lpqDULRPS4yQJCt88HSld
@@ -135,10 +135,10 @@
     - service: tg
       id: 1033
       published: 2025-10-28-18-17-04
-      updated: 2025-11-02-20-10-56
+      updated: 2025-11-03-20-12-43
       followers: 849
-      likes: 56
-      views: 345
+      likes: 57
+      views: 358
 2018-01-05-guards-of-skyrim-mission-in-ebonheart:
   title: Guards of Skyrim Mission in Ebonheart
   titleRu: Стража миссии Скайрима в Эбенгарде
@@ -3493,16 +3493,16 @@
       id: DPwmvA5DhdI
       mediaId: '18068583380522542'
       published: 2025-10-13-18-27-43
-      updated: 2025-10-27-20-09-42
+      updated: 2025-11-03-20-12-38
       followers: 1586
       likes: 54
     - service: vk
       id: 2733
       published: 2025-10-13-18-27-49
-      updated: 2025-10-27-20-09-43
+      updated: 2025-11-03-20-12-45
       followers: 1469
-      likes: 64
-      views: 1031
+      likes: 65
+      views: 1046
       reposts: 4
       comments: !c |-
         ix6AkZPLQnmeM+qpgACqYXJ5YS1zdGFya9km0JTQsNC70YHRjyDQvNC90LUg0LLQsNGIINCS0LjQ
@@ -3510,10 +3510,10 @@
     - service: tg
       id: 1015
       published: 2025-10-13-18-27-54
-      updated: 2025-10-27-20-09-44
+      updated: 2025-11-03-20-12-45
       followers: 836
-      likes: 70
-      views: 516
+      likes: 73
+      views: 545
       comments: !c |-
         ix2AkpPLQnmeQJVWgACra2F3YXpha3kyMjOk8J+lkJPLQnmd7UgkgACvaDRzaGlyYW1hLXMzbmp1
         pWJhc2VkAw==
@@ -9140,16 +9140,16 @@
       id: DM543yhsZtW
       mediaId: '17894475237269603'
       published: 2025-08-03-19-25-00
-      updated: 2025-10-27-19-09-10
+      updated: 2025-11-03-20-12-40
       followers: 1572
       likes: 69
     - service: vk
       id: 2552
       published: 2025-08-03-19-25-00
-      updated: 2025-10-27-19-09-11
+      updated: 2025-11-03-20-12-48
       followers: 1356
       likes: 53
-      views: 829
+      views: 831
       reposts: 3
       comments: !c |-
         C0KAkpPLQnmGq0NiAACwc2VyZ2V5LWNodXJiYW5vdtkl0JDRhdCw0YXQsCDQt9C90LDQutC+0LzR
@@ -9158,10 +9158,10 @@
     - service: tg
       id: 937
       published: 2025-08-03-19-25-28
-      updated: 2025-10-27-19-09-17
+      updated: 2025-11-03-20-12-47
       followers: 769
-      likes: 65
-      views: 762
+      likes: 66
+      views: 763
       comments: !c CxmAkpPLQnmHYFXgAACnZGFueWEtcqTwn6eAk8tCeYc5DzAAAKtrYXdhemFreTIyM6Twn5iHAw==
 2018-07-31-spires:
   title: Spires
@@ -10861,16 +10861,16 @@
       id: DQkFDBYjHfY
       mediaId: '17877549345425801'
       published: 2025-11-02-18-13-51
-      updated: 2025-11-03-19-08-41
+      updated: 2025-11-03-20-12-37
       followers: 1588
       likes: 42
     - service: vk
       id: 2808
       published: 2025-11-02-18-13-57
-      updated: 2025-11-03-19-08-43
+      updated: 2025-11-03-20-12-39
       followers: 1495
-      likes: 44
-      views: 429
+      likes: 45
+      views: 437
       reposts: 1
       comments: !c |-
         ix2AkZPLQnmkg7uWgACweWVsbG93LXN1Ym1hcmluZb/QkiDRjtGA0YLQtSDRgyDRiNCw0LzQsNC9
@@ -10878,10 +10878,10 @@
     - service: tg
       id: 1038
       published: 2025-11-02-18-14-01
-      updated: 2025-11-03-19-08-39
+      updated: 2025-11-03-20-12-34
       followers: 851
-      likes: 59
-      views: 216
+      likes: 60
+      views: 219
 2018-09-07-red-light:
   title: Red Light
   titleRu: Красный фонарь

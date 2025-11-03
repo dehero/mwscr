@@ -3820,10 +3820,10 @@
     - service: tg
       id: 1034
       published: 2025-10-29-18-17-25
-      updated: 2025-11-02-20-10-55
+      updated: 2025-11-03-20-12-41
       followers: 848
       likes: 68
-      views: 332
+      views: 350
       comments: !c CxGAkZPLQnmjExKigACqYTItZW5rZWxsaaxzaHJvb21idXJnZXID
 2017-03-25-the-two-towers:
   title: The Two Towers
@@ -7277,22 +7277,25 @@
     - service: vk
       id: 2810
       published: 2025-11-03-18-16-27
-      updated: 2025-11-03-19-08-36
+      updated: 2025-11-03-20-12-32
       followers: 1496
-      likes: 1
-      views: 22
+      likes: 11
+      views: 70
+      reposts: 1
     - service: tg
       id: 1039
       published: 2025-11-03-18-16-32
-      updated: 2025-11-03-19-08-38
+      updated: 2025-11-03-20-12-33
       followers: 851
-      likes: 22
-      views: 98
+      likes: 31
+      views: 128
     - service: ig
       id: DQmwKWqjwt1
       mediaId: '18162502384381306'
       published: 2025-11-03-19-09-06
+      updated: 2025-11-03-20-12-36
       followers: 1588
+      likes: 11
 2017-06-07-god-of-madness-and-his-follower:
   title: God of Madness and His Follower
   titleRu: Бог безумия и его последователь

@@ -92,7 +92,7 @@ a2-enkelli:
   profiles:
     - service: tg
       id: '7258424423'
-      updated: 2025-11-03-11-10-08
+      updated: 2025-11-03-20-12-41
       accessHash: '969825927170686844'
       username: A2_Enkelli
       name: †† elli ††
@@ -545,7 +545,7 @@ artyom-melikhoff:
   profiles:
     - service: vk
       id: '299405149'
-      updated: 2025-11-03-11-10-21
+      updated: 2025-11-03-20-12-48
       username: artyom_melikhoff
       name: Артём Мелихов
       avatar: store:/avatars/vk-4c16e471.jpg
@@ -561,7 +561,7 @@ arya-stark:
   profiles:
     - service: vk
       id: '820702664'
-      updated: 2025-11-03-15-12-15
+      updated: 2025-11-03-20-12-44
       username: id820702664
       name: Арья Старк
       avatar: store:/avatars/vk-689aa89d.jpg
@@ -1197,7 +1197,7 @@ danya-r:
   profiles:
     - service: tg
       id: '6217540848'
-      updated: 2025-10-31-12-21-55
+      updated: 2025-11-03-20-12-46
       accessHash: '144997878637800057'
       name: 🛡𐌃𐌀𐌍𐌙𐌀 𐌔Ƕ𐌀𐌓𐌏𐌔Ƕ𐌍𐌉𐌊𐌏ᕓ🛡
       avatar: store:/avatars/tg-5467410398086038782.jpg
@@ -2134,7 +2134,7 @@ h4shirama-s3nju:
   profiles:
     - service: tg
       id: '5619748563'
-      updated: 2025-11-01-23-10-00
+      updated: 2025-11-03-20-12-44
       accessHash: '-759856355370590559'
       username: Hashirama_S3njuu
       name: 柱間 千住 ✝️ :("");
@@ -2723,7 +2723,7 @@ kawazaky223:
   profiles:
     - service: tg
       id: '5641856113'
-      updated: 2025-11-03-19-08-46
+      updated: 2025-11-03-20-12-47
       accessHash: '7421309771527577818'
       username: Kawazaky223
       name: Максим
@@ -3187,7 +3187,7 @@ marylingoth2007:
   profiles:
     - service: vk
       id: '590330773'
-      updated: 2025-11-02-20-10-58
+      updated: 2025-11-03-20-12-42
       username: marylingoth2007
       name: Мэрилин Гот Скриптум
       avatar: store:/avatars/vk-678f5704.jpg
@@ -4558,7 +4558,7 @@ sergey-b-2:
   profiles:
     - service: vk
       id: '1077446394'
-      updated: 2025-11-03-19-08-45
+      updated: 2025-11-03-20-12-42
       username: id1077446394
       name: Сергей Б
       avatar: store:/avatars/vk-12075792.jpg
@@ -4566,7 +4566,7 @@ sergey-churbanov:
   profiles:
     - service: vk
       id: '1060712354'
-      updated: 2025-11-03-11-10-21
+      updated: 2025-11-03-20-12-47
       username: id1060712354
       name: Сергей Чурбанов
       avatar: store:/avatars/vk-6499ce8d.jpg
@@ -6045,7 +6045,7 @@ yellow-submarine:
   profiles:
     - service: vk
       id: '21865013'
-      updated: 2025-11-03-19-08-46
+      updated: 2025-11-03-20-12-39
       username: id21865013
       name: Yellow Submarine
       avatar: store:/avatars/vk-0251fbbd.jpg
