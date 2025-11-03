@@ -271,7 +271,7 @@ aleksey-yeskela:
   profiles:
     - service: vk
       id: '1047357639'
-      updated: 2025-11-02-23-09-35
+      updated: 2025-11-03-00-52-22
       username: id1047357639
       name: Алексей Йескела
       avatar: store:/avatars/vk-893f32cb.jpg
@@ -304,7 +304,7 @@ alexcher16:
   profiles:
     - service: vk
       id: '14644107'
-      updated: 2025-10-26-23-09-49
+      updated: 2025-11-03-00-52-24
       username: alexcher16
       name: Алексей Черноткач
       avatar: store:/avatars/vk-cf71ed78.jpg
@@ -513,7 +513,7 @@ artem-petrov:
   profiles:
     - service: vk
       id: '4238605'
-      updated: 2025-11-02-05-10-48
+      updated: 2025-11-03-00-52-24
       username: id4238605
       name: Артем Петров
       avatar: store:/avatars/vk-77942374.jpg
@@ -521,7 +521,7 @@ artem-solovev:
   profiles:
     - service: vk
       id: '733007624'
-      updated: 2025-10-31-23-10-35
+      updated: 2025-11-03-00-52-24
       username: id733007624
       name: Артем Соловьев
       avatar: store:/avatars/vk-04a89351.jpg
@@ -2723,7 +2723,7 @@ kawazaky223:
   profiles:
     - service: tg
       id: '5641856113'
-      updated: 2025-11-02-23-09-36
+      updated: 2025-11-03-00-52-23
       accessHash: '7421309771527577818'
       username: Kawazaky223
       name: Максим
