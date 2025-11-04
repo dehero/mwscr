@@ -1433,7 +1433,7 @@ dima-sery:
   profiles:
     - service: tg
       id: '134487499'
-      updated: 2025-10-28-14-11-21
+      updated: 2025-11-04-14-11-33
       accessHash: '1922176179429650860'
       username: Dima_Sery
       name: Dima Sery
@@ -2020,7 +2020,7 @@ gleb-zheltuhin:
   profiles:
     - service: vk
       id: '29014473'
-      updated: 2025-11-04-13-28-15
+      updated: 2025-11-04-14-11-29
       username: gleb_zheltuhin
       name: Глеб Желтухин
       avatar: store:/avatars/vk-971eefc1.jpg
@@ -2071,7 +2071,7 @@ golden-morgan:
   profiles:
     - service: vk
       id: '157461309'
-      updated: 2025-10-28-23-10-12
+      updated: 2025-11-04-14-11-34
       username: golden_morgan
       name: Marco Polo
       avatar: store:/avatars/vk-f7f43d22.jpg
@@ -2723,7 +2723,7 @@ kawazaky223:
   profiles:
     - service: tg
       id: '5641856113'
-      updated: 2025-11-04-13-28-15
+      updated: 2025-11-04-14-11-33
       accessHash: '7421309771527577818'
       username: Kawazaky223
       name: Максим
@@ -3139,7 +3139,7 @@ maksim-kopytov:
   profiles:
     - service: vk
       id: '799521846'
-      updated: 2025-11-03-11-10-09
+      updated: 2025-11-04-14-11-34
       username: id799521846
       name: Максим Копытов
       avatar: store:/avatars/vk-0da189cf.jpg
@@ -4566,7 +4566,7 @@ sergey-churbanov:
   profiles:
     - service: vk
       id: '1060712354'
-      updated: 2025-11-04-02-25-42
+      updated: 2025-11-04-14-11-34
       username: id1060712354
       name: Сергей Чурбанов
       avatar: store:/avatars/vk-6499ce8d.jpg
@@ -6045,7 +6045,7 @@ yellow-submarine:
   profiles:
     - service: vk
       id: '21865013'
-      updated: 2025-11-04-13-28-18
+      updated: 2025-11-04-14-11-31
       username: id21865013
       name: Yellow Submarine
       avatar: store:/avatars/vk-0251fbbd.jpg
