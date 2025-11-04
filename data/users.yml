@@ -2020,7 +2020,7 @@ gleb-zheltuhin:
   profiles:
     - service: vk
       id: '29014473'
-      updated: 2025-11-04-18-15-35
+      updated: 2025-11-04-19-09-23
       username: gleb_zheltuhin
       name: Глеб Желтухин
       avatar: store:/avatars/vk-971eefc1.jpg
@@ -2723,7 +2723,7 @@ kawazaky223:
   profiles:
     - service: tg
       id: '5641856113'
-      updated: 2025-11-04-18-15-38
+      updated: 2025-11-04-19-09-25
       accessHash: '7421309771527577818'
       username: Kawazaky223
       name: Максим
@@ -3957,7 +3957,7 @@ peteevandrew:
   profiles:
     - service: vk
       id: '307619379'
-      updated: 2025-11-03-22-11-07
+      updated: 2025-11-04-19-09-27
       username: peteevandrew
       name: Андрей Петеев
       avatar: store:/avatars/vk-d3f26d8e.jpg
@@ -4558,7 +4558,7 @@ sergey-b-2:
   profiles:
     - service: vk
       id: '1077446394'
-      updated: 2025-11-03-22-11-04
+      updated: 2025-11-04-19-09-26
       username: id1077446394
       name: Сергей Б
       avatar: store:/avatars/vk-12075792.jpg
@@ -6045,7 +6045,7 @@ yellow-submarine:
   profiles:
     - service: vk
       id: '21865013'
-      updated: 2025-11-04-17-09-10
+      updated: 2025-11-04-19-09-26
       username: id21865013
       name: Yellow Submarine
       avatar: store:/avatars/vk-0251fbbd.jpg

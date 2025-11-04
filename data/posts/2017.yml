@@ -758,17 +758,17 @@
       id: DQcW4q6CaW8
       mediaId: '18082821593109100'
       published: 2025-10-30-18-15-49
-      updated: 2025-11-03-19-08-44
+      updated: 2025-11-04-19-09-22
       followers: 1587
-      likes: 74
+      likes: 76
       comments: !c CxiAkZPLQnmjZYVTAACwY2FwdHVyZS13b3JsZC1pZ7RYZW5kIGl0IHRvIHVzIOKdpO+4jwM=
     - service: vk
       id: 2798
       published: 2025-10-30-18-15-55
-      updated: 2025-11-03-19-08-47
+      updated: 2025-11-04-19-09-27
       followers: 1491
-      likes: 68
-      views: 677
+      likes: 69
+      views: 698
       comments: !c |-
         GyoCAJwHxq3xYPEp8tZdcIj/R+4Z6du3tloShZRHmFgL8gCTc1Wc7EbYg8AgEDLvFwhtm/38NT/K
         JeARRmmUvbjohW06qxIe/4ZWiHa/7vSAB8PLNQiioqdRLc9iiWoLyiJNKKB0m/zi5Q43NaKOoMtf
@@ -779,10 +779,10 @@
     - service: tg
       id: 1035
       published: 2025-10-30-18-15-59
-      updated: 2025-11-03-19-08-46
+      updated: 2025-11-04-19-09-26
       followers: 849
-      likes: 69
-      views: 1082
+      likes: 71
+      views: 1125
       comments: !c iw2AkZPLQnmjir/XgACra2F3YXpha3kyMjOk8J+YswM=
 2017-01-21-building-akulakhan:
   title: Building Akulakhan
@@ -1026,15 +1026,23 @@
       id: DQpO4nTlGvc
       mediaId: '17898057459331487'
       published: 2025-11-04-18-16-03
+      updated: 2025-11-04-19-09-19
       followers: 1589
+      likes: 10
     - service: vk
       id: 2812
       published: 2025-11-04-18-16-10
+      updated: 2025-11-04-19-09-16
       followers: 1496
+      likes: 7
+      views: 23
     - service: tg
       id: 1040
       published: 2025-11-04-18-16-15
+      updated: 2025-11-04-19-09-15
       followers: 851
+      likes: 30
+      views: 86
 2017-01-26-aleft:
   title: Aleft
   titleRu: Алефт
@@ -3819,16 +3827,16 @@
       id: DQZyPk3l4Hw
       mediaId: '17947401965918568'
       published: 2025-10-29-18-17-11
-      updated: 2025-11-03-19-08-45
+      updated: 2025-11-04-19-09-25
       followers: 1586
       likes: 46
     - service: vk
       id: 2797
       published: 2025-10-29-18-17-19
-      updated: 2025-11-03-19-08-49
+      updated: 2025-11-04-19-09-28
       followers: 1489
-      likes: 54
-      views: 867
+      likes: 55
+      views: 884
       reposts: 2
     - service: tg
       id: 1034
@@ -7290,10 +7298,10 @@
     - service: vk
       id: 2810
       published: 2025-11-03-18-16-27
-      updated: 2025-11-04-18-15-36
+      updated: 2025-11-04-19-09-23
       followers: 1496
       likes: 50
-      views: 470
+      views: 485
       reposts: 1
       comments: !c |-
         G2oA+J0Hto1qPbCY3LFTPzT++fc2wg+yqWbcCTSOJLnPJkcYuAcY0EFtdX22PKREAkkoyAuKvnTb
@@ -7301,16 +7309,16 @@
     - service: tg
       id: 1039
       published: 2025-11-03-18-16-32
-      updated: 2025-11-04-18-15-35
+      updated: 2025-11-04-19-09-24
       followers: 851
-      likes: 60
-      views: 232
+      likes: 61
+      views: 254
       comments: !c iw2AkZPLQnmk6og9AACra2F3YXpha3kyMjOk8J+nkAM=
     - service: ig
       id: DQmwKWqjwt1
       mediaId: '18162502384381306'
       published: 2025-11-03-19-09-06
-      updated: 2025-11-04-18-15-37
+      updated: 2025-11-04-19-09-20
       followers: 1588
       likes: 48
 2017-06-07-god-of-madness-and-his-follower:
