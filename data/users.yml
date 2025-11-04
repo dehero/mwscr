@@ -561,7 +561,7 @@ arya-stark:
   profiles:
     - service: vk
       id: '820702664'
-      updated: 2025-11-04-08-15-40
+      updated: 2025-11-04-15-12-17
       username: id820702664
       name: Арья Старк
       avatar: store:/avatars/vk-689aa89d.jpg
@@ -2020,7 +2020,7 @@ gleb-zheltuhin:
   profiles:
     - service: vk
       id: '29014473'
-      updated: 2025-11-04-14-11-29
+      updated: 2025-11-04-15-12-12
       username: gleb_zheltuhin
       name: Глеб Желтухин
       avatar: store:/avatars/vk-971eefc1.jpg
@@ -2723,7 +2723,7 @@ kawazaky223:
   profiles:
     - service: tg
       id: '5641856113'
-      updated: 2025-11-04-14-11-33
+      updated: 2025-11-04-15-12-14
       accessHash: '7421309771527577818'
       username: Kawazaky223
       name: Максим
@@ -6045,7 +6045,7 @@ yellow-submarine:
   profiles:
     - service: vk
       id: '21865013'
-      updated: 2025-11-04-14-11-31
+      updated: 2025-11-04-15-12-15
       username: id21865013
       name: Yellow Submarine
       avatar: store:/avatars/vk-0251fbbd.jpg
