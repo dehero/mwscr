@@ -447,7 +447,7 @@ ansis:
   profiles:
     - service: tg
       id: '517050552'
-      updated: 2025-11-04-21-10-39
+      updated: 2025-11-04-23-10-14
       accessHash: '5231096655311395455'
       username: ansis
       name: ansis
@@ -561,7 +561,7 @@ arya-stark:
   profiles:
     - service: vk
       id: '820702664'
-      updated: 2025-11-04-21-10-40
+      updated: 2025-11-04-23-10-17
       username: id820702664
       name: Арья Старк
       avatar: store:/avatars/vk-689aa89d.jpg
@@ -2020,7 +2020,7 @@ gleb-zheltuhin:
   profiles:
     - service: vk
       id: '29014473'
-      updated: 2025-11-04-22-09-58
+      updated: 2025-11-04-23-10-16
       username: gleb_zheltuhin
       name: Глеб Желтухин
       avatar: store:/avatars/vk-971eefc1.jpg
@@ -2723,7 +2723,7 @@ kawazaky223:
   profiles:
     - service: tg
       id: '5641856113'
-      updated: 2025-11-04-22-09-56
+      updated: 2025-11-04-23-10-15
       accessHash: '7421309771527577818'
       username: Kawazaky223
       name: Максим
