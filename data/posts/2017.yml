@@ -7277,25 +7277,28 @@
     - service: vk
       id: 2810
       published: 2025-11-03-18-16-27
-      updated: 2025-11-04-05-11-21
+      updated: 2025-11-04-06-17-03
       followers: 1496
-      likes: 31
-      views: 210
+      likes: 33
+      views: 228
       reposts: 1
+      comments: !c |-
+        G2oA+J0Hto1qPbCY3LFTPzT++fc2wg+yqWbcCTSOJLnPJkcYuAcY0EFtdX22PKREAkkoyAuKvnTb
+        zXVrMTQ2N6VQTQUACeH9/Jzvk431XSlUah7aX6irxweJTrdtS51hgNAdDtaIUEcHtcBGAg==
     - service: tg
       id: 1039
       published: 2025-11-03-18-16-32
-      updated: 2025-11-04-05-11-21
+      updated: 2025-11-04-06-16-58
       followers: 851
       likes: 50
-      views: 188
+      views: 189
     - service: ig
       id: DQmwKWqjwt1
       mediaId: '18162502384381306'
       published: 2025-11-03-19-09-06
-      updated: 2025-11-04-05-11-24
+      updated: 2025-11-04-06-17-02
       followers: 1588
-      likes: 32
+      likes: 36
 2017-06-07-god-of-madness-and-his-follower:
   title: God of Madness and His Follower
   titleRu: Бог безумия и его последователь
