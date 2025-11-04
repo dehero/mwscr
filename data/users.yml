@@ -2723,7 +2723,7 @@ kawazaky223:
   profiles:
     - service: tg
       id: '5641856113'
-      updated: 2025-11-03-22-11-04
+      updated: 2025-11-04-02-25-37
       accessHash: '7421309771527577818'
       username: Kawazaky223
       name: Максим
@@ -4338,7 +4338,7 @@ roman-fetisov:
   profiles:
     - service: vk
       id: '639887914'
-      updated: 2025-10-28-02-22-48
+      updated: 2025-11-04-02-25-39
       username: id639887914
       name: Роман Фетисов
       avatar: store:/avatars/vk-77942374.jpg
@@ -4566,7 +4566,7 @@ sergey-churbanov:
   profiles:
     - service: vk
       id: '1060712354'
-      updated: 2025-11-03-20-12-47
+      updated: 2025-11-04-02-25-42
       username: id1060712354
       name: Сергей Чурбанов
       avatar: store:/avatars/vk-6499ce8d.jpg
@@ -6045,7 +6045,7 @@ yellow-submarine:
   profiles:
     - service: vk
       id: '21865013'
-      updated: 2025-11-04-00-48-03
+      updated: 2025-11-04-02-25-35
       username: id21865013
       name: Yellow Submarine
       avatar: store:/avatars/vk-0251fbbd.jpg
