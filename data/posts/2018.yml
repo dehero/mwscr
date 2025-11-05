@@ -6436,15 +6436,26 @@
       id: DQrzp3wjfed
       mediaId: '18056424434297000'
       published: 2025-11-05-18-15-48
+      updated: 2025-11-05-19-09-45
       followers: 1589
+      likes: 10
     - service: vk
       id: 2813
       published: 2025-11-05-18-15-54
+      updated: 2025-11-05-19-09-42
       followers: 1500
+      likes: 5
+      views: 25
     - service: tg
       id: 1041
       published: 2025-11-05-18-15-58
+      updated: 2025-11-05-19-09-51
       followers: 853
+      likes: 30
+      views: 83
+      comments: !c |-
+        CyGAkZPLQnmlU8L1gACrZ29vc2V2aWNoNzbZKtGN0YLQviDQvdC10LLQtdGA0L7Rj9GC0L3QviDQ
+        stCw0LnQsdC+0LLQvgM=
 2018-05-30-near-six-fishes:
   title: Near "Six Fishes"
   titleRu: У "Шести рыб"
@@ -14086,16 +14097,16 @@
       id: DQe95I7iTBB
       mediaId: '18082803599045543'
       published: 2025-10-31-18-35-10
-      updated: 2025-11-04-18-15-41
+      updated: 2025-11-05-19-09-48
       followers: 1587
       likes: 51
     - service: vk
       id: 2802
       published: 2025-10-31-18-35-16
-      updated: 2025-11-04-18-15-39
+      updated: 2025-11-05-19-09-58
       followers: 1492
-      likes: 103
-      views: 1041
+      likes: 107
+      views: 1092
       reposts: 5
       comments: !c |-
         G7kBMJwJdizEZBi6no1Q6fw/cs9I3z7V1lKKoABbQGmkyblk39SNMEICmSe8UEe3hqNdb0Y+pLYF
@@ -14106,10 +14117,10 @@
     - service: tg
       id: 1036
       published: 2025-10-31-18-35-21
-      updated: 2025-11-04-18-15-40
+      updated: 2025-11-05-19-09-59
       followers: 850
-      likes: 66
-      views: 339
+      likes: 69
+      views: 362
       comments: !c |-
         G9MAwIyU7gaqTv9zzdvA5vk8CuyAB3K9bIp63tZlFZj/cIFrOlpBjbrBcRYO6ItNy/iy24sNuqcs
         BRSC2fePdGqPBv7SghBSN1HegJyocoV6KL1HA5+7B4J0TJgPC2KmgEajrXKFfCEF8N/tNczqMrgu
