@@ -447,7 +447,7 @@ ansis:
   profiles:
     - service: tg
       id: '517050552'
-      updated: 2025-11-04-23-10-14
+      updated: 2025-11-05-00-50-59
       accessHash: '5231096655311395455'
       username: ansis
       name: ansis
@@ -2020,7 +2020,7 @@ gleb-zheltuhin:
   profiles:
     - service: vk
       id: '29014473'
-      updated: 2025-11-04-23-10-16
+      updated: 2025-11-05-00-50-58
       username: gleb_zheltuhin
       name: Глеб Желтухин
       avatar: store:/avatars/vk-971eefc1.jpg
@@ -2071,7 +2071,7 @@ golden-morgan:
   profiles:
     - service: vk
       id: '157461309'
-      updated: 2025-11-04-14-11-34
+      updated: 2025-11-05-00-51-01
       username: golden_morgan
       name: Marco Polo
       avatar: store:/avatars/vk-f7f43d22.jpg
@@ -2079,7 +2079,7 @@ goosevich76:
   profiles:
     - service: tg
       id: '5385620621'
-      updated: 2025-11-04-21-10-36
+      updated: 2025-11-05-00-51-00
       accessHash: '-7130473396589324830'
       username: horwwwaty
       name: choven
@@ -2723,7 +2723,7 @@ kawazaky223:
   profiles:
     - service: tg
       id: '5641856113'
-      updated: 2025-11-04-23-10-15
+      updated: 2025-11-05-00-51-00
       accessHash: '7421309771527577818'
       username: Kawazaky223
       name: Максим
@@ -3616,7 +3616,7 @@ neulovimiy-djo:
   profiles:
     - service: vk
       id: '40753227'
-      updated: 2025-10-28-23-10-12
+      updated: 2025-11-05-00-51-01
       username: neulovimiy_djo
       name: Иван Чернозём
       avatar: store:/avatars/vk-7870da4f.jpg
