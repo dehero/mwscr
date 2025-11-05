@@ -28,40 +28,54 @@ body {
   width: 100%;
   height: 100%;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-start;
+  padding-top: 900px;
 }
 
 .logo {
   border-radius: 50%;
-  width: 1500px;
-  height: 1500px;
+  width: 2200px;
+  height: 2200px;
 }
 
 .name {
-  font-size: 1.75em;
+  font-size: 2.5em;
   display: flex;
   align-items: center;
   justify-content: center;
   margin: 0;
   color: var(--color-text-light);
+  line-height: 1;
 }
 
 .info {
   display: flex;
   align-items: baseline;
   justify-content: center;
-  gap: 1rem;
+  gap: 0.5rem;
   margin: 0;
+  line-height: 1;
 }
 
 .prefix {
-  font-size: 1.75rem;
+  font-size: 2.5rem;
   display: inline-block;
 }
 
 .year {
-  font-size: 2rem;
+  font-size: 3rem;
   display: inline-block;
+}
+
+.site {
+  font-family: 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
+  font-size: 1.125rem;
+  color: var(--color-border);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  line-height: 1;
 }
 
 .month-page {
@@ -97,7 +111,7 @@ body {
   flex: 0 0 auto;
   display: flex;
   flex-direction: column;
-  padding: 1rem 1.5rem;
+  padding: 0.5rem 1.5rem 1.25rem 1.5rem;
   box-sizing: border-box;
 }
 
@@ -151,4 +165,5 @@ body {
   display: flex;
   flex-flow: row nowrap;
   gap: 1rem;
+  margin-top: 0.25rem;
 }
