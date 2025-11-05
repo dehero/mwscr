@@ -296,10 +296,10 @@
     - service: vk
       id: 2575
       published: 2025-08-13-18-23-03
-      updated: 2025-10-29-23-10-20
+      updated: 2025-11-05-23-10-33
       followers: 1362
-      likes: 34
-      views: 433
+      likes: 35
+      views: 437
       reposts: 1
     - service: tg
       id: 950
@@ -6436,23 +6436,23 @@
       id: DQrzp3wjfed
       mediaId: '18056424434297000'
       published: 2025-11-05-18-15-48
-      updated: 2025-11-05-22-10-25
+      updated: 2025-11-05-23-10-26
       followers: 1589
-      likes: 25
+      likes: 30
     - service: vk
       id: 2813
       published: 2025-11-05-18-15-54
-      updated: 2025-11-05-22-10-20
+      updated: 2025-11-05-23-10-22
       followers: 1500
-      likes: 8
-      views: 40
+      likes: 9
+      views: 43
     - service: tg
       id: 1041
       published: 2025-11-05-18-15-58
-      updated: 2025-11-05-22-10-26
+      updated: 2025-11-05-23-10-28
       followers: 853
-      likes: 40
-      views: 117
+      likes: 41
+      views: 120
       comments: !c |-
         G5AAYIzURveOlfL5rjWEw1u4FxjFrRFp+w4k+TCqNf8YXGSDQw7YHzRPJECIAg9ZFSITvyn2Zuul
         q3TcbT8hPb8nWfGIWa09HKBpMOgbitqNNmqVL/KFdyplxCnVLbbnXyGjUCqVCxQjvrBK5rY2gHiw
