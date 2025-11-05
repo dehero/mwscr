@@ -2020,7 +2020,7 @@ gleb-zheltuhin:
   profiles:
     - service: vk
       id: '29014473'
-      updated: 2025-11-05-00-50-58
+      updated: 2025-11-05-02-27-18
       username: gleb_zheltuhin
       name: Глеб Желтухин
       avatar: store:/avatars/vk-971eefc1.jpg
@@ -2723,7 +2723,7 @@ kawazaky223:
   profiles:
     - service: tg
       id: '5641856113'
-      updated: 2025-11-05-00-51-00
+      updated: 2025-11-05-02-27-19
       accessHash: '7421309771527577818'
       username: Kawazaky223
       name: Максим
