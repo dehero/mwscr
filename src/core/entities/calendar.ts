@@ -319,6 +319,15 @@ export const calendarHolidays: CalendarHoliday[] = [
       'Некоторые безмолвствуют из-за боязни злых духов, большинство наслаждаются праздником. В честь некромантии, магические предметы сегодня продаются за полцены.',
   },
   {
+    title: "Nerevarine's Arrival to Vvardenfell",
+    titleRu: 'Прибытие Нереварина на Вварденфелл',
+    monthIndex: 8,
+    day: 16,
+    description: 'The day the future Nerevarine set foot on Vvardenfell at the village of Seyda Neen.',
+    descriptionRu: 'День, когда будущий Нереварин сошёл на берег Вварденфелла в деревушке Сейда Нин.',
+  },
+
+  {
     title: 'Witches Festival',
     titleRu: 'Фестиваль Ведьм',
     monthIndex: 9,
