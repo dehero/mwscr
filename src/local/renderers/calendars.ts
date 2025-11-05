@@ -178,7 +178,7 @@ export async function createCalendarMonthHtml({
         ${days.map((day) => `<div class="day ${day.highlighted ? 'highlighted' : ''}">${day.text}</div>`).join('')}
       </div>
       <div class="footer">
-        ${holidays.join(', ')}
+        ${holidays.map((holiday) => `<span>${holiday}</span>`).join('')}
       </div>
     </div>
   </div>
@@ -232,9 +232,11 @@ export async function createCalendarCoverHtml({ year, ru }: CreateCalendarCoverH
 </head>
 <body>
   <div class="cover-page">
-    <img class="logo" src="${logo.dataUrl}" />
-    <p class="name">${site.name}</p>
-    <p class="info"><span class="prefix">${ru ? 'НЭ' : 'AD'}</span><span class="year">${year}</span></p>
+    <div class="main">
+      <img class="logo" src="${logo.dataUrl}" />
+      <p class="name">${site.name}</p>
+      <p class="info"><span class="prefix">${ru ? 'НЭ' : 'AD'}</span><span class="year">${year}</span></p>
+    </div>
     <p class="site">
       ${site.origin.replace(/^https?:\/\//, '')}
     </p>
