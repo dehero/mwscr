@@ -235,9 +235,9 @@ export async function createCalendarCoverHtml({ year, ru }: CreateCalendarCoverH
     <img class="logo" src="${logo.dataUrl}" />
     <p class="name">${site.name}</p>
     <p class="info"><span class="prefix">${ru ? 'НЭ' : 'AD'}</span><span class="year">${year}</span></p>
-    <div class="footer">
+    <p class="site">
       ${site.origin.replace(/^https?:\/\//, '')}
-    </div>
+    </p>
   </div>
 </body>
 </html>
