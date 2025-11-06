@@ -516,18 +516,18 @@
     - service: vk
       id: 2484
       published: 2025-06-24-18-28-09
-      updated: 2025-10-29-23-10-49
+      updated: 2025-11-06-00-49-31
       followers: 1328
       likes: 57
-      views: 548
+      views: 549
       reposts: 3
     - service: tg
       id: 895
       published: 2025-06-24-18-28-13
-      updated: 2025-10-29-23-10-48
+      updated: 2025-11-06-00-49-26
       followers: 753
       likes: 66
-      views: 619
+      views: 621
     - service: ig
       id: DLS4FQzgAKX
       mediaId: '17868937881306574'
@@ -1132,18 +1132,18 @@
     - service: vk
       id: 2506
       published: 2025-07-06-18-22-27
-      updated: 2025-10-29-23-10-43
+      updated: 2025-11-06-00-49-24
       followers: 1335
       likes: 64
-      views: 676
+      views: 678
       reposts: 1
     - service: tg
       id: 909
       published: 2025-07-06-18-22-31
-      updated: 2025-10-29-23-10-44
+      updated: 2025-11-06-00-49-23
       followers: 758
       likes: 63
-      views: 685
+      views: 686
       comments: !c |-
         G9UAwJ0HdiwYwWFXIvkKUYA30gFNNciswNLEpsk9aAlkbsucLda6KTaDmBQEMX9ZOdD5b8ivJxMa
         KQu0/Ck2QTSCnHHN1snxAQ+K3znyUg4sDC2yPGXTEoXx9mfH+dh9+RyZe8fgUKvquh5lmJTYkeWF
@@ -1307,10 +1307,10 @@
     - service: vk
       id: 2516
       published: 2025-07-14-18-26-02
-      updated: 2025-10-29-23-10-34
+      updated: 2025-11-06-00-49-18
       followers: 1342
       likes: 27
-      views: 643
+      views: 646
       reposts: 1
       comments: !c |-
         G1sA+I2UbuYke/5aS/hBdgGTLCLtWpMPPAMk5+HFeisii0EuSWuuQWeYL19q13uYPW6t5WWXRHxk
@@ -1318,10 +1318,10 @@
     - service: tg
       id: 917
       published: 2025-07-14-18-26-06
-      updated: 2025-10-29-23-10-38
+      updated: 2025-11-06-00-49-18
       followers: 762
       likes: 62
-      views: 588
+      views: 589
     - service: ig
       id: DMPTAzKMjL2
       mediaId: '18073958353804419'
@@ -1382,10 +1382,10 @@
     - service: vk
       id: 2465
       published: 2025-06-14-18-24-35
-      updated: 2025-10-29-23-11-05
+      updated: 2025-11-06-00-49-55
       followers: 1326
       likes: 70
-      views: 615
+      views: 616
       reposts: 1
       comments: !c |-
         GzUBIJwHxi3zhkH4B+5iMYj+6e8Z6R1/HziEpvE8oCIIEkz26Nwsrdg/BP1AjsmOUAc8pnv2UHFk
@@ -1395,10 +1395,10 @@
     - service: tg
       id: 885
       published: 2025-06-14-18-24-42
-      updated: 2025-10-29-23-10-57
+      updated: 2025-11-06-00-49-35
       followers: 746
       likes: 68
-      views: 592
+      views: 594
 2020-10-21-land-of-rain:
   title: Land of Rain
   titleRu: Земля дождя
