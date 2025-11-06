@@ -151,7 +151,7 @@ export const DataPatchEditor: Component<DataPatchEditorProps> = (props) => {
         const patch = dataManager.getPatch();
 
         return {
-          href: email.getUserMessagingUrl('dehero@outlook.com', {
+          href: email.getUserMessagingUrl('me@dehero.site', {
             subject: getDataPatchName(patch),
             body: dataPatchToString(patch, true),
           }),

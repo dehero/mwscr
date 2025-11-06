@@ -6,4 +6,4 @@ request will be added to [Drafts](./drafts.md) and will remain there, waiting fo
 may be rejected if it does not meet the [core principles](./core-principles.md).
 
 [Send request via GitHub Issues](https://github.com/dehero/mwscr/issues/new?labels=post-request&template=post-request.yml&title=Cool+to+see%2C+how+cliffracer+dies%21)  
-[Send to administrator via email](mailto:dehero@outlook.com?subject=mwscr)
+[Send to administrator via email](mailto:me@dehero.site?subject=mwscr)

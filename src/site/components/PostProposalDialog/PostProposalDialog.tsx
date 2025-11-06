@@ -246,7 +246,7 @@ export const PostProposalDialog: DetachedDialog = (props) => {
 
       case 'email':
         return {
-          href: email.getUserMessagingUrl('dehero@outlook.com', {
+          href: email.getUserMessagingUrl('me@dehero.site', {
             subject: 'proposal',
             body: "Hello! I've attached .zip archive with works I'd like to propose. Please consider taking them to Drafts. Thank you!",
           }),

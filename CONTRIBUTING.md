@@ -19,7 +19,7 @@ convenient way:
 - [Send to bot](https://t.me/mwscrbot) on Telegram.
 - [Send proposal](https://github.com/dehero/mwscr/issues/new?labels=post-proposal&template=post-proposal.yml) via GitHub
   Issues.
-- [Send to administrator](mailto:dehero@outlook.com?subject=mwscr) via email.
+- [Send to administrator](mailto:me@dehero.site?subject=mwscr) via email.
 
 Proposed works will be automatically checked and will go to [drafts](https://mwscr.dehero.site/drafts/). After
 [editing](#editing), your works will be published or rejected.
@@ -44,7 +44,7 @@ way:
 - [Send request](https://github.com/dehero/mwscr/issues/new?labels=post-request&template=post-request.yml&title=Cool+to+see%2C+how+cliffracer+dies%21)
   via GitHub Issues.
 - Write a comment or private message to the administrator in any of the project accounts.
-- [Send to administrator](mailto:dehero@outlook.com?subject=mwscr) via email.
+- [Send to administrator](mailto:me@dehero.site?subject=mwscr) via email.
 
 Your request will be added to [drafts](https://mwscr.dehero.site/drafts/) and will remain there, waiting for the
 appropriate material.
@@ -68,7 +68,7 @@ Any suggestions for improving and fixing the repository are welcome:
 
 - [Suggest changes](https://github.com/dehero/mwscr/pulls) via Pull Request.
 - [Describe an idea or problem](https://github.com/dehero/mwscr/issues) in free form via Issues.
-- [Write to administrator](mailto:dehero@outlook.com?subject=mwscr) via email.
+- [Write to administrator](mailto:me@dehero.site?subject=mwscr) via email.
 
 ## Minimum requirements for works
 

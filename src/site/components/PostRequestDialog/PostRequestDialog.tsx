@@ -19,7 +19,7 @@ export const PostRequestDialog: DetachedDialog = (props) => {
           Submit via GitHub
         </Button>,
         <Button
-          href={email.getUserMessagingUrl('dehero@outlook.com', { subject: 'request', body: text() })}
+          href={email.getUserMessagingUrl('me@dehero.site', { subject: 'request', body: text() })}
           target="_blank"
           onClick={props.onClose}
         >

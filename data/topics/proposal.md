@@ -11,4 +11,4 @@ used in any sources related to the project, with attribution to you.
 [Send proposal via GitHub Issues](https://github.com/dehero/mwscr/issues/new?labels=post-proposal&template=post-proposal.yml)
 (check out
 [file size restrictions](https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/attaching-files))  
-[Send to administrator via email](mailto:dehero@outlook.com?subject=mwscr)
+[Send to administrator via email](mailto:me@dehero.site?subject=mwscr)

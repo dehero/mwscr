@@ -292,7 +292,7 @@ export const PostDialog: Component<PostDialogProps> = (props) => {
         }
 
         return {
-          href: email.getUserMessagingUrl('dehero@outlook.com', {
+          href: email.getUserMessagingUrl('me@dehero.site', {
             subject: `${local.preset} - ${targetId}`,
             body,
           }),

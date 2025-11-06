@@ -19,7 +19,7 @@
 - [Отправить боту](https://t.me/mwscrbot) в Telegram.
 - [Отправить предложение](https://github.com/dehero/mwscr/issues/new?&labels=post-proposal&template=post-proposal.yml)
   через GitHub Issues.
-- [Отправить администратору](mailto:dehero@outlook.com?subject=mwscr) по электронной почте.
+- [Отправить администратору](mailto:me@dehero.site?subject=mwscr) по электронной почте.
 
 Предложенные работы пройдут автоматическую проверку и попадут в [черновики](https://mwscr.dehero.site/drafts/). После
 [редактуры](#редактура) ваши работы будут опубликованы, либо отклонены.
@@ -44,7 +44,7 @@
 - [Отправить запрос](https://github.com/dehero/mwscr/issues/new?labels=post-request&template=post-request.yml&title=Cool+to+see%2C+how+cliffracer+dies%21)
   через GitHub Issues.
 - Написать комментарий или личное сообщение администратору в любом из аккаунтов проекта.
-- [Написать администратору](mailto:dehero@outlook.com?subject=mwscr) по электронной почте.
+- [Написать администратору](mailto:me@dehero.site?subject=mwscr) по электронной почте.
 
 Ваш запрос будет добавлен в [черновики](https://mwscr.dehero.site/drafts/) и останется там, дожидаясь подходящий
 материал.
@@ -68,7 +68,7 @@
 
 - [Предложить изменения](https://github.com/dehero/mwscr/pulls) через Pull Request.
 - [Описать идею или проблему](https://github.com/dehero/mwscr/issues) в свободной форме через Issues.
-- [Написать администратору](mailto:dehero@outlook.com?subject=mwscr) по электронной почте.
+- [Написать администратору](mailto:me@dehero.site?subject=mwscr) по электронной почте.
 
 ## Минимальные требования к работам
 
