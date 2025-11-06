@@ -175,10 +175,10 @@
     - service: vk
       id: 2382
       published: 2025-05-24-18-18-58
-      updated: 2025-10-30-00-51-28
+      updated: 2025-11-06-02-28-38
       followers: 1305
       likes: 55
-      views: 454
+      views: 455
     - service: tg
       id: 857
       published: 2025-05-24-18-19-06
@@ -233,16 +233,16 @@
       id: DOJmMF4jRTd
       mediaId: '17922073773131202'
       published: 2025-09-03-18-21-10
-      updated: 2025-10-30-00-50-50
+      updated: 2025-11-06-02-28-15
       followers: 1582
       likes: 68
     - service: vk
       id: 2629
       published: 2025-09-03-18-21-16
-      updated: 2025-10-30-00-50-46
+      updated: 2025-11-06-02-28-09
       followers: 1404
-      likes: 43
-      views: 565
+      likes: 44
+      views: 570
       reposts: 1
       comments: !c |-
         Cy+AkZPLQnmRFaD7gACwc2VyZ2V5LWNodXJiYW5vdtlB0K3RjdC5KSDQt9C00LDRgNC+0LLQsCEg
@@ -250,10 +250,10 @@
     - service: tg
       id: 971
       published: 2025-09-03-18-21-19
-      updated: 2025-10-30-00-50-46
+      updated: 2025-11-06-02-28-07
       followers: 788
-      likes: 75
-      views: 568
+      likes: 76
+      views: 571
       comments: !c iw2AkZPLQnmRXdWaAACra2F3YXpha3kyMjOk8J+koQM=
 2023-08-01-stillness:
   title: Stillness
@@ -341,10 +341,10 @@
     - service: vk
       id: 2341
       published: 2025-05-06-18-24-44
-      updated: 2025-10-30-00-51-55
+      updated: 2025-11-06-02-29-14
       followers: 1281
       likes: 46
-      views: 472
+      views: 473
       reposts: 2
       comments: !c |-
         G+oAEJ0Htg3rHDPI4QvhoV38P/3FPuEb31n0xgMPuMSLIDnXbfqcr0SRsylU26iYkyUJoinvThF5
@@ -354,7 +354,7 @@
     - service: tg
       id: 832
       published: 2025-05-06-18-24-51
-      updated: 2025-10-30-00-51-19
+      updated: 2025-11-06-02-28-26
       followers: 738
       likes: 69
       views: 700
@@ -408,10 +408,10 @@
     - service: vk
       id: 2233
       published: 2025-03-27-18-12-06
-      updated: 2025-10-30-00-52-54
+      updated: 2025-11-06-02-30-22
       followers: 1215
       likes: 41
-      views: 434
+      views: 435
       comments: !c |-
         G58BAJwHdiwwGYbOBNLfLIuoWK4zFsVaktAoAw5LocgqCQdCx/83MoUerW32ZijF5p15vAzmP0N1
         WyuCGi3Sn9M2FQ4KNzTRutm4/BBta/H5I4p4Fd8wbff0SAPCtlrQloSJJwkd8fO20/UgId1upjz0
@@ -422,7 +422,7 @@
     - service: tg
       id: 767
       published: 2025-03-27-18-12-12
-      updated: 2025-10-30-00-51-53
+      updated: 2025-11-06-02-29-19
       followers: 710
       likes: 64
       views: 514
@@ -717,18 +717,18 @@
     - service: vk
       id: 2251
       published: 2025-04-01-18-21-46
-      updated: 2025-10-30-00-52-46
+      updated: 2025-11-06-02-30-15
       followers: 1226
       likes: 75
-      views: 454
+      views: 455
       reposts: 3
     - service: tg
       id: 773
       published: 2025-04-01-18-21-57
-      updated: 2025-10-30-00-51-51
+      updated: 2025-11-06-02-29-17
       followers: 712
       likes: 68
-      views: 660
+      views: 662
 2023-08-10-behind-a-barrel:
   title: Behind a Barrel
   titleRu: За бочкой
