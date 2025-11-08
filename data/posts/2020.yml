@@ -683,11 +683,11 @@
     - service: vk
       id: 2774
       published: 2025-10-25-18-14-12
-      updated: 2025-11-01-19-08-03
+      updated: 2025-11-08-20-10-42
       followers: 1483
-      likes: 68
-      views: 1473
-      reposts: 4
+      likes: 69
+      views: 1509
+      reposts: 3
       comments: !c |-
         G54GAJwHtg1lG20efsdpzOOff+59e/xFctPao3gEA9I5NJblYw2wFfG6zxRVjSWxDBNsJ8TC9r/5
         3JrzJU3q1186IeiipYHFJPze7vX9c5tSMaId9EAyEetv21we51OSCipBKejNus9G/3M5rejwsDS6
@@ -706,10 +706,10 @@
     - service: tg
       id: 1027
       published: 2025-10-25-18-14-17
-      updated: 2025-11-01-20-10-03
+      updated: 2025-11-08-20-10-53
       followers: 846
-      likes: 64
-      views: 385
+      likes: 66
+      views: 474
       comments: !c |-
         G/8AQBwHdiy2UPbiXhb8E3Oblr5hGrq3imfRJBapq4TGUfH30dCBqlv5JvQiZCFxnPlhflU3nUbM
         igYGXyDsGYRkd47rC33jcYMTTBMZwMaNBpr9cB1ktj3Ghr7NcxzlYLW9FHz/go9hHGp66Wyy4CBY
