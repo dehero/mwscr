@@ -6436,16 +6436,17 @@
       id: DQrzp3wjfed
       mediaId: '18056424434297000'
       published: 2025-11-05-18-15-48
-      updated: 2025-11-07-18-15-30
+      updated: 2025-11-08-19-08-11
       followers: 1589
-      likes: 58
+      likes: 60
+      comments: !c Cw6AkZPLQnmmB60QgACqYmVld2l0Y2gxOabinaTvuI8D
     - service: vk
       id: 2813
       published: 2025-11-05-18-15-54
-      updated: 2025-11-07-18-15-27
+      updated: 2025-11-08-19-08-09
       followers: 1500
-      likes: 49
-      views: 401
+      likes: 54
+      views: 494
       reposts: 4
       comments: !c |-
         iyCAkZPLQnmlcKzQgACscGV0ZWV2YW5kcmV32SjQk9C00LUt0YLQviDQvdCwINCh0L7Qu9GB0YLR
@@ -6453,10 +6454,10 @@
     - service: tg
       id: 1041
       published: 2025-11-05-18-15-58
-      updated: 2025-11-07-18-15-28
+      updated: 2025-11-08-19-08-10
       followers: 853
-      likes: 64
-      views: 264
+      likes: 68
+      views: 306
       comments: !c |-
         G0kBABwH1e0Ws8OtfFKTxJSHdHgJcAUeJFV0eCCXHU/wwXMTvY1fWlh4at0jwg52TuICul4n5xe6
         0MHPb4G1xaFnuRMNjO/+91uAH2UtwLbW3gLNMPCH0nNkNEBD0l7kh4o86xGmt04XAHNRPiGq/vna
@@ -10891,16 +10892,16 @@
       id: DQkFDBYjHfY
       mediaId: '17877549345425801'
       published: 2025-11-02-18-13-51
-      updated: 2025-11-07-18-15-35
+      updated: 2025-11-08-19-08-14
       followers: 1588
       likes: 49
     - service: vk
       id: 2808
       published: 2025-11-02-18-13-57
-      updated: 2025-11-07-18-15-34
+      updated: 2025-11-08-19-08-16
       followers: 1495
       likes: 61
-      views: 670
+      views: 692
       reposts: 2
       comments: !c |-
         ix2AkZPLQnmkg7uWgACweWVsbG93LXN1Ym1hcmluZb/QkiDRjtGA0YLQtSDRgyDRiNCw0LzQsNC9
@@ -10908,10 +10909,10 @@
     - service: tg
       id: 1038
       published: 2025-11-02-18-14-01
-      updated: 2025-11-07-18-15-32
+      updated: 2025-11-08-19-08-15
       followers: 851
-      likes: 70
-      views: 348
+      likes: 72
+      views: 356
       comments: !c iw2AkZPLQnmk6oWNgACra2F3YXpha3kyMjOk8J+MmQM=
 2018-09-07-red-light:
   title: Red Light
