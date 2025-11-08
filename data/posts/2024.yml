@@ -547,24 +547,27 @@
       id: DQw9fvvjDKt
       mediaId: '17908431780259289'
       published: 2025-11-07-18-17-59
-      updated: 2025-11-08-06-14-46
+      updated: 2025-11-08-07-09-33
       followers: 1591
       likes: 27
     - service: vk
       id: 2824
       published: 2025-11-07-18-18-05
-      updated: 2025-11-08-06-14-44
+      updated: 2025-11-08-07-09-37
       followers: 1504
-      likes: 18
-      views: 234
+      likes: 20
+      views: 260
       reposts: 1
+      comments: !c |-
+        G3YA6MXnOdfeiDaQCUw8UtdXth1VARZ1gOT/eHqwAUcaGA0rDQLzCDfTE5eXqT98qpWpfBEzYRZ6
+        qecVLd+NvdJPw2jZAfasy9cd7thLeLCGE9ZYscOcrUIvqL6wjhOr/2zKXGINpyDYCg==
     - service: tg
       id: 1048
       published: 2025-11-07-18-18-08
-      updated: 2025-11-08-06-14-44
+      updated: 2025-11-08-07-09-31
       followers: 854
-      likes: 39
-      views: 153
+      likes: 41
+      views: 159
 2024-03-16-night-guardess: 2017-03-01-night-guardess
 2024-03-17-teeth-of-pelagiad:
   title: Teeth of Pelagiad
