@@ -10,7 +10,7 @@
   profiles:
     - service: vk
       id: '313209237'
-      updated: 2025-11-08-08-13-00
+      updated: 2025-11-08-09-10-06
       username: 17haden_blake10
       name: Артемий Голицын
       avatar: store:/avatars/vk-a1f3f987.jpg
@@ -875,7 +875,7 @@ bulatmetal:
   profiles:
     - service: tg
       id: '5159568404'
-      updated: 2025-11-08-08-12-55
+      updated: 2025-11-08-09-10-00
       accessHash: '-7589226771447153320'
       username: bulatmetal
       name: Черепашка
@@ -3968,7 +3968,7 @@ peteev:
   profiles:
     - service: vk
       id: '546263681'
-      updated: 2025-11-08-08-13-00
+      updated: 2025-11-08-09-10-06
       username: peteev
       name: Андрей Николаевич
       avatar: store:/avatars/vk-391ac0be.jpg
@@ -3976,7 +3976,7 @@ peteevandrew:
   profiles:
     - service: vk
       id: '307619379'
-      updated: 2025-11-08-08-12-59
+      updated: 2025-11-08-09-10-05
       username: peteevandrew
       name: Андрей Петеев
       avatar: store:/avatars/vk-d3f26d8e.jpg
