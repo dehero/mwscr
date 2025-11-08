@@ -10,7 +10,7 @@
   profiles:
     - service: vk
       id: '313209237'
-      updated: 2025-11-08-11-08-18
+      updated: 2025-11-08-12-17-29
       username: 17haden_blake10
       name: Артемий Голицын
       avatar: store:/avatars/vk-a1f3f987.jpg
@@ -875,7 +875,7 @@ bulatmetal:
   profiles:
     - service: tg
       id: '5159568404'
-      updated: 2025-11-08-11-08-14
+      updated: 2025-11-08-12-17-24
       accessHash: '-7589226771447153320'
       username: bulatmetal
       name: Черепашка
@@ -1560,7 +1560,7 @@ dremarretres:
   profiles:
     - service: vk
       id: '801308664'
-      updated: 2025-11-08-11-08-18
+      updated: 2025-11-08-12-17-34
       username: dremarretres
       name: Джон Шепард
       avatar: store:/avatars/vk-ac4f0700.jpg
@@ -1963,6 +1963,14 @@ ganki-ro:
       username: ganki_ro
       name: 巌木　露 / Ganki Ro
       avatar: store:/avatars/ig-83bf51a3.jpg
+gavulon:
+  profiles:
+    - service: vk
+      id: '62603846'
+      updated: 2025-11-08-12-17-28
+      username: gavulon
+      name: Сергей Недвиго
+      avatar: store:/avatars/vk-77942374.jpg
 geenerval:
   profiles:
     - service: ig
@@ -3968,15 +3976,15 @@ peteev:
   profiles:
     - service: vk
       id: '546263681'
-      updated: 2025-11-08-11-08-18
+      updated: 2025-11-08-12-17-30
       username: peteev
       name: Андрей Николаевич
-      avatar: store:/avatars/vk-391ac0be.jpg
+      avatar: store:/avatars/vk-e1f950f4.jpg
 peteevandrew:
   profiles:
     - service: vk
       id: '307619379'
-      updated: 2025-11-08-11-08-17
+      updated: 2025-11-08-12-17-27
       username: peteevandrew
       name: Андрей Петеев
       avatar: store:/avatars/vk-d3f26d8e.jpg
