@@ -92,7 +92,7 @@ a2-enkelli:
   profiles:
     - service: tg
       id: '7258424423'
-      updated: 2025-11-09-02-28-58
+      updated: 2025-11-09-03-39-17
       accessHash: '969825927170686844'
       username: A2_Enkelli
       name: †† elli ††
@@ -642,7 +642,7 @@ bara-fox:
   profiles:
     - service: tg
       id: '5196274219'
-      updated: 2025-11-06-04-19-07
+      updated: 2025-11-09-03-39-20
       accessHash: '-7229804243629770662'
       username: BaraFox
       name: Bara
@@ -658,7 +658,7 @@ barry-banana-dragon:
   profiles:
     - service: tg
       id: '5324055165'
-      updated: 2025-11-09-02-28-58
+      updated: 2025-11-09-03-39-17
       accessHash: '-4800900764138736838'
       username: BarryBananaDragon
       botChatId: 5324055165
@@ -1967,7 +1967,7 @@ gavulon:
   profiles:
     - service: vk
       id: '62603846'
-      updated: 2025-11-09-02-29-00
+      updated: 2025-11-09-03-39-18
       username: gavulon
       name: Сергей Недвиго
       avatar: store:/avatars/vk-77942374.jpg
@@ -1995,7 +1995,7 @@ georrrrrg:
   profiles:
     - service: tg
       id: '1949040922'
-      updated: 2025-11-06-15-13-26
+      updated: 2025-11-09-03-39-19
       accessHash: '-2007640679099785628'
       username: Georrrrrg
       name: Егор
@@ -2742,7 +2742,7 @@ kawazaky223:
   profiles:
     - service: tg
       id: '5641856113'
-      updated: 2025-11-09-00-52-49
+      updated: 2025-11-09-03-39-20
       accessHash: '7421309771527577818'
       username: Kawazaky223
       name: Максим
@@ -3984,7 +3984,7 @@ peteevandrew:
   profiles:
     - service: vk
       id: '307619379'
-      updated: 2025-11-09-02-29-00
+      updated: 2025-11-09-03-39-18
       username: peteevandrew
       name: Андрей Петеев
       avatar: store:/avatars/vk-d3f26d8e.jpg
