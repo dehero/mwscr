@@ -647,31 +647,33 @@
       id: DQzh6pGj5UI
       mediaId: '18081717281039311'
       published: 2025-11-08-18-14-44
-      updated: 2025-11-09-18-13-57
+      updated: 2025-11-09-19-07-46
       followers: 1592
       likes: 60
     - service: vk
       id: 2828
       published: 2025-11-08-18-14-50
-      updated: 2025-11-09-18-13-55
+      updated: 2025-11-09-19-07-50
       followers: 1504
-      likes: 34
-      views: 316
+      likes: 38
+      views: 330
       reposts: 1
       comments: !c |-
-        G00C4C2Pdx0FqjQxl68NBKk34/nvL/Z5he6s7U69PKHII2pKKEo8OVfTxfJCO5SDINDNjf7KtvaE
-        Bf7zlrsaBBP+PW5jF0xqmk1IUkZsrqnKdrW1mFxetm4pO6truCsswiyw2NttgQRWC/LkqJVYGHGL
-        wuiJX7d5Cz2/UxelQhS0fX3+qU+urvXDTj6hvv//bylpB6tckfcvw4gWh6ncXAYsYTAVMGEscPuK
-        IamprkI2dUIoGjuxalxiUweTX7ce+zUVhZUWoHhLvoTDWKGCinhmjrdnL4XXY32fuhJfj98WbXKP
-        zFRjaDKjEj3aKDZhcOdBS8aZGak2THPD4RJtiyAcJyfXlPGmngmkx9KNAuhRdBZbPo7NsxIQlnt2
-        p/40k1wAUM05c1IyOKZddTNTc9ZtbBU4iyw0VIQnVm7nV9kzMw==
+        GzMDAKyLty3wgzxmIrIgMkxRe/745+Ue/YQvtd+0r17gQslLNJjIkiUTn5yrtYk3od2U225CpQ8p
+        KZAg7Kz+9CesIYz3cm/TOlAsHGtAFeT/nBOTKYXJpCrbzZa3um4pO8s+dTN9sAfNAsvlv01/8Vw4
+        h1hEXTgpzDDbbL+N9l3EaacwFaRHl1/f/7y7WAfH8aeKwwLz77/r/5MwpWCGL+b9S9PGEZspPGwM
+        GIbBUMCEY4JbF00mphoCWVQFQ+NgFUY1t7GokslTvEfHdy0ojECRUF4xGJb9AKQ6ioh39/yiXzzf
+        9/HzSVuu9X+9f77oKBTxmFIOmowBUTI9Y4rJim/0SJ11VJtii2musesljiUXYufJnvuEdW56oxIs
+        y6kJgEKWmaO3eZ58IpFZz3Mu1rJp1fYCyAdjnXO10ELXdqaJ2VLPTgmbAa45F6qvUDwSWA3XXGZ3
+        uYbzi5N/u8gskTxPs/5NHoyYGwKQiGWlD2TAlDoSKD96zgQYOxqMGjP62NDFBUYZOyHyKDlbUm4R
+        bdZcTOXmfE8t0CY2ZGOpyYqEWmkB
     - service: tg
       id: 1049
       published: 2025-11-08-18-14-56
-      updated: 2025-11-09-18-13-54
+      updated: 2025-11-09-19-07-49
       followers: 854
-      likes: 56
-      views: 213
+      likes: 58
+      views: 230
       comments: !c |-
         GyQBwKwSeBNbVxnkjljs9EJNR08v5qwlgZa2Rd4CDwrPt9vbCeoTnrXNVD+UH+NDWconiojuHl5h
         uFrW8mqGNF2YyvuoKo+eLU80MP6voGx3GW+RjXg08MEgtoWvhwO0dZBFPVV9rOPcAOt48KJvMy+v
@@ -2469,15 +2471,24 @@
       id: DQ2GrkdADcg
       mediaId: '18084028931001599'
       published: 2025-11-09-18-14-29
+      updated: 2025-11-09-19-07-45
       followers: 1592
+      likes: 9
     - service: vk
       id: 2836
       published: 2025-11-09-18-14-35
+      updated: 2025-11-09-19-07-42
       followers: 1504
+      likes: 7
+      views: 27
+      reposts: 1
     - service: tg
       id: 1050
       published: 2025-11-09-18-14-39
+      updated: 2025-11-09-19-07-43
       followers: 854
+      likes: 21
+      views: 83
 2017-02-23-surroundings-of-pelagiad:
   title: Surroundings of Pelagiad
   titleRu: Окрестности Пелагиада
