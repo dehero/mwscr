@@ -108,24 +108,30 @@
     - service: vk
       id: 2816
       published: 2025-11-06-18-17-05
-      updated: 2025-11-08-18-13-49
+      updated: 2025-11-09-18-14-00
       followers: 1500
-      likes: 66
-      views: 1099
-      reposts: 4
+      likes: 75
+      views: 1252
+      reposts: 5
       comments: !c |-
-        Gw8BICwO7IbPGwxqLKNrqC70BcE/cC6iBY4KdCLj1LzgLuAbXRDk+yAHfOq2l9AfiiGOs4Fwd5M1
-        mTd56YV222XZci11cqJhQJ6FiST6FkjIQXDMbWz2eoKnkbmk3/n8DLv8fhTxCIgzxZI5PgM/iSAG
-        NgvRVBlJ/m9F2kpX3s/hYGtvAoiG2kFgY2Sjm6YMZNMuW1tvY1yzF+rjFkO0vClA8iEmsJXnorkQ
-        DnAfRiMNkEbamIzEABjARDBKQx1tLoO1b3cB
+        GxADIKwKbGNp0AcWK8nyDDfPwtCcb/zTWLR4pU47hGXAZNxW1NQM6TZkQRBMwfJ+iTaV2hQj/Jya
+        I79WULWqlszZKlGFJGSFb6ppjkD/34jdrEQQegGSaHm3GVZqauWZaDDKMU5/e6n4jRfkHpAUOwUJ
+        QabjC9iiFGvbpLFhEuQ0+64QCbuu37h+/1Sofp5fKCt1N+9HMAw+1AytwDgYiWzVQ8men9fg+/Uf
+        9G27Mrsfesq2UWBkXjiAHn4IlFru7gPQ/H/z5jPtA630n4bttBkaJ25NA5OoSMdG2T9dWmSn/ydF
+        MyvDFkiJQXVrZ/s1KSxwnzFETGhJUDYFBAEQEIyM240PlTah5V5GmsS9f/D1/pbVG+2o6rlW0wzj
+        IatgdI53cqbeUzhumYgaDAckSLx0KEAykSv+VMM4yY5kOMjZ18ChNIMYtQjnU/wc94Owl3gzkKAc
+        KOzuQBCiNmIw4WYQWsZt/vf9x44n8J3UDEI2Rf61JWHBSGmk7ys3ZwHh3pwggh7iY9kYDwnv3A8F
+        xolSHBoxgnwApfT3Pex7l8T0qyGtqxc=
     - service: tg
       id: 1042
       published: 2025-11-06-18-17-09
-      updated: 2025-11-08-18-13-44
+      updated: 2025-11-09-18-13-59
       followers: 854
-      likes: 56
-      views: 259
-      comments: !c Cw+AkZPLQnmmCLkhgACqYnVsYXRtZXRhbKhIdXNiYW5kcwM=
+      likes: 58
+      views: 300
+      comments: !c |-
+        ixyAkpPLQnmmbgrgAACra2F3YXpha3kyMjOk8J+Ru5PLQnmmCLkhgACqYnVsYXRtZXRhbKhIdXNi
+        YW5kcwM=
 2019-02-07-travel-to-nowhere:
   title: Travel to Nowhere
   titleRu: Путешествие в никуда

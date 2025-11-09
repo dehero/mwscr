@@ -647,16 +647,16 @@
       id: DQzh6pGj5UI
       mediaId: '18081717281039311'
       published: 2025-11-08-18-14-44
-      updated: 2025-11-09-17-08-42
+      updated: 2025-11-09-18-13-57
       followers: 1592
       likes: 60
     - service: vk
       id: 2828
       published: 2025-11-08-18-14-50
-      updated: 2025-11-09-17-08-43
+      updated: 2025-11-09-18-13-55
       followers: 1504
-      likes: 32
-      views: 309
+      likes: 34
+      views: 316
       reposts: 1
       comments: !c |-
         G00C4C2Pdx0FqjQxl68NBKk34/nvL/Z5he6s7U69PKHII2pKKEo8OVfTxfJCO5SDINDNjf7KtvaE
@@ -668,10 +668,10 @@
     - service: tg
       id: 1049
       published: 2025-11-08-18-14-56
-      updated: 2025-11-09-17-08-44
+      updated: 2025-11-09-18-13-54
       followers: 854
-      likes: 55
-      views: 207
+      likes: 56
+      views: 213
       comments: !c |-
         GyQBwKwSeBNbVxnkjljs9EJNR08v5qwlgZa2Rd4CDwrPt9vbCeoTnrXNVD+UH+NDWconiojuHl5h
         uFrW8mqGNF2YyvuoKo+eLU80MP6voGx3GW+RjXg08MEgtoWvhwO0dZBFPVV9rOPcAOt48KJvMy+v
@@ -2465,6 +2465,19 @@
       followers: 38
       likes: 9
       views: 149
+    - service: ig
+      id: DQ2GrkdADcg
+      mediaId: '18084028931001599'
+      published: 2025-11-09-18-14-29
+      followers: 1592
+    - service: vk
+      id: 2836
+      published: 2025-11-09-18-14-35
+      followers: 1504
+    - service: tg
+      id: 1050
+      published: 2025-11-09-18-14-39
+      followers: 854
 2017-02-23-surroundings-of-pelagiad:
   title: Surroundings of Pelagiad
   titleRu: Окрестности Пелагиада
