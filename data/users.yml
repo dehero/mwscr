@@ -92,7 +92,7 @@ a2-enkelli:
   profiles:
     - service: tg
       id: '7258424423'
-      updated: 2025-11-10-12-21-11
+      updated: 2025-11-10-13-25-54
       accessHash: '969825927170686844'
       username: A2_Enkelli
       name: †† elli ††
@@ -521,7 +521,7 @@ artem-solovev:
   profiles:
     - service: vk
       id: '733007624'
-      updated: 2025-11-10-12-20-58
+      updated: 2025-11-10-13-25-51
       username: id733007624
       name: Артем Соловьев
       avatar: store:/avatars/vk-04a89351.jpg
@@ -658,7 +658,7 @@ barry-banana-dragon:
   profiles:
     - service: tg
       id: '5324055165'
-      updated: 2025-11-10-12-20-58
+      updated: 2025-11-10-13-25-54
       accessHash: '-4800900764138736838'
       username: BarryBananaDragon
       botChatId: 5324055165
@@ -2742,7 +2742,7 @@ kawazaky223:
   profiles:
     - service: tg
       id: '5641856113'
-      updated: 2025-11-10-12-21-17
+      updated: 2025-11-10-13-25-54
       accessHash: '7421309771527577818'
       username: Kawazaky223
       name: Максим
@@ -4587,7 +4587,7 @@ sergey-b-2:
   profiles:
     - service: vk
       id: '1077446394'
-      updated: 2025-11-10-12-20-58
+      updated: 2025-11-10-13-25-50
       username: id1077446394
       name: Сергей Б
       avatar: store:/avatars/vk-12075792.jpg
@@ -6045,7 +6045,7 @@ ya-hs-che-suda-stavit:
   profiles:
     - service: tg
       id: '1336542246'
-      updated: 2025-11-10-12-21-00
+      updated: 2025-11-10-13-25-55
       accessHash: '5504493057447045891'
       username: Ya_hs_che_suda_stavit
       name: Hist 2
@@ -6074,7 +6074,7 @@ yellow-submarine:
   profiles:
     - service: vk
       id: '21865013'
-      updated: 2025-11-10-12-20-57
+      updated: 2025-11-10-13-25-50
       username: id21865013
       name: Yellow Submarine
       avatar: store:/avatars/vk-0251fbbd.jpg
