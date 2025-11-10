@@ -45,17 +45,17 @@
     - service: vk
       id: 2514
       published: 2025-07-12-18-22-27
-      updated: 2025-11-03-11-10-12
+      updated: 2025-11-10-12-21-14
       followers: 1338
       likes: 42
-      views: 511
+      views: 517
     - service: tg
       id: 915
       published: 2025-07-12-18-22-31
-      updated: 2025-11-03-11-10-13
+      updated: 2025-11-10-12-21-14
       followers: 761
       likes: 59
-      views: 579
+      views: 581
       comments: !c iw2AkZPLQnmAJyHhAACra2F3YXpha3kyMjOk8J+ZjwM=
     - service: ig
       id: DMOwL2voVx-
@@ -447,16 +447,16 @@
       id: DMqW8NUsqF3
       mediaId: '18145345993403044'
       published: 2025-07-28-18-40-05
-      updated: 2025-11-03-11-10-00
+      updated: 2025-11-10-12-21-05
       followers: 1572
       likes: 82
     - service: vk
       id: 2540
       published: 2025-07-28-18-40-11
-      updated: 2025-11-03-11-10-07
+      updated: 2025-11-10-12-21-10
       followers: 1356
       likes: 76
-      views: 1648
+      views: 1656
       reposts: 9
       comments: !c |-
         G6QBIJwHto1qPdDpuXHXoEn883LPlib0+taWSqvM2oIfcNaWeHIu6Acp+M9thGYIxRYMzWRkhHoc
@@ -468,10 +468,10 @@
     - service: tg
       id: 930
       published: 2025-07-28-18-40-17
-      updated: 2025-11-03-11-10-07
+      updated: 2025-11-10-12-21-10
       followers: 769
       likes: 77
-      views: 683
+      views: 688
       comments: !c |-
         iyaAkZPLQnmFlx3HgACra2F3YXpha3kyMjPZNdCT0YDQuNCx0L7QvNC10LHQtdC70Ywg0LHRi9C7
         0LAg0LHRiyDQutGA0LDRgdC40LLRiNC1Aw==
@@ -746,18 +746,18 @@
     - service: vk
       id: 2489
       published: 2025-06-28-18-25-41
-      updated: 2025-11-03-11-10-17
+      updated: 2025-11-10-12-21-19
       followers: 1332
       likes: 64
-      views: 499
+      views: 505
       reposts: 3
     - service: tg
       id: 899
       published: 2025-06-28-18-25-44
-      updated: 2025-11-03-11-10-19
+      updated: 2025-11-10-12-21-16
       followers: 758
       likes: 65
-      views: 630
+      views: 631
       comments: !c |-
         G1YAiIzUUY370dbdUU5wwcPh8MuplQVWwC1sx4CTSkUINuBEB+OzidcBbA+4aiWMEJI75lvqtwGO
         S0GgYux5izj6aIOqZd/FHhp3mCFkoQoxHQ==
