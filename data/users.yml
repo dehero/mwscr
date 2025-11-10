@@ -92,7 +92,7 @@ a2-enkelli:
   profiles:
     - service: tg
       id: '7258424423'
-      updated: 2025-11-09-23-09-35
+      updated: 2025-11-10-00-52-47
       accessHash: '969825927170686844'
       username: A2_Enkelli
       name: †† elli ††
@@ -304,7 +304,7 @@ alexcher16:
   profiles:
     - service: vk
       id: '14644107'
-      updated: 2025-11-03-00-52-24
+      updated: 2025-11-10-00-52-53
       username: alexcher16
       name: Алексей Черноткач
       avatar: store:/avatars/vk-cf71ed78.jpg
@@ -513,7 +513,7 @@ artem-petrov:
   profiles:
     - service: vk
       id: '4238605'
-      updated: 2025-11-09-06-15-12
+      updated: 2025-11-10-00-52-53
       username: id4238605
       name: Артем Петров
       avatar: store:/avatars/vk-77942374.jpg
@@ -521,7 +521,7 @@ artem-solovev:
   profiles:
     - service: vk
       id: '733007624'
-      updated: 2025-11-09-23-09-36
+      updated: 2025-11-10-00-52-53
       username: id733007624
       name: Артем Соловьев
       avatar: store:/avatars/vk-04a89351.jpg
@@ -650,7 +650,7 @@ barl-zild:
   profiles:
     - service: vk
       id: '312072202'
-      updated: 2025-11-02-23-09-38
+      updated: 2025-11-10-00-52-51
       username: barl_zild
       name: Максим Сафонов
       avatar: store:/avatars/vk-40147995.jpg
@@ -658,7 +658,7 @@ barry-banana-dragon:
   profiles:
     - service: tg
       id: '5324055165'
-      updated: 2025-11-09-23-09-35
+      updated: 2025-11-10-00-52-46
       accessHash: '-4800900764138736838'
       username: BarryBananaDragon
       botChatId: 5324055165
@@ -1459,7 +1459,7 @@ dish-man:
   profiles:
     - service: vk
       id: '180745700'
-      updated: 2025-11-02-23-09-37
+      updated: 2025-11-10-00-52-51
       username: dish_man
       name: Станислав Беляев
       avatar: store:/avatars/vk-68b120ff.jpg
@@ -1842,7 +1842,7 @@ feanor2la:
   profiles:
     - service: vk
       id: '16294877'
-      updated: 2025-11-09-18-14-00
+      updated: 2025-11-10-00-52-51
       username: feanor2la
       name: Иван Урлапов
       avatar: store:/avatars/vk-14fd45f0.jpg
@@ -2742,7 +2742,7 @@ kawazaky223:
   profiles:
     - service: tg
       id: '5641856113'
-      updated: 2025-11-09-23-09-34
+      updated: 2025-11-10-00-52-49
       accessHash: '7421309771527577818'
       username: Kawazaky223
       name: Максим
@@ -4047,7 +4047,7 @@ pkellerman:
   profiles:
     - service: vk
       id: '11823909'
-      updated: 2025-11-06-04-24-50
+      updated: 2025-11-10-00-52-51
       username: pkellerman
       name: Антон Подлужный
       avatar: store:/avatars/vk-9bff06f8.jpg
@@ -4587,7 +4587,7 @@ sergey-b-2:
   profiles:
     - service: vk
       id: '1077446394'
-      updated: 2025-11-09-23-09-36
+      updated: 2025-11-10-00-52-47
       username: id1077446394
       name: Сергей Б
       avatar: store:/avatars/vk-12075792.jpg
@@ -4968,7 +4968,7 @@ stellex:
   profiles:
     - service: vk
       id: '37141641'
-      updated: 2025-11-02-23-09-37
+      updated: 2025-11-10-00-52-51
       username: stellex
       name: Сергей Stellex
       avatar: store:/avatars/vk-57e20787.jpg
@@ -6074,7 +6074,7 @@ yellow-submarine:
   profiles:
     - service: vk
       id: '21865013'
-      updated: 2025-11-09-23-09-36
+      updated: 2025-11-10-00-52-47
       username: id21865013
       name: Yellow Submarine
       avatar: store:/avatars/vk-0251fbbd.jpg
