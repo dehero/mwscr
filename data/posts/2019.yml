@@ -108,10 +108,10 @@
     - service: vk
       id: 2816
       published: 2025-11-06-18-17-05
-      updated: 2025-11-09-18-14-00
+      updated: 2025-11-10-18-16-06
       followers: 1500
-      likes: 75
-      views: 1252
+      likes: 77
+      views: 1366
       reposts: 5
       comments: !c |-
         GxADIKwKbGNp0AcWK8nyDDfPwtCcb/zTWLR4pU47hGXAZNxW1NQM6TZkQRBMwfJ+iTaV2hQj/Jya
@@ -125,10 +125,10 @@
     - service: tg
       id: 1042
       published: 2025-11-06-18-17-09
-      updated: 2025-11-09-18-13-59
+      updated: 2025-11-10-18-16-04
       followers: 854
       likes: 58
-      views: 300
+      views: 333
       comments: !c |-
         ixyAkpPLQnmmbgrgAACra2F3YXpha3kyMjOk8J+Ru5PLQnmmCLkhgACqYnVsYXRtZXRhbKhIdXNi
         YW5kcwM=
