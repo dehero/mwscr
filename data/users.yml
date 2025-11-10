@@ -92,7 +92,7 @@ a2-enkelli:
   profiles:
     - service: tg
       id: '7258424423'
-      updated: 2025-11-10-21-10-08
+      updated: 2025-11-10-22-11-51
       accessHash: '969825927170686844'
       username: A2_Enkelli
       name: †† elli ††
@@ -513,7 +513,7 @@ artem-petrov:
   profiles:
     - service: vk
       id: '4238605'
-      updated: 2025-11-10-00-52-53
+      updated: 2025-11-10-22-11-58
       username: id4238605
       name: Артем Петров
       avatar: store:/avatars/vk-77942374.jpg
@@ -561,7 +561,7 @@ arya-stark:
   profiles:
     - service: vk
       id: '820702664'
-      updated: 2025-11-10-21-10-07
+      updated: 2025-11-10-22-12-00
       username: id820702664
       name: Арья Старк
       avatar: store:/avatars/vk-689aa89d.jpg
@@ -985,7 +985,7 @@ chernosotinec:
   profiles:
     - service: vk
       id: '355750944'
-      updated: 2025-11-10-12-21-10
+      updated: 2025-11-10-22-11-47
       username: Chernosotinec
       name: Артём Стекольщиков
       avatar: store:/avatars/vk-8aee5603.jpg
@@ -2038,7 +2038,7 @@ gleb-zheltuhin:
   profiles:
     - service: vk
       id: '29014473'
-      updated: 2025-11-10-20-12-59
+      updated: 2025-11-10-22-11-47
       username: gleb_zheltuhin
       name: Глеб Желтухин
       avatar: store:/avatars/vk-971eefc1.jpg
@@ -2097,7 +2097,7 @@ goosevich76:
   profiles:
     - service: tg
       id: '5385620621'
-      updated: 2025-11-10-20-12-57
+      updated: 2025-11-10-22-11-51
       accessHash: '-7130473396589324830'
       username: horwwwaty
       name: choven
@@ -2742,7 +2742,7 @@ kawazaky223:
   profiles:
     - service: tg
       id: '5641856113'
-      updated: 2025-11-10-21-10-11
+      updated: 2025-11-10-22-11-51
       accessHash: '7421309771527577818'
       username: Kawazaky223
       name: Максим
@@ -3540,7 +3540,7 @@ myndowen:
   profiles:
     - service: tg
       id: '720784420'
-      updated: 2025-11-10-21-10-06
+      updated: 2025-11-10-22-11-45
       accessHash: '4385662928393121475'
       username: myndowen
       name: Daniel Beilin
@@ -3993,7 +3993,7 @@ peteevandrew:
   profiles:
     - service: vk
       id: '307619379'
-      updated: 2025-11-10-20-12-56
+      updated: 2025-11-10-22-11-58
       username: peteevandrew
       name: Андрей Петеев
       avatar: store:/avatars/vk-d3f26d8e.jpg
@@ -4596,7 +4596,7 @@ sergey-b-2:
   profiles:
     - service: vk
       id: '1077446394'
-      updated: 2025-11-10-18-16-04
+      updated: 2025-11-10-22-11-57
       username: id1077446394
       name: Сергей Б
       avatar: store:/avatars/vk-12075792.jpg
@@ -4855,10 +4855,10 @@ sonmuravja:
   profiles:
     - service: vk
       id: '845329081'
-      updated: 2025-11-03-22-11-04
+      updated: 2025-11-10-22-11-53
       username: sonmuravja
       name: Егор Другаков
-      avatar: store:/avatars/vk-6d9ab089.jpg
+      avatar: store:/avatars/vk-90d3b98e.jpg
 sothaseel:
   profiles:
     - service: ig
@@ -5283,7 +5283,7 @@ todor:
   profiles:
     - service: tg
       id: '1305695186'
-      updated: 2025-11-10-12-21-11
+      updated: 2025-11-10-22-11-52
       accessHash: '8819682207926865502'
       name: Todor
       avatar: store:/avatars/tg-5305295556123424826.jpg
