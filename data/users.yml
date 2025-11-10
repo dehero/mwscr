@@ -92,7 +92,7 @@ a2-enkelli:
   profiles:
     - service: tg
       id: '7258424423'
-      updated: 2025-11-10-14-11-15
+      updated: 2025-11-10-15-12-41
       accessHash: '969825927170686844'
       username: A2_Enkelli
       name: †† elli ††
@@ -271,7 +271,7 @@ aleksey-yeskela:
   profiles:
     - service: vk
       id: '1047357639'
-      updated: 2025-11-10-11-10-05
+      updated: 2025-11-10-15-12-49
       username: id1047357639
       name: Алексей Йескела
       avatar: store:/avatars/vk-893f32cb.jpg
@@ -521,7 +521,7 @@ artem-solovev:
   profiles:
     - service: vk
       id: '733007624'
-      updated: 2025-11-10-14-11-13
+      updated: 2025-11-10-15-12-39
       username: id733007624
       name: Артем Соловьев
       avatar: store:/avatars/vk-04a89351.jpg
@@ -561,7 +561,7 @@ arya-stark:
   profiles:
     - service: vk
       id: '820702664'
-      updated: 2025-11-10-12-21-05
+      updated: 2025-11-10-15-12-50
       username: id820702664
       name: Арья Старк
       avatar: store:/avatars/vk-689aa89d.jpg
@@ -658,7 +658,7 @@ barry-banana-dragon:
   profiles:
     - service: tg
       id: '5324055165'
-      updated: 2025-11-10-14-11-15
+      updated: 2025-11-10-15-12-41
       accessHash: '-4800900764138736838'
       username: BarryBananaDragon
       botChatId: 5324055165
@@ -855,7 +855,7 @@ brg1092:
   profiles:
     - service: tg
       id: '5867861906'
-      updated: 2025-11-10-12-21-11
+      updated: 2025-11-10-15-12-43
       accessHash: '4411929981434940281'
       username: brg1092
       name: 2𝜋
@@ -1864,10 +1864,10 @@ filavandrel-official:
   profiles:
     - service: vk
       id: '682643734'
-      updated: 2025-11-09-06-15-12
+      updated: 2025-11-10-15-12-45
       username: filavandrel_official
       name: Filavandrel Aén Fidháil
-      avatar: store:/avatars/vk-e1fad8d6.jpg
+      avatar: store:/avatars/vk-6d180d88.jpg
 filippov-iurii:
   profiles:
     - service: tg
@@ -2426,7 +2426,7 @@ init-medigel:
   profiles:
     - service: vk
       id: '1063780894'
-      updated: 2025-11-03-15-12-15
+      updated: 2025-11-10-15-12-50
       username: id1063780894
       name: Init Medigel
       avatar: store:/avatars/vk-444d0739.jpg
@@ -2742,7 +2742,7 @@ kawazaky223:
   profiles:
     - service: tg
       id: '5641856113'
-      updated: 2025-11-10-14-11-15
+      updated: 2025-11-10-15-12-41
       accessHash: '7421309771527577818'
       username: Kawazaky223
       name: Максим
@@ -3007,11 +3007,11 @@ loftydelusion:
   profiles:
     - service: tg
       id: '6735256969'
-      updated: 2025-11-06-04-40-44
+      updated: 2025-11-10-15-12-48
       accessHash: '7923451850129434076'
       username: Loftydelusion
-      name: Delusion
-      avatar: store:/avatars/tg-6048627105119013656.jpg
+      name: Ꭰelusion
+      avatar: store:/avatars/tg-5794234431240342365.jpg
 logodesign-logodaku:
   profiles:
     - service: ig
@@ -3166,7 +3166,7 @@ malignoutsider:
   profiles:
     - service: vk
       id: '104145157'
-      updated: 2025-11-06-02-33-41
+      updated: 2025-11-10-15-12-50
       username: malignoutsider
       name: Роберт Сабиров
       avatar: store:/avatars/vk-8e006a3a.jpg
@@ -3927,7 +3927,7 @@ palych:
   profiles:
     - service: vk
       id: '485933'
-      updated: 2025-11-03-15-12-13
+      updated: 2025-11-10-15-12-49
       username: palych
       name: Павел Красовский
       avatar: store:/avatars/vk-ee218ff0.jpg
@@ -4587,7 +4587,7 @@ sergey-b-2:
   profiles:
     - service: vk
       id: '1077446394'
-      updated: 2025-11-10-14-11-13
+      updated: 2025-11-10-15-12-38
       username: id1077446394
       name: Сергей Б
       avatar: store:/avatars/vk-12075792.jpg
@@ -6074,7 +6074,7 @@ yellow-submarine:
   profiles:
     - service: vk
       id: '21865013'
-      updated: 2025-11-10-14-11-12
+      updated: 2025-11-10-15-12-38
       username: id21865013
       name: Yellow Submarine
       avatar: store:/avatars/vk-0251fbbd.jpg
