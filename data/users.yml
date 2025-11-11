@@ -92,7 +92,7 @@ a2-enkelli:
   profiles:
     - service: tg
       id: '7258424423'
-      updated: 2025-11-11-08-15-01
+      updated: 2025-11-11-09-12-25
       accessHash: '969825927170686844'
       username: A2_Enkelli
       name: †† elli ††
@@ -432,7 +432,7 @@ anonim:
   profiles:
     - service: tg
       id: '6469120788'
-      updated: 2025-11-08-02-18-51
+      updated: 2025-11-11-09-12-26
       accessHash: '-3557204299452739678'
       name: Аноним
       avatar: store:/avatars/tg-5386639419211116910.jpg
@@ -561,7 +561,7 @@ arya-stark:
   profiles:
     - service: vk
       id: '820702664'
-      updated: 2025-11-10-22-12-00
+      updated: 2025-11-11-09-12-28
       username: id820702664
       name: Арья Старк
       avatar: store:/avatars/vk-689aa89d.jpg
@@ -1206,7 +1206,7 @@ danya-r:
   profiles:
     - service: tg
       id: '6217540848'
-      updated: 2025-11-10-21-10-11
+      updated: 2025-11-11-09-12-27
       accessHash: '144997878637800057'
       name: 🛡𐌃𐌀𐌍𐌙𐌀 𐌔Ƕ𐌀𐌓𐌏𐌔Ƕ𐌍𐌉𐌊𐌏ᕓ🛡
       avatar: store:/avatars/tg-5467410398086038782.jpg
@@ -2742,7 +2742,7 @@ kawazaky223:
   profiles:
     - service: tg
       id: '5641856113'
-      updated: 2025-11-11-08-15-01
+      updated: 2025-11-11-09-12-28
       accessHash: '7421309771527577818'
       username: Kawazaky223
       name: Максим
@@ -3540,7 +3540,7 @@ myndowen:
   profiles:
     - service: tg
       id: '720784420'
-      updated: 2025-11-11-08-15-01
+      updated: 2025-11-11-09-12-25
       accessHash: '4385662928393121475'
       username: myndowen
       name: Daniel Beilin
@@ -4287,7 +4287,7 @@ redoranar:
   profiles:
     - service: tg
       id: '627928484'
-      updated: 2025-11-07-13-22-41
+      updated: 2025-11-11-09-12-28
       accessHash: '4117269213935533016'
       username: Redoranar
       name: Egor
