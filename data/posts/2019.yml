@@ -101,10 +101,12 @@
       id: DQuYk8ojrTN
       mediaId: '18063461165159167'
       published: 2025-11-06-18-16-58
-      updated: 2025-11-10-19-18-55
+      updated: 2025-11-11-20-12-02
       followers: 1590
-      likes: 104
-      comments: !c ixGAkZPLQnmlxLDfAACna2liYnlzaLBtb2RkZWQgdGV4dHVyZXM/Aw==
+      likes: 105
+      comments: !c |-
+        CySAkpPLQnmnCkGZAACqYmVld2l0Y2gxOa9NZSBhbmQgd2hvIPCflKWTy0J5pcSw3wAAp2tpYmJ5
+        c2iwbW9kZGVkIHRleHR1cmVzPwM=
     - service: vk
       id: 2816
       published: 2025-11-06-18-17-05
