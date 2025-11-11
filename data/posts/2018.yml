@@ -6436,28 +6436,30 @@
       id: DQrzp3wjfed
       mediaId: '18056424434297000'
       published: 2025-11-05-18-15-48
-      updated: 2025-11-10-20-12-51
+      updated: 2025-11-11-21-09-56
       followers: 1589
-      likes: 63
+      likes: 64
       comments: !c Cw6AkZPLQnmmB60QgACqYmVld2l0Y2gxOabinaTvuI8D
     - service: vk
       id: 2813
       published: 2025-11-05-18-15-54
-      updated: 2025-11-10-20-12-53
+      updated: 2025-11-11-21-10-00
       followers: 1500
-      likes: 64
-      views: 630
-      reposts: 5
+      likes: 70
+      views: 765
+      reposts: 6
       comments: !c |-
-        iyCAkZPLQnmlcKzQgACscGV0ZWV2YW5kcmV32SjQk9C00LUt0YLQviDQvdCwINCh0L7Qu9GB0YLR
-        hdC10LnQvNC1Li4pAw==
+        GxoB4JwHto1sOxzs2OJJFCL6/hbhjfefYAQBRZEk1ExkyZ7OLeRqiVZDY+g3EH5r1HL3Rr9PNOAI
+        0uzvtl9rQdCWcoRh6raYHg7GMviSYhiiManFagt/eqCFWRgQtLW1gAKKNIYk8UBOdLex51mq0Amk
+        0wPP8+e267tj+y4OcqKHuNJsB1ZJQRaLVFE2QGqYSW45/xfp5xMHKdiY8Rv24tZZITgp+erxxvdu
+        iCr3kifWcJmVBilysFPuQfDqgkOpBCeqmQ1sJ7i/cmJqQKTwlFQegPQSsCArSurqWHA+
     - service: tg
       id: 1041
       published: 2025-11-05-18-15-58
-      updated: 2025-11-10-20-12-58
+      updated: 2025-11-11-21-10-02
       followers: 853
       likes: 70
-      views: 357
+      views: 369
       comments: !c |-
         G2QBYBwHuSnzDvlmq1o0cM6J3sbPwrRT6yKSDpZhUVha+saR3g0uIQu0suGQl1MhycpyJxoY3/3v
         twA/ylqAba29BZph4AkGpefIaoIi0Yv8UPGl231krBX3LwDYM5AB2RBjhcORxXF57j0y1rI+RwFg
@@ -7431,24 +7433,24 @@
       id: DQ7QeVKjXj5
       mediaId: '17864175780436828'
       published: 2025-11-11-18-16-29
-      updated: 2025-11-11-20-11-58
+      updated: 2025-11-11-21-09-53
       followers: 1595
-      likes: 17
+      likes: 20
     - service: vk
       id: 2844
       published: 2025-11-11-18-16-35
-      updated: 2025-11-11-20-11-54
+      updated: 2025-11-11-21-09-50
       followers: 1503
       likes: 2
-      views: 24
+      views: 27
       reposts: 1
     - service: tg
       id: 1052
       published: 2025-11-11-18-16-39
-      updated: 2025-11-11-20-11-56
+      updated: 2025-11-11-21-09-50
       followers: 853
-      likes: 29
-      views: 99
+      likes: 31
+      views: 112
 2018-06-21-ice-cave-in-the-ice-bay:
   title: Ice Cave in the Ice Bay
   titleRu: Ледяная пещера в ледяном заливе
