@@ -23,10 +23,11 @@ export interface RenderCalendarToFolderArgs {
   folder: string;
   year: number;
   ru?: boolean;
+  sundayFirst?: boolean;
   images: Array<ImageResourceUrl | undefined>;
 }
 
-export async function renderCalendarToFolder({ folder, year, ru, images }: RenderCalendarToFolderArgs) {
+export async function renderCalendarToFolder({ folder, year, ru, sundayFirst, images }: RenderCalendarToFolderArgs) {
   try {
     await mkdir(folder, { recursive: true });
   } catch {
@@ -41,7 +42,13 @@ export async function renderCalendarToFolder({ folder, year, ru, images }: Rende
   for (let monthIndex = 0; monthIndex < 12; monthIndex++) {
     const basename = (monthIndex + 1).toString().padStart(2, '0');
 
-    const { image, html } = await renderCalendarMonth({ year, monthIndex, ru, imageUrl: images[monthIndex] });
+    const { image, html } = await renderCalendarMonth({
+      year,
+      monthIndex,
+      ru,
+      sundayFirst,
+      imageUrl: images[monthIndex],
+    });
     // @ts-expect-error TODO: resolve typing issues
     await writeFile(path.join(folder, `${basename}.png`), image);
     await writeFile(path.join(folder, `${basename}.html`), html, 'utf-8');
@@ -68,9 +75,10 @@ export interface RenderCalendarMonthArgs {
   monthIndex: number;
   imageUrl?: ImageResourceUrl;
   ru?: boolean;
+  sundayFirst?: boolean;
 }
 
-export async function renderCalendarMonth({ year, monthIndex, ru, imageUrl }: RenderCalendarMonthArgs) {
+export async function renderCalendarMonth({ year, monthIndex, ru, sundayFirst, imageUrl }: RenderCalendarMonthArgs) {
   const descriptor = calendarMonthDescriptors[monthIndex];
   if (!descriptor) {
     throw new Error(`No descriptor found for month index ${monthIndex}`);
@@ -82,7 +90,7 @@ export async function renderCalendarMonth({ year, monthIndex, ru, imageUrl }: Re
   const holidays: string[] = [];
 
   const firstDayOfWeek = firstDay.getDay();
-  const weekStart = ru ? 1 : 0;
+  const weekStart = !sundayFirst ? 1 : 0;
 
   const days: CalendarCell[] = [];
 
@@ -235,7 +243,7 @@ export async function createCalendarCoverHtml({ year, ru }: CreateCalendarCoverH
     <div class="main">
       <img class="logo" src="${logo.dataUrl}" />
       <p class="name">${site.name}</p>
-      <p class="info"><span class="prefix">${ru ? 'НЭ' : 'AD'}</span><span class="year">${year}</span></p>
+      <p class="info"><span class="prefix">${ru ? 'НЭ' : 'CE'}</span><span class="year">${year}</span></p>
     </div>
     <p class="site">
       ${site.origin.replace(/^https?:\/\//, '')}
