@@ -1282,7 +1282,7 @@
     - service: yt
       id: lbg7_2GY9-U
       published: 2017-01-28
-      updated: 2025-11-05-22-10-19
+      updated: 2025-11-12-22-10-52
       followers: 2
       likes: 24
       views: 574
@@ -3907,10 +3907,10 @@
     - service: tg
       id: 1034
       published: 2025-10-29-18-17-25
-      updated: 2025-11-05-22-10-29
+      updated: 2025-11-12-22-11-01
       followers: 848
-      likes: 69
-      views: 399
+      likes: 70
+      views: 463
       comments: !c CxGAkZPLQnmjExKigACqYTItZW5rZWxsaaxzaHJvb21idXJnZXID
 2017-03-25-the-two-towers:
   title: The Two Towers
@@ -15250,24 +15250,24 @@
       id: DOrFi8CDq8p
       mediaId: '18326558461226746'
       published: 2025-09-16-18-30-08
-      updated: 2025-11-05-21-10-40
+      updated: 2025-11-12-22-11-05
       followers: 1583
       likes: 73
     - service: vk
       id: 2654
       published: 2025-09-16-18-30-15
-      updated: 2025-11-05-21-10-39
+      updated: 2025-11-12-22-11-22
       followers: 1420
       likes: 47
-      views: 451
+      views: 459
       reposts: 3
     - service: tg
       id: 987
       published: 2025-09-16-18-30-21
-      updated: 2025-11-05-21-10-36
+      updated: 2025-11-12-22-11-11
       followers: 797
       likes: 65
-      views: 541
+      views: 548
       comments: !c iw2AkZPLQnmVYaIOgACra2F3YXpha3kyMjOk8J+MnwM=
 2017-12-08-lower-circle:
   title: Lower Circle
