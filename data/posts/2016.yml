@@ -107,10 +107,10 @@
     - service: tg
       id: 821
       published: 2025-04-28-18-25-09
-      updated: 2025-11-06-02-28-46
+      updated: 2025-11-13-02-29-55
       followers: 726
       likes: 81
-      views: 660
+      views: 662
       comments: !c |-
         GxMBACwObCc0ME0obunnUpGyRqh0/iFvIxzIxpZJgXVRpMn7ZOncSio6R7IykMnOuKGqcyNnUyO1
         /wTcYKNaiqk79WQxvcaPaMxGrlIzky4gCzo5cGkHuVDh53ksgQSecVgSiAY7YGdyaTh2zutbLX8X
@@ -698,10 +698,10 @@
     - service: tg
       id: 797
       published: 2025-04-16-18-22-22
-      updated: 2025-11-06-02-28-56
+      updated: 2025-11-13-02-30-07
       followers: 720
       likes: 61
-      views: 596
+      views: 598
 2016-12-02-molag-mar:
   title: Molag Mar
   titleRu: Молаг Мар

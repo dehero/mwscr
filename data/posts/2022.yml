@@ -1200,10 +1200,10 @@
     - service: vk
       id: 2350
       published: 2025-05-11-18-23-47
-      updated: 2025-11-06-02-29-06
+      updated: 2025-11-13-02-30-17
       followers: 1292
       likes: 51
-      views: 525
+      views: 529
       reposts: 2
       comments: !c |-
         G8cA4ByHcSyy8PJqIAwhnvBvn/DmpZhlCScl0lZkyTuigtpcCdEQF+oxJ/zEd+rmmw/Q/4pw21o2
@@ -1213,10 +1213,10 @@
     - service: tg
       id: 838
       published: 2025-05-11-18-23-53
-      updated: 2025-11-06-02-28-22
+      updated: 2025-11-13-02-29-40
       followers: 738
       likes: 63
-      views: 604
+      views: 605
 2022-07-16-two-at-the-lantern:
   title: Two at the Lantern
   titleRu: Двое у фонаря
@@ -1257,24 +1257,24 @@
       id: DQ91W55jYAg
       mediaId: '18080446513887672'
       published: 2025-11-12-18-17-00
-      updated: 2025-11-13-00-50-21
+      updated: 2025-11-13-02-29-17
       followers: 1594
-      likes: 25
+      likes: 27
     - service: vk
       id: 2845
       published: 2025-11-12-18-17-07
-      updated: 2025-11-13-00-50-14
+      updated: 2025-11-13-02-29-08
       followers: 1502
-      likes: 11
-      views: 50
+      likes: 14
+      views: 66
       reposts: 1
     - service: tg
       id: 1053
       published: 2025-11-12-18-17-12
-      updated: 2025-11-13-00-50-15
+      updated: 2025-11-13-02-29-07
       followers: 855
-      likes: 37
-      views: 134
+      likes: 40
+      views: 141
 2022-07-17-slaves-sight:
   title: Slave's Sight
   titleRu: Взгляд раба

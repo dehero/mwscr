@@ -621,10 +621,10 @@
     - service: vk
       id: 2412
       published: 2025-06-01-18-25-47
-      updated: 2025-11-06-02-28-24
+      updated: 2025-11-13-02-29-35
       followers: 1314
       likes: 65
-      views: 616
+      views: 620
       reposts: 1
       comments: !c |-
         G7gA4J0JNk6oR3kXHkR1e8LjJgk0wySIsusPqAm4LKJkF3MbO/OKYRiFlQ1cha2DQw5crhi0ADAI
@@ -2485,10 +2485,10 @@
     - service: vk
       id: 2362
       published: 2025-05-17-18-24-00
-      updated: 2025-11-06-02-28-53
+      updated: 2025-11-13-02-30-07
       followers: 1300
       likes: 67
-      views: 557
+      views: 564
       reposts: 2
       comments: !c |-
         G3IA+I3TZXZoRb7s+VND+DWLAhaR8BjThu624iWZ97DLbeys7XiORCuoJkUYpNDS7+izj0Aep8tN
@@ -2496,10 +2496,10 @@
     - service: tg
       id: 847
       published: 2025-05-17-19-13-22
-      updated: 2025-11-06-02-28-19
+      updated: 2025-11-13-02-29-31
       followers: 737
       likes: 69
-      views: 534
+      views: 535
 2019-10-22-the-wind-is-getting-stronger:
   title: The Wind Is Getting Stronger
   titleRu: Ветер крепчает

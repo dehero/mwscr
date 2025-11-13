@@ -175,10 +175,10 @@
     - service: vk
       id: 2382
       published: 2025-05-24-18-18-58
-      updated: 2025-11-06-02-28-38
+      updated: 2025-11-13-02-29-49
       followers: 1305
       likes: 55
-      views: 455
+      views: 459
     - service: tg
       id: 857
       published: 2025-05-24-18-19-06
@@ -233,16 +233,16 @@
       id: DOJmMF4jRTd
       mediaId: '17922073773131202'
       published: 2025-09-03-18-21-10
-      updated: 2025-11-06-02-28-15
+      updated: 2025-11-13-02-29-24
       followers: 1582
       likes: 68
     - service: vk
       id: 2629
       published: 2025-09-03-18-21-16
-      updated: 2025-11-06-02-28-09
+      updated: 2025-11-13-02-29-18
       followers: 1404
       likes: 44
-      views: 570
+      views: 578
       reposts: 1
       comments: !c |-
         Cy+AkZPLQnmRFaD7gACwc2VyZ2V5LWNodXJiYW5vdtlB0K3RjdC5KSDQt9C00LDRgNC+0LLQsCEg
@@ -250,10 +250,10 @@
     - service: tg
       id: 971
       published: 2025-09-03-18-21-19
-      updated: 2025-11-06-02-28-07
+      updated: 2025-11-13-02-29-17
       followers: 788
       likes: 76
-      views: 571
+      views: 574
       comments: !c iw2AkZPLQnmRXdWaAACra2F3YXpha3kyMjOk8J+koQM=
 2023-08-01-stillness:
   title: Stillness
@@ -354,10 +354,10 @@
     - service: tg
       id: 832
       published: 2025-05-06-18-24-51
-      updated: 2025-11-06-02-28-26
+      updated: 2025-11-13-02-29-45
       followers: 738
       likes: 69
-      views: 700
+      views: 702
 2023-08-03-spinning-wheel:
   title: Spinning-Wheel
   titleRu: Прялка
