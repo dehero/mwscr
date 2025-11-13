@@ -92,7 +92,7 @@ a2-enkelli:
   profiles:
     - service: tg
       id: '7258424423'
-      updated: 2025-11-13-03-42-52
+      updated: 2025-11-13-11-10-32
       accessHash: '969825927170686844'
       username: A2_Enkelli
       name: †† elli ††
@@ -447,7 +447,7 @@ ansis:
   profiles:
     - service: tg
       id: '517050552'
-      updated: 2025-11-13-05-17-18
+      updated: 2025-11-13-11-10-32
       accessHash: '5231096655311395455'
       username: ansis
       name: ansis
@@ -1106,7 +1106,7 @@ cyberkefiroctopuses9116:
   profiles:
     - service: yt
       id: UCQrVTmtQJBALuZTJ97Wxhwg
-      updated: 2025-10-16-10-21-53
+      updated: 2025-11-13-11-10-34
       username: '@cyberkefiroctopuses9116'
       name: Cyberkefir & Octopuses
       avatar: store:/avatars/yt-8da46b2c.jpg
@@ -1205,7 +1205,7 @@ danya-r:
   profiles:
     - service: tg
       id: '6217540848'
-      updated: 2025-11-13-02-29-57
+      updated: 2025-11-13-11-10-32
       accessHash: '144997878637800057'
       name: 🛡𐌃𐌀𐌍𐌙𐌀 𐌔Ƕ𐌀𐌓𐌏𐌔Ƕ𐌍𐌉𐌊𐌏ᕓ🛡
       avatar: store:/avatars/tg-5467410398086038782.jpg
@@ -1344,7 +1344,7 @@ dehero:
     - type: channel
       service: yt
       id: UCoSD49h3Nrss_Zix8boMwlw
-      updated: 2025-10-16-10-21-53
+      updated: 2025-11-13-11-10-35
       username: '@mwscr'
       name: Morrowind Screenshots
       avatar: store:/avatars/yt-fbce97ab.jpg
@@ -1693,7 +1693,7 @@ eklersgovnom:
   profiles:
     - service: vk
       id: '336885466'
-      updated: 2025-10-16-10-21-53
+      updated: 2025-11-13-11-10-35
       username: eklersgovnom
       name: Алексей Гусев
       avatar: store:/avatars/vk-90557e25.jpg
@@ -1994,7 +1994,7 @@ georrrrrg:
   profiles:
     - service: tg
       id: '1949040922'
-      updated: 2025-11-13-05-15-14
+      updated: 2025-11-13-11-10-32
       accessHash: '-2007640679099785628'
       username: Georrrrrg
       name: Егор
@@ -2460,7 +2460,7 @@ irina-bystritskaya:
     - type: channel
       service: vk
       id: '207258733'
-      updated: 2025-10-16-10-21-54
+      updated: 2025-11-13-11-10-35
       username: club207258733
       name: инсомния
       avatar: store:/avatars/vk-d0e71933.jpg
@@ -2740,7 +2740,7 @@ kawazaky223:
   profiles:
     - service: tg
       id: '5641856113'
-      updated: 2025-11-13-05-36-04
+      updated: 2025-11-13-11-10-32
       accessHash: '7421309771527577818'
       username: Kawazaky223
       name: Максим
@@ -2997,8 +2997,8 @@ lmatt88:
   profiles:
     - service: yt
       id: UC_Es79p5960n1Bp2zpqOlYA
-      updated: 2025-10-16-10-21-54
-      username: '@lmatt88'
+      updated: 2025-11-13-11-10-35
+      username: '@lmateus88'
       name: Taro
       avatar: store:/avatars/yt-a8983253.jpg
 loftydelusion:
@@ -3583,7 +3583,7 @@ nars-mcain:
   profiles:
     - service: yt
       id: UC1xja6c2XGr4CGB0jmTQrZQ
-      updated: 2025-10-16-10-21-54
+      updated: 2025-11-13-11-10-35
       username: '@narsmcain'
       name: Nars Mccain
       avatar: store:/avatars/yt-89e0a84e.jpg
