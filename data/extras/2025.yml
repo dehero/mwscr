@@ -348,7 +348,7 @@
       id: DOLMistETzn
       mediaId: '17967116450955441'
       published: 2025-09-04-09-15-00
-      updated: 2025-11-06-15-13-27
+      updated: 2025-11-13-16-14-22
       followers: 1583
       likes: 58
       comments: !c |-
@@ -358,19 +358,19 @@
     - service: vk
       id: 2631
       published: 2025-09-04-09-15-00
-      updated: 2025-11-06-15-13-26
+      updated: 2025-11-13-16-14-20
       followers: 1404
       likes: 25
-      views: 583
+      views: 590
     - service: tg
       id:
         - 972
         - 973
       published: 2025-09-04-09-15-00
-      updated: 2025-11-06-15-13-26
+      updated: 2025-11-13-16-14-21
       followers: 787
       likes: 70
-      views: 1053
+      views: 1062
       comments: !c CxGAkZPLQnmVp1aKAACpZ2VvcnJycnJnrfCfpKbigI3imYLvuI8D
 2025-09-15-1-green-algae-and-dead-lands:
   title: Green Algae and Dead Lands
