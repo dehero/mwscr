@@ -5059,6 +5059,19 @@
       followers: 156
       likes: 17
       views: 252
+    - service: ig
+      id: DRAaEsbCfUc
+      mediaId: '18059375618242373'
+      published: 2025-11-13-18-16-20
+      followers: 1594
+    - service: vk
+      id: 2848
+      published: 2025-11-13-18-16-27
+      followers: 1503
+    - service: tg
+      id: 1054
+      published: 2025-11-13-18-16-31
+      followers: 856
 2018-04-27-playing-tag:
   title: Playing Tag
   titleRu: Игра в догонялки
@@ -7433,24 +7446,24 @@
       id: DQ7QeVKjXj5
       mediaId: '17864175780436828'
       published: 2025-11-11-18-16-29
-      updated: 2025-11-13-17-12-17
+      updated: 2025-11-13-18-15-27
       followers: 1595
       likes: 40
     - service: vk
       id: 2844
       published: 2025-11-11-18-16-35
-      updated: 2025-11-13-17-12-12
+      updated: 2025-11-13-18-15-22
       followers: 1503
       likes: 53
-      views: 473
+      views: 479
       reposts: 2
     - service: tg
       id: 1052
       published: 2025-11-11-18-16-39
-      updated: 2025-11-13-17-12-18
+      updated: 2025-11-13-18-15-29
       followers: 853
       likes: 57
-      views: 244
+      views: 245
       comments: !c iw6AkZPLQnmn3va5AACra2F3YXpha3kyMjOm4pi677iPAw==
 2018-06-21-ice-cave-in-the-ice-bay:
   title: Ice Cave in the Ice Bay
