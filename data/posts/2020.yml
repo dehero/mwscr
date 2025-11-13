@@ -303,17 +303,17 @@
     - service: vk
       id: 2527
       published: 2025-07-23-18-40-24
-      updated: 2025-11-06-06-17-14
+      updated: 2025-11-13-06-17-33
       followers: 1349
       likes: 36
-      views: 431
+      views: 436
       comments: !c |-
         ixqAkZPLQnmDifuygACwc2VyZ2V5LWNodXJiYW5vdrnQltGL0YDQvdCw0Y8g0LHQvtGA0L7QtNCw
         Aw==
     - service: tg
       id: 925
       published: 2025-07-23-18-40-30
-      updated: 2025-11-06-06-17-11
+      updated: 2025-11-13-06-17-27
       followers: 765
       likes: 68
       views: 598
