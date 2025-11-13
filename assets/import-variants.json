@@ -1,0 +1,162 @@
+{
+    "site-uploads": {
+        "label": "Upload files to Drafts",
+        "description": "Send images directly to Drafts, then edit proposed posts in-place. Changes are visible only in your current browser until you send Edits to the project's repository.",
+        "allowedFormats": [
+            {
+                "label": "PNG, BMP",
+                "mimeTypes": [
+                    "image/png",
+                    "image/bmp"
+                ],
+                "maxSize": 10
+            },
+            {
+                "label": "JPEG, WEBP, GIF",
+                "mimeTypes": [
+                    "image/jpeg",
+                    "image/webp",
+                    "image/gif"
+                ],
+                "maxSize": 5
+            },
+            {
+                "label": "JSON",
+                "mimeTypes": [
+                    "application/json"
+                ],
+                "maxSize": 1
+            }
+        ]
+    },
+    "link": {
+        "label": "Insert links to Drafts",
+        "description": "Insert links to images or videos directly to Drafts, then edit proposed posts in-place. Changes are visible only in your current browser until you send Edits to the project's repository.",
+        "allowedFormats": [
+            {
+                "label": "PNG, BMP",
+                "mimeTypes": [
+                    "image/png",
+                    "image/bmp"
+                ]
+            },
+            {
+                "label": "JPEG, WEBP, GIF",
+                "mimeTypes": [
+                    "image/jpeg",
+                    "image/webp",
+                    "image/gif"
+                ]
+            },
+            {
+                "label": "MP4, AVI",
+                "mimeTypes": [
+                    "video/mp4",
+                    "video/x-msvideo"
+                ]
+            }
+        ]
+    },
+    "telegram-bot": {
+        "label": "Send files to Telegram bot",
+        "description": "Send images or videos to Telegram bot called \"Ordinator\". He will check them and put to Drafts if everything is ok. He answers within an hour.",
+        "allowedFormats": [
+            {
+                "label": "PNG, BMP",
+                "mimeTypes": [
+                    "image/png",
+                    "image/bmp"
+                ],
+                "maxSize": 10
+            },
+            {
+                "label": "JPEG, WEBP, GIF",
+                "mimeTypes": [
+                    "image/jpeg",
+                    "image/webp",
+                    "image/gif"
+                ],
+                "maxSize": 5
+            },
+            {
+                "label": "MP4, AVI",
+                "mimeTypes": [
+                    "video/mp4",
+                    "video/x-msvideo"
+                ],
+                "maxSize": 200
+            },
+            {
+                "label": "ZIP",
+                "mimeTypes": [
+                    "application/zip"
+                ],
+                "maxSize": 100
+            }
+        ]
+    },
+    "github-issue": {
+        "label": "Send files via GitHub Issue",
+        "description": "Create GitHub Issue in project's repository with your images or videos attached. Use ZIP archives to send large or multiple files. After the issue is created, files will be automatically checked by project's repository workflow and added to Drafts if everything is ok.",
+        "allowedFormats": [
+            {
+                "label": "PNG, BMP",
+                "mimeTypes": [
+                    "image/png",
+                    "image/bmp"
+                ],
+                "maxSize": 10
+            },
+            {
+                "label": "JPEG, WEBP, GIF",
+                "mimeTypes": [
+                    "image/jpeg",
+                    "image/webp",
+                    "image/gif"
+                ],
+                "maxSize": 5
+            },
+            {
+                "label": "MP4",
+                "mimeTypes": [
+                    "video/mp4"
+                ],
+                "maxSize": 10
+            },
+            {
+                "label": "ZIP",
+                "mimeTypes": [
+                    "application/zip"
+                ],
+                "maxSize": 25
+            }
+        ]
+    },
+    "email": {
+        "label": "Send files via email",
+        "description": "Send images or videos to project administrator via email. He will check them manually and put to Drafts if everything is ok. Use ZIP archives to send large or multiple files.",
+        "allowedFormats": [
+            {
+                "label": "PNG, JPG, BMP",
+                "mimeTypes": [
+                    "image/png",
+                    "image/jpeg",
+                    "image/bmp"
+                ]
+            },
+            {
+                "label": "MP4, AVI",
+                "mimeTypes": [
+                    "video/mp4",
+                    "video/x-msvideo"
+                ]
+            },
+            {
+                "label": "ZIP",
+                "mimeTypes": [
+                    "application/zip"
+                ]
+            }
+        ]
+    }
+}
