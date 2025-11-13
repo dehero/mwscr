@@ -74,15 +74,15 @@
     - service: vk
       id: 2129
       published: 2025-02-13-18-17-15
-      updated: 2025-11-06-02-31-31
+      updated: 2025-11-13-03-44-01
       followers: 1069
       likes: 60
-      views: 531
+      views: 534
       reposts: 3
     - service: tg
       id: 706
       published: 2025-02-13-18-17-22
-      updated: 2025-11-06-02-30-01
+      updated: 2025-11-13-03-42-39
       followers: 676
       likes: 67
       views: 562
@@ -183,10 +183,10 @@
     - service: vk
       id: 2226
       published: 2025-03-26-18-12-43
-      updated: 2025-11-06-02-30-23
+      updated: 2025-11-13-03-43-00
       followers: 1213
       likes: 81
-      views: 649
+      views: 653
       reposts: 3
       comments: !c |-
         G9gDAKwOzEOh+WGatLfgVDwk+NC6RMXY83sh/5CufnkmY1JDF7RLF8HQBW2CJVhmU1NrE1tvJoza
@@ -205,10 +205,10 @@
         - 764
         - 765
       published: 2025-03-26-18-13-07
-      updated: 2025-11-06-02-29-19
+      updated: 2025-11-13-03-41-47
       followers: 710
       likes: 62
-      views: 764
+      views: 766
     - service: ig
       id: DHrG6TzS39F
       mediaId: '17904383484108059'
@@ -457,10 +457,10 @@
     - service: vk
       id: 2077
       published: 2025-01-22-18-11-15
-      updated: 2025-11-06-02-32-32
+      updated: 2025-11-13-03-44-47
       followers: 1054
       likes: 38
-      views: 350
+      views: 351
       reposts: 1
       comments: !c |-
         G0YB4K0SeFPfQg0HgvWO468c/4/cswjfPtVWfzFkEbVEIk/OhdQ24wTCjIUjZU87qG3SvDZPf4pU
@@ -470,7 +470,7 @@
     - service: tg
       id: 678
       published: 2025-01-22-18-11-24
-      updated: 2025-11-06-02-30-17
+      updated: 2025-11-13-03-42-56
       followers: 655
       likes: 67
       views: 587
@@ -610,10 +610,10 @@
     - service: vk
       id: 2165
       published: 2025-03-02-18-10-15
-      updated: 2025-11-06-02-31-04
+      updated: 2025-11-13-03-43-36
       followers: 1153
       likes: 66
-      views: 591
+      views: 595
       reposts: 6
       comments: !c CxSAkZPLQnlVsX4xgACmbWlicm5kttCa0YPQtNCwINC/0LvRi9Cyw6vQvD8D
     - service: tg
@@ -623,10 +623,10 @@
         - 731
         - 732
       published: 2025-03-02-18-10-35
-      updated: 2025-11-06-02-29-43
+      updated: 2025-11-13-03-42-16
       followers: 687
       likes: 68
-      views: 1056
+      views: 1057
     - service: ig
       id: DGtT0r1vKNh
       mediaId: '18013972115704127'
@@ -679,17 +679,17 @@
     - service: tg
       id: 726
       published: 2025-02-27-18-13-32
-      updated: 2025-11-06-02-29-46
+      updated: 2025-11-13-03-42-19
       followers: 686
       likes: 59
       views: 592
     - service: vk
       id: 2153
       published: 2025-02-27-19-01-40
-      updated: 2025-11-06-02-31-11
+      updated: 2025-11-13-03-43-40
       followers: 1143
       likes: 36
-      views: 586
+      views: 588
 2022-07-06-still-life-with-orc:
   title: Still Life with Orc
   titleRu: Натюрморт с орком
@@ -992,10 +992,10 @@
     - service: vk
       id: 2020
       published: 2025-01-05-18-10-20
-      updated: 2025-11-06-02-33-10
+      updated: 2025-11-13-03-45-22
       followers: 1043
       likes: 56
-      views: 404
+      views: 406
       reposts: 5
       comments: !c |-
         G54BoCwOjFvLA+sgxS3V6Bwf4o3+iYuR/rwONOIzTS+hZppJPNn307xfDLsaBn+xJCQx8g0Hh/rr
@@ -1010,7 +1010,7 @@
         - 653
         - 654
       published: 2025-01-05-18-10-40
-      updated: 2025-11-06-02-30-41
+      updated: 2025-11-13-03-43-20
       followers: 644
       likes: 78
       views: 1154
@@ -1257,24 +1257,24 @@
       id: DQ91W55jYAg
       mediaId: '18080446513887672'
       published: 2025-11-12-18-17-00
-      updated: 2025-11-13-02-29-17
+      updated: 2025-11-13-03-41-40
       followers: 1594
       likes: 27
     - service: vk
       id: 2845
       published: 2025-11-12-18-17-07
-      updated: 2025-11-13-02-29-08
+      updated: 2025-11-13-03-41-36
       followers: 1502
-      likes: 14
-      views: 66
+      likes: 18
+      views: 79
       reposts: 1
     - service: tg
       id: 1053
       published: 2025-11-12-18-17-12
-      updated: 2025-11-13-02-29-07
+      updated: 2025-11-13-03-41-36
       followers: 855
-      likes: 40
-      views: 141
+      likes: 43
+      views: 146
 2022-07-17-slaves-sight:
   title: Slave's Sight
   titleRu: Взгляд раба

@@ -844,14 +844,14 @@
     - service: vk
       id: 2119
       published: 2025-02-08-18-09-23
-      updated: 2025-11-06-02-31-42
+      updated: 2025-11-13-03-44-14
       followers: 1062
       likes: 38
-      views: 391
+      views: 394
     - service: tg
       id: 701
       published: 2025-02-08-18-09-32
-      updated: 2025-11-06-02-30-06
+      updated: 2025-11-13-03-42-43
       followers: 672
       likes: 54
       views: 547
@@ -1004,15 +1004,15 @@
     - service: vk
       id: 2120
       published: 2025-02-09-18-09-21
-      updated: 2025-11-06-02-31-42
+      updated: 2025-11-13-03-44-13
       followers: 1063
       likes: 44
-      views: 435
+      views: 436
       reposts: 1
     - service: tg
       id: 702
       published: 2025-02-09-18-09-27
-      updated: 2025-11-06-02-30-05
+      updated: 2025-11-13-03-42-42
       followers: 673
       likes: 61
       views: 529
@@ -1067,7 +1067,7 @@
     - service: tg
       id: 570
       published: 2024-10-20-18-09-24
-      updated: 2025-11-06-02-32-14
+      updated: 2025-11-13-03-44-46
       followers: 561
       likes: 69
       views: 818
@@ -1170,10 +1170,10 @@
     - service: tg
       id: 603
       published: 2024-11-22-18-11-36
-      updated: 2025-11-06-02-31-41
+      updated: 2025-11-13-03-44-11
       followers: 574
       likes: 72
-      views: 1540
+      views: 1541
 2019-03-18-misty-pairs:
   title: Misty Pairs
   titleRu: Туманные пары
@@ -1587,18 +1587,18 @@
     - service: vk
       id: 1976
       published: 2024-12-19-18-10-51
-      updated: 2025-11-06-02-33-36
+      updated: 2025-11-13-03-45-50
       followers: 1027
       likes: 64
-      views: 441
+      views: 444
       reposts: 3
     - service: tg
       id: 630
       published: 2024-12-19-18-10-59
-      updated: 2025-11-06-02-30-58
+      updated: 2025-11-13-03-43-34
       followers: 584
       likes: 71
-      views: 592
+      views: 593
 2019-05-17-three-trees-by-the-road:
   title: Three Trees by the Road
   titleRu: Три дерева у дороги
@@ -1910,10 +1910,10 @@
     - service: tg
       id: 592
       published: 2024-11-11-18-10-12
-      updated: 2025-11-06-02-31-51
+      updated: 2025-11-13-03-44-21
       followers: 564
       likes: 65
-      views: 572
+      views: 573
 2019-10-06-dwemer-telescope:
   title: Dwemer Telescope
   titleRu: Двемерский телескоп
@@ -2156,15 +2156,15 @@
     - service: vk
       id: 2098
       published: 2025-01-30-18-10-52
-      updated: 2025-11-06-02-32-05
+      updated: 2025-11-13-03-44-33
       followers: 1057
       likes: 41
-      views: 369
+      views: 372
       reposts: 1
     - service: tg
       id: 689
       published: 2025-01-30-18-10-59
-      updated: 2025-11-06-02-30-11
+      updated: 2025-11-13-03-42-49
       followers: 661
       likes: 74
       views: 702
@@ -2421,15 +2421,15 @@
     - service: vk
       id: 2086
       published: 2025-01-25-18-09-30
-      updated: 2025-11-06-02-32-25
+      updated: 2025-11-13-03-44-42
       followers: 1054
       likes: 33
-      views: 330
+      views: 332
       reposts: 1
     - service: tg
       id: 681
       published: 2025-01-25-18-09-38
-      updated: 2025-11-06-02-30-15
+      updated: 2025-11-13-03-42-55
       followers: 658
       likes: 64
       views: 570
@@ -2553,7 +2553,7 @@
     - service: tg
       id: 671
       published: 2025-01-18-18-09-39
-      updated: 2025-11-06-02-30-19
+      updated: 2025-11-13-03-43-03
       followers: 655
       likes: 65
       views: 660
@@ -2561,10 +2561,10 @@
     - service: vk
       id: 2070
       published: 2025-01-18-19-01-37
-      updated: 2025-11-06-02-32-38
+      updated: 2025-11-13-03-44-54
       followers: 1054
       likes: 41
-      views: 361
+      views: 362
       comments: !c |-
         G24A+I3UTjccqT345/9U0i8YDgUkxz9mrQ4bYwqUbN6HrVA/GSqlyIJQ7O6NlgQgj1qSAbAQUNof
         H27X+6EDcK9i27JBZbtRkH59eLIBUw/RCDG8BiylKaclbTTWEOdJQn0NUILLUUZD9c2f9ivchg==

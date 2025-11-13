@@ -92,10 +92,10 @@
     - service: vk
       id: 2312
       published: 2025-04-28-18-25-04
-      updated: 2025-11-06-02-29-32
+      updated: 2025-11-13-03-42-01
       followers: 1274
       likes: 72
-      views: 512
+      views: 515
       reposts: 1
       comments: !c |-
         G4YBABwHTtm8gPMIrp76EUJz0iui4sTnCJ0GYpQAh0slaUTa6UwJKnugGTrXVEdFBTiTqI/GSr4M
@@ -165,10 +165,10 @@
     - service: tg
       id: 609
       published: 2024-11-28-18-10-52
-      updated: 2025-11-06-02-31-24
+      updated: 2025-11-13-03-43-55
       followers: 578
       likes: 59
-      views: 704
+      views: 705
 2016-11-20-4-aldruhn-under-skar:
   title: Ald'ruhn, Under-Skar
   titleRu: Альд'рун, под Скаром
@@ -221,10 +221,10 @@
     - service: tg
       id: 529
       published: 2024-09-11-18-36-14
-      updated: 2025-11-06-02-32-58
+      updated: 2025-11-13-03-45-28
       followers: 555
       likes: 57
-      views: 1079
+      views: 1081
       comments: !c CwyAkZPLQnkeJgMugAClYW5zaXOnbXkgaG9tZQM=
 2016-11-20-5-galom-daeus:
   title: Galom Daeus
@@ -514,7 +514,7 @@
     - service: tg
       id: 498
       published: 2024-08-11-18-20-32
-      updated: 2025-11-06-02-33-34
+      updated: 2025-11-13-03-46-01
       followers: 520
       likes: 68
       views: 671
@@ -647,7 +647,7 @@
     - service: tg
       id: 597
       published: 2024-11-16-18-09-47
-      updated: 2025-11-06-02-31-47
+      updated: 2025-11-13-03-44-17
       followers: 573
       likes: 71
       views: 738
@@ -687,10 +687,10 @@
     - service: vk
       id: 2282
       published: 2025-04-16-18-22-11
-      updated: 2025-11-06-02-29-52
+      updated: 2025-11-13-03-42-17
       followers: 1261
       likes: 75
-      views: 550
+      views: 555
       reposts: 2
       comments: !c |-
         G3MA+C0SzNOZIrBxyzn4pCAU2IEHFAjFAZdQxMkOdTWlBCks4wLeP73ICyTQyOLa2rKs//L9dMAX
@@ -739,18 +739,18 @@
     - service: vk
       id: 1966
       published: 2024-12-16-18-11-45
-      updated: 2025-11-06-02-33-40
+      updated: 2025-11-13-03-45-58
       followers: 1027
       likes: 57
-      views: 400
+      views: 402
       reposts: 4
     - service: tg
       id: 627
       published: 2024-12-16-18-11-52
-      updated: 2025-11-06-02-31-01
+      updated: 2025-11-13-03-43-36
       followers: 581
       likes: 79
-      views: 732
+      views: 734
       comments: !c |-
         G+4A4K0SuLOYByPKFBpbHvbRP3KL8M9bDpG1hCJO7qnbSgqCYGi/OLn+bqGqbnt+jc9pmyCC4+/V
         YvaU5aWcG1mGvWU75TRwTTShALQlmtGFDh6y7YGSNZFPz/vX8v9xfHfF/H6ruVCsWVskZoHMI9zw
@@ -898,14 +898,14 @@
     - service: vk
       id: 1960
       published: 2024-12-13-18-11-18
-      updated: 2025-11-06-02-33-43
+      updated: 2025-11-13-03-46-02
       followers: 1024
       likes: 35
-      views: 322
+      views: 324
     - service: tg
       id: 624
       published: 2024-12-13-18-11-26
-      updated: 2025-11-06-02-31-12
+      updated: 2025-11-13-03-43-43
       followers: 580
       likes: 64
       views: 659
@@ -1777,7 +1777,7 @@
     - service: tg
       id: 515
       published: 2024-08-28-18-23-56
-      updated: 2025-11-06-02-33-16
+      updated: 2025-11-13-03-45-42
       followers: 546
       likes: 70
       views: 667
@@ -1899,7 +1899,7 @@
     - service: tg
       id: 556
       published: 2024-10-06-18-09-23
-      updated: 2025-11-06-02-32-32
+      updated: 2025-11-13-03-45-00
       followers: 559
       likes: 66
       views: 580
