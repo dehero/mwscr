@@ -3783,7 +3783,10 @@ ohsweetnazareth:
   name: nazareth
   profiles:
     - service: gh
+      id: '200028165'
+      updated: 2025-11-14-03-03-16
       username: ohsweetnazareth
+      avatar: store:/avatars/gh-17cf7a98.jpg
     - service: ig
       id: '59402899991'
       updated: 2025-06-27-12-49-29
