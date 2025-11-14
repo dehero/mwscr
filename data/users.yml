@@ -92,7 +92,7 @@ a2-enkelli:
   profiles:
     - service: tg
       id: '7258424423'
-      updated: 2025-11-13-23-10-43
+      updated: 2025-11-14-18-15-51
       accessHash: '969825927170686844'
       username: A2_Enkelli
       name: †† elli ††
@@ -432,7 +432,7 @@ anonim:
   profiles:
     - service: tg
       id: '6469120788'
-      updated: 2025-11-14-17-10-21
+      updated: 2025-11-14-18-15-45
       accessHash: '-3557204299452739678'
       name: Аноним
       avatar: store:/avatars/tg-5386639419211116910.jpg
@@ -2740,7 +2740,7 @@ kawazaky223:
   profiles:
     - service: tg
       id: '5641856113'
-      updated: 2025-11-14-17-10-23
+      updated: 2025-11-14-18-15-51
       accessHash: '7421309771527577818'
       username: Kawazaky223
       name: Максим
@@ -3538,7 +3538,7 @@ myndowen:
   profiles:
     - service: tg
       id: '720784420'
-      updated: 2025-11-13-17-12-20
+      updated: 2025-11-14-18-15-51
       accessHash: '4385662928393121475'
       username: myndowen
       name: Daniel Beilin
