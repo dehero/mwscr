@@ -3324,10 +3324,10 @@
     - service: vk
       id: 1840
       published: 2024-10-17-18-09-16
-      updated: 2025-11-08-06-14-54
+      updated: 2025-11-15-06-15-19
       followers: 965
       likes: 50
-      views: 754
+      views: 760
       reposts: 2
       comments: !c iwuAkZPLQnkp0j58gACnaHlhcnZhcqTwn6WwAw==
     - service: tg
@@ -5665,23 +5665,23 @@
       id: DRC_YWBl8pm
       mediaId: '17891152044369444'
       published: 2025-11-14-18-20-48
-      updated: 2025-11-15-05-10-49
+      updated: 2025-11-15-06-15-09
       followers: 1594
       likes: 22
     - service: vk
       id: 2851
       published: 2025-11-14-18-20-56
-      updated: 2025-11-15-05-10-45
+      updated: 2025-11-15-06-15-06
       followers: 1505
-      likes: 17
-      views: 131
+      likes: 18
+      views: 136
     - service: tg
       id: 1055
       published: 2025-11-14-18-21-02
-      updated: 2025-11-15-05-10-44
+      updated: 2025-11-15-06-15-05
       followers: 858
-      likes: 42
-      views: 135
+      likes: 44
+      views: 144
 2017-04-30-palace-of-vivec:
   title: Palace of Vivec
   titleRu: Дворец Вивека
@@ -10576,7 +10576,7 @@
       id: DMPnJZ9ssKX
       mediaId: '18038172848348442'
       published: 2025-07-18-09-22-12
-      updated: 2025-11-08-06-14-52
+      updated: 2025-11-15-06-15-15
       followers: 1568
       likes: 73
 2017-08-23-blessed-rain:
@@ -11836,7 +11836,7 @@
       id: DMP9TSusCyW
       mediaId: '18018603722537184'
       published: 2025-07-18-12-35-47
-      updated: 2025-11-08-06-14-50
+      updated: 2025-11-15-06-15-14
       followers: 1568
       likes: 66
 2017-09-20-director-of-corprusarium:

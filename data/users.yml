@@ -432,7 +432,7 @@ anonim:
   profiles:
     - service: tg
       id: '6469120788'
-      updated: 2025-11-15-05-10-52
+      updated: 2025-11-15-06-15-12
       accessHash: '-3557204299452739678'
       name: Аноним
       avatar: store:/avatars/tg-5386639419211116910.jpg
@@ -2282,7 +2282,7 @@ hyarvar:
   profiles:
     - service: vk
       id: '702302403'
-      updated: 2025-11-13-05-20-16
+      updated: 2025-11-15-06-15-19
       username: hyarvar
       name: Хьярвар Драконорожденный
       avatar: store:/avatars/vk-b20f6d84.jpg
@@ -2748,7 +2748,7 @@ kawazaky223:
   profiles:
     - service: tg
       id: '5641856113'
-      updated: 2025-11-15-05-10-53
+      updated: 2025-11-15-06-15-12
       accessHash: '7421309771527577818'
       username: Kawazaky223
       name: Максим
@@ -4613,7 +4613,7 @@ sergey-churbanov:
   profiles:
     - service: vk
       id: '1060712354'
-      updated: 2025-11-15-04-12-45
+      updated: 2025-11-15-06-15-15
       username: id1060712354
       name: Сергей Чурбанов
       avatar: store:/avatars/vk-6499ce8d.jpg
