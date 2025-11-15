@@ -653,10 +653,10 @@
     - service: vk
       id: 2828
       published: 2025-11-08-18-14-50
-      updated: 2025-11-14-20-13-10
+      updated: 2025-11-15-21-08-55
       followers: 1504
       likes: 75
-      views: 752
+      views: 760
       reposts: 2
       comments: !c |-
         G4EDAJwHtm1pC/aazGeTUcz4p7Fomw9LGK7toWM3ZIMlGJohGpIIhioIgqVb3tfaxKvQrsptN6HS
@@ -671,10 +671,10 @@
     - service: tg
       id: 1049
       published: 2025-11-08-18-14-56
-      updated: 2025-11-14-20-13-03
+      updated: 2025-11-15-21-08-54
       followers: 854
       likes: 65
-      views: 364
+      views: 394
       comments: !c |-
         GyQBwKwSeBNbVxnkjljs9EJNR08v5qwlgZa2Rd4CDwrPt9vbCeoTnrXNVD+UH+NDWconiojuHl5h
         uFrW8mqGNF2YyvuoKo+eLU80MP6voGx3GW+RjXg08MEgtoWvhwO0dZBFPVV9rOPcAOt48KJvMy+v
@@ -5666,24 +5666,25 @@
       id: DRC_YWBl8pm
       mediaId: '17891152044369444'
       published: 2025-11-14-18-20-48
-      updated: 2025-11-15-20-11-00
+      updated: 2025-11-15-21-08-52
       followers: 1594
       likes: 31
     - service: vk
       id: 2851
       published: 2025-11-14-18-20-56
-      updated: 2025-11-15-20-11-01
+      updated: 2025-11-15-21-08-53
       followers: 1505
-      likes: 41
-      views: 340
+      likes: 42
+      views: 344
+      reposts: 1
       comments: !c iw+AkZPLQnmoZXF7AACqYXJ5YS1zdGFya6nQo9C/0YEuLi4D
     - service: tg
       id: 1055
       published: 2025-11-14-18-21-02
-      updated: 2025-11-15-20-11-02
+      updated: 2025-11-15-21-08-51
       followers: 858
       likes: 51
-      views: 211
+      views: 215
 2017-04-30-palace-of-vivec:
   title: Palace of Vivec
   titleRu: Дворец Вивека
