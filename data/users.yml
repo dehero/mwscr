@@ -432,7 +432,7 @@ anonim:
   profiles:
     - service: tg
       id: '6469120788'
-      updated: 2025-11-15-02-22-55
+      updated: 2025-11-15-03-35-09
       accessHash: '-3557204299452739678'
       name: Аноним
       avatar: store:/avatars/tg-5386639419211116910.jpg
@@ -464,7 +464,7 @@ anton-mezhuev:
   profiles:
     - service: vk
       id: '63571521'
-      updated: 2025-11-13-05-14-07
+      updated: 2025-11-15-03-35-13
       username: id63571521
       name: Антон Межуев
       avatar: store:/avatars/vk-295e8e4f.jpg
@@ -855,7 +855,7 @@ brg1092:
   profiles:
     - service: tg
       id: '5867861906'
-      updated: 2025-11-14-00-50-17
+      updated: 2025-11-15-03-35-11
       accessHash: '4411929981434940281'
       username: brg1092
       name: 2𝜋
@@ -2748,7 +2748,7 @@ kawazaky223:
   profiles:
     - service: tg
       id: '5641856113'
-      updated: 2025-11-15-02-22-55
+      updated: 2025-11-15-03-35-14
       accessHash: '7421309771527577818'
       username: Kawazaky223
       name: Максим
@@ -4613,7 +4613,7 @@ sergey-churbanov:
   profiles:
     - service: vk
       id: '1060712354'
-      updated: 2025-11-14-19-09-09
+      updated: 2025-11-15-03-35-12
       username: id1060712354
       name: Сергей Чурбанов
       avatar: store:/avatars/vk-6499ce8d.jpg
@@ -5292,7 +5292,7 @@ todor:
   profiles:
     - service: tg
       id: '1305695186'
-      updated: 2025-11-13-05-12-09
+      updated: 2025-11-15-03-35-12
       accessHash: '8819682207926865502'
       name: Todor
       avatar: store:/avatars/tg-5305295556123424826.jpg
