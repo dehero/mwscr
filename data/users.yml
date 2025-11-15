@@ -92,7 +92,7 @@ a2-enkelli:
   profiles:
     - service: tg
       id: '7258424423'
-      updated: 2025-11-15-13-17-52
+      updated: 2025-11-15-19-07-43
       accessHash: '969825927170686844'
       username: A2_Enkelli
       name: †† elli ††
@@ -432,7 +432,7 @@ anonim:
   profiles:
     - service: tg
       id: '6469120788'
-      updated: 2025-11-15-18-13-27
+      updated: 2025-11-15-19-07-34
       accessHash: '-3557204299452739678'
       name: Аноним
       avatar: store:/avatars/tg-5386639419211116910.jpg
@@ -561,7 +561,7 @@ arya-stark:
   profiles:
     - service: vk
       id: '820702664'
-      updated: 2025-11-15-18-13-25
+      updated: 2025-11-15-19-07-37
       username: id820702664
       name: Арья Старк
       avatar: store:/avatars/vk-689aa89d.jpg
@@ -2748,7 +2748,7 @@ kawazaky223:
   profiles:
     - service: tg
       id: '5641856113'
-      updated: 2025-11-15-18-13-27
+      updated: 2025-11-15-19-07-42
       accessHash: '7421309771527577818'
       username: Kawazaky223
       name: Максим
@@ -3546,7 +3546,7 @@ myndowen:
   profiles:
     - service: tg
       id: '720784420'
-      updated: 2025-11-14-18-15-51
+      updated: 2025-11-15-19-07-41
       accessHash: '4385662928393121475'
       username: myndowen
       name: Daniel Beilin
@@ -4002,7 +4002,7 @@ peteevandrew:
   profiles:
     - service: vk
       id: '307619379'
-      updated: 2025-11-15-13-17-50
+      updated: 2025-11-15-19-07-44
       username: peteevandrew
       name: Андрей Петеев
       avatar: store:/avatars/vk-d3f26d8e.jpg

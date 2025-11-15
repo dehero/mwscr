@@ -2472,24 +2472,25 @@
       id: DQ2GrkdADcg
       mediaId: '18084028931001599'
       published: 2025-11-09-18-14-29
-      updated: 2025-11-14-18-15-51
+      updated: 2025-11-15-19-07-44
       followers: 1592
-      likes: 45
+      likes: 46
     - service: vk
       id: 2836
       published: 2025-11-09-18-14-35
-      updated: 2025-11-14-18-15-43
+      updated: 2025-11-15-19-07-45
       followers: 1504
-      likes: 58
-      views: 696
+      likes: 62
+      views: 754
       reposts: 1
+      comments: !c ixOAkZPLQnmoe2FygACscGV0ZWV2YW5kcmV3r9Cc0L7QutC90LXRguKApgM=
     - service: tg
       id: 1050
       published: 2025-11-09-18-14-39
-      updated: 2025-11-14-18-15-52
+      updated: 2025-11-15-19-07-43
       followers: 854
-      likes: 60
-      views: 432
+      likes: 61
+      views: 454
       comments: !c |-
         G5UAwGTq1BC+ZS2gxHIBHXOI9XLetUCnF6QVa3VywLeDYSuwY1mCAWgLJI+xNcSSOF7z/BbHw/+F
         QtApHTMn793sy0geGPO2kXj0jAzuzQCY4BI5hSR1uUKzppQTuhL4KPs1NntzMuOR4/jdb3m5Abwj
@@ -5665,24 +5666,24 @@
       id: DRC_YWBl8pm
       mediaId: '17891152044369444'
       published: 2025-11-14-18-20-48
-      updated: 2025-11-15-18-13-26
+      updated: 2025-11-15-19-07-36
       followers: 1594
       likes: 31
     - service: vk
       id: 2851
       published: 2025-11-14-18-20-56
-      updated: 2025-11-15-18-13-25
+      updated: 2025-11-15-19-07-38
       followers: 1505
-      likes: 39
-      views: 321
+      likes: 40
+      views: 333
       comments: !c iw+AkZPLQnmoZXF7AACqYXJ5YS1zdGFya6nQo9C/0YEuLi4D
     - service: tg
       id: 1055
       published: 2025-11-14-18-21-02
-      updated: 2025-11-15-18-13-21
+      updated: 2025-11-15-19-07-35
       followers: 858
-      likes: 47
-      views: 186
+      likes: 51
+      views: 206
 2017-04-30-palace-of-vivec:
   title: Palace of Vivec
   titleRu: Дворец Вивека
