@@ -432,7 +432,7 @@ anonim:
   profiles:
     - service: tg
       id: '6469120788'
-      updated: 2025-11-15-14-09-21
+      updated: 2025-11-15-15-09-34
       accessHash: '-3557204299452739678'
       name: Аноним
       avatar: store:/avatars/tg-5386639419211116910.jpg
@@ -561,7 +561,7 @@ arya-stark:
   profiles:
     - service: vk
       id: '820702664'
-      updated: 2025-11-15-14-09-23
+      updated: 2025-11-15-15-09-35
       username: id820702664
       name: Арья Старк
       avatar: store:/avatars/vk-689aa89d.jpg
@@ -1241,7 +1241,7 @@ darkness-rifho:
       deleted: true
     - service: tg
       id: '5704974271'
-      updated: 2025-11-13-05-36-02
+      updated: 2025-11-15-15-09-37
       accessHash: '3506423524566292179'
       username: C4H6O4
       name: Уна
@@ -2748,7 +2748,7 @@ kawazaky223:
   profiles:
     - service: tg
       id: '5641856113'
-      updated: 2025-11-15-14-09-21
+      updated: 2025-11-15-15-09-34
       accessHash: '7421309771527577818'
       username: Kawazaky223
       name: Максим
