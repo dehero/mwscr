@@ -92,7 +92,7 @@ a2-enkelli:
   profiles:
     - service: tg
       id: '7258424423'
-      updated: 2025-11-15-21-08-54
+      updated: 2025-11-16-00-54-04
       accessHash: '969825927170686844'
       username: A2_Enkelli
       name: †† elli ††
@@ -271,7 +271,7 @@ aleksey-yeskela:
   profiles:
     - service: vk
       id: '1047357639'
-      updated: 2025-11-15-21-08-57
+      updated: 2025-11-16-00-54-12
       username: id1047357639
       name: Алексей Йескела
       avatar: store:/avatars/vk-893f32cb.jpg
@@ -432,7 +432,7 @@ anonim:
   profiles:
     - service: tg
       id: '6469120788'
-      updated: 2025-11-15-23-10-02
+      updated: 2025-11-16-00-53-58
       accessHash: '-3557204299452739678'
       name: Аноним
       avatar: store:/avatars/tg-5386639419211116910.jpg
@@ -447,7 +447,7 @@ ansis:
   profiles:
     - service: tg
       id: '517050552'
-      updated: 2025-11-15-23-10-05
+      updated: 2025-11-16-00-54-07
       accessHash: '5231096655311395455'
       username: ansis
       name: ansis
@@ -513,7 +513,7 @@ artem-petrov:
   profiles:
     - service: vk
       id: '4238605'
-      updated: 2025-11-13-02-30-02
+      updated: 2025-11-16-00-54-10
       username: id4238605
       name: Артем Петров
       avatar: store:/avatars/vk-77942374.jpg
@@ -561,7 +561,7 @@ arya-stark:
   profiles:
     - service: vk
       id: '820702664'
-      updated: 2025-11-15-23-09-59
+      updated: 2025-11-16-00-54-07
       username: id820702664
       name: Арья Старк
       avatar: store:/avatars/vk-689aa89d.jpg
@@ -1871,7 +1871,7 @@ filavandrel-official:
   profiles:
     - service: vk
       id: '682643734'
-      updated: 2025-11-13-05-36-02
+      updated: 2025-11-16-00-54-07
       username: filavandrel_official
       name: Filavandrel Aén Fidháil
       avatar: store:/avatars/vk-6d180d88.jpg
@@ -2159,7 +2159,7 @@ h4shirama-s3nju:
   profiles:
     - service: tg
       id: '5619748563'
-      updated: 2025-11-15-23-10-05
+      updated: 2025-11-16-00-54-07
       accessHash: '-759856355370590559'
       username: Hashirama_S3njuu
       name: 柱間 千住 ✝️ :("");
@@ -2748,7 +2748,7 @@ kawazaky223:
   profiles:
     - service: tg
       id: '5641856113'
-      updated: 2025-11-15-23-10-04
+      updated: 2025-11-16-00-54-10
       accessHash: '7421309771527577818'
       username: Kawazaky223
       name: Максим
@@ -2845,7 +2845,7 @@ konstantin-matrosov:
   profiles:
     - service: vk
       id: '93073669'
-      updated: 2025-11-15-00-48-36
+      updated: 2025-11-16-00-54-12
       username: id93073669
       name: Константин Матросов
       avatar: store:/avatars/vk-74f1d950.jpg
@@ -4629,7 +4629,7 @@ sh2162:
   profiles:
     - service: vk
       id: '175206341'
-      updated: 2025-11-09-00-52-51
+      updated: 2025-11-16-00-54-12
       username: sh2162
       name: Саня Змей
       avatar: store:/avatars/vk-61e7091c.jpg
@@ -5133,7 +5133,7 @@ the-best-song78:
   profiles:
     - service: vk
       id: '825763367'
-      updated: 2025-11-09-00-52-50
+      updated: 2025-11-16-00-54-12
       username: the_best_song78
       name: Vladislav Dmitrievich
       avatar: store:/avatars/vk-2249bf5e.jpg
