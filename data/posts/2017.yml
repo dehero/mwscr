@@ -2472,25 +2472,25 @@
       id: DQ2GrkdADcg
       mediaId: '18084028931001599'
       published: 2025-11-09-18-14-29
-      updated: 2025-11-15-19-07-44
+      updated: 2025-11-16-19-08-04
       followers: 1592
       likes: 46
     - service: vk
       id: 2836
       published: 2025-11-09-18-14-35
-      updated: 2025-11-15-19-07-45
+      updated: 2025-11-16-19-08-10
       followers: 1504
-      likes: 62
-      views: 754
+      likes: 64
+      views: 764
       reposts: 1
       comments: !c ixOAkZPLQnmoe2FygACscGV0ZWV2YW5kcmV3r9Cc0L7QutC90LXRguKApgM=
     - service: tg
       id: 1050
       published: 2025-11-09-18-14-39
-      updated: 2025-11-15-19-07-43
+      updated: 2025-11-16-19-08-09
       followers: 854
-      likes: 61
-      views: 454
+      likes: 62
+      views: 478
       comments: !c |-
         G5UAwGTq1BC+ZS2gxHIBHXOI9XLetUCnF6QVa3VywLeDYSuwY1mCAWgLJI+xNcSSOF7z/BbHw/+F
         QtApHTMn793sy0geGPO2kXj0jAzuzQCY4BI5hSR1uUKzppQTuhL4KPs1NntzMuOR4/jdb3m5Abwj
@@ -12584,15 +12584,23 @@
       id: DRIISIsmL_D
       mediaId: '17980675031924433'
       published: 2025-11-16-18-14-50
+      updated: 2025-11-16-19-07-58
       followers: 1593
+      likes: 13
     - service: vk
       id: 2859
       published: 2025-11-16-18-14-56
+      updated: 2025-11-16-19-07-56
       followers: 1509
+      likes: 5
+      views: 33
     - service: tg
       id: 1057
       published: 2025-11-16-18-15-00
+      updated: 2025-11-16-19-07-55
       followers: 860
+      likes: 24
+      views: 83
 2017-10-08-aeronautics:
   title: Aeronautics
   titleRu: Воздухоплавание
