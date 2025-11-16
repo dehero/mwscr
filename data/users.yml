@@ -432,7 +432,7 @@ anonim:
   profiles:
     - service: tg
       id: '6469120788'
-      updated: 2025-11-16-14-09-14
+      updated: 2025-11-16-15-09-30
       accessHash: '-3557204299452739678'
       name: Аноним
       avatar: store:/avatars/tg-5386639419211116910.jpg
@@ -513,7 +513,7 @@ artem-petrov:
   profiles:
     - service: vk
       id: '4238605'
-      updated: 2025-11-16-14-09-15
+      updated: 2025-11-16-15-09-30
       username: id4238605
       name: Артем Петров
       avatar: store:/avatars/vk-77942374.jpg
@@ -561,7 +561,7 @@ arya-stark:
   profiles:
     - service: vk
       id: '820702664'
-      updated: 2025-11-16-14-09-17
+      updated: 2025-11-16-15-09-33
       username: id820702664
       name: Арья Старк
       avatar: store:/avatars/vk-689aa89d.jpg
@@ -1849,7 +1849,7 @@ feanor2la:
   profiles:
     - service: vk
       id: '16294877'
-      updated: 2025-11-16-14-09-15
+      updated: 2025-11-16-15-09-30
       username: feanor2la
       name: Иван Урлапов
       avatar: store:/avatars/vk-14fd45f0.jpg
@@ -2748,7 +2748,7 @@ kawazaky223:
   profiles:
     - service: tg
       id: '5641856113'
-      updated: 2025-11-16-14-09-16
+      updated: 2025-11-16-15-09-32
       accessHash: '7421309771527577818'
       username: Kawazaky223
       name: Максим
