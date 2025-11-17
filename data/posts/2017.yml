@@ -6904,10 +6904,10 @@
     - service: vk
       id: 2717
       published: 2025-10-06-18-28-57
-      updated: 2025-11-10-22-11-57
+      updated: 2025-11-17-23-10-14
       followers: 1448
       likes: 52
-      views: 1466
+      views: 1477
       reposts: 1
       comments: !c |-
         G/YAABwFbnvxDEJH98LQsyICbyN8HWwuURZwCRVpcq9uK6ULZuu4TM/95uA5pCWNBzqgRxRmk9x4
@@ -6917,10 +6917,10 @@
     - service: tg
       id: 1008
       published: 2025-10-06-18-29-03
-      updated: 2025-11-10-22-11-49
+      updated: 2025-11-17-23-10-12
       followers: 833
-      likes: 61
-      views: 531
+      likes: 62
+      views: 537
       comments: !c ixCAkZPLQnmbzP+3gACra2F3YXpha3kyMjOq8J+nneKAjeKZgAM=
     - service: ig
       id: DPe4iHTicLq
@@ -9162,17 +9162,17 @@
       id: DPMjuUhjndT
       mediaId: '17855731008476639'
       published: 2025-09-29-18-28-46
-      updated: 2025-11-10-22-11-48
+      updated: 2025-11-17-23-10-11
       followers: 1585
       likes: 73
       comments: !c iwyAkZPLQnmZdpZbgACpaXN0c2llbGl6pPCflKUD
     - service: vk
       id: 2696
       published: 2025-09-29-18-29-01
-      updated: 2025-11-10-22-11-59
+      updated: 2025-11-17-23-10-16
       followers: 1440
       likes: 72
-      views: 895
+      views: 903
       reposts: 3
       comments: !c |-
         G20BQJwH2TnJjRN8w0LWcFGUZwhfK0EvcsQ6IavsuWyLH3p3BqvBjggTd95Z7gQiDiTINNC7+7ba
@@ -9183,10 +9183,10 @@
     - service: tg
       id: 1001
       published: 2025-09-29-18-29-07
-      updated: 2025-11-10-22-11-51
+      updated: 2025-11-17-23-10-14
       followers: 813
       likes: 73
-      views: 573
+      views: 580
       comments: !c |-
         izqAkpPLQnmZbx85gACra2F3YXpha3kyMjOk8J+PsJTLQnmZbQu7AACrZ29vc2V2aWNoNzaz0Y8g
         0LEg0YLQsNC8INC20LjQu5PLQnmZgZcCAACqYTItZW5rZWxsabrQotCw0Lwg0LrRg9GH0LAg0L7R
@@ -12584,23 +12584,23 @@
       id: DRIISIsmL_D
       mediaId: '17980675031924433'
       published: 2025-11-16-18-14-50
-      updated: 2025-11-17-22-10-22
+      updated: 2025-11-17-23-10-07
       followers: 1593
       likes: 42
     - service: vk
       id: 2859
       published: 2025-11-16-18-14-56
-      updated: 2025-11-17-22-10-23
+      updated: 2025-11-17-23-10-09
       followers: 1509
       likes: 45
-      views: 336
+      views: 338
     - service: tg
       id: 1057
       published: 2025-11-16-18-15-00
-      updated: 2025-11-17-22-10-17
+      updated: 2025-11-17-23-10-04
       followers: 860
-      likes: 51
-      views: 220
+      likes: 52
+      views: 221
 2017-10-08-aeronautics:
   title: Aeronautics
   titleRu: Воздухоплавание
