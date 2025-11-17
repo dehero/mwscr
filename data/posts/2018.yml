@@ -3531,10 +3531,10 @@
     - service: vk
       id: 2733
       published: 2025-10-13-18-27-49
-      updated: 2025-11-10-21-10-07
+      updated: 2025-11-17-22-10-26
       followers: 1469
-      likes: 65
-      views: 1065
+      likes: 66
+      views: 1079
       reposts: 4
       comments: !c |-
         ix6AkZPLQnmeM+qpgACqYXJ5YS1zdGFya9km0JTQsNC70YHRjyDQvNC90LUg0LLQsNGIINCS0LjQ
@@ -3542,10 +3542,10 @@
     - service: tg
       id: 1015
       published: 2025-10-13-18-27-54
-      updated: 2025-11-10-21-10-09
+      updated: 2025-11-17-22-10-24
       followers: 836
       likes: 74
-      views: 570
+      views: 581
       comments: !c |-
         ix2AkpPLQnmeQJVWgACra2F3YXpha3kyMjOk8J+lkJPLQnmd7UgkgACvaDRzaGlyYW1hLXMzbmp1
         pWJhc2VkAw==
@@ -6266,16 +6266,16 @@
       id: DRKtLVyj-h4
       mediaId: '18056747108302525'
       published: 2025-11-17-18-15-41
-      updated: 2025-11-17-21-10-07
+      updated: 2025-11-17-22-10-20
       followers: 1594
-      likes: 35
+      likes: 40
     - service: vk
       id: 2860
       published: 2025-11-17-18-15-47
-      updated: 2025-11-17-21-10-06
+      updated: 2025-11-17-22-10-21
       followers: 1511
-      likes: 17
-      views: 98
+      likes: 23
+      views: 118
       reposts: 1
       comments: !c |-
         G7oAgJwHtq1wuxSM27KPOwji4X5+hO7ZhJujrHXt4zVB3oOa2zolVIuhGXz3DDgzOwWkFJF1cqIB
@@ -6284,10 +6284,10 @@
     - service: tg
       id: 1058
       published: 2025-11-17-18-15-53
-      updated: 2025-11-17-21-10-02
+      updated: 2025-11-17-22-10-16
       followers: 860
-      likes: 32
-      views: 116
+      likes: 33
+      views: 129
 2018-05-25-the-one-who-holds-baar-dau:
   title: The One Who Holds Baar Dau
   titleRu: Тот, кто держит Баар Дау
@@ -9286,10 +9286,10 @@
     - service: vk
       id: 2552
       published: 2025-08-03-19-25-00
-      updated: 2025-11-10-21-10-10
+      updated: 2025-11-17-22-10-27
       followers: 1356
-      likes: 53
-      views: 838
+      likes: 54
+      views: 843
       reposts: 3
       comments: !c |-
         C0KAkpPLQnmGq0NiAACwc2VyZ2V5LWNodXJiYW5vdtkl0JDRhdCw0YXQsCDQt9C90LDQutC+0LzR
@@ -9298,10 +9298,10 @@
     - service: tg
       id: 937
       published: 2025-08-03-19-25-28
-      updated: 2025-11-10-21-10-11
+      updated: 2025-11-17-22-10-25
       followers: 769
       likes: 66
-      views: 767
+      views: 770
       comments: !c CxmAkpPLQnmHYFXgAACnZGFueWEtcqTwn6eAk8tCeYc5DzAAAKtrYXdhemFreTIyM6Twn5iHAw==
 2018-07-31-spires:
   title: Spires
