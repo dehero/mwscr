@@ -92,7 +92,7 @@ a2-enkelli:
   profiles:
     - service: tg
       id: '7258424423'
-      updated: 2025-11-17-02-28-28
+      updated: 2025-11-17-13-27-02
       accessHash: '969825927170686844'
       username: A2_Enkelli
       name: †† elli ††
@@ -432,7 +432,7 @@ anonim:
   profiles:
     - service: tg
       id: '6469120788'
-      updated: 2025-11-17-12-21-05
+      updated: 2025-11-17-13-26-40
       accessHash: '-3557204299452739678'
       name: Аноним
       avatar: store:/avatars/tg-5386639419211116910.jpg
@@ -447,7 +447,7 @@ ansis:
   profiles:
     - service: tg
       id: '517050552'
-      updated: 2025-11-16-23-09-47
+      updated: 2025-11-17-13-27-08
       accessHash: '5231096655311395455'
       username: ansis
       name: ansis
@@ -513,7 +513,7 @@ artem-petrov:
   profiles:
     - service: vk
       id: '4238605'
-      updated: 2025-11-17-12-21-02
+      updated: 2025-11-17-13-26-40
       username: id4238605
       name: Артем Петров
       avatar: store:/avatars/vk-77942374.jpg
@@ -545,7 +545,7 @@ artyom-melikhoff:
   profiles:
     - service: vk
       id: '299405149'
-      updated: 2025-11-15-13-17-51
+      updated: 2025-11-17-13-27-11
       username: artyom_melikhoff
       name: Артём Мелихов
       avatar: store:/avatars/vk-4c16e471.jpg
@@ -561,7 +561,7 @@ arya-stark:
   profiles:
     - service: vk
       id: '820702664'
-      updated: 2025-11-16-23-09-46
+      updated: 2025-11-17-13-26-54
       username: id820702664
       name: Арья Старк
       avatar: store:/avatars/vk-689aa89d.jpg
@@ -855,7 +855,7 @@ brg1092:
   profiles:
     - service: tg
       id: '5867861906'
-      updated: 2025-11-15-03-35-11
+      updated: 2025-11-17-13-27-02
       accessHash: '4411929981434940281'
       username: brg1092
       name: 2𝜋
@@ -985,7 +985,7 @@ chernosotinec:
   profiles:
     - service: vk
       id: '355750944'
-      updated: 2025-11-13-05-36-10
+      updated: 2025-11-17-13-26-58
       username: Chernosotinec
       name: Артём Стекольщиков
       avatar: store:/avatars/vk-8aee5603.jpg
@@ -1331,7 +1331,7 @@ dehero:
     - type: channel
       service: vk
       id: '138249959'
-      updated: 2025-11-13-05-36-06
+      updated: 2025-11-17-13-26-58
       username: mwscr
       name: Morrowind Screenshots
       avatar: store:/avatars/vk-8e97fd4f.jpg
@@ -1344,7 +1344,7 @@ dehero:
     - type: channel
       service: tg
       id: '1264795946'
-      updated: 2025-11-14-21-10-03
+      updated: 2025-11-17-13-27-04
       accessHash: '-5789257269249675714'
       username: mwscr
       name: Morrowind Screenshots
@@ -1643,7 +1643,7 @@ egorshatrovoy:
   profiles:
     - service: vk
       id: '529770073'
-      updated: 2025-11-10-12-21-10
+      updated: 2025-11-17-13-26-58
       username: egorshatrovoy
       name: Егор Шатровой
       avatar: store:/avatars/vk-8470a1b2.jpg
@@ -1849,7 +1849,7 @@ feanor2la:
   profiles:
     - service: vk
       id: '16294877'
-      updated: 2025-11-17-12-21-01
+      updated: 2025-11-17-13-26-26
       username: feanor2la
       name: Иван Урлапов
       avatar: store:/avatars/vk-14fd45f0.jpg
@@ -2002,7 +2002,7 @@ georrrrrg:
   profiles:
     - service: tg
       id: '1949040922'
-      updated: 2025-11-16-03-43-26
+      updated: 2025-11-17-13-26-54
       accessHash: '-2007640679099785628'
       username: Georrrrrg
       name: Егор
@@ -2104,11 +2104,11 @@ goosevich76:
   profiles:
     - service: tg
       id: '5385620621'
-      updated: 2025-11-15-02-22-55
+      updated: 2025-11-17-13-27-00
       accessHash: '-7130473396589324830'
       username: horwwwaty
       name: choven
-      avatar: store:/avatars/tg-5231050402101400849.jpg
+      avatar: store:/avatars/tg-5246998268506476640.jpg
 gorheim:
   profiles:
     - service: tg
@@ -2748,7 +2748,7 @@ kawazaky223:
   profiles:
     - service: tg
       id: '5641856113'
-      updated: 2025-11-17-12-21-10
+      updated: 2025-11-17-13-27-09
       accessHash: '7421309771527577818'
       username: Kawazaky223
       name: Максим
@@ -3164,7 +3164,7 @@ maksim-kopytov:
   profiles:
     - service: vk
       id: '799521846'
-      updated: 2025-11-13-03-41-57
+      updated: 2025-11-17-13-27-01
       username: id799521846
       name: Максим Копытов
       avatar: store:/avatars/vk-0da189cf.jpg
@@ -3204,7 +3204,7 @@ martin-freeeman:
   profiles:
     - service: tg
       id: '694645161'
-      updated: 2025-11-10-12-21-16
+      updated: 2025-11-17-13-27-08
       accessHash: '2151534684860554385'
       username: Martin_Freeeman
       name: Martin Freeman
@@ -3253,7 +3253,7 @@ max-upsher:
   profiles:
     - service: tg
       id: '1774562733'
-      updated: 2025-11-14-13-24-40
+      updated: 2025-11-17-13-27-05
       accessHash: '1025402626840048013'
       username: MaxUpsher
       name: Max Upsher
@@ -4505,7 +4505,7 @@ scion-of-balance:
   profiles:
     - service: tg
       id: '5834663294'
-      updated: 2025-11-15-20-11-17
+      updated: 2025-11-17-13-26-58
       accessHash: '-2758740287553358448'
       username: MagicKnightFan
       name: Quartz
@@ -4613,7 +4613,7 @@ sergey-churbanov:
   profiles:
     - service: vk
       id: '1060712354'
-      updated: 2025-11-16-06-15-39
+      updated: 2025-11-17-13-27-11
       username: id1060712354
       name: Сергей Чурбанов
       avatar: store:/avatars/vk-6499ce8d.jpg
@@ -5292,7 +5292,7 @@ todor:
   profiles:
     - service: tg
       id: '1305695186'
-      updated: 2025-11-16-06-15-35
+      updated: 2025-11-17-13-27-03
       accessHash: '8819682207926865502'
       name: Todor
       avatar: store:/avatars/tg-5305295556123424826.jpg
@@ -5702,7 +5702,7 @@ vail-astor-zkiy:
   profiles:
     - service: tg
       id: '1245638625'
-      updated: 2025-11-15-20-11-16
+      updated: 2025-11-17-13-27-04
       accessHash: '-6135365331334675689'
       name: Vail Astor'zkiy
 valeriy-zhmishenko:
@@ -6063,7 +6063,7 @@ ya-hs-che-suda-stavit:
   profiles:
     - service: tg
       id: '1336542246'
-      updated: 2025-11-10-13-25-55
+      updated: 2025-11-17-13-26-57
       accessHash: '5504493057447045891'
       username: Ya_hs_che_suda_stavit
       name: Hist 2
