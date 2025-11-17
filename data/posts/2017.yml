@@ -7390,27 +7390,27 @@
     - service: vk
       id: 2810
       published: 2025-11-03-18-16-27
-      updated: 2025-11-10-20-12-59
+      updated: 2025-11-17-21-10-12
       followers: 1496
-      likes: 78
-      views: 958
-      reposts: 1
+      likes: 80
+      views: 995
+      reposts: 2
       comments: !c |-
         G2oA+J0Hto1qPbCY3LFTPzT++fc2wg+yqWbcCTSOJLnPJkcYuAcY0EFtdX22PKREAkkoyAuKvnTb
         zXVrMTQ2N6VQTQUACeH9/Jzvk431XSlUah7aX6irxweJTrdtS51hgNAdDtaIUEcHtcBGAg==
     - service: tg
       id: 1039
       published: 2025-11-03-18-16-32
-      updated: 2025-11-10-20-13-01
+      updated: 2025-11-17-21-10-10
       followers: 851
-      likes: 70
-      views: 411
+      likes: 71
+      views: 500
       comments: !c iw2AkZPLQnmk6og9AACra2F3YXpha3kyMjOk8J+nkAM=
     - service: ig
       id: DQmwKWqjwt1
       mediaId: '18162502384381306'
       published: 2025-11-03-19-09-06
-      updated: 2025-11-10-20-12-56
+      updated: 2025-11-17-21-10-11
       followers: 1588
       likes: 57
 2017-06-07-god-of-madness-and-his-follower:
@@ -12584,23 +12584,23 @@
       id: DRIISIsmL_D
       mediaId: '17980675031924433'
       published: 2025-11-16-18-14-50
-      updated: 2025-11-17-20-12-28
+      updated: 2025-11-17-21-10-08
       followers: 1593
-      likes: 41
+      likes: 42
     - service: vk
       id: 2859
       published: 2025-11-16-18-14-56
-      updated: 2025-11-17-20-12-29
+      updated: 2025-11-17-21-10-09
       followers: 1509
       likes: 44
-      views: 332
+      views: 333
     - service: tg
       id: 1057
       published: 2025-11-16-18-15-00
-      updated: 2025-11-17-20-12-24
+      updated: 2025-11-17-21-10-03
       followers: 860
       likes: 50
-      views: 210
+      views: 214
 2017-10-08-aeronautics:
   title: Aeronautics
   titleRu: Воздухоплавание
