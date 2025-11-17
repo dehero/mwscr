@@ -271,7 +271,7 @@ aleksey-yeskela:
   profiles:
     - service: vk
       id: '1047357639'
-      updated: 2025-11-16-21-09-28
+      updated: 2025-11-17-12-21-09
       username: id1047357639
       name: Алексей Йескела
       avatar: store:/avatars/vk-893f32cb.jpg
@@ -432,7 +432,7 @@ anonim:
   profiles:
     - service: tg
       id: '6469120788'
-      updated: 2025-11-17-11-10-10
+      updated: 2025-11-17-12-21-05
       accessHash: '-3557204299452739678'
       name: Аноним
       avatar: store:/avatars/tg-5386639419211116910.jpg
@@ -513,7 +513,7 @@ artem-petrov:
   profiles:
     - service: vk
       id: '4238605'
-      updated: 2025-11-17-11-10-11
+      updated: 2025-11-17-12-21-02
       username: id4238605
       name: Артем Петров
       avatar: store:/avatars/vk-77942374.jpg
@@ -805,7 +805,7 @@ bobrovnikov:
   profiles:
     - service: tg
       id: '864611'
-      updated: 2025-11-13-05-36-07
+      updated: 2025-11-17-12-21-08
       accessHash: '-4256453567611932495'
       username: bobrovnikov
       name: Denis Bobrovnikov
@@ -1849,7 +1849,7 @@ feanor2la:
   profiles:
     - service: vk
       id: '16294877'
-      updated: 2025-11-17-11-10-11
+      updated: 2025-11-17-12-21-01
       username: feanor2la
       name: Иван Урлапов
       avatar: store:/avatars/vk-14fd45f0.jpg
@@ -2748,7 +2748,7 @@ kawazaky223:
   profiles:
     - service: tg
       id: '5641856113'
-      updated: 2025-11-17-11-10-10
+      updated: 2025-11-17-12-21-10
       accessHash: '7421309771527577818'
       username: Kawazaky223
       name: Максим
@@ -4815,7 +4815,7 @@ sol-sunich:
   profiles:
     - service: tg
       id: '1017031108'
-      updated: 2025-11-14-21-09-56
+      updated: 2025-11-17-12-21-09
       accessHash: '-8600220183224537901'
       username: sol_sunich
       name: ⊙
