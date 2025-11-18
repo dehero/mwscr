@@ -304,7 +304,7 @@ alexcher16:
   profiles:
     - service: vk
       id: '14644107'
-      updated: 2025-11-18-03-39-56
+      updated: 2025-11-18-04-15-15
       username: alexcher16
       name: Алексей Черноткач
       avatar: store:/avatars/vk-cf71ed78.jpg
@@ -1241,7 +1241,7 @@ darkness-rifho:
       deleted: true
     - service: tg
       id: '5704974271'
-      updated: 2025-11-15-15-09-37
+      updated: 2025-11-18-04-15-19
       accessHash: '3506423524566292179'
       username: C4H6O4
       name: Уна
@@ -1324,7 +1324,7 @@ dehero:
       avatar: store:/avatars/gh-c8afe641.jpg
     - service: vk
       id: '3652910'
-      updated: 2025-11-13-21-10-43
+      updated: 2025-11-18-04-15-22
       username: dehero
       name: Антон Курьянов
       avatar: store:/avatars/vk-5356f76e.jpg
@@ -2104,7 +2104,7 @@ goosevich76:
   profiles:
     - service: tg
       id: '5385620621'
-      updated: 2025-11-17-23-10-13
+      updated: 2025-11-18-04-15-19
       accessHash: '-7130473396589324830'
       username: horwwwaty
       name: choven
@@ -5133,7 +5133,7 @@ the-best-song78:
   profiles:
     - service: vk
       id: '825763367'
-      updated: 2025-11-18-03-39-56
+      updated: 2025-11-18-04-15-16
       username: the_best_song78
       name: Vladislav Dmitrievich
       avatar: store:/avatars/vk-2249bf5e.jpg
@@ -6116,7 +6116,7 @@ yourenemieswillpay:
   profiles:
     - service: vk
       id: '154353264'
-      updated: 2025-11-13-05-23-09
+      updated: 2025-11-18-04-15-22
       username: yourenemieswillpay
       name: Кирилл Заречный
       avatar: store:/avatars/vk-a2026737.jpg
