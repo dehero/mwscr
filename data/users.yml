@@ -92,7 +92,7 @@ a2-enkelli:
   profiles:
     - service: tg
       id: '7258424423'
-      updated: 2025-11-17-23-10-14
+      updated: 2025-11-18-10-13-59
       accessHash: '969825927170686844'
       username: A2_Enkelli
       name: †† elli ††
@@ -304,7 +304,7 @@ alexcher16:
   profiles:
     - service: vk
       id: '14644107'
-      updated: 2025-11-18-09-13-19
+      updated: 2025-11-18-10-13-55
       username: alexcher16
       name: Алексей Черноткач
       avatar: store:/avatars/vk-cf71ed78.jpg
@@ -2748,7 +2748,7 @@ kawazaky223:
   profiles:
     - service: tg
       id: '5641856113'
-      updated: 2025-11-18-09-13-26
+      updated: 2025-11-18-10-13-58
       accessHash: '7421309771527577818'
       username: Kawazaky223
       name: Максим
@@ -5133,7 +5133,7 @@ the-best-song78:
   profiles:
     - service: vk
       id: '825763367'
-      updated: 2025-11-18-09-13-20
+      updated: 2025-11-18-10-13-56
       username: the_best_song78
       name: Vladislav Dmitrievich
       avatar: store:/avatars/vk-2249bf5e.jpg
