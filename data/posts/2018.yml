@@ -120,10 +120,10 @@
     - service: vk
       id: 2792
       published: 2025-10-28-18-16-59
-      updated: 2025-11-11-22-10-52
+      updated: 2025-11-18-23-10-03
       followers: 1489
-      likes: 73
-      views: 1364
+      likes: 74
+      views: 1389
       reposts: 2
       comments: !c |-
         GwsCQCwSeI7VcUuhuNx4DVKP/yfuaUv4Zv1/kp1JbKcsiKzAikoiSM6lpqDULRPS4yQJCt88HSld
@@ -135,10 +135,10 @@
     - service: tg
       id: 1033
       published: 2025-10-28-18-17-04
-      updated: 2025-11-11-22-10-44
+      updated: 2025-11-18-23-10-01
       followers: 849
       likes: 58
-      views: 468
+      views: 496
 2018-01-05-guards-of-skyrim-mission-in-ebonheart:
   title: Guards of Skyrim Mission in Ebonheart
   titleRu: Стража миссии Скайрима в Эбенгарде
@@ -6266,16 +6266,16 @@
       id: DRKtLVyj-h4
       mediaId: '18056747108302525'
       published: 2025-11-17-18-15-41
-      updated: 2025-11-18-22-10-40
+      updated: 2025-11-18-23-09-59
       followers: 1594
       likes: 51
     - service: vk
       id: 2860
       published: 2025-11-17-18-15-47
-      updated: 2025-11-18-22-10-37
+      updated: 2025-11-18-23-10-00
       followers: 1511
       likes: 58
-      views: 555
+      views: 559
       reposts: 4
       comments: !c |-
         G7oAgJwHtq1wuxSM27KPOwji4X5+hO7ZhJujrHXt4zVB3oOa2zolVIuhGXz3DDgzOwWkFJF1cqIB
@@ -6284,10 +6284,10 @@
     - service: tg
       id: 1058
       published: 2025-11-17-18-15-53
-      updated: 2025-11-18-22-10-36
+      updated: 2025-11-18-23-09-58
       followers: 860
-      likes: 58
-      views: 237
+      likes: 59
+      views: 238
       comments: !c iw2AkZPLQnmpU4hogACra2F3YXpha3kyMjOk8J+YtgM=
 2018-05-25-the-one-who-holds-baar-dau:
   title: The One Who Holds Baar Dau
