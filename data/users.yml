@@ -92,7 +92,7 @@ a2-enkelli:
   profiles:
     - service: tg
       id: '7258424423'
-      updated: 2025-11-20-19-16-34
+      updated: 2025-11-20-21-13-54
       accessHash: '969825927170686844'
       username: A2_Enkelli
       name: †† elli ††
@@ -447,7 +447,7 @@ ansis:
   profiles:
     - service: tg
       id: '517050552'
-      updated: 2025-11-20-19-26-48
+      updated: 2025-11-20-21-13-54
       accessHash: '5231096655311395455'
       username: ansis
       name: ansis
@@ -1324,7 +1324,7 @@ dehero:
       avatar: store:/avatars/gh-c8afe641.jpg
     - service: vk
       id: '3652910'
-      updated: 2025-11-20-19-47-36
+      updated: 2025-11-20-21-13-53
       username: dehero
       name: Антон Курьянов
       avatar: store:/avatars/vk-5356f76e.jpg
@@ -2747,7 +2747,7 @@ kawazaky223:
   profiles:
     - service: tg
       id: '5641856113'
-      updated: 2025-11-20-20-21-20
+      updated: 2025-11-20-21-13-53
       accessHash: '7421309771527577818'
       username: Kawazaky223
       name: Максим
@@ -4002,7 +4002,7 @@ peteevandrew:
   profiles:
     - service: vk
       id: '307619379'
-      updated: 2025-11-20-20-21-29
+      updated: 2025-11-20-21-13-53
       username: peteevandrew
       name: Андрей Петеев
       avatar: store:/avatars/vk-d3f26d8e.jpg
@@ -4605,7 +4605,7 @@ sergey-b-2:
   profiles:
     - service: vk
       id: '1077446394'
-      updated: 2025-11-20-20-21-28
+      updated: 2025-11-20-21-13-53
       username: id1077446394
       name: Сергей Б
       avatar: store:/avatars/vk-cb747346.jpg
@@ -6188,7 +6188,7 @@ zuriz:
   profiles:
     - service: vk
       id: '41386909'
-      updated: 2025-11-20-19-14-56
+      updated: 2025-11-20-21-13-52
       username: zuriz
       name: Роман Зуризятинов
       avatar: store:/avatars/vk-2617f79c.jpg
