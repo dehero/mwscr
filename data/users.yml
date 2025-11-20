@@ -92,11 +92,11 @@ a2-enkelli:
   profiles:
     - service: tg
       id: '7258424423'
-      updated: 2025-11-20-21-13-54
+      updated: 2025-11-20-23-13-56
       accessHash: '969825927170686844'
       username: A2_Enkelli
       name: †† elli ††
-      avatar: store:/avatars/tg-5440529013824161090.jpg
+      avatar: store:/avatars/tg-5260229151485004646.jpg
 aarychagoff:
   profiles:
     - service: tg
@@ -447,7 +447,7 @@ ansis:
   profiles:
     - service: tg
       id: '517050552'
-      updated: 2025-11-20-21-13-54
+      updated: 2025-11-20-23-13-58
       accessHash: '5231096655311395455'
       username: ansis
       name: ansis
@@ -561,7 +561,7 @@ arya-stark:
   profiles:
     - service: vk
       id: '820702664'
-      updated: 2025-11-20-19-47-33
+      updated: 2025-11-20-23-13-50
       username: id820702664
       name: Арья Старк
       avatar: store:/avatars/vk-689aa89d.jpg
@@ -2214,7 +2214,7 @@ himmelherz:
   profiles:
     - service: tg
       id: '588028426'
-      updated: 2025-11-20-19-25-23
+      updated: 2025-11-20-23-14-00
       accessHash: '3598871882011829639'
       username: himmelherz
       name: Roman
@@ -2747,7 +2747,7 @@ kawazaky223:
   profiles:
     - service: tg
       id: '5641856113'
-      updated: 2025-11-20-21-13-53
+      updated: 2025-11-20-23-14-01
       accessHash: '7421309771527577818'
       username: Kawazaky223
       name: Максим
@@ -2818,7 +2818,7 @@ kokoc-999:
   profiles:
     - service: vk
       id: '195199347'
-      updated: 2025-11-13-23-10-43
+      updated: 2025-11-20-23-13-45
       username: kokoc_999
       name: Сергей Балконский
       avatar: store:/avatars/vk-2ef461b9.jpg
@@ -2844,7 +2844,7 @@ konstantin-matrosov:
   profiles:
     - service: vk
       id: '93073669'
-      updated: 2025-11-20-19-14-32
+      updated: 2025-11-20-23-13-47
       username: id93073669
       name: Константин Матросов
       avatar: store:/avatars/vk-74f1d950.jpg
@@ -5377,7 +5377,7 @@ uber-zaryad:
   profiles:
     - service: vk
       id: '790973813'
-      updated: 2025-11-20-19-16-54
+      updated: 2025-11-20-23-13-48
       username: id790973813
       name: Убер Заряд
       avatar: store:/avatars/vk-8878ae01.jpg
