@@ -30,7 +30,7 @@
     - service: vk
       id: 1387
       published: 2023-07-28
-      updated: 2025-11-13-05-19-43
+      updated: 2025-11-20-19-29-32
       followers: 891
       likes: 49
       views: 559
@@ -44,10 +44,10 @@
     - service: tg
       id: 308
       published: 2023-07-28
-      updated: 2025-11-13-05-15-46
+      updated: 2025-11-20-19-24-24
       followers: 316
       likes: 79
-      views: 953
+      views: 954
       comments: !c |-
         GwsDQBwHbiw3cImE3YOrpcHztvsp3k1uyDYmNVU+4+YmUJLy3uDc0ERpJtUjoZhlCAWPGyoNEp5/
         Z3gl0vAkXSyx372Snn3q2Ma5tdKX3F/iBS8twuqJdehcw6Dh0RJkOMeI/CiMaKBHrnD4t+kh2xmD
@@ -61,18 +61,18 @@
     - service: vk
       id: 2501
       published: 2025-07-02-18-24-04
-      updated: 2025-11-13-09-13-34
+      updated: 2025-11-20-19-14-10
       followers: 1333
-      likes: 55
-      views: 539
+      likes: 56
+      views: 542
       reposts: 1
     - service: tg
       id: 905
       published: 2025-07-02-18-24-07
-      updated: 2025-11-13-12-21-26
+      updated: 2025-11-20-19-13-44
       followers: 760
       likes: 72
-      views: 616
+      views: 618
       comments: !c |-
         GzwBICyOx+2nFLWNo94R//xzsuFsoF93zs5Ug0TCuASCMLGS+zBtWyUVwVC9eYOhvxnrQ7aNb/1L
         MqfbBF8QXKZoKOjmYteYFgRFRLCI8rf+mO8GRxoQh+s2TzLrGODAGy4yuMkKG2SzJu63x/O35r7d
@@ -113,7 +113,7 @@
     - service: vk
       id: 1391
       published: 2023-07-29
-      updated: 2025-11-13-05-19-42
+      updated: 2025-11-20-19-29-30
       followers: 891
       likes: 43
       views: 423
@@ -124,10 +124,10 @@
     - service: tg
       id: 309
       published: 2023-07-29
-      updated: 2025-11-13-05-15-43
+      updated: 2025-11-20-19-24-19
       followers: 319
       likes: 70
-      views: 716
+      views: 717
       comments: !c |-
         G+AAAB0HuZnlgsc6ik5M8Hyt7VJj81mFTGoinhayaRefTuj6fkQSoYC1cxlG1w/S62HYrrz6SDpt
         rom5Tm6ehAfkAANLy+6aBvbcxlyO49WoUStlMr7462p78oZxiDiUAsFIOb7694V2YeY99tlEPJF2
@@ -154,17 +154,17 @@
     - service: vk
       id: 1393
       published: 2023-07-30
-      updated: 2025-11-13-05-19-42
+      updated: 2025-11-20-19-29-30
       followers: 891
       likes: 36
       views: 399
     - service: tg
       id: 310
       published: 2023-07-30
-      updated: 2025-11-13-05-15-41
+      updated: 2025-11-20-19-24-18
       followers: 319
       likes: 57
-      views: 707
+      views: 708
     - service: ig
       id: DKC81wsTK0X
       mediaId: '18026521652678055'
@@ -175,17 +175,17 @@
     - service: vk
       id: 2382
       published: 2025-05-24-18-18-58
-      updated: 2025-11-13-02-29-49
+      updated: 2025-11-20-19-15-09
       followers: 1305
       likes: 55
-      views: 459
+      views: 461
     - service: tg
       id: 857
       published: 2025-05-24-18-19-06
-      updated: 2025-11-13-00-51-14
+      updated: 2025-11-20-19-14-20
       followers: 739
       likes: 65
-      views: 564
+      views: 567
 2023-07-31-overhanging-rock-by-darkness-rifho:
   title: Overhanging Rock
   titleRu: Нависающая скала
@@ -212,7 +212,7 @@
     - service: vk
       id: 1394
       published: 2023-07-31
-      updated: 2025-11-13-05-19-41
+      updated: 2025-11-20-19-29-29
       followers: 891
       likes: 44
       views: 388
@@ -222,10 +222,10 @@
     - service: tg
       id: 311
       published: 2023-07-31
-      updated: 2025-11-13-05-15-40
+      updated: 2025-11-20-19-24-17
       followers: 317
       likes: 61
-      views: 761
+      views: 762
       comments: !c |-
         G18A4I2ULuJNRp5GLBqQiORCOjqn9QLSK8mY1gJ/sNT+mdxchgw5AQ8pTrG9VS8Yzp1cdFn6EzLT
         Mul5owpVVf4n2wiGnWHHiueRMy7ZV7qJ11k3YMWNa7WTEQ==
@@ -233,16 +233,16 @@
       id: DOJmMF4jRTd
       mediaId: '17922073773131202'
       published: 2025-09-03-18-21-10
-      updated: 2025-11-13-02-29-24
+      updated: 2025-11-20-19-13-05
       followers: 1582
       likes: 68
     - service: vk
       id: 2629
       published: 2025-09-03-18-21-16
-      updated: 2025-11-13-02-29-18
+      updated: 2025-11-20-19-13-28
       followers: 1404
       likes: 44
-      views: 578
+      views: 583
       reposts: 1
       comments: !c |-
         Cy+AkZPLQnmRFaD7gACwc2VyZ2V5LWNodXJiYW5vdtlB0K3RjdC5KSDQt9C00LDRgNC+0LLQsCEg
@@ -250,10 +250,10 @@
     - service: tg
       id: 971
       published: 2025-09-03-18-21-19
-      updated: 2025-11-13-02-29-17
+      updated: 2025-11-20-19-13-16
       followers: 788
       likes: 76
-      views: 574
+      views: 577
       comments: !c iw2AkZPLQnmRXdWaAACra2F3YXpha3kyMjOk8J+koQM=
 2023-08-01-stillness:
   title: Stillness
@@ -281,7 +281,7 @@
     - service: vk
       id: 1396
       published: 2023-08-01
-      updated: 2025-11-13-05-19-40
+      updated: 2025-11-20-19-29-28
       followers: 893
       likes: 41
       views: 434
@@ -289,10 +289,10 @@
     - service: tg
       id: 312
       published: 2023-08-01
-      updated: 2025-11-13-05-15-40
+      updated: 2025-11-20-19-24-16
       followers: 317
       likes: 67
-      views: 768
+      views: 769
       comments: !c CxGAkZPLQnibI3AugACoYmxhZ29jYmSu0J3QtdGC0YfinaTvuI8D
 2023-08-02-reed-view:
   title: Reed View
@@ -320,17 +320,17 @@
     - service: vk
       id: 1398
       published: 2023-08-02
-      updated: 2025-11-13-05-19-39
+      updated: 2025-11-20-19-29-27
       followers: 893
       likes: 30
       views: 400
     - service: tg
       id: 313
       published: 2023-08-02
-      updated: 2025-11-13-05-15-39
+      updated: 2025-11-20-19-24-15
       followers: 316
       likes: 55
-      views: 890
+      views: 891
     - service: ig
       id: DJUnMgEs2ay
       mediaId: '18082683772680416'
@@ -341,10 +341,10 @@
     - service: vk
       id: 2341
       published: 2025-05-06-18-24-44
-      updated: 2025-11-13-03-41-47
+      updated: 2025-11-20-19-15-35
       followers: 1281
       likes: 46
-      views: 477
+      views: 479
       reposts: 2
       comments: !c |-
         G+oAEJ0Htg3rHDPI4QvhoV38P/3FPuEb31n0xgMPuMSLIDnXbfqcr0SRsylU26iYkyUJoinvThF5
@@ -354,10 +354,10 @@
     - service: tg
       id: 832
       published: 2025-05-06-18-24-51
-      updated: 2025-11-13-02-29-45
+      updated: 2025-11-20-19-14-40
       followers: 738
       likes: 69
-      views: 702
+      views: 704
 2023-08-03-spinning-wheel:
   title: Spinning-Wheel
   titleRu: Прялка
@@ -382,7 +382,7 @@
     - service: vk
       id: 1399
       published: 2023-08-03
-      updated: 2025-11-13-05-19-39
+      updated: 2025-11-20-19-29-27
       followers: 893
       likes: 34
       views: 458
@@ -393,10 +393,10 @@
     - service: tg
       id: 314
       published: 2023-08-03
-      updated: 2025-11-13-05-15-39
+      updated: 2025-11-20-19-24-15
       followers: 317
       likes: 46
-      views: 891
+      views: 892
     - service: ig
       id: DHtl8ydO217
       mediaId: '17911396193996302'
@@ -408,10 +408,10 @@
     - service: vk
       id: 2233
       published: 2025-03-27-18-12-06
-      updated: 2025-11-13-03-42-54
+      updated: 2025-11-20-19-16-54
       followers: 1215
       likes: 41
-      views: 438
+      views: 439
       comments: !c |-
         G58BAJwHdiwwGYbOBNLfLIuoWK4zFsVaktAoAw5LocgqCQdCx/83MoUerW32ZijF5p15vAzmP0N1
         WyuCGi3Sn9M2FQ4KNzTRutm4/BBta/H5I4p4Fd8wbff0SAPCtlrQloSJJwkd8fO20/UgId1upjz0
@@ -422,7 +422,7 @@
     - service: tg
       id: 767
       published: 2025-03-27-18-12-12
-      updated: 2025-11-13-03-41-47
+      updated: 2025-11-20-19-15-23
       followers: 710
       likes: 64
       views: 515
@@ -452,17 +452,17 @@
     - service: vk
       id: 1400
       published: 2023-08-04
-      updated: 2025-11-13-05-19-38
+      updated: 2025-11-20-19-29-26
       followers: 893
       likes: 37
       views: 441
     - service: tg
       id: 315
       published: 2023-08-04
-      updated: 2025-11-13-05-15-39
+      updated: 2025-11-20-19-24-14
       followers: 320
       likes: 62
-      views: 857
+      views: 858
       comments: !c ixCAkZPLQnicQVdYAACpdmxhZHVueWExrNCb0Y/Qv9C+0YLQsAM=
 2023-08-05-red-candles:
   title: Red Candles
@@ -487,7 +487,7 @@
     - service: vk
       id: 1401
       published: 2023-08-05
-      updated: 2025-11-13-05-19-37
+      updated: 2025-11-20-19-29-25
       followers: 895
       likes: 32
       views: 418
@@ -495,10 +495,10 @@
     - service: tg
       id: 316
       published: 2023-08-05
-      updated: 2025-11-13-05-15-38
+      updated: 2025-11-20-19-24-14
       followers: 321
       likes: 57
-      views: 751
+      views: 752
       comments: !c |-
         iyWAkZPLQnictBA9gACuc296aW4tdGVsdmFubmnZMFdoZW4gc2hlIGFza3MgeW91IHRvIGdldCBj
         YW5kbGVzIHRvIHNldCB0aGUgbW9vZAM=
@@ -551,7 +551,7 @@
     - service: vk
       id: 1403
       published: 2023-08-06
-      updated: 2025-11-13-05-19-36
+      updated: 2025-11-20-19-29-24
       followers: 895
       likes: 50
       views: 469
@@ -559,10 +559,10 @@
     - service: tg
       id: 317
       published: 2023-08-06
-      updated: 2025-11-13-05-15-37
+      updated: 2025-11-20-19-24-13
       followers: 320
       likes: 52
-      views: 821
+      views: 822
       comments: !c |-
         iyOAkZPLQnic4ToCAACmdXNlci022TTQotCw0Lwg0L3QsNGBINC20LTRkdGCINCg0LDQtNCw0Log
         0KHRgtGD0L3Qs9GC0YPQvNGGAw==
@@ -590,7 +590,7 @@
     - service: vk
       id: 1404
       published: 2023-08-07
-      updated: 2025-11-13-05-19-35
+      updated: 2025-11-20-19-29-23
       followers: 895
       likes: 54
       views: 507
@@ -598,10 +598,10 @@
     - service: tg
       id: 318
       published: 2023-08-07
-      updated: 2025-11-13-05-15-36
+      updated: 2025-11-20-19-24-12
       followers: 319
       likes: 65
-      views: 844
+      views: 845
       comments: !c iwyAkZPLQnidrrxcAACpcmVkb3JhbmFypPCfpbYD
     - service: ig
       id: DN_Srr3ETir
@@ -654,7 +654,7 @@
     - service: vk
       id: 1405
       published: 2023-08-08
-      updated: 2025-11-13-05-19-35
+      updated: 2025-11-20-19-29-21
       followers: 895
       likes: 36
       views: 448
@@ -662,10 +662,10 @@
     - service: tg
       id: 319
       published: 2023-08-08
-      updated: 2025-11-13-05-15-36
+      updated: 2025-11-20-19-24-11
       followers: 319
       likes: 56
-      views: 916
+      views: 917
 2023-08-09-night-on-suran-square:
   title: Night on Suran Square
   titleRu: Ночь на площади Сурана
@@ -694,7 +694,7 @@
     - service: vk
       id: 1406
       published: 2023-08-09
-      updated: 2025-11-13-05-19-34
+      updated: 2025-11-20-19-29-19
       followers: 896
       likes: 42
       views: 507
@@ -702,10 +702,10 @@
     - service: tg
       id: 320
       published: 2023-08-09
-      updated: 2025-11-13-05-15-35
+      updated: 2025-11-20-19-24-11
       followers: 319
       likes: 73
-      views: 999
+      views: 1000
     - service: ig
       id: DH6fBvXBznp
       mediaId: '18070466110880575'
@@ -717,15 +717,15 @@
     - service: vk
       id: 2251
       published: 2025-04-01-18-21-46
-      updated: 2025-11-13-03-42-48
+      updated: 2025-11-20-19-16-45
       followers: 1226
       likes: 75
-      views: 461
+      views: 462
       reposts: 3
     - service: tg
       id: 773
       published: 2025-04-01-18-21-57
-      updated: 2025-11-13-03-41-45
+      updated: 2025-11-20-19-15-21
       followers: 712
       likes: 68
       views: 663
@@ -753,7 +753,7 @@
     - service: vk
       id: 1407
       published: 2023-08-10
-      updated: 2025-11-13-05-19-33
+      updated: 2025-11-20-19-29-18
       followers: 896
       likes: 35
       views: 480
@@ -761,10 +761,10 @@
     - service: tg
       id: 321
       published: 2023-08-10
-      updated: 2025-11-13-05-15-35
+      updated: 2025-11-20-19-24-11
       followers: 320
       likes: 55
-      views: 1192
+      views: 1193
       comments: !c |-
         G8gAUBwJdizkAz2yskDwfN7GAxnuQxqG0HkQ1SzgBt5dIIEGyXuYm66kZshogn8A/M9OMPOEM+j9
         oNu67YAPLZ2c6BlvfDxoYq15zAG3hHLKUeJRURri7Tt87P3zfX4dUrrpbmnb3P4QCgSyZJf3IJhw
@@ -807,7 +807,7 @@
     - service: vk
       id: 1409
       published: 2023-08-11
-      updated: 2025-11-13-05-19-32
+      updated: 2025-11-20-19-29-15
       followers: 895
       likes: 43
       views: 505
@@ -819,10 +819,10 @@
         - 324
         - 325
       published: 2023-08-11
-      updated: 2025-11-13-05-15-34
+      updated: 2025-11-20-19-24-10
       followers: 322
       likes: 62
-      views: 1372
+      views: 1373
       comments: !c Cw2AkZPLQnifD8WOgACqbWhtZC1raGFsZKRDb29sAw==
 2023-09-16-hanging-lanterns-by-darkness-rifho:
   title: Hanging Lanterns
@@ -848,7 +848,7 @@
     - service: vk
       id: 1410
       published: 2023-09-16
-      updated: 2025-11-13-05-19-32
+      updated: 2025-11-20-19-29-14
       followers: 895
       likes: 32
       views: 445
@@ -856,10 +856,10 @@
     - service: tg
       id: 326
       published: 2023-09-16
-      updated: 2025-11-13-05-15-33
+      updated: 2025-11-20-19-24-05
       followers: 325
       likes: 62
-      views: 1124
+      views: 1125
       comments: !c |-
         G3cBwJwHdsO0DRHfKHBcJSLqRnrjTaBvGEb+BVyUBRYme7q2Sqh2/dD3wg4OZIPnBvwCbrs2WaUH
         vamtko72UoA324nOecS7LQ7ygOvyQAOK+C/82KfToSIIfQsTy6kZnOcvhx93bwBceHkM+68OYXRb
@@ -887,7 +887,7 @@
     - service: vk
       id: 1411
       published: 2023-09-17
-      updated: 2025-11-13-05-19-31
+      updated: 2025-11-20-19-29-12
       followers: 895
       likes: 26
       views: 420
@@ -896,10 +896,10 @@
     - service: tg
       id: 327
       published: 2023-09-17
-      updated: 2025-11-13-05-15-33
+      updated: 2025-11-20-19-24-04
       followers: 326
       likes: 55
-      views: 1320
+      views: 1321
       comments: !c |-
         iy+AkZTLQniqYT+1AACtb2xtZXItaXpkZXlsYaTwn5iNk8tCeKqcFEEAALJzb2xkaWVyLW9mLWhl
         YXZlbm7ZI9Ch0L/QsNGB0LjQsdC+INC30LAg0YHRgtC40LrQtdGA0YspAw==
@@ -955,7 +955,7 @@
     - service: vk
       id: 1413
       published: 2023-09-18
-      updated: 2025-11-13-05-19-30
+      updated: 2025-11-20-19-29-10
       followers: 895
       likes: 42
       views: 468
@@ -964,10 +964,10 @@
     - service: tg
       id: 328
       published: 2023-09-18
-      updated: 2025-11-13-05-15-32
+      updated: 2025-11-20-19-24-04
       followers: 327
       likes: 89
-      views: 3360
+      views: 3367
       comments: !c |-
         Cy+Ak5PLQnjfEx14AACsdmlvbGV0c3BpZGVyqkFhYWFoIPCfjJmTy0J4vdqE9IAAr2FsZXhleS1z
         dGVwYW5vdqTwn5Kpk8tCeKq60WUAAK1vbG1lci1pemRleWxhpPCfmLsD
