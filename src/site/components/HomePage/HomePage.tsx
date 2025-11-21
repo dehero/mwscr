@@ -68,6 +68,10 @@ export const HomePage = (): JSX.Element => {
                       YouTube
                     </a>
                     {' • '}
+                    <a href="https://boosty.to/mwscr" class={styles.link}>
+                      Boosty
+                    </a>
+                    {' • '}
                     <a href="https://github.com/dehero/mwscr" class={styles.link}>
                       GitHub
                     </a>
