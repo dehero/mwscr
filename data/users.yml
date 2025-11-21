@@ -4472,11 +4472,9 @@ sarudelsur:
   profiles:
     - service: tg
       id: '8446161342'
-      updated: 2025-10-24-09-12-39
+      updated: 2025-11-21-09-15-59
       accessHash: '-2612313514511119416'
-      username: sarudelsur
-      name: Hozu
-      avatar: store:/avatars/tg-5924880588987289272.jpg
+      deleted: true
 sata-andagi:
   profiles:
     - service: vk
