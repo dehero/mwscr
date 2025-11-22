@@ -653,10 +653,10 @@
     - service: vk
       id: 2828
       published: 2025-11-08-18-14-50
-      updated: 2025-11-15-21-08-55
+      updated: 2025-11-22-21-15-35
       followers: 1504
-      likes: 75
-      views: 760
+      likes: 79
+      views: 802
       reposts: 2
       comments: !c |-
         G4EDAJwHtm1pC/aazGeTUcz4p7Fomw9LGK7toWM3ZIMlGJohGpIIhioIgqVb3tfaxKvQrsptN6HS
@@ -671,10 +671,10 @@
     - service: tg
       id: 1049
       published: 2025-11-08-18-14-56
-      updated: 2025-11-15-21-08-54
+      updated: 2025-11-22-21-15-32
       followers: 854
-      likes: 65
-      views: 394
+      likes: 69
+      views: 480
       comments: !c |-
         GyQBwKwSeBNbVxnkjljs9EJNR08v5qwlgZa2Rd4CDwrPt9vbCeoTnrXNVD+UH+NDWconiojuHl5h
         uFrW8mqGNF2YyvuoKo+eLU80MP6voGx3GW+RjXg08MEgtoWvhwO0dZBFPVV9rOPcAOt48KJvMy+v
@@ -7523,11 +7523,17 @@
     - service: vk
       id: 2877
       published: 2025-11-22-20-41-36
+      updated: 2025-11-22-21-15-26
       followers: 1522
+      likes: 1
+      views: 15
     - service: tg
       id: 1065
       published: 2025-11-22-20-41-40
+      updated: 2025-11-22-21-15-25
       followers: 862
+      likes: 16
+      views: 63
 2017-06-10-ancestors-and-almalexia:
   title: Ancestors and Almalexia
   titleRu: Предки и Альмалексия
@@ -8338,16 +8344,16 @@
       id: DRVBXE5DZhu
       mediaId: '18060298964215273'
       published: 2025-11-21-18-24-25
-      updated: 2025-11-22-20-18-57
+      updated: 2025-11-22-21-15-28
       followers: 1595
-      likes: 50
+      likes: 51
     - service: vk
       id: 2872
       published: 2025-11-21-18-24-31
-      updated: 2025-11-22-20-19-00
+      updated: 2025-11-22-21-15-33
       followers: 1520
       likes: 56
-      views: 355
+      views: 360
       reposts: 1
       comments: !c |-
         G/ADAKwObPc4WCgot4kzg8fuFcX/M/a4H+pCe6wNxg8r0dIEMa0lwZBMgmCI0i3narahEZrMILYl
@@ -8362,10 +8368,10 @@
     - service: tg
       id: 1064
       published: 2025-11-21-18-24-36
-      updated: 2025-11-22-20-18-59
+      updated: 2025-11-22-21-15-31
       followers: 861
-      likes: 55
-      views: 211
+      likes: 57
+      views: 227
       comments: !c |-
         G6kAWIyUbsI8H/6a/8g+8CVFkbzrWDRY07gScD6g5ScrvE5O9GD8RxJ4ybe2QDyl3OAAA48w0FhL
         NMHx03b7M4a3bzIh9wR9jJAMWZY7bPlhjI5jOyJvouaPGrW+Rxv0S/2B2gkRObTn1TmcLkVNlUjO
