@@ -7523,17 +7523,22 @@
     - service: vk
       id: 2877
       published: 2025-11-22-20-41-36
-      updated: 2025-11-22-21-15-26
+      updated: 2025-11-22-22-16-38
       followers: 1522
-      likes: 1
-      views: 15
+      likes: 9
+      views: 41
     - service: tg
       id: 1065
       published: 2025-11-22-20-41-40
-      updated: 2025-11-22-21-15-25
+      updated: 2025-11-22-22-16-37
       followers: 862
-      likes: 16
-      views: 63
+      likes: 27
+      views: 90
+    - service: ig
+      id: DRYAxPul49u
+      mediaId: '17993550401707980'
+      published: 2025-11-22-22-17-00
+      followers: 1597
 2017-06-10-ancestors-and-almalexia:
   title: Ancestors and Almalexia
   titleRu: Предки и Альмалексия
@@ -8344,16 +8349,16 @@
       id: DRVBXE5DZhu
       mediaId: '18060298964215273'
       published: 2025-11-21-18-24-25
-      updated: 2025-11-22-21-15-28
+      updated: 2025-11-22-22-16-42
       followers: 1595
-      likes: 51
+      likes: 52
     - service: vk
       id: 2872
       published: 2025-11-21-18-24-31
-      updated: 2025-11-22-21-15-33
+      updated: 2025-11-22-22-16-45
       followers: 1520
-      likes: 56
-      views: 360
+      likes: 57
+      views: 363
       reposts: 1
       comments: !c |-
         G/ADAKwObPc4WCgot4kzg8fuFcX/M/a4H+pCe6wNxg8r0dIEMa0lwZBMgmCI0i3narahEZrMILYl
@@ -8368,10 +8373,10 @@
     - service: tg
       id: 1064
       published: 2025-11-21-18-24-36
-      updated: 2025-11-22-21-15-31
+      updated: 2025-11-22-22-16-44
       followers: 861
       likes: 57
-      views: 227
+      views: 230
       comments: !c |-
         G6kAWIyUbsI8H/6a/8g+8CVFkbzrWDRY07gScD6g5ScrvE5O9GD8RxJ4ybe2QDyl3OAAA48w0FhL
         NMHx03b7M4a3bzIh9wR9jJAMWZY7bPlhjI5jOyJvouaPGrW+Rxv0S/2B2gkRObTn1TmcLkVNlUjO
