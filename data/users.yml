@@ -271,7 +271,7 @@ aleksey-yeskela:
   profiles:
     - service: vk
       id: '1047357639'
-      updated: 2025-11-23-13-22-21
+      updated: 2025-11-23-14-15-29
       username: id1047357639
       name: Алексей Йескела
       avatar: store:/avatars/vk-893f32cb.jpg
@@ -447,7 +447,7 @@ ansis:
   profiles:
     - service: tg
       id: '517050552'
-      updated: 2025-11-23-13-22-22
+      updated: 2025-11-23-14-15-21
       accessHash: '5231096655311395455'
       username: ansis
       name: ansis
@@ -957,6 +957,14 @@ carpkoi:
       username: carpkoi
       name: Никита Щегунов
       avatar: store:/avatars/vk-f2f14d90.jpg
+casralis:
+  profiles:
+    - service: vk
+      id: '393011423'
+      updated: 2025-11-23-14-15-24
+      username: casralis
+      name: Кас Ралис
+      avatar: store:/avatars/vk-7d995849.jpg
 ccoteb:
   profiles:
     - service: ig
@@ -1567,7 +1575,7 @@ dremarretres:
   profiles:
     - service: vk
       id: '801308664'
-      updated: 2025-11-23-13-22-20
+      updated: 2025-11-23-14-15-22
       username: dremarretres
       name: Джон Шепард
       avatar: store:/avatars/vk-ac4f0700.jpg
@@ -1849,7 +1857,7 @@ feanor2la:
   profiles:
     - service: vk
       id: '16294877'
-      updated: 2025-11-23-13-22-21
+      updated: 2025-11-23-14-15-28
       username: feanor2la
       name: Иван Урлапов
       avatar: store:/avatars/vk-14fd45f0.jpg
@@ -2103,7 +2111,7 @@ goosevich76:
   profiles:
     - service: tg
       id: '5385620621'
-      updated: 2025-11-23-13-22-22
+      updated: 2025-11-23-14-15-21
       accessHash: '-7130473396589324830'
       username: horwwwaty
       name: choven
@@ -2747,7 +2755,7 @@ kawazaky223:
   profiles:
     - service: tg
       id: '5641856113'
-      updated: 2025-11-23-13-22-21
+      updated: 2025-11-23-14-15-20
       accessHash: '7421309771527577818'
       username: Kawazaky223
       name: Максим
@@ -3187,7 +3195,7 @@ marie-harris16:
   profiles:
     - service: tg
       id: '8125281395'
-      updated: 2025-11-23-13-22-20
+      updated: 2025-11-23-14-15-19
       accessHash: '1354890055343121679'
       username: MarieHarris16
       name: Sex Giant Studio
