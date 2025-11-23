@@ -7523,24 +7523,24 @@
     - service: vk
       id: 2877
       published: 2025-11-22-20-41-36
-      updated: 2025-11-23-17-14-50
+      updated: 2025-11-23-18-23-41
       followers: 1522
       likes: 46
-      views: 365
+      views: 389
       reposts: 1
     - service: tg
       id: 1065
       published: 2025-11-22-20-41-40
-      updated: 2025-11-23-17-14-56
+      updated: 2025-11-23-18-23-47
       followers: 862
-      likes: 47
-      views: 191
+      likes: 48
+      views: 194
       comments: !c CxSAkZPLQnmq8jz1gACubWFyaWUtaGFycmlzMTau0LrRgNCw0YHQuNCy0L4D
     - service: ig
       id: DRYAxPul49u
       mediaId: '17993550401707980'
       published: 2025-11-22-22-17-00
-      updated: 2025-11-23-17-14-55
+      updated: 2025-11-23-18-23-46
       followers: 1597
       likes: 30
 2017-06-10-ancestors-and-almalexia:
@@ -8353,16 +8353,16 @@
       id: DRVBXE5DZhu
       mediaId: '18060298964215273'
       published: 2025-11-21-18-24-25
-      updated: 2025-11-23-17-14-57
+      updated: 2025-11-23-18-23-48
       followers: 1595
-      likes: 55
+      likes: 56
     - service: vk
       id: 2872
       published: 2025-11-21-18-24-31
-      updated: 2025-11-23-17-14-59
+      updated: 2025-11-23-18-23-50
       followers: 1520
       likes: 63
-      views: 431
+      views: 437
       reposts: 1
       comments: !c |-
         G3QEACwK7FgDSEXljHKcfXFGx/8z9riFutAea4P5g9mQLE0UY7BItygIhqjdcq6qEwnA18jAf+ng
@@ -8378,10 +8378,10 @@
     - service: tg
       id: 1064
       published: 2025-11-21-18-24-36
-      updated: 2025-11-23-17-14-59
+      updated: 2025-11-23-18-23-49
       followers: 861
       likes: 60
-      views: 261
+      views: 262
       comments: !c |-
         G6kAWIyUbsI8H/6a/8g+8CVFkbzrWDRY07gScD6g5ScrvE5O9GD8RxJ4ybe2QDyl3OAAA48w0FhL
         NMHx03b7M4a3bzIh9wR9jJAMWZY7bPlhjI5jOyJvouaPGrW+Rxv0S/2B2gkRObTn1TmcLkVNlUjO
@@ -14262,6 +14262,19 @@
         G6oAACwO7Ab3G4nxLS8h7OMf2ukJFUJEXQa7EYxg8r7OjZzN6bCZ3KxGQ0UGmwZJ1dBsuRe7/fVW
         1y1vctl0csD+vWMUBZgHQIG1pZKeLKS3n4ZvAovn/cvf90HfyVHGusL+cDdFYDVnvkesA1yky7In
         NuOEhvzGpUXUJl/NXwxaldxOxJrDHvwGWo+lAQ==
+    - service: ig
+      id: DRaK60Ol55e
+      mediaId: '17842337841624742'
+      published: 2025-11-23-18-24-11
+      followers: 1598
+    - service: vk
+      id: 2881
+      published: 2025-11-23-18-24-18
+      followers: 1523
+    - service: tg
+      id: 1066
+      published: 2025-11-23-18-24-23
+      followers: 864
 2017-11-14-the-guard-of-arkngthand:
   title: The Guard of Arkngthand
   titleRu: Страж Аркнтанда
