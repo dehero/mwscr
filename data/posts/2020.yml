@@ -190,24 +190,28 @@
       id: DRNSIXUjQSb
       mediaId: '18293771806260561'
       published: 2025-11-18-18-17-05
-      updated: 2025-11-22-20-19-01
+      updated: 2025-11-23-20-19-50
       followers: 1595
       likes: 41
     - service: vk
       id: 2863
       published: 2025-11-18-18-17-11
-      updated: 2025-11-22-20-19-03
+      updated: 2025-11-23-20-19-54
       followers: 1511
-      likes: 53
-      views: 821
+      likes: 55
+      views: 844
       reposts: 1
+      comments: !c |-
+        GwIBoCwObFtC2zhjabXhKUajnv5G+kD66CE2iUWa7EHpJkbZTaijKaHjyw8yPdMXHtP3msGST8o6
+        8QksFarkOmwtL5tOTn+yAx5EDpJBABByAm2BQ0789Chpzc/7r75fjfHdx5XWJn/3YUrRtnw6OSgL
+        BGqBwwtnNiSTCeKluUqrBfRMlogmlf89L3MhWq0Irf+IlLACxM7UxkLoRx0QUjM/TyAGDG2ZKx8=
     - service: tg
       id: 1059
       published: 2025-11-18-18-17-15
-      updated: 2025-11-22-20-19-01
+      updated: 2025-11-23-20-19-50
       followers: 860
-      likes: 57
-      views: 374
+      likes: 60
+      views: 413
 2020-05-16-tel-mora:
   title: Tel Mora
   titleRu: Тель Мора
