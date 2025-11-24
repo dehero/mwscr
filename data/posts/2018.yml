@@ -3531,10 +3531,10 @@
     - service: vk
       id: 2733
       published: 2025-10-13-18-27-49
-      updated: 2025-11-17-22-10-26
+      updated: 2025-11-24-22-17-33
       followers: 1469
-      likes: 66
-      views: 1079
+      likes: 67
+      views: 1087
       reposts: 4
       comments: !c |-
         ix6AkZPLQnmeM+qpgACqYXJ5YS1zdGFya9km0JTQsNC70YHRjyDQvNC90LUg0LLQsNGIINCS0LjQ
@@ -3542,10 +3542,10 @@
     - service: tg
       id: 1015
       published: 2025-10-13-18-27-54
-      updated: 2025-11-17-22-10-24
+      updated: 2025-11-24-22-17-32
       followers: 836
       likes: 74
-      views: 581
+      views: 595
       comments: !c |-
         ix2AkpPLQnmeQJVWgACra2F3YXpha3kyMjOk8J+lkJPLQnmd7UgkgACvaDRzaGlyYW1hLXMzbmp1
         pWJhc2VkAw==
@@ -9287,10 +9287,10 @@
     - service: vk
       id: 2552
       published: 2025-08-03-19-25-00
-      updated: 2025-11-17-22-10-27
+      updated: 2025-11-24-22-17-35
       followers: 1356
       likes: 54
-      views: 843
+      views: 845
       reposts: 3
       comments: !c |-
         C0KAkpPLQnmGq0NiAACwc2VyZ2V5LWNodXJiYW5vdtkl0JDRhdCw0YXQsCDQt9C90LDQutC+0LzR
@@ -9299,10 +9299,10 @@
     - service: tg
       id: 937
       published: 2025-08-03-19-25-28
-      updated: 2025-11-17-22-10-25
+      updated: 2025-11-24-22-17-34
       followers: 769
       likes: 66
-      views: 770
+      views: 773
       comments: !c CxmAkpPLQnmHYFXgAACnZGFueWEtcqTwn6eAk8tCeYc5DzAAAKtrYXdhemFreTIyM6Twn5iHAw==
 2018-07-31-spires:
   title: Spires
