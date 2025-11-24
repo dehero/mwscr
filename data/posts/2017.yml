@@ -7523,10 +7523,10 @@
     - service: vk
       id: 2877
       published: 2025-11-22-20-41-36
-      updated: 2025-11-24-05-19-38
+      updated: 2025-11-24-06-28-43
       followers: 1522
       likes: 52
-      views: 442
+      views: 446
       reposts: 1
       comments: !c |-
         G5IA6J0Hxq3xYEN05+0zxCKqXYQPaaGH2CRWhMmem/M5X+akRYjp5MxOcMQ0qSe1EqvD1vKygUNO
@@ -7535,18 +7535,18 @@
     - service: tg
       id: 1065
       published: 2025-11-22-20-41-40
-      updated: 2025-11-24-05-19-38
+      updated: 2025-11-24-06-28-44
       followers: 862
       likes: 54
-      views: 236
+      views: 237
       comments: !c CxSAkZPLQnmq8jz1gACubWFyaWUtaGFycmlzMTau0LrRgNCw0YHQuNCy0L4D
     - service: ig
       id: DRYAxPul49u
       mediaId: '17993550401707980'
       published: 2025-11-22-22-17-00
-      updated: 2025-11-24-05-19-36
+      updated: 2025-11-24-06-28-42
       followers: 1597
-      likes: 34
+      likes: 36
 2017-06-10-ancestors-and-almalexia:
   title: Ancestors and Almalexia
   titleRu: Предки и Альмалексия
@@ -14270,25 +14270,25 @@
       id: DRaK60Ol55e
       mediaId: '17842337841624742'
       published: 2025-11-23-18-24-11
-      updated: 2025-11-24-05-19-35
+      updated: 2025-11-24-06-28-41
       followers: 1598
-      likes: 43
+      likes: 46
       comments: !c iwyAkZPLQnmrH6rXgACpaXN0c2llbGl6pPCflKUD
     - service: vk
       id: 2881
       published: 2025-11-23-18-24-18
-      updated: 2025-11-24-05-19-32
+      updated: 2025-11-24-06-28-37
       followers: 1523
-      likes: 30
-      views: 133
+      likes: 32
+      views: 155
       reposts: 4
     - service: tg
       id: 1066
       published: 2025-11-23-18-24-23
-      updated: 2025-11-24-05-19-31
+      updated: 2025-11-24-06-28-36
       followers: 864
       likes: 47
-      views: 175
+      views: 176
 2017-11-14-the-guard-of-arkngthand:
   title: The Guard of Arkngthand
   titleRu: Страж Аркнтанда

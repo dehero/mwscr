@@ -561,7 +561,7 @@ arya-stark:
   profiles:
     - service: vk
       id: '820702664'
-      updated: 2025-11-24-05-19-37
+      updated: 2025-11-24-06-28-42
       username: id820702664
       name: Арья Старк
       avatar: store:/avatars/vk-689aa89d.jpg
@@ -3195,7 +3195,7 @@ marie-harris16:
   profiles:
     - service: tg
       id: '8125281395'
-      updated: 2025-11-24-05-19-38
+      updated: 2025-11-24-06-28-44
       accessHash: '1354890055343121679'
       username: MarieHarris16
       name: Sex Giant Studio
