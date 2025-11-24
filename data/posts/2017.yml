@@ -7390,10 +7390,10 @@
     - service: vk
       id: 2810
       published: 2025-11-03-18-16-27
-      updated: 2025-11-17-21-10-12
+      updated: 2025-11-24-21-17-49
       followers: 1496
-      likes: 80
-      views: 995
+      likes: 83
+      views: 1017
       reposts: 2
       comments: !c |-
         G2oA+J0Hto1qPbCY3LFTPzT++fc2wg+yqWbcCTSOJLnPJkcYuAcY0EFtdX22PKREAkkoyAuKvnTb
@@ -7401,18 +7401,18 @@
     - service: tg
       id: 1039
       published: 2025-11-03-18-16-32
-      updated: 2025-11-17-21-10-10
+      updated: 2025-11-24-21-17-48
       followers: 851
       likes: 71
-      views: 500
+      views: 540
       comments: !c iw2AkZPLQnmk6og9AACra2F3YXpha3kyMjOk8J+nkAM=
     - service: ig
       id: DQmwKWqjwt1
       mediaId: '18162502384381306'
       published: 2025-11-03-19-09-06
-      updated: 2025-11-17-21-10-11
+      updated: 2025-11-24-21-17-51
       followers: 1588
-      likes: 57
+      likes: 58
 2017-06-07-god-of-madness-and-his-follower:
   title: God of Madness and His Follower
   titleRu: Бог безумия и его последователь
@@ -7544,7 +7544,7 @@
       id: DRYAxPul49u
       mediaId: '17993550401707980'
       published: 2025-11-22-22-17-00
-      updated: 2025-11-24-20-21-14
+      updated: 2025-11-24-21-17-50
       followers: 1597
       likes: 37
 2017-06-10-ancestors-and-almalexia:
@@ -14270,25 +14270,25 @@
       id: DRaK60Ol55e
       mediaId: '17842337841624742'
       published: 2025-11-23-18-24-11
-      updated: 2025-11-24-20-21-12
+      updated: 2025-11-24-21-17-47
       followers: 1598
       likes: 54
       comments: !c iwyAkZPLQnmrH6rXgACpaXN0c2llbGl6pPCflKUD
     - service: vk
       id: 2881
       published: 2025-11-23-18-24-18
-      updated: 2025-11-24-20-21-08
+      updated: 2025-11-24-21-17-41
       followers: 1523
       likes: 48
-      views: 252
+      views: 253
       reposts: 5
     - service: tg
       id: 1066
       published: 2025-11-23-18-24-23
-      updated: 2025-11-24-20-21-13
+      updated: 2025-11-24-21-17-46
       followers: 864
       likes: 58
-      views: 239
+      views: 240
       comments: !c iwqAkZPLQnmrYioJAAClYW5zaXOk8J+QtAM=
 2017-11-14-the-guard-of-arkngthand:
   title: The Guard of Arkngthand
@@ -15824,24 +15824,24 @@
       id: DRcwLCLF7Bo
       mediaId: '17899360014185967'
       published: 2025-11-24-18-28-12
-      updated: 2025-11-24-20-21-10
+      updated: 2025-11-24-21-17-44
       followers: 1598
-      likes: 19
+      likes: 23
     - service: vk
       id: 2883
       published: 2025-11-24-18-28-18
-      updated: 2025-11-24-20-21-07
+      updated: 2025-11-24-21-17-40
       followers: 1524
-      likes: 7
-      views: 55
+      likes: 8
+      views: 65
       reposts: 1
     - service: tg
       id: 1067
       published: 2025-11-24-18-28-22
-      updated: 2025-11-24-20-21-12
+      updated: 2025-11-24-21-17-45
       followers: 866
-      likes: 28
-      views: 118
+      likes: 31
+      views: 132
       comments: !c CxWAkZPLQnmrcgVcgACrZ29vc2V2aWNoNzaz0LHRi9C70L4g0LLRgNC10LzRjwM=
 2017-12-18-water-ripples:
   title: Water Ripples

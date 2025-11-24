@@ -447,7 +447,7 @@ ansis:
   profiles:
     - service: tg
       id: '517050552'
-      updated: 2025-11-24-20-21-13
+      updated: 2025-11-24-21-17-46
       accessHash: '5231096655311395455'
       username: ansis
       name: ansis
@@ -2053,7 +2053,7 @@ gleb-zheltuhin:
   profiles:
     - service: vk
       id: '29014473'
-      updated: 2025-11-18-23-10-09
+      updated: 2025-11-24-21-17-47
       username: gleb_zheltuhin
       name: Глеб Желтухин
       avatar: store:/avatars/vk-971eefc1.jpg
@@ -2111,7 +2111,7 @@ goosevich76:
   profiles:
     - service: tg
       id: '5385620621'
-      updated: 2025-11-24-20-21-12
+      updated: 2025-11-24-21-17-45
       accessHash: '-7130473396589324830'
       username: horwwwaty
       name: choven
@@ -2755,7 +2755,7 @@ kawazaky223:
   profiles:
     - service: tg
       id: '5641856113'
-      updated: 2025-11-24-20-21-18
+      updated: 2025-11-24-21-17-47
       accessHash: '7421309771527577818'
       username: Kawazaky223
       name: Максим
