@@ -561,7 +561,7 @@ arya-stark:
   profiles:
     - service: vk
       id: '820702664'
-      updated: 2025-11-24-08-26-35
+      updated: 2025-11-24-09-22-37
       username: id820702664
       name: Арья Старк
       avatar: store:/avatars/vk-689aa89d.jpg
@@ -2299,7 +2299,7 @@ i-love-the-night:
   profiles:
     - service: vk
       id: '712490246'
-      updated: 2025-10-27-09-14-36
+      updated: 2025-11-24-09-22-39
       username: i_love_the_night
       name: Call Of The Night
       avatar: store:/avatars/vk-e9801497.jpg
@@ -3195,7 +3195,7 @@ marie-harris16:
   profiles:
     - service: tg
       id: '8125281395'
-      updated: 2025-11-24-08-26-36
+      updated: 2025-11-24-09-22-36
       accessHash: '1354890055343121679'
       username: MarieHarris16
       name: Sex Giant Studio
