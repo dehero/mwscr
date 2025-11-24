@@ -7523,10 +7523,10 @@
     - service: vk
       id: 2877
       published: 2025-11-22-20-41-36
-      updated: 2025-11-24-19-13-05
+      updated: 2025-11-24-20-21-15
       followers: 1522
       likes: 54
-      views: 503
+      views: 504
       reposts: 1
       comments: !c |-
         G5IA6J0Hxq3xYEN05+0zxCKqXYQPaaGH2CRWhMmem/M5X+akRYjp5MxOcMQ0qSe1EqvD1vKygUNO
@@ -7535,18 +7535,18 @@
     - service: tg
       id: 1065
       published: 2025-11-22-20-41-40
-      updated: 2025-11-24-19-13-04
+      updated: 2025-11-24-20-21-16
       followers: 862
       likes: 57
-      views: 263
+      views: 265
       comments: !c CxSAkZPLQnmq8jz1gACubWFyaWUtaGFycmlzMTau0LrRgNCw0YHQuNCy0L4D
     - service: ig
       id: DRYAxPul49u
       mediaId: '17993550401707980'
       published: 2025-11-22-22-17-00
-      updated: 2025-11-24-19-13-06
+      updated: 2025-11-24-20-21-14
       followers: 1597
-      likes: 36
+      likes: 37
 2017-06-10-ancestors-and-almalexia:
   title: Ancestors and Almalexia
   titleRu: Предки и Альмалексия
@@ -14270,25 +14270,25 @@
       id: DRaK60Ol55e
       mediaId: '17842337841624742'
       published: 2025-11-23-18-24-11
-      updated: 2025-11-24-19-13-03
+      updated: 2025-11-24-20-21-12
       followers: 1598
       likes: 54
       comments: !c iwyAkZPLQnmrH6rXgACpaXN0c2llbGl6pPCflKUD
     - service: vk
       id: 2881
       published: 2025-11-23-18-24-18
-      updated: 2025-11-24-19-12-56
+      updated: 2025-11-24-20-21-08
       followers: 1523
       likes: 48
-      views: 247
+      views: 252
       reposts: 5
     - service: tg
       id: 1066
       published: 2025-11-23-18-24-23
-      updated: 2025-11-24-19-13-02
+      updated: 2025-11-24-20-21-13
       followers: 864
-      likes: 57
-      views: 230
+      likes: 58
+      views: 239
       comments: !c iwqAkZPLQnmrYioJAAClYW5zaXOk8J+QtAM=
 2017-11-14-the-guard-of-arkngthand:
   title: The Guard of Arkngthand
@@ -15104,16 +15104,16 @@
       id: DQ4ru7zl9Xb
       mediaId: '17920272816055444'
       published: 2025-11-10-18-16-44
-      updated: 2025-11-17-20-12-30
+      updated: 2025-11-24-20-21-21
       followers: 1595
-      likes: 51
+      likes: 56
     - service: vk
       id: 2839
       published: 2025-11-10-18-16-52
-      updated: 2025-11-17-20-12-32
+      updated: 2025-11-24-20-21-23
       followers: 1503
-      likes: 52
-      views: 716
+      likes: 54
+      views: 754
       reposts: 3
       comments: !c |-
         G4gCwCyLd4mCHAy5qUOFP9rW9DZVVMTERclvTNspjfQIjXJgHAYlMHsunZRMzBj7wrJr+THao/Df
@@ -15126,10 +15126,10 @@
     - service: tg
       id: 1051
       published: 2025-11-10-18-16-57
-      updated: 2025-11-17-20-12-25
+      updated: 2025-11-24-20-21-20
       followers: 854
-      likes: 62
-      views: 414
+      likes: 64
+      views: 556
 2017-12-02-overnight-in-the-ice:
   title: Overnight in the Ice
   titleRu: Ночлег во льдах
@@ -15824,24 +15824,24 @@
       id: DRcwLCLF7Bo
       mediaId: '17899360014185967'
       published: 2025-11-24-18-28-12
-      updated: 2025-11-24-19-13-01
+      updated: 2025-11-24-20-21-10
       followers: 1598
-      likes: 15
+      likes: 19
     - service: vk
       id: 2883
       published: 2025-11-24-18-28-18
-      updated: 2025-11-24-19-12-55
+      updated: 2025-11-24-20-21-07
       followers: 1524
-      likes: 3
-      views: 21
+      likes: 7
+      views: 55
       reposts: 1
     - service: tg
       id: 1067
       published: 2025-11-24-18-28-22
-      updated: 2025-11-24-19-13-00
+      updated: 2025-11-24-20-21-12
       followers: 866
-      likes: 18
-      views: 82
+      likes: 28
+      views: 118
       comments: !c CxWAkZPLQnmrcgVcgACrZ29vc2V2aWNoNzaz0LHRi9C70L4g0LLRgNC10LzRjwM=
 2017-12-18-water-ripples:
   title: Water Ripples
