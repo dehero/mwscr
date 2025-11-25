@@ -561,7 +561,7 @@ arya-stark:
   profiles:
     - service: vk
       id: '820702664'
-      updated: 2025-11-25-16-24-40
+      updated: 2025-11-25-21-17-10
       username: id820702664
       name: Арья Старк
       avatar: store:/avatars/vk-689aa89d.jpg
@@ -2119,7 +2119,7 @@ goosevich76:
   profiles:
     - service: tg
       id: '5385620621'
-      updated: 2025-11-25-20-20-57
+      updated: 2025-11-25-21-17-05
       accessHash: '-7130473396589324830'
       username: horwwwaty
       name: choven
@@ -2737,7 +2737,7 @@ kaltesblut:
   profiles:
     - service: tg
       id: '524542719'
-      updated: 2025-10-28-21-10-24
+      updated: 2025-11-25-21-17-12
       accessHash: '-287837872153954834'
       username: kaltesblut
       botChatId: 524542719
@@ -2763,7 +2763,7 @@ kawazaky223:
   profiles:
     - service: tg
       id: '5641856113'
-      updated: 2025-11-25-20-20-56
+      updated: 2025-11-25-21-17-05
       accessHash: '7421309771527577818'
       username: Kawazaky223
       name: Максим
@@ -3203,7 +3203,7 @@ marie-harris16:
   profiles:
     - service: tg
       id: '8125281395'
-      updated: 2025-11-24-20-21-16
+      updated: 2025-11-25-21-17-07
       accessHash: '1354890055343121679'
       username: MarieHarris16
       name: Sex Giant Studio
