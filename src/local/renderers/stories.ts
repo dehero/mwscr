@@ -9,7 +9,14 @@ import { htmlToImage } from '../utils/image-utils.js';
 let storyStyle: string | undefined;
 let fontDataUrl: string | undefined;
 
-export async function createPostStory(post: Post, ru?: boolean) {
+export interface CreatePostStoryArgs {
+  ru?: boolean;
+  ignoreLinks?: boolean;
+}
+
+export async function createPostStory(post: Post, args?: CreatePostStoryArgs) {
+  const { ru, ignoreLinks } = args ?? {};
+
   const content = asArray(post.content);
   const snapshot = asArray(post.snapshot);
   let imageUrl;
@@ -39,6 +46,7 @@ export async function createPostStory(post: Post, ru?: boolean) {
     description: ru ? post.descriptionRu : post.description,
     imageUrl,
     refImageUrl,
+    ignoreLinks,
   });
   const image = await htmlToImage(html);
 
@@ -50,6 +58,7 @@ export interface CreateStoryHtmlArgs {
   description?: string;
   imageUrl?: string;
   refImageUrl?: string;
+  ignoreLinks?: boolean;
 }
 
 export async function createStoryHtml({
@@ -57,6 +66,7 @@ export async function createStoryHtml({
   description,
   imageUrl = 'file://./assets/avatar.png',
   refImageUrl,
+  ignoreLinks,
 }: CreateStoryHtmlArgs): Promise<string> {
   if (!storyStyle) {
     const data = await readFile('./assets/story.css', 'utf-8');
@@ -94,7 +104,7 @@ export async function createStoryHtml({
   ${title ? `<h1>${title}</h1>` : ''}
   ${text ? `<p>${text}</p>` : ''}
   ${
-    links
+    !ignoreLinks && links
       ? links.length > 1
         ? `<ul>${links.map((link) => `<li>${link}</li>`).join('')}</ul>`
         : `<p>${links[0]}</p>`

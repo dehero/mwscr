@@ -3,7 +3,7 @@ const MARKDOWN_LINK_REGEX = /\[([^\]]+)\]\(([^)]+)\)/gm;
 const MARKDOWN_DOUBLE_BR_REGEX = /(?:\r?\n){2}/gm;
 const MARKDOWN_BR_REGEX = /\s\s$/gm;
 const MARKDOWN_HTML_BR_REGEX = /<br\s*\/?>/gm;
-const MARKDOWN_TITLE_REGEX = /#\s*(.*)/m;
+const MARKDOWN_TITLE_REGEX = /^#\s*(.*)/m;
 const MARKDOWN_PARAGRAPH_BREAK = /(\S)[^\S\r\n]?\n[^\S\r\n]*(\S)/gm;
 
 export type MarkdownLinkDescriptor = [href?: string, external?: boolean];

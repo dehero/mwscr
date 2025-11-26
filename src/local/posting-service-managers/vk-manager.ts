@@ -249,7 +249,7 @@ export class VKManager extends VKService implements PostingServiceManager {
     const [id, post, managerName] = entry;
     const { vk } = await this.connect();
 
-    const { image } = await createPostStory(post, true);
+    const { image } = await createPostStory(post, { ru: true });
     const linkUrl = site.getPostUrl(id, managerName);
 
     const result = await vk.upload.storiesPhoto({
