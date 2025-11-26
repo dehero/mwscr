@@ -102,6 +102,7 @@
   display: flex;
   flex-flow: column nowrap;
   gap: 12px;
+  overflow: hidden;
 }
 
 .titles {
@@ -127,6 +128,7 @@
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
   gap: 12px;
+  overflow: auto;
 }
 
 .description {

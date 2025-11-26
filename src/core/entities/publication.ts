@@ -8,7 +8,7 @@ import { Comment } from './comment.js';
 export const PUBLICATION_IS_RECENT_DAYS = 31;
 export const PUBLICATION_MINIMUM_GAP_HOURS = 2;
 
-export const PublicationType = picklist(['story']);
+export const PublicationType = picklist(['story', 'product']);
 export type PublicationType = InferOutput<typeof PublicationType>;
 
 export const PublicationComment = object({

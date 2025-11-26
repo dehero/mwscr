@@ -1,0 +1,46 @@
+/* .container {
+  display: flex;
+  flex-flow: column nowrap;
+  gap: 12px;
+  width: 520px;
+  max-width: 100%;
+  box-sizing: border-box;
+} */
+
+.container {
+  display: grid;
+  grid-template-areas: 'preview form';
+  gap: 12px;
+  grid-template-columns: minmax(var(--size-panel-min-width), 164px) minmax(var(--size-panel-min-width), 1fr);
+  grid-template-rows: auto;
+  width: 520px;
+  max-width: 100%;
+}
+
+.preview {
+  grid-area: preview;
+  max-height: 284px;
+}
+
+.form {
+  grid-area: form;
+  display: flex;
+  flex-flow: column nowrap;
+  gap: 8px;
+}
+
+.selectWrapper {
+  display: inline-block;
+  max-width: 100%;
+  box-sizing: border-box;
+}
+
+.select {
+  align-self: baseline;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.text {
+  margin: 0;
+}

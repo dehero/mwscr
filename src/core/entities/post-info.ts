@@ -279,7 +279,7 @@ export const selectPostInfos = (
         (typeof params.violation === 'undefined' ||
           (params.violation === ANY_OPTION.value && info.violation) ||
           (params.violation === NONE_OPTION.value && !info.violation) ||
-          (info.violation && asArray(info.violation).some((violation) => violation === params.violation))) &&
+          (info.violation && asArray(info.violation).includes(params.violation as PostViolation))) &&
         search(searchTokens, [info.title, info.titleRu, info.description, info.descriptionRu]),
     );
   });

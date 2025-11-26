@@ -26,6 +26,8 @@ const glyphs: Record<PostType, string> = {
   photoshop: Photoshop,
   outtakes: Outtakes,
   achievement: Achievement,
+  // TODO: make glyph for merch
+  merch: Achievement,
 };
 
 export interface PostTypeGlyphProps {

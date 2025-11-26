@@ -58,6 +58,10 @@ export class VK implements PostingService<VKPublication> {
       return `https://vk.com/${VK_GROUP_NAME}?w=story${VK_GROUP_ID}_${publication.id}`;
     }
 
+    if (publication.type === 'product') {
+      return `https://vk.com/market${VK_GROUP_ID}?w=product${VK_GROUP_ID}_${publication.id}`;
+    }
+
     return `https://vk.com/${VK_GROUP_NAME}?w=wall${VK_GROUP_ID}_${publication.id}`;
   }
 

@@ -278,6 +278,13 @@ export const postTypeDescriptors = Object.freeze<Record<PostType, PostTypeDescri
     titleMultipleRu: 'Достижения',
     letter: 'A',
   },
+  merch: {
+    title: 'Merch',
+    titleRu: 'Мерч',
+    titleMultiple: 'Merch',
+    titleMultipleRu: 'Мерч',
+    letter: 'M',
+  },
 });
 
 export const postMarkDescriptors = Object.freeze<Record<PostMark, PostMarkDescriptor>>({

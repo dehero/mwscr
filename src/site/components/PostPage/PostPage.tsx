@@ -321,6 +321,78 @@ export const PostPage = (): JSX.Element => {
                   <p class={styles.titleRu}>{titleRu()}</p>
                 </section>
 
+                <Show
+                  when={
+                    postActions().some((action) => ['edit', 'precise', 'merge', 'order'].includes(action)) ||
+                    (!postInfo().location && postActions().includes('locate')) ||
+                    postInfo().status
+                  }
+                >
+                  <div class={styles.actions}>
+                    <Show
+                      when={
+                        postInfo().status !== 'removed' &&
+                        postActions().includes('order') &&
+                        postInfo().type === 'merch'
+                      }
+                    >
+                      <Button
+                        href={createDetachedDialogFragment(
+                          'merch-ordering',
+                          createPostPath(params().managerName, params().id),
+                        )}
+                        class={styles.action}
+                      >
+                        Order
+                      </Button>
+                    </Show>
+
+                    <Show when={postInfo().status !== 'removed' && postActions().includes('edit')}>
+                      <Button
+                        href={createDetachedDialogFragment(
+                          'post-editing',
+                          createPostPath(params().managerName, params().id),
+                        )}
+                        class={styles.action}
+                      >
+                        Edit
+                      </Button>
+                    </Show>
+
+                    <Show when={postInfo().status !== 'removed' && postActions().includes('precise')}>
+                      <Button
+                        href={createDetachedDialogFragment(
+                          'post-precising',
+                          createPostPath(params().managerName, params().id),
+                        )}
+                        class={styles.action}
+                      >
+                        Precise
+                      </Button>
+                    </Show>
+
+                    <Show
+                      when={postInfo().status !== 'removed' && !postInfo().location && postActions().includes('locate')}
+                    >
+                      <Button
+                        class={styles.action}
+                        href={createDetachedDialogFragment(
+                          'post-location',
+                          createPostPath(params().managerName, params().id),
+                        )}
+                      >
+                        Locate
+                      </Button>
+                    </Show>
+
+                    <Show when={postInfo().status}>
+                      <Button class={styles.action} onClick={handleReset}>
+                        {postInfo().status === 'added' ? 'Remove' : 'Restore'}
+                      </Button>
+                    </Show>
+                  </div>
+                </Show>
+
                 <Show when={postInfo().description || postInfo().descriptionRu}>
                   <section class={styles.descriptions}>
                     <Show when={postInfo().description}>
@@ -353,60 +425,6 @@ export const PostPage = (): JSX.Element => {
                     {capitalizeFirstLetter(status())}
                   </span>
                 )}
-              </Show>
-
-              <Show
-                when={
-                  postActions().some((action) => ['edit', 'precise', 'merge'].includes(action)) ||
-                  (!postInfo().location && postActions().includes('locate')) ||
-                  postInfo().status
-                }
-              >
-                <div class={styles.actions}>
-                  <Show when={postInfo().status !== 'removed' && postActions().includes('edit')}>
-                    <Button
-                      href={createDetachedDialogFragment(
-                        'post-editing',
-                        createPostPath(params().managerName, params().id),
-                      )}
-                      class={styles.action}
-                    >
-                      Edit
-                    </Button>
-                  </Show>
-
-                  <Show when={postInfo().status !== 'removed' && postActions().includes('precise')}>
-                    <Button
-                      href={createDetachedDialogFragment(
-                        'post-precising',
-                        createPostPath(params().managerName, params().id),
-                      )}
-                      class={styles.action}
-                    >
-                      Precise
-                    </Button>
-                  </Show>
-
-                  <Show
-                    when={postInfo().status !== 'removed' && !postInfo().location && postActions().includes('locate')}
-                  >
-                    <Button
-                      class={styles.action}
-                      href={createDetachedDialogFragment(
-                        'post-location',
-                        createPostPath(params().managerName, params().id),
-                      )}
-                    >
-                      Locate
-                    </Button>
-                  </Show>
-
-                  <Show when={postInfo().status}>
-                    <Button class={styles.action} onClick={handleReset}>
-                      {postInfo().status === 'added' ? 'Remove' : 'Restore'}
-                    </Button>
-                  </Show>
-                </div>
               </Show>
 
               <Divider />
@@ -514,7 +532,7 @@ export const PostPage = (): JSX.Element => {
                         )
                       : undefined,
                     link: postInfo().violation
-                      ? postsRoute.createUrl({ managerName: 'rejects', violation: violation })
+                      ? postsRoute.createUrl({ managerName: 'rejects', violation })
                       : undefined,
                   })),
                 ]}

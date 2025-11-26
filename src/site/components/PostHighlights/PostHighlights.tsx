@@ -17,6 +17,7 @@ export const POST_HIGHIGHT_TYPES = [
   'Mention',
   'Photoshop',
   'Outtakes',
+  'Merch',
 ] as const;
 
 export type PostHighlightCharacteristic = (typeof POST_HIGHIGHT_CHARACTERISTICS)[number];

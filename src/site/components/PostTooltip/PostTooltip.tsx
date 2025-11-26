@@ -57,6 +57,15 @@ export const PostTooltip: Component<PostTooltipProps> = (props) => {
             label: props.selected ? 'Unselect' : 'Select',
           }
         : undefined,
+      props.postInfo.status !== 'removed' && postActions().includes('order') && local.postInfo.type === 'merch'
+        ? {
+            url: createDetachedDialogFragment(
+              'merch-ordering',
+              createPostPath(local.postInfo.managerName, local.postInfo.id),
+            ),
+            label: 'Order',
+          }
+        : undefined,
       props.postInfo.status !== 'added'
         ? {
             url: postRoute.createUrl({

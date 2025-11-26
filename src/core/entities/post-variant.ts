@@ -73,6 +73,11 @@ export const Achievement = object({
   snapshot: union([ImageResourceUrl, array(ImageResourceUrl, 'Should be a list of resource strings')]),
 });
 
+export const Merch = object({
+  type: literal('merch'),
+  snapshot: union([ImageResourceUrl, array(ImageResourceUrl, 'Should be a list of resource strings')]),
+});
+
 export const PostVariant = variant('type', [
   Shot,
   ShotSet,
@@ -86,4 +91,5 @@ export const PostVariant = variant('type', [
   Photoshop,
   Outtakes,
   Achievement,
+  Merch,
 ]);

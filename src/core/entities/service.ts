@@ -10,8 +10,10 @@ export interface ServiceMessagingOptions {
 export interface Service {
   id: string;
   name: string;
+  description?: string;
   sponsorshipName?: string;
   origin?: string;
+  merchOnly?: boolean;
 
   getSponsorshipUrl?: () => string;
 

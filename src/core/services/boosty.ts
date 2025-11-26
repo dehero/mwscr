@@ -1,7 +1,7 @@
-import { InferOutput, nonEmpty, object, pipe, string, undefined } from 'valibot';
-import type { PostingService } from '../entities/service.js';
-import { Post } from '../entities/post.js';
+import type { InferOutput } from 'valibot';
+import { nonEmpty, object, pipe, string } from 'valibot';
 import { Publication } from '../entities/publication.js';
+import type { PostingService } from '../entities/service.js';
 
 export const BOOSTY_USERNAME = 'mwscr';
 
@@ -9,9 +9,13 @@ export const BoostyPublication = object({ ...Publication.entries, id: pipe(strin
 export type BoostyPublication = InferOutput<typeof BoostyPublication>;
 
 export class Boosty implements PostingService<BoostyPublication> {
-  readonly id = 'by';
+  readonly id = 'bt';
   readonly name = 'Boosty';
+  readonly description =
+    'Buy merch post on Boosty and the administrator will contact you to confirm the delivery address. Shipping cost and the transfer fee included in the price.';
+
   readonly sponsorshipName = 'Boosty Tip';
+  readonly merchOnly = true;
 
   getSponsorshipUrl() {
     return 'https://boosty.to/mwscr/donate';
@@ -34,7 +38,7 @@ export class Boosty implements PostingService<BoostyPublication> {
   }
 
   getPublicationUrl(publication: Publication, _embed?: boolean) {
-    return `https://boosty.to/${BOOSTY_USERNAME}/${publication.id}`;
+    return `https://boosty.to/${BOOSTY_USERNAME}/posts/${publication.id}`;
   }
 }
 
