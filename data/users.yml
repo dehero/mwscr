@@ -145,7 +145,7 @@ adonis-vernaliis:
   profiles:
     - service: tg
       id: '991525408'
-      updated: 2025-10-29-08-15-28
+      updated: 2025-11-26-08-35-58
       accessHash: '7239172452363329644'
       username: AdonisVernaliis
       botChatId: 991525408
@@ -447,7 +447,7 @@ ansis:
   profiles:
     - service: tg
       id: '517050552'
-      updated: 2025-11-26-07-18-21
+      updated: 2025-11-26-08-35-56
       accessHash: '5231096655311395455'
       username: ansis
       name: ansis
@@ -1054,6 +1054,10 @@ cj-3795:
       username: CJ3795
       name: Fargoth Ur
       avatar: store:/avatars/tg-3487354161651099642.jpg
+clark-du4:
+  profiles:
+    - service: ig
+      username: clark.du4
 cleanevilalmest:
   profiles:
     - service: ig
@@ -1340,7 +1344,7 @@ dehero:
       avatar: store:/avatars/gh-c8afe641.jpg
     - service: vk
       id: '3652910'
-      updated: 2025-11-25-04-25-02
+      updated: 2025-11-26-08-35-49
       username: dehero
       name: Антон Курьянов
       avatar: store:/avatars/vk-5356f76e.jpg
@@ -1360,7 +1364,7 @@ dehero:
     - type: channel
       service: tg
       id: '1264795946'
-      updated: 2025-11-24-13-32-46
+      updated: 2025-11-26-08-35-57
       accessHash: '-5789257269249675714'
       username: mwscr
       name: Morrowind Screenshots
@@ -1773,6 +1777,15 @@ endless-motion:
       username: endless_motion
       name: john
       avatar: store:/avatars/ig-657595cc.jpg
+engelszerst0rung:
+  profiles:
+    - service: tg
+      id: '5155632213'
+      updated: 2025-11-26-08-35-52
+      accessHash: '995635526495848836'
+      username: engelszerst0rung
+      name: 𝔗ℭℌ𝔗𝔓𝔖𝔗
+      avatar: store:/avatars/tg-5445389795816764624.jpg
 epic-rpgs:
   profiles:
     - service: ig
@@ -2119,7 +2132,7 @@ goosevich76:
   profiles:
     - service: tg
       id: '5385620621'
-      updated: 2025-11-26-07-18-22
+      updated: 2025-11-26-08-35-57
       accessHash: '-7130473396589324830'
       username: horwwwaty
       name: choven
@@ -2186,6 +2199,10 @@ half-elf0:
       updated: 2025-06-30-21-50-08
       username: half_elf0
       avatar: store:/avatars/ig-fc7fcd2a.jpg
+harbinjerhd:
+  profiles:
+    - service: ig
+      username: harbinjerhd
 hater-8:
   profiles:
     - service: vk
@@ -2230,7 +2247,7 @@ himmelherz:
   profiles:
     - service: tg
       id: '588028426'
-      updated: 2025-11-20-23-14-00
+      updated: 2025-11-26-08-35-48
       accessHash: '3598871882011829639'
       username: himmelherz
       name: Roman
@@ -2763,7 +2780,7 @@ kawazaky223:
   profiles:
     - service: tg
       id: '5641856113'
-      updated: 2025-11-26-07-18-22
+      updated: 2025-11-26-08-35-48
       accessHash: '7421309771527577818'
       username: Kawazaky223
       name: Максим
@@ -3691,7 +3708,7 @@ nihil-sum:
   profiles:
     - service: tg
       id: '563711962'
-      updated: 2025-11-20-19-24-21
+      updated: 2025-11-26-08-35-57
       accessHash: '4311900909005184860'
       username: syomadyoma
       botChatId: 563711962
@@ -3705,6 +3722,14 @@ nirnwayfarer:
       username: nirnwayfarer
       name: Nirn Wayfarer
       avatar: store:/avatars/ig-71a1bae7.jpg
+nitz1992:
+  profiles:
+    - service: vk
+      id: '5778432'
+      updated: 2025-11-26-08-35-49
+      username: nitz1992
+      name: Максим Королёв
+      avatar: store:/avatars/vk-7056ef15.jpg
 nk2806:
   profiles:
     - service: vk
@@ -4968,6 +4993,18 @@ spicebag:
       botChatId: 1110940743
       name: Spicebag
       avatar: store:/avatars/tg-5888950275568420726.jpg
+spicebag-exe:
+  profiles:
+    - service: ig
+      username: spicebag.exe
+ss:
+  profiles:
+    - service: tg
+      id: '1087047108'
+      updated: 2025-11-26-08-35-49
+      accessHash: '896126354116736981'
+      name: SS
+      avatar: store:/avatars/tg-5443040560374985455.jpg
 stanislawlyszczarz:
   profiles:
     - service: ig
@@ -5708,6 +5745,14 @@ uuuuumki:
       username: uuuuumki
       name: umki
       avatar: store:/avatars/ig-dac54983.jpg
+uvgmsk1987:
+  profiles:
+    - service: tg
+      id: '5868654223'
+      updated: 2025-11-26-08-35-57
+      accessHash: '-1666479958134503916'
+      username: uvgmsk1987
+      name: Иван Иванов
 uvyeuttuvgkj:
   profiles:
     - service: tg

@@ -21,6 +21,7 @@ body:
         - photoshop
         - outtakes
         - achievement
+        - merch
       default: 0
     validations:
       required: true
