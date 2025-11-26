@@ -2,6 +2,28 @@
 
 All notable changes to this project will be documented in this file.
 
+## [2.11.0](https://github.com/dehero/mwscr/compare/v2.10.0...v2.11.0) (2025-11-26)
+
+### Features
+
+- add class property to Markdown control
+  ([6adcb19](https://github.com/dehero/mwscr/commit/6adcb19af3efcf7fcb31a8f80f6c677cd2a7ee5c))
+- add merch post type and ordering page
+  ([0c7d7d6](https://github.com/dehero/mwscr/commit/0c7d7d62ff56f46f056239177e14c10b78b7aa82))
+- add type property to Input control
+  ([8da9884](https://github.com/dehero/mwscr/commit/8da9884dc9167059096ed4eb0a677369962f8597))
+- consider merch in sponsorship and subscription dialogs
+  ([daac8c1](https://github.com/dehero/mwscr/commit/daac8c1aa0fcac339b2c4042b4be1288cfc7a815))
+- improve home page layout ([82134b8](https://github.com/dehero/mwscr/commit/82134b8bdf90e45242fc738e3b17c2cd2a9e808e))
+- **site:** return Boosty links
+  ([9599fe6](https://github.com/dehero/mwscr/commit/9599fe63961fb11a294c01c3f1841d1319f3c090))
+
+### Bug Fixes
+
+- don't update VK product publications
+  ([30058bf](https://github.com/dehero/mwscr/commit/30058bf60d3f6604513ba98a0653936597dd20ef))
+- update Boosty description ([d84bcfd](https://github.com/dehero/mwscr/commit/d84bcfd0f0853f6e1cd22734e27045ddeea97968))
+
 ## [2.10.0](https://github.com/dehero/mwscr/compare/v2.9.1...v2.10.0) (2025-10-21)
 
 ### Features
