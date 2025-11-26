@@ -12,7 +12,7 @@ export class Boosty implements PostingService<BoostyPublication> {
   readonly id = 'bt';
   readonly name = 'Boosty';
   readonly description =
-    'Buy merch post on Boosty and the administrator will contact you to confirm the delivery address. Shipping cost and the transfer fee included in the price.';
+    'Buy merch on Boosty, and an administrator will contact you to confirm the delivery address. SHIPPING AND TRANSFER FEE ARE INCLUDED IN THE PRICE.';
 
   readonly sponsorshipName = 'Boosty Tip';
   readonly merchOnly = true;
