@@ -15,6 +15,7 @@ export interface InputProps {
   multiline?: boolean;
   readonly?: boolean;
   rows?: number | string;
+  type?: HTMLInputElement['type'];
 }
 
 export const Input: Component<InputProps> = (props) => {
@@ -44,6 +45,7 @@ export const Input: Component<InputProps> = (props) => {
           onBlur={props.onBlur}
           value={localValue()}
           readonly={props.readonly}
+          type={props.type}
         />
       }
     >
