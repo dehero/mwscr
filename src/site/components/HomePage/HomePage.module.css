@@ -162,10 +162,20 @@
   .container {
     grid-template-columns:
       minmax(var(--size-panel-min-width), max-content) minmax(var(--size-panel-min-width), 1fr)
-      minmax(var(--size-panel-min-width), max-content)
       minmax(var(--size-panel-min-width), max-content);
     grid-template-rows: auto;
-    grid-template-areas: 'about posts comments diagrams';
+    grid-template-areas: 'about posts diagrams' 'about posts comments';
+  }
+
+  .diagrams {
+    flex-flow: row nowrap;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 24px;
+  }
+
+  .diagramsDivider {
+    display: none;
   }
 }
 

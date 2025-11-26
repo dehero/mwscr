@@ -1,3 +1,4 @@
+import clsx from 'clsx';
 import type { JSX } from 'solid-js';
 import { Show } from 'solid-js';
 import { usePageContext } from 'vike-solid/usePageContext';
@@ -66,10 +67,6 @@ export const HomePage = (): JSX.Element => {
                     {' • '}
                     <a href="https://www.youtube.com/@mwscr" class={styles.link}>
                       YouTube
-                    </a>
-                    {' • '}
-                    <a href="https://boosty.to/mwscr" class={styles.link}>
-                      Boosty
                     </a>
                     {' • '}
                     <a href="https://github.com/dehero/mwscr" class={styles.link}>
@@ -192,7 +189,6 @@ export const HomePage = (): JSX.Element => {
                   items={data().lastExtraPostInfos.map(
                     ([type, selection]): PostHighlightsItem => ({
                       label: `Last ${postTypeDescriptors[type].title}` as PostHighlightsItem['label'],
-                      primary: true,
                       selection,
                     }),
                   )}
@@ -227,7 +223,7 @@ export const HomePage = (): JSX.Element => {
                   baseValue="delta"
                 />
 
-                <Divider class={styles.divider} />
+                <Divider class={clsx(styles.divider, styles.diagramsDivider)} />
 
                 <Diagram
                   class={styles.diagram}
