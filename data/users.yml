@@ -447,7 +447,7 @@ ansis:
   profiles:
     - service: tg
       id: '517050552'
-      updated: 2025-11-26-19-14-54
+      updated: 2025-11-26-20-20-12
       accessHash: '5231096655311395455'
       username: ansis
       name: ansis
@@ -1364,7 +1364,7 @@ dehero:
     - type: channel
       service: tg
       id: '1264795946'
-      updated: 2025-11-26-19-14-58
+      updated: 2025-11-26-20-20-15
       accessHash: '-5789257269249675714'
       username: mwscr
       name: Morrowind Screenshots
@@ -2132,7 +2132,7 @@ goosevich76:
   profiles:
     - service: tg
       id: '5385620621'
-      updated: 2025-11-26-19-14-55
+      updated: 2025-11-26-20-20-12
       accessHash: '-7130473396589324830'
       username: horwwwaty
       name: choven
@@ -4657,7 +4657,7 @@ sergey-b-2:
   profiles:
     - service: vk
       id: '1077446394'
-      updated: 2025-11-25-23-17-00
+      updated: 2025-11-26-20-20-13
       username: id1077446394
       name: Сергей Б
       avatar: store:/avatars/vk-cb747346.jpg
@@ -5257,7 +5257,7 @@ thedrongo7:
   profiles:
     - service: tg
       id: '149400692'
-      updated: 2025-10-29-20-12-32
+      updated: 2025-11-26-20-20-17
       accessHash: '5348913575804649535'
       username: Thedrongo7
       botChatId: 149400692
@@ -5356,7 +5356,7 @@ todor:
   profiles:
     - service: tg
       id: '1305695186'
-      updated: 2025-11-26-19-14-58
+      updated: 2025-11-26-20-20-15
       accessHash: '8819682207926865502'
       name: Todor
       avatar: store:/avatars/tg-5305295556123424826.jpg
@@ -5705,7 +5705,7 @@ user-5:
   profiles:
     - service: tg
       id: '370313011'
-      updated: 2025-11-26-19-14-57
+      updated: 2025-11-26-20-20-15
       accessHash: '-8597544857375648588'
       name: ­­
       avatar: store:/avatars/tg-1590482271984527366.jpg
