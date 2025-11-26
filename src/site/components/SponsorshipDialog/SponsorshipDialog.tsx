@@ -1,6 +1,7 @@
 import { For } from 'solid-js';
 import { services } from '../../../core/services/index.js';
 import thief from '../../images/thief.png';
+import { postsRoute } from '../../routes/posts-route.js';
 import { Button } from '../Button/Button.jsx';
 import type { DetachedDialog } from '../DetachedDialogsProvider/DetachedDialogsProvider.jsx';
 import { Dialog } from '../Dialog/Dialog.jsx';
@@ -15,7 +16,11 @@ export const SponsorshipDialog: DetachedDialog = (props) => {
         <section class={styles.heading}>
           <p class={styles.title}>Sponsorship</p>
           <p class={styles.description}>
-            Reward separate posts if you like using the following instruments in social media:
+            Order{' '}
+            <a href={postsRoute.createUrl({ managerName: 'extras', type: 'merch' })} class={styles.link}>
+              merch
+            </a>{' '}
+            or reward separate posts if you like using the following instruments in social media:
           </p>
         </section>
         <div class={styles.buttons}>

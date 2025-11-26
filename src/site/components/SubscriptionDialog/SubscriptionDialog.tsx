@@ -1,6 +1,7 @@
 import { For } from 'solid-js';
 import { postingServices } from '../../../core/services/index.js';
 import bard from '../../images/bard.png';
+import { postsRoute } from '../../routes/posts-route.js';
 import { Button } from '../Button/Button.js';
 import type { DetachedDialog } from '../DetachedDialogsProvider/DetachedDialogsProvider.jsx';
 import { Dialog } from '../Dialog/Dialog.js';
@@ -20,7 +21,25 @@ export const SubscriptionDialog: DetachedDialog = (props) => {
           </p>
         </section>
         <div class={styles.buttons}>
-          <For each={postingServices}>
+          <For each={postingServices.filter((service) => !service.merchOnly)}>
+            {(service) => (
+              <Button href={service.getSubscriptionUrl()} target="_blank" onClick={props.onClose}>
+                {service.name}
+              </Button>
+            )}
+          </For>
+        </div>
+        <section class={styles.heading}>
+          <p class={styles.description}>
+            Follow{' '}
+            <a href={postsRoute.createUrl({ managerName: 'extras', type: 'merch' })} class={styles.link}>
+              merch
+            </a>{' '}
+            updates on these profiles:
+          </p>
+        </section>
+        <div class={styles.buttons}>
+          <For each={postingServices.filter((service) => service.merchOnly)}>
             {(service) => (
               <Button href={service.getSubscriptionUrl()} target="_blank" onClick={props.onClose}>
                 {service.name}
