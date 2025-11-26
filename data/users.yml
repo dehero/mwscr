@@ -447,7 +447,7 @@ ansis:
   profiles:
     - service: tg
       id: '517050552'
-      updated: 2025-11-26-21-16-22
+      updated: 2025-11-26-22-17-58
       accessHash: '5231096655311395455'
       username: ansis
       name: ansis
@@ -561,7 +561,7 @@ arya-stark:
   profiles:
     - service: vk
       id: '820702664'
-      updated: 2025-11-26-03-13-47
+      updated: 2025-11-26-22-18-00
       username: id820702664
       name: Арья Старк
       avatar: store:/avatars/vk-689aa89d.jpg
@@ -1364,7 +1364,7 @@ dehero:
     - type: channel
       service: tg
       id: '1264795946'
-      updated: 2025-11-26-21-16-25
+      updated: 2025-11-26-22-18-02
       accessHash: '-5789257269249675714'
       username: mwscr
       name: Morrowind Screenshots
@@ -2132,7 +2132,7 @@ goosevich76:
   profiles:
     - service: tg
       id: '5385620621'
-      updated: 2025-11-26-21-16-22
+      updated: 2025-11-26-22-17-57
       accessHash: '-7130473396589324830'
       username: horwwwaty
       name: choven
@@ -3220,7 +3220,7 @@ marie-harris16:
   profiles:
     - service: tg
       id: '8125281395'
-      updated: 2025-11-25-21-17-07
+      updated: 2025-11-26-22-17-59
       accessHash: '1354890055343121679'
       username: MarieHarris16
       name: Sex Giant Studio
@@ -4657,7 +4657,7 @@ sergey-b-2:
   profiles:
     - service: vk
       id: '1077446394'
-      updated: 2025-11-26-21-16-23
+      updated: 2025-11-26-22-17-58
       username: id1077446394
       name: Сергей Б
       avatar: store:/avatars/vk-cb747346.jpg
@@ -5356,7 +5356,7 @@ todor:
   profiles:
     - service: tg
       id: '1305695186'
-      updated: 2025-11-26-21-16-25
+      updated: 2025-11-26-22-18-02
       accessHash: '8819682207926865502'
       name: Todor
       avatar: store:/avatars/tg-5305295556123424826.jpg
@@ -5705,7 +5705,7 @@ user-5:
   profiles:
     - service: tg
       id: '370313011'
-      updated: 2025-11-26-21-16-25
+      updated: 2025-11-26-22-18-02
       accessHash: '-8597544857375648588'
       name: ­­
       avatar: store:/avatars/tg-1590482271984527366.jpg
