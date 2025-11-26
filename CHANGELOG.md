@@ -2,6 +2,18 @@
 
 All notable changes to this project will be documented in this file.
 
+## [2.12.0](https://github.com/dehero/mwscr/compare/v2.11.0...v2.12.0) (2025-11-26)
+
+### Features
+
+- implement story image creation script
+  ([02c00c9](https://github.com/dehero/mwscr/commit/02c00c98dfae7aebcac3646ac2ec5af45094ac25))
+
+### Bug Fixes
+
+- adjust merch ordering dialog for small screens
+  ([f525ece](https://github.com/dehero/mwscr/commit/f525ece16d58259f2d870ceee0d49469ac26ac67))
+
 ## [2.11.0](https://github.com/dehero/mwscr/compare/v2.10.0...v2.11.0) (2025-11-26)
 
 ### Features
