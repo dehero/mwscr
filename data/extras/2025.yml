@@ -647,9 +647,17 @@
   author: dehero
   mark: A2
   posts:
-    - service: ig
-      type: story
+    - type: story
+      service: ig
       id: DUMMY
       mediaId: '0'
       published: 2025-11-26-12-45-00
       followers: 1596
+    - service: vk
+      id: 2886
+      published: 2025-11-26-12-44-48
+      followers: 1527
+    - service: tg
+      id: 1069
+      published: 2025-11-26-12-44-51
+      followers: 868
