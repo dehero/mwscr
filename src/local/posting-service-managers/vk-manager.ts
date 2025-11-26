@@ -364,6 +364,10 @@ export class VKManager extends VKService implements PostingServiceManager {
       return;
     }
 
+    if (publication.type === 'product') {
+      return;
+    }
+
     if (publication.type === 'story') {
       const { views } = await this.grabStoryInfo(publication.id);
 
