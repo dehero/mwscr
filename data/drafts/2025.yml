@@ -305,22 +305,11 @@ ohsweetnazareth.2025-05-10-barkeep-in-indarys-manor-796acb11:
   author: ohsweetnazareth
 ohsweetnazareth.2025-11-14-demon-of-the-halls-of-penumbra-17595202:
   title: Demon of the Halls of Penumbra
-  content: store:/inbox/ohsweetnazareth.2025-11-14-demon-of-the-halls-of-penumbra-17595202.png
-  type: shot
-  author: ohsweetnazareth
-ohsweetnazareth.2025-11-14-demon-of-the-halls-of-penumbra-9e283c63:
-  title: Demon of the Halls of Penumbra
-  content: store:/inbox/ohsweetnazareth.2025-11-14-demon-of-the-halls-of-penumbra-9e283c63.png
-  type: shot
-  author: ohsweetnazareth
-ohsweetnazareth.2025-11-14-demon-of-the-halls-of-penumbra-d91888ad:
-  title: Demon of the Halls of Penumbra
-  content: store:/inbox/ohsweetnazareth.2025-11-14-demon-of-the-halls-of-penumbra-d91888ad.png
-  type: shot
-  author: ohsweetnazareth
-ohsweetnazareth.2025-11-14-demon-of-the-halls-of-penumbra-fed6113b:
-  title: Demon of the Halls of Penumbra
-  content: store:/inbox/ohsweetnazareth.2025-11-14-demon-of-the-halls-of-penumbra-fed6113b.png
+  content:
+    - store:/inbox/ohsweetnazareth.2025-11-14-demon-of-the-halls-of-penumbra-17595202.png
+    - store:/inbox/ohsweetnazareth.2025-11-14-demon-of-the-halls-of-penumbra-9e283c63.png
+    - store:/inbox/ohsweetnazareth.2025-11-14-demon-of-the-halls-of-penumbra-d91888ad.png
+    - store:/inbox/ohsweetnazareth.2025-11-14-demon-of-the-halls-of-penumbra-fed6113b.png
   type: shot
   author: ohsweetnazareth
 ohsweetnazareth.2025-11-19-karstaag-the-huntsman-939aa544:
@@ -330,22 +319,11 @@ ohsweetnazareth.2025-11-19-karstaag-the-huntsman-939aa544:
   author: ohsweetnazareth
 ohsweetnazareth.2025-11-20-beware-the-udyrfrykte-066a3a55:
   title: Beware, the Udyrfrykte!
-  content: store:/inbox/ohsweetnazareth.2025-11-20-beware-the-udyrfrykte-066a3a55.png
-  type: shot
-  author: ohsweetnazareth
-ohsweetnazareth.2025-11-20-beware-the-udyrfrykte-3e11511b:
-  title: Beware, the Udyrfrykte!
-  content: store:/inbox/ohsweetnazareth.2025-11-20-beware-the-udyrfrykte-3e11511b.png
-  type: shot
-  author: ohsweetnazareth
-ohsweetnazareth.2025-11-20-beware-the-udyrfrykte-8dcb1750:
-  title: Beware, the Udyrfrykte!
-  content: store:/inbox/ohsweetnazareth.2025-11-20-beware-the-udyrfrykte-8dcb1750.png
-  type: shot
-  author: ohsweetnazareth
-ohsweetnazareth.2025-11-20-beware-the-udyrfrykte-df6fa6b5:
-  title: Beware, the Udyrfrykte!
-  content: store:/inbox/ohsweetnazareth.2025-11-20-beware-the-udyrfrykte-df6fa6b5.png
+  content:
+    - store:/inbox/ohsweetnazareth.2025-11-20-beware-the-udyrfrykte-066a3a55.png
+    - store:/inbox/ohsweetnazareth.2025-11-20-beware-the-udyrfrykte-3e11511b.png
+    - store:/inbox/ohsweetnazareth.2025-11-20-beware-the-udyrfrykte-8dcb1750.png
+    - store:/inbox/ohsweetnazareth.2025-11-20-beware-the-udyrfrykte-df6fa6b5.png
   type: shot
   author: ohsweetnazareth
 ohsweetnazareth.2025-11-22-in-the-grasp-of-the-lord-of-troubles-b16a512d:
@@ -370,17 +348,16 @@ ohsweetnazareth.2025-11-25-in-the-carcass-of-ilunibi-1980bfb3:
   author: ohsweetnazareth
 ohsweetnazareth.2025-11-25-in-the-carcass-of-ilunibi-1a1a977c:
   title: In the Carcass of Ilunibi
-  content: store:/inbox/ohsweetnazareth.2025-11-25-in-the-carcass-of-ilunibi-1a1a977c.png
-  type: shot
-  author: ohsweetnazareth
-ohsweetnazareth.2025-11-25-in-the-carcass-of-ilunibi-2-0e4c4e98:
-  title: In the Carcass of Ilunibi 2
-  content: store:/inbox/ohsweetnazareth.2025-11-25-in-the-carcass-of-ilunibi-2-0e4c4e98.png
+  content:
+    - store:/inbox/ohsweetnazareth.2025-11-25-in-the-carcass-of-ilunibi-1a1a977c.png
+    - store:/inbox/ohsweetnazareth.2025-11-25-in-the-carcass-of-ilunibi-3df9ccfd.png
   type: shot
   author: ohsweetnazareth
 ohsweetnazareth.2025-11-25-in-the-carcass-of-ilunibi-2-0e9bc72c:
   title: In the Carcass of Ilunibi 2
-  content: store:/inbox/ohsweetnazareth.2025-11-25-in-the-carcass-of-ilunibi-2-0e9bc72c.png
+  content:
+    - store:/inbox/ohsweetnazareth.2025-11-25-in-the-carcass-of-ilunibi-2-0e9bc72c.png
+    - store:/inbox/ohsweetnazareth.2025-11-25-in-the-carcass-of-ilunibi-2-0e4c4e98.png
   type: shot
   author: ohsweetnazareth
 ohsweetnazareth.2025-11-25-in-the-carcass-of-ilunibi-2-d7d1c559:
@@ -391,11 +368,6 @@ ohsweetnazareth.2025-11-25-in-the-carcass-of-ilunibi-2-d7d1c559:
 ohsweetnazareth.2025-11-25-in-the-carcass-of-ilunibi-2-f76f3a0a:
   title: In the Carcass of Ilunibi 2
   content: store:/inbox/ohsweetnazareth.2025-11-25-in-the-carcass-of-ilunibi-2-f76f3a0a.png
-  type: shot
-  author: ohsweetnazareth
-ohsweetnazareth.2025-11-25-in-the-carcass-of-ilunibi-3df9ccfd:
-  title: In the Carcass of Ilunibi
-  content: store:/inbox/ohsweetnazareth.2025-11-25-in-the-carcass-of-ilunibi-3df9ccfd.png
   type: shot
   author: ohsweetnazareth
 ohsweetnazareth.2025-11-25-nighttime-at-moonmoth-legion-fort-29b64059:
@@ -413,16 +385,6 @@ ohsweetnazareth.2025-11-26-publican-in-molag-mar-928768ed:
   content: store:/inbox/ohsweetnazareth.2025-11-26-publican-in-molag-mar-928768ed.png
   type: shot
   author: ohsweetnazareth
-ohsweetnazareth.2025-11-26-secrets-within-telasero-3230c69c:
-  title: Secrets Within Telasero
-  content: store:/inbox/ohsweetnazareth.2025-11-26-secrets-within-telasero-3230c69c.png
-  type: shot
-  author: ohsweetnazareth
-ohsweetnazareth.2025-11-26-secrets-within-telasero-535a6a9e:
-  title: Secrets Within Telasero
-  content: store:/inbox/ohsweetnazareth.2025-11-26-secrets-within-telasero-535a6a9e.png
-  type: shot
-  author: ohsweetnazareth
 ohsweetnazareth.2025-11-26-secrets-within-telasero-88e6c47f:
   title: Secrets Within Telasero
   content: store:/inbox/ohsweetnazareth.2025-11-26-secrets-within-telasero-88e6c47f.png
@@ -438,43 +400,33 @@ ohsweetnazareth.2025-11-26-senseless-mourning-b585acf3:
   content: store:/inbox/ohsweetnazareth.2025-11-26-senseless-mourning-b585acf3.png
   type: shot
   author: ohsweetnazareth
-ohsweetnazareth.2025-11-26-worship-in-the-depths-of-telasero-1d1cfd8a:
-  title: Worship in the Depths of Telasero
-  content: store:/inbox/ohsweetnazareth.2025-11-26-worship-in-the-depths-of-telasero-1d1cfd8a.png
-  type: shot
-  author: ohsweetnazareth
 ohsweetnazareth.2025-11-26-worship-in-the-depths-of-telasero-cdce0d33:
   title: Worship in the Depths of Telasero
-  content: store:/inbox/ohsweetnazareth.2025-11-26-worship-in-the-depths-of-telasero-cdce0d33.png
+  content:
+    - store:/inbox/ohsweetnazareth.2025-11-26-worship-in-the-depths-of-telasero-cdce0d33.png
+    - store:/inbox/ohsweetnazareth.2025-11-26-worship-in-the-depths-of-telasero-1d1cfd8a.png
+    - store:/inbox/ohsweetnazareth.2025-11-26-secrets-within-telasero-535a6a9e.png
+    - store:/inbox/ohsweetnazareth.2025-11-26-secrets-within-telasero-3230c69c.png
   type: shot
   author: ohsweetnazareth
 ohsweetnazareth.2025-11-27-in-the-tomb-of-mordrin-hanin-54cda563:
   title: In the Tomb of Mordrin Hanin
-  content: store:/inbox/ohsweetnazareth.2025-11-27-in-the-tomb-of-mordrin-hanin-54cda563.png
-  type: shot
-  author: ohsweetnazareth
-ohsweetnazareth.2025-11-27-in-the-tomb-of-mordrin-hanin-735d9194:
-  title: In the Tomb of Mordrin Hanin
-  content: store:/inbox/ohsweetnazareth.2025-11-27-in-the-tomb-of-mordrin-hanin-735d9194.png
-  type: shot
-  author: ohsweetnazareth
-ohsweetnazareth.2025-11-27-in-the-tomb-of-mordrin-hanin-8fe046a7:
-  title: In the Tomb of Mordrin Hanin
-  content: store:/inbox/ohsweetnazareth.2025-11-27-in-the-tomb-of-mordrin-hanin-8fe046a7.png
+  content:
+    - store:/inbox/ohsweetnazareth.2025-11-27-in-the-tomb-of-mordrin-hanin-54cda563.png
+    - store:/inbox/ohsweetnazareth.2025-11-27-in-the-tomb-of-mordrin-hanin-735d9194.png
   type: shot
   author: ohsweetnazareth
 ohsweetnazareth.2025-11-27-in-the-tomb-of-mordrin-hanin-a9b02ebe:
   title: In the Tomb of Mordrin Hanin
-  content: store:/inbox/ohsweetnazareth.2025-11-27-in-the-tomb-of-mordrin-hanin-a9b02ebe.png
-  type: shot
-  author: ohsweetnazareth
-ohsweetnazareth.2025-11-27-who-partook-in-the-cup-of-passage-81b826d3:
-  title: Who Partook in the Cup of Passage?
-  content: store:/inbox/ohsweetnazareth.2025-11-27-who-partook-in-the-cup-of-passage-81b826d3.png
+  content:
+    - store:/inbox/ohsweetnazareth.2025-11-27-in-the-tomb-of-mordrin-hanin-a9b02ebe.png
+    - store:/inbox/ohsweetnazareth.2025-11-27-in-the-tomb-of-mordrin-hanin-8fe046a7.png
   type: shot
   author: ohsweetnazareth
 ohsweetnazareth.2025-11-27-who-partook-in-the-cup-of-passage-b657b69b:
   title: Who Partook in the Cup of Passage?
-  content: store:/inbox/ohsweetnazareth.2025-11-27-who-partook-in-the-cup-of-passage-b657b69b.png
+  content:
+    - store:/inbox/ohsweetnazareth.2025-11-27-who-partook-in-the-cup-of-passage-b657b69b.png
+    - store:/inbox/ohsweetnazareth.2025-11-27-who-partook-in-the-cup-of-passage-81b826d3.png
   type: shot
   author: ohsweetnazareth
