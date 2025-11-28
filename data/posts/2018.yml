@@ -824,11 +824,22 @@
     - service: vk
       id: 2895
       published: 2025-11-28-18-29-48
+      updated: 2025-11-28-19-14-09
       followers: 1529
+      likes: 5
+      views: 25
     - service: tg
       id: 1072
       published: 2025-11-28-18-29-53
+      updated: 2025-11-28-19-14-08
       followers: 868
+      likes: 25
+      views: 71
+    - service: ig
+      id: DRnIqGMF5ko
+      mediaId: '17876401719359233'
+      published: 2025-11-28-19-14-32
+      followers: 1598
 2018-01-20-nix-hounds-staring-at-stars:
   title: Nix-Hounds Staring at Stars
   titleRu: Никс-гончие любуются звёздами
@@ -9450,16 +9461,16 @@
       id: DRkeSOlFw5e
       mediaId: '17932899537108694'
       published: 2025-11-27-18-25-47
-      updated: 2025-11-28-18-25-33
+      updated: 2025-11-28-19-14-11
       followers: 1599
       likes: 46
     - service: vk
       id: 2889
       published: 2025-11-27-18-25-53
-      updated: 2025-11-28-18-25-37
+      updated: 2025-11-28-19-14-17
       followers: 1529
-      likes: 30
-      views: 353
+      likes: 31
+      views: 368
       reposts: 1
       comments: !c |-
         Gw4DIKwKbGOZwcdBZfl6Bhfym0g8/3Cvfo7Q00zQT5zF4Vh47LaAYwu0Ns8li6oTAaYDcHjSVIAu
@@ -9473,10 +9484,10 @@
     - service: tg
       id: 1071
       published: 2025-11-27-18-25-59
-      updated: 2025-11-28-18-25-35
+      updated: 2025-11-28-19-14-16
       followers: 868
-      likes: 43
-      views: 177
+      likes: 46
+      views: 190
       comments: !c iw2AkZPLQnmsaQ7RAACrZ29vc2V2aWNoNzak8J+WvAM=
 2018-08-05-welcome:
   title: Welcome
