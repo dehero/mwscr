@@ -271,7 +271,7 @@ aleksey-yeskela:
   profiles:
     - service: vk
       id: '1047357639'
-      updated: 2025-11-28-21-15-56
+      updated: 2025-11-28-22-16-58
       username: id1047357639
       name: Алексей Йескела
       avatar: store:/avatars/vk-893f32cb.jpg
@@ -407,7 +407,7 @@ andrey-yaprintsev:
   profiles:
     - service: vk
       id: '599320069'
-      updated: 2025-11-27-20-22-33
+      updated: 2025-11-28-22-16-56
       username: id599320069
       name: Андрей Япринцев
       avatar: store:/avatars/vk-4e415fa2.jpg
@@ -1344,7 +1344,7 @@ dehero:
       avatar: store:/avatars/gh-c8afe641.jpg
     - service: vk
       id: '3652910'
-      updated: 2025-11-28-21-15-55
+      updated: 2025-11-28-22-16-57
       username: dehero
       name: Антон Курьянов
       avatar: store:/avatars/vk-5356f76e.jpg
@@ -1764,7 +1764,7 @@ ellia-isard:
   profiles:
     - service: vk
       id: '215194827'
-      updated: 2025-11-28-21-15-56
+      updated: 2025-11-28-22-16-58
       username: ellia_isard
       name: Эллия Айсард
       avatar: store:/avatars/vk-6b0c7b7c.jpg
@@ -2130,7 +2130,7 @@ goosevich76:
   profiles:
     - service: tg
       id: '5385620621'
-      updated: 2025-11-28-21-15-55
+      updated: 2025-11-28-22-16-55
       accessHash: '-7130473396589324830'
       username: horwwwaty
       name: choven
@@ -3806,7 +3806,7 @@ o3509236vcx345:
   profiles:
     - service: vk
       id: '510619108'
-      updated: 2025-11-28-21-15-56
+      updated: 2025-11-28-22-16-58
       username: o3509236vcx345
       name: Андрей Ветров
       avatar: store:/avatars/vk-81269a24.jpg
