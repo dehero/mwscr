@@ -855,7 +855,7 @@ brg1092:
   profiles:
     - service: tg
       id: '5867861906'
-      updated: 2025-11-27-20-18-46
+      updated: 2025-11-28-01-18-59
       accessHash: '4411929981434940281'
       username: brg1092
       name: 2𝜋
@@ -1344,7 +1344,7 @@ dehero:
       avatar: store:/avatars/gh-c8afe641.jpg
     - service: vk
       id: '3652910'
-      updated: 2025-11-27-23-16-38
+      updated: 2025-11-28-01-18-57
       username: dehero
       name: Антон Курьянов
       avatar: store:/avatars/vk-5356f76e.jpg
@@ -1364,7 +1364,7 @@ dehero:
     - type: channel
       service: tg
       id: '1264795946'
-      updated: 2025-11-27-23-16-55
+      updated: 2025-11-28-01-19-06
       accessHash: '-5789257269249675714'
       username: mwscr
       name: Morrowind Screenshots
@@ -1764,7 +1764,7 @@ ellia-isard:
   profiles:
     - service: vk
       id: '215194827'
-      updated: 2025-11-27-23-16-38
+      updated: 2025-11-28-01-18-58
       username: ellia_isard
       name: Эллия Айсард
       avatar: store:/avatars/vk-6b0c7b7c.jpg
@@ -2130,7 +2130,7 @@ goosevich76:
   profiles:
     - service: tg
       id: '5385620621'
-      updated: 2025-11-27-23-16-40
+      updated: 2025-11-28-01-18-59
       accessHash: '-7130473396589324830'
       username: horwwwaty
       name: choven
@@ -2778,7 +2778,7 @@ kawazaky223:
   profiles:
     - service: tg
       id: '5641856113'
-      updated: 2025-11-27-23-16-50
+      updated: 2025-11-28-01-18-59
       accessHash: '7421309771527577818'
       username: Kawazaky223
       name: Максим
@@ -3806,7 +3806,7 @@ o3509236vcx345:
   profiles:
     - service: vk
       id: '510619108'
-      updated: 2025-11-27-23-16-38
+      updated: 2025-11-28-01-18-58
       username: o3509236vcx345
       name: Андрей Ветров
       avatar: store:/avatars/vk-81269a24.jpg
@@ -5361,7 +5361,7 @@ todor:
   profiles:
     - service: tg
       id: '1305695186'
-      updated: 2025-11-27-23-16-55
+      updated: 2025-11-28-01-19-06
       accessHash: '8819682207926865502'
       name: Todor
       avatar: store:/avatars/tg-5305295556123424826.jpg
@@ -5710,7 +5710,7 @@ user-5:
   profiles:
     - service: tg
       id: '370313011'
-      updated: 2025-11-27-23-16-55
+      updated: 2025-11-28-01-19-06
       accessHash: '-8597544857375648588'
       name: ­­
       avatar: store:/avatars/tg-1590482271984527366.jpg
