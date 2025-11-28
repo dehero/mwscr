@@ -204,7 +204,7 @@
       id: DB9YEuYxTJW
       mediaId: '17863198068255292'
       published: 2024-11-04-18-10-13
-      updated: 2025-11-21-18-22-05
+      updated: 2025-11-28-18-27-34
       followers: 1482
       likes: 86
       views: 420
@@ -453,7 +453,7 @@
       id: C-YOaKVtdQ9
       mediaId: '18017034962210431'
       published: 2024-08-07-18-19-40
-      updated: 2025-11-21-18-23-56
+      updated: 2025-11-28-18-29-17
       followers: 1437
       likes: 178
       views: 1105
@@ -592,7 +592,7 @@
       id: DA32n8koS8y
       mediaId: '17969733257657754'
       published: 2024-10-08-18-10-22
-      updated: 2025-11-21-18-22-38
+      updated: 2025-11-28-18-28-07
       followers: 1462
       likes: 89
       views: 385
@@ -816,11 +816,19 @@
       id: C_sBQlKssUQ
       mediaId: '18092210938479247'
       published: 2024-09-09-07-20-58
-      updated: 2025-11-21-18-23-19
+      updated: 2025-11-28-18-28-43
       followers: 1456
       likes: 97
       views: 369
       comments: !c ixSAkZPLQnkdWsRrgACrc2lyLXdhY2xvdmWyY29tZm9ydCBwbGFjZSDwn5iMAw==
+    - service: vk
+      id: 2895
+      published: 2025-11-28-18-29-48
+      followers: 1529
+    - service: tg
+      id: 1072
+      published: 2025-11-28-18-29-53
+      followers: 868
 2018-01-20-nix-hounds-staring-at-stars:
   title: Nix-Hounds Staring at Stars
   titleRu: Никс-гончие любуются звёздами
@@ -851,7 +859,7 @@
       id: DCXIGp-tYLL
       mediaId: '18033980807080292'
       published: 2024-11-14-18-10-56
-      updated: 2025-11-21-18-21-50
+      updated: 2025-11-28-18-27-18
       followers: 1480
       likes: 93
       views: 452
@@ -1006,7 +1014,7 @@
       id: C_wT6CuOlov
       mediaId: '18045836356788338'
       published: 2024-09-10-23-20-52
-      updated: 2025-11-21-18-23-14
+      updated: 2025-11-28-18-28-39
       followers: 1457
       likes: 100
       views: 489
@@ -1091,7 +1099,7 @@
       id: DEAsk0fPdnh
       mediaId: '18072243916633129'
       published: 2024-12-25-18-09-54
-      updated: 2025-11-21-18-20-59
+      updated: 2025-11-28-18-26-32
       followers: 1513
       likes: 91
       views: 381
@@ -1391,7 +1399,7 @@
       id: C_bMI-pTI1Z
       mediaId: '17871606204172109'
       published: 2024-09-02-18-28-58
-      updated: 2025-11-21-18-23-24
+      updated: 2025-11-28-18-28-48
       followers: 1455
       likes: 92
       views: 361
@@ -1445,7 +1453,7 @@
       id: C-VpvfoNu-W
       mediaId: '17979463679710227'
       published: 2024-08-06-18-20-44
-      updated: 2025-11-21-18-23-57
+      updated: 2025-11-28-18-29-19
       followers: 1435
       likes: 76
       views: 487
@@ -1533,7 +1541,7 @@
       id: C_LuWTjPpEs
       mediaId: '18010020152338786'
       published: 2024-08-27-18-20-03
-      updated: 2025-11-21-18-23-31
+      updated: 2025-11-28-18-28-54
       followers: 1458
       likes: 79
       views: 409
@@ -1720,7 +1728,7 @@
       id: C-TE6hwpIqR
       mediaId: '17977294379733597'
       published: 2024-08-05-18-20-28
-      updated: 2025-11-21-18-23-59
+      updated: 2025-11-28-18-29-21
       followers: 1434
       likes: 123
       views: 628
@@ -1851,7 +1859,7 @@
       id: DCpJqGDManq
       mediaId: '18062772853775282'
       published: 2024-11-21-18-10-49
-      updated: 2025-11-21-18-21-43
+      updated: 2025-11-28-18-27-11
       followers: 1483
       likes: 86
       views: 408
@@ -2101,7 +2109,7 @@
       id: DFa0i_9Tfls
       mediaId: '17973639803821798'
       published: 2025-01-29-18-11-12
-      updated: 2025-11-21-18-20-16
+      updated: 2025-11-28-18-25-51
       followers: 1533
       likes: 142
       views: 543
@@ -2361,7 +2369,7 @@
       id: C-f8spUt9pE
       mediaId: '17898003072024605'
       published: 2024-08-10-18-18-47
-      updated: 2025-11-21-18-23-51
+      updated: 2025-11-28-18-29-12
       followers: 1436
       likes: 68
       views: 324
@@ -2696,7 +2704,7 @@
       id: C-3H8E9pYOC
       mediaId: '18007422095632329'
       published: 2024-08-19-18-19-34
-      updated: 2025-11-21-18-23-40
+      updated: 2025-11-28-18-29-03
       followers: 1455
       likes: 94
       views: 605
@@ -2812,7 +2820,7 @@
       id: DFBEXoPSXmc
       mediaId: '17980418576651269'
       published: 2025-01-19-18-09-10
-      updated: 2025-11-21-18-20-27
+      updated: 2025-11-28-18-26-01
       followers: 1528
       likes: 81
       views: 311
@@ -3121,7 +3129,7 @@
       id: DBrWjHtvv1-
       mediaId: '17978897342631080'
       published: 2024-10-28-18-10-33
-      updated: 2025-11-21-18-22-14
+      updated: 2025-11-28-18-27-43
       followers: 1477
       likes: 95
       views: 425
@@ -3198,7 +3206,7 @@
       id: DAl1UhFBlHx
       mediaId: '17899646439059406'
       published: 2024-10-01-18-12-36
-      updated: 2025-11-21-18-22-46
+      updated: 2025-11-28-18-28-14
       followers: 1461
       likes: 91
       views: 439
@@ -3425,7 +3433,7 @@
       id: DBULMskyMjC
       mediaId: '18463227874045976'
       published: 2024-10-19-18-08-52
-      updated: 2025-11-21-18-22-24
+      updated: 2025-11-28-18-27-52
       followers: 1472
       likes: 79
       views: 394
@@ -3488,7 +3496,7 @@
       id: DAjQQzrI42H
       mediaId: '18022662017591508'
       published: 2024-09-30-18-10-21
-      updated: 2025-11-21-18-22-48
+      updated: 2025-11-28-18-28-16
       followers: 1459
       likes: 102
       views: 538
@@ -3722,7 +3730,7 @@
       id: DBwgIxRtU4f
       mediaId: '17958212897716083'
       published: 2024-10-30-18-10-30
-      updated: 2025-11-21-18-22-12
+      updated: 2025-11-28-18-27-41
       followers: 1477
       likes: 108
       views: 458
@@ -3850,7 +3858,7 @@
       id: C_BbGpzuG4v
       mediaId: '17923658099841263'
       published: 2024-08-23-18-19-28
-      updated: 2025-11-21-18-23-35
+      updated: 2025-11-28-18-28-59
       followers: 1457
       likes: 72
       views: 332
@@ -3988,7 +3996,7 @@
       id: DCIGFNUyeex
       mediaId: '18064329940739266'
       published: 2024-11-08-22-04-39
-      updated: 2025-11-21-18-21-59
+      updated: 2025-11-28-18-27-26
       followers: 1481
       likes: 83
       views: 412
@@ -4082,7 +4090,7 @@
       id: C-GS_cMAUNx
       mediaId: '18038112679858729'
       published: 2024-07-31-19-13-21
-      updated: 2025-11-21-18-24-06
+      updated: 2025-11-28-18-29-27
       followers: 1433
       likes: 109
       views: 558
@@ -4273,7 +4281,7 @@
       id: DFGONk_zuDM
       mediaId: '18039249929460023'
       published: 2025-01-21-18-11-24
-      updated: 2025-11-21-18-20-25
+      updated: 2025-11-28-18-25-59
       followers: 1529
       likes: 152
       views: 574
@@ -4411,7 +4419,7 @@
       id: DBjoHhrtcDF
       mediaId: '17979166523766393'
       published: 2024-10-25-18-10-09
-      updated: 2025-11-21-18-22-17
+      updated: 2025-11-28-18-27-46
       followers: 1474
       likes: 88
       views: 386
@@ -4466,7 +4474,7 @@
       id: C-dYCEEz5hV
       mediaId: '17879270427099815'
       published: 2024-08-09-18-19-55
-      updated: 2025-11-21-18-23-52
+      updated: 2025-11-28-18-29-14
       followers: 1437
       likes: 82
       views: 395
@@ -4757,7 +4765,7 @@
       id: DBHTZKzT3cy
       mediaId: '18061121767773879'
       published: 2024-10-14-18-10-20
-      updated: 2025-11-21-18-22-31
+      updated: 2025-11-28-18-27-59
       followers: 1463
       likes: 88
       views: 645
@@ -5041,9 +5049,9 @@
       id: DAgrT69B1Jb
       mediaId: '18027270836366389'
       published: 2024-09-29-18-08-56
-      updated: 2025-11-21-18-22-49
+      updated: 2025-11-28-18-28-17
       followers: 1455
-      likes: 109
+      likes: 110
       views: 739
     - service: vk
       id: 1790
@@ -5232,7 +5240,7 @@
       id: DAoZ3xwu-Q3
       mediaId: '17844621138321992'
       published: 2024-10-02-18-10-28
-      updated: 2025-11-21-18-22-45
+      updated: 2025-11-28-18-28-13
       followers: 1463
       likes: 118
       views: 461
@@ -5498,7 +5506,7 @@
       id: DDGK86wO8YJ
       mediaId: '18296802376229812'
       published: 2024-12-03-00-40-05
-      updated: 2025-11-21-18-21-30
+      updated: 2025-11-28-18-26-58
       followers: 1493
       likes: 143
       views: 1003
@@ -6099,7 +6107,7 @@
       id: DB6zTFIuAi2
       mediaId: '17867584755237814'
       published: 2024-11-03-18-10-23
-      updated: 2025-11-21-18-22-06
+      updated: 2025-11-28-18-27-35
       followers: 1479
       likes: 153
       views: 896
@@ -6451,7 +6459,7 @@
       id: DE2xU3uvvrq
       mediaId: '17962967642840380'
       published: 2025-01-15-18-10-22
-      updated: 2025-11-21-18-20-34
+      updated: 2025-11-28-18-26-07
       followers: 1522
       likes: 98
       views: 380
@@ -6607,7 +6615,7 @@
       id: C_u6_wnNRdH
       mediaId: '18344943052192432'
       published: 2024-09-10-10-23-56
-      updated: 2025-11-21-18-23-15
+      updated: 2025-11-28-18-28-40
       followers: 1457
       likes: 89
       views: 400
@@ -6889,7 +6897,7 @@
       id: DC2BrKPPPbg
       mediaId: '18085060606546746'
       published: 2024-11-26-18-11-11
-      updated: 2025-11-21-18-21-36
+      updated: 2025-11-28-18-27-04
       followers: 1483
       likes: 94
       views: 554
@@ -7097,7 +7105,7 @@
       id: DBmMzZEPHZD
       mediaId: '18066006703647783'
       published: 2024-10-26-18-09-12
-      updated: 2025-11-21-18-22-16
+      updated: 2025-11-28-18-27-45
       followers: 1476
       likes: 132
       views: 603
@@ -7380,7 +7388,7 @@
       id: C_JJkgzvCqD
       mediaId: '18017561102445866'
       published: 2024-08-26-18-20-10
-      updated: 2025-11-21-18-23-32
+      updated: 2025-11-28-18-28-56
       followers: 1457
       likes: 112
       views: 441
@@ -7566,7 +7574,7 @@
       id: C-Qf406SXhK
       mediaId: '18036187178042222'
       published: 2024-08-04-18-18-26
-      updated: 2025-11-21-18-24-01
+      updated: 2025-11-28-18-29-22
       followers: 1434
       likes: 93
       views: 536
@@ -8144,7 +8152,7 @@
       id: DDurPUTvhQa
       mediaId: '18060616894904245'
       published: 2024-12-18-18-11-52
-      updated: 2025-11-21-18-21-07
+      updated: 2025-11-28-18-26-39
       followers: 1507
       likes: 94
       views: 442
@@ -8240,7 +8248,7 @@
       id: C-8RjrEOZBz
       mediaId: '17871768504158345'
       published: 2024-08-21-18-19-50
-      updated: 2025-11-21-18-23-38
+      updated: 2025-11-28-18-29-01
       followers: 1459
       likes: 88
       views: 352
@@ -8681,7 +8689,7 @@
       id: DD4-FTdvHGs
       mediaId: '18038196248343974'
       published: 2024-12-22-18-08-54
-      updated: 2025-11-21-18-21-02
+      updated: 2025-11-28-18-26-35
       followers: 1509
       likes: 148
       views: 655
@@ -8839,7 +8847,7 @@
       id: C-N7Ma0tkLR
       mediaId: '18002253002427793'
       published: 2024-08-03-18-19-19
-      updated: 2025-11-21-18-24-02
+      updated: 2025-11-28-18-29-23
       followers: 1434
       likes: 84
       views: 388
@@ -9045,7 +9053,7 @@
       id: DBJ4Ky5S7Zy
       mediaId: '18034117985057206'
       published: 2024-10-15-18-10-10
-      updated: 2025-11-21-18-22-29
+      updated: 2025-11-28-18-27-58
       followers: 1464
       likes: 115
       views: 564
@@ -9198,7 +9206,7 @@
       id: DBt7V1XPqIp
       mediaId: '17850192069283490'
       published: 2024-10-29-18-10-32
-      updated: 2025-11-21-18-22-13
+      updated: 2025-11-28-18-27-42
       followers: 1477
       likes: 88
       views: 384
@@ -9442,16 +9450,16 @@
       id: DRkeSOlFw5e
       mediaId: '17932899537108694'
       published: 2025-11-27-18-25-47
-      updated: 2025-11-28-17-15-55
+      updated: 2025-11-28-18-25-33
       followers: 1599
-      likes: 45
+      likes: 46
     - service: vk
       id: 2889
       published: 2025-11-27-18-25-53
-      updated: 2025-11-28-17-15-59
+      updated: 2025-11-28-18-25-37
       followers: 1529
       likes: 30
-      views: 333
+      views: 353
       reposts: 1
       comments: !c |-
         Gw4DIKwKbGOZwcdBZfl6Bhfym0g8/3Cvfo7Q00zQT5zF4Vh47LaAYwu0Ns8li6oTAaYDcHjSVIAu
@@ -9465,10 +9473,10 @@
     - service: tg
       id: 1071
       published: 2025-11-27-18-25-59
-      updated: 2025-11-28-17-15-58
+      updated: 2025-11-28-18-25-35
       followers: 868
-      likes: 41
-      views: 174
+      likes: 43
+      views: 177
       comments: !c iw2AkZPLQnmsaQ7RAACrZ29vc2V2aWNoNzak8J+WvAM=
 2018-08-05-welcome:
   title: Welcome
@@ -9874,7 +9882,7 @@
       id: C_i6eUrs1dW
       mediaId: '18032722124330991'
       published: 2024-09-05-18-28-30
-      updated: 2025-11-21-18-23-20
+      updated: 2025-11-28-18-28-45
       followers: 1455
       likes: 77
       views: 335
@@ -10303,7 +10311,7 @@
       id: DAEX2n6v8Ir
       mediaId: '17844824895313470'
       published: 2024-09-18-18-20-10
-      updated: 2025-11-21-18-23-03
+      updated: 2025-11-28-18-28-28
       followers: 1459
       likes: 72
       views: 365
@@ -10527,7 +10535,7 @@
       id: C-azUnhJNPE
       mediaId: '18042652126778108'
       published: 2024-08-08-18-20-40
-      updated: 2025-11-21-18-23-54
+      updated: 2025-11-28-18-29-16
       followers: 1437
       likes: 95
       views: 476
@@ -10716,7 +10724,7 @@
       id: DEnUpj_TlTF
       mediaId: '18017017646452657'
       published: 2025-01-09-18-11-11
-      updated: 2025-11-21-18-20-43
+      updated: 2025-11-28-18-26-15
       followers: 1525
       likes: 110
       views: 659
@@ -10895,9 +10903,9 @@
       id: C_Gkjg6Nfuj
       mediaId: '17929160141924204'
       published: 2024-08-25-18-18-13
-      updated: 2025-11-21-18-23-33
+      updated: 2025-11-28-18-28-57
       followers: 1455
-      likes: 97
+      likes: 98
       views: 422
     - service: vk
       id: 1707
@@ -11114,7 +11122,7 @@
       id: C_t_VnJxftA
       mediaId: '18019278437441496'
       published: 2024-09-10-01-42-39
-      updated: 2025-11-21-18-23-16
+      updated: 2025-11-28-18-28-41
       followers: 1457
       likes: 108
       views: 502
@@ -11347,7 +11355,7 @@
       id: DCuTMlHpGG3
       mediaId: '18257994724257589'
       published: 2024-11-23-18-10-21
-      updated: 2025-11-21-18-21-39
+      updated: 2025-11-28-18-27-08
       followers: 1482
       likes: 89
       views: 510
@@ -11788,7 +11796,7 @@
       id: DCe2U1yuhaK
       mediaId: '18049598492006418'
       published: 2024-11-17-18-09-29
-      updated: 2025-11-21-18-21-48
+      updated: 2025-11-28-18-27-16
       followers: 1484
       likes: 104
       views: 456
@@ -12330,7 +12338,7 @@
       id: DCCh1JWNa_7
       mediaId: '18148521415341360'
       published: 2024-11-06-18-11-39
-      updated: 2025-11-21-18-22-01
+      updated: 2025-11-28-18-27-28
       followers: 1482
       likes: 91
       views: 395
@@ -12420,7 +12428,7 @@
       id: DEK-qqtJkm9
       mediaId: '17873375394164737'
       published: 2024-12-29-18-00-22
-      updated: 2025-11-21-18-20-55
+      updated: 2025-11-28-18-26-27
       followers: 1519
       likes: 128
       views: 579
@@ -12522,7 +12530,7 @@
       id: C-s02fCI7m7
       mediaId: '18197312713292587'
       published: 2024-08-15-18-20-29
-      updated: 2025-11-21-18-23-46
+      updated: 2025-11-28-18-29-08
       followers: 1439
       likes: 91
       views: 443
@@ -12599,7 +12607,7 @@
       id: DExn5skTWOM
       mediaId: '17876857326238567'
       published: 2025-01-13-18-11-48
-      updated: 2025-11-21-18-20-36
+      updated: 2025-11-28-18-26-10
       followers: 1524
       likes: 162
       views: 548
@@ -12779,7 +12787,7 @@
       id: DBZU_jdNLUn
       mediaId: '17920507637891871'
       published: 2024-10-21-18-10-37
-      updated: 2025-11-21-18-22-22
+      updated: 2025-11-28-18-27-51
       followers: 1473
       likes: 97
       views: 520
@@ -12902,7 +12910,7 @@
       id: C-vZmm-zwsc
       mediaId: '18022081085131254'
       published: 2024-08-16-18-20-02
-      updated: 2025-11-21-18-23-45
+      updated: 2025-11-28-18-29-07
       followers: 1440
       likes: 145
       views: 491
@@ -13004,7 +13012,7 @@
       id: C_s4h4kvWJC
       mediaId: '17969542835645642'
       published: 2024-09-09-15-23-55
-      updated: 2025-11-21-18-23-17
+      updated: 2025-11-28-18-28-42
       followers: 1456
       likes: 72
       views: 324
@@ -13268,7 +13276,7 @@
       id: DEkvz2SvxhB
       mediaId: '18048819539167489'
       published: 2025-01-08-18-10-47
-      updated: 2025-11-21-18-20-44
+      updated: 2025-11-28-18-26-17
       followers: 1524
       likes: 99
       views: 711
@@ -13704,7 +13712,7 @@
       id: DAY9Ad4RwAx
       mediaId: '18099947011452446'
       published: 2024-09-26-18-09-39
-      updated: 2025-11-21-18-22-53
+      updated: 2025-11-28-18-28-20
       followers: 1457
       likes: 84
       views: 362
@@ -13915,7 +13923,7 @@
       id: DA_k7_pzzWs
       mediaId: '18134504428365017'
       published: 2024-10-11-18-09-46
-      updated: 2025-11-21-18-22-35
+      updated: 2025-11-28-18-28-03
       followers: 1462
       likes: 86
       views: 411
@@ -14146,7 +14154,7 @@
       id: DBeeh51tcne
       mediaId: '18023275598611101'
       published: 2024-10-23-18-10-10
-      updated: 2025-11-21-18-22-20
+      updated: 2025-11-28-18-27-49
       followers: 1472
       likes: 82
       views: 343
@@ -14215,7 +14223,7 @@
       id: C_8qfmlN21K
       mediaId: '17995167608691439'
       published: 2024-09-15-18-29-07
-      updated: 2025-11-21-18-23-07
+      updated: 2025-11-28-18-28-32
       followers: 1458
       likes: 107
       views: 423
@@ -14476,7 +14484,7 @@
       id: C_6Fl4CBFog
       mediaId: '17983583873721556'
       published: 2024-09-14-18-28-12
-      updated: 2025-11-21-18-23-09
+      updated: 2025-11-28-18-28-34
       followers: 1459
       likes: 70
       views: 397
@@ -14538,7 +14546,7 @@
       id: DAOr8iaSQSV
       mediaId: '17857094484255706'
       published: 2024-09-22-18-28-09
-      updated: 2025-11-21-18-22-57
+      updated: 2025-11-28-18-28-24
       followers: 1459
       likes: 103
       views: 432
@@ -14752,7 +14760,7 @@
       id: DAJimkkBNV_
       mediaId: '18058220053742509'
       published: 2024-09-20-18-30-18
-      updated: 2025-11-21-18-22-59
+      updated: 2025-11-28-18-28-26
       followers: 1459
       likes: 73
       views: 378
@@ -14813,7 +14821,7 @@
       id: DCM0tU8xA_o
       mediaId: '17944080932877274'
       published: 2024-11-10-18-09-03
-      updated: 2025-11-21-18-21-56
+      updated: 2025-11-28-18-27-23
       followers: 1481
       likes: 92
       views: 425
@@ -15088,7 +15096,7 @@
       id: DDkX2QvP2Ic
       mediaId: '18473252539000802'
       published: 2024-12-14-18-10-01
-      updated: 2025-11-21-18-21-12
+      updated: 2025-11-28-18-26-43
       followers: 1508
       likes: 124
       views: 583
@@ -15145,7 +15153,7 @@
       id: DE7_wC1PgTr
       mediaId: '18065439076892825'
       published: 2025-01-17-18-52-37
-      updated: 2025-11-21-18-20-29
+      updated: 2025-11-28-18-26-03
       followers: 1525
       likes: 92
       views: 398
