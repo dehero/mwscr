@@ -656,19 +656,21 @@
     - service: vk
       id: 2886
       published: 2025-11-26-12-44-48
-      updated: 2025-11-28-12-36-59
+      updated: 2025-11-29-13-25-10
       followers: 1527
-      likes: 8
-      views: 143
-      reposts: 1
+      likes: 12
+      views: 258
+      reposts: 2
     - service: tg
       id: 1069
       published: 2025-11-26-12-44-51
-      updated: 2025-11-28-12-37-00
+      updated: 2025-11-29-13-25-12
       followers: 868
-      likes: 26
-      views: 256
+      likes: 27
+      views: 286
       comments: !c |-
-        G5QAgByHsfMkmG/SQnVh3cA5l+LDFkldg3XbQP/Gar1Ii11XHZ+pUJPtlBMNUGorw253PQDdY+w4
-        T8rwFH+j2ZPtbvBPDxyqwsqZlrUkz7vOmGKNw0IUPnwU0nHSYLgRGL8tguHyPpEAKq7OfZmYSb4b
-        7h8TXfwlYJqWa+XJBcYI2QA=
+        GyoBABynK3opLLS4SX/tt9AStalmrfj0Lw98F/ESTJqIJUKzu2r92g2lQFJJgOtO4PKD6b//e1mY
+        tsUtjSngFki9Q3w63kyliBhvjcbdUlz/o18GYxUl8kSJiBa1Wt343et2m2i8le/HJYIU5IhUGMGX
+        qFkToR9EHFLhKIHS0bAwnBZGw4gmhCibSTdoLwdTxpSGEKTwl1pvWNzvNZZ/F1oDAHwaIJwaNynK
+        FhD7k8e27hSGL5cXp1LFaTZLuLryiKVFvXVkRjgvFPujIbGAhHevu9EUuY7+OMlgGqfGCJhcO/vP
+        yVA/L0WHkCgNAQ==
