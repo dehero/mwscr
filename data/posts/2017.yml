@@ -7523,10 +7523,10 @@
     - service: vk
       id: 2877
       published: 2025-11-22-20-41-36
-      updated: 2025-11-27-23-16-44
+      updated: 2025-11-29-01-19-15
       followers: 1522
-      likes: 66
-      views: 701
+      likes: 67
+      views: 725
       reposts: 1
       comments: !c |-
         G5IA6J0Hxq3xYEN05+0zxCKqXYQPaaGH2CRWhMmem/M5X+akRYjp5MxOcMQ0qSe1EqvD1vKygUNO
@@ -7535,10 +7535,10 @@
     - service: tg
       id: 1065
       published: 2025-11-22-20-41-40
-      updated: 2025-11-27-23-16-41
+      updated: 2025-11-29-01-19-10
       followers: 862
-      likes: 59
-      views: 359
+      likes: 60
+      views: 391
       comments: !c CxSAkZPLQnmq8jz1gACubWFyaWUtaGFycmlzMTau0LrRgNCw0YHQuNCy0L4D
     - service: ig
       id: DRYAxPul49u
