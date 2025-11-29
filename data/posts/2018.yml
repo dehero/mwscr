@@ -824,10 +824,10 @@
     - service: vk
       id: 2895
       published: 2025-11-28-18-29-48
-      updated: 2025-11-29-01-19-09
+      updated: 2025-11-29-03-10-30
       followers: 1529
-      likes: 20
-      views: 88
+      likes: 22
+      views: 92
       reposts: 1
       comments: !c |-
         G3UA+B2Jse2CLTR1j4QzEf91O4Lgg5zCzXQaFEHTRJRwsg8Ta71FtStFq7+JkiQRivCdj7E/yjw7
@@ -836,17 +836,17 @@
     - service: tg
       id: 1072
       published: 2025-11-28-18-29-53
-      updated: 2025-11-29-01-19-03
+      updated: 2025-11-29-03-10-24
       followers: 868
       likes: 36
-      views: 132
+      views: 136
     - service: ig
       id: DRnIqGMF5ko
       mediaId: '17876401719359233'
       published: 2025-11-28-19-14-32
-      updated: 2025-11-29-01-19-11
+      updated: 2025-11-29-03-10-30
       followers: 1598
-      likes: 28
+      likes: 31
 2018-01-20-nix-hounds-staring-at-stars:
   title: Nix-Hounds Staring at Stars
   titleRu: Никс-гончие любуются звёздами
@@ -9468,30 +9468,32 @@
       id: DRkeSOlFw5e
       mediaId: '17932899537108694'
       published: 2025-11-27-18-25-47
-      updated: 2025-11-29-01-19-13
+      updated: 2025-11-29-03-10-32
       followers: 1599
       likes: 47
     - service: vk
       id: 2889
       published: 2025-11-27-18-25-53
-      updated: 2025-11-29-01-19-14
+      updated: 2025-11-29-03-10-35
       followers: 1529
-      likes: 34
-      views: 440
+      likes: 36
+      views: 449
       reposts: 1
       comments: !c |-
-        Gw4DIKwKbGOZwcdBZfl6Bhfym0g8/3Cvfo7Q00zQT5zF4Vh47LaAYwu0Ns8li6oTAaYDcHjSVIAu
-        +W7ze8njAnr457n5BImO44nFURuwd5vDNlCRfLRv3RynJ72ibXw6ekX0pPamtXX4AOmKGTZP/tet
-        WdBoBSMMuf+otSi9cDU6LowWNLHPHaeFqxgGlG7zip7olHSoiDGiT57vvp3l5/+smveFViiR8/YO
-        m8kHBlJoNP+nN0oHPfFvsfw4ihhJW0VmBCJ5KWoHdiQsBabYqgIKHxIVZEQ6Q3sBKoNnTN3P0LCm
-        204jpE0/AzInnMxDMgWRGul6Q0S/aV7mDRVSk1U9U+jNMtE1IsDnz3ZpyVtycUQmaVAZAZup8GeM
-        hMO0FmWzDfqKikPGLjKZ8usNxN3//1KKsgwYYMCa8pRMYQEnu9G23U7HTd1UL49fSKvZjCHD8PkW
-        lts81XXse6ERXllttRmLSkPphoCMs2lSFEkTOKDDoNLsKQ+dmxOatpKdIiTvynxE5JXn/e7raD7G
-        oRsu3bl1DHHXtdkQNAQsvo5tN1wiIrijHCSVZIkKyL7oHtUlR0TG4+G+Bg==
+        Gy8EIKwKbGO1Qq9CZHg533u428GReP7hXv2aCD3NBP3EWTypVl4bbGyB1ua5ZPGqthgI7RASTSAn
+        FMnY3aDf/nrC8vc3haIE13licdQGfOu3lrVBBkGcSdbOcfoSUbbx5UKUeiU/DtbhA6TLWgi1//3N
+        C/RTggmGIfdf2zpv46JoLIw+aKRja5RZFnZhQOmmXmXPbplmNogSSj95cfvl7N3+eew3b0vDctmH
+        dL0XzGiNAkn5pPk+vVYq0RP/VpaTg0GWoK0CMyhUuAjaoR1UFgnTfKpCUvmCqhAGQadpL4HSwfSu
+        u7kO2Wa7B8HeomMI4VD6JoQCkzb29Yao3zTPi2gNprFlqQYOuRk6ekZQyOPP/SnBB7kYZNcELSgt
+        YDIZfo+l4NCtVdlsC39J4lDaHjI61d7ajdj7/28iyDBkgCq9XY7CiCU02Ym27XW7XtBN1er4z6TU
+        bPJQhj6ukuU2DrUb84mRCJ2ymirTFpQWpVs0XGQkRaSAJpCASgnFT015qExO0LSl7Ego3JXxiHBW
+        3vQ9/3h52pIGpZL/tbP1Ris9uXSq9B5BIVginHbaJCVD8A+nGRlqVo3KfGQfRo3qkso9RWVSBh0J
+        grA00namdHIYYUbe8eSgTsa0g5D13nAwQziUYWllODw5C4OMbAGp6tHmfH38eWveJxHmgZI6E4vN
+        9SARCvkqM9rejel4MVQQgC/pEEKhjJaQ7Cf5o1bZtUJpP9fnAw==
     - service: tg
       id: 1071
       published: 2025-11-27-18-25-59
-      updated: 2025-11-29-01-19-09
+      updated: 2025-11-29-03-10-31
       followers: 868
       likes: 47
       views: 207
