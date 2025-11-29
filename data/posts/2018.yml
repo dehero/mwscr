@@ -824,27 +824,30 @@
     - service: vk
       id: 2895
       published: 2025-11-28-18-29-48
-      updated: 2025-11-29-08-23-04
+      updated: 2025-11-29-09-18-09
       followers: 1529
       likes: 26
-      views: 117
+      views: 121
       reposts: 1
       comments: !c |-
-        G3UA+B2Jse2CLTR1j4QzEf91O4Lgg5zCzXQaFEHTRJRwsg8Ta71FtStFq7+JkiQRivCdj7E/yjw7
-        6FYFoolYkgbU4U+77tcb3y2tPWNb96kbfcfsC7dgYoDhCrrIS6bMZEURsS3quKj630rBKGARmkQ8
-        1N/rCQ==
+        G2kBAJwHtnuUwsHxj9gTYmkZ8V+3Szz4jXfoh9RMJdQkCSf7yKJU3STeYARSgyQ5wpaz5ktHN+wU
+        KZEEii+dS9nbezikgQe+zoNusWu5E33BJ37k39pvWdbCtuKDiDM+zrKA0x3qie4UjYia7vbzhe5v
+        m1t7huFBAEalf1G840ZKarI2K4VA5WDt08WAlmBJUOtp/clpQrJAzoBK1fe821FY/mOCa4RE1icm
+        u/OwSH43LmTbj3SiykyQr0xiKWQhrcDev3gVDIqeyqFDaYJMMneHYuw/RY2MJYtACAgmZ0eq04mF
+        BAyxlBu9kSs1J6bOm6TW3js=
     - service: tg
       id: 1072
       published: 2025-11-28-18-29-53
-      updated: 2025-11-29-08-23-00
+      updated: 2025-11-29-09-18-07
       followers: 868
-      likes: 41
-      views: 159
+      likes: 43
+      views: 162
+      comments: !c iw6AkZPLQnms7mXTgACra2F3YXpha3kyMjOm4p2k77iPAw==
     - service: ig
       id: DRnIqGMF5ko
       mediaId: '17876401719359233'
       published: 2025-11-28-19-14-32
-      updated: 2025-11-29-08-23-03
+      updated: 2025-11-29-09-18-05
       followers: 1598
       likes: 36
 2018-01-20-nix-hounds-staring-at-stars:
@@ -9468,16 +9471,16 @@
       id: DRkeSOlFw5e
       mediaId: '17932899537108694'
       published: 2025-11-27-18-25-47
-      updated: 2025-11-29-08-23-06
+      updated: 2025-11-29-09-18-08
       followers: 1599
       likes: 49
     - service: vk
       id: 2889
       published: 2025-11-27-18-25-53
-      updated: 2025-11-29-08-23-09
+      updated: 2025-11-29-09-18-13
       followers: 1529
       likes: 37
-      views: 499
+      views: 511
       reposts: 1
       comments: !c |-
         Gy8EIKwKbGO1Qq9CZHg533u428GReP7hXv2aCD3NBP3EWTypVl4bbGyB1ua5ZPGqthgI7RASTSAn
@@ -9493,11 +9496,13 @@
     - service: tg
       id: 1071
       published: 2025-11-27-18-25-59
-      updated: 2025-11-29-08-23-07
+      updated: 2025-11-29-09-18-10
       followers: 868
-      likes: 48
-      views: 215
-      comments: !c iw2AkZPLQnmsaQ7RAACrZ29vc2V2aWNoNzak8J+WvAM=
+      likes: 49
+      views: 218
+      comments: !c |-
+        CxuAkpPLQnms7mwsgACra2F3YXpha3kyMjOk8J+nkJPLQnmsaQ7RAACrZ29vc2V2aWNoNzak8J+W
+        vAM=
 2018-08-05-welcome:
   title: Welcome
   titleRu: Добро пожаловать
