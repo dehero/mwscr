@@ -824,7 +824,7 @@
     - service: vk
       id: 2895
       published: 2025-11-28-18-29-48
-      updated: 2025-11-29-19-14-12
+      updated: 2025-11-29-20-19-47
       followers: 1529
       likes: 36
       views: 164
@@ -838,18 +838,18 @@
     - service: tg
       id: 1072
       published: 2025-11-28-18-29-53
-      updated: 2025-11-29-19-14-10
+      updated: 2025-11-29-20-19-43
       followers: 868
       likes: 54
-      views: 197
+      views: 209
       comments: !c iw6AkZPLQnms7mXTgACra2F3YXpha3kyMjOm4p2k77iPAw==
     - service: ig
       id: DRnIqGMF5ko
       mediaId: '17876401719359233'
       published: 2025-11-28-19-14-32
-      updated: 2025-11-29-19-14-09
+      updated: 2025-11-29-20-19-41
       followers: 1598
-      likes: 40
+      likes: 41
 2018-01-20-nix-hounds-staring-at-stars:
   title: Nix-Hounds Staring at Stars
   titleRu: Никс-гончие любуются звёздами
@@ -983,7 +983,7 @@
       id: DPW2vIxDti_
       mediaId: '18061618190625752'
       published: 2025-10-03-18-27-17
-      updated: 2025-11-22-20-19-15
+      updated: 2025-11-29-20-19-59
       followers: 1581
       likes: 54
     - service: vk
@@ -3337,16 +3337,16 @@
       id: DRFja9GFuWD
       mediaId: '18114276448566817'
       published: 2025-11-15-18-14-13
-      updated: 2025-11-22-20-19-05
+      updated: 2025-11-29-20-19-42
       followers: 1594
       likes: 57
     - service: vk
       id: 2854
       published: 2025-11-15-18-14-20
-      updated: 2025-11-22-20-19-18
+      updated: 2025-11-29-20-19-50
       followers: 1506
       likes: 98
-      views: 1085
+      views: 1115
       reposts: 4
       comments: !c |-
         G3ACAJwJdiwXiwn2neP/GXvcUnyuDT4DQ/opW0wGqyWKYOiiqRk8F8010fgKq9rWlMIYY8LcQg6y
@@ -3358,10 +3358,10 @@
     - service: tg
       id: 1056
       published: 2025-11-15-18-14-24
-      updated: 2025-11-22-20-19-06
+      updated: 2025-11-29-20-19-46
       followers: 859
-      likes: 63
-      views: 440
+      likes: 66
+      views: 545
       comments: !c |-
         izGAkpPLQnmoshTdgACra2F3YXpha3kyMjOk8J+YiJPLQnmojTFDAACmYW5vbmlt2TXQndC10L/Q
         u9C+0YXQviwg0JjQu9GM0L3Rg9GAINCa0L7RgiDQvtC00L7QsdGA0Y/QtdGCKQM=
@@ -3394,7 +3394,7 @@
       id: DOgxwPGiSJl
       mediaId: '18089682832640017'
       published: 2025-09-12-18-24-47
-      updated: 2025-11-22-20-19-19
+      updated: 2025-11-29-20-20-02
       followers: 1584
       likes: 67
     - service: vk
@@ -8386,16 +8386,16 @@
       id: DQM6JVBEaMB
       mediaId: '18096341764748362'
       published: 2025-10-24-18-16-04
-      updated: 2025-11-22-20-19-11
+      updated: 2025-11-29-20-19-53
       followers: 1587
       likes: 59
     - service: vk
       id: 2772
       published: 2025-10-24-18-16-12
-      updated: 2025-11-22-20-19-31
+      updated: 2025-11-29-20-20-07
       followers: 1482
       likes: 69
-      views: 1568
+      views: 1575
       comments: !c |-
         G7YBaJ0JdixkhJl1PYHon/6efcJryVOMINAmD8IiTPaotpERHkgQgHph+neUjG0tTreZq6WbOnB/
         5whqKEm3sbG24PCIYBA01k0nBy7f1Y92oQu1gOKMA80NzjJJgx6Hf6CXPF//fp8/fo/re3cxCrPf
@@ -8405,10 +8405,10 @@
     - service: tg
       id: 1026
       published: 2025-10-24-18-16-16
-      updated: 2025-11-22-20-19-34
+      updated: 2025-11-29-20-20-11
       followers: 842
-      likes: 69
-      views: 570
+      likes: 70
+      views: 578
       comments: !c |-
         G9kBIJwFdvNKCB/HoLHZp9WoR5PXRjzQ2bDpBSrAqs8LqEr8/3K6KIx+9pa4ZQzHt/2u8UnaC8og
         UabK1AhGDlkB5k5n6NE5f3o81cc3jVxoAQ43bBzigAujiWdzo4KhnsizoQyf4LWx/4n5/ODFGWGF
@@ -9567,7 +9567,7 @@
       id: DM0qCdYMIBx
       mediaId: '17917806177120558'
       published: 2025-08-01-18-39-23
-      updated: 2025-11-22-20-19-26
+      updated: 2025-11-29-20-20-14
       followers: 1573
       likes: 110
       comments: !c |-
@@ -11302,7 +11302,7 @@
       id: DMQQCL-MZcJ
       mediaId: '18064094723186502'
       published: 2025-07-18-15-19-27
-      updated: 2025-11-22-20-19-32
+      updated: 2025-11-29-20-20-19
       followers: 1568
       likes: 77
 2018-09-11-galmis-dren-smuggler:
@@ -12232,7 +12232,7 @@
       id: DMlOV1HNDFf
       mediaId: '18383403958193251'
       published: 2025-07-26-18-48-46
-      updated: 2025-11-22-20-19-29
+      updated: 2025-11-29-20-20-17
       followers: 1574
       likes: 63
     - service: vk
@@ -14278,16 +14278,16 @@
       id: DQe95I7iTBB
       mediaId: '18082803599045543'
       published: 2025-10-31-18-35-10
-      updated: 2025-11-22-20-19-09
+      updated: 2025-11-29-20-19-49
       followers: 1587
       likes: 53
     - service: vk
       id: 2802
       published: 2025-10-31-18-35-16
-      updated: 2025-11-22-20-19-21
+      updated: 2025-11-29-20-19-56
       followers: 1492
       likes: 114
-      views: 1238
+      views: 1248
       reposts: 7
       comments: !c |-
         G7kBMJwJdizEZBi6no1Q6fw/cs9I3z7V1lKKoABbQGmkyblk39SNMEICmSe8UEe3hqNdb0Y+pLYF
@@ -14298,10 +14298,10 @@
     - service: tg
       id: 1036
       published: 2025-10-31-18-35-21
-      updated: 2025-11-22-20-19-12
+      updated: 2025-11-29-20-19-52
       followers: 850
-      likes: 71
-      views: 508
+      likes: 72
+      views: 525
       comments: !c |-
         G9MAwIyU7gaqTv9zzdvA5vk8CuyAB3K9bIp63tZlFZj/cIFrOlpBjbrBcRYO6ItNy/iy24sNuqcs
         BRSC2fePdGqPBv7SghBSN1HegJyocoV6KL1HA5+7B4J0TJgPC2KmgEajrXKFfCEF8N/tNczqMrgu
