@@ -824,10 +824,10 @@
     - service: vk
       id: 2895
       published: 2025-11-28-18-29-48
-      updated: 2025-11-30-03-25-39
+      updated: 2025-11-30-04-32-56
       followers: 1529
-      likes: 38
-      views: 177
+      likes: 39
+      views: 181
       reposts: 1
       comments: !c |-
         G2kBAJwHtnuUwsHxj9gTYmkZ8V+3Szz4jXfoh9RMJdQkCSf7yKJU3STeYARSgyQ5wpaz5ktHN+wU
@@ -838,16 +838,16 @@
     - service: tg
       id: 1072
       published: 2025-11-28-18-29-53
-      updated: 2025-11-30-03-25-38
+      updated: 2025-11-30-04-32-53
       followers: 868
       likes: 56
-      views: 225
+      views: 227
       comments: !c iw6AkZPLQnms7mXTgACra2F3YXpha3kyMjOm4p2k77iPAw==
     - service: ig
       id: DRnIqGMF5ko
       mediaId: '17876401719359233'
       published: 2025-11-28-19-14-32
-      updated: 2025-11-30-03-25-36
+      updated: 2025-11-30-04-32-51
       followers: 1598
       likes: 42
 2018-01-20-nix-hounds-staring-at-stars:
@@ -10174,24 +10174,24 @@
       id: DORU_ySCSq2
       mediaId: '17861788968469806'
       published: 2025-09-06-18-24-55
-      updated: 2025-11-23-04-31-48
+      updated: 2025-11-30-04-32-57
       followers: 1584
       likes: 80
     - service: vk
       id: 2635
       published: 2025-09-06-18-25-06
-      updated: 2025-11-23-04-31-47
+      updated: 2025-11-30-04-33-00
       followers: 1408
       likes: 54
-      views: 537
+      views: 538
       reposts: 2
     - service: tg
       id: 975
       published: 2025-09-06-18-25-11
-      updated: 2025-11-23-04-31-46
+      updated: 2025-11-30-04-32-58
       followers: 790
       likes: 65
-      views: 596
+      views: 599
 2018-08-21-dusk-in-hla-oad:
   title: Dusk in Hla Oad
   titleRu: Закат солнца в Хла Оуд
