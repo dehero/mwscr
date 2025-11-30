@@ -275,7 +275,7 @@ aleksey-yeskela:
   profiles:
     - service: vk
       id: '1047357639'
-      updated: 2025-11-30-19-14-39
+      updated: 2025-11-30-21-16-21
       username: id1047357639
       name: Алексей Йескела
       avatar: store:/avatars/vk-893f32cb.jpg
@@ -451,7 +451,7 @@ ansis:
   profiles:
     - service: tg
       id: '517050552'
-      updated: 2025-11-30-20-19-50
+      updated: 2025-11-30-21-16-18
       accessHash: '5231096655311395455'
       username: ansis
       name: ansis
@@ -2425,7 +2425,7 @@ ilya-nikitin:
   profiles:
     - service: vk
       id: '13566712'
-      updated: 2025-11-23-21-16-03
+      updated: 2025-11-30-21-16-21
       username: id13566712
       name: Илья Никитин
       avatar: store:/avatars/vk-f351ba78.jpg
@@ -2782,7 +2782,7 @@ kawazaky223:
   profiles:
     - service: tg
       id: '5641856113'
-      updated: 2025-11-30-20-19-52
+      updated: 2025-11-30-21-16-18
       accessHash: '7421309771527577818'
       username: Kawazaky223
       name: Максим
@@ -4674,7 +4674,7 @@ sergey-b-2:
   profiles:
     - service: vk
       id: '1077446394'
-      updated: 2025-11-30-20-19-49
+      updated: 2025-11-30-21-16-21
       username: id1077446394
       name: Сергей Б
       avatar: store:/avatars/vk-cb747346.jpg
@@ -6182,7 +6182,7 @@ yellow-submarine:
   profiles:
     - service: vk
       id: '21865013'
-      updated: 2025-11-30-06-27-19
+      updated: 2025-11-30-21-16-18
       username: id21865013
       name: Yellow Submarine
       avatar: store:/avatars/vk-0251fbbd.jpg
