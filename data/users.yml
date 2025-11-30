@@ -411,7 +411,7 @@ andrey-yaprintsev:
   profiles:
     - service: vk
       id: '599320069'
-      updated: 2025-11-30-13-24-39
+      updated: 2025-11-30-14-16-25
       username: id599320069
       name: Андрей Япринцев
       avatar: store:/avatars/vk-4e415fa2.jpg
@@ -565,7 +565,7 @@ arya-stark:
   profiles:
     - service: vk
       id: '820702664'
-      updated: 2025-11-30-13-24-40
+      updated: 2025-11-30-14-16-26
       username: id820702664
       name: Арья Старк
       avatar: store:/avatars/vk-689aa89d.jpg
@@ -1368,7 +1368,7 @@ dehero:
     - type: channel
       service: tg
       id: '1264795946'
-      updated: 2025-11-29-20-20-11
+      updated: 2025-11-30-14-16-29
       accessHash: '-5789257269249675714'
       username: mwscr
       name: Morrowind Screenshots
@@ -2782,7 +2782,7 @@ kawazaky223:
   profiles:
     - service: tg
       id: '5641856113'
-      updated: 2025-11-30-13-24-40
+      updated: 2025-11-30-14-16-28
       accessHash: '7421309771527577818'
       username: Kawazaky223
       name: Максим
@@ -3685,7 +3685,7 @@ nerevarine:
   profiles:
     - service: tg
       id: '373264328'
-      updated: 2025-11-29-21-16-03
+      updated: 2025-11-30-14-16-28
       accessHash: '9078366854792939477'
       username: Nerevarine
       name: Otto Godblessed
@@ -5365,7 +5365,7 @@ todor:
   profiles:
     - service: tg
       id: '1305695186'
-      updated: 2025-11-30-06-27-28
+      updated: 2025-11-30-14-16-29
       accessHash: '8819682207926865502'
       name: Todor
       avatar: store:/avatars/tg-5305295556123424826.jpg
@@ -5714,7 +5714,7 @@ user-5:
   profiles:
     - service: tg
       id: '370313011'
-      updated: 2025-11-29-13-25-11
+      updated: 2025-11-30-14-16-28
       accessHash: '-8597544857375648588'
       name: ­­
       avatar: store:/avatars/tg-1590482271984527366.jpg
