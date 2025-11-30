@@ -275,7 +275,7 @@ aleksey-yeskela:
   profiles:
     - service: vk
       id: '1047357639'
-      updated: 2025-11-30-03-25-49
+      updated: 2025-11-30-19-14-39
       username: id1047357639
       name: Алексей Йескела
       avatar: store:/avatars/vk-893f32cb.jpg
@@ -451,7 +451,7 @@ ansis:
   profiles:
     - service: tg
       id: '517050552'
-      updated: 2025-11-30-03-25-44
+      updated: 2025-11-30-19-14-28
       accessHash: '5231096655311395455'
       username: ansis
       name: ansis
@@ -1348,7 +1348,7 @@ dehero:
       avatar: store:/avatars/gh-c8afe641.jpg
     - service: vk
       id: '3652910'
-      updated: 2025-11-29-18-24-22
+      updated: 2025-11-30-19-14-24
       username: dehero
       name: Антон Курьянов
       avatar: store:/avatars/vk-5356f76e.jpg
@@ -1768,7 +1768,7 @@ ellia-isard:
   profiles:
     - service: vk
       id: '215194827'
-      updated: 2025-11-30-06-27-22
+      updated: 2025-11-30-19-14-25
       username: ellia_isard
       name: Эллия Айсард
       avatar: store:/avatars/vk-6b0c7b7c.jpg
@@ -2134,7 +2134,7 @@ goosevich76:
   profiles:
     - service: tg
       id: '5385620621'
-      updated: 2025-11-29-21-16-30
+      updated: 2025-11-30-19-14-27
       accessHash: '-7130473396589324830'
       username: horwwwaty
       name: choven
@@ -2782,7 +2782,7 @@ kawazaky223:
   profiles:
     - service: tg
       id: '5641856113'
-      updated: 2025-11-30-18-24-14
+      updated: 2025-11-30-19-14-27
       accessHash: '7421309771527577818'
       username: Kawazaky223
       name: Максим
@@ -2932,6 +2932,14 @@ kurov-alexander:
       username: kurov.alexander
       name: Александр Куров
       avatar: store:/avatars/vk-c64fc9de.jpg
+kvuk0:
+  profiles:
+    - service: vk
+      id: '171748142'
+      updated: 2025-11-30-19-14-35
+      username: kvuk0
+      name: Ярослав Скворцов
+      avatar: store:/avatars/vk-194ad7dc.jpg
 kydinov91:
   profiles:
     - service: vk
@@ -3810,7 +3818,7 @@ o3509236vcx345:
   profiles:
     - service: vk
       id: '510619108'
-      updated: 2025-11-29-18-24-23
+      updated: 2025-11-30-19-14-25
       username: o3509236vcx345
       name: Андрей Ветров
       avatar: store:/avatars/vk-81269a24.jpg
@@ -4666,7 +4674,7 @@ sergey-b-2:
   profiles:
     - service: vk
       id: '1077446394'
-      updated: 2025-11-29-21-15-56
+      updated: 2025-11-30-19-14-26
       username: id1077446394
       name: Сергей Б
       avatar: store:/avatars/vk-cb747346.jpg
