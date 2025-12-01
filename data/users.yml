@@ -275,7 +275,7 @@ aleksey-yeskela:
   profiles:
     - service: vk
       id: '1047357639'
-      updated: 2025-11-30-21-16-21
+      updated: 2025-12-01-12-39-16
       username: id1047357639
       name: Алексей Йескела
       avatar: store:/avatars/vk-893f32cb.jpg
@@ -809,7 +809,7 @@ bobrovnikov:
   profiles:
     - service: tg
       id: '864611'
-      updated: 2025-11-27-20-48-21
+      updated: 2025-12-01-12-39-17
       accessHash: '-4256453567611932495'
       username: bobrovnikov
       name: Denis Bobrovnikov
@@ -2782,7 +2782,7 @@ kawazaky223:
   profiles:
     - service: tg
       id: '5641856113'
-      updated: 2025-12-01-03-49-32
+      updated: 2025-12-01-12-39-17
       accessHash: '7421309771527577818'
       username: Kawazaky223
       name: Максим
@@ -4888,7 +4888,7 @@ sol-sunich:
   profiles:
     - service: tg
       id: '1017031108'
-      updated: 2025-11-29-20-19-51
+      updated: 2025-12-01-12-39-17
       accessHash: '-8600220183224537901'
       username: sol_sunich
       name: ⊙
@@ -6153,6 +6153,12 @@ xxxxvns:
       username: xxxxvns
       name: reness
       avatar: store:/avatars/tg-5255764090599181967.jpg
+y-zg:
+  profiles:
+    - service: tg
+      id: '5322519881'
+      botChatId: 5322519881
+      name: Y zg
 ya-hs-che-suda-stavit:
   profiles:
     - service: tg
