@@ -472,24 +472,27 @@
       id: DRsMlP7DFzI
       mediaId: '17926522770080390'
       published: 2025-11-30-18-25-00
-      updated: 2025-12-01-01-44-54
+      updated: 2025-12-01-03-49-30
       followers: 1599
-      likes: 45
+      likes: 48
+      comments: !c |-
+        ix+AkZPLQnmtfyohAACsbWlzc2ZvcmVza2lu2SZ3aGF0IGlmIGJpZyB3b3JtIGZhbGwgZG93biBm
+        cm9tIG1hc3NlcgM=
     - service: vk
       id: 2904
       published: 2025-11-30-18-25-05
-      updated: 2025-12-01-01-44-45
+      updated: 2025-12-01-03-49-24
       followers: 1532
-      likes: 21
-      views: 97
+      likes: 25
+      views: 112
       reposts: 2
     - service: tg
       id: 1075
       published: 2025-11-30-18-25-09
-      updated: 2025-12-01-01-44-45
+      updated: 2025-12-01-03-49-24
       followers: 867
-      likes: 39
-      views: 141
+      likes: 43
+      views: 151
 2016-11-27-lonely-fargoth:
   title: Lonely Fargoth
   titleRu: Одинокий Фаргот
@@ -1202,16 +1205,16 @@
       id: DQADUGjDqnV
       mediaId: '17879073702305010'
       published: 2025-10-19-18-26-05
-      updated: 2025-11-24-03-22-55
+      updated: 2025-12-01-03-49-34
       followers: 1586
-      likes: 67
+      likes: 68
     - service: vk
       id: 2749
       published: 2025-10-19-18-26-11
-      updated: 2025-11-24-03-22-56
+      updated: 2025-12-01-03-49-35
       followers: 1471
       likes: 95
-      views: 2078
+      views: 2082
       reposts: 2
       comments: !c |-
         G68DgJwHphvuabARxT/IHjSdIiP+49DCAQx9TFeoln7VKsWuAzbSum/mxLqqG0JLjESQLA8C2+9v
@@ -1226,10 +1229,10 @@
     - service: tg
       id: 1021
       published: 2025-10-19-18-26-16
-      updated: 2025-11-24-03-22-52
+      updated: 2025-12-01-03-49-31
       followers: 837
       likes: 74
-      views: 564
+      views: 576
       comments: !c |-
         iyWAkpPLQnmf3QLhgACqYTItZW5rZWxsabpvbmUgb2YgdGhlIGNyYWJsZXNzIGNpdGllc5PLQnmf
         28eyAACra2F3YXpha3kyMjOk8J+YggM=
