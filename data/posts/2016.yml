@@ -472,7 +472,7 @@
       id: DRsMlP7DFzI
       mediaId: '17926522770080390'
       published: 2025-11-30-18-25-00
-      updated: 2025-12-01-04-48-00
+      updated: 2025-12-01-05-26-29
       followers: 1599
       likes: 52
       comments: !c |-
@@ -481,18 +481,18 @@
     - service: vk
       id: 2904
       published: 2025-11-30-18-25-05
-      updated: 2025-12-01-04-47-57
+      updated: 2025-12-01-05-26-26
       followers: 1532
-      likes: 26
-      views: 123
+      likes: 28
+      views: 131
       reposts: 2
     - service: tg
       id: 1075
       published: 2025-11-30-18-25-09
-      updated: 2025-12-01-04-47-56
+      updated: 2025-12-01-05-26-26
       followers: 867
-      likes: 43
-      views: 164
+      likes: 44
+      views: 170
 2016-11-27-lonely-fargoth:
   title: Lonely Fargoth
   titleRu: Одинокий Фаргот
