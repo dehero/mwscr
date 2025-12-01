@@ -275,7 +275,7 @@ aleksey-yeskela:
   profiles:
     - service: vk
       id: '1047357639'
-      updated: 2025-12-01-16-26-11
+      updated: 2025-12-01-19-15-48
       username: id1047357639
       name: Алексей Йескела
       avatar: store:/avatars/vk-893f32cb.jpg
@@ -411,7 +411,7 @@ andrey-yaprintsev:
   profiles:
     - service: vk
       id: '599320069'
-      updated: 2025-11-30-18-24-15
+      updated: 2025-12-01-19-15-43
       username: id599320069
       name: Андрей Япринцев
       avatar: store:/avatars/vk-4e415fa2.jpg
@@ -451,7 +451,7 @@ ansis:
   profiles:
     - service: tg
       id: '517050552'
-      updated: 2025-12-01-13-34-32
+      updated: 2025-12-01-19-15-47
       accessHash: '5231096655311395455'
       username: ansis
       name: ansis
@@ -565,7 +565,7 @@ arya-stark:
   profiles:
     - service: vk
       id: '820702664'
-      updated: 2025-12-01-16-26-25
+      updated: 2025-12-01-19-15-43
       username: id820702664
       name: Арья Старк
       avatar: store:/avatars/vk-689aa89d.jpg
@@ -1348,7 +1348,7 @@ dehero:
       avatar: store:/avatars/gh-c8afe641.jpg
     - service: vk
       id: '3652910'
-      updated: 2025-11-30-19-14-24
+      updated: 2025-12-01-19-15-46
       username: dehero
       name: Антон Курьянов
       avatar: store:/avatars/vk-5356f76e.jpg
@@ -1768,7 +1768,7 @@ ellia-isard:
   profiles:
     - service: vk
       id: '215194827'
-      updated: 2025-11-30-19-14-25
+      updated: 2025-12-01-19-15-46
       username: ellia_isard
       name: Эллия Айсард
       avatar: store:/avatars/vk-6b0c7b7c.jpg
@@ -2134,7 +2134,7 @@ goosevich76:
   profiles:
     - service: tg
       id: '5385620621'
-      updated: 2025-12-01-13-34-24
+      updated: 2025-12-01-19-15-46
       accessHash: '-7130473396589324830'
       username: horwwwaty
       name: choven
@@ -2782,7 +2782,7 @@ kawazaky223:
   profiles:
     - service: tg
       id: '5641856113'
-      updated: 2025-12-01-14-20-28
+      updated: 2025-12-01-19-15-45
       accessHash: '7421309771527577818'
       username: Kawazaky223
       name: Максим
@@ -2936,7 +2936,7 @@ kvuk0:
   profiles:
     - service: vk
       id: '171748142'
-      updated: 2025-11-30-19-14-35
+      updated: 2025-12-01-19-15-47
       username: kvuk0
       name: Ярослав Скворцов
       avatar: store:/avatars/vk-194ad7dc.jpg
@@ -3822,7 +3822,7 @@ o3509236vcx345:
   profiles:
     - service: vk
       id: '510619108'
-      updated: 2025-11-30-19-14-25
+      updated: 2025-12-01-19-15-47
       username: o3509236vcx345
       name: Андрей Ветров
       avatar: store:/avatars/vk-81269a24.jpg
@@ -4678,7 +4678,7 @@ sergey-b-2:
   profiles:
     - service: vk
       id: '1077446394'
-      updated: 2025-11-30-21-16-21
+      updated: 2025-12-01-19-15-47
       username: id1077446394
       name: Сергей Б
       avatar: store:/avatars/vk-cb747346.jpg
@@ -6038,7 +6038,7 @@ wenya-fox:
   profiles:
     - service: tg
       id: '2134652228'
-      updated: 2025-11-03-19-08-52
+      updated: 2025-12-01-19-15-52
       accessHash: '-7611750683729901996'
       username: WenyaFox
       botChatId: 2134652228

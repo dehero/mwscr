@@ -824,10 +824,10 @@
     - service: vk
       id: 2895
       published: 2025-11-28-18-29-48
-      updated: 2025-11-30-18-24-15
+      updated: 2025-12-01-19-15-43
       followers: 1529
-      likes: 41
-      views: 214
+      likes: 48
+      views: 278
       reposts: 1
       comments: !c |-
         G2kBAJwHtnuUwsHxj9gTYmkZ8V+3Szz4jXfoh9RMJdQkCSf7yKJU3STeYARSgyQ5wpaz5ktHN+wU
@@ -838,18 +838,18 @@
     - service: tg
       id: 1072
       published: 2025-11-28-18-29-53
-      updated: 2025-11-30-18-24-14
+      updated: 2025-12-01-19-15-42
       followers: 868
-      likes: 57
-      views: 263
+      likes: 61
+      views: 292
       comments: !c iw6AkZPLQnms7mXTgACra2F3YXpha3kyMjOm4p2k77iPAw==
     - service: ig
       id: DRnIqGMF5ko
       mediaId: '17876401719359233'
       published: 2025-11-28-19-14-32
-      updated: 2025-11-30-19-14-20
+      updated: 2025-12-01-19-15-40
       followers: 1598
-      likes: 43
+      likes: 44
 2018-01-20-nix-hounds-staring-at-stars:
   title: Nix-Hounds Staring at Stars
   titleRu: Никс-гончие любуются звёздами
@@ -9474,16 +9474,16 @@
       id: DRkeSOlFw5e
       mediaId: '17932899537108694'
       published: 2025-11-27-18-25-47
-      updated: 2025-11-30-19-14-21
+      updated: 2025-12-01-19-15-41
       followers: 1599
-      likes: 50
+      likes: 53
     - service: vk
       id: 2889
       published: 2025-11-27-18-25-53
-      updated: 2025-11-30-19-14-39
+      updated: 2025-12-01-19-15-48
       followers: 1529
-      likes: 44
-      views: 679
+      likes: 49
+      views: 747
       reposts: 1
       comments: !c |-
         G2MEACwK7FgYQhuN7Dm1KG5EFBzma17o9FtAnyClU6kUC/UC0opAYnUWNEDxmLrYI6RBaSQhkAlF
@@ -9500,10 +9500,10 @@
     - service: tg
       id: 1071
       published: 2025-11-27-18-25-59
-      updated: 2025-11-30-19-14-24
+      updated: 2025-12-01-19-15-44
       followers: 868
-      likes: 54
-      views: 271
+      likes: 56
+      views: 294
       comments: !c |-
         CxuAkpPLQnms7mwsgACra2F3YXpha3kyMjOk8J+nkJPLQnmsaQ7RAACrZ29vc2V2aWNoNzak8J+W
         vAM=
