@@ -275,7 +275,7 @@ aleksey-yeskela:
   profiles:
     - service: vk
       id: '1047357639'
-      updated: 2025-12-01-12-39-16
+      updated: 2025-12-01-16-26-11
       username: id1047357639
       name: Алексей Йескела
       avatar: store:/avatars/vk-893f32cb.jpg
@@ -565,7 +565,7 @@ arya-stark:
   profiles:
     - service: vk
       id: '820702664'
-      updated: 2025-12-01-13-34-19
+      updated: 2025-12-01-16-26-25
       username: id820702664
       name: Арья Старк
       avatar: store:/avatars/vk-689aa89d.jpg
@@ -859,7 +859,7 @@ brg1092:
   profiles:
     - service: tg
       id: '5867861906'
-      updated: 2025-12-01-13-34-26
+      updated: 2025-12-01-16-26-05
       accessHash: '4411929981434940281'
       username: brg1092
       name: 2𝜋
@@ -1902,7 +1902,7 @@ filavandrel-official:
   profiles:
     - service: vk
       id: '682643734'
-      updated: 2025-11-30-06-27-19
+      updated: 2025-12-01-16-26-10
       username: filavandrel_official
       name: Filavandrel Aén Fidháil
       avatar: store:/avatars/vk-6d180d88.jpg
@@ -2466,10 +2466,10 @@ init-medigel:
   profiles:
     - service: vk
       id: '1063780894'
-      updated: 2025-11-24-15-21-17
+      updated: 2025-12-01-16-26-20
       username: id1063780894
       name: Init Medigel
-      avatar: store:/avatars/vk-88bb1df0.jpg
+      avatar: store:/avatars/vk-f1485d06.jpg
 inna-goraheva:
   profiles:
     - service: ig
@@ -3055,11 +3055,11 @@ loftydelusion:
   profiles:
     - service: tg
       id: '6735256969'
-      updated: 2025-11-27-20-48-20
+      updated: 2025-12-01-16-26-13
       accessHash: '7923451850129434076'
       username: Loftydelusion
       name: Ꭰelusion
-      avatar: store:/avatars/tg-5845760926257188125.jpg
+      avatar: store:/avatars/tg-5857346488868998100.jpg
 logodesign-logodaku:
   profiles:
     - service: ig
@@ -3214,7 +3214,7 @@ malignoutsider:
   profiles:
     - service: vk
       id: '104145157'
-      updated: 2025-11-27-20-24-00
+      updated: 2025-12-01-16-26-18
       username: malignoutsider
       name: Роберт Сабиров
       avatar: store:/avatars/vk-8e006a3a.jpg
@@ -4017,7 +4017,7 @@ palych:
   profiles:
     - service: vk
       id: '485933'
-      updated: 2025-11-24-15-21-06
+      updated: 2025-12-01-16-26-11
       username: palych
       name: Павел Красовский
       avatar: store:/avatars/vk-ee218ff0.jpg
