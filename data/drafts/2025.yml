@@ -42,7 +42,9 @@ arseniy-dyak.2025-04-17-resque-of-tarhiel:
   created: 2025-04-17
   mark: A2
 dehero.2025-01-19-18-31-11:
-  content: store:/inbox/dehero.2025-01-19-18-31-11.png
+  content:
+    - store:/inbox/dehero.2025-01-19-18-31-11.png
+    - store:/inbox/dehero.2025-01-19-18-31-11.1.png
   type: shot
   author: dehero
 dehero.2025-01-19-18-35-14:
@@ -54,6 +56,7 @@ dehero.2025-01-19-19-02-28:
     - store:/inbox/dehero.2025-01-19-19-02-28.png
     - store:/inbox/dehero.2025-01-19-19-07-05.png
     - store:/inbox/dehero.2025-01-19-19-03-26.png
+    - store:/inbox/dehero.2025-01-19-19-02-28.1.png
   type: shot
   author: dehero
 dehero.2025-03-12-19-56-38:
@@ -139,6 +142,7 @@ dehero.2025-06-01-15-29-38:
     - store:/inbox/dehero.2025-06-01-15-30-44.png
     - store:/inbox/dehero.2025-06-01-15-30-31.png
     - store:/inbox/dehero.2025-06-01-15-30-13.png
+    - store:/inbox/dehero.2025-06-01-15-30-44.1.png
   type: shot
   author: dehero
   engine: OpenMW
@@ -160,6 +164,7 @@ dehero.2025-06-04-19-39-55:
     - store:/inbox/dehero.2025-06-04-19-40-36.png
     - store:/inbox/dehero.2025-06-04-19-40-54.png
     - store:/inbox/dehero.2025-06-04-19-41-07.png
+    - store:/inbox/dehero.2025-06-04-19-41-07.1.png
   type: shot
   author: dehero
 dehero.2025-06-04-19-42-46:
@@ -168,6 +173,7 @@ dehero.2025-06-04-19-42-46:
   content:
     - store:/inbox/dehero.2025-06-04-19-42-46.png
     - store:/inbox/dehero.2025-06-04-19-43-22.png
+    - store:/inbox/dehero.2025-06-04-19-42-46.1.png
   type: shot
   author: dehero
 dehero.2025-06-04-19-48-48:
@@ -373,7 +379,9 @@ ohsweetnazareth.2025-11-26-glassware-in-molag-mar-waistworks-4786b048:
   author: ohsweetnazareth
 ohsweetnazareth.2025-11-26-publican-in-molag-mar-928768ed:
   title: Publican in Molag Mar
-  content: store:/inbox/ohsweetnazareth.2025-11-26-publican-in-molag-mar-928768ed.png
+  content:
+    - store:/inbox/ohsweetnazareth.2025-11-26-publican-in-molag-mar-928768ed.png
+    - store:/inbox/ohsweetnazareth.2025-11-26-publican-in-molag-mar-928768ed.1.png
   type: shot
   author: ohsweetnazareth
 ohsweetnazareth.2025-11-26-secrets-within-telasero-88e6c47f:
@@ -388,7 +396,9 @@ ohsweetnazareth.2025-11-26-secrets-within-telasero-f2c38c96:
   author: ohsweetnazareth
 ohsweetnazareth.2025-11-26-senseless-mourning-b585acf3:
   title: Senseless Mourning
-  content: store:/inbox/ohsweetnazareth.2025-11-26-senseless-mourning-b585acf3.png
+  content:
+    - store:/inbox/ohsweetnazareth.2025-11-26-senseless-mourning-b585acf3.png
+    - store:/inbox/ohsweetnazareth.2025-11-26-senseless-mourning-b585acf3.1.png
   type: shot
   author: ohsweetnazareth
 ohsweetnazareth.2025-11-26-worship-in-the-depths-of-telasero-cdce0d33:
@@ -419,5 +429,6 @@ ohsweetnazareth.2025-11-27-who-partook-in-the-cup-of-passage-b657b69b:
   content:
     - store:/inbox/ohsweetnazareth.2025-11-27-who-partook-in-the-cup-of-passage-b657b69b.png
     - store:/inbox/ohsweetnazareth.2025-11-27-who-partook-in-the-cup-of-passage-81b826d3.png
+    - store:/inbox/ohsweetnazareth.2025-11-27-who-partook-in-the-cup-of-passage-b657b69b.1.png
   type: shot
   author: ohsweetnazareth
