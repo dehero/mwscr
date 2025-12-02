@@ -2739,3 +2739,36 @@
 2025-11-28-1-island-of-cliffracer: 2018-01-19-island-of-cliffracer
 2025-11-29-1-moonmoth-legion-fort: 2017-02-08-moonmoth-legion-fort
 2025-11-30-1-imperial-pennant-and-masser: 2016-11-26-imperial-pennant-and-masser
+2025-12-01-1-beware-the-udyrfrykte:
+  title: Beware, the Udyrfrykte!
+  titleRu: Осторожно, Удурфрукт!
+  placement: Indoors
+  location: Solstheim, Lair of the Udyrfrykte
+  content: store:/shots/2025-12-01-1-beware-the-udyrfrykte.png
+  trash:
+    - store:/trash/ohsweetnazareth.2025-11-20-beware-the-udyrfrykte-df6fa6b5.png
+    - store:/trash/ohsweetnazareth.2025-11-20-beware-the-udyrfrykte-3e11511b.png
+    - store:/trash/ohsweetnazareth.2025-11-20-beware-the-udyrfrykte-8dcb1750.png
+    - store:/trash/ohsweetnazareth.2025-11-20-beware-the-udyrfrykte-066a3a55.png
+    - store:/trash/ohsweetnazareth.2025-11-20-beware-the-udyrfrykte-066a3a55.png
+  type: shot
+  author: ohsweetnazareth
+  addon: Bloodmoon
+  tags:
+    - ice
+    - cave
+  mark: B1
+  posts:
+    - service: ig
+      id: DRuyLL3j1TW
+      mediaId: '18088197901947674'
+      published: 2025-12-01-18-17-37
+      followers: 1599
+    - service: vk
+      id: 2906
+      published: 2025-12-01-18-17-50
+      followers: 1532
+    - service: tg
+      id: 1076
+      published: 2025-12-01-18-18-00
+      followers: 867
