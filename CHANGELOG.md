@@ -2,6 +2,12 @@
 
 All notable changes to this project will be documented in this file.
 
+## [2.12.1](https://github.com/dehero/mwscr/compare/v2.12.0...v2.12.1) (2025-12-02)
+
+### Bug Fixes
+
+- disable reposting shots ([0c6319b](https://github.com/dehero/mwscr/commit/0c6319bf374cafd7b36d7146ce76f75ad34fb022))
+
 ## [2.12.0](https://github.com/dehero/mwscr/compare/v2.11.0...v2.12.0) (2025-11-26)
 
 ### Features
