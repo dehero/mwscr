@@ -42,11 +42,18 @@ arseniy-dyak.2025-04-17-resque-of-tarhiel:
   created: 2025-04-17
   mark: A2
 dehero.2025-01-19-18-31-11:
-  content:
-    - store:/inbox/dehero.2025-01-19-18-31-11.png
-    - store:/inbox/dehero.2025-01-19-18-31-11.1.png
+  title: Lonely Resident of Ald Velothi
+  titleRu: Одинокий житель Альд Велоти
+  placement: Outdoors
+  location: Ald Velothi
+  content: store:/inbox/dehero.2025-01-19-18-31-11.1.png
+  trash: store:/inbox/dehero.2025-01-19-18-31-11.png
   type: shot
   author: dehero
+  engine: OpenMW
+  tags:
+    - tree
+  mark: B1
 dehero.2025-01-19-18-35-14:
   content: store:/inbox/dehero.2025-01-19-18-35-14.png
   type: shot
@@ -135,17 +142,26 @@ dehero.2025-06-01-15-28-59:
   author: dehero
   engine: OpenMW
 dehero.2025-06-01-15-29-38:
+  title: Near Mababi
+  titleRu: У Мабаби
   placement: Outdoors
-  location: Mababi
-  content:
-    - store:/inbox/dehero.2025-06-01-15-29-38.png
+  location:
+    - Mababi
+    - Molag Amur Region
+  content: store:/inbox/dehero.2025-06-01-15-30-44.1.png
+  trash:
     - store:/inbox/dehero.2025-06-01-15-30-44.png
+    - store:/inbox/dehero.2025-06-01-15-29-38.png
     - store:/inbox/dehero.2025-06-01-15-30-31.png
     - store:/inbox/dehero.2025-06-01-15-30-13.png
-    - store:/inbox/dehero.2025-06-01-15-30-44.1.png
   type: shot
   author: dehero
   engine: OpenMW
+  tags:
+    - tower
+    - lava
+    - crossroads
+  mark: B1
 dehero.2025-06-04-19-35-19:
   placement: Indoors
   location: Panat
@@ -323,14 +339,11 @@ ohsweetnazareth.2025-11-19-karstaag-the-huntsman-939aa544:
   content: store:/inbox/ohsweetnazareth.2025-11-19-karstaag-the-huntsman-939aa544.png
   type: shot
   author: ohsweetnazareth
-ohsweetnazareth.2025-11-22-in-the-grasp-of-the-lord-of-troubles-b16a512d:
-  title: In the Grasp of the Lord of Troubles
-  content: store:/inbox/ohsweetnazareth.2025-11-22-in-the-grasp-of-the-lord-of-troubles-b16a512d.png
-  type: shot
-  author: ohsweetnazareth
 ohsweetnazareth.2025-11-22-lord-of-domination-a83045cc:
   title: Lord of Domination
-  content: store:/inbox/ohsweetnazareth.2025-11-22-lord-of-domination-a83045cc.png
+  content:
+    - store:/inbox/ohsweetnazareth.2025-11-22-lord-of-domination-a83045cc.png
+    - store:/inbox/ohsweetnazareth.2025-11-22-in-the-grasp-of-the-lord-of-troubles-b16a512d.png
   type: shot
   author: ohsweetnazareth
 ohsweetnazareth.2025-11-25-in-the-carcass-of-ilunibi-1322ced7:
