@@ -472,7 +472,7 @@
       id: DRsMlP7DFzI
       mediaId: '17926522770080390'
       published: 2025-11-30-18-25-00
-      updated: 2025-12-02-15-19-14
+      updated: 2025-12-02-16-22-46
       followers: 1599
       likes: 68
       comments: !c |-
@@ -481,10 +481,10 @@
     - service: vk
       id: 2904
       published: 2025-11-30-18-25-05
-      updated: 2025-12-02-15-19-14
+      updated: 2025-12-02-16-22-47
       followers: 1532
-      likes: 58
-      views: 310
+      likes: 59
+      views: 313
       reposts: 3
       comments: !c |-
         GxMBaBwJNk7x4Um7wcdzaghPM0FDnN2xLaJtgccC7vP5rxYtVN2EGrRkFKHtGC/cO6/qgQ9xMLUl
@@ -494,7 +494,7 @@
     - service: tg
       id: 1075
       published: 2025-11-30-18-25-09
-      updated: 2025-12-02-15-19-12
+      updated: 2025-12-02-16-22-44
       followers: 867
       likes: 58
       views: 290
@@ -1298,9 +1298,9 @@
       id: DNgZyYxAhGO
       mediaId: '18033314927487358'
       published: 2025-08-18-18-23-56
-      updated: 2025-11-25-15-20-40
+      updated: 2025-12-02-16-22-49
       followers: 1579
-      likes: 63
+      likes: 64
     - service: vk
       id: 2589
       published: 2025-08-18-18-24-02
@@ -1313,10 +1313,10 @@
     - service: tg
       id: 955
       published: 2025-08-18-18-24-05
-      updated: 2025-11-25-15-20-42
+      updated: 2025-12-02-16-22-46
       followers: 781
       likes: 67
-      views: 684
+      views: 688
 2016-12-17-a-path-to-vivec:
   title: A Path to Vivec
   titleRu: Путь к Вивеку
