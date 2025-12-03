@@ -91,16 +91,22 @@ export function usePostsPageParameters(routeInfo: SiteRouteInfo<PostsPageParams,
   const { meta } = routeInfo;
   const [searchParams, setSearchParams] = useSearchParams<PostsPageSearchParams>();
 
+  const activeCount = () => Object.keys(searchParams()).length;
+
   const sortOptions = () =>
     selectPostInfosSortOptions.filter((item) => !meta().sortKeys || meta().sortKeys?.includes(item.value));
   const presetOptions = (): PostsPagePreset[] => {
-    const options: PostsPagePreset[] = presets.filter(
+    let options: PostsPagePreset[] = presets.filter(
       (item) => !item.value || !meta().presetKeys || meta().presetKeys?.includes(item.value),
     );
-    const currentPreset = options.find((preset) => isObjectEqual(preset.searchParams, searchParams()));
+    const currentParams = searchParams();
+    const currentPreset = options.find((preset) => isObjectEqual(preset.searchParams, currentParams));
 
     if (!currentPreset) {
-      options.push({ value: 'custom', label: `Custom Options (${activeCount()})`, searchParams: searchParams() });
+      options = [
+        ...options,
+        { value: 'custom', label: `Custom Options (${activeCount()})`, searchParams: currentParams },
+      ];
     }
 
     return options;
@@ -112,8 +118,6 @@ export function usePostsPageParameters(routeInfo: SiteRouteInfo<PostsPageParams,
       .map((value) => ({ value, label: postTypeDescriptors[value].title }))
       .sort((a, b) => a.label.localeCompare(b.label)),
   ];
-
-  const activeCount = () => Object.keys(searchParams()).length;
 
   const original = () => stringToBool(searchParams().original);
   const official = () => stringToBool(searchParams().official);
@@ -133,6 +137,7 @@ export function usePostsPageParameters(routeInfo: SiteRouteInfo<PostsPageParams,
   const sortDirection = () => (searchParams().sort?.split(',')[1] === 'asc' ? 'asc' : 'desc');
   const search = () => searchParams().search;
   const preset = () => presetOptions().find((preset) => isObjectEqual(preset.searchParams, searchParams()))?.value;
+
   const date = (): DateRange | undefined => (searchParams().date ? stringToDateRange(searchParams().date!) : undefined);
   const status = () =>
     [ANY_OPTION.value, NONE_OPTION.value, ...ListReaderItemStatus.options].find(
