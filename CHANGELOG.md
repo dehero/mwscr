@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file.
 
+## [2.12.2](https://github.com/dehero/mwscr/compare/v2.12.1...v2.12.2) (2025-12-03)
+
+### Bug Fixes
+
+- resolve errors when initializing parameters on posts page
+  ([9200b87](https://github.com/dehero/mwscr/commit/9200b87745967559b0b1c9612127669160282913))
+
 ## [2.12.1](https://github.com/dehero/mwscr/compare/v2.12.0...v2.12.1) (2025-12-02)
 
 ### Bug Fixes
