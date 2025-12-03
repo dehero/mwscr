@@ -128,27 +128,6 @@ dehero.2025-06-01-15-28-59:
   type: shot
   author: dehero
   engine: OpenMW
-dehero.2025-06-01-15-29-38:
-  title: Near Mababi
-  titleRu: У Мабаби
-  placement: Outdoors
-  location:
-    - Mababi
-    - Molag Amur Region
-  content: store:/inbox/dehero.2025-06-01-15-30-44.1.png
-  trash:
-    - store:/inbox/dehero.2025-06-01-15-30-44.png
-    - store:/inbox/dehero.2025-06-01-15-29-38.png
-    - store:/inbox/dehero.2025-06-01-15-30-31.png
-    - store:/inbox/dehero.2025-06-01-15-30-13.png
-  type: shot
-  author: dehero
-  engine: OpenMW
-  tags:
-    - tower
-    - lava
-    - crossroads
-  mark: B1
 dehero.2025-06-04-19-35-19:
   placement: Indoors
   location: Panat

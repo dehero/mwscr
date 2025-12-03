@@ -2809,21 +2809,55 @@
       id: DRxWYFrmBxp
       mediaId: '18063697112440129'
       published: 2025-12-02-18-26-50
-      updated: 2025-12-03-17-20-02
+      updated: 2025-12-03-18-26-49
       followers: 1599
-      likes: 52
+      likes: 53
     - service: vk
       id: 2917
       published: 2025-12-02-18-27-01
-      updated: 2025-12-03-17-19-58
+      updated: 2025-12-03-18-26-45
       followers: 1532
-      likes: 70
-      views: 1211
+      likes: 72
+      views: 1269
       reposts: 1
     - service: tg
       id: 1077
       published: 2025-12-02-18-27-05
-      updated: 2025-12-03-17-19-57
+      updated: 2025-12-03-18-26-45
       followers: 867
-      likes: 49
-      views: 257
+      likes: 51
+      views: 261
+2025-12-03-1-near-mababi:
+  title: Near Mababi
+  titleRu: У Мабаби
+  placement: Outdoors
+  location:
+    - Mababi
+    - Molag Amur Region
+  content: store:/shots/2025-12-03-1-near-mababi.png
+  trash:
+    - store:/trash/dehero.2025-06-01-15-29-38.png
+    - store:/trash/dehero.2025-06-01-15-30-31.png
+    - store:/trash/dehero.2025-06-01-15-30-13.png
+  type: shot
+  author: dehero
+  engine: OpenMW
+  tags:
+    - tower
+    - lava
+    - crossroads
+  mark: B1
+  posts:
+    - service: ig
+      id: DRz7PyeD1yU
+      mediaId: '17991717650731602'
+      published: 2025-12-03-18-27-30
+      followers: 1599
+    - service: vk
+      id: 2919
+      published: 2025-12-03-18-27-35
+      followers: 1536
+    - service: tg
+      id: 1078
+      published: 2025-12-03-18-27-38
+      followers: 866
