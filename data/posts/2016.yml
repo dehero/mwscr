@@ -472,32 +472,33 @@
       id: DRsMlP7DFzI
       mediaId: '17926522770080390'
       published: 2025-11-30-18-25-00
-      updated: 2025-12-02-17-19-52
+      updated: 2025-12-03-17-20-04
       followers: 1599
-      likes: 68
+      likes: 73
       comments: !c |-
         ix+AkZPLQnmtfyohAACsbWlzc2ZvcmVza2lu2SZ3aGF0IGlmIGJpZyB3b3JtIGZhbGwgZG93biBm
         cm9tIG1hc3NlcgM=
     - service: vk
       id: 2904
       published: 2025-11-30-18-25-05
-      updated: 2025-12-02-17-19-53
+      updated: 2025-12-03-17-20-06
       followers: 1532
-      likes: 59
-      views: 317
+      likes: 63
+      views: 371
       reposts: 3
       comments: !c |-
-        GxMBaBwJNk7x4Um7wcdzaghPM0FDnN2xLaJtgccC7vP5rxYtVN2EGrRkFKHtGC/cO6/qgQ9xMLUl
-        bapLOrSDPie4Tk70YJ61QBKNk8giTmsRJJaeLNmEaKb+E2RBwrrdPbO/n8evBfdq1Gx+7F/jRVMN
-        xQDUcS8og0AGmJifiMuxhAADKbZ4gMxwD8Drf3MpNn2RFtJN73eCaRJGToFfoYe6kXo5NGt47ESH
-        47CxydhScnxaGJSO+gEgCc+QBPYgsBWSKVOxCGThnJwB
+        G6gBABwJNk7x4Um7wT//p4bwBTdoiNO5LKIdoGOC9vi8r/a1UOo2YQVOYhDuMlrWfPlN3QaGaIwG
+        a1M2hhg8/rEZqpiCljvRI88xa09ZksAvfDmyNOJuQYKZBeW2ssGaRcMfM8gLelxvnqW5ncdvRLf2
+        oLv6yH4YzrrtUJ0ynXIvOAaJDDAxOxcfYQkBBlpM8QMyk50G3vV353rV1MWW7Ma3e4NpkkaFgX9y
+        23e6+WMeGmHY7LkIyPXIZsauylOxLQwqrvVJw3Ig0SS2IbBr+RLsKsRDIgsTUI7lnhYGtgudwAIB
+        5zIRVYrYonixc5EdUNgLe5KyWG0y2qnZwsBiAqboenlYoUpHiQE=
     - service: tg
       id: 1075
       published: 2025-11-30-18-25-09
-      updated: 2025-12-02-17-19-52
+      updated: 2025-12-03-17-20-04
       followers: 867
-      likes: 58
-      views: 291
+      likes: 63
+      views: 322
 2016-11-27-lonely-fargoth:
   title: Lonely Fargoth
   titleRu: Одинокий Фаргот
