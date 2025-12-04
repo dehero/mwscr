@@ -3329,7 +3329,7 @@ mbdtsmo:
   profiles:
     - service: tg
       id: '5093097514'
-      updated: 2025-12-04-04-27-19
+      updated: 2025-12-04-05-16-54
       accessHash: '-613358669572386334'
       username: mbdtsmo
       name: M Bdtsmo
@@ -3713,7 +3713,7 @@ nerevarine:
   profiles:
     - service: tg
       id: '373264328'
-      updated: 2025-12-04-04-27-24
+      updated: 2025-12-04-05-17-00
       accessHash: '9078366854792939477'
       username: Nerevarine
       name: Otto Godblessed
