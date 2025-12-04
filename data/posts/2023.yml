@@ -62,18 +62,18 @@
     - service: vk
       id: 2501
       published: 2025-07-02-18-24-04
-      updated: 2025-11-27-19-16-01
+      updated: 2025-12-04-19-17-37
       followers: 1333
       likes: 56
-      views: 543
+      views: 544
       reposts: 1
     - service: tg
       id: 905
       published: 2025-07-02-18-24-07
-      updated: 2025-11-27-19-15-48
+      updated: 2025-12-04-19-17-27
       followers: 760
       likes: 72
-      views: 619
+      views: 623
       comments: !c |-
         GzwBICyOx+2nFLWNo94R//xzsuFsoF93zs5Ug0TCuASCMLGS+zBtWyUVwVC9eYOhvxnrQ7aNb/1L
         MqfbBF8QXKZoKOjmYteYFgRFRLCI8rf+mO8GRxoQh+s2TzLrGODAGy4yuMkKG2SzJu63x/O35r7d
@@ -234,16 +234,16 @@
       id: DOJmMF4jRTd
       mediaId: '17922073773131202'
       published: 2025-09-03-18-21-10
-      updated: 2025-11-27-19-15-07
+      updated: 2025-12-04-19-16-40
       followers: 1582
       likes: 68
     - service: vk
       id: 2629
       published: 2025-09-03-18-21-16
-      updated: 2025-11-27-19-15-28
+      updated: 2025-12-04-19-17-05
       followers: 1404
       likes: 44
-      views: 586
+      views: 587
       reposts: 1
       comments: !c |-
         Cy+AkZPLQnmRFaD7gACwc2VyZ2V5LWNodXJiYW5vdtlB0K3RjdC5KSDQt9C00LDRgNC+0LLQsCEg
@@ -251,10 +251,10 @@
     - service: tg
       id: 971
       published: 2025-09-03-18-21-19
-      updated: 2025-11-27-19-15-26
+      updated: 2025-12-04-19-17-05
       followers: 788
       likes: 76
-      views: 581
+      views: 585
       comments: !c iw2AkZPLQnmRXdWaAACra2F3YXpha3kyMjOk8J+koQM=
 2023-08-01-stillness:
   title: Stillness

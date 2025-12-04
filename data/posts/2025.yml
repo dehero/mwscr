@@ -2054,10 +2054,10 @@
     - service: tg
       id: 873
       published: 2025-06-02-19-35-38
-      updated: 2025-11-27-19-16-13
+      updated: 2025-12-04-19-17-54
       followers: 742
       likes: 71
-      views: 607
+      views: 609
       comments: !c iw2AkZPLQnlzWYltAACra2F3YXpha3kyMjOk8J+MnwM=
 2025-06-03-1-reading-drinking-and-sleeping:
   title: Reading, Drinking and Sleeping
@@ -2095,10 +2095,10 @@
     - service: tg
       id: 874
       published: 2025-06-03-18-33-52
-      updated: 2025-11-27-19-16-12
+      updated: 2025-12-04-19-17-53
       followers: 743
       likes: 75
-      views: 608
+      views: 610
       comments: !c |-
         G1MBwBwHdqwxmMRHti6C59sZ4T/PMMAsCyIpj7bdbjCCyXumm7rZeSoTKIFE96Tt0Y/ZRM2nv3kX
         YEAfpH3+iV9/NidIHvDkNJE00FQ90GHBfJk0PlgGdtDBWf8cbMnhfL3h73jN5LBS5G3NT5+aNf1d
@@ -2142,10 +2142,10 @@
     - service: tg
       id: 875
       published: 2025-06-04-19-34-26
-      updated: 2025-11-27-19-16-11
+      updated: 2025-12-04-19-17-49
       followers: 744
       likes: 69
-      views: 606
+      views: 608
       comments: !c iw2AkZPLQnlz/jTxgACra2F3YXpha3kyMjOk8J+arAM=
 2025-06-05-1-meets-his-beloved-owner:
   title: Meets His Beloved Owner
@@ -2183,10 +2183,10 @@
     - service: tg
       id: 876
       published: 2025-06-05-19-26-00
-      updated: 2025-11-27-19-16-10
+      updated: 2025-12-04-19-17-48
       followers: 743
       likes: 69
-      views: 574
+      views: 576
 2025-06-06-1-lava-gorge:
   title: Lava Gorge
   titleRu: Лавовое ущелье
@@ -2227,10 +2227,10 @@
     - service: tg
       id: 877
       published: 2025-06-06-18-20-35
-      updated: 2025-11-27-19-16-10
+      updated: 2025-12-04-19-17-48
       followers: 743
       likes: 65
-      views: 595
+      views: 598
       comments: !c iw2AkZPLQnl0nDP3AACra2F3YXpha3kyMjOk8J+RjgM=
 2025-06-07-1-wraith-of-sul-senipul: 2017-08-24-wraith-of-sul-senipul
 2025-06-08-1-casual-viewer: 2018-07-11-casual-viewer
@@ -2600,24 +2600,24 @@
       id: DO_rbtAER6E
       mediaId: '17938699731074336'
       published: 2025-09-24-18-25-59
-      updated: 2025-11-27-19-15-00
+      updated: 2025-12-04-19-16-35
       followers: 1581
       likes: 66
     - service: vk
       id: 2682
       published: 2025-09-24-18-26-04
-      updated: 2025-11-27-19-15-17
+      updated: 2025-12-04-19-16-59
       followers: 1429
       likes: 36
-      views: 760
+      views: 762
       reposts: 1
     - service: tg
       id: 996
       published: 2025-09-24-18-26-08
-      updated: 2025-11-27-19-15-10
+      updated: 2025-12-04-19-16-59
       followers: 802
       likes: 78
-      views: 879
+      views: 919
       comments: !c iw2AkZPLQnmX8OH0AACra2F3YXpha3kyMjOk8J+YlAM=
 2025-09-25-1-castle-ebonheart: 2017-04-25-castle-ebonheart
 2025-09-26-1-terrace-under-the-starry-sky: 2017-07-22-terrace-under-the-starry-sky
@@ -2852,25 +2852,52 @@
       id: DRz7PyeD1yU
       mediaId: '17991717650731602'
       published: 2025-12-03-18-27-30
-      updated: 2025-12-04-18-31-36
+      updated: 2025-12-04-19-16-19
       followers: 1599
-      likes: 41
+      likes: 42
     - service: vk
       id: 2919
       published: 2025-12-03-18-27-35
-      updated: 2025-12-04-18-31-33
+      updated: 2025-12-04-19-16-16
       followers: 1536
       likes: 38
-      views: 369
+      views: 380
       reposts: 2
     - service: tg
       id: 1078
       published: 2025-12-03-18-27-38
-      updated: 2025-12-04-18-31-39
+      updated: 2025-12-04-19-16-25
       followers: 866
       likes: 51
-      views: 221
+      views: 222
       comments: !c |-
         G5YAAIyUbsI8H/6aZyeaAX5nsY2n7y8qQRsoQ3ReAlWf+zo50QPK4YegLaIo54vlNgaCy+MRxwlq
         9B5P707rFKPnQ2qdI9FqJVd4Ky6DHIM8g0ryq5BjMLcIqbYmffSET1oiX0lVFn+jW4DwY97lY+VY
         HeVUPva2hmcrCAKSWqRTCAXeYCGLBGPnauYy
+2025-12-04-1-moon-and-stars:
+  title: Moon and Stars
+  titleRu: Луна и звезды
+  placement: Outdoors
+  location: Vivec, Temple
+  content: store:/shots/2025-12-04-1-moon-and-stars.png
+  trash:
+    - store:/trash/dehero.2025-01-19-19-07-05.png
+    - store:/trash/dehero.2025-01-19-19-03-26.png
+  type: shot
+  author: dehero
+  engine: OpenMW
+  mark: A2
+  posts:
+    - service: ig
+      id: DR2l4P4jSBX
+      mediaId: '17984359127764520'
+      published: 2025-12-04-19-18-30
+      followers: 1600
+    - service: vk
+      id: 2920
+      published: 2025-12-04-19-18-36
+      followers: 1537
+    - service: tg
+      id: 1079
+      published: 2025-12-04-19-18-40
+      followers: 867
