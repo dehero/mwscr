@@ -10,7 +10,7 @@
   profiles:
     - service: vk
       id: '313209237'
-      updated: 2025-12-04-21-29-42
+      updated: 2025-12-04-22-14-17
       username: 17haden_blake10
       name: Артемий Голицын
       avatar: store:/avatars/vk-358ecbfd.jpg
@@ -92,7 +92,7 @@ a2-enkelli:
   profiles:
     - service: tg
       id: '7258424423'
-      updated: 2025-12-04-21-17-36
+      updated: 2025-12-04-22-14-21
       accessHash: '969825927170686844'
       username: A2_Enkelli
       name: †† elli ††
@@ -451,7 +451,7 @@ ansis:
   profiles:
     - service: tg
       id: '517050552'
-      updated: 2025-12-04-21-26-28
+      updated: 2025-12-04-22-14-21
       accessHash: '5231096655311395455'
       username: ansis
       name: ansis
@@ -468,7 +468,7 @@ anton-mezhuev:
   profiles:
     - service: vk
       id: '63571521'
-      updated: 2025-12-04-21-24-10
+      updated: 2025-12-04-22-14-35
       username: id63571521
       name: Антон Межуев
       avatar: store:/avatars/vk-295e8e4f.jpg
@@ -879,7 +879,7 @@ bulatmetal:
   profiles:
     - service: tg
       id: '5159568404'
-      updated: 2025-11-27-21-16-30
+      updated: 2025-12-04-22-14-17
       accessHash: '-7589226771447153320'
       username: bulatmetal
       name: Черепашка
@@ -1348,7 +1348,7 @@ dehero:
       avatar: store:/avatars/gh-c8afe641.jpg
     - service: vk
       id: '3652910'
-      updated: 2025-12-04-21-46-31
+      updated: 2025-12-04-22-14-29
       username: dehero
       name: Антон Курьянов
       avatar: store:/avatars/vk-5356f76e.jpg
@@ -1591,7 +1591,7 @@ dremarretres:
   profiles:
     - service: vk
       id: '801308664'
-      updated: 2025-12-04-20-19-45
+      updated: 2025-12-04-22-14-18
       username: dremarretres
       name: Джон Шепард
       avatar: store:/avatars/vk-ac4f0700.jpg
@@ -1889,7 +1889,7 @@ feanor2la:
   profiles:
     - service: vk
       id: '16294877'
-      updated: 2025-12-04-21-18-01
+      updated: 2025-12-04-22-14-18
       username: feanor2la
       name: Иван Урлапов
       avatar: store:/avatars/vk-14fd45f0.jpg
@@ -2792,7 +2792,7 @@ kawazaky223:
   profiles:
     - service: tg
       id: '5641856113'
-      updated: 2025-12-04-21-46-17
+      updated: 2025-12-04-22-14-20
       accessHash: '7421309771527577818'
       username: Kawazaky223
       name: Максим
@@ -3331,7 +3331,7 @@ mbdtsmo:
   profiles:
     - service: tg
       id: '5093097514'
-      updated: 2025-12-04-21-16-18
+      updated: 2025-12-04-22-14-11
       accessHash: '-613358669572386334'
       username: mbdtsmo
       name: M Bdtsmo
@@ -3715,7 +3715,7 @@ nerevarine:
   profiles:
     - service: tg
       id: '373264328'
-      updated: 2025-12-04-21-16-24
+      updated: 2025-12-04-22-14-16
       accessHash: '9078366854792939477'
       username: Nerevarine
       name: Otto Godblessed
@@ -4084,7 +4084,7 @@ peteev:
   profiles:
     - service: vk
       id: '546263681'
-      updated: 2025-11-27-21-16-33
+      updated: 2025-12-04-22-14-17
       username: peteev
       name: Андрей Николаевич
       avatar: store:/avatars/vk-5087d15d.jpg
@@ -4092,7 +4092,7 @@ peteevandrew:
   profiles:
     - service: vk
       id: '307619379'
-      updated: 2025-12-04-21-46-20
+      updated: 2025-12-04-22-14-29
       username: peteevandrew
       name: Андрей Петеев
       avatar: store:/avatars/vk-d3f26d8e.jpg
@@ -4309,7 +4309,7 @@ qirong666:
   profiles:
     - service: vk
       id: '229334633'
-      updated: 2025-12-04-21-27-57
+      updated: 2025-12-04-22-14-35
       username: qirong666
       name: Qi Rong
       avatar: store:/avatars/vk-6f8a5bb2.jpg
@@ -4696,7 +4696,7 @@ sergey-b-2:
   profiles:
     - service: vk
       id: '1077446394'
-      updated: 2025-12-04-21-16-30
+      updated: 2025-12-04-22-14-34
       username: id1077446394
       name: Сергей Б
       avatar: store:/avatars/vk-a7369956.jpg
@@ -6210,7 +6210,7 @@ yellow-submarine:
   profiles:
     - service: vk
       id: '21865013'
-      updated: 2025-11-30-21-16-18
+      updated: 2025-12-04-22-14-22
       username: id21865013
       name: Yellow Submarine
       avatar: store:/avatars/vk-0251fbbd.jpg
@@ -6306,7 +6306,7 @@ zuriz:
   profiles:
     - service: vk
       id: '41386909'
-      updated: 2025-12-04-20-19-51
+      updated: 2025-12-04-22-14-28
       username: zuriz
       name: Роман Зуризятинов
       avatar: store:/avatars/vk-2617f79c.jpg
