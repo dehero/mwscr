@@ -305,7 +305,7 @@
       id: DFs2F0zzJxc
       mediaId: '17874312648182641'
       published: 2025-02-05-18-11-01
-      updated: 2025-11-28-17-16-50
+      updated: 2025-12-05-18-22-26
       followers: 1535
       likes: 94
       views: 346
@@ -346,7 +346,7 @@
       id: DFva6jgtZhu
       mediaId: '17959942712749458'
       published: 2025-02-06-18-11-14
-      updated: 2025-11-28-17-16-49
+      updated: 2025-12-05-18-22-26
       followers: 1534
       likes: 149
       views: 537
@@ -2809,24 +2809,24 @@
       id: DRxWYFrmBxp
       mediaId: '18063697112440129'
       published: 2025-12-02-18-26-50
-      updated: 2025-12-04-17-19-57
+      updated: 2025-12-05-18-21-56
       followers: 1599
-      likes: 56
+      likes: 60
     - service: vk
       id: 2917
       published: 2025-12-02-18-27-01
-      updated: 2025-12-04-17-19-52
+      updated: 2025-12-05-18-21-56
       followers: 1532
-      likes: 83
-      views: 2249
+      likes: 89
+      views: 2579
       reposts: 2
     - service: tg
       id: 1077
       published: 2025-12-02-18-27-05
-      updated: 2025-12-04-17-19-57
+      updated: 2025-12-05-18-21-58
       followers: 867
-      likes: 58
-      views: 310
+      likes: 61
+      views: 350
 2025-12-03-1-near-mababi:
   title: Near Mababi
   titleRu: У Мабаби
@@ -2852,16 +2852,16 @@
       id: DRz7PyeD1yU
       mediaId: '17991717650731602'
       published: 2025-12-03-18-27-30
-      updated: 2025-12-05-17-16-28
+      updated: 2025-12-05-18-21-55
       followers: 1599
       likes: 51
     - service: vk
       id: 2919
       published: 2025-12-03-18-27-35
-      updated: 2025-12-05-17-16-30
+      updated: 2025-12-05-18-21-55
       followers: 1536
       likes: 46
-      views: 507
+      views: 510
       reposts: 2
       comments: !c |-
         G68A+C0ObEc0zUDwhi4E5S+NJ97bCE8HcymaBdpLLIgk+afbfJ4v6PnGUliaSycnmnFM7xLU9mWx
@@ -2870,7 +2870,7 @@
     - service: tg
       id: 1078
       published: 2025-12-03-18-27-38
-      updated: 2025-12-05-17-16-30
+      updated: 2025-12-05-18-21-58
       followers: 866
       likes: 59
       views: 292
@@ -2896,20 +2896,49 @@
       id: DR2l4P4jSBX
       mediaId: '17984359127764520'
       published: 2025-12-04-19-18-30
-      updated: 2025-12-05-17-16-27
+      updated: 2025-12-05-18-21-54
       followers: 1600
-      likes: 39
+      likes: 42
     - service: vk
       id: 2920
       published: 2025-12-04-19-18-36
-      updated: 2025-12-05-17-16-24
+      updated: 2025-12-05-18-21-50
       followers: 1537
-      likes: 13
-      views: 172
+      likes: 14
+      views: 175
     - service: tg
       id: 1079
       published: 2025-12-04-19-18-40
-      updated: 2025-12-05-17-16-24
+      updated: 2025-12-05-18-21-50
       followers: 867
-      likes: 47
-      views: 245
+      likes: 48
+      views: 246
+2025-12-05-1-unexplored-shipwreck:
+  title: Unexplored Shipwreck
+  titleRu: Неисследованные обломки
+  placement: Outdoors
+  location:
+    - Unexplored Shipwreck
+    - Bitter Coast Region
+  content: store:/shots/2025-12-05-1-unexplored-shipwreck.png
+  type: shot
+  author: dehero
+  engine: OpenMW
+  tags:
+    - tree
+    - ship
+  mark: B2
+  posts:
+    - service: ig
+      id: DR5EVHZj5ia
+      mediaId: '18399316372121352'
+      published: 2025-12-05-18-23-06
+      followers: 1600
+    - service: vk
+      id: 2922
+      published: 2025-12-05-18-23-12
+      followers: 1537
+    - service: tg
+      id: 1080
+      published: 2025-12-05-18-23-15
+      followers: 868
