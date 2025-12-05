@@ -525,7 +525,7 @@ artem-solovev:
   profiles:
     - service: vk
       id: '733007624'
-      updated: 2025-12-04-21-22-54
+      updated: 2025-12-05-19-13-35
       username: id733007624
       name: Артем Соловьев
       avatar: store:/avatars/vk-04a89351.jpg
@@ -565,7 +565,7 @@ arya-stark:
   profiles:
     - service: vk
       id: '820702664'
-      updated: 2025-12-05-14-17-32
+      updated: 2025-12-05-19-13-37
       username: id820702664
       name: Арья Старк
       avatar: store:/avatars/vk-689aa89d.jpg
@@ -997,7 +997,7 @@ chernosotinec:
   profiles:
     - service: vk
       id: '355750944'
-      updated: 2025-12-04-21-46-30
+      updated: 2025-12-05-19-13-37
       username: Chernosotinec
       name: Артём Стекольщиков
       avatar: store:/avatars/vk-8aee5603.jpg
@@ -1348,7 +1348,7 @@ dehero:
       avatar: store:/avatars/gh-c8afe641.jpg
     - service: vk
       id: '3652910'
-      updated: 2025-12-04-22-14-29
+      updated: 2025-12-05-19-13-37
       username: dehero
       name: Антон Курьянов
       avatar: store:/avatars/vk-5356f76e.jpg
@@ -1368,7 +1368,7 @@ dehero:
     - type: channel
       service: tg
       id: '1264795946'
-      updated: 2025-12-05-03-16-07
+      updated: 2025-12-05-19-13-33
       accessHash: '-5789257269249675714'
       username: mwscr
       name: Morrowind Screenshots
@@ -1659,7 +1659,7 @@ egor-aleksandrovich:
   profiles:
     - service: vk
       id: '323518089'
-      updated: 2025-12-04-18-31-40
+      updated: 2025-12-05-19-13-36
       username: id323518089
       name: Егор Александрович
       avatar: store:/avatars/vk-dbfb2813.jpg
@@ -2258,7 +2258,7 @@ himmelherz:
   profiles:
     - service: tg
       id: '588028426'
-      updated: 2025-12-05-01-15-11
+      updated: 2025-12-05-19-13-33
       accessHash: '3598871882011829639'
       username: himmelherz
       name: Roman
@@ -2443,7 +2443,7 @@ ilyatamrielsky:
   profiles:
     - service: vk
       id: '450332094'
-      updated: 2025-12-04-21-36-55
+      updated: 2025-12-05-19-13-35
       username: ilyatamrielsky
       name: Илья Кудинов
       avatar: store:/avatars/vk-4dd811d3.jpg
@@ -3216,7 +3216,7 @@ maksim-bondarenko:
   profiles:
     - service: vk
       id: '538324952'
-      updated: 2025-12-04-18-31-39
+      updated: 2025-12-05-19-13-35
       username: id538324952
       name: Максим Бондаренко
       avatar: store:/avatars/vk-77942374.jpg
@@ -4092,7 +4092,7 @@ peteevandrew:
   profiles:
     - service: vk
       id: '307619379'
-      updated: 2025-12-04-22-14-29
+      updated: 2025-12-05-19-13-35
       username: peteevandrew
       name: Андрей Петеев
       avatar: store:/avatars/vk-d3f26d8e.jpg
