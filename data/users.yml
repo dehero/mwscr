@@ -411,7 +411,7 @@ andrey-yaprintsev:
   profiles:
     - service: vk
       id: '599320069'
-      updated: 2025-12-04-21-20-19
+      updated: 2025-12-05-22-15-58
       username: id599320069
       name: Андрей Япринцев
       avatar: store:/avatars/vk-4e415fa2.jpg
@@ -565,7 +565,7 @@ arya-stark:
   profiles:
     - service: vk
       id: '820702664'
-      updated: 2025-12-05-19-13-37
+      updated: 2025-12-05-22-15-59
       username: id820702664
       name: Арья Старк
       avatar: store:/avatars/vk-689aa89d.jpg
@@ -2792,7 +2792,7 @@ kawazaky223:
   profiles:
     - service: tg
       id: '5641856113'
-      updated: 2025-12-05-21-15-20
+      updated: 2025-12-05-22-15-58
       accessHash: '7421309771527577818'
       username: Kawazaky223
       name: Максим
