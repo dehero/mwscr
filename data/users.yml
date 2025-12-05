@@ -259,7 +259,7 @@ aleksey-kobzev:
   profiles:
     - service: vk
       id: '51091828'
-      updated: 2025-11-28-13-29-49
+      updated: 2025-12-05-14-17-32
       username: id51091828
       name: Алексей Кобзев
       avatar: store:/avatars/vk-007e8576.jpg
@@ -451,7 +451,7 @@ ansis:
   profiles:
     - service: tg
       id: '517050552'
-      updated: 2025-12-05-13-29-53
+      updated: 2025-12-05-14-17-28
       accessHash: '5231096655311395455'
       username: ansis
       name: ansis
@@ -565,7 +565,7 @@ arya-stark:
   profiles:
     - service: vk
       id: '820702664'
-      updated: 2025-12-05-01-15-15
+      updated: 2025-12-05-14-17-32
       username: id820702664
       name: Арья Старк
       avatar: store:/avatars/vk-689aa89d.jpg
@@ -629,7 +629,7 @@ balmora-blue:
   profiles:
     - service: vk
       id: '319590859'
-      updated: 2025-12-04-21-18-29
+      updated: 2025-12-05-14-17-31
       username: balmora.blue
       name: Любовь Любовь
       avatar: store:/avatars/vk-0a1d35cc.jpg
@@ -1591,7 +1591,7 @@ dremarretres:
   profiles:
     - service: vk
       id: '801308664'
-      updated: 2025-12-04-22-14-18
+      updated: 2025-12-05-14-17-31
       username: dremarretres
       name: Джон Шепард
       avatar: store:/avatars/vk-ac4f0700.jpg
@@ -2059,7 +2059,7 @@ ghost63rus:
   profiles:
     - service: vk
       id: '841031998'
-      updated: 2025-11-28-13-29-48
+      updated: 2025-12-05-14-17-31
       username: ghost63rus
       name: Дмитрий Кузнецов
       avatar: store:/avatars/vk-8a219c17.jpg
@@ -2792,7 +2792,7 @@ kawazaky223:
   profiles:
     - service: tg
       id: '5641856113'
-      updated: 2025-12-05-13-30-03
+      updated: 2025-12-05-14-17-34
       accessHash: '7421309771527577818'
       username: Kawazaky223
       name: Максим
@@ -2889,10 +2889,10 @@ konstantin-matrosov:
   profiles:
     - service: vk
       id: '93073669'
-      updated: 2025-12-05-01-15-09
+      updated: 2025-12-05-14-17-43
       username: id93073669
       name: Константин Матросов
-      avatar: store:/avatars/vk-57cb43a8.jpg
+      avatar: store:/avatars/vk-8d667bf5.jpg
 konstantinmk:
   profiles:
     - service: vk
@@ -3322,7 +3322,7 @@ max-upsher:
   profiles:
     - service: tg
       id: '1774562733'
-      updated: 2025-12-04-21-46-16
+      updated: 2025-12-05-14-17-33
       accessHash: '1025402626840048013'
       username: MaxUpsher
       name: Max Upsher
@@ -3331,7 +3331,7 @@ mbdtsmo:
   profiles:
     - service: tg
       id: '5093097514'
-      updated: 2025-12-05-13-29-48
+      updated: 2025-12-05-14-17-33
       accessHash: '-613358669572386334'
       username: mbdtsmo
       name: M Bdtsmo
@@ -3715,7 +3715,7 @@ nerevarine:
   profiles:
     - service: tg
       id: '373264328'
-      updated: 2025-12-05-13-29-54
+      updated: 2025-12-05-14-17-29
       accessHash: '9078366854792939477'
       username: Nerevarine
       name: Otto Godblessed
@@ -3856,7 +3856,7 @@ oberhort:
   profiles:
     - service: tg
       id: '19254498'
-      updated: 2025-11-28-13-29-46
+      updated: 2025-12-05-14-17-29
       accessHash: '-564270059565994883'
       username: oberhort
       name: Игорь
@@ -4386,7 +4386,7 @@ redoranar:
   profiles:
     - service: tg
       id: '627928484'
-      updated: 2025-12-04-21-46-29
+      updated: 2025-12-05-14-17-34
       accessHash: '4117269213935533016'
       username: Redoranar
       name: Egor
@@ -4682,7 +4682,7 @@ sergey-b:
   profiles:
     - service: vk
       id: '889222999'
-      updated: 2025-12-04-21-46-20
+      updated: 2025-12-05-14-17-49
       username: id889222999
       avatar: store:/avatars/vk-7f160215.jpg
       deleted: true
@@ -4696,7 +4696,7 @@ sergey-b-2:
   profiles:
     - service: vk
       id: '1077446394'
-      updated: 2025-12-05-13-29-53
+      updated: 2025-12-05-14-17-28
       username: id1077446394
       name: Сергей Б
       avatar: store:/avatars/vk-a7369956.jpg
@@ -4704,7 +4704,7 @@ sergey-churbanov:
   profiles:
     - service: vk
       id: '1060712354'
-      updated: 2025-12-04-19-17-24
+      updated: 2025-12-05-14-17-40
       username: id1060712354
       name: Сергей Чурбанов
       avatar: store:/avatars/vk-6499ce8d.jpg
@@ -5964,7 +5964,7 @@ vladkr114:
   profiles:
     - service: vk
       id: '210352858'
-      updated: 2025-12-04-21-29-28
+      updated: 2025-12-05-14-17-33
       username: vladkr114
       name: Влад Крамской
       avatar: store:/avatars/vk-dfe1d842.jpg
