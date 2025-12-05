@@ -2209,10 +2209,10 @@
     - service: vk
       id: 2512
       published: 2025-07-10-18-24-32
-      updated: 2025-11-28-14-18-54
+      updated: 2025-12-05-15-18-18
       followers: 1337
       likes: 52
-      views: 609
+      views: 610
     - service: tg
       id: 913
       published: 2025-07-10-18-24-36
@@ -5929,7 +5929,7 @@
       id: DKxUckuMUki
       mediaId: '17851054788436404'
       published: 2025-06-11-18-30-09
-      updated: 2025-11-28-14-19-12
+      updated: 2025-12-05-15-18-42
       followers: 1554
       likes: 64
     - service: vk
@@ -7744,7 +7744,7 @@
       id: DLiPW9TM4zK
       mediaId: '18098634301580421'
       published: 2025-06-30-18-28-29
-      updated: 2025-11-28-14-18-48
+      updated: 2025-12-05-15-18-02
       followers: 1553
       likes: 127
       comments: !c |-
@@ -11281,10 +11281,10 @@
     - service: vk
       id: 2520
       published: 2025-07-17-18-25-15
-      updated: 2025-11-28-14-18-51
+      updated: 2025-12-05-15-18-09
       followers: 1344
       likes: 50
-      views: 489
+      views: 491
       reposts: 2
       comments: !c |-
         G9YAYJ0JdozKK3T3hoioW5zQaaoBFqVB3gSYRJ7skb2q243RT8iELTvNC6RFGSByxx7TXfv1EMjP
@@ -12754,9 +12754,9 @@
       id: DLDVy6ssHHG
       mediaId: '18052606397372853'
       published: 2025-06-18-18-28-17
-      updated: 2025-11-28-14-19-05
+      updated: 2025-12-05-15-18-32
       followers: 1552
-      likes: 82
+      likes: 83
     - service: vk
       id: 2473
       published: 2025-06-18-18-28-24
@@ -13477,7 +13477,7 @@
       id: DLfqR4asKM3
       mediaId: '17884759560321836'
       published: 2025-06-29-18-26-03
-      updated: 2025-11-28-14-18-49
+      updated: 2025-12-05-15-18-05
       followers: 1553
       likes: 79
     - service: vk
@@ -13538,26 +13538,26 @@
     - service: vk
       id: 2486
       published: 2025-06-26-18-28-54
-      updated: 2025-11-28-14-18-57
+      updated: 2025-12-05-15-18-21
       followers: 1328
       likes: 52
-      views: 452
+      views: 453
       reposts: 2
     - service: tg
       id: 897
       published: 2025-06-26-18-28-58
-      updated: 2025-11-28-14-18-47
+      updated: 2025-12-05-15-18-03
       followers: 756
       likes: 73
-      views: 585
+      views: 588
       comments: !c iw+AkZPLQnl69+fcAACvdmFpbC1hc3Rvci16a2l5pPCfpK8D
     - service: ig
       id: DLaLhKMMolt
       mediaId: '17869988883391433'
       published: 2025-06-27-15-21-01
-      updated: 2025-11-28-14-18-55
+      updated: 2025-12-05-15-18-19
       followers: 1554
-      likes: 75
+      likes: 74
 2018-10-25-night-quay-of-tel-mora:
   title: Night Quay of Tel Mora
   titleRu: Ночная набережная Тель Моры
