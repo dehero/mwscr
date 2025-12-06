@@ -2809,24 +2809,24 @@
       id: DRxWYFrmBxp
       mediaId: '18063697112440129'
       published: 2025-12-02-18-26-50
-      updated: 2025-12-05-18-21-56
+      updated: 2025-12-06-19-12-37
       followers: 1599
-      likes: 60
+      likes: 61
     - service: vk
       id: 2917
       published: 2025-12-02-18-27-01
-      updated: 2025-12-05-18-21-56
+      updated: 2025-12-06-19-12-39
       followers: 1532
-      likes: 89
-      views: 2579
+      likes: 93
+      views: 2886
       reposts: 2
     - service: tg
       id: 1077
       published: 2025-12-02-18-27-05
-      updated: 2025-12-05-18-21-58
+      updated: 2025-12-06-19-12-38
       followers: 867
-      likes: 61
-      views: 350
+      likes: 62
+      views: 393
 2025-12-03-1-near-mababi:
   title: Near Mababi
   titleRu: У Мабаби
@@ -2852,16 +2852,16 @@
       id: DRz7PyeD1yU
       mediaId: '17991717650731602'
       published: 2025-12-03-18-27-30
-      updated: 2025-12-05-18-21-55
+      updated: 2025-12-06-19-12-36
       followers: 1599
-      likes: 51
+      likes: 53
     - service: vk
       id: 2919
       published: 2025-12-03-18-27-35
-      updated: 2025-12-05-18-21-55
+      updated: 2025-12-06-19-12-38
       followers: 1536
-      likes: 46
-      views: 510
+      likes: 50
+      views: 570
       reposts: 2
       comments: !c |-
         G68A+C0ObEc0zUDwhi4E5S+NJ97bCE8HcymaBdpLLIgk+afbfJ4v6PnGUliaSycnmnFM7xLU9mWx
@@ -2870,10 +2870,10 @@
     - service: tg
       id: 1078
       published: 2025-12-03-18-27-38
-      updated: 2025-12-05-18-21-58
+      updated: 2025-12-06-19-12-38
       followers: 866
-      likes: 59
-      views: 292
+      likes: 62
+      views: 329
       comments: !c |-
         G5YAAIyUbsI8H/6aZyeaAX5nsY2n7y8qQRsoQ3ReAlWf+zo50QPK4YegLaIo54vlNgaCy+MRxwlq
         9B5P707rFKPnQ2qdI9FqJVd4Ky6DHIM8g0ryq5BjMLcIqbYmffSET1oiX0lVFn+jW4DwY97lY+VY
@@ -2896,23 +2896,23 @@
       id: DR2l4P4jSBX
       mediaId: '17984359127764520'
       published: 2025-12-04-19-18-30
-      updated: 2025-12-06-18-21-16
+      updated: 2025-12-06-19-12-35
       followers: 1600
       likes: 47
     - service: vk
       id: 2920
       published: 2025-12-04-19-18-36
-      updated: 2025-12-06-18-21-17
+      updated: 2025-12-06-19-12-37
       followers: 1537
       likes: 29
-      views: 277
+      views: 285
     - service: tg
       id: 1079
       published: 2025-12-04-19-18-40
-      updated: 2025-12-06-18-21-12
+      updated: 2025-12-06-19-12-32
       followers: 867
       likes: 54
-      views: 304
+      views: 313
 2025-12-05-1-unexplored-shipwreck:
   title: Unexplored Shipwreck
   titleRu: Неисследованные обломки
@@ -2933,16 +2933,16 @@
       id: DR5EVHZj5ia
       mediaId: '18399316372121352'
       published: 2025-12-05-18-23-06
-      updated: 2025-12-06-18-21-15
+      updated: 2025-12-06-19-12-35
       followers: 1600
-      likes: 34
+      likes: 36
     - service: vk
       id: 2922
       published: 2025-12-05-18-23-12
-      updated: 2025-12-06-18-21-16
+      updated: 2025-12-06-19-12-36
       followers: 1537
-      likes: 52
-      views: 461
+      likes: 53
+      views: 482
       reposts: 2
       comments: !c |-
         G30AYB0JdozLysPRNeMIlU5Uuyc8AMmgiaDEkz3QjZXUDHmIB72ClrdY3kyoUmJjcyOZ2bT3Hyl6
@@ -2951,10 +2951,10 @@
     - service: tg
       id: 1080
       published: 2025-12-05-18-23-15
-      updated: 2025-12-06-18-21-11
+      updated: 2025-12-06-19-12-31
       followers: 868
-      likes: 51
-      views: 195
+      likes: 53
+      views: 219
 2025-12-06-1-senseless-mourning:
   title: Senseless Mourning
   titleRu: Бессмысленный траур
@@ -2968,12 +2968,20 @@
       id: DR7pA38FYxo
       mediaId: '18297391996287422'
       published: 2025-12-06-18-22-04
+      updated: 2025-12-06-19-12-34
       followers: 1600
+      likes: 14
     - service: vk
       id: 2932
       published: 2025-12-06-18-22-10
+      updated: 2025-12-06-19-12-31
       followers: 1538
+      likes: 5
+      views: 50
     - service: tg
       id: 1081
       published: 2025-12-06-18-22-16
+      updated: 2025-12-06-19-12-31
       followers: 868
+      likes: 21
+      views: 103
