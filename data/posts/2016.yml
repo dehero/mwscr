@@ -472,7 +472,7 @@
       id: DRsMlP7DFzI
       mediaId: '17926522770080390'
       published: 2025-11-30-18-25-00
-      updated: 2025-12-05-19-13-37
+      updated: 2025-12-06-20-17-19
       followers: 1599
       likes: 73
       comments: !c |-
@@ -481,24 +481,27 @@
     - service: vk
       id: 2904
       published: 2025-11-30-18-25-05
-      updated: 2025-12-05-19-13-37
+      updated: 2025-12-06-20-17-32
       followers: 1532
-      likes: 67
-      views: 426
+      likes: 68
+      views: 444
       reposts: 3
       comments: !c |-
-        G6gBABwJNk7x4Um7wT//p4bwBTdoiNO5LKIdoGOC9vi8r/a1UOo2YQVOYhDuMlrWfPlN3QaGaIwG
-        a1M2hhg8/rEZqpiCljvRI88xa09ZksAvfDmyNOJuQYKZBeW2ssGaRcMfM8gLelxvnqW5ncdvRLf2
-        oLv6yH4YzrrtUJ0ynXIvOAaJDDAxOxcfYQkBBlpM8QMyk50G3vV353rV1MWW7Ma3e4NpkkaFgX9y
-        23e6+WMeGmHY7LkIyPXIZsauylOxLQwqrvVJw3Ig0SS2IbBr+RLsKsRDIgsTUI7lnhYGtgudwAIB
-        5zIRVYrYonixc5EdUNgLe5KyWG0y2qnZwsBiAqboenlYoUpHiQE=
+        G/8CQCwOzHOPR1QQb9i9Tzme/7g3t4js2vu4FfQTb9EGuMAlCVhrGMp4PTdEMdtGqMEUCM0ztHcy
+        GT9+jN3aDjAPrGWBvAj5/Z/1kQfaIkjdFtNrOGfoUS6ICNZwbZZufLXy5idupgGWBRpHmMmaNMbS
+        LhoLwzQKe/K/R9mgr256OXb5zWKatoJksj08XnyO/Pn4a52nVUb/jX1LDRKrTl7tcc/hhHAMgVBS
+        0/Ib4YVAIIuVDRg6On2OTvs8OHTeNiqZUaliqqXR7L49JCzVnpYJ0dyedDwvpKDeXS+UXe6v+392
+        wCsFAintVXDgd/3G/aIvprWgFO/d0FAe0jqD/T+Nfb1Gc1tAVnZIvoCxm9bXPWckV/TUwDDDCWp2
+        nrDyIE8z0U9OCTiJNlIPvVl5OKIkA+aMbjbYP0K6EUgheJumABpyQqMq4QPTtFY65B7FUzSvcLM+
+        GpySUCPDyYAEtyAiNRgdntwUEev92DFjyxgr1P4TLcIgLKGkCmka+aRF35QZWaFMXKiY0qMS3afx
+        sZxCkhajg27YT9N2WB4UctGW7oupz2LHwc3J/72/AA==
     - service: tg
       id: 1075
       published: 2025-11-30-18-25-09
-      updated: 2025-12-05-19-13-34
+      updated: 2025-12-06-20-17-18
       followers: 867
       likes: 65
-      views: 390
+      views: 403
 2016-11-27-lonely-fargoth:
   title: Lonely Fargoth
   titleRu: Одинокий Фаргот
