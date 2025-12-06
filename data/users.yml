@@ -3425,6 +3425,14 @@ mikhail-aleksandrov:
       username: id199993738
       name: Михаил Александров
       avatar: store:/avatars/vk-30216be3.jpg
+mikhail-dmitriev:
+  profiles:
+    - service: vk
+      id: '50458926'
+      updated: 2025-12-06-09-15-49
+      username: id50458926
+      name: Михаил Дмитриев
+      avatar: store:/avatars/vk-77942374.jpg
 mirasolcosplay:
   profiles:
     - service: ig
