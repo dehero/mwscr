@@ -2896,20 +2896,20 @@
       id: DR2l4P4jSBX
       mediaId: '17984359127764520'
       published: 2025-12-04-19-18-30
-      updated: 2025-12-06-17-13-43
+      updated: 2025-12-06-18-21-16
       followers: 1600
       likes: 47
     - service: vk
       id: 2920
       published: 2025-12-04-19-18-36
-      updated: 2025-12-06-17-13-46
+      updated: 2025-12-06-18-21-17
       followers: 1537
       likes: 29
-      views: 276
+      views: 277
     - service: tg
       id: 1079
       published: 2025-12-04-19-18-40
-      updated: 2025-12-06-17-13-40
+      updated: 2025-12-06-18-21-12
       followers: 867
       likes: 54
       views: 304
@@ -2933,16 +2933,16 @@
       id: DR5EVHZj5ia
       mediaId: '18399316372121352'
       published: 2025-12-05-18-23-06
-      updated: 2025-12-06-17-13-42
+      updated: 2025-12-06-18-21-15
       followers: 1600
       likes: 34
     - service: vk
       id: 2922
       published: 2025-12-05-18-23-12
-      updated: 2025-12-06-17-13-45
+      updated: 2025-12-06-18-21-16
       followers: 1537
-      likes: 50
-      views: 448
+      likes: 52
+      views: 461
       reposts: 2
       comments: !c |-
         G30AYB0JdozLysPRNeMIlU5Uuyc8AMmgiaDEkz3QjZXUDHmIB72ClrdY3kyoUmJjcyOZ2bT3Hyl6
@@ -2951,7 +2951,29 @@
     - service: tg
       id: 1080
       published: 2025-12-05-18-23-15
-      updated: 2025-12-06-17-13-39
+      updated: 2025-12-06-18-21-11
       followers: 868
       likes: 51
       views: 195
+2025-12-06-1-senseless-mourning:
+  title: Senseless Mourning
+  titleRu: Бессмысленный траур
+  placement: Indoors
+  content: store:/shots/2025-12-06-1-senseless-mourning.png
+  type: shot
+  author: ohsweetnazareth
+  mark: B1
+  posts:
+    - service: ig
+      id: DR7pA38FYxo
+      mediaId: '18297391996287422'
+      published: 2025-12-06-18-22-04
+      followers: 1600
+    - service: vk
+      id: 2932
+      published: 2025-12-06-18-22-10
+      followers: 1538
+    - service: tg
+      id: 1081
+      published: 2025-12-06-18-22-16
+      followers: 868
