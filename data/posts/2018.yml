@@ -7893,16 +7893,16 @@
       id: DQSDh_ekZfS
       mediaId: '17990028470889935'
       published: 2025-10-26-18-14-17
-      updated: 2025-11-30-21-16-17
+      updated: 2025-12-07-22-15-03
       followers: 1588
-      likes: 64
+      likes: 65
     - service: vk
       id: 2780
       published: 2025-10-26-18-14-23
-      updated: 2025-11-30-21-16-21
+      updated: 2025-12-07-22-15-13
       followers: 1486
       likes: 90
-      views: 1567
+      views: 1572
       reposts: 1
       comments: !c |-
         G7sBgJwHtm0nC/aGvZoZm9LoeTmxhD/ltkUejgcy4GVCzZIRTO6RzdxWKUG6YEjn2MHNuRnyx/Tq
@@ -7913,10 +7913,10 @@
     - service: tg
       id: 1028
       published: 2025-10-26-18-14-29
-      updated: 2025-11-30-21-16-19
+      updated: 2025-12-07-22-15-11
       followers: 848
       likes: 63
-      views: 541
+      views: 544
       comments: !c |-
         CzSAkpPLQnmiQp0oAAClYW5zaXPZNEl0IG1heSBub3QgZmVlbCB0b28gaG9tZXksIGJ1dCBpdCdz
         IGhvbWUgbm9uZXRoZWxlc3OTy0J5okHdBIAAq2thd2F6YWt5MjIzq/CfmLbigI3wn4yrAw==
@@ -11071,16 +11071,16 @@
       id: DQkFDBYjHfY
       mediaId: '17877549345425801'
       published: 2025-11-02-18-13-51
-      updated: 2025-11-30-21-16-15
+      updated: 2025-12-07-22-14-59
       followers: 1588
-      likes: 52
+      likes: 53
     - service: vk
       id: 2808
       published: 2025-11-02-18-13-57
-      updated: 2025-11-30-21-16-19
+      updated: 2025-12-07-22-15-09
       followers: 1495
       likes: 64
-      views: 770
+      views: 778
       reposts: 2
       comments: !c |-
         ix2AkZPLQnmkg7uWgACweWVsbG93LXN1Ym1hcmluZb/QkiDRjtGA0YLQtSDRgyDRiNCw0LzQsNC9
@@ -11088,10 +11088,10 @@
     - service: tg
       id: 1038
       published: 2025-11-02-18-14-01
-      updated: 2025-11-30-21-16-16
+      updated: 2025-12-07-22-15-06
       followers: 851
       likes: 75
-      views: 499
+      views: 508
       comments: !c iw2AkZPLQnmk6oWNgACra2F3YXpha3kyMjOk8J+MmQM=
 2018-09-07-red-light:
   title: Red Light
