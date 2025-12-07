@@ -509,7 +509,7 @@ arseniy-dyak:
   profiles:
     - service: tg
       id: '8015414871'
-      updated: 2025-11-30-06-27-18
+      updated: 2025-12-07-07-15-18
       accessHash: '-4817807801428753368'
       name: Арсений Дьяк
       avatar: store:/avatars/tg-5449508089633047237.jpg
@@ -517,7 +517,7 @@ artem-petrov:
   profiles:
     - service: vk
       id: '4238605'
-      updated: 2025-12-07-04-30-37
+      updated: 2025-12-07-07-15-22
       username: id4238605
       name: Артем Петров
       avatar: store:/avatars/vk-77942374.jpg
@@ -1777,7 +1777,7 @@ ellia-isard:
   profiles:
     - service: vk
       id: '215194827'
-      updated: 2025-12-04-21-16-29
+      updated: 2025-12-07-07-15-24
       username: ellia_isard
       name: Эллия Айсард
       avatar: store:/avatars/vk-6b0c7b7c.jpg
@@ -1911,7 +1911,7 @@ filavandrel-official:
   profiles:
     - service: vk
       id: '682643734'
-      updated: 2025-12-07-04-30-35
+      updated: 2025-12-07-07-15-22
       username: filavandrel_official
       name: Евгений Уланов
       avatar: store:/avatars/vk-6d180d88.jpg
@@ -2172,7 +2172,7 @@ grozovetz:
   profiles:
     - service: tg
       id: '6450079125'
-      updated: 2025-11-30-06-27-24
+      updated: 2025-12-07-07-15-18
       accessHash: '-8599884052450679527'
       username: grozovetz
       name: Константин
@@ -2792,7 +2792,7 @@ kawazaky223:
   profiles:
     - service: tg
       id: '5641856113'
-      updated: 2025-12-07-05-15-02
+      updated: 2025-12-07-07-15-17
       accessHash: '7421309771527577818'
       username: Kawazaky223
       name: Максим
@@ -2889,7 +2889,7 @@ konstantin-matrosov:
   profiles:
     - service: vk
       id: '93073669'
-      updated: 2025-12-07-04-30-38
+      updated: 2025-12-07-07-15-23
       username: id93073669
       name: Константин Матросов
       avatar: store:/avatars/vk-8d667bf5.jpg
@@ -3437,7 +3437,7 @@ mikhail-dmitriev:
   profiles:
     - service: vk
       id: '50458926'
-      updated: 2025-12-07-06-22-44
+      updated: 2025-12-07-07-15-18
       username: id50458926
       name: Михаил Дмитриев
       avatar: store:/avatars/vk-77942374.jpg
@@ -3472,7 +3472,7 @@ mister-purrfect:
   profiles:
     - service: vk
       id: '872831147'
-      updated: 2025-12-04-21-23-35
+      updated: 2025-12-07-07-15-21
       username: id872831147
       name: Mister Purrfect
       avatar: store:/avatars/vk-d502311b.jpg
@@ -4204,7 +4204,7 @@ pohotlivaya-argonianskaya-deva:
   profiles:
     - service: tg
       id: '754205623'
-      updated: 2025-12-06-21-14-13
+      updated: 2025-12-07-07-15-18
       accessHash: '-9198477663948575721'
       username: PohotlivayaArgonianskayaDeva
       name: Илья
@@ -4712,7 +4712,7 @@ sergey-b-2:
   profiles:
     - service: vk
       id: '1077446394'
-      updated: 2025-12-07-06-22-44
+      updated: 2025-12-07-07-15-19
       username: id1077446394
       name: Сергей Б
       avatar: store:/avatars/vk-a7369956.jpg
@@ -4720,7 +4720,7 @@ sergey-churbanov:
   profiles:
     - service: vk
       id: '1060712354'
-      updated: 2025-12-06-22-15-48
+      updated: 2025-12-07-07-15-24
       username: id1060712354
       name: Сергей Чурбанов
       avatar: store:/avatars/vk-6499ce8d.jpg
@@ -4851,7 +4851,7 @@ slavaisaykin:
   profiles:
     - service: vk
       id: '64157384'
-      updated: 2025-12-04-21-46-21
+      updated: 2025-12-07-07-15-24
       username: slavaisaykin
       name: Слава Исайкин
       avatar: store:/avatars/vk-05c7bc90.jpg
@@ -5411,7 +5411,7 @@ todor:
   profiles:
     - service: tg
       id: '1305695186'
-      updated: 2025-12-06-22-15-21
+      updated: 2025-12-07-07-15-19
       accessHash: '8819682207926865502'
       name: Todor
       avatar: store:/avatars/tg-5305295556123424826.jpg
@@ -6226,7 +6226,7 @@ yellow-submarine:
   profiles:
     - service: vk
       id: '21865013'
-      updated: 2025-12-06-22-15-12
+      updated: 2025-12-07-07-15-22
       username: id21865013
       name: Yellow Submarine
       avatar: store:/avatars/vk-0251fbbd.jpg
