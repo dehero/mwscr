@@ -92,7 +92,7 @@ a2-enkelli:
   profiles:
     - service: tg
       id: '7258424423'
-      updated: 2025-12-07-04-30-29
+      updated: 2025-12-07-21-13-50
       accessHash: '969825927170686844'
       username: A2_Enkelli
       name: †† elli ††
@@ -451,7 +451,7 @@ ansis:
   profiles:
     - service: tg
       id: '517050552'
-      updated: 2025-12-07-20-17-28
+      updated: 2025-12-07-21-13-39
       accessHash: '5231096655311395455'
       username: ansis
       name: ansis
@@ -525,7 +525,7 @@ artem-solovev:
   profiles:
     - service: vk
       id: '733007624'
-      updated: 2025-12-06-22-15-17
+      updated: 2025-12-07-21-13-38
       username: id733007624
       name: Артем Соловьев
       avatar: store:/avatars/vk-04a89351.jpg
@@ -565,7 +565,7 @@ arya-stark:
   profiles:
     - service: vk
       id: '820702664'
-      updated: 2025-12-07-20-17-15
+      updated: 2025-12-07-21-14-05
       username: id820702664
       name: Арья Старк
       avatar: store:/avatars/vk-689aa89d.jpg
@@ -997,7 +997,7 @@ chernosotinec:
   profiles:
     - service: vk
       id: '355750944'
-      updated: 2025-12-06-20-17-31
+      updated: 2025-12-07-21-14-03
       username: Chernosotinec
       name: Артём Стекольщиков
       avatar: store:/avatars/vk-8aee5603.jpg
@@ -1348,7 +1348,7 @@ dehero:
       avatar: store:/avatars/gh-c8afe641.jpg
     - service: vk
       id: '3652910'
-      updated: 2025-12-06-20-17-31
+      updated: 2025-12-07-21-14-05
       username: dehero
       name: Антон Курьянов
       avatar: store:/avatars/vk-5356f76e.jpg
@@ -1368,7 +1368,7 @@ dehero:
     - type: channel
       service: tg
       id: '1264795946'
-      updated: 2025-12-06-21-14-36
+      updated: 2025-12-07-21-13-34
       accessHash: '-5789257269249675714'
       username: mwscr
       name: Morrowind Screenshots
@@ -1659,7 +1659,7 @@ egor-aleksandrovich:
   profiles:
     - service: vk
       id: '323518089'
-      updated: 2025-12-06-20-17-22
+      updated: 2025-12-07-21-13-46
       username: id323518089
       name: Егор Александрович
       avatar: store:/avatars/vk-dbfb2813.jpg
@@ -2258,7 +2258,7 @@ himmelherz:
   profiles:
     - service: tg
       id: '588028426'
-      updated: 2025-12-06-20-17-17
+      updated: 2025-12-07-21-13-34
       accessHash: '3598871882011829639'
       username: himmelherz
       name: Roman
@@ -2443,7 +2443,7 @@ ilyatamrielsky:
   profiles:
     - service: vk
       id: '450332094'
-      updated: 2025-12-06-20-17-22
+      updated: 2025-12-07-21-13-36
       username: ilyatamrielsky
       name: Илья Кудинов
       avatar: store:/avatars/vk-4dd811d3.jpg
@@ -2792,7 +2792,7 @@ kawazaky223:
   profiles:
     - service: tg
       id: '5641856113'
-      updated: 2025-12-07-07-15-17
+      updated: 2025-12-07-21-13-50
       accessHash: '7421309771527577818'
       username: Kawazaky223
       name: Максим
@@ -2822,7 +2822,7 @@ kevy-c:
   profiles:
     - service: tg
       id: '5067683234'
-      updated: 2025-12-07-20-17-12
+      updated: 2025-12-07-21-13-33
       accessHash: '-903667913374325979'
       username: Kevy_c
       name: Dash
@@ -3216,7 +3216,7 @@ maksim-bondarenko:
   profiles:
     - service: vk
       id: '538324952'
-      updated: 2025-12-07-20-17-46
+      updated: 2025-12-07-21-13-36
       username: id538324952
       name: Максим Бондаренко
       avatar: store:/avatars/vk-77942374.jpg
@@ -3397,7 +3397,7 @@ michael-levington:
   profiles:
     - service: vk
       id: '416916067'
-      updated: 2025-12-06-20-17-32
+      updated: 2025-12-07-21-14-05
       username: michael_levington
       name: Майкл Левингтон
       avatar: store:/avatars/vk-5fe6e343.jpg
@@ -3636,7 +3636,7 @@ myndowen:
   profiles:
     - service: tg
       id: '720784420'
-      updated: 2025-11-30-20-19-52
+      updated: 2025-12-07-21-13-50
       accessHash: '4385662928393121475'
       username: myndowen
       name: Daniel Beilin
@@ -4108,7 +4108,7 @@ peteevandrew:
   profiles:
     - service: vk
       id: '307619379'
-      updated: 2025-12-06-22-15-25
+      updated: 2025-12-07-21-14-08
       username: peteevandrew
       name: Андрей Петеев
       avatar: store:/avatars/vk-d3f26d8e.jpg
@@ -4712,7 +4712,7 @@ sergey-b-2:
   profiles:
     - service: vk
       id: '1077446394'
-      updated: 2025-12-07-20-17-28
+      updated: 2025-12-07-21-13-33
       username: id1077446394
       name: Сергей Б
       avatar: store:/avatars/vk-a7369956.jpg
