@@ -646,7 +646,7 @@ bara-fox:
   profiles:
     - service: tg
       id: '5196274219'
-      updated: 2025-12-04-21-23-12
+      updated: 2025-12-07-05-15-02
       accessHash: '-7229804243629770662'
       username: BaraFox
       name: Bara
@@ -2042,7 +2042,7 @@ georrrrrg:
   profiles:
     - service: tg
       id: '1949040922'
-      updated: 2025-12-04-21-46-15
+      updated: 2025-12-07-05-15-02
       accessHash: '-2007640679099785628'
       username: Georrrrrg
       name: Егор
@@ -2792,7 +2792,7 @@ kawazaky223:
   profiles:
     - service: tg
       id: '5641856113'
-      updated: 2025-12-07-04-30-34
+      updated: 2025-12-07-05-15-02
       accessHash: '7421309771527577818'
       username: Kawazaky223
       name: Максим
@@ -3437,7 +3437,7 @@ mikhail-dmitriev:
   profiles:
     - service: vk
       id: '50458926'
-      updated: 2025-12-07-04-30-30
+      updated: 2025-12-07-05-15-05
       username: id50458926
       name: Михаил Дмитриев
       avatar: store:/avatars/vk-77942374.jpg
@@ -4712,7 +4712,7 @@ sergey-b-2:
   profiles:
     - service: vk
       id: '1077446394'
-      updated: 2025-12-07-04-30-30
+      updated: 2025-12-07-05-15-05
       username: id1077446394
       name: Сергей Б
       avatar: store:/avatars/vk-a7369956.jpg
