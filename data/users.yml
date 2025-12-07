@@ -451,7 +451,7 @@ ansis:
   profiles:
     - service: tg
       id: '517050552'
-      updated: 2025-12-07-04-30-31
+      updated: 2025-12-07-20-17-28
       accessHash: '5231096655311395455'
       username: ansis
       name: ansis
@@ -565,7 +565,7 @@ arya-stark:
   profiles:
     - service: vk
       id: '820702664'
-      updated: 2025-12-07-04-30-35
+      updated: 2025-12-07-20-17-15
       username: id820702664
       name: Арья Старк
       avatar: store:/avatars/vk-689aa89d.jpg
@@ -2822,7 +2822,7 @@ kevy-c:
   profiles:
     - service: tg
       id: '5067683234'
-      updated: 2025-12-07-19-12-33
+      updated: 2025-12-07-20-17-12
       accessHash: '-903667913374325979'
       username: Kevy_c
       name: Dash
@@ -3216,7 +3216,7 @@ maksim-bondarenko:
   profiles:
     - service: vk
       id: '538324952'
-      updated: 2025-12-06-20-17-22
+      updated: 2025-12-07-20-17-46
       username: id538324952
       name: Максим Бондаренко
       avatar: store:/avatars/vk-77942374.jpg
@@ -3331,7 +3331,7 @@ mbdtsmo:
   profiles:
     - service: tg
       id: '5093097514'
-      updated: 2025-12-06-19-12-32
+      updated: 2025-12-07-20-17-27
       accessHash: '-613358669572386334'
       username: mbdtsmo
       name: M Bdtsmo
@@ -3731,7 +3731,7 @@ nerevarine:
   profiles:
     - service: tg
       id: '373264328'
-      updated: 2025-12-06-22-15-12
+      updated: 2025-12-07-20-17-46
       accessHash: '9078366854792939477'
       username: Nerevarine
       name: Otto Godblessed
@@ -4712,7 +4712,7 @@ sergey-b-2:
   profiles:
     - service: vk
       id: '1077446394'
-      updated: 2025-12-07-19-12-33
+      updated: 2025-12-07-20-17-28
       username: id1077446394
       name: Сергей Б
       avatar: store:/avatars/vk-a7369956.jpg
