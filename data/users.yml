@@ -2822,7 +2822,7 @@ kevy-c:
   profiles:
     - service: tg
       id: '5067683234'
-      updated: 2025-12-06-21-14-34
+      updated: 2025-12-07-12-29-20
       accessHash: '-903667913374325979'
       username: Kevy_c
       name: Dash
@@ -3437,7 +3437,7 @@ mikhail-dmitriev:
   profiles:
     - service: vk
       id: '50458926'
-      updated: 2025-12-07-11-12-48
+      updated: 2025-12-07-12-29-22
       username: id50458926
       name: Михаил Дмитриев
       avatar: store:/avatars/vk-77942374.jpg
@@ -4712,7 +4712,7 @@ sergey-b-2:
   profiles:
     - service: vk
       id: '1077446394'
-      updated: 2025-12-07-11-12-48
+      updated: 2025-12-07-12-29-22
       username: id1077446394
       name: Сергей Б
       avatar: store:/avatars/vk-a7369956.jpg
