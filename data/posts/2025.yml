@@ -2973,7 +2973,7 @@
       id: DR7pA38FYxo
       mediaId: '18297391996287422'
       published: 2025-12-06-18-22-04
-      updated: 2025-12-07-18-21-12
+      updated: 2025-12-07-19-12-32
       followers: 1600
       likes: 83
       comments: !c |-
@@ -2982,10 +2982,10 @@
     - service: vk
       id: 2932
       published: 2025-12-06-18-22-10
-      updated: 2025-12-07-18-21-11
+      updated: 2025-12-07-19-12-33
       followers: 1538
       likes: 63
-      views: 495
+      views: 502
       reposts: 3
       comments: !c |-
         G2cA+C0ObEfETRJv6N5zKkbP60n6i03qNqJlYiOd3MPp3MzZkNyMBbEQLKTER0I2NXZLRqwtWuTy
@@ -2993,10 +2993,10 @@
     - service: tg
       id: 1081
       published: 2025-12-06-18-22-16
-      updated: 2025-12-07-18-21-12
+      updated: 2025-12-07-19-12-33
       followers: 868
-      likes: 47
-      views: 234
+      likes: 50
+      views: 258
       comments: !c CwuAkZPLQnmvij1bAACma2V2eS1jpPCfpoAD
 2025-12-07-1-rain-above-assarnatamat:
   title: Rain Above Assarnatamat
@@ -3017,12 +3017,21 @@
       id: DR-N1ZbFfO1
       mediaId: '17923278321192848'
       published: 2025-12-07-18-22-17
+      updated: 2025-12-07-19-12-31
       followers: 1601
+      likes: 19
     - service: vk
       id: 2936
       published: 2025-12-07-18-22-41
+      updated: 2025-12-07-19-12-27
       followers: 1540
+      likes: 3
+      views: 32
+      reposts: 1
     - service: tg
       id: 1082
       published: 2025-12-07-18-22-45
+      updated: 2025-12-07-19-12-27
       followers: 869
+      likes: 24
+      views: 112
