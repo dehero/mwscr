@@ -2810,24 +2810,24 @@
       id: DRxWYFrmBxp
       mediaId: '18063697112440129'
       published: 2025-12-02-18-26-50
-      updated: 2025-12-07-20-17-11
+      updated: 2025-12-08-20-19-30
       followers: 1599
       likes: 63
     - service: vk
       id: 2917
       published: 2025-12-02-18-27-01
-      updated: 2025-12-07-20-17-48
+      updated: 2025-12-08-20-19-44
       followers: 1532
-      likes: 98
-      views: 3276
+      likes: 101
+      views: 3537
       reposts: 4
     - service: tg
       id: 1077
       published: 2025-12-02-18-27-05
-      updated: 2025-12-07-20-17-47
+      updated: 2025-12-08-20-19-44
       followers: 867
-      likes: 62
-      views: 425
+      likes: 64
+      views: 443
 2025-12-03-1-near-mababi:
   title: Near Mababi
   titleRu: У Мабаби
@@ -2853,16 +2853,16 @@
       id: DRz7PyeD1yU
       mediaId: '17991717650731602'
       published: 2025-12-03-18-27-30
-      updated: 2025-12-07-20-17-10
+      updated: 2025-12-08-20-19-29
       followers: 1599
       likes: 54
     - service: vk
       id: 2919
       published: 2025-12-03-18-27-35
-      updated: 2025-12-07-20-17-47
+      updated: 2025-12-08-20-19-43
       followers: 1536
-      likes: 55
-      views: 609
+      likes: 58
+      views: 638
       reposts: 2
       comments: !c |-
         G1EBQJwHto1uLfAw1+ObzRhKy//znGyEXwdDDyQKJNDOSShLeHKfTqcRdurJ5YX5CaNZPyhTt1mi
@@ -2872,10 +2872,10 @@
     - service: tg
       id: 1078
       published: 2025-12-03-18-27-38
-      updated: 2025-12-07-20-17-46
+      updated: 2025-12-08-20-19-43
       followers: 866
-      likes: 63
-      views: 384
+      likes: 64
+      views: 406
       comments: !c |-
         G5YAAIyUbsI8H/6aZyeaAX5nsY2n7y8qQRsoQ3ReAlWf+zo50QPK4YegLaIo54vlNgaCy+MRxwlq
         9B5P707rFKPnQ2qdI9FqJVd4Ky6DHIM8g0ryq5BjMLcIqbYmffSET1oiX0lVFn+jW4DwY97lY+VY
@@ -2898,26 +2898,26 @@
       id: DR2l4P4jSBX
       mediaId: '17984359127764520'
       published: 2025-12-04-19-18-30
-      updated: 2025-12-07-20-17-09
+      updated: 2025-12-08-20-19-28
       followers: 1600
-      likes: 50
+      likes: 51
     - service: vk
       id: 2920
       published: 2025-12-04-19-18-36
-      updated: 2025-12-07-20-17-19
+      updated: 2025-12-08-20-19-30
       followers: 1537
-      likes: 31
-      views: 348
+      likes: 40
+      views: 403
       comments: !c |-
         ixqAkZPLQnmvpZ6iAACqYXJ5YS1zdGFya7/Qm9GD0L3QsCDQvdCw0LQg0JLQuNCy0LXQutC+0Lwu
         Aw==
     - service: tg
       id: 1079
       published: 2025-12-04-19-18-40
-      updated: 2025-12-07-20-17-24
+      updated: 2025-12-08-20-19-31
       followers: 867
-      likes: 58
-      views: 346
+      likes: 61
+      views: 391
 2025-12-05-1-unexplored-shipwreck:
   title: Unexplored Shipwreck
   titleRu: Неисследованные обломки
@@ -3023,24 +3023,24 @@
       id: DR-N1ZbFfO1
       mediaId: '17923278321192848'
       published: 2025-12-07-18-22-17
-      updated: 2025-12-08-19-14-19
+      updated: 2025-12-08-20-19-27
       followers: 1601
-      likes: 61
+      likes: 63
     - service: vk
       id: 2936
       published: 2025-12-07-18-22-41
-      updated: 2025-12-08-19-14-17
+      updated: 2025-12-08-20-19-24
       followers: 1540
-      likes: 47
-      views: 339
+      likes: 48
+      views: 325
       reposts: 1
     - service: tg
       id: 1082
       published: 2025-12-07-18-22-45
-      updated: 2025-12-08-19-14-23
+      updated: 2025-12-08-20-19-30
       followers: 869
-      likes: 52
-      views: 276
+      likes: 54
+      views: 280
 2025-12-08-1-sul-matuul:
   title: Sul-Matuul
   titleRu: Сул-Матуул
@@ -3063,21 +3063,24 @@
       id: DSAzJv8DIIz
       mediaId: '18059528915270356'
       published: 2025-12-08-18-26-52
-      updated: 2025-12-08-19-14-19
+      updated: 2025-12-08-20-19-26
       followers: 1602
-      likes: 16
+      likes: 31
     - service: vk
       id: 2940
       published: 2025-12-08-18-26-58
-      updated: 2025-12-08-19-14-16
+      updated: 2025-12-08-20-19-23
       followers: 1541
-      likes: 2
-      views: 20
+      likes: 12
+      views: 71
     - service: tg
       id: 1083
       published: 2025-12-08-18-27-03
-      updated: 2025-12-08-19-14-22
+      updated: 2025-12-08-20-19-29
       followers: 868
-      likes: 22
-      views: 74
-      comments: !c CxiAkZPLQnmv9L4/gACqYTItZW5rZWxsabpMb29rcyBsaWtlIGEgbXVkY3JhYiB0byBtZQM=
+      likes: 29
+      views: 104
+      comments: !c |-
+        G4YA4B0Hdiy88P2Qs0BTN5/wQZpov1ZrUaDrPN4eaEA1wE+Tr9YRosfnlAOHluSZxxymx3uMvWVi
+        KCXXaf3sn3YEO4o9lhhmrXqzGpr9cDUlBcKwSqFjC+hxG+BpkLIeKqu08Aaj+h+LVDFNlbBMIUdJ
+        0lfQjNkJEbE0HyyRAQ==
