@@ -275,7 +275,7 @@ aleksey-yeskela:
   profiles:
     - service: vk
       id: '1047357639'
-      updated: 2025-12-08-13-32-29
+      updated: 2025-12-08-17-17-13
       username: id1047357639
       name: Алексей Йескела
       avatar: store:/avatars/vk-893f32cb.jpg
@@ -565,7 +565,7 @@ arya-stark:
   profiles:
     - service: vk
       id: '820702664'
-      updated: 2025-12-08-14-18-14
+      updated: 2025-12-08-17-17-14
       username: id820702664
       name: Арья Старк
       avatar: store:/avatars/vk-689aa89d.jpg
@@ -859,7 +859,7 @@ brg1092:
   profiles:
     - service: tg
       id: '5867861906'
-      updated: 2025-12-08-14-18-27
+      updated: 2025-12-08-17-17-11
       accessHash: '4411929981434940281'
       username: brg1092
       name: 2𝜋
@@ -1911,7 +1911,7 @@ filavandrel-official:
   profiles:
     - service: vk
       id: '682643734'
-      updated: 2025-12-07-07-15-22
+      updated: 2025-12-08-17-17-13
       username: filavandrel_official
       name: Евгений Уланов
       avatar: store:/avatars/vk-6d180d88.jpg
@@ -2476,7 +2476,7 @@ init-medigel:
   profiles:
     - service: vk
       id: '1063780894'
-      updated: 2025-12-01-16-26-20
+      updated: 2025-12-08-17-17-14
       username: id1063780894
       name: Init Medigel
       avatar: store:/avatars/vk-f1485d06.jpg
@@ -2822,7 +2822,7 @@ kevy-c:
   profiles:
     - service: tg
       id: '5067683234'
-      updated: 2025-12-08-16-22-20
+      updated: 2025-12-08-17-17-11
       accessHash: '-903667913374325979'
       username: Kevy_c
       name: Dash
@@ -3065,7 +3065,7 @@ loftydelusion:
   profiles:
     - service: tg
       id: '6735256969'
-      updated: 2025-12-04-21-46-24
+      updated: 2025-12-08-17-17-11
       accessHash: '7923451850129434076'
       username: Loftydelusion
       name: Ꭰelusion
@@ -3232,7 +3232,7 @@ malignoutsider:
   profiles:
     - service: vk
       id: '104145157'
-      updated: 2025-12-04-21-21-59
+      updated: 2025-12-08-17-17-14
       username: malignoutsider
       name: Роберт Сабиров
       avatar: store:/avatars/vk-8e006a3a.jpg
@@ -4051,7 +4051,7 @@ palych:
   profiles:
     - service: vk
       id: '485933'
-      updated: 2025-12-01-16-26-11
+      updated: 2025-12-08-17-17-13
       username: palych
       name: Павел Красовский
       avatar: store:/avatars/vk-ee218ff0.jpg
@@ -4712,7 +4712,7 @@ sergey-b-2:
   profiles:
     - service: vk
       id: '1077446394'
-      updated: 2025-12-08-16-22-21
+      updated: 2025-12-08-17-17-11
       username: id1077446394
       name: Сергей Б
       avatar: store:/avatars/vk-a7369956.jpg
@@ -6201,7 +6201,7 @@ ya-hs-che-suda-stavit:
   profiles:
     - service: tg
       id: '1336542246'
-      updated: 2025-12-08-16-22-19
+      updated: 2025-12-08-17-17-10
       accessHash: '5504493057447045891'
       username: Ya_hs_che_suda_stavit
       name: Hist
