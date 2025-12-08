@@ -45,24 +45,14 @@ dehero.2025-01-19-18-35-14:
   content: store:/inbox/dehero.2025-01-19-18-35-14.png
   type: shot
   author: dehero
-dehero.2025-03-12-19-56-38:
-  title: Sul-Matuul
-  titleRu: Сул-Матуул
-  placement: Indoors
-  location: Urshilaku Camp, Ashkhan's Yurt
-  content: store:/inbox/dehero.2025-03-12-19-56-27.1.png
-  trash:
-    - store:/inbox/dehero.2025-03-12-19-56-38.png
-    - store:/inbox/dehero.2025-03-12-19-54-30.1.png
-    - store:/inbox/dehero.2025-03-12-19-56-27.png
-    - store:/inbox/dehero.2025-03-12-19-54-30.png
+dehero.2025-03-12-19-53-55:
+  content: store:/inbox/dehero.2025-03-12-19-53-55.png
   type: shot
   author: dehero
-  engine: OpenMW
-  tags:
-    - yurt
-    - magic
-  mark: B1
+dehero.2025-03-12-19-54-34:
+  content: store:/inbox/dehero.2025-03-12-19-54-34.png
+  type: shot
+  author: dehero
 dehero.2025-03-12-19-59-02:
   content: store:/inbox/dehero.2025-03-12-19-59-02.1.png
   trash: store:/inbox/dehero.2025-03-12-19-59-02.png

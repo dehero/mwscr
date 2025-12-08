@@ -2938,32 +2938,32 @@
       id: DR5EVHZj5ia
       mediaId: '18399316372121352'
       published: 2025-12-05-18-23-06
-      updated: 2025-12-07-18-21-13
+      updated: 2025-12-08-18-26-11
       followers: 1600
-      likes: 43
+      likes: 45
     - service: vk
       id: 2922
       published: 2025-12-05-18-23-12
-      updated: 2025-12-07-18-21-30
+      updated: 2025-12-08-18-26-12
       followers: 1537
-      likes: 62
-      views: 601
+      likes: 70
+      views: 680
       reposts: 2
       comments: !c |-
-        G3ECYJwHto1qPdDFd6fQOZARKp3/J+5Z8Rd6k//YooAaT0psacVXzvUVSK0NQVmEk9Ozg5uYXr40
-        XPnSVJ1Tmhk1ISfUlUwSyg4pP3M3V7fFNM4f28WjQy0G4a1Zq647P9AxMDgEdIGWZt/3Yg/oe3Jp
-        HkJVgOgNn3+YUpsS7/vzN/M/VJbL752jOyfq4pGFPO9yilyjKw0hq3MzvfRWjzw12e0sW46pxgU0
-        xewc3Nlx3dfzn0fsFokC++v/5seJGCVyYqBUwZEhyWOK685FvjLJSYXUWz4Oz+DTFNsiQaoXQfms
-        TZqHRDWNIZICF2OubpF8SROTOYGkGM74lDOTAhiyd+cS9XNIWdf6K0YYKxzaYmI6UKWLYpxR2Pf4
-        nsfhTYwBVLfiRGBh/jCIO+S0nIEmAwO66p51cM17i6kskfGaFFQ5Rzfmi24O8xFqnOYnYfas7Xuc
-        Fw==
+        G/4CYCwO7DYfC0mFF+aTPaaegxL/jxzs44Te8mKLAmoeJdbWlnhyrv994FRaDpRFa5xCI8fW5Ha+
+        pam2tlgsyRANydANZds4XtihfPtiMhSsneN0iXEjjw8p9PXbZhytrDsP6BqQH6r7QdL01tqXWgLR
+        F4VpJlm6zaOvq9ucM8IFkvX5/O7626zZHT5XrsVzQ+zcZFHLO83Cn9EbCSFX56p7F4U1amqU27vq
+        cky1sWAwnJsONu9wnNP1141mJkWA+/u/g88YxsgNnVQQohgjhZM/w9PwkN8w0ghIuCzWDDZJsYEJ
+        Ur1otO81o/kTVpNGiCTAjJirXiSb03A8J+AUt1M6JTOiggq6eKaSiU+RssT6K0aYWnRo4HAyUFUX
+        rekqhf3u6348OpMagYtSi2YBhfqHobpDTvNJSSGNlIhZ92z2436AicwNlTQSUMfPu0rzNGw6zBXF
+        dJovh7llfb/7fCQd/v8jvW+AF0i0eQ15113WLBBbmlAf2YAC1iu+BOr5wE1AgMpRzbVwoQA+cqQO
     - service: tg
       id: 1080
       published: 2025-12-05-18-23-15
-      updated: 2025-12-07-18-21-13
+      updated: 2025-12-08-18-26-06
       followers: 868
-      likes: 56
-      views: 261
+      likes: 62
+      views: 295
 2025-12-06-1-senseless-mourning:
   title: Senseless Mourning
   titleRu: Бессмысленный траур
@@ -3023,21 +3023,52 @@
       id: DR-N1ZbFfO1
       mediaId: '17923278321192848'
       published: 2025-12-07-18-22-17
-      updated: 2025-12-08-17-17-08
+      updated: 2025-12-08-18-26-10
       followers: 1601
-      likes: 59
+      likes: 61
     - service: vk
       id: 2936
       published: 2025-12-07-18-22-41
-      updated: 2025-12-08-17-17-05
+      updated: 2025-12-08-18-26-05
       followers: 1540
-      likes: 44
-      views: 328
+      likes: 47
+      views: 336
       reposts: 1
     - service: tg
       id: 1082
       published: 2025-12-07-18-22-45
-      updated: 2025-12-08-17-17-05
+      updated: 2025-12-08-18-26-05
       followers: 869
-      likes: 50
-      views: 255
+      likes: 52
+      views: 259
+2025-12-08-1-sul-matuul:
+  title: Sul-Matuul
+  titleRu: Сул-Матуул
+  placement: Indoors
+  location: Urshilaku Camp, Ashkhan's Yurt
+  content: store:/shots/2025-12-08-1-sul-matuul.png
+  trash:
+    - store:/trash/dehero.2025-03-12-19-56-38.png
+    - store:/trash/dehero.2025-03-12-19-54-30.1.png
+    - store:/trash/dehero.2025-03-12-19-54-30.png
+  type: shot
+  author: dehero
+  engine: OpenMW
+  tags:
+    - yurt
+    - magic
+  mark: B1
+  posts:
+    - service: ig
+      id: DSAzJv8DIIz
+      mediaId: '18059528915270356'
+      published: 2025-12-08-18-26-52
+      followers: 1602
+    - service: vk
+      id: 2940
+      published: 2025-12-08-18-26-58
+      followers: 1541
+    - service: tg
+      id: 1083
+      published: 2025-12-08-18-27-03
+      followers: 868
