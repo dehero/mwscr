@@ -2977,19 +2977,19 @@
       id: DR7pA38FYxo
       mediaId: '18297391996287422'
       published: 2025-12-06-18-22-04
-      updated: 2025-12-07-23-14-30
+      updated: 2025-12-08-01-15-22
       followers: 1600
-      likes: 89
+      likes: 91
       comments: !c |-
         iy6AkpPLQnmvmm0ngACsdGFtcmllbHRlc280pPCflKWTy0J5r2RQXwAAr29oc3dlZXRuYXphcmV0
         aNklb25lIG9mIG15IGFic29sdXRlIGZhdm9yaXRlIHNob3RzIDopKQM=
     - service: vk
       id: 2932
       published: 2025-12-06-18-22-10
-      updated: 2025-12-07-23-14-32
+      updated: 2025-12-08-01-15-19
       followers: 1538
-      likes: 66
-      views: 531
+      likes: 68
+      views: 539
       reposts: 3
       comments: !c |-
         G2cA+C0ObEfETRJv6N5zKkbP60n6i03qNqJlYiOd3MPp3MzZkNyMBbEQLKTER0I2NXZLRqwtWuTy
@@ -2997,11 +2997,13 @@
     - service: tg
       id: 1081
       published: 2025-12-06-18-22-16
-      updated: 2025-12-07-23-14-32
+      updated: 2025-12-08-01-15-19
       followers: 868
-      likes: 50
-      views: 267
-      comments: !c CwuAkZPLQnmvij1bAACma2V2eS1jpPCfpoAD
+      likes: 51
+      views: 269
+      comments: !c |-
+        iyqAkpPLQnmvtsvZgAC1eWEtaHMtY2hlLXN1ZGEtc3Rhdml0vtCT0YDRg9GB0YLQuNGCINC/0L4g
+        0LrQtdC90YLRg5PLQnmvij1bAACma2V2eS1jpPCfpoAD
 2025-12-07-1-rain-above-assarnatamat:
   title: Rain Above Assarnatamat
   titleRu: Дождь над Ассарнатаматом
@@ -3021,21 +3023,21 @@
       id: DR-N1ZbFfO1
       mediaId: '17923278321192848'
       published: 2025-12-07-18-22-17
-      updated: 2025-12-07-23-14-29
+      updated: 2025-12-08-01-15-21
       followers: 1601
-      likes: 39
+      likes: 44
     - service: vk
       id: 2936
       published: 2025-12-07-18-22-41
-      updated: 2025-12-07-23-14-25
+      updated: 2025-12-08-01-15-13
       followers: 1540
-      likes: 11
-      views: 97
+      likes: 15
+      views: 132
       reposts: 1
     - service: tg
       id: 1082
       published: 2025-12-07-18-22-45
-      updated: 2025-12-07-23-14-26
+      updated: 2025-12-08-01-15-13
       followers: 869
-      likes: 40
-      views: 186
+      likes: 41
+      views: 193
