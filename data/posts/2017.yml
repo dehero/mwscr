@@ -1222,18 +1222,18 @@
     - service: vk
       id: 2587
       published: 2025-08-17-18-22-36
-      updated: 2025-12-01-13-34-13
+      updated: 2025-12-08-14-18-06
       followers: 1365
       likes: 42
-      views: 601
+      views: 602
       reposts: 4
     - service: tg
       id: 954
       published: 2025-08-17-18-22-41
-      updated: 2025-12-01-13-34-20
+      updated: 2025-12-08-14-18-18
       followers: 778
       likes: 78
-      views: 659
+      views: 661
       comments: !c |-
         CyOAkZPLQnmLlw8yAAC1eWEtaHMtY2hlLXN1ZGEtc3Rhdml02STQn9C10YDQtdC40LPRgNGL0LLQ
         sNGOINCyINC80L7RgNC60YMD
@@ -2131,18 +2131,18 @@
     - service: vk
       id: 2636
       published: 2025-09-07-18-25-58
-      updated: 2025-12-01-13-34-10
+      updated: 2025-12-08-14-18-03
       followers: 1411
       likes: 43
-      views: 638
+      views: 639
       reposts: 1
     - service: tg
       id: 976
       published: 2025-09-07-18-26-04
-      updated: 2025-12-01-13-34-16
+      updated: 2025-12-08-14-18-07
       followers: 793
       likes: 65
-      views: 595
+      views: 598
       comments: !c |-
         G9oAwB2Jse2CLawsfUA6RYn4r9sRfrIzuZmAE2sqwCaJE0r2BRhIOrcSItXiCJXdfUPFE6vzfzOk
         r8Vl8cYxtu3FcaCRZvdOJ7eLXfAgcMwoSjHgEwTAecCVWhzKC+v+oNlp/dm83TMH1AAIqgSCSORA
@@ -3795,24 +3795,24 @@
       id: DNL0UwKMXii
       mediaId: '18049887461539710'
       published: 2025-08-10-18-31-50
-      updated: 2025-12-01-13-34-17
+      updated: 2025-12-08-14-18-01
       followers: 1575
       likes: 73
     - service: vk
       id: 2570
       published: 2025-08-10-18-32-01
-      updated: 2025-12-01-13-34-23
+      updated: 2025-12-08-14-18-16
       followers: 1363
       likes: 36
-      views: 392
+      views: 393
       reposts: 2
     - service: tg
       id: 947
       published: 2025-08-10-18-32-05
-      updated: 2025-12-01-13-34-24
+      updated: 2025-12-08-14-18-24
       followers: 776
       likes: 76
-      views: 1578
+      views: 1585
       comments: !c |-
         G3QCQCwS7FgKI4Wk3RD9ExfqEfqWZCYX0MSsUKNOK1avSGUf6FlrMfiQ04VosCgPNpuwLjfP3N7O
         GKs6NzdzswRbPkeGDKamaM6QauvJYhdo+VNsgmRGUgWTt3S4gW02HQA/n349nwU0CiwPLMsS/kS6
@@ -6113,16 +6113,16 @@
       id: DMnxqv4MHJT
       mediaId: '18409413934128313'
       published: 2025-07-27-18-35-57
-      updated: 2025-12-01-13-34-20
+      updated: 2025-12-08-14-18-04
       followers: 1573
       likes: 61
     - service: vk
       id: 2537
       published: 2025-07-27-18-36-03
-      updated: 2025-12-01-13-34-27
+      updated: 2025-12-08-14-18-22
       followers: 1352
       likes: 39
-      views: 530
+      views: 531
       reposts: 1
       comments: !c |-
         G18B4J0Hto1qPbBYf+CWReKf7y/2CZ+ufLalQKK8KeEmSCw5l2xtueVoKNHkLVR0e4cP/ELUpJ87
@@ -6133,10 +6133,10 @@
     - service: tg
       id: 929
       published: 2025-07-27-18-36-07
-      updated: 2025-12-01-13-34-27
+      updated: 2025-12-08-14-18-27
       followers: 768
       likes: 62
-      views: 582
+      views: 585
       comments: !c |-
         G3IBABwHdqwx+HBYSnfSHBF1Iz38gIOIy/Ik4Qdumok02VPdxDmswDuEGrCS5j3F3JpPXJP0Q78t
         +vwfuOs87XubQSTw7ME3ndlOcA/G22hFQRQNaOddTl2YQJdBmr9LXmvzl6biSbk7Meev3P1P+Nfl
@@ -12319,16 +12319,16 @@
       id: DNbPzURu9ZM
       mediaId: '18075976495987065'
       published: 2025-08-16-18-20-29
-      updated: 2025-12-01-13-34-15
+      updated: 2025-12-08-14-18-00
       followers: 1577
       likes: 68
     - service: vk
       id: 2586
       published: 2025-08-16-18-20-34
-      updated: 2025-12-01-13-34-21
+      updated: 2025-12-08-14-18-14
       followers: 1365
       likes: 68
-      views: 701
+      views: 702
       reposts: 4
       comments: !c |-
         iyKAkZPLQnmLtOQogACqYXJ5YS1zdGFya9ku0Jgg0LrQvtC80LDRgCDQt9Cw0LLQuNGBINCyINCy
@@ -12336,10 +12336,10 @@
     - service: tg
       id: 953
       published: 2025-08-16-18-20-38
-      updated: 2025-12-01-13-34-22
+      updated: 2025-12-08-14-18-20
       followers: 779
       likes: 82
-      views: 713
+      views: 715
       comments: !c |-
         i0WAkpPLQnmLZUeLAACwc2Npb24tb2YtYmFsYW5jZa5UaGUgQ2xpZmZyYWNlcpPLQnmLRBnkAACr
         a2F3YXpha3kyMjPZSUxvZGtvNGthICYgVFZBUiBQT0RMQVlBLCBVTVJJIFRZU0lDSEEgUFJPS0xZ
@@ -13382,7 +13382,7 @@
     - service: vk
       id: 2488
       published: 2025-06-27-18-37-37
-      updated: 2025-12-01-13-34-35
+      updated: 2025-12-08-14-18-33
       followers: 1329
       likes: 58
       views: 463
@@ -13390,10 +13390,10 @@
     - service: tg
       id: 898
       published: 2025-06-27-18-37-42
-      updated: 2025-12-01-13-34-33
+      updated: 2025-12-08-14-18-35
       followers: 758
       likes: 70
-      views: 804
+      views: 807
       comments: !c iw2AkZPLQnl7K2KSAACra2F3YXpha3kyMjOk8J+kpQM=
 2017-10-23-flacassia-fauseius-on-the-spot:
   title: Flacassia Fauseius On-The-Spot
@@ -14807,7 +14807,7 @@
     - service: vk
       id: 2505
       published: 2025-07-05-18-22-29
-      updated: 2025-12-01-13-34-32
+      updated: 2025-12-08-14-18-29
       followers: 1335
       likes: 59
       views: 561
@@ -14815,10 +14815,10 @@
     - service: tg
       id: 908
       published: 2025-07-05-18-22-37
-      updated: 2025-12-01-13-34-30
+      updated: 2025-12-08-14-18-32
       followers: 761
       likes: 72
-      views: 691
+      views: 694
 2017-11-25-ashinabi:
   title: Ashinabi
   titleRu: Ашинаби
