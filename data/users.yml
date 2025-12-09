@@ -92,7 +92,7 @@ a2-enkelli:
   profiles:
     - service: tg
       id: '7258424423'
-      updated: 2025-12-09-16-22-51
+      updated: 2025-12-09-17-17-34
       accessHash: '969825927170686844'
       username: A2_Enkelli
       name: †† elli ††
@@ -2135,7 +2135,7 @@ golden-morgan:
   profiles:
     - service: vk
       id: '157461309'
-      updated: 2025-12-03-04-25-27
+      updated: 2025-12-09-17-17-38
       username: golden_morgan
       name: Marco Polo
       avatar: store:/avatars/vk-f7f43d22.jpg
@@ -2822,7 +2822,7 @@ kevy-c:
   profiles:
     - service: tg
       id: '5067683234'
-      updated: 2025-12-08-17-17-11
+      updated: 2025-12-09-17-17-36
       accessHash: '-903667913374325979'
       username: Kevy_c
       name: Dash
@@ -3224,7 +3224,7 @@ maksim-kopytov:
   profiles:
     - service: vk
       id: '799521846'
-      updated: 2025-12-08-14-18-22
+      updated: 2025-12-09-17-17-38
       username: id799521846
       name: Максим Копытов
       avatar: store:/avatars/vk-0da189cf.jpg
@@ -4712,7 +4712,7 @@ sergey-b-2:
   profiles:
     - service: vk
       id: '1077446394'
-      updated: 2025-12-09-12-36-03
+      updated: 2025-12-09-17-17-37
       username: id1077446394
       name: Сергей Б
       avatar: store:/avatars/vk-a7369956.jpg
@@ -4720,7 +4720,7 @@ sergey-churbanov:
   profiles:
     - service: vk
       id: '1060712354'
-      updated: 2025-12-09-12-36-19
+      updated: 2025-12-09-17-17-38
       username: id1060712354
       name: Сергей Чурбанов
       avatar: store:/avatars/vk-6499ce8d.jpg
@@ -5833,7 +5833,7 @@ vail-astor-zkiy:
   profiles:
     - service: tg
       id: '1245638625'
-      updated: 2025-12-09-16-22-52
+      updated: 2025-12-09-17-17-35
       accessHash: '-6135365331334675689'
       name: Vail Astor'zkiy
 valeriy-zhmishenko:
@@ -6201,7 +6201,7 @@ ya-hs-che-suda-stavit:
   profiles:
     - service: tg
       id: '1336542246'
-      updated: 2025-12-08-21-14-50
+      updated: 2025-12-09-17-17-36
       accessHash: '5504493057447045891'
       username: Ya_hs_che_suda_stavit
       name: Hist
