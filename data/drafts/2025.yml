@@ -138,6 +138,7 @@ dehero.2025-06-04-19-39-55:
     - store:/inbox/dehero.2025-06-04-19-40-54.png
     - store:/inbox/dehero.2025-06-04-19-41-07.png
     - store:/inbox/dehero.2025-06-04-19-41-07.1.png
+    - store:/inbox/dehero.2025-06-04-19-40-54.1.png
   type: shot
   author: dehero
 dehero.2025-06-04-19-42-46:
@@ -199,7 +200,10 @@ dehero.2025-08-26-22-37-16:
 dehero.2025-08-26-23-01-26:
   placement: Indoors
   location: Morvayn Manor
-  content: store:/inbox/dehero.2025-08-26-23-01-26.png
+  content:
+    - store:/inbox/dehero.2025-08-26-23-01-26.png
+    - store:/inbox/dehero.2025-08-26-23-01-26.1.png
+    - store:/inbox/dehero.2025-08-26-23-01-26.2.png
   type: shot
   author: dehero
   engine: OpenMW
