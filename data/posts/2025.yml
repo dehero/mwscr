@@ -3024,21 +3024,21 @@
       id: DR-N1ZbFfO1
       mediaId: '17923278321192848'
       published: 2025-12-07-18-22-17
-      updated: 2025-12-09-17-58-57
+      updated: 2025-12-09-18-21-31
       followers: 1601
       likes: 66
     - service: vk
       id: 2936
       published: 2025-12-07-18-22-41
-      updated: 2025-12-09-17-58-54
+      updated: 2025-12-09-18-21-28
       followers: 1540
       likes: 60
-      views: 455
+      views: 456
       reposts: 2
     - service: tg
       id: 1082
       published: 2025-12-07-18-22-45
-      updated: 2025-12-09-17-59-00
+      updated: 2025-12-09-18-21-33
       followers: 869
       likes: 58
       views: 318
@@ -3064,25 +3064,55 @@
       id: DSAzJv8DIIz
       mediaId: '18059528915270356'
       published: 2025-12-08-18-26-52
-      updated: 2025-12-09-17-58-57
+      updated: 2025-12-09-18-21-30
       followers: 1602
       likes: 52
     - service: vk
       id: 2940
       published: 2025-12-08-18-26-58
-      updated: 2025-12-09-17-58-53
+      updated: 2025-12-09-18-21-27
       followers: 1541
       likes: 53
-      views: 561
+      views: 563
       reposts: 1
     - service: tg
       id: 1083
       published: 2025-12-08-18-27-03
-      updated: 2025-12-09-17-58-59
+      updated: 2025-12-09-18-21-32
       followers: 868
       likes: 50
-      views: 226
+      views: 228
       comments: !c |-
         G4YA4B0Hdiy88P2Qs0BTN5/wQZpov1ZrUaDrPN4eaEA1wE+Tr9YRosfnlAOHluSZxxymx3uMvWVi
         KCXXaf3sn3YEO4o9lhhmrXqzGpr9cDUlBcKwSqFjC+hxG+BpkLIeKqu08Aaj+h+LVDFNlbBMIUdJ
         0lfQjNkJEbE0HyyRAQ==
+2025-12-09-1-ghost-dinner:
+  title: Ghost Dinner
+  titleRu: Призрачный ужин
+  placement: Indoors
+  location: Morvayn Manor
+  content: store:/shots/2025-12-09-1-ghost-dinner.png
+  trash: store:/trash/dehero.2025-08-26-23-01-26.1.png
+  type: shot
+  author: dehero
+  engine: OpenMW
+  tags:
+    - candle
+    - plate
+    - chair
+    - table
+  mark: B1
+  posts:
+    - service: ig
+      id: DSDXbjwDTli
+      mediaId: '17916294228232179'
+      published: 2025-12-09-18-22-21
+      followers: 1602
+    - service: vk
+      id: 2942
+      published: 2025-12-09-18-22-26
+      followers: 1541
+    - service: tg
+      id: 1084
+      published: 2025-12-09-18-22-30
+      followers: 868

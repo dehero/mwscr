@@ -205,24 +205,6 @@ dehero.2025-08-26-22-37-16:
     - store:/inbox/dehero.2025-08-26-22-39-08.png
   type: shot
   author: dehero
-dehero.2025-08-26-23-01-26:
-  title: Ghost Dinner
-  titleRu: Призрачный ужин
-  placement: Indoors
-  location: Morvayn Manor
-  content: store:/inbox/dehero.2025-08-26-23-01-26.2.png
-  trash:
-    - store:/inbox/dehero.2025-08-26-23-01-26.1.png
-    - store:/inbox/dehero.2025-08-26-23-01-26.png
-  type: shot
-  author: dehero
-  engine: OpenMW
-  tags:
-    - candle
-    - plate
-    - chair
-    - table
-  mark: B1
 dehero.2025-08-26-23-09-44:
   placement: Indoors
   location: Morvayn Manor
