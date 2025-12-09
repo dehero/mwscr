@@ -132,15 +132,23 @@ dehero.2025-06-04-19-35-19:
 dehero.2025-06-04-19-39-55:
   placement: Indoors
   location: Panat
-  content:
-    - store:/inbox/dehero.2025-06-04-19-39-55.png
+  content: store:/inbox/dehero.2025-06-04-19-40-54.1.png
+  trash:
     - store:/inbox/dehero.2025-06-04-19-40-36.png
     - store:/inbox/dehero.2025-06-04-19-40-54.png
-    - store:/inbox/dehero.2025-06-04-19-41-07.png
     - store:/inbox/dehero.2025-06-04-19-41-07.1.png
-    - store:/inbox/dehero.2025-06-04-19-40-54.1.png
+    - store:/inbox/dehero.2025-06-04-19-39-55.png
+    - store:/inbox/dehero.2025-06-04-19-41-07.png
   type: shot
   author: dehero
+  engine: OpenMW
+  tags:
+    - candle
+    - cave
+    - box
+    - mushroom
+    - barrel
+  mark: B2
 dehero.2025-06-04-19-42-46:
   placement: Indoors
   location: Panat
@@ -198,15 +206,23 @@ dehero.2025-08-26-22-37-16:
   type: shot
   author: dehero
 dehero.2025-08-26-23-01-26:
+  title: Ghost Dinner
+  titleRu: Призрачный ужин
   placement: Indoors
   location: Morvayn Manor
-  content:
-    - store:/inbox/dehero.2025-08-26-23-01-26.png
+  content: store:/inbox/dehero.2025-08-26-23-01-26.2.png
+  trash:
     - store:/inbox/dehero.2025-08-26-23-01-26.1.png
-    - store:/inbox/dehero.2025-08-26-23-01-26.2.png
+    - store:/inbox/dehero.2025-08-26-23-01-26.png
   type: shot
   author: dehero
   engine: OpenMW
+  tags:
+    - candle
+    - plate
+    - chair
+    - table
+  mark: B1
 dehero.2025-08-26-23-09-44:
   placement: Indoors
   location: Morvayn Manor
@@ -411,24 +427,13 @@ ohsweetnazareth.2025-12-07-nowhere-mournhold-c7fa8b46:
   content: store:/inbox/ohsweetnazareth.2025-12-07-nowhere-mournhold-c7fa8b46.png
   type: shot
   author: ohsweetnazareth
-ohsweetnazareth.2025-12-08-foul-betrayal-2ab4f546:
-  title: Foul Betrayal
-  content: store:/inbox/ohsweetnazareth.2025-12-08-foul-betrayal-2ab4f546.png
-  type: shot
-  author: ohsweetnazareth
-ohsweetnazareth.2025-12-08-foul-betrayal-3d96140f:
-  title: Foul Betrayal
-  content: store:/inbox/ohsweetnazareth.2025-12-08-foul-betrayal-3d96140f.png
-  type: shot
-  author: ohsweetnazareth
-ohsweetnazareth.2025-12-08-foul-betrayal-a9ba5dc9:
-  title: Foul Betrayal
-  content: store:/inbox/ohsweetnazareth.2025-12-08-foul-betrayal-a9ba5dc9.png
-  type: shot
-  author: ohsweetnazareth
 ohsweetnazareth.2025-12-08-foul-betrayal-f0813cd1:
   title: Foul Betrayal
-  content: store:/inbox/ohsweetnazareth.2025-12-08-foul-betrayal-f0813cd1.png
+  content:
+    - store:/inbox/ohsweetnazareth.2025-12-08-foul-betrayal-f0813cd1.png
+    - store:/inbox/ohsweetnazareth.2025-12-08-foul-betrayal-a9ba5dc9.png
+    - store:/inbox/ohsweetnazareth.2025-12-08-foul-betrayal-3d96140f.png
+    - store:/inbox/ohsweetnazareth.2025-12-08-foul-betrayal-2ab4f546.png
   type: shot
   author: ohsweetnazareth
 ohsweetnazareth.2025-12-08-the-wicked-almalexia-f5c898d8:
