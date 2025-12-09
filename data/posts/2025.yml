@@ -2939,16 +2939,16 @@
       id: DR5EVHZj5ia
       mediaId: '18399316372121352'
       published: 2025-12-05-18-23-06
-      updated: 2025-12-08-18-26-11
+      updated: 2025-12-09-19-12-56
       followers: 1600
-      likes: 45
+      likes: 47
     - service: vk
       id: 2922
       published: 2025-12-05-18-23-12
-      updated: 2025-12-08-18-26-12
+      updated: 2025-12-09-19-12-57
       followers: 1537
-      likes: 70
-      views: 680
+      likes: 75
+      views: 737
       reposts: 2
       comments: !c |-
         G/4CYCwO7DYfC0mFF+aTPaaegxL/jxzs44Te8mKLAmoeJdbWlnhyrv994FRaDpRFa5xCI8fW5Ha+
@@ -2961,10 +2961,10 @@
     - service: tg
       id: 1080
       published: 2025-12-05-18-23-15
-      updated: 2025-12-08-18-26-06
+      updated: 2025-12-09-19-12-56
       followers: 868
-      likes: 62
-      views: 295
+      likes: 65
+      views: 359
 2025-12-06-1-senseless-mourning:
   title: Senseless Mourning
   titleRu: Бессмысленный траур
@@ -3064,24 +3064,24 @@
       id: DSAzJv8DIIz
       mediaId: '18059528915270356'
       published: 2025-12-08-18-26-52
-      updated: 2025-12-09-18-21-30
+      updated: 2025-12-09-19-12-55
       followers: 1602
       likes: 52
     - service: vk
       id: 2940
       published: 2025-12-08-18-26-58
-      updated: 2025-12-09-18-21-27
+      updated: 2025-12-09-19-12-56
       followers: 1541
-      likes: 53
-      views: 563
+      likes: 54
+      views: 578
       reposts: 1
     - service: tg
       id: 1083
       published: 2025-12-08-18-27-03
-      updated: 2025-12-09-18-21-32
+      updated: 2025-12-09-19-12-55
       followers: 868
-      likes: 50
-      views: 228
+      likes: 54
+      views: 245
       comments: !c |-
         G4YA4B0Hdiy88P2Qs0BTN5/wQZpov1ZrUaDrPN4eaEA1wE+Tr9YRosfnlAOHluSZxxymx3uMvWVi
         KCXXaf3sn3YEO4o9lhhmrXqzGpr9cDUlBcKwSqFjC+hxG+BpkLIeKqu08Aaj+h+LVDFNlbBMIUdJ
@@ -3107,12 +3107,25 @@
       id: DSDXbjwDTli
       mediaId: '17916294228232179'
       published: 2025-12-09-18-22-21
+      updated: 2025-12-09-19-12-54
       followers: 1602
+      likes: 12
     - service: vk
       id: 2942
       published: 2025-12-09-18-22-26
+      updated: 2025-12-09-19-12-55
       followers: 1541
+      likes: 3
+      views: 57
+      reposts: 1
+      comments: !c |-
+        G+QAGBwJdizkA4tfLBpPvLcRHtBwqOMR9hKKOPmHBTrnc55WNYEIG1Any01QxKw9N8kmR1CTA5ef
+        /57w5hEHGIcBYm5wmmRS8AQTzAMN/vd1v56E/RrPKee9kO8bANWzqWNXiNvl6f3Tkz6HYIoLFcHa
+        hh+HpCgzVryioRDDuirhdna6dTCCDVOkcMcNIQrBENESSAA=
     - service: tg
       id: 1084
       published: 2025-12-09-18-22-30
+      updated: 2025-12-09-19-12-50
       followers: 868
+      likes: 24
+      views: 85
