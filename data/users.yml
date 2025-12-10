@@ -92,7 +92,7 @@ a2-enkelli:
   profiles:
     - service: tg
       id: '7258424423'
-      updated: 2025-12-10-03-19-41
+      updated: 2025-12-10-04-30-11
       accessHash: '969825927170686844'
       username: A2_Enkelli
       name: †† elli ††
@@ -451,7 +451,7 @@ ansis:
   profiles:
     - service: tg
       id: '517050552'
-      updated: 2025-12-10-03-19-43
+      updated: 2025-12-10-04-30-10
       accessHash: '5231096655311395455'
       username: ansis
       name: ansis
@@ -2135,7 +2135,7 @@ golden-morgan:
   profiles:
     - service: vk
       id: '157461309'
-      updated: 2025-12-09-17-17-38
+      updated: 2025-12-10-04-30-11
       username: golden_morgan
       name: Marco Polo
       avatar: store:/avatars/vk-f7f43d22.jpg
@@ -2143,7 +2143,7 @@ goosevich76:
   profiles:
     - service: tg
       id: '5385620621'
-      updated: 2025-12-10-01-16-38
+      updated: 2025-12-10-04-30-11
       accessHash: '-7130473396589324830'
       username: horwwwaty
       name: choven
@@ -2792,7 +2792,7 @@ kawazaky223:
   profiles:
     - service: tg
       id: '5641856113'
-      updated: 2025-12-10-03-19-43
+      updated: 2025-12-10-04-30-12
       accessHash: '7421309771527577818'
       username: Kawazaky223
       name: Максим
@@ -3740,7 +3740,7 @@ neulovimiy-djo:
   profiles:
     - service: vk
       id: '40753227'
-      updated: 2025-12-03-04-25-27
+      updated: 2025-12-10-04-30-11
       username: neulovimiy_djo
       name: Иван Чернозём
       avatar: store:/avatars/vk-7870da4f.jpg
@@ -4325,7 +4325,7 @@ qirong666:
   profiles:
     - service: vk
       id: '229334633'
-      updated: 2025-12-10-03-19-40
+      updated: 2025-12-10-04-30-08
       username: qirong666
       name: Qi Rong
       avatar: store:/avatars/vk-6f8a5bb2.jpg
@@ -4712,7 +4712,7 @@ sergey-b-2:
   profiles:
     - service: vk
       id: '1077446394'
-      updated: 2025-12-10-03-19-43
+      updated: 2025-12-10-04-30-09
       username: id1077446394
       name: Сергей Б
       avatar: store:/avatars/vk-a7369956.jpg
@@ -5833,7 +5833,7 @@ vail-astor-zkiy:
   profiles:
     - service: tg
       id: '1245638625'
-      updated: 2025-12-10-03-19-41
+      updated: 2025-12-10-04-30-09
       accessHash: '-6135365331334675689'
       name: Vail Astor'zkiy
 valeriy-zhmishenko:
