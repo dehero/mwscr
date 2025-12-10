@@ -193,7 +193,9 @@ dehero.2025-06-04-19-53-43:
 dehero.2025-08-26-22-30-23:
   placement: Outdoors
   location: Vos
-  content: store:/inbox/dehero.2025-08-26-22-30-23.png
+  content:
+    - store:/inbox/dehero.2025-08-26-22-30-23.png
+    - store:/inbox/dehero.2025-08-26-22-30-23.1.png
   type: shot
   author: dehero
 dehero.2025-08-26-22-37-16:
@@ -365,6 +367,7 @@ ohsweetnazareth.2025-11-26-worship-in-the-depths-of-telasero-cdce0d33:
     - store:/inbox/ohsweetnazareth.2025-11-26-worship-in-the-depths-of-telasero-1d1cfd8a.png
     - store:/inbox/ohsweetnazareth.2025-11-26-secrets-within-telasero-535a6a9e.png
     - store:/inbox/ohsweetnazareth.2025-11-26-secrets-within-telasero-3230c69c.png
+    - store:/inbox/ohsweetnazareth.2025-11-26-worship-in-the-depths-of-telasero-cdce0d33.1.png
   type: shot
   author: ohsweetnazareth
 ohsweetnazareth.2025-11-27-in-the-tomb-of-mordrin-hanin-54cda563:
@@ -420,7 +423,9 @@ ohsweetnazareth.2025-12-08-foul-betrayal-f0813cd1:
   author: ohsweetnazareth
 ohsweetnazareth.2025-12-08-the-wicked-almalexia-f5c898d8:
   title: The Wicked Almalexia
-  content: store:/inbox/ohsweetnazareth.2025-12-08-the-wicked-almalexia-f5c898d8.png
+  content:
+    - store:/inbox/ohsweetnazareth.2025-12-08-the-wicked-almalexia-f5c898d8.png
+    - store:/inbox/ohsweetnazareth.2025-12-08-the-wicked-almalexia-f5c898d8.1.png
   type: shot
   author: ohsweetnazareth
 ohsweetnazareth.2025-12-08-throne-of-khash-ti-dhrur-35a4d667:
