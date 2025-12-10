@@ -92,7 +92,7 @@ a2-enkelli:
   profiles:
     - service: tg
       id: '7258424423'
-      updated: 2025-12-10-17-58-32
+      updated: 2025-12-10-18-25-34
       accessHash: '969825927170686844'
       username: A2_Enkelli
       name: †† elli ††
@@ -1591,7 +1591,7 @@ dremarretres:
   profiles:
     - service: vk
       id: '801308664'
-      updated: 2025-12-10-17-58-33
+      updated: 2025-12-10-18-25-32
       username: dremarretres
       name: Джон Шепард
       avatar: store:/avatars/vk-ac4f0700.jpg
@@ -2059,7 +2059,7 @@ ghosr1368:
   profiles:
     - service: tg
       id: '6353853685'
-      updated: 2025-12-10-17-58-31
+      updated: 2025-12-10-18-25-32
       accessHash: '2523169162736182941'
       username: Ghosr1368
       name: Ghost
@@ -4334,7 +4334,7 @@ qirong666:
   profiles:
     - service: vk
       id: '229334633'
-      updated: 2025-12-10-17-58-33
+      updated: 2025-12-10-18-25-32
       username: qirong666
       name: Qi Rong
       avatar: store:/avatars/vk-6f8a5bb2.jpg
@@ -4721,7 +4721,7 @@ sergey-b-2:
   profiles:
     - service: vk
       id: '1077446394'
-      updated: 2025-12-10-17-58-34
+      updated: 2025-12-10-18-25-45
       username: id1077446394
       name: Сергей Б
       avatar: store:/avatars/vk-a7369956.jpg
@@ -5842,7 +5842,7 @@ vail-astor-zkiy:
   profiles:
     - service: tg
       id: '1245638625'
-      updated: 2025-12-10-17-58-32
+      updated: 2025-12-10-18-25-35
       accessHash: '-6135365331334675689'
       name: Vail Astor'zkiy
 valeriy-zhmishenko:
@@ -6170,7 +6170,7 @@ xnzayrpcad:
   profiles:
     - service: tg
       id: '7523695427'
-      updated: 2025-11-12-18-16-16
+      updated: 2025-12-10-18-25-49
       accessHash: '3683185995960089433'
       username: dryteuiop
       botChatId: 7523695427
@@ -6223,7 +6223,7 @@ yaroslav:
   profiles:
     - service: tg
       id: '393415568'
-      updated: 2025-11-12-18-16-17
+      updated: 2025-12-10-18-25-50
       accessHash: '-6464076418226165380'
       username: bondarets
       botChatId: 393415568

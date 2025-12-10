@@ -3024,24 +3024,28 @@
       id: DR-N1ZbFfO1
       mediaId: '17923278321192848'
       published: 2025-12-07-18-22-17
-      updated: 2025-12-09-18-21-31
+      updated: 2025-12-10-18-25-33
       followers: 1601
-      likes: 66
+      likes: 67
     - service: vk
       id: 2936
       published: 2025-12-07-18-22-41
-      updated: 2025-12-09-18-21-28
+      updated: 2025-12-10-18-25-46
       followers: 1540
-      likes: 60
-      views: 456
+      likes: 68
+      views: 550
       reposts: 2
+      comments: !c |-
+        GxUB4K0ObMc0Nywsj+Ufp0L8P8/JSP+ZDTaXEXWyACNN7iNLdROlEdpemJ6sZ2drgVwceySR/qZ1
+        FSBVMmKZJ5edLWVnbnCkgVGAQYyBB6ABj8MGnHHW2bOv9y8gP/8xvk8d+adLCYIgg4Z87JqFSjqs
+        0CXGEdgWkMQJ1c4LIcCBe57xTsF/uBzsnxtSYxBnQOHDMYUNErrQhEu5EsSFAdWovhvrnSc=
     - service: tg
       id: 1082
       published: 2025-12-07-18-22-45
-      updated: 2025-12-09-18-21-33
+      updated: 2025-12-10-18-25-45
       followers: 869
-      likes: 58
-      views: 318
+      likes: 62
+      views: 348
 2025-12-08-1-sul-matuul:
   title: Sul-Matuul
   titleRu: Сул-Матуул
@@ -3064,16 +3068,16 @@
       id: DSAzJv8DIIz
       mediaId: '18059528915270356'
       published: 2025-12-08-18-26-52
-      updated: 2025-12-10-17-58-33
+      updated: 2025-12-10-18-25-31
       followers: 1602
       likes: 59
     - service: vk
       id: 2940
       published: 2025-12-08-18-26-58
-      updated: 2025-12-10-17-58-34
+      updated: 2025-12-10-18-25-44
       followers: 1541
       likes: 66
-      views: 737
+      views: 744
       reposts: 1
       comments: !c |-
         Gy4BiCwSeA71OaPqmdcSGY34f+KeFTcev/lcUCCRx1lAC7izYku6ci7ZQmxNVlL6uHoDHYe+Qrlt
@@ -3083,10 +3087,10 @@
     - service: tg
       id: 1083
       published: 2025-12-08-18-27-03
-      updated: 2025-12-10-17-58-32
+      updated: 2025-12-10-18-25-44
       followers: 868
       likes: 56
-      views: 275
+      views: 276
       comments: !c |-
         G4YA4B0Hdiy88P2Qs0BTN5/wQZpov1ZrUaDrPN4eaEA1wE+Tr9YRosfnlAOHluSZxxymx3uMvWVi
         KCXXaf3sn3YEO4o9lhhmrXqzGpr9cDUlBcKwSqFjC+hxG+BpkLIeKqu08Aaj+h+LVDFNlbBMIUdJ
@@ -3112,16 +3116,16 @@
       id: DSDXbjwDTli
       mediaId: '17916294228232179'
       published: 2025-12-09-18-22-21
-      updated: 2025-12-10-17-58-32
+      updated: 2025-12-10-18-25-30
       followers: 1602
       likes: 36
     - service: vk
       id: 2942
       published: 2025-12-09-18-22-26
-      updated: 2025-12-10-17-58-33
+      updated: 2025-12-10-18-25-33
       followers: 1541
       likes: 42
-      views: 404
+      views: 408
       reposts: 3
       comments: !c |-
         G+QCAKyKdwqOTHxjNF9Bv9psTOiWeOI51DyPwGXsji1e8MVtqIIbfJHNfxgdTtyMcBMXN+4pLSMv
@@ -3134,8 +3138,35 @@
     - service: tg
       id: 1084
       published: 2025-12-09-18-22-30
-      updated: 2025-12-10-17-58-31
+      updated: 2025-12-10-18-25-33
       followers: 868
       likes: 52
-      views: 203
+      views: 207
       comments: !c iwyAkZPLQnmwaRigAACpZ2hvc3IxMzY4pEdvb2QD
+2025-12-10-1-evening-at-the-harbor:
+  title: Evening at the Harbor
+  titleRu: Вечер в гавани
+  placement: Outdoors
+  location: Vos
+  content: store:/shots/2025-12-10-1-evening-at-the-harbor.png
+  type: shot
+  author: dehero
+  engine: OpenMW
+  tags:
+    - lantern
+    - ship
+  mark: A2
+  posts:
+    - service: ig
+      id: DSF8vRED4At
+      mediaId: '18058243064309328'
+      published: 2025-12-10-18-26-50
+      followers: 1602
+    - service: vk
+      id: 2949
+      published: 2025-12-10-18-26-56
+      followers: 1541
+    - service: tg
+      id: 1085
+      published: 2025-12-10-18-27-00
+      followers: 869
