@@ -92,7 +92,7 @@ a2-enkelli:
   profiles:
     - service: tg
       id: '7258424423'
-      updated: 2025-12-10-01-16-27
+      updated: 2025-12-10-03-19-41
       accessHash: '969825927170686844'
       username: A2_Enkelli
       name: †† elli ††
@@ -451,7 +451,7 @@ ansis:
   profiles:
     - service: tg
       id: '517050552'
-      updated: 2025-12-10-01-16-40
+      updated: 2025-12-10-03-19-43
       accessHash: '5231096655311395455'
       username: ansis
       name: ansis
@@ -565,7 +565,7 @@ arya-stark:
   profiles:
     - service: vk
       id: '820702664'
-      updated: 2025-12-10-01-16-32
+      updated: 2025-12-10-03-19-44
       username: id820702664
       name: Арья Старк
       avatar: store:/avatars/vk-689aa89d.jpg
@@ -2792,7 +2792,7 @@ kawazaky223:
   profiles:
     - service: tg
       id: '5641856113'
-      updated: 2025-12-10-01-16-40
+      updated: 2025-12-10-03-19-43
       accessHash: '7421309771527577818'
       username: Kawazaky223
       name: Максим
@@ -4325,7 +4325,7 @@ qirong666:
   profiles:
     - service: vk
       id: '229334633'
-      updated: 2025-12-10-01-16-24
+      updated: 2025-12-10-03-19-40
       username: qirong666
       name: Qi Rong
       avatar: store:/avatars/vk-6f8a5bb2.jpg
@@ -4712,7 +4712,7 @@ sergey-b-2:
   profiles:
     - service: vk
       id: '1077446394'
-      updated: 2025-12-10-01-16-30
+      updated: 2025-12-10-03-19-43
       username: id1077446394
       name: Сергей Б
       avatar: store:/avatars/vk-a7369956.jpg
@@ -5833,7 +5833,7 @@ vail-astor-zkiy:
   profiles:
     - service: tg
       id: '1245638625'
-      updated: 2025-12-10-01-16-25
+      updated: 2025-12-10-03-19-41
       accessHash: '-6135365331334675689'
       name: Vail Astor'zkiy
 valeriy-zhmishenko:
