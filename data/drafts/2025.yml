@@ -191,13 +191,19 @@ dehero.2025-06-04-19-53-43:
   type: shot
   author: dehero
 dehero.2025-08-26-22-30-23:
+  title: Evening at the Harbor
+  titleRu: Вечер в гавани
   placement: Outdoors
   location: Vos
-  content:
-    - store:/inbox/dehero.2025-08-26-22-30-23.png
-    - store:/inbox/dehero.2025-08-26-22-30-23.1.png
+  content: store:/inbox/dehero.2025-08-26-22-30-23.1.png
+  trash: store:/inbox/dehero.2025-08-26-22-30-23.png
   type: shot
   author: dehero
+  engine: OpenMW
+  tags:
+    - lantern
+    - ship
+  mark: A2
 dehero.2025-08-26-22-37-16:
   placement: Indoors
   location: Bthanchend
@@ -362,12 +368,12 @@ ohsweetnazareth.2025-11-26-secrets-within-telasero-f2c38c96:
   author: ohsweetnazareth
 ohsweetnazareth.2025-11-26-worship-in-the-depths-of-telasero-cdce0d33:
   title: Worship in the Depths of Telasero
-  content:
-    - store:/inbox/ohsweetnazareth.2025-11-26-worship-in-the-depths-of-telasero-cdce0d33.png
-    - store:/inbox/ohsweetnazareth.2025-11-26-worship-in-the-depths-of-telasero-1d1cfd8a.png
-    - store:/inbox/ohsweetnazareth.2025-11-26-secrets-within-telasero-535a6a9e.png
+  content: store:/inbox/ohsweetnazareth.2025-11-26-worship-in-the-depths-of-telasero-cdce0d33.1.png
+  trash:
     - store:/inbox/ohsweetnazareth.2025-11-26-secrets-within-telasero-3230c69c.png
-    - store:/inbox/ohsweetnazareth.2025-11-26-worship-in-the-depths-of-telasero-cdce0d33.1.png
+    - store:/inbox/ohsweetnazareth.2025-11-26-secrets-within-telasero-535a6a9e.png
+    - store:/inbox/ohsweetnazareth.2025-11-26-worship-in-the-depths-of-telasero-1d1cfd8a.png
+    - store:/inbox/ohsweetnazareth.2025-11-26-worship-in-the-depths-of-telasero-cdce0d33.png
   type: shot
   author: ohsweetnazareth
 ohsweetnazareth.2025-11-27-in-the-tomb-of-mordrin-hanin-54cda563:
@@ -386,10 +392,10 @@ ohsweetnazareth.2025-11-27-in-the-tomb-of-mordrin-hanin-a9b02ebe:
   author: ohsweetnazareth
 ohsweetnazareth.2025-11-27-who-partook-in-the-cup-of-passage-b657b69b:
   title: Who Partook in the Cup of Passage?
-  content:
-    - store:/inbox/ohsweetnazareth.2025-11-27-who-partook-in-the-cup-of-passage-b657b69b.png
+  content: store:/inbox/ohsweetnazareth.2025-11-27-who-partook-in-the-cup-of-passage-b657b69b.1.png
+  trash:
     - store:/inbox/ohsweetnazareth.2025-11-27-who-partook-in-the-cup-of-passage-81b826d3.png
-    - store:/inbox/ohsweetnazareth.2025-11-27-who-partook-in-the-cup-of-passage-b657b69b.1.png
+    - store:/inbox/ohsweetnazareth.2025-11-27-who-partook-in-the-cup-of-passage-b657b69b.png
   type: shot
   author: ohsweetnazareth
 ohsweetnazareth.2025-12-04-the-daedric-faces-20e73f83:
@@ -423,11 +429,17 @@ ohsweetnazareth.2025-12-08-foul-betrayal-f0813cd1:
   author: ohsweetnazareth
 ohsweetnazareth.2025-12-08-the-wicked-almalexia-f5c898d8:
   title: The Wicked Almalexia
-  content:
-    - store:/inbox/ohsweetnazareth.2025-12-08-the-wicked-almalexia-f5c898d8.png
-    - store:/inbox/ohsweetnazareth.2025-12-08-the-wicked-almalexia-f5c898d8.1.png
-  type: shot
+  titleRu: Свирепая Альмалексия
+  placement: Indoors
+  location: Sotha Sil, Dome of Sotha Sil
+  content: store:/inbox/ohsweetnazareth.2025-12-08-the-wicked-almalexia-f5c898d8.1.png
+  trash: store:/inbox/ohsweetnazareth.2025-12-08-the-wicked-almalexia-f5c898d8.png
+  type: wallpaper
   author: ohsweetnazareth
+  addon: Tribunal
+  tags:
+    - almalexia
+  mark: A2
 ohsweetnazareth.2025-12-08-throne-of-khash-ti-dhrur-35a4d667:
   title: Throne of Khash-Ti Dhrur
   content: store:/inbox/ohsweetnazareth.2025-12-08-throne-of-khash-ti-dhrur-35a4d667.png
