@@ -8597,14 +8597,16 @@
     - service: vk
       id: 2885
       published: 2025-11-25-18-28-48
-      updated: 2025-12-03-12-35-08
+      updated: 2025-12-10-13-34-41
       followers: 1526
-      likes: 71
-      views: 756
+      likes: 73
+      views: 776
       comments: !c |-
-        G7MAUJwHdizyAosNxmcgwX9zW4pXF+4Yi01x2KcIK1VLEEzV8n4c6KY+5ymKkBXa2fIIAk4k0Uy+
-        l7or4GQy2MqP1zEOXBa43SZdYKFRhg048udJlyXQN/fz23hSVvqO1vc2fPU6nQuIFrCaZ4gwAiCe
-        N5iw5qYEhUgEOgbhs4oWQLSc48M/FdK7Lf1qZ5/KKjmsGbXxyc9PRKeIAA==
+        G5QBwCwOeHPoItTUfkCGHwcjel5OLFX4a6HNMuSCjSa6ZcBLZhOu3HOq87kOj1MjcZLQTqi6zdIF
+        QxFLebAUuyXPGX64YGiCWNTNxaThsXkYchAPIgfbQ4hPB8uP15Z3WRhgQBg8WDbQbDAf4UiDAUYB
+        zmSgG8uG6ouPE46+eX0uqSveHsvvgVAUTRrdfNIQOFejxRtIr8wrLNbsk1IjigAIB3uXMwgUZ9ve
+        l9ST1ucN/wdSOwIjw1muub37uxgsVLf7wOqtmE8aKWtNho0oKgrIkw+jGBscCIfgNIL+9gRnPj88
+        Z/WdoLQddrz4YGia2EELJgqDuPE2K3Feer+7L99T4iCji5Mit1BBzHZ0gGXqOJgB
     - service: tg
       id: 1068
       published: 2025-11-25-18-28-53
@@ -8617,9 +8619,9 @@
       id: DRfafP_F6kN
       mediaId: '17900771640323600'
       published: 2025-11-25-19-16-24
-      updated: 2025-12-03-12-34-59
+      updated: 2025-12-10-13-34-36
       followers: 1598
-      likes: 54
+      likes: 55
 2017-07-06-snowy-granius-meets-travelers-near-arkngthand:
   title: Snowy Granius Meets Travelers Near Arkngthand
   titleRu: Граниус Снежный встречает путников у Аркнтанда
