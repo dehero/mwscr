@@ -2600,7 +2600,7 @@
       id: DO_rbtAER6E
       mediaId: '17938699731074336'
       published: 2025-09-24-18-25-59
-      updated: 2025-12-04-19-16-35
+      updated: 2025-12-11-19-17-18
       followers: 1581
       likes: 66
     - service: vk
@@ -2940,32 +2940,34 @@
       id: DR5EVHZj5ia
       mediaId: '18399316372121352'
       published: 2025-12-05-18-23-06
-      updated: 2025-12-10-19-15-25
+      updated: 2025-12-11-19-17-04
       followers: 1600
-      likes: 48
+      likes: 50
     - service: vk
       id: 2922
       published: 2025-12-05-18-23-12
-      updated: 2025-12-10-19-15-28
+      updated: 2025-12-11-19-17-16
       followers: 1537
-      likes: 78
-      views: 794
-      reposts: 2
+      likes: 85
+      views: 1135
+      reposts: 3
       comments: !c |-
-        G/4CYCwO7DYfC0mFF+aTPaaegxL/jxzs44Te8mKLAmoeJdbWlnhyrv994FRaDpRFa5xCI8fW5Ha+
-        pam2tlgsyRANydANZds4XtihfPtiMhSsneN0iXEjjw8p9PXbZhytrDsP6BqQH6r7QdL01tqXWgLR
-        F4VpJlm6zaOvq9ucM8IFkvX5/O7626zZHT5XrsVzQ+zcZFHLO83Cn9EbCSFX56p7F4U1amqU27vq
-        cky1sWAwnJsONu9wnNP1141mJkWA+/u/g88YxsgNnVQQohgjhZM/w9PwkN8w0ghIuCzWDDZJsYEJ
-        Ur1otO81o/kTVpNGiCTAjJirXiSb03A8J+AUt1M6JTOiggq6eKaSiU+RssT6K0aYWnRo4HAyUFUX
-        rekqhf3u6348OpMagYtSi2YBhfqHobpDTvNJSSGNlIhZ92z2436AicwNlTQSUMfPu0rzNGw6zBXF
-        dJovh7llfb/7fCQd/v8jvW+AF0i0eQ15113WLBBbmlAf2YAC1iu+BOr5wE1AgMpRzbVwoQA+cqQO
+        G+EDYCwKbEcfq5p45g9lRxCF+H/i+N/HV+hM1J9KMYrCxqMaj/9P/Lu2v3nAqTi1Q3QYj6HhwfO5
+        ctyodq0gOktPlAkNcEADH8jdXZo2+U+b2mQ0sAFPZjs6h/TRxpHLUNoIp7cEiVn731s+Gn7cLCA4
+        Lj2w53tfu04qzDAe7kW9aDbOZBbUnO5Ozirw2HAa06dPTz/X+2eJLEc/bmtbbO1Q6Osji+EBu1mI
+        Y/SJCSFX54vXuy5Yu0zt4rauuhxTyRYYx7nrYFsdtpfz5693ccnxRg7x//Dv6GLDGAXTSQUpCzZS
+        BNk5Hu/yIH/CSSNDwqueHw7MYMikWMUEqVzkJEpOs1NBozRZiCTB6rFmhXQUNJzICQTF6RacIuEU
+        QLGucrlE8SylbNr6V4wwtdChisOZgSp10TtdpbDvx/lwOLiQ6gFJrIU2AgqL/zAMWshpayYzhIlJ
+        UlrL+tq23xYwmQVTSSOAMn85SvNiNh3mhnI6zU/A3LO+78d8fBYd7v+n5OMLYAOluNV1POD4TmMG
+        wNYyoDzyC0pYA75KqOeEuwEJqkBV65IrBeMFpZ6B7H3/pB/XiqHKrWnZV/j+Z3oNIC/gppOyIBsc
+        dKzyWVm6nRApnRNPwiuNU2WEi7q8WCtXhC7wdndzdX44Bc6smj5pcYHVMiSwNsipsWlqQWPjAQ==
     - service: tg
       id: 1080
       published: 2025-12-05-18-23-15
-      updated: 2025-12-10-19-15-26
+      updated: 2025-12-11-19-17-07
       followers: 868
       likes: 66
-      views: 378
+      views: 394
 2025-12-06-1-senseless-mourning:
   title: Senseless Mourning
   titleRu: Бессмысленный траур
@@ -3025,16 +3027,16 @@
       id: DR-N1ZbFfO1
       mediaId: '17923278321192848'
       published: 2025-12-07-18-22-17
-      updated: 2025-12-10-18-25-33
+      updated: 2025-12-11-19-17-03
       followers: 1601
       likes: 67
     - service: vk
       id: 2936
       published: 2025-12-07-18-22-41
-      updated: 2025-12-10-18-25-46
+      updated: 2025-12-11-19-17-08
       followers: 1540
-      likes: 68
-      views: 550
+      likes: 72
+      views: 633
       reposts: 2
       comments: !c |-
         GxUB4K0ObMc0Nywsj+Ufp0L8P8/JSP+ZDTaXEXWyACNN7iNLdROlEdpemJ6sZ2drgVwceySR/qZ1
@@ -3043,10 +3045,10 @@
     - service: tg
       id: 1082
       published: 2025-12-07-18-22-45
-      updated: 2025-12-10-18-25-45
+      updated: 2025-12-11-19-17-07
       followers: 869
-      likes: 62
-      views: 348
+      likes: 63
+      views: 400
 2025-12-08-1-sul-matuul:
   title: Sul-Matuul
   titleRu: Сул-Матуул
@@ -3069,17 +3071,17 @@
       id: DSAzJv8DIIz
       mediaId: '18059528915270356'
       published: 2025-12-08-18-26-52
-      updated: 2025-12-10-18-25-31
+      updated: 2025-12-11-19-17-03
       followers: 1602
-      likes: 59
+      likes: 60
     - service: vk
       id: 2940
       published: 2025-12-08-18-26-58
-      updated: 2025-12-10-18-25-44
+      updated: 2025-12-11-19-17-07
       followers: 1541
-      likes: 66
-      views: 744
-      reposts: 1
+      likes: 72
+      views: 1229
+      reposts: 3
       comments: !c |-
         Gy4BiCwSeA71OaPqmdcSGY34f+KeFTcev/lcUCCRx1lAC7izYku6ci7ZQmxNVlL6uHoDHYe+Qrlt
         OZuKqf7fwDEErbZgw8jlaeuWMoizOrldRD4/UHCUyMM4wRDCwAlHmgZUl4a/+v3zN2K+F6ffT768
@@ -3088,10 +3090,10 @@
     - service: tg
       id: 1083
       published: 2025-12-08-18-27-03
-      updated: 2025-12-10-18-25-44
+      updated: 2025-12-11-19-17-07
       followers: 868
-      likes: 56
-      views: 276
+      likes: 58
+      views: 319
       comments: !c |-
         G4YA4B0Hdiy88P2Qs0BTN5/wQZpov1ZrUaDrPN4eaEA1wE+Tr9YRosfnlAOHluSZxxymx3uMvWVi
         KCXXaf3sn3YEO4o9lhhmrXqzGpr9cDUlBcKwSqFjC+hxG+BpkLIeKqu08Aaj+h+LVDFNlbBMIUdJ
@@ -3162,21 +3164,21 @@
       id: DSF8vRED4At
       mediaId: '18058243064309328'
       published: 2025-12-10-18-26-50
-      updated: 2025-12-11-17-22-50
+      updated: 2025-12-11-19-17-02
       followers: 1602
-      likes: 54
+      likes: 55
     - service: vk
       id: 2949
       published: 2025-12-10-18-26-56
-      updated: 2025-12-11-17-22-46
+      updated: 2025-12-11-19-16-59
       followers: 1541
-      likes: 38
-      views: 508
+      likes: 40
+      views: 552
       reposts: 3
     - service: tg
       id: 1085
       published: 2025-12-10-18-27-00
-      updated: 2025-12-11-17-22-46
+      updated: 2025-12-11-19-16-59
       followers: 869
-      likes: 45
-      views: 189
+      likes: 47
+      views: 214
