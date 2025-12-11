@@ -50,12 +50,12 @@
   profiles:
     - service: tg
       id: '988831875'
-      updated: 2025-11-13-13-27-10
+      updated: 2025-12-11-13-36-23
       accessHash: '-9023273013894275887'
       username: taletale
       botChatId: 988831875
       name: Кирилл Мор
-      avatar: store:/avatars/tg-4247000564823599063.jpg
+      avatar: store:/avatars/tg-4247000564827360001.jpg
 4ntler-music:
   profiles:
     - service: ig
@@ -241,7 +241,7 @@ aleksey:
   profiles:
     - service: tg
       id: '451735380'
-      updated: 2025-11-13-13-27-14
+      updated: 2025-12-11-13-36-28
       accessHash: '1712518675010870510'
       username: avrongols
       botChatId: 451735380
@@ -800,7 +800,7 @@ blu:
   profiles:
     - service: tg
       id: '5511607316'
-      updated: 2025-11-13-13-27-14
+      updated: 2025-12-11-13-36-28
       accessHash: '-750005966702459216'
       username: tcnspih
       botChatId: 5511607316
@@ -1333,7 +1333,7 @@ dehero:
   profiles:
     - service: tg
       id: '414295239'
-      updated: 2025-11-13-13-27-14
+      updated: 2025-12-11-13-36-28
       accessHash: '2233144502913458526'
       username: deherole
       botChatId: 414295239
@@ -1441,7 +1441,7 @@ deviltrigger:
   profiles:
     - service: tg
       id: '7096566258'
-      updated: 2025-11-13-13-27-14
+      updated: 2025-12-11-13-36-29
       accessHash: '-2934307269294006251'
       username: zxcqwe431
       botChatId: 7096566258
@@ -1518,7 +1518,7 @@ dmitrii:
   profiles:
     - service: tg
       id: '300009119'
-      updated: 2025-11-13-13-27-18
+      updated: 2025-12-11-13-36-29
       accessHash: '3915745450504552077'
       username: dm4by
       botChatId: 300009119
@@ -1591,7 +1591,7 @@ dremarretres:
   profiles:
     - service: vk
       id: '801308664'
-      updated: 2025-12-11-12-36-10
+      updated: 2025-12-11-13-36-19
       username: dremarretres
       name: Джон Шепард
       avatar: store:/avatars/vk-ac4f0700.jpg
@@ -1707,12 +1707,12 @@ ekaterina:
   profiles:
     - service: tg
       id: '7691901071'
-      updated: 2025-11-13-13-27-25
+      updated: 2025-12-11-13-36-31
       accessHash: '5146293512605125887'
       username: berskate
       botChatId: 816585640
       name: Ekaterina Yurievna
-      avatar: store:/avatars/tg-5465633132029019084.jpg
+      avatar: store:/avatars/tg-5258117621008239499.jpg
 ekaterina-ber-12:
   profiles:
     - service: ig
@@ -2059,7 +2059,7 @@ ghosr1368:
   profiles:
     - service: tg
       id: '6353853685'
-      updated: 2025-12-11-12-36-08
+      updated: 2025-12-11-13-36-17
       accessHash: '2523169162736182941'
       username: Ghosr1368
       name: Nikita
@@ -2084,7 +2084,7 @@ gleb:
   profiles:
     - service: tg
       id: '5357370117'
-      updated: 2025-11-13-13-27-31
+      updated: 2025-12-11-13-36-36
       accessHash: '1625681634074568800'
       username: glebiris
       botChatId: 5357370117
@@ -3619,7 +3619,7 @@ mwscrbot:
     - type: bot
       service: tg
       id: '5121093849'
-      updated: 2025-11-13-13-27-31
+      updated: 2025-12-11-13-36-36
       accessHash: '-8431066700367088239'
       username: mwscrbot
       name: Morrowind Ordinator
@@ -3954,7 +3954,7 @@ oleh:
   profiles:
     - service: tg
       id: '5645256528'
-      updated: 2025-11-13-13-27-31
+      updated: 2025-12-11-13-36-37
       accessHash: '-7138534726014788174'
       username: OlehShyha
       botChatId: 5645256528
@@ -4334,7 +4334,7 @@ qirong666:
   profiles:
     - service: vk
       id: '229334633'
-      updated: 2025-12-11-12-36-10
+      updated: 2025-12-11-13-36-19
       username: qirong666
       name: Qi Rong
       avatar: store:/avatars/vk-6f8a5bb2.jpg
@@ -4472,7 +4472,7 @@ rocksweet:
   profiles:
     - service: tg
       id: '456985367'
-      updated: 2025-11-13-13-27-32
+      updated: 2025-12-11-13-36-37
       accessHash: '7583335352915051328'
       username: rocksweet
       botChatId: 456985367
@@ -4721,7 +4721,7 @@ sergey-b-2:
   profiles:
     - service: vk
       id: '1077446394'
-      updated: 2025-12-11-12-36-10
+      updated: 2025-12-11-13-36-19
       username: id1077446394
       name: Сергей Б
       avatar: store:/avatars/vk-a7369956.jpg
@@ -5051,7 +5051,7 @@ spicebag:
   profiles:
     - service: tg
       id: '1110940743'
-      updated: 2025-11-13-13-27-33
+      updated: 2025-12-11-13-36-37
       accessHash: '853118989348063379'
       username: discodoyler
       botChatId: 1110940743
@@ -5202,7 +5202,7 @@ talos:
   profiles:
     - service: tg
       id: '7165366272'
-      updated: 2025-11-13-13-27-36
+      updated: 2025-12-11-13-36-37
       accessHash: '-7099498617493591131'
       username: GL1nchic
       botChatId: 7165366272
