@@ -29,7 +29,7 @@
     - service: vk
       id: 2016
       published: 2025-01-04-18-10-14
-      updated: 2025-12-04-21-46-22
+      updated: 2025-12-11-22-44-42
       followers: 1042
       likes: 57
       views: 458
@@ -42,7 +42,7 @@
         - 649
         - 650
       published: 2025-01-04-18-10-26
-      updated: 2025-12-04-21-46-19
+      updated: 2025-12-11-22-44-38
       followers: 644
       likes: 69
       views: 618
@@ -73,10 +73,10 @@
     - service: tg
       id: 796
       published: 2025-04-16-15-35-00
-      updated: 2025-12-04-21-46-18
+      updated: 2025-12-11-22-44-37
       followers: 720
       likes: 36
-      views: 556
+      views: 557
       comments: !c |-
         G90BwJwHdiwYYWYVDJ1n8f/4B4vwzesrZd5WAScRJueSpepmjMU9CFf6L5RtK2a33BVNykLcv4O7
         jWVZkuREN5equYsiKAzEIsb22ExV+LoTvf072AHw9h2SLAgokYMmFEKa6OdF6Q1vx0vUOFDC7vP1
@@ -86,10 +86,10 @@
     - service: vk
       id: 2281
       published: 2025-04-16-15-36-00
-      updated: 2025-12-04-21-46-21
+      updated: 2025-12-11-22-44-40
       followers: 1261
       likes: 58
-      views: 572
+      views: 573
       reposts: 1
       comments: !c |-
         G90B4JwJ8dYvIzQ7rvoJ0UN/o0+YplrNRFEggTcHenPQEd3BvtFtr4VGIgVSVl8X7Tfg91AZ1XGu
@@ -128,10 +128,10 @@
     - service: vk
       id: 2417
       published: 2025-06-02-11-38-59
-      updated: 2025-12-04-21-46-19
+      updated: 2025-12-11-22-44-38
       followers: 1315
       likes: 31
-      views: 421
+      views: 422
       comments: !c |-
         GxUHYCwLbLfFFEYjsEsv18a/J9n4f577+E2D0F2P/tRsgUQS2PdWoFFgrcjHfShNJ8bJAKHTNvD4
         XSdW3STnM9t2UpIt2w3R1Pe/m8wDeEnJ1E2xX+12KUt5niAKk3oyHVJTo9G+vQkp4n8tp+XcSZQF
@@ -149,7 +149,7 @@
     - service: tg
       id: 870
       published: 2025-06-02-11-39-00
-      updated: 2025-12-04-21-46-18
+      updated: 2025-12-11-22-44-36
       followers: 742
       likes: 21
       views: 544
@@ -194,16 +194,16 @@
     - service: vk
       id: 2423
       published: 2025-06-02-13-46-51
-      updated: 2025-12-04-21-46-18
+      updated: 2025-12-11-22-44-37
       followers: 1315
       likes: 31
-      views: 346
+      views: 347
     - service: tg
       id:
         - 871
         - 872
       published: 2025-06-02-14-03-54
-      updated: 2025-12-04-21-46-17
+      updated: 2025-12-11-22-44-35
       followers: 743
       likes: 66
       views: 642
@@ -241,10 +241,10 @@
     - service: vk
       id: 2493
       published: 2025-07-01-11-15-23
-      updated: 2025-12-04-21-46-17
+      updated: 2025-12-11-22-44-36
       followers: 1333
       likes: 16
-      views: 412
+      views: 413
       comments: !c |-
         GwAEACyPd5kGmRgXNKCeeYjq8nH0vEzcMjNj/2STtkZOiaUlQUFQjpAgJEJhHOaeRGUTjbATkzci
         dMsIhbTCHv7f3xGq1lStC/2e+3yzPftvYlM0NgFSeXyNxianLSNcq3/+XDocDnmqUYBJnxZt+f6j
@@ -258,10 +258,10 @@
     - service: tg
       id: 902
       published: 2025-07-01-11-15-24
-      updated: 2025-12-04-21-46-16
+      updated: 2025-12-11-22-44-35
       followers: 760
       likes: 35
-      views: 746
+      views: 751
       comments: !c |-
         G9gAaJwHto1qPbBYYfjkzAUiJG4R7jzFNLAgDivgIIgk+Qkn6eZKKoeHuh8HQ3VO3prZaCITXc/3
         2vtpF8dpounK2NwNTsOAOcEwDozSSfaAqyOUZRjtx4vLhf0+MNyzWKA0iA01ev/DikWHricVxLMO
@@ -348,7 +348,7 @@
       id: DOLMistETzn
       mediaId: '17967116450955441'
       published: 2025-09-04-09-15-00
-      updated: 2025-12-04-21-46-17
+      updated: 2025-12-11-22-44-36
       followers: 1583
       likes: 58
       comments: !c |-
@@ -358,19 +358,19 @@
     - service: vk
       id: 2631
       published: 2025-09-04-09-15-00
-      updated: 2025-12-04-21-46-15
+      updated: 2025-12-11-22-44-34
       followers: 1404
       likes: 25
-      views: 599
+      views: 601
     - service: tg
       id:
         - 972
         - 973
       published: 2025-09-04-09-15-00
-      updated: 2025-12-04-21-46-16
+      updated: 2025-12-11-22-44-34
       followers: 787
       likes: 70
-      views: 1101
+      views: 1109
       comments: !c CxGAkZPLQnmVp1aKAACpZ2VvcnJycnJnrfCfpKbigI3imYLvuI8D
 2025-09-15-1-green-algae-and-dead-lands:
   title: Green Algae and Dead Lands
