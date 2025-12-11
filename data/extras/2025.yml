@@ -585,23 +585,25 @@
     - service: vk
       id: 2865
       published: 2025-11-19-19-18-00
-      updated: 2025-12-04-10-20-24
+      updated: 2025-12-11-11-16-12
       followers: 1511
-      likes: 91
-      views: 1711
+      likes: 95
+      views: 1812
       reposts: 34
       comments: !c |-
-        G24AqMSnn9tKWvZUlrIopu0fjSaiTe26vh8HjRJwjOPBJh1EV1p5urNUK95c8a6kZp8UyzBTvxVN
-        pxJPRgVzHLGL07pr2GJNM9yvmS0Yv73/H6uaqYUDHo8m5jhSMoQXJbhhTgn2WODKg1tD
+        Gw8B4BwHbqw1YxAK/uTQyYiIG0V4eYpxBhVwU9QknOzNgyXwKtsItRIqIWvo435wP7xD55rQLBJn
+        AxpZRFPVB1ar3P8HZ8WJFCtmRZoQbVtKsVRonrIkKEWUjP3lur98v34dhoZzMeLSVAIwDiBxB5Xu
+        Mou3zXeNTUb/178+ZkVXQg8QriBbF4Q7rf3QWphqzHd/Bf5GflzVnttRPwTFZm0lNVwt9lzQTsky
+        xRnh4coERt13Ft5whg62ggWGW627TiH0SBXVpjWhJRi06SYSgEPagd01f0eqDw==
     - service: tg
       id:
         - 1060
         - 1061
       published: 2025-11-19-19-20-00
-      updated: 2025-12-04-10-20-25
+      updated: 2025-12-11-11-16-13
       followers: 860
       likes: 53
-      views: 709
+      views: 764
       comments: !c |-
         G1wDACwG7Eb5UtplonxsDRUX6Q0ifr/2Qr3Q9p+jkmlQySIaTzHXRCg6G8E7fnTzhB48SxML8cFq
         Wxvk7tckLxWS4K8ufcKz1KaxKrRzs9f6V+MAxkJ0mVqn+v/ffO1EYUKZZ3pfYyzrRGkU9QDzSTpw
@@ -617,16 +619,16 @@
       id: DRP-s3cjiFN
       mediaId: '18095347858891888'
       published: 2025-11-19-19-25-00
-      updated: 2025-12-04-10-20-25
+      updated: 2025-12-11-11-16-14
       followers: 1595
-      likes: 163
+      likes: 164
       comments: !c |-
-        GwgCQORoTgsKXVmlqipumkHYhwvQFdkOEDWQJ6HiJtxm93839TDNzrJA4P9/21obZEzBlHqBHGCq
-        58lx0lgX2SJU+GNj7bu/fNvoDbcctzyjQjabBSt7P5uBXK4sMEQj0Ybf/D59eN0pJENVS4OMwi/7
-        yoiYWAfwjP9wh+M+m1IZUCKLUIL32XwuKQIxhCmngFAPKPwd7Sxh8ns37X295KBABs8H0QKw0LPX
-        ABKQ37NoyA8DxJqUoKZCSlCAEt0GOkOzPTGWNJemMPYJ/lCy5WIWsyzT2wN+QS1RJfQmyQVhFFRI
-        dOtWB4fa5w0zSEYXeb7L7t4hdCcmqaiWHAzAYZBmCV/JXJdRRbTtKfHNf9DvKO255aghi6bwE73X
-        ZLSweB+BijHiJ63pyehuzBBIZktiDUWe/HyU4gI=
+        GwgCAOT4/dwkaVNIb2npN7JLqE/ui93UK6KaxbqFtEZoUBm8CTqdzQbi73YfRtERTOWBFFh2rmeP
+        nxTWmNU1ftlY++4v3tZ6ww3HrUhpkE6nwU7fz6YgkykSjmjG1qledv4Ih+M+ndA4MKpIUID32Wwm
+        8iGIB6cZFQjTkPwd7SyxRvdu1nt5KUCFFJ4Pog3soGevRiSlSlxLpvIwQO2TRyBTGNwT4YNvA62h
+        pT0xFrfyT9TBcSVRXJaNlU/zVO8c0uq0VJP5t3FB0E8oDCIZ6Ob36ePTnUpTTLN1SKnisq+IiLF1
+        AnCoP95wk6YMSWS72t13hPbUoiXNVtwBMRkJtLi1RLQ7MSCqtj2Lzv9Bv0OkaC4hNabRgn5iFZtM
+        NuZ/JJBehvfSmhWNbsfkJOFsRe3NiLefhxKqAg==
 2025-11-26-1-wall-calendar-page-on-site:
   title: Wall Calendar Page on Site
   titleRu: Страница настенного календаря на сайте
