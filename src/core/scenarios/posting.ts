@@ -89,24 +89,24 @@ const shotSet: PostingScenario = {
   ],
 };
 
-// const wallpaper: PostingScenario = {
-//   title: 'wallpaper',
-//   sourceManagers: ['drafts', 'posts'],
-//   targetManager: 'posts',
-//   postingRules: [afterHour(18), lastPostedDaysAgo(1)],
-//   postCandidateRules: [
-//     needCertainType('wallpaper', 'wallpaper-v'),
-//     needMinTypeDistance(7),
-//     needMinContentDistance(365),
-//     needMinThirdPartyDistance(7),
-//   ],
-// };
+const wallpaper: PostingScenario = {
+  title: 'wallpaper',
+  sourceManagers: ['drafts'], // 'posts'],
+  targetManager: 'posts',
+  postingRules: [afterHour(18), lastPostedDaysAgo(1)],
+  postCandidateRules: [
+    needCertainType('wallpaper', 'wallpaper-v'),
+    needMinTypeDistance(7),
+    needMinContentDistance(365),
+    needMinThirdPartyDistance(7),
+  ],
+};
 
 export const postingScenarios: PostingScenario[] = [
   // announcedPost,
   // announcedExtra,
   news,
-  // wallpaper,
+  wallpaper,
   shotSet,
   shot,
   redrawing,
