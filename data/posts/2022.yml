@@ -1213,10 +1213,10 @@
     - service: tg
       id: 838
       published: 2025-05-11-18-23-53
-      updated: 2025-12-04-20-19-48
+      updated: 2025-12-11-20-21-25
       followers: 738
       likes: 63
-      views: 609
+      views: 611
 2022-07-16-two-at-the-lantern:
   title: Two at the Lantern
   titleRu: Двое у фонаря
@@ -1765,10 +1765,10 @@
     - service: vk
       id: 2573
       published: 2025-08-12-18-24-42
-      updated: 2025-12-04-19-17-14
+      updated: 2025-12-11-20-20-23
       followers: 1362
       likes: 44
-      views: 519
+      views: 521
       reposts: 4
       comments: !c |-
         G8QAKBwHbizZCKn71i944k8NR+jiuQ8a4jnbLdqKlYoFGvsd1vKWulI1tWk/32RV+lBueLPZSeId
@@ -1777,10 +1777,10 @@
     - service: tg
       id: 949
       published: 2025-08-12-18-24-47
-      updated: 2025-12-04-19-17-10
+      updated: 2025-12-11-20-20-20
       followers: 776
       likes: 66
-      views: 661
+      views: 662
       comments: !c iw2AkZPLQnmKHWWOAACra2F3YXpha3kyMjOk8J+knQM=
 2022-07-29-sunset-cypresses:
   title: Sunset Cypresses

@@ -62,15 +62,15 @@
     - service: vk
       id: 2501
       published: 2025-07-02-18-24-04
-      updated: 2025-12-04-19-17-37
+      updated: 2025-12-11-20-20-48
       followers: 1333
       likes: 56
-      views: 544
+      views: 546
       reposts: 1
     - service: tg
       id: 905
       published: 2025-07-02-18-24-07
-      updated: 2025-12-04-19-17-27
+      updated: 2025-12-11-20-20-35
       followers: 760
       likes: 72
       views: 623
@@ -176,14 +176,14 @@
     - service: vk
       id: 2382
       published: 2025-05-24-18-18-58
-      updated: 2025-12-04-20-20-02
+      updated: 2025-12-11-20-21-50
       followers: 1305
       likes: 55
-      views: 463
+      views: 464
     - service: tg
       id: 857
       published: 2025-05-24-18-19-06
-      updated: 2025-12-04-20-19-23
+      updated: 2025-12-11-20-21-15
       followers: 739
       likes: 65
       views: 571
@@ -240,10 +240,10 @@
     - service: vk
       id: 2629
       published: 2025-09-03-18-21-16
-      updated: 2025-12-04-19-17-05
+      updated: 2025-12-11-20-20-14
       followers: 1404
       likes: 44
-      views: 587
+      views: 589
       reposts: 1
       comments: !c |-
         Cy+AkZPLQnmRFaD7gACwc2VyZ2V5LWNodXJiYW5vdtlB0K3RjdC5KSDQt9C00LDRgNC+0LLQsCEg
@@ -251,10 +251,10 @@
     - service: tg
       id: 971
       published: 2025-09-03-18-21-19
-      updated: 2025-12-04-19-17-05
+      updated: 2025-12-11-20-20-13
       followers: 788
       likes: 76
-      views: 585
+      views: 587
       comments: !c iw2AkZPLQnmRXdWaAACra2F3YXpha3kyMjOk8J+koQM=
 2023-08-01-stillness:
   title: Stillness
@@ -355,10 +355,10 @@
     - service: tg
       id: 832
       published: 2025-05-06-18-24-51
-      updated: 2025-12-04-20-19-54
+      updated: 2025-12-11-20-21-30
       followers: 738
       likes: 69
-      views: 706
+      views: 708
 2023-08-03-spinning-wheel:
   title: Spinning-Wheel
   titleRu: Прялка
