@@ -1591,7 +1591,7 @@ dremarretres:
   profiles:
     - service: vk
       id: '801308664'
-      updated: 2025-12-11-09-22-17
+      updated: 2025-12-11-10-19-52
       username: dremarretres
       name: Джон Шепард
       avatar: store:/avatars/vk-ac4f0700.jpg
@@ -2059,11 +2059,11 @@ ghosr1368:
   profiles:
     - service: tg
       id: '6353853685'
-      updated: 2025-12-11-09-22-16
+      updated: 2025-12-11-10-19-53
       accessHash: '2523169162736182941'
       username: Ghosr1368
-      name: Ghost
-      avatar: store:/avatars/tg-5287424596640469391.jpg
+      name: Nikita
+      avatar: store:/avatars/tg-5318990046465560305.jpg
 ghost63rus:
   profiles:
     - service: vk
@@ -4334,7 +4334,7 @@ qirong666:
   profiles:
     - service: vk
       id: '229334633'
-      updated: 2025-12-11-09-22-17
+      updated: 2025-12-11-10-19-52
       username: qirong666
       name: Qi Rong
       avatar: store:/avatars/vk-6f8a5bb2.jpg
@@ -4721,7 +4721,7 @@ sergey-b-2:
   profiles:
     - service: vk
       id: '1077446394'
-      updated: 2025-12-11-09-22-17
+      updated: 2025-12-11-10-19-52
       username: id1077446394
       name: Сергей Б
       avatar: store:/avatars/vk-a7369956.jpg
