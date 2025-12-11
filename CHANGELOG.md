@@ -2,6 +2,12 @@
 
 All notable changes to this project will be documented in this file.
 
+## [2.12.3](https://github.com/dehero/mwscr/compare/v2.12.2...v2.12.3) (2025-12-11)
+
+### Bug Fixes
+
+- enable posting wallpapers ([188916b](https://github.com/dehero/mwscr/commit/188916b3629b37a47a7481fcab561e05f8535ac1))
+
 ## [2.12.2](https://github.com/dehero/mwscr/compare/v2.12.1...v2.12.2) (2025-12-03)
 
 ### Bug Fixes
