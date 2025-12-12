@@ -867,7 +867,7 @@ brg1092:
   profiles:
     - service: tg
       id: '5867861906'
-      updated: 2025-12-11-21-18-39
+      updated: 2025-12-12-03-20-32
       accessHash: '4411929981434940281'
       username: brg1092
       name: 2𝜋
@@ -1376,7 +1376,7 @@ dehero:
     - type: channel
       service: tg
       id: '1264795946'
-      updated: 2025-12-11-22-44-39
+      updated: 2025-12-12-03-20-32
       accessHash: '-5789257269249675714'
       username: mwscr
       name: Morrowind Screenshots
@@ -2809,7 +2809,7 @@ kawazaky223:
   profiles:
     - service: tg
       id: '5641856113'
-      updated: 2025-12-12-01-16-56
+      updated: 2025-12-12-03-20-31
       accessHash: '7421309771527577818'
       username: Kawazaky223
       name: Максим
