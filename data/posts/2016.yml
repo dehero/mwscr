@@ -472,7 +472,7 @@
       id: DRsMlP7DFzI
       mediaId: '17926522770080390'
       published: 2025-11-30-18-25-00
-      updated: 2025-12-07-21-13-35
+      updated: 2025-12-14-21-24-58
       followers: 1599
       likes: 73
       comments: !c |-
@@ -481,27 +481,29 @@
     - service: vk
       id: 2904
       published: 2025-11-30-18-25-05
-      updated: 2025-12-07-21-14-05
+      updated: 2025-12-14-21-25-02
       followers: 1532
-      likes: 69
-      views: 452
+      likes: 71
+      views: 489
       reposts: 3
       comments: !c |-
-        G/8CQCwOzHOPR1QQb9i9Tzme/7g3t4js2vu4FfQTb9EGuMAlCVhrGMp4PTdEMdtGqMEUCM0ztHcy
-        GT9+jN3aDjAPrGWBvAj5/Z/1kQfaIkjdFtNrOGfoUS6ICNZwbZZufLXy5idupgGWBRpHmMmaNMbS
-        LhoLwzQKe/K/R9mgr256OXb5zWKatoJksj08XnyO/Pn4a52nVUb/jX1LDRKrTl7tcc/hhHAMgVBS
-        0/Ib4YVAIIuVDRg6On2OTvs8OHTeNiqZUaliqqXR7L49JCzVnpYJ0dyedDwvpKDeXS+UXe6v+392
-        wCsFAintVXDgd/3G/aIvprWgFO/d0FAe0jqD/T+Nfb1Gc1tAVnZIvoCxm9bXPWckV/TUwDDDCWp2
-        nrDyIE8z0U9OCTiJNlIPvVl5OKIkA+aMbjbYP0K6EUgheJumABpyQqMq4QPTtFY65B7FUzSvcLM+
-        GpySUCPDyYAEtyAiNRgdntwUEev92DFjyxgr1P4TLcIgLKGkCmka+aRF35QZWaFMXKiY0qMS3afx
-        sZxCkhajg27YT9N2WB4UctGW7oupz2LHwc3J/72/AA==
+        G4UDQKwObHfYwFvsXOj+MXjFiqhaqgIhgvtQVScBphLCkTkBaIAzYClB5+KxxwhZ1YkDFAyBil+6
+        Dpif12/m1OnYrS3A/MBaFshLHJ+/f2WvYB5oi6DKAKm8eXVbTK9BZPijXBARrOHaLFnjq9PffNGX
+        BRpHmEl3Y+OytbTLxqQwjcLCRCfK/vZtW0LQt19JeqpQJtvhwclny56Pv6t3u2K039jHRBF9zJMr
+        Z9w5nFCkUAhj3fqbEUXAoEqUDRQ2PvxsbXA32u89bkvkgEJbmyGaetXzjtDwrHZrQQzam/r7Cyio
+        doUPqSGO5/7PDvgqSYyEeQf326xBeNenrjmC32/hugS1oEwci+WVgmiEUQiRfyltyvDEYixT8qcm
+        Bt/9I1cLOANF5Eq29wVhYRgKFbb/lMmzNRitOsL3S8zcmtB+YzRE5vIBsZCuCIaaVDUqEsSmRLKQ
+        E2kTSSQmy5PyQYpgE6aIJqvYexR0xLGF2ae4DSNMaNIl/UBuK9nQFidwDFaEFSUS1GqIlfQSwBKb
+        llGZIKme0PkTGzwdqPBajL4vpmJkOLhlrnRo1yVxUswgyMgKE3IkLfJNwtBJlhCHrJLwIOqpDM3U
+        boKU4OzNy5BF+ad07uFk6/+93QM=
     - service: tg
       id: 1075
       published: 2025-11-30-18-25-09
-      updated: 2025-12-07-21-13-35
+      updated: 2025-12-14-21-25-00
       followers: 867
-      likes: 65
-      views: 443
+      likes: 68
+      views: 525
+      comments: !c Cw6AkZPLQnmv85QnAACsbm9nb2Rjb21wbGV4pHBlYWsD
 2016-11-27-lonely-fargoth:
   title: Lonely Fargoth
   titleRu: Одинокий Фаргот

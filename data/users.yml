@@ -100,7 +100,7 @@ a2-enkelli:
   profiles:
     - service: tg
       id: '7258424423'
-      updated: 2025-12-14-14-10-22
+      updated: 2025-12-14-21-25-02
       accessHash: '969825927170686844'
       username: A2_Enkelli
       name: †† elli ††
@@ -459,7 +459,7 @@ ansis:
   profiles:
     - service: tg
       id: '517050552'
-      updated: 2025-12-14-13-36-11
+      updated: 2025-12-14-21-25-00
       accessHash: '5231096655311395455'
       username: ansis
       name: ansis
@@ -573,7 +573,7 @@ arya-stark:
   profiles:
     - service: vk
       id: '820702664'
-      updated: 2025-12-14-13-36-14
+      updated: 2025-12-14-21-25-02
       username: id820702664
       name: Арья Старк
       avatar: store:/avatars/vk-689aa89d.jpg
@@ -1005,7 +1005,7 @@ chernosotinec:
   profiles:
     - service: vk
       id: '355750944'
-      updated: 2025-12-11-22-44-44
+      updated: 2025-12-14-21-25-00
       username: Chernosotinec
       name: Артём Стекольщиков
       avatar: store:/avatars/vk-8aee5603.jpg
@@ -1356,7 +1356,7 @@ dehero:
       avatar: store:/avatars/gh-c8afe641.jpg
     - service: vk
       id: '3652910'
-      updated: 2025-12-11-22-44-44
+      updated: 2025-12-14-21-25-00
       username: dehero
       name: Антон Курьянов
       avatar: store:/avatars/vk-5356f76e.jpg
@@ -2809,7 +2809,7 @@ kawazaky223:
   profiles:
     - service: tg
       id: '5641856113'
-      updated: 2025-12-14-14-10-23
+      updated: 2025-12-14-21-25-02
       accessHash: '7421309771527577818'
       username: Kawazaky223
       name: Максим
@@ -3414,7 +3414,7 @@ michael-levington:
   profiles:
     - service: vk
       id: '416916067'
-      updated: 2025-12-11-11-16-12
+      updated: 2025-12-14-21-25-01
       username: michael_levington
       name: Майкл Левингтон
       avatar: store:/avatars/vk-5fe6e343.jpg
@@ -3653,7 +3653,7 @@ myndowen:
   profiles:
     - service: tg
       id: '720784420'
-      updated: 2025-12-07-21-13-50
+      updated: 2025-12-14-21-25-02
       accessHash: '4385662928393121475'
       username: myndowen
       name: Daniel Beilin
@@ -3832,7 +3832,7 @@ nogodcomplex:
   profiles:
     - service: tg
       id: '598230752'
-      updated: 2025-12-14-13-35-42
+      updated: 2025-12-14-21-24-59
       accessHash: '1286169933223853262'
       username: nogodcomplex
       name: emptymind
@@ -4125,7 +4125,7 @@ peteevandrew:
   profiles:
     - service: vk
       id: '307619379'
-      updated: 2025-12-14-13-36-27
+      updated: 2025-12-14-21-25-05
       username: peteevandrew
       name: Андрей Петеев
       avatar: store:/avatars/vk-d3f26d8e.jpg
