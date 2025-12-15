@@ -12,8 +12,7 @@ export async function importResourcesToStore() {
       const urls = asArray<string>(post[container]);
       const newUrls: string[] = [];
 
-      for (let i = 0; i < urls.length; i++) {
-        const url = urls[i];
+      for (const url of urls) {
         if (!url) {
           continue;
         }

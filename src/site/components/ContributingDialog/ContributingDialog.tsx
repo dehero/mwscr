@@ -56,7 +56,7 @@ export const ContributingDialog: DetachedDialog<ContributingDialogTab> = (props)
                     S
                   </Icon>
                   <p class={styles.variantTitle}>Submit Files</p>
-                  <p class={styles.variantDescription}>Add your screenshots, drawings or videos to Drafts.</p>
+                  <p class={styles.variantDescription}>Add your images or videos to Drafts.</p>
                 </Frame>
 
                 <Frame
@@ -87,9 +87,7 @@ export const ContributingDialog: DetachedDialog<ContributingDialogTab> = (props)
                     R
                   </Icon>
                   <p class={styles.variantTitle}>Request Themed Post</p>
-                  <p class={styles.variantDescription}>
-                    Ask the authors to make a certain screenshot, drawing or video.
-                  </p>
+                  <p class={styles.variantDescription}>Ask the authors to make a certain post.</p>
                 </Frame>
 
                 <Frame
