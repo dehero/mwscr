@@ -48,7 +48,7 @@ const submitVariants: SubmitVariantDescriptor[] = [
     label: 'Upload files to Drafts',
     description:
       "Send images directly to Drafts, then edit proposed posts in-place. Changes are visible only in your current browser until you send Edits to the project's repository.",
-    allowedFormats: [['PNG', '≤ 5MB']],
+    allowedFormats: [['PNG', '≤ 10MB']],
   },
   {
     id: 'insert-links',
@@ -56,7 +56,7 @@ const submitVariants: SubmitVariantDescriptor[] = [
     description:
       "Insert links to images or videos directly to Drafts, then edit proposed posts in-place. Changes are visible only in your current browser until you send Edits to the project's repository.",
     allowedFormats: [
-      ['PNG', '≤ 5MB'],
+      ['PNG', '≤ 10MB'],
       ['MP4, AVI', '≤ 200MB'],
     ],
   },
@@ -66,7 +66,7 @@ const submitVariants: SubmitVariantDescriptor[] = [
     description:
       'Send images or videos to Telegram bot called "Ordinator". He will check them and put to Drafts if everything is ok. He answers within an hour.',
     allowedFormats: [
-      ['PNG', '≤ 5MB'],
+      ['PNG', '≤ 10MB'],
       ['MP4, AVI', '≤ 200MB'],
       ['ZIP', '≤ 100MB'],
     ],
@@ -77,7 +77,7 @@ const submitVariants: SubmitVariantDescriptor[] = [
     description:
       "Create GitHub Issue in project's repository with your images or videos attached. Use ZIP archives to send large or multiple files. After the issue is created, files will be automatically checked by project's repository workflow and added to Drafts if everything is ok.",
     allowedFormats: [
-      ['PNG', '≤ 5MB'],
+      ['PNG', '≤ 10MB'],
       ['MP4', '≤ 10MB'],
       ['ZIP', '≤ 25MB'],
     ],

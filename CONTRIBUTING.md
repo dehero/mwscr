@@ -82,7 +82,7 @@ requirements for automatic verification:
 
 | Resource type | Format       |  Height | Width   |  Duration | Framerate |     Size |
 | ------------- | :----------- | ------: | ------: | --------: | --------: | -------: |
-| Image         | `PNG`        |   ≥ 800 |   ≥ 800 |           |           |   ≤ 5 MB |
+| Image         | `PNG`        |   ≥ 800 |   ≥ 800 |           |           |  ≤ 10 MB |
 | Video         | `MP4` `AVI`  |  ≥ 1080 |  ≥ 1080 |  ≥ 10 sec |  ≥ 30 fps | ≤ 200 MB |
 | Archive       | `ZIP`        |         |         |           |           | ≤ 100 MB |
 
