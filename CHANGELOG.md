@@ -2,6 +2,15 @@
 
 All notable changes to this project will be documented in this file.
 
+## [2.14.0](https://github.com/dehero/mwscr/compare/v2.13.2...v2.14.0) (2025-12-15)
+
+### Features
+
+- make shot posting rules weaker
+  ([4c01aec](https://github.com/dehero/mwscr/commit/4c01aecad798d374dfe2db07d6b6561e4fb8de39))
+- make shot posting rules weaker
+  ([ca86744](https://github.com/dehero/mwscr/commit/ca867448a3392b1abec52c35c8b32c403c135df8))
+
 ## [2.13.2](https://github.com/dehero/mwscr/compare/v2.13.1...v2.13.2) (2025-12-15)
 
 ### Bug Fixes
