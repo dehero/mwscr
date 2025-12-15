@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file.
 
+## [2.13.0](https://github.com/dehero/mwscr/compare/v2.12.3...v2.13.0) (2025-12-15)
+
+### Features
+
+- increase imported image file size limit to 10MB
+  ([69a29bd](https://github.com/dehero/mwscr/commit/69a29bd4d745bda78aa46c15cbd0432aec2dc657))
+
 ## [2.12.3](https://github.com/dehero/mwscr/compare/v2.12.2...v2.12.3) (2025-12-11)
 
 ### Bug Fixes
