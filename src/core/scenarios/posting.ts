@@ -3,8 +3,8 @@ import type { PostsManagerName, PublicPostsManagerName } from '../entities/posts
 import type { PostCandidateRule } from '../rules/post-candidate-rules.js';
 import {
   //   // needAnnouncement,
-  needMaxMarkDistance,
-  needMinAuthorDistance,
+  // needMaxMarkDistance,
+  // needMinAuthorDistance,
   needMinContentDistance,
   needMinMarkDistance,
   needMinRelatedLocationDistance,
