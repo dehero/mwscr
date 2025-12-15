@@ -2,6 +2,27 @@
 
 All notable changes to this project will be documented in this file.
 
+## [2.13.2](https://github.com/dehero/mwscr/compare/v2.13.1...v2.13.2) (2025-12-15)
+
+### Bug Fixes
+
+- catch error in async function
+  ([610aecb](https://github.com/dehero/mwscr/commit/610aecb6f4eab6e2dc15b9f13e194887956f0f5d))
+
+## [2.13.1](https://github.com/dehero/mwscr/compare/v2.13.0...v2.13.1) (2025-12-15)
+
+### Bug Fixes
+
+- don't throw error on image media reading failure
+  ([5c3c858](https://github.com/dehero/mwscr/commit/5c3c8583b72f370f249aca41a0030d94fbd32ba1))
+
+## [2.13.0](https://github.com/dehero/mwscr/compare/v2.12.3...v2.13.0) (2025-12-15)
+
+### Features
+
+- increase imported image file size limit to 10MB
+  ([69a29bd](https://github.com/dehero/mwscr/commit/69a29bd4d745bda78aa46c15cbd0432aec2dc657))
+
 ## [2.12.3](https://github.com/dehero/mwscr/compare/v2.12.2...v2.12.3) (2025-12-11)
 
 ### Bug Fixes

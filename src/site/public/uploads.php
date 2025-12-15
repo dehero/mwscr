@@ -124,7 +124,7 @@ function uploadFiles()
         $success = true;
       } else {
         // Check file size
-        if ($files['size'][$i] > 5242880) {
+        if ($files['size'][$i] > 10485760) {
           $errors[] = 'File is too large.';
         }
 

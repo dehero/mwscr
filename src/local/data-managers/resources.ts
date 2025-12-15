@@ -301,7 +301,11 @@ export async function extractResourceMediaMetadata(resource: Resource | string):
     case 'image/avif':
     case 'image/jpeg':
     case 'image/png':
-      return sharp(data).metadata();
+      try {
+        return await sharp(data).metadata();
+      } catch {
+        return {};
+      }
     // TODO: add video support
     default:
   }
