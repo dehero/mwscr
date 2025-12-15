@@ -302,7 +302,7 @@ export async function extractResourceMediaMetadata(resource: Resource | string):
     case 'image/jpeg':
     case 'image/png':
       try {
-        return sharp(data).metadata();
+        return await sharp(data).metadata();
       } catch {
         return {};
       }
