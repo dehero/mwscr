@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file.
 
+## [2.13.2](https://github.com/dehero/mwscr/compare/v2.13.1...v2.13.2) (2025-12-15)
+
+### Bug Fixes
+
+- catch error in async function
+  ([610aecb](https://github.com/dehero/mwscr/commit/610aecb6f4eab6e2dc15b9f13e194887956f0f5d))
+
 ## [2.13.1](https://github.com/dehero/mwscr/compare/v2.13.0...v2.13.1) (2025-12-15)
 
 ### Bug Fixes
