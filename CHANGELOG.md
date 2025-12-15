@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file.
 
+## [2.13.1](https://github.com/dehero/mwscr/compare/v2.13.0...v2.13.1) (2025-12-15)
+
+### Bug Fixes
+
+- don't throw error on image media reading failure
+  ([5c3c858](https://github.com/dehero/mwscr/commit/5c3c8583b72f370f249aca41a0030d94fbd32ba1))
+
 ## [2.13.0](https://github.com/dehero/mwscr/compare/v2.12.3...v2.13.0) (2025-12-15)
 
 ### Features
