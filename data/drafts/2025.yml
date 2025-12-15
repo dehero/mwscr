@@ -415,11 +415,18 @@ ohsweetnazareth.2025-12-08-foul-betrayal-f0813cd1:
   author: ohsweetnazareth
 ohsweetnazareth.2025-12-08-throne-of-khash-ti-dhrur-35a4d667:
   title: Throne of Khash-Ti Dhrur
-  content:
-    - store:/inbox/ohsweetnazareth.2025-12-08-throne-of-khash-ti-dhrur-35a4d667.png
-    - store:/inbox/ohsweetnazareth.2025-12-08-throne-of-khash-ti-dhrur-35a4d667.1.png
+  titleRu: Трон Каш-Ти Друра
+  placement: Indoors
+  location: Norenen-dur, Citadel of Myn Dhrur
+  content: store:/inbox/ohsweetnazareth.2025-12-08-throne-of-khash-ti-dhrur-35a4d667.1.png
+  trash: store:/inbox/ohsweetnazareth.2025-12-08-throne-of-khash-ti-dhrur-35a4d667.png
   type: shot
   author: ohsweetnazareth
+  addon: Tribunal
+  tags:
+    - daedric
+    - candle
+  mark: B1
 ohsweetnazareth.2025-12-08-war-of-the-automatons-bb5d85d8:
   title: War of the Automatons
   content: store:/inbox/ohsweetnazareth.2025-12-08-war-of-the-automatons-bb5d85d8.png
@@ -467,11 +474,18 @@ ohsweetnazareth.2025-12-09-sotha-sils-scrapyard-a210ac27:
   type: shot
   author: ohsweetnazareth
 ohsweetnazareth.2025-12-09-the-skies-of-mournhold-are-clear-once-again-a8870bd6:
-  content:
-    - store:/inbox/ohsweetnazareth.2025-12-09-the-skies-of-mournhold-are-clear-once-again-a8870bd6.png
-    - store:/inbox/ohsweetnazareth.2025-12-09-the-skies-of-mournhold-are-clear-once-again-a8870bd6.1.png
+  title: The Skies of Mournhold Are Clear Once Again!
+  titleRu: Небо Морнхолда снова чистое!
+  placement: Outdoors
+  location: Mournhold, Temple Courtyard
+  content: store:/inbox/ohsweetnazareth.2025-12-09-the-skies-of-mournhold-are-clear-once-again-a8870bd6.1.png
+  trash: store:/inbox/ohsweetnazareth.2025-12-09-the-skies-of-mournhold-are-clear-once-again-a8870bd6.png
   type: shot
   author: ohsweetnazareth
+  addon: Tribunal
+  tags:
+    - azura
+  mark: A2
 ohsweetnazareth.2025-12-09-the-war-of-the-automatons-84829be4:
   content: store:/inbox/ohsweetnazareth.2025-12-09-the-war-of-the-automatons-84829be4.png
   type: shot
