@@ -459,7 +459,7 @@ ansis:
   profiles:
     - service: tg
       id: '517050552'
-      updated: 2025-12-16-16-40-00
+      updated: 2025-12-16-17-31-24
       accessHash: '5231096655311395455'
       username: ansis
       name: ansis
@@ -2152,7 +2152,7 @@ golden-morgan:
   profiles:
     - service: vk
       id: '157461309'
-      updated: 2025-12-10-04-30-11
+      updated: 2025-12-16-17-31-26
       username: golden_morgan
       name: Marco Polo
       avatar: store:/avatars/vk-f7f43d22.jpg
@@ -3241,7 +3241,7 @@ maksim-kopytov:
   profiles:
     - service: vk
       id: '799521846'
-      updated: 2025-12-15-14-35-37
+      updated: 2025-12-16-17-31-25
       username: id799521846
       name: Максим Копытов
       avatar: store:/avatars/vk-0da189cf.jpg
@@ -4737,7 +4737,7 @@ sergey-churbanov:
   profiles:
     - service: vk
       id: '1060712354'
-      updated: 2025-12-16-13-02-10
+      updated: 2025-12-16-17-31-25
       username: id1060712354
       name: Сергей Чурбанов
       avatar: store:/avatars/vk-6499ce8d.jpg
