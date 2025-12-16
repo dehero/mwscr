@@ -459,7 +459,7 @@ ansis:
   profiles:
     - service: tg
       id: '517050552'
-      updated: 2025-12-16-22-27-11
+      updated: 2025-12-16-23-27-27
       accessHash: '5231096655311395455'
       username: ansis
       name: ansis
@@ -2809,7 +2809,7 @@ kawazaky223:
   profiles:
     - service: tg
       id: '5641856113'
-      updated: 2025-12-16-20-33-29
+      updated: 2025-12-16-23-27-28
       accessHash: '7421309771527577818'
       username: Kawazaky223
       name: Максим
@@ -4125,7 +4125,7 @@ peteevandrew:
   profiles:
     - service: vk
       id: '307619379'
-      updated: 2025-12-16-13-01-59
+      updated: 2025-12-16-23-27-28
       username: peteevandrew
       name: Андрей Петеев
       avatar: store:/avatars/vk-d3f26d8e.jpg
