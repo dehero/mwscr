@@ -100,7 +100,7 @@ a2-enkelli:
   profiles:
     - service: tg
       id: '7258424423'
-      updated: 2025-12-16-13-01-58
+      updated: 2025-12-16-15-32-17
       accessHash: '969825927170686844'
       username: A2_Enkelli
       name: †† elli ††
@@ -459,7 +459,7 @@ ansis:
   profiles:
     - service: tg
       id: '517050552'
-      updated: 2025-12-16-14-33-52
+      updated: 2025-12-16-15-32-15
       accessHash: '5231096655311395455'
       username: ansis
       name: ansis
@@ -1376,7 +1376,7 @@ dehero:
     - type: channel
       service: tg
       id: '1264795946'
-      updated: 2025-12-15-21-28-19
+      updated: 2025-12-16-15-32-15
       accessHash: '-5789257269249675714'
       username: mwscr
       name: Morrowind Screenshots
@@ -1599,7 +1599,7 @@ dremarretres:
   profiles:
     - service: vk
       id: '801308664'
-      updated: 2025-12-15-14-35-13
+      updated: 2025-12-16-15-32-16
       username: dremarretres
       name: Джон Шепард
       avatar: store:/avatars/vk-ac4f0700.jpg
@@ -2067,7 +2067,7 @@ ghosr1368:
   profiles:
     - service: tg
       id: '6353853685'
-      updated: 2025-12-15-14-35-13
+      updated: 2025-12-16-15-32-16
       accessHash: '2523169162736182941'
       username: Ghosr1368
       name: Nikita
@@ -4342,7 +4342,7 @@ qirong666:
   profiles:
     - service: vk
       id: '229334633'
-      updated: 2025-12-15-14-35-13
+      updated: 2025-12-16-15-32-17
       username: qirong666
       name: Qi Rong
       avatar: store:/avatars/vk-6f8a5bb2.jpg
@@ -4729,7 +4729,7 @@ sergey-b-2:
   profiles:
     - service: vk
       id: '1077446394'
-      updated: 2025-12-16-13-01-54
+      updated: 2025-12-16-15-32-17
       username: id1077446394
       name: Сергей Б
       avatar: store:/avatars/vk-a7369956.jpg
@@ -5854,7 +5854,7 @@ vail-astor-zkiy:
   profiles:
     - service: tg
       id: '1245638625'
-      updated: 2025-12-15-14-35-50
+      updated: 2025-12-16-15-32-17
       accessHash: '-6135365331334675689'
       name: Vail Astor'zkiy
 valeriy-zhmishenko:
