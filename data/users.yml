@@ -459,7 +459,7 @@ ansis:
   profiles:
     - service: tg
       id: '517050552'
-      updated: 2025-12-17-14-31-57
+      updated: 2025-12-17-15-32-57
       accessHash: '5231096655311395455'
       username: ansis
       name: ansis
@@ -1376,7 +1376,7 @@ dehero:
     - type: channel
       service: tg
       id: '1264795946'
-      updated: 2025-12-16-15-32-15
+      updated: 2025-12-17-15-33-11
       accessHash: '-5789257269249675714'
       username: mwscr
       name: Morrowind Screenshots
@@ -1599,7 +1599,7 @@ dremarretres:
   profiles:
     - service: vk
       id: '801308664'
-      updated: 2025-12-16-15-32-16
+      updated: 2025-12-17-15-33-00
       username: dremarretres
       name: Джон Шепард
       avatar: store:/avatars/vk-ac4f0700.jpg
@@ -2067,7 +2067,7 @@ ghosr1368:
   profiles:
     - service: tg
       id: '6353853685'
-      updated: 2025-12-16-15-32-16
+      updated: 2025-12-17-15-32-58
       accessHash: '2523169162736182941'
       username: Ghosr1368
       name: Nikita
@@ -2809,7 +2809,7 @@ kawazaky223:
   profiles:
     - service: tg
       id: '5641856113'
-      updated: 2025-12-17-04-40-58
+      updated: 2025-12-17-15-33-02
       accessHash: '7421309771527577818'
       username: Kawazaky223
       name: Максим
@@ -3748,11 +3748,11 @@ nerevarine:
   profiles:
     - service: tg
       id: '373264328'
-      updated: 2025-12-14-13-36-08
+      updated: 2025-12-17-15-33-06
       accessHash: '9078366854792939477'
       username: Nerevarine
       name: Otto Godblessed
-      avatar: store:/avatars/tg-1603158081979656203.jpg
+      avatar: store:/avatars/tg-1603158081983417089.jpg
 neulovimiy-djo:
   profiles:
     - service: vk
@@ -4342,7 +4342,7 @@ qirong666:
   profiles:
     - service: vk
       id: '229334633'
-      updated: 2025-12-16-15-32-17
+      updated: 2025-12-17-15-33-00
       username: qirong666
       name: Qi Rong
       avatar: store:/avatars/vk-6f8a5bb2.jpg
@@ -4729,7 +4729,7 @@ sergey-b-2:
   profiles:
     - service: vk
       id: '1077446394'
-      updated: 2025-12-17-14-31-59
+      updated: 2025-12-17-15-33-00
       username: id1077446394
       name: Сергей Б
       avatar: store:/avatars/vk-a7369956.jpg
@@ -5436,7 +5436,7 @@ todor:
   profiles:
     - service: tg
       id: '1305695186'
-      updated: 2025-12-16-13-02-00
+      updated: 2025-12-17-15-33-11
       accessHash: '8819682207926865502'
       name: Todor
       avatar: store:/avatars/tg-5305295556123424826.jpg
@@ -5785,7 +5785,7 @@ user-5:
   profiles:
     - service: tg
       id: '370313011'
-      updated: 2025-12-11-22-44-41
+      updated: 2025-12-17-15-33-11
       accessHash: '-8597544857375648588'
       name: ­­
       avatar: store:/avatars/tg-1590482271984527366.jpg
