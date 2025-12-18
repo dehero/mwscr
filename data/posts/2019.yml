@@ -621,10 +621,10 @@
     - service: vk
       id: 2412
       published: 2025-06-01-18-25-47
-      updated: 2025-12-11-20-21-30
+      updated: 2025-12-18-20-34-26
       followers: 1314
       likes: 65
-      views: 624
+      views: 626
       reposts: 1
       comments: !c |-
         G7gA4J0JNk6oR3kXHkR1e8LjJgk0wySIsusPqAm4LKJkF3MbO/OKYRiFlQ1cha2DQw5crhi0ADAI
@@ -633,10 +633,10 @@
     - service: tg
       id: 868
       published: 2025-06-01-18-25-50
-      updated: 2025-12-11-20-21-01
+      updated: 2025-12-18-20-33-55
       followers: 742
       likes: 62
-      views: 584
+      views: 585
       comments: !c iw2AkZPLQnlyzUJLAACra2F3YXpha3kyMjOk8J+rpQM=
 2019-02-19-sandy-shore-of-west-gash:
   title: Sandy Shore of West Gash
@@ -1685,15 +1685,15 @@
     - service: vk
       id: 2485
       published: 2025-06-25-18-30-45
-      updated: 2025-12-11-20-20-54
+      updated: 2025-12-18-20-33-44
       followers: 1328
       likes: 80
-      views: 1206
+      views: 1213
       reposts: 5
     - service: tg
       id: 896
       published: 2025-06-25-18-30-49
-      updated: 2025-12-11-20-20-38
+      updated: 2025-12-18-20-33-34
       followers: 754
       likes: 74
       views: 964
@@ -1781,14 +1781,14 @@
     - service: vk
       id: 2510
       published: 2025-07-09-18-24-37
-      updated: 2025-12-11-20-20-39
+      updated: 2025-12-18-20-33-31
       followers: 1335
       likes: 35
-      views: 605
+      views: 607
     - service: tg
       id: 912
       published: 2025-07-09-18-24-42
-      updated: 2025-12-11-20-20-30
+      updated: 2025-12-18-20-33-20
       followers: 758
       likes: 54
       views: 583
@@ -2496,7 +2496,7 @@
     - service: tg
       id: 847
       published: 2025-05-17-19-13-22
-      updated: 2025-12-11-20-21-22
+      updated: 2025-12-18-20-34-18
       followers: 737
       likes: 69
       views: 540
