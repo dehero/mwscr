@@ -2600,7 +2600,7 @@
       id: DO_rbtAER6E
       mediaId: '17938699731074336'
       published: 2025-09-24-18-25-59
-      updated: 2025-12-11-19-17-18
+      updated: 2025-12-18-19-23-34
       followers: 1581
       likes: 66
     - service: vk
@@ -2940,16 +2940,16 @@
       id: DR5EVHZj5ia
       mediaId: '18399316372121352'
       published: 2025-12-05-18-23-06
-      updated: 2025-12-11-19-17-04
+      updated: 2025-12-18-19-23-17
       followers: 1600
       likes: 50
     - service: vk
       id: 2922
       published: 2025-12-05-18-23-12
-      updated: 2025-12-11-19-17-16
+      updated: 2025-12-18-19-23-18
       followers: 1537
-      likes: 85
-      views: 1135
+      likes: 86
+      views: 1177
       reposts: 3
       comments: !c |-
         G+EDYCwKbEcfq5p45g9lRxCF+H/i+N/HV+hM1J9KMYrCxqMaj/9P/Lu2v3nAqTi1Q3QYj6HhwfO5
@@ -2964,10 +2964,10 @@
     - service: tg
       id: 1080
       published: 2025-12-05-18-23-15
-      updated: 2025-12-11-19-17-07
+      updated: 2025-12-18-19-23-18
       followers: 868
-      likes: 66
-      views: 394
+      likes: 67
+      views: 506
 2025-12-06-1-senseless-mourning:
   title: Senseless Mourning
   titleRu: Бессмысленный траур
@@ -3241,25 +3241,25 @@
       id: DSS4BZlkajv
       mediaId: '18067269083528110'
       published: 2025-12-15-18-55-45
-      updated: 2025-12-17-18-43-33
+      updated: 2025-12-18-19-23-16
       followers: 1604
-      likes: 80
+      likes: 83
       comments: !c iw6AkZPLQnmyRDBngACtdGFtcmllbHRlc290dqTwn5SlAw==
     - service: vk
       id: 2953
       published: 2025-12-15-18-55-54
-      updated: 2025-12-17-18-43-28
+      updated: 2025-12-18-19-23-10
       followers: 1543
       likes: 45
-      views: 509
+      views: 553
       reposts: 1
     - service: tg
       id: 1087
       published: 2025-12-15-18-55-59
-      updated: 2025-12-17-18-43-33
+      updated: 2025-12-18-19-23-17
       followers: 874
-      likes: 54
-      views: 314
+      likes: 57
+      views: 337
       comments: !c Cw2AkZPLQnmyNiIEAAClYW5zaXOpQnkgQXp1cmEhAw==
 2025-12-16-1-throne-of-khash-ti-dhrur:
   title: Throne of Khash-Ti Dhrur
@@ -3300,3 +3300,29 @@
       followers: 880
       likes: 52
       views: 230
+2025-12-18-1-malacath-and-his-worshipers:
+  title: Malacath and His Worshipers
+  titleRu: Малакат и его поклонники
+  placement: Outdoors
+  location: Valenvaryon
+  content: store:/shots/2025-12-18-1-malacath-and-his-worshipers.png
+  type: shot
+  author: dehero
+  engine: OpenMW
+  tags:
+    - malacath
+  mark: B1
+  posts:
+    - service: ig
+      id: DSaprvCEatI
+      mediaId: '17934566253131391'
+      published: 2025-12-18-19-24-25
+      followers: 1605
+    - service: vk
+      id: 2957
+      published: 2025-12-18-19-24-30
+      followers: 1544
+    - service: tg
+      id: 1091
+      published: 2025-12-18-19-24-34
+      followers: 880
