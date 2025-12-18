@@ -3779,7 +3779,7 @@
     - service: tg
       id: 638
       published: 2024-12-26-19-32-13
-      updated: 2025-12-11-21-20-34
+      updated: 2025-12-18-21-26-25
       followers: 626
       likes: 74
       views: 1008
@@ -3814,7 +3814,7 @@
     - service: tg
       id: 639
       published: 2024-12-27-18-10-46
-      updated: 2025-12-11-21-20-34
+      updated: 2025-12-18-21-26-25
       followers: 631
       likes: 68
       views: 744
@@ -3862,10 +3862,10 @@
     - service: tg
       id: 640
       published: 2024-12-28-18-09-36
-      updated: 2025-12-11-21-20-33
+      updated: 2025-12-18-21-26-25
       followers: 638
       likes: 75
-      views: 658
+      views: 659
       comments: !c |-
         iyOAkpPLQnlCbkw1AAClYW5zaXO7VGhlIEZpcnN0IEJyZWF0aCBvZiBTa2liaWRpk8tCeUE1Nk4A
         AKt6aGVjaGthLWRydqTwn5mEAw==
@@ -3911,10 +3911,10 @@
     - service: tg
       id: 642
       published: 2024-12-30-18-10-55
-      updated: 2025-12-11-21-20-32
+      updated: 2025-12-18-21-26-24
       followers: 642
       likes: 79
-      views: 1002
+      views: 1003
 2024-12-31-a-look-into-the-darkness:
   title: A Look Into the Darkness
   titleRu: Взгляд в темноту
@@ -3957,7 +3957,7 @@
     - service: tg
       id: 643
       published: 2024-12-31-18-10-35
-      updated: 2025-12-11-21-20-32
+      updated: 2025-12-18-21-26-23
       followers: 643
       likes: 69
       views: 600
