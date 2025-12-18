@@ -459,7 +459,7 @@ ansis:
   profiles:
     - service: tg
       id: '517050552'
-      updated: 2025-12-17-21-28-58
+      updated: 2025-12-18-11-27-00
       accessHash: '5231096655311395455'
       username: ansis
       name: ansis
@@ -573,7 +573,7 @@ arya-stark:
   profiles:
     - service: vk
       id: '820702664'
-      updated: 2025-12-18-10-32-47
+      updated: 2025-12-18-11-26-58
       username: id820702664
       name: Арья Старк
       avatar: store:/avatars/vk-689aa89d.jpg
@@ -1356,7 +1356,7 @@ dehero:
       avatar: store:/avatars/gh-c8afe641.jpg
     - service: vk
       id: '3652910'
-      updated: 2025-12-16-13-02-09
+      updated: 2025-12-18-11-26-59
       username: dehero
       name: Антон Курьянов
       avatar: store:/avatars/vk-5356f76e.jpg
@@ -1376,7 +1376,7 @@ dehero:
     - type: channel
       service: tg
       id: '1264795946'
-      updated: 2025-12-17-15-33-11
+      updated: 2025-12-18-11-27-08
       accessHash: '-5789257269249675714'
       username: mwscr
       name: Morrowind Screenshots
@@ -1801,7 +1801,7 @@ engelszerst0rung:
   profiles:
     - service: tg
       id: '5155632213'
-      updated: 2025-12-11-11-16-12
+      updated: 2025-12-18-11-27-00
       accessHash: '995635526495848836'
       username: engelszerst0rung
       name: 𝔗ℭℌ𝔗𝔓𝔖𝔗
@@ -2160,7 +2160,7 @@ goosevich76:
   profiles:
     - service: tg
       id: '5385620621'
-      updated: 2025-12-17-21-28-59
+      updated: 2025-12-18-11-27-08
       accessHash: '-7130473396589324830'
       username: horwwwaty
       name: choven
@@ -2275,7 +2275,7 @@ himmelherz:
   profiles:
     - service: tg
       id: '588028426'
-      updated: 2025-12-15-21-28-19
+      updated: 2025-12-18-11-26-59
       accessHash: '3598871882011829639'
       username: himmelherz
       name: Roman
@@ -2809,7 +2809,7 @@ kawazaky223:
   profiles:
     - service: tg
       id: '5641856113'
-      updated: 2025-12-17-21-28-59
+      updated: 2025-12-18-11-26-59
       accessHash: '7421309771527577818'
       username: Kawazaky223
       name: Максим
@@ -3233,7 +3233,7 @@ maksim-bondarenko:
   profiles:
     - service: vk
       id: '538324952'
-      updated: 2025-12-17-21-28-58
+      updated: 2025-12-18-11-26-59
       username: id538324952
       name: Максим Бондаренко
       avatar: store:/avatars/vk-77942374.jpg
@@ -3414,7 +3414,7 @@ michael-levington:
   profiles:
     - service: vk
       id: '416916067'
-      updated: 2025-12-17-14-31-58
+      updated: 2025-12-18-11-26-59
       username: michael_levington
       name: Майкл Левингтон
       avatar: store:/avatars/vk-5fe6e343.jpg
@@ -3773,12 +3773,12 @@ nihil-sum:
   profiles:
     - service: tg
       id: '563711962'
-      updated: 2025-12-11-22-23-05
+      updated: 2025-12-18-11-27-04
       accessHash: '4311900909005184860'
       username: syomadyoma
       botChatId: 563711962
       name: Birchman🌲
-      avatar: store:/avatars/tg-2421124441610233794.jpg
+      avatar: store:/avatars/tg-2421124441613994753.jpg
 nirnwayfarer:
   profiles:
     - service: ig
@@ -3791,7 +3791,7 @@ nitz1992:
   profiles:
     - service: vk
       id: '5778432'
-      updated: 2025-12-11-11-16-11
+      updated: 2025-12-18-11-26-59
       username: nitz1992
       name: Максим Королёв
       avatar: store:/avatars/vk-7056ef15.jpg
@@ -5073,7 +5073,7 @@ ss:
   profiles:
     - service: tg
       id: '1087047108'
-      updated: 2025-12-11-11-16-12
+      updated: 2025-12-18-11-27-00
       accessHash: '896126354116736981'
       name: SS
       avatar: store:/avatars/tg-5443040560374985455.jpg
@@ -5829,7 +5829,7 @@ uvgmsk1987:
   profiles:
     - service: tg
       id: '5868654223'
-      updated: 2025-12-11-11-16-13
+      updated: 2025-12-18-11-27-04
       accessHash: '-1666479958134503916'
       username: uvgmsk1987
       name: Иван Иванов
