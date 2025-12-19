@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file.
 
+## [2.14.1](https://github.com/dehero/mwscr/compare/v2.14.0...v2.14.1) (2025-12-19)
+
+### Bug Fixes
+
+- catch errors when adding drafts from post proposal issue
+  ([5197efe](https://github.com/dehero/mwscr/commit/5197efea6c5d26aaefddabe9e65db7e1d049e14c))
+
 ## [2.14.0](https://github.com/dehero/mwscr/compare/v2.13.2...v2.14.0) (2025-12-15)
 
 ### Features
