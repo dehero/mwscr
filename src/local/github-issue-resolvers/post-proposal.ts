@@ -26,10 +26,16 @@ export async function resolve(issue: GithubIssue) {
     const draftEntries = await importResourceToStore(url, { title: text || issueTitle, author }, issueDate);
 
     for (const [id, post] of draftEntries) {
-      await drafts.addItem(post, id);
-      await drafts.save();
+      try {
+        await drafts.addItem(post, id);
+        await drafts.save();
 
-      console.info(`Created draft "${id}" from "${url}".`);
+        console.info(`Created draft "${id}" from "${url}".`);
+      } catch (error) {
+        if (error instanceof Error) {
+          console.error(`Error creating draft "${id}" from "${url}": ${error.message}`);
+        }
+      }
     }
   }
 }
