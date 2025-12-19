@@ -3317,24 +3317,27 @@
       id: DSaprvCEatI
       mediaId: '17934566253131391'
       published: 2025-12-18-19-24-25
-      updated: 2025-12-19-09-32-49
+      updated: 2025-12-19-10-32-05
       followers: 1605
-      likes: 49
+      likes: 50
       comments: !c iw+AkZPLQnmzMMn8AACtdGFtcmllbHRlc290dqbinaTvuI8D
     - service: vk
       id: 2957
       published: 2025-12-18-19-24-30
-      updated: 2025-12-19-09-32-42
+      updated: 2025-12-19-10-32-09
       followers: 1544
-      likes: 33
-      views: 355
+      likes: 34
+      views: 370
+      comments: !c |-
+        G4sA4I2UbsKaIJ4/NYQfJAGJhWiM1VqGttsKXqJ5D+s2duYVQ4oKBYccuH8ZxwcNyGvYzIZzdL2/
+        rH3ZZ3PWnl3QRsFeH4Myq8Z/w0NmRFisoMyIBhyWRQ4KKgJ4OcsqB4WuZlegHhjRRMa9ZIPM6w8D
     - service: tg
       id: 1091
       published: 2025-12-18-19-24-34
-      updated: 2025-12-19-09-32-49
+      updated: 2025-12-19-10-32-07
       followers: 880
-      likes: 44
-      views: 191
+      likes: 45
+      views: 194
       comments: !c |-
         CyuAkZTLQnmzNvXRgACqbmVyZXZhcmluZdktdGVsbGluZyBteSBraWRzIHRoaXMgaXMgYSBnZW9y
         Z2UgZmxveWQgc3RhdHVlk8tCebM6he2AAKVhbnNpc6EuAw==
