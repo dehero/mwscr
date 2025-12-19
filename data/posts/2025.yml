@@ -2436,10 +2436,10 @@
     - service: vk
       id: 2657
       published: 2025-09-18-18-30-28
-      updated: 2025-12-12-15-18-59
+      updated: 2025-12-19-15-31-38
       followers: 1423
       likes: 71
-      views: 1781
+      views: 1787
       reposts: 8
       comments: !c |-
         G74FACwG7Eb5chlcrJdlYWhWljGCt3ie5/D3LdFntUHjuEDamM3jgUyKojFFxr4PtMVLtaVVAUCF
@@ -3317,27 +3317,28 @@
       id: DSaprvCEatI
       mediaId: '17934566253131391'
       published: 2025-12-18-19-24-25
-      updated: 2025-12-19-14-30-09
+      updated: 2025-12-19-15-31-13
       followers: 1605
-      likes: 51
+      likes: 52
       comments: !c iw+AkZPLQnmzMMn8AACtdGFtcmllbHRlc290dqbinaTvuI8D
     - service: vk
       id: 2957
       published: 2025-12-18-19-24-30
-      updated: 2025-12-19-14-30-10
+      updated: 2025-12-19-15-31-16
       followers: 1544
-      likes: 39
-      views: 420
+      likes: 41
+      views: 443
+      reposts: 1
       comments: !c |-
         G4sA4I2UbsKaIJ4/NYQfJAGJhWiM1VqGttsKXqJ5D+s2duYVQ4oKBYccuH8ZxwcNyGvYzIZzdL2/
         rH3ZZ3PWnl3QRsFeH4Myq8Z/w0NmRFisoMyIBhyWRQ4KKgJ4OcsqB4WuZlegHhjRRMa9ZIPM6w8D
     - service: tg
       id: 1091
       published: 2025-12-18-19-24-34
-      updated: 2025-12-19-14-30-10
+      updated: 2025-12-19-15-31-15
       followers: 880
       likes: 47
-      views: 203
+      views: 204
       comments: !c |-
         CyuAkZTLQnmzNvXRgACqbmVyZXZhcmluZdktdGVsbGluZyBteSBraWRzIHRoaXMgaXMgYSBnZW9y
         Z2UgZmxveWQgc3RhdHVlk8tCebM6he2AAKVhbnNpc6EuAw==

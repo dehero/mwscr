@@ -3460,10 +3460,10 @@
     - service: vk
       id: 2578
       published: 2025-08-14-18-23-58
-      updated: 2025-12-12-15-19-02
+      updated: 2025-12-19-15-31-41
       followers: 1363
       likes: 28
-      views: 600
+      views: 602
       reposts: 1
       comments: !c |-
         G4sAWBwHdoyzklx+YQQhENxGioQCodICY9DYdHMjVKOW7izd8kd1bjnQGDkAjGYyFEtQt08nrVgQ
@@ -5312,10 +5312,10 @@
     - service: vk
       id: 2610
       published: 2025-08-28-18-20-57
-      updated: 2025-12-12-15-19-00
+      updated: 2025-12-19-15-31-39
       followers: 1383
       likes: 51
-      views: 992
+      views: 995
       reposts: 3
     - service: tg
       id: 965
@@ -5579,7 +5579,7 @@
       id: DLNoqLTtw8X
       mediaId: '17905224342189031'
       published: 2025-06-22-18-25-32
-      updated: 2025-12-12-15-19-12
+      updated: 2025-12-19-15-31-37
       followers: 1553
       likes: 69
     - service: vk
@@ -6362,15 +6362,15 @@
     - service: vk
       id: 2503
       published: 2025-07-03-18-23-21
-      updated: 2025-12-12-15-19-13
+      updated: 2025-12-19-15-31-54
       followers: 1334
       likes: 56
-      views: 535
+      views: 539
       reposts: 1
     - service: tg
       id: 906
       published: 2025-07-03-18-23-25
-      updated: 2025-12-12-15-18-55
+      updated: 2025-12-19-15-31-27
       followers: 761
       likes: 70
       views: 628
@@ -11070,7 +11070,7 @@
       id: DLIfTf-tQSn
       mediaId: '18064831238158761'
       published: 2025-06-20-18-27-34
-      updated: 2025-12-12-15-19-16
+      updated: 2025-12-19-15-31-40
       followers: 1554
       likes: 77
     - service: vk
@@ -11697,7 +11697,7 @@
       id: DLQNzSCtXC6
       mediaId: '18071090824976196'
       published: 2025-06-23-18-28-33
-      updated: 2025-12-12-15-19-11
+      updated: 2025-12-19-15-31-36
       followers: 1554
       likes: 86
       comments: !c ixWAkZPLQnl54iL5AACrZGVsYW5vc3BpZXO0QmVzdCB2YW5pbGxhIGhpZGVvdXQD
@@ -11937,18 +11937,18 @@
     - service: vk
       id: 2519
       published: 2025-07-16-18-24-36
-      updated: 2025-12-12-15-19-10
+      updated: 2025-12-19-15-31-51
       followers: 1344
       likes: 36
-      views: 465
+      views: 467
       reposts: 1
     - service: tg
       id: 919
       published: 2025-07-16-18-24-39
-      updated: 2025-12-12-15-18-48
+      updated: 2025-12-19-15-31-19
       followers: 762
       likes: 62
-      views: 721
+      views: 722
       comments: !c Cw2AkZPLQnmBSwY+gACra2F3YXpha3kyMjOj4pyLAw==
     - service: ig
       id: DMP9TSusCyW
@@ -12132,7 +12132,7 @@
       id: DKz4-2pMLLR
       mediaId: '18066168299510430'
       published: 2025-06-12-18-27-53
-      updated: 2025-12-12-15-19-27
+      updated: 2025-12-19-15-31-56
       followers: 1554
       likes: 63
     - service: vk
@@ -13377,7 +13377,7 @@
       id: DLaiAhpM6-y
       mediaId: '18062176805233926'
       published: 2025-06-27-18-37-32
-      updated: 2025-12-12-15-19-02
+      updated: 2025-12-19-15-31-29
       followers: 1553
       likes: 77
     - service: vk
@@ -14374,7 +14374,7 @@
       id: DK-MO_hMGuI
       mediaId: '17876900667355189'
       published: 2025-06-16-18-28-33
-      updated: 2025-12-12-15-19-21
+      updated: 2025-12-19-15-31-46
       followers: 1553
       likes: 70
     - service: vk
@@ -14799,7 +14799,7 @@
       id: DLvGolxsLYQ
       mediaId: '18088466710600021'
       published: 2025-07-05-18-22-23
-      updated: 2025-12-12-15-18-51
+      updated: 2025-12-19-15-31-18
       followers: 1559
       likes: 63
       comments: !c |-
@@ -15055,7 +15055,7 @@
       id: DLF7g14NNqb
       mediaId: '18032560346432084'
       published: 2025-06-19-18-36-21
-      updated: 2025-12-12-15-19-18
+      updated: 2025-12-19-15-31-43
       followers: 1553
       likes: 93
     - service: vk
