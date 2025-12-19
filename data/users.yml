@@ -459,7 +459,7 @@ ansis:
   profiles:
     - service: tg
       id: '517050552'
-      updated: 2025-12-19-18-40-25
+      updated: 2025-12-19-19-23-18
       accessHash: '5231096655311395455'
       username: ansis
       name: ansis
@@ -573,7 +573,7 @@ arya-stark:
   profiles:
     - service: vk
       id: '820702664'
-      updated: 2025-12-19-15-31-37
+      updated: 2025-12-19-19-23-21
       username: id820702664
       name: Арья Старк
       avatar: store:/avatars/vk-689aa89d.jpg
@@ -2102,7 +2102,7 @@ gleb-zheltuhin:
   profiles:
     - service: vk
       id: '29014473'
-      updated: 2025-12-18-18-42-12
+      updated: 2025-12-19-19-23-21
       username: gleb_zheltuhin
       name: Глеб Желтухин
       avatar: store:/avatars/vk-971eefc1.jpg
@@ -3748,7 +3748,7 @@ nerevarine:
   profiles:
     - service: tg
       id: '373264328'
-      updated: 2025-12-19-18-40-25
+      updated: 2025-12-19-19-23-17
       accessHash: '9078366854792939477'
       username: Nerevarine
       name: Otto Godblessed
@@ -4745,7 +4745,7 @@ sergey-venkov:
   profiles:
     - service: vk
       id: '217443112'
-      updated: 2025-12-19-18-40-24
+      updated: 2025-12-19-19-23-18
       username: id217443112
       name: Сергей Венков
       avatar: store:/avatars/vk-a77d1a73.jpg

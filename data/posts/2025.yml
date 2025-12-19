@@ -3279,27 +3279,28 @@
       id: DSVbgAuk_P3
       mediaId: '18047569628467147'
       published: 2025-12-16-18-44-17
-      updated: 2025-12-18-18-42-12
+      updated: 2025-12-19-19-23-14
       followers: 1604
-      likes: 52
+      likes: 54
     - service: vk
       id: 2954
       published: 2025-12-16-18-44-25
-      updated: 2025-12-18-18-42-12
+      updated: 2025-12-19-19-23-22
       followers: 1545
-      likes: 39
-      views: 704
-      reposts: 2
+      likes: 46
+      views: 797
+      reposts: 3
       comments: !c |-
-        izSAkZTLQnmy/LsUgACqYXJ5YS1zdGFya7HQkCDRjdGC0L4g0LPQtNC1P5PLQnmzITbsgACuZ2xl
-        Yi16aGVsdHVoaW7ZJ9CQ0YDRjNGPLCDQvdCwINCS0LLQsNGA0LTQtdC90YTQtdC70LvQtQM=
+        i1CAkZXLQnmy/LsUgACqYXJ5YS1zdGFya7HQkCDRjdGC0L4g0LPQtNC1P5PLQnmzITbsgACuZ2xl
+        Yi16aGVsdHVoaW7ZJ9CQ0YDRjNGPLCDQvdCwINCS0LLQsNGA0LTQtdC90YTQtdC70LvQtZPLQnmz
+        Sm9qAACqYXJ5YS1zdGFya9kh0JPQu9C10LEsINGB0L/QsNGB0LjQsdC+LCDQmtGN0L8hAw==
     - service: tg
       id: 1088
       published: 2025-12-16-18-44-32
-      updated: 2025-12-18-18-42-06
+      updated: 2025-12-19-19-23-20
       followers: 880
-      likes: 52
-      views: 230
+      likes: 57
+      views: 290
 2025-12-18-1-malacath-and-his-worshipers:
   title: Malacath and His Worshipers
   titleRu: Малакат и его поклонники
@@ -3317,17 +3318,17 @@
       id: DSaprvCEatI
       mediaId: '17934566253131391'
       published: 2025-12-18-19-24-25
-      updated: 2025-12-19-18-40-24
+      updated: 2025-12-19-19-23-12
       followers: 1605
-      likes: 54
+      likes: 56
       comments: !c iw+AkZPLQnmzMMn8AACtdGFtcmllbHRlc290dqbinaTvuI8D
     - service: vk
       id: 2957
       published: 2025-12-18-19-24-30
-      updated: 2025-12-19-18-40-25
+      updated: 2025-12-19-19-23-19
       followers: 1544
       likes: 42
-      views: 472
+      views: 475
       reposts: 1
       comments: !c |-
         G4sA4I2UbsKaIJ4/NYQfJAGJhWiM1VqGttsKXqJ5D+s2duYVQ4oKBYccuH8ZxwcNyGvYzIZzdL2/
@@ -3335,10 +3336,37 @@
     - service: tg
       id: 1091
       published: 2025-12-18-19-24-34
-      updated: 2025-12-19-18-40-26
+      updated: 2025-12-19-19-23-19
       followers: 880
       likes: 49
       views: 216
       comments: !c |-
         CyuAkZTLQnmzNvXRgACqbmVyZXZhcmluZdktdGVsbGluZyBteSBraWRzIHRoaXMgaXMgYSBnZW9y
         Z2UgZmxveWQgc3RhdHVlk8tCebM6he2AAKVhbnNpc6EuAw==
+2025-12-19-1-under-the-shutter:
+  title: Under the Shutter
+  titleRu: Под ставней
+  placement: Indoors
+  location: 'Pelagiad, Uulernil : Armorer'
+  content: store:/shots/2025-12-19-1-under-the-shutter.png
+  trash:
+    - store:/trash/dehero.2025-12-18-20-29-11.png
+    - store:/trash/dehero.2025-12-18-20-29-23.png
+  type: shot
+  author: dehero
+  engine: OpenMW
+  mark: B1
+  posts:
+    - service: ig
+      id: DSdOdzNGGrh
+      mediaId: '17912671932256565'
+      published: 2025-12-19-19-24-19
+      followers: 1606
+    - service: vk
+      id: 2961
+      published: 2025-12-19-19-24-26
+      followers: 1544
+    - service: tg
+      id: 1092
+      published: 2025-12-19-19-24-32
+      followers: 879
