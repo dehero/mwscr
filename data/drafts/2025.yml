@@ -259,13 +259,19 @@ dehero.2025-12-18-20-26-46:
   type: shot
   author: dehero
 dehero.2025-12-18-20-29-51:
-  content:
-    - store:/inbox/dehero.2025-12-18-20-29-51.1.png
+  title: Under the Shutter
+  titleRu: Под ставней
+  placement: Indoors
+  location: 'Pelagiad, Uulernil : Armorer'
+  content: store:/inbox/dehero.2025-12-18-20-29-51.1.png
+  trash:
     - store:/inbox/dehero.2025-12-18-20-29-51.png
-    - store:/inbox/dehero.2025-12-18-20-29-23.png
     - store:/inbox/dehero.2025-12-18-20-29-11.png
+    - store:/inbox/dehero.2025-12-18-20-29-23.png
   type: shot
   author: dehero
+  engine: OpenMW
+  mark: B1
 dehero.2025-12-18-20-30-20:
   content: store:/inbox/dehero.2025-12-18-20-30-20.png
   type: shot
