@@ -3318,17 +3318,17 @@
       id: DSaprvCEatI
       mediaId: '17934566253131391'
       published: 2025-12-18-19-24-25
-      updated: 2025-12-20-18-35-53
+      updated: 2025-12-20-19-21-53
       followers: 1605
       likes: 61
       comments: !c iw+AkZPLQnmzMMn8AACtdGFtcmllbHRlc290dqbinaTvuI8D
     - service: vk
       id: 2957
       published: 2025-12-18-19-24-30
-      updated: 2025-12-20-18-35-52
+      updated: 2025-12-20-19-21-56
       followers: 1544
       likes: 45
-      views: 516
+      views: 518
       reposts: 1
       comments: !c |-
         G4sA4I2UbsKaIJ4/NYQfJAGJhWiM1VqGttsKXqJ5D+s2duYVQ4oKBYccuH8ZxwcNyGvYzIZzdL2/
@@ -3336,7 +3336,7 @@
     - service: tg
       id: 1091
       published: 2025-12-18-19-24-34
-      updated: 2025-12-20-18-35-52
+      updated: 2025-12-20-19-21-54
       followers: 880
       likes: 54
       views: 275
@@ -3361,21 +3361,48 @@
       id: DSdOdzNGGrh
       mediaId: '17912671932256565'
       published: 2025-12-19-19-24-19
-      updated: 2025-12-20-18-35-52
+      updated: 2025-12-20-19-21-52
       followers: 1606
       likes: 45
     - service: vk
       id: 2961
       published: 2025-12-19-19-24-26
-      updated: 2025-12-20-18-35-47
+      updated: 2025-12-20-19-21-49
       followers: 1544
       likes: 47
-      views: 495
+      views: 517
       reposts: 3
     - service: tg
       id: 1092
       published: 2025-12-19-19-24-32
-      updated: 2025-12-20-18-35-46
+      updated: 2025-12-20-19-21-49
       followers: 879
-      likes: 52
-      views: 194
+      likes: 53
+      views: 196
+2025-12-20-1-attributes-of-house-dagoth:
+  title: Attributes of House Dagoth
+  titleRu: Атрибуты Дома Дагот
+  placement: Indoors
+  location: Morvayn Manor
+  content: store:/shots/2025-12-20-1-attributes-of-house-dagoth.png
+  trash: store:/trash/dehero.2025-08-26-23-09-44.1.png
+  type: shot
+  author: dehero
+  engine: OpenMW
+  tags:
+    - candle
+  mark: A2
+  posts:
+    - service: ig
+      id: DSfzDwXj10I
+      mediaId: '18112313911611602'
+      published: 2025-12-20-19-22-32
+      followers: 1607
+    - service: vk
+      id: 2962
+      published: 2025-12-20-19-22-39
+      followers: 1544
+    - service: tg
+      id: 1093
+      published: 2025-12-20-19-22-43
+      followers: 880
