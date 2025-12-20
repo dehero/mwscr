@@ -459,7 +459,7 @@ ansis:
   profiles:
     - service: tg
       id: '517050552'
-      updated: 2025-12-20-09-27-27
+      updated: 2025-12-20-10-28-19
       accessHash: '5231096655311395455'
       username: ansis
       name: ansis
@@ -3748,7 +3748,7 @@ nerevarine:
   profiles:
     - service: tg
       id: '373264328'
-      updated: 2025-12-20-09-27-27
+      updated: 2025-12-20-10-28-19
       accessHash: '9078366854792939477'
       username: Nerevarine
       name: Otto Godblessed
@@ -4745,7 +4745,7 @@ sergey-venkov:
   profiles:
     - service: vk
       id: '217443112'
-      updated: 2025-12-20-09-27-27
+      updated: 2025-12-20-10-28-20
       username: id217443112
       name: Сергей Венков
       avatar: store:/avatars/vk-a77d1a73.jpg
