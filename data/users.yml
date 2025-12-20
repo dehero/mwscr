@@ -573,7 +573,7 @@ arya-stark:
   profiles:
     - service: vk
       id: '820702664'
-      updated: 2025-12-19-19-23-21
+      updated: 2025-12-20-20-29-03
       username: id820702664
       name: Арья Старк
       avatar: store:/avatars/vk-689aa89d.jpg
@@ -867,7 +867,7 @@ brg1092:
   profiles:
     - service: tg
       id: '5867861906'
-      updated: 2025-12-19-04-00-31
+      updated: 2025-12-20-20-29-00
       accessHash: '4411929981434940281'
       username: brg1092
       name: 2𝜋
@@ -2102,7 +2102,7 @@ gleb-zheltuhin:
   profiles:
     - service: vk
       id: '29014473'
-      updated: 2025-12-19-19-23-21
+      updated: 2025-12-20-20-29-03
       username: gleb_zheltuhin
       name: Глеб Желтухин
       avatar: store:/avatars/vk-971eefc1.jpg
@@ -2160,7 +2160,7 @@ goosevich76:
   profiles:
     - service: tg
       id: '5385620621'
-      updated: 2025-12-18-21-24-24
+      updated: 2025-12-20-20-29-00
       accessHash: '-7130473396589324830'
       username: horwwwaty
       name: choven
