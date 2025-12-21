@@ -100,7 +100,7 @@ a2-enkelli:
   profiles:
     - service: tg
       id: '7258424423'
-      updated: 2025-12-21-15-58-01
+      updated: 2025-12-21-22-27-28
       accessHash: '969825927170686844'
       username: A2_Enkelli
       name: †† elli ††
@@ -283,7 +283,7 @@ aleksey-yeskela:
   profiles:
     - service: vk
       id: '1047357639'
-      updated: 2025-12-21-15-28-05
+      updated: 2025-12-21-22-27-39
       username: id1047357639
       name: Алексей Йескела
       avatar: store:/avatars/vk-893f32cb.jpg
@@ -459,7 +459,7 @@ ansis:
   profiles:
     - service: tg
       id: '517050552'
-      updated: 2025-12-21-21-24-55
+      updated: 2025-12-21-22-27-34
       accessHash: '5231096655311395455'
       username: ansis
       name: ansis
@@ -573,7 +573,7 @@ arya-stark:
   profiles:
     - service: vk
       id: '820702664'
-      updated: 2025-12-21-20-30-24
+      updated: 2025-12-21-22-27-22
       username: id820702664
       name: Арья Старк
       avatar: store:/avatars/vk-689aa89d.jpg
@@ -867,7 +867,7 @@ brg1092:
   profiles:
     - service: tg
       id: '5867861906'
-      updated: 2025-12-21-21-24-54
+      updated: 2025-12-21-22-27-16
       accessHash: '4411929981434940281'
       username: brg1092
       name: 2𝜋
@@ -1005,7 +1005,7 @@ chernosotinec:
   profiles:
     - service: vk
       id: '355750944'
-      updated: 2025-12-18-23-43-27
+      updated: 2025-12-21-22-27-17
       username: Chernosotinec
       name: Артём Стекольщиков
       avatar: store:/avatars/vk-8aee5603.jpg
@@ -1356,7 +1356,7 @@ dehero:
       avatar: store:/avatars/gh-c8afe641.jpg
     - service: vk
       id: '3652910'
-      updated: 2025-12-18-23-43-27
+      updated: 2025-12-21-22-27-18
       username: dehero
       name: Антон Курьянов
       avatar: store:/avatars/vk-5356f76e.jpg
@@ -2160,7 +2160,7 @@ goosevich76:
   profiles:
     - service: tg
       id: '5385620621'
-      updated: 2025-12-21-21-24-54
+      updated: 2025-12-21-22-27-15
       accessHash: '-7130473396589324830'
       username: horwwwaty
       name: choven
@@ -2452,7 +2452,7 @@ ilya-nikitin:
   profiles:
     - service: vk
       id: '13566712'
-      updated: 2025-12-14-22-27-03
+      updated: 2025-12-21-22-27-39
       username: id13566712
       name: Илья Никитин
       avatar: store:/avatars/vk-f351ba78.jpg
@@ -2809,7 +2809,7 @@ kawazaky223:
   profiles:
     - service: tg
       id: '5641856113'
-      updated: 2025-12-21-15-58-02
+      updated: 2025-12-21-22-27-36
       accessHash: '7421309771527577818'
       username: Kawazaky223
       name: Максим
@@ -3414,7 +3414,7 @@ michael-levington:
   profiles:
     - service: vk
       id: '416916067'
-      updated: 2025-12-18-11-26-59
+      updated: 2025-12-21-22-27-19
       username: michael_levington
       name: Майкл Левингтон
       avatar: store:/avatars/vk-5fe6e343.jpg
@@ -3657,7 +3657,7 @@ myndowen:
   profiles:
     - service: tg
       id: '720784420'
-      updated: 2025-12-14-21-25-02
+      updated: 2025-12-21-22-27-26
       accessHash: '4385662928393121475'
       username: myndowen
       name: Daniel Beilin
@@ -3836,7 +3836,7 @@ nogodcomplex:
   profiles:
     - service: tg
       id: '598230752'
-      updated: 2025-12-21-15-27-02
+      updated: 2025-12-21-22-27-16
       accessHash: '1286169933223853262'
       username: nogodcomplex
       name: emptymind
@@ -4129,7 +4129,7 @@ peteevandrew:
   profiles:
     - service: vk
       id: '307619379'
-      updated: 2025-12-21-15-27-53
+      updated: 2025-12-21-22-27-33
       username: peteevandrew
       name: Андрей Петеев
       avatar: store:/avatars/vk-d3f26d8e.jpg
@@ -4733,7 +4733,7 @@ sergey-b-2:
   profiles:
     - service: vk
       id: '1077446394'
-      updated: 2025-12-21-15-27-17
+      updated: 2025-12-21-22-27-40
       username: id1077446394
       name: Сергей Б
       avatar: store:/avatars/vk-a7369956.jpg
@@ -6262,7 +6262,7 @@ yellow-submarine:
   profiles:
     - service: vk
       id: '21865013'
-      updated: 2025-12-21-15-28-12
+      updated: 2025-12-21-22-27-37
       username: id21865013
       name: Yellow Submarine
       avatar: store:/avatars/vk-0251fbbd.jpg
