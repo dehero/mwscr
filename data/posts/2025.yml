@@ -2387,10 +2387,10 @@
     - service: tg
       id: 968
       published: 2025-08-31-18-22-49
-      updated: 2025-12-15-17-32-06
+      updated: 2025-12-22-18-41-03
       followers: 786
       likes: 70
-      views: 595
+      views: 597
       comments: !c |-
         G8wAoB0JdmzKQttxNAuudYQDeB+lb9FgEWkRCfZNlLN4EHMjSmqE+DtvMikWeJ2cHxT/XQ6YWqgF
         HkngNgSvW8Gr1dPLzf5tb62Tlqcol3A5oVNtes1LA5EBZCBtOj/hEJnwgJcOJlfaXKZ0+KQnS7AI
@@ -3396,21 +3396,21 @@
       id: DSfzDwXj10I
       mediaId: '18112313911611602'
       published: 2025-12-20-19-22-32
-      updated: 2025-12-22-17-26-11
+      updated: 2025-12-22-18-41-02
       followers: 1607
       likes: 46
     - service: vk
       id: 2962
       published: 2025-12-20-19-22-39
-      updated: 2025-12-22-17-26-08
+      updated: 2025-12-22-18-40-57
       followers: 1544
       likes: 53
-      views: 513
+      views: 517
       reposts: 3
     - service: tg
       id: 1093
       published: 2025-12-20-19-22-43
-      updated: 2025-12-22-17-26-14
+      updated: 2025-12-22-18-41-02
       followers: 880
       likes: 54
       views: 214
@@ -3418,3 +3418,36 @@
         G48A6B2JcSzJgqmrL/jnu/ZDOIC7+wuTLIoqrBM8CfO+8y2h3FYXSlquhnoozwT3LrNzZFoSXjYi
         SUrpdG2b/TXWOq93ts0lWyhU0vV8MhcKimuhLlg2UEBxa0BZjbQxecLA8GkuBqSupTHaJdc/jDkk
         ylnXOZaFGMTTHINWVh114ehhFQY=
+2025-12-22-1-went-north:
+  title: Went North
+  titleRu: Ушёл на север
+  placement: Outdoors
+  content: store:/shots/2025-12-22-1-went-north.png
+  trash:
+    - store:/trash/dehero.2025-12-18-20-16-00.png
+    - store:/trash/dehero.2025-12-18-20-16-33.png
+    - store:/trash/dehero.2025-12-18-20-16-48.png
+    - store:/trash/dehero.2025-12-18-20-15-22.2.png
+  type: shot
+  author: dehero
+  engine: OpenMW
+  addon: Bloodmoon
+  tags:
+    - firtree
+    - boat
+    - rock
+  mark: B1
+  posts:
+    - service: ig
+      id: DSk3-MTjCwS
+      mediaId: '18085864634106568'
+      published: 2025-12-22-18-41-39
+      followers: 1606
+    - service: vk
+      id: 2964
+      published: 2025-12-22-18-41-44
+      followers: 1544
+    - service: tg
+      id: 1094
+      published: 2025-12-22-18-41-48
+      followers: 881
