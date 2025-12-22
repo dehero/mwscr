@@ -14,10 +14,6 @@ anonimous.2025-10-21-10-55-14:
     попасть гораздо проще.
   type: news
   author: dehero
-anonimous.2025-12-19-screenshot371-f9998244:
-  content: store:/inbox/anonimous.2025-12-19-screenshot371-f9998244.png
-  type: shot
-  author: anonimous
 arseniy-dyak.2025-04-17-resque-of-tarhiel:
   title: Resque of Tarhiel
   titleRu: Спасение Тархиеля
@@ -437,11 +433,6 @@ ohsweetnazareth.2025-12-07-almalexia-the-fallen-2fab2a2a:
   content: store:/inbox/ohsweetnazareth.2025-12-07-almalexia-the-fallen-2fab2a2a.png
   type: shot
   author: ohsweetnazareth
-ohsweetnazareth.2025-12-07-karrod-the-champion-283088f6:
-  title: Karrod the Champion
-  content: store:/inbox/ohsweetnazareth.2025-12-07-karrod-the-champion-283088f6.png
-  type: shot
-  author: ohsweetnazareth
 ohsweetnazareth.2025-12-07-nowhere-mournhold-c7fa8b46:
   title: Nowhere, Mournhold
   content: store:/inbox/ohsweetnazareth.2025-12-07-nowhere-mournhold-c7fa8b46.png
@@ -466,24 +457,13 @@ ohsweetnazareth.2025-12-09-boethiahs-brutality-d2f808ec:
   content: store:/inbox/ohsweetnazareth.2025-12-09-boethiahs-brutality-d2f808ec.png
   type: shot
   author: ohsweetnazareth
-ohsweetnazareth.2025-12-09-sotha-sils-scrapyard-6d0690dd:
-  title: Sotha-Sil's Scrapyard
-  content: store:/inbox/ohsweetnazareth.2025-12-09-sotha-sils-scrapyard-6d0690dd.png
-  type: shot
-  author: ohsweetnazareth
 ohsweetnazareth.2025-12-09-sotha-sils-scrapyard-74982572:
   title: Sotha-Sil's Scrapyard
-  content: store:/inbox/ohsweetnazareth.2025-12-09-sotha-sils-scrapyard-74982572.png
-  type: shot
-  author: ohsweetnazareth
-ohsweetnazareth.2025-12-09-sotha-sils-scrapyard-9e3e5b12:
-  title: Sotha-Sil's Scrapyard
-  content: store:/inbox/ohsweetnazareth.2025-12-09-sotha-sils-scrapyard-9e3e5b12.png
-  type: shot
-  author: ohsweetnazareth
-ohsweetnazareth.2025-12-09-sotha-sils-scrapyard-a210ac27:
-  title: Sotha-Sil's Scrapyard
-  content: store:/inbox/ohsweetnazareth.2025-12-09-sotha-sils-scrapyard-a210ac27.png
+  content:
+    - store:/inbox/ohsweetnazareth.2025-12-09-sotha-sils-scrapyard-74982572.png
+    - store:/inbox/ohsweetnazareth.2025-12-09-sotha-sils-scrapyard-9e3e5b12.png
+    - store:/inbox/ohsweetnazareth.2025-12-09-sotha-sils-scrapyard-6d0690dd.png
+    - store:/inbox/ohsweetnazareth.2025-12-09-sotha-sils-scrapyard-a210ac27.png
   type: shot
   author: ohsweetnazareth
 ohsweetnazareth.2025-12-12-guardian-at-the-craftsmens-hall-3ffec20b:
@@ -493,10 +473,6 @@ ohsweetnazareth.2025-12-12-guardian-at-the-craftsmens-hall-3ffec20b:
 ohsweetnazareth.2025-12-17-cave-of-azuras-offering-2692e249:
   title: Cave of Azura's Offering
   content: store:/inbox/ohsweetnazareth.2025-12-17-cave-of-azuras-offering-2692e249.png
-  type: shot
-  author: ohsweetnazareth
-ohsweetnazareth.2025-12-17-fabricant-womb-f9998244:
-  content: store:/inbox/ohsweetnazareth.2025-12-17-fabricant-womb-f9998244.png
   type: shot
   author: ohsweetnazareth
 ohsweetnazareth.2025-12-17-kummu-of-the-erabenimsun-286dda10:
