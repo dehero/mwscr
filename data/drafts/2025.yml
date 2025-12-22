@@ -213,15 +213,25 @@ dehero.2025-12-18-20-02-46:
   type: shot
   author: dehero
 dehero.2025-12-18-20-15-22:
-  content:
+  title: Went North
+  titleRu: Ушёл на север
+  placement: Outdoors
+  content: store:/inbox/dehero.2025-12-18-20-15-22.2.png
+  trash:
+    - store:/inbox/dehero.2025-12-18-20-15-22.1.png
     - store:/inbox/dehero.2025-12-18-20-15-22.png
     - store:/inbox/dehero.2025-12-18-20-16-00.png
     - store:/inbox/dehero.2025-12-18-20-16-33.png
     - store:/inbox/dehero.2025-12-18-20-16-48.png
-    - store:/inbox/dehero.2025-12-18-20-15-22.1.png
-    - store:/inbox/dehero.2025-12-18-20-15-22.2.png
   type: shot
   author: dehero
+  engine: OpenMW
+  addon: Bloodmoon
+  tags:
+    - firtree
+    - boat
+    - rock
+  mark: A2
 dehero.2025-12-18-20-18-10:
   content:
     - store:/inbox/dehero.2025-12-18-20-18-10.png
@@ -344,11 +354,11 @@ ohsweetnazareth.2025-11-25-in-the-carcass-of-ilunibi-1980bfb3:
   author: ohsweetnazareth
 ohsweetnazareth.2025-11-25-in-the-carcass-of-ilunibi-1a1a977c:
   title: In the Carcass of Ilunibi
-  content:
-    - store:/inbox/ohsweetnazareth.2025-11-25-in-the-carcass-of-ilunibi-1a1a977c.png
-    - store:/inbox/ohsweetnazareth.2025-11-25-in-the-carcass-of-ilunibi-3df9ccfd.png
-  type: shot
+  content: store:/inbox/ohsweetnazareth.2025-11-25-in-the-carcass-of-ilunibi-3df9ccfd.png
+  trash: store:/inbox/ohsweetnazareth.2025-11-25-in-the-carcass-of-ilunibi-1a1a977c.png
+  type: wallpaper
   author: ohsweetnazareth
+  mark: B1
 ohsweetnazareth.2025-11-25-in-the-carcass-of-ilunibi-2-0e9bc72c:
   title: In the Carcass of Ilunibi 2
   content:
@@ -359,11 +369,6 @@ ohsweetnazareth.2025-11-25-in-the-carcass-of-ilunibi-2-0e9bc72c:
 ohsweetnazareth.2025-11-25-in-the-carcass-of-ilunibi-2-d7d1c559:
   title: In the Carcass of Ilunibi 2
   content: store:/inbox/ohsweetnazareth.2025-11-25-in-the-carcass-of-ilunibi-2-d7d1c559.png
-  type: shot
-  author: ohsweetnazareth
-ohsweetnazareth.2025-11-25-in-the-carcass-of-ilunibi-2-f76f3a0a:
-  title: In the Carcass of Ilunibi 2
-  content: store:/inbox/ohsweetnazareth.2025-11-25-in-the-carcass-of-ilunibi-2-f76f3a0a.png
   type: shot
   author: ohsweetnazareth
 ohsweetnazareth.2025-11-25-nighttime-at-moonmoth-legion-fort-29b64059:
@@ -479,16 +484,24 @@ ohsweetnazareth.2025-12-17-cave-of-azuras-offering-2692e249:
   author: ohsweetnazareth
 ohsweetnazareth.2025-12-17-kummu-of-the-erabenimsun-286dda10:
   title: Kummu of the Erabenimsun
-  content:
-    - store:/inbox/ohsweetnazareth.2025-12-17-kummu-of-the-erabenimsun-286dda10.png
+  titleRu: Кумму из племени Эрабенимсун
+  placement: Outdoors
+  location: Erabenimsun Camp
+  content: store:/inbox/ohsweetnazareth.2025-12-17-kummu-of-the-erabenimsun-286dda10.2.png
+  trash:
     - store:/inbox/ohsweetnazareth.2025-12-17-kummu-of-the-erabenimsun-286dda10.1.png
-    - store:/inbox/ohsweetnazareth.2025-12-17-kummu-of-the-erabenimsun-286dda10.2.png
+    - store:/inbox/ohsweetnazareth.2025-12-17-kummu-of-the-erabenimsun-286dda10.png
   type: shot
   author: ohsweetnazareth
+  engine: OpenMW
+  tags:
+    - lantern
+    - camp
+  mark: A2
 ohsweetnazareth.2025-12-17-lady-almalexia-79470d0f:
   title: Lady Almalexia
   content: store:/inbox/ohsweetnazareth.2025-12-17-lady-almalexia-79470d0f.png
-  type: shot
+  type: wallpaper
   author: ohsweetnazareth
 ohsweetnazareth.2025-12-17-the-hand-of-god-9261ff07:
   title: The Hand of God
