@@ -218,6 +218,7 @@ dehero.2025-12-18-20-15-22:
     - store:/inbox/dehero.2025-12-18-20-16-00.png
     - store:/inbox/dehero.2025-12-18-20-16-33.png
     - store:/inbox/dehero.2025-12-18-20-16-48.png
+    - store:/inbox/dehero.2025-12-18-20-15-22.1.png
   type: shot
   author: dehero
 dehero.2025-12-18-20-18-10:
@@ -477,7 +478,9 @@ ohsweetnazareth.2025-12-17-cave-of-azuras-offering-2692e249:
   author: ohsweetnazareth
 ohsweetnazareth.2025-12-17-kummu-of-the-erabenimsun-286dda10:
   title: Kummu of the Erabenimsun
-  content: store:/inbox/ohsweetnazareth.2025-12-17-kummu-of-the-erabenimsun-286dda10.png
+  content:
+    - store:/inbox/ohsweetnazareth.2025-12-17-kummu-of-the-erabenimsun-286dda10.png
+    - store:/inbox/ohsweetnazareth.2025-12-17-kummu-of-the-erabenimsun-286dda10.1.png
   type: shot
   author: ohsweetnazareth
 ohsweetnazareth.2025-12-17-lady-almalexia-79470d0f:
