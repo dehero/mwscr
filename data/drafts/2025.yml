@@ -286,11 +286,6 @@ ohsweetnazareth.2025-03-13-evening-at-ald-sotha-57687677:
   type: outtakes
   author: ohsweetnazareth
   violation: no-anti-aliasing
-ohsweetnazareth.2025-05-02-keenings-respite-b6ff886e:
-  title: Keening's Respite
-  content: store:/inbox/ohsweetnazareth.2025-05-02-keenings-respite-b6ff886e.png
-  type: shot
-  author: ohsweetnazareth
 ohsweetnazareth.2025-05-10-alchemy-station-in-blue-db4ccf1f:
   title: Alchemy Station in Blue
   content: store:/inbox/ohsweetnazareth.2025-05-10-alchemy-station-in-blue-db4ccf1f.png
@@ -423,8 +418,9 @@ ohsweetnazareth.2025-12-07-almalexia-the-fallen-2fab2a2a:
 ohsweetnazareth.2025-12-07-nowhere-mournhold-c7fa8b46:
   title: Nowhere, Mournhold
   content: store:/inbox/ohsweetnazareth.2025-12-07-nowhere-mournhold-c7fa8b46.png
-  type: shot
+  type: outtakes
   author: ohsweetnazareth
+  violation: graphic-issues
 ohsweetnazareth.2025-12-08-foul-betrayal-f0813cd1:
   title: Foul Betrayal
   content:
@@ -471,7 +467,7 @@ ohsweetnazareth.2025-12-17-kummu-of-the-erabenimsun-286dda10:
   trash:
     - store:/inbox/ohsweetnazareth.2025-12-17-kummu-of-the-erabenimsun-286dda10.1.png
     - store:/inbox/ohsweetnazareth.2025-12-17-kummu-of-the-erabenimsun-286dda10.png
-  type: shot
+  type: wallpaper
   author: ohsweetnazareth
   engine: OpenMW
   tags:
