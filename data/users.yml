@@ -444,7 +444,7 @@ anonim:
   profiles:
     - service: tg
       id: '6469120788'
-      updated: 2025-12-24-13-32-42
+      updated: 2025-12-24-14-20-13
       accessHash: '-3557204299452739678'
       name: Аноним
       avatar: store:/avatars/tg-5386639419211116910.jpg
@@ -3150,7 +3150,7 @@ lwumbazavr:
   profiles:
     - service: tg
       id: '1950862189'
-      updated: 2025-11-26-14-19-13
+      updated: 2025-12-24-14-20-15
       accessHash: '-424787795975012793'
       username: Lwumbazavr
       botChatId: 1950862189
