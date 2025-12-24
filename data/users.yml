@@ -867,7 +867,7 @@ brg1092:
   profiles:
     - service: tg
       id: '5867861906'
-      updated: 2025-12-23-19-18-29
+      updated: 2025-12-24-20-06-47
       accessHash: '4411929981434940281'
       username: brg1092
       name: 2𝜋
@@ -2160,11 +2160,11 @@ goosevich76:
   profiles:
     - service: tg
       id: '5385620621'
-      updated: 2025-12-24-05-25-02
+      updated: 2025-12-24-20-06-47
       accessHash: '-7130473396589324830'
       username: horwwwaty
       name: choven
-      avatar: store:/avatars/tg-5332777273737810151.jpg
+      avatar: store:/avatars/tg-5359789336674636042.jpg
 gorheim:
   profiles:
     - service: tg
@@ -4733,7 +4733,7 @@ sergey-b-2:
   profiles:
     - service: vk
       id: '1077446394'
-      updated: 2025-12-24-16-26-24
+      updated: 2025-12-24-20-06-45
       username: id1077446394
       name: Сергей Б
       avatar: store:/avatars/vk-a7369956.jpg
