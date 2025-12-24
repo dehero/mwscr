@@ -100,7 +100,7 @@ a2-enkelli:
   profiles:
     - service: tg
       id: '7258424423'
-      updated: 2025-12-23-16-28-30
+      updated: 2025-12-24-03-24-33
       accessHash: '969825927170686844'
       username: A2_Enkelli
       name: †† elli ††
@@ -419,7 +419,7 @@ andrey-yaprintsev:
   profiles:
     - service: vk
       id: '599320069'
-      updated: 2025-12-21-15-26-35
+      updated: 2025-12-24-03-24-33
       username: id599320069
       name: Андрей Япринцев
       avatar: store:/avatars/vk-4e415fa2.jpg
@@ -444,7 +444,7 @@ anonim:
   profiles:
     - service: tg
       id: '6469120788'
-      updated: 2025-12-24-01-41-27
+      updated: 2025-12-24-03-24-30
       accessHash: '-3557204299452739678'
       name: Аноним
       avatar: store:/avatars/tg-5386639419211116910.jpg
@@ -459,7 +459,7 @@ ansis:
   profiles:
     - service: tg
       id: '517050552'
-      updated: 2025-12-23-21-20-09
+      updated: 2025-12-24-03-24-46
       accessHash: '5231096655311395455'
       username: ansis
       name: ansis
@@ -525,7 +525,7 @@ artem-petrov:
   profiles:
     - service: vk
       id: '4238605'
-      updated: 2025-12-23-13-36-58
+      updated: 2025-12-24-03-24-35
       username: id4238605
       name: Артем Петров
       avatar: store:/avatars/vk-77942374.jpg
@@ -573,7 +573,7 @@ arya-stark:
   profiles:
     - service: vk
       id: '820702664'
-      updated: 2025-12-23-23-19-47
+      updated: 2025-12-24-03-24-37
       username: id820702664
       name: Арья Старк
       avatar: store:/avatars/vk-689aa89d.jpg
@@ -2102,7 +2102,7 @@ gleb-zheltuhin:
   profiles:
     - service: vk
       id: '29014473'
-      updated: 2025-12-23-13-36-32
+      updated: 2025-12-24-03-24-35
       username: gleb_zheltuhin
       name: Глеб Желтухин
       avatar: store:/avatars/vk-971eefc1.jpg
@@ -2160,7 +2160,7 @@ goosevich76:
   profiles:
     - service: tg
       id: '5385620621'
-      updated: 2025-12-23-19-18-29
+      updated: 2025-12-24-03-24-44
       accessHash: '-7130473396589324830'
       username: horwwwaty
       name: choven
@@ -2809,7 +2809,7 @@ kawazaky223:
   profiles:
     - service: tg
       id: '5641856113'
-      updated: 2025-12-24-01-41-28
+      updated: 2025-12-24-03-24-46
       accessHash: '7421309771527577818'
       username: Kawazaky223
       name: Максим
@@ -3298,7 +3298,7 @@ marylingoth2007:
   profiles:
     - service: vk
       id: '590330773'
-      updated: 2025-12-17-02-07-01
+      updated: 2025-12-24-03-24-31
       username: marylingoth2007
       name: Мэрилин Гот Скриптум
       avatar: store:/avatars/vk-678f5704.jpg
@@ -3348,7 +3348,7 @@ mbdtsmo:
   profiles:
     - service: tg
       id: '5093097514'
-      updated: 2025-12-19-15-31-20
+      updated: 2025-12-24-03-24-33
       accessHash: '-613358669572386334'
       username: mbdtsmo
       name: M Bdtsmo
@@ -4129,7 +4129,7 @@ peteevandrew:
   profiles:
     - service: vk
       id: '307619379'
-      updated: 2025-12-24-01-41-29
+      updated: 2025-12-24-03-24-33
       username: peteevandrew
       name: Андрей Петеев
       avatar: store:/avatars/vk-d3f26d8e.jpg
@@ -4733,7 +4733,7 @@ sergey-b-2:
   profiles:
     - service: vk
       id: '1077446394'
-      updated: 2025-12-23-19-18-29
+      updated: 2025-12-24-03-24-35
       username: id1077446394
       name: Сергей Б
       avatar: store:/avatars/vk-a7369956.jpg
@@ -5856,11 +5856,11 @@ v-vonderful-world:
   profiles:
     - service: tg
       id: '150947892'
-      updated: 2025-12-17-02-07-03
+      updated: 2025-12-24-03-24-39
       accessHash: '-5337457668406607581'
       username: VVonderfulWorld
       name: 𝔑𝔬𝔵
-      avatar: store:/avatars/tg-648316260000140045.jpg
+      avatar: store:/avatars/tg-648316260000140046.jpg
 vail-astor-zkiy:
   profiles:
     - service: tg
