@@ -444,7 +444,7 @@ anonim:
   profiles:
     - service: tg
       id: '6469120788'
-      updated: 2025-12-24-14-20-13
+      updated: 2025-12-24-15-22-14
       accessHash: '-3557204299452739678'
       name: Аноним
       avatar: store:/avatars/tg-5386639419211116910.jpg
@@ -1282,7 +1282,7 @@ darvetr:
   profiles:
     - service: vk
       id: '1057788271'
-      updated: 2025-12-21-15-27-03
+      updated: 2025-12-24-15-22-16
       username: darvetr
       name: Виктория Дарьина
       avatar: store:/avatars/vk-00d4bf4b.jpg
@@ -3414,7 +3414,7 @@ michael-levington:
   profiles:
     - service: vk
       id: '416916067'
-      updated: 2025-12-23-05-06-08
+      updated: 2025-12-24-15-22-16
       username: michael_levington
       name: Майкл Левингтон
       avatar: store:/avatars/vk-5fe6e343.jpg
@@ -4733,7 +4733,7 @@ sergey-b-2:
   profiles:
     - service: vk
       id: '1077446394'
-      updated: 2025-12-24-03-24-35
+      updated: 2025-12-24-15-22-16
       username: id1077446394
       name: Сергей Б
       avatar: store:/avatars/vk-a7369956.jpg
