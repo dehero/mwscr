@@ -2853,16 +2853,16 @@
       id: DRz7PyeD1yU
       mediaId: '17991717650731602'
       published: 2025-12-03-18-27-30
-      updated: 2025-12-17-21-28-57
+      updated: 2025-12-25-06-10-57
       followers: 1599
       likes: 55
     - service: vk
       id: 2919
       published: 2025-12-03-18-27-35
-      updated: 2025-12-17-21-28-58
+      updated: 2025-12-25-06-10-59
       followers: 1536
       likes: 60
-      views: 713
+      views: 720
       reposts: 2
       comments: !c |-
         G1EBQJwHto1uLfAw1+ObzRhKy//znGyEXwdDDyQKJNDOSShLeHKfTqcRdurJ5YX5CaNZPyhTt1mi
@@ -2872,10 +2872,10 @@
     - service: tg
       id: 1078
       published: 2025-12-03-18-27-38
-      updated: 2025-12-17-21-28-58
+      updated: 2025-12-25-06-10-57
       followers: 866
-      likes: 64
-      views: 530
+      likes: 65
+      views: 611
       comments: !c |-
         G5YAAIyUbsI8H/6aZyeaAX5nsY2n7y8qQRsoQ3ReAlWf+zo50QPK4YegLaIo54vlNgaCy+MRxwlq
         9B5P707rFKPnQ2qdI9FqJVd4Ky6DHIM8g0ryq5BjMLcIqbYmffSET1oiX0lVFn+jW4DwY97lY+VY
@@ -3319,28 +3319,30 @@
       id: DSaprvCEatI
       mediaId: '17934566253131391'
       published: 2025-12-18-19-24-25
-      updated: 2025-12-24-05-24-58
+      updated: 2025-12-25-06-10-55
       followers: 1605
-      likes: 66
+      likes: 67
       comments: !c iw+AkZPLQnmzMMn8AACtdGFtcmllbHRlc290dqbinaTvuI8D
     - service: vk
       id: 2957
       published: 2025-12-18-19-24-30
-      updated: 2025-12-24-05-25-00
+      updated: 2025-12-25-06-10-57
       followers: 1544
-      likes: 48
-      views: 643
+      likes: 51
+      views: 680
       reposts: 1
       comments: !c |-
-        G4sA4I2UbsKaIJ4/NYQfJAGJhWiM1VqGttsKXqJ5D+s2duYVQ4oKBYccuH8ZxwcNyGvYzIZzdL2/
-        rH3ZZ3PWnl3QRsFeH4Myq8Z/w0NmRFisoMyIBhyWRQ4KKgJ4OcsqB4WuZlegHhjRRMa9ZIPM6w8D
+        GygBYJwJtq2GtcLDFcR3I/55ufERPqBAgogDjqCtxNqaf+Av5+rcSqhmi6Fe2IeAwOQt420lEtH3
+        /tallK6o4N3gSAeEaQjSwQIadMDNJhhw3aG/M3oyMtbYo/v5U4nS11Yv3ym4kpCQoWBqVoid/6tG
+        I/SQamQgdU37kDHgd9W22+mFvyWy10igxum+o473lCsWIyjJe7gJQ55ONDxas0IIcBHCrhlR8w8M
+        j4n0tDWQS9LqNgZTg9XoVncpzaemthpl7UuPFKpun+e9Wlw/
     - service: tg
       id: 1091
       published: 2025-12-18-19-24-34
-      updated: 2025-12-24-05-25-01
+      updated: 2025-12-25-06-10-56
       followers: 880
       likes: 61
-      views: 378
+      views: 403
       comments: !c |-
         CyuAkZTLQnmzNvXRgACqbmVyZXZhcmluZdktdGVsbGluZyBteSBraWRzIHRoaXMgaXMgYSBnZW9y
         Z2UgZmxveWQgc3RhdHVlk8tCebM6he2AAKVhbnNpc6EuAw==
@@ -3362,25 +3364,25 @@
       id: DSdOdzNGGrh
       mediaId: '17912671932256565'
       published: 2025-12-19-19-24-19
-      updated: 2025-12-24-05-24-57
+      updated: 2025-12-25-06-10-54
       followers: 1606
-      likes: 50
+      likes: 51
     - service: vk
       id: 2961
       published: 2025-12-19-19-24-26
-      updated: 2025-12-24-05-24-59
+      updated: 2025-12-25-06-10-56
       followers: 1544
-      likes: 59
-      views: 781
+      likes: 64
+      views: 852
       reposts: 3
       comments: !c CxaAkZPLQnm0ZxZDgACpdmxhZGtyMTE0t9CS0L/QvtC70L3QtSDRg9GO0YLQvdC+Aw==
     - service: tg
       id: 1092
       published: 2025-12-19-19-24-32
-      updated: 2025-12-24-05-25-00
+      updated: 2025-12-25-06-10-51
       followers: 879
-      likes: 63
-      views: 327
+      likes: 64
+      views: 393
 2025-12-20-1-attributes-of-house-dagoth:
   title: Attributes of House Dagoth
   titleRu: Атрибуты Дома Дагот
@@ -3487,11 +3489,18 @@
     - service: vk
       id: 2966
       published: 2025-12-24-19-07-00
+      updated: 2025-12-25-06-10-50
       followers: 1549
+      likes: 12
+      views: 232
+      reposts: 1
     - service: tg
       id: 1095
       published: 2025-12-24-19-07-00
+      updated: 2025-12-25-06-10-50
       followers: 881
+      likes: 39
+      views: 175
     - service: ig
       id: DSrOxmRl4X3
       mediaId: '18089597725789507'

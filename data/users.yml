@@ -459,7 +459,7 @@ ansis:
   profiles:
     - service: tg
       id: '517050552'
-      updated: 2025-12-24-05-25-02
+      updated: 2025-12-25-06-10-57
       accessHash: '5231096655311395455'
       username: ansis
       name: ansis
@@ -573,7 +573,7 @@ arya-stark:
   profiles:
     - service: vk
       id: '820702664'
-      updated: 2025-12-24-05-25-02
+      updated: 2025-12-25-06-10-57
       username: id820702664
       name: Арья Старк
       avatar: store:/avatars/vk-689aa89d.jpg
@@ -2160,7 +2160,7 @@ goosevich76:
   profiles:
     - service: tg
       id: '5385620621'
-      updated: 2025-12-24-20-06-47
+      updated: 2025-12-25-06-10-58
       accessHash: '-7130473396589324830'
       username: horwwwaty
       name: choven
@@ -2809,7 +2809,7 @@ kawazaky223:
   profiles:
     - service: tg
       id: '5641856113'
-      updated: 2025-12-24-16-26-33
+      updated: 2025-12-25-06-10-58
       accessHash: '7421309771527577818'
       username: Kawazaky223
       name: Максим
@@ -3233,7 +3233,7 @@ maksim-bondarenko:
   profiles:
     - service: vk
       id: '538324952'
-      updated: 2025-12-23-05-06-07
+      updated: 2025-12-25-06-10-58
       username: id538324952
       name: Максим Бондаренко
       avatar: store:/avatars/vk-77942374.jpg
@@ -3348,7 +3348,7 @@ mbdtsmo:
   profiles:
     - service: tg
       id: '5093097514'
-      updated: 2025-12-24-03-24-33
+      updated: 2025-12-25-06-10-56
       accessHash: '-613358669572386334'
       username: mbdtsmo
       name: M Bdtsmo
@@ -3752,7 +3752,7 @@ nerevarine:
   profiles:
     - service: tg
       id: '373264328'
-      updated: 2025-12-24-16-26-33
+      updated: 2025-12-25-06-10-57
       accessHash: '9078366854792939477'
       username: Nerevarine
       name: Otto Godblessed
@@ -4733,7 +4733,7 @@ sergey-b-2:
   profiles:
     - service: vk
       id: '1077446394'
-      updated: 2025-12-24-20-06-45
+      updated: 2025-12-25-06-10-58
       username: id1077446394
       name: Сергей Б
       avatar: store:/avatars/vk-a7369956.jpg
@@ -4749,7 +4749,7 @@ sergey-venkov:
   profiles:
     - service: vk
       id: '217443112'
-      updated: 2025-12-24-05-25-00
+      updated: 2025-12-25-06-10-57
       username: id217443112
       name: Сергей Венков
       avatar: store:/avatars/vk-a77d1a73.jpg
@@ -5348,7 +5348,7 @@ thedrongo7:
   profiles:
     - service: tg
       id: '149400692'
-      updated: 2025-11-26-20-20-17
+      updated: 2025-12-25-06-11-01
       accessHash: '5348913575804649535'
       username: Thedrongo7
       botChatId: 149400692
@@ -6016,7 +6016,7 @@ vladkr114:
   profiles:
     - service: vk
       id: '210352858'
-      updated: 2025-12-24-05-24-59
+      updated: 2025-12-25-06-10-56
       username: vladkr114
       name: Влад Крамской
       avatar: store:/avatars/vk-dfe1d842.jpg
