@@ -3058,6 +3058,8 @@
     - store:/trash/dehero.2025-03-12-19-56-38.png
     - store:/trash/dehero.2025-03-12-19-54-30.1.png
     - store:/trash/dehero.2025-03-12-19-54-30.png
+    - store:/trash/dehero.2025-03-12-19-54-34.png
+    - store:/trash/dehero.2025-03-12-19-53-55.png
   type: shot
   author: dehero
   engine: OpenMW
@@ -3467,3 +3469,31 @@
       comments: !c |-
         G1sA+I3TDTWW+ngTz/97G+E/PtIJDActTrATeCbJfZjl7XOW1CD83ibZVKOUZ58ep0OQBJW0FAnt
         zO7nC5elMhq9c597HX80qeuDDb10J9VLDpcBkeKUpwKsFU5jBA==
+2025-12-24-1-kummu-of-the-erabenimsun:
+  title: Kummu of the Erabenimsun
+  titleRu: Кумму из племени Эрабенимсун
+  placement: Outdoors
+  location: Erabenimsun Camp
+  content: store:/wallpapers/2025-12-24-1-kummu-of-the-erabenimsun.png
+  trash: store:/trash/ohsweetnazareth.2025-12-17-kummu-of-the-erabenimsun-286dda10.1.png
+  type: wallpaper
+  author: ohsweetnazareth
+  engine: OpenMW
+  tags:
+    - lantern
+    - camp
+  mark: A2
+  posts:
+    - service: vk
+      id: 2966
+      published: 2025-12-24-19-07-00
+      followers: 1549
+    - service: tg
+      id: 1095
+      published: 2025-12-24-19-07-00
+      followers: 881
+    - service: ig
+      id: DSrOxmRl4X3
+      mediaId: '18089597725789507'
+      published: 2025-12-25-05-58-00
+      followers: 1605

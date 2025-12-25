@@ -40,14 +40,6 @@ dehero.2025-01-19-18-35-14:
   content: store:/inbox/dehero.2025-01-19-18-35-14.png
   type: shot
   author: dehero
-dehero.2025-03-12-19-53-55:
-  content: store:/inbox/dehero.2025-03-12-19-53-55.png
-  type: shot
-  author: dehero
-dehero.2025-03-12-19-54-34:
-  content: store:/inbox/dehero.2025-03-12-19-54-34.png
-  type: shot
-  author: dehero
 dehero.2025-03-12-19-59-02:
   content: store:/inbox/dehero.2025-03-12-19-59-02.1.png
   trash: store:/inbox/dehero.2025-03-12-19-59-02.png
@@ -458,22 +450,6 @@ ohsweetnazareth.2025-12-17-cave-of-azuras-offering-2692e249:
   content: store:/inbox/ohsweetnazareth.2025-12-17-cave-of-azuras-offering-2692e249.png
   type: shot
   author: ohsweetnazareth
-ohsweetnazareth.2025-12-17-kummu-of-the-erabenimsun-286dda10:
-  title: Kummu of the Erabenimsun
-  titleRu: Кумму из племени Эрабенимсун
-  placement: Outdoors
-  location: Erabenimsun Camp
-  content: store:/inbox/ohsweetnazareth.2025-12-17-kummu-of-the-erabenimsun-286dda10.2.png
-  trash:
-    - store:/inbox/ohsweetnazareth.2025-12-17-kummu-of-the-erabenimsun-286dda10.1.png
-    - store:/inbox/ohsweetnazareth.2025-12-17-kummu-of-the-erabenimsun-286dda10.png
-  type: wallpaper
-  author: ohsweetnazareth
-  engine: OpenMW
-  tags:
-    - lantern
-    - camp
-  mark: D
 ohsweetnazareth.2025-12-17-lady-almalexia-79470d0f:
   title: Lady Almalexia
   content: store:/inbox/ohsweetnazareth.2025-12-17-lady-almalexia-79470d0f.png
