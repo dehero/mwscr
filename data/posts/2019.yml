@@ -621,10 +621,10 @@
     - service: vk
       id: 2412
       published: 2025-06-01-18-25-47
-      updated: 2025-12-18-20-34-26
+      updated: 2025-12-25-21-20-24
       followers: 1314
       likes: 65
-      views: 626
+      views: 627
       reposts: 1
       comments: !c |-
         G7gA4J0JNk6oR3kXHkR1e8LjJgk0wySIsusPqAm4LKJkF3MbO/OKYRiFlQ1cha2DQw5crhi0ADAI
@@ -633,10 +633,10 @@
     - service: tg
       id: 868
       published: 2025-06-01-18-25-50
-      updated: 2025-12-18-20-33-55
+      updated: 2025-12-25-21-20-04
       followers: 742
       likes: 62
-      views: 585
+      views: 588
       comments: !c iw2AkZPLQnlyzUJLAACra2F3YXpha3kyMjOk8J+rpQM=
 2019-02-19-sandy-shore-of-west-gash:
   title: Sandy Shore of West Gash
@@ -1685,18 +1685,18 @@
     - service: vk
       id: 2485
       published: 2025-06-25-18-30-45
-      updated: 2025-12-18-20-33-44
+      updated: 2025-12-25-21-19-44
       followers: 1328
       likes: 80
-      views: 1213
+      views: 1217
       reposts: 5
     - service: tg
       id: 896
       published: 2025-06-25-18-30-49
-      updated: 2025-12-18-20-33-34
+      updated: 2025-12-25-21-19-39
       followers: 754
       likes: 74
-      views: 964
+      views: 970
       comments: !c iw2AkZPLQnl6hjgZgACra2F3YXpha3kyMjOk8J+RgQM=
     - service: ig
       id: DLZ5KTksdmG
@@ -1781,17 +1781,17 @@
     - service: vk
       id: 2510
       published: 2025-07-09-18-24-37
-      updated: 2025-12-18-20-33-31
+      updated: 2025-12-25-21-19-32
       followers: 1335
       likes: 35
-      views: 607
+      views: 608
     - service: tg
       id: 912
       published: 2025-07-09-18-24-42
-      updated: 2025-12-18-20-33-20
+      updated: 2025-12-25-21-19-32
       followers: 758
       likes: 54
-      views: 583
+      views: 587
       comments: !c Cw2AkZPLQnl/0JrBgACqbWF4LXVwc2hlcqTwn5iYAw==
 2019-10-04-rainy-welcome:
   title: Rainy Welcome
@@ -2496,10 +2496,10 @@
     - service: tg
       id: 847
       published: 2025-05-17-19-13-22
-      updated: 2025-12-18-20-34-18
+      updated: 2025-12-25-21-20-20
       followers: 737
       likes: 69
-      views: 540
+      views: 543
 2019-10-22-the-wind-is-getting-stronger:
   title: The Wind Is Getting Stronger
   titleRu: Ветер крепчает

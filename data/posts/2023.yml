@@ -62,18 +62,18 @@
     - service: vk
       id: 2501
       published: 2025-07-02-18-24-04
-      updated: 2025-12-18-20-33-37
+      updated: 2025-12-25-21-19-38
       followers: 1333
       likes: 56
-      views: 552
+      views: 553
       reposts: 1
     - service: tg
       id: 905
       published: 2025-07-02-18-24-07
-      updated: 2025-12-18-20-33-30
+      updated: 2025-12-25-21-19-37
       followers: 760
       likes: 72
-      views: 623
+      views: 626
       comments: !c |-
         GzwBICyOx+2nFLWNo94R//xzsuFsoF93zs5Ug0TCuASCMLGS+zBtWyUVwVC9eYOhvxnrQ7aNb/1L
         MqfbBF8QXKZoKOjmYteYFgRFRLCI8rf+mO8GRxoQh+s2TzLrGODAGy4yuMkKG2SzJu63x/O35r7d
@@ -176,17 +176,17 @@
     - service: vk
       id: 2382
       published: 2025-05-24-18-18-58
-      updated: 2025-12-18-20-34-40
+      updated: 2025-12-25-21-20-38
       followers: 1305
       likes: 55
-      views: 466
+      views: 467
     - service: tg
       id: 857
       published: 2025-05-24-18-19-06
-      updated: 2025-12-18-20-34-11
+      updated: 2025-12-25-21-20-14
       followers: 739
       likes: 65
-      views: 571
+      views: 573
 2023-07-31-overhanging-rock-by-darkness-rifho:
   title: Overhanging Rock
   titleRu: Нависающая скала
@@ -240,10 +240,10 @@
     - service: vk
       id: 2629
       published: 2025-09-03-18-21-16
-      updated: 2025-12-18-20-33-00
+      updated: 2025-12-25-21-19-03
       followers: 1404
       likes: 44
-      views: 592
+      views: 593
       reposts: 1
       comments: !c |-
         Cy+AkZPLQnmRFaD7gACwc2VyZ2V5LWNodXJiYW5vdtlB0K3RjdC5KSDQt9C00LDRgNC+0LLQsCEg
@@ -251,10 +251,10 @@
     - service: tg
       id: 971
       published: 2025-09-03-18-21-19
-      updated: 2025-12-18-20-33-00
+      updated: 2025-12-25-21-19-02
       followers: 788
       likes: 76
-      views: 590
+      views: 592
       comments: !c iw2AkZPLQnmRXdWaAACra2F3YXpha3kyMjOk8J+koQM=
 2023-08-01-stillness:
   title: Stillness
@@ -355,10 +355,10 @@
     - service: tg
       id: 832
       published: 2025-05-06-18-24-51
-      updated: 2025-12-18-20-34-26
+      updated: 2025-12-25-21-20-32
       followers: 738
       likes: 69
-      views: 708
+      views: 711
 2023-08-03-spinning-wheel:
   title: Spinning-Wheel
   titleRu: Прялка
