@@ -92,10 +92,10 @@
     - service: vk
       id: 2312
       published: 2025-04-28-18-25-04
-      updated: 2025-12-18-21-25-21
+      updated: 2025-12-25-22-20-55
       followers: 1274
       likes: 72
-      views: 521
+      views: 522
       reposts: 1
       comments: !c |-
         G4YBABwHTtm8gPMIrp76EUJz0iui4sTnCJ0GYpQAh0slaUTa6UwJKnugGTrXVEdFBTiTqI/GSr4M
@@ -107,10 +107,10 @@
     - service: tg
       id: 821
       published: 2025-04-28-18-25-09
-      updated: 2025-12-18-21-24-25
+      updated: 2025-12-25-22-19-51
       followers: 726
       likes: 81
-      views: 669
+      views: 672
       comments: !c |-
         GxMBACwObCc0ME0obunnUpGyRqh0/iFvIxzIxpZJgXVRpMn7ZOncSio6R7IykMnOuKGqcyNnUyO1
         /wTcYKNaiqk79WQxvcaPaMxGrlIzky4gCzo5cGkHuVDh53ksgQSecVgSiAY7YGdyaTh2zutbLX8X
@@ -723,10 +723,10 @@
     - service: vk
       id: 2282
       published: 2025-04-16-18-22-11
-      updated: 2025-12-18-21-25-44
+      updated: 2025-12-25-22-21-16
       followers: 1261
       likes: 75
-      views: 560
+      views: 561
       reposts: 2
       comments: !c |-
         G3MA+C0SzNOZIrBxyzn4pCAU2IEHFAjFAZdQxMkOdTWlBCks4wLeP73ICyTQyOLa2rKs//L9dMAX
@@ -734,10 +734,10 @@
     - service: tg
       id: 797
       published: 2025-04-16-18-22-22
-      updated: 2025-12-18-21-24-37
+      updated: 2025-12-25-22-20-01
       followers: 720
       likes: 61
-      views: 601
+      views: 603
 2016-12-02-molag-mar:
   title: Molag Mar
   titleRu: Молаг Мар
