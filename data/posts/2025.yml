@@ -3489,20 +3489,22 @@
     - service: vk
       id: 2966
       published: 2025-12-24-19-07-00
-      updated: 2025-12-25-06-10-50
+      updated: 2025-12-25-06-33-13
       followers: 1549
-      likes: 12
-      views: 232
+      likes: 14
+      views: 250
       reposts: 1
     - service: tg
       id: 1095
       published: 2025-12-24-19-07-00
-      updated: 2025-12-25-06-10-50
+      updated: 2025-12-25-06-33-14
       followers: 881
-      likes: 39
-      views: 175
+      likes: 40
+      views: 185
     - service: ig
       id: DSrOxmRl4X3
       mediaId: '18089597725789507'
       published: 2025-12-25-05-58-00
+      updated: 2025-12-25-06-33-16
       followers: 1605
+      likes: 12
