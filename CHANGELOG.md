@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file.
 
+## [2.14.2](https://github.com/dehero/mwscr/compare/v2.14.1...v2.14.2) (2025-12-25)
+
+### Bug Fixes
+
+- decrease wallpaper posting distance to 3
+  ([16af53e](https://github.com/dehero/mwscr/commit/16af53e1037149dad0f28a3075d45520bd005f88))
+
 ## [2.14.1](https://github.com/dehero/mwscr/compare/v2.14.0...v2.14.1) (2025-12-19)
 
 ### Bug Fixes
