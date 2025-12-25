@@ -850,7 +850,7 @@
       id: DQH3R7LEQUG
       mediaId: '18295437574283457'
       published: 2025-10-22-19-14-52
-      updated: 2025-12-18-19-23-27
+      updated: 2025-12-25-20-22-53
       followers: 1586
       likes: 98
       comments: !c |-
@@ -859,10 +859,10 @@
     - service: vk
       id: 2761
       published: 2025-10-22-19-14-58
-      updated: 2025-12-18-19-23-44
+      updated: 2025-12-25-20-23-07
       followers: 1478
       likes: 73
-      views: 2195
+      views: 2205
       reposts: 1
       comments: !c |-
         G+EBAJ0Htg1rGy4s/pGFlRAz/vn+RhE+kD56oCWJJ9BMtOIr50JqmxIIaxGGkPcdn4VmGwdU7Tyx
@@ -873,10 +873,10 @@
     - service: tg
       id: 1024
       published: 2025-10-22-19-15-03
-      updated: 2025-12-18-19-23-30
+      updated: 2025-12-25-20-23-00
       followers: 840
-      likes: 70
-      views: 1249
+      likes: 71
+      views: 1266
       comments: !c |-
         G5gAgGXgnCMcyKvwt+Ptuuw3HSQ6qMDPqadqp5xogXGQQDtJIBrfA66SEMphTKfWjmD9b7OHgQ7E
         K5TSftUyM4Df/LSMGMgPhSAmqNcbusd85bmKkY/NzQUAQ0ivwngGY1nqYHR6FNBDYmARQRQPuMmq
@@ -928,7 +928,7 @@
     - service: yt
       id: 8Waikj-VsSI
       published: 2017-01-22
-      updated: 2025-12-18-19-23-11
+      updated: 2025-12-25-20-22-43
       followers: 1
       likes: 7
       views: 134
@@ -1283,7 +1283,7 @@
     - service: yt
       id: lbg7_2GY9-U
       published: 2017-01-28
-      updated: 2025-12-18-19-23-11
+      updated: 2025-12-25-20-22-42
       followers: 2
       likes: 24
       views: 576
@@ -2037,7 +2037,7 @@
     - service: yt
       id: Fd77v5UL_ek
       published: 2017-02-12
-      updated: 2025-12-18-19-23-09
+      updated: 2025-12-25-20-22-40
       followers: 4
       likes: 36
       views: 728
@@ -3917,24 +3917,24 @@
       id: DQZyPk3l4Hw
       mediaId: '17947401965918568'
       published: 2025-10-29-18-17-11
-      updated: 2025-12-18-19-23-24
+      updated: 2025-12-25-20-22-50
       followers: 1586
       likes: 49
     - service: vk
       id: 2797
       published: 2025-10-29-18-17-19
-      updated: 2025-12-18-19-23-40
+      updated: 2025-12-25-20-23-03
       followers: 1489
       likes: 58
-      views: 985
+      views: 987
       reposts: 2
     - service: tg
       id: 1034
       published: 2025-10-29-18-17-25
-      updated: 2025-12-18-19-23-27
+      updated: 2025-12-25-20-22-57
       followers: 848
-      likes: 71
-      views: 529
+      likes: 72
+      views: 537
       comments: !c CxGAkZPLQnmjExKigACqYTItZW5rZWxsaaxzaHJvb21idXJnZXID
 2017-03-25-the-two-towers:
   title: The Two Towers
@@ -5688,25 +5688,25 @@
       id: DRC_YWBl8pm
       mediaId: '17891152044369444'
       published: 2025-11-14-18-20-48
-      updated: 2025-12-18-19-23-18
+      updated: 2025-12-25-20-22-45
       followers: 1594
       likes: 42
     - service: vk
       id: 2851
       published: 2025-11-14-18-20-56
-      updated: 2025-12-18-19-23-22
+      updated: 2025-12-25-20-22-56
       followers: 1505
       likes: 63
-      views: 768
+      views: 771
       reposts: 1
       comments: !c iw+AkZPLQnmoZXF7AACqYXJ5YS1zdGFya6nQo9C/0YEuLi4D
     - service: tg
       id: 1055
       published: 2025-11-14-18-21-02
-      updated: 2025-12-18-19-23-19
+      updated: 2025-12-25-20-22-49
       followers: 858
-      likes: 68
-      views: 564
+      likes: 69
+      views: 577
       comments: !c iw2AkZPLQnmosg+9AACra2F3YXpha3kyMjOk8J+YswM=
 2017-04-30-palace-of-vivec:
   title: Palace of Vivec
@@ -10730,7 +10730,7 @@
       id: DNBga1Sso0Z
       mediaId: '17898572103258644'
       published: 2025-08-06-18-25-26
-      updated: 2025-12-18-19-23-48
+      updated: 2025-12-25-20-23-16
       followers: 1572
       likes: 85
     - service: vk
@@ -11453,7 +11453,7 @@
       id: DN3l2Qc4iRy
       mediaId: '18063386042339806'
       published: 2025-08-27-18-31-57
-      updated: 2025-12-18-19-23-41
+      updated: 2025-12-25-20-23-11
       followers: 1580
       likes: 69
       comments: !c |-
@@ -14697,7 +14697,7 @@
       id: DNlkoviRtWC
       mediaId: '17945813988011308'
       published: 2025-08-20-18-35-01
-      updated: 2025-12-18-19-23-43
+      updated: 2025-12-25-20-23-13
       followers: 1580
       likes: 71
     - service: vk
@@ -15447,7 +15447,7 @@
       id: DOrFi8CDq8p
       mediaId: '18326558461226746'
       published: 2025-09-16-18-30-08
-      updated: 2025-12-18-19-23-35
+      updated: 2025-12-25-20-23-04
       followers: 1583
       likes: 73
     - service: vk
