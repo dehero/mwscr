@@ -459,7 +459,7 @@ ansis:
   profiles:
     - service: tg
       id: '517050552'
-      updated: 2025-12-26-03-24-50
+      updated: 2025-12-26-06-32-24
       accessHash: '5231096655311395455'
       username: ansis
       name: ansis
@@ -573,7 +573,7 @@ arya-stark:
   profiles:
     - service: vk
       id: '820702664'
-      updated: 2025-12-26-03-24-56
+      updated: 2025-12-26-06-32-26
       username: id820702664
       name: Арья Старк
       avatar: store:/avatars/vk-689aa89d.jpg
@@ -3752,7 +3752,7 @@ nerevarine:
   profiles:
     - service: tg
       id: '373264328'
-      updated: 2025-12-25-06-10-57
+      updated: 2025-12-26-06-32-24
       accessHash: '9078366854792939477'
       username: Nerevarine
       name: Otto Godblessed
@@ -4749,7 +4749,7 @@ sergey-venkov:
   profiles:
     - service: vk
       id: '217443112'
-      updated: 2025-12-25-06-10-57
+      updated: 2025-12-26-06-32-26
       username: id217443112
       name: Сергей Венков
       avatar: store:/avatars/vk-a77d1a73.jpg
@@ -6000,7 +6000,7 @@ vladimir-mazevich:
   profiles:
     - service: vk
       id: '10623811'
-      updated: 2025-12-26-05-22-09
+      updated: 2025-12-26-06-32-25
       username: id10623811
       name: Владимир Мазевич
       avatar: store:/avatars/vk-183879ef.jpg
@@ -6024,7 +6024,7 @@ vladkr114:
   profiles:
     - service: vk
       id: '210352858'
-      updated: 2025-12-26-01-40-54
+      updated: 2025-12-26-06-32-25
       username: vladkr114
       name: Влад Крамской
       avatar: store:/avatars/vk-dfe1d842.jpg
