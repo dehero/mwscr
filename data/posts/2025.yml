@@ -3493,15 +3493,18 @@
     - service: vk
       id: 2966
       published: 2025-12-24-19-07-00
-      updated: 2025-12-25-23-19-50
+      updated: 2025-12-26-01-40-49
       followers: 1549
       likes: 29
-      views: 673
+      views: 707
       reposts: 2
+      comments: !c |-
+        G2IA4I3EOBZyaLoPC8Hz3pKi6cRu2PyNItgozYRyoV7JV96PZ2fL3dTOVJuqVPgrDzbgRCzAICAa
+        BE9brPFz7kcL8jg172wxS5fhe9xlSqo/kxStznk++IBHs8yEL45igSqwvNJQCw==
     - service: tg
       id: 1095
       published: 2025-12-24-19-07-00
-      updated: 2025-12-25-23-19-50
+      updated: 2025-12-26-01-40-40
       followers: 881
       likes: 48
       views: 226
@@ -3509,6 +3512,6 @@
       id: DSrOxmRl4X3
       mediaId: '18089597725789507'
       published: 2025-12-25-05-58-00
-      updated: 2025-12-25-23-19-51
+      updated: 2025-12-26-01-40-47
       followers: 1605
-      likes: 54
+      likes: 56

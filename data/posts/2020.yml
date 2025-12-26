@@ -28,10 +28,10 @@
     - service: vk
       id: 1213
       published: 2020-05-13
-      updated: 2025-12-18-23-28-18
+      updated: 2025-12-26-01-42-01
       followers: 379
       likes: 58
-      views: 676
+      views: 677
       comments: !c |-
         GzABAJyJsY2C/KCfhW9SQvD0XbqiZ7Ok9wIeblUT7RWkNtH0P6CpGlW3G4dwCiUQnFy40jC25LQI
         gyDV1/XtbDHZ2MSCdBPe+Fy+fyqenmiAEGELylrlKaYJJOEPzrGXJjY5GvZ4OLi4GbH+TJvFoML/
@@ -101,10 +101,10 @@
     - service: vk
       id: 1218
       published: 2020-05-14
-      updated: 2025-12-18-23-28-17
+      updated: 2025-12-26-01-42-00
       followers: 379
       likes: 41
-      views: 592
+      views: 593
       comments: !c |-
         G3MA+B0HbqzFEwVpqY+Iuj3hBfLkCUTFNQk2iUSe7Fne5GhSkPL/fiPQAuP33nZkGlp2GkKSSRkN
         OjLNz/una4llHeE7t8Pu7kx5/JJXBqfcPueUZM6TuBUGtBXaeCyvBAGaksHMiv34AA==
@@ -164,10 +164,10 @@
     - service: vk
       id: 1220
       published: 2020-05-15
-      updated: 2025-12-18-23-28-16
+      updated: 2025-12-26-01-41-59
       followers: 379
       likes: 40
-      views: 604
+      views: 605
       comments: !c |-
         G10EICwKbBuh/ljo4G9UnlFP3KP+hZ5m5ifEIYmVqClwOy2UJLJHtaq10kwARgH4/VtcxVnfOdZa
         B2ih1A1jcXZSE/9/oxtJlzU4tCBlI0PeNtf0Ct4jQhGhRgXexrnmP53KsQEUDAjepqy+jk353Ilr
@@ -236,10 +236,10 @@
     - service: vk
       id: 1223
       published: 2020-05-16
-      updated: 2025-12-18-23-28-15
+      updated: 2025-12-26-01-41-54
       followers: 380
       likes: 54
-      views: 623
+      views: 624
       reposts: 1
       comments: !c |-
         iymAkpPLQnch4zh2gAClaWk0MTC10KXQvtC70L7QtNC90L4g0YLRg9GCk8tCdzSYZgEAAK9zdW1l
@@ -276,10 +276,10 @@
     - service: vk
       id: 1225
       published: 2020-05-17
-      updated: 2025-12-18-23-28-15
+      updated: 2025-12-26-01-41-51
       followers: 381
       likes: 45
-      views: 633
+      views: 634
     - service: tg
       id: 207
       published: 2020-05-17
@@ -312,10 +312,10 @@
     - service: vk
       id: 1226
       published: 2020-05-18
-      updated: 2025-12-18-23-28-14
+      updated: 2025-12-26-01-41-51
       followers: 381
       likes: 43
-      views: 633
+      views: 634
       comments: !c |-
         ixqAkZPLQncionoiAACscGV0ZWV2YW5kcmV3vdCd0LDQtNGR0LbQvdCw0Y8g0LfQsNGJ0LjRgtCw
         Aw==
@@ -378,10 +378,10 @@
     - service: vk
       id: 1228
       published: 2020-05-19
-      updated: 2025-12-18-23-28-13
+      updated: 2025-12-26-01-41-50
       followers: 381
       likes: 48
-      views: 683
+      views: 684
       reposts: 2
       comments: !c |-
         G3MA+C0KbBulfSgfkl+T7CMIbyN84glvEGdB6UdxJRZpcg9uspKKpchko3BLxDxhaLJTJm0OHHKi
@@ -425,10 +425,10 @@
     - service: vk
       id: 1230
       published: 2020-05-20
-      updated: 2025-12-18-23-28-12
+      updated: 2025-12-26-01-41-49
       followers: 381
       likes: 65
-      views: 712
+      views: 713
       reposts: 3
     - service: tg
       id: 210
@@ -461,10 +461,10 @@
     - service: vk
       id: 1232
       published: 2020-05-21
-      updated: 2025-12-18-23-28-12
+      updated: 2025-12-26-01-41-48
       followers: 383
       likes: 40
-      views: 710
+      views: 711
       reposts: 1
     - service: tg
       id: 211
@@ -528,10 +528,10 @@
     - service: vk
       id: 1233
       published: 2020-05-22
-      updated: 2025-12-18-23-28-11
+      updated: 2025-12-26-01-41-48
       followers: 384
       likes: 49
-      views: 718
+      views: 719
     - service: tg
       id: 212
       published: 2020-05-22
@@ -587,10 +587,10 @@
     - service: vk
       id: 1234
       published: 2020-05-23
-      updated: 2025-12-18-23-28-10
+      updated: 2025-12-26-01-41-47
       followers: 385
       likes: 62
-      views: 925
+      views: 926
       reposts: 1
     - service: tg
       id: 213
@@ -621,10 +621,10 @@
     - service: vk
       id: 1235
       published: 2020-05-24
-      updated: 2025-12-18-23-28-09
+      updated: 2025-12-26-01-41-46
       followers: 385
       likes: 52
-      views: 849
+      views: 850
       reposts: 1
       comments: !c |-
         G1AA+MX/uNYSJvj6kqVGa403LVBeJki+j6cHckFTAJHK+iFHYpcVMTPZhm8YoWLqrhF9pV/b/I85
@@ -685,10 +685,10 @@
     - service: vk
       id: 1237
       published: 2020-05-25
-      updated: 2025-12-18-23-28-09
+      updated: 2025-12-26-01-41-45
       followers: 386
       likes: 43
-      views: 999
+      views: 1000
       comments: !c |-
         Cx+AkZPLQnck8CxKgACscGV0ZWV2YW5kcmV32SXQntGH0LXQvdGMINC/0LjRgtGMINGF0L7Rh9C1
         0YLRgdGPLi4uAw==
@@ -768,10 +768,10 @@
     - service: vk
       id: 1240
       published: 2020-05-26
-      updated: 2025-12-18-23-28-08
+      updated: 2025-12-26-01-41-45
       followers: 399
       likes: 47
-      views: 1175
+      views: 1176
       comments: !c |-
         G5MA4I3TJbYTM0f2/LU+4SYucOGKRV2WbeBFiXaA5Dy7q6xUpxy4RAEHFGAYYsbfYQfsLRutrpPp
         02jJ5hiblb265zWtolv1WmdMcKcUpIvbwQkluKb+5k8rRmzrdiy306iFOUvJVa1aLdOo/Q2MOIov
@@ -811,10 +811,10 @@
     - service: vk
       id: 1248
       published: 2020-10-10
-      updated: 2025-12-18-23-28-07
+      updated: 2025-12-26-01-41-44
       followers: 430
       likes: 51
-      views: 687
+      views: 688
       reposts: 2
     - service: tg
       id: 217
@@ -857,10 +857,10 @@
     - service: vk
       id: 1249
       published: 2020-10-11
-      updated: 2025-12-18-23-28-06
+      updated: 2025-12-26-01-41-43
       followers: 432
       likes: 46
-      views: 607
+      views: 608
       reposts: 1
     - service: tg
       id: 218
@@ -904,10 +904,10 @@
     - service: vk
       id: 1250
       published: 2020-10-12
-      updated: 2025-12-18-23-28-05
+      updated: 2025-12-26-01-41-42
       followers: 439
       likes: 73
-      views: 762
+      views: 763
       reposts: 4
     - service: tg
       id: 219
@@ -953,10 +953,10 @@
     - service: vk
       id: 1253
       published: 2020-10-13
-      updated: 2025-12-18-23-28-05
+      updated: 2025-12-26-01-41-41
       followers: 440
       likes: 56
-      views: 728
+      views: 729
       comments: !c |-
         G54BIJ0HdoOzsbBbGsjvIBT9Excj/XN6V6pRBkHANRNhsk9lGzlZii1aiilOdQL/dkJ12GlGEQQY
         9/VuX/8DHvrKmDDDp7fEEg1Eam0BBXxqBznoha6BBhjxiU6H2uYm4jK+BsZRfOf1/qMS++6g/Z50
@@ -1024,10 +1024,10 @@
     - service: vk
       id: 1257
       published: 2020-10-14
-      updated: 2025-12-18-23-28-04
+      updated: 2025-12-26-01-41-40
       followers: 445
       likes: 48
-      views: 668
+      views: 669
     - service: tg
       id: 221
       published: 2020-10-14
@@ -1066,10 +1066,10 @@
     - service: vk
       id: 1258
       published: 2020-10-15
-      updated: 2025-12-18-23-28-02
+      updated: 2025-12-26-01-41-39
       followers: 445
       likes: 53
-      views: 728
+      views: 729
       reposts: 2
     - service: tg
       id: 222
@@ -1133,10 +1133,10 @@
     - service: vk
       id: 1259
       published: 2020-10-16
-      updated: 2025-12-18-23-28-02
+      updated: 2025-12-26-01-41-39
       followers: 446
       likes: 52
-      views: 696
+      views: 697
       reposts: 1
     - service: tg
       id: 223
@@ -1199,10 +1199,10 @@
     - service: vk
       id: 1260
       published: 2020-10-17
-      updated: 2025-12-18-23-28-01
+      updated: 2025-12-26-01-41-38
       followers: 447
       likes: 44
-      views: 730
+      views: 731
       reposts: 1
       comments: !c |-
         G4cA8B2JcSzKQrN6I1Q6/De3pXihrLYNpiAHt2DoNtGQDTNFy/txpWl5E4tNVeX03kxgXROqzWzG
@@ -1271,10 +1271,10 @@
     - service: vk
       id: 1263
       published: 2020-10-18
-      updated: 2025-12-18-23-28-00
+      updated: 2025-12-26-01-41-37
       followers: 448
       likes: 64
-      views: 758
+      views: 759
       reposts: 3
       comments: !c |-
         G8cA+J0JdqyVgQvrEqfQqKe/fcI3nkOkTaKRJXsq20KuhGxKEzeZ8P8xaHmLapeazVXBzNd3L9je
@@ -1310,10 +1310,10 @@
     - service: vk
       id: 1265
       published: 2020-10-19
-      updated: 2025-12-18-23-27-59
+      updated: 2025-12-26-01-41-36
       followers: 449
       likes: 39
-      views: 736
+      views: 737
       comments: !c CxiAkZPLQndUQ0PqAACnb3VyZG90dr3RhdC+0YDQvtGI0LjQuSDQvNCw0LvRjNGH0LjQugM=
     - service: tg
       id: 226
@@ -1376,10 +1376,10 @@
     - service: vk
       id: 1267
       published: 2020-10-20
-      updated: 2025-12-18-23-27-59
+      updated: 2025-12-26-01-41-36
       followers: 449
       likes: 59
-      views: 787
+      views: 788
       reposts: 2
       comments: !c |-
         G+sAQJwHjrH0gXNx7anxQ4jyoJMR/3U7whtvPmgmBQEFScAVcFkkyT7QdG6EEqzVYHN0i4nh2D5A
@@ -1452,10 +1452,10 @@
     - service: vk
       id: 1270
       published: 2020-10-21
-      updated: 2025-12-18-23-27-57
+      updated: 2025-12-26-01-41-35
       followers: 449
       likes: 60
-      views: 811
+      views: 812
       reposts: 1
       comments: !c |-
         iyGAkZPLQndWE9ztAACwc3ZldGxhbmEtemh1a292Ydkm0LDQtiDRgdC70ZHQt9GLINC90LDQstC1
@@ -1522,10 +1522,10 @@
     - service: vk
       id: 1271
       published: 2020-10-22
-      updated: 2025-12-18-23-27-57
+      updated: 2025-12-26-01-41-34
       followers: 449
       likes: 41
-      views: 794
+      views: 795
     - service: tg
       id: 229
       published: 2020-10-22
@@ -1556,10 +1556,10 @@
     - service: vk
       id: 1272
       published: 2020-10-23
-      updated: 2025-12-18-23-27-56
+      updated: 2025-12-26-01-41-33
       followers: 449
       likes: 63
-      views: 895
+      views: 896
       reposts: 3
       comments: !c |-
         G2sA+C0SbNsLWy9JzBGxk36EtAsTHIgl3CUeYCDJz/JWkliEJEZuM0EQpPKesx8bRSaXa3N23VL2
@@ -1601,10 +1601,10 @@
     - service: vk
       id: 1273
       published: 2020-10-24
-      updated: 2025-12-18-23-27-55
+      updated: 2025-12-26-01-41-32
       followers: 449
       likes: 55
-      views: 854
+      views: 855
       reposts: 2
     - service: tg
       id: 231
@@ -1638,10 +1638,10 @@
     - service: vk
       id: 1274
       published: 2020-10-25
-      updated: 2025-12-18-23-27-54
+      updated: 2025-12-26-01-41-32
       followers: 449
       likes: 54
-      views: 844
+      views: 845
     - service: tg
       id: 232
       published: 2020-10-25
@@ -1676,10 +1676,10 @@
     - service: vk
       id: 1276
       published: 2020-10-26
-      updated: 2025-12-18-23-27-54
+      updated: 2025-12-26-01-41-31
       followers: 451
       likes: 58
-      views: 869
+      views: 870
     - service: tg
       id: 233
       published: 2020-10-26
@@ -1713,10 +1713,10 @@
     - service: vk
       id: 1277
       published: 2020-10-27
-      updated: 2025-12-18-23-27-53
+      updated: 2025-12-26-01-41-30
       followers: 452
       likes: 60
-      views: 931
+      views: 932
       reposts: 1
       comments: !c iwuAkZPLQndW46EogACpbWF4LW5hZmlnojpEAw==
     - service: tg
@@ -1749,10 +1749,10 @@
     - service: vk
       id: 1279
       published: 2020-10-28
-      updated: 2025-12-18-23-27-52
+      updated: 2025-12-26-01-41-29
       followers: 452
       likes: 61
-      views: 981
+      views: 982
       reposts: 1
       comments: !c CxeAkZPLQndXErsFAACxY3JhenljeXJvZGlsaWNjYXSx0JzQvtGPINC20LjQt9C90YwD
     - service: tg
@@ -1821,10 +1821,10 @@
     - service: vk
       id: 1281
       published: 2020-10-29
-      updated: 2025-12-18-23-27-51
+      updated: 2025-12-26-01-41-28
       followers: 454
       likes: 63
-      views: 992
+      views: 993
       reposts: 1
     - service: tg
       id: 236
@@ -1862,10 +1862,10 @@
     - service: vk
       id: 1282
       published: 2020-10-30
-      updated: 2025-12-18-23-27-51
+      updated: 2025-12-26-01-41-27
       followers: 454
       likes: 58
-      views: 1035
+      views: 1036
       reposts: 2
     - service: tg
       id: 237
@@ -1896,10 +1896,10 @@
     - service: vk
       id: 1283
       published: 2020-10-31
-      updated: 2025-12-18-23-27-50
+      updated: 2025-12-26-01-41-26
       followers: 455
       likes: 61
-      views: 1060
+      views: 1061
       reposts: 1
     - service: tg
       id: 238
@@ -1929,10 +1929,10 @@
     - service: vk
       id: 1284
       published: 2020-11-01
-      updated: 2025-12-18-23-27-49
+      updated: 2025-12-26-01-41-25
       followers: 455
       likes: 57
-      views: 1133
+      views: 1134
       reposts: 1
     - service: tg
       id: 239
@@ -2000,7 +2000,7 @@
     - service: vk
       id: 1285
       published: 2020-11-02
-      updated: 2025-12-18-23-27-48
+      updated: 2025-12-26-01-41-25
       followers: 457
       likes: 108
       views: 1796
@@ -2041,7 +2041,7 @@
     - service: vk
       id: 1286
       published: 2020-11-03
-      updated: 2025-12-18-23-27-48
+      updated: 2025-12-26-01-41-24
       followers: 456
       likes: 69
       views: 1329
@@ -2081,10 +2081,10 @@
     - service: vk
       id: 1287
       published: 2020-11-05
-      updated: 2025-12-18-23-27-47
+      updated: 2025-12-26-01-41-23
       followers: 456
       likes: 91
-      views: 1533
+      views: 1534
       reposts: 5
     - service: tg
       id: 242
@@ -2141,10 +2141,10 @@
     - service: vk
       id: 1288
       published: 2020-11-07
-      updated: 2025-12-18-23-27-46
+      updated: 2025-12-26-01-41-22
       followers: 457
       likes: 79
-      views: 1653
+      views: 1654
       reposts: 4
     - service: tg
       id: 243
@@ -2185,10 +2185,10 @@
     - service: vk
       id: 1290
       published: 2020-11-09
-      updated: 2025-12-18-23-27-45
+      updated: 2025-12-26-01-41-22
       followers: 459
       likes: 108
-      views: 2274
+      views: 2277
       reposts: 7
       comments: !c |-
         CzeAkpPLQnf5h13wAACob2tzaS1qZXm70KLQsNC6INGB0L/QvtC60L7QudC90L4g4pyok8tCeBla
@@ -2227,10 +2227,10 @@
     - service: vk
       id: 1291
       published: 2020-11-11
-      updated: 2025-12-18-23-27-44
+      updated: 2025-12-26-01-41-21
       followers: 459
       likes: 109
-      views: 2097
+      views: 2099
       reposts: 5
       comments: !c |-
         G1YBACwOzHPi3YggdpEbi87SJ55nbXgpnhgsNsFgMWXBIti19FvICwtjoY1ued/pVkrQbMj4Hfdd
