@@ -267,7 +267,7 @@ aleksey-kobzev:
   profiles:
     - service: vk
       id: '51091828'
-      updated: 2025-12-19-15-31-37
+      updated: 2025-12-26-16-24-31
       username: id51091828
       name: Алексей Кобзев
       avatar: store:/avatars/vk-007e8576.jpg
@@ -573,7 +573,7 @@ arya-stark:
   profiles:
     - service: vk
       id: '820702664'
-      updated: 2025-12-26-06-32-26
+      updated: 2025-12-26-16-24-31
       username: id820702664
       name: Арья Старк
       avatar: store:/avatars/vk-689aa89d.jpg
@@ -637,7 +637,7 @@ balmora-blue:
   profiles:
     - service: vk
       id: '319590859'
-      updated: 2025-12-25-23-20-09
+      updated: 2025-12-26-16-24-30
       username: balmora.blue
       name: Любовь Любовь
       avatar: store:/avatars/vk-2e182d42.jpg
@@ -1599,7 +1599,7 @@ dremarretres:
   profiles:
     - service: vk
       id: '801308664'
-      updated: 2025-12-25-23-19-55
+      updated: 2025-12-26-16-24-30
       username: dremarretres
       name: Джон Шепард
       avatar: store:/avatars/vk-ac4f0700.jpg
@@ -2076,10 +2076,10 @@ ghost63rus:
   profiles:
     - service: vk
       id: '841031998'
-      updated: 2025-12-19-15-31-37
+      updated: 2025-12-26-16-24-30
       username: ghost63rus
       name: Дмитрий Кузнецов
-      avatar: store:/avatars/vk-9cd9f9e1.jpg
+      avatar: store:/avatars/vk-e75a1115.jpg
 glavinicmartin:
   profiles:
     - service: ig
@@ -2809,7 +2809,7 @@ kawazaky223:
   profiles:
     - service: tg
       id: '5641856113'
-      updated: 2025-12-26-14-20-33
+      updated: 2025-12-26-16-24-22
       accessHash: '7421309771527577818'
       username: Kawazaky223
       name: Максим
@@ -2906,10 +2906,10 @@ konstantin-matrosov:
   profiles:
     - service: vk
       id: '93073669'
-      updated: 2025-12-26-03-24-51
+      updated: 2025-12-26-16-24-43
       username: id93073669
       name: Константин Матросов
-      avatar: store:/avatars/vk-135738e0.jpg
+      avatar: store:/avatars/vk-b1ae0818.jpg
 konstantinmk:
   profiles:
     - service: vk
@@ -3339,7 +3339,7 @@ max-upsher:
   profiles:
     - service: tg
       id: '1774562733'
-      updated: 2025-12-26-01-56-49
+      updated: 2025-12-26-16-24-21
       accessHash: '1025402626840048013'
       username: MaxUpsher
       name: Max Upsher
@@ -3348,7 +3348,7 @@ mbdtsmo:
   profiles:
     - service: tg
       id: '5093097514'
-      updated: 2025-12-25-21-19-51
+      updated: 2025-12-26-16-24-20
       accessHash: '-613358669572386334'
       username: mbdtsmo
       name: M Bdtsmo
@@ -3893,7 +3893,7 @@ oberhort:
   profiles:
     - service: tg
       id: '19254498'
-      updated: 2025-12-19-15-31-16
+      updated: 2025-12-26-16-24-17
       accessHash: '-564270059565994883'
       username: oberhort
       name: Игорь
@@ -4423,7 +4423,7 @@ redoranar:
   profiles:
     - service: tg
       id: '627928484'
-      updated: 2025-12-26-01-56-53
+      updated: 2025-12-26-16-24-28
       accessHash: '4117269213935533016'
       username: Redoranar
       name: Egor
@@ -4719,7 +4719,7 @@ sergey-b:
   profiles:
     - service: vk
       id: '889222999'
-      updated: 2025-12-26-01-56-53
+      updated: 2025-12-26-16-24-50
       username: id889222999
       avatar: store:/avatars/vk-7f160215.jpg
       deleted: true
@@ -4741,7 +4741,7 @@ sergey-churbanov:
   profiles:
     - service: vk
       id: '1060712354'
-      updated: 2025-12-25-21-19-25
+      updated: 2025-12-26-16-24-40
       username: id1060712354
       name: Сергей Чурбанов
       avatar: store:/avatars/vk-6499ce8d.jpg
@@ -5865,7 +5865,7 @@ vail-astor-zkiy:
   profiles:
     - service: tg
       id: '1245638625'
-      updated: 2025-12-26-14-20-32
+      updated: 2025-12-26-16-24-30
       accessHash: '-6135365331334675689'
       name: Vail Astor'zkiy
 valeriy-zhmishenko:
@@ -6000,7 +6000,7 @@ vladimir-mazevich:
   profiles:
     - service: vk
       id: '10623811'
-      updated: 2025-12-26-15-21-17
+      updated: 2025-12-26-16-24-17
       username: id10623811
       name: Владимир Мазевич
       avatar: store:/avatars/vk-183879ef.jpg
@@ -6024,7 +6024,7 @@ vladkr114:
   profiles:
     - service: vk
       id: '210352858'
-      updated: 2025-12-26-06-32-25
+      updated: 2025-12-26-16-24-32
       username: vladkr114
       name: Влад Крамской
       avatar: store:/avatars/vk-dfe1d842.jpg
