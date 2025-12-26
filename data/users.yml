@@ -459,7 +459,7 @@ ansis:
   profiles:
     - service: tg
       id: '517050552'
-      updated: 2025-12-26-06-32-24
+      updated: 2025-12-26-18-29-54
       accessHash: '5231096655311395455'
       username: ansis
       name: ansis
@@ -1376,7 +1376,7 @@ dehero:
     - type: channel
       service: tg
       id: '1264795946'
-      updated: 2025-12-26-04-34-45
+      updated: 2025-12-26-18-29-54
       accessHash: '-5789257269249675714'
       username: mwscr
       name: Morrowind Screenshots
@@ -6000,7 +6000,7 @@ vladimir-mazevich:
   profiles:
     - service: vk
       id: '10623811'
-      updated: 2025-12-26-17-18-11
+      updated: 2025-12-26-18-29-53
       username: id10623811
       name: Владимир Мазевич
       avatar: store:/avatars/vk-183879ef.jpg
