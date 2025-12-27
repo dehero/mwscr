@@ -444,7 +444,7 @@ anonim:
   profiles:
     - service: tg
       id: '6469120788'
-      updated: 2025-12-26-19-17-01
+      updated: 2025-12-27-20-22-31
       accessHash: '-3557204299452739678'
       name: Аноним
       avatar: store:/avatars/tg-5386639419211116910.jpg
@@ -557,7 +557,7 @@ artyom-melikhoff:
   profiles:
     - service: vk
       id: '299405149'
-      updated: 2025-12-26-19-17-00
+      updated: 2025-12-27-20-22-30
       username: artyom_melikhoff
       name: Артём Мелихов
       avatar: store:/avatars/vk-4c16e471.jpg
