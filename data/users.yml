@@ -867,7 +867,7 @@ brg1092:
   profiles:
     - service: tg
       id: '5867861906'
-      updated: 2025-12-29-16-26-19
+      updated: 2025-12-29-19-16-29
       accessHash: '4411929981434940281'
       username: brg1092
       name: 2𝜋
@@ -3082,7 +3082,7 @@ loftydelusion:
   profiles:
     - service: tg
       id: '6735256969'
-      updated: 2025-12-26-01-56-52
+      updated: 2025-12-29-19-16-33
       accessHash: '7923451850129434076'
       username: Loftydelusion
       name: Ꭰelusion
@@ -5999,7 +5999,7 @@ vladimir-mazevich:
   profiles:
     - service: vk
       id: '10623811'
-      updated: 2025-12-28-19-16-15
+      updated: 2025-12-29-19-16-34
       username: id10623811
       name: Владимир Мазевич
       avatar: store:/avatars/vk-183879ef.jpg
@@ -6115,9 +6115,9 @@ wenya-fox:
   profiles:
     - service: tg
       id: '2134652228'
-      updated: 2025-12-01-19-15-52
+      updated: 2025-12-29-19-16-40
       accessHash: '-7611750683729901996'
-      username: WenyaFox
+      username: WFX_q
       botChatId: 2134652228
       name: Матвей
       avatar: store:/avatars/tg-5291946540069419358.jpg
