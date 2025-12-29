@@ -100,7 +100,7 @@ a2-enkelli:
   profiles:
     - service: tg
       id: '7258424423'
-      updated: 2025-12-28-23-19-56
+      updated: 2025-12-29-03-49-37
       accessHash: '969825927170686844'
       username: A2_Enkelli
       name: †† elli ††
@@ -459,7 +459,7 @@ ansis:
   profiles:
     - service: tg
       id: '517050552'
-      updated: 2025-12-28-23-20-01
+      updated: 2025-12-29-03-49-37
       accessHash: '5231096655311395455'
       username: ansis
       name: ansis
@@ -573,7 +573,7 @@ arya-stark:
   profiles:
     - service: vk
       id: '820702664'
-      updated: 2025-12-28-23-19-55
+      updated: 2025-12-29-03-49-35
       username: id820702664
       name: Арья Старк
       avatar: store:/avatars/vk-689aa89d.jpg
@@ -919,7 +919,7 @@ caius-cosades:
   profiles:
     - service: tg
       id: '6483220506'
-      updated: 2025-12-26-01-56-52
+      updated: 2025-12-29-03-49-37
       accessHash: '-5537197680289822260'
       username: Gatemate7
       botChatId: 6483220506
@@ -2809,7 +2809,7 @@ kawazaky223:
   profiles:
     - service: tg
       id: '5641856113'
-      updated: 2025-12-28-23-20-01
+      updated: 2025-12-29-03-49-37
       accessHash: '7421309771527577818'
       username: Kawazaky223
       name: Максим
