@@ -3493,10 +3493,10 @@
     - service: vk
       id: 2966
       published: 2025-12-24-19-07-00
-      updated: 2025-12-29-19-16-34
+      updated: 2025-12-30-19-17-47
       followers: 1549
-      likes: 56
-      views: 2328
+      likes: 60
+      views: 2643
       reposts: 3
       comments: !c |-
         G2IA4I3EOBZyaLoPC8Hz3pKi6cRu2PyNItgozYRyoV7JV96PZ2fL3dTOVJuqVPgrDzbgRCzAICAa
@@ -3504,10 +3504,10 @@
     - service: tg
       id: 1095
       published: 2025-12-24-19-07-00
-      updated: 2025-12-29-19-16-28
+      updated: 2025-12-30-19-17-42
       followers: 881
-      likes: 53
-      views: 325
+      likes: 54
+      views: 357
     - service: ig
       id: DSrOxmRl4X3
       mediaId: '18089597725789507'
@@ -3530,12 +3530,20 @@
       id: DS5dN2jl8GF
       mediaId: '17890772475398197'
       published: 2025-12-30-18-31-54
+      updated: 2025-12-30-19-17-45
       followers: 1606
+      likes: 10
     - service: vk
       id: 2979
       published: 2025-12-30-18-31-59
+      updated: 2025-12-30-19-17-42
       followers: 1553
+      likes: 3
+      views: 28
     - service: tg
       id: 1099
       published: 2025-12-30-18-32-03
+      updated: 2025-12-30-19-17-42
       followers: 878
+      likes: 23
+      views: 83
