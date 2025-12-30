@@ -210,6 +210,7 @@ dehero.2025-12-18-20-18-10:
     - store:/inbox/dehero.2025-12-18-20-18-20.png
     - store:/inbox/dehero.2025-12-18-20-18-24.png
     - store:/inbox/dehero.2025-12-18-20-18-44.png
+    - store:/inbox/dehero.2025-12-18-20-18-10.1.png
   type: shot
   author: dehero
 dehero.2025-12-18-20-23-38:
@@ -255,7 +256,19 @@ lwumbazavr.2025-10-29-img-202026-9ee69470:
   type: shot
   author: lwumbazavr
 natty.2025-12-22-20-43-24:
-  content: store:/inbox/natty.2025-12-22-20-43-24.png
+  content:
+    - store:/inbox/natty.2025-12-22-20-43-24.png
+    - store:/inbox/natty.2025-12-22-20-43-24.1.png
+  type: shot
+  author: natty
+natty.2025-12-22-20-50-26:
+  content: store:/inbox/natty.2025-12-22-20-50-26.png
+  type: shot
+  author: natty
+natty.2025-12-22-20-52-12:
+  content:
+    - store:/inbox/natty.2025-12-22-20-52-12.1.png
+    - store:/inbox/natty.2025-12-22-20-52-12.png
   type: shot
   author: natty
 ohsweetnazareth.2025-02-20-ash-statue-in-maran-adon:
@@ -299,6 +312,7 @@ ohsweetnazareth.2025-11-14-demon-of-the-halls-of-penumbra-17595202:
     - store:/inbox/ohsweetnazareth.2025-11-14-demon-of-the-halls-of-penumbra-9e283c63.png
     - store:/inbox/ohsweetnazareth.2025-11-14-demon-of-the-halls-of-penumbra-d91888ad.png
     - store:/inbox/ohsweetnazareth.2025-11-14-demon-of-the-halls-of-penumbra-fed6113b.png
+    - store:/inbox/ohsweetnazareth.2025-11-14-demon-of-the-halls-of-penumbra-d91888ad.1.png
   type: shot
   author: ohsweetnazareth
 ohsweetnazareth.2025-11-19-karstaag-the-huntsman-939aa544:
@@ -325,7 +339,9 @@ ohsweetnazareth.2025-11-25-in-the-carcass-of-ilunibi-1980bfb3:
   author: ohsweetnazareth
 ohsweetnazareth.2025-11-25-in-the-carcass-of-ilunibi-1a1a977c:
   title: In the Carcass of Ilunibi
-  content: store:/inbox/ohsweetnazareth.2025-11-25-in-the-carcass-of-ilunibi-3df9ccfd.png
+  content:
+    - store:/inbox/ohsweetnazareth.2025-11-25-in-the-carcass-of-ilunibi-3df9ccfd.png
+    - store:/inbox/ohsweetnazareth.2025-11-25-in-the-carcass-of-ilunibi-3df9ccfd.1.png
   trash: store:/inbox/ohsweetnazareth.2025-11-25-in-the-carcass-of-ilunibi-1a1a977c.png
   type: wallpaper
   author: ohsweetnazareth
