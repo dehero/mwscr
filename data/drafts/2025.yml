@@ -256,11 +256,16 @@ lwumbazavr.2025-10-29-img-202026-9ee69470:
   type: shot
   author: lwumbazavr
 natty.2025-12-22-20-43-24:
-  content:
-    - store:/inbox/natty.2025-12-22-20-43-24.png
-    - store:/inbox/natty.2025-12-22-20-43-24.1.png
+  title: Before the Storm
+  titleRu: Перед бурей
+  placement: Outdoors
+  location: Maar Gan
+  content: store:/inbox/natty.2025-12-22-20-43-24.1.png
+  trash: store:/inbox/natty.2025-12-22-20-43-24.png
   type: shot
   author: natty
+  engine: OpenMW
+  mark: B1
 natty.2025-12-22-20-50-26:
   content: store:/inbox/natty.2025-12-22-20-50-26.png
   type: shot
