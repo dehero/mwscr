@@ -100,7 +100,7 @@ a2-enkelli:
   profiles:
     - service: tg
       id: '7258424423'
-      updated: 2025-12-30-14-21-32
+      updated: 2025-12-30-17-21-23
       accessHash: '969825927170686844'
       username: A2_Enkelli
       name: †† elli ††
@@ -4732,7 +4732,7 @@ sergey-b-2:
   profiles:
     - service: vk
       id: '1077446394'
-      updated: 2025-12-30-14-21-32
+      updated: 2025-12-30-17-21-24
       username: id1077446394
       name: Сергей Б
       avatar: store:/avatars/vk-a7369956.jpg
@@ -5864,7 +5864,7 @@ vail-astor-zkiy:
   profiles:
     - service: tg
       id: '1245638625'
-      updated: 2025-12-29-16-26-21
+      updated: 2025-12-30-17-21-24
       accessHash: '-6135365331334675689'
       name: Vail Astor'zkiy
 valeriy-zhmishenko:
