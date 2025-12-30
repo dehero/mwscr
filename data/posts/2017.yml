@@ -6926,7 +6926,7 @@
     - service: vk
       id: 2717
       published: 2025-10-06-18-28-57
-      updated: 2025-12-23-13-36-53
+      updated: 2025-12-30-14-21-32
       followers: 1448
       likes: 53
       views: 1496
@@ -6939,10 +6939,10 @@
     - service: tg
       id: 1008
       published: 2025-10-06-18-29-03
-      updated: 2025-12-23-13-36-37
+      updated: 2025-12-30-14-21-29
       followers: 833
       likes: 64
-      views: 569
+      views: 571
       comments: !c ixCAkZPLQnmbzP+3gACra2F3YXpha3kyMjOq8J+nneKAjeKZgAM=
     - service: ig
       id: DPe4iHTicLq
@@ -8100,13 +8100,13 @@
       id: DNyceu54oMo
       mediaId: '17998181432810274'
       published: 2025-08-25-18-33-53
-      updated: 2025-12-23-13-36-42
+      updated: 2025-12-30-14-21-27
       followers: 1581
       likes: 81
     - service: vk
       id: 2602
       published: 2025-08-25-18-33-59
-      updated: 2025-12-23-13-37-06
+      updated: 2025-12-30-14-21-53
       followers: 1380
       likes: 60
       views: 665
@@ -8116,10 +8116,10 @@
     - service: tg
       id: 960
       published: 2025-08-25-18-34-02
-      updated: 2025-12-23-13-36-50
+      updated: 2025-12-30-14-21-50
       followers: 782
       likes: 65
-      views: 584
+      views: 585
       comments: !c iw2AkZPLQnmOXrTWAACra2F3YXpha3kyMjOk8J+ZjwM=
 2017-06-25-heran-ancestral-tomb:
   title: Heran Ancestral Tomb
@@ -9284,7 +9284,7 @@
     - service: vk
       id: 2696
       published: 2025-09-29-18-29-01
-      updated: 2025-12-23-13-36-59
+      updated: 2025-12-30-14-21-39
       followers: 1440
       likes: 72
       views: 919
@@ -9298,10 +9298,10 @@
     - service: tg
       id: 1001
       published: 2025-09-29-18-29-07
-      updated: 2025-12-23-13-36-40
+      updated: 2025-12-30-14-21-35
       followers: 813
       likes: 73
-      views: 603
+      views: 609
       comments: !c |-
         izqAkpPLQnmZbx85gACra2F3YXpha3kyMjOk8J+PsJTLQnmZbQu7AACrZ29vc2V2aWNoNzaz0Y8g
         0LEg0YLQsNC8INC20LjQu5PLQnmZgZcCAACqYTItZW5rZWxsabrQotCw0Lwg0LrRg9GH0LAg0L7R
@@ -10939,21 +10939,21 @@
       id: DOWfOlKjJFS
       mediaId: '18113454772554178'
       published: 2025-09-08-18-30-28
-      updated: 2025-12-23-13-36-41
+      updated: 2025-12-30-14-21-25
       followers: 1586
       likes: 101
     - service: tg
       id: 977
       published: 2025-09-08-18-30-42
-      updated: 2025-12-23-13-36-45
+      updated: 2025-12-30-14-21-47
       followers: 792
       likes: 63
-      views: 573
+      views: 574
       comments: !c iw2AkZPLQnmSq9b5AACra2F3YXpha3kyMjOk8J+nuAM=
     - service: vk
       id: 2637
       published: 2025-09-08-19-17-15
-      updated: 2025-12-23-13-37-05
+      updated: 2025-12-30-14-21-49
       followers: 1412
       likes: 43
       views: 754
@@ -14581,13 +14581,13 @@
       id: DOogtOCjT95
       mediaId: '18007720238631949'
       published: 2025-09-15-18-29-44
-      updated: 2025-12-23-13-36-38
+      updated: 2025-12-30-14-21-24
       followers: 1584
       likes: 60
     - service: vk
       id: 2653
       published: 2025-09-15-18-29-52
-      updated: 2025-12-23-13-37-04
+      updated: 2025-12-30-14-21-45
       followers: 1419
       likes: 52
       views: 701
@@ -14595,10 +14595,10 @@
     - service: tg
       id: 986
       published: 2025-09-15-18-29-57
-      updated: 2025-12-23-13-36-43
+      updated: 2025-12-30-14-21-44
       followers: 798
       likes: 65
-      views: 561
+      views: 563
       comments: !c |-
         G34EICwObMcUDYPxlph8pmzKE/+P7NkIldBeKDBGM5Ey2y/OFqXbdNMULef60X0DSTlKMcpOuwDn
         aN/ft8fMCkWJZO/vkIIW5PTubob9t3fTBaVpXTSTpISbnC0PKSmkx66rsPtMN5Xtam31o2HxPzGE
