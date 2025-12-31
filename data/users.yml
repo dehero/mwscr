@@ -100,7 +100,7 @@ a2-enkelli:
   profiles:
     - service: tg
       id: '7258424423'
-      updated: 2025-12-31-03-27-10
+      updated: 2025-12-31-06-33-31
       accessHash: '969825927170686844'
       username: A2_Enkelli
       name: †† elli ††
@@ -459,7 +459,7 @@ ansis:
   profiles:
     - service: tg
       id: '517050552'
-      updated: 2025-12-31-04-39-02
+      updated: 2025-12-31-06-33-29
       accessHash: '5231096655311395455'
       username: ansis
       name: ansis
@@ -573,7 +573,7 @@ arya-stark:
   profiles:
     - service: vk
       id: '820702664'
-      updated: 2025-12-31-04-39-01
+      updated: 2025-12-31-06-33-30
       username: id820702664
       name: Арья Старк
       avatar: store:/avatars/vk-689aa89d.jpg
@@ -2102,7 +2102,7 @@ gleb-zheltuhin:
   profiles:
     - service: vk
       id: '29014473'
-      updated: 2025-12-31-03-27-15
+      updated: 2025-12-31-06-33-30
       username: gleb_zheltuhin
       name: Глеб Желтухин
       avatar: store:/avatars/vk-971eefc1.jpg
@@ -2152,7 +2152,7 @@ golden-morgan:
   profiles:
     - service: vk
       id: '157461309'
-      updated: 2025-12-30-19-17-48
+      updated: 2025-12-31-06-33-32
       username: golden_morgan
       name: Marco Polo
       avatar: store:/avatars/vk-f7f43d22.jpg
@@ -2160,7 +2160,7 @@ goosevich76:
   profiles:
     - service: tg
       id: '5385620621'
-      updated: 2025-12-31-03-27-10
+      updated: 2025-12-31-06-33-30
       accessHash: '-7130473396589324830'
       username: horwwwaty
       name: choven
@@ -2809,7 +2809,7 @@ kawazaky223:
   profiles:
     - service: tg
       id: '5641856113'
-      updated: 2025-12-31-04-39-02
+      updated: 2025-12-31-06-33-31
       accessHash: '7421309771527577818'
       username: Kawazaky223
       name: Максим
@@ -3761,7 +3761,7 @@ neulovimiy-djo:
   profiles:
     - service: vk
       id: '40753227'
-      updated: 2025-12-24-05-25-04
+      updated: 2025-12-31-06-33-32
       username: neulovimiy_djo
       name: Иван Чернозём
       avatar: store:/avatars/vk-7870da4f.jpg
