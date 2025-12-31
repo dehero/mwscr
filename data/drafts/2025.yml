@@ -332,13 +332,19 @@ ohsweetnazareth.2025-11-25-in-the-carcass-of-ilunibi-1980bfb3:
   type: shot
   author: ohsweetnazareth
 ohsweetnazareth.2025-11-25-in-the-carcass-of-ilunibi-1a1a977c:
-  title: In the Carcass of Ilunibi
-  content:
+  title: The End of a Difficult Journey
+  titleRu: Конец тяжёлого пути
+  placement: Indoors
+  location: Ilunibi, Carcass of the Saint
+  content: store:/inbox/ohsweetnazareth.2025-11-25-in-the-carcass-of-ilunibi-3df9ccfd.1.png
+  trash:
+    - store:/inbox/ohsweetnazareth.2025-11-25-in-the-carcass-of-ilunibi-1a1a977c.png
     - store:/inbox/ohsweetnazareth.2025-11-25-in-the-carcass-of-ilunibi-3df9ccfd.png
-    - store:/inbox/ohsweetnazareth.2025-11-25-in-the-carcass-of-ilunibi-3df9ccfd.1.png
-  trash: store:/inbox/ohsweetnazareth.2025-11-25-in-the-carcass-of-ilunibi-1a1a977c.png
   type: wallpaper
   author: ohsweetnazareth
+  tags:
+    - cave
+    - candle
   mark: B1
 ohsweetnazareth.2025-11-25-in-the-carcass-of-ilunibi-2-0e9bc72c:
   title: In the Carcass of Ilunibi 2
