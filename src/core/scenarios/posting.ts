@@ -97,7 +97,7 @@ const wallpaper: PostingScenario = {
   postCandidateRules: [
     needCertainType('wallpaper', 'wallpaper-v'),
     // needMinTypeDistance(7),
-    needMinTypeDistance(3),
+    needMinTypeDistance(1),
     needMinContentDistance(365),
     needMinThirdPartyDistance(7),
   ],
