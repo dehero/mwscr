@@ -205,14 +205,26 @@ dehero.2025-12-18-20-02-46:
   type: shot
   author: dehero
 dehero.2025-12-18-20-18-10:
-  content:
-    - store:/inbox/dehero.2025-12-18-20-18-10.png
+  title: Salothan Ancestral Tomb
+  titleRu: Родовая гробница Салотанов
+  placement: Outdoors
+  location:
+    - Salothan Ancestral Tomb
+    - Grazelands Region
+  content: store:/inbox/dehero.2025-12-18-20-18-10.1.png
+  trash:
     - store:/inbox/dehero.2025-12-18-20-18-20.png
-    - store:/inbox/dehero.2025-12-18-20-18-24.png
     - store:/inbox/dehero.2025-12-18-20-18-44.png
-    - store:/inbox/dehero.2025-12-18-20-18-10.1.png
+    - store:/inbox/dehero.2025-12-18-20-18-10.png
+    - store:/inbox/dehero.2025-12-18-20-18-24.png
   type: shot
   author: dehero
+  engine: OpenMW
+  tags:
+    - tomb
+    - tree
+    - stone
+  mark: B1
 dehero.2025-12-18-20-23-38:
   content:
     - store:/inbox/dehero.2025-12-18-20-23-38.png
