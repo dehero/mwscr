@@ -292,14 +292,22 @@ ohsweetnazareth.2025-05-10-barkeep-in-indarys-manor-796acb11:
   author: ohsweetnazareth
 ohsweetnazareth.2025-11-14-demon-of-the-halls-of-penumbra-17595202:
   title: Demon of the Halls of Penumbra
-  content:
+  titleRu: Демон Залов полумрака
+  placement: Indoors
+  location: Solstheim, Halls of Penumbra
+  content: store:/inbox/ohsweetnazareth.2025-11-14-demon-of-the-halls-of-penumbra-d91888ad.1.png
+  trash:
+    - store:/inbox/ohsweetnazareth.2025-11-14-demon-of-the-halls-of-penumbra-fed6113b.png
+    - store:/inbox/ohsweetnazareth.2025-11-14-demon-of-the-halls-of-penumbra-d91888ad.png
     - store:/inbox/ohsweetnazareth.2025-11-14-demon-of-the-halls-of-penumbra-17595202.png
     - store:/inbox/ohsweetnazareth.2025-11-14-demon-of-the-halls-of-penumbra-9e283c63.png
-    - store:/inbox/ohsweetnazareth.2025-11-14-demon-of-the-halls-of-penumbra-d91888ad.png
-    - store:/inbox/ohsweetnazareth.2025-11-14-demon-of-the-halls-of-penumbra-fed6113b.png
-    - store:/inbox/ohsweetnazareth.2025-11-14-demon-of-the-halls-of-penumbra-d91888ad.1.png
   type: shot
   author: ohsweetnazareth
+  addon: Bloodmoon
+  tags:
+    - ice
+    - cave
+  mark: E
 ohsweetnazareth.2025-11-19-karstaag-the-huntsman-939aa544:
   title: Karstaag the Huntsman
   content: store:/inbox/ohsweetnazareth.2025-11-19-karstaag-the-huntsman-939aa544.png
