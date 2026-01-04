@@ -100,7 +100,7 @@ a2-enkelli:
   profiles:
     - service: tg
       id: '7258424423'
-      updated: 2026-01-04-16-32-28
+      updated: 2026-01-04-17-48-26
       accessHash: '969825927170686844'
       username: A2_Enkelli
       name: †† elli ††
@@ -109,7 +109,7 @@ aarychagoff:
   profiles:
     - service: tg
       id: '1343549669'
-      updated: 2026-01-03-18-06-07
+      updated: 2026-01-04-17-48-26
       accessHash: '-8044934406214364524'
       username: aarychagoff
       name: Andrei Rychagov
@@ -557,7 +557,7 @@ artyom-melikhoff:
   profiles:
     - service: vk
       id: '299405149'
-      updated: 2026-01-04-16-32-13
+      updated: 2026-01-04-17-48-26
       username: artyom_melikhoff
       name: Артём Мелихов
       avatar: store:/avatars/vk-4c16e471.jpg
@@ -1790,6 +1790,10 @@ ellia-isard:
       username: ellia_isard
       name: Эллия Айсард
       avatar: store:/avatars/vk-6b0c7b7c.jpg
+enclave-digimon-tamer:
+  profiles:
+    - service: ig
+      username: enclave.digimon_tamer
 endless-motion:
   profiles:
     - service: ig
@@ -2810,7 +2814,7 @@ kawazaky223:
   profiles:
     - service: tg
       id: '5641856113'
-      updated: 2026-01-04-16-32-36
+      updated: 2026-01-04-17-48-27
       accessHash: '7421309771527577818'
       username: Kawazaky223
       name: Максим
