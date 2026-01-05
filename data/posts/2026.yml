@@ -23,16 +23,16 @@
       id: DTD188qjByD
       mediaId: '17851081011606404'
       published: 2026-01-03-19-20-27
-      updated: 2026-01-05-18-19-23
+      updated: 2026-01-05-19-13-20
       followers: 1609
       likes: 46
     - service: vk
       id: 2987
       published: 2026-01-03-19-20-38
-      updated: 2026-01-05-18-19-22
+      updated: 2026-01-05-19-13-24
       followers: 1558
-      likes: 47
-      views: 1096
+      likes: 48
+      views: 1115
       reposts: 1
       comments: !c |-
         G/sA6C2Pd5IvDsmwRVpOeHnxjv9H7tknfCA/l8Bqy1uAWURtyblkOd1M2ZCLoSL+G/MeIduWuzn9
@@ -42,10 +42,10 @@
     - service: tg
       id: 1111
       published: 2026-01-03-19-20-44
-      updated: 2026-01-05-18-19-16
+      updated: 2026-01-05-19-13-16
       followers: 875
       likes: 51
-      views: 236
+      views: 247
 2026-01-04-1-demon-of-the-halls-of-penumbra:
   title: Demon of the Halls of Penumbra
   titleRu: Демон Залов полумрака
@@ -68,24 +68,24 @@
       id: DTGXca4DYFA
       mediaId: '18036042191734633'
       published: 2026-01-04-19-20-27
-      updated: 2026-01-05-18-19-21
+      updated: 2026-01-05-19-13-19
       followers: 1609
-      likes: 26
+      likes: 27
       comments: !c ixiAkZPLQnm4rlYNgACvb2hzd2VldG5hemFyZXRotnN1Y2ggYSBraWxsZXIgZHVuZ2VvbiED
     - service: vk
       id: 2988
       published: 2026-01-04-19-20-38
-      updated: 2026-01-05-18-19-16
+      updated: 2026-01-05-19-13-17
       followers: 1558
       likes: 12
-      views: 201
+      views: 215
     - service: tg
       id: 1112
       published: 2026-01-04-19-20-44
-      updated: 2026-01-05-18-19-16
+      updated: 2026-01-05-19-13-16
       followers: 875
-      likes: 29
-      views: 195
+      likes: 32
+      views: 209
 2026-01-05-1-cave-life:
   title: Cave Life
   titleRu: Пещерный быт
@@ -112,12 +112,20 @@
       id: DTI4u92E96j
       mediaId: '18064133150237501'
       published: 2026-01-05-18-20-58
+      updated: 2026-01-05-19-13-19
       followers: 1609
+      likes: 16
     - service: vk
       id: 2992
       published: 2026-01-05-18-21-03
+      updated: 2026-01-05-19-13-16
       followers: 1559
+      likes: 4
+      views: 40
     - service: tg
       id: 1115
       published: 2026-01-05-18-21-07
+      updated: 2026-01-05-19-13-16
       followers: 875
+      likes: 18
+      views: 107
