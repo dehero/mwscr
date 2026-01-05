@@ -444,7 +444,7 @@ anonim:
   profiles:
     - service: tg
       id: '6469120788'
-      updated: 2026-01-04-16-32-21
+      updated: 2026-01-05-21-11-04
       accessHash: '-3557204299452739678'
       name: Аноним
       avatar: store:/avatars/tg-5386639419211116910.jpg
@@ -557,7 +557,7 @@ artyom-melikhoff:
   profiles:
     - service: vk
       id: '299405149'
-      updated: 2026-01-05-18-20-21
+      updated: 2026-01-05-21-11-05
       username: artyom_melikhoff
       name: Артём Мелихов
       avatar: store:/avatars/vk-4c16e471.jpg
@@ -573,7 +573,7 @@ arya-stark:
   profiles:
     - service: vk
       id: '820702664'
-      updated: 2026-01-05-19-13-28
+      updated: 2026-01-05-21-11-04
       username: id820702664
       name: Арья Старк
       avatar: store:/avatars/vk-689aa89d.jpg

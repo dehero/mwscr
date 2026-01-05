@@ -68,24 +68,24 @@
       id: DTGXca4DYFA
       mediaId: '18036042191734633'
       published: 2026-01-04-19-20-27
-      updated: 2026-01-05-20-13-02
+      updated: 2026-01-05-21-11-07
       followers: 1609
       likes: 27
       comments: !c ixiAkZPLQnm4rlYNgACvb2hzd2VldG5hemFyZXRotnN1Y2ggYSBraWxsZXIgZHVuZ2VvbiED
     - service: vk
       id: 2988
       published: 2026-01-04-19-20-38
-      updated: 2026-01-05-20-12-59
+      updated: 2026-01-05-21-11-05
       followers: 1558
       likes: 13
-      views: 225
+      views: 233
     - service: tg
       id: 1112
       published: 2026-01-04-19-20-44
-      updated: 2026-01-05-20-12-58
+      updated: 2026-01-05-21-10-59
       followers: 875
       likes: 33
-      views: 212
+      views: 215
 2026-01-05-1-cave-life:
   title: Cave Life
   titleRu: Пещерный быт
@@ -112,20 +112,23 @@
       id: DTI4u92E96j
       mediaId: '18064133150237501'
       published: 2026-01-05-18-20-58
-      updated: 2026-01-05-20-13-01
+      updated: 2026-01-05-21-11-06
       followers: 1609
-      likes: 20
+      likes: 26
     - service: vk
       id: 2992
       published: 2026-01-05-18-21-03
-      updated: 2026-01-05-20-12-58
+      updated: 2026-01-05-21-11-04
       followers: 1559
-      likes: 10
-      views: 108
+      likes: 12
+      views: 146
+      comments: !c |-
+        CyCAkZPLQnm4/6JPAACqYXJ5YS1zdGFya9kp0KHQsNC80YvQtSDRhdCw0LHQsNGA0L3Ri9C1INC8
+        0LXRgdGC0LAuLi4D
     - service: tg
       id: 1115
       published: 2026-01-05-18-21-07
-      updated: 2026-01-05-20-12-58
+      updated: 2026-01-05-21-10-59
       followers: 875
-      likes: 28
-      views: 134
+      likes: 33
+      views: 149
