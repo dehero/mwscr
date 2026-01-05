@@ -116,28 +116,6 @@ dehero.2025-06-04-19-35-19:
   type: shot
   author: dehero
   engine: OpenMW
-dehero.2025-06-04-19-39-55:
-  title: Cave Life
-  titleRu: Пещерный быт
-  placement: Indoors
-  location: Panat
-  content: store:/inbox/dehero.2025-06-04-19-40-54.1.png
-  trash:
-    - store:/inbox/dehero.2025-06-04-19-40-36.png
-    - store:/inbox/dehero.2025-06-04-19-40-54.png
-    - store:/inbox/dehero.2025-06-04-19-41-07.1.png
-    - store:/inbox/dehero.2025-06-04-19-39-55.png
-    - store:/inbox/dehero.2025-06-04-19-41-07.png
-  type: shot
-  author: dehero
-  engine: OpenMW
-  tags:
-    - candle
-    - cave
-    - box
-    - mushroom
-    - barrel
-  mark: B2
 dehero.2025-06-04-19-42-46:
   placement: Indoors
   location: Panat

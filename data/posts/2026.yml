@@ -23,24 +23,29 @@
       id: DTD188qjByD
       mediaId: '17851081011606404'
       published: 2026-01-03-19-20-27
-      updated: 2026-01-04-18-35-28
+      updated: 2026-01-05-18-19-23
       followers: 1609
-      likes: 40
+      likes: 46
     - service: vk
       id: 2987
       published: 2026-01-03-19-20-38
-      updated: 2026-01-04-18-35-24
+      updated: 2026-01-05-18-19-22
       followers: 1558
-      likes: 33
-      views: 595
+      likes: 47
+      views: 1096
       reposts: 1
+      comments: !c |-
+        G/sA6C2Pd5IvDsmwRVpOeHnxjv9H7tknfCA/l8Bqy1uAWURtyblkOd1M2ZCLoSL+G/MeIduWuzn9
+        TRiYxjejwWTNZkvZWcmIlYhL5sllO+U00EC1hRIGFpBe7bAxhnzv7VXPPF+/Qe/+HcfnWkf+02HB
+        CGVOxbamDAtQkBh32dx4pF+nnJhU826/xCeEJpdxNIx6slXPrZqJUpThHFaMchDBmSBTWUyTR/uv
+        /QA33Tc=
     - service: tg
       id: 1111
       published: 2026-01-03-19-20-44
-      updated: 2026-01-04-18-35-24
+      updated: 2026-01-05-18-19-16
       followers: 875
-      likes: 48
-      views: 178
+      likes: 51
+      views: 236
 2026-01-04-1-demon-of-the-halls-of-penumbra:
   title: Demon of the Halls of Penumbra
   titleRu: Демон Залов полумрака
@@ -63,12 +68,56 @@
       id: DTGXca4DYFA
       mediaId: '18036042191734633'
       published: 2026-01-04-19-20-27
+      updated: 2026-01-05-18-19-21
       followers: 1609
+      likes: 26
+      comments: !c ixiAkZPLQnm4rlYNgACvb2hzd2VldG5hemFyZXRotnN1Y2ggYSBraWxsZXIgZHVuZ2VvbiED
     - service: vk
       id: 2988
       published: 2026-01-04-19-20-38
+      updated: 2026-01-05-18-19-16
       followers: 1558
+      likes: 12
+      views: 201
     - service: tg
       id: 1112
       published: 2026-01-04-19-20-44
+      updated: 2026-01-05-18-19-16
+      followers: 875
+      likes: 29
+      views: 195
+2026-01-05-1-cave-life:
+  title: Cave Life
+  titleRu: Пещерный быт
+  placement: Indoors
+  location: Panat
+  content: store:/shots/2026-01-05-1-cave-life.png
+  trash:
+    - store:/trash/dehero.2025-06-04-19-40-36.png
+    - store:/trash/dehero.2025-06-04-19-41-07.1.png
+    - store:/trash/dehero.2025-06-04-19-39-55.png
+    - store:/trash/dehero.2025-06-04-19-41-07.png
+  type: shot
+  author: dehero
+  engine: OpenMW
+  tags:
+    - candle
+    - cave
+    - box
+    - mushroom
+    - barrel
+  mark: B2
+  posts:
+    - service: ig
+      id: DTI4u92E96j
+      mediaId: '18064133150237501'
+      published: 2026-01-05-18-20-58
+      followers: 1609
+    - service: vk
+      id: 2992
+      published: 2026-01-05-18-21-03
+      followers: 1559
+    - service: tg
+      id: 1115
+      published: 2026-01-05-18-21-07
       followers: 875
