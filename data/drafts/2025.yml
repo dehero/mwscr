@@ -167,13 +167,16 @@ dehero.2025-08-26-22-37-16:
   type: shot
   author: dehero
 dehero.2025-12-18-19-58-15:
-  content: store:/inbox/dehero.2025-12-18-19-58-15.png
+  content:
+    - store:/inbox/dehero.2025-12-18-19-58-15.png
+    - store:/inbox/dehero.2025-12-18-19-58-15.1.png
   type: shot
   author: dehero
 dehero.2025-12-18-20-00-55:
   content:
     - store:/inbox/dehero.2025-12-18-20-00-55.png
     - store:/inbox/dehero.2025-12-18-20-01-11.png
+    - store:/inbox/dehero.2025-12-18-20-00-55.1.png
   type: shot
   author: dehero
 dehero.2025-12-18-20-02-46:
