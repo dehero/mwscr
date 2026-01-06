@@ -68,17 +68,17 @@
       id: DTGXca4DYFA
       mediaId: '18036042191734633'
       published: 2026-01-04-19-20-27
-      updated: 2026-01-06-18-16-16
+      updated: 2026-01-06-18-46-20
       followers: 1609
       likes: 31
       comments: !c ixiAkZPLQnm4rlYNgACvb2hzd2VldG5hemFyZXRotnN1Y2ggYSBraWxsZXIgZHVuZ2VvbiED
     - service: vk
       id: 2988
       published: 2026-01-04-19-20-38
-      updated: 2026-01-06-18-16-19
+      updated: 2026-01-06-18-46-21
       followers: 1558
       likes: 24
-      views: 347
+      views: 351
       comments: !c |-
         G+IA4B0JNk5zwUZfTlFRFLcIH6QnSyDEJrFIkz2dW8jVkm3OUBD8APG8bbiv67l9PZ8qRGDkup1f
         o9sb14jj7ncDzzOsC0/fuMJucGGiSZL0y/Pz/igJ1x3HdzehM6PE/7w95brg13OiGcLCUg5ThP/R
@@ -86,10 +86,10 @@
     - service: tg
       id: 1112
       published: 2026-01-04-19-20-44
-      updated: 2026-01-06-18-16-11
+      updated: 2026-01-06-18-46-16
       followers: 875
       likes: 37
-      views: 231
+      views: 232
 2026-01-05-1-cave-life:
   title: Cave Life
   titleRu: Пещерный быт
@@ -116,16 +116,16 @@
       id: DTI4u92E96j
       mediaId: '18064133150237501'
       published: 2026-01-05-18-20-58
-      updated: 2026-01-06-18-16-15
+      updated: 2026-01-06-18-46-19
       followers: 1609
       likes: 45
     - service: vk
       id: 2992
       published: 2026-01-05-18-21-03
-      updated: 2026-01-06-18-16-17
+      updated: 2026-01-06-18-46-20
       followers: 1559
-      likes: 54
-      views: 590
+      likes: 55
+      views: 603
       reposts: 2
       comments: !c |-
         CyCAkZPLQnm4/6JPAACqYXJ5YS1zdGFya9kp0KHQsNC80YvQtSDRhdCw0LHQsNGA0L3Ri9C1INC8
@@ -133,7 +133,35 @@
     - service: tg
       id: 1115
       published: 2026-01-05-18-21-07
-      updated: 2026-01-06-18-16-11
+      updated: 2026-01-06-18-46-16
       followers: 875
       likes: 46
-      views: 214
+      views: 215
+2026-01-06-1-a-small-victory:
+  title: A Small Victory
+  titleRu: Небольшая победа
+  placement: Outdoors
+  location: Ald Daedroth
+  content: store:/shots/2026-01-06-1-a-small-victory.png
+  trash: store:/trash/dehero.2025-12-18-20-01-11.png
+  type: shot
+  author: dehero
+  engine: OpenMW
+  tags:
+    - daedric
+    - ruin
+  mark: B1
+  posts:
+    - service: ig
+      id: DTLgg-KjLBP
+      mediaId: '18080990783225634'
+      published: 2026-01-06-18-47-03
+      followers: 1608
+    - service: vk
+      id: 2995
+      published: 2026-01-06-18-47-08
+      followers: 1561
+    - service: tg
+      id: 1116
+      published: 2026-01-06-18-47-12
+      followers: 876

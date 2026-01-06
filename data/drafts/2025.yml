@@ -171,22 +171,6 @@ dehero.2025-12-18-19-58-15:
   trash: store:/inbox/dehero.2025-12-18-19-58-15.png
   type: shot
   author: dehero
-dehero.2025-12-18-20-00-55:
-  title: A Small Victory
-  titleRu: Небольшая победа
-  placement: Outdoors
-  location: Ald Daedroth
-  content: store:/inbox/dehero.2025-12-18-20-00-55.1.png
-  trash:
-    - store:/inbox/dehero.2025-12-18-20-01-11.png
-    - store:/inbox/dehero.2025-12-18-20-00-55.png
-  type: shot
-  author: dehero
-  engine: OpenMW
-  tags:
-    - daedric
-    - ruin
-  mark: B1
 dehero.2025-12-18-20-02-46:
   content:
     - store:/inbox/dehero.2025-12-18-20-02-46.png
