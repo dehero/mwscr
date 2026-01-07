@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file.
 
+## [2.15.0](https://github.com/dehero/mwscr/compare/v2.14.3...v2.15.0) (2026-01-07)
+
+### Features
+
+- enable posting achievements
+  ([6dd329e](https://github.com/dehero/mwscr/commit/6dd329e705720a3c703f923913318a3d93036867))
+
 ## [2.14.3](https://github.com/dehero/mwscr/compare/v2.14.2...v2.14.3) (2026-01-03)
 
 ### Bug Fixes
