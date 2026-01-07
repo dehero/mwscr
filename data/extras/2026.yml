@@ -27,11 +27,29 @@
       id: DTBJGkrCLtk
       mediaId: '17853630324605859'
       published: 2026-01-02-17-58-00
+      updated: 2026-01-07-18-33-46
       followers: 1596
+      likes: 171
+      comments: !c |-
+        G4ACAORirb2G+l/3xRCVjMedc294VW0mjQudkCAU8eoLp4oWi1zE3P5D7WbnHNfhhjLw2Vz716uH
+        MCbAYkzzzM9XVm67PD8+tBMInBuCokiIJMkR5nHFYODMsnWajcDD3mTgzP8alaKuzh80IEhSZWmS
+        rm9oX2GxeJm7OKIVHUaGeij+ITjSEggckhRL6cp9UJqgjLIA6U10oYFrqx6OuIT7aRkbUburkyMk
+        LeLE6VbVIHzpZq6iVwITOFzvTzMJcLJxdRl0Cg90fFou5qxgfj6YdLQ3K5vkkqdA1phz5nET7Q2a
+        OQNQi2IwsCNsnomB37scoQYqR0rKUI0BRGgmeWA3QEkvawl2LGcwESpFNIIR06MvJvrhrq9DcgxC
+        h8FtOsGoNFfoDmhZs/gWZW9lencwrcQOg8OBBPPmf/7ri2teQcVROILlZMo2BM5/xb6RKQc8CvUE
+        fB4sLTwB
     - service: vk
       id: 2986
       published: 2026-01-02-17-58-00
+      updated: 2026-01-07-18-33-49
       followers: 1558
+      likes: 19
+      views: 254
+      comments: !c |-
+        GzIBQCySt0EzSkWPvD0s8f/IPUs4evvakhALMNBAWmKRJueS5dSZGaUuLgzvS0a6AZTbzNmc/k8G
+        AydWm93QzTw57W4pO3MEDjlBDwBbgfgDDDxkpTxYh2G8P79O73E7fZ+WuHN7nb2KNDo+/JZJgCWa
+        5Wlo6SQh7mg2FBLoSK7GYCuIauiXHa48c0IxmWPXjr74GkaBgJNlySFtJrz6kCMJMmFwsKpZiGae
+        2GVHwpJcyVGNdNAYVj859n/OCw==
     - service: tg
       id:
         - 1101
@@ -44,4 +62,7 @@
         - 1108
         - 1109
       published: 2026-01-02-17-58-00
+      updated: 2026-01-07-18-33-45
       followers: 877
+      likes: 54
+      views: 427

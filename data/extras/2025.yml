@@ -701,11 +701,18 @@
     - service: vk
       id: 2902
       published: 2025-11-30-15-16-00
+      updated: 2026-01-07-18-34-08
       followers: 1532
+      likes: 48
+      views: 635
+      reposts: 5
     - service: tg
       id: 1074
       published: 2025-11-30-15-16-00
+      updated: 2026-01-07-18-33-51
       followers: 867
+      likes: 40
+      views: 571
     - service: ig
       id: DUMMY
       mediaId: ''
@@ -735,11 +742,41 @@
     - service: vk
       id: 2972
       published: 2025-12-26-14-08-00
+      updated: 2026-01-07-18-34-07
       followers: 1549
+      likes: 56
+      views: 893
+      reposts: 2
+      comments: !c |-
+        G/8FICwKbNuhXdiih+O9EsOY8c8/9/0eJ3T/imaltGi20olGsIkTHPdZaRRQFl2lWIAgAuGX7n6w
+        mqd3q5+pBT0OQez5UxPwtBUtcKjA1SVQunsva1rXoklbl1gJvqqbwqPMrNjDkjf/92QckiE82mNL
+        gBh1qQYwHyrdniEg0b1NKYUqSAJSOn2eMk8vHoy1wiFsVoCjUV6t70VksMLeu9t3N+3XwWK9nWnM
+        OtPvkhLo8LMhObDzQadzuhBL5eux8/ZRBdANWxwgdz0ovkHqUQOVzsZN9+9ubr0Xy/JygPXI96Pw
+        /bqTziLKESCZZUIo244OiKjRkBFIWcQ2FBgWJigmStBIhyQtYaGwZEG8nSUE0o+AvgaB+gi0XcmF
+        crEjMBEgWjT/9/rm9p+Vhltr3fq0Z9Vi/va6OYjjb2vbLZFYaNFhx65ve6UcfWwveKojiPRbdGue
+        U+wCwNyAVBQg4/PCeohv2gZjMh4THZMtJsssGq100CwSAYzsOO1y+bCBIgS8+yhNIDiFvipDyXrU
+        gFNgEnXdHDM2eqyetDCpVrvrwu4wxDttn1ZCVhJM/vU1UGSRAb9p/3gnmb/3nfso4Qf/r1+dOH+Q
+        a2/JPJw4pp6qSmaTTxsmPhXuevak+VpJbOzAo3inmGtb+rKeIiV1xN257KCCe5wrNFkxLhRIR8t0
+        EuPWlmAWMDV/1z1sRvP/4ee2NLuLh/kwL5mL42fKD2ChXI3TP1eUurcLurO8/n8fX0iseV+eH0Ze
+        dS90dm1xZLnO5AOac5Vu8XdfoF6EahL7xSppLsTVvBq/+NO6WBZHoIDOf/UIMX5TZLUIUXPthx/z
+        BfvfRWLlNknZaGrDsJLfQ6USsqVeI35EInr5zf/s+vu2LG976uiSGuNqVYeteXOPifeoKK7dU+WI
+        mAxL4uXxQfeOeJ81AFUXsdVxYmLKWiLmTOsc8EOhYgc=
     - service: tg
       id: 1097
       published: 2025-12-26-14-08-00
+      updated: 2026-01-07-18-33-51
       followers: 881
+      likes: 52
+      views: 585
+      comments: !c |-
+        G9wCAIzTFfMsjfLpf+cysyQ0ECiC51EVc0C5ArnOIZAF+pWdvM1xCrd1HFxT9PXpQfjys7i3Bj70
+        AW4axTKFuon6XxfDX4aHnyqN89XoGoRWsY8XGd6OgWX6vZw1ztYYg5IJxfh4PxbdUnZ+QcGQMGeq
+        w/yVxy4sEluBBbiDfasNzuEAbmOr2k2qzWluafWxhTfnJ6GZ5b/zvv+58c4YGIV9uLK6BxCacT/Z
+        VbbfAIAFAsYwKOXeaoeTLO3fOE3t3kS7vFsyEw2XWbDd2FA/RRbBtWOtW65wJgT18p5zFQlyuVdc
+        mhBDAjGVhEiyER5egBWLjcrM7p0WmVGXvIeRVixlBe9BZvQYBqkZjpn+oriYh/Cop8GUjgB1sUga
+        LNY3xNyn5xxkjIyY4SeR8Z2cFPbZMT/LfIXqqQivK2Ky3GhM+a/q5F3Fr7DCkkFAX482yXAZ9+Yb
+        5ORLMmDq4dAf4ss/CXD9yM3Rj2gkpFdOzCgDjGq/AdYDrck+5gEzvyiIUTWiM7gnP/UfV7xYNTK5
+        pdB0F8NHn1/tCG04XUQSc/OLSpb/55Y3AA==
     - service: ig
       id: DUMMY
       mediaId: ''
