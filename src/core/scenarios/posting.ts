@@ -48,6 +48,14 @@ const news: PostingScenario = {
   postCandidateRules: [needCertainType('news')],
 };
 
+const achievement: PostingScenario = {
+  title: 'achievement',
+  sourceManagers: ['drafts'],
+  targetManager: 'extras',
+  postingRules: [afterHour(9)],
+  postCandidateRules: [needCertainType('achievement')],
+};
+
 const redrawing: PostingScenario = {
   title: 'redrawing',
   sourceManagers: ['drafts'],
@@ -107,6 +115,7 @@ export const postingScenarios: PostingScenario[] = [
   // announcedPost,
   // announcedExtra,
   news,
+  achievement,
   wallpaper,
   shotSet,
   shot,

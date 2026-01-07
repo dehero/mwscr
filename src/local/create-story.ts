@@ -1,8 +1,8 @@
 import 'dotenv/config';
+import { writeFile } from 'fs/promises';
 import { parsePostPath } from '../core/entities/posts-manager.js';
 import { dataManager } from './data-managers/manager.js';
 import { createPostStory } from './renderers/stories.js';
-import { writeFile } from 'fs/promises';
 
 const path = process.argv[2];
 if (!path) {

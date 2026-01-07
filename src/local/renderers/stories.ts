@@ -2,8 +2,10 @@ import { readFile } from 'fs/promises';
 import sharp from 'sharp';
 import { markdownToText } from '../../core/entities/markdown.js';
 import type { Post } from '../../core/entities/post.js';
+import { getUserEntryAvatar, getUserEntryTitle, getUserEntryTitleRu } from '../../core/entities/user.js';
 import { asArray } from '../../core/utils/common-utils.js';
 import { readResource } from '../data-managers/resources.js';
+import { users } from '../data-managers/users.js';
 import { htmlToImage } from '../utils/image-utils.js';
 
 let storyStyle: string | undefined;
@@ -19,8 +21,11 @@ export async function createPostStory(post: Post, args?: CreatePostStoryArgs) {
 
   const content = asArray(post.content);
   const snapshot = asArray(post.snapshot);
+
   let imageUrl;
   let refImageUrl;
+  let avatarUrl;
+  let author;
 
   switch (post.type) {
     case 'shot':
@@ -34,6 +39,19 @@ export async function createPostStory(post: Post, args?: CreatePostStoryArgs) {
     case 'mention':
       imageUrl = snapshot[0];
       break;
+    case 'achievement':
+      {
+        imageUrl = snapshot[0] ?? content[0];
+
+        const user = asArray(post.author)[0];
+
+        const userEntry = user ? await users.getEntry(user) : undefined;
+        if (userEntry) {
+          avatarUrl = getUserEntryAvatar(userEntry);
+          author = ru ? getUserEntryTitleRu(userEntry) : getUserEntryTitle(userEntry);
+        }
+      }
+      break;
     case 'news':
       imageUrl = content[1] ?? content[0];
       break;
@@ -46,6 +64,8 @@ export async function createPostStory(post: Post, args?: CreatePostStoryArgs) {
     description: ru ? post.descriptionRu : post.description,
     imageUrl,
     refImageUrl,
+    avatarUrl,
+    author,
     ignoreLinks,
   });
   const image = await htmlToImage(html);
@@ -58,6 +78,8 @@ export interface CreateStoryHtmlArgs {
   description?: string;
   imageUrl?: string;
   refImageUrl?: string;
+  avatarUrl?: string;
+  author?: string;
   ignoreLinks?: boolean;
 }
 
@@ -66,6 +88,8 @@ export async function createStoryHtml({
   description,
   imageUrl = 'file://./assets/avatar.png',
   refImageUrl,
+  avatarUrl,
+  author,
   ignoreLinks,
 }: CreateStoryHtmlArgs): Promise<string> {
   if (!storyStyle) {
@@ -87,6 +111,7 @@ export async function createStoryHtml({
 
   const image = await getResourceForStoryHtml(imageUrl);
   const refImage = refImageUrl ? await getResourceForStoryHtml(refImageUrl) : undefined;
+  const avatar = avatarUrl ? await getResourceForStoryHtml(avatarUrl) : undefined;
 
   const { text, links } = description ? markdownToText(description) : {};
 
@@ -101,6 +126,11 @@ export async function createStoryHtml({
 <body>
   <img src="${image.dataUrl}"${image.heightMultiplier > 2 ? ` class="cut"` : ''} />
   ${refImage ? `<div class="ref"><img src="${refImage.dataUrl}" /></div>` : ''}
+  ${
+    avatar || author
+      ? `<div class="author">${avatar ? `<img class="avatar" src="${avatar.dataUrl}" />` : ''}${author}</div>`
+      : ''
+  }
   ${title ? `<h1>${title}</h1>` : ''}
   ${text ? `<p>${text}</p>` : ''}
   ${

@@ -2,6 +2,7 @@ import type { InferOutput } from 'valibot';
 import { intersect, nonEmpty, object, pipe, string, variant } from 'valibot';
 import { Post, PostTitle } from '../entities/post.js';
 import {
+  Achievement,
   Mention,
   News,
   Outtakes,
@@ -22,7 +23,18 @@ export const INSTAGRAM_USERNAME = 'mwscr';
 
 export const InstagramPost = intersect([
   object({ ...Post.entries, title: PostTitle }),
-  variant('type', [Redrawing, Shot, ShotSet, Wallpaper, VerticalWallpaper, Outtakes, News, Photoshop, Mention]),
+  variant('type', [
+    Redrawing,
+    Shot,
+    ShotSet,
+    Wallpaper,
+    VerticalWallpaper,
+    Outtakes,
+    News,
+    Photoshop,
+    Mention,
+    Achievement,
+  ]),
 ]);
 
 export const InstagramPublication = object({ ...Publication.entries, id: pipe(string(), nonEmpty()) });

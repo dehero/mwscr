@@ -70,7 +70,7 @@ export const Photoshop = object({
 
 export const Achievement = object({
   type: literal('achievement'),
-  snapshot: union([ImageResourceUrl, array(ImageResourceUrl, 'Should be a list of resource strings')]),
+  content: union([ImageResourceUrl, array(ImageResourceUrl, 'Should be a list of resource strings')]),
 });
 
 export const Merch = object({

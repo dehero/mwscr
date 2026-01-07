@@ -396,6 +396,7 @@ export class TelegramManager extends Telegram implements PostingServiceManager {
     switch (post.type) {
       case 'mention':
       case 'photoshop':
+      case 'achievement':
         newPublications = await this.publishPostEntryAsStory(entry);
         break;
       default:

@@ -2,6 +2,7 @@ import type { InferOutput } from 'valibot';
 import { array, intersect, number, object, union, variant } from 'valibot';
 import { Post, PostTitle } from '../entities/post.js';
 import {
+  Achievement,
   Mention,
   News,
   Outtakes,
@@ -21,7 +22,18 @@ export const TELEGRAM_BOT_NAME = 'mwscrbot';
 
 export const TelegramPost = intersect([
   object({ ...Post.entries, title: PostTitle }),
-  variant('type', [Redrawing, Shot, ShotSet, Wallpaper, VerticalWallpaper, Outtakes, News, Photoshop, Mention]),
+  variant('type', [
+    Redrawing,
+    Shot,
+    ShotSet,
+    Wallpaper,
+    VerticalWallpaper,
+    Outtakes,
+    News,
+    Photoshop,
+    Mention,
+    Achievement,
+  ]),
 ]);
 
 export const TelegramPublication = object({

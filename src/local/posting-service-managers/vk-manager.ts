@@ -183,6 +183,7 @@ export class VKManager extends VKService implements PostingServiceManager {
     switch (post.type) {
       case 'mention':
       case 'photoshop':
+      case 'achievement':
         newPublications = await this.publishPostEntryAsStory(entry);
         break;
       default:

@@ -180,6 +180,7 @@ export async function moveResourceToStoreDir(url: string, dir: string) {
 
 export async function movePublishedPostResources([id, post]: PostEntry<PublishablePost>) {
   switch (post.type) {
+    case 'achievement':
     case 'news':
     case 'photoshop':
     case 'outtakes':

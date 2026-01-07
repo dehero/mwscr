@@ -15,6 +15,7 @@ export const STORE_SNAPSHOTS_DIR = 'snapshots';
 export const STORE_PHOTOSHOPS_DIR = 'photoshops';
 export const STORE_OUTTAKES_DIR = 'outtakes';
 export const STORE_AVATARS_DIR = 'avatars';
+export const STORE_PHOTOS_DIR = 'photos';
 
 export const STORE_INBOX_ITEM_NAME_REGEX = /^([^.]+)\.(\d{4}-\d{2}-\d{2})-([^.]+)(?:\.(\d+))?$/;
 export const STORE_SHOTS_NAME_REGEX = /^(\d{4}-\d{2}-\d{2})-(.+)$/;
@@ -84,6 +85,7 @@ export function parseStoreResourceUrl(url: string): StoreResourceParsedUrl {
       originalUrl = variant ? `store:/${dir}/${author}.${dateStr}-${key}${ext}` : undefined;
       break;
     case STORE_DRAWINGS_DIR:
+    case STORE_PHOTOS_DIR:
     case STORE_OUTTAKES_DIR:
     case STORE_SHOTS_DIR:
     case STORE_VIDEOS_DIR:
@@ -123,6 +125,9 @@ export function getTargetStoreDirFromPostType(type: PostType) {
       return STORE_DRAWINGS_DIR;
     case 'outtakes':
       return STORE_OUTTAKES_DIR;
+    case 'achievement':
+    case 'merch':
+      return STORE_PHOTOS_DIR;
     default:
   }
 

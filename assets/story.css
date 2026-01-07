@@ -66,6 +66,7 @@ h1 {
   font-size: 1em;
   font-weight: normal;
   color: var(--color-text-light);
+  text-wrap: balance;
 }
 
 p {
@@ -77,6 +78,7 @@ p {
   max-width: 100%;
   overflow-wrap: anywhere;
   white-space: pre-wrap;
+  text-wrap: balance;
 }
 
 ul {
@@ -87,4 +89,20 @@ ul {
   max-width: 100%;
   overflow-wrap: anywhere;
   white-space: pre-wrap;
+}
+
+.author {
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  gap: 0.5rem;
+  color: var(--color-text-light);
+}
+
+.avatar {
+  border-radius: 50%;
+  flex: 0 0 auto;
+  border: none;
+  aspect-ratio: 1 / 1;
+  width: 20px;
 }

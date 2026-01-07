@@ -2,6 +2,7 @@ import type { InferOutput } from 'valibot';
 import { intersect, number, object, variant } from 'valibot';
 import { Post, PostTitleRu } from '../entities/post.js';
 import {
+  Achievement,
   Mention,
   News,
   Outtakes,
@@ -21,7 +22,18 @@ export const VK_GROUP_ID = -138249959;
 
 export const VKPost = intersect([
   object({ ...Post.entries, titleRu: PostTitleRu }),
-  variant('type', [Redrawing, Shot, ShotSet, VerticalWallpaper, Wallpaper, Outtakes, News, Photoshop, Mention]),
+  variant('type', [
+    Redrawing,
+    Shot,
+    ShotSet,
+    VerticalWallpaper,
+    Wallpaper,
+    Outtakes,
+    News,
+    Photoshop,
+    Mention,
+    Achievement,
+  ]),
 ]);
 
 export const VKPublication = object({

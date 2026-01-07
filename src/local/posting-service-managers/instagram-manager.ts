@@ -227,6 +227,7 @@ export class InstagramManager extends Instagram implements PostingServiceManager
       case 'news':
       case 'mention':
       case 'photoshop':
+      case 'achievement':
         newPublications = await this.publishPostEntryAsStory(entry);
         break;
       default:
