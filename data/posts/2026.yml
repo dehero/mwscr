@@ -116,16 +116,16 @@
       id: DTI4u92E96j
       mediaId: '18064133150237501'
       published: 2026-01-05-18-20-58
-      updated: 2026-01-07-17-17-22
+      updated: 2026-01-07-18-17-07
       followers: 1609
-      likes: 48
+      likes: 49
     - service: vk
       id: 2992
       published: 2026-01-05-18-21-03
-      updated: 2026-01-07-17-17-28
+      updated: 2026-01-07-18-17-07
       followers: 1559
       likes: 64
-      views: 753
+      views: 762
       reposts: 2
       comments: !c |-
         CyCAkZPLQnm4/6JPAACqYXJ5YS1zdGFya9kp0KHQsNC80YvQtSDRhdCw0LHQsNGA0L3Ri9C1INC8
@@ -133,10 +133,10 @@
     - service: tg
       id: 1115
       published: 2026-01-05-18-21-07
-      updated: 2026-01-07-17-17-18
+      updated: 2026-01-07-18-17-01
       followers: 875
       likes: 49
-      views: 275
+      views: 278
 2026-01-06-1-a-small-victory:
   title: A Small Victory
   titleRu: Небольшая победа
@@ -156,21 +156,51 @@
       id: DTLgg-KjLBP
       mediaId: '18080990783225634'
       published: 2026-01-06-18-47-03
-      updated: 2026-01-07-17-17-22
+      updated: 2026-01-07-18-17-06
       followers: 1608
       likes: 52
       comments: !c ixSAkZPLQnm5TO2pgACsZWFzdGNvYXN0LWxnsUnigJl2ZSBiZWVuIHRoZXJlAw==
     - service: vk
       id: 2995
       published: 2026-01-06-18-47-08
-      updated: 2026-01-07-17-17-17
+      updated: 2026-01-07-18-17-01
       followers: 1561
       likes: 30
-      views: 438
+      views: 456
     - service: tg
       id: 1116
       published: 2026-01-06-18-47-12
-      updated: 2026-01-07-17-17-17
+      updated: 2026-01-07-18-17-01
       followers: 876
       likes: 43
-      views: 178
+      views: 181
+2026-01-07-1-sky-path:
+  title: Sky Path
+  titleRu: Небесный путь
+  placement: Outdoors
+  location: Maar Gan
+  content: store:/shots/2026-01-07-1-sky-path.png
+  type: shot
+  author: natty
+  engine: OpenMW
+  tags:
+    - siltstrider
+    - moon
+    - night
+    - sky
+    - star
+  mark: B1
+  posts:
+    - service: ig
+      id: DTOB9cpF5mm
+      mediaId: '18052066397416803'
+      published: 2026-01-07-18-17-47
+      followers: 1607
+    - service: vk
+      id: 2996
+      published: 2026-01-07-18-17-54
+      followers: 1561
+    - service: tg
+      id: 1117
+      published: 2026-01-07-18-17-58
+      followers: 876
