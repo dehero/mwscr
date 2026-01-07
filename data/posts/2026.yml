@@ -42,10 +42,10 @@
     - service: tg
       id: 1111
       published: 2026-01-03-19-20-44
-      updated: 2026-01-06-20-12-22
+      updated: 2026-01-07-20-12-35
       followers: 875
-      likes: 53
-      views: 265
+      likes: 56
+      views: 288
 2026-01-04-1-demon-of-the-halls-of-penumbra:
   title: Demon of the Halls of Penumbra
   titleRu: Демон Залов полумрака
@@ -156,24 +156,24 @@
       id: DTLgg-KjLBP
       mediaId: '18080990783225634'
       published: 2026-01-06-18-47-03
-      updated: 2026-01-07-19-13-13
+      updated: 2026-01-07-20-12-33
       followers: 1608
       likes: 52
       comments: !c ixSAkZPLQnm5TO2pgACsZWFzdGNvYXN0LWxnsUnigJl2ZSBiZWVuIHRoZXJlAw==
     - service: vk
       id: 2995
       published: 2026-01-06-18-47-08
-      updated: 2026-01-07-19-13-08
+      updated: 2026-01-07-20-12-30
       followers: 1561
-      likes: 31
-      views: 480
+      likes: 33
+      views: 503
     - service: tg
       id: 1116
       published: 2026-01-06-18-47-12
-      updated: 2026-01-07-19-13-13
+      updated: 2026-01-07-20-12-35
       followers: 876
-      likes: 46
-      views: 203
+      likes: 47
+      views: 207
 2026-01-07-1-sky-path:
   title: Sky Path
   titleRu: Небесный путь
@@ -195,23 +195,23 @@
       id: DTOB9cpF5mm
       mediaId: '18052066397416803'
       published: 2026-01-07-18-17-47
-      updated: 2026-01-07-19-13-12
+      updated: 2026-01-07-20-12-32
       followers: 1607
-      likes: 19
+      likes: 25
     - service: vk
       id: 2996
       published: 2026-01-07-18-17-54
-      updated: 2026-01-07-19-13-07
+      updated: 2026-01-07-20-12-29
       followers: 1561
-      likes: 7
-      views: 39
+      likes: 15
+      views: 75
     - service: tg
       id: 1117
       published: 2026-01-07-18-17-58
-      updated: 2026-01-07-19-13-13
+      updated: 2026-01-07-20-12-35
       followers: 876
-      likes: 19
-      views: 176
+      likes: 27
+      views: 257
       comments: !c |-
         G5AAwIzEOEZyMYg/8uGveYTHpXeWpBG91kibblQk+T5ObDY5EsIDrdbWf8h5wMX6da90+RLlwMbY
         8EyDoNt0ODy1tk4qT1FXO45zs3J1RxTOj91KsDSa3n4iFiRTMgVhSBychpIFGgbBkCUOpDOxOfPU
