@@ -573,7 +573,7 @@ arya-stark:
   profiles:
     - service: vk
       id: '820702664'
-      updated: 2026-01-07-18-17-07
+      updated: 2026-01-07-19-13-14
       username: id820702664
       name: Арья Старк
       avatar: store:/avatars/vk-689aa89d.jpg
@@ -1282,7 +1282,7 @@ darkness-rifho:
       deleted: true
     - service: tg
       id: '5704974271'
-      updated: 2026-01-07-18-33-44
+      updated: 2026-01-07-19-13-13
       accessHash: '3506423524566292179'
       username: C4H6O4
       name: Уна
@@ -2173,7 +2173,7 @@ goosevich76:
   profiles:
     - service: tg
       id: '5385620621'
-      updated: 2026-01-07-18-33-42
+      updated: 2026-01-07-19-13-13
       accessHash: '-7130473396589324830'
       username: horwwwaty
       name: Гузьйоувишщь
