@@ -573,7 +573,7 @@ arya-stark:
   profiles:
     - service: vk
       id: '820702664'
-      updated: 2026-01-07-16-16-16
+      updated: 2026-01-07-17-17-27
       username: id820702664
       name: Арья Старк
       avatar: store:/avatars/vk-689aa89d.jpg
@@ -1283,7 +1283,7 @@ darvetr:
   profiles:
     - service: vk
       id: '1057788271'
-      updated: 2026-01-04-16-31-08
+      updated: 2026-01-07-17-17-29
       username: darvetr
       name: Виктория Дарьина
       avatar: store:/avatars/vk-00d4bf4b.jpg
@@ -3419,7 +3419,7 @@ michael-levington:
   profiles:
     - service: vk
       id: '416916067'
-      updated: 2026-01-06-06-18-02
+      updated: 2026-01-07-17-17-29
       username: michael_levington
       name: Майкл Левингтон
       avatar: store:/avatars/vk-5fe6e343.jpg
@@ -4737,7 +4737,7 @@ sergey-b-2:
   profiles:
     - service: vk
       id: '1077446394'
-      updated: 2026-01-07-03-57-46
+      updated: 2026-01-07-17-17-29
       username: id1077446394
       name: Сергей Б
       avatar: store:/avatars/vk-a7369956.jpg
