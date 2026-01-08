@@ -68,17 +68,17 @@
       id: DTGXca4DYFA
       mediaId: '18036042191734633'
       published: 2026-01-04-19-20-27
-      updated: 2026-01-07-19-13-15
+      updated: 2026-01-08-19-17-48
       followers: 1609
       likes: 32
       comments: !c ixiAkZPLQnm4rlYNgACvb2hzd2VldG5hemFyZXRotnN1Y2ggYSBraWxsZXIgZHVuZ2VvbiED
     - service: vk
       id: 2988
       published: 2026-01-04-19-20-38
-      updated: 2026-01-07-19-13-14
+      updated: 2026-01-08-19-17-50
       followers: 1558
       likes: 25
-      views: 410
+      views: 432
       comments: !c |-
         G+IA4B0JNk5zwUZfTlFRFLcIH6QnSyDEJrFIkz2dW8jVkm3OUBD8APG8bbiv67l9PZ8qRGDkup1f
         o9sb14jj7ncDzzOsC0/fuMJucGGiSZL0y/Pz/igJ1x3HdzehM6PE/7w95brg13OiGcLCUg5ThP/R
@@ -86,10 +86,10 @@
     - service: tg
       id: 1112
       published: 2026-01-04-19-20-44
-      updated: 2026-01-07-19-13-13
+      updated: 2026-01-08-19-17-50
       followers: 875
-      likes: 39
-      views: 256
+      likes: 41
+      views: 288
 2026-01-05-1-cave-life:
   title: Cave Life
   titleRu: Пещерный быт
@@ -197,24 +197,24 @@
       id: DTOB9cpF5mm
       mediaId: '18052066397416803'
       published: 2026-01-07-18-17-47
-      updated: 2026-01-08-18-46-14
+      updated: 2026-01-08-19-17-47
       followers: 1607
       likes: 59
     - service: vk
       id: 2996
       published: 2026-01-07-18-17-54
-      updated: 2026-01-08-18-46-10
+      updated: 2026-01-08-19-17-49
       followers: 1561
-      likes: 57
-      views: 490
+      likes: 58
+      views: 502
       reposts: 10
     - service: tg
       id: 1117
       published: 2026-01-07-18-17-58
-      updated: 2026-01-08-18-46-16
+      updated: 2026-01-08-19-17-50
       followers: 876
       likes: 52
-      views: 741
+      views: 756
       comments: !c |-
         G5AAwIzEOEZyMYg/8uGveYTHpXeWpBG91kibblQk+T5ObDY5EsIDrdbWf8h5wMX6da90+RLlwMbY
         8EyDoNt0ODy1tk4qT1FXO45zs3J1RxTOj91KsDSa3n4iFiRTMgVhSBychpIFGgbBkCUOpDOxOfPU
@@ -234,12 +234,24 @@
       id: DTQrR1DF470
       mediaId: '18295642483302711'
       published: 2026-01-08-18-57-18
+      updated: 2026-01-08-19-17-46
       followers: 1606
+      likes: 8
     - service: vk
       id: 2997
       published: 2026-01-08-18-57-23
+      updated: 2026-01-08-19-17-48
       followers: 1562
+      likes: 4
+      views: 16
+      comments: !c |-
+        G6wA+C0SbNsLWy8DuVISdfrRP3GjCD9QrKUJNoke2ck+qLmFFs3J6IZsIDr/gHKbOZvT/4kobMxg
+        b5Zi27jJZc+wtbkShbgIqfh+//7c/8bRfve1VfBrhVqOxCQpT00jBzpEmBZJeKngrIrpRpTnTCS0
+        sSaiHKlWQIocHP5IDLZTuKPiBA==
     - service: tg
       id: 1118
       published: 2026-01-08-18-57-27
+      updated: 2026-01-08-19-17-43
       followers: 880
+      likes: 12
+      views: 53
