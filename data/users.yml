@@ -50,7 +50,7 @@
   profiles:
     - service: tg
       id: '988831875'
-      updated: 2025-12-11-13-36-23
+      updated: 2026-01-08-13-55-20
       accessHash: '-9023273013894275887'
       username: taletale
       botChatId: 988831875
@@ -249,7 +249,7 @@ aleksey:
   profiles:
     - service: tg
       id: '451735380'
-      updated: 2025-12-11-13-36-28
+      updated: 2026-01-08-13-55-20
       accessHash: '1712518675010870510'
       username: avrongols
       botChatId: 451735380
@@ -808,7 +808,7 @@ blu:
   profiles:
     - service: tg
       id: '5511607316'
-      updated: 2025-12-11-13-36-28
+      updated: 2026-01-08-13-55-20
       accessHash: '-750005966702459216'
       username: tcnspih
       botChatId: 5511607316
@@ -1282,7 +1282,7 @@ darkness-rifho:
       deleted: true
     - service: tg
       id: '5704974271'
-      updated: 2026-01-08-13-33-52
+      updated: 2026-01-08-13-55-18
       accessHash: '3506423524566292179'
       username: C4H6O4
       name: Уна
@@ -1350,7 +1350,7 @@ dehero:
   profiles:
     - service: tg
       id: '414295239'
-      updated: 2025-12-11-13-36-28
+      updated: 2026-01-08-13-55-20
       accessHash: '2233144502913458526'
       username: deherole
       botChatId: 414295239
@@ -1458,7 +1458,7 @@ deviltrigger:
   profiles:
     - service: tg
       id: '7096566258'
-      updated: 2025-12-11-13-36-29
+      updated: 2026-01-08-13-55-21
       accessHash: '-2934307269294006251'
       username: zxcqwe431
       botChatId: 7096566258
@@ -1535,7 +1535,7 @@ dmitrii:
   profiles:
     - service: tg
       id: '300009119'
-      updated: 2025-12-11-13-36-29
+      updated: 2026-01-08-13-55-21
       accessHash: '3915745450504552077'
       username: dm4by
       botChatId: 300009119
@@ -1724,7 +1724,7 @@ ekaterina:
   profiles:
     - service: tg
       id: '7691901071'
-      updated: 2025-12-11-13-36-31
+      updated: 2026-01-08-13-55-21
       accessHash: '5146293512605125887'
       username: berskate
       botChatId: 816585640
@@ -2105,7 +2105,7 @@ gleb:
   profiles:
     - service: tg
       id: '5357370117'
-      updated: 2025-12-11-13-36-36
+      updated: 2026-01-08-13-55-22
       accessHash: '1625681634074568800'
       username: glebiris
       botChatId: 5357370117
@@ -2173,7 +2173,7 @@ goosevich76:
   profiles:
     - service: tg
       id: '5385620621'
-      updated: 2026-01-08-13-33-52
+      updated: 2026-01-08-13-55-18
       accessHash: '-7130473396589324830'
       username: horwwwaty
       name: Гузьйоувишщь
@@ -3653,7 +3653,7 @@ mwscrbot:
     - type: bot
       service: tg
       id: '5121093849'
-      updated: 2025-12-11-13-36-36
+      updated: 2026-01-08-13-55-22
       accessHash: '-8431066700367088239'
       username: mwscrbot
       name: Morrowind Ordinator
@@ -3988,7 +3988,7 @@ oleh:
   profiles:
     - service: tg
       id: '5645256528'
-      updated: 2025-12-11-13-36-37
+      updated: 2026-01-08-13-55-22
       accessHash: '-7138534726014788174'
       username: OlehShyha
       botChatId: 5645256528
@@ -4505,7 +4505,7 @@ rocksweet:
   profiles:
     - service: tg
       id: '456985367'
-      updated: 2025-12-11-13-36-37
+      updated: 2026-01-08-13-55-22
       accessHash: '7583335352915051328'
       username: rocksweet
       botChatId: 456985367
@@ -5092,7 +5092,7 @@ spicebag:
   profiles:
     - service: tg
       id: '1110940743'
-      updated: 2025-12-11-13-36-37
+      updated: 2026-01-08-13-55-23
       accessHash: '853118989348063379'
       username: discodoyler
       botChatId: 1110940743
@@ -5243,7 +5243,7 @@ talos:
   profiles:
     - service: tg
       id: '7165366272'
-      updated: 2025-12-11-13-36-37
+      updated: 2026-01-08-13-55-23
       accessHash: '-7099498617493591131'
       username: GL1nchic
       botChatId: 7165366272
