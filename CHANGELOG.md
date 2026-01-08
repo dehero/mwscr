@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file.
 
+## [2.15.2](https://github.com/dehero/mwscr/compare/v2.15.1...v2.15.2) (2026-01-08)
+
+### Bug Fixes
+
+- don't show empty links array on story
+  ([6d0e90a](https://github.com/dehero/mwscr/commit/6d0e90a7e702e808262f04b43470677a7581fb32))
+
 ## [2.15.1](https://github.com/dehero/mwscr/compare/v2.15.0...v2.15.1) (2026-01-08)
 
 ### Bug Fixes
