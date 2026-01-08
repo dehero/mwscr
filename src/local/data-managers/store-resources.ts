@@ -187,8 +187,8 @@ export async function movePublishedPostResources([id, post]: PostEntry<Publishab
     case 'shot':
     case 'wallpaper':
     case 'wallpaper-v': {
-      const dir = getTargetStoreDirFromPostType(post.type);
-      if (!dir) {
+      const targetDir = getTargetStoreDirFromPostType(post.type);
+      if (!targetDir) {
         throw new Error(`Unable to detect target store directory for post type "${post.type}"`);
       }
 
@@ -198,24 +198,30 @@ export async function movePublishedPostResources([id, post]: PostEntry<Publishab
       for (let i = 0; i < content.length; i++) {
         const url = content[i]!;
 
-        const { ext, originalUrl } = parseStoreResourceUrl(url);
-        const indexStr = content.length > 1 ? `-${i}` : '';
-        const newUrl = `store:/${dir}/${id}${indexStr}${ext}` as string;
-        const { originalUrl: newOriginalUrl } = parseStoreResourceUrl(newUrl);
+        const { ext, dir, originalUrl } = parseStoreResourceUrl(url);
+        if (dir === STORE_INBOX_DIR) {
+          const indexStr = content.length > 1 ? `-${i}` : '';
+          const newUrl = `store:/${targetDir}/${id}${indexStr}${ext}` as string;
+          const { originalUrl: newOriginalUrl } = parseStoreResourceUrl(newUrl);
 
-        assertSchema(ImageResourceUrl, newUrl, (message) => `Cannot create published shot url: ${message}`);
+          assertSchema(ImageResourceUrl, newUrl, (message) => `Cannot create published shot url: ${message}`);
 
-        if (url !== RESOURCE_MISSING_IMAGE) {
-          await moveResource(url, newUrl);
+          if (url !== RESOURCE_MISSING_IMAGE) {
+            await moveResource(url, newUrl);
+          }
+
+          if (originalUrl && newOriginalUrl && (await resourceExists(originalUrl))) {
+            // TODO: find usage for original preview (now not represented in docs)
+            await moveResource(originalUrl, newOriginalUrl);
+            post.trash = mergePostContents(asArray(post.trash).filter((url) => url !== originalUrl));
+          }
+
+          newContent.push(newUrl);
+        } else {
+          assertSchema(ImageResourceUrl, url, (message) => `Cannot use published url: ${message}`);
+
+          newContent.push(url);
         }
-
-        if (originalUrl && newOriginalUrl && (await resourceExists(originalUrl))) {
-          // TODO: find usage for original preview (now not represented in docs)
-          await moveResource(originalUrl, newOriginalUrl);
-          post.trash = mergePostContents(asArray(post.trash).filter((url) => url !== originalUrl));
-        }
-
-        newContent.push(newUrl);
       }
 
       if (newContent.length !== content.length) {
