@@ -3817,8 +3817,10 @@ nitz1992:
   profiles:
     - service: vk
       id: '5778432'
+      updated: 2026-01-08-10-27-26
       username: nitz1992
       name: Максим Королёв
+      avatar: store:/avatars/vk-7056ef15.jpg
 nk2806:
   profiles:
     - service: vk
