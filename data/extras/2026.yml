@@ -75,3 +75,20 @@
   type: achievement
   author: nitz1992
   mark: A2
+  posts:
+    - type: story
+      service: vk
+      id: 456239021
+      published: 2026-01-08-18-16-55
+      followers: 1562
+    - type: story
+      service: ig
+      id: DTQnG3fln2l
+      mediaId: '17997702623890944'
+      published: 2026-01-08-18-20-51
+      followers: 1606
+    - type: story
+      service: tg
+      id: 2
+      published: 2026-01-08-18-21-10
+      followers: 880
