@@ -42,10 +42,10 @@
     - service: tg
       id: 1111
       published: 2026-01-03-19-20-44
-      updated: 2026-01-07-20-12-35
+      updated: 2026-01-08-20-22-32
       followers: 875
-      likes: 56
-      views: 288
+      likes: 57
+      views: 325
 2026-01-04-1-demon-of-the-halls-of-penumbra:
   title: Demon of the Halls of Penumbra
   titleRu: Демон Залов полумрака
@@ -197,24 +197,24 @@
       id: DTOB9cpF5mm
       mediaId: '18052066397416803'
       published: 2026-01-07-18-17-47
-      updated: 2026-01-08-19-17-47
+      updated: 2026-01-08-20-22-30
       followers: 1607
-      likes: 59
+      likes: 62
     - service: vk
       id: 2996
       published: 2026-01-07-18-17-54
-      updated: 2026-01-08-19-17-49
+      updated: 2026-01-08-20-22-31
       followers: 1561
-      likes: 58
-      views: 502
+      likes: 59
+      views: 527
       reposts: 10
     - service: tg
       id: 1117
       published: 2026-01-07-18-17-58
-      updated: 2026-01-08-19-17-50
+      updated: 2026-01-08-20-22-32
       followers: 876
-      likes: 52
-      views: 756
+      likes: 53
+      views: 769
       comments: !c |-
         G5AAwIzEOEZyMYg/8uGveYTHpXeWpBG91kibblQk+T5ObDY5EsIDrdbWf8h5wMX6da90+RLlwMbY
         8EyDoNt0ODy1tk4qT1FXO45zs3J1RxTOj91KsDSa3n4iFiRTMgVhSBychpIFGgbBkCUOpDOxOfPU
@@ -234,16 +234,16 @@
       id: DTQrR1DF470
       mediaId: '18295642483302711'
       published: 2026-01-08-18-57-18
-      updated: 2026-01-08-19-17-46
+      updated: 2026-01-08-20-22-29
       followers: 1606
-      likes: 8
+      likes: 26
     - service: vk
       id: 2997
       published: 2026-01-08-18-57-23
-      updated: 2026-01-08-19-17-48
+      updated: 2026-01-08-20-22-31
       followers: 1562
-      likes: 4
-      views: 16
+      likes: 9
+      views: 86
       comments: !c |-
         G6wA+C0SbNsLWy8DuVISdfrRP3GjCD9QrKUJNoke2ck+qLmFFs3J6IZsIDr/gHKbOZvT/4kobMxg
         b5Zi27jJZc+wtbkShbgIqfh+//7c/8bRfve1VfBrhVqOxCQpT00jBzpEmBZJeKngrIrpRpTnTCS0
@@ -251,7 +251,7 @@
     - service: tg
       id: 1118
       published: 2026-01-08-18-57-27
-      updated: 2026-01-08-19-17-43
+      updated: 2026-01-08-20-22-26
       followers: 880
-      likes: 12
-      views: 53
+      likes: 26
+      views: 92
