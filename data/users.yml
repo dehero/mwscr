@@ -1282,7 +1282,7 @@ darkness-rifho:
       deleted: true
     - service: tg
       id: '5704974271'
-      updated: 2026-01-07-23-13-07
+      updated: 2026-01-08-00-50-19
       accessHash: '3506423524566292179'
       username: C4H6O4
       name: Уна
@@ -2173,7 +2173,7 @@ goosevich76:
   profiles:
     - service: tg
       id: '5385620621'
-      updated: 2026-01-07-23-13-07
+      updated: 2026-01-08-00-50-19
       accessHash: '-7130473396589324830'
       username: horwwwaty
       name: Гузьйоувишщь
@@ -2264,10 +2264,11 @@ havoke:
   profiles:
     - service: tg
       id: '1968702139'
-      updated: 2025-12-10-23-14-20
+      updated: 2026-01-08-00-50-25
       accessHash: '3341190659643117061'
       username: Havoke
       name: Havok
+      avatar: store:/avatars/tg-5316521995048520728.jpg
 hendogfordays:
   profiles:
     - service: ig
@@ -4592,7 +4593,7 @@ ryan-butts:
   profiles:
     - service: tg
       id: '1687029860'
-      updated: 2025-12-10-23-14-21
+      updated: 2026-01-08-00-50-26
       accessHash: '-974849940983800062'
       name: Ryan Butts
 ryanthebronson:
