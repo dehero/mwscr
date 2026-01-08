@@ -128,13 +128,13 @@ export async function createStoryHtml({
   ${refImage ? `<div class="ref"><img src="${refImage.dataUrl}" /></div>` : ''}
   ${
     avatar || author
-      ? `<div class="author">${avatar ? `<img class="avatar" src="${avatar.dataUrl}" />` : ''}${author}</div>`
+      ? `<div class="author">${avatar ? `<img class="avatar" src="${avatar.dataUrl}" />` : ''}${author ?? ''}</div>`
       : ''
   }
   ${title ? `<h1>${title}</h1>` : ''}
   ${text ? `<p>${text}</p>` : ''}
   ${
-    !ignoreLinks && links
+    !ignoreLinks && links && links.length > 0
       ? links.length > 1
         ? `<ul>${links.map((link) => `<li>${link}</li>`).join('')}</ul>`
         : `<p>${links[0]}</p>`
