@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file.
 
+## [2.15.1](https://github.com/dehero/mwscr/compare/v2.15.0...v2.15.1) (2026-01-08)
+
+### Bug Fixes
+
+- move post content resources only from inbox when publishing post
+  ([8314551](https://github.com/dehero/mwscr/commit/831455112a3fb1aff48f249868158d4b77b9c1a8))
+
 ## [2.15.0](https://github.com/dehero/mwscr/compare/v2.14.3...v2.15.0) (2026-01-07)
 
 ### Features
