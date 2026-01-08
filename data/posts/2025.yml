@@ -2745,7 +2745,6 @@
   location: Solstheim, Lair of the Udyrfrykte
   content: store:/shots/2025-12-01-1-beware-the-udyrfrykte.png
   trash:
-    - store:/trash/ohsweetnazareth.2025-11-20-beware-the-udyrfrykte-df6fa6b5.png
     - store:/trash/ohsweetnazareth.2025-11-20-beware-the-udyrfrykte-3e11511b.png
     - store:/trash/ohsweetnazareth.2025-11-20-beware-the-udyrfrykte-8dcb1750.png
     - store:/trash/ohsweetnazareth.2025-11-20-beware-the-udyrfrykte-066a3a55.png
@@ -3481,7 +3480,6 @@
   placement: Outdoors
   location: Erabenimsun Camp
   content: store:/wallpapers/2025-12-24-1-kummu-of-the-erabenimsun.png
-  trash: store:/trash/ohsweetnazareth.2025-12-17-kummu-of-the-erabenimsun-286dda10.1.png
   type: wallpaper
   author: ohsweetnazareth
   engine: OpenMW
