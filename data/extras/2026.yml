@@ -106,3 +106,46 @@
   type: achievement
   author: mibrnd
   mark: A2
+  posts:
+    - type: story
+      service: tg
+      id: 3
+      published: 2026-01-09-17-55-34
+      followers: 879
+    - type: story
+      service: vk
+      id: 456239023
+      published: 2026-01-09-18-03-26
+      followers: 1563
+    - type: story
+      service: ig
+      id: DTTKF1QjyJS
+      mediaId: '18096227941731344'
+      published: 2026-01-09-18-05-04
+      followers: 1608
+2026-01-09-2-winning-the-2026-calendar-photo-contest:
+  title: Winning the 2026 Calendar Photo Contest
+  titleRu: Победа в конкурсе фотографий с календарём 2026
+  description: Awarded a free 2027 calendar for a collage of three photos, especially a photo with a tangerine.
+  descriptionRu: Награждена бесплатным календарём на 2027 год за коллаж из трёх фото, особенно фото с мандарином.
+  content: store:/photos/2026-01-02-1-wall-calendar-photo-contest-compilation-3.jpg
+  type: achievement
+  author: julypaint
+  mark: A2
+  posts:
+    - type: story
+      service: ig
+      id: DTTKXN2jDTg
+      mediaId: '18108335281726422'
+      published: 2026-01-09-18-07-23
+      followers: 1608
+    - type: story
+      service: vk
+      id: 456239024
+      published: 2026-01-09-18-07-34
+      followers: 1563
+    - type: story
+      service: tg
+      id: 4
+      published: 2026-01-09-18-07-43
+      followers: 879
