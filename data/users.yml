@@ -5478,7 +5478,7 @@ todor:
   profiles:
     - service: tg
       id: '1305695186'
-      updated: 2026-01-10-18-37-11
+      updated: 2026-01-10-21-17-52
       accessHash: '8819682207926865502'
       name: Todor
       avatar: store:/avatars/tg-5305295556123424826.jpg

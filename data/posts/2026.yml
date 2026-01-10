@@ -42,10 +42,10 @@
     - service: tg
       id: 1111
       published: 2026-01-03-19-20-44
-      updated: 2026-01-09-20-23-18
+      updated: 2026-01-10-21-17-52
       followers: 875
-      likes: 58
-      views: 373
+      likes: 59
+      views: 395
 2026-01-04-1-demon-of-the-halls-of-penumbra:
   title: Demon of the Halls of Penumbra
   titleRu: Демон Залов полумрака
@@ -275,20 +275,23 @@
       id: DTV1JTtF9fv
       mediaId: '17896399632376194'
       published: 2026-01-10-18-59-44
-      updated: 2026-01-10-20-21-01
+      updated: 2026-01-10-21-17-51
       followers: 1607
-      likes: 17
+      likes: 20
     - service: vk
       id: 3006
       published: 2026-01-10-18-59-53
-      updated: 2026-01-10-20-20-58
+      updated: 2026-01-10-21-17-47
       followers: 1564
-      likes: 4
-      views: 49
+      likes: 7
+      views: 90
     - service: tg
       id: 1121
       published: 2026-01-10-18-59-57
-      updated: 2026-01-10-20-20-58
+      updated: 2026-01-10-21-17-52
       followers: 880
-      likes: 29
-      views: 116
+      likes: 32
+      views: 142
+      comments: !c |-
+        Cy+AkZPLQnm6mogBgACldG9kb3LZTElzIGl0IHRhbXJpZWwgcmVidWlsdCB0aG91Z2g/IExvb2tz
+        IGxpa2UgYSBjYXZlIHdoZXJlIHlvdSBnZXQgRWxlaWRvbidzIFdhcmQD
