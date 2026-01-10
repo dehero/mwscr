@@ -548,7 +548,7 @@ artyom-karpov:
   profiles:
     - service: vk
       id: '178018548'
-      updated: 2026-01-03-18-31-37
+      updated: 2026-01-10-19-18-41
       username: id178018548
       name: Артём Карпов
       avatar: store:/avatars/vk-72fe5d60.jpg
@@ -1299,7 +1299,7 @@ daryna-dmytrenko:
   profiles:
     - service: vk
       id: '164064457'
-      updated: 2026-01-03-18-31-14
+      updated: 2026-01-10-19-18-19
       username: daryna_dmytrenko
       name: Дарина Дмитренко
       avatar: store:/avatars/vk-0d327853.jpg
@@ -1365,7 +1365,7 @@ dehero:
       avatar: store:/avatars/gh-c8afe641.jpg
     - service: vk
       id: '3652910'
-      updated: 2026-01-10-18-59-00
+      updated: 2026-01-10-19-20-09
       username: dehero
       name: Антон Курьянов
       avatar: store:/avatars/vk-5356f76e.jpg
@@ -1895,7 +1895,7 @@ evil-kit:
   profiles:
     - service: vk
       id: '153155138'
-      updated: 2026-01-03-18-33-04
+      updated: 2026-01-10-19-20-09
       username: evil_kit
       name: Никита Метелкин
       avatar: store:/avatars/vk-adb64972.jpg
@@ -2418,7 +2418,7 @@ idalexeyvav:
   profiles:
     - service: vk
       id: '417783044'
-      updated: 2026-01-03-18-31-12
+      updated: 2026-01-10-19-18-16
       username: idalexeyvav
       name: Алексей Вавилов
       avatar: store:/avatars/vk-6717456e.jpg
@@ -3002,7 +3002,7 @@ kydinov91:
   profiles:
     - service: vk
       id: '36104583'
-      updated: 2026-01-10-18-58-32
+      updated: 2026-01-10-19-15-33
       username: kydinov91
       name: Илья Кудинов
       avatar: store:/avatars/vk-03d8a48a.jpg
@@ -3191,7 +3191,7 @@ lycanthropy:
   profiles:
     - service: vk
       id: '5386912'
-      updated: 2026-01-10-18-56-07
+      updated: 2026-01-10-19-19-18
       username: lycanthropy
       name: Филипп Суворов
       avatar: store:/avatars/vk-8642e0b8.jpg
@@ -3256,7 +3256,7 @@ maks-perunov:
   profiles:
     - service: vk
       id: '35868942'
-      updated: 2026-01-10-18-46-06
+      updated: 2026-01-10-19-17-33
       username: id35868942
       name: Макс Перунов
       avatar: store:/avatars/vk-3bb92045.jpg
@@ -4174,7 +4174,7 @@ petrushkachord:
   profiles:
     - service: vk
       id: '370043102'
-      updated: 2026-01-10-18-58-37
+      updated: 2026-01-10-19-15-46
       username: petrushkachord
       name: Данила Силкин
       avatar: store:/avatars/vk-166e4c44.jpg
@@ -5054,7 +5054,7 @@ soulilight:
   profiles:
     - service: vk
       id: '347703822'
-      updated: 2026-01-10-18-58-19
+      updated: 2026-01-10-19-18-58
       username: soulilight
       name: Dima Boev
       avatar: store:/avatars/vk-4a3f332e.jpg
@@ -5797,7 +5797,7 @@ user-36:
   profiles:
     - service: vk
       id: '227500203'
-      updated: 2026-01-03-18-32-12
+      updated: 2026-01-10-19-19-16
       username: id227500203
       avatar: store:/avatars/vk-7f160215.jpg
       deleted: true
