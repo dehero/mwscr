@@ -341,12 +341,19 @@ ohsweetnazareth.2025-11-27-in-the-tomb-of-mordrin-hanin-a9b02ebe:
   author: ohsweetnazareth
 ohsweetnazareth.2025-11-27-who-partook-in-the-cup-of-passage-b657b69b:
   title: Who Partook in the Cup of Passage?
+  titleRu: Кто пил из Чаши Перехода?
+  placement: Indoors
   content: store:/inbox/ohsweetnazareth.2025-11-27-who-partook-in-the-cup-of-passage-b657b69b.1.png
   trash:
     - store:/inbox/ohsweetnazareth.2025-11-27-who-partook-in-the-cup-of-passage-81b826d3.png
     - store:/inbox/ohsweetnazareth.2025-11-27-who-partook-in-the-cup-of-passage-b657b69b.png
   type: shot
   author: ohsweetnazareth
+  addon: Tamriel Rebuilt
+  tags:
+    - skull
+    - dagger
+  mark: B1
 ohsweetnazareth.2025-12-04-the-daedric-faces-20e73f83:
   title: The Daedric Faces
   content: store:/inbox/ohsweetnazareth.2025-12-04-the-daedric-faces-20e73f83.png
