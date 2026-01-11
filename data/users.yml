@@ -866,7 +866,7 @@ brg1092:
   profiles:
     - service: tg
       id: '5867861906'
-      updated: 2026-01-10-18-32-15
+      updated: 2026-01-11-01-48-17
       accessHash: '4411929981434940281'
       username: brg1092
       name: 2𝜋
@@ -1385,7 +1385,7 @@ dehero:
     - type: channel
       service: tg
       id: '1264795946'
-      updated: 2026-01-10-23-18-54
+      updated: 2026-01-11-01-48-17
       accessHash: '-5789257269249675714'
       username: mwscr
       name: Morrowind Screenshots
@@ -2182,7 +2182,7 @@ goosevich76:
   profiles:
     - service: tg
       id: '5385620621'
-      updated: 2026-01-10-18-58-49
+      updated: 2026-01-11-01-48-17
       accessHash: '-7130473396589324830'
       username: horwwwaty
       name: Гузьйоувишщь
@@ -4763,7 +4763,7 @@ sergey-b-2:
   profiles:
     - service: vk
       id: '1077446394'
-      updated: 2026-01-10-22-19-11
+      updated: 2026-01-11-01-48-16
       username: id1077446394
       name: Сергей Б
       avatar: store:/avatars/vk-a7369956.jpg
@@ -5478,7 +5478,7 @@ todor:
   profiles:
     - service: tg
       id: '1305695186'
-      updated: 2026-01-10-23-18-54
+      updated: 2026-01-11-01-48-17
       accessHash: '8819682207926865502'
       name: Todor
       avatar: store:/avatars/tg-5305295556123424826.jpg
