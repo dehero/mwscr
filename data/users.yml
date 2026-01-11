@@ -99,7 +99,7 @@ a2-enkelli:
   profiles:
     - service: tg
       id: '7258424423'
-      updated: 2026-01-11-17-18-26
+      updated: 2026-01-11-18-54-11
       accessHash: '969825927170686844'
       username: A2_Enkelli
       name: †† elli ††
@@ -108,7 +108,7 @@ aarychagoff:
   profiles:
     - service: tg
       id: '1343549669'
-      updated: 2026-01-10-18-36-30
+      updated: 2026-01-11-18-54-11
       accessHash: '-8044934406214364524'
       username: aarychagoff
       name: Andrei Rychagov
@@ -556,7 +556,7 @@ artyom-melikhoff:
   profiles:
     - service: vk
       id: '299405149'
-      updated: 2026-01-11-17-18-29
+      updated: 2026-01-11-18-54-11
       username: artyom_melikhoff
       name: Артём Мелихов
       avatar: store:/avatars/vk-4c16e471.jpg
@@ -1385,7 +1385,7 @@ dehero:
     - type: channel
       service: tg
       id: '1264795946'
-      updated: 2026-01-11-17-17-40
+      updated: 2026-01-11-18-28-12
       accessHash: '-5789257269249675714'
       username: mwscr
       name: Morrowind Screenshots
@@ -2840,7 +2840,7 @@ kawazaky223:
   profiles:
     - service: tg
       id: '5641856113'
-      updated: 2026-01-11-17-18-36
+      updated: 2026-01-11-18-54-11
       accessHash: '7421309771527577818'
       username: Kawazaky223
       name: Максим
@@ -4763,7 +4763,7 @@ sergey-b-2:
   profiles:
     - service: vk
       id: '1077446394'
-      updated: 2026-01-11-17-17-41
+      updated: 2026-01-11-18-28-13
       username: id1077446394
       name: Сергей Б
       avatar: store:/avatars/vk-a7369956.jpg
@@ -5478,7 +5478,7 @@ todor:
   profiles:
     - service: tg
       id: '1305695186'
-      updated: 2026-01-11-17-18-28
+      updated: 2026-01-11-18-28-12
       accessHash: '8819682207926865502'
       name: Todor
       avatar: store:/avatars/tg-5305295556123424826.jpg
