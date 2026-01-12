@@ -443,7 +443,7 @@ anonim:
   profiles:
     - service: tg
       id: '6469120788'
-      updated: 2026-01-11-17-18-21
+      updated: 2026-01-12-21-20-16
       accessHash: '-3557204299452739678'
       name: Аноним
       avatar: store:/avatars/tg-5386639419211116910.jpg
@@ -556,7 +556,7 @@ artyom-melikhoff:
   profiles:
     - service: vk
       id: '299405149'
-      updated: 2026-01-12-18-32-28
+      updated: 2026-01-12-21-20-16
       username: artyom_melikhoff
       name: Артём Мелихов
       avatar: store:/avatars/vk-4c16e471.jpg
@@ -6121,7 +6121,7 @@ vustex:
   profiles:
     - service: tg
       id: '131249506'
-      updated: 2026-01-12-20-23-41
+      updated: 2026-01-12-21-20-15
       accessHash: '-8846023880153550211'
       username: vustex
       name: Vustex 𓃵
