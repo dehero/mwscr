@@ -572,7 +572,7 @@ arya-stark:
   profiles:
     - service: vk
       id: '820702664'
-      updated: 2026-01-12-19-20-35
+      updated: 2026-01-12-20-23-40
       username: id820702664
       name: Арья Старк
       avatar: store:/avatars/vk-689aa89d.jpg
@@ -866,7 +866,7 @@ brg1092:
   profiles:
     - service: tg
       id: '5867861906'
-      updated: 2026-01-12-18-32-08
+      updated: 2026-01-12-20-23-41
       accessHash: '4411929981434940281'
       username: brg1092
       name: 2𝜋
@@ -3113,7 +3113,7 @@ loftydelusion:
   profiles:
     - service: tg
       id: '6735256969'
-      updated: 2026-01-10-18-58-55
+      updated: 2026-01-12-20-23-46
       accessHash: '7923451850129434076'
       username: Loftydelusion
       name: Ꭰelusion
@@ -6117,6 +6117,15 @@ vovach99:
       username: vovach99
       name: Владимир Чикалин
       avatar: store:/avatars/vk-77942374.jpg
+vustex:
+  profiles:
+    - service: tg
+      id: '131249506'
+      updated: 2026-01-12-20-23-41
+      accessHash: '-8846023880153550211'
+      username: vustex
+      name: Vustex 𓃵
+      avatar: store:/avatars/tg-563712336342395467.jpg
 vvardenfell:
   profiles:
     - service: ig
