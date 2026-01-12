@@ -276,19 +276,19 @@
       id: DTV1JTtF9fv
       mediaId: '17896399632376194'
       published: 2026-01-10-18-59-44
-      updated: 2026-01-11-23-18-53
+      updated: 2026-01-12-01-44-58
       followers: 1607
-      likes: 64
+      likes: 65
       comments: !c |-
         G0EA+J0JduyUwT1bWopFoibM5LLOjRSJjWZn8xOnCRgbuZqaySL0mqfIAlYh486wrt8G0eBxNPGJ
         cZomL9fyFbwTErZxJw==
     - service: vk
       id: 3006
       published: 2026-01-10-18-59-53
-      updated: 2026-01-11-23-18-53
+      updated: 2026-01-12-01-44-58
       followers: 1564
-      likes: 35
-      views: 512
+      likes: 37
+      views: 524
       reposts: 4
       comments: !c |-
         G8YAMK0ObOdpCDHRnaOBPf/1REXcInygUBOIqEks0mQPanOl1JWF/ggnU+dDLo49pvVXtJFENYWM
@@ -297,7 +297,7 @@
     - service: tg
       id: 1121
       published: 2026-01-10-18-59-57
-      updated: 2026-01-11-23-18-53
+      updated: 2026-01-12-01-44-55
       followers: 880
       likes: 46
       views: 244
