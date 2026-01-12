@@ -1360,7 +1360,7 @@ dehero:
       username: me@dehero.site
     - service: gh
       id: '1607322'
-      updated: 2026-01-10-21-22-57
+      updated: 2026-01-12-19-04-23
       username: dehero
       avatar: store:/avatars/gh-c8afe641.jpg
     - service: vk
