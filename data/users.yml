@@ -458,7 +458,7 @@ ansis:
   profiles:
     - service: tg
       id: '517050552'
-      updated: 2026-01-12-18-32-16
+      updated: 2026-01-13-06-32-57
       accessHash: '5231096655311395455'
       username: ansis
       name: ansis
@@ -532,7 +532,7 @@ artem-solovev:
   profiles:
     - service: vk
       id: '733007624'
-      updated: 2026-01-12-18-32-02
+      updated: 2026-01-13-06-32-59
       username: id733007624
       name: Артем Соловьев
       avatar: store:/avatars/vk-04a89351.jpg
@@ -572,7 +572,7 @@ arya-stark:
   profiles:
     - service: vk
       id: '820702664'
-      updated: 2026-01-12-20-23-40
+      updated: 2026-01-13-06-33-00
       username: id820702664
       name: Арья Старк
       avatar: store:/avatars/vk-689aa89d.jpg
@@ -1385,7 +1385,7 @@ dehero:
     - type: channel
       service: tg
       id: '1264795946'
-      updated: 2026-01-12-18-32-11
+      updated: 2026-01-13-06-32-58
       accessHash: '-5789257269249675714'
       username: mwscr
       name: Morrowind Screenshots
@@ -1684,7 +1684,7 @@ egor-aleksandrovich:
   profiles:
     - service: vk
       id: '323518089'
-      updated: 2026-01-06-06-18-02
+      updated: 2026-01-13-06-33-00
       username: id323518089
       name: Егор Александрович
       avatar: store:/avatars/vk-dbfb2813.jpg
@@ -2298,7 +2298,7 @@ himmelherz:
   profiles:
     - service: tg
       id: '588028426'
-      updated: 2026-01-10-18-58-47
+      updated: 2026-01-13-06-32-58
       accessHash: '3598871882011829639'
       username: himmelherz
       name: Roman
@@ -2483,7 +2483,7 @@ ilyatamrielsky:
   profiles:
     - service: vk
       id: '450332094'
-      updated: 2026-01-10-18-53-55
+      updated: 2026-01-13-06-32-59
       username: ilyatamrielsky
       name: Илья Кудинов
       avatar: store:/avatars/vk-4dd811d3.jpg
@@ -3264,7 +3264,7 @@ maksim-bondarenko:
   profiles:
     - service: vk
       id: '538324952'
-      updated: 2026-01-10-18-58-49
+      updated: 2026-01-13-06-32-59
       username: id538324952
       name: Максим Бондаренко
       avatar: store:/avatars/vk-77942374.jpg
@@ -3445,7 +3445,7 @@ michael-levington:
   profiles:
     - service: vk
       id: '416916067'
-      updated: 2026-01-12-18-31-38
+      updated: 2026-01-13-06-33-00
       username: michael_levington
       name: Майкл Левингтон
       avatar: store:/avatars/vk-5fe6e343.jpg
@@ -4160,7 +4160,7 @@ peteevandrew:
   profiles:
     - service: vk
       id: '307619379'
-      updated: 2026-01-12-18-31-46
+      updated: 2026-01-13-06-32-58
       username: peteevandrew
       name: Андрей Петеев
       avatar: store:/avatars/vk-d3f26d8e.jpg
@@ -6121,7 +6121,7 @@ vustex:
   profiles:
     - service: tg
       id: '131249506'
-      updated: 2026-01-13-05-25-10
+      updated: 2026-01-13-06-32-57
       accessHash: '-8846023880153550211'
       username: vustex
       name: Vustex 𓃵
@@ -6280,7 +6280,7 @@ ya-hs-che-suda-stavit:
   profiles:
     - service: tg
       id: '1336542246'
-      updated: 2026-01-12-18-31-59
+      updated: 2026-01-13-06-32-58
       accessHash: '5504493057447045891'
       username: Ya_hs_che_suda_stavit
       name: Hist
