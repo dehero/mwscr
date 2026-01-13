@@ -572,7 +572,7 @@ arya-stark:
   profiles:
     - service: vk
       id: '820702664'
-      updated: 2026-01-13-20-24-13
+      updated: 2026-01-13-21-20-29
       username: id820702664
       name: Арья Старк
       avatar: store:/avatars/vk-689aa89d.jpg
@@ -6121,7 +6121,7 @@ vustex:
   profiles:
     - service: tg
       id: '131249506'
-      updated: 2026-01-13-20-24-12
+      updated: 2026-01-13-21-20-29
       accessHash: '-8846023880153550211'
       username: vustex
       name: Vustex 𓃵
