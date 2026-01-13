@@ -99,7 +99,7 @@ a2-enkelli:
   profiles:
     - service: tg
       id: '7258424423'
-      updated: 2026-01-13-16-30-59
+      updated: 2026-01-13-18-30-13
       accessHash: '969825927170686844'
       username: A2_Enkelli
       name: †† elli ††
@@ -1490,7 +1490,7 @@ dima-sery:
   profiles:
     - service: tg
       id: '134487499'
-      updated: 2026-01-06-18-16-17
+      updated: 2026-01-13-18-30-13
       accessHash: '1922176179429650860'
       username: Dima_Sery
       name: Dima Sery
@@ -4763,7 +4763,7 @@ sergey-b-2:
   profiles:
     - service: vk
       id: '1077446394'
-      updated: 2026-01-13-16-31-03
+      updated: 2026-01-13-18-30-13
       username: id1077446394
       name: Сергей Б
       avatar: store:/avatars/vk-5a7c7910.jpg
@@ -5896,7 +5896,7 @@ vail-astor-zkiy:
   profiles:
     - service: tg
       id: '1245638625'
-      updated: 2026-01-12-18-32-11
+      updated: 2026-01-13-18-30-13
       accessHash: '-6135365331334675689'
       name: Vail Astor'zkiy
 valeriy-zhmishenko:
@@ -6121,7 +6121,7 @@ vustex:
   profiles:
     - service: tg
       id: '131249506'
-      updated: 2026-01-13-17-25-56
+      updated: 2026-01-13-18-30-12
       accessHash: '-8846023880153550211'
       username: vustex
       name: Vustex 𓃵
