@@ -572,7 +572,7 @@ arya-stark:
   profiles:
     - service: vk
       id: '820702664'
-      updated: 2026-01-13-16-31-19
+      updated: 2026-01-13-20-24-13
       username: id820702664
       name: Арья Старк
       avatar: store:/avatars/vk-689aa89d.jpg
@@ -1282,7 +1282,7 @@ darkness-rifho:
       deleted: true
     - service: tg
       id: '5704974271'
-      updated: 2026-01-13-16-31-08
+      updated: 2026-01-13-20-24-13
       accessHash: '3506423524566292179'
       username: C4H6O4
       name: Уна
@@ -2174,7 +2174,7 @@ golden-morgan:
   profiles:
     - service: vk
       id: '157461309'
-      updated: 2026-01-07-07-16-54
+      updated: 2026-01-13-20-24-17
       username: golden_morgan
       name: Marco Polo
       avatar: store:/avatars/vk-f7f43d22.jpg
@@ -2182,7 +2182,7 @@ goosevich76:
   profiles:
     - service: tg
       id: '5385620621'
-      updated: 2026-01-13-16-31-08
+      updated: 2026-01-13-20-24-13
       accessHash: '-7130473396589324830'
       username: horwwwaty
       name: Гузьйоувишщь
@@ -3272,7 +3272,7 @@ maksim-kopytov:
   profiles:
     - service: vk
       id: '799521846'
-      updated: 2026-01-12-18-32-20
+      updated: 2026-01-13-20-24-17
       username: id799521846
       name: Максим Копытов
       avatar: store:/avatars/vk-0da189cf.jpg
@@ -4290,7 +4290,7 @@ porsankka666:
   profiles:
     - service: vk
       id: '320093421'
-      updated: 2026-01-12-19-20-25
+      updated: 2026-01-13-20-24-13
       username: porsankka666
       name: Дмитрий Иванов-Соломин
       avatar: store:/avatars/vk-46213149.jpg
@@ -4731,7 +4731,7 @@ self-creating:
   profiles:
     - service: vk
       id: '50058433'
-      updated: 2026-01-12-19-20-25
+      updated: 2026-01-13-20-24-13
       username: self_creating
       name: Антон Коненков
       avatar: store:/avatars/vk-ef1ee023.jpg
@@ -4763,7 +4763,7 @@ sergey-b-2:
   profiles:
     - service: vk
       id: '1077446394'
-      updated: 2026-01-13-19-19-57
+      updated: 2026-01-13-20-24-13
       username: id1077446394
       name: Сергей Б
       avatar: store:/avatars/vk-5a7c7910.jpg
@@ -4771,7 +4771,7 @@ sergey-churbanov:
   profiles:
     - service: vk
       id: '1060712354'
-      updated: 2026-01-13-16-31-18
+      updated: 2026-01-13-20-24-17
       username: id1060712354
       name: Сергей Чурбанов
       avatar: store:/avatars/vk-6499ce8d.jpg
@@ -6121,7 +6121,7 @@ vustex:
   profiles:
     - service: tg
       id: '131249506'
-      updated: 2026-01-13-19-19-56
+      updated: 2026-01-13-20-24-12
       accessHash: '-8846023880153550211'
       username: vustex
       name: Vustex 𓃵
