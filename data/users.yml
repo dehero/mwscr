@@ -99,7 +99,7 @@ a2-enkelli:
   profiles:
     - service: tg
       id: '7258424423'
-      updated: 2026-01-12-18-32-08
+      updated: 2026-01-13-14-25-06
       accessHash: '969825927170686844'
       username: A2_Enkelli
       name: †† elli ††
@@ -282,7 +282,7 @@ aleksey-yeskela:
   profiles:
     - service: vk
       id: '1047357639'
-      updated: 2026-01-12-19-20-27
+      updated: 2026-01-13-14-24-55
       username: id1047357639
       name: Алексей Йескела
       avatar: store:/avatars/vk-893f32cb.jpg
@@ -315,7 +315,7 @@ alexcher16:
   profiles:
     - service: vk
       id: '14644107'
-      updated: 2026-01-12-18-32-02
+      updated: 2026-01-13-14-24-51
       username: alexcher16
       name: Алексей Черноткач
       avatar: store:/avatars/vk-cf71ed78.jpg
@@ -1005,7 +1005,7 @@ chernosotinec:
   profiles:
     - service: vk
       id: '355750944'
-      updated: 2026-01-12-18-32-19
+      updated: 2026-01-13-14-25-10
       username: Chernosotinec
       name: Артём Стекольщиков
       avatar: store:/avatars/vk-8aee5603.jpg
@@ -2124,7 +2124,7 @@ gleb-zheltuhin:
   profiles:
     - service: vk
       id: '29014473'
-      updated: 2026-01-07-07-16-52
+      updated: 2026-01-13-14-25-10
       username: gleb_zheltuhin
       name: Глеб Желтухин
       avatar: store:/avatars/vk-971eefc1.jpg
@@ -2182,7 +2182,7 @@ goosevich76:
   profiles:
     - service: tg
       id: '5385620621'
-      updated: 2026-01-12-19-20-25
+      updated: 2026-01-13-14-24-50
       accessHash: '-7130473396589324830'
       username: horwwwaty
       name: Гузьйоувишщь
@@ -2237,10 +2237,10 @@ h4shirama-s3nju:
   profiles:
     - service: tg
       id: '5619748563'
-      updated: 2026-01-11-17-18-06
+      updated: 2026-01-13-14-25-07
       accessHash: '-759856355370590559'
       username: Hashirama_S3njuu
-      name: 柱間 千住 ✝️ :("");
+      name: 柱間 千住 ✝️ ("");
       avatar: store:/avatars/tg-5125267234501626702.jpg
 half-elf0:
   profiles:
@@ -2840,7 +2840,7 @@ kawazaky223:
   profiles:
     - service: tg
       id: '5641856113'
-      updated: 2026-01-12-18-32-17
+      updated: 2026-01-13-14-25-07
       accessHash: '7421309771527577818'
       username: Kawazaky223
       name: Максим
@@ -4763,10 +4763,10 @@ sergey-b-2:
   profiles:
     - service: vk
       id: '1077446394'
-      updated: 2026-01-12-19-20-26
+      updated: 2026-01-13-14-25-10
       username: id1077446394
       name: Сергей Б
-      avatar: store:/avatars/vk-a7369956.jpg
+      avatar: store:/avatars/vk-5a7c7910.jpg
 sergey-churbanov:
   profiles:
     - service: vk
@@ -5319,7 +5319,7 @@ the-best-song78:
   profiles:
     - service: vk
       id: '825763367'
-      updated: 2026-01-11-17-18-13
+      updated: 2026-01-13-14-24-52
       username: the_best_song78
       name: Vladislav Dmitrievich
       avatar: store:/avatars/vk-c733124f.jpg
@@ -6121,7 +6121,7 @@ vustex:
   profiles:
     - service: tg
       id: '131249506'
-      updated: 2026-01-13-13-40-51
+      updated: 2026-01-13-14-24-49
       accessHash: '-8846023880153550211'
       username: vustex
       name: Vustex 𓃵
