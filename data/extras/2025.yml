@@ -701,18 +701,18 @@
     - service: vk
       id: 2902
       published: 2025-11-30-15-16-00
-      updated: 2026-01-07-18-34-08
+      updated: 2026-01-14-19-19-07
       followers: 1532
       likes: 48
-      views: 635
+      views: 656
       reposts: 5
     - service: tg
       id: 1074
       published: 2025-11-30-15-16-00
-      updated: 2026-01-07-18-33-51
+      updated: 2026-01-14-19-19-06
       followers: 867
       likes: 40
-      views: 571
+      views: 587
     - service: ig
       id: DUMMY
       mediaId: ''
@@ -742,10 +742,10 @@
     - service: vk
       id: 2972
       published: 2025-12-26-14-08-00
-      updated: 2026-01-07-18-34-07
+      updated: 2026-01-14-19-19-06
       followers: 1549
-      likes: 56
-      views: 893
+      likes: 58
+      views: 939
       reposts: 2
       comments: !c |-
         G/8FICwKbNuhXdiih+O9EsOY8c8/9/0eJ3T/imaltGi20olGsIkTHPdZaRRQFl2lWIAgAuGX7n6w
@@ -764,10 +764,10 @@
     - service: tg
       id: 1097
       published: 2025-12-26-14-08-00
-      updated: 2026-01-07-18-33-51
+      updated: 2026-01-14-19-19-05
       followers: 881
       likes: 52
-      views: 585
+      views: 653
       comments: !c |-
         G9wCAIzTFfMsjfLpf+cysyQ0ECiC51EVc0C5ArnOIZAF+pWdvM1xCrd1HFxT9PXpQfjys7i3Bj70
         AW4axTKFuon6XxfDX4aHnyqN89XoGoRWsY8XGd6OgWX6vZw1ztYYg5IJxfh4PxbdUnZ+QcGQMGeq
