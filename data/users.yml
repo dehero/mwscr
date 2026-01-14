@@ -1291,7 +1291,7 @@ darvetr:
   profiles:
     - service: vk
       id: '1057788271'
-      updated: 2026-01-11-17-17-26
+      updated: 2026-01-14-17-26-42
       username: darvetr
       name: Виктория Дарьина
       avatar: store:/avatars/vk-00d4bf4b.jpg
@@ -3445,7 +3445,7 @@ michael-levington:
   profiles:
     - service: vk
       id: '416916067'
-      updated: 2026-01-13-06-33-00
+      updated: 2026-01-14-17-26-42
       username: michael_levington
       name: Майкл Левингтон
       avatar: store:/avatars/vk-5fe6e343.jpg
@@ -4763,7 +4763,7 @@ sergey-b-2:
   profiles:
     - service: vk
       id: '1077446394'
-      updated: 2026-01-14-04-46-02
+      updated: 2026-01-14-17-26-42
       username: id1077446394
       name: Сергей Б
       avatar: store:/avatars/vk-5a7c7910.jpg
@@ -6121,7 +6121,7 @@ vustex:
   profiles:
     - service: tg
       id: '131249506'
-      updated: 2026-01-14-16-29-24
+      updated: 2026-01-14-17-26-43
       accessHash: '-8846023880153550211'
       username: vustex
       name: Vustex 𓃵
