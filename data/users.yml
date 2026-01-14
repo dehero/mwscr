@@ -572,7 +572,7 @@ arya-stark:
   profiles:
     - service: vk
       id: '820702664'
-      updated: 2026-01-13-21-20-29
+      updated: 2026-01-14-03-46-34
       username: id820702664
       name: Арья Старк
       avatar: store:/avatars/vk-689aa89d.jpg
@@ -2840,7 +2840,7 @@ kawazaky223:
   profiles:
     - service: tg
       id: '5641856113'
-      updated: 2026-01-13-22-21-07
+      updated: 2026-01-14-03-46-33
       accessHash: '7421309771527577818'
       username: Kawazaky223
       name: Максим
@@ -4160,7 +4160,7 @@ peteevandrew:
   profiles:
     - service: vk
       id: '307619379'
-      updated: 2026-01-13-16-31-07
+      updated: 2026-01-14-03-46-35
       username: peteevandrew
       name: Андрей Петеев
       avatar: store:/avatars/vk-d3f26d8e.jpg
@@ -6121,7 +6121,7 @@ vustex:
   profiles:
     - service: tg
       id: '131249506'
-      updated: 2026-01-14-01-43-54
+      updated: 2026-01-14-03-46-32
       accessHash: '-8846023880153550211'
       username: vustex
       name: Vustex 𓃵
