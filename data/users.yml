@@ -572,7 +572,7 @@ arya-stark:
   profiles:
     - service: vk
       id: '820702664'
-      updated: 2026-01-14-07-24-45
+      updated: 2026-01-14-21-21-42
       username: id820702664
       name: Арья Старк
       avatar: store:/avatars/vk-689aa89d.jpg
@@ -1282,7 +1282,7 @@ darkness-rifho:
       deleted: true
     - service: tg
       id: '5704974271'
-      updated: 2026-01-13-20-24-13
+      updated: 2026-01-14-21-21-39
       accessHash: '3506423524566292179'
       username: C4H6O4
       name: Уна
@@ -2182,7 +2182,7 @@ goosevich76:
   profiles:
     - service: tg
       id: '5385620621'
-      updated: 2026-01-14-07-24-47
+      updated: 2026-01-14-21-21-39
       accessHash: '-7130473396589324830'
       username: horwwwaty
       name: Гузьйоувишщь
@@ -4290,7 +4290,7 @@ porsankka666:
   profiles:
     - service: vk
       id: '320093421'
-      updated: 2026-01-13-20-24-13
+      updated: 2026-01-14-21-21-39
       username: porsankka666
       name: Дмитрий Иванов-Соломин
       avatar: store:/avatars/vk-46213149.jpg
@@ -4731,7 +4731,7 @@ self-creating:
   profiles:
     - service: vk
       id: '50058433'
-      updated: 2026-01-13-20-24-13
+      updated: 2026-01-14-21-21-39
       username: self_creating
       name: Антон Коненков
       avatar: store:/avatars/vk-ef1ee023.jpg
@@ -4763,7 +4763,7 @@ sergey-b-2:
   profiles:
     - service: vk
       id: '1077446394'
-      updated: 2026-01-14-20-20-54
+      updated: 2026-01-14-21-21-42
       username: id1077446394
       name: Сергей Б
       avatar: store:/avatars/vk-5a7c7910.jpg
@@ -6031,7 +6031,7 @@ vladimir-mazevich:
   profiles:
     - service: vk
       id: '10623811'
-      updated: 2026-01-07-21-11-05
+      updated: 2026-01-14-21-21-42
       username: id10623811
       name: Владимир Мазевич
       avatar: store:/avatars/vk-183879ef.jpg
