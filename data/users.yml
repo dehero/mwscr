@@ -274,7 +274,7 @@ aleksey-na:
   profiles:
     - service: vk
       id: '45778737'
-      updated: 2026-01-10-18-34-36
+      updated: 2026-01-14-20-20-54
       username: id45778737
       name: Aleksey Na
       avatar: store:/avatars/vk-77942374.jpg
@@ -1385,7 +1385,7 @@ dehero:
     - type: channel
       service: tg
       id: '1264795946'
-      updated: 2026-01-14-19-19-05
+      updated: 2026-01-14-20-20-55
       accessHash: '-5789257269249675714'
       username: mwscr
       name: Morrowind Screenshots
@@ -4763,7 +4763,7 @@ sergey-b-2:
   profiles:
     - service: vk
       id: '1077446394'
-      updated: 2026-01-14-18-32-40
+      updated: 2026-01-14-20-20-54
       username: id1077446394
       name: Сергей Б
       avatar: store:/avatars/vk-5a7c7910.jpg
@@ -5478,7 +5478,7 @@ todor:
   profiles:
     - service: tg
       id: '1305695186'
-      updated: 2026-01-14-18-32-42
+      updated: 2026-01-14-20-20-54
       accessHash: '8819682207926865502'
       name: Todor
       avatar: store:/avatars/tg-5305295556123424826.jpg
