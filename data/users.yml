@@ -99,7 +99,7 @@ a2-enkelli:
   profiles:
     - service: tg
       id: '7258424423'
-      updated: 2026-01-13-18-30-13
+      updated: 2026-01-14-04-45-58
       accessHash: '969825927170686844'
       username: A2_Enkelli
       name: †† elli ††
@@ -418,7 +418,7 @@ andrey-yaprintsev:
   profiles:
     - service: vk
       id: '599320069'
-      updated: 2026-01-11-17-17-05
+      updated: 2026-01-14-04-45-59
       username: id599320069
       name: Андрей Япринцев
       avatar: store:/avatars/vk-4e415fa2.jpg
@@ -458,7 +458,7 @@ ansis:
   profiles:
     - service: tg
       id: '517050552'
-      updated: 2026-01-13-22-21-06
+      updated: 2026-01-14-04-46-13
       accessHash: '5231096655311395455'
       username: ansis
       name: ansis
@@ -524,7 +524,7 @@ artem-petrov:
   profiles:
     - service: vk
       id: '4238605'
-      updated: 2026-01-13-16-31-06
+      updated: 2026-01-14-04-46-01
       username: id4238605
       name: Артем Петров
       avatar: store:/avatars/vk-77942374.jpg
@@ -572,7 +572,7 @@ arya-stark:
   profiles:
     - service: vk
       id: '820702664'
-      updated: 2026-01-14-03-46-34
+      updated: 2026-01-14-04-46-04
       username: id820702664
       name: Арья Старк
       avatar: store:/avatars/vk-689aa89d.jpg
@@ -2124,7 +2124,7 @@ gleb-zheltuhin:
   profiles:
     - service: vk
       id: '29014473'
-      updated: 2026-01-13-14-25-10
+      updated: 2026-01-14-04-46-02
       username: gleb_zheltuhin
       name: Глеб Желтухин
       avatar: store:/avatars/vk-971eefc1.jpg
@@ -2182,7 +2182,7 @@ goosevich76:
   profiles:
     - service: tg
       id: '5385620621'
-      updated: 2026-01-13-20-24-13
+      updated: 2026-01-14-04-46-11
       accessHash: '-7130473396589324830'
       username: horwwwaty
       name: Гузьйоувишщь
@@ -2840,7 +2840,7 @@ kawazaky223:
   profiles:
     - service: tg
       id: '5641856113'
-      updated: 2026-01-14-03-46-33
+      updated: 2026-01-14-04-46-13
       accessHash: '7421309771527577818'
       username: Kawazaky223
       name: Максим
@@ -3329,7 +3329,7 @@ marylingoth2007:
   profiles:
     - service: vk
       id: '590330773'
-      updated: 2026-01-07-03-57-41
+      updated: 2026-01-14-04-45-57
       username: marylingoth2007
       name: Мэрилин Гот Скриптум
       avatar: store:/avatars/vk-678f5704.jpg
@@ -3379,7 +3379,7 @@ mbdtsmo:
   profiles:
     - service: tg
       id: '5093097514'
-      updated: 2026-01-10-18-31-10
+      updated: 2026-01-14-04-45-58
       accessHash: '-613358669572386334'
       username: mbdtsmo
       name: M Bdtsmo
@@ -4160,7 +4160,7 @@ peteevandrew:
   profiles:
     - service: vk
       id: '307619379'
-      updated: 2026-01-14-03-46-35
+      updated: 2026-01-14-04-45-59
       username: peteevandrew
       name: Андрей Петеев
       avatar: store:/avatars/vk-d3f26d8e.jpg
@@ -4763,7 +4763,7 @@ sergey-b-2:
   profiles:
     - service: vk
       id: '1077446394'
-      updated: 2026-01-13-20-24-13
+      updated: 2026-01-14-04-46-02
       username: id1077446394
       name: Сергей Б
       avatar: store:/avatars/vk-5a7c7910.jpg
@@ -5887,11 +5887,11 @@ v-vonderful-world:
   profiles:
     - service: tg
       id: '150947892'
-      updated: 2026-01-07-03-57-46
+      updated: 2026-01-14-04-46-06
       accessHash: '-5337457668406607581'
       username: VVonderfulWorld
       name: 𝔑𝔬𝔵
-      avatar: store:/avatars/tg-648316260000140047.jpg
+      avatar: store:/avatars/tg-648316260000140048.jpg
 vail-astor-zkiy:
   profiles:
     - service: tg
@@ -6121,7 +6121,7 @@ vustex:
   profiles:
     - service: tg
       id: '131249506'
-      updated: 2026-01-14-03-46-32
+      updated: 2026-01-14-04-45-55
       accessHash: '-8846023880153550211'
       username: vustex
       name: Vustex 𓃵

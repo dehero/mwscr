@@ -120,10 +120,10 @@
     - service: vk
       id: 2792
       published: 2025-10-28-18-16-59
-      updated: 2026-01-07-03-57-42
+      updated: 2026-01-14-04-45-57
       followers: 1489
       likes: 76
-      views: 1431
+      views: 1438
       reposts: 2
       comments: !c |-
         GwsCQCwSeI7VcUuhuNx4DVKP/yfuaUv4Zv1/kp1JbKcsiKzAikoiSM6lpqDULRPS4yQJCt88HSld
@@ -135,10 +135,10 @@
     - service: tg
       id: 1033
       published: 2025-10-28-18-17-04
-      updated: 2026-01-07-03-57-35
+      updated: 2026-01-14-04-45-56
       followers: 849
       likes: 60
-      views: 550
+      views: 555
 2018-01-05-guards-of-skyrim-mission-in-ebonheart:
   title: Guards of Skyrim Mission in Ebonheart
   titleRu: Стража миссии Скайрима в Эбенгарде
