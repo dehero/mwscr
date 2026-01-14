@@ -99,7 +99,7 @@ a2-enkelli:
   profiles:
     - service: tg
       id: '7258424423'
-      updated: 2026-01-14-04-45-58
+      updated: 2026-01-14-07-24-48
       accessHash: '969825927170686844'
       username: A2_Enkelli
       name: †† elli ††
@@ -458,7 +458,7 @@ ansis:
   profiles:
     - service: tg
       id: '517050552'
-      updated: 2026-01-14-05-23-42
+      updated: 2026-01-14-07-24-46
       accessHash: '5231096655311395455'
       username: ansis
       name: ansis
@@ -572,7 +572,7 @@ arya-stark:
   profiles:
     - service: vk
       id: '820702664'
-      updated: 2026-01-14-05-23-43
+      updated: 2026-01-14-07-24-45
       username: id820702664
       name: Арья Старк
       avatar: store:/avatars/vk-689aa89d.jpg
@@ -2124,7 +2124,7 @@ gleb-zheltuhin:
   profiles:
     - service: vk
       id: '29014473'
-      updated: 2026-01-14-04-46-02
+      updated: 2026-01-14-07-24-45
       username: gleb_zheltuhin
       name: Глеб Желтухин
       avatar: store:/avatars/vk-971eefc1.jpg
@@ -2174,7 +2174,7 @@ golden-morgan:
   profiles:
     - service: vk
       id: '157461309'
-      updated: 2026-01-13-20-24-17
+      updated: 2026-01-14-07-24-47
       username: golden_morgan
       name: Marco Polo
       avatar: store:/avatars/vk-f7f43d22.jpg
@@ -2182,7 +2182,7 @@ goosevich76:
   profiles:
     - service: tg
       id: '5385620621'
-      updated: 2026-01-14-04-46-11
+      updated: 2026-01-14-07-24-47
       accessHash: '-7130473396589324830'
       username: horwwwaty
       name: Гузьйоувишщь
@@ -2840,7 +2840,7 @@ kawazaky223:
   profiles:
     - service: tg
       id: '5641856113'
-      updated: 2026-01-14-05-23-42
+      updated: 2026-01-14-07-24-48
       accessHash: '7421309771527577818'
       username: Kawazaky223
       name: Максим
@@ -3792,7 +3792,7 @@ neulovimiy-djo:
   profiles:
     - service: vk
       id: '40753227'
-      updated: 2026-01-07-07-16-54
+      updated: 2026-01-14-07-24-47
       username: neulovimiy_djo
       name: Иван Чернозём
       avatar: store:/avatars/vk-7870da4f.jpg
@@ -6121,7 +6121,7 @@ vustex:
   profiles:
     - service: tg
       id: '131249506'
-      updated: 2026-01-14-06-32-56
+      updated: 2026-01-14-07-24-45
       accessHash: '-8846023880153550211'
       username: vustex
       name: Vustex 𓃵
