@@ -572,7 +572,7 @@ arya-stark:
   profiles:
     - service: vk
       id: '820702664'
-      updated: 2026-01-14-21-21-42
+      updated: 2026-01-15-22-20-58
       username: id820702664
       name: Арья Старк
       avatar: store:/avatars/vk-689aa89d.jpg
@@ -4290,7 +4290,7 @@ porsankka666:
   profiles:
     - service: vk
       id: '320093421'
-      updated: 2026-01-14-21-21-39
+      updated: 2026-01-15-22-20-58
       username: porsankka666
       name: Дмитрий Иванов-Соломин
       avatar: store:/avatars/vk-46213149.jpg
@@ -4731,7 +4731,7 @@ self-creating:
   profiles:
     - service: vk
       id: '50058433'
-      updated: 2026-01-14-21-21-39
+      updated: 2026-01-15-22-20-58
       username: self_creating
       name: Антон Коненков
       avatar: store:/avatars/vk-ef1ee023.jpg
@@ -4763,7 +4763,7 @@ sergey-b-2:
   profiles:
     - service: vk
       id: '1077446394'
-      updated: 2026-01-15-20-24-19
+      updated: 2026-01-15-22-20-58
       username: id1077446394
       name: Сергей Б
       avatar: store:/avatars/vk-5a7c7910.jpg
