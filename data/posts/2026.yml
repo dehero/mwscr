@@ -331,23 +331,57 @@
       id: DTbBM0Gl7rM
       mediaId: '17885182569425627'
       published: 2026-01-12-19-21-17
-      updated: 2026-01-14-19-19-01
+      updated: 2026-01-15-19-23-37
       followers: 1609
-      likes: 44
+      likes: 46
     - service: vk
       id: 3010
       published: 2026-01-12-19-21-23
-      updated: 2026-01-14-19-18-58
+      updated: 2026-01-15-19-23-38
       followers: 1570
-      likes: 57
-      views: 1282
+      likes: 66
+      views: 1658
+      reposts: 2
+      comments: !c |-
+        G30BQCwSeA71OaOh8bk1jfjnn5ON8J/ZYFMbSNGsADtB4JEm92lQcxqXbev4Ei+lFF6ouoWmBjn9
+        3o3BeISkVCUjli1lZ08PtC1AbFmLWtASbMfzWX6gA0V0uN4wx+NSpF2Ykv7X+1evLs/PY/neu90l
+        /3V6JFAYxgRpgt49dUrwl3EuRvdc/R5bm1Rb3+0NRipZGOrBlT3DHes8IlTRSuV63xx4P5THeLKe
+        YiA+/DvY2ZGJh5Bv+tiMZBas1jaUokUIn0JxAbCS7myXnTQGI1rhkmhIRHeCA2Bitg0=
     - service: tg
       id: 1123
       published: 2026-01-12-19-21-26
-      updated: 2026-01-14-19-19-03
+      updated: 2026-01-15-19-23-37
       followers: 880
-      likes: 52
-      views: 274
+      likes: 53
+      views: 299
       comments: !c |-
         iyaAkZPLQnm7Orv4AACmdnVzdGV42TpJdCBsb29rcyBjb3p5IHNvbWVob3cuIERlc3BpdGUgdGhl
         IG1ldGFsIHNrZWxldG9uIGFuZCBydXN0Aw==
+2026-01-15-1-tears-of-grazelands:
+  title: Tears of Grazelands
+  titleRu: Слёзы Грейзленда
+  placement: Outdoors
+  location: Grazelands Region
+  content: store:/shots/2026-01-15-1-tears-of-grazelands.png
+  trash: store:/trash/dehero.2024-02-17-10-55-28.png
+  type: shot
+  author: dehero
+  engine: OpenMW
+  tags:
+    - tree
+    - rain
+  mark: B1
+  posts:
+    - service: ig
+      id: DTiv6w_EWXm
+      mediaId: '18103546063814944'
+      published: 2026-01-15-19-24-11
+      followers: 1609
+    - service: vk
+      id: 3013
+      published: 2026-01-15-19-24-16
+      followers: 1577
+    - service: tg
+      id: 1124
+      published: 2026-01-15-19-24-20
+      followers: 883
