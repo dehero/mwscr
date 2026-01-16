@@ -4763,7 +4763,7 @@ sergey-b-2:
   profiles:
     - service: vk
       id: '1077446394'
-      updated: 2026-01-15-22-20-58
+      updated: 2026-01-16-20-21-24
       username: id1077446394
       name: Сергей Б
       avatar: store:/avatars/vk-5a7c7910.jpg
@@ -6121,7 +6121,7 @@ vustex:
   profiles:
     - service: tg
       id: '131249506'
-      updated: 2026-01-15-19-23-37
+      updated: 2026-01-16-20-21-21
       accessHash: '-8846023880153550211'
       username: vustex
       name: Vustex 𓃵
