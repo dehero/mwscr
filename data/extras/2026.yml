@@ -160,3 +160,43 @@
       updated: 2026-01-16-18-31-32
       followers: 879
       views: 168
+2026-01-17-1-resque-of-tarhiel:
+  title: Resque of Tarhiel
+  titleRu: Спасение Тархиеля
+  description: |-
+    Issued for the incredible rescue of an enchanter named Tarhiel, who repeatedly died near Seyda Neen
+    during the experiment with the scroll of Icarian Flight.
+
+    [Original message in Telegram](https://t.me/mwflw/3404)
+  descriptionRu: |-
+    Выдано за невероятное спасение зачарователя по имени Тархиэль, раз за разом погибающего близ Сейда Нина
+    при эксперименте со свитком Полёта Икара.
+
+    [Оригинальное сообщение в Telegram](https://t.me/mwflw/3404)
+  content:
+    - store:/photos/2026-01-17-1-resque-of-tarhiel-0.jpg
+    - store:/photos/2026-01-17-1-resque-of-tarhiel-1.jpg
+  snapshot:
+    - store:/snapshots/2026-01-17-1-resque-of-tarhiel-0.png
+    - store:/snapshots/2026-01-17-1-resque-of-tarhiel-1.png
+  type: achievement
+  author: arseniy-dyak
+  created: 2025-04-17
+  mark: B1
+  posts:
+    - type: story
+      service: ig
+      id: DTngJU7FqWU
+      mediaId: '17898438177371008'
+      published: 2026-01-17-15-42-33
+      followers: 1608
+    - type: story
+      service: vk
+      id: 456239025
+      published: 2026-01-17-15-42-44
+      followers: 1580
+    - type: story
+      service: tg
+      id: 5
+      published: 2026-01-17-15-42-52
+      followers: 883
