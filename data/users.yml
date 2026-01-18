@@ -99,7 +99,7 @@ a2-enkelli:
   profiles:
     - service: tg
       id: '7258424423'
-      updated: 2026-01-18-18-28-53
+      updated: 2026-01-18-19-43-11
       accessHash: '969825927170686844'
       username: A2_Enkelli
       name: †† elli ††
@@ -108,7 +108,7 @@ aarychagoff:
   profiles:
     - service: tg
       id: '1343549669'
-      updated: 2026-01-17-19-22-57
+      updated: 2026-01-18-19-43-11
       accessHash: '-8044934406214364524'
       username: aarychagoff
       name: Andrei Rychagov
@@ -349,6 +349,10 @@ all-promotion-world-2:
       updated: 2025-06-27-10-29-44
       username: all._.promotion._.world.2
       avatar: store:/avatars/ig-c4733c73.jpg
+allinallart:
+  profiles:
+    - service: ig
+      username: allinallart
 allor:
   profiles:
     - service: vk
@@ -556,7 +560,7 @@ artyom-melikhoff:
   profiles:
     - service: vk
       id: '299405149'
-      updated: 2026-01-18-18-28-36
+      updated: 2026-01-18-19-43-11
       username: artyom_melikhoff
       name: Артём Мелихов
       avatar: store:/avatars/vk-4c16e471.jpg
@@ -2207,6 +2211,10 @@ grapplerbaki:
       username: grapplerbaki
       name: Егор Строчков
       avatar: store:/avatars/vk-c6c3d8e6.jpg
+groggy-gregg:
+  profiles:
+    - service: ig
+      username: groggy.gregg
 grozovetz:
   profiles:
     - service: tg
@@ -2840,7 +2848,7 @@ kawazaky223:
   profiles:
     - service: tg
       id: '5641856113'
-      updated: 2026-01-18-18-29-07
+      updated: 2026-01-18-19-43-12
       accessHash: '7421309771527577818'
       username: Kawazaky223
       name: Максим
@@ -2870,7 +2878,7 @@ kevy-c:
   profiles:
     - service: tg
       id: '5067683234'
-      updated: 2026-01-18-18-28-04
+      updated: 2026-01-18-19-15-10
       accessHash: '-903667913374325979'
       username: Kevy_c
       name: Dash
