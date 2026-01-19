@@ -382,17 +382,17 @@
     - service: vk
       id: 3013
       published: 2026-01-15-19-24-16
-      updated: 2026-01-18-19-15-06
+      updated: 2026-01-19-19-19-23
       followers: 1577
-      likes: 75
-      views: 657
+      likes: 79
+      views: 740
       reposts: 1
     - service: tg
       id: 1124
       published: 2026-01-15-19-24-20
-      updated: 2026-01-18-19-15-11
+      updated: 2026-01-19-19-19-27
       followers: 883
-      likes: 55
-      views: 254
+      likes: 58
+      views: 318
       comments: !c CwuAkZPLQnm9B41zgACma2V2eS1jpPCfpoAD
 2026-01-19-1-lich: 2018-06-13-lich
