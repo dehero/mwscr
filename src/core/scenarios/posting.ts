@@ -66,7 +66,7 @@ const redrawing: PostingScenario = {
 
 const shot: PostingScenario = {
   title: 'shot',
-  sourceManagers: ['drafts'], // 'posts'],
+  sourceManagers: ['drafts', 'posts'],
   targetManager: 'posts',
   postingRules: [afterHour(18), lastPostedDaysAgo(1)],
   postCandidateRules: [
