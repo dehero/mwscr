@@ -7214,23 +7214,26 @@
       id: DTtAC_7D2Gq
       mediaId: '17892911562264303'
       published: 2026-01-19-18-57-33
-      updated: 2026-01-19-22-20-52
+      updated: 2026-01-19-23-19-56
       followers: 1608
-      likes: 29
+      likes: 31
     - service: vk
       id: 3014
       published: 2026-01-19-18-57-39
-      updated: 2026-01-19-22-20-49
+      updated: 2026-01-19-23-19-57
       followers: 1580
-      likes: 17
-      views: 150
+      likes: 18
+      views: 160
+      comments: !c |-
+        CySAkZPLQnm9h1B7gACxYW5kcmV5LXlhcHJpbnRzZXbZKtCf0L7QvdGP0YLQvdC+LiDQkCDRgdC+
+        INGJ0LjRgtC+0Lwg0LrRgtC+PwM=
     - service: tg
       id: 1125
       published: 2026-01-19-18-57-43
-      updated: 2026-01-19-22-20-55
+      updated: 2026-01-19-23-19-58
       followers: 884
-      likes: 34
-      views: 139
+      likes: 36
+      views: 147
       comments: !c CwuAkZPLQnm9evSqAACma2V2eS1jpPCfpoAD
 2018-06-14-the-blue-corridor:
   title: The Blue Corridor
