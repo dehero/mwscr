@@ -931,16 +931,16 @@
       id: DOl7ewGDYaa
       mediaId: '18307062892223016'
       published: 2025-09-14-18-25-57
-      updated: 2026-01-12-18-31-57
+      updated: 2026-01-19-18-56-48
       followers: 1584
       likes: 69
     - service: vk
       id: 2651
       published: 2025-09-14-18-26-04
-      updated: 2026-01-12-18-32-09
+      updated: 2026-01-19-18-56-49
       followers: 1419
       likes: 59
-      views: 1140
+      views: 1142
       reposts: 2
       comments: !c |-
         G1oA4MW+Py2EAQloJauUWOjbT7j08YDUcgdS9+E1IZpwBJICyFpevnRWf6uWC53hOa7vMIk5vut4
@@ -948,10 +948,10 @@
     - service: tg
       id: 983
       published: 2025-09-14-18-26-07
-      updated: 2026-01-12-18-31-52
+      updated: 2026-01-19-18-56-40
       followers: 797
       likes: 64
-      views: 557
+      views: 563
       comments: !c |-
         CyiAk5PLQnmUpgwVgACrYm9icm92bmlrb3ak8J+PsJPLQnmUn1vtAACqc29sLXN1bmljaKTwn4yd
         k8tCeZSbFbAAAKtrYXdhemFreTIyM6Twn5iOAw==
@@ -2005,16 +2005,16 @@
       id: DPcADwVDkrs
       mediaId: '17943184098066820'
       published: 2025-10-05-18-24-58
-      updated: 2026-01-12-18-31-55
+      updated: 2026-01-19-18-56-44
       followers: 1579
       likes: 84
     - service: vk
       id: 2712
       published: 2025-10-05-18-25-05
-      updated: 2026-01-12-18-32-03
+      updated: 2026-01-19-18-56-45
       followers: 1445
       likes: 88
-      views: 1397
+      views: 1399
       reposts: 4
       comments: !c |-
         G64CAByH6cZHNj4+uSY0ExWycFWi4lrdvqxFaZRDWCDBCALxCI2ZlQRVJjPCH4fF4Gj6ly/b2lsw
@@ -2027,10 +2027,10 @@
     - service: tg
       id: 1007
       published: 2025-10-05-18-25-10
-      updated: 2026-01-12-18-31-47
+      updated: 2026-01-19-18-56-34
       followers: 832
       likes: 74
-      views: 621
+      views: 625
       comments: !c iw2AkZPLQnmbWxiJgACra2F3YXpha3kyMjOk8J+NhAM=
 2018-02-16-draugr:
   title: Draugr
@@ -7210,6 +7210,19 @@
       comments: !c |-
         CymAkpPLQnkKdodFgACrc3Bhc25ha3JvdmmqQGhhcmRwb3Nlc5PLQnkKAaQtAACzYmVmcmllbmRl
         ZC1zdHJhbmdlcrJCYWQuIEFzcy4g8J+UpfCfkoAD
+    - service: ig
+      id: DTtAC_7D2Gq
+      mediaId: '17892911562264303'
+      published: 2026-01-19-18-57-33
+      followers: 1608
+    - service: vk
+      id: 3014
+      published: 2026-01-19-18-57-39
+      followers: 1580
+    - service: tg
+      id: 1125
+      published: 2026-01-19-18-57-43
+      followers: 884
 2018-06-14-the-blue-corridor:
   title: The Blue Corridor
   titleRu: Синий коридор
@@ -7890,16 +7903,16 @@
       id: DQSDh_ekZfS
       mediaId: '17990028470889935'
       published: 2025-10-26-18-14-17
-      updated: 2026-01-12-18-31-50
+      updated: 2026-01-19-18-56-39
       followers: 1588
       likes: 65
     - service: vk
       id: 2780
       published: 2025-10-26-18-14-23
-      updated: 2026-01-12-18-31-52
+      updated: 2026-01-19-18-56-36
       followers: 1486
       likes: 90
-      views: 1592
+      views: 1595
       comments: !c |-
         G7sBgJwHtm0nC/aGvZoZm9LoeTmxhD/ltkUejgcy4GVCzZIRTO6RzdxWKUG6YEjn2MHNuRnyx/Tq
         NmsWLIZusaX9RxH+I5gN1VBsyaTOrZsszUQxNtw+x2AEsTykyNMTDcxrQcQJFFiE6fW7XOuCJzvd
@@ -7909,10 +7922,10 @@
     - service: tg
       id: 1028
       published: 2025-10-26-18-14-29
-      updated: 2026-01-12-18-31-42
+      updated: 2026-01-19-18-56-29
       followers: 848
       likes: 64
-      views: 571
+      views: 575
       comments: !c |-
         CzSAkpPLQnmiQp0oAAClYW5zaXPZNEl0IG1heSBub3QgZmVlbCB0b28gaG9tZXksIGJ1dCBpdCdz
         IGhvbWUgbm9uZXRoZWxlc3OTy0J5okHdBIAAq2thd2F6YWt5MjIzq/CfmLbigI3wn4yrAw==
@@ -11067,16 +11080,16 @@
       id: DQkFDBYjHfY
       mediaId: '17877549345425801'
       published: 2025-11-02-18-13-51
-      updated: 2026-01-12-18-31-48
+      updated: 2026-01-19-18-56-37
       followers: 1588
       likes: 54
     - service: vk
       id: 2808
       published: 2025-11-02-18-13-57
-      updated: 2026-01-12-18-31-49
+      updated: 2026-01-19-18-56-32
       followers: 1495
       likes: 64
-      views: 797
+      views: 801
       reposts: 2
       comments: !c |-
         ix2AkZPLQnmkg7uWgACweWVsbG93LXN1Ym1hcmluZb/QkiDRjtGA0YLQtSDRgyDRiNCw0LzQsNC9
@@ -11084,10 +11097,10 @@
     - service: tg
       id: 1038
       published: 2025-11-02-18-14-01
-      updated: 2026-01-12-18-31-39
+      updated: 2026-01-19-18-56-27
       followers: 851
       likes: 76
-      views: 548
+      views: 554
       comments: !c iw2AkZPLQnmk6oWNgACra2F3YXpha3kyMjOk8J+MmQM=
 2018-09-07-red-light:
   title: Red Light
