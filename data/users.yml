@@ -420,7 +420,7 @@ andrey-yaprintsev:
   profiles:
     - service: vk
       id: '599320069'
-      updated: 2026-01-20-20-12-07
+      updated: 2026-01-20-21-20-36
       username: id599320069
       name: Андрей Япринцев
       avatar: store:/avatars/vk-4e415fa2.jpg
@@ -1284,7 +1284,7 @@ darkness-rifho:
       deleted: true
     - service: tg
       id: '5704974271'
-      updated: 2026-01-20-16-35-12
+      updated: 2026-01-20-21-20-39
       accessHash: '3506423524566292179'
       username: C4H6O4
       name: Уна
@@ -2176,10 +2176,10 @@ golden-morgan:
   profiles:
     - service: vk
       id: '157461309'
-      updated: 2026-01-14-07-24-47
+      updated: 2026-01-20-21-20-44
       username: golden_morgan
       name: Marco Polo
-      avatar: store:/avatars/vk-f7f43d22.jpg
+      avatar: store:/avatars/vk-bfb22fe0.jpg
 goosevich76:
   profiles:
     - service: tg
@@ -2820,12 +2820,12 @@ kaltesblut:
   profiles:
     - service: tg
       id: '524542719'
-      updated: 2025-12-23-21-20-13
+      updated: 2026-01-20-21-20-55
       accessHash: '-287837872153954834'
       username: kaltesblut
       botChatId: 524542719
       name: (ಥ ͜ʖಥ)╭∩╮
-      avatar: store:/avatars/tg-2252893823916156889.jpg
+      avatar: store:/avatars/tg-2252893823919917827.jpg
 katlincase:
   profiles:
     - service: ig
@@ -2876,7 +2876,7 @@ kevy-c:
   profiles:
     - service: tg
       id: '5067683234'
-      updated: 2026-01-20-20-12-07
+      updated: 2026-01-20-21-20-40
       accessHash: '-903667913374325979'
       username: Kevy_c
       name: Dash
@@ -3278,7 +3278,7 @@ maksim-kopytov:
   profiles:
     - service: vk
       id: '799521846'
-      updated: 2026-01-19-18-57-05
+      updated: 2026-01-20-21-20-41
       username: id799521846
       name: Максим Копытов
       avatar: store:/avatars/vk-0da189cf.jpg
@@ -4777,7 +4777,7 @@ sergey-churbanov:
   profiles:
     - service: vk
       id: '1060712354'
-      updated: 2026-01-20-16-35-22
+      updated: 2026-01-20-21-20-40
       username: id1060712354
       name: Сергей Чурбанов
       avatar: store:/avatars/vk-6499ce8d.jpg
