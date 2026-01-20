@@ -420,7 +420,7 @@ andrey-yaprintsev:
   profiles:
     - service: vk
       id: '599320069'
-      updated: 2026-01-20-22-22-39
+      updated: 2026-01-20-23-21-22
       username: id599320069
       name: Андрей Япринцев
       avatar: store:/avatars/vk-4e415fa2.jpg
@@ -1284,7 +1284,7 @@ darkness-rifho:
       deleted: true
     - service: tg
       id: '5704974271'
-      updated: 2026-01-20-22-22-37
+      updated: 2026-01-20-23-21-19
       accessHash: '3506423524566292179'
       username: C4H6O4
       name: Уна
@@ -2876,7 +2876,7 @@ kevy-c:
   profiles:
     - service: tg
       id: '5067683234'
-      updated: 2026-01-20-22-22-40
+      updated: 2026-01-20-23-21-21
       accessHash: '-903667913374325979'
       username: Kevy_c
       name: Dash
