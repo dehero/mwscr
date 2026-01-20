@@ -420,7 +420,7 @@ andrey-yaprintsev:
   profiles:
     - service: vk
       id: '599320069'
-      updated: 2026-01-20-18-35-06
+      updated: 2026-01-20-20-12-07
       username: id599320069
       name: Андрей Япринцев
       avatar: store:/avatars/vk-4e415fa2.jpg
@@ -2876,7 +2876,7 @@ kevy-c:
   profiles:
     - service: tg
       id: '5067683234'
-      updated: 2026-01-20-18-35-08
+      updated: 2026-01-20-20-12-07
       accessHash: '-903667913374325979'
       username: Kevy_c
       name: Dash

@@ -7214,16 +7214,16 @@
       id: DTtAC_7D2Gq
       mediaId: '17892911562264303'
       published: 2026-01-19-18-57-33
-      updated: 2026-01-20-18-35-09
+      updated: 2026-01-20-20-12-03
       followers: 1608
       likes: 60
     - service: vk
       id: 3014
       published: 2026-01-19-18-57-39
-      updated: 2026-01-20-18-35-07
+      updated: 2026-01-20-20-12-07
       followers: 1580
-      likes: 48
-      views: 428
+      likes: 49
+      views: 440
       reposts: 1
       comments: !c |-
         CySAkZPLQnm9h1B7gACxYW5kcmV5LXlhcHJpbnRzZXbZKtCf0L7QvdGP0YLQvdC+LiDQkCDRgdC+
@@ -7231,10 +7231,10 @@
     - service: tg
       id: 1125
       published: 2026-01-19-18-57-43
-      updated: 2026-01-20-18-35-08
+      updated: 2026-01-20-20-12-06
       followers: 884
       likes: 55
-      views: 218
+      views: 235
       comments: !c CwuAkZPLQnm9evSqAACma2V2eS1jpPCfpoAD
 2018-06-14-the-blue-corridor:
   title: The Blue Corridor
@@ -7300,15 +7300,25 @@
       id: DTviUxwDGCz
       mediaId: '17949893445076024'
       published: 2026-01-20-18-35-33
+      updated: 2026-01-20-20-12-02
       followers: 1607
+      likes: 12
     - service: vk
       id: 3016
       published: 2026-01-20-18-35-39
+      updated: 2026-01-20-20-11-58
       followers: 1580
+      likes: 10
+      views: 89
+      reposts: 1
     - service: tg
       id: 1126
       published: 2026-01-20-18-35-43
+      updated: 2026-01-20-20-12-05
       followers: 885
+      likes: 30
+      views: 99
+      comments: !c CwuAkZPLQnm9zUiXgACma2V2eS1jpPCfpoAD
 2018-06-16-stone-trail:
   title: Stone Trail
   titleRu: Каменная тропа
