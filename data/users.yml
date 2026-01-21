@@ -420,7 +420,7 @@ andrey-yaprintsev:
   profiles:
     - service: vk
       id: '599320069'
-      updated: 2026-01-21-13-45-01
+      updated: 2026-01-21-14-30-02
       username: id599320069
       name: Андрей Япринцев
       avatar: store:/avatars/vk-4e415fa2.jpg
@@ -574,7 +574,7 @@ arya-stark:
   profiles:
     - service: vk
       id: '820702664'
-      updated: 2026-01-21-13-44-58
+      updated: 2026-01-21-14-29-59
       username: id820702664
       name: Арья Старк
       avatar: store:/avatars/vk-689aa89d.jpg
@@ -1284,7 +1284,7 @@ darkness-rifho:
       deleted: true
     - service: tg
       id: '5704974271'
-      updated: 2026-01-21-13-44-58
+      updated: 2026-01-21-14-30-00
       accessHash: '3506423524566292179'
       username: C4H6O4
       name: Уна
@@ -2876,7 +2876,7 @@ kevy-c:
   profiles:
     - service: tg
       id: '5067683234'
-      updated: 2026-01-21-13-45-00
+      updated: 2026-01-21-14-30-01
       accessHash: '-903667913374325979'
       username: Kevy_c
       name: Dash
@@ -3187,7 +3187,7 @@ lwumbazavr:
   profiles:
     - service: tg
       id: '1950862189'
-      updated: 2025-12-24-14-20-15
+      updated: 2026-01-21-14-30-07
       accessHash: '-424787795975012793'
       username: Lwumbazavr
       botChatId: 1950862189
