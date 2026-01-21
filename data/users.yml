@@ -574,7 +574,7 @@ arya-stark:
   profiles:
     - service: vk
       id: '820702664'
-      updated: 2026-01-21-18-41-25
+      updated: 2026-01-21-19-26-27
       username: id820702664
       name: Арья Старк
       avatar: store:/avatars/vk-689aa89d.jpg
@@ -1284,7 +1284,7 @@ darkness-rifho:
       deleted: true
     - service: tg
       id: '5704974271'
-      updated: 2026-01-21-18-41-26
+      updated: 2026-01-21-19-26-26
       accessHash: '3506423524566292179'
       username: C4H6O4
       name: Уна
@@ -1367,7 +1367,7 @@ dehero:
       avatar: store:/avatars/gh-c8afe641.jpg
     - service: vk
       id: '3652910'
-      updated: 2026-01-20-16-35-21
+      updated: 2026-01-21-19-26-31
       username: dehero
       name: Антон Курьянов
       avatar: store:/avatars/vk-5356f76e.jpg
@@ -1387,7 +1387,7 @@ dehero:
     - type: channel
       service: tg
       id: '1264795946'
-      updated: 2026-01-21-18-41-33
+      updated: 2026-01-21-19-26-29
       accessHash: '-5789257269249675714'
       username: mwscr
       name: Morrowind Screenshots
@@ -1517,7 +1517,7 @@ dismasterfrane:
   profiles:
     - service: tg
       id: '267540082'
-      updated: 2026-01-17-19-26-09
+      updated: 2026-01-21-19-26-29
       accessHash: '-7587460155502921699'
       username: dismasterfrane
       name: '🏴‍☠️ Dismaster FraNe #osrpizza 🍕'
@@ -1776,7 +1776,7 @@ eldrad:
   profiles:
     - service: tg
       id: '398125107'
-      updated: 2026-01-17-19-25-14
+      updated: 2026-01-21-19-26-28
       accessHash: '-8692024594567772976'
       username: Master_Eldrad
       botChatId: 398125107
@@ -2091,7 +2091,7 @@ ghosr1368:
   profiles:
     - service: tg
       id: '6353853685'
-      updated: 2026-01-21-18-41-31
+      updated: 2026-01-21-19-26-30
       accessHash: '2523169162736182941'
       username: Pike27378273
       name: GHOST_141
@@ -2465,7 +2465,7 @@ ilya-denisov:
   profiles:
     - service: vk
       id: '134482858'
-      updated: 2026-01-18-18-28-41
+      updated: 2026-01-21-19-26-27
       username: id134482858
       name: Илья Денисов
       avatar: store:/avatars/vk-45d9d8dd.jpg
@@ -2796,7 +2796,7 @@ julypaint:
   profiles:
     - service: vk
       id: '43514981'
-      updated: 2026-01-14-19-19-05
+      updated: 2026-01-21-19-26-30
       username: julypaint
       name: Юлия Черняева
       avatar: store:/avatars/vk-a02c10d6.jpg
@@ -2876,7 +2876,7 @@ kevy-c:
   profiles:
     - service: tg
       id: '5067683234'
-      updated: 2026-01-21-18-41-28
+      updated: 2026-01-21-19-26-30
       accessHash: '-903667913374325979'
       username: Kevy_c
       name: Dash
@@ -3443,7 +3443,7 @@ mibrnd:
   profiles:
     - service: vk
       id: '853706470'
-      updated: 2026-01-17-19-23-24
+      updated: 2026-01-21-19-26-30
       username: mibrnd
       name: Михаил Барановский
       avatar: store:/avatars/vk-909337ed.jpg
@@ -3832,7 +3832,7 @@ nitz1992:
   profiles:
     - service: vk
       id: '5778432'
-      updated: 2026-01-17-19-45-10
+      updated: 2026-01-21-19-26-30
       username: nitz1992
       name: Максим Королёв
       avatar: store:/avatars/vk-7056ef15.jpg
@@ -6307,7 +6307,7 @@ yaroslav-brilinskiy:
   profiles:
     - service: vk
       id: '272012426'
-      updated: 2026-01-14-19-19-04
+      updated: 2026-01-21-19-26-29
       username: id272012426
       name: Ярослав Брилинский
       avatar: store:/avatars/vk-65026c7d.jpg

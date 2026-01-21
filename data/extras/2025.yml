@@ -701,18 +701,18 @@
     - service: vk
       id: 2902
       published: 2025-11-30-15-16-00
-      updated: 2026-01-14-19-19-07
+      updated: 2026-01-21-19-26-31
       followers: 1532
-      likes: 48
-      views: 656
+      likes: 49
+      views: 667
       reposts: 5
     - service: tg
       id: 1074
       published: 2025-11-30-15-16-00
-      updated: 2026-01-14-19-19-06
+      updated: 2026-01-21-19-26-31
       followers: 867
       likes: 40
-      views: 587
+      views: 597
     - service: ig
       id: DUMMY
       mediaId: ''
@@ -742,32 +742,31 @@
     - service: vk
       id: 2972
       published: 2025-12-26-14-08-00
-      updated: 2026-01-14-19-19-06
+      updated: 2026-01-21-19-26-31
       followers: 1549
-      likes: 58
-      views: 939
+      likes: 59
+      views: 950
       reposts: 2
       comments: !c |-
-        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
+        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
+        vkKjpF4VnON4iEHuCg==
     - service: tg
       id: 1097
       published: 2025-12-26-14-08-00
-      updated: 2026-01-14-19-19-05
+      updated: 2026-01-21-19-26-30
       followers: 881
       likes: 52
-      views: 653
+      views: 677
       comments: !c |-
         G9wCAIzTFfMsjfLpf+cysyQ0ECiC51EVc0C5ArnOIZAF+pWdvM1xCrd1HFxT9PXpQfjys7i3Bj70
         AW4axTKFuon6XxfDX4aHnyqN89XoGoRWsY8XGd6OgWX6vZw1ztYYg5IJxfh4PxbdUnZ+QcGQMGeq
