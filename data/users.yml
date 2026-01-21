@@ -99,7 +99,7 @@ a2-enkelli:
   profiles:
     - service: tg
       id: '7258424423'
-      updated: 2026-01-21-05-28-27
+      updated: 2026-01-21-07-27-47
       accessHash: '969825927170686844'
       deleted: true
 aarychagoff:
@@ -420,7 +420,7 @@ andrey-yaprintsev:
   profiles:
     - service: vk
       id: '599320069'
-      updated: 2026-01-21-06-35-41
+      updated: 2026-01-21-07-27-46
       username: id599320069
       name: Андрей Япринцев
       avatar: store:/avatars/vk-4e415fa2.jpg
@@ -460,7 +460,7 @@ ansis:
   profiles:
     - service: tg
       id: '517050552'
-      updated: 2026-01-21-05-28-34
+      updated: 2026-01-21-07-27-44
       accessHash: '5231096655311395455'
       username: ansis
       name: ansis
@@ -574,7 +574,7 @@ arya-stark:
   profiles:
     - service: vk
       id: '820702664'
-      updated: 2026-01-21-06-35-38
+      updated: 2026-01-21-07-27-48
       username: id820702664
       name: Арья Старк
       avatar: store:/avatars/vk-689aa89d.jpg
@@ -1284,7 +1284,7 @@ darkness-rifho:
       deleted: true
     - service: tg
       id: '5704974271'
-      updated: 2026-01-21-06-35-39
+      updated: 2026-01-21-07-27-40
       accessHash: '3506423524566292179'
       username: C4H6O4
       name: Уна
@@ -2126,7 +2126,7 @@ gleb-zheltuhin:
   profiles:
     - service: vk
       id: '29014473'
-      updated: 2026-01-21-05-28-31
+      updated: 2026-01-21-07-27-48
       username: gleb_zheltuhin
       name: Глеб Желтухин
       avatar: store:/avatars/vk-971eefc1.jpg
@@ -2176,7 +2176,7 @@ golden-morgan:
   profiles:
     - service: vk
       id: '157461309'
-      updated: 2026-01-20-21-20-44
+      updated: 2026-01-21-07-27-50
       username: golden_morgan
       name: Marco Polo
       avatar: store:/avatars/vk-bfb22fe0.jpg
@@ -2184,7 +2184,7 @@ goosevich76:
   profiles:
     - service: tg
       id: '5385620621'
-      updated: 2026-01-21-05-28-28
+      updated: 2026-01-21-07-27-46
       accessHash: '-7130473396589324830'
       username: horwwwaty
       name: choven
@@ -2846,7 +2846,7 @@ kawazaky223:
   profiles:
     - service: tg
       id: '5641856113'
-      updated: 2026-01-21-05-28-33
+      updated: 2026-01-21-07-27-48
       accessHash: '7421309771527577818'
       username: Kawazaky223
       name: Максим
@@ -2876,7 +2876,7 @@ kevy-c:
   profiles:
     - service: tg
       id: '5067683234'
-      updated: 2026-01-21-06-35-40
+      updated: 2026-01-21-07-27-41
       accessHash: '-903667913374325979'
       username: Kevy_c
       name: Dash
@@ -3798,7 +3798,7 @@ neulovimiy-djo:
   profiles:
     - service: vk
       id: '40753227'
-      updated: 2026-01-14-07-24-47
+      updated: 2026-01-21-07-27-50
       username: neulovimiy_djo
       name: Иван Чернозём
       avatar: store:/avatars/vk-7870da4f.jpg
