@@ -150,7 +150,7 @@ adonis-vernaliis:
   profiles:
     - service: tg
       id: '991525408'
-      updated: 2025-12-24-09-25-16
+      updated: 2026-01-21-09-32-01
       accessHash: '7239172452363329644'
       username: AdonisVernaliis
       botChatId: 991525408
@@ -420,7 +420,7 @@ andrey-yaprintsev:
   profiles:
     - service: vk
       id: '599320069'
-      updated: 2026-01-21-08-31-08
+      updated: 2026-01-21-09-31-56
       username: id599320069
       name: Андрей Япринцев
       avatar: store:/avatars/vk-4e415fa2.jpg
@@ -574,7 +574,7 @@ arya-stark:
   profiles:
     - service: vk
       id: '820702664'
-      updated: 2026-01-21-08-31-06
+      updated: 2026-01-21-09-31-53
       username: id820702664
       name: Арья Старк
       avatar: store:/avatars/vk-689aa89d.jpg
@@ -1284,7 +1284,7 @@ darkness-rifho:
       deleted: true
     - service: tg
       id: '5704974271'
-      updated: 2026-01-21-08-31-07
+      updated: 2026-01-21-09-31-55
       accessHash: '3506423524566292179'
       username: C4H6O4
       name: Уна
@@ -2876,7 +2876,7 @@ kevy-c:
   profiles:
     - service: tg
       id: '5067683234'
-      updated: 2026-01-21-08-31-08
+      updated: 2026-01-21-09-31-58
       accessHash: '-903667913374325979'
       username: Kevy_c
       name: Dash
