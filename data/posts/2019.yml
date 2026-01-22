@@ -706,24 +706,29 @@
       id: DTyH2LzDy0H
       mediaId: '18051578093693758'
       published: 2026-01-21-18-41-54
-      updated: 2026-01-22-07-27-01
+      updated: 2026-01-22-08-31-07
       followers: 1608
-      likes: 37
+      likes: 39
     - service: vk
       id: 3018
       published: 2026-01-21-18-42-05
-      updated: 2026-01-22-07-26-57
+      updated: 2026-01-22-08-31-11
       followers: 1581
-      likes: 15
-      views: 118
+      likes: 19
+      views: 141
       reposts: 1
+      comments: !c |-
+        GyMBACwSeC50cymGK8M02UdF3OISeQ0Mm8QiTfagdDMIOyPMhP10FJqVPyDbVpt0szVs94iC4+0z
+        uTxtHTNWhkYnB3JQPLUIMwn1S6j0RDkP6fizY8wiknzef8bi0fEdsMGT8bi8cLiem9CG2ffOmwjJ
+        ZBbykfjMYLLm6JaeiO3dMZZzSEsu/qpejoTBRzbdp6yztI8aLroauQw6hQ5jIgcJijKm6Z6lphZD
+        LVSURWXSXLiwf1vc
     - service: tg
       id: 1127
       published: 2026-01-21-18-42-09
-      updated: 2026-01-22-07-26-58
+      updated: 2026-01-22-08-31-04
       followers: 886
       likes: 43
-      views: 166
+      views: 171
 2019-02-21-skaal-lantern:
   title: Skaal Lantern
   titleRu: Фонарь скаалов
