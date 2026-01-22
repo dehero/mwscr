@@ -313,7 +313,7 @@ alexcher16:
   profiles:
     - service: vk
       id: '14644107'
-      updated: 2026-01-22-10-26-35
+      updated: 2026-01-22-11-22-38
       username: alexcher16
       name: Алексей Черноткач
       avatar: store:/avatars/vk-cf71ed78.jpg
@@ -574,7 +574,7 @@ arya-stark:
   profiles:
     - service: vk
       id: '820702664'
-      updated: 2026-01-22-10-26-37
+      updated: 2026-01-22-11-22-40
       username: id820702664
       name: Арья Старк
       avatar: store:/avatars/vk-689aa89d.jpg
@@ -1284,7 +1284,7 @@ darkness-rifho:
       deleted: true
     - service: tg
       id: '5704974271'
-      updated: 2026-01-22-10-26-35
+      updated: 2026-01-22-11-22-38
       accessHash: '3506423524566292179'
       username: C4H6O4
       name: Уна
@@ -2465,7 +2465,7 @@ ilya-denisov:
   profiles:
     - service: vk
       id: '134482858'
-      updated: 2026-01-22-10-26-37
+      updated: 2026-01-22-11-22-41
       username: id134482858
       name: Илья Денисов
       avatar: store:/avatars/vk-45d9d8dd.jpg
@@ -2876,7 +2876,7 @@ kevy-c:
   profiles:
     - service: tg
       id: '5067683234'
-      updated: 2026-01-22-10-26-35
+      updated: 2026-01-22-11-22-38
       accessHash: '-903667913374325979'
       username: Kevy_c
       name: Dash
