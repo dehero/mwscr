@@ -313,7 +313,7 @@ alexcher16:
   profiles:
     - service: vk
       id: '14644107'
-      updated: 2026-01-22-18-31-42
+      updated: 2026-01-22-19-24-21
       username: alexcher16
       name: Алексей Черноткач
       avatar: store:/avatars/vk-cf71ed78.jpg
@@ -420,7 +420,7 @@ andrey-yaprintsev:
   profiles:
     - service: vk
       id: '599320069'
-      updated: 2026-01-21-18-41-28
+      updated: 2026-01-22-19-24-23
       username: id599320069
       name: Андрей Япринцев
       avatar: store:/avatars/vk-4e415fa2.jpg
@@ -888,7 +888,7 @@ bulatmetal:
   profiles:
     - service: tg
       id: '5159568404'
-      updated: 2026-01-17-19-15-24
+      updated: 2026-01-22-19-24-21
       accessHash: '-7589226771447153320'
       username: bulatmetal
       name: Черепашка
@@ -2876,7 +2876,7 @@ kevy-c:
   profiles:
     - service: tg
       id: '5067683234'
-      updated: 2026-01-22-18-31-42
+      updated: 2026-01-22-19-24-21
       accessHash: '-903667913374325979'
       username: Kevy_c
       name: Dash
