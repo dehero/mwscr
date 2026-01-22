@@ -233,16 +233,16 @@
       id: DTQrR1DF470
       mediaId: '18295642483302711'
       published: 2026-01-08-18-57-18
-      updated: 2026-01-15-22-20-55
+      updated: 2026-01-22-22-21-43
       followers: 1606
-      likes: 72
+      likes: 73
     - service: vk
       id: 2997
       published: 2026-01-08-18-57-23
-      updated: 2026-01-15-22-20-58
+      updated: 2026-01-22-22-21-46
       followers: 1562
-      likes: 60
-      views: 765
+      likes: 62
+      views: 797
       comments: !c |-
         G3kCQJwHdiwYYWb2JQIKJ/6fuGdF+ED6QJkEFmjAJdQUJ5CcS7azqnPHd/r96k9i4mkCQ7SMtTPX
         9qXbTPHpxurtBu5hw0MsRquhmbKlqG4zlhXDWr8ghoPCTQul2WRTN/Xv6fFFH8B2Y53ngaxJ/JGm
@@ -254,10 +254,10 @@
     - service: tg
       id: 1118
       published: 2026-01-08-18-57-27
-      updated: 2026-01-15-22-20-52
+      updated: 2026-01-22-22-21-38
       followers: 880
-      likes: 66
-      views: 367
+      likes: 68
+      views: 501
 2026-01-10-1-who-partook-in-the-cup-of-passage:
   title: Who Partook in the Cup of Passage?
   titleRu: Кто пил из Чаши Перехода?
@@ -376,7 +376,7 @@
       id: DTiv6w_EWXm
       mediaId: '18103546063814944'
       published: 2026-01-15-19-24-11
-      updated: 2026-01-21-21-27-41
+      updated: 2026-01-22-22-21-43
       followers: 1609
       likes: 66
     - service: vk
