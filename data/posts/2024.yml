@@ -1491,24 +1491,27 @@
       id: DT0rjbcEUqP
       mediaId: '18077563670360590'
       published: 2026-01-22-18-32-24
-      updated: 2026-01-23-06-33-52
+      updated: 2026-01-23-07-24-45
       followers: 1607
-      likes: 54
+      likes: 55
     - service: vk
       id: 3021
       published: 2026-01-22-18-32-30
-      updated: 2026-01-23-06-33-48
+      updated: 2026-01-23-07-24-46
       followers: 1582
-      likes: 48
-      views: 417
+      likes: 51
+      views: 457
       reposts: 3
+      comments: !c |-
+        ix+AkZPLQnm+mt9zgACtY2hlcm5vc290aW5lY9kl0KHQv9Cw0YHQuNCx0L4g0LfQsCDQutC+0L3R
+        gtC10L3RguKcigM=
     - service: tg
       id: 1128
       published: 2026-01-22-18-32-35
-      updated: 2026-01-23-06-33-54
+      updated: 2026-01-23-07-24-48
       followers: 885
-      likes: 45
-      views: 177
+      likes: 46
+      views: 181
       comments: !c CwuAkZPLQnm+ifzxAACma2V2eS1jpPCfpoAD
 2024-04-16-birth-of-fabricant: 2018-01-16-birth-of-fabricant
 2024-04-17-interior-garden: 2017-03-31-interior-garden
