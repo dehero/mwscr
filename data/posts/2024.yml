@@ -504,6 +504,19 @@
       likes: 65
       views: 548
       comments: !c iwyAkZPLQnjjPwNOAACqbWhtZC1raGFsZKNXb3cD
+    - service: ig
+      id: DT3QcywFIwb
+      mediaId: '18053086100437038'
+      published: 2026-01-23-18-33-16
+      followers: 1606
+    - service: vk
+      id: 3025
+      published: 2026-01-23-18-33-39
+      followers: 1583
+    - service: tg
+      id: 1129
+      published: 2026-01-23-18-33-43
+      followers: 884
 2024-03-13-haze: 2017-06-23-haze
 2024-03-14-night-street-of-balmora: 2017-04-02-night-street-of-balmora
 2024-03-15-bonemold-shield-seller:
@@ -1491,16 +1504,16 @@
       id: DT0rjbcEUqP
       mediaId: '18077563670360590'
       published: 2026-01-22-18-32-24
-      updated: 2026-01-23-17-25-49
+      updated: 2026-01-23-18-32-26
       followers: 1607
-      likes: 64
+      likes: 65
     - service: vk
       id: 3021
       published: 2026-01-22-18-32-30
-      updated: 2026-01-23-17-25-50
+      updated: 2026-01-23-18-32-27
       followers: 1582
-      likes: 67
-      views: 815
+      likes: 68
+      views: 841
       reposts: 4
       comments: !c |-
         ix+AkZPLQnm+mt9zgACtY2hlcm5vc290aW5lY9kl0KHQv9Cw0YHQuNCx0L4g0LfQsCDQutC+0L3R
@@ -1508,10 +1521,10 @@
     - service: tg
       id: 1128
       published: 2026-01-22-18-32-35
-      updated: 2026-01-23-17-25-52
+      updated: 2026-01-23-18-32-30
       followers: 885
       likes: 52
-      views: 212
+      views: 214
       comments: !c CwuAkZPLQnm+ifzxAACma2V2eS1jpPCfpoAD
 2024-04-16-birth-of-fabricant: 2018-01-16-birth-of-fabricant
 2024-04-17-interior-garden: 2017-03-31-interior-garden

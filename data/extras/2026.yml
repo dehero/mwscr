@@ -112,14 +112,14 @@
       service: tg
       id: 3
       published: 2026-01-09-17-55-34
-      updated: 2026-01-16-18-31-32
+      updated: 2026-01-23-18-32-34
       followers: 879
-      views: 177
+      views: 180
     - type: story
       service: vk
       id: 456239023
       published: 2026-01-09-18-03-26
-      updated: 2026-01-16-18-31-32
+      updated: 2026-01-23-18-32-34
       followers: 1563
       views: 117
     - type: story
@@ -150,16 +150,16 @@
       service: vk
       id: 456239024
       published: 2026-01-09-18-07-34
-      updated: 2026-01-16-18-31-32
+      updated: 2026-01-23-18-32-34
       followers: 1563
       views: 84
     - type: story
       service: tg
       id: 4
       published: 2026-01-09-18-07-43
-      updated: 2026-01-16-18-31-32
+      updated: 2026-01-23-18-32-34
       followers: 879
-      views: 168
+      views: 171
 2026-01-17-1-resque-of-tarhiel:
   title: Resque of Tarhiel
   titleRu: Спасение Тархиеля
