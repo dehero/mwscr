@@ -706,30 +706,35 @@
       id: DTyH2LzDy0H
       mediaId: '18051578093693758'
       published: 2026-01-21-18-41-54
-      updated: 2026-01-23-01-40-31
+      updated: 2026-01-23-03-42-00
       followers: 1608
       likes: 53
       comments: !c CxWAkZPLQnm+VpQNgACpc2hub3p3YXJktUkgY2FuIGhlYXIgdGhpcyBpbWFnZQM=
     - service: vk
       id: 3018
       published: 2026-01-21-18-42-05
-      updated: 2026-01-23-01-40-29
+      updated: 2026-01-23-03-41-59
       followers: 1581
-      likes: 57
-      views: 639
+      likes: 61
+      views: 667
       reposts: 1
       comments: !c |-
-        GyMBACwSeC50cymGK8M02UdF3OISeQ0Mm8QiTfagdDMIOyPMhP10FJqVPyDbVpt0szVs94iC4+0z
-        uTxtHTNWhkYnB3JQPLUIMwn1S6j0RDkP6fizY8wiknzef8bi0fEdsMGT8bi8cLiem9CG2ffOmwjJ
-        ZBbykfjMYLLm6JaeiO3dMZZzSEsu/qpejoTBRzbdp6yztI8aLroauQw6hQ5jIgcJijKm6Z6lphZD
-        LVSURWXSXLiwf1vc
+        G5IDACyPd5ouMtxZDQdHngdW/D9yz+ISecva6ptGEFmJRZqcC5itNhotIVk+f6jr3oEIsKpuao++
+        FWt7PsgWGuIPzrGYDBqjMv7UrilJCRvfPpPLg/Z/NwPZgHqrRT9dg7LTpmYZpl2YLcwgC6yXuTUq
+        kL7CHJab5E45bPH9+Y1+EKdvBz6yR+e4+JM2HVpdrUl2njufIEnGtQ35cMGTgQzwzehWakjbA0IM
+        +zUoZmqZOguxOFcs8MDtvK0vhu14DL/RUhTqhYJKQ0Ni0WlCrGdgquJiog7cME/oiWOyYT7KuYez
+        m5mM+l954ZGqOJ//2l0wsyAVhCCCzIqEdFBVV7FISniz15HlTsmbIgl9Ih/ziDBBroBwfcYKQc1K
+        7jQDC2U3gqfrvhRZi4WIIg8xVm/TxlXvrv4y9cZPG8JY1z1mJ+dhluUACvXitELi43zhosyPMGQp
+        mkOwyEz0CWQRHO75Wu/CBWlkusATv+M4zq7G0x9NIQabEQs0zlfYYimainiyNqSRR0wj1dwajMnL
+        TkStvQELKwuLuCTvXYqrh/ytNM+8ZqW6kFTtD+Rw
     - service: tg
       id: 1127
       published: 2026-01-21-18-42-09
-      updated: 2026-01-23-01-40-23
+      updated: 2026-01-23-03-42-00
       followers: 886
-      likes: 52
-      views: 223
+      likes: 53
+      views: 226
+      comments: !c CwuAkZPLQnm+ifpBgACma2V2eS1jpPCfpoAD
 2019-02-21-skaal-lantern:
   title: Skaal Lantern
   titleRu: Фонарь скаалов
