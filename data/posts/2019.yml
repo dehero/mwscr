@@ -101,7 +101,7 @@
       id: DQuYk8ojrTN
       mediaId: '18063461165159167'
       published: 2025-11-06-18-16-58
-      updated: 2026-01-17-19-15-23
+      updated: 2026-01-24-19-17-06
       followers: 1590
       likes: 113
       comments: !c |-
@@ -110,10 +110,10 @@
     - service: vk
       id: 2816
       published: 2025-11-06-18-17-05
-      updated: 2026-01-17-19-15-45
+      updated: 2026-01-24-19-17-29
       followers: 1500
-      likes: 86
-      views: 1653
+      likes: 87
+      views: 1655
       reposts: 5
       comments: !c |-
         GxADIKwKbGNp0AcWK8nyDDfPwtCcb/zTWLR4pU47hGXAZNxW1NQM6TZkQRBMwfJ+iTaV2hQj/Jya
@@ -127,10 +127,10 @@
     - service: tg
       id: 1042
       published: 2025-11-06-18-17-09
-      updated: 2026-01-17-19-15-24
+      updated: 2026-01-24-19-16-58
       followers: 854
       likes: 64
-      views: 626
+      views: 632
       comments: !c |-
         ixyAkpPLQnmmbgrgAACra2F3YXpha3kyMjOk8J+Ru5PLQnmmCLkhgACqYnVsYXRtZXRhbKhIdXNi
         YW5kcwM=
@@ -552,16 +552,16 @@
       id: DPju6-BDsCu
       mediaId: '17853187992555575'
       published: 2025-10-08-18-29-07
-      updated: 2026-01-17-19-15-45
+      updated: 2026-01-24-19-17-27
       followers: 1585
       likes: 54
     - service: vk
       id: 2719
       published: 2025-10-08-18-29-12
-      updated: 2026-01-17-19-16-32
+      updated: 2026-01-24-19-18-13
       followers: 1454
-      likes: 68
-      views: 1360
+      likes: 69
+      views: 1362
       reposts: 3
       comments: !c |-
         Gz8BIC0ObBtG9nBhnaMd4w/GP/+cbIRfO2cNfRgEHoctDKKgCJP7dG3FZGjNFIaCvwOZrb3lTiSQ
@@ -572,10 +572,10 @@
     - service: tg
       id: 1010
       published: 2025-10-08-18-29-16
-      updated: 2026-01-17-19-15-47
+      updated: 2026-01-24-19-17-18
       followers: 836
       likes: 71
-      views: 598
+      views: 602
       comments: !c |-
         i0yAk5PLQnmcpcIyAACra2F3YXpha3kyMjOk8J+OupTLQnmcaRvUAACqYTItZW5rZWxsabNQaXBl
         Li4uIEJlYXV0aWZ1bC4uk8tCeZxzlbaAAKVhbnNpc6RUaGlzk8tCeZxRoNeAAK92YWlsLWFzdG9y
@@ -706,17 +706,17 @@
       id: DTyH2LzDy0H
       mediaId: '18051578093693758'
       published: 2026-01-21-18-41-54
-      updated: 2026-01-23-18-32-28
+      updated: 2026-01-24-19-16-42
       followers: 1608
-      likes: 58
+      likes: 62
       comments: !c CxWAkZPLQnm+VpQNgACpc2hub3p3YXJktUkgY2FuIGhlYXIgdGhpcyBpbWFnZQM=
     - service: vk
       id: 3018
       published: 2026-01-21-18-42-05
-      updated: 2026-01-23-18-32-28
+      updated: 2026-01-24-19-16-47
       followers: 1581
-      likes: 77
-      views: 1074
+      likes: 83
+      views: 1274
       reposts: 1
       comments: !c |-
         G5IDACyPd5ouMtxZDQdHngdW/D9yz+ISecva6ptGEFmJRZqcC5itNhotIVk+f6jr3oEIsKpuao++
@@ -730,10 +730,10 @@
     - service: tg
       id: 1127
       published: 2026-01-21-18-42-09
-      updated: 2026-01-23-18-32-32
+      updated: 2026-01-24-19-16-42
       followers: 886
-      likes: 55
-      views: 241
+      likes: 58
+      views: 283
       comments: !c CwuAkZPLQnm+ifpBgACma2V2eS1jpPCfpoAD
 2019-02-21-skaal-lantern:
   title: Skaal Lantern
