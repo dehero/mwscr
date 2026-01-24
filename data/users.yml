@@ -1384,7 +1384,7 @@ dehero:
     - type: channel
       service: tg
       id: '1264795946'
-      updated: 2026-01-24-20-50-30
+      updated: 2026-01-24-22-19-14
       accessHash: '-5789257269249675714'
       username: mwscr
       name: Morrowind Screenshots
@@ -2828,7 +2828,7 @@ karatedance:
   profiles:
     - service: tg
       id: '1037255094'
-      updated: 2026-01-24-21-17-46
+      updated: 2026-01-24-22-19-11
       accessHash: '-5098047197051495291'
       username: karatedance
       name: танцы карате
@@ -2883,7 +2883,7 @@ kevy-c:
   profiles:
     - service: tg
       id: '5067683234'
-      updated: 2026-01-24-21-17-51
+      updated: 2026-01-24-22-19-13
       accessHash: '-903667913374325979'
       username: Kevy_c
       name: Dash
@@ -4036,7 +4036,7 @@ olmer-izdeyla:
   profiles:
     - service: tg
       id: '835160756'
-      updated: 2026-01-24-21-17-46
+      updated: 2026-01-24-22-19-11
       accessHash: '5779481472375422362'
       username: Olmer_Izdeyla
       name: Olmer Izdeyla
@@ -5500,7 +5500,7 @@ todor:
   profiles:
     - service: tg
       id: '1305695186'
-      updated: 2026-01-24-20-28-33
+      updated: 2026-01-24-22-19-13
       accessHash: '8819682207926865502'
       name: Todor
       avatar: store:/avatars/tg-5305295556123424826.jpg
