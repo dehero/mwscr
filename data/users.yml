@@ -272,7 +272,7 @@ aleksey-na:
   profiles:
     - service: vk
       id: '45778737'
-      updated: 2026-01-24-20-26-22
+      updated: 2026-01-24-23-19-05
       username: id45778737
       name: Aleksey Na
       avatar: store:/avatars/vk-77942374.jpg
@@ -2828,7 +2828,7 @@ karatedance:
   profiles:
     - service: tg
       id: '1037255094'
-      updated: 2026-01-24-22-19-11
+      updated: 2026-01-24-23-19-02
       accessHash: '-5098047197051495291'
       username: karatedance
       name: танцы карате
@@ -2883,7 +2883,7 @@ kevy-c:
   profiles:
     - service: tg
       id: '5067683234'
-      updated: 2026-01-24-22-19-13
+      updated: 2026-01-24-23-19-04
       accessHash: '-903667913374325979'
       username: Kevy_c
       name: Dash
@@ -4036,7 +4036,7 @@ olmer-izdeyla:
   profiles:
     - service: tg
       id: '835160756'
-      updated: 2026-01-24-22-19-11
+      updated: 2026-01-24-23-19-02
       accessHash: '5779481472375422362'
       username: Olmer_Izdeyla
       name: Olmer Izdeyla
@@ -4785,7 +4785,7 @@ sergey-b-2:
   profiles:
     - service: vk
       id: '1077446394'
-      updated: 2026-01-24-19-18-09
+      updated: 2026-01-24-23-19-06
       username: id1077446394
       name: Сергей Б
       avatar: store:/avatars/vk-5a7c7910.jpg
