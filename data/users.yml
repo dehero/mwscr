@@ -420,7 +420,7 @@ andrey-yaprintsev:
   profiles:
     - service: vk
       id: '599320069'
-      updated: 2026-01-24-20-28-01
+      updated: 2026-01-24-21-17-49
       username: id599320069
       name: Андрей Япринцев
       avatar: store:/avatars/vk-4e415fa2.jpg
@@ -550,7 +550,7 @@ artyom-karpov:
   profiles:
     - service: vk
       id: '178018548'
-      updated: 2026-01-17-20-24-35
+      updated: 2026-01-24-21-21-05
       username: id178018548
       name: Артём Карпов
       avatar: store:/avatars/vk-72fe5d60.jpg
@@ -887,7 +887,7 @@ bulatmetal:
   profiles:
     - service: tg
       id: '5159568404'
-      updated: 2026-01-24-19-16-58
+      updated: 2026-01-24-21-17-50
       accessHash: '-7589226771447153320'
       username: bulatmetal
       name: Черепашка
@@ -1298,7 +1298,7 @@ daryna-dmytrenko:
   profiles:
     - service: vk
       id: '164064457'
-      updated: 2026-01-17-20-24-13
+      updated: 2026-01-24-21-20-43
       username: daryna_dmytrenko
       name: Дарина Дмитренко
       avatar: store:/avatars/vk-0d327853.jpg
@@ -1364,7 +1364,7 @@ dehero:
       avatar: store:/avatars/gh-c8afe641.jpg
     - service: vk
       id: '3652910'
-      updated: 2026-01-24-20-50-29
+      updated: 2026-01-24-21-22-33
       username: dehero
       name: Антон Курьянов
       avatar: store:/avatars/vk-5356f76e.jpg
@@ -1895,7 +1895,7 @@ evil-kit:
   profiles:
     - service: vk
       id: '153155138'
-      updated: 2026-01-17-20-26-03
+      updated: 2026-01-24-21-22-33
       username: evil_kit
       name: Никита Метелкин
       avatar: store:/avatars/vk-adb64972.jpg
@@ -2422,7 +2422,7 @@ idalexeyvav:
   profiles:
     - service: vk
       id: '417783044'
-      updated: 2026-01-17-20-24-10
+      updated: 2026-01-24-21-20-41
       username: idalexeyvav
       name: Алексей Вавилов
       avatar: store:/avatars/vk-6717456e.jpg
@@ -2828,7 +2828,7 @@ karatedance:
   profiles:
     - service: tg
       id: '1037255094'
-      updated: 2026-01-24-20-21-11
+      updated: 2026-01-24-21-17-46
       accessHash: '-5098047197051495291'
       username: karatedance
       name: танцы карате
@@ -2883,7 +2883,7 @@ kevy-c:
   profiles:
     - service: tg
       id: '5067683234'
-      updated: 2026-01-24-20-21-26
+      updated: 2026-01-24-21-17-51
       accessHash: '-903667913374325979'
       username: Kevy_c
       name: Dash
@@ -3015,7 +3015,7 @@ kydinov91:
   profiles:
     - service: vk
       id: '36104583'
-      updated: 2026-01-24-20-49-59
+      updated: 2026-01-24-21-17-59
       username: kydinov91
       name: Илья Кудинов
       avatar: store:/avatars/vk-03d8a48a.jpg
@@ -3204,7 +3204,7 @@ lycanthropy:
   profiles:
     - service: vk
       id: '5386912'
-      updated: 2026-01-24-20-47-40
+      updated: 2026-01-24-21-21-41
       username: lycanthropy
       name: Филипп Суворов
       avatar: store:/avatars/vk-8642e0b8.jpg
@@ -3269,7 +3269,7 @@ maks-perunov:
   profiles:
     - service: vk
       id: '35868942'
-      updated: 2026-01-24-20-37-42
+      updated: 2026-01-24-21-19-57
       username: id35868942
       name: Макс Перунов
       avatar: store:/avatars/vk-3bb92045.jpg
@@ -4036,7 +4036,7 @@ olmer-izdeyla:
   profiles:
     - service: tg
       id: '835160756'
-      updated: 2026-01-24-20-31-50
+      updated: 2026-01-24-21-17-46
       accessHash: '5779481472375422362'
       username: Olmer_Izdeyla
       name: Olmer Izdeyla
@@ -4196,7 +4196,7 @@ petrushkachord:
   profiles:
     - service: vk
       id: '370043102'
-      updated: 2026-01-24-20-50-04
+      updated: 2026-01-24-21-18-13
       username: petrushkachord
       name: Данила Силкин
       avatar: store:/avatars/vk-166e4c44.jpg
@@ -5077,7 +5077,7 @@ soulilight:
   profiles:
     - service: vk
       id: '347703822'
-      updated: 2026-01-24-20-49-47
+      updated: 2026-01-24-21-21-22
       username: soulilight
       name: Dima Boev
       avatar: store:/avatars/vk-4a3f332e.jpg
@@ -5819,7 +5819,7 @@ user-36:
   profiles:
     - service: vk
       id: '227500203'
-      updated: 2026-01-17-20-25-11
+      updated: 2026-01-24-21-21-40
       username: id227500203
       avatar: store:/avatars/vk-7f160215.jpg
       deleted: true
