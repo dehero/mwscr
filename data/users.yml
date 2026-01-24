@@ -574,7 +574,7 @@ arya-stark:
   profiles:
     - service: vk
       id: '820702664'
-      updated: 2026-01-24-17-17-22
+      updated: 2026-01-24-18-28-50
       username: id820702664
       name: Арья Старк
       avatar: store:/avatars/vk-689aa89d.jpg
@@ -1007,7 +1007,7 @@ chernosotinec:
   profiles:
     - service: vk
       id: '355750944'
-      updated: 2026-01-24-17-17-22
+      updated: 2026-01-24-18-28-49
       username: Chernosotinec
       name: Артём Стекольщиков
       avatar: store:/avatars/vk-8aee5603.jpg
@@ -2876,7 +2876,7 @@ kevy-c:
   profiles:
     - service: tg
       id: '5067683234'
-      updated: 2026-01-24-17-17-20
+      updated: 2026-01-24-18-28-48
       accessHash: '-903667913374325979'
       username: Kevy_c
       name: Dash
