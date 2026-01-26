@@ -2836,7 +2836,7 @@ karatedance:
   profiles:
     - service: tg
       id: '1037255094'
-      updated: 2026-01-26-01-49-33
+      updated: 2026-01-26-03-56-38
       accessHash: '-5098047197051495291'
       username: karatedance
       name: танцы карате
@@ -2891,7 +2891,7 @@ kevy-c:
   profiles:
     - service: tg
       id: '5067683234'
-      updated: 2026-01-26-01-49-33
+      updated: 2026-01-26-03-56-39
       accessHash: '-903667913374325979'
       username: Kevy_c
       name: Dash
@@ -3929,7 +3929,7 @@ o-sipuha:
   profiles:
     - service: vk
       id: '1042080884'
-      updated: 2026-01-26-01-49-30
+      updated: 2026-01-26-03-56-36
       username: o.sipuha
       name: Ольга Сипуха
       avatar: store:/avatars/vk-c168d64f.jpg
@@ -4052,7 +4052,7 @@ olmer-izdeyla:
   profiles:
     - service: tg
       id: '835160756'
-      updated: 2026-01-26-01-49-33
+      updated: 2026-01-26-03-56-38
       accessHash: '5779481472375422362'
       username: Olmer_Izdeyla
       name: Olmer Izdeyla
