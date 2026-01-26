@@ -455,7 +455,7 @@ anonim:
   profiles:
     - service: tg
       id: '6469120788'
-      updated: 2026-01-25-19-16-56
+      updated: 2026-01-26-23-21-38
       accessHash: '-3557204299452739678'
       name: Аноним
       avatar: store:/avatars/tg-5386639419211116910.jpg
@@ -568,7 +568,7 @@ artyom-melikhoff:
   profiles:
     - service: vk
       id: '299405149'
-      updated: 2026-01-26-19-24-07
+      updated: 2026-01-26-23-21-39
       username: artyom_melikhoff
       name: Артём Мелихов
       avatar: store:/avatars/vk-599a74fc.jpg
@@ -2901,7 +2901,7 @@ kevy-c:
   profiles:
     - service: tg
       id: '5067683234'
-      updated: 2026-01-26-22-21-09
+      updated: 2026-01-26-23-21-37
       accessHash: '-903667913374325979'
       username: Kevy_c
       name: Dash
@@ -3939,7 +3939,7 @@ o-sipuha:
   profiles:
     - service: vk
       id: '1042080884'
-      updated: 2026-01-26-22-21-03
+      updated: 2026-01-26-23-21-38
       username: o.sipuha
       name: Ольга Сипуха
       avatar: store:/avatars/vk-c168d64f.jpg
@@ -4134,7 +4134,7 @@ painkiller1986:
   profiles:
     - service: tg
       id: '6565289507'
-      updated: 2026-01-26-22-21-08
+      updated: 2026-01-26-23-21-35
       accessHash: '6198356028119192921'
       username: Painkiller1986
       name: Сумерки
@@ -6168,7 +6168,7 @@ vustex:
   profiles:
     - service: tg
       id: '131249506'
-      updated: 2026-01-19-22-20-56
+      updated: 2026-01-26-23-21-37
       accessHash: '-8846023880153550211'
       username: vustex
       name: Vustex 𓃵
