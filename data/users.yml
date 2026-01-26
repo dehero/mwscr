@@ -392,6 +392,13 @@ anastasiya-golub:
       username: id347018094
       name: Анастасия Голубь
       avatar: store:/avatars/vk-bc2aa087.jpg
+andrew-art:
+  profiles:
+    - service: tg
+      id: '449416259'
+      username: andrew_art
+      botChatId: 449416259
+      name: Андрей
 andrewmarotti:
   profiles:
     - service: ig
@@ -2836,7 +2843,7 @@ karatedance:
   profiles:
     - service: tg
       id: '1037255094'
-      updated: 2026-01-26-07-27-20
+      updated: 2026-01-26-08-31-45
       accessHash: '-5098047197051495291'
       username: karatedance
       name: танцы карате
@@ -2891,7 +2898,7 @@ kevy-c:
   profiles:
     - service: tg
       id: '5067683234'
-      updated: 2026-01-26-07-27-20
+      updated: 2026-01-26-08-31-46
       accessHash: '-903667913374325979'
       username: Kevy_c
       name: Dash
@@ -3929,7 +3936,7 @@ o-sipuha:
   profiles:
     - service: vk
       id: '1042080884'
-      updated: 2026-01-26-07-27-20
+      updated: 2026-01-26-08-31-44
       username: o.sipuha
       name: Ольга Сипуха
       avatar: store:/avatars/vk-c168d64f.jpg
@@ -4052,7 +4059,7 @@ olmer-izdeyla:
   profiles:
     - service: tg
       id: '835160756'
-      updated: 2026-01-26-07-27-20
+      updated: 2026-01-26-08-31-46
       accessHash: '5779481472375422362'
       username: Olmer_Izdeyla
       name: Olmer Izdeyla
