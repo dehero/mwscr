@@ -2901,7 +2901,7 @@ kevy-c:
   profiles:
     - service: tg
       id: '5067683234'
-      updated: 2026-01-26-21-23-08
+      updated: 2026-01-26-22-21-09
       accessHash: '-903667913374325979'
       username: Kevy_c
       name: Dash
@@ -3939,7 +3939,7 @@ o-sipuha:
   profiles:
     - service: vk
       id: '1042080884'
-      updated: 2026-01-26-21-23-04
+      updated: 2026-01-26-22-21-03
       username: o.sipuha
       name: Ольга Сипуха
       avatar: store:/avatars/vk-c168d64f.jpg
@@ -4134,7 +4134,7 @@ painkiller1986:
   profiles:
     - service: tg
       id: '6565289507'
-      updated: 2026-01-26-21-23-04
+      updated: 2026-01-26-22-21-08
       accessHash: '6198356028119192921'
       username: Painkiller1986
       name: Сумерки
@@ -4811,7 +4811,7 @@ sergey-b-2:
   profiles:
     - service: vk
       id: '1077446394'
-      updated: 2026-01-26-20-26-40
+      updated: 2026-01-26-22-21-04
       username: id1077446394
       name: Сергей Б
       avatar: store:/avatars/vk-5a7c7910.jpg
