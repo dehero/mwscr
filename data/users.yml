@@ -430,7 +430,7 @@ andrey-yaprintsev:
   profiles:
     - service: vk
       id: '599320069'
-      updated: 2026-01-25-21-18-54
+      updated: 2026-01-26-21-23-07
       username: id599320069
       name: Андрей Япринцев
       avatar: store:/avatars/vk-4e415fa2.jpg
@@ -584,7 +584,7 @@ arya-stark:
   profiles:
     - service: vk
       id: '820702664'
-      updated: 2026-01-26-20-26-50
+      updated: 2026-01-26-21-23-09
       username: id820702664
       name: Арья Старк
       avatar: store:/avatars/vk-689aa89d.jpg
@@ -877,7 +877,7 @@ brg1092:
   profiles:
     - service: tg
       id: '5867861906'
-      updated: 2026-01-26-19-23-48
+      updated: 2026-01-26-21-23-10
       accessHash: '4411929981434940281'
       username: brg1092
       name: 2𝜋
@@ -897,7 +897,7 @@ bulatmetal:
   profiles:
     - service: tg
       id: '5159568404'
-      updated: 2026-01-25-21-18-53
+      updated: 2026-01-26-21-23-08
       accessHash: '-7589226771447153320'
       username: bulatmetal
       name: Черепашка
@@ -2901,7 +2901,7 @@ kevy-c:
   profiles:
     - service: tg
       id: '5067683234'
-      updated: 2026-01-26-20-26-36
+      updated: 2026-01-26-21-23-08
       accessHash: '-903667913374325979'
       username: Kevy_c
       name: Dash
@@ -3144,7 +3144,7 @@ loftydelusion:
   profiles:
     - service: tg
       id: '6735256969'
-      updated: 2026-01-24-20-50-29
+      updated: 2026-01-26-21-23-10
       accessHash: '7923451850129434076'
       username: Loftydelusion
       name: Ꭰelusion
@@ -3939,7 +3939,7 @@ o-sipuha:
   profiles:
     - service: vk
       id: '1042080884'
-      updated: 2026-01-26-20-26-33
+      updated: 2026-01-26-21-23-04
       username: o.sipuha
       name: Ольга Сипуха
       avatar: store:/avatars/vk-c168d64f.jpg
@@ -4134,7 +4134,7 @@ painkiller1986:
   profiles:
     - service: tg
       id: '6565289507'
-      updated: 2026-01-26-20-26-33
+      updated: 2026-01-26-21-23-04
       accessHash: '6198356028119192921'
       username: Painkiller1986
       name: Сумерки
