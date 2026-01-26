@@ -2901,7 +2901,7 @@ kevy-c:
   profiles:
     - service: tg
       id: '5067683234'
-      updated: 2026-01-26-17-28-43
+      updated: 2026-01-26-18-34-13
       accessHash: '-903667913374325979'
       username: Kevy_c
       name: Dash
@@ -3939,7 +3939,7 @@ o-sipuha:
   profiles:
     - service: vk
       id: '1042080884'
-      updated: 2026-01-26-17-28-42
+      updated: 2026-01-26-18-34-12
       username: o.sipuha
       name: Ольга Сипуха
       avatar: store:/avatars/vk-c168d64f.jpg
@@ -3963,7 +3963,7 @@ oberhort:
   profiles:
     - service: tg
       id: '19254498'
-      updated: 2026-01-24-20-21-46
+      updated: 2026-01-26-18-34-13
       accessHash: '-564270059565994883'
       username: oberhort
       name: Игорь
