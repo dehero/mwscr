@@ -1307,26 +1307,26 @@
       id: DT---z1lbsa
       mediaId: '17919642102091705'
       published: 2026-01-26-18-34-35
-      updated: 2026-01-27-18-37-44
+      updated: 2026-01-27-19-26-03
       followers: 1607
       likes: 45
     - service: vk
       id: 3043
       published: 2026-01-26-18-34-43
-      updated: 2026-01-27-18-37-49
+      updated: 2026-01-27-19-26-06
       followers: 1589
       likes: 37
-      views: 419
+      views: 428
       comments: !c |-
         iyiAkZPLQnnAA5LOgACscGV0ZWV2YW5kcmV32TjQntC00LjQvSDQuNC3INGB0LDQvNGL0YUg0YPR
         jtGC0L3Ri9GFINGC0YDQsNC60YLQuNGA0L7QsgM=
     - service: tg
       id: 1132
       published: 2026-01-26-18-34-49
-      updated: 2026-01-27-18-37-45
+      updated: 2026-01-27-19-26-07
       followers: 887
-      likes: 47
-      views: 211
+      likes: 51
+      views: 228
       comments: !c |-
         G6AAIIyUbsI8ePi/n58wlnW8SCPCgqpAizYfbZ734SKBBnWyUKIehXp+ewFAByd6MD4OH2KMecxh
         nsPnUw7iWdk6mx0C9d3Tc5GkdTAWLuzY/8Uz4eDVyFhmgAdWRjLNASOaZ7jymki0D824TIYrdVtw
@@ -1801,15 +1801,24 @@
       id: DUBkQJ2E2rN
       mediaId: '17864816412560672'
       published: 2026-01-27-18-38-44
+      updated: 2026-01-27-19-26-01
       followers: 1606
+      likes: 20
     - service: vk
       id: 3045
       published: 2026-01-27-18-38-52
+      updated: 2026-01-27-19-25-58
       followers: 1589
+      likes: 4
+      views: 22
     - service: tg
       id: 1133
       published: 2026-01-27-18-38-57
+      updated: 2026-01-27-19-26-04
       followers: 888
+      likes: 28
+      views: 94
+      comments: !c CxOAkZPLQnnADD/BAACucGFpbmtpbGxlcjE5ODas0JzQvtGB0YLQvtC6Aw==
 2018-02-11-ghostfence:
   title: Ghostfence
   titleRu: Призрачный предел
