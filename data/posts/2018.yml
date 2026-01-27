@@ -1307,26 +1307,26 @@
       id: DT---z1lbsa
       mediaId: '17919642102091705'
       published: 2026-01-26-18-34-35
-      updated: 2026-01-27-21-17-49
+      updated: 2026-01-27-22-22-03
       followers: 1607
-      likes: 46
+      likes: 47
     - service: vk
       id: 3043
       published: 2026-01-26-18-34-43
-      updated: 2026-01-27-21-17-51
+      updated: 2026-01-27-22-22-08
       followers: 1589
       likes: 40
-      views: 452
+      views: 456
       comments: !c |-
         iyiAkZPLQnnAA5LOgACscGV0ZWV2YW5kcmV32TjQntC00LjQvSDQuNC3INGB0LDQvNGL0YUg0YPR
         jtGC0L3Ri9GFINGC0YDQsNC60YLQuNGA0L7QsgM=
     - service: tg
       id: 1132
       published: 2026-01-26-18-34-49
-      updated: 2026-01-27-21-17-52
+      updated: 2026-01-27-22-22-07
       followers: 887
-      likes: 54
-      views: 239
+      likes: 55
+      views: 240
       comments: !c |-
         G6AAIIyUbsI8ePi/n58wlnW8SCPCgqpAizYfbZ734SKBBnWyUKIehXp+ewFAByd6MD4OH2KMecxh
         nsPnUw7iWdk6mx0C9d3Tc5GkdTAWLuzY/8Uz4eDVyFhmgAdWRjLNASOaZ7jymki0D824TIYrdVtw
@@ -1801,27 +1801,29 @@
       id: DUBkQJ2E2rN
       mediaId: '17864816412560672'
       published: 2026-01-27-18-38-44
-      updated: 2026-01-27-21-17-45
+      updated: 2026-01-27-22-22-01
       followers: 1606
-      likes: 33
+      likes: 38
     - service: vk
       id: 3045
       published: 2026-01-27-18-38-52
-      updated: 2026-01-27-21-17-48
+      updated: 2026-01-27-22-22-04
       followers: 1589
-      likes: 15
-      views: 98
+      likes: 17
+      views: 117
       comments: !c |-
         G2EA+I3TDTfi6mMhHj5vpH++KXyerWSCXWKRJu/fJVneZEXsopqMaZJOyHac/YSfXDQhing0kqTh
         nXn6db9+P/f9aJ5cO8dx5pp/MKpEZacxd0eNALrd6hhAbLNS1UCLBlBs
     - service: tg
       id: 1133
       published: 2026-01-27-18-38-57
-      updated: 2026-01-27-21-17-47
+      updated: 2026-01-27-22-22-05
       followers: 888
-      likes: 40
-      views: 137
-      comments: !c CxOAkZPLQnnADD/BAACucGFpbmtpbGxlcjE5ODas0JzQvtGB0YLQvtC6Aw==
+      likes: 45
+      views: 146
+      comments: !c |-
+        Cx6AkpPLQnnAFT/0AACma2V2eS1jpPCfpoCTy0J5wAw/wQAArnBhaW5raWxsZXIxOTg2rNCc0L7R
+        gdGC0L7QugM=
 2018-02-11-ghostfence:
   title: Ghostfence
   titleRu: Призрачный предел
