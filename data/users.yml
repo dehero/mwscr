@@ -1021,7 +1021,7 @@ chernosotinec:
       avatar: store:/avatars/vk-8aee5603.jpg
     - service: tg
       id: '753492809'
-      updated: 2026-01-27-13-46-09
+      updated: 2026-01-27-14-29-15
       accessHash: '7795141216422687066'
       username: AMX_13_1O5
       name: AMX 13 105
@@ -2901,7 +2901,7 @@ kevy-c:
   profiles:
     - service: tg
       id: '5067683234'
-      updated: 2026-01-27-13-46-10
+      updated: 2026-01-27-14-29-17
       accessHash: '-903667913374325979'
       username: Kevy_c
       name: Dash
@@ -3939,7 +3939,7 @@ o-sipuha:
   profiles:
     - service: vk
       id: '1042080884'
-      updated: 2026-01-27-13-46-08
+      updated: 2026-01-27-14-29-15
       username: o.sipuha
       name: Ольга Сипуха
       avatar: store:/avatars/vk-c168d64f.jpg
@@ -4134,7 +4134,7 @@ painkiller1986:
   profiles:
     - service: tg
       id: '6565289507'
-      updated: 2026-01-27-13-46-09
+      updated: 2026-01-27-14-29-15
       accessHash: '6198356028119192921'
       username: Painkiller1986
       name: Сумерки
