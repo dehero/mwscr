@@ -1307,26 +1307,26 @@
       id: DT---z1lbsa
       mediaId: '17919642102091705'
       published: 2026-01-26-18-34-35
-      updated: 2026-01-27-17-27-22
+      updated: 2026-01-27-18-37-44
       followers: 1607
       likes: 45
     - service: vk
       id: 3043
       published: 2026-01-26-18-34-43
-      updated: 2026-01-27-17-27-25
+      updated: 2026-01-27-18-37-49
       followers: 1589
       likes: 37
-      views: 403
+      views: 419
       comments: !c |-
         iyiAkZPLQnnAA5LOgACscGV0ZWV2YW5kcmV32TjQntC00LjQvSDQuNC3INGB0LDQvNGL0YUg0YPR
         jtGC0L3Ri9GFINGC0YDQsNC60YLQuNGA0L7QsgM=
     - service: tg
       id: 1132
       published: 2026-01-26-18-34-49
-      updated: 2026-01-27-17-27-27
+      updated: 2026-01-27-18-37-45
       followers: 887
       likes: 47
-      views: 209
+      views: 211
       comments: !c |-
         G6AAIIyUbsI8ePi/n58wlnW8SCPCgqpAizYfbZ734SKBBnWyUKIehXp+ewFAByd6MD4OH2KMecxh
         nsPnUw7iWdk6mx0C9d3Tc5GkdTAWLuzY/8Uz4eDVyFhmgAdWRjLNASOaZ7jymki0D824TIYrdVtw
@@ -1797,6 +1797,19 @@
       followers: 490
       likes: 75
       views: 726
+    - service: ig
+      id: DUBkQJ2E2rN
+      mediaId: '17864816412560672'
+      published: 2026-01-27-18-38-44
+      followers: 1606
+    - service: vk
+      id: 3045
+      published: 2026-01-27-18-38-52
+      followers: 1589
+    - service: tg
+      id: 1133
+      published: 2026-01-27-18-38-57
+      followers: 888
 2018-02-11-ghostfence:
   title: Ghostfence
   titleRu: Призрачный предел
@@ -14980,23 +14993,23 @@
       id: DT500lmD4IR
       mediaId: '17842942698678786'
       published: 2026-01-24-18-29-35
-      updated: 2026-01-26-17-28-44
+      updated: 2026-01-27-18-37-47
       followers: 1606
-      likes: 45
+      likes: 46
     - service: vk
       id: 3038
       published: 2026-01-24-18-29-42
-      updated: 2026-01-26-17-28-43
+      updated: 2026-01-27-18-37-51
       followers: 1586
-      likes: 42
-      views: 394
+      likes: 43
+      views: 412
     - service: tg
       id: 1130
       published: 2026-01-24-18-29-47
-      updated: 2026-01-26-17-28-45
+      updated: 2026-01-27-18-37-48
       followers: 882
-      likes: 67
-      views: 260
+      likes: 72
+      views: 290
       comments: !c |-
         iyqAk5PLQnm/GIxNgACra2FyYXRlZGFuY2WrYmVhdXRpaWlmdWyTy0J5vxaaQYAArW9sbWVyLWl6
         ZGV5bGGk8J+QtJPLQnm/FLZegACma2V2eS1jpPCfpoAD
