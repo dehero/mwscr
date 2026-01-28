@@ -99,7 +99,7 @@ a2-enkelli:
   profiles:
     - service: tg
       id: '7258424423'
-      updated: 2026-01-27-18-37-51
+      updated: 2026-01-28-06-35-15
       accessHash: '969825927170686844'
       deleted: true
 aarychagoff:
@@ -430,7 +430,7 @@ andrey-yaprintsev:
   profiles:
     - service: vk
       id: '599320069'
-      updated: 2026-01-26-21-23-07
+      updated: 2026-01-28-06-35-16
       username: id599320069
       name: Андрей Япринцев
       avatar: store:/avatars/vk-4e415fa2.jpg
@@ -470,7 +470,7 @@ ansis:
   profiles:
     - service: tg
       id: '517050552'
-      updated: 2026-01-27-23-21-03
+      updated: 2026-01-28-06-35-22
       accessHash: '5231096655311395455'
       username: ansis
       name: ansis
@@ -536,7 +536,7 @@ artem-petrov:
   profiles:
     - service: vk
       id: '4238605'
-      updated: 2026-01-27-17-27-49
+      updated: 2026-01-28-06-35-19
       username: id4238605
       name: Артем Петров
       avatar: store:/avatars/vk-77942374.jpg
@@ -584,7 +584,7 @@ arya-stark:
   profiles:
     - service: vk
       id: '820702664'
-      updated: 2026-01-28-05-27-17
+      updated: 2026-01-28-06-35-24
       username: id820702664
       name: Арья Старк
       avatar: store:/avatars/vk-689aa89d.jpg
@@ -1021,7 +1021,7 @@ chernosotinec:
       avatar: store:/avatars/vk-8aee5603.jpg
     - service: tg
       id: '753492809'
-      updated: 2026-01-28-05-27-13
+      updated: 2026-01-28-06-35-07
       accessHash: '7795141216422687066'
       username: AMX_13_1O5
       name: AMX 13 105
@@ -1394,7 +1394,7 @@ dehero:
     - type: channel
       service: tg
       id: '1264795946'
-      updated: 2026-01-27-07-27-08
+      updated: 2026-01-28-06-35-08
       accessHash: '-5789257269249675714'
       username: mwscr
       name: Morrowind Screenshots
@@ -2134,7 +2134,7 @@ gleb-zheltuhin:
   profiles:
     - service: vk
       id: '29014473'
-      updated: 2026-01-27-15-30-34
+      updated: 2026-01-28-06-35-20
       username: gleb_zheltuhin
       name: Глеб Желтухин
       avatar: store:/avatars/vk-971eefc1.jpg
@@ -2192,7 +2192,7 @@ goosevich76:
   profiles:
     - service: tg
       id: '5385620621'
-      updated: 2026-01-27-17-27-47
+      updated: 2026-01-28-06-35-16
       accessHash: '-7130473396589324830'
       username: horwwwaty
       name: choven
@@ -2871,7 +2871,7 @@ kawazaky223:
   profiles:
     - service: tg
       id: '5641856113'
-      updated: 2026-01-28-05-27-17
+      updated: 2026-01-28-06-35-22
       accessHash: '7421309771527577818'
       username: Kawazaky223
       name: Максим
@@ -2901,7 +2901,7 @@ kevy-c:
   profiles:
     - service: tg
       id: '5067683234'
-      updated: 2026-01-28-05-27-13
+      updated: 2026-01-28-06-35-09
       accessHash: '-903667913374325979'
       username: Kevy_c
       name: Dash
@@ -3360,7 +3360,7 @@ marylingoth2007:
   profiles:
     - service: vk
       id: '590330773'
-      updated: 2026-01-21-05-28-24
+      updated: 2026-01-28-06-35-14
       username: marylingoth2007
       name: Мэрилин Гот Скриптум
       avatar: store:/avatars/vk-678f5704.jpg
@@ -3410,7 +3410,7 @@ mbdtsmo:
   profiles:
     - service: tg
       id: '5093097514'
-      updated: 2026-01-24-20-22-23
+      updated: 2026-01-28-06-35-15
       accessHash: '-613358669572386334'
       username: mbdtsmo
       name: M Bdtsmo
@@ -4134,7 +4134,7 @@ painkiller1986:
   profiles:
     - service: tg
       id: '6565289507'
-      updated: 2026-01-28-05-27-13
+      updated: 2026-01-28-06-35-09
       accessHash: '6198356028119192921'
       username: Painkiller1986
       name: Сумерки
@@ -4208,7 +4208,7 @@ peteevandrew:
   profiles:
     - service: vk
       id: '307619379'
-      updated: 2026-01-28-05-27-18
+      updated: 2026-01-28-06-35-16
       username: peteevandrew
       name: Андрей Петеев
       avatar: store:/avatars/vk-d3f26d8e.jpg
@@ -4811,7 +4811,7 @@ sergey-b-2:
   profiles:
     - service: vk
       id: '1077446394'
-      updated: 2026-01-27-21-17-57
+      updated: 2026-01-28-06-35-20
       username: id1077446394
       name: Сергей Б
       avatar: store:/avatars/vk-5a7c7910.jpg
@@ -5934,7 +5934,7 @@ v-vonderful-world:
   profiles:
     - service: tg
       id: '150947892'
-      updated: 2026-01-21-05-28-28
+      updated: 2026-01-28-06-35-16
       accessHash: '-5337457668406607581'
       username: VVonderfulWorld
       name: 𝔑𝔬𝔵

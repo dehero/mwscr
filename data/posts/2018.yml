@@ -120,10 +120,10 @@
     - service: vk
       id: 2792
       published: 2025-10-28-18-16-59
-      updated: 2026-01-21-05-28-24
+      updated: 2026-01-28-06-35-14
       followers: 1489
       likes: 77
-      views: 1441
+      views: 1442
       reposts: 2
       comments: !c |-
         GwsCQCwSeI7VcUuhuNx4DVKP/yfuaUv4Zv1/kp1JbKcsiKzAikoiSM6lpqDULRPS4yQJCt88HSld
@@ -135,10 +135,10 @@
     - service: tg
       id: 1033
       published: 2025-10-28-18-17-04
-      updated: 2026-01-21-05-28-23
+      updated: 2026-01-28-06-35-12
       followers: 849
       likes: 60
-      views: 560
+      views: 564
 2018-01-05-guards-of-skyrim-mission-in-ebonheart:
   title: Guards of Skyrim Mission in Ebonheart
   titleRu: Стража миссии Скайрима в Эбенгарде
@@ -1307,30 +1307,32 @@
       id: DT---z1lbsa
       mediaId: '17919642102091705'
       published: 2026-01-26-18-34-35
-      updated: 2026-01-28-05-27-12
+      updated: 2026-01-28-06-35-08
       followers: 1607
       likes: 48
     - service: vk
       id: 3043
       published: 2026-01-26-18-34-43
-      updated: 2026-01-28-05-27-14
+      updated: 2026-01-28-06-35-10
       followers: 1589
-      likes: 45
-      views: 543
+      likes: 48
+      views: 565
       comments: !c |-
         iyiAkZPLQnnAA5LOgACscGV0ZWV2YW5kcmV32TjQntC00LjQvSDQuNC3INGB0LDQvNGL0YUg0YPR
         jtGC0L3Ri9GFINGC0YDQsNC60YLQuNGA0L7QsgM=
     - service: tg
       id: 1132
       published: 2026-01-26-18-34-49
-      updated: 2026-01-28-05-27-14
+      updated: 2026-01-28-06-35-09
       followers: 887
-      likes: 56
-      views: 250
+      likes: 57
+      views: 251
       comments: !c |-
-        G6AAIIyUbsI8ePi/n58wlnW8SCPCgqpAizYfbZ734SKBBnWyUKIehXp+ewFAByd6MD4OH2KMecxh
-        nsPnUw7iWdk6mx0C9d3Tc5GkdTAWLuzY/8Uz4eDVyFhmgAdWRjLNASOaZ7jymki0D824TIYrdVtw
-        /s9lA9C28mPjqRVKuBDfs6uNFYg2yJToIcCiJb//axYUcJdgBw==
+        G9EBIJwHdizyAovtjFlIRMSNImnmNCjQDMryOPACzv5Jkj11WyjRXgRDncPJubtfd7/Z5XSws9Wh
+        vqRECjj6SQJP3fbUnw/GLoNbFBaEtW7r5hu13GmBBZhIbke3wFokT9/2ElgacdgWxRCm23w+KVJx
+        KbLC4/18qnhyYfhtCb5j/29M9CIzEhR4wbgMsqUNd7lO96dKIV/DuyPB9XAstQ3FaQ2uFrU6MXFw
+        UjRMU3NBDxj6UOekWwGGwRsY/R+JgMFlSt0EgjEVEqFjsGGhBNc44lzzXY7euzRxrEzqIWeLiFC9
+        a7FZjBxuqwNbsZ2/9iUI9/z8BwF+miDx7lmxA+0QuwOBWsOXku17ijTgAg==
 2018-01-31-tree-of-magnus:
   title: Tree of Magnus
   titleRu: Дерево Магнуса
@@ -1801,29 +1803,29 @@
       id: DUBkQJ2E2rN
       mediaId: '17864816412560672'
       published: 2026-01-27-18-38-44
-      updated: 2026-01-28-05-27-08
+      updated: 2026-01-28-06-35-06
       followers: 1606
-      likes: 49
+      likes: 50
       comments: !c |-
         CyCAkZPLQnnAI0WNgACtY2hlbWljYWx0YWludNkmU3F1aWR3YXJkIHNpbGhvdWV0dGUhPyBJTiBW
         SVZFQyE/IPCfpK8D
     - service: vk
       id: 3045
       published: 2026-01-27-18-38-52
-      updated: 2026-01-28-05-27-10
+      updated: 2026-01-28-06-35-07
       followers: 1589
-      likes: 31
-      views: 200
+      likes: 35
+      views: 223
       comments: !c |-
         G2EA+I3TDTfi6mMhHj5vpH++KXyerWSCXWKRJu/fJVneZEXsopqMaZJOyHac/YSfXDQhing0kqTh
         nXn6db9+P/f9aJ5cO8dx5pp/MKpEZacxd0eNALrd6hhAbLNS1UCLBlBs
     - service: tg
       id: 1133
       published: 2026-01-27-18-38-57
-      updated: 2026-01-28-05-27-11
+      updated: 2026-01-28-06-35-04
       followers: 888
-      likes: 57
-      views: 174
+      likes: 60
+      views: 182
       comments: !c |-
         Cx6AkpPLQnnAFT/0AACma2V2eS1jpPCfpoCTy0J5wAw/wQAArnBhaW5raWxsZXIxOTg2rNCc0L7R
         gdGC0L7QugM=
@@ -8257,26 +8259,26 @@
       id: DPhKHhTjjOB
       mediaId: '18059863949452859'
       published: 2025-10-07-18-29-04
-      updated: 2026-01-21-05-28-27
+      updated: 2026-01-28-06-35-15
       followers: 1582
       likes: 59
     - service: tg
       id: 1009
       published: 2025-10-07-18-29-18
-      updated: 2026-01-21-05-28-32
+      updated: 2026-01-28-06-35-20
       followers: 834
       likes: 81
-      views: 611
+      views: 615
       comments: !c |-
         G2IA4GXoXEe48WwD2oAbI5rWFh/0TdEkD/Q6oAeHHLg9kIzaAvAk2BjDd7wRnZ7V+kvke/jKAXDm
         nVAPf0haUSmKlC0IT/RkR9FNmfnI2HqxBE+TT/mCN3MUxT7/06Ujlp+5HOZNDQ==
     - service: vk
       id: 2718
       published: 2025-10-07-19-15-56
-      updated: 2026-01-21-05-28-33
+      updated: 2026-01-28-06-35-23
       followers: 1452
       likes: 66
-      views: 996
+      views: 998
       reposts: 2
       comments: !c |-
         G4QA6I3UTjWWL1ONUOlEtSP98Q844hCbNKBIk73/dxZzoFkWH7ss632dSedhA58HXK24Fi1Dy5Sm
