@@ -1155,25 +1155,27 @@
       id: DUEI4m9Duqi
       mediaId: '18100851613884451'
       published: 2026-01-28-18-37-18
-      updated: 2026-01-28-19-28-01
+      updated: 2026-01-28-20-30-13
       followers: 1606
-      likes: 14
+      likes: 20
     - service: vk
       id: 3049
       published: 2026-01-28-18-37-23
-      updated: 2026-01-28-19-27-58
+      updated: 2026-01-28-20-30-08
       followers: 1591
-      likes: 4
-      views: 39
+      likes: 7
+      views: 82
       reposts: 1
     - service: tg
       id: 1134
       published: 2026-01-28-18-37-27
-      updated: 2026-01-28-19-28-05
+      updated: 2026-01-28-20-30-15
       followers: 888
-      likes: 19
-      views: 74
-      comments: !c ixaAkZPLQnnAX64nAACucGFpbmtpbGxlcjE5ODaz0KXQu9C10LEg0L/QtdGH0ZHQvAM=
+      likes: 24
+      views: 94
+      comments: !c |-
+        iyGAkpPLQnnAYpJjAACma2V2eS1jpPCfpoCTy0J5wF+uJwAArnBhaW5raWxsZXIxOTg2s9Cl0LvQ
+        tdCxINC/0LXRh9GR0LwD
 2022-07-15-sail-on:
   title: Sail On
   titleRu: Плыть дальше
