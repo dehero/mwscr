@@ -1307,16 +1307,16 @@
       id: DT---z1lbsa
       mediaId: '17919642102091705'
       published: 2026-01-26-18-34-35
-      updated: 2026-01-28-13-30-57
+      updated: 2026-01-28-13-51-41
       followers: 1607
       likes: 48
     - service: vk
       id: 3043
       published: 2026-01-26-18-34-43
-      updated: 2026-01-28-13-31-01
+      updated: 2026-01-28-13-51-46
       followers: 1589
-      likes: 56
-      views: 696
+      likes: 57
+      views: 702
       comments: !c |-
         G9cASCwObBtJ9uFgeGVZ/jB6Xm4RfkwCDrUtshItorZ2z+kWcn1KFkNhzE+mB/i3HUxlPJlJAn9v
         UNB1l6aWbi4maxAcBkFBZMea3rJZBgztlBMNlBMOmkcx305+5HvARYlGPGF8ue4vNrv+Wp7DANS0
@@ -1325,7 +1325,7 @@
     - service: tg
       id: 1132
       published: 2026-01-26-18-34-49
-      updated: 2026-01-28-13-31-01
+      updated: 2026-01-28-13-51-45
       followers: 887
       likes: 58
       views: 255
@@ -1805,16 +1805,16 @@
       id: DUBkQJ2E2rN
       mediaId: '17864816412560672'
       published: 2026-01-27-18-38-44
-      updated: 2026-01-28-13-30-55
+      updated: 2026-01-28-13-51-40
       followers: 1606
-      likes: 55
+      likes: 56
       comments: !c |-
         CyCAkZPLQnnAI0WNgACtY2hlbWljYWx0YWludNkmU3F1aWR3YXJkIHNpbGhvdWV0dGUhPyBJTiBW
         SVZFQyE/IPCfpK8D
     - service: vk
       id: 3045
       published: 2026-01-27-18-38-52
-      updated: 2026-01-28-13-30-58
+      updated: 2026-01-28-13-51-43
       followers: 1589
       likes: 51
       views: 338
@@ -1825,7 +1825,7 @@
     - service: tg
       id: 1133
       published: 2026-01-27-18-38-57
-      updated: 2026-01-28-13-30-59
+      updated: 2026-01-28-13-51-42
       followers: 888
       likes: 63
       views: 200
