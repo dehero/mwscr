@@ -1307,26 +1307,26 @@
       id: DT---z1lbsa
       mediaId: '17919642102091705'
       published: 2026-01-26-18-34-35
-      updated: 2026-01-27-23-21-01
+      updated: 2026-01-28-01-43-16
       followers: 1607
-      likes: 47
+      likes: 48
     - service: vk
       id: 3043
       published: 2026-01-26-18-34-43
-      updated: 2026-01-27-23-21-07
+      updated: 2026-01-28-01-43-12
       followers: 1589
-      likes: 40
-      views: 461
+      likes: 41
+      views: 474
       comments: !c |-
         iyiAkZPLQnnAA5LOgACscGV0ZWV2YW5kcmV32TjQntC00LjQvSDQuNC3INGB0LDQvNGL0YUg0YPR
         jtGC0L3Ri9GFINGC0YDQsNC60YLQuNGA0L7QsgM=
     - service: tg
       id: 1132
       published: 2026-01-26-18-34-49
-      updated: 2026-01-27-23-21-02
+      updated: 2026-01-28-01-43-11
       followers: 887
       likes: 55
-      views: 241
+      views: 245
       comments: !c |-
         G6AAIIyUbsI8ePi/n58wlnW8SCPCgqpAizYfbZ734SKBBnWyUKIehXp+ewFAByd6MD4OH2KMecxh
         nsPnUw7iWdk6mx0C9d3Tc5GkdTAWLuzY/8Uz4eDVyFhmgAdWRjLNASOaZ7jymki0D824TIYrdVtw
@@ -1801,26 +1801,29 @@
       id: DUBkQJ2E2rN
       mediaId: '17864816412560672'
       published: 2026-01-27-18-38-44
-      updated: 2026-01-27-23-21-00
+      updated: 2026-01-28-01-43-14
       followers: 1606
-      likes: 42
+      likes: 46
+      comments: !c |-
+        CyCAkZPLQnnAI0WNgACtY2hlbWljYWx0YWludNkmU3F1aWR3YXJkIHNpbGhvdWV0dGUhPyBJTiBW
+        SVZFQyE/IPCfpK8D
     - service: vk
       id: 3045
       published: 2026-01-27-18-38-52
-      updated: 2026-01-27-23-21-05
+      updated: 2026-01-28-01-43-09
       followers: 1589
-      likes: 19
-      views: 126
+      likes: 21
+      views: 146
       comments: !c |-
         G2EA+I3TDTfi6mMhHj5vpH++KXyerWSCXWKRJu/fJVneZEXsopqMaZJOyHac/YSfXDQhing0kqTh
         nXn6db9+P/f9aJ5cO8dx5pp/MKpEZacxd0eNALrd6hhAbLNS1UCLBlBs
     - service: tg
       id: 1133
       published: 2026-01-27-18-38-57
-      updated: 2026-01-27-23-20-59
+      updated: 2026-01-28-01-43-08
       followers: 888
-      likes: 46
-      views: 150
+      likes: 49
+      views: 158
       comments: !c |-
         Cx6AkpPLQnnAFT/0AACma2V2eS1jpPCfpoCTy0J5wAw/wQAArnBhaW5raWxsZXIxOTg2rNCc0L7R
         gdGC0L7QugM=
