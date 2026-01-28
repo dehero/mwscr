@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file.
 
+## [2.15.4](https://github.com/dehero/mwscr/compare/v2.15.3...v2.15.4) (2026-01-28)
+
+### Code Refactoring
+
+- rename src/local folder to src/scripts
+  ([6f126e0](https://github.com/dehero/mwscr/commit/6f126e03f2a73bbaae057dd3ad75e93e6fe6cdc7))
+
 ## [2.15.3](https://github.com/dehero/mwscr/compare/v2.15.2...v2.15.3) (2026-01-19)
 
 ### Bug Fixes
