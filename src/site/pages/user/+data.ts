@@ -1,5 +1,5 @@
 import type { PageContext } from 'vike/types';
-import { dataManager } from '../../../local/data-managers/manager.js';
+import { dataManager } from '../../../scripts/data-managers/manager.js';
 import { getUserPageData } from '../../components/UserPage/UserPage.data.js';
 import type { UserRouteParams } from '../../routes/user-route.js';
 

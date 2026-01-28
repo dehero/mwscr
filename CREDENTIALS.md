@@ -57,7 +57,7 @@ to `TELEGRAM_API_APP_HASH` environment variables.
 Run in command line:
 
 ```bash
-npm run script src/local/get-telegram-session.ts
+npm run script src/scripts/get-telegram-session.ts
 ```
 
 Enter `PHONE CODE` when it will be asked for and copy final output to `TELEGRAM_SESSION` environment variable.

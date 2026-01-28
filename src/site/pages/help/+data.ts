@@ -1,5 +1,5 @@
 import type { PageContext } from 'vike/types';
-import { dataManager } from '../../../local/data-managers/manager.js';
+import { dataManager } from '../../../scripts/data-managers/manager.js';
 import { getHelpPageData } from '../../components/HelpPage/HelpPage.data.js';
 import type { HelpRouteParams } from '../../routes/help-route.js';
 

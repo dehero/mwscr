@@ -1,5 +1,5 @@
 import type { OnBeforePrerenderStartAsync } from 'vike/types';
-import { postsManagers } from '../../../local/data-managers/posts.js';
+import { postsManagers } from '../../../scripts/data-managers/posts.js';
 import { postRoute } from '../../routes/post-route.js';
 
 export async function onBeforePrerenderStart(): ReturnType<OnBeforePrerenderStartAsync> {

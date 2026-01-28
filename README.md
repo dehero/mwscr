@@ -123,7 +123,7 @@ variables. Other contributors are limited in their possibilities when running th
 
 #### Maintenance
 
-The [`src/local/maintain.ts`](src/local/maintain.ts) script runs every hour on a schedule, or on any change to the
+The [`src/scripts/maintain.ts`](src/scripts/maintain.ts) script runs every hour on a schedule, or on any change to the
 repository in the `main` branch. Manual launch is also possible:
 
 ```bash
@@ -133,7 +133,7 @@ npm run maintain
 The sequence of steps is:
 
 1. Create issue templates in [`.github/ISSUE_TEMPLATE`](.github/ISSUE_TEMPLATE) according to the descriptions in
-   [`src/local/github-issue-resolvers`](src/local/github-issue-resolvers).
+   [`src/scripts/github-issue-resolvers`](src/scripts/github-issue-resolvers).
 2. Add to [`data/posts`](data/posts) posts manually created in project accounts by the administrator.
 3. Import to [`data/drafts`](data/drafts) new files from the `store:/inbox` added manually by the administrator.
 4. Delete rejected posts to [`data/rejects`](data/rejects`), restore posts from the rejects to
@@ -146,15 +146,15 @@ The sequence of steps is:
 
 #### Issue processing
 
-The script [`src/local/resolve-github-issue.ts`](src/local/resolve-github-issue.ts) runs on creating or modifying an
+The script [`src/scripts/resolve-github-issue.ts`](src/scripts/resolve-github-issue.ts) runs on creating or modifying an
 Issue in the [Issues](https://github.com/dehero/mwscr/issues) section. Issues are the main tool for the administrator
 and other contributors to interact with the project. The use of issues is described in the
 [contributing guidelines](CONTRIBUTING.md).
 
 #### Data validation
 
-The [`src/local/validate.ts`](src/local/validate.ts) script checks the integrity of data in the [`data`](data) folder
-and `store:` storage. Runs manually:
+The [`src/scripts/validate.ts`](src/scripts/validate.ts) script checks the integrity of data in the [`data`](data)
+folder and `store:` storage. Runs manually:
 
 ```bash
 npm run validate

@@ -10,9 +10,9 @@ import { viteStaticCopy } from 'vite-plugin-static-copy';
 import pkg from './package.json';
 import { PostsManagerName } from './src/core/entities/posts-manager.js';
 import { createTopicEntryFromMarkdown } from './src/core/entities/topic.js';
-import { dataManager } from './src/local/data-managers/manager.js';
-import { YAML_SCHEMA } from './src/local/data-managers/utils/yaml.js';
-import { getConstantRedirects } from './src/local/utils/vite-utils.js';
+import { dataManager } from './src/scripts/data-managers/manager.js';
+import { YAML_SCHEMA } from './src/scripts/data-managers/utils/yaml.js';
+import { getConstantRedirects } from './src/scripts/utils/vite-utils.js';
 
 export default defineConfig(async ({ isSsrBuild }) => ({
   root: 'src/site',

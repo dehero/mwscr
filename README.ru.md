@@ -124,8 +124,8 @@ LOCAL_STORE_PATH=
 
 #### Обслуживание
 
-Скрипт [`src/local/maintain.ts`](src/local/maintain.ts) запускается каждый час по расписанию, либо при любом изменении в
-репозитории в ветке `main`. Возможен также ручной запуск:
+Скрипт [`src/scripts/maintain.ts`](src/scripts/maintain.ts) запускается каждый час по расписанию, либо при любом
+изменении в репозитории в ветке `main`. Возможен также ручной запуск:
 
 ```bash
 npm run maintain
@@ -134,7 +134,7 @@ npm run maintain
 Последовательность шагов:
 
 1. Создать в [`.github/ISSUE_TEMPLATE`](.github/ISSUE_TEMPLATE) шаблоны для заявок согласно описаниям в
-   [`src/local/github-issue-resolvers`](src/local/github-issue-resolvers).
+   [`src/scripts/github-issue-resolvers`](src/scripts/github-issue-resolvers).
 2. Добавить в [`data/posts`](data/posts) посты, созданные в аккаунтах проекта администратором вручную.
 3. Импортировать в [`data/drafts`](data/drafts) новые файлы из хранилища `store:/inbox`, добавленные администратором
    вручную.
@@ -149,14 +149,15 @@ npm run maintain
 
 #### Обработка заявок
 
-Скрипт [`src/local/resolve-github-issue.ts`](src/local/resolve-github-issue.ts) запускается создании или изменении зявки
-в разделе [Issues](https://github.com/dehero/mwscr/issues). Заявки - основной инструмент взаимодействия с проектом для
-администратора и других его участников. Использование заявок описано в [руководстве для участников](CONTRIBUTING.ru.md).
+Скрипт [`src/scripts/resolve-github-issue.ts`](src/scripts/resolve-github-issue.ts) запускается создании или изменении
+зявки в разделе [Issues](https://github.com/dehero/mwscr/issues). Заявки - основной инструмент взаимодействия с проектом
+для администратора и других его участников. Использование заявок описано в
+[руководстве для участников](CONTRIBUTING.ru.md).
 
 #### Проверка данных
 
-Скрипт [`src/local/validate.ts`](src/local/validate.ts) проверяет целостность данных в папке [`data`](data) и хранилище
-`store:`. Запускается вручную:
+Скрипт [`src/scripts/validate.ts`](src/scripts/validate.ts) проверяет целостность данных в папке [`data`](data) и
+хранилище `store:`. Запускается вручную:
 
 ```bash
 npm run validate

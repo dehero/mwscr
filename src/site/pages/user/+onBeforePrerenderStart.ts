@@ -1,5 +1,5 @@
 import type { OnBeforePrerenderStartAsync } from 'vike/types';
-import { users } from '../../../local/data-managers/users.js';
+import { users } from '../../../scripts/data-managers/users.js';
 import { userRoute } from '../../routes/user-route.js';
 
 export async function onBeforePrerenderStart(): ReturnType<OnBeforePrerenderStartAsync> {

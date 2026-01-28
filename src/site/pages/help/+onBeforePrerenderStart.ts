@@ -1,4 +1,4 @@
-import { dataManager } from '../../../local/data-managers/manager.js';
+import { dataManager } from '../../../scripts/data-managers/manager.js';
 import { helpRoute } from '../../routes/help-route.js';
 
 export async function onBeforePrerenderStart() {
