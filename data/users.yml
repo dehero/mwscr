@@ -584,7 +584,7 @@ arya-stark:
   profiles:
     - service: vk
       id: '820702664'
-      updated: 2026-01-29-19-30-30
+      updated: 2026-01-29-22-26-57
       username: id820702664
       name: Арья Старк
       avatar: store:/avatars/vk-689aa89d.jpg
@@ -2901,7 +2901,7 @@ kevy-c:
   profiles:
     - service: tg
       id: '5067683234'
-      updated: 2026-01-29-21-25-59
+      updated: 2026-01-29-22-26-55
       accessHash: '-903667913374325979'
       username: Kevy_c
       name: Dash
@@ -4134,7 +4134,7 @@ painkiller1986:
   profiles:
     - service: tg
       id: '6565289507'
-      updated: 2026-01-29-21-25-59
+      updated: 2026-01-29-22-26-55
       accessHash: '6198356028119192921'
       username: Painkiller1986
       name: Сумерки
@@ -4338,7 +4338,7 @@ porsankka666:
   profiles:
     - service: vk
       id: '320093421'
-      updated: 2026-01-24-20-23-59
+      updated: 2026-01-29-22-26-57
       username: porsankka666
       name: Дмитрий Иванов-Соломин
       avatar: store:/avatars/vk-46213149.jpg
@@ -4779,7 +4779,7 @@ self-creating:
   profiles:
     - service: vk
       id: '50058433'
-      updated: 2026-01-24-20-38-08
+      updated: 2026-01-29-22-26-57
       username: self_creating
       name: Антон Коненков
       avatar: store:/avatars/vk-ef1ee023.jpg
@@ -4811,7 +4811,7 @@ sergey-b-2:
   profiles:
     - service: vk
       id: '1077446394'
-      updated: 2026-01-28-21-28-54
+      updated: 2026-01-29-22-26-57
       username: id1077446394
       name: Сергей Б
       avatar: store:/avatars/vk-5a7c7910.jpg
