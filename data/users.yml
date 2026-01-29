@@ -584,7 +584,7 @@ arya-stark:
   profiles:
     - service: vk
       id: '820702664'
-      updated: 2026-01-29-17-37-14
+      updated: 2026-01-29-19-30-30
       username: id820702664
       name: Арья Старк
       avatar: store:/avatars/vk-689aa89d.jpg
@@ -1015,7 +1015,7 @@ chernosotinec:
   profiles:
     - service: vk
       id: '355750944'
-      updated: 2026-01-28-19-28-12
+      updated: 2026-01-29-19-30-30
       username: Chernosotinec
       name: Артём Стекольщиков
       avatar: store:/avatars/vk-8aee5603.jpg
@@ -2846,7 +2846,7 @@ karatedance:
   profiles:
     - service: tg
       id: '1037255094'
-      updated: 2026-01-28-19-28-10
+      updated: 2026-01-29-19-30-39
       accessHash: '-5098047197051495291'
       username: karatedance
       name: танцы карате
@@ -2901,7 +2901,7 @@ kevy-c:
   profiles:
     - service: tg
       id: '5067683234'
-      updated: 2026-01-29-18-43-15
+      updated: 2026-01-29-19-30-41
       accessHash: '-903667913374325979'
       username: Kevy_c
       name: Dash
@@ -3963,7 +3963,7 @@ oberhort:
   profiles:
     - service: tg
       id: '19254498'
-      updated: 2026-01-28-19-28-12
+      updated: 2026-01-29-19-30-40
       accessHash: '-564270059565994883'
       username: oberhort
       name: Игорь
@@ -4062,7 +4062,7 @@ olmer-izdeyla:
   profiles:
     - service: tg
       id: '835160756'
-      updated: 2026-01-28-19-28-10
+      updated: 2026-01-29-19-30-39
       accessHash: '5779481472375422362'
       username: Olmer_Izdeyla
       name: Olmer Izdeyla
@@ -4134,7 +4134,7 @@ painkiller1986:
   profiles:
     - service: tg
       id: '6565289507'
-      updated: 2026-01-29-18-43-15
+      updated: 2026-01-29-19-30-38
       accessHash: '6198356028119192921'
       username: Painkiller1986
       name: Сумерки
