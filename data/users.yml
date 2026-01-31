@@ -560,7 +560,7 @@ artyom-karpov:
   profiles:
     - service: vk
       id: '178018548'
-      updated: 2026-01-24-21-21-05
+      updated: 2026-01-31-22-22-07
       username: id178018548
       name: Артём Карпов
       avatar: store:/avatars/vk-72fe5d60.jpg
@@ -584,7 +584,7 @@ arya-stark:
   profiles:
     - service: vk
       id: '820702664'
-      updated: 2026-01-31-21-50-10
+      updated: 2026-01-31-22-21-46
       username: id820702664
       name: Арья Старк
       avatar: store:/avatars/vk-689aa89d.jpg
@@ -1374,7 +1374,7 @@ dehero:
       avatar: store:/avatars/gh-c8afe641.jpg
     - service: vk
       id: '3652910'
-      updated: 2026-01-31-21-50-13
+      updated: 2026-01-31-22-23-39
       username: dehero
       name: Антон Курьянов
       avatar: store:/avatars/vk-5356f76e.jpg
@@ -1394,7 +1394,7 @@ dehero:
     - type: channel
       service: tg
       id: '1264795946'
-      updated: 2026-01-31-21-50-11
+      updated: 2026-01-31-22-21-46
       accessHash: '-5789257269249675714'
       username: mwscr
       name: Morrowind Screenshots
@@ -1904,7 +1904,7 @@ evil-kit:
   profiles:
     - service: vk
       id: '153155138'
-      updated: 2026-01-31-21-49-44
+      updated: 2026-01-31-22-23-39
       username: evil_kit
       name: Никита Метелкин
       avatar: store:/avatars/vk-adb64972.jpg
@@ -2583,7 +2583,7 @@ irina-volkova:
   profiles:
     - service: vk
       id: '830649'
-      updated: 2026-01-31-21-20-54
+      updated: 2026-01-31-22-21-42
       username: id830649
       name: Ирина Волкова
       avatar: store:/avatars/vk-ab8016e5.jpg
@@ -2908,7 +2908,7 @@ kevy-c:
   profiles:
     - service: tg
       id: '5067683234'
-      updated: 2026-01-31-21-20-55
+      updated: 2026-01-31-22-21-44
       accessHash: '-903667913374325979'
       username: Kevy_c
       name: Dash
@@ -3229,7 +3229,7 @@ lycanthropy:
   profiles:
     - service: vk
       id: '5386912'
-      updated: 2026-01-31-21-44-19
+      updated: 2026-01-31-22-22-48
       username: lycanthropy
       name: Филипп Суворов
       avatar: store:/avatars/vk-8642e0b8.jpg
@@ -4141,7 +4141,7 @@ painkiller1986:
   profiles:
     - service: tg
       id: '6565289507'
-      updated: 2026-01-31-21-23-15
+      updated: 2026-01-31-22-21-45
       accessHash: '6198356028119192921'
       username: Painkiller1986
       name: Сумерки
@@ -4818,7 +4818,7 @@ sergey-b-2:
   profiles:
     - service: vk
       id: '1077446394'
-      updated: 2026-01-31-21-20-54
+      updated: 2026-01-31-22-21-43
       username: id1077446394
       name: Сергей Б
       avatar: store:/avatars/vk-5a7c7910.jpg
@@ -5109,7 +5109,7 @@ soulilight:
   profiles:
     - service: vk
       id: '347703822'
-      updated: 2026-01-31-21-46-30
+      updated: 2026-01-31-22-22-26
       username: soulilight
       name: Dima Boev
       avatar: store:/avatars/vk-4a3f332e.jpg
@@ -5532,7 +5532,7 @@ todor:
   profiles:
     - service: tg
       id: '1305695186'
-      updated: 2026-01-31-21-25-01
+      updated: 2026-01-31-22-21-46
       accessHash: '8819682207926865502'
       name: Todor
       avatar: store:/avatars/tg-5305295556123424826.jpg
@@ -5851,7 +5851,7 @@ user-36:
   profiles:
     - service: vk
       id: '227500203'
-      updated: 2026-01-31-21-49-51
+      updated: 2026-01-31-22-22-46
       username: id227500203
       avatar: store:/avatars/vk-7f160215.jpg
       deleted: true
