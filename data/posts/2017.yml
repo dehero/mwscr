@@ -795,17 +795,17 @@
       id: DQcW4q6CaW8
       mediaId: '18082821593109100'
       published: 2025-10-30-18-15-49
-      updated: 2026-01-24-19-17-12
+      updated: 2026-01-31-19-21-12
       followers: 1587
       likes: 78
       comments: !c CxiAkZPLQnmjZYVTAACwY2FwdHVyZS13b3JsZC1pZ7RYZW5kIGl0IHRvIHVzIOKdpO+4jwM=
     - service: vk
       id: 2798
       published: 2025-10-30-18-15-55
-      updated: 2026-01-24-19-17-43
+      updated: 2026-01-31-19-21-55
       followers: 1491
       likes: 77
-      views: 846
+      views: 850
       comments: !c |-
         GyoCAJwHxq3xYPEp8tZdcIj/R+4Z6du3tloShZRHmFgL8gCTc1Wc7EbYg8AgEDLvFwhtm/38NT/K
         JeARRmmUvbjohW06qxIe/4ZWiHa/7vSAB8PLNQiioqdRLc9iiWoLyiJNKKB0m/zi5Q43NaKOoMtf
@@ -816,10 +816,10 @@
     - service: tg
       id: 1035
       published: 2025-10-30-18-15-59
-      updated: 2026-01-24-19-17-01
+      updated: 2026-01-31-19-21-19
       followers: 849
       likes: 81
-      views: 1646
+      views: 1663
       comments: !c iw2AkZPLQnmjir/XgACra2F3YXpha3kyMjOk8J+YswM=
 2017-01-21-building-akulakhan:
   title: Building Akulakhan
@@ -850,7 +850,7 @@
       id: DQH3R7LEQUG
       mediaId: '18295437574283457'
       published: 2025-10-22-19-14-52
-      updated: 2026-01-24-19-17-19
+      updated: 2026-01-31-19-21-20
       followers: 1586
       likes: 98
       comments: !c |-
@@ -859,10 +859,10 @@
     - service: vk
       id: 2761
       published: 2025-10-22-19-14-58
-      updated: 2026-01-24-19-18-03
+      updated: 2026-01-31-19-22-05
       followers: 1478
       likes: 74
-      views: 2243
+      views: 2252
       reposts: 1
       comments: !c |-
         G+EBAJ0Htg1rGy4s/pGFlRAz/vn+RhE+kD56oCWJJ9BMtOIr50JqmxIIaxGGkPcdn4VmGwdU7Tyx
@@ -873,10 +873,10 @@
     - service: tg
       id: 1024
       published: 2025-10-22-19-15-03
-      updated: 2026-01-24-19-17-07
+      updated: 2026-01-31-19-21-26
       followers: 840
       likes: 71
-      views: 1327
+      views: 1337
       comments: !c |-
         G5gAgGXgnCMcyKvwt+Ptuuw3HSQ6qMDPqadqp5xogXGQQDtJIBrfA66SEMphTKfWjmD9b7OHgQ7E
         K5TSftUyM4Df/LSMGMgPhSAmqNcbusd85bmKkY/NzQUAQ0ivwngGY1nqYHR6FNBDYmARQRQPuMmq
@@ -928,7 +928,7 @@
     - service: yt
       id: 8Waikj-VsSI
       published: 2017-01-22
-      updated: 2026-01-24-19-16-38
+      updated: 2026-01-31-19-20-34
       followers: 1
       likes: 7
       views: 134
@@ -1287,7 +1287,7 @@
     - service: yt
       id: lbg7_2GY9-U
       published: 2017-01-28
-      updated: 2026-01-24-19-16-37
+      updated: 2026-01-31-19-20-34
       followers: 2
       likes: 24
       views: 576
@@ -1471,16 +1471,16 @@
       id: DPmTmhFD2u9
       mediaId: '18295869616251373'
       published: 2025-10-09-18-28-10
-      updated: 2026-01-24-19-17-26
+      updated: 2026-01-31-19-21-28
       followers: 1586
       likes: 68
     - service: vk
       id: 2721
       published: 2025-10-09-18-28-19
-      updated: 2026-01-24-19-18-11
+      updated: 2026-01-31-19-22-15
       followers: 1458
       likes: 58
-      views: 693
+      views: 694
       comments: !c |-
         G30A+J0Hto1qPbBYGbn7akhE5RnCA3rRGMQoU61YBSt7kFsrLRjKkPcZiqfZDmkiiQfDoO2u7eLt
         77okDDzkKi+zJNEpeErv8xfv22N9R8WcxZtQZx9qOn91uak5RvlUxEOa3BWHRizFwWg1Ec2CLCQX
@@ -1488,10 +1488,10 @@
     - service: tg
       id: 1011
       published: 2025-10-09-18-28-24
-      updated: 2026-01-24-19-17-16
+      updated: 2026-01-31-19-21-33
       followers: 835
       likes: 74
-      views: 597
+      views: 601
       comments: !c ixmAkpPLQnmcpem/AACra2F3YXpha3kyMjOk8J+YjZPLQnmcpPShAAClYW5zaXOnQUxNU0lWSQM=
 2017-02-02-selling-some-stuff-in-sadrith-mora:
   title: Selling Some Stuff in Sadrith Mora
@@ -2041,10 +2041,10 @@
     - service: yt
       id: Fd77v5UL_ek
       published: 2017-02-12
-      updated: 2026-01-24-19-16-36
+      updated: 2026-01-31-19-20-32
       followers: 4
       likes: 36
-      views: 730
+      views: 731
       comments: !c |-
         G+YAgBwHuTn0gvF3N1LPirX9UPpbQr2S2psi3kSTh0ITqzRC0b0I5NZCCcZijEMV4R9uZdeskwMN
         0LMWhS0L7BwEwBVgoBsr/QvHIsPiabd7VewDeyRzcD2p1SqV7ocYKAlutSWKgcUSkWHOvtRoxj1F
@@ -3458,7 +3458,7 @@
       id: DNWGmTURktt
       mediaId: '18074617732952766'
       published: 2025-08-14-18-23-52
-      updated: 2026-01-24-19-17-49
+      updated: 2026-01-31-19-21-58
       followers: 1574
       likes: 44
     - service: vk
@@ -3476,10 +3476,10 @@
     - service: tg
       id: 951
       published: 2025-08-14-18-24-03
-      updated: 2026-01-24-19-18-04
+      updated: 2026-01-31-19-22-16
       followers: 780
       likes: 59
-      views: 645
+      views: 647
       comments: !c |-
         ix2AkpPLQnmKpjT+AACwc2Npb24tb2YtYmFsYW5jZaTwn5Ock8tCeYqdj9uAAKtrYXdhemFreTIy
         M6Twn5mPAw==
@@ -3921,24 +3921,24 @@
       id: DQZyPk3l4Hw
       mediaId: '17947401965918568'
       published: 2025-10-29-18-17-11
-      updated: 2026-01-24-19-17-14
+      updated: 2026-01-31-19-21-14
       followers: 1586
       likes: 49
     - service: vk
       id: 2797
       published: 2025-10-29-18-17-19
-      updated: 2026-01-24-19-17-45
+      updated: 2026-01-31-19-21-57
       followers: 1489
       likes: 59
-      views: 997
+      views: 1001
       reposts: 2
     - service: tg
       id: 1034
       published: 2025-10-29-18-17-25
-      updated: 2026-01-24-19-17-03
+      updated: 2026-01-31-19-21-22
       followers: 848
       likes: 72
-      views: 560
+      views: 565
       comments: !c CxGAkZPLQnmjExKigACqYTItZW5rZWxsaaxzaHJvb21idXJnZXID
 2017-03-25-the-two-towers:
   title: The Two Towers
@@ -5311,7 +5311,7 @@
       id: DN6JYL8EbVc
       mediaId: '18353272708083377'
       published: 2025-08-28-18-20-51
-      updated: 2026-01-24-19-17-44
+      updated: 2026-01-31-19-21-52
       followers: 1581
       likes: 93
     - service: vk
@@ -5325,10 +5325,10 @@
     - service: tg
       id: 965
       published: 2025-08-28-18-21-04
-      updated: 2026-01-24-19-17-55
+      updated: 2026-01-31-19-22-08
       followers: 782
       likes: 68
-      views: 583
+      views: 586
       comments: !c |-
         G9cA4B0JdizkA4uVA5MF4nnaGWEOASeW1MBnm8Bmyftku4HMzZCj1YTZYqgfoGNuELLrLUWz/hI8
         tWvGzLQr+EyohEzK1unkQA8YGJwCbUsgAPwCOmeS8/A7uhIzSWZyro2cr769XGrzpEHmwbqev5TM
@@ -5441,7 +5441,7 @@
       id: DPCQhJfkUvw
       mediaId: '18531152812017994'
       published: 2025-09-25-18-28-32
-      updated: 2026-01-24-19-17-31
+      updated: 2026-01-31-19-21-37
       followers: 1581
       likes: 93
     - service: vk
@@ -5460,10 +5460,10 @@
     - service: tg
       id: 997
       published: 2025-09-25-18-28-46
-      updated: 2026-01-24-19-17-25
+      updated: 2026-01-31-19-21-49
       followers: 809
       likes: 71
-      views: 621
+      views: 625
       comments: !c iw2AkZPLQnmYJG+1AACra2F3YXpha3kyMjOk8J+PsAM=
 2017-04-26-divine-pentagon:
   title: Divine Pentagon
@@ -5693,25 +5693,25 @@
       id: DRC_YWBl8pm
       mediaId: '17891152044369444'
       published: 2025-11-14-18-20-48
-      updated: 2026-01-24-19-17-01
+      updated: 2026-01-31-19-21-02
       followers: 1594
       likes: 41
     - service: vk
       id: 2851
       published: 2025-11-14-18-20-56
-      updated: 2026-01-24-19-17-22
+      updated: 2026-01-31-19-21-27
       followers: 1505
       likes: 65
-      views: 788
+      views: 791
       reposts: 1
       comments: !c iw+AkZPLQnmoZXF7AACqYXJ5YS1zdGFya6nQo9C/0YEuLi4D
     - service: tg
       id: 1055
       published: 2025-11-14-18-21-02
-      updated: 2026-01-24-19-16-54
+      updated: 2026-01-31-19-21-10
       followers: 858
       likes: 69
-      views: 617
+      views: 625
       comments: !c iw2AkZPLQnmosg+9AACra2F3YXpha3kyMjOk8J+YswM=
 2017-04-30-palace-of-vivec:
   title: Palace of Vivec
@@ -9722,7 +9722,7 @@
       id: DMfcv4vtA0d
       mediaId: '18120144139470400'
       published: 2025-07-24-12-59-15
-      updated: 2026-01-24-19-18-01
+      updated: 2026-01-31-19-22-18
       followers: 1572
       likes: 66
       comments: !c |-
@@ -10036,7 +10036,7 @@
       id: DOeM_flD0t-
       mediaId: '17849274069555789'
       published: 2025-09-11-18-25-04
-      updated: 2026-01-24-19-17-38
+      updated: 2026-01-31-19-21-45
       followers: 1586
       likes: 95
       comments: !c |-
@@ -10053,10 +10053,10 @@
     - service: tg
       id: 980
       published: 2025-09-11-18-25-15
-      updated: 2026-01-24-19-17-34
+      updated: 2026-01-31-19-22-01
       followers: 796
       likes: 64
-      views: 579
+      views: 582
       comments: !c |-
         G98AIOTnz/VNnq6Coi5EooqKsqwScIADugQ+W55295jkieUcpVnAUbrJcAA6s+kOn917xiRKoqu3
         6cxWa7OD7W6gR8JX8dV9iRpF0cf/Zm3NXdnmfvvFn4+QhEhZK9Tv6cdUpDQL+OsMEDoHQ9FQPvNs
@@ -10735,9 +10735,9 @@
       id: DNBga1Sso0Z
       mediaId: '17898572103258644'
       published: 2025-08-06-18-25-26
-      updated: 2026-01-24-19-17-52
+      updated: 2026-01-31-19-22-04
       followers: 1572
-      likes: 85
+      likes: 86
     - service: vk
       id: 2560
       published: 2025-08-06-18-25-35
@@ -11458,7 +11458,7 @@
       id: DN3l2Qc4iRy
       mediaId: '18063386042339806'
       published: 2025-08-27-18-31-57
-      updated: 2026-01-24-19-17-46
+      updated: 2026-01-31-19-21-53
       followers: 1580
       likes: 68
       comments: !c |-
@@ -11475,10 +11475,10 @@
     - service: tg
       id: 962
       published: 2025-08-27-18-32-05
-      updated: 2026-01-24-19-17-56
+      updated: 2026-01-31-19-22-11
       followers: 782
       likes: 61
-      views: 581
+      views: 584
       comments: !c |-
         Gz8BQBwHdiyzkESLl06j+P5G+vBTLJlVQjUTSbIn3v+ca4ITWYNNcBbRlhZXAkeZH+zC7i3SzXai
         w4HB32A4mMxkN7E8gcICLYQ0u6XBbCYWXF363x7nx+YTdCHIW/+pI4chFuiK5t5/c1BZ61oli5NH
@@ -14702,7 +14702,7 @@
       id: DNlkoviRtWC
       mediaId: '17945813988011308'
       published: 2025-08-20-18-35-01
-      updated: 2026-01-24-19-17-47
+      updated: 2026-01-31-19-21-56
       followers: 1580
       likes: 70
     - service: vk
@@ -14716,10 +14716,10 @@
     - service: tg
       id: 956
       published: 2025-08-20-18-35-11
-      updated: 2026-01-24-19-18-02
+      updated: 2026-01-31-19-22-13
       followers: 782
       likes: 69
-      views: 672
+      views: 674
       comments: !c iw2AkZPLQnmOXptyAACra2F3YXpha3kyMjOk8J+QpgM=
 2017-11-22-at-the-margin:
   title: At the Margin
@@ -15452,7 +15452,7 @@
       id: DOrFi8CDq8p
       mediaId: '18326558461226746'
       published: 2025-09-16-18-30-08
-      updated: 2026-01-24-19-17-36
+      updated: 2026-01-31-19-21-43
       followers: 1583
       likes: 74
     - service: vk
@@ -15466,10 +15466,10 @@
     - service: tg
       id: 987
       published: 2025-09-16-18-30-21
-      updated: 2026-01-24-19-17-32
+      updated: 2026-01-31-19-21-58
       followers: 797
       likes: 65
-      views: 584
+      views: 587
       comments: !c iw2AkZPLQnmVYaIOgACra2F3YXpha3kyMjOk8J+MnwM=
 2017-12-08-lower-circle:
   title: Lower Circle
