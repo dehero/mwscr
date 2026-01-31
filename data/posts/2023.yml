@@ -62,18 +62,18 @@
     - service: vk
       id: 2501
       published: 2025-07-02-18-24-04
-      updated: 2026-01-24-20-22-39
+      updated: 2026-01-31-20-26-31
       followers: 1333
       likes: 56
-      views: 556
+      views: 558
       reposts: 1
     - service: tg
       id: 905
       published: 2025-07-02-18-24-07
-      updated: 2026-01-24-20-22-04
+      updated: 2026-01-31-20-25-44
       followers: 760
       likes: 72
-      views: 633
+      views: 636
       comments: !c |-
         GzwBICyOx+2nFLWNo94R//xzsuFsoF93zs5Ug0TCuASCMLGS+zBtWyUVwVC9eYOhvxnrQ7aNb/1L
         MqfbBF8QXKZoKOjmYteYFgRFRLCI8rf+mO8GRxoQh+s2TzLrGODAGy4yuMkKG2SzJu63x/O35r7d
@@ -83,7 +83,7 @@
       id: DLodyriseno
       mediaId: '18041435729646241'
       published: 2025-07-03-04-30-02
-      updated: 2026-01-24-20-21-12
+      updated: 2026-01-31-20-25-05
       followers: 1558
       likes: 87
 2023-07-29-evening-at-the-suran-street-by-darkness-rifho:
@@ -176,17 +176,17 @@
     - service: vk
       id: 2382
       published: 2025-05-24-18-18-58
-      updated: 2026-01-24-20-23-54
+      updated: 2026-01-31-20-27-40
       followers: 1305
       likes: 55
-      views: 468
+      views: 469
     - service: tg
       id: 857
       published: 2025-05-24-18-19-06
-      updated: 2026-01-24-20-22-47
+      updated: 2026-01-31-20-26-31
       followers: 739
       likes: 65
-      views: 580
+      views: 581
 2023-07-31-overhanging-rock-by-darkness-rifho:
   title: Overhanging Rock
   titleRu: Нависающая скала
@@ -240,10 +240,10 @@
     - service: vk
       id: 2629
       published: 2025-09-03-18-21-16
-      updated: 2026-01-24-20-21-46
+      updated: 2026-01-31-20-25-35
       followers: 1404
       likes: 44
-      views: 596
+      views: 598
       reposts: 1
       comments: !c |-
         Cy+AkZPLQnmRFaD7gACwc2VyZ2V5LWNodXJiYW5vdtlB0K3RjdC5KSDQt9C00LDRgNC+0LLQsCEg
@@ -342,7 +342,7 @@
     - service: vk
       id: 2341
       published: 2025-05-06-18-24-44
-      updated: 2026-01-24-20-24-37
+      updated: 2026-01-31-20-28-15
       followers: 1281
       likes: 46
       views: 486
@@ -355,10 +355,10 @@
     - service: tg
       id: 832
       published: 2025-05-06-18-24-51
-      updated: 2026-01-24-20-23-25
+      updated: 2026-01-31-20-26-49
       followers: 738
       likes: 69
-      views: 716
+      views: 717
 2023-08-03-spinning-wheel:
   title: Spinning-Wheel
   titleRu: Прялка
@@ -423,10 +423,10 @@
     - service: tg
       id: 767
       published: 2025-03-27-18-12-12
-      updated: 2026-01-24-20-24-05
+      updated: 2026-01-31-20-27-35
       followers: 710
       likes: 64
-      views: 521
+      views: 522
 2023-08-04-holy-fir:
   title: Holy Fir
   titleRu: Святая ель
@@ -726,10 +726,10 @@
     - service: tg
       id: 773
       published: 2025-04-01-18-21-57
-      updated: 2026-01-24-20-24-03
+      updated: 2026-01-31-20-27-28
       followers: 712
       likes: 68
-      views: 672
+      views: 673
 2023-08-10-behind-a-barrel:
   title: Behind a Barrel
   titleRu: За бочкой

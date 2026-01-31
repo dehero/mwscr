@@ -621,10 +621,10 @@
     - service: vk
       id: 2412
       published: 2025-06-01-18-25-47
-      updated: 2026-01-24-20-23-38
+      updated: 2026-01-31-20-27-22
       followers: 1314
       likes: 65
-      views: 628
+      views: 629
       reposts: 1
       comments: !c |-
         G7gA4J0JNk6oR3kXHkR1e8LjJgk0wySIsusPqAm4LKJkF3MbO/OKYRiFlQ1cha2DQw5crhi0ADAI
@@ -633,10 +633,10 @@
     - service: tg
       id: 868
       published: 2025-06-01-18-25-50
-      updated: 2026-01-24-20-22-35
+      updated: 2026-01-31-20-26-20
       followers: 742
       likes: 62
-      views: 596
+      views: 597
       comments: !c iw2AkZPLQnlyzUJLAACra2F3YXpha3kyMjOk8J+rpQM=
 2019-02-19-sandy-shore-of-west-gash:
   title: Sandy Shore of West Gash
@@ -772,7 +772,7 @@
       id: DLdFbXcM6lH
       mediaId: '17969804192764452'
       published: 2025-06-28-18-25-32
-      updated: 2026-01-24-20-21-17
+      updated: 2026-01-31-20-25-12
       followers: 1553
       likes: 97
       comments: !c |-
@@ -1718,26 +1718,26 @@
     - service: vk
       id: 2485
       published: 2025-06-25-18-30-45
-      updated: 2026-01-24-20-22-45
+      updated: 2026-01-31-20-26-39
       followers: 1328
       likes: 80
-      views: 1226
+      views: 1229
       reposts: 5
     - service: tg
       id: 896
       published: 2025-06-25-18-30-49
-      updated: 2026-01-24-20-22-09
+      updated: 2026-01-31-20-25-51
       followers: 754
       likes: 74
-      views: 979
+      views: 981
       comments: !c iw2AkZPLQnl6hjgZgACra2F3YXpha3kyMjOk8J+RgQM=
     - service: ig
       id: DLZ5KTksdmG
       mediaId: '18068498947844214'
       published: 2025-06-27-12-40-35
-      updated: 2026-01-24-20-21-24
+      updated: 2026-01-31-20-25-18
       followers: 1554
-      likes: 122
+      likes: 123
       comments: !c ixOAkZPLQnl8eRdIAACoMmFiYW5kb26zSSB3aXNoIEkgd2FzIHRoZXJlLgM=
 2019-10-02-dreamer:
   title: Dreamer
@@ -1814,17 +1814,17 @@
     - service: vk
       id: 2510
       published: 2025-07-09-18-24-37
-      updated: 2026-01-24-20-22-31
+      updated: 2026-01-31-20-26-22
       followers: 1335
       likes: 35
-      views: 611
+      views: 613
     - service: tg
       id: 912
       published: 2025-07-09-18-24-42
-      updated: 2026-01-24-20-21-57
+      updated: 2026-01-31-20-25-35
       followers: 758
       likes: 54
-      views: 596
+      views: 598
       comments: !c Cw2AkZPLQnl/0JrBgACqbWF4LXVwc2hlcqTwn5iYAw==
 2019-10-04-rainy-welcome:
   title: Rainy Welcome
@@ -2325,18 +2325,18 @@
     - service: vk
       id: 2531
       published: 2025-07-25-00-59-21
-      updated: 2026-01-24-20-22-10
+      updated: 2026-01-31-20-26-03
       followers: 1350
       likes: 43
-      views: 664
+      views: 666
       reposts: 5
     - service: tg
       id: 927
       published: 2025-07-25-00-59-24
-      updated: 2026-01-24-20-21-33
+      updated: 2026-01-31-20-25-03
       followers: 765
       likes: 75
-      views: 1089
+      views: 1091
       comments: !c CxeAkZPLQnmD/QG+AACvdmFpbC1hc3Rvci16a2l5s9Ca0YDQsNCx0L7Rh9C10LsuLi4D
     - service: ig
       id: DMi0vszNT3e
@@ -2518,10 +2518,10 @@
     - service: vk
       id: 2362
       published: 2025-05-17-18-24-00
-      updated: 2026-01-24-20-24-15
+      updated: 2026-01-31-20-27-54
       followers: 1300
       likes: 67
-      views: 573
+      views: 574
       reposts: 2
       comments: !c |-
         G3IA+I3TZXZoRb7s+VND+DWLAhaR8BjThu624iWZ97DLbeys7XiORCuoJkUYpNDS7+izj0Aep8tN
@@ -2529,10 +2529,10 @@
     - service: tg
       id: 847
       published: 2025-05-17-19-13-22
-      updated: 2026-01-24-20-23-11
+      updated: 2026-01-31-20-26-39
       followers: 737
       likes: 69
-      views: 549
+      views: 551
 2019-10-22-the-wind-is-getting-stronger:
   title: The Wind Is Getting Stronger
   titleRu: Ветер крепчает
