@@ -1155,24 +1155,29 @@
       id: DUEI4m9Duqi
       mediaId: '18100851613884451'
       published: 2026-01-28-18-37-18
-      updated: 2026-01-30-17-32-56
+      updated: 2026-01-31-18-31-03
       followers: 1606
-      likes: 43
+      likes: 45
     - service: vk
       id: 3049
       published: 2026-01-28-18-37-23
-      updated: 2026-01-30-17-32-53
+      updated: 2026-01-31-18-31-04
       followers: 1591
-      likes: 29
-      views: 508
+      likes: 35
+      views: 596
       reposts: 2
+      comments: !c |-
+        G0gB4C0LbOc1CMkIdptEaGLPf4URKp3+kRNL+LVJm1R4piNaJjbSyT2dztwIe+EuXNONrGdQINtm
+        6MZmTruhPsLwUyFYu2TEMk/uM1vKzmADTsBDG8QW2fwJj0s3YDGZwOf7X5qvx/F715Gfx8cyMVJP
+        zHCF+PMepCzaIDPjaJKTQxp2nnhDWDYMR1YS41CQEyH0o1zTMJOErUSeBpcqqjt+EygyuUWTZNy9
+        kHMPo5bUmWRl2KEu+QfDiGlStODIgEQB
     - service: tg
       id: 1134
       published: 2026-01-28-18-37-27
-      updated: 2026-01-30-17-32-59
+      updated: 2026-01-31-18-31-08
       followers: 888
-      likes: 54
-      views: 238
+      likes: 59
+      views: 265
       comments: !c |-
         iyGAkpPLQnnAYpJjAACma2V2eS1jpPCfpoCTy0J5wF+uJwAArnBhaW5raWxsZXIxOTg2s9Cl0LvQ
         tdCxINC/0LXRh9GR0LwD
