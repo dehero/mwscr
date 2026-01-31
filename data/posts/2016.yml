@@ -36,7 +36,7 @@
     - service: vk
       id: 1499
       published: 2024-04-18-18-17-57
-      updated: 2026-01-24-20-36-53
+      updated: 2026-01-31-21-33-26
       followers: 910
       likes: 32
       views: 290
@@ -47,7 +47,7 @@
     - service: tg
       id: 382
       published: 2024-04-18-18-18-06
-      updated: 2026-01-24-20-30-41
+      updated: 2026-01-31-21-27-28
       followers: 354
       likes: 67
       views: 460
@@ -92,7 +92,7 @@
     - service: vk
       id: 2312
       published: 2025-04-28-18-25-04
-      updated: 2026-01-24-20-24-54
+      updated: 2026-01-31-21-21-20
       followers: 1274
       likes: 72
       views: 523
@@ -153,7 +153,7 @@
     - service: vk
       id: 1924
       published: 2024-11-28-18-10-44
-      updated: 2026-01-24-20-30-21
+      updated: 2026-01-31-21-26-51
       followers: 1012
       likes: 50
       views: 449
@@ -165,10 +165,10 @@
     - service: tg
       id: 609
       published: 2024-11-28-18-10-52
-      updated: 2026-01-24-20-26-08
+      updated: 2026-01-31-21-22-32
       followers: 578
       likes: 59
-      views: 711
+      views: 714
 2016-11-20-4-aldruhn-under-skar:
   title: Ald'ruhn, Under-Skar
   titleRu: Альд'рун, под Скаром
@@ -210,7 +210,7 @@
     - service: vk
       id: 1750
       published: 2024-09-11-18-36-08
-      updated: 2026-01-24-20-32-38
+      updated: 2026-01-31-21-29-14
       followers: 945
       likes: 51
       views: 427
@@ -221,10 +221,10 @@
     - service: tg
       id: 529
       published: 2024-09-11-18-36-14
-      updated: 2026-01-24-20-27-47
+      updated: 2026-01-31-21-24-15
       followers: 555
       likes: 57
-      views: 1102
+      views: 1106
       comments: !c CwyAkZPLQnkeJgMugAClYW5zaXOnbXkgaG9tZQM=
 2016-11-20-5-galom-daeus:
   title: Galom Daeus
@@ -290,14 +290,14 @@
     - service: tg
       id: 371
       published: 2024-04-07-18-16-13
-      updated: 2026-01-24-20-30-52
+      updated: 2026-01-31-21-27-39
       followers: 353
       likes: 74
       views: 491
     - service: vk
       id: 1485
       published: 2024-04-07-19-10-42
-      updated: 2026-01-24-20-37-03
+      updated: 2026-01-31-21-33-36
       followers: 909
       likes: 59
       views: 349
@@ -344,14 +344,14 @@
     - service: vk
       id: 1553
       published: 2024-05-29-18-18-55
-      updated: 2026-01-24-20-35-38
+      updated: 2026-01-31-21-31-59
       followers: 917
       likes: 26
       views: 280
     - service: tg
       id: 423
       published: 2024-05-29-18-19-00
-      updated: 2026-01-24-20-29-58
+      updated: 2026-01-31-21-26-41
       followers: 378
       likes: 62
       views: 481
@@ -542,7 +542,7 @@
     - service: vk
       id: 1687
       published: 2024-08-11-18-20-27
-      updated: 2026-01-24-20-33-33
+      updated: 2026-01-31-21-30-10
       followers: 930
       likes: 47
       views: 325
@@ -550,10 +550,10 @@
     - service: tg
       id: 498
       published: 2024-08-11-18-20-32
-      updated: 2026-01-24-20-28-27
+      updated: 2026-01-31-21-24-56
       followers: 520
       likes: 68
-      views: 675
+      views: 677
       comments: !c |-
         G4sAYJwFdiyb0GJwHlrudEPSBs+d8BxCJ9seleCtZZGCN6kEoPjMmS3lOrlyygFzK0kiCciO6T1l
         QRJUI/7pf5bFTQYRsgiqbQKXUTXHkoPxue3SAy/Kkc33fQkoINw0GM/KAvUWmCDvuEAFlikIF8/c
@@ -618,7 +618,7 @@
     - service: vk
       id: 1644
       published: 2024-07-19-18-20-33
-      updated: 2026-01-24-20-34-15
+      updated: 2026-01-31-21-30-42
       followers: 919
       likes: 49
       views: 349
@@ -629,10 +629,10 @@
     - service: tg
       id: 474
       published: 2024-07-19-18-20-40
-      updated: 2026-01-24-20-29-05
+      updated: 2026-01-31-21-25-47
       followers: 400
       likes: 62
-      views: 596
+      views: 597
 2016-11-30-the-road-most-travelled:
   title: The Road Most Travelled
   titleRu: Самая знакомая дорога
@@ -669,7 +669,7 @@
     - service: vk
       id: 1896
       published: 2024-11-16-18-09-40
-      updated: 2026-01-24-20-30-43
+      updated: 2026-01-31-21-27-14
       followers: 1007
       likes: 56
       views: 435
@@ -683,10 +683,10 @@
     - service: tg
       id: 597
       published: 2024-11-16-18-09-47
-      updated: 2026-01-24-20-26-29
+      updated: 2026-01-31-21-22-55
       followers: 573
       likes: 71
-      views: 747
+      views: 749
 2016-12-01-arvs-drelen:
   title: Arvs-Drelen
   titleRu: Арвс-Дрелен
@@ -723,7 +723,7 @@
     - service: vk
       id: 2282
       published: 2025-04-16-18-22-11
-      updated: 2026-01-24-20-25-13
+      updated: 2026-01-31-21-21-43
       followers: 1261
       likes: 75
       views: 562
@@ -775,7 +775,7 @@
     - service: vk
       id: 1966
       published: 2024-12-16-18-11-45
-      updated: 2026-01-24-20-29-47
+      updated: 2026-01-31-21-26-18
       followers: 1027
       likes: 57
       views: 405
@@ -783,10 +783,10 @@
     - service: tg
       id: 627
       published: 2024-12-16-18-11-52
-      updated: 2026-01-24-20-25-55
+      updated: 2026-01-31-21-22-15
       followers: 581
       likes: 79
-      views: 739
+      views: 740
       comments: !c |-
         G+4A4K0SuLOYByPKFBpbHvbRP3KL8M9bDpG1hCJO7qnbSgqCYGi/OLn+bqGqbnt+jc9pmyCC4+/V
         YvaU5aWcG1mGvWU75TRwTTShALQlmtGFDh6y7YGSNZFPz/vX8v9xfHfF/H6ruVCsWVskZoHMI9zw
@@ -854,7 +854,7 @@
     - service: vk
       id: 1560
       published: 2024-06-02-18-19-25
-      updated: 2026-01-24-20-35-29
+      updated: 2026-01-31-21-31-50
       followers: 915
       likes: 48
       views: 388
@@ -862,7 +862,7 @@
     - service: tg
       id: 427
       published: 2024-06-02-18-19-30
-      updated: 2026-01-24-20-29-54
+      updated: 2026-01-31-21-26-38
       followers: 380
       likes: 65
       views: 507
@@ -934,17 +934,17 @@
     - service: vk
       id: 1960
       published: 2024-12-13-18-11-18
-      updated: 2026-01-24-20-29-54
+      updated: 2026-01-31-21-26-24
       followers: 1024
       likes: 35
       views: 326
     - service: tg
       id: 624
       published: 2024-12-13-18-11-26
-      updated: 2026-01-24-20-25-57
+      updated: 2026-01-31-21-22-18
       followers: 580
       likes: 64
-      views: 663
+      views: 664
       comments: !c |-
         G4YA6I3UTjc8sgT/wLkIFzbw7aLsuCzboqkSOEnzfTy3Mc/YrSVFYIXBBpxoODAnPAgvdKPsUHHZ
         j5dXqOcadgy4FYqVRqeT+acJrUsutOYHUzNWU4S14DXX2iRNEmLEaYN5xkSUpvSjJ4a7sPGE/+zi
@@ -1067,7 +1067,7 @@
     - service: vk
       id: 1561
       published: 2024-06-03-18-20-43
-      updated: 2026-01-24-20-35-28
+      updated: 2026-01-31-21-31-49
       followers: 915
       likes: 36
       views: 296
@@ -1076,7 +1076,7 @@
     - service: tg
       id: 428
       published: 2024-06-03-18-20-51
-      updated: 2026-01-24-20-29-54
+      updated: 2026-01-31-21-26-38
       followers: 383
       likes: 59
       views: 502
@@ -1146,7 +1146,7 @@
     - service: vk
       id: 1653
       published: 2024-07-23-18-20-55
-      updated: 2026-01-24-20-34-09
+      updated: 2026-01-31-21-30-36
       followers: 921
       likes: 40
       views: 311
@@ -1155,10 +1155,10 @@
     - service: tg
       id: 478
       published: 2024-07-23-18-21-00
-      updated: 2026-01-24-20-29-00
+      updated: 2026-01-31-21-25-44
       followers: 400
       likes: 62
-      views: 584
+      views: 585
 2016-12-13-seyda-neen-lighthouse:
   title: Seyda Neen Lighthouse
   titleRu: Маяк Сейда Нина
@@ -1451,7 +1451,7 @@
     - service: vk
       id: 1564
       published: 2024-06-04-18-19-46
-      updated: 2026-01-24-20-35-26
+      updated: 2026-01-31-21-31-47
       followers: 915
       likes: 47
       views: 405
@@ -1467,7 +1467,7 @@
     - service: tg
       id: 429
       published: 2024-06-04-18-19-52
-      updated: 2026-01-24-20-29-54
+      updated: 2026-01-31-21-26-37
       followers: 383
       likes: 64
       views: 487
@@ -1514,14 +1514,14 @@
     - service: vk
       id: 1474
       published: 2024-03-30-18-11-53
-      updated: 2026-01-24-20-37-10
+      updated: 2026-01-31-21-33-43
       followers: 905
       likes: 38
       views: 283
     - service: tg
       id: 362
       published: 2024-03-30-18-11-58
-      updated: 2026-01-24-20-30-59
+      updated: 2026-01-31-21-27-48
       followers: 354
       likes: 70
       views: 492
@@ -1610,7 +1610,7 @@
     - service: vk
       id: 1512
       published: 2024-04-28-18-16-56
-      updated: 2026-01-24-20-36-41
+      updated: 2026-01-31-21-33-05
       followers: 911
       likes: 43
       views: 354
@@ -1618,10 +1618,10 @@
     - service: tg
       id: 392
       published: 2024-04-28-18-17-01
-      updated: 2026-01-24-20-30-30
+      updated: 2026-01-31-21-27-17
       followers: 354
       likes: 71
-      views: 559
+      views: 560
     - service: ig
       id: C6YMB6DxXL3
       mediaId: '18251438425218335'
@@ -1826,7 +1826,7 @@
     - service: vk
       id: 1713
       published: 2024-08-28-18-23-48
-      updated: 2026-01-24-20-33-05
+      updated: 2026-01-31-21-29-38
       followers: 940
       likes: 49
       views: 372
@@ -1839,10 +1839,10 @@
     - service: tg
       id: 515
       published: 2024-08-28-18-23-56
-      updated: 2026-01-24-20-28-04
+      updated: 2026-01-31-21-24-33
       followers: 546
       likes: 70
-      views: 672
+      views: 673
 2016-12-29-entering-holamayan-monastery:
   title: Entering Holamayan Monastery
   titleRu: Вход в монастырь Холамаян
@@ -1906,7 +1906,7 @@
     - service: vk
       id: 1593
       published: 2024-06-21-18-20-26
-      updated: 2026-01-24-20-34-53
+      updated: 2026-01-31-21-31-22
       followers: 919
       likes: 36
       views: 308
@@ -1914,10 +1914,10 @@
     - service: tg
       id: 446
       published: 2024-06-21-18-20-33
-      updated: 2026-01-24-20-29-36
+      updated: 2026-01-31-21-26-20
       followers: 386
       likes: 55
-      views: 558
+      views: 559
 2016-12-31-far-friends:
   title: Far Friends
   titleRu: Далёкие друзья
@@ -1961,14 +1961,14 @@
     - service: tg
       id: 556
       published: 2024-10-06-18-09-23
-      updated: 2026-01-24-20-27-20
+      updated: 2026-01-31-21-23-47
       followers: 559
       likes: 66
-      views: 582
+      views: 584
     - service: vk
       id: 1812
       published: 2024-10-06-19-01-29
-      updated: 2026-01-24-20-31-55
+      updated: 2026-01-31-21-28-29
       followers: 958
       likes: 53
       views: 389
