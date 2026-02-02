@@ -2583,7 +2583,7 @@ irina-volkova:
   profiles:
     - service: vk
       id: '830649'
-      updated: 2026-02-01-23-23-39
+      updated: 2026-02-02-02-03-11
       username: id830649
       name: Ирина Волкова
       avatar: store:/avatars/vk-ab8016e5.jpg
@@ -2908,7 +2908,7 @@ kevy-c:
   profiles:
     - service: tg
       id: '5067683234'
-      updated: 2026-02-01-23-23-41
+      updated: 2026-02-02-02-03-11
       accessHash: '-903667913374325979'
       username: Kevy_c
       name: Dash
@@ -4141,7 +4141,7 @@ painkiller1986:
   profiles:
     - service: tg
       id: '6565289507'
-      updated: 2026-02-01-23-23-41
+      updated: 2026-02-02-02-03-11
       accessHash: '6198356028119192921'
       username: Painkiller1986
       name: Сумерки
@@ -4818,7 +4818,7 @@ sergey-b-2:
   profiles:
     - service: vk
       id: '1077446394'
-      updated: 2026-02-01-23-23-39
+      updated: 2026-02-02-02-03-11
       username: id1077446394
       name: Сергей Б
       avatar: store:/avatars/vk-5a7c7910.jpg
