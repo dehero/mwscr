@@ -6927,6 +6927,14 @@
       likes: 82
       views: 414
       comments: !c CxGAkZPLQnkJmb+9gACwam9hb3dvaWNoaW5ldnNraaZhbGVmdD8D
+    - service: vk
+      id: 3061
+      published: 2026-02-03-18-59-18
+      followers: 1597
+    - service: tg
+      id: 1140
+      published: 2026-02-03-18-59-23
+      followers: 887
 2017-05-25-arvela-falas:
   title: Arvela Falas
   titleRu: Арвела Фалас
@@ -11205,10 +11213,10 @@
     - service: tg
       id: 969
       published: 2025-09-01-18-20-39
-      updated: 2026-01-27-18-37-53
+      updated: 2026-02-03-18-55-42
       followers: 787
       likes: 71
-      views: 601
+      views: 603
       comments: !c |-
         G80AACwO7DbWSzHYLlQvOD77oURE3Z7wxn+CQi3KrISaCJM9zOn2kKMxgtOLfkfLHdKLvDzo62Nr
         SUFbdgWt1faBaGCFS8uE5WXTyRHfDgQBZlkLLLCQIsk+D5xjxVBFzPNcve6Pu+/nGM8eklSO3IrT
