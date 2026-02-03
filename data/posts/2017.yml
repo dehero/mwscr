@@ -6930,26 +6930,28 @@
     - service: vk
       id: 3061
       published: 2026-02-03-18-59-18
-      updated: 2026-02-03-22-41-34
+      updated: 2026-02-03-23-28-04
       followers: 1597
       likes: 5
-      views: 58
+      views: 59
       comments: !c |-
         G28A+B2J6cYOWSz3PiqeJ2+kfyBTm84n2HWJJJgm75vd5CwkUYvbjiYKTSgL3u1w07pkK8tuSRbK
         KCzpQAkA6XX/8Xzp+RTeRX32WacWpIXa4MTkKbPWeLx0VobKjOGCw2JBypUSZ2gD
     - service: tg
       id: 1140
       published: 2026-02-03-18-59-23
-      updated: 2026-02-03-22-41-27
+      updated: 2026-02-03-23-28-05
       followers: 887
-      likes: 29
-      views: 134
+      likes: 30
+      views: 136
       comments: !c CwuAkZPLQnnCUmj1AACma2V2eS1jpPCfpoAD
     - service: ig
       id: DUUDD5djshD
       mediaId: '18090525725063865'
       published: 2026-02-03-22-54-14
+      updated: 2026-02-03-23-28-03
       followers: 1605
+      likes: 7
 2017-05-25-arvela-falas:
   title: Arvela Falas
   titleRu: Арвела Фалас
@@ -8664,10 +8666,10 @@
     - service: tg
       id: 1068
       published: 2025-11-25-18-28-53
-      updated: 2026-01-27-23-21-04
+      updated: 2026-02-03-23-28-09
       followers: 868
-      likes: 61
-      views: 631
+      likes: 62
+      views: 639
       comments: !c iwqAkZPLQnmr6k5UgAClYW5zaXOk8J+VrwM=
     - service: ig
       id: DRfafP_F6kN
