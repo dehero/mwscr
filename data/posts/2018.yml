@@ -1254,7 +1254,7 @@
     - service: vk
       id: 2571
       published: 2025-08-11-18-24-39
-      updated: 2026-01-27-17-27-59
+      updated: 2026-02-03-17-53-30
       followers: 1362
       likes: 27
       views: 386
@@ -1266,10 +1266,10 @@
     - service: tg
       id: 948
       published: 2025-08-11-18-24-45
-      updated: 2026-01-27-17-27-47
+      updated: 2026-02-03-17-53-21
       followers: 775
       likes: 61
-      views: 653
+      views: 655
       comments: !c |-
         G98AAJwHtg17C3oo9j5Do5jB87a7FG9dSVIRlXq+ZGcMQlLYbFJR3oOaWwmZ1BjqdvI89ZCnJ4tJ
         JQZjV3zz0BJwwgl6cXDAow7joxx0Y/1ZELTIyoK4nX97ejopfRvctiS7afB3AgFuVDkBBnCfHF0M
@@ -2378,7 +2378,7 @@
     - service: vk
       id: 2752
       published: 2025-10-20-18-30-24
-      updated: 2026-01-27-17-27-31
+      updated: 2026-02-03-17-53-06
       followers: 1473
       likes: 85
       views: 1824
@@ -2818,11 +2818,11 @@
     - service: vk
       id: 3055
       published: 2026-01-31-18-32-03
-      updated: 2026-02-02-17-37-47
+      updated: 2026-02-03-17-53-04
       followers: 1595
-      likes: 48
-      views: 529
-      reposts: 3
+      likes: 51
+      views: 586
+      reposts: 4
       comments: !c |-
         G4MA+B0Hdiz4wGJ15GC4QImer9sR/vAY48hKrJmIkn3WNkMx1S/G9oKIKBMMgi0vlGNlcsMfK3OD
         U14HHzaraHrG12EDjgMLlAe1SZaTBCHSudzP7/MLXazv7PlQGa2WNpRHQGgGA0SW4Mh0/+a9Yk9x
@@ -2830,10 +2830,10 @@
     - service: tg
       id: 1137
       published: 2026-01-31-18-32-08
-      updated: 2026-02-02-17-37-48
+      updated: 2026-02-03-17-53-02
       followers: 887
-      likes: 55
-      views: 227
+      likes: 59
+      views: 258
       comments: !c |-
         iy2AkpPLQnnBbLFXAACma2V2eS1jpPCfpoCTy0J5wVVAHoAArnBhaW5raWxsZXIxOTg22SrQm9Cw
         0YEt0JLQtdCz0LDRgSDQtNC70Y8g0YXQuNC60LrQsNC90L7Qsi4D
@@ -3653,7 +3653,7 @@
     - service: vk
       id: 2733
       published: 2025-10-13-18-27-49
-      updated: 2026-01-27-17-27-34
+      updated: 2026-02-03-17-53-08
       followers: 1469
       likes: 67
       views: 1116
@@ -9544,7 +9544,7 @@
     - service: vk
       id: 2552
       published: 2025-08-03-19-25-00
-      updated: 2026-01-27-17-28-00
+      updated: 2026-02-03-17-53-32
       followers: 1356
       likes: 54
       views: 857
@@ -9556,10 +9556,10 @@
     - service: tg
       id: 937
       published: 2025-08-03-19-25-28
-      updated: 2026-01-27-17-27-49
+      updated: 2026-02-03-17-53-23
       followers: 769
       likes: 66
-      views: 797
+      views: 799
       comments: !c CxmAkpPLQnmHYFXgAACnZGFueWEtcqTwn6eAk8tCeYc5DzAAAKtrYXdhemFreTIyM6Twn5iHAw==
 2018-07-31-spires:
   title: Spires
