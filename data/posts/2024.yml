@@ -1746,10 +1746,10 @@
     - service: vk
       id: 3059
       published: 2026-02-02-18-43-01
-      updated: 2026-02-03-11-33-59
+      updated: 2026-02-03-12-57-29
       followers: 1595
-      likes: 31
-      views: 301
+      likes: 35
+      views: 328
       reposts: 2
       comments: !c |-
         G6cAgByJcSzKgvawSPDP/6nhzbGf4xEJWADDsVhsLByz3lJJ531YnRslBTdDvSLA0EsJwzvlNODA
@@ -1758,10 +1758,10 @@
     - service: tg
       id: 1139
       published: 2026-02-02-18-43-05
-      updated: 2026-02-03-11-34-00
+      updated: 2026-02-03-12-57-28
       followers: 887
-      likes: 50
-      views: 176
+      likes: 51
+      views: 179
       comments: !c |-
         Cx+AkZPLQnnB+2FqgACucGFpbmtpbGxlcjE5ODbZI9Cc0YPRgdC6INC70LXRh9C40YIg0LHQvtC7
         0LXQt9C90LguAw==
