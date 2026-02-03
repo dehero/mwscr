@@ -6930,11 +6930,26 @@
     - service: vk
       id: 3061
       published: 2026-02-03-18-59-18
+      updated: 2026-02-03-22-41-34
       followers: 1597
+      likes: 5
+      views: 58
+      comments: !c |-
+        G28A+B2J6cYOWSz3PiqeJ2+kfyBTm84n2HWJJJgm75vd5CwkUYvbjiYKTSgL3u1w07pkK8tuSRbK
+        KCzpQAkA6XX/8Xzp+RTeRX32WacWpIXa4MTkKbPWeLx0VobKjOGCw2JBypUSZ2gD
     - service: tg
       id: 1140
       published: 2026-02-03-18-59-23
+      updated: 2026-02-03-22-41-27
       followers: 887
+      likes: 29
+      views: 134
+      comments: !c CwuAkZPLQnnCUmj1AACma2V2eS1jpPCfpoAD
+    - service: ig
+      id: DUUDD5djshD
+      mediaId: '18090525725063865'
+      published: 2026-02-03-22-54-14
+      followers: 1605
 2017-05-25-arvela-falas:
   title: Arvela Falas
   titleRu: Арвела Фалас
@@ -6987,7 +7002,7 @@
       id: DPe4iHTicLq
       mediaId: '18526320724015258'
       published: 2025-10-06-21-16-57
-      updated: 2026-01-27-15-30-35
+      updated: 2026-02-03-22-41-55
       followers: 1580
       likes: 54
 2017-05-26-in-the-shrine-of-azura:
@@ -7471,7 +7486,7 @@
       id: DQmwKWqjwt1
       mediaId: '18162502384381306'
       published: 2025-11-03-19-09-06
-      updated: 2026-01-27-15-30-23
+      updated: 2026-02-03-22-41-49
       followers: 1588
       likes: 60
 2017-06-07-god-of-madness-and-his-follower:
@@ -8139,7 +8154,7 @@
       id: DNyceu54oMo
       mediaId: '17998181432810274'
       published: 2025-08-25-18-33-53
-      updated: 2026-01-27-17-27-29
+      updated: 2026-02-03-22-42-05
       followers: 1581
       likes: 80
     - service: vk
@@ -9316,7 +9331,7 @@
       id: DPMjuUhjndT
       mediaId: '17855731008476639'
       published: 2025-09-29-18-28-46
-      updated: 2026-01-27-15-30-38
+      updated: 2026-02-03-22-41-57
       followers: 1585
       likes: 73
       comments: !c iwyAkZPLQnmZdpZbgACpaXN0c2llbGl6pPCflKUD
@@ -10978,7 +10993,7 @@
       id: DOWfOlKjJFS
       mediaId: '18113454772554178'
       published: 2025-09-08-18-30-28
-      updated: 2026-01-27-17-27-28
+      updated: 2026-02-03-22-42-00
       followers: 1586
       likes: 100
     - service: tg
@@ -11191,7 +11206,7 @@
       id: DOEcgvTjFgK
       mediaId: '18397821478189401'
       published: 2025-09-01-18-20-24
-      updated: 2026-01-27-22-22-10
+      updated: 2026-02-03-22-42-04
       followers: 1583
       likes: 77
       comments: !c |-
@@ -11200,7 +11215,7 @@
     - service: vk
       id: 2617
       published: 2025-09-01-18-20-33
-      updated: 2026-01-27-22-22-11
+      updated: 2026-02-03-22-41-50
       followers: 1396
       likes: 52
       views: 592
@@ -14620,7 +14635,7 @@
       id: DOogtOCjT95
       mediaId: '18007720238631949'
       published: 2025-09-15-18-29-44
-      updated: 2026-01-27-17-27-26
+      updated: 2026-02-03-22-41-59
       followers: 1584
       likes: 60
     - service: vk
@@ -15194,7 +15209,7 @@
       id: DQ4ru7zl9Xb
       mediaId: '17920272816055444'
       published: 2025-11-10-18-16-44
-      updated: 2026-01-27-15-30-20
+      updated: 2026-02-03-22-41-47
       followers: 1595
       likes: 57
     - service: vk
