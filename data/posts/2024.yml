@@ -1740,23 +1740,28 @@
       id: DURBgPhjSzP
       mediaId: '18190084885352838'
       published: 2026-02-02-18-42-56
-      updated: 2026-02-03-02-01-51
+      updated: 2026-02-03-04-45-49
       followers: 1605
-      likes: 27
+      likes: 29
     - service: vk
       id: 3059
       published: 2026-02-02-18-43-01
-      updated: 2026-02-03-02-01-42
+      updated: 2026-02-03-04-45-49
       followers: 1595
-      likes: 19
-      views: 150
+      likes: 25
+      views: 191
+      reposts: 2
+      comments: !c |-
+        G6cAgByJcSzKgvawSPDP/6nhzbGf4xEJWADDsVhsLByz3lJJ531YnRslBTdDvSLA0EsJwzvlNODA
+        OJA8QGr+7dsNDg65XfAWFdSX7ZWUwiC15JkVZRbHlfw/T+SfJqMKB1zwwDMt+DVODA8Cgg0giTX1
+        BapKE4GhalkUGZnzNoDm8LjbDLWqKdWxalot5OBeAA==
     - service: tg
       id: 1139
       published: 2026-02-02-18-43-05
-      updated: 2026-02-03-02-01-48
+      updated: 2026-02-03-04-45-48
       followers: 887
-      likes: 41
-      views: 135
+      likes: 43
+      views: 143
       comments: !c |-
         Cx+AkZPLQnnB+2FqgACucGFpbmtpbGxlcjE5ODbZI9Cc0YPRgdC6INC70LXRh9C40YIg0LHQvtC7
         0LXQt9C90LguAw==
