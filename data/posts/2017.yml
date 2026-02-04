@@ -6930,10 +6930,10 @@
     - service: vk
       id: 3061
       published: 2026-02-03-18-59-18
-      updated: 2026-02-04-19-38-49
+      updated: 2026-02-04-20-34-37
       followers: 1597
       likes: 29
-      views: 211
+      views: 215
       reposts: 1
       comments: !c |-
         G44CIJwJdixkhJnZhzRA/D+xp4tKfRoz/q9tR9kRSFuiQSlSVc6NNKot9kFohREIPMI0y8o327cH
@@ -6945,10 +6945,10 @@
     - service: tg
       id: 1140
       published: 2026-02-03-18-59-23
-      updated: 2026-02-04-19-38-46
+      updated: 2026-02-04-20-34-37
       followers: 887
-      likes: 51
-      views: 237
+      likes: 52
+      views: 240
       comments: !c |-
         G40AOKwSeBNbVxkNnbWRezFCpVOAtxEOKJUwC+KACzyMJLnHQDdWUjTUKR7konqy3IWoUpLQ2Mxm
         34Qi61mh5XVFS1meJBWuhw040cB4wAEx0tVOI1DGlI9Let0fzZAx3iTW9t/LrxaWXGA0szTMGDgu
@@ -6957,7 +6957,7 @@
       id: DUUDD5djshD
       mediaId: '18090525725063865'
       published: 2026-02-03-22-54-14
-      updated: 2026-02-04-19-38-44
+      updated: 2026-02-04-20-34-35
       followers: 1605
       likes: 32
 2017-05-25-arvela-falas:
@@ -15324,23 +15324,23 @@
       id: DUWMgBrAJc2
       mediaId: '17888309730425432'
       published: 2026-02-04-18-55-13
-      updated: 2026-02-04-19-38-43
+      updated: 2026-02-04-20-34-34
       followers: 1606
-      likes: 9
+      likes: 12
     - service: vk
       id: 3064
       published: 2026-02-04-18-55-19
-      updated: 2026-02-04-19-38-40
+      updated: 2026-02-04-20-34-29
       followers: 1597
       likes: 5
-      views: 30
+      views: 45
     - service: tg
       id: 1141
       published: 2026-02-04-18-55-23
-      updated: 2026-02-04-19-38-39
+      updated: 2026-02-04-20-34-30
       followers: 889
-      likes: 17
-      views: 78
+      likes: 28
+      views: 100
 2017-12-04-ruins-in-a-mountain-dead-end:
   title: Ruins in a Mountain Dead End
   titleRu: Руины в горном тупике
