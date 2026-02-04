@@ -6930,20 +6930,20 @@
     - service: vk
       id: 3061
       published: 2026-02-03-18-59-18
-      updated: 2026-02-04-08-40-48
+      updated: 2026-02-04-09-43-37
       followers: 1597
-      likes: 12
-      views: 109
+      likes: 15
+      views: 122
       comments: !c |-
         G28A+B2J6cYOWSz3PiqeJ2+kfyBTm84n2HWJJJgm75vd5CwkUYvbjiYKTSgL3u1w07pkK8tuSRbK
         KCzpQAkA6XX/8Xzp+RTeRX32WacWpIXa4MTkKbPWeLx0VobKjOGCw2JBypUSZ2gD
     - service: tg
       id: 1140
       published: 2026-02-03-18-59-23
-      updated: 2026-02-04-08-40-46
+      updated: 2026-02-04-09-43-38
       followers: 887
-      likes: 44
-      views: 187
+      likes: 45
+      views: 191
       comments: !c |-
         G40AOKwSeBNbVxkNnbWRezFCpVOAtxEOKJUwC+KACzyMJLnHQDdWUjTUKR7konqy3IWoUpLQ2Mxm
         34Qi61mh5XVFS1meJBWuhw040cB4wAEx0tVOI1DGlI9Let0fzZAx3iTW9t/LrxaWXGA0szTMGDgu
@@ -6952,9 +6952,9 @@
       id: DUUDD5djshD
       mediaId: '18090525725063865'
       published: 2026-02-03-22-54-14
-      updated: 2026-02-04-08-40-47
+      updated: 2026-02-04-09-43-36
       followers: 1605
-      likes: 27
+      likes: 30
 2017-05-25-arvela-falas:
   title: Arvela Falas
   titleRu: Арвела Фалас
