@@ -6930,10 +6930,11 @@
     - service: vk
       id: 3061
       published: 2026-02-03-18-59-18
-      updated: 2026-02-04-11-33-23
+      updated: 2026-02-04-12-58-26
       followers: 1597
-      likes: 19
-      views: 144
+      likes: 24
+      views: 171
+      reposts: 1
       comments: !c |-
         G44CIJwJdixkhJnZhzRA/D+xp4tKfRoz/q9tR9kRSFuiQSlSVc6NNKot9kFohREIPMI0y8o327cH
         37eLPaAww923/QmqkM/4UkZM+Ogm6OtKPMexhRbwY1Ofinj7GtZh5nFgwb+7XBwuaobfSo1XHL5/
@@ -6944,10 +6945,10 @@
     - service: tg
       id: 1140
       published: 2026-02-03-18-59-23
-      updated: 2026-02-04-11-33-21
+      updated: 2026-02-04-12-58-27
       followers: 887
-      likes: 46
-      views: 198
+      likes: 48
+      views: 202
       comments: !c |-
         G40AOKwSeBNbVxkNnbWRezFCpVOAtxEOKJUwC+KACzyMJLnHQDdWUjTUKR7konqy3IWoUpLQ2Mxm
         34Qi61mh5XVFS1meJBWuhw040cB4wAEx0tVOI1DGlI9Let0fzZAx3iTW9t/LrxaWXGA0szTMGDgu
@@ -6956,7 +6957,7 @@
       id: DUUDD5djshD
       mediaId: '18090525725063865'
       published: 2026-02-03-22-54-14
-      updated: 2026-02-04-11-33-24
+      updated: 2026-02-04-12-58-24
       followers: 1605
       likes: 32
 2017-05-25-arvela-falas:
