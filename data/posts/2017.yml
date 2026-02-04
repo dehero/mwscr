@@ -6755,17 +6755,17 @@
     - service: vk
       id: 3058
       published: 2026-02-01-18-35-34
-      updated: 2026-02-03-17-53-00
+      updated: 2026-02-04-18-51-46
       followers: 1595
-      likes: 40
-      views: 303
+      likes: 42
+      views: 332
     - service: tg
       id: 1138
       published: 2026-02-01-18-35-38
-      updated: 2026-02-03-17-53-01
+      updated: 2026-02-04-18-51-47
       followers: 888
-      likes: 54
-      views: 261
+      likes: 56
+      views: 293
       comments: !c |-
         GyIBAJwHtg1rGy4s/ZWwkDYaz4e38SjAAzqBTBMJLBh4GHicvC+Szq2ETHVuJjsyPj9AQlVPlrum
         tu8CgSkNPdqdzmfWgvgOh9ghRS2U7/c+np6GkYYaYVnU2oL8dD7J1b7d2gHk3xAfn48o+yGva31y
@@ -6930,10 +6930,10 @@
     - service: vk
       id: 3061
       published: 2026-02-03-18-59-18
-      updated: 2026-02-04-16-47-03
+      updated: 2026-02-04-18-51-43
       followers: 1597
-      likes: 27
-      views: 202
+      likes: 28
+      views: 209
       reposts: 1
       comments: !c |-
         G44CIJwJdixkhJnZhzRA/D+xp4tKfRoz/q9tR9kRSFuiQSlSVc6NNKot9kFohREIPMI0y8o327cH
@@ -6945,7 +6945,7 @@
     - service: tg
       id: 1140
       published: 2026-02-03-18-59-23
-      updated: 2026-02-04-17-45-06
+      updated: 2026-02-04-18-51-44
       followers: 887
       likes: 49
       views: 212
@@ -6957,7 +6957,7 @@
       id: DUUDD5djshD
       mediaId: '18090525725063865'
       published: 2026-02-03-22-54-14
-      updated: 2026-02-04-17-45-03
+      updated: 2026-02-04-18-51-42
       followers: 1605
       likes: 32
 2017-05-25-arvela-falas:
@@ -8661,10 +8661,10 @@
     - service: vk
       id: 2885
       published: 2025-11-25-18-28-48
-      updated: 2026-01-28-18-36-29
+      updated: 2026-02-04-18-51-53
       followers: 1526
       likes: 75
-      views: 839
+      views: 840
       comments: !c |-
         G5QBwCwOeHPoItTUfkCGHwcjel5OLFX4a6HNMuSCjSa6ZcBLZhOu3HOq87kOj1MjcZLQTqi6zdIF
         QxFLebAUuyXPGX64YGiCWNTNxaThsXkYchAPIgfbQ4hPB8uP15Z3WRhgQBg8WDbQbDAf4UiDAUYB
@@ -8683,7 +8683,7 @@
       id: DRfafP_F6kN
       mediaId: '17900771640323600'
       published: 2025-11-25-19-16-24
-      updated: 2026-01-28-18-36-25
+      updated: 2026-02-04-18-51-45
       followers: 1598
       likes: 56
 2017-07-06-snowy-granius-meets-travelers-near-arkngthand:
@@ -15320,6 +15320,19 @@
       followers: 363
       likes: 59
       views: 489
+    - service: ig
+      id: DUWMgBrAJc2
+      mediaId: '17888309730425432'
+      published: 2026-02-04-18-55-13
+      followers: 1606
+    - service: vk
+      id: 3064
+      published: 2026-02-04-18-55-19
+      followers: 1597
+    - service: tg
+      id: 1141
+      published: 2026-02-04-18-55-23
+      followers: 889
 2017-12-04-ruins-in-a-mountain-dead-end:
   title: Ruins in a Mountain Dead End
   titleRu: Руины в горном тупике

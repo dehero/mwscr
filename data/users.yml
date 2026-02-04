@@ -1305,7 +1305,7 @@ darvetr:
   profiles:
     - service: vk
       id: '1057788271'
-      updated: 2026-02-01-18-34-05
+      updated: 2026-02-04-18-51-52
       username: darvetr
       name: Виктория Дарьина
       avatar: store:/avatars/vk-00d4bf4b.jpg
@@ -1816,7 +1816,7 @@ ellewhiten:
   profiles:
     - service: vk
       id: '11684101'
-      updated: 2026-02-04-17-45-05
+      updated: 2026-02-04-18-51-41
       username: ellewhiten
       name: Иван Кулаков
       avatar: store:/avatars/vk-f1f6e944.jpg
@@ -2596,7 +2596,7 @@ irina-volkova:
   profiles:
     - service: vk
       id: '830649'
-      updated: 2026-02-03-17-53-03
+      updated: 2026-02-04-18-51-48
       username: id830649
       name: Ирина Волкова
       avatar: store:/avatars/vk-ab8016e5.jpg
@@ -2921,7 +2921,7 @@ kevy-c:
   profiles:
     - service: tg
       id: '5067683234'
-      updated: 2026-02-04-17-45-08
+      updated: 2026-02-04-18-51-49
       accessHash: '-903667913374325979'
       username: Kevy_c
       name: Dash
@@ -3496,7 +3496,7 @@ michael-levington:
   profiles:
     - service: vk
       id: '416916067'
-      updated: 2026-02-03-07-42-14
+      updated: 2026-02-04-18-51-52
       username: michael_levington
       name: Майкл Левингтон
       avatar: store:/avatars/vk-5fe6e343.jpg
@@ -4154,7 +4154,7 @@ painkiller1986:
   profiles:
     - service: tg
       id: '6565289507'
-      updated: 2026-02-04-17-45-08
+      updated: 2026-02-04-18-51-49
       accessHash: '6198356028119192921'
       username: Painkiller1986
       name: Сумерки
@@ -4831,7 +4831,7 @@ sergey-b-2:
   profiles:
     - service: vk
       id: '1077446394'
-      updated: 2026-02-04-17-45-05
+      updated: 2026-02-04-18-51-52
       username: id1077446394
       name: Сергей Б
       avatar: store:/avatars/vk-5a7c7910.jpg
@@ -6307,7 +6307,7 @@ xnzayrpcad:
   profiles:
     - service: tg
       id: '7523695427'
-      updated: 2026-01-07-18-34-09
+      updated: 2026-02-04-18-51-57
       accessHash: '3683185995960089433'
       username: dryteuiop
       botChatId: 7523695427
@@ -6360,7 +6360,7 @@ yaroslav:
   profiles:
     - service: tg
       id: '393415568'
-      updated: 2026-01-07-18-34-09
+      updated: 2026-02-04-18-51-58
       accessHash: '-6464076418226165380'
       username: bondarets
       botChatId: 393415568
