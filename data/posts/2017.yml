@@ -6930,20 +6930,24 @@
     - service: vk
       id: 3061
       published: 2026-02-03-18-59-18
-      updated: 2026-02-04-10-38-16
+      updated: 2026-02-04-11-33-23
       followers: 1597
-      likes: 18
-      views: 130
+      likes: 19
+      views: 144
       comments: !c |-
-        G28A+B2J6cYOWSz3PiqeJ2+kfyBTm84n2HWJJJgm75vd5CwkUYvbjiYKTSgL3u1w07pkK8tuSRbK
-        KCzpQAkA6XX/8Xzp+RTeRX32WacWpIXa4MTkKbPWeLx0VobKjOGCw2JBypUSZ2gD
+        G44CIJwJdixkhJnZhzRA/D+xp4tKfRoz/q9tR9kRSFuiQSlSVc6NNKot9kFohREIPMI0y8o327cH
+        37eLPaAww923/QmqkM/4UkZM+Ogm6OtKPMexhRbwY1Ofinj7GtZh5nFgwb+7XBwuaobfSo1XHL5/
+        /rTb/et/X9+X6/XS8Z+X3+ED/rgmGLTTskzVHEmM7BzjnJ8HLW2KPUcSis79x4o4/9+9t8vr8+V2
+        dPh73fkq4E/7ctvKuL0vKYBnuD1VJZpiXYsmEplRzSX57zxiJQyMqGPFI2Q0XL4WMRnY4GOMjljQ
+        hp4GEgZbmENJ0cPRFwcwzjUXSrQ4SQwRl94iw4GUHXODB7IhdwlsJDgGA4GRRrAdlqm2cM84UPDw
+        mq9tBquZkgMSt6tp0Vwhp0NYG7ZAQXJtnIFl5Ca93OMgRRoVpQl3nic=
     - service: tg
       id: 1140
       published: 2026-02-03-18-59-23
-      updated: 2026-02-04-10-38-15
+      updated: 2026-02-04-11-33-21
       followers: 887
       likes: 46
-      views: 195
+      views: 198
       comments: !c |-
         G40AOKwSeBNbVxkNnbWRezFCpVOAtxEOKJUwC+KACzyMJLnHQDdWUjTUKR7konqy3IWoUpLQ2Mxm
         34Qi61mh5XVFS1meJBWuhw040cB4wAEx0tVOI1DGlI9Let0fzZAx3iTW9t/LrxaWXGA0szTMGDgu
@@ -6952,9 +6956,9 @@
       id: DUUDD5djshD
       mediaId: '18090525725063865'
       published: 2026-02-03-22-54-14
-      updated: 2026-02-04-10-38-14
+      updated: 2026-02-04-11-33-24
       followers: 1605
-      likes: 31
+      likes: 32
 2017-05-25-arvela-falas:
   title: Arvela Falas
   titleRu: Арвела Фалас
