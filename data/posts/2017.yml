@@ -1067,16 +1067,16 @@
       id: DQpO4nTlGvc
       mediaId: '17898057459331487'
       published: 2025-11-04-18-16-03
-      updated: 2026-01-28-05-27-15
+      updated: 2026-02-04-05-48-57
       followers: 1589
       likes: 67
     - service: vk
       id: 2812
       published: 2025-11-04-18-16-10
-      updated: 2026-01-28-05-27-18
+      updated: 2026-02-04-05-48-59
       followers: 1496
       likes: 95
-      views: 802
+      views: 803
       reposts: 2
       comments: !c |-
         G4gA+B2J6caCfOzYLxUhKuJG+kAxR9rkWRZZsqcnU0IWlWTmfDOo23KXbuiCqx5EFNvm68ESrMk2
@@ -1084,10 +1084,10 @@
     - service: tg
       id: 1040
       published: 2025-11-04-18-16-15
-      updated: 2026-01-28-05-27-17
+      updated: 2026-02-04-05-48-58
       followers: 851
       likes: 77
-      views: 567
+      views: 571
       comments: !c iw2AkZPLQnmlO+IqgACra2F3YXpha3kyMjOk8J+rpQM=
 2017-01-26-aleft:
   title: Aleft
@@ -6930,28 +6930,31 @@
     - service: vk
       id: 3061
       published: 2026-02-03-18-59-18
-      updated: 2026-02-04-04-16-29
+      updated: 2026-02-04-05-48-53
       followers: 1597
-      likes: 9
-      views: 72
+      likes: 12
+      views: 89
       comments: !c |-
         G28A+B2J6cYOWSz3PiqeJ2+kfyBTm84n2HWJJJgm75vd5CwkUYvbjiYKTSgL3u1w07pkK8tuSRbK
         KCzpQAkA6XX/8Xzp+RTeRX32WacWpIXa4MTkKbPWeLx0VobKjOGCw2JBypUSZ2gD
     - service: tg
       id: 1140
       published: 2026-02-03-18-59-23
-      updated: 2026-02-04-04-16-29
+      updated: 2026-02-04-05-48-54
       followers: 887
-      likes: 38
-      views: 157
-      comments: !c CwuAkZPLQnnCUmj1AACma2V2eS1jpPCfpoAD
+      likes: 42
+      views: 172
+      comments: !c |-
+        G40AOKwSeBNbVxkNnbWRezFCpVOAtxEOKJUwC+KACzyMJLnHQDdWUjTUKR7konqy3IWoUpLQ2Mxm
+        34Qi61mh5XVFS1meJBWuhw040cB4wAEx0tVOI1DGlI9Let0fzZAx3iTW9t/LrxaWXGA0szTMGDgu
+        fUXFzGuSKELeTDUttHdhEdj6bB27+rgT
     - service: ig
       id: DUUDD5djshD
       mediaId: '18090525725063865'
       published: 2026-02-03-22-54-14
-      updated: 2026-02-04-04-16-28
+      updated: 2026-02-04-05-48-52
       followers: 1605
-      likes: 19
+      likes: 21
 2017-05-25-arvela-falas:
   title: Arvela Falas
   titleRu: Арвела Фалас

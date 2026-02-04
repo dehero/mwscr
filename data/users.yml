@@ -16,10 +16,10 @@
       avatar: store:/avatars/vk-358ecbfd.jpg
     - service: ig
       id: '4234756358'
-      updated: 2025-06-27-10-25-14
+      updated: 2026-02-04-05-49-06
       username: 17haden_blake10
       name: Artemius Galitzine
-      avatar: store:/avatars/ig-0d58f2fa.jpg
+      avatar: store:/avatars/ig-bb241a6a.jpg
 22coins7:
   profiles:
     - service: ig
@@ -589,7 +589,7 @@ arya-stark:
   profiles:
     - service: vk
       id: '820702664'
-      updated: 2026-02-04-04-16-31
+      updated: 2026-02-04-05-48-58
       username: id820702664
       name: Арья Старк
       avatar: store:/avatars/vk-689aa89d.jpg
@@ -1816,7 +1816,7 @@ ellewhiten:
   profiles:
     - service: vk
       id: '11684101'
-      updated: 2026-02-04-04-16-27
+      updated: 2026-02-04-05-48-53
       username: ellewhiten
       name: Иван Кулаков
       avatar: store:/avatars/vk-f1f6e944.jpg
@@ -2891,7 +2891,7 @@ kawazaky223:
   profiles:
     - service: tg
       id: '5641856113'
-      updated: 2026-02-03-23-28-15
+      updated: 2026-02-04-05-48-57
       accessHash: '7421309771527577818'
       username: Kawazaky223
       name: Максим
@@ -2921,7 +2921,7 @@ kevy-c:
   profiles:
     - service: tg
       id: '5067683234'
-      updated: 2026-02-04-04-16-30
+      updated: 2026-02-04-05-48-55
       accessHash: '-903667913374325979'
       username: Kevy_c
       name: Dash
@@ -4154,7 +4154,7 @@ painkiller1986:
   profiles:
     - service: tg
       id: '6565289507'
-      updated: 2026-02-04-04-16-30
+      updated: 2026-02-04-05-48-55
       accessHash: '6198356028119192921'
       username: Painkiller1986
       name: Сумерки
@@ -4228,7 +4228,7 @@ peteevandrew:
   profiles:
     - service: vk
       id: '307619379'
-      updated: 2026-02-03-17-53-22
+      updated: 2026-02-04-05-48-59
       username: peteevandrew
       name: Андрей Петеев
       avatar: store:/avatars/vk-d3f26d8e.jpg
