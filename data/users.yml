@@ -318,7 +318,7 @@ alexcher16:
   profiles:
     - service: vk
       id: '14644107'
-      updated: 2026-02-03-15-49-14
+      updated: 2026-02-04-21-33-32
       username: alexcher16
       name: Алексей Черноткач
       avatar: store:/avatars/vk-cf71ed78.jpg
@@ -589,7 +589,7 @@ arya-stark:
   profiles:
     - service: vk
       id: '820702664'
-      updated: 2026-02-04-19-38-51
+      updated: 2026-02-04-21-33-34
       username: id820702664
       name: Арья Старк
       avatar: store:/avatars/vk-689aa89d.jpg
@@ -1296,7 +1296,7 @@ darkness-rifho:
       deleted: true
     - service: tg
       id: '5704974271'
-      updated: 2026-02-03-22-41-38
+      updated: 2026-02-04-21-33-32
       accessHash: '3506423524566292179'
       username: C4H6O4
       name: Уна
@@ -1816,7 +1816,7 @@ ellewhiten:
   profiles:
     - service: vk
       id: '11684101'
-      updated: 2026-02-04-20-34-36
+      updated: 2026-02-04-21-33-30
       username: ellewhiten
       name: Иван Кулаков
       avatar: store:/avatars/vk-f1f6e944.jpg
@@ -2204,7 +2204,7 @@ goosevich76:
   profiles:
     - service: tg
       id: '5385620621'
-      updated: 2026-02-04-08-40-54
+      updated: 2026-02-04-21-33-32
       accessHash: '-7130473396589324830'
       username: horwwwaty
       name: choven
@@ -2921,7 +2921,7 @@ kevy-c:
   profiles:
     - service: tg
       id: '5067683234'
-      updated: 2026-02-04-20-34-36
+      updated: 2026-02-04-21-33-30
       accessHash: '-903667913374325979'
       username: Kevy_c
       name: Dash
@@ -4154,7 +4154,7 @@ painkiller1986:
   profiles:
     - service: tg
       id: '6565289507'
-      updated: 2026-02-04-20-34-36
+      updated: 2026-02-04-21-33-27
       accessHash: '6198356028119192921'
       username: Painkiller1986
       name: Сумерки
@@ -4831,7 +4831,7 @@ sergey-b-2:
   profiles:
     - service: vk
       id: '1077446394'
-      updated: 2026-02-04-20-34-36
+      updated: 2026-02-04-21-33-34
       username: id1077446394
       name: Сергей Б
       avatar: store:/avatars/vk-5a7c7910.jpg
@@ -6098,7 +6098,7 @@ vladimir-mazevich:
   profiles:
     - service: vk
       id: '10623811'
-      updated: 2026-01-28-21-28-55
+      updated: 2026-02-04-21-33-35
       username: id10623811
       name: Владимир Мазевич
       avatar: store:/avatars/vk-183879ef.jpg
