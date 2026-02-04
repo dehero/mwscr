@@ -6930,7 +6930,7 @@
     - service: vk
       id: 3061
       published: 2026-02-03-18-59-18
-      updated: 2026-02-04-22-27-53
+      updated: 2026-02-04-23-27-31
       followers: 1597
       likes: 30
       views: 227
@@ -6945,10 +6945,10 @@
     - service: tg
       id: 1140
       published: 2026-02-03-18-59-23
-      updated: 2026-02-04-22-27-51
+      updated: 2026-02-04-23-27-29
       followers: 887
       likes: 55
-      views: 249
+      views: 250
       comments: !c |-
         G40AOKwSeBNbVxkNnbWRezFCpVOAtxEOKJUwC+KACzyMJLnHQDdWUjTUKR7konqy3IWoUpLQ2Mxm
         34Qi61mh5XVFS1meJBWuhw040cB4wAEx0tVOI1DGlI9Let0fzZAx3iTW9t/LrxaWXGA0szTMGDgu
@@ -6957,9 +6957,9 @@
       id: DUUDD5djshD
       mediaId: '18090525725063865'
       published: 2026-02-03-22-54-14
-      updated: 2026-02-04-22-27-50
+      updated: 2026-02-04-23-27-27
       followers: 1605
-      likes: 32
+      likes: 33
 2017-05-25-arvela-falas:
   title: Arvela Falas
   titleRu: Арвела Фалас
@@ -15324,16 +15324,16 @@
       id: DUWMgBrAJc2
       mediaId: '17888309730425432'
       published: 2026-02-04-18-55-13
-      updated: 2026-02-04-22-27-48
+      updated: 2026-02-04-23-27-24
       followers: 1606
-      likes: 20
+      likes: 26
     - service: vk
       id: 3064
       published: 2026-02-04-18-55-19
-      updated: 2026-02-04-22-27-52
+      updated: 2026-02-04-23-27-25
       followers: 1597
-      likes: 6
-      views: 76
+      likes: 9
+      views: 88
       comments: !c |-
         G7UAaKwObEe8NRmMN9SCMPwVRf/EjUi/NlPCIUTUJHakJ/t0biUVS/iRK2Ny9WRyltP9M4GQRSlI
         GbHszJNTy5ayswZFFWCCVAnbkPf7u7872O/pI14rOUoPyZ3kwqcSpkEPk7wiD+sZCsKoCiieMyAo
@@ -15341,10 +15341,13 @@
     - service: tg
       id: 1141
       published: 2026-02-04-18-55-23
-      updated: 2026-02-04-22-27-43
+      updated: 2026-02-04-23-27-26
       followers: 889
-      likes: 36
-      views: 126
+      likes: 38
+      views: 130
+      comments: !c |-
+        ixuAkZPLQnnCrpjPgACucGFpbmtpbGxlcjE5ODa90JrQvtC80LDQvdC00LAg0LIg0YHQsdC+0YDQ
+        tS4D
 2017-12-04-ruins-in-a-mountain-dead-end:
   title: Ruins in a Mountain Dead End
   titleRu: Руины в горном тупике
