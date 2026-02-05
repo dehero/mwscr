@@ -6930,7 +6930,7 @@
     - service: vk
       id: 3061
       published: 2026-02-03-18-59-18
-      updated: 2026-02-05-14-42-39
+      updated: 2026-02-05-15-40-38
       followers: 1597
       likes: 35
       views: 272
@@ -6945,7 +6945,7 @@
     - service: tg
       id: 1140
       published: 2026-02-03-18-59-23
-      updated: 2026-02-05-14-42-38
+      updated: 2026-02-05-15-40-39
       followers: 887
       likes: 57
       views: 271
@@ -6957,7 +6957,7 @@
       id: DUUDD5djshD
       mediaId: '18090525725063865'
       published: 2026-02-03-22-54-14
-      updated: 2026-02-05-14-42-37
+      updated: 2026-02-05-15-40-36
       followers: 1605
       likes: 37
 2017-05-25-arvela-falas:
@@ -15324,16 +15324,16 @@
       id: DUWMgBrAJc2
       mediaId: '17888309730425432'
       published: 2026-02-04-18-55-13
-      updated: 2026-02-05-14-42-34
+      updated: 2026-02-05-15-40-33
       followers: 1606
-      likes: 42
+      likes: 43
     - service: vk
       id: 3064
       published: 2026-02-04-18-55-19
-      updated: 2026-02-05-14-42-36
+      updated: 2026-02-05-15-40-35
       followers: 1597
-      likes: 28
-      views: 388
+      likes: 29
+      views: 402
       reposts: 1
       comments: !c |-
         G7UAaKwObEe8NRmMN9SCMPwVRf/EjUi/NlPCIUTUJHakJ/t0biUVS/iRK2Ny9WRyltP9M4GQRSlI
@@ -15342,7 +15342,7 @@
     - service: tg
       id: 1141
       published: 2026-02-04-18-55-23
-      updated: 2026-02-05-14-42-35
+      updated: 2026-02-05-15-40-37
       followers: 889
       likes: 49
       views: 186
