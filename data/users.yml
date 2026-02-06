@@ -742,10 +742,10 @@ bell-nd:
   profiles:
     - service: ig
       id: '47848794612'
-      updated: 2025-06-27-10-42-10
+      updated: 2026-02-06-06-57-35
       username: bell_nd
       name: Danny Bellingham
-      avatar: store:/avatars/ig-6f6da091.jpg
+      avatar: store:/avatars/ig-31e4cd8b.jpg
 belu-gab:
   profiles:
     - service: ig
@@ -767,10 +767,10 @@ berskate:
   profiles:
     - service: ig
       id: '9194132502'
-      updated: 2025-06-27-10-43-34
+      updated: 2026-02-06-06-59-14
       username: berskate
       name: Ekaterina Berezowskaia
-      avatar: store:/avatars/ig-7bafc26e.jpg
+      avatar: store:/avatars/ig-1ee43e83.jpg
 beverlybile-art:
   profiles:
     - service: ig
@@ -857,7 +857,7 @@ boimaster28:
   profiles:
     - service: ig
       id: '59152252814'
-      updated: 2025-06-27-10-47-43
+      updated: 2026-02-06-07-03-00
       username: boimaster28
       name: Dudeguy Broman
       avatar: store:/avatars/ig-5f4e91f0.jpg
@@ -2929,7 +2929,7 @@ kevy-c:
   profiles:
     - service: tg
       id: '5067683234'
-      updated: 2026-02-06-05-53-35
+      updated: 2026-02-06-06-54-51
       accessHash: '-903667913374325979'
       username: Kevy_c
       name: Dash
@@ -3017,6 +3017,14 @@ koshkindimadoma:
       username: koshkindimadoma
       name: Кошкин Дима
       avatar: store:/avatars/tg-2253876048577013740.jpg
+kostya-l:
+  profiles:
+    - service: vk
+      id: '136086803'
+      updated: 2026-02-06-06-54-53
+      username: id136086803
+      name: Kostya L
+      avatar: store:/avatars/vk-3bb986c1.jpg
 krem-san:
   profiles:
     - service: vk
@@ -4162,7 +4170,7 @@ painkiller1986:
   profiles:
     - service: tg
       id: '6565289507'
-      updated: 2026-02-06-05-53-35
+      updated: 2026-02-06-06-54-50
       accessHash: '6198356028119192921'
       username: Painkiller1986
       name: Сумерки
@@ -4839,7 +4847,7 @@ sergey-b-2:
   profiles:
     - service: vk
       id: '1077446394'
-      updated: 2026-02-06-05-53-37
+      updated: 2026-02-06-06-54-52
       username: id1077446394
       name: Сергей Б
       avatar: store:/avatars/vk-5a7c7910.jpg
