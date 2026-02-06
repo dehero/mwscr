@@ -6755,17 +6755,17 @@
     - service: vk
       id: 3058
       published: 2026-02-01-18-35-34
-      updated: 2026-02-05-19-37-19
+      updated: 2026-02-06-19-37-57
       followers: 1595
-      likes: 43
-      views: 344
+      likes: 44
+      views: 355
     - service: tg
       id: 1138
       published: 2026-02-01-18-35-38
-      updated: 2026-02-05-19-37-21
+      updated: 2026-02-06-19-38-02
       followers: 888
-      likes: 61
-      views: 355
+      likes: 63
+      views: 377
       comments: !c |-
         GyIBAJwHtg1rGy4s/ZWwkDYaz4e38SjAAzqBTBMJLBh4GHicvC+Szq2ETHVuJjsyPj9AQlVPlrum
         tu8CgSkNPdqdzmfWgvgOh9ghRS2U7/c+np6GkYYaYVnU2oL8dD7J1b7d2gHk3xAfn48o+yGva31y
@@ -10230,15 +10230,24 @@
       id: DUbV_qVDSh5
       mediaId: '18087450833137683'
       published: 2026-02-06-18-54-21
+      updated: 2026-02-06-19-37-58
       followers: 1607
+      likes: 8
     - service: vk
       id: 3068
       published: 2026-02-06-18-54-26
+      updated: 2026-02-06-19-37-54
       followers: 1598
+      likes: 5
+      views: 23
+      reposts: 1
     - service: tg
       id: 1143
       published: 2026-02-06-18-54-30
+      updated: 2026-02-06-19-37-55
       followers: 891
+      likes: 20
+      views: 66
 2017-08-12-fearsome-grahl:
   title: Fearsome Grahl
   titleRu: Грозный грахл
