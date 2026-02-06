@@ -6930,10 +6930,10 @@
     - service: vk
       id: 3061
       published: 2026-02-03-18-59-18
-      updated: 2026-02-05-18-46-43
+      updated: 2026-02-06-18-51-11
       followers: 1597
-      likes: 37
-      views: 283
+      likes: 38
+      views: 308
       reposts: 1
       comments: !c |-
         G44CIJwJdixkhJnZhzRA/D+xp4tKfRoz/q9tR9kRSFuiQSlSVc6NNKot9kFohREIPMI0y8o327cH
@@ -6945,10 +6945,10 @@
     - service: tg
       id: 1140
       published: 2026-02-03-18-59-23
-      updated: 2026-02-05-18-46-42
+      updated: 2026-02-06-18-51-09
       followers: 887
-      likes: 57
-      views: 275
+      likes: 59
+      views: 300
       comments: !c |-
         G40AOKwSeBNbVxkNnbWRezFCpVOAtxEOKJUwC+KACzyMJLnHQDdWUjTUKR7konqy3IWoUpLQ2Mxm
         34Qi61mh5XVFS1meJBWuhw040cB4wAEx0tVOI1DGlI9Let0fzZAx3iTW9t/LrxaWXGA0szTMGDgu
@@ -10226,6 +10226,19 @@
       followers: 75
       likes: 8
       views: 109
+    - service: ig
+      id: DUbV_qVDSh5
+      mediaId: '18087450833137683'
+      published: 2026-02-06-18-54-21
+      followers: 1607
+    - service: vk
+      id: 3068
+      published: 2026-02-06-18-54-26
+      followers: 1598
+    - service: tg
+      id: 1143
+      published: 2026-02-06-18-54-30
+      followers: 891
 2017-08-12-fearsome-grahl:
   title: Fearsome Grahl
   titleRu: Грозный грахл
@@ -15324,16 +15337,16 @@
       id: DUWMgBrAJc2
       mediaId: '17888309730425432'
       published: 2026-02-04-18-55-13
-      updated: 2026-02-06-17-41-21
+      updated: 2026-02-06-18-51-04
       followers: 1606
       likes: 51
     - service: vk
       id: 3064
       published: 2026-02-04-18-55-19
-      updated: 2026-02-06-17-41-18
+      updated: 2026-02-06-18-51-08
       followers: 1597
       likes: 42
-      views: 646
+      views: 651
       reposts: 2
       comments: !c |-
         G/gA4C0OeHPIJcVgF/bgLUHHCJVO/8TFSL/ezJ1wBmFkRYE1kSb7jNO1ZUnBEgYy5bjfHqp2L5xA
@@ -15343,7 +15356,7 @@
     - service: tg
       id: 1141
       published: 2026-02-04-18-55-23
-      updated: 2026-02-06-17-41-19
+      updated: 2026-02-06-18-51-07
       followers: 889
       likes: 57
       views: 246
