@@ -750,7 +750,7 @@ belu-gab:
   profiles:
     - service: ig
       id: '6015918310'
-      updated: 2025-06-27-10-42-54
+      updated: 2026-02-06-14-06-08
       username: belu_gab
       name: Pastagab
       avatar: store:/avatars/ig-4a57a982.jpg
@@ -882,10 +882,10 @@ brandttrevor:
   profiles:
     - service: ig
       id: '5642997095'
-      updated: 2025-06-27-10-49-15
+      updated: 2026-02-06-14-09-27
       username: brandttrevor
       name: Trevor Brandt
-      avatar: store:/avatars/ig-2ac1a07e.jpg
+      avatar: store:/avatars/ig-39042088.jpg
 brg1092:
   profiles:
     - service: tg
@@ -2929,7 +2929,7 @@ kevy-c:
   profiles:
     - service: tg
       id: '5067683234'
-      updated: 2026-02-06-12-58-26
+      updated: 2026-02-06-14-04-39
       accessHash: '-903667913374325979'
       username: Kevy_c
       name: Dash
@@ -3021,7 +3021,7 @@ kostya-l:
   profiles:
     - service: vk
       id: '136086803'
-      updated: 2026-02-06-12-58-25
+      updated: 2026-02-06-14-04-41
       username: id136086803
       name: Kostya L
       avatar: store:/avatars/vk-3bb986c1.jpg
@@ -4170,7 +4170,7 @@ painkiller1986:
   profiles:
     - service: tg
       id: '6565289507'
-      updated: 2026-02-06-12-58-26
+      updated: 2026-02-06-14-04-39
       accessHash: '6198356028119192921'
       username: Painkiller1986
       name: Сумерки
@@ -4847,7 +4847,7 @@ sergey-b-2:
   profiles:
     - service: vk
       id: '1077446394'
-      updated: 2026-02-06-12-58-24
+      updated: 2026-02-06-14-04-41
       username: id1077446394
       name: Сергей Б
       avatar: store:/avatars/vk-5a7c7910.jpg
