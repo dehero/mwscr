@@ -817,10 +817,9 @@ blakeyear02:
   profiles:
     - service: ig
       id: '2318292366'
-      updated: 2025-06-27-10-45-48
+      updated: 2026-02-06-21-31-45
       username: blakeyear02
-      name: Blake Nelson
-      avatar: store:/avatars/ig-60c8f59b.jpg
+      avatar: store:/avatars/ig-382f48f2.jpg
 blatantbeats:
   profiles:
     - service: ig
@@ -2929,7 +2928,7 @@ kevy-c:
   profiles:
     - service: tg
       id: '5067683234'
-      updated: 2026-02-06-20-34-16
+      updated: 2026-02-06-21-30-13
       accessHash: '-903667913374325979'
       username: Kevy_c
       name: Dash
