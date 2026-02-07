@@ -1744,11 +1744,11 @@ eightntexerra:
   profiles:
     - service: tg
       id: '599761644'
-      updated: 2026-02-07-14-26-00
+      updated: 2026-02-07-15-24-46
       accessHash: '-2468884879881656361'
       username: eightntexerra
       name: 8ntexerra
-      avatar: store:/avatars/tg-2575956646835194634.jpg
+      avatar: store:/avatars/tg-2575956646835194636.jpg
 einno:
   profiles:
     - service: tg
@@ -2937,7 +2937,7 @@ kevy-c:
   profiles:
     - service: tg
       id: '5067683234'
-      updated: 2026-02-07-14-26-02
+      updated: 2026-02-07-15-24-52
       accessHash: '-903667913374325979'
       username: Kevy_c
       name: Dash
