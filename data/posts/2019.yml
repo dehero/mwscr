@@ -621,7 +621,7 @@
     - service: vk
       id: 2412
       published: 2025-06-01-18-25-47
-      updated: 2026-01-31-20-27-22
+      updated: 2026-02-07-21-26-40
       followers: 1314
       likes: 65
       views: 629
@@ -877,14 +877,14 @@
     - service: vk
       id: 2119
       published: 2025-02-08-18-09-23
-      updated: 2026-01-31-21-24-09
+      updated: 2026-02-07-21-30-40
       followers: 1062
       likes: 38
       views: 397
     - service: tg
       id: 701
       published: 2025-02-08-18-09-32
-      updated: 2026-01-31-21-21-16
+      updated: 2026-02-07-21-27-54
       followers: 672
       likes: 54
       views: 551
@@ -1037,7 +1037,7 @@
     - service: vk
       id: 2120
       published: 2025-02-09-18-09-21
-      updated: 2026-01-31-21-24-07
+      updated: 2026-02-07-21-30-38
       followers: 1063
       likes: 44
       views: 439
@@ -1045,7 +1045,7 @@
     - service: tg
       id: 702
       published: 2025-02-09-18-09-27
-      updated: 2026-01-31-21-21-15
+      updated: 2026-02-07-21-27-54
       followers: 673
       likes: 61
       views: 533
@@ -1100,7 +1100,7 @@
     - service: tg
       id: 570
       published: 2024-10-20-18-09-24
-      updated: 2026-01-31-21-23-29
+      updated: 2026-02-07-21-30-11
       followers: 561
       likes: 69
       views: 822
@@ -1203,10 +1203,10 @@
     - service: tg
       id: 603
       published: 2024-11-22-18-11-36
-      updated: 2026-01-31-21-22-48
+      updated: 2026-02-07-21-29-22
       followers: 574
       likes: 72
-      views: 1554
+      views: 1555
 2019-03-18-misty-pairs:
   title: Misty Pairs
   titleRu: Туманные пары
@@ -1620,7 +1620,7 @@
     - service: vk
       id: 1976
       published: 2024-12-19-18-10-51
-      updated: 2026-01-31-21-26-09
+      updated: 2026-02-07-21-32-40
       followers: 1027
       likes: 64
       views: 446
@@ -1628,7 +1628,7 @@
     - service: tg
       id: 630
       published: 2024-12-19-18-10-59
-      updated: 2026-01-31-21-22-12
+      updated: 2026-02-07-21-28-49
       followers: 584
       likes: 71
       views: 599
@@ -1943,10 +1943,10 @@
     - service: tg
       id: 592
       published: 2024-11-11-18-10-12
-      updated: 2026-01-31-21-23-01
+      updated: 2026-02-07-21-29-35
       followers: 564
       likes: 65
-      views: 580
+      views: 581
 2019-10-06-dwemer-telescope:
   title: Dwemer Telescope
   titleRu: Двемерский телескоп
@@ -2189,7 +2189,7 @@
     - service: vk
       id: 2098
       published: 2025-01-30-18-10-52
-      updated: 2026-01-31-21-24-32
+      updated: 2026-02-07-21-31-04
       followers: 1057
       likes: 41
       views: 374
@@ -2197,7 +2197,7 @@
     - service: tg
       id: 689
       published: 2025-01-30-18-10-59
-      updated: 2026-01-31-21-21-27
+      updated: 2026-02-07-21-28-03
       followers: 661
       likes: 74
       views: 712
@@ -2454,7 +2454,7 @@
     - service: vk
       id: 2086
       published: 2025-01-25-18-09-30
-      updated: 2026-01-31-21-24-42
+      updated: 2026-02-07-21-31-13
       followers: 1054
       likes: 33
       views: 334
@@ -2462,10 +2462,10 @@
     - service: tg
       id: 681
       published: 2025-01-25-18-09-38
-      updated: 2026-01-31-21-21-34
+      updated: 2026-02-07-21-28-08
       followers: 658
       likes: 64
-      views: 578
+      views: 579
 2019-10-21-skaal-circle:
   title: Skaal Circle
   titleRu: Круг Скаалов
@@ -2518,7 +2518,7 @@
     - service: vk
       id: 2362
       published: 2025-05-17-18-24-00
-      updated: 2026-01-31-20-27-54
+      updated: 2026-02-07-21-27-17
       followers: 1300
       likes: 67
       views: 574
@@ -2586,7 +2586,7 @@
     - service: tg
       id: 671
       published: 2025-01-18-18-09-39
-      updated: 2026-01-31-21-21-40
+      updated: 2026-02-07-21-28-16
       followers: 655
       likes: 65
       views: 672
@@ -2594,7 +2594,7 @@
     - service: vk
       id: 2070
       published: 2025-01-18-19-01-37
-      updated: 2026-01-31-21-25-06
+      updated: 2026-02-07-21-31-31
       followers: 1054
       likes: 41
       views: 364
