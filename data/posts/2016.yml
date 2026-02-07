@@ -107,10 +107,10 @@
     - service: tg
       id: 821
       published: 2025-04-28-18-25-09
-      updated: 2026-01-31-20-27-02
+      updated: 2026-02-07-20-29-41
       followers: 726
       likes: 81
-      views: 678
+      views: 681
       comments: !c |-
         GxMBACwObCc0ME0obunnUpGyRqh0/iFvIxzIxpZJgXVRpMn7ZOncSio6R7IykMnOuKGqcyNnUyO1
         /wTcYKNaiqk79WQxvcaPaMxGrlIzky4gCzo5cGkHuVDh53ksgQSecVgSiAY7YGdyaTh2zutbLX8X
@@ -734,10 +734,10 @@
     - service: tg
       id: 797
       published: 2025-04-16-18-22-22
-      updated: 2026-01-31-20-27-13
+      updated: 2026-02-07-20-29-51
       followers: 720
       likes: 61
-      views: 613
+      views: 614
 2016-12-02-molag-mar:
   title: Molag Mar
   titleRu: Молаг Мар
@@ -1404,13 +1404,13 @@
       id: DLAxCKwMros
       mediaId: '17862711228356418'
       published: 2025-06-17-18-28-37
-      updated: 2026-01-31-20-25-39
+      updated: 2026-02-07-20-28-09
       followers: 1553
       likes: 76
     - service: vk
       id: 2470
       published: 2025-06-17-18-28-43
-      updated: 2026-01-31-20-26-51
+      updated: 2026-02-07-20-29-28
       followers: 1327
       likes: 56
       views: 465
@@ -1424,7 +1424,7 @@
     - service: tg
       id: 888
       published: 2025-06-17-18-28-46
-      updated: 2026-01-31-20-26-02
+      updated: 2026-02-07-20-28-32
       followers: 749
       likes: 66
       views: 606
