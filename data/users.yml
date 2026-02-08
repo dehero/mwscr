@@ -1746,7 +1746,7 @@ eightntexerra:
   profiles:
     - service: tg
       id: '599761644'
-      updated: 2026-02-08-08-32-58
+      updated: 2026-02-08-09-30-16
       accessHash: '-2468884879881656361'
       username: eightntexerra
       name: 8ntexerra
@@ -2939,7 +2939,7 @@ kevy-c:
   profiles:
     - service: tg
       id: '5067683234'
-      updated: 2026-02-08-08-32-58
+      updated: 2026-02-08-09-30-17
       accessHash: '-903667913374325979'
       username: Kevy_c
       name: Dash
@@ -4857,7 +4857,7 @@ sergey-b-2:
   profiles:
     - service: vk
       id: '1077446394'
-      updated: 2026-02-07-23-29-35
+      updated: 2026-02-08-09-30-18
       username: id1077446394
       name: Сергей Б
       avatar: store:/avatars/vk-5a7c7910.jpg

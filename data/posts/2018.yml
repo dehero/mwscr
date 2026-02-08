@@ -2481,24 +2481,30 @@
       id: DUd48NVDu63
       mediaId: '18564595258054552'
       published: 2026-02-07-18-38-18
-      updated: 2026-02-08-08-32-53
+      updated: 2026-02-08-09-30-12
       followers: 1610
-      likes: 32
+      likes: 33
     - service: vk
       id: 3069
       published: 2026-02-07-18-38-24
-      updated: 2026-02-08-08-32-49
+      updated: 2026-02-08-09-30-18
       followers: 1597
-      likes: 22
-      views: 190
-      reposts: 1
+      likes: 24
+      views: 209
+      reposts: 2
+      comments: !c |-
+        G6YBICwOzJOm3zIQrMdB+afG/yP3jPQt+1u5FGWBBK2EIk3OJUtrG5bQjCYNhjL/mHD/bOjccjc7
+        Y4Yjo7AxotHN1A0ZmykjNpwtZWe2PM019L/AojTqLqBoowHQJBz4gNMbvi7fyg4pk5QPXp9fu3+r
+        P9r31vXu4h2H43LP5pT9OIKdbI4KmgHa/MIbIlT5ecQCf1MqIGvFFlJy2mW+RApQOcHM4nIiwwjO
+        AJee/IRwKQdUHOezWQcBARtEpkEgzfdCFJgI2A1UmehwcUiKHKacdhzvHPK/vIYz4MjBRTRMSyqI
+        Y4Ji5rIySMibbLH/k08=
     - service: tg
       id: 1144
       published: 2026-02-07-18-38-29
-      updated: 2026-02-08-08-32-50
+      updated: 2026-02-08-09-30-08
       followers: 890
       likes: 42
-      views: 159
+      views: 162
 2018-02-24-in-the-skaal-village:
   title: In the Skaal Village
   titleRu: В деревне Скаалов
