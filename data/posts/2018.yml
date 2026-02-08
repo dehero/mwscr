@@ -2481,16 +2481,16 @@
       id: DUd48NVDu63
       mediaId: '18564595258054552'
       published: 2026-02-07-18-38-18
-      updated: 2026-02-08-09-30-12
+      updated: 2026-02-08-10-26-40
       followers: 1610
       likes: 33
     - service: vk
       id: 3069
       published: 2026-02-07-18-38-24
-      updated: 2026-02-08-09-30-18
+      updated: 2026-02-08-10-26-42
       followers: 1597
-      likes: 24
-      views: 209
+      likes: 26
+      views: 216
       reposts: 2
       comments: !c |-
         G6YBICwOzJOm3zIQrMdB+afG/yP3jPQt+1u5FGWBBK2EIk3OJUtrG5bQjCYNhjL/mHD/bOjccjc7
@@ -2501,10 +2501,11 @@
     - service: tg
       id: 1144
       published: 2026-02-07-18-38-29
-      updated: 2026-02-08-09-30-08
+      updated: 2026-02-08-10-26-41
       followers: 890
-      likes: 42
-      views: 162
+      likes: 43
+      views: 169
+      comments: !c CwuAkZPLQnnDy41MAACma2V2eS1jpPCfpoAD
 2018-02-24-in-the-skaal-village:
   title: In the Skaal Village
   titleRu: В деревне Скаалов
