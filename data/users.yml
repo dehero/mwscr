@@ -577,7 +577,7 @@ artyom-melikhoff:
   profiles:
     - service: vk
       id: '299405149'
-      updated: 2026-02-07-22-51-44
+      updated: 2026-02-08-12-49-40
       username: artyom_melikhoff
       name: Артём Мелихов
       avatar: store:/avatars/vk-599a74fc.jpg
@@ -1746,7 +1746,7 @@ eightntexerra:
   profiles:
     - service: tg
       id: '599761644'
-      updated: 2026-02-08-11-23-29
+      updated: 2026-02-08-12-49-37
       accessHash: '-2468884879881656361'
       username: eightntexerra
       name: 8ntexerra
@@ -2939,7 +2939,7 @@ kevy-c:
   profiles:
     - service: tg
       id: '5067683234'
-      updated: 2026-02-08-11-23-29
+      updated: 2026-02-08-12-49-37
       accessHash: '-903667913374325979'
       username: Kevy_c
       name: Dash
@@ -3353,6 +3353,14 @@ maksim-kopytov:
       username: id799521846
       name: Максим Копытов
       avatar: store:/avatars/vk-0da189cf.jpg
+maksim-solovev:
+  profiles:
+    - service: vk
+      id: '658767771'
+      updated: 2026-02-08-12-49-38
+      username: id658767771
+      name: Максим Соловьев
+      avatar: store:/avatars/vk-77942374.jpg
 malignoutsider:
   profiles:
     - service: vk
@@ -4857,7 +4865,7 @@ sergey-b-2:
   profiles:
     - service: vk
       id: '1077446394'
-      updated: 2026-02-08-11-23-28
+      updated: 2026-02-08-12-49-37
       username: id1077446394
       name: Сергей Б
       avatar: store:/avatars/vk-5a7c7910.jpg
