@@ -464,7 +464,7 @@ anonim:
   profiles:
     - service: tg
       id: '6469120788'
-      updated: 2026-02-08-19-25-14
+      updated: 2026-02-09-23-36-43
       accessHash: '-3557204299452739678'
       name: Аноним
 anonym201904:
@@ -576,7 +576,7 @@ artyom-melikhoff:
   profiles:
     - service: vk
       id: '299405149'
-      updated: 2026-02-09-20-39-49
+      updated: 2026-02-09-23-36-41
       username: artyom_melikhoff
       name: Артём Мелихов
       avatar: store:/avatars/vk-599a74fc.jpg
@@ -2938,7 +2938,7 @@ kevy-c:
   profiles:
     - service: tg
       id: '5067683234'
-      updated: 2026-02-09-22-35-51
+      updated: 2026-02-09-23-36-24
       accessHash: '-903667913374325979'
       username: Kevy_c
       name: Dash
@@ -6155,7 +6155,7 @@ vladkr114:
   profiles:
     - service: vk
       id: '210352858'
-      updated: 2026-02-09-22-35-55
+      updated: 2026-02-09-23-36-24
       username: vladkr114
       name: Влад Крамской
       avatar: store:/avatars/vk-dfe1d842.jpg
@@ -6221,7 +6221,7 @@ vustex:
   profiles:
     - service: tg
       id: '131249506'
-      updated: 2026-02-02-23-27-56
+      updated: 2026-02-09-23-36-39
       accessHash: '-8846023880153550211'
       username: vustex
       name: Vustex 𓃵
