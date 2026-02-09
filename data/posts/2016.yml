@@ -953,23 +953,23 @@
       id: DUYw7ehDRa7
       mediaId: '17968087824001850'
       published: 2026-02-05-18-52-02
-      updated: 2026-02-08-18-36-44
+      updated: 2026-02-09-19-14-38
       followers: 1606
-      likes: 44
+      likes: 47
     - service: vk
       id: 3066
       published: 2026-02-05-18-52-08
-      updated: 2026-02-08-18-36-46
+      updated: 2026-02-09-19-14-40
       followers: 1598
       likes: 53
-      views: 330
+      views: 356
     - service: tg
       id: 1142
       published: 2026-02-05-18-52-11
-      updated: 2026-02-08-18-36-44
+      updated: 2026-02-09-19-14-40
       followers: 889
-      likes: 61
-      views: 456
+      likes: 65
+      views: 540
       comments: !c CwuAkZPLQnnC9F6ggACma2V2eS1jpPCfpoAD
 2016-12-07-nchuleft-ruin:
   title: Nchuleft Ruin
@@ -1050,6 +1050,19 @@
       followers: 4
       likes: 1
       views: 64
+    - service: ig
+      id: DUjHJ6gmOGo
+      mediaId: '18125981434541897'
+      published: 2026-02-09-19-18-41
+      followers: 1608
+    - service: vk
+      id: 3078
+      published: 2026-02-09-19-18-47
+      followers: 1598
+    - service: tg
+      id: 1146
+      published: 2026-02-09-19-18-52
+      followers: 890
 2016-12-10-somewhere-nearby-vivec:
   title: Somewhere Nearby Vivec
   titleRu: Где-то около Вивека

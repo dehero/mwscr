@@ -9152,23 +9152,26 @@
       id: DUgeK3sDHec
       mediaId: '17987925488941446'
       published: 2026-02-08-18-41-59
-      updated: 2026-02-09-17-57-04
+      updated: 2026-02-09-19-14-32
       followers: 1609
-      likes: 46
+      likes: 47
     - service: vk
       id: 3076
       published: 2026-02-08-18-42-05
-      updated: 2026-02-09-17-57-00
+      updated: 2026-02-09-19-14-35
       followers: 1597
       likes: 32
-      views: 279
+      views: 288
+      comments: !c |-
+        ix2AkZPLQnnEOgaMAACpdmxhZGtyMTE02SXQmCDQtdC1INC70LjRgdGC0YzRjyDRhdCw0LrQu9GM
+        0LvQvtGDAw==
     - service: tg
       id: 1145
       published: 2026-02-08-18-42-09
-      updated: 2026-02-09-17-57-07
+      updated: 2026-02-09-19-14-33
       followers: 889
       likes: 53
-      views: 282
+      views: 286
       comments: !c CwuAkZPLQnnD6kcFAACma2V2eS1jpPCfpoAD
 2018-07-21-going-out-to-evening-suran:
   title: Going Out to Evening Suran
