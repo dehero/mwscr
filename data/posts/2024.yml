@@ -928,14 +928,14 @@
     - service: vk
       id: 2504
       published: 2025-07-04-18-22-42
-      updated: 2026-02-02-19-32-12
+      updated: 2026-02-09-20-39-44
       followers: 1334
       likes: 54
-      views: 474
+      views: 475
     - service: tg
       id: 907
       published: 2025-07-04-18-22-45
-      updated: 2026-02-02-19-32-05
+      updated: 2026-02-09-20-39-29
       followers: 761
       likes: 69
       views: 633
@@ -1740,16 +1740,16 @@
       id: DURBgPhjSzP
       mediaId: '18190084885352838'
       published: 2026-02-02-18-42-56
-      updated: 2026-02-08-19-24-51
+      updated: 2026-02-09-20-38-12
       followers: 1605
-      likes: 45
+      likes: 46
     - service: vk
       id: 3059
       published: 2026-02-02-18-43-01
-      updated: 2026-02-08-19-25-01
+      updated: 2026-02-09-20-38-26
       followers: 1595
       likes: 54
-      views: 679
+      views: 688
       reposts: 2
       comments: !c |-
         G6MAgByJcSzKgvawSPDP/6nhzbGf4xEJWADDsVhs7K7tLZV03ofVuVFSYDPUKwIMdylheDc4DTgw
@@ -1758,10 +1758,10 @@
     - service: tg
       id: 1139
       published: 2026-02-02-18-43-05
-      updated: 2026-02-08-19-24-57
+      updated: 2026-02-09-20-38-23
       followers: 887
-      likes: 68
-      views: 523
+      likes: 70
+      views: 599
       comments: !c |-
         CyqAkpPLQnnCO09iAACma2V2eS1jpPCfpoCTy0J5wfthaoAArnBhaW5raWxsZXIxOTg22SPQnNGD
         0YHQuiDQu9C10YfQuNGCINCx0L7Qu9C10LfQvdC4LgM=
@@ -2018,13 +2018,13 @@
       id: DPJ-X8KEfAx
       mediaId: '18104289607593685'
       published: 2025-09-28-18-23-56
-      updated: 2026-02-02-19-31-34
+      updated: 2026-02-09-20-38-52
       followers: 1584
       likes: 87
     - service: vk
       id: 2694
       published: 2025-09-28-18-24-03
-      updated: 2026-02-02-19-31-52
+      updated: 2026-02-09-20-39-24
       followers: 1438
       likes: 58
       views: 1000
@@ -2035,10 +2035,10 @@
     - service: tg
       id: 1000
       published: 2025-09-28-18-24-08
-      updated: 2026-02-02-19-31-43
+      updated: 2026-02-09-20-39-03
       followers: 813
       likes: 66
-      views: 642
+      views: 645
       comments: !c |-
         G6wAOIyUbsK8/7nc1wO8ozkrsDDv+c3ZmhRI28e2qBdYQFef8Do50YPxj7eLBp5rnrTlBseJpsUa
         RDYtOuDf9frfHB3byA/gYdQVJ42cOA4qpuV0Og4+uJLYsmKnH3RzJ8/gjtxiC2EJz8gYGGMjGtXr
