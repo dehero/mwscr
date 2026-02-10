@@ -2642,23 +2642,28 @@
       id: DUljQfIlxOf
       mediaId: '18078659420523593'
       published: 2026-02-10-18-02-43
-      updated: 2026-02-10-19-59-32
+      updated: 2026-02-10-20-56-18
       followers: 1609
-      likes: 17
+      likes: 24
     - service: tg
       id: 1147
       published: 2026-02-10-18-03-10
-      updated: 2026-02-10-19-59-30
+      updated: 2026-02-10-20-56-20
       followers: 890
-      likes: 31
-      views: 115
+      likes: 33
+      views: 121
       comments: !c |-
-        Cy2AkZPLQnnEjAwbAACucGFpbmtpbGxlcjE5ODbZP9Cg0LDQsdC+0YLQsNGC0YwsINC90LXQs9GA
-        0YsuINCh0L7Qu9C90YbQtSDQtdGJ0LUg0LLRi9GB0L7QutC+LgM=
+        CziAkpPLQnnElBKMgACma2V2eS1jpPCfpoCTy0J5xIwMGwAArnBhaW5raWxsZXIxOTg22T/QoNCw
+        0LHQvtGC0LDRgtGMLCDQvdC10LPRgNGLLiDQodC+0LvQvdGG0LUg0LXRidC1INCy0YvRgdC+0LrQ
+        vi4D
     - service: vk
       id: 3080
       published: 2026-02-10-19-59-48
+      updated: 2026-02-10-20-56-11
       followers: 1599
+      likes: 6
+      views: 30
+      reposts: 1
 2018-02-28-exit:
   title: Exit
   titleRu: Выход
