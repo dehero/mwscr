@@ -1254,7 +1254,7 @@
     - service: vk
       id: 2571
       published: 2025-08-11-18-24-39
-      updated: 2026-02-03-17-53-30
+      updated: 2026-02-10-18-02-18
       followers: 1362
       likes: 27
       views: 386
@@ -1266,10 +1266,10 @@
     - service: tg
       id: 948
       published: 2025-08-11-18-24-45
-      updated: 2026-02-03-17-53-21
+      updated: 2026-02-10-18-02-07
       followers: 775
       likes: 61
-      views: 655
+      views: 656
       comments: !c |-
         G98AAJwHtg17C3oo9j5Do5jB87a7FG9dSVIRlXq+ZGcMQlLYbFJR3oOaWwmZ1BjqdvI89ZCnJ4tJ
         JQZjV3zz0BJwwgl6cXDAow7joxx0Y/1ZELTIyoK4nX97ejopfRvctiS7afB3AgFuVDkBBnCfHF0M
@@ -2378,7 +2378,7 @@
     - service: vk
       id: 2752
       published: 2025-10-20-18-30-24
-      updated: 2026-02-03-17-53-06
+      updated: 2026-02-10-18-01-58
       followers: 1473
       likes: 85
       views: 1824
@@ -2481,16 +2481,16 @@
       id: DUd48NVDu63
       mediaId: '18564595258054552'
       published: 2026-02-07-18-38-18
-      updated: 2026-02-09-17-57-06
+      updated: 2026-02-10-18-01-56
       followers: 1610
-      likes: 42
+      likes: 46
     - service: vk
       id: 3069
       published: 2026-02-07-18-38-24
-      updated: 2026-02-09-17-57-10
+      updated: 2026-02-10-18-01-55
       followers: 1597
-      likes: 44
-      views: 402
+      likes: 48
+      views: 494
       reposts: 2
       comments: !c |-
         G7gCAJwHptsdabDR+udjIWMr4/+Re7SEL7WftEVvvFThypYMBjhYBj6cnEs2335Hy2qTgpBFwXFO
@@ -2503,10 +2503,10 @@
     - service: tg
       id: 1144
       published: 2026-02-07-18-38-29
-      updated: 2026-02-09-17-57-09
+      updated: 2026-02-10-18-01-51
       followers: 890
-      likes: 51
-      views: 252
+      likes: 52
+      views: 287
       comments: !c CwuAkZPLQnnDy41MAACma2V2eS1jpPCfpoAD
 2018-02-24-in-the-skaal-village:
   title: In the Skaal Village
@@ -2638,6 +2638,15 @@
       likes: 22
       views: 190
       reposts: 1
+    - service: ig
+      id: DUljQfIlxOf
+      mediaId: '18078659420523593'
+      published: 2026-02-10-18-02-43
+      followers: 1609
+    - service: tg
+      id: 1147
+      published: 2026-02-10-18-03-10
+      followers: 890
 2018-02-28-exit:
   title: Exit
   titleRu: Выход
@@ -3684,7 +3693,7 @@
     - service: vk
       id: 2733
       published: 2025-10-13-18-27-49
-      updated: 2026-02-03-17-53-08
+      updated: 2026-02-10-18-02-00
       followers: 1469
       likes: 67
       views: 1116
@@ -9152,7 +9161,7 @@
       id: DUgeK3sDHec
       mediaId: '17987925488941446'
       published: 2026-02-08-18-41-59
-      updated: 2026-02-10-16-12-06
+      updated: 2026-02-10-18-01-54
       followers: 1609
       likes: 52
       comments: !c |-
@@ -9161,20 +9170,20 @@
     - service: vk
       id: 3076
       published: 2026-02-08-18-42-05
-      updated: 2026-02-10-16-11-56
+      updated: 2026-02-10-18-01-50
       followers: 1597
-      likes: 41
-      views: 362
+      likes: 42
+      views: 367
       comments: !c |-
         ix2AkZPLQnnEOgaMAACpdmxhZGtyMTE02SXQmCDQtdC1INC70LjRgdGC0YzRjyDRhdCw0LrQu9GM
         0LvQvtGDAw==
     - service: tg
       id: 1145
       published: 2026-02-08-18-42-09
-      updated: 2026-02-10-16-11-57
+      updated: 2026-02-10-18-01-48
       followers: 889
       likes: 57
-      views: 359
+      views: 362
       comments: !c CwuAkZPLQnnD6kcFAACma2V2eS1jpPCfpoAD
 2018-07-21-going-out-to-evening-suran:
   title: Going Out to Evening Suran
@@ -9603,7 +9612,7 @@
     - service: vk
       id: 2552
       published: 2025-08-03-19-25-00
-      updated: 2026-02-03-17-53-32
+      updated: 2026-02-10-18-02-20
       followers: 1356
       likes: 54
       views: 857
@@ -9615,10 +9624,10 @@
     - service: tg
       id: 937
       published: 2025-08-03-19-25-28
-      updated: 2026-02-03-17-53-23
+      updated: 2026-02-10-18-02-09
       followers: 769
       likes: 66
-      views: 799
+      views: 801
       comments: !c CxmAkpPLQnmHYFXgAACnZGFueWEtcqTwn6eAk8tCeYc5DzAAAKtrYXdhemFreTIyM6Twn5iHAw==
 2018-07-31-spires:
   title: Spires
