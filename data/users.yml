@@ -2938,7 +2938,7 @@ kevy-c:
   profiles:
     - service: tg
       id: '5067683234'
-      updated: 2026-02-09-23-36-24
+      updated: 2026-02-10-02-24-50
       accessHash: '-903667913374325979'
       username: Kevy_c
       name: Dash
@@ -6155,7 +6155,7 @@ vladkr114:
   profiles:
     - service: vk
       id: '210352858'
-      updated: 2026-02-09-23-36-24
+      updated: 2026-02-10-02-24-51
       username: vladkr114
       name: Влад Крамской
       avatar: store:/avatars/vk-dfe1d842.jpg
