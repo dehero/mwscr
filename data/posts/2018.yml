@@ -2642,11 +2642,23 @@
       id: DUljQfIlxOf
       mediaId: '18078659420523593'
       published: 2026-02-10-18-02-43
+      updated: 2026-02-10-19-59-32
       followers: 1609
+      likes: 17
     - service: tg
       id: 1147
       published: 2026-02-10-18-03-10
+      updated: 2026-02-10-19-59-30
       followers: 890
+      likes: 31
+      views: 115
+      comments: !c |-
+        Cy2AkZPLQnnEjAwbAACucGFpbmtpbGxlcjE5ODbZP9Cg0LDQsdC+0YLQsNGC0YwsINC90LXQs9GA
+        0YsuINCh0L7Qu9C90YbQtSDQtdGJ0LUg0LLRi9GB0L7QutC+LgM=
+    - service: vk
+      id: 3080
+      published: 2026-02-10-19-59-48
+      followers: 1599
 2018-02-28-exit:
   title: Exit
   titleRu: Выход
