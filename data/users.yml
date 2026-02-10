@@ -592,7 +592,7 @@ arya-stark:
   profiles:
     - service: vk
       id: '820702664'
-      updated: 2026-02-10-08-55-39
+      updated: 2026-02-10-10-01-19
       username: id820702664
       name: Арья Старк
       avatar: store:/avatars/vk-689aa89d.jpg
@@ -2938,7 +2938,7 @@ kevy-c:
   profiles:
     - service: tg
       id: '5067683234'
-      updated: 2026-02-10-08-55-34
+      updated: 2026-02-10-10-01-16
       accessHash: '-903667913374325979'
       username: Kevy_c
       name: Dash
@@ -6155,7 +6155,7 @@ vladkr114:
   profiles:
     - service: vk
       id: '210352858'
-      updated: 2026-02-10-08-55-36
+      updated: 2026-02-10-10-01-20
       username: vladkr114
       name: Влад Крамской
       avatar: store:/avatars/vk-dfe1d842.jpg
@@ -6302,6 +6302,10 @@ wolvtongue:
       updated: 2025-06-27-14-10-48
       username: wolvtongue
       avatar: store:/avatars/ig-50a260cc.jpg
+womensempire-llc:
+  profiles:
+    - service: ig
+      username: womensempire_llc
 wrathofvehk:
   profiles:
     - type: channel
