@@ -478,7 +478,7 @@ ansis:
   profiles:
     - service: tg
       id: '517050552'
-      updated: 2026-02-10-08-55-36
+      updated: 2026-02-10-23-38-08
       accessHash: '5231096655311395455'
       username: ansis
       name: ansis
@@ -592,7 +592,7 @@ arya-stark:
   profiles:
     - service: vk
       id: '820702664'
-      updated: 2026-02-10-22-39-36
+      updated: 2026-02-10-23-38-22
       username: id820702664
       name: Арья Старк
       avatar: store:/avatars/vk-689aa89d.jpg
@@ -1304,7 +1304,7 @@ darkness-rifho:
       deleted: true
     - service: tg
       id: '5704974271'
-      updated: 2026-02-10-18-02-06
+      updated: 2026-02-10-23-38-04
       accessHash: '3506423524566292179'
       username: C4H6O4
       name: Уна
@@ -2213,7 +2213,7 @@ golden-morgan:
   profiles:
     - service: vk
       id: '157461309'
-      updated: 2026-02-04-08-40-55
+      updated: 2026-02-10-23-38-20
       username: golden_morgan
       name: Marco Polo
       avatar: store:/avatars/vk-bfb22fe0.jpg
@@ -2506,7 +2506,7 @@ ilya-denisov:
   profiles:
     - service: vk
       id: '134482858'
-      updated: 2026-02-08-19-25-08
+      updated: 2026-02-10-23-38-12
       username: id134482858
       name: Илья Денисов
       avatar: store:/avatars/vk-45d9d8dd.jpg
@@ -2908,7 +2908,7 @@ kawazaky223:
   profiles:
     - service: tg
       id: '5641856113'
-      updated: 2026-02-10-19-59-39
+      updated: 2026-02-10-23-38-11
       accessHash: '7421309771527577818'
       username: Kawazaky223
       name: Максим
@@ -2938,7 +2938,7 @@ kevy-c:
   profiles:
     - service: tg
       id: '5067683234'
-      updated: 2026-02-10-22-39-35
+      updated: 2026-02-10-23-38-05
       accessHash: '-903667913374325979'
       username: Kevy_c
       name: Dash
@@ -3348,7 +3348,7 @@ maksim-kopytov:
   profiles:
     - service: vk
       id: '799521846'
-      updated: 2026-02-09-20-39-38
+      updated: 2026-02-10-23-38-20
       username: id799521846
       name: Максим Копытов
       avatar: store:/avatars/vk-0da189cf.jpg
@@ -3356,7 +3356,7 @@ maksim-solovev:
   profiles:
     - service: vk
       id: '658767771'
-      updated: 2026-02-10-22-39-32
+      updated: 2026-02-10-23-38-01
       username: id658767771
       name: Максим Соловьев
       avatar: store:/avatars/vk-77942374.jpg
@@ -4187,7 +4187,7 @@ painkiller1986:
   profiles:
     - service: tg
       id: '6565289507'
-      updated: 2026-02-10-22-39-34
+      updated: 2026-02-10-23-38-03
       accessHash: '6198356028119192921'
       username: Painkiller1986
       name: Сумерки
@@ -4864,7 +4864,7 @@ sergey-b-2:
   profiles:
     - service: vk
       id: '1077446394'
-      updated: 2026-02-10-20-56-25
+      updated: 2026-02-10-23-38-11
       username: id1077446394
       name: Сергей Б
       avatar: store:/avatars/vk-5a7c7910.jpg
@@ -4872,7 +4872,7 @@ sergey-churbanov:
   profiles:
     - service: vk
       id: '1060712354'
-      updated: 2026-02-10-18-02-20
+      updated: 2026-02-10-23-38-20
       username: id1060712354
       name: Сергей Чурбанов
       avatar: store:/avatars/vk-6499ce8d.jpg
