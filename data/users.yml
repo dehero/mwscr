@@ -576,7 +576,7 @@ artyom-melikhoff:
   profiles:
     - service: vk
       id: '299405149'
-      updated: 2026-02-10-19-59-34
+      updated: 2026-02-11-19-03-05
       username: artyom_melikhoff
       name: Артём Мелихов
       avatar: store:/avatars/vk-599a74fc.jpg
@@ -592,7 +592,7 @@ arya-stark:
   profiles:
     - service: vk
       id: '820702664'
-      updated: 2026-02-11-17-56-09
+      updated: 2026-02-11-19-02-58
       username: id820702664
       name: Арья Старк
       avatar: store:/avatars/vk-689aa89d.jpg
@@ -1313,7 +1313,7 @@ darvetr:
   profiles:
     - service: vk
       id: '1057788271'
-      updated: 2026-02-08-18-37-11
+      updated: 2026-02-11-19-03-08
       username: darvetr
       name: Виктория Дарьина
       avatar: store:/avatars/vk-00d4bf4b.jpg
@@ -2938,7 +2938,7 @@ kevy-c:
   profiles:
     - service: tg
       id: '5067683234'
-      updated: 2026-02-11-17-56-08
+      updated: 2026-02-11-19-03-02
       accessHash: '-903667913374325979'
       username: Kevy_c
       name: Dash
@@ -3356,7 +3356,7 @@ maksim-solovev:
   profiles:
     - service: vk
       id: '658767771'
-      updated: 2026-02-11-17-56-06
+      updated: 2026-02-11-19-03-03
       username: id658767771
       name: Максим Соловьев
       avatar: store:/avatars/vk-77942374.jpg
@@ -3529,7 +3529,7 @@ michael-levington:
   profiles:
     - service: vk
       id: '416916067'
-      updated: 2026-02-10-08-55-40
+      updated: 2026-02-11-19-03-07
       username: michael_levington
       name: Майкл Левингтон
       avatar: store:/avatars/vk-5fe6e343.jpg
@@ -4187,7 +4187,7 @@ painkiller1986:
   profiles:
     - service: tg
       id: '6565289507'
-      updated: 2026-02-11-17-56-05
+      updated: 2026-02-11-19-02-55
       accessHash: '6198356028119192921'
       username: Painkiller1986
       name: Сумерки
@@ -4864,7 +4864,7 @@ sergey-b-2:
   profiles:
     - service: vk
       id: '1077446394'
-      updated: 2026-02-11-07-00-52
+      updated: 2026-02-11-19-03-07
       username: id1077446394
       name: Сергей Б
       avatar: store:/avatars/vk-5a7c7910.jpg
@@ -6155,7 +6155,7 @@ vladkr114:
   profiles:
     - service: vk
       id: '210352858'
-      updated: 2026-02-10-18-01-49
+      updated: 2026-02-11-19-03-00
       username: vladkr114
       name: Влад Крамской
       avatar: store:/avatars/vk-dfe1d842.jpg
