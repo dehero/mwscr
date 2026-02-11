@@ -576,7 +576,7 @@ artyom-melikhoff:
   profiles:
     - service: vk
       id: '299405149'
-      updated: 2026-02-11-19-03-05
+      updated: 2026-02-11-20-38-45
       username: artyom_melikhoff
       name: Артём Мелихов
       avatar: store:/avatars/vk-599a74fc.jpg
@@ -1244,10 +1244,10 @@ danil-yarmukhametov:
   profiles:
     - service: vk
       id: '1051852552'
-      updated: 2026-01-14-19-19-06
+      updated: 2026-02-11-20-39-13
       username: id1051852552
-      name: Данил Ярмухаметов
-      avatar: store:/avatars/vk-81d2c91e.jpg
+      avatar: store:/avatars/vk-7f160215.jpg
+      deleted: true
 danila-syrin90595271:
   profiles:
     - service: vk
@@ -1387,7 +1387,7 @@ dehero:
       avatar: store:/avatars/gh-c8afe641.jpg
     - service: vk
       id: '3652910'
-      updated: 2026-02-10-18-02-18
+      updated: 2026-02-11-20-39-03
       username: dehero
       name: Антон Курьянов
       avatar: store:/avatars/vk-5356f76e.jpg
@@ -1407,7 +1407,7 @@ dehero:
     - type: channel
       service: tg
       id: '1264795946'
-      updated: 2026-02-10-08-55-38
+      updated: 2026-02-11-20-39-12
       accessHash: '-5789257269249675714'
       username: mwscr
       name: Morrowind Screenshots
@@ -1537,7 +1537,7 @@ dismasterfrane:
   profiles:
     - service: tg
       id: '267540082'
-      updated: 2026-02-07-22-27-01
+      updated: 2026-02-11-20-39-09
       accessHash: '-7587460155502921699'
       username: dismasterfrane
       name: '🏴‍☠️ Dismaster FraNe #osrpizza 🍕'
@@ -1630,7 +1630,7 @@ dremarretres:
   profiles:
     - service: vk
       id: '801308664'
-      updated: 2026-02-08-18-37-02
+      updated: 2026-02-11-20-38-52
       username: dremarretres
       name: Джон Шепард
       avatar: store:/avatars/vk-ac4f0700.jpg
@@ -1745,7 +1745,7 @@ eightntexerra:
   profiles:
     - service: tg
       id: '599761644'
-      updated: 2026-02-10-19-59-32
+      updated: 2026-02-11-20-38-49
       accessHash: '-2468884879881656361'
       username: eightntexerra
       name: 8ntexerra
@@ -1805,12 +1805,12 @@ eldrad:
   profiles:
     - service: tg
       id: '398125107'
-      updated: 2026-02-07-22-26-12
+      updated: 2026-02-11-20-39-03
       accessHash: '-8692024594567772976'
       username: Master_Eldrad
       botChatId: 398125107
       name: Эльдра́д Ультра́н
-      avatar: store:/avatars/tg-1709934314741500673.jpg
+      avatar: store:/avatars/tg-1709934314741500674.jpg
 elfikichki:
   profiles:
     - type: channel
@@ -2128,11 +2128,11 @@ ghosr1368:
   profiles:
     - service: tg
       id: '6353853685'
-      updated: 2026-02-04-19-38-58
+      updated: 2026-02-11-20-39-10
       accessHash: '2523169162736182941'
       username: Ghost_136812
       name: GHOST_141
-      avatar: store:/avatars/tg-5404735709865774194.jpg
+      avatar: store:/avatars/tg-5210810823985536190.jpg
 ghost63rus:
   profiles:
     - service: vk
@@ -2849,7 +2849,7 @@ julypaint:
   profiles:
     - service: vk
       id: '43514981'
-      updated: 2026-02-04-19-38-59
+      updated: 2026-02-11-20-39-02
       username: julypaint
       name: Юлия Черняева
       avatar: store:/avatars/vk-a02c10d6.jpg
@@ -2908,7 +2908,7 @@ kawazaky223:
   profiles:
     - service: tg
       id: '5641856113'
-      updated: 2026-02-11-09-01-24
+      updated: 2026-02-11-20-39-11
       accessHash: '7421309771527577818'
       username: Kawazaky223
       name: Максим
@@ -2938,7 +2938,7 @@ kevy-c:
   profiles:
     - service: tg
       id: '5067683234'
-      updated: 2026-02-11-19-03-02
+      updated: 2026-02-11-20-39-10
       accessHash: '-903667913374325979'
       username: Kevy_c
       name: Dash
@@ -3356,7 +3356,7 @@ maksim-solovev:
   profiles:
     - service: vk
       id: '658767771'
-      updated: 2026-02-11-19-03-03
+      updated: 2026-02-11-20-38-40
       username: id658767771
       name: Максим Соловьев
       avatar: store:/avatars/vk-77942374.jpg
@@ -3521,7 +3521,7 @@ mibrnd:
   profiles:
     - service: vk
       id: '853706470'
-      updated: 2026-02-07-21-31-38
+      updated: 2026-02-11-20-39-02
       username: mibrnd
       name: Михаил Барановский
       avatar: store:/avatars/vk-909337ed.jpg
@@ -3867,7 +3867,7 @@ nerevarine:
   profiles:
     - service: tg
       id: '373264328'
-      updated: 2026-02-08-18-38-04
+      updated: 2026-02-11-20-39-11
       accessHash: '9078366854792939477'
       username: Nerevarine
       name: Otto Godblessed
@@ -3910,7 +3910,7 @@ nitz1992:
   profiles:
     - service: vk
       id: '5778432'
-      updated: 2026-02-07-22-51-31
+      updated: 2026-02-11-20-39-02
       username: nitz1992
       name: Максим Королёв
       avatar: store:/avatars/vk-7056ef15.jpg
@@ -4187,7 +4187,7 @@ painkiller1986:
   profiles:
     - service: tg
       id: '6565289507'
-      updated: 2026-02-11-19-02-55
+      updated: 2026-02-11-20-38-51
       accessHash: '6198356028119192921'
       username: Painkiller1986
       name: Сумерки
@@ -4474,13 +4474,21 @@ pustotivetra:
       username: pustotivetra
       name: Пустота
       avatar: store:/avatars/tg-3440327323485408018.jpg
+pyriglena:
+  profiles:
+    - service: tg
+      id: '554672984'
+      updated: 2026-02-11-20-38-43
+      accessHash: '-3565593010225205906'
+      username: pyriglena
+      name: yarrow
 qirong666:
   profiles:
     - service: vk
       id: '229334633'
-      updated: 2026-02-07-22-32-40
+      updated: 2026-02-11-20-38-52
       username: qirong666
-      name: Qi Rong
+      name: Ци Жун
       avatar: store:/avatars/vk-2b859234.jpg
 quantd7709:
   profiles:
@@ -4864,7 +4872,7 @@ sergey-b-2:
   profiles:
     - service: vk
       id: '1077446394'
-      updated: 2026-02-11-19-03-07
+      updated: 2026-02-11-20-38-52
       username: id1077446394
       name: Сергей Б
       avatar: store:/avatars/vk-5a7c7910.jpg
@@ -5578,7 +5586,7 @@ todor:
   profiles:
     - service: tg
       id: '1305695186'
-      updated: 2026-02-10-18-01-59
+      updated: 2026-02-11-20-39-12
       accessHash: '8819682207926865502'
       name: Todor
       avatar: store:/avatars/tg-5305295556123424826.jpg
@@ -5927,7 +5935,7 @@ user-5:
   profiles:
     - service: tg
       id: '370313011'
-      updated: 2026-02-07-22-51-46
+      updated: 2026-02-11-20-39-12
       accessHash: '-8597544857375648588'
       name: ­­
       avatar: store:/avatars/tg-1590482271984527366.jpg
@@ -6406,7 +6414,7 @@ yaroslav-brilinskiy:
   profiles:
     - service: vk
       id: '272012426'
-      updated: 2026-02-04-19-38-57
+      updated: 2026-02-11-20-39-01
       username: id272012426
       name: Ярослав Брилинский
       avatar: store:/avatars/vk-65026c7d.jpg

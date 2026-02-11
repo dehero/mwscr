@@ -659,7 +659,7 @@
     - service: vk
       id: 2886
       published: 2025-11-26-12-44-48
-      updated: 2026-02-04-19-39-01
+      updated: 2026-02-11-20-39-04
       followers: 1527
       likes: 24
       views: 491
@@ -667,10 +667,10 @@
     - service: tg
       id: 1069
       published: 2025-11-26-12-44-51
-      updated: 2026-02-04-19-39-01
+      updated: 2026-02-11-20-39-13
       followers: 868
       likes: 32
-      views: 639
+      views: 643
       comments: !c |-
         GyoBABynK3opLLS4SX/tt9AStalmrfj0Lw98F/ESTJqIJUKzu2r92g2lQFJJgOtO4PKD6b//e1mY
         tsUtjSngFki9Q3w63kyliBhvjcbdUlz/o18GYxUl8kSJiBa1Wt343et2m2i8le/HJYIU5IhUGMGX
@@ -701,7 +701,7 @@
     - service: vk
       id: 2902
       published: 2025-11-30-15-16-00
-      updated: 2026-02-04-19-39-00
+      updated: 2026-02-11-20-39-03
       followers: 1532
       likes: 49
       views: 678
@@ -709,10 +709,10 @@
     - service: tg
       id: 1074
       published: 2025-11-30-15-16-00
-      updated: 2026-02-04-19-38-59
+      updated: 2026-02-11-20-39-11
       followers: 867
       likes: 40
-      views: 616
+      views: 620
     - service: ig
       id: DUMMY
       mediaId: ''
@@ -742,10 +742,10 @@
     - service: vk
       id: 2972
       published: 2025-12-26-14-08-00
-      updated: 2026-02-04-19-38-59
+      updated: 2026-02-11-20-39-03
       followers: 1549
       likes: 59
-      views: 967
+      views: 968
       reposts: 2
       comments: !c |-
         GzsF4CwK7BgxVogWPkck1bA3/vnnqA0n9OdEM1MppUW7lW60gm2c4HrfCSygLLoyQI9A+Lmj5Aer
@@ -763,10 +763,10 @@
     - service: tg
       id: 1097
       published: 2025-12-26-14-08-00
-      updated: 2026-02-04-19-38-59
+      updated: 2026-02-11-20-39-10
       followers: 881
       likes: 52
-      views: 724
+      views: 731
       comments: !c |-
         G9wCAIzTFfMsjfLpf+cysyQ0ECiC51EVc0C5ArnOIZAF+pWdvM1xCrd1HFxT9PXpQfjys7i3Bj70
         AW4axTKFuon6XxfDX4aHnyqN89XoGoRWsY8XGd6OgWX6vZw1ztYYg5IJxfh4PxbdUnZ+QcGQMGeq
