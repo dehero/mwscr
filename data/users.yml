@@ -592,7 +592,7 @@ arya-stark:
   profiles:
     - service: vk
       id: '820702664'
-      updated: 2026-02-11-02-13-46
+      updated: 2026-02-11-05-02-58
       username: id820702664
       name: Арья Старк
       avatar: store:/avatars/vk-689aa89d.jpg
@@ -2938,7 +2938,7 @@ kevy-c:
   profiles:
     - service: tg
       id: '5067683234'
-      updated: 2026-02-11-02-13-46
+      updated: 2026-02-11-05-02-58
       accessHash: '-903667913374325979'
       username: Kevy_c
       name: Dash
@@ -3356,7 +3356,7 @@ maksim-solovev:
   profiles:
     - service: vk
       id: '658767771'
-      updated: 2026-02-11-02-13-43
+      updated: 2026-02-11-05-02-54
       username: id658767771
       name: Максим Соловьев
       avatar: store:/avatars/vk-77942374.jpg
@@ -4187,7 +4187,7 @@ painkiller1986:
   profiles:
     - service: tg
       id: '6565289507'
-      updated: 2026-02-11-02-13-44
+      updated: 2026-02-11-05-02-56
       accessHash: '6198356028119192921'
       username: Painkiller1986
       name: Сумерки
