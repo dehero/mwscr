@@ -198,6 +198,8 @@ export const PostDialog: Component<PostDialogProps> = (props) => {
 
     patchObject(post, patch());
 
+    delete post.posts;
+
     return post;
   });
 
@@ -216,8 +218,6 @@ export const PostDialog: Component<PostDialogProps> = (props) => {
 
       mergePostWith(currentPost, entry[1]);
     }
-
-    delete currentPost.posts;
 
     setPatch(currentPost);
   });
@@ -241,7 +241,9 @@ export const PostDialog: Component<PostDialogProps> = (props) => {
       newValue = null;
     }
 
-    setPatch({ ...patch(), [field]: newValue });
+    const newPatch = { ...patch(), [field]: newValue };
+
+    setPatch(newPatch);
   };
 
   const [submitVariant, setSubmitVariant] = createSignal<'patch' | 'github-issue' | 'email'>('patch');
