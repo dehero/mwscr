@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file.
 
+## [2.15.5](https://github.com/dehero/mwscr/compare/v2.15.4...v2.15.5) (2026-02-12)
+
+### Bug Fixes
+
+- **site:** don't include publications in post patch
+  ([aa521d4](https://github.com/dehero/mwscr/commit/aa521d4f935d0bdd018f39489ec5837d08a5d31d))
+
 ## [2.15.4](https://github.com/dehero/mwscr/compare/v2.15.3...v2.15.4) (2026-01-28)
 
 ### Code Refactoring
