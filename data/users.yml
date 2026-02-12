@@ -592,7 +592,7 @@ arya-stark:
   profiles:
     - service: vk
       id: '820702664'
-      updated: 2026-02-12-20-35-30
+      updated: 2026-02-12-23-28-55
       username: id820702664
       name: Арья Старк
       avatar: store:/avatars/vk-689aa89d.jpg
@@ -1407,7 +1407,7 @@ dehero:
     - type: channel
       service: tg
       id: '1264795946'
-      updated: 2026-02-12-22-32-57
+      updated: 2026-02-12-23-28-52
       accessHash: '-5789257269249675714'
       username: mwscr
       name: Morrowind Screenshots
@@ -2938,7 +2938,7 @@ kevy-c:
   profiles:
     - service: tg
       id: '5067683234'
-      updated: 2026-02-12-22-32-56
+      updated: 2026-02-12-23-28-51
       accessHash: '-903667913374325979'
       username: Kevy_c
       name: Dash
@@ -4187,7 +4187,7 @@ painkiller1986:
   profiles:
     - service: tg
       id: '6565289507'
-      updated: 2026-02-12-22-32-56
+      updated: 2026-02-12-23-28-52
       accessHash: '6198356028119192921'
       username: Painkiller1986
       name: Сумерки
@@ -4391,7 +4391,7 @@ porsankka666:
   profiles:
     - service: vk
       id: '320093421'
-      updated: 2026-02-07-21-27-10
+      updated: 2026-02-12-23-28-52
       username: porsankka666
       name: Дмитрий Иванов-Соломин
       avatar: store:/avatars/vk-c9c8bba2.jpg
@@ -4478,7 +4478,7 @@ pyriglena:
   profiles:
     - service: tg
       id: '554672984'
-      updated: 2026-02-12-22-32-57
+      updated: 2026-02-12-23-28-54
       accessHash: '-3565593010225205906'
       username: pyriglena
       name: yarrow
@@ -4840,7 +4840,7 @@ self-creating:
   profiles:
     - service: vk
       id: '50058433'
-      updated: 2026-02-07-22-34-30
+      updated: 2026-02-12-23-28-54
       username: self_creating
       name: Антон Коненков
       avatar: store:/avatars/vk-ef1ee023.jpg
@@ -4872,7 +4872,7 @@ sergey-b-2:
   profiles:
     - service: vk
       id: '1077446394'
-      updated: 2026-02-12-19-15-03
+      updated: 2026-02-12-23-28-56
       username: id1077446394
       name: Сергей Б
       avatar: store:/avatars/vk-5a7c7910.jpg
@@ -5586,7 +5586,7 @@ todor:
   profiles:
     - service: tg
       id: '1305695186'
-      updated: 2026-02-12-22-32-57
+      updated: 2026-02-12-23-28-55
       accessHash: '8819682207926865502'
       name: Todor
       avatar: store:/avatars/tg-5305295556123424826.jpg
