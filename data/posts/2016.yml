@@ -795,15 +795,27 @@
       id: DUq1NOAF345
       mediaId: '18039014204533786'
       published: 2026-02-12-19-15-43
+      updated: 2026-02-12-20-35-29
       followers: 1608
+      likes: 14
     - service: vk
       id: 3084
       published: 2026-02-12-19-15-49
+      updated: 2026-02-12-20-35-19
       followers: 1600
+      likes: 15
+      views: 103
+      reposts: 1
     - service: tg
       id: 1149
       published: 2026-02-12-19-15-52
+      updated: 2026-02-12-20-35-27
       followers: 890
+      likes: 30
+      views: 89
+      comments: !c |-
+        iyqAkZPLQnnFNJLtgACucGFpbmtpbGxlcjE5ODbZOtCf0LDQu9C+0LzQvdC40YfQtdGB0YLQstC+
+        INCyINGB0YLRgNCw0L3RgyDQktC+0YHRgtC+0LrQsC4D
 2016-12-03-st-delyn-vs-st-olms:
   title: St. Delyn vs. St. Olms
   titleRu: Святой Делин против Святого Олмса
