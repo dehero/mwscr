@@ -10202,9 +10202,13 @@
   title: Thongar's Tradehouse
   titleRu: Трактир Тонгара
   placement: Indoors
+  location: Khuul, Thongar's Tradehouse
   content: store:/shots/2018-08-15-thongars-tradehouse.png
   type: shot
   author: dehero
+  locating:
+    date: 2026-02-12
+    user: pyriglena
   engine: OpenMW
   mark: B1
   posts:
@@ -10594,9 +10598,15 @@
   title: Night Shipwreck
   titleRu: Ночное кораблекрушение
   placement: Outdoors
+  location:
+    - Bitter Coast Region
+    - Unexplored Shipwreck
   content: store:/shots/2018-08-23-night-shipwreck.png
   type: shot
   author: dehero
+  locating:
+    date: 2026-02-12
+    user: pyriglena
   engine: OpenMW
   tags:
     - night
@@ -11475,9 +11485,15 @@
   title: Mother Daedra
   titleRu: Даэдра-мать
   placement: Outdoors
+  location:
+    - Azura's Coast Region
+    - Shrine of Azura
   content: store:/shots/2018-09-08-mother-daedra.png
   type: shot
   author: dehero
+  locating:
+    date: 2026-02-12
+    user: pyriglena
   engine: OpenMW
   tags:
     - azura
@@ -11629,9 +11645,13 @@
   title: Galmis Dren, Smuggler
   titleRu: Гальмис Дрен, контрабандист
   placement: Indoors
+  location: Nammu
   content: store:/shots/2018-09-11-galmis-dren-smuggler.png
   type: shot
   author: dehero
+  locating:
+    date: 2026-02-12
+    user: pyriglena
   engine: OpenMW
   mark: B1
   posts:
@@ -12041,10 +12061,14 @@
   title: Teris Raledran and Rollie the Guar
   titleRu: Терис Раледран и Ролли Гуар
   placement: Outdoors
+  location: Ascadian Isles Region
   content: store:/shots/2018-09-19-teris-raledran-and-rollie-the-guar.png
   trash: store:/inbox/dehero.2018-09-19-21-39-29.png
   type: shot
   author: dehero
+  locating:
+    date: 2026-02-12
+    user: pyriglena
   engine: OpenMW
   tags:
     - guar
@@ -12077,9 +12101,13 @@
   title: In the West Wing of Gateway Inn
   titleRu: В западном крыле Привратного трактира
   placement: Indoors
+  location: 'Sadrith Mora, Gateway Inn: West Wing'
   content: store:/shots/2018-09-20-in-the-west-wing-of-gateway-inn.png
   type: shot
   author: dehero
+  locating:
+    date: 2026-02-12
+    user: pyriglena
   engine: OpenMW
   mark: B2
   posts:
@@ -12706,9 +12734,15 @@
   title: Shatalg
   titleRu: Шаталг
   placement: Outdoors
+  location:
+    - Ascadian Isles Region
+    - Arvel Plantation
   content: store:/shots/2018-10-02-shatalg.png
   type: shot
   author: dehero
+  locating:
+    date: 2026-02-12
+    user: pyriglena
   engine: OpenMW
   tags:
     - slave
@@ -13094,9 +13128,13 @@
   title: Severe Innkeeper
   titleRu: Суровый трактирщик
   placement: Indoors
+  location: Vos, Varo Tradehouse
   content: store:/shots/2018-10-09-severe-innkeeper.png
   type: shot
   author: dehero
+  locating:
+    date: 2026-02-12
+    user: pyriglena
   engine: OpenMW
   mark: B1
   posts:
@@ -13310,9 +13348,15 @@
   title: The Entrance to Onyx Hall
   titleRu: Вход в Ониксовый Зал
   placement: Outdoors
+  location:
+    - Tel Fyr
+    - Tower of Tel Fyr, Onyx Hall
   content: store:/shots/2018-10-13-the-entrance-to-onyx-hall.png
   type: shot
   author: dehero
+  locating:
+    date: 2026-02-12
+    user: pyriglena
   engine: OpenMW
   mark: B2
   posts:
@@ -13482,9 +13526,13 @@
   title: Gang
   titleRu: Банда
   placement: Outdoors
+  location: Tel Branora
   content: store:/shots/2018-10-18-gang.png
   type: shot
   author: dehero
+  locating:
+    date: 2026-02-12
+    user: pyriglena
   engine: OpenMW
   mark: B2
   posts:
@@ -13589,9 +13637,13 @@
   title: Bervaso Thenim, Apothecary
   titleRu: Вэрвасо Теним, аптекарь
   placement: Indoors
+  location: Molag Mar, Temple
   content: store:/shots/2018-10-21-bervaso-thenim-apothecary.png
   type: shot
   author: dehero
+  locating:
+    date: 2026-02-12
+    user: pyriglena
   engine: OpenMW
   mark: B1
   posts:
@@ -13761,9 +13813,13 @@
   title: Noble Assassin
   titleRu: Знатный ассассин
   placement: Indoors
+  location: Sadrith Mora, Morag Tong Guild
   content: store:/shots/2018-10-23-noble-assassin.png
   type: shot
   author: dehero
+  locating:
+    date: 2026-02-12
+    user: pyriglena
   engine: OpenMW
   mark: B1
   posts:
@@ -14019,9 +14075,13 @@
   title: Bread and Wine
   titleRu: Хлеб и вино
   placement: Indoors
+  location: Vivec, St. Olms Canal South-One
   content: store:/shots/2018-10-29-bread-and-wine.png
   type: shot
   author: dehero
+  locating:
+    date: 2026-02-12
+    user: pyriglena
   engine: OpenMW
   mark: B1
   posts:
@@ -14086,9 +14146,13 @@
   title: Stairway to God
   titleRu: Лестница к богу
   placement: Outdoors
+  location: Vivec, Temple
   content: store:/shots/2018-10-30-stairway-to-god.png
   type: shot
   author: dehero
+  locating:
+    date: 2026-02-12
+    user: pyriglena
   engine: OpenMW
   tags:
     - stair
@@ -14792,9 +14856,13 @@
   title: Ship Goods
   titleRu: Корабельные товары
   placement: Outdoors
+  location: Gnaar Mok
   content: store:/shots/2018-11-16-ship-goods.png
   type: shot
   author: dehero
+  locating:
+    date: 2026-02-12
+    user: pyriglena
   engine: OpenMW
   mark: B2
   posts:
@@ -14982,9 +15050,13 @@
   title: The City of Gondolas
   titleRu: Город гондол
   placement: Outdoors
+  location: Vivec, Arena
   content: store:/shots/2018-11-19-the-city-of-gondolas.png
   type: shot
   author: dehero
+  locating:
+    date: 2026-02-12
+    user: pyriglena
   engine: OpenMW
   tags:
     - gondola
@@ -15427,9 +15499,13 @@
   title: Gathal Llethri
   titleRu: Гатал Ллетри
   placement: Indoors
+  location: Dren Plantation, Guardhouse
   content: store:/shots/2018-11-30-gathal-llethri.png
   type: shot
   author: dehero
+  locating:
+    date: 2026-02-12
+    user: pyriglena
   engine: OpenMW
   mark: B2
   posts:

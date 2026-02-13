@@ -2579,6 +2579,7 @@
   title: Elder and Scroll
   titleRu: Древний и свиток
   placement: Indoors
+  location: Veloth Ancestral Tomb
   content: store:/shots/2025-09-24-1-elder-and-scroll.png
   trash:
     - store:/trash/dehero.2025-08-26-23-28-23.1.png
@@ -2587,6 +2588,9 @@
     - store:/trash/dehero.2025-08-26-23-28-23.png
   type: shot
   author: dehero
+  locating:
+    date: 2026-02-12
+    user: pyriglena
   engine: OpenMW
   tags:
     - urn

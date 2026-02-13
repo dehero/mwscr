@@ -734,9 +734,13 @@
   title: Behind a Barrel
   titleRu: За бочкой
   placement: Indoors
+  location: Khuul, Svadstar's Shack
   content: store:/shots/2023-08-10-behind-a-barrel.png
   type: shot
   author: dehero
+  locating:
+    date: 2026-02-12
+    user: pyriglena
   engine: OpenMW
   tags:
     - barrel

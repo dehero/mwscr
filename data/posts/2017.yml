@@ -4263,6 +4263,9 @@
   content: store:/shots/2017-03-31-interior-garden.png
   type: shot
   author: dehero
+  locating:
+    date: 2026-02-12
+    user: pyriglena
   engine: OpenMW
   tags:
     - mushroom

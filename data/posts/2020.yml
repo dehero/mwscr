@@ -77,9 +77,13 @@
   title: Inside a Furnace
   titleRu: В кузнечном горне
   placement: Indoors
+  location: Ebonheart, Hawkmoth Legion Garrison
   content: store:/shots/2020-05-14-inside-a-furnace.png
   type: shot
   author: dehero
+  locating:
+    date: 2026-02-12
+    user: pyriglena
   engine: OpenMW
   tags:
     - forge
@@ -507,9 +511,13 @@
   title: Apothecary Door
   titleRu: Дверь аптекаря
   placement: Indoors
+  location: 'Suran, Ibarnadad Assirnarari: Apothecary'
   content: store:/shots/2020-05-22-apothecary-door.png
   type: shot
   author: dehero
+  locating:
+    date: 2026-02-12
+    user: pyriglena
   engine: OpenMW
   mark: B2
   posts:
@@ -663,9 +671,13 @@
   title: Water Supply
   titleRu: Запас воды
   placement: Indoors
+  location: Vivec, No Name Club
   content: store:/shots/2020-05-25-water-supply.png
   type: shot
   author: dehero
+  locating:
+    date: 2026-02-12
+    user: pyriglena
   engine: OpenMW
   tags:
     - barrel
@@ -1359,9 +1371,13 @@
   title: Longing for a Departed Hero
   titleRu: Тоска по ушедшему герою
   placement: Indoors
+  location: Berandas, Underground
   content: store:/shots/2020-10-20-longing-for-a-departed-hero.png
   type: shot
   author: dehero
+  locating:
+    date: 2026-02-12
+    user: pyriglena
   engine: OpenMW
   mark: C
   posts:
@@ -2208,9 +2224,13 @@
   title: Redoran Basement
   titleRu: Редоранский подвал
   placement: Indoors
+  location: Maar Gan, Garry's Hut
   content: store:/shots/2020-11-11-redoran-basement.png
   type: shot
   author: dehero
+  locating:
+    date: 2026-02-12
+    user: pyriglena
   engine: OpenMW
   mark: B1
   posts:

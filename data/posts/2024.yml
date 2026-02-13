@@ -2047,10 +2047,14 @@
   title: Campfire
   titleRu: У костра
   placement: Outdoors
+  location: Molag Amur Region
   content: store:/shots/2024-05-07-campfire.png
   trash: store:/trash/dehero.2019-02-16-21-46-51.png
   type: shot
   author: dehero
+  locating:
+    date: 2026-02-12
+    user: pyriglena
   engine: OpenMW
   tags:
     - campfire
@@ -3648,9 +3652,13 @@
   title: Still Life with a Stem
   titleRu: Натюрморт со стеблем
   placement: Indoors
+  location: Maar Gan, Garry's Hut
   content: store:/shots/2024-12-08-still-life-with-a-stem.png
   type: shot
   author: dehero
+  locating:
+    date: 2026-02-12
+    user: pyriglena
   engine: OpenMW
   tags:
     - candle

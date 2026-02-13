@@ -411,9 +411,13 @@
   title: Telvanni Table
   titleRu: Стол Телванни
   placement: Indoors
+  location: 'Sadrith Mora, Gateway Inn: West Wing'
   content: store:/shots/2019-02-15-telvanni-table.png
   type: shot
   author: dehero
+  locating:
+    date: 2026-02-12
+    user: pyriglena
   engine: OpenMW
   mark: A2
   posts:
@@ -836,9 +840,13 @@
   title: Three Hunters
   titleRu: Три охотника
   placement: Outdoors
+  location: Azura's Coast Region
   content: store:/shots/2019-02-23-three-hunters.png
   type: shot
   author: dehero
+  locating:
+    date: 2026-02-12
+    user: pyriglena
   engine: OpenMW
   mark: C
   posts:
@@ -892,9 +900,13 @@
   title: Mehrunes Dagon and His Worshiper
   titleRu: Мехрун Дагон и его идолопоклонник
   placement: Indoors
+  location: Ebernanit, Shrine
   content: store:/shots/2019-02-24-mehrunes-dagon-and-his-worshiper.png
   type: shot
   author: dehero
+  locating:
+    date: 2026-02-12
+    user: pyriglena
   engine: OpenMW
   tags:
     - statue
@@ -1313,9 +1325,13 @@
   title: Aboard
   titleRu: На борт
   placement: Outdoors
+  location: Tel Fyr
   content: store:/shots/2019-04-01-aboard.png
   type: shot
   author: dehero
+  locating:
+    date: 2026-02-12
+    user: pyriglena
   engine: OpenMW
   mark: B2
   posts:
@@ -2205,9 +2221,13 @@
   title: Imperial Candelabrum
   titleRu: Имперский канделябр
   placement: Indoors
+  location: Ebonheart, Hawkmoth Legion Garrison
   content: store:/shots/2019-10-12-imperial-candelabrum.png
   type: shot
   author: dehero
+  locating:
+    date: 2026-02-12
+    user: pyriglena
   engine: OpenMW
   tags:
     - candle

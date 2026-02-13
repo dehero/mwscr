@@ -1707,9 +1707,13 @@
   title: Camp by the Old Tree
   titleRu: Лагерь у старого дерева
   placement: Outdoors
+  location: Grazelands Region
   content: store:/shots/2022-07-27-camp-by-the-old-tree.png
   type: shot
   author: dehero
+  locating:
+    date: 2026-02-12
+    user: pyriglena
   engine: OpenMW
   mark: B2
   posts:
@@ -1986,9 +1990,13 @@
   title: Dark Spells
   titleRu: Тёмные заклинания
   placement: Indoors
+  location: Ashurnibibi, Shrine
   content: store:/shots/2022-08-02-dark-spells.png
   type: shot
   author: dehero
+  locating:
+    date: 2026-02-12
+    user: pyriglena
   engine: OpenMW
   tags:
     - potion
