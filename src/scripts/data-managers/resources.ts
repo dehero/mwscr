@@ -301,6 +301,8 @@ export async function extractResourceMediaMetadata(resource: Resource | string):
     case 'image/avif':
     case 'image/jpeg':
     case 'image/png':
+    case 'image/webp':
+    case 'image/bmp':
       try {
         return await sharp(data).metadata();
       } catch {
