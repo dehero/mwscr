@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file.
 
+## [2.16.0](https://github.com/dehero/mwscr/compare/v2.15.5...v2.16.0) (2026-02-13)
+
+### Features
+
+- implement locating field for posts and improve request field handling
+  ([3a556c0](https://github.com/dehero/mwscr/commit/3a556c06ec8b7779df828a911cb84fe5c981616c))
+
 ## [2.15.5](https://github.com/dehero/mwscr/compare/v2.15.4...v2.15.5) (2026-02-12)
 
 ### Bug Fixes
