@@ -42,7 +42,7 @@ export const PostViolation = picklist([
 export const PostViolations = union([PostViolation, array(PostViolation)]);
 export const PostAuthor = union([pipe(string(), nonEmpty()), array(pipe(string(), nonEmpty()))]);
 export const PostTag = pipe(string(), nonEmpty());
-export const PostNote = object({ date: date(), user: pipe(string(), nonEmpty()), text: pipe(string(), nonEmpty()) });
+export const PostNote = object({ date: date(), user: pipe(string(), nonEmpty()), text: optional(string()) });
 export const PostAnnouncement = pipe(string(), nonEmpty());
 
 export const Post = pipe(
@@ -593,17 +593,19 @@ export function mergePostContents(
 }
 
 export function mergePostNotes(action1: PostNote | undefined, action2: PostNote | undefined): PostNote | undefined {
+  let result;
+
   if (!action1) {
-    return action2;
-  }
-  if (!action2) {
-    return action1;
+    result = action2;
+  } else {
+    result = action1;
   }
 
-  return {
-    ...action1,
-    ...action2,
-  };
+  if (result) {
+    result.text = result.text || undefined;
+  }
+
+  return result;
 }
 
 export function mergePostLocations(

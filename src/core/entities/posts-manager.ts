@@ -130,7 +130,7 @@ export function createDraftId(creator: string | string[], date: Date, title: str
 }
 
 export function createRequestProposalId(request: RequestProposal) {
-  const hash = getRevisionHash(request.request.text);
+  const hash = getRevisionHash(request.request.text ?? '');
 
   return createDraftId(request.request.user, request.request.date, hash);
 }
