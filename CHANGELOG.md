@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file.
 
+## [2.16.1](https://github.com/dehero/mwscr/compare/v2.16.0...v2.16.1) (2026-02-13)
+
+### Bug Fixes
+
+- allow locating and request text to be empty
+  ([e838227](https://github.com/dehero/mwscr/commit/e838227a60d021723da02d8b817b3d0eaec0d26b))
+
 ## [2.16.0](https://github.com/dehero/mwscr/compare/v2.15.5...v2.16.0) (2026-02-13)
 
 ### Features
