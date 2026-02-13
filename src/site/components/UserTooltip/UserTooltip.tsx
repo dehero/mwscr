@@ -54,7 +54,7 @@ export const UserTooltip: Component<UserTooltipProps> = (props) => {
             </span>
           </Show>
           <Show when={located()}>
-            <span>Located: {authored()}</span>
+            <span>Located: {located()}</span>
           </Show>
           <Show when={requested()}>
             <span>Requested: {requested()}</span>
