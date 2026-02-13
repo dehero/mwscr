@@ -508,23 +508,23 @@
       id: DT3QcywFIwb
       mediaId: '18053086100437038'
       published: 2026-01-23-18-33-16
-      updated: 2026-02-06-19-38-00
+      updated: 2026-02-13-19-42-37
       followers: 1606
       likes: 61
     - service: vk
       id: 3025
       published: 2026-01-23-18-33-39
-      updated: 2026-02-06-19-38-06
+      updated: 2026-02-13-19-42-38
       followers: 1583
-      likes: 64
-      views: 821
+      likes: 65
+      views: 833
     - service: tg
       id: 1129
       published: 2026-01-23-18-33-43
-      updated: 2026-02-06-19-38-06
+      updated: 2026-02-13-19-42-34
       followers: 884
       likes: 64
-      views: 490
+      views: 523
       comments: !c |-
         CyCAkpPLQnm/ZwgZgACob2JlcmhvcnS20J3QtdC70L7RgiDRgNGD0LvQuNGCIZPLQnm+3IjHAACm
         a2V2eS1jpPCfpoAD
@@ -3141,11 +3141,24 @@
     - service: vk
       id: 3085
       published: 2026-02-13-18-49-37
+      updated: 2026-02-13-19-42-19
       followers: 1601
+      likes: 7
+      views: 48
+      reposts: 1
     - service: tg
       id: 1150
       published: 2026-02-13-18-49-43
+      updated: 2026-02-13-19-42-25
       followers: 888
+      likes: 29
+      views: 82
+      comments: !c CwuAkZPLQnnFhf/mAACma2V2eS1jpPCfpoAD
+    - service: ig
+      id: DUtdHwDF7wu
+      mediaId: '17847339300661393'
+      published: 2026-02-13-19-43-00
+      followers: 1609
 2024-09-25-the-hand-of-almalexia:
   title: The Hand of Almalexia
   titleRu: Рука Альмалексии

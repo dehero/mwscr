@@ -795,24 +795,24 @@
       id: DUq1NOAF345
       mediaId: '18039014204533786'
       published: 2026-02-12-19-15-43
-      updated: 2026-02-13-18-48-43
+      updated: 2026-02-13-19-42-27
       followers: 1608
       likes: 50
     - service: vk
       id: 3084
       published: 2026-02-12-19-15-49
-      updated: 2026-02-13-18-48-34
+      updated: 2026-02-13-19-42-20
       followers: 1600
-      likes: 40
-      views: 293
+      likes: 41
+      views: 297
       reposts: 2
     - service: tg
       id: 1149
       published: 2026-02-12-19-15-52
-      updated: 2026-02-13-18-48-40
+      updated: 2026-02-13-19-42-26
       followers: 890
-      likes: 50
-      views: 185
+      likes: 55
+      views: 209
       comments: !c |-
         izWAkpPLQnnFT7FPgACma2V2eS1jpPCfpoCTy0J5xTSS7YAArnBhaW5raWxsZXIxOTg22TrQn9Cw
         0LvQvtC80L3QuNGH0LXRgdGC0LLQviDQsiDRgdGC0YDQsNC90YMg0JLQvtGB0YLQvtC60LAuAw==
@@ -1080,16 +1080,16 @@
       id: DUjHJ6gmOGo
       mediaId: '18125981434541897'
       published: 2026-02-09-19-18-41
-      updated: 2026-02-12-19-14-56
+      updated: 2026-02-13-19-42-29
       followers: 1608
-      likes: 61
+      likes: 63
     - service: vk
       id: 3078
       published: 2026-02-09-19-18-47
-      updated: 2026-02-12-19-14-55
+      updated: 2026-02-13-19-42-30
       followers: 1598
-      likes: 63
-      views: 725
+      likes: 66
+      views: 878
       reposts: 2
       comments: !c |-
         G2cA+B2J6cYOWSx1h8hXRLUjfbKI4yxLsEks0mQPU7c954ckWE3RIIejwW6pRxwcOVotxLABB+4p
@@ -1097,10 +1097,10 @@
     - service: tg
       id: 1146
       published: 2026-02-09-19-18-52
-      updated: 2026-02-12-19-14-56
+      updated: 2026-02-13-19-42-26
       followers: 890
-      likes: 60
-      views: 272
+      likes: 62
+      views: 321
       comments: !c CwuAkZPLQnnEWc7HAACma2V2eS1jpPCfpoAD
 2016-12-10-somewhere-nearby-vivec:
   title: Somewhere Nearby Vivec

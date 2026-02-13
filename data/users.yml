@@ -579,7 +579,7 @@ artyom-melikhoff:
   profiles:
     - service: vk
       id: '299405149'
-      updated: 2026-02-12-21-33-27
+      updated: 2026-02-13-19-42-36
       username: artyom_melikhoff
       name: Артём Мелихов
       avatar: store:/avatars/vk-599a74fc.jpg
@@ -595,7 +595,7 @@ arya-stark:
   profiles:
     - service: vk
       id: '820702664'
-      updated: 2026-02-12-23-28-55
+      updated: 2026-02-13-19-42-30
       username: id820702664
       name: Арья Старк
       avatar: store:/avatars/vk-689aa89d.jpg
@@ -2941,7 +2941,7 @@ kevy-c:
   profiles:
     - service: tg
       id: '5067683234'
-      updated: 2026-02-13-18-48-43
+      updated: 2026-02-13-19-42-34
       accessHash: '-903667913374325979'
       username: Kevy_c
       name: Dash
@@ -3359,7 +3359,7 @@ maksim-solovev:
   profiles:
     - service: vk
       id: '658767771'
-      updated: 2026-02-12-19-15-02
+      updated: 2026-02-13-19-42-36
       username: id658767771
       name: Максим Соловьев
       avatar: store:/avatars/vk-77942374.jpg
@@ -4019,7 +4019,7 @@ oberhort:
   profiles:
     - service: tg
       id: '19254498'
-      updated: 2026-02-07-20-27-47
+      updated: 2026-02-13-19-42-32
       accessHash: '-564270059565994883'
       username: oberhort
       name: Игорь
@@ -4190,7 +4190,7 @@ painkiller1986:
   profiles:
     - service: tg
       id: '6565289507'
-      updated: 2026-02-13-18-48-43
+      updated: 2026-02-13-19-42-25
       accessHash: '6198356028119192921'
       username: Painkiller1986
       name: Сумерки
@@ -4875,7 +4875,7 @@ sergey-b-2:
   profiles:
     - service: vk
       id: '1077446394'
-      updated: 2026-02-12-23-28-56
+      updated: 2026-02-13-19-42-36
       username: id1077446394
       name: Сергей Б
       avatar: store:/avatars/vk-5a7c7910.jpg
@@ -6166,7 +6166,7 @@ vladkr114:
   profiles:
     - service: vk
       id: '210352858'
-      updated: 2026-02-12-19-14-56
+      updated: 2026-02-13-19-42-32
       username: vladkr114
       name: Влад Крамской
       avatar: store:/avatars/vk-dfe1d842.jpg
