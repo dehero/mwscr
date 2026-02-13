@@ -12,6 +12,7 @@ const USER_NAME_SKIP_AS_ID_REGEX = /^(__deleted__.+|club\d+|id\d+)$/;
 const USER_TITLE_CLEANUP_REGEX = /([a-z0-9].*[a-z0-9.\)>])/gi;
 
 export const USER_DEFAULT_AUTHOR = 'dehero';
+// TODO: this name cannot be used by anyone else
 export const USER_UNKNOWN = 'anonimous';
 
 export const UserRole = picklist([
@@ -23,6 +24,7 @@ export const UserRole = picklist([
   'follower',
   'beginner',
   'foreigner',
+  'locator',
 ]);
 export const UserProfileType = picklist(['chat', 'channel', 'bot']);
 

@@ -198,6 +198,7 @@ export const HomePage = (): JSX.Element => {
                   class={styles.postHighlights}
                   items={[
                     { label: 'Last Proposal', primary: true, selection: data().lastProposedPostInfo },
+                    { label: 'Last Located Post', selection: data().lastLocatedPostInfo },
                     { label: 'Last Pending Request', selection: data().lastRequestedPostInfo },
                   ]}
                 />

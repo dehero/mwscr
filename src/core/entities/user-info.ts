@@ -15,6 +15,7 @@ export interface UserInfo {
   title: string;
   titleRu?: string;
   authored?: PostsUsage;
+  located?: PostsUsage;
   requested?: PostsUsage;
   commented?: PostsUsage;
   likes: number;
@@ -61,6 +62,7 @@ export async function createUserInfos(dataManager: DataManager): Promise<UserInf
 
       const authored = await createPostsUsage(dataManager.postsManagers, 'getAuthorsUsageStats', id);
       const drawn = await createPostsUsage(dataManager.postsManagers, 'getDrawersUsageStats', id);
+      const located = await createPostsUsage(dataManager.postsManagers, 'getLocatorsUsageStats', id);
       const requested = await createPostsUsage(dataManager.postsManagers, 'getRequesterUsageStats', id);
       const commented = await createPostsUsage(dataManager.postsManagers, 'getCommentersUsageStats', id);
 
@@ -82,6 +84,10 @@ export async function createUserInfos(dataManager: DataManager): Promise<UserInf
 
       if (drawn?.posts || drawn?.extras || drawn?.drafts) {
         roles.push('drawer');
+      }
+
+      if (located?.posts) {
+        roles.push('locator');
       }
 
       if (requested?.posts || requested?.drafts) {
@@ -115,6 +121,7 @@ export async function createUserInfos(dataManager: DataManager): Promise<UserInf
         title: getUserEntryTitle(entry),
         titleRu: getUserEntryTitleRu(entry),
         authored,
+        located,
         requested,
         commented,
         likes,
@@ -148,11 +155,13 @@ export function compareUserInfosByContribution(direction: SortDirection): UserIn
   return direction === 'asc'
     ? (a, b) =>
         comparePostsUsages(a.authored, b.authored) ||
+        comparePostsUsages(a.located, b.located) ||
         comparePostsUsages(a.requested, b.requested) ||
         comparePostsUsages(a.commented, b.commented) ||
         byId(a, b)
     : (a, b) =>
         comparePostsUsages(b.authored, a.authored) ||
+        comparePostsUsages(b.located, a.located) ||
         comparePostsUsages(b.requested, a.requested) ||
         comparePostsUsages(b.commented, a.commented) ||
         byId(b, a);

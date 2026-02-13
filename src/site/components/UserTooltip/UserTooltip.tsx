@@ -23,6 +23,7 @@ export const UserTooltip: Component<UserTooltipProps> = (props) => {
   );
 
   const authored = () => postsUsageToString(userInfo()?.authored);
+  const located = () => postsUsageToString(userInfo()?.located);
   const requested = () => postsUsageToString(userInfo()?.requested);
   const commented = () => postsUsageToString(userInfo()?.commented);
 
@@ -51,6 +52,9 @@ export const UserTooltip: Component<UserTooltipProps> = (props) => {
               </Show>
               {authored()}
             </span>
+          </Show>
+          <Show when={located()}>
+            <span>Located: {authored()}</span>
           </Show>
           <Show when={requested()}>
             <span>Requested: {requested()}</span>

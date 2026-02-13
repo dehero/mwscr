@@ -42,7 +42,7 @@ export const PostViolation = picklist([
 export const PostViolations = union([PostViolation, array(PostViolation)]);
 export const PostAuthor = union([pipe(string(), nonEmpty()), array(pipe(string(), nonEmpty()))]);
 export const PostTag = pipe(string(), nonEmpty());
-export const PostRequest = object({ date: date(), user: pipe(string(), nonEmpty()), text: pipe(string(), nonEmpty()) });
+export const PostNote = object({ date: date(), user: pipe(string(), nonEmpty()), text: pipe(string(), nonEmpty()) });
 export const PostAnnouncement = pipe(string(), nonEmpty());
 
 export const Post = pipe(
@@ -61,7 +61,9 @@ export const Post = pipe(
     tags: optional(array(PostTag)),
     engine: optional(PostEngine),
     addon: optional(PostAddon),
-    request: optional(PostRequest),
+    locating: optional(PostNote),
+    request: optional(PostNote),
+    locationNote: optional(PostNote),
     mark: optional(PostMark),
     violation: optional(PostViolations),
     announcement: optional(PostAnnouncement),
@@ -97,7 +99,7 @@ export type PostViolation = InferOutput<typeof PostViolation>;
 export type PostViolations = InferOutput<typeof PostViolations>;
 export type PostAuthor = InferOutput<typeof PostAuthor>;
 export type PostTag = InferOutput<typeof PostTag>;
-export type PostRequest = InferOutput<typeof PostRequest>;
+export type PostNote = InferOutput<typeof PostNote>;
 
 export type Post = InferOutput<typeof Post>;
 
@@ -544,7 +546,8 @@ export function mergePostWith(post: Post, withPost: Post) {
   post.author = mergeAuthors(post.author, withPost.author);
   post.location = mergePostLocations(post.location, withPost.location);
   post.placement = mergePostPlacements(post.placement, withPost.placement);
-  post.request = mergePostRequests(post.request, withPost.request);
+  post.locating = mergePostNotes(post.locating, withPost.locating);
+  post.request = mergePostNotes(post.request, withPost.request);
   post.mark = post.mark || withPost.mark;
   post.violation = mergePostViolations(post.violation, withPost.violation);
   post.posts = mergePublications(post.posts, withPost.posts);
@@ -589,10 +592,7 @@ export function mergePostContents(
   return result.length > 0 ? (result.length === 1 ? result[0] : result) : undefined;
 }
 
-export function mergePostRequests(
-  action1: PostRequest | undefined,
-  action2: PostRequest | undefined,
-): PostRequest | undefined {
+export function mergePostNotes(action1: PostNote | undefined, action2: PostNote | undefined): PostNote | undefined {
   if (!action1) {
     return action2;
   }

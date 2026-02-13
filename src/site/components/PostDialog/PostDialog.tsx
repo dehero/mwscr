@@ -18,7 +18,7 @@ import type { Option } from '../../../core/entities/option.js';
 import { EMPTY_OPTION } from '../../../core/entities/option.js';
 import type { Patch } from '../../../core/entities/patch.js';
 import { patchObject } from '../../../core/entities/patch.js';
-import type { Post, PostContent, PostRequest } from '../../../core/entities/post.js';
+import type { Post, PostContent, PostNote } from '../../../core/entities/post.js';
 import {
   mergeAuthors,
   mergePostLocations,
@@ -82,6 +82,7 @@ export const postDialogPresetDescriptors = Object.freeze<Record<PostDialogPreset
       'engine',
       'addon',
       'author',
+      'locating',
       'tags',
       'description',
       'descriptionRu',
@@ -94,7 +95,7 @@ export const postDialogPresetDescriptors = Object.freeze<Record<PostDialogPreset
     ],
     features: ['useColumnLayout', 'addContent'],
   },
-  locate: { title: () => 'Locate Post', fields: ['location', 'placement'], features: ['previewContent'] },
+  locate: { title: () => 'Locate Post', fields: ['location', 'placement', 'locating'], features: ['previewContent'] },
   precise: {
     title: () => 'Precise Post',
     fields: [
@@ -103,6 +104,7 @@ export const postDialogPresetDescriptors = Object.freeze<Record<PostDialogPreset
       'engine',
       'addon',
       'author',
+      'locating',
       'tags',
       'description',
       'descriptionRu',
@@ -314,13 +316,23 @@ export const PostDialog: Component<PostDialogProps> = (props) => {
     snapshot: PostContent | undefined,
     trash: PostContent | undefined,
   ) => setPatch({ ...patch(), content, snapshot, trash });
-  const setPostRequest = (request: Partial<PostRequest>) => {
+
+  const setPostRequest = (request: Partial<PostNote>) => {
     const oldRequest = post().request;
     const user = 'user' in request ? request.user : oldRequest?.user;
     const date = ('date' in request ? request.date : oldRequest?.date) || new Date();
     const text = ('text' in request ? request.text : oldRequest?.text) || '';
 
     setPatchField('request', !user ? undefined : { user, date, text });
+  };
+
+  const setPostLocating = (locating: Partial<PostNote>) => {
+    const oldLocating = post().locating;
+    const user = 'user' in locating ? locating.user : oldLocating?.user;
+    const date = ('date' in locating ? locating.date : oldLocating?.date) || new Date();
+    const text = ('text' in locating ? locating.text : oldLocating?.text) || '';
+
+    setPatchField('locating', !user ? undefined : { user, date, text });
   };
 
   const setPostAuthor = (index: number, author: string | undefined) => {
@@ -339,6 +351,7 @@ export const PostDialog: Component<PostDialogProps> = (props) => {
 
   const setPostLocation = (index: number, location: string | undefined) => {
     const locations = asArray(post().location);
+
     if (location) {
       if (index < locations.length) {
         locations[index] = location;
@@ -348,7 +361,16 @@ export const PostDialog: Component<PostDialogProps> = (props) => {
     } else {
       locations.splice(index, 1);
     }
-    setPatchField('location', mergePostLocations(locations));
+
+    const newLocation = mergePostLocations(locations);
+
+    if (!post().location && newLocation) {
+      setPostLocating({ user: USER_UNKNOWN });
+    } else if (post().location && !newLocation) {
+      setPostLocating({});
+    }
+
+    setPatchField('location', newLocation);
   };
 
   const setPostViolation = (index: number, violation: PostViolation | undefined) => {
@@ -380,7 +402,11 @@ export const PostDialog: Component<PostDialogProps> = (props) => {
     getLocationOptions,
   );
   const [userOptions] = createResource(
-    () => props.show && (preset().fields.includes('author') || preset().fields.includes('request')),
+    () =>
+      props.show &&
+      (preset().fields.includes('author') ||
+        preset().fields.includes('locating') ||
+        preset().fields.includes('request')),
     getUserOptions,
   );
 
@@ -559,6 +585,41 @@ export const PostDialog: Component<PostDialogProps> = (props) => {
               </Label>
             </Show>
 
+            <Show when={asArray(post().location).length > 0 && preset().fields.includes('locating')}>
+              <Label label="Located By" vertical>
+                <fieldset class={clsx(styles.fieldset, styles.locating)}>
+                  <div class={styles.selectWrapper}>
+                    <Select
+                      options={userOptions() ?? []}
+                      name="locating[user]"
+                      value={post().locating?.user}
+                      onChange={(user) => setPostLocating({ ...post().locating, user })}
+                      class={styles.select}
+                    />
+                  </div>
+
+                  <Show when={post().locating?.user}>
+                    <DatePicker
+                      // TODO: implement name="locating[date]"
+                      value={post().locating?.date}
+                      period={false}
+                      onChange={(date) => setPostLocating({ date })}
+                      emptyLabel="Pick Locating Date"
+                    />
+
+                    <Input
+                      name="locating[text]"
+                      value={post().locating?.text}
+                      onChange={(text) => setPostLocating({ text })}
+                      multiline
+                      rows={3}
+                      class={styles.locatingText}
+                    />
+                  </Show>
+                </fieldset>
+              </Label>
+            </Show>
+
             <Show
               when={
                 preset().fields.includes('engine') ||
@@ -672,11 +733,11 @@ export const PostDialog: Component<PostDialogProps> = (props) => {
             </Show>
 
             <Show when={preset().fields.includes('request')}>
-              <Label label="Requester" vertical>
+              <Label label="Requested By" vertical>
                 <fieldset class={clsx(styles.fieldset, styles.request)}>
                   <div class={styles.selectWrapper}>
                     <Select
-                      options={[EMPTY_OPTION, ...(userOptions() ?? [])]}
+                      options={userOptions() ?? []}
                       name="request[user]"
                       value={post().request?.user}
                       onChange={(user) => setPostRequest({ ...post().request, user })}

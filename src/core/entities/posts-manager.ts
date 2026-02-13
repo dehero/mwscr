@@ -17,7 +17,7 @@ import {
   PostAuthor,
   PostContent,
   postMarkDescriptors,
-  PostRequest,
+  PostNote,
   PostTitle,
   PostTitleRu,
   PostType,
@@ -40,7 +40,7 @@ export const RejectedProposal = object({
   type: pipe(PostType, notValue('outtakes')),
 });
 export const DraftProposal = object({ ...Post.entries, content: PostContent, author: PostAuthor });
-export const RequestProposal = object({ ...Post.entries, request: PostRequest });
+export const RequestProposal = object({ ...Post.entries, request: PostNote });
 
 export const Reject = union([ViolatingProposal, RejectedProposal]);
 export const Draft = union([DraftProposal, RequestProposal]);
@@ -261,6 +261,20 @@ export abstract class PostsManager<TPost extends Post = Post> extends ListManage
         const drawer = getPostDrawer(post);
         if (drawer) {
           stats.set(drawer, (stats.get(drawer) || 0) + 1);
+        }
+      }
+
+      return stats;
+    });
+  }
+
+  async getLocatorsUsageStats(): Promise<ListReaderStats> {
+    return this.createCache(this.getLocatorsUsageStats.name, async () => {
+      const stats = new Map<string, number>();
+
+      for await (const [, post] of this.readAllEntries(true)) {
+        if (post.locating?.user) {
+          stats.set(post.locating.user, (stats.get(post.locating.user) || 0) + 1);
         }
       }
 

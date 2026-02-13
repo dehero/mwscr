@@ -12,8 +12,8 @@ import type {
   PostEngine,
   PostLocation,
   PostMark,
+  PostNote,
   PostPlacement,
-  PostRequest,
   PostType,
   PostViolation,
   PostViolations,
@@ -45,12 +45,15 @@ export interface PostInfo {
   snapshot?: PostContent;
   type: PostType;
   authorOptions: Option[];
+  locatorOption?: Option;
+  // TODO: don't include full note
+  locating?: PostNote;
   tags?: string[];
   engine?: PostEngine;
   addon?: PostAddon;
   requesterOption?: Option;
   // TODO: don't include request.user, use requesterOption
-  request?: PostRequest;
+  request?: PostNote;
   mark?: PostMark;
   violation?: PostViolations;
   published: boolean;
@@ -64,6 +67,8 @@ export interface PostInfo {
   managerName: PostsManagerName;
   status?: ListReaderItemStatus;
   created?: Date;
+  located?: Date;
+  requested?: Date;
 }
 
 export type PostInfoComparator = (a: PostInfo, b: PostInfo) => number;
@@ -80,6 +85,8 @@ export const selectPostInfosSortOptions = [
   { value: 'engagement', label: 'Engagement', fn: comparePostInfosByEngagement },
   { value: 'rating', label: 'Rating', fn: comparePostInfosByRating },
   { value: 'mark', label: "Editor's Mark", fn: comparePostInfosByMark },
+  { value: 'located', label: 'Located', fn: comparePostInfosByLocated },
+  { value: 'requested', label: 'Requested', fn: comparePostInfosByRequested },
 ] as const satisfies SelectPostInfoSortOption[];
 
 export type SelectPostInfosSortKey = (typeof selectPostInfosSortOptions)[number]['value'];
@@ -91,6 +98,7 @@ export interface SelectPostInfosParams {
   placement?: PostPlacement | typeof ANY_OPTION.value | typeof NONE_OPTION.value;
   search?: string;
   author?: string;
+  locator?: string;
   requester?: string;
   mark?: PostMark;
   violation?: PostViolation | typeof ANY_OPTION.value | typeof NONE_OPTION.value;
@@ -144,6 +152,11 @@ export async function createPostInfos(managerName: string, dataManager: DataMana
         snapshot: post.snapshot,
         type: post.type,
         authorOptions: (await dataManager.users.getEntries(asArray(post.author))).map(createUserOption),
+        locatorOption: post.locating?.user
+          ? createUserOption(await dataManager.users.getEntry(post.locating.user))
+          : undefined,
+        located: post.locating?.date,
+        locating: post.locating,
         tags: post.tags,
         engine: post.engine,
         addon: post.addon,
@@ -225,6 +238,22 @@ export function comparePostInfosByDate(direction: SortDirection): PostInfoCompar
     : (a, b) => (getPostDateById(b.id)?.getTime() || 0) - (getPostDateById(a.id)?.getTime() || 0) || byId(a, b);
 }
 
+export function comparePostInfosByLocated(direction: SortDirection): PostInfoComparator {
+  const byId = comparePostInfosById(direction);
+
+  return direction === 'asc'
+    ? (a, b) => (a.located?.getTime() || 0) - (b.located?.getTime() || 0) || byId(a, b)
+    : (a, b) => (b.located?.getTime() || 0) - (a.located?.getTime() || 0) || byId(a, b);
+}
+
+export function comparePostInfosByRequested(direction: SortDirection): PostInfoComparator {
+  const byId = comparePostInfosById(direction);
+
+  return direction === 'asc'
+    ? (a, b) => (a.requested?.getTime() || 0) - (b.requested?.getTime() || 0) || byId(a, b)
+    : (a, b) => (b.requested?.getTime() || 0) - (a.requested?.getTime() || 0) || byId(a, b);
+}
+
 export const selectPostInfos = (
   postInfos: PostInfo[],
   params: SelectPostInfosParams,
@@ -271,6 +300,10 @@ export const selectPostInfos = (
         (typeof params.type === 'undefined' || info.type === params.type) &&
         (typeof params.tag === 'undefined' || info.tags?.includes(params.tag)) &&
         (typeof params.author === 'undefined' || info.authorOptions.some((option) => option.value === params.author)) &&
+        (typeof params.locator === 'undefined' ||
+          (params.locator === ANY_OPTION.value && info.locatorOption) ||
+          (params.locator === NONE_OPTION.value && !info.locatorOption) ||
+          info.locatorOption?.value === params.locator) &&
         (typeof params.location === 'undefined' ||
           (params.location === ANY_OPTION.value && info.location) ||
           (params.location === NONE_OPTION.value && !info.location) ||
@@ -374,6 +407,10 @@ export function selectPostInfosResultToString(count: number, params: SelectPostI
 
   if (params.author) {
     result.push(`by "${params.author}"`);
+  }
+
+  if (params.locator && params.locator !== ANY_OPTION.value && params.locator !== NONE_OPTION.value) {
+    result.push(`located by "${params.locator}"`);
   }
 
   if (params.requester && params.requester !== ANY_OPTION.value && params.requester !== NONE_OPTION.value) {

@@ -155,6 +155,25 @@ export const UserPage = (): JSX.Element => {
                 />
               </Show>
 
+              <Show when={!isPostsUsageEmpty(userInfo().located)}>
+                <Divider />
+
+                <Table
+                  class={styles.attributes}
+                  label="Located"
+                  rows={PostsManagerName.options.map((name) => ({
+                    label: postsManagerDescriptors[name].title,
+                    value: userInfo().located?.[name],
+                    link: postsRoute.createUrl({
+                      managerName: name,
+                      locator: id(),
+                      original: 'true',
+                      sort: 'located,desc',
+                    }),
+                  }))}
+                />
+              </Show>
+
               <Show when={!isPostsUsageEmpty(userInfo().requested)}>
                 <Divider />
 
@@ -164,7 +183,12 @@ export const UserPage = (): JSX.Element => {
                   rows={PostsManagerName.options.map((name) => ({
                     label: postsManagerDescriptors[name].title,
                     value: userInfo().requested?.[name],
-                    link: postsRoute.createUrl({ managerName: name, requester: id() }),
+                    link: postsRoute.createUrl({
+                      managerName: name,
+                      requester: id(),
+                      original: 'true',
+                      sort: 'requested,desc',
+                    }),
                   }))}
                 />
               </Show>
@@ -262,6 +286,7 @@ export const UserPage = (): JSX.Element => {
                   data().lastFulfilledPostInfo ||
                   data().lastExtraPostInfos.length > 0 ||
                   data().lastProposedPostInfo ||
+                  data().lastLocatedPostInfo ||
                   data().lastRequestedPostInfo ||
                   data().lastRejectedPostInfo ||
                   data().lastRejectedRequestInfo
@@ -297,6 +322,7 @@ export const UserPage = (): JSX.Element => {
                   class={styles.postHighlights}
                   items={[
                     { label: 'Last Proposal', primary: true, selection: data().lastProposedPostInfo },
+                    { label: 'Last Located Post', selection: data().lastLocatedPostInfo },
                     { label: 'Last Pending Request', selection: data().lastRequestedPostInfo },
                     { label: 'Last Rejected Proposal', selection: data().lastRejectedPostInfo },
                     { label: 'Last Rejected Request', selection: data().lastRejectedRequestInfo },

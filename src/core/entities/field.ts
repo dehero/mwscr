@@ -15,6 +15,7 @@ export const Field = picklist([
   'trash',
   'type',
   'author',
+  'locating',
   'created',
   'engine',
   'addon',

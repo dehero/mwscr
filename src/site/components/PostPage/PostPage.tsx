@@ -463,7 +463,27 @@ export const PostPage = (): JSX.Element => {
                     }),
                   ),
                   {
-                    label: 'Requester',
+                    label: 'Located By',
+                    value: postInfo().locatorOption
+                      ? () => (
+                          <>
+                            <UserAvatar
+                              image={postInfo().locatorOption!.image}
+                              title={postInfo().locatorOption!.label ?? postInfo().locatorOption!.value ?? '?'}
+                              size="small"
+                              class={styles.avatar}
+                            />
+                            {postInfo().locatorOption!.label}
+                          </>
+                        )
+                      : undefined,
+                    link: postInfo().locatorOption
+                      ? userRoute.createUrl({ id: postInfo().locatorOption!.value ?? '' })
+                      : undefined,
+                    tooltip: (ref) => <UserTooltip forRef={ref} user={postInfo().locatorOption!.value} showAvatar />,
+                  },
+                  {
+                    label: 'Requested By',
                     value: postInfo().requesterOption
                       ? () => (
                           <>
@@ -629,6 +649,24 @@ export const PostPage = (): JSX.Element => {
                     readonly
                   />
                 </Frame>
+              </Show>
+
+              <Show when={postInfo().locating}>
+                {(locating) => (
+                  <div class={styles.locating}>
+                    <Show when={locating().text}>
+                      <p class={styles.requestText}>{locating().text}</p>
+                    </Show>
+
+                    <Show when={postInfo().locatorOption}>
+                      {(option) => (
+                        <p class={styles.requestUser}>
+                          Located by {option().label}, {formatDate(locating().date)}
+                        </p>
+                      )}
+                    </Show>
+                  </div>
+                )}
               </Show>
 
               <Show when={postInfo().publishableErrors}>

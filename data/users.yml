@@ -467,6 +467,9 @@ anonim:
       updated: 2026-02-10-18-02-01
       accessHash: '-3557204299452739678'
       name: Аноним
+anonimous:
+  name: Anonimous
+  nameRu: Безымянный
 anonym201904:
   profiles:
     - service: ig

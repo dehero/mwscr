@@ -12,6 +12,7 @@ export interface HomePageData {
   lastOriginalPostInfo?: PostInfoSelection;
   lastFulfilledPostInfo?: PostInfoSelection;
   lastProposedPostInfo?: PostInfoSelection;
+  lastLocatedPostInfo?: PostInfoSelection;
   lastRequestedPostInfo?: PostInfoSelection;
   lastExtraPostInfos: Array<[PostType, PostInfoSelection | undefined]>;
   totalLikes: number;
@@ -68,9 +69,14 @@ export async function getHomePageData(dataManager: DataManager): Promise<HomePag
       sortKey: 'date',
       sortDirection: 'desc',
     }),
+    lastLocatedPostInfo: await dataManager.selectPostInfo('posts', {
+      locator: 'any',
+      sortKey: 'located',
+      sortDirection: 'desc',
+    }),
     lastRequestedPostInfo: await dataManager.selectPostInfo('drafts', {
       requester: 'any',
-      sortKey: 'date',
+      sortKey: 'requested',
       sortDirection: 'desc',
     }),
     lastExtraPostInfos: (

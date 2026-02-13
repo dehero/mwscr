@@ -71,6 +71,17 @@
   margin: 0;
 }
 
+.locating {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  justify-content: center;
+  flex-grow: 1;
+  text-align: center;
+  text-wrap: balance;
+  gap: 4px;
+}
+
 .main {
   grid-area: main;
   display: flex;

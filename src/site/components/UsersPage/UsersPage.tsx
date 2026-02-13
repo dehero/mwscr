@@ -50,6 +50,11 @@ const presets = [
     searchParams: { sort: 'contribution,desc', role: 'author' },
   },
   {
+    value: 'locators',
+    label: 'Locators',
+    searchParams: { sort: 'contribution,desc', role: 'locator' },
+  },
+  {
     value: 'requesters',
     label: 'Requesters',
     searchParams: { sort: 'contribution,desc', role: 'requester' },

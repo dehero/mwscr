@@ -170,7 +170,7 @@ export const PostTooltip: Component<PostTooltipProps> = (props) => {
       <Show when={local.postInfo.requesterOption}>
         {(option) => (
           <span class={styles.author}>
-            {'Requester: '}
+            {'Requested By: '}
             <UserAvatar
               image={option().image}
               title={option().label ?? option().value ?? '?'}
@@ -183,6 +183,20 @@ export const PostTooltip: Component<PostTooltipProps> = (props) => {
       </Show>
       <Show when={local.postInfo.location}>
         <span class={styles.location}>Location: {asArray(local.postInfo.location).join(', ')}</span>
+      </Show>
+      <Show when={local.postInfo.locatorOption}>
+        {(option) => (
+          <span class={styles.author}>
+            {'Located By: '}
+            <UserAvatar
+              image={option().image}
+              title={option().label ?? option().value ?? '?'}
+              size="small"
+              class={styles.avatar}
+            />
+            {option().label}
+          </span>
+        )}
       </Show>
       <Show when={local.postInfo.placement}>
         <span class={styles.placement}>Placement: {local.postInfo.placement}</span>

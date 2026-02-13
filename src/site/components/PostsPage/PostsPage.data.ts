@@ -14,6 +14,7 @@ export interface PostsPageSearchParams {
   location?: string;
   placement?: string;
   author?: string;
+  locator?: string;
   requester?: string;
   mark?: string;
   violation?: string;
@@ -33,6 +34,7 @@ export interface PostsPageParams extends SiteRouteParams, PostsPageSearchParams 
 
 export interface PostsPageData {
   authorInfos: UserInfo[];
+  locatorInfos: UserInfo[];
   requesterInfos: UserInfo[];
   locationInfos: LocationInfo[];
   tagInfos: TagInfo[];
@@ -51,6 +53,7 @@ export function getPostsPageSearchParamsFromSelectionParams(
     location: unknownToString(params.location),
     placement: unknownToString(params.placement),
     author: unknownToString(params.author),
+    locator: unknownToString(params.locator),
     requester: unknownToString(params.requester),
     mark: unknownToString(params.mark),
     violation: unknownToString(params.violation),
@@ -75,6 +78,7 @@ export async function getPostsPageData(dataManager: DataManager, params: PostsPa
 
   return {
     authorInfos: userInfos.filter((info) => info.authored?.[params.managerName]),
+    locatorInfos: userInfos.filter((info) => info.located?.[params.managerName]),
     requesterInfos: userInfos.filter((info) => info.requested?.[params.managerName]),
     locationInfos: locationInfos.filter((info) => info.discovered?.[params.managerName]),
     tagInfos: tagInfos.filter((info) => info.tagged?.[params.managerName]),

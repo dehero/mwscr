@@ -27,6 +27,7 @@ const emptySearchParams: PostsPageSearchParams = {
   location: undefined,
   placement: undefined,
   author: undefined,
+  locator: undefined,
   requester: undefined,
   mark: undefined,
   violation: undefined,
@@ -75,6 +76,7 @@ export type FilterKey = keyof Pick<
   | 'tag'
   | 'location'
   | 'author'
+  | 'locator'
   | 'mark'
   | 'violation'
   | 'publishable'
@@ -126,6 +128,7 @@ export function usePostsPageParameters(routeInfo: SiteRouteInfo<PostsPageParams,
   const tag = () => searchParams().tag;
   const location = () => searchParams().location;
   const author = () => searchParams().author;
+  const locator = () => searchParams().locator;
   const requester = () => searchParams().requester;
   const mark = () => safeParseSchema(PostMark, searchParams().mark);
   const violation = () =>
@@ -162,6 +165,7 @@ export function usePostsPageParameters(routeInfo: SiteRouteInfo<PostsPageParams,
   const setLocation = (location: string | undefined) =>
     setSearchParams({ location, original: Boolean(location) || undefined });
   const setAuthor = (author: string | undefined) => setSearchParams({ author });
+  const setLocator = (locator: string | undefined) => setSearchParams({ locator });
   const setRequester = (requester: string | undefined) => setSearchParams({ requester });
   const setMark = (mark: PostMark | undefined) => setSearchParams({ mark });
   const setViolation = (violation: SelectPostInfosParams['violation'] | undefined) => setSearchParams({ violation });
@@ -189,6 +193,7 @@ export function usePostsPageParameters(routeInfo: SiteRouteInfo<PostsPageParams,
     tag,
     location,
     author,
+    locator,
     requester,
     mark,
     violation,
@@ -207,6 +212,7 @@ export function usePostsPageParameters(routeInfo: SiteRouteInfo<PostsPageParams,
     setTag,
     setLocation,
     setAuthor,
+    setLocator,
     setRequester,
     setMark,
     setViolation,

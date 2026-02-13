@@ -110,6 +110,17 @@ export const Parameters: Component<ParametersProps> = (props) => {
       }),
     ),
   ]);
+  const locatorOptions = createMemo((): Option[] => [
+    ALL_OPTION,
+    ANY_OPTION,
+    NONE_OPTION,
+    ...props.routeInfo.data().locatorInfos.map(
+      (info): Option => ({
+        label: `${info.title} (${info.located?.[props.routeInfo.params().managerName]})`,
+        value: info.id,
+      }),
+    ),
+  ]);
   const requesterOptions = createMemo((): Option[] => [
     ALL_OPTION,
     ANY_OPTION,
@@ -373,8 +384,22 @@ export const Parameters: Component<ParametersProps> = (props) => {
                 </Label>
               </Show>
 
+              <Show when={!props.routeInfo.meta().filters || props.routeInfo.meta().filters!.includes('locator')}>
+                <Label label="Located By" labelClass={styles.labelWithFixedWidth}>
+                  <div class={styles.selectWrapper}>
+                    <Select
+                      name="locator"
+                      options={locatorOptions()}
+                      value={props.parameters.locator()}
+                      onChange={props.parameters.setLocator}
+                      class={styles.select}
+                    />
+                  </div>
+                </Label>
+              </Show>
+
               <Show when={!props.routeInfo.meta().filters || props.routeInfo.meta().filters!.includes('requester')}>
-                <Label label="Requester" labelClass={styles.labelWithFixedWidth}>
+                <Label label="Requested By" labelClass={styles.labelWithFixedWidth}>
                   <div class={styles.selectWrapper}>
                     <Select
                       name="requester"

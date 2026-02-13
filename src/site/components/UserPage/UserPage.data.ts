@@ -19,6 +19,7 @@ export interface UserPageData {
   lastFulfilledPostInfo?: PostInfoSelection;
   lastProposedPostInfo?: PostInfoSelection;
   lastRequestedPostInfo?: PostInfoSelection;
+  lastLocatedPostInfo?: PostInfoSelection;
   lastRejectedPostInfo?: PostInfoSelection;
   lastRejectedRequestInfo?: PostInfoSelection;
   editorsChoicePostInfo?: PostInfoSelection;
@@ -88,9 +89,14 @@ export async function getUserPageData(dataManager: DataManager, params: UserRout
       sortKey: 'date',
       sortDirection: 'desc',
     }),
+    lastLocatedPostInfo: await dataManager.selectPostInfo('posts', {
+      locator: params.id,
+      sortKey: 'located',
+      sortDirection: 'desc',
+    }),
     lastRequestedPostInfo: await dataManager.selectPostInfo('drafts', {
       requester: params.id,
-      sortKey: 'date',
+      sortKey: 'requested',
       sortDirection: 'desc',
     }),
     lastRejectedPostInfo: await dataManager.selectPostInfo('rejects', {

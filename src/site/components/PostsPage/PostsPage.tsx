@@ -94,6 +94,7 @@ export const PostsPage = (): JSX.Element => {
     location: parameters.location(),
     tag: parameters.tag(),
     author: parameters.author(),
+    locator: parameters.locator(),
     requester: parameters.requester(),
     mark: parameters.mark(),
     violation: parameters.violation(),
