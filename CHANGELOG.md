@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file.
 
+## [2.16.2](https://github.com/dehero/mwscr/compare/v2.16.1...v2.16.2) (2026-02-13)
+
+### Bug Fixes
+
+- **site:** show located posts count on user tooltip
+  ([a796cd9](https://github.com/dehero/mwscr/commit/a796cd94b81dd99a17e2a6d20d4b0cfcd1689dcd))
+
 ## [2.16.1](https://github.com/dehero/mwscr/compare/v2.16.0...v2.16.1) (2026-02-13)
 
 ### Bug Fixes
