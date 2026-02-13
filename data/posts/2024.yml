@@ -3141,10 +3141,10 @@
     - service: vk
       id: 3085
       published: 2026-02-13-18-49-37
-      updated: 2026-02-13-21-35-08
+      updated: 2026-02-13-22-33-21
       followers: 1601
-      likes: 19
-      views: 133
+      likes: 21
+      views: 149
       reposts: 1
       comments: !c |-
         CyeAkZPLQnnFidcNgACwYXJ0eW9tLW1lbGlraG9mZtkxVGhlIHRvd2VycyBhbmQgdGhlIGNhc3Rs
@@ -3152,18 +3152,18 @@
     - service: tg
       id: 1150
       published: 2026-02-13-18-49-43
-      updated: 2026-02-13-21-35-09
+      updated: 2026-02-13-22-33-22
       followers: 888
-      likes: 37
-      views: 112
+      likes: 39
+      views: 120
       comments: !c CwuAkZPLQnnFhf/mAACma2V2eS1jpPCfpoAD
     - service: ig
       id: DUtdHwDF7wu
       mediaId: '17847339300661393'
       published: 2026-02-13-19-43-00
-      updated: 2026-02-13-21-35-10
+      updated: 2026-02-13-22-33-24
       followers: 1609
-      likes: 28
+      likes: 32
       comments: !c ixeAkZPLQnnFiapgAACrZGVsYW5vc3BpZXO4QGRyYXZlbmp2IENhbGRlcmEg4p2k77iPAw==
 2024-09-25-the-hand-of-almalexia:
   title: The Hand of Almalexia
