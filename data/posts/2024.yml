@@ -2087,11 +2087,18 @@
   title: Slaves Sleep Peacefully in Their Shacks
   titleRu: Рабы мирно спят в своих хижинах
   placement: Outdoors
+  location:
+    - Ascadian Isles Region
+    - Ules Manor, Slave Shack
   content: store:/shots/2024-05-08-slaves-sleep-peacefully-in-their-shacks.png
   type: shot
   author:
     - natty
     - dehero
+  locating:
+    date: 2026-02-13-16-47-23
+    user: pyriglena
+    text: ''
   engine: OpenMW
   tags:
     - night
@@ -2378,11 +2385,16 @@
   title: Place to Sleep
   titleRu: Место для сна
   placement: Indoors
+  location: 'Suran, Goldyn Belaram: Pawnbroker'
   content: store:/shots/2024-05-20-place-to-sleep.png
   type: shot
   author:
     - darkness-rifho
     - dehero
+  locating:
+    date: 2026-02-13-16-40-31
+    user: pyriglena
+    text: ''
   tags:
     - bed
   mark: B2

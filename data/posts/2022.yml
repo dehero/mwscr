@@ -1748,9 +1748,14 @@
   title: Steady Dinner
   titleRu: Надёжный ужин
   placement: Indoors
+  location: Dirara's Farmhouse
   content: store:/shots/2022-07-28-steady-dinner.png
   type: shot
   author: dehero
+  locating:
+    date: 2026-02-13-16-55-18
+    user: pyriglena
+    text: Ascadian Isles Region 5,-8
   engine: OpenMW
   mark: B1
   posts:

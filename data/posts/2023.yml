@@ -635,9 +635,16 @@
   title: Under Two Parasols
   titleRu: Под двумя зонтами
   placement: Outdoors
+  location:
+    - Ascadian Isles Region
+    - Ules Manor, Slave Shack
   content: store:/shots/2023-08-08-under-two-parasols.png
   type: shot
   author: dehero
+  locating:
+    date: 2026-02-13-16-49-17
+    user: pyriglena
+    text: Рабыня Цалани (Tsalani) на ферме советницы Хлаалу Нивены Улис
   engine: OpenMW
   tags:
     - giantmushroom

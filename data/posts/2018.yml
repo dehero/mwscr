@@ -1222,9 +1222,14 @@
   title: Saruse Hloran, House Redoran
   titleRu: Саруз Хлоран, Дом Редоран
   placement: Indoors
+  location: Vivec, Redoran Plaza
   content: store:/shots/2018-01-29-saruse-hloran-house-redoran.png
   type: shot
   author: dehero
+  locating:
+    date: 2026-02-13-20-41-15
+    user: pyriglena
+    text: ''
   engine: OpenMW
   tags:
     - redoran
@@ -2235,9 +2240,14 @@
   title: Body and Soul
   titleRu: Тело и душа
   placement: Indoors
+  location: Derelict Shipwreck, Cabin
   content: store:/shots/2018-02-19-body-and-soul.png
   type: shot
   author: dehero
+  locating:
+    date: 2026-02-13-20-39-25
+    user: pyriglena
+    text: ''
   engine: OpenMW
   tags:
     - skeleton
@@ -2430,9 +2440,14 @@
   title: Uthrel Sarys
   titleRu: Утрель Сарис
   placement: Indoors
+  location: Vivec, Dralor Manor
   content: store:/shots/2018-02-23-uthrel-sarys.png
   type: shot
   author: dehero
+  locating:
+    date: 2026-02-13-20-37-51
+    user: pyriglena
+    text: ''
   engine: OpenMW
   mark: B1
   posts:
@@ -3278,9 +3293,14 @@
   title: In the Heart of Quarter
   titleRu: В сердце квартала
   placement: Indoors
+  location: Vivec, St. Olms Waistworks
   content: store:/shots/2018-03-14-in-the-heart-of-quarter.png
   type: shot
   author: dehero
+  locating:
+    date: 2026-02-13-20-35-35
+    user: pyriglena
+    text: ''
   engine: OpenMW
   tags:
     - tree
@@ -3577,9 +3597,14 @@
   title: A Bit of Food, Drink and Knowledge
   titleRu: Немного еды, напитков и знаний
   placement: Indoors
+  location: Dren Plantation, Rethan's Shack
   content: store:/shots/2018-03-21-a-bit-of-food-drink-and-knowledge.png
   type: shot
   author: dehero
+  locating:
+    date: 2026-02-13-20-31-10
+    user: pyriglena
+    text: ''
   engine: OpenMW
   tags:
     - candle
@@ -3956,9 +3981,14 @@
   title: Ancestors Look at You
   titleRu: Предки смотрят на тебя
   placement: Indoors
+  location: Verelnim Ancestral Tomb
   content: store:/shots/2018-03-28-ancestors-look-at-you.png
   type: shot
   author: dehero
+  locating:
+    date: 2026-02-13-20-29-14
+    user: pyriglena
+    text: ''
   engine: OpenMW
   tags:
     - skull
@@ -4239,9 +4269,14 @@
   title: Comprehension of Sciences
   titleRu: Постижение наук
   placement: Indoors
+  location: 'Suran, Ibarnadad Assirnarari: Apothecary'
   content: store:/shots/2018-04-04-comprehension-of-sciences.png
   type: shot
   author: dehero
+  locating:
+    date: 2026-02-13-20-27-09
+    user: pyriglena
+    text: ''
   engine: OpenMW
   tags:
     - desk
@@ -4674,9 +4709,16 @@
   title: Solitary Pier
   titleRu: Уединённый причал
   placement: Outdoors
+  location:
+    - Bitter Coast Region
+    - Akimaes Grotto
   content: store:/shots/2018-04-13-solitary-pier.png
   type: shot
   author: dehero
+  locating:
+    date: 2026-02-13-20-24-38
+    user: pyriglena
+    text: ''
   engine: OpenMW
   tags:
     - bridge
@@ -5118,9 +5160,16 @@
   title: Under the Lonely Lantern
   titleRu: Под одиноким фонарём
   placement: Outdoors
+  location:
+    - Ascadian Isles Region
+    - Sterdecan's Farmhouse
   content: store:/shots/2018-04-23-under-the-lonely-lantern.png
   type: shot
   author: dehero
+  locating:
+    date: 2026-02-13-20-20-59
+    user: pyriglena
+    text: ''
   engine: OpenMW
   tags:
     - evening
@@ -5508,9 +5557,14 @@
   title: Buy Something or Go Away
   titleRu: Покупай уже что-нибудь, или убирайся
   placement: Indoors
+  location: 'Suran, Ranosa Gilvayn: Outfitter'
   content: store:/shots/2018-05-02-buy-something-or-go-away.png
   type: shot
   author: dehero
+  locating:
+    date: 2026-02-13-20-17-36
+    user: pyriglena
+    text: ''
   engine: OpenMW
   tags:
     - women
@@ -6832,9 +6886,14 @@
   title: Clandestine Lab
   titleRu: Подпольная лаборатория
   placement: Indoors
+  location: Gro-Bagrat Plantation
   content: store:/shots/2018-05-31-clandestine-lab.png
   type: shot
   author: dehero
+  locating:
+    date: 2026-02-13-20-13-59
+    user: pyriglena
+    text: ''
   engine: OpenMW
   tags:
     - skooma
@@ -6859,9 +6918,14 @@
   title: Waterfalls of Puzzle Canal
   titleRu: Водопады Канала Загадок
   placement: Outdoors
+  location: Vivec, Temple
   content: store:/shots/2018-06-01-waterfalls-of-puzzle-canal.png
   type: shot
   author: dehero
+  locating:
+    date: 2026-02-13-20-09-35
+    user: pyriglena
+    text: ''
   engine: OpenMW
   tags:
     - waterfall
@@ -6971,9 +7035,14 @@
   title: Some Scrolls
   titleRu: Немного свитков
   placement: Indoors
+  location: Pinsun
   content: store:/shots/2018-06-05-some-scrolls.png
   type: shot
   author: dehero
+  locating:
+    date: 2026-02-13-20-07-18
+    user: pyriglena
+    text: ''
   engine: OpenMW
   tags:
     - scroll
@@ -7810,9 +7879,14 @@
   title: Redoran Lantern
   titleRu: Редоранский фонарь
   placement: Indoors
+  location: Ald-ruhn, Llethri Manor Entrance
   content: store:/shots/2018-06-20-redoran-lantern.png
   type: shot
   author: dehero
+  locating:
+    date: 2026-02-13-20-04-10
+    user: pyriglena
+    text: ''
   engine: OpenMW
   tags:
     - lantern
@@ -8007,9 +8081,14 @@
   title: Treasures
   titleRu: Сокровища
   placement: Indoors
+  location: Esutanamus, Shrine
   content: store:/shots/2018-06-25-treasures.png
   type: shot
   author: dehero
+  locating:
+    date: 2026-02-13-19-44-58
+    user: pyriglena
+    text: Offerings to Molag Bal
   engine: OpenMW
   tags:
     - treasure
@@ -8062,9 +8141,16 @@
   title: Smoking House
   titleRu: Дымящий дом
   placement: Outdoors
+  location:
+    - Caldera
+    - Caldera, Ghorak Manor
   content: store:/shots/2018-06-26-smoking-house.png
   type: shot
   author: dehero
+  locating:
+    date: 2026-02-13-19-42-36
+    user: pyriglena
+    text: ''
   engine: OpenMW
   tags:
     - house
@@ -8354,9 +8440,17 @@
   title: Labyrinth of Houses
   titleRu: Лабиринт домов
   placement: Outdoors
+  location:
+    - Balmora
+    - Balmora, Morag Tong Guild
+    - Balmora, Nerano Manor
   content: store:/shots/2018-07-03-labyrinth-of-houses.png
   type: shot
   author: dehero
+  locating:
+    date: 2026-02-13-19-40-02
+    user: pyriglena
+    text: ''
   engine: OpenMW
   tags:
     - house
@@ -8856,9 +8950,14 @@
   title: Time to Sleep
   titleRu: Время спать
   placement: Indoors
+  location: Ald-ruhn, Llethri Guard Quarters
   content: store:/shots/2018-07-13-time-to-sleep.png
   type: shot
   author: dehero
+  locating:
+    date: 2026-02-13-19-38-11
+    user: pyriglena
+    text: ''
   engine: OpenMW
   tags:
     - bed
@@ -9024,9 +9123,16 @@
   title: Safe Harbour
   titleRu: Тихая гавань
   placement: Outdoors
+  location:
+    - Tel Branora
+    - Tel Branora, Ervyna Hlervu's Shack
   content: store:/shots/2018-07-17-safe-harbour.png
   type: shot
   author: dehero
+  locating:
+    date: 2026-02-13-19-33-49
+    user: pyriglena
+    text: ''
   engine: OpenMW
   tags:
     - ship
@@ -9073,9 +9179,16 @@
   title: View of Private Property
   titleRu: Вид на частную собственность
   placement: Outdoors
+  location:
+    - Gnaar Mok
+    - Gnaar Mok, Arenim Manor
   content: store:/shots/2018-07-18-view-of-private-property.png
   type: shot
   author: dehero
+  locating:
+    date: 2026-02-13-19-25-35
+    user: pyriglena
+    text: ''
   engine: OpenMW
   tags:
     - women
@@ -9130,9 +9243,16 @@
   title: Drulene Falen and Her Guars
   titleRu: Друлен Фален и её гуары
   placement: Outdoors
+  location:
+    - West Gash Region
+    - Drulene Falen's Hut
   content: store:/shots/2018-07-20-drulene-falen-and-her-guars.png
   type: shot
   author: dehero
+  locating:
+    date: 2026-02-13-19-23-26
+    user: pyriglena
+    text: ''
   engine: OpenMW
   tags:
     - women
@@ -9325,9 +9445,14 @@
   title: Flaming Archer
   titleRu: Пылающий лучник
   placement: Outdoors
+  location: Grazelands Region
   content: store:/shots/2018-07-24-flaming-archer.png
   type: shot
   author: dehero
+  locating:
+    date: 2026-02-13-19-21-09
+    user: pyriglena
+    text: Shin Assemmus, Grazelands Region 10,6, not far from Falensarano
   engine: OpenMW
   tags:
     - fire
@@ -9474,9 +9599,14 @@
   title: The Book of Dawn and Dusk
   titleRu: Книга рассвета и заката
   placement: Indoors
+  location: Sadrith Mora, Morag Tong Guild
   content: store:/shots/2018-07-27-the-book-of-dawn-and-dusk.png
   type: shot
   author: dehero
+  locating:
+    date: 2026-02-13-19-13-27
+    user: pyriglena
+    text: ''
   engine: OpenMW
   tags:
     - book
@@ -9603,9 +9733,14 @@
   title: Mad Gentleman
   titleRu: Безумный джентльмен
   placement: Indoors
+  location: Ihinipalit, Shrine
   content: store:/shots/2018-07-30-mad-gentleman.png
   type: shot
   author: dehero
+  locating:
+    date: 2026-02-13-19-10-42
+    user: pyriglena
+    text: ''
   engine: OpenMW
   tags:
     - sheogorath
@@ -9684,9 +9819,14 @@
   title: Under Attack
   titleRu: Под ударом
   placement: Indoors
+  location: Ebernanit, Shrine
   content: store:/shots/2018-08-01-under-attack.png
   type: shot
   author: dehero
+  locating:
+    date: 2026-02-13-19-07-55
+    user: pyriglena
+    text: ''
   engine: OpenMW
   mark: E
   posts:
@@ -9762,9 +9902,14 @@
   title: Verene Mene
   titleRu: Вирин Мин
   placement: Indoors
+  location: Dren Plantation, Guardhouse
   content: store:/shots/2018-08-04-verene-mene.png
   type: shot
   author: dehero
+  locating:
+    date: 2026-02-13-19-01-37
+    user: pyriglena
+    text: ''
   engine: OpenMW
   tags:
     - guard
@@ -10036,9 +10181,14 @@
   title: Anhaedra
   titleRu: Анаэдра
   placement: Indoors
+  location: Maar Gan, Shrine
   content: store:/shots/2018-08-11-anhaedra.png
   type: shot
   author: dehero
+  locating:
+    date: 2026-02-13-18-58-56
+    user: pyriglena
+    text: ''
   engine: OpenMW
   tags:
     - dremora
@@ -10174,9 +10324,16 @@
   title: Leaving the Plaza
   titleRu: Покидая плазу
   placement: Outdoors
+  location:
+    - Vivec, Hlaalu
+    - Vivec, Hlaalu Plaza
   content: store:/shots/2018-08-14-leaving-the-plaza.png
   type: shot
   author: dehero
+  locating:
+    date: 2026-02-13-18-57-10
+    user: pyriglena
+    text: ''
   engine: OpenMW
   tags:
     - arch
@@ -10689,9 +10846,14 @@
   title: On the Background of Carpet
   titleRu: На фоне ковра
   placement: Indoors
+  location: Erabenimsun Camp, Assemmus' Yurt
   content: store:/shots/2018-08-25-on-the-background-of-carpet.png
   type: shot
   author: dehero
+  locating:
+    date: 2026-02-13-18-42-20
+    user: pyriglena
+    text: ''
   engine: OpenMW
   tags:
     - carpet
@@ -11747,9 +11909,16 @@
   title: Another Coven
   titleRu: Новое сборище
   placement: Outdoors
+  location: Grazelands Region
   content: store:/shots/2018-09-13-another-coven.png
   type: shot
   author: dehero
+  locating:
+    date: 2026-02-13-18-32-17
+    user: pyriglena
+    text: >-
+      Benudni Ilurnubishpal, Yanibi Adur-Dan, and Yanabani Ashushshirari (Grazelands Region 11,9, not far from Andalor
+      Ancestral Tomb)
   engine: OpenMW
   tags:
     - campfire
@@ -13257,9 +13426,16 @@
   title: Rainy Evening at the Farm
   titleRu: Дождливый вечер на ферме
   placement: Outdoors
+  location:
+    - Ascadian Isles Region
+    - Arano Plantation
   content: store:/shots/2018-10-12-rainy-evening-at-the-farm.png
   type: shot
   author: dehero
+  locating:
+    date: 2026-02-13-18-25-45
+    user: pyriglena
+    text: ''
   engine: OpenMW
   mark: B1
   posts:
@@ -13456,9 +13632,16 @@
   title: Near the Temple
   titleRu: У храма
   placement: Outdoors
+  location:
+    - Molag Mar
+    - Molag Mar, Temple
   content: store:/shots/2018-10-15-near-the-temple.png
   type: shot
   author: dehero
+  locating:
+    date: 2026-02-13-18-21-50
+    user: pyriglena
+    text: ''
   engine: OpenMW
   mark: B1
   posts:
@@ -14300,9 +14483,16 @@
   title: Near the Yurt
   titleRu: Возле юрты
   placement: Outdoors
+  location:
+    - Azura's Coast Region
+    - Kaushtababi Camp, Adibael's Yurt
   content: store:/shots/2018-11-02-near-the-yurt.png
   type: shot
   author: dehero
+  locating:
+    date: 2026-02-13-18-15-38
+    user: pyriglena
+    text: ''
   engine: OpenMW
   mark: B2
   posts:
@@ -15393,9 +15583,14 @@
   title: Overnight in a Yurt
   titleRu: Ночлег в юрте
   placement: Indoors
+  location: Urshilaku Camp, Shara's Yurt
   content: store:/shots/2018-11-26-overnight-in-a-yurt.png
   type: shot
   author: dehero
+  locating:
+    date: 2026-02-13-18-08-34
+    user: pyriglena
+    text: ''
   engine: OpenMW
   mark: B2
   posts:
@@ -15425,9 +15620,16 @@
   title: Landing
   titleRu: Причал
   placement: Outdoors
+  location:
+    - Ascadian Isles Region
+    - Manat's Farmhouse
   content: store:/shots/2018-11-28-landing.png
   type: shot
   author: dehero
+  locating:
+    date: 2026-02-13-18-02-14
+    user: pyriglena
+    text: ''
   engine: OpenMW
   mark: A2
   posts:
@@ -15680,9 +15882,14 @@
   title: Belowdecks
   titleRu: В трюме
   placement: Indoors
+  location: Chun-Ook, Lower Level
   content: store:/shots/2018-12-05-belowdecks.png
   type: shot
   author: dehero
+  locating:
+    date: 2026-02-13-17-58-13
+    user: pyriglena
+    text: ''
   engine: OpenMW
   mark: B2
   posts:

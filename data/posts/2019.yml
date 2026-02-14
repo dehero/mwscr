@@ -1479,9 +1479,14 @@
   title: In the Imperial Armory
   titleRu: В имперской оружейной
   placement: Indoors
+  location: Ebonheart, Hawkmoth Legion Garrison
   content: store:/shots/2019-05-12-in-the-imperial-armory.png
   type: shot
   author: dehero
+  locating:
+    date: 2026-02-13-17-53-37
+    user: pyriglena
+    text: ''
   engine: OpenMW
   tags:
     - helmet
@@ -1516,9 +1521,16 @@
   title: At the Bridge
   titleRu: У моста
   placement: Outdoors
+  location:
+    - West Gash Region
+    - Balmora
   content: store:/shots/2019-05-13-at-the-bridge.png
   type: shot
   author: dehero
+  locating:
+    date: 2026-02-13-16-22-40
+    user: pyriglena
+    text: Дорога из Балморы на север
   engine: OpenMW
   mark: B1
   posts:
@@ -2088,9 +2100,14 @@
   title: Yellow Mile
   titleRu: Жёлтая миля
   placement: Indoors
+  location: Vivec, Redoran Prison Cells
   content: store:/shots/2019-10-09-yellow-mile.png
   type: shot
   author: dehero
+  locating:
+    date: 2026-02-13-17-48-59
+    user: pyriglena
+    text: ''
   engine: OpenMW
   tags:
     - prison
@@ -2304,9 +2321,16 @@
   title: Quiet Mooring
   titleRu: Тихий причал
   placement: Outdoors
+  location:
+    - Bitter Coast Region
+    - Akimaes Grotto
   content: store:/shots/2019-10-14-quiet-mooring.png
   type: shot
   author: dehero
+  locating:
+    date: 2026-02-13-17-40-10
+    user: pyriglena
+    text: ''
   engine: OpenMW
   tags:
     - boat
