@@ -2855,6 +2855,19 @@
       likes: 67
       views: 619
       comments: !c CxWAkZPLQnkMHzc+AACmdXNlci0yuG15IGRyZWFtIGlzIHRvIGxpdmUgaGVyZQM=
+    - service: ig
+      id: DUv6Ly-l49C
+      mediaId: '18105801844794398'
+      published: 2026-02-14-18-35-27
+      followers: 1608
+    - service: vk
+      id: 3088
+      published: 2026-02-14-18-35-39
+      followers: 1602
+    - service: tg
+      id: 1151
+      published: 2026-02-14-18-35-46
+      followers: 888
 2017-03-03-grazelands:
   title: Grazelands
   titleRu: Грейзленд
