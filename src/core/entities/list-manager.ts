@@ -41,6 +41,13 @@ export abstract class ListReader<TItem> {
     return data;
   }
 
+  protected createCacheSync<T>(key: string, creator: () => T): T {
+    if (!this.cache[key]) {
+      this.cache[key] = creator();
+    }
+    return this.cache[key] as T;
+  }
+
   protected async createCache<T>(key: string, creator: () => Promise<T>): Promise<T> {
     if (!this.cache[key]) {
       this.cache[key] = creator();
@@ -690,13 +697,14 @@ export abstract class ListManager<TItem extends object> extends ListReader<TItem
   }
 
   getChunkPatch(chunkName: string): ListManagerPatch<TItem> | undefined {
-    if (!this.patch) {
-      return;
-    }
+    return this.createCacheSync(`${this.getChunkPatch.name}.${chunkName}`, () => {
+      if (!this.patch) {
+        return;
+      }
 
-    const entries = Object.entries(this.patch).filter(([id]) => this.getItemChunkName(id) === chunkName);
-
-    return entries.length > 0 ? Object.fromEntries(entries) : undefined;
+      const entries = Object.entries(this.patch).filter(([id]) => this.getItemChunkName(id) === chunkName);
+      return entries.length > 0 ? Object.fromEntries(entries) : undefined;
+    });
   }
 
   /**
