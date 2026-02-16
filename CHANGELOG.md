@@ -2,6 +2,15 @@
 
 All notable changes to this project will be documented in this file.
 
+## [2.16.3](https://github.com/dehero/mwscr/compare/v2.16.2...v2.16.3) (2026-02-16)
+
+### Bug Fixes
+
+- optimize patched ListManager reading time
+  ([adff624](https://github.com/dehero/mwscr/commit/adff624b36a27503ca137041e7e7da8e9bc6d24f))
+- **site:** avoid shrinking of info block on post page
+  ([e0becae](https://github.com/dehero/mwscr/commit/e0becae5fc620507afe42d19a3a1066588b9ccc5))
+
 ## [2.16.2](https://github.com/dehero/mwscr/compare/v2.16.1...v2.16.2) (2026-02-13)
 
 ### Bug Fixes
