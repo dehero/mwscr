@@ -3160,10 +3160,10 @@
     - service: vk
       id: 3085
       published: 2026-02-13-18-49-37
-      updated: 2026-02-15-08-10-46
+      updated: 2026-02-16-08-41-56
       followers: 1601
-      likes: 50
-      views: 423
+      likes: 56
+      views: 493
       reposts: 1
       comments: !c |-
         CyeAkZPLQnnFidcNgACwYXJ0eW9tLW1lbGlraG9mZtkxVGhlIHRvd2VycyBhbmQgdGhlIGNhc3Rs
@@ -3171,19 +3171,21 @@
     - service: tg
       id: 1150
       published: 2026-02-13-18-49-43
-      updated: 2026-02-15-08-10-47
+      updated: 2026-02-16-08-41-57
       followers: 888
-      likes: 57
-      views: 218
+      likes: 59
+      views: 234
       comments: !c CwuAkZPLQnnFhf/mAACma2V2eS1jpPCfpoAD
     - service: ig
       id: DUtdHwDF7wu
       mediaId: '17847339300661393'
       published: 2026-02-13-19-43-00
-      updated: 2026-02-15-08-10-47
+      updated: 2026-02-16-08-41-58
       followers: 1609
-      likes: 68
-      comments: !c ixeAkZPLQnnFiapgAACrZGVsYW5vc3BpZXO4QGRyYXZlbmp2IENhbGRlcmEg4p2k77iPAw==
+      likes: 73
+      comments: !c |-
+        CyyAkZTLQnnFiapgAACrZGVsYW5vc3BpZXO4QGRyYXZlbmp2IENhbGRlcmEg4p2k77iPk8tCecZM
+        toEAAKhkcmF2ZW5qdrVteSBmYXZvdXJpdGUgbmdsIPCfpbkD
 2024-09-25-the-hand-of-almalexia:
   title: The Hand of Almalexia
   titleRu: Рука Альмалексии

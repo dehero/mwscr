@@ -2720,10 +2720,10 @@
     - service: vk
       id: 3080
       published: 2026-02-10-19-59-48
-      updated: 2026-02-15-08-10-48
+      updated: 2026-02-16-08-41-58
       followers: 1599
-      likes: 43
-      views: 413
+      likes: 45
+      views: 431
       reposts: 4
       comments: !c |-
         G4cBIJwHjrHUDJvWjx55ELE1aFTw9+xL4gdpjy2KrMSCSJJZdbp5/K/3kLHnim2LgbBobTOmL4Zo
@@ -9483,7 +9483,7 @@
       id: DUgeK3sDHec
       mediaId: '17987925488941446'
       published: 2026-02-08-18-41-59
-      updated: 2026-02-15-08-10-51
+      updated: 2026-02-16-08-42-02
       followers: 1609
       likes: 57
       comments: !c |-
@@ -9492,20 +9492,20 @@
     - service: vk
       id: 3076
       published: 2026-02-08-18-42-05
-      updated: 2026-02-15-08-11-00
+      updated: 2026-02-16-08-42-03
       followers: 1597
-      likes: 49
-      views: 513
+      likes: 50
+      views: 516
       comments: !c |-
         ix2AkZPLQnnEOgaMAACpdmxhZGtyMTE02SXQmCDQtdC1INC70LjRgdGC0YzRjyDRhdCw0LrQu9GM
         0LvQvtGDAw==
     - service: tg
       id: 1145
       published: 2026-02-08-18-42-09
-      updated: 2026-02-15-08-10-49
+      updated: 2026-02-16-08-42-00
       followers: 889
       likes: 66
-      views: 526
+      views: 543
       comments: !c CwuAkZPLQnnD6kcFAACma2V2eS1jpPCfpoAD
 2018-07-21-going-out-to-evening-suran:
   title: Going Out to Evening Suran

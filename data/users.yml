@@ -468,7 +468,7 @@ anonim:
   profiles:
     - service: tg
       id: '6469120788'
-      updated: 2026-02-16-07-12-22
+      updated: 2026-02-16-08-41-53
       accessHash: '-3557204299452739678'
       name: Аноним
       avatar: store:/avatars/tg-5228982199254718377.jpg
@@ -584,7 +584,7 @@ artyom-melikhoff:
   profiles:
     - service: vk
       id: '299405149'
-      updated: 2026-02-16-07-42-08
+      updated: 2026-02-16-08-42-01
       username: artyom_melikhoff
       name: Артём Мелихов
       avatar: store:/avatars/vk-599a74fc.jpg
@@ -600,7 +600,7 @@ arya-stark:
   profiles:
     - service: vk
       id: '820702664'
-      updated: 2026-02-16-07-11-12
+      updated: 2026-02-16-08-42-01
       username: id820702664
       name: Арья Старк
       avatar: store:/avatars/vk-689aa89d.jpg
@@ -2945,7 +2945,7 @@ kevy-c:
   profiles:
     - service: tg
       id: '5067683234'
-      updated: 2026-02-16-07-11-29
+      updated: 2026-02-16-08-42-00
       accessHash: '-903667913374325979'
       username: Kevy_c
       name: Dash
@@ -3363,7 +3363,7 @@ maksim-solovev:
   profiles:
     - service: vk
       id: '658767771'
-      updated: 2026-02-15-08-11-02
+      updated: 2026-02-16-08-41-57
       username: id658767771
       name: Максим Соловьев
       avatar: store:/avatars/vk-77942374.jpg
@@ -4193,7 +4193,7 @@ painkiller1986:
   profiles:
     - service: tg
       id: '6565289507'
-      updated: 2026-02-16-07-10-21
+      updated: 2026-02-16-08-41-54
       accessHash: '6198356028119192921'
       username: Painkiller1986
       name: Сумерки
@@ -4879,7 +4879,7 @@ sergey-b-2:
   profiles:
     - service: vk
       id: '1077446394'
-      updated: 2026-02-16-07-10-53
+      updated: 2026-02-16-08-41-58
       username: id1077446394
       name: Сергей Б
       avatar: store:/avatars/vk-5a7c7910.jpg
@@ -6175,7 +6175,7 @@ vladkr114:
   profiles:
     - service: vk
       id: '210352858'
-      updated: 2026-02-15-08-33-31
+      updated: 2026-02-16-08-42-03
       username: vladkr114
       name: Влад Крамской
       avatar: store:/avatars/vk-dfe1d842.jpg
