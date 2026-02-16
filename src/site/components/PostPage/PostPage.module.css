@@ -114,6 +114,7 @@
   flex-flow: column nowrap;
   gap: 12px;
   overflow: hidden;
+  flex: 0 0 auto;
 }
 
 .titles {
