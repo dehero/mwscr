@@ -138,9 +138,14 @@
   title: Snug Corridor
   titleRu: Уютный коридор
   placement: Indoors
+  location: 'Suran, Goldyn Belaram: Pawnbroker'
   content: store:/shots/2023-07-30-snug-corridor-by-darkness-rifho.png
   type: shot
   author: darkness-rifho
+  locating:
+    date: 2026-02-14-15-35-44
+    user: pyriglena
+    text: ''
   tags:
     - corridor
   mark: B2

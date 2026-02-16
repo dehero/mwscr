@@ -15754,9 +15754,14 @@
   title: Crates and Pillows
   titleRu: Подушки и ящики
   placement: Indoors
+  location: Abandoned Shipwreck, Lower Level
   content: store:/shots/2017-12-10-crates-and-pillows.png
   type: shot
   author: dehero
+  locating:
+    date: 2026-02-15-18-47-11
+    user: pyriglena
+    text: ''
   engine: OpenMW
   tags:
     - water
@@ -16134,9 +16139,14 @@
   title: Athanden Girith Grieves Over the Stolen Hides
   titleRu: Атанден Гирит скорбит об украденных шкурах
   placement: Outdoors
+  location: Grazelands Region
   content: store:/shots/2017-12-20-athanden-girith-grieves-over-the-stolen-hides.png
   type: shot
   author: dehero
+  locating:
+    date: 2026-02-15-18-43-44
+    user: pyriglena
+    text: North of Tel Vos
   engine: OpenMW
   mark: B2
   posts:
@@ -16300,9 +16310,14 @@
   title: Corridors of Tribunal
   titleRu: Коридоры Трибунала
   placement: Indoors
+  location: Vivec, Hall of Wisdom
   content: store:/shots/2017-12-25-corridors-of-tribunal.png
   type: shot
   author: dehero
+  locating:
+    date: 2026-02-15-18-39-29
+    user: pyriglena
+    text: ''
   engine: OpenMW
   mark: A2
   posts:

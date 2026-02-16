@@ -1116,9 +1116,14 @@
   title: Blue Lit Basket
   titleRu: Корзина в голубом свете
   placement: Indoors
+  location: Maar Gan, Garry's Hut
   content: store:/shots/2022-07-14-blue-lit-basket.png
   type: shot
   author: dehero
+  locating:
+    date: 2026-02-14-17-20-24
+    user: pyriglena
+    text: ''
   engine: OpenMW
   tags:
     - basket
@@ -1310,9 +1315,16 @@
   title: Slave's Sight
   titleRu: Взгляд раба
   placement: Outdoors
+  location:
+    - Ascadian Isles Region
+    - Ules Manor, Slavemaster's Shack
   content: store:/shots/2022-07-17-slaves-sight.png
   type: shot
   author: dehero
+  locating:
+    date: 2026-02-14-17-18-12
+    user: pyriglena
+    text: ''
   engine: OpenMW
   mark: E
   posts:
@@ -1625,9 +1637,16 @@
   title: Rainy Coast
   titleRu: Дождливое побережье
   placement: Outdoors
+  location:
+    - Azura's Coast Region
+    - Sadrith Mora
   content: store:/shots/2022-07-25-rainy-coast.png
   type: shot
   author: dehero
+  locating:
+    date: 2026-02-14-16-30-48
+    user: pyriglena
+    text: Azura's Coast Region 19,2 (south of Sadrith Mora)
   engine: OpenMW
   mark: B1
   posts:
@@ -2039,9 +2058,16 @@
   title: A Haven on Bad Weather
   titleRu: Пристанище в ненастье
   placement: Outdoors
+  location:
+    - Ascadian Isles Region
+    - Nilera's Farmhouse
   content: store:/shots/2022-08-03-a-haven-on-bad-weather.png
   type: shot
   author: dehero
+  locating:
+    date: 2026-02-14-16-13-59
+    user: pyriglena
+    text: Not too far from Vivec
   engine: OpenMW
   tags:
     - rain

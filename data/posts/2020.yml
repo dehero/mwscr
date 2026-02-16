@@ -1826,9 +1826,17 @@
   title: Red Passage
   titleRu: Красный переход
   placement: Outdoors
+  location:
+    - Ashlands Region
+    - Ularradallaku, Shrine
+    - Red Mountain Region
   content: store:/shots/2020-10-29-red-passage.png
   type: shot
   author: dehero
+  locating:
+    date: 2026-02-14-17-49-12
+    user: pyriglena
+    text: Ashlands Region 0,8, north of Endusal
   engine: OpenMW
   mark: A2
   posts:
@@ -1998,9 +2006,16 @@
   title: Dead Reflections
   titleRu: Мертвые отражения
   placement: Outdoors
+  location:
+    - Azura's Coast Region
+    - Molag Mar
   content: store:/shots/2020-11-02-dead-reflections.png
   type: shot
   author: dehero
+  locating:
+    date: 2026-02-14-17-40-59
+    user: pyriglena
+    text: Azura's Coast Region 14,-8, north-east of Molag Mar
   engine: OpenMW
   mark: B2
   posts:
@@ -2043,9 +2058,14 @@
   title: Gray Ruins
   titleRu: Серые руины
   placement: Outdoors
+  location: Ashalmawia
   content: store:/shots/2020-11-03-gray-ruins.png
   type: shot
   author: dehero
+  locating:
+    date: 2026-02-14-17-26-04
+    user: pyriglena
+    text: East of Ald Velothi
   engine: OpenMW
   mark: B2
   posts:

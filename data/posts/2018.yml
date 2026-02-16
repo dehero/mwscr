@@ -315,9 +315,14 @@
   title: Dead Trees of the East Coast
   titleRu: Мёртвые деревья восточного побережья
   placement: Outdoors
+  location: Azura's Coast Region
   content: store:/shots/2018-01-09-dead-trees-of-the-east-coast.png
   type: shot
   author: dehero
+  locating:
+    date: 2026-02-15-18-31-43
+    user: pyriglena
+    text: South of Telasero
   engine: OpenMW
   mark: A1
   posts:
@@ -395,9 +400,16 @@
   title: Rayana Drolan's Shack
   titleRu: Лачуга Райны Дролан
   placement: Outdoors
+  location:
+    - Sheogorad Region
+    - Rayna Drolan's Shack
   content: store:/shots/2018-01-10-rayana-drolans-shack.png
   type: shot
   author: dehero
+  locating:
+    date: 2026-02-15-18-23-57
+    user: pyriglena
+    text: ''
   engine: OpenMW
   mark: B1
   posts:
@@ -566,9 +578,14 @@
   title: Clothier's Table
   titleRu: Столик портнихи
   placement: Indoors
+  location: 'Ald-ruhn, Bivale Teneran: Clothier'
   content: store:/shots/2018-01-14-clothiers-table.png
   type: shot
   author: dehero
+  locating:
+    date: 2026-02-15-18-22-52
+    user: pyriglena
+    text: ''
   engine: OpenMW
   tags:
     - redoran
@@ -616,9 +633,14 @@
   title: No Students for Hasphat Antabolis
   titleRu: Хасфат Антаболис в поиске учеников
   placement: Indoors
+  location: Balmora, Guild of Fighters
   content: store:/shots/2018-01-15-no-students-for-hasphat-antabolis.png
   type: shot
   author: dehero
+  locating:
+    date: 2026-02-15-18-20-46
+    user: pyriglena
+    text: ''
   engine: OpenMW
   mark: B2
   posts:
@@ -729,9 +751,14 @@
   title: Endless Dream
   titleRu: Вечный сон
   placement: Indoors
+  location: Falasmaryon, Lower Level
   content: store:/shots/2018-01-18-endless-dream.png
   type: shot
   author: dehero
+  locating:
+    date: 2026-02-15-18-18-07
+    user: pyriglena
+    text: Irer Nervion, Buoyant Armiger
   engine: OpenMW
   tags:
     - dead
@@ -1652,9 +1679,16 @@
   title: Grazing Netches
   titleRu: Пасущиеся нетчи
   placement: Outdoors
+  location:
+    - Ascadian Isles Region
+    - Gro-Bagrat Plantation
   content: store:/shots/2018-02-07-grazing-netches.png
   type: shot
   author: dehero
+  locating:
+    date: 2026-02-15-17-58-47
+    user: pyriglena
+    text: ''
   engine: OpenMW
   mark: A2
   posts:
@@ -1984,9 +2018,14 @@
   title: Shipwreck at the Estuary of Foyada
   titleRu: Кораблекрушение в устье фояды
   placement: Outdoors
+  location: Derelict Shipwreck
   content: store:/shots/2018-02-14-shipwreck-at-the-estuary-of-foyada.png
   type: shot
   author: dehero
+  locating:
+    date: 2026-02-15-17-52-00
+    user: pyriglena
+    text: ''
   engine: OpenMW
   tags:
     - shipwreck
@@ -2584,9 +2623,16 @@
   title: Near the Ash Road
   titleRu: У пепельной дороги
   placement: Outdoors
+  location:
+    - Ald-ruhn
+    - Ashlands Region
   content: store:/shots/2018-02-26-near-the-ash-road.png
   type: shot
   author: dehero
+  locating:
+    date: 2026-02-15-17-44-30
+    user: pyriglena
+    text: Falanu Indaren, north-west of Ald-ruhn
   engine: OpenMW
   tags:
     - women
@@ -3173,9 +3219,17 @@
   title: Anudnabia
   titleRu: Ануднабия
   placement: Outdoors
+  location:
+    - Azura's Coast Region
+    - Omaren Ancestral Tomb
+    - Sadrith Mora
   content: store:/shots/2018-03-10-anudnabia.png
   type: shot
   author: dehero
+  locating:
+    date: 2026-02-15-17-18-20
+    user: pyriglena
+    text: Daedric ruins east of Sadrith Mora, entrance through a nearby tomb
   engine: OpenMW
   tags:
     - ruin
@@ -3348,9 +3402,14 @@
   title: The Other Side
   titleRu: По ту сторону
   placement: Outdoors
+  location: Ashlands Region
   content: store:/shots/2018-03-15-the-other-side.png
   type: shot
   author: dehero
+  locating:
+    date: 2026-02-15-16-46-20
+    user: pyriglena
+    text: Ashlands Region 2,12, nothern border of the Ghostfence (between Ahanibi-Malmus Egg Mine and Assalkushalit)
   engine: OpenMW
   tags:
     - bridge
@@ -3904,9 +3963,16 @@
   title: Traces of Shipwreck
   titleRu: Следы кораблекрушения
   placement: Outdoors
+  location:
+    - Bitter Coast Region
+    - Neglected Shipwreck, Cabin
   content: store:/shots/2018-03-26-traces-of-shipwreck.png
   type: shot
   author: dehero
+  locating:
+    date: 2026-02-15-16-41-55
+    user: pyriglena
+    text: South-west of Andasreth
   engine: OpenMW
   tags:
     - barrel
@@ -4015,9 +4081,16 @@
   title: Soaring Trail
   titleRu: Парящая тропа
   placement: Outdoors
+  location:
+    - Bitter Coast Region
+    - Addadshashanammu
   content: store:/shots/2018-03-29-soaring-trail.png
   type: shot
   author: dehero
+  locating:
+    date: 2026-02-15-16-33-13
+    user: pyriglena
+    text: ''
   engine: OpenMW
   mark: B1
   posts:
@@ -4040,9 +4113,16 @@
   title: Near the Fisherman's Hut
   titleRu: У хижины рыбака
   placement: Outdoors
+  location:
+    - Gnaar Mok
+    - Gnaar Mok, Nadene Rotheran's Shack
   content: store:/shots/2018-03-30-near-the-fishermans-hut.png
   type: shot
   author: dehero
+  locating:
+    date: 2026-02-15-16-24-07
+    user: pyriglena
+    text: ''
   engine: OpenMW
   mark: A2
   posts:
@@ -4324,9 +4404,14 @@
   title: Under the Eaves
   titleRu: Под срезом крыши
   placement: Outdoors
+  location: Hlormaren
   content: store:/shots/2018-04-05-under-the-eaves.png
   type: shot
   author: dehero
+  locating:
+    date: 2026-02-15-16-21-41
+    user: pyriglena
+    text: ''
   engine: OpenMW
   tags:
     - architecture
@@ -4607,9 +4692,16 @@
   title: Fatal Rocks
   titleRu: У гибельных скал
   placement: Outdoors
+  location:
+    - Azura's Coast Region
+    - Lost Shipwreck
   content: store:/shots/2018-04-11-fatal-rocks.png
   type: shot
   author: dehero
+  locating:
+    date: 2026-02-15-16-15-35
+    user: pyriglena
+    text: ''
   engine: OpenMW
   mark: B1
   posts:
@@ -4660,9 +4752,17 @@
   title: Mushroom Stairs
   titleRu: Грибная лестница
   placement: Outdoors
+  location:
+    - Sadrith Mora
+    - 'Sadrith Mora, Urtiso Faryon: Sorcerer'
+    - Sadrith Mora, Morag Tong Guild
   content: store:/shots/2018-04-12-mushroom-stairs.png
   type: shot
   author: dehero
+  locating:
+    date: 2026-02-15-16-09-39
+    user: pyriglena
+    text: ''
   engine: OpenMW
   tags:
     - stair
@@ -4878,9 +4978,14 @@
   title: Don't Look Back
   titleRu: Не оборачивайся
   placement: Outdoors
+  location: Molag Mar
   content: store:/shots/2018-04-16-dont-look-back.png
   type: shot
   author: dehero
+  locating:
+    date: 2026-02-15-15-54-24
+    user: pyriglena
+    text: Dilami Androm, caravaner
   engine: OpenMW
   tags:
     - cliffracer
@@ -5620,9 +5725,14 @@
   title: Sunset Over the Lava River
   titleRu: Закат над лавовой рекой
   placement: Outdoors
+  location: Molag Amur Region
   content: store:/shots/2018-05-03-sunset-over-the-lava-river.png
   type: shot
   author: dehero
+  locating:
+    date: 2026-02-15-15-39-59
+    user: pyriglena
+    text: Molag Amur Region 11,0, south-east of Tel Uvirith
   engine: OpenMW
   tags:
     - lava
@@ -5671,9 +5781,14 @@
   title: Table for Two
   titleRu: Столик на двоих
   placement: Indoors
+  location: 'Suran, Garothmuk gro-Muzgub: Smith'
   content: store:/shots/2018-05-04-table-for-two.png
   type: shot
   author: dehero
+  locating:
+    date: 2026-02-15-15-37-24
+    user: pyriglena
+    text: ''
   engine: OpenMW
   tags:
     - tablefortwo
@@ -6081,9 +6196,16 @@
   title: Death and Life
   titleRu: Смерть и жизнь
   placement: Outdoors
+  location:
+    - Ascadian Isles Region
+    - Suran
   content: store:/shots/2018-05-14-death-and-life.png
   type: shot
   author: dehero
+  locating:
+    date: 2026-02-15-15-33-00
+    user: pyriglena
+    text: ''
   engine: OpenMW
   tags:
     - sunset
@@ -6281,9 +6403,16 @@
   title: Strategic Stock
   titleRu: Стратегический запас
   placement: Outdoors
+  location:
+    - Bitter Coast Region
+    - Grytewake
   content: store:/shots/2018-05-18-strategic-stock.png
   type: shot
   author: dehero
+  locating:
+    date: 2026-02-15-15-25-29
+    user: pyriglena
+    text: ''
   engine: OpenMW
   tags:
     - barrel
@@ -6454,9 +6583,14 @@
   title: Knights in Skirts
   titleRu: Рыцари в юбках
   placement: Indoors
+  location: Ald-ruhn, Llethri Private Quarters
   content: store:/shots/2018-05-22-knights-in-skirts.png
   type: shot
   author: dehero
+  locating:
+    date: 2026-02-15-15-23-36
+    user: pyriglena
+    text: ''
   engine: OpenMW
   tags:
     - knight
@@ -6598,9 +6732,14 @@
   title: Roaring Alit
   titleRu: Ревущий алит
   placement: Outdoors
+  location: Ashlands Region
   content: store:/shots/2018-05-26-roaring-alit.png
   type: shot
   author: dehero
+  locating:
+    date: 2026-02-15-15-16-45
+    user: pyriglena
+    text: Ashlands Region 7,15, north of Dareleth Ancestral Tomb (northern coast)
   engine: OpenMW
   tags:
     - beast
@@ -7124,9 +7263,14 @@
   title: I Think I Got Sick
   titleRu: Кажется, я заболела
   placement: Outdoors
+  location: Ashlands Region
   content: store:/shots/2018-06-06-i-think-i-got-sick.png
   type: shot
   author: dehero
+  locating:
+    date: 2026-02-15-15-07-24
+    user: pyriglena
+    text: Ashlands Region 5,2, north of Sanabi cave, Mabrigash Dissu Ashalkimallit
   engine: OpenMW
   tags:
     - women
@@ -7202,9 +7346,14 @@
   title: In the Secret Basement of Hasphat Antabolis
   titleRu: В секретном подвале Хасфата Антаболиса
   placement: Indoors
+  location: Balmora, Guild of Fighters
   content: store:/shots/2018-06-08-in-the-secret-basement-of-hasphat-antabolis.png
   type: shot
   author: dehero
+  locating:
+    date: 2026-02-15-15-01-53
+    user: pyriglena
+    text: ''
   engine: OpenMW
   tags:
     - basement
@@ -7522,9 +7671,14 @@
   title: The Blue Corridor
   titleRu: Синий коридор
   placement: Indoors
+  location: Rethan Manor, Gols' House
   content: store:/shots/2018-06-14-the-blue-corridor.png
   type: shot
   author: dehero
+  locating:
+    date: 2026-02-15-14-58-55
+    user: pyriglena
+    text: ''
   engine: OpenMW
   tags:
     - blue
@@ -7635,9 +7789,14 @@
   title: Stone Trail
   titleRu: Каменная тропа
   placement: Outdoors
+  location: Azura's Coast Region
   content: store:/shots/2018-06-16-stone-trail.png
   type: shot
   author: dehero
+  locating:
+    date: 2026-02-15-14-48-03
+    user: pyriglena
+    text: Azura's Coast Region 17,-3, south-east of Andalen Ancestral Tomb
   engine: OpenMW
   tags:
     - bridge
@@ -8326,9 +8485,16 @@
   title: Road to a Dwemer Tower
   titleRu: Дорога к двемерской башне
   placement: Outdoors
+  location:
+    - Sheogorad Region
+    - Dagon Fel, Sorkvild's Tower
   content: store:/shots/2018-06-29-road-to-a-dwemer-tower.png
   type: shot
   author: dehero
+  locating:
+    date: 2026-02-15-14-27-27
+    user: pyriglena
+    text: ''
   engine: OpenMW
   tags:
     - tower
@@ -8981,9 +9147,14 @@
   title: Passing Guard
   titleRu: Проходящий стражник
   placement: Outdoors
+  location: Khuul
   content: store:/shots/2018-07-14-passing-guard.png
   type: shot
   author: dehero
+  locating:
+    date: 2026-02-15-14-24-22
+    user: pyriglena
+    text: ''
   engine: OpenMW
   tags:
     - guard
@@ -9069,9 +9240,16 @@
   title: To the Swamps
   titleRu: К болотам
   placement: Outdoors
+  location:
+    - Ascadian Isles Region
+    - Bitter Coast Region
   content: store:/shots/2018-07-16-to-the-swamps.png
   type: shot
   author: dehero
+  locating:
+    date: 2026-02-15-14-17-44
+    user: pyriglena
+    text: Ascadian Isles Region 1,-10, between Vivec and Abaesen-Pulu Egg Mine
   engine: OpenMW
   tags:
     - bridge
@@ -9652,9 +9830,14 @@
   title: Sulfur Forest
   titleRu: Серный лес
   placement: Outdoors
+  location: Molag Amur Region
   content: store:/shots/2018-07-28-sulfur-forest.png
   type: shot
   author: dehero
+  locating:
+    date: 2026-02-15-14-02-03
+    user: pyriglena
+    text: Molag Amur Region 9,-2, north-west of Nchuleftingth
   engine: OpenMW
   mark: A2
   posts:
@@ -9791,9 +9974,17 @@
   title: Spires
   titleRu: Острия
   placement: Outdoors
+  location:
+    - Dagon Fel
+    - Dagon Fel, Vacant Tower
+    - Dagon Fel, Andre Maul's Tower
   content: store:/shots/2018-07-31-spires.png
   type: shot
   author: dehero
+  locating:
+    date: 2026-02-15-13-55-00
+    user: pyriglena
+    text: ''
   engine: OpenMW
   tags:
     - dwemer
@@ -10151,9 +10342,16 @@
   title: Give Me Your Paw
   titleRu: Дай лапу
   placement: Outdoors
+  location:
+    - Ashlands Region
+    - Elith-Pal Mine
   content: store:/shots/2018-08-10-give-me-your-paw.png
   type: shot
   author: dehero
+  locating:
+    date: 2026-02-15-13-52-00
+    user: pyriglena
+    text: ''
   engine: OpenMW
   tags:
     - nixhound
@@ -10297,9 +10495,16 @@
   title: Sad Rat
   titleRu: Грустная крыса
   placement: Outdoors
+  location:
+    - Sheogorad Region
+    - Sarethi Ancestral Tomb
   content: store:/shots/2018-08-13-sad-rat.png
   type: shot
   author: dehero
+  locating:
+    date: 2026-02-15-13-47-18
+    user: pyriglena
+    text: ''
   engine: OpenMW
   tags:
     - rat
@@ -11520,9 +11725,14 @@
   title: In the Wisewoman's Yurt
   titleRu: В юрте шаманки
   placement: Indoors
+  location: Urshilaku Camp, Wise Woman's Yurt
   content: store:/shots/2018-09-06-in-the-wisewomans-yurt.png
   type: shot
   author: dehero
+  locating:
+    date: 2026-02-15-13-23-24
+    user: pyriglena
+    text: ''
   engine: OpenMW
   tags:
     - yurt
@@ -11847,9 +12057,16 @@
   title: Forager
   titleRu: Фуражир
   placement: Outdoors
+  location:
+    - Molag Amur Region
+    - Shashurari Camp
   content: store:/shots/2018-09-12-forager.png
   type: shot
   author: dehero
+  locating:
+    date: 2026-02-15-13-11-16
+    user: pyriglena
+    text: Molag Amur Region 9,-1, south-west of Tel Uvirith, west of Shashurari Camp
   engine: OpenMW
   mark: A2
   posts:
@@ -12196,9 +12413,14 @@
   title: Dead Grove
   titleRu: Мёртвая роща
   placement: Outdoors
+  location: Molag Amur Region
   content: store:/shots/2018-09-18-dead-grove.png
   type: shot
   author: dehero
+  locating:
+    date: 2026-02-15-12-29-38
+    user: pyriglena
+    text: Molag Amur Region 10,3, crossroads south of Andules Ancestral Tomb
   engine: OpenMW
   mark: A2
   posts:
@@ -12548,9 +12770,14 @@
   title: What Do You Know About Comfort?
   titleRu: Что вы знаете о комфорте?
   placement: Indoors
+  location: Molag Mar, Temple
   content: store:/shots/2018-09-25-what-do-you-know-about-comfort.png
   type: shot
   author: dehero
+  locating:
+    date: 2026-02-15-12-20-44
+    user: pyriglena
+    text: ''
   mark: B1
   posts:
     - service: ig
@@ -13005,9 +13232,16 @@
   title: Netch Over the Puddle
   titleRu: Нетч над лужей
   placement: Outdoors
+  location:
+    - Azura's Coast Region
+    - Tel Fyr
   content: store:/shots/2018-10-04-netch-over-the-puddle.png
   type: shot
   author: dehero
+  locating:
+    date: 2026-02-15-11-42-11
+    user: pyriglena
+    text: Azura's Coast Region 14,2, north-west of Tel Fyr
   engine: OpenMW
   tags:
     - netch
@@ -13199,9 +13433,17 @@
   title: On the Way to the Crater
   titleRu: На пути к кратеру
   placement: Outdoors
+  location:
+    - Ashlands Region
+    - Red Mountain Region
+    - Ularradallaku, Shrine
   content: store:/shots/2018-10-07-on-the-way-to-the-crater.png
   type: shot
   author: dehero
+  locating:
+    date: 2026-02-15-11-12-51
+    user: pyriglena
+    text: Ashlands Region 0,8
   engine: OpenMW
   tags:
     - bridge
@@ -13359,9 +13601,17 @@
   title: Thunderstorm Cave
   titleRu: Грозовая пещера
   placement: Outdoors
+  location:
+    - Bitter Coast Region
+    - Sennananit
+    - Hlormaren
   content: store:/shots/2018-10-10-thunderstorm-cave.png
   type: shot
   author: dehero
+  locating:
+    date: 2026-02-15-11-04-42
+    user: pyriglena
+    text: ''
   engine: OpenMW
   mark: A2
   posts:
@@ -13390,9 +13640,14 @@
   title: Books to Ashes
   titleRu: Книга к праху
   placement: Indoors
+  location: Sethan Ancestral Tomb
   content: store:/shots/2018-10-11-books-to-ashes.png
   type: shot
   author: dehero
+  locating:
+    date: 2026-02-15-10-57-24
+    user: pyriglena
+    text: ''
   engine: OpenMW
   tags:
     - book
@@ -14985,9 +15240,16 @@
   title: Sad Reed
   titleRu: Печальный тростник
   placement: Outdoors
+  location:
+    - Azura's Coast Region
+    - Esutanamus
   content: store:/shots/2018-11-14-sad-reed.png
   type: shot
   author: dehero
+  locating:
+    date: 2026-02-14-20-32-23
+    user: pyriglena
+    text: Azura's Coast Region 13,12, the northern coast of the bigger island to the south of Tel Mora (north of Esutanamus)
   engine: OpenMW
   mark: B2
   posts:
@@ -15015,9 +15277,17 @@
   title: Mushroom Tree
   titleRu: Грибное дерево
   placement: Outdoors
+  location:
+    - Azura's Coast Region
+    - Molag Amur Region
+    - Sobitbael Camp
   content: store:/shots/2018-11-15-mushroom-tree.png
   type: shot
   author: dehero
+  locating:
+    date: 2026-02-14-19-57-19
+    user: pyriglena
+    text: Azura's Coast Region 14,1
   engine: OpenMW
   mark: B2
   posts:
@@ -15475,9 +15745,14 @@
   title: Flooded Door
   titleRu: Затопленная дверь
   placement: Indoors
+  location: Shunned Shipwreck, Cabin
   content: store:/shots/2018-11-23-flooded-door.png
   type: shot
   author: dehero
+  locating:
+    date: 2026-02-14-19-41-02
+    user: pyriglena
+    text: South-west of Gnaar Mok
   engine: OpenMW
   tags:
     - door

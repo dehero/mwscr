@@ -1745,9 +1745,14 @@
   title: Stone Flora
   titleRu: Каменная флора
   placement: Outdoors
+  location: Bal Ur
   content: store:/shots/2025-05-15-stone-flora.png
   type: shot
   author: dehero
+  locating:
+    date: 2026-02-14-14-52-03
+    user: pyriglena
+    text: ''
   engine: OpenMW
   tags:
     - daedric
@@ -1956,9 +1961,18 @@
   title: Oblivion in Mundus
   titleRu: Обливион в Мундусе
   placement: Outdoors
+  location:
+    - Molag Amur Region
+    - Saren Ancestral Tomb
   content: store:/shots/2025-05-28-1-oblivion-in-mundus.png
   type: shot
   author: dehero
+  locating:
+    date: 2026-02-14-14-57-52
+    user: pyriglena
+    text: >-
+      Molag Amur Region 1,-2 (signposts: Balmora (right); Molag Mar, Mount Kand, Mount Assarnibibi (left); Pelagiad,
+      Vivec (straight))
   engine: OpenMW
   tags:
     - lava

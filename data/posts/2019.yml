@@ -2,9 +2,16 @@
   title: Welcome Back
   titleRu: Добро пожаловать обратно
   placement: Outdoors
+  location:
+    - Ascadian Isles Region
+    - Gro-Bagrat Plantation
   content: store:/shots/2019-02-05-welcome-back.png
   type: shot
   author: dehero
+  locating:
+    date: 2026-02-14-19-36-25
+    user: pyriglena
+    text: North of Vivec
   engine: OpenMW
   mark: B1
   posts:
@@ -521,9 +528,16 @@
   title: Landscape with a Pipe
   titleRu: Пейзаж с трубой
   placement: Outdoors
+  location:
+    - Ashlands Region
+    - Bthuand
   content: store:/shots/2019-02-17-landscape-with-a-pipe.png
   type: shot
   author: dehero
+  locating:
+    date: 2026-02-14-19-19-57
+    user: pyriglena
+    text: ''
   engine: OpenMW
   mark: E
   posts:
@@ -936,9 +950,16 @@
   title: Mirror Coast
   titleRu: Зеркальный берег
   placement: Outdoors
+  location:
+    - Azura's Coast Region
+    - Raviro Ancestral Tomb
   content: store:/shots/2019-02-26-mirror-coast.png
   type: shot
   author: dehero
+  locating:
+    date: 2026-02-14-19-08-48
+    user: pyriglena
+    text: Between Raviro Ancestral Tomb and Telasero
   engine: OpenMW
   mark: A2
   posts:
@@ -1006,9 +1027,16 @@
   title: Guardians of the Cave
   titleRu: Стражи пещеры
   placement: Outdoors
+  location:
+    - Azura's Coast Region
+    - Salmantu
   content: store:/shots/2019-03-01-guardians-of-the-cave.png
   type: shot
   author: dehero
+  locating:
+    date: 2026-02-14-18-51-38
+    user: pyriglena
+    text: North of the Holamayan Monastery
   engine: OpenMW
   tags:
     - netch
@@ -1258,9 +1286,16 @@
   title: An Old Bridge
   titleRu: Старый мост
   placement: Outdoors
+  location:
+    - Bitter Coast Region
+    - Yasamsi
   content: store:/shots/2019-03-19-an-old-bridge.png
   type: shot
   author: dehero
+  locating:
+    date: 2026-02-14-18-29-08
+    user: pyriglena
+    text: Odai River flows into the Inner Sea
   engine: OpenMW
   tags:
     - bridge
@@ -1294,9 +1329,14 @@
   title: Sorcerer's Cosiness
   titleRu: Уют чародея
   placement: Indoors
+  location: Odirniran, Tower
   content: store:/shots/2019-03-21-sorcerers-cosiness.png
   type: shot
   author: dehero
+  locating:
+    date: 2026-02-14-18-43-01
+    user: pyriglena
+    text: ''
   engine: OpenMW
   mark: B2
   posts:

@@ -1699,6 +1699,9 @@
   title: Muckspunges on the Coast
   titleRu: Мускпунж на побережье
   placement: Outdoors
+  location:
+    - West Gash Region
+    - Subdun
   content: store:/shots/2024-04-24-muckspunges-on-the-coast.png
   trash:
     - store:/trash/natty.2024-03-24-11-44-29.png
@@ -1708,6 +1711,10 @@
   author:
     - natty
     - dehero
+  locating:
+    date: 2026-02-14-15-18-46
+    user: pyriglena
+    text: West Gash Region -11,8, not far from Berandas
   engine: OpenMW
   tags:
     - coast
