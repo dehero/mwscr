@@ -1453,9 +1453,14 @@
   title: Opposing the Dusk
   titleRu: Против сумерек
   placement: Outdoors
+  location: Buckmoth Legion Fort
   content: store:/shots/2019-05-09-opposing-the-dusk.png
   type: shot
   author: dehero
+  locating:
+    date: 2026-02-16-19-25-00
+    user: anonimous
+    text: ''
   engine: OpenMW
   mark: B1
   posts:
@@ -1811,9 +1816,14 @@
   title: Dreamer
   titleRu: Видящий
   placement: Indoors
+  location: Vivec, Arena Underworks
   content: store:/shots/2019-10-02-dreamer.png
   type: shot
   author: dehero
+  locating:
+    date: 2026-02-16-19-21-30
+    user: pyriglena
+    text: ''
   engine: OpenMW
   tags:
     - sewer
@@ -1945,9 +1955,14 @@
   title: Saber and Heart
   titleRu: Сабля и сердце
   placement: Indoors
+  location: Kushtashpi, Shrine
   content: store:/shots/2019-10-05-saber-and-heart.png
   type: shot
   author: dehero
+  locating:
+    date: 2026-02-16-19-45-39
+    user: pyriglena
+    text: ''
   engine: OpenMW
   tags:
     - saber

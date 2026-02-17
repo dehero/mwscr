@@ -132,9 +132,14 @@
   title: Alchemy Corner
   titleRu: Алхимический уголок
   placement: Indoors
+  location: Caldera, Guild of Mages
   content: store:/shots/2017-01-05-alchemy-corner.png
   type: shot
   author: dehero
+  locating:
+    date: 2025-04-10
+    user: delanospies
+    text: ''
   engine: OpenMW
   mark: A2
   posts:
@@ -481,9 +486,14 @@
   title: Statue of Molag Bal
   titleRu: Статуя Молаг Бала
   placement: Indoors
+  location: Yansirramus, Shrine
   content: store:/shots/2017-01-14-statue-of-molag-bal.png
   type: shot
   author: dehero
+  locating:
+    date: 2026-02-16-19-05-58
+    user: pyriglena
+    text: ''
   engine: OpenMW
   tags:
     - daedric
@@ -1316,9 +1326,14 @@
   title: Camp in the Haze
   titleRu: Стоянка во мгле
   placement: Outdoors
+  location: Ashlands Region
   content: store:/shots/2017-01-29-camp-in-the-haze.png
   type: shot
   author: dehero
+  locating:
+    date: 2026-02-16-18-57-49
+    user: pyriglena
+    text: Ashlands Region 3,14, south-west of Bthuand, Mabrigash Zebba Asharnalit and Tissamsi Asharapli
   engine: OpenMW
   tags:
     - haze
@@ -2156,9 +2171,16 @@
   title: Sailboat in Coastal Waters
   titleRu: Парусная шлюпка в прибрежных водах
   placement: Outdoors
+  location:
+    - Azura's Coast Region
+    - Tel Aruhn
   content: store:/shots/2017-02-15-sailboat-in-coastal-waters.png
   type: shot
   author: dehero
+  locating:
+    date: 2026-02-16-18-51-09
+    user: pyriglena
+    text: ''
   engine: OpenMW
   mark: A2
   posts:
@@ -2267,9 +2289,14 @@
   title: Is This Some Intimate Moment?
   titleRu: Это какой-то интимный момент?
   placement: Indoors
+  location: Vivec, St. Olms Haunted Manor
   content: store:/shots/2017-02-18-is-this-some-intimate-moment.png
   type: shot
   author: dehero
+  locating:
+    date: 2026-02-16-18-47-37
+    user: pyriglena
+    text: ''
   engine: OpenMW
   tags:
     - love
@@ -3890,9 +3917,14 @@
   title: Malacath's Shrine
   titleRu: Святилище Малаката
   placement: Indoors
+  location: Dushariran, Shrine
   content: store:/shots/2017-03-23-malacaths-shrine.png
   type: shot
   author: dehero
+  locating:
+    date: 2026-02-16-18-45-13
+    user: pyriglena
+    text: ''
   engine: OpenMW
   tags:
     - shrine
@@ -4085,9 +4117,14 @@
   title: On the Edge of a Dead Forest
   titleRu: На краю мёртвого леса
   placement: Outdoors
+  location: West Gash Region
   content: store:/shots/2017-03-27-on-the-edge-of-a-dead-forest.png
   type: shot
   author: dehero
+  locating:
+    date: 2026-02-16-18-22-37
+    user: pyriglena
+    text: West Gash Region -7,8, south of Dushariran Daedric ruins, Mabrigash Elumabi Malibiran and Midnabi Sobdishapal
   engine: OpenMW
   tags:
     - campfire
@@ -4141,9 +4178,14 @@
   title: Entrance Arch of Propylon Chamber
   titleRu: Вход Арочного зала
   placement: Indoors
+  location: Hlormaren, Propylon Chamber
   content: store:/shots/2017-03-28-entrance-arch-of-propylon-chamber.png
   type: shot
   author: dehero
+  locating:
+    date: 2026-02-16-18-19-33
+    user: pyriglena
+    text: ''
   engine: OpenMW
   tags:
     - colorlights
@@ -4231,9 +4273,16 @@
   title: Morning Hunt
   titleRu: Утренняя охота
   placement: Outdoors
+  location:
+    - Azura's Coast Region
+    - Baram Ancestral Tomb
   content: store:/shots/2017-03-30-morning-hunt.png
   type: shot
   author: dehero
+  locating:
+    date: 2026-02-16-18-16-17
+    user: pyriglena
+    text: ''
   engine: OpenMW
   tags:
     - hunt
@@ -16402,9 +16451,14 @@
   title: Triple Storage
   titleRu: Тройные запасы
   placement: Indoors
+  location: Dagon Fel, End of the World Renter Rooms
   content: store:/shots/2017-12-28-triple-storage.png
   type: shot
   author: dehero
+  locating:
+    date: 2026-02-16-19-41-10
+    user: pyriglena
+    text: ''
   engine: OpenMW
   tags:
     - candle

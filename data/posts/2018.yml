@@ -3324,9 +3324,16 @@
   title: To the Sunset
   titleRu: К закату
   placement: Outdoors
+  location:
+    - Bitter Coast Region
+    - An Abandoned Shack
   content: store:/shots/2018-03-13-to-the-sunset.png
   type: shot
   author: dehero
+  locating:
+    date: 2026-02-16-19-34-08
+    user: pyriglena
+    text: ''
   engine: OpenMW
   tags:
     - boat

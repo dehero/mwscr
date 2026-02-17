@@ -1555,9 +1555,14 @@
   title: A Boxy Nightstand
   titleRu: Ящик-тумбочка
   placement: Indoors
+  location: 'Caldera, Hodlismod: Armorer'
   content: store:/shots/2016-12-20-a-boxy-nightstand.png
   type: shot
   author: dehero
+  locating:
+    date: 2026-02-16-19-14-10
+    user: pyriglena
+    text: ''
   engine: OpenMW
   mark: A1
   posts:

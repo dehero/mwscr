@@ -1059,9 +1059,14 @@
   title: Guard of Lower Waistworks
   titleRu: Страж Нижнего Пояса
   placement: Indoors
+  location: Vivec, Hlaalu Waistworks
   content: store:/shots/2020-10-15-guard-of-lower-waistworks.png
   type: shot
   author: dehero
+  locating:
+    date: 2026-02-16-19-18-03
+    user: pyriglena
+    text: ''
   engine: OpenMW
   tags:
     - ordinator
