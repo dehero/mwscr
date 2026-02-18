@@ -1940,6 +1940,7 @@
   title: Dinner for Four
   titleRu: Обед на четверых
   placement: Indoors
+  location: Vivec, St. Delyn Potter's Hall
   content: store:/shots/2024-05-05-dinner-for-four.png
   trash:
     - store:/trash/dehero.2024-03-05-20-01-36.png
@@ -1947,6 +1948,10 @@
     - store:/trash/dehero.2024-03-05-20-00-29.png
   type: shot
   author: dehero
+  locating:
+    date: 2026-02-17-16-54-25
+    user: pyriglena
+    text: ''
   engine: OpenMW
   tags:
     - table

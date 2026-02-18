@@ -1316,9 +1316,14 @@
   title: Nix-Hound
   titleRu: Никс-гончая
   placement: Outdoors
+  location: Molag Amur Region
   content: store:/shots/2020-10-19-nix-hound.png
   type: shot
   author: dehero
+  locating:
+    date: 2026-02-17-17-12-16
+    user: pyriglena
+    text: Molag Amur region 8,-1, road east of Aran Ancestral Tomb
   engine: OpenMW
   mark: B2
   posts:

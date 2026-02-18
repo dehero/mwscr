@@ -11689,9 +11689,17 @@
   title: Floating Bottle
   titleRu: Плавучая бутылка
   placement: Outdoors
+  location:
+    - Ascadian Isles Region
+    - Fields of Kummu
+    - Desolate Shipwreck
   content: store:/shots/2017-09-09-floating-bottle.png
   type: shot
   author: dehero
+  locating:
+    date: 2026-02-17-19-58-28
+    user: pyriglena
+    text: ''
   engine: OpenMW
   tags:
     - bottle
@@ -12391,9 +12399,14 @@
   title: In a Mushroom House
   titleRu: В грибном доме
   placement: Indoors
+  location: Sadrith Mora, Hleras Gidren's House
   content: store:/shots/2017-09-25-in-a-mushroom-house.png
   type: shot
   author: dehero
+  locating:
+    date: 2026-02-17-19-52-20
+    user: pyriglena
+    text: ''
   engine: OpenMW
   tags:
     - candle
@@ -12472,9 +12485,16 @@
   title: Aground
   titleRu: На мели
   placement: Outdoors
+  location:
+    - Bitter Coast Region
+    - Shunned Shipwreck
   content: store:/shots/2017-09-27-aground.png
   type: shot
   author: dehero
+  locating:
+    date: 2026-02-17-19-47-10
+    user: pyriglena
+    text: ''
   engine: OpenMW
   tags:
     - shipwreck
@@ -12556,9 +12576,14 @@
   title: Mining Company Office
   titleRu: Офис Горнодобывающей Компании
   placement: Outdoors
+  location: Caldera, Mining Company Office
   content: store:/shots/2017-09-28-mining-company-office.png
   type: shot
   author: dehero
+  locating:
+    date: 2026-02-17-19-44-13
+    user: pyriglena
+    text: ''
   engine: OpenMW
   mark: A2
   posts:
@@ -12633,9 +12658,14 @@
   title: In a Warm Hut
   titleRu: В тёплой хижине
   placement: Indoors
+  location: Ald Velothi, Ienas Arvel's Shack
   content: store:/shots/2017-09-30-in-a-warm-hut.png
   type: shot
   author: dehero
+  locating:
+    date: 2026-02-17-19-42-59
+    user: pyriglena
+    text: ''
   engine: OpenMW
   mark: A2
   posts:
@@ -12956,9 +12986,16 @@
   title: In the Evening Under a Canopy
   titleRu: Вечером под навесом
   placement: Outdoors
+  location:
+    - Ald Velothi
+    - Ald Velothi, Ienas Arvel's Shack
   content: store:/shots/2017-10-09-in-the-evening-under-a-canopy.png
   type: shot
   author: dehero
+  locating:
+    date: 2026-02-17-19-37-50
+    user: pyriglena
+    text: ''
   engine: OpenMW
   tags:
     - lantern
@@ -13032,9 +13069,16 @@
   title: On the Pass
   titleRu: На перевале
   placement: Outdoors
+  location:
+    - West Gash Region
+    - Arkngthunch-Sturdumz
   content: store:/shots/2017-10-10-on-the-pass.png
   type: shot
   author: dehero
+  locating:
+    date: 2026-02-17-19-33-48
+    user: pyriglena
+    text: South of Arkngthunch-Sturdumz
   engine: OpenMW
   tags:
     - dwemer
@@ -13198,9 +13242,14 @@
   title: Land of Ruins
   titleRu: Земля руин
   placement: Outdoors
+  location: Bal Fell
   content: store:/shots/2017-10-14-land-of-ruins.png
   type: shot
   author: dehero
+  locating:
+    date: 2026-02-17-19-31-11
+    user: pyriglena
+    text: ''
   engine: OpenMW
   tags:
     - ruin
@@ -13414,9 +13463,14 @@
   title: Table for One
   titleRu: Столик на одного
   placement: Indoors
+  location: Sadrith Mora, Hleras Gidren's House
   content: store:/shots/2017-10-19-table-for-one.png
   type: shot
   author: dehero
+  locating:
+    date: 2026-02-17-19-23-35
+    user: pyriglena
+    text: ''
   engine: OpenMW
   tags:
     - bar
@@ -13440,6 +13494,7 @@
   title: Corpse of a Noble Guard
   titleRu: Тело знатного гвардейца
   placement: Indoors
+  location: Sandas Ancestral Tomb
   content: store:/shots/2017-10-20-corpse-of-a-noble-guard.png
   type: shot
   author: dehero
@@ -13666,9 +13721,14 @@
   title: The Last Berth
   titleRu: Последний причал
   placement: Outdoors
+  location: West Gash Region
   content: store:/shots/2017-10-25-the-last-berth.png
   type: shot
   author: dehero
+  locating:
+    date: 2026-02-17-19-12-38
+    user: pyriglena
+    text: West Gash Region -14,12, south of Eluba-Addon Egg Mine
   engine: OpenMW
   tags:
     - boat
@@ -13982,9 +14042,14 @@
   title: Green Algae and Dead Lands
   titleRu: Зелёные водоросли и мёртвые земли
   placement: Outdoors
+  location: Molag Amur Region
   content: store:/shots/2017-10-31-green-algae-and-dead-lands.png
   type: shot
   author: dehero
+  locating:
+    date: 2026-02-17-19-01-56
+    user: pyriglena
+    text: Molag Amur Region 5,-2, north of Lake Nabia
   engine: OpenMW
   mark: B2
   posts:
@@ -14315,9 +14380,14 @@
   title: Warehouse Shipping Log
   titleRu: Складская учётная книга
   placement: Indoors
+  location: Seyda Neen, Census and Excise Warehouse
   content: store:/shots/2017-11-08-warehouse-shipping-log.png
   type: shot
   author: dehero
+  locating:
+    date: 2026-02-17-18-52-16
+    user: pyriglena
+    text: ''
   engine: OpenMW
   tags:
     - book
@@ -14847,9 +14917,14 @@
   title: Soul of Scamp in Mummy's Hands
   titleRu: Душа скампа в руках мумии
   placement: Indoors
+  location: Urshilaku, Juno Burial
   content: store:/shots/2017-11-20-soul-of-scamp-in-mummys-hands.png
   type: shot
   author: dehero
+  locating:
+    date: 2026-02-17-18-47-37
+    user: pyriglena
+    text: ''
   engine: OpenMW
   tags:
     - mummy
@@ -14926,9 +15001,14 @@
   title: At the Margin
   titleRu: У предела
   placement: Outdoors
+  location: Red Mountain Region
   content: store:/shots/2017-11-22-at-the-margin.png
   type: shot
   author: dehero
+  locating:
+    date: 2026-02-17-18-35-56
+    user: pyriglena
+    text: Red Mountain Region 4,6, Foyada Ashur-Dan outside the Ghostfence
   engine: OpenMW
   mark: A2
   posts:
@@ -15084,9 +15164,14 @@
   title: In the Cell of Vuvil Senim
   titleRu: В камере Вувила Сенима
   placement: Indoors
+  location: Molag Mar, Armigers Stronghold
   content: store:/shots/2017-11-26-in-the-cell-of-vuvil-senim.png
   type: shot
   author: dehero
+  locating:
+    date: 2026-02-17-18-28-59
+    user: pyriglena
+    text: ''
   engine: OpenMW
   tags:
     - prison
@@ -15284,9 +15369,14 @@
   title: Lava Kwama
   titleRu: Лавовые квама
   placement: Indoors
+  location: Maelu Egg Mine
   content: store:/shots/2017-11-30-lava-kwama.png
   type: shot
   author: dehero
+  locating:
+    date: 2026-02-17-18-27-39
+    user: pyriglena
+    text: ''
   engine: OpenMW
   tags:
     - lava
@@ -15334,9 +15424,14 @@
   title: Speak Quickly, Outlander
   titleRu: Говори скорее
   placement: Indoors
+  location: Andasreth, Upper Level
   content: store:/shots/2017-12-01-speak-quickly-outlander.png
   type: shot
   author: dehero
+  locating:
+    date: 2026-02-17-18-25-18
+    user: pyriglena
+    text: Athesie Andas and Brelar Andas
   engine: OpenMW
   tags:
     - women
@@ -15546,9 +15641,14 @@
   title: In the Boat by the Pier
   titleRu: В лодке у причала
   placement: Outdoors
+  location: Khuul
   content: store:/shots/2017-12-05-in-the-boat-by-the-pier.png
   type: shot
   author: dehero
+  locating:
+    date: 2026-02-17-18-20-19
+    user: pyriglena
+    text: ''
   engine: OpenMW
   tags:
     - pier
@@ -15633,9 +15733,16 @@
   title: Puzzled Ashlanders
   titleRu: Озадаченные эшлендеры
   placement: Outdoors
+  location:
+    - Yakaridan Camp
+    - Grazelands Region
   content: store:/shots/2017-12-07-puzzled-ashlanders.png
   type: shot
   author: dehero
+  locating:
+    date: 2026-02-17-18-18-30
+    user: pyriglena
+    text: South of Tel Vos
   engine: OpenMW
   mark: B1
   posts:
@@ -15707,9 +15814,14 @@
   title: Lower Circle
   titleRu: Низший круг
   placement: Indoors
+  location: Tel Aruhn, Underground
   content: store:/shots/2017-12-08-lower-circle.png
   type: shot
   author: dehero
+  locating:
+    date: 2026-02-17-18-11-18
+    user: pyriglena
+    text: ''
   engine: OpenMW
   tags:
     - slave
@@ -16533,6 +16645,7 @@
   title: Time to Meet the Ancestors
   titleRu: Время встретиться с предками
   placement: Indoors
+  location: Ald Daedroth, Inner Shrine
   content: store:/shots/2017-12-30-time-to-meet-the-ancestors.png
   type: shot
   author: dehero

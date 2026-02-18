@@ -9686,9 +9686,14 @@
   title: To the Glory of Saint Dagoth
   titleRu: Во славу Святого Дагота
   placement: Indoors
+  location: Vemynal, Outer Fortress
   content: store:/shots/2018-07-25-to-the-glory-of-saint-dagoth.png
   type: shot
   author: dehero
+  locating:
+    date: 2026-02-17-17-59-12
+    user: pyriglena
+    text: Dagoth Nilor
   engine: OpenMW
   mark: A1
   posts:
@@ -10733,9 +10738,14 @@
   title: Vampire and Ghost
   titleRu: Вампир и призрак
   placement: Indoors
+  location: Drethan Ancestral Tomb
   content: store:/shots/2018-08-18-vampire-and-ghost.png
   type: shot
   author: dehero
+  locating:
+    date: 2026-02-17-17-44-17
+    user: pyriglena
+    text: Marara
   engine: OpenMW
   tags:
     - vampire

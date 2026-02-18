@@ -1853,6 +1853,7 @@
   title: Maiden and Knight
   titleRu: Дева и рыцарь
   placement: Outdoors
+  location: Onnissiralis
   content: store:/shots/2019-10-03-maiden-and-knight.png
   type: shot
   author: dehero
@@ -2512,9 +2513,17 @@
   title: Sunset Ridge
   titleRu: Закатный хребет
   placement: Outdoors
+  location:
+    - Ashlands Region
+    - Red Mountain Region
+    - Ularradallaku
   content: store:/shots/2019-10-20-sunset-ridge.png
   type: shot
   author: dehero
+  locating:
+    date: 2026-02-17-17-31-45
+    user: pyriglena
+    text: Ashlands Region 0,8, at the rope bridge
   engine: OpenMW
   mark: A1
   posts:
