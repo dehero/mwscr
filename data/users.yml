@@ -2229,11 +2229,11 @@ goosevich76:
   profiles:
     - service: tg
       id: '5385620621'
-      updated: 2026-02-19-13-34-12
+      updated: 2026-02-19-19-44-28
       accessHash: '-7130473396589324830'
       username: horwwwaty
       name: choven
-      avatar: store:/avatars/tg-5433819733745667004.jpg
+      avatar: store:/avatars/tg-5242538159717945997.jpg
 gorheim:
   profiles:
     - service: tg
@@ -4565,6 +4565,13 @@ rattenviech:
       username: Rattenviech
       name: የ፲፫ኛው አልአዝ , ቀንድ ያለው አይጥ
       avatar: store:/avatars/tg-1392331305792506627.jpg
+reanimatrix:
+  profiles:
+    - service: tg
+      id: '5221327246'
+      updated: 2026-02-19-19-44-20
+      accessHash: '2760022429796079203'
+      name: reanimatrix
 redoranar:
   profiles:
     - service: tg

@@ -7315,15 +7315,26 @@
       id: DU81GoUF8_o
       mediaId: '18565710904003689'
       published: 2026-02-19-19-01-10
+      updated: 2026-02-19-19-44-28
       followers: 1607
+      likes: 9
     - service: vk
       id: 3099
       published: 2026-02-19-19-01-18
+      updated: 2026-02-19-19-44-19
       followers: 1604
+      likes: 4
+      views: 55
     - service: tg
       id: 1154
       published: 2026-02-19-19-01-34
+      updated: 2026-02-19-19-44-30
       followers: 891
+      likes: 16
+      views: 69
+      comments: !c |-
+        CxuAkpPLQnnHdST6gACrcmVhbmltYXRyaXik8J+WlZPLQnnHdH72gACrZ29vc2V2aWNoNzak8J+Z
+        ggM=
 2017-05-31-steam-and-mist:
   title: Steam and Mist
   titleRu: Пар и мгла
