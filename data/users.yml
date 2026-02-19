@@ -600,7 +600,7 @@ arya-stark:
   profiles:
     - service: vk
       id: '820702664'
-      updated: 2026-02-19-13-35-23
+      updated: 2026-02-19-20-41-01
       username: id820702664
       name: Арья Старк
       avatar: store:/avatars/vk-689aa89d.jpg
@@ -1035,7 +1035,7 @@ chernosotinec:
   profiles:
     - service: vk
       id: '355750944'
-      updated: 2026-02-19-13-34-54
+      updated: 2026-02-19-20-41-01
       username: Chernosotinec
       name: Артём Стекольщиков
       avatar: store:/avatars/vk-8aee5603.jpg
@@ -2229,7 +2229,7 @@ goosevich76:
   profiles:
     - service: tg
       id: '5385620621'
-      updated: 2026-02-19-19-44-28
+      updated: 2026-02-19-20-40-56
       accessHash: '-7130473396589324830'
       username: horwwwaty
       name: choven
@@ -2945,7 +2945,7 @@ kevy-c:
   profiles:
     - service: tg
       id: '5067683234'
-      updated: 2026-02-19-13-35-07
+      updated: 2026-02-19-20-41-01
       accessHash: '-903667913374325979'
       username: Kevy_c
       name: Dash
@@ -4569,7 +4569,7 @@ reanimatrix:
   profiles:
     - service: tg
       id: '5221327246'
-      updated: 2026-02-19-19-44-20
+      updated: 2026-02-19-20-40-51
       accessHash: '2760022429796079203'
       name: reanimatrix
 redoranar:
