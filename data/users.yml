@@ -600,7 +600,7 @@ arya-stark:
   profiles:
     - service: vk
       id: '820702664'
-      updated: 2026-02-19-20-41-01
+      updated: 2026-02-19-23-37-06
       username: id820702664
       name: Арья Старк
       avatar: store:/avatars/vk-689aa89d.jpg
@@ -2229,7 +2229,7 @@ goosevich76:
   profiles:
     - service: tg
       id: '5385620621'
-      updated: 2026-02-19-22-39-10
+      updated: 2026-02-19-23-36-56
       accessHash: '-7130473396589324830'
       username: horwwwaty
       name: choven
@@ -2945,7 +2945,7 @@ kevy-c:
   profiles:
     - service: tg
       id: '5067683234'
-      updated: 2026-02-19-21-40-47
+      updated: 2026-02-19-23-36-56
       accessHash: '-903667913374325979'
       username: Kevy_c
       name: Dash
@@ -4397,10 +4397,10 @@ porsankka666:
   profiles:
     - service: vk
       id: '320093421'
-      updated: 2026-02-15-08-16-14
+      updated: 2026-02-19-23-37-00
       username: porsankka666
       name: Дмитрий Иванов-Соломин
-      avatar: store:/avatars/vk-c9c8bba2.jpg
+      avatar: store:/avatars/vk-0a090d7d.jpg
 promty75:
   profiles:
     - service: ig
@@ -4569,7 +4569,7 @@ reanimatrix:
   profiles:
     - service: tg
       id: '5221327246'
-      updated: 2026-02-19-22-39-02
+      updated: 2026-02-19-23-36-56
       accessHash: '2760022429796079203'
       name: reanimatrix
 redoranar:
@@ -4854,7 +4854,7 @@ self-creating:
   profiles:
     - service: vk
       id: '50058433'
-      updated: 2026-02-15-08-33-55
+      updated: 2026-02-19-23-37-05
       username: self_creating
       name: Антон Коненков
       avatar: store:/avatars/vk-ef1ee023.jpg
@@ -4886,7 +4886,7 @@ sergey-b-2:
   profiles:
     - service: vk
       id: '1077446394'
-      updated: 2026-02-19-13-34-10
+      updated: 2026-02-19-23-37-06
       username: id1077446394
       name: Сергей Б
       avatar: store:/avatars/vk-5a7c7910.jpg
