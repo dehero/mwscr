@@ -463,9 +463,14 @@
   title: Dance of Dagoth
   titleRu: Танец Дагота
   placement: Indoors
+  location: Falasmaryon, Lower Level
   content: store:/shots/2018-01-11-dance-of-dagoth.png
   type: shot
   author: dehero
+  locating:
+    date: 2026-02-18-17-47-28
+    user: pyriglena
+    text: Dagoth Tanis
   engine: OpenMW
   mark: A2
   posts:
@@ -809,9 +814,17 @@
   title: Island of Cliffracer
   titleRu: Остров скального наездника
   placement: Outdoors
+  location:
+    - An Abandoned Shack
+    - Shunned Shipwreck
+    - Bitter Coast Region
   content: store:/shots/2018-01-19-island-of-cliffracer.png
   type: shot
   author: dehero
+  locating:
+    date: 2026-02-18-17-40-31
+    user: pyriglena
+    text: Cliff racer hovers over the shipwreck
   engine: OpenMW
   tags:
     - island
@@ -1011,9 +1024,14 @@
   title: Behind the Overturned Shelf
   titleRu: За опрокинутой полкой
   placement: Indoors
+  location: Dagon Fel, Greidil Half-Troll's House
   content: store:/shots/2018-01-22-behind-the-overturned-shelf.png
   type: shot
   author: dehero
+  locating:
+    date: 2026-02-18-17-38-02
+    user: pyriglena
+    text: ''
   engine: OpenMW
   mark: B1
   posts:
@@ -1626,9 +1644,14 @@
   title: Fork of Horripilation and Other Accessories
   titleRu: Вилка Щекотки и другие принадлежности
   placement: Indoors
+  location: Big Head's Shack
   content: store:/shots/2018-02-05-fork-of-horripilation-and-other-accessories.png
   type: shot
   author: dehero
+  locating:
+    date: 2026-02-18-17-28-09
+    user: pyriglena
+    text: ''
   engine: OpenMW
   tags:
     - fork
@@ -1935,9 +1958,14 @@
   title: Shores of the Plantation Region
   titleRu: Берега района плантаций
   placement: Outdoors
+  location: Dren Plantation
   content: store:/shots/2018-02-12-shores-of-the-plantation-region.png
   type: shot
   author: dehero
+  locating:
+    date: 2026-02-18-17-26-13
+    user: anonimous
+    text: 2,-7, eastern wall
   engine: OpenMW
   mark: B1
   posts:
@@ -2366,9 +2394,14 @@
   title: Nook of Arena
   titleRu: Закуток Арены
   placement: Indoors
+  location: Vivec, Arena Pit
   content: store:/shots/2018-02-20-nook-of-arena.png
   type: shot
   author: dehero
+  locating:
+    date: 2026-02-18-17-22-46
+    user: pyriglena
+    text: Eastern entrance, upper level
   engine: OpenMW
   mark: B1
   posts:
@@ -2703,9 +2736,14 @@
   title: Fieldwork
   titleRu: Полевые работы
   placement: Outdoors
+  location: Arvel Plantation
   content: store:/shots/2018-02-27-fieldwork.png
   type: shot
   author: dehero
+  locating:
+    date: 2026-02-18-17-17-48
+    user: pyriglena
+    text: 2,-6, Kasa, Ma'Dara, J'Kara
   engine: OpenMW
   mark: B2
   posts:
@@ -2842,9 +2880,14 @@
   title: A Little Joy for Hard Worker
   titleRu: Маленькая радость простого работяги
   placement: Indoors
+  location: Ald Velothi, Llerar Vinden's Shack
   content: store:/shots/2018-03-02-a-little-joy-for-hard-worker.png
   type: shot
   author: dehero
+  locating:
+    date: 2026-02-18-17-15-54
+    user: pyriglena
+    text: ''
   engine: OpenMW
   tags:
     - candle
@@ -4054,9 +4097,16 @@
   title: In the Branches
   titleRu: Среди ветвей
   placement: Outdoors
+  location:
+    - Addadshashanammu
+    - Bitter Coast Region
   content: store:/shots/2018-03-27-in-the-branches.png
   type: shot
   author: dehero
+  locating:
+    date: 2026-02-18-16-51-59
+    user: pyriglena
+    text: '-8,0'
   engine: OpenMW
   tags:
     - candle
@@ -5553,9 +5603,14 @@
   title: By the Redoran Balcony
   titleRu: У редоранского балкона
   placement: Indoors
+  location: Ald-ruhn, Venim Manor Right Wing
   content: store:/shots/2018-04-28-by-the-redoran-balcony.png
   type: shot
   author: dehero
+  locating:
+    date: 2026-02-18-16-45-06
+    user: pyriglena
+    text: ''
   engine: OpenMW
   tags:
     - balcony
@@ -7947,6 +8002,9 @@
   title: Azura from Underwater
   titleRu: Азура из-под воды
   placement: Outdoors
+  location:
+    - Shrine of Azura
+    - Azura's Coast Region
   content: store:/shots/2018-06-18-azura-from-underwater.png
   type: shot
   author: dehero

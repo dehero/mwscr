@@ -2076,9 +2076,14 @@
   title: Ancestral Web
   titleRu: Родовая паутина
   placement: Indoors
+  location: Thelas Ancestral Tomb
   content: store:/shots/2019-10-07-ancestral-web.png
   type: shot
   author: dehero
+  locating:
+    date: 2026-02-18-16-30-26
+    user: pyriglena
+    text: ''
   engine: OpenMW
   tags:
     - tomb

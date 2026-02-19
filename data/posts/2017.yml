@@ -5996,9 +5996,17 @@
   title: Neighboring Towers
   titleRu: Башни-соседи
   placement: Outdoors
+  location:
+    - Shishi
+    - Bthungthumz
+    - Ashlands Region
   content: store:/shots/2017-05-04-neighboring-towers.png
   type: shot
   author: dehero
+  locating:
+    date: 2026-02-18-20-34-45
+    user: anonimous
+    text: '-4,15'
   engine: OpenMW
   tags:
     - tower
@@ -6395,6 +6403,7 @@
   title: Inside of Llethri Manor
   titleRu: В поместье Ллетри
   placement: Indoors
+  location: Ald-ruhn, Llethri Manor Entrance
   content: store:/shots/2017-05-11-inside-of-llethri-manor.png
   type: shot
   author: dehero
@@ -7684,9 +7693,16 @@
   title: Velothi Tower at the Crossroads
   titleRu: Велотийская башня на развилке
   placement: Outdoors
+  location:
+    - Mababi
+    - Molag Amur Region
   content: store:/shots/2017-06-08-velothi-tower-at-the-crossroads.png
   type: shot
   author: dehero
+  locating:
+    date: 2026-02-18-20-26-00
+    user: pyriglena
+    text: 9,-3
   engine: OpenMW
   mark: B2
   posts:
@@ -7929,9 +7945,16 @@
   title: Abandoned Dwellings
   titleRu: Заброшенные жилища
   placement: Outdoors
+  location:
+    - Kogoruhn
+    - Ashlands Region
   content: store:/shots/2017-06-15-abandoned-dwellings.png
   type: shot
   author: dehero
+  locating:
+    date: 2026-02-18-20-20-29
+    user: pyriglena
+    text: 0,14
   engine: OpenMW
   mark: B2
   posts:
@@ -8086,9 +8109,14 @@
   title: Crossing Swampy Islands
   titleRu: Пересекая болотистые острова
   placement: Outdoors
+  location: Bitter Coast Region
   content: store:/shots/2017-06-20-crossing-swampy-islands.png
   type: shot
   author: dehero
+  locating:
+    date: 2026-02-18-20-14-40
+    user: pyriglena
+    text: '-8,1, between Aleft and Addadshashanammu'
   engine: OpenMW
   mark: A2
   posts:
@@ -8119,9 +8147,14 @@
   title: In a Fisherman's Hut
   titleRu: В рыбацкой хижине
   placement: Indoors
+  location: Hla Oad, Shurkul gro-Sharga's House
   content: store:/shots/2017-06-21-in-a-fishermans-hut.png
   type: shot
   author: dehero
+  locating:
+    date: 2026-02-18-20-09-37
+    user: pyriglena
+    text: ''
   engine: OpenMW
   tags:
     - candle
@@ -8170,9 +8203,14 @@
   title: The Dreamer Is...
   titleRu: Спящий просыпается...
   placement: Indoors
+  location: Kogoruhn, Dome of Urso
   content: store:/shots/2017-06-22-the-dreamer-is.png
   type: shot
   author: dehero
+  locating:
+    date: 2026-02-18-20-06-42
+    user: pyriglena
+    text: ''
   engine: OpenMW
   mark: B1
   posts:
@@ -8456,9 +8494,16 @@
   title: Misty Ledges
   titleRu: Туманные гряды
   placement: Outdoors
+  location:
+    - Ald-ruhn
+    - Ashlands Region
   content: store:/shots/2017-06-28-misty-ledges.png
   type: shot
   author: dehero
+  locating:
+    date: 2026-02-18-20-04-49
+    user: pyriglena
+    text: ''
   engine: OpenMW
   tags:
     - redoran
@@ -8661,9 +8706,14 @@
   title: In the Captain's Cabin
   titleRu: В каюте капитана
   placement: Indoors
+  location: Falvillo's Endeavor, Cabin
   content: store:/shots/2017-07-03-in-the-captains-cabin.png
   type: shot
   author: dehero
+  locating:
+    date: 2026-02-18-20-03-35
+    user: pyriglena
+    text: ''
   engine: OpenMW
   mark: A2
   posts:
@@ -8968,9 +9018,17 @@
   title: Near Mining Company Office
   titleRu: У офиса Горнодобывающей Компании
   placement: Outdoors
+  location:
+    - Caldera, Mining Company Office
+    - Caldera, Mining Bunkhouse
+    - Caldera, Mining Guard Tower
   content: store:/shots/2017-07-09-near-mining-company-office.png
   type: shot
   author: dehero
+  locating:
+    date: 2026-02-18-20-00-55
+    user: pyriglena
+    text: ''
   engine: OpenMW
   mark: B1
   posts:
@@ -9069,9 +9127,17 @@
   title: Suburb Muckspunge
   titleRu: Пригородный мускспунж
   placement: Outdoors
+  location:
+    - Gnisis
+    - West Gash Region
+    - Gnisis, Vabdas Hut
   content: store:/shots/2017-07-12-suburb-muckspunge.png
   type: shot
   author: dehero
+  locating:
+    date: 2026-02-18-19-57-44
+    user: pyriglena
+    text: ''
   engine: OpenMW
   mark: A2
   posts:
@@ -9115,9 +9181,14 @@
   title: Corpse Preparation, Volume One
   titleRu: О подготовке тел, т. I
   placement: Indoors
+  location: Mawia
   content: store:/shots/2017-07-13-corpse-preparation-volume-one.png
   type: shot
   author: dehero
+  locating:
+    date: 2026-02-18-19-56-23
+    user: pyriglena
+    text: ''
   engine: OpenMW
   tags:
     - necromancy
@@ -9170,9 +9241,14 @@
   title: Near the Night Campfire
   titleRu: Возле ночного костра
   placement: Outdoors
+  location: West Gash Region
   content: store:/shots/2017-07-14-near-the-night-campfire.png
   type: shot
   author: dehero
+  locating:
+    date: 2026-02-18-19-52-57
+    user: pyriglena
+    text: '-7,8, south of Dushariran, Mabrigash Elumabi Malibiran and Midnabi Sobdishapal'
   engine: OpenMW
   tags:
     - campfire
@@ -9617,9 +9693,14 @@
   title: Modest Comfort
   titleRu: Скромный уют
   placement: Indoors
+  location: Seyda Neen, Terurise Girvayne's House
   content: store:/shots/2017-07-24-modest-comfort.png
   type: shot
   author: dehero
+  locating:
+    date: 2026-02-18-19-50-44
+    user: pyriglena
+    text: ''
   engine: OpenMW
   tags:
     - candle
@@ -9670,9 +9751,14 @@
   title: Corpse Preparation, Volume Two
   titleRu: О подготовке тел, т. II
   placement: Indoors
+  location: Mawia
   content: store:/shots/2017-07-26-corpse-preparation-volume-two.png
   type: shot
   author: dehero
+  locating:
+    date: 2026-02-18-19-49-09
+    user: pyriglena
+    text: ''
   engine: OpenMW
   tags:
     - necromancy
@@ -9862,9 +9948,14 @@
   title: In the Sanctuary
   titleRu: В святилище
   placement: Indoors
+  location: Assernerairan, Shrine
   content: store:/shots/2017-07-30-in-the-sanctuary.png
   type: shot
   author: dehero
+  locating:
+    date: 2026-02-18-19-38-14
+    user: pyriglena
+    text: Vivec, St. Olms Underworks
   engine: OpenMW
   tags:
     - candle
@@ -10081,9 +10172,14 @@
   title: Camp Under the Bridge
   titleRu: Лагерь под мостом
   placement: Outdoors
+  location: Ashlands Region
   content: store:/shots/2017-08-05-camp-under-the-bridge.png
   type: shot
   author: dehero
+  locating:
+    date: 2026-02-18-19-20-17
+    user: pyriglena
+    text: '-4,10, between Bal Isra and Maar Gan, Mabrigash Assamanu Shashipal, Nirai Ashishpalirdan and Pilu Shilansour'
   engine: OpenMW
   tags:
     - fireplace
@@ -11406,9 +11502,14 @@
   title: The Last Refuge
   titleRu: Последнее прибежище
   placement: Outdoors
+  location: Ashlands Region
   content: store:/shots/2017-09-01-the-last-refuge.png
   type: shot
   author: dehero
+  locating:
+    date: 2026-02-18-19-15-46
+    user: pyriglena
+    text: '-2,17, north-east of Llando Ancestral Tomb, next to a siltstrider shell'
   engine: OpenMW
   mark: A2
   posts:
@@ -11490,9 +11591,14 @@
   title: Night Halt
   titleRu: Ночной привал
   placement: Outdoors
+  location: Grazelands Region
   content: store:/shots/2017-09-03-night-halt.png
   type: shot
   author: dehero
+  locating:
+    date: 2026-02-18-19-09-33
+    user: pyriglena
+    text: 11,15, south of Ahemmusa Camp
   engine: OpenMW
   tags:
     - encounter
@@ -11618,9 +11724,14 @@
   title: Wise Woman's Table
   titleRu: Столик шаманки
   placement: Indoors
+  location: Zainab Camp, Wise Woman's Yurt
   content: store:/shots/2017-09-07-wise-womans-table.png
   type: shot
   author: dehero
+  locating:
+    date: 2026-02-18-19-08-43
+    user: pyriglena
+    text: ''
   engine: OpenMW
   tags:
     - candle
@@ -11956,9 +12067,14 @@
   title: Lava Swamps
   titleRu: Лавовые болота
   placement: Outdoors
+  location: Molag Amur Region
   content: store:/shots/2017-09-15-lava-swamps.png
   type: shot
   author: dehero
+  locating:
+    date: 2026-02-18-19-01-37
+    user: pyriglena
+    text: 9,-1, between Galom Daeus and Nchuleftingth
   engine: OpenMW
   tags:
     - lava
@@ -12115,9 +12231,14 @@
   title: Frugal Meal
   titleRu: Скромная трапеза
   placement: Indoors
+  location: Ebonheart, East Empire North Warehouse
   content: store:/shots/2017-09-18-frugal-meal.png
   type: shot
   author: dehero
+  locating:
+    date: 2026-02-18-18-58-57
+    user: pyriglena
+    text: ''
   engine: OpenMW
   tags:
     - candle
@@ -12333,9 +12454,14 @@
   title: Misty Halt
   titleRu: Привал во мгле
   placement: Outdoors
+  location: Ashlands Region
   content: store:/shots/2017-09-23-misty-halt.png
   type: shot
   author: dehero
+  locating:
+    date: 2026-02-18-18-50-40
+    user: pyriglena
+    text: 6,9, Addarnat Assardidairan, south of Elith-Pal Mine
   engine: OpenMW
   tags:
     - campfire
@@ -12385,9 +12511,16 @@
   title: Ash Yam Plantation
   titleRu: Плантация пепельного батата
   placement: Outdoors
+  location:
+    - Ascadian Isles Region
+    - Dirara's Farmhouse
   content: store:/shots/2017-09-24-ash-yam-plantation.png
   type: shot
   author: dehero
+  locating:
+    date: 2026-02-18-18-45-42
+    user: pyriglena
+    text: 5,-8
   engine: OpenMW
   mark: B2
   posts:
@@ -13309,9 +13442,16 @@
   title: Mysterious Island
   titleRu: Таинственный остров
   placement: Outdoors
+  location:
+    - Grytewake
+    - Bitter Coast Region
   content: store:/shots/2017-10-15-mysterious-island.png
   type: shot
   author: dehero
+  locating:
+    date: 2026-02-18-18-40-21
+    user: pyriglena
+    text: '-7,-6'
   engine: OpenMW
   tags:
     - island
@@ -14743,9 +14883,14 @@
   title: Cozy Workplace in the Basement
   titleRu: Уютное рабочее место в подвале
   placement: Indoors
+  location: Caldera, Valvius Mevureius' House
   content: store:/shots/2017-11-16-cozy-workplace-in-the-basement.png
   type: shot
   author: dehero
+  locating:
+    date: 2026-02-18-18-33-01
+    user: pyriglena
+    text: ''
   engine: OpenMW
   tags:
     - table
@@ -15605,9 +15750,14 @@
   title: Ruins in a Mountain Dead End
   titleRu: Руины в горном тупике
   placement: Outdoors
+  location: Nchardumz
   content: store:/shots/2017-12-04-ruins-in-a-mountain-dead-end.png
   type: shot
   author: dehero
+  locating:
+    date: 2026-02-18-18-30-19
+    user: pyriglena
+    text: Molag Amur Region 15,-5
   engine: OpenMW
   tags:
     - ruin
@@ -15898,6 +16048,9 @@
   title: Berth Near Grotto
   titleRu: Причал у грота
   placement: Outdoors
+  location:
+    - Akimaes Grotto
+    - Bitter Coast Region
   content: store:/shots/2017-12-09-berth-near-grotto.png
   type: shot
   author: dehero
@@ -16267,9 +16420,14 @@
   title: Water Ripples
   titleRu: Круги на воде
   placement: Outdoors
+  location: Seyda Neen
   content: store:/shots/2017-12-18-water-ripples.png
   type: shot
   author: dehero
+  locating:
+    date: 2026-02-18-18-22-18
+    user: pyriglena
+    text: East of the lighthouse
   engine: OpenMW
   tags:
     - water
@@ -16632,9 +16790,16 @@
   title: Crab Creek
   titleRu: Крабовый залив
   placement: Outdoors
+  location:
+    - Azura's Coast Region
+    - Molag Amur Region
   content: store:/shots/2017-12-29-crab-creek.png
   type: shot
   author: dehero
+  locating:
+    date: 2026-02-18-18-03-28
+    user: pyriglena
+    text: 13,2, east of Ahinipalit
   engine: OpenMW
   tags:
     - mudcrab

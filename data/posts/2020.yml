@@ -2173,9 +2173,14 @@
   title: Mushroom Fields Forever
   titleRu: Вечно-грибные поля
   placement: Outdoors
+  location: Azura's Coast Region
   content: store:/shots/2020-11-07-mushroom-fields-forever.png
   type: shot
   author: dehero
+  locating:
+    date: 2026-02-18-16-21-56
+    user: pyriglena
+    text: 18,-6, crossroads between Nchurdamz and Hlervu Ancestral Tomb
   engine: OpenMW
   tags:
     - mushroom
