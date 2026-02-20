@@ -5580,10 +5580,10 @@
     - service: vk
       id: 3052
       published: 2026-01-30-18-41-38
-      updated: 2026-02-13-20-38-34
+      updated: 2026-02-20-20-41-11
       followers: 1594
       likes: 61
-      views: 731
+      views: 747
       comments: !c |-
         GxYBOKwOeHNXKDgiu52Hh8IfFXEj/fEKPcQmsUiTPai6CaEIJQll/znMjXlQbqtlIVmb7f7nQFBY
         rsZmumQolFxwh63lZdPJARcgtpYGHTgMOOcSu04O8CAl2rIoLIIMSqi6n/cfc9xp3y3ORKL/NwSZ
@@ -5592,10 +5592,10 @@
     - service: tg
       id: 1136
       published: 2026-01-30-18-41-44
-      updated: 2026-02-13-20-38-32
+      updated: 2026-02-20-20-41-18
       followers: 888
       likes: 66
-      views: 494
+      views: 526
       comments: !c |-
         iySAkZTLQnnBE4W0AACma2V2eS1jpPCfpoCTy0J5wRb2EwAArnBhaW5raWxsZXIxOTg2udCW0LTQ
         tdGI0Ywg0LrQvtCz0L4t0YLQvj8D
@@ -12413,25 +12413,27 @@
       id: DU_ZpFHl9DV
       mediaId: '18093098477073317'
       published: 2026-02-20-18-58-58
-      updated: 2026-02-20-19-41-21
+      updated: 2026-02-20-20-41-05
       followers: 1606
-      likes: 10
+      likes: 17
     - service: vk
       id: 3100
       published: 2026-02-20-18-59-11
-      updated: 2026-02-20-19-41-11
+      updated: 2026-02-20-20-40-59
       followers: 1605
-      likes: 7
-      views: 53
+      likes: 17
+      views: 99
       reposts: 2
     - service: tg
       id: 1155
       published: 2026-02-20-18-59-29
-      updated: 2026-02-20-19-41-19
+      updated: 2026-02-20-20-41-13
       followers: 893
-      likes: 20
-      views: 70
-      comments: !c Cw+AkZPLQnnHx4RhgACuZGFya25lc3MtcmlmaG+k8J+ZjwM=
+      likes: 28
+      views: 95
+      comments: !c |-
+        CxyAkpPLQnnHyYPbAACqc29ubnlrb3R5YaTwn5ehk8tCecfHhGGAAK5kYXJrbmVzcy1yaWZob6Tw
+        n5mPAw==
 2018-09-16-city-lights:
   title: City Lights
   titleRu: Городские огни
