@@ -468,7 +468,7 @@ anonim:
   profiles:
     - service: tg
       id: '6469120788'
-      updated: 2026-02-19-13-33-19
+      updated: 2026-02-20-14-46-08
       accessHash: '-3557204299452739678'
       name: Аноним
       avatar: store:/avatars/tg-5228982199254718377.jpg
@@ -584,7 +584,7 @@ artyom-melikhoff:
   profiles:
     - service: vk
       id: '299405149'
-      updated: 2026-02-19-13-35-24
+      updated: 2026-02-20-14-46-12
       username: artyom_melikhoff
       name: Артём Мелихов
       avatar: store:/avatars/vk-599a74fc.jpg
@@ -600,7 +600,7 @@ arya-stark:
   profiles:
     - service: vk
       id: '820702664'
-      updated: 2026-02-19-23-37-06
+      updated: 2026-02-20-14-46-12
       username: id820702664
       name: Арья Старк
       avatar: store:/avatars/vk-689aa89d.jpg
@@ -2171,7 +2171,7 @@ gleb-zheltuhin:
   profiles:
     - service: vk
       id: '29014473'
-      updated: 2026-02-19-13-33-41
+      updated: 2026-02-20-14-46-14
       username: gleb_zheltuhin
       name: Глеб Желтухин
       avatar: store:/avatars/vk-971eefc1.jpg
@@ -2229,7 +2229,7 @@ goosevich76:
   profiles:
     - service: tg
       id: '5385620621'
-      updated: 2026-02-20-13-13-16
+      updated: 2026-02-20-14-46-04
       accessHash: '-7130473396589324830'
       username: horwwwaty
       name: choven
@@ -2945,7 +2945,7 @@ kevy-c:
   profiles:
     - service: tg
       id: '5067683234'
-      updated: 2026-02-20-13-13-15
+      updated: 2026-02-20-14-46-12
       accessHash: '-903667913374325979'
       username: Kevy_c
       name: Dash
@@ -4193,7 +4193,7 @@ painkiller1986:
   profiles:
     - service: tg
       id: '6565289507'
-      updated: 2026-02-19-13-31-17
+      updated: 2026-02-20-14-46-13
       accessHash: '6198356028119192921'
       username: Painkiller1986
       name: Сумерки
@@ -4569,7 +4569,7 @@ reanimatrix:
   profiles:
     - service: tg
       id: '5221327246'
-      updated: 2026-02-20-13-13-16
+      updated: 2026-02-20-14-46-04
       accessHash: '2760022429796079203'
       name: reanimatrix
 redoranar:
@@ -4886,7 +4886,7 @@ sergey-b-2:
   profiles:
     - service: vk
       id: '1077446394'
-      updated: 2026-02-19-23-37-06
+      updated: 2026-02-20-14-46-14
       username: id1077446394
       name: Сергей Б
       avatar: store:/avatars/vk-5a7c7910.jpg

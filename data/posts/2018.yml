@@ -437,10 +437,10 @@
     - service: tg
       id: 1152
       published: 2026-02-16-18-38-27
-      updated: 2026-02-19-13-30-41
+      updated: 2026-02-20-14-46-06
       followers: 890
-      likes: 52
-      views: 208
+      likes: 57
+      views: 298
       comments: !c |-
         CzCAkpPLQnnGhxJyAACma2V2eS1jpPCfpoCTy0J5xnv45IAArnBhaW5raWxsZXIxOTg22S/QotGA
         0Lgg0LfQsNC/0L7QstC10LTQuCDQntC00LjQvdC+0YfQtdGB0YLQstCwLgM=
@@ -448,16 +448,16 @@
       id: DU1F8CmiF0f
       mediaId: '18142648141478557'
       published: 2026-02-16-18-38-27
-      updated: 2026-02-19-13-30-48
+      updated: 2026-02-20-14-45-57
       followers: 1608
-      likes: 62
+      likes: 66
     - service: vk
       id: 3094
       published: 2026-02-16-18-38-27
-      updated: 2026-02-19-13-30-35
+      updated: 2026-02-20-14-46-00
       followers: 1602
-      likes: 41
-      views: 576
+      likes: 42
+      views: 649
       reposts: 1
 2018-01-11-dance-of-dagoth:
   title: Dance of Dagoth
