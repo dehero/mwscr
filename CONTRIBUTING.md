@@ -2,6 +2,10 @@
 
 # Contributing Guidelines
 
+> [!WARNING]  
+> This document is partially outdated. Follow [help page on project's site](https://mwscr.dehero.site/help/) for more
+> actual information.
+
 Here is the most important information for contributing to the [Morrowind Screenshots](https://github.com/dehero/mwscr)
 project. If you don't find the answer to your question, please let
 [administrator](https://mwscr.dehero.site/users/dehero/) know in any convenient way.
