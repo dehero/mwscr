@@ -1,3 +1,4 @@
+import { PostType, postTypeDescriptors } from '../../core/entities/post.js';
 import type { PostsManagerName } from '../../core/entities/posts-manager.js';
 import type { SiteRoute } from '../../core/entities/site-route.js';
 import type { PostsPageData, PostsPageParams } from '../components/PostsPage/PostsPage.data.js';
@@ -24,14 +25,14 @@ export const postsRouteInfos: Record<PostsManagerName, PostsPageInfo> = {
       'addon',
       'official',
     ],
-    typeKeys: ['shot', 'shot-set', 'clip', 'video', 'wallpaper', 'wallpaper-v'],
+    typeKeys: PostType.options.filter((type) => postTypeDescriptors[type].strict),
   },
   extras: {
     label: 'Extras',
     title: 'Extras',
     description: 'Extras of Morrowind Screenshots project.',
     presetKeys: ['edits'],
-    typeKeys: ['news', 'mention', 'photoshop', 'redrawing', 'outtakes', 'achievement', 'merch'],
+    typeKeys: PostType.options.filter((type) => !postTypeDescriptors[type].strict),
     filters: ['date', 'author', 'original', 'tag', 'type', 'status'],
   },
   drafts: {
