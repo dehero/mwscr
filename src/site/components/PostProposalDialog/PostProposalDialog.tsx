@@ -2,7 +2,6 @@ import type { UploadFile } from '@solid-primitives/upload';
 import { createFileUploader } from '@solid-primitives/upload';
 import { createMemo, createResource, createSignal, For, Show } from 'solid-js';
 import { navigate } from 'vike/client/router';
-// @ts-expect-error Importing JSON
 import importFormatsRaw from '../../../../assets/import-variants.json';
 import type { ImportVariant } from '../../../core/entities/import-variant.js';
 import { PostViolation, postViolationDescriptors } from '../../../core/entities/post.js';
