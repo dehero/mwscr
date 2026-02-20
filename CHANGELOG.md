@@ -2,6 +2,33 @@
 
 All notable changes to this project will be documented in this file.
 
+## [2.17.0](https://github.com/dehero/mwscr/compare/v2.16.3...v2.17.0) (2026-02-20)
+
+### Features
+
+- move external resources to store for drafts
+  ([35fb41e](https://github.com/dehero/mwscr/commit/35fb41e924e53acb10cc58504a9ffe9690ba7088))
+- **site:** allow lossy file formats in file submission dialog
+  ([df67c1f](https://github.com/dehero/mwscr/commit/df67c1f56056c58d8099eb222d0ca72464be946c))
+- support more file formats in site uploading script
+  ([233f7f1](https://github.com/dehero/mwscr/commit/233f7f1702c9f01556bcac3427df50816dfc6564))
+
+### Bug Fixes
+
+- resolve linting issues ([4024c46](https://github.com/dehero/mwscr/commit/4024c46e60d9f4bd0e05f78b21995eacc9873051))
+
+### Code Refactoring
+
+- mark post types as strict for Posts section
+  ([f03b722](https://github.com/dehero/mwscr/commit/f03b722a40fef7d00f62a23fa952019467345d76))
+
+### Documentation
+
+- mark CONTRIBUTING as outdated
+  ([0b01d0e](https://github.com/dehero/mwscr/commit/0b01d0e62d5ce7ca70a70356215577686458e2f7))
+- update topics to correspond Extras section better
+  ([281379d](https://github.com/dehero/mwscr/commit/281379d4db480a29b8e684b280b5392a3e227344))
+
 ## [2.16.3](https://github.com/dehero/mwscr/compare/v2.16.2...v2.16.3) (2026-02-16)
 
 ### Bug Fixes
