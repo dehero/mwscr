@@ -1,9 +1,13 @@
 import type { UploadFile } from '@solid-primitives/upload';
 import { createFileUploader } from '@solid-primitives/upload';
-import { createMemo, createResource, createSignal, Show } from 'solid-js';
+import { createMemo, createResource, createSignal, For, Show } from 'solid-js';
 import { navigate } from 'vike/client/router';
+// @ts-expect-error Importing JSON
+import importFormatsRaw from '../../../../assets/import-variants.json';
+import type { ImportVariant } from '../../../core/entities/import-variant.js';
 import { PostViolation, postViolationDescriptors } from '../../../core/entities/post.js';
 import type { PostInfo } from '../../../core/entities/post-info.js';
+import { ImageResourceExtension } from '../../../core/entities/resource.js';
 import type { TopicInfo } from '../../../core/entities/topic-info.js';
 import { USER_UNKNOWN } from '../../../core/entities/user.js';
 import { createIssueUrl as createProposalIssueUrl } from '../../../core/github-issues/post-proposal.js';
@@ -28,6 +32,8 @@ import { TopicTooltip } from '../TopicTooltip/TopicTooltip.jsx';
 import { UploadReportDialog } from '../UploadReportDialog/UploadReportDialog.jsx';
 import styles from './PostProposalDialog.module.css';
 
+const importVariants = importFormatsRaw as Record<string, ImportVariant>;
+
 interface UploadReportItem {
   name: string;
   status?: 'Uploading' | 'Uploaded' | 'Error';
@@ -35,81 +41,45 @@ interface UploadReportItem {
   errors: string[];
 }
 
-interface SubmitVariantDescriptor {
-  id: string;
-  label: string;
-  description: string;
-  allowedFormats: Array<[format: string, maxSize?: string]>;
+interface RequirementGroup {
+  title: string;
+  topicInfos: TopicInfo[];
 }
 
-const submitVariants: SubmitVariantDescriptor[] = [
-  {
-    id: 'upload-files',
-    label: 'Upload files to Drafts',
-    description:
-      "Send images directly to Drafts, then edit proposed posts in-place. Changes are visible only in your current browser until you send Edits to the project's repository.",
-    allowedFormats: [['PNG', '≤ 10MB']],
-  },
-  {
-    id: 'insert-links',
-    label: 'Insert links to Drafts',
-    description:
-      "Insert links to images or videos directly to Drafts, then edit proposed posts in-place. Changes are visible only in your current browser until you send Edits to the project's repository.",
-    allowedFormats: [
-      ['PNG', '≤ 10MB'],
-      ['MP4, AVI', '≤ 200MB'],
-    ],
-  },
-  {
-    id: 'telegram-bot',
-    label: 'Send files to Telegram bot',
-    description:
-      'Send images or videos to Telegram bot called "Ordinator". He will check them and put to Drafts if everything is ok. He answers within an hour.',
-    allowedFormats: [
-      ['PNG', '≤ 10MB'],
-      ['MP4, AVI', '≤ 200MB'],
-      ['ZIP', '≤ 100MB'],
-    ],
-  },
-  {
-    id: 'github-issue',
-    label: 'Send files via GitHub Issue',
-    description:
-      "Create GitHub Issue in project's repository with your images or videos attached. Use ZIP archives to send large or multiple files. After the issue is created, files will be automatically checked by project's repository workflow and added to Drafts if everything is ok.",
-    allowedFormats: [
-      ['PNG', '≤ 10MB'],
-      ['MP4', '≤ 10MB'],
-      ['ZIP', '≤ 25MB'],
-    ],
-  },
-  {
-    id: 'email',
-    label: 'Send files via email',
-    description:
-      'Send images or videos to project administrator via email. He will check them manually and put to Drafts if everything is ok. Use ZIP archives to send large or multiple files.',
-    allowedFormats: [['PNG'], ['MP4, AVI'], ['ZIP']],
-  },
-] as const;
+async function getRequirementGroups(): Promise<RequirementGroup[]> {
+  const requirements = PostViolation.options
+    .map((option) => postViolationDescriptors[option])
+    .filter((requirement) => requirement.topicId);
 
-type SubmitVariant = (typeof submitVariants)[number]['id'];
-
-async function getViolationTopicInfos(): Promise<TopicInfo[] | undefined> {
-  const violationsTopicIds = PostViolation.options
-    .filter((option) => postViolationDescriptors[option].topicId)
-    .map((option) => postViolationDescriptors[option].topicId!);
-
-  return (await dataManager.getTopicInfos(violationsTopicIds))?.filter(Boolean);
+  return [
+    {
+      title: 'Minimum Requirments',
+      topicInfos: await dataManager.getTopicInfos(
+        requirements.filter((requirement) => !requirement.strict).map(({ topicId }) => topicId),
+      ),
+    },
+    {
+      title: 'Strict Requirements',
+      topicInfos: await dataManager.getTopicInfos(
+        requirements.filter((requirement) => requirement.strict).map(({ topicId }) => topicId),
+      ),
+    },
+  ].filter((group): group is RequirementGroup => typeof group.topicInfos !== 'undefined');
 }
 
 export const PostProposalDialog: DetachedDialog = (props) => {
-  const [violationTopicInfos] = createResource(getViolationTopicInfos);
-  const [submitVariant, setSubmitVariant] = createSignal<SubmitVariant>('upload-files');
-  const submitVariantDescriptor = () => submitVariants.find((variant) => variant.id === submitVariant());
+  const [submitVariant, setSubmitVariant] = createSignal('site-uploads');
+  const submitVariantDescriptor = () => importVariants[submitVariant()];
 
   const { addToast } = useToaster();
 
   const [linksText, setLinksText] = createSignal('');
-  const { selectFiles } = createFileUploader({ accept: 'image/png', multiple: true });
+  const [requirementGroups] = createResource(() => getRequirementGroups());
+
+  const { selectFiles } = createFileUploader({
+    accept: ImageResourceExtension.options.join(', '),
+    multiple: true,
+  });
   const [uploadReport, setUploadReport] = createSignal<UploadReportItem[]>([]);
   const updateUploadReportItem = (index: number, update: Partial<UploadReportItem>) =>
     setUploadReport((report) => report.map((item, i) => ({ ...item, ...(index === i ? update : item) })));
@@ -214,14 +184,14 @@ export const PostProposalDialog: DetachedDialog = (props) => {
 
   const submitButtonProps = createMemo(() => {
     switch (submitVariant()) {
-      case 'upload-files': {
+      case 'site-uploads': {
         return {
           onClick: () => selectFiles(processUploadFiles),
           children: 'Select Files',
         };
       }
 
-      case 'insert-links': {
+      case 'link': {
         return {
           children: 'Insert Links',
           onClick: insertLinks,
@@ -284,48 +254,59 @@ export const PostProposalDialog: DetachedDialog = (props) => {
             Shooting Tips
           </a>
         }
+        contentClass={styles.container}
         actions={[<Button {...submitButtonProps()} />, <Button onClick={handleClose}>Cancel</Button>]}
       >
-        <div class={styles.container}>
-          <div class={styles.variantWrapper}>
-            <Select
-              options={submitVariants.map((variant) => ({ label: variant.label, value: variant.id }))}
-              value={submitVariant()}
-              onChange={setSubmitVariant}
-            />
+        <div class={styles.variantWrapper}>
+          <Select
+            options={Object.entries(importVariants).map(([id, variant]) => ({ label: variant.label, value: id }))}
+            value={submitVariant()}
+            onChange={setSubmitVariant}
+          />
 
-            <Show when={submitVariant() === 'insert-links'}>
-              <Input value={linksText()} onChange={setLinksText} multiline rows={5} class={styles.linksText} />
-            </Show>
+          <Show when={submitVariant() === 'link'}>
+            <Input value={linksText()} onChange={setLinksText} multiline rows={5} class={styles.linksText} />
+          </Show>
 
-            <Show when={submitVariantDescriptor()}>
-              {(descriptor) => (
-                <>
-                  <p class={styles.variantDescription}>{descriptor().description}</p>
-                  <Table
-                    label="Allowed Formats"
-                    rows={descriptor().allowedFormats.map((format) => ({ label: format[0], value: format[1] }))}
-                    showEmptyValueRows
-                    class={styles.allowedFormatsTable}
-                  />
-                </>
-              )}
-            </Show>
-          </div>
+          <Show when={submitVariantDescriptor()}>
+            {(descriptor) => (
+              <>
+                <p class={styles.variantDescription}>{descriptor().description}</p>
 
-          <Show when={violationTopicInfos()?.length}>
-            <Table
-              label="Minimum Requirements"
-              class={styles.violationsTable}
-              rows={violationTopicInfos()!.map((info) => ({
-                label: info.title ?? info.id,
-                tooltip: (ref) => <TopicTooltip topicId={info.id} forRef={ref} />,
-                link: helpRoute.createUrl({ topicId: info.id }) + createDetachedDialogFragment('post-proposal'),
-              }))}
-              showEmptyValueRows
-            />
+                <Table
+                  label="Allowed Formats"
+                  rows={descriptor()
+                    .allowedFormats // .filter((format) => !strict() || !format[2])
+                    .map((format) => ({
+                      label: format.label,
+                      value: format.maxSize ? `≤ ${format.maxSize}MB` : undefined,
+                    }))}
+                  showEmptyValueRows
+                  class={styles.allowedFormatsTable}
+                />
+              </>
+            )}
           </Show>
         </div>
+
+        <Show when={requirementGroups()?.length}>
+          <div class={styles.violations}>
+            <For each={requirementGroups()}>
+              {(requirementGroup) => (
+                <Table
+                  label={requirementGroup.title}
+                  rows={requirementGroup.topicInfos.map((topicInfo) => ({
+                    label: topicInfo.title ?? topicInfo.id,
+                    tooltip: (ref) => <TopicTooltip topicId={topicInfo.id} forRef={ref} />,
+                    link:
+                      helpRoute.createUrl({ topicId: topicInfo.id }) + createDetachedDialogFragment('post-proposal'),
+                  }))}
+                  showEmptyValueRows
+                />
+              )}
+            </For>
+          </div>
+        </Show>
       </Dialog>
     </>
   );

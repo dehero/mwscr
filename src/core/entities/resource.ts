@@ -5,8 +5,8 @@ import { listItems } from '../utils/common-utils.js';
 export const ResourceProtocol = picklist(['store:', 'file:', 'http:', 'https:']);
 export const ResourceType = picklist(['image', 'video', 'archive']);
 
-export const LosslessImageResourceExtension = picklist(['.png']);
-export const ImageResourceExtension = picklist(['.png', '.webp', '.jpg']);
+export const LosslessImageResourceExtension = picklist(['.png', '.bmp']);
+export const ImageResourceExtension = picklist(['.png', '.webp', '.jpg', '.jpeg', '.gif', '.bmp']);
 export const VideoResourceExtension = picklist(['.avi', '.mp4']);
 
 export const RESOURCE_MISSING_IMAGE = 'store:/MISSING_IMAGE.png';
