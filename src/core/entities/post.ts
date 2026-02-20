@@ -142,6 +142,7 @@ export interface PostViolationDescriptor {
   letter: string;
   topicId: string;
   solution?: string;
+  strict?: boolean;
 }
 
 type PostTagDescriptor = [tag: PostTag, rule: (post: Post) => boolean, parse?: (post: Post) => void];
@@ -300,19 +301,21 @@ export const postMarkDescriptors = Object.freeze<Record<PostMark, PostMarkDescri
 
 export const postViolationDescriptors = Object.freeze<Record<PostViolation, PostViolationDescriptor>>({
   'inappropriate-content': { title: 'Inappropriate content', letter: 'C', topicId: 'appropriate-content' },
-  'jpeg-artifacts': { title: 'JPEG artifacts', letter: 'J', topicId: 'no-jpeg-artifacts' },
-  'graphic-issues': { title: 'Graphic issues', letter: 'G', topicId: 'no-graphic-issues' },
-  'no-anti-aliasing': { title: 'No anti-aliasing', topicId: 'anti-aliasing', letter: 'A' },
-  'non-vanilla-look': { title: 'Non-vanilla look', topicId: 'vanilla-look', letter: 'N' },
+  'jpeg-artifacts': { title: 'JPEG artifacts', letter: 'J', topicId: 'no-jpeg-artifacts', strict: true },
+  'graphic-issues': { title: 'Graphic issues', letter: 'G', topicId: 'no-graphic-issues', strict: true },
+  'no-anti-aliasing': { title: 'No anti-aliasing', topicId: 'anti-aliasing', letter: 'A', strict: true },
+  'non-vanilla-look': { title: 'Non-vanilla look', topicId: 'vanilla-look', letter: 'N', strict: true },
   'uses-mods': {
     title: 'Uses or requires mods',
     topicId: 'no-mods',
     letter: 'M',
+    strict: true,
   },
   'ui-visible': {
     title: 'UI is visible',
     topicId: 'no-ui',
     letter: 'U',
+    strict: true,
   },
   'unreachable-resource': {
     title: 'Unreachable resource',

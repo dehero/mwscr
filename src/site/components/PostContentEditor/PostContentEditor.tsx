@@ -16,7 +16,7 @@ import type { Component } from 'solid-js';
 import { batch, createSignal, For } from 'solid-js';
 import type { PostContent } from '../../../core/entities/post.js';
 import { mergePostContents } from '../../../core/entities/post.js';
-import { ResourceUrl } from '../../../core/entities/resource.js';
+import { ImageResourceExtension, ResourceUrl } from '../../../core/entities/resource.js';
 import { assertSchema } from '../../../core/entities/schema.js';
 import { asArray } from '../../../core/utils/common-utils.js';
 import { uploadFiles } from '../../data-managers/uploads.js';
@@ -102,7 +102,7 @@ export interface PostContentEditorProps {
 }
 
 export const PostContentEditor: Component<PostContentEditorProps> = (props) => {
-  const { selectFiles } = createFileUploader({ accept: 'image/png', multiple: true });
+  const { selectFiles } = createFileUploader({ accept: ImageResourceExtension.options.join(', '), multiple: true });
   const { addToast } = useToaster();
   const [uploadReport, setUploadReport] = createSignal<UploadReportItem[]>([]);
   const updateUploadReportItem = (index: number, update: Partial<UploadReportItem>) =>
