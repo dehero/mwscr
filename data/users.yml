@@ -468,7 +468,7 @@ anonim:
   profiles:
     - service: tg
       id: '6469120788'
-      updated: 2026-02-20-14-46-08
+      updated: 2026-02-21-15-32-48
       accessHash: '-3557204299452739678'
       name: Аноним
       avatar: store:/avatars/tg-5228982199254718377.jpg
@@ -584,7 +584,7 @@ artyom-melikhoff:
   profiles:
     - service: vk
       id: '299405149'
-      updated: 2026-02-20-22-34-12
+      updated: 2026-02-21-15-32-43
       username: artyom_melikhoff
       name: Артём Мелихов
       avatar: store:/avatars/vk-599a74fc.jpg
@@ -600,7 +600,7 @@ arya-stark:
   profiles:
     - service: vk
       id: '820702664'
-      updated: 2026-02-20-20-41-10
+      updated: 2026-02-21-15-32-45
       username: id820702664
       name: Арья Старк
       avatar: store:/avatars/vk-689aa89d.jpg
@@ -1312,7 +1312,7 @@ darkness-rifho:
       deleted: true
     - service: tg
       id: '5704974271'
-      updated: 2026-02-21-14-33-31
+      updated: 2026-02-21-15-32-38
       accessHash: '3506423524566292179'
       username: C4H6O4
       name: Уна
@@ -2229,7 +2229,7 @@ goosevich76:
   profiles:
     - service: tg
       id: '5385620621'
-      updated: 2026-02-21-14-33-34
+      updated: 2026-02-21-15-32-43
       accessHash: '-7130473396589324830'
       username: horwwwaty
       name: choven
@@ -2945,7 +2945,7 @@ kevy-c:
   profiles:
     - service: tg
       id: '5067683234'
-      updated: 2026-02-21-14-33-33
+      updated: 2026-02-21-15-32-50
       accessHash: '-903667913374325979'
       username: Kevy_c
       name: Dash
@@ -4193,7 +4193,7 @@ painkiller1986:
   profiles:
     - service: tg
       id: '6565289507'
-      updated: 2026-02-20-20-41-17
+      updated: 2026-02-21-15-32-48
       accessHash: '6198356028119192921'
       username: Painkiller1986
       name: Сумерки
@@ -4569,7 +4569,7 @@ reanimatrix:
   profiles:
     - service: tg
       id: '5221327246'
-      updated: 2026-02-21-14-33-33
+      updated: 2026-02-21-15-32-43
       accessHash: '2760022429796079203'
       name: reanimatrix
 redoranar:
@@ -4886,7 +4886,7 @@ sergey-b-2:
   profiles:
     - service: vk
       id: '1077446394'
-      updated: 2026-02-20-20-41-22
+      updated: 2026-02-21-15-32-45
       username: id1077446394
       name: Сергей Б
       avatar: store:/avatars/vk-5a7c7910.jpg
@@ -5161,7 +5161,7 @@ sonnykotya:
   profiles:
     - service: tg
       id: '7937963458'
-      updated: 2026-02-21-14-33-31
+      updated: 2026-02-21-15-32-37
       accessHash: '6311850478953577755'
       username: sonnykotya
       name: дракоша

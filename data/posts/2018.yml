@@ -437,10 +437,10 @@
     - service: tg
       id: 1152
       published: 2026-02-16-18-38-27
-      updated: 2026-02-20-14-46-06
+      updated: 2026-02-21-15-32-47
       followers: 890
-      likes: 57
-      views: 298
+      likes: 58
+      views: 363
       comments: !c |-
         CzCAkpPLQnnGhxJyAACma2V2eS1jpPCfpoCTy0J5xnv45IAArnBhaW5raWxsZXIxOTg22S/QotGA
         0Lgg0LfQsNC/0L7QstC10LTQuCDQntC00LjQvdC+0YfQtdGB0YLQstCwLgM=
@@ -448,16 +448,16 @@
       id: DU1F8CmiF0f
       mediaId: '18142648141478557'
       published: 2026-02-16-18-38-27
-      updated: 2026-02-20-14-45-57
+      updated: 2026-02-21-15-32-37
       followers: 1608
       likes: 66
     - service: vk
       id: 3094
       published: 2026-02-16-18-38-27
-      updated: 2026-02-20-14-46-00
+      updated: 2026-02-21-15-32-31
       followers: 1602
-      likes: 42
-      views: 649
+      likes: 44
+      views: 683
       reposts: 1
 2018-01-11-dance-of-dagoth:
   title: Dance of Dagoth
@@ -12413,24 +12413,24 @@
       id: DU_ZpFHl9DV
       mediaId: '18093098477073317'
       published: 2026-02-20-18-58-58
-      updated: 2026-02-21-14-33-26
+      updated: 2026-02-21-15-32-33
       followers: 1606
-      likes: 43
+      likes: 44
     - service: vk
       id: 3100
       published: 2026-02-20-18-59-11
-      updated: 2026-02-21-14-33-19
+      updated: 2026-02-21-15-32-26
       followers: 1605
       likes: 50
-      views: 471
+      views: 488
       reposts: 2
     - service: tg
       id: 1155
       published: 2026-02-20-18-59-29
-      updated: 2026-02-21-14-33-32
+      updated: 2026-02-21-15-32-40
       followers: 893
       likes: 47
-      views: 184
+      views: 186
       comments: !c |-
         CyeAk5PLQnnH3ynZAACma2V2eS1jpPCfpoCTy0J5x8mD2wAAqnNvbm55a290eWGk8J+XoZPLQnnH
         x4RhgACuZGFya25lc3MtcmlmaG+k8J+ZjwM=
