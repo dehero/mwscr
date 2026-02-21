@@ -2,9 +2,14 @@
   title: Ghostfence
   titleRu: Призрачный Предел
   placement: Outdoors
+  location: Ashlands Region
   content: store:/shots/2017-01-01-ghostfence.png
   type: shot
   author: dehero
+  locating:
+    date: 2026-02-20-18-27-30
+    user: pyriglena
+    text: 3,12, northern border
   engine: OpenMW
   mark: A2
   posts:
@@ -459,9 +464,14 @@
   title: Shoal Shell
   titleRu: Мелководная раковина
   placement: Outdoors
+  location: Azura's Coast Region
   content: store:/shots/2017-01-13-shoal-shell.png
   type: shot
   author: dehero
+  locating:
+    date: 2026-02-20-18-21-22
+    user: pyriglena
+    text: 10,-12, east of Bal Fell
   engine: OpenMW
   tags:
     - shell
@@ -602,9 +612,14 @@
   title: Brave Ashlanders
   titleRu: Отважные эшлендеры
   placement: Outdoors
+  location: Ashlands Region
   content: store:/shots/2017-01-17-brave-ashlanders.png
   type: shot
   author: dehero
+  locating:
+    date: 2026-02-20-18-00-56
+    user: pyriglena
+    text: 7,12, Santinti Assarbeberib, Mubdan Esurnadarpal and Shirerib Ashi-Iddan
   engine: OpenMW
   mark: A2
   posts:
@@ -2746,9 +2761,16 @@
   title: Army of Stone
   titleRu: Каменное воинство
   placement: Outdoors
+  location:
+    - Mzanchend
+    - Molag Amur Region
   content: store:/shots/2017-02-28-army-of-stone.png
   type: shot
   author: dehero
+  locating:
+    date: 2026-02-20-18-37-43
+    user: pyriglena
+    text: 9,2
   engine: OpenMW
   tags:
     - guard
@@ -3094,9 +3116,14 @@
   title: The Road Through Lava
   titleRu: Дорога сквозь лаву
   placement: Outdoors
+  location: Molag Amur Region
   content: store:/shots/2017-03-07-the-road-through-lava.png
   type: shot
   author: dehero
+  locating:
+    date: 2026-02-20-18-42-33
+    user: pyriglena
+    text: 9,-1, between Galom Daeus and Nchuleftingth
   engine: OpenMW
   tags:
     - roadfork
@@ -4592,9 +4619,14 @@
   title: Banks and Arches
   titleRu: Берега и арки
   placement: Outdoors
+  location: West Gash Region
   content: store:/shots/2017-04-04-banks-and-arches.png
   type: shot
   author: dehero
+  locating:
+    date: 2026-02-20-18-53-31
+    user: pyriglena
+    text: '-9,13, east of Palansour'
   engine: OpenMW
   tags:
     - arch
@@ -4618,9 +4650,14 @@
   title: Bard's Corner
   titleRu: Уголок барда
   placement: Indoors
+  location: Balmora, South Wall Cornerclub
   content: store:/shots/2017-04-05-bards-corner.png
   type: shot
   author: dehero
+  locating:
+    date: 2026-02-20-18-58-06
+    user: pyriglena
+    text: ''
   engine: OpenMW
   tags:
     - lute
@@ -4697,9 +4734,16 @@
   title: Trees and Towers
   titleRu: Деревья и башни
   placement: Outdoors
+  location:
+    - Galom Daeus
+    - Molag Amur Region
   content: store:/shots/2017-04-07-trees-and-towers.png
   type: shot
   author: dehero
+  locating:
+    date: 2026-02-20-18-59-58
+    user: pyriglena
+    text: ''
   engine: OpenMW
   tags:
     - tower
@@ -4752,9 +4796,14 @@
   title: Museum Centurion
   titleRu: Музейный центурион
   placement: Indoors
+  location: Tel Vos, Central Tower
   content: store:/shots/2017-04-08-museum-centurion.png
   type: shot
   author: dehero
+  locating:
+    date: 2026-02-20-19-03-44
+    user: pyriglena
+    text: ''
   engine: OpenMW
   tags:
     - museum
@@ -4941,9 +4990,14 @@
   title: Let's Set Sail!
   titleRu: Отчаливаем!
   placement: Outdoors
+  location: Gnaar Mok
   content: store:/shots/2017-04-12-lets-set-sail.png
   type: shot
   author: dehero
+  locating:
+    date: 2026-02-20-19-05-34
+    user: pyriglena
+    text: Shipmaster
   engine: OpenMW
   tags:
     - ship
@@ -5077,9 +5131,16 @@
   title: Moon and Stars
   titleRu: Луна и звёзды
   placement: Outdoors
+  location:
+    - Shrine of Azura
+    - Azura's Coast Region
   content: store:/shots/2017-04-15-moon-and-stars.png
   type: shot
   author: dehero
+  locating:
+    date: 2026-02-20-19-07-12
+    user: pyriglena
+    text: ''
   engine: OpenMW
   tags:
     - moon
@@ -5204,9 +5265,14 @@
   title: Lost and Robbed
   titleRu: Потерян и ограблен
   placement: Outdoors
+  location: Molag Amur Region
   content: store:/shots/2017-04-17-lost-and-robbed.png
   type: shot
   author: dehero
+  locating:
+    date: 2026-02-20-19-11-55
+    user: pyriglena
+    text: 11,2, Marsus Tullius
   engine: OpenMW
   mark: B1
   posts:
@@ -5342,9 +5408,16 @@
   title: Fisher's Bliss
   titleRu: Счастье рыбака
   placement: Outdoors
+  location:
+    - Bitter Coast Region
+    - An Abandoned Shack
   content: store:/shots/2017-04-21-fishers-bliss.png
   type: shot
   author: dehero
+  locating:
+    date: 2026-02-20-19-16-05
+    user: pyriglena
+    text: '-9,2'
   engine: OpenMW
   tags:
     - bottle
@@ -5479,9 +5552,14 @@
   title: On the Red Mountainside
   titleRu: На склоне Красной Горы
   placement: Outdoors
+  location: Ashlands Region
   content: store:/shots/2017-04-24-on-the-red-mountainside.png
   type: shot
   author: dehero
+  locating:
+    date: 2026-02-20-19-22-02
+    user: pyriglena
+    text: 0,8, north-east of Ald-Ruhn
   engine: OpenMW
   mark: A1
   posts:
@@ -5882,9 +5960,14 @@
   title: Altmer Camp
   titleRu: Лагерь альтмеров
   placement: Outdoors
+  location: Ashlands Region
   content: store:/shots/2017-05-01-altmer-camp.png
   type: shot
   author: dehero
+  locating:
+    date: 2026-02-20-19-27-40
+    user: pyriglena
+    text: 4,3, next to Dunirai Caverns, Undil and Telinturco
   engine: OpenMW
   tags:
     - campfire
@@ -5910,9 +5993,14 @@
   title: Paper Trail
   titleRu: Бумажный след
   placement: Outdoors
+  location: Molag Amur Region
   content: store:/shots/2017-05-02-paper-trail.png
   type: shot
   author: dehero
+  locating:
+    date: 2026-02-20-19-34-24
+    user: pyriglena
+    text: 10,0, south of Uvirith's Grave
   engine: OpenMW
   tags:
     - breadcrumbs
@@ -6622,9 +6710,14 @@
   title: In the Yurt
   titleRu: В юрте
   placement: Indoors
+  location: Shashurari Camp, Zennammu's Yurt
   content: store:/shots/2017-05-16-in-the-yurt.png
   type: shot
   author: dehero
+  locating:
+    date: 2026-02-20-19-47-40
+    user: pyriglena
+    text: ''
   engine: OpenMW
   tags:
     - yurt
@@ -6674,9 +6767,16 @@
   title: Nice Time to Go Boating
   titleRu: Хорошее время, чтобы поплавать на лодке
   placement: Outdoors
+  location:
+    - Ascadian Isles Region
+    - Llovyn's Farmhouse
   content: store:/shots/2017-05-17-nice-time-to-go-boating.png
   type: shot
   author: dehero
+  locating:
+    date: 2026-02-20-19-49-41
+    user: pyriglena
+    text: 1,-8, east of Balur's Farmhouse, view of Llovyn's Farmhouse
   engine: OpenMW
   tags:
     - boat
@@ -6948,9 +7048,14 @@
   title: Equalizer
   titleRu: Эквалайзер
   placement: Indoors
+  location: Palansour
   content: store:/shots/2017-05-23-equalizer.png
   type: shot
   author: dehero
+  locating:
+    date: 2026-02-20-19-57-15
+    user: pyriglena
+    text: ''
   engine: OpenMW
   tags:
     - cave
@@ -7005,9 +7110,16 @@
   title: Near the Ancient Dwelling
   titleRu: У древнего жилища
   placement: Outdoors
+  location:
+    - West Gash Region
+    - Arkngthunch-Sturdumz
   content: store:/shots/2017-05-24-near-the-ancient-dwelling.png
   type: shot
   author: dehero
+  locating:
+    date: 2026-02-20-19-58-49
+    user: pyriglena
+    text: '-14,14, east of Yasammidan'
   engine: OpenMW
   mark: B1
   posts:
@@ -7261,9 +7373,16 @@
   title: So Hello
   titleRu: Ну привет
   placement: Outdoors
+  location:
+    - West Gash Region
+    - Rethandus Ancestral Tomb
   content: store:/shots/2017-05-29-so-hello.png
   type: shot
   author: dehero
+  locating:
+    date: 2026-02-20-20-12-20
+    user: pyriglena
+    text: '-9,13'
   engine: OpenMW
   tags:
     - skeleton
@@ -7340,9 +7459,14 @@
   title: Steam and Mist
   titleRu: Пар и мгла
   placement: Outdoors
+  location: Molag Amur Region
   content: store:/shots/2017-05-31-steam-and-mist.png
   type: shot
   author: dehero
+  locating:
+    date: 2026-02-20-20-26-30
+    user: pyriglena
+    text: 11,2, north of Uvirith's Grave
   engine: OpenMW
   tags:
     - steam
@@ -7791,9 +7915,14 @@
   title: Ancestors and Almalexia
   titleRu: Предки и Альмалексия
   placement: Indoors
+  location: Helan Ancestral Tomb
   content: store:/shots/2017-06-10-ancestors-and-almalexia.png
   type: shot
   author: dehero
+  locating:
+    date: 2026-02-20-20-30-00
+    user: pyriglena
+    text: ''
   engine: OpenMW
   tags:
     - skull
@@ -7898,9 +8027,16 @@
   title: Lava Roadsides
   titleRu: Лавовые обочины
   placement: Outdoors
+  location:
+    - Molag Amur Region
+    - Piran
   content: store:/shots/2017-06-13-lava-roadsides.png
   type: shot
   author: dehero
+  locating:
+    date: 2026-02-20-20-33-05
+    user: pyriglena
+    text: 8,-3
   engine: OpenMW
   tags:
     - lava
@@ -8804,9 +8940,14 @@
   title: Banner of House Dagoth
   titleRu: Знамя Дома Дагот
   placement: Indoors
+  location: Kogoruhn, Dome of Urso
   content: store:/shots/2017-07-05-banner-of-house-dagoth.png
   type: shot
   author: dehero
+  locating:
+    date: 2026-02-20-20-34-55
+    user: pyriglena
+    text: ''
   engine: OpenMW
   mark: B1
   posts:

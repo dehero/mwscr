@@ -2010,9 +2010,16 @@
   title: Far Friends
   titleRu: Далёкие друзья
   placement: Outdoors
+  location:
+    - Baram Ancestral Tomb
+    - Azura's Coast Region
   content: store:/shots/2016-12-31-far-friends.png
   type: shot
   author: dehero
+  locating:
+    date: 2026-02-20-18-33-48
+    user: pyriglena
+    text: 16,7
   engine: OpenMW
   tags:
     - night
