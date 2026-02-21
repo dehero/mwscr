@@ -2992,9 +2992,14 @@
   title: Senseless Mourning
   titleRu: Бессмысленный траур
   placement: Indoors
+  location: Molag Mar, Underworks
   content: store:/shots/2025-12-06-1-senseless-mourning.png
   type: shot
   author: ohsweetnazareth
+  locating:
+    date: 2026-02-20
+    user: pyriglena
+    text: ''
   mark: B1
   posts:
     - service: ig
