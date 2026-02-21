@@ -368,9 +368,14 @@
   title: Spinning-Wheel
   titleRu: Прялка
   placement: Indoors
+  location: Skaal Village, Erna the Quiet's House
   content: store:/shots/2023-08-03-spinning-wheel.png
   type: shot
   author: dehero
+  locating:
+    date: 2026-02-21-16-16-38
+    user: pyriglena
+    text: ''
   engine: OpenMW
   addon: Bloodmoon
   tags:
@@ -579,9 +584,14 @@
   title: Skaal Storages
   titleRu: Хранилища скаалов
   placement: Outdoors
+  location: Skaal Village
   content: store:/shots/2023-08-07-skaal-storages.png
   type: shot
   author: dehero
+  locating:
+    date: 2026-02-21-15-59-55
+    user: pyriglena
+    text: '-20,26, west of the Greathall'
   engine: OpenMW
   addon: Bloodmoon
   tags:

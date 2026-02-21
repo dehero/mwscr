@@ -1777,11 +1777,16 @@
   title: Winter and Summer
   titleRu: Зима и лето
   placement: Outdoors
+  location: Solstheim, Hirstaang Forest
   content: store:/shots/2024-04-26-winter-and-summer.png
   type: shot
   author:
     - natty
     - dehero
+  locating:
+    date: 2026-02-21-15-54-18
+    user: pyriglena
+    text: '-26,19, north-west of Raven Rock settlement'
   engine: OpenMW
   addon: Bloodmoon
   tags:

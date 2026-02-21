@@ -525,9 +525,14 @@
   title: Dark Brotherhood Apprentice
   titleRu: Ученик Тёмного Братства
   placement: Indoors
+  location: 'Old Mournhold: Moril Manor, North Building'
   content: store:/shots/2018-01-12-dark-brotherhood-apprentice.png
   type: shot
   author: dehero
+  locating:
+    date: 2026-02-21-20-33-16
+    user: pyriglena
+    text: ''
   engine: OpenMW
   addon: Tribunal
   mark: A2
@@ -695,6 +700,7 @@
   title: Birth of Fabricant
   titleRu: Рождение фабриканта
   placement: Indoors
+  location: Sotha Sil, Dome of Serlyn
   content: store:/shots/2018-01-16-birth-of-fabricant.png
   type: shot
   author: dehero
@@ -1078,9 +1084,14 @@
   title: Goblin Bruiser
   titleRu: Гоблин-борец
   placement: Indoors
+  location: 'Old Mournhold: Residential Ruins'
   content: store:/shots/2018-01-24-goblin-bruiser.png
   type: shot
   author: dehero
+  locating:
+    date: 2026-02-21-20-30-02
+    user: pyriglena
+    text: ''
   engine: OpenMW
   addon: Tribunal
   tags:
@@ -1216,6 +1227,7 @@
   title: Teran Hall
   titleRu: Зал Терана
   placement: Indoors
+  location: 'Old Mournhold: Teran Hall'
   content: store:/shots/2018-01-26-teran-hall.png
   type: shot
   author: dehero
@@ -1758,9 +1770,14 @@
   title: Tharsten Heart-Fang
   titleRu: Тарстен Клык Сердца
   placement: Indoors
+  location: Skaal Village, The Greathall
   content: store:/shots/2018-02-08-tharsten-heart-fang.png
   type: shot
   author: dehero
+  locating:
+    date: 2026-02-21-18-54-27
+    user: pyriglena
+    text: ''
   engine: OpenMW
   addon: Bloodmoon
   mark: B2
@@ -5385,9 +5402,14 @@
   title: Did You Hear That Cry?
   titleRu: Ты слышал этот вой?
   placement: Outdoors
+  location: Fort Frostmoth
   content: store:/shots/2018-04-24-did-you-hear-that-cry.png
   type: shot
   author: dehero
+  locating:
+    date: 2026-02-21-18-51-20
+    user: pyriglena
+    text: Basks-In-The-Sun, shipmaster
   engine: OpenMW
   addon: Bloodmoon
   mark: B1
@@ -5495,9 +5517,14 @@
   title: Sun Stone
   titleRu: Камень Солнца
   placement: Outdoors
+  location: Solstheim, Isinfier Plains
   content: store:/shots/2018-04-26-sun-stone.png
   type: shot
   author: dehero
+  locating:
+    date: 2026-02-21-18-47-32
+    user: pyriglena
+    text: '-20,19 / -21,19 (view from the river bank)'
   engine: OpenMW
   addon: Bloodmoon
   mark: B2
@@ -7627,9 +7654,14 @@
   title: Bear and Fir-Tree
   titleRu: Медведь и ель
   placement: Outdoors
+  location: Solstheim, Hirstaang Forest
   content: store:/shots/2018-06-12-bear-and-fir-tree.png
   type: shot
   author: dehero
+  locating:
+    date: 2026-02-21-18-38-37
+    user: pyriglena
+    text: '-26,19, west of Raven Rock settlement'
   addon: Bloodmoon
   tags:
     - bear
@@ -7685,9 +7717,14 @@
   title: Lich
   titleRu: Лич
   placement: Indoors
+  location: 'Old Mournhold: Abandoned Crypt'
   content: store:/shots/2018-06-13-lich.png
   type: shot
   author: dehero
+  locating:
+    date: 2026-02-21-20-26-25
+    user: pyriglena
+    text: ''
   engine: OpenMW
   addon: Tribunal
   tags:
@@ -8199,9 +8236,16 @@
   title: Ice Cave in the Ice Bay
   titleRu: Ледяная пещера в ледяном заливе
   placement: Outdoors
+  location:
+    - Solstheim, Varstaad Caves
+    - Solstheim, Moesring Mountains
   content: store:/shots/2018-06-21-ice-cave-in-the-ice-bay.png
   type: shot
   author: dehero
+  locating:
+    date: 2026-02-21-18-34-21
+    user: pyriglena
+    text: '-26,24'
   engine: OpenMW
   addon: Bloodmoon
   mark: C
@@ -10306,9 +10350,14 @@
   title: Uncovered Animunculi
   titleRu: Неизвестный анимункули
   placement: Indoors
+  location: Bamz-Amschend, Radac's Forge
   content: store:/shots/2018-08-06-uncovered-animunculi.png
   type: shot
   author: dehero
+  locating:
+    date: 2026-02-21-20-22-50
+    user: pyriglena
+    text: ''
   engine: OpenMW
   addon: Tribunal
   tags:
@@ -12851,9 +12900,14 @@
   title: Verminous Fabricant
   titleRu: Мерзкий фабрикант
   placement: Indoors
+  location: Sotha Sil, Inner Flooded Halls
   content: store:/shots/2018-09-24-verminous-fabricant.png
   type: shot
   author: dehero
+  locating:
+    date: 2026-02-21-20-20-25
+    user: pyriglena
+    text: ''
   engine: OpenMW
   addon: Tribunal
   mark: B1
@@ -13309,6 +13363,7 @@
   title: High Ordinator Surveying Godsreach at Night
   titleRu: Высший ординатор обозревает Годсрич в ночи
   placement: Outdoors
+  location: Mournhold, Godsreach
   content: store:/shots/2018-10-03-high-ordinator-surveying-godsreach-at-night.png
   type: shot
   author: dehero
@@ -14183,9 +14238,14 @@
   title: The Mead Hall
   titleRu: Медовый зал
   placement: Outdoors
+  location: Thirsk
   content: store:/shots/2018-10-20-the-mead-hall.png
   type: shot
   author: dehero
+  locating:
+    date: 2026-02-21-18-13-17
+    user: pyriglena
+    text: '-19,23'
   engine: OpenMW
   addon: Bloodmoon
   mark: B2
@@ -14354,9 +14414,14 @@
   title: Snowbound Airship
   titleRu: Летучий корабль в снегах
   placement: Outdoors
+  location: Solstheim, Isinfier Plains
   content: store:/shots/2018-10-22-snowbound-airship.png
   type: shot
   author: dehero
+  locating:
+    date: 2026-02-21-17-13-02
+    user: pyriglena
+    text: '-24,23'
   engine: OpenMW
   addon: Bloodmoon
   tags:
@@ -14447,9 +14512,14 @@
   title: Snowfall Over the Ice River
   titleRu: Снегопад над ледяной рекой
   placement: Outdoors
+  location: Solstheim, Moesring Mountains
   content: store:/shots/2018-10-24-snowfall-over-the-ice-river.png
   type: shot
   author: dehero
+  locating:
+    date: 2026-02-21-17-20-32
+    user: pyriglena
+    text: '-25,25'
   engine: OpenMW
   addon: Bloodmoon
   tags:
@@ -14969,9 +15039,14 @@
   title: 3 + 1
   titleRu: 3 + 1
   placement: Outdoors
+  location: Solstheim, Isinfier Plains
   content: store:/shots/2018-11-05-3-1.png
   type: shot
   author: dehero
+  locating:
+    date: 2026-02-21-17-28-18
+    user: pyriglena
+    text: '-23,24, east of Dwemer Airship'
   engine: OpenMW
   addon: Bloodmoon
   mark: E

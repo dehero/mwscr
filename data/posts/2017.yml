@@ -5804,9 +5804,16 @@
   title: Gloomy Barrow
   titleRu: Мрачный курган
   placement: Outdoors
+  location:
+    - Solstheim, Eddard Barrow
+    - Solstheim, Isinfier Plains
   content: store:/shots/2017-04-28-gloomy-barrow.png
   type: shot
   author: dehero
+  locating:
+    date: 2026-02-21-20-02-10
+    user: pyriglena
+    text: '-23,21'
   engine: OpenMW
   addon: Bloodmoon
   tags:
@@ -6275,9 +6282,14 @@
   title: Snowy Waiting
   titleRu: Снежное ожидание
   placement: Outdoors
+  location: Solstheim, Isinfier Plains
   content: store:/shots/2017-05-08-snowy-waiting.png
   type: shot
   author: dehero
+  locating:
+    date: 2026-02-21-19-52-20
+    user: pyriglena
+    text: '-23,22, on the river bank'
   engine: OpenMW
   addon: Bloodmoon
   tags:
@@ -6940,9 +6952,14 @@
   title: Table in Magic Shop
   titleRu: Столик в магазине магии
   placement: Indoors
+  location: Mournhold, Magic Shop
   content: store:/shots/2017-05-21-table-in-magic-shop.png
   type: shot
   author: dehero
+  locating:
+    date: 2026-02-21-20-39-33
+    user: pyriglena
+    text: ''
   engine: OpenMW
   addon: Tribunal
   tags:
@@ -7666,9 +7683,14 @@
   title: Corridors of Royal Palace
   titleRu: Коридоры королевского дворца
   placement: Indoors
+  location: 'Mournhold, Royal Palace: Imperial Cult Services'
   content: store:/shots/2017-06-05-corridors-of-royal-palace.png
   type: shot
   author: dehero
+  locating:
+    date: 2026-02-21-20-38-10
+    user: pyriglena
+    text: ''
   engine: OpenMW
   addon: Tribunal
   mark: B1
@@ -8152,6 +8174,9 @@
   title: Valbrandr Barrow
   titleRu: Курган Валбрандр
   placement: Outdoors
+  location:
+    - Solstheim, Valbrandr Barrow
+    - Solstheim, Isinfier Plains
   content: store:/shots/2017-06-17-valbrandr-barrow.png
   type: shot
   author: dehero
@@ -10411,9 +10436,16 @@
   title: Snow Wolf Near the Lair
   titleRu: Снежный волк у логова
   placement: Outdoors
+  location:
+    - Solstheim, Hrothmund's Barrow
+    - Solstheim, Hrothmund's Bane
   content: store:/shots/2017-08-07-snow-wolf-near-the-lair.png
   type: shot
   author: dehero
+  locating:
+    date: 2026-02-21-21-06-06
+    user: pyriglena
+    text: '-24,25'
   engine: OpenMW
   tags:
     - lair
@@ -10634,6 +10666,7 @@
   title: Fearsome Grahl
   titleRu: Грозный грахл
   placement: Indoors
+  location: Solstheim, Fjell
   content: store:/shots/2017-08-12-fearsome-grahl.png
   type: shot
   author: dehero
@@ -11775,9 +11808,14 @@
   title: Eye of a Needle
   titleRu: Игольное ушко
   placement: Outdoors
+  location: Solstheim, Hirstaang Forest
   content: store:/shots/2017-09-04-eye-of-a-needle.png
   type: shot
   author: dehero
+  locating:
+    date: 2026-02-21-19-47-38
+    user: pyriglena
+    text: '-24,16, south of Kolbjorn Barrow'
   engine: OpenMW
   addon: Bloodmoon
   mark: A1
@@ -12059,9 +12097,14 @@
   title: Ice Prisoner
   titleRu: Ледяной узник
   placement: Indoors
+  location: Solstheim, Bjorn
   content: store:/shots/2017-09-12-ice-prisoner.png
   type: shot
   author: dehero
+  locating:
+    date: 2026-02-21-19-36-53
+    user: pyriglena
+    text: ''
   engine: OpenMW
   addon: Bloodmoon
   tags:
@@ -13401,9 +13444,14 @@
   title: In an Ice Cave
   titleRu: В ледяной пещере
   placement: Indoors
+  location: Solstheim, Skygge
   content: store:/shots/2017-10-11-in-an-ice-cave.png
   type: shot
   author: dehero
+  locating:
+    date: 2026-02-21-19-42-34
+    user: pyriglena
+    text: ''
   engine: OpenMW
   addon: Bloodmoon
   tags:
@@ -15797,9 +15845,14 @@
   title: Overnight in the Ice
   titleRu: Ночлег во льдах
   placement: Indoors
+  location: Solstheim, Geilir the Mumbling's Dwelling
   content: store:/shots/2017-12-02-overnight-in-the-ice.png
   type: shot
   author: dehero
+  locating:
+    date: 2026-02-21-19-33-40
+    user: pyriglena
+    text: ''
   engine: OpenMW
   addon: Bloodmoon
   mark: A2
@@ -16438,9 +16491,14 @@
   title: Northern Light
   titleRu: Северный свет
   placement: Outdoors
+  location: Skaal Village
   content: store:/shots/2017-12-14-northern-light.png
   type: shot
   author: dehero
+  locating:
+    date: 2026-02-21-19-30-53
+    user: pyriglena
+    text: '-20,26, north-east, behind Ingmar''s house'
   engine: OpenMW
   addon: Bloodmoon
   mark: B2
@@ -16604,9 +16662,14 @@
   title: Chief Tharsten Reflects by the Hearth
   titleRu: Вождь Тарстен размышляет у очага
   placement: Indoors
+  location: Skaal Village, The Greathall
   content: store:/shots/2017-12-19-chief-tharsten-reflects-by-the-hearth.png
   type: shot
   author: dehero
+  locating:
+    date: 2026-02-21-18-57-02
+    user: pyriglena
+    text: ''
   engine: OpenMW
   addon: Bloodmoon
   mark: A2

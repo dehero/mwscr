@@ -76,9 +76,14 @@
   title: Barilzar and His Satellite
   titleRu: Барилзар и его приспешник
   placement: Indoors
+  location: 'Old Mournhold: Abandoned Crypt'
   content: store:/shots/2019-02-06-barilzar-and-his-satellite.png
   type: shot
   author: dehero
+  locating:
+    date: 2026-02-21-20-12-11
+    user: pyriglena
+    text: ''
   engine: OpenMW
   addon: Tribunal
   mark: B2

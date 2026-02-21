@@ -3448,6 +3448,7 @@
   title: Went North
   titleRu: Ушёл на север
   placement: Outdoors
+  location: Solstheim, Hirstaang Forest
   content: store:/shots/2025-12-22-1-went-north.png
   trash:
     - store:/trash/dehero.2025-12-18-20-16-00.png
@@ -3456,6 +3457,10 @@
     - store:/trash/dehero.2025-12-18-20-15-22.2.png
   type: shot
   author: dehero
+  locating:
+    date: 2026-02-21-15-41-53
+    user: pyriglena
+    text: '-20,17'
   engine: OpenMW
   addon: Bloodmoon
   tags:

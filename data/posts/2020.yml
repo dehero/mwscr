@@ -152,9 +152,14 @@
   title: Brave Riekling
   titleRu: Храбрый рьеклинг
   placement: Outdoors
+  location: Solstheim, Felsaad Coast Region
   content: store:/shots/2020-05-15-brave-riekling.png
   type: shot
   author: dehero
+  locating:
+    date: 2026-02-21-17-08-24
+    user: pyriglena
+    text: '-18,24'
   engine: OpenMW
   addon: Bloodmoon
   mark: B2
@@ -1138,9 +1143,16 @@
   title: Leaving the Barrow
   titleRu: Выходя из кургана
   placement: Outdoors
+  location:
+    - Solstheim, Eddard Barrow
+    - Solstheim, Isinfier Plains
   content: store:/shots/2020-10-16-leaving-the-barrow.png
   type: shot
   author: dehero
+  locating:
+    date: 2026-02-21-16-47-29
+    user: pyriglena
+    text: '-23,21'
   engine: OpenMW
   addon: Bloodmoon
   mark: A2
@@ -1273,9 +1285,14 @@
   title: On the Other Side
   titleRu: На том берегу
   placement: Outdoors
+  location: Solstheim, Graring's House
   content: store:/shots/2020-10-18-on-the-other-side.png
   type: shot
   author: dehero
+  locating:
+    date: 2026-02-21-16-41-50
+    user: pyriglena
+    text: '-22,24'
   engine: OpenMW
   addon: Bloodmoon
   mark: B2

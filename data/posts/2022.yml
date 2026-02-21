@@ -764,9 +764,14 @@
   title: Misty Peaks
   titleRu: Туманные пики
   placement: Outdoors
+  location: Nchurdamz
   content: store:/shots/2022-07-07-misty-peaks.png
   type: shot
   author: dehero
+  locating:
+    date: 2026-02-21-16-25-56
+    user: pyriglena
+    text: 17,-6
   engine: OpenMW
   tags:
     - dwemer
