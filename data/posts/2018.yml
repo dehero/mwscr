@@ -437,10 +437,10 @@
     - service: tg
       id: 1152
       published: 2026-02-16-18-38-27
-      updated: 2026-02-21-15-32-47
+      updated: 2026-02-22-16-39-34
       followers: 890
-      likes: 58
-      views: 363
+      likes: 59
+      views: 394
       comments: !c |-
         CzCAkpPLQnnGhxJyAACma2V2eS1jpPCfpoCTy0J5xnv45IAArnBhaW5raWxsZXIxOTg22S/QotGA
         0Lgg0LfQsNC/0L7QstC10LTQuCDQntC00LjQvdC+0YfQtdGB0YLQstCwLgM=
@@ -12462,24 +12462,24 @@
       id: DU_ZpFHl9DV
       mediaId: '18093098477073317'
       published: 2026-02-20-18-58-58
-      updated: 2026-02-22-15-32-49
+      updated: 2026-02-22-16-39-27
       followers: 1606
       likes: 50
     - service: vk
       id: 3100
       published: 2026-02-20-18-59-11
-      updated: 2026-02-22-15-32-44
+      updated: 2026-02-22-16-39-21
       followers: 1605
-      likes: 60
-      views: 802
+      likes: 61
+      views: 821
       reposts: 3
     - service: tg
       id: 1155
       published: 2026-02-20-18-59-29
-      updated: 2026-02-22-15-32-54
+      updated: 2026-02-22-16-39-31
       followers: 893
       likes: 52
-      views: 241
+      views: 244
       comments: !c |-
         CyeAk5PLQnnH3ynZAACma2V2eS1jpPCfpoCTy0J5x8mD2wAAqnNvbm55a290eWGk8J+XoZPLQnnH
         x4RhgACuZGFya25lc3MtcmlmaG+k8J+ZjwM=
