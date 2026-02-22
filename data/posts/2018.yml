@@ -925,9 +925,14 @@
   title: Nix-Hounds Staring at Stars
   titleRu: Никс-гончие любуются звёздами
   placement: Outdoors
+  location: Ashlands Region
   content: store:/shots/2018-01-20-nix-hounds-staring-at-stars.png
   type: shot
   author: dehero
+  locating:
+    date: 2026-02-22-12-27-38
+    user: pyriglena
+    text: '-5,10, north of Bal Isra'
   engine: OpenMW
   tags:
     - star
@@ -3915,9 +3920,14 @@
   title: In Dunmer Stronghold
   titleRu: В данмерской крепости
   placement: Indoors
+  location: Kogoruhn, Hall of Phisto
   content: store:/shots/2018-03-23-in-dunmer-stronghold.png
   type: shot
   author: dehero
+  locating:
+    date: 2026-02-22-09-33-37
+    user: pyriglena
+    text: Dagoth Delnus
   engine: OpenMW
   mark: B2
   posts:
@@ -3939,9 +3949,14 @@
   title: Two Legioners Talking
   titleRu: Беседа двух легионеров
   placement: Outdoors
+  location: Wolverine Hall
   content: store:/shots/2018-03-24-two-legioners-talking.png
   type: shot
   author: dehero
+  locating:
+    date: 2026-02-22-09-48-13
+    user: pyriglena
+    text: ''
   engine: OpenMW
   tags:
     - encounter
@@ -6100,9 +6115,14 @@
   title: Dark Sanctuary of Dark
   titleRu: Святилище тьмы во тьме
   placement: Indoors
+  location: Sennananit
   content: store:/shots/2018-05-09-dark-sanctuary-of-dark.png
   type: shot
   author: dehero
+  locating:
+    date: 2026-02-22-09-30-54
+    user: pyriglena
+    text: ''
   engine: OpenMW
   tags:
     - candle
@@ -8296,10 +8316,16 @@
   title: Time to Write
   titleRu: Время писать
   placement: Indoors
+  location: Fort Frostmoth, Armory
   content: store:/shots/2018-06-22-time-to-write.png
   type: shot
   author: dehero
+  locating:
+    date: 2026-02-22-16-45-06
+    user: pyriglena
+    text: ''
   engine: OpenMW
+  addon: Bloodmoon
   mark: B2
   posts:
     - service: ig
@@ -8672,6 +8698,7 @@
   type: shot
   author: dehero
   engine: OpenMW
+  addon: Bloodmoon
   tags:
     - forest
     - sunset
@@ -11812,9 +11839,14 @@
   title: Bonewalker
   titleRu: Ходячий труп
   placement: Indoors
+  location: Odirniran
   content: store:/shots/2018-09-05-bonewalker.png
   type: shot
   author: dehero
+  locating:
+    date: 2026-02-22-12-08-26
+    user: pyriglena
+    text: ''
   engine: OpenMW
   mark: B1
   posts:

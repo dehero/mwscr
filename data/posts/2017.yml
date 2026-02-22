@@ -2219,9 +2219,14 @@
   title: Sunrise Over the Ash Forest
   titleRu: Рассвет над пепельным лесом
   placement: Outdoors
+  location: Molag Amur Region
   content: store:/shots/2017-02-16-sunrise-over-the-ash-forest.png
   type: shot
   author: dehero
+  locating:
+    date: 2026-02-22-12-01-06
+    user: pyriglena
+    text: 10,3, east of Mzanchend, south of Andules Ancestral Tomb
   engine: OpenMW
   tags:
     - forest
@@ -3978,9 +3983,14 @@
   title: Mushroom Stack
   titleRu: Грибной стек
   placement: Outdoors
+  location: Ascadian Isles Region
   content: store:/shots/2017-03-24-mushroom-stack.png
   type: shot
   author: dehero
+  locating:
+    date: 2026-02-22-14-42-41
+    user: pyriglena
+    text: '-1,-7, northern exit from Pelagiad'
   engine: OpenMW
   tags:
     - night
@@ -8584,9 +8594,14 @@
   title: Floating Over the Green Hills
   titleRu: Паря над зелёными холмами
   placement: Outdoors
+  location: Ascadian Isles Region
   content: store:/shots/2017-06-26-floating-over-the-green-hills.png
   type: shot
   author: dehero
+  locating:
+    date: 2026-02-22-14-39-01
+    user: pyriglena
+    text: '-1,-6, north-west of Pelagiad, east of Ulummusa'
   engine: OpenMW
   tags:
     - road
@@ -8828,6 +8843,7 @@
   title: Training Room
   titleRu: Тренировочная комната
   placement: Indoors
+  location: Vivec, Guild of Fighters
   content: store:/shots/2017-07-01-training-room.png
   type: shot
   author: dehero
@@ -9284,9 +9300,16 @@
   title: Behind the Ghostfence
   titleRu: За Призрачным Пределом
   placement: Outdoors
+  location:
+    - Ashlands Region
+    - Red Mountain Region
   content: store:/shots/2017-07-11-behind-the-ghostfence.png
   type: shot
   author: dehero
+  locating:
+    date: 2026-02-22-11-31-04
+    user: pyriglena
+    text: 0,8, west of Ularradallaku
   engine: OpenMW
   mark: A2
   posts:
@@ -9596,9 +9619,14 @@
   title: In Foggy Gray
   titleRu: В туманной серости
   placement: Outdoors
+  location: Molag Amur Region
   content: store:/shots/2017-07-18-in-foggy-gray.png
   type: shot
   author: dehero
+  locating:
+    date: 2026-02-22-16-53-37
+    user: pyriglena
+    text: Район Молаг Амур 10,-4
   engine: OpenMW
   mark: B2
   posts:
@@ -10189,9 +10217,14 @@
   title: At the Coast
   titleRu: На побережье
   placement: Outdoors
+  location: Yansirramus
   content: store:/shots/2017-07-31-at-the-coast.png
   type: shot
   author: dehero
+  locating:
+    date: 2026-02-22-11-04-04
+    user: pyriglena
+    text: 12,4
   engine: OpenMW
   tags:
     - netch
@@ -10219,9 +10252,14 @@
   title: Clannfear Parade
   titleRu: Парад ужасов
   placement: Outdoors
+  location: Zaintiraris
   content: store:/shots/2017-08-01-clannfear-parade.png
   type: shot
   author: dehero
+  locating:
+    date: 2026-02-22-11-19-36
+    user: pyriglena
+    text: 12,-10
   engine: OpenMW
   tags:
     - night
@@ -10326,9 +10364,14 @@
   title: Coastal Muckspunge
   titleRu: Прибрежный мускспунж
   placement: Outdoors
+  location: West Gash Region
   content: store:/shots/2017-08-04-coastal-muckspunge.png
   type: shot
   author: dehero
+  locating:
+    date: 2026-02-22-13-46-06
+    user: pyriglena
+    text: '-9,11, south of Assarnud, east of Gnisis, Underground Stream'
   engine: OpenMW
   tags:
     - night
@@ -13179,9 +13222,14 @@
   title: In the Evening Time
   titleRu: В вечерний час
   placement: Outdoors
+  location: Azura's Coast Region
   content: store:/shots/2017-10-04-in-the-evening-time.png
   type: shot
   author: dehero
+  locating:
+    date: 2026-02-22-14-03-36
+    user: pyriglena
+    text: 14,-9, south of Molag Mar, north of Hlaalu Ancestral Tomb
   engine: OpenMW
   mark: A2
   posts:
@@ -13307,9 +13355,16 @@
   title: Aeronautics
   titleRu: Воздухоплавание
   placement: Outdoors
+  location:
+    - Ascadian Isles Region
+    - Omani Manor
   content: store:/shots/2017-10-08-aeronautics.png
   type: shot
   author: dehero
+  locating:
+    date: 2026-02-22-13-39-47
+    user: pyriglena
+    text: 6,-12
   engine: OpenMW
   mark: A2
   posts:
@@ -13530,9 +13585,14 @@
   title: Cult of Candles
   titleRu: Культ свечей
   placement: Indoors
+  location: Ilunibi, Carcass of the Saint
   content: store:/shots/2017-10-13-cult-of-candles.png
   type: shot
   author: dehero
+  locating:
+    date: 2026-02-22-10-44-56
+    user: pyriglena
+    text: ''
   engine: OpenMW
   tags:
     - candle
@@ -13940,9 +14000,14 @@
   title: Mushroom Field
   titleRu: Грибное поле
   placement: Outdoors
+  location: Sheogorad Region
   content: store:/shots/2017-10-22-mushroom-field.png
   type: shot
   author: dehero
+  locating:
+    date: 2026-02-22-10-33-07
+    user: pyriglena
+    text: '-2,21, between Andavel Ancestral Tomb and Sargon'
   engine: OpenMW
   tags:
     - mushroom
@@ -14315,9 +14380,16 @@
   title: Wilted Littoral
   titleRu: Чахлое прибрежье
   placement: Outdoors
+  location:
+    - West Gash Region
+    - Arkngthunch-Sturdumz
   content: store:/shots/2017-10-29-wilted-littoral.png
   type: shot
   author: dehero
+  locating:
+    date: 2026-02-22-10-09-37
+    user: pyriglena
+    text: '-12,13'
   engine: OpenMW
   tags:
     - tree
@@ -14540,9 +14612,14 @@
   title: Bottles and Candles
   titleRu: Бутылки и свечи
   placement: Indoors
+  location: Molag Mar, Waistworks
   content: store:/shots/2017-11-04-bottles-and-candles.png
   type: shot
   author: dehero
+  locating:
+    date: 2026-02-22-10-07-50
+    user: pyriglena
+    text: ''
   engine: OpenMW
   tags:
     - candle
@@ -14659,9 +14736,14 @@
   title: Shore Shroom
   titleRu: Прибрежный гриб
   placement: Outdoors
+  location: Sheogorad Region
   content: store:/shots/2017-11-06-shore-shroom.png
   type: shot
   author: dehero
+  locating:
+    date: 2026-02-22-13-31-11
+    user: pyriglena
+    text: '-2,20, east of Assumanu'
   engine: OpenMW
   tags:
     - mushroom
@@ -14709,9 +14791,14 @@
   title: Corridor Keeper
   titleRu: Хранитель прохода
   placement: Indoors
+  location: Hanud
   content: store:/shots/2017-11-07-corridor-keeper.png
   type: shot
   author: dehero
+  locating:
+    date: 2026-02-22-13-21-46
+    user: pyriglena
+    text: ''
   engine: OpenMW
   tags:
     - skeleton
@@ -15252,9 +15339,14 @@
   title: Bottle Collection
   titleRu: Коллекция бутылок
   placement: Indoors
+  location: Caldera, Shenk's Shovel
   content: store:/shots/2017-11-19-bottle-collection.png
   type: shot
   author: dehero
+  locating:
+    date: 2026-02-22-09-56-47
+    user: pyriglena
+    text: ''
   engine: OpenMW
   tags:
     - bottle
@@ -15879,9 +15971,14 @@
   title: Upper Circles
   titleRu: Высокие круги
   placement: Indoors
+  location: Ebonheart, Grand Council Chambers
   content: store:/shots/2017-12-03-upper-circles.png
   type: shot
   author: dehero
+  locating:
+    date: 2026-02-22-09-53-34
+    user: pyriglena
+    text: ''
   engine: OpenMW
   mark: B1
   posts:
@@ -16048,9 +16145,14 @@
   title: Ready for a Sermon
   titleRu: Всё готово к проповеди
   placement: Indoors
+  location: Vas, Entry Level
   content: store:/shots/2017-12-06-ready-for-a-sermon.png
   type: shot
   author: dehero
+  locating:
+    date: 2026-02-22-10-03-00
+    user: pyriglena
+    text: ''
   engine: OpenMW
   tags:
     - book
@@ -16552,9 +16654,14 @@
   title: Ashy Hills
   titleRu: Пепельные холмы
   placement: Outdoors
+  location: Ashlands Region
   content: store:/shots/2017-12-16-ashy-hills.png
   type: shot
   author: dehero
+  locating:
+    date: 2026-02-22-12-47-46
+    user: pyriglena
+    text: '-5,8, east of Odibaal'
   engine: OpenMW
   tags:
     - tree
@@ -16760,9 +16867,14 @@
   title: Note to Telvon
   titleRu: Записка Телвону
   placement: Outdoors
+  location: Indoranyon
   content: store:/shots/2017-12-22-note-to-telvon.png
   type: shot
   author: dehero
+  locating:
+    date: 2026-02-22-09-51-35
+    user: pyriglena
+    text: 14,9
   engine: OpenMW
   tags:
     - candle
