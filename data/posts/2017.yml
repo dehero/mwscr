@@ -7464,16 +7464,16 @@
       id: DU81GoUF8_o
       mediaId: '18565710904003689'
       published: 2026-02-19-19-01-10
-      updated: 2026-02-21-18-45-05
+      updated: 2026-02-22-18-45-20
       followers: 1607
-      likes: 50
+      likes: 52
     - service: vk
       id: 3099
       published: 2026-02-19-19-01-18
-      updated: 2026-02-21-18-44-56
+      updated: 2026-02-22-18-45-14
       followers: 1604
-      likes: 43
-      views: 767
+      likes: 44
+      views: 830
       reposts: 2
     - service: tg
       id: 1154
@@ -11451,6 +11451,19 @@
       followers: 559
       likes: 68
       views: 683
+    - service: ig
+      id: DVEiHaljS2f
+      mediaId: '18004039898849659'
+      published: 2026-02-22-18-49-11
+      followers: 1606
+    - service: vk
+      id: 3102
+      published: 2026-02-22-18-49-21
+      followers: 1606
+    - service: tg
+      id: 1157
+      published: 2026-02-22-18-49-53
+      followers: 893
 2017-08-27-deadly-pass:
   title: Deadly Pass
   titleRu: Смертельный проход
