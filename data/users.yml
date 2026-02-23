@@ -468,7 +468,7 @@ anonim:
   profiles:
     - service: tg
       id: '6469120788'
-      updated: 2026-02-23-07-17-15
+      updated: 2026-02-23-20-53-55
       accessHash: '-3557204299452739678'
       name: Аноним
       avatar: store:/avatars/tg-5228982199254718377.jpg
@@ -1312,7 +1312,7 @@ darkness-rifho:
       deleted: true
     - service: tg
       id: '5704974271'
-      updated: 2026-02-23-07-17-17
+      updated: 2026-02-23-20-54-09
       accessHash: '3506423524566292179'
       username: C4H6O4
       name: Уна
@@ -2144,7 +2144,7 @@ ghost63rus:
   profiles:
     - service: vk
       id: '841031998'
-      updated: 2026-02-23-19-18-32
+      updated: 2026-02-23-20-53-55
       username: ghost63rus
       name: Дмитрий Кузнецов
       avatar: store:/avatars/vk-2af7304a.jpg
@@ -2228,7 +2228,7 @@ goosevich76:
   profiles:
     - service: tg
       id: '5385620621'
-      updated: 2026-02-23-07-17-15
+      updated: 2026-02-23-20-54-11
       accessHash: '-7130473396589324830'
       username: horwwwaty
       name: choven
@@ -2944,7 +2944,7 @@ kevy-c:
   profiles:
     - service: tg
       id: '5067683234'
-      updated: 2026-02-23-19-18-35
+      updated: 2026-02-23-20-54-10
       accessHash: '-903667913374325979'
       username: Kevy_c
       name: Dash
@@ -2965,6 +2965,14 @@ kidcarolus:
       username: kidcarolus
       name: Killian
       avatar: store:/avatars/ig-69cef8c2.jpg
+kirillmanyukov:
+  profiles:
+    - service: vk
+      id: '80137875'
+      updated: 2026-02-23-20-53-59
+      username: kirillmanyukov
+      name: Кирилл Манюков
+      avatar: store:/avatars/vk-b5b51945.jpg
 kitchensnineteenninetyseven:
   profiles:
     - service: ig
@@ -4184,7 +4192,7 @@ p40jla:
   profiles:
     - service: vk
       id: '365527711'
-      updated: 2026-02-22-09-09-52
+      updated: 2026-02-23-20-53-56
       username: p40jla
       name: Николай Хорошун
       avatar: store:/avatars/vk-c9387c2d.jpg
@@ -4483,7 +4491,7 @@ pyriglena:
   profiles:
     - service: tg
       id: '554672984'
-      updated: 2026-02-22-08-59-43
+      updated: 2026-02-23-20-53-55
       accessHash: '-3565593010225205906'
       username: pyriglena
       name: yarrow
@@ -4568,7 +4576,7 @@ reanimatrix:
   profiles:
     - service: tg
       id: '5221327246'
-      updated: 2026-02-22-19-33-15
+      updated: 2026-02-23-20-54-11
       accessHash: '2760022429796079203'
       name: reanimatrix
 redoranar:
@@ -5160,11 +5168,11 @@ sonnykotya:
   profiles:
     - service: tg
       id: '7937963458'
-      updated: 2026-02-22-18-45-23
+      updated: 2026-02-23-20-54-04
       accessHash: '6311850478953577755'
       username: sonnykotya
       name: дракоша
-      avatar: store:/avatars/tg-5249491836324223048.jpg
+      avatar: store:/avatars/tg-5251343495509775988.jpg
 sothaseel:
   profiles:
     - service: ig
@@ -6296,12 +6304,12 @@ wenya-fox:
   profiles:
     - service: tg
       id: '2134652228'
-      updated: 2026-01-26-19-24-11
+      updated: 2026-02-23-20-54-19
       accessHash: '-7611750683729901996'
       username: WFX_q
       botChatId: 2134652228
       name: Матвей
-      avatar: store:/avatars/tg-5291946540069419358.jpg
+      avatar: store:/avatars/tg-5251530996602050187.jpg
 whom-the-heck-is-batman:
   profiles:
     - service: ig
