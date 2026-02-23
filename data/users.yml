@@ -2144,7 +2144,7 @@ ghost63rus:
   profiles:
     - service: vk
       id: '841031998'
-      updated: 2026-02-23-02-44-53
+      updated: 2026-02-23-05-04-25
       username: ghost63rus
       name: Дмитрий Кузнецов
       avatar: store:/avatars/vk-9cfdc9cc.jpg
@@ -2944,7 +2944,7 @@ kevy-c:
   profiles:
     - service: tg
       id: '5067683234'
-      updated: 2026-02-23-02-44-55
+      updated: 2026-02-23-05-04-28
       accessHash: '-903667913374325979'
       username: Kevy_c
       name: Dash
