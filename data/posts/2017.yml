@@ -11455,23 +11455,26 @@
       id: DVEiHaljS2f
       mediaId: '18004039898849659'
       published: 2026-02-22-18-49-11
-      updated: 2026-02-22-23-33-13
+      updated: 2026-02-23-02-44-50
       followers: 1606
-      likes: 37
+      likes: 38
     - service: vk
       id: 3102
       published: 2026-02-22-18-49-21
-      updated: 2026-02-22-23-33-09
+      updated: 2026-02-23-02-44-53
       followers: 1606
-      likes: 15
-      views: 120
+      likes: 21
+      views: 147
+      comments: !c |-
+        Cx6AkZPLQnnIfc+eAACqZ2hvc3Q2M3J1c9kl0KLQvtGH0L3QviDQktC+0YDQvtC90YzRjyDRgdC6
+        0LDQu9CwPwM=
     - service: tg
       id: 1157
       published: 2026-02-22-18-49-53
-      updated: 2026-02-22-23-33-16
+      updated: 2026-02-23-02-44-54
       followers: 893
-      likes: 43
-      views: 140
+      likes: 46
+      views: 149
       comments: !c CwuAkZPLQnnIepqSgACma2V2eS1jpPCfpoAD
 2017-08-27-deadly-pass:
   title: Deadly Pass
