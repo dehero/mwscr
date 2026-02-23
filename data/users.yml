@@ -409,7 +409,7 @@ andrew-art:
   profiles:
     - service: tg
       id: '449416259'
-      updated: 2026-01-26-09-33-56
+      updated: 2026-02-23-10-06-47
       accessHash: '3490877615553694787'
       username: andrew_art
       botChatId: 449416259
@@ -2144,7 +2144,7 @@ ghost63rus:
   profiles:
     - service: vk
       id: '841031998'
-      updated: 2026-02-23-08-58-51
+      updated: 2026-02-23-10-06-36
       username: ghost63rus
       name: Дмитрий Кузнецов
       avatar: store:/avatars/vk-9cfdc9cc.jpg
@@ -2944,7 +2944,7 @@ kevy-c:
   profiles:
     - service: tg
       id: '5067683234'
-      updated: 2026-02-23-08-59-02
+      updated: 2026-02-23-10-06-40
       accessHash: '-903667913374325979'
       username: Kevy_c
       name: Dash
