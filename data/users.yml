@@ -468,7 +468,7 @@ anonim:
   profiles:
     - service: tg
       id: '6469120788'
-      updated: 2026-02-24-10-02-58
+      updated: 2026-02-24-11-45-18
       accessHash: '-3557204299452739678'
       name: Аноним
       avatar: store:/avatars/tg-5228982199254718377.jpg
@@ -2144,7 +2144,7 @@ ghost63rus:
   profiles:
     - service: vk
       id: '841031998'
-      updated: 2026-02-24-10-02-58
+      updated: 2026-02-24-11-45-16
       username: ghost63rus
       name: Дмитрий Кузнецов
       avatar: store:/avatars/vk-2af7304a.jpg
@@ -2944,7 +2944,7 @@ kevy-c:
   profiles:
     - service: tg
       id: '5067683234'
-      updated: 2026-02-24-10-03-00
+      updated: 2026-02-24-11-45-19
       accessHash: '-903667913374325979'
       username: Kevy_c
       name: Dash
@@ -4192,7 +4192,7 @@ p40jla:
   profiles:
     - service: vk
       id: '365527711'
-      updated: 2026-02-24-10-02-58
+      updated: 2026-02-24-11-45-16
       username: p40jla
       name: Николай Хорошун
       avatar: store:/avatars/vk-c9387c2d.jpg
@@ -4491,7 +4491,7 @@ pyriglena:
   profiles:
     - service: tg
       id: '554672984'
-      updated: 2026-02-24-10-03-00
+      updated: 2026-02-24-11-45-18
       accessHash: '-3565593010225205906'
       username: pyriglena
       name: yarrow
