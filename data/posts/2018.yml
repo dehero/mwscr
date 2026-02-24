@@ -448,16 +448,16 @@
       id: DU1F8CmiF0f
       mediaId: '18142648141478557'
       published: 2026-02-16-18-38-27
-      updated: 2026-02-23-15-54-31
+      updated: 2026-02-24-16-08-01
       followers: 1608
-      likes: 67
+      likes: 69
     - service: vk
       id: 3094
       published: 2026-02-16-18-38-27
-      updated: 2026-02-23-15-54-34
+      updated: 2026-02-24-16-08-05
       followers: 1602
       likes: 50
-      views: 723
+      views: 728
       reposts: 1
 2018-01-11-dance-of-dagoth:
   title: Dance of Dagoth
@@ -7222,7 +7222,7 @@
   title: Mournhold Cactus
   titleRu: Морнхолдский кактус
   placement: Indoors
-  location: "Mournhold, Royal Palace: Guards' Quarters"
+  location: 'Mournhold, Royal Palace: Guards'' Quarters'
   content: store:/shots/2018-06-02-mournhold-cactus.png
   type: shot
   author: dehero
@@ -7569,7 +7569,7 @@
   placement: Indoors
   location:
     - Imperial Prison Ship
-    - "Mournhold, Royal Palace: Barenziah's Chambers"
+    - 'Mournhold, Royal Palace: Barenziah''s Chambers'
     - Tower of Tel Fyr, Hall of Fyr
     - Seyda Neen, Census and Excise Office
   content:
@@ -15481,8 +15481,7 @@
   locating:
     date: 2026-02-14-20-32-23
     user: pyriglena
-    text:
-      Azura's Coast Region 13,12, the northern coast of the bigger island to the south of Tel Mora (north of Esutanamus)
+    text: Azura's Coast Region 13,12, the northern coast of the bigger island to the south of Tel Mora (north of Esutanamus)
   engine: OpenMW
   mark: B2
   posts:
