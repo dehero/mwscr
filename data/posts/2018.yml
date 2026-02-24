@@ -6654,19 +6654,6 @@
       comments: !c |-
         CyqAk5PLQnkw+mEZAACrYmh1dmFuYXNyaWmk8J+NrZPLQnkvTUbBgACtY2FpdXMtY29zYWRlc6gy
         MDE4Li4uP5PLQnkvTL0PgACod2lsenV1bGyk8J+nkAM=
-    - service: ig
-      id: DU1E-J7lxv6
-      mediaId: '18099756437497514'
-      published: 2026-02-16-18-45-54
-      followers: 1607
-    - service: vk
-      id: 3093
-      published: 2026-02-16-18-46-00
-      followers: 1604
-    - service: tg
-      id: 1153
-      published: 2026-02-16-18-46-24
-      followers: 890
 2018-05-20-views-from-the-outskirts-of-gnisis:
   title: Views from the Outskirts of Gnisis
   titleRu: Виды с окраин Гнисиса
@@ -7235,7 +7222,7 @@
   title: Mournhold Cactus
   titleRu: Морнхолдский кактус
   placement: Indoors
-  location: 'Mournhold, Royal Palace: Guards'' Quarters'
+  location: "Mournhold, Royal Palace: Guards' Quarters"
   content: store:/shots/2018-06-02-mournhold-cactus.png
   type: shot
   author: dehero
@@ -7582,7 +7569,7 @@
   placement: Indoors
   location:
     - Imperial Prison Ship
-    - 'Mournhold, Royal Palace: Barenziah''s Chambers'
+    - "Mournhold, Royal Palace: Barenziah's Chambers"
     - Tower of Tel Fyr, Hall of Fyr
     - Seyda Neen, Census and Excise Office
   content:
@@ -15494,7 +15481,8 @@
   locating:
     date: 2026-02-14-20-32-23
     user: pyriglena
-    text: Azura's Coast Region 13,12, the northern coast of the bigger island to the south of Tel Mora (north of Esutanamus)
+    text:
+      Azura's Coast Region 13,12, the northern coast of the bigger island to the south of Tel Mora (north of Esutanamus)
   engine: OpenMW
   mark: B2
   posts:
