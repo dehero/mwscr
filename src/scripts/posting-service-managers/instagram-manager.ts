@@ -17,6 +17,7 @@ import {
 } from 'instagram-graph-api';
 import sharp from 'sharp';
 import { markdownToText } from '../../core/entities/markdown.js';
+import type { MediaAspectRatio } from '../../core/entities/media.js';
 import {
   aspectRatioFromSize,
   getAspectRatioHeightMultiplier,
@@ -257,7 +258,7 @@ export class InstagramManager extends Instagram implements PostingServiceManager
       throw new Error('Cannot get image width');
     }
 
-    let aspectRatio = postTypeDescriptors[post.type].aspectRatio;
+    let aspectRatio: MediaAspectRatio | undefined = post.aspect;
     if (!aspectRatio) {
       aspectRatio = aspectRatioFromSize(width, firstImageMetadata.height ?? 0);
     }
@@ -297,8 +298,8 @@ export class InstagramManager extends Instagram implements PostingServiceManager
 
     const newPublications: InstagramPublication[] = [{ service: 'ig', id, mediaId, followers, published: new Date() }];
 
-    // Create story for "wallpaper-v" post type
-    if (post.type === 'wallpaper-v') {
+    // Create story for vertical wallpaper
+    if (post.type === 'wallpaper' && post.aspect === '9/16') {
       const imageUrl = await this.getCroppedImageUrl(firstImage, width, Math.floor(width * (16 / 9)));
       const containerId = await this.createContainer(ig.newPostPageStoriesPhotoMediaRequest(imageUrl));
       const [mediaId, mediaInfo] = await this.publishContainer(containerId);

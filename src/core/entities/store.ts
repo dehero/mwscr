@@ -115,7 +115,6 @@ export function getTargetStoreDirFromPostType(type: PostType) {
     case 'video':
       return STORE_VIDEOS_DIR;
     case 'wallpaper':
-    case 'wallpaper-v':
       return STORE_WALLPAPERS_DIR;
     case 'news':
       return STORE_NEWS_DIR;

@@ -4,7 +4,7 @@ import { Dynamic } from 'solid-js/web';
 import avatar from '../../../../assets/avatar.png?format=avif&imagetools';
 import { markdownToInlineHtml } from '../../../core/entities/markdown.js';
 import { getLimitedAspectRatio } from '../../../core/entities/media.js';
-import { postAddonDescriptors, postTypeDescriptors, postViolationDescriptors } from '../../../core/entities/post.js';
+import { postAddonDescriptors, postViolationDescriptors } from '../../../core/entities/post.js';
 import type { PostInfo } from '../../../core/entities/post-info.js';
 import { createPostPath } from '../../../core/entities/posts-manager.js';
 import { asArray, capitalizeFirstLetter } from '../../../core/utils/common-utils.js';
@@ -43,11 +43,7 @@ export const PostPreview: Component<PostPreviewProps> = (props) => {
       : postRoute.createUrl({ managerName: props.postInfo.managerName, id: props.postInfo.id });
   const minHeightMultiplier = () => (props.postInfo.description ? undefined : 1);
   const aspectRatio = () =>
-    getLimitedAspectRatio(
-      postTypeDescriptors[props.postInfo.type].aspectRatio ?? '1/1',
-      minHeightMultiplier(),
-      props.maxHeightMultiplier,
-    );
+    getLimitedAspectRatio(props.postInfo.aspect ?? '1/1', minHeightMultiplier(), props.maxHeightMultiplier);
   const alt = () => props.postInfo.tags?.join(' ');
   const frameState = () => (props.selected ? 'selected' : props.postInfo.status ? 'unsaved' : undefined);
 
@@ -80,7 +76,7 @@ export const PostPreview: Component<PostPreviewProps> = (props) => {
         <PostContentPreview
           class={styles.image}
           content={props.postInfo.content ?? props.postInfo.snapshot ?? (!props.postInfo.request ? avatar : undefined)}
-          type={props.postInfo.type}
+          aspectRatio={props.postInfo.aspect}
           alt={alt()}
           frameState={frameState()}
           minHeightMultiplier={minHeightMultiplier()}

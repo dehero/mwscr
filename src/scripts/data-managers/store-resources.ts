@@ -185,8 +185,7 @@ export async function movePublishedPostResources([id, post]: PostEntry<Publishab
     case 'photoshop':
     case 'outtakes':
     case 'shot':
-    case 'wallpaper':
-    case 'wallpaper-v': {
+    case 'wallpaper': {
       const targetDir = getTargetStoreDirFromPostType(post.type);
       if (!targetDir) {
         throw new Error(`Unable to detect target store directory for post type "${post.type}"`);
@@ -231,7 +230,7 @@ export async function movePublishedPostResources([id, post]: PostEntry<Publishab
       post.content = mergePostContents(newContent) as typeof post.content;
       break;
     }
-    case 'shot-set': {
+    case 'compilation': {
       for (const url of post.content) {
         if (url !== RESOURCE_MISSING_IMAGE && !(await resourceExists(url))) {
           throw new Error(`Need "${url}" to exist for post type "${post.type}"`);
