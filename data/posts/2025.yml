@@ -26,6 +26,7 @@
     - store:/inbox/dehero.2025-01-19-19-22-30.png
     - store:/inbox/dehero.2025-01-19-19-23-17.png
   type: shot
+  aspect: 1/1
   author: dehero
   engine: OpenMW
   tags:
@@ -68,6 +69,7 @@
   location: Aryon Ancestral Tomb
   content: store:/shots/2025-01-23-eternal-halt.png
   type: shot
+  aspect: 1/1
   author: dehero
   engine: OpenMW
   tags:
@@ -116,6 +118,7 @@
     - Vivec, St. Delyn
   content: store:/shots/2025-01-26-dark-moon.png
   type: shot
+  aspect: 1/1
   author: dehero
   engine: OpenMW
   tags:
@@ -160,6 +163,7 @@
   location: Ald Velothi
   content: store:/shots/2025-01-27-fishing-in-the-rain.png
   type: shot
+  aspect: 1/1
   author: dehero
   engine: OpenMW
   tags:
@@ -209,6 +213,7 @@
   content: store:/shots/2025-01-28-smokey-morth.png
   trash: store:/trash/dehero.2025-01-19-19-27-14.png
   type: shot
+  aspect: 1/1
   author: dehero
   engine: OpenMW
   tags:
@@ -249,6 +254,7 @@
   location: Ald Velothi
   content: store:/shots/2025-02-01-harbour-view.png
   type: shot
+  aspect: 1/1
   author: dehero
   engine: OpenMW
   tags:
@@ -292,6 +298,7 @@
   placement: Outdoors
   content: store:/shots/2025-02-05-the-storm-is-passing.png
   type: shot
+  aspect: 1/1
   author: dehero
   engine: OpenMW
   tags:
@@ -333,7 +340,8 @@
     - store:/shots/2018-03-24-two-legioners-talking.png
     - store:/shots/2017-01-23-when-you-meet-yourself.png
     - store:/shots/2017-02-07-night-patrol.png
-  type: shot-set
+  type: compilation
+  aspect: 1/1
   author: dehero
   engine: OpenMW
   tags:
@@ -411,6 +419,7 @@
   content: store:/shots/2025-03-13-cold-beach.png
   trash: store:/trash/dehero.2025-01-19-18-13-19.png
   type: shot
+  aspect: 1/1
   author: dehero
   engine: OpenMW
   tags:
@@ -450,6 +459,7 @@
     - store:/trash/dehero.2025-03-12-19-48-54.png
     - store:/trash/dehero.2025-03-12-19-49-29.png
   type: shot
+  aspect: 1/1
   author: dehero
   engine: OpenMW
   tags:
@@ -497,6 +507,7 @@
   content: store:/shots/2025-03-15-repairing-centurion-palm.png
   trash: store:/trash/dehero.2025-01-19-18-55-57.png
   type: shot
+  aspect: 1/1
   author: dehero
   engine: OpenMW
   addon: Tribunal
@@ -531,6 +542,7 @@
   location: Fort Frostmoth
   content: store:/shots/2025-03-16-passage-to-the-north.png
   type: shot
+  aspect: 1/1
   author: dehero
   engine: OpenMW
   addon: Bloodmoon
@@ -575,6 +587,7 @@
   location: Assurnabitashpi
   content: store:/shots/2025-03-17-first-stars-above-assurnabitashpi.png
   type: shot
+  aspect: 1/1
   author: dehero
   engine: OpenMW
   tags:
@@ -615,6 +628,7 @@
   content: store:/shots/2025-03-19-wardens.png
   trash: store:/trash/dehero.2025-03-12-20-07-51.png
   type: shot
+  aspect: 1/1
   author: dehero
   engine: OpenMW
   tags:
@@ -660,6 +674,7 @@
   location: Dren Plantation
   content: store:/shots/2025-03-20-night-on-the-plantation.png
   type: shot
+  aspect: 1/1
   author: dehero
   engine: OpenMW
   tags:
@@ -709,6 +724,7 @@
   content: store:/shots/2025-03-21-coming-to-ald-sotha.png
   trash: store:/trash/dehero.2025-03-12-19-44-59.png
   type: shot
+  aspect: 1/1
   author: dehero
   engine: OpenMW
   tags:
@@ -752,6 +768,7 @@
   location: Molag Amur Region
   content: store:/shots/2025-03-22-dont-go-left.png
   type: shot
+  aspect: 1/1
   author: dehero
   engine: OpenMW
   tags:
@@ -794,6 +811,7 @@
   location: Dren Plantation, Storage Shack
   content: store:/shots/2025-03-23-avus-belvilo.png
   type: shot
+  aspect: 1/1
   author: dehero
   engine: OpenMW
   tags:
@@ -833,6 +851,7 @@
   location: Sadrith Mora, Gateway Inn
   content: store:/shots/2025-03-25-under-gateway-inn.png
   type: shot
+  aspect: 1/1
   author: dehero
   engine: OpenMW
   tags:
@@ -880,6 +899,7 @@
   location: Mournhold, Great Bazaar
   content: store:/shots/2025-03-28-in-the-greenery-of-mournhold.png
   type: shot
+  aspect: 1/1
   author: dehero
   engine: OpenMW
   addon: Tribunal
@@ -922,6 +942,7 @@
   content: store:/shots/2025-03-29-bridle-of-foreigners.png
   trash: store:/trash/dehero.2025-03-27-20-34-42.1.png
   type: shot
+  aspect: 1/1
   author: dehero
   engine: OpenMW
   tags:
@@ -960,6 +981,7 @@
   content: store:/shots/2025-03-30-frozen-water-stone.png
   trash: store:/trash/dehero.2025-03-27-19-49-51.png
   type: shot
+  aspect: 1/1
   author: dehero
   engine: OpenMW
   addon: Bloodmoon
@@ -1004,6 +1026,7 @@
   content: store:/shots/2025-03-31-sixth-house-hammer.png
   trash: store:/trash/dehero.2025-03-27-20-08-38.1.png
   type: shot
+  aspect: 1/1
   author: dehero
   engine: OpenMW
   tags:
@@ -1047,6 +1070,7 @@
   content: store:/shots/2025-04-02-fire-fern.png
   trash: store:/trash/dehero.2025-03-27-20-05-10.1.png
   type: shot
+  aspect: 1/1
   author: dehero
   engine: OpenMW
   mark: B1
@@ -1085,6 +1109,7 @@
     - Vivec, Hlaalu Plaza
   content: store:/shots/2025-04-05-near-curio-manor.png
   type: shot
+  aspect: 1/1
   author: dehero
   engine: OpenMW
   mark: B1
@@ -1121,6 +1146,7 @@
   location: Ascadian Isles Region
   content: store:/shots/2025-04-07-peeping.png
   type: shot
+  aspect: 1/1
   author: dehero
   engine: OpenMW
   tags:
@@ -1172,6 +1198,7 @@
     - store:/trash/dehero.2025-03-27-20-06-42.1.png
     - store:/trash/dehero.2025-03-27-20-06-42.png
   type: shot
+  aspect: 1/1
   author: dehero
   engine: OpenMW
   mark: B1
@@ -1216,6 +1243,7 @@
     - store:/trash/dehero.2025-04-10-20-12-41.png
     - store:/trash/dehero.2025-04-10-20-12-41.1.png
   type: shot
+  aspect: 1/1
   author: dehero
   engine: OpenMW
   addon: Tamriel Rebuilt
@@ -1264,6 +1292,7 @@
     - store:/trash/dehero.2025-03-12-19-37-11.png
     - store:/trash/dehero.2025-03-12-19-36-50.png
   type: shot
+  aspect: 1/1
   author: dehero
   engine: OpenMW
   tags:
@@ -1313,6 +1342,7 @@
     - store:/trash/dehero.2025-03-27-20-01-30.png
     - store:/trash/dehero.2025-03-27-19-59-13.2.png
   type: shot
+  aspect: 1/1
   author: dehero
   engine: OpenMW
   tags:
@@ -1349,6 +1379,7 @@
   location: Bitter Coast Region
   content: store:/shots/2025-04-21-rainy-coast.png
   type: shot
+  aspect: 1/1
   author: dehero
   engine: OpenMW
   tags:
@@ -1399,6 +1430,7 @@
     - store:/trash/dehero.2025-03-25-20-40-54.1.png
     - store:/trash/dehero.2025-03-25-20-40-54.png
   type: shot
+  aspect: 1/1
   author: dehero
   engine: OpenMW
   tags:
@@ -1434,6 +1466,7 @@
   location: Dren Plantation
   content: store:/shots/2025-04-24-forgotten-basket.png
   type: shot
+  aspect: 1/1
   author: dehero
   engine: OpenMW
   tags:
@@ -1480,6 +1513,7 @@
     - store:/trash/dehero.2025-01-19-19-12-11.1.png
     - store:/trash/dehero.2025-01-19-19-12-08.1.png
   type: shot
+  aspect: 1/1
   author: dehero
   engine: OpenMW
   tags:
@@ -1523,6 +1557,7 @@
   content: store:/shots/2025-04-26-along-the-street.png
   trash: store:/trash/dehero.2025-04-10-20-18-14.png
   type: shot
+  aspect: 1/1
   author: dehero
   engine: OpenMW
   addon: Tamriel Rebuilt
@@ -1578,6 +1613,7 @@
     - store:/trash/dehero.2025-04-19-20-26-12.png
     - store:/trash/dehero.2025-04-19-20-26-12.1.png
   type: shot
+  aspect: 1/1
   author: dehero
   engine: OpenMW
   tags:
@@ -1618,6 +1654,7 @@
   content: store:/shots/2025-05-08-prayer.png
   trash: store:/trash/ohsweetnazareth.2025-05-02-prayer-in-maran-adon-84a70516.1.png
   type: shot
+  aspect: 1/1
   author: ohsweetnazareth
   engine: OpenMW
   tags:
@@ -1662,6 +1699,7 @@
   location: Bitter Coast Region
   content: store:/shots/2025-05-09-coastal-guards.png
   type: shot
+  aspect: 1/1
   author: dehero
   engine: OpenMW
   tags:
@@ -1702,6 +1740,7 @@
   location: Indarys Manor
   content: store:/wallpapers/2025-05-14-scribes-station.png
   type: wallpaper
+  aspect: 16/9
   author: ohsweetnazareth
   engine: OpenMW
   tags:
@@ -1749,6 +1788,7 @@
   location: Bal Ur
   content: store:/shots/2025-05-15-stone-flora.png
   type: shot
+  aspect: 1/1
   author: dehero
   locating:
     date: 2026-02-14-14-52-03
@@ -1793,6 +1833,7 @@
   content: store:/shots/2025-05-16-on-the-balcony-at-night.png
   trash: store:/trash/dehero.2025-04-10-20-16-44.1.png
   type: shot
+  aspect: 1/1
   author: dehero
   addon: Tamriel Rebuilt
   tags:
@@ -1832,6 +1873,7 @@
   location: Ministry of Truth, Holding Cells
   content: store:/shots/2025-05-19-entrance-control.png
   type: shot
+  aspect: 1/1
   author: dehero
   engine: OpenMW
   tags:
@@ -1875,6 +1917,7 @@
     - store:/trash/ohsweetnazareth.2025-05-09-mans-best-friend-2ee95367.png
     - store:/trash/ohsweetnazareth.2025-05-09-mans-best-friend-343f0ab1.png
   type: shot
+  aspect: 1/1
   author: ohsweetnazareth
   engine: OpenMW
   tags:
@@ -1919,6 +1962,7 @@
   location: Kushtashpi
   content: store:/shots/2025-05-23-under-an-incline.png
   type: shot
+  aspect: 1/1
   author: dehero
   engine: OpenMW
   tags:
@@ -1967,6 +2011,7 @@
     - Saren Ancestral Tomb
   content: store:/shots/2025-05-28-1-oblivion-in-mundus.png
   type: shot
+  aspect: 1/1
   author: dehero
   locating:
     date: 2026-02-14-14-57-52
@@ -2013,6 +2058,7 @@
   location: Vivec
   content: store:/shots/2025-06-02-1-from-the-ground-to-the-sky.png
   type: shot
+  aspect: 1/1
   author: dehero
   engine: OpenMW
   tags:
@@ -2081,6 +2127,7 @@
   content: store:/shots/2025-06-03-1-reading-drinking-and-sleeping.png
   trash: store:/trash/dehero.2025-06-01-15-35-02.png
   type: shot
+  aspect: 1/1
   author: dehero
   engine: OpenMW
   tags:
@@ -2126,6 +2173,7 @@
   location: Suran, Oran Manor
   content: store:/shots/2025-06-04-1-waiting-for-buyers.png
   type: shot
+  aspect: 1/1
   author: dehero
   engine: OpenMW
   tags:
@@ -2169,6 +2217,7 @@
   content: store:/shots/2025-06-05-1-meets-his-beloved-owner.png
   trash: store:/trash/dehero.2025-06-04-19-45-28.png
   type: shot
+  aspect: 1/1
   author: dehero
   engine: OpenMW
   tags:
@@ -2212,6 +2261,7 @@
     - store:/trash/dehero.2025-06-01-15-26-59.png
     - store:/trash/dehero.2025-06-01-15-27-32.png
   type: shot
+  aspect: 1/1
   author: dehero
   engine: OpenMW
   tags:
@@ -2334,6 +2384,7 @@
     - store:/trash/dehero.2025-08-26-22-29-11.png
     - store:/trash/dehero.2025-08-26-22-28-24.png
   type: shot
+  aspect: 1/1
   author: dehero
   engine: OpenMW
   tags:
@@ -2372,6 +2423,7 @@
   location: Vivec, Hlaalu Vaults
   content: store:/shots/2025-08-31-1-rare-weapon.png
   type: shot
+  aspect: 1/1
   author: dehero
   engine: OpenMW
   tags:
@@ -2434,6 +2486,7 @@
   location: Morvayn Manor
   content: store:/shots/2025-09-18-1-the-path-to-madness.png
   type: shot
+  aspect: 1/1
   author: dehero
   engine: OpenMW
   tags:
@@ -2483,6 +2536,7 @@
   location: Ashlands Region
   content: store:/shots/2025-09-19-1-near-the-fence.png
   type: shot
+  aspect: 1/1
   author: dehero
   engine: OpenMW
   tags:
@@ -2520,6 +2574,7 @@
   location: Mzanchend
   content: store:/shots/2025-09-20-1-low-sky-above-mzanchend.png
   type: shot
+  aspect: 1/1
   author: dehero
   engine: OpenMW
   tags:
@@ -2558,6 +2613,7 @@
   location: Solstheim, Frossel
   content: store:/shots/2025-09-23-1-on-guard.png
   type: shot
+  aspect: 1/1
   author: dehero
   engine: OpenMW
   addon: Bloodmoon
@@ -2602,6 +2658,7 @@
     - store:/trash/dehero.2025-08-26-23-28-23.2.png
     - store:/trash/dehero.2025-08-26-23-28-23.png
   type: shot
+  aspect: 1/1
   author: dehero
   locating:
     date: 2026-02-12
@@ -2682,7 +2739,8 @@
     - store:/shots/2019-03-18-misty-pairs.png
     - store:/shots/2022-07-08-squad.png
     - store:/shots/2022-06-30-rivals.png
-  type: shot-set
+  type: compilation
+  aspect: 1/1
   author: dehero
   engine: OpenMW
   tags:
@@ -2772,6 +2830,7 @@
     - store:/trash/ohsweetnazareth.2025-11-20-beware-the-udyrfrykte-066a3a55.png
     - store:/trash/ohsweetnazareth.2025-11-20-beware-the-udyrfrykte-066a3a55.png
   type: shot
+  aspect: 1/1
   author: ohsweetnazareth
   addon: Bloodmoon
   tags:
@@ -2821,6 +2880,7 @@
   location: Ald Velothi
   content: store:/shots/2025-12-02-1-lonely-resident-of-ald-velothi.png
   type: shot
+  aspect: 1/1
   author: dehero
   engine: OpenMW
   tags:
@@ -2862,6 +2922,7 @@
     - store:/trash/dehero.2025-06-01-15-30-31.png
     - store:/trash/dehero.2025-06-01-15-30-13.png
   type: shot
+  aspect: 1/1
   author: dehero
   engine: OpenMW
   tags:
@@ -2911,6 +2972,7 @@
     - store:/trash/dehero.2025-01-19-19-07-05.png
     - store:/trash/dehero.2025-01-19-19-03-26.png
   type: shot
+  aspect: 1/1
   author: dehero
   engine: OpenMW
   mark: A2
@@ -2949,6 +3011,7 @@
     - Bitter Coast Region
   content: store:/shots/2025-12-05-1-unexplored-shipwreck.png
   type: shot
+  aspect: 1/1
   author: dehero
   engine: OpenMW
   tags:
@@ -2995,6 +3058,7 @@
   location: Molag Mar, Underworks
   content: store:/shots/2025-12-06-1-senseless-mourning.png
   type: shot
+  aspect: 1/1
   author: ohsweetnazareth
   locating:
     date: 2026-02-20
@@ -3040,6 +3104,7 @@
   location: Assarnatamat
   content: store:/shots/2025-12-07-1-rain-above-assarnatamat.png
   type: shot
+  aspect: 1/1
   author: dehero
   engine: OpenMW
   tags:
@@ -3087,6 +3152,7 @@
     - store:/trash/dehero.2025-03-12-19-54-34.png
     - store:/trash/dehero.2025-03-12-19-53-55.png
   type: shot
+  aspect: 1/1
   author: dehero
   engine: OpenMW
   tags:
@@ -3133,6 +3199,7 @@
   content: store:/shots/2025-12-09-1-ghost-dinner.png
   trash: store:/trash/dehero.2025-08-26-23-01-26.1.png
   type: shot
+  aspect: 1/1
   author: dehero
   engine: OpenMW
   tags:
@@ -3180,6 +3247,7 @@
   location: Vos
   content: store:/shots/2025-12-10-1-evening-at-the-harbor.png
   type: shot
+  aspect: 1/1
   author: dehero
   engine: OpenMW
   tags:
@@ -3216,6 +3284,7 @@
   location: Sotha Sil, Dome of Sotha Sil
   content: store:/wallpapers/2025-12-11-1-the-wicked-almalexia.png
   type: wallpaper
+  aspect: 16/9
   author: ohsweetnazareth
   addon: Tribunal
   tags:
@@ -3258,6 +3327,7 @@
   location: Mournhold, Temple Courtyard
   content: store:/shots/2025-12-15-1-the-skies-of-mournhold-are-clear-once-again.png
   type: shot
+  aspect: 1/1
   author: ohsweetnazareth
   addon: Tribunal
   tags:
@@ -3295,6 +3365,7 @@
   location: Norenen-dur, Citadel of Myn Dhrur
   content: store:/shots/2025-12-16-1-throne-of-khash-ti-dhrur.png
   type: shot
+  aspect: 1/1
   author: ohsweetnazareth
   addon: Tribunal
   tags:
@@ -3335,6 +3406,7 @@
   location: Valenvaryon
   content: store:/shots/2025-12-18-1-malacath-and-his-worshipers.png
   type: shot
+  aspect: 1/1
   author: dehero
   engine: OpenMW
   tags:
@@ -3382,6 +3454,7 @@
     - store:/trash/dehero.2025-12-18-20-29-11.png
     - store:/trash/dehero.2025-12-18-20-29-23.png
   type: shot
+  aspect: 1/1
   author: dehero
   engine: OpenMW
   mark: B1
@@ -3417,6 +3490,7 @@
   content: store:/shots/2025-12-20-1-attributes-of-house-dagoth.png
   trash: store:/trash/dehero.2025-08-26-23-09-44.1.png
   type: shot
+  aspect: 1/1
   author: dehero
   engine: OpenMW
   tags:
@@ -3461,6 +3535,7 @@
     - store:/trash/dehero.2025-12-18-20-16-48.png
     - store:/trash/dehero.2025-12-18-20-15-22.2.png
   type: shot
+  aspect: 1/1
   author: dehero
   locating:
     date: 2026-02-21-15-41-53
@@ -3510,6 +3585,7 @@
   location: Erabenimsun Camp
   content: store:/wallpapers/2025-12-24-1-kummu-of-the-erabenimsun.png
   type: wallpaper
+  aspect: 16/9
   author: ohsweetnazareth
   engine: OpenMW
   tags:
@@ -3549,6 +3625,7 @@
   location: Maar Gan
   content: store:/shots/2025-12-30-1-before-the-storm.png
   type: shot
+  aspect: 1/1
   author: natty
   engine: OpenMW
   mark: B1
@@ -3582,6 +3659,7 @@
   content: store:/wallpapers/2025-12-31-1-the-end-of-a-difficult-journey.png
   trash: store:/trash/ohsweetnazareth.2025-11-25-in-the-carcass-of-ilunibi-1a1a977c.png
   type: wallpaper
+  aspect: 16/9
   author: ohsweetnazareth
   tags:
     - cave

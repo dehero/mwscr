@@ -5,6 +5,7 @@
   location: Skaal Village
   content: store:/shots/2022-06-23-a-new-sight.png
   type: shot
+  aspect: 1/1
   author: dehero
   engine: OpenMW
   addon: Bloodmoon
@@ -93,6 +94,7 @@
   location: Vos
   content: store:/shots/2022-06-24-evening-talk-in-vos.png
   type: shot
+  aspect: 1/1
   author: dehero
   engine: OpenMW
   mark: A2
@@ -138,7 +140,8 @@
     - store:/shots/2017-06-14-supper-in-seyda-neen.png
     - store:/shots/2019-10-12-imperial-candelabrum.png
     - store:/shots/2017-11-19-bottle-collection.png
-  type: shot-set
+  type: compilation
+  aspect: 1/1
   author: dehero
   engine: OpenMW
   mark: B1
@@ -227,6 +230,7 @@
   location: Mournhold, Great Bazaar
   content: store:/shots/2022-06-27-going-out-of-mournhold-armory.png
   type: shot
+  aspect: 1/1
   author: dehero
   engine: OpenMW
   addon: Tribunal
@@ -269,6 +273,7 @@
   location: Nchurdamz
   content: store:/shots/2022-06-28-ordinary-day-in-nchurdamz.png
   type: shot
+  aspect: 1/1
   author: dehero
   engine: OpenMW
   tags:
@@ -305,6 +310,7 @@
   location: Sadrith Mora, Dirty Muriel's Cornerclub
   content: store:/shots/2022-06-29-window-plant.png
   type: shot
+  aspect: 1/1
   author: dehero
   engine: OpenMW
   tags:
@@ -346,6 +352,7 @@
   location: Ascadian Isles Region
   content: store:/shots/2022-06-30-rivals.png
   type: shot
+  aspect: 1/1
   author: dehero
   engine: OpenMW
   mark: B2
@@ -417,6 +424,7 @@
   location: Tel Aruhn
   content: store:/shots/2022-07-01-tel-aruhn-at-dawn.png
   type: shot
+  aspect: 1/1
   author: dehero
   engine: OpenMW
   mark: B1
@@ -482,6 +490,7 @@
   content: store:/shots/2022-07-02-niras-farys-priest.png
   trash: store:/inbox/dehero.2022-06-29-23-14-14.png
   type: shot
+  aspect: 1/1
   author: dehero
   engine: OpenMW
   mark: B1
@@ -515,6 +524,7 @@
   location: Bitter Coast Region
   content: store:/shots/2022-07-03-crossing-the-edge-of-bitter-coast.png
   type: shot
+  aspect: 1/1
   author: dehero
   engine: OpenMW
   tags:
@@ -563,7 +573,8 @@
     - store:/shots/2017-02-23-surroundings-of-pelagiad.png
     - store:/shots/2018-05-12-two-sheds.png
     - store:/shots/2018-03-13-to-the-sunset.png
-  type: shot-set
+  type: compilation
+  aspect: 1/1
   author: dehero
   engine: OpenMW
   tags:
@@ -642,6 +653,7 @@
   placement: Indoors
   content: store:/shots/2022-07-05-iron-enemy.png
   type: shot
+  aspect: 1/1
   author: dehero
   engine: OpenMW
   mark: A2
@@ -697,6 +709,7 @@
   location: Sadrith Mora, Dirty Muriel's Cornerclub
   content: store:/shots/2022-07-06-still-life-with-orc.png
   type: shot
+  aspect: 1/1
   author: dehero
   engine: OpenMW
   tags:
@@ -767,6 +780,7 @@
   location: Nchurdamz
   content: store:/shots/2022-07-07-misty-peaks.png
   type: shot
+  aspect: 1/1
   author: dehero
   locating:
     date: 2026-02-21-16-25-56
@@ -811,6 +825,7 @@
   location: Ascadian Isles Region
   content: store:/shots/2022-07-08-squad.png
   type: shot
+  aspect: 1/1
   author: dehero
   engine: OpenMW
   mark: B2
@@ -843,6 +858,7 @@
   location: Sadrith Mora, Dirty Muriel's Cornerclub
   content: store:/shots/2022-07-09-three-coins-for-the-bard.png
   type: shot
+  aspect: 1/1
   author: dehero
   engine: OpenMW
   mark: B2
@@ -887,6 +903,7 @@
   location: Skaal Village
   content: store:/shots/2022-07-10-snowy-coziness.png
   type: shot
+  aspect: 1/1
   author: dehero
   engine: OpenMW
   addon: Bloodmoon
@@ -937,7 +954,8 @@
     - store:/shots/2018-08-16-wall-of-suran.png
     - store:/shots/2018-02-17-cry-of-silt-strider-in-morning-mist.png
     - store:/shots/2016-12-09-silt-strider-port-of-molag-mar.png
-  type: shot-set
+  type: compilation
+  aspect: 1/1
   author: dehero
   engine: OpenMW
   mark: B1
@@ -1031,6 +1049,7 @@
   location: Holamayan
   content: store:/shots/2022-07-12-leaving-holamayan.png
   type: shot
+  aspect: 1/1
   author: dehero
   engine: OpenMW
   tags:
@@ -1076,6 +1095,7 @@
   location: West Gash Region
   content: store:/shots/2022-07-13-cold-waters-of-west-gash.png
   type: shot
+  aspect: 1/1
   author: dehero
   engine: OpenMW
   tags:
@@ -1124,6 +1144,7 @@
   location: Maar Gan, Garry's Hut
   content: store:/shots/2022-07-14-blue-lit-basket.png
   type: shot
+  aspect: 1/1
   author: dehero
   locating:
     date: 2026-02-14-17-20-24
@@ -1198,6 +1219,7 @@
   location: Vivec
   content: store:/shots/2022-07-15-sail-on.png
   type: shot
+  aspect: 1/1
   author: dehero
   engine: OpenMW
   tags:
@@ -1264,6 +1286,7 @@
   location: Omani Manor
   content: store:/shots/2022-07-16-two-at-the-lantern.png
   type: shot
+  aspect: 1/1
   author: dehero
   engine: OpenMW
   mark: A2
@@ -1325,6 +1348,7 @@
     - Ules Manor, Slavemaster's Shack
   content: store:/shots/2022-07-17-slaves-sight.png
   type: shot
+  aspect: 1/1
   author: dehero
   locating:
     date: 2026-02-14-17-18-12
@@ -1364,6 +1388,7 @@
   location: Sadrith Mora, Dirty Muriel's Cornerclub
   content: store:/shots/2022-07-18-long-talk.png
   type: shot
+  aspect: 1/1
   author: dehero
   engine: OpenMW
   tags:
@@ -1409,6 +1434,7 @@
   location: Vivec
   content: store:/shots/2022-07-19-stillness-of-vivec.png
   type: shot
+  aspect: 1/1
   author: dehero
   engine: OpenMW
   mark: B2
@@ -1445,6 +1471,7 @@
   location: Norvayn Ancestral Tomb
   content: store:/shots/2022-07-20-norvayn-ancestral-tomb.png
   type: shot
+  aspect: 1/1
   author: dehero
   engine: OpenMW
   mark: B2
@@ -1485,6 +1512,7 @@
   location: Sadrith Mora, Telvanni Council House, Chambers
   content: store:/shots/2022-07-21-three-gods-one-true-faith.png
   type: shot
+  aspect: 1/1
   author: dehero
   engine: OpenMW
   mark: B2
@@ -1530,7 +1558,8 @@
     - store:/shots/2017-02-19-first-stars-on-the-quay-of-suran.png
     - store:/shots/2020-05-18-behind-the-wall.png
     - store:/shots/2017-07-31-at-the-coast.png
-  type: shot-set
+  type: compilation
+  aspect: 1/1
   author: dehero
   engine: OpenMW
   tags:
@@ -1575,6 +1604,7 @@
   location: Bitter Coast Region
   content: store:/shots/2022-07-23-draggle-tail-sunrise.png
   type: shot
+  aspect: 1/1
   author: dehero
   engine: OpenMW
   mark: C
@@ -1612,6 +1642,7 @@
   location: Tel Aruhn
   content: store:/shots/2022-07-24-thorny-lamps.png
   type: shot
+  aspect: 1/1
   author: dehero
   engine: OpenMW
   mark: A2
@@ -1647,6 +1678,7 @@
     - Sadrith Mora
   content: store:/shots/2022-07-25-rainy-coast.png
   type: shot
+  aspect: 1/1
   author: dehero
   locating:
     date: 2026-02-14-16-30-48
@@ -1686,7 +1718,8 @@
     - store:/shots/2017-04-25-castle-ebonheart.png
     - store:/shots/2016-12-18-the-governors-hall-in-caldera-from-distance.png
     - store:/shots/2017-09-08-sky-castle.png
-  type: shot-set
+  type: compilation
+  aspect: 1/1
   author: dehero
   engine: OpenMW
   tags:
@@ -1734,6 +1767,7 @@
   location: Grazelands Region
   content: store:/shots/2022-07-27-camp-by-the-old-tree.png
   type: shot
+  aspect: 1/1
   author: dehero
   locating:
     date: 2026-02-12
@@ -1775,6 +1809,7 @@
   location: Dirara's Farmhouse
   content: store:/shots/2022-07-28-steady-dinner.png
   type: shot
+  aspect: 1/1
   author: dehero
   locating:
     date: 2026-02-13-16-55-18
@@ -1856,6 +1891,7 @@
     - store:/inbox/dehero.2022-06-29-22-50-55.png
     - store:/inbox/dehero.2022-06-29-22-51-07.png
   type: shot
+  aspect: 1/1
   author: dehero
   engine: OpenMW
   mark: B2
@@ -1895,6 +1931,7 @@
   location: Gro-Bagrat Plantation
   content: store:/shots/2022-07-30-sorority.png
   type: shot
+  aspect: 1/1
   author: dehero
   engine: OpenMW
   mark: C
@@ -1955,7 +1992,8 @@
     - store:/shots/2017-05-21-table-in-magic-shop.png
     - store:/shots/2017-09-07-wise-womans-table.png
     - store:/shots/2018-05-31-clandestine-lab.png
-  type: shot-set
+  type: compilation
+  aspect: 1/1
   author: dehero
   engine: OpenMW
   tags:
@@ -2005,6 +2043,7 @@
   location: Suran
   content: store:/shots/2022-08-01-caravaneers-workplace.png
   type: shot
+  aspect: 1/1
   author: dehero
   engine: OpenMW
   mark: B2
@@ -2047,6 +2086,7 @@
   location: Ashurnibibi, Shrine
   content: store:/shots/2022-08-02-dark-spells.png
   type: shot
+  aspect: 1/1
   author: dehero
   locating:
     date: 2026-02-12
@@ -2093,6 +2133,7 @@
     - Nilera's Farmhouse
   content: store:/shots/2022-08-03-a-haven-on-bad-weather.png
   type: shot
+  aspect: 1/1
   author: dehero
   locating:
     date: 2026-02-14-16-13-59

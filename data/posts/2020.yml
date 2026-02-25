@@ -5,6 +5,7 @@
   location: Ahemmusa Camp, Mamaea's Yurt
   content: store:/shots/2020-05-13-isolated-shelter.png
   type: shot
+  aspect: 1/1
   author: dehero
   locating:
     date: 2026-02-13-17-31-56
@@ -85,6 +86,7 @@
   location: Ebonheart, Hawkmoth Legion Garrison
   content: store:/shots/2020-05-14-inside-a-furnace.png
   type: shot
+  aspect: 1/1
   author: dehero
   locating:
     date: 2026-02-12
@@ -155,6 +157,7 @@
   location: Solstheim, Felsaad Coast Region
   content: store:/shots/2020-05-15-brave-riekling.png
   type: shot
+  aspect: 1/1
   author: dehero
   locating:
     date: 2026-02-21-17-08-24
@@ -233,6 +236,7 @@
   location: Tel Mora
   content: store:/shots/2020-05-16-tel-mora.png
   type: shot
+  aspect: 1/1
   author: dehero
   engine: OpenMW
   mark: B2
@@ -272,6 +276,7 @@
   location: Berandas, Underground
   content: store:/shots/2020-05-17-ama-nin.png
   type: shot
+  aspect: 1/1
   author: dehero
   engine: OpenMW
   mark: B2
@@ -308,6 +313,7 @@
   location: Dagon Fel
   content: store:/shots/2020-05-18-behind-the-wall.png
   type: shot
+  aspect: 1/1
   author: dehero
   engine: OpenMW
   tags:
@@ -371,6 +377,7 @@
   location: Suran
   content: store:/shots/2020-05-19-night-guard.png
   type: shot
+  aspect: 1/1
   author: dehero
   engine: OpenMW
   tags:
@@ -419,6 +426,7 @@
     - store:/inbox/dehero.2020-05-19-17-27-45.png
     - store:/inbox/dehero.2020-05-19-17-28-56.png
   type: shot
+  aspect: 1/1
   author: dehero
   engine: OpenMW
   tags:
@@ -457,6 +465,7 @@
   placement: Indoors
   content: store:/shots/2020-05-21-deadly-attack.png
   type: shot
+  aspect: 1/1
   author: dehero
   engine: OpenMW
   tags:
@@ -524,6 +533,7 @@
   location: 'Suran, Ibarnadad Assirnarari: Apothecary'
   content: store:/shots/2020-05-22-apothecary-door.png
   type: shot
+  aspect: 1/1
   author: dehero
   locating:
     date: 2026-02-12
@@ -586,6 +596,7 @@
   location: Sadrith Mora
   content: store:/shots/2020-05-23-rainy-day-in-sadrith-mora.png
   type: shot
+  aspect: 1/1
   author: dehero
   engine: OpenMW
   tags:
@@ -624,6 +635,7 @@
   location: Bitter Coast Region
   content: store:/shots/2020-05-24-at-the-bitter-coast.png
   type: shot
+  aspect: 1/1
   author: dehero
   engine: OpenMW
   mark: A2
@@ -684,6 +696,7 @@
   location: Vivec, No Name Club
   content: store:/shots/2020-05-25-water-supply.png
   type: shot
+  aspect: 1/1
   author: dehero
   locating:
     date: 2026-02-12
@@ -770,6 +783,7 @@
   location: Khuul
   content: store:/shots/2020-05-26-forgotten-urns.png
   type: shot
+  aspect: 1/1
   author: dehero
   engine: OpenMW
   tags:
@@ -812,6 +826,7 @@
   location: Assurnabitashpi
   content: store:/shots/2020-10-10-assurnabitashpi.png
   type: shot
+  aspect: 1/1
   author: dehero
   engine: OpenMW
   tags:
@@ -863,6 +878,7 @@
   location: Bitter Coast Region
   content: store:/shots/2020-10-11-underneath-the-moss.png
   type: shot
+  aspect: 1/1
   author: dehero
   engine: OpenMW
   tags:
@@ -902,6 +918,7 @@
   location: Suran
   content: store:/shots/2020-10-12-evening-lights-of-suran.png
   type: shot
+  aspect: 1/1
   author: dehero
   engine: OpenMW
   tags:
@@ -952,6 +969,7 @@
   location: Palansour
   content: store:/shots/2020-10-13-by-the-entrance-to-palansour.png
   type: shot
+  aspect: 1/1
   author: dehero
   engine: OpenMW
   tags:
@@ -1030,6 +1048,7 @@
   location: Ald-ruhn
   content: store:/shots/2020-10-14-random-visitor.png
   type: shot
+  aspect: 1/1
   author: dehero
   engine: OpenMW
   tags:
@@ -1067,6 +1086,7 @@
   location: Vivec, Hlaalu Waistworks
   content: store:/shots/2020-10-15-guard-of-lower-waistworks.png
   type: shot
+  aspect: 1/1
   author: dehero
   locating:
     date: 2026-02-16-19-18-03
@@ -1148,6 +1168,7 @@
     - Solstheim, Isinfier Plains
   content: store:/shots/2020-10-16-leaving-the-barrow.png
   type: shot
+  aspect: 1/1
   author: dehero
   locating:
     date: 2026-02-21-16-47-29
@@ -1215,6 +1236,7 @@
   location: Urshilaku Camp
   content: store:/shots/2020-10-17-in-urshilaku-camp.png
   type: shot
+  aspect: 1/1
   author: dehero
   engine: OpenMW
   tags:
@@ -1288,6 +1310,7 @@
   location: Solstheim, Graring's House
   content: store:/shots/2020-10-18-on-the-other-side.png
   type: shot
+  aspect: 1/1
   author: dehero
   locating:
     date: 2026-02-21-16-41-50
@@ -1336,6 +1359,7 @@
   location: Molag Amur Region
   content: store:/shots/2020-10-19-nix-hound.png
   type: shot
+  aspect: 1/1
   author: dehero
   locating:
     date: 2026-02-17-17-12-16
@@ -1406,6 +1430,7 @@
   location: Berandas, Underground
   content: store:/shots/2020-10-20-longing-for-a-departed-hero.png
   type: shot
+  aspect: 1/1
   author: dehero
   locating:
     date: 2026-02-12
@@ -1480,6 +1505,7 @@
   location: Grazelands Region
   content: store:/shots/2020-10-21-land-of-rain.png
   type: shot
+  aspect: 1/1
   author: dehero
   engine: OpenMW
   tags:
@@ -1551,6 +1577,7 @@
   location: 'Balmora, Clagius Clanler: Outfitter'
   content: store:/shots/2020-10-22-clagius-clanler-outfitter.png
   type: shot
+  aspect: 1/1
   author: dehero
   engine: OpenMW
   mark: A2
@@ -1589,6 +1616,7 @@
   location: Vivec
   content: store:/shots/2020-10-23-long-long-passageways-of-vivec.png
   type: shot
+  aspect: 1/1
   author: dehero
   engine: OpenMW
   mark: A2
@@ -1631,6 +1659,7 @@
   location: Tel Mora, Tower Services
   content: store:/shots/2020-10-24-tinaso-alan.png
   type: shot
+  aspect: 1/1
   author: dehero
   engine: OpenMW
   mark: B2
@@ -1671,6 +1700,7 @@
   location: Sotha Sil, Outer Flooded Halls
   content: store:/shots/2020-10-25-opening-the-doors-of-sotha-sil.png
   type: shot
+  aspect: 1/1
   author: dehero
   engine: OpenMW
   addon: Tribunal
@@ -1710,6 +1740,7 @@
   location: Bitter Coast Region
   content: store:/shots/2020-10-26-nook-of-bitter-coast.png
   type: shot
+  aspect: 1/1
   author: dehero
   engine: OpenMW
   mark: B1
@@ -1742,6 +1773,7 @@
   location: West Gash Region
   content: store:/shots/2020-10-27-misty-passage.png
   type: shot
+  aspect: 1/1
   author: dehero
   engine: OpenMW
   mark: B2
@@ -1803,6 +1835,7 @@
   placement: Indoors
   content: store:/shots/2020-10-28-cave-of-suffering.png
   type: shot
+  aspect: 1/1
   author: dehero
   engine: OpenMW
   mark: B1
@@ -1882,6 +1915,7 @@
     - Red Mountain Region
   content: store:/shots/2020-10-29-red-passage.png
   type: shot
+  aspect: 1/1
   author: dehero
   locating:
     date: 2026-02-14-17-49-12
@@ -1924,6 +1958,7 @@
   location: Bthungthumz
   content: store:/shots/2020-10-30-bthungthumz-at-dawn.png
   type: shot
+  aspect: 1/1
   author: dehero
   engine: OpenMW
   mark: C
@@ -1961,6 +1996,7 @@
   location: Sanni
   content: store:/shots/2020-10-31-entrance-to-sanni.png
   type: shot
+  aspect: 1/1
   author: dehero
   engine: OpenMW
   mark: B1
@@ -1994,6 +2030,7 @@
   location: Grazelands Region
   content: store:/shots/2020-11-01-grazing-grazelands.png
   type: shot
+  aspect: 1/1
   author: dehero
   engine: OpenMW
   mark: B1
@@ -2061,6 +2098,7 @@
     - Molag Mar
   content: store:/shots/2020-11-02-dead-reflections.png
   type: shot
+  aspect: 1/1
   author: dehero
   locating:
     date: 2026-02-14-17-40-59
@@ -2111,6 +2149,7 @@
   location: Ashalmawia
   content: store:/shots/2020-11-03-gray-ruins.png
   type: shot
+  aspect: 1/1
   author: dehero
   locating:
     date: 2026-02-14-17-26-04
@@ -2152,6 +2191,7 @@
   content: store:/shots/2020-11-05-night-pasture.png
   trash: store:/inbox/dehero.2020-11-05-21-12-57.png
   type: shot
+  aspect: 1/1
   author: dehero
   engine: OpenMW
   mark: A2
@@ -2216,6 +2256,7 @@
   location: Azura's Coast Region
   content: store:/shots/2020-11-07-mushroom-fields-forever.png
   type: shot
+  aspect: 1/1
   author: dehero
   locating:
     date: 2026-02-18-16-21-56
@@ -2261,6 +2302,7 @@
   location: Skaal Village
   content: store:/shots/2020-11-09-erna-the-quiets-house.png
   type: shot
+  aspect: 1/1
   author: dehero
   engine: OpenMW
   addon: Bloodmoon
@@ -2307,6 +2349,7 @@
   location: Maar Gan, Garry's Hut
   content: store:/shots/2020-11-11-redoran-basement.png
   type: shot
+  aspect: 1/1
   author: dehero
   locating:
     date: 2026-02-12

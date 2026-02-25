@@ -11,6 +11,7 @@
     - store:/trash/dehero.2025-12-18-20-18-44.png
     - store:/trash/dehero.2025-12-18-20-18-24.png
   type: shot
+  aspect: 1/1
   author: dehero
   engine: OpenMW
   tags:
@@ -57,6 +58,7 @@
     - store:/inbox/ohsweetnazareth.2025-11-14-demon-of-the-halls-of-penumbra-17595202.png
     - store:/inbox/ohsweetnazareth.2025-11-14-demon-of-the-halls-of-penumbra-9e283c63.png
   type: shot
+  aspect: 1/1
   author: ohsweetnazareth
   addon: Bloodmoon
   tags:
@@ -102,6 +104,7 @@
     - store:/trash/dehero.2025-06-04-19-39-55.png
     - store:/trash/dehero.2025-06-04-19-41-07.png
   type: shot
+  aspect: 1/1
   author: dehero
   engine: OpenMW
   tags:
@@ -145,6 +148,7 @@
   content: store:/shots/2026-01-06-1-a-small-victory.png
   trash: store:/trash/dehero.2025-12-18-20-01-11.png
   type: shot
+  aspect: 1/1
   author: dehero
   engine: OpenMW
   tags:
@@ -184,6 +188,7 @@
   location: Maar Gan
   content: store:/shots/2026-01-07-1-sky-path.png
   type: shot
+  aspect: 1/1
   author: natty
   engine: OpenMW
   tags:
@@ -227,6 +232,7 @@
   location: Ald-ruhn, Manor District
   content: store:/shots/2026-01-08-1-leaving-ramoran-manor.png
   type: shot
+  aspect: 1/1
   author: dehero
   engine: OpenMW
   mark: B1
@@ -268,6 +274,7 @@
   content: store:/shots/2026-01-10-1-who-partook-in-the-cup-of-passage.png
   trash: store:/trash/ohsweetnazareth.2025-11-27-who-partook-in-the-cup-of-passage-81b826d3.png
   type: shot
+  aspect: 1/1
   author: ohsweetnazareth
   locating:
     date: 2026-01-10
@@ -323,6 +330,7 @@
     - store:/trash/dehero.2025-08-26-22-39-08.png
     - store:/trash/dehero.2025-08-26-22-38-26.png
   type: shot
+  aspect: 1/1
   author: dehero
   engine: OpenMW
   tags:
@@ -371,6 +379,7 @@
   content: store:/shots/2026-01-15-1-tears-of-grazelands.png
   trash: store:/trash/dehero.2024-02-17-10-55-28.png
   type: shot
+  aspect: 1/1
   author: dehero
   engine: OpenMW
   tags:

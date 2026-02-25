@@ -5,6 +5,7 @@
   location: Ashlands Region
   content: store:/shots/2017-01-01-ghostfence.png
   type: shot
+  aspect: 1/1
   author: dehero
   locating:
     date: 2026-02-20-18-27-30
@@ -37,6 +38,7 @@
     - Tel Vos
   content: store:/shots/2017-01-02-backdoor-to-tel-vos.png
   type: shot
+  aspect: 1/1
   author: dehero
   engine: OpenMW
   tags:
@@ -91,6 +93,7 @@
   location: Seyda Neen
   content: store:/shots/2017-01-03-census-and-excise-office-from-lighthouse.png
   type: shot
+  aspect: 1/1
   author: dehero
   engine: OpenMW
   mark: A2
@@ -115,6 +118,7 @@
   placement: Outdoors
   content: store:/videos/2017-01-04-death-at-the-shore.mp4
   type: clip
+  aspect: 1/1
   author: dehero
   engine: OpenMW
   mark: E
@@ -140,6 +144,7 @@
   location: Caldera, Guild of Mages
   content: store:/shots/2017-01-05-alchemy-corner.png
   type: shot
+  aspect: 1/1
   author: dehero
   locating:
     date: 2025-04-10
@@ -200,6 +205,7 @@
   location: Grazelands Region
   content: store:/shots/2017-01-06-daedroth-in-grazelands.png
   type: shot
+  aspect: 1/1
   author: dehero
   engine: OpenMW
   mark: A1
@@ -286,6 +292,7 @@
   location: Ald-ruhn
   content: store:/shots/2017-01-07-28-29-30-ready-or-not-here-i-come.png
   type: shot
+  aspect: 1/1
   author: dehero
   engine: OpenMW
   mark: B1
@@ -335,6 +342,7 @@
     - Sadrith Mora, Dirty Muriel's Cornerclub
   content: store:/shots/2017-01-08-dirty-muriels-cornerclub-and-tel-naga.png
   type: shot
+  aspect: 1/1
   author: dehero
   engine: OpenMW
   mark: A1
@@ -362,6 +370,7 @@
   location: Ashurnibibi
   content: store:/shots/2017-01-09-a-few-boards-to-ashurnibibi.png
   type: shot
+  aspect: 1/1
   author: dehero
   engine: OpenMW
   mark: A2
@@ -388,6 +397,7 @@
   location: Indoranyon
   content: store:/videos/2017-01-10-propylons-of-indoranyon.mp4
   type: clip
+  aspect: 1/1
   author: dehero
   engine: OpenMW
   mark: A2
@@ -417,6 +427,7 @@
   location: Pelagiad
   content: store:/shots/2017-01-11-fort-pelagiad.png
   type: shot
+  aspect: 1/1
   author: dehero
   engine: OpenMW
   mark: B2
@@ -442,6 +453,7 @@
   location: Ascadian Isles Region
   content: store:/shots/2017-01-12-sunset-on-ascadian-isles.png
   type: shot
+  aspect: 1/1
   author: dehero
   engine: OpenMW
   mark: B1
@@ -467,6 +479,7 @@
   location: Azura's Coast Region
   content: store:/shots/2017-01-13-shoal-shell.png
   type: shot
+  aspect: 1/1
   author: dehero
   locating:
     date: 2026-02-20-18-21-22
@@ -499,6 +512,7 @@
   location: Yansirramus, Shrine
   content: store:/shots/2017-01-14-statue-of-molag-bal.png
   type: shot
+  aspect: 1/1
   author: dehero
   locating:
     date: 2026-02-16-19-05-58
@@ -561,6 +575,7 @@
   location: Caldera, Guild of Mages
   content: store:/shots/2017-01-15-mages-guild-reception.png
   type: shot
+  aspect: 1/1
   author: dehero
   engine: OpenMW
   tags:
@@ -589,6 +604,7 @@
   location: Dagoth Ur, Facility Cavern
   content: store:/videos/2017-01-16-training-to-see-nerevarine.mp4
   type: clip
+  aspect: 1/1
   author: dehero
   engine: OpenMW
   mark: B1
@@ -615,6 +631,7 @@
   location: Ashlands Region
   content: store:/shots/2017-01-17-brave-ashlanders.png
   type: shot
+  aspect: 1/1
   author: dehero
   locating:
     date: 2026-02-20-18-00-56
@@ -644,6 +661,7 @@
   location: Addadshashanammu
   content: store:/shots/2017-01-18-addadshashanammu.png
   type: shot
+  aspect: 1/1
   author: dehero
   engine: OpenMW
   tags:
@@ -712,6 +730,7 @@
   location: Sadrith Mora, Gateway Inn
   content: store:/shots/2017-01-19-sadrith-mora-gateway-inn.png
   type: shot
+  aspect: 1/1
   author: dehero
   engine: OpenMW
   mark: A1
@@ -772,6 +791,7 @@
   location: Seyda Neen
   content: store:/shots/2017-01-20-sunset-at-the-crossroads.png
   type: shot
+  aspect: 1/1
   author: dehero
   engine: OpenMW
   tags:
@@ -853,6 +873,7 @@
   location: Akulakhan's Chamber
   content: store:/shots/2017-01-21-building-akulakhan.png
   type: shot
+  aspect: 1/1
   author: dehero
   engine: OpenMW
   mark: B1
@@ -912,6 +933,7 @@
   placement: Outdoors
   content: store:/videos/2017-01-22-1-rain-rain-everywhere.mp4
   type: clip
+  aspect: 1/1
   author: dehero
   engine: OpenMW
   tags:
@@ -947,6 +969,7 @@
   location: Vivec, Telvanni
   content: store:/videos/2017-01-22-2-one-day-with-ordinator-of-telvanni-quarter.mp4
   type: video
+  aspect: 16/9
   author: dehero
   mark: B1
   posts:
@@ -972,6 +995,7 @@
   location: Vivec
   content: store:/shots/2017-01-23-when-you-meet-yourself.png
   type: shot
+  aspect: 1/1
   author: dehero
   engine: OpenMW
   mark: A1
@@ -1034,6 +1058,7 @@
   location: Gnaar Mok
   content: store:/shots/2017-01-24-welcome-to-gnaar-mok.png
   type: shot
+  aspect: 1/1
   author: dehero
   engine: OpenMW
   mark: A2
@@ -1060,6 +1085,7 @@
   location: Caldera
   content: store:/shots/2017-01-25-morning-mist-of-caldera.png
   type: shot
+  aspect: 1/1
   author: dehero
   engine: OpenMW
   tags:
@@ -1121,6 +1147,7 @@
   location: Aleft
   content: store:/shots/2017-01-26-aleft.png
   type: shot
+  aspect: 1/1
   author: dehero
   engine: OpenMW
   mark: B1
@@ -1194,6 +1221,7 @@
   location: Sadrith Mora
   content: store:/shots/2017-01-27-telvanni-council-house.png
   type: shot
+  aspect: 1/1
   author: dehero
   engine: OpenMW
   mark: A1
@@ -1274,6 +1302,7 @@
   location: Ahemmusa Camp
   content: store:/videos/2017-01-28-1-meditative-evening-in-ahemmusa-camp.mp4
   type: clip
+  aspect: 1/1
   author: dehero
   engine: OpenMW
   tags:
@@ -1300,12 +1329,14 @@
 2017-01-28-2-meditative-night-in-ahemmusa-camp:
   title: Meditative Night in Ahemmusa Camp
   titleRu: Ночь медитации в лагере Ахеммуза
-  description: Camera was placed in Ahemmusa Camp over the yurt of ashkhan in the rainy evening. It stayed there until morning.
+  description:
+    Camera was placed in Ahemmusa Camp over the yurt of ashkhan in the rainy evening. It stayed there until morning.
   descriptionRu: Камера была закреплена дождливым вечером над юртой ашхана и оставалась там до утра.
   placement: Outdoors
   location: Ahemmusa Camp
   content: store:/videos/2017-01-28-2-meditative-night-in-ahemmusa-camp.mp4
   type: video
+  aspect: 16/9
   author: dehero
   mark: A2
   posts:
@@ -1344,6 +1375,7 @@
   location: Ashlands Region
   content: store:/shots/2017-01-29-camp-in-the-haze.png
   type: shot
+  aspect: 1/1
   author: dehero
   locating:
     date: 2026-02-16-18-57-49
@@ -1376,6 +1408,7 @@
   location: Gnisis
   content: store:/shots/2017-01-30-entering-gnisis-from-the-north.png
   type: shot
+  aspect: 1/1
   author: dehero
   engine: OpenMW
   mark: A2
@@ -1423,6 +1456,7 @@
   location: Caldera
   content: store:/shots/2017-01-31-clear-sky-over-caldera.png
   type: shot
+  aspect: 1/1
   author: dehero
   engine: OpenMW
   tags:
@@ -1452,6 +1486,7 @@
     - Vivec, St. Olms
   content: store:/shots/2017-02-01-pray-with-the-saints.png
   type: shot
+  aspect: 1/1
   author: dehero
   engine: OpenMW
   mark: A2
@@ -1530,6 +1565,7 @@
   location: Sadrith Mora
   content: store:/shots/2017-02-02-selling-some-stuff-in-sadrith-mora.png
   type: shot
+  aspect: 1/1
   author: dehero
   engine: OpenMW
   mark: A2
@@ -1578,6 +1614,7 @@
   location: Balmora
   content: store:/shots/2017-02-03-hlaalu-council-manor.png
   type: shot
+  aspect: 1/1
   author: dehero
   engine: OpenMW
   mark: A2
@@ -1629,6 +1666,7 @@
   location: Seyda Neen
   content: store:/shots/2017-02-04-rumors-are-about-some-two-prisoners.png
   type: shot
+  aspect: 1/1
   author: dehero
   engine: OpenMW
   tags:
@@ -1657,6 +1695,7 @@
   location: Balmora
   content: store:/shots/2017-02-05-night-street-of-balmora.png
   type: shot
+  aspect: 1/1
   author: dehero
   engine: OpenMW
   tags:
@@ -1709,6 +1748,7 @@
   location: Ascadian Isles Region
   content: store:/shots/2017-02-06-maurrie-is-waiting-for-nelos.png
   type: shot
+  aspect: 1/1
   author: dehero
   engine: OpenMW
   tags:
@@ -1749,6 +1789,7 @@
   location: Gnisis
   content: store:/shots/2017-02-07-night-patrol.png
   type: shot
+  aspect: 1/1
   author: dehero
   engine: OpenMW
   tags:
@@ -1803,6 +1844,7 @@
   location: Moonmoth Legion Fort
   content: store:/shots/2017-02-08-moonmoth-legion-fort.png
   type: shot
+  aspect: 1/1
   author: dehero
   engine: OpenMW
   tags:
@@ -1882,6 +1924,7 @@
     - Elf-Skerring
   content: store:/shots/2017-02-09-climbing-aboard-the-elf-skerring.png
   type: shot
+  aspect: 1/1
   author: dehero
   engine: OpenMW
   tags:
@@ -1935,6 +1978,7 @@
   location: Dagon Fel
   content: store:/shots/2017-02-10-cold-rain-of-dagon-fel.png
   type: shot
+  aspect: 1/1
   author: dehero
   engine: OpenMW
   tags:
@@ -1963,6 +2007,7 @@
   location: Bthuand
   content: store:/shots/2017-02-11-first-tower-of-bthuand.png
   type: shot
+  aspect: 1/1
   author: dehero
   engine: OpenMW
   tags:
@@ -2024,6 +2069,7 @@
     - Ascadian Isles Region
   content: store:/videos/2017-02-12-1-travel-from-seyda-neen-to-balmora.mp4
   type: clip
+  aspect: 1/1
   author: dehero
   engine: OpenMW
   tags:
@@ -2065,6 +2111,7 @@
     - Ascadian Isles Region
   content: store:/videos/2017-02-12-2-travel-from-seyda-neen-to-balmora.avi
   type: video
+  aspect: 16/9
   author: dehero
   mark: A2
   posts:
@@ -2107,6 +2154,7 @@
   location: Kushtashpi
   content: store:/shots/2017-02-13-kushtashpi.png
   type: shot
+  aspect: 1/1
   author: dehero
   engine: OpenMW
   tags:
@@ -2135,6 +2183,7 @@
   location: Erabenimsun Camp
   content: store:/shots/2017-02-14-erabenimsun-hunter.png
   type: shot
+  aspect: 1/1
   author: dehero
   engine: OpenMW
   tags:
@@ -2192,6 +2241,7 @@
     - Tel Aruhn
   content: store:/shots/2017-02-15-sailboat-in-coastal-waters.png
   type: shot
+  aspect: 1/1
   author: dehero
   locating:
     date: 2026-02-16-18-51-09
@@ -2222,6 +2272,7 @@
   location: Molag Amur Region
   content: store:/shots/2017-02-16-sunrise-over-the-ash-forest.png
   type: shot
+  aspect: 1/1
   author: dehero
   locating:
     date: 2026-02-22-12-01-06
@@ -2285,6 +2336,7 @@
   location: Arkngthunch-Sturdumz
   content: store:/shots/2017-02-17-dwemer-bridge-to-arkngthunch-sturdumz.png
   type: shot
+  aspect: 1/1
   author: dehero
   engine: OpenMW
   tags:
@@ -2313,6 +2365,7 @@
   location: Vivec, St. Olms Haunted Manor
   content: store:/shots/2017-02-18-is-this-some-intimate-moment.png
   type: shot
+  aspect: 1/1
   author: dehero
   locating:
     date: 2026-02-16-18-47-37
@@ -2373,6 +2426,7 @@
   location: Suran
   content: store:/shots/2017-02-19-first-stars-on-the-quay-of-suran.png
   type: shot
+  aspect: 1/1
   author: dehero
   engine: OpenMW
   tags:
@@ -2403,6 +2457,7 @@
   location: West Gash Region
   content: store:/shots/2017-02-20-waterfall-camp.png
   type: shot
+  aspect: 1/1
   author: dehero
   engine: OpenMW
   tags:
@@ -2469,6 +2524,7 @@
   location: Vivec, Elven Nations Cornerclub
   content: store:/shots/2017-02-21-elven-nations-cornerclub.png
   type: shot
+  aspect: 1/1
   author: dehero
   engine: OpenMW
   tags:
@@ -2520,6 +2576,7 @@
   location: Khuul
   content: store:/shots/2017-02-22-strider-in-the-storm.png
   type: shot
+  aspect: 1/1
   author: dehero
   engine: OpenMW
   tags:
@@ -2578,6 +2635,7 @@
     - Pelagiad, Fort Pelagiad
   content: store:/shots/2017-02-23-surroundings-of-pelagiad.png
   type: shot
+  aspect: 1/1
   author: dehero
   engine: OpenMW
   tags:
@@ -2610,6 +2668,7 @@
   location: Ebonheart
   content: store:/shots/2017-02-24-secunda-over-the-towers-of-ebonheart.png
   type: shot
+  aspect: 1/1
   author: dehero
   engine: OpenMW
   tags:
@@ -2662,6 +2721,7 @@
   location: Hla Oad
   content: store:/shots/2017-02-25-central-tree-of-hla-oad.png
   type: shot
+  aspect: 1/1
   author: dehero
   engine: OpenMW
   tags:
@@ -2691,6 +2751,7 @@
   location: Kushtashpi
   content: store:/shots/2017-02-26-road-fork-near-kushtashpi.png
   type: shot
+  aspect: 1/1
   author: dehero
   engine: OpenMW
   tags:
@@ -2719,6 +2780,7 @@
   location: Tel Aruhn
   content: store:/shots/2017-02-27-tel-aruhn-at-night.png
   type: shot
+  aspect: 1/1
   author: dehero
   engine: OpenMW
   tags:
@@ -2772,6 +2834,7 @@
     - Molag Amur Region
   content: store:/shots/2017-02-28-army-of-stone.png
   type: shot
+  aspect: 1/1
   author: dehero
   locating:
     date: 2026-02-20-18-37-43
@@ -2804,6 +2867,7 @@
   location: Ald-ruhn
   content: store:/shots/2017-03-01-night-guardess.png
   type: shot
+  aspect: 1/1
   author: dehero
   engine: OpenMW
   tags:
@@ -2861,6 +2925,7 @@
   location: Tel Vos
   content: store:/shots/2017-03-02-tel-vos.png
   type: shot
+  aspect: 1/1
   author: dehero
   engine: OpenMW
   tags:
@@ -2947,6 +3012,7 @@
   location: Grazelands Region
   content: store:/shots/2017-03-03-grazelands.png
   type: shot
+  aspect: 1/1
   author: dehero
   engine: OpenMW
   tags:
@@ -3006,6 +3072,7 @@
   placement: Indoors
   content: store:/shots/2017-03-04-boooo.png
   type: shot
+  aspect: 1/1
   author: dehero
   engine: OpenMW
   tags:
@@ -3035,6 +3102,7 @@
   location: West Gash Region
   content: store:/shots/2017-03-05-coast-of-west-gash.png
   type: shot
+  aspect: 1/1
   author: dehero
   engine: OpenMW
   tags:
@@ -3089,6 +3157,7 @@
   location: Ascadian Isles Region
   content: store:/shots/2017-03-06-night-encounter-at-the-bridge.png
   type: shot
+  aspect: 1/1
   author: dehero
   engine: OpenMW
   tags:
@@ -3125,6 +3194,7 @@
   location: Molag Amur Region
   content: store:/shots/2017-03-07-the-road-through-lava.png
   type: shot
+  aspect: 1/1
   author: dehero
   locating:
     date: 2026-02-20-18-42-33
@@ -3184,6 +3254,7 @@
   location: Nchurdamz
   content: store:/shots/2017-03-08-nchurdamz-at-the-sunset.png
   type: shot
+  aspect: 1/1
   author: dehero
   engine: OpenMW
   tags:
@@ -3246,6 +3317,7 @@
   location: Sadrith Mora, Dirty Muriel's Cornerclub
   content: store:/shots/2017-03-09-dirty-muriels-cornerclub-under-mushrooms.png
   type: shot
+  aspect: 1/1
   author: dehero
   engine: OpenMW
   tags:
@@ -3301,6 +3373,7 @@
   location: Ald-ruhn, Guild of Mages
   content: store:/shots/2017-03-10-aldruhn-guild-of-mages.png
   type: shot
+  aspect: 1/1
   author: dehero
   engine: OpenMW
   tags:
@@ -3333,6 +3406,7 @@
   location: Fields of Kummu
   content: store:/shots/2017-03-11-fields-of-kummu-in-the-sunset-light.png
   type: shot
+  aspect: 1/1
   author: dehero
   engine: OpenMW
   tags:
@@ -3406,6 +3480,7 @@
   location: Vivec
   content: store:/shots/2017-03-12-silhouettes.png
   type: shot
+  aspect: 1/1
   author: dehero
   engine: OpenMW
   tags:
@@ -3461,6 +3536,7 @@
   location: Bitter Coast Region
   content: store:/shots/2017-03-13-sandy-shore.png
   type: shot
+  aspect: 1/1
   author: dehero
   engine: OpenMW
   tags:
@@ -3522,6 +3598,7 @@
   location: Dagon Fel, Itar the Gentle's House
   content: store:/shots/2017-03-14-dagon-fel-itar-the-gentles-house.png
   type: shot
+  aspect: 1/1
   author: dehero
   engine: OpenMW
   mark: B1
@@ -3580,6 +3657,7 @@
   location: Suran
   content: store:/shots/2017-03-15-view-of-the-night-suran.png
   type: shot
+  aspect: 1/1
   author: dehero
   engine: OpenMW
   tags:
@@ -3631,6 +3709,7 @@
   location: Nchurdamz, Interior
   content: store:/shots/2017-03-16-in-the-chambers-of-nchurdamz.png
   type: shot
+  aspect: 1/1
   author: dehero
   engine: OpenMW
   tags:
@@ -3671,6 +3750,7 @@
   location: Ascadian Isles Region
   content: store:/shots/2017-03-17-road-at-the-dawn.png
   type: shot
+  aspect: 1/1
   author: dehero
   engine: OpenMW
   tags:
@@ -3726,6 +3806,7 @@
   location: Dagon Fel
   content: store:/shots/2017-03-18-arrival-in-dagon-fel.png
   type: shot
+  aspect: 1/1
   author: dehero
   engine: OpenMW
   mark: B1
@@ -3778,6 +3859,7 @@
   location: Vansunalit Egg Mine
   content: store:/shots/2017-03-19-stairs-in-vansunalit-egg-mine.png
   type: shot
+  aspect: 1/1
   author: dehero
   engine: OpenMW
   tags:
@@ -3828,6 +3910,7 @@
   location: Vivec, Temple
   content: store:/shots/2017-03-20-sun-moon-vivec.png
   type: shot
+  aspect: 1/1
   author: dehero
   engine: OpenMW
   tags:
@@ -3859,6 +3942,7 @@
   placement: Outdoors
   content: store:/shots/2017-03-21-vanilla-sunset.png
   type: shot
+  aspect: 1/1
   author: dehero
   engine: OpenMW
   tags:
@@ -3921,6 +4005,7 @@
   location: Caldera
   content: store:/shots/2017-03-22-betty-netch-and-far-caldera.png
   type: shot
+  aspect: 1/1
   author: dehero
   engine: OpenMW
   tags:
@@ -3953,6 +4038,7 @@
   location: Dushariran, Shrine
   content: store:/shots/2017-03-23-malacaths-shrine.png
   type: shot
+  aspect: 1/1
   author: dehero
   locating:
     date: 2026-02-16-18-45-13
@@ -3986,6 +4072,7 @@
   location: Ascadian Isles Region
   content: store:/shots/2017-03-24-mushroom-stack.png
   type: shot
+  aspect: 1/1
   author: dehero
   locating:
     date: 2026-02-22-14-42-41
@@ -4047,6 +4134,7 @@
   location: Dagon Fel
   content: store:/shots/2017-03-25-the-two-towers.png
   type: shot
+  aspect: 1/1
   author: dehero
   engine: OpenMW
   tags:
@@ -4102,6 +4190,7 @@
   location: Bitter Coast Region
   content: store:/shots/2017-03-26-exploring-bitter-coast.png
   type: shot
+  aspect: 1/1
   author: dehero
   engine: OpenMW
   mark: B1
@@ -4158,6 +4247,7 @@
   location: West Gash Region
   content: store:/shots/2017-03-27-on-the-edge-of-a-dead-forest.png
   type: shot
+  aspect: 1/1
   author: dehero
   locating:
     date: 2026-02-16-18-22-37
@@ -4219,6 +4309,7 @@
   location: Hlormaren, Propylon Chamber
   content: store:/shots/2017-03-28-entrance-arch-of-propylon-chamber.png
   type: shot
+  aspect: 1/1
   author: dehero
   locating:
     date: 2026-02-16-18-19-33
@@ -4282,6 +4373,7 @@
   location: Balmora
   content: store:/shots/2017-03-29-guilds-and-stores.png
   type: shot
+  aspect: 1/1
   author: dehero
   engine: OpenMW
   tags:
@@ -4316,6 +4408,7 @@
     - Baram Ancestral Tomb
   content: store:/shots/2017-03-30-morning-hunt.png
   type: shot
+  aspect: 1/1
   author: dehero
   locating:
     date: 2026-02-16-18-16-17
@@ -4379,6 +4472,7 @@
   location: Vivec, St. Olms Haunted Manor
   content: store:/shots/2017-03-31-interior-garden.png
   type: shot
+  aspect: 1/1
   author: dehero
   locating:
     date: 2026-02-12
@@ -4462,6 +4556,7 @@
   location: Gnisis
   content: store:/shots/2017-04-01-help-me-find-my-pants-you-imperial-scum.png
   type: shot
+  aspect: 1/1
   author: dehero
   engine: OpenMW
   tags:
@@ -4490,6 +4585,7 @@
   location: Balmora
   content: store:/shots/2017-04-02-night-street-of-balmora.png
   type: shot
+  aspect: 1/1
   author: dehero
   engine: OpenMW
   tags:
@@ -4581,6 +4677,7 @@
   location: Gnisis
   content: store:/shots/2017-04-03-gnisis.png
   type: shot
+  aspect: 1/1
   author: dehero
   engine: OpenMW
   tags:
@@ -4633,6 +4730,7 @@
   location: West Gash Region
   content: store:/shots/2017-04-04-banks-and-arches.png
   type: shot
+  aspect: 1/1
   author: dehero
   locating:
     date: 2026-02-20-18-53-31
@@ -4664,6 +4762,7 @@
   location: Balmora, South Wall Cornerclub
   content: store:/shots/2017-04-05-bards-corner.png
   type: shot
+  aspect: 1/1
   author: dehero
   locating:
     date: 2026-02-20-18-58-06
@@ -4696,6 +4795,7 @@
   location: Tel Aruhn
   content: store:/shots/2017-04-06-rainy-night-in-tel-aruhn.png
   type: shot
+  aspect: 1/1
   author: dehero
   engine: OpenMW
   mark: B1
@@ -4750,6 +4850,7 @@
     - Molag Amur Region
   content: store:/shots/2017-04-07-trees-and-towers.png
   type: shot
+  aspect: 1/1
   author: dehero
   locating:
     date: 2026-02-20-18-59-58
@@ -4810,6 +4911,7 @@
   location: Tel Vos, Central Tower
   content: store:/shots/2017-04-08-museum-centurion.png
   type: shot
+  aspect: 1/1
   author: dehero
   locating:
     date: 2026-02-20-19-03-44
@@ -4843,6 +4945,7 @@
   location: Suran, Desele's House of Earthly Delights
   content: store:/shots/2017-04-09-deseles-house-of-earthly-delights.png
   type: shot
+  aspect: 1/1
   author: dehero
   engine: OpenMW
   tags:
@@ -4904,6 +5007,7 @@
   location: Balmora
   content: store:/shots/2017-04-10-its-cloudy-in-balmora-with-a-chance-of-rain.png
   type: shot
+  aspect: 1/1
   author: dehero
   engine: OpenMW
   tags:
@@ -4932,6 +5036,7 @@
   location: Addamasartus
   content: store:/shots/2017-04-11-entrance-to-adamassartus.png
   type: shot
+  aspect: 1/1
   author: dehero
   engine: OpenMW
   tags:
@@ -5004,6 +5109,7 @@
   location: Gnaar Mok
   content: store:/shots/2017-04-12-lets-set-sail.png
   type: shot
+  aspect: 1/1
   author: dehero
   locating:
     date: 2026-02-20-19-05-34
@@ -5068,6 +5174,7 @@
   location: Hlormaren, Keep, Bottom Level
   content: store:/shots/2017-04-13-corridors-of-hlormaren.png
   type: shot
+  aspect: 1/1
   author: dehero
   engine: OpenMW
   mark: B1
@@ -5115,6 +5222,7 @@
   location: Balmora, South Wall Cornerclub
   content: store:/shots/2017-04-14-in-the-bar.png
   type: shot
+  aspect: 1/1
   author: dehero
   engine: OpenMW
   tags:
@@ -5148,6 +5256,7 @@
     - Azura's Coast Region
   content: store:/shots/2017-04-15-moon-and-stars.png
   type: shot
+  aspect: 1/1
   author: dehero
   locating:
     date: 2026-02-20-19-07-12
@@ -5207,6 +5316,7 @@
   location: Solstheim, Isinfier Plains
   content: store:/shots/2017-04-16-tree-stone.png
   type: shot
+  aspect: 1/1
   author: dehero
   engine: OpenMW
   addon: Bloodmoon
@@ -5280,6 +5390,7 @@
   location: Molag Amur Region
   content: store:/shots/2017-04-17-lost-and-robbed.png
   type: shot
+  aspect: 1/1
   author: dehero
   locating:
     date: 2026-02-20-19-11-55
@@ -5309,6 +5420,7 @@
   location: Cavern of the Incarnate
   content: store:/shots/2017-04-18-azura-and-fallen-nerevarines.png
   type: shot
+  aspect: 1/1
   author: dehero
   engine: OpenMW
   tags:
@@ -5367,6 +5479,7 @@
   location: Moonmoth Legion Fort
   content: store:/shots/2017-04-19-moonmoth-in-the-night.png
   type: shot
+  aspect: 1/1
   author: dehero
   engine: OpenMW
   tags:
@@ -5394,6 +5507,7 @@
   placement: Outdoors
   content: store:/shots/2017-04-20-roar-of-horker.png
   type: shot
+  aspect: 1/1
   author: dehero
   engine: OpenMW
   addon: Bloodmoon
@@ -5425,6 +5539,7 @@
     - An Abandoned Shack
   content: store:/shots/2017-04-21-fishers-bliss.png
   type: shot
+  aspect: 1/1
   author: dehero
   locating:
     date: 2026-02-20-19-16-05
@@ -5459,6 +5574,7 @@
   location: Cavern of the Incarnate
   content: store:/shots/2017-04-22-entrance-to-cavern-of-the-incarnate.png
   type: shot
+  aspect: 1/1
   author: dehero
   engine: OpenMW
   tags:
@@ -5539,6 +5655,7 @@
   location: Ald Sotha
   content: store:/shots/2017-04-23-ald-sotha-in-rainy-haze.png
   type: shot
+  aspect: 1/1
   author: dehero
   engine: OpenMW
   tags:
@@ -5567,6 +5684,7 @@
   location: Ashlands Region
   content: store:/shots/2017-04-24-on-the-red-mountainside.png
   type: shot
+  aspect: 1/1
   author: dehero
   locating:
     date: 2026-02-20-19-22-02
@@ -5619,6 +5737,7 @@
   location: Ebonheart
   content: store:/shots/2017-04-25-castle-ebonheart.png
   type: shot
+  aspect: 1/1
   author: dehero
   engine: OpenMW
   tags:
@@ -5675,6 +5794,7 @@
   location: Vivec, Palace of Vivec
   content: store:/shots/2017-04-26-divine-pentagon.png
   type: shot
+  aspect: 1/1
   author: dehero
   engine: OpenMW
   tags:
@@ -5741,6 +5861,7 @@
   location: Khuul
   content: store:/shots/2017-04-27-in-khuul.png
   type: shot
+  aspect: 1/1
   author: dehero
   engine: OpenMW
   tags:
@@ -5821,6 +5942,7 @@
     - Solstheim, Isinfier Plains
   content: store:/shots/2017-04-28-gloomy-barrow.png
   type: shot
+  aspect: 1/1
   author: dehero
   locating:
     date: 2026-02-21-20-02-10
@@ -5878,6 +6000,7 @@
   location: Gnisis, Bethamez
   content: store:/shots/2017-04-29-exploring-bethamez.png
   type: shot
+  aspect: 1/1
   author: dehero
   engine: OpenMW
   tags:
@@ -5931,6 +6054,7 @@
   location: Vivec, Temple
   content: store:/shots/2017-04-30-palace-of-vivec.png
   type: shot
+  aspect: 1/1
   author: dehero
   engine: OpenMW
   tags:
@@ -5983,6 +6107,7 @@
   location: Ashlands Region
   content: store:/shots/2017-05-01-altmer-camp.png
   type: shot
+  aspect: 1/1
   author: dehero
   locating:
     date: 2026-02-20-19-27-40
@@ -6016,6 +6141,7 @@
   location: Molag Amur Region
   content: store:/shots/2017-05-02-paper-trail.png
   type: shot
+  aspect: 1/1
   author: dehero
   locating:
     date: 2026-02-20-19-34-24
@@ -6048,6 +6174,7 @@
   location: Seyda Neen
   content: store:/shots/2017-05-03-near-seyda-neen.png
   type: shot
+  aspect: 1/1
   author: dehero
   engine: OpenMW
   mark: B1
@@ -6110,6 +6237,7 @@
     - Ashlands Region
   content: store:/shots/2017-05-04-neighboring-towers.png
   type: shot
+  aspect: 1/1
   author: dehero
   locating:
     date: 2026-02-18-20-34-45
@@ -6163,6 +6291,7 @@
   placement: Outdoors
   content: store:/shots/2017-05-05-sunset-fir-trees.png
   type: shot
+  aspect: 1/1
   author: dehero
   engine: OpenMW
   addon: Bloodmoon
@@ -6192,6 +6321,7 @@
   location: 'Suran, Goldyn Belaram: Pawnbroker'
   content: store:/shots/2017-05-06-suran-house-of-pawnbroker.png
   type: shot
+  aspect: 1/1
   author: dehero
   engine: OpenMW
   mark: B1
@@ -6244,6 +6374,7 @@
   location: Maar Gan
   content: store:/shots/2017-05-07-maar-gan-outpost.png
   type: shot
+  aspect: 1/1
   author: dehero
   engine: OpenMW
   mark: A1
@@ -6298,6 +6429,7 @@
   location: Solstheim, Isinfier Plains
   content: store:/shots/2017-05-08-snowy-waiting.png
   type: shot
+  aspect: 1/1
   author: dehero
   locating:
     date: 2026-02-21-19-52-20
@@ -6389,6 +6521,7 @@
   location: Imperial Prison Ship
   content: store:/shots/2017-05-09-youd-better-do-what-they-say.png
   type: shot
+  aspect: 1/1
   author: dehero
   engine: OpenMW
   mark: A2
@@ -6458,6 +6591,7 @@
   location: Molag Mar
   content: store:/shots/2017-05-10-slaves-of-molag-mar.png
   type: shot
+  aspect: 1/1
   author: dehero
   engine: OpenMW
   tags:
@@ -6519,6 +6653,7 @@
   location: Ald-ruhn, Llethri Manor Entrance
   content: store:/shots/2017-05-11-inside-of-llethri-manor.png
   type: shot
+  aspect: 1/1
   author: dehero
   engine: OpenMW
   tags:
@@ -6546,6 +6681,7 @@
   location: Solstheim
   content: store:/shots/2017-05-12-welcome-to-solstheim.png
   type: shot
+  aspect: 1/1
   author: dehero
   engine: OpenMW
   addon: Bloodmoon
@@ -6577,6 +6713,7 @@
   placement: Indoors
   content: store:/shots/2017-05-13-vampire-attack.png
   type: shot
+  aspect: 1/1
   author: dehero
   engine: OpenMW
   tags:
@@ -6634,6 +6771,7 @@
   location: Vivec
   content: store:/shots/2017-05-14-entrance-to-vivec.png
   type: shot
+  aspect: 1/1
   author: dehero
   engine: OpenMW
   mark: A2
@@ -6685,6 +6823,7 @@
   location: 'Mournhold, Royal Palace: Courtyard'
   content: store:/shots/2017-05-15-in-the-courtyard-of-royal-palace.png
   type: shot
+  aspect: 1/1
   author: dehero
   engine: OpenMW
   addon: Tribunal
@@ -6738,6 +6877,7 @@
   location: Shashurari Camp, Zennammu's Yurt
   content: store:/shots/2017-05-16-in-the-yurt.png
   type: shot
+  aspect: 1/1
   author: dehero
   locating:
     date: 2026-02-20-19-47-40
@@ -6797,6 +6937,7 @@
     - Llovyn's Farmhouse
   content: store:/shots/2017-05-17-nice-time-to-go-boating.png
   type: shot
+  aspect: 1/1
   author: dehero
   locating:
     date: 2026-02-20-19-49-41
@@ -6829,6 +6970,7 @@
   location: Azura's Coast Region
   content: store:/shots/2017-05-18-evening-on-azuras-coast.png
   type: shot
+  aspect: 1/1
   author: dehero
   engine: OpenMW
   tags:
@@ -6881,9 +7023,10 @@
   title: Queen Mother in Her Chambers
   titleRu: Королева-мать в своих покоях
   placement: Indoors
-  location: 'Mournhold, Royal Palace: Barenziah''s Chambers'
+  location: "Mournhold, Royal Palace: Barenziah's Chambers"
   content: store:/shots/2017-05-19-queen-mother-in-her-chambers.png
   type: shot
+  aspect: 1/1
   author: dehero
   engine: OpenMW
   addon: Tribunal
@@ -6912,6 +7055,7 @@
   location: Ascadian Isles Region
   content: store:/shots/2017-05-20-at-the-edge-of-the-world.png
   type: shot
+  aspect: 1/1
   author: dehero
   engine: OpenMW
   tags:
@@ -6968,6 +7112,7 @@
   location: Mournhold, Magic Shop
   content: store:/shots/2017-05-21-table-in-magic-shop.png
   type: shot
+  aspect: 1/1
   author: dehero
   locating:
     date: 2026-02-21-20-39-33
@@ -7030,6 +7175,7 @@
   location: Tel Uvirith
   content: store:/shots/2017-05-22-is-this-my-tower.png
   type: shot
+  aspect: 1/1
   author: dehero
   engine: OpenMW
   mark: B2
@@ -7081,6 +7227,7 @@
   location: Palansour
   content: store:/shots/2017-05-23-equalizer.png
   type: shot
+  aspect: 1/1
   author: dehero
   locating:
     date: 2026-02-20-19-57-15
@@ -7145,6 +7292,7 @@
     - Arkngthunch-Sturdumz
   content: store:/shots/2017-05-24-near-the-ancient-dwelling.png
   type: shot
+  aspect: 1/1
   author: dehero
   locating:
     date: 2026-02-20-19-58-49
@@ -7231,6 +7379,7 @@
   location: Vivec, St. Olms Haunted Manor
   content: store:/shots/2017-05-25-arvela-falas.png
   type: shot
+  aspect: 1/1
   author: dehero
   engine: OpenMW
   tags:
@@ -7286,6 +7435,7 @@
   location: Shrine of Azura
   content: store:/shots/2017-05-26-in-the-shrine-of-azura.png
   type: shot
+  aspect: 1/1
   author: dehero
   engine: OpenMW
   tags:
@@ -7316,6 +7466,7 @@
   location: Vivec
   content: store:/shots/2017-05-27-rainy-watching.png
   type: shot
+  aspect: 1/1
   author: dehero
   engine: OpenMW
   tags:
@@ -7345,6 +7496,7 @@
   location: Mournhold Temple
   content: store:/shots/2017-05-28-masser-over-the-mournhold-temple.png
   type: shot
+  aspect: 1/1
   author: dehero
   engine: OpenMW
   tags:
@@ -7408,6 +7560,7 @@
     - Rethandus Ancestral Tomb
   content: store:/shots/2017-05-29-so-hello.png
   type: shot
+  aspect: 1/1
   author: dehero
   locating:
     date: 2026-02-20-20-12-20
@@ -7439,6 +7592,7 @@
   location: Caldera, Guild of Mages
   content: store:/shots/2017-05-30-guild-guide-of-caldera.png
   type: shot
+  aspect: 1/1
   author: dehero
   engine: OpenMW
   tags:
@@ -7495,6 +7649,7 @@
   location: Molag Amur Region
   content: store:/shots/2017-05-31-steam-and-mist.png
   type: shot
+  aspect: 1/1
   author: dehero
   locating:
     date: 2026-02-20-20-26-30
@@ -7531,6 +7686,7 @@
   location: Ald Velothi
   content: store:/shots/2017-06-01-near-ald-velothi.png
   type: shot
+  aspect: 1/1
   author: dehero
   engine: OpenMW
   tags:
@@ -7561,6 +7717,7 @@
   location: Falas Ancestral Tomb
   content: store:/shots/2017-06-02-ashes-of-d-bryant.png
   type: shot
+  aspect: 1/1
   author: dehero
   engine: OpenMW
   tags:
@@ -7614,6 +7771,7 @@
   location: Mournhold, Plaza Brindisi Dorom
   content: store:/shots/2017-06-03-almalexia-pierces-dagon.png
   type: shot
+  aspect: 1/1
   author: dehero
   engine: OpenMW
   addon: Tribunal
@@ -7672,6 +7830,7 @@
   location: Bthuand
   content: store:/shots/2017-06-04-bthuand.png
   type: shot
+  aspect: 1/1
   author: dehero
   engine: OpenMW
   tags:
@@ -7702,6 +7861,7 @@
   location: 'Mournhold, Royal Palace: Imperial Cult Services'
   content: store:/shots/2017-06-05-corridors-of-royal-palace.png
   type: shot
+  aspect: 1/1
   author: dehero
   locating:
     date: 2026-02-21-20-38-10
@@ -7764,6 +7924,7 @@
   location: Vos
   content: store:/shots/2017-06-06-vos.png
   type: shot
+  aspect: 1/1
   author: dehero
   engine: OpenMW
   mark: A2
@@ -7815,6 +7976,7 @@
   location: Almurbalarammi, Shrine
   content: store:/shots/2017-06-07-god-of-madness-and-his-follower.png
   type: shot
+  aspect: 1/1
   author: dehero
   engine: OpenMW
   tags:
@@ -7872,6 +8034,7 @@
     - Molag Amur Region
   content: store:/shots/2017-06-08-velothi-tower-at-the-crossroads.png
   type: shot
+  aspect: 1/1
   author: dehero
   locating:
     date: 2026-02-18-20-26-00
@@ -7904,6 +8067,7 @@
   placement: Outdoors
   content: store:/shots/2017-06-09-clannfear.png
   type: shot
+  aspect: 1/1
   author: dehero
   engine: OpenMW
   mark: B1
@@ -7956,6 +8120,7 @@
   location: Helan Ancestral Tomb
   content: store:/shots/2017-06-10-ancestors-and-almalexia.png
   type: shot
+  aspect: 1/1
   author: dehero
   locating:
     date: 2026-02-20-20-30-00
@@ -8010,6 +8175,7 @@
   location: Solstheim, Castle Karstaag
   content: store:/shots/2017-06-11-castle-karstaag.png
   type: shot
+  aspect: 1/1
   author: dehero
   engine: OpenMW
   addon: Bloodmoon
@@ -8039,6 +8205,7 @@
   location: Bal Fell
   content: store:/shots/2017-06-12-night-in-bal-fell.png
   type: shot
+  aspect: 1/1
   author: dehero
   engine: OpenMW
   tags:
@@ -8070,6 +8237,7 @@
     - Piran
   content: store:/shots/2017-06-13-lava-roadsides.png
   type: shot
+  aspect: 1/1
   author: dehero
   locating:
     date: 2026-02-20-20-33-05
@@ -8102,6 +8270,7 @@
   location: Seyda Neen, Terurise Girvayne's House
   content: store:/shots/2017-06-14-supper-in-seyda-neen.png
   type: shot
+  aspect: 1/1
   author: dehero
   engine: OpenMW
   tags:
@@ -8136,6 +8305,7 @@
     - Ashlands Region
   content: store:/shots/2017-06-15-abandoned-dwellings.png
   type: shot
+  aspect: 1/1
   author: dehero
   locating:
     date: 2026-02-18-20-20-29
@@ -8165,6 +8335,7 @@
   location: Tel Mora
   content: store:/shots/2017-06-16-in-the-port-of-tel-mora.png
   type: shot
+  aspect: 1/1
   author: dehero
   engine: OpenMW
   tags:
@@ -8195,6 +8366,7 @@
     - Solstheim, Isinfier Plains
   content: store:/shots/2017-06-17-valbrandr-barrow.png
   type: shot
+  aspect: 1/1
   author: dehero
   engine: OpenMW
   addon: Bloodmoon
@@ -8246,6 +8418,7 @@
   location: Maar Gan, Andus Tradehouse
   content: store:/shots/2017-06-18-manse-andus-behind-the-bar.png
   type: shot
+  aspect: 1/1
   author: dehero
   engine: OpenMW
   tags:
@@ -8273,6 +8446,7 @@
   location: Gnisis
   content: store:/shots/2017-06-19-hentus-still-looks-for-his-pants.png
   type: shot
+  aspect: 1/1
   author: dehero
   engine: OpenMW
   tags:
@@ -8301,6 +8475,7 @@
   location: Bitter Coast Region
   content: store:/shots/2017-06-20-crossing-swampy-islands.png
   type: shot
+  aspect: 1/1
   author: dehero
   locating:
     date: 2026-02-18-20-14-40
@@ -8339,6 +8514,7 @@
   location: Hla Oad, Shurkul gro-Sharga's House
   content: store:/shots/2017-06-21-in-a-fishermans-hut.png
   type: shot
+  aspect: 1/1
   author: dehero
   locating:
     date: 2026-02-18-20-09-37
@@ -8395,6 +8571,7 @@
   location: Kogoruhn, Dome of Urso
   content: store:/shots/2017-06-22-the-dreamer-is.png
   type: shot
+  aspect: 1/1
   author: dehero
   locating:
     date: 2026-02-18-20-06-42
@@ -8424,6 +8601,7 @@
   location: Caldera
   content: store:/shots/2017-06-23-haze.png
   type: shot
+  aspect: 1/1
   author: dehero
   engine: OpenMW
   mark: B1
@@ -8492,6 +8670,7 @@
   location: Ald-ruhn
   content: store:/shots/2017-06-24-entering-aldruhn.png
   type: shot
+  aspect: 1/1
   author: dehero
   engine: OpenMW
   tags:
@@ -8545,6 +8724,7 @@
   location: Heran Ancestral Tomb
   content: store:/shots/2017-06-25-heran-ancestral-tomb.png
   type: shot
+  aspect: 1/1
   author: dehero
   engine: OpenMW
   tags:
@@ -8600,6 +8780,7 @@
   location: Ascadian Isles Region
   content: store:/shots/2017-06-26-floating-over-the-green-hills.png
   type: shot
+  aspect: 1/1
   author: dehero
   locating:
     date: 2026-02-22-14-39-01
@@ -8659,6 +8840,7 @@
   location: 'Mournhold Temple: High Chapel'
   content: store:/shots/2017-06-27-almalexia-gives-instructions-to-her-hand.png
   type: shot
+  aspect: 1/1
   author: dehero
   engine: OpenMW
   addon: Tribunal
@@ -8693,6 +8875,7 @@
     - Ashlands Region
   content: store:/shots/2017-06-28-misty-ledges.png
   type: shot
+  aspect: 1/1
   author: dehero
   locating:
     date: 2026-02-18-20-04-49
@@ -8725,6 +8908,7 @@
   location: Sadrith Mora
   content: store:/shots/2017-06-29-in-sadrith-mora.png
   type: shot
+  aspect: 1/1
   author: dehero
   engine: OpenMW
   tags:
@@ -8757,6 +8941,7 @@
   location: Indoranyon
   content: store:/shots/2017-06-30-indoranyon.png
   type: shot
+  aspect: 1/1
   author: dehero
   engine: OpenMW
   tags:
@@ -8849,6 +9034,7 @@
   location: Vivec, Guild of Fighters
   content: store:/shots/2017-07-01-training-room.png
   type: shot
+  aspect: 1/1
   author: dehero
   engine: OpenMW
   mark: B2
@@ -8877,6 +9063,7 @@
   location: Vivec
   content: store:/shots/2017-07-02-ano-andaram-surveys-quarters-of-vivec.png
   type: shot
+  aspect: 1/1
   author: dehero
   engine: OpenMW
   tags:
@@ -8904,6 +9091,7 @@
   location: Falvillo's Endeavor, Cabin
   content: store:/shots/2017-07-03-in-the-captains-cabin.png
   type: shot
+  aspect: 1/1
   author: dehero
   locating:
     date: 2026-02-18-20-03-35
@@ -8934,6 +9122,7 @@
   location: Alof's Farmhouse
   content: store:/shots/2017-07-04-alofs-farmhouse.png
   type: shot
+  aspect: 1/1
   author: dehero
   engine: OpenMW
   mark: B1
@@ -8990,6 +9179,7 @@
   location: Kogoruhn, Dome of Urso
   content: store:/shots/2017-07-05-banner-of-house-dagoth.png
   type: shot
+  aspect: 1/1
   author: dehero
   locating:
     date: 2026-02-20-20-34-55
@@ -9069,6 +9259,7 @@
   location: Arkngthand
   content: store:/shots/2017-07-06-snowy-granius-meets-travelers-near-arkngthand.png
   type: shot
+  aspect: 1/1
   author: dehero
   engine: OpenMW
   tags:
@@ -9096,6 +9287,7 @@
   location: Bitter Coast Region
   content: store:/shots/2017-07-07-sneaking-scamp-at-bitter-coast.png
   type: shot
+  aspect: 1/1
   author: dehero
   engine: OpenMW
   mark: A2
@@ -9152,6 +9344,7 @@
   location: Sotha Sil, Dome of Sotha Sil
   content: store:/shots/2017-07-08-saint-sotha.png
   type: shot
+  aspect: 1/1
   author: dehero
   engine: OpenMW
   addon: Tribunal
@@ -9224,6 +9417,7 @@
     - Caldera, Mining Guard Tower
   content: store:/shots/2017-07-09-near-mining-company-office.png
   type: shot
+  aspect: 1/1
   author: dehero
   locating:
     date: 2026-02-18-20-00-55
@@ -9276,6 +9470,7 @@
   location: Vivec
   content: store:/shots/2017-07-10-inland-waters.png
   type: shot
+  aspect: 1/1
   author: dehero
   engine: OpenMW
   tags:
@@ -9308,6 +9503,7 @@
     - Red Mountain Region
   content: store:/shots/2017-07-11-behind-the-ghostfence.png
   type: shot
+  aspect: 1/1
   author: dehero
   locating:
     date: 2026-02-22-11-31-04
@@ -9340,6 +9536,7 @@
     - Gnisis, Vabdas Hut
   content: store:/shots/2017-07-12-suburb-muckspunge.png
   type: shot
+  aspect: 1/1
   author: dehero
   locating:
     date: 2026-02-18-19-57-44
@@ -9391,6 +9588,7 @@
   location: Mawia
   content: store:/shots/2017-07-13-corpse-preparation-volume-one.png
   type: shot
+  aspect: 1/1
   author: dehero
   locating:
     date: 2026-02-18-19-56-23
@@ -9451,6 +9649,7 @@
   location: West Gash Region
   content: store:/shots/2017-07-14-near-the-night-campfire.png
   type: shot
+  aspect: 1/1
   author: dehero
   locating:
     date: 2026-02-18-19-52-57
@@ -9487,6 +9686,7 @@
   location: Pelagiad
   content: store:/shots/2017-07-15-i-greet-you-in-pelagiad-traveler.png
   type: shot
+  aspect: 1/1
   author: dehero
   engine: OpenMW
   mark: B1
@@ -9572,6 +9772,7 @@
   location: Mzanchend
   content: store:/shots/2017-07-16-mzanchend-before-the-ash-storm.png
   type: shot
+  aspect: 1/1
   author: dehero
   engine: OpenMW
   tags:
@@ -9600,6 +9801,7 @@
   location: Mawia
   content: store:/shots/2017-07-17-mawia-at-sunrise.png
   type: shot
+  aspect: 1/1
   author: dehero
   engine: OpenMW
   mark: B1
@@ -9625,6 +9827,7 @@
   location: Molag Amur Region
   content: store:/shots/2017-07-18-in-foggy-gray.png
   type: shot
+  aspect: 1/1
   author: dehero
   locating:
     date: 2026-02-22-16-53-37
@@ -9655,6 +9858,7 @@
   location: Tel Mora
   content: store:/shots/2017-07-19-the-main-tower-of-tel-mora.png
   type: shot
+  aspect: 1/1
   author: dehero
   engine: OpenMW
   mark: A2
@@ -9707,6 +9911,7 @@
   location: Gnisis, Fort Darius
   content: store:/shots/2017-07-20-fort-darius.png
   type: shot
+  aspect: 1/1
   author: dehero
   engine: OpenMW
   mark: A2
@@ -9791,6 +9996,7 @@
   location: Maelkashishi
   content: store:/shots/2017-07-21-scamp-defending-the-entrance-to-maelkashishi.png
   type: shot
+  aspect: 1/1
   author: dehero
   engine: OpenMW
   tags:
@@ -9818,6 +10024,7 @@
   location: Gnisis
   content: store:/shots/2017-07-22-terrace-under-the-starry-sky.png
   type: shot
+  aspect: 1/1
   author: dehero
   engine: OpenMW
   tags:
@@ -9880,6 +10087,7 @@
   location: Ald Sotha
   content: store:/shots/2017-07-23-sun-over-ald-sotha.png
   type: shot
+  aspect: 1/1
   author: dehero
   engine: OpenMW
   tags:
@@ -9908,6 +10116,7 @@
   location: Seyda Neen, Terurise Girvayne's House
   content: store:/shots/2017-07-24-modest-comfort.png
   type: shot
+  aspect: 1/1
   author: dehero
   locating:
     date: 2026-02-18-19-50-44
@@ -9939,6 +10148,7 @@
   location: Bitter Coast Region
   content: store:/shots/2017-07-25-somewhere-at-bitter-coast.png
   type: shot
+  aspect: 1/1
   author: dehero
   engine: OpenMW
   tags:
@@ -9966,6 +10176,7 @@
   location: Mawia
   content: store:/shots/2017-07-26-corpse-preparation-volume-two.png
   type: shot
+  aspect: 1/1
   author: dehero
   locating:
     date: 2026-02-18-19-49-09
@@ -9998,6 +10209,7 @@
   placement: Indoors
   content: store:/shots/2017-07-27-rats-in-the-hold.png
   type: shot
+  aspect: 1/1
   author: dehero
   engine: OpenMW
   mark: B2
@@ -10056,6 +10268,7 @@
   location: Grazelands Region
   content: store:/shots/2017-07-28-on-the-roads-of-grazelands.png
   type: shot
+  aspect: 1/1
   author: dehero
   engine: OpenMW
   tags:
@@ -10106,6 +10319,7 @@
   location: Berandas
   content: store:/shots/2017-07-29-near-berandas.png
   type: shot
+  aspect: 1/1
   author: dehero
   engine: OpenMW
   tags:
@@ -10163,6 +10377,7 @@
   location: Assernerairan, Shrine
   content: store:/shots/2017-07-30-in-the-sanctuary.png
   type: shot
+  aspect: 1/1
   author: dehero
   locating:
     date: 2026-02-18-19-38-14
@@ -10223,6 +10438,7 @@
   location: Yansirramus
   content: store:/shots/2017-07-31-at-the-coast.png
   type: shot
+  aspect: 1/1
   author: dehero
   locating:
     date: 2026-02-22-11-04-04
@@ -10258,6 +10474,7 @@
   location: Zaintiraris
   content: store:/shots/2017-08-01-clannfear-parade.png
   type: shot
+  aspect: 1/1
   author: dehero
   locating:
     date: 2026-02-22-11-19-36
@@ -10289,6 +10506,7 @@
   placement: Indoors
   content: store:/shots/2017-08-02-over-the-lava.png
   type: shot
+  aspect: 1/1
   author: dehero
   engine: OpenMW
   tags:
@@ -10342,6 +10560,7 @@
   location: Maelkashishi
   content: store:/shots/2017-08-03-maelkashishi.png
   type: shot
+  aspect: 1/1
   author: dehero
   engine: OpenMW
   tags:
@@ -10370,6 +10589,7 @@
   location: West Gash Region
   content: store:/shots/2017-08-04-coastal-muckspunge.png
   type: shot
+  aspect: 1/1
   author: dehero
   locating:
     date: 2026-02-22-13-46-06
@@ -10402,6 +10622,7 @@
   location: Ashlands Region
   content: store:/shots/2017-08-05-camp-under-the-bridge.png
   type: shot
+  aspect: 1/1
   author: dehero
   locating:
     date: 2026-02-18-19-20-17
@@ -10459,6 +10680,7 @@
   location: Dagoth Ur, Facility Cavern
   content: store:/shots/2017-08-06-the-embrace-of-azura.png
   type: shot
+  aspect: 1/1
   author: dehero
   engine: OpenMW
   tags:
@@ -10490,6 +10712,7 @@
     - Solstheim, Hrothmund's Bane
   content: store:/shots/2017-08-07-snow-wolf-near-the-lair.png
   type: shot
+  aspect: 1/1
   author: dehero
   locating:
     date: 2026-02-21-21-06-06
@@ -10524,6 +10747,7 @@
   location: Elanius Camp
   content: store:/shots/2017-08-08-elanius-camp.png
   type: shot
+  aspect: 1/1
   author: dehero
   engine: OpenMW
   tags:
@@ -10583,6 +10807,7 @@
   location: Molag Amur Region
   content: store:/shots/2017-08-09-night-sky-of-molag-amur.png
   type: shot
+  aspect: 1/1
   author: dehero
   engine: OpenMW
   tags:
@@ -10613,6 +10838,7 @@
   location: Bitter Coast Region
   content: store:/shots/2017-08-10-grazing-guar.png
   type: shot
+  aspect: 1/1
   author: dehero
   engine: OpenMW
   mark: B1
@@ -10662,6 +10888,7 @@
   location: West Gash Region
   content: store:/shots/2017-08-11-west-gash.png
   type: shot
+  aspect: 1/1
   author: dehero
   engine: OpenMW
   tags:
@@ -10718,6 +10945,7 @@
   location: Solstheim, Fjell
   content: store:/shots/2017-08-12-fearsome-grahl.png
   type: shot
+  aspect: 1/1
   author: dehero
   engine: OpenMW
   addon: Bloodmoon
@@ -10774,6 +11002,7 @@
   location: Hanud
   content: store:/shots/2017-08-13-hanud.png
   type: shot
+  aspect: 1/1
   author: dehero
   engine: OpenMW
   mark: A2
@@ -10825,6 +11054,7 @@
   location: Sheogorad Region
   content: store:/shots/2017-08-14-maiq-the-liar.png
   type: shot
+  aspect: 1/1
   author: dehero
   engine: OpenMW
   tags:
@@ -10878,6 +11108,7 @@
   location: Corprusarium
   content: store:/shots/2017-08-15-yagrum-bagarn-talks-to-uupse-fyr.png
   type: shot
+  aspect: 1/1
   author: dehero
   engine: OpenMW
   mark: A2
@@ -10939,6 +11170,7 @@
   location: Falas Ancestral Tomb
   content: store:/shots/2017-08-16-falas-ancestral-tomb.png
   type: shot
+  aspect: 1/1
   author: dehero
   engine: OpenMW
   mark: B1
@@ -10992,6 +11224,7 @@
   location: Solstheim, Moesring Mountains
   content: store:/shots/2017-08-17-water-stone.png
   type: shot
+  aspect: 1/1
   author: dehero
   engine: OpenMW
   addon: Bloodmoon
@@ -11044,6 +11277,7 @@
   location: Grytewake
   content: store:/shots/2017-08-18-captain-bedrir.png
   type: shot
+  aspect: 1/1
   author: dehero
   engine: OpenMW
   mark: B1
@@ -11097,6 +11331,7 @@
     - Hlormaren
   content: store:/shots/2017-08-19-surroundings-of-hlormaren.png
   type: shot
+  aspect: 1/1
   author: dehero
   engine: OpenMW
   mark: B1
@@ -11144,6 +11379,7 @@
   location: Sadrith Mora
   content: store:/shots/2017-08-20-sadrith-mora-at-night.png
   type: shot
+  aspect: 1/1
   author: dehero
   engine: OpenMW
   tags:
@@ -11171,6 +11407,7 @@
   location: Vivec
   content: store:/shots/2017-08-21-meanwhile-in-vivec.png
   type: shot
+  aspect: 1/1
   author: dehero
   engine: OpenMW
   tags:
@@ -11199,6 +11436,7 @@
   location: Arkngthunch-Sturdumz
   content: store:/shots/2017-08-22-arkngthunch-sturdumz.png
   type: shot
+  aspect: 1/1
   author: dehero
   engine: OpenMW
   tags:
@@ -11255,6 +11493,7 @@
   location: Vivec, Temple
   content: store:/shots/2017-08-23-blessed-rain.png
   type: shot
+  aspect: 1/1
   author: dehero
   engine: OpenMW
   tags:
@@ -11305,6 +11544,7 @@
   location: Urshilaku, Juno Burial
   content: store:/shots/2017-08-24-wraith-of-sul-senipul.png
   type: shot
+  aspect: 1/1
   author: dehero
   engine: OpenMW
   tags:
@@ -11359,6 +11599,7 @@
   location: Ascadian Isles Region
   content: store:/shots/2017-08-25-near-suran.png
   type: shot
+  aspect: 1/1
   author: dehero
   engine: OpenMW
   mark: B1
@@ -11407,6 +11648,7 @@
   location: Raven Rock
   content: store:/shots/2017-08-26-raven-rock.png
   type: shot
+  aspect: 1/1
   author: dehero
   engine: OpenMW
   tags:
@@ -11488,6 +11730,7 @@
   location: Sotha Sil, Dome of Kasia
   content: store:/shots/2017-08-27-deadly-pass.png
   type: shot
+  aspect: 1/1
   author: dehero
   engine: OpenMW
   addon: Tribunal
@@ -11547,6 +11790,7 @@
   location: Shishara
   content: store:/shots/2017-08-28-shishara.png
   type: shot
+  aspect: 1/1
   author: dehero
   engine: OpenMW
   mark: B1
@@ -11594,6 +11838,7 @@
   placement: Outdoors
   content: store:/shots/2017-08-29-at-the-coast-of-hirstaang-forest.png
   type: shot
+  aspect: 1/1
   author: dehero
   engine: OpenMW
   addon: Bloodmoon
@@ -11625,6 +11870,7 @@
   location: Solstheim, Ulfgar the Unending's Dwelling
   content: store:/shots/2017-08-30-ulfgar-the-unending-in-his-dwelling.png
   type: shot
+  aspect: 1/1
   author: dehero
   engine: OpenMW
   addon: Bloodmoon
@@ -11673,6 +11919,7 @@
   location: Suran
   content: store:/shots/2017-08-31-guard-tower-of-suran.png
   type: shot
+  aspect: 1/1
   author: dehero
   engine: OpenMW
   tags:
@@ -11767,6 +12014,7 @@
   location: Ashlands Region
   content: store:/shots/2017-09-01-the-last-refuge.png
   type: shot
+  aspect: 1/1
   author: dehero
   locating:
     date: 2026-02-18-19-15-46
@@ -11796,6 +12044,7 @@
   location: Vivec, Temple
   content: store:/shots/2017-09-02-vivec-at-a-loss.png
   type: shot
+  aspect: 1/1
   author: dehero
   engine: OpenMW
   tags:
@@ -11856,6 +12105,7 @@
   location: Grazelands Region
   content: store:/shots/2017-09-03-night-halt.png
   type: shot
+  aspect: 1/1
   author: dehero
   locating:
     date: 2026-02-18-19-09-33
@@ -11887,6 +12137,7 @@
   location: Solstheim, Hirstaang Forest
   content: store:/shots/2017-09-04-eye-of-a-needle.png
   type: shot
+  aspect: 1/1
   author: dehero
   locating:
     date: 2026-02-21-19-47-38
@@ -11917,6 +12168,7 @@
   location: Red Mountain Region
   content: store:/shots/2017-09-05-martyr-of-red-mountain.png
   type: shot
+  aspect: 1/1
   author: dehero
   engine: OpenMW
   mark: A2
@@ -11942,6 +12194,7 @@
   location: Raven Rock
   content: store:/shots/2017-09-06-dark-morning-in-the-colony.png
   type: shot
+  aspect: 1/1
   author: dehero
   engine: OpenMW
   addon: Bloodmoon
@@ -11994,6 +12247,7 @@
   location: Zainab Camp, Wise Woman's Yurt
   content: store:/shots/2017-09-07-wise-womans-table.png
   type: shot
+  aspect: 1/1
   author: dehero
   locating:
     date: 2026-02-18-19-08-43
@@ -12025,6 +12279,7 @@
   location: Ebonheart
   content: store:/shots/2017-09-08-sky-castle.png
   type: shot
+  aspect: 1/1
   author: dehero
   engine: OpenMW
   tags:
@@ -12086,6 +12341,7 @@
     - Desolate Shipwreck
   content: store:/shots/2017-09-09-floating-bottle.png
   type: shot
+  aspect: 1/1
   author: dehero
   locating:
     date: 2026-02-17-19-58-28
@@ -12118,6 +12374,7 @@
   location: Mzahnch
   content: store:/shots/2017-09-10-mzahnch.png
   type: shot
+  aspect: 1/1
   author: dehero
   engine: OpenMW
   tags:
@@ -12149,6 +12406,7 @@
     - Vos
   content: store:/shots/2017-09-11-inside-arc-of-tel-vos.png
   type: shot
+  aspect: 1/1
   author: dehero
   engine: OpenMW
   tags:
@@ -12176,6 +12434,7 @@
   location: Solstheim, Bjorn
   content: store:/shots/2017-09-12-ice-prisoner.png
   type: shot
+  aspect: 1/1
   author: dehero
   locating:
     date: 2026-02-21-19-36-53
@@ -12209,6 +12468,7 @@
   placement: Outdoors
   content: store:/shots/2017-09-13-netches-have-fallen-out.png
   type: shot
+  aspect: 1/1
   author: dehero
   engine: OpenMW
   mark: B2
@@ -12256,6 +12516,7 @@
   location: An Abandoned Shack
   content: store:/shots/2017-09-14-abandoned-island.png
   type: shot
+  aspect: 1/1
   author: dehero
   engine: OpenMW
   mark: B1
@@ -12342,6 +12603,7 @@
   location: Molag Amur Region
   content: store:/shots/2017-09-15-lava-swamps.png
   type: shot
+  aspect: 1/1
   author: dehero
   locating:
     date: 2026-02-18-19-01-37
@@ -12415,6 +12677,7 @@
   location: Fort Frostmoth
   content: store:/shots/2017-09-16-fort-surrounded-by-fir-trees.png
   type: shot
+  aspect: 1/1
   author: dehero
   engine: OpenMW
   addon: Bloodmoon
@@ -12475,6 +12738,7 @@
   location: Balmora
   content: store:/shots/2017-09-17-night-square.png
   type: shot
+  aspect: 1/1
   author: dehero
   engine: OpenMW
   tags:
@@ -12506,6 +12770,7 @@
   location: Ebonheart, East Empire North Warehouse
   content: store:/shots/2017-09-18-frugal-meal.png
   type: shot
+  aspect: 1/1
   author: dehero
   locating:
     date: 2026-02-18-18-58-57
@@ -12537,6 +12802,7 @@
   location: Ald Velothi, Ienas Arvel's Shack
   content: store:/shots/2017-09-19-ald-velothi-ienas-arvels-shack.png
   type: shot
+  aspect: 1/1
   author: dehero
   engine: OpenMW
   mark: B1
@@ -12585,6 +12851,7 @@
   location: Tower of Tel Fyr, Hall of Fyr
   content: store:/shots/2017-09-20-director-of-corprusarium.png
   type: shot
+  aspect: 1/1
   author: dehero
   engine: OpenMW
   mark: B1
@@ -12618,6 +12885,7 @@
   placement: Outdoors
   content: store:/shots/2017-09-21-flight.png
   type: shot
+  aspect: 1/1
   author: dehero
   engine: OpenMW
   mark: A2
@@ -12677,6 +12945,7 @@
   location: Gnisis
   content: store:/shots/2017-09-22-near-gnisis-eggmine.png
   type: shot
+  aspect: 1/1
   author: dehero
   engine: OpenMW
   mark: A1
@@ -12729,6 +12998,7 @@
   location: Ashlands Region
   content: store:/shots/2017-09-23-misty-halt.png
   type: shot
+  aspect: 1/1
   author: dehero
   locating:
     date: 2026-02-18-18-50-40
@@ -12788,6 +13058,7 @@
     - Dirara's Farmhouse
   content: store:/shots/2017-09-24-ash-yam-plantation.png
   type: shot
+  aspect: 1/1
   author: dehero
   locating:
     date: 2026-02-18-18-45-42
@@ -12820,6 +13091,7 @@
   location: Sadrith Mora, Hleras Gidren's House
   content: store:/shots/2017-09-25-in-a-mushroom-house.png
   type: shot
+  aspect: 1/1
   author: dehero
   locating:
     date: 2026-02-17-19-52-20
@@ -12879,6 +13151,7 @@
   location: West Gash Region
   content: store:/shots/2017-09-26-bridges.png
   type: shot
+  aspect: 1/1
   author: dehero
   engine: OpenMW
   tags:
@@ -12908,6 +13181,7 @@
     - Shunned Shipwreck
   content: store:/shots/2017-09-27-aground.png
   type: shot
+  aspect: 1/1
   author: dehero
   locating:
     date: 2026-02-17-19-47-10
@@ -12997,6 +13271,7 @@
   location: Caldera, Mining Company Office
   content: store:/shots/2017-09-28-mining-company-office.png
   type: shot
+  aspect: 1/1
   author: dehero
   locating:
     date: 2026-02-17-19-44-13
@@ -13026,6 +13301,7 @@
   location: Sotha Sil, Dome of Serlyn
   content: store:/shots/2017-09-29-rain-of-sparks.png
   type: shot
+  aspect: 1/1
   author: dehero
   engine: OpenMW
   addon: Tribunal
@@ -13079,6 +13355,7 @@
   location: Ald Velothi, Ienas Arvel's Shack
   content: store:/shots/2017-09-30-in-a-warm-hut.png
   type: shot
+  aspect: 1/1
   author: dehero
   locating:
     date: 2026-02-17-19-42-59
@@ -13108,6 +13385,7 @@
   location: Sadrith Mora
   content: store:/shots/2017-10-01-floating-over-sadrith-mora.png
   type: shot
+  aspect: 1/1
   author: dehero
   engine: OpenMW
   mark: E
@@ -13170,6 +13448,7 @@
   location: Beran Ancestral Tomb
   content: store:/shots/2017-10-02-beran-ancestral-tomb.png
   type: shot
+  aspect: 1/1
   author: dehero
   engine: OpenMW
   tags:
@@ -13196,6 +13475,7 @@
   placement: Indoors
   content: store:/shots/2017-10-03-worn-dwemer-hatch.png
   type: shot
+  aspect: 1/1
   author: dehero
   engine: OpenMW
   tags:
@@ -13255,6 +13535,7 @@
   location: Azura's Coast Region
   content: store:/shots/2017-10-04-in-the-evening-time.png
   type: shot
+  aspect: 1/1
   author: dehero
   locating:
     date: 2026-02-22-14-03-36
@@ -13286,6 +13567,7 @@
     - Thirsk
   content: store:/shots/2017-10-05-in-the-hall-of-thirsk.png
   type: shot
+  aspect: 1/1
   author: dehero
   engine: OpenMW
   addon: Bloodmoon
@@ -13312,6 +13594,7 @@
   location: Omani Manor
   content: store:/shots/2017-10-06-omani-manor.png
   type: shot
+  aspect: 1/1
   author: dehero
   engine: OpenMW
   mark: B2
@@ -13336,6 +13619,7 @@
   placement: Outdoors
   content: store:/shots/2017-10-07-hazy-ravine.png
   type: shot
+  aspect: 1/1
   author: dehero
   engine: OpenMW
   mark: B1
@@ -13390,6 +13674,7 @@
     - Omani Manor
   content: store:/shots/2017-10-08-aeronautics.png
   type: shot
+  aspect: 1/1
   author: dehero
   locating:
     date: 2026-02-22-13-39-47
@@ -13421,6 +13706,7 @@
     - Ald Velothi, Ienas Arvel's Shack
   content: store:/shots/2017-10-09-in-the-evening-under-a-canopy.png
   type: shot
+  aspect: 1/1
   author: dehero
   locating:
     date: 2026-02-17-19-37-50
@@ -13504,6 +13790,7 @@
     - Arkngthunch-Sturdumz
   content: store:/shots/2017-10-10-on-the-pass.png
   type: shot
+  aspect: 1/1
   author: dehero
   locating:
     date: 2026-02-17-19-33-48
@@ -13535,6 +13822,7 @@
   location: Solstheim, Skygge
   content: store:/shots/2017-10-11-in-an-ice-cave.png
   type: shot
+  aspect: 1/1
   author: dehero
   locating:
     date: 2026-02-21-19-42-34
@@ -13590,6 +13878,7 @@
   location: Gnaar Mok
   content: store:/shots/2017-10-12-gnaar-mok.png
   type: shot
+  aspect: 1/1
   author: dehero
   engine: OpenMW
   tags:
@@ -13618,6 +13907,7 @@
   location: Ilunibi, Carcass of the Saint
   content: store:/shots/2017-10-13-cult-of-candles.png
   type: shot
+  aspect: 1/1
   author: dehero
   locating:
     date: 2026-02-22-10-44-56
@@ -13685,6 +13975,7 @@
   location: Bal Fell
   content: store:/shots/2017-10-14-land-of-ruins.png
   type: shot
+  aspect: 1/1
   author: dehero
   locating:
     date: 2026-02-17-19-31-11
@@ -13741,6 +14032,7 @@
     - Bitter Coast Region
   content: store:/shots/2017-10-15-mysterious-island.png
   type: shot
+  aspect: 1/1
   author: dehero
   locating:
     date: 2026-02-18-18-40-21
@@ -13774,6 +14066,7 @@
   location: Mournhold, Royal Palace Throne Room
   content: store:/shots/2017-10-16-kings-contempt.png
   type: shot
+  aspect: 1/1
   author: dehero
   engine: OpenMW
   addon: Tribunal
@@ -13800,6 +14093,7 @@
   placement: Indoors
   content: store:/shots/2017-10-17-golden-saint.png
   type: shot
+  aspect: 1/1
   author: dehero
   engine: OpenMW
   tags:
@@ -13853,6 +14147,7 @@
   location: Seyda Neen
   content: store:/shots/2017-10-18-recollecting-the-first-steps.png
   type: shot
+  aspect: 1/1
   author: dehero
   engine: OpenMW
   mark: B1
@@ -13913,6 +14208,7 @@
   location: Sadrith Mora, Hleras Gidren's House
   content: store:/shots/2017-10-19-table-for-one.png
   type: shot
+  aspect: 1/1
   author: dehero
   locating:
     date: 2026-02-17-19-23-35
@@ -13944,6 +14240,7 @@
   location: Sandas Ancestral Tomb
   content: store:/shots/2017-10-20-corpse-of-a-noble-guard.png
   type: shot
+  aspect: 1/1
   author: dehero
   engine: OpenMW
   tags:
@@ -13977,6 +14274,7 @@
   location: Seyda Neen, Census and Excise Office
   content: store:/shots/2017-10-21-socucius-ergalla.png
   type: shot
+  aspect: 1/1
   author: dehero
   engine: OpenMW
   mark: B1
@@ -14033,6 +14331,7 @@
   location: Sheogorad Region
   content: store:/shots/2017-10-22-mushroom-field.png
   type: shot
+  aspect: 1/1
   author: dehero
   locating:
     date: 2026-02-22-10-33-07
@@ -14117,6 +14416,7 @@
   location: Vivec, Guild of Mages
   content: store:/shots/2017-10-23-flacassia-fauseius-on-the-spot.png
   type: shot
+  aspect: 1/1
   author: dehero
   engine: OpenMW
   tags:
@@ -14145,6 +14445,7 @@
   location: Caldera, Valvius Mevureius' House
   content: store:/shots/2017-10-24-valvius-mevurenius-fireplace.png
   type: shot
+  aspect: 1/1
   author: dehero
   engine: OpenMW
   tags:
@@ -14176,6 +14477,7 @@
   location: West Gash Region
   content: store:/shots/2017-10-25-the-last-berth.png
   type: shot
+  aspect: 1/1
   author: dehero
   locating:
     date: 2026-02-17-19-12-38
@@ -14232,6 +14534,7 @@
   placement: Indoors
   content: store:/shots/2017-10-26-centurion-spider.png
   type: shot
+  aspect: 1/1
   author: dehero
   engine: OpenMW
   tags:
@@ -14293,6 +14596,7 @@
   location: Nchurdamz
   content: store:/shots/2017-10-27-nchurdamz-in-sunset-haze.png
   type: shot
+  aspect: 1/1
   author: dehero
   engine: OpenMW
   tags:
@@ -14348,6 +14652,7 @@
   location: Caldera
   content: store:/shots/2017-10-28-caldera-north-west-road.png
   type: shot
+  aspect: 1/1
   author: dehero
   engine: OpenMW
   tags:
@@ -14415,6 +14720,7 @@
     - Arkngthunch-Sturdumz
   content: store:/shots/2017-10-29-wilted-littoral.png
   type: shot
+  aspect: 1/1
   author: dehero
   locating:
     date: 2026-02-22-10-09-37
@@ -14447,6 +14753,7 @@
   placement: Outdoors
   content: store:/shots/2017-10-30-rat-and-mudcrab.png
   type: shot
+  aspect: 1/1
   author: dehero
   engine: OpenMW
   tags:
@@ -14504,6 +14811,7 @@
   location: Molag Amur Region
   content: store:/shots/2017-10-31-green-algae-and-dead-lands.png
   type: shot
+  aspect: 1/1
   author: dehero
   locating:
     date: 2026-02-17-19-01-56
@@ -14560,6 +14868,7 @@
   location: Nerano Ancestral Tomb
   content: store:/shots/2017-11-01-nerano-ancestral-tomb.png
   type: shot
+  aspect: 1/1
   author: dehero
   engine: OpenMW
   tags:
@@ -14590,6 +14899,7 @@
   location: Vivec, Guild of Mages
   content: store:/shots/2017-11-02-trebonius-artorius.png
   type: shot
+  aspect: 1/1
   author: dehero
   engine: OpenMW
   tags:
@@ -14617,6 +14927,7 @@
   location: Molag Mar
   content: store:/shots/2017-11-03-a-ship-from-molag-mar.png
   type: shot
+  aspect: 1/1
   author: dehero
   engine: OpenMW
   tags:
@@ -14645,6 +14956,7 @@
   location: Molag Mar, Waistworks
   content: store:/shots/2017-11-04-bottles-and-candles.png
   type: shot
+  aspect: 1/1
   author: dehero
   locating:
     date: 2026-02-22-10-07-50
@@ -14677,6 +14989,7 @@
   location: Balmora
   content: store:/shots/2017-11-05-returning-to-balmora.png
   type: shot
+  aspect: 1/1
   author: dehero
   engine: OpenMW
   tags:
@@ -14769,6 +15082,7 @@
   location: Sheogorad Region
   content: store:/shots/2017-11-06-shore-shroom.png
   type: shot
+  aspect: 1/1
   author: dehero
   locating:
     date: 2026-02-22-13-31-11
@@ -14824,6 +15138,7 @@
   location: Hanud
   content: store:/shots/2017-11-07-corridor-keeper.png
   type: shot
+  aspect: 1/1
   author: dehero
   locating:
     date: 2026-02-22-13-21-46
@@ -14857,6 +15172,7 @@
   location: Seyda Neen, Census and Excise Warehouse
   content: store:/shots/2017-11-08-warehouse-shipping-log.png
   type: shot
+  aspect: 1/1
   author: dehero
   locating:
     date: 2026-02-17-18-52-16
@@ -14893,6 +15209,7 @@
   placement: Outdoors
   content: store:/shots/2017-11-09-ashen-sunset.png
   type: shot
+  aspect: 1/1
   author: dehero
   engine: OpenMW
   mark: A2
@@ -14918,6 +15235,7 @@
   location: Vivec, Hlaalu
   content: store:/shots/2017-11-10-view-of-the-hlaalu-canton.png
   type: shot
+  aspect: 1/1
   author: dehero
   engine: OpenMW
   tags:
@@ -14945,6 +15263,7 @@
   location: Pelagiad, Guard Tower
   content: store:/shots/2017-11-11-pelagiad-guard-tower.png
   type: shot
+  aspect: 1/1
   author: dehero
   engine: OpenMW
   tags:
@@ -14995,6 +15314,7 @@
   placement: Outdoors
   content: store:/shots/2017-11-12-ice-shivers.png
   type: shot
+  aspect: 1/1
   author: dehero
   engine: OpenMW
   addon: Bloodmoon
@@ -15045,6 +15365,7 @@
   location: Bitter Coast Region
   content: store:/shots/2017-11-13-three-guars-at-the-crossroads.png
   type: shot
+  aspect: 1/1
   author: dehero
   engine: OpenMW
   mark: B1
@@ -15098,6 +15419,7 @@
   location: Arkngthand
   content: store:/shots/2017-11-14-the-guard-of-arkngthand.png
   type: shot
+  aspect: 1/1
   author: dehero
   engine: OpenMW
   tags:
@@ -15151,6 +15473,7 @@
   location: Mzahnch
   content: store:/shots/2017-11-15-mzahnch-at-sunset.png
   type: shot
+  aspect: 1/1
   author: dehero
   engine: OpenMW
   tags:
@@ -15207,6 +15530,7 @@
   location: Caldera, Valvius Mevureius' House
   content: store:/shots/2017-11-16-cozy-workplace-in-the-basement.png
   type: shot
+  aspect: 1/1
   author: dehero
   locating:
     date: 2026-02-18-18-33-01
@@ -15260,6 +15584,7 @@
   location: Pelagiad
   content: store:/shots/2017-11-17-pelagiad-descent-to-the-road.png
   type: shot
+  aspect: 1/1
   author: dehero
   engine: OpenMW
   mark: B1
@@ -15285,6 +15610,7 @@
   location: Sheogorad Region
   content: store:/shots/2017-11-18-at-the-edge-of-sheogorad.png
   type: shot
+  aspect: 1/1
   author: dehero
   engine: OpenMW
   tags:
@@ -15372,6 +15698,7 @@
   location: Caldera, Shenk's Shovel
   content: store:/shots/2017-11-19-bottle-collection.png
   type: shot
+  aspect: 1/1
   author: dehero
   locating:
     date: 2026-02-22-09-56-47
@@ -15404,6 +15731,7 @@
   location: Urshilaku, Juno Burial
   content: store:/shots/2017-11-20-soul-of-scamp-in-mummys-hands.png
   type: shot
+  aspect: 1/1
   author: dehero
   locating:
     date: 2026-02-17-18-47-37
@@ -15438,6 +15766,7 @@
   location: Bitter Coast Region
   content: store:/shots/2017-11-21-on-the-roads-of-bitter-coast.png
   type: shot
+  aspect: 1/1
   author: dehero
   engine: OpenMW
   tags:
@@ -15488,6 +15817,7 @@
   location: Red Mountain Region
   content: store:/shots/2017-11-22-at-the-margin.png
   type: shot
+  aspect: 1/1
   author: dehero
   locating:
     date: 2026-02-17-18-35-56
@@ -15517,6 +15847,7 @@
   placement: Outdoors
   content: store:/shots/2017-11-23-riekling-on-the-northern-coast.png
   type: shot
+  aspect: 1/1
   author: dehero
   engine: OpenMW
   addon: Bloodmoon
@@ -15546,6 +15877,7 @@
   location: Grazelands Region
   content: store:/shots/2017-11-24-reeds-of-grazelands.png
   type: shot
+  aspect: 1/1
   author: dehero
   engine: OpenMW
   tags:
@@ -15598,6 +15930,7 @@
   location: Ashinabi
   content: store:/shots/2017-11-25-ashinabi.png
   type: shot
+  aspect: 1/1
   author: dehero
   engine: OpenMW
   mark: A2
@@ -15651,6 +15984,7 @@
   location: Molag Mar, Armigers Stronghold
   content: store:/shots/2017-11-26-in-the-cell-of-vuvil-senim.png
   type: shot
+  aspect: 1/1
   author: dehero
   locating:
     date: 2026-02-17-18-28-59
@@ -15682,6 +16016,7 @@
   location: Ascadian Isles Region
   content: store:/shots/2017-11-27-netch-slowly-swims-over-the-water-surface.png
   type: shot
+  aspect: 1/1
   author: dehero
   engine: OpenMW
   tags:
@@ -15746,6 +16081,7 @@
   location: Mournhold, Temple Courtyard
   content: store:/shots/2017-11-28-evening-mournhold.png
   type: shot
+  aspect: 1/1
   author: dehero
   engine: OpenMW
   addon: Tribunal
@@ -15806,6 +16142,7 @@
   location: Skaal Village, Ingmar's House
   content: store:/shots/2017-11-29-ingmars-house.png
   type: shot
+  aspect: 1/1
   author: dehero
   engine: OpenMW
   addon: Bloodmoon
@@ -15856,6 +16193,7 @@
   location: Maelu Egg Mine
   content: store:/shots/2017-11-30-lava-kwama.png
   type: shot
+  aspect: 1/1
   author: dehero
   locating:
     date: 2026-02-17-18-27-39
@@ -15911,6 +16249,7 @@
   location: Andasreth, Upper Level
   content: store:/shots/2017-12-01-speak-quickly-outlander.png
   type: shot
+  aspect: 1/1
   author: dehero
   locating:
     date: 2026-02-17-18-25-18
@@ -15973,6 +16312,7 @@
   location: Solstheim, Geilir the Mumbling's Dwelling
   content: store:/shots/2017-12-02-overnight-in-the-ice.png
   type: shot
+  aspect: 1/1
   author: dehero
   locating:
     date: 2026-02-21-19-33-40
@@ -16004,6 +16344,7 @@
   location: Ebonheart, Grand Council Chambers
   content: store:/shots/2017-12-03-upper-circles.png
   type: shot
+  aspect: 1/1
   author: dehero
   locating:
     date: 2026-02-22-09-53-34
@@ -16089,6 +16430,7 @@
   location: Nchardumz
   content: store:/shots/2017-12-04-ruins-in-a-mountain-dead-end.png
   type: shot
+  aspect: 1/1
   author: dehero
   locating:
     date: 2026-02-18-18-30-19
@@ -16143,6 +16485,7 @@
   location: Khuul
   content: store:/shots/2017-12-05-in-the-boat-by-the-pier.png
   type: shot
+  aspect: 1/1
   author: dehero
   locating:
     date: 2026-02-17-18-20-19
@@ -16178,6 +16521,7 @@
   location: Vas, Entry Level
   content: store:/shots/2017-12-06-ready-for-a-sermon.png
   type: shot
+  aspect: 1/1
   author: dehero
   locating:
     date: 2026-02-22-10-03-00
@@ -16242,6 +16586,7 @@
     - Grazelands Region
   content: store:/shots/2017-12-07-puzzled-ashlanders.png
   type: shot
+  aspect: 1/1
   author: dehero
   locating:
     date: 2026-02-17-18-18-30
@@ -16321,6 +16666,7 @@
   location: Tel Aruhn, Underground
   content: store:/shots/2017-12-08-lower-circle.png
   type: shot
+  aspect: 1/1
   author: dehero
   locating:
     date: 2026-02-17-18-11-18
@@ -16394,6 +16740,7 @@
     - Bitter Coast Region
   content: store:/shots/2017-12-09-berth-near-grotto.png
   type: shot
+  aspect: 1/1
   author: dehero
   engine: OpenMW
   tags:
@@ -16431,6 +16778,7 @@
   location: Abandoned Shipwreck, Lower Level
   content: store:/shots/2017-12-10-crates-and-pillows.png
   type: shot
+  aspect: 1/1
   author: dehero
   locating:
     date: 2026-02-15-18-47-11
@@ -16490,6 +16838,7 @@
   location: Shrine of Azura
   content: store:/shots/2017-12-11-princess-of-dusk-and-dawn.png
   type: shot
+  aspect: 1/1
   author: dehero
   engine: OpenMW
   tags:
@@ -16544,6 +16893,7 @@
   placement: Outdoors
   content: store:/shots/2017-12-12-roar-of-a-bear.png
   type: shot
+  aspect: 1/1
   author: dehero
   engine: OpenMW
   addon: Bloodmoon
@@ -16572,6 +16922,7 @@
   location: Ald Velothi
   content: store:/shots/2017-12-13-docks-of-ald-velothi.png
   type: shot
+  aspect: 1/1
   author: dehero
   engine: OpenMW
   mark: B1
@@ -16629,11 +16980,12 @@
   location: Skaal Village
   content: store:/shots/2017-12-14-northern-light.png
   type: shot
+  aspect: 1/1
   author: dehero
   locating:
     date: 2026-02-21-19-30-53
     user: pyriglena
-    text: '-20,26, north-east, behind Ingmar''s house'
+    text: "-20,26, north-east, behind Ingmar's house"
   engine: OpenMW
   addon: Bloodmoon
   mark: B2
@@ -16658,6 +17010,7 @@
   placement: Indoors
   content: store:/shots/2017-12-15-burning-pipes-of-arkngthand.png
   type: shot
+  aspect: 1/1
   author: dehero
   engine: OpenMW
   tags:
@@ -16687,6 +17040,7 @@
   location: Ashlands Region
   content: store:/shots/2017-12-16-ashy-hills.png
   type: shot
+  aspect: 1/1
   author: dehero
   locating:
     date: 2026-02-22-12-47-46
@@ -16720,6 +17074,7 @@
   location: Grazelands Region
   content: store:/shots/2017-12-17-sky-of-grazelands-before-the-evening.png
   type: shot
+  aspect: 1/1
   author: dehero
   engine: OpenMW
   tags:
@@ -16774,6 +17129,7 @@
   location: Seyda Neen
   content: store:/shots/2017-12-18-water-ripples.png
   type: shot
+  aspect: 1/1
   author: dehero
   locating:
     date: 2026-02-18-18-22-18
@@ -16805,6 +17161,7 @@
   location: Skaal Village, The Greathall
   content: store:/shots/2017-12-19-chief-tharsten-reflects-by-the-hearth.png
   type: shot
+  aspect: 1/1
   author: dehero
   locating:
     date: 2026-02-21-18-57-02
@@ -16836,6 +17193,7 @@
   location: Grazelands Region
   content: store:/shots/2017-12-20-athanden-girith-grieves-over-the-stolen-hides.png
   type: shot
+  aspect: 1/1
   author: dehero
   locating:
     date: 2026-02-15-18-43-44
@@ -16868,6 +17226,7 @@
   location: Raven Rock
   content: store:/shots/2017-12-21-miners-slide.png
   type: shot
+  aspect: 1/1
   author: dehero
   engine: OpenMW
   addon: Bloodmoon
@@ -16900,6 +17259,7 @@
   location: Indoranyon
   content: store:/shots/2017-12-22-note-to-telvon.png
   type: shot
+  aspect: 1/1
   author: dehero
   locating:
     date: 2026-02-22-09-51-35
@@ -16954,6 +17314,7 @@
   location: Seyda Neen
   content: store:/shots/2017-12-23-secret-love.png
   type: shot
+  aspect: 1/1
   author: dehero
   engine: OpenMW
   mark: A2
@@ -16980,6 +17341,7 @@
   location: Mournhold, Great Bazaar
   content: store:/shots/2017-12-24-little-helper.png
   type: shot
+  aspect: 1/1
   author: dehero
   engine: OpenMW
   addon: Tribunal
@@ -17012,6 +17374,7 @@
   location: Vivec, Hall of Wisdom
   content: store:/shots/2017-12-25-corridors-of-tribunal.png
   type: shot
+  aspect: 1/1
   author: dehero
   locating:
     date: 2026-02-15-18-39-29
@@ -17046,6 +17409,7 @@
     - Ashalmawia
   content: store:/shots/2017-12-26-with-a-view-of-ashalmawia.png
   type: shot
+  aspect: 1/1
   author: dehero
   engine: OpenMW
   mark: B2
@@ -17071,6 +17435,7 @@
   location: Nchurdamz
   content: store:/shots/2017-12-27-entrance-to-nchurdamz.png
   type: shot
+  aspect: 1/1
   author: dehero
   engine: OpenMW
   tags:
@@ -17098,6 +17463,7 @@
   location: Dagon Fel, End of the World Renter Rooms
   content: store:/shots/2017-12-28-triple-storage.png
   type: shot
+  aspect: 1/1
   author: dehero
   locating:
     date: 2026-02-16-19-41-10
@@ -17156,6 +17522,7 @@
     - Molag Amur Region
   content: store:/shots/2017-12-29-crab-creek.png
   type: shot
+  aspect: 1/1
   author: dehero
   locating:
     date: 2026-02-18-18-03-28
@@ -17187,6 +17554,7 @@
   location: Ald Daedroth, Inner Shrine
   content: store:/shots/2017-12-30-time-to-meet-the-ancestors.png
   type: shot
+  aspect: 1/1
   author: dehero
   engine: OpenMW
   tags:
@@ -17217,6 +17585,7 @@
   location: Mournhold, Temple Courtyard
   content: store:/shots/2017-12-31-night-rendezvous.png
   type: shot
+  aspect: 1/1
   author: dehero
   engine: OpenMW
   addon: Tribunal
