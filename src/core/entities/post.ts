@@ -124,7 +124,6 @@ interface PostTypeDescriptor {
   titleMultiple: string;
   titleMultipleRu: string;
   letter: string;
-  aspectRatio?: PostAspectRatio[];
   strict?: boolean;
   topicId: string;
 }
@@ -200,7 +199,6 @@ export const postTypeDescriptors = Object.freeze<Record<PostType, PostTypeDescri
     titleMultiple: 'Shots',
     titleMultipleRu: 'Кадры',
     letter: 'S',
-    aspectRatio: ['1/1', '1.5/1'],
     strict: true,
     topicId: 'shot',
   },
@@ -210,7 +208,6 @@ export const postTypeDescriptors = Object.freeze<Record<PostType, PostTypeDescri
     titleMultiple: 'Compilations',
     titleMultipleRu: 'Подборки',
     letter: 'H',
-    aspectRatio: ['1/1', '1.5/1', '16/9', '9/19.5'],
     strict: true,
     topicId: 'shot-set',
   },
@@ -220,7 +217,6 @@ export const postTypeDescriptors = Object.freeze<Record<PostType, PostTypeDescri
     titleMultiple: 'Videos',
     titleMultipleRu: 'Видео',
     letter: 'V',
-    aspectRatio: ['16/9'],
     strict: true,
     topicId: 'video',
   },
@@ -230,7 +226,6 @@ export const postTypeDescriptors = Object.freeze<Record<PostType, PostTypeDescri
     titleMultiple: 'Clips',
     titleMultipleRu: 'Клипы',
     letter: 'C',
-    aspectRatio: ['1/1', '9/16'],
     strict: true,
     topicId: 'clip',
   },
@@ -248,7 +243,6 @@ export const postTypeDescriptors = Object.freeze<Record<PostType, PostTypeDescri
     titleMultiple: 'Wallpapers',
     titleMultipleRu: 'Обои',
     letter: 'W',
-    aspectRatio: ['16/9', '9/19.5'],
     strict: true,
     topicId: 'wallpaper',
   },

@@ -4,6 +4,7 @@ import { dateToString, formatDate, isDateInRange, isValidDate } from '../utils/d
 import type { DataManager } from './data-manager.js';
 import type { ListReaderItemStatus } from './list-manager.js';
 import { isNestedLocation } from './location.js';
+import { aspectRatioToReadableText } from './media.js';
 import type { Option } from './option.js';
 import { ANY_OPTION, NONE_OPTION } from './option.js';
 import type {
@@ -112,6 +113,7 @@ export interface SelectPostInfosParams {
   date?: DateRange;
   status?: ListReaderItemStatus | typeof ANY_OPTION.value | typeof NONE_OPTION.value;
   addon?: PostAddon | typeof ANY_OPTION.value | typeof NONE_OPTION.value;
+  aspect?: PostAspectRatio;
 }
 
 export type PostInfoSelection = EntitySelection<PostInfo, SelectPostInfosParams>;
@@ -301,6 +303,7 @@ export const selectPostInfos = (
           (params.addon === NONE_OPTION.value && !info.addon) ||
           info.addon === params.addon) &&
         (typeof params.type === 'undefined' || info.type === params.type) &&
+        (typeof params.aspect === 'undefined' || info.aspect === params.aspect) &&
         (typeof params.tag === 'undefined' || info.tags?.includes(params.tag)) &&
         (typeof params.author === 'undefined' || info.authorOptions.some((option) => option.value === params.author)) &&
         (typeof params.locator === 'undefined' ||
@@ -352,6 +355,10 @@ export function selectPostInfosResultToString(count: number, params: SelectPostI
     result.push((count !== 1 ? titleMultiple : title).toLocaleLowerCase());
   } else {
     result.push(`post${count !== 1 ? 's' : ''}`);
+  }
+
+  if (params.aspect) {
+    result.push(`with "${aspectRatioToReadableText(params.aspect)}" aspect ratio`);
   }
 
   if (typeof params.official !== 'undefined') {

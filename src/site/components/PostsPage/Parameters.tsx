@@ -3,10 +3,12 @@ import clsx from 'clsx';
 import { type Component, createMemo, createSignal, Match, onMount, Show, Switch } from 'solid-js';
 import { ListReaderItemStatus } from '../../../core/entities/list-manager.js';
 import type { LocationInfo } from '../../../core/entities/location-info.js';
+import { aspectRatioToReadableText } from '../../../core/entities/media.js';
 import type { Option } from '../../../core/entities/option.js';
 import { ALL_OPTION, ANY_OPTION, NONE_OPTION } from '../../../core/entities/option.js';
 import {
   PostAddon,
+  PostAspectRatio,
   PostMark,
   PostPlacement,
   PostViolation,
@@ -313,6 +315,23 @@ export const Parameters: Component<ParametersProps> = (props) => {
                       options={props.parameters.typeOptions()}
                       value={props.parameters.type()}
                       onChange={props.parameters.setType}
+                      class={styles.select}
+                    />
+                  </div>
+                </Label>
+              </Show>
+
+              <Show when={!props.routeInfo.meta().filters || props.routeInfo.meta().filters!.includes('aspect')}>
+                <Label label="Aspect Ratio" labelClass={styles.labelWithFixedWidth}>
+                  <div class={styles.selectWrapper}>
+                    <RadioGroup
+                      name="aspect"
+                      options={[
+                        ALL_OPTION,
+                        ...PostAspectRatio.options.map((value) => ({ label: aspectRatioToReadableText(value), value })),
+                      ]}
+                      value={props.parameters.aspect()}
+                      onChange={props.parameters.setAspect}
                       class={styles.select}
                     />
                   </div>

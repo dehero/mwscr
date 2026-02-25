@@ -50,3 +50,11 @@ export function getLimitedAspectRatio(
 
   return aspectRatioFromSize(width, height);
 }
+
+export function aspectRatioToReadableText(aspectRatio: MediaAspectRatio | undefined) {
+  if (!aspectRatio) {
+    return;
+  }
+
+  return aspectRatio.replace('/', ':');
+}

@@ -3,6 +3,7 @@ import type { Option } from '../../../../core/entities/option.js';
 import { ALL_OPTION, ANY_OPTION, NONE_OPTION } from '../../../../core/entities/option.js';
 import {
   PostAddon,
+  PostAspectRatio,
   PostMark,
   PostPlacement,
   PostType,
@@ -39,6 +40,7 @@ const emptySearchParams: PostsPageSearchParams = {
   date: undefined,
   status: undefined,
   addon: undefined,
+  aspect: undefined,
 };
 
 interface PostsPagePreset extends Option {
@@ -87,6 +89,7 @@ export type FilterKey = keyof Pick<
   | 'placement'
   | 'addon'
   | 'official'
+  | 'aspect'
 >;
 
 export function usePostsPageParameters(routeInfo: SiteRouteInfo<PostsPageParams, unknown, PostsPageInfo>) {
@@ -140,6 +143,7 @@ export function usePostsPageParameters(routeInfo: SiteRouteInfo<PostsPageParams,
   const sortDirection = () => (searchParams().sort?.split(',')[1] === 'asc' ? 'asc' : 'desc');
   const search = () => searchParams().search;
   const preset = () => presetOptions().find((preset) => isObjectEqual(preset.searchParams, searchParams()))?.value;
+  const aspect = () => safeParseSchema(PostAspectRatio, searchParams().aspect);
 
   const date = (): DateRange | undefined => (searchParams().date ? stringToDateRange(searchParams().date!) : undefined);
   const status = () =>
@@ -180,6 +184,7 @@ export function usePostsPageParameters(routeInfo: SiteRouteInfo<PostsPageParams,
   const setStatus = (status: SelectPostInfosParams['status'] | undefined) => setSearchParams({ status });
   const setPlacement = (placement: SelectPostInfosParams['placement'] | undefined) => setSearchParams({ placement });
   const setAddon = (addon: SelectPostInfosParams['addon'] | undefined) => setSearchParams({ addon });
+  const setAspect = (aspect: PostAspectRatio | undefined) => setSearchParams({ aspect });
 
   return {
     sortOptions,
@@ -204,6 +209,7 @@ export function usePostsPageParameters(routeInfo: SiteRouteInfo<PostsPageParams,
     status,
     placement,
     addon,
+    aspect,
     setPreset,
     setOfficial,
     setOriginal,
@@ -223,6 +229,7 @@ export function usePostsPageParameters(routeInfo: SiteRouteInfo<PostsPageParams,
     setStatus,
     setPlacement,
     setAddon,
+    setAspect,
     activeCount,
   };
 }

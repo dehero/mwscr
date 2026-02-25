@@ -108,6 +108,7 @@ export const PostsPage = (): JSX.Element => {
     status: parameters.status(),
     placement: parameters.placement(),
     addon: parameters.addon(),
+    aspect: parameters.aspect(),
   });
 
   const [postInfos, { refetch }] = createResource(selectParams, (selectParams) =>

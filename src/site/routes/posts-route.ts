@@ -25,6 +25,7 @@ export const postsRouteInfos: Record<PostsManagerName, PostsPageInfo> = {
       'placement',
       'addon',
       'official',
+      'aspect',
     ],
     typeKeys: PostType.options.filter((type) => postTypeDescriptors[type].strict),
   },
@@ -34,7 +35,7 @@ export const postsRouteInfos: Record<PostsManagerName, PostsPageInfo> = {
     description: 'Extras of Morrowind Screenshots project.',
     presetKeys: ['edits'],
     typeKeys: PostType.options.filter((type) => !postTypeDescriptors[type].strict),
-    filters: ['date', 'author', 'original', 'tag', 'type', 'status'],
+    filters: ['date', 'author', 'original', 'tag', 'type', 'status', 'aspect'],
   },
   drafts: {
     label: 'Drafts',
@@ -56,6 +57,7 @@ export const postsRouteInfos: Record<PostsManagerName, PostsPageInfo> = {
       'placement',
       'addon',
       'official',
+      'aspect',
     ],
   },
   rejects: {
@@ -64,7 +66,19 @@ export const postsRouteInfos: Record<PostsManagerName, PostsPageInfo> = {
     description: 'Rejected posts of Morrowind Screenshots project.',
     sortKeys: ['date', 'id'],
     presetKeys: ['revisit', 'violations', 'edits'],
-    filters: ['date', 'mark', 'violation', 'location', 'tag', 'type', 'author', 'status', 'placement', 'addon'],
+    filters: [
+      'date',
+      'mark',
+      'violation',
+      'location',
+      'tag',
+      'type',
+      'author',
+      'status',
+      'placement',
+      'addon',
+      'aspect',
+    ],
   },
 };
 

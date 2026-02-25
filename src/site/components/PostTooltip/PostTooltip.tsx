@@ -1,5 +1,6 @@
 import { type Component, For, Show, splitProps } from 'solid-js';
 import { createMemo } from 'solid-js';
+import { aspectRatioToReadableText } from '../../../core/entities/media.js';
 import { getPostDateById, postTypeDescriptors, postViolationDescriptors } from '../../../core/entities/post.js';
 import type { PostAction } from '../../../core/entities/post-action.js';
 import type { PostInfo } from '../../../core/entities/post-info.js';
@@ -146,6 +147,12 @@ export const PostTooltip: Component<PostTooltipProps> = (props) => {
             <PostTypeGlyph type={local.postInfo.type} />
           </Icon>
           {postTypeDescriptors[local.postInfo.type].title}
+        </span>
+      </Show>
+      <Show when={local.postInfo.aspect}>
+        <span class={styles.type}>
+          {'Aspect Ratio: '}
+          {aspectRatioToReadableText(local.postInfo.aspect)}
         </span>
       </Show>
       <Show when={local.postInfo.authorOptions.length}>
