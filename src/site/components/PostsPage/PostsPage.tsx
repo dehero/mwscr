@@ -142,7 +142,11 @@ export const PostsPage = (): JSX.Element => {
               <div class={styles.selectedPosts}>
                 <For each={selectedPostInfos()}>
                   {(postInfo) => (
-                    <PostContentPreview content={postInfo.content} type={postInfo.type} class={styles.selectedPost} />
+                    <PostContentPreview
+                      content={postInfo.content}
+                      aspectRatio={postInfo.aspect}
+                      class={styles.selectedPost}
+                    />
                   )}
                 </For>
               </div>

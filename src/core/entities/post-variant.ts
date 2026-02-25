@@ -11,11 +11,11 @@ export const Shot = object({
   content: LosslessImageResourceUrl,
 });
 
-export const ShotSet = object({
-  type: literal('shot-set'),
+export const Compilation = object({
+  type: literal('compilation'),
   content: tuple(
     [LosslessImageResourceUrl, LosslessImageResourceUrl, LosslessImageResourceUrl, LosslessImageResourceUrl],
-    'Should be 4 shot resources',
+    'Should be 4 resources',
   ),
 });
 
@@ -26,11 +26,6 @@ export const Redrawing = object({
 
 export const Wallpaper = object({
   type: literal('wallpaper'),
-  content: LosslessImageResourceUrl,
-});
-
-export const VerticalWallpaper = object({
-  type: literal('wallpaper-v'),
   content: LosslessImageResourceUrl,
 });
 
@@ -80,12 +75,11 @@ export const Merch = object({
 
 export const PostVariant = variant('type', [
   Shot,
-  ShotSet,
+  Compilation,
   Redrawing,
   Video,
   Clip,
   Wallpaper,
-  VerticalWallpaper,
   News,
   Mention,
   Photoshop,

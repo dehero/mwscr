@@ -3,14 +3,13 @@ import { intersect, nonEmpty, object, pipe, string, variant } from 'valibot';
 import { Post, PostTitle } from '../entities/post.js';
 import {
   Achievement,
+  Compilation,
   Mention,
   News,
   Outtakes,
   Photoshop,
   Redrawing,
   Shot,
-  ShotSet,
-  VerticalWallpaper,
   Wallpaper,
 } from '../entities/post-variant.js';
 import { Publication } from '../entities/publication.js';
@@ -23,18 +22,7 @@ export const INSTAGRAM_USERNAME = 'mwscr';
 
 export const InstagramPost = intersect([
   object({ ...Post.entries, title: PostTitle }),
-  variant('type', [
-    Redrawing,
-    Shot,
-    ShotSet,
-    Wallpaper,
-    VerticalWallpaper,
-    Outtakes,
-    News,
-    Photoshop,
-    Mention,
-    Achievement,
-  ]),
+  variant('type', [Redrawing, Shot, Compilation, Wallpaper, Outtakes, News, Photoshop, Mention, Achievement]),
 ]);
 
 export const InstagramPublication = object({ ...Publication.entries, id: pipe(string(), nonEmpty()) });

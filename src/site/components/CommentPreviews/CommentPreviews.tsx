@@ -50,7 +50,11 @@ const Group: Component<GroupProps> = (props) => {
         {(postInfo) => (
           <>
             <a class={styles.preview} href={url()} ref={setPreviewRef}>
-              <PostContentPreview content={postInfo().content} type={postInfo().type} maxHeightMultiplier={1} />
+              <PostContentPreview
+                content={postInfo().content}
+                aspectRatio={postInfo().aspect}
+                maxHeightMultiplier={1}
+              />
             </a>
             <a class={styles.title} href={url()} ref={setTitleRef}>
               {postInfo().title}

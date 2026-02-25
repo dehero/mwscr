@@ -21,12 +21,13 @@ const videoResourceRules: ResourceRule[] = [
 ];
 
 // TODO: use validations before posting or on data validation
+// TODO: handle multiple aspect ratios for post type
 export const validatingScenarios: Array<ValidatingScenario> = [
   ['shot', imageResourceRules, shotMediaRules],
-  ['shot-set', imageResourceRules, shotMediaRules],
+  ['compilation', imageResourceRules, shotMediaRules],
   ['redrawing', imageResourceRules, shotMediaRules],
   ['clip', videoResourceRules, [needAspectRatio('1/1'), needMinWidth(1080), needMinHeight(1080)]],
   ['video', videoResourceRules, [needAspectRatio('16/9'), needMinWidth(1920), needMinHeight(1080)]],
   ['wallpaper', imageResourceRules, [needAspectRatio('16/9'), needMinWidth(1920), needMinHeight(1080)]],
-  ['wallpaper-v', imageResourceRules, [needAspectRatio('9/19.5'), needMinWidth(1080), needMinHeight(2340)]],
+  // ['wallpaper-v', imageResourceRules, [needAspectRatio('9/19.5'), needMinWidth(1080), needMinHeight(2340)]],
 ];

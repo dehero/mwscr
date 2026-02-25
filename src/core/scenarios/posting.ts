@@ -84,13 +84,13 @@ const shot: PostingScenario = {
   ],
 };
 
-const shotSet: PostingScenario = {
+const compilation: PostingScenario = {
   title: 'shot-set',
   sourceManagers: ['drafts'],
   targetManager: 'posts',
   postingRules: [afterHour(18), lastPostedDaysAgo(1)],
   postCandidateRules: [
-    needCertainType('shot-set'),
+    needCertainType('compilation'),
     needMinTypeDistance(7),
     needMinContentDistance(91),
     needMinThirdPartyDistance(7),
@@ -103,7 +103,7 @@ const wallpaper: PostingScenario = {
   targetManager: 'posts',
   postingRules: [afterHour(18), lastPostedDaysAgo(1)],
   postCandidateRules: [
-    needCertainType('wallpaper', 'wallpaper-v'),
+    needCertainType('wallpaper'),
     // needMinTypeDistance(7),
     needMinTypeDistance(1),
     needMinContentDistance(365),
@@ -117,7 +117,7 @@ export const postingScenarios: PostingScenario[] = [
   news,
   achievement,
   wallpaper,
-  shotSet,
+  compilation,
   shot,
   redrawing,
 ];

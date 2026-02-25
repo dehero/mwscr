@@ -2,8 +2,7 @@ import clsx from 'clsx';
 import type { Component, JSX } from 'solid-js';
 import { For, Match, Show, Switch } from 'solid-js';
 import { getLimitedAspectRatio } from '../../../core/entities/media.js';
-import type { PostContent, PostType } from '../../../core/entities/post.js';
-import { postTypeDescriptors } from '../../../core/entities/post.js';
+import type { PostAspectRatio, PostContent } from '../../../core/entities/post.js';
 import { asArray } from '../../../core/utils/common-utils.js';
 import type { FrameState } from '../Frame/Frame.jsx';
 import { ResourcePreview } from '../ResourcePreview/ResourcePreview.jsx';
@@ -11,7 +10,7 @@ import styles from './PostContentPreview.module.css';
 
 export interface PostContentPreviewProps {
   content: PostContent | undefined;
-  type: PostType;
+  aspectRatio: PostAspectRatio | undefined;
   minHeightMultiplier?: number;
   maxHeightMultiplier?: number;
   alt?: string;
@@ -23,14 +22,10 @@ export interface PostContentPreviewProps {
 export const PostContentPreview: Component<PostContentPreviewProps> = (props) => {
   const content = () => asArray(props.content).slice(0, 4);
   const aspectRatio = () =>
-    postTypeDescriptors[props.type].aspectRatio
-      ? getLimitedAspectRatio(
-          postTypeDescriptors[props.type].aspectRatio!,
-          props.minHeightMultiplier,
-          props.maxHeightMultiplier,
-        )
+    props.aspectRatio
+      ? getLimitedAspectRatio(props.aspectRatio, props.minHeightMultiplier, props.maxHeightMultiplier)
       : undefined;
-  const alignCrop = () => (postTypeDescriptors[props.type].aspectRatio ? 'center' : 'top');
+  const alignCrop = () => (props.aspectRatio ? 'center' : 'top');
 
   return (
     <Show when={content().length > 0} fallback={props.fallback}>
