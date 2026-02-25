@@ -5,6 +5,7 @@ import type { JSX } from 'solid-js';
 import { createEffect, createMemo, createResource, createSignal, Match, onMount, Show, Switch } from 'solid-js';
 import { navigate } from 'vike/client/router';
 import { usePageContext } from 'vike-solid/usePageContext';
+import { aspectRatioToReadableText } from '../../../core/entities/media.js';
 import { getPostDateById, postTypeDescriptors, postViolationDescriptors } from '../../../core/entities/post.js';
 import type { PostAction } from '../../../core/entities/post-action.js';
 import { createPostPath, postsManagerDescriptors } from '../../../core/entities/posts-manager.js';
@@ -443,6 +444,11 @@ export const PostPage = (): JSX.Element => {
                       </>
                     ),
                     link: postsRoute.createUrl({ managerName: params().managerName, type: postInfo().type }),
+                  },
+                  {
+                    label: 'Aspect Ratio',
+                    value: aspectRatioToReadableText(postInfo().aspect),
+                    link: postsRoute.createUrl({ managerName: params().managerName, aspect: postInfo().aspect }),
                   },
                   ...postInfo().authorOptions.map(
                     (option): TableRow => ({
