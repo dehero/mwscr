@@ -14,6 +14,7 @@ import {
 } from 'solid-js';
 import type { InferOutput } from 'valibot';
 import { picklist } from 'valibot';
+import { aspectRatioToReadableText } from '../../../core/entities/media.js';
 import type { Option } from '../../../core/entities/option.js';
 import { EMPTY_OPTION } from '../../../core/entities/option.js';
 import type { Patch } from '../../../core/entities/patch.js';
@@ -27,6 +28,7 @@ import {
   mergePostWith,
   PostAddon,
   postAddonDescriptors,
+  PostAspectRatio,
   PostEngine,
   PostMark,
   PostPlacement,
@@ -92,6 +94,7 @@ export const postDialogPresetDescriptors = Object.freeze<Record<PostDialogPreset
       'violation',
       'request',
       'created',
+      'aspect',
     ],
     features: ['useColumnLayout', 'addContent'],
   },
@@ -113,6 +116,7 @@ export const postDialogPresetDescriptors = Object.freeze<Record<PostDialogPreset
       'mark',
       'request',
       'created',
+      'aspect',
     ],
     features: ['previewContent'],
   },
@@ -531,6 +535,26 @@ export const PostDialog: Component<PostDialogProps> = (props) => {
                         options={PostType.options.map((value) => ({ label: postTypeDescriptors[value].title, value }))}
                         value={post().type}
                         onChange={(value) => setPatchField('type', value)}
+                        class={styles.select}
+                      />
+                    </div>
+                  </Label>
+                </Show>
+
+                <Show when={preset().fields.includes('aspect')}>
+                  <Label label="Aspect Ratio" vertical>
+                    <div class={styles.selectWrapper}>
+                      <Select
+                        name="aspect"
+                        options={[
+                          EMPTY_OPTION,
+                          ...PostAspectRatio.options.map((value) => ({
+                            label: aspectRatioToReadableText(value),
+                            value,
+                          })),
+                        ]}
+                        value={post().aspect}
+                        onChange={(value) => setPatchField('aspect', value)}
                         class={styles.select}
                       />
                     </div>

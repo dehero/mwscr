@@ -26,6 +26,7 @@ export interface PostsPageSearchParams {
   date?: string;
   status?: string;
   addon?: string;
+  aspect?: string;
 }
 
 export interface PostsPageParams extends SiteRouteParams, PostsPageSearchParams {
@@ -68,6 +69,7 @@ export function getPostsPageSearchParamsFromSelectionParams(
     date: unknownToString(params.date ? dateRangeToString(params.date) : undefined),
     status: unknownToString(params.status),
     addon: unknownToString(params.addon),
+    aspect: unknownToString(params.aspect),
   });
 }
 
