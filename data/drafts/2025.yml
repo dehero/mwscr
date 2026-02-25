@@ -17,25 +17,30 @@ anonimous.2025-10-21-10-55-14:
 dehero.2025-01-19-18-35-14:
   content: store:/inbox/dehero.2025-01-19-18-35-14.png
   type: shot
+  aspect: 1/1
   author: dehero
 dehero.2025-03-12-19-59-02:
   content: store:/inbox/dehero.2025-03-12-19-59-02.1.png
   trash: store:/inbox/dehero.2025-03-12-19-59-02.png
   type: shot
+  aspect: 1/1
   author: dehero
 dehero.2025-03-12-20-11-51:
   content: store:/inbox/dehero.2025-03-12-20-11-51.png
   type: shot
+  aspect: 1/1
   author: dehero
 dehero.2025-03-27-19-53-45:
   content: store:/inbox/dehero.2025-03-27-19-53-45.png
   type: shot
+  aspect: 1/1
   author: dehero
 dehero.2025-03-27-20-02-45:
   content:
     - store:/inbox/dehero.2025-03-27-20-02-45.png
     - store:/inbox/dehero.2025-03-27-20-01-57.png
   type: shot
+  aspect: 1/1
   author: dehero
   addon: Bloodmoon
 dehero.2025-04-10-20-14-32:
@@ -44,10 +49,12 @@ dehero.2025-04-10-20-14-32:
     - store:/inbox/dehero.2025-04-10-20-14-32.png
     - store:/inbox/dehero.2025-04-10-20-14-14.png
   type: shot
+  aspect: 1/1
   author: dehero
   addon: Tamriel Rebuilt
 dehero.2025-05-23-e1e29151:
   type: shot
+  aspect: 1/1
   request:
     date: 2025-05-23-10-18-12
     user: dehero
@@ -62,6 +69,7 @@ dehero.2025-06-01-15-06-11:
     - store:/inbox/dehero.2025-06-01-15-06-17.png
     - store:/inbox/dehero.2025-06-01-15-06-47.png
   type: shot
+  aspect: 1/1
   author: dehero
 dehero.2025-06-01-15-17-14:
   content: store:/inbox/dehero.2025-06-01-15-17-14.png
@@ -75,6 +83,7 @@ dehero.2025-06-01-15-22-03:
     - store:/inbox/dehero.2025-06-01-15-23-01.png
     - store:/inbox/dehero.2025-06-01-15-22-17.png
   type: shot
+  aspect: 1/1
   author: dehero
   engine: OpenMW
 dehero.2025-06-01-15-28-59:
@@ -82,6 +91,7 @@ dehero.2025-06-01-15-28-59:
   location: Molag Amur Region
   content: store:/inbox/dehero.2025-06-01-15-28-59.png
   type: shot
+  aspect: 1/1
   author: dehero
   engine: OpenMW
 dehero.2025-06-04-19-35-19:
@@ -92,21 +102,25 @@ dehero.2025-06-04-19-35-19:
     - store:/inbox/dehero.2025-06-04-19-35-57.png
     - store:/inbox/dehero.2025-06-04-19-36-32.png
   type: shot
+  aspect: 1/1
   author: dehero
   engine: OpenMW
 dehero.2025-06-04-19-39-55:
   content: store:/inbox/dehero.2025-06-04-19-39-55.png
   type: shot
+  aspect: 1/1
   author: dehero
 dehero.2025-06-04-19-40-36:
   content: store:/inbox/dehero.2025-06-04-19-40-36.png
   type: shot
+  aspect: 1/1
   author: dehero
 dehero.2025-06-04-19-41-07:
   content:
     - store:/inbox/dehero.2025-06-04-19-41-07.1.png
     - store:/inbox/dehero.2025-06-04-19-41-07.png
   type: shot
+  aspect: 1/1
   author: dehero
 dehero.2025-06-04-19-42-46:
   placement: Indoors
@@ -116,6 +130,7 @@ dehero.2025-06-04-19-42-46:
     - store:/inbox/dehero.2025-06-04-19-43-22.png
     - store:/inbox/dehero.2025-06-04-19-42-46.1.png
   type: shot
+  aspect: 1/1
   author: dehero
 dehero.2025-06-04-19-48-48:
   title: Naris Selaren
@@ -127,6 +142,7 @@ dehero.2025-06-04-19-48-48:
     - store:/inbox/dehero.2025-06-04-19-48-55.png
     - store:/inbox/dehero.2025-06-04-19-49-17.png
   type: shot
+  aspect: 1/1
   author: dehero
   engine: OpenMW
 dehero.2025-06-04-19-51-16:
@@ -138,6 +154,7 @@ dehero.2025-06-04-19-51-16:
     - store:/inbox/dehero.2025-06-04-19-50-46.png
     - store:/inbox/dehero.2025-06-04-19-49-44.png
   type: shot
+  aspect: 1/1
   author: dehero
   engine: OpenMW
 dehero.2025-06-04-19-53-43:
@@ -148,14 +165,17 @@ dehero.2025-06-04-19-53-43:
     - store:/inbox/dehero.2025-06-04-19-53-40.png
     - store:/inbox/dehero.2025-06-04-19-53-34.png
   type: shot
+  aspect: 1/1
   author: dehero
 dehero.2025-08-26-22-38-26:
   content: store:/inbox/dehero.2025-08-26-22-38-26.png
   type: shot
+  aspect: 1/1
   author: dehero
 dehero.2025-08-26-22-39-08:
   content: store:/inbox/dehero.2025-08-26-22-39-08.png
   type: shot
+  aspect: 1/1
   author: dehero
 dehero.2025-12-18-20-02-46:
   content:
@@ -164,6 +184,7 @@ dehero.2025-12-18-20-02-46:
     - store:/inbox/dehero.2025-12-18-20-03-35.png
     - store:/inbox/dehero.2025-12-18-20-09-00.png
   type: shot
+  aspect: 1/1
   author: dehero
 dehero.2025-12-18-20-23-38:
   content:
@@ -171,14 +192,17 @@ dehero.2025-12-18-20-23-38:
     - store:/inbox/dehero.2025-12-18-20-23-32.png
     - store:/inbox/dehero.2025-12-18-20-22-11.png
   type: shot
+  aspect: 1/1
   author: dehero
 dehero.2025-12-18-20-30-20:
   content: store:/inbox/dehero.2025-12-18-20-30-20.png
   type: shot
+  aspect: 1/1
   author: dehero
 dehero.2025-12-18-20-34-25:
   content: store:/inbox/dehero.2025-12-18-20-34-25.png
   type: shot
+  aspect: 1/1
   author: dehero
 kaltesblut.2025-09-30-morrowind-19-13-59-306-057fd61f:
   title: Morrowind 19.13.59.306
@@ -192,20 +216,24 @@ lwumbazavr.2025-10-29-24-fcab3f1d:
   title: '24'
   content: store:/inbox/lwumbazavr.2025-10-29-24-fcab3f1d.png
   type: shot
+  aspect: 1/1
   author: lwumbazavr
 lwumbazavr.2025-10-29-img-202001-1-d1dd43ee:
   title: Img 202001-1
   content: store:/inbox/lwumbazavr.2025-10-29-img-202001-1-d1dd43ee.png
   type: shot
+  aspect: 1/1
   author: lwumbazavr
 lwumbazavr.2025-10-29-img-202026-9ee69470:
   title: Img 202026
   content: store:/inbox/lwumbazavr.2025-10-29-img-202026-9ee69470.png
   type: shot
+  aspect: 1/1
   author: lwumbazavr
 natty.2025-12-22-20-50-26:
   content: store:/inbox/natty.2025-12-22-20-50-26.png
   type: shot
+  aspect: 1/1
   author: natty
 ohsweetnazareth.2025-02-20-ash-statue-in-maran-adon:
   title: Ash Statue in Maran-Adon
@@ -232,6 +260,7 @@ ohsweetnazareth.2025-11-19-karstaag-the-huntsman-939aa544:
   title: Karstaag the Huntsman
   content: store:/inbox/ohsweetnazareth.2025-11-19-karstaag-the-huntsman-939aa544.png
   type: shot
+  aspect: 1/1
   author: ohsweetnazareth
 ohsweetnazareth.2025-11-22-lord-of-domination-a83045cc:
   title: Lord of Domination
@@ -239,16 +268,19 @@ ohsweetnazareth.2025-11-22-lord-of-domination-a83045cc:
     - store:/inbox/ohsweetnazareth.2025-11-22-lord-of-domination-a83045cc.png
     - store:/inbox/ohsweetnazareth.2025-11-22-in-the-grasp-of-the-lord-of-troubles-b16a512d.png
   type: shot
+  aspect: 1/1
   author: ohsweetnazareth
 ohsweetnazareth.2025-11-25-in-the-carcass-of-ilunibi-1322ced7:
   title: In the Carcass of Ilunibi
   content: store:/inbox/ohsweetnazareth.2025-11-25-in-the-carcass-of-ilunibi-1322ced7.png
   type: shot
+  aspect: 1/1
   author: ohsweetnazareth
 ohsweetnazareth.2025-11-25-in-the-carcass-of-ilunibi-1980bfb3:
   title: In the Carcass of Ilunibi
   content: store:/inbox/ohsweetnazareth.2025-11-25-in-the-carcass-of-ilunibi-1980bfb3.png
   type: shot
+  aspect: 1/1
   author: ohsweetnazareth
 ohsweetnazareth.2025-11-25-in-the-carcass-of-ilunibi-2-0e9bc72c:
   title: In the Carcass of Ilunibi 2
@@ -256,16 +288,19 @@ ohsweetnazareth.2025-11-25-in-the-carcass-of-ilunibi-2-0e9bc72c:
     - store:/inbox/ohsweetnazareth.2025-11-25-in-the-carcass-of-ilunibi-2-0e9bc72c.png
     - store:/inbox/ohsweetnazareth.2025-11-25-in-the-carcass-of-ilunibi-2-0e4c4e98.png
   type: shot
+  aspect: 1/1
   author: ohsweetnazareth
 ohsweetnazareth.2025-11-25-nighttime-at-moonmoth-legion-fort-29b64059:
   title: Nighttime at Moonmoth Legion Fort
   content: store:/inbox/ohsweetnazareth.2025-11-25-nighttime-at-moonmoth-legion-fort-29b64059.png
   type: shot
+  aspect: 1/1
   author: ohsweetnazareth
 ohsweetnazareth.2025-11-26-glassware-in-molag-mar-waistworks-4786b048:
   title: Glassware in Molag Mar Waistworks
   content: store:/inbox/ohsweetnazareth.2025-11-26-glassware-in-molag-mar-waistworks-4786b048.png
   type: shot
+  aspect: 1/1
   author: ohsweetnazareth
 ohsweetnazareth.2025-11-26-publican-in-molag-mar-928768ed:
   title: Publican in Molag Mar
@@ -273,11 +308,13 @@ ohsweetnazareth.2025-11-26-publican-in-molag-mar-928768ed:
     - store:/inbox/ohsweetnazareth.2025-11-26-publican-in-molag-mar-928768ed.png
     - store:/inbox/ohsweetnazareth.2025-11-26-publican-in-molag-mar-928768ed.1.png
   type: shot
+  aspect: 1/1
   author: ohsweetnazareth
 ohsweetnazareth.2025-11-26-secrets-within-telasero-88e6c47f:
   title: Secrets Within Telasero
   content: store:/inbox/ohsweetnazareth.2025-11-26-secrets-within-telasero-88e6c47f.png
   type: shot
+  aspect: 1/1
   author: ohsweetnazareth
 ohsweetnazareth.2025-11-26-worship-in-the-depths-of-telasero-cdce0d33:
   title: Worship in the Depths of Telasero
@@ -288,6 +325,7 @@ ohsweetnazareth.2025-11-26-worship-in-the-depths-of-telasero-cdce0d33:
     - store:/inbox/ohsweetnazareth.2025-11-26-worship-in-the-depths-of-telasero-1d1cfd8a.png
     - store:/inbox/ohsweetnazareth.2025-11-26-worship-in-the-depths-of-telasero-cdce0d33.png
   type: shot
+  aspect: 1/1
   author: ohsweetnazareth
 ohsweetnazareth.2025-11-27-in-the-tomb-of-mordrin-hanin-54cda563:
   title: In the Tomb of Mordrin Hanin
@@ -295,16 +333,19 @@ ohsweetnazareth.2025-11-27-in-the-tomb-of-mordrin-hanin-54cda563:
     - store:/inbox/ohsweetnazareth.2025-11-27-in-the-tomb-of-mordrin-hanin-54cda563.png
     - store:/inbox/ohsweetnazareth.2025-11-27-in-the-tomb-of-mordrin-hanin-735d9194.png
   type: shot
+  aspect: 1/1
   author: ohsweetnazareth
 ohsweetnazareth.2025-12-04-the-daedric-faces-20e73f83:
   title: The Daedric Faces
   content: store:/inbox/ohsweetnazareth.2025-12-04-the-daedric-faces-20e73f83.png
   type: shot
+  aspect: 1/1
   author: ohsweetnazareth
 ohsweetnazareth.2025-12-07-almalexia-the-fallen-2fab2a2a:
   title: Almalexia the Fallen
   content: store:/inbox/ohsweetnazareth.2025-12-07-almalexia-the-fallen-2fab2a2a.png
   type: shot
+  aspect: 1/1
   author: ohsweetnazareth
 ohsweetnazareth.2025-12-07-nowhere-mournhold-c7fa8b46:
   title: Nowhere, Mournhold
@@ -320,16 +361,19 @@ ohsweetnazareth.2025-12-08-foul-betrayal-f0813cd1:
     - store:/inbox/ohsweetnazareth.2025-12-08-foul-betrayal-3d96140f.png
     - store:/inbox/ohsweetnazareth.2025-12-08-foul-betrayal-2ab4f546.png
   type: shot
+  aspect: 1/1
   author: ohsweetnazareth
 ohsweetnazareth.2025-12-08-war-of-the-automatons-bb5d85d8:
   title: War of the Automatons
   content: store:/inbox/ohsweetnazareth.2025-12-08-war-of-the-automatons-bb5d85d8.png
   type: shot
+  aspect: 1/1
   author: ohsweetnazareth
 ohsweetnazareth.2025-12-09-boethiahs-brutality-d2f808ec:
   title: Boethiah's Brutality
   content: store:/inbox/ohsweetnazareth.2025-12-09-boethiahs-brutality-d2f808ec.png
   type: shot
+  aspect: 1/1
   author: ohsweetnazareth
 ohsweetnazareth.2025-12-09-sotha-sils-scrapyard-74982572:
   title: Sotha-Sil's Scrapyard
@@ -339,18 +383,22 @@ ohsweetnazareth.2025-12-09-sotha-sils-scrapyard-74982572:
     - store:/inbox/ohsweetnazareth.2025-12-09-sotha-sils-scrapyard-6d0690dd.png
     - store:/inbox/ohsweetnazareth.2025-12-09-sotha-sils-scrapyard-a210ac27.png
   type: shot
+  aspect: 1/1
   author: ohsweetnazareth
 ohsweetnazareth.2025-12-12-guardian-at-the-craftsmens-hall-3ffec20b:
   content: store:/inbox/ohsweetnazareth.2025-12-12-guardian-at-the-craftsmens-hall-3ffec20b.png
   type: shot
+  aspect: 1/1
   author: ohsweetnazareth
 ohsweetnazareth.2025-12-17-lady-almalexia-79470d0f:
   title: Lady Almalexia
   content: store:/inbox/ohsweetnazareth.2025-12-17-lady-almalexia-79470d0f.png
   type: wallpaper
+  aspect: 16/9
   author: ohsweetnazareth
 ohsweetnazareth.2025-12-18-conjurers-friend-d343189a:
   title: Conjurer's Friend
   content: store:/inbox/ohsweetnazareth.2025-12-18-conjurers-friend-d343189a.png
   type: shot
+  aspect: 1/1
   author: ohsweetnazareth
