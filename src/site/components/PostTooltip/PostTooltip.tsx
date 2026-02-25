@@ -117,7 +117,7 @@ export const PostTooltip: Component<PostTooltipProps> = (props) => {
       <Show when={local.showContent}>
         <PostContentPreview
           content={local.postInfo.content}
-          type={local.postInfo.type}
+          aspectRatio={local.postInfo.aspect}
           maxHeightMultiplier={1.25}
           alt={alt()}
           class={styles.image}

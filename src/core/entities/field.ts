@@ -14,6 +14,7 @@ export const Field = picklist([
   'snapshot',
   'trash',
   'type',
+  'aspect',
   'author',
   'locating',
   'created',

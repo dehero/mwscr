@@ -449,7 +449,7 @@ export const PostDialog: Component<PostDialogProps> = (props) => {
           <Show when={preset().features.includes('previewContent')}>
             <PostContentPreview
               content={post().content}
-              type={post().type}
+              aspectRatio={post().aspect}
               maxHeightMultiplier={1}
               class={styles.contentPreview}
             />

@@ -3,14 +3,13 @@ import { intersect, number, object, variant } from 'valibot';
 import { Post, PostTitleRu } from '../entities/post.js';
 import {
   Achievement,
+  Compilation,
   Mention,
   News,
   Outtakes,
   Photoshop,
   Redrawing,
   Shot,
-  ShotSet,
-  VerticalWallpaper,
   Wallpaper,
 } from '../entities/post-variant.js';
 import { Publication } from '../entities/publication.js';
@@ -22,18 +21,7 @@ export const VK_GROUP_ID = -138249959;
 
 export const VKPost = intersect([
   object({ ...Post.entries, titleRu: PostTitleRu }),
-  variant('type', [
-    Redrawing,
-    Shot,
-    ShotSet,
-    VerticalWallpaper,
-    Wallpaper,
-    Outtakes,
-    News,
-    Photoshop,
-    Mention,
-    Achievement,
-  ]),
+  variant('type', [Redrawing, Shot, Compilation, Wallpaper, Outtakes, News, Photoshop, Mention, Achievement]),
 ]);
 
 export const VKPublication = object({

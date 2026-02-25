@@ -8,6 +8,7 @@ import type { Option } from './option.js';
 import { ANY_OPTION, NONE_OPTION } from './option.js';
 import type {
   PostAddon,
+  PostAspectRatio,
   PostContent,
   PostEngine,
   PostLocation,
@@ -44,6 +45,7 @@ export interface PostInfo {
   content?: PostContent;
   snapshot?: PostContent;
   type: PostType;
+  aspect?: PostAspectRatio;
   authorOptions: Option[];
   locatorOption?: Option;
   // TODO: don't include full note
@@ -151,6 +153,7 @@ export async function createPostInfos(managerName: string, dataManager: DataMana
         content: post.content,
         snapshot: post.snapshot,
         type: post.type,
+        aspect: post.aspect,
         authorOptions: (await dataManager.users.getEntries(asArray(post.author))).map(createUserOption),
         locatorOption: post.locating?.user
           ? createUserOption(await dataManager.users.getEntry(post.locating.user))

@@ -5,7 +5,6 @@ import { arrayFromAsync, asArray, cleanupUndefinedProps } from '../utils/common-
 import { dateToString, stringToDate } from '../utils/date-utils.js';
 import type { ListReaderEntry } from './list-manager.js';
 import { areNestedLocations as areRelatedLocations } from './location.js';
-import type { MediaAspectRatio } from './media.js';
 import { postTitleFromString } from './post-title.js';
 import { PostDescription, PostVariant } from './post-variant.js';
 import {
@@ -25,6 +24,7 @@ export const PostContent = union([ResourceUrl, array(ResourceUrl, 'Should be a l
 export const PostLocation = union([pipe(string(), nonEmpty()), array(pipe(string(), nonEmpty()))]);
 export const PostPlacement = picklist(['Indoors', 'Outdoors', 'Mixed']);
 export const PostType = picklist(PostVariant.options.map((type) => type.entries.type.literal));
+export const PostAspectRatio = picklist(['16/9', '1.5/1', '1/1', '9/16', '9/19.5']);
 export const PostAddon = picklist(['Tribunal', 'Bloodmoon', 'Tamriel Rebuilt']);
 export const PostEngine = picklist(['OpenMW', 'Vanilla']);
 export const PostMark = picklist(['A1', 'A2', 'B1', 'B2', 'C', 'D', 'E', 'F']);
@@ -57,6 +57,7 @@ export const Post = pipe(
     snapshot: optional(PostContent),
     trash: optional(PostContent),
     type: PostType,
+    aspect: optional(PostAspectRatio),
     author: optional(PostAuthor),
     tags: optional(array(PostTag)),
     engine: optional(PostEngine),
@@ -92,6 +93,7 @@ export type PostContent = InferOutput<typeof PostContent>;
 export type PostLocation = InferOutput<typeof PostLocation>;
 export type PostPlacement = InferOutput<typeof PostPlacement>;
 export type PostType = InferOutput<typeof PostType>;
+export type PostAspectRatio = InferOutput<typeof PostAspectRatio>;
 export type PostAddon = InferOutput<typeof PostAddon>;
 export type PostEngine = InferOutput<typeof PostEngine>;
 export type PostMark = InferOutput<typeof PostMark>;
@@ -122,7 +124,7 @@ interface PostTypeDescriptor {
   titleMultiple: string;
   titleMultipleRu: string;
   letter: string;
-  aspectRatio?: MediaAspectRatio;
+  aspectRatio?: PostAspectRatio[];
   strict?: boolean;
   topicId: string;
 }
@@ -198,17 +200,17 @@ export const postTypeDescriptors = Object.freeze<Record<PostType, PostTypeDescri
     titleMultiple: 'Shots',
     titleMultipleRu: 'Кадры',
     letter: 'S',
-    aspectRatio: '1/1',
+    aspectRatio: ['1/1', '1.5/1'],
     strict: true,
     topicId: 'shot',
   },
-  'shot-set': {
-    title: 'Shot Compilation',
+  compilation: {
+    title: 'Compilation',
     titleRu: 'Подборка',
-    titleMultiple: 'Shot Compilations',
+    titleMultiple: 'Compilations',
     titleMultipleRu: 'Подборки',
     letter: 'H',
-    aspectRatio: '1/1',
+    aspectRatio: ['1/1', '1.5/1', '16/9', '9/19.5'],
     strict: true,
     topicId: 'shot-set',
   },
@@ -218,7 +220,7 @@ export const postTypeDescriptors = Object.freeze<Record<PostType, PostTypeDescri
     titleMultiple: 'Videos',
     titleMultipleRu: 'Видео',
     letter: 'V',
-    aspectRatio: '16/9',
+    aspectRatio: ['16/9'],
     strict: true,
     topicId: 'video',
   },
@@ -228,7 +230,7 @@ export const postTypeDescriptors = Object.freeze<Record<PostType, PostTypeDescri
     titleMultiple: 'Clips',
     titleMultipleRu: 'Клипы',
     letter: 'C',
-    aspectRatio: '1/1',
+    aspectRatio: ['1/1', '9/16'],
     strict: true,
     topicId: 'clip',
   },
@@ -238,7 +240,6 @@ export const postTypeDescriptors = Object.freeze<Record<PostType, PostTypeDescri
     titleMultiple: 'Redrawings',
     titleMultipleRu: 'Перерисовки',
     letter: 'R',
-    aspectRatio: '1/1',
     topicId: 'redrawing',
   },
   wallpaper: {
@@ -247,19 +248,9 @@ export const postTypeDescriptors = Object.freeze<Record<PostType, PostTypeDescri
     titleMultiple: 'Wallpapers',
     titleMultipleRu: 'Обои',
     letter: 'W',
-    aspectRatio: '16/9',
+    aspectRatio: ['16/9', '9/19.5'],
     strict: true,
     topicId: 'wallpaper',
-  },
-  'wallpaper-v': {
-    title: 'Vertical Wallpaper',
-    titleRu: 'Вертикальные обои',
-    titleMultiple: 'Vertical Wallpapers',
-    titleMultipleRu: 'Вертикальные обои',
-    letter: 'M',
-    aspectRatio: '9/19.5',
-    strict: true,
-    topicId: 'wallpaper-v',
   },
   mention: {
     title: 'Mention',

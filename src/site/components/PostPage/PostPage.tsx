@@ -105,7 +105,7 @@ export const PostPage = (): JSX.Element => {
       scrollable: true,
     })),
   ];
-  const aspectRatio = () => (postInfo() ? postTypeDescriptors[postInfo()!.type].aspectRatio : '1/1');
+  const aspectRatio = () => (postInfo() ? postInfo()!.aspect : '1/1');
   const alt = () => postInfo()?.tags?.join(' ');
 
   const selectedContentInfo = () => contentInfos()[selectedContentIndex()];
