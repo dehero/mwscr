@@ -5,6 +5,7 @@
   location: Dren Plantation
   content: store:/shots/2016-11-20-1-dren-plantation.png
   type: shot
+  aspect: 1/1
   author: dehero
   engine: OpenMW
   mark: B2
@@ -64,6 +65,7 @@
   location: Seyda Neen
   content: store:/shots/2016-11-20-2-seyda-neen.png
   type: shot
+  aspect: 1/1
   author: dehero
   engine: OpenMW
   mark: B1
@@ -123,6 +125,7 @@
   location: Molag Amur Region
   content: store:/shots/2016-11-20-3-molag-amur.png
   type: shot
+  aspect: 1/1
   author: dehero
   engine: OpenMW
   tags:
@@ -176,6 +179,7 @@
   location: Ald-ruhn, Manor District
   content: store:/shots/2016-11-20-4-aldruhn-under-skar.png
   type: shot
+  aspect: 1/1
   author: dehero
   engine: OpenMW
   mark: A2
@@ -233,6 +237,7 @@
   location: Galom Daeus
   content: store:/shots/2016-11-20-5-galom-daeus.png
   type: shot
+  aspect: 1/1
   author: dehero
   engine: OpenMW
   mark: B2
@@ -258,6 +263,7 @@
   location: Sheogorad Region
   content: store:/shots/2016-11-21-sheogorad.png
   type: shot
+  aspect: 1/1
   author: dehero
   engine: OpenMW
   mark: B1
@@ -312,6 +318,7 @@
   location: Tel Aruhn, Upper Tower
   content: store:/shots/2016-11-22-lord-gothren.png
   type: shot
+  aspect: 1/1
   author: dehero
   engine: OpenMW
   tags:
@@ -362,6 +369,7 @@
   location: Tel Branora
   content: store:/shots/2016-11-23-lanterns-of-tel-branora.png
   type: shot
+  aspect: 1/1
   author: dehero
   engine: OpenMW
   tags:
@@ -390,6 +398,7 @@
   location: Vivec
   content: store:/shots/2016-11-24-quarters-of-vivec.png
   type: shot
+  aspect: 1/1
   author: dehero
   engine: OpenMW
   mark: A2
@@ -419,6 +428,7 @@
   location: Dren Plantation
   content: store:/shots/2016-11-25-rain-on-dren-plantation.png
   type: shot
+  aspect: 1/1
   author: dehero
   engine: OpenMW
   tags:
@@ -445,6 +455,7 @@
   placement: Outdoors
   content: store:/shots/2016-11-26-imperial-pennant-and-masser.png
   type: shot
+  aspect: 1/1
   author: dehero
   engine: OpenMW
   tags:
@@ -511,6 +522,7 @@
   location: Seyda Neen
   content: store:/shots/2016-11-27-lonely-fargoth.png
   type: shot
+  aspect: 1/1
   author: dehero
   engine: OpenMW
   tags:
@@ -565,6 +577,7 @@
   location: Ashlands Region
   content: store:/shots/2016-11-28-forest-on-the-border-of-ashlands.png
   type: shot
+  aspect: 1/1
   author: dehero
   mark: B2
   posts:
@@ -589,6 +602,7 @@
   location: Nchuleftingth
   content: store:/shots/2016-11-29-nchuleftingth-expedition.png
   type: shot
+  aspect: 1/1
   author: dehero
   engine: OpenMW
   mark: B1
@@ -640,6 +654,7 @@
   location: Ascadian Isles Region
   content: store:/shots/2016-11-30-the-road-most-travelled.png
   type: shot
+  aspect: 1/1
   author: dehero
   engine: OpenMW
   mark: A2
@@ -694,6 +709,7 @@
   location: Gnisis
   content: store:/shots/2016-12-01-arvs-drelen.png
   type: shot
+  aspect: 1/1
   author: dehero
   engine: OpenMW
   mark: A1
@@ -745,6 +761,7 @@
   location: Molag Mar
   content: store:/shots/2016-12-02-molag-mar.png
   type: shot
+  aspect: 1/1
   author: dehero
   engine: OpenMW
   mark: B1
@@ -830,6 +847,7 @@
   location: Vivec
   content: store:/shots/2016-12-03-st-delyn-vs-st-olms.png
   type: shot
+  aspect: 1/1
   author: dehero
   engine: OpenMW
   mark: A2
@@ -857,6 +875,7 @@
     - Vos
   content: store:/shots/2016-12-04-vos-from-tel-vos.png
   type: shot
+  aspect: 1/1
   author: dehero
   engine: OpenMW
   mark: A2
@@ -941,6 +960,7 @@
   location: Balmora
   content: store:/videos/2016-12-05-balmora-walkthrough.mp4
   type: clip
+  aspect: 1/1
   author: dehero
   engine: OpenMW
   mark: A2
@@ -967,6 +987,7 @@
   location: Molag Mar
   content: store:/shots/2016-12-06-redoran-stronghold-of-molag-mar.png
   type: shot
+  aspect: 1/1
   author: dehero
   engine: OpenMW
   tags:
@@ -1046,6 +1067,7 @@
   location: Nchuleft Ruin
   content: store:/shots/2016-12-07-nchuleft-ruin.png
   type: shot
+  aspect: 1/1
   author: dehero
   engine: OpenMW
   tags:
@@ -1073,6 +1095,7 @@
   location: Manat's Farmhouse
   content: store:/shots/2016-12-08-manats-farmhouse.png
   type: shot
+  aspect: 1/1
   author: dehero
   engine: OpenMW
   mark: A2
@@ -1098,6 +1121,7 @@
   location: Molag Mar
   content: store:/shots/2016-12-09-silt-strider-port-of-molag-mar.png
   type: shot
+  aspect: 1/1
   author: dehero
   engine: OpenMW
   tags:
@@ -1153,6 +1177,7 @@
   location: Ascadian Isles Region
   content: store:/shots/2016-12-10-somewhere-nearby-vivec.png
   type: shot
+  aspect: 1/1
   author: dehero
   engine: OpenMW
   tags:
@@ -1204,6 +1229,7 @@
   placement: Indoors
   content: store:/videos/2016-12-11-khajiit-gives-away.mp4
   type: clip
+  aspect: 1/1
   author: dehero
   engine: OpenMW
   tags:
@@ -1233,6 +1259,7 @@
     - Ald-ruhn
   content: store:/shots/2016-12-12-buckmoth-legion-fort-from-aldruhn.png
   type: shot
+  aspect: 1/1
   author: dehero
   engine: OpenMW
   tags:
@@ -1284,6 +1311,7 @@
   location: Seyda Neen
   content: store:/shots/2016-12-13-seyda-neen-lighthouse.png
   type: shot
+  aspect: 1/1
   author: dehero
   engine: OpenMW
   tags:
@@ -1312,6 +1340,7 @@
   location: Pelagiad
   content: store:/shots/2016-12-14-pelagiad.png
   type: shot
+  aspect: 1/1
   author: dehero
   engine: OpenMW
   mark: B1
@@ -1371,6 +1400,7 @@
   placement: Outdoors
   content: store:/shots/2016-12-15-cloud-crowns-of-foyada-mamaea.png
   type: shot
+  aspect: 1/1
   author: dehero
   engine: OpenMW
   tags:
@@ -1398,6 +1428,7 @@
   location: Gnisis
   content: store:/shots/2016-12-16-gnisis-temple.png
   type: shot
+  aspect: 1/1
   author: dehero
   engine: OpenMW
   tags:
@@ -1448,6 +1479,7 @@
   location: Vivec
   content: store:/videos/2016-12-17-a-path-to-vivec.mp4
   type: clip
+  aspect: 1/1
   author: dehero
   engine: OpenMW
   tags:
@@ -1475,6 +1507,7 @@
   location: Caldera
   content: store:/shots/2016-12-18-the-governors-hall-in-caldera-from-distance.png
   type: shot
+  aspect: 1/1
   author: dehero
   engine: OpenMW
   tags:
@@ -1531,6 +1564,7 @@
   location: Hla Oad
   content: store:/shots/2016-12-19-hla-oad.png
   type: shot
+  aspect: 1/1
   author: dehero
   engine: OpenMW
   tags:
@@ -1600,6 +1634,7 @@
   location: 'Caldera, Hodlismod: Armorer'
   content: store:/shots/2016-12-20-a-boxy-nightstand.png
   type: shot
+  aspect: 1/1
   author: dehero
   locating:
     date: 2026-02-16-19-14-10
@@ -1684,6 +1719,7 @@
   location: Gnisis
   content: store:/shots/2016-12-21-fort-darius.png
   type: shot
+  aspect: 1/1
   author: dehero
   engine: OpenMW
   mark: B1
@@ -1709,6 +1745,7 @@
   location: Ebonheart
   content: store:/shots/2016-12-22-ebonheart-towers.png
   type: shot
+  aspect: 1/1
   author: dehero
   engine: OpenMW
   tags:
@@ -1786,6 +1823,7 @@
   location: Vivec, Palace of Vivec
   content: store:/videos/2016-12-23-stillness-of-vivec.mp4
   type: clip
+  aspect: 1/1
   author: dehero
   engine: OpenMW
   tags:
@@ -1814,6 +1852,7 @@
   placement: Outdoors
   content: store:/shots/2016-12-24-double-winged-attack.png
   type: shot
+  aspect: 1/1
   author: dehero
   engine: OpenMW
   mark: A2
@@ -1839,6 +1878,7 @@
   location: Sadrith Mora
   content: store:/shots/2016-12-25-telvanni-weaponsmiths-stands.png
   type: shot
+  aspect: 1/1
   author: dehero
   engine: OpenMW
   mark: A2
@@ -1864,6 +1904,7 @@
   location: Grazelands Region
   content: store:/shots/2016-12-26-grazelands.png
   type: shot
+  aspect: 1/1
   author: dehero
   engine: OpenMW
   tags:
@@ -1891,6 +1932,7 @@
   location: Mzanchend
   content: store:/shots/2016-12-27-mzanchend-guards.png
   type: shot
+  aspect: 1/1
   author: dehero
   engine: OpenMW
   tags:
@@ -1918,6 +1960,7 @@
   location: Caldera
   content: store:/shots/2016-12-28-close-to-caldera-clothier.png
   type: shot
+  aspect: 1/1
   author: dehero
   engine: OpenMW
   mark: A1
@@ -1973,6 +2016,7 @@
   location: Holamayan
   content: store:/videos/2016-12-29-entering-holamayan-monastery.mp4
   type: clip
+  aspect: 1/1
   author: dehero
   engine: OpenMW
   mark: A2
@@ -1999,6 +2043,7 @@
   location: Mzanchend
   content: store:/shots/2016-12-30-lava-lake-near-mzanchend.png
   type: shot
+  aspect: 1/1
   author: dehero
   engine: OpenMW
   mark: A2
@@ -2050,6 +2095,7 @@
     - Azura's Coast Region
   content: store:/shots/2016-12-31-far-friends.png
   type: shot
+  aspect: 1/1
   author: dehero
   locating:
     date: 2026-02-20-18-33-48
