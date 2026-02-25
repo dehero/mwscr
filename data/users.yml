@@ -2944,7 +2944,7 @@ kevy-c:
   profiles:
     - service: tg
       id: '5067683234'
-      updated: 2026-02-25-18-04-49
+      updated: 2026-02-25-19-52-29
       accessHash: '-903667913374325979'
       username: Kevy_c
       name: Dash
@@ -4200,7 +4200,7 @@ painkiller1986:
   profiles:
     - service: tg
       id: '6565289507'
-      updated: 2026-02-25-18-04-42
+      updated: 2026-02-25-19-52-31
       accessHash: '6198356028119192921'
       username: Painkiller1986
       name: Сумерки
@@ -5040,7 +5040,7 @@ slavaisaykin:
   profiles:
     - service: vk
       id: '64157384'
-      updated: 2026-02-23-07-17-53
+      updated: 2026-02-25-19-52-26
       username: slavaisaykin
       name: Слава Исайкин
       avatar: store:/avatars/vk-f145c72b.jpg
