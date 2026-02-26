@@ -388,7 +388,7 @@
     - service: vk
       id: 2523
       published: 2025-07-20-18-36-19
-      updated: 2026-02-19-13-34-57
+      updated: 2026-02-26-14-59-24
       followers: 1349
       likes: 33
       views: 464
@@ -396,7 +396,7 @@
     - service: tg
       id: 922
       published: 2025-07-20-18-36-23
-      updated: 2026-02-19-13-34-22
+      updated: 2026-02-26-14-59-01
       followers: 763
       likes: 67
       views: 829
@@ -1165,16 +1165,16 @@
       id: DUEI4m9Duqi
       mediaId: '18100851613884451'
       published: 2026-01-28-18-37-18
-      updated: 2026-02-19-13-31-08
+      updated: 2026-02-26-14-55-06
       followers: 1606
-      likes: 51
+      likes: 52
     - service: vk
       id: 3049
       published: 2026-01-28-18-37-23
-      updated: 2026-02-19-13-31-12
+      updated: 2026-02-26-14-55-11
       followers: 1591
       likes: 41
-      views: 714
+      views: 731
       reposts: 2
       comments: !c |-
         G0gB4C0LbOc1CMkIdptEaGLPf4URKp3+kRNL+LVJm1R4piNaJjbSyT2dztwIe+EuXNONrGdQINtm
@@ -1184,10 +1184,10 @@
     - service: tg
       id: 1134
       published: 2026-01-28-18-37-27
-      updated: 2026-02-19-13-31-11
+      updated: 2026-02-26-14-55-22
       followers: 888
       likes: 67
-      views: 515
+      views: 528
       comments: !c |-
         iyGAkpPLQnnAYpJjAACma2V2eS1jpPCfpoCTy0J5wF+uJwAArnBhaW5raWxsZXIxOTg2s9Cl0LvQ
         tdCxINC/0LXRh9GR0LwD
@@ -1297,24 +1297,24 @@
       id: DQ91W55jYAg
       mediaId: '18080446513887672'
       published: 2025-11-12-18-17-00
-      updated: 2026-02-19-13-32-08
+      updated: 2026-02-26-14-56-13
       followers: 1594
       likes: 42
     - service: vk
       id: 2845
       published: 2025-11-12-18-17-07
-      updated: 2026-02-19-13-32-52
+      updated: 2026-02-26-14-57-12
       followers: 1502
       likes: 101
-      views: 1107
+      views: 1111
       reposts: 4
     - service: tg
       id: 1053
       published: 2025-11-12-18-17-12
-      updated: 2026-02-19-13-32-01
+      updated: 2026-02-26-14-56-46
       followers: 855
       likes: 72
-      views: 665
+      views: 668
       comments: !c iw2AkZPLQnmn3wA+gACra2F3YXpha3kyMjOk8J+YmAM=
 2022-07-17-slaves-sight:
   title: Slave's Sight
