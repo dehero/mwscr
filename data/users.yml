@@ -584,7 +584,7 @@ artyom-melikhoff:
   profiles:
     - service: vk
       id: '299405149'
-      updated: 2026-02-26-14-59-48
+      updated: 2026-02-26-16-00-05
       username: artyom_melikhoff
       name: Артём Мелихов
       avatar: store:/avatars/vk-f20aecaf.jpg
@@ -2135,7 +2135,7 @@ ghosr1368:
   profiles:
     - service: tg
       id: '6353853685'
-      updated: 2026-02-26-14-59-37
+      updated: 2026-02-26-16-00-10
       accessHash: '2523169162736182941'
       username: Ghost_136812
       name: GHOST_141
@@ -2944,7 +2944,7 @@ kevy-c:
   profiles:
     - service: tg
       id: '5067683234'
-      updated: 2026-02-26-14-59-34
+      updated: 2026-02-26-16-00-08
       accessHash: '-903667913374325979'
       username: Kevy_c
       name: Dash
@@ -4200,7 +4200,7 @@ painkiller1986:
   profiles:
     - service: tg
       id: '6565289507'
-      updated: 2026-02-26-14-55-30
+      updated: 2026-02-26-16-00-09
       accessHash: '6198356028119192921'
       username: Painkiller1986
       name: Сумерки
