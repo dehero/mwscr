@@ -600,7 +600,7 @@ arya-stark:
   profiles:
     - service: vk
       id: '820702664'
-      updated: 2026-02-26-20-46-38
+      updated: 2026-02-26-23-37-25
       username: id820702664
       name: Арья Старк
       avatar: store:/avatars/vk-689aa89d.jpg
@@ -1312,7 +1312,7 @@ darkness-rifho:
       deleted: true
     - service: tg
       id: '5704974271'
-      updated: 2026-02-26-14-58-45
+      updated: 2026-02-26-23-37-30
       accessHash: '3506423524566292179'
       username: C4H6O4
       name: Уна
@@ -2236,11 +2236,11 @@ goosevich76:
   profiles:
     - service: tg
       id: '5385620621'
-      updated: 2026-02-26-14-58-49
+      updated: 2026-02-26-23-37-32
       accessHash: '-7130473396589324830'
       username: horwwwaty
       name: choven
-      avatar: store:/avatars/tg-5242538159717945997.jpg
+      avatar: store:/avatars/tg-5433819733745667004.jpg
 gorheim:
   profiles:
     - service: tg
@@ -2952,7 +2952,7 @@ kevy-c:
   profiles:
     - service: tg
       id: '5067683234'
-      updated: 2026-02-26-22-40-54
+      updated: 2026-02-26-23-37-31
       accessHash: '-903667913374325979'
       username: Kevy_c
       name: Dash
@@ -2977,7 +2977,7 @@ kirillmanyukov:
   profiles:
     - service: vk
       id: '80137875'
-      updated: 2026-02-25-22-41-03
+      updated: 2026-02-26-23-37-23
       username: kirillmanyukov
       name: Кирилл Манюков
       avatar: store:/avatars/vk-b5b51945.jpg
@@ -4013,7 +4013,7 @@ o-sipuha:
   profiles:
     - service: vk
       id: '1042080884'
-      updated: 2026-02-23-07-14-55
+      updated: 2026-02-26-23-37-19
       username: o.sipuha
       name: Ольга Сипуха
       avatar: store:/avatars/vk-c168d64f.jpg
@@ -4208,7 +4208,7 @@ painkiller1986:
   profiles:
     - service: tg
       id: '6565289507'
-      updated: 2026-02-26-22-40-52
+      updated: 2026-02-26-23-37-18
       accessHash: '6198356028119192921'
       username: Painkiller1986
       name: Сумерки
@@ -4412,7 +4412,7 @@ porsankka666:
   profiles:
     - service: vk
       id: '320093421'
-      updated: 2026-02-22-08-46-46
+      updated: 2026-02-26-23-37-25
       username: porsankka666
       name: Дмитрий Иванов-Соломин
       avatar: store:/avatars/vk-0a090d7d.jpg
@@ -4584,7 +4584,7 @@ reanimatrix:
   profiles:
     - service: tg
       id: '5221327246'
-      updated: 2026-02-25-22-41-12
+      updated: 2026-02-26-23-37-32
       accessHash: '2760022429796079203'
       name: reanimatrix
 redoranar:
@@ -4869,7 +4869,7 @@ self-creating:
   profiles:
     - service: vk
       id: '50058433'
-      updated: 2026-02-22-09-06-19
+      updated: 2026-02-26-23-37-25
       username: self_creating
       name: Антон Коненков
       avatar: store:/avatars/vk-ef1ee023.jpg
@@ -4901,7 +4901,7 @@ sergey-b-2:
   profiles:
     - service: vk
       id: '1077446394'
-      updated: 2026-02-26-19-02-32
+      updated: 2026-02-26-23-37-25
       username: id1077446394
       name: Сергей Б
       avatar: store:/avatars/vk-5a7c7910.jpg
@@ -5176,11 +5176,11 @@ sonnykotya:
   profiles:
     - service: tg
       id: '7937963458'
-      updated: 2026-02-25-22-41-05
+      updated: 2026-02-26-23-37-25
       accessHash: '6311850478953577755'
       username: sonnykotya
       name: дракоша
-      avatar: store:/avatars/tg-5258425286695522303.jpg
+      avatar: store:/avatars/tg-5260285793513707370.jpg
 sothaseel:
   profiles:
     - service: ig

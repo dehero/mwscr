@@ -12496,10 +12496,10 @@
     - service: tg
       id: 1155
       published: 2026-02-20-18-59-29
-      updated: 2026-02-25-22-41-10
+      updated: 2026-02-26-23-37-30
       followers: 893
       likes: 54
-      views: 341
+      views: 362
       comments: !c |-
         CyeAk5PLQnnH3ynZAACma2V2eS1jpPCfpoCTy0J5x8mD2wAAqnNvbm55a290eWGk8J+XoZPLQnnH
         x4RhgACuZGFya25lc3MtcmlmaG+k8J+ZjwM=
@@ -14476,23 +14476,28 @@
       id: DVO3TM1jTWl
       mediaId: '18114326755653482'
       published: 2026-02-26-19-06-40
-      updated: 2026-02-26-22-40-49
+      updated: 2026-02-26-23-37-15
       followers: 1609
-      likes: 21
+      likes: 25
     - service: vk
       id: 3113
       published: 2026-02-26-19-06-47
-      updated: 2026-02-26-22-40-45
+      updated: 2026-02-26-23-37-20
       followers: 1609
-      likes: 8
-      views: 107
+      likes: 11
+      views: 114
+      reposts: 1
+      comments: !c |-
+        G5cA+B0JNk7x4Um78fz7O5tUXih+7BqJzQRNqKYUqZpybgS1uRK6YSXfZILoXkGVYx9T08NkSm9J
+        KOEpK9mPSDQFrvvL8b76s3uWYZvXfRp/WSoCKheD8SuVERrlkeAkVSlYGUFo5UBnhSeXvigT4Oqs
+        SJQ1FoOBNQ==
     - service: tg
       id: 1161
       published: 2026-02-26-19-07-02
-      updated: 2026-02-26-22-40-44
+      updated: 2026-02-26-23-37-11
       followers: 889
-      likes: 30
-      views: 116
+      likes: 31
+      views: 119
 2018-10-23-noble-assassin:
   title: Noble Assassin
   titleRu: Знатный ассассин
