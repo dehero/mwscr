@@ -1778,24 +1778,29 @@
       id: DVB876HF6y6
       mediaId: '18315898357270230'
       published: 2026-02-21-18-45-49
-      updated: 2026-02-25-18-04-41
+      updated: 2026-02-26-19-02-13
       followers: 1606
-      likes: 46
+      likes: 47
     - service: vk
       id: 3101
       published: 2026-02-21-18-46-03
-      updated: 2026-02-25-18-04-45
+      updated: 2026-02-26-19-02-32
       followers: 1605
-      likes: 38
-      views: 375
-      reposts: 3
+      likes: 41
+      views: 400
+      reposts: 4
+      comments: !c |-
+        GwYBACwLbOc1CMkIdpv49M9/hej5ukX49eByiahJLNJkn2nwb7cSIqEI/du244ZH1WMfU9tORs0I
+        Dnjwkz0VkrNLRqzk8rKl7EwnR3JQ/vyWtzjhjAMNLIIM8xg7i42U/Lmfr3b+huO9cuX/enIRaxk8
+        KlMjKVrnBRc8myctsO3aGCwOJmOaPYd+fmTTjvIaVizyunqq6D/xwSHkiQFCMcWlFiyBAIbh2cwT
+        KCp6AtKZtQA=
     - service: tg
       id: 1156
       published: 2026-02-21-18-46-23
-      updated: 2026-02-25-18-04-49
+      updated: 2026-02-26-19-02-21
       followers: 893
       likes: 56
-      views: 289
+      views: 322
       comments: !c CwuAkZPLQnnIHmLoAACma2V2eS1jpPCfpoAD
 2020-10-28-cave-of-suffering:
   title: Cave of Suffering
