@@ -76,6 +76,9 @@ async function findFirstUnpublishedPostEntry(postEntries: PostEntry[], service: 
     if (!postDate) {
       return undefined;
     }
+    if (service.postingStartDate && postDate < service.postingStartDate) {
+      break;
+    }
     const lastPublication = entry[1].posts?.find(
       (publication) => publication.service === service.id && publication.published.getTime() >= postDate.getTime(),
     );

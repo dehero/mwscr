@@ -1300,7 +1300,8 @@
 2017-01-28-2-meditative-night-in-ahemmusa-camp:
   title: Meditative Night in Ahemmusa Camp
   titleRu: Ночь медитации в лагере Ахеммуза
-  description: Camera was placed in Ahemmusa Camp over the yurt of ashkhan in the rainy evening. It stayed there until morning.
+  description:
+    Camera was placed in Ahemmusa Camp over the yurt of ashkhan in the rainy evening. It stayed there until morning.
   descriptionRu: Камера была закреплена дождливым вечером над юртой ашхана и оставалась там до утра.
   placement: Outdoors
   location: Ahemmusa Camp
@@ -2940,6 +2941,10 @@
         G54AMB2Jsa2IvVg+zhFEttwr2QqgEA5hQZhSqjuwpQtJXqJMnVXkjAPdXAlVsFkMVdSf4c/M4gtj
         NzjQAMNAOAwXHoTGYaE94Lq10Y54c54vl0duue1kGEmx1+81uzqLEYzJ5ZiMKMBCEu74TsqG4smB
         BrKOAOn8MHcry6s6SnnrgCvkmyiUFdsWRIso8PA0Kd/CX03t6myZKd9+nig=
+    - service: mx
+      id: '1772180037804'
+      published: 2026-02-27-08-13-57
+      followers: 2
 2017-03-03-grazelands:
   title: Grazelands
   titleRu: Грейзленд
@@ -6881,7 +6886,7 @@
   title: Queen Mother in Her Chambers
   titleRu: Королева-мать в своих покоях
   placement: Indoors
-  location: 'Mournhold, Royal Palace: Barenziah''s Chambers'
+  location: "Mournhold, Royal Palace: Barenziah's Chambers"
   content: store:/shots/2017-05-19-queen-mother-in-her-chambers.png
   type: shot
   author: dehero
@@ -16658,7 +16663,7 @@
   locating:
     date: 2026-02-21-19-30-53
     user: pyriglena
-    text: '-20,26, north-east, behind Ingmar''s house'
+    text: "-20,26, north-east, behind Ingmar's house"
   engine: OpenMW
   addon: Bloodmoon
   mark: B2

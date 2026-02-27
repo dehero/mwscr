@@ -1,5 +1,6 @@
 import type { PostingServiceManager } from '../../core/entities/service.js';
 import { instagramManager } from './instagram-manager.js';
+import { maxManager } from './max-manager.js';
 import { telegramManager } from './telegram-manager.js';
 import { vkManager } from './vk-manager.js';
 import { youtubeManager } from './youtube-manager.js';
@@ -9,4 +10,5 @@ export const postingServiceManagers: PostingServiceManager[] = [
   youtubeManager,
   vkManager,
   telegramManager,
+  maxManager,
 ];

@@ -23,6 +23,7 @@ import { PostHighlights } from '../PostHighlights/PostHighlights.js';
 import { PostTooltip } from '../PostTooltip/PostTooltip.js';
 import { Table } from '../Table/Table.js';
 import styles from './HomePage.module.css';
+import { max } from '../../../core/services/max.js';
 
 export const HomePage = (): JSX.Element => {
   const pageContext = usePageContext();
@@ -67,6 +68,10 @@ export const HomePage = (): JSX.Element => {
                     {' • '}
                     <a href="https://www.youtube.com/@mwscr" class={styles.link}>
                       YouTube
+                    </a>
+                    {' • '}
+                    <a href={max.getSubscriptionUrl()} class={styles.link}>
+                      {max.name}
                     </a>
                     {' • '}
                     <a href="https://github.com/dehero/mwscr" class={styles.link}>
