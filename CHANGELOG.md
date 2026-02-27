@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file.
 
+## [2.18.0](https://github.com/dehero/mwscr/compare/v2.17.0...v2.18.0) (2026-02-27)
+
+### Features
+
+- implement basic posting to MAX
+  ([b78a47a](https://github.com/dehero/mwscr/commit/b78a47a6080788c897a6f8ac7e7953162669e73a))
+
 ## [2.17.0](https://github.com/dehero/mwscr/compare/v2.16.3...v2.17.0) (2026-02-20)
 
 ### Features
