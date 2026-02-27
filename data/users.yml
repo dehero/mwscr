@@ -600,7 +600,7 @@ arya-stark:
   profiles:
     - service: vk
       id: '820702664'
-      updated: 2026-02-27-19-38-43
+      updated: 2026-02-27-21-36-05
       username: id820702664
       name: Арья Старк
       avatar: store:/avatars/vk-689aa89d.jpg
@@ -1415,7 +1415,7 @@ dehero:
     - type: channel
       service: tg
       id: '1264795946'
-      updated: 2026-02-27-20-36-39
+      updated: 2026-02-27-21-35-58
       accessHash: '-5789257269249675714'
       username: mwscr
       name: Morrowind Screenshots
@@ -2952,7 +2952,7 @@ kevy-c:
   profiles:
     - service: tg
       id: '5067683234'
-      updated: 2026-02-27-20-36-41
+      updated: 2026-02-27-21-36-07
       accessHash: '-903667913374325979'
       username: Kevy_c
       name: Dash
@@ -3710,7 +3710,7 @@ mr-primov:
   profiles:
     - service: vk
       id: '161727367'
-      updated: 2026-02-27-20-36-38
+      updated: 2026-02-27-21-35-57
       username: mr_primov
       name: Владимир Примов
       avatar: store:/avatars/vk-17e0fa04.jpg
@@ -4013,7 +4013,7 @@ o-sipuha:
   profiles:
     - service: vk
       id: '1042080884'
-      updated: 2026-02-27-20-36-38
+      updated: 2026-02-27-21-35-57
       username: o.sipuha
       name: Ольга Сипуха
       avatar: store:/avatars/vk-c168d64f.jpg
@@ -4037,7 +4037,7 @@ oberhort:
   profiles:
     - service: tg
       id: '19254498'
-      updated: 2026-02-22-08-44-01
+      updated: 2026-02-27-21-36-07
       accessHash: '-564270059565994883'
       username: oberhort
       name: Игорь
@@ -4208,7 +4208,7 @@ painkiller1986:
   profiles:
     - service: tg
       id: '6565289507'
-      updated: 2026-02-27-20-36-37
+      updated: 2026-02-27-21-36-04
       accessHash: '6198356028119192921'
       username: Painkiller1986
       name: Сумерки
@@ -4499,7 +4499,7 @@ pyriglena:
   profiles:
     - service: tg
       id: '554672984'
-      updated: 2026-02-27-20-36-38
+      updated: 2026-02-27-21-35-57
       accessHash: '-3565593010225205906'
       username: pyriglena
       name: yarrow
@@ -4901,7 +4901,7 @@ sergey-b-2:
   profiles:
     - service: vk
       id: '1077446394'
-      updated: 2026-02-27-19-38-45
+      updated: 2026-02-27-21-36-10
       username: id1077446394
       name: Сергей Б
       avatar: store:/avatars/vk-5a7c7910.jpg
@@ -5048,7 +5048,7 @@ slavaisaykin:
   profiles:
     - service: vk
       id: '64157384'
-      updated: 2026-02-26-20-46-32
+      updated: 2026-02-27-21-36-02
       username: slavaisaykin
       name: Слава Исайкин
       avatar: store:/avatars/vk-f145c72b.jpg

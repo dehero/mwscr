@@ -27,7 +27,7 @@
       id: DTBJGkrCLtk
       mediaId: '17853630324605859'
       published: 2026-01-02-17-58-00
-      updated: 2026-02-20-20-41-23
+      updated: 2026-02-27-21-36-13
       followers: 1596
       likes: 176
       comments: !c |-
@@ -41,10 +41,10 @@
     - service: vk
       id: 2986
       published: 2026-01-02-17-58-00
-      updated: 2026-02-20-20-41-22
+      updated: 2026-02-27-21-36-10
       followers: 1558
       likes: 32
-      views: 1860
+      views: 2179
       reposts: 1
       comments: !c |-
         GzIBQCySt0EzSkWPvD0s8f/IPUs4evvakhALMNBAWmKRJueS5dSZGaUuLgzvS0a6AZTbzNmc/k8G
@@ -63,10 +63,10 @@
         - 1108
         - 1109
       published: 2026-01-02-17-58-00
-      updated: 2026-02-20-20-41-21
+      updated: 2026-02-27-21-36-10
       followers: 877
-      likes: 57
-      views: 798
+      likes: 58
+      views: 816
 2026-01-08-1-3rd-place-in-2026-calendar-photo-contest:
   title: 3rd Place in 2026 Calendar Photo Contest
   titleRu: 3 место в конкурсе фотографий с календарём 2026
@@ -112,14 +112,14 @@
       service: tg
       id: 3
       published: 2026-01-09-17-55-34
-      updated: 2026-02-20-20-41-21
+      updated: 2026-02-27-21-36-09
       followers: 879
       views: 180
     - type: story
       service: vk
       id: 456239023
       published: 2026-01-09-18-03-26
-      updated: 2026-02-20-20-41-21
+      updated: 2026-02-27-21-36-09
       followers: 1563
       views: 117
     - type: story
@@ -150,14 +150,14 @@
       service: vk
       id: 456239024
       published: 2026-01-09-18-07-34
-      updated: 2026-02-20-20-41-21
+      updated: 2026-02-27-21-36-09
       followers: 1563
       views: 84
     - type: story
       service: tg
       id: 4
       published: 2026-01-09-18-07-43
-      updated: 2026-02-20-20-41-21
+      updated: 2026-02-27-21-36-09
       followers: 879
       views: 172
 2026-01-17-1-resque-of-tarhiel:
