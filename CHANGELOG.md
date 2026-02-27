@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file.
 
+## [2.18.1](https://github.com/dehero/mwscr/compare/v2.18.0...v2.18.1) (2026-02-27)
+
+### Bug Fixes
+
+- use channel subscription url for MAX publication links
+  ([b8a3453](https://github.com/dehero/mwscr/commit/b8a3453e44ca6b94e3f4a05a575009ba249bf9d3))
+
 ## [2.18.0](https://github.com/dehero/mwscr/compare/v2.17.0...v2.18.0) (2026-02-27)
 
 ### Features
