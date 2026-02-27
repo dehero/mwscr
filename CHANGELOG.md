@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file.
 
+## [2.18.2](https://github.com/dehero/mwscr/compare/v2.18.1...v2.18.2) (2026-02-27)
+
+### Continuous Integration
+
+- use MAX Green-API secrets in workflow
+  ([43ed533](https://github.com/dehero/mwscr/commit/43ed533fdfa6ad5c1bb012d693bc6979c764e3d4))
+
 ## [2.18.1](https://github.com/dehero/mwscr/compare/v2.18.0...v2.18.1) (2026-02-27)
 
 ### Bug Fixes
