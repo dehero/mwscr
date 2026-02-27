@@ -36,6 +36,8 @@ export interface PostingService<TPublication extends Publication = Publication> 
 
 export interface PostingServiceManager<TPublication extends Publication = Publication>
   extends PostingService<TPublication> {
+  postingStartDate?: Date;
+
   connect: () => Promise<unknown>;
 
   disconnect: () => Promise<void>;
