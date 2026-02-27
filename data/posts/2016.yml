@@ -899,6 +899,19 @@
       likes: 65
       views: 507
       comments: !c ixeAkZPLQnj9qMKhAACoYmxhZ29jYmS70JrRgNCw0YHQuNCy0L7QtSDQvNC10YHRgtC+Aw==
+    - service: ig
+      id: DVRbO4VGuhu
+      mediaId: '18356886256204256'
+      published: 2026-02-27-18-59-10
+      followers: 1607
+    - service: vk
+      id: 3118
+      published: 2026-02-27-18-59-17
+      followers: 1610
+    - service: tg
+      id: 1162
+      published: 2026-02-27-18-59-24
+      followers: 889
 2016-12-05-balmora-walkthrough:
   title: Balmora Walkthrough
   titleRu: Прогулка по Балморе
