@@ -3710,7 +3710,7 @@ mr-primov:
   profiles:
     - service: vk
       id: '161727367'
-      updated: 2026-02-22-08-46-30
+      updated: 2026-02-27-02-36-25
       username: mr_primov
       name: Владимир Примов
       avatar: store:/avatars/vk-17e0fa04.jpg
@@ -4013,7 +4013,7 @@ o-sipuha:
   profiles:
     - service: vk
       id: '1042080884'
-      updated: 2026-02-26-23-37-19
+      updated: 2026-02-27-02-36-24
       username: o.sipuha
       name: Ольга Сипуха
       avatar: store:/avatars/vk-c168d64f.jpg
@@ -4208,7 +4208,7 @@ painkiller1986:
   profiles:
     - service: tg
       id: '6565289507'
-      updated: 2026-02-26-23-37-18
+      updated: 2026-02-27-02-36-26
       accessHash: '6198356028119192921'
       username: Painkiller1986
       name: Сумерки
