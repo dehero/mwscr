@@ -12507,6 +12507,10 @@
       comments: !c |-
         CyeAk5PLQnnH3ynZAACma2V2eS1jpPCfpoCTy0J5x8mD2wAAqnNvbm55a290eWGk8J+XoZPLQnnH
         x4RhgACuZGFya25lc3MtcmlmaG+k8J+ZjwM=
+    - service: mx
+      id: '1772211188412'
+      published: 2026-02-27-16-53-08
+      followers: 2
 2018-09-16-city-lights:
   title: City Lights
   titleRu: Городские огни
@@ -14480,16 +14484,16 @@
       id: DVO3TM1jTWl
       mediaId: '18114326755653482'
       published: 2026-02-26-19-06-40
-      updated: 2026-02-27-15-43-03
+      updated: 2026-02-27-16-50-13
       followers: 1609
       likes: 46
     - service: vk
       id: 3113
       published: 2026-02-26-19-06-47
-      updated: 2026-02-27-15-43-07
+      updated: 2026-02-27-16-50-15
       followers: 1609
-      likes: 42
-      views: 366
+      likes: 43
+      views: 379
       reposts: 3
       comments: !c |-
         G0EBQBwJNk5zwUavGs8/3KsZJC8Dk48em7O2gJZAC1SBeS5GrKpuRvgLJAThSqFh394dvnfHHtPd
@@ -14499,10 +14503,10 @@
     - service: tg
       id: 1161
       published: 2026-02-26-19-07-02
-      updated: 2026-02-27-15-43-09
+      updated: 2026-02-27-16-50-18
       followers: 889
       likes: 45
-      views: 183
+      views: 184
       comments: !c CwuAkZPLQnnJ1YzugACma2V2eS1jpPCfpoAD
 2018-10-23-noble-assassin:
   title: Noble Assassin
