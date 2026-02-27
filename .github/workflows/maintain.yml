@@ -36,6 +36,8 @@ jobs:
       YANDEX_DISK_STORE_PATH: '${{ secrets.YANDEX_DISK_STORE_PATH }}'
       YANDEX_DISK_ACCESS_TOKEN: '${{ secrets.YANDEX_DISK_ACCESS_TOKEN }}'
       YOUTUBE_API_KEY: '${{ secrets.YOUTUBE_API_KEY }}'
+      MAX_GREEN_API_INSTANCE_ID: '${{ secrets.MAX_GREEN_API_INSTANCE_ID }}'
+      MAX_GREEN_API_TOKEN: '${{ secrets.MAX_GREEN_API_TOKEN }}'
     steps:
       - name: Checkout
         uses: actions/checkout@v3
