@@ -39,12 +39,12 @@ export class MAX implements PostingService<MAXPublication> {
       return;
     }
 
-    // TODO: return `${this.origin}/c/${MAX_CHAT_ID}/<SHORTCODE>`;
-    return `${this.origin}/c/${MAX_CHAT_ID}`;
+    // TODO: return `${this.origin}/c/${MAX_CHAT_ID}/<SHORTCODE>`, like when copying post URL in Application;
+    return this.getSubscriptionUrl();
   }
 
   getSubscriptionUrl(): string {
-    return 'https://max.ru/join/-R4KQ7nJ2kzftusRbm5LAMU0tBAS-8w_mCg2NpxiDQc';
+    return `${this.origin}/join/-R4KQ7nJ2kzftusRbm5LAMU0tBAS-8w_mCg2NpxiDQc`;
   }
 
   getUserProfileUrl(profileId: string) {
