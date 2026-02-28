@@ -12056,6 +12056,10 @@
       comments: !c |-
         iyeAkpPLQnnJ1Yo/AACma2V2eS1jpPCfpoCTy0J5yWVebQAArnBhaW5raWxsZXIxOTg2v9Ct0LzQ
         uNC70Ywg0JLQtdGA0YXQsNC9INCc0LXRhy4D
+    - service: mx
+      id: '1772268120170'
+      published: 2026-02-28-08-42-00
+      followers: 2
 2017-09-08-sky-castle:
   title: Sky Castle
   titleRu: Замок в небе
