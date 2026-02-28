@@ -1415,7 +1415,7 @@ dehero:
     - type: channel
       service: tg
       id: '1264795946'
-      updated: 2026-02-28-10-31-10
+      updated: 2026-02-28-11-26-27
       accessHash: '-5789257269249675714'
       username: mwscr
       name: Morrowind Screenshots
@@ -2952,7 +2952,7 @@ kevy-c:
   profiles:
     - service: tg
       id: '5067683234'
-      updated: 2026-02-28-10-31-11
+      updated: 2026-02-28-11-26-28
       accessHash: '-903667913374325979'
       username: Kevy_c
       name: Dash
@@ -3710,7 +3710,7 @@ mr-primov:
   profiles:
     - service: vk
       id: '161727367'
-      updated: 2026-02-28-10-31-07
+      updated: 2026-02-28-11-26-29
       username: mr_primov
       name: Владимир Примов
       avatar: store:/avatars/vk-17e0fa04.jpg
@@ -4013,7 +4013,7 @@ o-sipuha:
   profiles:
     - service: vk
       id: '1042080884'
-      updated: 2026-02-28-10-31-07
+      updated: 2026-02-28-11-26-28
       username: o.sipuha
       name: Ольга Сипуха
       avatar: store:/avatars/vk-c168d64f.jpg
@@ -4208,7 +4208,7 @@ painkiller1986:
   profiles:
     - service: tg
       id: '6565289507'
-      updated: 2026-02-28-10-31-08
+      updated: 2026-02-28-11-26-27
       accessHash: '6198356028119192921'
       username: Painkiller1986
       name: Сумерки
@@ -4499,7 +4499,7 @@ pyriglena:
   profiles:
     - service: tg
       id: '554672984'
-      updated: 2026-02-28-10-31-09
+      updated: 2026-02-28-11-26-27
       accessHash: '-3565593010225205906'
       username: pyriglena
       name: yarrow
