@@ -468,7 +468,7 @@ anonim:
   profiles:
     - service: tg
       id: '6469120788'
-      updated: 2026-02-27-19-38-41
+      updated: 2026-02-28-20-33-45
       accessHash: '-3557204299452739678'
       name: Аноним
       avatar: store:/avatars/tg-5258428988957332590.jpg
@@ -600,7 +600,7 @@ arya-stark:
   profiles:
     - service: vk
       id: '820702664'
-      updated: 2026-02-28-16-35-19
+      updated: 2026-02-28-20-33-47
       username: id820702664
       name: Арья Старк
       avatar: store:/avatars/vk-689aa89d.jpg
@@ -1415,7 +1415,7 @@ dehero:
     - type: channel
       service: tg
       id: '1264795946'
-      updated: 2026-02-28-19-27-01
+      updated: 2026-02-28-20-33-44
       accessHash: '-5789257269249675714'
       username: mwscr
       name: Morrowind Screenshots
@@ -1941,7 +1941,7 @@ evgeniy-korobchenko:
   profiles:
     - service: vk
       id: '800945255'
-      updated: 2026-02-27-19-38-40
+      updated: 2026-02-28-20-33-42
       username: id800945255
       name: Евгений Коробченко
       avatar: store:/avatars/vk-8dff512d.jpg
@@ -2152,7 +2152,7 @@ ghost63rus:
   profiles:
     - service: vk
       id: '841031998'
-      updated: 2026-02-27-19-38-42
+      updated: 2026-02-28-20-33-46
       username: ghost63rus
       name: Дмитрий Кузнецов
       avatar: store:/avatars/vk-5a4d00c6.jpg
@@ -2952,7 +2952,7 @@ kevy-c:
   profiles:
     - service: tg
       id: '5067683234'
-      updated: 2026-02-28-19-27-00
+      updated: 2026-02-28-20-33-51
       accessHash: '-903667913374325979'
       username: Kevy_c
       name: Dash
@@ -4200,7 +4200,7 @@ p40jla:
   profiles:
     - service: vk
       id: '365527711'
-      updated: 2026-02-27-19-38-42
+      updated: 2026-02-28-20-33-46
       username: p40jla
       name: Николай Хорошун
       avatar: store:/avatars/vk-c9387c2d.jpg
@@ -4208,7 +4208,7 @@ painkiller1986:
   profiles:
     - service: tg
       id: '6565289507'
-      updated: 2026-02-28-19-27-00
+      updated: 2026-02-28-20-33-43
       accessHash: '6198356028119192921'
       username: Painkiller1986
       name: Сумерки
@@ -4499,7 +4499,7 @@ pyriglena:
   profiles:
     - service: tg
       id: '554672984'
-      updated: 2026-02-28-19-27-01
+      updated: 2026-02-28-20-33-46
       accessHash: '-3565593010225205906'
       username: pyriglena
       name: yarrow
@@ -4901,7 +4901,7 @@ sergey-b-2:
   profiles:
     - service: vk
       id: '1077446394'
-      updated: 2026-02-28-18-42-14
+      updated: 2026-02-28-20-33-51
       username: id1077446394
       name: Сергей Б
       avatar: store:/avatars/vk-5a7c7910.jpg
