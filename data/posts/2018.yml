@@ -4324,6 +4324,23 @@
       followers: 148
       likes: 14
       views: 195
+    - service: ig
+      id: DVT-fJDoPMt
+      mediaId: '17969838203859204'
+      published: 2026-02-28-18-45-41
+      followers: 1608
+    - service: vk
+      id: 3124
+      published: 2026-02-28-18-45-52
+      followers: 1613
+    - service: tg
+      id: 1164
+      published: 2026-02-28-18-45-58
+      followers: 885
+    - service: mx
+      id: '1772304365311'
+      published: 2026-02-28-18-46-05
+      followers: 2
 2018-04-01-the-sun-sets-and-rises:
   title: The Sun Sets and Rises
   titleRu: Солнце садится и встаёт
@@ -14484,16 +14501,16 @@
       id: DVO3TM1jTWl
       mediaId: '18114326755653482'
       published: 2026-02-26-19-06-40
-      updated: 2026-02-28-17-27-20
+      updated: 2026-02-28-18-42-01
       followers: 1609
-      likes: 55
+      likes: 56
     - service: vk
       id: 3113
       published: 2026-02-26-19-06-47
-      updated: 2026-02-28-17-27-23
+      updated: 2026-02-28-18-42-04
       followers: 1609
       likes: 54
-      views: 513
+      views: 519
       reposts: 3
       comments: !c |-
         G0EBQBwJNk5zwUavGs8/3KsZJC8Dk48em7O2gJZAC1SBeS5GrKpuRvgLJAThSqFh394dvnfHHtPd
@@ -14503,7 +14520,7 @@
     - service: tg
       id: 1161
       published: 2026-02-26-19-07-02
-      updated: 2026-02-28-17-27-25
+      updated: 2026-02-28-18-42-12
       followers: 889
       likes: 51
       views: 262
