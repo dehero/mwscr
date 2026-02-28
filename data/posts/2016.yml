@@ -903,24 +903,24 @@
       id: DVRbO4VGuhu
       mediaId: '18356886256204256'
       published: 2026-02-27-18-59-10
-      updated: 2026-02-28-12-58-55
+      updated: 2026-02-28-13-42-21
       followers: 1607
       likes: 48
     - service: vk
       id: 3118
       published: 2026-02-27-18-59-17
-      updated: 2026-02-28-12-58-51
+      updated: 2026-02-28-13-42-17
       followers: 1610
-      likes: 38
-      views: 404
+      likes: 39
+      views: 414
       reposts: 1
     - service: tg
       id: 1162
       published: 2026-02-27-18-59-24
-      updated: 2026-02-28-12-59-00
+      updated: 2026-02-28-13-42-26
       followers: 889
-      likes: 40
-      views: 187
+      likes: 42
+      views: 196
       comments: !c |-
         GzwDYCwSeBOtK6OhO04kBi/in4fD3weOwqe/JZx42QbMlhbwmCTzXGwCp6qyHf/FjXojhpD2u1kN
         XlNn8P3cWFKwBaPdnO7e/KhM+diGdHsWym2LZTUsHKqIwgfhQ6orUmX/39vrw/CBBqK3z5d2pn1B
@@ -930,6 +930,10 @@
         bHqjTBqHBJDVdXBp9nHWCb4JM6vliKQMHDE+qJMMbI8Ctyz2kbgOjVIx4VLoT40r27Fd7zLR67Lm
         zQFBG5iPRuAoERBitVWJU0hWL15AqAhncsUSF8+0RS/pxzb9jRYGRdd1jenrUx9niRo0AjfhkQzk
         NpQSL3q0aSTQnM0RfhAImtZQb9lHJ7CzRwGwOf7v/QI=
+    - service: mx
+      id: '1772286340982'
+      published: 2026-02-28-13-45-41
+      followers: 2
 2016-12-05-balmora-walkthrough:
   title: Balmora Walkthrough
   titleRu: Прогулка по Балморе
