@@ -1677,6 +1677,10 @@
       comments: !c |-
         iy6AkpPLQnnJWa57gACma2V2eS1jpPCfpoCTy0J5yUQKcYAArnBhaW5raWxsZXIxOTg22SzQkdCw
         0LfQvtCy0LjRh9C60Lgg0YMg0LrQvtGB0YLRgNCwINC/0L7QutCwLgM=
+    - service: mx
+      id: '1772257300838'
+      published: 2026-02-28-05-41-40
+      followers: 2
 2019-05-16-near-the-winter-well:
   title: Near the Winter Well
   titleRu: У зимнего колодца
