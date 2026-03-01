@@ -4328,24 +4328,28 @@
       id: DVT-fJDoPMt
       mediaId: '17969838203859204'
       published: 2026-02-28-18-45-41
-      updated: 2026-03-01-11-27-31
+      updated: 2026-03-01-13-02-20
       followers: 1608
       likes: 47
     - service: vk
       id: 3124
       published: 2026-02-28-18-45-52
-      updated: 2026-03-01-11-27-27
+      updated: 2026-03-01-13-02-18
       followers: 1613
-      likes: 27
-      views: 397
+      likes: 35
+      views: 462
       reposts: 1
+      comments: !c |-
+        G6cA+J0JdswK0JlFHlVE1C3CAynlJAyyQJtA0ycp2cN0bqUUo8Vg/5hXFDluY/u3lypBIL6yzE4P
+        NuAEvAA5skFuARIQSSZ53d8c74/nnMbx282b111/NUrJu1FUpGZYoIw7W39ZU6ADUjZuPIZllZLS
+        U5wk2OjHFACiDosBVsGr6ARcAA==
     - service: tg
       id: 1164
       published: 2026-02-28-18-45-58
-      updated: 2026-03-01-11-27-43
+      updated: 2026-03-01-13-02-16
       followers: 885
-      likes: 40
-      views: 159
+      likes: 41
+      views: 162
       comments: !c |-
         iyyAkpPLQnnKhzL1gACucGFpbmtpbGxlcjE5ODbZKNCSINCa0L7QvdGE0YMg0LLQu9C40YLRjNGB
         0Y8g0YXQvtGH0LXRgi6Ty0J5ymHYdYAApmtldnktY6Twn6aAAw==
