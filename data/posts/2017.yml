@@ -2932,10 +2932,10 @@
     - service: tg
       id: 1151
       published: 2026-02-14-18-35-46
-      updated: 2026-02-22-16-39-37
+      updated: 2026-03-01-19-31-46
       followers: 888
-      likes: 66
-      views: 405
+      likes: 68
+      views: 538
       comments: !c |-
         G54AMB2Jsa2IvVg+zhFEttwr2QqgEA5hQZhSqjuwpQtJXqJMnVXkjAPdXAlVsFkMVdSf4c/M4gtj
         NzjQAMNAOAwXHoTGYaE94Lq10Y54c54vl0duue1kGEmx1+81uzqLEYzJ5ZiMKMBCEu74TsqG4smB
@@ -12035,24 +12035,24 @@
       id: DVML30UFOEp
       mediaId: '17899705134391046'
       published: 2026-02-25-18-08-42
-      updated: 2026-02-28-18-42-06
+      updated: 2026-03-01-19-31-31
       followers: 1608
-      likes: 51
+      likes: 54
     - service: vk
       id: 3109
       published: 2026-02-25-18-08-50
-      updated: 2026-02-28-18-42-10
+      updated: 2026-03-01-19-31-42
       followers: 1608
-      likes: 49
-      views: 417
+      likes: 51
+      views: 448
       reposts: 3
     - service: tg
       id: 1160
       published: 2026-02-25-18-09-00
-      updated: 2026-02-28-18-42-15
+      updated: 2026-03-01-19-31-33
       followers: 889
-      likes: 60
-      views: 290
+      likes: 61
+      views: 306
       comments: !c |-
         iyeAkpPLQnnJ1Yo/AACma2V2eS1jpPCfpoCTy0J5yWVebQAArnBhaW5raWxsZXIxOTg2v9Ct0LzQ
         uNC70Ywg0JLQtdGA0YXQsNC9INCc0LXRhy4D
@@ -13319,6 +13319,23 @@
       followers: 82
       likes: 10
       views: 142
+    - service: ig
+      id: DVWpCizDNmG
+      mediaId: '18084587834244193'
+      published: 2026-03-01-19-36-02
+      followers: 1608
+    - service: vk
+      id: 3134
+      published: 2026-03-01-19-36-12
+      followers: 1615
+    - service: tg
+      id: 1165
+      published: 2026-03-01-19-36-21
+      followers: 885
+    - service: mx
+      id: '1772393790282'
+      published: 2026-03-01-19-36-30
+      followers: 2
 2017-10-05-in-the-hall-of-thirsk:
   title: In the Hall of Thirsk
   titleRu: В зале Тирска
