@@ -503,7 +503,7 @@ anton-mezhuev:
   profiles:
     - service: vk
       id: '63571521'
-      updated: 2026-03-01-20-35-45
+      updated: 2026-03-01-21-32-19
       username: id63571521
       name: Антон Межуев
       avatar: store:/avatars/vk-295e8e4f.jpg
@@ -2952,7 +2952,7 @@ kevy-c:
   profiles:
     - service: tg
       id: '5067683234'
-      updated: 2026-03-01-20-35-51
+      updated: 2026-03-01-21-32-21
       accessHash: '-903667913374325979'
       username: Kevy_c
       name: Dash
@@ -4208,7 +4208,7 @@ painkiller1986:
   profiles:
     - service: tg
       id: '6565289507'
-      updated: 2026-03-01-20-35-44
+      updated: 2026-03-01-21-32-21
       accessHash: '6198356028119192921'
       username: Painkiller1986
       name: Сумерки
@@ -4499,7 +4499,7 @@ pyriglena:
   profiles:
     - service: tg
       id: '554672984'
-      updated: 2026-03-01-20-35-50
+      updated: 2026-03-01-21-32-17
       accessHash: '-3565593010225205906'
       username: pyriglena
       name: yarrow
