@@ -759,6 +759,23 @@
       comments: !c |-
         G1cAcGTq5tsbPfB/RQmOsUDaNJbl8zzQhNMuxzjRwfwGGQccyJd7heqNzt0OD51+VfQCsHGmlCLJ
         CpzkZlWIyoV9iNR/XbIe0EBmnQKnRQESnIATpeASWge+RQw=
+    - service: ig
+      id: DVZKD-0jrEW
+      mediaId: '18108859573773294'
+      published: 2026-03-02-19-03-02
+      followers: 1608
+    - service: vk
+      id: 3136
+      published: 2026-03-02-19-03-27
+      followers: 1615
+    - service: tg
+      id: 1166
+      published: 2026-03-02-19-03-34
+      followers: 886
+    - service: mx
+      id: '1772478219509'
+      published: 2026-03-02-19-03-39
+      followers: 2
 2018-01-17-nelas-ancestral-tomb:
   title: Nelas Ancestral Tomb
   titleRu: Родовая гробница Неласов
