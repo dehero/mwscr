@@ -2668,6 +2668,14 @@ ivan:
       username: Londobell00
       name: vovo
       avatar: store:/avatars/tg-4913815480439606020.jpg
+ivan-uralov:
+  profiles:
+    - service: vk
+      id: '16497155'
+      updated: 2026-03-03-10-50-43
+      username: id16497155
+      name: Иван Уралов
+      avatar: store:/avatars/vk-51775759.jpg
 izipvnk:
   profiles:
     - service: ig
@@ -2952,7 +2960,7 @@ kevy-c:
   profiles:
     - service: tg
       id: '5067683234'
-      updated: 2026-03-03-09-53-15
+      updated: 2026-03-03-10-50-39
       accessHash: '-903667913374325979'
       username: Kevy_c
       name: Dash
@@ -4208,7 +4216,7 @@ painkiller1986:
   profiles:
     - service: tg
       id: '6565289507'
-      updated: 2026-03-03-09-53-15
+      updated: 2026-03-03-10-50-40
       accessHash: '6198356028119192921'
       username: Painkiller1986
       name: Сумерки
@@ -4499,7 +4507,7 @@ pyriglena:
   profiles:
     - service: tg
       id: '554672984'
-      updated: 2026-03-03-09-53-15
+      updated: 2026-03-03-10-50-39
       accessHash: '-3565593010225205906'
       username: pyriglena
       name: yarrow
