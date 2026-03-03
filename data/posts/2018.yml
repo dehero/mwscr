@@ -437,10 +437,10 @@
     - service: tg
       id: 1152
       published: 2026-02-16-18-38-27
-      updated: 2026-02-24-18-01-59
+      updated: 2026-03-03-19-02-47
       followers: 890
-      likes: 60
-      views: 432
+      likes: 62
+      views: 543
       comments: !c |-
         CzCAkpPLQnnGhxJyAACma2V2eS1jpPCfpoCTy0J5xnv45IAArnBhaW5raWxsZXIxOTg22S/QotGA
         0Lgg0LfQsNC/0L7QstC10LTQuCDQntC00LjQvdC+0YfQtdGB0YLQstCwLgM=
@@ -763,24 +763,24 @@
       id: DVZKD-0jrEW
       mediaId: '18108859573773294'
       published: 2026-03-02-19-03-02
-      updated: 2026-03-03-17-53-31
+      updated: 2026-03-03-19-02-28
       followers: 1608
-      likes: 50
+      likes: 51
     - service: vk
       id: 3136
       published: 2026-03-02-19-03-27
-      updated: 2026-03-03-17-53-26
+      updated: 2026-03-03-19-02-24
       followers: 1615
-      likes: 47
-      views: 600
+      likes: 49
+      views: 650
       reposts: 2
     - service: tg
       id: 1166
       published: 2026-03-02-19-03-34
-      updated: 2026-03-03-17-53-38
+      updated: 2026-03-03-19-02-30
       followers: 886
-      likes: 44
-      views: 170
+      likes: 45
+      views: 174
       comments: !c CwuAkZPLQnnLAHcmAACma2V2eS1jpPCfpoAD
     - service: mx
       id: '1772478219509'
@@ -4355,16 +4355,16 @@
       id: DVT-fJDoPMt
       mediaId: '17969838203859204'
       published: 2026-02-28-18-45-41
-      updated: 2026-03-02-17-54-39
+      updated: 2026-03-03-19-02-37
       followers: 1608
-      likes: 55
+      likes: 56
     - service: vk
       id: 3124
       published: 2026-02-28-18-45-52
-      updated: 2026-03-02-17-54-42
+      updated: 2026-03-03-19-02-45
       followers: 1613
-      likes: 56
-      views: 1080
+      likes: 62
+      views: 1256
       reposts: 1
       comments: !c |-
         G6cA+J0JdswK0JlFHlVE1C3CAynlJAyyQJtA0ycp2cN0bqUUo8Vg/5hXFDluY/u3lypBIL6yzE4P
@@ -4373,10 +4373,10 @@
     - service: tg
       id: 1164
       published: 2026-02-28-18-45-58
-      updated: 2026-03-02-17-54-46
+      updated: 2026-03-03-19-02-43
       followers: 885
-      likes: 49
-      views: 225
+      likes: 52
+      views: 251
       comments: !c |-
         iyyAkpPLQnnKhzL1gACucGFpbmtpbGxlcjE5ODbZKNCSINCa0L7QvdGE0YMg0LLQu9C40YLRjNGB
         0Y8g0YXQvtGH0LXRgi6Ty0J5ymHYdYAApmtldnktY6Twn6aAAw==
@@ -5475,6 +5475,23 @@
       followers: 155
       likes: 20
       views: 232
+    - service: ig
+      id: DVbvRgsDji8
+      mediaId: '18426076468139972'
+      published: 2026-03-03-19-06-41
+      followers: 1609
+    - service: vk
+      id: 3139
+      published: 2026-03-03-19-06-50
+      followers: 1615
+    - service: tg
+      id: 1167
+      published: 2026-03-03-19-06-56
+      followers: 885
+    - service: mx
+      id: '1772564825736'
+      published: 2026-03-03-19-07-06
+      followers: 2
 2018-04-24-did-you-hear-that-cry:
   title: Did You Hear That Cry?
   titleRu: Ты слышал этот вой?
