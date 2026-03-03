@@ -763,23 +763,24 @@
       id: DVZKD-0jrEW
       mediaId: '18108859573773294'
       published: 2026-03-02-19-03-02
-      updated: 2026-03-03-02-42-09
+      updated: 2026-03-03-04-52-27
       followers: 1608
-      likes: 30
+      likes: 34
     - service: vk
       id: 3136
       published: 2026-03-02-19-03-27
-      updated: 2026-03-03-02-42-05
+      updated: 2026-03-03-04-52-23
       followers: 1615
-      likes: 10
-      views: 134
+      likes: 14
+      views: 214
+      reposts: 1
     - service: tg
       id: 1166
       published: 2026-03-02-19-03-34
-      updated: 2026-03-03-02-42-13
+      updated: 2026-03-03-04-52-31
       followers: 886
-      likes: 39
-      views: 132
+      likes: 41
+      views: 146
       comments: !c CwuAkZPLQnnLAHcmAACma2V2eS1jpPCfpoAD
     - service: mx
       id: '1772478219509'
