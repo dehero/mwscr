@@ -763,24 +763,24 @@
       id: DVZKD-0jrEW
       mediaId: '18108859573773294'
       published: 2026-03-02-19-03-02
-      updated: 2026-03-03-19-02-28
+      updated: 2026-03-03-19-46-26
       followers: 1608
-      likes: 51
+      likes: 52
     - service: vk
       id: 3136
       published: 2026-03-02-19-03-27
-      updated: 2026-03-03-19-02-24
+      updated: 2026-03-03-19-46-22
       followers: 1615
-      likes: 49
-      views: 650
+      likes: 50
+      views: 676
       reposts: 2
     - service: tg
       id: 1166
       published: 2026-03-02-19-03-34
-      updated: 2026-03-03-19-02-30
+      updated: 2026-03-03-19-46-34
       followers: 886
       likes: 45
-      views: 174
+      views: 186
       comments: !c CwuAkZPLQnnLAHcmAACma2V2eS1jpPCfpoAD
     - service: mx
       id: '1772478219509'
@@ -5479,15 +5479,24 @@
       id: DVbvRgsDji8
       mediaId: '18426076468139972'
       published: 2026-03-03-19-06-41
+      updated: 2026-03-03-19-46-25
       followers: 1609
+      likes: 8
     - service: vk
       id: 3139
       published: 2026-03-03-19-06-50
+      updated: 2026-03-03-19-46-20
       followers: 1615
+      likes: 2
+      views: 25
     - service: tg
       id: 1167
       published: 2026-03-03-19-06-56
+      updated: 2026-03-03-19-46-30
       followers: 885
+      likes: 22
+      views: 72
+      comments: !c CwuAkZPLQnnLUogugACma2V2eS1jpPCfpoAD
     - service: mx
       id: '1772564825736'
       published: 2026-03-03-19-07-06
@@ -14561,16 +14570,16 @@
       id: DVO3TM1jTWl
       mediaId: '18114326755653482'
       published: 2026-02-26-19-06-40
-      updated: 2026-03-02-19-43-23
+      updated: 2026-03-03-19-46-28
       followers: 1609
-      likes: 60
+      likes: 62
     - service: vk
       id: 3113
       published: 2026-02-26-19-06-47
-      updated: 2026-03-02-19-43-27
+      updated: 2026-03-03-19-46-31
       followers: 1609
-      likes: 65
-      views: 658
+      likes: 67
+      views: 708
       reposts: 4
       comments: !c |-
         G0EBQBwJNk5zwUavGs8/3KsZJC8Dk48em7O2gJZAC1SBeS5GrKpuRvgLJAThSqFh394dvnfHHtPd
@@ -14580,10 +14589,10 @@
     - service: tg
       id: 1161
       published: 2026-02-26-19-07-02
-      updated: 2026-03-02-19-43-37
+      updated: 2026-03-03-19-46-38
       followers: 889
-      likes: 56
-      views: 297
+      likes: 57
+      views: 314
       comments: !c CwuAkZPLQnnJ1YzugACma2V2eS1jpPCfpoAD
     - service: mx
       id: '1772278182590'
