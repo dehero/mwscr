@@ -1,0 +1,914 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Master Photo Editor: Pro Controls</title>
+    <style>
+      :root {
+        --primary: #007bff;
+        --success: #28a745;
+        --danger: #dc3545;
+        --bg-dark: #1a1a1a;
+        --panel-bg: #252525;
+      }
+      body {
+        font-family: 'Segoe UI', sans-serif;
+        background: #121212;
+        color: #fff;
+        margin: 0;
+        display: flex;
+        height: 100vh;
+        overflow: hidden;
+      }
+
+      /* Левая панель с контроллами */
+      .left-panel {
+        width: 280px;
+        background: var(--bg-dark);
+        border-right: 1px solid #333;
+        display: flex;
+        flex-direction: column;
+        padding: 20px 0;
+        overflow-y: auto;
+        z-index: 100;
+      }
+
+      .panel-section {
+        padding: 0 16px 20px 16px;
+        border-bottom: 1px solid #333;
+      }
+
+      .panel-section:last-child {
+        border-bottom: none;
+      }
+
+      .section-title {
+        font-size: 11px;
+        font-weight: 600;
+        text-transform: uppercase;
+        color: #888;
+        margin-bottom: 16px;
+        letter-spacing: 0.5px;
+      }
+
+      .control-group {
+        margin-bottom: 20px;
+      }
+
+      .control-label {
+        display: flex;
+        justify-content: space-between;
+        font-size: 13px;
+        color: #ccc;
+        margin-bottom: 8px;
+      }
+
+      .control-label span:first-child {
+        text-transform: uppercase;
+        font-size: 11px;
+        color: #888;
+      }
+
+      .control-label span:last-child {
+        font-weight: 600;
+        color: var(--primary);
+      }
+
+      input[type='range'] {
+        width: 100%;
+        height: 4px;
+        -webkit-appearance: none;
+        background: #333;
+        border-radius: 2px;
+        outline: none;
+      }
+
+      input[type='range']::-webkit-slider-thumb {
+        -webkit-appearance: none;
+        width: 16px;
+        height: 16px;
+        background: var(--primary);
+        border-radius: 50%;
+        cursor: pointer;
+        border: 2px solid #fff;
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+      }
+
+      .file-area {
+        background: #333;
+        border-radius: 8px;
+        padding: 12px;
+        text-align: center;
+        margin-bottom: 20px;
+      }
+
+      .file-btn {
+        background: var(--primary);
+        color: #fff;
+        padding: 10px 20px;
+        border-radius: 6px;
+        cursor: pointer;
+        font-size: 14px;
+        font-weight: 600;
+        display: inline-block;
+        width: 100%;
+        box-sizing: border-box;
+        transition: 0.2s;
+      }
+
+      .file-btn:hover {
+        background: #0056b3;
+      }
+
+      input[type='file'] {
+        position: absolute;
+        width: 0.1px;
+        height: 0.1px;
+        opacity: 0;
+        overflow: hidden;
+      }
+
+      .action-buttons {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        margin-top: 10px;
+      }
+
+      .action-btn {
+        background: #333;
+        color: #fff;
+        border: none;
+        padding: 12px;
+        border-radius: 6px;
+        font-size: 13px;
+        font-weight: 600;
+        cursor: pointer;
+        transition: 0.2s;
+        text-transform: uppercase;
+        letter-spacing: 0.5px;
+      }
+
+      .action-btn.primary {
+        background: var(--success);
+      }
+
+      .action-btn.danger {
+        background: var(--danger);
+      }
+
+      .action-btn:hover {
+        filter: brightness(1.2);
+      }
+
+      .action-btn:active {
+        transform: translateY(1px);
+      }
+
+      /* Блок кадрирования в левой панели */
+      .crop-section {
+        background: #252525;
+        border-radius: 8px;
+        padding: 16px;
+        margin-bottom: 20px;
+      }
+
+      .crop-title {
+        font-size: 12px;
+        font-weight: 600;
+        color: #aaa;
+        margin-bottom: 12px;
+        text-transform: uppercase;
+        letter-spacing: 0.5px;
+      }
+
+      .ratio-grid {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 8px;
+        margin-bottom: 12px;
+      }
+
+      .ratio-grid label {
+        background: #333;
+        padding: 10px;
+        border-radius: 6px;
+        cursor: pointer;
+        font-size: 13px;
+        font-weight: 600;
+        text-align: center;
+        border: 1px solid #444;
+        transition: 0.2s;
+      }
+
+      .ratio-grid input:checked + label {
+        background: var(--primary);
+        border-color: var(--primary);
+      }
+
+      .ratio-grid input:disabled + label {
+        opacity: 0.3;
+        cursor: not-allowed;
+        pointer-events: none;
+      }
+
+      .ratio-grid input {
+        display: none;
+      }
+
+      #appliedPanel {
+        display: none;
+        align-items: center;
+        gap: 8px;
+        margin-top: 12px;
+        padding-top: 12px;
+        border-top: 1px solid #444;
+      }
+
+      .status-info {
+        background: #333;
+        padding: 8px 12px;
+        border-radius: 6px;
+        border: 1px solid #444;
+        font-size: 12px;
+        font-weight: 600;
+        flex: 1;
+        text-align: center;
+      }
+
+      /* Основная рабочая область */
+      .workspace {
+        flex: 1;
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: #0a0a0a;
+        overflow: hidden;
+      }
+
+      .img-container {
+        position: relative;
+        display: none;
+        line-height: 0;
+        box-shadow: 0 0 40px rgba(0, 0, 0, 0.5);
+      }
+
+      #mainImg {
+        max-width: 85vw;
+        max-height: 85vh;
+        user-select: none;
+        pointer-events: none;
+      }
+
+      /* Кнопки действий в правом верхнем углу */
+      .action-bar {
+        position: fixed;
+        top: 20px;
+        right: 20px;
+        display: flex;
+        gap: 10px;
+        z-index: 200;
+      }
+
+      .action-bar .action-btn {
+        background: var(--bg-dark);
+        border: 1px solid #444;
+        min-width: 100px;
+      }
+
+      #cropBox {
+        position: absolute;
+        border: 2px solid var(--primary);
+        box-sizing: border-box;
+        cursor: move;
+        box-shadow: 0 0 0 5000px rgba(0, 0, 0, 0.7);
+        display: none;
+        z-index: 10;
+      }
+
+      .grid-line {
+        position: absolute;
+        background: rgba(255, 255, 255, 0.2);
+        pointer-events: none;
+      }
+
+      .v-line {
+        width: 1px;
+        top: 0;
+        bottom: 0;
+      }
+
+      .h-line {
+        height: 1px;
+        left: 0;
+        right: 0;
+      }
+
+      .edge {
+        position: absolute;
+        z-index: 11;
+      }
+
+      .e-n {
+        top: -10px;
+        left: 0;
+        right: 0;
+        height: 20px;
+        cursor: ns-resize;
+      }
+
+      .e-s {
+        bottom: -10px;
+        left: 0;
+        right: 0;
+        height: 20px;
+        cursor: ns-resize;
+      }
+
+      .e-e {
+        right: -10px;
+        top: 0;
+        bottom: 0;
+        width: 20px;
+        cursor: ew-resize;
+      }
+
+      .e-w {
+        left: -10px;
+        top: 0;
+        bottom: 0;
+        width: 20px;
+        cursor: ew-resize;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Левая панель с контроллами -->
+    <div class="left-panel">
+      <div class="panel-section">
+        <div class="section-title">Файл</div>
+        <div class="file-area">
+          <label class="file-btn">ВЫБРАТЬ ИЗОБРАЖЕНИЕ<input type="file" id="upload" accept="image/*" /></label>
+        </div>
+      </div>
+
+      <div class="panel-section">
+        <div class="section-title">Коррекция</div>
+
+        <div class="control-group">
+          <div class="control-label">
+            <span>Экспозиция</span>
+            <span id="expVal">1.0</span>
+          </div>
+          <input type="range" id="expRange" min="0.2" max="3" step="0.05" value="1" />
+          <div style="font-size: 10px; color: #666; margin-top: 4px">Общая яркость изображения</div>
+        </div>
+
+        <div class="control-group">
+          <div class="control-label">
+            <span>Яркость</span>
+            <span id="brightVal">0</span>
+          </div>
+          <input type="range" id="brightRange" min="-0.5" max="0.5" step="0.05" value="0" />
+          <div style="font-size: 10px; color: #666; margin-top: 4px">Смещение яркости</div>
+        </div>
+
+        <div class="control-group">
+          <div class="control-label">
+            <span>Контраст</span>
+            <span id="conVal">1.0</span>
+          </div>
+          <input type="range" id="conRange" min="0.5" max="2" step="0.05" value="1" />
+        </div>
+
+        <div class="control-group">
+          <div class="control-label">
+            <span>Тени</span>
+            <span id="shaVal">0</span>
+          </div>
+          <input type="range" id="shaRange" min="0" max="1" step="0.05" value="0" />
+        </div>
+
+        <div class="control-group">
+          <div class="control-label">
+            <span>Света</span>
+            <span id="highVal">0</span>
+          </div>
+          <input type="range" id="highRange" min="0" max="1" step="0.05" value="0" />
+        </div>
+
+        <div class="control-group">
+          <div class="control-label">
+            <span>Насыщенность</span>
+            <span id="satVal">1.0</span>
+          </div>
+          <input type="range" id="satRange" min="0" max="3" step="0.1" value="1" />
+        </div>
+      </div>
+
+      <div class="panel-section">
+        <div class="section-title">Кадрирование</div>
+
+        <div class="crop-section">
+          <div class="crop-title">Выберите соотношение</div>
+          <div class="ratio-grid" id="ratioToggles">
+            <input type="radio" name="rt" id="r0" value="0" checked /><label for="r0">Оригинал</label>
+            <input type="radio" name="rt" id="r1" value="1" /><label for="r1">1:1</label>
+            <input type="radio" name="rt" id="r2" value="1.5" /><label for="r2">3:2</label>
+            <input type="radio" name="rt" id="r3" value="1.777" /><label for="r3">16:9</label>
+          </div>
+
+          <button id="confirmBtn" class="action-btn primary" style="width: 100%">ПРИМЕНИТЬ КАДР</button>
+
+          <div id="appliedPanel">
+            <div class="status-info">Кадр: <b id="appliedLabel">-</b></div>
+            <button id="undoBtn" class="action-btn danger" style="flex: 1">ОТМЕНИТЬ</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="panel-section">
+        <div class="action-buttons">
+          <button id="resetFiltersBtn" class="action-btn">СБРОСИТЬ ФИЛЬТРЫ</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Правая верхняя панель с действиями -->
+    <div class="action-bar">
+      <button id="compareBtn" class="action-btn">СРАВНИТЬ</button>
+      <button id="downloadBtn" class="action-btn">СКАЧАТЬ</button>
+    </div>
+
+    <!-- Рабочая область -->
+    <div class="workspace">
+      <div class="img-container" id="container">
+        <img id="mainImg" />
+        <div id="cropBox">
+          <div class="grid-line v-line" style="left: 33.3%"></div>
+          <div class="grid-line v-line" style="left: 66.6%"></div>
+          <div class="grid-line h-line" style="top: 33.3%"></div>
+          <div class="grid-line h-line" style="top: 66.6%"></div>
+          <div class="edge e-n" data-h="n"></div>
+          <div class="edge e-s" data-h="s"></div>
+          <div class="edge e-e" data-h="e"></div>
+          <div class="edge e-w" data-h="w"></div>
+        </div>
+      </div>
+    </div>
+
+    <svg width="0" height="0" style="position: absolute">
+      <filter id="masterFilter" color-interpolation-filters="sRGB">
+        <!-- Экспо и Контраст -->
+        <feComponentTransfer result="base">
+          <feFuncR id="fR_exp" type="linear" slope="1" intercept="0" />
+          <feFuncG id="fG_exp" type="linear" slope="1" intercept="0" />
+          <feFuncB id="fB_exp" type="linear" slope="1" intercept="0" />
+        </feComponentTransfer>
+
+        <!-- Яркость (смещение) -->
+        <feComponentTransfer in="base" result="with_brightness">
+          <feFuncR id="fR_bright" type="linear" slope="1" intercept="0" />
+          <feFuncG id="fG_bright" type="linear" slope="1" intercept="0" />
+          <feFuncB id="fB_bright" type="linear" slope="1" intercept="0" />
+        </feComponentTransfer>
+
+        <!-- Маска теней -->
+        <feColorMatrix in="with_brightness" type="luminanceToAlpha" result="shadow_mask_alpha" />
+        <feComponentTransfer in="shadow_mask_alpha" result="shadow_mask">
+          <feFuncA type="table" tableValues="1 0" />
+        </feComponentTransfer>
+        <feComponentTransfer in="with_brightness" result="shadow_brightened">
+          <feFuncR id="fR_sha" type="linear" slope="1" />
+          <feFuncG id="fG_sha" type="linear" slope="1" />
+          <feFuncB id="fB_sha" type="linear" slope="1" />
+        </feComponentTransfer>
+        <feComposite in="shadow_brightened" in2="shadow_mask" operator="in" result="shadow_fix" />
+        <feComposite in="shadow_fix" in2="with_brightness" operator="over" result="after_shadows" />
+
+        <!-- Маска светов (инвертированная маска теней) -->
+        <feColorMatrix in="after_shadows" type="luminanceToAlpha" result="highlights_mask_alpha" />
+        <feComponentTransfer in="highlights_mask_alpha" result="highlights_mask">
+          <feFuncA type="table" tableValues="0 1" />
+        </feComponentTransfer>
+        <feComponentTransfer in="after_shadows" result="highlights_darkened">
+          <feFuncR id="fR_high" type="linear" slope="1" />
+          <feFuncG id="fG_high" type="linear" slope="1" />
+          <feFuncB id="fB_high" type="linear" slope="1" />
+        </feComponentTransfer>
+        <feComposite in="highlights_darkened" in2="highlights_mask" operator="in" result="highlights_fix" />
+        <feComposite in="highlights_fix" in2="after_shadows" operator="over" result="tones_fixed" />
+
+        <!-- Общая Насыщенность -->
+        <feColorMatrix in="tones_fixed" id="fMat_sat" type="saturate" values="1" />
+      </filter>
+    </svg>
+
+    <script>
+      const img = document.getElementById('mainImg');
+      const cropBox = document.getElementById('cropBox');
+      const container = document.getElementById('container');
+      const confirmBtn = document.getElementById('confirmBtn');
+      const appliedPanel = document.getElementById('appliedPanel');
+      const selectorGroup = document.getElementById('ratioToggles');
+      const compareBtn = document.getElementById('compareBtn');
+      const resetFiltersBtn = document.getElementById('resetFiltersBtn');
+
+      // Состояние фильтров по умолчанию
+      const defaultFilters = {
+        exp: 1,
+        bright: 0,
+        con: 1,
+        sha: 0,
+        high: 0,
+        sat: 1,
+      };
+
+      let box = { t: 0, l: 0, w: 0, h: 0 },
+        activeHandle = null,
+        isDragging = false,
+        startMouse = {},
+        startBox = {};
+      let originalFileUrl = null,
+        currentImageUrl = null,
+        lastValidCropBox = null;
+      const MIN_PX = 800;
+
+      // Флаг для отслеживания, активен ли фильтр
+      let isFilterActive = false;
+
+      function updateBoxUI() {
+        cropBox.style.top = box.t + 'px';
+        cropBox.style.left = box.l + 'px';
+        cropBox.style.width = box.w + 'px';
+        cropBox.style.height = box.h + 'px';
+      }
+
+      function validateRatios() {
+        if (!img.naturalWidth) return;
+        const w = img.naturalWidth,
+          h = img.naturalHeight;
+        document.querySelectorAll('input[name="rt"]').forEach((input) => {
+          const r = parseFloat(input.value);
+          if (r === 0) return;
+          let mW, mH;
+          if (r >= 1) {
+            mH = MIN_PX;
+            mW = MIN_PX * r;
+          } else {
+            mW = MIN_PX;
+            mH = MIN_PX / r;
+          }
+          input.disabled = !(mW <= w && mH <= h);
+        });
+      }
+
+      function setCropFrame(ratio) {
+        if (ratio === 0) {
+          cropBox.style.display = 'none';
+          confirmBtn.style.display = 'block';
+          confirmBtn.textContent = 'ПРИМЕНИТЬ КАДР';
+          return;
+        }
+        cropBox.style.display = 'block';
+        confirmBtn.style.display = 'block';
+        confirmBtn.textContent = 'ПРИМЕНИТЬ КАДР';
+        const r = container.getBoundingClientRect();
+        let nW = r.width,
+          nH = nW / ratio;
+        if (nH > r.height) {
+          nH = r.height;
+          nW = nH * ratio;
+        }
+        box = { w: nW, h: nH, l: (r.width - nW) / 2, t: (r.height - nH) / 2 };
+        updateBoxUI();
+      }
+
+      // Функция для проверки, нужно ли применять фильтр
+      function shouldApplyFilter() {
+        const exp = parseFloat(document.getElementById('expRange').value);
+        const bright = parseFloat(document.getElementById('brightRange').value);
+        const con = parseFloat(document.getElementById('conRange').value);
+        const sha = parseFloat(document.getElementById('shaRange').value);
+        const high = parseFloat(document.getElementById('highRange').value);
+        const sat = parseFloat(document.getElementById('satRange').value);
+
+        // Проверяем, отличаются ли значения от дефолтных
+        return (
+          Math.abs(exp - defaultFilters.exp) > 0.01 ||
+          Math.abs(bright - defaultFilters.bright) > 0.01 ||
+          Math.abs(con - defaultFilters.con) > 0.01 ||
+          Math.abs(sha - defaultFilters.sha) > 0.01 ||
+          Math.abs(high - defaultFilters.high) > 0.01 ||
+          Math.abs(sat - defaultFilters.sat) > 0.01
+        );
+      }
+
+      // Функция для обновления применения фильтра
+      function updateFilterApplication() {
+        const shouldApply = shouldApplyFilter();
+
+        if (shouldApply && !isFilterActive) {
+          img.style.filter = 'url(#masterFilter)';
+          isFilterActive = true;
+        } else if (!shouldApply && isFilterActive) {
+          img.style.filter = 'none';
+          isFilterActive = false;
+        }
+      }
+
+      document.getElementById('ratioToggles').onchange = (e) => setCropFrame(parseFloat(e.target.value));
+
+      confirmBtn.onclick = () => {
+        const activeRadio = document.querySelector('input[name="rt"]:checked');
+        const ratio = parseFloat(activeRadio.value);
+
+        if (ratio === 0) {
+          // Если выбран оригинал, просто скрываем cropBox
+          cropBox.style.display = 'none';
+          confirmBtn.style.display = 'none';
+          appliedPanel.style.display = 'flex';
+          document.getElementById('appliedLabel').innerText = 'Оригинал';
+          return;
+        }
+
+        lastValidCropBox = { ...box, radioId: activeRadio.id };
+        const canvas = document.createElement('canvas'),
+          ctx = canvas.getContext('2d'),
+          s = img.naturalWidth / img.clientWidth;
+        canvas.width = box.w * s;
+        canvas.height = box.h * s;
+        ctx.drawImage(img, box.l * s, box.t * s, box.w * s, box.h * s, 0, 0, canvas.width, canvas.height);
+
+        confirmBtn.style.display = 'none';
+        appliedPanel.style.display = 'flex';
+        cropBox.style.display = 'none';
+        document.getElementById('appliedLabel').innerText = document.querySelector(
+          `label[for="${activeRadio.id}"]`,
+        ).innerText;
+
+        // Сохраняем обрезанное изображение
+        const croppedDataUrl = canvas.toDataURL();
+        currentImageUrl = croppedDataUrl;
+        img.src = croppedDataUrl;
+
+        // После загрузки обрезанного изображения проверяем необходимость фильтра
+        img.onload = () => {
+          updateFilterApplication();
+          img.onload = null;
+        };
+      };
+
+      document.getElementById('undoBtn').onclick = () => {
+        img.src = originalFileUrl;
+        currentImageUrl = originalFileUrl;
+        confirmBtn.style.display = 'block';
+        appliedPanel.style.display = 'none';
+        const radio = document.getElementById(lastValidCropBox?.radioId || 'r0');
+        radio.checked = true;
+        if (lastValidCropBox) {
+          box = { ...lastValidCropBox };
+          cropBox.style.display = 'block';
+          updateBoxUI();
+        } else {
+          cropBox.style.display = 'none';
+        }
+
+        // После загрузки оригинала проверяем необходимость фильтра
+        img.onload = () => {
+          updateFilterApplication();
+          img.onload = null;
+        };
+      };
+
+      // СРАВНЕНИЕ
+      compareBtn.onmousedown = () => {
+        img.style.filter = 'none';
+      };
+
+      compareBtn.onmouseup = compareBtn.onmouseleave = () => {
+        if (isFilterActive) {
+          img.style.filter = 'url(#masterFilter)';
+        }
+      };
+
+      // СБРОС ФИЛЬТРОВ
+      resetFiltersBtn.onclick = () => {
+        document.getElementById('expRange').value = defaultFilters.exp;
+        document.getElementById('expVal').innerText = defaultFilters.exp.toFixed(2);
+
+        document.getElementById('brightRange').value = defaultFilters.bright;
+        document.getElementById('brightVal').innerText = defaultFilters.bright.toFixed(2);
+
+        document.getElementById('conRange').value = defaultFilters.con;
+        document.getElementById('conVal').innerText = defaultFilters.con.toFixed(2);
+
+        document.getElementById('shaRange').value = defaultFilters.sha;
+        document.getElementById('shaVal').innerText = defaultFilters.sha.toFixed(2);
+
+        document.getElementById('highRange').value = defaultFilters.high;
+        document.getElementById('highVal').innerText = defaultFilters.high.toFixed(2);
+
+        document.getElementById('satRange').value = defaultFilters.sat;
+        document.getElementById('satVal').innerText = defaultFilters.sat.toFixed(2);
+
+        // Применяем сброшенные значения к фильтрам
+        updateExposureAndContrast();
+        updateBrightness();
+        updateShadows();
+        updateHighlights();
+        updateSaturation();
+
+        updateFilterApplication();
+      };
+
+      container.onmousedown = (e) => {
+        if (appliedPanel.style.display === 'flex') return; // Если кадр применен, не двигаем
+        if (e.target.dataset.h) activeHandle = e.target.dataset.h;
+        else if (e.target === cropBox) isDragging = true;
+        else return;
+        startMouse = { x: e.clientX, y: e.clientY };
+        startBox = { ...box };
+        e.preventDefault();
+      };
+
+      window.onmousemove = (e) => {
+        if (!isDragging && !activeHandle) return;
+        const dx = e.clientX - startMouse.x,
+          dy = e.clientY - startMouse.y;
+        const r = container.getBoundingClientRect(),
+          ratio = parseFloat(document.querySelector('input[name="rt"]:checked').value);
+        if (!ratio) return; // Если оригинал, не двигаем
+
+        const scale = img.naturalWidth / img.clientWidth;
+        const fMinW = Math.max(MIN_PX / scale, (MIN_PX / scale) * ratio),
+          fMinH = fMinW / ratio;
+
+        if (isDragging) {
+          box.l = Math.max(0, Math.min(startBox.l + dx, r.width - box.w));
+          box.t = Math.max(0, Math.min(startBox.t + dy, r.height - box.h));
+        } else {
+          let nL = startBox.l,
+            nT = startBox.t,
+            nW = startBox.w,
+            nH = startBox.h;
+          if (activeHandle === 'e') nW = Math.max(fMinW, Math.min(startBox.w + dx, r.width - startBox.l));
+          if (activeHandle === 's') nH = Math.max(fMinH, Math.min(startBox.h + dy, r.height - startBox.t));
+          if (activeHandle === 'w') {
+            const m = Math.max(-startBox.l, Math.min(dx, startBox.w - fMinW));
+            nL = startBox.l + m;
+            nW = startBox.w - m;
+          }
+          if (activeHandle === 'n') {
+            const m = Math.max(-startBox.t, Math.min(dy, startBox.h - fMinH));
+            nT = startBox.t + m;
+            nH = startBox.h - m;
+          }
+          if (activeHandle.match(/e|w/)) nH = nW / ratio;
+          else nW = nH * ratio;
+          if (nL + nW > r.width) {
+            nW = r.width - nL;
+            nH = nW / ratio;
+          }
+          if (nT + nH > r.height) {
+            nH = r.height - nT;
+            nW = nH * ratio;
+          }
+          box = { l: nL, t: nT, w: nW, h: nH };
+        }
+        updateBoxUI();
+      };
+
+      window.onmouseup = () => {
+        isDragging = false;
+        activeHandle = null;
+      };
+
+      document.getElementById('upload').onchange = (e) => {
+        if (e.target.files.length) {
+          const url = URL.createObjectURL(e.target.files[0]);
+          img.src = url;
+          originalFileUrl = url;
+          currentImageUrl = url;
+          img.onload = () => {
+            container.style.display = 'inline-block';
+            validateRatios();
+            document.getElementById('r0').checked = true;
+            appliedPanel.style.display = 'none';
+            confirmBtn.style.display = 'block';
+            confirmBtn.textContent = 'ПРИМЕНИТЬ КАДР';
+            setCropFrame(0);
+
+            updateFilterApplication();
+
+            img.onload = null;
+          };
+        }
+      };
+
+      // --- ФИЛЬТРЫ ---
+      let cE = 1,
+        cC = 1;
+
+      const updateExposureAndContrast = () => {
+        const s = cE * cC,
+          i = 0.5 * (1 - cC);
+        ['fR_exp', 'fG_exp', 'fB_exp'].forEach((id) => {
+          document.getElementById(id).setAttribute('slope', s);
+          document.getElementById(id).setAttribute('intercept', i);
+        });
+      };
+
+      const updateBrightness = () => {
+        const v = parseFloat(document.getElementById('brightRange').value);
+        ['fR_bright', 'fG_bright', 'fB_bright'].forEach((id) => {
+          document.getElementById(id).setAttribute('intercept', v);
+        });
+      };
+
+      const updateShadows = () => {
+        const v = parseFloat(document.getElementById('shaRange').value);
+        ['fR_sha', 'fG_sha', 'fB_sha'].forEach((id) => document.getElementById(id).setAttribute('slope', 1 + v * 2));
+      };
+
+      const updateHighlights = () => {
+        const v = parseFloat(document.getElementById('highRange').value);
+        ['fR_high', 'fG_high', 'fB_high'].forEach((id) =>
+          document.getElementById(id).setAttribute('slope', 1 - v * 0.8),
+        );
+      };
+
+      const updateSaturation = () => {
+        const v = document.getElementById('satRange').value;
+        document.getElementById('fMat_sat').setAttribute('values', v);
+      };
+
+      // Экспозиция
+      document.getElementById('expRange').oninput = (e) => {
+        cE = parseFloat(e.target.value);
+        document.getElementById('expVal').innerText = cE.toFixed(2);
+        updateExposureAndContrast();
+        updateFilterApplication();
+      };
+
+      // Яркость
+      document.getElementById('brightRange').oninput = (e) => {
+        const v = parseFloat(e.target.value);
+        document.getElementById('brightVal').innerText = v.toFixed(2);
+        updateBrightness();
+        updateFilterApplication();
+      };
+
+      // Контраст
+      document.getElementById('conRange').oninput = (e) => {
+        cC = parseFloat(e.target.value);
+        document.getElementById('conVal').innerText = cC.toFixed(2);
+        updateExposureAndContrast();
+        updateFilterApplication();
+      };
+
+      // Тени
+      document.getElementById('shaRange').oninput = (e) => {
+        const v = parseFloat(e.target.value);
+        document.getElementById('shaVal').innerText = v.toFixed(2);
+        updateShadows();
+        updateFilterApplication();
+      };
+
+      // Света
+      document.getElementById('highRange').oninput = (e) => {
+        const v = parseFloat(e.target.value);
+        document.getElementById('highVal').innerText = v.toFixed(2);
+        updateHighlights();
+        updateFilterApplication();
+      };
+
+      // Насыщенность
+      document.getElementById('satRange').oninput = (e) => {
+        const v = e.target.value;
+        document.getElementById('satVal').innerText = v;
+        updateSaturation();
+        updateFilterApplication();
+      };
+
+      // Скачивание
+      document.getElementById('downloadBtn').onclick = () => {
+        const canvas = document.createElement('canvas'),
+          ctx = canvas.getContext('2d');
+        canvas.width = img.naturalWidth;
+        canvas.height = img.naturalHeight;
+
+        if (isFilterActive) {
+          ctx.filter = `url(#masterFilter)`;
+        }
+
+        ctx.drawImage(img, 0, 0);
+        const a = document.createElement('a');
+        a.download = 'edited.png';
+        a.href = canvas.toDataURL();
+        a.click();
+      };
+    </script>
+  </body>
+</html>
