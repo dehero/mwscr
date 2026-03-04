@@ -78,6 +78,7 @@ export const fieldDescriptors = Object.freeze<Record<string, FieldDescriptor>>({
   nameRu: { title: 'Russian name' },
   nameRuFrom: { title: 'Russian name in genitive' },
   mark: { title: "Editor's mark" },
+  aspect: { title: 'Aspect ratio' },
 });
 
 export function getFieldTitle(field: string | number) {
