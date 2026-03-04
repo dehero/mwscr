@@ -2672,7 +2672,7 @@ ivan-uralov:
   profiles:
     - service: vk
       id: '16497155'
-      updated: 2026-03-04-19-46-10
+      updated: 2026-03-04-20-39-09
       username: id16497155
       name: Иван Уралов
       avatar: store:/avatars/vk-51775759.jpg
@@ -2960,7 +2960,7 @@ kevy-c:
   profiles:
     - service: tg
       id: '5067683234'
-      updated: 2026-03-04-19-46-30
+      updated: 2026-03-04-20-39-18
       accessHash: '-903667913374325979'
       username: Kevy_c
       name: Dash
@@ -3718,7 +3718,7 @@ mr-primov:
   profiles:
     - service: vk
       id: '161727367'
-      updated: 2026-03-03-19-46-30
+      updated: 2026-03-04-20-39-17
       username: mr_primov
       name: Владимир Примов
       avatar: store:/avatars/vk-17e0fa04.jpg
@@ -4021,7 +4021,7 @@ o-sipuha:
   profiles:
     - service: vk
       id: '1042080884'
-      updated: 2026-03-03-19-46-29
+      updated: 2026-03-04-20-39-16
       username: o.sipuha
       name: Ольга Сипуха
       avatar: store:/avatars/vk-c168d64f.jpg
@@ -4216,7 +4216,7 @@ painkiller1986:
   profiles:
     - service: tg
       id: '6565289507'
-      updated: 2026-03-04-19-46-30
+      updated: 2026-03-04-20-39-18
       accessHash: '6198356028119192921'
       username: Painkiller1986
       name: Сумерки
