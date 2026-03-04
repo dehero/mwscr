@@ -85,7 +85,7 @@ const shot: PostingScenario = {
 };
 
 const compilation: PostingScenario = {
-  title: 'shot-set',
+  title: 'compilation',
   sourceManagers: ['drafts'],
   targetManager: 'posts',
   postingRules: [afterHour(18), lastPostedDaysAgo(1)],

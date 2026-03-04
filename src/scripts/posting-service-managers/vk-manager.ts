@@ -88,7 +88,7 @@ export class VKManager extends VKService implements PostingServiceManager {
         lines.push(titlePrefix);
       }
 
-      // TODO: mention USER_DEFAULT_AUTHOR in shot-sets created not just by USER_DEFAULT_AUTHOR
+      // TODO: mention USER_DEFAULT_AUTHOR in compilations created not just by USER_DEFAULT_AUTHOR
       const authors = asArray(post.author).filter((author) => author !== USER_DEFAULT_AUTHOR);
       if (authors.length > 0) {
         contributors.push(`от ${await this.mentionUsers(authors)}`);

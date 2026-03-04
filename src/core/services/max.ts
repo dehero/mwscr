@@ -1,7 +1,7 @@
 import type { InferOutput } from 'valibot';
 import { intersect, object, string, variant } from 'valibot';
 import { Post, PostTitleRu } from '../entities/post.js';
-import { Shot, VerticalWallpaper, Wallpaper } from '../entities/post-variant.js';
+import { Shot, Wallpaper } from '../entities/post-variant.js';
 import { Publication } from '../entities/publication.js';
 import { checkSchema } from '../entities/schema.js';
 import type { PostingService } from '../entities/service.js';
@@ -10,7 +10,7 @@ export const MAX_CHAT_ID = -70980943197599;
 
 export const MAXPost = intersect([
   object({ ...Post.entries, titleRu: PostTitleRu }),
-  variant('type', [Shot, VerticalWallpaper, Wallpaper]),
+  variant('type', [Shot, Wallpaper]),
 ]);
 
 export const MAXPublication = object({
