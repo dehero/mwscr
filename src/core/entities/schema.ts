@@ -105,8 +105,29 @@ function validbotIssuesToMessages(issues: BaseIssue<unknown>[], path?: BaseIssue
   );
 
   if (outputIssues.length > 0) {
-    const fields = new Set(outputIssues.map((issue) => getFieldTitleFromPath(issue.path ?? path)));
-    messages.add(`missing ${[...fields].join(', ')}`);
+    const fields = new Set(outputIssues.map((issue) => getFieldTitleFromPath(issue.path ?? path) ?? 'field'));
+    messages.add(`missing ${listItems([...fields], false, 'and')}`);
+  }
+
+  [outputIssues, restIssues] = partition(
+    restIssues,
+    (issue) => issue.kind === 'schema' && issue.type === 'picklist' && typeof issue.expected !== 'undefined',
+  );
+
+  if (outputIssues.length > 0) {
+    for (const issue of outputIssues) {
+      const expected = issue.expected?.match(/("[^"]+")/g) ?? [];
+
+      if (expected.length > 0) {
+        messages.add(
+          `expected ${getFieldTitleFromPath(issue.path ?? path) ?? 'field'} to be ${listItems(
+            expected,
+          )}, got ${uncapitalizeFirstLetter(issue.received)}`,
+        );
+      } else {
+        restIssues.push(issue);
+      }
+    }
   }
 
   [outputIssues, restIssues] = partition(restIssues, (issue) => issue.kind === 'schema');
