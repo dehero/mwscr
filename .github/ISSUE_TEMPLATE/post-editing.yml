@@ -26,8 +26,8 @@ body:
     attributes:
       label: Post Type
       placeholder: >-
-        shot shot-set redrawing video clip wallpaper wallpaper-v news mention
-        photoshop outtakes achievement merch
+        shot compilation redrawing video clip wallpaper news mention photoshop
+        outtakes achievement merch
   - type: input
     id: postAuthor
     attributes:

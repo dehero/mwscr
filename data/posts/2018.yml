@@ -779,16 +779,16 @@
       id: DVZKD-0jrEW
       mediaId: '18108859573773294'
       published: 2026-03-02-19-03-02
-      updated: 2026-03-04-08-50-36
+      updated: 2026-03-04-09-50-56
       followers: 1608
       likes: 55
     - service: vk
       id: 3136
       published: 2026-03-02-19-03-27
-      updated: 2026-03-04-08-50-40
+      updated: 2026-03-04-09-51-06
       followers: 1615
-      likes: 54
-      views: 779
+      likes: 55
+      views: 787
       reposts: 2
       comments: !c |-
         Cx+AkZPLQnnLbbcqgACqYXJ5YS1zdGFya9kn0J7Qs9C+ISDQryDRgtCw0Lwg0LXRidGRINC90LUg
@@ -796,10 +796,10 @@
     - service: tg
       id: 1166
       published: 2026-03-02-19-03-34
-      updated: 2026-03-04-08-50-42
+      updated: 2026-03-04-09-51-04
       followers: 886
       likes: 46
-      views: 207
+      views: 209
       comments: !c CwuAkZPLQnnLAHcmAACma2V2eS1jpPCfpoAD
     - service: mx
       id: '1772478219509'
@@ -5595,24 +5595,24 @@
       id: DVbvRgsDji8
       mediaId: '18426076468139972'
       published: 2026-03-03-19-06-41
-      updated: 2026-03-04-08-50-34
+      updated: 2026-03-04-09-50-55
       followers: 1609
-      likes: 53
+      likes: 56
     - service: vk
       id: 3139
       published: 2026-03-03-19-06-50
-      updated: 2026-03-04-08-50-30
+      updated: 2026-03-04-09-50-50
       followers: 1615
-      likes: 40
-      views: 298
+      likes: 41
+      views: 307
       reposts: 3
     - service: tg
       id: 1167
       published: 2026-03-03-19-06-56
-      updated: 2026-03-04-08-50-39
+      updated: 2026-03-04-09-50-59
       followers: 885
       likes: 45
-      views: 156
+      views: 160
       comments: !c CwuAkZPLQnnLUogugACma2V2eS1jpPCfpoAD
     - service: mx
       id: '1772564825736'
@@ -7468,7 +7468,7 @@
   title: Mournhold Cactus
   titleRu: Морнхолдский кактус
   placement: Indoors
-  location: "Mournhold, Royal Palace: Guards' Quarters"
+  location: 'Mournhold, Royal Palace: Guards'' Quarters'
   content: store:/shots/2018-06-02-mournhold-cactus.png
   type: shot
   aspect: 1/1
@@ -7823,7 +7823,7 @@
   placement: Indoors
   location:
     - Imperial Prison Ship
-    - "Mournhold, Royal Palace: Barenziah's Chambers"
+    - 'Mournhold, Royal Palace: Barenziah''s Chambers'
     - Tower of Tel Fyr, Hall of Fyr
     - Seyda Neen, Census and Excise Office
   content:
@@ -15929,8 +15929,7 @@
   locating:
     date: 2026-02-14-20-32-23
     user: pyriglena
-    text:
-      Azura's Coast Region 13,12, the northern coast of the bigger island to the south of Tel Mora (north of Esutanamus)
+    text: Azura's Coast Region 13,12, the northern coast of the bigger island to the south of Tel Mora (north of Esutanamus)
   engine: OpenMW
   mark: B2
   posts:

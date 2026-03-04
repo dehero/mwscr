@@ -10,12 +10,11 @@ body:
       label: Post Type
       options:
         - shot
-        - shot-set
+        - compilation
         - redrawing
         - video
         - clip
         - wallpaper
-        - wallpaper-v
         - news
         - mention
         - photoshop
