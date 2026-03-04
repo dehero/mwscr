@@ -327,21 +327,29 @@ Use
 [editing issue](https://github.com/dehero/mwscr/issues/new?labels=post-editing&template=post-editing.yml&title=POST_ID)
 to fill in the post fields.
 
-#### Type and content
+#### Type, aspect ratio, and content
 
-Depending on the content of the post and its characteristics, the appropriate post type is selected:
+Depending on the post's content and its characteristics, the appropriate post type is selected:
 
-| Type          | Ratio  | Files  | Best size | Min. size  |  Duration | Additional requirements                                                    |
-| ------------- | :----: | -----: | :-------: | :--------: | --------: | -------------------------------------------------------------------------- |
-| `shot`        |   1:1  |      1 | 1080x1080 |  800x800   |           |                                                                            |
-| `shot‑set`    |   1:1  |      4 | 1080x1080 |  800x800   |           | All images must have been previously published with the `shot` type.       |
-| `redrawing`   |   1:1  |      2 | 1080x1080 |  800x800   |           | The second image must have been previously published with the `shot` type. |
-| `wallpaper`   |  16:9  |      1 | 1920x1080 | 1920x1080  |           |                                                                            |
-| `wallpaper-v` | 9:19.5 |      1 | 1080x2340 | 1080x2340  |           |                                                                            |
-| `clip`        |   1:1  |      1 | 1080x1080 |  800x800   |   ≤ 1 min |                                                                            |
-| `video`       |  16:9  |      1 | 1920x1080 | 1920x1080  |  ≤ 60 min |                                                                            |
+| Type          | Aspect Ratios               | Files | Duration | Additional Requirements                                                                                  |
+| ------------- | :-------------------------- | ----: | -------: | -------------------------------------------------------------------------------------------------------- |
+| `shot`        | `1:1` `3:2`                 |     1 |          |                                                                                                          |
+| `compilation` | `1:1` `3:2` `16:9` `9:19.5` |     4 |          | All images must have been previously published in the [Posts](https://mwscr.dehero.site/posts/) section. |
+| `wallpaper`   | `16:9` `9:19.5`             |     1 |          |                                                                                                          |
+| `clip`        | `1:1` `9:16`                |     1 |  ≤ 1 min |                                                                                                          |
+| `video`       | `16:9`                      |     1 | ≤ 60 min |                                                                                                          |
 
-The content is adjusted to the selected post type, and any rejected files go into the post's trash.
+The set of aspect ratios is limited, each with minimum and recommended dimensions:
+
+| Aspect Ratio | Recommended Dimensions | Minimum Dimensions |
+| :----------- | :--------------------: | :----------------: |
+| `16:9`       |       1920x1080        |     1920x1080      |
+| `3:2`        |       1620x1080        |      1200x800      |
+| `1:1`        |       1080x1080        |      800x800       |
+| `9:16`       |       1080x1920        |     1080x1920      |
+| `9:19.5`     |       1080x2340        |     1080x2340      |
+
+The content is adapted to the chosen post type and aspect ratio, and all rejected files are moved to the post's trash.
 
 #### Title
 
@@ -355,7 +363,7 @@ The title should be filled in English and translated into Russian (for publicati
 
 The project contributor who proposed the original work for publication. For
 [Redrawing](https://mwscr.dehero.site/help/redrawing/) type posts, the first author is the author of the drawing, and
-the second author is the author of the original post. For [Shot Compilation]((https://mwscr.dehero.site/help/shot-set/)
+the second author is the author of the original post. For [Compilation]((https://mwscr.dehero.site/help/compilation/)
 posts, the authors of all images in the set are listed.
 
 Each of these authors must be added to the [project members list](data/users.yml) beforehand.

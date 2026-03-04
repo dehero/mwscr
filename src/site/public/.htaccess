@@ -1,5 +1,8 @@
 ErrorDocument 404 /404.html
 
+Redirect 301 /help/shot-set /help/compilation/
+Redirect 301 /help/wallpaper-v /help/wallpaper/
+
 <IfModule mod_rewrite.c>
 	RewriteEngine on
   RewriteRule ^uploads\/$ uploads.php [L,QSA]    

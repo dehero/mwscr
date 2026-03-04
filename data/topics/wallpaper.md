@@ -1,3 +1,6 @@
 # Wallpaper
 
-A screenshot with 16:9 aspect ratio suitable as desktop wallpaper. Minimum size is 1920x1080.
+A horizontal [16:9](./aspect-ratio.md) or vertical [9:19.5](./aspect-ratio.md) screenshot suitable as desktop or
+smartphone wallpaper.
+
+[Go to Wallpapers](/posts/?type=wallpaper)
