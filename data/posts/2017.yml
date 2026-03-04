@@ -1329,8 +1329,7 @@
 2017-01-28-2-meditative-night-in-ahemmusa-camp:
   title: Meditative Night in Ahemmusa Camp
   titleRu: Ночь медитации в лагере Ахеммуза
-  description:
-    Camera was placed in Ahemmusa Camp over the yurt of ashkhan in the rainy evening. It stayed there until morning.
+  description: Camera was placed in Ahemmusa Camp over the yurt of ashkhan in the rainy evening. It stayed there until morning.
   descriptionRu: Камера была закреплена дождливым вечером над юртой ашхана и оставалась там до утра.
   placement: Outdoors
   location: Ahemmusa Camp
@@ -7027,7 +7026,7 @@
   title: Queen Mother in Her Chambers
   titleRu: Королева-мать в своих покоях
   placement: Indoors
-  location: "Mournhold, Royal Palace: Barenziah's Chambers"
+  location: 'Mournhold, Royal Palace: Barenziah''s Chambers'
   content: store:/shots/2017-05-19-queen-mother-in-her-chambers.png
   type: shot
   aspect: 1/1
@@ -13604,16 +13603,16 @@
       id: DVWpCizDNmG
       mediaId: '18084587834244193'
       published: 2026-03-01-19-36-02
-      updated: 2026-03-03-19-02-31
+      updated: 2026-03-04-19-46-06
       followers: 1608
       likes: 56
     - service: vk
       id: 3134
       published: 2026-03-01-19-36-12
-      updated: 2026-03-03-19-02-39
+      updated: 2026-03-04-19-46-20
       followers: 1615
-      likes: 36
-      views: 342
+      likes: 42
+      views: 387
       reposts: 4
       comments: !c |-
         G7QAYKwOeDNfKHEg2CWzuXoZSz9C2kU4TVLPsEswwuSncws12wzZ5Czpu3xDJoA4OORAY9o5CCTF
@@ -13622,10 +13621,10 @@
     - service: tg
       id: 1165
       published: 2026-03-01-19-36-21
-      updated: 2026-03-03-19-02-40
+      updated: 2026-03-04-19-46-27
       followers: 885
-      likes: 59
-      views: 243
+      likes: 62
+      views: 290
       comments: !c |-
         G7AAYIzUTvfOiOR/zG2rSw0NmaMSIklE2+Q6lkX9ur8fqYQCzWEDLtUQFkhp0MGBBsiHQzjhAHOO
         slRyG1vOdieIRGl5zWaP2g6vP8szddeiCZWp+izU+fY+1AnT8hd02NwWr+Gm10uZfbCm+ocELDHG
@@ -17061,7 +17060,7 @@
   locating:
     date: 2026-02-21-19-30-53
     user: pyriglena
-    text: "-20,26, north-east, behind Ingmar's house"
+    text: '-20,26, north-east, behind Ingmar''s house'
   engine: OpenMW
   addon: Bloodmoon
   mark: B2

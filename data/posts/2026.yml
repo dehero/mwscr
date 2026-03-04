@@ -470,15 +470,27 @@
       id: DVeUE6jDLnf
       mediaId: '18156129712378591'
       published: 2026-03-04-19-06-48
+      updated: 2026-03-04-19-46-01
       followers: 1611
+      likes: 9
     - service: vk
       id: 3147
       published: 2026-03-04-19-09-27
+      updated: 2026-03-04-19-45-56
       followers: 1615
+      likes: 1
+      views: 58
+      reposts: 2
     - service: tg
       id: 1169
       published: 2026-03-04-19-11-43
+      updated: 2026-03-04-19-46-04
       followers: 884
+      likes: 13
+      views: 64
+      comments: !c |-
+        Cy6AkZPLQnnLpFQfgACucGFpbmtpbGxlcjE5ODbZQdCe0YTQuNGG0LXRgNGB0LrQsNGPINGH0LXR
+        gdGC0Ywg0LIg0LvQsNCz0LXRgNC1INCj0YDRiNGD0LvQsNC60YMuAw==
     - service: mx
       id: '1772651570001'
       published: 2026-03-04-19-12-50
