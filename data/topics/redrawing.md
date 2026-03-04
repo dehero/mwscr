@@ -1,7 +1,6 @@
 # Redrawing
 
 The redrawing [post type](./post-types.md) must be based on a previously published [Shot](./shot.md) and include it as
-second image for comparison, with a credit to [the original author](./post-author.md). Best size is 1080x1080, minimum
-size is 800x800.
+second image for comparison, with a credit to [the original author](./post-author.md).
 
-[Redrawings](/posts/?type=redrawing)
+[Go to Redrawings](/extras/?type=redrawing)

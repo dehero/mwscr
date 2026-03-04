@@ -30,13 +30,11 @@ If you want to participate in the project, please read the [contributing guideli
 
 ### Main post types
 
-- [Shot](https://mwscr.dehero.site/help/shot/) - square screenshot;
-- [Shot Compilation](https://mwscr.dehero.site/help/shot-set/) - thematic set of four previously published square
-  screenshots;
-- [Wallpaper](https://mwscr.dehero.site/help/wallpaper/) - rectangular screenshot suitable as desktop wallpaper;
-- [Vertical Wallpaper](https://mwscr.dehero.site/help/wallpaper-v/) - vertical screenshot suitable as mobile phone
-  wallpaper;
-- [Clip](https://mwscr.dehero.site/help/clip/) - a square video up to 1 minute long;
+- [Shot](https://mwscr.dehero.site/help/shot/) - square or horizontal screenshot;
+- [Compilation](https://mwscr.dehero.site/help/compilation/) - thematic set of four previously published screenshots;
+- [Wallpaper](https://mwscr.dehero.site/help/wallpaper/) - horizontal or vertical screenshot suitable as desktop or
+  smartphone wallpaper;
+- [Clip](https://mwscr.dehero.site/help/clip/) - a square or vertical video up to 1 minute long;
 - [Video](https://mwscr.dehero.site/help/video/) - rectangular video up to 1 hour long.
 
 ### Extra post types

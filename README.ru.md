@@ -30,14 +30,12 @@
 
 ### Основные типы постов
 
-- [Shot](https://mwscr.dehero.site/help/shot/) - квадратный скриншот;
-- [Shot Compilation](https://mwscr.dehero.site/help/shot-set/) - тематическая подборка из четырёх ранее опубликованных
-  квадратных скриншотов;
-- [Wallpaper](https://mwscr.dehero.site/help/wallpaper/) - прямоугольный скриншот, подходящий в качестве обоев рабочего
-  стола;
-- [Vertical Wallpaper](https://mwscr.dehero.site/help/wallpaper-v/) - вертикальный скриншот, подходящий в качестве обоев
-  мобильного телефона;
-- [Клип](https://mwscr.dehero.site/help/clip/) - квадратное видео продолжительностью до 1 минуты;
+- [Shot](https://mwscr.dehero.site/help/shot/) - квадратный или горизонтальный скриншот;
+- [Compilation](https://mwscr.dehero.site/help/compilation/) - тематическая подборка из четырёх ранее опубликованных
+  скриншотов;
+- [Wallpaper](https://mwscr.dehero.site/help/wallpaper/) - горизонтальный или вертикальный скриншот, подходящий в
+  качестве обоев рабочего стола или смартфона;
+- [Клип](https://mwscr.dehero.site/help/clip/) - квадратное или вертикальное видео продолжительностью до 1 минуты;
 - [Video](https://mwscr.dehero.site/help/video/) - прямоугольное видео продолжительностью не более 1 часа.
 
 ### Дополнительные типы постов
