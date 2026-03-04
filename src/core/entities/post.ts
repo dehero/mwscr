@@ -24,7 +24,7 @@ export const PostContent = union([ResourceUrl, array(ResourceUrl, 'Should be a l
 export const PostLocation = union([pipe(string(), nonEmpty()), array(pipe(string(), nonEmpty()))]);
 export const PostPlacement = picklist(['Indoors', 'Outdoors', 'Mixed']);
 export const PostType = picklist(PostVariant.options.map((type) => type.entries.type.literal));
-export const PostAspectRatio = picklist(['16/9', '1.5/1', '1/1', '9/16', '9/19.5']);
+export const PostAspectRatio = picklist(['16/9', '3/2', '1/1', '9/16', '9/19.5']);
 export const PostAddon = picklist(['Tribunal', 'Bloodmoon', 'Tamriel Rebuilt']);
 export const PostEngine = picklist(['OpenMW', 'Vanilla']);
 export const PostMark = picklist(['A1', 'A2', 'B1', 'B2', 'C', 'D', 'E', 'F']);

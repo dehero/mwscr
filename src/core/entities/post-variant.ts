@@ -8,13 +8,13 @@ export type PostDescription = InferOutput<typeof PostDescription>;
 
 export const Shot = object({
   type: literal('shot'),
-  aspect: picklist(['1/1', '1.5/1']),
+  aspect: picklist(['1/1', '3/2']),
   content: LosslessImageResourceUrl,
 });
 
 export const Compilation = object({
   type: literal('compilation'),
-  aspect: picklist(['1/1', '1.5/1', '16/9', '9/19.5']),
+  aspect: picklist(['1/1', '3/2', '16/9', '9/19.5']),
   content: tuple(
     [LosslessImageResourceUrl, LosslessImageResourceUrl, LosslessImageResourceUrl, LosslessImageResourceUrl],
     'Should be 4 resources',
