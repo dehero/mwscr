@@ -5,6 +5,7 @@ import { usePageContext } from 'vike-solid/usePageContext';
 import icon from '../../../../assets/icon.png?format=avif&imagetools';
 import { getPostDateById, postTypeDescriptors } from '../../../core/entities/post.js';
 import { selectPostInfos } from '../../../core/entities/post-info.js';
+import { max } from '../../../core/services/max.js';
 import { dateToString, formatDate, formatTime } from '../../../core/utils/date-utils.js';
 import { useRouteInfo } from '../../hooks/useRouteInfo.js';
 import { homeRoute } from '../../routes/home-route.js';
@@ -23,7 +24,6 @@ import { PostHighlights } from '../PostHighlights/PostHighlights.js';
 import { PostTooltip } from '../PostTooltip/PostTooltip.js';
 import { Table } from '../Table/Table.js';
 import styles from './HomePage.module.css';
-import { max } from '../../../core/services/max.js';
 
 export const HomePage = (): JSX.Element => {
   const pageContext = usePageContext();

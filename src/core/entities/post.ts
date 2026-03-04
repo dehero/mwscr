@@ -168,8 +168,8 @@ const defaultTags = Object.freeze<PostTagDescriptor[]>([
   ],
   [
     'screenshot',
-    (post) => ['shot', 'shot-set', 'redrawing'].includes(post.type),
-    (post) => (post.type = ['shot', 'shot-set', 'redrawing'].includes(post.type) ? post.type : 'shot'),
+    (post) => ['shot', 'compilation', 'redrawing'].includes(post.type),
+    (post) => (post.type = ['shot', 'compilation', 'redrawing'].includes(post.type) ? post.type : 'shot'),
   ],
   [
     'footage',
@@ -178,8 +178,8 @@ const defaultTags = Object.freeze<PostTagDescriptor[]>([
   ],
   [
     'wallpaper',
-    (post) => ['wallpaper', 'wallpaper-v'].includes(post.type),
-    (post) => (post.type = ['wallpaper', 'wallpaper-v'].includes(post.type) ? post.type : 'wallpaper'),
+    (post) => ['wallpaper'].includes(post.type),
+    (post) => (post.type = ['wallpaper'].includes(post.type) ? post.type : 'wallpaper'),
   ],
   ...PostAddon.options.map(
     (addon): PostTagDescriptor => [
@@ -209,7 +209,7 @@ export const postTypeDescriptors = Object.freeze<Record<PostType, PostTypeDescri
     titleMultipleRu: 'Подборки',
     letter: 'H',
     strict: true,
-    topicId: 'shot-set',
+    topicId: 'compilation',
   },
   video: {
     title: 'Video',

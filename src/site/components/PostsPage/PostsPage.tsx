@@ -163,7 +163,7 @@ export const PostsPage = (): JSX.Element => {
                 <Button
                   href={createDetachedDialogFragment('post-editing', 'drafts', {
                     mergeWith: selected().map((id) => createPostPath(params().managerName, id)),
-                    type: 'shot-set',
+                    type: 'compilation',
                     mark: '',
                     trash: '',
                   })}
