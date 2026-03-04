@@ -292,12 +292,21 @@ ohsweetnazareth.2025-11-25-in-the-carcass-of-ilunibi-2-0e9bc72c:
   author: ohsweetnazareth
 ohsweetnazareth.2025-11-25-nighttime-at-moonmoth-legion-fort-29b64059:
   title: Nighttime at Moonmoth Legion Fort
-  content:
-    - store:/inbox/ohsweetnazareth.2025-11-25-nighttime-at-moonmoth-legion-fort-29b64059.png
-    - store:/inbox/ohsweetnazareth.2025-11-25-nighttime-at-moonmoth-legion-fort-29b64059.1.png
+  titleRu: Ночь в форте Легиона Лунной Бабочки
+  placement: Outdoors
+  location: Moonmoth Legion Fort
+  content: store:/inbox/ohsweetnazareth.2025-11-25-nighttime-at-moonmoth-legion-fort-29b64059.1.png
+  trash: store:/inbox/ohsweetnazareth.2025-11-25-nighttime-at-moonmoth-legion-fort-29b64059.png
   type: shot
-  aspect: 1/1
+  aspect: 3/2
   author: ohsweetnazareth
+  tags:
+    - night
+    - star
+    - tree
+    - fort
+    - pennant
+  mark: B1
 ohsweetnazareth.2025-11-26-glassware-in-molag-mar-waistworks-4786b048:
   title: Glassware in Molag Mar Waistworks
   content: store:/inbox/ohsweetnazareth.2025-11-26-glassware-in-molag-mar-waistworks-4786b048.png
