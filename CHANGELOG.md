@@ -2,6 +2,29 @@
 
 All notable changes to this project will be documented in this file.
 
+## [2.19.0](https://github.com/dehero/mwscr/compare/v2.18.2...v2.19.0) (2026-03-04)
+
+### Features
+
+- add basic support for multiple aspect ratios per post type
+  ([89253d5](https://github.com/dehero/mwscr/commit/89253d5ffd7966a22d74b2a3e3b8fda45bdddcaa))
+- improve validation messages for picklists focusing new aspect ratio field
+  ([71c4645](https://github.com/dehero/mwscr/commit/71c4645b17d8d0393d8cbfd749e8a3ad4564f001))
+- **site:** show, edit and filter post aspect ratios
+  ([7c6da55](https://github.com/dehero/mwscr/commit/7c6da55179b387445b76b82bc83ab23dee6d66f4))
+
+### Bug Fixes
+
+- cleanup remaining shot-set and wallpaper-v mentions in code
+  ([f9707e0](https://github.com/dehero/mwscr/commit/f9707e065e7eec1b8dc3914dfbc7929681ab0225))
+- use 3/2 aspect ratio instead of 1.5/1
+  ([1042a05](https://github.com/dehero/mwscr/commit/1042a059ebc200afbf67bdb867b27ac12b8f1f6a))
+
+### Documentation
+
+- rewrite post types and aspect ratio descriptions
+  ([56c5c7a](https://github.com/dehero/mwscr/commit/56c5c7ad4d6ac19b5ae6f615081d8fa0cc88aeb3))
+
 ## [2.18.2](https://github.com/dehero/mwscr/compare/v2.18.1...v2.18.2) (2026-02-27)
 
 ### Continuous Integration
