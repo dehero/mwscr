@@ -43,15 +43,11 @@ Proposed works will be automatically checked and will go to [drafts](https://mws
 ### Request a screenshot or video
 
 To ask the authors of the project to make a certain screenshot or video, leave a free-form message in any convenient
-way:
+way. The easiest way is to write a comment or private message to the administrator in any of the project accounts.
 
-- [Send request](https://github.com/dehero/mwscr/issues/new?labels=post-request&template=post-request.yml&title=Cool+to+see%2C+how+cliffracer+dies%21)
-  via GitHub Issues.
-- Write a comment or private message to the administrator in any of the project accounts.
-- [Send to administrator](mailto:me@dehero.site?subject=mwscr) via email.
-
-Your request will be added to [drafts](https://mwscr.dehero.site/drafts/) and will remain there, waiting for the
-appropriate material.
+Another option is to use [the dialog](https://mwscr.dehero.site/#post-request/drafts) on the project website to then
+submit your request as a patch. Your request will be added to [drafts](https://mwscr.dehero.site/drafts/) and will
+remain there, waiting for the appropriate material.
 
 > [!WARNING]  
 > The request may be rejected if it does not meet the [minimum requirements](#minimum-requirements-to-works).

@@ -1,36 +1,7 @@
-import { createSignal } from 'solid-js';
-import { createIssueUrl as createRequestIssueUrl } from '../../../core/github-issues/post-request.js';
-import { email } from '../../../core/services/email.js';
-import { Button } from '../Button/Button.js';
-import type { DetachedDialog } from '../DetachedDialogsProvider/DetachedDialogsProvider.jsx';
-import { Dialog } from '../Dialog/Dialog.js';
-import { Input } from '../Input/Input.js';
-import { Label } from '../Label/Label.js';
+import { parsePostPath } from '../../../core/entities/posts-manager.js';
+import { type DetachedDialog } from '../DetachedDialogsProvider/DetachedDialogsProvider.js';
+import { PostDialog } from '../PostDialog/PostDialog.js';
 
 export const PostRequestDialog: DetachedDialog = (props) => {
-  const [text, setText] = createSignal('');
-
-  return (
-    <Dialog
-      modal
-      {...props}
-      actions={[
-        <Button href={createRequestIssueUrl(text())} target="_blank" onClick={props.onClose}>
-          Submit via GitHub
-        </Button>,
-        <Button
-          href={email.getUserMessagingUrl('me@dehero.site', { subject: 'request', body: text() })}
-          target="_blank"
-          onClick={props.onClose}
-        >
-          Send via email
-        </Button>,
-        <Button onClick={props.onClose}>Cancel</Button>,
-      ]}
-    >
-      <Label label="Request" vertical>
-        <Input value={text()} onChange={setText} multiline rows={5} />
-      </Label>
-    </Dialog>
-  );
+  return <PostDialog preset="request" {...props} {...props.params} {...parsePostPath(props.pathname ?? '')} />;
 };

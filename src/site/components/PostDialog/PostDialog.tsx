@@ -57,7 +57,7 @@ import { Toast } from '../Toaster/Toaster.jsx';
 import { UserTooltip } from '../UserTooltip/UserTooltip.jsx';
 import styles from './PostDialog.module.css';
 
-export const PostDialogPreset = picklist(['edit', 'locate', 'precise']);
+export const PostDialogPreset = picklist(['edit', 'locate', 'precise', 'request']);
 export type PostDialogPreset = InferOutput<typeof PostDialogPreset>;
 
 export type PostDialogFeature = 'useColumnLayout' | 'previewContent' | 'addContent';
@@ -116,6 +116,11 @@ export const postDialogPresetDescriptors = Object.freeze<Record<PostDialogPreset
       'aspect',
     ],
     features: ['previewContent'],
+  },
+  request: {
+    title: () => 'Request Post',
+    fields: ['type', 'request'],
+    features: [],
   },
 });
 
@@ -227,6 +232,7 @@ export const PostDialog: Component<PostDialogProps> = (props) => {
 
   createEffect(() => {
     const values = props;
+    const currentRequest = post().request;
 
     for (const key of ['type', 'mark', 'trash'] as const) {
       const value = values[key];
@@ -234,6 +240,10 @@ export const PostDialog: Component<PostDialogProps> = (props) => {
         continue;
       }
       setPatchField(key, value);
+    }
+
+    if (props.preset === 'request' && !currentRequest) {
+      setPostRequest({ user: USER_UNKNOWN });
     }
   });
 
@@ -258,7 +268,7 @@ export const PostDialog: Component<PostDialogProps> = (props) => {
   ) => setPatch({ ...patch(), content, snapshot, trash });
 
   const setPostRequest = (request: Partial<PostNote>) => {
-    const oldRequest = post().request;
+    const oldRequest = untrack(() => post().request);
     const user = 'user' in request ? request.user : oldRequest?.user;
     const date = ('date' in request ? request.date : oldRequest?.date) || new Date();
     const text = ('text' in request ? request.text : oldRequest?.text) || '';
