@@ -2,6 +2,17 @@
 
 All notable changes to this project will be documented in this file.
 
+## [2.19.1](https://github.com/dehero/mwscr/compare/v2.19.0...v2.19.1) (2026-03-05)
+
+### Bug Fixes
+
+- repair server upload script
+  ([0b76d11](https://github.com/dehero/mwscr/commit/0b76d11c302db4790dd7a35c76cb2a5452a84c6c))
+- **site:** break too long words for publishable errors
+  ([2b6a2d6](https://github.com/dehero/mwscr/commit/2b6a2d6a3d0f6a15b98713305c38b6cbee9f127d))
+- **site:** remove file extensions from created draft titles when submitting files
+  ([60568a0](https://github.com/dehero/mwscr/commit/60568a025611c502e77145ba13dfea76c9e9cb49))
+
 ## [2.19.0](https://github.com/dehero/mwscr/compare/v2.18.2...v2.19.0) (2026-03-04)
 
 ### Features
