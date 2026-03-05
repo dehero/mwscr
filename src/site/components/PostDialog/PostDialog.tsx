@@ -39,7 +39,6 @@ import {
 } from '../../../core/entities/post.js';
 import { parsePostPath } from '../../../core/entities/posts-manager.js';
 import { USER_UNKNOWN } from '../../../core/entities/user.js';
-import { email } from '../../../core/services/email.js';
 import { asArray, listItems } from '../../../core/utils/common-utils.js';
 import { dateToString } from '../../../core/utils/date-utils.js';
 import { dataManager } from '../../data-managers/manager.js';
@@ -250,51 +249,6 @@ export const PostDialog: Component<PostDialogProps> = (props) => {
     setPatch(newPatch);
   };
 
-  const [submitVariant, setSubmitVariant] = createSignal<'patch' | 'github-issue' | 'email'>('patch');
-  const submitButtonProps = createMemo(() => {
-    const entry = postEntry();
-    const targetId = entry?.[3] ?? entry?.[0] ?? `${USER_UNKNOWN}.${dateToString(new Date(), true)}`;
-    const variant = submitVariant();
-
-    if (!manager() || !targetId) {
-      return undefined;
-    }
-
-    switch (variant) {
-      case 'patch': {
-        return {
-          onClick: () => manager()?.mergePatch({ [targetId]: post() }),
-        };
-      }
-
-      case 'email': {
-        let body;
-
-        switch (local.preset) {
-          case 'edit':
-          case 'precise':
-            body = JSON.stringify(patch(), null, 2);
-            break;
-          case 'locate':
-            body = asArray(post().location).join('\n');
-            break;
-          default:
-        }
-
-        return {
-          href: email.getUserMessagingUrl('me@dehero.site', {
-            subject: `${local.preset} - ${targetId}`,
-            body,
-          }),
-          target: '_blank',
-        };
-      }
-
-      default:
-        return undefined;
-    }
-  });
-
   const form = createUniqueId();
 
   const setPostContentFields = (
@@ -374,7 +328,14 @@ export const PostDialog: Component<PostDialogProps> = (props) => {
   };
 
   const handleSubmit = () => {
-    submitButtonProps()?.onClick?.();
+    const entry = postEntry();
+    const targetId = entry?.[3] ?? entry?.[0] ?? `${USER_UNKNOWN}.${dateToString(new Date(), true)}`;
+
+    if (!manager() || !targetId) {
+      return;
+    }
+
+    manager()?.mergePatch({ [targetId]: post() });
     handleClose();
   };
 
@@ -414,20 +375,7 @@ export const PostDialog: Component<PostDialogProps> = (props) => {
         title={preset().title(props)}
         show={props.show && loadingResources().length === 0}
         {...rest}
-        actions={[
-          <Select
-            options={[
-              { label: 'Save to Edits', value: 'patch' },
-              { label: 'Send via email', value: 'email' },
-            ]}
-            value={submitVariant()}
-            onChange={setSubmitVariant}
-          />,
-          <Button {...submitButtonProps()} onClick={handleSubmit}>
-            OK
-          </Button>,
-          <Button onClick={handleClose}>Cancel</Button>,
-        ]}
+        actions={[<Button onClick={handleSubmit}>OK</Button>, <Button onClick={handleClose}>Cancel</Button>]}
         modal
       >
         <div class={clsx(styles.container, ...preset().features.map((feature) => styles[feature]))}>
