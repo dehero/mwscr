@@ -11,9 +11,7 @@ jobs:
   resolve-issue:
     if:
       contains(github.event.issue.labels.*.name, 'data-patch') || contains(github.event.issue.labels.*.name,
-      'post-proposal') || contains(github.event.issue.labels.*.name, 'post-request') ||
-      contains(github.event.issue.labels.*.name, 'post-editing') || contains(github.event.issue.labels.*.name,
-      'post-location')
+      'post-proposal') || contains(github.event.issue.labels.*.name, 'post-request')
     runs-on: self-hosted
     env:
       GITHUB_ACTION_CONTEXT: ${{ toJson(github) }}
