@@ -37,10 +37,8 @@ import {
   PostViolation,
   postViolationDescriptors,
 } from '../../../core/entities/post.js';
-import { createPostPath, parsePostPath } from '../../../core/entities/posts-manager.js';
+import { parsePostPath } from '../../../core/entities/posts-manager.js';
 import { USER_UNKNOWN } from '../../../core/entities/user.js';
-import { createIssueUrl as createEditIssueUrl } from '../../../core/github-issues/post-editing.js';
-import { createIssueUrl as createLocateIssueUrl } from '../../../core/github-issues/post-location.js';
 import { email } from '../../../core/services/email.js';
 import { asArray, listItems } from '../../../core/utils/common-utils.js';
 import { dateToString } from '../../../core/utils/date-utils.js';
@@ -269,22 +267,6 @@ export const PostDialog: Component<PostDialogProps> = (props) => {
         };
       }
 
-      case 'github-issue': {
-        let href;
-
-        switch (local.preset) {
-          case 'edit':
-            href = createEditIssueUrl(createPostPath(manager()!.name, targetId), post()!);
-            break;
-          case 'locate':
-            href = createLocateIssueUrl(createPostPath(manager()!.name, targetId), post().location);
-            break;
-          default:
-        }
-
-        return { href, target: '_blank' };
-      }
-
       case 'email': {
         let body;
 
@@ -436,7 +418,6 @@ export const PostDialog: Component<PostDialogProps> = (props) => {
           <Select
             options={[
               { label: 'Save to Edits', value: 'patch' },
-              { label: 'Create GitHub Issue', value: 'github-issue' },
               { label: 'Send via email', value: 'email' },
             ]}
             value={submitVariant()}

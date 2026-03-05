@@ -323,9 +323,8 @@ the storage.
 
 ### Preparing a post
 
-Use
-[editing issue](https://github.com/dehero/mwscr/issues/new?labels=post-editing&template=post-editing.yml&title=POST_ID)
-to fill in the post fields.
+Navigate to post page or right click (long tap) on post to show the context menu. Click `Edit` button to fill in the
+post fields.
 
 #### Type, aspect ratio, and content
 
