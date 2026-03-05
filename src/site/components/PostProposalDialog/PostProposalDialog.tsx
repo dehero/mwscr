@@ -115,9 +115,11 @@ export const PostProposalDialog: DetachedDialog = (props) => {
         }
 
         const id = `${USER_UNKNOWN}.${dateToString(new Date(), true)}${itemIndex > 0 ? itemIndex + 1 : ''}`;
+        // Remove file extension
+        const title = upload.name?.replace(/\.[^/.]{3,4}$/, '');
 
         try {
-          await drafts?.addItem({ content: upload.url, title: upload.name, type: 'shot', author: USER_UNKNOWN }, id);
+          await drafts?.addItem({ content: upload.url, title, type: 'shot', author: USER_UNKNOWN }, id);
 
           updateUploadReportItem(itemIndex, {
             status: 'Uploaded',
