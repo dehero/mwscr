@@ -78,7 +78,7 @@ export const ContributingDialog: DetachedDialog<ContributingDialogTab> = (props)
 
                 <Frame
                   component="a"
-                  href={createDetachedDialogFragment('post-request')}
+                  href={createDetachedDialogFragment('post-request', 'drafts')}
                   onClick={props.onClose}
                   variant="thin"
                   class={styles.variant}
