@@ -584,7 +584,7 @@ artyom-melikhoff:
   profiles:
     - service: vk
       id: '299405149'
-      updated: 2026-03-05-16-02-55
+      updated: 2026-03-05-18-13-06
       username: artyom_melikhoff
       name: Артём Мелихов
       avatar: store:/avatars/vk-5b2fd843.jpg
@@ -1415,7 +1415,7 @@ dehero:
     - type: channel
       service: tg
       id: '1264795946'
-      updated: 2026-03-05-16-02-40
+      updated: 2026-03-05-18-13-04
       accessHash: '-5789257269249675714'
       username: mwscr
       name: Morrowind Screenshots
@@ -2143,7 +2143,7 @@ ghosr1368:
   profiles:
     - service: tg
       id: '6353853685'
-      updated: 2026-03-05-16-02-37
+      updated: 2026-03-05-18-13-05
       accessHash: '2523169162736182941'
       username: Ghost_1488_1
       name: GHOST_141
@@ -2672,7 +2672,7 @@ ivan-uralov:
   profiles:
     - service: vk
       id: '16497155'
-      updated: 2026-03-05-15-57-25
+      updated: 2026-03-05-18-13-02
       username: id16497155
       name: Иван Уралов
       avatar: store:/avatars/vk-51775759.jpg
@@ -2960,7 +2960,7 @@ kevy-c:
   profiles:
     - service: tg
       id: '5067683234'
-      updated: 2026-03-05-16-02-36
+      updated: 2026-03-05-18-13-01
       accessHash: '-903667913374325979'
       username: Kevy_c
       name: Dash
@@ -4217,7 +4217,7 @@ painkiller1986:
   profiles:
     - service: tg
       id: '6565289507'
-      updated: 2026-03-05-15-57-56
+      updated: 2026-03-05-18-13-02
       accessHash: '6198356028119192921'
       username: Painkiller1986
       name: Сумерки
@@ -4508,7 +4508,7 @@ pyriglena:
   profiles:
     - service: tg
       id: '554672984'
-      updated: 2026-03-05-15-57-34
+      updated: 2026-03-05-18-13-02
       accessHash: '-3565593010225205906'
       username: pyriglena
       name: yarrow
