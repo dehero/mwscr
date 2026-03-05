@@ -4,7 +4,14 @@ error_reporting(0);
 
 $uploadsDir = __DIR__ . '/uploads/';
 
-$importFormats = @json_decode(@file_get_contents(__DIR__ . '/import-variants.json'), true)['site-uploads'];
+// Load configuration
+$config = @json_decode(@file_get_contents(__DIR__ . '/import-variants.json'), true);
+
+// Get allowed formats for site-uploads
+$importFormats = [];
+if (isset($config['site-uploads']['allowedFormats']) && is_array($config['site-uploads']['allowedFormats'])) {
+  $importFormats = $config['site-uploads']['allowedFormats'];
+}
 
 // MIME types that support preview generation
 $previewMimeTypes = ['image/png', 'image/jpeg', 'image/webp', 'image/bmp'];
@@ -36,7 +43,7 @@ function getUploadErrorMessage($errorCode)
     UPLOAD_ERR_EXTENSION => 'A PHP extension stopped the file upload.',
   ];
 
-  return $messages[$errorCode];
+  return isset($messages[$errorCode]) ? $messages[$errorCode] : 'Unknown upload error';
 }
 
 function getUploadFileName($originalName, $filePath)
@@ -53,12 +60,30 @@ function getPreviewPath($originalPath)
   return $fileInfo['dirname'] . '/' . $fileInfo['filename'] . '.preview.webp';
 }
 
-function getFileMimeType($filePath)
+function getFileMimeType($originalName, $tempPath)
 {
+  $extension = strtolower(pathinfo($originalName, PATHINFO_EXTENSION));
+  $mimeMap = [
+    'png' => 'image/png',
+    'jpg' => 'image/jpeg',
+    'jpeg' => 'image/jpeg',
+    'webp' => 'image/webp',
+    'bmp' => 'image/bmp',
+    'gif' => 'image/gif',
+    'json' => 'application/json',
+    'mp4' => 'video/mp4',
+    'avi' => 'video/x-msvideo',
+    'zip' => 'application/zip',
+  ];
+
+  if (isset($mimeMap[$extension])) {
+    return $mimeMap[$extension];
+  }
+
   if (function_exists('finfo_open')) {
     $finfo = finfo_open(FILEINFO_MIME_TYPE);
     if ($finfo) {
-      $mimeType = finfo_file($finfo, $filePath);
+      $mimeType = finfo_file($finfo, $tempPath);
       finfo_close($finfo);
       if ($mimeType !== false) {
         return $mimeType;
@@ -67,23 +92,13 @@ function getFileMimeType($filePath)
   }
 
   if (function_exists('mime_content_type')) {
-    $mimeType = mime_content_type($filePath);
+    $mimeType = mime_content_type($tempPath);
     if ($mimeType !== false) {
       return $mimeType;
     }
   }
 
-  $extension = strtolower(pathinfo($filePath, PATHINFO_EXTENSION));
-  $mimeMap = [
-    'png' => 'image/png',
-    'jpg' => 'image/jpeg',
-    'jpeg' => 'image/jpeg',
-    'webp' => 'image/webp',
-    'bmp' => 'image/bmp',
-    'json' => 'application/json',
-  ];
-
-  return isset($mimeMap[$extension]) ? $mimeMap[$extension] : 'application/octet-stream';
+  return 'application/octet-stream';
 }
 
 function createImagePreview($filename, $mimeType)
@@ -104,6 +119,9 @@ function createImagePreview($filename, $mimeType)
       break;
     case 'image/bmp':
       $img = @imagecreatefrombmp($filename);
+      break;
+    case 'image/gif':
+      $img = @imagecreatefromgif($filename);
       break;
     default:
       return false;
@@ -129,8 +147,9 @@ function createImagePreview($filename, $mimeType)
   $imgOutput = @imagecreatetruecolor($width, $height);
   @imagecopyresampled($imgOutput, $img, 0, 0, 0, 0, $width, $height, $imgWidth, $imgHeight);
   @imagewebp($imgOutput, $previewFileName, 85);
+
   // https://stackoverflow.com/questions/30078090/imagewebp-php-creates-corrupted-webp-files
-  if (filesize($previewFileName) % 2 == 1) {
+  if (file_exists($previewFileName) && filesize($previewFileName) % 2 == 1) {
     file_put_contents($previewFileName, "\0", FILE_APPEND);
   }
 
@@ -143,6 +162,10 @@ function createImagePreview($filename, $mimeType)
 function deleteObsoleteUploads()
 {
   global $uploadsDir;
+
+  if (!is_dir($uploadsDir)) {
+    return;
+  }
 
   $filenames = scandir($uploadsDir);
 
@@ -173,26 +196,32 @@ function deleteObsoleteUploads()
   }
 }
 
-function isValidFileType($ext, $fileSize)
+function isValidFileType($mimeType, $fileSize)
 {
   global $importFormats;
 
-  if (!$importFormats) {
+  if (empty($importFormats)) {
     return ['valid' => false, 'error' => 'Formats configuration not found'];
   }
 
-  $ext = strtolower($ext);
   $fileSizeMB = $fileSize / (1024 * 1024);
 
-  foreach ($importFormats as $type => $formatConfig) {
-    $formats = array_map('strtolower', explode(', ', $formatConfig['formats']));
+  foreach ($importFormats as $formatConfig) {
+    if (!isset($formatConfig['mimeTypes']) || !is_array($formatConfig['mimeTypes'])) {
+      continue;
+    }
 
-    if (in_array($ext, $formats)) {
-      if ($fileSizeMB <= $formatConfig['maxSize']) {
-        return ['valid' => true, 'type' => $type];
-      } else {
-        return ['valid' => false, 'error' => "File exceeds maximum size for {$type} ({$formatConfig['maxSize']}MB)"];
+    if (in_array($mimeType, $formatConfig['mimeTypes'])) {
+      // Check maxSize if it exists in config
+      if (isset($formatConfig['maxSize']) && $fileSizeMB > $formatConfig['maxSize']) {
+        $label = isset($formatConfig['label']) ? $formatConfig['label'] : 'this type';
+        return [
+          'valid' => false,
+          'error' => "File exceeds maximum size for {$label} ({$formatConfig['maxSize']}MB)",
+        ];
       }
+
+      return ['valid' => true, 'type' => isset($formatConfig['label']) ? $formatConfig['label'] : 'allowed'];
     }
   }
 
@@ -204,8 +233,24 @@ function uploadFiles()
   global $uploadsDir, $previewMimeTypes;
 
   $baseUrl = 'https://mwscr.dehero.site/uploads/';
+
+  if (!isset($_FILES['file'])) {
+    return ['error' => 'No files uploaded'];
+  }
+
   $files = $_FILES['file'];
   $result = [];
+
+  // Handle single file upload
+  if (!is_array($files['name'])) {
+    $files = [
+      'name' => [$files['name']],
+      'type' => [$files['type']],
+      'tmp_name' => [$files['tmp_name']],
+      'error' => [$files['error']],
+      'size' => [$files['size']],
+    ];
+  }
 
   $count = count($files['name']);
 
@@ -214,39 +259,45 @@ function uploadFiles()
 
     $success = false;
     $errors = [];
+    $url = '';
 
     if ($errorCode !== UPLOAD_ERR_OK) {
       $errors[] = getUploadErrorMessage($errorCode);
     } else {
       $tempPath = $files['tmp_name'][$i];
-      $name = getUploadFileName($files['name'][$i], $tempPath);
+      $originalName = $files['name'][$i];
+      $name = getUploadFileName($originalName, $tempPath);
       $url = $baseUrl . $name;
-      $ext = pathinfo($name, PATHINFO_EXTENSION);
       $targetPath = $uploadsDir . $name;
+
+      // Get MIME type using both original filename and temp file
+      $mimeType = getFileMimeType($originalName, $tempPath);
 
       if (file_exists($targetPath)) {
         $success = true;
       } else {
-        // Validate file type and size using import_formats.json
-        $validation = isValidFileType($ext, $files['size'][$i]);
+        // Validate file type and size using config
+        $validation = isValidFileType($mimeType, $files['size'][$i]);
 
         if (!$validation['valid']) {
           $errors[] = $validation['error'];
         }
 
         if (count($errors) === 0) {
-          @mkdir(dirname($targetPath), 0777, true);
+          if (!is_dir(dirname($targetPath))) {
+            @mkdir(dirname($targetPath), 0777, true);
+          }
+
           if (move_uploaded_file($tempPath, $targetPath)) {
             $success = true;
 
             // Check if file supports preview
-            $mimeType = getFileMimeType($targetPath);
-
             if (in_array($mimeType, $previewMimeTypes)) {
               createImagePreview($targetPath, $mimeType);
             }
           } else {
-            $errors[] = error_get_last()['message'];
+            $error = error_get_last();
+            $errors[] = isset($error['message']) ? $error['message'] : 'Failed to move uploaded file';
           }
         }
       }
