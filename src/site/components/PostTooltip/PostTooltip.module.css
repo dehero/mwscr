@@ -20,6 +20,7 @@
   margin: 0;
   text-align: center;
   text-wrap: balance;
+  word-break: break-word;
 }
 
 .image {
