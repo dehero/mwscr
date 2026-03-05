@@ -779,16 +779,16 @@
       id: DVZKD-0jrEW
       mediaId: '18108859573773294'
       published: 2026-03-02-19-03-02
-      updated: 2026-03-04-19-00-33
+      updated: 2026-03-05-19-56-18
       followers: 1608
-      likes: 58
+      likes: 61
     - service: vk
       id: 3136
       published: 2026-03-02-19-03-27
-      updated: 2026-03-04-19-00-37
+      updated: 2026-03-05-19-56-53
       followers: 1615
-      likes: 57
-      views: 861
+      likes: 59
+      views: 995
       reposts: 2
       comments: !c |-
         Cx+AkZPLQnnLbbcqgACqYXJ5YS1zdGFya9kn0J7Qs9C+ISDQryDRgtCw0Lwg0LXRidGRINC90LUg
@@ -796,10 +796,10 @@
     - service: tg
       id: 1166
       published: 2026-03-02-19-03-34
-      updated: 2026-03-04-19-00-35
+      updated: 2026-03-05-19-56-30
       followers: 886
-      likes: 47
-      views: 230
+      likes: 50
+      views: 265
       comments: !c CwuAkZPLQnnLAHcmAACma2V2eS1jpPCfpoAD
     - service: mx
       id: '1772478219509'
@@ -4448,16 +4448,16 @@
       id: DVT-fJDoPMt
       mediaId: '17969838203859204'
       published: 2026-02-28-18-45-41
-      updated: 2026-03-04-19-46-11
+      updated: 2026-03-05-19-56-49
       followers: 1608
       likes: 56
     - service: vk
       id: 3124
       published: 2026-02-28-18-45-52
-      updated: 2026-03-04-19-46-26
+      updated: 2026-03-05-19-57-03
       followers: 1613
-      likes: 65
-      views: 1319
+      likes: 66
+      views: 1356
       reposts: 1
       comments: !c |-
         G6cA+J0JdswK0JlFHlVE1C3CAynlJAyyQJtA0ycp2cN0bqUUo8Vg/5hXFDluY/u3lypBIL6yzE4P
@@ -4466,10 +4466,10 @@
     - service: tg
       id: 1164
       published: 2026-02-28-18-45-58
-      updated: 2026-03-04-19-46-30
+      updated: 2026-03-05-19-56-57
       followers: 885
-      likes: 53
-      views: 334
+      likes: 55
+      views: 372
       comments: !c |-
         iyyAkpPLQnnKhzL1gACucGFpbmtpbGxlcjE5ODbZKNCSINCa0L7QvdGE0YMg0LLQu9C40YLRjNGB
         0Y8g0YXQvtGH0LXRgi6Ty0J5ymHYdYAApmtldnktY6Twn6aAAw==
@@ -7409,15 +7409,28 @@
       id: DVgzI61DMZZ
       mediaId: '18107110879633690'
       published: 2026-03-05-18-16-42
+      updated: 2026-03-05-19-56-15
       followers: 1612
+      likes: 21
     - service: vk
       id: 3150
       published: 2026-03-05-18-16-58
+      updated: 2026-03-05-19-56-26
       followers: 1615
+      likes: 12
+      views: 117
+      reposts: 1
+      comments: !c |-
+        G4EA+J2JsY2C/GDqmkp8PE/eRjigBDLKSrN2QdhVopEl73OAYW7O53xRpTVJahs3uewZtjYHEznS
+        wCBKBD9/bjADS7/jevr5+b+3lHsatwo+ONNQaahZtSspO6Vlnx0YsK2F5ZoF0nwmdtBCTTPgIWZT
+        Bw==
     - service: tg
       id: 1170
       published: 2026-03-05-18-17-43
+      updated: 2026-03-05-19-56-11
       followers: 883
+      likes: 23
+      views: 90
     - service: mx
       id: '1772734678992'
       published: 2026-03-05-18-17-59
