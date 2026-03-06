@@ -1638,7 +1638,7 @@ dremarretres:
   profiles:
     - service: vk
       id: '801308664'
-      updated: 2026-03-06-15-43-29
+      updated: 2026-03-06-17-40-30
       username: dremarretres
       name: Джон Шепард
       avatar: store:/avatars/vk-ac4f0700.jpg
@@ -2672,7 +2672,7 @@ ivan-uralov:
   profiles:
     - service: vk
       id: '16497155'
-      updated: 2026-03-06-15-43-32
+      updated: 2026-03-06-17-40-32
       username: id16497155
       name: Иван Уралов
       avatar: store:/avatars/vk-51775759.jpg
@@ -2960,7 +2960,7 @@ kevy-c:
   profiles:
     - service: tg
       id: '5067683234'
-      updated: 2026-03-06-15-43-31
+      updated: 2026-03-06-17-40-29
       accessHash: '-903667913374325979'
       username: Kevy_c
       name: Dash
@@ -4217,7 +4217,7 @@ painkiller1986:
   profiles:
     - service: tg
       id: '6565289507'
-      updated: 2026-03-06-15-43-32
+      updated: 2026-03-06-17-40-29
       accessHash: '6198356028119192921'
       username: Painkiller1986
       name: Сумерки
@@ -4421,7 +4421,7 @@ porsankka666:
   profiles:
     - service: vk
       id: '320093421'
-      updated: 2026-03-06-15-43-29
+      updated: 2026-03-06-17-40-29
       username: porsankka666
       name: Дмитрий Иванов-Соломин
       avatar: store:/avatars/vk-0a090d7d.jpg
