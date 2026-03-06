@@ -804,7 +804,7 @@
     - service: mx
       id: '1772478219509'
       published: 2026-03-02-19-03-39
-      followers: 2
+      followers: 20
 2018-01-17-nelas-ancestral-tomb:
   title: Nelas Ancestral Tomb
   titleRu: Родовая гробница Неласов
@@ -4476,7 +4476,7 @@
     - service: mx
       id: '1772304365311'
       published: 2026-02-28-18-46-05
-      followers: 2
+      followers: 17
 2018-04-01-the-sun-sets-and-rises:
   title: The Sun Sets and Rises
   titleRu: Солнце садится и встаёт
@@ -5624,7 +5624,7 @@
     - service: mx
       id: '1772564825736'
       published: 2026-03-03-19-07-06
-      followers: 2
+      followers: 20
 2018-04-24-did-you-hear-that-cry:
   title: Did You Hear That Cry?
   titleRu: Ты слышал этот вой?
@@ -7434,7 +7434,7 @@
     - service: mx
       id: '1772734678992'
       published: 2026-03-05-18-17-59
-      followers: 2
+      followers: 20
 2018-05-31-clandestine-lab:
   title: Clandestine Lab
   titleRu: Подпольная лаборатория
@@ -7505,7 +7505,7 @@
   title: Mournhold Cactus
   titleRu: Морнхолдский кактус
   placement: Indoors
-  location: 'Mournhold, Royal Palace: Guards'' Quarters'
+  location: "Mournhold, Royal Palace: Guards' Quarters"
   content: store:/shots/2018-06-02-mournhold-cactus.png
   type: shot
   aspect: 1/1
@@ -7860,7 +7860,7 @@
   placement: Indoors
   location:
     - Imperial Prison Ship
-    - 'Mournhold, Royal Palace: Barenziah''s Chambers'
+    - "Mournhold, Royal Palace: Barenziah's Chambers"
     - Tower of Tel Fyr, Hall of Fyr
     - Seyda Neen, Census and Excise Office
   content:
@@ -15966,7 +15966,8 @@
   locating:
     date: 2026-02-14-20-32-23
     user: pyriglena
-    text: Azura's Coast Region 13,12, the northern coast of the bigger island to the south of Tel Mora (north of Esutanamus)
+    text:
+      Azura's Coast Region 13,12, the northern coast of the bigger island to the south of Tel Mora (north of Esutanamus)
   engine: OpenMW
   mark: B2
   posts:
