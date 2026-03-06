@@ -2030,6 +2030,18 @@
       followers: 370
       likes: 62
       views: 499
+    - service: vk
+      id: 3158
+      published: 2026-03-06-19-00-05
+      followers: 1616
+    - service: tg
+      id: 1171
+      published: 2026-03-06-19-00-10
+      followers: 883
+    - service: mx
+      id: '1772823622847'
+      published: 2026-03-06-19-00-22
+      followers: 20
 2024-05-06-alchemist-table:
   title: Alchemist Table
   titleRu: Стол алхимика
