@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file.
 
+## [2.19.2](https://github.com/dehero/mwscr/compare/v2.19.1...v2.19.2) (2026-03-06)
+
+### Bug Fixes
+
+- update MAX follower count ([c605e79](https://github.com/dehero/mwscr/commit/c605e79d005fb805bc48009121d632e141403f5b))
+
+### Documentation
+
+- mention merch in README ([b9b428e](https://github.com/dehero/mwscr/commit/b9b428e4972d241f41663269ef9dcb40185dcc33))
+
 ## [2.19.1](https://github.com/dehero/mwscr/compare/v2.19.0...v2.19.1) (2026-03-05)
 
 ### Bug Fixes
