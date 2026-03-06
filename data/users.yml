@@ -503,7 +503,7 @@ anton-mezhuev:
   profiles:
     - service: vk
       id: '63571521'
-      updated: 2026-03-05-19-57-03
+      updated: 2026-03-06-20-39-31
       username: id63571521
       name: Антон Межуев
       avatar: store:/avatars/vk-295e8e4f.jpg
@@ -600,7 +600,7 @@ arya-stark:
   profiles:
     - service: vk
       id: '820702664'
-      updated: 2026-03-05-23-55-54
+      updated: 2026-03-06-20-39-25
       username: id820702664
       name: Арья Старк
       avatar: store:/avatars/vk-689aa89d.jpg
@@ -1638,7 +1638,7 @@ dremarretres:
   profiles:
     - service: vk
       id: '801308664'
-      updated: 2026-03-06-19-38-44
+      updated: 2026-03-06-20-39-19
       username: dremarretres
       name: Джон Шепард
       avatar: store:/avatars/vk-ac4f0700.jpg
@@ -2672,7 +2672,7 @@ ivan-uralov:
   profiles:
     - service: vk
       id: '16497155'
-      updated: 2026-03-06-19-38-43
+      updated: 2026-03-06-20-39-30
       username: id16497155
       name: Иван Уралов
       avatar: store:/avatars/vk-51775759.jpg
@@ -2960,7 +2960,7 @@ kevy-c:
   profiles:
     - service: tg
       id: '5067683234'
-      updated: 2026-03-06-18-55-53
+      updated: 2026-03-06-20-39-28
       accessHash: '-903667913374325979'
       username: Kevy_c
       name: Dash
@@ -4217,7 +4217,7 @@ painkiller1986:
   profiles:
     - service: tg
       id: '6565289507'
-      updated: 2026-03-06-19-38-41
+      updated: 2026-03-06-20-39-28
       accessHash: '6198356028119192921'
       username: Painkiller1986
       name: Сумерки
@@ -4421,7 +4421,7 @@ porsankka666:
   profiles:
     - service: vk
       id: '320093421'
-      updated: 2026-03-06-19-38-43
+      updated: 2026-03-06-20-39-18
       username: porsankka666
       name: Дмитрий Иванов-Соломин
       avatar: store:/avatars/vk-0a090d7d.jpg
@@ -4508,7 +4508,7 @@ pyriglena:
   profiles:
     - service: tg
       id: '554672984'
-      updated: 2026-03-06-18-55-53
+      updated: 2026-03-06-20-39-24
       accessHash: '-3565593010225205906'
       username: pyriglena
       name: yarrow
