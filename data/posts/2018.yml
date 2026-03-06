@@ -5838,10 +5838,10 @@
     - service: vk
       id: 3052
       published: 2026-01-30-18-41-38
-      updated: 2026-02-27-21-36-06
+      updated: 2026-03-06-22-35-36
       followers: 1594
       likes: 61
-      views: 763
+      views: 778
       comments: !c |-
         GxYBOKwOeHNXKDgiu52Hh8IfFXEj/fEKPcQmsUiTPai6CaEIJQll/znMjXlQbqtlIVmb7f7nQFBY
         rsZmumQolFxwh63lZdPJARcgtpYGHTgMOOcSu04O8CAl2rIoLIIMSqi6n/cfc9xp3y3ORKL/NwSZ
@@ -7409,16 +7409,16 @@
       id: DVgzI61DMZZ
       mediaId: '18107110879633690'
       published: 2026-03-05-18-16-42
-      updated: 2026-03-06-21-36-09
+      updated: 2026-03-06-22-35-31
       followers: 1612
       likes: 53
     - service: vk
       id: 3150
       published: 2026-03-05-18-16-58
-      updated: 2026-03-06-21-36-12
+      updated: 2026-03-06-22-35-33
       followers: 1615
-      likes: 55
-      views: 679
+      likes: 56
+      views: 684
       reposts: 1
       comments: !c |-
         Gx4CwCwObBtG9nBh8WybnnIw/vn+YoEF+ma5+QhxEhVxJdaSbXCuYGpuhBEahUI47tKt4ctKgrAP
@@ -7430,10 +7430,10 @@
     - service: tg
       id: 1170
       published: 2026-03-05-18-17-43
-      updated: 2026-03-06-21-36-14
+      updated: 2026-03-06-22-35-34
       followers: 883
-      likes: 43
-      views: 183
+      likes: 45
+      views: 185
     - service: mx
       id: '1772734678992'
       published: 2026-03-05-18-17-59
