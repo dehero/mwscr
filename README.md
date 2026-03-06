@@ -45,7 +45,8 @@ If you want to participate in the project, please read the [contributing guideli
 - [Redrawing](https://mwscr.dehero.site/help/redrawing/) - a drawing based on a previously published screenshot;
 - [Outtakes](https://mwscr.dehero.site/help/outtakes/) - interesting screenshots that were rejected or violate the rules
   of the project;
-- [Achievement](https://mwscr.dehero.site/help/achievement/) - a special achievement in the project or in the game.
+- [Achievement](https://mwscr.dehero.site/help/achievement/) - a special achievement in the project or in the game;
+- [Merch](https://mwscr.dehero.site/help/merch/) - merch item which can be ordered to support the project.
 
 ### Publication
 

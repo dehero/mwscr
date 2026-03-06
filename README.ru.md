@@ -35,7 +35,7 @@
   скриншотов;
 - [Wallpaper](https://mwscr.dehero.site/help/wallpaper/) - горизонтальный или вертикальный скриншот, подходящий в
   качестве обоев рабочего стола или смартфона;
-- [Клип](https://mwscr.dehero.site/help/clip/) - квадратное или вертикальное видео продолжительностью до 1 минуты;
+- [Clip](https://mwscr.dehero.site/help/clip/) - квадратное или вертикальное видео продолжительностью до 1 минуты;
 - [Video](https://mwscr.dehero.site/help/video/) - прямоугольное видео продолжительностью не более 1 часа.
 
 ### Дополнительные типы постов
@@ -46,7 +46,8 @@
 - [Redrawing](https://mwscr.dehero.site/help/redrawing/) - рисунок на основе ранее опубликованного скриншота;
 - [Outtakes](https://mwscr.dehero.site/help/outtakes/) - интересные скриншоты, отвергнутые или нарушающие правила
   проекта;
-- [Achievement](https://mwscr.dehero.site/help/achievement/) - знаменательное достижение в проекте или в игре.
+- [Achievement](https://mwscr.dehero.site/help/achievement/) - знаменательное достижение в проекте или в игре;
+- [Merch](https://mwscr.dehero.site/help/merch/) - мерч, который можно приобрести для поддержки проекта.
 
 ### Публикация
 
