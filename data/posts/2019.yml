@@ -2042,15 +2042,27 @@
       id: DVmAB57Fy4Z
       mediaId: '18042578789732744'
       published: 2026-03-07-18-45-30
+      updated: 2026-03-07-19-27-42
       followers: 1615
+      likes: 21
     - service: tg
       id: 1172
       published: 2026-03-07-18-45-42
+      updated: 2026-03-07-19-27-44
       followers: 883
+      likes: 18
+      views: 74
+      comments: !c |-
+        iyuAkpPLQnnMm+NeAACma2V2eS1jpPCfpoCTy0J5zJpcQQAArnBhaW5raWxsZXIxOTg22SbQm9GD
+        0YfRiNC40Lkg0LTQtdC90Ywg0L3QsCDRgdCy0LXRgtC1LgM=
     - service: mx
       id: '1772909145134'
       published: 2026-03-07-18-45-45
       followers: 20
+    - service: vk
+      id: 3159
+      published: 2026-03-07-19-31-33
+      followers: 1615
 2019-10-05-saber-and-heart:
   title: Saber and Heart
   titleRu: Сабля и сердце
