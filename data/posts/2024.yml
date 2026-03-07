@@ -2033,18 +2033,18 @@
     - service: vk
       id: 3158
       published: 2026-03-06-19-00-05
-      updated: 2026-03-07-20-32-46
+      updated: 2026-03-07-21-27-55
       followers: 1616
-      likes: 46
-      views: 477
+      likes: 47
+      views: 481
       reposts: 3
     - service: tg
       id: 1171
       published: 2026-03-06-19-00-10
-      updated: 2026-03-07-20-32-52
+      updated: 2026-03-07-21-28-00
       followers: 883
       likes: 39
-      views: 180
+      views: 183
       comments: !c |-
         izCAkpPLQnnMZUuJgACma2V2eS1jpPCfpoCTy0J5zEh7EoAArnBhaW5raWxsZXIxOTg22TDQntGB
         0LvQtdC/0LjRgtGMINC+0L0g0YHQuNGP0L3RjNC10Lwg0YHQstC+0LjQvC4D
@@ -2056,9 +2056,9 @@
       id: DVjhr7QFyBv
       mediaId: '17850356391644277'
       published: 2026-03-06-19-41-52
-      updated: 2026-03-07-20-32-52
+      updated: 2026-03-07-21-28-11
       followers: 1615
-      likes: 37
+      likes: 38
 2024-05-06-alchemist-table:
   title: Alchemist Table
   titleRu: Стол алхимика
