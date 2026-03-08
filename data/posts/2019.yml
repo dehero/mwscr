@@ -1525,15 +1525,23 @@
       id: DVok6CZl7Ra
       mediaId: '17961921570046424'
       published: 2026-03-08-18-46-14
+      updated: 2026-03-08-19-29-11
       followers: 1612
+      likes: 18
     - service: vk
       id: 3160
       published: 2026-03-08-18-46-21
+      updated: 2026-03-08-19-29-05
       followers: 1617
+      likes: 7
+      views: 44
     - service: tg
       id: 1173
       published: 2026-03-08-18-46-24
+      updated: 2026-03-08-19-29-05
       followers: 883
+      likes: 23
+      views: 64
     - service: mx
       id: '1772995587099'
       published: 2026-03-08-18-46-27
@@ -2060,7 +2068,7 @@
       id: DVmAB57Fy4Z
       mediaId: '18042578789732744'
       published: 2026-03-07-18-45-30
-      updated: 2026-03-08-18-42-48
+      updated: 2026-03-08-19-29-12
       followers: 1615
       likes: 84
       comments: !c |-
@@ -2069,10 +2077,10 @@
     - service: tg
       id: 1172
       published: 2026-03-07-18-45-42
-      updated: 2026-03-08-18-42-50
+      updated: 2026-03-08-19-29-13
       followers: 883
-      likes: 57
-      views: 295
+      likes: 60
+      views: 305
       comments: !c |-
         G6oACB0HdsNXwcHIo4vlNIYgorV9ipcePDQvWczbS0cbdNGSxWYjmVCAOJtQq5aEemyC94ANOOaI
         Y81wkJ1yooFxWFsQ21GvN7/b2BterwiK0O7TcvmI6q56MrR9a9wpF2v5RvobYA40nxUDFCcGyRMD
@@ -2084,10 +2092,10 @@
     - service: vk
       id: 3159
       published: 2026-03-07-19-31-33
-      updated: 2026-03-08-18-42-43
+      updated: 2026-03-08-19-29-06
       followers: 1615
-      likes: 71
-      views: 542
+      likes: 72
+      views: 559
       reposts: 2
 2019-10-05-saber-and-heart:
   title: Saber and Heart
