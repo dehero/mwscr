@@ -601,7 +601,7 @@ arya-stark:
   profiles:
     - service: vk
       id: '820702664'
-      updated: 2026-03-08-11-03-03
+      updated: 2026-03-08-21-30-47
       username: id820702664
       name: Арья Старк
       avatar: store:/avatars/vk-689aa89d.jpg
@@ -2152,7 +2152,7 @@ ghost63rus:
   profiles:
     - service: vk
       id: '841031998'
-      updated: 2026-03-08-10-34-28
+      updated: 2026-03-08-21-30-46
       username: ghost63rus
       name: Дмитрий Кузнецов
       avatar: store:/avatars/vk-912d08a5.jpg
@@ -2671,7 +2671,7 @@ ivan-uralov:
   profiles:
     - service: vk
       id: '16497155'
-      updated: 2026-03-08-19-29-14
+      updated: 2026-03-08-21-30-43
       username: id16497155
       name: Иван Уралов
       avatar: store:/avatars/vk-51775759.jpg
@@ -2959,7 +2959,7 @@ kevy-c:
   profiles:
     - service: tg
       id: '5067683234'
-      updated: 2026-03-08-20-34-04
+      updated: 2026-03-08-21-30-43
       accessHash: '-903667913374325979'
       username: Kevy_c
       name: Dash
@@ -4208,7 +4208,7 @@ p40jla:
   profiles:
     - service: vk
       id: '365527711'
-      updated: 2026-03-08-10-58-52
+      updated: 2026-03-08-21-30-46
       username: p40jla
       name: Николай Хорошун
       avatar: store:/avatars/vk-c9387c2d.jpg
@@ -4216,7 +4216,7 @@ painkiller1986:
   profiles:
     - service: tg
       id: '6565289507'
-      updated: 2026-03-08-20-34-04
+      updated: 2026-03-08-21-30-40
       accessHash: '6198356028119192921'
       username: Painkiller1986
       name: Сумерки
@@ -4507,7 +4507,7 @@ pyriglena:
   profiles:
     - service: tg
       id: '554672984'
-      updated: 2026-03-08-20-34-02
+      updated: 2026-03-08-21-30-40
       accessHash: '-3565593010225205906'
       username: pyriglena
       name: yarrow
