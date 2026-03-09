@@ -104,14 +104,14 @@ a2-enkelli:
   profiles:
     - service: tg
       id: '7258424423'
-      updated: 2026-03-09-10-01-15
+      updated: 2026-03-09-11-27-51
       accessHash: '969825927170686844'
       deleted: true
 aarychagoff:
   profiles:
     - service: tg
       id: '1343549669'
-      updated: 2026-03-08-10-42-34
+      updated: 2026-03-09-11-27-51
       accessHash: '-8044934406214364524'
       username: aarychagoff
       name: Andrei Rychagov
@@ -585,7 +585,7 @@ artyom-melikhoff:
   profiles:
     - service: vk
       id: '299405149'
-      updated: 2026-03-09-10-01-40
+      updated: 2026-03-09-11-27-51
       username: artyom_melikhoff
       name: Артём Мелихов
       avatar: store:/avatars/vk-5b2fd843.jpg
@@ -601,7 +601,7 @@ arya-stark:
   profiles:
     - service: vk
       id: '820702664'
-      updated: 2026-03-09-10-00-55
+      updated: 2026-03-09-10-57-05
       username: id820702664
       name: Арья Старк
       avatar: store:/avatars/vk-689aa89d.jpg
@@ -1576,7 +1576,7 @@ dmrashodov:
   profiles:
     - service: vk
       id: '1070374914'
-      updated: 2026-03-09-10-00-38
+      updated: 2026-03-09-10-57-12
       username: id1070374914
       name: Existentialis Nihilismus
       avatar: store:/avatars/vk-0c96d7f9.jpg
@@ -2929,7 +2929,7 @@ kawazaky223:
   profiles:
     - service: tg
       id: '5641856113'
-      updated: 2026-03-09-10-01-30
+      updated: 2026-03-09-11-27-52
       accessHash: '7421309771527577818'
       username: Kawazaky223
       name: Максим
@@ -2959,7 +2959,7 @@ kevy-c:
   profiles:
     - service: tg
       id: '5067683234'
-      updated: 2026-03-09-10-00-15
+      updated: 2026-03-09-10-57-05
       accessHash: '-903667913374325979'
       username: Kevy_c
       name: Dash
@@ -4216,7 +4216,7 @@ painkiller1986:
   profiles:
     - service: tg
       id: '6565289507'
-      updated: 2026-03-09-09-59-33
+      updated: 2026-03-09-10-57-06
       accessHash: '6198356028119192921'
       username: Painkiller1986
       name: Сумерки
@@ -4386,7 +4386,7 @@ pohotlivaya-argonianskaya-deva:
   profiles:
     - service: tg
       id: '754205623'
-      updated: 2026-03-09-10-01-18
+      updated: 2026-03-09-10-57-08
       accessHash: '-9198477663948575721'
       username: PohotlivayaArgonianskayaDeva
       name: Илья
@@ -4507,7 +4507,7 @@ pyriglena:
   profiles:
     - service: tg
       id: '554672984'
-      updated: 2026-03-09-09-59-23
+      updated: 2026-03-09-10-57-04
       accessHash: '-3565593010225205906'
       username: pyriglena
       name: yarrow
@@ -4826,7 +4826,7 @@ scrl-p:
   profiles:
     - service: tg
       id: '6913665337'
-      updated: 2026-03-02-09-59-22
+      updated: 2026-03-09-10-57-10
       accessHash: '3180581473506029907'
       username: scrLp
       name: Paradise
@@ -6071,7 +6071,7 @@ vail-astor-zkiy:
   profiles:
     - service: tg
       id: '1245638625'
-      updated: 2026-03-09-10-00-17
+      updated: 2026-03-09-10-57-12
       accessHash: '-6135365331334675689'
       name: Vail Astor'zkiy
 valeriy-zhmishenko:
@@ -6230,7 +6230,7 @@ vladkr114:
   profiles:
     - service: vk
       id: '210352858'
-      updated: 2026-03-08-10-55-12
+      updated: 2026-03-09-10-57-08
       username: vladkr114
       name: Влад Крамской
       avatar: store:/avatars/vk-dfe1d842.jpg
