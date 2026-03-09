@@ -2033,18 +2033,18 @@
     - service: vk
       id: 3158
       published: 2026-03-06-19-00-05
-      updated: 2026-03-08-18-42-43
+      updated: 2026-03-09-19-01-34
       followers: 1616
-      likes: 51
-      views: 552
+      likes: 54
+      views: 607
       reposts: 3
     - service: tg
       id: 1171
       published: 2026-03-06-19-00-10
-      updated: 2026-03-08-18-42-50
+      updated: 2026-03-09-19-01-43
       followers: 883
-      likes: 43
-      views: 215
+      likes: 44
+      views: 240
       comments: !c |-
         izCAkpPLQnnMZUuJgACma2V2eS1jpPCfpoCTy0J5zEh7EoAArnBhaW5raWxsZXIxOTg22TDQntGB
         0LvQtdC/0LjRgtGMINC+0L0g0YHQuNGP0L3RjNC10Lwg0YHQstC+0LjQvC4D
@@ -4041,6 +4041,23 @@
       followers: 626
       likes: 74
       views: 1021
+    - service: ig
+      id: DVrL0rBlwBC
+      mediaId: '18427235065143069'
+      published: 2026-03-09-19-04-44
+      followers: 1612
+    - service: vk
+      id: 3161
+      published: 2026-03-09-19-04-53
+      followers: 1619
+    - service: tg
+      id: 1174
+      published: 2026-03-09-19-04-58
+      followers: 883
+    - service: mx
+      id: '1773083101743'
+      published: 2026-03-09-19-05-01
+      followers: 20
 2024-12-27-tiny-boat:
   title: Tiny Boat
   titleRu: Маленькая лодочка
