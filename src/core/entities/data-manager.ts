@@ -17,6 +17,7 @@ import type { TopicsReader } from './topics-reader.js';
 import type { SelectUserInfosParams, UserInfo } from './user-info.js';
 import { createUserInfos, selectUserInfos } from './user-info.js';
 import type { UsersManager } from './users-manager.js';
+import { ListReaderItemStatus } from './list-manager.js';
 
 export interface DataManagerArgs {
   postsManagers: PostsManager[];
@@ -243,5 +244,14 @@ export class DataManager {
     const userInfos = await this.getAllUserInfos();
 
     return selectUserInfos(userInfos, params, limit);
+  }
+
+  async hasItemWithStatus(...statuses: ListReaderItemStatus[]): Promise<boolean> {
+    for (const manager of this.postsManagers) {
+      if (await manager.hasItemWithStatus(...statuses)) {
+        return true;
+      }
+    }
+    return false;
   }
 }
