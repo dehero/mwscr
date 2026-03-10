@@ -66,6 +66,7 @@
   padding: 8px;
   box-sizing: border-box;
   flex: 1 1;
+  overflow-y: auto;
 }
 
 .patchEditor {
