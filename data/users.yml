@@ -2959,7 +2959,7 @@ kevy-c:
   profiles:
     - service: tg
       id: '5067683234'
-      updated: 2026-03-10-13-14-12
+      updated: 2026-03-10-14-56-14
       accessHash: '-903667913374325979'
       username: Kevy_c
       name: Dash
@@ -3927,6 +3927,14 @@ nihil-sum:
       botChatId: 563711962
       name: Birchman🌲
       avatar: store:/avatars/tg-2421124441613994753.jpg
+nikita-perminov:
+  profiles:
+    - service: vk
+      id: '144340379'
+      updated: 2026-03-10-14-56-16
+      username: id144340379
+      name: Никита Перминов
+      avatar: store:/avatars/vk-55806a66.jpg
 nirnwayfarer:
   profiles:
     - service: ig

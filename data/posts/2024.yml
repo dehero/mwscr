@@ -4045,24 +4045,27 @@
       id: DVrL0rBlwBC
       mediaId: '18427235065143069'
       published: 2026-03-09-19-04-44
-      updated: 2026-03-10-13-14-10
+      updated: 2026-03-10-14-56-13
       followers: 1612
-      likes: 53
+      likes: 58
     - service: vk
       id: 3161
       published: 2026-03-09-19-04-53
-      updated: 2026-03-10-13-14-05
+      updated: 2026-03-10-14-56-17
       followers: 1619
-      likes: 56
-      views: 675
+      likes: 60
+      views: 739
       reposts: 2
+      comments: !c |-
+        CyaAkZPLQnnNfv7FgACvbmlraXRhLXBlcm1pbm922TDQl9C00LXRgdGMINC00LvRjyDQvNC10L3R
+        jyDRgdCw0LzQvtC1INC80LXRgdGC0L4D
     - service: tg
       id: 1174
       published: 2026-03-09-19-04-58
-      updated: 2026-03-10-13-14-12
+      updated: 2026-03-10-14-56-13
       followers: 883
-      likes: 40
-      views: 191
+      likes: 41
+      views: 194
       comments: !c CwuAkZPLQnnNWGEHgACma2V2eS1jpPCfpoAD
     - service: mx
       id: '1773083101743'
