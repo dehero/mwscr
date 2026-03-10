@@ -733,4 +733,46 @@ export abstract class ListManager<TItem extends object> extends ListReader<TItem
 
     return 'changed';
   }
+
+  /**
+   * Checks if there is at least one item with any of the given statuses.
+   * @param statuses The statuses to check for ('added', 'changed', or 'removed')
+   * @returns True if at least one item has any of the specified statuses, false otherwise
+   */
+  async hasItemWithStatus(...statuses: ListReaderItemStatus[]): Promise<boolean> {
+    if (!this.patch || statuses.length === 0) {
+      return false;
+    }
+
+    const statusSet = new Set(statuses);
+
+    if (statusSet.has('removed')) {
+      if (Object.values(this.patch).some((value) => value === null)) {
+        return true;
+      }
+
+      if (statusSet.size === 1) {
+        return false;
+      }
+    }
+
+    for (const [id, patchValue] of Object.entries(this.patch)) {
+      if (patchValue === null) {
+        continue;
+      }
+
+      const entry = await this.getEntry(id, true);
+      const isAdded = !entry[1]; // Item doesn't exist in original data
+
+      if (statusSet.has('added') && isAdded) {
+        return true;
+      }
+
+      if (statusSet.has('changed') && !isAdded && patchValue !== undefined) {
+        return true;
+      }
+    }
+
+    return false;
+  }
 }
