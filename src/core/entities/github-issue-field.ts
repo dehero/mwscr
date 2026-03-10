@@ -175,3 +175,13 @@ export const dataPatchText = {
     render: 'json',
   },
 };
+
+export const dataPatchUrl = {
+  type: 'input',
+  id: 'url',
+  attributes: {
+    label: 'Data Patch URL',
+    description: 'Write down data patch URL (JSON file).',
+    placeholder: 'https://mwscr.dehero.site/uploads/99914b932bd37a50b983c5e7c90ae93b.json',
+  },
+};

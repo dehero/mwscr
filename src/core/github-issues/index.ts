@@ -1,5 +1,5 @@
-import type { GithubIssueInfo } from '../entities/github-issue.js';
-import * as dataPatch from './data-patch.js';
-import * as postProposal from './post-proposal.js';
+import type { GithubIssueDescriptor } from '../entities/github-issue.js';
+import { dataPatchIssue } from './data-patch-issue.js';
+import { postProposalIssue } from './post-proposal-issue.js';
 
-export const githubIssues: GithubIssueInfo[] = [dataPatch, postProposal];
+export const githubIssues: GithubIssueDescriptor[] = [dataPatchIssue, postProposalIssue];
