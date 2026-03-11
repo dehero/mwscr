@@ -1639,7 +1639,7 @@ dremarretres:
   profiles:
     - service: vk
       id: '801308664'
-      updated: 2026-03-10-17-52-04
+      updated: 2026-03-11-17-56-58
       username: dremarretres
       name: Джон Шепард
       avatar: store:/avatars/vk-ac4f0700.jpg
@@ -2671,7 +2671,7 @@ ivan-uralov:
   profiles:
     - service: vk
       id: '16497155'
-      updated: 2026-03-10-20-41-08
+      updated: 2026-03-11-17-56-58
       username: id16497155
       name: Иван Уралов
       avatar: store:/avatars/vk-51775759.jpg
@@ -2959,7 +2959,7 @@ kevy-c:
   profiles:
     - service: tg
       id: '5067683234'
-      updated: 2026-03-11-17-00-24
+      updated: 2026-03-11-17-56-55
       accessHash: '-903667913374325979'
       username: Kevy_c
       name: Dash
@@ -3931,7 +3931,7 @@ nikita-perminov:
   profiles:
     - service: vk
       id: '144340379'
-      updated: 2026-03-11-17-00-24
+      updated: 2026-03-11-17-56-54
       username: id144340379
       name: Никита Перминов
       avatar: store:/avatars/vk-55806a66.jpg
@@ -4224,7 +4224,7 @@ painkiller1986:
   profiles:
     - service: tg
       id: '6565289507'
-      updated: 2026-03-10-20-41-10
+      updated: 2026-03-11-17-56-53
       accessHash: '6198356028119192921'
       username: Painkiller1986
       name: Сумерки
@@ -4428,7 +4428,7 @@ porsankka666:
   profiles:
     - service: vk
       id: '320093421'
-      updated: 2026-03-10-17-51-59
+      updated: 2026-03-11-17-56-57
       username: porsankka666
       name: Дмитрий Иванов-Соломин
       avatar: store:/avatars/vk-0a090d7d.jpg
@@ -4515,7 +4515,7 @@ pyriglena:
   profiles:
     - service: tg
       id: '554672984'
-      updated: 2026-03-10-17-51-56
+      updated: 2026-03-11-17-56-53
       accessHash: '-3565593010225205906'
       username: pyriglena
       name: yarrow
@@ -5352,7 +5352,7 @@ stigmatism:
   profiles:
     - service: vk
       id: '336307999'
-      updated: 2026-03-11-17-00-26
+      updated: 2026-03-11-17-56-54
       username: stigmatism
       name: Astigmatism Eyes
       avatar: store:/avatars/vk-ddbd35b7.jpg
