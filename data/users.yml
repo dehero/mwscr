@@ -2959,7 +2959,7 @@ kevy-c:
   profiles:
     - service: tg
       id: '5067683234'
-      updated: 2026-03-10-23-33-40
+      updated: 2026-03-11-02-30-01
       accessHash: '-903667913374325979'
       username: Kevy_c
       name: Dash
@@ -3931,7 +3931,7 @@ nikita-perminov:
   profiles:
     - service: vk
       id: '144340379'
-      updated: 2026-03-10-23-33-39
+      updated: 2026-03-11-02-29-59
       username: id144340379
       name: Никита Перминов
       avatar: store:/avatars/vk-55806a66.jpg
