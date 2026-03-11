@@ -46,18 +46,45 @@ function getUploadErrorMessage($errorCode)
   return isset($messages[$errorCode]) ? $messages[$errorCode] : 'Unknown upload error';
 }
 
-function getUploadFileName($originalName, $filePath)
+function getUploadFileName($originalName, $tempPath)
 {
   $ext = pathinfo($originalName, PATHINFO_EXTENSION);
-  $hash = hash_file('md5', $filePath, false);
+  $hash = hash_file('md5', $tempPath, false);
+  $shortHash = substr($hash, 0, 8);
 
-  return $hash . ($ext ? '.' . $ext : '');
+  // Get MIME type and determine prefix
+  $mimeType = getFileMimeType($originalName, $tempPath);
+  $prefix = getFileTypePrefixFromMime($mimeType);
+
+  return 'mwscr-' . $prefix . $shortHash . ($ext ? '.' . $ext : '');
 }
 
 function getPreviewPath($originalPath)
 {
   $fileInfo = pathinfo($originalPath);
   return $fileInfo['dirname'] . '/' . $fileInfo['filename'] . '.preview.webp';
+}
+
+function getFileTypePrefixFromMime($mimeType)
+{
+  if (strpos($mimeType, 'image/') === 0) {
+    return 'image-';
+  }
+
+  if (strpos($mimeType, 'video/') === 0) {
+    return 'video-';
+  }
+
+  if ($mimeType === 'application/zip' || $mimeType === 'application/x-zip-compressed') {
+    return 'archive-';
+  }
+
+  if ($mimeType === 'application/json') {
+    return 'patch-';
+  }
+
+  // Default
+  return 'file-';
 }
 
 function getFileMimeType($originalName, $tempPath)
