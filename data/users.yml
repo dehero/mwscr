@@ -2959,7 +2959,7 @@ kevy-c:
   profiles:
     - service: tg
       id: '5067683234'
-      updated: 2026-03-11-17-56-55
+      updated: 2026-03-11-19-02-43
       accessHash: '-903667913374325979'
       username: Kevy_c
       name: Dash
@@ -3931,7 +3931,7 @@ nikita-perminov:
   profiles:
     - service: vk
       id: '144340379'
-      updated: 2026-03-11-17-56-54
+      updated: 2026-03-11-19-02-49
       username: id144340379
       name: Никита Перминов
       avatar: store:/avatars/vk-55806a66.jpg
@@ -5352,7 +5352,7 @@ stigmatism:
   profiles:
     - service: vk
       id: '336307999'
-      updated: 2026-03-11-17-56-54
+      updated: 2026-03-11-19-02-49
       username: stigmatism
       name: Astigmatism Eyes
       avatar: store:/avatars/vk-ddbd35b7.jpg
