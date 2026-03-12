@@ -13340,15 +13340,24 @@
       id: DVy6dUVl0iY
       mediaId: '18000811652728473'
       published: 2026-03-12-19-06-57
+      updated: 2026-03-12-20-42-26
       followers: 1614
+      likes: 21
     - service: vk
       id: 3171
       published: 2026-03-12-19-07-05
+      updated: 2026-03-12-20-42-22
       followers: 1617
+      likes: 6
+      views: 63
+      reposts: 1
     - service: tg
       id: 1180
       published: 2026-03-12-19-07-10
+      updated: 2026-03-12-20-42-20
       followers: 885
+      likes: 20
+      views: 85
     - service: mx
       id: '1773342434365'
       published: 2026-03-12-19-07-14
@@ -13532,16 +13541,16 @@
       id: DVwVjIvlxqm
       mediaId: '18138284236502347'
       published: 2026-03-11-19-05-57
-      updated: 2026-03-12-19-02-09
+      updated: 2026-03-12-20-42-27
       followers: 1614
-      likes: 61
+      likes: 62
     - service: vk
       id: 3167
       published: 2026-03-11-19-06-04
-      updated: 2026-03-12-19-02-12
+      updated: 2026-03-12-20-42-31
       followers: 1618
-      likes: 34
-      views: 230
+      likes: 36
+      views: 242
       reposts: 2
       comments: !c |-
         G3ACYKwObOdpCKnI4o5e8O8Zief/OdRM8X/CQ22vWkEnWGkRzfswtdGGWlLbFhIC+CfvHTHM3FYK
@@ -13554,10 +13563,10 @@
     - service: tg
       id: 1179
       published: 2026-03-11-19-06-09
-      updated: 2026-03-12-19-02-08
+      updated: 2026-03-12-20-42-29
       followers: 885
-      likes: 41
-      views: 268
+      likes: 43
+      views: 290
       comments: !c CwuAkZPLQnnN5ldQgACma2V2eS1jpPCfpoAD
     - service: mx
       id: '1773255983740'
