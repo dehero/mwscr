@@ -13336,6 +13336,23 @@
       followers: 79
       likes: 13
       views: 141
+    - service: ig
+      id: DVy6dUVl0iY
+      mediaId: '18000811652728473'
+      published: 2026-03-12-19-06-57
+      followers: 1614
+    - service: vk
+      id: 3171
+      published: 2026-03-12-19-07-05
+      followers: 1617
+    - service: tg
+      id: 1180
+      published: 2026-03-12-19-07-10
+      followers: 885
+    - service: mx
+      id: '1773342434365'
+      published: 2026-03-12-19-07-14
+      followers: 20
 2017-09-29-rain-of-sparks:
   title: Rain of Sparks
   titleRu: Дождь из искр
@@ -13515,30 +13532,32 @@
       id: DVwVjIvlxqm
       mediaId: '18138284236502347'
       published: 2026-03-11-19-05-57
-      updated: 2026-03-12-17-53-32
+      updated: 2026-03-12-19-02-09
       followers: 1614
       likes: 61
     - service: vk
       id: 3167
       published: 2026-03-11-19-06-04
-      updated: 2026-03-12-17-53-28
+      updated: 2026-03-12-19-02-12
       followers: 1618
-      likes: 32
-      views: 217
+      likes: 34
+      views: 230
       reposts: 2
       comments: !c |-
-        G30BgJwJdoxkjGnJ6YsIG8sHNuryjq0jLrsKS0JWkVI4K1utbVpSU0Oa8Duex40YVLelYGsv1vpt
-        3AsOrN2STRkxOx2elmEAPkogiSQASYKsMOKLHjxkpdKkm9k+PH/G3ff/31F5vZidF7O7SRP/Z8MD
-        irMLNovIB2FcJrAf7j5PLJGANDFiPFq27CdZcPNZdOHkJZmV05/2XCyCUEMiqWRjaBigmNIyjEuC
-        25Hypc2BYis2KNKyZRAXguKPS6aKAh/lpspg8PQZdz+j+XJf+cim9Gy/OVz/TTcmdTSfkWAJrAyZ
-        AAsVF0qC0oR7pk4B
+        G3ACYKwObOdpCKnI4o5e8O8Zief/OdRM8X/CQ22vWkEnWGkRzfswtdGGWlLbFhIC+CfvHTHM3FYK
+        lmwoFmu93TEVHAxjkW7IH7+hU1pEpoyYXSnsm+10oNr10t2o8wUDLJsMOEshGWQFmLmr5SXlbdAd
+        tVk+Xh9evtrdz/9/R+PtMNpPRneDBv7Pjh/ThnbAkIy8LEzUrX333ieJlWSZmNxBxi37zwUkiZOn
+        REAuhIzs3pAPyVjIFSJocBkOLKYJMyFMeAlqotwZiulFdsLCiGdBLOGiOAVy3RAvzbyYjFc9fbW7
+        39J9vW98ghN6tF5szrfuqwKhPE8jYUwgzLCTzFaaCqEgCNWHBuUZ1vqiP7l9FaaK4UmLsWF1GRYw
+        gDYSJGbHyxXkcIX9KsbWGHUXXkM1XuR25BYq/PjInWZuFcaSxUEDCoB5CCOztKFfgkBQSZuCcVxK
+        agE=
     - service: tg
       id: 1179
       published: 2026-03-11-19-06-09
-      updated: 2026-03-12-17-53-27
+      updated: 2026-03-12-19-02-08
       followers: 885
-      likes: 40
-      views: 263
+      likes: 41
+      views: 268
       comments: !c CwuAkZPLQnnN5ldQgACma2V2eS1jpPCfpoAD
     - service: mx
       id: '1773255983740'

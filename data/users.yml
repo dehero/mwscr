@@ -585,7 +585,7 @@ artyom-melikhoff:
   profiles:
     - service: vk
       id: '299405149'
-      updated: 2026-03-12-16-10-00
+      updated: 2026-03-12-19-02-30
       username: artyom_melikhoff
       name: Артём Мелихов
       avatar: store:/avatars/vk-5b2fd843.jpg
@@ -1639,7 +1639,7 @@ dremarretres:
   profiles:
     - service: vk
       id: '801308664'
-      updated: 2026-03-12-16-06-42
+      updated: 2026-03-12-19-02-29
       username: dremarretres
       name: Джон Шепард
       avatar: store:/avatars/vk-ac4f0700.jpg
@@ -2143,7 +2143,7 @@ ghosr1368:
   profiles:
     - service: tg
       id: '6353853685'
-      updated: 2026-03-12-16-09-46
+      updated: 2026-03-12-19-02-20
       accessHash: '2523169162736182941'
       username: Ghost_1488_1
       name: GHOST_141
@@ -2671,7 +2671,7 @@ ivan-uralov:
   profiles:
     - service: vk
       id: '16497155'
-      updated: 2026-03-11-21-39-15
+      updated: 2026-03-12-19-02-28
       username: id16497155
       name: Иван Уралов
       avatar: store:/avatars/vk-51775759.jpg
@@ -2959,7 +2959,7 @@ kevy-c:
   profiles:
     - service: tg
       id: '5067683234'
-      updated: 2026-03-12-17-53-31
+      updated: 2026-03-12-19-02-16
       accessHash: '-903667913374325979'
       username: Kevy_c
       name: Dash
@@ -4224,7 +4224,7 @@ painkiller1986:
   profiles:
     - service: tg
       id: '6565289507'
-      updated: 2026-03-12-16-05-57
+      updated: 2026-03-12-19-02-15
       accessHash: '6198356028119192921'
       username: Painkiller1986
       name: Сумерки
@@ -4428,10 +4428,10 @@ porsankka666:
   profiles:
     - service: vk
       id: '320093421'
-      updated: 2026-03-12-16-05-54
+      updated: 2026-03-12-19-02-23
       username: porsankka666
       name: Дмитрий Иванов-Соломин
-      avatar: store:/avatars/vk-0a090d7d.jpg
+      avatar: store:/avatars/vk-41738d07.jpg
 promty75:
   profiles:
     - service: ig
@@ -4515,7 +4515,7 @@ pyriglena:
   profiles:
     - service: tg
       id: '554672984'
-      updated: 2026-03-12-16-05-30
+      updated: 2026-03-12-19-02-14
       accessHash: '-3565593010225205906'
       username: pyriglena
       name: yarrow
@@ -4916,7 +4916,7 @@ sergey-b-2:
   profiles:
     - service: vk
       id: '1077446394'
-      updated: 2026-03-12-17-53-26
+      updated: 2026-03-12-19-02-11
       username: id1077446394
       name: Сергей Б
       avatar: store:/avatars/vk-5a7c7910.jpg
@@ -4932,7 +4932,7 @@ sergey-venkov:
   profiles:
     - service: vk
       id: '217443112'
-      updated: 2026-03-12-17-53-28
+      updated: 2026-03-12-19-02-11
       username: id217443112
       name: Сергей Венков
       avatar: store:/avatars/vk-a77d1a73.jpg
