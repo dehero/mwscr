@@ -1,18 +1,7 @@
-import { array, boolean, object, string } from 'valibot';
 import { assertSchema } from '../../core/entities/schema.js';
-
-export const UploadScriptResultItem = object({
-  success: boolean(),
-  url: string(),
-  errors: array(string()),
-});
-
-export const UploadScriptResult = array(UploadScriptResultItem);
-
-export interface Upload {
-  url: string;
-  name?: string;
-}
+import type { Upload, UploadType } from '../../core/entities/upload.js';
+import { UploadErrorResponse, UploadResult, UploadsResponse } from '../../core/entities/upload.js';
+import { jsonDateReviver } from '../../core/utils/date-utils.js';
 
 export interface UploadFilesResult {
   uploads: Upload[];
@@ -32,18 +21,19 @@ export async function uploadFiles(files: File[]) {
     const response = await fetch(`/uploads/`, { method: 'POST', body: formData });
 
     if (!response.ok) {
-      throw new Error(await response.text());
+      throw new Error(`HTTP error ${response.status}: ${response.statusText}`);
     }
 
-    const data = await response.json();
+    const text = await response.text();
+    const data = JSON.parse(text, jsonDateReviver);
 
-    assertSchema(UploadScriptResult, data);
+    assertSchema(UploadResult, data);
 
     for (const [i, result] of data.entries()) {
       const name = files[i]?.name;
 
-      if (result.success) {
-        uploads.push({ name, url: result.url });
+      if (result.success && result.file) {
+        uploads.push(result.file);
       } else if (Array.isArray(result.errors)) {
         errors.push(...result.errors.map((error) => `Failed to upload "${name}": ${error}`));
       } else {
@@ -59,4 +49,40 @@ export async function uploadFiles(files: File[]) {
   }
 
   return { uploads, errors };
+}
+
+interface GetUploadsFilter {
+  type?: UploadType;
+}
+
+export async function getUploads(filter?: GetUploadsFilter): Promise<Upload[]> {
+  const url = new URL('/uploads/', window.location.origin);
+
+  if (filter?.type) {
+    url.searchParams.set('type', filter.type);
+  }
+
+  try {
+    const response = await fetch(url.toString());
+
+    if (!response.ok) {
+      throw new Error(`HTTP error ${response.status}: ${response.statusText}`);
+    }
+
+    const text = await response.text();
+    const data = JSON.parse(text, jsonDateReviver);
+
+    try {
+      assertSchema(UploadsResponse, data);
+      return data.files;
+    } catch {
+      assertSchema(UploadErrorResponse, data);
+      throw new Error(data.error);
+    }
+  } catch (error) {
+    if (error instanceof Error) {
+      throw new TypeError(`Failed to fetch uploads: ${error.message}`);
+    }
+    throw new Error(`Failed to fetch uploads: ${error}`);
+  }
 }
