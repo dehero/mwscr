@@ -3,6 +3,7 @@
 error_reporting(0);
 
 $uploadsDir = __DIR__ . '/uploads/';
+$baseUrl = 'https://mwscr.dehero.site/uploads/';
 
 // Load configuration
 $config = @json_decode(@file_get_contents(__DIR__ . '/import-variants.json'), true);
@@ -25,6 +26,10 @@ if (ob_get_length()) {
   if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     deleteObsoleteUploads();
     $data = uploadFiles();
+  } elseif ($_SERVER['REQUEST_METHOD'] === 'GET') {
+    // Always clean up obsolete files before returning the list
+    deleteObsoleteUploads();
+    $data = getUploadsList();
   }
 
   header('Content-Type: application/json; charset=utf-8');
@@ -52,11 +57,11 @@ function getUploadFileName($originalName, $tempPath)
   $hash = hash_file('md5', $tempPath, false);
   $shortHash = substr($hash, 0, 8);
 
-  // Get MIME type and determine prefix
+  // Get MIME type and determine file type
   $mimeType = getFileMimeType($originalName, $tempPath);
-  $prefix = getFileTypePrefixFromMime($mimeType);
+  $fileType = getUploadTypeFromMimeType($mimeType);
 
-  return 'mwscr-' . $prefix . $shortHash . ($ext ? '.' . $ext : '');
+  return 'mwscr-' . $fileType . '-' . $shortHash . ($ext ? '.' . $ext : '');
 }
 
 function getPreviewPath($originalPath)
@@ -65,26 +70,26 @@ function getPreviewPath($originalPath)
   return $fileInfo['dirname'] . '/' . $fileInfo['filename'] . '.preview.webp';
 }
 
-function getFileTypePrefixFromMime($mimeType)
+function getUploadTypeFromMimeType($mimeType)
 {
   if (strpos($mimeType, 'image/') === 0) {
-    return 'image-';
+    return 'image';
   }
 
   if (strpos($mimeType, 'video/') === 0) {
-    return 'video-';
+    return 'video';
   }
 
   if ($mimeType === 'application/zip' || $mimeType === 'application/x-zip-compressed') {
-    return 'archive-';
+    return 'archive';
   }
 
   if ($mimeType === 'application/json') {
-    return 'patch-';
+    return 'patch';
   }
 
   // Default
-  return 'file-';
+  return 'file';
 }
 
 function getFileMimeType($originalName, $tempPath)
@@ -255,11 +260,88 @@ function isValidFileType($mimeType, $fileSize)
   return ['valid' => false, 'error' => 'File type not supported'];
 }
 
+function formatDateISO8601WithMillis($timestamp)
+{
+  // Format: 2026-03-02T09:01:14.000Z
+  return gmdate('Y-m-d\TH:i:s', $timestamp) . '.000Z';
+}
+
+function getFileInfo($filePath, $filename)
+{
+  global $baseUrl;
+
+  $modifiedTime = filemtime($filePath);
+  $sevenDaysInSeconds = 60 * 60 * 24 * 7;
+  $expirationTime = $modifiedTime + $sevenDaysInSeconds;
+
+  // Get MIME type and file type
+  $mimeType = getFileMimeType($filename, $filePath);
+  $fileType = getUploadTypeFromMimeType($mimeType);
+
+  return [
+    'name' => $filename,
+    'url' => $baseUrl . $filename,
+    'size' => filesize($filePath),
+    'type' => $fileType,
+    'mime' => $mimeType,
+    'uploaded' => formatDateISO8601WithMillis($modifiedTime),
+    'expires' => formatDateISO8601WithMillis($expirationTime),
+  ];
+}
+
+function getUploadsList()
+{
+  global $uploadsDir;
+
+  if (!is_dir($uploadsDir)) {
+    return ['files' => []];
+  }
+
+  $filenames = scandir($uploadsDir);
+  $files = [];
+
+  // Get filter from query string
+  $typeFilter = isset($_GET['type']) ? $_GET['type'] : null;
+  $validTypes = ['image', 'video', 'archive', 'patch', 'file'];
+
+  // Validate filter once before processing files
+  if ($typeFilter !== null && !in_array($typeFilter, $validTypes)) {
+    return ['error' => 'Invalid type filter. Valid types: ' . implode(', ', $validTypes)];
+  }
+
+  foreach ($filenames as $filename) {
+    // Skip directories and preview files
+    if ($filename === '.' || $filename === '..' || strpos($filename, '.preview.webp') !== false) {
+      continue;
+    }
+
+    $filePath = $uploadsDir . $filename;
+
+    if (!is_file($filePath)) {
+      continue;
+    }
+
+    $fileInfo = getFileInfo($filePath, $filename);
+
+    // Apply type filter only if specified
+    if ($typeFilter !== null && $fileInfo['type'] !== $typeFilter) {
+      continue;
+    }
+
+    $files[] = $fileInfo;
+  }
+
+  // Sort by upload time (newest first)
+  usort($files, function ($a, $b) {
+    return strtotime($b['uploaded']) - strtotime($a['uploaded']);
+  });
+
+  return ['files' => $files];
+}
+
 function uploadFiles()
 {
   global $uploadsDir, $previewMimeTypes;
-
-  $baseUrl = 'https://mwscr.dehero.site/uploads/';
 
   if (!isset($_FILES['file'])) {
     return ['error' => 'No files uploaded'];
@@ -286,7 +368,7 @@ function uploadFiles()
 
     $success = false;
     $errors = [];
-    $url = '';
+    $file = null;
 
     if ($errorCode !== UPLOAD_ERR_OK) {
       $errors[] = getUploadErrorMessage($errorCode);
@@ -294,7 +376,6 @@ function uploadFiles()
       $tempPath = $files['tmp_name'][$i];
       $originalName = $files['name'][$i];
       $name = getUploadFileName($originalName, $tempPath);
-      $url = $baseUrl . $name;
       $targetPath = $uploadsDir . $name;
 
       // Get MIME type using both original filename and temp file
@@ -302,6 +383,7 @@ function uploadFiles()
 
       if (file_exists($targetPath)) {
         $success = true;
+        $file = getFileInfo($targetPath, $name);
       } else {
         // Validate file type and size using config
         $validation = isValidFileType($mimeType, $files['size'][$i]);
@@ -317,6 +399,7 @@ function uploadFiles()
 
           if (move_uploaded_file($tempPath, $targetPath)) {
             $success = true;
+            $file = getFileInfo($targetPath, $name);
 
             // Check if file supports preview
             if (in_array($mimeType, $previewMimeTypes)) {
@@ -330,7 +413,11 @@ function uploadFiles()
       }
     }
 
-    $result[] = ['success' => $success, 'errors' => $errors, 'url' => $url];
+    $result[] = [
+      'success' => $success,
+      'errors' => $errors,
+      'file' => $file,
+    ];
   }
 
   return $result;
