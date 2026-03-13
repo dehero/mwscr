@@ -13340,24 +13340,28 @@
       id: DVy6dUVl0iY
       mediaId: '18000811652728473'
       published: 2026-03-12-19-06-57
-      updated: 2026-03-13-18-52-31
+      updated: 2026-03-13-19-35-42
       followers: 1614
       likes: 46
     - service: vk
       id: 3171
       published: 2026-03-12-19-07-05
-      updated: 2026-03-13-18-52-24
+      updated: 2026-03-13-19-35-44
       followers: 1617
-      likes: 57
-      views: 548
+      likes: 58
+      views: 562
       reposts: 2
+      comments: !c |-
+        G3QA+J0Jtq2FrSP5pljYMuP/eU5G+nUwGfqmEXcSiji5j6zdpjlbLM2UdTAEVcSQDBbjGBzGrnYY
+        W56zDnOTy1aK5BQ5fO/Pz3b+O2O+z42vLtkbFYz8w6u5AQlHC6geHjO9UkBGER2e4zWcWcWgetoo
+        DIhb9AE=
     - service: tg
       id: 1180
       published: 2026-03-12-19-07-10
-      updated: 2026-03-13-18-52-30
+      updated: 2026-03-13-19-35-46
       followers: 885
-      likes: 40
-      views: 162
+      likes: 43
+      views: 176
       comments: !c CwuAkZPLQnnOQ7XnAACma2V2eS1jpPCfpoAD
     - service: mx
       id: '1773342434365'
