@@ -585,7 +585,7 @@ artyom-melikhoff:
   profiles:
     - service: vk
       id: '299405149'
-      updated: 2026-03-12-19-02-30
+      updated: 2026-03-13-23-35-18
       username: artyom_melikhoff
       name: Артём Мелихов
       avatar: store:/avatars/vk-5b2fd843.jpg
@@ -601,7 +601,7 @@ arya-stark:
   profiles:
     - service: vk
       id: '820702664'
-      updated: 2026-03-13-21-39-23
+      updated: 2026-03-13-23-35-19
       username: id820702664
       name: Арья Старк
       avatar: store:/avatars/vk-689aa89d.jpg
@@ -1753,11 +1753,11 @@ eightntexerra:
   profiles:
     - service: tg
       id: '599761644'
-      updated: 2026-03-06-23-33-41
+      updated: 2026-03-13-23-35-21
       accessHash: '-2468884879881656361'
       username: eightntexerra
       name: 8ntexerra
-      avatar: store:/avatars/tg-2575956646835194636.jpg
+      avatar: store:/avatars/tg-2575956646835194638.jpg
 einno:
   profiles:
     - service: tg
@@ -1973,7 +1973,7 @@ feanor2la:
   profiles:
     - service: vk
       id: '16294877'
-      updated: 2026-03-13-22-34-06
+      updated: 2026-03-13-23-35-16
       username: feanor2la
       name: Иван Урлапов
       avatar: store:/avatars/vk-14fd45f0.jpg
@@ -2959,7 +2959,7 @@ kevy-c:
   profiles:
     - service: tg
       id: '5067683234'
-      updated: 2026-03-13-22-34-03
+      updated: 2026-03-13-23-35-29
       accessHash: '-903667913374325979'
       username: Kevy_c
       name: Dash
@@ -4053,7 +4053,7 @@ oberhort:
   profiles:
     - service: tg
       id: '19254498'
-      updated: 2026-03-08-10-34-45
+      updated: 2026-03-13-23-35-29
       accessHash: '-564270059565994883'
       username: oberhort
       name: Игорь
