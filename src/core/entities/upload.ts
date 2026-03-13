@@ -1,12 +1,12 @@
-import { array, boolean, type InferOutput, nullable, number, object, picklist, string, date } from 'valibot';
+import { array, boolean, date, type InferOutput, nullable, number, object, picklist, string } from 'valibot';
 import { getRevisionHash } from '../utils/common-utils.js';
 import type { Resource } from './resource.js';
 
 export const UploadType = picklist(['image', 'video', 'archive', 'patch', 'file']);
 
 export const Upload = object({
-  url: string(),
   name: string(),
+  originalName: string(),
   size: number(),
   type: UploadType,
   mime: string(),
@@ -44,6 +44,10 @@ export function getUploadFileName(resource: Resource): string {
   const type = getUploadTypeFromMimeType(mimeType);
 
   return `mwscr-${type}-${hash}${ext ? `.${ext}` : ''}`;
+}
+
+export function getUploadUrl(upload: Upload) {
+  return `/uploads/${upload.name}`;
 }
 
 export function getUploadTypeFromMimeType(mimeType: string | null) {

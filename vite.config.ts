@@ -107,6 +107,13 @@ export default defineConfig(async ({ isSsrBuild }) => ({
   ],
   server: {
     port: 3000,
+    proxy: {
+      '/uploads': {
+        target: 'http://localhost:8080',
+        changeOrigin: true,
+        rewrite: (path: string) => path.replace(/^\/uploads/, '/uploads'),
+      },
+    },
   },
   build: {
     target: 'esnext',

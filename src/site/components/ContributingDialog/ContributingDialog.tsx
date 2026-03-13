@@ -17,7 +17,7 @@ export type ContributingDialogTab = 'patch' | 'variants';
 
 export const ContributingDialog: DetachedDialog<ContributingDialogTab> = (props) => {
   const tab = () => props.pathname ?? 'variants';
-  const patchSize = useLocalPatch();
+  const [patchSize] = useLocalPatch();
 
   let creatingCompilationRef;
 

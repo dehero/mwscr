@@ -62,7 +62,7 @@ export interface ResourceParsedUrl {
   dir: string;
 }
 
-export type Resource = [data: Buffer, mimeType: string | null, filename: string];
+export type Resource = [data: Buffer | string, mimeType: string | null, filename: string];
 
 export function parseResourceUrl(url: string): ResourceParsedUrl {
   const { protocol, host, pathname } = new URL(url, 'file://');

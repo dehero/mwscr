@@ -747,7 +747,7 @@ export abstract class ListManager<TItem extends object> extends ListReader<TItem
     const statusSet = new Set(statuses);
 
     if (statusSet.has('removed')) {
-      if (Object.values(this.patch).some((value) => value === null)) {
+      if (Object.values(this.patch).includes(null)) {
         return true;
       }
 

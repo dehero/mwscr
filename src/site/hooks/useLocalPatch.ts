@@ -1,13 +1,23 @@
-import { createEffect, createSignal, onCleanup } from 'solid-js';
+import type { Accessor } from 'solid-js';
+import { batch, createEffect, createSignal, onCleanup } from 'solid-js';
 import { dataManager } from '../data-managers/manager.js';
 
-export function useLocalPatch(onPatchChange?: (patchSize: number) => void) {
+export function useLocalPatch(
+  onPatchChange?: (patchSize: number, patchName: string) => void,
+): [patchSize: Accessor<number>, patchName: Accessor<string>] {
   const [patchSize, setPatchSize] = createSignal(0);
+  const [patchName, setPatchName] = createSignal();
 
   const handlePatchChange = () => {
     const patchSize = dataManager.patchSize;
-    setPatchSize(patchSize);
-    onPatchChange?.(patchSize);
+    const patchName = dataManager.patchName;
+
+    batch(() => {
+      setPatchSize(patchSize);
+      setPatchName(patchName);
+    });
+
+    onPatchChange?.(patchSize, patchName);
   };
 
   createEffect(() => {
@@ -18,5 +28,5 @@ export function useLocalPatch(onPatchChange?: (patchSize: number) => void) {
     onCleanup(() => window.removeEventListener('storage', handlePatchChange));
   });
 
-  return patchSize;
+  return [patchSize, patchName];
 }

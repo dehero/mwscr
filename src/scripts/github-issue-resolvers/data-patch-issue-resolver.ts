@@ -1,10 +1,11 @@
-import { DataPatch, stringToDataPatch } from '../../core/entities/data-patch.js';
-import { GithubIssueResolver, type GithubIssue } from '../../core/entities/github-issue.js';
+import fetch from 'node-fetch';
+import type { DataPatch } from '../../core/entities/data-patch.js';
+import { stringToDataPatch } from '../../core/entities/data-patch.js';
+import type { GithubIssue, GithubIssueResolver } from '../../core/entities/github-issue.js';
 import { dataPatchText, dataPatchUrl } from '../../core/entities/github-issue-field.js';
 import { DataPatchIssue } from '../../core/github-issues/data-patch-issue.js';
 import { dataManager } from '../data-managers/manager.js';
 import { extractIssueFieldValue, extractIssueTextareaValue, extractIssueUser } from './utils/issue-utils.js';
-import fetch from 'node-fetch';
 
 export class DataPatchIssueResolver extends DataPatchIssue implements GithubIssueResolver {
   async resolve(issue: GithubIssue) {

@@ -11,6 +11,7 @@ import { resolveFirstRoute } from '../../routes/index.js';
 import { postsRoute } from '../../routes/posts-route.js';
 import { usersRoute } from '../../routes/users-route.js';
 import { Button } from '../Button/Button.js';
+import { DataPatchSelect } from '../DataPatchSelect/DataPatchSelect.jsx';
 import { createDetachedDialogFragment } from '../DetachedDialogsProvider/DetachedDialogsProvider.jsx';
 import { Select } from '../Select/Select.js';
 import styles from './Navigation.module.css';
@@ -40,7 +41,7 @@ export const Navigation: Component = () => {
   const pathname = () => pageContext.urlPathname;
   const meta = () => useRouteInfo(pageContext).meta();
 
-  const patchSize = useLocalPatch();
+  const [patchSize] = useLocalPatch();
 
   const options = () => navigationItems.map((item) => createOption(item));
   const selectedOption = () =>
@@ -76,6 +77,8 @@ export const Navigation: Component = () => {
   return (
     <nav class={styles.container}>
       <div class={styles.shortcuts}>
+        <DataPatchSelect />
+
         <Button
           href={createDetachedDialogFragment('contributing', patchSize() > 0 ? 'patch' : 'variants')}
           class={styles.patch}
