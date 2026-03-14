@@ -3256,10 +3256,10 @@
     - service: vk
       id: 3085
       published: 2026-02-13-18-49-37
-      updated: 2026-03-07-16-35-33
+      updated: 2026-03-14-16-39-07
       followers: 1601
       likes: 63
-      views: 724
+      views: 734
       reposts: 1
       comments: !c |-
         G9IDQKwLuMNi4jdG0wn1+j1LL4PwaKsPxP8T97TlgMI3n9qZ9kviWV7AkZXYUuIr51KqKoPn+JD2
@@ -3274,16 +3274,16 @@
     - service: tg
       id: 1150
       published: 2026-02-13-18-49-43
-      updated: 2026-03-07-16-35-31
+      updated: 2026-03-14-16-39-06
       followers: 888
-      likes: 66
-      views: 544
+      likes: 67
+      views: 686
       comments: !c CwuAkZPLQnnFhf/mAACma2V2eS1jpPCfpoAD
     - service: ig
       id: DUtdHwDF7wu
       mediaId: '17847339300661393'
       published: 2026-02-13-19-43-00
-      updated: 2026-03-07-16-35-37
+      updated: 2026-03-14-16-39-08
       followers: 1609
       likes: 87
       comments: !c |-
