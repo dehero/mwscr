@@ -1973,7 +1973,7 @@ feanor2la:
   profiles:
     - service: vk
       id: '16294877'
-      updated: 2026-03-14-10-35-12
+      updated: 2026-03-14-11-30-57
       username: feanor2la
       name: Иван Урлапов
       avatar: store:/avatars/vk-14fd45f0.jpg
@@ -2671,7 +2671,7 @@ ivan-uralov:
   profiles:
     - service: vk
       id: '16497155'
-      updated: 2026-03-12-19-02-28
+      updated: 2026-03-14-11-30-57
       username: id16497155
       name: Иван Уралов
       avatar: store:/avatars/vk-51775759.jpg
@@ -2959,7 +2959,7 @@ kevy-c:
   profiles:
     - service: tg
       id: '5067683234'
-      updated: 2026-03-14-10-35-09
+      updated: 2026-03-14-11-30-54
       accessHash: '-903667913374325979'
       username: Kevy_c
       name: Dash
