@@ -2107,12 +2107,15 @@
     - service: vk
       id: 3159
       published: 2026-03-07-19-31-33
-      updated: 2026-03-13-21-39-24
+      updated: 2026-03-14-22-33-19
       followers: 1615
-      likes: 94
-      views: 1114
+      likes: 95
+      views: 1135
       reposts: 3
-      comments: !c CxmAkZPLQnnNsTvbAACqYXJ5YS1zdGFya7zQoNC+0LTQvdCw0Y8g0JHQsNC70LzQvtGA0LAhAw==
+      comments: !c |-
+        G5EA+I3UUQ3b3eD/n1ND+OMJUIzWorFEE/DRAViweR/21P5vyllQM0TBUyVZOltg39+FvDLYgCMN
+        nAKDcIM7CFuuQUmv29Mu7xn8jXMN2yX0lfXj66FBxaiAg0J54MLnH/vfPS2TtEmbKS279OdoQF6R
+        zYsAU4DG4lJCIOoZqsRSRiCPsY0bcqACmK4=
 2019-10-05-saber-and-heart:
   title: Saber and Heart
   titleRu: Сабля и сердце
