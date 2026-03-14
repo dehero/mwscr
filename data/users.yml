@@ -1313,7 +1313,7 @@ darkness-rifho:
       deleted: true
     - service: tg
       id: '5704974271'
-      updated: 2026-03-12-16-08-41
+      updated: 2026-03-14-04-47-52
       accessHash: '3506423524566292179'
       username: C4H6O4
       name: Уна
@@ -1973,7 +1973,7 @@ feanor2la:
   profiles:
     - service: vk
       id: '16294877'
-      updated: 2026-03-14-02-31-52
+      updated: 2026-03-14-04-47-45
       username: feanor2la
       name: Иван Урлапов
       avatar: store:/avatars/vk-14fd45f0.jpg
@@ -2959,7 +2959,7 @@ kevy-c:
   profiles:
     - service: tg
       id: '5067683234'
-      updated: 2026-03-14-02-31-49
+      updated: 2026-03-14-04-47-43
       accessHash: '-903667913374325979'
       username: Kevy_c
       name: Dash
@@ -5191,11 +5191,11 @@ sonnykotya:
   profiles:
     - service: tg
       id: '7937963458'
-      updated: 2026-03-07-04-25-53
+      updated: 2026-03-14-04-47-47
       accessHash: '6311850478953577755'
       username: sonnykotya
       name: дракоша
-      avatar: store:/avatars/tg-5285236877738842768.jpg
+      avatar: store:/avatars/tg-5305731211839870381.jpg
 sothaseel:
   profiles:
     - service: ig
