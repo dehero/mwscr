@@ -577,7 +577,7 @@ artyom-karpov:
   profiles:
     - service: vk
       id: '178018548'
-      updated: 2026-03-08-13-12-35
+      updated: 2026-03-15-14-44-27
       username: id178018548
       name: Артём Карпов
       avatar: store:/avatars/vk-72fe5d60.jpg
@@ -585,7 +585,7 @@ artyom-melikhoff:
   profiles:
     - service: vk
       id: '299405149'
-      updated: 2026-03-15-12-03-37
+      updated: 2026-03-15-14-40-15
       username: artyom_melikhoff
       name: Артём Мелихов
       avatar: store:/avatars/vk-5b2fd843.jpg
@@ -1153,7 +1153,7 @@ crazycyrodiliccat:
   profiles:
     - service: vk
       id: '90554843'
-      updated: 2026-03-15-13-10-35
+      updated: 2026-03-15-14-37-37
       username: crazycyrodiliccat
       name: Александр Невский
       avatar: store:/avatars/vk-0db1296b.jpg
@@ -1329,7 +1329,7 @@ daryna-dmytrenko:
   profiles:
     - service: vk
       id: '164064457'
-      updated: 2026-03-08-13-12-07
+      updated: 2026-03-15-14-43-58
       username: daryna_dmytrenko
       name: Дарина Дмитренко
       avatar: store:/avatars/vk-0d327853.jpg
@@ -1395,14 +1395,14 @@ dehero:
       avatar: store:/avatars/gh-c8afe641.jpg
     - service: vk
       id: '3652910'
-      updated: 2026-03-15-13-09-53
+      updated: 2026-03-15-14-46-13
       username: dehero
       name: Антон Курьянов
       avatar: store:/avatars/vk-5356f76e.jpg
     - type: channel
       service: vk
       id: '138249959'
-      updated: 2026-03-15-13-10-35
+      updated: 2026-03-15-14-38-09
       username: mwscr
       name: Morrowind Screenshots
       avatar: store:/avatars/vk-8e97fd4f.jpg
@@ -1956,7 +1956,7 @@ evil-kit:
   profiles:
     - service: vk
       id: '153155138'
-      updated: 2026-03-08-13-14-17
+      updated: 2026-03-15-14-46-13
       username: evil_kit
       name: Никита Метелкин
       avatar: store:/avatars/vk-adb64972.jpg
@@ -2482,7 +2482,7 @@ idalexeyvav:
   profiles:
     - service: vk
       id: '417783044'
-      updated: 2026-03-08-13-12-03
+      updated: 2026-03-15-14-43-55
       username: idalexeyvav
       name: Алексей Вавилов
       avatar: store:/avatars/vk-6717456e.jpg
@@ -2534,7 +2534,7 @@ ilya-goryachev:
   profiles:
     - service: vk
       id: '448748807'
-      updated: 2026-03-08-13-06-34
+      updated: 2026-03-15-14-38-17
       username: id448748807
       name: Илья Горячев
       avatar: store:/avatars/vk-9b32f5bc.jpg
@@ -3098,7 +3098,7 @@ kurov-alexander:
   profiles:
     - service: vk
       id: '233557'
-      updated: 2026-03-08-13-06-18
+      updated: 2026-03-15-14-38-01
       username: kurov.alexander
       name: Александр Куров
       avatar: store:/avatars/vk-c64fc9de.jpg
@@ -3114,7 +3114,7 @@ kydinov91:
   profiles:
     - service: vk
       id: '36104583'
-      updated: 2026-03-15-13-08-48
+      updated: 2026-03-15-14-40-32
       username: kydinov91
       name: Илья Кудинов
       avatar: store:/avatars/vk-03d8a48a.jpg
@@ -3303,7 +3303,7 @@ lycanthropy:
   profiles:
     - service: vk
       id: '5386912'
-      updated: 2026-03-15-13-10-46
+      updated: 2026-03-15-14-45-17
       username: lycanthropy
       name: Филипп Суворов
       avatar: store:/avatars/vk-8642e0b8.jpg
@@ -3368,7 +3368,7 @@ maks-perunov:
   profiles:
     - service: vk
       id: '35868942'
-      updated: 2026-03-15-11-55-47
+      updated: 2026-03-15-14-42-59
       username: id35868942
       name: Макс Перунов
       avatar: store:/avatars/vk-3bb92045.jpg
@@ -3482,7 +3482,7 @@ max-tsei:
   profiles:
     - service: vk
       id: '353284524'
-      updated: 2026-03-15-13-07-59
+      updated: 2026-03-15-14-38-09
       username: max.tsei
       name: Максим Царапкин
       avatar: store:/avatars/vk-77942374.jpg
@@ -4319,7 +4319,7 @@ petrushkachord:
   profiles:
     - service: vk
       id: '370043102'
-      updated: 2026-03-08-13-09-00
+      updated: 2026-03-15-14-40-49
       username: petrushkachord
       name: Данила Силкин
       avatar: store:/avatars/vk-166e4c44.jpg
@@ -5223,7 +5223,7 @@ soulilight:
   profiles:
     - service: vk
       id: '347703822'
-      updated: 2026-03-15-11-56-40
+      updated: 2026-03-15-14-44-51
       username: soulilight
       name: Dima Boev
       avatar: store:/avatars/vk-4a3f332e.jpg
@@ -5980,7 +5980,7 @@ user-35:
   profiles:
     - service: vk
       id: '281861772'
-      updated: 2026-03-08-13-07-54
+      updated: 2026-03-15-14-39-41
       username: id281861772
       avatar: store:/avatars/vk-7f160215.jpg
       deleted: true
@@ -5988,7 +5988,7 @@ user-36:
   profiles:
     - service: vk
       id: '227500203'
-      updated: 2026-03-08-13-13-20
+      updated: 2026-03-15-14-45-15
       username: id227500203
       avatar: store:/avatars/vk-7f160215.jpg
       deleted: true
