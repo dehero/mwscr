@@ -1088,6 +1088,23 @@
       followers: 258
       likes: 48
       views: 719
+    - service: ig
+      id: DV6nLICjBWU
+      mediaId: '17983328537963820'
+      published: 2026-03-15-18-52-21
+      followers: 1617
+    - service: vk
+      id: 3180
+      published: 2026-03-15-18-52-27
+      followers: 1619
+    - service: tg
+      id: 1183
+      published: 2026-03-15-18-52-34
+      followers: 886
+    - service: mx
+      id: '1773600757511'
+      published: 2026-03-15-18-52-37
+      followers: 20
 2022-07-13-cold-waters-of-west-gash:
   title: Cold Waters of West Gash
   titleRu: Холодные воды Западного Нагорья
@@ -1141,13 +1158,13 @@
       id: DV1eIDRj_wD
       mediaId: '18332863219168153'
       published: 2026-03-13-18-57-07
-      updated: 2026-03-15-17-34-27
+      updated: 2026-03-15-18-48-57
       followers: 1617
-      likes: 52
+      likes: 53
     - service: vk
       id: 3172
       published: 2026-03-13-18-57-14
-      updated: 2026-03-15-17-34-24
+      updated: 2026-03-15-18-48-54
       followers: 1617
       likes: 60
       views: 440
@@ -1155,10 +1172,10 @@
     - service: tg
       id: 1181
       published: 2026-03-13-18-57-18
-      updated: 2026-03-15-17-34-24
+      updated: 2026-03-15-18-48-53
       followers: 884
       likes: 45
-      views: 214
+      views: 215
     - service: mx
       id: '1773428241342'
       published: 2026-03-13-18-57-21
