@@ -109,7 +109,7 @@
     - service: tg
       id: 821
       published: 2025-04-28-18-25-09
-      updated: 2026-03-08-10-36-56
+      updated: 2026-03-15-10-42-30
       followers: 726
       likes: 81
       views: 683
@@ -750,7 +750,7 @@
     - service: tg
       id: 797
       published: 2025-04-16-18-22-22
-      updated: 2026-03-08-10-37-10
+      updated: 2026-03-15-10-42-48
       followers: 720
       likes: 61
       views: 614
@@ -1533,16 +1533,16 @@
       id: DLAxCKwMros
       mediaId: '17862711228356418'
       published: 2025-06-17-18-28-37
-      updated: 2026-03-08-10-35-09
+      updated: 2026-03-15-10-41-37
       followers: 1553
       likes: 76
     - service: vk
       id: 2470
       published: 2025-06-17-18-28-43
-      updated: 2026-03-08-10-36-35
+      updated: 2026-03-15-10-41-54
       followers: 1327
       likes: 56
-      views: 465
+      views: 467
       reposts: 1
       comments: !c |-
         G50BwCwO7DYfCzGx5eSX1XoyxD/vn0j68qlNWsEilajpBEY+OZd8Oqc+z2mWPUfRMplALW8xCYUm
@@ -1553,10 +1553,10 @@
     - service: tg
       id: 888
       published: 2025-06-17-18-28-46
-      updated: 2026-03-08-10-35-34
+      updated: 2026-03-15-10-40-59
       followers: 749
       likes: 66
-      views: 609
+      views: 610
 2016-12-19-hla-oad:
   title: Hla Oad
   titleRu: Хла Оуд
@@ -1690,24 +1690,24 @@
       id: DRh5I1sl25r
       mediaId: '18098777482810365'
       published: 2025-11-26-18-22-43
-      updated: 2026-03-08-10-32-35
+      updated: 2026-03-15-10-38-12
       followers: 1597
       likes: 85
     - service: vk
       id: 2887
       published: 2025-11-26-18-22-50
-      updated: 2026-03-08-10-33-02
+      updated: 2026-03-15-10-38-31
       followers: 1527
-      likes: 85
-      views: 1361
+      likes: 86
+      views: 1403
       reposts: 8
     - service: tg
       id: 1070
       published: 2025-11-26-18-22-55
-      updated: 2026-03-08-10-32-44
+      updated: 2026-03-15-10-38-12
       followers: 869
       likes: 71
-      views: 740
+      views: 742
       comments: !c |-
         G9UAwIyULncE+f/czy803vFRJllGWWkUrUHyPpKdJelMthscaBpjppGum8yjhtvgMSyec8Xp9BoO
         ntrY+heUMczKoYvo4jpHjMvNfzY9ALLK5mTxeAKmsM1gFQnnYv+bd8EeR+wpjz1lccGeTRUHDhsP
