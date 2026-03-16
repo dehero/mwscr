@@ -1,9 +1,10 @@
+import stringify from 'fast-json-stable-stringify';
 import type { InferOutput } from 'valibot';
 import { object, partial } from 'valibot';
-import { getRevisionHash } from '../utils/common-utils.js';
 import { jsonDateReviver } from '../utils/date-utils.js';
 import { PostsManagerPatch } from './posts-manager.js';
 import { parseSchema } from './schema.js';
+import { getUploadFileName } from './upload.js';
 import { UsersManagerPatch } from './users-manager.js';
 
 export const DataPatch = partial(
@@ -18,22 +19,17 @@ export const DataPatch = partial(
 
 export type DataPatch = InferOutput<typeof DataPatch>;
 
-export function getDataPatchName(patch: DataPatch | undefined): string {
-  if (!patch) {
-    return 'data-patch';
+export function getDataPatchName(patch: DataPatch): string | undefined {
+  const data = dataPatchToString(patch, true);
+  if (data === '{}') {
+    return;
   }
 
-  const hash = getRevisionHash(JSON.stringify(patch));
-
-  return `data-patch-${hash}`;
-}
-
-export function getDataPatchFilename(patch: DataPatch): string {
-  return `mwscr.${getDataPatchName(patch)}.json`;
+  return getUploadFileName([data, 'application/json', 'patch.json']);
 }
 
 export function dataPatchToString(patch: DataPatch, minify?: boolean): string {
-  return JSON.stringify(patch, null, minify ? undefined : 2);
+  return minify ? stringify(patch) : JSON.stringify(patch, null, 2);
 }
 
 export function stringToDataPatch(str: string): DataPatch {

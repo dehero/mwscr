@@ -1,6 +1,7 @@
 import { asArray } from '../utils/common-utils.js';
 import { type CommentInfo, createCommentInfos } from './comment-info.js';
-import type { DataPatch } from './data-patch.js';
+import { type DataPatch, getDataPatchName } from './data-patch.js';
+import type { ListReaderItemStatus } from './list-manager.js';
 import { isNestedLocation } from './location.js';
 import type { LocationInfo } from './location-info.js';
 import { createLocationInfos } from './location-info.js';
@@ -17,7 +18,6 @@ import type { TopicsReader } from './topics-reader.js';
 import type { SelectUserInfosParams, UserInfo } from './user-info.js';
 import { createUserInfos, selectUserInfos } from './user-info.js';
 import type { UsersManager } from './users-manager.js';
-import { ListReaderItemStatus } from './list-manager.js';
 
 export interface DataManagerArgs {
   postsManagers: PostsManager[];
@@ -75,6 +75,28 @@ export class DataManager {
     if (patch.users) {
       this.users.mergePatch(patch.users);
     }
+  }
+
+  replacePatch(patch: DataPatch) {
+    for (const manager of this.postsManagers) {
+      const managerPatch = patch[manager.name];
+      if (managerPatch) {
+        manager.replacePatch(managerPatch);
+      } else {
+        manager.clearPatch();
+      }
+    }
+    if (patch.users) {
+      this.users.replacePatch(patch.users);
+    } else {
+      this.users.clearPatch();
+    }
+  }
+
+  get patchName() {
+    const patch = this.getPatch();
+
+    return getDataPatchName(patch);
   }
 
   get patchSize() {

@@ -8,11 +8,13 @@ import { PostViolation, postViolationDescriptors } from '../../../core/entities/
 import type { PostInfo } from '../../../core/entities/post-info.js';
 import { ImageResourceExtension } from '../../../core/entities/resource.js';
 import type { TopicInfo } from '../../../core/entities/topic-info.js';
+import { getUploadUrl } from '../../../core/entities/upload.js';
 import { USER_UNKNOWN } from '../../../core/entities/user.js';
-import { createIssueUrl as createProposalIssueUrl } from '../../../core/github-issues/post-proposal.js';
+import { postProposalIssue } from '../../../core/github-issues/post-proposal-issue.js';
 import { email } from '../../../core/services/email.js';
 import { telegram, TELEGRAM_BOT_NAME } from '../../../core/services/telegram.js';
 import { dateToString } from '../../../core/utils/date-utils.js';
+import { stripCommonExtension } from '../../../core/utils/string-utils.js';
 import { dataManager } from '../../data-managers/manager.js';
 import { uploadFiles } from '../../data-managers/uploads.js';
 import { helpRoute } from '../../routes/help-route.js';
@@ -115,11 +117,10 @@ export const PostProposalDialog: DetachedDialog = (props) => {
         }
 
         const id = `${USER_UNKNOWN}.${dateToString(new Date(), true)}${itemIndex > 0 ? itemIndex + 1 : ''}`;
-        // Remove file extension
-        const title = upload.name?.replace(/\.[^/.]{3,4}$/, '');
+        const title = stripCommonExtension(item.file.name);
 
         try {
-          await drafts?.addItem({ content: upload.url, title, type: 'shot', author: USER_UNKNOWN }, id);
+          await drafts?.addItem({ content: getUploadUrl(upload), title, type: 'shot', author: USER_UNKNOWN }, id);
 
           updateUploadReportItem(itemIndex, {
             status: 'Uploaded',
@@ -209,7 +210,7 @@ export const PostProposalDialog: DetachedDialog = (props) => {
 
       case 'github-issue':
         return {
-          href: createProposalIssueUrl(),
+          href: postProposalIssue.createIssueUrl(),
           target: '_blank',
           children: 'Create GitHub Issue',
           onClick: handleClose,

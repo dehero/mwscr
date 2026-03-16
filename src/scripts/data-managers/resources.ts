@@ -191,7 +191,7 @@ export async function removeResource(url: string): Promise<void> {
   throw new Error(`Unable to remove "${url}"`);
 }
 
-export async function writeResource(url: string, data: Buffer) {
+export async function writeResource(url: string, data: Buffer | string) {
   const { protocol, pathname } = parseResourceUrl(url);
 
   switch (protocol) {
@@ -199,7 +199,7 @@ export async function writeResource(url: string, data: Buffer) {
       return storeManager.put(pathname, data);
     case 'file:':
       // @ts-expect-error TODO: resolve typing issues
-      return fs.writeFile(pathname, data);
+      return fs.writeFile(pathname, data, typeof data === 'string' ? 'utf-8' : undefined);
     default:
   }
 

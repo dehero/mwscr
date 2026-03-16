@@ -29,3 +29,7 @@
   max-width: 300px;
   margin: 0;
 }
+
+.inputBoxInput {
+  width: 300px;
+}
