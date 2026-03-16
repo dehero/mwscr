@@ -64,7 +64,6 @@ export async function importResourceToStore(
   const title = postTitleFromString(text || nameTitle);
   const ext = filenameExt || mimeExt ? `.${mimeExt}` : '';
 
-  // @ts-expect-error TODO: resolve typing issues
   const hash = getRevisionHash(data ?? filename);
 
   const id = createDraftId(author, nameDate || date || templateDate || new Date(), title, hash);

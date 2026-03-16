@@ -64,10 +64,42 @@ function getUploadFileName($originalName, $tempPath)
   return 'mwscr-' . $fileType . '-' . $shortHash . ($ext ? '.' . $ext : '');
 }
 
+function getMetadataPath($originalPath)
+{
+  $fileInfo = pathinfo($originalPath);
+  return $fileInfo['dirname'] . '/' . $fileInfo['filename'] . '.meta.json';
+}
+
 function getPreviewPath($originalPath)
 {
   $fileInfo = pathinfo($originalPath);
   return $fileInfo['dirname'] . '/' . $fileInfo['filename'] . '.preview.webp';
+}
+
+function createFileMetadata($filePath, $filename, $originalName, $mimeType)
+{
+  global $baseUrl;
+
+  $metaPath = getMetadataPath($filePath);
+
+  $modifiedTime = filemtime($filePath);
+  $sevenDaysInSeconds = 60 * 60 * 24 * 7;
+  $expirationTime = $modifiedTime + $sevenDaysInSeconds;
+  $fileType = getUploadTypeFromMimeType($mimeType);
+
+  $metadata = [
+    'name' => $filename,
+    'originalName' => $originalName,
+    'url' => $baseUrl . $filename,
+    'size' => filesize($filePath),
+    'type' => $fileType,
+    'mime' => $mimeType,
+    'uploaded' => formatDateISO8601WithMillis($modifiedTime),
+    'expires' => formatDateISO8601WithMillis($expirationTime),
+  ];
+
+  file_put_contents($metaPath, json_encode($metadata, JSON_PRETTY_PRINT | JSON_UNESCAPED_SLASHES));
+  return $metadata;
 }
 
 function getUploadTypeFromMimeType($mimeType)
@@ -208,8 +240,8 @@ function deleteObsoleteUploads()
 
     $filePath = $uploadsDir . $filename;
 
-    // Skip preview files in main deletion logic
-    if (strpos($filename, '.preview.webp') !== false) {
+    // Skip preview and meta files in main deletion logic
+    if (strpos($filename, '.preview.webp') !== false || strpos($filename, '.meta.json') !== false) {
       continue;
     }
 
@@ -219,10 +251,16 @@ function deleteObsoleteUploads()
     if (time() - $modifiedTime > $sevenDaysInSeconds) {
       unlink($filePath);
 
-      // Also delete preview if exists
+      // Delete preview if exists
       $previewPath = getPreviewPath($filePath);
       if (file_exists($previewPath)) {
         unlink($previewPath);
+      }
+
+      // Delete metadata if exists
+      $metaPath = getMetadataPath($filePath);
+      if (file_exists($metaPath)) {
+        unlink($metaPath);
       }
     }
   }
@@ -266,27 +304,23 @@ function formatDateISO8601WithMillis($timestamp)
   return gmdate('Y-m-d\TH:i:s', $timestamp) . '.000Z';
 }
 
-function getFileInfo($filePath, $filename)
+function getFileMetadata($filePath)
 {
-  global $baseUrl;
+  $metaPath = getMetadataPath($filePath);
 
-  $modifiedTime = filemtime($filePath);
-  $sevenDaysInSeconds = 60 * 60 * 24 * 7;
-  $expirationTime = $modifiedTime + $sevenDaysInSeconds;
+  return readMetadata($metaPath);
+}
 
-  // Get MIME type and file type
-  $mimeType = getFileMimeType($filename, $filePath);
-  $fileType = getUploadTypeFromMimeType($mimeType);
+function readMetadata($metaPath)
+{
+  if (file_exists($metaPath)) {
+    $metadata = json_decode(file_get_contents($metaPath), true);
+    if ($metadata && isset($metadata['name'])) {
+      return $metadata;
+    }
+  }
 
-  return [
-    'name' => $filename,
-    'url' => $baseUrl . $filename,
-    'size' => filesize($filePath),
-    'type' => $fileType,
-    'mime' => $mimeType,
-    'uploaded' => formatDateISO8601WithMillis($modifiedTime),
-    'expires' => formatDateISO8601WithMillis($expirationTime),
-  ];
+  return null;
 }
 
 function getUploadsList()
@@ -310,25 +344,21 @@ function getUploadsList()
   }
 
   foreach ($filenames as $filename) {
-    // Skip directories and preview files
-    if ($filename === '.' || $filename === '..' || strpos($filename, '.preview.webp') !== false) {
+    // Process only meta files
+    if (strpos($filename, '.meta.json') === false) {
       continue;
     }
 
     $filePath = $uploadsDir . $filename;
 
-    if (!is_file($filePath)) {
-      continue;
-    }
-
-    $fileInfo = getFileInfo($filePath, $filename);
+    $meta = readMetadata($filePath);
 
     // Apply type filter only if specified
-    if ($typeFilter !== null && $fileInfo['type'] !== $typeFilter) {
+    if ($typeFilter !== null && $meta['type'] !== $typeFilter) {
       continue;
     }
 
-    $files[] = $fileInfo;
+    $files[] = $meta;
   }
 
   // Sort by upload time (newest first)
@@ -383,7 +413,8 @@ function uploadFiles()
 
       if (file_exists($targetPath)) {
         $success = true;
-        $file = getFileInfo($targetPath, $name);
+
+        $file = getFileMetadata($targetPath);
       } else {
         // Validate file type and size using config
         $validation = isValidFileType($mimeType, $files['size'][$i]);
@@ -399,7 +430,9 @@ function uploadFiles()
 
           if (move_uploaded_file($tempPath, $targetPath)) {
             $success = true;
-            $file = getFileInfo($targetPath, $name);
+
+            // Save metadata with original name
+            $file = createFileMetadata($targetPath, $name, $originalName, $mimeType);
 
             // Check if file supports preview
             if (in_array($mimeType, $previewMimeTypes)) {

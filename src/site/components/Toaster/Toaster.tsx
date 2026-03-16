@@ -5,6 +5,8 @@ import { isServer } from 'solid-js/web';
 import { Button } from '../Button/Button.jsx';
 import { Dialog } from '../Dialog/Dialog.js';
 import { Frame } from '../Frame/Frame.js';
+import { Input } from '../Input/Input.jsx';
+import { Label } from '../Label/Label.jsx';
 import { Loader } from '../Loader/Loader.js';
 import styles from './Toaster.module.css';
 
@@ -12,12 +14,14 @@ export interface ToasterContext {
   addToast: (message: string, duration?: number, loading?: boolean) => string;
   removeToast: (id: string) => void;
   messageBox: (message: string, buttons: string[]) => Promise<number>;
+  inputBox: (label: string, value?: string) => Promise<string | undefined>;
 }
 
 export const ToasterContext = createContext<ToasterContext>({
   addToast: () => '',
   removeToast: () => {},
   messageBox: () => Promise.resolve(-1),
+  inputBox: () => Promise.resolve(undefined),
 });
 
 export const useToaster = () => useContext(ToasterContext);
@@ -41,17 +45,26 @@ interface MessageBoxProps {
   buttons: string[];
 }
 
+interface InputBoxProps {
+  label: string;
+  value?: string;
+}
+
 function createToastId() {
   return Math.random().toString();
 }
 
 export const Toaster: Component<ToasterProps> = (props) => {
   let messageBoxResolve: ((value: number | PromiseLike<number>) => void) | undefined;
+  let inputBoxResolve: ((value: string | PromiseLike<string> | undefined) => void) | undefined;
 
   const toasts = new ReactiveMap<string, Toast>(props.initialToasts?.filter(([, props]) => props.show) || []);
   const [toastIdsWaitingForAnimationEnd, setToastIdsWaitingForAnimationEnd] = createSignal<string[]>([]);
   const [isAnimatingLoader, setIsAnimatingLoader] = createSignal(true);
   const [messageBoxProps, setMessageBoxProps] = createSignal<MessageBoxProps | undefined>();
+  const [inputBoxProps, setInputBoxProps] = createSignal<InputBoxProps | undefined>();
+
+  const [inputBoxValue, setInputBoxValue] = createSignal('');
 
   const addToast = (message: string, duration = 5000, loading = false) => {
     const id = createToastId();
@@ -77,6 +90,14 @@ export const Toaster: Component<ToasterProps> = (props) => {
     });
   };
 
+  const inputBox = (label: string, value?: string): Promise<string | undefined> => {
+    setInputBoxProps({ label });
+    setInputBoxValue(value ?? '');
+    return new Promise<string | undefined>((resolve) => {
+      inputBoxResolve = resolve;
+    });
+  };
+
   const hints = () => [...toasts].filter(([, toast]) => !toast.loading);
   const activeLoaderEntry = () => [...toasts].filter(([, toast]) => toast.loading)[0];
 
@@ -96,6 +117,17 @@ export const Toaster: Component<ToasterProps> = (props) => {
     setMessageBoxProps(undefined);
   };
 
+  const handleInputBoxButtonClick = (result: boolean) => {
+    const value = inputBoxValue();
+    if (result && !inputBoxValue()) {
+      addToast(`Fill ${inputBoxProps()?.label}`);
+      return;
+    }
+    inputBoxResolve?.(result ? value : undefined);
+    inputBoxResolve = undefined;
+    setInputBoxProps(undefined);
+  };
+
   createEffect(() => {
     const entries = props.initialToasts;
 
@@ -111,7 +143,7 @@ export const Toaster: Component<ToasterProps> = (props) => {
   });
 
   return (
-    <ToasterContext.Provider value={{ addToast, removeToast, messageBox }}>
+    <ToasterContext.Provider value={{ addToast, removeToast, messageBox, inputBox }}>
       {props.children}
       <div class={styles.container}>
         <For each={hints()}>{([, toast]) => <Frame class={styles.item}>{toast.message}</Frame>}</For>
@@ -141,6 +173,21 @@ export const Toaster: Component<ToasterProps> = (props) => {
         ))}
       >
         <p class={styles.messageBoxMessage}>{messageBoxProps()?.message}</p>
+      </Dialog>
+
+      <Dialog
+        modal
+        show={Boolean(inputBoxProps())}
+        onClose={() => handleMessageBoxButtonClick(-1)}
+        class={styles.messageBox}
+        actions={[
+          <Button onClick={() => handleInputBoxButtonClick(true)}>OK</Button>,
+          <Button onClick={() => handleInputBoxButtonClick(false)}>Cancel</Button>,
+        ]}
+      >
+        <Label label={inputBoxProps()?.label} vertical>
+          <Input value={inputBoxValue()} onChange={setInputBoxValue} class={styles.inputBoxInput} />
+        </Label>
       </Dialog>
     </ToasterContext.Provider>
   );

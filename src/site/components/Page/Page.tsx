@@ -7,6 +7,7 @@ import { useRouteInfo } from '../../hooks/useRouteInfo.js';
 import { DetachedDialogsProvider } from '../DetachedDialogsProvider/DetachedDialogsProvider.jsx';
 import { Frame } from '../Frame/Frame.js';
 import { Navigation } from '../Navigation/Navigation.js';
+import { PatchManager } from '../PatchManager/PatchManager.jsx';
 import { Toaster } from '../Toaster/Toaster.js';
 import styles from './Page.module.css';
 import { YandexMetrikaCounter } from './YandexMetrikaCounter.js';
@@ -45,21 +46,23 @@ export const Page: Component<PageProps> = (props) => {
           ],
         ]}
       >
-        <DetachedDialogsProvider>
-          <Frame variant="thick" component="header" class={styles.header}>
-            <h1 class={styles.title}>{meta().title || 'Morrowind Screenshots'}</h1>
-          </Frame>
+        <PatchManager>
+          <DetachedDialogsProvider>
+            <Frame variant="thick" component="header" class={styles.header}>
+              <h1 class={styles.title}>{meta().title || 'Morrowind Screenshots'}</h1>
+            </Frame>
 
-          <Navigation />
-          {props.children}
+            <Navigation />
+            {props.children}
 
-          <DocumentEventListener
-            // @ts-expect-error TODO: resolve custom event typings
-            onPagetransitionstart={handleTransitionStart}
-            onPagetransitionend={handleTransitionEnd}
-            onHydrationend={handleTransitionEnd}
-          />
-        </DetachedDialogsProvider>
+            <DocumentEventListener
+              // @ts-expect-error TODO: resolve custom event typings
+              onPagetransitionstart={handleTransitionStart}
+              onPagetransitionend={handleTransitionEnd}
+              onHydrationend={handleTransitionEnd}
+            />
+          </DetachedDialogsProvider>
+        </PatchManager>
       </Toaster>
     </>
   );

@@ -8,3 +8,7 @@ export function stripEmojis(value: string) {
 export function stripHashtags(value: string) {
   return value.replace(/#\S+/g, '');
 }
+
+export function stripCommonExtension(value: string) {
+  return value.replace(/\.[^/.]{3,4}$/, '');
+}

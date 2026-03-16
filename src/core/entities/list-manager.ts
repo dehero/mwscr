@@ -622,6 +622,11 @@ export abstract class ListManager<TItem extends object> extends ListReader<TItem
     return Object.keys(this.patch).length;
   }
 
+  replacePatch(patch: ListManagerPatch<TItem>) {
+    this.patch = undefined;
+    this.mergePatch(patch);
+  }
+
   /**
    * Merges the given patch into the current patch.
    * If a property in the patch is set to `undefined`, it will be deleted from the current patch.
@@ -747,7 +752,7 @@ export abstract class ListManager<TItem extends object> extends ListReader<TItem
     const statusSet = new Set(statuses);
 
     if (statusSet.has('removed')) {
-      if (Object.values(this.patch).some((value) => value === null)) {
+      if (Object.values(this.patch).includes(null)) {
         return true;
       }
 

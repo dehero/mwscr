@@ -3,7 +3,7 @@
   flex-flow: column nowrap;
   gap: 8px;
   margin: 0;
-  height: 315px;
+  height: 400px;
 }
 
 .tabs {
@@ -61,7 +61,7 @@
 
 .tabContent {
   display: flex;
-  width: 320px;
+  width: 380px;
   max-width: 100%;
   padding: 8px;
   box-sizing: border-box;

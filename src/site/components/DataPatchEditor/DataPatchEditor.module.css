@@ -2,10 +2,15 @@
   display: flex;
   flex-flow: column nowrap;
   gap: 8px;
-  max-width: 320px;
 }
 
 .text {
+  margin: 0;
+  color: var(--color-text-light);
+  grid-area: text;
+}
+
+.title {
   margin: 0;
   color: var(--color-text-light);
 }
@@ -14,6 +19,18 @@
   display: flex;
   flex-flow: row wrap;
   gap: 4px;
+  grid-area: toolbar;
+}
+
+.selectedPatchWrapper {
+  padding: 4px 6px;
+  min-height: 80px;
+  display: flex;
+  flex-flow: column nowrap;
+  flex: 0 0;
+  text-align: center;
+  grid-area: patches;
+  padding: 4px 6px;
 }
 
 .tableWrapper {
@@ -22,13 +39,31 @@
   display: flex;
   flex-flow: column nowrap;
   flex: 1 1;
+  grid-area: edits;
 }
 
 .fallback {
   color: var(--color-text-light);
   align-self: center;
+  text-align: center;
+  text-wrap: balance;
 }
 
 .submitVariant {
   flex: 1;
+}
+
+.footer {
+  display: flex;
+  flex-flow: row wrap;
+  gap: 4px;
+  grid-area: footer;
+}
+
+.share {
+  display: grid;
+  grid-template-columns: 1fr auto auto;
+  gap: 4px;
+  width: 100%;
+  grid-area: share;
 }

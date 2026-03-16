@@ -6,7 +6,12 @@
 
 .shortcuts {
   float: right;
-  margin: 8px 0px;
+  margin: 4px 0px;
+  display: flex;
+  flex-flow: row nowrap;
+  gap: 4px;
+  max-width: 100%;
+  width: 300px;
 }
 
 .menu {
@@ -37,7 +42,12 @@
   color: var(--color-text-selected-hover);
 }
 
-@media only screen and (min-width: 632px) {
+.patch {
+  flex: 1 1 auto;
+  width: 100%;
+}
+
+@media only screen and (min-width: 832px) {
   .menu {
     display: none;
   }
