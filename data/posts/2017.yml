@@ -3532,6 +3532,23 @@
       followers: 562
       likes: 65
       views: 661
+    - service: ig
+      id: DV9OpqrDMCv
+      mediaId: '17996853848747241'
+      published: 2026-03-16-19-15-47
+      followers: 1617
+    - service: vk
+      id: 3181
+      published: 2026-03-16-19-15-54
+      followers: 1619
+    - service: tg
+      id: 1184
+      published: 2026-03-16-19-16-00
+      followers: 893
+    - service: mx
+      id: '1773688564720'
+      published: 2026-03-16-19-16-04
+      followers: 20
 2017-03-13-sandy-shore:
   title: Sandy Shore
   titleRu: Песчаный берег
@@ -13340,16 +13357,16 @@
       id: DVy6dUVl0iY
       mediaId: '18000811652728473'
       published: 2026-03-12-19-06-57
-      updated: 2026-03-15-18-48-58
+      updated: 2026-03-16-19-12-11
       followers: 1614
-      likes: 52
+      likes: 53
     - service: vk
       id: 3171
       published: 2026-03-12-19-07-05
-      updated: 2026-03-15-18-49-03
+      updated: 2026-03-16-19-12-16
       followers: 1617
-      likes: 85
-      views: 976
+      likes: 88
+      views: 1071
       reposts: 3
       comments: !c |-
         G9oA+J0HtiP6ZSDYoy9iR47/R+4Z6Sv7kGpbkskXam2RJOeSZenc6M0Srd1CMJSPgcMrWO5AQ44g
@@ -13359,10 +13376,10 @@
     - service: tg
       id: 1180
       published: 2026-03-12-19-07-10
-      updated: 2026-03-15-18-49-01
+      updated: 2026-03-16-19-12-13
       followers: 885
       likes: 51
-      views: 315
+      views: 363
       comments: !c CwuAkZPLQnnOQ7XnAACma2V2eS1jpPCfpoAD
     - service: mx
       id: '1773342434365'
