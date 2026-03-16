@@ -4,7 +4,7 @@ import { object, partial } from 'valibot';
 import { jsonDateReviver } from '../utils/date-utils.js';
 import { PostsManagerPatch } from './posts-manager.js';
 import { parseSchema } from './schema.js';
-import { getUploadFileName } from './upload.js';
+import { createUploadFileName } from './upload.js';
 import { UsersManagerPatch } from './users-manager.js';
 
 export const DataPatch = partial(
@@ -25,7 +25,7 @@ export function getDataPatchName(patch: DataPatch): string | undefined {
     return;
   }
 
-  return getUploadFileName([data, 'application/json', 'patch.json']);
+  return createUploadFileName([data, 'application/json', 'patch.json']);
 }
 
 export function dataPatchToString(patch: DataPatch, minify?: boolean): string {

@@ -8,7 +8,6 @@ import { PostViolation, postViolationDescriptors } from '../../../core/entities/
 import type { PostInfo } from '../../../core/entities/post-info.js';
 import { ImageResourceExtension } from '../../../core/entities/resource.js';
 import type { TopicInfo } from '../../../core/entities/topic-info.js';
-import { getUploadUrl } from '../../../core/entities/upload.js';
 import { USER_UNKNOWN } from '../../../core/entities/user.js';
 import { postProposalIssue } from '../../../core/github-issues/post-proposal-issue.js';
 import { email } from '../../../core/services/email.js';
@@ -120,7 +119,7 @@ export const PostProposalDialog: DetachedDialog = (props) => {
         const title = stripCommonExtension(item.file.name);
 
         try {
-          await drafts?.addItem({ content: getUploadUrl(upload), title, type: 'shot', author: USER_UNKNOWN }, id);
+          await drafts?.addItem({ content: upload.url, title, type: 'shot', author: USER_UNKNOWN }, id);
 
           updateUploadReportItem(itemIndex, {
             status: 'Uploaded',

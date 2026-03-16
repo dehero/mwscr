@@ -6,6 +6,7 @@ export const UploadType = picklist(['image', 'video', 'archive', 'patch', 'file'
 
 export const Upload = object({
   name: string(),
+  url: string(),
   originalName: string(),
   size: number(),
   type: UploadType,
@@ -37,17 +38,13 @@ export type UploadResult = InferOutput<typeof UploadResult>;
 export type UploadsResponse = InferOutput<typeof UploadsResponse>;
 export type UploadErrorResponse = InferOutput<typeof UploadErrorResponse>;
 
-export function getUploadFileName(resource: Resource): string {
+export function createUploadFileName(resource: Resource): string {
   const [data, mimeType, originalName] = resource;
   const hash = getRevisionHash(data);
   const ext = originalName.split('.').pop()?.toLowerCase() || '';
   const type = getUploadTypeFromMimeType(mimeType);
 
   return `mwscr-${type}-${hash}${ext ? `.${ext}` : ''}`;
-}
-
-export function getUploadUrl(upload: Upload) {
-  return `/uploads/${upload.name}`;
 }
 
 export function getUploadTypeFromMimeType(mimeType: string | null) {

@@ -8,6 +8,9 @@ import { pipeline } from 'stream/promises';
 import type { MediaMetadata } from '../../core/entities/media.js';
 import type { Resource } from '../../core/entities/resource.js';
 import { parseResourceUrl, resourceIsImage, resourceIsVideo } from '../../core/entities/resource.js';
+import { assertSchema } from '../../core/entities/schema.js';
+import { Upload } from '../../core/entities/upload.js';
+import { site } from '../../core/services/site.js';
 import { textToId } from '../../core/utils/common-utils.js';
 import { storeManager } from '../store-managers/index.js';
 import { pathExists } from '../utils/file-utils.js';
@@ -23,6 +26,11 @@ export async function resourceExists(url: string): Promise<boolean> {
   switch (protocol) {
     case 'store:':
       return storeManager.exists(pathname);
+    case 'uploads:': {
+      const dataUrl = getResourceDataUrl(url);
+      const response = await fetch(dataUrl, { method: 'HEAD' });
+      return response.ok;
+    }
     case 'file:':
       return pathExists(pathname);
     case 'http:':
@@ -45,6 +53,7 @@ export async function copyResource(fromUrl: string, toUrl: string): Promise<void
     return;
   }
 
+  // TODO: implement copying to "uploads:"
   switch (from.protocol) {
     case 'store:':
       switch (to.protocol) {
@@ -65,6 +74,10 @@ export async function copyResource(fromUrl: string, toUrl: string): Promise<void
         default:
       }
       break;
+    case 'uploads:': {
+      const dataUrl = getResourceDataUrl(fromUrl);
+      return copyResource(dataUrl, toUrl);
+    }
     case 'http:':
     case 'https:':
       switch (to.protocol) {
@@ -132,6 +145,7 @@ export async function moveResource(fromUrl: string, toUrl: string) {
       break;
     case 'http:':
     case 'https:':
+    case 'uploads:':
       // Don't try to delete file on web, just copy
       return copyResource(fromUrl, toUrl);
     default:
@@ -149,6 +163,21 @@ export async function readResource(url: string): Promise<Resource> {
       const mimeType = mime.getType(ext);
 
       return [data, mimeType, base];
+    }
+    case 'uploads:': {
+      const dataUrl = getResourceDataUrl(url);
+      const response = await fetch(dataUrl);
+      const arrayBuffer = await response.arrayBuffer();
+      const data = Buffer.from(arrayBuffer);
+
+      const metaUrl = getResourceMetaUrl(url);
+      const meta = await (await fetch(metaUrl)).json();
+
+      assertSchema(Upload, meta);
+      const mimeType = meta.mime;
+      const filename = meta.originalName;
+
+      return [data, mimeType, filename];
     }
     case 'file:': {
       const data = await fs.readFile(pathname);
@@ -195,6 +224,7 @@ export async function writeResource(url: string, data: Buffer | string) {
   const { protocol, pathname } = parseResourceUrl(url);
 
   switch (protocol) {
+    // TODO: implement writing to "uploads:"
     case 'store:':
       return storeManager.put(pathname, data);
     case 'file:':
@@ -209,7 +239,8 @@ export async function writeResource(url: string, data: Buffer | string) {
 export function getResourcePreviewPath(url: string): string | undefined {
   const { protocol, dir, name } = parseResourceUrl(url);
   // Don't create previews for images on web, first save to store or local file system
-  if (protocol === 'http:' || protocol === 'https:') {
+  // Uploads have their own previews
+  if (protocol === 'http:' || protocol === 'https:' || protocol === 'uploads:') {
     return;
   }
 
@@ -222,12 +253,38 @@ export async function getResourcePreviewUrl(url: string, width?: number, height?
   switch (protocol) {
     case 'store:':
       return storeManager.getPreviewUrl(pathname, width, height);
+    case 'uploads:':
+      return url.replace(/^uploads:\/(.*)\..*/, `${site.origin}/uploads/$1.preview.webp`);
     case 'http:':
     case 'https:':
       return url;
     default:
       throw new Error(`Unknown resource protocol ${protocol} for ${url}.`);
   }
+}
+
+export function getResourceDataUrl(url: string): string {
+  const { protocol } = parseResourceUrl(url);
+
+  switch (protocol) {
+    case 'uploads:':
+      return url.replace(/^uploads:\//, `${site.origin}/uploads/`);
+    case 'http:':
+    case 'https:':
+      return url;
+    default:
+      throw new Error(`Unknown resource protocol ${protocol} for ${url}.`);
+  }
+}
+
+export function getResourceMetaUrl(url: string): string {
+  const { protocol } = parseResourceUrl(url);
+
+  if (protocol === 'uploads:') {
+    return url.replace(/^uploads:\/(.*)\..*/, `${site.origin}/uploads/$1.meta.json`);
+  }
+
+  throw new Error(`Unknown resource protocol ${protocol} for ${url}.`);
 }
 
 export async function createResourcePreview(url: string, width: number, height: number): Promise<string | undefined> {

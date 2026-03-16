@@ -3,7 +3,7 @@
 error_reporting(0);
 
 $uploadsDir = __DIR__ . '/uploads/';
-$baseUrl = 'https://mwscr.dehero.site/uploads/';
+$baseUrl = 'uploads:/';
 
 // Load configuration
 $config = @json_decode(@file_get_contents(__DIR__ . '/import-variants.json'), true);
@@ -250,7 +250,7 @@ function deleteObsoleteUploads()
         // If file has expired, delete main file, preview and metadata
         if ($expiresTime !== false && time() > $expiresTime) {
           // Get main filename from metadata
-          $mainFilename = $meta['name'] ?? null;
+          $mainFilename = isset($meta['name']) ? $meta['name'] : null;
 
           if ($mainFilename) {
             $mainFilePath = $uploadsDir . $mainFilename;
@@ -380,7 +380,7 @@ function getUploadsList()
 
 function uploadFiles()
 {
-  global $uploadsDir, $previewMimeTypes;
+  global $uploadsDir, $previewMimeTypes, $baseUrl;
 
   if (!isset($_FILES['file'])) {
     return ['error' => 'No files uploaded'];
@@ -448,9 +448,9 @@ function uploadFiles()
             }
 
             // If it's a patch file (JSON), analyze it and update referenced files expiration
-            if ($mimeType === 'application/json' && $file && isset($file['expires'])) {
+            if ($mimeType === 'application/json' && is_array($file) && isset($file['expires'])) {
               $patchData = @json_decode(file_get_contents($targetPath), true);
-              if ($patchData && is_array($patchData)) {
+              if (is_array($patchData)) {
                 updateReferencedFilesExpiration($patchData, $file['expires']);
               }
             }
@@ -518,7 +518,7 @@ function updateReferencedFilesExpiration($patchData, $newExpiresDate)
             if (file_exists($metaPath)) {
               $meta = readMetadata($metaPath);
 
-              if ($meta && isset($meta['expires'])) {
+              if (is_array($meta) && isset($meta['expires'])) {
                 $currentExpires = strtotime($meta['expires']);
                 $newExpires = strtotime($newExpiresDate);
 
