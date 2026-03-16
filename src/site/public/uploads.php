@@ -240,27 +240,36 @@ function deleteObsoleteUploads()
 
     $filePath = $uploadsDir . $filename;
 
-    // Skip preview and meta files in main deletion logic
-    if (strpos($filename, '.preview.webp') !== false || strpos($filename, '.meta.json') !== false) {
-      continue;
-    }
+    // Process only meta.json files
+    if (strpos($filename, '.meta.json') !== false) {
+      $meta = readMetadata($filePath);
 
-    $modifiedTime = filemtime($filePath);
-    $sevenDaysInSeconds = 60 * 60 * 24 * 7;
+      if ($meta && isset($meta['expires'])) {
+        $expiresTime = strtotime($meta['expires']);
 
-    if (time() - $modifiedTime > $sevenDaysInSeconds) {
-      unlink($filePath);
+        // If file has expired, delete main file, preview and metadata
+        if ($expiresTime !== false && time() > $expiresTime) {
+          // Get main filename from metadata
+          $mainFilename = $meta['name'] ?? null;
 
-      // Delete preview if exists
-      $previewPath = getPreviewPath($filePath);
-      if (file_exists($previewPath)) {
-        unlink($previewPath);
-      }
+          if ($mainFilename) {
+            $mainFilePath = $uploadsDir . $mainFilename;
 
-      // Delete metadata if exists
-      $metaPath = getMetadataPath($filePath);
-      if (file_exists($metaPath)) {
-        unlink($metaPath);
+            // Delete main file
+            if (file_exists($mainFilePath)) {
+              unlink($mainFilePath);
+            }
+
+            // Delete preview if exists
+            $previewPath = getPreviewPath($mainFilePath);
+            if (file_exists($previewPath)) {
+              unlink($previewPath);
+            }
+          }
+
+          // Delete metadata file
+          unlink($filePath);
+        }
       }
     }
   }
