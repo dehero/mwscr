@@ -104,14 +104,14 @@ a2-enkelli:
   profiles:
     - service: tg
       id: '7258424423'
-      updated: 2026-03-16-11-01-54
+      updated: 2026-03-16-12-27-45
       accessHash: '969825927170686844'
       deleted: true
 aarychagoff:
   profiles:
     - service: tg
       id: '1343549669'
-      updated: 2026-03-15-11-39-11
+      updated: 2026-03-16-12-27-45
       accessHash: '-8044934406214364524'
       username: aarychagoff
       name: Andrei Rychagov
@@ -585,7 +585,7 @@ artyom-melikhoff:
   profiles:
     - service: vk
       id: '299405149'
-      updated: 2026-03-16-11-02-17
+      updated: 2026-03-16-12-27-44
       username: artyom_melikhoff
       name: Артём Мелихов
       avatar: store:/avatars/vk-5b2fd843.jpg
@@ -2936,7 +2936,7 @@ kawazaky223:
   profiles:
     - service: tg
       id: '5641856113'
-      updated: 2026-03-16-11-02-07
+      updated: 2026-03-16-12-27-45
       accessHash: '7421309771527577818'
       username: Kawazaky223
       name: Максим
@@ -2966,7 +2966,7 @@ kevy-c:
   profiles:
     - service: tg
       id: '5067683234'
-      updated: 2026-03-16-11-00-58
+      updated: 2026-03-16-11-55-26
       accessHash: '-903667913374325979'
       username: Kevy_c
       name: Dash
