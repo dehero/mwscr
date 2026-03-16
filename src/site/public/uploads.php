@@ -422,7 +422,6 @@ function uploadFiles()
 
       if (file_exists($targetPath)) {
         $success = true;
-
         $file = getFileMetadata($targetPath);
       } else {
         // Validate file type and size using config
@@ -447,6 +446,14 @@ function uploadFiles()
             if (in_array($mimeType, $previewMimeTypes)) {
               createImagePreview($targetPath, $mimeType);
             }
+
+            // If it's a patch file (JSON), analyze it and update referenced files expiration
+            if ($mimeType === 'application/json' && $file && isset($file['expires'])) {
+              $patchData = @json_decode(file_get_contents($targetPath), true);
+              if ($patchData && is_array($patchData)) {
+                updateReferencedFilesExpiration($patchData, $file['expires']);
+              }
+            }
           } else {
             $error = error_get_last();
             $errors[] = isset($error['message']) ? $error['message'] : 'Failed to move uploaded file';
@@ -463,4 +470,68 @@ function uploadFiles()
   }
 
   return $result;
+}
+
+/**
+ * Update expiration time for files referenced in patch
+ */
+function updateReferencedFilesExpiration($patchData, $newExpiresDate)
+{
+  global $uploadsDir, $baseUrl;
+
+  $sections = ['posts', 'extras', 'drafts', 'rejects'];
+
+  foreach ($sections as $section) {
+    if (!isset($patchData[$section]) || !is_array($patchData[$section])) {
+      continue;
+    }
+
+    foreach ($patchData[$section] as $id => $item) {
+      if (!is_array($item)) {
+        continue;
+      }
+
+      // Check each field that may contain file references
+      $fields = ['content', 'snapshot', 'trash'];
+
+      foreach ($fields as $field) {
+        if (!isset($item[$field])) {
+          continue;
+        }
+
+        $value = $item[$field];
+        $strings = is_array($value) ? $value : [$value];
+
+        foreach ($strings as $str) {
+          if (!is_string($str)) {
+            continue;
+          }
+
+          // Check if string starts with baseUrl
+          if (strpos($str, $baseUrl) === 0) {
+            // Extract filename from URL
+            $filename = substr($str, strlen($baseUrl));
+
+            // Find corresponding metadata file
+            $metaPath = $uploadsDir . pathinfo($filename, PATHINFO_FILENAME) . '.meta.json';
+
+            if (file_exists($metaPath)) {
+              $meta = readMetadata($metaPath);
+
+              if ($meta && isset($meta['expires'])) {
+                $currentExpires = strtotime($meta['expires']);
+                $newExpires = strtotime($newExpiresDate);
+
+                // Update if new expiration is later than current
+                if ($newExpires !== false && $currentExpires !== false && $newExpires > $currentExpires) {
+                  $meta['expires'] = $newExpiresDate;
+                  file_put_contents($metaPath, json_encode($meta, JSON_PRETTY_PRINT | JSON_UNESCAPED_SLASHES));
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
 }
