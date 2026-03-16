@@ -4,9 +4,9 @@ import type { Accessor, Component, JSX, Resource } from 'solid-js';
 import { createContext, createMemo, createResource, createSignal, useContext } from 'solid-js';
 import { dataPatchToString, getDataPatchName, stringToDataPatch } from '../../../core/entities/data-patch.js';
 import type { Upload } from '../../../core/entities/upload.js';
-import { getUploadUrl } from '../../../core/entities/upload.js';
 import { stripCommonExtension } from '../../../core/utils/string-utils.js';
 import { dataManager } from '../../data-managers/manager.js';
+import { getResourceDataUrl } from '../../data-managers/resources.js';
 import { getUploads, uploadFiles } from '../../data-managers/uploads.js';
 import { useLocalPatch } from '../../hooks/useLocalPatch.js';
 import { Toast, useToaster } from '../Toaster/Toaster.jsx';
@@ -70,7 +70,7 @@ export const PatchManager: Component<PatchManagerProps> = (props) => {
     try {
       setProcessingMessage(`Loading patch "${title}"`);
 
-      const url = getUploadUrl(upload);
+      const url = getResourceDataUrl(upload.url);
       const response = await fetch(url);
       const data = stringToDataPatch(await response.text());
 

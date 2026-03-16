@@ -1,7 +1,7 @@
 export function getResourcePreviewUrl(url: string | undefined) {
   return url
     ?.replace(/^store:\/(.*)\..*/, '/previews/$1.avif')
-    .replace(/^https\:\/\/mwscr\.dehero\.site\/uploads\/(.*)\..*/, '/uploads/$1.preview.webp');
+    .replace(/^uploads:\/(.*)\..*/, '/uploads/$1.preview.webp');
 }
 
 // TODO: create lightweight video version and preview image automatically. Now used manual scripts:
@@ -17,4 +17,12 @@ export function getVideoLightweightUrl(url: string) {
 
 export function getVideoPosterUrl(url: string) {
   return url.replace(/.(mp4|avi)$/, '.jpg');
+}
+
+export function getResourceDataUrl(url: string) {
+  return url.replace(/^store:\/(.*)/, '/previews/$1').replace(/^uploads:\/(.*)/, '/uploads/$1');
+}
+
+export function getUploadMetaUrl(url: string) {
+  return url.replace(/^uploads:\/(.*)\..*/, '/uploads/$1.meta.json');
 }

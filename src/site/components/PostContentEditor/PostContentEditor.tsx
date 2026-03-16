@@ -18,7 +18,6 @@ import type { PostContent } from '../../../core/entities/post.js';
 import { mergePostContents } from '../../../core/entities/post.js';
 import { ImageResourceExtension, ResourceUrl } from '../../../core/entities/resource.js';
 import { assertSchema } from '../../../core/entities/schema.js';
-import { getUploadUrl } from '../../../core/entities/upload.js';
 import { asArray } from '../../../core/utils/common-utils.js';
 import { uploadFiles } from '../../data-managers/uploads.js';
 import { Button } from '../Button/Button.jsx';
@@ -243,7 +242,7 @@ export const PostContentEditor: Component<PostContentEditorProps> = (props) => {
         }
 
         try {
-          setContainerItems('content', (items) => [...items, getUploadUrl(upload)]);
+          setContainerItems('content', (items) => [...items, upload.url]);
 
           updateUploadReportItem(itemIndex, {
             status: 'Uploaded',

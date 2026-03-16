@@ -2,7 +2,7 @@ import type { InferOutput } from 'valibot';
 import { custom, is, nonEmpty, picklist, pipe, string } from 'valibot';
 import { listItems } from '../utils/common-utils.js';
 
-export const ResourceProtocol = picklist(['store:', 'file:', 'http:', 'https:']);
+export const ResourceProtocol = picklist(['store:', 'file:', 'http:', 'https:', 'uploads:']);
 export const ResourceType = picklist(['image', 'video', 'archive']);
 
 export const LosslessImageResourceExtension = picklist(['.png', '.bmp']);

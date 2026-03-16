@@ -5,12 +5,12 @@ import type { Component } from 'solid-js';
 import { createSignal, Show } from 'solid-js';
 import { dataPatchToString, getDataPatchName } from '../../../core/entities/data-patch.js';
 import { ANY_OPTION, ORIGINAL_OPTION } from '../../../core/entities/option.js';
-import { getUploadUrl } from '../../../core/entities/upload.js';
 import { dataPatchIssue } from '../../../core/github-issues/data-patch-issue.js';
 import { email } from '../../../core/services/email.js';
 import { formatDate, formatTime } from '../../../core/utils/date-utils.js';
 import { stripCommonExtension } from '../../../core/utils/string-utils.js';
 import { dataManager } from '../../data-managers/manager.js';
+import { getResourceDataUrl } from '../../data-managers/resources.js';
 import { uploadFiles } from '../../data-managers/uploads.js';
 import { useLocalPatch } from '../../hooks/useLocalPatch.js';
 import { postsRoute } from '../../routes/posts-route.js';
@@ -98,7 +98,7 @@ export const DataPatchEditor: Component<DataPatchEditorProps> = (props) => {
         url = dataPatchIssue.createIssueUrl(url);
         break;
       case 'email':
-        url = email.getUserMessagingUrl('me@dehero.site', { subject: filename, body: getUploadUrl(upload) });
+        url = email.getUserMessagingUrl('me@dehero.site', { subject: filename, body: getResourceDataUrl(upload.url) });
         break;
       default:
         return undefined;
