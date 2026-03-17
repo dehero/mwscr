@@ -601,7 +601,7 @@ arya-stark:
   profiles:
     - service: vk
       id: '820702664'
-      updated: 2026-03-16-21-47-16
+      updated: 2026-03-17-20-48-11
       username: id820702664
       name: Арья Старк
       avatar: store:/avatars/vk-689aa89d.jpg
@@ -1980,7 +1980,7 @@ feanor2la:
   profiles:
     - service: vk
       id: '16294877'
-      updated: 2026-03-16-19-12-15
+      updated: 2026-03-17-20-47-46
       username: feanor2la
       name: Иван Урлапов
       avatar: store:/avatars/vk-14fd45f0.jpg
@@ -2185,7 +2185,7 @@ gleb-zheltuhin:
   profiles:
     - service: vk
       id: '29014473'
-      updated: 2026-03-17-19-10-34
+      updated: 2026-03-17-20-47-36
       username: gleb_zheltuhin
       name: Глеб Желтухин
       avatar: store:/avatars/vk-971eefc1.jpg
@@ -2678,7 +2678,7 @@ ivan-uralov:
   profiles:
     - service: vk
       id: '16497155'
-      updated: 2026-03-17-19-10-32
+      updated: 2026-03-17-20-48-03
       username: id16497155
       name: Иван Уралов
       avatar: store:/avatars/vk-51775759.jpg
@@ -2966,7 +2966,7 @@ kevy-c:
   profiles:
     - service: tg
       id: '5067683234'
-      updated: 2026-03-17-17-09-57
+      updated: 2026-03-17-20-48-06
       accessHash: '-903667913374325979'
       username: Kevy_c
       name: Dash
@@ -3946,7 +3946,7 @@ nikitaloshenko:
   profiles:
     - service: vk
       id: '58942565'
-      updated: 2026-03-16-19-12-16
+      updated: 2026-03-17-20-47-48
       username: nikitaloshenko
       name: Никита Лощенко
       avatar: store:/avatars/vk-dcd345db.jpg
@@ -4239,7 +4239,7 @@ painkiller1986:
   profiles:
     - service: tg
       id: '6565289507'
-      updated: 2026-03-16-10-59-59
+      updated: 2026-03-17-20-48-06
       accessHash: '6198356028119192921'
       username: Painkiller1986
       name: Сумерки
@@ -4530,7 +4530,7 @@ pyriglena:
   profiles:
     - service: tg
       id: '554672984'
-      updated: 2026-03-16-21-47-16
+      updated: 2026-03-17-20-47-38
       accessHash: '-3565593010225205906'
       username: pyriglena
       name: yarrow
@@ -4931,7 +4931,7 @@ sergey-b-2:
   profiles:
     - service: vk
       id: '1077446394'
-      updated: 2026-03-17-19-10-32
+      updated: 2026-03-17-20-48-10
       username: id1077446394
       name: Сергей Б
       avatar: store:/avatars/vk-5a7c7910.jpg
@@ -4947,7 +4947,7 @@ sergey-venkov:
   profiles:
     - service: vk
       id: '217443112'
-      updated: 2026-03-16-20-45-25
+      updated: 2026-03-17-20-47-57
       username: id217443112
       name: Сергей Венков
       avatar: store:/avatars/vk-a77d1a73.jpg
