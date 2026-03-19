@@ -155,7 +155,7 @@ adonis-vernaliis:
   profiles:
     - service: tg
       id: '991525408'
-      updated: 2026-02-19-13-35-27
+      updated: 2026-03-19-14-55-11
       accessHash: '7239172452363329644'
       username: AdonisVernaliis
       botChatId: 991525408
@@ -487,7 +487,7 @@ ansis:
   profiles:
     - service: tg
       id: '517050552'
-      updated: 2026-03-19-13-18-32
+      updated: 2026-03-19-14-55-06
       accessHash: '5231096655311395455'
       username: ansis
       name: ansis
@@ -2678,7 +2678,7 @@ ivan-uralov:
   profiles:
     - service: vk
       id: '16497155'
-      updated: 2026-03-19-13-18-33
+      updated: 2026-03-19-14-55-02
       username: id16497155
       name: Иван Уралов
       avatar: store:/avatars/vk-51775759.jpg
@@ -2901,12 +2901,12 @@ kaltesblut:
   profiles:
     - service: tg
       id: '524542719'
-      updated: 2026-02-19-13-35-36
+      updated: 2026-03-19-14-55-16
       accessHash: '-287837872153954834'
       username: kaltesblut
       botChatId: 524542719
       name: (ಥ ͜ʖಥ)╭∩╮
-      avatar: store:/avatars/tg-2252893823919917828.jpg
+      avatar: store:/avatars/tg-2252893823919917830.jpg
 karatedance:
   profiles:
     - service: tg
@@ -3293,12 +3293,12 @@ lwumbazavr:
   profiles:
     - service: tg
       id: '1950862189'
-      updated: 2026-02-19-13-35-41
+      updated: 2026-03-19-14-55-24
       accessHash: '-424787795975012793'
       username: Lwumbazavr
       botChatId: 1950862189
       name: Lwumba
-      avatar: store:/avatars/tg-5343714244744577548.jpg
+      avatar: store:/avatars/tg-5312533808676542422.jpg
 lycanthropy:
   profiles:
     - service: vk
@@ -3499,7 +3499,7 @@ mbdtsmo:
   profiles:
     - service: tg
       id: '5093097514'
-      updated: 2026-03-19-13-18-33
+      updated: 2026-03-19-14-55-06
       accessHash: '-613358669572386334'
       username: mbdtsmo
       name: M Bdtsmo
@@ -4530,7 +4530,7 @@ pyriglena:
   profiles:
     - service: tg
       id: '554672984'
-      updated: 2026-03-19-13-18-33
+      updated: 2026-03-19-14-55-06
       accessHash: '-3565593010225205906'
       username: pyriglena
       name: yarrow
@@ -5578,7 +5578,7 @@ thedrongo7:
   profiles:
     - service: tg
       id: '149400692'
-      updated: 2026-02-19-13-35-41
+      updated: 2026-03-19-14-55-29
       accessHash: '5348913575804649535'
       username: Thedrongo7
       botChatId: 149400692
