@@ -76,7 +76,7 @@ function getPreviewPath($originalPath)
   return $fileInfo['dirname'] . '/' . $fileInfo['filename'] . '.preview.webp';
 }
 
-function createFileMetadata($filePath, $filename, $originalName, $mimeType)
+function createFileMetadata($filePath, $filename, $originalName, $mimeType, $author = null)
 {
   global $baseUrl;
 
@@ -98,10 +98,14 @@ function createFileMetadata($filePath, $filename, $originalName, $mimeType)
     'expires' => formatDateISO8601WithMillis($expirationTime),
   ];
 
+  // Add email to metadata if provided
+  if ($author !== null) {
+    $metadata['author'] = $author;
+  }
+
   file_put_contents($metaPath, json_encode($metadata, JSON_PRETTY_PRINT | JSON_UNESCAPED_SLASHES));
   return $metadata;
 }
-
 function getUploadTypeFromMimeType($mimeType)
 {
   if (strpos($mimeType, 'image/') === 0) {
@@ -389,6 +393,8 @@ function uploadFiles()
   $files = $_FILES['file'];
   $result = [];
 
+  $author = isset($_POST['author']) ? $_POST['author'] : null;
+
   // Handle single file upload
   if (!is_array($files['name'])) {
     $files = [
@@ -424,6 +430,7 @@ function uploadFiles()
         $success = true;
         $file = getFileMetadata($targetPath);
       } else {
+        // New file upload
         // Validate file type and size using config
         $validation = isValidFileType($mimeType, $files['size'][$i]);
 
@@ -439,19 +446,19 @@ function uploadFiles()
           if (move_uploaded_file($tempPath, $targetPath)) {
             $success = true;
 
-            // Save metadata with original name
-            $file = createFileMetadata($targetPath, $name, $originalName, $mimeType);
+            // Save metadata with original name and author (only for new files)
+            $file = createFileMetadata($targetPath, $name, $originalName, $mimeType, $author);
 
             // Check if file supports preview
             if (in_array($mimeType, $previewMimeTypes)) {
               createImagePreview($targetPath, $mimeType);
             }
 
-            // If it's a patch file (JSON), analyze it and update referenced files expiration
+            // If it's a patch file (JSON), analyze it and update referenced files metadata
             if ($mimeType === 'application/json' && is_array($file) && isset($file['expires'])) {
               $patchData = @json_decode(file_get_contents($targetPath), true);
               if (is_array($patchData)) {
-                updateReferencedFilesExpiration($patchData, $file['expires']);
+                updateReferencedFilesMetadata($patchData, $file['expires'], $author);
               }
             }
           } else {
@@ -473,9 +480,11 @@ function uploadFiles()
 }
 
 /**
- * Update expiration time for files referenced in patch
+ * Update metadata for files referenced in patch
+ * - Extends expiration time if patch expiration is later
+ * - Copies author from patch to referenced files if they don't have one
  */
-function updateReferencedFilesExpiration($patchData, $newExpiresDate)
+function updateReferencedFilesMetadata($patchData, $newExpiresDate, $patchAuthor = null)
 {
   global $uploadsDir, $baseUrl;
 
@@ -517,14 +526,28 @@ function updateReferencedFilesExpiration($patchData, $newExpiresDate)
 
             if (file_exists($metaPath)) {
               $meta = readMetadata($metaPath);
+              $metadataUpdated = false;
 
-              if (is_array($meta) && isset($meta['expires'])) {
-                $currentExpires = strtotime($meta['expires']);
-                $newExpires = strtotime($newExpiresDate);
+              if (is_array($meta)) {
+                // Update expiration if new expiration is later than current
+                if (isset($meta['expires'])) {
+                  $currentExpires = strtotime($meta['expires']);
+                  $newExpires = strtotime($newExpiresDate);
 
-                // Update if new expiration is later than current
-                if ($newExpires !== false && $currentExpires !== false && $newExpires > $currentExpires) {
-                  $meta['expires'] = $newExpiresDate;
+                  if ($newExpires !== false && $currentExpires !== false && $newExpires > $currentExpires) {
+                    $meta['expires'] = $newExpiresDate;
+                    $metadataUpdated = true;
+                  }
+                }
+
+                // Copy author from patch to referenced file if it doesn't have one
+                if ($patchAuthor !== null && !isset($meta['author'])) {
+                  $meta['author'] = $patchAuthor;
+                  $metadataUpdated = true;
+                }
+
+                // Save updated metadata if any changes were made
+                if ($metadataUpdated) {
                   file_put_contents($metaPath, json_encode($meta, JSON_PRETTY_PRINT | JSON_UNESCAPED_SLASHES));
                 }
               }

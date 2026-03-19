@@ -8,13 +8,17 @@ export interface UploadFilesResult {
   errors: string[];
 }
 
-export async function uploadFiles(files: File[]) {
+export async function uploadFiles(files: File[], author?: string) {
   const uploads: Upload[] = [];
   const errors: string[] = [];
   const formData = new FormData();
 
   for (const file of files) {
     formData.append('file[]', file, file.name);
+  }
+
+  if (author) {
+    formData.append('author', author);
   }
 
   try {
