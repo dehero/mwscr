@@ -119,16 +119,16 @@
       id: DTI4u92E96j
       mediaId: '18064133150237501'
       published: 2026-01-05-18-20-58
-      updated: 2026-03-12-16-06-05
+      updated: 2026-03-19-19-07-33
       followers: 1609
       likes: 54
     - service: vk
       id: 2992
       published: 2026-01-05-18-21-03
-      updated: 2026-03-12-16-06-19
+      updated: 2026-03-19-19-07-52
       followers: 1559
       likes: 80
-      views: 1631
+      views: 1637
       reposts: 3
       comments: !c |-
         CyCAkZPLQnm4/6JPAACqYXJ5YS1zdGFya9kp0KHQsNC80YvQtSDRhdCw0LHQsNGA0L3Ri9C1INC8
@@ -136,10 +136,10 @@
     - service: tg
       id: 1115
       published: 2026-01-05-18-21-07
-      updated: 2026-03-12-16-06-11
+      updated: 2026-03-19-19-07-44
       followers: 875
       likes: 66
-      views: 742
+      views: 747
 2026-01-06-1-a-small-victory:
   title: A Small Victory
   titleRu: Небольшая победа
@@ -160,25 +160,25 @@
       id: DTLgg-KjLBP
       mediaId: '18080990783225634'
       published: 2026-01-06-18-47-03
-      updated: 2026-03-12-16-06-03
+      updated: 2026-03-19-19-07-31
       followers: 1608
-      likes: 68
+      likes: 69
       comments: !c ixSAkZPLQnm5TO2pgACsZWFzdGNvYXN0LWxnsUnigJl2ZSBiZWVuIHRoZXJlAw==
     - service: vk
       id: 2995
       published: 2026-01-06-18-47-08
-      updated: 2026-03-12-16-06-17
+      updated: 2026-03-19-19-07-51
       followers: 1561
       likes: 71
-      views: 2635
+      views: 2642
       reposts: 1
     - service: tg
       id: 1116
       published: 2026-01-06-18-47-12
-      updated: 2026-03-12-16-06-10
+      updated: 2026-03-19-19-07-44
       followers: 876
       likes: 68
-      views: 628
+      views: 631
 2026-01-07-1-sky-path:
   title: Sky Path
   titleRu: Небесный путь
@@ -201,24 +201,24 @@
       id: DTOB9cpF5mm
       mediaId: '18052066397416803'
       published: 2026-01-07-18-17-47
-      updated: 2026-03-12-16-06-00
+      updated: 2026-03-19-19-07-24
       followers: 1607
-      likes: 76
+      likes: 77
     - service: vk
       id: 2996
       published: 2026-01-07-18-17-54
-      updated: 2026-03-12-16-06-16
+      updated: 2026-03-19-19-07-50
       followers: 1561
-      likes: 107
-      views: 2173
+      likes: 108
+      views: 2182
       reposts: 13
     - service: tg
       id: 1117
       published: 2026-01-07-18-17-58
-      updated: 2026-03-12-16-06-10
+      updated: 2026-03-19-19-07-43
       followers: 876
       likes: 73
-      views: 1462
+      views: 1469
       comments: !c |-
         G5AAwIzEOEZyMYg/8uGveYTHpXeWpBG91kibblQk+T5ObDY5EsIDrdbWf8h5wMX6da90+RLlwMbY
         8EyDoNt0ODy1tk4qT1FXO45zs3J1RxTOj91KsDSa3n4iFiRTMgVhSBychpIFGgbBkCUOpDOxOfPU
@@ -343,16 +343,16 @@
       id: DTbBM0Gl7rM
       mediaId: '17885182569425627'
       published: 2026-01-12-19-21-17
-      updated: 2026-03-12-16-05-59
+      updated: 2026-03-19-19-07-21
       followers: 1609
       likes: 47
     - service: vk
       id: 3010
       published: 2026-01-12-19-21-23
-      updated: 2026-03-12-16-06-14
+      updated: 2026-03-19-19-07-49
       followers: 1570
       likes: 73
-      views: 1986
+      views: 1994
       reposts: 2
       comments: !c |-
         G30BQCwSeA71OaOh8bk1jfjnn5ON8J/ZYFMbSNGsADtB4JEm92lQcxqXbev4Ei+lFF6ouoWmBjn9
@@ -362,10 +362,10 @@
     - service: tg
       id: 1123
       published: 2026-01-12-19-21-26
-      updated: 2026-03-12-16-06-06
+      updated: 2026-03-19-19-07-41
       followers: 880
       likes: 66
-      views: 896
+      views: 899
       comments: !c |-
         iyaAkZPLQnm7Orv4AACmdnVzdGV42TpJdCBsb29rcyBjb3p5IHNvbWVob3cuIERlc3BpdGUgdGhl
         IG1ldGFsIHNrZWxldG9uIGFuZCBydXN0Aw==
@@ -513,3 +513,4 @@
 2026-03-16-1-silhouettes: 2017-03-12-silhouettes
 2026-03-17-1-wilted-littoral: 2017-10-29-wilted-littoral
 2026-03-18-1-rainy-day-in-sadrith-mora: 2020-05-23-rainy-day-in-sadrith-mora
+2026-03-19-1-sheogorad: 2016-11-21-sheogorad

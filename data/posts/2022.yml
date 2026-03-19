@@ -395,15 +395,15 @@
     - service: vk
       id: 2523
       published: 2025-07-20-18-36-19
-      updated: 2026-03-12-16-09-37
+      updated: 2026-03-19-19-11-11
       followers: 1349
       likes: 33
-      views: 465
+      views: 468
       reposts: 2
     - service: tg
       id: 922
       published: 2025-07-20-18-36-23
-      updated: 2026-03-12-16-08-59
+      updated: 2026-03-19-19-10-25
       followers: 763
       likes: 67
       views: 833
@@ -1240,16 +1240,16 @@
       id: DUEI4m9Duqi
       mediaId: '18100851613884451'
       published: 2026-01-28-18-37-18
-      updated: 2026-03-12-16-05-38
+      updated: 2026-03-19-19-06-58
       followers: 1606
       likes: 52
     - service: vk
       id: 3049
       published: 2026-01-28-18-37-23
-      updated: 2026-03-12-16-05-46
+      updated: 2026-03-19-19-07-24
       followers: 1591
       likes: 41
-      views: 762
+      views: 772
       reposts: 2
       comments: !c |-
         G0gB4C0LbOc1CMkIdptEaGLPf4URKp3+kRNL+LVJm1R4piNaJjbSyT2dztwIe+EuXNONrGdQINtm
@@ -1259,10 +1259,10 @@
     - service: tg
       id: 1134
       published: 2026-01-28-18-37-27
-      updated: 2026-03-12-16-05-47
+      updated: 2026-03-19-19-07-21
       followers: 888
       likes: 67
-      views: 550
+      views: 553
       comments: !c |-
         iyGAkpPLQnnAYpJjAACma2V2eS1jpPCfpoCTy0J5wF+uJwAArnBhaW5raWxsZXIxOTg2s9Cl0LvQ
         tdCxINC/0LXRh9GR0LwD
@@ -1374,21 +1374,21 @@
       id: DQ91W55jYAg
       mediaId: '18080446513887672'
       published: 2025-11-12-18-17-00
-      updated: 2026-03-12-16-06-37
+      updated: 2026-03-19-19-08-13
       followers: 1594
-      likes: 42
+      likes: 43
     - service: vk
       id: 2845
       published: 2025-11-12-18-17-07
-      updated: 2026-03-12-16-07-38
+      updated: 2026-03-19-19-09-06
       followers: 1502
       likes: 102
-      views: 1119
+      views: 1124
       reposts: 4
     - service: tg
       id: 1053
       published: 2025-11-12-18-17-12
-      updated: 2026-03-12-16-06-57
+      updated: 2026-03-19-19-08-16
       followers: 855
       likes: 72
       views: 671
