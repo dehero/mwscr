@@ -1402,7 +1402,7 @@ dehero:
     - type: channel
       service: vk
       id: '138249959'
-      updated: 2026-03-19-22-35-46
+      updated: 2026-03-19-23-35-55
       username: mwscr
       name: Morrowind Screenshots
       avatar: store:/avatars/vk-8e97fd4f.jpg
@@ -2678,7 +2678,7 @@ ivan-uralov:
   profiles:
     - service: vk
       id: '16497155'
-      updated: 2026-03-19-22-35-46
+      updated: 2026-03-19-23-35-55
       username: id16497155
       name: Иван Уралов
       avatar: store:/avatars/vk-51775759.jpg
