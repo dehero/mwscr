@@ -51,13 +51,19 @@ export class SitePostsManager<TPost extends Post = Post> extends PostsManager<TP
     }
 
     // TODO: use patch schema based on TItem
-    const patch = safeParseSchema(PostsManagerPatch, JSON.parse(data, jsonDateReviver));
+    const _messages: string[] = [];
+    const patch = safeParseSchema(PostsManagerPatch, JSON.parse(data, jsonDateReviver), _messages);
+
     if (patch) {
       this.mergePatch(patch as ListManagerPatch<TPost>);
+    } else {
+      // TODO: show errors for user
+      console.log(_messages);
     }
   }
 
   updateLocalStorage() {
+    console.log('SET');
     setStorageItemWithEvent(localStorage, `${this.name}.patch`, this.patch ? JSON.stringify(this.patch) : null);
   }
 
