@@ -1,6 +1,6 @@
 import { ReactiveMap } from '@solid-primitives/map';
 import type { Component, JSX } from 'solid-js';
-import { createContext, createEffect, createSignal, For, onCleanup, Show, useContext } from 'solid-js';
+import { createContext, createEffect, createSignal, createUniqueId, For, onCleanup, Show, useContext } from 'solid-js';
 import { isServer } from 'solid-js/web';
 import { Button } from '../Button/Button.jsx';
 import { Dialog } from '../Dialog/Dialog.js';
@@ -15,6 +15,7 @@ export interface ToasterContext {
   removeToast: (id: string) => void;
   messageBox: (message: string, buttons: string[]) => Promise<number>;
   inputBox: (label: string, value?: string) => Promise<string | undefined>;
+  modal: <T>(component: (resolve: (value: T) => void) => JSX.Element) => Promise<T>;
 }
 
 export const ToasterContext = createContext<ToasterContext>({
@@ -22,6 +23,7 @@ export const ToasterContext = createContext<ToasterContext>({
   removeToast: () => {},
   messageBox: () => Promise.resolve(-1),
   inputBox: () => Promise.resolve(undefined),
+  modal: () => Promise.resolve(undefined as never),
 });
 
 export const useToaster = () => useContext(ToasterContext);
@@ -50,6 +52,12 @@ interface InputBoxProps {
   value?: string;
 }
 
+interface ModalInstance<T> {
+  id: string;
+  component: (resolve: (value: T) => void) => JSX.Element;
+  resolve: (value: T) => void;
+}
+
 function createToastId() {
   return Math.random().toString();
 }
@@ -63,6 +71,7 @@ export const Toaster: Component<ToasterProps> = (props) => {
   const [isAnimatingLoader, setIsAnimatingLoader] = createSignal(true);
   const [messageBoxProps, setMessageBoxProps] = createSignal<MessageBoxProps | undefined>();
   const [inputBoxProps, setInputBoxProps] = createSignal<InputBoxProps | undefined>();
+  const [modalInstances, setModalInstances] = createSignal<ModalInstance<unknown>[]>([]);
 
   const [inputBoxValue, setInputBoxValue] = createSignal('');
 
@@ -95,6 +104,24 @@ export const Toaster: Component<ToasterProps> = (props) => {
     setInputBoxValue(value ?? '');
     return new Promise<string | undefined>((resolve) => {
       inputBoxResolve = resolve;
+    });
+  };
+
+  const modal = <T,>(component: (resolve: (value: T) => void) => JSX.Element): Promise<T> => {
+    const id = createUniqueId();
+
+    return new Promise<T>((resolve) => {
+      const instance: ModalInstance<T> = {
+        id,
+        component: () =>
+          component((value: T) => {
+            setModalInstances((prev) => prev.filter((inst) => inst.id !== id));
+            resolve(value);
+          }),
+        resolve,
+      };
+
+      setModalInstances((prev) => [...prev, instance as ModalInstance<unknown>]);
     });
   };
 
@@ -142,8 +169,14 @@ export const Toaster: Component<ToasterProps> = (props) => {
     }
   });
 
+  onCleanup(() => {
+    modalInstances().forEach((instance) => {
+      instance.resolve(undefined);
+    });
+  });
+
   return (
-    <ToasterContext.Provider value={{ addToast, removeToast, messageBox, inputBox }}>
+    <ToasterContext.Provider value={{ addToast, removeToast, messageBox, inputBox, modal }}>
       {props.children}
       <div class={styles.container}>
         <For each={hints()}>{([, toast]) => <Frame class={styles.item}>{toast.message}</Frame>}</For>
@@ -189,6 +222,13 @@ export const Toaster: Component<ToasterProps> = (props) => {
           <Input value={inputBoxValue()} onChange={setInputBoxValue} class={styles.inputBoxInput} />
         </Label>
       </Dialog>
+
+      <For each={modalInstances()} fallback={null}>
+        {(instance) =>
+          // Create component here for right circuit
+          instance.component(instance.resolve)
+        }
+      </For>
     </ToasterContext.Provider>
   );
 };
