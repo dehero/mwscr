@@ -1,4 +1,4 @@
-import { array, boolean, date, type InferOutput, nullable, number, object, picklist, string } from 'valibot';
+import { array, boolean, date, type InferOutput, nullable, number, object, optional, picklist, string } from 'valibot';
 import { getRevisionHash } from '../utils/common-utils.js';
 import type { Resource } from './resource.js';
 
@@ -7,6 +7,7 @@ export const UploadType = picklist(['image', 'video', 'archive', 'patch', 'file'
 export const Upload = object({
   name: string(),
   url: string(),
+  author: optional(string()),
   originalName: string(),
   size: number(),
   type: UploadType,
