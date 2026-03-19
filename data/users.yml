@@ -1402,7 +1402,7 @@ dehero:
     - type: channel
       service: vk
       id: '138249959'
-      updated: 2026-03-19-19-11-08
+      updated: 2026-03-19-20-46-04
       username: mwscr
       name: Morrowind Screenshots
       avatar: store:/avatars/vk-8e97fd4f.jpg
@@ -2185,7 +2185,7 @@ gleb-zheltuhin:
   profiles:
     - service: vk
       id: '29014473'
-      updated: 2026-03-19-19-10-00
+      updated: 2026-03-19-20-46-08
       username: gleb_zheltuhin
       name: Глеб Желтухин
       avatar: store:/avatars/vk-971eefc1.jpg
@@ -2678,7 +2678,7 @@ ivan-uralov:
   profiles:
     - service: vk
       id: '16497155'
-      updated: 2026-03-19-19-06-51
+      updated: 2026-03-19-20-46-08
       username: id16497155
       name: Иван Уралов
       avatar: store:/avatars/vk-51775759.jpg
@@ -2966,7 +2966,7 @@ kevy-c:
   profiles:
     - service: tg
       id: '5067683234'
-      updated: 2026-03-19-19-11-19
+      updated: 2026-03-19-20-46-05
       accessHash: '-903667913374325979'
       username: Kevy_c
       name: Dash
@@ -3041,7 +3041,7 @@ konstantin-matrosov:
   profiles:
     - service: vk
       id: '93073669'
-      updated: 2026-03-18-19-10-06
+      updated: 2026-03-19-20-46-08
       username: id93073669
       name: Константин Матросов
       avatar: store:/avatars/vk-81f32c7d.jpg
@@ -4931,7 +4931,7 @@ sergey-b-2:
   profiles:
     - service: vk
       id: '1077446394'
-      updated: 2026-03-19-19-10-28
+      updated: 2026-03-19-20-46-08
       username: id1077446394
       name: Сергей Б
       avatar: store:/avatars/vk-5a7c7910.jpg
