@@ -1,5 +1,5 @@
 import type { JSX } from 'solid-js';
-import { createSignal, Show } from 'solid-js';
+import { createMemo, createSignal } from 'solid-js';
 import type { Option } from '../../../core/entities/option.js';
 import type { ButtonProps } from '../Button/Button.jsx';
 import { Button } from '../Button/Button.jsx';
@@ -15,13 +15,20 @@ export interface OptionSelectButtonProps<T> extends Omit<ButtonProps, 'title' | 
 }
 
 export function OptionSelectButton<T>(props: OptionSelectButtonProps<T>) {
-  const selectedUserOption = () => props.options.find((option) => option.value === props.value);
+  const selectedUserOption = createMemo(() => props.options.find((option) => option.value === props.value));
+
   const [showDialog, setShowDialog] = createSignal(false);
 
   const handleConfirm = (value: T | undefined) => {
     setShowDialog(false);
     props.onChange(value);
   };
+
+  const buttonText = createMemo(() => {
+    const selected = selectedUserOption();
+    if (!selected && props.emptyLabel) return props.emptyLabel;
+    return selected?.label ?? '';
+  });
 
   return (
     <>
@@ -31,9 +38,7 @@ export function OptionSelectButton<T>(props: OptionSelectButtonProps<T>) {
           setShowDialog(true);
         }}
       >
-        <Show when={selectedUserOption()} fallback={props.emptyLabel}>
-          {(option) => (!option().value && props.emptyLabel ? props.emptyLabel : option().label)}
-        </Show>
+        {buttonText()}
       </Button>
       <OptionSelectDialog
         title={props.title}
