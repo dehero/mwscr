@@ -4,7 +4,7 @@ import { createMemo, createResource, createSignal, For, Show } from 'solid-js';
 import { navigate } from 'vike/client/router';
 import importFormatsRaw from '../../../../assets/import-variants.json';
 import type { ImportVariant } from '../../../core/entities/import-variant.js';
-import { PostViolation, postViolationDescriptors } from '../../../core/entities/post.js';
+import { PostTitle, PostTitleRu, PostViolation, postViolationDescriptors } from '../../../core/entities/post.js';
 import type { PostInfo } from '../../../core/entities/post-info.js';
 import { ImageResourceExtension } from '../../../core/entities/resource.js';
 import type { TopicInfo } from '../../../core/entities/topic-info.js';
@@ -31,6 +31,7 @@ import { useToaster } from '../Toaster/Toaster.jsx';
 import { TopicTooltip } from '../TopicTooltip/TopicTooltip.jsx';
 import { UploadReportDialog } from '../UploadReportDialog/UploadReportDialog.jsx';
 import styles from './PostProposalDialog.module.css';
+import { safeParseSchema } from '../../../core/entities/schema.js';
 
 const importVariants = importFormatsRaw as Record<string, ImportVariant>;
 
@@ -116,10 +117,17 @@ export const PostProposalDialog: DetachedDialog = (props) => {
         }
 
         const id = `${USER_UNKNOWN}.${dateToString(new Date(), true)}${itemIndex > 0 ? itemIndex + 1 : ''}`;
-        const title = stripCommonExtension(item.file.name);
+        const rawTitle = stripCommonExtension(item.file.name);
+
+        const title = safeParseSchema(PostTitle, rawTitle);
+        let titleRu;
+
+        if (!title) {
+          titleRu = safeParseSchema(PostTitleRu, rawTitle);
+        }
 
         try {
-          await drafts?.addItem({ content: upload.url, title, type: 'shot', author: USER_UNKNOWN }, id);
+          await drafts?.addItem({ content: upload.url, title, titleRu, type: 'shot', author: USER_UNKNOWN }, id);
 
           updateUploadReportItem(itemIndex, {
             status: 'Uploaded',

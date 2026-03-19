@@ -18,7 +18,7 @@ import {
 import { RESOURCE_MISSING_IMAGE, RESOURCE_MISSING_VIDEO, ResourceUrl } from './resource.js';
 import { USER_DEFAULT_AUTHOR } from './user.js';
 
-export const PostTitle = pipe(string(), trim(), nonEmpty(), transform(postTitleFromString));
+export const PostTitle = pipe(string(), transform(postTitleFromString), trim(), nonEmpty());
 export const PostTitleRu = pipe(string(), trim(), nonEmpty());
 export const PostContent = union([ResourceUrl, array(ResourceUrl, 'Should be a list of resource strings')]);
 export const PostLocation = union([pipe(string(), nonEmpty()), array(pipe(string(), nonEmpty()))]);
