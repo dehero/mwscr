@@ -371,7 +371,7 @@ export function selectPostInfosResultToString(count: number, params: SelectPostI
     } else if (params.status === NONE_OPTION.value) {
       result.push('with no unsaved status');
     } else {
-      result.push(`with "${params.status} status`);
+      result.push(`with "${params.status}" status`);
     }
   }
 
