@@ -345,7 +345,11 @@ export const PostDialog: Component<PostDialogProps> = (props) => {
       return;
     }
 
-    manager()?.mergePatch({ [targetId]: post() });
+    // Include type field in patch to avoid creating empty drafts without type (that is an error) when patched post is deleted
+    const safePatch: Post = { type: entry?.[1]?.type ?? 'shot' };
+    patchObject(safePatch, patch());
+
+    manager()?.mergePatch({ [targetId]: safePatch });
     handleClose();
   };
 
