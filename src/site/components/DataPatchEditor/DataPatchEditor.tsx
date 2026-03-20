@@ -17,7 +17,7 @@ import { useDataPatchManager } from '../DataPatchManager/DataPatchManager.jsx';
 import { DataPatchTooltip } from '../DataPatchTooltip/DataPatchTooltip.jsx';
 import { createDetachedDialogFragment } from '../DetachedDialogsProvider/DetachedDialogsProvider.jsx';
 import { Frame } from '../Frame/Frame.jsx';
-import { Input } from '../Input/Input.jsx';
+// import { Input } from '../Input/Input.jsx';
 import { OptionSelectDialog } from '../OptionSelectDialog/OptionSelectDialog.jsx';
 import type { TableRow } from '../Table/Table.jsx';
 import { Table } from '../Table/Table.jsx';
@@ -106,16 +106,16 @@ export const DataPatchEditor: Component<DataPatchEditorProps> = (props) => {
     sharePatch(selectedPatch()!);
   };
 
-  const handleCopyName = async () => {
-    const name = localPatchName();
-    if (!name) {
-      addToast('No name to copy.');
-      return;
-    }
+  // const handleCopyName = async () => {
+  //   const name = localPatchName();
+  //   if (!name) {
+  //     addToast('No name to copy.');
+  //     return;
+  //   }
 
-    writeClipboard(name);
-    addToast('Patch name copied to clipboard');
-  };
+  //   writeClipboard(name);
+  //   addToast('Patch name copied to clipboard');
+  // };
 
   const [localPatchSize, localPatchName] = useLocalPatch(handlePatchChange);
 
@@ -135,8 +135,8 @@ export const DataPatchEditor: Component<DataPatchEditorProps> = (props) => {
             when={selectedPatch()}
             fallback={
               <span class={styles.fallback}>
-                Make local edits, like creating drafts, then save them as a single patch. Share your patch to project
-                administrator when you are done.
+                Make local edits, like creating drafts, then save them as a single patch. Share your patch to
+                administrator or submit to repository when you are done.
               </span>
             }
           >
@@ -172,11 +172,11 @@ export const DataPatchEditor: Component<DataPatchEditorProps> = (props) => {
           </Show>
         </Frame>
 
-        <div class={styles.name}>
+        {/* <div class={styles.name}>
           <Input value={localPatchSize() > 0 ? `${localPatchName()}${!selectedPatch() ? '*' : ''}` : ''} readonly />
 
           <Button onClick={handleCopyName}>Copy</Button>
-        </div>
+        </div> */}
 
         <div class={styles.toolbar}>
           <Button onClick={saveLocalPatch}>Save</Button>
