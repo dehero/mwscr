@@ -314,10 +314,10 @@
     - service: vk
       id: 3192
       published: 2026-03-19-19-15-16
-      updated: 2026-03-20-09-51-43
+      updated: 2026-03-20-10-45-10
       followers: 1621
-      likes: 44
-      views: 322
+      likes: 45
+      views: 330
       reposts: 3
       comments: !c |-
         G6AA4J0Hto38LCr4tOhtLApBNLdUvw4mXVsbWAavBmEh2sUUTMFyF3Ub87zTl6goQvVkucvp/43A
@@ -326,10 +326,10 @@
     - service: tg
       id: 1187
       published: 2026-03-19-19-15-22
-      updated: 2026-03-20-09-51-42
+      updated: 2026-03-20-10-45-13
       followers: 895
-      likes: 47
-      views: 199
+      likes: 48
+      views: 205
       comments: !c CwuAkZPLQnnQkPcGAACma2V2eS1jpPCfpoAD
     - service: mx
       id: '1773947726106'
@@ -339,9 +339,9 @@
       id: DWFHzmljP-z
       mediaId: '18052075139499267'
       published: 2026-03-19-20-49-56
-      updated: 2026-03-20-09-51-41
+      updated: 2026-03-20-10-45-09
       followers: 1617
-      likes: 40
+      likes: 41
 2016-11-22-lord-gothren:
   title: Lord Gothren
   titleRu: Лорд Готрен
