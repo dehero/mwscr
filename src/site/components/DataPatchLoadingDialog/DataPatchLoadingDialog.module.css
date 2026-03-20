@@ -1,0 +1,20 @@
+.container {
+  display: flex;
+  flex-flow: column nowrap;
+  gap: 8px;
+  width: 300px;
+}
+
+.wrapper {
+  padding: 4px 6px;
+  min-height: 80px;
+  display: flex;
+  flex-flow: column nowrap;
+  gap: 8px;
+}
+
+.title {
+  margin: 0;
+  color: var(--color-text-light);
+  text-align: center;
+}

@@ -1,10 +1,11 @@
-import fetch from 'node-fetch';
 import type { DataPatch } from '../../core/entities/data-patch.js';
 import { stringToDataPatch } from '../../core/entities/data-patch.js';
 import type { GithubIssue, GithubIssueResolver } from '../../core/entities/github-issue.js';
-import { dataPatchText, dataPatchUrl } from '../../core/entities/github-issue-field.js';
+import { dataPatchName, dataPatchText } from '../../core/entities/github-issue-field.js';
+import { extractUploadFileName } from '../../core/entities/upload.js';
 import { DataPatchIssue } from '../../core/github-issues/data-patch-issue.js';
 import { dataManager } from '../data-managers/manager.js';
+import { readResource } from '../data-managers/resources.js';
 import { extractIssueFieldValue, extractIssueTextareaValue, extractIssueUser } from './utils/issue-utils.js';
 
 export class DataPatchIssueResolver extends DataPatchIssue implements GithubIssueResolver {
@@ -17,9 +18,22 @@ export class DataPatchIssueResolver extends DataPatchIssue implements GithubIssu
 
     let patch: DataPatch;
 
-    const dataPatchURL = extractIssueFieldValue(dataPatchUrl, issue.body);
-    if (dataPatchURL) {
-      patch = (await (await fetch(dataPatchURL)).json()) as DataPatch;
+    const rawName = extractIssueFieldValue(dataPatchName, issue.body);
+    let url;
+
+    if (rawName) {
+      const uploadName = extractUploadFileName(rawName);
+      if (uploadName) {
+        url = `uploads:/${uploadName}`;
+      }
+    }
+
+    if (url) {
+      const [data] = await readResource(url);
+      if (typeof data !== 'string') {
+        throw new TypeError(`Error reading data patch from URL "${url}".`);
+      }
+      patch = stringToDataPatch(data);
     } else {
       const rawDataPatch = extractIssueTextareaValue(dataPatchText, issue.body) ?? '';
       patch = stringToDataPatch(rawDataPatch);

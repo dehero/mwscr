@@ -19,7 +19,6 @@
   display: flex;
   flex-flow: row wrap;
   gap: 4px;
-  grid-area: toolbar;
 }
 
 .selectedPatchWrapper {
@@ -29,8 +28,7 @@
   flex-flow: column nowrap;
   flex: 0 0;
   text-align: center;
-  grid-area: patches;
-  padding: 4px 6px;
+  overflow: auto;
 }
 
 .tableWrapper {
@@ -39,7 +37,6 @@
   display: flex;
   flex-flow: column nowrap;
   flex: 1 1;
-  grid-area: edits;
 }
 
 .fallback {
@@ -57,13 +54,11 @@
   display: flex;
   flex-flow: row wrap;
   gap: 4px;
-  grid-area: footer;
 }
 
-.share {
+.name {
   display: grid;
-  grid-template-columns: 1fr auto auto;
+  grid-template-columns: 1fr auto;
   gap: 4px;
   width: 100%;
-  grid-area: share;
 }

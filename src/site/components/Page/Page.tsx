@@ -4,10 +4,10 @@ import { debounce } from '@solid-primitives/scheduled';
 import { type Component, createSignal, type JSX, Show } from 'solid-js';
 import { usePageContext } from 'vike-solid/usePageContext';
 import { useRouteInfo } from '../../hooks/useRouteInfo.js';
+import { DataPatchManager } from '../DataPatchManager/DataPatchManager.jsx';
 import { DetachedDialogsProvider } from '../DetachedDialogsProvider/DetachedDialogsProvider.jsx';
 import { Frame } from '../Frame/Frame.js';
 import { Navigation } from '../Navigation/Navigation.js';
-import { PatchManager } from '../PatchManager/PatchManager.jsx';
 import { Toaster } from '../Toaster/Toaster.js';
 import styles from './Page.module.css';
 import { YandexMetrikaCounter } from './YandexMetrikaCounter.js';
@@ -46,7 +46,7 @@ export const Page: Component<PageProps> = (props) => {
           ],
         ]}
       >
-        <PatchManager>
+        <DataPatchManager>
           <DetachedDialogsProvider>
             <Frame variant="thick" component="header" class={styles.header}>
               <h1 class={styles.title}>{meta().title || 'Morrowind Screenshots'}</h1>
@@ -62,7 +62,7 @@ export const Page: Component<PageProps> = (props) => {
               onHydrationend={handleTransitionEnd}
             />
           </DetachedDialogsProvider>
-        </PatchManager>
+        </DataPatchManager>
       </Toaster>
     </>
   );

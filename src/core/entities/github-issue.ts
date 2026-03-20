@@ -6,7 +6,7 @@ export type GithubIssue = Issues['issue'];
 
 export interface GithubIssueDescriptor {
   label: string;
-  createIssueUrl: () => string;
+  createIssueUrl: () => string | undefined;
 }
 
 export interface GithubIssueResolver extends GithubIssueDescriptor {

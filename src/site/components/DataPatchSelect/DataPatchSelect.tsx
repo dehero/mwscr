@@ -4,7 +4,8 @@ import { createMemo } from 'solid-js';
 import { ORIGINAL_OPTION } from '../../../core/entities/option.js';
 import { stripCommonExtension } from '../../../core/utils/string-utils.js';
 import { useLocalPatch } from '../../hooks/useLocalPatch.js';
-import { usePatchManager } from '../PatchManager/PatchManager.jsx';
+import { useDataPatchManager } from '../DataPatchManager/DataPatchManager.jsx';
+import { DataPatchTooltip } from '../DataPatchTooltip/DataPatchTooltip.jsx';
 import { Select } from '../Select/Select.jsx';
 import styles from './DataPatchSelect.module.css';
 
@@ -14,7 +15,9 @@ interface DataPatchSelectProps {
 
 export const DataPatchSelect: Component<DataPatchSelectProps> = (props) => {
   const [patchSize, patchName] = useLocalPatch();
-  const { patches, selectedPatch, loadPatch, clearLocalPatch } = usePatchManager();
+  const { patches, selectedPatch, loadPatch, clearLocalPatch } = useDataPatchManager();
+
+  let selectRef;
 
   const handleChange = (value: string | undefined) => {
     if (value) {
@@ -40,6 +43,16 @@ export const DataPatchSelect: Component<DataPatchSelectProps> = (props) => {
   });
 
   return (
-    <Select options={options()} value={patchName()} class={clsx(props.class, styles.uploads)} onChange={handleChange} />
+    <>
+      <Select
+        options={options()}
+        value={patchName()}
+        class={clsx(props.class, styles.uploads)}
+        onChange={handleChange}
+        ref={selectRef}
+      />
+
+      <DataPatchTooltip patch={selectedPatch()} forRef={selectRef} />
+    </>
   );
 };

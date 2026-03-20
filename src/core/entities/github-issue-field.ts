@@ -176,12 +176,12 @@ export const dataPatchText = {
   },
 };
 
-export const dataPatchUrl = {
+export const dataPatchName = {
   type: 'input',
-  id: 'url',
+  id: 'name',
   attributes: {
-    label: 'Data Patch URL',
-    description: 'Write down data patch URL (JSON file).',
-    placeholder: 'https://mwscr.dehero.site/uploads/99914b932bd37a50b983c5e7c90ae93b.json',
+    label: 'Data Patch URL or Name',
+    description: 'Write down saved data patch sharing URL or name.',
+    placeholder: 'mwscr-patch-cc6fe487.json',
   },
 };

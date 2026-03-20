@@ -2,6 +2,8 @@ import { array, boolean, date, type InferOutput, nullable, number, object, optio
 import { getRevisionHash } from '../utils/common-utils.js';
 import type { Resource } from './resource.js';
 
+const UPLOAD_FILENAME_REGEX = /mwscr-(image|video|archive|patch|file)-[a-f0-9]+\.json/g;
+
 export const UploadType = picklist(['image', 'video', 'archive', 'patch', 'file']);
 
 export const Upload = object({
@@ -46,6 +48,12 @@ export function createUploadFileName(resource: Resource): string {
   const type = getUploadTypeFromMimeType(mimeType);
 
   return `mwscr-${type}-${hash}${ext ? `.${ext}` : ''}`;
+}
+
+export function extractUploadFileName(value: string) {
+  const [, result] = UPLOAD_FILENAME_REGEX.exec(value) ?? [];
+
+  return result || undefined;
 }
 
 export function getUploadTypeFromMimeType(mimeType: string | null) {

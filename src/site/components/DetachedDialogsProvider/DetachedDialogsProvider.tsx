@@ -3,6 +3,7 @@ import type { SiteRouteParams } from '../../../core/entities/site-route.js';
 import { parseSiteRouteFragment, stringifySiteRouteFragment } from '../../../core/entities/site-route.js';
 import { useHash } from '../../hooks/useHash.js';
 import { ContributingDialog } from '../ContributingDialog/ContributingDialog.jsx';
+import { DataPatchLoadingDialog } from '../DataPatchLoadingDialog/DataPatchLoadingDialog.jsx';
 import { MerchOrderingDialog } from '../MerchOrderingDialog/MerchOrderingDialog.jsx';
 import { PostEditingDialog } from '../PostEditingDialog/PostEditingDialog.jsx';
 import { PostLocationDialog } from '../PostLocationDialog/PostLocationDialog.jsx';
@@ -36,6 +37,7 @@ const detachedDialogs = {
   sponsorship: SponsorshipDialog,
   topic: TopicDialog,
   'merch-ordering': MerchOrderingDialog,
+  'patch-loading': DataPatchLoadingDialog,
 } satisfies Record<string, DetachedDialog | undefined>;
 
 export type DialogName = keyof typeof detachedDialogs;

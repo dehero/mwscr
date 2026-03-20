@@ -1,0 +1,14 @@
+.content {
+  display: flex;
+  flex-flow: column nowrap;
+  gap: 8px;
+  width: 260px;
+}
+
+.inputBoxInput {
+  /* width: 200px; */
+}
+
+.labelWithFixedWidth {
+  flex: 0 0 60px;
+}
