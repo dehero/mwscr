@@ -29,9 +29,15 @@ export const ContributingDialog: DetachedDialog<ContributingDialogTab> = (props)
       actions={[<Button onClick={props.onClose}>OK</Button>]}
       contentClass={styles.container}
       summary={
-        <a href="https://github.com/dehero/mwscr/blob/main/CONTRIBUTING.md" class={styles.link} target="_blank">
-          Guidelines
-        </a>
+        <>
+          <a href="https://github.com/dehero/mwscr/blob/main/CONTRIBUTING.md" class={styles.link} target="_blank">
+            Guidelines
+          </a>
+          {' • '}
+          <a href="/users/dehero" class={styles.link} target="_blank">
+            Administrator
+          </a>
+        </>
       }
     >
       <div class={styles.tabs}>
