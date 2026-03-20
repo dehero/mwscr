@@ -2,6 +2,61 @@
 
 All notable changes to this project will be documented in this file.
 
+## [2.20.0](https://github.com/dehero/mwscr/compare/v2.19.2...v2.20.0) (2026-03-20)
+
+### Features
+
+- add basic support for saving upload author
+  ([5d57b9a](https://github.com/dehero/mwscr/commit/5d57b9a5c25ef9bb3e41d6d571fad4fafecbab7c))
+- add hasItemWithStatus method to DataManager for future use
+  ([d01cff6](https://github.com/dehero/mwscr/commit/d01cff637e7e31f507fe23dc239c26214a0d2483))
+- implement "uploads:" resource protocol
+  ([dc9c2a3](https://github.com/dehero/mwscr/commit/dc9c2a33f886c0452f9bda6900cb66fa178e0b23))
+- implement API for receiving uploads list
+  ([55bca3e](https://github.com/dehero/mwscr/commit/55bca3ef5171c28f256b86f64169b595205ef934))
+- implement data patch sharing and updated submitting
+  ([c2302c3](https://github.com/dehero/mwscr/commit/c2302c3e92b4d5a0a831fddcefc36578489908e6))
+- implement saving patches to site uploads
+  ([4728fe8](https://github.com/dehero/mwscr/commit/4728fe8c9bd0d5191194cf5adae42b0ed214467b))
+- prolong expiration date for patch contents
+  ([834913e](https://github.com/dehero/mwscr/commit/834913e03f1f9f438c1ed482d938afadb5b81739))
+- remove separate GitHub issues for post editing and locating
+  ([b526866](https://github.com/dehero/mwscr/commit/b5268664b76516e35627b0fdb9888c81195ebc9a))
+- remove submission variants from post dialog
+  ([195a3ef](https://github.com/dehero/mwscr/commit/195a3ef442e4417aeed7ed1b2b83e62bb778a60d))
+- **site:** adjust contributing dialog
+  ([a715c7c](https://github.com/dehero/mwscr/commit/a715c7c78f531939e5d4baaab057b1af8ce34231))
+- **site:** adjust patch editing and submission
+  ([5a0f9ae](https://github.com/dehero/mwscr/commit/5a0f9aeffe6387483b9a8cc88031a3c6b469c986))
+- **site:** implement modal function for displaying dialogs with await
+  ([1b9fa1e](https://github.com/dehero/mwscr/commit/1b9fa1e9f0320c891eab5ab971ff0c341e64ecf7))
+- **site:** use prefixed filenames for uploads
+  ([c7148d0](https://github.com/dehero/mwscr/commit/c7148d09b88e5208022b39b834afda8663b6b59e))
+- use post dialog preset for post requests, remove separate GitHub issue
+  ([136f7de](https://github.com/dehero/mwscr/commit/136f7ded53abf777a6591faf721248971383bf1e))
+
+### Bug Fixes
+
+- add missing quote for post status filter
+  ([8d9550c](https://github.com/dehero/mwscr/commit/8d9550c711328579af71e535a93a4e637bd55793))
+- **site:** align Button text to center for links
+  ([cc57c19](https://github.com/dehero/mwscr/commit/cc57c195f0ec47175a39038996df260d3baad756))
+- **site:** avoid saving unchanged post fields to patch
+  ([e2da814](https://github.com/dehero/mwscr/commit/e2da8140bab99705413157755291baeea1b89927))
+- **site:** ensure to re-render selected option
+  ([679fa64](https://github.com/dehero/mwscr/commit/679fa648e7341d3899fa0f24e486f722fadd4b93))
+- **site:** resolve setting empty post title when submitting a file with non-latin name
+  ([c76dcdf](https://github.com/dehero/mwscr/commit/c76dcdfe72ed4ce9d66a0986ca328c0d472dfb4d))
+- **site:** use inner scroll for contributing variants list
+  ([aefed5c](https://github.com/dehero/mwscr/commit/aefed5c9e4a320f2ba979eb123c6bd89205f1460))
+- use "expires" field for uploads expiration
+  ([07f135e](https://github.com/dehero/mwscr/commit/07f135eeeef05a164981cc0b532679608d65fdd5))
+
+### Code Refactoring
+
+- use classes for GitHub issue descriptors and resolvers
+  ([ce51f0e](https://github.com/dehero/mwscr/commit/ce51f0e7324f89c95f5c5a3ababef459a546d6bf))
+
 ## [2.19.2](https://github.com/dehero/mwscr/compare/v2.19.1...v2.19.2) (2026-03-06)
 
 ### Bug Fixes
