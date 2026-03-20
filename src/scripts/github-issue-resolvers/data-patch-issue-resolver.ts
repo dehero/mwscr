@@ -52,7 +52,7 @@ export class DataPatchIssueResolver extends DataPatchIssue implements GithubIssu
       description: "Apply JSON patch to project's data.",
       title: 'data-patch',
       labels: [this.label],
-      body: [dataPatchText],
+      body: [dataPatchName, dataPatchText],
     };
   }
 }
