@@ -1,4 +1,4 @@
-import { writeClipboard } from '@solid-primitives/clipboard';
+// import { writeClipboard } from '@solid-primitives/clipboard';
 import type { UploadFile } from '@solid-primitives/upload';
 import { createDropzone, createFileUploader } from '@solid-primitives/upload';
 import clsx from 'clsx';
@@ -163,7 +163,7 @@ export const DataPatchEditor: Component<DataPatchEditorProps> = (props) => {
           <Button onClick={handleImport}>Import</Button>
           <Button onClick={exportLocalPatch}>Export</Button>
           <Button onClick={copyLocalPatch}>Copy</Button>
-          <Button onClick={clearLocalPatch}>Reset</Button>
+          <Button onClick={() => clearLocalPatch()}>Reset</Button>
         </div>
 
         <Frame class={styles.tableWrapper} ref={dropzoneRef}>

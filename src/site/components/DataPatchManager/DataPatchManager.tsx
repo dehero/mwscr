@@ -138,6 +138,11 @@ export const DataPatchManager: Component<DataPatchManagerProps> = (props) => {
       return false;
     }
 
+    if (selectedPatch()) {
+      addToast(`Your edits are already saved as "${stripCommonExtension(selectedPatch()!.originalName)}".`);
+      return true;
+    }
+
     const params = await modal<DataPatchSaveParams | undefined>((resolve) => (
       <DataPatchSaveDialog onClose={() => resolve(undefined)} onConfirm={resolve} show />
     ));
@@ -172,13 +177,15 @@ export const DataPatchManager: Component<DataPatchManagerProps> = (props) => {
     return false;
   };
 
-  const clearLocalPatch = async () => {
+  const clearLocalPatch = async (skipConfirmation?: boolean) => {
     if (localPatchSize() === 0) {
       return true;
     }
 
-    if (!(await confirmClearingLocalPatch())) {
-      return false;
+    if (!skipConfirmation) {
+      if (!(await confirmClearingLocalPatch())) {
+        return false;
+      }
     }
 
     setProcessingMessage(`Clearing local edits`);
@@ -331,7 +338,17 @@ export const DataPatchManager: Component<DataPatchManagerProps> = (props) => {
     if (url) {
       window.open(url, '_blank');
       addToast('Github Issue creation page opened.');
-      clearLocalPatch();
+
+      if (!selectedPatch()) {
+        const result = await messageBox(
+          'You are supposed to create a GitHub Issue containing your edits. Reset local edits?',
+          ['Yes', 'No'],
+        );
+        if (result === 0) {
+          clearLocalPatch(true);
+        }
+      }
+
       return true;
     }
     addToast('Failed to generate Github Issue creation url.');
