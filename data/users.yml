@@ -487,7 +487,7 @@ ansis:
   profiles:
     - service: tg
       id: '517050552'
-      updated: 2026-03-20-21-36-40
+      updated: 2026-03-20-22-35-28
       accessHash: '5231096655311395455'
       username: ansis
       name: ansis
@@ -2966,7 +2966,7 @@ kevy-c:
   profiles:
     - service: tg
       id: '5067683234'
-      updated: 2026-03-20-21-36-46
+      updated: 2026-03-20-22-35-33
       accessHash: '-903667913374325979'
       username: Kevy_c
       name: Dash
@@ -4239,7 +4239,7 @@ painkiller1986:
   profiles:
     - service: tg
       id: '6565289507'
-      updated: 2026-03-20-19-41-53
+      updated: 2026-03-20-22-35-34
       accessHash: '6198356028119192921'
       username: Painkiller1986
       name: Сумерки
@@ -4931,7 +4931,7 @@ sergey-b-2:
   profiles:
     - service: vk
       id: '1077446394'
-      updated: 2026-03-20-21-36-47
+      updated: 2026-03-20-22-35-38
       username: id1077446394
       name: Сергей Б
       avatar: store:/avatars/vk-5a7c7910.jpg
@@ -5078,7 +5078,7 @@ slavaisaykin:
   profiles:
     - service: vk
       id: '64157384'
-      updated: 2026-03-16-11-02-19
+      updated: 2026-03-20-22-35-34
       username: slavaisaykin
       name: Слава Исайкин
       avatar: store:/avatars/vk-f145c72b.jpg
@@ -6253,7 +6253,7 @@ vladislav-lomin:
   profiles:
     - service: vk
       id: '504964620'
-      updated: 2026-03-20-21-36-44
+      updated: 2026-03-20-22-35-28
       username: id504964620
       name: Владислав Ломин
       avatar: store:/avatars/vk-39034114.jpg
