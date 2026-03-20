@@ -4,40 +4,48 @@ import type { Accessor, Component, JSX, Resource } from 'solid-js';
 import { createContext, createMemo, createResource, createSignal, useContext } from 'solid-js';
 import { dataPatchToString, getDataPatchName, stringToDataPatch } from '../../../core/entities/data-patch.js';
 import type { Upload } from '../../../core/entities/upload.js';
+import { dataPatchIssue } from '../../../core/github-issues/data-patch-issue.js';
+import { site } from '../../../core/services/site.js';
+import { sleep } from '../../../core/utils/common-utils.js';
 import { stripCommonExtension } from '../../../core/utils/string-utils.js';
 import { dataManager } from '../../data-managers/manager.js';
 import { getResourceDataUrl } from '../../data-managers/resources.js';
 import { getUploads, uploadFiles } from '../../data-managers/uploads.js';
 import { useLocalPatch } from '../../hooks/useLocalPatch.js';
+import { DataPatchPreviewDialog } from '../DataPatchPreviewDialog/DataPatchPreviewDialog.jsx';
+import type { DataPatchSaveParams } from '../DataPatchSaveDialog/DataPatchSaveDialog.jsx';
+import { DataPatchSaveDialog } from '../DataPatchSaveDialog/DataPatchSaveDialog.jsx';
 import { Toast, useToaster } from '../Toaster/Toaster.jsx';
 
-export interface PatchManagerContext {
+export interface DataPatchManagerContext {
   saveLocalPatch: () => Promise<boolean>;
   clearLocalPatch: () => Promise<boolean>;
   exportLocalPatch: () => Promise<boolean>;
   importLocalPatch: (file: File[]) => Promise<boolean>;
   copyLocalPatch: () => boolean;
-  loadPatch: (name: string) => Promise<boolean>;
+  submitSelectedPatch: () => Promise<boolean>;
+  sharePatch: (meta: Upload) => Promise<boolean>;
+  loadPatch: (name: string, skipPatchPreview?: boolean) => Promise<boolean>;
   patches: Resource<Map<string, Upload>>;
   selectedPatch: Accessor<Upload | undefined>;
 }
 
-export const PatchManagerContext = createContext<PatchManagerContext>();
+export const DataPatchManagerContext = createContext<DataPatchManagerContext>();
 
-export const usePatchManager = () => {
-  const context = useContext(PatchManagerContext);
+export const useDataPatchManager = () => {
+  const context = useContext(DataPatchManagerContext);
   if (!context) {
-    throw new Error('usePatchManager must be used within a PatchManager provider');
+    throw new Error('useDataPatchManager must be used within a DataPatchManager provider');
   }
   return context;
 };
 
-export interface PatchManagerProps {
+export interface DataPatchManagerProps {
   children?: JSX.Element;
 }
 
-export const PatchManager: Component<PatchManagerProps> = (props) => {
-  const { addToast, messageBox, inputBox } = useToaster();
+export const DataPatchManager: Component<DataPatchManagerProps> = (props) => {
+  const { addToast, messageBox, modal } = useToaster();
 
   const [localPatchSize, localPatchName] = useLocalPatch();
   const [processingMessage, setProcessingMessage] = createSignal<string>();
@@ -54,14 +62,20 @@ export const PatchManager: Component<PatchManagerProps> = (props) => {
     return patches()?.get(name);
   });
 
-  const loadPatch = async (name: string) => {
+  const loadPatch = async (name: string, skipPatchPreview?: boolean) => {
     const uploads = patches();
     if (!uploads) {
       return false;
     }
 
+    if (name === localPatchName()) {
+      await messageBox(`Patch "${stripCommonExtension(selectedPatch()!.originalName)}" is already loaded.`, ['OK']);
+      return true;
+    }
+
     const upload = uploads.get(name);
     if (!upload) {
+      await messageBox(`Patch "${name}" is wrong or has expired.`, ['OK']);
       return false;
     }
 
@@ -76,15 +90,32 @@ export const PatchManager: Component<PatchManagerProps> = (props) => {
 
       setProcessingMessage(undefined);
 
+      if (!skipPatchPreview) {
+        const confirmed = await modal((resolve) => (
+          <DataPatchPreviewDialog
+            onClose={() => resolve(false)}
+            onApply={() => resolve(true)}
+            meta={upload}
+            patch={data}
+            show
+          />
+        ));
+
+        if (!confirmed) {
+          return false;
+        }
+      }
+
       if (!(await confirmClearingLocalPatch())) {
         return false;
       }
 
-      setProcessingMessage(`Loading patch "${title}"`);
+      setProcessingMessage(`Applying patch "${title}"`);
+
+      // Ensure to show message before blocking `replacePatch`
+      await sleep(50);
 
       dataManager.replacePatch(data);
-
-      setProcessingMessage(undefined);
 
       return true;
     } catch (error) {
@@ -107,20 +138,22 @@ export const PatchManager: Component<PatchManagerProps> = (props) => {
       return false;
     }
 
-    const title = await inputBox('Patch Name');
-    if (!title) {
+    const params = await modal<DataPatchSaveParams | undefined>((resolve) => (
+      <DataPatchSaveDialog onClose={() => resolve(undefined)} onConfirm={resolve} show />
+    ));
+    if (!params?.title) {
       return false;
     }
 
     const patch = dataManager.getPatch();
     const data = dataPatchToString(patch, true);
     const blob = new Blob([data], { type: 'application/json' });
-    const file = new File([blob], `${title}.json`);
+    const file = new File([blob], `${params.title}.json`);
 
     try {
-      setProcessingMessage(`Saving patch "${title}"`);
+      setProcessingMessage(`Saving patch "${params.title}"`);
 
-      const result = await uploadFiles([file]);
+      const result = await uploadFiles([file], params.author);
 
       for (const error of result.errors) {
         addToast(error);
@@ -131,7 +164,7 @@ export const PatchManager: Component<PatchManagerProps> = (props) => {
       return true;
     } catch (error) {
       const message = error instanceof Error ? error.message : `${error}`;
-      addToast(`Failed to save patch "${title}": ${message}`);
+      addToast(`Failed to save patch "${params.title}": ${message}`);
     } finally {
       setProcessingMessage(undefined);
     }
@@ -253,8 +286,61 @@ export const PatchManager: Component<PatchManagerProps> = (props) => {
     return true;
   };
 
+  const sharePatch = async (meta: Upload) => {
+    const url = site.getDataPatchSharingUrl(meta);
+
+    try {
+      // Try to use Web Share API
+      if (!navigator.share) {
+        throw new Error('Web Share API is not supported');
+      }
+
+      await navigator.share({
+        title: stripCommonExtension(meta.originalName),
+        text: `Check out this data patch: ${url}`,
+        url,
+      });
+
+      return true;
+    } catch (error) {
+      if (error instanceof Error && error.name !== 'AbortError') {
+        // If Web Share API does not work (not cancelled by user), copy link to clipboard
+        await writeClipboard(url);
+        addToast('Share link copied to clipboard');
+        return true;
+      }
+    }
+
+    return false;
+  };
+
+  const submitSelectedPatch = async () => {
+    if (localPatchSize() === 0) {
+      addToast('No edits to submit.');
+      return false;
+    }
+
+    let url = dataPatchIssue.createIssueUrl(dataManager.getPatch(), selectedPatch());
+    if (!url) {
+      if (!(await saveLocalPatch())) {
+        return false;
+      }
+      url = dataPatchIssue.createIssueUrl(dataManager.getPatch(), selectedPatch());
+    }
+
+    if (url) {
+      window.open(url, '_blank');
+      addToast('Github Issue creation page opened.');
+      clearLocalPatch();
+      return true;
+    }
+    addToast('Failed to generate Github Issue creation url.');
+
+    return false;
+  };
+
   return (
-    <PatchManagerContext.Provider
+    <DataPatchManagerContext.Provider
       value={{
         patches,
         selectedPatch,
@@ -264,11 +350,13 @@ export const PatchManager: Component<PatchManagerProps> = (props) => {
         exportLocalPatch,
         importLocalPatch,
         copyLocalPatch,
+        submitSelectedPatch,
+        sharePatch,
       }}
     >
       <Toast message={processingMessage() ?? ''} show={Boolean(processingMessage())} loading />
 
       {props.children}
-    </PatchManagerContext.Provider>
+    </DataPatchManagerContext.Provider>
   );
 };

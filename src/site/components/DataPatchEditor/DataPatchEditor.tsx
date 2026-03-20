@@ -1,28 +1,24 @@
+import { writeClipboard } from '@solid-primitives/clipboard';
 import type { UploadFile } from '@solid-primitives/upload';
 import { createDropzone, createFileUploader } from '@solid-primitives/upload';
 import clsx from 'clsx';
 import type { Component } from 'solid-js';
 import { createSignal, Show } from 'solid-js';
-import { dataPatchToString, getDataPatchName } from '../../../core/entities/data-patch.js';
 import { ANY_OPTION, ORIGINAL_OPTION } from '../../../core/entities/option.js';
-import { dataPatchIssue } from '../../../core/github-issues/data-patch-issue.js';
-import { email } from '../../../core/services/email.js';
+import { site } from '../../../core/services/site.js';
 import { formatDate, formatTime } from '../../../core/utils/date-utils.js';
 import { stripCommonExtension } from '../../../core/utils/string-utils.js';
 import { dataManager } from '../../data-managers/manager.js';
-import { getResourceDataUrl } from '../../data-managers/resources.js';
-import { uploadFiles } from '../../data-managers/uploads.js';
 import { useLocalPatch } from '../../hooks/useLocalPatch.js';
 import { postsRoute } from '../../routes/posts-route.js';
 import { usersRoute } from '../../routes/users-route.js';
 import { Button } from '../Button/Button.jsx';
+import { useDataPatchManager } from '../DataPatchManager/DataPatchManager.jsx';
 import { DataPatchTooltip } from '../DataPatchTooltip/DataPatchTooltip.jsx';
 import { createDetachedDialogFragment } from '../DetachedDialogsProvider/DetachedDialogsProvider.jsx';
 import { Frame } from '../Frame/Frame.jsx';
 import { Input } from '../Input/Input.jsx';
 import { OptionSelectDialog } from '../OptionSelectDialog/OptionSelectDialog.jsx';
-import { usePatchManager } from '../PatchManager/PatchManager.jsx';
-// import { Select } from '../Select/Select.jsx';
 import type { TableRow } from '../Table/Table.jsx';
 import { Table } from '../Table/Table.jsx';
 import { useToaster } from '../Toaster/Toaster.jsx';
@@ -30,6 +26,7 @@ import styles from './DataPatchEditor.module.css';
 
 export interface DataPatchEditorProps {
   class?: string;
+  patchName?: string;
 }
 
 export const DataPatchEditor: Component<DataPatchEditorProps> = (props) => {
@@ -45,7 +42,9 @@ export const DataPatchEditor: Component<DataPatchEditorProps> = (props) => {
     exportLocalPatch,
     importLocalPatch,
     copyLocalPatch,
-  } = usePatchManager();
+    submitSelectedPatch,
+    sharePatch,
+  } = useDataPatchManager();
 
   const processUploadFiles = async (items: UploadFile[]) => {
     await importLocalPatch(items.map((item) => item.file));
@@ -55,60 +54,6 @@ export const DataPatchEditor: Component<DataPatchEditorProps> = (props) => {
   const { setRef: dropzoneRef } = createDropzone({ onDrop: processUploadFiles });
 
   const [rows, setRows] = createSignal<TableRow[]>([]);
-  const [submitVariant, _setSubmitVariant] = createSignal<'github-issue' | 'email'>('github-issue');
-
-  const handleSubmit = async () => {
-    if (patchSize() === 0) {
-      addToast('No edits to send.');
-      return;
-    }
-
-    const patch = dataManager.getPatch();
-    const data = dataPatchToString(patch, true);
-    const filename = getDataPatchName(patch);
-
-    if (!filename) {
-      addToast('No edits to send.');
-      return;
-    }
-
-    const blob = new Blob([data], { type: 'application/json' });
-    const file = new File([blob], filename);
-    const result = await uploadFiles([file]);
-
-    if (result.errors.length > 0) {
-      for (const error of result.errors) {
-        addToast(error);
-      }
-
-      return;
-    }
-
-    const upload = result.uploads[0];
-    if (!upload) {
-      addToast('Unknown error while uploading edits.');
-      return;
-    }
-
-    let url;
-
-    const action = submitVariant();
-    switch (action) {
-      case 'github-issue':
-        url = dataPatchIssue.createIssueUrl(url);
-        break;
-      case 'email':
-        url = email.getUserMessagingUrl('me@dehero.site', { subject: filename, body: getResourceDataUrl(upload.url) });
-        break;
-      default:
-        return undefined;
-    }
-
-    window.open(url, '_blank');
-
-    // submitButtonProps()?.onClick?.();
-    // handleClose();
-  };
 
   const handleImport = async () => {
     selectFiles(processUploadFiles);
@@ -118,12 +63,12 @@ export const DataPatchEditor: Component<DataPatchEditorProps> = (props) => {
     setShowLoadDialog(true);
   };
 
-  const handleLoadConfirm = async (name: string | undefined) => {
+  const handleLoadConfirm = (name: string | undefined) => {
     setShowLoadDialog(false);
     if (name) {
-      await loadPatch(name);
+      loadPatch(name, true);
     } else {
-      await clearLocalPatch();
+      clearLocalPatch();
     }
   };
 
@@ -146,21 +91,33 @@ export const DataPatchEditor: Component<DataPatchEditorProps> = (props) => {
       },
     ]);
 
-  const handleShare = async () => {
-    if (patchSize() === 0) {
+  const handleShare = async (e: Event) => {
+    e.preventDefault();
+
+    if (localPatchSize() === 0) {
       addToast('No edits to share.');
       return;
     }
 
-    if (!selectedPatch()) {
-      addToast('Save local edits before sharing!');
+    if (!selectedPatch() && !(await saveLocalPatch())) {
       return;
     }
 
-    handleSubmit();
+    sharePatch(selectedPatch()!);
   };
 
-  const [patchSize, patchName] = useLocalPatch(handlePatchChange);
+  const handleCopyName = async () => {
+    const name = localPatchName();
+    if (!name) {
+      addToast('No name to copy.');
+      return;
+    }
+
+    writeClipboard(name);
+    addToast('Patch name copied to clipboard');
+  };
+
+  const [localPatchSize, localPatchName] = useLocalPatch(handlePatchChange);
 
   return (
     <>
@@ -168,7 +125,7 @@ export const DataPatchEditor: Component<DataPatchEditorProps> = (props) => {
         <Button onClick={handleLoad}>
           {selectedPatch()
             ? stripCommonExtension(selectedPatch()!.originalName)
-            : patchSize() > 0
+            : localPatchSize() > 0
               ? 'Local Edits*'
               : ORIGINAL_OPTION.label}
         </Button>
@@ -210,27 +167,28 @@ export const DataPatchEditor: Component<DataPatchEditorProps> = (props) => {
         </div>
 
         <Frame class={styles.tableWrapper} ref={dropzoneRef}>
-          <Show when={patchSize() > 0} fallback={<span class={styles.fallback}>No edits</span>}>
-            <Table label="Edits" value={patchSize()} rows={rows()} />
+          <Show when={localPatchSize() > 0} fallback={<span class={styles.fallback}>No edits</span>}>
+            <Table label="Edits" value={localPatchSize()} rows={rows()} />
           </Show>
         </Frame>
 
-        <div class={styles.share}>
-          <Input value={patchSize() > 0 ? `${patchName()}${!selectedPatch() ? '*' : ''}` : ''} />
+        <div class={styles.name}>
+          <Input value={localPatchSize() > 0 ? `${localPatchName()}${!selectedPatch() ? '*' : ''}` : ''} readonly />
 
-          <Button onClick={saveLocalPatch}>Save</Button>
-          <Button onClick={handleShare}>Share</Button>
+          <Button onClick={handleCopyName}>Copy</Button>
         </div>
 
-        {/* <Select
-          options={[
-            { label: 'Create GitHub Issue', value: 'github-issue' },
-            { label: 'Send via email', value: 'email' },
-          ]}
-          value={submitVariant()}
-          onChange={setSubmitVariant}
-          class={styles.submitVariant}
-        /> */}
+        <div class={styles.toolbar}>
+          <Button onClick={saveLocalPatch}>Save</Button>
+          <Button
+            onClick={handleShare}
+            href={selectedPatch() ? site.getDataPatchSharingUrl(selectedPatch()!) : undefined}
+            target="_blank"
+          >
+            Share
+          </Button>
+          <Button onClick={submitSelectedPatch}>Submit</Button>
+        </div>
       </div>
 
       <OptionSelectDialog
@@ -245,16 +203,9 @@ export const DataPatchEditor: Component<DataPatchEditorProps> = (props) => {
             value,
           })),
         ]}
-        value={patchName()}
+        value={localPatchName()}
         optionTooltip={(value, forRef) => {
-          if (!value) {
-            return;
-          }
-
-          const patch = patches()?.get(value);
-          if (!patch) {
-            return;
-          }
+          const patch = value ? patches()?.get(value) : undefined;
 
           return <DataPatchTooltip patch={patch} forRef={forRef} />;
         }}

@@ -1,4 +1,4 @@
-import { type Component, splitProps } from 'solid-js';
+import { type Component, Show, splitProps } from 'solid-js';
 import type { Upload } from '../../../core/entities/upload.js';
 import { formatDate, formatTime } from '../../../core/utils/date-utils.js';
 import { stripCommonExtension } from '../../../core/utils/string-utils.js';
@@ -8,7 +8,7 @@ import { Tooltip } from '../Tooltip/Tooltip.jsx';
 import styles from './DataPatchTooltip.module.css';
 
 interface DataPatchTooltipProps extends Omit<TooltipProps, 'children'> {
-  patch: Upload;
+  patch: Upload | undefined;
 }
 
 export const DataPatchTooltip: Component<DataPatchTooltipProps> = (props) => {
@@ -16,16 +16,22 @@ export const DataPatchTooltip: Component<DataPatchTooltipProps> = (props) => {
 
   return (
     <Tooltip {...rest}>
-      <span class={styles.title}>{stripCommonExtension(local.patch.originalName)}</span>
-      <span>Size: {local.patch.size}B</span>
-      <span>
-        Uploaded: {formatDate(local.patch.uploaded)}, {formatTime(local.patch.uploaded, true)}
-      </span>
-      <span>
-        Expires: {formatDate(local.patch.expires)}, {formatTime(local.patch.expires, true)}
-      </span>
-      <Divider class={styles.divider} />
-      <span>{local.patch.name}</span>
+      <Show when={local.patch} fallback={'No patch'}>
+        {(patch) => (
+          <>
+            <span class={styles.title}>{stripCommonExtension(patch().originalName)}</span>
+            <span>Size: {patch().size}B</span>
+            <span>
+              Uploaded: {formatDate(patch().uploaded)}, {formatTime(patch().uploaded, true)}
+            </span>
+            <span>
+              Expires: {formatDate(patch().expires)}, {formatTime(patch().expires, true)}
+            </span>
+            <Divider class={styles.divider} />
+            <span>{patch().name}</span>
+          </>
+        )}
+      </Show>
     </Tooltip>
   );
 };

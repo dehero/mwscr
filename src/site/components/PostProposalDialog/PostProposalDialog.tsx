@@ -7,6 +7,7 @@ import type { ImportVariant } from '../../../core/entities/import-variant.js';
 import { PostTitle, PostTitleRu, PostViolation, postViolationDescriptors } from '../../../core/entities/post.js';
 import type { PostInfo } from '../../../core/entities/post-info.js';
 import { ImageResourceExtension } from '../../../core/entities/resource.js';
+import { safeParseSchema } from '../../../core/entities/schema.js';
 import type { TopicInfo } from '../../../core/entities/topic-info.js';
 import { USER_UNKNOWN } from '../../../core/entities/user.js';
 import { postProposalIssue } from '../../../core/github-issues/post-proposal-issue.js';
@@ -31,7 +32,6 @@ import { useToaster } from '../Toaster/Toaster.jsx';
 import { TopicTooltip } from '../TopicTooltip/TopicTooltip.jsx';
 import { UploadReportDialog } from '../UploadReportDialog/UploadReportDialog.jsx';
 import styles from './PostProposalDialog.module.css';
-import { safeParseSchema } from '../../../core/entities/schema.js';
 
 const importVariants = importFormatsRaw as Record<string, ImportVariant>;
 
