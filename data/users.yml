@@ -601,7 +601,7 @@ arya-stark:
   profiles:
     - service: vk
       id: '820702664'
-      updated: 2026-03-19-22-35-58
+      updated: 2026-03-20-02-34-45
       username: id820702664
       name: Арья Старк
       avatar: store:/avatars/vk-689aa89d.jpg
@@ -1402,7 +1402,7 @@ dehero:
     - type: channel
       service: vk
       id: '138249959'
-      updated: 2026-03-19-23-35-55
+      updated: 2026-03-20-02-34-36
       username: mwscr
       name: Morrowind Screenshots
       avatar: store:/avatars/vk-8e97fd4f.jpg
@@ -2243,7 +2243,7 @@ goosevich76:
   profiles:
     - service: tg
       id: '5385620621'
-      updated: 2026-03-19-19-10-12
+      updated: 2026-03-20-02-34-38
       accessHash: '-7130473396589324830'
       username: horwwwaty
       name: choven
@@ -2678,7 +2678,7 @@ ivan-uralov:
   profiles:
     - service: vk
       id: '16497155'
-      updated: 2026-03-19-23-35-55
+      updated: 2026-03-20-02-34-36
       username: id16497155
       name: Иван Уралов
       avatar: store:/avatars/vk-51775759.jpg
@@ -2966,7 +2966,7 @@ kevy-c:
   profiles:
     - service: tg
       id: '5067683234'
-      updated: 2026-03-19-22-35-49
+      updated: 2026-03-20-02-34-42
       accessHash: '-903667913374325979'
       username: Kevy_c
       name: Dash
@@ -2991,7 +2991,7 @@ kirillmanyukov:
   profiles:
     - service: vk
       id: '80137875'
-      updated: 2026-03-13-02-34-06
+      updated: 2026-03-20-02-34-40
       username: kirillmanyukov
       name: Кирилл Манюков
       avatar: store:/avatars/vk-b5b51945.jpg
@@ -4443,7 +4443,7 @@ porsankka666:
   profiles:
     - service: vk
       id: '320093421'
-      updated: 2026-03-19-19-07-34
+      updated: 2026-03-20-02-34-45
       username: porsankka666
       name: Дмитрий Иванов-Соломин
       avatar: store:/avatars/vk-353569aa.jpg
@@ -4615,7 +4615,7 @@ reanimatrix:
   profiles:
     - service: tg
       id: '5221327246'
-      updated: 2026-03-13-02-34-02
+      updated: 2026-03-20-02-34-37
       accessHash: '2760022429796079203'
       name: reanimatrix
 redoranar:
@@ -4899,7 +4899,7 @@ self-creating:
   profiles:
     - service: vk
       id: '50058433'
-      updated: 2026-03-15-11-56-15
+      updated: 2026-03-20-02-34-45
       username: self_creating
       name: Антон Коненков
       avatar: store:/avatars/vk-ef1ee023.jpg
@@ -4931,7 +4931,7 @@ sergey-b-2:
   profiles:
     - service: vk
       id: '1077446394'
-      updated: 2026-03-19-20-46-08
+      updated: 2026-03-20-02-34-46
       username: id1077446394
       name: Сергей Б
       avatar: store:/avatars/vk-5a7c7910.jpg

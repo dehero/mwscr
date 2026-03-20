@@ -314,18 +314,19 @@
     - service: vk
       id: 3192
       published: 2026-03-19-19-15-16
-      updated: 2026-03-19-23-35-45
+      updated: 2026-03-20-02-34-28
       followers: 1621
-      likes: 24
-      views: 160
+      likes: 27
+      views: 182
       reposts: 2
     - service: tg
       id: 1187
       published: 2026-03-19-19-15-22
-      updated: 2026-03-19-23-35-46
+      updated: 2026-03-20-02-34-34
       followers: 895
-      likes: 34
-      views: 128
+      likes: 35
+      views: 137
+      comments: !c CwuAkZPLQnnQkPcGAACma2V2eS1jpPCfpoAD
     - service: mx
       id: '1773947726106'
       published: 2026-03-19-19-15-26
@@ -334,9 +335,9 @@
       id: DWFHzmljP-z
       mediaId: '18052075139499267'
       published: 2026-03-19-20-49-56
-      updated: 2026-03-19-23-35-50
+      updated: 2026-03-20-02-34-32
       followers: 1617
-      likes: 28
+      likes: 32
 2016-11-22-lord-gothren:
   title: Lord Gothren
   titleRu: Лорд Готрен
@@ -1067,24 +1068,24 @@
       id: DUYw7ehDRa7
       mediaId: '17968087824001850'
       published: 2026-02-05-18-52-02
-      updated: 2026-03-13-02-34-12
+      updated: 2026-03-20-02-34-35
       followers: 1606
       likes: 52
     - service: vk
       id: 3066
       published: 2026-02-05-18-52-08
-      updated: 2026-03-13-02-34-08
+      updated: 2026-03-20-02-34-42
       followers: 1598
-      likes: 57
-      views: 487
+      likes: 58
+      views: 499
       reposts: 1
     - service: tg
       id: 1142
       published: 2026-02-05-18-52-11
-      updated: 2026-03-13-02-34-06
+      updated: 2026-03-20-02-34-40
       followers: 889
       likes: 71
-      views: 876
+      views: 888
       comments: !c CwuAkZPLQnnC9F6ggACma2V2eS1jpPCfpoAD
 2016-12-07-nchuleft-ruin:
   title: Nchuleft Ruin
