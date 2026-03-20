@@ -524,9 +524,10 @@
     - service: vk
       id: 3025
       published: 2026-01-23-18-33-39
-      updated: 2026-03-13-23-35-21
+      updated: 2026-03-20-23-35-35
       followers: 1583
-      views: 857
+      likes: 65
+      views: 862
     - service: tg
       id: 1129
       published: 2026-01-23-18-33-43
