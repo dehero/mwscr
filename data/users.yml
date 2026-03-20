@@ -1402,7 +1402,7 @@ dehero:
     - type: channel
       service: vk
       id: '138249959'
-      updated: 2026-03-20-14-53-22
+      updated: 2026-03-20-15-51-09
       username: mwscr
       name: Morrowind Screenshots
       avatar: store:/avatars/vk-8e97fd4f.jpg
@@ -2185,7 +2185,7 @@ gleb-zheltuhin:
   profiles:
     - service: vk
       id: '29014473'
-      updated: 2026-03-19-20-46-08
+      updated: 2026-03-20-15-51-11
       username: gleb_zheltuhin
       name: Глеб Желтухин
       avatar: store:/avatars/vk-971eefc1.jpg
@@ -2678,7 +2678,7 @@ ivan-uralov:
   profiles:
     - service: vk
       id: '16497155'
-      updated: 2026-03-20-14-53-22
+      updated: 2026-03-20-15-51-10
       username: id16497155
       name: Иван Уралов
       avatar: store:/avatars/vk-51775759.jpg
@@ -2966,7 +2966,7 @@ kevy-c:
   profiles:
     - service: tg
       id: '5067683234'
-      updated: 2026-03-20-14-53-21
+      updated: 2026-03-20-15-51-08
       accessHash: '-903667913374325979'
       username: Kevy_c
       name: Dash
@@ -4239,7 +4239,7 @@ painkiller1986:
   profiles:
     - service: tg
       id: '6565289507'
-      updated: 2026-03-19-19-07-31
+      updated: 2026-03-20-15-51-09
       accessHash: '6198356028119192921'
       username: Painkiller1986
       name: Сумерки
@@ -4931,7 +4931,7 @@ sergey-b-2:
   profiles:
     - service: vk
       id: '1077446394'
-      updated: 2026-03-20-02-34-46
+      updated: 2026-03-20-15-51-11
       username: id1077446394
       name: Сергей Б
       avatar: store:/avatars/vk-5a7c7910.jpg
@@ -6253,7 +6253,7 @@ vladislav-lomin:
   profiles:
     - service: vk
       id: '504964620'
-      updated: 2026-03-20-14-53-20
+      updated: 2026-03-20-15-51-07
       username: id504964620
       name: Владислав Ломин
       avatar: store:/avatars/vk-39034114.jpg
