@@ -487,7 +487,7 @@ ansis:
   profiles:
     - service: tg
       id: '517050552'
-      updated: 2026-03-20-19-41-48
+      updated: 2026-03-20-21-36-40
       accessHash: '5231096655311395455'
       username: ansis
       name: ansis
@@ -2185,7 +2185,7 @@ gleb-zheltuhin:
   profiles:
     - service: vk
       id: '29014473'
-      updated: 2026-03-20-15-51-11
+      updated: 2026-03-20-21-36-48
       username: gleb_zheltuhin
       name: Глеб Желтухин
       avatar: store:/avatars/vk-971eefc1.jpg
@@ -2678,7 +2678,7 @@ ivan-uralov:
   profiles:
     - service: vk
       id: '16497155'
-      updated: 2026-03-20-18-58-55
+      updated: 2026-03-20-21-36-47
       username: id16497155
       name: Иван Уралов
       avatar: store:/avatars/vk-51775759.jpg
@@ -2966,7 +2966,7 @@ kevy-c:
   profiles:
     - service: tg
       id: '5067683234'
-      updated: 2026-03-20-20-40-18
+      updated: 2026-03-20-21-36-46
       accessHash: '-903667913374325979'
       username: Kevy_c
       name: Dash
@@ -3041,7 +3041,7 @@ konstantin-matrosov:
   profiles:
     - service: vk
       id: '93073669'
-      updated: 2026-03-19-20-46-08
+      updated: 2026-03-20-21-36-48
       username: id93073669
       name: Константин Матросов
       avatar: store:/avatars/vk-81f32c7d.jpg
@@ -4931,7 +4931,7 @@ sergey-b-2:
   profiles:
     - service: vk
       id: '1077446394'
-      updated: 2026-03-20-15-51-11
+      updated: 2026-03-20-21-36-47
       username: id1077446394
       name: Сергей Б
       avatar: store:/avatars/vk-5a7c7910.jpg
@@ -6253,7 +6253,7 @@ vladislav-lomin:
   profiles:
     - service: vk
       id: '504964620'
-      updated: 2026-03-20-20-40-17
+      updated: 2026-03-20-21-36-44
       username: id504964620
       name: Владислав Ломин
       avatar: store:/avatars/vk-39034114.jpg

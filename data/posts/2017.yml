@@ -3536,16 +3536,16 @@
       id: DV9OpqrDMCv
       mediaId: '17996853848747241'
       published: 2026-03-16-19-15-47
-      updated: 2026-03-19-20-45-59
+      updated: 2026-03-20-21-36-39
       followers: 1617
-      likes: 54
+      likes: 57
     - service: vk
       id: 3181
       published: 2026-03-16-19-15-54
-      updated: 2026-03-19-20-46-09
+      updated: 2026-03-20-21-36-48
       followers: 1619
-      likes: 74
-      views: 552
+      likes: 80
+      views: 627
       reposts: 7
       comments: !c |-
         G3sCwJwFdnvKw2DgZrdMYQ0Qz3/cm9/Xl9+2njIeo1pAAr4TDEjpgvVckVBU2wihJUISAgaHcGX3
@@ -3558,10 +3558,11 @@
     - service: tg
       id: 1184
       published: 2026-03-16-19-16-00
-      updated: 2026-03-19-20-45-55
+      updated: 2026-03-20-21-36-42
       followers: 893
-      likes: 50
-      views: 246
+      likes: 52
+      views: 279
+      comments: !c CwuAkZPLQnnQkPm1gACma2V2eS1jpPCfpoAD
     - service: mx
       id: '1773688564720'
       published: 2026-03-16-19-16-04
