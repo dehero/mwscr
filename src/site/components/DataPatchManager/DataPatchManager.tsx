@@ -189,6 +189,10 @@ export const DataPatchManager: Component<DataPatchManagerProps> = (props) => {
     }
 
     setProcessingMessage(`Clearing local edits`);
+
+    // Ensure to show message before blocking `clearPatchPatch`
+    await sleep(50);
+
     dataManager.clearPatch();
     setProcessingMessage(undefined);
 
@@ -313,7 +317,7 @@ export const DataPatchManager: Component<DataPatchManagerProps> = (props) => {
       if (error instanceof Error && error.name !== 'AbortError') {
         // If Web Share API does not work (not cancelled by user), copy link to clipboard
         await writeClipboard(url);
-        addToast('Share link copied to clipboard');
+        addToast('Share link copied to clipboard.');
         return true;
       }
     }
