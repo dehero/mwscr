@@ -8,7 +8,7 @@ export function useLocalPatch(
   const [patchSize, setPatchSize] = createSignal(0);
   const [patchName, setPatchName] = createSignal<string>();
 
-  const handlePatchChange = () => {
+  const handlePatchChange = async () => {
     const patchSize = dataManager.patchSize;
     const patchName = dataManager.patchName;
 
@@ -17,7 +17,7 @@ export function useLocalPatch(
       setPatchName(patchName);
     });
 
-    onPatchChange?.(patchSize, patchName);
+    requestAnimationFrame(() => onPatchChange?.(patchSize, patchName));
   };
 
   createEffect(() => {

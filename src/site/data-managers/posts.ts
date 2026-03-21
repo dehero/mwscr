@@ -63,7 +63,6 @@ export class SitePostsManager<TPost extends Post = Post> extends PostsManager<TP
   }
 
   updateLocalStorage() {
-    console.log('SET');
     setStorageItemWithEvent(localStorage, `${this.name}.patch`, this.patch ? JSON.stringify(this.patch) : null);
   }
 
