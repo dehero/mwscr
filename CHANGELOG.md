@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file.
 
+## [2.20.3](https://github.com/dehero/mwscr/compare/v2.20.2...v2.20.3) (2026-03-21)
+
+### Bug Fixes
+
+- **site:** make posts page properly update when switching between patches
+  ([9743949](https://github.com/dehero/mwscr/commit/97439490235e72a55a6f71b30c1cf2a911e8fdac))
+
 ## [2.20.2](https://github.com/dehero/mwscr/compare/v2.20.1...v2.20.2) (2026-03-21)
 
 ### Bug Fixes
