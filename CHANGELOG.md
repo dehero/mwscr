@@ -2,6 +2,15 @@
 
 All notable changes to this project will be documented in this file.
 
+## [2.20.2](https://github.com/dehero/mwscr/compare/v2.20.1...v2.20.2) (2026-03-21)
+
+### Bug Fixes
+
+- **site:** ensure to show data patch clearing message
+  ([feb5e1e](https://github.com/dehero/mwscr/commit/feb5e1e8fae50cea02be6eb1d4cec9b23839c26b))
+- **site:** remove link from data patch share text
+  ([f140083](https://github.com/dehero/mwscr/commit/f140083e3ef55d66a2b00dbb1a24532225d177bd))
+
 ## [2.20.1](https://github.com/dehero/mwscr/compare/v2.20.0...v2.20.1) (2026-03-20)
 
 ### Bug Fixes
