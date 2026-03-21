@@ -304,7 +304,7 @@ export const DataPatchManager: Component<DataPatchManagerProps> = (props) => {
 
       await navigator.share({
         title: stripCommonExtension(meta.originalName),
-        text: `Check out this data patch: ${url}`,
+        text: `Check out this data patch:`,
         url,
       });
 
