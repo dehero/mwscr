@@ -3257,10 +3257,10 @@
     - service: vk
       id: 3085
       published: 2026-02-13-18-49-37
-      updated: 2026-03-14-16-39-07
+      updated: 2026-03-21-17-31-30
       followers: 1601
-      likes: 63
-      views: 734
+      likes: 64
+      views: 746
       reposts: 1
       comments: !c |-
         G9IDQKwLuMNi4jdG0wn1+j1LL4PwaKsPxP8T97TlgMI3n9qZ9kviWV7AkZXYUuIr51KqKoPn+JD2
@@ -3275,18 +3275,18 @@
     - service: tg
       id: 1150
       published: 2026-02-13-18-49-43
-      updated: 2026-03-14-16-39-06
+      updated: 2026-03-21-17-31-29
       followers: 888
       likes: 67
-      views: 686
+      views: 699
       comments: !c CwuAkZPLQnnFhf/mAACma2V2eS1jpPCfpoAD
     - service: ig
       id: DUtdHwDF7wu
       mediaId: '17847339300661393'
       published: 2026-02-13-19-43-00
-      updated: 2026-03-14-16-39-08
+      updated: 2026-03-21-17-31-25
       followers: 1609
-      likes: 87
+      likes: 88
       comments: !c |-
         G4YAoOSe+3mER7jQCfyItA2jg/P5WmwgCRtw4BDYOMhAMPiC94Yzan2W689YeE5vCIAtwyqkptuG
         yNrHCGORHqtJHsZJhWEtEl/92ftYrD5j4SWxTwGsQHZqiD/xVXRY1HgFP8P5yS0O80/ClmEVUtNt

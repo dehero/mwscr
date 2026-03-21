@@ -487,7 +487,7 @@ ansis:
   profiles:
     - service: tg
       id: '517050552'
-      updated: 2026-03-21-16-37-41
+      updated: 2026-03-21-17-31-26
       accessHash: '5231096655311395455'
       username: ansis
       name: ansis
@@ -585,7 +585,7 @@ artyom-melikhoff:
   profiles:
     - service: vk
       id: '299405149'
-      updated: 2026-03-20-23-35-32
+      updated: 2026-03-21-17-31-28
       username: artyom_melikhoff
       name: Артём Мелихов
       avatar: store:/avatars/vk-5b2fd843.jpg
@@ -601,7 +601,7 @@ arya-stark:
   profiles:
     - service: vk
       id: '820702664'
-      updated: 2026-03-20-23-35-33
+      updated: 2026-03-21-17-31-28
       username: id820702664
       name: Арья Старк
       avatar: store:/avatars/vk-689aa89d.jpg
@@ -1402,7 +1402,7 @@ dehero:
     - type: channel
       service: vk
       id: '138249959'
-      updated: 2026-03-21-16-37-42
+      updated: 2026-03-21-17-31-26
       username: mwscr
       name: Morrowind Screenshots
       avatar: store:/avatars/vk-8e97fd4f.jpg
@@ -2966,7 +2966,7 @@ kevy-c:
   profiles:
     - service: tg
       id: '5067683234'
-      updated: 2026-03-21-16-37-43
+      updated: 2026-03-21-17-31-29
       accessHash: '-903667913374325979'
       username: Kevy_c
       name: Dash
@@ -4931,7 +4931,7 @@ sergey-b-2:
   profiles:
     - service: vk
       id: '1077446394'
-      updated: 2026-03-20-22-35-38
+      updated: 2026-03-21-17-31-29
       username: id1077446394
       name: Сергей Б
       avatar: store:/avatars/vk-5a7c7910.jpg
@@ -6253,7 +6253,7 @@ vladislav-lomin:
   profiles:
     - service: vk
       id: '504964620'
-      updated: 2026-03-21-16-37-42
+      updated: 2026-03-21-17-31-26
       username: id504964620
       name: Владислав Ломин
       avatar: store:/avatars/vk-39034114.jpg
