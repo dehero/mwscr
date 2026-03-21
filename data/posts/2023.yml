@@ -918,17 +918,17 @@
     - service: vk
       id: 3195
       published: 2026-03-20-19-02-38
-      updated: 2026-03-21-02-28-30
+      updated: 2026-03-21-04-42-05
       followers: 1622
-      likes: 14
-      views: 120
+      likes: 15
+      views: 136
     - service: tg
       id: 1188
       published: 2026-03-20-19-02-56
-      updated: 2026-03-21-02-28-37
+      updated: 2026-03-21-04-42-12
       followers: 895
-      likes: 26
-      views: 111
+      likes: 27
+      views: 114
       comments: !c ixWAkpPLQnnQ4TMQAACma2V2eS1jpPCfpoCTy0J50NHunYAApWFuc2lzpPCfqpQD
     - service: mx
       id: '1774033384976'
@@ -938,9 +938,9 @@
       id: DWHlOqkD4xS
       mediaId: '18153711574402266'
       published: 2026-03-20-19-45-30
-      updated: 2026-03-21-02-28-37
+      updated: 2026-03-21-04-42-11
       followers: 1617
-      likes: 24
+      likes: 28
 2023-09-17-stone-arches-by-darkness-rifho:
   title: Stone Arches
   titleRu: Каменные арки
