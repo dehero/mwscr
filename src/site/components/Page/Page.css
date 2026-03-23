@@ -24,8 +24,10 @@
   --size-panel-min-height: 200px;
   --color-loader-top: #00a0a3;
   --color-loader-bottom: #00a1a3;
-  font-family: MysticCards, serif;
-  font-size: 16px;
+  --font-family: MysticCards, serif;
+  --font-size: 16px;
+  font-family: var(--font-family);
+  font-size: var(--font-size);
   color-scheme: dark;
   scrollbar-color: var(--color-border) var(--color-background);
 }

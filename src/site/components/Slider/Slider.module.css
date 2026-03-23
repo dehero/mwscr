@@ -1,0 +1,129 @@
+.container {
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  gap: 3px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.hasLabels {
+  padding-bottom: 22px;
+}
+
+.slider {
+  appearance: none;
+  background: none;
+  height: 18px;
+  outline: none;
+  margin: 0;
+  box-sizing: border-box;
+  flex: 1 1 auto;
+  width: 100%;
+}
+
+.slider:focus {
+  outline: none;
+}
+
+/* WebKit (Chrome, Safari, Edge) */
+.slider::-webkit-slider-runnable-track {
+  height: 16px;
+}
+
+.slider::-webkit-slider-thumb {
+  appearance: none;
+  width: min(30px, max(13px, 10%));
+  height: 13px;
+  background: var(--color-text);
+  margin-top: 1px;
+}
+
+.slider::-webkit-slider-thumb:hover {
+  background: var(--color-text-light);
+}
+
+/* Firefox */
+.slider::-moz-range-track {
+  height: 16px;
+}
+
+.slider::-moz-range-thumb {
+  width: 30px;
+  height: 13px;
+  border: none;
+  background: var(--color-text);
+  margin-top: 1px;
+}
+
+.slider::-moz-range-thumb:hover {
+  background: var(--color-text-light);
+}
+
+.slider:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.slider:disabled::-webkit-slider-thumb {
+  cursor: not-allowed;
+}
+
+.slider:disabled::-moz-range-thumb {
+  cursor: not-allowed;
+}
+
+.increment,
+.decrement {
+  appearance: none;
+  display: block;
+  background: none;
+  width: 15px;
+  height: 18px;
+  flex: 0 0 auto;
+  box-sizing: border-box;
+  padding: 0;
+  position: relative;
+  font-family: var(--font-family);
+  font-size: var(--font-size);
+}
+
+.decrement:before,
+.increment:before {
+  content: '';
+  display: block;
+  width: 13px;
+  height: 10px;
+  background: none;
+  background-image: url(../../images/tick.png);
+  background-repeat: no-repeat;
+  margin-top: -2px;
+}
+
+.increment:before {
+  transform: rotate(-90deg);
+  margin-left: -1px;
+}
+
+.decrement:before {
+  transform: rotate(-90deg) scaleY(-1);
+  margin-left: -2px;
+}
+
+.buttonLabel {
+  position: absolute;
+  top: 100%;
+  display: block;
+  font-family: inherit;
+  font-size: inherit;
+  color: var(--color-text);
+  margin-top: 4px;
+}
+
+.increment > .buttonLabel {
+  right: -2px;
+}
+
+.decrement > .buttonLabel {
+  left: -2px;
+}
