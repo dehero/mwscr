@@ -12,6 +12,7 @@ export interface LabelProps {
   label?: string;
   vertical?: boolean;
   position?: 'start' | 'end';
+  active?: boolean;
 }
 
 export const Label: Component<LabelProps> = (props) => {
@@ -20,7 +21,7 @@ export const Label: Component<LabelProps> = (props) => {
   return (
     <Dynamic
       component={merged.component}
-      class={clsx(styles.container, props.vertical && styles.vertical, props.class)}
+      class={clsx(styles.container, props.vertical && styles.vertical, props.active && styles.active, props.class)}
     >
       <Show when={props.label && props.position !== 'end'}>
         <span class={clsx(styles.label, props.labelClass)}>{props.label}</span>
