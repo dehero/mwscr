@@ -410,7 +410,7 @@ andrew-art:
   profiles:
     - service: tg
       id: '449416259'
-      updated: 2026-02-23-10-06-47
+      updated: 2026-03-23-10-58-17
       accessHash: '3490877615553694787'
       username: andrew_art
       botChatId: 449416259
@@ -4165,7 +4165,7 @@ olmer-izdeyla:
   profiles:
     - service: tg
       id: '835160756'
-      updated: 2026-03-23-09-05-08
+      updated: 2026-03-23-10-58-02
       accessHash: '5779481472375422362'
       username: Olmer_Izdeyla
       name: Olmer Izdeyla
