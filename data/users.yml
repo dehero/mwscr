@@ -487,7 +487,7 @@ ansis:
   profiles:
     - service: tg
       id: '517050552'
-      updated: 2026-03-23-11-52-53
+      updated: 2026-03-23-19-09-20
       accessHash: '5231096655311395455'
       username: ansis
       name: ansis
@@ -1402,7 +1402,7 @@ dehero:
     - type: channel
       service: vk
       id: '138249959'
-      updated: 2026-03-22-19-32-05
+      updated: 2026-03-23-19-09-21
       username: mwscr
       name: Morrowind Screenshots
       avatar: store:/avatars/vk-8e97fd4f.jpg
@@ -2966,7 +2966,7 @@ kevy-c:
   profiles:
     - service: tg
       id: '5067683234'
-      updated: 2026-03-23-17-59-13
+      updated: 2026-03-23-19-09-22
       accessHash: '-903667913374325979'
       username: Kevy_c
       name: Dash
@@ -4165,7 +4165,7 @@ olmer-izdeyla:
   profiles:
     - service: tg
       id: '835160756'
-      updated: 2026-03-23-17-59-11
+      updated: 2026-03-23-19-09-18
       accessHash: '5779481472375422362'
       username: Olmer_Izdeyla
       name: Olmer Izdeyla
@@ -6252,7 +6252,7 @@ vladislav-lomin:
   profiles:
     - service: vk
       id: '504964620'
-      updated: 2026-03-22-18-46-28
+      updated: 2026-03-23-19-09-20
       username: id504964620
       name: Владислав Ломин
       avatar: store:/avatars/vk-39034114.jpg
