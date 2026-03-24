@@ -917,17 +917,17 @@
     - service: vk
       id: 3195
       published: 2026-03-20-19-02-38
-      updated: 2026-03-23-19-09-11
+      updated: 2026-03-24-19-12-52
       followers: 1622
-      likes: 36
-      views: 373
+      likes: 37
+      views: 383
     - service: tg
       id: 1188
       published: 2026-03-20-19-02-56
-      updated: 2026-03-23-19-09-21
+      updated: 2026-03-24-19-12-59
       followers: 895
-      likes: 46
-      views: 238
+      likes: 47
+      views: 285
       comments: !c ixWAkpPLQnnQ4TMQAACma2V2eS1jpPCfpoCTy0J50NHunYAApWFuc2lzpPCfqpQD
     - service: mx
       id: '1774033384976'
