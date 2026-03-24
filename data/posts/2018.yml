@@ -3220,24 +3220,28 @@
       id: DWPP24Rl19X
       mediaId: '17870707818581484'
       published: 2026-03-23-19-12-40
-      updated: 2026-03-24-17-06-57
+      updated: 2026-03-24-17-39-21
       followers: 1615
       likes: 51
     - service: vk
       id: 3199
       published: 2026-03-23-19-12-49
-      updated: 2026-03-24-17-06-51
+      updated: 2026-03-24-17-39-15
       followers: 1623
       likes: 20
-      views: 298
+      views: 302
       reposts: 4
     - service: tg
       id: 1191
       published: 2026-03-23-19-12-58
-      updated: 2026-03-24-17-06-55
+      updated: 2026-03-24-17-39-13
       followers: 897
       likes: 46
       views: 170
+    - service: mx
+      id: '1774374156896'
+      published: 2026-03-24-17-42-36
+      followers: 20
 2018-03-06-near-hlormaren:
   title: Near Hlormaren
   titleRu: У Хлормарена
@@ -7557,7 +7561,7 @@
   title: Mournhold Cactus
   titleRu: Морнхолдский кактус
   placement: Indoors
-  location: "Mournhold, Royal Palace: Guards' Quarters"
+  location: 'Mournhold, Royal Palace: Guards'' Quarters'
   content: store:/shots/2018-06-02-mournhold-cactus.png
   type: shot
   aspect: 1/1
@@ -7912,7 +7916,7 @@
   placement: Indoors
   location:
     - Imperial Prison Ship
-    - "Mournhold, Royal Palace: Barenziah's Chambers"
+    - 'Mournhold, Royal Palace: Barenziah''s Chambers'
     - Tower of Tel Fyr, Hall of Fyr
     - Seyda Neen, Census and Excise Office
   content:
@@ -15214,21 +15218,21 @@
       id: DWMolg2ACvv
       mediaId: '18572166175026696'
       published: 2026-03-22-18-51-06
-      updated: 2026-03-24-17-06-59
+      updated: 2026-03-24-17-39-23
       followers: 1617
       likes: 54
     - service: vk
       id: 3198
       published: 2026-03-22-18-51-40
-      updated: 2026-03-24-17-06-53
+      updated: 2026-03-24-17-39-17
       followers: 1624
       likes: 45
-      views: 359
+      views: 360
       reposts: 3
     - service: tg
       id: 1190
       published: 2026-03-22-18-52-15
-      updated: 2026-03-24-17-07-04
+      updated: 2026-03-24-17-39-30
       followers: 894
       likes: 46
       views: 223
@@ -16070,8 +16074,7 @@
   locating:
     date: 2026-02-14-20-32-23
     user: pyriglena
-    text:
-      Azura's Coast Region 13,12, the northern coast of the bigger island to the south of Tel Mora (north of Esutanamus)
+    text: Azura's Coast Region 13,12, the northern coast of the bigger island to the south of Tel Mora (north of Esutanamus)
   engine: OpenMW
   mark: B2
   posts:
