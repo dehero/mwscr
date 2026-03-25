@@ -22,6 +22,7 @@ export interface ResourcePreviewProps {
   alt?: string;
   frameState?: FrameState;
   alignCrop?: 'center' | 'top';
+  onEdit?: () => void;
 }
 
 export const ResourcePreview: Component<ResourcePreviewProps> = (props) => {
@@ -89,7 +90,13 @@ export const ResourcePreview: Component<ResourcePreviewProps> = (props) => {
             state={props.frameState}
           />
           <Show when={props.showTooltip}>
-            <Tooltip forRef={ref} actions={[{ label: 'Copy', onExecute: copyUrl }]}>
+            <Tooltip
+              forRef={ref}
+              actions={[
+                { label: 'Copy', onExecute: copyUrl },
+                ...(props.onEdit ? [{ label: 'Edit', onExecute: props.onEdit }] : []),
+              ]}
+            >
               {props.url}
             </Tooltip>
           </Show>
