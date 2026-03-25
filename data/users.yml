@@ -469,7 +469,7 @@ anonim:
   profiles:
     - service: tg
       id: '6469120788'
-      updated: 2026-03-25-20-46-48
+      updated: 2026-03-25-21-46-48
       accessHash: '-3557204299452739678'
       name: Аноним
       avatar: store:/avatars/tg-5258428988957332590.jpg
@@ -1402,7 +1402,7 @@ dehero:
     - type: channel
       service: vk
       id: '138249959'
-      updated: 2026-03-25-20-46-56
+      updated: 2026-03-25-21-46-50
       username: mwscr
       name: Morrowind Screenshots
       avatar: store:/avatars/vk-8e97fd4f.jpg
@@ -1752,7 +1752,7 @@ eidelelweise:
   profiles:
     - service: vk
       id: '451140204'
-      updated: 2026-03-25-20-46-50
+      updated: 2026-03-25-21-46-46
       username: eidelelweise
       name: Эйдель Элиас Вайс
       avatar: store:/avatars/vk-85124301.jpg
@@ -2678,7 +2678,7 @@ ivan-uralov:
   profiles:
     - service: vk
       id: '16497155'
-      updated: 2026-03-24-20-50-56
+      updated: 2026-03-25-21-46-57
       username: id16497155
       name: Иван Уралов
       avatar: store:/avatars/vk-51775759.jpg
@@ -2966,7 +2966,7 @@ kevy-c:
   profiles:
     - service: tg
       id: '5067683234'
-      updated: 2026-03-25-20-46-54
+      updated: 2026-03-25-21-46-54
       accessHash: '-903667913374325979'
       username: Kevy_c
       name: Dash
@@ -3806,7 +3806,7 @@ myndowen:
   profiles:
     - service: tg
       id: '720784420'
-      updated: 2026-03-25-20-46-46
+      updated: 2026-03-25-21-46-44
       accessHash: '4385662928393121475'
       username: myndowen
       name: Daniel Beilin
@@ -4237,7 +4237,7 @@ painkiller1986:
   profiles:
     - service: tg
       id: '6565289507'
-      updated: 2026-03-25-20-46-54
+      updated: 2026-03-25-21-46-54
       accessHash: '6198356028119192921'
       username: Painkiller1986
       name: Сумерки
@@ -4929,7 +4929,7 @@ sergey-b-2:
   profiles:
     - service: vk
       id: '1077446394'
-      updated: 2026-03-25-19-04-16
+      updated: 2026-03-25-21-46-55
       username: id1077446394
       name: Сергей Б
       avatar: store:/avatars/vk-4deb0770.jpg
@@ -4945,7 +4945,7 @@ sergey-venkov:
   profiles:
     - service: vk
       id: '217443112'
-      updated: 2026-03-22-11-30-50
+      updated: 2026-03-25-21-46-55
       username: id217443112
       name: Сергей Венков
       avatar: store:/avatars/vk-a77d1a73.jpg
