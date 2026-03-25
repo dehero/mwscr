@@ -3,12 +3,22 @@ import type { SiteRoute, SiteRouteParams } from '../../core/entities/site-route.
 import { errorRoute } from './error-route.js';
 import { helpRoute } from './help-route.js';
 import { homeRoute } from './home-route.js';
+import { imageEditorRoute } from './image-editor-route.js';
 import { postRoute } from './post-route.js';
 import { postsRoute } from './posts-route.js';
 import { userRoute } from './user-route.js';
 import { usersRoute } from './users-route.js';
 
-export const routes = [homeRoute, helpRoute, usersRoute, userRoute, postRoute, postsRoute, errorRoute];
+export const routes = [
+  homeRoute,
+  helpRoute,
+  usersRoute,
+  userRoute,
+  postRoute,
+  postsRoute,
+  imageEditorRoute,
+  errorRoute,
+];
 
 export interface RouteMatch {
   route: SiteRoute;
