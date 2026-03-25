@@ -1,0 +1,215 @@
+.editor {
+  display: grid;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  gap: 8px;
+  position: relative;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr var(--size-panel-min-height);
+  grid-template-areas: 'workspace' 'tools';
+}
+
+.toolbar {
+  display: flex;
+  flex-flow: row wrap;
+  gap: 4px;
+  align-items: baseline;
+}
+
+.divider {
+  margin: 4px 0 !important;
+}
+
+.tools {
+  display: flex;
+  flex-flow: column nowrap;
+  overflow-y: auto;
+  z-index: 100;
+  gap: 8px;
+  padding: 12px;
+  grid-area: tools;
+  overflow: auto;
+}
+
+.workspace {
+  flex: 1;
+  position: relative;
+  overflow: hidden;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  grid-area: workspace;
+}
+
+.actions,
+.header {
+  position: absolute;
+  margin: 0;
+  left: 0;
+  right: 0;
+  padding: 6px;
+  display: flex;
+  flex-flow: row wrap;
+  gap: 4px;
+  overflow: hidden;
+  align-items: center;
+  box-sizing: border-box;
+  z-index: 200;
+}
+
+.header {
+  top: 0;
+  justify-content: flex-start;
+}
+
+.actions {
+  bottom: 0;
+  justify-content: flex-end;
+}
+
+.imageName {
+  margin: 0;
+  color: var(--color-text-light);
+  text-shadow: 1px 1px 1px black;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  flex: 0 1 auto;
+  overflow: hidden;
+  margin: 0 4px;
+}
+
+.imageContainer {
+  position: relative;
+  line-height: 0;
+  box-shadow: 0 0 40px rgba(0, 0, 0, 0.5);
+  max-width: 100%;
+  max-height: 100%;
+  width: auto;
+  height: auto;
+  margin: auto; /* Автоматические отступы центрируют */
+  image-rendering: optimizeQuality;
+}
+
+.mainImage {
+  max-width: 100%;
+  max-height: 100%;
+  width: auto;
+  height: auto;
+  object-fit: contain;
+  display: block;
+}
+
+.cropBox {
+  position: absolute;
+  box-sizing: border-box;
+  cursor: move;
+  box-shadow: 0 0 0 5000px rgba(0, 0, 0, 0.7);
+  display: none;
+  z-index: 10;
+  border-color: var(--color-text);
+  border-style: solid;
+  border-image-repeat: repeat;
+  image-rendering: pixelated;
+  border-width: 2px;
+  border-image-source: url(../../images/frame-thin.png);
+  border-image-slice: 2;
+}
+
+.gridLine {
+  position: absolute;
+  background: rgba(255, 255, 255, 0.2);
+  pointer-events: none;
+}
+
+.verticalLine {
+  width: 1px;
+  top: 0;
+  bottom: 0;
+}
+
+.horizontalLine {
+  height: 1px;
+  left: 0;
+  right: 0;
+}
+
+.edge {
+  position: absolute;
+  z-index: 11;
+}
+
+.edgeNorth {
+  top: -10px;
+  left: 0;
+  right: 0;
+  height: 20px;
+  cursor: ns-resize;
+}
+
+.edgeSouth {
+  bottom: -10px;
+  left: 0;
+  right: 0;
+  height: 20px;
+  cursor: ns-resize;
+}
+
+.edgeEast {
+  right: -10px;
+  top: 0;
+  bottom: 0;
+  width: 20px;
+  cursor: ew-resize;
+}
+
+.edgeWest {
+  left: -10px;
+  top: 0;
+  bottom: 0;
+  width: 20px;
+  cursor: ew-resize;
+}
+
+/* Corner handles - invisible but with cursor changes */
+.corner {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  z-index: 11;
+  pointer-events: auto;
+  opacity: 0;
+}
+
+.cornerNorthWest {
+  top: -10px;
+  left: -10px;
+  cursor: nw-resize;
+}
+
+.cornerNorthEast {
+  top: -10px;
+  right: -10px;
+  cursor: ne-resize;
+}
+
+.cornerSouthWest {
+  bottom: -10px;
+  left: -10px;
+  cursor: sw-resize;
+}
+
+.cornerSouthEast {
+  bottom: -10px;
+  right: -10px;
+  cursor: se-resize;
+}
+
+@media only screen and (min-width: 812px) {
+  .editor {
+    grid-template-columns: 4fr minmax(var(--size-panel-min-width), 1fr);
+    grid-template-rows: 1fr;
+    grid-template-areas: 'workspace tools';
+  }
+}
