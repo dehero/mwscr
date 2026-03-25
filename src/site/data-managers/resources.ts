@@ -20,7 +20,7 @@ export function getVideoPosterUrl(url: string) {
 }
 
 export function getResourceDataUrl(url: string) {
-  return url.replace(/^store:\/(.*)/, '/previews/$1').replace(/^uploads:\/(.*)/, '/uploads/$1');
+  return url.replace(/^store:\/(.*)/, '/store/$1').replace(/^uploads:\/(.*)/, '/uploads/$1');
 }
 
 export function getUploadMetaUrl(url: string) {
