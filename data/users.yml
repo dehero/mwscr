@@ -1545,7 +1545,7 @@ dismasterfrane:
   profiles:
     - service: tg
       id: '267540082'
-      updated: 2026-03-25-07-57-46
+      updated: 2026-03-25-09-02-30
       accessHash: '-7587460155502921699'
       username: dismasterfrane
       name: Frane // Dismaster FraNe 🍕
@@ -1752,7 +1752,7 @@ eidelelweise:
   profiles:
     - service: vk
       id: '451140204'
-      updated: 2026-03-25-06-10-08
+      updated: 2026-03-25-09-02-29
       username: eidelelweise
       name: Эйдель Элиас Вайс
       avatar: store:/avatars/vk-85124301.jpg
