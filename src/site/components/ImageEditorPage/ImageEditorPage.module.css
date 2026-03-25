@@ -1,0 +1,24 @@
+.container {
+  flex-grow: 1;
+  display: flex;
+  height: 100%;
+  padding: 8px;
+  margin: 0 -2px -2px -2px;
+  gap: 8px;
+  overflow-y: auto;
+  /* Make scroller composited for faster scrolling,
+    * the downside of that is that on lower
+    * end devices Browser will scroll first and
+    * then render DOM, making some content flash white.
+    */
+  will-change: transform;
+}
+
+@media only screen and (min-width: 812px) {
+  .container {
+    padding: 0 8px 8px 8px;
+    overflow: hidden;
+    margin: 0;
+    border: none;
+  }
+}
