@@ -8,7 +8,7 @@
 }
 
 .hasLabels {
-  padding-bottom: 22px;
+  padding-bottom: 24px;
 }
 
 .slider {
@@ -117,7 +117,7 @@
   font-family: inherit;
   font-size: inherit;
   color: var(--color-text);
-  margin-top: 4px;
+  margin-top: 6px;
 }
 
 .increment > .buttonLabel {
