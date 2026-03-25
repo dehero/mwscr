@@ -23,6 +23,7 @@ import { uploadFiles } from '../../data-managers/uploads.js';
 import { Button } from '../Button/Button.jsx';
 import { Dialog } from '../Dialog/Dialog.jsx';
 import { Frame } from '../Frame/Frame.js';
+import { ImageEditingDialog } from '../ImageEditingDialog/ImageEditingDialog.jsx';
 import { Input } from '../Input/Input.jsx';
 import { Label } from '../Label/Label.jsx';
 import { ResourcePreview } from '../ResourcePreview/ResourcePreview.js';
@@ -53,6 +54,7 @@ function getContainerLabel(id: ContainerId) {
 
 interface ItemProps {
   url: string;
+  onEdit: () => void;
 }
 
 const Item: Component<ItemProps> = (props) => {
@@ -65,6 +67,7 @@ const Item: Component<ItemProps> = (props) => {
         showTooltip={!context?.active.draggable}
         // aspectRatio="1 / 1"
         class={styles.preview}
+        onEdit={props.onEdit}
       />
     </div>
   );
@@ -73,6 +76,7 @@ const Item: Component<ItemProps> = (props) => {
 interface ListProps {
   id: ContainerId;
   urls: string[];
+  onEdit: (url: string) => void;
 }
 
 const List: Component<ListProps> = (props) => {
@@ -83,7 +87,7 @@ const List: Component<ListProps> = (props) => {
       <span class={styles.label}>{getContainerLabel(props.id)}</span>
       <Frame ref={droppable} class={styles.list}>
         <SortableProvider ids={props.urls}>
-          <For each={props.urls}>{(url) => <Item url={url} />}</For>
+          <For each={props.urls}>{(url) => <Item url={url} onEdit={() => props.onEdit(url)} />}</For>
         </SortableProvider>
       </Frame>
     </label>
@@ -103,7 +107,7 @@ export interface PostContentEditorProps {
 
 export const PostContentEditor: Component<PostContentEditorProps> = (props) => {
   const { selectFiles } = createFileUploader({ accept: ImageResourceExtension.options.join(', '), multiple: true });
-  const { addToast } = useToaster();
+  const { addToast, modal } = useToaster();
   const [uploadReport, setUploadReport] = createSignal<UploadReportItem[]>([]);
   const updateUploadReportItem = (index: number, update: Partial<UploadReportItem>) =>
     setUploadReport((report) => report.map((item, i) => ({ ...item, ...(index === i ? update : item) })));
@@ -296,11 +300,21 @@ export const PostContentEditor: Component<PostContentEditorProps> = (props) => {
     }
   };
 
+  const handleResourceEdit = async (url: string) => {
+    const newUrl = await modal<string | undefined>((resolve) => (
+      <ImageEditingDialog url={url} onConfirm={resolve} onClose={() => resolve(undefined)} show />
+    ));
+
+    if (newUrl) {
+      setContainerItems('content', (items) => [newUrl, ...items]);
+    }
+  };
+
   return (
     <>
       <DragDropProvider onDragOver={onDragOver} onDragEnd={onDragEnd} collisionDetector={closestContainerOrItem}>
         <DragDropSensors />
-        <For each={containerIds}>{(key) => <List id={key} urls={containers()[key]} />}</For>
+        <For each={containerIds}>{(key) => <List id={key} urls={containers()[key]} onEdit={handleResourceEdit} />}</For>
         <div class={styles.toolbar}>
           <Button
             onClick={(e: Event) => {
@@ -320,11 +334,14 @@ export const PostContentEditor: Component<PostContentEditorProps> = (props) => {
           </Button>
         </div>
         <DragOverlay class={styles.dragOverlay}>
-          {(draggable) => (
-            <div class={styles.item}>
-              <ResourcePreview url={draggable?.id.toString() || ''} aspectRatio="1 / 1" class={styles.preview} />
-            </div>
-          )}
+          {(draggable) => {
+            const url = draggable?.id.toString() || '';
+            return (
+              <div class={styles.item}>
+                <ResourcePreview url={url} aspectRatio="1 / 1" class={styles.preview} />
+              </div>
+            );
+          }}
         </DragOverlay>
       </DragDropProvider>
       <UploadReportDialog
