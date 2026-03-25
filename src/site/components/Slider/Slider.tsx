@@ -21,7 +21,13 @@ export interface SliderProps {
 }
 
 export const Slider: Component<SliderProps> = (props) => {
-  const [localValue, setLocalValue] = createSignal<number>(props.value || props.min || 0);
+  const getInitialValue = () => {
+    if (props.value !== undefined) return props.value;
+    if (props.min !== undefined) return props.min;
+    return 0;
+  };
+
+  const [localValue, setLocalValue] = createSignal<number>(getInitialValue());
 
   const debouncedChange = debounce((value: number) => props.onDebouncedChange?.(value), 800);
 
@@ -33,13 +39,16 @@ export const Slider: Component<SliderProps> = (props) => {
     }
   };
 
-  // Sync local value with external value prop
-  createEffect(() => setLocalValue(props.value || props.min || 0));
+  createEffect(() => {
+    if (props.value !== undefined) {
+      setLocalValue(props.value);
+    }
+  });
 
   const decrement = () => {
     const step = props.step ?? 1;
     const newValue = (localValue() || 0) - step;
-    // Only update if within bounds, otherwise silently ignore
+
     if (props.min === undefined || newValue >= props.min) {
       handleInput(newValue);
     }
@@ -48,7 +57,7 @@ export const Slider: Component<SliderProps> = (props) => {
   const increment = () => {
     const step = props.step ?? 1;
     const newValue = (localValue() || 0) + step;
-    // Only update if within bounds, otherwise silently ignore
+
     if (props.max === undefined || newValue <= props.max) {
       handleInput(newValue);
     }
@@ -140,7 +149,7 @@ export const Slider: Component<SliderProps> = (props) => {
         min={props.min}
         max={props.max}
         step={props.step}
-        onInput={(e) => handleInput(parseFloat(e.target.value))}
+        onInput={(e) => handleInput(Number.parseFloat(e.target.value))}
         onBlur={props.onBlur}
         disabled={props.disabled}
       />
