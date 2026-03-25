@@ -1,18 +1,23 @@
 import type { UploadFile } from '@solid-primitives/upload';
 import { createFileUploader } from '@solid-primitives/upload';
 import clsx from 'clsx';
-import { createMemo, createSignal, onCleanup, onMount, Show } from 'solid-js';
+import JsFileDownloader from 'js-file-downloader';
+import type { Component } from 'solid-js';
+import { createEffect, createMemo, createSignal, onCleanup, onMount, Show } from 'solid-js';
 import { aspectRatioToReadableText, getAspectRatioHeightMultiplier } from '../../../core/entities/media.js';
 import type { Option } from '../../../core/entities/option.js';
 import { ORIGINAL_OPTION } from '../../../core/entities/option.js';
 import { PostAspectRatio } from '../../../core/entities/post.js';
 import { ImageResourceExtension } from '../../../core/entities/resource.js';
+import { stripCommonExtension } from '../../../core/utils/string-utils.js';
+import YellowExclamationMark from '../../images/exclamation.svg';
 import { Button } from '../Button/Button.jsx';
 import { Divider } from '../Divider/Divider.jsx';
 import { Frame } from '../Frame/Frame.jsx';
 import { Label } from '../Label/Label.jsx';
 import { RadioGroup } from '../RadioGroup/RadioGroup.jsx';
 import { Slider } from '../Slider/Slider.jsx';
+import { useToaster } from '../Toaster/Toaster.jsx';
 import styles from './ImageEditor.module.css';
 
 interface FilterValues {
@@ -50,7 +55,19 @@ const getEventPosition = (e: MouseEvent | TouchEvent) => {
   return { x: e.clientX, y: e.clientY };
 };
 
-export default function ImageEditor() {
+export interface ImageEditorRef {
+  getResultDataUrl: () => string | undefined;
+  hasChanges: () => boolean;
+}
+
+export interface ImageEditorProps {
+  url?: string;
+  ref?: (ref: ImageEditorRef) => void;
+}
+
+export const ImageEditor: Component<ImageEditorProps> = (props) => {
+  const { addToast } = useToaster();
+
   let imgRef: HTMLImageElement | undefined;
   let cropBoxRef: HTMLDivElement | undefined;
   let containerRef: HTMLDivElement | undefined;
@@ -63,15 +80,26 @@ export default function ImageEditor() {
     })),
   ];
 
-  const { files, selectFiles, clearFiles } = createFileUploader({ accept: ImageResourceExtension.options.join(', ') });
+  const { files, selectFiles } = createFileUploader({ accept: ImageResourceExtension.options.join(', ') });
 
-  const [originalUrl, setOriginalUrl] = createSignal<string | null>(null);
-  const [currentImageUrl, setCurrentImageUrl] = createSignal<string | null>(null);
+  const [originalUrl, setOriginalUrl] = createSignal<string>();
+  const [currentUrl, setCurrentUrl] = createSignal<string>();
   const [isCropApplied, setIsCropApplied] = createSignal(false);
   const [cropRatio, setCropRatio] = createSignal<PostAspectRatio>();
   const [isComparing, setIsComparing] = createSignal(false);
 
-  const [lastValidCrop, setLastValidCrop] = createSignal<CropBoxPercent | null>(null);
+  const hasLoadingError = createMemo(() => currentUrl() === YellowExclamationMark);
+
+  const filename = createMemo(() => {
+    if (props.url) {
+      const [, filename] = props.url.split(/\/([^\/]+)$/);
+      return filename;
+    }
+
+    return files()[0]?.name;
+  });
+
+  const [appliedCropBox, setAppliedCropBox] = createSignal<CropBoxPercent>();
   const [isApplyingCrop, setIsApplyingCrop] = createSignal(false);
 
   // Filter signals
@@ -100,7 +128,7 @@ export default function ImageEditor() {
   });
 
   const imageFilter = createMemo(() => {
-    if (isComparing()) {
+    if (isComparing() || hasLoadingError()) {
       return 'none';
     }
     return shouldApplyFilter() ? 'url(#masterFilter)' : 'none';
@@ -109,9 +137,11 @@ export default function ImageEditor() {
   // Crop state - stored as percentages
   const [cropBox, setCropBox] = createSignal<CropBoxPercent>({ top: 0, left: 0, width: 0, height: 0 });
   const [isDraggingCropBox, setIsDraggingCropBox] = createSignal(false);
-  const [activeCropBoxHandle, setActiveCropBoxHandle] = createSignal<string | null>(null);
+  const [activeCropBoxHandle, setActiveCropBoxHandle] = createSignal<string>();
   const [startMousePos, setStartMousePos] = createSignal({ x: 0, y: 0 });
   const [startCropBox, setStartCropBox] = createSignal<CropBoxPercent>({ top: 0, left: 0, width: 0, height: 0 });
+
+  const hasChanges = createMemo(() => !hasLoadingError() && (shouldApplyFilter() || isCropApplied()));
 
   // CSS styles - just convert percentages to strings
   const cropBoxStyle = createMemo(() => {
@@ -121,15 +151,12 @@ export default function ImageEditor() {
       left: `${box.left}%`,
       width: `${box.width}%`,
       height: `${box.height}%`,
-      display: cropRatio() && !isCropApplied() ? 'block' : 'none',
+      display: cropRatio() && !isCropApplied() && !hasLoadingError() ? 'block' : 'none',
     };
   });
 
   const setupCropFrame = (ratio: PostAspectRatio | undefined) => {
-    if (!containerRef) return;
-
-    if (!ratio) {
-      setCropRatio(undefined);
+    if (!containerRef || !ratio || currentUrl() === YellowExclamationMark) {
       return;
     }
 
@@ -214,20 +241,20 @@ export default function ImageEditor() {
       const croppedDataUrl = canvas.toDataURL();
 
       setIsApplyingCrop(true);
-      setCurrentImageUrl(croppedDataUrl);
-      setLastValidCrop(boxPercent);
+      setCurrentUrl(croppedDataUrl);
+      setAppliedCropBox(boxPercent);
       setIsCropApplied(true);
 
       setTimeout(() => setIsApplyingCrop(false), 100);
     }
   };
 
-  const undoCrop = () => {
+  const handleChangeCrop = () => {
     setIsApplyingCrop(true);
-    setCurrentImageUrl(originalUrl());
+    setCurrentUrl(originalUrl());
     setIsCropApplied(false);
 
-    const last = lastValidCrop();
+    const last = appliedCropBox();
     if (last) {
       setCropBox(last);
     } else {
@@ -248,7 +275,9 @@ export default function ImageEditor() {
 
   const processUploadFiles = async (items: UploadFile[]) => {
     const file = items[0]?.file;
-    if (!file) return;
+    if (!file) {
+      return;
+    }
 
     if (originalUrl()) {
       URL.revokeObjectURL(originalUrl()!);
@@ -256,7 +285,10 @@ export default function ImageEditor() {
 
     const url = URL.createObjectURL(file);
     setOriginalUrl(url);
-    setCurrentImageUrl(url);
+    setCurrentUrl(url);
+    resetFilters();
+    setIsCropApplied(false);
+    setCropRatio(undefined);
   };
 
   const handleCompareStart = () => {
@@ -483,29 +515,110 @@ export default function ImageEditor() {
 
   const handleMouseUp = () => {
     setIsDraggingCropBox(false);
-    setActiveCropBoxHandle(null);
+    setActiveCropBoxHandle();
     setIsComparing(false);
   };
 
-  const reset = () => {
-    setOriginalUrl(null);
-    setCurrentImageUrl(null);
-    resetFilters();
+  const getResultDataUrl = () => {
+    if (!imgRef) {
+      return;
+    }
+
+    const canvas = document.createElement('canvas');
+    const ctx = canvas.getContext('2d');
+    if (!ctx) {
+      return;
+    }
+
+    canvas.width = imgRef.naturalWidth;
+    canvas.height = imgRef.naturalHeight;
+
+    if (shouldApplyFilter()) {
+      ctx.filter = 'url(#masterFilter)';
+    }
+    ctx.drawImage(imgRef, 0, 0);
+
+    return canvas.toDataURL();
+  };
+
+  const handleDownload = async () => {
+    const url = getResultDataUrl();
+    if (!url) {
+      return;
+    }
+
+    if (!filename()) {
+      return;
+    }
+
+    const downloader = new JsFileDownloader({
+      url,
+      autoStart: false,
+      nativeFallbackOnError: true,
+      filename: `${stripCommonExtension(filename()!)}.png`,
+    });
+
+    try {
+      await downloader.start();
+    } catch (error) {
+      const message = error instanceof Error ? error.message : error ? error.toString() : 'Failed to download';
+      addToast(message);
+    }
+  };
+
+  const handleCropRatioChange = (value: PostAspectRatio | undefined) => {
+    setCropRatio(value);
+    setupCropFrame(value);
+  };
+
+  const handleImageLoad = () => {
+    if (hasLoadingError() || isApplyingCrop()) {
+      return;
+    }
+
     setIsCropApplied(false);
     setCropRatio(undefined);
-    clearFiles();
   };
+
+  const handleImageError = () => {
+    if (hasLoadingError()) {
+      return;
+    }
+
+    addToast(`Failed to load image: ${currentUrl()}`);
+    setCurrentUrl(YellowExclamationMark);
+  };
+
+  const ref: ImageEditorRef = {
+    getResultDataUrl,
+    hasChanges,
+  };
+
+  createEffect(() => {
+    const url = props.url;
+    if (url) {
+      setOriginalUrl(url);
+      setCurrentUrl(url);
+    }
+  });
 
   // Clean up object URLs
   onCleanup(() => {
     const url = originalUrl();
-    if (url) URL.revokeObjectURL(url);
-    const current = currentImageUrl();
-    if (current && current !== url) URL.revokeObjectURL(current);
+    if (url) {
+      URL.revokeObjectURL(url);
+    }
+
+    const current = currentUrl();
+    if (current && current !== url) {
+      URL.revokeObjectURL(current);
+    }
   });
 
-  // Add global event listeners for both mouse and touch
   onMount(() => {
+    props.ref?.(ref);
+
+    // Add global event listeners for both mouse and touch
     window.addEventListener('mousemove', handleMouseMove);
     window.addEventListener('mouseup', handleMouseUp);
     window.addEventListener('touchmove', handleMouseMove, { passive: false });
@@ -520,39 +633,6 @@ export default function ImageEditor() {
       window.removeEventListener('touchcancel', handleMouseUp);
     });
   });
-
-  const downloadImage = () => {
-    if (!imgRef) return;
-
-    const canvas = document.createElement('canvas');
-    const ctx = canvas.getContext('2d');
-
-    canvas.width = imgRef.naturalWidth;
-    canvas.height = imgRef.naturalHeight;
-
-    if (ctx) {
-      if (shouldApplyFilter()) {
-        ctx.filter = 'url(#masterFilter)';
-      }
-      ctx.drawImage(imgRef, 0, 0);
-
-      const a = document.createElement('a');
-      a.download = 'edited.png';
-      a.href = canvas.toDataURL();
-      a.click();
-    }
-  };
-
-  const handleCropRatioChange = (value: PostAspectRatio | undefined) => {
-    setCropRatio(value);
-    setupCropFrame(value);
-  };
-
-  const handleImageLoad = () => {
-    if (isApplyingCrop()) return;
-    setIsCropApplied(false);
-    setCropRatio(undefined);
-  };
 
   return (
     <div class={styles.editor}>
@@ -699,37 +779,37 @@ export default function ImageEditor() {
 
         <Show when={isCropApplied()}>
           <div class={styles.toolbar}>
-            <Button onClick={undoCrop}>Undo</Button>
+            <Button onClick={handleChangeCrop}>Change</Button>
           </div>
         </Show>
       </Frame>
 
       <Frame class={styles.workspace}>
-        <div class={styles.header}>
-          <Show
-            when={files().length > 0}
-            fallback={
-              <Button
-                onClick={(e: Event) => {
-                  e.preventDefault();
-                  selectFiles(processUploadFiles);
-                }}
-              >
-                Open Image
-              </Button>
-            }
-          >
-            <p class={styles.imageName}>{files()[0]?.name}</p>
-            <Button onClick={reset}>Close</Button>
-          </Show>
-        </div>
+        <Show when={filename()}>
+          <div class={styles.header}>
+            <p class={styles.imageName}>
+              {filename()}
+              {hasChanges() ? '*' : ''}
+            </p>
+          </div>
+        </Show>
 
         <div class={styles.actions}>
           <Show
-            when={cropRatio() && !isCropApplied()}
+            when={cropRatio() && !isCropApplied() && !hasLoadingError()}
             fallback={
-              <Show when={currentImageUrl()}>
-                <Button onClick={downloadImage}>Download</Button>
+              <Show when={!props.url}>
+                <Button
+                  onClick={(e: Event) => {
+                    e.preventDefault();
+                    selectFiles(processUploadFiles);
+                  }}
+                >
+                  Select File
+                </Button>
+                <Show when={!props.url && currentUrl()}>
+                  <Button onClick={handleDownload}>Download</Button>
+                </Show>
               </Show>
             }
           >
@@ -743,13 +823,16 @@ export default function ImageEditor() {
           class={styles.imageContainer}
           style={{ display: originalUrl() ? 'inline-block' : 'none', position: 'relative' }}
         >
-          <img
-            ref={imgRef}
-            class={styles.mainImage}
-            src={currentImageUrl() || ''}
-            onLoad={handleImageLoad}
-            style={{ filter: imageFilter() }}
-          />
+          <Show when={currentUrl()}>
+            <img
+              ref={imgRef}
+              class={styles.mainImage}
+              src={currentUrl()}
+              onLoad={handleImageLoad}
+              onError={handleImageError}
+              style={{ filter: imageFilter() }}
+            />
+          </Show>
 
           <div
             ref={cropBoxRef}
@@ -780,4 +863,4 @@ export default function ImageEditor() {
       </Frame>
     </div>
   );
-}
+};
