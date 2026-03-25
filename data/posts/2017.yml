@@ -1214,6 +1214,23 @@
         G4oAaJ0H2Wnl7NJc+pMMxQiVbtG2LgWs0qBpopPJYi/avlkzSVb/q2loOhup4/CCoUmXH0PYgAPm
         FhwXtABPEhenOoL6mczfdsOiz9g2inOlWs3LZCywwwM7GknUkXDAjloiZw3NcZt14ZFrsk0YpVG9
         khlYYwezQS3q0gQvPHCTFFVODtUA
+    - service: ig
+      id: DWUY55jGvmN
+      mediaId: '18113238469776901'
+      published: 2026-03-25-19-07-58
+      followers: 1614
+    - service: vk
+      id: 3204
+      published: 2026-03-25-19-08-06
+      followers: 1623
+    - service: tg
+      id: 1193
+      published: 2026-03-25-19-08-16
+      followers: 898
+    - service: mx
+      id: '1774465706184'
+      published: 2026-03-25-19-08-26
+      followers: 20
 2017-01-27-telvanni-council-house:
   title: Telvanni Council House
   titleRu: Дом Совета Телванни
@@ -5609,24 +5626,24 @@
       id: DWR1HJ0kYRZ
       mediaId: '18095289470088250'
       published: 2026-03-24-19-16-42
-      updated: 2026-03-25-17-12-02
+      updated: 2026-03-25-19-04-01
       followers: 1614
       likes: 42
     - service: tg
       id: 1192
       published: 2026-03-24-19-17-09
-      updated: 2026-03-25-17-12-08
+      updated: 2026-03-25-19-04-03
       followers: 897
       likes: 46
-      views: 167
+      views: 172
       comments: !c ixCAkZPLQnnSRabFgACmYW5vbmltr9Ca0YDQsNGB0L7RgtCwKQM=
     - service: vk
       id: 3200
       published: 2026-03-24-20-55-30
-      updated: 2026-03-25-17-12-06
+      updated: 2026-03-25-19-04-04
       followers: 1623
-      likes: 36
-      views: 353
+      likes: 40
+      views: 368
       reposts: 5
       comments: !c |-
         GyUCQK0SeHOYXslg6NjsHB/909+z8UTu+O+pZdw0iUaW7IkoNTfCCInEcAj52X4ZYV1adU6YdBN2
