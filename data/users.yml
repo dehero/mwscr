@@ -487,7 +487,7 @@ ansis:
   profiles:
     - service: tg
       id: '517050552'
-      updated: 2026-03-26-19-21-01
+      updated: 2026-03-26-21-37-51
       accessHash: '5231096655311395455'
       username: ansis
       name: ansis
@@ -1015,6 +1015,14 @@ ccoteb:
       username: ccoteb
       name: Cote_B
       avatar: store:/avatars/ig-6071079b.jpg
+chacal:
+  profiles:
+    - service: tg
+      id: '8095034962'
+      updated: 2026-03-26-21-37-43
+      accessHash: '-7146146524014681806'
+      name: Chacal 🇩🇴
+      avatar: store:/avatars/tg-5055567062113127364.jpg
 chaor-seyda:
   profiles:
     - service: ig
@@ -1402,7 +1410,7 @@ dehero:
     - type: channel
       service: vk
       id: '138249959'
-      updated: 2026-03-26-19-21-40
+      updated: 2026-03-26-21-37-39
       username: mwscr
       name: Morrowind Screenshots
       avatar: store:/avatars/vk-8e97fd4f.jpg
@@ -1752,7 +1760,7 @@ eidelelweise:
   profiles:
     - service: vk
       id: '451140204'
-      updated: 2026-03-26-20-42-02
+      updated: 2026-03-26-21-37-35
       username: eidelelweise
       name: Эйдель Элиас Вайс
       avatar: store:/avatars/vk-85124301.jpg
@@ -2678,7 +2686,7 @@ ivan-uralov:
   profiles:
     - service: vk
       id: '16497155'
-      updated: 2026-03-26-20-42-04
+      updated: 2026-03-26-21-37-35
       username: id16497155
       name: Иван Уралов
       avatar: store:/avatars/vk-51775759.jpg
@@ -2966,7 +2974,7 @@ kevy-c:
   profiles:
     - service: tg
       id: '5067683234'
-      updated: 2026-03-26-19-21-53
+      updated: 2026-03-26-21-37-52
       accessHash: '-903667913374325979'
       username: Kevy_c
       name: Dash
@@ -3806,7 +3814,7 @@ myndowen:
   profiles:
     - service: tg
       id: '720784420'
-      updated: 2026-03-26-19-18-50
+      updated: 2026-03-26-21-37-49
       accessHash: '4385662928393121475'
       username: myndowen
       name: Daniel Beilin
@@ -4066,7 +4074,7 @@ oberhort:
   profiles:
     - service: tg
       id: '19254498'
-      updated: 2026-03-26-19-16-20
+      updated: 2026-03-26-21-37-49
       accessHash: '-564270059565994883'
       username: oberhort
       name: Игорь
@@ -4929,7 +4937,7 @@ sergey-b-2:
   profiles:
     - service: vk
       id: '1077446394'
-      updated: 2026-03-26-20-41-59
+      updated: 2026-03-26-21-37-35
       username: id1077446394
       name: Сергей Б
       avatar: store:/avatars/vk-4deb0770.jpg
@@ -6252,7 +6260,7 @@ vladislav-lomin:
   profiles:
     - service: vk
       id: '504964620'
-      updated: 2026-03-25-20-46-54
+      updated: 2026-03-26-21-37-39
       username: id504964620
       name: Владислав Ломин
       avatar: store:/avatars/vk-39034114.jpg
