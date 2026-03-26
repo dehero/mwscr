@@ -119,16 +119,16 @@
       id: DTI4u92E96j
       mediaId: '18064133150237501'
       published: 2026-01-05-18-20-58
-      updated: 2026-03-19-19-07-33
+      updated: 2026-03-26-19-17-23
       followers: 1609
       likes: 54
     - service: vk
       id: 2992
       published: 2026-01-05-18-21-03
-      updated: 2026-03-19-19-07-52
+      updated: 2026-03-26-19-18-08
       followers: 1559
       likes: 80
-      views: 1637
+      views: 1639
       reposts: 3
       comments: !c |-
         CyCAkZPLQnm4/6JPAACqYXJ5YS1zdGFya9kp0KHQsNC80YvQtSDRhdCw0LHQsNGA0L3Ri9C1INC8
@@ -136,10 +136,10 @@
     - service: tg
       id: 1115
       published: 2026-01-05-18-21-07
-      updated: 2026-03-19-19-07-44
+      updated: 2026-03-26-19-17-55
       followers: 875
       likes: 66
-      views: 747
+      views: 755
 2026-01-06-1-a-small-victory:
   title: A Small Victory
   titleRu: Небольшая победа
@@ -160,25 +160,25 @@
       id: DTLgg-KjLBP
       mediaId: '18080990783225634'
       published: 2026-01-06-18-47-03
-      updated: 2026-03-19-19-07-31
+      updated: 2026-03-26-19-17-21
       followers: 1608
       likes: 69
       comments: !c ixSAkZPLQnm5TO2pgACsZWFzdGNvYXN0LWxnsUnigJl2ZSBiZWVuIHRoZXJlAw==
     - service: vk
       id: 2995
       published: 2026-01-06-18-47-08
-      updated: 2026-03-19-19-07-51
+      updated: 2026-03-26-19-18-04
       followers: 1561
       likes: 71
-      views: 2642
+      views: 2644
       reposts: 1
     - service: tg
       id: 1116
       published: 2026-01-06-18-47-12
-      updated: 2026-03-19-19-07-44
+      updated: 2026-03-26-19-17-53
       followers: 876
       likes: 68
-      views: 631
+      views: 636
 2026-01-07-1-sky-path:
   title: Sky Path
   titleRu: Небесный путь
@@ -201,24 +201,24 @@
       id: DTOB9cpF5mm
       mediaId: '18052066397416803'
       published: 2026-01-07-18-17-47
-      updated: 2026-03-19-19-07-24
+      updated: 2026-03-26-19-17-19
       followers: 1607
       likes: 77
     - service: vk
       id: 2996
       published: 2026-01-07-18-17-54
-      updated: 2026-03-19-19-07-50
+      updated: 2026-03-26-19-18-02
       followers: 1561
       likes: 108
-      views: 2182
+      views: 2191
       reposts: 13
     - service: tg
       id: 1117
       published: 2026-01-07-18-17-58
-      updated: 2026-03-19-19-07-43
+      updated: 2026-03-26-19-17-52
       followers: 876
       likes: 73
-      views: 1469
+      views: 1476
       comments: !c |-
         G5AAwIzEOEZyMYg/8uGveYTHpXeWpBG91kibblQk+T5ObDY5EsIDrdbWf8h5wMX6da90+RLlwMbY
         8EyDoNt0ODy1tk4qT1FXO45zs3J1RxTOj91KsDSa3n4iFiRTMgVhSBychpIFGgbBkCUOpDOxOfPU
@@ -343,16 +343,16 @@
       id: DTbBM0Gl7rM
       mediaId: '17885182569425627'
       published: 2026-01-12-19-21-17
-      updated: 2026-03-19-19-07-21
+      updated: 2026-03-26-19-17-16
       followers: 1609
       likes: 47
     - service: vk
       id: 3010
       published: 2026-01-12-19-21-23
-      updated: 2026-03-19-19-07-49
+      updated: 2026-03-26-19-18-00
       followers: 1570
       likes: 73
-      views: 1994
+      views: 2000
       reposts: 2
       comments: !c |-
         G30BQCwSeA71OaOh8bk1jfjnn5ON8J/ZYFMbSNGsADtB4JEm92lQcxqXbev4Ei+lFF6ouoWmBjn9
@@ -362,10 +362,10 @@
     - service: tg
       id: 1123
       published: 2026-01-12-19-21-26
-      updated: 2026-03-19-19-07-41
+      updated: 2026-03-26-19-17-48
       followers: 880
       likes: 66
-      views: 899
+      views: 904
       comments: !c |-
         iyaAkZPLQnm7Orv4AACmdnVzdGV42TpJdCBsb29rcyBjb3p5IHNvbWVob3cuIERlc3BpdGUgdGhl
         IG1ldGFsIHNrZWxldG9uIGFuZCBydXN0Aw==
@@ -520,3 +520,4 @@
 2026-03-23-1-jonus-maximus: 2018-03-05-jonus-maximus
 2026-03-24-1-fishers-bliss: 2017-04-21-fishers-bliss
 2026-03-25-1-aleft: 2017-01-26-aleft
+2026-03-26-1-snowy-granius-meets-travelers-near-arkngthand: 2017-07-06-snowy-granius-meets-travelers-near-arkngthand
