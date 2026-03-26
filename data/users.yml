@@ -1638,7 +1638,7 @@ dremarretres:
   profiles:
     - service: vk
       id: '801308664'
-      updated: 2026-03-26-19-18-54
+      updated: 2026-03-26-20-42-04
       username: dremarretres
       name: Джон Шепард
       avatar: store:/avatars/vk-ac4f0700.jpg
@@ -1752,7 +1752,7 @@ eidelelweise:
   profiles:
     - service: vk
       id: '451140204'
-      updated: 2026-03-26-19-16-27
+      updated: 2026-03-26-20-42-02
       username: eidelelweise
       name: Эйдель Элиас Вайс
       avatar: store:/avatars/vk-85124301.jpg
@@ -2678,7 +2678,7 @@ ivan-uralov:
   profiles:
     - service: vk
       id: '16497155'
-      updated: 2026-03-26-19-16-18
+      updated: 2026-03-26-20-42-04
       username: id16497155
       name: Иван Уралов
       avatar: store:/avatars/vk-51775759.jpg
@@ -4311,7 +4311,7 @@ peteevandrew:
   profiles:
     - service: vk
       id: '307619379'
-      updated: 2026-03-26-19-21-07
+      updated: 2026-03-26-20-42-07
       username: peteevandrew
       name: Андрей Петеев
       avatar: store:/avatars/vk-1abdc90f.jpg
@@ -4441,10 +4441,10 @@ porsankka666:
   profiles:
     - service: vk
       id: '320093421'
-      updated: 2026-03-22-13-04-04
+      updated: 2026-03-26-20-42-08
       username: porsankka666
       name: Дмитрий Иванов-Соломин
-      avatar: store:/avatars/vk-353569aa.jpg
+      avatar: store:/avatars/vk-323a71af.jpg
 promty75:
   profiles:
     - service: ig
@@ -4929,7 +4929,7 @@ sergey-b-2:
   profiles:
     - service: vk
       id: '1077446394'
-      updated: 2026-03-26-19-20-59
+      updated: 2026-03-26-20-41-59
       username: id1077446394
       name: Сергей Б
       avatar: store:/avatars/vk-4deb0770.jpg
@@ -4945,7 +4945,7 @@ sergey-venkov:
   profiles:
     - service: vk
       id: '217443112'
-      updated: 2026-03-26-19-17-31
+      updated: 2026-03-26-20-42-08
       username: id217443112
       name: Сергей Венков
       avatar: store:/avatars/vk-a77d1a73.jpg
