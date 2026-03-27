@@ -1218,16 +1218,16 @@
       id: DWUY55jGvmN
       mediaId: '18113238469776901'
       published: 2026-03-25-19-07-58
-      updated: 2026-03-27-16-00-20
+      updated: 2026-03-27-19-03-32
       followers: 1614
-      likes: 57
+      likes: 58
     - service: vk
       id: 3204
       published: 2026-03-25-19-08-06
-      updated: 2026-03-27-17-06-28
+      updated: 2026-03-27-19-03-41
       followers: 1623
-      likes: 55
-      views: 432
+      likes: 56
+      views: 445
       reposts: 2
       comments: !c |-
         G68EYJwHtvOUQD+ocGDQHRbaJIpo7d+vn1HzCW4Dko2LcKijYiywcGA0cHV0zbDLMnb5u3boHlOR
@@ -1244,10 +1244,10 @@
     - service: tg
       id: 1193
       published: 2026-03-25-19-08-16
-      updated: 2026-03-27-17-06-25
+      updated: 2026-03-27-19-03-36
       followers: 898
       likes: 54
-      views: 239
+      views: 241
       comments: !c |-
         izOAk5PLQnnSvDOmAACmY2hhY2FstXN0b3AgZG94eGluZyBteSBob3VzZZPLQnnSsYe3AACob2Jl
         cmhvcnS00KjQuNC60LDRgNC90L4uIPCfkY2Ty0J50mdVFgAAqG15bmRvd2VupPCflbcD
@@ -9402,19 +9402,19 @@
       id: DWW_sMujiRY
       mediaId: '17871055197471056'
       published: 2026-03-26-19-25-22
-      updated: 2026-03-27-17-05-36
+      updated: 2026-03-27-19-03-28
       followers: 1614
-      likes: 51
+      likes: 52
       comments: !c |-
         CyGAkZPLQnnTA/msAACtZGFuaWVsbGUtaGlpadkoSG9uZXN0bHkgd3RmIGlzIHdyb25nIHdpdGgg
         dGhpcyBndXkg8J+YrQM=
     - service: vk
       id: 3210
       published: 2026-03-26-19-25-32
-      updated: 2026-03-27-17-06-24
+      updated: 2026-03-27-19-03-38
       followers: 1622
-      likes: 52
-      views: 425
+      likes: 53
+      views: 436
       reposts: 1
       comments: !c |-
         G4gEIJwHxi3zhkH4B+5qxFJGhQ1clTwkSfPWEVKDQWF0CRoNBGUws0Zj1XKdESiB0iiLcAiV8ofy
@@ -9431,10 +9431,10 @@
     - service: tg
       id: 1194
       published: 2026-03-26-19-25-39
-      updated: 2026-03-27-17-06-21
+      updated: 2026-03-27-19-03-30
       followers: 899
-      likes: 45
-      views: 158
+      likes: 46
+      views: 164
       comments: !c |-
         G5gA+C0O7PY9LBmMedDNXEymif/nuSHpP16pRRl1Bj6TyX04dZslJUN1Dgf38hm6giqncqAzrU1u
         U3qN2VVLXmKlCFrJzkEmvd7Pb7//k/Z97vmfMZxFbqEIIY5JkExnMrNyGEXWyQIm4xTt9sw1PRIQ
@@ -12205,6 +12205,23 @@
       followers: 76
       likes: 6
       views: 112
+    - service: ig
+      id: DWZiaN-ALAW
+      mediaId: '17950801467118093'
+      published: 2026-03-27-19-07-10
+      followers: 1613
+    - service: vk
+      id: 3218
+      published: 2026-03-27-19-07-19
+      followers: 1622
+    - service: tg
+      id: 1195
+      published: 2026-03-27-19-07-25
+      followers: 900
+    - service: mx
+      id: '1774638450359'
+      published: 2026-03-27-19-07-30
+      followers: 20
 2017-09-02-vivec-at-a-loss:
   title: Vivec at a Loss
   titleRu: Вивек в растерянности
