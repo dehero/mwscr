@@ -11,6 +11,7 @@ import type { StoreItem } from '../../core/entities/store.js';
 import { parseStoreResourceUrl, STORE_INBOX_DIR } from '../../core/entities/store.js';
 import { asArray, partition } from '../../core/utils/common-utils.js';
 import { drafts } from '../data-managers/posts.js';
+import { syncStoreResource } from '../data-managers/store-resources.js';
 import { storeManager } from '../store-managers/index.js';
 
 export async function importStoreInbox() {
@@ -85,6 +86,8 @@ async function importNewItems(items: StoreItem[]) {
       await drafts.addItem(proposal, id);
     }
     await drafts.save();
+
+    syncStoreResource(item.url);
 
     console.info(`Imported new draft "${item.url}" to "${id}".`);
     addedItems++;
