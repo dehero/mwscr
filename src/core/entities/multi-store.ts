@@ -196,27 +196,48 @@ export class MultiStoreManager extends MultiStore implements StoreManager {
       return;
     }
 
-    const items = await sourceStore.readdir(path);
+    const syncedItem = await sourceStore.exists(path);
+    if (!syncedItem) {
+      return;
+    }
 
-    for (const item of items) {
-      const itemPath = path ? `${path.replace(/\/?$/, '/')}${item.name}` : item.name;
+    if (syncedItem.isDirectory) {
+      const items = await sourceStore.readdir(path);
 
-      if (item.isDirectory) {
-        yield* this.sync(itemPath);
-        continue;
-      }
+      for (const item of items) {
+        const itemPath = path ? `${path.replace(/\/?$/, '/')}${item.name}` : item.name;
 
-      const targetStores = otherStores.filter(storeIncludesPath(itemPath));
-
-      for (const targetStore of targetStores) {
-        if (await targetStore.exists(itemPath)) {
+        if (item.isDirectory) {
+          yield* this.sync(itemPath);
           continue;
         }
 
-        const stream = await sourceStore.getStream(itemPath);
+        const targetStores = otherStores.filter(storeIncludesPath(itemPath));
+
+        for (const targetStore of targetStores) {
+          if (await targetStore.exists(itemPath)) {
+            continue;
+          }
+
+          const stream = await sourceStore.getStream(itemPath);
+          if (stream) {
+            await targetStore.putStream(itemPath, stream);
+            yield [targetStore, item];
+          }
+        }
+      }
+    } else {
+      const targetStores = otherStores.filter(storeIncludesPath(path));
+
+      for (const targetStore of targetStores) {
+        if (await targetStore.exists(path)) {
+          continue;
+        }
+
+        const stream = await sourceStore.getStream(path);
         if (stream) {
-          await targetStore.putStream(itemPath, stream);
-          yield [targetStore, item];
+          await targetStore.putStream(path, stream);
+          yield [targetStore, syncedItem];
         }
       }
     }
