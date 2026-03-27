@@ -62,11 +62,11 @@ export class YandexDiskManager implements StoreManager {
     }
   }
 
-  async exists(path: string): Promise<boolean> {
+  async exists(path: string): Promise<false | StoreItem> {
     const { dir, base } = posix.parse(path);
     const items = await this.readdir(dir);
 
-    return Boolean(items.find((item) => item.name === base));
+    return items.find((item) => item.name === base) ?? false;
   }
 
   async get(path: string): Promise<Buffer> {
