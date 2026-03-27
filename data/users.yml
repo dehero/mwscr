@@ -1019,7 +1019,7 @@ chacal:
   profiles:
     - service: tg
       id: '8095034962'
-      updated: 2026-03-27-05-12-46
+      updated: 2026-03-27-07-17-22
       accessHash: '-7146146524014681806'
       name: Chacal 🇩🇴
       avatar: store:/avatars/tg-5055567062113127364.jpg
@@ -1760,7 +1760,7 @@ eidelelweise:
   profiles:
     - service: vk
       id: '451140204'
-      updated: 2026-03-27-05-12-48
+      updated: 2026-03-27-07-17-25
       username: eidelelweise
       name: Эйдель Элиас Вайс
       avatar: store:/avatars/vk-85124301.jpg
@@ -2686,7 +2686,7 @@ ivan-uralov:
   profiles:
     - service: vk
       id: '16497155'
-      updated: 2026-03-27-05-12-48
+      updated: 2026-03-27-07-17-25
       username: id16497155
       name: Иван Уралов
       avatar: store:/avatars/vk-51775759.jpg
@@ -2974,7 +2974,7 @@ kevy-c:
   profiles:
     - service: tg
       id: '5067683234'
-      updated: 2026-03-27-05-12-41
+      updated: 2026-03-27-07-17-17
       accessHash: '-903667913374325979'
       username: Kevy_c
       name: Dash
@@ -3814,7 +3814,7 @@ myndowen:
   profiles:
     - service: tg
       id: '720784420'
-      updated: 2026-03-27-05-12-46
+      updated: 2026-03-27-07-17-23
       accessHash: '4385662928393121475'
       username: myndowen
       name: Daniel Beilin
@@ -3952,7 +3952,7 @@ nikitaloshenko:
   profiles:
     - service: vk
       id: '58942565'
-      updated: 2026-03-26-22-37-10
+      updated: 2026-03-27-07-17-17
       username: nikitaloshenko
       name: Никита Лощенко
       avatar: store:/avatars/vk-dcd345db.jpg
@@ -4074,7 +4074,7 @@ oberhort:
   profiles:
     - service: tg
       id: '19254498'
-      updated: 2026-03-27-05-12-46
+      updated: 2026-03-27-07-17-22
       accessHash: '-564270059565994883'
       username: oberhort
       name: Игорь
@@ -4937,7 +4937,7 @@ sergey-b-2:
   profiles:
     - service: vk
       id: '1077446394'
-      updated: 2026-03-27-05-12-49
+      updated: 2026-03-27-07-17-26
       username: id1077446394
       name: Сергей Б
       avatar: store:/avatars/vk-4deb0770.jpg
