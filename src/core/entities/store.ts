@@ -48,7 +48,7 @@ export interface Store {
 export interface StoreManager extends Store {
   copy(from: string, to: string): Promise<void>;
 
-  exists(path: string): Promise<boolean>;
+  exists(path: string): Promise<false | StoreItem>;
 
   get(path: string): Promise<Buffer>;
 

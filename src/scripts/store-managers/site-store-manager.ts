@@ -76,11 +76,11 @@ export class SiteStoreManager extends SiteStore implements StoreManager {
     }
   }
 
-  async exists(path: string): Promise<boolean> {
+  async exists(path: string): Promise<false | StoreItem> {
     const { dir, base } = posix.parse(path);
     try {
       const items = await this.readdir(dir);
-      return Boolean(items.find((item) => item.name === base));
+      return items.find((item) => item.name === base) ?? false;
     } catch {
       return false;
     }

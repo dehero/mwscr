@@ -1,10 +1,10 @@
 import { createReadStream, createWriteStream } from 'fs';
 import fs from 'fs/promises';
-import { dirname, join as joinPath } from 'path';
+import { dirname, join as joinPath, basename } from 'path';
 import { finished } from 'node:stream/promises';
 import { Readable } from 'stream';
 import type { StoreItem, StoreManager } from '../../core/entities/store.js';
-import { pathExists } from '../utils/file-utils.js';
+import { isDirectory, pathExists } from '../utils/file-utils.js';
 
 export class LocalStoreManager implements StoreManager {
   readonly name = 'Local';
@@ -30,10 +30,20 @@ export class LocalStoreManager implements StoreManager {
     await fs.copyFile(fromPath, toPath);
   }
 
-  async exists(path: string): Promise<boolean> {
+  async exists(path: string): Promise<false | StoreItem> {
     const store = this.connect();
+    const fullPath = joinPath(store.path, path);
+    const exists = await pathExists(fullPath);
 
-    return pathExists(joinPath(store.path, path));
+    if (!exists) {
+      return false;
+    }
+
+    return {
+      name: basename(path),
+      url: `store:/${path}`,
+      isDirectory: await isDirectory(fullPath),
+    };
   }
 
   async get(path: string): Promise<Buffer> {

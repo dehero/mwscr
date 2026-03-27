@@ -68,7 +68,7 @@ export class MultiStoreManager extends MultiStore implements StoreManager {
     }
   }
 
-  async exists(path: string): Promise<boolean> {
+  async exists(path: string): Promise<false | StoreItem> {
     const [store] = this.stores.filter(storeIncludesPath(path));
     if (store) {
       return store.exists(path);
