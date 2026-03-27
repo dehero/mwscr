@@ -2,7 +2,9 @@ import type { Store } from '../entities/store.js';
 import { site } from '../services/site.js';
 
 export class SiteStore implements Store {
-  include = [
+  readonly name = 'Site';
+
+  readonly include = [
     'shots/*.png',
     'drawings/*.{png,webp,jpg}',
     'wallpapers/*.png',
@@ -13,6 +15,7 @@ export class SiteStore implements Store {
     'outtakes/*.{jpg,png}',
     'avatars/*.jpg',
     'photos/*.jpg',
+    'inbox/*.{jpg,png}',
   ];
 
   getPublicUrl(path: string): string | undefined {
@@ -23,5 +26,3 @@ export class SiteStore implements Store {
     return `${site.origin}/previews/${path.replace(/(.*)\..*/, '/previews/$1.avif')}`;
   }
 }
-
-export const siteStore = new SiteStore();

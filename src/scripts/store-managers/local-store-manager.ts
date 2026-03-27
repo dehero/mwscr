@@ -7,8 +7,9 @@ import type { StoreItem, StoreManager } from '../../core/entities/store.js';
 import { pathExists } from '../utils/file-utils.js';
 
 export class LocalStoreManager implements StoreManager {
+  readonly name = 'Local';
   // Skip this store if LOCAL_STORE_PATH is not set
-  include = process.env.LOCAL_STORE_PATH ? undefined : [];
+  readonly include = process.env.LOCAL_STORE_PATH ? undefined : [];
 
   private connect() {
     const { LOCAL_STORE_PATH } = process.env;
@@ -98,5 +99,3 @@ export class LocalStoreManager implements StoreManager {
     return fs.unlink(joinPath(store.path, path));
   }
 }
-
-export const localStoreManager = new LocalStoreManager();

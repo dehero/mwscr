@@ -8,6 +8,7 @@ import { importStoreInbox } from './functions/import-store-inbox.js';
 import { importTelegramBotUpdates } from './functions/import-telegram-bot-updates.js';
 import { maintainPreviews } from './functions/maintain-previews.js';
 import { publishPosts } from './functions/publish-posts.js';
+import { syncStore } from './functions/sync-store.js';
 import { updatePublications } from './functions/update-publications.js';
 import { updateUsers } from './functions/update-users.js';
 
@@ -15,6 +16,8 @@ await createGithubIssueTemplates();
 
 // TODO: fix parsing captions (causing wrong tags in posts)
 // await grabManualPosts();
+
+await syncStore();
 
 await importStoreInbox();
 

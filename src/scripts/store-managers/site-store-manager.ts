@@ -9,6 +9,7 @@ import { streamToBuffer } from '../utils/data-utils.js';
 export class SiteStoreManager extends SiteStore implements StoreManager {
   private client: SFTPClient | undefined;
   private disconnectTimer: NodeJS.Timeout | undefined;
+  private dirCache: Map<string, StoreItem[]> = new Map();
 
   private async connect() {
     if (this.disconnectTimer) {
@@ -67,21 +68,32 @@ export class SiteStoreManager extends SiteStore implements StoreManager {
 
       await site.client.mkdir(posix.dirname(toPath), true);
       await site.client.rcopy(fromPath, toPath);
+
+      this.dirCache.delete(posix.dirname(from));
+      this.dirCache.delete(posix.dirname(to));
     } finally {
       this.disconnect();
     }
   }
 
   async exists(path: string): Promise<boolean> {
-    const site = await this.connect();
-
+    const { dir, base } = posix.parse(path);
     try {
-      const result = await site.client.exists(posix.join(site.path, path));
-
-      return Boolean(result);
-    } finally {
-      this.disconnect();
+      const items = await this.readdir(dir);
+      return Boolean(items.find((item) => item.name === base));
+    } catch {
+      return false;
     }
+
+    // const site = await this.connect();
+
+    // try {
+    //   const result = await site.client.exists(posix.join(site.path, path));
+
+    //   return Boolean(result);
+    // } finally {
+    //   this.disconnect();
+    // }
   }
 
   async get(path: string): Promise<Buffer> {
@@ -115,6 +127,9 @@ export class SiteStoreManager extends SiteStore implements StoreManager {
 
       await site.client.mkdir(posix.dirname(toPath), true);
       await site.client.rename(fromPath, toPath);
+
+      this.dirCache.delete(posix.dirname(from));
+      this.dirCache.delete(posix.dirname(to));
     } finally {
       this.disconnect();
     }
@@ -136,18 +151,25 @@ export class SiteStoreManager extends SiteStore implements StoreManager {
       const writeStream = site.client.createWriteStream(filename);
       stream.pipe(writeStream);
       await finished(writeStream);
+
+      this.dirCache.delete(posix.dirname(path));
     } finally {
       this.disconnect();
     }
   }
 
   async readdir(path: string): Promise<StoreItem[]> {
+    let result = this.dirCache.get(path);
+    if (result) {
+      return result;
+    }
+
     const site = await this.connect();
 
     try {
       const list = await site.client.list(posix.join(site.path, path));
 
-      return list.map((item) => ({
+      result = list.map((item) => ({
         name: item.name,
         url: `store:/${posix.join(path, item.name)}`,
         isDirectory: item.type === 'd',
@@ -155,6 +177,10 @@ export class SiteStoreManager extends SiteStore implements StoreManager {
     } finally {
       this.disconnect();
     }
+
+    this.dirCache.set(path, result);
+
+    return result;
   }
 
   async remove(path: string): Promise<void> {
@@ -162,10 +188,10 @@ export class SiteStoreManager extends SiteStore implements StoreManager {
 
     try {
       await site.client.delete(posix.join(site.path, path));
+
+      this.dirCache.delete(posix.dirname(path));
     } finally {
       this.disconnect();
     }
   }
 }
-
-export const siteStoreManager = new SiteStoreManager();
