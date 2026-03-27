@@ -601,7 +601,7 @@ arya-stark:
   profiles:
     - service: vk
       id: '820702664'
-      updated: 2026-03-26-22-37-24
+      updated: 2026-03-27-02-50-51
       username: id820702664
       name: Арья Старк
       avatar: store:/avatars/vk-689aa89d.jpg
@@ -1019,7 +1019,7 @@ chacal:
   profiles:
     - service: tg
       id: '8095034962'
-      updated: 2026-03-26-23-38-37
+      updated: 2026-03-27-02-50-37
       accessHash: '-7146146524014681806'
       name: Chacal 🇩🇴
       avatar: store:/avatars/tg-5055567062113127364.jpg
@@ -1760,7 +1760,7 @@ eidelelweise:
   profiles:
     - service: vk
       id: '451140204'
-      updated: 2026-03-26-23-38-34
+      updated: 2026-03-27-02-50-41
       username: eidelelweise
       name: Эйдель Элиас Вайс
       avatar: store:/avatars/vk-85124301.jpg
@@ -2251,7 +2251,7 @@ goosevich76:
   profiles:
     - service: tg
       id: '5385620621'
-      updated: 2026-03-26-19-20-43
+      updated: 2026-03-27-02-50-45
       accessHash: '-7130473396589324830'
       username: horwwwaty
       name: choven
@@ -2686,7 +2686,7 @@ ivan-uralov:
   profiles:
     - service: vk
       id: '16497155'
-      updated: 2026-03-26-23-38-34
+      updated: 2026-03-27-02-50-39
       username: id16497155
       name: Иван Уралов
       avatar: store:/avatars/vk-51775759.jpg
@@ -2974,7 +2974,7 @@ kevy-c:
   profiles:
     - service: tg
       id: '5067683234'
-      updated: 2026-03-26-23-38-34
+      updated: 2026-03-27-02-50-48
       accessHash: '-903667913374325979'
       username: Kevy_c
       name: Dash
@@ -2999,7 +2999,7 @@ kirillmanyukov:
   profiles:
     - service: vk
       id: '80137875'
-      updated: 2026-03-20-02-34-40
+      updated: 2026-03-27-02-50-47
       username: kirillmanyukov
       name: Кирилл Манюков
       avatar: store:/avatars/vk-b5b51945.jpg
@@ -3814,7 +3814,7 @@ myndowen:
   profiles:
     - service: tg
       id: '720784420'
-      updated: 2026-03-26-23-38-38
+      updated: 2026-03-27-02-50-39
       accessHash: '4385662928393121475'
       username: myndowen
       name: Daniel Beilin
@@ -4074,7 +4074,7 @@ oberhort:
   profiles:
     - service: tg
       id: '19254498'
-      updated: 2026-03-26-23-38-37
+      updated: 2026-03-27-02-50-37
       accessHash: '-564270059565994883'
       username: oberhort
       name: Игорь
@@ -4449,7 +4449,7 @@ porsankka666:
   profiles:
     - service: vk
       id: '320093421'
-      updated: 2026-03-26-20-42-08
+      updated: 2026-03-27-02-50-51
       username: porsankka666
       name: Дмитрий Иванов-Соломин
       avatar: store:/avatars/vk-323a71af.jpg
@@ -4621,7 +4621,7 @@ reanimatrix:
   profiles:
     - service: tg
       id: '5221327246'
-      updated: 2026-03-20-02-34-37
+      updated: 2026-03-27-02-50-44
       accessHash: '2760022429796079203'
       name: reanimatrix
 redoranar:
@@ -4905,7 +4905,7 @@ self-creating:
   profiles:
     - service: vk
       id: '50058433'
-      updated: 2026-03-22-13-25-25
+      updated: 2026-03-27-02-50-51
       username: self_creating
       name: Антон Коненков
       avatar: store:/avatars/vk-ef1ee023.jpg
@@ -4937,7 +4937,7 @@ sergey-b-2:
   profiles:
     - service: vk
       id: '1077446394'
-      updated: 2026-03-26-23-38-35
+      updated: 2026-03-27-02-50-51
       username: id1077446394
       name: Сергей Б
       avatar: store:/avatars/vk-4deb0770.jpg
