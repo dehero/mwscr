@@ -30,6 +30,7 @@ import {
   resourceExists,
   writeResource,
 } from './resources.js';
+import { storeManager } from '../store-managers/index.js';
 
 export async function importResourceToStore(
   resource: string | Resource,
@@ -309,4 +310,18 @@ export async function saveUserAvatar(
   }
 
   return newUrl;
+}
+
+export async function syncStoreResource(url: string) {
+  const { pathname } = parseResourceUrl(url);
+
+  try {
+    for await (const [store, item] of storeManager.sync(pathname)) {
+      console.info(`Synchronized "${item.url}" to ${store.name} store.`);
+    }
+  } catch (error) {
+    if (error instanceof Error) {
+      console.error(`Error syncing resource "${url}": ${error.message}`);
+    }
+  }
 }
