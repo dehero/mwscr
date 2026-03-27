@@ -37,7 +37,8 @@ export interface StoreResourceParsedUrl {
 }
 
 export interface Store {
-  include?: string[];
+  readonly include?: string[];
+  readonly name: string;
 
   getPublicUrl(path: string): string | undefined;
 

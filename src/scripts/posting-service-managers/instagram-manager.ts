@@ -45,7 +45,7 @@ import { readResource } from '../data-managers/resources.js';
 import { saveUserAvatar } from '../data-managers/store-resources.js';
 import { users } from '../data-managers/users.js';
 import { createPostStory } from '../renderers/stories.js';
-import { siteStoreManager } from '../store-managers/site-store-manager.js';
+import { siteStoreManager } from '../store-managers/index.js';
 
 const INSTAGRAM_PAGE_ID = '17841404237421312'; // Instagram Business ID
 

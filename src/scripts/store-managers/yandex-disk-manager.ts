@@ -15,6 +15,8 @@ function diskPathToStoreUrl(path: string) {
 }
 
 export class YandexDiskManager implements StoreManager {
+  readonly name = 'Yandex.Disk';
+
   private previewUrlCache: Map<string, string | undefined> = new Map();
   private dirCache: Map<string, StoreItem[]> = new Map();
 
@@ -210,5 +212,3 @@ export class YandexDiskManager implements StoreManager {
     // TODO: Track operation progress https://yandex.com/dev/disk/api/reference/delete.html
   }
 }
-
-export const yandexDiskManager = new YandexDiskManager();
