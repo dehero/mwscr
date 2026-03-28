@@ -537,7 +537,7 @@ arisavushka:
   profiles:
     - service: vk
       id: '9414735'
-      updated: 2026-03-28-04-58-58
+      updated: 2026-03-28-06-04-37
       username: arisavushka
       name: Сицуно Арисава
       avatar: store:/avatars/vk-550c5387.jpg
@@ -553,7 +553,7 @@ artem-petrov:
   profiles:
     - service: vk
       id: '4238605'
-      updated: 2026-03-28-04-58-59
+      updated: 2026-03-28-06-04-42
       username: id4238605
       name: Артем Петров
       avatar: store:/avatars/vk-77942374.jpg
@@ -1320,7 +1320,7 @@ darkness-rifho:
       deleted: true
     - service: tg
       id: '5704974271'
-      updated: 2026-03-26-19-20-40
+      updated: 2026-03-28-06-04-53
       accessHash: '3506423524566292179'
       username: C4H6O4
       name: Уна
@@ -1760,7 +1760,7 @@ eidelelweise:
   profiles:
     - service: vk
       id: '451140204'
-      updated: 2026-03-28-04-58-57
+      updated: 2026-03-28-06-04-36
       username: eidelelweise
       name: Эйдель Элиас Вайс
       avatar: store:/avatars/vk-85124301.jpg
@@ -2193,7 +2193,7 @@ gleb-zheltuhin:
   profiles:
     - service: vk
       id: '29014473'
-      updated: 2026-03-28-04-58-58
+      updated: 2026-03-28-06-04-41
       username: gleb_zheltuhin
       name: Глеб Желтухин
       avatar: store:/avatars/vk-971eefc1.jpg
@@ -2686,7 +2686,7 @@ ivan-uralov:
   profiles:
     - service: vk
       id: '16497155'
-      updated: 2026-03-28-04-58-58
+      updated: 2026-03-28-06-04-41
       username: id16497155
       name: Иван Уралов
       avatar: store:/avatars/vk-51775759.jpg
@@ -2974,7 +2974,7 @@ kevy-c:
   profiles:
     - service: tg
       id: '5067683234'
-      updated: 2026-03-28-04-58-56
+      updated: 2026-03-28-06-04-42
       accessHash: '-903667913374325979'
       username: Kevy_c
       name: Dash
@@ -3952,7 +3952,7 @@ nikitaloshenko:
   profiles:
     - service: vk
       id: '58942565'
-      updated: 2026-03-28-04-58-58
+      updated: 2026-03-28-06-04-40
       username: nikitaloshenko
       name: Никита Лощенко
       avatar: store:/avatars/vk-dcd345db.jpg
@@ -4937,7 +4937,7 @@ sergey-b-2:
   profiles:
     - service: vk
       id: '1077446394'
-      updated: 2026-03-28-04-58-57
+      updated: 2026-03-28-06-04-36
       username: id1077446394
       name: Сергей Б
       avatar: store:/avatars/vk-4deb0770.jpg
@@ -5213,11 +5213,11 @@ sonnykotya:
   profiles:
     - service: tg
       id: '7937963458'
-      updated: 2026-03-21-04-55-13
+      updated: 2026-03-28-06-04-47
       accessHash: '6311850478953577755'
       username: sonnykotya
       name: дракоша
-      avatar: store:/avatars/tg-5327759407611318992.jpg
+      avatar: store:/avatars/tg-5343914922800255828.jpg
 sothaseel:
   profiles:
     - service: ig
