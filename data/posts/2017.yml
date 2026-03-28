@@ -4983,6 +4983,23 @@
       followers: 567
       likes: 55
       views: 543
+    - service: ig
+      id: DWcFt1wk2X-
+      mediaId: '18110393293793793'
+      published: 2026-03-28-18-54-12
+      followers: 1612
+    - service: vk
+      id: 3232
+      published: 2026-03-28-18-54-20
+      followers: 1622
+    - service: tg
+      id: 1196
+      published: 2026-03-28-18-54-26
+      followers: 900
+    - service: mx
+      id: '1774724070641'
+      published: 2026-03-28-18-54-30
+      followers: 20
 2017-04-08-museum-centurion:
   title: Museum Centurion
   titleRu: Музейный центурион
@@ -9402,19 +9419,19 @@
       id: DWW_sMujiRY
       mediaId: '17871055197471056'
       published: 2026-03-26-19-25-22
-      updated: 2026-03-28-17-35-56
+      updated: 2026-03-28-18-51-06
       followers: 1614
-      likes: 61
+      likes: 62
       comments: !c |-
         CyGAkZPLQnnTA/msAACtZGFuaWVsbGUtaGlpadkoSG9uZXN0bHkgd3RmIGlzIHdyb25nIHdpdGgg
         dGhpcyBndXkg8J+YrQM=
     - service: vk
       id: 3210
       published: 2026-03-26-19-25-32
-      updated: 2026-03-28-17-36-02
+      updated: 2026-03-28-18-51-15
       followers: 1622
       likes: 57
-      views: 532
+      views: 533
       reposts: 1
       comments: !c |-
         G4gEIJwHxi3zhkH4B+5qxFJGhQ1clTwkSfPWEVKDQWF0CRoNBGUws0Zj1XKdESiB0iiLcAiV8ofy
@@ -9431,7 +9448,7 @@
     - service: tg
       id: 1194
       published: 2026-03-26-19-25-39
-      updated: 2026-03-28-17-35-58
+      updated: 2026-03-28-18-51-08
       followers: 899
       likes: 51
       views: 206
@@ -12209,19 +12226,19 @@
       id: DWZiaN-ALAW
       mediaId: '17950801467118093'
       published: 2026-03-27-19-07-10
-      updated: 2026-03-28-17-35-53
+      updated: 2026-03-28-18-51-04
       followers: 1613
-      likes: 52
+      likes: 53
       comments: !c |-
         GzwA+GXy1ghnEx+OB/I/vYJdIpGHUURRLYgmonSke+nmH5eM47zx/pDvB+Diqo/AJvUiatUYPxSI
         RKNAQemyAQ==
     - service: vk
       id: 3218
       published: 2026-03-27-19-07-19
-      updated: 2026-03-28-17-35-55
+      updated: 2026-03-28-18-51-11
       followers: 1622
-      likes: 47
-      views: 413
+      likes: 48
+      views: 422
       reposts: 3
       comments: !c |-
         GwUEACwOzPPmxcC4ObpvQeL/eS6xcIR+hlKH1rwCrnCpIo2o3ndWuGlsWiu0eyGnHNuHkTYH3GFf
@@ -12237,10 +12254,10 @@
     - service: tg
       id: 1195
       published: 2026-03-27-19-07-25
-      updated: 2026-03-28-17-35-49
+      updated: 2026-03-28-18-51-00
       followers: 900
       likes: 43
-      views: 160
+      views: 162
     - service: mx
       id: '1774638450359'
       published: 2026-03-27-19-07-30
