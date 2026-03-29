@@ -23,6 +23,7 @@ import { USER_UNKNOWN } from '../../core/entities/user.js';
 import { importingScenarios } from '../../core/scenarios/importing.js';
 import { asArray, getRevisionHash } from '../../core/utils/common-utils.js';
 import { extractDateFromString } from '../../core/utils/date-utils.js';
+import { storeManager } from '../store-managers/index.js';
 import {
   extractResourceMediaMetadata,
   moveResource,
@@ -30,7 +31,6 @@ import {
   resourceExists,
   writeResource,
 } from './resources.js';
-import { storeManager } from '../store-managers/index.js';
 
 export async function importResourceToStore(
   resource: string | Resource,

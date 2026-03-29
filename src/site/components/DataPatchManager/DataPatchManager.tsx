@@ -85,6 +85,10 @@ export const DataPatchManager: Component<DataPatchManagerProps> = (props) => {
       setProcessingMessage(`Loading patch "${title}"`);
 
       const url = getResourceDataUrl(upload.url);
+      if (!url) {
+        throw new Error('Failed to get patch URL.');
+      }
+
       const response = await fetch(url);
       const data = stringToDataPatch(await response.text());
 

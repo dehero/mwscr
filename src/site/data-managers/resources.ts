@@ -1,3 +1,6 @@
+import { parseResourceUrl } from '../../core/entities/resource.js';
+import { store } from '../stores/index.js';
+
 export function getResourcePreviewUrl(url: string | undefined) {
   return url
     ?.replace(/^store:\/(.*)\..*/, '/previews/$1.avif')
@@ -20,7 +23,17 @@ export function getVideoPosterUrl(url: string) {
 }
 
 export function getResourceDataUrl(url: string) {
-  return url.replace(/^store:\/(.*)/, '/store/$1').replace(/^uploads:\/(.*)/, '/uploads/$1');
+  const { protocol, pathname } = parseResourceUrl(url);
+
+  switch (protocol) {
+    case 'store:':
+      return store.getPublicUrl(pathname);
+    case 'uploads:':
+      return `/uploads/${pathname}`;
+    default:
+  }
+
+  return url;
 }
 
 export function getUploadMetaUrl(url: string) {

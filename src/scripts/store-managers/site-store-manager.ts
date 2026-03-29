@@ -3,13 +3,17 @@ import { finished } from 'node:stream/promises';
 import SFTPClient from 'ssh2-sftp-client';
 import { Readable } from 'stream';
 import type { StoreItem, StoreManager } from '../../core/entities/store.js';
-import { SiteStore } from '../../core/stores/site-store.js';
+import { AbstractSiteStore } from '../../core/stores/abstract-site-store.js';
 import { streamToBuffer } from '../utils/data-utils.js';
 
-export class SiteStoreManager extends SiteStore implements StoreManager {
+export class SiteStoreManager extends AbstractSiteStore implements StoreManager {
   private client: SFTPClient | undefined;
   private disconnectTimer: NodeJS.Timeout | undefined;
   private dirCache: Map<string, StoreItem[]> = new Map();
+
+  protected getSecretKey() {
+    return process.env.SITE_STORE_SECRET_KEY;
+  }
 
   private async connect() {
     if (this.disconnectTimer) {
@@ -63,11 +67,21 @@ export class SiteStoreManager extends SiteStore implements StoreManager {
     const site = await this.connect();
 
     try {
-      const fromPath = posix.join(site.path, from);
-      const toPath = posix.join(site.path, to);
+      const fromRealPath = this.toRealPath(from);
+      if (!fromRealPath) {
+        throw new Error(`Failed to create real path for "${from}".`);
+      }
 
-      await site.client.mkdir(posix.dirname(toPath), true);
-      await site.client.rcopy(fromPath, toPath);
+      const toRealPath = this.toRealPath(to);
+      if (!toRealPath) {
+        throw new Error(`Failed to create real path for "${to}".`);
+      }
+
+      const fullFromPath = posix.join(site.path, fromRealPath);
+      const fullToPath = posix.join(site.path, toRealPath);
+
+      await site.client.mkdir(posix.dirname(fullToPath), true);
+      await site.client.rcopy(fullFromPath, fullToPath);
 
       this.dirCache.delete(posix.dirname(from));
       this.dirCache.delete(posix.dirname(to));
@@ -84,24 +98,18 @@ export class SiteStoreManager extends SiteStore implements StoreManager {
     } catch {
       return false;
     }
-
-    // const site = await this.connect();
-
-    // try {
-    //   const result = await site.client.exists(posix.join(site.path, path));
-
-    //   return Boolean(result);
-    // } finally {
-    //   this.disconnect();
-    // }
   }
 
   async get(path: string): Promise<Buffer> {
     const site = await this.connect();
 
     try {
-      const stream = site.client.createReadStream(posix.join(site.path, path));
+      const realPath = this.toRealPath(path);
+      if (!realPath) {
+        throw new Error(`Failed to create real path for "${path}".`);
+      }
 
+      const stream = site.client.createReadStream(posix.join(site.path, realPath));
       return streamToBuffer(stream);
     } finally {
       this.disconnect();
@@ -112,7 +120,12 @@ export class SiteStoreManager extends SiteStore implements StoreManager {
     const site = await this.connect();
 
     try {
-      return site.client.createReadStream(posix.join(site.path, path));
+      const realPath = this.toRealPath(path);
+      if (!realPath) {
+        throw new Error(`Failed to create real path for "${path}".`);
+      }
+
+      return site.client.createReadStream(posix.join(site.path, realPath));
     } finally {
       this.disconnect();
     }
@@ -122,14 +135,24 @@ export class SiteStoreManager extends SiteStore implements StoreManager {
     const site = await this.connect();
 
     try {
-      const fromPath = posix.join(site.path, from);
-      const toPath = posix.join(site.path, to);
+      const fromRealPath = this.toRealPath(from);
+      if (!fromRealPath) {
+        throw new Error(`Failed to create real path for "${from}".`);
+      }
 
-      await site.client.mkdir(posix.dirname(toPath), true);
-      await site.client.rename(fromPath, toPath);
+      const toRealPath = this.toRealPath(to);
+      if (!toRealPath) {
+        throw new Error(`Failed to create real path for "${to}".`);
+      }
 
-      this.dirCache.delete(posix.dirname(from));
-      this.dirCache.delete(posix.dirname(to));
+      const fullFromPath = posix.join(site.path, fromRealPath);
+      const fullToPath = posix.join(site.path, toRealPath);
+
+      await site.client.mkdir(posix.dirname(fullToPath), true);
+      await site.client.rename(fullFromPath, fullToPath);
+
+      this.dirCache.delete(posix.dirname(fromRealPath));
+      this.dirCache.delete(posix.dirname(toRealPath));
     } finally {
       this.disconnect();
     }
@@ -137,7 +160,6 @@ export class SiteStoreManager extends SiteStore implements StoreManager {
 
   async put(path: string, data: Iterable<unknown> | AsyncIterable<unknown>): Promise<void> {
     const stream = Readable.from(data);
-
     return this.putStream(path, stream);
   }
 
@@ -145,7 +167,12 @@ export class SiteStoreManager extends SiteStore implements StoreManager {
     const site = await this.connect();
 
     try {
-      const filename = posix.join(site.path, path);
+      const realPath = this.toRealPath(path);
+      if (!realPath) {
+        throw new Error(`Failed to create real path for "${path}".`);
+      }
+
+      const filename = posix.join(site.path, realPath);
       await site.client.mkdir(posix.dirname(filename), true);
 
       const writeStream = site.client.createWriteStream(filename);
@@ -167,10 +194,15 @@ export class SiteStoreManager extends SiteStore implements StoreManager {
     const site = await this.connect();
 
     try {
-      const list = await site.client.list(posix.join(site.path, path));
+      const realPath = this.toRealPath(path);
+      if (!realPath) {
+        throw new Error(`Failed to create real path for "${path}".`);
+      }
+
+      const list = await site.client.list(posix.join(site.path, realPath));
 
       result = list.map((item) => ({
-        name: item.name,
+        name: item.type === 'd' ? this.unprotectFolderName(item.name) : item.name,
         url: `store:/${posix.join(path, item.name)}`,
         isDirectory: item.type === 'd',
       }));
@@ -187,8 +219,12 @@ export class SiteStoreManager extends SiteStore implements StoreManager {
     const site = await this.connect();
 
     try {
-      await site.client.delete(posix.join(site.path, path));
+      const realPath = this.toRealPath(path);
+      if (!realPath) {
+        throw new Error(`Failed to create real path for "${path}".`);
+      }
 
+      await site.client.delete(posix.join(site.path, realPath));
       this.dirCache.delete(posix.dirname(path));
     } finally {
       this.disconnect();
