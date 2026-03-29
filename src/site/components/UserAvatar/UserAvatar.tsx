@@ -2,9 +2,9 @@ import clsx from 'clsx';
 import { type Component, onMount, Show } from 'solid-js';
 import { parseResourceUrl } from '../../../core/entities/resource.js';
 import { getUserTitleLetter } from '../../../core/entities/user.js';
-import { store } from '../../../core/stores/index.js';
 import { getResourcePreviewUrl } from '../../data-managers/resources.js';
 import YellowExclamationMark from '../../images/exclamation.svg';
+import { store } from '../../stores/index.js';
 import { useToaster } from '../Toaster/Toaster.jsx';
 import styles from './UserAvatar.module.css';
 

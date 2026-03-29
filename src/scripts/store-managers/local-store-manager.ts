@@ -1,6 +1,6 @@
 import { createReadStream, createWriteStream } from 'fs';
 import fs from 'fs/promises';
-import { dirname, join as joinPath, basename } from 'path';
+import { basename, dirname, join as joinPath } from 'path';
 import { finished } from 'node:stream/promises';
 import { Readable } from 'stream';
 import type { StoreItem, StoreManager } from '../../core/entities/store.js';

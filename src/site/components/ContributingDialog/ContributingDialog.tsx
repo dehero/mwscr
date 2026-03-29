@@ -11,9 +11,10 @@ import {
 import { Dialog } from '../Dialog/Dialog.jsx';
 import { Frame } from '../Frame/Frame.jsx';
 import { Icon } from '../Icon/Icon.jsx';
+import { SettingsEditor } from '../SettingsEditor/SettingsEditor.jsx';
 import styles from './ContributingDialog.module.css';
 
-export type ContributingDialogTab = 'patch' | 'variants';
+export type ContributingDialogTab = 'patch' | 'variants' | 'settings';
 
 export const ContributingDialog: DetachedDialog<ContributingDialogTab> = (props) => {
   const tab = () => props.pathname ?? 'variants';
@@ -46,6 +47,9 @@ export const ContributingDialog: DetachedDialog<ContributingDialogTab> = (props)
         </Button>
         <Button active={tab() === 'patch'} href={createDetachedDialogFragment('contributing', 'patch')}>
           Edits {patchSize() > 0 ? ` (${patchSize()})` : ''}
+        </Button>
+        <Button active={tab() === 'settings'} href={createDetachedDialogFragment('contributing', 'settings')}>
+          Settings
         </Button>
       </div>
 
@@ -122,6 +126,10 @@ export const ContributingDialog: DetachedDialog<ContributingDialogTab> = (props)
 
           <Match when={tab() === 'patch'}>
             <DataPatchEditor class={styles.patchEditor} />
+          </Match>
+
+          <Match when={tab() === 'settings'}>
+            <SettingsEditor class={styles.patchEditor} />
           </Match>
         </Switch>
       </Frame>

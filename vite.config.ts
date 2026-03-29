@@ -113,7 +113,7 @@ export default defineConfig(async ({ isSsrBuild }) => ({
         changeOrigin: true,
         rewrite: (path: string) => path.replace(/^\/uploads/, '/uploads'),
       },
-      '/store': {
+      '/store/': {
         target: 'http://mwscr.dehero.site',
         changeOrigin: true,
         rewrite: (path: string) => path.replace(/^\/store/, '/store'),
