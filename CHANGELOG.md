@@ -2,6 +2,56 @@
 
 All notable changes to this project will be documented in this file.
 
+## [2.21.0](https://github.com/dehero/mwscr/compare/v2.20.3...v2.21.0) (2026-03-29)
+
+### Features
+
+- add demo image editing page
+  ([5797362](https://github.com/dehero/mwscr/commit/57973626b67d9092ca4ea0fe202f250cd76571ac))
+- implement protected directories for site store
+  ([661d494](https://github.com/dehero/mwscr/commit/661d494b5088d7a3c4ab338a2a7e4a09ea794d9c))
+- implement store sync method
+  ([f5e4cee](https://github.com/dehero/mwscr/commit/f5e4cee793e03b77eafa0c3808b3f5b0b3b0823c))
+- implement syncing separate files
+  ([48e0244](https://github.com/dehero/mwscr/commit/48e024423c34bd50e2491938558c379a4c09c701))
+- return store item info when checking for existance
+  ([b7e5ee7](https://github.com/dehero/mwscr/commit/b7e5ee758fe78f0dfd3eed897825870f0f715a8a))
+- **site:** add active state to Label component
+  ([a5e59d8](https://github.com/dehero/mwscr/commit/a5e59d8d81ad80d93696513b50d787b44a46d8c3))
+- **site:** add image editing to PostDialog
+  ([227d68b](https://github.com/dehero/mwscr/commit/227d68b90451b8da80471c86f928d8801e47916b))
+- **site:** implement Image Editor page
+  ([8c2b2ec](https://github.com/dehero/mwscr/commit/8c2b2eca326ddd208d1dbb5a5aedb6448c14e598))
+- **site:** implement ImageEditingDialog component
+  ([4f943cf](https://github.com/dehero/mwscr/commit/4f943cf6406a9ce29530af9f38bf0de905b3642c))
+- **site:** implement ImageEditor component
+  ([92f8d32](https://github.com/dehero/mwscr/commit/92f8d3236ed55c3006d2ae8c5402ee39b44c4706))
+- **site:** implement Slider component
+  ([f341a8a](https://github.com/dehero/mwscr/commit/f341a8a176fa32014686b97d18d85873dc720c1b))
+- synchronize separate files added to inbox manually instead of full synchronization
+  ([52b5c15](https://github.com/dehero/mwscr/commit/52b5c15d1be7a752c63e0d72b429b03770577bef))
+
+### Bug Fixes
+
+- **site:** adjust margins for Slider labels
+  ([0b090ec](https://github.com/dehero/mwscr/commit/0b090ec69baef17068a1740af4f6e6a8dcdbed66))
+- **site:** fix Dialog border hiding outside the screen
+  ([c82ba44](https://github.com/dehero/mwscr/commit/c82ba44a0427bcbfaca60b85c802ceaa9a7766a0))
+- **site:** use correct data URLs for store
+  ([927e0bd](https://github.com/dehero/mwscr/commit/927e0bda1eb83290f39203bc0b5c8e75ea5b77f5))
+- **site:** use correct default value for Slider with negative min
+  ([3dd8ed0](https://github.com/dehero/mwscr/commit/3dd8ed06d8b960bfd2e4c15e4439f0ebfeec7873))
+
+### Continuous Integration
+
+- add SITE_STORE_SECRET_KEY to env
+  ([5e5e564](https://github.com/dehero/mwscr/commit/5e5e56492efab3e2b6d5e8eaa727180bfca62c3e))
+
+### Code Refactoring
+
+- remove obsolete image editing demo page
+  ([c42a002](https://github.com/dehero/mwscr/commit/c42a0025c719a544060f374f2b2882db2ed1ecb1))
+
 ## [2.20.3](https://github.com/dehero/mwscr/compare/v2.20.2...v2.20.3) (2026-03-21)
 
 ### Bug Fixes
