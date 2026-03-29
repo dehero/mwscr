@@ -27,6 +27,7 @@ jobs:
       SITE_SSH_PRIVATE_KEY: '${{ secrets.SITE_SSH_PRIVATE_KEY }}'
       SITE_SSH_PATH: '${{ secrets.SITE_SSH_PATH }}'
       SITE_SSH_STORE_PATH: '${{ secrets.SITE_SSH_STORE_PATH }}'
+      SITE_STORE_SECRET_KEY: '${{ secrets.SITE_STORE_SECRET_KEY }}'
       TELEGRAM_API_APP_HASH: '${{ secrets.TELEGRAM_API_APP_HASH }}'
       TELEGRAM_API_APP_ID: '${{ secrets.TELEGRAM_API_APP_ID }}'
       TELEGRAM_PHONE_NUMBER: '${{ secrets.TELEGRAM_PHONE_NUMBER }}'
