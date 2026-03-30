@@ -104,14 +104,14 @@ a2-enkelli:
   profiles:
     - service: tg
       id: '7258424423'
-      updated: 2026-03-30-12-50-07
+      updated: 2026-03-30-14-51-51
       accessHash: '969825927170686844'
       deleted: true
 aarychagoff:
   profiles:
     - service: tg
       id: '1343549669'
-      updated: 2026-03-30-08-28-07
+      updated: 2026-03-30-14-51-52
       accessHash: '-8044934406214364524'
       username: aarychagoff
       name: Andrei Rychagov
@@ -585,7 +585,7 @@ artyom-melikhoff:
   profiles:
     - service: vk
       id: '299405149'
-      updated: 2026-03-30-12-50-43
+      updated: 2026-03-30-14-51-50
       username: artyom_melikhoff
       name: Артём Мелихов
       avatar: store:/avatars/vk-5b2fd843.jpg
@@ -601,7 +601,7 @@ arya-stark:
   profiles:
     - service: vk
       id: '820702664'
-      updated: 2026-03-30-12-49-57
+      updated: 2026-03-30-14-20-49
       username: id820702664
       name: Арья Старк
       avatar: store:/avatars/vk-689aa89d.jpg
@@ -2956,7 +2956,7 @@ kawazaky223:
   profiles:
     - service: tg
       id: '5641856113'
-      updated: 2026-03-30-12-50-22
+      updated: 2026-03-30-14-51-52
       accessHash: '7421309771527577818'
       username: Kawazaky223
       name: Максим
@@ -3022,6 +3022,10 @@ kitchensnineteenninetyseven:
       updated: 2025-06-27-12-02-30
       username: kitchensnineteenninetyseven
       avatar: store:/avatars/ig-89509642.jpg
+knight-of-digital-lands:
+  profiles:
+    - service: ig
+      username: knight_of.digital_lands
 knives-out:
   name: Knives Out
   profiles:
@@ -3589,6 +3593,10 @@ michael-levington:
       username: michael_levington
       name: Майкл Левингтон
       avatar: store:/avatars/vk-5fe6e343.jpg
+michaelichto:
+  profiles:
+    - service: ig
+      username: michaelichto
 middleirongate:
   profiles:
     - service: ig
@@ -3664,6 +3672,10 @@ mister-purrfect:
       username: id872831147
       name: Mister Purrfect
       avatar: store:/avatars/vk-d502311b.jpg
+mjnu159:
+  profiles:
+    - service: ig
+      username: mjnu159
 mlennic:
   profiles:
     - service: tg
@@ -4636,6 +4648,10 @@ reanimatrix:
       updated: 2026-03-27-02-50-44
       accessHash: '2760022429796079203'
       name: reanimatrix
+redmisstletoe:
+  profiles:
+    - service: ig
+      username: redmisstletoe
 redoranar:
   profiles:
     - service: tg
