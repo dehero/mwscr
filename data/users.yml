@@ -469,7 +469,7 @@ anonim:
   profiles:
     - service: tg
       id: '6469120788'
-      updated: 2026-03-30-12-50-00
+      updated: 2026-03-30-23-25-41
       accessHash: '-3557204299452739678'
       name: Аноним
       avatar: store:/avatars/tg-5258428988957332590.jpg
@@ -601,7 +601,7 @@ arya-stark:
   profiles:
     - service: vk
       id: '820702664'
-      updated: 2026-03-30-18-46-13
+      updated: 2026-03-30-23-25-42
       username: id820702664
       name: Арья Старк
       avatar: store:/avatars/vk-689aa89d.jpg
@@ -1968,7 +1968,7 @@ evgeniy-korobchenko:
   profiles:
     - service: vk
       id: '800945255'
-      updated: 2026-03-23-22-39-21
+      updated: 2026-03-30-23-25-42
       username: id800945255
       name: Евгений Коробченко
       avatar: store:/avatars/vk-8dff512d.jpg
@@ -2986,7 +2986,7 @@ kevy-c:
   profiles:
     - service: tg
       id: '5067683234'
-      updated: 2026-03-30-12-49-07
+      updated: 2026-03-30-23-25-41
       accessHash: '-903667913374325979'
       username: Kevy_c
       name: Dash
@@ -4560,7 +4560,7 @@ pyriglena:
   profiles:
     - service: tg
       id: '554672984'
-      updated: 2026-03-30-08-34-05
+      updated: 2026-03-30-23-25-41
       accessHash: '-3565593010225205906'
       username: pyriglena
       name: yarrow
