@@ -7192,6 +7192,23 @@
       followers: 166
       likes: 13
       views: 252
+    - service: ig
+      id: DWjzQwyDIp3
+      mediaId: '18006048551856127'
+      published: 2026-03-31-18-46-50
+      followers: 1615
+    - service: vk
+      id: 3237
+      published: 2026-03-31-18-46-59
+      followers: 1627
+    - service: tg
+      id: 1198
+      published: 2026-03-31-18-47-11
+      followers: 900
+    - service: mx
+      id: '1774982837378'
+      published: 2026-03-31-18-47-17
+      followers: 20
 2018-05-27-daedric-ruins:
   title: Daedric Ruins
   titleRu: Даэдрические руины
@@ -10949,25 +10966,25 @@
       id: DWhOi7gl6KR
       mediaId: '18201481873341480'
       published: 2026-03-30-18-47-32
-      updated: 2026-03-31-17-46-59
+      updated: 2026-03-31-18-45-37
       followers: 1613
       likes: 43
     - service: vk
       id: 3235
       published: 2026-03-30-18-47-39
-      updated: 2026-03-31-17-46-53
+      updated: 2026-03-31-18-45-31
       followers: 1627
-      likes: 46
-      views: 367
+      likes: 48
+      views: 374
       reposts: 4
       comments: !c ixWAkZPLQnnUJIYUgACqYXJ5YS1zdGFya7XQodC+0LvRgdGC0YXQtdC50LwuLi4D
     - service: tg
       id: 1197
       published: 2026-03-30-18-47-47
-      updated: 2026-03-31-17-46-56
+      updated: 2026-03-31-18-45-33
       followers: 899
       likes: 52
-      views: 169
+      views: 170
     - service: mx
       id: '1774896474695'
       published: 2026-03-30-18-47-54
