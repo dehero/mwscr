@@ -1764,7 +1764,7 @@ eidelelweise:
   profiles:
     - service: vk
       id: '451140204'
-      updated: 2026-03-30-08-16-18
+      updated: 2026-03-31-01-10-30
       username: eidelelweise
       name: Эйдель Элиас Вайс
       avatar: store:/avatars/vk-85124301.jpg
@@ -2205,7 +2205,7 @@ gleb-zheltuhin:
   profiles:
     - service: vk
       id: '29014473'
-      updated: 2026-03-30-08-16-03
+      updated: 2026-03-31-01-10-27
       username: gleb_zheltuhin
       name: Глеб Желтухин
       avatar: store:/avatars/vk-971eefc1.jpg
@@ -2698,7 +2698,7 @@ ivan-uralov:
   profiles:
     - service: vk
       id: '16497155'
-      updated: 2026-03-30-08-16-45
+      updated: 2026-03-31-01-10-27
       username: id16497155
       name: Иван Уралов
       avatar: store:/avatars/vk-51775759.jpg
@@ -2986,7 +2986,7 @@ kevy-c:
   profiles:
     - service: tg
       id: '5067683234'
-      updated: 2026-03-30-23-25-41
+      updated: 2026-03-31-01-10-27
       accessHash: '-903667913374325979'
       username: Kevy_c
       name: Dash
@@ -3065,7 +3065,7 @@ konstantin-matrosov:
   profiles:
     - service: vk
       id: '93073669'
-      updated: 2026-03-30-12-50-36
+      updated: 2026-03-31-01-10-28
       username: id93073669
       name: Константин Матросов
       avatar: store:/avatars/vk-81f32c7d.jpg
@@ -3968,7 +3968,7 @@ nikita-perminov:
   profiles:
     - service: vk
       id: '144340379'
-      updated: 2026-03-23-23-39-11
+      updated: 2026-03-31-01-10-29
       username: id144340379
       name: Никита Перминов
       avatar: store:/avatars/vk-55806a66.jpg
@@ -4965,7 +4965,7 @@ sergey-b-2:
   profiles:
     - service: vk
       id: '1077446394'
-      updated: 2026-03-30-12-49-34
+      updated: 2026-03-31-01-10-27
       username: id1077446394
       name: Сергей Б
       avatar: store:/avatars/vk-4deb0770.jpg
@@ -5402,10 +5402,10 @@ stigmatism:
   profiles:
     - service: vk
       id: '336307999'
-      updated: 2026-03-23-23-39-11
+      updated: 2026-03-31-01-10-30
       username: stigmatism
       name: Astigmatism Eyes
-      avatar: store:/avatars/vk-ddbd35b7.jpg
+      avatar: store:/avatars/vk-6f236d96.jpg
 stlyszczarz:
   profiles:
     - service: ig
