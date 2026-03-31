@@ -1,18 +1,32 @@
+.wrapper {
+  display: flex;
+  flex-flow: column nowrap;
+  gap: 8px;
+}
+
 .container {
   display: flex;
   flex-flow: column nowrap;
 }
 
+.container:nth-child(1) {
+  grid-area: content;
+}
+
+.container:nth-child(2) {
+  grid-area: snapshot;
+}
+
 .container:nth-child(3) {
-  grid-column: span 2;
+  grid-area: trash;
 }
 
 .toolbar {
-  grid-column: span 2;
   display: flex;
   flex-flow: row nowrap;
   gap: 8px;
   align-items: center;
+  grid-area: toolbar;
 }
 
 .list {
@@ -23,6 +37,8 @@
   min-height: 96px;
   box-sizing: border-box;
   flex: 1 1 auto;
+  position: relative;
+  align-content: flex-start;
 }
 
 .label {
@@ -54,4 +70,12 @@
   max-width: 100%;
   white-space: pre;
   overflow-wrap: normal;
+}
+
+@media only screen and (min-width: 380px) {
+  .wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: 'content trash' 'snapshot trash' 'toolbar toolbar';
+  }
 }

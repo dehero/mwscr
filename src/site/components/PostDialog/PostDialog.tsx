@@ -390,362 +390,362 @@ export const PostDialog: Component<PostDialogProps> = (props) => {
         show={props.show && loadingResources().length === 0}
         {...rest}
         actions={[<Button onClick={handleSubmit}>OK</Button>, <Button onClick={handleClose}>Cancel</Button>]}
+        contentClass={clsx(styles.container, ...preset().features.map((feature) => styles[feature]))}
         modal
       >
-        <div class={clsx(styles.container, ...preset().features.map((feature) => styles[feature]))}>
-          <Show when={preset().features.includes('previewContent')}>
-            <PostContentPreview
-              content={post().content}
-              aspectRatio={post().aspect}
-              maxHeightMultiplier={1}
-              class={styles.contentPreview}
+        <Show when={preset().features.includes('previewContent')}>
+          <PostContentPreview
+            content={post().content}
+            aspectRatio={post().aspect}
+            maxHeightMultiplier={1}
+            class={styles.contentPreview}
+          />
+        </Show>
+
+        <form id={form} class={styles.form}>
+          <Show
+            when={
+              preset().fields.includes('content') ||
+              preset().fields.includes('snapshot') ||
+              preset().fields.includes('trash')
+            }
+          >
+            <PostContentEditor
+              class={styles.contentEditor}
+              content={post().content ?? undefined}
+              snapshot={post().snapshot ?? undefined}
+              trash={post().trash ?? undefined}
+              onChange={setPostContentFields}
             />
           </Show>
 
-          <form id={form} class={styles.form}>
-            <Show
-              when={
-                preset().fields.includes('content') ||
-                preset().fields.includes('snapshot') ||
-                preset().fields.includes('trash')
-              }
-            >
-              <PostContentEditor
-                content={post().content ?? undefined}
-                snapshot={post().snapshot ?? undefined}
-                trash={post().trash ?? undefined}
-                onChange={setPostContentFields}
-              />
-            </Show>
-
-            <Show when={preset().fields.includes('title') || preset().fields.includes('description')}>
-              <fieldset class={clsx(styles.fieldset, styles.main)}>
-                <Show when={preset().fields.includes('title')}>
-                  <Label label="Title and Description" vertical>
-                    <Input
-                      name="title"
-                      value={post().title ?? undefined}
-                      onChange={(value) => setPatchField('title', value || undefined)}
-                    />
-                  </Label>
-                </Show>
-
-                <Show when={preset().fields.includes('description')}>
+          <Show when={preset().fields.includes('title') || preset().fields.includes('description')}>
+            <fieldset class={clsx(styles.fieldset, styles.main)}>
+              <Show when={preset().fields.includes('title')}>
+                <Label label="Title and Description" vertical>
                   <Input
-                    name="description"
-                    value={post().description ?? undefined}
-                    onChange={(value) => setPatchField('description', value || undefined)}
-                    multiline
-                    rows={5}
-                    class={styles.input}
+                    name="title"
+                    value={post().title ?? undefined}
+                    onChange={(value) => setPatchField('title', value || undefined)}
                   />
-                </Show>
-              </fieldset>
-            </Show>
+                </Label>
+              </Show>
 
-            <Show when={preset().fields.includes('titleRu') || preset().fields.includes('descriptionRu')}>
-              <fieldset class={clsx(styles.fieldset, styles.main)}>
-                <Show when={preset().fields.includes('titleRu')}>
-                  <Label label="Title and Description on Russian" vertical>
-                    <Input
-                      name="titleRu"
-                      value={post().titleRu ?? undefined}
-                      onChange={(value) => setPatchField('titleRu', value || undefined)}
-                    />
-                  </Label>
-                </Show>
+              <Show when={preset().fields.includes('description')}>
+                <Input
+                  name="description"
+                  value={post().description ?? undefined}
+                  onChange={(value) => setPatchField('description', value || undefined)}
+                  multiline
+                  rows={5}
+                  class={styles.input}
+                />
+              </Show>
+            </fieldset>
+          </Show>
 
-                <Show when={preset().fields.includes('descriptionRu')}>
+          <Show when={preset().fields.includes('titleRu') || preset().fields.includes('descriptionRu')}>
+            <fieldset class={clsx(styles.fieldset, styles.main)}>
+              <Show when={preset().fields.includes('titleRu')}>
+                <Label label="Title and Description on Russian" vertical>
                   <Input
-                    name="descriptionRu"
-                    value={post().descriptionRu ?? undefined}
-                    onChange={(value) => setPatchField('descriptionRu', value || undefined)}
-                    multiline
-                    rows={5}
-                    class={styles.input}
+                    name="titleRu"
+                    value={post().titleRu ?? undefined}
+                    onChange={(value) => setPatchField('titleRu', value || undefined)}
                   />
-                </Show>
-              </fieldset>
-            </Show>
+                </Label>
+              </Show>
 
-            <Show when={preset().fields.includes('placement') || preset().fields.includes('type')}>
-              <fieldset class={styles.fieldset}>
-                <Show when={preset().fields.includes('type')}>
-                  <Label label="Type" vertical>
-                    <div class={styles.selectWrapper}>
-                      <Select
-                        name="type"
-                        options={PostType.options.map((value) => ({ label: postTypeDescriptors[value].title, value }))}
-                        value={post().type}
-                        onChange={(value) => setPatchField('type', value)}
-                        class={styles.select}
-                      />
-                    </div>
-                  </Label>
-                </Show>
+              <Show when={preset().fields.includes('descriptionRu')}>
+                <Input
+                  name="descriptionRu"
+                  value={post().descriptionRu ?? undefined}
+                  onChange={(value) => setPatchField('descriptionRu', value || undefined)}
+                  multiline
+                  rows={5}
+                  class={styles.input}
+                />
+              </Show>
+            </fieldset>
+          </Show>
 
-                <Show when={preset().fields.includes('aspect')}>
-                  <Label label="Aspect Ratio" vertical>
-                    <div class={styles.selectWrapper}>
-                      <Select
-                        name="aspect"
-                        options={[
-                          EMPTY_OPTION,
-                          ...PostAspectRatio.options.map((value) => ({
-                            label: aspectRatioToReadableText(value),
-                            value,
-                          })),
-                        ]}
-                        value={post().aspect}
-                        onChange={(value) => setPatchField('aspect', value)}
-                        class={styles.select}
-                      />
-                    </div>
-                  </Label>
-                </Show>
-
-                <Show when={preset().fields.includes('placement')}>
-                  <Label label="Placement" vertical>
-                    <div class={styles.selectWrapper}>
-                      <Select
-                        name="placement"
-                        options={[EMPTY_OPTION, ...PostPlacement.options.map((value) => ({ value }))]}
-                        value={post().placement ?? undefined}
-                        onChange={(value) => setPatchField('placement', value)}
-                        class={styles.select}
-                      />
-                    </div>
-                  </Label>
-                </Show>
-              </fieldset>
-            </Show>
-
-            <Show when={preset().fields.includes('location')}>
-              <Label label="Location" class={styles.location} vertical>
-                <Show
-                  when={!post().addon || postAddonDescriptors[post().addon!].official}
-                  fallback={
-                    <Input
-                      name="location"
-                      value={asArray(post().location).join('')}
-                      onChange={(value) => setPatchField('location', mergePostLocations(value))}
-                    />
-                  }
-                >
-                  <fieldset class={clsx(styles.fieldset, styles.locations)}>
-                    <For each={[...asArray(post().location), undefined]}>
-                      {(location, index) => (
-                        <OptionSelectButton
-                          title="Select Location"
-                          options={locationOptions() ?? []}
-                          value={location}
-                          onChange={(location) => setPostLocation(index(), location)}
-                          optionTooltip={(value, forRef) =>
-                            value ? <LocationTooltip forRef={forRef} location={value} /> : undefined
-                          }
-                          emptyLabel="+"
-                        />
-                      )}
-                    </For>
-                  </fieldset>
-                </Show>
-              </Label>
-            </Show>
-
-            <Show when={asArray(post().location).length > 0 && preset().fields.includes('locating')}>
-              <Label label="Located By" vertical>
-                <fieldset class={clsx(styles.fieldset, styles.locating)}>
+          <Show when={preset().fields.includes('placement') || preset().fields.includes('type')}>
+            <fieldset class={styles.fieldset}>
+              <Show when={preset().fields.includes('type')}>
+                <Label label="Type" vertical>
                   <div class={styles.selectWrapper}>
                     <Select
-                      options={userOptions() ?? []}
-                      name="locating[user]"
-                      value={post().locating?.user}
-                      onChange={(user) => setPostLocating({ ...post().locating, user })}
+                      name="type"
+                      options={PostType.options.map((value) => ({ label: postTypeDescriptors[value].title, value }))}
+                      value={post().type}
+                      onChange={(value) => setPatchField('type', value)}
                       class={styles.select}
                     />
                   </div>
+                </Label>
+              </Show>
 
-                  <Show when={post().locating?.user}>
-                    <DatePicker
-                      // TODO: implement name="locating[date]"
-                      value={post().locating?.date}
-                      period={false}
-                      onChange={(date) => setPostLocating({ date })}
-                      emptyLabel="Pick Locating Date"
+              <Show when={preset().fields.includes('aspect')}>
+                <Label label="Aspect Ratio" vertical>
+                  <div class={styles.selectWrapper}>
+                    <Select
+                      name="aspect"
+                      options={[
+                        EMPTY_OPTION,
+                        ...PostAspectRatio.options.map((value) => ({
+                          label: aspectRatioToReadableText(value),
+                          value,
+                        })),
+                      ]}
+                      value={post().aspect}
+                      onChange={(value) => setPatchField('aspect', value)}
+                      class={styles.select}
                     />
+                  </div>
+                </Label>
+              </Show>
 
-                    <Input
-                      name="locating[text]"
-                      value={post().locating?.text}
-                      onChange={(text) => setPostLocating({ text })}
-                      multiline
-                      rows={3}
-                      class={styles.locatingText}
+              <Show when={preset().fields.includes('placement')}>
+                <Label label="Placement" vertical>
+                  <div class={styles.selectWrapper}>
+                    <Select
+                      name="placement"
+                      options={[EMPTY_OPTION, ...PostPlacement.options.map((value) => ({ value }))]}
+                      value={post().placement ?? undefined}
+                      onChange={(value) => setPatchField('placement', value)}
+                      class={styles.select}
                     />
-                  </Show>
-                </fieldset>
-              </Label>
-            </Show>
+                  </div>
+                </Label>
+              </Show>
+            </fieldset>
+          </Show>
 
-            <Show
-              when={
-                preset().fields.includes('engine') ||
-                preset().fields.includes('addon') ||
-                preset().fields.includes('tags')
-              }
-            >
-              <fieldset class={clsx(styles.fieldset, styles.tagsFieldset)}>
-                <Show when={preset().fields.includes('engine')}>
-                  <Label label="Engine" vertical>
-                    <div class={styles.selectWrapper}>
-                      <Select
-                        name="engine"
-                        options={[EMPTY_OPTION, ...PostEngine.options.map((value) => ({ value }))]}
-                        value={post().engine}
-                        onChange={(value) => setPatchField('engine', value)}
-                        class={styles.select}
-                      />
-                    </div>
-                  </Label>
-                </Show>
-
-                <Show when={preset().fields.includes('addon')}>
-                  <Label label="Addon" vertical>
-                    <div class={styles.selectWrapper}>
-                      <Select
-                        name="addon"
-                        options={[EMPTY_OPTION, ...PostAddon.options.map((value) => ({ value }))]}
-                        value={post().addon ?? undefined}
-                        onChange={(value) => setPatchField('addon', value)}
-                        class={styles.select}
-                      />
-                    </div>
-                  </Label>
-                </Show>
-
-                <Show when={preset().fields.includes('tags')}>
-                  <Label label="Tags" vertical class={styles.tags}>
-                    <Input
-                      name="tags"
-                      value={asArray(post().tags).join(' ')}
-                      onBlur={(e) => setPatchField('tags', mergePostTags(e.target.value.split(' ')))}
-                    />
-                  </Label>
-                </Show>
-              </fieldset>
-            </Show>
-
-            <Show when={preset().fields.includes('author')}>
-              <Label label="Author" vertical class={styles.author}>
-                <fieldset class={clsx(styles.fieldset, styles.authors)}>
-                  <For each={[...asArray(post().author), undefined]}>
-                    {(author, index) => (
+          <Show when={preset().fields.includes('location')}>
+            <Label label="Location" class={styles.location} vertical>
+              <Show
+                when={!post().addon || postAddonDescriptors[post().addon!].official}
+                fallback={
+                  <Input
+                    name="location"
+                    value={asArray(post().location).join('')}
+                    onChange={(value) => setPatchField('location', mergePostLocations(value))}
+                  />
+                }
+              >
+                <fieldset class={clsx(styles.fieldset, styles.locations)}>
+                  <For each={[...asArray(post().location), undefined]}>
+                    {(location, index) => (
                       <OptionSelectButton
-                        title="Select Author"
-                        options={userOptions() ?? []}
-                        value={author}
-                        onChange={(author) => setPostAuthor(index(), author)}
-                        optionTooltip={(value, forRef) => <UserTooltip forRef={forRef} user={value} showAvatar />}
+                        title="Select Location"
+                        options={locationOptions() ?? []}
+                        value={location}
+                        onChange={(location) => setPostLocation(index(), location)}
+                        optionTooltip={(value, forRef) =>
+                          value ? <LocationTooltip forRef={forRef} location={value} /> : undefined
+                        }
                         emptyLabel="+"
                       />
                     )}
                   </For>
                 </fieldset>
-              </Label>
-            </Show>
+              </Show>
+            </Label>
+          </Show>
 
-            <Show when={preset().fields.includes('mark') || preset().fields.includes('violation')}>
-              <fieldset class={clsx(styles.fieldset)}>
-                <Show when={preset().fields.includes('mark')}>
-                  <Label label="Editor's Mark" vertical>
-                    <Select
-                      name="mark"
-                      options={[EMPTY_OPTION, ...PostMark.options.map((value) => ({ value }))]}
-                      value={post().mark ?? undefined}
-                      onChange={(value) => setPatchField('mark', value)}
-                      class={styles.select}
-                    />
-                  </Label>
-                </Show>
+          <Show when={asArray(post().location).length > 0 && preset().fields.includes('locating')}>
+            <Label label="Located By" vertical>
+              <fieldset class={clsx(styles.fieldset, styles.locating)}>
+                <div class={styles.selectWrapper}>
+                  <Select
+                    options={userOptions() ?? []}
+                    name="locating[user]"
+                    value={post().locating?.user}
+                    onChange={(user) => setPostLocating({ ...post().locating, user })}
+                    class={styles.select}
+                  />
+                </div>
 
-                <Show when={preset().fields.includes('violation')}>
-                  <Label label="Violation" vertical>
-                    <fieldset class={clsx(styles.fieldset, styles.violations)}>
-                      <For each={asArray(post().violation)}>
-                        {(violation, index) => (
-                          <div class={styles.selectWrapper}>
-                            <Select
-                              options={[{ label: '[Remove]', value: EMPTY_OPTION.value }, ...violationOptions]}
-                              name="violation"
-                              value={violation}
-                              onChange={(violation) => setPostViolation(index(), violation)}
-                              class={styles.select}
-                            />
-                          </div>
-                        )}
-                      </For>
-                      <div class={styles.selectWrapper}>
-                        <Select
-                          options={[{ label: '[Add]', value: EMPTY_OPTION.value }, ...violationOptions]}
-                          name="violation"
-                          value={undefined}
-                          onChange={(violation) => setPostViolation(asArray(post().violation).length, violation)}
-                          class={styles.select}
-                        />
-                      </div>
-                    </fieldset>
-                  </Label>
+                <Show when={post().locating?.user}>
+                  <DatePicker
+                    // TODO: implement name="locating[date]"
+                    value={post().locating?.date}
+                    period={false}
+                    onChange={(date) => setPostLocating({ date })}
+                    emptyLabel="Pick Locating Date"
+                  />
+
+                  <Input
+                    name="locating[text]"
+                    value={post().locating?.text}
+                    onChange={(text) => setPostLocating({ text })}
+                    multiline
+                    rows={3}
+                    class={styles.locatingText}
+                  />
                 </Show>
               </fieldset>
-            </Show>
+            </Label>
+          </Show>
 
-            <Show when={preset().fields.includes('request')}>
-              <Label label="Requested By" vertical>
-                <fieldset class={clsx(styles.fieldset, styles.request)}>
+          <Show
+            when={
+              preset().fields.includes('engine') ||
+              preset().fields.includes('addon') ||
+              preset().fields.includes('tags')
+            }
+          >
+            <fieldset class={clsx(styles.fieldset, styles.tagsFieldset)}>
+              <Show when={preset().fields.includes('engine')}>
+                <Label label="Engine" vertical>
                   <div class={styles.selectWrapper}>
                     <Select
-                      options={userOptions() ?? []}
-                      name="request[user]"
-                      value={post().request?.user}
-                      onChange={(user) => setPostRequest({ ...post().request, user })}
+                      name="engine"
+                      options={[EMPTY_OPTION, ...PostEngine.options.map((value) => ({ value }))]}
+                      value={post().engine}
+                      onChange={(value) => setPatchField('engine', value)}
                       class={styles.select}
                     />
                   </div>
+                </Label>
+              </Show>
 
-                  <Show when={post().request?.user}>
-                    <DatePicker
-                      // TODO: implement name="request[date]"
-                      value={post().request?.date}
-                      period={false}
-                      onChange={(date) => setPostRequest({ date })}
-                      emptyLabel="Pick Request Date"
+              <Show when={preset().fields.includes('addon')}>
+                <Label label="Addon" vertical>
+                  <div class={styles.selectWrapper}>
+                    <Select
+                      name="addon"
+                      options={[EMPTY_OPTION, ...PostAddon.options.map((value) => ({ value }))]}
+                      value={post().addon ?? undefined}
+                      onChange={(value) => setPatchField('addon', value)}
+                      class={styles.select}
                     />
+                  </div>
+                </Label>
+              </Show>
 
-                    <Input
-                      name="request[text]"
-                      value={post().request?.text}
-                      onChange={(text) => setPostRequest({ text })}
-                      multiline
-                      rows={3}
-                      class={styles.requestText}
+              <Show when={preset().fields.includes('tags')}>
+                <Label label="Tags" vertical class={styles.tags}>
+                  <Input
+                    name="tags"
+                    value={asArray(post().tags).join(' ')}
+                    onBlur={(e) => setPatchField('tags', mergePostTags(e.target.value.split(' ')))}
+                  />
+                </Label>
+              </Show>
+            </fieldset>
+          </Show>
+
+          <Show when={preset().fields.includes('author')}>
+            <Label label="Author" vertical class={styles.author}>
+              <fieldset class={clsx(styles.fieldset, styles.authors)}>
+                <For each={[...asArray(post().author), undefined]}>
+                  {(author, index) => (
+                    <OptionSelectButton
+                      title="Select Author"
+                      options={userOptions() ?? []}
+                      value={author}
+                      onChange={(author) => setPostAuthor(index(), author)}
+                      optionTooltip={(value, forRef) => <UserTooltip forRef={forRef} user={value} showAvatar />}
+                      emptyLabel="+"
                     />
-                  </Show>
-                </fieldset>
-              </Label>
-            </Show>
+                  )}
+                </For>
+              </fieldset>
+            </Label>
+          </Show>
 
-            <Show when={preset().fields.includes('created')}>
-              <Label label="Created" vertical>
-                <DatePicker
-                  value={post().created}
-                  period={false}
-                  onChange={(value) => setPatchField('created', value)}
-                  emptyLabel="Pick Date"
-                />
-              </Label>
-            </Show>
-          </form>
-        </div>
+          <Show when={preset().fields.includes('mark') || preset().fields.includes('violation')}>
+            <fieldset class={clsx(styles.fieldset)}>
+              <Show when={preset().fields.includes('mark')}>
+                <Label label="Editor's Mark" vertical>
+                  <Select
+                    name="mark"
+                    options={[EMPTY_OPTION, ...PostMark.options.map((value) => ({ value }))]}
+                    value={post().mark ?? undefined}
+                    onChange={(value) => setPatchField('mark', value)}
+                    class={styles.select}
+                  />
+                </Label>
+              </Show>
+
+              <Show when={preset().fields.includes('violation')}>
+                <Label label="Violation" vertical>
+                  <fieldset class={clsx(styles.fieldset, styles.violations)}>
+                    <For each={asArray(post().violation)}>
+                      {(violation, index) => (
+                        <div class={styles.selectWrapper}>
+                          <Select
+                            options={[{ label: '[Remove]', value: EMPTY_OPTION.value }, ...violationOptions]}
+                            name="violation"
+                            value={violation}
+                            onChange={(violation) => setPostViolation(index(), violation)}
+                            class={styles.select}
+                          />
+                        </div>
+                      )}
+                    </For>
+                    <div class={styles.selectWrapper}>
+                      <Select
+                        options={[{ label: '[Add]', value: EMPTY_OPTION.value }, ...violationOptions]}
+                        name="violation"
+                        value={undefined}
+                        onChange={(violation) => setPostViolation(asArray(post().violation).length, violation)}
+                        class={styles.select}
+                      />
+                    </div>
+                  </fieldset>
+                </Label>
+              </Show>
+            </fieldset>
+          </Show>
+
+          <Show when={preset().fields.includes('request')}>
+            <Label label="Requested By" vertical>
+              <fieldset class={clsx(styles.fieldset, styles.request)}>
+                <div class={styles.selectWrapper}>
+                  <Select
+                    options={userOptions() ?? []}
+                    name="request[user]"
+                    value={post().request?.user}
+                    onChange={(user) => setPostRequest({ ...post().request, user })}
+                    class={styles.select}
+                  />
+                </div>
+
+                <Show when={post().request?.user}>
+                  <DatePicker
+                    // TODO: implement name="request[date]"
+                    value={post().request?.date}
+                    period={false}
+                    onChange={(date) => setPostRequest({ date })}
+                    emptyLabel="Pick Request Date"
+                  />
+
+                  <Input
+                    name="request[text]"
+                    value={post().request?.text}
+                    onChange={(text) => setPostRequest({ text })}
+                    multiline
+                    rows={3}
+                    class={styles.requestText}
+                  />
+                </Show>
+              </fieldset>
+            </Label>
+          </Show>
+
+          <Show when={preset().fields.includes('created')}>
+            <Label label="Created" vertical>
+              <DatePicker
+                value={post().created}
+                period={false}
+                onChange={(value) => setPatchField('created', value)}
+                emptyLabel="Pick Date"
+              />
+            </Label>
+          </Show>
+        </form>
       </Dialog>
     </>
   );

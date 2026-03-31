@@ -95,6 +95,7 @@ const List: Component<ListProps> = (props) => {
 };
 
 export interface PostContentEditorProps {
+  class?: string;
   content: PostContent | undefined;
   snapshot: PostContent | undefined;
   trash: PostContent | undefined;
@@ -312,38 +313,47 @@ export const PostContentEditor: Component<PostContentEditorProps> = (props) => {
 
   return (
     <>
-      <DragDropProvider onDragOver={onDragOver} onDragEnd={onDragEnd} collisionDetector={closestContainerOrItem}>
-        <DragDropSensors />
-        <For each={containerIds}>{(key) => <List id={key} urls={containers()[key]} onEdit={handleResourceEdit} />}</For>
-        <div class={styles.toolbar}>
-          <Button
-            onClick={(e: Event) => {
-              e.preventDefault();
-              selectFiles(processUploadFiles);
+      <div class={clsx(styles.wrapper, props.class)}>
+        <DragDropProvider onDragOver={onDragOver} onDragEnd={onDragEnd} collisionDetector={closestContainerOrItem}>
+          <DragDropSensors />
+          <For each={containerIds}>
+            {(key) => <List id={key} urls={containers()[key]} onEdit={handleResourceEdit} />}
+          </For>
+          <div class={styles.toolbar}>
+            <Button
+              onClick={(e: Event) => {
+                e.preventDefault();
+                selectFiles(processUploadFiles);
+              }}
+            >
+              Upload Files
+            </Button>
+            <Button
+              onClick={(e: Event) => {
+                e.preventDefault();
+                handleAddLinks();
+              }}
+            >
+              Paste Links
+            </Button>
+          </div>
+          <DragOverlay class={styles.dragOverlay}>
+            {(draggable) => {
+              const url = draggable?.id.toString() || '';
+              return (
+                <div class={styles.item}>
+                  <ResourcePreview
+                    url={url}
+                    // aspectRatio="1 / 1"
+                    class={styles.preview}
+                    onEdit={() => handleResourceEdit(url)}
+                  />
+                </div>
+              );
             }}
-          >
-            Upload Files
-          </Button>
-          <Button
-            onClick={(e: Event) => {
-              e.preventDefault();
-              handleAddLinks();
-            }}
-          >
-            Paste Links
-          </Button>
-        </div>
-        <DragOverlay class={styles.dragOverlay}>
-          {(draggable) => {
-            const url = draggable?.id.toString() || '';
-            return (
-              <div class={styles.item}>
-                <ResourcePreview url={url} aspectRatio="1 / 1" class={styles.preview} />
-              </div>
-            );
-          }}
-        </DragOverlay>
-      </DragDropProvider>
+          </DragOverlay>
+        </DragDropProvider>
+      </div>
       <UploadReportDialog
         show={uploadReport().length > 0}
         uploadReport={uploadReport()}
