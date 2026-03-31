@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file.
 
+## [2.21.1](https://github.com/dehero/mwscr/compare/v2.21.0...v2.21.1) (2026-03-31)
+
+### Bug Fixes
+
+- **site:** resolve post content editing issues
+  ([72c916d](https://github.com/dehero/mwscr/commit/72c916d948915466c506e370c8678fc844db24f3))
+
 ## [2.21.0](https://github.com/dehero/mwscr/compare/v2.20.3...v2.21.0) (2026-03-29)
 
 ### Features
