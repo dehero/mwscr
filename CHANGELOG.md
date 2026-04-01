@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file.
 
+## [2.21.4](https://github.com/dehero/mwscr/compare/v2.21.3...v2.21.4) (2026-04-01)
+
+### Bug Fixes
+
+- **site:** force update Slider initial position
+  ([1d32dab](https://github.com/dehero/mwscr/commit/1d32dab096291253b3b2f04361d6a8ec46529169))
+
 ## [2.21.3](https://github.com/dehero/mwscr/compare/v2.21.2...v2.21.3) (2026-04-01)
 
 ### Bug Fixes
