@@ -219,13 +219,17 @@ export const ImageEditor: Component<ImageEditorProps> = (props) => {
     const relativeWidth = boxPx.width / imgRect.width;
     const relativeHeight = boxPx.height / imgRect.height;
 
-    const canvas = document.createElement('canvas');
-    const ctx = canvas.getContext('2d');
+    try {
+      const canvas = document.createElement('canvas');
+      const ctx = canvas.getContext('2d');
 
-    canvas.width = boxPx.width * scaleX;
-    canvas.height = boxPx.height * scaleY;
+      canvas.width = boxPx.width * scaleX;
+      canvas.height = boxPx.height * scaleY;
 
-    if (ctx) {
+      if (!ctx) {
+        throw new Error('Failed to get Canvas context.');
+      }
+
       ctx.drawImage(
         imgRef,
         relativeLeft * imgRef.naturalWidth,
@@ -246,6 +250,9 @@ export const ImageEditor: Component<ImageEditorProps> = (props) => {
       setIsCropApplied(true);
 
       setTimeout(() => setIsApplyingCrop(false), 100);
+    } catch (error) {
+      const message = error instanceof Error ? error.message : error ? error.toString() : 'Failed to crop';
+      addToast(message);
     }
   };
 
