@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file.
 
+## [2.21.2](https://github.com/dehero/mwscr/compare/v2.21.1...v2.21.2) (2026-04-01)
+
+### Bug Fixes
+
+- **site:** add activation distance when dragging post content to be able to see context menu
+  ([776d557](https://github.com/dehero/mwscr/commit/776d557a967d8e68d56d6365a8dcbaa8b422f058))
+
 ## [2.21.1](https://github.com/dehero/mwscr/compare/v2.21.0...v2.21.1) (2026-03-31)
 
 ### Bug Fixes
