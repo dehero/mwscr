@@ -601,7 +601,7 @@ arya-stark:
   profiles:
     - service: vk
       id: '820702664'
-      updated: 2026-04-01-18-46-24
+      updated: 2026-04-01-19-51-24
       username: id820702664
       name: Арья Старк
       avatar: store:/avatars/vk-689aa89d.jpg
@@ -4965,7 +4965,7 @@ sergey-b-2:
   profiles:
     - service: vk
       id: '1077446394'
-      updated: 2026-04-01-18-46-19
+      updated: 2026-04-01-19-51-17
       username: id1077446394
       name: Сергей Б
       avatar: store:/avatars/vk-4deb0770.jpg
@@ -6497,7 +6497,7 @@ xnzayrpcad:
   profiles:
     - service: tg
       id: '7523695427'
-      updated: 2026-03-04-19-00-49
+      updated: 2026-04-01-19-51-33
       accessHash: '3683185995960089433'
       username: dryteuiop
       botChatId: 7523695427
@@ -6550,7 +6550,7 @@ yaroslav:
   profiles:
     - service: tg
       id: '393415568'
-      updated: 2026-03-04-19-00-51
+      updated: 2026-04-01-19-51-34
       accessHash: '-6464076418226165380'
       username: bondarets
       botChatId: 393415568
