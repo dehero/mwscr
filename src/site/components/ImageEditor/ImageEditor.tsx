@@ -724,7 +724,7 @@ export const ImageEditor: Component<ImageEditorProps> = (props) => {
           <Slider
             min={0}
             max={1}
-            step={0.05}
+            step={0.01}
             value={shadows()}
             onChange={setShadows}
             minLabel="Darker"
@@ -736,7 +736,7 @@ export const ImageEditor: Component<ImageEditorProps> = (props) => {
           <Slider
             min={0}
             max={1}
-            step={0.05}
+            step={0.01}
             value={highlights()}
             onChange={setHighlights}
             minLabel="Brighter"
@@ -748,7 +748,7 @@ export const ImageEditor: Component<ImageEditorProps> = (props) => {
           <Slider
             min={0}
             max={3}
-            step={0.05}
+            step={0.01}
             value={saturation()}
             onChange={setSaturation}
             minLabel="B&W"
