@@ -1,7 +1,7 @@
 import { debounce } from '@solid-primitives/scheduled';
 import clsx from 'clsx';
 import type { Component, JSX } from 'solid-js';
-import { createEffect, createSignal, onCleanup, Show } from 'solid-js';
+import { createEffect, createSignal, onCleanup, onMount, Show } from 'solid-js';
 import { Frame } from '../Frame/Frame.js';
 import styles from './Slider.module.css';
 
@@ -21,33 +21,61 @@ export interface SliderProps {
 }
 
 export const Slider: Component<SliderProps> = (props) => {
+  let inputRef: HTMLInputElement | undefined;
+
   const getInitialValue = () => {
-    if (props.value !== undefined) return props.value;
-    if (props.min !== undefined) return props.min;
+    if (props.value !== undefined && !Number.isNaN(props.value)) {
+      return props.value;
+    }
+    if (props.min !== undefined) {
+      return props.min;
+    }
     return 0;
   };
 
-  const [localValue, setLocalValue] = createSignal<number>(getInitialValue());
+  const [localValue, setLocalValue] = createSignal(getInitialValue());
 
-  const debouncedChange = debounce((value: number) => props.onDebouncedChange?.(value), 800);
+  const debouncedChange = props.onDebouncedChange
+    ? debounce((value: number) => props.onDebouncedChange?.(value), 800)
+    : null;
 
-  const handleInput = (value: number) => {
-    setLocalValue(value);
-    props.onChange?.(value);
-    if (props.onDebouncedChange) {
-      debouncedChange(value);
+  const handleInput = (value: number | string) => {
+    let newValue: number;
+
+    if (typeof value === 'string') {
+      newValue = Number.parseFloat(value);
+      if (Number.isNaN(newValue)) {
+        return;
+      }
+    } else {
+      newValue = value;
     }
+
+    setLocalValue(newValue);
+    props.onChange?.(newValue);
+    debouncedChange?.(newValue);
   };
 
   createEffect(() => {
-    if (props.value !== undefined) {
+    if (props.value !== undefined && !Number.isNaN(props.value) && props.value !== localValue()) {
       setLocalValue(props.value);
+    }
+  });
+
+  // Critical: Force sync after mount
+  onMount(() => {
+    if (inputRef && props.value !== undefined) {
+      const valueStr = String(props.value);
+      if (inputRef.value !== valueStr) {
+        inputRef.value = valueStr;
+        setLocalValue(props.value);
+      }
     }
   });
 
   const decrement = () => {
     const step = props.step ?? 1;
-    const newValue = (localValue() || 0) - step;
+    const newValue = localValue() - step;
 
     if (props.min === undefined || newValue >= props.min) {
       handleInput(newValue);
@@ -56,14 +84,13 @@ export const Slider: Component<SliderProps> = (props) => {
 
   const increment = () => {
     const step = props.step ?? 1;
-    const newValue = (localValue() || 0) + step;
+    const newValue = localValue() + step;
 
     if (props.max === undefined || newValue <= props.max) {
       handleInput(newValue);
     }
   };
 
-  // Press and hold functionality for buttons
   const setupPressHold = (action: () => void) => {
     let timer: NodeJS.Timeout | null = null;
     let interval: NodeJS.Timeout | null = null;
@@ -82,7 +109,6 @@ export const Slider: Component<SliderProps> = (props) => {
         interval = null;
       }
 
-      // Remove global event listeners
       if (typeof window !== 'undefined') {
         window.removeEventListener('mouseup', stopPress);
         window.removeEventListener('touchend', stopPress);
@@ -91,27 +117,25 @@ export const Slider: Component<SliderProps> = (props) => {
     };
 
     const startPress = () => {
-      if (isPressed) return;
+      if (isPressed || props.disabled) return;
 
       isPressed = true;
 
-      // Add global event listeners to catch release anywhere on the page
       if (typeof window !== 'undefined') {
         window.addEventListener('mouseup', stopPress);
         window.addEventListener('touchend', stopPress);
         window.addEventListener('touchcancel', stopPress);
       }
 
-      // Execute action immediately on press
       action();
 
-      // Delay before starting repeated execution
       timer = setTimeout(() => {
-        // Start repeating every 250ms after initial delay
         interval = setInterval(() => {
-          action();
-        }, 250);
-      }, 500);
+          if (isPressed && !props.disabled) {
+            action();
+          }
+        }, 100);
+      }, 400);
     };
 
     return { startPress, stopPress };
@@ -120,7 +144,6 @@ export const Slider: Component<SliderProps> = (props) => {
   const decrementHold = setupPressHold(decrement);
   const incrementHold = setupPressHold(increment);
 
-  // Clean up timers and event listeners on component unmount
   onCleanup(() => {
     decrementHold.stopPress();
     incrementHold.stopPress();
@@ -141,6 +164,7 @@ export const Slider: Component<SliderProps> = (props) => {
         </Show>
       </Frame>
       <Frame<'input'>
+        ref={inputRef}
         component="input"
         type="range"
         class={styles.slider}
@@ -149,7 +173,7 @@ export const Slider: Component<SliderProps> = (props) => {
         min={props.min}
         max={props.max}
         step={props.step}
-        onInput={(e) => handleInput(Number.parseFloat(e.target.value))}
+        onInput={(e) => handleInput(e.currentTarget.value)}
         onBlur={props.onBlur}
         disabled={props.disabled}
       />
