@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file.
 
+## [2.21.3](https://github.com/dehero/mwscr/compare/v2.21.2...v2.21.3) (2026-04-01)
+
+### Bug Fixes
+
+- **site:** show fallback when trying to edit image from store
+  ([c008b98](https://github.com/dehero/mwscr/commit/c008b9825b3976396cccd0364e3b876aa6fb5f7e))
+
 ## [2.21.2](https://github.com/dehero/mwscr/compare/v2.21.1...v2.21.2) (2026-04-01)
 
 ### Bug Fixes
