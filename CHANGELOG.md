@@ -2,6 +2,15 @@
 
 All notable changes to this project will be documented in this file.
 
+## [2.21.5](https://github.com/dehero/mwscr/compare/v2.21.4...v2.21.5) (2026-04-01)
+
+### Bug Fixes
+
+- **site:** handle image cropping error
+  ([960a188](https://github.com/dehero/mwscr/commit/960a188af23afb6180faed550316453f599ada64))
+- **site:** make image adjustments more accurate
+  ([1c5743b](https://github.com/dehero/mwscr/commit/1c5743b4f022ba71e105f94015a0d7bf2f89af76))
+
 ## [2.21.4](https://github.com/dehero/mwscr/compare/v2.21.3...v2.21.4) (2026-04-01)
 
 ### Bug Fixes
