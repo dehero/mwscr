@@ -601,7 +601,7 @@ arya-stark:
   profiles:
     - service: vk
       id: '820702664'
-      updated: 2026-04-01-21-32-25
+      updated: 2026-04-01-22-25-55
       username: id820702664
       name: Арья Старк
       avatar: store:/avatars/vk-689aa89d.jpg
@@ -1414,7 +1414,7 @@ dehero:
     - type: channel
       service: vk
       id: '138249959'
-      updated: 2026-03-30-09-04-58
+      updated: 2026-04-01-22-25-58
       username: mwscr
       name: Morrowind Screenshots
       avatar: store:/avatars/vk-8e97fd4f.jpg
@@ -2698,7 +2698,7 @@ ivan-uralov:
   profiles:
     - service: vk
       id: '16497155'
-      updated: 2026-04-01-09-57-56
+      updated: 2026-04-01-22-26-04
       username: id16497155
       name: Иван Уралов
       avatar: store:/avatars/vk-51775759.jpg
@@ -2986,7 +2986,7 @@ kevy-c:
   profiles:
     - service: tg
       id: '5067683234'
-      updated: 2026-04-01-21-32-26
+      updated: 2026-04-01-22-25-58
       accessHash: '-903667913374325979'
       username: Kevy_c
       name: Dash
@@ -4273,7 +4273,7 @@ painkiller1986:
   profiles:
     - service: tg
       id: '6565289507'
-      updated: 2026-04-01-21-32-28
+      updated: 2026-04-01-22-25-59
       accessHash: '6198356028119192921'
       username: Painkiller1986
       name: Сумерки
@@ -4439,6 +4439,10 @@ poatan-vzla:
       username: PoatanVZLA
       name: Altruista
       avatar: store:/avatars/tg-5147787118125362228.jpg
+pocket-spaghetti-ii:
+  profiles:
+    - service: ig
+      username: pocket.spaghetti_ii
 pohotlivaya-argonianskaya-deva:
   profiles:
     - service: tg
@@ -4969,7 +4973,7 @@ sergey-b-2:
   profiles:
     - service: vk
       id: '1077446394'
-      updated: 2026-04-01-21-32-26
+      updated: 2026-04-01-22-26-02
       username: id1077446394
       name: Сергей Б
       avatar: store:/avatars/vk-4deb0770.jpg
@@ -4985,7 +4989,7 @@ sergey-venkov:
   profiles:
     - service: vk
       id: '217443112'
-      updated: 2026-03-30-08-17-15
+      updated: 2026-04-01-22-26-02
       username: id217443112
       name: Сергей Венков
       avatar: store:/avatars/vk-a77d1a73.jpg
