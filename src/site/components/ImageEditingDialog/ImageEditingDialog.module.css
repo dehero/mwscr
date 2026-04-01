@@ -7,3 +7,25 @@
   height: 100vh;
   box-sizing: border-box;
 }
+
+.fallbackWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.fallback {
+  margin: 0;
+  text-align: center;
+  text-wrap: balance;
+}
+
+.link {
+  text-decoration: none;
+  color: var(--color-text-selected);
+}
+
+.link:hover {
+  color: var(--color-text-selected-hover);
+}

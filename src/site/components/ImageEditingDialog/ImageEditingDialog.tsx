@@ -1,8 +1,9 @@
-import type { Component } from 'solid-js';
+import { type Component, Show } from 'solid-js';
 import { stripCommonExtension } from '../../../core/utils/string-utils.js';
 import { getResourceDataUrl } from '../../data-managers/resources.js';
 import { uploadFiles } from '../../data-managers/uploads.js';
 import { Button } from '../Button/Button.jsx';
+import { createDetachedDialogFragment } from '../DetachedDialogsProvider/DetachedDialogsProvider.jsx';
 import type { DialogProps } from '../Dialog/Dialog.jsx';
 import { Dialog } from '../Dialog/Dialog.jsx';
 import type { ImageEditorRef } from '../ImageEditor/ImageEditor.jsx';
@@ -19,6 +20,8 @@ export const ImageEditingDialog: Component<ImageEditingDialogProps> = (props) =>
   let editorRef: ImageEditorRef | undefined;
 
   const { addToast } = useToaster();
+
+  const dataUrl = () => getResourceDataUrl(props.url);
 
   const handleConfirm = async () => {
     if (!editorRef?.hasChanges()) {
@@ -66,6 +69,10 @@ export const ImageEditingDialog: Component<ImageEditingDialogProps> = (props) =>
     }
   };
 
+  const handleClick = () => {
+    props.onClose();
+  };
+
   return (
     <Dialog
       {...props}
@@ -75,7 +82,26 @@ export const ImageEditingDialog: Component<ImageEditingDialogProps> = (props) =>
       class={styles.dialog}
       contentClass={styles.container}
     >
-      <ImageEditor url={getResourceDataUrl(props.url)} ref={(ref) => (editorRef = ref)} />
+      <Show
+        when={dataUrl()}
+        fallback={
+          <div class={styles.fallbackWrapper}>
+            <p class={styles.fallback}>
+              You have no access to this resource. Check out{' '}
+              <a
+                href={createDetachedDialogFragment('contributing', 'settings')}
+                class={styles.link}
+                onClick={handleClick}
+              >
+                editor's key
+              </a>
+              {' setting.'}
+            </p>
+          </div>
+        }
+      >
+        <ImageEditor url={dataUrl()} ref={(ref) => (editorRef = ref)} />
+      </Show>
     </Dialog>
   );
 };
