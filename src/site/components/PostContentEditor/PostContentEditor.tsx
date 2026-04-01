@@ -6,8 +6,8 @@ import {
   createDroppable,
   createSortable,
   DragDropProvider,
-  DragDropSensors,
   DragOverlay,
+  mostIntersecting,
   SortableProvider,
   useDragDropContext,
 } from '@thisbeyond/solid-dnd';
@@ -30,6 +30,7 @@ import { ResourcePreview } from '../ResourcePreview/ResourcePreview.js';
 import { useToaster } from '../Toaster/Toaster.jsx';
 import type { UploadReportItem } from '../UploadReportDialog/UploadReportDialog.jsx';
 import { UploadReportDialog } from '../UploadReportDialog/UploadReportDialog.jsx';
+import { CustomDragDropSensors } from './CustomDragDropSensors.jsx';
 import styles from './PostContentEditor.module.css';
 
 const containerIds = ['content', 'snapshot', 'trash'] as const;
@@ -144,7 +145,7 @@ export const PostContentEditor: Component<PostContentEditorProps> = (props) => {
   };
 
   const closestContainerOrItem: CollisionDetector = (draggable, droppables, context) => {
-    const closestContainer = closestCenter(
+    const closestContainer = mostIntersecting(
       draggable,
       droppables.filter((droppable) => isContainer(droppable.id)),
       context,
@@ -315,28 +316,12 @@ export const PostContentEditor: Component<PostContentEditorProps> = (props) => {
     <>
       <div class={clsx(styles.wrapper, props.class)}>
         <DragDropProvider onDragOver={onDragOver} onDragEnd={onDragEnd} collisionDetector={closestContainerOrItem}>
-          <DragDropSensors />
-          <For each={containerIds}>
-            {(key) => <List id={key} urls={containers()[key]} onEdit={handleResourceEdit} />}
-          </For>
-          <div class={styles.toolbar}>
-            <Button
-              onClick={(e: Event) => {
-                e.preventDefault();
-                selectFiles(processUploadFiles);
-              }}
-            >
-              Upload Files
-            </Button>
-            <Button
-              onClick={(e: Event) => {
-                e.preventDefault();
-                handleAddLinks();
-              }}
-            >
-              Paste Links
-            </Button>
-          </div>
+          <CustomDragDropSensors>
+            <For each={containerIds}>
+              {(key) => <List id={key} urls={containers()[key]} onEdit={handleResourceEdit} />}
+            </For>
+          </CustomDragDropSensors>
+
           <DragOverlay class={styles.dragOverlay}>
             {(draggable) => {
               const url = draggable?.id.toString() || '';
@@ -346,19 +331,38 @@ export const PostContentEditor: Component<PostContentEditorProps> = (props) => {
                     url={url}
                     // aspectRatio="1 / 1"
                     class={styles.preview}
-                    onEdit={() => handleResourceEdit(url)}
                   />
                 </div>
               );
             }}
           </DragOverlay>
         </DragDropProvider>
+        <div class={styles.toolbar}>
+          <Button
+            onClick={(e: Event) => {
+              e.preventDefault();
+              selectFiles(processUploadFiles);
+            }}
+          >
+            Upload Files
+          </Button>
+          <Button
+            onClick={(e: Event) => {
+              e.preventDefault();
+              handleAddLinks();
+            }}
+          >
+            Paste Links
+          </Button>
+        </div>
       </div>
+
       <UploadReportDialog
         show={uploadReport().length > 0}
         uploadReport={uploadReport()}
         onClose={() => setUploadReport([])}
       />
+
       <Dialog
         show={showInsertLinksDialog()}
         onClose={() => setShowInsertLinksDialog(false)}

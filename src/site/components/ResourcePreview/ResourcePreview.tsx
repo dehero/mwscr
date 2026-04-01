@@ -89,14 +89,13 @@ export const ResourcePreview: Component<ResourcePreviewProps> = (props) => {
             aria-label={url === YellowExclamationMark ? 'yellow exclamation mark' : props.alt || props.url}
             state={props.frameState}
           />
-          <Show when={props.showTooltip || props.onEdit}>
+          <Show when={props.showTooltip}>
             <Tooltip
               forRef={ref}
               actions={[
                 { label: 'Copy', onExecute: copyUrl },
                 ...(props.onEdit ? [{ label: 'Edit', onExecute: props.onEdit }] : []),
               ]}
-              forceContextMenu={Boolean(props.onEdit)}
             >
               {props.url}
             </Tooltip>
