@@ -41,7 +41,7 @@ const defaultFilters: FilterValues = {
   saturation: 1,
 };
 
-const MIN_PX = 800;
+const MIN_PX = 100;
 
 const PANZOOM_DURATION = 250;
 const PANZOOM_MIN_SCALE = 1;
