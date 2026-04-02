@@ -395,15 +395,15 @@
     - service: vk
       id: 2523
       published: 2025-07-20-18-36-19
-      updated: 2026-03-26-19-21-44
+      updated: 2026-04-02-19-46-02
       followers: 1349
       likes: 33
-      views: 468
+      views: 469
       reposts: 2
     - service: tg
       id: 922
       published: 2025-07-20-18-36-23
-      updated: 2026-03-26-19-20-56
+      updated: 2026-04-02-19-45-28
       followers: 763
       likes: 67
       views: 833
@@ -1240,16 +1240,16 @@
       id: DUEI4m9Duqi
       mediaId: '18100851613884451'
       published: 2026-01-28-18-37-18
-      updated: 2026-03-26-19-16-47
+      updated: 2026-04-02-19-42-12
       followers: 1606
       likes: 52
     - service: vk
       id: 3049
       published: 2026-01-28-18-37-23
-      updated: 2026-03-26-19-17-21
+      updated: 2026-04-02-19-42-05
       followers: 1591
       likes: 41
-      views: 775
+      views: 785
       reposts: 2
       comments: !c |-
         G0gB4C0LbOc1CMkIdptEaGLPf4URKp3+kRNL+LVJm1R4piNaJjbSyT2dztwIe+EuXNONrGdQINtm
@@ -1259,7 +1259,7 @@
     - service: tg
       id: 1134
       published: 2026-01-28-18-37-27
-      updated: 2026-03-26-19-17-20
+      updated: 2026-04-02-19-42-19
       followers: 888
       likes: 67
       views: 561
@@ -1374,24 +1374,24 @@
       id: DQ91W55jYAg
       mediaId: '18080446513887672'
       published: 2025-11-12-18-17-00
-      updated: 2026-03-26-19-18-00
+      updated: 2026-04-02-19-43-22
       followers: 1594
       likes: 43
     - service: vk
       id: 2845
       published: 2025-11-12-18-17-07
-      updated: 2026-03-26-19-19-43
+      updated: 2026-04-02-19-43-48
       followers: 1502
       likes: 102
-      views: 1128
+      views: 1133
       reposts: 4
     - service: tg
       id: 1053
       published: 2025-11-12-18-17-12
-      updated: 2026-03-26-19-18-39
+      updated: 2026-04-02-19-43-02
       followers: 855
       likes: 72
-      views: 671
+      views: 673
       comments: !c iw2AkZPLQnmn3wA+gACra2F3YXpha3kyMjOk8J+YmAM=
 2022-07-17-slaves-sight:
   title: Slave's Sight
