@@ -97,6 +97,11 @@ export const ImageEditor: Component<ImageEditorProps> = (props) => {
   const [isPanApplied, setIsPanApplied] = createSignal(false);
   const [isResettingZoomAndPan, setIsResettingZoomAndPan] = createSignal(false);
 
+  // Store original image dimensions
+  const [originalSize, setOriginalDimensions] = createSignal<{ width: number; height: number }>();
+  // Store cropped image dimensions
+  const [croppedSize, setCroppedDimensions] = createSignal<{ width: number; height: number }>();
+
   const hasLoadingError = createMemo(() => currentUrl() === YellowExclamationMark);
 
   const filename = createMemo(() => {
@@ -253,6 +258,12 @@ export const ImageEditor: Component<ImageEditorProps> = (props) => {
 
       const croppedDataUrl = canvas.toDataURL();
 
+      // Store cropped dimensions
+      setCroppedDimensions({
+        width: canvas.width,
+        height: canvas.height,
+      });
+
       setIsApplyingCrop(true);
       setCurrentUrl(croppedDataUrl);
       setAppliedCropBox(boxPercent);
@@ -269,6 +280,7 @@ export const ImageEditor: Component<ImageEditorProps> = (props) => {
     setIsApplyingCrop(true);
     setCurrentUrl(originalUrl());
     setIsCropApplied(false);
+    setCroppedDimensions(undefined); // Clear cropped dimensions
 
     const last = appliedCropBox();
     if (last) {
@@ -305,6 +317,8 @@ export const ImageEditor: Component<ImageEditorProps> = (props) => {
     resetFilters();
     setIsCropApplied(false);
     setCropRatio(undefined);
+    setCroppedDimensions(undefined); // Clear cropped dimensions
+    setOriginalDimensions(undefined); // Clear original dimensions
     panzoom?.reset({ animate: false });
   };
 
@@ -629,6 +643,14 @@ export const ImageEditor: Component<ImageEditorProps> = (props) => {
       return;
     }
 
+    // Store original dimensions when the image loads
+    if (imgRef && !originalSize()) {
+      setOriginalDimensions({
+        width: imgRef.naturalWidth,
+        height: imgRef.naturalHeight,
+      });
+    }
+
     setIsCropApplied(false);
     setCropRatio(undefined);
   };
@@ -880,6 +902,19 @@ export const ImageEditor: Component<ImageEditorProps> = (props) => {
               {filename()}
               {hasChanges() ? '*' : ''}
             </p>
+
+            <Show when={originalSize()}>
+              {(originalSize) => (
+                <span class={styles.resolution}>
+                  <Show
+                    when={croppedSize() && isCropApplied()}
+                    fallback={`${originalSize().width}×${originalSize().height}`}
+                  >
+                    {croppedSize()!.width}×{croppedSize()!.height} ({originalSize().width}×{originalSize().height})
+                  </Show>
+                </span>
+              )}
+            </Show>
           </div>
         </Show>
 

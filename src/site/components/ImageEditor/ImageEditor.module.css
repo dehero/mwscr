@@ -62,6 +62,7 @@
 .header {
   top: 0;
   justify-content: flex-start;
+  flex-flow: row nowrap;
 }
 
 .actions {
@@ -75,8 +76,14 @@
   text-shadow: 1px 1px 1px black;
   white-space: nowrap;
   text-overflow: ellipsis;
-  flex: 0 1 auto;
+  flex: 1 1 auto;
   overflow: hidden;
+  margin: 0 4px;
+}
+
+.resolution {
+  flex: 0 0 auto;
+  text-shadow: 1px 1px 1px black;
   margin: 0 4px;
 }
 
