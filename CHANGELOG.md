@@ -2,6 +2,15 @@
 
 All notable changes to this project will be documented in this file.
 
+## [2.22.1](https://github.com/dehero/mwscr/compare/v2.22.0...v2.22.1) (2026-04-02)
+
+### Bug Fixes
+
+- **site:** allow cropbox to be 100px or larger
+  ([660c53c](https://github.com/dehero/mwscr/commit/660c53c12d5602d696b21f370fe3ba592cdde360))
+- **site:** disable zoom and pan handlers while cropping image
+  ([34398aa](https://github.com/dehero/mwscr/commit/34398aa20f5c75df72dc8c1a752202821cdacb27))
+
 ## [2.22.0](https://github.com/dehero/mwscr/compare/v2.21.5...v2.22.0) (2026-04-02)
 
 ### Features
