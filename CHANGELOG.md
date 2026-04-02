@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file.
 
+## [2.22.2](https://github.com/dehero/mwscr/compare/v2.22.1...v2.22.2) (2026-04-02)
+
+### Bug Fixes
+
+- **site:** adjust edited image zooming
+  ([70b18f5](https://github.com/dehero/mwscr/commit/70b18f58c5db66ea799cb4de8c30aec7dfc21429))
+
 ## [2.22.1](https://github.com/dehero/mwscr/compare/v2.22.0...v2.22.1) (2026-04-02)
 
 ### Bug Fixes
