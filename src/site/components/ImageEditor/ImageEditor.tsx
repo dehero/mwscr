@@ -1,3 +1,4 @@
+import * as panzoom from '@panzoom/panzoom';
 import type { UploadFile } from '@solid-primitives/upload';
 import { createFileUploader } from '@solid-primitives/upload';
 import clsx from 'clsx';
@@ -20,6 +21,8 @@ import { Slider } from '../Slider/Slider.jsx';
 import { useToaster } from '../Toaster/Toaster.jsx';
 import styles from './ImageEditor.module.css';
 
+const Panzoom = panzoom.default;
+
 interface FilterValues {
   exposure: number;
   brightness: number;
@@ -39,6 +42,8 @@ const defaultFilters: FilterValues = {
 };
 
 const MIN_PX = 800;
+
+const PANZOOM_DURATION = 500;
 
 interface CropBoxPercent {
   top: number;
@@ -71,6 +76,7 @@ export const ImageEditor: Component<ImageEditorProps> = (props) => {
   let imgRef: HTMLImageElement | undefined;
   let cropBoxRef: HTMLDivElement | undefined;
   let containerRef: HTMLDivElement | undefined;
+  let panzoom: ReturnType<typeof Panzoom> | undefined;
 
   const cropOptions = (): Option<PostAspectRatio>[] => [
     ORIGINAL_OPTION,
@@ -87,6 +93,9 @@ export const ImageEditor: Component<ImageEditorProps> = (props) => {
   const [isCropApplied, setIsCropApplied] = createSignal(false);
   const [cropRatio, setCropRatio] = createSignal<PostAspectRatio>();
   const [isComparing, setIsComparing] = createSignal(false);
+  const [zoom, setZoom] = createSignal(1);
+  const [isPanApplied, setIsPanApplied] = createSignal(false);
+  const [isResettingZoomAndPan, setIsResettingZoomAndPan] = createSignal(false);
 
   const hasLoadingError = createMemo(() => currentUrl() === YellowExclamationMark);
 
@@ -296,6 +305,7 @@ export const ImageEditor: Component<ImageEditorProps> = (props) => {
     resetFilters();
     setIsCropApplied(false);
     setCropRatio(undefined);
+    panzoom?.reset({ animate: false });
   };
 
   const handleCompareStart = () => {
@@ -573,6 +583,42 @@ export const ImageEditor: Component<ImageEditorProps> = (props) => {
     }
   };
 
+  const handleResetZoomAndPan = () => {
+    setIsResettingZoomAndPan(true);
+    panzoom?.reset({ animate: true });
+    setTimeout(() => setIsResettingZoomAndPan(false), PANZOOM_DURATION);
+  };
+
+  const handlePanzoomWheel = (event: WheelEvent) => {
+    if (isResettingZoomAndPan()) {
+      event.preventDefault();
+      return;
+    }
+
+    panzoom?.zoomWithWheel(event);
+  };
+
+  const handlePanzoomChange = (event: Event) => {
+    const { x, y, scale } = 'detail' in event ? (event.detail as panzoom.PanzoomEventDetail) : {};
+
+    if (isPanApplied() && scale === 1 && !isResettingZoomAndPan()) {
+      handleResetZoomAndPan();
+    }
+
+    setZoom(scale ?? 1);
+    setIsPanApplied(x !== 0 || y !== 0);
+  };
+
+  const handlePanzoomZoom = (event: Event) => {
+    const { scale } = 'detail' in event ? (event.detail as panzoom.PanzoomEventDetail) : {};
+
+    setZoom(scale ?? 1);
+  };
+
+  const handleZoomInput = (value: number) => {
+    panzoom?.zoom(value);
+  };
+
   const handleCropRatioChange = (value: PostAspectRatio | undefined) => {
     setCropRatio(value);
     setupCropFrame(value);
@@ -632,12 +678,30 @@ export const ImageEditor: Component<ImageEditorProps> = (props) => {
     window.addEventListener('touchend', handleMouseUp);
     window.addEventListener('touchcancel', handleMouseUp);
 
+    if (containerRef) {
+      panzoom = Panzoom(containerRef, {
+        maxScale: 5,
+        minScale: 1,
+        duration: PANZOOM_DURATION,
+      });
+
+      containerRef.addEventListener('panzoomchange', handlePanzoomChange);
+      containerRef.addEventListener('panzoomzoom', handlePanzoomZoom);
+      containerRef.parentElement?.addEventListener('wheel', handlePanzoomWheel);
+    }
+
     onCleanup(() => {
       window.removeEventListener('mousemove', handleMouseMove);
       window.removeEventListener('mouseup', handleMouseUp);
       window.removeEventListener('touchmove', handleMouseMove);
       window.removeEventListener('touchend', handleMouseUp);
       window.removeEventListener('touchcancel', handleMouseUp);
+
+      if (panzoom) {
+        containerRef?.removeEventListener('panzoomchange', handlePanzoomChange);
+        containerRef?.removeEventListener('panzoomzoom', handlePanzoomZoom);
+        containerRef?.parentElement?.removeEventListener('wheel', panzoom.zoomWithWheel);
+      }
     });
   });
 
@@ -789,6 +853,24 @@ export const ImageEditor: Component<ImageEditorProps> = (props) => {
             <Button onClick={handleChangeCrop}>Change</Button>
           </div>
         </Show>
+
+        <Divider class={styles.divider} />
+
+        <Label label={`Zoom (x${zoom().toFixed(1)})`} vertical active>
+          <Slider
+            min={1}
+            max={5}
+            step={0.1}
+            value={zoom()}
+            onChange={handleZoomInput}
+            minLabel="x1.0"
+            maxLabel="x5.0"
+          />
+        </Label>
+
+        <div class={styles.toolbar}>
+          <Button onClick={handleResetZoomAndPan}>Reset</Button>
+        </div>
       </Frame>
 
       <Frame class={styles.workspace}>
