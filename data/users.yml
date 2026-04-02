@@ -601,7 +601,7 @@ arya-stark:
   profiles:
     - service: vk
       id: '820702664'
-      updated: 2026-04-02-20-27-31
+      updated: 2026-04-02-21-26-24
       username: id820702664
       name: Арья Старк
       avatar: store:/avatars/vk-689aa89d.jpg
@@ -1650,7 +1650,7 @@ dremarretres:
   profiles:
     - service: vk
       id: '801308664'
-      updated: 2026-04-02-19-42-50
+      updated: 2026-04-02-21-26-27
       username: dremarretres
       name: Джон Шепард
       avatar: store:/avatars/vk-ac4f0700.jpg
@@ -2698,7 +2698,7 @@ ivan-uralov:
   profiles:
     - service: vk
       id: '16497155'
-      updated: 2026-04-02-12-08-05
+      updated: 2026-04-02-21-26-27
       username: id16497155
       name: Иван Уралов
       avatar: store:/avatars/vk-51775759.jpg
@@ -3842,7 +3842,7 @@ myndowen:
   profiles:
     - service: tg
       id: '720784420'
-      updated: 2026-04-02-20-27-25
+      updated: 2026-04-02-21-26-23
       accessHash: '4385662928393121475'
       username: myndowen
       name: Daniel Beilin
@@ -4298,7 +4298,7 @@ pankuher2007:
   profiles:
     - service: tg
       id: '930833332'
-      updated: 2026-04-02-20-27-29
+      updated: 2026-04-02-21-26-23
       accessHash: '-7533150892250845514'
       username: pankuher2007
       name: S. A.
@@ -4355,7 +4355,7 @@ peteevandrew:
   profiles:
     - service: vk
       id: '307619379'
-      updated: 2026-04-02-19-45-14
+      updated: 2026-04-02-21-26-29
       username: peteevandrew
       name: Андрей Петеев
       avatar: store:/avatars/vk-1abdc90f.jpg
@@ -4489,10 +4489,10 @@ porsankka666:
   profiles:
     - service: vk
       id: '320093421'
-      updated: 2026-03-30-08-22-40
+      updated: 2026-04-02-21-26-30
       username: porsankka666
       name: Дмитрий Иванов-Соломин
-      avatar: store:/avatars/vk-323a71af.jpg
+      avatar: store:/avatars/vk-1b657ff4.jpg
 promty75:
   profiles:
     - service: ig
@@ -4997,7 +4997,7 @@ sergey-venkov:
   profiles:
     - service: vk
       id: '217443112'
-      updated: 2026-04-01-22-26-02
+      updated: 2026-04-02-21-26-30
       username: id217443112
       name: Сергей Венков
       avatar: store:/avatars/vk-a77d1a73.jpg
