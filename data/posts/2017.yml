@@ -3829,17 +3829,17 @@
       id: DWmYHbPF-L3
       mediaId: '18083537453374515'
       published: 2026-04-01-18-47-24
-      updated: 2026-04-02-04-17-01
+      updated: 2026-04-02-06-05-02
       followers: 1616
-      likes: 53
+      likes: 55
     - service: vk
       id: 3240
       published: 2026-04-01-18-47-37
-      updated: 2026-04-02-04-16-55
+      updated: 2026-04-02-06-04-57
       followers: 1628
-      likes: 22
-      views: 182
-      reposts: 2
+      likes: 30
+      views: 230
+      reposts: 3
       comments: !c |-
         G3sA+J0Hxs3x4Hgr3cdHsHi+dsUJ7XgteohNYkd68r61zVSlW5Ipm8KrRZOI3ZBP8WEbeBvrsLW8
         bCVHDRtwgh4IxsGK9wG27GMRv+93/X4r4ztiq5N7YxkvRNBCd90mpogLnZ66TXciJr7TlLSayRBB
@@ -3847,10 +3847,11 @@
     - service: tg
       id: 1199
       published: 2026-04-01-18-47-43
-      updated: 2026-04-02-04-16-53
+      updated: 2026-04-02-06-04-56
       followers: 898
-      likes: 30
-      views: 112
+      likes: 36
+      views: 122
+      comments: !c Cw6AkZPLQnnUyNi7AACscGFua3VoZXIyMDA3pPCfpoAD
     - service: mx
       id: '1775069269740'
       published: 2026-04-01-18-47-49
