@@ -43,7 +43,9 @@ const defaultFilters: FilterValues = {
 
 const MIN_PX = 800;
 
-const PANZOOM_DURATION = 500;
+const PANZOOM_DURATION = 250;
+const PANZOOM_MIN_SCALE = 1;
+const PANZOOM_MAX_SCALE = 10;
 
 interface CropBoxPercent {
   top: number;
@@ -97,10 +99,8 @@ export const ImageEditor: Component<ImageEditorProps> = (props) => {
   const [isPanApplied, setIsPanApplied] = createSignal(false);
   const [isResettingZoomAndPan, setIsResettingZoomAndPan] = createSignal(false);
 
-  // Store original image dimensions
-  const [originalSize, setOriginalDimensions] = createSignal<{ width: number; height: number }>();
-  // Store cropped image dimensions
-  const [croppedSize, setCroppedDimensions] = createSignal<{ width: number; height: number }>();
+  const [originalSize, setOriginalSize] = createSignal<{ width: number; height: number }>();
+  const [croppedSize, setCroppedSize] = createSignal<{ width: number; height: number }>();
 
   const hasLoadingError = createMemo(() => currentUrl() === YellowExclamationMark);
 
@@ -198,7 +198,6 @@ export const ImageEditor: Component<ImageEditorProps> = (props) => {
       left: newLeft,
       top: newTop,
     });
-    setCropRatio(ratio);
   };
 
   const applyCrop = () => {
@@ -259,7 +258,7 @@ export const ImageEditor: Component<ImageEditorProps> = (props) => {
       const croppedDataUrl = canvas.toDataURL();
 
       // Store cropped dimensions
-      setCroppedDimensions({
+      setCroppedSize({
         width: canvas.width,
         height: canvas.height,
       });
@@ -276,11 +275,15 @@ export const ImageEditor: Component<ImageEditorProps> = (props) => {
     }
   };
 
+  const cancelCrop = () => {
+    setCropRatio(undefined);
+  };
+
   const handleChangeCrop = () => {
     setIsApplyingCrop(true);
     setCurrentUrl(originalUrl());
     setIsCropApplied(false);
-    setCroppedDimensions(undefined); // Clear cropped dimensions
+    setCroppedSize(undefined);
 
     const last = appliedCropBox();
     if (last) {
@@ -317,8 +320,8 @@ export const ImageEditor: Component<ImageEditorProps> = (props) => {
     resetFilters();
     setIsCropApplied(false);
     setCropRatio(undefined);
-    setCroppedDimensions(undefined); // Clear cropped dimensions
-    setOriginalDimensions(undefined); // Clear original dimensions
+    setCroppedSize(undefined); // Clear cropped dimensions
+    setOriginalSize(undefined); // Clear original dimensions
     panzoom?.reset({ animate: false });
   };
 
@@ -633,6 +636,35 @@ export const ImageEditor: Component<ImageEditorProps> = (props) => {
     panzoom?.zoom(value);
   };
 
+  const setupPanzoom = () => {
+    if (!containerRef || panzoom) {
+      return;
+    }
+
+    panzoom = Panzoom(containerRef, {
+      maxScale: PANZOOM_MAX_SCALE,
+      minScale: PANZOOM_MIN_SCALE,
+      duration: PANZOOM_DURATION,
+    });
+
+    containerRef.addEventListener('panzoomchange', handlePanzoomChange);
+    containerRef.addEventListener('panzoomzoom', handlePanzoomZoom);
+    containerRef.parentElement?.addEventListener('wheel', handlePanzoomWheel);
+  };
+
+  const cleanupPanzoom = () => {
+    if (!panzoom) {
+      return;
+    }
+
+    panzoom.reset({ animate: false });
+    containerRef?.removeEventListener('panzoomchange', handlePanzoomChange);
+    containerRef?.removeEventListener('panzoomzoom', handlePanzoomZoom);
+    containerRef?.parentElement?.removeEventListener('wheel', handlePanzoomWheel);
+    panzoom.destroy();
+    panzoom = undefined;
+  };
+
   const handleCropRatioChange = (value: PostAspectRatio | undefined) => {
     setCropRatio(value);
     setupCropFrame(value);
@@ -645,7 +677,7 @@ export const ImageEditor: Component<ImageEditorProps> = (props) => {
 
     // Store original dimensions when the image loads
     if (imgRef && !originalSize()) {
-      setOriginalDimensions({
+      setOriginalSize({
         width: imgRef.naturalWidth,
         height: imgRef.naturalHeight,
       });
@@ -677,6 +709,16 @@ export const ImageEditor: Component<ImageEditorProps> = (props) => {
     }
   });
 
+  // `panzoom.setOptions({ disableZoom: false, disablePan: false })` do not work properly with cropbox adjustment handlers,
+  // so we need to kill `panzoom` while cropping and reconstruct when cropping is finished or cancelled
+  createEffect(() => {
+    if (cropRatio() && !isCropApplied()) {
+      cleanupPanzoom();
+    } else {
+      setupPanzoom();
+    }
+  });
+
   // Clean up object URLs
   onCleanup(() => {
     const url = originalUrl();
@@ -700,17 +742,7 @@ export const ImageEditor: Component<ImageEditorProps> = (props) => {
     window.addEventListener('touchend', handleMouseUp);
     window.addEventListener('touchcancel', handleMouseUp);
 
-    if (containerRef) {
-      panzoom = Panzoom(containerRef, {
-        maxScale: 5,
-        minScale: 1,
-        duration: PANZOOM_DURATION,
-      });
-
-      containerRef.addEventListener('panzoomchange', handlePanzoomChange);
-      containerRef.addEventListener('panzoomzoom', handlePanzoomZoom);
-      containerRef.parentElement?.addEventListener('wheel', handlePanzoomWheel);
-    }
+    setupPanzoom();
 
     onCleanup(() => {
       window.removeEventListener('mousemove', handleMouseMove);
@@ -719,11 +751,7 @@ export const ImageEditor: Component<ImageEditorProps> = (props) => {
       window.removeEventListener('touchend', handleMouseUp);
       window.removeEventListener('touchcancel', handleMouseUp);
 
-      if (panzoom) {
-        containerRef?.removeEventListener('panzoomchange', handlePanzoomChange);
-        containerRef?.removeEventListener('panzoomzoom', handlePanzoomZoom);
-        containerRef?.parentElement?.removeEventListener('wheel', panzoom.zoomWithWheel);
-      }
+      cleanupPanzoom();
     });
   });
 
@@ -880,13 +908,13 @@ export const ImageEditor: Component<ImageEditorProps> = (props) => {
 
         <Label label={`Zoom (x${zoom().toFixed(1)})`} vertical active>
           <Slider
-            min={1}
-            max={5}
+            min={PANZOOM_MIN_SCALE}
+            max={PANZOOM_MAX_SCALE}
             step={0.1}
             value={zoom()}
             onChange={handleZoomInput}
-            minLabel="x1.0"
-            maxLabel="x5.0"
+            minLabel={`x${PANZOOM_MIN_SCALE.toFixed(1)}`}
+            maxLabel={`x${PANZOOM_MAX_SCALE.toFixed(1)}`}
           />
         </Label>
 
@@ -938,7 +966,7 @@ export const ImageEditor: Component<ImageEditorProps> = (props) => {
             }
           >
             <Button onClick={applyCrop}>Apply</Button>
-            <Button onClick={() => setCropRatio(undefined)}>Cancel</Button>
+            <Button onClick={cancelCrop}>Cancel</Button>
           </Show>
         </div>
 
