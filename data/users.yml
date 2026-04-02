@@ -601,7 +601,7 @@ arya-stark:
   profiles:
     - service: vk
       id: '820702664'
-      updated: 2026-04-02-21-26-24
+      updated: 2026-04-02-22-21-55
       username: id820702664
       name: Арья Старк
       avatar: store:/avatars/vk-689aa89d.jpg
@@ -1414,7 +1414,7 @@ dehero:
     - type: channel
       service: vk
       id: '138249959'
-      updated: 2026-04-02-19-45-58
+      updated: 2026-04-02-22-21-58
       username: mwscr
       name: Morrowind Screenshots
       avatar: store:/avatars/vk-8e97fd4f.jpg
@@ -2986,7 +2986,7 @@ kevy-c:
   profiles:
     - service: tg
       id: '5067683234'
-      updated: 2026-04-02-19-46-10
+      updated: 2026-04-02-22-21-58
       accessHash: '-903667913374325979'
       username: Kevy_c
       name: Dash
@@ -3842,7 +3842,7 @@ myndowen:
   profiles:
     - service: tg
       id: '720784420'
-      updated: 2026-04-02-21-26-23
+      updated: 2026-04-02-22-21-54
       accessHash: '4385662928393121475'
       username: myndowen
       name: Daniel Beilin
@@ -4298,7 +4298,7 @@ pankuher2007:
   profiles:
     - service: tg
       id: '930833332'
-      updated: 2026-04-02-21-26-23
+      updated: 2026-04-02-22-21-56
       accessHash: '-7533150892250845514'
       username: pankuher2007
       name: S. A.
@@ -6308,7 +6308,7 @@ vladislav-lomin:
   profiles:
     - service: vk
       id: '504964620'
-      updated: 2026-03-30-08-23-52
+      updated: 2026-04-02-22-21-57
       username: id504964620
       name: Владислав Ломин
       avatar: store:/avatars/vk-39034114.jpg
