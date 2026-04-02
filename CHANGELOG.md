@@ -2,6 +2,15 @@
 
 All notable changes to this project will be documented in this file.
 
+## [2.22.0](https://github.com/dehero/mwscr/compare/v2.21.5...v2.22.0) (2026-04-02)
+
+### Features
+
+- **site:** implement zoom and pan for image editor
+  ([dcabb18](https://github.com/dehero/mwscr/commit/dcabb18c33536f9b3a5b623edc36b71c02eb7e1b))
+- **site:** show image dimensions in image editor
+  ([611c194](https://github.com/dehero/mwscr/commit/611c194d8b9a96b4b8b37c93ca47f252fee7078e))
+
 ## [2.21.5](https://github.com/dehero/mwscr/compare/v2.21.4...v2.21.5) (2026-04-01)
 
 ### Bug Fixes
