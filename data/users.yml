@@ -601,7 +601,7 @@ arya-stark:
   profiles:
     - service: vk
       id: '820702664'
-      updated: 2026-04-02-22-21-55
+      updated: 2026-04-02-23-22-54
       username: id820702664
       name: Арья Старк
       avatar: store:/avatars/vk-689aa89d.jpg
@@ -1047,7 +1047,7 @@ chernosotinec:
   profiles:
     - service: vk
       id: '355750944'
-      updated: 2026-04-02-19-45-59
+      updated: 2026-04-02-23-22-54
       username: Chernosotinec
       name: Артём Стекольщиков
       avatar: store:/avatars/vk-8aee5603.jpg
@@ -2000,7 +2000,7 @@ feanor2la:
   profiles:
     - service: vk
       id: '16294877'
-      updated: 2026-04-02-19-44-37
+      updated: 2026-04-02-23-22-43
       username: feanor2la
       name: Иван Урлапов
       avatar: store:/avatars/vk-14fd45f0.jpg
@@ -2698,7 +2698,7 @@ ivan-uralov:
   profiles:
     - service: vk
       id: '16497155'
-      updated: 2026-04-02-21-26-27
+      updated: 2026-04-02-23-22-43
       username: id16497155
       name: Иван Уралов
       avatar: store:/avatars/vk-51775759.jpg
@@ -2986,7 +2986,7 @@ kevy-c:
   profiles:
     - service: tg
       id: '5067683234'
-      updated: 2026-04-02-22-21-58
+      updated: 2026-04-02-23-22-49
       accessHash: '-903667913374325979'
       username: Kevy_c
       name: Dash
@@ -3760,7 +3760,7 @@ mr-primov:
   profiles:
     - service: vk
       id: '161727367'
-      updated: 2026-03-30-08-22-24
+      updated: 2026-04-02-23-22-48
       username: mr_primov
       name: Владимир Примов
       avatar: store:/avatars/vk-17e0fa04.jpg
@@ -3842,7 +3842,7 @@ myndowen:
   profiles:
     - service: tg
       id: '720784420'
-      updated: 2026-04-02-22-21-54
+      updated: 2026-04-02-23-22-38
       accessHash: '4385662928393121475'
       username: myndowen
       name: Daniel Beilin
@@ -3980,7 +3980,7 @@ nikitaloshenko:
   profiles:
     - service: vk
       id: '58942565'
-      updated: 2026-04-02-12-08-00
+      updated: 2026-04-02-23-22-43
       username: nikitaloshenko
       name: Никита Лощенко
       avatar: store:/avatars/vk-dcd345db.jpg
@@ -4078,7 +4078,7 @@ o-sipuha:
   profiles:
     - service: vk
       id: '1042080884'
-      updated: 2026-03-30-12-48-30
+      updated: 2026-04-02-23-22-47
       username: o.sipuha
       name: Ольга Сипуха
       avatar: store:/avatars/vk-8c236691.jpg
@@ -4298,7 +4298,7 @@ pankuher2007:
   profiles:
     - service: tg
       id: '930833332'
-      updated: 2026-04-02-22-21-56
+      updated: 2026-04-02-23-22-38
       accessHash: '-7533150892250845514'
       username: pankuher2007
       name: S. A.
