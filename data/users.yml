@@ -601,7 +601,7 @@ arya-stark:
   profiles:
     - service: vk
       id: '820702664'
-      updated: 2026-04-02-01-07-38
+      updated: 2026-04-02-04-16-58
       username: id820702664
       name: Арья Старк
       avatar: store:/avatars/vk-689aa89d.jpg
@@ -1650,7 +1650,7 @@ dremarretres:
   profiles:
     - service: vk
       id: '801308664'
-      updated: 2026-04-02-01-07-39
+      updated: 2026-04-02-04-16-58
       username: dremarretres
       name: Джон Шепард
       avatar: store:/avatars/vk-ac4f0700.jpg
@@ -2357,11 +2357,11 @@ havoke:
   profiles:
     - service: tg
       id: '1968702139'
-      updated: 2026-03-05-02-38-01
+      updated: 2026-04-02-04-17-07
       accessHash: '3341190659643117061'
       username: Havoke
       name: Havok
-      avatar: store:/avatars/tg-5262580744863813877.jpg
+      avatar: store:/avatars/tg-5291801627876594590.jpg
 hendogfordays:
   profiles:
     - service: ig
@@ -4813,7 +4813,7 @@ ryan-butts:
   profiles:
     - service: tg
       id: '1687029860'
-      updated: 2026-03-05-02-38-02
+      updated: 2026-04-02-04-17-08
       accessHash: '-974849940983800062'
       name: Ryan Butts
 ryanthebronson:
@@ -4973,7 +4973,7 @@ sergey-b-2:
   profiles:
     - service: vk
       id: '1077446394'
-      updated: 2026-04-02-01-07-38
+      updated: 2026-04-02-04-16-58
       username: id1077446394
       name: Сергей Б
       avatar: store:/avatars/vk-4deb0770.jpg
