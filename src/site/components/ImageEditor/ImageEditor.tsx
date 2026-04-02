@@ -645,6 +645,7 @@ export const ImageEditor: Component<ImageEditorProps> = (props) => {
       maxScale: PANZOOM_MAX_SCALE,
       minScale: PANZOOM_MIN_SCALE,
       duration: PANZOOM_DURATION,
+      step: 0.5,
     });
 
     containerRef.addEventListener('panzoomchange', handlePanzoomChange);
@@ -657,6 +658,7 @@ export const ImageEditor: Component<ImageEditorProps> = (props) => {
       return;
     }
 
+    setZoom(1);
     panzoom.reset({ animate: false });
     containerRef?.removeEventListener('panzoomchange', handlePanzoomChange);
     containerRef?.removeEventListener('panzoomzoom', handlePanzoomZoom);
