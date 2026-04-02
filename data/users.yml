@@ -601,7 +601,7 @@ arya-stark:
   profiles:
     - service: vk
       id: '820702664'
-      updated: 2026-04-02-13-04-40
+      updated: 2026-04-02-14-17-12
       username: id820702664
       name: Арья Старк
       avatar: store:/avatars/vk-689aa89d.jpg
@@ -1173,7 +1173,7 @@ cyberkefiroctopuses9116:
   profiles:
     - service: yt
       id: UCQrVTmtQJBALuZTJ97Wxhwg
-      updated: 2026-03-05-13-15-24
+      updated: 2026-04-02-14-17-20
       username: '@cyberkefiroctopuses9116'
       name: Cyberkefir & Octopuses
       avatar: store:/avatars/yt-8da46b2c.jpg
@@ -1435,7 +1435,7 @@ dehero:
     - type: channel
       service: yt
       id: UCoSD49h3Nrss_Zix8boMwlw
-      updated: 2026-03-05-13-15-25
+      updated: 2026-04-02-14-17-21
       username: '@mwscr'
       name: Morrowind Screenshots
       avatar: store:/avatars/yt-fbce97ab.jpg
@@ -1650,7 +1650,7 @@ dremarretres:
   profiles:
     - service: vk
       id: '801308664'
-      updated: 2026-04-02-13-04-41
+      updated: 2026-04-02-14-17-13
       username: dremarretres
       name: Джон Шепард
       avatar: store:/avatars/vk-ac4f0700.jpg
@@ -1816,7 +1816,7 @@ eklersgovnom:
   profiles:
     - service: vk
       id: '336885466'
-      updated: 2026-03-05-13-15-25
+      updated: 2026-04-02-14-17-20
       username: eklersgovnom
       name: Алексей Гусев
       avatar: store:/avatars/vk-90557e25.jpg
@@ -2639,10 +2639,10 @@ irina-bystritskaya:
     - type: channel
       service: vk
       id: '207258733'
-      updated: 2026-03-05-13-15-26
+      updated: 2026-04-02-14-17-21
       username: club207258733
-      name: инсомния
-      avatar: store:/avatars/vk-d0e71933.jpg
+      name: рисую рисунки
+      avatar: store:/avatars/vk-dc6960ba.jpg
     - service: vk
       id: '56690300'
       updated: 2026-03-30-09-05-08
@@ -3241,7 +3241,7 @@ lmatt88:
   profiles:
     - service: yt
       id: UC_Es79p5960n1Bp2zpqOlYA
-      updated: 2026-03-05-13-15-26
+      updated: 2026-04-02-14-17-22
       username: '@lmateus88'
       name: Taro
       avatar: store:/avatars/yt-a8983253.jpg
@@ -3887,7 +3887,7 @@ nars-mcain:
   profiles:
     - service: yt
       id: UC1xja6c2XGr4CGB0jmTQrZQ
-      updated: 2026-03-05-13-15-27
+      updated: 2026-04-02-14-17-22
       username: '@narsmcain'
       name: Nars Mccain
       avatar: store:/avatars/yt-89e0a84e.jpg
@@ -4298,7 +4298,7 @@ pankuher2007:
   profiles:
     - service: tg
       id: '930833332'
-      updated: 2026-04-02-13-04-35
+      updated: 2026-04-02-14-17-07
       accessHash: '-7533150892250845514'
       username: pankuher2007
       name: S. A.
@@ -4981,7 +4981,7 @@ sergey-b-2:
   profiles:
     - service: vk
       id: '1077446394'
-      updated: 2026-04-02-13-04-41
+      updated: 2026-04-02-14-17-13
       username: id1077446394
       name: Сергей Б
       avatar: store:/avatars/vk-4deb0770.jpg
