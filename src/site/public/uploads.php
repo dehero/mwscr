@@ -61,7 +61,7 @@ function getUploadFileName($originalName, $tempPath)
   $mimeType = getFileMimeType($originalName, $tempPath);
   $fileType = getUploadTypeFromMimeType($mimeType);
 
-  return 'mwscr-' . $fileType . '-' . $shortHash . ($ext ? '.' . $ext : '');
+  return $fileType . '-' . $shortHash . ($ext ? '.' . $ext : '');
 }
 
 function getMetadataPath($originalPath)

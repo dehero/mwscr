@@ -182,6 +182,6 @@ export const dataPatchName = {
   attributes: {
     label: 'Data Patch URL or Name',
     description: 'Write down saved data patch sharing URL or name.',
-    placeholder: 'mwscr-patch-cc6fe487.json',
+    placeholder: 'patch-cc6fe487.json',
   },
 };
