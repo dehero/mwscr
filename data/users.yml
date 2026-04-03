@@ -601,7 +601,7 @@ arya-stark:
   profiles:
     - service: vk
       id: '820702664'
-      updated: 2026-04-03-01-10-14
+      updated: 2026-04-03-04-18-01
       username: id820702664
       name: Арья Старк
       avatar: store:/avatars/vk-689aa89d.jpg
@@ -2263,7 +2263,7 @@ goosevich76:
   profiles:
     - service: tg
       id: '5385620621'
-      updated: 2026-04-02-19-45-12
+      updated: 2026-04-03-04-17-58
       accessHash: '-7130473396589324830'
       username: horwwwaty
       name: choven
@@ -2986,7 +2986,7 @@ kevy-c:
   profiles:
     - service: tg
       id: '5067683234'
-      updated: 2026-04-02-23-22-49
+      updated: 2026-04-03-04-18-00
       accessHash: '-903667913374325979'
       username: Kevy_c
       name: Dash
@@ -3011,7 +3011,7 @@ kirillmanyukov:
   profiles:
     - service: vk
       id: '80137875'
-      updated: 2026-03-27-02-50-47
+      updated: 2026-04-03-04-17-56
       username: kirillmanyukov
       name: Кирилл Манюков
       avatar: store:/avatars/vk-b5b51945.jpg
@@ -3842,7 +3842,7 @@ myndowen:
   profiles:
     - service: tg
       id: '720784420'
-      updated: 2026-04-03-01-10-14
+      updated: 2026-04-03-04-17-52
       accessHash: '4385662928393121475'
       username: myndowen
       name: Daniel Beilin
@@ -4298,7 +4298,7 @@ pankuher2007:
   profiles:
     - service: tg
       id: '930833332'
-      updated: 2026-04-03-01-10-16
+      updated: 2026-04-03-04-17-54
       accessHash: '-7533150892250845514'
       username: pankuher2007
       name: S. A.
@@ -4489,7 +4489,7 @@ porsankka666:
   profiles:
     - service: vk
       id: '320093421'
-      updated: 2026-04-02-21-26-30
+      updated: 2026-04-03-04-18-01
       username: porsankka666
       name: Дмитрий Иванов-Соломин
       avatar: store:/avatars/vk-1b657ff4.jpg
@@ -4661,7 +4661,7 @@ reanimatrix:
   profiles:
     - service: tg
       id: '5221327246'
-      updated: 2026-03-27-02-50-44
+      updated: 2026-04-03-04-17-58
       accessHash: '2760022429796079203'
       name: reanimatrix
 redmisstletoe:
@@ -4949,7 +4949,7 @@ self-creating:
   profiles:
     - service: vk
       id: '50058433'
-      updated: 2026-03-30-08-42-08
+      updated: 2026-04-03-04-18-01
       username: self_creating
       name: Антон Коненков
       avatar: store:/avatars/vk-ef1ee023.jpg
@@ -4981,7 +4981,7 @@ sergey-b-2:
   profiles:
     - service: vk
       id: '1077446394'
-      updated: 2026-04-02-19-44-59
+      updated: 2026-04-03-04-18-02
       username: id1077446394
       name: Сергей Б
       avatar: store:/avatars/vk-4deb0770.jpg
