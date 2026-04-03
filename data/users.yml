@@ -601,7 +601,7 @@ arya-stark:
   profiles:
     - service: vk
       id: '820702664'
-      updated: 2026-04-03-18-31-56
+      updated: 2026-04-03-19-31-54
       username: id820702664
       name: Арья Старк
       avatar: store:/avatars/vk-689aa89d.jpg
@@ -1650,7 +1650,7 @@ dremarretres:
   profiles:
     - service: vk
       id: '801308664'
-      updated: 2026-04-02-21-26-27
+      updated: 2026-04-03-19-31-56
       username: dremarretres
       name: Джон Шепард
       avatar: store:/avatars/vk-ac4f0700.jpg
@@ -3842,7 +3842,7 @@ myndowen:
   profiles:
     - service: tg
       id: '720784420'
-      updated: 2026-04-03-18-31-58
+      updated: 2026-04-03-19-31-53
       accessHash: '4385662928393121475'
       username: myndowen
       name: Daniel Beilin
@@ -4576,7 +4576,7 @@ pyriglena:
   profiles:
     - service: tg
       id: '554672984'
-      updated: 2026-04-02-19-41-51
+      updated: 2026-04-03-19-31-53
       accessHash: '-3565593010225205906'
       username: pyriglena
       name: yarrow
@@ -4981,7 +4981,7 @@ sergey-b-2:
   profiles:
     - service: vk
       id: '1077446394'
-      updated: 2026-04-03-16-27-34
+      updated: 2026-04-03-19-31-56
       username: id1077446394
       name: Сергей Б
       avatar: store:/avatars/vk-4deb0770.jpg
