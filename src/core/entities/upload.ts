@@ -47,7 +47,7 @@ export function createUploadFileName(resource: Resource): string {
   const ext = originalName.split('.').pop()?.toLowerCase() || '';
   const type = getUploadTypeFromMimeType(mimeType);
 
-  return `mwscr-${type}-${hash}${ext ? `.${ext}` : ''}`;
+  return `${type}-${hash}${ext ? `.${ext}` : ''}`;
 }
 
 export function extractUploadFileName(value: string) {
