@@ -601,7 +601,7 @@ arya-stark:
   profiles:
     - service: vk
       id: '820702664'
-      updated: 2026-04-03-08-39-59
+      updated: 2026-04-03-09-42-41
       username: id820702664
       name: Арья Старк
       avatar: store:/avatars/vk-689aa89d.jpg
@@ -3842,7 +3842,7 @@ myndowen:
   profiles:
     - service: tg
       id: '720784420'
-      updated: 2026-04-03-08-39-59
+      updated: 2026-04-03-09-42-41
       accessHash: '4385662928393121475'
       username: myndowen
       name: Daniel Beilin
@@ -4298,7 +4298,7 @@ pankuher2007:
   profiles:
     - service: tg
       id: '930833332'
-      updated: 2026-04-03-08-40-01
+      updated: 2026-04-03-09-42-44
       accessHash: '-7533150892250845514'
       username: pankuher2007
       name: S. A.
