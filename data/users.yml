@@ -2986,7 +2986,7 @@ kevy-c:
   profiles:
     - service: tg
       id: '5067683234'
-      updated: 2026-04-03-22-21-10
+      updated: 2026-04-03-23-30-06
       accessHash: '-903667913374325979'
       username: Kevy_c
       name: Dash
@@ -3249,7 +3249,7 @@ loftydelusion:
   profiles:
     - service: tg
       id: '6735256969'
-      updated: 2026-04-02-19-44-47
+      updated: 2026-04-03-23-29-59
       accessHash: '7923451850129434076'
       username: Loftydelusion
       name: Ꭰelusion
@@ -3842,7 +3842,7 @@ myndowen:
   profiles:
     - service: tg
       id: '720784420'
-      updated: 2026-04-03-22-21-10
+      updated: 2026-04-03-23-30-02
       accessHash: '4385662928393121475'
       username: myndowen
       name: Daniel Beilin
@@ -4273,7 +4273,7 @@ painkiller1986:
   profiles:
     - service: tg
       id: '6565289507'
-      updated: 2026-04-03-21-22-47
+      updated: 2026-04-03-23-30-06
       accessHash: '6198356028119192921'
       username: Painkiller1986
       name: Сумерки
@@ -4576,7 +4576,7 @@ pyriglena:
   profiles:
     - service: tg
       id: '554672984'
-      updated: 2026-04-03-22-21-09
+      updated: 2026-04-03-23-30-01
       accessHash: '-3565593010225205906'
       username: pyriglena
       name: yarrow
@@ -4981,7 +4981,7 @@ sergey-b-2:
   profiles:
     - service: vk
       id: '1077446394'
-      updated: 2026-04-03-19-31-56
+      updated: 2026-04-03-23-30-17
       username: id1077446394
       name: Сергей Б
       avatar: store:/avatars/vk-4deb0770.jpg
@@ -5128,7 +5128,7 @@ slavaisaykin:
   profiles:
     - service: vk
       id: '64157384'
-      updated: 2026-03-30-12-50-44
+      updated: 2026-04-03-23-30-04
       username: slavaisaykin
       name: Слава Исайкин
       avatar: store:/avatars/vk-f145c72b.jpg
