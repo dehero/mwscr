@@ -1650,7 +1650,7 @@ dremarretres:
   profiles:
     - service: vk
       id: '801308664'
-      updated: 2026-04-04-14-24-17
+      updated: 2026-04-04-15-20-14
       username: dremarretres
       name: Джон Шепард
       avatar: store:/avatars/vk-ac4f0700.jpg
@@ -3249,7 +3249,7 @@ loftydelusion:
   profiles:
     - service: tg
       id: '6735256969'
-      updated: 2026-04-04-14-24-19
+      updated: 2026-04-04-15-20-14
       accessHash: '7923451850129434076'
       username: Loftydelusion
       name: Ꭰelusion
@@ -3842,7 +3842,7 @@ myndowen:
   profiles:
     - service: tg
       id: '720784420'
-      updated: 2026-04-04-14-24-21
+      updated: 2026-04-04-15-20-18
       accessHash: '4385662928393121475'
       username: myndowen
       name: Daniel Beilin
@@ -4576,7 +4576,7 @@ pyriglena:
   profiles:
     - service: tg
       id: '554672984'
-      updated: 2026-04-04-14-24-21
+      updated: 2026-04-04-15-20-17
       accessHash: '-3565593010225205906'
       username: pyriglena
       name: yarrow
