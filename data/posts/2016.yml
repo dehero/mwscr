@@ -690,18 +690,18 @@
     - service: vk
       id: 3197
       published: 2026-03-21-18-48-42
-      updated: 2026-03-28-22-36-17
+      updated: 2026-04-04-23-20-35
       followers: 1623
-      likes: 74
-      views: 697
+      likes: 75
+      views: 722
       reposts: 3
     - service: tg
       id: 1189
       published: 2026-03-21-18-49-01
-      updated: 2026-03-28-22-36-11
+      updated: 2026-04-04-23-20-34
       followers: 894
-      likes: 57
-      views: 340
+      likes: 59
+      views: 429
       comments: !c CwuAkZPLQnnRtFPkAACma2V2eS1jpPCfpoAD
     - service: mx
       id: '1774118945544'
