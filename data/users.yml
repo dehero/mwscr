@@ -1324,7 +1324,7 @@ darkness-rifho:
       deleted: true
     - service: tg
       id: '5704974271'
-      updated: 2026-04-02-19-45-07
+      updated: 2026-04-04-07-02-04
       accessHash: '3506423524566292179'
       username: C4H6O4
       name: Уна
@@ -1650,7 +1650,7 @@ dremarretres:
   profiles:
     - service: vk
       id: '801308664'
-      updated: 2026-04-04-05-48-33
+      updated: 2026-04-04-07-01-59
       username: dremarretres
       name: Джон Шепард
       avatar: store:/avatars/vk-ac4f0700.jpg
@@ -2986,7 +2986,7 @@ kevy-c:
   profiles:
     - service: tg
       id: '5067683234'
-      updated: 2026-04-04-04-06-53
+      updated: 2026-04-04-07-02-04
       accessHash: '-903667913374325979'
       username: Kevy_c
       name: Dash
@@ -3249,7 +3249,7 @@ loftydelusion:
   profiles:
     - service: tg
       id: '6735256969'
-      updated: 2026-04-04-05-48-33
+      updated: 2026-04-04-07-01-59
       accessHash: '7923451850129434076'
       username: Loftydelusion
       name: Ꭰelusion
@@ -3842,7 +3842,7 @@ myndowen:
   profiles:
     - service: tg
       id: '720784420'
-      updated: 2026-04-04-05-48-37
+      updated: 2026-04-04-07-02-03
       accessHash: '4385662928393121475'
       username: myndowen
       name: Daniel Beilin
@@ -4576,7 +4576,7 @@ pyriglena:
   profiles:
     - service: tg
       id: '554672984'
-      updated: 2026-04-04-05-48-37
+      updated: 2026-04-04-07-02-02
       accessHash: '-3565593010225205906'
       username: pyriglena
       name: yarrow
@@ -5257,11 +5257,11 @@ sonnykotya:
   profiles:
     - service: tg
       id: '7937963458'
-      updated: 2026-03-28-06-04-47
+      updated: 2026-04-04-07-02-04
       accessHash: '6311850478953577755'
       username: sonnykotya
       name: дракоша
-      avatar: store:/avatars/tg-5343914922800255828.jpg
+      avatar: store:/avatars/tg-5371020624614068557.jpg
 sothaseel:
   profiles:
     - service: ig
