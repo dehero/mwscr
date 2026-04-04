@@ -601,7 +601,7 @@ arya-stark:
   profiles:
     - service: vk
       id: '820702664'
-      updated: 2026-04-04-18-25-48
+      updated: 2026-04-04-19-24-25
       username: id820702664
       name: Арья Старк
       avatar: store:/avatars/vk-689aa89d.jpg
@@ -1650,7 +1650,7 @@ dremarretres:
   profiles:
     - service: vk
       id: '801308664'
-      updated: 2026-04-04-18-25-41
+      updated: 2026-04-04-19-24-21
       username: dremarretres
       name: Джон Шепард
       avatar: store:/avatars/vk-ac4f0700.jpg
@@ -1988,6 +1988,14 @@ exposures-la:
       username: exposures.la
       name: Exposures
       avatar: store:/avatars/ig-bd3c08f4.jpg
+fadeev-alexxx:
+  profiles:
+    - service: vk
+      id: '305246543'
+      updated: 2026-04-04-19-24-28
+      username: fadeev_alexxx
+      name: Алексей Фадеев
+      avatar: store:/avatars/vk-6a4ed023.jpg
 fainebrayne:
   profiles:
     - service: ig
@@ -3249,7 +3257,7 @@ loftydelusion:
   profiles:
     - service: tg
       id: '6735256969'
-      updated: 2026-04-04-18-25-44
+      updated: 2026-04-04-19-24-25
       accessHash: '7923451850129434076'
       username: Loftydelusion
       name: Ꭰelusion
@@ -4298,7 +4306,7 @@ pankuher2007:
   profiles:
     - service: tg
       id: '930833332'
-      updated: 2026-04-03-18-31-59
+      updated: 2026-04-04-19-24-32
       accessHash: '-7533150892250845514'
       username: pankuher2007
       name: S. A.
@@ -4576,7 +4584,7 @@ pyriglena:
   profiles:
     - service: tg
       id: '554672984'
-      updated: 2026-04-04-18-25-47
+      updated: 2026-04-04-19-24-21
       accessHash: '-3565593010225205906'
       username: pyriglena
       name: yarrow
@@ -4832,6 +4840,15 @@ ryanthebronson:
       username: ryanthebronson
       name: Ryan Bronson
       avatar: store:/avatars/ig-cacb7566.jpg
+sagittarian-king:
+  profiles:
+    - service: tg
+      id: '352504312'
+      updated: 2026-04-04-19-24-20
+      accessHash: '3929555629803555147'
+      username: SagittarianKing
+      name: 🦜 Eald ☠️
+      avatar: store:/avatars/tg-1513994492195219373.jpg
 sam-m-cooley:
   profiles:
     - service: ig

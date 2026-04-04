@@ -3829,28 +3829,29 @@
       id: DWmYHbPF-L3
       mediaId: '18083537453374515'
       published: 2026-04-01-18-47-24
-      updated: 2026-04-03-18-32-02
+      updated: 2026-04-04-19-24-35
       followers: 1616
-      likes: 71
+      likes: 75
     - service: vk
       id: 3240
       published: 2026-04-01-18-47-37
-      updated: 2026-04-03-18-31-56
+      updated: 2026-04-04-19-24-28
       followers: 1628
-      likes: 42
-      views: 407
+      likes: 43
+      views: 448
       reposts: 3
       comments: !c |-
-        G3sA+J0Hxs3x4Hgr3cdHsHi+dsUJ7XgteohNYkd68r61zVSlW5Ipm8KrRZOI3ZBP8WEbeBvrsLW8
-        bCVHDRtwgh4IxsGK9wG27GMRv+93/X4r4ztiq5N7YxkvRNBCd90mpogLnZ66TXciJr7TlLSayRBB
-        E5zyQCJQmJDa3Q==
+        G9UAIJwJdozKK3T25ATP5208oX/ePvo4izYLuMS6Ikrew6nbjMHQmsUS73FwL9/BkBWE/9yx3gJJ
+        JIL77+Rat7U0iLhsKbNzyoF7gAkG4EnYbt/R7zm8PAcSz2r5uv827z/1LE8/ZpfY074GbwsS0SEK
+        WfHJMwwdg0RWGhM0ged2A5yeqCZBPxAicEQQIMqdmer6+vtL+VrMbgvajbGMC0kLM3EYdLaF40A8
+        jFACCFcoFIhdAA==
     - service: tg
       id: 1199
       published: 2026-04-01-18-47-43
-      updated: 2026-04-03-18-31-59
+      updated: 2026-04-04-19-24-34
       followers: 898
-      likes: 50
-      views: 212
+      likes: 51
+      views: 243
       comments: !c Cw6AkZPLQnnUyNi7AACscGFua3VoZXIyMDA3pPCfpoAD
     - service: mx
       id: '1775069269740'
@@ -4582,16 +4583,16 @@
       id: DWrgArHl5nu
       mediaId: '18145746310427882'
       published: 2026-04-03-18-32-34
-      updated: 2026-04-04-18-25-48
+      updated: 2026-04-04-19-24-30
       followers: 1616
-      likes: 81
+      likes: 83
     - service: vk
       id: 3246
       published: 2026-04-03-18-32-47
-      updated: 2026-04-04-18-25-42
+      updated: 2026-04-04-19-24-21
       followers: 1627
-      likes: 64
-      views: 423
+      likes: 65
+      views: 432
       reposts: 4
       comments: !c |-
         G0MA+J0J1VMsfxi9iO+xyzjBiJMgqSQLtBadbInw/KztrYXqLpMLy96EGCJKVloZcdx5x9DnURYJ
@@ -4599,10 +4600,10 @@
     - service: tg
       id: 1201
       published: 2026-04-03-18-33-04
-      updated: 2026-04-04-18-25-44
+      updated: 2026-04-04-19-24-27
       followers: 899
-      likes: 48
-      views: 157
+      likes: 52
+      views: 177
       comments: !c iw6AkZPLQnnVWr2bgACtbG9mdHlkZWx1c2lvbqREYW1uAw==
     - service: mx
       id: '1775241189354'
@@ -15995,15 +15996,28 @@
       id: DWuEJjpl5h7
       mediaId: '17870264790485877'
       published: 2026-04-04-18-26-47
+      updated: 2026-04-04-19-24-25
       followers: 1616
+      likes: 22
     - service: vk
       id: 3251
       published: 2026-04-04-18-26-54
+      updated: 2026-04-04-19-24-18
       followers: 1628
+      likes: 8
+      views: 69
+      reposts: 1
     - service: tg
       id: 1202
       published: 2026-04-04-18-27-00
+      updated: 2026-04-04-19-24-23
       followers: 899
+      likes: 22
+      views: 67
+      comments: !c |-
+        G6MAYI3UVnfjTuT/cz8/SaVQ2yes3CzKN92ZzzJA8j6gqdtSfSjWMPCegSzcGwwpGO4GJxqYF1Ca
+        UayDLrDwHmNn2tgc5Xg2f7ndv/z3esy6RLAKSWiEVLTqt8hlealjKNxWBugdTpdi8WBXq+wlY7vQ
+        AfVwpgGeeE1xoD6uOOMi/OWpzK02PuBKPaypjzPJlgk=
     - service: mx
       id: '1775327227266'
       published: 2026-04-04-18-27-07
