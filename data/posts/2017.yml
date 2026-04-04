@@ -4582,16 +4582,16 @@
       id: DWrgArHl5nu
       mediaId: '18145746310427882'
       published: 2026-04-03-18-32-34
-      updated: 2026-04-04-17-21-47
+      updated: 2026-04-04-18-25-48
       followers: 1616
       likes: 81
     - service: vk
       id: 3246
       published: 2026-04-03-18-32-47
-      updated: 2026-04-04-17-21-43
+      updated: 2026-04-04-18-25-42
       followers: 1627
-      likes: 62
-      views: 404
+      likes: 64
+      views: 423
       reposts: 4
       comments: !c |-
         G0MA+J0J1VMsfxi9iO+xyzjBiJMgqSQLtBadbInw/KztrYXqLpMLy96EGCJKVloZcdx5x9DnURYJ
@@ -4599,10 +4599,10 @@
     - service: tg
       id: 1201
       published: 2026-04-03-18-33-04
-      updated: 2026-04-04-17-21-42
+      updated: 2026-04-04-18-25-44
       followers: 899
       likes: 48
-      views: 155
+      views: 157
       comments: !c iw6AkZPLQnnVWr2bgACtbG9mdHlkZWx1c2lvbqREYW1uAw==
     - service: mx
       id: '1775241189354'
@@ -15991,6 +15991,23 @@
       likes: 69
       views: 552
       comments: !c ixOAkZPLQnjhAF9lAACucXVpbnR1cy1mYWJpdXOt8J+Pg+KAjeKZgu+4jwM=
+    - service: ig
+      id: DWuEJjpl5h7
+      mediaId: '17870264790485877'
+      published: 2026-04-04-18-26-47
+      followers: 1616
+    - service: vk
+      id: 3251
+      published: 2026-04-04-18-26-54
+      followers: 1628
+    - service: tg
+      id: 1202
+      published: 2026-04-04-18-27-00
+      followers: 899
+    - service: mx
+      id: '1775327227266'
+      published: 2026-04-04-18-27-07
+      followers: 20
 2017-11-16-cozy-workplace-in-the-basement:
   title: Cozy Workplace in the Basement
   titleRu: Уютное рабочее место в подвале
