@@ -585,7 +585,7 @@ artyom-melikhoff:
   profiles:
     - service: vk
       id: '299405149'
-      updated: 2026-04-02-19-46-18
+      updated: 2026-04-04-01-04-27
       username: artyom_melikhoff
       name: Артём Мелихов
       avatar: store:/avatars/vk-5b2fd843.jpg
@@ -601,7 +601,7 @@ arya-stark:
   profiles:
     - service: vk
       id: '820702664'
-      updated: 2026-04-03-21-22-45
+      updated: 2026-04-04-01-04-29
       username: id820702664
       name: Арья Старк
       avatar: store:/avatars/vk-689aa89d.jpg
@@ -3249,7 +3249,7 @@ loftydelusion:
   profiles:
     - service: tg
       id: '6735256969'
-      updated: 2026-04-03-23-29-59
+      updated: 2026-04-04-01-04-25
       accessHash: '7923451850129434076'
       username: Loftydelusion
       name: Ꭰelusion
@@ -3842,7 +3842,7 @@ myndowen:
   profiles:
     - service: tg
       id: '720784420'
-      updated: 2026-04-03-23-30-02
+      updated: 2026-04-04-01-04-27
       accessHash: '4385662928393121475'
       username: myndowen
       name: Daniel Beilin
@@ -4576,7 +4576,7 @@ pyriglena:
   profiles:
     - service: tg
       id: '554672984'
-      updated: 2026-04-03-23-30-01
+      updated: 2026-04-04-01-04-27
       accessHash: '-3565593010225205906'
       username: pyriglena
       name: yarrow
