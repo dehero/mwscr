@@ -3835,23 +3835,25 @@
     - service: vk
       id: 3240
       published: 2026-04-01-18-47-37
-      updated: 2026-04-04-19-24-28
+      updated: 2026-04-05-19-27-27
       followers: 1628
-      likes: 43
-      views: 448
+      likes: 47
+      views: 490
       reposts: 3
       comments: !c |-
-        G9UAIJwJdozKK3T25ATP5208oX/ePvo4izYLuMS6Ikrew6nbjMHQmsUS73FwL9/BkBWE/9yx3gJJ
-        JIL77+Rat7U0iLhsKbNzyoF7gAkG4EnYbt/R7zm8PAcSz2r5uv827z/1LE8/ZpfY074GbwsS0SEK
-        WfHJMwwdg0RWGhM0ged2A5yeqCZBPxAicEQQIMqdmer6+vtL+VrMbgvajbGMC0kLM3EYdLaF40A8
-        jFACCFcoFIhdAA==
+        Gw8CQCwO7MYfG8ltnf3PqImerxPDEfqameuhF2scsU5KVNmn1mSTYsKpYRAYkfU/rKRr/g6jMBZt
+        bZibGIqlWKJh2wTv+cPDajBls1kLBFBPFtNrEARjbGy2hxSx3Ik+GP72j7+HMKGWHgC0PbckK0gy
+        CNNtXiIi+CkyweqoiOL7/k/8nu/++L6bgoY98lvciwWBBfvMQ55OB8l6nx4mvhKfti/EWuecBQR2
+        gh6CBJhitfcuXv/z89uO3yTOulhAbDM3utgqZUE8nqok3WCaPDGhrk8UmFgwYtP7X4vnExRImDa1
+        P4wD2zWqx14CvDgECEht4jjDUxblkIIYde6oiiDoqIVPWKAoj3SZoJBgcaI3ol5Z3IyK3dUYrFjk
+        RaGQSYaMRblYoW6A2ZCkt+xygwHsGJwPbdLQ1RAQVKPlPwspLw==
     - service: tg
       id: 1199
       published: 2026-04-01-18-47-43
-      updated: 2026-04-04-19-24-34
+      updated: 2026-04-05-19-27-25
       followers: 898
-      likes: 51
-      views: 243
+      likes: 53
+      views: 279
       comments: !c Cw6AkZPLQnnUyNi7AACscGFua3VoZXIyMDA3pPCfpoAD
     - service: mx
       id: '1775069269740'
@@ -16002,18 +16004,18 @@
     - service: vk
       id: 3251
       published: 2026-04-04-18-26-54
-      updated: 2026-04-05-18-26-56
+      updated: 2026-04-05-19-27-21
       followers: 1628
       likes: 50
-      views: 409
+      views: 412
       reposts: 3
     - service: tg
       id: 1202
       published: 2026-04-04-18-27-00
-      updated: 2026-04-05-18-26-58
+      updated: 2026-04-05-19-27-23
       followers: 899
       likes: 51
-      views: 173
+      views: 192
       comments: !c |-
         G6MAYI3UVnfjTuT/cz8/SaVQ2yes3CzKN92ZzzJA8j6gqdtSfSjWMPCegSzcGwwpGO4GJxqYF1Ca
         UayDLrDwHmNn2tgc5Xg2f7ndv/z3esy6RLAKSWiEVLTqt8hlealjKNxWBugdTpdi8WBXq+wlY7vQ

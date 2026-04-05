@@ -1484,11 +1484,17 @@
     - service: vk
       id: 3254
       published: 2026-04-05-18-27-38
+      updated: 2026-04-05-19-27-20
       followers: 1628
+      likes: 10
+      views: 93
     - service: tg
       id: 1203
       published: 2026-04-05-18-27-49
+      updated: 2026-04-05-19-27-20
       followers: 900
+      likes: 14
+      views: 70
     - service: mx
       id: '1775413673794'
       published: 2026-04-05-18-27-53
