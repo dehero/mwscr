@@ -601,7 +601,7 @@ arya-stark:
   profiles:
     - service: vk
       id: '820702664'
-      updated: 2026-04-05-20-19-55
+      updated: 2026-04-05-22-18-31
       username: id820702664
       name: Арья Старк
       avatar: store:/avatars/vk-689aa89d.jpg
@@ -4584,7 +4584,7 @@ pyriglena:
   profiles:
     - service: tg
       id: '554672984'
-      updated: 2026-04-05-21-21-00
+      updated: 2026-04-05-22-18-27
       accessHash: '-3565593010225205906'
       username: pyriglena
       name: yarrow
@@ -4844,7 +4844,7 @@ sagittarian-king:
   profiles:
     - service: tg
       id: '352504312'
-      updated: 2026-04-05-21-21-00
+      updated: 2026-04-05-22-18-27
       accessHash: '3929555629803555147'
       username: SagittarianKing
       name: 🦜 Eald ☠️
