@@ -601,7 +601,7 @@ arya-stark:
   profiles:
     - service: vk
       id: '820702664'
-      updated: 2026-04-04-22-17-17
+      updated: 2026-04-05-01-12-38
       username: id820702664
       name: Арья Старк
       avatar: store:/avatars/vk-689aa89d.jpg
@@ -1650,7 +1650,7 @@ dremarretres:
   profiles:
     - service: vk
       id: '801308664'
-      updated: 2026-04-04-23-20-31
+      updated: 2026-04-05-01-12-35
       username: dremarretres
       name: Джон Шепард
       avatar: store:/avatars/vk-ac4f0700.jpg
@@ -1764,7 +1764,7 @@ eidelelweise:
   profiles:
     - service: vk
       id: '451140204'
-      updated: 2026-04-03-12-35-54
+      updated: 2026-04-05-01-12-38
       username: eidelelweise
       name: Эйдель Элиас Вайс
       avatar: store:/avatars/vk-85124301.jpg
@@ -3257,7 +3257,7 @@ loftydelusion:
   profiles:
     - service: tg
       id: '6735256969'
-      updated: 2026-04-04-23-20-32
+      updated: 2026-04-05-01-12-35
       accessHash: '7923451850129434076'
       username: Loftydelusion
       name: Ꭰelusion
@@ -4584,7 +4584,7 @@ pyriglena:
   profiles:
     - service: tg
       id: '554672984'
-      updated: 2026-04-04-23-20-30
+      updated: 2026-04-05-01-12-33
       accessHash: '-3565593010225205906'
       username: pyriglena
       name: yarrow
@@ -4844,7 +4844,7 @@ sagittarian-king:
   profiles:
     - service: tg
       id: '352504312'
-      updated: 2026-04-04-23-20-28
+      updated: 2026-04-05-01-12-32
       accessHash: '3929555629803555147'
       username: SagittarianKing
       name: 🦜 Eald ☠️
