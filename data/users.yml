@@ -4584,7 +4584,7 @@ pyriglena:
   profiles:
     - service: tg
       id: '554672984'
-      updated: 2026-04-05-23-22-32
+      updated: 2026-04-06-01-12-41
       accessHash: '-3565593010225205906'
       username: pyriglena
       name: yarrow
@@ -4844,7 +4844,7 @@ sagittarian-king:
   profiles:
     - service: tg
       id: '352504312'
-      updated: 2026-04-05-23-22-31
+      updated: 2026-04-06-01-12-40
       accessHash: '3929555629803555147'
       username: SagittarianKing
       name: 🦜 Eald ☠️
