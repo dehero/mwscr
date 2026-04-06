@@ -104,14 +104,14 @@ a2-enkelli:
   profiles:
     - service: tg
       id: '7258424423'
-      updated: 2026-04-06-14-06-06
+      updated: 2026-04-06-15-37-01
       accessHash: '969825927170686844'
       deleted: true
 aarychagoff:
   profiles:
     - service: tg
       id: '1343549669'
-      updated: 2026-04-06-10-09-33
+      updated: 2026-04-06-15-37-01
       accessHash: '-8044934406214364524'
       username: aarychagoff
       name: Andrei Rychagov
@@ -585,7 +585,7 @@ artyom-melikhoff:
   profiles:
     - service: vk
       id: '299405149'
-      updated: 2026-04-06-14-06-29
+      updated: 2026-04-06-15-37-00
       username: artyom_melikhoff
       name: Артём Мелихов
       avatar: store:/avatars/vk-5b2fd843.jpg
@@ -2965,7 +2965,7 @@ kawazaky223:
   profiles:
     - service: tg
       id: '5641856113'
-      updated: 2026-04-06-14-06-17
+      updated: 2026-04-06-15-37-02
       accessHash: '7421309771527577818'
       username: Kawazaky223
       name: Максим
@@ -4585,7 +4585,7 @@ pyriglena:
   profiles:
     - service: tg
       id: '554672984'
-      updated: 2026-04-06-14-04-37
+      updated: 2026-04-06-15-36-57
       accessHash: '-3565593010225205906'
       username: pyriglena
       name: yarrow
@@ -4845,7 +4845,7 @@ sagittarian-king:
   profiles:
     - service: tg
       id: '352504312'
-      updated: 2026-04-06-14-04-36
+      updated: 2026-04-06-15-36-57
       accessHash: '3929555629803555147'
       username: SagittarianKing
       name: 🦜 Eald ☠️
