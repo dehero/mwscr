@@ -2724,10 +2724,10 @@
     - service: tg
       id: 1144
       published: 2026-02-07-18-38-29
-      updated: 2026-03-30-08-16-34
+      updated: 2026-04-06-08-17-06
       followers: 890
       likes: 58
-      views: 549
+      views: 550
       comments: !c CwuAkZPLQnnDy41MAACma2V2eS1jpPCfpoAD
 2018-02-24-in-the-skaal-village:
   title: In the Skaal Village
@@ -3140,10 +3140,10 @@
     - service: tg
       id: 1137
       published: 2026-01-31-18-32-08
-      updated: 2026-03-30-08-16-39
+      updated: 2026-04-06-08-17-09
       followers: 887
       likes: 67
-      views: 595
+      views: 597
       comments: !c |-
         iy2AkpPLQnnBbLFXAACma2V2eS1jpPCfpoCTy0J5wVVAHoAArnBhaW5raWxsZXIxOTg22SrQm9Cw
         0YEt0JLQtdCz0LDRgSDQtNC70Y8g0YXQuNC60LrQsNC90L7Qsi4D
@@ -15290,32 +15290,33 @@
     - service: vk
       id: 3198
       published: 2026-03-22-18-51-40
-      updated: 2026-03-30-08-16-33
+      updated: 2026-04-06-08-16-55
       followers: 1624
-      likes: 60
-      views: 508
+      likes: 62
+      views: 540
       reposts: 3
       comments: !c |-
-        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
+        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
     - service: tg
       id: 1190
       published: 2026-03-22-18-52-15
-      updated: 2026-03-30-08-16-11
+      updated: 2026-04-06-08-16-51
       followers: 894
-      likes: 53
-      views: 320
+      likes: 55
+      views: 434
       comments: !c ixmAkpPLQnnRtFFzAACma2V2eS1jpPCfpoCTy0J50YBv9IAArW9sbWVyLWl6ZGV5bGGk8J+QigM=
     - service: mx
       id: '1774205540714'
