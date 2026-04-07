@@ -9,6 +9,7 @@ import type { MediaMetadata } from '../../core/entities/media.js';
 import type { Resource } from '../../core/entities/resource.js';
 import { parseResourceUrl, resourceIsImage, resourceIsVideo } from '../../core/entities/resource.js';
 import { assertSchema } from '../../core/entities/schema.js';
+import { createStoreItemUrl, parseStoreItemUrl } from '../../core/entities/store.js';
 import { Upload } from '../../core/entities/upload.js';
 import { site } from '../../core/services/site.js';
 import { textToId } from '../../core/utils/common-utils.js';
@@ -285,6 +286,36 @@ export function getResourceMetaUrl(url: string): string {
   }
 
   throw new Error(`Unknown resource protocol ${protocol} for ${url}.`);
+}
+
+export async function getResourceOriginalUrl(url: string): Promise<string | undefined> {
+  const { protocol } = parseResourceUrl(url);
+
+  switch (protocol) {
+    case 'store:': {
+      const source = parseStoreItemUrl(url);
+      if (!source) {
+        return undefined;
+      }
+
+      return createStoreItemUrl({ ...source, variant: 'original' });
+    }
+    case 'uploads:': {
+      const metaUrl = getResourceMetaUrl(url);
+      const meta = await (await fetch(metaUrl)).json();
+
+      assertSchema(Upload, meta);
+
+      // Upload can reference another upload, recursively
+      return meta.originalUrl ? getResourceOriginalUrl(meta.originalUrl) : url;
+    }
+    case 'file:':
+    case 'http:':
+    case 'https:':
+      return url;
+    default:
+      throw new Error(`Unable to get original URL for protocol "${protocol}"`);
+  }
 }
 
 export async function createResourcePreview(url: string, width: number, height: number): Promise<string | undefined> {

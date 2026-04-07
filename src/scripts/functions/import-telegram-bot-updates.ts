@@ -140,12 +140,9 @@ async function processMessage(message: TelegramBot.Message) {
       const url = await bot.getFileLink(message.document.file_id);
       const [data, mimeType, filename] = await readResource(url);
       const resource: Resource = [data, message.document.mime_type || mimeType, message.document.file_name || filename];
+      const created = new Date(message.date * 1000);
 
-      const postEntries = await importResourceToStore(
-        resource,
-        { title: message.caption, author },
-        new Date(message.date * 1000),
-      );
+      const postEntries = await importResourceToStore(resource, { title: message.caption, author, created });
 
       for (const [id, post] of postEntries) {
         if (post.violation) {

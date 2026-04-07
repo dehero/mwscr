@@ -2,7 +2,7 @@ import { array, boolean, date, type InferOutput, nullable, number, object, optio
 import { getRevisionHash } from '../utils/common-utils.js';
 import type { Resource } from './resource.js';
 
-const UPLOAD_FILENAME_REGEX = /mwscr-(image|video|archive|patch|file)-[a-f0-9]+\.json/g;
+const UPLOAD_FILENAME_REGEX = /(image|video|archive|patch|file)-[a-f0-9]+\.(json|png|jpg|jpeg|bmp|gif|webp)/g;
 
 export const UploadType = picklist(['image', 'video', 'archive', 'patch', 'file']);
 
@@ -11,6 +11,7 @@ export const Upload = object({
   url: string(),
   author: optional(string()),
   originalName: string(),
+  originalUrl: optional(string()),
   size: number(),
   type: UploadType,
   mime: string(),

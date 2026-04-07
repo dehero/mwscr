@@ -8,7 +8,7 @@ import { extractIssueLinks, extractIssueUrls, extractIssueUser } from './utils/i
 export class PostProposalIssueResolver extends PostProposalIssue implements GithubIssueResolver {
   async resolve(issue: GithubIssue) {
     const issueTitle = issue.title;
-    const issueDate = new Date(issue.created_at);
+    const created = new Date(issue.created_at);
 
     const [author] = await extractIssueUser(issue);
     const items: Map<string, string | undefined> = new Map();
@@ -22,7 +22,7 @@ export class PostProposalIssueResolver extends PostProposalIssue implements Gith
     urls.forEach(([url]) => items.set(url, undefined));
 
     for (const [url, text] of items) {
-      const draftEntries = await importResourceToStore(url, { title: text || issueTitle, author }, issueDate);
+      const draftEntries = await importResourceToStore(url, { title: text || issueTitle, author, created });
 
       for (const [id, post] of draftEntries) {
         try {
