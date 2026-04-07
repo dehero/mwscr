@@ -23,13 +23,13 @@ export function getVideoPosterUrl(url: string) {
 }
 
 export function getResourceDataUrl(url: string) {
-  const { protocol, pathname } = parseResourceUrl(url);
+  const { protocol, path } = parseResourceUrl(url);
 
   switch (protocol) {
     case 'store:':
-      return store.getPublicUrl(pathname);
+      return store.getPublicUrl(path);
     case 'uploads:':
-      return `/uploads/${pathname}`;
+      return `/uploads/${path}`;
     default:
   }
 
