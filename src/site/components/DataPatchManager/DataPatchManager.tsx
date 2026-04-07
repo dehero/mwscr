@@ -162,7 +162,7 @@ export const DataPatchManager: Component<DataPatchManagerProps> = (props) => {
     try {
       setProcessingMessage(`Saving patch "${params.title}"`);
 
-      const result = await uploadFiles([file], params.author);
+      const result = await uploadFiles([file], { author: params.author });
 
       for (const error of result.errors) {
         addToast(error);

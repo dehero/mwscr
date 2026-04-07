@@ -76,7 +76,7 @@ function getPreviewPath($originalPath)
   return $fileInfo['dirname'] . '/' . $fileInfo['filename'] . '.preview.webp';
 }
 
-function createFileMetadata($filePath, $filename, $originalName, $mimeType, $author = null)
+function createFileMetadata($filePath, $filename, $originalName, $mimeType, $author = null, $originalUrl = null)
 {
   global $baseUrl;
 
@@ -90,6 +90,7 @@ function createFileMetadata($filePath, $filename, $originalName, $mimeType, $aut
   $metadata = [
     'name' => $filename,
     'originalName' => $originalName,
+    'originalUrl' => $originalUrl,
     'url' => $baseUrl . $filename,
     'size' => filesize($filePath),
     'type' => $fileType,
@@ -394,6 +395,7 @@ function uploadFiles()
   $result = [];
 
   $author = isset($_POST['author']) ? $_POST['author'] : null;
+  $originalUrl = isset($_POST['originalUrl']) ? $_POST['originalUrl'] : null;
 
   // Handle single file upload
   if (!is_array($files['name'])) {
@@ -447,7 +449,7 @@ function uploadFiles()
             $success = true;
 
             // Save metadata with original name and author (only for new files)
-            $file = createFileMetadata($targetPath, $name, $originalName, $mimeType, $author);
+            $file = createFileMetadata($targetPath, $name, $originalName, $mimeType, $author, $originalUrl);
 
             // Check if file supports preview
             if (in_array($mimeType, $previewMimeTypes)) {

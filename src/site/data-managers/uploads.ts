@@ -8,7 +8,12 @@ export interface UploadFilesResult {
   errors: string[];
 }
 
-export async function uploadFiles(files: File[], author?: string) {
+export interface UploadFilesOptions {
+  author?: string;
+  originalUrl?: string;
+}
+
+export async function uploadFiles(files: File[], options?: UploadFilesOptions) {
   const uploads: Upload[] = [];
   const errors: string[] = [];
   const formData = new FormData();
@@ -17,8 +22,12 @@ export async function uploadFiles(files: File[], author?: string) {
     formData.append('file[]', file, file.name);
   }
 
-  if (author) {
-    formData.append('author', author);
+  if (options?.author) {
+    formData.append('author', options.author);
+  }
+
+  if (options?.originalUrl) {
+    formData.append('originalUrl', options.originalUrl);
   }
 
   try {

@@ -2,7 +2,7 @@ import { posix } from 'path/posix';
 import decompress from 'decompress';
 import mime from 'mime';
 import type { PostContent, PostEntry, PostViolation } from '../../core/entities/post.js';
-import { mergePostContents } from '../../core/entities/post.js';
+import { mergePostContents, parsePostId } from '../../core/entities/post.js';
 import { postTitleFromString } from '../../core/entities/post-title.js';
 import type { Draft, DraftProposal, PublishablePost, Reject } from '../../core/entities/posts-manager.js';
 import { createDraftId } from '../../core/entities/posts-manager.js';
@@ -11,8 +11,9 @@ import { ImageResourceUrl, parseResourceUrl, RESOURCE_MISSING_IMAGE } from '../.
 import { checkRules } from '../../core/entities/rule.js';
 import { assertSchema } from '../../core/entities/schema.js';
 import {
+  createStoreItemUrl,
   getTargetStoreDirFromPostType,
-  parseStoreResourceUrl,
+  parseStoreItemUrl,
   STORE_AVATARS_DIR,
   STORE_DRAWINGS_DIR,
   STORE_INBOX_DIR,
@@ -26,6 +27,7 @@ import { extractDateFromString } from '../../core/utils/date-utils.js';
 import { storeManager } from '../store-managers/index.js';
 import {
   extractResourceMediaMetadata,
+  getResourceOriginalUrl,
   moveResource,
   readResource,
   resourceExists,
@@ -35,12 +37,16 @@ import {
 export async function importResourceToStore(
   resource: string | Resource,
   template?: Partial<DraftProposal>,
-  templateDate?: Date,
+  imported?: Map<string, PostEntry<DraftProposal>[]>,
 ): Promise<PostEntry<DraftProposal>[]> {
   let violation: PostViolation | undefined;
   let data, mimeType, filename;
 
   if (typeof resource === 'string') {
+    if (imported?.has(resource)) {
+      return imported.get(resource) ?? [];
+    }
+
     try {
       [data, mimeType, filename] = await readResource(resource);
     } catch (error) {
@@ -67,7 +73,7 @@ export async function importResourceToStore(
 
   const hash = getRevisionHash(data ?? filename);
 
-  const id = createDraftId(author, nameDate || date || templateDate || new Date(), title, hash);
+  const id = createDraftId(author, nameDate || date || template?.created || new Date(), title, hash);
   let content: PostContent = typeof resource === 'string' ? resource : filename;
 
   const errors: Set<string> = new Set();
@@ -116,7 +122,7 @@ export async function importResourceToStore(
 
           const mimeType = mime.getType(file.path);
 
-          const drafts = await importResourceToStore([file.data, mimeType, file.path], template, templateDate);
+          const drafts = await importResourceToStore([file.data, mimeType, file.path], template, imported);
           result.push(...drafts);
         }
 
@@ -125,6 +131,17 @@ export async function importResourceToStore(
     } else {
       content = `store:/${STORE_INBOX_DIR}/${id}${ext}`;
       violation = undefined;
+
+      if (typeof resource === 'string') {
+        const originalUrl = await ensureOriginalResourceIsInStore(resource, imported);
+        if (originalUrl) {
+          const variantUrl = await findUnusedDraftVariantUrl(originalUrl);
+          if (variantUrl) {
+            content = variantUrl;
+          }
+        }
+      }
+
       await writeResource(content, data);
     }
   }
@@ -139,7 +156,13 @@ export async function importResourceToStore(
     violation,
   };
 
-  return [[id, draft, 'drafts']];
+  const result: PostEntry<DraftProposal>[] = [[id, draft, 'drafts']];
+
+  if (typeof resource === 'string') {
+    imported?.set(resource, result);
+  }
+
+  return result;
 }
 
 export async function moveDraftResourcesToTrash(post: Draft) {
@@ -356,5 +379,50 @@ export async function syncStoreResource(url: string) {
     if (error instanceof Error) {
       console.error(`Error syncing resource "${url}": ${error.message}`);
     }
+  }
+}
+
+export async function ensureOriginalResourceIsInStore(
+  url: string,
+  imported?: Map<string, PostEntry<DraftProposal>[]>,
+): Promise<string | undefined> {
+  const originalUrl = await getResourceOriginalUrl(url);
+  if (!originalUrl) {
+    return;
+  }
+
+  const { protocol } = parseResourceUrl(originalUrl);
+  if (protocol === 'store:') {
+    return originalUrl;
+  }
+
+  const drafts = await importResourceToStore(originalUrl, undefined, imported);
+  if (drafts.length > 1) {
+    return undefined;
+  }
+
+  const [, draft] = drafts[0] ?? [];
+  const result = asArray(draft?.content)[0];
+
+  return result;
+}
+
+export async function findUnusedDraftVariantUrl(url: string): Promise<string | undefined> {
+  const source = parseStoreItemUrl(url);
+  if (!source) {
+    return undefined;
+  }
+
+  if (source.dir !== STORE_INBOX_DIR && source.dir !== STORE_TRASH_DIR) {
+    return undefined;
+  }
+
+  let variant = 1;
+  for (;;) {
+    const variantUrl = createStoreItemUrl({ ...source, variant });
+    if (variantUrl && !(await resourceExists(variantUrl))) {
+      return variantUrl;
+    }
+    variant++;
   }
 }

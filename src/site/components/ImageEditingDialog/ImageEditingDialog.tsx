@@ -48,7 +48,7 @@ export const ImageEditingDialog: Component<ImageEditingDialogProps> = (props) =>
       const blob = await response.blob();
       const file = new File([blob], filename, { type: blob.type });
 
-      const { errors, uploads } = await uploadFiles([file]);
+      const { errors, uploads } = await uploadFiles([file], { originalUrl: props.url });
       if (errors.length > 0) {
         for (const error of errors) {
           addToast(error);

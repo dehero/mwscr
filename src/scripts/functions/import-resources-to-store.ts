@@ -1,4 +1,6 @@
+import type { PostEntry } from '../../core/entities/post.js';
 import { mergePostContents, postViolationDescriptors } from '../../core/entities/post.js';
+import type { DraftProposal } from '../../core/entities/posts-manager.js';
 import { parseResourceUrl } from '../../core/entities/resource.js';
 import { asArray, listItems } from '../../core/utils/common-utils.js';
 import { drafts } from '../data-managers/posts.js';
@@ -6,6 +8,8 @@ import { importResourceToStore } from '../data-managers/store-resources.js';
 
 export async function importResourcesToStore() {
   console.group(`Importing external resources to store...`);
+
+  const importedUrls = new Map<string, PostEntry<DraftProposal>[]>();
 
   for await (const [id, post] of drafts.readAllEntries()) {
     for (const container of ['content', 'snapshot', 'trash'] as const) {
@@ -23,7 +27,7 @@ export async function importResourcesToStore() {
         }
 
         try {
-          const entries = await importResourceToStore(url, post);
+          const entries = await importResourceToStore(url, post, importedUrls);
           for (const [, draft] of entries) {
             if (container === 'content') {
               if (!post.violation && draft.violation) {

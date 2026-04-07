@@ -1,3 +1,4 @@
+/* eslint-disable sonarjs/no-duplicate-string */
 import assert from 'node:assert';
 import { test } from 'node:test';
 import { stringToDate } from '../utils/date-utils.js';
