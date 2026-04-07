@@ -8,7 +8,7 @@ import type { DraftProposal } from '../../core/entities/posts-manager.js';
 import { createDraftId } from '../../core/entities/posts-manager.js';
 import { resourceIsImage, resourceIsVideo } from '../../core/entities/resource.js';
 import type { StoreItem } from '../../core/entities/store.js';
-import { parseStoreResourceUrl, STORE_INBOX_DIR } from '../../core/entities/store.js';
+import { createStoreItemUrl, parseStoreItemUrl, STORE_INBOX_DIR } from '../../core/entities/store.js';
 import { asArray, partition } from '../../core/utils/common-utils.js';
 import { drafts } from '../data-managers/posts.js';
 import { syncStoreResource } from '../data-managers/store-resources.js';
@@ -47,7 +47,12 @@ async function importNewItems(items: StoreItem[]) {
       continue;
     }
 
-    const { author, date, key, originalUrl } = parseStoreResourceUrl(item.url);
+    const source = parseStoreItemUrl(item.url);
+    if (!source) {
+      continue;
+    }
+
+    const { author, date, key } = source;
     if (!author || !date || !key) {
       continue;
     }
@@ -69,6 +74,8 @@ async function importNewItems(items: StoreItem[]) {
     };
 
     let id;
+
+    const originalUrl = createStoreItemUrl({ ...source, variant: 'original' });
 
     if (originalUrl) {
       ({ id } = getPostContentDistance(originalUrl, draftsEntries));
@@ -109,7 +116,7 @@ async function moveDeletedItemsToTrash(items: StoreItem[]) {
 
     const [content, trash] = partition(
       asArray(item.content),
-      (url) => parseStoreResourceUrl(url).dir !== STORE_INBOX_DIR || storeUrls.has(url),
+      (url) => parseStoreItemUrl(url)?.dir !== STORE_INBOX_DIR || storeUrls.has(url),
     );
 
     if (content.length === 0 && !item.request) {
