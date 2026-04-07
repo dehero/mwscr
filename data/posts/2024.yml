@@ -4051,10 +4051,10 @@
     - service: vk
       id: 3161
       published: 2026-03-09-19-04-53
-      updated: 2026-03-31-01-10-30
+      updated: 2026-04-07-01-11-04
       followers: 1619
-      likes: 100
-      views: 1486
+      likes: 101
+      views: 1494
       reposts: 4
       comments: !c |-
         GxUBQJwH2bnkBMV1dl+YCJ7/v9YnfED/zPFp8tH22kyxFlrK+2hDN2eozVJtJoOhnePOZDz81W31
@@ -4064,10 +4064,10 @@
     - service: tg
       id: 1174
       published: 2026-03-09-19-04-58
-      updated: 2026-03-31-01-10-27
+      updated: 2026-04-07-01-11-00
       followers: 883
       likes: 56
-      views: 534
+      views: 547
       comments: !c CwuAkZPLQnnNWGEHgACma2V2eS1jpPCfpoAD
     - service: mx
       id: '1773083101743'

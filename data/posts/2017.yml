@@ -3586,11 +3586,11 @@
     - service: vk
       id: 3181
       published: 2026-03-16-19-15-54
-      updated: 2026-03-31-01-10-28
+      updated: 2026-04-07-01-11-00
       followers: 1619
       likes: 85
-      views: 720
-      reposts: 7
+      views: 734
+      reposts: 6
       comments: !c |-
         G3sCwJwFdnvKw2DgZrdMYQ0Qz3/cm9/Xl9+2njIeo1pAAr4TDEjpgvVckVBU2wihJUISAgaHcGX3
         y/W3rTfs1KDiwDMMMLpv74JsJjOaba6Yriw2B7IN9grOCX76Wj9FJ28Z7XzkQ/z+MI0Ko+jTLLAi
@@ -3602,10 +3602,10 @@
     - service: tg
       id: 1184
       published: 2026-03-16-19-16-00
-      updated: 2026-03-31-01-10-25
+      updated: 2026-04-07-01-10-57
       followers: 893
-      likes: 55
-      views: 417
+      likes: 56
+      views: 450
       comments: !c CwuAkZPLQnnQkPm1gACma2V2eS1jpPCfpoAD
     - service: mx
       id: '1773688564720'
