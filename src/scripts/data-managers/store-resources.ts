@@ -179,6 +179,11 @@ export async function moveResourceToStoreDir(url: string, dir: string) {
 }
 
 export async function movePublishedPostResources([id, post]: PostEntry<PublishablePost>) {
+  const { date, key } = parsePostId(id);
+  if (!date) {
+    throw new Error('Failed to get post date "${}"');
+  }
+
   switch (post.type) {
     case 'achievement':
     case 'news':
@@ -197,19 +202,35 @@ export async function movePublishedPostResources([id, post]: PostEntry<Publishab
       for (let i = 0; i < content.length; i++) {
         const url = content[i]!;
 
-        const { ext, dir, originalUrl } = parseStoreResourceUrl(url);
-        if (dir === STORE_INBOX_DIR) {
-          const indexStr = content.length > 1 ? `-${i}` : '';
-          const newUrl = `store:/${targetDir}/${id}${indexStr}${ext}` as string;
-          const { originalUrl: newOriginalUrl } = parseStoreResourceUrl(newUrl);
+        const source = parseStoreItemUrl(url);
 
-          assertSchema(ImageResourceUrl, newUrl, (message) => `Cannot create published shot url: ${message}`);
+        if (source?.dir === STORE_INBOX_DIR) {
+          const keyWithIndex = `${key}${content.length > 1 ? `-${i}` : ''}`;
+
+          const newUrl = createStoreItemUrl({
+            dir: targetDir,
+            date,
+            key: keyWithIndex,
+            ext: source.ext,
+            variant: 'final',
+          });
+          const newOriginalUrl = createStoreItemUrl({
+            dir: targetDir,
+            date,
+            key: keyWithIndex,
+            ext: source.ext,
+            variant: 'original',
+          });
+
+          assertSchema(ImageResourceUrl, newUrl, (message) => `Cannot create final store item url: ${message}`);
 
           if (url !== RESOURCE_MISSING_IMAGE) {
             await moveResource(url, newUrl);
           }
 
-          if (originalUrl && newOriginalUrl && (await resourceExists(originalUrl))) {
+          const originalUrl = createStoreItemUrl({ ...source, variant: 'original' });
+
+          if (originalUrl && originalUrl !== url && newOriginalUrl && (await resourceExists(originalUrl))) {
             // TODO: find usage for original preview (now not represented in docs)
             await moveResource(originalUrl, newOriginalUrl);
             post.trash = mergePostContents(asArray(post.trash).filter((url) => url !== originalUrl));
@@ -265,10 +286,22 @@ export async function movePublishedPostResources([id, post]: PostEntry<Publishab
   for (let i = 0; i < snapshot.length; i++) {
     const url = snapshot[i]!;
 
-    const { ext } = parseStoreResourceUrl(url);
-    const indexStr = snapshot.length > 1 ? `-${i}` : '';
-    const newUrl = `store:/${STORE_SNAPSHOTS_DIR}/${id}${indexStr}${ext}` as string;
+    const source = parseStoreItemUrl(url);
 
+    const keyWithIndex = `${key}${snapshot.length > 1 ? `-${i}` : ''}`;
+    const newUrl = createStoreItemUrl({
+      dir: STORE_SNAPSHOTS_DIR,
+      date,
+      key: keyWithIndex,
+      ext: source?.ext ?? '',
+      variant: 'final',
+    });
+
+    if (!newUrl) {
+      continue;
+    }
+
+    // TODO: move original snapshots also (or make so that snapshots cannot have originals)
     if (url !== RESOURCE_MISSING_IMAGE) {
       await moveResource(url, newUrl);
     }
@@ -313,10 +346,10 @@ export async function saveUserAvatar(
 }
 
 export async function syncStoreResource(url: string) {
-  const { pathname } = parseResourceUrl(url);
+  const { path } = parseResourceUrl(url);
 
   try {
-    for await (const [store, item] of storeManager.sync(pathname)) {
+    for await (const [store, item] of storeManager.sync(path)) {
       console.info(`Synchronized "${item.url}" to ${store.name} store.`);
     }
   } catch (error) {

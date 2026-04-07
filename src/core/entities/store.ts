@@ -1,5 +1,7 @@
 import picomatch from 'picomatch';
-import { stringToDate } from '../utils/date-utils.js';
+import type { InferOutput } from 'valibot';
+import { literal, number, union } from 'valibot';
+import { dateToString, stringToDate } from '../utils/date-utils.js';
 import type { PostType } from './post.js';
 import { parseResourceUrl } from './resource.js';
 
@@ -17,8 +19,8 @@ export const STORE_OUTTAKES_DIR = 'outtakes';
 export const STORE_AVATARS_DIR = 'avatars';
 export const STORE_PHOTOS_DIR = 'photos';
 
-export const STORE_INBOX_ITEM_NAME_REGEX = /^([^.]+)\.(\d{4}-\d{2}-\d{2})-([^.]+)(?:\.(\d+))?$/;
-export const STORE_SHOTS_NAME_REGEX = /^(\d{4}-\d{2}-\d{2})-(.+)$/;
+export const STORE_DRAFT_ITEM_NAME_REGEX = /^([^.]+)\.(\d{4}-\d{2}-\d{2})-([^.]+)(?:\.(\d+))?$/;
+export const STORE_FINAL_ITEM_NAME_REGEX = /^(\d{4}-\d{2}-\d{2})-([^.]+)(?:\.(original))?$/;
 
 export interface StoreItem {
   name: string;
@@ -26,14 +28,16 @@ export interface StoreItem {
   isDirectory: boolean;
 }
 
-export interface StoreResourceParsedUrl {
+export const StoreItemVariant = union([number(), literal('original'), literal('final')]);
+export type StoreItemVariant = InferOutput<typeof StoreItemVariant>;
+
+export interface StoreItemParsedUrl {
   dir?: string;
   author?: string;
   date?: Date;
-  key?: string;
-  variant?: string;
-  ext?: string;
-  originalUrl?: string;
+  key: string;
+  variant?: StoreItemVariant;
+  ext: string;
 }
 
 export interface Store {
@@ -71,40 +75,52 @@ export function storeIncludesPath(...checkedPaths: string[]) {
     (store.include.length > 0 && checkedPaths.every((path) => picomatch.isMatch(path, store.include ?? [])));
 }
 
-export function parseStoreResourceUrl(url: string): StoreResourceParsedUrl {
-  const { ext, name, dir, protocol } = parseResourceUrl(url);
+export function parseStoreItemUrl(url: string): StoreItemParsedUrl | undefined {
+  const { ext, name, dir: fullDir, protocol } = parseResourceUrl(url);
+  let [dir] = fullDir.split('/');
 
-  let author, dateStr, key, variant, originalUrl;
+  let author, dateStr, key, variantStr;
+  let variant: StoreItemVariant;
+
   if (protocol !== 'store:') {
-    return {};
+    return undefined;
   }
 
   switch (dir) {
     case STORE_INBOX_DIR:
     case STORE_TRASH_DIR:
-      [, author, dateStr, key, variant] = STORE_INBOX_ITEM_NAME_REGEX.exec(name) || [];
-      originalUrl = variant ? `store:/${dir}/${author}.${dateStr}-${key}${ext}` : undefined;
+      [, author, dateStr, key, variantStr] = STORE_DRAFT_ITEM_NAME_REGEX.exec(name) || [];
+      variant = !variantStr ? 'original' : Number(variantStr);
       break;
     case STORE_DRAWINGS_DIR:
-    case STORE_PHOTOS_DIR:
+    case STORE_NEWS_DIR:
     case STORE_OUTTAKES_DIR:
+    case STORE_PHOTOS_DIR:
+    case STORE_PHOTOSHOPS_DIR:
     case STORE_SHOTS_DIR:
+    case STORE_SNAPSHOTS_DIR:
     case STORE_VIDEOS_DIR:
     case STORE_WALLPAPERS_DIR:
-      [, dateStr, key] = STORE_SHOTS_NAME_REGEX.exec(name) || [];
-      originalUrl = `store:/${dir}/${STORE_ORIGINAL_DIR}/${dateStr}-${key}.original${ext}`;
+      [, dateStr, key, variantStr] = STORE_FINAL_ITEM_NAME_REGEX.exec(name) || [];
+      variant = variantStr === 'original' ? 'original' : 'final';
       break;
     default:
+      key = name;
+      variant = 'final';
+      dir = fullDir;
+  }
+
+  if (!key) {
+    return undefined;
   }
 
   return {
     dir,
     author,
-    date: stringToDate(dateStr ?? ''),
+    date: dateStr ? stringToDate(dateStr) : undefined,
     key,
     variant,
     ext,
-    originalUrl,
   };
 }
 
@@ -132,4 +148,40 @@ export function getTargetStoreDirFromPostType(type: PostType) {
   }
 
   return undefined;
+}
+
+export function createStoreItemUrl(components: StoreItemParsedUrl) {
+  const { dir, author, date, key, ext, variant } = components;
+
+  switch (dir) {
+    case STORE_INBOX_DIR:
+    case STORE_TRASH_DIR:
+      if (variant === 'final' || !date) {
+        return undefined;
+      }
+      if (typeof variant === 'number' && variant > 0) {
+        return `store:/${dir}/${author}.${dateToString(date)}-${key}.${variant}${ext}`;
+      }
+      return `store:/${dir}/${author}.${dateToString(date)}-${key}${ext}`;
+
+    case STORE_DRAWINGS_DIR:
+    case STORE_NEWS_DIR:
+    case STORE_OUTTAKES_DIR:
+    case STORE_PHOTOS_DIR:
+    case STORE_PHOTOSHOPS_DIR:
+    case STORE_SHOTS_DIR:
+    case STORE_SNAPSHOTS_DIR:
+    case STORE_VIDEOS_DIR:
+    case STORE_WALLPAPERS_DIR:
+      if (variant === 'original' && date) {
+        return `store:/${dir}/${STORE_ORIGINAL_DIR}/${dateToString(date)}-${key}.original${ext}`;
+      }
+      if (variant === 'final' && date) {
+        return `store:/${dir}/${dateToString(date)}-${key}${ext}`;
+      }
+      return undefined;
+
+    default:
+      return `store:/${dir}/${key}${ext}`;
+  }
 }

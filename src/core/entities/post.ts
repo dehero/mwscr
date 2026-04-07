@@ -44,6 +44,7 @@ export const PostAuthor = union([pipe(string(), nonEmpty()), array(pipe(string()
 export const PostTag = pipe(string(), nonEmpty());
 export const PostNote = object({ date: date(), user: pipe(string(), nonEmpty()), text: optional(string()) });
 export const PostAnnouncement = pipe(string(), nonEmpty());
+export const PostContentField = picklist(['content', 'snapshot', 'trash']);
 
 export const Post = pipe(
   object({
@@ -102,6 +103,8 @@ export type PostViolations = InferOutput<typeof PostViolations>;
 export type PostAuthor = InferOutput<typeof PostAuthor>;
 export type PostTag = InferOutput<typeof PostTag>;
 export type PostNote = InferOutput<typeof PostNote>;
+export type PostAnnouncement = InferOutput<typeof PostAnnouncement>;
+export type PostContentField = InferOutput<typeof PostContentField>;
 
 export type Post = InferOutput<typeof Post>;
 
@@ -151,6 +154,12 @@ export interface PostViolationDescriptor {
 }
 
 type PostTagDescriptor = [tag: PostTag, rule: (post: Post) => boolean, parse?: (post: Post) => void];
+
+export interface ParsedPostId {
+  author?: string;
+  date?: Date;
+  key?: string;
+}
 
 export const postAddonDescriptors = Object.freeze<Record<PostAddon, PostAddonDescriptor>>({
   Bloodmoon: { official: true, tag: 'bloodmoon' },
@@ -666,11 +675,31 @@ export function createPostPublicationTags(post: Post): string[] {
   return [...new Set(result)].map((tag) => tag.toLowerCase());
 }
 
-export function getPostDateById(id: string) {
+export function parsePostId(id: string): ParsedPostId {
   const parts = id.split('.');
-  const dateStr = (parts.length === 1 ? parts[0] : parts[1])?.slice(0, 10);
+  let author, name;
 
-  return dateStr ? stringToDate(dateStr) : undefined;
+  if (parts.length === 1) {
+    author = undefined;
+    name = parts[0];
+  } else {
+    author = parts[0];
+    name = parts[1];
+  }
+
+  const dateStr = name?.slice(0, 10);
+  const key = name?.slice(10);
+
+  return {
+    author,
+    date: dateStr ? stringToDate(dateStr) : undefined,
+    key,
+  };
+}
+
+// TODO: use parsePostId instead of getPostDateById everywhere
+export function getPostDateById(id: string) {
+  return parsePostId(id).date;
 }
 
 export async function getPostEntriesFromSource<TPost extends Post, TFilteredPost extends TPost = TPost>(
