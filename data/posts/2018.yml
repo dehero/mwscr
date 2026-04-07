@@ -1816,10 +1816,10 @@
     - service: vk
       id: 3255
       published: 2026-04-06-18-41-32
-      updated: 2026-04-07-09-57-07
+      updated: 2026-04-07-10-47-16
       followers: 1429
-      likes: 33
-      views: 261
+      likes: 35
+      views: 273
       reposts: 2
       comments: !c |-
         GxgBAB0JNk7x4UkMjcR7/PNy4yN88xZoJkmAWaBtASef8Mu5qm43Qv8Gi3DNWGE5bzfsNA4w8ESi
@@ -1829,10 +1829,10 @@
     - service: tg
       id: 1204
       published: 2026-04-06-18-41-39
-      updated: 2026-04-07-09-57-04
+      updated: 2026-04-07-10-47-13
       followers: 899
-      likes: 35
-      views: 133
+      likes: 36
+      views: 136
     - service: mx
       id: '1775500904522'
       published: 2026-04-06-18-41-44
