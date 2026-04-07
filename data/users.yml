@@ -1407,7 +1407,7 @@ dehero:
       avatar: store:/avatars/gh-c8afe641.jpg
     - service: vk
       id: '3652910'
-      updated: 2026-04-07-16-06-13
+      updated: 2026-04-07-17-47-56
       username: dehero
       name: Антон Курьянов
       avatar: store:/avatars/vk-5356f76e.jpg
@@ -2707,7 +2707,7 @@ ivan-uralov:
   profiles:
     - service: vk
       id: '16497155'
-      updated: 2026-04-07-16-06-12
+      updated: 2026-04-07-17-47-55
       username: id16497155
       name: Иван Уралов
       avatar: store:/avatars/vk-51775759.jpg
@@ -4585,7 +4585,7 @@ pyriglena:
   profiles:
     - service: tg
       id: '554672984'
-      updated: 2026-04-07-01-11-03
+      updated: 2026-04-07-17-48-00
       accessHash: '-3565593010225205906'
       username: pyriglena
       name: yarrow
@@ -4845,7 +4845,7 @@ sagittarian-king:
   profiles:
     - service: tg
       id: '352504312'
-      updated: 2026-04-06-17-38-49
+      updated: 2026-04-07-17-48-00
       accessHash: '3929555629803555147'
       username: SagittarianKing
       name: 🦜 Eald ☠️
