@@ -601,7 +601,7 @@ arya-stark:
   profiles:
     - service: vk
       id: '820702664'
-      updated: 2026-04-07-01-11-06
+      updated: 2026-04-07-19-48-47
       username: id820702664
       name: Арья Старк
       avatar: store:/avatars/vk-689aa89d.jpg
@@ -1407,7 +1407,7 @@ dehero:
       avatar: store:/avatars/gh-c8afe641.jpg
     - service: vk
       id: '3652910'
-      updated: 2026-04-07-18-44-45
+      updated: 2026-04-07-19-48-43
       username: dehero
       name: Антон Курьянов
       avatar: store:/avatars/vk-5356f76e.jpg
@@ -1993,7 +1993,7 @@ fadeev-alexxx:
   profiles:
     - service: vk
       id: '305246543'
-      updated: 2026-04-06-19-44-27
+      updated: 2026-04-07-19-48-48
       username: fadeev_alexxx
       name: Алексей Фадеев
       avatar: store:/avatars/vk-6a4ed023.jpg
@@ -2555,7 +2555,7 @@ ilya-denisov:
   profiles:
     - service: vk
       id: '134482858'
-      updated: 2026-04-06-19-44-28
+      updated: 2026-04-07-19-48-49
       username: id134482858
       name: Илья Денисов
       avatar: store:/avatars/vk-45d9d8dd.jpg
@@ -2707,7 +2707,7 @@ ivan-uralov:
   profiles:
     - service: vk
       id: '16497155'
-      updated: 2026-04-07-18-44-45
+      updated: 2026-04-07-19-48-43
       username: id16497155
       name: Иван Уралов
       avatar: store:/avatars/vk-51775759.jpg
@@ -4307,7 +4307,7 @@ pankuher2007:
   profiles:
     - service: tg
       id: '930833332'
-      updated: 2026-04-06-19-44-29
+      updated: 2026-04-07-19-48-48
       accessHash: '-7533150892250845514'
       username: pankuher2007
       name: S. A.

@@ -3835,10 +3835,10 @@
     - service: vk
       id: 3240
       published: 2026-04-01-18-47-37
-      updated: 2026-04-06-19-44-28
+      updated: 2026-04-07-19-48-50
       followers: 1628
       likes: 54
-      views: 555
+      views: 562
       reposts: 3
       comments: !c |-
         Gw8CQCwO7MYfG8ltnf3PqImerxPDEfqameuhF2scsU5KVNmn1mSTYsKpYRAYkfU/rKRr/g6jMBZt
@@ -3850,10 +3850,10 @@
     - service: tg
       id: 1199
       published: 2026-04-01-18-47-43
-      updated: 2026-04-06-19-44-30
+      updated: 2026-04-07-19-48-49
       followers: 898
-      likes: 54
-      views: 297
+      likes: 55
+      views: 308
       comments: !c Cw6AkZPLQnnUyNi7AACscGFua3VoZXIyMDA3pPCfpoAD
     - service: mx
       id: '1775069269740'
