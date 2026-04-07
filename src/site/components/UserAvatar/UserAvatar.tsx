@@ -24,7 +24,7 @@ export const UserAvatar: Component<UserAvatarProps> = (props) => {
   const url = () =>
     props.image
       ? props.size === 'original'
-        ? store.getPublicUrl(parseResourceUrl(props.image).pathname)
+        ? store.getPublicUrl(parseResourceUrl(props.image).path)
         : getResourcePreviewUrl(props.image)
       : undefined;
 

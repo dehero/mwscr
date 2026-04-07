@@ -55,7 +55,7 @@ export type VideoResourceUrl = InferOutput<typeof VideoResourceUrl>;
 
 export interface ResourceParsedUrl {
   protocol: ResourceProtocol;
-  pathname: string;
+  path: string;
   ext: string;
   name: string;
   base: string;
@@ -66,20 +66,23 @@ export type Resource = [data: Buffer | string, mimeType: string | null, filename
 
 export function parseResourceUrl(url: string): ResourceParsedUrl {
   const { protocol, host, pathname } = new URL(url, 'file://');
-  const [, dir = '', base = ''] = /^(\/.+)?\/([^\/]+)$/.exec(pathname) ?? [];
-  const [, name = '', ext = ''] = /^(.*)(\.[^.]+)$/.exec(base) ?? [];
 
   if (!is(ResourceProtocol, protocol)) {
     throw new Error(`Unknown protocol ${protocol}`);
   }
 
+  const path = host ? host + pathname : pathname.replace(/^\//, '');
+
+  const [, dir = '', base = ''] = /^(.*)\/([^/]*)$/.exec(path.replace(/^\/*/, '/')) ?? [];
+  const [, name = '', ext = ''] = /^(.+?)(\.[^.]+)?$/.exec(base) ?? [];
+
   return {
     dir: dir.replace(/^\//, ''),
-    name,
+    name: name || base,
     ext,
     base,
     protocol,
-    pathname: [host, pathname.replace(/^\//, '')].filter(Boolean).join('/'),
+    path,
   };
 }
 

@@ -97,12 +97,12 @@ export const PostPage = (): JSX.Element => {
   const contentInfos = (): ContentInfo[] => [
     ...asArray(postInfo()?.content).map((url) => ({
       url,
-      publicUrl: store.getPublicUrl(parseResourceUrl(url).pathname),
+      publicUrl: store.getPublicUrl(parseResourceUrl(url).path),
       scrollable: false,
     })),
     ...asArray(postInfo()?.snapshot).map((url) => ({
       url,
-      publicUrl: store.getPublicUrl(parseResourceUrl(url).pathname),
+      publicUrl: store.getPublicUrl(parseResourceUrl(url).path),
       scrollable: true,
     })),
   ];

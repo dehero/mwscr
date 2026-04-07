@@ -21,18 +21,18 @@ export const RESOURCES_PREVIEWS_PATH = 'assets/previews';
 export const RESOURCES_PREVIEWS_EXT = '.avif';
 
 export async function resourceExists(url: string): Promise<boolean> {
-  const { protocol, pathname } = parseResourceUrl(url);
+  const { protocol, path } = parseResourceUrl(url);
 
   switch (protocol) {
     case 'store:':
-      return Boolean(storeManager.exists(pathname));
+      return Boolean(storeManager.exists(path));
     case 'uploads:': {
       const dataUrl = getResourceDataUrl(url);
       const response = await fetch(dataUrl, { method: 'HEAD' });
       return response.ok;
     }
     case 'file:':
-      return pathExists(pathname);
+      return pathExists(path);
     case 'http:':
     case 'https:': {
       const response = await fetch(url, { method: 'HEAD' });
@@ -58,19 +58,19 @@ export async function copyResource(fromUrl: string, toUrl: string): Promise<void
     case 'store:':
       switch (to.protocol) {
         case 'store:':
-          return storeManager.copy(from.pathname, to.pathname);
+          return storeManager.copy(from.path, to.path);
         case 'file:':
           // @ts-expect-error TODO: resolve typing issues
-          return fs.writeFile(to.pathname, await storeManager.get(from.pathname));
+          return fs.writeFile(to.path, await storeManager.get(from.path));
         default:
       }
       break;
     case 'file:':
       switch (to.protocol) {
         case 'store:':
-          return storeManager.put(to.pathname, await fs.readFile(from.pathname));
+          return storeManager.put(to.path, await fs.readFile(from.path));
         case 'file:':
-          return fs.copyFile(from.pathname, to.pathname);
+          return fs.copyFile(from.path, to.path);
         default:
       }
       break;
@@ -92,11 +92,11 @@ export async function copyResource(fromUrl: string, toUrl: string): Promise<void
 
           // Started failing when saving VK avatars to Yandex.Disk using stream. Converting it to buffer as a quick fix.
           // TODO: try using native fetch
-          return storeManager.put(to.pathname, data);
+          return storeManager.put(to.path, data);
         }
         case 'file:': {
           const response = await fetch(fromUrl);
-          const stream = createWriteStream(to.pathname);
+          const stream = createWriteStream(to.path);
           if (response.body === null) {
             throw new Error(`Unable to get body for "${fromUrl}"`);
           }
@@ -126,10 +126,10 @@ export async function moveResource(fromUrl: string, toUrl: string) {
     case 'store:':
       switch (to.protocol) {
         case 'store:':
-          return storeManager.move(from.pathname, to.pathname);
+          return storeManager.move(from.path, to.path);
         case 'file:':
           await copyResource(fromUrl, toUrl);
-          return storeManager.remove(from.pathname);
+          return storeManager.remove(from.path);
         default:
       }
       break;
@@ -137,9 +137,9 @@ export async function moveResource(fromUrl: string, toUrl: string) {
       switch (to.protocol) {
         case 'store:':
           await copyResource(fromUrl, toUrl);
-          return fs.rm(from.pathname);
+          return fs.rm(from.path);
         case 'file:':
-          return fs.rename(from.pathname, to.pathname);
+          return fs.rename(from.path, to.path);
         default:
       }
       break;
@@ -155,11 +155,11 @@ export async function moveResource(fromUrl: string, toUrl: string) {
 }
 
 export async function readResource(url: string): Promise<Resource> {
-  const { protocol, pathname, base, ext } = parseResourceUrl(url);
+  const { protocol, path, base, ext } = parseResourceUrl(url);
 
   switch (protocol) {
     case 'store:': {
-      const data = await storeManager.get(pathname);
+      const data = await storeManager.get(path);
       const mimeType = mime.getType(ext);
 
       return [data, mimeType, base];
@@ -180,7 +180,7 @@ export async function readResource(url: string): Promise<Resource> {
       return [data, mimeType, filename];
     }
     case 'file:': {
-      const data = await fs.readFile(pathname);
+      const data = await fs.readFile(path);
       const mimeType = mime.getType(ext);
 
       return [data, mimeType, base];
@@ -201,7 +201,7 @@ export async function readResource(url: string): Promise<Resource> {
 }
 
 export async function removeResource(url: string): Promise<void> {
-  const { protocol, pathname } = parseResourceUrl(url);
+  const { protocol, path } = parseResourceUrl(url);
 
   console.info(`Removing "${url}"`);
 
@@ -211,9 +211,9 @@ export async function removeResource(url: string): Promise<void> {
 
   switch (protocol) {
     case 'store:':
-      return storeManager.remove(pathname);
+      return storeManager.remove(path);
     case 'file:':
-      return fs.rm(pathname);
+      return fs.rm(path);
     default:
   }
 
@@ -221,15 +221,15 @@ export async function removeResource(url: string): Promise<void> {
 }
 
 export async function writeResource(url: string, data: Buffer | string) {
-  const { protocol, pathname } = parseResourceUrl(url);
+  const { protocol, path } = parseResourceUrl(url);
 
   switch (protocol) {
     // TODO: implement writing to "uploads:"
     case 'store:':
-      return storeManager.put(pathname, data);
+      return storeManager.put(path, data);
     case 'file:':
       // @ts-expect-error TODO: resolve typing issues
-      return fs.writeFile(pathname, data, typeof data === 'string' ? 'utf-8' : undefined);
+      return fs.writeFile(path, data, typeof data === 'string' ? 'utf-8' : undefined);
     default:
   }
 
@@ -248,11 +248,11 @@ export function getResourcePreviewPath(url: string): string | undefined {
 }
 
 export async function getResourcePreviewUrl(url: string, width?: number, height?: number): Promise<string | undefined> {
-  const { protocol, pathname } = parseResourceUrl(url);
+  const { protocol, path } = parseResourceUrl(url);
 
   switch (protocol) {
     case 'store:':
-      return storeManager.getPreviewUrl(pathname, width, height);
+      return storeManager.getPreviewUrl(path, width, height);
     case 'uploads:':
       return url.replace(/^uploads:\/(.*)\..*/, `${site.origin}/uploads/$1.preview.webp`);
     case 'http:':
