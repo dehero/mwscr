@@ -2,6 +2,22 @@
 
 All notable changes to this project will be documented in this file.
 
+## [2.23.0](https://github.com/dehero/mwscr/compare/v2.22.2...v2.23.0) (2026-04-08)
+
+### Features
+
+- implement and use createStoreItemUrl
+  ([3b2834e](https://github.com/dehero/mwscr/commit/3b2834e5fa31ebc28007523d0182b1baa6a01ce5))
+- import edited images to store as variants of original image
+  ([21ce8c9](https://github.com/dehero/mwscr/commit/21ce8c98843fc8760636e58d04bd026ea65724c8))
+- remove "mwscr-" prefix from uploads
+  ([841b4c1](https://github.com/dehero/mwscr/commit/841b4c1aa3bff8b5dd4044431dbf4e4f19ee2bc4))
+
+### Bug Fixes
+
+- add parseResourceUrl tests and resolve fails
+  ([4f1656f](https://github.com/dehero/mwscr/commit/4f1656f65c2130a383b55fe97f7fbbe95150add2))
+
 ## [2.22.2](https://github.com/dehero/mwscr/compare/v2.22.1...v2.22.2) (2026-04-02)
 
 ### Bug Fixes
