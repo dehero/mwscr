@@ -1407,7 +1407,7 @@ dehero:
       avatar: store:/avatars/gh-c8afe641.jpg
     - service: vk
       id: '3652910'
-      updated: 2026-04-08-12-55-51
+      updated: 2026-04-08-13-51-59
       username: dehero
       name: Антон Курьянов
       avatar: store:/avatars/vk-5356f76e.jpg
@@ -2214,7 +2214,7 @@ gleb-zheltuhin:
   profiles:
     - service: vk
       id: '29014473'
-      updated: 2026-04-08-12-55-50
+      updated: 2026-04-08-13-51-58
       username: gleb_zheltuhin
       name: Глеб Желтухин
       avatar: store:/avatars/vk-971eefc1.jpg
@@ -2707,7 +2707,7 @@ ivan-uralov:
   profiles:
     - service: vk
       id: '16497155'
-      updated: 2026-04-08-12-55-51
+      updated: 2026-04-08-13-51-59
       username: id16497155
       name: Иван Уралов
       avatar: store:/avatars/vk-51775759.jpg
