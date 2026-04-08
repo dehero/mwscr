@@ -1805,18 +1805,23 @@
     - service: vk
       id: 3258
       published: 2026-04-07-18-46-00
-      updated: 2026-04-08-08-49-44
+      updated: 2026-04-08-09-59-59
       followers: 1429
-      likes: 26
-      views: 238
+      likes: 29
+      views: 257
       reposts: 2
+      comments: !c |-
+        Gz4B6J0JduwrUMdSrxI9H4uTlfRHPjenBmN0AqUZpUtF2VcEutrMzRC6ZzX0OdnJwwNQbmO5mtPf
+        b6jgEGu0xdDY3DjlkAPShFtAAUiACX9vAakfl29f7+94/P657Y7PpTPHp+dud6//4+CFAMZBheA0
+        OnLSCBNgd6yRXS8HiXzZat27Id9PIvkZjQCr0qiXwTGJqyY3tI4HmB4XQmKkKpJySpTe4rmufeGc
+        ttjfE9kQmRItw8eUmdqQjNrI9VuLMSAhi+VaAQ==
     - service: tg
       id: 1205
       published: 2026-04-07-18-46-10
-      updated: 2026-04-08-08-49-44
+      updated: 2026-04-08-09-59-57
       followers: 899
       likes: 40
-      views: 143
+      views: 145
     - service: mx
       id: '1775587579396'
       published: 2026-04-07-18-46-19
