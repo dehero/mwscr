@@ -2,6 +2,15 @@
 
 All notable changes to this project will be documented in this file.
 
+## [2.23.1](https://github.com/dehero/mwscr/compare/v2.23.0...v2.23.1) (2026-04-08)
+
+### Bug Fixes
+
+- only change post violation while importing when there are no other resources
+  ([dc490b6](https://github.com/dehero/mwscr/commit/dc490b6ce49f06225c57b89382381ae61dfff15c))
+- resolve schema validation issue when reading upload metadata
+  ([8b26f49](https://github.com/dehero/mwscr/commit/8b26f49e0eb23d1e90d557b58fca685dd01db9db))
+
 ## [2.23.0](https://github.com/dehero/mwscr/compare/v2.22.2...v2.23.0) (2026-04-08)
 
 ### Features
