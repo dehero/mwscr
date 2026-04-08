@@ -250,6 +250,8 @@ export const PostDialog: Component<PostDialogProps> = (props) => {
   const setPatchField = <TField extends keyof Patch<Post>>(field: TField, value: Patch<Post>[TField]) => {
     let newValue: Patch<Post>[TField] | null = value;
 
+    console.log(newValue);
+
     if (field !== 'type' && typeof newValue === 'undefined') {
       newValue = null;
     }
@@ -346,8 +348,7 @@ export const PostDialog: Component<PostDialogProps> = (props) => {
     }
 
     // Include type field in patch to avoid creating empty drafts without type (that is an error) when patched post is deleted
-    const safePatch: Post = { type: entry?.[1]?.type ?? 'shot' };
-    patchObject(safePatch, patch());
+    const safePatch: Patch<Post> = { ...patch(), type: patch().type ?? entry?.[1]?.type ?? 'shot' };
 
     manager()?.mergePatch({ [targetId]: safePatch });
     handleClose();
