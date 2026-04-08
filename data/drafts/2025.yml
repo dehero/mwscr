@@ -332,7 +332,9 @@ ohsweetnazareth.2025-12-08-foul-betrayal-f0813cd1:
   author: ohsweetnazareth
 ohsweetnazareth.2025-12-08-war-of-the-automatons-bb5d85d8:
   title: War of the Automatons
-  content: store:/inbox/ohsweetnazareth.2025-12-08-war-of-the-automatons-bb5d85d8.png
+  content:
+    - uploads:/image-0f270d3b.png
+    - store:/inbox/ohsweetnazareth.2025-12-08-war-of-the-automatons-bb5d85d8.png
   type: shot
   aspect: 1/1
   author: ohsweetnazareth
