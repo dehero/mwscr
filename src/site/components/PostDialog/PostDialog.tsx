@@ -250,8 +250,6 @@ export const PostDialog: Component<PostDialogProps> = (props) => {
   const setPatchField = <TField extends keyof Patch<Post>>(field: TField, value: Patch<Post>[TField]) => {
     let newValue: Patch<Post>[TField] | null = value;
 
-    console.log(newValue);
-
     if (field !== 'type' && typeof newValue === 'undefined') {
       newValue = null;
     }
