@@ -5,13 +5,13 @@ import mime from 'mime';
 import fetch from 'node-fetch';
 import sharp from 'sharp';
 import { pipeline } from 'stream/promises';
+import { getUpload } from '../../core/data-managers/uploads-manager.js';
 import type { MediaMetadata } from '../../core/entities/media.js';
 import type { Resource } from '../../core/entities/resource.js';
 import { parseResourceUrl, resourceIsImage, resourceIsVideo } from '../../core/entities/resource.js';
 import { createStoreItemUrl, parseStoreItemUrl } from '../../core/entities/store.js';
 import { site } from '../../core/services/site.js';
 import { textToId } from '../../core/utils/common-utils.js';
-import { getUpload } from '../../site/data-managers/uploads.js';
 import { storeManager } from '../store-managers/index.js';
 import { pathExists } from '../utils/file-utils.js';
 

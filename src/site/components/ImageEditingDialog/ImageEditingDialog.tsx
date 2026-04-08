@@ -1,7 +1,7 @@
 import { type Component, Show } from 'solid-js';
+import { uploadFiles } from '../../../core/data-managers/uploads-manager.js';
 import { stripCommonExtension } from '../../../core/utils/string-utils.js';
 import { getResourceDataUrl } from '../../data-managers/resources.js';
-import { uploadFiles } from '../../data-managers/uploads.js';
 import { Button } from '../Button/Button.jsx';
 import { createDetachedDialogFragment } from '../DetachedDialogsProvider/DetachedDialogsProvider.jsx';
 import type { DialogProps } from '../Dialog/Dialog.jsx';

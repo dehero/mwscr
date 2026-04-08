@@ -14,12 +14,12 @@ import {
 import clsx from 'clsx';
 import type { Component } from 'solid-js';
 import { batch, createSignal, For } from 'solid-js';
+import { uploadFiles } from '../../../core/data-managers/uploads-manager.js';
 import type { PostContent } from '../../../core/entities/post.js';
 import { mergePostContents } from '../../../core/entities/post.js';
 import { ImageResourceExtension, ResourceUrl } from '../../../core/entities/resource.js';
 import { assertSchema } from '../../../core/entities/schema.js';
 import { asArray } from '../../../core/utils/common-utils.js';
-import { uploadFiles } from '../../data-managers/uploads.js';
 import { Button } from '../Button/Button.jsx';
 import { Dialog } from '../Dialog/Dialog.jsx';
 import { Frame } from '../Frame/Frame.js';

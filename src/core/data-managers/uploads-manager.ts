@@ -1,7 +1,8 @@
-import { assertSchema } from '../../core/entities/schema.js';
-import type { UploadType } from '../../core/entities/upload.js';
-import { Upload, UploadErrorResponse, UploadResult, UploadsResponse } from '../../core/entities/upload.js';
-import { jsonDateReviver } from '../../core/utils/date-utils.js';
+import { assertSchema } from '../entities/schema.js';
+import type { UploadType } from '../entities/upload.js';
+import { Upload, UploadErrorResponse, UploadResult, UploadsResponse } from '../entities/upload.js';
+import { site } from '../services/site.js';
+import { jsonDateReviver } from '../utils/date-utils.js';
 
 export interface UploadFilesResult {
   uploads: Upload[];
@@ -31,7 +32,7 @@ export async function uploadFiles(files: File[], options?: UploadFilesOptions) {
   }
 
   try {
-    const response = await fetch(`/uploads/`, { method: 'POST', body: formData });
+    const response = await fetch(`${site.origin}/uploads/`, { method: 'POST', body: formData });
 
     if (!response.ok) {
       throw new Error(`HTTP error ${response.status}: ${response.statusText}`);
@@ -69,7 +70,7 @@ interface GetUploadsFilter {
 }
 
 export async function getUploads(filter?: GetUploadsFilter): Promise<Upload[]> {
-  const url = new URL('/uploads/', window.location.origin);
+  const url = new URL('/uploads/', site.origin);
 
   if (filter?.type) {
     url.searchParams.set('type', filter.type);
@@ -101,7 +102,7 @@ export async function getUploads(filter?: GetUploadsFilter): Promise<Upload[]> {
 }
 
 export async function getUpload(url: string): Promise<Upload> {
-  const metaUrl = url.replace(/^uploads:\/(.*)\..*/, `${window.location.origin}/uploads/$1.meta.json`);
+  const metaUrl = url.replace(/^uploads:\/(.*)\..*/, `${site.origin}/uploads/$1.meta.json`);
 
   try {
     const response = await fetch(metaUrl);

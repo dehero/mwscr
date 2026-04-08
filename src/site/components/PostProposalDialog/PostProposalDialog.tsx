@@ -3,6 +3,7 @@ import { createFileUploader } from '@solid-primitives/upload';
 import { createMemo, createResource, createSignal, For, Show } from 'solid-js';
 import { navigate } from 'vike/client/router';
 import importFormatsRaw from '../../../../assets/import-variants.json';
+import { uploadFiles } from '../../../core/data-managers/uploads-manager.js';
 import type { ImportVariant } from '../../../core/entities/import-variant.js';
 import { PostTitle, PostTitleRu, PostViolation, postViolationDescriptors } from '../../../core/entities/post.js';
 import type { PostInfo } from '../../../core/entities/post-info.js';
@@ -16,7 +17,6 @@ import { telegram, TELEGRAM_BOT_NAME } from '../../../core/services/telegram.js'
 import { dateToString } from '../../../core/utils/date-utils.js';
 import { stripCommonExtension } from '../../../core/utils/string-utils.js';
 import { dataManager } from '../../data-managers/manager.js';
-import { uploadFiles } from '../../data-managers/uploads.js';
 import { helpRoute } from '../../routes/help-route.js';
 import { postsRoute } from '../../routes/posts-route.js';
 import { Button } from '../Button/Button.js';
