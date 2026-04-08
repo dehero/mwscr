@@ -25,7 +25,7 @@ export async function resourceExists(url: string): Promise<boolean> {
 
   switch (protocol) {
     case 'store:':
-      return Boolean(storeManager.exists(path));
+      return Boolean(await storeManager.exists(path));
     case 'uploads:': {
       const dataUrl = getResourceDataUrl(url);
       const response = await fetch(dataUrl, { method: 'HEAD' });
