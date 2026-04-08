@@ -1,6 +1,6 @@
 import { assertSchema } from '../../core/entities/schema.js';
-import type { Upload, UploadType } from '../../core/entities/upload.js';
-import { UploadErrorResponse, UploadResult, UploadsResponse } from '../../core/entities/upload.js';
+import type { UploadType } from '../../core/entities/upload.js';
+import { Upload, UploadErrorResponse, UploadResult, UploadsResponse } from '../../core/entities/upload.js';
 import { jsonDateReviver } from '../../core/utils/date-utils.js';
 
 export interface UploadFilesResult {
@@ -97,5 +97,29 @@ export async function getUploads(filter?: GetUploadsFilter): Promise<Upload[]> {
       throw new TypeError(`Failed to fetch uploads: ${error.message}`);
     }
     throw new Error(`Failed to fetch uploads: ${error}`);
+  }
+}
+
+export async function getUpload(url: string): Promise<Upload> {
+  const metaUrl = url.replace(/^uploads:\/(.*)\..*/, `${window.location.origin}/uploads/$1.meta.json`);
+
+  try {
+    const response = await fetch(metaUrl);
+
+    if (!response.ok) {
+      throw new Error(`HTTP error ${response.status}: ${response.statusText}`);
+    }
+
+    const text = await response.text();
+    const data = JSON.parse(text, jsonDateReviver);
+
+    assertSchema(Upload, data);
+
+    return data;
+  } catch (error) {
+    if (error instanceof Error) {
+      throw new TypeError(`Failed to fetch upload: ${error.message}`);
+    }
+    throw new Error(`Failed to fetch upload: ${error}`);
   }
 }

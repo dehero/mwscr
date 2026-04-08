@@ -8,11 +8,10 @@ import { pipeline } from 'stream/promises';
 import type { MediaMetadata } from '../../core/entities/media.js';
 import type { Resource } from '../../core/entities/resource.js';
 import { parseResourceUrl, resourceIsImage, resourceIsVideo } from '../../core/entities/resource.js';
-import { assertSchema } from '../../core/entities/schema.js';
 import { createStoreItemUrl, parseStoreItemUrl } from '../../core/entities/store.js';
-import { Upload } from '../../core/entities/upload.js';
 import { site } from '../../core/services/site.js';
 import { textToId } from '../../core/utils/common-utils.js';
+import { getUpload } from '../../site/data-managers/uploads.js';
 import { storeManager } from '../store-managers/index.js';
 import { pathExists } from '../utils/file-utils.js';
 
@@ -171,12 +170,10 @@ export async function readResource(url: string): Promise<Resource> {
       const arrayBuffer = await response.arrayBuffer();
       const data = Buffer.from(arrayBuffer);
 
-      const metaUrl = getResourceMetaUrl(url);
-      const meta = await (await fetch(metaUrl)).json();
+      const upload = await getUpload(url);
 
-      assertSchema(Upload, meta);
-      const mimeType = meta.mime;
-      const filename = meta.originalName;
+      const mimeType = upload.mime;
+      const filename = upload.originalName;
 
       return [data, mimeType, filename];
     }
@@ -278,16 +275,6 @@ export function getResourceDataUrl(url: string): string {
   }
 }
 
-export function getResourceMetaUrl(url: string): string {
-  const { protocol } = parseResourceUrl(url);
-
-  if (protocol === 'uploads:') {
-    return url.replace(/^uploads:\/(.*)\..*/, `${site.origin}/uploads/$1.meta.json`);
-  }
-
-  throw new Error(`Unknown resource protocol ${protocol} for ${url}.`);
-}
-
 export async function getResourceOriginalUrl(url: string): Promise<string | undefined> {
   const { protocol } = parseResourceUrl(url);
 
@@ -301,13 +288,10 @@ export async function getResourceOriginalUrl(url: string): Promise<string | unde
       return createStoreItemUrl({ ...source, variant: 'original' });
     }
     case 'uploads:': {
-      const metaUrl = getResourceMetaUrl(url);
-      const meta = await (await fetch(metaUrl)).json();
-
-      assertSchema(Upload, meta);
+      const upload = await getUpload(url);
 
       // Upload can reference another upload, recursively
-      return meta.originalUrl ? getResourceOriginalUrl(meta.originalUrl) : url;
+      return upload.originalUrl ? getResourceOriginalUrl(upload.originalUrl) : url;
     }
     case 'file:':
     case 'http:':
