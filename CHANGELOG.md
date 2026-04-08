@@ -2,6 +2,20 @@
 
 All notable changes to this project will be documented in this file.
 
+## [2.23.2](https://github.com/dehero/mwscr/compare/v2.23.1...v2.23.2) (2026-04-08)
+
+### Bug Fixes
+
+- add missing await when checking store resource existance
+  ([b146f85](https://github.com/dehero/mwscr/commit/b146f8517cc09dc684dc64090dfdd80922fc8cd5))
+- move uploads manager to core and don't use window for site origin directly
+  ([d451287](https://github.com/dehero/mwscr/commit/d4512876d38bdf8a5e82d93fd43f1f368fa97b1c))
+- remove debug console.log ([c43498a](https://github.com/dehero/mwscr/commit/c43498a9d11a8f1e93a5dda12b2d28d139e7af39))
+- **site:** submit null to cleared post fields when saving changes to patch
+  ([7b25a6f](https://github.com/dehero/mwscr/commit/7b25a6f2cfdf949f2058834c6e3bf5b481ba23f2))
+- use correct console.info for resource importing success
+  ([1d9dd8f](https://github.com/dehero/mwscr/commit/1d9dd8f8ca17fb18aa142fc5b6ae8bfe8b4865dc))
+
 ## [2.23.1](https://github.com/dehero/mwscr/compare/v2.23.0...v2.23.1) (2026-04-08)
 
 ### Bug Fixes
