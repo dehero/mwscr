@@ -9,9 +9,9 @@ export const UploadType = picklist(['image', 'video', 'archive', 'patch', 'file'
 export const Upload = object({
   name: string(),
   url: string(),
-  author: optional(string()),
+  author: optional(nullable(string())),
   originalName: string(),
-  originalUrl: optional(string()),
+  originalUrl: optional(nullable(string())),
   size: number(),
   type: UploadType,
   mime: string(),
