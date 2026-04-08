@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file.
 
+## [2.23.3](https://github.com/dehero/mwscr/compare/v2.23.2...v2.23.3) (2026-04-08)
+
+### Bug Fixes
+
+- allow upload originalUrl to be null
+  ([c85faba](https://github.com/dehero/mwscr/commit/c85faba272a6c8ce75474544f83864f5f2e016d2))
+
 ## [2.23.2](https://github.com/dehero/mwscr/compare/v2.23.1...v2.23.2) (2026-04-08)
 
 ### Bug Fixes
