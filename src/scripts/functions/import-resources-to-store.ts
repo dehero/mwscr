@@ -1,5 +1,5 @@
 import type { PostEntry } from '../../core/entities/post.js';
-import { mergePostContents, postViolationDescriptors } from '../../core/entities/post.js';
+import { mergePostContents, PostContentField, postViolationDescriptors } from '../../core/entities/post.js';
 import type { DraftProposal } from '../../core/entities/posts-manager.js';
 import { parseResourceUrl } from '../../core/entities/resource.js';
 import { asArray, listItems } from '../../core/utils/common-utils.js';
@@ -12,8 +12,8 @@ export async function importResourcesToStore() {
   const importedUrls = new Map<string, PostEntry<DraftProposal>[]>();
 
   for await (const [id, post] of drafts.readAllEntries()) {
-    for (const container of ['content', 'snapshot', 'trash'] as const) {
-      const urls = asArray<string>(post[container]);
+    for (const field of PostContentField.options) {
+      const urls = asArray<string>(post[field]);
       const newUrls: string[] = [];
 
       for (const url of urls) {
@@ -29,7 +29,7 @@ export async function importResourcesToStore() {
         try {
           const entries = await importResourceToStore(url, post, importedUrls);
           for (const [, draft] of entries) {
-            if (container === 'content') {
+            if (field === 'content' && urls.length === 1) {
               if (!post.violation && draft.violation) {
                 post.violation = draft.violation;
               }
@@ -65,7 +65,7 @@ export async function importResourcesToStore() {
         }
       }
 
-      post[container] = mergePostContents(newUrls);
+      post[field] = mergePostContents(newUrls);
     }
   }
 
