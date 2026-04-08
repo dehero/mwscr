@@ -53,7 +53,7 @@ export async function importResourcesToStore() {
             } else {
               const content = asArray(draft.content);
               newUrls.push(...content);
-              console.error(
+              console.info(
                 `Resource "${url}" from "${id}" was imported to store as ${listItems(content, true, 'and')}}`,
               );
             }
