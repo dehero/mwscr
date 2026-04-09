@@ -1805,20 +1805,21 @@
     - service: vk
       id: 3258
       published: 2026-04-07-18-46-00
-      updated: 2026-04-09-06-03-29
+      updated: 2026-04-09-06-37-56
       followers: 1429
-      likes: 37
-      views: 319
+      likes: 39
+      views: 323
       reposts: 2
       comments: !c |-
-        Gz4B6J0JduwrUMdSrxI9H4uTlfRHPjenBmN0AqUZpUtF2VcEutrMzRC6ZzX0OdnJwwNQbmO5mtPf
-        b6jgEGu0xdDY3DjlkAPShFtAAUiACX9vAakfl29f7+94/P657Y7PpTPHp+dud6//4+CFAMZBheA0
-        OnLSCBNgd6yRXS8HiXzZat27Id9PIvkZjQCr0qiXwTGJqyY3tI4HmB4XQmKkKpJySpTe4rmufeGc
-        ttjfE9kQmRItw8eUmdqQjNrI9VuLMSAhi+VaAQ==
+        G6oBCJ0Htq1ku1yG394ayQyE6J+4Z+8J3YmbNxNRkEDjCSclFkTyZQ/ZV9hal9uFkF896pCBD6ja
+        TUChB5753v1PBQ+llrrtsQyOMR6GF45BNNyQgqKPnZZhAFocWEBxmCSWchppBAuuk9sukWRpx+jX
+        /of352/k+bPK9HsEDdsZc3nrv53dpAAvgZ4UCUcpB7GwtF+T9+yvCSSQy9KPkzW4+AMsijxOAbkk
+        li5jZ4SktyQDj7kAT7NkIXjUS1TVFSyqUlvKlekP7K46zd8EapAyBl4mzSgKjnTREgtz9LAtzQAV
+        skLyQW1z++3O9H1yVCYM5U0rimonyLZAAm/m2ka9mqWjl4eLt8NYDSrpQT5Z3//tvQA=
     - service: tg
       id: 1205
       published: 2026-04-07-18-46-10
-      updated: 2026-04-09-06-03-22
+      updated: 2026-04-09-06-37-49
       followers: 899
       likes: 43
       views: 159
