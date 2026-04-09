@@ -984,7 +984,7 @@ export const ImageEditor: Component<ImageEditorProps> = (props) => {
               src={currentUrl()}
               onLoad={handleImageLoad}
               onError={handleImageError}
-              style={{ filter: imageFilter() }}
+              style={{ filter: imageFilter(), 'image-rendering': zoom() === 1 ? 'auto' : undefined }}
             />
           </Show>
 
