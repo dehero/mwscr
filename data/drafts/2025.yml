@@ -345,15 +345,24 @@ ohsweetnazareth.2025-12-09-boethiahs-brutality-d2f808ec:
   aspect: 1/1
   author: ohsweetnazareth
 ohsweetnazareth.2025-12-09-sotha-sils-scrapyard-74982572:
-  title: Sotha-Sil's Scrapyard
-  content:
-    - store:/inbox/ohsweetnazareth.2025-12-09-sotha-sils-scrapyard-74982572.png
+  title: Imperfect
+  titleRu: Несовершенство
+  placement: Indoors
+  location: Sotha Sil, Dome of the Imperfect
+  content: store:/inbox/ohsweetnazareth.2025-12-09-sotha-sils-scrapyard-74982572.1.png
+  trash:
     - store:/inbox/ohsweetnazareth.2025-12-09-sotha-sils-scrapyard-9e3e5b12.png
-    - store:/inbox/ohsweetnazareth.2025-12-09-sotha-sils-scrapyard-6d0690dd.png
     - store:/inbox/ohsweetnazareth.2025-12-09-sotha-sils-scrapyard-a210ac27.png
+    - store:/inbox/ohsweetnazareth.2025-12-09-sotha-sils-scrapyard-6d0690dd.png
+    - store:/inbox/ohsweetnazareth.2025-12-09-sotha-sils-scrapyard-74982572.png
+    - store:/inbox/ohsweetnazareth.2025-12-09-sotha-sils-scrapyard-74982572.2.png
   type: shot
-  aspect: 1/1
+  aspect: 3/2
   author: ohsweetnazareth
+  addon: Tribunal
+  tags:
+    - door
+  mark: B1
 ohsweetnazareth.2025-12-12-guardian-at-the-craftsmens-hall-3ffec20b:
   content: store:/inbox/ohsweetnazareth.2025-12-12-guardian-at-the-craftsmens-hall-3ffec20b.png
   type: shot
