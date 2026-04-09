@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file.
 
+## [2.23.6](https://github.com/dehero/mwscr/compare/v2.23.5...v2.23.6) (2026-04-09)
+
+### Bug Fixes
+
+- **site:** show full size upload on post page
+  ([97f333c](https://github.com/dehero/mwscr/commit/97f333c94288ed5a471c7fdcd7de6740cd0b6c3d))
+
 ## [2.23.5](https://github.com/dehero/mwscr/compare/v2.23.4...v2.23.5) (2026-04-09)
 
 ### Bug Fixes
