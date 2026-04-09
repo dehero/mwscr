@@ -132,12 +132,17 @@ export async function importResourceToStore(
       content = `store:/${STORE_INBOX_DIR}/${id}${ext}`;
       violation = undefined;
 
+      // TODO: refactor this as separate function
       if (typeof resource === 'string') {
-        const originalUrl = await ensureOriginalResourceIsInStore(resource, imported);
-        if (originalUrl) {
-          const variantUrl = await findUnusedDraftVariantUrl(originalUrl);
-          if (variantUrl) {
-            content = variantUrl;
+        const originalUrl = await getResourceOriginalUrl(resource);
+
+        if (originalUrl && originalUrl !== resource) {
+          const newOriginalUrl = await ensureOriginalResourceIsInStore(originalUrl, template, imported);
+          if (newOriginalUrl) {
+            const variantUrl = await findUnusedDraftVariantUrl(newOriginalUrl);
+            if (variantUrl) {
+              content = variantUrl;
+            }
           }
         }
       }
@@ -384,19 +389,15 @@ export async function syncStoreResource(url: string) {
 
 export async function ensureOriginalResourceIsInStore(
   url: string,
+  template?: Partial<DraftProposal>,
   imported?: Map<string, PostEntry<DraftProposal>[]>,
 ): Promise<string | undefined> {
-  const originalUrl = await getResourceOriginalUrl(url);
-  if (!originalUrl) {
-    return;
-  }
-
-  const { protocol } = parseResourceUrl(originalUrl);
+  const { protocol } = parseResourceUrl(url);
   if (protocol === 'store:') {
-    return originalUrl;
+    return url;
   }
 
-  const drafts = await importResourceToStore(originalUrl, undefined, imported);
+  const drafts = await importResourceToStore(url, template, imported);
   if (drafts.length > 1) {
     return undefined;
   }
