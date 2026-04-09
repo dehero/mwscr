@@ -601,7 +601,7 @@ arya-stark:
   profiles:
     - service: vk
       id: '820702664'
-      updated: 2026-04-07-21-35-22
+      updated: 2026-04-09-06-03-42
       username: id820702664
       name: Арья Старк
       avatar: store:/avatars/vk-689aa89d.jpg
@@ -1414,7 +1414,7 @@ dehero:
     - type: channel
       service: vk
       id: '138249959'
-      updated: 2026-04-06-10-47-40
+      updated: 2026-04-09-06-03-57
       username: mwscr
       name: Morrowind Screenshots
       avatar: store:/avatars/vk-8e97fd4f.jpg
@@ -1650,7 +1650,7 @@ dremarretres:
   profiles:
     - service: vk
       id: '801308664'
-      updated: 2026-04-07-20-34-27
+      updated: 2026-04-09-06-03-33
       username: dremarretres
       name: Джон Шепард
       avatar: store:/avatars/vk-ac4f0700.jpg
@@ -1993,7 +1993,7 @@ fadeev-alexxx:
   profiles:
     - service: vk
       id: '305246543'
-      updated: 2026-04-07-21-35-23
+      updated: 2026-04-09-06-03-47
       username: fadeev_alexxx
       name: Алексей Фадеев
       avatar: store:/avatars/vk-6a4ed023.jpg
@@ -2214,7 +2214,7 @@ gleb-zheltuhin:
   profiles:
     - service: vk
       id: '29014473'
-      updated: 2026-04-08-13-51-58
+      updated: 2026-04-09-06-03-29
       username: gleb_zheltuhin
       name: Глеб Желтухин
       avatar: store:/avatars/vk-971eefc1.jpg
@@ -2555,7 +2555,7 @@ ilya-denisov:
   profiles:
     - service: vk
       id: '134482858'
-      updated: 2026-04-07-19-48-49
+      updated: 2026-04-09-06-03-53
       username: id134482858
       name: Илья Денисов
       avatar: store:/avatars/vk-45d9d8dd.jpg
@@ -2707,7 +2707,7 @@ ivan-uralov:
   profiles:
     - service: vk
       id: '16497155'
-      updated: 2026-04-08-13-51-59
+      updated: 2026-04-09-06-04-01
       username: id16497155
       name: Иван Уралов
       avatar: store:/avatars/vk-51775759.jpg
@@ -2995,7 +2995,7 @@ kevy-c:
   profiles:
     - service: tg
       id: '5067683234'
-      updated: 2026-04-07-21-35-20
+      updated: 2026-04-09-06-03-55
       accessHash: '-903667913374325979'
       username: Kevy_c
       name: Dash
@@ -3258,7 +3258,7 @@ loftydelusion:
   profiles:
     - service: tg
       id: '6735256969'
-      updated: 2026-04-07-18-44-46
+      updated: 2026-04-09-06-03-42
       accessHash: '7923451850129434076'
       username: Loftydelusion
       name: Ꭰelusion
@@ -3851,7 +3851,7 @@ myndowen:
   profiles:
     - service: tg
       id: '720784420'
-      updated: 2026-04-07-18-44-51
+      updated: 2026-04-09-06-03-44
       accessHash: '4385662928393121475'
       username: myndowen
       name: Daniel Beilin
@@ -4282,7 +4282,7 @@ painkiller1986:
   profiles:
     - service: tg
       id: '6565289507'
-      updated: 2026-04-07-21-35-20
+      updated: 2026-04-09-06-03-55
       accessHash: '6198356028119192921'
       username: Painkiller1986
       name: Сумерки
@@ -4307,7 +4307,7 @@ pankuher2007:
   profiles:
     - service: tg
       id: '930833332'
-      updated: 2026-04-07-19-48-48
+      updated: 2026-04-09-06-03-45
       accessHash: '-7533150892250845514'
       username: pankuher2007
       name: S. A.
@@ -4585,7 +4585,7 @@ pyriglena:
   profiles:
     - service: tg
       id: '554672984'
-      updated: 2026-04-07-21-34-22
+      updated: 2026-04-09-06-03-44
       accessHash: '-3565593010225205906'
       username: pyriglena
       name: yarrow
@@ -4845,7 +4845,7 @@ sagittarian-king:
   profiles:
     - service: tg
       id: '352504312'
-      updated: 2026-04-07-17-48-00
+      updated: 2026-04-09-06-03-35
       accessHash: '3929555629803555147'
       username: SagittarianKing
       name: 🦜 Eald ☠️
@@ -4999,7 +4999,7 @@ sergey-b-2:
   profiles:
     - service: vk
       id: '1077446394'
-      updated: 2026-04-07-21-35-22
+      updated: 2026-04-09-06-03-59
       username: id1077446394
       name: Сергей Б
       avatar: store:/avatars/vk-4deb0770.jpg
@@ -5015,7 +5015,7 @@ sergey-venkov:
   profiles:
     - service: vk
       id: '217443112'
-      updated: 2026-04-06-09-59-04
+      updated: 2026-04-09-06-03-59
       username: id217443112
       name: Сергей Венков
       avatar: store:/avatars/vk-a77d1a73.jpg
