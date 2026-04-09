@@ -10,11 +10,11 @@ import { getPostDateById, postTypeDescriptors, postViolationDescriptors } from '
 import type { PostAction } from '../../../core/entities/post-action.js';
 import { createPostPath, postsManagerDescriptors } from '../../../core/entities/posts-manager.js';
 import { getPublicationsStats } from '../../../core/entities/publication.js';
-import { parseResourceUrl, resourceIsImage, resourceIsVideo } from '../../../core/entities/resource.js';
+import { resourceIsImage, resourceIsVideo } from '../../../core/entities/resource.js';
 import { asArray, capitalizeFirstLetter } from '../../../core/utils/common-utils.js';
 import { formatDate, isValidDate } from '../../../core/utils/date-utils.js';
 import { dataManager } from '../../data-managers/manager.js';
-import { getVideoLightweightUrl, getVideoPosterUrl } from '../../data-managers/resources.js';
+import { getResourceDataUrl, getVideoLightweightUrl, getVideoPosterUrl } from '../../data-managers/resources.js';
 import { useLocalPatch } from '../../hooks/useLocalPatch.js';
 import { useRouteInfo } from '../../hooks/useRouteInfo.js';
 import { useSearchParams } from '../../hooks/useSearchParams.js';
@@ -22,7 +22,6 @@ import YellowExclamationMark from '../../images/exclamation.svg';
 import { postRoute } from '../../routes/post-route.js';
 import { postsRoute } from '../../routes/posts-route.js';
 import { userRoute } from '../../routes/user-route.js';
-import { store } from '../../stores/index.js';
 import { Button } from '../Button/Button.js';
 import { createDetachedDialogFragment } from '../DetachedDialogsProvider/DetachedDialogsProvider.jsx';
 import { Divider } from '../Divider/Divider.js';
@@ -97,12 +96,12 @@ export const PostPage = (): JSX.Element => {
   const contentInfos = (): ContentInfo[] => [
     ...asArray(postInfo()?.content).map((url) => ({
       url,
-      publicUrl: store.getPublicUrl(parseResourceUrl(url).path),
+      publicUrl: getResourceDataUrl(url),
       scrollable: false,
     })),
     ...asArray(postInfo()?.snapshot).map((url) => ({
       url,
-      publicUrl: store.getPublicUrl(parseResourceUrl(url).path),
+      publicUrl: getResourceDataUrl(url),
       scrollable: true,
     })),
   ];
