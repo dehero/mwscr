@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file.
 
+## [2.23.5](https://github.com/dehero/mwscr/compare/v2.23.4...v2.23.5) (2026-04-09)
+
+### Bug Fixes
+
+- **site:** make edited image smooth without zoom
+  ([2c4aec8](https://github.com/dehero/mwscr/commit/2c4aec85fada881a24c9861f09655185648f121a))
+
 ## [2.23.4](https://github.com/dehero/mwscr/compare/v2.23.3...v2.23.4) (2026-04-09)
 
 ### Bug Fixes
