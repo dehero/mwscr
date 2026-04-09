@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file.
 
+## [2.23.4](https://github.com/dehero/mwscr/compare/v2.23.3...v2.23.4) (2026-04-09)
+
+### Bug Fixes
+
+- avoid infinite recursion when importing original resource to store
+  ([3b83f0e](https://github.com/dehero/mwscr/commit/3b83f0e55beb400b3770b77ddba767ec02f0462b))
+
 ## [2.23.3](https://github.com/dehero/mwscr/compare/v2.23.2...v2.23.3) (2026-04-08)
 
 ### Bug Fixes
