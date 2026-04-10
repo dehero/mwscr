@@ -6,6 +6,8 @@ import type { PostingServiceManager } from '../../core/entities/service.js';
 import { extras, posts } from '../data-managers/posts.js';
 import { postingServiceManagers } from '../posting-service-managers/index.js';
 
+const MAX_UPDATE_COUNT = 100;
+
 export async function updatePublications() {
   console.group('Updating reactions for publications...');
 
@@ -33,7 +35,7 @@ async function updateServicePublications(
 ) {
   let failCount = 0;
 
-  const updatablePublications = postEntries
+  let updatablePublications = postEntries
     .flatMap(
       ([id, post]): Array<[id: string, publication: Publication]> =>
         post.posts
@@ -49,9 +51,14 @@ async function updateServicePublications(
   if (updatablePublications.length === 0) {
     console.info(`No ${service.name} publications to update.`);
     return;
+  } else if (updatablePublications.length > MAX_UPDATE_COUNT) {
+    console.info(
+      `Found ${updatablePublications.length} ${service.name} publications to update, updating first ${MAX_UPDATE_COUNT}.`,
+    );
+    updatablePublications = updatablePublications.slice(0, MAX_UPDATE_COUNT);
+  } else {
+    console.info(`Found ${updatablePublications.length} ${service.name} publications to update.`);
   }
-
-  console.info(`Found ${updatablePublications.length} ${service.name} publications to update.`);
 
   try {
     await service.connect();
