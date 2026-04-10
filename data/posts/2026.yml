@@ -532,3 +532,24 @@
 2026-04-05-1-cloud-crowns-of-foyada-mamaea: 2016-12-15-cloud-crowns-of-foyada-mamaea
 2026-04-06-1-evening-trees: 2018-02-06-evening-trees
 2026-04-07-1-nook-of-bitter-coast: 2020-10-26-nook-of-bitter-coast
+2026-04-09-1-lady-almalexia:
+  title: Lady Almalexia
+  titleRu: Леди Альмалексия
+  placement: Indoors
+  location: 'Mournhold Temple: High Chapel'
+  content: store:/shots/2026-04-09-1-lady-almalexia.png
+  trash: store:/trash/ohsweetnazareth.2025-12-17-lady-almalexia-79470d0f.1.png
+  type: wallpaper
+  aspect: 16/9
+  author: ohsweetnazareth
+  addon: Tribunal
+  mark: A2
+  posts:
+    - service: tg
+      id: 1206
+      published: 2026-04-09-18-46-00
+      followers: 897
+    - service: mx
+      id: '1775760540732'
+      published: 2026-04-09-18-46-00
+      followers: 22
