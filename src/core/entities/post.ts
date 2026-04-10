@@ -688,7 +688,7 @@ export function parsePostId(id: string): ParsedPostId {
   }
 
   const dateStr = name?.slice(0, 10);
-  const key = name?.slice(10);
+  const key = name?.slice(11);
 
   return {
     author,
