@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file.
 
+## [2.23.7](https://github.com/dehero/mwscr/compare/v2.23.6...v2.23.7) (2026-04-10)
+
+### Bug Fixes
+
+- limit maximum count of updated publications at single maintenance run
+  ([4ea89a5](https://github.com/dehero/mwscr/commit/4ea89a5e3712a47f10440764b40814d7fe613b62))
+- remove starting dash when extracting post id key
+  ([fa81a7a](https://github.com/dehero/mwscr/commit/fa81a7a9b7e0e993c565d3ec0b04121f6e99c0b6))
+- update MAX follower count ([d76e338](https://github.com/dehero/mwscr/commit/d76e33801afa20ca950f2254a61aa06259687bf8))
+
 ## [2.23.6](https://github.com/dehero/mwscr/compare/v2.23.5...v2.23.6) (2026-04-09)
 
 ### Bug Fixes
