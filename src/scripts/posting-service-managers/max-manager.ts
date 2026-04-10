@@ -213,7 +213,7 @@ export class MAXManager extends MAXService implements PostingServiceManager {
 
   async grabFollowerCount() {
     // TODO: unable to implement for now
-    return 20;
+    return 22;
   }
 
   async grabPosts(_afterPublication?: Publication) {
