@@ -537,7 +537,7 @@ arisavushka:
   profiles:
     - service: vk
       id: '9414735'
-      updated: 2026-04-06-10-00-19
+      updated: 2026-04-10-13-16-24
       username: arisavushka
       name: Сицуно Арисава
       avatar: store:/avatars/vk-550c5387.jpg
@@ -553,7 +553,7 @@ artem-petrov:
   profiles:
     - service: vk
       id: '4238605'
-      updated: 2026-04-10-10-17-35
+      updated: 2026-04-10-13-16-25
       username: id4238605
       name: Артем Петров
       avatar: store:/avatars/vk-77942374.jpg
@@ -1765,7 +1765,7 @@ eidelelweise:
   profiles:
     - service: vk
       id: '451140204'
-      updated: 2026-04-09-12-54-21
+      updated: 2026-04-10-13-16-24
       username: eidelelweise
       name: Эйдель Элиас Вайс
       avatar: store:/avatars/vk-85124301.jpg
@@ -2214,7 +2214,7 @@ gleb-zheltuhin:
   profiles:
     - service: vk
       id: '29014473'
-      updated: 2026-04-10-10-17-23
+      updated: 2026-04-10-13-16-25
       username: gleb_zheltuhin
       name: Глеб Желтухин
       avatar: store:/avatars/vk-971eefc1.jpg
@@ -2707,7 +2707,7 @@ ivan-uralov:
   profiles:
     - service: vk
       id: '16497155'
-      updated: 2026-04-10-10-13-47
+      updated: 2026-04-10-13-16-24
       username: id16497155
       name: Иван Уралов
       avatar: store:/avatars/vk-51775759.jpg
@@ -2995,7 +2995,7 @@ kevy-c:
   profiles:
     - service: tg
       id: '5067683234'
-      updated: 2026-04-10-10-18-27
+      updated: 2026-04-10-13-16-22
       accessHash: '-903667913374325979'
       username: Kevy_c
       name: Dash
@@ -3989,7 +3989,7 @@ nikitaloshenko:
   profiles:
     - service: vk
       id: '58942565'
-      updated: 2026-04-10-10-13-44
+      updated: 2026-04-10-13-16-24
       username: nikitaloshenko
       name: Никита Лощенко
       avatar: store:/avatars/vk-dcd345db.jpg
@@ -5003,7 +5003,7 @@ sergey-b-2:
   profiles:
     - service: vk
       id: '1077446394'
-      updated: 2026-04-10-10-17-30
+      updated: 2026-04-10-13-16-22
       username: id1077446394
       name: Сергей Б
       avatar: store:/avatars/vk-4deb0770.jpg
