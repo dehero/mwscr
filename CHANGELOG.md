@@ -2,6 +2,12 @@
 
 All notable changes to this project will be documented in this file.
 
+## [2.23.8](https://github.com/dehero/mwscr/compare/v2.23.7...v2.23.8) (2026-04-12)
+
+### Documentation
+
+- change VK app name ([f53cec5](https://github.com/dehero/mwscr/commit/f53cec544b61bef00d953aa75540385b553c339e))
+
 ## [2.23.7](https://github.com/dehero/mwscr/compare/v2.23.6...v2.23.7) (2026-04-10)
 
 ### Bug Fixes
