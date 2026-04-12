@@ -28,8 +28,9 @@ Copy resulting JSON field named `access_token` to `INSTAGRAM_ACCESS_TOKEN` envir
 
 ## VK
 
-Go to [My apps](https://vk.com/apps?act=manage), find "mwscr" application and select "Manage". There go to "Settings"
-and copy "App ID" to `CLIENT_ID`, "Secure key" to `CLIENT_SECRET` and "Authorized redirect URI" to `REDIRECT_URI`.
+Go to [My apps](https://vk.com/apps?act=manage), find "Morrowind Screenshots" application and select "Manage". There go
+to "Settings" and copy "App ID" to `CLIENT_ID`, "Secure key" to `CLIENT_SECRET` and "Authorized redirect URI" to
+`REDIRECT_URI`.
 
 Then call URL:
 
