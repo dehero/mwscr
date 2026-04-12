@@ -692,18 +692,18 @@
     - service: vk
       id: 3197
       published: 2026-03-21-18-48-42
-      updated: 2026-04-04-23-20-35
+      updated: 2026-04-12-13-09-16
       followers: 1623
       likes: 75
-      views: 722
+      views: 738
       reposts: 3
     - service: tg
       id: 1189
       published: 2026-03-21-18-49-01
-      updated: 2026-04-04-23-20-34
+      updated: 2026-04-12-13-09-04
       followers: 894
-      likes: 59
-      views: 429
+      likes: 61
+      views: 461
       comments: !c CwuAkZPLQnnRtFPkAACma2V2eS1jpPCfpoAD
     - service: mx
       id: '1774118945544'
@@ -984,24 +984,24 @@
       id: DVRbO4VGuhu
       mediaId: '18356886256204256'
       published: 2026-02-27-18-59-10
-      updated: 2026-04-03-21-22-54
+      updated: 2026-04-12-13-09-23
       followers: 1607
       likes: 64
     - service: vk
       id: 3118
       published: 2026-02-27-18-59-17
-      updated: 2026-04-03-21-22-48
+      updated: 2026-04-12-13-09-38
       followers: 1610
       likes: 73
-      views: 1073
+      views: 1083
       reposts: 3
     - service: tg
       id: 1162
       published: 2026-02-27-18-59-24
-      updated: 2026-04-03-21-22-50
+      updated: 2026-04-12-13-09-19
       followers: 889
       likes: 63
-      views: 490
+      views: 495
       comments: !c |-
         GzwDYCwSeBOtK6OhO04kBi/in4fD3weOwqe/JZx42QbMlhbwmCTzXGwCp6qyHf/FjXojhpD2u1kN
         XlNn8P3cWFKwBaPdnO7e/KhM+diGdHsWym2LZTUsHKqIwgfhQ6orUmX/39vrw/CBBqK3z5d2pn1B
@@ -1486,10 +1486,10 @@
     - service: vk
       id: 3254
       published: 2026-04-05-18-27-38
-      updated: 2026-04-10-10-13-21
+      updated: 2026-04-12-13-09-03
       followers: 1628
-      likes: 64
-      views: 770
+      likes: 70
+      views: 939
       reposts: 3
       comments: !c |-
         G4MA6J0Hxq3x4CS9cx8fwUaodJ6vXREuSAscaYZhk9iRnrwP/3nLXctK+I4SlPhmw+0YHbaWl63k
@@ -1498,10 +1498,10 @@
     - service: tg
       id: 1203
       published: 2026-04-05-18-27-49
-      updated: 2026-04-10-10-13-15
+      updated: 2026-04-12-13-08-48
       followers: 900
-      likes: 49
-      views: 288
+      likes: 50
+      views: 314
     - service: mx
       id: '1775413673794'
       published: 2026-04-05-18-27-53
@@ -1510,9 +1510,9 @@
       id: DW8pFzBlaiL
       mediaId: '17873711847588710'
       published: 2026-04-10-10-18-58
-      updated: 2026-04-10-17-51-37
+      updated: 2026-04-12-13-08-54
       followers: 1617
-      likes: 38
+      likes: 49
 2016-12-16-gnisis-temple:
   title: Gnisis Temple
   titleRu: Храм Гнисиса
