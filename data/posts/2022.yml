@@ -1098,18 +1098,18 @@
     - service: vk
       id: 3180
       published: 2026-03-15-18-52-27
-      updated: 2026-04-06-08-16-58
+      updated: 2026-04-13-09-25-19
       followers: 1619
       likes: 64
-      views: 551
+      views: 555
       reposts: 2
     - service: tg
       id: 1183
       published: 2026-03-15-18-52-34
-      updated: 2026-04-06-08-16-54
+      updated: 2026-04-13-09-25-10
       followers: 886
-      likes: 56
-      views: 1179
+      likes: 57
+      views: 1207
       comments: !c CwuAkZPLQnnPMAiugACma2V2eS1jpPCfpoAD
     - service: mx
       id: '1773600757511'
