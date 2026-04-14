@@ -566,10 +566,10 @@
     - service: vk
       id: 3262
       published: 2026-04-14-06-55-00
-      updated: 2026-04-14-19-11-17
+      updated: 2026-04-14-20-51-32
       followers: 1432
       likes: 13
-      views: 280
+      views: 288
       reposts: 1
 2026-04-12-1-director-of-corprusarium: 2017-09-20-director-of-corprusarium
 2026-04-14-1-dragon-in-slings:
@@ -594,11 +594,16 @@
       id: DXH5vAAjSsY
       mediaId: '18058600517474559'
       published: 2026-04-14-19-16-02
+      updated: 2026-04-14-20-51-29
       followers: 1621
+      likes: 25
     - service: tg
       id: 1208
       published: 2026-04-14-19-16-12
+      updated: 2026-04-14-20-51-23
       followers: 897
+      likes: 21
+      views: 86
     - service: mx
       id: '1776194175298'
       published: 2026-04-14-19-16-15
