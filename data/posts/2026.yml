@@ -566,9 +566,40 @@
     - service: vk
       id: 3262
       published: 2026-04-14-06-55-00
-      updated: 2026-04-14-17-03-56
+      updated: 2026-04-14-19-11-17
       followers: 1432
       likes: 13
-      views: 267
+      views: 280
       reposts: 1
 2026-04-12-1-director-of-corprusarium: 2017-09-20-director-of-corprusarium
+2026-04-14-1-dragon-in-slings:
+  title: Dragon in Slings
+  titleRu: Дракон в стропах
+  placement: Outdoors
+  location:
+    - Ebonheart
+    - Chun-Ook
+  content: store:/shots/2026-04-14-1-dragon-in-slings.png
+  type: shot
+  aspect: 1/1
+  author: dehero
+  created: 2026-03-05
+  engine: OpenMW
+  tags:
+    - ship
+    - statue
+  mark: A2
+  posts:
+    - service: ig
+      id: DXH5vAAjSsY
+      mediaId: '18058600517474559'
+      published: 2026-04-14-19-16-02
+      followers: 1621
+    - service: tg
+      id: 1208
+      published: 2026-04-14-19-16-12
+      followers: 897
+    - service: mx
+      id: '1776194175298'
+      published: 2026-04-14-19-16-15
+      followers: 22

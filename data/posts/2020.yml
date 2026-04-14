@@ -137,7 +137,7 @@
     - service: vk
       id: 1977
       published: 2024-12-20-18-10-34
-      updated: 2026-04-06-10-12-01
+      updated: 2026-04-14-19-12-02
       followers: 1027
       likes: 40
       views: 429
@@ -146,7 +146,7 @@
     - service: tg
       id: 631
       published: 2024-12-20-18-10-40
-      updated: 2026-04-06-10-06-24
+      updated: 2026-04-14-19-11-22
       followers: 584
       likes: 60
       views: 648
@@ -1594,7 +1594,7 @@
     - service: vk
       id: 2011
       published: 2025-01-02-18-10-56
-      updated: 2026-04-06-10-11-16
+      updated: 2026-04-14-19-11-28
       followers: 1040
       likes: 58
       views: 396
