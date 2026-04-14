@@ -1372,7 +1372,8 @@
 2017-01-28-2-meditative-night-in-ahemmusa-camp:
   title: Meditative Night in Ahemmusa Camp
   titleRu: Ночь медитации в лагере Ахеммуза
-  description: Camera was placed in Ahemmusa Camp over the yurt of ashkhan in the rainy evening. It stayed there until morning.
+  description:
+    Camera was placed in Ahemmusa Camp over the yurt of ashkhan in the rainy evening. It stayed there until morning.
   descriptionRu: Камера была закреплена дождливым вечером над юртой ашхана и оставалась там до утра.
   placement: Outdoors
   location: Ahemmusa Camp
@@ -7233,7 +7234,7 @@
   title: Queen Mother in Her Chambers
   titleRu: Королева-мать в своих покоях
   placement: Indoors
-  location: 'Mournhold, Royal Palace: Barenziah''s Chambers'
+  location: "Mournhold, Royal Palace: Barenziah's Chambers"
   content: store:/shots/2017-05-19-queen-mother-in-her-chambers.png
   type: shot
   aspect: 1/1
@@ -13234,6 +13235,10 @@
       id: '1776022687632'
       published: 2026-04-12-19-38-07
       followers: 22
+    - service: vk
+      id: 3263
+      published: 2026-04-14-08-33-00
+      followers: 1432
 2017-09-21-flight:
   title: Flight
   titleRu: Полёт
@@ -17505,7 +17510,7 @@
   locating:
     date: 2026-02-21-19-30-53
     user: pyriglena
-    text: '-20,26, north-east, behind Ingmar''s house'
+    text: "-20,26, north-east, behind Ingmar's house"
   engine: OpenMW
   addon: Bloodmoon
   mark: B2
