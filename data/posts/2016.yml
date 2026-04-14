@@ -1214,7 +1214,7 @@
     - service: vk
       id: 3078
       published: 2026-02-09-19-18-47
-      updated: 2026-04-06-14-04-46
+      updated: 2026-04-14-13-03-44
       followers: 1598
       likes: 72
       views: 1063
@@ -1227,10 +1227,10 @@
     - service: tg
       id: 1146
       published: 2026-02-09-19-18-52
-      updated: 2026-04-06-14-04-44
+      updated: 2026-04-14-13-02-37
       followers: 890
       likes: 71
-      views: 766
+      views: 768
       comments: !c CwuAkZPLQnnEWc7HAACma2V2eS1jpPCfpoAD
 2016-12-10-somewhere-nearby-vivec:
   title: Somewhere Nearby Vivec
@@ -1510,9 +1510,9 @@
       id: DW8pFzBlaiL
       mediaId: '17873711847588710'
       published: 2026-04-10-10-18-58
-      updated: 2026-04-12-13-08-54
+      updated: 2026-04-14-13-02-19
       followers: 1617
-      likes: 49
+      likes: 56
 2016-12-16-gnisis-temple:
   title: Gnisis Temple
   titleRu: Храм Гнисиса
@@ -1788,18 +1788,18 @@
     - service: vk
       id: 2887
       published: 2025-11-26-18-22-50
-      updated: 2026-04-06-09-59-29
+      updated: 2026-04-14-13-05-12
       followers: 1527
       likes: 86
-      views: 1466
+      views: 1471
       reposts: 8
     - service: tg
       id: 1070
       published: 2025-11-26-18-22-55
-      updated: 2026-04-06-09-59-00
+      updated: 2026-04-14-13-03-18
       followers: 869
       likes: 71
-      views: 743
+      views: 744
       comments: !c |-
         G9UAwIyULncE+f/czy803vFRJllGWWkUrUHyPpKdJelMthscaBpjppGum8yjhtvgMSyec8Xp9BoO
         ntrY+heUMczKoYvo4jpHjMvNfzY9ALLK5mTxeAKmsM1gFQnnYv+bd8EeR+wpjz1lccGeTRUHDhsP
@@ -2251,7 +2251,7 @@
     - service: vk
       id: 3041
       published: 2026-01-25-18-30-53
-      updated: 2026-04-06-14-04-53
+      updated: 2026-04-14-13-04-07
       followers: 1588
       likes: 72
       views: 1531
@@ -2262,8 +2262,8 @@
     - service: tg
       id: 1131
       published: 2026-01-25-18-30-56
-      updated: 2026-04-06-14-04-50
+      updated: 2026-04-14-13-02-47
       followers: 884
       likes: 72
-      views: 870
+      views: 877
       comments: !c CwuAkZPLQnm/bEgYAACma2V2eS1jpPCfpoAD

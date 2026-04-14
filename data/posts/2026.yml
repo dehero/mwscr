@@ -30,7 +30,7 @@
     - service: vk
       id: 2987
       published: 2026-01-03-19-20-38
-      updated: 2026-04-06-09-58-58
+      updated: 2026-04-14-13-04-16
       followers: 1558
       likes: 61
       views: 1630
@@ -43,7 +43,7 @@
     - service: tg
       id: 1111
       published: 2026-01-03-19-20-44
-      updated: 2026-04-06-09-58-35
+      updated: 2026-04-14-13-02-52
       followers: 875
       likes: 67
       views: 609
@@ -77,7 +77,7 @@
     - service: vk
       id: 2988
       published: 2026-01-04-19-20-38
-      updated: 2026-04-06-14-04-55
+      updated: 2026-04-14-13-04-13
       followers: 1558
       likes: 28
       views: 591
@@ -88,7 +88,7 @@
     - service: tg
       id: 1112
       published: 2026-01-04-19-20-44
-      updated: 2026-04-06-14-04-50
+      updated: 2026-04-14-13-02-52
       followers: 875
       likes: 47
       views: 596
@@ -296,10 +296,10 @@
     - service: vk
       id: 3006
       published: 2026-01-10-18-59-53
-      updated: 2026-04-06-09-58-55
+      updated: 2026-04-14-13-04-11
       followers: 1564
       likes: 60
-      views: 1196
+      views: 1197
       reposts: 5
       comments: !c |-
         G/0AsCwO7DbOCzW1t0D4EQLzjFDJecI/sWCVxi/eftSm8FOZVSa8iY108g5qbqVUi8WQbmzvFHig
@@ -309,10 +309,10 @@
     - service: tg
       id: 1121
       published: 2026-01-10-18-59-57
-      updated: 2026-04-06-09-58-33
+      updated: 2026-04-14-13-02-52
       followers: 880
       likes: 63
-      views: 808
+      views: 810
       comments: !c |-
         G50A4OXq0nuyfergrXsm+KU0C0YbZWKlAQY0QO8GB+xVUoCD2j764Dj8zq6I2M6H819cfpc9tkOP
         vvKrdrWNDpIeeqdokyC/VVWnchC3Z2A8ZxQXbZdqgCjoQcmDxK9KooON0/qnyI/r94bQ0w/ioK1W
@@ -548,10 +548,10 @@
     - service: tg
       id: 1206
       published: 2026-04-09-18-46-00
-      updated: 2026-04-12-13-08-46
+      updated: 2026-04-14-13-01-20
       followers: 897
-      likes: 44
-      views: 188
+      likes: 50
+      views: 305
     - service: mx
       id: '1775760540732'
       published: 2026-04-09-18-46-00
@@ -560,11 +560,14 @@
       id: DXCGhYhDKDH
       mediaId: '18571358389046109'
       published: 2026-04-12-13-12-20
-      updated: 2026-04-13-09-25-05
+      updated: 2026-04-14-13-02-13
       followers: 1622
-      likes: 60
+      likes: 70
     - service: vk
       id: 3262
       published: 2026-04-14-06-55-00
+      updated: 2026-04-14-13-02-12
       followers: 1432
+      likes: 9
+      views: 238
 2026-04-12-1-director-of-corprusarium: 2017-09-20-director-of-corprusarium

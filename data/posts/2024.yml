@@ -333,10 +333,10 @@
     - service: vk
       id: 2621
       published: 2025-09-02-18-19-38
-      updated: 2026-04-06-10-00-59
+      updated: 2026-04-14-13-07-42
       followers: 1400
       likes: 55
-      views: 852
+      views: 850
       reposts: 1
       comments: !c |-
         G2YNACwPbDeIhUFkO+Iouu0dLsFEUS3L9wR3HHqzP8HfSMEFiKhFCjHgLECecJtFuLR3+n5AcQna
@@ -363,10 +363,10 @@
     - service: tg
       id: 970
       published: 2025-09-02-18-19-42
-      updated: 2026-04-06-10-00-06
+      updated: 2026-04-14-13-05-30
       followers: 787
       likes: 63
-      views: 602
+      views: 603
       comments: !c iw2AkZPLQnmRBMNbAACra2F3YXpha3kyMjOk8J+nlAM=
 2024-03-10-fortresss-face:
   title: Fortress's Face
@@ -457,18 +457,18 @@
     - service: vk
       id: 2655
       published: 2025-09-17-18-34-35
-      updated: 2026-04-06-10-00-40
+      updated: 2026-04-14-13-07-17
       followers: 1422
       likes: 39
-      views: 571
+      views: 569
       reposts: 2
     - service: tg
       id: 988
       published: 2025-09-17-18-34-38
-      updated: 2026-04-06-09-59-54
+      updated: 2026-04-14-13-05-07
       followers: 797
       likes: 68
-      views: 613
+      views: 614
       comments: !c |-
         G7MAEJ4FdizsBOqL7jL81a2Jcy0N14LF086vsE6MAq3zxwd7oAVAft6YJKAQ9jd2FdNwr2duk7eU
         vzwucByKqKt79FzPv5WXT3QnyU+s5JgbfGi4dETgZmhBPDeQ1laotuDRp9e/YW40/4odwjHPI+2T
@@ -588,7 +588,7 @@
     - service: vk
       id: 2824
       published: 2025-11-07-18-18-05
-      updated: 2026-04-06-14-05-27
+      updated: 2026-04-14-13-05-44
       followers: 1504
       likes: 56
       views: 1080
@@ -605,7 +605,7 @@
     - service: tg
       id: 1048
       published: 2025-11-07-18-18-08
-      updated: 2026-04-06-14-05-08
+      updated: 2026-04-14-13-03-42
       followers: 854
       likes: 61
       views: 657
@@ -1095,10 +1095,10 @@
     - service: vk
       id: 2583
       published: 2025-08-15-18-23-39
-      updated: 2026-04-06-14-06-29
+      updated: 2026-04-14-13-07-54
       followers: 1364
       likes: 30
-      views: 682
+      views: 680
       comments: !c |-
         G6MA4B2HsdtksPvqWkQjAvI2wkkSDHR3IyvQQHZhSV2BBJYklPxIk6A2F0I1hGAJMjnmHP/qNmN5
         TbJ70TM4IiykeNiAA/eEA8LBBh2HiRx5mgXfu/18i5YvuhruCbUgm+Eh8Xdvi66KZZlmdMccpSJY
@@ -1106,7 +1106,7 @@
     - service: tg
       id: 952
       published: 2025-08-15-18-23-43
-      updated: 2026-04-06-14-06-07
+      updated: 2026-04-14-13-05-46
       followers: 780
       likes: 63
       views: 631
@@ -1167,18 +1167,18 @@
     - service: vk
       id: 2634
       published: 2025-09-05-18-27-38
-      updated: 2026-04-06-14-06-22
+      updated: 2026-04-14-13-07-39
       followers: 1406
       likes: 39
-      views: 444
+      views: 442
       reposts: 2
     - service: tg
       id: 974
       published: 2025-09-05-18-27-44
-      updated: 2026-04-06-14-06-00
+      updated: 2026-04-14-13-05-27
       followers: 789
       likes: 66
-      views: 615
+      views: 617
       comments: !c |-
         i0GAlJPLQnmR0leHgACtb2xtZXItaXpkZXlsYaTwn5Kpk8tCeZGzWTQAAKtrYXdhemFreTIyM6bi
         mKDvuI+Ty0J5kbJEl4AAq2dvb3NldmljaDc2pPCfmLKTy0J5kbI434AApmFub25pbbzQkNGC0LzQ
@@ -1675,7 +1675,7 @@
     - service: tg
       id: 931
       published: 2025-07-29-18-40-51
-      updated: 2026-04-06-10-00-30
+      updated: 2026-04-14-13-06-21
       followers: 770
       likes: 71
       views: 710
@@ -2786,17 +2786,17 @@
     - service: vk
       id: 2870
       published: 2025-11-20-19-48-43
-      updated: 2026-04-06-09-59-31
+      updated: 2026-04-14-13-05-25
       followers: 1516
       likes: 62
       views: 719
     - service: tg
       id: 1063
       published: 2025-11-20-19-48-47
-      updated: 2026-04-06-09-59-00
+      updated: 2026-04-14-13-03-22
       followers: 861
       likes: 67
-      views: 667
+      views: 668
 2024-06-12-beran-ancestral-tomb:
   title: Beran Ancestral Tomb
   titleRu: Родовая гробница Беранов
@@ -2887,7 +2887,7 @@
     - service: vk
       id: 2648
       published: 2025-09-13-18-25-04
-      updated: 2026-04-06-14-06-16
+      updated: 2026-04-14-13-07-30
       followers: 1419
       likes: 34
       views: 734
@@ -2904,10 +2904,10 @@
     - service: tg
       id: 982
       published: 2025-09-13-18-25-07
-      updated: 2026-04-06-14-05-52
+      updated: 2026-04-14-13-05-12
       followers: 799
       likes: 64
-      views: 560
+      views: 562
       comments: !c |-
         G3sA4OV/LvdBDnzqbbCz0wMbYxUFNtb0XsAFlAZSbnDAnmABBpbl2jhswI0Lb8OQPfv9t9gYnuUd
         wNUyotRhnb6Tze/Zzt/BHCFbcPeUSmkqXoPnhcN/PXnolvcvgIuqpAplRvWHlQClXxmFmsUKwXm0
@@ -3404,7 +3404,7 @@
     - service: vk
       id: 2805
       published: 2025-11-01-18-14-32
-      updated: 2026-04-06-14-05-32
+      updated: 2026-04-14-13-06-28
       followers: 1494
       likes: 107
       views: 1434
@@ -3412,7 +3412,7 @@
     - service: tg
       id: 1037
       published: 2025-11-01-18-14-36
-      updated: 2026-04-06-14-05-10
+      updated: 2026-04-14-13-03-49
       followers: 850
       likes: 81
       views: 613
@@ -4051,10 +4051,10 @@
     - service: vk
       id: 3161
       published: 2026-03-09-19-04-53
-      updated: 2026-04-07-01-11-04
+      updated: 2026-04-14-13-03-05
       followers: 1619
       likes: 101
-      views: 1494
+      views: 1496
       reposts: 4
       comments: !c |-
         GxUBQJwH2bnkBMV1dl+YCJ7/v9YnfED/zPFp8tH22kyxFlrK+2hDN2eozVJtJoOhnePOZDz81W31
@@ -4064,10 +4064,10 @@
     - service: tg
       id: 1174
       published: 2026-03-09-19-04-58
-      updated: 2026-04-07-01-11-00
+      updated: 2026-04-14-13-02-28
       followers: 883
       likes: 56
-      views: 547
+      views: 559
       comments: !c CwuAkZPLQnnNWGEHgACma2V2eS1jpPCfpoAD
     - service: mx
       id: '1773083101743'
