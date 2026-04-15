@@ -17,6 +17,7 @@ export abstract class AbstractSiteStore implements Store {
     'photos/*.jpg',
     'inbox/*.{jpg,png}',
     'misc/*.txt',
+    'rss/*.xml',
   ];
 
   readonly protectedDirectories = ['inbox', 'misc'];

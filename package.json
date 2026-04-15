@@ -76,6 +76,7 @@
     "decompress": "^4.2.1",
     "dotenv": "^16.0.0",
     "escape-html": "^1.0.3",
+    "feed": "^5.2.0",
     "insta-fetcher": "^1.3.35",
     "instagram-graph-api": "^6.2.0",
     "js-file-downloader": "^1.1.25",

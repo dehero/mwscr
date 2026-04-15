@@ -28,6 +28,9 @@ export async function resourceExists(url: string): Promise<boolean> {
       return Boolean(await storeManager.exists(path));
     case 'uploads:': {
       const dataUrl = getResourceDataUrl(url);
+      if (!dataUrl) {
+        throw new Error(`Unable to get data URL for "${url}".`);
+      }
       const response = await fetch(dataUrl, { method: 'HEAD' });
       return response.ok;
     }
@@ -76,6 +79,9 @@ export async function copyResource(fromUrl: string, toUrl: string): Promise<void
       break;
     case 'uploads:': {
       const dataUrl = getResourceDataUrl(fromUrl);
+      if (!dataUrl) {
+        throw new Error(`Unable to get data URL for "${fromUrl}".`);
+      }
       return copyResource(dataUrl, toUrl);
     }
     case 'http:':
@@ -166,6 +172,9 @@ export async function readResource(url: string): Promise<Resource> {
     }
     case 'uploads:': {
       const dataUrl = getResourceDataUrl(url);
+      if (!dataUrl) {
+        throw new Error(`Unable to get data URL for "${url}".`);
+      }
       const response = await fetch(dataUrl);
       const arrayBuffer = await response.arrayBuffer();
       const data = Buffer.from(arrayBuffer);
@@ -261,10 +270,12 @@ export async function getResourcePreviewUrl(url: string, width?: number, height?
   }
 }
 
-export function getResourceDataUrl(url: string): string {
-  const { protocol } = parseResourceUrl(url);
+export function getResourceDataUrl(url: string): string | undefined {
+  const { protocol, path } = parseResourceUrl(url);
 
   switch (protocol) {
+    case 'store:':
+      return storeManager.getPublicUrl(path);
     case 'uploads:':
       return url.replace(/^uploads:\//, `${site.origin}/uploads/`);
     case 'http:':

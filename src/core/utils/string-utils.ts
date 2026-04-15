@@ -12,3 +12,7 @@ export function stripHashtags(value: string) {
 export function stripCommonExtension(value: string) {
   return value.replace(/\.[^/.]{3,4}$/, '');
 }
+
+export function addHtmlBreaksToNewLines(value: string) {
+  return value.replace(/\r?\n/g, '<br />\n');
+}

@@ -1,5 +1,6 @@
 import 'dotenv/config';
 import { posix } from 'path/posix';
+import { Feed } from 'feed';
 import type { Objects, Responses } from 'vk-io';
 import { VK } from 'vk-io';
 import { markdownToText } from '../../core/entities/markdown.js';
@@ -21,13 +22,21 @@ import type { VKPublication } from '../../core/services/vk.js';
 import { VK as VKService, VK_GROUP_ID, VK_GROUP_NAME } from '../../core/services/vk.js';
 import { asArray, getRevisionHash, randomDelay } from '../../core/utils/common-utils.js';
 import { formatDate, getDaysPassed } from '../../core/utils/date-utils.js';
+import { addHtmlBreaksToNewLines } from '../../core/utils/string-utils.js';
 import { locations } from '../data-managers/locations.js';
-import { readResource } from '../data-managers/resources.js';
+import {
+  getResourceDataUrl,
+  readResource,
+  removeResource,
+  resourceExists,
+  writeResource,
+} from '../data-managers/resources.js';
 import { saveUserAvatar } from '../data-managers/store-resources.js';
 import { users } from '../data-managers/users.js';
 import { createPostStory } from '../renderers/stories.js';
 
 const DEBUG_PUBLISHING = Boolean(process.env.DEBUG_PUBLISHING) || false;
+const RSS_RESOURCE_URL = 'store:/rss/vk.xml';
 
 export class VKManager extends VKService implements PostingServiceManager {
   vk: VK | undefined;
@@ -65,6 +74,23 @@ export class VKManager extends VKService implements PostingServiceManager {
     return mentions.join(', ');
   }
 
+  createTitle(entry: PostEntry) {
+    const [, post] = entry;
+    const titlePrefix = [
+      post.type !== 'shot' ? postTypeDescriptors[post.type].titleRu : undefined,
+      post.addon && !postAddonDescriptors[post.addon].official ? post.addon : undefined,
+    ]
+      .filter(Boolean)
+      .join(' ');
+
+    if (post.titleRu) {
+      return [titlePrefix, post.titleRu].filter(Boolean).join(': ');
+    }
+    if (titlePrefix) {
+      return titlePrefix;
+    }
+  }
+
   async createCaption(entry: PostEntry) {
     const [id, post, managerName] = entry;
 
@@ -75,17 +101,9 @@ export class VKManager extends VKService implements PostingServiceManager {
 
     if (post.type !== 'news') {
       const contributors: string[] = [];
-      const titlePrefix = [
-        post.type !== 'shot' ? postTypeDescriptors[post.type].titleRu : undefined,
-        post.addon && !postAddonDescriptors[post.addon].official ? post.addon : undefined,
-      ]
-        .filter(Boolean)
-        .join(' ');
-
-      if (post.titleRu) {
-        lines.push([titlePrefix, post.titleRu].filter(Boolean).join(': '));
-      } else if (titlePrefix) {
-        lines.push(titlePrefix);
+      const title = this.createTitle(entry);
+      if (title) {
+        lines.push(title);
       }
 
       // TODO: mention USER_DEFAULT_AUTHOR in compilations created not just by USER_DEFAULT_AUTHOR
@@ -187,7 +205,9 @@ export class VKManager extends VKService implements PostingServiceManager {
         newPublications = await this.publishPostEntryAsStory(entry);
         break;
       default:
-        newPublications = await this.publishPostEntryAsPhoto(entry);
+        // Not working until wall.post does not require extended access rights (cannot be received)
+        // newPublications = await this.publishPostEntryAsPhoto(entry);
+        newPublications = await this.publishPostEntryWithRssOptimistic(entry);
     }
 
     post.posts = [...(post.posts ?? []), ...newPublications];
@@ -244,6 +264,57 @@ export class VKManager extends VKService implements PostingServiceManager {
     const followers = await this.grabFollowerCount();
 
     return [{ service: this.id, id: result.post_id, followers, published: new Date() }];
+  }
+
+  async publishPostEntryWithRssOptimistic(entry: PostEntry): Promise<VKPublication[]> {
+    if (await resourceExists(RSS_RESOURCE_URL)) {
+      await removeResource(RSS_RESOURCE_URL);
+    }
+
+    const lastPublication = await this.getLastPublication();
+    if (!lastPublication) {
+      throw new Error('Failed to get last publication ID');
+    }
+    const [id, post, managerName] = entry;
+
+    const url = asArray<string>(post.content)[0];
+    if (!url) {
+      throw new Error('Failed to get post content resource URL.');
+    }
+
+    const title = this.createTitle(entry) ?? '';
+    const content = await this.createCaption(entry);
+    const link = site.getPostUrl(id, managerName);
+    const published = new Date();
+    const publicationId = lastPublication.id + 1;
+
+    const feed = new Feed({
+      title: site.name,
+      description:
+        'Оригинальные скриншоты и видео из The Elder Scrolls III: Morrowind. Графические и нелорные моды не используются. Цветовые фильтры не применяются. Элементы интерфейса скрыты.',
+      id: site.origin,
+      link: site.origin,
+      language: 'ru',
+      image: `${site.origin}/avatar.png`,
+      favicon: `${site.origin}/favicon.ico`,
+      copyright: 'dehero and community members',
+      updated: published,
+      generator: 'https://github.com/dehero/mwscr',
+    });
+
+    feed.addItem({
+      title,
+      date: published,
+      link,
+      description: addHtmlBreaksToNewLines(content),
+      image: getResourceDataUrl(url),
+    });
+
+    await writeResource(RSS_RESOURCE_URL, feed.rss2());
+
+    const followers = await this.grabFollowerCount();
+
+    return [{ service: this.id, id: publicationId, followers, published }];
   }
 
   async publishPostEntryAsStory(entry: PostEntry): Promise<VKPublication[]> {
@@ -515,6 +586,28 @@ export class VKManager extends VKService implements PostingServiceManager {
     profile.name = name;
     profile.avatar = avatar;
     profile.updated = new Date();
+  }
+
+  private async getLastPublication(): Promise<VKPublication | undefined> {
+    const { vk } = await this.connect();
+
+    const response = await vk.api.wall.get({
+      domain: VK_GROUP_NAME,
+      filter: 'owner',
+      offset: 0,
+      count: 1,
+    });
+
+    const item = response.items[0];
+    if (!item) {
+      return undefined;
+    }
+
+    return {
+      service: this.id,
+      published: new Date(item.date * 1000),
+      id: item.id,
+    };
   }
 
   async grabFollowers() {
