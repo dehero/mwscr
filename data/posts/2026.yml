@@ -548,10 +548,10 @@
     - service: tg
       id: 1206
       published: 2026-04-09-18-46-00
-      updated: 2026-04-14-13-01-20
+      updated: 2026-04-15-13-23-32
       followers: 897
-      likes: 50
-      views: 305
+      likes: 51
+      views: 352
     - service: mx
       id: '1775760540732'
       published: 2026-04-09-18-46-00
@@ -560,9 +560,9 @@
       id: DXCGhYhDKDH
       mediaId: '18571358389046109'
       published: 2026-04-12-13-12-20
-      updated: 2026-04-14-13-02-13
+      updated: 2026-04-15-13-23-38
       followers: 1622
-      likes: 70
+      likes: 73
     - service: vk
       id: 3262
       published: 2026-04-14-06-55-00
@@ -594,16 +594,16 @@
       id: DXH5vAAjSsY
       mediaId: '18058600517474559'
       published: 2026-04-14-19-16-02
-      updated: 2026-04-15-11-58-25
+      updated: 2026-04-15-13-23-38
       followers: 1621
-      likes: 50
+      likes: 53
     - service: tg
       id: 1208
       published: 2026-04-14-19-16-12
-      updated: 2026-04-15-11-58-20
+      updated: 2026-04-15-13-23-31
       followers: 897
       likes: 44
-      views: 164
+      views: 166
     - service: mx
       id: '1776194175298'
       published: 2026-04-14-19-16-15
