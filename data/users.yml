@@ -601,7 +601,7 @@ arya-stark:
   profiles:
     - service: vk
       id: '820702664'
-      updated: 2026-04-15-07-28-00
+      updated: 2026-04-15-09-17-08
       username: id820702664
       name: Арья Старк
       avatar: store:/avatars/vk-689aa89d.jpg
@@ -1165,7 +1165,7 @@ crazycyrodiliccat:
   profiles:
     - service: vk
       id: '90554843'
-      updated: 2026-04-15-05-24-39
+      updated: 2026-04-15-09-19-23
       username: crazycyrodiliccat
       name: Александр Невский
       avatar: store:/avatars/vk-0db1296b.jpg
@@ -1407,14 +1407,14 @@ dehero:
       avatar: store:/avatars/gh-c8afe641.jpg
     - service: vk
       id: '3652910'
-      updated: 2026-04-15-05-23-48
+      updated: 2026-04-15-09-17-48
       username: dehero
       name: Антон Курьянов
       avatar: store:/avatars/vk-5356f76e.jpg
     - type: channel
       service: vk
       id: '138249959'
-      updated: 2026-04-15-07-30-38
+      updated: 2026-04-15-09-19-50
       username: mwscr
       name: Morrowind Screenshots
       avatar: store:/avatars/vk-8e97fd4f.jpg
@@ -1765,7 +1765,7 @@ eidelelweise:
   profiles:
     - service: vk
       id: '451140204'
-      updated: 2026-04-15-07-28-01
+      updated: 2026-04-15-09-17-09
       username: eidelelweise
       name: Эйдель Элиас Вайс
       avatar: store:/avatars/vk-85124301.jpg
@@ -2009,7 +2009,7 @@ feanor2la:
   profiles:
     - service: vk
       id: '16294877'
-      updated: 2026-04-15-07-28-02
+      updated: 2026-04-15-09-17-09
       username: feanor2la
       name: Иван Урлапов
       avatar: store:/avatars/vk-14fd45f0.jpg
@@ -2686,7 +2686,7 @@ its-okey-dude:
   profiles:
     - service: vk
       id: '381549157'
-      updated: 2026-04-06-10-36-10
+      updated: 2026-04-15-09-18-12
       username: its_okey_dude
       name: Николай Гачимучев
       avatar: store:/avatars/vk-08ebd553.jpg
@@ -3131,7 +3131,7 @@ kurov-alexander:
   profiles:
     - service: vk
       id: '233557'
-      updated: 2026-04-06-10-37-49
+      updated: 2026-04-15-09-19-42
       username: kurov.alexander
       name: Александр Куров
       avatar: store:/avatars/vk-c64fc9de.jpg
@@ -3147,7 +3147,7 @@ kydinov91:
   profiles:
     - service: vk
       id: '36104583'
-      updated: 2026-04-15-07-30-20
+      updated: 2026-04-15-09-18-52
       username: kydinov91
       name: Илья Кудинов
       avatar: store:/avatars/vk-03d8a48a.jpg
@@ -3336,7 +3336,7 @@ lycanthropy:
   profiles:
     - service: vk
       id: '5386912'
-      updated: 2026-04-06-10-46-11
+      updated: 2026-04-15-09-18-45
       username: lycanthropy
       name: Филипп Суворов
       avatar: store:/avatars/vk-8642e0b8.jpg
@@ -3425,7 +3425,7 @@ maksim-solovev:
   profiles:
     - service: vk
       id: '658767771'
-      updated: 2026-04-15-07-28-01
+      updated: 2026-04-15-09-17-09
       username: id658767771
       name: Максим Соловьев
       avatar: store:/avatars/vk-77942374.jpg
@@ -3515,7 +3515,7 @@ max-tsei:
   profiles:
     - service: vk
       id: '353284524'
-      updated: 2026-04-15-07-29-30
+      updated: 2026-04-15-09-19-51
       username: max.tsei
       avatar: store:/avatars/vk-7f160215.jpg
       deleted: true
@@ -4402,7 +4402,7 @@ pinchinium:
   profiles:
     - service: vk
       id: '178716135'
-      updated: 2026-04-14-23-42-20
+      updated: 2026-04-15-09-18-18
       username: pinchinium
       name: Агзам Мубаракшин
       avatar: store:/avatars/vk-77942374.jpg
@@ -6057,7 +6057,7 @@ user-34:
   profiles:
     - service: vk
       id: '266402374'
-      updated: 2026-04-06-10-36-44
+      updated: 2026-04-15-09-18-44
       username: id266402374
       avatar: store:/avatars/vk-7f160215.jpg
       deleted: true
