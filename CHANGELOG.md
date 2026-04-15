@@ -2,6 +2,19 @@
 
 All notable changes to this project will be documented in this file.
 
+## [2.24.0](https://github.com/dehero/mwscr/compare/v2.23.8...v2.24.0) (2026-04-15)
+
+### Features
+
+- implement post publishing workaround for VK using RSS feed
+  ([2b9b9c8](https://github.com/dehero/mwscr/commit/2b9b9c8fcd95ec4b06b45f92e841f253978a682c))
+
+### Bug Fixes
+
+- ensure directory exists when working with Yandex.Disk resources
+  ([eb7ac63](https://github.com/dehero/mwscr/commit/eb7ac638cf246008a2aafc6e51551f80fb9d0dc7))
+- resolve ESLint issue ([b6c0455](https://github.com/dehero/mwscr/commit/b6c04559636861b31f2d15ea970652dde16d0681))
+
 ## [2.23.8](https://github.com/dehero/mwscr/compare/v2.23.7...v2.23.8) (2026-04-12)
 
 ### Documentation
