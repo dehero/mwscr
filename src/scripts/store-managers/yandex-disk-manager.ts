@@ -43,12 +43,31 @@ export class YandexDiskManager implements StoreManager {
     });
   }
 
+  private async ensureDirectoryExists(path: string) {
+    const store = this.connect();
+    const dirPath = posix.join(store.path, path);
+
+    if (await this.exists(dirPath)) {
+      return;
+    }
+
+    const parentDir = posix.dirname(path);
+    if (parentDir) {
+      await this.ensureDirectoryExists(parentDir);
+    }
+
+    try {
+      await yaDisk.resources.create(store.token, dirPath);
+    } catch {}
+  }
+
   async copy(from: string, to: string): Promise<void> {
     const { token, path } = this.connect();
     const fromPath = posix.join(path, from);
     const toPath = posix.join(path, to);
 
     try {
+      await this.ensureDirectoryExists(posix.dirname(to));
       await yaDisk.resources.copy(token, fromPath, toPath);
 
       this.dirCache.delete(posix.dirname(from));
@@ -120,6 +139,8 @@ export class YandexDiskManager implements StoreManager {
     const store = this.connect();
     const srcPath = posix.join(store.path, path);
 
+    await this.ensureDirectoryExists(posix.dirname(path));
+
     const { href, method } = await yaDisk.upload.link(store.token, srcPath, true);
     const response = await fetch(href, {
       method,
@@ -144,6 +165,7 @@ export class YandexDiskManager implements StoreManager {
     const toPath = posix.join(path, to);
 
     try {
+      await this.ensureDirectoryExists(posix.dirname(to));
       await yaDisk.resources.move(token, fromPath, toPath);
 
       this.dirCache.delete(posix.dirname(from));
