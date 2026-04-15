@@ -469,7 +469,7 @@ anonim:
   profiles:
     - service: tg
       id: '6469120788'
-      updated: 2026-04-14-13-05-26
+      updated: 2026-04-15-10-57-29
       accessHash: '-3557204299452739678'
       name: Аноним
       avatar: store:/avatars/tg-5258428988957332590.jpg
@@ -585,7 +585,7 @@ artyom-melikhoff:
   profiles:
     - service: vk
       id: '299405149'
-      updated: 2026-04-14-22-43-35
+      updated: 2026-04-15-10-59-49
       username: artyom_melikhoff
       name: Артём Мелихов
       avatar: store:/avatars/vk-5b2fd843.jpg
@@ -601,7 +601,7 @@ arya-stark:
   profiles:
     - service: vk
       id: '820702664'
-      updated: 2026-04-15-09-17-08
+      updated: 2026-04-15-10-57-32
       username: id820702664
       name: Арья Старк
       avatar: store:/avatars/vk-689aa89d.jpg
@@ -1407,7 +1407,7 @@ dehero:
       avatar: store:/avatars/gh-c8afe641.jpg
     - service: vk
       id: '3652910'
-      updated: 2026-04-15-09-17-48
+      updated: 2026-04-15-10-59-46
       username: dehero
       name: Антон Курьянов
       avatar: store:/avatars/vk-5356f76e.jpg
@@ -1765,7 +1765,7 @@ eidelelweise:
   profiles:
     - service: vk
       id: '451140204'
-      updated: 2026-04-15-09-17-09
+      updated: 2026-04-15-10-57-36
       username: eidelelweise
       name: Эйдель Элиас Вайс
       avatar: store:/avatars/vk-85124301.jpg
@@ -2009,7 +2009,7 @@ feanor2la:
   profiles:
     - service: vk
       id: '16294877'
-      updated: 2026-04-15-09-17-09
+      updated: 2026-04-15-10-57-33
       username: feanor2la
       name: Иван Урлапов
       avatar: store:/avatars/vk-14fd45f0.jpg
@@ -2563,7 +2563,7 @@ ilya-goryachev:
   profiles:
     - service: vk
       id: '448748807'
-      updated: 2026-04-06-10-38-06
+      updated: 2026-04-15-10-57-43
       username: id448748807
       name: Илья Горячев
       avatar: store:/avatars/vk-9b32f5bc.jpg
@@ -3147,7 +3147,7 @@ kydinov91:
   profiles:
     - service: vk
       id: '36104583'
-      updated: 2026-04-15-09-18-52
+      updated: 2026-04-15-11-00-08
       username: kydinov91
       name: Илья Кудинов
       avatar: store:/avatars/vk-03d8a48a.jpg
@@ -3425,7 +3425,7 @@ maksim-solovev:
   profiles:
     - service: vk
       id: '658767771'
-      updated: 2026-04-15-09-17-09
+      updated: 2026-04-15-10-57-33
       username: id658767771
       name: Максим Соловьев
       avatar: store:/avatars/vk-77942374.jpg
@@ -4378,7 +4378,7 @@ petrushkachord:
   profiles:
     - service: vk
       id: '370043102'
-      updated: 2026-04-06-10-41-00
+      updated: 2026-04-15-10-59-46
       username: petrushkachord
       name: Данила Силкин
       avatar: store:/avatars/vk-166e4c44.jpg
@@ -5221,7 +5221,7 @@ sol-sunich:
   profiles:
     - service: tg
       id: '1017031108'
-      updated: 2026-04-14-13-03-52
+      updated: 2026-04-15-10-57-29
       accessHash: '-8600220183224537901'
       username: sol_sunich
       name: ❂
@@ -5304,7 +5304,7 @@ soulilight:
   profiles:
     - service: vk
       id: '347703822'
-      updated: 2026-04-14-22-45-04
+      updated: 2026-04-15-10-59-23
       username: soulilight
       name: Dima Boev
       avatar: store:/avatars/vk-4a3f332e.jpg
@@ -6065,7 +6065,7 @@ user-35:
   profiles:
     - service: vk
       id: '281861772'
-      updated: 2026-04-06-10-39-42
+      updated: 2026-04-15-10-59-15
       username: id281861772
       avatar: store:/avatars/vk-7f160215.jpg
       deleted: true
