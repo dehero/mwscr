@@ -1427,7 +1427,7 @@ dehero:
     - type: channel
       service: tg
       id: '1264795946'
-      updated: 2026-04-14-22-44-35
+      updated: 2026-04-15-17-01-22
       accessHash: '-5789257269249675714'
       username: mwscr
       name: Morrowind Screenshots
@@ -2379,6 +2379,14 @@ hendogfordays:
       username: hendogfordays
       name: Heinrich Miller
       avatar: store:/avatars/ig-bb92c19e.jpg
+herbertspringmaus:
+  profiles:
+    - service: tg
+      id: '180449420'
+      updated: 2026-04-15-17-01-22
+      accessHash: '-757812475294737112'
+      username: herbertspringmaus
+      name: Yury
 hey-jony:
   profiles:
     - service: ig
