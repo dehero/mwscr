@@ -89,6 +89,8 @@ export class VKManager extends VKService implements PostingServiceManager {
     if (titlePrefix) {
       return titlePrefix;
     }
+
+    return;
   }
 
   async createCaption(entry: PostEntry) {
