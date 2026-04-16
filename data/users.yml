@@ -155,7 +155,7 @@ adonis-vernaliis:
   profiles:
     - service: tg
       id: '991525408'
-      updated: 2026-03-19-14-55-11
+      updated: 2026-04-16-16-25-25
       accessHash: '7239172452363329644'
       username: AdonisVernaliis
       botChatId: 991525408
@@ -1427,7 +1427,7 @@ dehero:
     - type: channel
       service: tg
       id: '1264795946'
-      updated: 2026-04-16-14-08-35
+      updated: 2026-04-16-16-25-21
       accessHash: '-5789257269249675714'
       username: mwscr
       name: Morrowind Screenshots
@@ -2383,7 +2383,7 @@ herbertspringmaus:
   profiles:
     - service: tg
       id: '180449420'
-      updated: 2026-04-16-14-08-34
+      updated: 2026-04-16-16-25-20
       accessHash: '-757812475294737112'
       username: herbertspringmaus
       name: Yury
@@ -2938,7 +2938,7 @@ kaltesblut:
   profiles:
     - service: tg
       id: '524542719'
-      updated: 2026-03-19-14-55-16
+      updated: 2026-04-16-16-25-25
       accessHash: '-287837872153954834'
       username: kaltesblut
       botChatId: 524542719
@@ -3334,7 +3334,7 @@ lwumbazavr:
   profiles:
     - service: tg
       id: '1950862189'
-      updated: 2026-03-19-14-55-24
+      updated: 2026-04-16-16-25-26
       accessHash: '-424787795975012793'
       username: Lwumbazavr
       botChatId: 1950862189
@@ -5663,7 +5663,7 @@ thedrongo7:
   profiles:
     - service: tg
       id: '149400692'
-      updated: 2026-03-19-14-55-29
+      updated: 2026-04-16-16-25-26
       accessHash: '5348913575804649535'
       username: Thedrongo7
       botChatId: 149400692
