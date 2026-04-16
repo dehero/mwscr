@@ -1023,7 +1023,7 @@ chacal:
   profiles:
     - service: tg
       id: '8095034962'
-      updated: 2026-04-09-12-54-22
+      updated: 2026-04-16-14-08-35
       accessHash: '-7146146524014681806'
       name: Chacal 🇩🇴
       avatar: store:/avatars/tg-5055567062113127364.jpg
@@ -1427,7 +1427,7 @@ dehero:
     - type: channel
       service: tg
       id: '1264795946'
-      updated: 2026-04-16-12-02-53
+      updated: 2026-04-16-14-08-35
       accessHash: '-5789257269249675714'
       username: mwscr
       name: Morrowind Screenshots
@@ -2383,7 +2383,7 @@ herbertspringmaus:
   profiles:
     - service: tg
       id: '180449420'
-      updated: 2026-04-16-12-02-53
+      updated: 2026-04-16-14-08-34
       accessHash: '-757812475294737112'
       username: herbertspringmaus
       name: Yury
@@ -3859,7 +3859,7 @@ myndowen:
   profiles:
     - service: tg
       id: '720784420'
-      updated: 2026-04-10-10-15-20
+      updated: 2026-04-16-14-08-36
       accessHash: '4385662928393121475'
       username: myndowen
       name: Daniel Beilin
@@ -4119,7 +4119,7 @@ oberhort:
   profiles:
     - service: tg
       id: '19254498'
-      updated: 2026-04-14-15-13-08
+      updated: 2026-04-16-14-08-35
       accessHash: '-564270059565994883'
       username: oberhort
       name: Игорь
