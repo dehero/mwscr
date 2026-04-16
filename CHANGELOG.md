@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file.
 
+## [2.24.1](https://github.com/dehero/mwscr/compare/v2.24.0...v2.24.1) (2026-04-16)
+
+### Bug Fixes
+
+- change path when checking Yandex.Disk folder existance
+  ([6876572](https://github.com/dehero/mwscr/commit/6876572e475d466796dcb4bfeaef8c265eaf89ab))
+
 ## [2.24.0](https://github.com/dehero/mwscr/compare/v2.23.8...v2.24.0) (2026-04-15)
 
 ### Features
