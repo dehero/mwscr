@@ -44,12 +44,12 @@ export class YandexDiskManager implements StoreManager {
   }
 
   private async ensureDirectoryExists(path: string) {
-    const store = this.connect();
-    const dirPath = posix.join(store.path, path);
-
-    if (await this.exists(dirPath)) {
+    if (await this.exists(path)) {
       return;
     }
+
+    const store = this.connect();
+    const dirPath = posix.join(store.path, path);
 
     const parentDir = posix.dirname(path);
     if (parentDir) {
@@ -58,6 +58,9 @@ export class YandexDiskManager implements StoreManager {
 
     try {
       await yaDisk.resources.create(store.token, dirPath);
+      if (parentDir) {
+        this.dirCache.delete(posix.dirname(parentDir));
+      }
     } catch {}
   }
 
