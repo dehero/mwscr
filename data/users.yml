@@ -1427,7 +1427,7 @@ dehero:
     - type: channel
       service: tg
       id: '1264795946'
-      updated: 2026-04-16-10-03-10
+      updated: 2026-04-16-12-02-53
       accessHash: '-5789257269249675714'
       username: mwscr
       name: Morrowind Screenshots
@@ -2383,7 +2383,7 @@ herbertspringmaus:
   profiles:
     - service: tg
       id: '180449420'
-      updated: 2026-04-16-10-03-10
+      updated: 2026-04-16-12-02-53
       accessHash: '-757812475294737112'
       username: herbertspringmaus
       name: Yury
