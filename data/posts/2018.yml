@@ -1223,6 +1223,10 @@
       id: '1776280525964'
       published: 2026-04-15-19-15-26
       followers: 22
+    - service: vk
+      id: 3281
+      published: 2026-04-16-08-03-35
+      followers: 1433
 2018-01-24-in-the-misty-emptiness:
   title: In the Misty Emptiness
   titleRu: В туманной пустоте
@@ -7649,7 +7653,7 @@
   title: Mournhold Cactus
   titleRu: Морнхолдский кактус
   placement: Indoors
-  location: 'Mournhold, Royal Palace: Guards'' Quarters'
+  location: "Mournhold, Royal Palace: Guards' Quarters"
   content: store:/shots/2018-06-02-mournhold-cactus.png
   type: shot
   aspect: 1/1
@@ -8004,7 +8008,7 @@
   placement: Indoors
   location:
     - Imperial Prison Ship
-    - 'Mournhold, Royal Palace: Barenziah''s Chambers'
+    - "Mournhold, Royal Palace: Barenziah's Chambers"
     - Tower of Tel Fyr, Hall of Fyr
     - Seyda Neen, Census and Excise Office
   content:
@@ -16204,7 +16208,8 @@
   locating:
     date: 2026-02-14-20-32-23
     user: pyriglena
-    text: Azura's Coast Region 13,12, the northern coast of the bigger island to the south of Tel Mora (north of Esutanamus)
+    text:
+      Azura's Coast Region 13,12, the northern coast of the bigger island to the south of Tel Mora (north of Esutanamus)
   engine: OpenMW
   mark: B2
   posts:
