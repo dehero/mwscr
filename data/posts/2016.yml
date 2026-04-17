@@ -313,10 +313,10 @@
     - service: vk
       id: 3192
       published: 2026-03-19-19-15-16
-      updated: 2026-04-10-10-13-41
+      updated: 2026-04-17-14-59-41
       followers: 1621
       likes: 84
-      views: 975
+      views: 979
       reposts: 3
       comments: !c |-
         G+YA4C0OzHOPR1QQb9q1R8PGP/+cbDyhP9w5A1nGAcdR3ingNILJfbo5S8gP/X0M/ZXhbHkKgcX0
@@ -523,7 +523,7 @@
     - service: vk
       id: 2904
       published: 2025-11-30-18-25-05
-      updated: 2026-04-10-10-16-10
+      updated: 2026-04-17-15-01-33
       followers: 1532
       likes: 75
       views: 592
@@ -793,7 +793,7 @@
       id: DIhG_1uAMEY
       mediaId: '17901096612163942'
       published: 2025-04-16-18-22-02
-      updated: 2026-04-10-13-16-32
+      updated: 2026-04-17-14-59-35
       followers: 1529
       likes: 89
       views: 307
@@ -1108,7 +1108,7 @@
     - service: vk
       id: 3066
       published: 2026-02-05-18-52-08
-      updated: 2026-04-10-10-14-04
+      updated: 2026-04-17-15-00-26
       followers: 1598
       likes: 58
       views: 508
@@ -1430,7 +1430,7 @@
     - service: vk
       id: 2749
       published: 2025-10-19-18-26-11
-      updated: 2026-04-10-10-17-22
+      updated: 2026-04-17-15-02-26
       followers: 1471
       likes: 97
       views: 2114
@@ -1509,9 +1509,9 @@
       id: DW8pFzBlaiL
       mediaId: '17873711847588710'
       published: 2026-04-10-10-18-58
-      updated: 2026-04-16-14-08-47
+      updated: 2026-04-17-14-59-11
       followers: 1617
-      likes: 57
+      likes: 58
 2016-12-16-gnisis-temple:
   title: Gnisis Temple
   titleRu: Храм Гнисиса
@@ -1550,7 +1550,7 @@
     - service: vk
       id: 2589
       published: 2025-08-18-18-24-02
-      updated: 2026-04-10-10-17-57
+      updated: 2026-04-17-15-03-06
       followers: 1365
       likes: 42
       views: 923

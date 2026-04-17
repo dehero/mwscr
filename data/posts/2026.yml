@@ -125,10 +125,10 @@
     - service: vk
       id: 2992
       published: 2026-01-05-18-21-03
-      updated: 2026-04-10-10-15-15
+      updated: 2026-04-17-15-01-00
       followers: 1559
       likes: 80
-      views: 1643
+      views: 1644
       reposts: 3
       comments: !c |-
         CyCAkZPLQnm4/6JPAACqYXJ5YS1zdGFya9kp0KHQsNC80YvQtSDRhdCw0LHQsNGA0L3Ri9C1INC8
@@ -167,7 +167,7 @@
     - service: vk
       id: 2995
       published: 2026-01-06-18-47-08
-      updated: 2026-04-10-10-15-11
+      updated: 2026-04-17-15-00-58
       followers: 1561
       likes: 71
       views: 2648
@@ -207,10 +207,10 @@
     - service: vk
       id: 2996
       published: 2026-01-07-18-17-54
-      updated: 2026-04-10-10-15-07
+      updated: 2026-04-17-15-00-57
       followers: 1561
       likes: 108
-      views: 2200
+      views: 2202
       reposts: 13
     - service: tg
       id: 1117
@@ -245,7 +245,7 @@
     - service: vk
       id: 2997
       published: 2026-01-08-18-57-23
-      updated: 2026-04-10-10-15-06
+      updated: 2026-04-17-15-00-57
       followers: 1562
       likes: 64
       views: 867
@@ -349,7 +349,7 @@
     - service: vk
       id: 3010
       published: 2026-01-12-19-21-23
-      updated: 2026-04-10-10-15-01
+      updated: 2026-04-17-15-00-55
       followers: 1570
       likes: 73
       views: 2006
@@ -395,10 +395,10 @@
     - service: vk
       id: 3013
       published: 2026-01-15-19-24-16
-      updated: 2026-04-10-10-14-57
+      updated: 2026-04-17-15-00-54
       followers: 1577
       likes: 87
-      views: 947
+      views: 948
       reposts: 1
     - service: tg
       id: 1124
@@ -476,10 +476,10 @@
     - service: vk
       id: 3147
       published: 2026-03-04-19-09-27
-      updated: 2026-04-09-06-04-01
+      updated: 2026-04-17-15-00-14
       followers: 1615
       likes: 38
-      views: 520
+      views: 522
       reposts: 3
       comments: !c |-
         G3EA+C0SbFsO28MO3SPlGeHHP+/fSJ+2RZ5w2hYk2BKM8Mu5UIdTSlbSW9lgB2pyIiElltn1QdBW
@@ -548,10 +548,10 @@
     - service: tg
       id: 1206
       published: 2026-04-09-18-46-00
-      updated: 2026-04-16-14-08-35
+      updated: 2026-04-17-14-59-07
       followers: 897
       likes: 52
-      views: 388
+      views: 412
     - service: mx
       id: '1775760540732'
       published: 2026-04-09-18-46-00
@@ -560,17 +560,17 @@
       id: DXCGhYhDKDH
       mediaId: '18571358389046109'
       published: 2026-04-12-13-12-20
-      updated: 2026-04-16-14-08-44
+      updated: 2026-04-17-14-59-07
       followers: 1622
-      likes: 73
+      likes: 74
     - service: vk
       id: 3262
       published: 2026-04-14-06-55-00
-      updated: 2026-04-15-11-58-35
+      updated: 2026-04-17-14-59-16
       followers: 1432
-      likes: 19
-      views: 379
-      reposts: 1
+      likes: 30
+      views: 571
+      reposts: 2
 2026-04-12-1-director-of-corprusarium: 2017-09-20-director-of-corprusarium
 2026-04-14-1-dragon-in-slings:
   title: Dragon in Slings
@@ -617,10 +617,13 @@
     - service: vk
       id: 3271
       published: 2026-04-14-20-03-00
-      updated: 2026-04-15-11-58-20
+      updated: 2026-04-17-14-59-08
       followers: 1432
-      likes: 34
-      views: 422
-      reposts: 1
+      likes: 56
+      views: 956
+      reposts: 2
+      comments: !c |-
+        CyaAkZPLQnnZcQqigACqc2VyZ2V5LWItMtk10K3QsdC10L3Qs9Cw0YDQtC4g0KTQvtGC0LrQsNGC
+        0Ywg0Lgg0YTQvtGC0LrQsNGC0YwgKSkD
 2026-04-15-1-goblin-bruiser: 2018-01-24-goblin-bruiser
 2026-04-16-1-ahnassi: 2024-05-04-ahnassi

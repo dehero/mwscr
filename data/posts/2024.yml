@@ -1549,10 +1549,10 @@
     - service: vk
       id: 3021
       published: 2026-01-22-18-32-30
-      updated: 2026-04-10-10-14-38
+      updated: 2026-04-17-15-00-43
       followers: 1582
       likes: 106
-      views: 1483
+      views: 1484
       reposts: 6
       comments: !c |-
         G68AwByJsa3grXggLtYyQ6mhhz/1E2ZqBCIWnJ1Yim3qWFarLqJ5D0MdQtW5xfaQgiEZnCEfJ/Nj
@@ -1785,7 +1785,7 @@
     - service: vk
       id: 3059
       published: 2026-02-02-18-43-01
-      updated: 2026-04-10-10-14-17
+      updated: 2026-04-17-15-00-31
       followers: 1595
       likes: 57
       views: 766
@@ -1981,16 +1981,16 @@
       id: DXM74H6lQe0
       mediaId: '18087494990020477'
       published: 2026-04-16-18-10-58
-      updated: 2026-04-17-13-54-18
+      updated: 2026-04-17-14-59-03
       followers: 1620
-      likes: 53
+      likes: 55
     - service: tg
       id: 1210
       published: 2026-04-16-18-11-08
-      updated: 2026-04-17-13-54-16
+      updated: 2026-04-17-14-59-03
       followers: 898
-      likes: 39
-      views: 187
+      likes: 40
+      views: 188
       comments: !c |-
         G04A4B2pUR+xfIRKT4DI0gybXLbckf5eOGqRvHVrvdxXyyJNMYLAISd6QIgiS5oHolVDl6jW7Knz
         fuvfY07wpZOBsUXK8G7cAhOMtngrKBqhICs=
@@ -1998,6 +1998,10 @@
       id: '1776363072958'
       published: 2026-04-16-18-11-13
       followers: 22
+    - service: vk
+      id: 3282
+      published: 2026-04-17-15-03-42
+      followers: 1433
 2024-05-05-dinner-for-four:
   title: Dinner for Four
   titleRu: Обед на четверых
@@ -2129,7 +2133,7 @@
     - service: vk
       id: 2694
       published: 2025-09-28-18-24-03
-      updated: 2026-04-10-10-17-38
+      updated: 2026-04-17-15-02-47
       followers: 1438
       likes: 58
       views: 1009
@@ -2381,7 +2385,7 @@
     - service: vk
       id: 2701
       published: 2025-09-30-18-25-34
-      updated: 2026-04-10-10-17-34
+      updated: 2026-04-17-15-02-43
       followers: 1442
       likes: 45
       views: 758
