@@ -326,10 +326,10 @@
     - service: tg
       id: 1187
       published: 2026-03-19-19-15-22
-      updated: 2026-04-10-10-13-30
+      updated: 2026-04-17-11-00-33
       followers: 895
-      likes: 62
-      views: 517
+      likes: 63
+      views: 535
       comments: !c CwuAkZPLQnnQkPcGAACma2V2eS1jpPCfpoAD
     - service: mx
       id: '1773947726106'
@@ -339,7 +339,7 @@
       id: DWFHzmljP-z
       mediaId: '18052075139499267'
       published: 2026-03-19-20-49-56
-      updated: 2026-04-10-10-13-44
+      updated: 2026-04-17-11-00-58
       followers: 1617
       likes: 64
 2016-11-22-lord-gothren:
@@ -514,7 +514,7 @@
       id: DRsMlP7DFzI
       mediaId: '17926522770080390'
       published: 2025-11-30-18-25-00
-      updated: 2026-04-10-10-16-35
+      updated: 2026-04-17-11-03-18
       followers: 1599
       likes: 73
       comments: !c |-
@@ -541,10 +541,10 @@
     - service: tg
       id: 1075
       published: 2025-11-30-18-25-09
-      updated: 2026-04-10-10-14-59
+      updated: 2026-04-17-11-01-37
       followers: 867
       likes: 73
-      views: 722
+      views: 723
       comments: !c Cw6AkZPLQnmv85QnAACsbm9nb2Rjb21wbGV4pHBlYWsD
 2016-11-27-lonely-fargoth:
   title: Lonely Fargoth
@@ -682,7 +682,7 @@
       id: DWKDgTuFsJI
       mediaId: '18119385343620277'
       published: 2026-03-21-18-48-32
-      updated: 2026-04-10-10-13-42
+      updated: 2026-04-17-11-00-55
       followers: 1617
       likes: 122
       comments: !c |-
@@ -1102,7 +1102,7 @@
       id: DUYw7ehDRa7
       mediaId: '17968087824001850'
       published: 2026-02-05-18-52-02
-      updated: 2026-04-10-10-15-02
+      updated: 2026-04-17-11-02-11
       followers: 1606
       likes: 52
     - service: vk
@@ -1116,10 +1116,10 @@
     - service: tg
       id: 1142
       published: 2026-02-05-18-52-11
-      updated: 2026-04-10-10-13-52
+      updated: 2026-04-17-11-00-54
       followers: 889
       likes: 71
-      views: 916
+      views: 921
       comments: !c CwuAkZPLQnnC9F6ggACma2V2eS1jpPCfpoAD
 2016-12-07-nchuleft-ruin:
   title: Nchuleft Ruin
@@ -1207,7 +1207,7 @@
       id: DUjHJ6gmOGo
       mediaId: '18125981434541897'
       published: 2026-02-09-19-18-41
-      updated: 2026-04-10-10-14-56
+      updated: 2026-04-17-11-02-06
       followers: 1608
       likes: 70
     - service: vk
@@ -1448,7 +1448,7 @@
     - service: tg
       id: 1021
       published: 2025-10-19-18-26-16
-      updated: 2026-04-10-10-15-45
+      updated: 2026-04-17-11-02-29
       followers: 837
       likes: 75
       views: 627
@@ -1559,7 +1559,7 @@
     - service: tg
       id: 955
       published: 2025-08-18-18-24-05
-      updated: 2026-04-10-10-16-37
+      updated: 2026-04-17-11-03-18
       followers: 781
       likes: 68
       views: 714
@@ -1781,7 +1781,7 @@
       id: DRh5I1sl25r
       mediaId: '18098777482810365'
       published: 2025-11-26-18-22-43
-      updated: 2026-04-10-10-16-48
+      updated: 2026-04-17-11-03-28
       followers: 1597
       likes: 86
     - service: vk
@@ -1892,7 +1892,7 @@
     - service: tg
       id: 914
       published: 2025-07-11-18-23-48
-      updated: 2026-04-10-10-17-08
+      updated: 2026-04-17-11-03-37
       followers: 760
       likes: 70
       views: 624
@@ -2244,7 +2244,7 @@
       id: DT8ZwJMAPmP
       mediaId: '18092130442822767'
       published: 2026-01-25-18-30-48
-      updated: 2026-04-10-10-15-28
+      updated: 2026-04-17-11-02-26
       followers: 1606
       likes: 92
     - service: vk
