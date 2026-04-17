@@ -487,7 +487,7 @@ ansis:
   profiles:
     - service: tg
       id: '517050552'
-      updated: 2026-04-17-16-08-27
+      updated: 2026-04-17-19-05-44
       accessHash: '5231096655311395455'
       username: ansis
       name: ansis
@@ -1427,7 +1427,7 @@ dehero:
     - type: channel
       service: tg
       id: '1264795946'
-      updated: 2026-04-17-11-03-53
+      updated: 2026-04-17-19-05-48
       accessHash: '-5789257269249675714'
       username: mwscr
       name: Morrowind Screenshots
@@ -2214,7 +2214,7 @@ gleb-zheltuhin:
   profiles:
     - service: vk
       id: '29014473'
-      updated: 2026-04-17-15-02-29
+      updated: 2026-04-17-19-05-46
       username: gleb_zheltuhin
       name: Глеб Желтухин
       avatar: store:/avatars/vk-971eefc1.jpg
@@ -2383,7 +2383,7 @@ herbertspringmaus:
   profiles:
     - service: tg
       id: '180449420'
-      updated: 2026-04-16-18-10-14
+      updated: 2026-04-17-19-05-47
       accessHash: '-757812475294737112'
       username: herbertspringmaus
       name: Yury
@@ -3003,7 +3003,7 @@ kevy-c:
   profiles:
     - service: tg
       id: '5067683234'
-      updated: 2026-04-17-13-54-19
+      updated: 2026-04-17-19-05-48
       accessHash: '-903667913374325979'
       username: Kevy_c
       name: Dash
@@ -4290,7 +4290,7 @@ painkiller1986:
   profiles:
     - service: tg
       id: '6565289507'
-      updated: 2026-04-17-11-01-13
+      updated: 2026-04-17-19-05-48
       accessHash: '6198356028119192921'
       username: Painkiller1986
       name: Сумерки
@@ -5011,7 +5011,7 @@ sergey-b-2:
   profiles:
     - service: vk
       id: '1077446394'
-      updated: 2026-04-17-15-02-37
+      updated: 2026-04-17-19-05-46
       username: id1077446394
       name: Сергей Б
       avatar: store:/avatars/vk-4deb0770.jpg
