@@ -487,7 +487,7 @@ ansis:
   profiles:
     - service: tg
       id: '517050552'
-      updated: 2026-04-17-14-59-03
+      updated: 2026-04-17-16-08-27
       accessHash: '5231096655311395455'
       username: ansis
       name: ansis
@@ -1407,7 +1407,7 @@ dehero:
       avatar: store:/avatars/gh-c8afe641.jpg
     - service: vk
       id: '3652910'
-      updated: 2026-04-17-15-03-25
+      updated: 2026-04-17-16-09-41
       username: dehero
       name: Антон Курьянов
       avatar: store:/avatars/vk-5356f76e.jpg
@@ -1977,7 +1977,7 @@ evil-kit:
   profiles:
     - service: vk
       id: '153155138'
-      updated: 2026-04-15-12-00-15
+      updated: 2026-04-17-16-09-41
       username: evil_kit
       name: Никита Метелкин
       avatar: store:/avatars/vk-adb64972.jpg
