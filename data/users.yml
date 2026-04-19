@@ -487,7 +487,7 @@ ansis:
   profiles:
     - service: tg
       id: '517050552'
-      updated: 2026-04-18-17-39-30
+      updated: 2026-04-19-14-43-20
       accessHash: '5231096655311395455'
       username: ansis
       name: ansis
@@ -1324,7 +1324,7 @@ darkness-rifho:
       deleted: true
     - service: tg
       id: '5704974271'
-      updated: 2026-04-17-11-03-22
+      updated: 2026-04-19-14-43-46
       accessHash: '3506423524566292179'
       username: C4H6O4
       name: Уна
@@ -1427,7 +1427,7 @@ dehero:
     - type: channel
       service: tg
       id: '1264795946'
-      updated: 2026-04-18-19-43-35
+      updated: 2026-04-19-14-43-33
       accessHash: '-5789257269249675714'
       username: mwscr
       name: Morrowind Screenshots
@@ -1773,7 +1773,7 @@ eightntexerra:
   profiles:
     - service: tg
       id: '599761644'
-      updated: 2026-04-12-13-09-42
+      updated: 2026-04-19-14-43-49
       accessHash: '-2468884879881656361'
       username: eightntexerra
       name: 8ntexerra
@@ -3003,7 +3003,7 @@ kevy-c:
   profiles:
     - service: tg
       id: '5067683234'
-      updated: 2026-04-17-19-05-48
+      updated: 2026-04-19-14-43-54
       accessHash: '-903667913374325979'
       username: Kevy_c
       name: Dash
@@ -4119,7 +4119,7 @@ oberhort:
   profiles:
     - service: tg
       id: '19254498'
-      updated: 2026-04-16-14-08-35
+      updated: 2026-04-19-14-43-53
       accessHash: '-564270059565994883'
       username: oberhort
       name: Игорь
@@ -4290,7 +4290,7 @@ painkiller1986:
   profiles:
     - service: tg
       id: '6565289507'
-      updated: 2026-04-17-19-05-48
+      updated: 2026-04-19-14-43-52
       accessHash: '6198356028119192921'
       username: Painkiller1986
       name: Сумерки
@@ -4593,7 +4593,7 @@ pyriglena:
   profiles:
     - service: tg
       id: '554672984'
-      updated: 2026-04-17-11-00-52
+      updated: 2026-04-19-14-43-33
       accessHash: '-3565593010225205906'
       username: pyriglena
       name: yarrow
@@ -4857,7 +4857,7 @@ sagittarian-king:
   profiles:
     - service: tg
       id: '352504312'
-      updated: 2026-04-12-13-08-56
+      updated: 2026-04-19-14-43-12
       accessHash: '3929555629803555147'
       username: SagittarianKing
       name: 🦜 Eald ☠️
@@ -5287,11 +5287,11 @@ sonnykotya:
   profiles:
     - service: tg
       id: '7937963458'
-      updated: 2026-04-12-13-09-27
+      updated: 2026-04-19-14-43-39
       accessHash: '6311850478953577755'
       username: sonnykotya
       name: дракоша
-      avatar: store:/avatars/tg-5393240238487966612.jpg
+      avatar: store:/avatars/tg-5400305300776096631.jpg
 sothaseel:
   profiles:
     - service: ig
