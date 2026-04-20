@@ -1650,7 +1650,7 @@ dremarretres:
   profiles:
     - service: vk
       id: '801308664'
-      updated: 2026-04-20-20-52-44
+      updated: 2026-04-20-21-51-36
       username: dremarretres
       name: Джон Шепард
       avatar: store:/avatars/vk-ac4f0700.jpg
@@ -5019,7 +5019,7 @@ sergey-b-2:
   profiles:
     - service: vk
       id: '1077446394'
-      updated: 2026-04-20-20-52-45
+      updated: 2026-04-20-21-51-36
       username: id1077446394
       name: Сергей Б
       avatar: store:/avatars/vk-4deb0770.jpg
@@ -6454,7 +6454,7 @@ wenya-fox:
   profiles:
     - service: tg
       id: '2134652228'
-      updated: 2026-03-23-21-43-01
+      updated: 2026-04-20-21-51-42
       accessHash: '-7611750683729901996'
       username: WFX_q
       botChatId: 2134652228
