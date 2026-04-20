@@ -12710,17 +12710,20 @@
       id: DXUv54BlnY8
       mediaId: '18078289253629832'
       published: 2026-04-19-19-00-18
-      updated: 2026-04-20-00-04-43
+      updated: 2026-04-20-02-55-09
       followers: 1622
-      likes: 39
-      comments: !c ixeAkZPLQnnaciT+gACrZGVsYW5vc3BpZXO4U3RpbGwgZGlkbnQgZmluZCBpdCDwn5iCAw==
+      likes: 42
+      comments: !c |-
+        G5sAQGTqZoQTJNBE4l/tYft8LEsXSOABlVBA6eRED8YHORwsDDBqiy0IJM/hcys5JJft3Q63mL0+
+        /+fUiYkJbCdwNRJcxUNiDdthjihaSH/rUvYANEJ0bZD4gQFC8kjeZ80eGyla3Qgi23iFzsCKE2n6
+        FfSrZppOEtCOTWsh
     - service: tg
       id: 1213
       published: 2026-04-19-19-00-24
-      updated: 2026-04-20-00-04-34
+      updated: 2026-04-20-02-55-00
       followers: 897
-      likes: 28
-      views: 105
+      likes: 31
+      views: 113
     - service: mx
       id: '1776625229534'
       published: 2026-04-19-19-00-29
@@ -15673,16 +15676,16 @@
       id: DXSKyz6l5XD
       mediaId: '18107369072504702'
       published: 2026-04-18-18-57-32
-      updated: 2026-04-20-00-04-45
+      updated: 2026-04-20-02-55-11
       followers: 1621
-      likes: 40
+      likes: 43
     - service: tg
       id: 1212
       published: 2026-04-18-18-57-41
-      updated: 2026-04-20-00-04-35
+      updated: 2026-04-20-02-55-01
       followers: 898
       likes: 49
-      views: 181
+      views: 183
     - service: mx
       id: '1776538666230'
       published: 2026-04-18-18-57-46
