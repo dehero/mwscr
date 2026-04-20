@@ -4419,6 +4419,23 @@
       followers: 685
       likes: 59
       views: 628
+    - service: ig
+      id: DXXN-sMEWx0
+      mediaId: '18581497765010664'
+      published: 2026-04-20-18-01-37
+      followers: 1622
+    - service: vk
+      id: 3297
+      published: 2026-04-20-18-01-57
+      followers: 1435
+    - service: tg
+      id: 1214
+      published: 2026-04-20-18-02-06
+      followers: 899
+    - service: mx
+      id: '1776708130968'
+      published: 2026-04-20-18-02-11
+      followers: 22
 2017-03-28-entrance-arch-of-propylon-chamber:
   title: Entrance Arch of Propylon Chamber
   titleRu: Вход Арочного зала
@@ -12711,9 +12728,9 @@
       id: DXUv54BlnY8
       mediaId: '18078289253629832'
       published: 2026-04-19-19-00-18
-      updated: 2026-04-20-16-13-49
+      updated: 2026-04-20-18-00-54
       followers: 1622
-      likes: 62
+      likes: 63
       comments: !c |-
         G5sAQGTqZoQTJNBE4l/tYft8LEsXSOABlVBA6eRED8YHORwsDDBqiy0IJM/hcys5JJft3Q63mL0+
         /+fUiYkJbCdwNRJcxUNiDdthjihaSH/rUvYANEJ0bZD4gQFC8kjeZ80eGyla3Qgi23iFzsCKE2n6
@@ -12721,10 +12738,10 @@
     - service: tg
       id: 1213
       published: 2026-04-19-19-00-24
-      updated: 2026-04-20-16-13-41
+      updated: 2026-04-20-18-00-47
       followers: 897
       likes: 48
-      views: 154
+      views: 157
     - service: mx
       id: '1776625229534'
       published: 2026-04-19-19-00-29
@@ -15681,16 +15698,16 @@
       id: DXSKyz6l5XD
       mediaId: '18107369072504702'
       published: 2026-04-18-18-57-32
-      updated: 2026-04-20-16-13-52
+      updated: 2026-04-20-18-00-56
       followers: 1621
       likes: 44
     - service: tg
       id: 1212
       published: 2026-04-18-18-57-41
-      updated: 2026-04-20-16-13-43
+      updated: 2026-04-20-18-00-49
       followers: 898
       likes: 54
-      views: 201
+      views: 202
     - service: mx
       id: '1776538666230'
       published: 2026-04-18-18-57-46
@@ -15698,10 +15715,10 @@
     - service: vk
       id: 3292
       published: 2026-04-19-18-20-00
-      updated: 2026-04-20-16-13-51
+      updated: 2026-04-20-18-00-58
       followers: 1434
-      likes: 44
-      views: 381
+      likes: 45
+      views: 387
       reposts: 4
       comments: !c |-
         G7oBACwO7GbOD6omF7CExb9K9Hxc7Pi48a/BHWgEaUBFYaAFnDSRJfsm+F9uZwnRkAwVcf+GAG/w
