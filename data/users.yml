@@ -469,7 +469,7 @@ anonim:
   profiles:
     - service: tg
       id: '6469120788'
-      updated: 2026-04-17-11-03-02
+      updated: 2026-04-20-10-51-55
       accessHash: '-3557204299452739678'
       name: Аноним
       avatar: store:/avatars/tg-5258428988957332590.jpg
@@ -601,7 +601,7 @@ arya-stark:
   profiles:
     - service: vk
       id: '820702664'
-      updated: 2026-04-20-06-34-01
+      updated: 2026-04-20-10-51-59
       username: id820702664
       name: Арья Старк
       avatar: store:/avatars/vk-689aa89d.jpg
@@ -1650,7 +1650,7 @@ dremarretres:
   profiles:
     - service: vk
       id: '801308664'
-      updated: 2026-04-20-08-13-05
+      updated: 2026-04-20-10-51-41
       username: dremarretres
       name: Джон Шепард
       avatar: store:/avatars/vk-ac4f0700.jpg
@@ -1993,7 +1993,7 @@ fadeev-alexxx:
   profiles:
     - service: vk
       id: '305246543'
-      updated: 2026-04-17-14-59-25
+      updated: 2026-04-20-10-52-00
       username: fadeev_alexxx
       name: Алексей Фадеев
       avatar: store:/avatars/vk-6a4ed023.jpg
@@ -2060,6 +2060,14 @@ fliegender-deutschlaender:
       username: fliegender_deutschlaender
       name: Julian
       avatar: store:/avatars/ig-edc5f72f.jpg
+followingtheroe1952:
+  profiles:
+    - service: yt
+      id: UCKmAi7G7ws5T2RJFD5G7EUw
+      updated: 2026-04-20-10-51-45
+      username: '@followingtheroe1952'
+      name: Following the Roe
+      avatar: store:/avatars/yt-64c75028.jpg
 fragabaglio:
   profiles:
     - service: ig
@@ -3003,7 +3011,7 @@ kevy-c:
   profiles:
     - service: tg
       id: '5067683234'
-      updated: 2026-04-19-14-43-54
+      updated: 2026-04-20-10-51-59
       accessHash: '-903667913374325979'
       username: Kevy_c
       name: Dash
@@ -4218,7 +4226,7 @@ olmer-izdeyla:
   profiles:
     - service: tg
       id: '835160756'
-      updated: 2026-04-14-22-43-07
+      updated: 2026-04-20-10-51-42
       accessHash: '5779481472375422362'
       username: Olmer_Izdeyla
       name: Olmer Izdeyla
@@ -4290,7 +4298,7 @@ painkiller1986:
   profiles:
     - service: tg
       id: '6565289507'
-      updated: 2026-04-19-14-43-52
+      updated: 2026-04-20-10-51-59
       accessHash: '6198356028119192921'
       username: Painkiller1986
       name: Сумерки
@@ -4593,7 +4601,7 @@ pyriglena:
   profiles:
     - service: tg
       id: '554672984'
-      updated: 2026-04-19-14-43-33
+      updated: 2026-04-20-10-51-52
       accessHash: '-3565593010225205906'
       username: pyriglena
       name: yarrow
@@ -5011,7 +5019,7 @@ sergey-b-2:
   profiles:
     - service: vk
       id: '1077446394'
-      updated: 2026-04-20-08-13-06
+      updated: 2026-04-20-10-51-59
       username: id1077446394
       name: Сергей Б
       avatar: store:/avatars/vk-4deb0770.jpg
