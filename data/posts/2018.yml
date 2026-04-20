@@ -1226,11 +1226,21 @@
     - service: vk
       id: 3281
       published: 2026-04-16-08-03-35
-      updated: 2026-04-18-07-13-46
+      updated: 2026-04-20-06-33-31
       followers: 1433
-      likes: 32
-      views: 587
+      likes: 40
+      views: 858
       reposts: 5
+      comments: !c |-
+        GwUEAKwObNNYFztiu1Df3ELIfwg6zcQ/39+zbzwI8PT43WvWeMAJJ818kUiTtcm+iluBUOakfu3z
+        6ku3FUJHM6hsstRiZYUDqXbnePrJH9lUYgSi8WiLTk40kSS02lqQFWWS+p8uCpOZJxfqw59Lp81D
+        HfJ/Nt1AyiLKhgd2dgQVFAl0Qgd8OnWJh15ezEMKmAEMt//z99vhf3ho+j47V5EtaW4Pd6JN9Drz
+        8k06MEwo4z7+3vkxASmqlRuxuJjppwAFdWjn+67kYwWjCog6l503TQdPssUHcoaMstV++LlWJSup
+        OEouAvkmxz5B4Ig20OvEweA6CyrpQArhP6JSsTG99bonFDwJ69ROjmgAbwLAY8tQQfXy/rfjbUWX
+        7yun8jSW4eOY6tJnCXk7Kygogs+yVGl1CJxVwFCU0gaUcOSMChd8cqlj4ujTgBzgPymWcy/HIIUS
+        BS0fPM/d52IgHny9+B1Rue3qvnni/FnMbSqqICMLtJ0IRhMQ58s4u7r5nSPJDpHD6ZojtERIAmxZ
+        5kgl7EPd5C792y2cr84tVS8aBlOdeQxauPhwJYiqAcsFqddQ5Jg1FoMa4lUQC8sPN7OY2bOwYk1n
+        klWAWO4NkCiwOnVJqgQZ0BS4K1klIxU7cYYyRi7noEuWkRBBm1l8vfIc1P4f5xs=
 2018-01-24-in-the-misty-emptiness:
   title: In the Misty Emptiness
   titleRu: В туманной пустоте
@@ -3605,10 +3615,10 @@
     - service: vk
       id: 3178
       published: 2026-03-14-18-51-39
-      updated: 2026-04-12-13-09-19
+      updated: 2026-04-20-06-33-46
       followers: 1618
       likes: 76
-      views: 824
+      views: 830
       reposts: 3
     - service: tg
       id: 1182
@@ -4564,10 +4574,10 @@
     - service: vk
       id: 3124
       published: 2026-02-28-18-45-52
-      updated: 2026-04-12-13-09-33
+      updated: 2026-04-20-06-33-51
       followers: 1613
       likes: 69
-      views: 1457
+      views: 1458
       reposts: 1
       comments: !c |-
         G6cA+J0JdswK0JlFHlVE1C3CAynlJAyyQJtA0ycp2cN0bqUUo8Vg/5hXFDluY/u3lypBIL6yzE4P
@@ -5951,10 +5961,10 @@
     - service: vk
       id: 3052
       published: 2026-01-30-18-41-38
-      updated: 2026-04-12-13-09-55
+      updated: 2026-04-20-06-34-02
       followers: 1594
       likes: 61
-      views: 808
+      views: 809
       comments: !c |-
         GxYBOKwOeHNXKDgiu52Hh8IfFXEj/fEKPcQmsUiTPai6CaEIJQll/znMjXlQbqtlIVmb7f7nQFBY
         rsZmumQolFxwh63lZdPJARcgtpYGHTgMOOcSu04O8CAl2rIoLIIMSqi6n/cfc9xp3y3ORKL/NwSZ
@@ -6426,7 +6436,15 @@
     - service: vk
       id: 3290
       published: 2016-05-18-16-35-00
+      updated: 2026-04-20-06-34-04
       followers: 1434
+      likes: 44
+      views: 610
+      reposts: 3
+      comments: !c |-
+        G3kA+J0Htq0l+zgYWrAjf2YUxY30xzOJOOGgSSzAQJM9LKHcdJbUDBXd+di92PLQA4wwwFn2Vbtr
+        t5cBrVvKzqCVKjhFAONxPupf3yvi2lzpGPLaP5DHJtouTlF1sCg1LMOKXTATwMYGp4bgUxmH2uNU
+        jfnz7Q==
     - service: ig
       id: DXPnUdJjQ-k
       mediaId: '18076026134645461'
@@ -13106,10 +13124,10 @@
     - service: vk
       id: 3100
       published: 2026-02-20-18-59-11
-      updated: 2026-04-12-13-09-46
+      updated: 2026-04-20-06-33-56
       followers: 1605
       likes: 78
-      views: 1523
+      views: 1524
       reposts: 4
       comments: !c |-
         G3YA+B0Hdiz4wGJz5ecCEdXuCQ/AI2oSjaRJ9uyayzhyepF46rYYXtpLf1g8Py8H4U0Rk4IhW6Ml

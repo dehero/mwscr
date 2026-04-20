@@ -5061,10 +5061,10 @@
     - service: vk
       id: 3232
       published: 2026-03-28-18-54-20
-      updated: 2026-04-12-13-09-10
+      updated: 2026-04-20-06-33-41
       followers: 1622
       likes: 64
-      views: 2424
+      views: 2433
       comments: !c |-
         G+cA4C0SbBsG5WMGu44PMeP/eU42ntA/vg09skA7iUWa3AfltlK6oCGPuRdVdgtVnRycLab/ZcEX
         Wx22lpet5Kbd4MAlyjQNch7GgCbabQzfFIdmrebP91/Niffxe4lbI/f/41q9L0d5buxl8ii5UO83
@@ -11183,7 +11183,7 @@
     - service: vk
       id: 3068
       published: 2026-02-06-18-54-26
-      updated: 2026-04-12-13-09-54
+      updated: 2026-04-20-06-34-00
       followers: 1598
       likes: 50
       views: 515
@@ -12319,10 +12319,10 @@
     - service: vk
       id: 3218
       published: 2026-03-27-19-07-19
-      updated: 2026-04-12-13-09-14
+      updated: 2026-04-20-06-33-43
       followers: 1622
       likes: 63
-      views: 725
+      views: 737
       reposts: 2
       comments: !c |-
         GwUEACwOzPPmxcC4ObpvQeL/eS6xcIR+hlKH1rwCrnCpIo2o3ndWuGlsWiu0eyGnHNuHkTYH3GFf
@@ -12710,9 +12710,9 @@
       id: DXUv54BlnY8
       mediaId: '18078289253629832'
       published: 2026-04-19-19-00-18
-      updated: 2026-04-20-05-45-32
+      updated: 2026-04-20-06-33-23
       followers: 1622
-      likes: 51
+      likes: 53
       comments: !c |-
         G5sAQGTqZoQTJNBE4l/tYft8LEsXSOABlVBA6eRED8YHORwsDDBqiy0IJM/hcys5JJft3Q63mL0+
         /+fUiYkJbCdwNRJcxUNiDdthjihaSH/rUvYANEJ0bZD4gQFC8kjeZ80eGyla3Qgi23iFzsCKE2n6
@@ -12720,14 +12720,18 @@
     - service: tg
       id: 1213
       published: 2026-04-19-19-00-24
-      updated: 2026-04-20-05-45-25
+      updated: 2026-04-20-06-33-14
       followers: 897
-      likes: 38
-      views: 126
+      likes: 42
+      views: 133
     - service: mx
       id: '1776625229534'
       published: 2026-04-19-19-00-29
       followers: 22
+    - service: vk
+      id: 3293
+      published: 2026-04-20-06-34-12
+      followers: 1434
 2017-09-10-mzahnch:
   title: Mzahnch
   titleRu: Мзанч
@@ -13261,10 +13265,10 @@
     - service: vk
       id: 3263
       published: 2026-04-14-08-33-00
-      updated: 2026-04-17-14-59-14
+      updated: 2026-04-20-06-33-36
       followers: 1432
-      likes: 64
-      views: 1222
+      likes: 66
+      views: 1403
       reposts: 2
       comments: !c |-
         G1cJACyPdzinsTAHC5cu+iO3J/75/8O3z1kRuCvU31oBClmpFgppaUCZRiNW9xEbHaDRvuUPvEZY
@@ -15676,16 +15680,16 @@
       id: DXSKyz6l5XD
       mediaId: '18107369072504702'
       published: 2026-04-18-18-57-32
-      updated: 2026-04-20-05-45-34
+      updated: 2026-04-20-06-33-26
       followers: 1621
       likes: 43
     - service: tg
       id: 1212
       published: 2026-04-18-18-57-41
-      updated: 2026-04-20-05-45-26
+      updated: 2026-04-20-06-33-16
       followers: 898
-      likes: 50
-      views: 189
+      likes: 51
+      views: 191
     - service: mx
       id: '1776538666230'
       published: 2026-04-18-18-57-46
@@ -15693,7 +15697,17 @@
     - service: vk
       id: 3292
       published: 2026-04-19-18-20-00
+      updated: 2026-04-20-06-33-25
       followers: 1434
+      likes: 36
+      views: 297
+      reposts: 4
+      comments: !c |-
+        G7oBACwO7GbOD6omF7CExb9K9Hxc7Pi48a/BHWgEaUBFYaAFnDSRJfsm+F9uZwnRkAwVcf+GAG/w
+        vbfc1Sy8u8/Y3ChRaovJdEvZWTYI24EPkLrdXzCddT5IbGIRRJxEGoSl27xEvPUQPIqtCLG75+vX
+        7vrjz/K9jDVfRBer/blv9MiFb2/4QngnGaEZZTqlOna8D8vyuXnNO5Pr7GdsGeNETw+cXi5jsyYy
+        KaQyXJGdy/AJspjMiBHDkaWpbDhAGT9upjSiM690cjF93/d1BTFpmEduCircCEMU5GWbNLJqkZ/I
+        cNwgmvjSvnqCYEFRl9lobIYps81OFkxqmOiV66G2i29zPAI=
 2017-11-07-corridor-keeper:
   title: Corridor Keeper
   titleRu: Хранитель прохода
@@ -16096,10 +16110,10 @@
     - service: vk
       id: 3251
       published: 2026-04-04-18-26-54
-      updated: 2026-04-12-13-09-05
+      updated: 2026-04-20-06-33-39
       followers: 1628
       likes: 71
-      views: 740
+      views: 765
       reposts: 3
     - service: tg
       id: 1202

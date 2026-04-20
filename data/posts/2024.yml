@@ -524,7 +524,7 @@
     - service: vk
       id: 3025
       published: 2026-01-23-18-33-39
-      updated: 2026-04-12-13-09-57
+      updated: 2026-04-20-06-34-03
       followers: 1583
       likes: 66
       views: 873
@@ -2059,10 +2059,10 @@
     - service: vk
       id: 3158
       published: 2026-03-06-19-00-05
-      updated: 2026-04-12-13-09-24
+      updated: 2026-04-20-06-33-50
       followers: 1616
       likes: 63
-      views: 806
+      views: 808
       reposts: 4
     - service: tg
       id: 1171
@@ -3283,7 +3283,7 @@
     - service: vk
       id: 3085
       published: 2026-02-13-18-49-37
-      updated: 2026-04-12-13-09-51
+      updated: 2026-04-20-06-33-59
       followers: 1601
       likes: 65
       views: 759
