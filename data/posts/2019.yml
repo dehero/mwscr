@@ -124,7 +124,7 @@
     - service: vk
       id: 2816
       published: 2025-11-06-18-17-05
-      updated: 2026-04-14-13-06-09
+      updated: 2026-04-21-13-51-00
       followers: 1500
       likes: 87
       views: 1669
@@ -141,7 +141,7 @@
     - service: tg
       id: 1042
       published: 2025-11-06-18-17-09
-      updated: 2026-04-14-13-03-44
+      updated: 2026-04-21-13-49-28
       followers: 854
       likes: 64
       views: 647
@@ -594,10 +594,10 @@
     - service: vk
       id: 2719
       published: 2025-10-08-18-29-12
-      updated: 2026-04-14-13-06-57
+      updated: 2026-04-21-13-51-55
       followers: 1454
       likes: 69
-      views: 1374
+      views: 1376
       reposts: 3
       comments: !c |-
         Gz8BIC0ObBtG9nBhnaMd4w/GP/+cbIRfO2cNfRgEHoctDKKgCJP7dG3FZGjNFIaCvwOZrb3lTiSQ
@@ -608,7 +608,7 @@
     - service: tg
       id: 1010
       published: 2025-10-08-18-29-16
-      updated: 2026-04-14-13-04-39
+      updated: 2026-04-21-13-50-28
       followers: 836
       likes: 71
       views: 614
@@ -1531,10 +1531,10 @@
     - service: vk
       id: 3160
       published: 2026-03-08-18-46-21
-      updated: 2026-04-14-13-03-05
+      updated: 2026-04-21-13-48-47
       followers: 1617
       likes: 49
-      views: 476
+      views: 479
     - service: tg
       id: 1173
       published: 2026-03-08-18-46-24
@@ -2644,7 +2644,7 @@
     - service: tg
       id: 927
       published: 2025-07-25-00-59-24
-      updated: 2026-04-14-13-06-24
+      updated: 2026-04-21-13-51-52
       followers: 765
       likes: 75
       views: 1097
@@ -2705,7 +2705,7 @@
     - service: vk
       id: 2690
       published: 2025-09-27-18-24-20
-      updated: 2026-04-14-13-07-06
+      updated: 2026-04-21-13-52-03
       followers: 1437
       likes: 48
       views: 863
@@ -2716,10 +2716,10 @@
     - service: tg
       id: 999
       published: 2025-09-27-18-24-24
-      updated: 2026-04-14-13-04-53
+      updated: 2026-04-21-13-50-41
       followers: 812
       likes: 66
-      views: 617
+      views: 618
       comments: !c iw2AkZPLQnmYyTIsgACra2F3YXpha3kyMjOk8J+kkAM=
 2019-10-20-sunset-ridge:
   title: Sunset Ridge
