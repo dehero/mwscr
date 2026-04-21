@@ -666,7 +666,7 @@
     - service: vk
       id: 2462
       published: 2025-06-13-18-28-21
-      updated: 2026-04-14-15-14-46
+      updated: 2026-04-21-15-19-18
       followers: 1323
       likes: 76
       views: 621
@@ -677,10 +677,10 @@
     - service: tg
       id: 884
       published: 2025-06-13-18-28-25
-      updated: 2026-04-14-15-14-01
+      updated: 2026-04-21-15-18-21
       followers: 747
       likes: 78
-      views: 869
+      views: 870
 2024-03-18-evening-on-azuras-coast: 2017-05-18-evening-on-azuras-coast
 2024-03-19-dirty-muriels-cornerclub:
   title: Dirty Muriel's Cornerclub
@@ -827,7 +827,7 @@
     - service: vk
       id: 2500
       published: 2025-07-01-18-23-33
-      updated: 2026-04-14-15-14-03
+      updated: 2026-04-21-15-18-38
       followers: 1333
       likes: 51
       views: 602
@@ -835,7 +835,7 @@
     - service: tg
       id: 904
       published: 2025-07-01-18-23-37
-      updated: 2026-04-14-15-13-37
+      updated: 2026-04-21-15-17-57
       followers: 760
       likes: 63
       views: 796
@@ -1228,14 +1228,14 @@
     - service: vk
       id: 2458
       published: 2025-06-09-18-28-37
-      updated: 2026-04-14-15-14-56
+      updated: 2026-04-21-15-19-24
       followers: 1318
       likes: 45
       views: 389
     - service: tg
       id: 880
       published: 2025-06-09-18-28-42
-      updated: 2026-04-14-15-14-07
+      updated: 2026-04-21-15-18-29
       followers: 745
       likes: 78
       views: 664
@@ -1303,7 +1303,7 @@
     - service: vk
       id: 2479
       published: 2025-06-21-18-24-51
-      updated: 2026-04-14-15-14-26
+      updated: 2026-04-21-15-19-00
       followers: 1327
       likes: 59
       views: 520
@@ -1311,7 +1311,7 @@
     - service: tg
       id: 892
       published: 2025-06-21-18-24-56
-      updated: 2026-04-14-15-13-50
+      updated: 2026-04-21-15-18-12
       followers: 752
       likes: 62
       views: 946
@@ -1667,10 +1667,10 @@
     - service: vk
       id: 2544
       published: 2025-07-29-18-40-47
-      updated: 2026-04-14-15-13-09
+      updated: 2026-04-21-15-17-42
       followers: 1355
       likes: 40
-      views: 663
+      views: 664
       reposts: 2
     - service: tg
       id: 931
@@ -2708,7 +2708,7 @@
     - service: vk
       id: 2466
       published: 2025-06-15-18-25-37
-      updated: 2026-04-14-15-14-42
+      updated: 2026-04-21-15-19-14
       followers: 1328
       likes: 56
       views: 524
@@ -2716,10 +2716,10 @@
     - service: tg
       id: 886
       published: 2025-06-15-18-25-41
-      updated: 2026-04-14-15-13-59
+      updated: 2026-04-21-15-18-19
       followers: 747
       likes: 70
-      views: 643
+      views: 644
       comments: !c iw2AkZPLQnl3oFvXAACra2F3YXpha3kyMjOk8J+RjAM=
 2024-06-10-utensil:
   title: Utensil
