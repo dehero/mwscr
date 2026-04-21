@@ -508,7 +508,7 @@
     - service: vk
       id: 2258
       published: 2025-04-06-18-28-44
-      updated: 2026-04-14-17-04-16
+      updated: 2026-04-21-17-07-48
       followers: 1233
       likes: 48
       views: 485
@@ -519,10 +519,10 @@
     - service: tg
       id: 782
       published: 2025-04-06-18-28-50
-      updated: 2026-04-14-17-03-56
+      updated: 2026-04-21-17-07-01
       followers: 717
       likes: 60
-      views: 629
+      views: 630
       comments: !c |-
         CzKAkpPLQnlgxjHAAACtY2FpdXMtY29zYWRlc9kgbmV0ZmxpeCBhZGFwdGF0aW9uIG9mIHRoZSBk
         YXVnaHOTy0J5YMXVtYAApWFuc2lzuU5vdCB0aGF0IGRlYWRseS4gSSdkIHdpbi4D
@@ -2149,7 +2149,7 @@
     - service: vk
       id: 2137
       published: 2025-02-18-18-11-39
-      updated: 2026-04-14-17-06-40
+      updated: 2026-04-21-17-09-38
       followers: 1092
       likes: 37
       views: 476
@@ -2161,10 +2161,10 @@
     - service: tg
       id: 714
       published: 2025-02-18-18-11-48
-      updated: 2026-04-14-17-05-32
+      updated: 2026-04-21-17-08-07
       followers: 678
       likes: 60
-      views: 671
+      views: 672
       comments: !c iw+AkZPLQnlSitTSgACvYWxleGV5LXN0ZXBhbm92pPCfkKYD
 2020-11-02-dead-reflections:
   title: Dead Reflections
@@ -2313,7 +2313,7 @@
     - service: vk
       id: 2168
       published: 2025-03-03-18-10-48
-      updated: 2026-04-14-17-06-01
+      updated: 2026-04-21-17-09-17
       followers: 1158
       likes: 58
       views: 500
@@ -2321,7 +2321,7 @@
     - service: tg
       id: 733
       published: 2025-03-03-18-10-55
-      updated: 2026-04-14-17-05-09
+      updated: 2026-04-21-17-07-48
       followers: 689
       likes: 65
       views: 574
