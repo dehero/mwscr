@@ -214,7 +214,7 @@
     - service: vk
       id: 1750
       published: 2024-09-11-18-36-08
-      updated: 2026-04-14-20-52-38
+      updated: 2026-04-21-21-00-30
       followers: 945
       likes: 51
       views: 427
@@ -225,7 +225,7 @@
     - service: tg
       id: 529
       published: 2024-09-11-18-36-14
-      updated: 2026-04-14-20-51-47
+      updated: 2026-04-21-20-57-53
       followers: 555
       likes: 57
       views: 1118
@@ -585,7 +585,7 @@
     - service: vk
       id: 1687
       published: 2024-08-11-18-20-27
-      updated: 2026-04-14-20-54-11
+      updated: 2026-04-21-21-01-22
       followers: 930
       likes: 47
       views: 325
@@ -593,7 +593,7 @@
     - service: tg
       id: 498
       published: 2024-08-11-18-20-32
-      updated: 2026-04-14-20-52-48
+      updated: 2026-04-21-20-58-52
       followers: 520
       likes: 68
       views: 680
@@ -674,10 +674,10 @@
     - service: tg
       id: 474
       published: 2024-07-19-18-20-40
-      updated: 2026-04-14-20-54-02
+      updated: 2026-04-21-20-59-33
       followers: 400
       likes: 62
-      views: 597
+      views: 598
     - service: ig
       id: DWKDgTuFsJI
       mediaId: '18119385343620277'
@@ -1361,7 +1361,7 @@
     - service: tg
       id: 478
       published: 2024-07-23-18-21-00
-      updated: 2026-04-14-20-53-57
+      updated: 2026-04-21-20-59-28
       followers: 400
       likes: 62
       views: 586
@@ -2083,7 +2083,7 @@
     - service: vk
       id: 1713
       published: 2024-08-28-18-23-48
-      updated: 2026-04-14-20-53-21
+      updated: 2026-04-21-21-00-55
       followers: 940
       likes: 49
       views: 372
@@ -2096,7 +2096,7 @@
     - service: tg
       id: 515
       published: 2024-08-28-18-23-56
-      updated: 2026-04-14-20-52-16
+      updated: 2026-04-21-20-58-22
       followers: 546
       likes: 70
       views: 675
@@ -2235,7 +2235,7 @@
     - service: vk
       id: 1812
       published: 2024-10-06-19-01-29
-      updated: 2026-04-14-19-15-20
+      updated: 2026-04-21-20-59-24
       followers: 958
       likes: 53
       views: 389
