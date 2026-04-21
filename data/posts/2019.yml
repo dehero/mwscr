@@ -923,7 +923,7 @@
     - service: vk
       id: 2119
       published: 2025-02-08-18-09-23
-      updated: 2026-04-14-17-07-03
+      updated: 2026-04-21-19-17-47
       followers: 1062
       likes: 38
       views: 400
@@ -1050,6 +1050,23 @@
       updated: 2026-04-14-23-40-57
       likes: 2
       views: 537
+    - service: ig
+      id: DXZ79P5D4ur
+      mediaId: '18575644720056495'
+      published: 2026-04-21-19-21-49
+      followers: 1623
+    - service: vk
+      id: 3303
+      published: 2026-04-21-19-21-54
+      followers: 1434
+    - service: tg
+      id: 1216
+      published: 2026-04-21-19-22-01
+      followers: 900
+    - service: mx
+      id: '1776799325950'
+      published: 2026-04-21-19-22-05
+      followers: 22
 2019-03-01-guardians-of-the-cave:
   title: Guardians of the Cave
   titleRu: Стражи пещеры
@@ -1105,7 +1122,7 @@
     - service: vk
       id: 2120
       published: 2025-02-09-18-09-21
-      updated: 2026-04-14-17-07-03
+      updated: 2026-04-21-19-17-45
       followers: 1063
       likes: 44
       views: 440
@@ -1169,10 +1186,10 @@
     - service: tg
       id: 570
       published: 2024-10-20-18-09-24
-      updated: 2026-04-14-19-13-12
+      updated: 2026-04-21-19-19-32
       followers: 561
       likes: 69
-      views: 824
+      views: 825
 2019-03-07-mzahnch:
   title: Mzahnch
   titleRu: Мзанч
@@ -1266,7 +1283,7 @@
     - service: vk
       id: 1915
       published: 2024-11-22-18-11-31
-      updated: 2026-04-14-19-13-37
+      updated: 2026-04-21-19-21-07
       followers: 1008
       likes: 61
       views: 630
@@ -1274,7 +1291,7 @@
     - service: tg
       id: 603
       published: 2024-11-22-18-11-36
-      updated: 2026-04-14-19-12-21
+      updated: 2026-04-21-19-18-39
       followers: 574
       likes: 72
       views: 1562
@@ -1815,7 +1832,7 @@
     - service: vk
       id: 1976
       published: 2024-12-19-18-10-51
-      updated: 2026-04-14-19-12-03
+      updated: 2026-04-21-19-20-29
       followers: 1027
       likes: 64
       views: 446
@@ -1823,7 +1840,7 @@
     - service: tg
       id: 630
       published: 2024-12-19-18-10-59
-      updated: 2026-04-14-19-11-23
+      updated: 2026-04-21-19-17-53
       followers: 584
       likes: 71
       views: 599
@@ -2193,10 +2210,10 @@
     - service: tg
       id: 592
       published: 2024-11-11-18-10-12
-      updated: 2026-04-14-19-12-38
+      updated: 2026-04-21-19-18-54
       followers: 564
       likes: 65
-      views: 583
+      views: 584
 2019-10-06-dwemer-telescope:
   title: Dwemer Telescope
   titleRu: Двемерский телескоп
@@ -2486,7 +2503,7 @@
     - service: vk
       id: 2098
       published: 2025-01-30-18-10-52
-      updated: 2026-04-14-17-07-19
+      updated: 2026-04-21-19-18-31
       followers: 1057
       likes: 41
       views: 375
@@ -2775,7 +2792,7 @@
     - service: vk
       id: 2086
       published: 2025-01-25-18-09-30
-      updated: 2026-04-14-17-07-33
+      updated: 2026-04-21-19-18-46
       followers: 1054
       likes: 33
       views: 335
@@ -2917,7 +2934,7 @@
     - service: vk
       id: 2070
       published: 2025-01-18-19-01-37
-      updated: 2026-04-14-17-07-44
+      updated: 2026-04-21-19-19-12
       followers: 1054
       likes: 41
       views: 365
