@@ -1407,7 +1407,7 @@ dehero:
       avatar: store:/avatars/gh-c8afe641.jpg
     - service: vk
       id: '3652910'
-      updated: 2026-04-22-17-08-10
+      updated: 2026-04-22-19-18-51
       username: dehero
       name: Антон Курьянов
       avatar: store:/avatars/vk-5356f76e.jpg
@@ -1650,7 +1650,7 @@ dremarretres:
   profiles:
     - service: vk
       id: '801308664'
-      updated: 2026-04-21-20-57-17
+      updated: 2026-04-22-19-18-36
       username: dremarretres
       name: Джон Шепард
       avatar: store:/avatars/vk-ac4f0700.jpg
@@ -3352,7 +3352,7 @@ lycanthropy:
   profiles:
     - service: vk
       id: '5386912'
-      updated: 2026-04-22-11-11-37
+      updated: 2026-04-22-19-18-55
       username: lycanthropy
       name: Филипп Суворов
       avatar: store:/avatars/vk-8642e0b8.jpg
@@ -5019,7 +5019,7 @@ sergey-b-2:
   profiles:
     - service: vk
       id: '1077446394'
-      updated: 2026-04-22-09-24-44
+      updated: 2026-04-22-19-18-36
       username: id1077446394
       name: Сергей Б
       avatar: store:/avatars/vk-4deb0770.jpg
@@ -6089,7 +6089,7 @@ user-36:
   profiles:
     - service: vk
       id: '227500203'
-      updated: 2026-04-22-17-08-10
+      updated: 2026-04-22-19-18-53
       username: id227500203
       avatar: store:/avatars/vk-7f160215.jpg
       deleted: true

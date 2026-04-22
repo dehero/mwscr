@@ -1010,7 +1010,7 @@
     - service: vk
       id: 73
       published: 2017-01-23
-      updated: 2026-04-15-12-01-00
+      updated: 2026-04-22-19-18-55
       followers: 8
       likes: 7
       views: 220
@@ -1073,7 +1073,7 @@
     - service: vk
       id: 74
       published: 2017-01-24
-      updated: 2026-04-15-12-00-58
+      updated: 2026-04-22-19-18-53
       followers: 8
       likes: 5
       views: 172
@@ -1102,7 +1102,7 @@
     - service: vk
       id: 76
       published: 2017-01-25
-      updated: 2026-04-15-12-00-56
+      updated: 2026-04-22-19-18-51
       followers: 8
       likes: 8
       views: 164
@@ -1162,7 +1162,7 @@
     - service: vk
       id: 84
       published: 2017-01-26
-      updated: 2026-04-15-12-00-53
+      updated: 2026-04-22-19-18-48
       followers: 8
       likes: 9
       views: 198
@@ -1279,7 +1279,7 @@
     - service: vk
       id: 99
       published: 2017-01-27
-      updated: 2026-04-15-12-00-48
+      updated: 2026-04-22-19-18-43
       followers: 8
       likes: 7
       views: 163
@@ -1393,7 +1393,7 @@
     - service: vk
       id: 101
       published: 2017-01-28
-      updated: 2026-04-15-12-00-47
+      updated: 2026-04-22-19-18-41
       followers: 8
       likes: 57
       views: 1429
@@ -9174,6 +9174,23 @@
       followers: 66
       likes: 9
       views: 101
+    - service: ig
+      id: DXcgiELDz93
+      mediaId: '17864494821548949'
+      published: 2026-04-22-19-19-53
+      followers: 1624
+    - service: vk
+      id: 3304
+      published: 2026-04-22-19-19-59
+      followers: 1435
+    - service: tg
+      id: 1217
+      published: 2026-04-22-19-20-08
+      followers: 899
+    - service: mx
+      id: '1776885614814'
+      published: 2026-04-22-19-20-14
+      followers: 22
 2017-06-30-indoranyon:
   title: Indoranyon
   titleRu: Индоранион
@@ -12733,9 +12750,9 @@
       id: DXUv54BlnY8
       mediaId: '18078289253629832'
       published: 2026-04-19-19-00-18
-      updated: 2026-04-21-17-06-51
+      updated: 2026-04-22-19-18-32
       followers: 1622
-      likes: 74
+      likes: 82
       comments: !c |-
         GyYCAIzEOBby5kjqTd181Acb9pblY2mWjcVjDcEwiqjLXBOVvUJ1nSv+x4f1+JA8n4RqO2U7oybU
         /M9T0YDx++lcNKbFO6nhULFY4nleN+fRc5jIVrAO83eQPkT/avvfAJcg2sxjUuLz9CA6u6WTWDHx
@@ -12746,10 +12763,10 @@
     - service: tg
       id: 1213
       published: 2026-04-19-19-00-24
-      updated: 2026-04-21-17-06-44
+      updated: 2026-04-22-19-18-25
       followers: 897
-      likes: 56
-      views: 212
+      likes: 60
+      views: 247
     - service: mx
       id: '1776625229534'
       published: 2026-04-19-19-00-29
@@ -15706,16 +15723,16 @@
       id: DXSKyz6l5XD
       mediaId: '18107369072504702'
       published: 2026-04-18-18-57-32
-      updated: 2026-04-21-19-17-23
+      updated: 2026-04-22-19-18-33
       followers: 1621
-      likes: 45
+      likes: 46
     - service: tg
       id: 1212
       published: 2026-04-18-18-57-41
-      updated: 2026-04-21-19-17-16
+      updated: 2026-04-22-19-18-26
       followers: 898
       likes: 55
-      views: 241
+      views: 267
     - service: mx
       id: '1776538666230'
       published: 2026-04-18-18-57-46
@@ -15723,10 +15740,10 @@
     - service: vk
       id: 3292
       published: 2026-04-19-18-20-00
-      updated: 2026-04-21-17-06-53
+      updated: 2026-04-22-19-18-36
       followers: 1434
-      likes: 51
-      views: 441
+      likes: 52
+      views: 491
       reposts: 5
       comments: !c |-
         G7oBACwO7GbOD6omF7CExb9K9Hxc7Pi48a/BHWgEaUBFYaAFnDSRJfsm+F9uZwnRkAwVcf+GAG/w
