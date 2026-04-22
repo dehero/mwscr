@@ -1165,7 +1165,7 @@ crazycyrodiliccat:
   profiles:
     - service: vk
       id: '90554843'
-      updated: 2026-04-22-11-11-25
+      updated: 2026-04-22-13-47-51
       username: crazycyrodiliccat
       name: Александр Невский
       avatar: store:/avatars/vk-0db1296b.jpg
@@ -1407,14 +1407,14 @@ dehero:
       avatar: store:/avatars/gh-c8afe641.jpg
     - service: vk
       id: '3652910'
-      updated: 2026-04-22-11-10-42
+      updated: 2026-04-22-13-50-11
       username: dehero
       name: Антон Курьянов
       avatar: store:/avatars/vk-5356f76e.jpg
     - type: channel
       service: vk
       id: '138249959'
-      updated: 2026-04-22-11-11-25
+      updated: 2026-04-22-13-48-20
       username: mwscr
       name: Morrowind Screenshots
       avatar: store:/avatars/vk-8e97fd4f.jpg
@@ -2579,7 +2579,7 @@ ilya-goryachev:
   profiles:
     - service: vk
       id: '448748807'
-      updated: 2026-04-15-10-57-43
+      updated: 2026-04-22-13-48-28
       username: id448748807
       name: Илья Горячев
       avatar: store:/avatars/vk-9b32f5bc.jpg
@@ -3147,7 +3147,7 @@ kurov-alexander:
   profiles:
     - service: vk
       id: '233557'
-      updated: 2026-04-22-11-12-06
+      updated: 2026-04-22-13-48-11
       username: kurov.alexander
       name: Александр Куров
       avatar: store:/avatars/vk-c64fc9de.jpg
@@ -3163,7 +3163,7 @@ kydinov91:
   profiles:
     - service: vk
       id: '36104583'
-      updated: 2026-04-22-11-11-43
+      updated: 2026-04-22-13-50-21
       username: kydinov91
       name: Илья Кудинов
       avatar: store:/avatars/vk-03d8a48a.jpg
@@ -3531,7 +3531,7 @@ max-tsei:
   profiles:
     - service: vk
       id: '353284524'
-      updated: 2026-04-22-09-26-18
+      updated: 2026-04-22-13-48-20
       username: max.tsei
       avatar: store:/avatars/vk-7f160215.jpg
       deleted: true
@@ -4394,7 +4394,7 @@ petrushkachord:
   profiles:
     - service: vk
       id: '370043102'
-      updated: 2026-04-15-11-41-35
+      updated: 2026-04-22-13-50-11
       username: petrushkachord
       name: Данила Силкин
       avatar: store:/avatars/vk-166e4c44.jpg
@@ -5320,7 +5320,7 @@ soulilight:
   profiles:
     - service: vk
       id: '347703822'
-      updated: 2026-04-21-23-39-50
+      updated: 2026-04-22-13-50-04
       username: soulilight
       name: Dima Boev
       avatar: store:/avatars/vk-4a3f332e.jpg
@@ -6081,7 +6081,7 @@ user-35:
   profiles:
     - service: vk
       id: '281861772'
-      updated: 2026-04-15-10-59-15
+      updated: 2026-04-22-13-49-56
       username: id281861772
       avatar: store:/avatars/vk-7f160215.jpg
       deleted: true
