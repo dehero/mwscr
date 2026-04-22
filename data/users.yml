@@ -577,7 +577,7 @@ artyom-karpov:
   profiles:
     - service: vk
       id: '178018548'
-      updated: 2026-04-15-12-00-05
+      updated: 2026-04-22-17-07-48
       username: id178018548
       name: Артём Карпов
       avatar: store:/avatars/vk-72fe5d60.jpg
@@ -1341,7 +1341,7 @@ daryna-dmytrenko:
   profiles:
     - service: vk
       id: '164064457'
-      updated: 2026-04-15-11-59-35
+      updated: 2026-04-22-17-07-17
       username: daryna_dmytrenko
       name: Дарина Дмитренко
       avatar: store:/avatars/vk-0d327853.jpg
@@ -1407,7 +1407,7 @@ dehero:
       avatar: store:/avatars/gh-c8afe641.jpg
     - service: vk
       id: '3652910'
-      updated: 2026-04-22-15-17-27
+      updated: 2026-04-22-17-08-10
       username: dehero
       name: Антон Курьянов
       avatar: store:/avatars/vk-5356f76e.jpg
@@ -1977,7 +1977,7 @@ evil-kit:
   profiles:
     - service: vk
       id: '153155138'
-      updated: 2026-04-17-16-09-41
+      updated: 2026-04-22-17-07-58
       username: evil_kit
       name: Никита Метелкин
       avatar: store:/avatars/vk-adb64972.jpg
@@ -2527,10 +2527,10 @@ idalexeyvav:
   profiles:
     - service: vk
       id: '417783044'
-      updated: 2026-04-15-11-59-32
+      updated: 2026-04-22-17-07-13
       username: idalexeyvav
-      name: Алексей Вавилов
-      avatar: store:/avatars/vk-6717456e.jpg
+      avatar: store:/avatars/vk-7f160215.jpg
+      deleted: true
 iddqd0110:
   profiles:
     - service: tg
@@ -3417,7 +3417,7 @@ maks-perunov:
   profiles:
     - service: vk
       id: '35868942'
-      updated: 2026-04-21-23-38-39
+      updated: 2026-04-22-17-06-11
       username: id35868942
       name: Макс Перунов
       avatar: store:/avatars/vk-3bb92045.jpg
@@ -5320,7 +5320,7 @@ soulilight:
   profiles:
     - service: vk
       id: '347703822'
-      updated: 2026-04-22-13-50-04
+      updated: 2026-04-22-17-08-13
       username: soulilight
       name: Dima Boev
       avatar: store:/avatars/vk-4a3f332e.jpg
@@ -6089,7 +6089,7 @@ user-36:
   profiles:
     - service: vk
       id: '227500203'
-      updated: 2026-04-15-12-00-58
+      updated: 2026-04-22-17-08-10
       username: id227500203
       avatar: store:/avatars/vk-7f160215.jpg
       deleted: true
