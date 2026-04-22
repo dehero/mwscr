@@ -469,7 +469,7 @@ anonim:
   profiles:
     - service: tg
       id: '6469120788'
-      updated: 2026-04-21-13-51-11
+      updated: 2026-04-22-11-09-36
       accessHash: '-3557204299452739678'
       name: Аноним
       avatar: store:/avatars/tg-5258428988957332590.jpg
@@ -1165,7 +1165,7 @@ crazycyrodiliccat:
   profiles:
     - service: vk
       id: '90554843'
-      updated: 2026-04-22-09-24-50
+      updated: 2026-04-22-11-11-25
       username: crazycyrodiliccat
       name: Александр Невский
       avatar: store:/avatars/vk-0db1296b.jpg
@@ -1407,14 +1407,14 @@ dehero:
       avatar: store:/avatars/gh-c8afe641.jpg
     - service: vk
       id: '3652910'
-      updated: 2026-04-22-07-55-30
+      updated: 2026-04-22-11-10-42
       username: dehero
       name: Антон Курьянов
       avatar: store:/avatars/vk-5356f76e.jpg
     - type: channel
       service: vk
       id: '138249959'
-      updated: 2026-04-22-05-32-24
+      updated: 2026-04-22-11-11-25
       username: mwscr
       name: Morrowind Screenshots
       avatar: store:/avatars/vk-8e97fd4f.jpg
@@ -1765,7 +1765,7 @@ eidelelweise:
   profiles:
     - service: vk
       id: '451140204'
-      updated: 2026-04-21-13-48-46
+      updated: 2026-04-22-11-09-38
       username: eidelelweise
       name: Эйдель Элиас Вайс
       avatar: store:/avatars/vk-85124301.jpg
@@ -2702,7 +2702,7 @@ its-okey-dude:
   profiles:
     - service: vk
       id: '381549157'
-      updated: 2026-04-15-09-18-12
+      updated: 2026-04-22-11-11-02
       username: its_okey_dude
       name: Николай Гачимучев
       avatar: store:/avatars/vk-08ebd553.jpg
@@ -3147,7 +3147,7 @@ kurov-alexander:
   profiles:
     - service: vk
       id: '233557'
-      updated: 2026-04-15-09-19-42
+      updated: 2026-04-22-11-12-06
       username: kurov.alexander
       name: Александр Куров
       avatar: store:/avatars/vk-c64fc9de.jpg
@@ -3163,7 +3163,7 @@ kydinov91:
   profiles:
     - service: vk
       id: '36104583'
-      updated: 2026-04-22-09-27-08
+      updated: 2026-04-22-11-11-43
       username: kydinov91
       name: Илья Кудинов
       avatar: store:/avatars/vk-03d8a48a.jpg
@@ -3352,7 +3352,7 @@ lycanthropy:
   profiles:
     - service: vk
       id: '5386912'
-      updated: 2026-04-15-12-01-00
+      updated: 2026-04-22-11-11-37
       username: lycanthropy
       name: Филипп Суворов
       avatar: store:/avatars/vk-8642e0b8.jpg
@@ -4418,7 +4418,7 @@ pinchinium:
   profiles:
     - service: vk
       id: '178716135'
-      updated: 2026-04-22-02-48-41
+      updated: 2026-04-22-11-11-09
       username: pinchinium
       name: Агзам Мубаракшин
       avatar: store:/avatars/vk-77942374.jpg
@@ -5237,7 +5237,7 @@ sol-sunich:
   profiles:
     - service: tg
       id: '1017031108'
-      updated: 2026-04-21-13-49-35
+      updated: 2026-04-22-11-09-36
       accessHash: '-8600220183224537901'
       username: sol_sunich
       name: ❂
@@ -6073,7 +6073,7 @@ user-34:
   profiles:
     - service: vk
       id: '266402374'
-      updated: 2026-04-15-09-18-44
+      updated: 2026-04-22-11-11-35
       username: id266402374
       avatar: store:/avatars/vk-7f160215.jpg
       deleted: true
