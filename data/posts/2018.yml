@@ -5251,7 +5251,10 @@
     - service: tg
       id: 1218
       published: 2026-04-23-19-16-12
+      updated: 2026-04-23-20-56-36
       followers: 899
+      likes: 20
+      views: 76
     - service: mx
       id: '1776971782781'
       published: 2026-04-23-19-16-23
