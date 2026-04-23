@@ -655,10 +655,10 @@
     - service: tg
       id: 1186
       published: 2026-03-18-19-13-56
-      updated: 2026-04-16-10-03-12
+      updated: 2026-04-23-11-14-25
       followers: 894
-      likes: 57
-      views: 554
+      likes: 58
+      views: 569
       comments: !c CwuAkZPLQnnQkPRWgACma2V2eS1jpPCfpoAD
     - service: mx
       id: '1773861261630'
