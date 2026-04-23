@@ -1023,7 +1023,7 @@ chacal:
   profiles:
     - service: tg
       id: '8095034962'
-      updated: 2026-04-16-14-08-35
+      updated: 2026-04-23-16-23-02
       accessHash: '-7146146524014681806'
       name: Chacal 🇩🇴
       avatar: store:/avatars/tg-5055567062113127364.jpg
@@ -3867,7 +3867,7 @@ myndowen:
   profiles:
     - service: tg
       id: '720784420'
-      updated: 2026-04-17-11-01-49
+      updated: 2026-04-23-16-23-03
       accessHash: '4385662928393121475'
       username: myndowen
       name: Daniel Beilin
@@ -4127,7 +4127,7 @@ oberhort:
   profiles:
     - service: tg
       id: '19254498'
-      updated: 2026-04-21-15-17-20
+      updated: 2026-04-23-16-23-02
       accessHash: '-564270059565994883'
       username: oberhort
       name: Игорь
