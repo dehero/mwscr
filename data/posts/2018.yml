@@ -5244,10 +5244,6 @@
       followers: 152
       likes: 11
       views: 195
-    - service: vk
-      id: 3308
-      published: 2026-04-23-19-16-02
-      followers: 1429
     - service: tg
       id: 1218
       published: 2026-04-23-19-16-12
@@ -5266,6 +5262,10 @@
       updated: 2026-04-24-05-38-51
       followers: 1623
       likes: 25
+    - service: vk
+      id: 3314
+      published: 2026-04-24-06-14-38
+      followers: 1429
 2018-04-14-you-shall-not-pass:
   title: You Shall Not Pass
   titleRu: Ты не пройдёшь
@@ -6475,9 +6475,29 @@
       followers: 1621
       likes: 57
     - service: vk
-      id: 3285
+      id: 3290
       published: 2026-04-17-19-09-12
+      updated: 2026-04-24-06-09-30
       followers: 1433
+      likes: 51
+      views: 801
+      reposts: 3
+      comments: !c |-
+        G6QHAKwOeHPUKSHZ6/w+Dl8k/vnnvt9PE7o9ahoJAhyXt9JAmynQAAMd9yFLpVU7wAqExyqEfH+h
+        yHSb21476SiLBadSDCLaQVKiu/+MtUlC1BZ0NYhLisKCAdfJIV0haEF2u4UQyuv/328emnjiECOE
+        Bq1x7sX8JqR5Un8ft1XiQlv+U407S0thIeepCJu4T5LKDLj8Iy/vXxed9Xk+h4+7G1YKlzj2wxqE
+        1KqICnFimo8xYbBLG9oR1ASgojycLAimSIpGZA9P88T8f+cPb18X/XO/X60+LqiArPjap18Mto8c
+        cw6ECpxs7hcrzURujvezbDgU8yByMcrElaFBEGR3/J8QDN5ReMlv3Qd0siskDrM3pkanUSWGqIJg
+        hq5IyBFiA9n6/04p352tuQlFpR+lxCpI8V6iRyLF5IIIbiSRxmGKaySYJHDXj6Ut2F6RJLF0iLHv
+        2lJVGkjvgmGzRKY5XMlyuKjJljEReOocZEJl1ZxBcNvfKoPbgDBzxH/JABFJ5AZel7WrLjiFm/6U
+        FWXhlVtY0Bw3I9keZL66da0qZSulzVHG/QNpSGdqUklozK7+1V7r+kwzAgiHnNgcYDLIvTNkxbex
+        7mWYIMiaPafDVmUcqOr4Ztzi+eKUayrFGykg7aUYOxhCwe4YuxlmUdjHm7Ln0hYKQzlHUECyEH6l
+        NQ0K/r+7Ryo2/N+rs/rimGWdlUb9XSyfTZNlCXWBVnz2+gc4qg1KTcGgSQ3QoUZB3NHACQPgHOaW
+        OqoJ9q0PIWO1v6PHYHOpSMLI9QkqVWQL4KuCkyBb1W6MlH190cadYChx9su6u+wX+WiOGZmbLGZp
+        +CGO+qWAUBWde4ORX/Dg3e8sjiCMNHt1y4hZ5CGvdDOlZX9uRjCZegkrBF6BFJQGLTcORyRAhysd
+        KVAeoTxCYJqj6OIDRrs0S0ckzhycRo5ovviPWCB/0T3EYslkCRvddQrfKGjHUoGfpFzCnJKXpHJ/
+        HvPLRYqNPfMjxrAinqX25FdxKE/G8BuQDdCVcMJPe+1SO2lJmA4Qr0Ih6VxSz/TA6DEdVJzIRBuQ
+        AOA6cspQARsXOsnUqZy8jduVNa3aXAQdfs8ec/3W3B3m3zo=
     - service: tg
       id: 1211
       published: 2026-04-17-19-09-18

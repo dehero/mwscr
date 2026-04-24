@@ -4427,9 +4427,16 @@
       followers: 1622
       likes: 68
     - service: vk
-      id: 3297
+      id: 3299
       published: 2026-04-20-18-01-57
+      updated: 2026-04-24-06-09-24
       followers: 1435
+      likes: 48
+      views: 569
+      reposts: 1
+      comments: !c |-
+        iyKAkZPLQnnbX5J9AACqcGtlbGxlcm1hbtku0KfQtdC2INGC0LDQuiDQsNGC0LzQvtGB0YTQtdGA
+        0L3QviDRgtC+4oCm8J+YogM=
     - service: tg
       id: 1214
       published: 2026-04-20-18-02-06
@@ -9182,9 +9189,13 @@
       followers: 1624
       likes: 48
     - service: vk
-      id: 3304
+      id: 3307
       published: 2026-04-22-19-19-59
+      updated: 2026-04-24-06-09-16
       followers: 1435
+      likes: 42
+      views: 479
+      reposts: 2
     - service: tg
       id: 1217
       published: 2026-04-22-19-20-08
@@ -12777,9 +12788,20 @@
       published: 2026-04-19-19-00-29
       followers: 22
     - service: vk
-      id: 3293
+      id: 3296
       published: 2026-04-20-06-34-12
+      updated: 2026-04-24-06-09-27
       followers: 1434
+      likes: 62
+      views: 528
+      reposts: 2
+      comments: !c |-
+        G0MCQJwFdiy8wGI9m8noDBHPf3/pJ3yztOmAAYpABwlZA62k9VyKWFTdjLFgXGk+aL61F0D/dUO6
+        EzjxgA4s2v9fE9TNvG48iiiSJHWbsbw8tgtHQXGw9pCa03VHmmiiIf6nqL0LBpgc7MRRfE+DC2aY
+        bhMfj6C7CGfCWD69cTg/W73nf9Puu20c0HeomFEyp7ahggKdwVKOBgSVnB8PCb991tpls51JyC4E
+        HhfWAiSYhTT4f9nIRzaV2CHyKqZ4WgEohiUmF0PizDvCBke0IHFUWCiWmsaY/rLe9tj7bmRZNxdx
+        rkTFqpahxck5FsAnrD7EDw+XibIlgEfHhgbaxAUmA9lxmeoSR0i5O03v/37aY8kKK1ZvqbrBkm+V
+        GNJBRxMlJMTJ6RRdwb+8u0JGXC3SOtsg6OaHJC6ABqbUmZoUJjJlnUoDwtbIgBcA
 2017-09-10-mzahnch:
   title: Mzahnch
   titleRu: Мзанч
