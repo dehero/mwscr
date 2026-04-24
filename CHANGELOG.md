@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file.
 
+## [2.24.2](https://github.com/dehero/mwscr/compare/v2.24.1...v2.24.2) (2026-04-24)
+
+### Bug Fixes
+
+- return direct VK posting with new access token receiving logic
+  ([5c12ae9](https://github.com/dehero/mwscr/commit/5c12ae934f29aa34c5699acdd5792c663b35e59c))
+
 ## [2.24.1](https://github.com/dehero/mwscr/compare/v2.24.0...v2.24.1) (2026-04-16)
 
 ### Bug Fixes
