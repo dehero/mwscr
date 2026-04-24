@@ -2002,7 +2002,17 @@
     - service: vk
       id: 3284
       published: 2026-04-17-15-03-42
+      updated: 2026-04-24-06-26-44
       followers: 1433
+      likes: 37
+      views: 464
+      reposts: 2
+      comments: !c |-
+        G+ABACwObGPaB9Vi28Z78NOO9BmBRM/DDSP8GFSgGadF1sQ2wsk9XW22qqF1Q7TvdkwRfhiq9t6+
+        U5vatHsHY2y315rQpK7+9tOqzE5veF4e50fJI0pRjuscy51xIHrflgQayAkHZQGmWeCtnz+8ekHN
+        reG6KPO1yI3Cu/fzTxnff2D5XUvS3BK1uO2uIrN3BRJK1mZ1tMzIZf3T5CwiMUM696ki2/LAlQhp
+        FFIMDXJPdeoJlgo2nDCYyCZLTUgzAMigkKPiH8AV/R/Ebfk+tduR7oz3n82cQ1QVIJMoskxDjXKD
+        bg+SSIzaeYcJbgweqBkh9TEuC2liXpWHdEifAtYWzfs2hKhjFkNusfMqqGp0HLKL8ikx
 2024-05-05-dinner-for-four:
   title: Dinner for Four
   titleRu: Обед на четверых
