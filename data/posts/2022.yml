@@ -395,10 +395,10 @@
     - service: vk
       id: 2523
       published: 2025-07-20-18-36-19
-      updated: 2026-04-17-15-03-20
+      updated: 2026-04-24-16-10-48
       followers: 1349
       likes: 33
-      views: 469
+      views: 470
       reposts: 2
     - service: tg
       id: 922
@@ -414,9 +414,9 @@
       id: DMfFKlHNxqa
       mediaId: '18094952209623610'
       published: 2025-07-24-09-33-10
-      updated: 2026-04-17-13-54-48
+      updated: 2026-04-24-16-07-25
       followers: 1572
-      likes: 56
+      likes: 57
 2022-07-01-tel-aruhn-at-dawn:
   title: Tel Aruhn at Dawn
   titleRu: Тель Арун на заре
@@ -1246,10 +1246,10 @@
     - service: vk
       id: 3049
       published: 2026-01-28-18-37-23
-      updated: 2026-04-17-15-00-35
+      updated: 2026-04-24-16-08-01
       followers: 1591
       likes: 41
-      views: 791
+      views: 795
       reposts: 2
       comments: !c |-
         G0gB4C0LbOc1CMkIdptEaGLPf4URKp3+kRNL+LVJm1R4piNaJjbSyT2dztwIe+EuXNONrGdQINtm
@@ -1310,9 +1310,9 @@
       id: DJhfDECR-oE
       mediaId: '17878519680307342'
       published: 2025-05-11-18-23-34
-      updated: 2026-04-17-13-56-34
+      updated: 2026-04-24-16-09-32
       followers: 1540
-      likes: 83
+      likes: 84
     - service: vk
       id: 2350
       published: 2025-05-11-18-23-47
@@ -1380,7 +1380,7 @@
     - service: vk
       id: 2845
       published: 2025-11-12-18-17-07
-      updated: 2026-04-17-15-01-51
+      updated: 2026-04-24-16-09-12
       followers: 1502
       likes: 102
       views: 1133
