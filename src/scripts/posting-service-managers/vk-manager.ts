@@ -207,9 +207,9 @@ export class VKManager extends VKService implements PostingServiceManager {
         newPublications = await this.publishPostEntryAsStory(entry);
         break;
       default:
-        // Not working until wall.post does not require extended access rights (cannot be received)
-        // newPublications = await this.publishPostEntryAsPhoto(entry);
-        newPublications = await this.publishPostEntryWithRssOptimistic(entry);
+        newPublications = await this.publishPostEntryAsPhoto(entry);
+      // RSS workaround could be used when wall.post requires extended access rights (sometimes cannot be received)
+      // newPublications = await this.publishPostEntryWithRssOptimistic(entry);
     }
 
     post.posts = [...(post.posts ?? []), ...newPublications];

@@ -28,6 +28,11 @@ Copy resulting JSON field named `access_token` to `INSTAGRAM_ACCESS_TOKEN` envir
 
 ## VK
 
+Go to https://vkhost.github.io/, select "Instagram" and follow instruction. Copy received access token to
+`VK_ACCESS_TOKEN` environment variable.
+
+Or use old method, described below, but this does not allow to receive full posting rights for now.
+
 Go to [My apps](https://vk.com/apps?act=manage), find "Morrowind Screenshots" application and select "Manage". There go
 to "Settings" and copy "App ID" to `CLIENT_ID`, "Secure key" to `CLIENT_SECRET` and "Authorized redirect URI" to
 `REDIRECT_URI`.
