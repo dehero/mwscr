@@ -1,7 +1,6 @@
 import type { UploadFile } from '@solid-primitives/upload';
 import { createFileUploader } from '@solid-primitives/upload';
 import { createMemo, createResource, createSignal, For, Show } from 'solid-js';
-import { navigate } from 'vike/client/router';
 import importFormatsRaw from '../../../../assets/import-variants.json';
 import { uploadFiles } from '../../../core/data-managers/uploads-manager.js';
 import type { ImportVariant } from '../../../core/entities/import-variant.js';
@@ -32,6 +31,7 @@ import { useToaster } from '../Toaster/Toaster.jsx';
 import { TopicTooltip } from '../TopicTooltip/TopicTooltip.jsx';
 import { UploadReportDialog } from '../UploadReportDialog/UploadReportDialog.jsx';
 import styles from './PostProposalDialog.module.css';
+import { useNavigate } from '@solidjs/router';
 
 const importVariants = importFormatsRaw as Record<string, ImportVariant>;
 
@@ -69,6 +69,8 @@ async function getRequirementGroups(): Promise<RequirementGroup[]> {
 }
 
 export const PostProposalDialog: DetachedDialog = (props) => {
+  const navigate = useNavigate();
+
   const [submitVariant, setSubmitVariant] = createSignal('site-uploads');
   const submitVariantDescriptor = () => importVariants[submitVariant()];
 
@@ -134,7 +136,6 @@ export const PostProposalDialog: DetachedDialog = (props) => {
             postInfo: await dataManager.getPostInfo('drafts', id),
           });
 
-          // @ts-expect-error No proper typing
           navigate(
             postsRoute.createUrl({ managerName: 'drafts', status: 'added' }) +
               createDetachedDialogFragment('post-proposal'),
@@ -171,7 +172,6 @@ export const PostProposalDialog: DetachedDialog = (props) => {
         await drafts?.addItem({ content: url, type: 'shot', author: USER_UNKNOWN }, id);
         addToast(`"${url}" added to Drafts`);
 
-        // @ts-expect-error No proper typing
         navigate(
           postsRoute.createUrl({ managerName: 'drafts', status: 'added' }) +
             createDetachedDialogFragment('post-proposal'),

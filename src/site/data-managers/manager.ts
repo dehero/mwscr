@@ -1,5 +1,6 @@
 import type { DataManagerArgs } from '../../core/entities/data-manager.js';
 import { DataManager } from '../../core/entities/data-manager.js';
+import type { CommentInfo } from '../../core/entities/comment-info.js';
 import type { LocationInfo } from '../../core/entities/location-info.js';
 import type { PostInfo } from '../../core/entities/post-info.js';
 import type { PostsManagerName } from '../../core/entities/posts-manager.js';
@@ -21,6 +22,28 @@ class SiteDataManager extends DataManager {
         this.clearCache();
       });
     }
+  }
+
+  async getAllCommentInfos(): Promise<CommentInfo[]> {
+    if (this.patchSize > 0) {
+      return super.getAllCommentInfos();
+    }
+
+    return this.createCache(this.getAllCommentInfos.name, async () => {
+      const filename = '/data/comment-infos.json';
+
+      try {
+        const data = JSON.parse(await fetch(filename).then((r) => r.text()), jsonDateReviver) as unknown;
+
+        if (!Array.isArray(data)) {
+          throw new TypeError(`File "${filename}" expected to be the array of comment infos`);
+        }
+
+        return data;
+      } catch (error) {
+        throw new Error(`Failed to load "${filename}": ${error}`);
+      }
+    });
   }
 
   async getAllLocationInfos(): Promise<LocationInfo[]> {
@@ -72,7 +95,6 @@ class SiteDataManager extends DataManager {
     if (this.patchSize > 0) {
       return super.getAllTagInfos();
     }
-
     return this.createCache(this.getAllTagInfos.name, async () => {
       const filename = '/data/tag-infos.json';
 

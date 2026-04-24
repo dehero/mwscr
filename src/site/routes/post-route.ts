@@ -1,8 +1,13 @@
+import { query, RoutePreloadFuncArgs } from '@solidjs/router';
 import { createPostPath, type PostsManagerName } from '../../core/entities/posts-manager.js';
 import type { SiteRoute, SiteRouteParams } from '../../core/entities/site-route.js';
-import type { PostPageData } from '../components/PostPage/PostPage.data.js';
-import { getPostPageData } from '../components/PostPage/PostPage.data.js';
-import type { PostPageSearchParams } from '../components/PostPage/PostPage.jsx';
+import type { PostPageData } from '../pages/PostPage/PostPage.data.js';
+import { getPostPageData } from '../pages/PostPage/PostPage.data.js';
+import type { PostPageSearchParams } from '../pages/PostPage/PostPage.jsx';
+import { dataManager } from '../data-managers/manager.js';
+import { lazy } from 'solid-js';
+
+const queryPostPageData = query(async (params) => getPostPageData(dataManager, params), 'post');
 
 export interface PostRouteParams extends SiteRouteParams, PostPageSearchParams {
   managerName: PostsManagerName;
@@ -10,13 +15,11 @@ export interface PostRouteParams extends SiteRouteParams, PostPageSearchParams {
 }
 
 export const postRoute: SiteRoute<PostRouteParams, PostPageData> = {
-  path: '/@managerName/@id',
-  meta: (params, data) => ({
-    title: data?.title || params.id,
-    description: `Information, content, statistics and comments of ${params.managerName} post "${
-      data?.title || params.id
-    }" in Morrowind Screenshots project.`,
-    imageUrl: data?.content,
+  path: '/:managerName/:id',
+  info: (params) => ({
+    title: params.id,
+    description: `Information, content, statistics and comments of ${params.managerName} post "${params.id}" in Morrowind Screenshots project.`,
+    // imageUrl: data?.content,
   }),
   createUrl: (params) => {
     const { managerName, id, ...rest } = params;
@@ -26,6 +29,6 @@ export const postRoute: SiteRoute<PostRouteParams, PostPageData> = {
 
     return `/${createPostPath(managerName, id)}/${searchParams.size > 0 ? '?' : ''}${searchParams.toString()}`;
   },
-  getData: getPostPageData,
-  // dynamic: true,
+  component: lazy(() => import('../pages/PostPage/PostPage.jsx')),
+  preload: ({ params }) => queryPostPageData(params),
 };

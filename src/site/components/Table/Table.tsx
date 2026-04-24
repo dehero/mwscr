@@ -1,12 +1,10 @@
 import clsx from 'clsx';
 import { type Component, createMemo, type JSX, Show } from 'solid-js';
 import { Dynamic } from 'solid-js/web';
-import { clientOnly } from 'vike-solid/clientOnly';
 import { formatDate } from '../../../core/utils/date-utils.js';
 import { Body } from './Body.jsx';
 import styles from './Table.module.css';
-
-const ClientVirtualBody = clientOnly(() => import('./VirtualBody.js'));
+import VirtualBody from './VirtualBody.jsx';
 
 type TableValue = string | number | Date | (() => JSX.Element) | undefined;
 
@@ -91,12 +89,7 @@ export const Table: Component<TableProps> = (props) => {
         </div>
       </Show>
 
-      <ClientVirtualBody
-        {...props}
-        rows={rows()}
-        onInitialize={handleInitialize}
-        fallback={<Body {...props} rows={rows()} onInitialize={handleInitialize} />}
-      />
+      <VirtualBody {...props} rows={rows()} onInitialize={handleInitialize} />
     </div>
   );
 };

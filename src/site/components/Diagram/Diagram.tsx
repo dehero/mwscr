@@ -1,10 +1,8 @@
 import clsx from 'clsx';
 import { type Component, Show } from 'solid-js';
-import { clientOnly } from 'vike-solid/clientOnly';
 import { Frame } from '../Frame/Frame.jsx';
 import styles from './Diagram.module.css';
-
-const ClientVirtualDiagram = clientOnly(() => import('./ClientVirtualDiagram.js'));
+import ClientVirtualDiagram from './ClientVirtualDiagram.jsx';
 
 export interface DiagramInterval<TItem> {
   interval: unknown;
@@ -39,16 +37,5 @@ export interface DiagramProps<TItem> {
 }
 
 export function Diagram<TItem>(props: DiagramProps<TItem>) {
-  return (
-    <ClientVirtualDiagram
-      {...(props as DiagramProps<unknown>)}
-      fallback={
-        <Frame class={clsx(styles.container, props.class)}>
-          <Show when={props.label}>
-            <p class={styles.label}>{props.label}</p>
-          </Show>
-        </Frame>
-      }
-    />
-  );
+  return <ClientVirtualDiagram {...(props as DiagramProps<unknown>)} />;
 }

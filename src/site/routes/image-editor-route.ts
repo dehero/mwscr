@@ -1,11 +1,12 @@
-import type { SiteRoute, SiteRouteParams } from '../../core/entities/site-route.js';
+import type { SiteRoute } from '../../core/entities/site-route.js';
+import { lazy } from 'solid-js';
 
-export const imageEditorRoute: SiteRoute<SiteRouteParams, undefined> = {
+export const imageEditorRoute: SiteRoute = {
   path: '/image-editor',
-  meta: () => ({
+  info: () => ({
     label: 'Image Editor',
     title: 'Image Editor',
   }),
   createUrl: () => '/image-editor',
-  getData: async () => undefined,
+  component: lazy(() => import('../pages/ImageEditorPage/ImageEditorPage.jsx')),
 };

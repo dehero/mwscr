@@ -1,13 +1,10 @@
 import { type Component, For, Show } from 'solid-js';
-import { navigate } from 'vike/client/router';
-import { usePageContext } from 'vike-solid/usePageContext';
 import type { Option } from '../../../core/entities/option.js';
 import { useLocalPatch } from '../../hooks/useLocalPatch.js';
 import { useRouteInfo } from '../../hooks/useRouteInfo.js';
 import { helpRoute } from '../../routes/help-route.js';
 import { homeRoute } from '../../routes/home-route.js';
 import type { RouteMatch } from '../../routes/index.js';
-import { resolveFirstRoute } from '../../routes/index.js';
 import { postsRoute } from '../../routes/posts-route.js';
 import { usersRoute } from '../../routes/users-route.js';
 import { Button } from '../Button/Button.js';
@@ -15,6 +12,7 @@ import { DataPatchSelect } from '../DataPatchSelect/DataPatchSelect.jsx';
 import { createDetachedDialogFragment } from '../DetachedDialogsProvider/DetachedDialogsProvider.jsx';
 import { Select } from '../Select/Select.js';
 import styles from './Navigation.module.css';
+import { useLocation, useNavigate } from '@solidjs/router';
 
 const navigationItems = [
   { route: homeRoute, params: {} },
@@ -27,7 +25,7 @@ const navigationItems = [
 ] as RouteMatch[];
 
 export function createOption({ route, params }: RouteMatch): Option {
-  const info = route.meta(params as never);
+  const info = route.info(params as never);
   const url = route.createUrl(params as never);
 
   return {
@@ -37,9 +35,11 @@ export function createOption({ route, params }: RouteMatch): Option {
 }
 
 export const Navigation: Component = () => {
-  const pageContext = usePageContext();
-  const pathname = () => pageContext.urlPathname;
-  const meta = () => useRouteInfo(pageContext).meta();
+  const navigate = useNavigate();
+  const location = useLocation();
+  const pathname = () => location.pathname;
+  // const pathname = () => pageContext.urlPathname;
+  // const meta = () => useRouteInfo(pageContext).meta();
 
   const [patchSize] = useLocalPatch();
 
@@ -53,26 +53,26 @@ export const Navigation: Component = () => {
           : undefined,
     );
 
-  const breadcrumbs = () => {
-    const parts = ['', ...pathname().split('/').filter(Boolean)];
-    const options: Option[] = [];
-    const locationMeta = meta();
+  // const breadcrumbs = () => {
+  //   const parts = ['', ...pathname().split('/').filter(Boolean)];
+  //   const options: Option[] = [];
+  //   const locationMeta = meta();
 
-    let url = '';
+  //   let url = '';
 
-    parts.pop();
+  //   parts.pop();
 
-    for (const part of parts) {
-      url += `${part}/`;
+  //   for (const part of parts) {
+  //     url += `${part}/`;
 
-      const item = resolveFirstRoute(url);
-      options.push(createOption(item));
-    }
+  //     const item = resolveFirstRoute(url);
+  //     options.push(createOption(item));
+  //   }
 
-    options.push({ label: locationMeta.label || locationMeta.title || 'unknown', value: pathname() });
+  //   options.push({ label: locationMeta.label || locationMeta.title || 'unknown', value: pathname() });
 
-    return options;
-  };
+  //   return options;
+  // };
 
   return (
     <nav class={styles.container}>
@@ -94,12 +94,11 @@ export const Navigation: Component = () => {
       </For>
       <Select
         options={options()}
-        // @ts-expect-error No proper typing for navigate
-        onChange={(value) => navigate(value)}
+        onChange={(value) => navigate(value ?? '#')}
         value={selectedOption()?.value}
         class={styles.menu}
       />{' '}
-      <Show when={breadcrumbs().length > 1}>
+      {/* <Show when={breadcrumbs().length > 1}>
         <span class={styles.breadcrumbs}>
           <For each={breadcrumbs()}>
             {(breadcrumb, index) => (
@@ -114,7 +113,7 @@ export const Navigation: Component = () => {
             )}
           </For>
         </span>
-      </Show>
+      </Show> */}
     </nav>
   );
 };

@@ -1,13 +1,13 @@
 import type { SiteRoute, SiteRouteParams } from '../../core/entities/site-route.js';
-import type { UsersPageData } from '../components/UsersPage/UsersPage.data.js';
-import { getUsersPageData } from '../components/UsersPage/UsersPage.data.js';
-import type { UsersPageSearchParams } from '../components/UsersPage/UsersPage.js';
+import type { UsersPageData } from '../pages/UsersPage/UsersPage.data.js';
+import { getUsersPageData } from '../pages/UsersPage/UsersPage.data.js';
+import { UsersPage, type UsersPageSearchParams } from '../pages/UsersPage/UsersPage.jsx';
 
 export interface UsersRouteParams extends SiteRouteParams, UsersPageSearchParams {}
 
 export const usersRoute: SiteRoute<UsersRouteParams, UsersPageData> = {
   path: '/users',
-  meta: () => ({
+  info: () => ({
     title: 'Members',
     description: 'List of members of Morrowind Screenshots project.',
   }),
@@ -19,4 +19,5 @@ export const usersRoute: SiteRoute<UsersRouteParams, UsersPageData> = {
     return `/users/${searchParams.size > 0 ? '?' : ''}${searchParams.toString()}`;
   },
   getData: getUsersPageData,
+  component: UsersPage,
 };

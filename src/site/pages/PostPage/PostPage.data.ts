@@ -1,0 +1,56 @@
+import type { DataManager } from '../../../core/entities/data-manager.js';
+import type { LocationInfo } from '../../../core/entities/location-info.js';
+import type { PostContent, PostTitle } from '../../../core/entities/post.js';
+import type { Publication } from '../../../core/entities/publication.js';
+import type { TagInfo } from '../../../core/entities/tag-info.js';
+import { type PostRouteParams } from '../../routes/post-route.js';
+
+export interface PostPageData {
+  title: PostTitle | undefined;
+  content: PostContent | undefined;
+  repostIds: string[] | undefined;
+  publications: Publication[] | undefined;
+  tagInfos: TagInfo[] | undefined;
+  locationInfos: LocationInfo[] | undefined;
+  worldMapLocationInfo: LocationInfo | undefined;
+}
+
+export async function getPostPageData(
+  dataManager: DataManager,
+  params: PostRouteParams,
+): Promise<PostPageData | undefined> {
+  const manager = dataManager.findPostsManager(params.managerName);
+  if (!manager) {
+    return;
+  }
+
+  const [, post, , refId] = params.id ? await manager.getEntry(params.id) : [];
+  if (!post || refId) {
+    return;
+  }
+
+  const repostIds = (await manager.getAllEntries()).filter((entry) => entry[3] === params.id).map((entry) => entry[0]);
+
+  let tagInfos;
+  let locationInfos;
+  let worldMapLocationInfo;
+
+  if (post.tags) {
+    tagInfos = await dataManager.getTagInfos(post.tags);
+  }
+
+  if (post.location) {
+    locationInfos = await dataManager.getLocationInfos(post.location);
+    worldMapLocationInfo = await dataManager.findWorldMapLocationInfo(post.location);
+  }
+
+  return {
+    title: post.title,
+    content: post.content,
+    publications: post.posts,
+    repostIds,
+    tagInfos,
+    locationInfos,
+    worldMapLocationInfo,
+  };
+}

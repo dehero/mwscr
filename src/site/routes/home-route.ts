@@ -1,13 +1,20 @@
+import { query } from '@solidjs/router';
 import type { SiteRoute, SiteRouteParams } from '../../core/entities/site-route.js';
-import type { HomePageData } from '../components/HomePage/HomePage.data.js';
-import { getHomePageData } from '../components/HomePage/HomePage.data.js';
+import type { HomePageData } from '../pages/HomePage/HomePage.data.js';
+import { getHomePageData } from '../pages/HomePage/HomePage.data.js';
+import { dataManager } from '../data-managers/manager.js';
+import { lazy } from 'solid-js';
+
+const queryHomePageData = query(async () => getHomePageData(dataManager), 'home');
+const preload = () => queryHomePageData();
 
 export const homeRoute: SiteRoute<SiteRouteParams, HomePageData> = {
   path: '/',
-  meta: () => ({
+  info: () => ({
     label: 'Home',
     title: '',
   }),
   createUrl: () => '/',
-  getData: getHomePageData,
+  component: lazy(() => import('../pages/HomePage/HomePage.jsx')),
+  preload,
 };

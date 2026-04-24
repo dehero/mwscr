@@ -1,15 +1,17 @@
 import type { Accessor } from 'solid-js';
 import { createMemo, createSignal, onMount } from 'solid-js';
-import { navigate } from 'vike/client/router';
-import { usePageContext } from 'vike-solid/usePageContext';
 import { unknownToString } from '../../core/utils/common-utils.js';
+import { useLocation, useNavigate } from '@solidjs/router';
 
 export function useSearchParams<TSearchParams extends object>(): [
   Accessor<TSearchParams>,
   (searchParams: Partial<Record<keyof TSearchParams, unknown>>) => void,
 ] {
+  const navigate = useNavigate();
+  const location = useLocation();
+
   const [mounted, setMounted] = createSignal(false);
-  const searchParams = createMemo(() => (mounted() ? usePageContext().urlParsed.search : {}) as TSearchParams);
+  const searchParams = createMemo(() => (mounted() ? location.search : {}) as TSearchParams);
 
   onMount(() => setMounted(true));
 
@@ -23,8 +25,8 @@ export function useSearchParams<TSearchParams extends object>(): [
         url.searchParams.delete(key);
       }
     });
-    // @ts-expect-error No proper type for `navigate`
-    navigate(url.pathname + url.search + url.hash, { overwriteLastHistoryEntry: true });
+
+    navigate(url.pathname + url.search + url.hash, { replace: true });
   };
 
   return [searchParams, setSearchParams];

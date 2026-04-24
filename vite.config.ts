@@ -1,36 +1,27 @@
 import path from 'path';
 import fastGlob from 'fast-glob';
 import { load } from 'js-yaml';
-import vike from 'vike/plugin';
-import vikeSolid from 'vike-solid/vite';
 import { defineConfig } from 'vite';
 import { imagetools } from 'vite-imagetools';
-import multiplePublicDirPlugin from 'vite-multiple-assets';
 import { viteStaticCopy } from 'vite-plugin-static-copy';
 import pkg from './package.json';
 import { PostsManagerName } from './src/core/entities/posts-manager.js';
 import { createTopicEntryFromMarkdown } from './src/core/entities/topic.js';
 import { dataManager } from './src/scripts/data-managers/manager.js';
 import { YAML_SCHEMA } from './src/scripts/data-managers/utils/yaml.js';
-import { getConstantRedirects } from './src/scripts/utils/vite-utils.js';
+// import { getConstantRedirects } from './src/scripts/utils/vite-utils.js';
+import solidPlugin from 'vite-plugin-solid';
 
-export default defineConfig(async ({ isSsrBuild }) => ({
+export default defineConfig(() => ({
   root: 'src/site',
+  publicDir: 'public',
   define: {
     'import.meta.env.VITE_APP_VERSION': JSON.stringify('version' in pkg ? pkg.version : 'unknown'),
   },
   plugins: [
     imagetools(),
-    // TODO: add sitemap after https://github.com/vikejs/vike/issues/1451 gets resolved
-    vike({
-      prerender: true,
-      trailingSlash: true,
-      redirects: Object.fromEntries(await getConstantRedirects()),
-    }),
-    vikeSolid(),
-    multiplePublicDirPlugin(['assets', 'src/site/public'], {
-      ssr: isSsrBuild,
-    }),
+    // TODO: add sitemap
+    solidPlugin(),
     viteStaticCopy({
       targets: [
         {
@@ -82,6 +73,12 @@ export default defineConfig(async ({ isSsrBuild }) => ({
           transform: async () => JSON.stringify(await dataManager.getAllUserInfos()),
           rename: 'user-infos.json',
         },
+        {
+          src: '../../data/**/*.yml',
+          dest: 'data',
+          transform: async () => JSON.stringify(await dataManager.getAllCommentInfos()),
+          rename: 'comment-infos.json',
+        },
         ...PostsManagerName.options.map((name) => ({
           src: `../../data/${name}/*.yml`,
           dest: `data/${name}`,
@@ -95,13 +92,17 @@ export default defineConfig(async ({ isSsrBuild }) => ({
           rename: `infos.json`,
         },
         {
-          src: 'public/.htaccess',
+          src: '../../assets/*',
           dest: '',
-          transform: async (content) => {
-            const redirects = [...(await getConstantRedirects())].map(([from, to]) => `Redirect 301 ${from} ${to}`);
-            return `${redirects.join('\n')}\n\n${content}`;
-          },
         },
+        // {
+        //   src: 'public/.htaccess',
+        //   dest: '',
+        //   transform: async (content) => {
+        //     const redirects = [...(await getConstantRedirects())].map(([from, to]) => `Redirect 301 ${from} ${to}`);
+        //     return `${redirects.join('\n')}\n\n${content}`;
+        //   },
+        // },
       ],
     }),
   ],
@@ -109,7 +110,7 @@ export default defineConfig(async ({ isSsrBuild }) => ({
     port: 3000,
     proxy: {
       '/uploads': {
-        target: 'http://localhost:8080',
+        target: 'http:/localhost:8080',
         changeOrigin: true,
         rewrite: (path: string) => path.replace(/^\/uploads/, '/uploads'),
       },

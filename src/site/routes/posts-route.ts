@@ -1,9 +1,15 @@
 import { PostType, postTypeDescriptors } from '../../core/entities/post.js';
-import type { PostsManagerName } from '../../core/entities/posts-manager.js';
+import { PostsManagerName } from '../../core/entities/posts-manager.js';
 import type { SiteRoute } from '../../core/entities/site-route.js';
-import type { PostsPageData, PostsPageParams } from '../components/PostsPage/PostsPage.data.js';
-import { getPostsPageData } from '../components/PostsPage/PostsPage.data.js';
-import type { PostsPageInfo } from '../components/PostsPage/PostsPage.js';
+import type { PostsPageData, PostsPageParams } from '../pages/PostsPage/PostsPage.data.js';
+import { getPostsPageData } from '../pages/PostsPage/PostsPage.data.js';
+import type { PostsPageInfo } from '../pages/PostsPage/PostsPage.jsx';
+import { query, RoutePreloadFuncArgs } from '@solidjs/router';
+import { dataManager } from '../data-managers/manager.js';
+import { lazy } from 'solid-js';
+
+const queryPostsPageData = query(async (params) => getPostsPageData(dataManager, params), 'posts');
+const preload = ({ params }: RoutePreloadFuncArgs) => queryPostsPageData(params);
 
 export const postsRouteInfos: Record<PostsManagerName, PostsPageInfo> = {
   posts: {
@@ -83,9 +89,11 @@ export const postsRouteInfos: Record<PostsManagerName, PostsPageInfo> = {
 };
 
 export const postsRoute: SiteRoute<PostsPageParams, PostsPageData, PostsPageInfo> = {
-  path: '/@managerName',
-  guard: ({ managerName }) => Object.keys(postsRouteInfos).includes(managerName),
-  meta: ({ managerName }) => postsRouteInfos[managerName],
+  path: '/:managerName',
+  matchFilters: {
+    managerName: PostsManagerName.options,
+  },
+  info: ({ managerName }) => postsRouteInfos[managerName],
   createUrl: (params) => {
     const { managerName, ...rest } = params;
     const searchParams = new URLSearchParams(
@@ -94,5 +102,6 @@ export const postsRoute: SiteRoute<PostsPageParams, PostsPageData, PostsPageInfo
 
     return `/${managerName}/${searchParams.size > 0 ? '?' : ''}${searchParams.toString()}`;
   },
-  getData: getPostsPageData,
+  component: lazy(() => import('../pages/PostsPage/PostsPage.jsx')),
+  preload,
 };

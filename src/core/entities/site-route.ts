@@ -1,5 +1,6 @@
+import type { RoutePreloadFuncArgs, RouteSectionProps } from '@solidjs/router';
 import { cleanupUndefinedProps } from '../utils/common-utils.js';
-import type { DataManager } from './data-manager.js';
+import type { Component, JSX } from 'solid-js';
 
 const SITE_ROUTE_FRAGMENT_REGEX = /^#([^?]+)(\?.+)?$/;
 
@@ -10,33 +11,37 @@ export interface SiteRouteMeta {
   imageUrl?: string | string[];
 }
 
-export type SiteRouteParams = Record<string, string | string[] | undefined>;
+export type SiteRouteParams = Record<string, string | undefined>; //string[] | undefined>;
+
+export interface SiteRoutePreloadArgs<TParams extends SiteRouteParams> extends RoutePreloadFuncArgs {
+  params: TParams;
+}
+
+export type SiteRoutePreload<TParams extends SiteRouteParams, TData extends unknown> = (
+  args: SiteRoutePreloadArgs<TParams>,
+) => Promise<TData | undefined>;
 
 export interface SiteRouteFragment {
   pathname?: string;
   searchParams?: SiteRouteParams;
 }
 
-export interface SiteRoute<
-  TParams extends SiteRouteParams = SiteRouteParams,
-  TData extends unknown = unknown,
-  TMeta extends SiteRouteMeta = SiteRouteMeta,
-> {
+export interface SiteRoute<TParams extends SiteRouteParams = SiteRouteParams, TData extends unknown = unknown> {
   path: string;
-  guard?: (params: TParams) => boolean;
-  createUrl: (params: TParams) => string;
-  meta: (params: TParams, data?: TData) => TMeta;
-  mapParams?: (params: Record<string, string>) => TParams;
-  getData: (dataManager: DataManager, params: TParams) => Promise<TData>;
-  // dynamic?: boolean;
+  info: (params: TParams) => SiteRouteMeta;
+  component: SiteRoutePage<TParams, TData>;
+  preload: SiteRoutePreload<TParams, TData>;
+  createUrl: (params: TParams, data?: TData) => string;
 }
 
-export interface SiteRouteInfo<TParams extends SiteRouteParams, TData, TMeta extends SiteRouteMeta> {
-  meta: () => TMeta;
-  data: () => TData;
-  params: () => TParams;
-  loading: () => boolean;
+export interface SiteRoutePageProps<TParams extends SiteRouteParams, TData extends unknown>
+  extends RouteSectionProps<Promise<TData | undefined>> {
+  params: TParams;
 }
+
+export type SiteRoutePage<TParams extends SiteRouteParams, TData extends unknown> = Component<
+  SiteRoutePageProps<TParams, TData>
+>;
 
 export function parseSiteRouteFragment(fragment: string): SiteRouteFragment {
   const [, pathname, search] = SITE_ROUTE_FRAGMENT_REGEX.exec(fragment) ?? [];
