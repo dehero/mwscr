@@ -1054,24 +1054,28 @@
       id: DXZ79P5D4ur
       mediaId: '18575644720056495'
       published: 2026-04-21-19-21-49
-      updated: 2026-04-23-19-15-39
+      updated: 2026-04-24-19-56-04
       followers: 1623
-      likes: 66
+      likes: 71
     - service: vk
       id: 3303
       published: 2026-04-21-19-21-54
-      updated: 2026-04-23-19-15-34
+      updated: 2026-04-24-19-56-08
       followers: 1434
-      likes: 53
-      views: 704
+      likes: 55
+      views: 796
       reposts: 2
+      comments: !c |-
+        G/IA4J0Jti2Dbbiy6hGpkR/19DfS5/o1S7BJMMJkT90WWjI2MRgMeUwG5/8MWVtezBl3WfF33ScN
+        gDZdt4S9ZQMdnB6UDykPOYGEMjgHFnjCUpY0Ln375/31fn8PyHdSJy6t/P4FqoPFG9GToXa3d91m
+        pBQRvmVu4wJp0pogejic5xfEOUpXMDGTlGCY5q4fwAaCiJNIRIEOx7T/tK4q
     - service: tg
       id: 1216
       published: 2026-04-21-19-22-01
-      updated: 2026-04-23-19-15-33
+      updated: 2026-04-24-19-55-58
       followers: 900
-      likes: 49
-      views: 209
+      likes: 51
+      views: 230
     - service: mx
       id: '1776799325950'
       published: 2026-04-21-19-22-05
