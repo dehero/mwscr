@@ -1407,7 +1407,7 @@ dehero:
       avatar: store:/avatars/gh-c8afe641.jpg
     - service: vk
       id: '3652910'
-      updated: 2026-04-24-16-10-51
+      updated: 2026-04-24-17-53-42
       username: dehero
       name: Антон Курьянов
       avatar: store:/avatars/vk-5356f76e.jpg
@@ -1977,7 +1977,7 @@ evil-kit:
   profiles:
     - service: vk
       id: '153155138'
-      updated: 2026-04-22-17-07-58
+      updated: 2026-04-24-17-53-41
       username: evil_kit
       name: Никита Метелкин
       avatar: store:/avatars/vk-adb64972.jpg
