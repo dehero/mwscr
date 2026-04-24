@@ -1650,7 +1650,7 @@ dremarretres:
   profiles:
     - service: vk
       id: '801308664'
-      updated: 2026-04-24-16-08-44
+      updated: 2026-04-24-21-52-10
       username: dremarretres
       name: Джон Шепард
       avatar: store:/avatars/vk-ac4f0700.jpg
@@ -3548,7 +3548,7 @@ mbdtsmo:
   profiles:
     - service: tg
       id: '5093097514'
-      updated: 2026-04-24-20-53-49
+      updated: 2026-04-24-21-51-58
       accessHash: '-613358669572386334'
       username: mbdtsmo
       name: M Bdtsmo
@@ -5019,7 +5019,7 @@ sergey-b-2:
   profiles:
     - service: vk
       id: '1077446394'
-      updated: 2026-04-24-19-56-11
+      updated: 2026-04-24-21-52-10
       username: id1077446394
       name: Сергей Б
       avatar: store:/avatars/vk-4deb0770.jpg
