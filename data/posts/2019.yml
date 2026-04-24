@@ -60,7 +60,7 @@
     - service: tg
       id: 915
       published: 2025-07-12-18-22-31
-      updated: 2026-04-17-11-03-37
+      updated: 2026-04-24-12-03-21
       followers: 761
       likes: 59
       views: 607
@@ -497,7 +497,7 @@
     - service: tg
       id: 930
       published: 2025-07-28-18-40-17
-      updated: 2026-04-17-11-03-30
+      updated: 2026-04-24-12-03-17
       followers: 769
       likes: 79
       views: 776
@@ -745,9 +745,9 @@
       id: DTyH2LzDy0H
       mediaId: '18051578093693758'
       published: 2026-01-21-18-41-54
-      updated: 2026-04-17-11-02-32
+      updated: 2026-04-24-12-02-02
       followers: 1608
-      likes: 69
+      likes: 70
       comments: !c CxWAkZPLQnm+VpQNgACpc2hub3p3YXJktUkgY2FuIGhlYXIgdGhpcyBpbWFnZQM=
     - service: vk
       id: 3018
@@ -769,10 +769,10 @@
     - service: tg
       id: 1127
       published: 2026-01-21-18-42-09
-      updated: 2026-04-17-11-01-17
+      updated: 2026-04-24-12-01-14
       followers: 886
       likes: 72
-      views: 585
+      views: 589
       comments: !c CwuAkZPLQnm+ifpBgACma2V2eS1jpPCfpoAD
 2019-02-21-skaal-lantern:
   title: Skaal Lantern
@@ -829,7 +829,7 @@
     - service: tg
       id: 899
       published: 2025-06-28-18-25-44
-      updated: 2026-04-17-11-03-42
+      updated: 2026-04-24-12-03-24
       followers: 758
       likes: 65
       views: 652
@@ -1551,9 +1551,9 @@
       id: DVok6CZl7Ra
       mediaId: '17961921570046424'
       published: 2026-03-08-18-46-14
-      updated: 2026-04-17-11-01-24
+      updated: 2026-04-24-12-00-47
       followers: 1612
-      likes: 47
+      likes: 48
     - service: vk
       id: 3160
       published: 2026-03-08-18-46-21
@@ -1740,9 +1740,9 @@
       id: DVJmuxJgI_T
       mediaId: '18005203880851381'
       published: 2026-02-24-18-05-42
-      updated: 2026-04-17-11-01-45
+      updated: 2026-04-24-12-01-13
       followers: 1607
-      likes: 60
+      likes: 61
     - service: vk
       id: 3107
       published: 2026-02-24-18-05-50
@@ -2269,9 +2269,9 @@
       id: DWo8JZpl4fE
       mediaId: '18099392656799070'
       published: 2026-04-02-18-40-43
-      updated: 2026-04-17-11-00-33
+      updated: 2026-04-24-12-00-18
       followers: 1617
-      likes: 70
+      likes: 71
     - service: vk
       id: 3245
       published: 2026-04-02-18-40-57
@@ -2283,10 +2283,10 @@
     - service: tg
       id: 1200
       published: 2026-04-02-18-41-02
-      updated: 2026-04-17-11-00-32
+      updated: 2026-04-24-12-00-21
       followers: 899
       likes: 61
-      views: 435
+      views: 494
       comments: !c |-
         G90AUJwHdgwZY2Gtiw62gFD88/6N9M0/eEhtEVcCBZRAcq62jQypmG1V0CqGOu9uMPymbj5QIpGF
         JTTG0P9NXbS1ELdYWObNFevkSA94wwPw520tkpDPieYB1ya0GLHWKOG8f8XxFxWmZxfibCevbA1C
