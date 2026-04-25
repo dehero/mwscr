@@ -4423,9 +4423,9 @@
       id: DXXN-sMEWx0
       mediaId: '18581497765010664'
       published: 2026-04-20-18-01-37
-      updated: 2026-04-24-17-52-34
+      updated: 2026-04-25-18-58-25
       followers: 1622
-      likes: 72
+      likes: 73
     - service: vk
       id: 3299
       published: 2026-04-20-18-01-57
@@ -4440,10 +4440,10 @@
     - service: tg
       id: 1214
       published: 2026-04-20-18-02-06
-      updated: 2026-04-24-17-52-25
+      updated: 2026-04-25-18-58-17
       followers: 899
-      likes: 53
-      views: 257
+      likes: 55
+      views: 281
     - service: mx
       id: '1776708130968'
       published: 2026-04-20-18-02-11
@@ -9185,24 +9185,24 @@
       id: DXcgiELDz93
       mediaId: '17864494821548949'
       published: 2026-04-22-19-19-53
-      updated: 2026-04-24-18-57-57
+      updated: 2026-04-25-18-58-23
       followers: 1624
-      likes: 50
+      likes: 52
     - service: vk
       id: 3307
       published: 2026-04-22-19-19-59
-      updated: 2026-04-24-18-57-54
+      updated: 2026-04-25-18-58-19
       followers: 1435
       likes: 48
-      views: 553
+      views: 605
       reposts: 2
     - service: tg
       id: 1217
       published: 2026-04-22-19-20-08
-      updated: 2026-04-24-18-57-53
+      updated: 2026-04-25-18-58-15
       followers: 899
-      likes: 49
-      views: 204
+      likes: 51
+      views: 235
     - service: mx
       id: '1776885614814'
       published: 2026-04-22-19-20-14
@@ -9899,6 +9899,23 @@
       followers: 557
       likes: 68
       views: 578
+    - service: ig
+      id: DXkMkFDIIQF
+      mediaId: '18114478282776379'
+      published: 2026-04-25-18-59-21
+      followers: 1625
+    - service: vk
+      id: 3320
+      published: 2026-04-25-18-59-29
+      followers: 1430
+    - service: tg
+      id: 1220
+      published: 2026-04-25-18-59-34
+      followers: 899
+    - service: mx
+      id: '1777143579230'
+      published: 2026-04-25-18-59-39
+      followers: 22
 2017-07-13-corpse-preparation-volume-one:
   title: Corpse Preparation, Volume One
   titleRu: О подготовке тел, т. I
