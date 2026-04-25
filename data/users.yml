@@ -601,7 +601,7 @@ arya-stark:
   profiles:
     - service: vk
       id: '820702664'
-      updated: 2026-04-24-16-10-55
+      updated: 2026-04-25-07-22-34
       username: id820702664
       name: Арья Старк
       avatar: store:/avatars/vk-689aa89d.jpg
@@ -1407,7 +1407,7 @@ dehero:
       avatar: store:/avatars/gh-c8afe641.jpg
     - service: vk
       id: '3652910'
-      updated: 2026-04-24-17-53-42
+      updated: 2026-04-25-07-22-30
       username: dehero
       name: Антон Курьянов
       avatar: store:/avatars/vk-5356f76e.jpg
@@ -2009,7 +2009,7 @@ feanor2la:
   profiles:
     - service: vk
       id: '16294877'
-      updated: 2026-04-24-16-09-52
+      updated: 2026-04-25-07-22-30
       username: feanor2la
       name: Иван Урлапов
       avatar: store:/avatars/vk-14fd45f0.jpg
@@ -2723,7 +2723,7 @@ ivan-uralov:
   profiles:
     - service: vk
       id: '16497155'
-      updated: 2026-04-24-19-56-08
+      updated: 2026-04-25-07-22-37
       username: id16497155
       name: Иван Уралов
       avatar: store:/avatars/vk-51775759.jpg
@@ -3548,7 +3548,7 @@ mbdtsmo:
   profiles:
     - service: tg
       id: '5093097514'
-      updated: 2026-04-25-05-14-42
+      updated: 2026-04-25-07-22-14
       accessHash: '-613358669572386334'
       username: mbdtsmo
       name: M Bdtsmo
@@ -4443,7 +4443,7 @@ pkellerman:
   profiles:
     - service: vk
       id: '11823909'
-      updated: 2026-04-24-16-09-40
+      updated: 2026-04-25-07-22-28
       username: pkellerman
       name: Антон Подлужный
       avatar: store:/avatars/vk-9bff06f8.jpg
@@ -5019,7 +5019,7 @@ sergey-b-2:
   profiles:
     - service: vk
       id: '1077446394'
-      updated: 2026-04-24-21-52-10
+      updated: 2026-04-25-07-22-37
       username: id1077446394
       name: Сергей Б
       avatar: store:/avatars/vk-4deb0770.jpg
