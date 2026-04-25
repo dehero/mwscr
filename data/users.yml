@@ -2723,7 +2723,7 @@ ivan-uralov:
   profiles:
     - service: vk
       id: '16497155'
-      updated: 2026-04-25-07-22-37
+      updated: 2026-04-25-20-42-33
       username: id16497155
       name: Иван Уралов
       avatar: store:/avatars/vk-51775759.jpg
@@ -3548,7 +3548,7 @@ mbdtsmo:
   profiles:
     - service: tg
       id: '5093097514'
-      updated: 2026-04-25-19-50-52
+      updated: 2026-04-25-20-42-21
       accessHash: '-613358669572386334'
       username: mbdtsmo
       name: M Bdtsmo
