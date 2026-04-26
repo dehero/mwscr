@@ -487,7 +487,7 @@ ansis:
   profiles:
     - service: tg
       id: '517050552'
-      updated: 2026-04-26-20-42-28
+      updated: 2026-04-26-21-41-12
       accessHash: '5231096655311395455'
       username: ansis
       name: ansis
@@ -2723,7 +2723,7 @@ ivan-uralov:
   profiles:
     - service: vk
       id: '16497155'
-      updated: 2026-04-25-20-42-33
+      updated: 2026-04-26-21-41-13
       username: id16497155
       name: Иван Уралов
       avatar: store:/avatars/vk-51775759.jpg
