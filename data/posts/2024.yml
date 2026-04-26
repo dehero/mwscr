@@ -1446,21 +1446,21 @@
       id: DXhn997DAVC
       mediaId: '17949125361076354'
       published: 2026-04-24-19-01-04
-      updated: 2026-04-26-17-41-57
+      updated: 2026-04-26-18-59-51
       followers: 1625
       likes: 57
     - service: vk
       id: 3316
       published: 2026-04-24-19-01-11
-      updated: 2026-04-26-17-41-54
+      updated: 2026-04-26-18-59-43
       followers: 1429
       likes: 40
-      views: 405
+      views: 409
       reposts: 3
     - service: tg
       id: 1219
       published: 2026-04-24-19-01-14
-      updated: 2026-04-26-17-41-55
+      updated: 2026-04-26-18-59-43
       followers: 900
       likes: 49
       views: 203
@@ -1963,6 +1963,18 @@
       likes: 59
       views: 565
       comments: !c ixOAkZPLQnj0A30VgACrYm9icm92bmlrb3awSyBQIEEgQyBVIEIg0YvQuQM=
+    - service: vk
+      id: 3321
+      published: 2026-04-26-19-03-27
+      followers: 1432
+    - service: tg
+      id: 1221
+      published: 2026-04-26-19-03-31
+      followers: 899
+    - service: mx
+      id: '1777230215642'
+      published: 2026-04-26-19-03-35
+      followers: 22
 2024-05-04-ahnassi:
   title: Ahnassi
   titleRu: Анасси
