@@ -1966,11 +1966,19 @@
     - service: vk
       id: 3321
       published: 2026-04-26-19-03-27
+      updated: 2026-04-26-20-02-27
       followers: 1432
+      likes: 6
+      views: 39
+      reposts: 1
     - service: tg
       id: 1221
       published: 2026-04-26-19-03-31
+      updated: 2026-04-26-20-02-36
       followers: 899
+      likes: 16
+      views: 67
+      comments: !c iwqAkZPLQnnctE6EAAClYW5zaXOk8J+PjQM=
     - service: mx
       id: '1777230215642'
       published: 2026-04-26-19-03-35
