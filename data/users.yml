@@ -487,7 +487,7 @@ ansis:
   profiles:
     - service: tg
       id: '517050552'
-      updated: 2026-04-27-21-06-28
+      updated: 2026-04-27-22-56-09
       accessHash: '5231096655311395455'
       username: ansis
       name: ansis
@@ -954,7 +954,7 @@ caius-cosades:
   profiles:
     - service: tg
       id: '6483220506'
-      updated: 2026-04-27-21-06-27
+      updated: 2026-04-27-22-56-07
       accessHash: '-5537197680289822260'
       botChatId: 6483220506
       name: Mordecai
@@ -2723,7 +2723,7 @@ ivan-uralov:
   profiles:
     - service: vk
       id: '16497155'
-      updated: 2026-04-26-21-41-13
+      updated: 2026-04-27-22-56-10
       username: id16497155
       name: Иван Уралов
       avatar: store:/avatars/vk-51775759.jpg
@@ -3090,7 +3090,7 @@ konstantin-matrosov:
   profiles:
     - service: vk
       id: '93073669'
-      updated: 2026-04-27-21-06-27
+      updated: 2026-04-27-22-56-07
       username: id93073669
       name: Константин Матросов
       avatar: store:/avatars/vk-da7e515d.jpg
