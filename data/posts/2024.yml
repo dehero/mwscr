@@ -725,6 +725,23 @@
       followers: 352
       likes: 69
       views: 499
+    - service: ig
+      id: DXpZiC_nzJ_
+      mediaId: '18390230074087917'
+      published: 2026-04-27-19-28-52
+      followers: 1626
+    - service: vk
+      id: 3325
+      published: 2026-04-27-19-29-00
+      followers: 1432
+    - service: tg
+      id: 1222
+      published: 2026-04-27-19-29-06
+      followers: 900
+    - service: mx
+      id: '1777318150244'
+      published: 2026-04-27-19-29-10
+      followers: 22
 2024-03-20-banner-of-house-dagoth: 2017-07-05-banner-of-house-dagoth
 2024-03-21-first-stars-above-falasmaryon:
   title: First Stars Above Falasmaryon
@@ -1446,24 +1463,24 @@
       id: DXhn997DAVC
       mediaId: '17949125361076354'
       published: 2026-04-24-19-01-04
-      updated: 2026-04-26-18-59-51
+      updated: 2026-04-27-19-27-56
       followers: 1625
-      likes: 57
+      likes: 59
     - service: vk
       id: 3316
       published: 2026-04-24-19-01-11
-      updated: 2026-04-26-18-59-43
+      updated: 2026-04-27-19-27-59
       followers: 1429
-      likes: 40
-      views: 409
+      likes: 48
+      views: 466
       reposts: 3
     - service: tg
       id: 1219
       published: 2026-04-24-19-01-14
-      updated: 2026-04-26-18-59-43
+      updated: 2026-04-27-19-27-56
       followers: 900
-      likes: 49
-      views: 203
+      likes: 50
+      views: 219
       comments: !c CxOAkZPLQnncEM0YAACnbWJkdHNtb7M5MDAgc3Vic2NyaWJlcnMhISEhAw==
     - service: mx
       id: '1777057277746'
@@ -1966,19 +1983,19 @@
     - service: vk
       id: 3321
       published: 2026-04-26-19-03-27
-      updated: 2026-04-27-17-27-25
+      updated: 2026-04-27-19-27-55
       followers: 1432
-      likes: 46
-      views: 374
+      likes: 48
+      views: 391
       reposts: 4
       comments: !c ixSAkZPLQnnczoxKAACza29uc3RhbnRpbi1tYXRyb3NvdqrQktC40LLQtdC6Aw==
     - service: tg
       id: 1221
       published: 2026-04-26-19-03-31
-      updated: 2026-04-27-17-27-29
+      updated: 2026-04-27-19-27-55
       followers: 899
-      likes: 41
-      views: 153
+      likes: 42
+      views: 154
       comments: !c iwqAkZPLQnnctE6EAAClYW5zaXOk8J+PjQM=
     - service: mx
       id: '1777230215642'
@@ -1988,9 +2005,9 @@
       id: DXo0EnMF9Yo
       mediaId: '18046415531757649'
       published: 2026-04-27-14-01-31
-      updated: 2026-04-27-17-27-26
+      updated: 2026-04-27-19-27-53
       followers: 1626
-      likes: 40
+      likes: 45
 2024-05-04-ahnassi:
   title: Ahnassi
   titleRu: Анасси
