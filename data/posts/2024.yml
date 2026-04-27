@@ -729,15 +729,26 @@
       id: DXpZiC_nzJ_
       mediaId: '18390230074087917'
       published: 2026-04-27-19-28-52
+      updated: 2026-04-27-21-06-25
       followers: 1626
+      likes: 26
     - service: vk
       id: 3325
       published: 2026-04-27-19-29-00
+      updated: 2026-04-27-21-06-20
       followers: 1432
+      likes: 2
+      views: 69
     - service: tg
       id: 1222
       published: 2026-04-27-19-29-06
+      updated: 2026-04-27-21-06-28
       followers: 900
+      likes: 22
+      views: 87
+      comments: !c |-
+        G0kA+B0Hduww5NnBd3Z1V2RrPLNdhANJ4W/rboMafEHCKQYU1AcvQoB6EEV+MUlfgck7Bhk8t/3h
+        S4pYrJqENT6nB8WxZXoaBcP6YQo=
     - service: mx
       id: '1777318150244'
       published: 2026-04-27-19-29-10
@@ -1983,19 +1994,19 @@
     - service: vk
       id: 3321
       published: 2026-04-26-19-03-27
-      updated: 2026-04-27-19-27-55
+      updated: 2026-04-27-21-06-28
       followers: 1432
       likes: 48
-      views: 391
+      views: 413
       reposts: 4
       comments: !c ixSAkZPLQnnczoxKAACza29uc3RhbnRpbi1tYXRyb3NvdqrQktC40LLQtdC6Aw==
     - service: tg
       id: 1221
       published: 2026-04-26-19-03-31
-      updated: 2026-04-27-19-27-55
+      updated: 2026-04-27-21-06-29
       followers: 899
-      likes: 42
-      views: 154
+      likes: 46
+      views: 174
       comments: !c iwqAkZPLQnnctE6EAAClYW5zaXOk8J+PjQM=
     - service: mx
       id: '1777230215642'
@@ -2005,9 +2016,9 @@
       id: DXo0EnMF9Yo
       mediaId: '18046415531757649'
       published: 2026-04-27-14-01-31
-      updated: 2026-04-27-19-27-53
+      updated: 2026-04-27-21-06-26
       followers: 1626
-      likes: 45
+      likes: 47
 2024-05-04-ahnassi:
   title: Ahnassi
   titleRu: Анасси
