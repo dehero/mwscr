@@ -487,7 +487,7 @@ ansis:
   profiles:
     - service: tg
       id: '517050552'
-      updated: 2026-04-27-03-21-42
+      updated: 2026-04-27-06-30-15
       accessHash: '5231096655311395455'
       username: ansis
       name: ansis
@@ -3090,7 +3090,7 @@ konstantin-matrosov:
   profiles:
     - service: vk
       id: '93073669'
-      updated: 2026-04-27-03-21-42
+      updated: 2026-04-27-06-30-17
       username: id93073669
       name: Константин Матросов
       avatar: store:/avatars/vk-da7e515d.jpg
