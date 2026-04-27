@@ -1966,19 +1966,19 @@
     - service: vk
       id: 3321
       published: 2026-04-26-19-03-27
-      updated: 2026-04-27-14-01-04
+      updated: 2026-04-27-15-57-06
       followers: 1432
       likes: 44
-      views: 346
+      views: 361
       reposts: 4
       comments: !c ixSAkZPLQnnczoxKAACza29uc3RhbnRpbi1tYXRyb3NvdqrQktC40LLQtdC6Aw==
     - service: tg
       id: 1221
       published: 2026-04-26-19-03-31
-      updated: 2026-04-27-14-01-04
+      updated: 2026-04-27-15-57-03
       followers: 899
       likes: 40
-      views: 149
+      views: 152
       comments: !c iwqAkZPLQnnctE6EAAClYW5zaXOk8J+PjQM=
     - service: mx
       id: '1777230215642'
@@ -1988,7 +1988,9 @@
       id: DXo0EnMF9Yo
       mediaId: '18046415531757649'
       published: 2026-04-27-14-01-31
+      updated: 2026-04-27-15-57-02
       followers: 1626
+      likes: 31
 2024-05-04-ahnassi:
   title: Ahnassi
   titleRu: Анасси
