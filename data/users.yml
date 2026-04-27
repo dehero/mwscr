@@ -487,7 +487,7 @@ ansis:
   profiles:
     - service: tg
       id: '517050552'
-      updated: 2026-04-27-06-30-15
+      updated: 2026-04-27-09-22-29
       accessHash: '5231096655311395455'
       username: ansis
       name: ansis
@@ -504,7 +504,7 @@ anton-mezhuev:
   profiles:
     - service: vk
       id: '63571521'
-      updated: 2026-04-21-20-59-39
+      updated: 2026-04-27-09-22-50
       username: id63571521
       name: Антон Межуев
       avatar: store:/avatars/vk-295e8e4f.jpg
@@ -537,7 +537,7 @@ arisavushka:
   profiles:
     - service: vk
       id: '9414735'
-      updated: 2026-04-24-16-07-09
+      updated: 2026-04-27-09-22-42
       username: arisavushka
       name: Сицуно Арисава
       avatar: store:/avatars/vk-550c5387.jpg
@@ -585,7 +585,7 @@ artyom-melikhoff:
   profiles:
     - service: vk
       id: '299405149'
-      updated: 2026-04-24-16-10-56
+      updated: 2026-04-27-09-22-57
       username: artyom_melikhoff
       name: Артём Мелихов
       avatar: store:/avatars/vk-5b2fd843.jpg
@@ -601,7 +601,7 @@ arya-stark:
   profiles:
     - service: vk
       id: '820702664'
-      updated: 2026-04-26-07-44-32
+      updated: 2026-04-27-09-23-04
       username: id820702664
       name: Арья Старк
       avatar: store:/avatars/vk-689aa89d.jpg
@@ -1407,7 +1407,7 @@ dehero:
       avatar: store:/avatars/gh-c8afe641.jpg
     - service: vk
       id: '3652910'
-      updated: 2026-04-26-07-44-31
+      updated: 2026-04-27-09-22-35
       username: dehero
       name: Антон Курьянов
       avatar: store:/avatars/vk-5356f76e.jpg
@@ -1765,7 +1765,7 @@ eidelelweise:
   profiles:
     - service: vk
       id: '451140204'
-      updated: 2026-04-24-16-07-16
+      updated: 2026-04-27-09-22-49
       username: eidelelweise
       name: Эйдель Элиас Вайс
       avatar: store:/avatars/vk-85124301.jpg
@@ -1930,7 +1930,7 @@ eruannosarlan:
   profiles:
     - service: vk
       id: '196611336'
-      updated: 2026-04-20-06-33-43
+      updated: 2026-04-27-09-22-43
       username: eruannosarlan
       name: Матвей Котов
       avatar: store:/avatars/vk-3d685dbc.jpg
@@ -2009,7 +2009,7 @@ feanor2la:
   profiles:
     - service: vk
       id: '16294877'
-      updated: 2026-04-26-07-44-31
+      updated: 2026-04-27-09-22-34
       username: feanor2la
       name: Иван Урлапов
       avatar: store:/avatars/vk-14fd45f0.jpg
@@ -3090,7 +3090,7 @@ konstantin-matrosov:
   profiles:
     - service: vk
       id: '93073669'
-      updated: 2026-04-27-06-30-17
+      updated: 2026-04-27-09-22-28
       username: id93073669
       name: Константин Матросов
       avatar: store:/avatars/vk-da7e515d.jpg
@@ -4443,7 +4443,7 @@ pkellerman:
   profiles:
     - service: vk
       id: '11823909'
-      updated: 2026-04-26-07-44-29
+      updated: 2026-04-27-09-22-33
       username: pkellerman
       name: Антон Подлужный
       avatar: store:/avatars/vk-9bff06f8.jpg
@@ -5019,7 +5019,7 @@ sergey-b-2:
   profiles:
     - service: vk
       id: '1077446394'
-      updated: 2026-04-26-22-42-14
+      updated: 2026-04-27-09-23-07
       username: id1077446394
       name: Сергей Б
       avatar: store:/avatars/vk-4deb0770.jpg
@@ -5166,7 +5166,7 @@ slavaisaykin:
   profiles:
     - service: vk
       id: '64157384'
-      updated: 2026-04-21-20-57-54
+      updated: 2026-04-27-09-22-54
       username: slavaisaykin
       name: Слава Исайкин
       avatar: store:/avatars/vk-f145c72b.jpg

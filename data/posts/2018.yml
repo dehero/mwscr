@@ -3615,10 +3615,10 @@
     - service: vk
       id: 3178
       published: 2026-03-14-18-51-39
-      updated: 2026-04-20-06-33-46
+      updated: 2026-04-27-09-22-46
       followers: 1618
       likes: 76
-      views: 830
+      views: 837
       reposts: 3
     - service: tg
       id: 1182
@@ -4574,10 +4574,10 @@
     - service: vk
       id: 3124
       published: 2026-02-28-18-45-52
-      updated: 2026-04-20-06-33-51
+      updated: 2026-04-27-09-22-51
       followers: 1613
       likes: 69
-      views: 1458
+      views: 1462
       reposts: 1
       comments: !c |-
         G6cA+J0JdswK0JlFHlVE1C3CAynlJAyyQJtA0ycp2cN0bqUUo8Vg/5hXFDluY/u3lypBIL6yzE4P
@@ -5987,10 +5987,10 @@
     - service: vk
       id: 3052
       published: 2026-01-30-18-41-38
-      updated: 2026-04-20-06-34-02
+      updated: 2026-04-27-09-23-00
       followers: 1594
       likes: 61
-      views: 809
+      views: 813
       comments: !c |-
         GxYBOKwOeHNXKDgiu52Hh8IfFXEj/fEKPcQmsUiTPai6CaEIJQll/znMjXlQbqtlIVmb7f7nQFBY
         rsZmumQolFxwh63lZdPJARcgtpYGHTgMOOcSu04O8CAl2rIoLIIMSqi6n/cfc9xp3y3ORKL/NwSZ
@@ -6462,15 +6462,40 @@
     - service: vk
       id: 3290
       published: 2016-05-18-16-35-00
-      updated: 2026-04-20-06-34-04
+      updated: 2026-04-27-09-23-05
       followers: 1434
-      likes: 44
-      views: 610
+      likes: 54
+      views: 823
       reposts: 3
       comments: !c |-
-        G3kA+J0Htq0l+zgYWrAjf2YUxY30xzOJOOGgSSzAQJM9LKHcdJbUDBXd+di92PLQA4wwwFn2Vbtr
-        t5cBrVvKzqCVKjhFAONxPupf3yvi2lzpGPLaP5DHJtouTlF1sCg1LMOKXTATwMYGp4bgUxmH2uNU
-        jfnz7Q==
+        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
+        CQ0GocPOgps35Tf+blts/ktHzCpP+6ZO
     - service: ig
       id: DXPnUdJjQ-k
       mediaId: '18076026134645461'
@@ -13170,10 +13195,10 @@
     - service: vk
       id: 3100
       published: 2026-02-20-18-59-11
-      updated: 2026-04-20-06-33-56
+      updated: 2026-04-27-09-22-54
       followers: 1605
       likes: 78
-      views: 1524
+      views: 1528
       reposts: 4
       comments: !c |-
         G3YA+B0Hdiz4wGJz5ecCEdXuCQ/AI2oSjaRJ9uyayzhyepF46rYYXtpLf1g8Py8H4U0Rk4IhW6Ml
