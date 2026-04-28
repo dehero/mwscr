@@ -487,7 +487,7 @@ ansis:
   profiles:
     - service: tg
       id: '517050552'
-      updated: 2026-04-28-06-32-26
+      updated: 2026-04-28-09-25-18
       accessHash: '5231096655311395455'
       username: ansis
       name: ansis
@@ -601,7 +601,7 @@ arya-stark:
   profiles:
     - service: vk
       id: '820702664'
-      updated: 2026-04-27-17-27-26
+      updated: 2026-04-28-09-25-23
       username: id820702664
       name: Арья Старк
       avatar: store:/avatars/vk-689aa89d.jpg
@@ -954,7 +954,7 @@ caius-cosades:
   profiles:
     - service: tg
       id: '6483220506'
-      updated: 2026-04-28-06-32-24
+      updated: 2026-04-28-09-25-15
       accessHash: '-5537197680289822260'
       botChatId: 6483220506
       name: Mordecai
@@ -1272,7 +1272,7 @@ danila-syrin90595271:
   profiles:
     - service: vk
       id: '290595271'
-      updated: 2026-04-21-13-50-38
+      updated: 2026-04-28-09-25-22
       username: danila_syrin90595271
       name: Данила Сурин
       avatar: store:/avatars/vk-da48ccf1.jpg
@@ -1427,7 +1427,7 @@ dehero:
     - type: channel
       service: tg
       id: '1264795946'
-      updated: 2026-04-28-06-32-25
+      updated: 2026-04-28-09-25-16
       accessHash: '-5789257269249675714'
       username: mwscr
       name: Morrowind Screenshots
@@ -1765,7 +1765,7 @@ eidelelweise:
   profiles:
     - service: vk
       id: '451140204'
-      updated: 2026-04-27-09-22-49
+      updated: 2026-04-28-09-25-36
       username: eidelelweise
       name: Эйдель Элиас Вайс
       avatar: store:/avatars/vk-85124301.jpg
@@ -2009,7 +2009,7 @@ feanor2la:
   profiles:
     - service: vk
       id: '16294877'
-      updated: 2026-04-27-09-22-34
+      updated: 2026-04-28-09-25-37
       username: feanor2la
       name: Иван Урлапов
       avatar: store:/avatars/vk-14fd45f0.jpg
@@ -3090,7 +3090,7 @@ konstantin-matrosov:
   profiles:
     - service: vk
       id: '93073669'
-      updated: 2026-04-28-06-32-26
+      updated: 2026-04-28-09-25-17
       username: id93073669
       name: Константин Матросов
       avatar: store:/avatars/vk-da7e515d.jpg
@@ -3441,10 +3441,10 @@ maksim-solovev:
   profiles:
     - service: vk
       id: '658767771'
-      updated: 2026-04-21-13-49-34
+      updated: 2026-04-28-09-25-29
       username: id658767771
       name: Максим Соловьев
-      avatar: store:/avatars/vk-77942374.jpg
+      avatar: store:/avatars/vk-6858a6bb.jpg
 malignoutsider:
   profiles:
     - service: vk
@@ -4443,7 +4443,7 @@ pkellerman:
   profiles:
     - service: vk
       id: '11823909'
-      updated: 2026-04-27-09-22-33
+      updated: 2026-04-28-09-25-19
       username: pkellerman
       name: Антон Подлужный
       avatar: store:/avatars/vk-9bff06f8.jpg
@@ -5019,7 +5019,7 @@ sergey-b-2:
   profiles:
     - service: vk
       id: '1077446394'
-      updated: 2026-04-27-11-47-00
+      updated: 2026-04-28-09-25-37
       username: id1077446394
       name: Сергей Б
       avatar: store:/avatars/vk-4deb0770.jpg
