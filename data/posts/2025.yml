@@ -2404,14 +2404,14 @@
     - service: vk
       id: 2612
       published: 2025-08-29-18-20-43
-      updated: 2026-04-21-13-52-29
+      updated: 2026-04-28-14-18-22
       followers: 1391
       likes: 42
       views: 655
     - service: tg
       id: 966
       published: 2025-08-29-18-20-46
-      updated: 2026-04-21-13-51-14
+      updated: 2026-04-28-14-16-59
       followers: 783
       likes: 63
       views: 530
@@ -2504,7 +2504,7 @@
     - service: vk
       id: 2657
       published: 2025-09-18-18-30-28
-      updated: 2026-04-21-13-52-13
+      updated: 2026-04-28-14-18-07
       followers: 1423
       likes: 71
       views: 1809
@@ -2525,10 +2525,10 @@
     - service: tg
       id: 989
       published: 2025-09-18-18-30-31
-      updated: 2026-04-21-13-50-51
+      updated: 2026-04-28-14-16-35
       followers: 798
       likes: 68
-      views: 1170
+      views: 1172
       comments: !c iw2AkZPLQnmV4mmWAACra2F3YXpha3kyMjOk8J+YngM=
 2025-09-19-1-near-the-fence:
   title: Near the Fence
@@ -2555,7 +2555,7 @@
     - service: vk
       id: 2670
       published: 2025-09-19-18-29-09
-      updated: 2026-04-21-13-52-10
+      updated: 2026-04-28-14-18-04
       followers: 1426
       likes: 46
       views: 654
@@ -2564,7 +2564,7 @@
     - service: tg
       id: 990
       published: 2025-09-19-18-29-13
-      updated: 2026-04-21-13-50-49
+      updated: 2026-04-28-14-16-33
       followers: 801
       likes: 67
       views: 622
@@ -2594,7 +2594,7 @@
     - service: vk
       id: 2671
       published: 2025-09-20-18-25-41
-      updated: 2026-04-21-13-52-09
+      updated: 2026-04-28-14-18-03
       followers: 1428
       likes: 54
       views: 896
@@ -2602,7 +2602,7 @@
     - service: tg
       id: 991
       published: 2025-09-20-18-25-44
-      updated: 2026-04-21-13-50-49
+      updated: 2026-04-28-14-16-33
       followers: 801
       likes: 65
       views: 618
@@ -2682,7 +2682,7 @@
     - service: vk
       id: 2682
       published: 2025-09-24-18-26-04
-      updated: 2026-04-21-13-52-09
+      updated: 2026-04-28-14-18-03
       followers: 1429
       likes: 36
       views: 789
@@ -2690,10 +2690,10 @@
     - service: tg
       id: 996
       published: 2025-09-24-18-26-08
-      updated: 2026-04-21-13-50-46
+      updated: 2026-04-28-14-16-33
       followers: 802
       likes: 78
-      views: 1018
+      views: 1022
       comments: !c |-
         G80A+J0JdizEZBhanrOwkMmm5Nslm1YYlAaMISiJ6UHpJka5BuEKpeQA9lN6wg3697auNjFbv/82
         zBiRoEWp6gI7W+zEdMHMmKDYaflr+ZRIJbwqE3RGXu+/57nBcXyfnPCyxt+qjkT2mAydrLGQIrhR
@@ -2942,10 +2942,10 @@
     - service: vk
       id: 2919
       published: 2025-12-03-18-27-35
-      updated: 2026-04-21-13-50-06
+      updated: 2026-04-28-14-15-59
       followers: 1536
       likes: 64
-      views: 817
+      views: 818
       reposts: 2
       comments: !c |-
         G1EBQJwHto1uLfAw1+ObzRhKy//znGyEXwdDDyQKJNDOSShLeHKfTqcRdurJ5YX5CaNZPyhTt1mi
@@ -2955,10 +2955,10 @@
     - service: tg
       id: 1078
       published: 2025-12-03-18-27-38
-      updated: 2026-04-21-13-49-00
+      updated: 2026-04-28-14-15-05
       followers: 866
       likes: 67
-      views: 719
+      views: 722
       comments: !c |-
         G5YAAIyUbsI8H/6aZyeaAX5nsY2n7y8qQRsoQ3ReAlWf+zo50QPK4YegLaIo54vlNgaCy+MRxwlq
         9B5P707rFKPnQ2qdI9FqJVd4Ky6DHIM8g0ryq5BjMLcIqbYmffSET1oiX0lVFn+jW4DwY97lY+VY
@@ -2988,10 +2988,10 @@
     - service: vk
       id: 2920
       published: 2025-12-04-19-18-36
-      updated: 2026-04-21-13-50-05
+      updated: 2026-04-28-14-15-56
       followers: 1537
       likes: 55
-      views: 646
+      views: 647
       reposts: 1
       comments: !c |-
         CzOAkpPLQnmvpZ6iAACqYXJ5YS1zdGFya7/Qm9GD0L3QsCDQvdCw0LQg0JLQuNCy0LXQutC+0Lwu
@@ -2999,10 +2999,10 @@
     - service: tg
       id: 1079
       published: 2025-12-04-19-18-40
-      updated: 2026-04-21-13-48-59
+      updated: 2026-04-28-14-15-00
       followers: 867
       likes: 66
-      views: 754
+      views: 757
 2025-12-05-1-unexplored-shipwreck:
   trach: store:/trash/dehero.2024-12-26-21-30-26.png
   title: Unexplored Shipwreck
@@ -3031,10 +3031,10 @@
     - service: vk
       id: 2922
       published: 2025-12-05-18-23-12
-      updated: 2026-04-21-13-50-04
+      updated: 2026-04-28-14-15-54
       followers: 1537
       likes: 89
-      views: 1330
+      views: 1332
       reposts: 4
       comments: !c |-
         G+EDYCwKbEcfq5p45g9lRxCF+H/i+N/HV+hM1J9KMYrCxqMaj/9P/Lu2v3nAqTi1Q3QYj6HhwfO5
@@ -3049,10 +3049,10 @@
     - service: tg
       id: 1080
       published: 2025-12-05-18-23-15
-      updated: 2026-04-21-13-48-58
+      updated: 2026-04-28-14-14-59
       followers: 868
       likes: 71
-      views: 710
+      views: 714
 2025-12-06-1-senseless-mourning:
   title: Senseless Mourning
   titleRu: Бессмысленный траур
@@ -3081,10 +3081,10 @@
     - service: vk
       id: 2932
       published: 2025-12-06-18-22-10
-      updated: 2026-04-21-13-50-02
+      updated: 2026-04-28-14-15-50
       followers: 1538
       likes: 84
-      views: 1010
+      views: 1012
       reposts: 5
       comments: !c |-
         G2cA+C0ObEfETRJv6N5zKkbP60n6i03qNqJlYiOd3MPp3MzZkNyMBbEQLKTER0I2NXZLRqwtWuTy
@@ -3092,10 +3092,10 @@
     - service: tg
       id: 1081
       published: 2025-12-06-18-22-16
-      updated: 2026-04-21-13-48-58
+      updated: 2026-04-28-14-14-58
       followers: 868
       likes: 67
-      views: 796
+      views: 799
       comments: !c |-
         iyqAkpPLQnmvtsvZgAC1eWEtaHMtY2hlLXN1ZGEtc3Rhdml0vtCT0YDRg9GB0YLQuNGCINC/0L4g
         0LrQtdC90YLRg5PLQnmvij1bAACma2V2eS1jpPCfpoAD
@@ -3267,18 +3267,18 @@
     - service: vk
       id: 2949
       published: 2025-12-10-18-26-56
-      updated: 2026-04-21-13-50-01
+      updated: 2026-04-28-14-15-48
       followers: 1541
       likes: 68
-      views: 1192
+      views: 1193
       reposts: 5
     - service: tg
       id: 1085
       published: 2025-12-10-18-27-00
-      updated: 2026-04-21-13-48-57
+      updated: 2026-04-28-14-14-57
       followers: 869
       likes: 64
-      views: 917
+      views: 920
 2025-12-11-1-the-wicked-almalexia:
   title: The Wicked Almalexia
   titleRu: Свирепая Альмалексия
@@ -3307,18 +3307,18 @@
     - service: vk
       id: 2951
       published: 2025-12-11-18-26-56
-      updated: 2026-04-21-13-50-00
+      updated: 2026-04-28-14-15-46
       followers: 1542
       likes: 70
-      views: 3145
+      views: 3146
       reposts: 3
     - service: tg
       id: 1086
       published: 2025-12-11-18-27-00
-      updated: 2026-04-21-13-48-57
+      updated: 2026-04-28-14-14-56
       followers: 873
       likes: 67
-      views: 880
+      views: 884
       comments: !c |-
         G2kA6J2HsTMiteoWxM/1StJ6k5R8pSpS/ubbn76x2TShGqFSqnUhCdJEKCkfkPrSLUXWAy5WbAkv
         yo0fH8Ahp/SdJArSXn3e6thmFsqSz8BYWlOUAd8A/OeOxJT0STVhdQ9i1xnRYnNeAQ==
@@ -3426,10 +3426,10 @@
     - service: vk
       id: 2957
       published: 2025-12-18-19-24-30
-      updated: 2026-04-21-13-49-59
+      updated: 2026-04-28-14-15-45
       followers: 1544
       likes: 55
-      views: 846
+      views: 847
       reposts: 1
       comments: !c |-
         GygBYJwJtq2GtcLDFcR3I/55ufERPqBAgogDjqCtxNqaf+Av5+rcSqhmi6Fe2IeAwOQt420lEtH3
@@ -3439,10 +3439,10 @@
     - service: tg
       id: 1091
       published: 2025-12-18-19-24-34
-      updated: 2026-04-21-13-48-54
+      updated: 2026-04-28-14-14-54
       followers: 880
       likes: 63
-      views: 703
+      views: 706
       comments: !c |-
         CyuAkZTLQnmzNvXRgACqbmVyZXZhcmluZdktdGVsbGluZyBteSBraWRzIHRoaXMgaXMgYSBnZW9y
         Z2UgZmxveWQgc3RhdHVlk8tCebM6he2AAKVhbnNpc6EuAw==
@@ -3471,19 +3471,19 @@
     - service: vk
       id: 2961
       published: 2025-12-19-19-24-26
-      updated: 2026-04-21-13-49-57
+      updated: 2026-04-28-14-15-43
       followers: 1544
       likes: 71
-      views: 1097
+      views: 1098
       reposts: 3
       comments: !c CxaAkZPLQnm0ZxZDgACpdmxhZGtyMTE0t9CS0L/QvtC70L3QtSDRg9GO0YLQvdC+Aw==
     - service: tg
       id: 1092
       published: 2025-12-19-19-24-32
-      updated: 2026-04-21-13-48-50
+      updated: 2026-04-28-14-14-52
       followers: 879
       likes: 68
-      views: 727
+      views: 732
 2025-12-20-1-attributes-of-house-dagoth:
   title: Attributes of House Dagoth
   titleRu: Атрибуты Дома Дагот
@@ -3509,18 +3509,18 @@
     - service: vk
       id: 2962
       published: 2025-12-20-19-22-39
-      updated: 2026-04-21-13-49-55
+      updated: 2026-04-28-14-15-41
       followers: 1544
       likes: 68
-      views: 876
+      views: 878
       reposts: 3
     - service: tg
       id: 1093
       published: 2025-12-20-19-22-43
-      updated: 2026-04-21-13-48-50
+      updated: 2026-04-28-14-14-52
       followers: 880
       likes: 63
-      views: 731
+      views: 734
       comments: !c |-
         G48A6B2JcSzJgqmrL/jnu/ZDOIC7+wuTLIoqrBM8CfO+8y2h3FYXSlquhnoozwT3LrNzZFoSXjYi
         SUrpdG2b/TXWOq93ts0lWyhU0vV8MhcKimuhLlg2UEBxa0BZjbQxecLA8GkuBqSupTHaJdc/jDkk

@@ -30,7 +30,7 @@
     - service: vk
       id: 2016
       published: 2025-01-04-18-10-14
-      updated: 2026-04-21-13-53-05
+      updated: 2026-04-28-14-19-03
       followers: 1042
       likes: 57
       views: 462
@@ -43,7 +43,7 @@
         - 649
         - 650
       published: 2025-01-04-18-10-26
-      updated: 2026-04-21-13-53-01
+      updated: 2026-04-28-14-19-05
       followers: 644
       likes: 69
       views: 625
@@ -74,7 +74,7 @@
     - service: tg
       id: 796
       published: 2025-04-16-15-35-00
-      updated: 2026-04-21-13-52-59
+      updated: 2026-04-28-14-19-04
       followers: 720
       likes: 36
       views: 573
@@ -87,7 +87,7 @@
     - service: vk
       id: 2281
       published: 2025-04-16-15-36-00
-      updated: 2026-04-21-13-53-03
+      updated: 2026-04-28-14-18-55
       followers: 1261
       likes: 58
       views: 577
@@ -129,7 +129,7 @@
     - service: vk
       id: 2417
       published: 2025-06-02-11-38-59
-      updated: 2026-04-21-13-53-01
+      updated: 2026-04-28-14-18-53
       followers: 1315
       likes: 31
       views: 427
@@ -150,7 +150,7 @@
     - service: tg
       id: 870
       published: 2025-06-02-11-39-00
-      updated: 2026-04-21-13-52-58
+      updated: 2026-04-28-14-19-03
       followers: 742
       likes: 21
       views: 561
@@ -196,7 +196,7 @@
     - service: vk
       id: 2423
       published: 2025-06-02-13-46-51
-      updated: 2026-04-21-13-52-59
+      updated: 2026-04-28-14-18-51
       followers: 1315
       likes: 31
       views: 352
@@ -205,7 +205,7 @@
         - 871
         - 872
       published: 2025-06-02-14-03-54
-      updated: 2026-04-21-13-52-57
+      updated: 2026-04-28-14-18-52
       followers: 743
       likes: 66
       views: 657
@@ -243,7 +243,7 @@
     - service: vk
       id: 2493
       published: 2025-07-01-11-15-23
-      updated: 2026-04-21-13-52-57
+      updated: 2026-04-28-14-18-50
       followers: 1333
       likes: 16
       views: 426
@@ -260,10 +260,10 @@
     - service: tg
       id: 902
       published: 2025-07-01-11-15-24
-      updated: 2026-04-21-13-52-56
+      updated: 2026-04-28-14-18-51
       followers: 760
       likes: 35
-      views: 815
+      views: 817
       comments: !c |-
         G9gAaJwHto1qPbBYYfjkzAUiJG4R7jzFNLAgDivgIIgk+Qkn6eZKKoeHuh8HQ3VO3prZaCITXc/3
         2vtpF8dpounK2NwNTsOAOcEwDozSSfaAqyOUZRjtx4vLhf0+MNyzWKA0iA01ev/DikWHricVxLMO
@@ -306,7 +306,7 @@
     - service: vk
       id: 2609
       published: 2025-08-28-12-57-16
-      updated: 2026-04-21-13-52-56
+      updated: 2026-04-28-14-18-48
       followers: 1383
       likes: 28
       views: 595
@@ -320,7 +320,7 @@
         - 963
         - 964
       published: 2025-08-28-12-57-21
-      updated: 2026-04-21-13-52-55
+      updated: 2026-04-28-14-18-49
       followers: 781
       likes: 54
       views: 617
@@ -362,7 +362,7 @@
     - service: vk
       id: 2631
       published: 2025-09-04-09-15-00
-      updated: 2026-04-21-13-52-54
+      updated: 2026-04-28-14-18-47
       followers: 1404
       likes: 25
       views: 619
@@ -371,10 +371,10 @@
         - 972
         - 973
       published: 2025-09-04-09-15-00
-      updated: 2026-04-21-13-52-54
+      updated: 2026-04-28-14-18-48
       followers: 787
       likes: 70
-      views: 1172
+      views: 1173
       comments: !c CxGAkZPLQnmVp1aKAACpZ2VvcnJycnJnrfCfpKbigI3imYLvuI8D
 2025-09-15-1-green-algae-and-dead-lands:
   title: Green Algae and Dead Lands
@@ -591,10 +591,10 @@
     - service: vk
       id: 2865
       published: 2025-11-19-19-18-00
-      updated: 2026-04-21-13-52-53
+      updated: 2026-04-28-14-18-46
       followers: 1511
       likes: 105
-      views: 2554
+      views: 2562
       reposts: 35
       comments: !c |-
         G2QBQJwHtu1kKywUB/71SkNDI6JuEV4eeCZxJh9wkyac7E1gCWRr01CreW1p1931pQGCMtCf5U0q
@@ -607,10 +607,10 @@
         - 1060
         - 1061
       published: 2025-11-19-19-20-00
-      updated: 2026-04-21-13-52-53
+      updated: 2026-04-28-14-18-48
       followers: 860
       likes: 55
-      views: 1070
+      views: 1073
       comments: !c |-
         G6MDICwLeEO0vBts6FOJ9fPmTiCsTps+QdTvp0+ogHDvJ6lDVHGtrQZA2ZkQlwBVhcE92bIvH908
         oQfP0sRiy7I2yM0fk7yGjk6BnwpJ8PPduwjPmkvTXkK35x/GAWYRXeYdVXddqmquqZsahmFAmWc4
