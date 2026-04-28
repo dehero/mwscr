@@ -729,24 +729,24 @@
       id: DXpZiC_nzJ_
       mediaId: '18390230074087917'
       published: 2026-04-27-19-28-52
-      updated: 2026-04-28-18-20-49
+      updated: 2026-04-28-20-19-30
       followers: 1626
-      likes: 50
+      likes: 51
     - service: vk
       id: 3325
       published: 2026-04-27-19-29-00
-      updated: 2026-04-28-18-20-44
+      updated: 2026-04-28-20-19-26
       followers: 1432
-      likes: 28
-      views: 271
+      likes: 30
+      views: 288
       reposts: 2
     - service: tg
       id: 1222
       published: 2026-04-27-19-29-06
-      updated: 2026-04-28-18-20-53
+      updated: 2026-04-28-20-19-34
       followers: 900
-      likes: 51
-      views: 181
+      likes: 54
+      views: 196
       comments: !c |-
         G6AAIIzTpTbya5jN/7m+DWTPoyh4Wjga9d0iyq5AEnBnR3RAmW7f8W5wooFxWYLhIhNv/MI7D58v
         6kmisYfz/SUsf8h6B56ekwwd41Wd4wfdm+vjpENiZxFtReV3iMOvlsooUvnKtfMnGIDV0SXdqi6u
@@ -1476,24 +1476,28 @@
       id: DXhn997DAVC
       mediaId: '17949125361076354'
       published: 2026-04-24-19-01-04
-      updated: 2026-04-27-19-27-56
+      updated: 2026-04-28-20-19-32
       followers: 1625
-      likes: 59
+      likes: 62
     - service: vk
       id: 3316
       published: 2026-04-24-19-01-11
-      updated: 2026-04-27-19-27-59
+      updated: 2026-04-28-20-19-32
       followers: 1429
       likes: 48
-      views: 466
+      views: 488
       reposts: 3
+      comments: !c |-
+        G5kAQC0ObBtH2geDcQU6Rl4WEXqW8OMFL0JTHQ90mfhIJvduY2euwArpqOnkLIYoszhp70Fyobol
+        bS5bhXWDQw7cr9RCi7QFGOyArVsTX/e8v9ewusd37DyUzPW6vZTxUCBXMelhwUIzwv95JAfppMAM
+        w8wYEpuuLqCsLCkAFg==
     - service: tg
       id: 1219
       published: 2026-04-24-19-01-14
-      updated: 2026-04-27-19-27-56
+      updated: 2026-04-28-20-19-35
       followers: 900
-      likes: 50
-      views: 219
+      likes: 53
+      views: 262
       comments: !c CxOAkZPLQnncEM0YAACnbWJkdHNtb7M5MDAgc3Vic2NyaWJlcnMhISEhAw==
     - service: mx
       id: '1777057277746'
@@ -2018,7 +2022,7 @@
       id: DXo0EnMF9Yo
       mediaId: '18046415531757649'
       published: 2026-04-27-14-01-31
-      updated: 2026-04-28-18-20-50
+      updated: 2026-04-28-20-19-31
       followers: 1626
       likes: 59
 2024-05-04-ahnassi:
@@ -3511,10 +3515,10 @@
     - service: tg
       id: 554
       published: 2024-10-04-18-12-16
-      updated: 2026-04-21-19-19-59
+      updated: 2026-04-28-20-22-08
       followers: 559
       likes: 68
-      views: 560
+      views: 561
     - service: ig
       id: DQhgUJcDPva
       mediaId: '18393361645127916'
@@ -3572,7 +3576,7 @@
     - service: tg
       id: 555
       published: 2024-10-05-18-08-56
-      updated: 2026-04-21-19-19-59
+      updated: 2026-04-28-20-22-07
       followers: 559
       likes: 58
       views: 572
@@ -3657,7 +3661,7 @@
     - service: vk
       id: 1930
       published: 2024-12-02-18-11-17
-      updated: 2026-04-21-19-20-52
+      updated: 2026-04-28-20-23-04
       followers: 1012
       likes: 60
       views: 440
@@ -3676,7 +3680,7 @@
     - service: tg
       id: 613
       published: 2024-12-02-18-11-24
-      updated: 2026-04-21-19-18-20
+      updated: 2026-04-28-20-20-28
       followers: 575
       likes: 74
       views: 573
@@ -3729,14 +3733,14 @@
     - service: vk
       id: 1937
       published: 2024-12-03-22-09-03
-      updated: 2026-04-21-19-20-50
+      updated: 2026-04-28-20-23-01
       followers: 1012
       likes: 37
       views: 372
     - service: tg
       id: 614
       published: 2024-12-03-22-09-13
-      updated: 2026-04-21-19-18-15
+      updated: 2026-04-28-20-20-26
       followers: 574
       likes: 58
       views: 525
@@ -3774,7 +3778,7 @@
     - service: vk
       id: 1941
       published: 2024-12-04-19-10-14
-      updated: 2026-04-21-19-20-49
+      updated: 2026-04-28-20-23-00
       followers: 1013
       likes: 59
       views: 411
@@ -3782,7 +3786,7 @@
     - service: tg
       id: 615
       published: 2024-12-04-19-10-20
-      updated: 2026-04-21-19-18-14
+      updated: 2026-04-28-20-20-26
       followers: 574
       likes: 64
       views: 620
@@ -3820,7 +3824,7 @@
     - service: vk
       id: 1943
       published: 2024-12-05-18-10-12
-      updated: 2026-04-21-19-20-48
+      updated: 2026-04-28-20-22-59
       followers: 1013
       likes: 63
       views: 485
@@ -3833,7 +3837,7 @@
     - service: tg
       id: 616
       published: 2024-12-05-18-10-19
-      updated: 2026-04-21-19-18-08
+      updated: 2026-04-28-20-20-25
       followers: 578
       likes: 74
       views: 580
@@ -3869,14 +3873,14 @@
     - service: tg
       id: 617
       published: 2024-12-06-18-11-36
-      updated: 2026-04-21-19-18-07
+      updated: 2026-04-28-20-20-25
       followers: 578
       likes: 59
       views: 538
     - service: vk
       id: 1945
       published: 2024-12-06-19-01-31
-      updated: 2026-04-21-19-20-47
+      updated: 2026-04-28-20-22-58
       followers: 1013
       likes: 43
       views: 414
@@ -3909,7 +3913,7 @@
     - service: vk
       id: 1947
       published: 2024-12-07-18-10-02
-      updated: 2026-04-21-19-20-46
+      updated: 2026-04-28-20-22-57
       followers: 1012
       likes: 46
       views: 389
@@ -3921,7 +3925,7 @@
     - service: tg
       id: 618
       published: 2024-12-07-18-10-10
-      updated: 2026-04-21-19-18-05
+      updated: 2026-04-28-20-20-23
       followers: 579
       likes: 67
       views: 555
@@ -3959,7 +3963,7 @@
     - service: vk
       id: 1950
       published: 2024-12-08-18-10-10
-      updated: 2026-04-21-19-20-45
+      updated: 2026-04-28-20-22-56
       followers: 1012
       likes: 35
       views: 373
@@ -3967,7 +3971,7 @@
     - service: tg
       id: 619
       published: 2024-12-08-18-10-15
-      updated: 2026-04-21-19-18-04
+      updated: 2026-04-28-20-20-21
       followers: 581
       likes: 64
       views: 529
@@ -3998,10 +4002,10 @@
     - service: vk
       id: 1953
       published: 2024-12-09-19-02-15
-      updated: 2026-04-21-19-20-44
+      updated: 2026-04-28-20-22-55
       followers: 1013
       likes: 48
-      views: 644
+      views: 646
       reposts: 3
       comments: !c |-
         G5EA6J0JdizEZBhabhZBVMQtwh/PJUywSSjiZA90Y5YYFy6eC6qTYy7V5PshaQUeplDanGV7wGWL
@@ -4010,7 +4014,7 @@
     - service: tg
       id: 620
       published: 2024-12-09-19-02-22
-      updated: 2026-04-21-19-18-04
+      updated: 2026-04-28-20-20-20
       followers: 580
       likes: 63
       views: 533
@@ -4036,7 +4040,7 @@
     - service: vk
       id: 1957
       published: 2024-12-11-18-16-04
-      updated: 2026-04-21-19-20-41
+      updated: 2026-04-28-20-22-52
       followers: 1022
       likes: 47
       views: 383
@@ -4047,7 +4051,7 @@
     - service: tg
       id: 622
       published: 2024-12-11-18-16-12
-      updated: 2026-04-21-19-18-02
+      updated: 2026-04-28-20-20-17
       followers: 581
       likes: 70
       views: 667
@@ -4089,7 +4093,7 @@
     - service: vk
       id: 1959
       published: 2024-12-12-18-11-51
-      updated: 2026-04-21-19-20-40
+      updated: 2026-04-28-20-22-51
       followers: 1023
       likes: 45
       views: 400
@@ -4101,7 +4105,7 @@
     - service: tg
       id: 623
       published: 2024-12-12-18-11-57
-      updated: 2026-04-21-19-18-02
+      updated: 2026-04-28-20-20-17
       followers: 580
       likes: 64
       views: 667
@@ -4145,7 +4149,7 @@
     - service: vk
       id: 1991
       published: 2024-12-26-19-32-05
-      updated: 2026-04-21-19-20-19
+      updated: 2026-04-28-20-22-30
       followers: 1031
       likes: 57
       views: 484
@@ -4158,10 +4162,10 @@
     - service: tg
       id: 638
       published: 2024-12-26-19-32-13
-      updated: 2026-04-21-19-17-40
+      updated: 2026-04-28-20-19-53
       followers: 626
       likes: 74
-      views: 1024
+      views: 1026
     - service: ig
       id: DVrL0rBlwBC
       mediaId: '18427235065143069'
@@ -4218,7 +4222,7 @@
     - service: vk
       id: 1994
       published: 2024-12-27-18-10-40
-      updated: 2026-04-21-19-20-18
+      updated: 2026-04-28-20-22-29
       followers: 1033
       likes: 49
       views: 411
@@ -4226,7 +4230,7 @@
     - service: tg
       id: 639
       published: 2024-12-27-18-10-46
-      updated: 2026-04-21-19-17-40
+      updated: 2026-04-28-20-19-53
       followers: 631
       likes: 68
       views: 750
@@ -4264,7 +4268,7 @@
     - service: vk
       id: 1995
       published: 2024-12-28-18-09-30
-      updated: 2026-04-21-19-20-17
+      updated: 2026-04-28-20-22-28
       followers: 1035
       likes: 62
       views: 552
@@ -4275,7 +4279,7 @@
     - service: tg
       id: 640
       published: 2024-12-28-18-09-36
-      updated: 2026-04-21-19-17-40
+      updated: 2026-04-28-20-19-53
       followers: 638
       likes: 76
       views: 668
@@ -4311,7 +4315,7 @@
     - service: vk
       id: 2004
       published: 2024-12-30-18-10-48
-      updated: 2026-04-21-19-20-14
+      updated: 2026-04-28-20-22-25
       followers: 1037
       likes: 54
       views: 446
@@ -4325,10 +4329,10 @@
     - service: tg
       id: 642
       published: 2024-12-30-18-10-55
-      updated: 2026-04-21-19-17-36
+      updated: 2026-04-28-20-19-50
       followers: 642
       likes: 80
-      views: 1012
+      views: 1013
 2024-12-31-a-look-into-the-darkness:
   title: A Look Into the Darkness
   titleRu: Взгляд в темноту
@@ -4359,7 +4363,7 @@
     - service: vk
       id: 2007
       published: 2024-12-31-18-10-25
-      updated: 2026-04-21-19-20-13
+      updated: 2026-04-28-20-22-24
       followers: 1038
       likes: 44
       views: 399
@@ -4372,7 +4376,7 @@
     - service: tg
       id: 643
       published: 2024-12-31-18-10-35
-      updated: 2026-04-21-19-17-34
+      updated: 2026-04-28-20-19-49
       followers: 643
       likes: 69
       views: 608

@@ -137,7 +137,7 @@
     - service: vk
       id: 1977
       published: 2024-12-20-18-10-34
-      updated: 2026-04-21-19-20-29
+      updated: 2026-04-28-20-22-39
       followers: 1027
       likes: 40
       views: 429
@@ -146,10 +146,10 @@
     - service: tg
       id: 631
       published: 2024-12-20-18-10-40
-      updated: 2026-04-21-19-17-53
+      updated: 2026-04-28-20-20-06
       followers: 584
       likes: 60
-      views: 648
+      views: 649
 2020-05-15-brave-riekling:
   title: Brave Riekling
   titleRu: Храбрый рьеклинг
@@ -1594,17 +1594,17 @@
     - service: vk
       id: 2011
       published: 2025-01-02-18-10-56
-      updated: 2026-04-21-19-20-10
+      updated: 2026-04-28-20-22-21
       followers: 1040
       likes: 58
       views: 396
     - service: tg
       id: 645
       published: 2025-01-02-18-11-03
-      updated: 2026-04-21-19-17-32
+      updated: 2026-04-28-20-19-47
       followers: 646
       likes: 75
-      views: 773
+      views: 774
       comments: !c ixWAkZPLQnlChFvpgACuZGFya25lc3MtcmlmaG+xTGlrZSBsb3ZlbHkgZHJlYW0D
 2020-10-22-clagius-clanler-outfitter:
   title: Clagius Clanler, Outfitter
