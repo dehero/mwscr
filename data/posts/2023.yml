@@ -63,10 +63,10 @@
     - service: vk
       id: 2501
       published: 2025-07-02-18-24-04
-      updated: 2026-04-28-16-56-26
+      updated: 2026-05-14-15-25-43
       followers: 1333
       likes: 56
-      views: 573
+      views: 580
       reposts: 1
     - service: tg
       id: 905
@@ -179,7 +179,7 @@
       id: DKC81wsTK0X
       mediaId: '18026521652678055'
       published: 2025-05-24-18-18-51
-      updated: 2026-04-24-16-09-06
+      updated: 2026-05-14-15-22-24
       followers: 1542
       likes: 69
     - service: vk
@@ -192,7 +192,7 @@
     - service: tg
       id: 857
       published: 2025-05-24-18-19-06
-      updated: 2026-04-28-16-56-58
+      updated: 2026-05-14-15-22-24
       followers: 739
       likes: 65
       views: 583
@@ -250,10 +250,10 @@
     - service: vk
       id: 2629
       published: 2025-09-03-18-21-16
-      updated: 2026-04-28-14-18-20
+      updated: 2026-05-14-15-22-38
       followers: 1404
       likes: 44
-      views: 610
+      views: 612
       reposts: 1
       comments: !c |-
         Cy+AkZPLQnmRFaD7gACwc2VyZ2V5LWNodXJiYW5vdtlB0K3RjdC5KSDQt9C00LDRgNC+0LLQsCEg
@@ -348,7 +348,7 @@
       id: DJUnMgEs2ay
       mediaId: '18082683772680416'
       published: 2025-05-06-18-24-38
-      updated: 2026-04-24-16-09-41
+      updated: 2026-05-14-15-23-03
       followers: 1533
       likes: 51
     - service: vk
@@ -367,7 +367,7 @@
     - service: tg
       id: 832
       published: 2025-05-06-18-24-51
-      updated: 2026-04-28-16-57-26
+      updated: 2026-05-14-15-23-12
       followers: 738
       likes: 69
       views: 720
@@ -420,7 +420,7 @@
       id: DHtl8ydO217
       mediaId: '17911396193996302'
       published: 2025-03-27-18-12-00
-      updated: 2026-04-24-17-53-34
+      updated: 2026-05-14-15-24-57
       followers: 1531
       likes: 54
       views: 266
@@ -441,10 +441,10 @@
     - service: tg
       id: 767
       published: 2025-03-27-18-12-12
-      updated: 2026-04-28-18-21-09
+      updated: 2026-05-14-15-24-32
       followers: 710
       likes: 64
-      views: 529
+      views: 530
 2023-08-04-holy-fir:
   title: Holy Fir
   titleRu: Святая ель
@@ -536,7 +536,7 @@
     - service: vk
       id: 2605
       published: 2025-08-26-18-32-53
-      updated: 2026-04-24-16-10-31
+      updated: 2026-05-14-15-23-12
       followers: 1381
       likes: 18
       views: 506
@@ -656,7 +656,7 @@
     - service: vk
       id: 2613
       published: 2025-08-30-19-10-44
-      updated: 2026-04-24-16-10-30
+      updated: 2026-05-14-15-23-03
       followers: 1395
       likes: 50
       views: 587
@@ -754,7 +754,7 @@
       id: DH6fBvXBznp
       mediaId: '18070466110880575'
       published: 2025-04-01-18-21-38
-      updated: 2026-04-24-17-53-25
+      updated: 2026-05-14-15-24-45
       followers: 1529
       likes: 97
       views: 434
@@ -769,10 +769,10 @@
     - service: tg
       id: 773
       published: 2025-04-01-18-21-57
-      updated: 2026-04-28-18-21-06
+      updated: 2026-05-14-15-24-29
       followers: 712
       likes: 68
-      views: 678
+      views: 680
 2023-08-10-behind-a-barrel:
   title: Behind a Barrel
   titleRu: За бочкой
