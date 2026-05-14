@@ -1372,7 +1372,8 @@
 2017-01-28-2-meditative-night-in-ahemmusa-camp:
   title: Meditative Night in Ahemmusa Camp
   titleRu: Ночь медитации в лагере Ахеммуза
-  description: Camera was placed in Ahemmusa Camp over the yurt of ashkhan in the rainy evening. It stayed there until morning.
+  description:
+    Camera was placed in Ahemmusa Camp over the yurt of ashkhan in the rainy evening. It stayed there until morning.
   descriptionRu: Камера была закреплена дождливым вечером над юртой ашхана и оставалась там до утра.
   placement: Outdoors
   location: Ahemmusa Camp
@@ -5638,6 +5639,11 @@
       id: '1777400659449'
       published: 2026-04-28-18-24-19
       followers: 22
+    - service: ig
+      id: DXy0PDQCmqi
+      mediaId: '18118340410589735'
+      published: 2026-05-01-09-00-00
+      followers: 1608
 2017-04-18-azura-and-fallen-nerevarines:
   title: Azura and Fallen Nerevarines
   titleRu: Азура и павшие Нереварины
@@ -6845,6 +6851,23 @@
       comments: !c |-
         izGAk5PLQnlHWu7dAACqa2EtYmItYmktZbjQrdGFLCBiYXJlZm9vdCBjaGlsZGhvb2STy0J5GnTG
         OYAAqmhpbW1lbGhlcnqk8J+Zj5PLQnkaUBbeAACremhlY2hrYS1kcnak8J+YjAM=
+    - service: tg
+      id: 1225
+      published: 2026-05-01-11-00-00
+      followers: 906
+    - service: vk
+      id: 3350
+      published: 2026-05-01-11-00-00
+      followers: 1433
+    - service: ig
+      id: DXy0mLNisa5
+      mediaId: '18085323788618498'
+      published: 2026-05-01-11-00-00
+      followers: 1608
+    - service: mx
+      id: UNKNOWN
+      published: 2026-05-01-11-00-00
+      followers: 22
 2017-05-10-slaves-of-molag-mar:
   title: Slaves of Molag Mar
   titleRu: Рабы Молаг Мара
@@ -7284,7 +7307,7 @@
   title: Queen Mother in Her Chambers
   titleRu: Королева-мать в своих покоях
   placement: Indoors
-  location: 'Mournhold, Royal Palace: Barenziah''s Chambers'
+  location: "Mournhold, Royal Palace: Barenziah's Chambers"
   content: store:/shots/2017-05-19-queen-mother-in-her-chambers.png
   type: shot
   aspect: 1/1
@@ -17713,7 +17736,7 @@
   locating:
     date: 2026-02-21-19-30-53
     user: pyriglena
-    text: '-20,26, north-east, behind Ingmar''s house'
+    text: "-20,26, north-east, behind Ingmar's house"
   engine: OpenMW
   addon: Bloodmoon
   mark: B2
