@@ -601,7 +601,7 @@ arya-stark:
   profiles:
     - service: vk
       id: '820702664'
-      updated: 2026-05-14-19-53-54
+      updated: 2026-05-15-23-05-20
       username: id820702664
       name: Арья Старк
       avatar: store:/avatars/vk-689aa89d.jpg
@@ -1407,14 +1407,14 @@ dehero:
       avatar: store:/avatars/gh-c8afe641.jpg
     - service: vk
       id: '3652910'
-      updated: 2026-05-15-21-09-03
+      updated: 2026-05-15-23-05-05
       username: dehero
       name: Антон Курьянов
       avatar: store:/avatars/vk-5356f76e.jpg
     - type: channel
       service: vk
       id: '138249959'
-      updated: 2026-05-15-21-05-34
+      updated: 2026-05-15-23-04-01
       username: mwscr
       name: Morrowind Screenshots
       avatar: store:/avatars/vk-8e97fd4f.jpg
@@ -1977,7 +1977,7 @@ evil-kit:
   profiles:
     - service: vk
       id: '153155138'
-      updated: 2026-05-15-21-08-25
+      updated: 2026-05-15-23-05-05
       username: evil_kit
       name: Никита Метелкин
       avatar: store:/avatars/vk-adb64972.jpg
@@ -2728,7 +2728,7 @@ ivan-uralov:
   profiles:
     - service: vk
       id: '16497155'
-      updated: 2026-05-15-21-05-12
+      updated: 2026-05-15-23-04-00
       username: id16497155
       name: Иван Уралов
       avatar: store:/avatars/vk-51775759.jpg
@@ -2961,7 +2961,7 @@ karatedance:
   profiles:
     - service: tg
       id: '1037255094'
-      updated: 2026-05-15-21-05-08
+      updated: 2026-05-15-23-04-00
       accessHash: '-5098047197051495291'
       username: karatedance
       name: ulanov.
@@ -5023,10 +5023,10 @@ sergey-b-2:
   profiles:
     - service: vk
       id: '1077446394'
-      updated: 2026-05-15-21-05-35
+      updated: 2026-05-15-23-05-20
       username: id1077446394
       name: Сергей Б
-      avatar: store:/avatars/vk-dbfcdaf3.jpg
+      avatar: store:/avatars/vk-19f7eb4f.jpg
 sergey-churbanov:
   profiles:
     - service: vk
