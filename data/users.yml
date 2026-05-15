@@ -585,7 +585,7 @@ artyom-melikhoff:
   profiles:
     - service: vk
       id: '299405149'
-      updated: 2026-05-15-00-06-37
+      updated: 2026-05-15-19-42-44
       username: artyom_melikhoff
       name: Артём Мелихов
       avatar: store:/avatars/vk-5b2fd843.jpg
@@ -1407,14 +1407,14 @@ dehero:
       avatar: store:/avatars/gh-c8afe641.jpg
     - service: vk
       id: '3652910'
-      updated: 2026-05-15-17-45-43
+      updated: 2026-05-15-19-42-38
       username: dehero
       name: Антон Курьянов
       avatar: store:/avatars/vk-5356f76e.jpg
     - type: channel
       service: vk
       id: '138249959'
-      updated: 2026-05-15-17-42-54
+      updated: 2026-05-15-19-42-17
       username: mwscr
       name: Morrowind Screenshots
       avatar: store:/avatars/vk-8e97fd4f.jpg
@@ -2728,7 +2728,7 @@ ivan-uralov:
   profiles:
     - service: vk
       id: '16497155'
-      updated: 2026-05-15-17-41-41
+      updated: 2026-05-15-19-42-17
       username: id16497155
       name: Иван Уралов
       avatar: store:/avatars/vk-51775759.jpg
@@ -2961,7 +2961,7 @@ karatedance:
   profiles:
     - service: tg
       id: '1037255094'
-      updated: 2026-05-15-17-41-43
+      updated: 2026-05-15-19-42-21
       accessHash: '-5098047197051495291'
       username: karatedance
       name: ulanov.
@@ -3168,7 +3168,7 @@ kydinov91:
   profiles:
     - service: vk
       id: '36104583'
-      updated: 2026-05-15-17-44-49
+      updated: 2026-05-15-19-43-19
       username: kydinov91
       name: Илья Кудинов
       avatar: store:/avatars/vk-03d8a48a.jpg
@@ -4402,7 +4402,7 @@ petrushkachord:
   profiles:
     - service: vk
       id: '370043102'
-      updated: 2026-05-15-17-45-42
+      updated: 2026-05-15-19-43-48
       username: petrushkachord
       name: Данила Силкин
       avatar: store:/avatars/vk-166e4c44.jpg
