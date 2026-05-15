@@ -4368,28 +4368,30 @@
       id: DYVOKEoCV7V
       mediaId: '18115731733697032'
       published: 2026-05-14-19-56-03
-      updated: 2026-05-15-19-42-15
+      updated: 2026-05-15-21-05-05
       followers: 1607
       likes: 57
     - service: vk
       id: 3357
       published: 2026-05-14-19-56-10
-      updated: 2026-05-15-19-42-18
+      updated: 2026-05-15-21-05-35
       followers: 1433
-      likes: 44
-      views: 343
+      likes: 46
+      views: 359
       reposts: 2
       comments: !c |-
-        G8oAWBwHdiyz8HB0ZG83QqXz/L+3EX6ggc5kMrGBdgo46USU3EeQzq0VQy4W88WBB3bWW0xCtknJ
-        wzfBfPvGph2bSSZKSZKKygNuVmzL06tFe5kKhI/2Y+iQL4/j+kz+57y7PStBUJHBU3raklwoyEyF
-        UTZBJE1geZuiIkj9DO768z3RIdOzNgMaPgHdEvgMCHm5GgXIDC4LvYhhRpY2CtIlOw==
+        G14BoCwOeDPWIcTEludZtFyWNeLp7/Uf4Z1H6aAx6ZpQrAKVBlJ+I6p7CH7R1daKNVqt2bOYJ+9g
+        DweWtxxtUlKSZrs/G4I98bNQbRKlahmxOnFuY3N5h0NqREEjaKypTk40cG6fB0Eaa5ylLaAM0vRk
+        7XuoZkR3wcfu8O4Xn/dtWb1MIxvNWHN2pioeSIiG0C8eDUEyJ/keRmRAurevSvf4yW+DK7XjwBjo
+        r3tuaioNImGHsPgUcbDT0C5kBYYZuygjIYWoo/zntaqe56iHHnZxsgzHYvmxSwQZ7sFJwwOGgTbY
+        LN1VAwIcgw6TKppKYXqpbQWiviTYOsIwDPD/bVs=
     - service: tg
       id: 1227
       published: 2026-05-14-19-56-14
-      updated: 2026-05-15-19-42-21
+      updated: 2026-05-15-21-05-09
       followers: 906
-      likes: 48
-      views: 199
+      likes: 50
+      views: 216
       comments: !c CxWAkZPLQnnigQGGAACra2FyYXRlZGFuY2WzdXJhYWFhISEhISBrcmFzb3RhLgM=
     - service: mx
       id: '1778788578425'

@@ -577,7 +577,7 @@ artyom-karpov:
   profiles:
     - service: vk
       id: '178018548'
-      updated: 2026-04-22-17-07-48
+      updated: 2026-05-15-21-08-15
       username: id178018548
       name: Артём Карпов
       avatar: store:/avatars/vk-72fe5d60.jpg
@@ -1341,7 +1341,7 @@ daryna-dmytrenko:
   profiles:
     - service: vk
       id: '164064457'
-      updated: 2026-04-22-17-07-17
+      updated: 2026-05-15-21-07-45
       username: daryna_dmytrenko
       name: Дарина Дмитренко
       avatar: store:/avatars/vk-0d327853.jpg
@@ -1407,14 +1407,14 @@ dehero:
       avatar: store:/avatars/gh-c8afe641.jpg
     - service: vk
       id: '3652910'
-      updated: 2026-05-15-19-42-38
+      updated: 2026-05-15-21-09-03
       username: dehero
       name: Антон Курьянов
       avatar: store:/avatars/vk-5356f76e.jpg
     - type: channel
       service: vk
       id: '138249959'
-      updated: 2026-05-15-19-42-17
+      updated: 2026-05-15-21-05-34
       username: mwscr
       name: Morrowind Screenshots
       avatar: store:/avatars/vk-8e97fd4f.jpg
@@ -1977,7 +1977,7 @@ evil-kit:
   profiles:
     - service: vk
       id: '153155138'
-      updated: 2026-04-24-17-53-41
+      updated: 2026-05-15-21-08-25
       username: evil_kit
       name: Никита Метелкин
       avatar: store:/avatars/vk-adb64972.jpg
@@ -2531,10 +2531,10 @@ idalexeyvav:
   profiles:
     - service: vk
       id: '417783044'
-      updated: 2026-04-22-17-07-13
+      updated: 2026-05-15-21-07-41
       username: idalexeyvav
-      avatar: store:/avatars/vk-7f160215.jpg
-      deleted: true
+      name: Алексей Вавилов
+      avatar: store:/avatars/vk-6717456e.jpg
 iddqd0110:
   profiles:
     - service: tg
@@ -2728,7 +2728,7 @@ ivan-uralov:
   profiles:
     - service: vk
       id: '16497155'
-      updated: 2026-05-15-19-42-17
+      updated: 2026-05-15-21-05-12
       username: id16497155
       name: Иван Уралов
       avatar: store:/avatars/vk-51775759.jpg
@@ -2961,7 +2961,7 @@ karatedance:
   profiles:
     - service: tg
       id: '1037255094'
-      updated: 2026-05-15-19-42-21
+      updated: 2026-05-15-21-05-08
       accessHash: '-5098047197051495291'
       username: karatedance
       name: ulanov.
@@ -3357,7 +3357,7 @@ lycanthropy:
   profiles:
     - service: vk
       id: '5386912'
-      updated: 2026-05-15-15-22-32
+      updated: 2026-05-15-21-09-07
       username: lycanthropy
       name: Филипп Суворов
       avatar: store:/avatars/vk-8642e0b8.jpg
@@ -3422,7 +3422,7 @@ maks-perunov:
   profiles:
     - service: vk
       id: '35868942'
-      updated: 2026-05-15-00-06-37
+      updated: 2026-05-15-21-06-43
       username: id35868942
       name: Макс Перунов
       avatar: store:/avatars/vk-3bb92045.jpg
@@ -5023,7 +5023,7 @@ sergey-b-2:
   profiles:
     - service: vk
       id: '1077446394'
-      updated: 2026-05-14-12-32-34
+      updated: 2026-05-15-21-05-35
       username: id1077446394
       name: Сергей Б
       avatar: store:/avatars/vk-dbfcdaf3.jpg
@@ -5324,7 +5324,7 @@ soulilight:
   profiles:
     - service: vk
       id: '347703822'
-      updated: 2026-05-15-17-45-31
+      updated: 2026-05-15-21-08-40
       username: soulilight
       name: Dima Boev
       avatar: store:/avatars/vk-f16e2fbe.jpg
@@ -6093,7 +6093,7 @@ user-36:
   profiles:
     - service: vk
       id: '227500203'
-      updated: 2026-04-22-19-18-53
+      updated: 2026-05-15-21-09-05
       username: id227500203
       avatar: store:/avatars/vk-7f160215.jpg
       deleted: true
