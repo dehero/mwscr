@@ -2473,27 +2473,28 @@
       id: DYXx8qBl1BS
       mediaId: '17926444056315405'
       published: 2026-05-15-19-47-15
-      updated: 2026-05-16-13-27-38
+      updated: 2026-05-16-14-59-08
       followers: 1607
-      likes: 51
+      likes: 52
     - service: vk
       id: 3360
       published: 2026-05-15-19-47-21
-      updated: 2026-05-16-13-27-40
+      updated: 2026-05-16-14-59-10
       followers: 1433
-      likes: 42
-      views: 321
+      likes: 47
+      views: 348
       reposts: 4
       comments: !c |-
-        Cy2AkZPLQnni+U7jAACvdmxhZGlzbGF2LWxvbWlu2T7QnNC+0YDQvdGF0L7Qu9C0LiDQk9C+0YDQ
-        vtC0INGB0LLQtdGC0LAsINCz0L7RgNC+0LQg0LzQsNCz0LjQuAM=
+        C0CAkpPLQnni+U7jAACvdmxhZGlzbGF2LWxvbWlu2T7QnNC+0YDQvdGF0L7Qu9C0LiDQk9C+0YDQ
+        vtC0INGB0LLQtdGC0LAsINCz0L7RgNC+0LQg0LzQsNCz0LjQuJPLQnnjFCV+AACpd2lsbC13aXNl
+        sdCh0LDQtCDRhdGA0LDQvNCwAw==
     - service: tg
       id: 1228
       published: 2026-05-15-19-47-25
-      updated: 2026-05-16-13-27-33
+      updated: 2026-05-16-14-59-03
       followers: 906
       likes: 44
-      views: 165
+      views: 167
     - service: mx
       id: '1778874452430'
       published: 2026-05-15-19-47-32
