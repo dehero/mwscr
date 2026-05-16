@@ -626,6 +626,23 @@
       comments: !c |-
         G20AwGT+r/mf3zvwxCigI+tcWKQf4CKSpmscbMAJSDjxsvM0Dx7D65jk9Ck1zx9iGf7fiQqYWBlZ
         4G7fbs3Wr7Gbk53v+rv/Xr4n/dgINgB9yU+sZOKVj+KBAg+EVMBckawsIZUgkVQtGYYG
+    - service: ig
+      id: DYaS2zxDA52
+      mediaId: '18585092323057877'
+      published: 2026-05-16-19-13-18
+      followers: 1607
+    - service: vk
+      id: 3364
+      published: 2026-05-16-19-13-25
+      followers: 1433
+    - service: tg
+      id: 1229
+      published: 2026-05-16-19-13-30
+      followers: 906
+    - service: mx
+      id: '1778958813875'
+      published: 2026-05-16-19-13-33
+      followers: 22
 2018-01-14-clothiers-table:
   title: Clothier's Table
   titleRu: Столик портнихи
@@ -4368,16 +4385,16 @@
       id: DYVOKEoCV7V
       mediaId: '18115731733697032'
       published: 2026-05-14-19-56-03
-      updated: 2026-05-16-17-57-05
+      updated: 2026-05-16-19-12-40
       followers: 1607
-      likes: 63
+      likes: 64
     - service: vk
       id: 3357
       published: 2026-05-14-19-56-10
-      updated: 2026-05-16-17-57-10
+      updated: 2026-05-16-19-12-44
       followers: 1433
       likes: 51
-      views: 403
+      views: 404
       reposts: 2
       comments: !c |-
         G14BoCwOeDPWIcTEludZtFyWNeLp7/Uf4Z1H6aAx6ZpQrAKVBlJ+I6p7CH7R1daKNVqt2bOYJ+9g
@@ -4388,7 +4405,7 @@
     - service: tg
       id: 1227
       published: 2026-05-14-19-56-14
-      updated: 2026-05-16-17-57-07
+      updated: 2026-05-16-19-12-42
       followers: 906
       likes: 56
       views: 251
