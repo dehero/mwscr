@@ -630,7 +630,7 @@
       id: DYaS2zxDA52
       mediaId: '18585092323057877'
       published: 2026-05-16-19-13-18
-      updated: 2026-05-17-18-00-12
+      updated: 2026-05-17-19-23-00
       followers: 1607
       likes: 69
       comments: !c |-
@@ -639,21 +639,22 @@
     - service: vk
       id: 3364
       published: 2026-05-16-19-13-25
-      updated: 2026-05-17-18-00-10
+      updated: 2026-05-17-19-23-04
       followers: 1433
-      likes: 56
-      views: 477
+      likes: 59
+      views: 488
       reposts: 3
       comments: !c |-
-        CzCAkZPLQnnjSk3+gACraXZhbi11cmFsb3bZSNCt0YLQviDRgSDRgdC10LLQtdGA0L3QvtC5INGB
-        0YLQvtGA0L7QvdGLINGPINGC0LDQuiDQv9C+0L3QuNC80LDRjiDQttC1PwM=
+        G6sAcCwOzNNNXWC2qwdc/WgJCKK5pfr0aaimPHCgIA4WBEsUDdliipa7OHWbIUdLtBRhDDb84RPq
+        ZLXKkmmd7H6dyYTx92ryB4ec6EG5BRgQBYbvGSguOwbX8/tZute3dt6HanmrRw+uIiEhCCKHIZSA
+        elEfnzh+wA2MphtQFnnnspRWu3EgYFLQACMlXgoofihA80LCxWtCagQ=
     - service: tg
       id: 1229
       published: 2026-05-16-19-13-30
-      updated: 2026-05-17-18-00-09
+      updated: 2026-05-17-19-23-02
       followers: 906
-      likes: 53
-      views: 171
+      likes: 54
+      views: 174
       comments: !c |-
         G40A4J0Hxi3zhkHbR89EzYJim6m+3VoMIoLIMLWxkpbyyl0c6MZKyKY2hIuoHnRwN4kklfR7EJZ5
         PuMtiCUmQaUTsFjOdT9fuzrSezlzrL7bP34NGA1Ck7iEAQoZ8Wv8Fkf6lXDYaMRCeAgBLIe1Gwl4
@@ -4404,16 +4405,16 @@
       id: DYVOKEoCV7V
       mediaId: '18115731733697032'
       published: 2026-05-14-19-56-03
-      updated: 2026-05-16-19-12-40
+      updated: 2026-05-17-19-23-06
       followers: 1607
-      likes: 64
+      likes: 68
     - service: vk
       id: 3357
       published: 2026-05-14-19-56-10
-      updated: 2026-05-16-19-12-44
+      updated: 2026-05-17-19-23-12
       followers: 1433
-      likes: 51
-      views: 404
+      likes: 53
+      views: 435
       reposts: 2
       comments: !c |-
         G14BoCwOeDPWIcTEludZtFyWNeLp7/Uf4Z1H6aAx6ZpQrAKVBlJ+I6p7CH7R1daKNVqt2bOYJ+9g
@@ -4424,10 +4425,10 @@
     - service: tg
       id: 1227
       published: 2026-05-14-19-56-14
-      updated: 2026-05-16-19-12-42
+      updated: 2026-05-17-19-23-08
       followers: 906
-      likes: 56
-      views: 251
+      likes: 61
+      views: 280
       comments: !c CxWAkZPLQnnigQGGAACra2FyYXRlZGFuY2WzdXJhYWFhISEhISBrcmFzb3RhLgM=
     - service: mx
       id: '1778788578425'
