@@ -2395,7 +2395,7 @@ herbertspringmaus:
   profiles:
     - service: tg
       id: '180449420'
-      updated: 2026-05-17-03-39-43
+      updated: 2026-05-17-06-47-34
       accessHash: '-757812475294737112'
       username: herbertspringmaus
       name: Yury
@@ -2728,7 +2728,7 @@ ivan-uralov:
   profiles:
     - service: vk
       id: '16497155'
-      updated: 2026-05-16-19-12-43
+      updated: 2026-05-17-06-47-32
       username: id16497155
       name: Иван Уралов
       avatar: store:/avatars/vk-51775759.jpg
@@ -3446,7 +3446,7 @@ maksim-solovev:
   profiles:
     - service: vk
       id: '658767771'
-      updated: 2026-05-17-03-39-42
+      updated: 2026-05-17-06-47-35
       username: id658767771
       name: Максим Соловьев
       avatar: store:/avatars/vk-bee5815b.jpg
@@ -4605,7 +4605,7 @@ pyriglena:
   profiles:
     - service: tg
       id: '554672984'
-      updated: 2026-05-17-03-39-41
+      updated: 2026-05-17-06-47-30
       accessHash: '-3565593010225205906'
       username: pyriglena
       name: yarrow
@@ -6351,7 +6351,7 @@ vladislav-lomin:
   profiles:
     - service: vk
       id: '504964620'
-      updated: 2026-05-17-03-39-42
+      updated: 2026-05-17-06-47-35
       username: id504964620
       name: Владислав Ломин
       avatar: store:/avatars/vk-39034114.jpg
@@ -6477,7 +6477,7 @@ will-wise:
   profiles:
     - service: vk
       id: '386479814'
-      updated: 2026-05-17-03-39-43
+      updated: 2026-05-17-06-47-36
       username: id386479814
       name: Will Wise
       avatar: store:/avatars/vk-a5f24a91.jpg
