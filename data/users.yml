@@ -410,7 +410,7 @@ andrew-art:
   profiles:
     - service: tg
       id: '449416259'
-      updated: 2026-04-20-12-07-39
+      updated: 2026-05-18-12-35-12
       accessHash: '3490877615553694787'
       username: andrew_art
       botChatId: 449416259
@@ -1414,7 +1414,7 @@ dehero:
     - type: channel
       service: vk
       id: '138249959'
-      updated: 2026-05-18-08-07-36
+      updated: 2026-05-18-12-35-05
       username: mwscr
       name: Morrowind Screenshots
       avatar: store:/avatars/vk-8e97fd4f.jpg
@@ -2064,7 +2064,7 @@ followingtheroe1952:
   profiles:
     - service: yt
       id: UCKmAi7G7ws5T2RJFD5G7EUw
-      updated: 2026-04-20-10-51-45
+      updated: 2026-05-18-12-35-12
       username: '@followingtheroe1952'
       name: Following the Roe
       avatar: store:/avatars/yt-64c75028.jpg
@@ -2728,7 +2728,7 @@ ivan-uralov:
   profiles:
     - service: vk
       id: '16497155'
-      updated: 2026-05-18-08-07-35
+      updated: 2026-05-18-12-35-04
       username: id16497155
       name: Иван Уралов
       avatar: store:/avatars/vk-51775759.jpg
@@ -4605,7 +4605,7 @@ pyriglena:
   profiles:
     - service: tg
       id: '554672984'
-      updated: 2026-05-18-08-07-38
+      updated: 2026-05-18-12-35-06
       accessHash: '-3565593010225205906'
       username: pyriglena
       name: yarrow
