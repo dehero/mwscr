@@ -3450,7 +3450,7 @@ maksim-solovev:
   profiles:
     - service: vk
       id: '658767771'
-      updated: 2026-05-18-22-05-21
+      updated: 2026-05-19-00-10-21
       username: id658767771
       name: Максим Соловьев
       avatar: store:/avatars/vk-bee5815b.jpg
@@ -4609,7 +4609,7 @@ pyriglena:
   profiles:
     - service: tg
       id: '554672984'
-      updated: 2026-05-18-22-05-19
+      updated: 2026-05-19-00-10-21
       accessHash: '-3565593010225205906'
       username: pyriglena
       name: yarrow
