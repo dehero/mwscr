@@ -1414,7 +1414,7 @@ dehero:
     - type: channel
       service: vk
       id: '138249959'
-      updated: 2026-05-19-19-03-27
+      updated: 2026-05-19-21-22-36
       username: mwscr
       name: Morrowind Screenshots
       avatar: store:/avatars/vk-8e97fd4f.jpg
@@ -2399,7 +2399,7 @@ herbertspringmaus:
   profiles:
     - service: tg
       id: '180449420'
-      updated: 2026-05-18-20-27-01
+      updated: 2026-05-19-21-22-30
       accessHash: '-757812475294737112'
       username: herbertspringmaus
       name: Yury
@@ -2732,7 +2732,7 @@ ivan-uralov:
   profiles:
     - service: vk
       id: '16497155'
-      updated: 2026-05-19-19-03-26
+      updated: 2026-05-19-21-22-36
       username: id16497155
       name: Иван Уралов
       avatar: store:/avatars/vk-51775759.jpg
@@ -2965,7 +2965,7 @@ karatedance:
   profiles:
     - service: tg
       id: '1037255094'
-      updated: 2026-05-18-20-27-01
+      updated: 2026-05-19-21-22-33
       accessHash: '-5098047197051495291'
       username: karatedance
       name: ulanov.
@@ -3450,7 +3450,7 @@ maksim-solovev:
   profiles:
     - service: vk
       id: '658767771'
-      updated: 2026-05-19-19-03-23
+      updated: 2026-05-19-21-22-35
       username: id658767771
       name: Максим Соловьев
       avatar: store:/avatars/vk-bee5815b.jpg
@@ -5027,7 +5027,7 @@ sergey-b-2:
   profiles:
     - service: vk
       id: '1077446394'
-      updated: 2026-05-18-20-27-07
+      updated: 2026-05-19-21-22-36
       username: id1077446394
       name: Сергей Б
       avatar: store:/avatars/vk-19f7eb4f.jpg
@@ -6355,7 +6355,7 @@ vladislav-lomin:
   profiles:
     - service: vk
       id: '504964620'
-      updated: 2026-05-18-20-27-05
+      updated: 2026-05-19-21-22-35
       username: id504964620
       name: Владислав Ломин
       avatar: store:/avatars/vk-39034114.jpg
@@ -6481,7 +6481,7 @@ will-wise:
   profiles:
     - service: vk
       id: '386479814'
-      updated: 2026-05-18-20-27-06
+      updated: 2026-05-19-21-22-35
       username: id386479814
       name: Will Wise
       avatar: store:/avatars/vk-a5f24a91.jpg
@@ -6669,7 +6669,7 @@ yoursherlok:
   profiles:
     - service: tg
       id: '1180213688'
-      updated: 2026-05-15-00-05-31
+      updated: 2026-05-19-21-22-25
       accessHash: '4059888448763037948'
       username: yoursherlok
       name: Artem
