@@ -2194,6 +2194,7 @@ ghosr1368:
       updated: 2026-05-14-10-20-34
       accessHash: '2523169162736182941'
       username: Ghost_1488_1
+      botChatId: 6353853685
       name: GHOST_141
       avatar: store:/avatars/tg-5332336399639844603.jpg
 ghost63rus:
@@ -3450,7 +3451,7 @@ maksim-solovev:
   profiles:
     - service: vk
       id: '658767771'
-      updated: 2026-05-20-07-47-52
+      updated: 2026-05-20-10-53-44
       username: id658767771
       name: Максим Соловьев
       avatar: store:/avatars/vk-bee5815b.jpg
@@ -6669,7 +6670,7 @@ yoursherlok:
   profiles:
     - service: tg
       id: '1180213688'
-      updated: 2026-05-20-07-47-57
+      updated: 2026-05-20-10-53-44
       accessHash: '4059888448763037948'
       username: yoursherlok
       name: Artem
