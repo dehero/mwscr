@@ -1414,7 +1414,7 @@ dehero:
     - type: channel
       service: vk
       id: '138249959'
-      updated: 2026-05-20-19-28-17
+      updated: 2026-05-20-21-57-58
       username: mwscr
       name: Morrowind Screenshots
       avatar: store:/avatars/vk-8e97fd4f.jpg
@@ -2400,7 +2400,7 @@ herbertspringmaus:
   profiles:
     - service: tg
       id: '180449420'
-      updated: 2026-05-19-21-22-30
+      updated: 2026-05-20-21-57-47
       accessHash: '-757812475294737112'
       username: herbertspringmaus
       name: Yury
@@ -2733,7 +2733,7 @@ ivan-uralov:
   profiles:
     - service: vk
       id: '16497155'
-      updated: 2026-05-20-19-28-17
+      updated: 2026-05-20-21-57-58
       username: id16497155
       name: Иван Уралов
       avatar: store:/avatars/vk-51775759.jpg
@@ -2966,7 +2966,7 @@ karatedance:
   profiles:
     - service: tg
       id: '1037255094'
-      updated: 2026-05-19-21-22-33
+      updated: 2026-05-20-21-57-54
       accessHash: '-5098047197051495291'
       username: karatedance
       name: ulanov.
@@ -3451,7 +3451,7 @@ maksim-solovev:
   profiles:
     - service: vk
       id: '658767771'
-      updated: 2026-05-20-19-28-16
+      updated: 2026-05-20-21-57-57
       username: id658767771
       name: Максим Соловьев
       avatar: store:/avatars/vk-bee5815b.jpg
@@ -5028,7 +5028,7 @@ sergey-b-2:
   profiles:
     - service: vk
       id: '1077446394'
-      updated: 2026-05-19-21-22-36
+      updated: 2026-05-20-21-57-59
       username: id1077446394
       name: Сергей Б
       avatar: store:/avatars/vk-19f7eb4f.jpg
@@ -6356,7 +6356,7 @@ vladislav-lomin:
   profiles:
     - service: vk
       id: '504964620'
-      updated: 2026-05-19-21-22-35
+      updated: 2026-05-20-21-57-57
       username: id504964620
       name: Владислав Ломин
       avatar: store:/avatars/vk-39034114.jpg
@@ -6482,7 +6482,7 @@ will-wise:
   profiles:
     - service: vk
       id: '386479814'
-      updated: 2026-05-19-21-22-35
+      updated: 2026-05-20-21-57-57
       username: id386479814
       name: Will Wise
       avatar: store:/avatars/vk-a5f24a91.jpg
