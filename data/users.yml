@@ -3450,7 +3450,7 @@ maksim-solovev:
   profiles:
     - service: vk
       id: '658767771'
-      updated: 2026-05-20-03-46-59
+      updated: 2026-05-20-07-47-52
       username: id658767771
       name: Максим Соловьев
       avatar: store:/avatars/vk-bee5815b.jpg
@@ -5375,7 +5375,7 @@ spearow-crow:
   profiles:
     - service: tg
       id: '927392851'
-      updated: 2026-04-22-05-32-52
+      updated: 2026-05-20-07-49-31
       accessHash: '-2683889022174722918'
       username: SpearowCrow
       botChatId: 927392851
@@ -6669,7 +6669,7 @@ yoursherlok:
   profiles:
     - service: tg
       id: '1180213688'
-      updated: 2026-05-20-03-46-57
+      updated: 2026-05-20-07-47-57
       accessHash: '4059888448763037948'
       username: yoursherlok
       name: Artem
