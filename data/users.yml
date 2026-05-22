@@ -1165,7 +1165,7 @@ crazycyrodiliccat:
   profiles:
     - service: vk
       id: '90554843'
-      updated: 2026-05-22-21-16-55
+      updated: 2026-05-22-23-04-33
       username: crazycyrodiliccat
       name: Александр Невский
       avatar: store:/avatars/vk-0db1296b.jpg
@@ -1407,14 +1407,14 @@ dehero:
       avatar: store:/avatars/gh-c8afe641.jpg
     - service: vk
       id: '3652910'
-      updated: 2026-05-22-21-16-55
+      updated: 2026-05-22-23-06-20
       username: dehero
       name: Антон Курьянов
       avatar: store:/avatars/vk-5356f76e.jpg
     - type: channel
       service: vk
       id: '138249959'
-      updated: 2026-05-22-21-15-53
+      updated: 2026-05-22-23-05-12
       username: mwscr
       name: Morrowind Screenshots
       avatar: store:/avatars/vk-8e97fd4f.jpg
@@ -2400,7 +2400,7 @@ herbertspringmaus:
   profiles:
     - service: tg
       id: '180449420'
-      updated: 2026-05-21-22-22-13
+      updated: 2026-05-22-23-03-12
       accessHash: '-757812475294737112'
       username: herbertspringmaus
       name: Yury
@@ -2589,7 +2589,7 @@ ilya-goryachev:
   profiles:
     - service: vk
       id: '448748807'
-      updated: 2026-05-15-17-43-08
+      updated: 2026-05-22-23-05-22
       username: id448748807
       name: Илья Горячев
       avatar: store:/avatars/vk-9b32f5bc.jpg
@@ -2733,7 +2733,7 @@ ivan-uralov:
   profiles:
     - service: vk
       id: '16497155'
-      updated: 2026-05-22-21-14-19
+      updated: 2026-05-22-23-03-15
       username: id16497155
       name: Иван Уралов
       avatar: store:/avatars/vk-51775759.jpg
@@ -3157,7 +3157,7 @@ kurov-alexander:
   profiles:
     - service: vk
       id: '233557'
-      updated: 2026-05-15-17-42-40
+      updated: 2026-05-22-23-05-02
       username: kurov.alexander
       name: Александр Куров
       avatar: store:/avatars/vk-c64fc9de.jpg
@@ -3173,7 +3173,7 @@ kydinov91:
   profiles:
     - service: vk
       id: '36104583'
-      updated: 2026-05-22-21-15-31
+      updated: 2026-05-22-23-06-20
       username: kydinov91
       name: Илья Кудинов
       avatar: store:/avatars/vk-03d8a48a.jpg
@@ -3362,7 +3362,7 @@ lycanthropy:
   profiles:
     - service: vk
       id: '5386912'
-      updated: 2026-05-15-21-09-07
+      updated: 2026-05-22-23-03-41
       username: lycanthropy
       name: Филипп Суворов
       avatar: store:/avatars/vk-8642e0b8.jpg
@@ -3451,7 +3451,7 @@ maksim-solovev:
   profiles:
     - service: vk
       id: '658767771'
-      updated: 2026-05-22-21-14-16
+      updated: 2026-05-22-23-03-18
       username: id658767771
       name: Максим Соловьев
       avatar: store:/avatars/vk-bee5815b.jpg
@@ -3540,7 +3540,7 @@ max-tsei:
   profiles:
     - service: vk
       id: '353284524'
-      updated: 2026-05-22-19-54-30
+      updated: 2026-05-22-23-05-12
       username: max.tsei
       avatar: store:/avatars/vk-7f160215.jpg
       deleted: true
@@ -4610,7 +4610,7 @@ pyriglena:
   profiles:
     - service: tg
       id: '554672984'
-      updated: 2026-05-22-21-14-15
+      updated: 2026-05-22-23-03-09
       accessHash: '-3565593010225205906'
       username: pyriglena
       name: yarrow
@@ -5029,7 +5029,7 @@ sergey-b-2:
   profiles:
     - service: vk
       id: '1077446394'
-      updated: 2026-05-22-21-14-06
+      updated: 2026-05-22-23-03-14
       username: id1077446394
       name: Сергей Б
       avatar: store:/avatars/vk-19f7eb4f.jpg
@@ -6083,7 +6083,7 @@ user-34:
   profiles:
     - service: vk
       id: '266402374'
-      updated: 2026-05-15-15-22-29
+      updated: 2026-05-22-23-03-38
       username: id266402374
       avatar: store:/avatars/vk-7f160215.jpg
       deleted: true
@@ -6357,7 +6357,7 @@ vladislav-lomin:
   profiles:
     - service: vk
       id: '504964620'
-      updated: 2026-05-21-22-22-34
+      updated: 2026-05-22-23-03-18
       username: id504964620
       name: Владислав Ломин
       avatar: store:/avatars/vk-39034114.jpg
@@ -6483,7 +6483,7 @@ will-wise:
   profiles:
     - service: vk
       id: '386479814'
-      updated: 2026-05-21-22-22-35
+      updated: 2026-05-22-23-03-18
       username: id386479814
       name: Will Wise
       avatar: store:/avatars/vk-a5f24a91.jpg
