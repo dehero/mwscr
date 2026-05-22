@@ -12869,30 +12869,32 @@
       id: DYnDVx7EWML
       mediaId: '17871767589511235'
       published: 2026-05-21-18-07-52
-      updated: 2026-05-22-09-31-04
+      updated: 2026-05-22-12-22-26
       followers: 1607
-      likes: 63
+      likes: 65
       comments: !c ixKAkZPLQnnkw0wBAACrZGVsYW5vc3BpZXOuQGRyYXZlbmp2IPCfkYAD
     - service: vk
       id: 3378
       published: 2026-05-21-18-08-00
-      updated: 2026-05-22-09-31-22
+      updated: 2026-05-22-12-22-30
       followers: 1431
       likes: 18
-      views: 215
+      views: 233
       reposts: 2
       comments: !c |-
-        G8QA4B0Hbqw1I0nVtw4a9N+uT/i0mWKIE05K7I7wZJfsBs5JvrK26cgi0qL/BtlBs+x8HT4xhMkd
-        41QHgGmlAXy9ZdgYw/eaUqv+3I9J/9Jl9SzRk8UU5VBq9H+DdSw5L+gpD7Y8+TjNCB/eZry5YaoG
-        9uYubf/m3Llax5w3dzPe7Lnax5wnbwszlxbmLvNv1jt++iOq3hmxFhp6rGFHI8DQwzYun4Kww1Pb
-        ag==
+        G+oBACwOeDOWI8HgOn7BVpdjWeL/iYv9ggT+tJkttSBOOEqsCL+cS/ZV3ay+NmiUIwjXNBns+9rZ
+        +7d90iCCEIuyu/t7vbW3dQvkGyYeYFZiCJPrDc9rj/Oj5BGlKMd1YrZDnfGMf1Kgj4EENsDQC6yw
+        CySxLJvdMgPDBn39IK7L/ufzt+w/q/v4vh5luhDQbUaxum+hPuuANtVuMxzYFte5b2LMpYhKFous
+        AqPsXNScQk4x7/+53685emfH8XteHOiVPecm4xwsA4c46Icunq/Zyvc3v122AsJbDw2NF0FRagNJ
+        llTZCGbF6pzySgHDczEJAvjhAbJDTIzoCPJIOFilfZxjvwgdPHKUkM8aW+2lNIUiJsZFtMMRpIJA
+        VBUzAVSS3wDqY7oD
     - service: tg
       id: 1234
       published: 2026-05-21-18-08-04
-      updated: 2026-05-22-09-30-58
+      updated: 2026-05-22-12-22-19
       followers: 908
-      likes: 33
-      views: 143
+      likes: 35
+      views: 150
     - service: mx
       id: '1779386887636'
       published: 2026-05-21-18-08-07
