@@ -585,7 +585,7 @@ artyom-melikhoff:
   profiles:
     - service: vk
       id: '299405149'
-      updated: 2026-05-22-09-34-11
+      updated: 2026-05-23-03-31-15
       username: artyom_melikhoff
       name: Артём Мелихов
       avatar: store:/avatars/vk-5b2fd843.jpg
@@ -1407,7 +1407,7 @@ dehero:
       avatar: store:/avatars/gh-c8afe641.jpg
     - service: vk
       id: '3652910'
-      updated: 2026-05-22-23-06-20
+      updated: 2026-05-23-03-31-10
       username: dehero
       name: Антон Курьянов
       avatar: store:/avatars/vk-5356f76e.jpg
@@ -2733,7 +2733,7 @@ ivan-uralov:
   profiles:
     - service: vk
       id: '16497155'
-      updated: 2026-05-22-23-03-15
+      updated: 2026-05-23-03-29-53
       username: id16497155
       name: Иван Уралов
       avatar: store:/avatars/vk-51775759.jpg
@@ -3173,7 +3173,7 @@ kydinov91:
   profiles:
     - service: vk
       id: '36104583'
-      updated: 2026-05-22-23-06-20
+      updated: 2026-05-23-03-31-41
       username: kydinov91
       name: Илья Кудинов
       avatar: store:/avatars/vk-03d8a48a.jpg
@@ -4407,7 +4407,7 @@ petrushkachord:
   profiles:
     - service: vk
       id: '370043102'
-      updated: 2026-05-15-19-43-48
+      updated: 2026-05-23-03-32-03
       username: petrushkachord
       name: Данила Силкин
       avatar: store:/avatars/vk-166e4c44.jpg
@@ -4610,7 +4610,7 @@ pyriglena:
   profiles:
     - service: tg
       id: '554672984'
-      updated: 2026-05-22-23-03-09
+      updated: 2026-05-23-03-29-51
       accessHash: '-3565593010225205906'
       username: pyriglena
       name: yarrow
@@ -5029,7 +5029,7 @@ sergey-b-2:
   profiles:
     - service: vk
       id: '1077446394'
-      updated: 2026-05-22-23-03-14
+      updated: 2026-05-23-03-29-52
       username: id1077446394
       name: Сергей Б
       avatar: store:/avatars/vk-19f7eb4f.jpg
@@ -5330,7 +5330,7 @@ soulilight:
   profiles:
     - service: vk
       id: '347703822'
-      updated: 2026-05-22-12-23-36
+      updated: 2026-05-23-03-30-41
       username: soulilight
       name: Dima Boev
       avatar: store:/avatars/vk-4a3f332e.jpg
@@ -6091,7 +6091,7 @@ user-35:
   profiles:
     - service: vk
       id: '281861772'
-      updated: 2026-05-15-17-45-18
+      updated: 2026-05-23-03-30-31
       username: id281861772
       avatar: store:/avatars/vk-7f160215.jpg
       deleted: true
