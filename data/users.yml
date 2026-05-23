@@ -2733,7 +2733,7 @@ ivan-uralov:
   profiles:
     - service: vk
       id: '16497155'
-      updated: 2026-05-23-11-15-10
+      updated: 2026-05-23-13-40-38
       username: id16497155
       name: Иван Уралов
       avatar: store:/avatars/vk-51775759.jpg
@@ -4610,7 +4610,7 @@ pyriglena:
   profiles:
     - service: tg
       id: '554672984'
-      updated: 2026-05-23-11-15-08
+      updated: 2026-05-23-13-40-35
       accessHash: '-3565593010225205906'
       username: pyriglena
       name: yarrow
@@ -5029,7 +5029,7 @@ sergey-b-2:
   profiles:
     - service: vk
       id: '1077446394'
-      updated: 2026-05-23-11-15-18
+      updated: 2026-05-23-13-40-28
       username: id1077446394
       name: Сергей Б
       avatar: store:/avatars/vk-19f7eb4f.jpg
