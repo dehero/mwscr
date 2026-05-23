@@ -2166,6 +2166,23 @@
       likes: 60
       views: 674
       comments: !c iw+AkZPLQnlSitTSgACvYWxleGV5LXN0ZXBhbm92pPCfkKYD
+    - service: ig
+      id: DYsTorLlx80
+      mediaId: '18157203445459702'
+      published: 2026-05-23-19-06-30
+      followers: 1609
+    - service: vk
+      id: 3385
+      published: 2026-05-23-19-06-36
+      followers: 1433
+    - service: tg
+      id: 1237
+      published: 2026-05-23-19-06-38
+      followers: 907
+    - service: mx
+      id: '1779563201591'
+      published: 2026-05-23-19-06-41
+      followers: 22
 2020-11-02-dead-reflections:
   title: Dead Reflections
   titleRu: Мертвые отражения
