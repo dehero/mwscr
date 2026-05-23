@@ -6531,10 +6531,10 @@
     - service: vk
       id: 3290
       published: 2016-05-18-16-35-00
-      updated: 2026-05-15-23-05-20
+      updated: 2026-05-23-11-15-19
       followers: 1434
       likes: 54
-      views: 860
+      views: 871
       reposts: 3
       comments: !c |-
         Gz4RAKwK7MbyG22yIryo/tqJGSz+n1jWb7/NGvd21E4x3WQVhUbIWJ7CIikcWSPMFxJh47lG4FfF
@@ -12869,17 +12869,17 @@
       id: DYnDVx7EWML
       mediaId: '17871767589511235'
       published: 2026-05-21-18-07-52
-      updated: 2026-05-23-09-03-44
+      updated: 2026-05-23-11-15-07
       followers: 1607
-      likes: 74
+      likes: 75
       comments: !c ixKAkZPLQnnkw0wBAACrZGVsYW5vc3BpZXOuQGRyYXZlbmp2IPCfkYAD
     - service: vk
       id: 3378
       published: 2026-05-21-18-08-00
-      updated: 2026-05-23-09-04-18
+      updated: 2026-05-23-11-15-11
       followers: 1431
       likes: 19
-      views: 263
+      views: 264
       reposts: 2
       comments: !c |-
         G+oBACwOeDOWI8HgOn7BVpdjWeL/iYv9ggT+tJkttSBOOEqsCL+cS/ZV3ay+NmiUIwjXNBns+9rZ
@@ -12891,10 +12891,10 @@
     - service: tg
       id: 1234
       published: 2026-05-21-18-08-04
-      updated: 2026-05-23-09-04-20
+      updated: 2026-05-23-11-15-12
       followers: 908
-      likes: 44
-      views: 207
+      likes: 45
+      views: 209
     - service: mx
       id: '1779386887636'
       published: 2026-05-21-18-08-07

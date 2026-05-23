@@ -601,7 +601,7 @@ arya-stark:
   profiles:
     - service: vk
       id: '820702664'
-      updated: 2026-05-21-22-25-31
+      updated: 2026-05-23-11-15-18
       username: id820702664
       name: Арья Старк
       avatar: store:/avatars/vk-689aa89d.jpg
@@ -2733,7 +2733,7 @@ ivan-uralov:
   profiles:
     - service: vk
       id: '16497155'
-      updated: 2026-05-23-09-04-17
+      updated: 2026-05-23-11-15-10
       username: id16497155
       name: Иван Уралов
       avatar: store:/avatars/vk-51775759.jpg
@@ -4610,7 +4610,7 @@ pyriglena:
   profiles:
     - service: tg
       id: '554672984'
-      updated: 2026-05-23-09-03-49
+      updated: 2026-05-23-11-15-08
       accessHash: '-3565593010225205906'
       username: pyriglena
       name: yarrow
@@ -5029,7 +5029,7 @@ sergey-b-2:
   profiles:
     - service: vk
       id: '1077446394'
-      updated: 2026-05-23-09-03-49
+      updated: 2026-05-23-11-15-18
       username: id1077446394
       name: Сергей Б
       avatar: store:/avatars/vk-19f7eb4f.jpg
