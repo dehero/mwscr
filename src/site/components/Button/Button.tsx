@@ -1,11 +1,13 @@
 import clsx from 'clsx';
 import type { Component, ComponentProps } from 'solid-js';
 import { splitProps } from 'solid-js';
+import type { FrameState } from '../Frame/Frame.js';
 import { Frame } from '../Frame/Frame.js';
 import styles from './Button.module.css';
 
 export type ButtonProps = (ComponentProps<'a'> | ComponentProps<'button'>) & {
   active?: boolean;
+  state?: FrameState;
 };
 
 export const Button: Component<ButtonProps> = (props) => {

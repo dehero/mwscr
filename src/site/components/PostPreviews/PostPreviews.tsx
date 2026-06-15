@@ -1,8 +1,6 @@
 import type { Component } from 'solid-js';
-import { clientOnly } from 'vike-solid/clientOnly';
 import type { PostInfo } from '../../../core/entities/post-info.js';
-
-const VirtualPostPreviews = clientOnly(() => import('./VirtualPostPreviews.jsx'));
+import VirtualPostPreviews from './VirtualPostPreviews.jsx';
 
 export interface PostPreviewsProps {
   postInfos: PostInfo[];

@@ -51,7 +51,8 @@ async function updateServicePublications(
   if (updatablePublications.length === 0) {
     console.info(`No ${service.name} publications to update.`);
     return;
-  } else if (updatablePublications.length > MAX_UPDATE_COUNT) {
+  }
+  if (updatablePublications.length > MAX_UPDATE_COUNT) {
     console.info(
       `Found ${updatablePublications.length} ${service.name} publications to update, updating first ${MAX_UPDATE_COUNT}.`,
     );

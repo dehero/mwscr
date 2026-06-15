@@ -243,7 +243,7 @@ export const Toast: Component<ToastProps> = (props) => {
       removeToast(id);
       setToastId(undefined);
     } else if (!id && props.show) {
-      setToastId(addToast(props.message, Infinity, props.loading));
+      setTimeout(() => setToastId(addToast(props.message, Infinity, props.loading)), 0);
     }
   });
 
