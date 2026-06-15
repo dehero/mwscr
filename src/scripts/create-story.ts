@@ -34,7 +34,6 @@ const { image, html } = await createPostStory(post, { ignoreLinks: true });
 const imageFilename = `.temp/${managerName}-${id}.png`;
 const htmlFilename = `.temp/${managerName}-${id}.html`;
 
-// @ts-expect-error TODO: Resolve typing issue
 await writeFile(imageFilename, image);
 console.log(`Story image saved to ${imageFilename}`);
 

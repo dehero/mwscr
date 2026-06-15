@@ -1,14 +1,12 @@
-import type { SiteRoute, SiteRouteParams } from '../../core/entities/site-route.js';
-import { getHelpPageData, type HelpPageData } from '../components/HelpPage/HelpPage.data.js';
+import { lazy } from 'solid-js';
+import type { SiteRoute } from '../../core/entities/site-route.js';
+import type { HelpPageData, HelpPageParams } from '../pages/HelpPage/HelpPage.data.js';
+import { queryHelpPageData } from '../pages/HelpPage/HelpPage.data.js';
 
-export interface HelpRouteParams extends SiteRouteParams {
-  topicId: string;
-}
-
-export const helpRoute: SiteRoute<HelpRouteParams, HelpPageData> = {
-  path: '/help*',
-  meta: (params, data) => {
-    const topicTitle = data?.topic?.title || data?.indexTopic.title || params.topicId;
+export const helpRoute: SiteRoute<HelpPageParams, HelpPageData> = {
+  path: '/help/:topicId?',
+  info: (params) => {
+    const topicTitle = params.topicId;
     return {
       title: topicTitle || 'Help',
       description: topicTitle
@@ -17,8 +15,6 @@ export const helpRoute: SiteRoute<HelpRouteParams, HelpPageData> = {
     };
   },
   createUrl: (params) => `/help/${params.topicId ? `${params.topicId}/` : ''}`,
-  mapParams: (params) => ({
-    topicId: params['*']?.replace(/\//g, '') || '',
-  }),
-  getData: getHelpPageData,
+  component: lazy(() => import('../pages/HelpPage/HelpPage.jsx')),
+  preload: ({ params }) => queryHelpPageData(params),
 };

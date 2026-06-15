@@ -161,7 +161,6 @@ export function unknownToString(value?: unknown): string | undefined {
 }
 
 export function getRevisionHash(data: Buffer | Uint8Array | string) {
-  // @ts-expect-error Buffer is supported actually
   return md5Hex(data).slice(0, 8);
 }
 

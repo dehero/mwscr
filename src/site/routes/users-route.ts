@@ -1,13 +1,10 @@
-import type { SiteRoute, SiteRouteParams } from '../../core/entities/site-route.js';
-import type { UsersPageData } from '../components/UsersPage/UsersPage.data.js';
-import { getUsersPageData } from '../components/UsersPage/UsersPage.data.js';
-import type { UsersPageSearchParams } from '../components/UsersPage/UsersPage.js';
+import { lazy } from 'solid-js';
+import type { SiteRoute } from '../../core/entities/site-route.js';
+import { queryUsersPageData, type UsersPageData, type UsersPageParams } from '../pages/UsersPage/UsersPage.data.js';
 
-export interface UsersRouteParams extends SiteRouteParams, UsersPageSearchParams {}
-
-export const usersRoute: SiteRoute<UsersRouteParams, UsersPageData> = {
+export const usersRoute: SiteRoute<UsersPageParams, UsersPageData> = {
   path: '/users',
-  meta: () => ({
+  info: () => ({
     title: 'Members',
     description: 'List of members of Morrowind Screenshots project.',
   }),
@@ -18,5 +15,6 @@ export const usersRoute: SiteRoute<UsersRouteParams, UsersPageData> = {
 
     return `/users/${searchParams.size > 0 ? '?' : ''}${searchParams.toString()}`;
   },
-  getData: getUsersPageData,
+  component: lazy(() => import('../pages/UsersPage/UsersPage.jsx')),
+  preload: ({ params }) => queryUsersPageData(params),
 };
