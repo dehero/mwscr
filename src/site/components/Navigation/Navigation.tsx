@@ -1,12 +1,14 @@
-import { useLocation, useNavigate } from '@solidjs/router';
-import { type Component, For, Show } from 'solid-js';
+import { useCurrentMatches, useLocation, useNavigate } from '@solidjs/router';
+import { type Component, For, Show, useContext } from 'solid-js';
 import type { Option } from '../../../core/entities/option.js';
+import type { SiteRoute } from '../../../core/entities/site-route.js';
 import { useLocalPatch } from '../../hooks/useLocalPatch.js';
 import { helpRoute } from '../../routes/help-route.js';
 import { homeRoute } from '../../routes/home-route.js';
-import type { RouteMatch } from '../../routes/index.js';
 import { postsRoute } from '../../routes/posts-route.js';
+import type { RouteMatch } from '../../routes/index.js';
 import { usersRoute } from '../../routes/users-route.js';
+import { AppContext } from '../App/App.js';
 import { Button } from '../Button/Button.js';
 import { DataPatchSelect } from '../DataPatchSelect/DataPatchSelect.jsx';
 import { createDetachedDialogFragment } from '../DetachedDialogsProvider/DetachedDialogsProvider.jsx';
@@ -33,12 +35,49 @@ export function createOption({ route, params }: RouteMatch): Option {
   };
 }
 
+function isSiteRoute(value: unknown): value is SiteRoute {
+  return Boolean(
+    value &&
+      typeof value === 'object' &&
+      'path' in value &&
+      'info' in value &&
+      typeof value.info === 'function' &&
+      'createUrl' in value &&
+      typeof value.createUrl === 'function',
+  );
+}
+
+function createRouteChain(match: RouteMatch): RouteMatch[] {
+  const chain: RouteMatch[] = [match];
+
+  let current: RouteMatch | undefined = match;
+
+  while (current?.route.parent) {
+    const parent = current.route.parent(current.params as never);
+    if (!parent) {
+      break;
+    }
+
+    chain.unshift({
+      route: parent.route,
+      params: parent.params,
+    });
+
+    current = {
+      route: parent.route,
+      params: parent.params,
+    };
+  }
+
+  return chain;
+}
+
 export const Navigation: Component = () => {
   const navigate = useNavigate();
   const location = useLocation();
+  const currentMatches = useCurrentMatches();
   const pathname = () => location.pathname;
-  // const pathname = () => pageContext.urlPathname;
-  // const meta = () => useRouteInfo(pageContext).meta();
+  const { pageTitle } = useContext(AppContext);
 
   const [patchSize] = useLocalPatch();
 
@@ -52,26 +91,40 @@ export const Navigation: Component = () => {
           : undefined,
     );
 
-  // const breadcrumbs = () => {
-  //   const parts = ['', ...pathname().split('/').filter(Boolean)];
-  //   const options: Option[] = [];
-  //   const locationMeta = meta();
+  const breadcrumbs = () => {
+    const leaf = currentMatches().at(-1);
 
-  //   let url = '';
+    if (!leaf || !isSiteRoute(leaf.route.key)) {
+      return [];
+    }
 
-  //   parts.pop();
+    const items = createRouteChain({
+      route: leaf.route.key,
+      params: leaf.params,
+    });
 
-  //   for (const part of parts) {
-  //     url += `${part}/`;
+    const seen = new Set<string>();
+    const result: Option[] = [];
 
-  //     const item = resolveFirstRoute(url);
-  //     options.push(createOption(item));
-  //   }
+    for (const item of items) {
+      const option = createOption(item);
+      if (typeof option.value !== 'string' || seen.has(option.value)) {
+        continue;
+      }
 
-  //   options.push({ label: locationMeta.label || locationMeta.title || 'unknown', value: pathname() });
+      seen.add(option.value);
+      result.push(option);
+    }
 
-  //   return options;
-  // };
+    const lastOption = result.at(-1);
+    const currentPageTitle = pageTitle();
+
+    if (lastOption && currentPageTitle) {
+      lastOption.label = currentPageTitle;
+    }
+
+    return result;
+  };
 
   return (
     <nav class={styles.container}>
@@ -96,8 +149,8 @@ export const Navigation: Component = () => {
         onChange={(value) => navigate(value ?? '#')}
         value={selectedOption()?.value}
         class={styles.menu}
-      />{' '}
-      {/* <Show when={breadcrumbs().length > 1}>
+      />
+      <Show when={breadcrumbs().length > 1}>
         <span class={styles.breadcrumbs}>
           <For each={breadcrumbs()}>
             {(breadcrumb, index) => (
@@ -112,7 +165,7 @@ export const Navigation: Component = () => {
             )}
           </For>
         </span>
-      </Show> */}
+      </Show>
     </nav>
   );
 };

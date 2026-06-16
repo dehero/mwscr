@@ -11,7 +11,7 @@ export interface SiteRouteMeta {
   imageUrl?: string | string[];
 }
 
-export type SiteRouteParams = Record<string, string | undefined>; //string[] | undefined>;
+export type SiteRouteParams = Record<string, string | undefined>;
 
 export interface SiteRoutePreloadArgs<TParams extends SiteRouteParams> extends RoutePreloadFuncArgs {
   params: TParams;
@@ -23,7 +23,15 @@ export type SiteRoutePreload<TParams extends SiteRouteParams, TData extends unkn
 
 export interface SiteRouteFragment {
   pathname?: string;
-  searchParams?: SiteRouteParams;
+  searchParams?: Record<string, string | string[] | undefined>;
+}
+
+export interface SiteRouteParent<
+  TRoute extends SiteRoute<any, any> = SiteRoute<any, any>,
+  TParams extends SiteRouteParams = SiteRouteParams,
+> {
+  route: TRoute;
+  params: TParams;
 }
 
 export interface SiteRoute<TParams extends SiteRouteParams = SiteRouteParams, TData extends unknown = unknown> {
@@ -33,6 +41,7 @@ export interface SiteRoute<TParams extends SiteRouteParams = SiteRouteParams, TD
   preload?: SiteRoutePreload<TParams, TData>;
   createUrl: (params: TParams) => string;
   matchFilters?: MatchFilters<string>;
+  parent?: (params: TParams) => SiteRouteParent<SiteRoute<any, any>> | undefined;
 }
 
 export interface SiteRoutePageProps<TParams extends SiteRouteParams, TData extends unknown>
@@ -47,7 +56,7 @@ export type SiteRoutePage<TParams extends SiteRouteParams, TData extends unknown
 export function parseSiteRouteFragment(fragment: string): SiteRouteFragment {
   const [, pathname, search] = SITE_ROUTE_FRAGMENT_REGEX.exec(fragment) ?? [];
   const entries = [...new URLSearchParams(search)];
-  const searchParams: SiteRouteParams = {};
+  const searchParams: Record<string, string | string[] | undefined> = {};
 
   for (const [key, value] of entries) {
     const searchParam = searchParams[key];

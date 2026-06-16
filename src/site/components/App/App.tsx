@@ -25,11 +25,15 @@ import { YandexMetrikaCounter } from './YandexMetrikaCounter.jsx';
 export interface AppContext {
   pageTitle: Accessor<string | undefined>;
   setPageTitle: (value: string | undefined) => void;
+  pageLoading: Accessor<boolean>;
+  setPageLoading: (value: boolean) => void;
 }
 
 export const AppContext = createContext<AppContext>({
   pageTitle: () => '',
   setPageTitle: () => {},
+  pageLoading: () => true,
+  setPageLoading: () => {},
 });
 
 export interface AppPageProps {
@@ -38,20 +42,14 @@ export interface AppPageProps {
 }
 
 export const AppPage: Component<AppPageProps> = (props) => {
-  const { setPageTitle } = useContext(AppContext);
+  const { setPageTitle, setPageLoading } = useContext(AppContext);
 
   createEffect(() => {
     setPageTitle(props.title);
   });
 
-  // onMount(() => {
-  //   document.dispatchEvent(new Event('pagetransitionend'));
-  // });
-
   createEffect(() => {
-    if (!props.loading) {
-      document.dispatchEvent(new Event('pagetransitionend'));
-    }
+    setPageLoading(props.loading);
   });
 
   return null;
@@ -59,6 +57,11 @@ export const AppPage: Component<AppPageProps> = (props) => {
 
 export const App: ParentComponent = (props) => {
   const [pageTitle, setPageTitle] = createSignal<string>();
+  const [pageLoading, setPageLoading] = createSignal<boolean>(true);
+
+  const isRouting = useIsRouting();
+
+  const isLoading = createMemo(() => isRouting() || pageLoading());
 
   const metaTitle = createMemo(() => [pageTitle(), 'Morrowind Screenshots'].filter(Boolean).join(' — '));
 
@@ -71,19 +74,17 @@ export const App: ParentComponent = (props) => {
   //   }),
   // );
 
-  // const showLoadingToast = useIsRouting();
-
   const [showLoadingToast, setShowLoadingToast] = createSignal(true);
 
-  const handleTransitionStart = debounce(() => setShowLoadingToast(true), 100);
+  const startLoadingToast = debounce(() => setShowLoadingToast(true), 100);
 
-  const handleTransitionEnd = () => {
-    handleTransitionStart.clear();
-    setShowLoadingToast(false);
-  };
-
-  useBeforeLeave(() => {
-    document.dispatchEvent(new Event('pagetransitionstart'));
+  createEffect(() => {
+    if (isLoading()) {
+      startLoadingToast();
+    } else {
+      startLoadingToast.clear();
+      setShowLoadingToast(false);
+    }
   });
 
   // // onMount(() => {
@@ -108,7 +109,7 @@ export const App: ParentComponent = (props) => {
       <meta property="og:url" content={`${site.origin}${pageContext.urlPathname}`} />  */
 
   return (
-    <AppContext.Provider value={{ pageTitle, setPageTitle }}>
+    <AppContext.Provider value={{ pageTitle, setPageTitle, pageLoading, setPageLoading }}>
       <MetaProvider>
         <Show when={import.meta.env.MODE === 'production'}>
           <YandexMetrikaCounter />
@@ -141,8 +142,6 @@ export const App: ParentComponent = (props) => {
           </DataPatchManager>
         </Toaster>
       </MetaProvider>
-
-      <DocumentEventListener onPagetransitionstart={handleTransitionStart} onPagetransitionend={handleTransitionEnd} />
     </AppContext.Provider>
   );
 };
