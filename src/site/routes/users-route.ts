@@ -1,5 +1,6 @@
 import { lazy } from 'solid-js';
 import type { SiteRoute } from '../../core/entities/site-route.js';
+import { homeRoute } from './home-route.js';
 import { queryUsersPageData, type UsersPageData, type UsersPageParams } from '../pages/UsersPage/UsersPage.data.js';
 
 export const usersRoute: SiteRoute<UsersPageParams, UsersPageData> = {
@@ -15,6 +16,10 @@ export const usersRoute: SiteRoute<UsersPageParams, UsersPageData> = {
 
     return `/users/${searchParams.size > 0 ? '?' : ''}${searchParams.toString()}`;
   },
+  parent: () => ({
+    route: homeRoute,
+    params: {},
+  }),
   component: lazy(() => import('../pages/UsersPage/UsersPage.jsx')),
   preload: ({ params }) => queryUsersPageData(params),
 };
