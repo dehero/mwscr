@@ -115,7 +115,11 @@ export const PostsPage: SiteRoutePage<PostsPageParams, PostsPageData> = (props) 
 
   return (
     <>
-      <AppPage title={managerDescriptor().title} loading={!data()} />
+      <AppPage
+        title={managerDescriptor().title}
+        description={`List of ${managerDescriptor().title} in Morrowind Screenshots project.`}
+        loading={!data()}
+      />
 
       <Frame component="main" class={styles.container} ref={containerRef}>
         <Toast message="Loading Posts" show={postInfos.loading} loading />

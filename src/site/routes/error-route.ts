@@ -3,9 +3,7 @@ import { ErrorPage } from '../pages/ErrorPage/ErrorPage.jsx';
 
 export const errorRoute: SiteRoute = {
   path: '*',
-  info: () => ({
-    title: 'Error',
-  }),
+  info: () => ({}),
   createUrl: () => '/error/',
   component: ErrorPage,
 };

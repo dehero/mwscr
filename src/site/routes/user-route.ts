@@ -6,10 +6,7 @@ import { queryUserPageData } from '../pages/UserPage/UserPage.data.js';
 
 export const userRoute: SiteRoute<UserPageParams, UserPageData> = {
   path: '/users/:id',
-  info: (params) => ({
-    title: params.id,
-    description: `Information, profiles, comments, posts, requests and statistics of "${params.id}" in Morrowind Screenshots project.`,
-  }),
+  info: (params) => ({ label: params.id || 'User' }),
   createUrl: (params) => `/users/${params.id}/`,
   parent: () => ({
     route: usersRoute,

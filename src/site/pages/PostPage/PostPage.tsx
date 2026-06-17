@@ -193,7 +193,13 @@ export const PostPage: SiteRoutePage<PostPageParams, PostPageData> = (props) => 
 
   return (
     <>
-      <AppPage title={title()} loading={!data() || postInfo.loading} />
+      <AppPage
+        title={title()}
+        description={`Information, content, statistics and comments of ${
+          props.params.managerName
+        } post "${title()}" in Morrowind Screenshots project.`}
+        loading={!data() || postInfo.loading}
+      />
 
       <Frame
         class={clsx(

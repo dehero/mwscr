@@ -5,10 +5,7 @@ import { cleanupUndefinedProps } from '../utils/common-utils.js';
 const SITE_ROUTE_FRAGMENT_REGEX = /^#([^?]+)(\?.+)?$/;
 
 export interface SiteRouteMeta {
-  title: string;
-  description?: string;
   label?: string;
-  imageUrl?: string | string[];
 }
 
 export type SiteRouteParams = Record<string, string | undefined>;

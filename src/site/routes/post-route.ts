@@ -7,11 +7,7 @@ import { queryPostPageData } from '../pages/PostPage/PostPage.data.js';
 
 export const postRoute: SiteRoute<PostPageParams, PostPageData> = {
   path: '/:managerName/:id',
-  info: (params) => ({
-    title: params.id,
-    description: `Information, content, statistics and comments of ${params.managerName} post "${params.id}" in Morrowind Screenshots project.`,
-    // imageUrl: data?.content,
-  }),
+  info: (params) => ({ label: params.id || 'Post' }),
   createUrl: (params) => {
     const { managerName, id, ...rest } = params;
     const searchParams = new URLSearchParams(

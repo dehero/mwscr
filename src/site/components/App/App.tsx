@@ -1,19 +1,9 @@
 import { DocumentEventListener } from '@solid-primitives/event-listener';
 import { debounce } from '@solid-primitives/scheduled';
-import { MetaProvider, Title } from '@solidjs/meta';
-import {
-  createAsync,
-  useBeforeLeave,
-  useCurrentMatches,
-  useIsRouting,
-  useLocation,
-  useMatch,
-  useParams,
-} from '@solidjs/router';
+import { Meta, MetaProvider, Title } from '@solidjs/meta';
+import { useIsRouting } from '@solidjs/router';
 import type { Accessor, Component, ParentComponent } from 'solid-js';
-import { createContext, createEffect, createMemo, createSignal, onMount, Show, useContext } from 'solid-js';
-import { SiteRoute, SiteRouteMeta, SiteRouteParams } from '../../../core/entities/site-route.js';
-import { dataManager } from '../../data-managers/manager.js';
+import { createContext, createEffect, createMemo, createSignal, Show, useContext } from 'solid-js';
 import { DataPatchManager } from '../DataPatchManager/DataPatchManager.jsx';
 import { DetachedDialogsProvider } from '../DetachedDialogsProvider/DetachedDialogsProvider.jsx';
 import { Frame } from '../Frame/Frame.jsx';
@@ -25,6 +15,8 @@ import { YandexMetrikaCounter } from './YandexMetrikaCounter.jsx';
 export interface AppContext {
   pageTitle: Accessor<string | undefined>;
   setPageTitle: (value: string | undefined) => void;
+  pageDescription: Accessor<string | undefined>;
+  setPageDescription: (value: string | undefined) => void;
   pageLoading: Accessor<boolean>;
   setPageLoading: (value: boolean) => void;
 }
@@ -32,20 +24,27 @@ export interface AppContext {
 export const AppContext = createContext<AppContext>({
   pageTitle: () => '',
   setPageTitle: () => {},
+  pageDescription: () => '',
+  setPageDescription: () => {},
   pageLoading: () => true,
   setPageLoading: () => {},
 });
 
 export interface AppPageProps {
   title: string;
+  description?: string;
   loading: boolean;
 }
 
 export const AppPage: Component<AppPageProps> = (props) => {
-  const { setPageTitle, setPageLoading } = useContext(AppContext);
+  const { setPageTitle, setPageDescription, setPageLoading } = useContext(AppContext);
 
   createEffect(() => {
     setPageTitle(props.title);
+  });
+
+  createEffect(() => {
+    setPageDescription(props.description);
   });
 
   createEffect(() => {
@@ -57,6 +56,7 @@ export const AppPage: Component<AppPageProps> = (props) => {
 
 export const App: ParentComponent = (props) => {
   const [pageTitle, setPageTitle] = createSignal<string>();
+  const [pageDescription, setPageDescription] = createSignal<string>();
   const [pageLoading, setPageLoading] = createSignal<boolean>(true);
 
   const isRouting = useIsRouting();
@@ -64,15 +64,11 @@ export const App: ParentComponent = (props) => {
   const isLoading = createMemo(() => isRouting() || pageLoading());
 
   const metaTitle = createMemo(() => [pageTitle(), 'Morrowind Screenshots'].filter(Boolean).join(' — '));
-
-  // const breadcrumbs = createMemo(() =>
-  //   matches().map((m) => {
-  //     const callback = m.route.info as (params: SiteRouteParams) => SiteRouteMeta;
-  //     const meta = callback(m.params);
-
-  //     return meta;
-  //   }),
-  // );
+  const metaDescription = createMemo(
+    () =>
+      pageDescription() ||
+      'Original screenshots and videos from The Elder Scrolls III: Morrowind. No graphic and unlore mods. No color filters. No interface.',
+  );
 
   const [showLoadingToast, setShowLoadingToast] = createSignal(true);
 
@@ -87,29 +83,17 @@ export const App: ParentComponent = (props) => {
     }
   });
 
-  // // onMount(() => {
-  // //   setShowLoadingToast(false);
-  // // });
-
-  /* <>
-      <meta
-        name="description"
-        content={
-          meta().description ||
-          'Original screenshots and videos from The Elder Scrolls III: Morrowind. No graphic and unlore mods. No color filters. No interface.'
-        }
-      />
-      <meta property="og:title" content={meta().title || site.name} />
-      <Show when={meta().description}>
-        <meta property="og:description" content={meta().description} />
-      </Show>
-      <For each={asArray(meta().imageUrl ?? icon)}>
-        {(url) => <meta property="og:image" content={`${site.origin}${getResourcePreviewUrl(url)}`} />}
-      </For>
-      <meta property="og:url" content={`${site.origin}${pageContext.urlPathname}`} />  */
-
   return (
-    <AppContext.Provider value={{ pageTitle, setPageTitle, pageLoading, setPageLoading }}>
+    <AppContext.Provider
+      value={{
+        pageTitle,
+        setPageTitle,
+        pageDescription,
+        setPageDescription,
+        pageLoading,
+        setPageLoading,
+      }}
+    >
       <MetaProvider>
         <Show when={import.meta.env.MODE === 'production'}>
           <YandexMetrikaCounter />
@@ -130,6 +114,9 @@ export const App: ParentComponent = (props) => {
           <DataPatchManager>
             <DetachedDialogsProvider>
               <Title>{metaTitle()}</Title>
+              <Meta name="description" content={metaDescription()} />
+              <Meta property="og:title" content={metaTitle()} />
+              <Meta property="og:description" content={metaDescription()} />
 
               <Frame variant="thick" component="header" class={styles.header}>
                 <h1 class={styles.title}>{pageTitle() || 'Morrowind Screenshots'}</h1>

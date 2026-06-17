@@ -7,7 +7,6 @@ export const homeRoute: SiteRoute<SiteRouteParams, HomePageData> = {
   path: '/',
   info: () => ({
     label: 'Home',
-    title: '',
   }),
   createUrl: () => '/',
   component: lazy(() => import('../pages/HomePage/HomePage.jsx')),

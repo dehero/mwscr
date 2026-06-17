@@ -99,6 +99,12 @@ export const HelpPage: SiteRoutePage<HelpPageParams, HelpPageData> = (props) => 
             ? data()?.topic?.title ?? props.params.topicId
             : data()?.indexTopic.title ?? TOPIC_INDEX_ID
         }
+        description={(() => {
+          const topicTitle = data()?.topic?.title || data()?.indexTopic.title || props.params.topicId;
+          return topicTitle
+            ? `Information about "${topicTitle}" in Morrowind Screenshots project.`
+            : 'Information about Morrowind Screenshots project.';
+        })()}
         loading={!data() || topicInfos.loading}
       />
 

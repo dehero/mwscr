@@ -7,7 +7,7 @@ import styles from './ImageEditorPage.module.css';
 export const ImageEditorPage = (): JSX.Element => {
   return (
     <>
-      <AppPage title="Image Editor" loading={false} />
+      <AppPage title="Image Editor" description="Image editor for Morrowind Screenshots project." loading={false} />
 
       <Frame class={styles.container}>
         <ImageEditor />
