@@ -1,5 +1,4 @@
 import { type Component, createMemo, For, type JSX } from 'solid-js';
-import type { SiteRouteParams } from '../../../core/entities/site-route.js';
 import { parseSiteRouteFragment, stringifySiteRouteFragment } from '../../../core/entities/site-route.js';
 import { useHash } from '../../hooks/useHash.js';
 import { ContributingDialog } from '../ContributingDialog/ContributingDialog.jsx';
@@ -14,7 +13,9 @@ import { SponsorshipDialog } from '../SponsorshipDialog/SponsorshipDialog.jsx';
 import { SubscriptionDialog } from '../SubscriptionDialog/SubscriptionDialog.jsx';
 import { TopicDialog } from '../TopicDialog/TopicDialog.jsx';
 
-export interface DetachedDialogProps<TPathname extends string, TParams extends SiteRouteParams> {
+export type DetachedDialogParams = Record<string, string | string[] | undefined>;
+
+export interface DetachedDialogProps<TPathname extends string, TParams extends DetachedDialogParams> {
   show: boolean;
   onClose: () => void;
   pathname?: TPathname;
@@ -23,7 +24,7 @@ export interface DetachedDialogProps<TPathname extends string, TParams extends S
 
 export type DetachedDialog<
   TPathname extends string = string,
-  TParams extends SiteRouteParams = SiteRouteParams,
+  TParams extends DetachedDialogParams = DetachedDialogParams,
 > = Component<DetachedDialogProps<TPathname, TParams>>;
 
 const detachedDialogs = {

@@ -1,5 +1,5 @@
 import type { RouteDefinition } from '@solidjs/router';
-import type { SiteRoute, SiteRouteParams } from '../../core/entities/site-route.js';
+import type { SiteRouteParams, SiteRouteReference } from '../../core/entities/site-route.js';
 import { errorRoute } from './error-route.js';
 import { helpRoute } from './help-route.js';
 import { homeRoute } from './home-route.js';
@@ -21,6 +21,6 @@ export const routes: RouteDefinition[] = [
 ];
 
 export interface RouteMatch {
-  route: SiteRoute;
+  route: SiteRouteReference;
   params?: SiteRouteParams;
 }

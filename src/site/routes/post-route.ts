@@ -1,9 +1,9 @@
 import { lazy } from 'solid-js';
 import { createPostPath } from '../../core/entities/posts-manager.js';
 import type { SiteRoute } from '../../core/entities/site-route.js';
-import { postsRoute } from './posts-route.js';
 import type { PostPageData, PostPageParams } from '../pages/PostPage/PostPage.data.js';
 import { queryPostPageData } from '../pages/PostPage/PostPage.data.js';
+import { postsRoute } from './posts-route.js';
 
 export const postRoute: SiteRoute<PostPageParams, PostPageData> = {
   path: '/:managerName/:id',

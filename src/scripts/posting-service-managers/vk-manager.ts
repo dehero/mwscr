@@ -86,9 +86,8 @@ export class VKManager extends VKService implements PostingServiceManager {
     if (post.titleRu) {
       return [titlePrefix, post.titleRu].filter(Boolean).join(': ');
     }
-    if (titlePrefix) {
-      return titlePrefix;
-    }
+
+    return titlePrefix || undefined;
   }
 
   async createCaption(entry: PostEntry) {
