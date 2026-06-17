@@ -149,7 +149,7 @@ export const Navigation: Component = () => {
         onChange={(value) => navigate(value ?? '#')}
         value={selectedOption()?.value}
         class={styles.menu}
-      />
+      />{' '}
       <Show when={breadcrumbs().length > 1}>
         <span class={styles.breadcrumbs}>
           <For each={breadcrumbs()}>
