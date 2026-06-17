@@ -4,7 +4,7 @@ import type { Upload } from '../entities/upload.js';
 export class Site implements Service {
   readonly id = 'mw';
   readonly name = 'Morrowind Screenshots';
-  readonly origin = globalThis.window ? window.origin : 'https://mwscr.dehero.site';
+  readonly origin = typeof window !== 'undefined' ? window.origin : 'https://mwscr.dehero.site';
 
   getDataPatchSharingUrl(meta: Upload) {
     return `${this.origin}/#patch-loading/${meta.name}`;

@@ -186,10 +186,8 @@ export const DataPatchManager: Component<DataPatchManagerProps> = (props) => {
       return true;
     }
 
-    if (!skipConfirmation) {
-      if (!(await confirmClearingLocalPatch())) {
-        return false;
-      }
+    if (!skipConfirmation && !(await confirmClearingLocalPatch())) {
+      return false;
     }
 
     setProcessingMessage(`Clearing local edits`);
@@ -306,10 +304,6 @@ export const DataPatchManager: Component<DataPatchManagerProps> = (props) => {
 
     try {
       // Try to use Web Share API
-      if (!navigator.share) {
-        throw new Error('Web Share API is not supported');
-      }
-
       await navigator.share({
         title: stripCommonExtension(meta.originalName),
         text: `Check out this data patch:`,
@@ -318,11 +312,11 @@ export const DataPatchManager: Component<DataPatchManagerProps> = (props) => {
 
       return true;
     } catch (error) {
-      if (error instanceof Error && error.name !== 'AbortError') {
+      if (error instanceof Error) {
         // If Web Share API does not work (not cancelled by user), copy link to clipboard
         await writeClipboard(url);
         addToast('Share link copied to clipboard.');
-        return true;
+        return error.name !== 'AbortError';
       }
     }
 

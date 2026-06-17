@@ -23,22 +23,26 @@ export interface SiteRouteFragment {
   searchParams?: Record<string, string | string[] | undefined>;
 }
 
+export interface SiteRouteReference<TParams extends SiteRouteParams = SiteRouteParams> {
+  path: string;
+  info(params: TParams): SiteRouteMeta;
+  createUrl(params: TParams): string;
+  parent?(params: TParams): SiteRouteParent | undefined;
+}
+
 export interface SiteRouteParent<
-  TRoute extends SiteRoute<any, any> = SiteRoute<any, any>,
+  TRoute extends SiteRouteReference<SiteRouteParams> = SiteRouteReference<SiteRouteParams>,
   TParams extends SiteRouteParams = SiteRouteParams,
 > {
   route: TRoute;
   params: TParams;
 }
 
-export interface SiteRoute<TParams extends SiteRouteParams = SiteRouteParams, TData extends unknown = unknown> {
-  path: string;
-  info: (params: TParams) => SiteRouteMeta;
+export interface SiteRoute<TParams extends SiteRouteParams = SiteRouteParams, TData extends unknown = unknown>
+  extends SiteRouteReference<TParams> {
   component: SiteRoutePage<TParams, TData>;
   preload?: SiteRoutePreload<TParams, TData>;
-  createUrl: (params: TParams) => string;
   matchFilters?: MatchFilters<string>;
-  parent?: (params: TParams) => SiteRouteParent<SiteRoute<any, any>> | undefined;
 }
 
 export interface SiteRoutePageProps<TParams extends SiteRouteParams, TData extends unknown>

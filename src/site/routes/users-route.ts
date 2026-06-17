@@ -1,7 +1,7 @@
 import { lazy } from 'solid-js';
 import type { SiteRoute } from '../../core/entities/site-route.js';
-import { homeRoute } from './home-route.js';
 import { queryUsersPageData, type UsersPageData, type UsersPageParams } from '../pages/UsersPage/UsersPage.data.js';
+import { homeRoute } from './home-route.js';
 
 export const usersRoute: SiteRoute<UsersPageParams, UsersPageData> = {
   path: '/users',

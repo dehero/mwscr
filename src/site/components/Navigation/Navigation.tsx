@@ -1,12 +1,12 @@
 import { useCurrentMatches, useLocation, useNavigate } from '@solidjs/router';
 import { type Component, For, Show, useContext } from 'solid-js';
 import type { Option } from '../../../core/entities/option.js';
-import type { SiteRoute } from '../../../core/entities/site-route.js';
+import type { SiteRouteReference } from '../../../core/entities/site-route.js';
 import { useLocalPatch } from '../../hooks/useLocalPatch.js';
 import { helpRoute } from '../../routes/help-route.js';
 import { homeRoute } from '../../routes/home-route.js';
-import { postsRoute } from '../../routes/posts-route.js';
 import type { RouteMatch } from '../../routes/index.js';
+import { postsRoute } from '../../routes/posts-route.js';
 import { usersRoute } from '../../routes/users-route.js';
 import { AppContext } from '../App/App.js';
 import { Button } from '../Button/Button.js';
@@ -35,7 +35,7 @@ export function createOption({ route, params }: RouteMatch): Option {
   };
 }
 
-function isSiteRoute(value: unknown): value is SiteRoute {
+function isSiteRoute(value: unknown): value is SiteRouteReference {
   return Boolean(
     value &&
       typeof value === 'object' &&
@@ -52,7 +52,7 @@ function createRouteChain(match: RouteMatch): RouteMatch[] {
 
   let current: RouteMatch | undefined = match;
 
-  while (current?.route.parent) {
+  while (current.route.parent) {
     const parent = current.route.parent(current.params as never);
     if (!parent) {
       break;
@@ -64,7 +64,7 @@ function createRouteChain(match: RouteMatch): RouteMatch[] {
     });
 
     current = {
-      route: parent.route,
+      route: parent.route as RouteMatch['route'],
       params: parent.params,
     };
   }

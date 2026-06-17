@@ -1,4 +1,3 @@
-import { DocumentEventListener } from '@solid-primitives/event-listener';
 import { debounce } from '@solid-primitives/scheduled';
 import { Meta, MetaProvider, Title } from '@solidjs/meta';
 import { useIsRouting } from '@solidjs/router';
@@ -8,7 +7,7 @@ import { DataPatchManager } from '../DataPatchManager/DataPatchManager.jsx';
 import { DetachedDialogsProvider } from '../DetachedDialogsProvider/DetachedDialogsProvider.jsx';
 import { Frame } from '../Frame/Frame.jsx';
 import { Navigation } from '../Navigation/Navigation.js';
-import { Toast, Toaster } from '../Toaster/Toaster.jsx';
+import { Toaster } from '../Toaster/Toaster.jsx';
 import styles from './App.module.css';
 import { YandexMetrikaCounter } from './YandexMetrikaCounter.jsx';
 

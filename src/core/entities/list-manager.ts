@@ -45,14 +45,12 @@ export abstract class ListReader<TItem> {
     if (!this.cache[key]) {
       this.cache[key] = creator();
     }
+
     return this.cache[key] as T;
   }
 
-  protected async createCache<T>(key: string, creator: () => Promise<T>): Promise<T> {
-    if (!this.cache[key]) {
-      this.cache[key] = creator();
-    }
-    return this.cache[key] as T;
+  protected createCache<T>(key: string, creator: () => Promise<T>): Promise<T> {
+    return Promise.resolve(this.createCacheSync(key, creator));
   }
 
   protected clearCache() {
