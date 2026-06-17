@@ -60,14 +60,13 @@ export const HelpPage: SiteRoutePage<HelpPageParams, HelpPageData> = (props) => 
 
     if (currentData) {
       const { indexTopic, topic } = currentData;
+      const currentTopic = topic ?? indexTopic;
 
-      if (entries.length === 0) {
+      if (entries.length === 0 && topicId) {
         entries.push([TOPIC_INDEX_ID, indexTopic]);
       }
 
-      if (topicId && topic && topicId !== TOPIC_INDEX_ID) {
-        entries.push([topicId, topic]);
-      }
+      entries.push([topicId ?? TOPIC_INDEX_ID, currentTopic]);
 
       setMessageTopicEntries([...entries]);
     }
@@ -95,7 +94,11 @@ export const HelpPage: SiteRoutePage<HelpPageParams, HelpPageData> = (props) => 
   return (
     <>
       <AppPage
-        title={messageTopicEntries().at(-1)?.[1]?.title ?? props.params.topicId ?? ''}
+        title={
+          props.params.topicId && props.params.topicId !== TOPIC_INDEX_ID
+            ? data()?.topic?.title ?? props.params.topicId
+            : data()?.indexTopic.title ?? TOPIC_INDEX_ID
+        }
         loading={!data() || topicInfos.loading}
       />
 
