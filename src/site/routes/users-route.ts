@@ -6,8 +6,7 @@ import { queryUsersPageData, type UsersPageData, type UsersPageParams } from '..
 export const usersRoute: SiteRoute<UsersPageParams, UsersPageData> = {
   path: '/users',
   info: () => ({
-    title: 'Members',
-    description: 'List of members of Morrowind Screenshots project.',
+    label: 'Members',
   }),
   createUrl: (params) => {
     const searchParams = new URLSearchParams(

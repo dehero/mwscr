@@ -119,7 +119,7 @@ export const UsersPage: SiteRoutePage<UsersPageParams, UsersPageData> = () => {
 
   return (
     <>
-      <AppPage title="Users" loading={false} />
+      <AppPage title="Members" description="List of members of Morrowind Screenshots project." loading={false} />
 
       <Frame component="main" class={styles.container} ref={containerRef}>
         <Toast message="Loading Members" show={userInfos.loading} loading />

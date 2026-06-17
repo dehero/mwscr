@@ -53,7 +53,13 @@ export const UserPage: SiteRoutePage<UserPageParams, UserPageData> = (props) => 
 
   return (
     <>
-      <AppPage title={userInfo()?.title ?? props.params.id} loading={!data() || userInfo.loading} />
+      <AppPage
+        title={userInfo()?.title ?? props.params.id}
+        description={`Information, profiles, comments, posts, requests and statistics of "${
+          userInfo()?.title ?? props.params.id
+        }" in Morrowind Screenshots project.`}
+        loading={!data() || userInfo.loading}
+      />
 
       <Show when={userInfo()}>
         {(userInfo) => (

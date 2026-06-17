@@ -10,15 +10,9 @@ export const postsRoute: SiteRoute<PostsPageParams, PostsPageData> = {
   matchFilters: {
     managerName: PostsManagerName.options,
   },
-  info: ({ managerName }) => {
-    const descriptor = postsManagerDescriptors[managerName];
-
-    return {
-      title: descriptor.title,
-      label: descriptor.title,
-      description: `${descriptor.title} or Morrowind Screenshots project.`,
-    };
-  },
+  info: ({ managerName }) => ({
+    label: postsManagerDescriptors[managerName].title,
+  }),
   createUrl: (params) => {
     const { managerName, ...rest } = params;
     const searchParams = new URLSearchParams(

@@ -5,7 +5,6 @@ export const imageEditorRoute: SiteRoute = {
   path: '/image-editor',
   info: () => ({
     label: 'Image Editor',
-    title: 'Image Editor',
   }),
   createUrl: () => '/image-editor',
   component: lazy(() => import('../pages/ImageEditorPage/ImageEditorPage.jsx')),

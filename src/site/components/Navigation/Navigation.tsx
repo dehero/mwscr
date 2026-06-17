@@ -30,7 +30,7 @@ export function createOption({ route, params }: RouteMatch): Option {
   const url = route.createUrl(params as never);
 
   return {
-    label: info.label || info.title || 'unknown',
+    label: info.label || 'unknown',
     value: url,
   };
 }
