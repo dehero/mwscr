@@ -601,7 +601,7 @@ arya-stark:
   profiles:
     - service: vk
       id: '820702664'
-      updated: 2026-06-17-12-52-51
+      updated: 2026-06-17-13-44-48
       username: id820702664
       name: Арья Старк
       avatar: store:/avatars/vk-689aa89d.jpg
@@ -1167,7 +1167,7 @@ crazycyrodiliccat:
   profiles:
     - service: vk
       id: '90554843'
-      updated: 2026-06-17-12-56-06
+      updated: 2026-06-17-13-49-04
       username: crazycyrodiliccat
       name: Александр Невский
       avatar: store:/avatars/vk-0db1296b.jpg
@@ -1367,7 +1367,7 @@ dead-end:
   profiles:
     - service: vk
       id: '172608176'
-      updated: 2026-06-17-12-56-36
+      updated: 2026-06-17-13-47-20
       username: dead___end
       avatar: store:/avatars/vk-7f160215.jpg
       deleted: true
@@ -1409,14 +1409,14 @@ dehero:
       avatar: store:/avatars/gh-c8afe641.jpg
     - service: vk
       id: '3652910'
-      updated: 2026-06-17-12-56-29
+      updated: 2026-06-17-13-49-03
       username: dehero
       name: Антон Курьянов
       avatar: store:/avatars/vk-5356f76e.jpg
     - type: channel
       service: vk
       id: '138249959'
-      updated: 2026-06-17-10-11-00
+      updated: 2026-06-17-13-46-16
       username: mwscr
       name: Morrowind Screenshots
       avatar: store:/avatars/vk-8e97fd4f.jpg
@@ -1668,7 +1668,7 @@ dropnz:
   profiles:
     - service: vk
       id: '142480'
-      updated: 2026-06-17-12-56-28
+      updated: 2026-06-17-13-45-39
       username: dropnz
       name: Вячеслав Беляев
       avatar: store:/avatars/vk-a7fd4520.jpg
@@ -1760,7 +1760,7 @@ egorwave:
   profiles:
     - service: vk
       id: '225337507'
-      updated: 2026-05-22-17-58-15
+      updated: 2026-06-17-13-48-07
       username: egorwave
       name: Егор Фролов
       avatar: store:/avatars/vk-ebde0ba3.jpg
@@ -2110,7 +2110,7 @@ fungirl666:
   profiles:
     - service: vk
       id: '480647421'
-      updated: 2026-05-22-17-58-28
+      updated: 2026-06-17-13-48-20
       username: fungirl666
       avatar: store:/avatars/vk-7f160215.jpg
       deleted: true
@@ -2338,7 +2338,7 @@ gutzzerk:
   profiles:
     - service: vk
       id: '473163636'
-      updated: 2026-05-22-17-57-29
+      updated: 2026-06-17-13-47-15
       username: gutzzerk
       name: Сард Шрафц
       avatar: store:/avatars/vk-5052bc05.jpg
@@ -3962,7 +3962,7 @@ ndukhanin2014:
   profiles:
     - service: vk
       id: '220389383'
-      updated: 2026-06-17-12-55-26
+      updated: 2026-06-17-13-45-21
       username: ndukhanin2014
       name: Никита Духанин
       avatar: store:/avatars/vk-5dc2cbb0.jpg
@@ -4053,7 +4053,7 @@ nk2806:
   profiles:
     - service: vk
       id: '18835691'
-      updated: 2026-06-17-12-55-22
+      updated: 2026-06-17-13-45-58
       username: nk2806
       name: Никита Макеев
       avatar: store:/avatars/vk-189d3147.jpg
@@ -4388,7 +4388,7 @@ pavusmart:
   profiles:
     - service: vk
       id: '385848478'
-      updated: 2026-05-22-17-58-01
+      updated: 2026-06-17-13-47-53
       username: pavusmart
       name: Кордиус Флакс
       avatar: store:/avatars/vk-ca2babad.jpg
@@ -4412,7 +4412,7 @@ peteevandrew:
   profiles:
     - service: vk
       id: '307619379'
-      updated: 2026-06-17-12-55-22
+      updated: 2026-06-17-13-48-17
       username: peteevandrew
       name: Андрей Петеев
       avatar: store:/avatars/vk-1abdc90f.jpg
@@ -5254,7 +5254,7 @@ snow-runner:
   profiles:
     - service: vk
       id: '364105100'
-      updated: 2026-05-22-17-57-01
+      updated: 2026-06-17-13-46-48
       username: id364105100
       name: Snow Runner
       avatar: store:/avatars/vk-fddbae9a.jpg
@@ -6072,7 +6072,7 @@ user-30:
   profiles:
     - service: vk
       id: '380363858'
-      updated: 2026-05-22-17-55-38
+      updated: 2026-06-17-13-45-12
       username: id380363858
       avatar: store:/avatars/vk-7f160215.jpg
       deleted: true
@@ -6080,7 +6080,7 @@ user-31:
   profiles:
     - service: vk
       id: '302457314'
-      updated: 2026-05-22-17-56-17
+      updated: 2026-06-17-13-46-00
       username: id302457314
       avatar: store:/avatars/vk-7f160215.jpg
       deleted: true
@@ -6088,7 +6088,7 @@ user-32:
   profiles:
     - service: vk
       id: '314007101'
-      updated: 2026-05-22-21-15-24
+      updated: 2026-06-17-13-49-02
       username: id314007101
       avatar: store:/avatars/vk-7f160215.jpg
       deleted: true
@@ -6266,7 +6266,7 @@ vancleve:
   profiles:
     - service: vk
       id: '84634454'
-      updated: 2026-05-22-19-51-56
+      updated: 2026-06-17-13-47-50
       username: vancleve
       avatar: store:/avatars/vk-7f160215.jpg
       deleted: true
@@ -6274,7 +6274,7 @@ variks2004:
   profiles:
     - service: vk
       id: '324009986'
-      updated: 2026-06-17-12-56-32
+      updated: 2026-06-17-13-47-12
       username: variks2004
       name: Данил Бурухин
       avatar: store:/avatars/vk-e71d8728.jpg
@@ -6559,9 +6559,9 @@ xapuyc-mopp:
   profiles:
     - service: vk
       id: '346195872'
-      updated: 2026-05-22-17-56-33
+      updated: 2026-06-17-13-46-19
       username: xapuyc_mopp
-      name: Хариус Морр
+      name: Дмитрий Морр
       avatar: store:/avatars/vk-9307e3de.jpg
 xavierrbird:
   profiles:
@@ -6684,7 +6684,7 @@ yourenemieswillpay:
   profiles:
     - service: vk
       id: '154353264'
-      updated: 2026-06-16-21-15-15
+      updated: 2026-06-17-13-45-44
       username: yourenemieswillpay
       name: Кирилл Заречный
       avatar: store:/avatars/vk-a2026737.jpg
