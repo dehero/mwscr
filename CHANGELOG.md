@@ -2,6 +2,30 @@
 
 All notable changes to this project will be documented in this file.
 
+## [2.25.0](https://github.com/dehero/mwscr/compare/v2.24.2...v2.25.0) (2026-06-17)
+
+### Features
+
+- **site:** move page meta to AppPage
+  ([2b4cebd](https://github.com/dehero/mwscr/commit/2b4cebde9624db35be7b10ac839aad78151e7e89))
+- **site:** revive breadcrumbs for SPA
+  ([956ca8b](https://github.com/dehero/mwscr/commit/956ca8bec1ad25c1d1f78c0dde833d8100657198))
+- **site:** transform to SPA with issues remaining
+  ([e6e8ac9](https://github.com/dehero/mwscr/commit/e6e8ac91046f7d8515967bccdcc1d2e9b60d14fe))
+
+### Bug Fixes
+
+- **site:** align error and image editor routes
+  ([851c999](https://github.com/dehero/mwscr/commit/851c9997895b678aab2a68d6a6efc5176d748f7d))
+- **site:** configure .htaccess for SPA routing
+  ([664f229](https://github.com/dehero/mwscr/commit/664f229e45da551e67a8e6e45420ab6f95276118))
+- **site:** resolve ESLint and TypeScript issues
+  ([b4ef38c](https://github.com/dehero/mwscr/commit/b4ef38cf4d9fb53b43cc41769b95d76d429dc1ec))
+- **site:** return gap before breadcrumbs
+  ([bf590c6](https://github.com/dehero/mwscr/commit/bf590c6b41dfdf204dfc8246b0a79b65ed623248))
+- **site:** show index topic properly when navigating to /help/
+  ([b789f56](https://github.com/dehero/mwscr/commit/b789f56a05090b09e91ecf3f42514d52a762b5ab))
+
 ## [2.24.2](https://github.com/dehero/mwscr/compare/v2.24.1...v2.24.2) (2026-04-24)
 
 ### Bug Fixes
