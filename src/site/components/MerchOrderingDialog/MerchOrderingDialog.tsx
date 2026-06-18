@@ -14,7 +14,7 @@ import { Select } from '../Select/Select.jsx';
 import { Toast } from '../Toaster/Toaster.jsx';
 import styles from './MerchOrderingDialog.module.css';
 
-export const MerchOrderingDialog: DetachedDialog = (props) => {
+const MerchOrderingDialog: DetachedDialog = (props) => {
   const [country, setCountry] = createSignal('Russia');
   const [otherCountry, setOtherCountry] = createSignal('');
 
@@ -140,3 +140,6 @@ export const MerchOrderingDialog: DetachedDialog = (props) => {
     </>
   );
 };
+
+export { MerchOrderingDialog };
+export default MerchOrderingDialog;

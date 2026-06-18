@@ -16,7 +16,7 @@ import styles from './ContributingDialog.module.css';
 
 export type ContributingDialogTab = 'patch' | 'variants' | 'settings';
 
-export const ContributingDialog: DetachedDialog<ContributingDialogTab> = (props) => {
+const ContributingDialog: DetachedDialog<ContributingDialogTab> = (props) => {
   const tab = () => props.pathname ?? 'variants';
   const [patchSize] = useLocalPatch();
 
@@ -136,3 +136,6 @@ export const ContributingDialog: DetachedDialog<ContributingDialogTab> = (props)
     </Dialog>
   );
 };
+
+export { ContributingDialog };
+export default ContributingDialog;

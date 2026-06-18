@@ -35,7 +35,7 @@ export interface DataPatchSaveDialogProps extends Omit<DialogProps, 'title' | 'm
   onConfirm: (params: DataPatchSaveParams) => void;
 }
 
-export const DataPatchSaveDialog: Component<DataPatchSaveDialogProps> = (props) => {
+const DataPatchSaveDialog: Component<DataPatchSaveDialogProps> = (props) => {
   const [title, setTitle] = createSignal('');
 
   // const [email, setEmail] = createSignal('');
@@ -90,3 +90,6 @@ export const DataPatchSaveDialog: Component<DataPatchSaveDialogProps> = (props) 
     </>
   );
 };
+
+export { DataPatchSaveDialog };
+export default DataPatchSaveDialog;

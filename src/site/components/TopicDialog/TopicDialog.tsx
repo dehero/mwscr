@@ -7,7 +7,7 @@ import { Toast } from '../Toaster/Toaster.jsx';
 import { TopicMessage } from '../TopicMessage/TopicMessage.jsx';
 import styles from './TopicDialog.module.css';
 
-export const TopicDialog: DetachedDialog = (props) => {
+const TopicDialog: DetachedDialog = (props) => {
   const [topicEntry] = createResource(
     () => props.pathname,
     (id) => (id ? dataManager.topics.getEntry(id) : undefined),
@@ -27,3 +27,6 @@ export const TopicDialog: DetachedDialog = (props) => {
     </>
   );
 };
+
+export { TopicDialog };
+export default TopicDialog;

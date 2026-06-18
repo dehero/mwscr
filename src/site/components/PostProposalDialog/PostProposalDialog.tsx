@@ -68,7 +68,7 @@ async function getRequirementGroups(): Promise<RequirementGroup[]> {
   ].filter((group): group is RequirementGroup => typeof group.topicInfos !== 'undefined');
 }
 
-export const PostProposalDialog: DetachedDialog = (props) => {
+const PostProposalDialog: DetachedDialog = (props) => {
   const navigate = useNavigate();
 
   const [submitVariant, setSubmitVariant] = createSignal('site-uploads');
@@ -320,3 +320,6 @@ export const PostProposalDialog: DetachedDialog = (props) => {
     </>
   );
 };
+
+export { PostProposalDialog };
+export default PostProposalDialog;

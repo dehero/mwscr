@@ -8,7 +8,7 @@ import { Dialog } from '../Dialog/Dialog.js';
 import { Frame } from '../Frame/Frame.jsx';
 import styles from './SubscriptionDialog.module.css';
 
-export const SubscriptionDialog: DetachedDialog = (props) => {
+const SubscriptionDialog: DetachedDialog = (props) => {
   return (
     <Dialog modal {...props} actions={[<Button onClick={props.onClose}>OK</Button>]}>
       <div class={styles.container}>
@@ -51,3 +51,6 @@ export const SubscriptionDialog: DetachedDialog = (props) => {
     </Dialog>
   );
 };
+
+export { SubscriptionDialog };
+export default SubscriptionDialog;

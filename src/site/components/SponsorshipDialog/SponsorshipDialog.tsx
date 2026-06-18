@@ -8,7 +8,7 @@ import { Dialog } from '../Dialog/Dialog.jsx';
 import { Frame } from '../Frame/Frame.jsx';
 import styles from './SponsorshipDialog.module.css';
 
-export const SponsorshipDialog: DetachedDialog = (props) => {
+const SponsorshipDialog: DetachedDialog = (props) => {
   return (
     <Dialog modal {...props} actions={[<Button onClick={props.onClose}>OK</Button>]}>
       <div class={styles.container}>
@@ -36,3 +36,6 @@ export const SponsorshipDialog: DetachedDialog = (props) => {
     </Dialog>
   );
 };
+
+export { SponsorshipDialog };
+export default SponsorshipDialog;

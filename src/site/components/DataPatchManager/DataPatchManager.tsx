@@ -1,7 +1,7 @@
 import { writeClipboard } from '@solid-primitives/clipboard';
 import JsFileDownloader from 'js-file-downloader';
 import type { Accessor, Component, JSX, Resource } from 'solid-js';
-import { createContext, createMemo, createResource, createSignal, useContext } from 'solid-js';
+import { createContext, createMemo, createResource, createSignal, lazy, useContext } from 'solid-js';
 import { getUploads, uploadFiles } from '../../../core/data-managers/uploads-manager.js';
 import { dataPatchToString, getDataPatchName, stringToDataPatch } from '../../../core/entities/data-patch.js';
 import type { Upload } from '../../../core/entities/upload.js';
@@ -12,10 +12,11 @@ import { stripCommonExtension } from '../../../core/utils/string-utils.js';
 import { dataManager } from '../../data-managers/manager.js';
 import { getResourceDataUrl } from '../../data-managers/resources.js';
 import { useLocalPatch } from '../../hooks/useLocalPatch.js';
-import { DataPatchPreviewDialog } from '../DataPatchPreviewDialog/DataPatchPreviewDialog.jsx';
 import type { DataPatchSaveParams } from '../DataPatchSaveDialog/DataPatchSaveDialog.jsx';
-import { DataPatchSaveDialog } from '../DataPatchSaveDialog/DataPatchSaveDialog.jsx';
 import { Toast, useToaster } from '../Toaster/Toaster.jsx';
+
+const DataPatchPreviewDialog = lazy(() => import('../DataPatchPreviewDialog/DataPatchPreviewDialog.jsx'));
+const DataPatchSaveDialog = lazy(() => import('../DataPatchSaveDialog/DataPatchSaveDialog.jsx'));
 
 export interface DataPatchManagerContext {
   saveLocalPatch: () => Promise<boolean>;

@@ -2,7 +2,7 @@ import { createEffect } from 'solid-js';
 import { useDataPatchManager } from '../DataPatchManager/DataPatchManager.jsx';
 import type { DetachedDialog } from '../DetachedDialogsProvider/DetachedDialogsProvider.jsx';
 
-export const DataPatchLoadingDialog: DetachedDialog = (props) => {
+const DataPatchLoadingDialog: DetachedDialog = (props) => {
   const { loadPatch, patches } = useDataPatchManager();
 
   createEffect(async () => {
@@ -19,3 +19,6 @@ export const DataPatchLoadingDialog: DetachedDialog = (props) => {
 
   return <></>;
 };
+
+export { DataPatchLoadingDialog };
+export default DataPatchLoadingDialog;

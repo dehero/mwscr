@@ -20,7 +20,7 @@ interface DataPatchPreviewDialogProps extends Omit<DialogProps, 'title' | 'modal
   onApply: () => void;
 }
 
-export const DataPatchPreviewDialog: Component<DataPatchPreviewDialogProps> = (props) => {
+const DataPatchPreviewDialog: Component<DataPatchPreviewDialogProps> = (props) => {
   const edits = createMemo(() => {
     const patch = props.patch;
 
@@ -72,3 +72,6 @@ export const DataPatchPreviewDialog: Component<DataPatchPreviewDialogProps> = (p
     </Dialog>
   );
 };
+
+export { DataPatchPreviewDialog };
+export default DataPatchPreviewDialog;
