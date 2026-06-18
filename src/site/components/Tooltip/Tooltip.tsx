@@ -26,6 +26,7 @@ export interface TooltipProps {
   actions?: TooltipAction[];
   forRef?: Element;
   forceContextMenu?: boolean;
+  onShouldOpenChange?: (open: boolean) => void;
 }
 
 export const Tooltip: Component<TooltipProps> = (props) => {
@@ -56,6 +57,13 @@ export const Tooltip: Component<TooltipProps> = (props) => {
     position() ? props.forRef?.contains(document.elementFromPoint(position()!.x, position()!.y)) : false;
   const invertedTooltipY = () => (position()?.y ?? 0) - CURSOR_OFFSET_Y + CURSOR_SIZE - (size.height ?? 0);
   const children = () => (typeof props.children === 'function' ? props.children(relative) : props.children);
+  const shouldOpen = createMemo(() => Boolean(position() && mouseIsInside()));
+  const hasContent = createMemo(() => Boolean(children() || props.actions?.length));
+  const isVisible = createMemo(() => shouldOpen() && hasContent());
+
+  createEffect(() => {
+    props.onShouldOpenChange?.(shouldOpen());
+  });
 
   // Close context menu on document events
   createEffect(() => {
@@ -118,7 +126,7 @@ export const Tooltip: Component<TooltipProps> = (props) => {
   });
 
   return (
-    <Show when={position() && mouseIsInside() && (children() || Boolean(props.actions?.length))}>
+    <Show when={isVisible()}>
       <Portal>
         <Frame
           ref={setTooltipRef}
