@@ -2,6 +2,24 @@
 
 All notable changes to this project will be documented in this file.
 
+## [2.26.0](https://github.com/dehero/mwscr/compare/v2.25.0...v2.26.0) (2026-06-18)
+
+### Features
+
+- **site:** lazy-load post tooltip content on hover
+  ([76217d8](https://github.com/dehero/mwscr/commit/76217d82b4cbc527417e8d464488d88528ab15ea))
+- **site:** move home buildDate to Vite and extract summary data
+  ([d1ebbb9](https://github.com/dehero/mwscr/commit/d1ebbb92644c28db37f9984df5b729d74ef8f678))
+
+### Bug Fixes
+
+- **site:** update and modernize Yandex Metrika SPA integration
+  ([87c50c4](https://github.com/dehero/mwscr/commit/87c50c4b9a4ec0621a3dd4909f3d50a36b513189))
+
+### Continuous Integration
+
+- **site:** fix dist folder ([a6e6eb8](https://github.com/dehero/mwscr/commit/a6e6eb85ed9215738b114d34f8a3c170f0b0440e))
+
 ## [2.25.0](https://github.com/dehero/mwscr/compare/v2.24.2...v2.25.0) (2026-06-17)
 
 ### Features
