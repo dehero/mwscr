@@ -23,11 +23,12 @@ import { useLocalPatch } from '../../hooks/useLocalPatch.js';
 import { postRoute } from '../../routes/post-route.js';
 import { postsRoute } from '../../routes/posts-route.js';
 import { usersRoute } from '../../routes/users-route.js';
-import { type HomePageData, queryHomePageData } from './HomePage.data.js';
+import { HomePageData, queryHomePageData } from './HomePage.data.js';
 import styles from './HomePage.module.css';
 
 export const HomePage: SiteRoutePage<SiteRouteParams, HomePageData> = () => {
   const data = createAsync(() => queryHomePageData());
+  const buildDate = new Date(import.meta.env.VITE_BUILD_DATE);
 
   useLocalPatch(() => revalidate(queryHomePageData.key));
 
@@ -85,8 +86,9 @@ export const HomePage: SiteRoutePage<SiteRouteParams, HomePageData> = () => {
                   <p class={styles.version}>
                     v{import.meta.env.VITE_APP_VERSION}
                     {', '}
-                    {formatDate(data().buildDate)}, {formatTime(data().buildDate)}
+                    {formatDate(buildDate)}, {formatTime(buildDate)}
                   </p>
+
                   <p class={styles.copyright}>
                     <GoldIcon />{' '}
                     <a href="https://dehero.site" class={styles.link}>

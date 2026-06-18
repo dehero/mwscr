@@ -1,6 +1,7 @@
 import type { CommentInfo } from '../../core/entities/comment-info.js';
-import type { DataManagerArgs } from '../../core/entities/data-manager.js';
+import type { DataManagerArgs, DataSummary } from '../../core/entities/data-manager.js';
 import { DataManager } from '../../core/entities/data-manager.js';
+
 import type { LocationInfo } from '../../core/entities/location-info.js';
 import type { PostInfo } from '../../core/entities/post-info.js';
 import type { PostsManagerName } from '../../core/entities/posts-manager.js';
@@ -146,6 +147,28 @@ class SiteDataManager extends DataManager {
         }
 
         return data;
+      } catch (error) {
+        throw new Error(`Failed to load "${filename}": ${error}`);
+      }
+    });
+  }
+
+  async getSummary(): Promise<DataSummary> {
+    if (this.patchSize > 0) {
+      return super.getSummary();
+    }
+
+    return this.createCache(this.getSummary.name, async () => {
+      const filename = '/data/summary.json';
+
+      try {
+        const data = JSON.parse(await fetch(filename).then((r) => r.text()), jsonDateReviver) as unknown;
+
+        if (typeof data !== 'object' || data === null) {
+          throw new TypeError(`File "${filename}" expected to be the home page data object`);
+        }
+
+        return data as DataSummary;
       } catch (error) {
         throw new Error(`Failed to load "${filename}": ${error}`);
       }

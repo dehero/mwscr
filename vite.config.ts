@@ -17,7 +17,9 @@ export default defineConfig(() => ({
   publicDir: 'public',
   define: {
     'import.meta.env.VITE_APP_VERSION': JSON.stringify('version' in pkg ? pkg.version : 'unknown'),
+    'import.meta.env.VITE_BUILD_DATE': JSON.stringify(new Date().toISOString()),
   },
+
   plugins: [
     imagetools(),
     // TODO: add sitemap
@@ -79,6 +81,13 @@ export default defineConfig(() => ({
           transform: async () => JSON.stringify(await dataManager.getAllCommentInfos()),
           rename: 'comment-infos.json',
         },
+        {
+          src: '../../data/**/*.yml',
+          dest: 'data',
+          transform: async () => JSON.stringify(await dataManager.getSummary()),
+          rename: 'summary.json',
+        },
+
         ...PostsManagerName.options.map((name) => ({
           src: `../../data/${name}/*.yml`,
           dest: `data/${name}`,

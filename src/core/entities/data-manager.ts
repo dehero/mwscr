@@ -6,10 +6,13 @@ import { isNestedLocation } from './location.js';
 import type { LocationInfo } from './location-info.js';
 import { createLocationInfos } from './location-info.js';
 import type { LocationsReader } from './locations-reader.js';
-import { type PostLocation } from './post.js';
+import { PostType, type PostLocation } from './post.js';
 import type { PostInfo, PostInfoSelection, SelectPostInfosParams } from './post-info.js';
 import { createPostInfos, selectPostInfos } from './post-info.js';
+
 import type { PostsManager, PostsManagerName } from './posts-manager.js';
+import type { PostsUsage } from './posts-usage.js';
+import { PUBLICATION_IS_RECENT_DAYS } from './publication.js';
 import type { TagInfo } from './tag-info.js';
 import { createTagInfos } from './tag-info.js';
 import type { TopicInfo } from './topic-info.js';
@@ -24,6 +27,21 @@ export interface DataManagerArgs {
   locations: LocationsReader;
   users: UsersManager;
   topics: TopicsReader;
+}
+
+export interface DataSummary {
+  totalPosts: PostsUsage;
+  totalLikes: number;
+  totalCommentCount: number;
+  membersCount: number;
+  lastOriginalPostInfo?: PostInfoSelection;
+  lastFulfilledPostInfo?: PostInfoSelection;
+  lastProposedPostInfo?: PostInfoSelection;
+  lastLocatedPostInfo?: PostInfoSelection;
+  lastRequestedPostInfo?: PostInfoSelection;
+  lastExtraPostInfos: Array<[PostType, PostInfoSelection | undefined]>;
+  recentPostInfos: PostInfoSelection;
+  recentCommentInfos: CommentInfo[];
 }
 
 export class DataManager {
@@ -167,6 +185,80 @@ export class DataManager {
 
   async getAllTopicInfos(): Promise<TopicInfo[]> {
     return this.createCache(this.getAllTopicInfos.name, () => createTopicInfos(this));
+  }
+
+  async getSummary(): Promise<DataSummary> {
+    return this.createCache(this.getSummary.name, async () => {
+      const userInfos = await this.getAllUserInfos();
+      const postInfos = await this.getAllPostInfos('posts');
+
+      const membersCount = userInfos.length;
+
+      const recentPostInfos = await this.selectPostInfos(
+        'posts',
+        {
+          sortKey: 'date',
+          sortDirection: 'desc',
+        },
+        PUBLICATION_IS_RECENT_DAYS,
+      );
+
+      const totalLikes = postInfos.reduce((acc, info) => acc + info.likes, 0);
+      const totalCommentCount = postInfos.reduce(
+        (acc, info) => acc + (typeof info.refId === 'undefined' ? info.commentCount : 0),
+        0,
+      );
+
+      return {
+        totalPosts: Object.fromEntries(
+          await Promise.all(this.postsManagers.map(async (manager) => [manager.name, await manager.getItemCount()])),
+        ),
+        membersCount,
+        lastOriginalPostInfo: await this.selectPostInfo('posts', {
+          original: true,
+          sortKey: 'date',
+          sortDirection: 'desc',
+        }),
+        lastFulfilledPostInfo: await this.selectPostInfo('posts', {
+          requester: 'any',
+          sortKey: 'date',
+          sortDirection: 'desc',
+        }),
+        lastProposedPostInfo: await this.selectPostInfo('drafts', {
+          requester: 'none',
+          sortKey: 'date',
+          sortDirection: 'desc',
+        }),
+        lastLocatedPostInfo: await this.selectPostInfo('posts', {
+          locator: 'any',
+          sortKey: 'located',
+          sortDirection: 'desc',
+        }),
+        lastRequestedPostInfo: await this.selectPostInfo('drafts', {
+          requester: 'any',
+          sortKey: 'requested',
+          sortDirection: 'desc',
+        }),
+        lastExtraPostInfos: (
+          await Promise.all(
+            PostType.options.map(
+              async (postType): Promise<[PostType, PostInfoSelection | undefined]> => [
+                postType,
+                await this.selectPostInfo('extras', {
+                  type: postType,
+                  sortKey: 'date',
+                  sortDirection: 'desc',
+                }),
+              ],
+            ),
+          )
+        ).filter(([, info]) => info?.totalCount),
+        totalLikes,
+        totalCommentCount,
+        recentPostInfos,
+        recentCommentInfos: (await this.getAllCommentInfos()).slice(0, 10),
+      };
+    });
   }
 
   async getLocationInfos(id: string | string[]): Promise<LocationInfo[] | undefined> {
