@@ -496,7 +496,7 @@ antiorum:
   profiles:
     - service: vk
       id: '3571955'
-      updated: 2026-05-22-21-14-51
+      updated: 2026-06-18-11-14-42
       username: antiorum
       name: Андрей Барсуков
       avatar: store:/avatars/vk-36f45919.jpg
@@ -1167,7 +1167,7 @@ crazycyrodiliccat:
   profiles:
     - service: vk
       id: '90554843'
-      updated: 2026-06-18-06-05-55
+      updated: 2026-06-18-11-17-48
       username: crazycyrodiliccat
       name: Александр Невский
       avatar: store:/avatars/vk-0db1296b.jpg
@@ -1409,14 +1409,14 @@ dehero:
       avatar: store:/avatars/gh-c8afe641.jpg
     - service: vk
       id: '3652910'
-      updated: 2026-06-18-06-04-38
+      updated: 2026-06-18-11-16-49
       username: dehero
       name: Антон Курьянов
       avatar: store:/avatars/vk-5356f76e.jpg
     - type: channel
       service: vk
       id: '138249959'
-      updated: 2026-06-17-13-46-16
+      updated: 2026-06-18-11-17-47
       username: mwscr
       name: Morrowind Screenshots
       avatar: store:/avatars/vk-8e97fd4f.jpg
@@ -2102,7 +2102,7 @@ fukkatsumy-kamikoto:
   profiles:
     - service: vk
       id: '172283748'
-      updated: 2026-06-18-06-05-54
+      updated: 2026-06-18-11-14-34
       username: fukkatsumy_kamikoto
       name: Фуккацуми Камикото
       avatar: store:/avatars/vk-c37b786b.jpg
@@ -2719,7 +2719,7 @@ its-okey-dude:
   profiles:
     - service: vk
       id: '381549157'
-      updated: 2026-05-22-21-17-24
+      updated: 2026-06-18-11-17-17
       username: its_okey_dude
       name: Николай Гачимучев
       avatar: store:/avatars/vk-08ebd553.jpg
@@ -3184,7 +3184,7 @@ kydinov91:
   profiles:
     - service: vk
       id: '36104583'
-      updated: 2026-05-23-03-31-41
+      updated: 2026-06-18-11-15-25
       username: kydinov91
       name: Илья Кудинов
       avatar: store:/avatars/vk-03d8a48a.jpg
@@ -3381,7 +3381,7 @@ m-a-dadychenko:
   profiles:
     - service: vk
       id: '7106429'
-      updated: 2026-05-22-21-15-28
+      updated: 2026-06-18-11-15-22
       username: m_a_dadychenko
       name: Марина Дадыченко
       avatar: store:/avatars/vk-45fb0778.jpg
@@ -4450,7 +4450,7 @@ pinchinium:
   profiles:
     - service: vk
       id: '178716135'
-      updated: 2026-06-17-12-54-06
+      updated: 2026-06-18-11-17-26
       username: pinchinium
       name: Агзам Мубаракшин
       avatar: store:/avatars/vk-77942374.jpg
@@ -6088,7 +6088,7 @@ user-32:
   profiles:
     - service: vk
       id: '314007101'
-      updated: 2026-06-17-13-49-02
+      updated: 2026-06-18-11-15-19
       username: id314007101
       avatar: store:/avatars/vk-7f160215.jpg
       deleted: true
@@ -6104,7 +6104,7 @@ user-34:
   profiles:
     - service: vk
       id: '266402374'
-      updated: 2026-05-22-23-03-38
+      updated: 2026-06-18-11-17-47
       username: id266402374
       avatar: store:/avatars/vk-7f160215.jpg
       deleted: true
@@ -6394,7 +6394,7 @@ vladms:
   profiles:
     - service: vk
       id: '144316708'
-      updated: 2026-05-22-21-14-52
+      updated: 2026-06-18-11-14-44
       username: vladms
       name: Владислав Масленников
       avatar: store:/avatars/vk-6d6a6086.jpg
