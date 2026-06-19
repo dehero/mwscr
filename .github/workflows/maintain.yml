@@ -99,6 +99,7 @@ jobs:
         with:
           name: site-dist
           path: dist/
+          include-hidden-files: true
 
   deploy:
     needs: maintain
