@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file.
 
+## [2.26.4](https://github.com/dehero/mwscr/compare/v2.26.3...v2.26.4) (2026-06-19)
+
+### Continuous Integration
+
+- copy maintain.yml approach
+  ([7407622](https://github.com/dehero/mwscr/commit/74076220355336bc8d55263720f77f539fe567a5))
+
 ## [2.26.3](https://github.com/dehero/mwscr/compare/v2.26.2...v2.26.3) (2026-06-19)
 
 ### Continuous Integration
