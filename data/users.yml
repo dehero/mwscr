@@ -585,7 +585,7 @@ artyom-melikhoff:
   profiles:
     - service: vk
       id: '299405149'
-      updated: 2026-06-16-23-46-24
+      updated: 2026-06-19-06-59-55
       username: artyom_melikhoff
       name: Артём Мелихов
       avatar: store:/avatars/vk-5b2fd843.jpg
@@ -1409,7 +1409,7 @@ dehero:
       avatar: store:/avatars/gh-c8afe641.jpg
     - service: vk
       id: '3652910'
-      updated: 2026-06-18-13-27-46
+      updated: 2026-06-19-06-59-52
       username: dehero
       name: Антон Курьянов
       avatar: store:/avatars/vk-5356f76e.jpg
@@ -3184,7 +3184,7 @@ kydinov91:
   profiles:
     - service: vk
       id: '36104583'
-      updated: 2026-06-18-13-28-17
+      updated: 2026-06-19-07-00-12
       username: kydinov91
       name: Илья Кудинов
       avatar: store:/avatars/vk-03d8a48a.jpg
@@ -4426,7 +4426,7 @@ petrushkachord:
   profiles:
     - service: vk
       id: '370043102'
-      updated: 2026-05-23-03-32-03
+      updated: 2026-06-19-07-00-29
       username: petrushkachord
       name: Данила Силкин
       avatar: store:/avatars/vk-166e4c44.jpg
@@ -5352,7 +5352,7 @@ soulilight:
   profiles:
     - service: vk
       id: '347703822'
-      updated: 2026-06-17-10-10-54
+      updated: 2026-06-19-06-59-29
       username: soulilight
       name: Dima Boev
       avatar: store:/avatars/vk-4a3f332e.jpg
@@ -6112,7 +6112,7 @@ user-35:
   profiles:
     - service: vk
       id: '281861772'
-      updated: 2026-06-18-13-28-17
+      updated: 2026-06-19-06-59-20
       username: id281861772
       avatar: store:/avatars/vk-7f160215.jpg
       deleted: true
