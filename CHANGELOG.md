@@ -2,6 +2,18 @@
 
 All notable changes to this project will be documented in this file.
 
+## [2.26.1](https://github.com/dehero/mwscr/compare/v2.26.0...v2.26.1) (2026-06-19)
+
+### Continuous Integration
+
+- update maintenance workflow
+  ([d615b29](https://github.com/dehero/mwscr/commit/d615b29bb7110555713c15911a93206cf52ac113))
+
+### Code Refactoring
+
+- **site:** add dialogs lazy loading
+  ([113fac3](https://github.com/dehero/mwscr/commit/113fac3f39eb0ecf368c06ca19956a815194c243))
+
 ## [2.26.0](https://github.com/dehero/mwscr/compare/v2.25.0...v2.26.0) (2026-06-18)
 
 ### Features
