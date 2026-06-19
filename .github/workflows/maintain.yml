@@ -18,6 +18,7 @@ permissions:
 jobs:
   maintain:
     runs-on: ubuntu-latest
+    timeout-minutes: 60
     env:
       DEBUG_PUBLISHING: '${{ vars.DEBUG_PUBLISHING }}'
       FORCE_UPDATE_PUBLICATIONS: '${{ vars.FORCE_UPDATE_PUBLICATIONS }}'
@@ -72,9 +73,12 @@ jobs:
           git config user.email ${{ env.GITHUB_BOT_EMAIL }}
           git config user.name ${{ env.GITHUB_BOT_NAME }}
           git add -A
-          git diff-index --quiet HEAD || git commit -m "chore(maintain): `date +'%Y-%m-%d-%H-%M'`"
-          git pull --rebase -X ours
-          git push
+
+          if ! git diff-index --quiet HEAD; then
+            git commit -m "chore(maintain): $(date +'%Y-%m-%d-%H-%M')"
+            git pull --rebase origin main
+            git push origin HEAD:main
+          fi
 
       - name: Create and commit release
         if: github.event_name == 'push'
@@ -89,6 +93,29 @@ jobs:
       - name: Build site
         shell: bash
         run: npm run build
+
+      - name: Upload build artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: site-dist
+          path: dist/
+
+  deploy:
+    needs: maintain
+    runs-on: self-hosted
+    timeout-minutes: 60
+    env:
+      SITE_SSH_HOST: '${{ secrets.SITE_SSH_HOST }}'
+      SITE_SSH_USER: '${{ secrets.SITE_SSH_USER }}'
+      SITE_SSH_PRIVATE_KEY: '${{ secrets.SITE_SSH_PRIVATE_KEY }}'
+      SITE_SSH_PATH: '${{ secrets.SITE_SSH_PATH }}'
+
+    steps:
+      - name: Download build artifact
+        uses: actions/download-artifact@v4
+        with:
+          name: site-dist
+          path: dist/
 
       - name: Deploy site
         uses: easingthemes/ssh-deploy@v5.1.0
