@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file.
 
+## [2.27.0](https://github.com/dehero/mwscr/compare/v2.26.4...v2.27.0) (2026-06-19)
+
+### Features
+
+- **site:** hide data patch select from navigation
+  ([193bdde](https://github.com/dehero/mwscr/commit/193bdde701f4d4b5680438fcf8e92bd731df028d))
+
 ## [2.26.4](https://github.com/dehero/mwscr/compare/v2.26.3...v2.26.4) (2026-06-19)
 
 ### Continuous Integration
