@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file.
 
+## [2.26.2](https://github.com/dehero/mwscr/compare/v2.26.1...v2.26.2) (2026-06-19)
+
+### Continuous Integration
+
+- move site deploy to separate self-hosted job
+  ([aafc512](https://github.com/dehero/mwscr/commit/aafc512a66b7be194ea26891b9d5eb9b0a1b73e4))
+
 ## [2.26.1](https://github.com/dehero/mwscr/compare/v2.26.0...v2.26.1) (2026-06-19)
 
 ### Continuous Integration
