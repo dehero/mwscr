@@ -2,17 +2,22 @@ name: resolve-issue
 
 concurrency:
   group: maintain
+  cancel-in-progress: true
 
 on:
   issues:
     types: [edited, reopened, labeled]
+
+permissions:
+  contents: write
 
 jobs:
   resolve-issue:
     if:
       contains(github.event.issue.labels.*.name, 'data-patch') || contains(github.event.issue.labels.*.name,
       'post-proposal')
-    runs-on: self-hosted
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
     env:
       GITHUB_ACTION_CONTEXT: ${{ toJson(github) }}
       GITHUB_BOT_EMAIL: '${{ secrets.BOT_EMAIL }}'
@@ -25,41 +30,64 @@ jobs:
       SITE_STORE_SECRET_KEY: '${{ secrets.SITE_STORE_SECRET_KEY }}'
       YANDEX_DISK_STORE_PATH: '${{ secrets.YANDEX_DISK_STORE_PATH }}'
       YANDEX_DISK_ACCESS_TOKEN: '${{ secrets.YANDEX_DISK_ACCESS_TOKEN }}'
+      ACTIONS_ALLOW_USE_UNSECURE_NODE_VERSION: true
     steps:
-      - uses: actions/checkout@v3
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
       - name: Install Node.js
-        uses: actions/setup-node@v3
+        uses: actions/setup-node@v4
         with:
-          node-version: '20.x'
+          node-version: '20'
           cache: 'npm'
 
-      - name: Cache dependencies
-        id: cache
-        uses: actions/cache@v3
-        with:
-          path: ./node_modules
-          key: node-modules-${{ hashFiles('package-lock.json') }}
-
       - name: Install dependencies
-        if: steps.cache.outputs.cache-hit != 'true'
+        shell: bash
         run: npm ci
 
       - name: Resolve issue and commit changes
-        # To use BOT user name and email
-        # git config user.email ${{ env.GITHUB_BOT_EMAIL }}
-        # git config user.name ${{ env.GITHUB_BOT_NAME }}
+        shell: bash
         run: |
           npm run resolve-github-issue
           git config user.name "${{ github.actor }}"
           git config user.email "${{ github.actor_id }}+${{ github.actor }}@users.noreply.github.com"
           git add -A
-          git diff-index --quiet HEAD || git commit -m "chore(resolve-issue): resolve #${{ github.event.issue.number }}"
-          git pull --rebase -X ours
-          git push
+
+          if ! git diff-index --quiet HEAD; then
+            git commit -m "chore(resolve-issue): resolve #${{ github.event.issue.number }}"
+            git pull --rebase origin main
+            git push origin HEAD:main
+          fi
 
       - name: Build site
+        shell: bash
         run: npm run build
+
+      - name: Upload build artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: site-dist
+          path: dist/
+          include-hidden-files: true
+
+  deploy:
+    needs: resolve-issue
+    runs-on: self-hosted
+    timeout-minutes: 60
+    env:
+      SITE_SSH_HOST: '${{ secrets.SITE_SSH_HOST }}'
+      SITE_SSH_USER: '${{ secrets.SITE_SSH_USER }}'
+      SITE_SSH_PRIVATE_KEY: '${{ secrets.SITE_SSH_PRIVATE_KEY }}'
+      SITE_SSH_PATH: '${{ secrets.SITE_SSH_PATH }}'
+
+    steps:
+      - name: Download build artifact
+        uses: actions/download-artifact@v4
+        with:
+          name: site-dist
+          path: dist/
 
       - name: Deploy site
         uses: easingthemes/ssh-deploy@v5.1.0
