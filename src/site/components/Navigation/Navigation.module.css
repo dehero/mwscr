@@ -11,7 +11,7 @@
   flex-flow: row nowrap;
   gap: 4px;
   max-width: 100%;
-  width: 300px;
+  /* width: 300px; */
 }
 
 .menu {
@@ -47,7 +47,8 @@
   width: 100%;
 }
 
-@media only screen and (min-width: 832px) {
+/* @media only screen and (min-width: 832px) { */
+@media only screen and (min-width: 632px) {
   .menu {
     display: none;
   }

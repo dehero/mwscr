@@ -10,7 +10,7 @@ import { postsRoute } from '../../routes/posts-route.js';
 import { usersRoute } from '../../routes/users-route.js';
 import { AppContext } from '../App/App.js';
 import { Button } from '../Button/Button.js';
-import { DataPatchSelect } from '../DataPatchSelect/DataPatchSelect.jsx';
+// import { DataPatchSelect } from '../DataPatchSelect/DataPatchSelect.jsx';
 import { createDetachedDialogFragment } from '../DetachedDialogsProvider/DetachedDialogsProvider.jsx';
 import { Select } from '../Select/Select.js';
 import styles from './Navigation.module.css';
@@ -129,7 +129,7 @@ export const Navigation: Component = () => {
   return (
     <nav class={styles.container}>
       <div class={styles.shortcuts}>
-        <DataPatchSelect class={styles.patch} />
+        {/* <DataPatchSelect class={styles.patch} /> */}
 
         <Button href={createDetachedDialogFragment('contributing', patchSize() > 0 ? 'patch' : 'variants')}>
           <Show fallback="Contribute" when={patchSize() > 0}>
