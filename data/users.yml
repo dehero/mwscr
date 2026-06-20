@@ -4692,6 +4692,10 @@ ranead:
       accessHash: '-1374965011990170137'
       username: ranead
       name: D
+raterwaul:
+  profiles:
+    - service: ig
+      username: raterwaul
 rather-bee-a-capy:
   profiles:
     - service: tg
