@@ -1522,22 +1522,27 @@
     - service: vk
       id: 3390
       published: 2026-06-19-18-28-21
-      updated: 2026-06-20-14-59-12
+      updated: 2026-06-20-16-16-51
       followers: 1434
-      likes: 41
-      views: 346
+      likes: 42
+      views: 352
       reposts: 3
     - service: tg
       id: 1241
       published: 2026-06-19-18-28-28
-      updated: 2026-06-20-14-59-11
+      updated: 2026-06-20-16-16-50
       followers: 916
       likes: 44
-      views: 160
+      views: 161
     - service: mx
       id: '1781893713010'
       published: 2026-06-19-18-28-33
       followers: 22
+    - service: ig
+      id: DZ0GibPlvvh
+      mediaId: '18086152811635673'
+      published: 2026-06-20-16-17-17
+      followers: 1766
 2017-02-01-pray-with-the-saints:
   title: Pray with the Saints
   titleRu: Молиться со святыми
