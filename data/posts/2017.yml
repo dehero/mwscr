@@ -1522,18 +1522,18 @@
     - service: vk
       id: 3390
       published: 2026-06-19-18-28-21
-      updated: 2026-06-20-16-16-51
+      updated: 2026-06-20-18-04-29
       followers: 1434
       likes: 42
-      views: 352
+      views: 362
       reposts: 3
     - service: tg
       id: 1241
       published: 2026-06-19-18-28-28
-      updated: 2026-06-20-16-16-50
+      updated: 2026-06-20-18-04-29
       followers: 916
-      likes: 44
-      views: 161
+      likes: 45
+      views: 163
     - service: mx
       id: '1781893713010'
       published: 2026-06-19-18-28-33
@@ -1542,7 +1542,12 @@
       id: DZ0GibPlvvh
       mediaId: '18086152811635673'
       published: 2026-06-20-16-17-17
+      updated: 2026-06-20-18-04-31
       followers: 1766
+      likes: 38
+      comments: !c |-
+        CymAkZPLQnnuXuW4AACrZGVsYW5vc3BpZXPZOkBkcmF2ZW5qdiBteSBmYXZvcml0ZSB0b3duLCBs
+        b3ZlIHRvIHNlZSB0aGlzIHdhbGtpbmcgdGhlcmUD
 2017-02-01-pray-with-the-saints:
   title: Pray with the Saints
   titleRu: Молиться со святыми
