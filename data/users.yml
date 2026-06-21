@@ -5598,6 +5598,13 @@ tamrielwanderer:
       username: tamrielwanderer
       name: 𝕋𝕒𝕞𝕣𝕚𝕖𝕝 𝕎𝕒𝕟𝕕𝕖𝕣𝕖𝕣 ⚔️ 🔥
       avatar: store:/avatars/ig-8cc5dde6.jpg
+tea-tsar:
+  profiles:
+    - service: tg
+      id: '5266133100'
+      username: TeaTsar
+      botChatId: 5266133100
+      name: Andre
 techno-urukhai:
   profiles:
     - service: tg
