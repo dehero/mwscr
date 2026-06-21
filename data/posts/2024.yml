@@ -3464,11 +3464,21 @@
     - service: vk
       id: 3392
       published: 2026-06-21-19-13-25
+      updated: 2026-06-21-21-04-00
       followers: 1434
+      likes: 12
+      views: 115
+      comments: !c |-
+        G9gAiKwObPfIGGKNMk12JH71K0RF3CJ8DXKKqEks0mTPwGvPXOrbviiphO5jVWCfCtnuJSNWcnnZ
+        UnYGG3ChDqSDYgoD355RzWfnef/yoSnI8d25Uv538OARvpal5pkosFRTjGJxfueJCxhomSfaNgIf
+        CwQsOnzkSGgUIniAp1qQXIsJjTyOuxNVPyEmuCNA4ITzMDGC+zi8oNYD
     - service: tg
       id: 1243
       published: 2026-06-21-19-13-34
+      updated: 2026-06-21-21-03-53
       followers: 918
+      likes: 22
+      views: 88
     - service: mx
       id: '1782069221582'
       published: 2026-06-21-19-13-41
