@@ -5602,9 +5602,12 @@ tea-tsar:
   profiles:
     - service: tg
       id: '5266133100'
+      updated: 2026-06-21-19-13-09
+      accessHash: '8155795007823253048'
       username: TeaTsar
       botChatId: 5266133100
       name: Andre
+      avatar: store:/avatars/tg-5188670009876615571.jpg
 techno-urukhai:
   profiles:
     - service: tg
