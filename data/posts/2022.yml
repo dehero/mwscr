@@ -90,18 +90,18 @@
     - service: vk
       id: 3391
       published: 2026-06-20-18-04-48
-      updated: 2026-06-22-00-11-02
+      updated: 2026-06-22-06-19-50
       followers: 1434
       likes: 49
-      views: 402
+      views: 405
       reposts: 3
     - service: tg
       id: 1242
       published: 2026-06-20-18-04-54
-      updated: 2026-06-22-00-10-55
+      updated: 2026-06-22-06-19-42
       followers: 917
-      likes: 47
-      views: 186
+      likes: 50
+      views: 201
     - service: mx
       id: '1781978698687'
       published: 2026-06-20-18-04-58
@@ -110,7 +110,9 @@
       id: DZ3hlrNDSkV
       mediaId: '18130552066611270'
       published: 2026-06-22-00-11-24
+      updated: 2026-06-22-06-19-46
       followers: 1780
+      likes: 64
 2022-06-24-evening-talk-in-vos:
   title: Evening Talk in Vos
   titleRu: Вечерняя беседа в Восе
