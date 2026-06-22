@@ -62,15 +62,15 @@
     - service: vk
       id: 2501
       published: 2025-07-02-18-24-04
-      updated: 2026-06-15-20-34-53
+      updated: 2026-06-22-22-33-34
       followers: 1333
       likes: 56
-      views: 582
+      views: 584
       reposts: 1
     - service: tg
       id: 905
       published: 2025-07-02-18-24-07
-      updated: 2026-06-15-20-33-57
+      updated: 2026-06-22-22-33-05
       followers: 760
       likes: 72
       views: 644
@@ -83,7 +83,7 @@
       id: DLodyriseno
       mediaId: '18041435729646241'
       published: 2025-07-03-04-30-02
-      updated: 2026-06-15-20-34-14
+      updated: 2026-06-22-22-33-23
       followers: 1558
       likes: 88
 2023-07-29-evening-at-the-suran-street-by-darkness-rifho:
@@ -242,16 +242,16 @@
       id: DOJmMF4jRTd
       mediaId: '17922073773131202'
       published: 2025-09-03-18-21-10
-      updated: 2026-06-15-20-31-45
+      updated: 2026-06-22-22-31-39
       followers: 1582
       likes: 69
     - service: vk
       id: 2629
       published: 2025-09-03-18-21-16
-      updated: 2026-06-15-20-32-04
+      updated: 2026-06-22-22-31-47
       followers: 1404
       likes: 44
-      views: 614
+      views: 617
       reposts: 1
       comments: !c |-
         Cy+AkZPLQnmRFaD7gACwc2VyZ2V5LWNodXJiYW5vdtlB0K3RjdC5KSDQt9C00LDRgNC+0LLQsCEg
@@ -259,7 +259,7 @@
     - service: tg
       id: 971
       published: 2025-09-03-18-21-19
-      updated: 2026-06-15-20-31-55
+      updated: 2026-06-22-22-31-45
       followers: 788
       likes: 76
       views: 618
@@ -528,23 +528,23 @@
       id: DN1BJeR4l2n
       mediaId: '17947144779001734'
       published: 2025-08-26-18-32-48
-      updated: 2026-06-15-20-32-05
+      updated: 2026-06-22-22-31-53
       followers: 1583
       likes: 55
     - service: vk
       id: 2605
       published: 2025-08-26-18-32-53
-      updated: 2026-06-15-20-32-29
+      updated: 2026-06-22-22-32-02
       followers: 1381
       likes: 18
       views: 507
     - service: tg
       id: 961
       published: 2025-08-26-18-32-55
-      updated: 2026-06-15-20-32-14
+      updated: 2026-06-22-22-31-55
       followers: 782
       likes: 65
-      views: 574
+      views: 575
       comments: !c |-
         CyKAkpPLQnmOepqugACqYTItZW5rZWxsabNwcmV0dHkgcm9tYW50aWMgaHVok8tCeY56l/8AAKtr
         YXdhemFreTIyM6Twn5iCAw==
@@ -636,13 +636,13 @@
       id: DN_Srr3ETir
       mediaId: '17858214702482296'
       published: 2025-08-30-18-18-21
-      updated: 2026-06-15-20-31-55
+      updated: 2026-06-22-22-31-47
       followers: 1582
       likes: 79
     - service: tg
       id: 967
       published: 2025-08-30-18-18-37
-      updated: 2026-06-15-20-32-04
+      updated: 2026-06-22-22-31-49
       followers: 785
       likes: 68
       views: 563
@@ -654,7 +654,7 @@
     - service: vk
       id: 2613
       published: 2025-08-30-19-10-44
-      updated: 2026-06-15-20-32-19
+      updated: 2026-06-22-22-31-56
       followers: 1395
       likes: 50
       views: 588
