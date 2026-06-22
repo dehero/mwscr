@@ -207,13 +207,13 @@
       id: DRNSIXUjQSb
       mediaId: '18293771806260561'
       published: 2025-11-18-18-17-05
-      updated: 2026-06-15-16-24-49
+      updated: 2026-06-22-17-26-23
       followers: 1595
       likes: 42
     - service: vk
       id: 2863
       published: 2025-11-18-18-17-11
-      updated: 2026-06-15-16-29-14
+      updated: 2026-06-22-17-26-52
       followers: 1511
       likes: 59
       views: 979
@@ -225,10 +225,10 @@
     - service: tg
       id: 1059
       published: 2025-11-18-18-17-15
-      updated: 2026-06-15-16-25-07
+      updated: 2026-06-22-17-25-59
       followers: 860
       likes: 64
-      views: 735
+      views: 736
 2020-05-16-tel-mora:
   title: Tel Mora
   titleRu: Тель Мора
@@ -774,15 +774,17 @@
       id: DQPet9eDPF9
       mediaId: '18101307049679223'
       published: 2025-10-25-18-14-07
-      updated: 2026-06-15-16-28-18
+      updated: 2026-06-22-17-27-05
       followers: 1588
       likes: 48
     - service: vk
       id: 2774
       published: 2025-10-25-18-14-12
-      updated: 2026-06-15-16-31-44
+      updated: 2026-06-22-17-27-49
       followers: 1483
+      likes: 75
       views: 1599
+      reposts: 3
       comments: !c |-
         G54GAJwHtg1lG20efsdpzOOff+59e/xFctPao3gEA9I5NJblYw2wFfG6zxRVjSWxDBNsJ8TC9r/5
         3JrzJU3q1186IeiipYHFJPze7vX9c5tSMaId9EAyEetv21we51OSCipBKejNus9G/3M5rejwsDS6
@@ -1166,13 +1168,13 @@
       id: DQKVWHpkXEW
       mediaId: '18033399830720714'
       published: 2025-10-23-18-16-02
-      updated: 2026-06-15-16-28-27
+      updated: 2026-06-22-17-27-08
       followers: 1586
       likes: 54
     - service: vk
       id: 2763
       published: 2025-10-23-18-16-08
-      updated: 2026-06-15-16-31-52
+      updated: 2026-06-22-17-27-52
       followers: 1482
       likes: 60
       views: 2138
@@ -1186,10 +1188,10 @@
     - service: tg
       id: 1025
       published: 2025-10-23-18-16-14
-      updated: 2026-06-15-16-29-25
+      updated: 2026-06-22-17-26-53
       followers: 841
       likes: 69
-      views: 1489
+      views: 1490
       comments: !c |-
         izKAkpPLQnmhq+ZkgACra2F3YXpha3kyMjOk8J+kqJTLQnmhNRH7gACqYTItZW5rZWxsab9hbm90
         aGVyIGRheSB3aXRob3V0IG11ZGNyYWJzICgok8tCeaFWsx0AAKVhbnNpc6Twn6aAAw==
