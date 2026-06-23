@@ -10874,17 +10874,18 @@
     - service: vk
       id: 3394
       published: 2026-06-22-22-34-09
-      updated: 2026-06-23-07-38-27
+      updated: 2026-06-23-10-53-30
       followers: 1433
-      likes: 23
-      views: 191
+      likes: 31
+      views: 244
+      reposts: 1
     - service: tg
       id: 1244
       published: 2026-06-22-22-34-18
-      updated: 2026-06-23-07-38-15
+      updated: 2026-06-23-10-53-22
       followers: 917
-      likes: 35
-      views: 130
+      likes: 38
+      views: 141
     - service: mx
       id: '1782167667018'
       published: 2026-06-22-22-34-27
@@ -10893,9 +10894,9 @@
       id: DZ6FZ7IGX8l
       mediaId: '17911471284421430'
       published: 2026-06-23-00-02-54
-      updated: 2026-06-23-07-38-20
+      updated: 2026-06-23-10-53-27
       followers: 1784
-      likes: 54
+      likes: 59
 2017-07-30-in-the-sanctuary:
   title: In the Sanctuary
   titleRu: В святилище
