@@ -1034,6 +1034,18 @@
       followers: 354
       likes: 57
       views: 481
+    - service: vk
+      id: 3395
+      published: 2026-06-23-03-30-42
+      followers: 1433
+    - service: tg
+      id: 1245
+      published: 2026-06-23-03-30-51
+      followers: 918
+    - service: mx
+      id: '1782185458988'
+      published: 2026-06-23-03-30-59
+      followers: 22
 2024-03-30-a-boxy-nightstand: 2016-12-20-a-boxy-nightstand
 2024-03-31-fire-river:
   title: Fire River
@@ -3464,10 +3476,10 @@
     - service: vk
       id: 3392
       published: 2026-06-21-19-13-25
-      updated: 2026-06-22-23-59-48
+      updated: 2026-06-23-03-30-00
       followers: 1434
       likes: 31
-      views: 411
+      views: 418
       reposts: 1
       comments: !c |-
         G9YA+K0ObPfIGGKNMk12JH71K0RF3CJ8DXKKqEks0mRPYXPP2WqHa9JkJe0yRFMh271kxEouL1vK
@@ -3476,10 +3488,10 @@
     - service: tg
       id: 1243
       published: 2026-06-21-19-13-34
-      updated: 2026-06-22-23-59-39
+      updated: 2026-06-23-03-29-51
       followers: 918
-      likes: 42
-      views: 161
+      likes: 43
+      views: 170
     - service: mx
       id: '1782069221582'
       published: 2026-06-21-19-13-41
@@ -3488,9 +3500,9 @@
       id: DZ4Lyz4ktRY
       mediaId: '18135785323575710'
       published: 2026-06-22-06-20-14
-      updated: 2026-06-22-23-59-43
+      updated: 2026-06-23-03-29-58
       followers: 1779
-      likes: 75
+      likes: 78
 2024-09-26-bread-and-wine: 2018-10-29-bread-and-wine
 2024-09-27-the-two-towers: 2017-03-25-the-two-towers
 2024-09-28-cozy-workplace-in-the-basement: 2017-11-16-cozy-workplace-in-the-basement

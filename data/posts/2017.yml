@@ -4031,14 +4031,14 @@
     - service: vk
       id: 2172
       published: 2025-03-05-18-11-47
-      updated: 2026-06-15-23-13-50
+      updated: 2026-06-23-03-30-21
       followers: 1160
       likes: 52
       views: 466
     - service: tg
       id: 735
       published: 2025-03-05-18-11-54
-      updated: 2026-06-15-23-12-46
+      updated: 2026-06-23-03-30-13
       followers: 691
       likes: 64
       views: 548
@@ -4046,7 +4046,7 @@
       id: DG2NNSvNgYM
       mediaId: '17935045454996090'
       published: 2025-03-06-05-57-32
-      updated: 2026-06-15-23-13-16
+      updated: 2026-06-23-03-30-19
       followers: 1536
       likes: 71
       views: 315
@@ -5062,7 +5062,7 @@
     - service: vk
       id: 2187
       published: 2025-03-11-18-12-03
-      updated: 2026-06-15-23-13-39
+      updated: 2026-06-23-03-30-09
       followers: 1179
       likes: 62
       views: 497
@@ -5070,10 +5070,10 @@
     - service: tg
       id: 744
       published: 2025-03-11-18-12-10
-      updated: 2026-06-15-23-12-27
+      updated: 2026-06-23-03-30-04
       followers: 695
       likes: 66
-      views: 586
+      views: 587
 2017-04-07-trees-and-towers:
   title: Trees and Towers
   titleRu: Деревья и башни
@@ -7474,9 +7474,9 @@
       id: DG6F-d9uFqA
       mediaId: '17909380499997603'
       published: 2025-03-07-18-11-20
-      updated: 2026-06-15-23-13-12
+      updated: 2026-06-23-03-30-14
       followers: 1537
-      likes: 105
+      likes: 104
       views: 474
       comments: !c |-
         G8sAAIxUNX9D1zx9foriqgWVjQb834sI8BvoqDlBGtd5lYVvyxMNwwxD/q7r7ke7UTYfDkSn0xt+
@@ -7485,7 +7485,7 @@
     - service: vk
       id: 2175
       published: 2025-03-07-18-11-28
-      updated: 2026-06-15-23-13-46
+      updated: 2026-06-23-03-30-17
       followers: 1171
       likes: 69
       views: 532
@@ -7493,7 +7493,7 @@
     - service: tg
       id: 737
       published: 2025-03-07-18-11-36
-      updated: 2026-06-15-23-12-34
+      updated: 2026-06-23-03-30-10
       followers: 691
       likes: 71
       views: 552
@@ -10874,17 +10874,17 @@
     - service: vk
       id: 3394
       published: 2026-06-22-22-34-09
-      updated: 2026-06-22-23-59-38
+      updated: 2026-06-23-03-29-50
       followers: 1433
-      likes: 2
-      views: 27
+      likes: 10
+      views: 97
     - service: tg
       id: 1244
       published: 2026-06-22-22-34-18
-      updated: 2026-06-22-23-59-37
+      updated: 2026-06-23-03-29-49
       followers: 917
-      likes: 11
-      views: 45
+      likes: 16
+      views: 67
     - service: mx
       id: '1782167667018'
       published: 2026-06-22-22-34-27
@@ -10893,7 +10893,9 @@
       id: DZ6FZ7IGX8l
       mediaId: '17911471284421430'
       published: 2026-06-23-00-02-54
+      updated: 2026-06-23-03-29-56
       followers: 1784
+      likes: 31
 2017-07-30-in-the-sanctuary:
   title: In the Sanctuary
   titleRu: В святилище
@@ -18210,7 +18212,7 @@
     - service: vk
       id: 2189
       published: 2025-03-12-18-11-57
-      updated: 2026-06-15-23-13-37
+      updated: 2026-06-23-03-30-06
       followers: 1180
       likes: 53
       views: 455
@@ -18218,10 +18220,10 @@
     - service: tg
       id: 745
       published: 2025-03-12-18-12-03
-      updated: 2026-06-15-23-12-25
+      updated: 2026-06-23-03-30-03
       followers: 695
       likes: 71
-      views: 559
+      views: 560
 2017-12-23-secret-love:
   title: Secret Love
   titleRu: Тайная любовь

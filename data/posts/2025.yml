@@ -437,7 +437,7 @@
     - service: vk
       id: 2190
       published: 2025-03-13-18-12-13
-      updated: 2026-06-15-23-13-36
+      updated: 2026-06-23-03-30-05
       followers: 1182
       likes: 64
       views: 506
@@ -445,10 +445,10 @@
     - service: tg
       id: 746
       published: 2025-03-13-18-12-20
-      updated: 2026-06-15-23-12-24
+      updated: 2026-06-23-03-30-02
       followers: 696
       likes: 65
-      views: 563
+      views: 564
 2025-03-14-daedric-tanto-and-dwemer-coins:
   title: Daedric Tanto and Dwemer Coins
   titleRu: Даэдрический танто и двемерские монеты
@@ -481,7 +481,7 @@
     - service: vk
       id: 2191
       published: 2025-03-14-18-11-24
-      updated: 2026-06-15-23-13-36
+      updated: 2026-06-23-03-30-04
       followers: 1182
       likes: 53
       views: 574
@@ -495,10 +495,10 @@
     - service: tg
       id: 747
       published: 2025-03-14-18-45-12
-      updated: 2026-06-15-23-12-24
+      updated: 2026-06-23-03-30-02
       followers: 700
       likes: 73
-      views: 717
+      views: 718
 2025-03-15-repairing-centurion-palm:
   title: Repairing Centurion Palm
   titleRu: Ремонт руки центуриона
@@ -531,10 +531,10 @@
     - service: tg
       id: 748
       published: 2025-03-15-18-10-30
-      updated: 2026-06-15-23-12-23
+      updated: 2026-06-23-03-30-01
       followers: 705
       likes: 61
-      views: 575
+      views: 576
 2025-03-16-passage-to-the-north:
   title: Passage to the North
   titleRu: Проход на север
@@ -575,10 +575,10 @@
     - service: tg
       id: 749
       published: 2025-03-16-18-10-24
-      updated: 2026-06-15-23-12-22
+      updated: 2026-06-23-03-30-00
       followers: 705
       likes: 80
-      views: 844
+      views: 845
       comments: !c CxCAkZPLQnlaKKkSgACnbWxlbm5pY61hIG1hc3RlcnBpZWNlAw==
 2025-03-17-first-stars-above-assurnabitashpi:
   title: First Stars Above Assurnabitashpi
@@ -615,7 +615,7 @@
     - service: tg
       id: 750
       published: 2025-03-17-18-12-06
-      updated: 2026-06-15-23-12-21
+      updated: 2026-06-23-03-29-53
       followers: 702
       likes: 61
       views: 778
@@ -663,7 +663,7 @@
     - service: tg
       id: 755
       published: 2025-03-19-19-01-59
-      updated: 2026-06-15-23-12-18
+      updated: 2026-06-23-03-29-51
       followers: 705
       likes: 59
       views: 600
