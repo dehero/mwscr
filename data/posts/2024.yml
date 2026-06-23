@@ -1037,15 +1037,30 @@
     - service: vk
       id: 3395
       published: 2026-06-23-03-30-42
+      updated: 2026-06-23-07-38-26
       followers: 1433
+      likes: 12
+      views: 145
+      reposts: 2
+      comments: !c |-
+        ix+AkZPLQnnvLHSFgACtZXZnZW5peS1idXJpedkl0JfQsNGC0LDQuNCy0YjQuNC50YHRjyDQtNCw
+        0Y3QtNGA0L7RggM=
     - service: tg
       id: 1245
       published: 2026-06-23-03-30-51
+      updated: 2026-06-23-07-38-15
       followers: 918
+      likes: 28
+      views: 89
     - service: mx
       id: '1782185458988'
       published: 2026-06-23-03-30-59
       followers: 22
+    - service: ig
+      id: DZ65m5DHCPA
+      mediaId: '18208256191355035'
+      published: 2026-06-23-07-39-01
+      followers: 1785
 2024-03-30-a-boxy-nightstand: 2016-12-20-a-boxy-nightstand
 2024-03-31-fire-river:
   title: Fire River
@@ -3476,10 +3491,10 @@
     - service: vk
       id: 3392
       published: 2026-06-21-19-13-25
-      updated: 2026-06-23-03-30-00
+      updated: 2026-06-23-07-38-35
       followers: 1434
       likes: 31
-      views: 418
+      views: 427
       reposts: 1
       comments: !c |-
         G9YA+K0ObPfIGGKNMk12JH71K0RF3CJ8DXKKqEks0mRPYXPP2WqHa9JkJe0yRFMh271kxEouL1vK
@@ -3488,10 +3503,10 @@
     - service: tg
       id: 1243
       published: 2026-06-21-19-13-34
-      updated: 2026-06-23-03-29-51
+      updated: 2026-06-23-07-38-16
       followers: 918
-      likes: 43
-      views: 170
+      likes: 47
+      views: 187
     - service: mx
       id: '1782069221582'
       published: 2026-06-21-19-13-41
@@ -3500,9 +3515,9 @@
       id: DZ4Lyz4ktRY
       mediaId: '18135785323575710'
       published: 2026-06-22-06-20-14
-      updated: 2026-06-23-03-29-58
+      updated: 2026-06-23-07-38-21
       followers: 1779
-      likes: 78
+      likes: 80
 2024-09-26-bread-and-wine: 2018-10-29-bread-and-wine
 2024-09-27-the-two-towers: 2017-03-25-the-two-towers
 2024-09-28-cozy-workplace-in-the-basement: 2017-11-16-cozy-workplace-in-the-basement
