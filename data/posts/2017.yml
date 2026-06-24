@@ -3992,10 +3992,10 @@
     - service: tg
       id: 445
       published: 2024-06-20-18-21-20
-      updated: 2026-06-16-21-25-45
+      updated: 2026-06-24-02-05-39
       followers: 387
       likes: 65
-      views: 526
+      views: 527
       comments: !c |-
         iyKAkZPLQnkECYQ5gACnYmVybXVkYdkx0K3RgtC+INCy0YvQs9C70Y/QtNC40YIg0YLQsNC6INC/
         0YDQtdC60YDQsNGB0L3QvgM=
@@ -10875,7 +10875,7 @@
     - service: vk
       id: 3394
       published: 2026-06-22-22-34-09
-      updated: 2026-06-23-23-54-26
+      updated: 2026-06-24-02-05-40
       followers: 1433
       likes: 42
       views: 308
@@ -10883,10 +10883,10 @@
     - service: tg
       id: 1244
       published: 2026-06-22-22-34-18
-      updated: 2026-06-23-23-54-18
+      updated: 2026-06-24-02-05-31
       followers: 917
       likes: 43
-      views: 157
+      views: 159
     - service: mx
       id: '1782167667018'
       published: 2026-06-22-22-34-27
@@ -10895,9 +10895,9 @@
       id: DZ6FZ7IGX8l
       mediaId: '17911471284421430'
       published: 2026-06-23-00-02-54
-      updated: 2026-06-23-23-54-25
+      updated: 2026-06-24-02-05-37
       followers: 1784
-      likes: 75
+      likes: 77
 2017-07-30-in-the-sanctuary:
   title: In the Sanctuary
   titleRu: В святилище

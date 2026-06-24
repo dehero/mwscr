@@ -770,7 +770,7 @@ bermuda:
   profiles:
     - service: tg
       id: '1320462126'
-      updated: 2026-06-23-23-56-13
+      updated: 2026-06-24-02-05-38
       accessHash: '7050008845618619357'
       username: dbermuda_inworldb
       name: bermuda
@@ -813,7 +813,7 @@ bitter-coast:
     - type: channel
       service: vk
       id: '226091189'
-      updated: 2026-06-23-19-04-14
+      updated: 2026-06-24-02-05-41
       username: bitter_coast
       name: скрибшоты из вварденфелла | screenshots
       avatar: store:/avatars/vk-5e2dff0c.jpg
@@ -1410,7 +1410,7 @@ dehero:
       avatar: store:/avatars/gh-c8afe641.jpg
     - service: vk
       id: '3652910'
-      updated: 2026-06-23-23-55-47
+      updated: 2026-06-24-02-05-43
       username: dehero
       name: Антон Курьянов
       avatar: store:/avatars/vk-5356f76e.jpg
@@ -1973,7 +1973,7 @@ evgeniy-buriy:
   profiles:
     - service: vk
       id: '163173804'
-      updated: 2026-06-23-23-54-25
+      updated: 2026-06-24-02-05-38
       username: id163173804
       name: Евгений Бурый
       avatar: store:/avatars/vk-3bbccca0.jpg
@@ -3165,10 +3165,10 @@ krolick:
   profiles:
     - service: vk
       id: '303949592'
-      updated: 2026-06-16-17-59-41
+      updated: 2026-06-24-02-05-41
       username: krolick
       name: Александр Евгеньев
-      avatar: store:/avatars/vk-2ca11b32.jpg
+      avatar: store:/avatars/vk-b2538c6b.jpg
 krumecadyk:
   profiles:
     - service: ig
@@ -5057,7 +5057,7 @@ sergey-b:
       deleted: true
     - service: vk
       id: '810900694'
-      updated: 2026-06-23-23-54-28
+      updated: 2026-06-24-02-05-41
       username: id810900694
       avatar: store:/avatars/vk-7f160215.jpg
       deleted: true
@@ -5548,7 +5548,7 @@ svetlana-zhukova:
   profiles:
     - service: vk
       id: '4936513'
-      updated: 2026-06-23-23-56-25
+      updated: 2026-06-24-02-05-43
       username: id4936513
       name: Светлана Жукова
       avatar: store:/avatars/vk-9e18b6c1.jpg
@@ -6044,7 +6044,7 @@ user-24:
   profiles:
     - service: vk
       id: '620419961'
-      updated: 2026-06-17-10-04-32
+      updated: 2026-06-24-02-05-43
       username: id620419961
       avatar: store:/avatars/vk-7f160215.jpg
       deleted: true
