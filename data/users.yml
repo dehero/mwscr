@@ -1695,11 +1695,11 @@ e-iisabeth:
   profiles:
     - service: tg
       id: '426695115'
-      updated: 2026-06-16-23-45-50
+      updated: 2026-06-24-06-35-43
       accessHash: '4612372684988055567'
       username: eIisabeth
       name: Елизавета
-      avatar: store:/avatars/tg-1832641564747959071.jpg
+      avatar: store:/avatars/tg-1832641564747959074.jpg
 eastcoast-lg:
   name: Luke Gordon
   profiles:
@@ -1973,7 +1973,7 @@ evgeniy-buriy:
   profiles:
     - service: vk
       id: '163173804'
-      updated: 2026-06-24-02-05-38
+      updated: 2026-06-24-06-35-43
       username: id163173804
       name: Евгений Бурый
       avatar: store:/avatars/vk-3bbccca0.jpg
@@ -3883,7 +3883,7 @@ mxmazur:
   profiles:
     - service: tg
       id: '812633742'
-      updated: 2026-06-17-10-05-55
+      updated: 2026-06-24-06-35-43
       accessHash: '-1446904807816208877'
       username: mxmazur
       name: Maxim Mazur
@@ -4024,7 +4024,7 @@ nihil-sum:
   profiles:
     - service: tg
       id: '563711962'
-      updated: 2026-06-23-23-56-11
+      updated: 2026-06-24-06-35-43
       accessHash: '4311900909005184860'
       username: syomadyoma
       botChatId: 563711962
@@ -5532,7 +5532,7 @@ striped-bear:
   profiles:
     - service: tg
       id: '41361419'
-      updated: 2026-06-16-23-45-57
+      updated: 2026-06-24-06-35-43
       accessHash: '-7366776363333243224'
       username: StripedBear
       name: Eman Name
@@ -6547,7 +6547,7 @@ wilywils:
   profiles:
     - service: tg
       id: '1134037902'
-      updated: 2026-06-16-23-45-57
+      updated: 2026-06-24-06-35-43
       accessHash: '-3855010093210460339'
       username: vvnrollier
       name: saskatchewan
