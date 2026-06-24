@@ -1522,18 +1522,18 @@
     - service: vk
       id: 3390
       published: 2026-06-19-18-28-21
-      updated: 2026-06-23-19-01-34
+      updated: 2026-06-24-20-27-07
       followers: 1434
-      likes: 50
-      views: 436
+      likes: 52
+      views: 462
       reposts: 3
     - service: tg
       id: 1241
       published: 2026-06-19-18-28-28
-      updated: 2026-06-23-19-01-24
+      updated: 2026-06-24-20-26-58
       followers: 916
       likes: 60
-      views: 273
+      views: 295
     - service: mx
       id: '1781893713010'
       published: 2026-06-19-18-28-33
@@ -4054,24 +4054,24 @@
       id: DZqYTehl5zj
       mediaId: '17880556101455637'
       published: 2026-06-16-21-40-07
-      updated: 2026-06-23-19-01-37
+      updated: 2026-06-24-20-27-03
       followers: 1727
-      likes: 96
+      likes: 97
     - service: vk
       id: 3389
       published: 2026-06-16-21-41-54
-      updated: 2026-06-23-19-01-36
+      updated: 2026-06-24-20-27-09
       followers: 1436
       likes: 49
-      views: 649
+      views: 660
       reposts: 2
     - service: tg
       id: 1240
       published: 2026-06-16-21-55-49
-      updated: 2026-06-23-19-01-25
+      updated: 2026-06-24-20-26-59
       followers: 916
       likes: 60
-      views: 402
+      views: 422
     - service: mx
       id: '1781647729753'
       published: 2026-06-16-22-08-49
@@ -10875,18 +10875,18 @@
     - service: vk
       id: 3394
       published: 2026-06-22-22-34-09
-      updated: 2026-06-24-18-27-13
+      updated: 2026-06-24-20-27-05
       followers: 1433
-      likes: 45
-      views: 345
+      likes: 47
+      views: 350
       reposts: 2
     - service: tg
       id: 1244
       published: 2026-06-22-22-34-18
-      updated: 2026-06-24-18-27-05
+      updated: 2026-06-24-20-26-56
       followers: 917
-      likes: 46
-      views: 170
+      likes: 47
+      views: 193
     - service: mx
       id: '1782167667018'
       published: 2026-06-22-22-34-27
@@ -10895,9 +10895,9 @@
       id: DZ6FZ7IGX8l
       mediaId: '17911471284421430'
       published: 2026-06-23-00-02-54
-      updated: 2026-06-24-18-27-10
+      updated: 2026-06-24-20-27-02
       followers: 1784
-      likes: 80
+      likes: 81
 2017-07-30-in-the-sanctuary:
   title: In the Sanctuary
   titleRu: В святилище
