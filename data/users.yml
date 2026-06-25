@@ -2757,7 +2757,7 @@ ivanovic:
   profiles:
     - service: tg
       id: '5205246036'
-      updated: 2026-06-25-20-59-33
+      updated: 2026-06-25-22-21-25
       accessHash: '-4096599997074721381'
       name: Ivanovic
 izipvnk:
@@ -3482,7 +3482,7 @@ maksim-solovev:
   profiles:
     - service: vk
       id: '658767771'
-      updated: 2026-06-25-20-59-40
+      updated: 2026-06-25-22-21-32
       username: id658767771
       name: Максим Соловьев
       avatar: store:/avatars/vk-bee5815b.jpg
