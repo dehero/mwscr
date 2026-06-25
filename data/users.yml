@@ -2753,6 +2753,13 @@ ivan-uralov:
       username: id16497155
       name: Иван Уралов
       avatar: store:/avatars/vk-51775759.jpg
+ivanovic:
+  profiles:
+    - service: tg
+      id: '5205246036'
+      updated: 2026-06-25-20-59-33
+      accessHash: '-4096599997074721381'
+      name: Ivanovic
 izipvnk:
   profiles:
     - service: ig
@@ -3475,7 +3482,7 @@ maksim-solovev:
   profiles:
     - service: vk
       id: '658767771'
-      updated: 2026-06-22-12-45-44
+      updated: 2026-06-25-20-59-40
       username: id658767771
       name: Максим Соловьев
       avatar: store:/avatars/vk-bee5815b.jpg
@@ -5065,7 +5072,7 @@ sergey-b-2:
   profiles:
     - service: vk
       id: '1077446394'
-      updated: 2026-06-24-20-27-06
+      updated: 2026-06-25-20-59-42
       username: id1077446394
       name: Сергей Б
       avatar: store:/avatars/vk-f5b20109.jpg
