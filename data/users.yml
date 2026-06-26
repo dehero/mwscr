@@ -1973,7 +1973,7 @@ evgeniy-buriy:
   profiles:
     - service: vk
       id: '163173804'
-      updated: 2026-06-25-02-40-28
+      updated: 2026-06-26-05-02-59
       username: id163173804
       name: Евгений Бурый
       avatar: store:/avatars/vk-3bbccca0.jpg
@@ -2757,7 +2757,7 @@ ivanovic:
   profiles:
     - service: tg
       id: '5205246036'
-      updated: 2026-06-26-00-03-52
+      updated: 2026-06-26-05-02-48
       accessHash: '-4096599997074721381'
       name: Ivanovic
 izipvnk:
@@ -3482,7 +3482,7 @@ maksim-solovev:
   profiles:
     - service: vk
       id: '658767771'
-      updated: 2026-06-26-00-04-01
+      updated: 2026-06-26-05-02-56
       username: id658767771
       name: Максим Соловьев
       avatar: store:/avatars/vk-bee5815b.jpg

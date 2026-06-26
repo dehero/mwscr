@@ -10840,10 +10840,10 @@
     - service: vk
       id: 3399
       published: 2026-06-25-19-01-25
-      updated: 2026-06-26-00-04-01
+      updated: 2026-06-26-05-02-56
       followers: 1431
-      likes: 12
-      views: 141
+      likes: 13
+      views: 171
       reposts: 1
       comments: !c |-
         iyqAkZPLQnnwA/hlgACubWFrc2ltLXNvbG92ZXbZOtCh0YLQsNGF0LDQvdC+0LIsINCy0LDQvCDQ
@@ -10851,10 +10851,10 @@
     - service: tg
       id: 1247
       published: 2026-06-25-19-01-35
-      updated: 2026-06-26-00-03-53
+      updated: 2026-06-26-05-02-48
       followers: 919
-      likes: 31
-      views: 91
+      likes: 35
+      views: 110
       comments: !c CwyAkZPLQnnwCPDbgACoaXZhbm92aWOkRGFuZwM=
     - service: mx
       id: '1782414103365'
