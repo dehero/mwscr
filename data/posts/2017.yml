@@ -4207,11 +4207,23 @@
     - service: vk
       id: 3402
       published: 2026-06-26-18-22-25
+      updated: 2026-06-26-20-26-27
       followers: 1431
+      likes: 7
+      views: 110
+      reposts: 1
+      comments: !c |-
+        G/EA+J0JdizEZBhqMESPevob6QP6oJll3iQUcbKnzimcH5Ni3JiHQ3mePqnZTVSzktQFVdC07Z1b
+        gOWqOqUombecZKMgUwlF2Jn3vH+oP/rF7rsT5cWm+869ADQcqxnhTI+BxLcA/rUCTqtQS1HNYNLm
+        xjlnLiDIFmQmBgqYqoQgmxHd9MIkjLE+lYTmNUfjYzrBSDATC0GKHgA=
     - service: tg
       id: 1248
       published: 2026-06-26-18-22-33
+      updated: 2026-06-26-20-26-20
       followers: 919
+      likes: 19
+      views: 72
+      comments: !c iw6AkZPLQnnwV0m+AACoaXZhbm92aWOpQmVhdXRpZnVsAw==
     - service: mx
       id: '1782498159013'
       published: 2026-06-26-18-22-39

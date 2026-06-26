@@ -1653,7 +1653,7 @@ dremarretres:
   profiles:
     - service: vk
       id: '801308664'
-      updated: 2026-06-26-18-21-55
+      updated: 2026-06-26-20-26-29
       username: dremarretres
       name: Джон Шепард
       avatar: store:/avatars/vk-ac4f0700.jpg
@@ -2021,7 +2021,7 @@ feanor2la:
   profiles:
     - service: vk
       id: '16294877'
-      updated: 2026-06-23-00-01-56
+      updated: 2026-06-26-20-26-27
       username: feanor2la
       name: Иван Урлапов
       avatar: store:/avatars/vk-14fd45f0.jpg
@@ -2757,7 +2757,7 @@ ivanovic:
   profiles:
     - service: tg
       id: '5205246036'
-      updated: 2026-06-26-18-21-47
+      updated: 2026-06-26-20-26-21
       accessHash: '-4096599997074721381'
       name: Ivanovic
 izipvnk:
@@ -3482,7 +3482,7 @@ maksim-solovev:
   profiles:
     - service: vk
       id: '658767771'
-      updated: 2026-06-26-18-21-55
+      updated: 2026-06-26-20-26-29
       username: id658767771
       name: Максим Соловьев
       avatar: store:/avatars/vk-bee5815b.jpg
