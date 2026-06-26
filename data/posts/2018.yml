@@ -10840,21 +10840,22 @@
     - service: vk
       id: 3399
       published: 2026-06-25-19-01-25
-      updated: 2026-06-26-05-02-56
+      updated: 2026-06-26-08-48-33
       followers: 1431
-      likes: 13
-      views: 171
+      likes: 17
+      views: 229
       reposts: 1
       comments: !c |-
-        iyqAkZPLQnnwA/hlgACubWFrc2ltLXNvbG92ZXbZOtCh0YLQsNGF0LDQvdC+0LIsINCy0LDQvCDQ
-        t9C00LXRgdGMINGB0LDQvNC+0LUg0LzQtdGB0YLQviED
+        G58AMOTnr3lB1JZ6eGQRabcC2YDOF4kbSL6PJzacTk5bQIFhFqTR6YQtyrnlBidJEM/bYtMwb9v6
+        bb15av2P/NsDto/1sPRjoUy9TzOpMKI5HNEKjnCHB5z/eq3R7fxZt4WXVMB47MWtVdhEUdglqEkZ
+        8SGrgFu56Ug4okEQRRE=
     - service: tg
       id: 1247
       published: 2026-06-25-19-01-35
-      updated: 2026-06-26-05-02-48
+      updated: 2026-06-26-08-48-26
       followers: 919
-      likes: 35
-      views: 110
+      likes: 37
+      views: 131
       comments: !c CwyAkZPLQnnwCPDbgACoaXZhbm92aWOkRGFuZwM=
     - service: mx
       id: '1782414103365'
