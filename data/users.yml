@@ -577,7 +577,7 @@ artyom-karpov:
   profiles:
     - service: vk
       id: '178018548'
-      updated: 2026-06-19-07-15-27
+      updated: 2026-06-26-11-40-45
       username: id178018548
       name: Артём Карпов
       avatar: store:/avatars/vk-72fe5d60.jpg
@@ -1344,7 +1344,7 @@ daryna-dmytrenko:
   profiles:
     - service: vk
       id: '164064457'
-      updated: 2026-06-19-07-15-04
+      updated: 2026-06-26-11-40-16
       username: daryna_dmytrenko
       name: Дарина Дмитренко
       avatar: store:/avatars/vk-0d327853.jpg
@@ -1410,7 +1410,7 @@ dehero:
       avatar: store:/avatars/gh-c8afe641.jpg
     - service: vk
       id: '3652910'
-      updated: 2026-06-26-08-49-12
+      updated: 2026-06-26-11-40-52
       username: dehero
       name: Антон Курьянов
       avatar: store:/avatars/vk-5356f76e.jpg
@@ -1653,7 +1653,7 @@ dremarretres:
   profiles:
     - service: vk
       id: '801308664'
-      updated: 2026-06-26-08-48-33
+      updated: 2026-06-26-11-38-21
       username: dremarretres
       name: Джон Шепард
       avatar: store:/avatars/vk-ac4f0700.jpg
@@ -1989,7 +1989,7 @@ evil-kit:
   profiles:
     - service: vk
       id: '153155138'
-      updated: 2026-06-19-07-42-23
+      updated: 2026-06-26-11-40-51
       username: evil_kit
       name: Никита Метелкин
       avatar: store:/avatars/vk-adb64972.jpg
@@ -2552,7 +2552,7 @@ idalexeyvav:
   profiles:
     - service: vk
       id: '417783044'
-      updated: 2026-06-19-07-15-02
+      updated: 2026-06-26-11-40-13
       username: idalexeyvav
       name: Алексей Вавилов
       avatar: store:/avatars/vk-6717456e.jpg
@@ -2757,7 +2757,7 @@ ivanovic:
   profiles:
     - service: tg
       id: '5205246036'
-      updated: 2026-06-26-08-48-26
+      updated: 2026-06-26-11-37-58
       accessHash: '-4096599997074721381'
       name: Ivanovic
 izipvnk:
@@ -3458,7 +3458,7 @@ maks-perunov:
   profiles:
     - service: vk
       id: '35868942'
-      updated: 2026-06-23-23-56-08
+      updated: 2026-06-26-11-39-21
       username: id35868942
       name: Макс Перунов
       avatar: store:/avatars/vk-3bb92045.jpg
@@ -3482,7 +3482,7 @@ maksim-solovev:
   profiles:
     - service: vk
       id: '658767771'
-      updated: 2026-06-26-08-48-32
+      updated: 2026-06-26-11-38-21
       username: id658767771
       name: Максим Соловьев
       avatar: store:/avatars/vk-bee5815b.jpg
@@ -5376,7 +5376,7 @@ soulilight:
   profiles:
     - service: vk
       id: '347703822'
-      updated: 2026-06-26-08-48-50
+      updated: 2026-06-26-11-40-50
       username: soulilight
       name: Dima Boev
       avatar: store:/avatars/vk-4a3f332e.jpg
@@ -6154,7 +6154,7 @@ user-36:
   profiles:
     - service: vk
       id: '227500203'
-      updated: 2026-06-19-07-41-31
+      updated: 2026-06-26-11-40-51
       username: id227500203
       avatar: store:/avatars/vk-7f160215.jpg
       deleted: true
