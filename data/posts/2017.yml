@@ -4204,6 +4204,18 @@
       followers: 47
       likes: 6
       views: 119
+    - service: vk
+      id: 3402
+      published: 2026-06-26-18-22-25
+      followers: 1431
+    - service: tg
+      id: 1248
+      published: 2026-06-26-18-22-33
+      followers: 919
+    - service: mx
+      id: '1782498159013'
+      published: 2026-06-26-18-22-39
+      followers: 22
 2017-03-23-malacaths-shrine:
   title: Malacath's Shrine
   titleRu: Святилище Малаката
