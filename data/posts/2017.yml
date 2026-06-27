@@ -4207,10 +4207,10 @@
     - service: vk
       id: 3402
       published: 2026-06-26-18-22-25
-      updated: 2026-06-26-23-53-56
+      updated: 2026-06-27-02-03-01
       followers: 1431
-      likes: 12
-      views: 149
+      likes: 13
+      views: 159
       reposts: 1
       comments: !c |-
         G/EA+J0JdizEZBhqMESPevob6QP6oJll3iQUcbKnzimcH5Ni3JiHQ3mePqnZTVSzktQFVdC07Z1b
@@ -4219,10 +4219,10 @@
     - service: tg
       id: 1248
       published: 2026-06-26-18-22-33
-      updated: 2026-06-26-23-53-48
+      updated: 2026-06-27-02-02-54
       followers: 919
-      likes: 25
-      views: 85
+      likes: 28
+      views: 94
       comments: !c iw6AkZPLQnnwV0m+AACoaXZhbm92aWOpQmVhdXRpZnVsAw==
     - service: mx
       id: '1782498159013'
@@ -10919,9 +10919,9 @@
       id: DZ6FZ7IGX8l
       mediaId: '17911471284421430'
       published: 2026-06-23-00-02-54
-      updated: 2026-06-26-00-03-57
+      updated: 2026-06-27-02-03-00
       followers: 1784
-      likes: 84
+      likes: 85
 2017-07-30-in-the-sanctuary:
   title: In the Sanctuary
   titleRu: В святилище
