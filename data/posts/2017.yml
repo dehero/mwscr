@@ -4207,10 +4207,10 @@
     - service: vk
       id: 3402
       published: 2026-06-26-18-22-25
-      updated: 2026-06-27-20-48-19
+      updated: 2026-06-27-21-52-46
       followers: 1431
-      likes: 31
-      views: 308
+      likes: 32
+      views: 310
       reposts: 1
       comments: !c |-
         GysBICwOzHO6zrBQ1B1NLim8URS3CF+TQDMq86ZEmgiTPXh/baF1YxJLcRwcPv/YbtplxPkGTCjt
@@ -4220,15 +4220,20 @@
     - service: tg
       id: 1248
       published: 2026-06-26-18-22-33
-      updated: 2026-06-27-20-48-11
+      updated: 2026-06-27-21-52-39
       followers: 919
       likes: 46
-      views: 155
+      views: 158
       comments: !c iw6AkZPLQnnwV0m+AACoaXZhbm92aWOpQmVhdXRpZnVsAw==
     - service: mx
       id: '1782498159013'
       published: 2026-06-26-18-22-39
       followers: 22
+    - service: ig
+      id: DaGuiTmE6mB
+      mediaId: '18598872010046467'
+      published: 2026-06-27-21-53-10
+      followers: 1800
 2017-03-23-malacaths-shrine:
   title: Malacath's Shrine
   titleRu: Святилище Малаката

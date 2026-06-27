@@ -2863,18 +2863,18 @@
     - service: vk
       id: 3405
       published: 2026-06-27-19-03-01
-      updated: 2026-06-27-20-48-11
+      updated: 2026-06-27-21-52-38
       followers: 1430
-      likes: 15
-      views: 133
+      likes: 16
+      views: 160
       reposts: 2
     - service: tg
       id: 1249
       published: 2026-06-27-19-03-08
-      updated: 2026-06-27-20-48-10
+      updated: 2026-06-27-21-52-38
       followers: 919
-      likes: 25
-      views: 77
+      likes: 29
+      views: 85
     - service: mx
       id: '1782586993287'
       published: 2026-06-27-19-03-13
@@ -10884,9 +10884,9 @@
       id: DaGbCxOoPog
       mediaId: '18107191817088983'
       published: 2026-06-27-19-02-49
-      updated: 2026-06-27-20-48-17
+      updated: 2026-06-27-21-52-43
       followers: 1800
-      likes: 28
+      likes: 31
 2018-07-29-stone-guards:
   title: Stone Guards
   titleRu: Каменные стражи
