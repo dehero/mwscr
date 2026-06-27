@@ -4207,10 +4207,10 @@
     - service: vk
       id: 3402
       published: 2026-06-26-18-22-25
-      updated: 2026-06-27-11-19-18
+      updated: 2026-06-27-13-05-49
       followers: 1431
       likes: 25
-      views: 260
+      views: 268
       reposts: 1
       comments: !c |-
         GysBICwOzHO6zrBQ1B1NLim8URS3CF+TQDMq86ZEmgiTPXh/baF1YxJLcRwcPv/YbtplxPkGTCjt
@@ -4220,10 +4220,10 @@
     - service: tg
       id: 1248
       published: 2026-06-26-18-22-33
-      updated: 2026-06-27-11-19-10
+      updated: 2026-06-27-13-05-41
       followers: 919
-      likes: 38
-      views: 116
+      likes: 39
+      views: 122
       comments: !c iw6AkZPLQnnwV0m+AACoaXZhbm92aWOpQmVhdXRpZnVsAw==
     - service: mx
       id: '1782498159013'
