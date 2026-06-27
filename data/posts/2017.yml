@@ -4207,22 +4207,23 @@
     - service: vk
       id: 3402
       published: 2026-06-26-18-22-25
-      updated: 2026-06-27-02-03-01
+      updated: 2026-06-27-06-20-29
       followers: 1431
-      likes: 13
-      views: 159
+      likes: 17
+      views: 192
       reposts: 1
       comments: !c |-
-        G/EA+J0JdizEZBhqMESPevob6QP6oJll3iQUcbKnzimcH5Ni3JiHQ3mePqnZTVSzktQFVdC07Z1b
-        gOWqOqUombecZKMgUwlF2Jn3vH+oP/rF7rsT5cWm+869ADQcqxnhTI+BxLcA/rUCTqtQS1HNYNLm
-        xjlnLiDIFmQmBgqYqoQgmxHd9MIkjLE+lYTmNUfjYzrBSDATC0GKHgA=
+        GysBICwOzHO6zrBQ1B1NLim8URS3CF+TQDMq86ZEmgiTPXh/baF1YxJLcRwcPv/YbtplxPkGTCjt
+        9+K59BVfu082hLwMY4SHHJ0GHCBO84TOJd3jgw7khs9pLR8kwfX84mVXC97TVklacPT/vdMkZxix
+        x1Hp4REy6h+xo6seN3ZoaAH1o65bOja8jQdt9ZiOU0sGZ4tdJ0B01p0+Gq23Lk2bv2MfN6PuHrYz
+        MGSoPqgFFtG6c06ayLJ8h8hXyC9VYWnotUieAlqjrLVIVSs=
     - service: tg
       id: 1248
       published: 2026-06-26-18-22-33
-      updated: 2026-06-27-02-02-54
+      updated: 2026-06-27-06-20-20
       followers: 919
-      likes: 28
-      views: 94
+      likes: 34
+      views: 105
       comments: !c iw6AkZPLQnnwV0m+AACoaXZhbm92aWOpQmVhdXRpZnVsAw==
     - service: mx
       id: '1782498159013'
