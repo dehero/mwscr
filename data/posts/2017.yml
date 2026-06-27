@@ -1542,9 +1542,9 @@
       id: DZ0GibPlvvh
       mediaId: '18086152811635673'
       published: 2026-06-20-16-17-17
-      updated: 2026-06-26-16-15-34
+      updated: 2026-06-27-16-55-10
       followers: 1766
-      likes: 125
+      likes: 126
       comments: !c |-
         G80AoByJcUzJonysEUzkEuAS+j547oRR4Kdq0EU9m+3gB3qrEJe708mBhoHxa2trniWStBWIh0Hu
         6PWIyshR62yf91yjxFa88/XCR//zdO3UtpHjTm7Ly+FX4qPpmXx2uFQyret0qQGB+7INLyY5dplN
@@ -4207,10 +4207,10 @@
     - service: vk
       id: 3402
       published: 2026-06-26-18-22-25
-      updated: 2026-06-27-15-07-49
+      updated: 2026-06-27-16-55-09
       followers: 1431
-      likes: 25
-      views: 272
+      likes: 30
+      views: 285
       reposts: 1
       comments: !c |-
         GysBICwOzHO6zrBQ1B1NLim8URS3CF+TQDMq86ZEmgiTPXh/baF1YxJLcRwcPv/YbtplxPkGTCjt
@@ -4220,10 +4220,10 @@
     - service: tg
       id: 1248
       published: 2026-06-26-18-22-33
-      updated: 2026-06-27-15-07-40
+      updated: 2026-06-27-16-55-02
       followers: 919
       likes: 39
-      views: 123
+      views: 128
       comments: !c iw6AkZPLQnnwV0m+AACoaXZhbm92aWOpQmVhdXRpZnVsAw==
     - service: mx
       id: '1782498159013'
