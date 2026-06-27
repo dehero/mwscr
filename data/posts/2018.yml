@@ -2860,6 +2860,18 @@
       followers: 134
       likes: 24
       views: 227
+    - service: vk
+      id: 3405
+      published: 2026-06-27-19-03-01
+      followers: 1430
+    - service: tg
+      id: 1249
+      published: 2026-06-27-19-03-08
+      followers: 919
+    - service: mx
+      id: '1782586993287'
+      published: 2026-06-27-19-03-13
+      followers: 22
 2018-02-25-la-va-land:
   title: La-Va Land
   titleRu: Ла-Ва Ленд
@@ -10861,6 +10873,11 @@
       id: '1782414103365'
       published: 2026-06-25-19-01-43
       followers: 22
+    - service: ig
+      id: DaGbCxOoPog
+      mediaId: '18107191817088983'
+      published: 2026-06-27-19-02-49
+      followers: 1800
 2018-07-29-stone-guards:
   title: Stone Guards
   titleRu: Каменные стражи
