@@ -4207,27 +4207,27 @@
     - service: vk
       id: 3402
       published: 2026-06-26-18-22-25
-      updated: 2026-06-28-13-11-50
+      updated: 2026-06-28-15-10-44
       followers: 1431
       likes: 38
-      views: 351
+      views: 356
       reposts: 1
       comments: !c |-
-        G9MCACwO7OYdD6I45RijYntGSDLL/9MftOUVerO2M+0HDSzwoEAiq5nAK8LkXLU2tGiLxjiMQkgk
-        N2OW69Z91n7yUzefsAsk8ITGEot/Dg0szEtkLZ1bskUKseFkjsl0OxaShlLJMEb46W++huFY4FGk
-        Ge7BY1L6LprAmeVjYfft4U/CUHRuRosV/DhTAYIQn9//aZ5t5wc/7yr7gF39y3tZMhyO5Cymgh6B
-        Yv8au5J1K68sEEmg2htDecqcc+ali6PwG88KggpjQoYkZLzNzhowDpfxtbO/8jyPxsA71vCgUAEE
-        4hBqKUDd+jIapiu5XP7e3E3IQjAq1gugXwHF+dYcRBLu2HG0/PcVCY3Lrmq1xKQRGer6A0wZ/nAY
-        GBozqVvsh43RT/nwfDlkyRgeZPyOXk4/FFOTOnENQ+lkLBHtzdPALfLuHIVyTSRMlUeLZ9evzJlM
-        L5Jf5SOEPgQaztwkEAtSFJyyOy1xsFsIczCzO2/C/V1JbVz/ERgZAfndzGBanFB4O1f3IjwwzmKR
-        XJSISdvHbiY3YRaRqQY=
+        G/4CIJwFdsN14XA+NzcHyyYflsQ/39+zjxM68+zN1AUNLPCgQCIrCLg+4Ze11ZrMTtvpGTejZvAv
+        OYwhVygf2iU//zeL8L9AAk9obJH0z6WBhXlC626DHZ3OLdkihdhwMsdkuh0LzZpMnaGbaRiOBR5F
+        muEePCalbQo4izBfP/Dv7VTnOAghPJzOZkW1DQcQr89/nv9iO1/yfajsA/axvvt7THKEuh7QYirq
+        IVDsPx5bMd3KT7YTTWLUN4YLlF1rjVcojiIYjxUCFcGkDF+gwJ13zoThyNh47dU/uIynRt0da/Su
+        UAEC4hBaSwHR1jtnmMllh8Pf3d2ELASjUrMAOhRQHHxrDiEJO3Y7Wv67ISsal13Va76kEVnmrMlR
+        LSPnDXcGzcloWOyH+6I/FSLjy2FLxnEB409wfXwqpiZ14lqKspGxRaw3JwCrIt+co1FOE40w5THh
+        1ddXpkxmF0k4eQ6jD4GGNQZFJAFFoQ4YAgrrYoRD2dlp2/38eML+/PsI5YonEOEk8c6wcIdX0u4r
+        X0uBmRUJRbNNALfFSYXbOu5jtGA3wWI0X5RUr+15NtuCYhaROwo=
     - service: tg
       id: 1248
       published: 2026-06-26-18-22-33
-      updated: 2026-06-28-13-11-41
+      updated: 2026-06-28-15-10-37
       followers: 919
-      likes: 48
-      views: 176
+      likes: 49
+      views: 179
       comments: !c iw6AkZPLQnnwV0m+AACoaXZhbm92aWOpQmVhdXRpZnVsAw==
     - service: mx
       id: '1782498159013'
@@ -4237,9 +4237,9 @@
       id: DaGuiTmE6mB
       mediaId: '18598872010046467'
       published: 2026-06-27-21-53-10
-      updated: 2026-06-28-13-11-45
+      updated: 2026-06-28-15-10-42
       followers: 1800
-      likes: 60
+      likes: 63
 2017-03-23-malacaths-shrine:
   title: Malacath's Shrine
   titleRu: Святилище Малаката
