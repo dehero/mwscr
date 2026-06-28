@@ -2863,10 +2863,10 @@
     - service: vk
       id: 3405
       published: 2026-06-27-19-03-01
-      updated: 2026-06-28-19-23-56
+      updated: 2026-06-28-20-51-18
       followers: 1430
-      likes: 52
-      views: 467
+      likes: 53
+      views: 482
       reposts: 6
       comments: !c |-
         G2EA4B2pjX5sXwade8IHeZEYQURiAG0kFWKnE15H2y1PLld42IADlzAAC23gWzaz5bzjztu/hpC5
@@ -2874,10 +2874,10 @@
     - service: tg
       id: 1249
       published: 2026-06-27-19-03-08
-      updated: 2026-06-28-19-23-48
+      updated: 2026-06-28-20-51-11
       followers: 919
-      likes: 47
-      views: 174
+      likes: 49
+      views: 183
     - service: mx
       id: '1782586993287'
       published: 2026-06-27-19-03-13
@@ -2886,9 +2886,9 @@
       id: DaHsb1ZDdT_
       mediaId: '18096761369217021'
       published: 2026-06-28-06-54-04
-      updated: 2026-06-28-19-23-52
+      updated: 2026-06-28-20-51-19
       followers: 1804
-      likes: 59
+      likes: 61
 2018-02-25-la-va-land:
   title: La-Va Land
   titleRu: Ла-Ва Ленд
@@ -9095,18 +9095,18 @@
     - service: vk
       id: 3411
       published: 2026-06-28-18-01-38
-      updated: 2026-06-28-19-23-47
+      updated: 2026-06-28-20-51-10
       followers: 1431
-      likes: 14
-      views: 82
-      reposts: 1
+      likes: 22
+      views: 159
+      reposts: 3
     - service: tg
       id: 1250
       published: 2026-06-28-18-01-48
-      updated: 2026-06-28-19-23-47
+      updated: 2026-06-28-20-51-10
       followers: 918
-      likes: 23
-      views: 93
+      likes: 28
+      views: 124
     - service: mx
       id: '1782669715733'
       published: 2026-06-28-18-01-55
@@ -9115,7 +9115,9 @@
       id: DaJCTMroMNf
       mediaId: '18081524054234776'
       published: 2026-06-28-19-24-21
+      updated: 2026-06-28-20-51-17
       followers: 1813
+      likes: 30
 2018-06-24-night-encounters:
   title: Night Encounters
   titleRu: Ночные встречи
@@ -10918,7 +10920,7 @@
       id: DaGbCxOoPog
       mediaId: '18107191817088983'
       published: 2026-06-27-19-02-49
-      updated: 2026-06-28-19-23-55
+      updated: 2026-06-28-20-51-22
       followers: 1800
       likes: 48
 2018-07-29-stone-guards:
