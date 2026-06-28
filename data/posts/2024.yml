@@ -1037,21 +1037,21 @@
     - service: vk
       id: 3395
       published: 2026-06-23-03-30-42
-      updated: 2026-06-27-06-20-32
+      updated: 2026-06-28-06-53-37
       followers: 1433
-      likes: 28
-      views: 482
-      reposts: 2
+      likes: 30
+      views: 513
+      reposts: 3
       comments: !c |-
         ix+AkZPLQnnvLHSFgACtZXZnZW5peS1idXJpedkl0JfQsNGC0LDQuNCy0YjQuNC50YHRjyDQtNCw
         0Y3QtNGA0L7RggM=
     - service: tg
       id: 1245
       published: 2026-06-23-03-30-51
-      updated: 2026-06-27-06-20-22
+      updated: 2026-06-28-06-53-29
       followers: 918
       likes: 46
-      views: 264
+      views: 283
     - service: mx
       id: '1782185458988'
       published: 2026-06-23-03-30-59
@@ -3516,9 +3516,9 @@
       id: DZ4Lyz4ktRY
       mediaId: '18135785323575710'
       published: 2026-06-22-06-20-14
-      updated: 2026-06-27-06-20-25
+      updated: 2026-06-28-06-53-35
       followers: 1779
-      likes: 98
+      likes: 102
 2024-09-26-bread-and-wine: 2018-10-29-bread-and-wine
 2024-09-27-the-two-towers: 2017-03-25-the-two-towers
 2024-09-28-cozy-workplace-in-the-basement: 2017-11-16-cozy-workplace-in-the-basement
@@ -4131,9 +4131,9 @@
       id: DaGANOJFooa
       mediaId: '18057426896757062'
       published: 2026-06-27-15-08-21
-      updated: 2026-06-28-02-13-39
+      updated: 2026-06-28-06-53-34
       followers: 1799
-      likes: 66
+      likes: 74
 2024-12-10-sunrise-over-the-ash-forest: 2017-02-16-sunrise-over-the-ash-forest
 2024-12-11-night-calmness:
   title: Night Calmness

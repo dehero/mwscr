@@ -1873,7 +1873,7 @@ ellia-isard:
   profiles:
     - service: vk
       id: '215194827'
-      updated: 2026-06-28-02-13-43
+      updated: 2026-06-28-06-53-35
       username: ellia_isard
       name: Эллия Айсард
       avatar: store:/avatars/vk-1887c541.jpg
@@ -1973,7 +1973,7 @@ evgeniy-buriy:
   profiles:
     - service: vk
       id: '163173804'
-      updated: 2026-06-27-06-20-32
+      updated: 2026-06-28-06-53-37
       username: id163173804
       name: Евгений Бурый
       avatar: store:/avatars/vk-3bbccca0.jpg
@@ -2021,7 +2021,7 @@ feanor2la:
   profiles:
     - service: vk
       id: '16294877'
-      updated: 2026-06-28-02-13-42
+      updated: 2026-06-28-06-53-35
       username: feanor2la
       name: Иван Урлапов
       avatar: store:/avatars/vk-14fd45f0.jpg
@@ -2757,7 +2757,7 @@ ivanovic:
   profiles:
     - service: tg
       id: '5205246036'
-      updated: 2026-06-28-02-13-34
+      updated: 2026-06-28-06-53-27
       accessHash: '-4096599997074721381'
       name: Ivanovic
 izipvnk:
