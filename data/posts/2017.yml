@@ -4207,23 +4207,27 @@
     - service: vk
       id: 3402
       published: 2026-06-26-18-22-25
-      updated: 2026-06-28-06-53-36
+      updated: 2026-06-28-09-52-11
       followers: 1431
-      likes: 36
-      views: 331
+      likes: 37
+      views: 343
       reposts: 1
       comments: !c |-
-        GysBICwOzHO6zrBQ1B1NLim8URS3CF+TQDMq86ZEmgiTPXh/baF1YxJLcRwcPv/YbtplxPkGTCjt
-        9+K59BVfu082hLwMY4SHHJ0GHCBO84TOJd3jgw7khs9pLR8kwfX84mVXC97TVklacPT/vdMkZxix
-        x1Hp4REy6h+xo6seN3ZoaAH1o65bOja8jQdt9ZiOU0sGZ4tdJ0B01p0+Gq23Lk2bv2MfN6PuHrYz
-        MGSoPqgFFtG6c06ayLJ8h8hXyC9VYWnotUieAlqjrLVIVSs=
+        G9MCACwO7OYdD6I45RijYntGSDLL/9MftOUVerO2M+0HDSzwoEAiq5nAK8LkXLU2tGiLxjiMQkgk
+        N2OW69Z91n7yUzefsAsk8ITGEot/Dg0szEtkLZ1bskUKseFkjsl0OxaShlLJMEb46W++huFY4FGk
+        Ge7BY1L6LprAmeVjYfft4U/CUHRuRosV/DhTAYIQn9//aZ5t5wc/7yr7gF39y3tZMhyO5Cymgh6B
+        Yv8au5J1K68sEEmg2htDecqcc+ali6PwG88KggpjQoYkZLzNzhowDpfxtbO/8jyPxsA71vCgUAEE
+        4hBqKUDd+jIapiu5XP7e3E3IQjAq1gugXwHF+dYcRBLu2HG0/PcVCY3Lrmq1xKQRGer6A0wZ/nAY
+        GBozqVvsh43RT/nwfDlkyRgeZPyOXk4/FFOTOnENQ+lkLBHtzdPALfLuHIVyTSRMlUeLZ9evzJlM
+        L5Jf5SOEPgQaztwkEAtSFJyyOy1xsFsIczCzO2/C/V1JbVz/ERgZAfndzGBanFB4O1f3IjwwzmKR
+        XJSISdvHbiY3YRaRqQY=
     - service: tg
       id: 1248
       published: 2026-06-26-18-22-33
-      updated: 2026-06-28-06-53-28
+      updated: 2026-06-28-09-52-02
       followers: 919
       likes: 48
-      views: 166
+      views: 172
       comments: !c iw6AkZPLQnnwV0m+AACoaXZhbm92aWOpQmVhdXRpZnVsAw==
     - service: mx
       id: '1782498159013'
@@ -4233,9 +4237,9 @@
       id: DaGuiTmE6mB
       mediaId: '18598872010046467'
       published: 2026-06-27-21-53-10
-      updated: 2026-06-28-06-53-32
+      updated: 2026-06-28-09-52-07
       followers: 1800
-      likes: 48
+      likes: 56
 2017-03-23-malacaths-shrine:
   title: Malacath's Shrine
   titleRu: Святилище Малаката
