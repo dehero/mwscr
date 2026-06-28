@@ -2863,21 +2863,21 @@
     - service: vk
       id: 3405
       published: 2026-06-27-19-03-01
-      updated: 2026-06-28-18-01-08
+      updated: 2026-06-28-19-23-56
       followers: 1430
-      likes: 51
-      views: 459
-      reposts: 5
+      likes: 52
+      views: 467
+      reposts: 6
       comments: !c |-
         G2EA4B2pjX5sXwade8IHeZEYQURiAG0kFWKnE15H2y1PLld42IADlzAAC23gWzaz5bzjztu/hpC5
         QDXcPFArFsShG30KZkHOPffGRLFgw27Q6XFOdQQ2ijm+lR0=
     - service: tg
       id: 1249
       published: 2026-06-27-19-03-08
-      updated: 2026-06-28-18-01-00
+      updated: 2026-06-28-19-23-48
       followers: 919
-      likes: 46
-      views: 160
+      likes: 47
+      views: 174
     - service: mx
       id: '1782586993287'
       published: 2026-06-27-19-03-13
@@ -2886,9 +2886,9 @@
       id: DaHsb1ZDdT_
       mediaId: '18096761369217021'
       published: 2026-06-28-06-54-04
-      updated: 2026-06-28-18-01-05
+      updated: 2026-06-28-19-23-52
       followers: 1804
-      likes: 53
+      likes: 59
 2018-02-25-la-va-land:
   title: La-Va Land
   titleRu: Ла-Ва Ленд
@@ -9095,15 +9095,27 @@
     - service: vk
       id: 3411
       published: 2026-06-28-18-01-38
+      updated: 2026-06-28-19-23-47
       followers: 1431
+      likes: 14
+      views: 82
+      reposts: 1
     - service: tg
       id: 1250
       published: 2026-06-28-18-01-48
+      updated: 2026-06-28-19-23-47
       followers: 918
+      likes: 23
+      views: 93
     - service: mx
       id: '1782669715733'
       published: 2026-06-28-18-01-55
       followers: 22
+    - service: ig
+      id: DaJCTMroMNf
+      mediaId: '18081524054234776'
+      published: 2026-06-28-19-24-21
+      followers: 1813
 2018-06-24-night-encounters:
   title: Night Encounters
   titleRu: Ночные встречи
@@ -10906,9 +10918,9 @@
       id: DaGbCxOoPog
       mediaId: '18107191817088983'
       published: 2026-06-27-19-02-49
-      updated: 2026-06-28-18-01-08
+      updated: 2026-06-28-19-23-55
       followers: 1800
-      likes: 46
+      likes: 48
 2018-07-29-stone-guards:
   title: Stone Guards
   titleRu: Каменные стражи
