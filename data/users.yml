@@ -601,7 +601,7 @@ arya-stark:
   profiles:
     - service: vk
       id: '820702664'
-      updated: 2026-06-29-13-00-22
+      updated: 2026-06-29-16-34-11
       username: id820702664
       name: Арья Старк
       avatar: store:/avatars/vk-689aa89d.jpg
@@ -2217,10 +2217,10 @@ ghost63rus:
   profiles:
     - service: vk
       id: '841031998'
-      updated: 2026-06-22-22-31-22
+      updated: 2026-06-29-16-34-10
       username: ghost63rus
       name: Дмитрий Кузнецов
-      avatar: store:/avatars/vk-99bbff8a.jpg
+      avatar: store:/avatars/vk-2b106d3d.jpg
 giantduckface:
   profiles:
     - service: ig
@@ -4338,7 +4338,7 @@ p40jla:
   profiles:
     - service: vk
       id: '365527711'
-      updated: 2026-06-24-16-08-59
+      updated: 2026-06-29-16-34-11
       username: p40jla
       name: Николай Хорошун
       avatar: store:/avatars/vk-c9387c2d.jpg
@@ -6412,7 +6412,7 @@ vladislav-lomin:
   profiles:
     - service: vk
       id: '504964620'
-      updated: 2026-06-29-12-58-38
+      updated: 2026-06-29-16-34-08
       username: id504964620
       name: Владислав Ломин
       avatar: store:/avatars/vk-39034114.jpg
