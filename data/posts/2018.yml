@@ -2863,10 +2863,10 @@
     - service: vk
       id: 3405
       published: 2026-06-27-19-03-01
-      updated: 2026-06-29-03-39-17
+      updated: 2026-06-29-08-49-13
       followers: 1430
-      likes: 55
-      views: 499
+      likes: 57
+      views: 535
       reposts: 6
       comments: !c |-
         G2EA4B2pjX5sXwade8IHeZEYQURiAG0kFWKnE15H2y1PLld42IADlzAAC23gWzaz5bzjztu/hpC5
@@ -2874,10 +2874,10 @@
     - service: tg
       id: 1249
       published: 2026-06-27-19-03-08
-      updated: 2026-06-29-03-39-08
+      updated: 2026-06-29-08-49-04
       followers: 919
       likes: 49
-      views: 192
+      views: 201
     - service: mx
       id: '1782586993287'
       published: 2026-06-27-19-03-13
@@ -2886,9 +2886,9 @@
       id: DaHsb1ZDdT_
       mediaId: '18096761369217021'
       published: 2026-06-28-06-54-04
-      updated: 2026-06-29-03-39-14
+      updated: 2026-06-29-08-49-08
       followers: 1804
-      likes: 67
+      likes: 70
 2018-02-25-la-va-land:
   title: La-Va Land
   titleRu: Ла-Ва Ленд
@@ -9095,18 +9095,18 @@
     - service: vk
       id: 3411
       published: 2026-06-28-18-01-38
-      updated: 2026-06-29-03-39-07
+      updated: 2026-06-29-08-49-03
       followers: 1431
-      likes: 26
-      views: 225
-      reposts: 3
+      likes: 36
+      views: 290
+      reposts: 4
     - service: tg
       id: 1250
       published: 2026-06-28-18-01-48
-      updated: 2026-06-29-03-39-07
+      updated: 2026-06-29-08-49-03
       followers: 918
-      likes: 34
-      views: 148
+      likes: 38
+      views: 178
     - service: mx
       id: '1782669715733'
       published: 2026-06-28-18-01-55
@@ -9115,9 +9115,9 @@
       id: DaJCTMroMNf
       mediaId: '18081524054234776'
       published: 2026-06-28-19-24-21
-      updated: 2026-06-29-03-39-13
+      updated: 2026-06-29-08-49-07
       followers: 1813
-      likes: 63
+      likes: 77
 2018-06-24-night-encounters:
   title: Night Encounters
   titleRu: Ночные встречи
@@ -10920,9 +10920,9 @@
       id: DaGbCxOoPog
       mediaId: '18107191817088983'
       published: 2026-06-27-19-02-49
-      updated: 2026-06-29-03-39-17
+      updated: 2026-06-29-08-49-10
       followers: 1800
-      likes: 53
+      likes: 56
 2018-07-29-stone-guards:
   title: Stone Guards
   titleRu: Каменные стражи
