@@ -2886,7 +2886,7 @@
       id: DaHsb1ZDdT_
       mediaId: '18096761369217021'
       published: 2026-06-28-06-54-04
-      updated: 2026-06-29-18-58-01
+      updated: 2026-06-29-20-51-33
       followers: 1804
       likes: 71
 2018-02-25-la-va-land:
@@ -8822,7 +8822,7 @@
       id: DPRtOnXCY1D
       mediaId: '17930106606102010'
       published: 2025-10-01-18-28-01
-      updated: 2026-06-22-17-27-48
+      updated: 2026-06-29-20-51-36
       followers: 1583
       likes: 93
     - service: vk
@@ -9095,18 +9095,18 @@
     - service: vk
       id: 3411
       published: 2026-06-28-18-01-38
-      updated: 2026-06-29-18-57-55
+      updated: 2026-06-29-20-51-27
       followers: 1431
       likes: 40
-      views: 381
+      views: 394
       reposts: 4
     - service: tg
       id: 1250
       published: 2026-06-28-18-01-48
-      updated: 2026-06-29-18-57-55
+      updated: 2026-06-29-20-51-28
       followers: 918
-      likes: 42
-      views: 208
+      likes: 45
+      views: 228
     - service: mx
       id: '1782669715733'
       published: 2026-06-28-18-01-55
@@ -9115,7 +9115,7 @@
       id: DaJCTMroMNf
       mediaId: '18081524054234776'
       published: 2026-06-28-19-24-21
-      updated: 2026-06-29-18-58-00
+      updated: 2026-06-29-20-51-32
       followers: 1813
       likes: 88
 2018-06-24-night-encounters:
@@ -15412,11 +15412,18 @@
     - service: tg
       id: 1251
       published: 2026-06-29-19-01-39
+      updated: 2026-06-29-20-51-27
       followers: 917
+      likes: 25
+      views: 82
     - service: mx
       id: '1782759705827'
       published: 2026-06-29-19-01-45
       followers: 22
+    - service: vk
+      id: 3412
+      published: 2026-06-29-20-51-56
+      followers: 1431
 2018-10-21-trees-and-skies:
   title: Trees and Skies
   titleRu: Деревья и небеса
@@ -16519,10 +16526,10 @@
     - service: tg
       id: 1036
       published: 2025-10-31-18-35-21
-      updated: 2026-06-22-17-26-33
+      updated: 2026-06-29-20-51-37
       followers: 850
       likes: 74
-      views: 606
+      views: 608
       comments: !c |-
         G9MAwIyU7gaqTv9zzdvA5vk8CuyAB3K9bIp63tZlFZj/cIFrOlpBjbrBcRYO6ItNy/iy24sNuqcs
         BRSC2fePdGqPBv7SghBSN1HegJyocoV6KL1HA5+7B4J0TJgPC2KmgEajrXKFfCEF8N/tNczqMrgu
