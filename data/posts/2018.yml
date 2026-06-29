@@ -2886,7 +2886,7 @@
       id: DaHsb1ZDdT_
       mediaId: '18096761369217021'
       published: 2026-06-28-06-54-04
-      updated: 2026-06-29-20-51-33
+      updated: 2026-06-29-22-03-38
       followers: 1804
       likes: 71
 2018-02-25-la-va-land:
@@ -9095,18 +9095,18 @@
     - service: vk
       id: 3411
       published: 2026-06-28-18-01-38
-      updated: 2026-06-29-20-51-27
+      updated: 2026-06-29-22-03-34
       followers: 1431
       likes: 40
-      views: 394
+      views: 398
       reposts: 4
     - service: tg
       id: 1250
       published: 2026-06-28-18-01-48
-      updated: 2026-06-29-20-51-28
+      updated: 2026-06-29-22-03-32
       followers: 918
-      likes: 45
-      views: 228
+      likes: 46
+      views: 232
     - service: mx
       id: '1782669715733'
       published: 2026-06-28-18-01-55
@@ -9115,9 +9115,9 @@
       id: DaJCTMroMNf
       mediaId: '18081524054234776'
       published: 2026-06-28-19-24-21
-      updated: 2026-06-29-20-51-32
+      updated: 2026-06-29-22-03-37
       followers: 1813
-      likes: 88
+      likes: 90
 2018-06-24-night-encounters:
   title: Night Encounters
   titleRu: Ночные встречи
@@ -15412,10 +15412,10 @@
     - service: tg
       id: 1251
       published: 2026-06-29-19-01-39
-      updated: 2026-06-29-20-51-27
+      updated: 2026-06-29-22-03-31
       followers: 917
-      likes: 25
-      views: 82
+      likes: 29
+      views: 95
     - service: mx
       id: '1782759705827'
       published: 2026-06-29-19-01-45
@@ -15423,7 +15423,10 @@
     - service: vk
       id: 3412
       published: 2026-06-29-20-51-56
+      updated: 2026-06-29-22-03-32
       followers: 1431
+      likes: 1
+      views: 50
 2018-10-21-trees-and-skies:
   title: Trees and Skies
   titleRu: Деревья и небеса
