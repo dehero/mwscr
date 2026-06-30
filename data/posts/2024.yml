@@ -2627,6 +2627,23 @@
       likes: 61
       views: 555
       comments: !c CxiAkZPLQnj5MWNCgACrYm9icm92bmlrb3a5SSB3YW50IHRvIGhpYmVybmF0ZSB0aGVyZQM=
+    - service: ig
+      id: DaOFflLiYvJ
+      mediaId: '18211536229339881'
+      published: 2026-06-30-18-28-28
+      followers: 1829
+    - service: vk
+      id: 3413
+      published: 2026-06-30-18-28-52
+      followers: 1431
+    - service: tg
+      id: 1252
+      published: 2026-06-30-18-28-59
+      followers: 916
+    - service: mx
+      id: '1782844144014'
+      published: 2026-06-30-18-29-04
+      followers: 22
 2024-05-20-place-to-sleep:
   title: Place to Sleep
   titleRu: Место для сна
