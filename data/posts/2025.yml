@@ -437,7 +437,7 @@
     - service: vk
       id: 2190
       published: 2025-03-13-18-12-13
-      updated: 2026-06-23-03-30-05
+      updated: 2026-06-30-06-45-15
       followers: 1182
       likes: 64
       views: 506
@@ -445,7 +445,7 @@
     - service: tg
       id: 746
       published: 2025-03-13-18-12-20
-      updated: 2026-06-23-03-30-02
+      updated: 2026-06-30-06-45-34
       followers: 696
       likes: 65
       views: 564
@@ -481,7 +481,7 @@
     - service: vk
       id: 2191
       published: 2025-03-14-18-11-24
-      updated: 2026-06-23-03-30-04
+      updated: 2026-06-30-06-45-13
       followers: 1182
       likes: 53
       views: 574
@@ -495,7 +495,7 @@
     - service: tg
       id: 747
       published: 2025-03-14-18-45-12
-      updated: 2026-06-23-03-30-02
+      updated: 2026-06-30-06-45-33
       followers: 700
       likes: 73
       views: 718
@@ -524,14 +524,14 @@
     - service: vk
       id: 2195
       published: 2025-03-15-18-10-23
-      updated: 2026-06-23-00-02-15
+      updated: 2026-06-30-06-45-04
       followers: 1187
       likes: 60
       views: 518
     - service: tg
       id: 748
       published: 2025-03-15-18-10-30
-      updated: 2026-06-23-03-30-01
+      updated: 2026-06-30-06-45-32
       followers: 705
       likes: 61
       views: 576
@@ -575,7 +575,7 @@
     - service: tg
       id: 749
       published: 2025-03-16-18-10-24
-      updated: 2026-06-23-03-30-00
+      updated: 2026-06-30-06-45-31
       followers: 705
       likes: 80
       views: 845
@@ -615,7 +615,7 @@
     - service: tg
       id: 750
       published: 2025-03-17-18-12-06
-      updated: 2026-06-23-03-29-53
+      updated: 2026-06-30-06-45-30
       followers: 702
       likes: 61
       views: 778
@@ -663,7 +663,7 @@
     - service: tg
       id: 755
       published: 2025-03-19-19-01-59
-      updated: 2026-06-23-03-29-51
+      updated: 2026-06-30-06-45-28
       followers: 705
       likes: 59
       views: 600
@@ -708,7 +708,7 @@
     - service: tg
       id: 756
       published: 2025-03-20-18-12-38
-      updated: 2026-06-23-00-01-31
+      updated: 2026-06-30-06-45-27
       followers: 705
       likes: 65
       views: 586
@@ -754,7 +754,7 @@
     - service: tg
       id: 757
       published: 2025-03-21-18-11-44
-      updated: 2026-06-23-00-01-31
+      updated: 2026-06-30-06-45-10
       followers: 706
       likes: 67
       views: 737
@@ -2455,7 +2455,7 @@
     - service: tg
       id: 968
       published: 2025-08-31-18-22-49
-      updated: 2026-06-22-22-31-47
+      updated: 2026-06-30-06-45-09
       followers: 786
       likes: 70
       views: 624
