@@ -858,11 +858,18 @@
     - service: tg
       id: 1253
       published: 2026-07-01-00-01-38
+      updated: 2026-07-01-02-51-27
       followers: 916
+      likes: 7
+      views: 34
     - service: mx
       id: '1782864104534'
       published: 2026-07-01-00-01-44
       followers: 22
+    - service: vk
+      id: 3414
+      published: 2026-07-01-02-54-02
+      followers: 1431
 2020-10-10-assurnabitashpi:
   title: Assurnabitashpi
   titleRu: Ассурнабиташпи
