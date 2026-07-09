@@ -7,6 +7,7 @@ import { checkSchema } from '../entities/schema.js';
 import type { PostingService } from '../entities/service.js';
 
 export const MAX_CHAT_ID = -70980943197599;
+export const MAX_CHANNEL_NAME = 'mwscr';
 
 export const MAXPost = intersect([
   object({ ...Post.entries, titleRu: PostTitleRu }),
@@ -44,7 +45,7 @@ export class MAX implements PostingService<MAXPublication> {
   }
 
   getSubscriptionUrl(): string {
-    return `${this.origin}/join/-R4KQ7nJ2kzftusRbm5LAMU0tBAS-8w_mCg2NpxiDQc`;
+    return `${this.origin}/channel_${MAX_CHANNEL_NAME}`;
   }
 
   getUserProfileUrl(profileId: string) {
