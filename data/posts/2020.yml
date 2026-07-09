@@ -207,16 +207,16 @@
       id: DRNSIXUjQSb
       mediaId: '18293771806260561'
       published: 2025-11-18-18-17-05
-      updated: 2026-06-29-18-59-17
+      updated: 2026-07-09-15-53-07
       followers: 1595
       likes: 43
     - service: vk
       id: 2863
       published: 2025-11-18-18-17-11
-      updated: 2026-06-29-18-59-33
+      updated: 2026-07-09-15-53-10
       followers: 1511
       likes: 59
-      views: 979
+      views: 983
       reposts: 1
       comments: !c |-
         GwIBoCwObFtC2zhjabXhKUajnv5G+kD66CE2iUWa7EHpJkbZTaijKaHjyw8yPdMXHtP3msGST8o6
@@ -225,7 +225,7 @@
     - service: tg
       id: 1059
       published: 2025-11-18-18-17-15
-      updated: 2026-06-29-18-58-45
+      updated: 2026-07-09-15-53-18
       followers: 860
       likes: 64
       views: 739
@@ -774,16 +774,16 @@
       id: DQPet9eDPF9
       mediaId: '18101307049679223'
       published: 2025-10-25-18-14-07
-      updated: 2026-06-29-19-00-00
+      updated: 2026-07-09-15-53-59
       followers: 1588
       likes: 48
     - service: vk
       id: 2774
       published: 2025-10-25-18-14-12
-      updated: 2026-06-29-19-00-25
+      updated: 2026-07-09-15-54-10
       followers: 1483
       likes: 75
-      views: 1599
+      views: 1601
       reposts: 3
       comments: !c |-
         G54GAJwHtg1lG20efsdpzOOff+59e/xFctPao3gEA9I5NJblYw2wFfG6zxRVjSWxDBNsJ8TC9r/5
@@ -874,6 +874,11 @@
       likes: 48
       views: 655
       reposts: 2
+    - service: ig
+      id: Dak_IDpkr7c
+      mediaId: '18016406789857395'
+      published: 2026-07-09-15-55-22
+      followers: 1849
 2020-10-10-assurnabitashpi:
   title: Assurnabitashpi
   titleRu: Ассурнабиташпи
@@ -1187,16 +1192,16 @@
       id: DQKVWHpkXEW
       mediaId: '18033399830720714'
       published: 2025-10-23-18-16-02
-      updated: 2026-06-29-19-00-03
+      updated: 2026-07-09-15-54-03
       followers: 1586
       likes: 54
     - service: vk
       id: 2763
       published: 2025-10-23-18-16-08
-      updated: 2026-06-29-19-00-28
+      updated: 2026-07-09-15-54-13
       followers: 1482
       likes: 60
-      views: 2138
+      views: 2140
       reposts: 1
       comments: !c |-
         G6UBACwKbBuVfmCx3sD+5ZJgUKP4/kTSh/kzSZQCVqtoCtpCp2SVPZVtlFANkdDm9To42/3/PzWE
@@ -1207,10 +1212,10 @@
     - service: tg
       id: 1025
       published: 2025-10-23-18-16-14
-      updated: 2026-06-29-18-59-50
+      updated: 2026-07-09-15-54-25
       followers: 841
       likes: 69
-      views: 1492
+      views: 1495
       comments: !c |-
         izKAkpPLQnmhq+ZkgACra2F3YXpha3kyMjOk8J+kqJTLQnmhNRH7gACqYTItZW5rZWxsab9hbm90
         aGVyIGRheSB3aXRob3V0IG11ZGNyYWJzICgok8tCeaFWsx0AAKVhbnNpc6Twn6aAAw==
