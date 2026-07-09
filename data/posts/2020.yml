@@ -632,17 +632,17 @@
       id: DWCX-kql8Lx
       mediaId: '18078509552575385'
       published: 2026-03-18-19-13-29
-      updated: 2026-06-29-12-58-31
+      updated: 2026-07-09-12-55-35
       followers: 1618
       likes: 99
     - service: vk
       id: 3189
       published: 2026-03-18-19-13-51
-      updated: 2026-06-29-12-58-41
+      updated: 2026-07-09-12-56-04
       followers: 1621
       likes: 98
-      views: 1092
-      reposts: 6
+      views: 1103
+      reposts: 5
       comments: !c |-
         G2YDgCwLeMMm9MMRYXHZHc1uqh4s/lzin5d7FuHbt7bfA8k0acskCDSJMDnXXA6XYS1IQWih0GE6
         Y6KX/Od+WDW8Ra66ltW7sxHgZl3ISv+UP0DcxubqDkcQEQlCjfWrYvKyqez7f2+9bFpUYIHw9qnz
@@ -655,10 +655,10 @@
     - service: tg
       id: 1186
       published: 2026-03-18-19-13-56
-      updated: 2026-06-29-12-57-52
+      updated: 2026-07-09-12-55-05
       followers: 894
       likes: 59
-      views: 612
+      views: 615
       comments: !c CwuAkZPLQnnQkPRWgACma2V2eS1jpPCfpoAD
     - service: mx
       id: '1773861261630'
@@ -869,7 +869,11 @@
     - service: vk
       id: 3414
       published: 2026-07-01-02-54-02
+      updated: 2026-07-09-12-53-29
       followers: 1431
+      likes: 48
+      views: 655
+      reposts: 2
 2020-10-10-assurnabitashpi:
   title: Assurnabitashpi
   titleRu: Ассурнабиташпи
@@ -1820,10 +1824,10 @@
     - service: vk
       id: 3258
       published: 2026-04-07-18-46-00
-      updated: 2026-06-29-12-58-00
+      updated: 2026-07-09-12-55-23
       followers: 1429
       likes: 52
-      views: 611
+      views: 620
       reposts: 3
       comments: !c |-
         G6oBCJ0Htq1ku1yG394ayQyE6J+4Z+8J3YmbNxNRkEDjCSclFkTyZQ/ZV9hal9uFkF896pCBD6ja
@@ -1834,10 +1838,10 @@
     - service: tg
       id: 1205
       published: 2026-04-07-18-46-10
-      updated: 2026-06-29-12-57-26
+      updated: 2026-07-09-12-54-39
       followers: 899
       likes: 56
-      views: 661
+      views: 664
     - service: mx
       id: '1775587579396'
       published: 2026-04-07-18-46-19
@@ -1846,7 +1850,7 @@
       id: DW9QGQsjm8C
       mediaId: '18081844367613229'
       published: 2026-04-10-15-59-48
-      updated: 2026-06-29-12-57-50
+      updated: 2026-07-09-12-55-03
       followers: 1619
       likes: 52
 2020-10-27-misty-passage:
@@ -1893,16 +1897,16 @@
       id: DVB876HF6y6
       mediaId: '18315898357270230'
       published: 2026-02-21-18-45-49
-      updated: 2026-06-29-12-59-16
+      updated: 2026-07-09-12-56-16
       followers: 1606
       likes: 52
     - service: vk
       id: 3101
       published: 2026-02-21-18-46-03
-      updated: 2026-06-29-12-59-21
+      updated: 2026-07-09-12-56-50
       followers: 1605
       likes: 44
-      views: 547
+      views: 555
       reposts: 3
       comments: !c |-
         GwYBACwLbOc1CMkIdpv49M9/hej5ukX49eByiahJLNJkn2nwb7cSIqEI/du244ZH1WMfU9tORs0I
@@ -1912,10 +1916,10 @@
     - service: tg
       id: 1156
       published: 2026-02-21-18-46-23
-      updated: 2026-06-29-12-58-30
+      updated: 2026-07-09-12-55-48
       followers: 893
       likes: 60
-      views: 578
+      views: 579
       comments: !c CwuAkZPLQnnIHmLoAACma2V2eS1jpPCfpoAD
     - service: mx
       id: '1772218769118'
