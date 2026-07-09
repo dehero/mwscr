@@ -55,7 +55,7 @@
       id: DO6h5RLETXB
       mediaId: '17925234252076990'
       published: 2025-09-22-18-26-26
-      updated: 2026-06-29-23-53-08
+      updated: 2026-07-09-17-45-59
       followers: 1582
       likes: 70
     - service: vk
@@ -72,7 +72,7 @@
     - service: tg
       id: 994
       published: 2025-09-22-18-26-36
-      updated: 2026-06-29-23-53-22
+      updated: 2026-07-09-17-46-27
       followers: 798
       likes: 61
       views: 634
@@ -349,17 +349,17 @@
     - service: vk
       id: 2527
       published: 2025-07-23-18-40-24
-      updated: 2026-06-29-23-55-21
+      updated: 2026-07-09-17-47-57
       followers: 1349
       likes: 37
-      views: 462
+      views: 464
       comments: !c |-
         ixqAkZPLQnmDifuygACwc2VyZ2V5LWNodXJiYW5vdrnQltGL0YDQvdCw0Y8g0LHQvtGA0L7QtNCw
         Aw==
     - service: tg
       id: 925
       published: 2025-07-23-18-40-30
-      updated: 2026-06-29-23-54-41
+      updated: 2026-07-09-17-47-36
       followers: 765
       likes: 68
       views: 637
@@ -367,7 +367,7 @@
       id: DMgD1nltOXF
       mediaId: '18050817164185932'
       published: 2025-07-24-18-40-50
-      updated: 2026-06-29-23-54-51
+      updated: 2026-07-09-17-47-20
       followers: 1573
       likes: 66
 2020-05-19-night-guard:
@@ -586,7 +586,7 @@
       id: DLS4FQzgAKX
       mediaId: '17868937881306574'
       published: 2025-06-24-19-16-30
-      updated: 2026-06-29-23-55-43
+      updated: 2026-07-09-17-48-10
       followers: 1553
       likes: 61
 2020-05-23-rainy-day-in-sadrith-mora:
@@ -706,21 +706,21 @@
       id: DNv3QvDYinb
       mediaId: '18326906332225698'
       published: 2025-08-24-18-30-14
-      updated: 2026-06-29-23-53-55
+      updated: 2026-07-09-17-46-35
       followers: 1580
       likes: 75
     - service: vk
       id: 2601
       published: 2025-08-24-18-30-19
-      updated: 2026-06-29-23-54-25
+      updated: 2026-07-09-17-47-07
       followers: 1379
       likes: 59
-      views: 695
+      views: 698
       reposts: 1
     - service: tg
       id: 959
       published: 2025-08-24-18-30-23
-      updated: 2026-06-29-23-54-04
+      updated: 2026-07-09-17-47-02
       followers: 782
       likes: 70
       views: 592
@@ -858,10 +858,13 @@
     - service: tg
       id: 1253
       published: 2026-07-01-00-01-38
-      updated: 2026-07-01-02-51-27
+      updated: 2026-07-09-17-45-48
       followers: 916
-      likes: 7
-      views: 34
+      likes: 50
+      views: 235
+      comments: !c |-
+        ixqAkpPLQnn0QkaigACnYW50aWRvc6zQm9GP0L/QvtGC0LCTy0J583dN8QAApmtldnktY6Twn6aA
+        Aw==
     - service: mx
       id: '1782864104534'
       published: 2026-07-01-00-01-44
@@ -878,7 +881,9 @@
       id: Dak_IDpkr7c
       mediaId: '18016406789857395'
       published: 2026-07-09-15-55-22
+      updated: 2026-07-09-17-45-33
       followers: 1849
+      likes: 19
 2020-10-10-assurnabitashpi:
   title: Assurnabitashpi
   titleRu: Ассурнабиташпи
@@ -1267,24 +1272,24 @@
       id: DLxragfM_So
       mediaId: '18049738211166605'
       published: 2025-07-06-18-22-19
-      updated: 2026-06-29-23-55-20
+      updated: 2026-07-09-17-47-50
       followers: 1559
       likes: 59
     - service: vk
       id: 2506
       published: 2025-07-06-18-22-27
-      updated: 2026-06-29-23-55-40
+      updated: 2026-07-09-17-48-16
       followers: 1335
       likes: 65
-      views: 719
+      views: 722
       reposts: 1
     - service: tg
       id: 909
       published: 2025-07-06-18-22-31
-      updated: 2026-06-29-23-55-05
+      updated: 2026-07-09-17-47-56
       followers: 758
       likes: 64
-      views: 742
+      views: 743
       comments: !c |-
         G9UAwJ0HdiwYwWFXIvkKUYA30gFNNciswNLEpsk9aAlkbsucLda6KTaDmBQEMX9ZOdD5b8ivJxMa
         KQu0/Ck2QTSCnHHN1snxAQ+K3znyUg4sDC2yPGXTEoXx9mfH+dh9+RyZe8fgUKvquh5lmJTYkeWF
@@ -1336,16 +1341,16 @@
       id: DOZDkCRlG95
       mediaId: '18036367682484300'
       published: 2025-09-09-18-26-31
-      updated: 2026-06-29-23-53-30
+      updated: 2026-07-09-17-46-18
       followers: 1586
       likes: 65
     - service: vk
       id: 2639
       published: 2025-09-09-18-26-37
-      updated: 2026-06-29-23-53-55
+      updated: 2026-07-09-17-46-42
       followers: 1414
       likes: 46
-      views: 915
+      views: 920
       reposts: 4
       comments: !c |-
         G5MBYJyHsY04O2ynL6kJouf7e+ZvvJnsatAHDS1PtECirDjwgj3AgaTlZoW2CIlb6zzhIP3OFGpu
@@ -1356,7 +1361,7 @@
     - service: tg
       id: 978
       published: 2025-09-09-18-26-41
-      updated: 2026-06-29-23-53-39
+      updated: 2026-07-09-17-46-44
       followers: 793
       likes: 67
       views: 571
@@ -1461,10 +1466,10 @@
     - service: vk
       id: 2516
       published: 2025-07-14-18-26-02
-      updated: 2026-06-29-23-55-31
+      updated: 2026-07-09-17-48-08
       followers: 1342
       likes: 28
-      views: 669
+      views: 672
       reposts: 1
       comments: !c |-
         G1sA+I2UbuYke/5aS/hBdgGTLCLtWpMPPAMk5+HFeisii0EuSWuuQWeYL19q13uYPW6t5WWXRHxk
@@ -1472,7 +1477,7 @@
     - service: tg
       id: 917
       published: 2025-07-14-18-26-06
-      updated: 2026-06-29-23-54-52
+      updated: 2026-07-09-17-47-46
       followers: 762
       likes: 62
       views: 622
@@ -1480,7 +1485,7 @@
       id: DMPTAzKMjL2
       mediaId: '18073958353804419'
       published: 2025-07-18-06-26-22
-      updated: 2026-06-29-23-55-04
+      updated: 2026-07-09-17-47-38
       followers: 1568
       likes: 54
 2020-10-20-longing-for-a-departed-hero:
