@@ -2239,11 +2239,17 @@
     - service: vk
       id: 3416
       published: 2026-07-10-18-20-33
+      updated: 2026-07-10-20-11-38
       followers: 1432
+      likes: 14
+      views: 128
     - service: tg
       id: 1255
       published: 2026-07-10-18-20-41
+      updated: 2026-07-10-20-11-38
       followers: 916
+      likes: 28
+      views: 89
     - service: mx
       id: '1783707647206'
       published: 2026-07-10-18-20-47
