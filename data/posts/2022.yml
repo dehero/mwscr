@@ -2236,6 +2236,18 @@
         C0KAlJPLQnjqgZW9AACremhlY2hrYS1kcna60L3QsCDQutCw0YDQsNC9INC/0L7RhdC+0LaTy0J4
         Jobp2AAAqWFuYWtpbmVyc6VncmVhdJPLQngmLFQlgACnbW90by1qbq7QqNC40LrQsNGA0L3QvpPL
         QngmB2dEAACobW9uZ2xlcmmkbmljZQM=
+    - service: vk
+      id: 3416
+      published: 2026-07-10-18-20-33
+      followers: 1432
+    - service: tg
+      id: 1255
+      published: 2026-07-10-18-20-41
+      followers: 916
+    - service: mx
+      id: '1783707647206'
+      published: 2026-07-10-18-20-47
+      followers: 23
 2022-08-03-a-haven-on-bad-weather:
   title: A Haven on Bad Weather
   titleRu: Пристанище в ненастье
