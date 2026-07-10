@@ -17529,18 +17529,18 @@
     - service: vk
       id: 3415
       published: 2026-07-09-19-21-41
-      updated: 2026-07-10-05-50-20
+      updated: 2026-07-10-08-56-47
       followers: 1433
-      likes: 14
-      views: 160
+      likes: 17
+      views: 203
       reposts: 2
     - service: tg
       id: 1254
       published: 2026-07-09-19-21-50
-      updated: 2026-07-10-05-50-28
+      updated: 2026-07-10-08-56-55
       followers: 917
-      likes: 34
-      views: 117
+      likes: 37
+      views: 130
       comments: !c iw2AkZPLQnn0hUrigACrZ29vc2V2aWNoNzak8J+ksgM=
     - service: mx
       id: '1783624917989'
@@ -17550,7 +17550,9 @@
       id: DamfFcQjJJ3
       mediaId: '18018779996696512'
       published: 2026-07-10-05-53-51
+      updated: 2026-07-10-08-56-50
       followers: 1850
+      likes: 33
 2018-12-04-rocks-and-fir-trees:
   title: Rocks and Firtrees
   titleRu: Скалы и ели
