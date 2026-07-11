@@ -6560,10 +6560,10 @@
     - service: vk
       id: 3290
       published: 2016-05-18-16-35-00
-      updated: 2026-06-26-14-01-08
+      updated: 2026-07-11-04-51-42
       followers: 1434
       likes: 54
-      views: 885
+      views: 896
       reposts: 3
       comments: !c |-
         Gz4RAKwK7MbyG22yIryo/tqJGSz+n1jWb7/NGvd21E4x3WQVhUbIWJ7CIikcWSPMFxJh47lG4FfF
@@ -17529,18 +17529,18 @@
     - service: vk
       id: 3415
       published: 2026-07-09-19-21-41
-      updated: 2026-07-10-23-45-36
+      updated: 2026-07-11-04-51-18
       followers: 1433
-      likes: 19
-      views: 265
+      likes: 20
+      views: 268
       reposts: 2
     - service: tg
       id: 1254
       published: 2026-07-09-19-21-50
-      updated: 2026-07-10-23-45-42
+      updated: 2026-07-11-04-51-25
       followers: 917
       likes: 46
-      views: 176
+      views: 178
       comments: !c iw2AkZPLQnn0hUrigACrZ29vc2V2aWNoNzak8J+ksgM=
     - service: mx
       id: '1783624917989'
@@ -17550,9 +17550,9 @@
       id: DamfFcQjJJ3
       mediaId: '18018779996696512'
       published: 2026-07-10-05-53-51
-      updated: 2026-07-10-23-45-39
+      updated: 2026-07-11-04-51-21
       followers: 1850
-      likes: 68
+      likes: 69
 2018-12-04-rocks-and-fir-trees:
   title: Rocks and Firtrees
   titleRu: Скалы и ели
