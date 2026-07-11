@@ -8699,17 +8699,18 @@
     - service: vk
       id: 3418
       published: 2026-07-11-18-42-21
-      updated: 2026-07-11-19-57-42
+      updated: 2026-07-11-20-41-07
       followers: 1432
-      likes: 3
-      views: 77
+      likes: 8
+      views: 100
+      reposts: 2
     - service: tg
       id: 1256
       published: 2026-07-11-18-42-31
-      updated: 2026-07-11-19-57-41
+      updated: 2026-07-11-20-41-06
       followers: 915
-      likes: 11
-      views: 67
+      likes: 16
+      views: 76
     - service: mx
       id: '1783795358411'
       published: 2026-07-11-18-42-38
