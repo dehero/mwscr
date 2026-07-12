@@ -605,11 +605,14 @@
     - service: tg
       id: 1257
       published: 2026-07-12-18-46-33
-      updated: 2026-07-12-20-42-46
+      updated: 2026-07-12-21-37-41
       followers: 915
-      likes: 32
-      views: 88
-      comments: !c CxSAkZPLQnn1erg7AACveHh4a2FtYXoyMDA4eHh4rWxvbmVseSBmYWdnb3QD
+      likes: 37
+      views: 103
+      comments: !c |-
+        G5oAKIyT5QbdTX9/8xO+63xq9jGc+FdjDCrQEoi6CAIqJ3DrdXKgB8R/F8yCQDIJ+eB5yko00WTl
+        2bQ/zuvD64dkR3cpgqEv65+YYz/AT8Cuwhn2A8ez5O6cDHybGIb64njPsDEvyrrjxVLpKrhYG7YM
+        hN5lWXJe8i1hgfAUdRUWK0Q8jusB
     - service: mx
       id: '1783882000197'
       published: 2026-07-12-18-46-40
@@ -617,7 +620,11 @@
     - service: vk
       id: 3419
       published: 2026-07-12-20-43-11
+      updated: 2026-07-12-21-37-43
       followers: 1432
+      likes: 3
+      views: 55
+      reposts: 2
 2016-11-28-forest-on-the-border-of-ashlands:
   title: Forest on the Border of Ashlands
   titleRu: Лес на границе Эшленда
