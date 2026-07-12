@@ -602,6 +602,14 @@
         G4sAYJwFdiyb0GJwHlrudEPSBs+d8BxCJ9seleCtZZGCN6kEoPjMmS3lOrlyygFzK0kiCciO6T1l
         QRJUI/7pf5bFTQYRsgiqbQKXUTXHkoPxue3SAy/Kkc33fQkoINw0GM/KAvUWmCDvuEAFlikIF8/c
         GjmdVRiUNTlh/7lF1lg7oBnZsQRNHb++AA==
+    - service: tg
+      id: 1257
+      published: 2026-07-12-18-46-33
+      followers: 915
+    - service: mx
+      id: '1783882000197'
+      published: 2026-07-12-18-46-40
+      followers: 23
 2016-11-28-forest-on-the-border-of-ashlands:
   title: Forest on the Border of Ashlands
   titleRu: Лес на границе Эшленда
