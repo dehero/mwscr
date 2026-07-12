@@ -605,11 +605,19 @@
     - service: tg
       id: 1257
       published: 2026-07-12-18-46-33
+      updated: 2026-07-12-20-42-46
       followers: 915
+      likes: 32
+      views: 88
+      comments: !c CxSAkZPLQnn1erg7AACveHh4a2FtYXoyMDA4eHh4rWxvbmVseSBmYWdnb3QD
     - service: mx
       id: '1783882000197'
       published: 2026-07-12-18-46-40
       followers: 23
+    - service: vk
+      id: 3419
+      published: 2026-07-12-20-43-11
+      followers: 1432
 2016-11-28-forest-on-the-border-of-ashlands:
   title: Forest on the Border of Ashlands
   titleRu: Лес на границе Эшленда
