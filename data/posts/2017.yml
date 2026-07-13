@@ -8699,18 +8699,18 @@
     - service: vk
       id: 3418
       published: 2026-07-11-18-42-21
-      updated: 2026-07-13-16-21-28
+      updated: 2026-07-13-18-25-49
       followers: 1432
-      likes: 32
-      views: 382
+      likes: 33
+      views: 391
       reposts: 2
     - service: tg
       id: 1256
       published: 2026-07-11-18-42-31
-      updated: 2026-07-13-16-21-27
+      updated: 2026-07-13-18-25-48
       followers: 915
       likes: 45
-      views: 190
+      views: 193
     - service: mx
       id: '1783795358411'
       published: 2026-07-11-18-42-38
@@ -16518,6 +16518,18 @@
       followers: 557
       likes: 71
       views: 575
+    - service: vk
+      id: 3420
+      published: 2026-07-13-18-26-20
+      followers: 1432
+    - service: tg
+      id: 1258
+      published: 2026-07-13-18-26-30
+      followers: 914
+    - service: mx
+      id: '1783967197856'
+      published: 2026-07-13-18-26-37
+      followers: 23
 2017-11-17-pelagiad-descent-to-the-road:
   title: Pelagiad, Descent to the Road
   titleRu: Пелагиад, спуск к дороге
