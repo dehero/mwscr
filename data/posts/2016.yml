@@ -605,10 +605,10 @@
     - service: tg
       id: 1257
       published: 2026-07-12-18-46-33
-      updated: 2026-07-13-18-25-48
+      updated: 2026-07-13-20-06-11
       followers: 915
-      likes: 46
-      views: 156
+      likes: 49
+      views: 183
       comments: !c |-
         G5oAKIyT5QbdTX9/8xO+63xq9jGc+FdjDCrQEoi6CAIqJ3DrdXKgB8R/F8yCQDIJ+eB5yko00WTl
         2bQ/zuvD64dkR3cpgqEv65+YYz/AT8Cuwhn2A8ez5O6cDHybGIb64njPsDEvyrrjxVLpKrhYG7YM
@@ -620,10 +620,10 @@
     - service: vk
       id: 3419
       published: 2026-07-12-20-43-11
-      updated: 2026-07-13-18-25-47
+      updated: 2026-07-13-20-06-10
       followers: 1432
       likes: 35
-      views: 427
+      views: 440
       reposts: 4
 2016-11-28-forest-on-the-border-of-ashlands:
   title: Forest on the Border of Ashlands
