@@ -3607,7 +3607,7 @@ mbdtsmo:
   profiles:
     - service: tg
       id: '5093097514'
-      updated: 2026-07-13-20-06-11
+      updated: 2026-07-13-21-42-49
       accessHash: '-613358669572386334'
       username: mbdtsmo
       name: M Bdtsmo
@@ -6653,7 +6653,7 @@ xxxkamaz2008xxx:
   profiles:
     - service: tg
       id: '476274825'
-      updated: 2026-07-13-20-06-11
+      updated: 2026-07-13-21-42-49
       accessHash: '6278268179581961642'
       name: initramfs-linux-cachyos-bore-custom.img
 xxxxvns:
