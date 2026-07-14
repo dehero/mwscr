@@ -9861,6 +9861,18 @@
       likes: 75
       views: 328
       comments: !c CxGAkZPLQnkKdu/DgACqeW9zaGktMjNpaaxJJ20gY3JlZXBpbmcD
+    - service: vk
+      id: 3421
+      published: 2026-07-14-18-02-02
+      followers: 1432
+    - service: tg
+      id: 1259
+      published: 2026-07-14-18-02-09
+      followers: 914
+    - service: mx
+      id: '1784052134807'
+      published: 2026-07-14-18-02-14
+      followers: 23
 2017-07-08-saint-sotha:
   title: Saint Sotha
   titleRu: Святой Сота
@@ -16521,15 +16533,15 @@
     - service: vk
       id: 3420
       published: 2026-07-13-18-26-20
-      updated: 2026-07-14-16-59-44
+      updated: 2026-07-14-18-01-43
       followers: 1432
-      likes: 22
-      views: 314
+      likes: 24
+      views: 318
       reposts: 2
     - service: tg
       id: 1258
       published: 2026-07-13-18-26-30
-      updated: 2026-07-14-16-59-44
+      updated: 2026-07-14-18-01-42
       followers: 914
       likes: 39
       views: 155
