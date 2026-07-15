@@ -8115,10 +8115,10 @@
     - service: tg
       id: 1260
       published: 2026-07-15-18-51-58
-      updated: 2026-07-15-20-00-06
+      updated: 2026-07-15-21-00-22
       followers: 915
-      likes: 18
-      views: 79
+      likes: 23
+      views: 89
     - service: mx
       id: '1784141523439'
       published: 2026-07-15-18-52-03
@@ -8126,7 +8126,11 @@
     - service: vk
       id: 3425
       published: 2026-07-15-20-00-31
+      updated: 2026-07-15-21-00-23
       followers: 1432
+      likes: 9
+      views: 102
+      reposts: 1
 2017-06-01-near-ald-velothi:
   title: Near Ald Velothi
   titleRu: У Альд Велоти
@@ -8714,18 +8718,18 @@
     - service: vk
       id: 3418
       published: 2026-07-11-18-42-21
-      updated: 2026-07-14-20-03-46
+      updated: 2026-07-15-21-00-34
       followers: 1432
-      likes: 38
-      views: 426
+      likes: 39
+      views: 458
       reposts: 2
     - service: tg
       id: 1256
       published: 2026-07-11-18-42-31
-      updated: 2026-07-14-20-03-44
+      updated: 2026-07-15-21-00-24
       followers: 915
       likes: 49
-      views: 228
+      views: 251
     - service: mx
       id: '1783795358411'
       published: 2026-07-11-18-42-38
@@ -9879,10 +9883,10 @@
     - service: vk
       id: 3421
       published: 2026-07-14-18-02-02
-      updated: 2026-07-15-20-00-13
+      updated: 2026-07-15-21-00-31
       followers: 1432
       likes: 42
-      views: 412
+      views: 417
       reposts: 3
       comments: !c |-
         G64AEBwHdpMPbFYfPIvRtpjoebmRfpBAMq8t8YBKqEWY3CNr/s/1UZaAGw1k3lTB0fR1uwRdBvDh
@@ -9891,10 +9895,10 @@
     - service: tg
       id: 1259
       published: 2026-07-14-18-02-09
-      updated: 2026-07-15-20-00-07
+      updated: 2026-07-15-21-00-24
       followers: 914
       likes: 45
-      views: 162
+      views: 163
     - service: mx
       id: '1784052134807'
       published: 2026-07-14-18-02-14
