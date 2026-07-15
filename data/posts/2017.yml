@@ -9864,19 +9864,22 @@
     - service: vk
       id: 3421
       published: 2026-07-14-18-02-02
-      updated: 2026-07-15-09-47-17
+      updated: 2026-07-15-11-19-45
       followers: 1432
-      likes: 34
-      views: 316
+      likes: 37
+      views: 350
       reposts: 3
-      comments: !c CxmAkZPLQnn2SfpWAACraXZhbi11cmFsb3a70YHQutCw0LzQvzrQutGA0L7QtNC10YLRgdGPAw==
+      comments: !c |-
+        G64AEBwHdpMPbFYfPIvRtpjoebmRfpBAMq8t8YBKqEWY3CNr/s/1UZaAGw1k3lTB0fR1uwRdBvDh
+        kdy7ytOHDTjVAGCkQXiBfZQbIqQIyuK6P8qPyQLwHh6nIa7FKbq3fQKr2u5arflOvaGwICjA/mkf
+        PPt20S1S4b6yW75aX1RhthQEx6ZZxqQtKjMXLl69Cw6zVT35RVanS13ucOqco6EF/3d5Ag==
     - service: tg
       id: 1259
       published: 2026-07-14-18-02-09
-      updated: 2026-07-15-09-47-07
+      updated: 2026-07-15-11-19-37
       followers: 914
-      likes: 38
-      views: 125
+      likes: 41
+      views: 132
     - service: mx
       id: '1784052134807'
       published: 2026-07-14-18-02-14
@@ -16541,18 +16544,18 @@
     - service: vk
       id: 3420
       published: 2026-07-13-18-26-20
-      updated: 2026-07-15-09-47-19
+      updated: 2026-07-15-11-19-47
       followers: 1432
       likes: 29
-      views: 362
+      views: 366
       reposts: 2
     - service: tg
       id: 1258
       published: 2026-07-13-18-26-30
-      updated: 2026-07-15-09-47-08
+      updated: 2026-07-15-11-19-38
       followers: 914
-      likes: 45
-      views: 190
+      likes: 46
+      views: 193
     - service: mx
       id: '1783967197856'
       published: 2026-07-13-18-26-37

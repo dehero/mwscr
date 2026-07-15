@@ -2030,7 +2030,7 @@ feanor2la:
   profiles:
     - service: vk
       id: '16294877'
-      updated: 2026-07-09-19-20-47
+      updated: 2026-07-15-11-19-45
       username: feanor2la
       name: Иван Урлапов
       avatar: store:/avatars/vk-14fd45f0.jpg
@@ -2764,7 +2764,7 @@ ivan-uralov:
   profiles:
     - service: vk
       id: '16497155'
-      updated: 2026-07-15-09-47-17
+      updated: 2026-07-15-11-19-45
       username: id16497155
       name: Иван Уралов
       avatar: store:/avatars/vk-51775759.jpg
@@ -5441,7 +5441,7 @@ spearow-crow:
   profiles:
     - service: tg
       id: '927392851'
-      updated: 2026-06-17-10-19-16
+      updated: 2026-07-15-11-19-51
       accessHash: '-2683889022174722918'
       username: SpearowCrow
       botChatId: 927392851
