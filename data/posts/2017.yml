@@ -9864,18 +9864,19 @@
     - service: vk
       id: 3421
       published: 2026-07-14-18-02-02
-      updated: 2026-07-15-07-05-08
+      updated: 2026-07-15-09-47-17
       followers: 1432
-      likes: 30
-      views: 286
-      reposts: 2
+      likes: 34
+      views: 316
+      reposts: 3
+      comments: !c CxmAkZPLQnn2SfpWAACraXZhbi11cmFsb3a70YHQutCw0LzQvzrQutGA0L7QtNC10YLRgdGPAw==
     - service: tg
       id: 1259
       published: 2026-07-14-18-02-09
-      updated: 2026-07-15-07-05-07
+      updated: 2026-07-15-09-47-07
       followers: 914
-      likes: 36
-      views: 119
+      likes: 38
+      views: 125
     - service: mx
       id: '1784052134807'
       published: 2026-07-14-18-02-14
@@ -16540,18 +16541,18 @@
     - service: vk
       id: 3420
       published: 2026-07-13-18-26-20
-      updated: 2026-07-15-07-05-09
+      updated: 2026-07-15-09-47-19
       followers: 1432
       likes: 29
-      views: 357
+      views: 362
       reposts: 2
     - service: tg
       id: 1258
       published: 2026-07-13-18-26-30
-      updated: 2026-07-15-07-05-08
+      updated: 2026-07-15-09-47-08
       followers: 914
-      likes: 44
-      views: 188
+      likes: 45
+      views: 190
     - service: mx
       id: '1783967197856'
       published: 2026-07-13-18-26-37
