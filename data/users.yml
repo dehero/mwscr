@@ -247,7 +247,7 @@ aleksandr-kharitonov:
   profiles:
     - service: vk
       id: '6736899'
-      updated: 2026-07-09-19-20-54
+      updated: 2026-07-16-20-42-57
       username: id6736899
       name: Александр Харитонов
       avatar: store:/avatars/vk-9ffde01b.jpg
@@ -513,7 +513,7 @@ anton-mezhuev:
   profiles:
     - service: vk
       id: '63571521'
-      updated: 2026-07-16-19-56-44
+      updated: 2026-07-16-20-42-50
       username: id63571521
       name: Антон Межуев
       avatar: store:/avatars/vk-295e8e4f.jpg
@@ -610,7 +610,7 @@ arya-stark:
   profiles:
     - service: vk
       id: '820702664'
-      updated: 2026-07-16-19-56-45
+      updated: 2026-07-16-20-43-00
       username: id820702664
       name: Арья Старк
       avatar: store:/avatars/vk-689aa89d.jpg
@@ -674,7 +674,7 @@ balmora-blue:
   profiles:
     - service: vk
       id: '319590859'
-      updated: 2026-07-16-18-07-55
+      updated: 2026-07-16-20-42-57
       username: balmora.blue
       name: Любовь Любовь
       avatar: store:/avatars/vk-9e1c9565.jpg
@@ -1058,7 +1058,7 @@ chernosotinec:
   profiles:
     - service: vk
       id: '355750944'
-      updated: 2026-07-16-19-55-47
+      updated: 2026-07-16-20-42-57
       username: Chernosotinec
       name: Артём Стекольщиков
       avatar: store:/avatars/vk-8aee5603.jpg
@@ -1419,7 +1419,7 @@ dehero:
       avatar: store:/avatars/gh-c8afe641.jpg
     - service: vk
       id: '3652910'
-      updated: 2026-07-16-19-56-40
+      updated: 2026-07-16-20-42-50
       username: dehero
       name: Антон Курьянов
       avatar: store:/avatars/vk-5356f76e.jpg
@@ -1662,7 +1662,7 @@ dremarretres:
   profiles:
     - service: vk
       id: '801308664'
-      updated: 2026-07-16-19-55-32
+      updated: 2026-07-16-20-42-47
       username: dremarretres
       name: Джон Шепард
       avatar: store:/avatars/vk-ac4f0700.jpg
@@ -3071,7 +3071,7 @@ kevy-c:
   profiles:
     - service: tg
       id: '5067683234'
-      updated: 2026-07-16-18-07-04
+      updated: 2026-07-16-20-42-46
       accessHash: '-903667913374325979'
       username: Kevy_c
       name: Dash
@@ -4149,7 +4149,7 @@ numenox:
   profiles:
     - service: vk
       id: '6416593'
-      updated: 2026-07-16-19-55-22
+      updated: 2026-07-16-20-43-00
       username: numenox
       name: Игорь Шаров
       avatar: store:/avatars/vk-de7e2419.jpg
@@ -4246,7 +4246,7 @@ oldbutmeme:
     - type: channel
       service: vk
       id: '116308009'
-      updated: 2026-07-09-19-20-53
+      updated: 2026-07-16-20-42-50
       username: oldbutmeme
       name: СИИМ
       avatar: store:/avatars/vk-d446768e.jpg
@@ -4450,7 +4450,7 @@ peteevandrew:
   profiles:
     - service: vk
       id: '307619379'
-      updated: 2026-07-16-19-56-24
+      updated: 2026-07-16-20-43-00
       username: peteevandrew
       name: Андрей Петеев
       avatar: store:/avatars/vk-1abdc90f.jpg
@@ -5938,7 +5938,7 @@ uber-zaryad:
   profiles:
     - service: vk
       id: '790973813'
-      updated: 2026-07-16-19-56-50
+      updated: 2026-07-16-20-42-50
       username: id790973813
       name: Убер Заряд
       avatar: store:/avatars/vk-8878ae01.jpg
@@ -6437,7 +6437,7 @@ vladkr114:
   profiles:
     - service: vk
       id: '210352858'
-      updated: 2026-07-16-19-56-36
+      updated: 2026-07-16-20-42-57
       username: vladkr114
       name: Влад Крамской
       avatar: store:/avatars/vk-dfe1d842.jpg
