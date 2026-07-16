@@ -62,7 +62,7 @@
     - service: vk
       id: 2501
       published: 2025-07-02-18-24-04
-      updated: 2026-07-09-17-48-19
+      updated: 2026-07-16-18-09-22
       followers: 1333
       likes: 56
       views: 591
@@ -248,7 +248,7 @@
     - service: vk
       id: 2629
       published: 2025-09-03-18-21-16
-      updated: 2026-07-09-17-46-51
+      updated: 2026-07-16-18-08-15
       followers: 1404
       likes: 44
       views: 619
@@ -259,10 +259,10 @@
     - service: tg
       id: 971
       published: 2025-09-03-18-21-19
-      updated: 2026-07-09-17-46-51
+      updated: 2026-07-16-18-07-55
       followers: 788
       likes: 76
-      views: 618
+      views: 619
       comments: !c iw2AkZPLQnmRXdWaAACra2F3YXpha3kyMjOk8J+koQM=
 2023-08-01-stillness:
   title: Stillness
@@ -534,17 +534,17 @@
     - service: vk
       id: 2605
       published: 2025-08-26-18-32-53
-      updated: 2026-07-09-17-47-04
+      updated: 2026-07-16-18-08-25
       followers: 1381
       likes: 18
       views: 509
     - service: tg
       id: 961
       published: 2025-08-26-18-32-55
-      updated: 2026-07-09-17-46-59
+      updated: 2026-07-16-18-08-02
       followers: 782
       likes: 65
-      views: 575
+      views: 576
       comments: !c |-
         CyKAkpPLQnmOepqugACqYTItZW5rZWxsabNwcmV0dHkgcm9tYW50aWMgaHVok8tCeY56l/8AAKtr
         YXdhemFreTIyM6Twn5iCAw==
@@ -642,10 +642,10 @@
     - service: tg
       id: 967
       published: 2025-08-30-18-18-37
-      updated: 2026-07-09-17-46-55
+      updated: 2026-07-16-18-07-58
       followers: 785
       likes: 68
-      views: 563
+      views: 564
       comments: !c |-
         G+MAYIzEOBbyxpVU+v/3Vz+lOTfEARMRVQVELoX7tm1pUwctbnDC4YijrwMuNmW4YRjjoBurL88X
         s2EoKIf6n5LM8GpFWqbWXY5QVMu1NJjtXFRS8a9vLhkdMQhLAHSCF3gGZlmP3X6hTVDUps+SsmQt
@@ -654,7 +654,7 @@
     - service: vk
       id: 2613
       published: 2025-08-30-19-10-44
-      updated: 2026-07-09-17-46-58
+      updated: 2026-07-16-18-08-20
       followers: 1395
       likes: 50
       views: 590
@@ -989,7 +989,7 @@
     - service: vk
       id: 2732
       published: 2025-10-12-18-24-25
-      updated: 2026-07-09-17-45-37
+      updated: 2026-07-16-18-07-26
       followers: 1466
       likes: 56
       views: 1102
@@ -997,10 +997,10 @@
     - service: tg
       id: 1014
       published: 2025-10-12-18-24-32
-      updated: 2026-07-09-17-45-56
+      updated: 2026-07-16-18-07-09
       followers: 838
       likes: 76
-      views: 620
+      views: 621
       comments: !c |-
         iyuAkpPLQnmdvDqGgACra2F3YXpha3kyMjOk8J+llJPLQnmdpfSfAACqYTItZW5rZWxsadklVGhh
         dHMgYSBjcmFiIGJyaWRnZS4gQnJpZGdlIGZvciBjcmFicwM=
