@@ -47,7 +47,7 @@
     - service: vk
       id: 2073
       published: 2025-01-20-18-41-09
-      updated: 2026-07-09-21-12-58
+      updated: 2026-07-16-21-55-35
       followers: 1054
       likes: 40
       views: 505
@@ -56,7 +56,7 @@
     - service: tg
       id: 673
       published: 2025-01-20-18-41-15
-      updated: 2026-07-09-21-12-14
+      updated: 2026-07-16-21-55-00
       followers: 654
       likes: 59
       views: 612
@@ -88,7 +88,7 @@
     - service: vk
       id: 2079
       published: 2025-01-23-18-50-59
-      updated: 2026-07-09-21-12-50
+      updated: 2026-07-16-21-55-32
       followers: 1054
       likes: 63
       views: 548
@@ -103,9 +103,9 @@
     - service: tg
       id: 679
       published: 2025-01-23-18-51-07
-      updated: 2026-07-09-21-12-12
+      updated: 2026-07-16-21-54-58
       followers: 655
-      likes: 75
+      likes: 76
       views: 599
 2025-01-24-near-mining-company-office: 2017-07-09-near-mining-company-office
 2025-01-25-sunset-ridge: 2019-10-20-sunset-ridge
@@ -138,7 +138,7 @@
     - service: vk
       id: 2089
       published: 2025-01-26-18-09-31
-      updated: 2026-07-09-21-12-37
+      updated: 2026-07-16-21-55-28
       followers: 1055
       likes: 55
       views: 473
@@ -146,10 +146,10 @@
     - service: tg
       id: 682
       published: 2025-01-26-18-09-37
-      updated: 2026-07-09-21-12-08
+      updated: 2026-07-16-21-54-56
       followers: 660
-      likes: 74
-      views: 621
+      likes: 75
+      views: 622
       comments: !c |-
         G74CoByJcSzJguYWpK6Ja/4NBzjQKBxGCnzmss7zo3gdIuMWGq6CPqsD+f9u8m39iLcKeQ6BXhQl
         MLZKx7mm20Q9xMezZ9Eq8Qh61dR7pCaOoWcXuJ2diygUvTRT5Im89zaCHCe/1gX0man+wwBwKGCM
@@ -190,7 +190,7 @@
     - service: vk
       id: 2090
       published: 2025-01-27-18-11-00
-      updated: 2026-07-09-21-12-36
+      updated: 2026-07-16-21-55-27
       followers: 1055
       likes: 66
       views: 885
@@ -201,7 +201,7 @@
     - service: tg
       id: 683
       published: 2025-01-27-18-11-08
-      updated: 2026-07-09-21-12-07
+      updated: 2026-07-16-21-54-55
       followers: 662
       likes: 71
       views: 599
@@ -233,14 +233,14 @@
     - service: vk
       id: 2094
       published: 2025-01-28-18-10-56
-      updated: 2026-07-09-21-12-35
+      updated: 2026-07-16-21-55-26
       followers: 1056
       likes: 34
       views: 366
     - service: tg
       id: 684
       published: 2025-01-28-18-11-02
-      updated: 2026-07-09-21-12-06
+      updated: 2026-07-16-21-54-54
       followers: 661
       likes: 61
       views: 579
@@ -277,7 +277,7 @@
     - service: vk
       id: 2105
       published: 2025-02-01-18-09-25
-      updated: 2026-07-09-21-12-23
+      updated: 2026-07-16-21-55-22
       followers: 1059
       likes: 40
       views: 472
@@ -285,7 +285,7 @@
     - service: tg
       id: 691
       published: 2025-02-01-18-09-32
-      updated: 2026-07-09-21-11-59
+      updated: 2026-07-16-21-54-50
       followers: 662
       likes: 70
       views: 654
@@ -319,7 +319,7 @@
     - service: vk
       id: 2114
       published: 2025-02-05-18-11-07
-      updated: 2026-07-09-21-12-14
+      updated: 2026-07-16-21-55-16
       followers: 1060
       likes: 49
       views: 511
@@ -327,9 +327,9 @@
     - service: tg
       id: 695
       published: 2025-02-05-18-11-12
-      updated: 2026-07-09-21-11-55
+      updated: 2026-07-16-21-54-46
       followers: 664
-      likes: 65
+      likes: 66
       views: 810
 2025-02-06-night-watch:
   title: Night Watch
@@ -361,7 +361,7 @@
     - service: vk
       id: 2115
       published: 2025-02-06-18-11-33
-      updated: 2026-07-09-21-12-13
+      updated: 2026-07-16-21-55-15
       followers: 1061
       likes: 40
       views: 640
@@ -373,7 +373,7 @@
         - 698
         - 699
       published: 2025-02-06-18-11-51
-      updated: 2026-07-09-21-11-54
+      updated: 2026-07-16-21-54-46
       followers: 664
       likes: 72
       views: 1480
@@ -437,7 +437,7 @@
     - service: vk
       id: 2190
       published: 2025-03-13-18-12-13
-      updated: 2026-07-09-21-11-00
+      updated: 2026-07-16-21-54-16
       followers: 1182
       likes: 64
       views: 508
@@ -445,7 +445,7 @@
     - service: tg
       id: 746
       published: 2025-03-13-18-12-20
-      updated: 2026-07-09-21-11-02
+      updated: 2026-07-16-21-54-10
       followers: 696
       likes: 65
       views: 564
@@ -481,7 +481,7 @@
     - service: vk
       id: 2191
       published: 2025-03-14-18-11-24
-      updated: 2026-07-09-21-10-59
+      updated: 2026-07-16-21-54-15
       followers: 1182
       likes: 53
       views: 577
@@ -495,7 +495,7 @@
     - service: tg
       id: 747
       published: 2025-03-14-18-45-12
-      updated: 2026-07-09-21-11-01
+      updated: 2026-07-16-21-54-10
       followers: 700
       likes: 73
       views: 718
@@ -524,14 +524,14 @@
     - service: vk
       id: 2195
       published: 2025-03-15-18-10-23
-      updated: 2026-07-09-21-10-58
+      updated: 2026-07-16-21-54-13
       followers: 1187
       likes: 60
       views: 519
     - service: tg
       id: 748
       published: 2025-03-15-18-10-30
-      updated: 2026-07-09-21-11-00
+      updated: 2026-07-16-21-54-09
       followers: 705
       likes: 61
       views: 576
@@ -564,7 +564,7 @@
     - service: vk
       id: 2196
       published: 2025-03-16-18-10-17
-      updated: 2026-07-09-21-10-56
+      updated: 2026-07-16-21-54-12
       followers: 1187
       likes: 100
       views: 869
@@ -575,9 +575,9 @@
     - service: tg
       id: 749
       published: 2025-03-16-18-10-24
-      updated: 2026-07-09-21-10-59
+      updated: 2026-07-16-21-54-08
       followers: 705
-      likes: 80
+      likes: 81
       views: 845
       comments: !c CxCAkZPLQnlaKKkSgACnbWxlbm5pY61hIG1hc3RlcnBpZWNlAw==
 2025-03-17-first-stars-above-assurnabitashpi:
@@ -607,7 +607,7 @@
     - service: vk
       id: 2201
       published: 2025-03-17-18-11-59
-      updated: 2026-07-09-21-10-55
+      updated: 2026-07-16-21-54-10
       followers: 1191
       likes: 61
       views: 489
@@ -615,10 +615,10 @@
     - service: tg
       id: 750
       published: 2025-03-17-18-12-06
-      updated: 2026-07-09-21-10-58
+      updated: 2026-07-16-21-54-08
       followers: 702
       likes: 61
-      views: 779
+      views: 780
 2025-03-18-camps-of-ashlander-women: 2018-09-02-camps-of-ashlander-women
 2025-03-19-wardens:
   title: Wardens
@@ -650,7 +650,7 @@
     - service: vk
       id: 2208
       published: 2025-03-19-19-01-51
-      updated: 2026-07-09-21-10-52
+      updated: 2026-07-16-21-54-08
       followers: 1193
       likes: 40
       views: 441
@@ -663,7 +663,7 @@
     - service: tg
       id: 755
       published: 2025-03-19-19-01-59
-      updated: 2026-07-09-21-10-57
+      updated: 2026-07-16-21-54-06
       followers: 705
       likes: 59
       views: 600
@@ -696,7 +696,7 @@
     - service: vk
       id: 2210
       published: 2025-03-20-18-12-31
-      updated: 2026-07-09-21-10-50
+      updated: 2026-07-16-21-54-07
       followers: 1198
       likes: 52
       views: 533
@@ -708,7 +708,7 @@
     - service: tg
       id: 756
       published: 2025-03-20-18-12-38
-      updated: 2026-07-09-21-10-56
+      updated: 2026-07-16-21-54-06
       followers: 705
       likes: 65
       views: 586
@@ -743,7 +743,7 @@
     - service: vk
       id: 2216
       published: 2025-03-21-18-11-38
-      updated: 2026-07-09-21-10-49
+      updated: 2026-07-16-21-54-05
       followers: 1200
       likes: 67
       views: 531
@@ -754,7 +754,7 @@
     - service: tg
       id: 757
       published: 2025-03-21-18-11-44
-      updated: 2026-07-09-21-10-54
+      updated: 2026-07-16-21-54-05
       followers: 706
       likes: 67
       views: 737
@@ -787,7 +787,7 @@
     - service: vk
       id: 2217
       published: 2025-03-22-18-10-15
-      updated: 2026-07-09-21-10-48
+      updated: 2026-07-16-21-54-04
       followers: 1202
       likes: 48
       views: 456
@@ -799,9 +799,9 @@
     - service: tg
       id: 758
       published: 2025-03-22-18-10-23
-      updated: 2026-07-09-21-10-53
+      updated: 2026-07-16-21-54-05
       followers: 708
-      likes: 64
+      likes: 65
       views: 716
       comments: !c Cw+AkZPLQnldJXDDgACqbWF4LXVwc2hlcqhHbyBMZWZ0LgM=
 2025-03-23-avus-belvilo:
@@ -839,7 +839,7 @@
     - service: tg
       id: 759
       published: 2025-03-23-18-44-58
-      updated: 2026-07-09-21-10-52
+      updated: 2026-07-16-21-54-04
       followers: 709
       likes: 51
       views: 532
