@@ -124,7 +124,7 @@
     - service: vk
       id: 2816
       published: 2025-11-06-18-17-05
-      updated: 2026-07-09-15-53-36
+      updated: 2026-07-16-17-02-27
       followers: 1500
       likes: 87
       views: 1679
@@ -141,10 +141,10 @@
     - service: tg
       id: 1042
       published: 2025-11-06-18-17-09
-      updated: 2026-07-09-15-53-41
+      updated: 2026-07-16-17-01-49
       followers: 854
-      likes: 65
-      views: 660
+      likes: 66
+      views: 661
       comments: !c |-
         ixyAkpPLQnmmbgrgAACra2F3YXpha3kyMjOk8J+Ru5PLQnmmCLkhgACqYnVsYXRtZXRhbKhIdXNi
         YW5kcwM=
@@ -752,7 +752,7 @@
     - service: vk
       id: 3018
       published: 2026-01-21-18-42-05
-      updated: 2026-07-09-15-52-06
+      updated: 2026-07-16-17-00-59
       followers: 1581
       likes: 91
       views: 1661
@@ -769,10 +769,10 @@
     - service: tg
       id: 1127
       published: 2026-01-21-18-42-09
-      updated: 2026-07-09-15-52-13
+      updated: 2026-07-16-17-00-45
       followers: 886
       likes: 73
-      views: 613
+      views: 616
       comments: !c CwuAkZPLQnm+ifpBgACma2V2eS1jpPCfpoAD
 2019-02-21-skaal-lantern:
   title: Skaal Lantern

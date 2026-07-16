@@ -213,7 +213,7 @@
     - service: vk
       id: 2863
       published: 2025-11-18-18-17-11
-      updated: 2026-07-09-15-53-10
+      updated: 2026-07-16-17-02-07
       followers: 1511
       likes: 59
       views: 983
@@ -225,10 +225,10 @@
     - service: tg
       id: 1059
       published: 2025-11-18-18-17-15
-      updated: 2026-07-09-15-53-18
+      updated: 2026-07-16-17-01-38
       followers: 860
       likes: 64
-      views: 739
+      views: 740
 2020-05-16-tel-mora:
   title: Tel Mora
   titleRu: Тель Мора
@@ -780,7 +780,7 @@
     - service: vk
       id: 2774
       published: 2025-10-25-18-14-12
-      updated: 2026-07-09-15-54-10
+      updated: 2026-07-16-17-02-42
       followers: 1483
       likes: 75
       views: 1601
@@ -1203,7 +1203,7 @@
     - service: vk
       id: 2763
       published: 2025-10-23-18-16-08
-      updated: 2026-07-09-15-54-13
+      updated: 2026-07-16-17-02-45
       followers: 1482
       likes: 60
       views: 2140
@@ -1217,10 +1217,10 @@
     - service: tg
       id: 1025
       published: 2025-10-23-18-16-14
-      updated: 2026-07-09-15-54-25
+      updated: 2026-07-16-17-02-07
       followers: 841
       likes: 69
-      views: 1495
+      views: 1497
       comments: !c |-
         izKAkpPLQnmhq+ZkgACra2F3YXpha3kyMjOk8J+kqJTLQnmhNRH7gACqYTItZW5rZWxsab9hbm90
         aGVyIGRheSB3aXRob3V0IG11ZGNyYWJzICgok8tCeaFWsx0AAKVhbnNpc6Twn6aAAw==
