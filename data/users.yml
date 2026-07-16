@@ -1336,7 +1336,7 @@ darkness-rifho:
       deleted: true
     - service: tg
       id: '5704974271'
-      updated: 2026-07-16-21-55-21
+      updated: 2026-07-16-22-46-10
       accessHash: '3506423524566292179'
       username: C4H6O4
       name: Уна
@@ -1662,7 +1662,7 @@ dremarretres:
   profiles:
     - service: vk
       id: '801308664'
-      updated: 2026-07-16-21-53-54
+      updated: 2026-07-16-22-46-00
       username: dremarretres
       name: Джон Шепард
       avatar: store:/avatars/vk-ac4f0700.jpg
@@ -2314,7 +2314,7 @@ goosevich76:
   profiles:
     - service: tg
       id: '5385620621'
-      updated: 2026-07-16-18-08-49
+      updated: 2026-07-16-22-45-58
       accessHash: '-7130473396589324830'
       username: horwwwaty
       name: Choven
@@ -3071,7 +3071,7 @@ kevy-c:
   profiles:
     - service: tg
       id: '5067683234'
-      updated: 2026-07-16-21-53-52
+      updated: 2026-07-16-22-45-59
       accessHash: '-903667913374325979'
       username: Kevy_c
       name: Dash
@@ -4548,7 +4548,7 @@ pohotlivaya-argonianskaya-deva:
   profiles:
     - service: tg
       id: '754205623'
-      updated: 2026-07-16-21-53-54
+      updated: 2026-07-16-22-46-11
       accessHash: '-9198477663948575721'
       username: PohotlivayaArgonianskayaDeva
       name: Илья
@@ -4778,7 +4778,7 @@ resist-it:
   profiles:
     - service: tg
       id: '955152152'
-      updated: 2026-07-10-08-57-56
+      updated: 2026-07-16-22-46-12
       accessHash: '-1307738217344421227'
       username: resist_it
       name: KD6-3.7
@@ -5007,11 +5007,11 @@ scrl-p:
   profiles:
     - service: tg
       id: '6913665337'
-      updated: 2026-07-09-21-10-45
+      updated: 2026-07-16-22-46-11
       accessHash: '3180581473506029907'
       username: scrLp
       name: Atlanta
-      avatar: store:/avatars/tg-5361924296198004247.jpg
+      avatar: store:/avatars/tg-5377498225570421010.jpg
 scrolls-of-harmony:
   profiles:
     - service: ig
@@ -5369,11 +5369,11 @@ sonnykotya:
   profiles:
     - service: tg
       id: '7937963458'
-      updated: 2026-07-09-17-45-49
+      updated: 2026-07-16-22-46-04
       accessHash: '6311850478953577755'
       username: sonnykotya
       name: дракоша
-      avatar: store:/avatars/tg-5363933499078940713.jpg
+      avatar: store:/avatars/tg-5388775001508486423.jpg
 sothaseel:
   profiles:
     - service: ig
@@ -6277,7 +6277,7 @@ vail-astor-zkiy:
   profiles:
     - service: tg
       id: '1245638625'
-      updated: 2026-07-16-21-55-09
+      updated: 2026-07-16-22-46-11
       accessHash: '-6135365331334675689'
       name: Vail Astor'zkiy
 valeriy-zhmishenko:

@@ -9690,7 +9690,7 @@
     - service: tg
       id: 629
       published: 2024-12-18-18-12-11
-      updated: 2026-07-09-21-12-55
+      updated: 2026-07-16-22-46-12
       followers: 582
       likes: 69
       views: 711
@@ -13525,10 +13525,10 @@
     - service: tg
       id: 1155
       published: 2026-02-20-18-59-29
-      updated: 2026-07-09-17-45-49
+      updated: 2026-07-16-22-46-10
       followers: 893
       likes: 58
-      views: 718
+      views: 721
       comments: !c |-
         CyeAk5PLQnnH3ynZAACma2V2eS1jpPCfpoCTy0J5x8mD2wAAqnNvbm55a290eWGk8J+XoZPLQnnH
         x4RhgACuZGFya25lc3MtcmlmaG+k8J+ZjwM=
@@ -16384,18 +16384,18 @@
     - service: vk
       id: 3427
       published: 2026-07-16-18-09-41
-      updated: 2026-07-16-21-53-42
+      updated: 2026-07-16-22-45-52
       followers: 1433
       likes: 17
-      views: 123
+      views: 125
       reposts: 1
     - service: tg
       id: 1261
       published: 2026-07-16-18-09-50
-      updated: 2026-07-16-21-53-41
+      updated: 2026-07-16-22-45-50
       followers: 916
-      likes: 26
-      views: 97
+      likes: 27
+      views: 100
     - service: mx
       id: '1784225397462'
       published: 2026-07-16-18-09-57
@@ -17475,7 +17475,7 @@
     - service: vk
       id: 1962
       published: 2024-12-14-18-10-09
-      updated: 2026-07-09-21-13-48
+      updated: 2026-07-16-22-46-03
       followers: 1026
       likes: 44
       views: 389
@@ -17548,18 +17548,18 @@
     - service: vk
       id: 3415
       published: 2026-07-09-19-21-41
-      updated: 2026-07-15-22-01-15
+      updated: 2026-07-16-22-46-02
       followers: 1433
       likes: 32
-      views: 381
+      views: 383
       reposts: 2
     - service: tg
       id: 1254
       published: 2026-07-09-19-21-50
-      updated: 2026-07-15-22-01-11
+      updated: 2026-07-16-22-45-58
       followers: 917
-      likes: 56
-      views: 275
+      likes: 57
+      views: 301
       comments: !c iw2AkZPLQnn0hUrigACrZ29vc2V2aWNoNzak8J+ksgM=
     - service: mx
       id: '1783624917989'
