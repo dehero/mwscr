@@ -28,7 +28,7 @@
     - service: vk
       id: 1158
       published: 2019-05-08
-      updated: 2026-07-09-12-57-49
+      updated: 2026-07-16-13-15-49
       followers: 347
       likes: 61
       views: 668
@@ -46,13 +46,13 @@
         - 170
         - 171
       published: 2019-05-08
-      updated: 2026-07-09-12-57-43
+      updated: 2026-07-16-13-15-31
       likes: 2
       views: 615
     - service: vk
       id: 2552
       published: 2025-08-02-11-22-34
-      updated: 2026-07-09-12-57-35
+      updated: 2026-07-16-13-15-37
       followers: 1357
       likes: 54
       views: 871
@@ -66,7 +66,7 @@
         - 935
         - 936
       published: 2025-08-02-11-22-52
-      updated: 2026-07-09-12-57-34
+      updated: 2026-07-16-13-15-18
       followers: 768
       likes: 68
       views: 814
@@ -106,7 +106,7 @@
     - service: vk
       id: 1165
       published: 2019-05-11
-      updated: 2026-07-09-12-57-47
+      updated: 2026-07-16-13-15-48
       followers: 349
       likes: 49
       views: 649
@@ -117,9 +117,9 @@
         - 175
         - 176
       published: 2019-05-11
-      updated: 2026-07-09-12-57-43
+      updated: 2026-07-16-13-15-31
       likes: 2
-      views: 650
+      views: 651
 2019-05-14-towers-of-mzanchend-by-knives-out:
   title: Towers of Mzanchend
   titleRu: Башни Мзанченда
@@ -149,7 +149,7 @@
     - service: vk
       id: 1169
       published: 2019-05-14
-      updated: 2026-07-09-12-57-47
+      updated: 2026-07-16-13-15-47
       followers: 350
       likes: 44
       views: 777
@@ -159,9 +159,9 @@
         - 180
         - 181
       published: 2019-05-14
-      updated: 2026-07-09-12-57-42
+      updated: 2026-07-16-13-15-31
       likes: 2
-      views: 729
+      views: 731
     - service: ig
       id: DEvC4deuAgT
       mediaId: '17896461711134669'
@@ -174,7 +174,7 @@
     - service: vk
       id: 2050
       published: 2025-01-12-18-10-03
-      updated: 2026-07-09-12-57-41
+      updated: 2026-07-16-13-15-42
       followers: 1052
       likes: 38
       views: 423
@@ -189,7 +189,7 @@
         - 661
         - 662
       published: 2025-01-12-18-10-23
-      updated: 2026-07-09-12-57-38
+      updated: 2026-07-16-13-15-28
       followers: 648
       likes: 68
       views: 654

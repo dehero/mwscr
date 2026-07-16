@@ -1060,10 +1060,10 @@
     - service: vk
       id: 3303
       published: 2026-04-21-19-21-54
-      updated: 2026-07-09-12-54-56
+      updated: 2026-07-16-13-13-38
       followers: 1434
       likes: 60
-      views: 1016
+      views: 1017
       reposts: 2
       comments: !c |-
         G/IA4J0Jti2Dbbiy6hGpkR/19DfS5/o1S7BJMMJkT90WWjI2MRgMeUwG5/8MWVtezBl3WfF33ScN
@@ -1072,10 +1072,10 @@
     - service: tg
       id: 1216
       published: 2026-04-21-19-22-01
-      updated: 2026-07-09-12-54-24
+      updated: 2026-07-16-13-12-58
       followers: 900
       likes: 54
-      views: 533
+      views: 538
     - service: mx
       id: '1776799325950'
       published: 2026-04-21-19-22-05
@@ -1213,10 +1213,10 @@
     - service: vk
       id: 3368
       published: 2026-05-17-19-24-06
-      updated: 2026-07-09-12-54-21
+      updated: 2026-07-16-13-13-17
       followers: 1433
       likes: 71
-      views: 811
+      views: 814
       reposts: 7
       comments: !c |-
         G+gCICwOzHO6zrCNLpB/RyzE/9Pf8/t8hc7466EEFDReFHAJJUmCydqgmTSd0LZCsqfmGho+43PA
@@ -1229,10 +1229,10 @@
     - service: tg
       id: 1230
       published: 2026-05-17-19-24-10
-      updated: 2026-07-09-12-54-07
+      updated: 2026-07-16-13-12-41
       followers: 906
-      likes: 65
-      views: 505
+      likes: 66
+      views: 519
       comments: !c |-
         G1sB4C0SeA7FfhuBykO/6B85sYRfm1SwCNUKLhMa8eSes62SypeA3Jh7T1Ddhs2aTc1gEEwWsW07
         YjhyzDM37Vodd4MDpyQOePNtwYGHbV5o0N3Ghse1pHoWSC8+3395L/k4fs+e3WjV0+2AM01zmcYB
@@ -1600,17 +1600,17 @@
     - service: vk
       id: 3160
       published: 2026-03-08-18-46-21
-      updated: 2026-07-09-12-56-28
+      updated: 2026-07-16-13-14-46
       followers: 1617
       likes: 49
       views: 496
     - service: tg
       id: 1173
       published: 2026-03-08-18-46-24
-      updated: 2026-07-09-12-55-22
+      updated: 2026-07-16-13-13-39
       followers: 883
       likes: 50
-      views: 503
+      views: 506
       comments: !c CwuAkZPLQnnM/D6agACma2V2eS1jpPCfpoAD
     - service: mx
       id: '1772995587099'
@@ -1789,7 +1789,7 @@
     - service: vk
       id: 3107
       published: 2026-02-24-18-05-50
-      updated: 2026-07-09-12-56-44
+      updated: 2026-07-16-13-15-00
       followers: 1607
       likes: 60
       views: 547
@@ -1822,10 +1822,10 @@
     - service: tg
       id: 1159
       published: 2026-02-24-18-05-55
-      updated: 2026-07-09-12-55-44
+      updated: 2026-07-16-13-13-52
       followers: 891
       likes: 64
-      views: 626
+      views: 628
       comments: !c |-
         iy6AkpPLQnnJWa57gACma2V2eS1jpPCfpoCTy0J5yUQKcYAArnBhaW5raWxsZXIxOTg22SzQkdCw
         0LfQvtCy0LjRh9C60Lgg0YMg0LrQvtGB0YLRgNCwINC/0L7QutCwLgM=
@@ -2162,10 +2162,10 @@
     - service: tg
       id: 1172
       published: 2026-03-07-18-45-42
-      updated: 2026-07-09-12-55-24
+      updated: 2026-07-16-13-13-40
       followers: 883
       likes: 73
-      views: 707
+      views: 711
       comments: !c |-
         G6oACB0HdsNXwcHIo4vlNIYgorV9ipcePDQvWczbS0cbdNGSxWYjmVCAOJtQq5aEemyC94ANOOaI
         Y81wkJ1yooFxWFsQ21GvN7/b2BterwiK0O7TcvmI6q56MrR9a9wpF2v5RvobYA40nxUDFCcGyRMD
@@ -2177,7 +2177,7 @@
     - service: vk
       id: 3159
       published: 2026-03-07-19-31-33
-      updated: 2026-07-09-12-56-29
+      updated: 2026-07-16-13-14-47
       followers: 1615
       likes: 101
       views: 1266
@@ -2318,7 +2318,7 @@
     - service: vk
       id: 3245
       published: 2026-04-02-18-40-57
-      updated: 2026-07-09-12-55-31
+      updated: 2026-07-16-13-14-04
       followers: 1628
       likes: 53
       views: 965
@@ -2326,10 +2326,10 @@
     - service: tg
       id: 1200
       published: 2026-04-02-18-41-02
-      updated: 2026-07-09-12-54-45
+      updated: 2026-07-16-13-13-12
       followers: 899
       likes: 62
-      views: 564
+      views: 568
       comments: !c |-
         G90AUJwHdgwZY2Gtiw62gFD88/6N9M0/eEhtEVcCBZRAcq62jQypmG1V0CqGOu9uMPymbj5QIpGF
         JTTG0P9NXbS1ELdYWObNFevkSA94wwPw520tkpDPieYB1ya0GLHWKOG8f8XxFxWmZxfibCevbA1C
@@ -2518,10 +2518,10 @@
     - service: vk
       id: 3360
       published: 2026-05-15-19-47-21
-      updated: 2026-07-09-12-54-26
+      updated: 2026-07-16-13-13-22
       followers: 1433
       likes: 76
-      views: 794
+      views: 797
       reposts: 6
       comments: !c |-
         G+wA0KwOeDNfJHEgeBDOhqnzULGPkDmd56XbCAc0ttMjqESSIjh5X+umFaF0oQtJaDv+edjY7BKI
@@ -2531,10 +2531,10 @@
     - service: tg
       id: 1228
       published: 2026-05-15-19-47-25
-      updated: 2026-07-09-12-54-10
+      updated: 2026-07-16-13-12-43
       followers: 906
       likes: 68
-      views: 692
+      views: 711
       comments: !c |-
         GzkA4I3UTrcOLfTphFTZbIoCQYkmJdUe2ptCRWhcD2JIKxSBjTFwfZ/0Oz2/Wg5ghY3YQkkx/Q2V
         cxBCWQ==
