@@ -61,7 +61,7 @@
     - service: vk
       id: 2675
       published: 2025-09-22-18-26-32
-      updated: 2026-07-09-19-18-04
+      updated: 2026-07-16-19-54-50
       followers: 1428
       likes: 41
       views: 664
@@ -508,7 +508,7 @@
     - service: vk
       id: 2258
       published: 2025-04-06-18-28-44
-      updated: 2026-07-09-19-20-43
+      updated: 2026-07-16-19-56-48
       followers: 1233
       likes: 48
       views: 486
@@ -519,10 +519,10 @@
     - service: tg
       id: 782
       published: 2025-04-06-18-28-50
-      updated: 2026-07-09-19-20-14
+      updated: 2026-07-16-19-56-22
       followers: 717
       likes: 60
-      views: 635
+      views: 636
       comments: !c |-
         CzKAkpPLQnlgxjHAAACtY2FpdXMtY29zYWRlc9kgbmV0ZmxpeCBhZGFwdGF0aW9uIG9mIHRoZSBk
         YXVnaHOTy0J5YMXVtYAApWFuc2lzuU5vdCB0aGF0IGRlYWRseS4gSSdkIHdpbi4D
@@ -570,7 +570,7 @@
     - service: vk
       id: 2484
       published: 2025-06-24-18-28-09
-      updated: 2026-07-09-19-18-11
+      updated: 2026-07-16-19-55-00
       followers: 1328
       likes: 58
       views: 574
@@ -578,10 +578,10 @@
     - service: tg
       id: 895
       published: 2025-06-24-18-28-13
-      updated: 2026-07-09-19-18-24
+      updated: 2026-07-16-19-55-00
       followers: 753
       likes: 66
-      views: 655
+      views: 656
     - service: ig
       id: DLS4FQzgAKX
       mediaId: '17868937881306574'
@@ -1091,7 +1091,7 @@
     - service: vk
       id: 2332
       published: 2025-05-03-18-22-20
-      updated: 2026-07-09-19-20-05
+      updated: 2026-07-16-19-56-15
       followers: 1275
       likes: 71
       views: 556
@@ -1102,10 +1102,10 @@
     - service: tg
       id: 826
       published: 2025-05-03-18-22-30
-      updated: 2026-07-09-19-19-43
+      updated: 2026-07-16-19-55-51
       followers: 736
       likes: 72
-      views: 618
+      views: 619
 2020-10-14-random-visitor:
   title: Random Visitor
   titleRu: Случайный посетитель
@@ -1546,7 +1546,7 @@
     - service: vk
       id: 2465
       published: 2025-06-14-18-24-35
-      updated: 2026-07-09-19-18-48
+      updated: 2026-07-16-19-55-14
       followers: 1326
       likes: 70
       views: 635
@@ -1559,10 +1559,10 @@
     - service: tg
       id: 885
       published: 2025-06-14-18-24-42
-      updated: 2026-07-09-19-18-35
+      updated: 2026-07-16-19-55-10
       followers: 746
       likes: 69
-      views: 620
+      views: 621
 2020-10-21-land-of-rain:
   title: Land of Rain
   titleRu: Земля дождя
@@ -1992,7 +1992,7 @@
     - service: vk
       id: 2329
       published: 2025-05-01-18-25-16
-      updated: 2026-07-09-19-20-08
+      updated: 2026-07-16-19-56-18
       followers: 1275
       likes: 43
       views: 504
@@ -2004,10 +2004,10 @@
     - service: tg
       id: 824
       published: 2025-05-01-18-25-26
-      updated: 2026-07-09-19-19-45
+      updated: 2026-07-16-19-55-53
       followers: 734
       likes: 72
-      views: 578
+      views: 579
       comments: !c |-
         CyyAk5PLQnlpbfo6gACnYnJnMTA5Mq1Db3JwcnVzYXJpdW0/k8tCeWlt86MAAKptYXgtdXBzaGVy
         pPCfmJKTy0J5aNM1YQAArmRhcmtuZXNzLXJpZmhvpPCfmJAD

@@ -94,7 +94,7 @@
     - service: vk
       id: 2312
       published: 2025-04-28-18-25-04
-      updated: 2026-07-09-19-20-14
+      updated: 2026-07-16-19-56-24
       followers: 1274
       likes: 72
       views: 525
@@ -109,10 +109,10 @@
     - service: tg
       id: 821
       published: 2025-04-28-18-25-09
-      updated: 2026-07-09-19-19-49
+      updated: 2026-07-16-19-55-57
       followers: 726
       likes: 82
-      views: 689
+      views: 690
       comments: !c |-
         GxMBACwObCc0ME0obunnUpGyRqh0/iFvIxzIxpZJgXVRpMn7ZOncSio6R7IykMnOuKGqcyNnUyO1
         /wTcYKNaiqk79WQxvcaPaMxGrlIzky4gCzo5cGkHuVDh53ksgQSecVgSiAY7YGdyaTh2zutbLX8X
@@ -605,10 +605,10 @@
     - service: tg
       id: 1257
       published: 2026-07-12-18-46-33
-      updated: 2026-07-15-18-51-29
+      updated: 2026-07-16-19-54-36
       followers: 915
-      likes: 57
-      views: 226
+      likes: 59
+      views: 260
       comments: !c |-
         G5oAKIyT5QbdTX9/8xO+63xq9jGc+FdjDCrQEoi6CAIqJ3DrdXKgB8R/F8yCQDIJ+eB5yko00WTl
         2bQ/zuvD64dkR3cpgqEv65+YYz/AT8Cuwhn2A8ez5O6cDHybGIb64njPsDEvyrrjxVLpKrhYG7YM
@@ -824,7 +824,7 @@
     - service: vk
       id: 2282
       published: 2025-04-16-18-22-11
-      updated: 2026-07-09-19-20-30
+      updated: 2026-07-16-19-56-36
       followers: 1261
       likes: 75
       views: 565
@@ -835,10 +835,10 @@
     - service: tg
       id: 797
       published: 2025-04-16-18-22-22
-      updated: 2026-07-09-19-20-01
+      updated: 2026-07-16-19-56-10
       followers: 720
       likes: 61
-      views: 618
+      views: 620
 2016-12-02-molag-mar:
   title: Molag Mar
   titleRu: Молаг Мар
@@ -1654,7 +1654,7 @@
     - service: vk
       id: 2470
       published: 2025-06-17-18-28-43
-      updated: 2026-07-09-19-18-36
+      updated: 2026-07-16-19-55-10
       followers: 1327
       likes: 56
       views: 468
@@ -1668,10 +1668,10 @@
     - service: tg
       id: 888
       published: 2025-06-17-18-28-46
-      updated: 2026-07-09-19-18-32
+      updated: 2026-07-16-19-55-07
       followers: 749
       likes: 66
-      views: 613
+      views: 614
 2016-12-19-hla-oad:
   title: Hla Oad
   titleRu: Хла Оуд

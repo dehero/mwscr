@@ -70,10 +70,10 @@
     - service: tg
       id: 905
       published: 2025-07-02-18-24-07
-      updated: 2026-07-09-17-48-00
+      updated: 2026-07-16-19-54-51
       followers: 760
       likes: 72
-      views: 645
+      views: 646
       comments: !c |-
         GzwBICyOx+2nFLWNo94R//xzsuFsoF93zs5Ug0TCuASCMLGS+zBtWyUVwVC9eYOhvxnrQ7aNb/1L
         MqfbBF8QXKZoKOjmYteYFgRFRLCI8rf+mO8GRxoQh+s2TzLrGODAGy4yuMkKG2SzJu63x/O35r7d
@@ -183,17 +183,17 @@
     - service: vk
       id: 2382
       published: 2025-05-24-18-18-58
-      updated: 2026-07-09-19-19-31
+      updated: 2026-07-16-19-55-46
       followers: 1305
       likes: 55
       views: 470
     - service: tg
       id: 857
       published: 2025-05-24-18-19-06
-      updated: 2026-07-09-19-19-17
+      updated: 2026-07-16-19-55-28
       followers: 739
       likes: 65
-      views: 586
+      views: 587
 2023-07-31-overhanging-rock-by-darkness-rifho:
   title: Overhanging Rock
   titleRu: Нависающая скала
@@ -352,7 +352,7 @@
     - service: vk
       id: 2341
       published: 2025-05-06-18-24-44
-      updated: 2026-07-09-19-20-00
+      updated: 2026-07-16-19-56-09
       followers: 1281
       likes: 46
       views: 488
@@ -365,10 +365,10 @@
     - service: tg
       id: 832
       published: 2025-05-06-18-24-51
-      updated: 2026-07-09-19-19-38
+      updated: 2026-07-16-19-55-47
       followers: 738
       likes: 69
-      views: 723
+      views: 724
 2023-08-03-spinning-wheel:
   title: Spinning-Wheel
   titleRu: Прялка
@@ -759,7 +759,7 @@
     - service: vk
       id: 2251
       published: 2025-04-01-18-21-46
-      updated: 2026-07-09-19-20-49
+      updated: 2026-07-16-19-56-53
       followers: 1226
       likes: 75
       views: 470
@@ -767,10 +767,10 @@
     - service: tg
       id: 773
       published: 2025-04-01-18-21-57
-      updated: 2026-07-09-19-20-19
+      updated: 2026-07-16-19-56-27
       followers: 712
       likes: 68
-      views: 682
+      views: 683
 2023-08-10-behind-a-barrel:
   title: Behind a Barrel
   titleRu: За бочкой
