@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file.
 
+## [2.27.1](https://github.com/dehero/mwscr/compare/v2.27.0...v2.27.1) (2026-07-16)
+
+### Bug Fixes
+
+- update MAX follower count ([f427dcf](https://github.com/dehero/mwscr/commit/f427dcfd759ffcb6c208cea99bded7f0066f1d9b))
+- update MAX subscription url to channel path
+  ([d64c893](https://github.com/dehero/mwscr/commit/d64c89342cc61f160dc7bb088a96f6a952e06efb))
+- use self-hosted runner to resolve issues
+  ([2cf46dc](https://github.com/dehero/mwscr/commit/2cf46dc2f713ab26006a630775293d30a1bd46cc))
+
 ## [2.27.0](https://github.com/dehero/mwscr/compare/v2.26.4...v2.27.0) (2026-06-19)
 
 ### Features
