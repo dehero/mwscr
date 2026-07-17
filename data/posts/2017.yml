@@ -250,7 +250,7 @@
     - service: tg
       id: 329
       published: 2024-02-27-20-14-31
-      updated: 2026-07-10-08-57-10
+      updated: 2026-07-17-09-44-14
       followers: 337
       likes: 93
       views: 642
@@ -4702,10 +4702,10 @@
     - service: tg
       id: 331
       published: 2024-02-29-18-01-07
-      updated: 2026-07-10-08-57-08
+      updated: 2026-07-17-09-44-13
       followers: 338
       likes: 83
-      views: 663
+      views: 664
     - service: ig
       id: DWrgArHl5nu
       mediaId: '18145746310427882'
@@ -8118,10 +8118,10 @@
     - service: tg
       id: 1260
       published: 2026-07-15-18-51-58
-      updated: 2026-07-17-07-08-41
+      updated: 2026-07-17-09-44-00
       followers: 915
       likes: 45
-      views: 194
+      views: 201
     - service: mx
       id: '1784141523439'
       published: 2026-07-15-18-52-03
@@ -8129,10 +8129,10 @@
     - service: vk
       id: 3425
       published: 2026-07-15-20-00-31
-      updated: 2026-07-17-07-08-49
+      updated: 2026-07-17-09-44-12
       followers: 1432
-      likes: 36
-      views: 402
+      likes: 38
+      views: 412
       reposts: 2
       comments: !c |-
         G80AqCwOeBNzZYgO3cUzPiL0LFfouUlBmhkOZZnoyCb3ZresVjlthAVC1Jy+YHc7/E7l2VebXIeV
