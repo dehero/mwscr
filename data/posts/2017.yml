@@ -8118,10 +8118,10 @@
     - service: tg
       id: 1260
       published: 2026-07-15-18-51-58
-      updated: 2026-07-17-17-56-00
+      updated: 2026-07-17-18-50-28
       followers: 915
       likes: 45
-      views: 219
+      views: 220
     - service: mx
       id: '1784141523439'
       published: 2026-07-15-18-52-03
@@ -8129,10 +8129,10 @@
     - service: vk
       id: 3425
       published: 2026-07-15-20-00-31
-      updated: 2026-07-17-17-56-11
+      updated: 2026-07-17-18-50-37
       followers: 1432
-      likes: 42
-      views: 440
+      likes: 43
+      views: 445
       reposts: 2
       comments: !c |-
         G80AqCwOeBNzZYgO3cUzPiL0LFfouUlBmhkOZZnoyCb3ZresVjlthAVC1Jy+YHc7/E7l2VebXIeV
@@ -16573,18 +16573,18 @@
     - service: vk
       id: 3420
       published: 2026-07-13-18-26-20
-      updated: 2026-07-16-18-07-05
+      updated: 2026-07-17-18-50-38
       followers: 1432
-      likes: 34
-      views: 414
+      likes: 35
+      views: 434
       reposts: 2
     - service: tg
       id: 1258
       published: 2026-07-13-18-26-30
-      updated: 2026-07-16-18-06-56
+      updated: 2026-07-17-18-50-29
       followers: 914
-      likes: 50
-      views: 215
+      likes: 51
+      views: 245
     - service: mx
       id: '1783967197856'
       published: 2026-07-13-18-26-37
@@ -17382,6 +17382,18 @@
       likes: 14
       views: 205
       comments: !c ixaAkZPLQnYBkhzfAACrbHljYW50aHJvcHm20J7Rh9C10L3RjCDRg9GO0YLQvdC+KQM=
+    - service: vk
+      id: 3429
+      published: 2026-07-17-18-53-11
+      followers: 1434
+    - service: tg
+      id: 1262
+      published: 2026-07-17-18-53-20
+      followers: 917
+    - service: mx
+      id: '1784314408302'
+      published: 2026-07-17-18-53-28
+      followers: 23
 2017-12-03-upper-circles:
   title: Upper Circles
   titleRu: Высокие круги
@@ -18529,7 +18541,7 @@
     - service: vk
       id: 555
       published: 2017-12-28
-      updated: 2026-07-10-18-18-00
+      updated: 2026-07-17-18-52-49
       followers: 115
       likes: 11
       views: 163
@@ -18588,7 +18600,7 @@
     - service: vk
       id: 556
       published: 2017-12-29
-      updated: 2026-07-10-18-17-59
+      updated: 2026-07-17-18-52-48
       followers: 115
       likes: 16
       views: 168
@@ -18648,7 +18660,7 @@
     - service: vk
       id: 557
       published: 2017-12-30
-      updated: 2026-07-10-18-17-57
+      updated: 2026-07-17-18-52-47
       followers: 115
       likes: 13
       views: 160
@@ -18680,7 +18692,7 @@
     - service: vk
       id: 558
       published: 2017-12-31
-      updated: 2026-07-10-18-17-56
+      updated: 2026-07-17-18-52-45
       followers: 115
       likes: 12
       views: 188
