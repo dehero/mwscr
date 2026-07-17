@@ -1419,7 +1419,7 @@ dehero:
       avatar: store:/avatars/gh-c8afe641.jpg
     - service: vk
       id: '3652910'
-      updated: 2026-07-17-22-38-11
+      updated: 2026-07-17-23-43-00
       username: dehero
       name: Антон Курьянов
       avatar: store:/avatars/vk-5356f76e.jpg
@@ -1998,7 +1998,7 @@ evil-kit:
   profiles:
     - service: vk
       id: '153155138'
-      updated: 2026-07-11-04-51-29
+      updated: 2026-07-17-23-43-00
       username: evil_kit
       name: Никита Метелкин
       avatar: store:/avatars/vk-adb64972.jpg
@@ -2561,7 +2561,7 @@ idalexeyvav:
   profiles:
     - service: vk
       id: '417783044'
-      updated: 2026-07-10-22-50-25
+      updated: 2026-07-17-23-43-04
       username: idalexeyvav
       name: Алексей Вавилов
       avatar: store:/avatars/vk-6717456e.jpg
@@ -3096,7 +3096,7 @@ kilbil200:
   profiles:
     - service: vk
       id: '183425037'
-      updated: 2026-07-17-22-37-10
+      updated: 2026-07-17-23-40-54
       username: kilbil200
       name: Артём Жуков
       avatar: store:/avatars/vk-e757edac.jpg
@@ -3485,7 +3485,7 @@ maks-perunov:
   profiles:
     - service: vk
       id: '35868942'
-      updated: 2026-07-17-07-10-55
+      updated: 2026-07-17-23-42-20
       username: id35868942
       name: Макс Перунов
       avatar: store:/avatars/vk-3bb92045.jpg
