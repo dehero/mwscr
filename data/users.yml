@@ -444,7 +444,7 @@ andrey-yaprintsev:
   profiles:
     - service: vk
       id: '599320069'
-      updated: 2026-07-16-23-46-39
+      updated: 2026-07-17-01-23-11
       username: id599320069
       name: Андрей Япринцев
       avatar: store:/avatars/vk-4e415fa2.jpg
@@ -610,7 +610,7 @@ arya-stark:
   profiles:
     - service: vk
       id: '820702664'
-      updated: 2026-07-16-23-46-39
+      updated: 2026-07-17-01-23-12
       username: id820702664
       name: Арья Старк
       avatar: store:/avatars/vk-689aa89d.jpg
@@ -1639,7 +1639,7 @@ dr-jackyll:
   profiles:
     - service: vk
       id: '14071727'
-      updated: 2026-07-16-23-47-10
+      updated: 2026-07-17-01-23-11
       username: dr.jackyll
       name: Никита Синицын
       avatar: store:/avatars/vk-d0bf7b99.jpg
@@ -1662,7 +1662,7 @@ dremarretres:
   profiles:
     - service: vk
       id: '801308664'
-      updated: 2026-07-16-23-46-36
+      updated: 2026-07-17-01-23-09
       username: dremarretres
       name: Джон Шепард
       avatar: store:/avatars/vk-ac4f0700.jpg
@@ -1866,7 +1866,7 @@ ellen-ripleyyy:
     - type: channel
       service: vk
       id: '218372347'
-      updated: 2026-07-16-23-46-39
+      updated: 2026-07-17-01-23-12
       username: ellen_ripleyyy
       name: Gxivuvib
       avatar: store:/avatars/vk-63be2516.jpg
@@ -5273,10 +5273,10 @@ smoker1994:
   profiles:
     - service: vk
       id: '117900216'
-      updated: 2026-07-09-23-01-19
+      updated: 2026-07-17-01-23-12
       username: piper88
       name: Кирилл Усов
-      avatar: store:/avatars/vk-3424ad83.jpg
+      avatar: store:/avatars/vk-1dee8357.jpg
 smolmewsh:
   profiles:
     - service: tg
