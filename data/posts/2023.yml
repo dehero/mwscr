@@ -816,6 +816,18 @@
         G8gAUBwJdizkAz2yskDwfN7GAxnuQxqG0HkQ1SzgBt5dIIEGyXuYm66kZshogn8A/M9OMPOEM+j9
         oNu67YAPLZ2c6BlvfDxoYq15zAG3hHLKUeJRURri7Tt87P3zfX4dUrrpbmnb3P4QCgSyZJf3IJhw
         ICgRBT3enDGQ4BxqifKp055QbExiLueRn10TuDYCBZGAra+v9nmctKP40MYOCh74igU=
+    - service: vk
+      id: 3431
+      published: 2026-07-18-18-43-14
+      followers: 1432
+    - service: tg
+      id: 1263
+      published: 2026-07-18-18-43-23
+      followers: 917
+    - service: mx
+      id: '1784400210053'
+      published: 2026-07-18-18-43-30
+      followers: 23
 2023-08-11-waterside-encounters:
   title: Waterside Encounters
   titleRu: Встречи у берега
