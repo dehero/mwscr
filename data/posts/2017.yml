@@ -385,7 +385,7 @@
     - service: vk
       id: 57
       published: 2017-01-09
-      updated: 2026-07-11-04-51-40
+      updated: 2026-07-18-06-52-24
       followers: 4
       likes: 4
       views: 97
@@ -417,7 +417,7 @@
     - service: vk
       id: 58
       published: 2017-01-10
-      updated: 2026-07-11-04-51-39
+      updated: 2026-07-18-06-52-23
       followers: 4
       views: 105
 2017-01-11-fort-pelagiad:
@@ -442,7 +442,7 @@
     - service: vk
       id: 59
       published: 2017-01-11
-      updated: 2026-07-11-04-51-38
+      updated: 2026-07-18-06-52-22
       followers: 4
       likes: 2
       views: 108
@@ -468,7 +468,7 @@
     - service: vk
       id: 60
       published: 2017-01-12
-      updated: 2026-07-11-04-51-36
+      updated: 2026-07-18-06-52-20
       followers: 4
       likes: 8
       views: 107
@@ -501,7 +501,7 @@
     - service: vk
       id: 61
       published: 2017-01-13
-      updated: 2026-07-11-04-51-35
+      updated: 2026-07-18-06-52-19
       followers: 4
       likes: 5
       views: 110
@@ -533,7 +533,7 @@
     - service: vk
       id: 62
       published: 2017-01-14
-      updated: 2026-07-11-04-51-34
+      updated: 2026-07-18-06-52-18
       followers: 4
       likes: 6
       views: 131
@@ -592,7 +592,7 @@
     - service: vk
       id: 63
       published: 2017-01-15
-      updated: 2026-07-11-04-51-33
+      updated: 2026-07-18-06-52-17
       followers: 4
       likes: 4
       views: 110
@@ -620,7 +620,7 @@
     - service: vk
       id: 64
       published: 2017-01-16
-      updated: 2026-07-11-04-51-32
+      updated: 2026-07-18-06-52-16
       followers: 4
       likes: 3
       views: 116
@@ -650,7 +650,7 @@
     - service: vk
       id: 65
       published: 2017-01-17
-      updated: 2026-07-11-04-51-31
+      updated: 2026-07-18-06-52-14
       followers: 4
       likes: 3
       views: 122
@@ -678,7 +678,7 @@
     - service: vk
       id: 66
       published: 2017-01-18
-      updated: 2026-07-11-04-51-30
+      updated: 2026-07-18-06-52-13
       followers: 4
       likes: 4
       views: 137
@@ -745,7 +745,7 @@
     - service: vk
       id: 67
       published: 2017-01-19
-      updated: 2026-07-11-04-51-22
+      updated: 2026-07-18-06-52-12
       followers: 4
       likes: 5
       views: 138
@@ -809,7 +809,7 @@
     - service: vk
       id: 68
       published: 2017-01-20
-      updated: 2026-07-11-04-51-20
+      updated: 2026-07-18-06-52-10
       followers: 4
       likes: 5
       views: 146
@@ -888,7 +888,7 @@
     - service: vk
       id: 69
       published: 2017-01-21
-      updated: 2026-07-11-04-51-19
+      updated: 2026-07-18-06-52-09
       followers: 4
       likes: 7
       views: 156
@@ -17385,10 +17385,10 @@
     - service: vk
       id: 3429
       published: 2026-07-17-18-53-11
-      updated: 2026-07-18-04-36-31
+      updated: 2026-07-18-06-52-06
       followers: 1434
-      likes: 22
-      views: 190
+      likes: 24
+      views: 222
       reposts: 2
       comments: !c |-
         iyWAkZPLQnn3GpWoAACpa2lsYmlsMjAw2TXQktC+0YHQv9C+0LzQuNC90LDQvdC40LUg0YDQsNC3
@@ -17396,10 +17396,10 @@
     - service: tg
       id: 1262
       published: 2026-07-17-18-53-20
-      updated: 2026-07-18-04-36-22
+      updated: 2026-07-18-06-51-56
       followers: 917
-      likes: 29
-      views: 120
+      likes: 31
+      views: 128
     - service: mx
       id: '1784314408302'
       published: 2026-07-17-18-53-28

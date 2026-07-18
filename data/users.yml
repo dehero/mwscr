@@ -610,7 +610,7 @@ arya-stark:
   profiles:
     - service: vk
       id: '820702664'
-      updated: 2026-07-17-17-56-14
+      updated: 2026-07-18-06-52-26
       username: id820702664
       name: Арья Старк
       avatar: store:/avatars/vk-689aa89d.jpg
@@ -1419,7 +1419,7 @@ dehero:
       avatar: store:/avatars/gh-c8afe641.jpg
     - service: vk
       id: '3652910'
-      updated: 2026-07-18-01-16-28
+      updated: 2026-07-18-06-52-13
       username: dehero
       name: Антон Курьянов
       avatar: store:/avatars/vk-5356f76e.jpg
@@ -1998,7 +1998,7 @@ evil-kit:
   profiles:
     - service: vk
       id: '153155138'
-      updated: 2026-07-18-01-16-03
+      updated: 2026-07-18-06-52-13
       username: evil_kit
       name: Никита Метелкин
       avatar: store:/avatars/vk-adb64972.jpg
@@ -3096,7 +3096,7 @@ kilbil200:
   profiles:
     - service: vk
       id: '183425037'
-      updated: 2026-07-18-04-36-31
+      updated: 2026-07-18-06-52-06
       username: kilbil200
       name: Артём Жуков
       avatar: store:/avatars/vk-e757edac.jpg
@@ -5097,7 +5097,7 @@ sergey-b-2:
   profiles:
     - service: vk
       id: '1077446394'
-      updated: 2026-07-16-18-07-35
+      updated: 2026-07-18-06-52-26
       username: id1077446394
       name: Сергей Б
       avatar: store:/avatars/vk-f5b20109.jpg
