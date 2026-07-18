@@ -350,7 +350,7 @@
     - service: vk
       id: 56
       published: 2017-01-22
-      updated: 2026-07-10-23-47-51
+      updated: 2026-07-18-04-36-33
       likes: 6
       views: 74
     - service: ig
@@ -951,7 +951,7 @@
     - service: vk
       id: 70
       published: 2017-01-22
-      updated: 2026-07-10-23-47-52
+      updated: 2026-07-18-04-36-34
       followers: 4
       likes: 6
       views: 205
@@ -983,7 +983,7 @@
     - service: vk
       id: 71
       published: 2017-01-22
-      updated: 2026-07-10-23-47-53
+      updated: 2026-07-18-04-36-36
       followers: 4
       likes: 8
       views: 135
@@ -17385,10 +17385,10 @@
     - service: vk
       id: 3429
       published: 2026-07-17-18-53-11
-      updated: 2026-07-18-01-15-33
+      updated: 2026-07-18-04-36-31
       followers: 1434
-      likes: 17
-      views: 145
+      likes: 22
+      views: 190
       reposts: 2
       comments: !c |-
         iyWAkZPLQnn3GpWoAACpa2lsYmlsMjAw2TXQktC+0YHQv9C+0LzQuNC90LDQvdC40LUg0YDQsNC3
@@ -17396,10 +17396,10 @@
     - service: tg
       id: 1262
       published: 2026-07-17-18-53-20
-      updated: 2026-07-18-01-15-25
+      updated: 2026-07-18-04-36-22
       followers: 917
-      likes: 28
-      views: 111
+      likes: 29
+      views: 120
     - service: mx
       id: '1784314408302'
       published: 2026-07-17-18-53-28
