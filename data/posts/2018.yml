@@ -16384,18 +16384,23 @@
     - service: vk
       id: 3427
       published: 2026-07-16-18-09-41
-      updated: 2026-07-18-17-45-40
+      updated: 2026-07-19-17-46-51
       followers: 1433
-      likes: 36
-      views: 361
-      reposts: 1
+      likes: 41
+      views: 516
+      reposts: 2
+      comments: !c |-
+        G0MBoCwOeJNxZWzRFei+IP7552TjCX1e5VIUFuSdKM4iTe7ThLKgdDMYoycQ9tPR5VfoARY79ph+
+        ezip0iypZMSypewMZHIaMGccBe25BxpkGiWe5zDXIbVDy8ED98dnnP/zeS7L+9TxzvIdO69C4SR7
+        FKnZLorVru2AJp/0j5hCKfejiSDW7UNi5geMfdSC7cXwtFS4lYxgobHNb94b5LrwX+tqIuG4VCnC
+        haPZzgdMScQHqebvgIYHqWqLvhSUFfggzR0VegE=
     - service: tg
       id: 1261
       published: 2026-07-16-18-09-50
-      updated: 2026-07-18-17-45-30
+      updated: 2026-07-19-17-46-42
       followers: 916
-      likes: 45
-      views: 196
+      likes: 52
+      views: 225
     - service: mx
       id: '1784225397462'
       published: 2026-07-16-18-09-57
