@@ -1027,6 +1027,18 @@
         HS7yB5x1nRX8dIut/9X5aewHjL6aIGh5UhtL8bPTvZS/8F3WmlU4VpHYiOtP97u950unM0Ffvkir
         vNFrmQaKHhfIxx/KpC/lq8fSkSUGPClwb5wGjKm8LxjSZqPGUDpWvXT6Y9Lcro6YvdgAtfhtX7oQ
         K2zh
+    - service: vk
+      id: 3436
+      published: 2026-07-19-18-46-08
+      followers: 1433
+    - service: tg
+      id: 1264
+      published: 2026-07-19-18-46-14
+      followers: 916
+    - service: mx
+      id: '1784486779130'
+      published: 2026-07-19-18-46-19
+      followers: 23
 2020-10-13-by-the-entrance-to-palansour:
   title: By the Entrance to Palansour
   titleRu: У входа в Палансур

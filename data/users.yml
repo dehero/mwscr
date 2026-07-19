@@ -610,7 +610,7 @@ arya-stark:
   profiles:
     - service: vk
       id: '820702664'
-      updated: 2026-07-18-18-42-53
+      updated: 2026-07-19-18-45-47
       username: id820702664
       name: Арья Старк
       avatar: store:/avatars/vk-689aa89d.jpg
@@ -2030,7 +2030,7 @@ feanor2la:
   profiles:
     - service: vk
       id: '16294877'
-      updated: 2026-07-18-18-42-53
+      updated: 2026-07-19-18-45-47
       username: feanor2la
       name: Иван Урлапов
       avatar: store:/avatars/vk-14fd45f0.jpg
@@ -2764,7 +2764,7 @@ ivan-uralov:
   profiles:
     - service: vk
       id: '16497155'
-      updated: 2026-07-18-18-42-53
+      updated: 2026-07-19-18-45-47
       username: id16497155
       name: Иван Уралов
       avatar: store:/avatars/vk-51775759.jpg
@@ -3096,7 +3096,7 @@ kilbil200:
   profiles:
     - service: vk
       id: '183425037'
-      updated: 2026-07-19-17-46-49
+      updated: 2026-07-19-18-45-46
       username: kilbil200
       name: Артём Жуков
       avatar: store:/avatars/vk-e757edac.jpg
@@ -5097,7 +5097,7 @@ sergey-b-2:
   profiles:
     - service: vk
       id: '1077446394'
-      updated: 2026-07-19-17-46-51
+      updated: 2026-07-19-18-45-48
       username: id1077446394
       name: Сергей Б
       avatar: store:/avatars/vk-f5b20109.jpg
