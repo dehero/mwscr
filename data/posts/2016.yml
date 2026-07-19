@@ -623,11 +623,15 @@
     - service: vk
       id: 3419
       published: 2026-07-12-20-43-11
-      updated: 2026-07-18-23-40-52
+      updated: 2026-07-19-23-44-57
       followers: 1432
-      likes: 56
-      views: 586
+      likes: 58
+      views: 601
       reposts: 5
+      comments: !c |-
+        G/MAACwObEc0zUDwBi6J4a8YFXEjfSzzyCJqEos02XN1WsaxcyL0PfzbTnimQ5zN/vt3SSuUiGsZ
+        sex72VJ25hjnEw0EtwBOtvjgg4es5Ct2xex5/+xvXBrfXV0TfT37dStl/phCj9xpTCEK7CVwLPAL
+        UBaSxVugzsRijmYGjjGyanCHl4RxkRPYdCKzNrbAp+hMSxxWw7A2AQ==
 2016-11-28-forest-on-the-border-of-ashlands:
   title: Forest on the Border of Ashlands
   titleRu: Лес на границе Эшленда
