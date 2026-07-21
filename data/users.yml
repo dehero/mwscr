@@ -610,7 +610,7 @@ arya-stark:
   profiles:
     - service: vk
       id: '820702664'
-      updated: 2026-07-21-18-07-09
+      updated: 2026-07-21-20-11-27
       username: id820702664
       name: Арья Старк
       avatar: store:/avatars/vk-689aa89d.jpg
@@ -2030,7 +2030,7 @@ feanor2la:
   profiles:
     - service: vk
       id: '16294877'
-      updated: 2026-07-20-19-21-46
+      updated: 2026-07-21-20-11-27
       username: feanor2la
       name: Иван Урлапов
       avatar: store:/avatars/vk-14fd45f0.jpg
@@ -2764,7 +2764,7 @@ ivan-uralov:
   profiles:
     - service: vk
       id: '16497155'
-      updated: 2026-07-20-19-21-45
+      updated: 2026-07-21-20-11-27
       username: id16497155
       name: Иван Уралов
       avatar: store:/avatars/vk-51775759.jpg
@@ -3096,7 +3096,7 @@ kilbil200:
   profiles:
     - service: vk
       id: '183425037'
-      updated: 2026-07-20-19-21-43
+      updated: 2026-07-21-20-11-25
       username: kilbil200
       name: Артём Жуков
       avatar: store:/avatars/vk-e757edac.jpg
@@ -3509,7 +3509,7 @@ maksim-solovev:
   profiles:
     - service: vk
       id: '658767771'
-      updated: 2026-07-16-17-00-35
+      updated: 2026-07-21-20-11-22
       username: id658767771
       name: Максим Соловьев
       avatar: store:/avatars/vk-bee5815b.jpg
@@ -4674,7 +4674,7 @@ pyriglena:
   profiles:
     - service: tg
       id: '554672984'
-      updated: 2026-07-17-09-44-19
+      updated: 2026-07-21-20-11-20
       accessHash: '-3565593010225205906'
       username: pyriglena
       name: yarrow
@@ -5097,7 +5097,7 @@ sergey-b-2:
   profiles:
     - service: vk
       id: '1077446394'
-      updated: 2026-07-20-19-21-46
+      updated: 2026-07-21-20-11-27
       username: id1077446394
       name: Сергей Б
       avatar: store:/avatars/vk-f5b20109.jpg
@@ -6718,7 +6718,7 @@ yellow-submarine:
   profiles:
     - service: vk
       id: '21865013'
-      updated: 2026-07-21-18-07-09
+      updated: 2026-07-21-20-11-22
       username: yellowsubm
       name: Yellow Submarine
       avatar: store:/avatars/vk-aad36361.jpg
