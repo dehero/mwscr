@@ -610,7 +610,7 @@ arya-stark:
   profiles:
     - service: vk
       id: '820702664'
-      updated: 2026-07-21-16-13-19
+      updated: 2026-07-21-18-07-09
       username: id820702664
       name: Арья Старк
       avatar: store:/avatars/vk-689aa89d.jpg
@@ -6718,7 +6718,7 @@ yellow-submarine:
   profiles:
     - service: vk
       id: '21865013'
-      updated: 2026-07-21-16-13-19
+      updated: 2026-07-21-18-07-09
       username: yellowsubm
       name: Yellow Submarine
       avatar: store:/avatars/vk-aad36361.jpg
