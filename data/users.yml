@@ -610,7 +610,7 @@ arya-stark:
   profiles:
     - service: vk
       id: '820702664'
-      updated: 2026-07-22-14-53-09
+      updated: 2026-07-22-16-12-45
       username: id820702664
       name: Арья Старк
       avatar: store:/avatars/vk-689aa89d.jpg
@@ -3428,7 +3428,7 @@ m-a-dadychenko:
   profiles:
     - service: vk
       id: '7106429'
-      updated: 2026-07-22-14-53-07
+      updated: 2026-07-22-16-12-43
       username: m_a_dadychenko
       name: Марина Дадыченко
       avatar: store:/avatars/vk-45fb0778.jpg
@@ -3509,7 +3509,7 @@ maksim-solovev:
   profiles:
     - service: vk
       id: '658767771'
-      updated: 2026-07-22-14-53-09
+      updated: 2026-07-22-16-12-45
       username: id658767771
       name: Максим Соловьев
       avatar: store:/avatars/vk-bee5815b.jpg
@@ -4674,7 +4674,7 @@ pyriglena:
   profiles:
     - service: tg
       id: '554672984'
-      updated: 2026-07-22-14-53-05
+      updated: 2026-07-22-16-12-41
       accessHash: '-3565593010225205906'
       username: pyriglena
       name: yarrow
@@ -6718,7 +6718,7 @@ yellow-submarine:
   profiles:
     - service: vk
       id: '21865013'
-      updated: 2026-07-22-14-53-09
+      updated: 2026-07-22-16-12-45
       username: yellowsubm
       name: Yellow Submarine
       avatar: store:/avatars/vk-aad36361.jpg
