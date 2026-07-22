@@ -14492,11 +14492,11 @@
     - service: vk
       id: 3437
       published: 2026-07-20-19-22-09
-      updated: 2026-07-22-04-56-03
+      updated: 2026-07-22-07-28-38
       followers: 1433
       likes: 39
-      views: 506
-      reposts: 2
+      views: 518
+      reposts: 3
       comments: !c |-
         G1QBYBwHdiyz8HC0dOEi/nn/xBK++M+PV0rc+Ey2CQ2WiU/ONbsJOYpxY8+f+Und1KlvmoUBCdA8
         z8fGXt3Yrfhkta47PtjxYPR9/3b4ojhK0yDG1iJIQsnSG8rj+JSy5pAk2+frzyQ/+vN7++EolBfI
@@ -14506,10 +14506,10 @@
     - service: tg
       id: 1265
       published: 2026-07-20-19-22-17
-      updated: 2026-07-22-04-56-02
+      updated: 2026-07-22-07-28-35
       followers: 916
       likes: 42
-      views: 200
+      views: 203
     - service: mx
       id: '1784575342989'
       published: 2026-07-20-19-22-23
