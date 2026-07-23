@@ -41,7 +41,7 @@
     - service: vk
       id: 2986
       published: 2026-01-02-17-58-00
-      updated: 2026-07-16-13-15-15
+      updated: 2026-07-23-15-09-09
       followers: 1558
       likes: 33
       views: 2740
@@ -63,10 +63,10 @@
         - 1108
         - 1109
       published: 2026-01-02-17-58-00
-      updated: 2026-07-16-13-15-14
+      updated: 2026-07-23-15-09-08
       followers: 877
       likes: 61
-      views: 879
+      views: 882
 2026-01-08-1-3rd-place-in-2026-calendar-photo-contest:
   title: 3rd Place in 2026 Calendar Photo Contest
   titleRu: 3 место в конкурсе фотографий с календарём 2026
@@ -81,7 +81,7 @@
       service: vk
       id: 456239021
       published: 2026-01-08-18-16-55
-      updated: 2026-07-16-13-15-14
+      updated: 2026-07-23-15-09-08
       followers: 1562
       views: 121
     - type: story
@@ -95,7 +95,7 @@
       service: tg
       id: 2
       published: 2026-01-08-18-21-10
-      updated: 2026-07-16-13-15-14
+      updated: 2026-07-23-15-09-08
       followers: 880
       views: 226
 2026-01-09-1-2nd-place-in-2026-calendar-photo-contest:
@@ -112,14 +112,14 @@
       service: tg
       id: 3
       published: 2026-01-09-17-55-34
-      updated: 2026-07-16-13-15-14
+      updated: 2026-07-23-15-09-08
       followers: 879
       views: 193
     - type: story
       service: vk
       id: 456239023
       published: 2026-01-09-18-03-26
-      updated: 2026-07-16-13-15-14
+      updated: 2026-07-23-15-09-07
       followers: 1563
       views: 117
     - type: story
@@ -150,16 +150,16 @@
       service: vk
       id: 456239024
       published: 2026-01-09-18-07-34
-      updated: 2026-07-16-13-15-13
+      updated: 2026-07-23-15-09-07
       followers: 1563
       views: 84
     - type: story
       service: tg
       id: 4
       published: 2026-01-09-18-07-43
-      updated: 2026-07-16-13-15-13
+      updated: 2026-07-23-15-09-07
       followers: 879
-      views: 188
+      views: 189
 2026-01-17-1-resque-of-tarhiel:
   title: Resque of Tarhiel
   titleRu: Спасение Тархиеля
@@ -195,13 +195,13 @@
       service: vk
       id: 456239025
       published: 2026-01-17-15-42-44
-      updated: 2026-07-16-13-15-13
+      updated: 2026-07-23-15-09-06
       followers: 1580
       views: 100
     - type: story
       service: tg
       id: 5
       published: 2026-01-17-15-42-52
-      updated: 2026-07-16-13-15-13
+      updated: 2026-07-23-15-09-07
       followers: 883
       views: 192
