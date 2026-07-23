@@ -524,7 +524,7 @@
     - service: vk
       id: 2904
       published: 2025-11-30-18-25-05
-      updated: 2026-07-16-17-01-47
+      updated: 2026-07-23-18-13-56
       followers: 1532
       likes: 75
       views: 605
@@ -1139,7 +1139,7 @@
     - service: vk
       id: 3066
       published: 2026-02-05-18-52-08
-      updated: 2026-07-16-17-00-38
+      updated: 2026-07-23-18-08-41
       followers: 1598
       likes: 58
       views: 525
@@ -1147,10 +1147,10 @@
     - service: tg
       id: 1142
       published: 2026-02-05-18-52-11
-      updated: 2026-07-16-17-00-28
+      updated: 2026-07-23-18-06-04
       followers: 889
       likes: 71
-      views: 981
+      views: 982
       comments: !c CwuAkZPLQnnC9F6ggACma2V2eS1jpPCfpoAD
 2016-12-07-nchuleft-ruin:
   title: Nchuleft Ruin
@@ -1479,7 +1479,7 @@
     - service: tg
       id: 1021
       published: 2025-10-19-18-26-16
-      updated: 2026-07-16-17-02-14
+      updated: 2026-07-23-18-07-22
       followers: 837
       likes: 75
       views: 636
@@ -1818,18 +1818,18 @@
     - service: vk
       id: 2887
       published: 2025-11-26-18-22-50
-      updated: 2026-07-16-17-01-55
+      updated: 2026-07-23-18-14-01
       followers: 1527
       likes: 86
-      views: 1568
+      views: 1576
       reposts: 8
     - service: tg
       id: 1070
       published: 2025-11-26-18-22-55
-      updated: 2026-07-16-17-01-32
+      updated: 2026-07-23-18-06-38
       followers: 869
       likes: 72
-      views: 762
+      views: 763
       comments: !c |-
         G9UAwIyULncE+f/czy803vFRJllGWWkUrUHyPpKdJelMthscaBpjppGum8yjhtvgMSyec8Xp9BoO
         ntrY+heUMczKoYvo4jpHjMvNfzY9ALLK5mTxeAKmsM1gFQnnYv+bd8EeR+wpjz1lccGeTRUHDhsP
@@ -2281,7 +2281,7 @@
     - service: vk
       id: 3041
       published: 2026-01-25-18-30-53
-      updated: 2026-07-16-17-00-55
+      updated: 2026-07-23-18-11-06
       followers: 1588
       likes: 72
       views: 1548
@@ -2292,8 +2292,8 @@
     - service: tg
       id: 1131
       published: 2026-01-25-18-30-56
-      updated: 2026-07-16-17-00-41
+      updated: 2026-07-23-18-06-16
       followers: 884
       likes: 74
-      views: 927
+      views: 928
       comments: !c CwuAkZPLQnm/bEgYAACma2V2eS1jpPCfpoAD
