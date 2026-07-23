@@ -2213,10 +2213,10 @@
     - service: tg
       id: 1267
       published: 2026-07-22-19-18-49
-      updated: 2026-07-23-14-59-35
+      updated: 2026-07-23-16-25-05
       followers: 916
-      likes: 42
-      views: 141
+      likes: 43
+      views: 142
     - service: mx
       id: '1784747938761'
       published: 2026-07-22-19-18-58
@@ -2224,10 +2224,10 @@
     - service: vk
       id: 3443
       published: 2026-07-22-20-53-16
-      updated: 2026-07-23-14-59-45
+      updated: 2026-07-23-16-25-15
       followers: 1433
-      likes: 33
-      views: 349
+      likes: 34
+      views: 357
       reposts: 4
       comments: !c |-
         G4gAYBwJNk5zwUb0c4Qks1TkSfpkIQ5ip6Ilq+xBuU2MydCCKYx3g5PHabYzHkwk8mG3brfrLvsG
@@ -9723,21 +9723,22 @@
     - service: vk
       id: 3440
       published: 2026-07-21-18-07-36
-      updated: 2026-07-23-14-59-50
+      updated: 2026-07-23-16-25-17
       followers: 1433
       likes: 62
-      views: 655
+      views: 658
       reposts: 6
       comments: !c |-
-        G5oBCJwHtvOUwGL9JQcE6dgh/nm5Z5/w6dt+mScQRdTaEmgrkuRcVbcLoZEKJTAIV84a9rEWq/Df
-        W4pStaCbLEXteX+GsZkYNeGCeqndqdtiWjG26YeKcOHh8JDi1x3Q/aDX20VjaN6WdMCspIUUptfv
-        wFG6uaYhaR1iNcgEi/B/fb7/Nn5Z39T43UEYrdaRv9/hOqpEwCQzrFWwbzdSBG/DcDqOAhHqXHDR
-        jNaaV3ZfaOf5zX58H4qtQsqYbR3jOq+Fm7eTT1KPByayi61zSFaqYi5Fk68IfPcPn3hitLsHBEnw
-        /6+PoC7WAWst1li6SEQQWCSzi0qcjbwT640xM7hFOSSSgsiBzSG04YNSq9rQNmcX
+        G8wBAJwHto1sOxwMv/TAkOQZ/yQHi/D0toqseQJRlGALAm8rkuR9rW2EkInJFCyGNvF3Pvibzdi0
+        vCWbkrSgm6y1//sZxmZi1AShSI3RzcW0Ymz7lf8cPBgEc3uqrjug+0EzDTn7FoTfkifWpYUBJpRw
+        Ox8ohmxnv75JRTfGdJvp5fP9t48b1fXQfjcQSq25ze/rwMFKBExyqd4Ep74qpACeGlVxLBBRdaR7
+        FKP5kMe7L9zL/s12+N4tlhVS+mx7YRznv8LJyEmRilc4AjvZPA7J0jGh42DwuT6e+eBjD0g7O0SS
+        YPZfagTo5B+w0qAZQxtiEUQsktnFiawevAPrhWvMoCyKIyGrESJsgzO5CLwQN8q1uI60//rbncVX
+        KaItuw==
     - service: tg
       id: 1266
       published: 2026-07-21-18-07-47
-      updated: 2026-07-23-14-59-44
+      updated: 2026-07-23-16-25-13
       followers: 916
       likes: 51
       views: 197
