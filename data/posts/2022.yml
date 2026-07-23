@@ -75,7 +75,7 @@
     - service: vk
       id: 2129
       published: 2025-02-13-18-17-15
-      updated: 2026-07-16-21-55-05
+      updated: 2026-07-23-23-48-43
       followers: 1069
       likes: 60
       views: 540
@@ -83,7 +83,7 @@
     - service: tg
       id: 706
       published: 2025-02-13-18-17-22
-      updated: 2026-07-16-21-54-39
+      updated: 2026-07-23-23-48-05
       followers: 676
       likes: 68
       views: 571
@@ -213,7 +213,7 @@
     - service: vk
       id: 2226
       published: 2025-03-26-18-12-43
-      updated: 2026-07-16-20-42-57
+      updated: 2026-07-23-23-47-41
       followers: 1213
       likes: 81
       views: 676
@@ -235,7 +235,7 @@
         - 764
         - 765
       published: 2025-03-26-18-13-07
-      updated: 2026-07-16-20-42-50
+      updated: 2026-07-23-23-47-18
       followers: 710
       likes: 63
       views: 786
@@ -492,7 +492,7 @@
     - service: vk
       id: 2077
       published: 2025-01-22-18-11-15
-      updated: 2026-07-16-21-55-33
+      updated: 2026-07-23-23-49-19
       followers: 1054
       likes: 38
       views: 356
@@ -505,7 +505,7 @@
     - service: tg
       id: 678
       published: 2025-01-22-18-11-24
-      updated: 2026-07-16-21-54-58
+      updated: 2026-07-23-23-48-33
       followers: 655
       likes: 68
       views: 601
@@ -674,7 +674,7 @@
     - service: vk
       id: 2165
       published: 2025-03-02-18-10-15
-      updated: 2026-07-16-21-54-37
+      updated: 2026-07-23-23-48-19
       followers: 1153
       likes: 66
       views: 602
@@ -687,7 +687,7 @@
         - 731
         - 732
       published: 2025-03-02-18-10-35
-      updated: 2026-07-16-21-54-20
+      updated: 2026-07-23-23-47-42
       followers: 687
       likes: 68
       views: 1067
@@ -744,14 +744,14 @@
     - service: tg
       id: 726
       published: 2025-02-27-18-13-32
-      updated: 2026-07-16-21-54-23
+      updated: 2026-07-23-23-47-48
       followers: 686
       likes: 59
       views: 604
     - service: vk
       id: 2153
       published: 2025-02-27-19-01-40
-      updated: 2026-07-16-21-54-42
+      updated: 2026-07-23-23-48-22
       followers: 1143
       likes: 36
       views: 593
@@ -1086,7 +1086,7 @@
         - 653
         - 654
       published: 2025-01-05-18-10-40
-      updated: 2026-07-16-21-55-19
+      updated: 2026-07-23-23-48-56
       followers: 644
       likes: 81
       views: 1171
