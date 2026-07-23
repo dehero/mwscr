@@ -542,10 +542,10 @@
     - service: tg
       id: 1075
       published: 2025-11-30-18-25-09
-      updated: 2026-07-16-18-07-07
+      updated: 2026-07-23-20-06-33
       followers: 867
       likes: 74
-      views: 737
+      views: 738
       comments: !c Cw6AkZPLQnmv85QnAACsbm9nb2Rjb21wbGV4pHBlYWsD
 2016-11-27-lonely-fargoth:
   title: Lonely Fargoth
@@ -1461,7 +1461,7 @@
     - service: vk
       id: 2749
       published: 2025-10-19-18-26-11
-      updated: 2026-07-16-18-07-20
+      updated: 2026-07-23-20-14-11
       followers: 1471
       likes: 97
       views: 2118
@@ -1590,7 +1590,7 @@
     - service: tg
       id: 955
       published: 2025-08-18-18-24-05
-      updated: 2026-07-16-18-08-08
+      updated: 2026-07-23-20-07-25
       followers: 781
       likes: 68
       views: 718
@@ -1923,7 +1923,7 @@
     - service: tg
       id: 914
       published: 2025-07-11-18-23-48
-      updated: 2026-07-16-18-08-43
+      updated: 2026-07-23-20-07-59
       followers: 760
       likes: 70
       views: 626
