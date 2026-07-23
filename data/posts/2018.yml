@@ -2213,10 +2213,10 @@
     - service: tg
       id: 1267
       published: 2026-07-22-19-18-49
-      updated: 2026-07-23-08-07-10
+      updated: 2026-07-23-10-56-45
       followers: 916
       likes: 41
-      views: 125
+      views: 132
     - service: mx
       id: '1784747938761'
       published: 2026-07-22-19-18-58
@@ -2224,11 +2224,11 @@
     - service: vk
       id: 3443
       published: 2026-07-22-20-53-16
-      updated: 2026-07-23-08-07-10
+      updated: 2026-07-23-10-56-45
       followers: 1433
-      likes: 24
-      views: 222
-      reposts: 2
+      likes: 27
+      views: 266
+      reposts: 3
 2018-02-13-urshilaku-camp:
   title: Urshilaku Camp
   titleRu: Лагерь Уршилаку
@@ -9719,10 +9719,10 @@
     - service: vk
       id: 3440
       published: 2026-07-21-18-07-36
-      updated: 2026-07-23-08-07-20
+      updated: 2026-07-23-10-56-56
       followers: 1433
-      likes: 60
-      views: 624
+      likes: 61
+      views: 643
       reposts: 6
       comments: !c |-
         G5oBCJwHtvOUwGL9JQcE6dgh/nm5Z5/w6dt+mScQRdTaEmgrkuRcVbcLoZEKJTAIV84a9rEWq/Df
@@ -9733,10 +9733,10 @@
     - service: tg
       id: 1266
       published: 2026-07-21-18-07-47
-      updated: 2026-07-23-08-07-21
+      updated: 2026-07-23-10-56-54
       followers: 916
-      likes: 50
-      views: 189
+      likes: 51
+      views: 194
       comments: !c |-
         G4wA+J0Jxo3LWwaRV8R3LHq+bkf4QWJPzwJtEgoiSva5jZ15RRSkyBRvuUvBJgg2SZD/fyOwqVIS
         9ZlbNj7YgNOAOdOAaCA7EfABolf384d9vN+13nO3Qs2muhe4cfgppuydmPGBMUASGzuDY0Ir5tVF
