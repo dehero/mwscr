@@ -2213,7 +2213,7 @@
     - service: tg
       id: 1267
       published: 2026-07-22-19-18-49
-      updated: 2026-07-23-10-56-45
+      updated: 2026-07-23-12-19-17
       followers: 916
       likes: 41
       views: 132
@@ -2224,10 +2224,10 @@
     - service: vk
       id: 3443
       published: 2026-07-22-20-53-16
-      updated: 2026-07-23-10-56-45
+      updated: 2026-07-23-12-19-18
       followers: 1433
-      likes: 27
-      views: 266
+      likes: 30
+      views: 292
       reposts: 3
 2018-02-13-urshilaku-camp:
   title: Urshilaku Camp
@@ -9719,10 +9719,10 @@
     - service: vk
       id: 3440
       published: 2026-07-21-18-07-36
-      updated: 2026-07-23-10-56-56
+      updated: 2026-07-23-12-19-32
       followers: 1433
-      likes: 61
-      views: 643
+      likes: 62
+      views: 646
       reposts: 6
       comments: !c |-
         G5oBCJwHtvOUwGL9JQcE6dgh/nm5Z5/w6dt+mScQRdTaEmgrkuRcVbcLoZEKJTAIV84a9rEWq/Df
@@ -9733,7 +9733,7 @@
     - service: tg
       id: 1266
       published: 2026-07-21-18-07-47
-      updated: 2026-07-23-10-56-54
+      updated: 2026-07-23-12-19-25
       followers: 916
       likes: 51
       views: 194
