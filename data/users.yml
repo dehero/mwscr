@@ -562,7 +562,7 @@ artem-petrov:
   profiles:
     - service: vk
       id: '4238605'
-      updated: 2026-07-24-18-09-38
+      updated: 2026-07-24-20-09-21
       username: id4238605
       name: Артем Петров
       avatar: store:/avatars/vk-77942374.jpg
@@ -610,7 +610,7 @@ arya-stark:
   profiles:
     - service: vk
       id: '820702664'
-      updated: 2026-07-24-10-05-00
+      updated: 2026-07-24-20-09-23
       username: id820702664
       name: Арья Старк
       avatar: store:/avatars/vk-689aa89d.jpg
@@ -1176,7 +1176,7 @@ crazycyrodiliccat:
   profiles:
     - service: vk
       id: '90554843'
-      updated: 2026-07-24-18-09-45
+      updated: 2026-07-24-20-10-46
       username: crazycyrodiliccat
       name: Александр Невский
       avatar: store:/avatars/vk-0db1296b.jpg
@@ -1419,7 +1419,7 @@ dehero:
       avatar: store:/avatars/gh-c8afe641.jpg
     - service: vk
       id: '3652910'
-      updated: 2026-07-24-18-11-20
+      updated: 2026-07-24-20-10-02
       username: dehero
       name: Антон Курьянов
       avatar: store:/avatars/vk-5356f76e.jpg
@@ -1607,7 +1607,7 @@ dobryu-vecher:
   profiles:
     - service: vk
       id: '9284615'
-      updated: 2026-07-24-10-05-36
+      updated: 2026-07-24-20-10-54
       username: dobryu_vecher
       name: Маргарита Кузнецова
       avatar: store:/avatars/vk-303ef0ab.jpg
@@ -1678,7 +1678,7 @@ dropnz:
   profiles:
     - service: vk
       id: '142480'
-      updated: 2026-07-24-18-10-43
+      updated: 2026-07-24-20-10-50
       username: dropnz
       name: Вячеслав Беляев
       avatar: store:/avatars/vk-a7fd4520.jpg
@@ -2120,7 +2120,7 @@ fukkatsumy-kamikoto:
   profiles:
     - service: vk
       id: '172283748'
-      updated: 2026-07-17-18-51-18
+      updated: 2026-07-24-20-10-46
       username: fukkatsumy_kamikoto
       name: Фуккацуми Камикото
       avatar: store:/avatars/vk-40bd4359.jpg
@@ -2256,7 +2256,7 @@ gleb-zheltuhin:
   profiles:
     - service: vk
       id: '29014473'
-      updated: 2026-07-23-23-46-48
+      updated: 2026-07-24-20-09-24
       username: gleb_zheltuhin
       name: Глеб Желтухин
       avatar: store:/avatars/vk-971eefc1.jpg
@@ -3509,7 +3509,7 @@ maksim-solovev:
   profiles:
     - service: vk
       id: '658767771'
-      updated: 2026-07-23-20-06-34
+      updated: 2026-07-24-20-09-23
       username: id658767771
       name: Максим Соловьев
       avatar: store:/avatars/vk-bee5815b.jpg
@@ -3598,7 +3598,7 @@ max-tsei:
   profiles:
     - service: vk
       id: '353284524'
-      updated: 2026-07-17-21-41-23
+      updated: 2026-07-24-20-10-36
       username: max.tsei
       avatar: store:/avatars/vk-7f160215.jpg
       deleted: true
@@ -4457,7 +4457,7 @@ peteevandrew:
   profiles:
     - service: vk
       id: '307619379'
-      updated: 2026-07-24-18-12-09
+      updated: 2026-07-24-20-10-03
       username: peteevandrew
       name: Андрей Петеев
       avatar: store:/avatars/vk-1abdc90f.jpg
@@ -5121,7 +5121,7 @@ seriy-ottenok:
   profiles:
     - service: vk
       id: '402400667'
-      updated: 2026-07-17-17-56-53
+      updated: 2026-07-24-20-10-05
       username: id402400667
       name: Серый Оттенок
       avatar: store:/avatars/vk-a0ca9212.jpg
@@ -5352,7 +5352,7 @@ songfick:
   profiles:
     - service: vk
       id: '147191020'
-      updated: 2026-07-17-17-57-00
+      updated: 2026-07-24-20-10-14
       username: songfick
       name: Нина Лиат
       avatar: store:/avatars/vk-8e1571e9.jpg
@@ -6099,7 +6099,7 @@ user-27:
   profiles:
     - service: vk
       id: '223132255'
-      updated: 2026-07-24-18-10-04
+      updated: 2026-07-24-20-10-36
       username: id223132255
       avatar: store:/avatars/vk-7f160215.jpg
       deleted: true
@@ -6146,7 +6146,7 @@ user-32:
   profiles:
     - service: vk
       id: '314007101'
-      updated: 2026-07-24-18-11-04
+      updated: 2026-07-24-20-09-46
       username: id314007101
       avatar: store:/avatars/vk-7f160215.jpg
       deleted: true
@@ -6154,7 +6154,7 @@ user-33:
   profiles:
     - service: vk
       id: '489808016'
-      updated: 2026-07-17-17-57-14
+      updated: 2026-07-24-20-10-28
       username: id489808016
       avatar: store:/avatars/vk-7f160215.jpg
       deleted: true
@@ -6323,7 +6323,7 @@ vancleve:
   profiles:
     - service: vk
       id: '84634454'
-      updated: 2026-07-24-18-11-56
+      updated: 2026-07-24-20-10-28
       username: vancleve
       avatar: store:/avatars/vk-7f160215.jpg
       deleted: true
@@ -6717,7 +6717,7 @@ yellow-submarine:
   profiles:
     - service: vk
       id: '21865013'
-      updated: 2026-07-23-23-47-02
+      updated: 2026-07-24-20-09-23
       username: yellowsubm
       name: Yellow Submarine
       avatar: store:/avatars/vk-aad36361.jpg
