@@ -32,10 +32,10 @@
     - service: vk
       id: 1303
       published: 2022-06-23
-      updated: 2026-07-17-12-58-06
+      updated: 2026-07-24-14-42-06
       followers: 700
       likes: 79
-      views: 1012
+      views: 1013
       reposts: 5
       comments: !c |-
         G+gBICwOzHOPTlgonjtl4+EmGv+83LMI374lzTNtbQFF8gP/FDVvnpwL+oGitlTdhLqQHiEJ6OfC
@@ -47,7 +47,7 @@
     - service: tg
       id: 246
       published: 2022-06-23
-      updated: 2026-07-17-12-58-07
+      updated: 2026-07-24-14-42-05
       followers: 226
       likes: 86
       views: 1235
