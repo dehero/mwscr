@@ -562,7 +562,7 @@ artem-petrov:
   profiles:
     - service: vk
       id: '4238605'
-      updated: 2026-07-24-14-42-02
+      updated: 2026-07-24-18-09-38
       username: id4238605
       name: Артем Петров
       avatar: store:/avatars/vk-77942374.jpg
@@ -1158,7 +1158,7 @@ corvus-subterraneus:
   profiles:
     - service: tg
       id: '5371330625'
-      updated: 2026-07-17-16-06-39
+      updated: 2026-07-24-18-09-39
       accessHash: '4934588578085683906'
       username: MysticEzra
       name: Ezra
@@ -1176,7 +1176,7 @@ crazycyrodiliccat:
   profiles:
     - service: vk
       id: '90554843'
-      updated: 2026-07-24-14-43-44
+      updated: 2026-07-24-18-09-45
       username: crazycyrodiliccat
       name: Александр Невский
       avatar: store:/avatars/vk-0db1296b.jpg
@@ -1377,7 +1377,7 @@ dead-end:
   profiles:
     - service: vk
       id: '172608176'
-      updated: 2026-07-24-14-43-53
+      updated: 2026-07-24-18-11-39
       username: dead___end
       avatar: store:/avatars/vk-7f160215.jpg
       deleted: true
@@ -1419,14 +1419,14 @@ dehero:
       avatar: store:/avatars/gh-c8afe641.jpg
     - service: vk
       id: '3652910'
-      updated: 2026-07-24-14-43-51
+      updated: 2026-07-24-18-11-20
       username: dehero
       name: Антон Курьянов
       avatar: store:/avatars/vk-5356f76e.jpg
     - type: channel
       service: vk
       id: '138249959'
-      updated: 2026-07-24-10-06-41
+      updated: 2026-07-24-18-11-07
       username: mwscr
       name: Morrowind Screenshots
       avatar: store:/avatars/vk-8e97fd4f.jpg
@@ -1678,7 +1678,7 @@ dropnz:
   profiles:
     - service: vk
       id: '142480'
-      updated: 2026-07-24-14-42-56
+      updated: 2026-07-24-18-10-43
       username: dropnz
       name: Вячеслав Беляев
       avatar: store:/avatars/vk-a7fd4520.jpg
@@ -1770,7 +1770,7 @@ egorwave:
   profiles:
     - service: vk
       id: '225337507'
-      updated: 2026-07-17-14-30-10
+      updated: 2026-07-24-18-12-04
       username: egorwave
       name: Егор Фролов
       avatar: store:/avatars/vk-ebde0ba3.jpg
@@ -2128,7 +2128,7 @@ fungirl666:
   profiles:
     - service: vk
       id: '480647421'
-      updated: 2026-07-17-14-30-16
+      updated: 2026-07-24-18-12-10
       username: fungirl666
       avatar: store:/avatars/vk-7f160215.jpg
       deleted: true
@@ -2356,7 +2356,7 @@ gutzzerk:
   profiles:
     - service: vk
       id: '473163636'
-      updated: 2026-07-17-14-29-43
+      updated: 2026-07-24-18-11-37
       username: gutzzerk
       name: Сард Шрафц
       avatar: store:/avatars/vk-5052bc05.jpg
@@ -3428,7 +3428,7 @@ m-a-dadychenko:
   profiles:
     - service: vk
       id: '7106429'
-      updated: 2026-07-23-18-06-08
+      updated: 2026-07-24-18-09-42
       username: m_a_dadychenko
       name: Марина Дадыченко
       avatar: store:/avatars/vk-45fb0778.jpg
@@ -3590,7 +3590,7 @@ max-nafig:
   profiles:
     - service: vk
       id: '55201916'
-      updated: 2026-07-24-14-43-51
+      updated: 2026-07-24-18-10-00
       username: max_nafig
       name: Макс Нафиг
       avatar: store:/avatars/vk-e99f7f69.jpg
@@ -3776,7 +3776,7 @@ mlennic:
   profiles:
     - service: tg
       id: '402884048'
-      updated: 2026-07-24-07-28-28
+      updated: 2026-07-24-18-09-40
       accessHash: '308008325024369067'
       username: mlennic
       name: Kosmos
@@ -4008,7 +4008,7 @@ ndukhanin2014:
   profiles:
     - service: vk
       id: '220389383'
-      updated: 2026-07-24-14-43-44
+      updated: 2026-07-24-18-10-34
       username: ndukhanin2014
       name: Никита Духанин
       avatar: store:/avatars/vk-5dc2cbb0.jpg
@@ -4099,7 +4099,7 @@ nk2806:
   profiles:
     - service: vk
       id: '18835691'
-      updated: 2026-07-24-14-43-42
+      updated: 2026-07-24-18-10-58
       username: nk2806
       name: Никита Макеев
       avatar: store:/avatars/vk-189d3147.jpg
@@ -4295,7 +4295,7 @@ olmer-izdeyla:
   profiles:
     - service: tg
       id: '835160756'
-      updated: 2026-07-24-14-42-02
+      updated: 2026-07-24-18-09-39
       accessHash: '5779481472375422362'
       username: Olmer_Izdeyla
       name: Olmer Izdeyla
@@ -4363,7 +4363,7 @@ p40jla:
   profiles:
     - service: vk
       id: '365527711'
-      updated: 2026-07-24-10-05-20
+      updated: 2026-07-24-18-09-45
       username: p40jla
       name: Николай Хорошун
       avatar: store:/avatars/vk-c9387c2d.jpg
@@ -4433,7 +4433,7 @@ pavusmart:
   profiles:
     - service: vk
       id: '385848478'
-      updated: 2026-07-17-14-30-03
+      updated: 2026-07-24-18-11-57
       username: pavusmart
       name: Кордиус Флакс
       avatar: store:/avatars/vk-ca2babad.jpg
@@ -4457,7 +4457,7 @@ peteevandrew:
   profiles:
     - service: vk
       id: '307619379'
-      updated: 2026-07-24-14-43-42
+      updated: 2026-07-24-18-12-09
       username: peteevandrew
       name: Андрей Петеев
       avatar: store:/avatars/vk-1abdc90f.jpg
@@ -4674,7 +4674,7 @@ pyriglena:
   profiles:
     - service: tg
       id: '554672984'
-      updated: 2026-07-24-10-05-15
+      updated: 2026-07-24-18-09-38
       accessHash: '-3565593010225205906'
       username: pyriglena
       name: yarrow
@@ -4725,7 +4725,7 @@ ramm777:
   profiles:
     - service: vk
       id: '2389752'
-      updated: 2026-07-17-14-28-18
+      updated: 2026-07-24-18-10-12
       username: ramm777
       name: Арсений Посупонько
       avatar: store:/avatars/vk-ffa06a86.jpg
@@ -5005,7 +5005,7 @@ scr0up:
   profiles:
     - service: tg
       id: '6326026927'
-      updated: 2026-07-17-16-06-39
+      updated: 2026-07-24-18-09-39
       accessHash: '7381072605575524626'
       username: Scr0up
       name: Scr0up
@@ -5097,7 +5097,7 @@ sergey-b-2:
   profiles:
     - service: vk
       id: '1077446394'
-      updated: 2026-07-23-23-46-48
+      updated: 2026-07-24-18-09-41
       username: id1077446394
       name: Сергей Б
       avatar: store:/avatars/vk-f5b20109.jpg
@@ -5113,7 +5113,7 @@ sergey-venkov:
   profiles:
     - service: vk
       id: '217443112'
-      updated: 2026-07-23-20-13-50
+      updated: 2026-07-24-18-09-41
       username: id217443112
       name: Сергей Венков
       avatar: store:/avatars/vk-a77d1a73.jpg
@@ -5303,7 +5303,7 @@ snow-runner:
   profiles:
     - service: vk
       id: '364105100'
-      updated: 2026-07-17-14-29-29
+      updated: 2026-07-24-18-11-23
       username: id364105100
       name: Snow Runner
       avatar: store:/avatars/vk-fddbae9a.jpg
@@ -6099,7 +6099,7 @@ user-27:
   profiles:
     - service: vk
       id: '223132255'
-      updated: 2026-07-24-14-43-44
+      updated: 2026-07-24-18-10-04
       username: id223132255
       avatar: store:/avatars/vk-7f160215.jpg
       deleted: true
@@ -6107,7 +6107,7 @@ user-28:
   profiles:
     - service: vk
       id: '183896034'
-      updated: 2026-07-17-14-27-43
+      updated: 2026-07-24-18-09-44
       username: id183896034
       avatar: store:/avatars/vk-7f160215.jpg
       deleted: true
@@ -6115,7 +6115,7 @@ user-29:
   profiles:
     - service: vk
       id: '245390134'
-      updated: 2026-07-17-14-28-14
+      updated: 2026-07-24-18-10-08
       username: id245390134
       avatar: store:/avatars/vk-7f160215.jpg
       deleted: true
@@ -6130,7 +6130,7 @@ user-30:
   profiles:
     - service: vk
       id: '380363858'
-      updated: 2026-07-17-14-28-35
+      updated: 2026-07-24-18-10-29
       username: id380363858
       avatar: store:/avatars/vk-7f160215.jpg
       deleted: true
@@ -6138,7 +6138,7 @@ user-31:
   profiles:
     - service: vk
       id: '302457314'
-      updated: 2026-07-17-14-29-03
+      updated: 2026-07-24-18-11-00
       username: id302457314
       avatar: store:/avatars/vk-7f160215.jpg
       deleted: true
@@ -6146,7 +6146,7 @@ user-32:
   profiles:
     - service: vk
       id: '314007101'
-      updated: 2026-07-17-18-51-45
+      updated: 2026-07-24-18-11-04
       username: id314007101
       avatar: store:/avatars/vk-7f160215.jpg
       deleted: true
@@ -6323,7 +6323,7 @@ vancleve:
   profiles:
     - service: vk
       id: '84634454'
-      updated: 2026-07-17-17-57-14
+      updated: 2026-07-24-18-11-56
       username: vancleve
       avatar: store:/avatars/vk-7f160215.jpg
       deleted: true
@@ -6331,7 +6331,7 @@ variks2004:
   profiles:
     - service: vk
       id: '324009986'
-      updated: 2026-07-24-14-43-49
+      updated: 2026-07-24-18-11-35
       username: variks2004
       name: Данил Бурухин
       avatar: store:/avatars/vk-e71d8728.jpg
@@ -6616,7 +6616,7 @@ xapuyc-mopp:
   profiles:
     - service: vk
       id: '346195872'
-      updated: 2026-07-17-14-29-12
+      updated: 2026-07-24-18-11-08
       username: xapuyc_mopp
       name: Дмитрий Морр
       avatar: store:/avatars/vk-9307e3de.jpg
@@ -6741,7 +6741,7 @@ yourenemieswillpay:
   profiles:
     - service: vk
       id: '154353264'
-      updated: 2026-07-24-05-00-16
+      updated: 2026-07-24-18-10-47
       username: yourenemieswillpay
       name: Кирилл Заречный
       avatar: store:/avatars/vk-a2026737.jpg
