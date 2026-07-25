@@ -2529,3 +2529,15 @@
         hlw2nYh1s6FMPADN1Es4IBlwtyF7Ip2EiTsNvoEsXS8M0iPcTR2zYiKC63f1oDluy6SCTzHwFRxo
         F806Md+qcY85YavlXIDshEbSQhQQAmvkd1hB/w202+fopg/JIASJJBrNL8ObHHRDxAk1A3vjZZc1
         HksTA1TxEL8EfiWAxtSRyS7u1BcB
+    - service: vk
+      id: 3453
+      published: 2026-07-25-18-46-30
+      followers: 1433
+    - service: tg
+      id: 1270
+      published: 2026-07-25-18-46-36
+      followers: 915
+    - service: mx
+      id: '1785005200635'
+      published: 2026-07-25-18-46-40
+      followers: 23
