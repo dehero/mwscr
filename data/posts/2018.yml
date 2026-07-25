@@ -4523,18 +4523,18 @@
     - service: vk
       id: 3450
       published: 2026-07-23-18-21-55
-      updated: 2026-07-25-04-54-07
+      updated: 2026-07-25-07-08-16
       followers: 1433
-      likes: 44
-      views: 400
+      likes: 45
+      views: 412
       reposts: 1
     - service: tg
       id: 1268
       published: 2026-07-23-18-22-01
-      updated: 2026-07-25-04-54-06
+      updated: 2026-07-25-07-08-15
       followers: 915
       likes: 48
-      views: 195
+      views: 198
     - service: mx
       id: '1784830926208'
       published: 2026-07-23-18-22-06
@@ -6602,10 +6602,10 @@
     - service: vk
       id: 3290
       published: 2016-05-18-16-35-00
-      updated: 2026-07-18-06-52-26
+      updated: 2026-07-25-07-08-55
       followers: 1434
       likes: 54
-      views: 897
+      views: 899
       reposts: 3
       comments: !c |-
         Gz4RAKwK7MbyG22yIryo/tqJGSz+n1jWb7/NGvd21E4x3WQVhUbIWJ7CIikcWSPMFxJh47lG4FfF
