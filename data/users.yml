@@ -1419,7 +1419,7 @@ dehero:
       avatar: store:/avatars/gh-c8afe641.jpg
     - service: vk
       id: '3652910'
-      updated: 2026-07-24-23-54-09
+      updated: 2026-07-25-01-25-20
       username: dehero
       name: Антон Курьянов
       avatar: store:/avatars/vk-5356f76e.jpg
@@ -2561,7 +2561,7 @@ idalexeyvav:
   profiles:
     - service: vk
       id: '417783044'
-      updated: 2026-07-17-23-43-04
+      updated: 2026-07-25-01-25-21
       username: idalexeyvav
       name: Алексей Вавилов
       avatar: store:/avatars/vk-6717456e.jpg
@@ -3485,7 +3485,7 @@ maks-perunov:
   profiles:
     - service: vk
       id: '35868942'
-      updated: 2026-07-24-10-05-37
+      updated: 2026-07-25-01-24-47
       username: id35868942
       name: Макс Перунов
       avatar: store:/avatars/vk-3bb92045.jpg
