@@ -562,7 +562,7 @@ artem-petrov:
   profiles:
     - service: vk
       id: '4238605'
-      updated: 2026-07-25-21-42-30
+      updated: 2026-07-26-21-45-56
       username: id4238605
       name: Артем Петров
       avatar: store:/avatars/vk-77942374.jpg
@@ -610,7 +610,7 @@ arya-stark:
   profiles:
     - service: vk
       id: '820702664'
-      updated: 2026-07-25-21-42-32
+      updated: 2026-07-26-21-45-59
       username: id820702664
       name: Арья Старк
       avatar: store:/avatars/vk-689aa89d.jpg
@@ -2256,7 +2256,7 @@ gleb-zheltuhin:
   profiles:
     - service: vk
       id: '29014473'
-      updated: 2026-07-25-21-42-33
+      updated: 2026-07-26-21-46-00
       username: gleb_zheltuhin
       name: Глеб Желтухин
       avatar: store:/avatars/vk-971eefc1.jpg
@@ -3509,7 +3509,7 @@ maksim-solovev:
   profiles:
     - service: vk
       id: '658767771'
-      updated: 2026-07-25-21-42-32
+      updated: 2026-07-26-21-45-59
       username: id658767771
       name: Максим Соловьев
       avatar: store:/avatars/vk-bee5815b.jpg
@@ -6724,7 +6724,7 @@ yellow-submarine:
   profiles:
     - service: vk
       id: '21865013'
-      updated: 2026-07-25-21-42-32
+      updated: 2026-07-26-21-45-59
       username: yellowsubm
       name: Yellow Submarine
       avatar: store:/avatars/vk-aad36361.jpg
