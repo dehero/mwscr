@@ -4142,18 +4142,18 @@
     - service: vk
       id: 3455
       published: 2026-07-27-19-08-03
-      updated: 2026-07-28-17-16-25
+      updated: 2026-07-28-19-02-53
       followers: 1434
-      likes: 37
-      views: 334
+      likes: 39
+      views: 348
       reposts: 1
     - service: tg
       id: 1272
       published: 2026-07-27-19-08-11
-      updated: 2026-07-28-17-16-25
+      updated: 2026-07-28-19-02-54
       followers: 916
-      likes: 37
-      views: 596
+      likes: 39
+      views: 616
     - service: mx
       id: '1785179297700'
       published: 2026-07-27-19-08-17
@@ -6551,6 +6551,18 @@
       likes: 141
       views: 1003
       comments: !c Cw6AkZPLQnk4uLHBAACoem9yYW4taHOo8J+OhfCfjawD
+    - service: vk
+      id: 3456
+      published: 2026-07-28-19-03-26
+      followers: 1435
+    - service: tg
+      id: 1273
+      published: 2026-07-28-19-03-36
+      followers: 919
+    - service: mx
+      id: '1785265423410'
+      published: 2026-07-28-19-03-43
+      followers: 23
 2018-05-06-roads-of-ascadian-isles:
   title: Roads of Ascadian Isles
   titleRu: Дороги Аскадианских островов
