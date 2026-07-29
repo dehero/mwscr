@@ -2213,10 +2213,10 @@
     - service: tg
       id: 1267
       published: 2026-07-22-19-18-49
-      updated: 2026-07-28-20-56-22
+      updated: 2026-07-29-21-45-22
       followers: 916
-      likes: 61
-      views: 287
+      likes: 62
+      views: 315
     - service: mx
       id: '1784747938761'
       published: 2026-07-22-19-18-58
@@ -4542,18 +4542,18 @@
     - service: vk
       id: 3450
       published: 2026-07-23-18-21-55
-      updated: 2026-07-28-20-56-23
+      updated: 2026-07-29-21-45-23
       followers: 1433
       likes: 56
-      views: 493
+      views: 510
       reposts: 1
     - service: tg
       id: 1268
       published: 2026-07-23-18-22-01
-      updated: 2026-07-28-20-56-21
+      updated: 2026-07-29-21-45-21
       followers: 915
-      likes: 56
-      views: 295
+      likes: 57
+      views: 315
     - service: mx
       id: '1784830926208'
       published: 2026-07-23-18-22-06
@@ -6554,18 +6554,18 @@
     - service: vk
       id: 3456
       published: 2026-07-28-19-03-26
-      updated: 2026-07-29-20-06-32
+      updated: 2026-07-29-21-45-19
       followers: 1435
       likes: 28
-      views: 354
+      views: 356
       reposts: 3
     - service: tg
       id: 1273
       published: 2026-07-28-19-03-36
-      updated: 2026-07-29-20-06-31
+      updated: 2026-07-29-21-45-18
       followers: 919
-      likes: 49
-      views: 180
+      likes: 50
+      views: 189
     - service: mx
       id: '1785265423410'
       published: 2026-07-28-19-03-43
