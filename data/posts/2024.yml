@@ -363,7 +363,7 @@
     - service: tg
       id: 970
       published: 2025-09-02-18-19-42
-      updated: 2026-07-23-20-07-05
+      updated: 2026-07-30-20-11-41
       followers: 787
       likes: 63
       views: 605
@@ -465,7 +465,7 @@
     - service: tg
       id: 988
       published: 2025-09-17-18-34-38
-      updated: 2026-07-23-20-06-54
+      updated: 2026-07-30-20-11-26
       followers: 797
       likes: 69
       views: 618
@@ -524,7 +524,7 @@
     - service: vk
       id: 3025
       published: 2026-01-23-18-33-39
-      updated: 2026-07-23-18-11-08
+      updated: 2026-07-30-20-11-02
       followers: 1583
       likes: 66
       views: 891
@@ -588,7 +588,7 @@
     - service: vk
       id: 2824
       published: 2025-11-07-18-18-05
-      updated: 2026-07-23-18-14-23
+      updated: 2026-07-30-20-12-41
       followers: 1504
       likes: 56
       views: 1087
@@ -1165,7 +1165,7 @@
     - service: tg
       id: 952
       published: 2025-08-15-18-23-43
-      updated: 2026-07-23-20-07-27
+      updated: 2026-07-30-20-11-57
       followers: 780
       likes: 63
       views: 636
@@ -1234,7 +1234,7 @@
     - service: tg
       id: 974
       published: 2025-09-05-18-27-44
-      updated: 2026-07-23-20-07-04
+      updated: 2026-07-30-20-11-40
       followers: 789
       likes: 66
       views: 621
@@ -1639,10 +1639,10 @@
     - service: vk
       id: 3021
       published: 2026-01-22-18-32-30
-      updated: 2026-07-23-18-11-09
+      updated: 2026-07-30-20-11-03
       followers: 1582
       likes: 109
-      views: 1736
+      views: 1739
       reposts: 7
       comments: !c |-
         G68AwByJsa3grXggLtYyQ6mhhz/1E2ZqBCIWnJ1Yim3qWFarLqJ5D0MdQtW5xfaQgiEZnCEfJ/Nj
@@ -1765,10 +1765,10 @@
     - service: tg
       id: 931
       published: 2025-07-29-18-40-51
-      updated: 2026-07-23-20-07-39
+      updated: 2026-07-30-20-12-15
       followers: 770
       likes: 71
-      views: 713
+      views: 714
       comments: !c iw+AkZPLQnmGScoDgACra2F3YXpha3kyMjOo8J+HqPCfh7MD
 2024-04-21-a-little-joy-for-hard-worker: 2018-03-02-a-little-joy-for-hard-worker
 2024-04-22-sunset-over-molag-amur:
@@ -1875,7 +1875,7 @@
     - service: vk
       id: 3059
       published: 2026-02-02-18-43-01
-      updated: 2026-07-23-18-08-44
+      updated: 2026-07-30-20-10-49
       followers: 1595
       likes: 57
       views: 782
@@ -2274,7 +2274,7 @@
     - service: tg
       id: 1000
       published: 2025-09-28-18-24-08
-      updated: 2026-07-23-20-06-48
+      updated: 2026-07-30-20-11-18
       followers: 813
       likes: 67
       views: 663
@@ -2527,7 +2527,7 @@
     - service: tg
       id: 1002
       published: 2025-09-30-18-25-38
-      updated: 2026-07-23-20-06-46
+      updated: 2026-07-30-20-11-15
       followers: 816
       likes: 66
       views: 641
@@ -2645,10 +2645,10 @@
     - service: tg
       id: 1252
       published: 2026-06-30-18-28-59
-      updated: 2026-07-23-20-06-33
+      updated: 2026-07-30-20-10-37
       followers: 916
       likes: 51
-      views: 510
+      views: 539
       comments: !c CxmAkpPLQnn0kvIAgACobXluZG93ZW6k8J+Vt5PLQnn0QkmQgACnYW50aWRvc6dOaWNlIHNjAw==
     - service: mx
       id: '1782844144014'
@@ -2968,7 +2968,7 @@
     - service: vk
       id: 2870
       published: 2025-11-20-19-48-43
-      updated: 2026-07-23-18-14-09
+      updated: 2026-07-30-20-12-18
       followers: 1516
       likes: 62
       views: 729
@@ -3086,7 +3086,7 @@
     - service: tg
       id: 982
       published: 2025-09-13-18-25-07
-      updated: 2026-07-23-20-06-58
+      updated: 2026-07-30-20-11-31
       followers: 799
       likes: 64
       views: 565
@@ -3615,7 +3615,7 @@
     - service: vk
       id: 2805
       published: 2025-11-01-18-14-32
-      updated: 2026-07-23-18-14-30
+      updated: 2026-07-30-20-12-59
       followers: 1494
       likes: 107
       views: 1440
