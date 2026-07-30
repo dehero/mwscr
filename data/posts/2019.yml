@@ -658,7 +658,7 @@
     - service: vk
       id: 2412
       published: 2025-06-01-18-25-47
-      updated: 2026-07-23-22-57-11
+      updated: 2026-07-30-23-55-10
       followers: 1314
       likes: 65
       views: 630
@@ -821,10 +821,10 @@
     - service: vk
       id: 2489
       published: 2025-06-28-18-25-41
-      updated: 2026-07-23-22-56-42
+      updated: 2026-07-30-23-54-26
       followers: 1332
       likes: 65
-      views: 525
+      views: 526
       reposts: 3
     - service: tg
       id: 899
@@ -930,7 +930,7 @@
     - service: tg
       id: 701
       published: 2025-02-08-18-09-32
-      updated: 2026-07-23-23-48-10
+      updated: 2026-07-30-23-54-56
       followers: 672
       likes: 54
       views: 557
@@ -1143,7 +1143,7 @@
     - service: tg
       id: 702
       published: 2025-02-09-18-09-27
-      updated: 2026-07-23-23-48-09
+      updated: 2026-07-30-23-54-55
       followers: 673
       likes: 61
       views: 538
@@ -1984,10 +1984,10 @@
     - service: vk
       id: 2485
       published: 2025-06-25-18-30-45
-      updated: 2026-07-23-22-56-45
+      updated: 2026-07-30-23-54-29
       followers: 1328
       likes: 80
-      views: 1252
+      views: 1254
       reposts: 5
     - service: tg
       id: 896
@@ -2088,7 +2088,7 @@
     - service: vk
       id: 2510
       published: 2025-07-09-18-24-37
-      updated: 2026-07-23-22-56-31
+      updated: 2026-07-30-23-54-13
       followers: 1335
       likes: 35
       views: 624
@@ -2597,10 +2597,10 @@
     - service: tg
       id: 689
       published: 2025-01-30-18-10-59
-      updated: 2026-07-23-23-48-19
+      updated: 2026-07-30-23-55-03
       followers: 661
       likes: 75
-      views: 720
+      views: 721
 2019-10-12-imperial-candelabrum:
   title: Imperial Candelabrum
   titleRu: Имперский канделябр
@@ -2886,7 +2886,7 @@
     - service: tg
       id: 681
       published: 2025-01-25-18-09-38
-      updated: 2026-07-23-23-48-31
+      updated: 2026-07-30-23-55-06
       followers: 658
       likes: 65
       views: 584
@@ -2943,7 +2943,7 @@
     - service: vk
       id: 2362
       published: 2025-05-17-18-24-00
-      updated: 2026-07-23-22-57-28
+      updated: 2026-07-30-23-55-30
       followers: 1300
       likes: 67
       views: 579
@@ -3012,7 +3012,7 @@
     - service: tg
       id: 671
       published: 2025-01-18-18-09-39
-      updated: 2026-07-23-23-48-38
+      updated: 2026-07-30-23-55-18
       followers: 655
       likes: 65
       views: 674
