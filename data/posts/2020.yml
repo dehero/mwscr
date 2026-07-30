@@ -225,10 +225,10 @@
     - service: tg
       id: 1059
       published: 2025-11-18-18-17-15
-      updated: 2026-07-23-18-06-57
+      updated: 2026-07-30-18-09-44
       followers: 860
       likes: 64
-      views: 741
+      views: 742
 2020-05-16-tel-mora:
   title: Tel Mora
   titleRu: Тель Мора
@@ -1239,10 +1239,10 @@
     - service: tg
       id: 1025
       published: 2025-10-23-18-16-14
-      updated: 2026-07-23-18-07-18
+      updated: 2026-07-30-18-10-21
       followers: 841
       likes: 69
-      views: 1499
+      views: 1504
       comments: !c |-
         izKAkpPLQnmhq+ZkgACra2F3YXpha3kyMjOk8J+kqJTLQnmhNRH7gACqYTItZW5rZWxsab9hbm90
         aGVyIGRheSB3aXRob3V0IG11ZGNyYWJzICgok8tCeaFWsx0AAKVhbnNpc6Twn6aAAw==

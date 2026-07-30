@@ -141,7 +141,7 @@
     - service: tg
       id: 1042
       published: 2025-11-06-18-17-09
-      updated: 2026-07-23-18-07-06
+      updated: 2026-07-30-18-09-54
       followers: 854
       likes: 66
       views: 662
@@ -769,10 +769,10 @@
     - service: tg
       id: 1127
       published: 2026-01-21-18-42-09
-      updated: 2026-07-23-18-06-18
+      updated: 2026-07-30-18-09-02
       followers: 886
       likes: 73
-      views: 617
+      views: 618
       comments: !c CwuAkZPLQnm+ifpBgACma2V2eS1jpPCfpoAD
 2019-02-21-skaal-lantern:
   title: Skaal Lantern

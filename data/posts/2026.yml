@@ -43,10 +43,10 @@
     - service: tg
       id: 1111
       published: 2026-01-03-19-20-44
-      updated: 2026-07-23-18-06-26
+      updated: 2026-07-30-18-09-08
       followers: 875
       likes: 67
-      views: 640
+      views: 641
 2026-01-04-1-demon-of-the-halls-of-penumbra:
   title: Demon of the Halls of Penumbra
   titleRu: Демон Залов полумрака
@@ -88,10 +88,10 @@
     - service: tg
       id: 1112
       published: 2026-01-04-19-20-44
-      updated: 2026-07-23-18-06-23
+      updated: 2026-07-30-18-09-08
       followers: 875
       likes: 48
-      views: 625
+      views: 627
 2026-01-05-1-cave-life:
   title: Cave Life
   titleRu: Пещерный быт
@@ -136,10 +136,10 @@
     - service: tg
       id: 1115
       published: 2026-01-05-18-21-07
-      updated: 2026-07-23-18-06-22
+      updated: 2026-07-30-18-09-07
       followers: 875
       likes: 67
-      views: 802
+      views: 803
 2026-01-06-1-a-small-victory:
   title: A Small Victory
   titleRu: Небольшая победа
@@ -175,10 +175,10 @@
     - service: tg
       id: 1116
       published: 2026-01-06-18-47-12
-      updated: 2026-07-23-18-06-22
+      updated: 2026-07-30-18-09-07
       followers: 876
       likes: 68
-      views: 679
+      views: 680
 2026-01-07-1-sky-path:
   title: Sky Path
   titleRu: Небесный путь
@@ -215,10 +215,10 @@
     - service: tg
       id: 1117
       published: 2026-01-07-18-17-58
-      updated: 2026-07-23-18-06-22
+      updated: 2026-07-30-18-09-07
       followers: 876
       likes: 75
-      views: 1542
+      views: 1544
       comments: !c |-
         G5AAwIzEOEZyMYg/8uGveYTHpXeWpBG91kibblQk+T5ObDY5EsIDrdbWf8h5wMX6da90+RLlwMbY
         8EyDoNt0ODy1tk4qT1FXO45zs3J1RxTOj91KsDSa3n4iFiRTMgVhSBychpIFGgbBkCUOpDOxOfPU
@@ -260,7 +260,7 @@
     - service: tg
       id: 1118
       published: 2026-01-08-18-57-27
-      updated: 2026-07-23-18-06-21
+      updated: 2026-07-30-18-09-06
       followers: 880
       likes: 70
       views: 702
@@ -309,7 +309,7 @@
     - service: tg
       id: 1121
       published: 2026-01-10-18-59-57
-      updated: 2026-07-23-18-06-21
+      updated: 2026-07-30-18-09-06
       followers: 880
       likes: 64
       views: 839
@@ -362,10 +362,10 @@
     - service: tg
       id: 1123
       published: 2026-01-12-19-21-26
-      updated: 2026-07-23-18-06-21
+      updated: 2026-07-30-18-09-05
       followers: 880
       likes: 66
-      views: 966
+      views: 967
       comments: !c |-
         iyaAkZPLQnm7Orv4AACmdnVzdGV42TpJdCBsb29rcyBjb3p5IHNvbWVob3cuIERlc3BpdGUgdGhl
         IG1ldGFsIHNrZWxldG9uIGFuZCBydXN0Aw==
@@ -403,10 +403,10 @@
     - service: tg
       id: 1124
       published: 2026-01-15-19-24-20
-      updated: 2026-07-23-18-06-20
+      updated: 2026-07-30-18-09-04
       followers: 883
       likes: 71
-      views: 808
+      views: 809
       comments: !c CwuAkZPLQnm9B41zgACma2V2eS1jpPCfpoAD
 2026-01-19-1-lich: 2018-06-13-lich
 2026-01-20-1-under-the-magic-eye: 2018-06-15-under-the-magic-eye
@@ -689,3 +689,4 @@
 2026-07-27-1-a-bit-of-food-drink-and-knowledge: 2018-03-21-a-bit-of-food-drink-and-knowledge
 2026-07-28-1-uncle-sweetshares-workshop: 2018-05-05-uncle-sweetshares-workshop
 2026-07-29-1-long-talk: 2022-07-18-long-talk
+2026-07-30-1-dark-morning-in-the-colony: 2017-09-06-dark-morning-in-the-colony
