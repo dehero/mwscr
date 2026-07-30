@@ -422,7 +422,7 @@
     - service: vk
       id: 2523
       published: 2025-07-20-18-36-19
-      updated: 2026-07-23-20-27-09
+      updated: 2026-07-30-22-59-21
       followers: 1349
       likes: 33
       views: 474
@@ -807,7 +807,7 @@
     - service: vk
       id: 2561
       published: 2025-08-07-18-26-04
-      updated: 2026-07-23-20-24-36
+      updated: 2026-07-30-22-58-54
       followers: 1362
       likes: 31
       views: 639
@@ -1381,10 +1381,10 @@
     - service: tg
       id: 838
       published: 2025-05-11-18-23-53
-      updated: 2026-07-23-22-45-30
+      updated: 2026-07-30-22-58-00
       followers: 738
       likes: 63
-      views: 630
+      views: 632
 2022-07-16-two-at-the-lantern:
   title: Two at the Lantern
   titleRu: Двое у фонаря
@@ -1536,18 +1536,18 @@
     - service: vk
       id: 3457
       published: 2026-07-29-18-49-58
-      updated: 2026-07-30-20-10-26
+      updated: 2026-07-30-22-56-44
       followers: 1435
       likes: 35
-      views: 348
+      views: 352
       reposts: 1
     - service: tg
       id: 1274
       published: 2026-07-29-18-50-04
-      updated: 2026-07-30-20-10-25
+      updated: 2026-07-30-22-56-43
       followers: 920
-      likes: 46
-      views: 189
+      likes: 47
+      views: 193
     - service: mx
       id: '1785351008124'
       published: 2026-07-29-18-50-08
@@ -1986,7 +1986,7 @@
     - service: vk
       id: 2573
       published: 2025-08-12-18-24-42
-      updated: 2026-07-23-20-24-30
+      updated: 2026-07-30-22-58-48
       followers: 1362
       likes: 44
       views: 542
