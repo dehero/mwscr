@@ -12945,11 +12945,11 @@
     - service: vk
       id: 3458
       published: 2026-07-30-18-10-57
-      updated: 2026-07-31-17-16-48
+      updated: 2026-07-31-19-03-36
       followers: 1434
-      likes: 53
-      views: 436
-      reposts: 5
+      likes: 58
+      views: 466
+      reposts: 6
       comments: !c |-
         G8UBACwPeHM3SWEiwkUN8Zz8ovFPcaMIN2+WLYMmoeRITt5X2dYrNRqy3dCncByc7c5Nut/uS10x
         wpidEva2r1vS5rTVRl6utdmZ7XTAsNFsNx5mWZhImEX83AWDEsluljy9HSufdaTVcs/735/mOn63
@@ -12959,7 +12959,7 @@
     - service: tg
       id: 1275
       published: 2026-07-30-18-11-06
-      updated: 2026-07-31-17-16-35
+      updated: 2026-07-31-19-03-27
       followers: 920
       likes: 43
       views: 178
