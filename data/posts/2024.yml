@@ -3246,7 +3246,7 @@
     - service: tg
       id: 500
       published: 2024-08-13-18-56-05
-      updated: 2026-07-24-04-59-00
+      updated: 2026-07-31-05-23-12
       followers: 527
       likes: 76
       views: 822
@@ -3310,7 +3310,7 @@
     - service: tg
       id: 516
       published: 2024-08-29-18-29-13
-      updated: 2026-07-24-04-58-42
+      updated: 2026-07-31-05-22-54
       followers: 544
       likes: 74
       views: 663
@@ -3392,10 +3392,10 @@
     - service: tg
       id: 542
       published: 2024-09-23-18-31-11
-      updated: 2026-07-24-01-24-39
+      updated: 2026-07-31-05-22-14
       followers: 556
       likes: 65
-      views: 563
+      views: 564
 2024-09-24-towers-and-castle:
   title: Towers and Castle
   titleRu: Башни и замок
@@ -3431,7 +3431,7 @@
     - service: tg
       id: 543
       published: 2024-09-24-18-31-57
-      updated: 2026-07-24-01-24-39
+      updated: 2026-07-31-05-22-14
       followers: 556
       likes: 56
       views: 617
@@ -3589,7 +3589,7 @@
     - service: vk
       id: 1802
       published: 2024-10-04-18-12-10
-      updated: 2026-07-24-04-58-36
+      updated: 2026-07-31-05-24-54
       followers: 958
       likes: 50
       views: 406
@@ -3655,7 +3655,7 @@
     - service: vk
       id: 1810
       published: 2024-10-05-18-08-49
-      updated: 2026-07-24-04-58-34
+      updated: 2026-07-31-05-24-53
       followers: 958
       likes: 28
       views: 369
@@ -3747,7 +3747,7 @@
     - service: vk
       id: 1930
       published: 2024-12-02-18-11-17
-      updated: 2026-07-24-01-24-09
+      updated: 2026-07-31-05-23-20
       followers: 1012
       likes: 60
       views: 442
@@ -3819,7 +3819,7 @@
     - service: vk
       id: 1937
       published: 2024-12-03-22-09-03
-      updated: 2026-07-24-01-24-05
+      updated: 2026-07-31-05-23-17
       followers: 1012
       likes: 37
       views: 375
@@ -3890,7 +3890,7 @@
     - service: vk
       id: 1941
       published: 2024-12-04-19-10-14
-      updated: 2026-07-24-01-24-04
+      updated: 2026-07-31-05-23-15
       followers: 1013
       likes: 59
       views: 413
@@ -3936,7 +3936,7 @@
     - service: vk
       id: 1943
       published: 2024-12-05-18-10-12
-      updated: 2026-07-24-01-24-03
+      updated: 2026-07-31-05-23-14
       followers: 1013
       likes: 63
       views: 487
@@ -3992,7 +3992,7 @@
     - service: vk
       id: 1945
       published: 2024-12-06-19-01-31
-      updated: 2026-07-24-01-24-01
+      updated: 2026-07-31-05-23-12
       followers: 1013
       likes: 43
       views: 416
@@ -4025,7 +4025,7 @@
     - service: vk
       id: 1947
       published: 2024-12-07-18-10-02
-      updated: 2026-07-24-01-23-59
+      updated: 2026-07-31-05-23-12
       followers: 1012
       likes: 46
       views: 391
@@ -4075,7 +4075,7 @@
     - service: vk
       id: 1950
       published: 2024-12-08-18-10-10
-      updated: 2026-07-24-01-23-58
+      updated: 2026-07-31-05-23-10
       followers: 1012
       likes: 35
       views: 375
@@ -4114,7 +4114,7 @@
     - service: vk
       id: 1953
       published: 2024-12-09-19-02-15
-      updated: 2026-07-24-01-23-57
+      updated: 2026-07-31-05-23-09
       followers: 1013
       likes: 48
       views: 661
@@ -4178,7 +4178,7 @@
     - service: vk
       id: 1957
       published: 2024-12-11-18-16-04
-      updated: 2026-07-24-01-23-53
+      updated: 2026-07-31-05-23-06
       followers: 1022
       likes: 47
       views: 385
@@ -4231,7 +4231,7 @@
     - service: vk
       id: 1959
       published: 2024-12-12-18-11-51
-      updated: 2026-07-24-01-23-51
+      updated: 2026-07-31-05-23-04
       followers: 1023
       likes: 45
       views: 402
@@ -4287,7 +4287,7 @@
     - service: vk
       id: 1991
       published: 2024-12-26-19-32-05
-      updated: 2026-07-24-01-23-27
+      updated: 2026-07-31-05-22-37
       followers: 1031
       likes: 57
       views: 486
@@ -4360,7 +4360,7 @@
     - service: vk
       id: 1994
       published: 2024-12-27-18-10-40
-      updated: 2026-07-24-01-23-26
+      updated: 2026-07-31-05-22-36
       followers: 1033
       likes: 49
       views: 415
@@ -4406,10 +4406,10 @@
     - service: vk
       id: 1995
       published: 2024-12-28-18-09-30
-      updated: 2026-07-24-01-23-25
+      updated: 2026-07-31-05-22-35
       followers: 1035
       likes: 62
-      views: 555
+      views: 556
       reposts: 4
       comments: !c |-
         G3QA+J0Htg17CyZ/ex9aOCx6vm6k/8Yv9EJrEkswTfatt+f80qXs/sAmCEkREubD5spFrsPW8rK1
@@ -4453,7 +4453,7 @@
     - service: vk
       id: 2004
       published: 2024-12-30-18-10-48
-      updated: 2026-07-24-01-23-23
+      updated: 2026-07-31-05-22-31
       followers: 1037
       likes: 54
       views: 448
