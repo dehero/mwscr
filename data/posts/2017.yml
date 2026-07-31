@@ -12945,18 +12945,24 @@
     - service: vk
       id: 3458
       published: 2026-07-30-18-10-57
-      updated: 2026-07-31-15-53-12
+      updated: 2026-07-31-17-16-48
       followers: 1434
-      likes: 51
-      views: 410
+      likes: 53
+      views: 436
       reposts: 5
+      comments: !c |-
+        G8UBACwPeHM3SWEiwkUN8Zz8ovFPcaMIN2+WLYMmoeRITt5X2dYrNRqy3dCncByc7c5Nut/uS10x
+        wpidEva2r1vS5rTVRl6utdmZ7XTAsNFsNx5mWZhImEX83AWDEsluljy9HSufdaTVcs/735/mOn63
+        Mgr97dfnEWnHHRU7SNCkWKbLkg3KYnDlTvRUpQCj2H+1Y46CcHdHi12uiRvzUOdQagyqmzunpCnB
+        sKGMDZID2snRFvbgxT+gB9GkNBsCxZKKXb5sBI6p3wwBceG4h1BMQZSta3JNtvjF4Fst0pSg9ZlB
+        vjur4F7EQoIVlcosipSTDDlOgJqgdgI=
     - service: tg
       id: 1275
       published: 2026-07-30-18-11-06
-      updated: 2026-07-31-15-53-11
+      updated: 2026-07-31-17-16-35
       followers: 920
       likes: 43
-      views: 175
+      views: 178
     - service: mx
       id: '1785435074015'
       published: 2026-07-30-18-11-14
