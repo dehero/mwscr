@@ -487,7 +487,7 @@ ansis:
   profiles:
     - service: tg
       id: '517050552'
-      updated: 2026-07-31-20-50-56
+      updated: 2026-07-31-21-55-36
       accessHash: '5231096655311395455'
       username: ansis
       name: ansis
@@ -505,7 +505,7 @@ antiorum:
   profiles:
     - service: vk
       id: '3571955'
-      updated: 2026-07-24-21-54-05
+      updated: 2026-07-31-21-56-51
       username: antiorum
       name: Андрей Барсуков
       avatar: store:/avatars/vk-36f45919.jpg
@@ -1427,7 +1427,7 @@ dehero:
     - type: channel
       service: vk
       id: '138249959'
-      updated: 2026-07-31-19-05-37
+      updated: 2026-07-31-21-57-28
       username: mwscr
       name: Morrowind Screenshots
       avatar: store:/avatars/vk-8e97fd4f.jpg
@@ -1779,7 +1779,7 @@ eidelelweise:
   profiles:
     - service: vk
       id: '451140204'
-      updated: 2026-07-31-20-50-58
+      updated: 2026-07-31-21-55-36
       username: eidelelweise
       name: Эйдель Элиас Вайс
       avatar: store:/avatars/vk-16ed1324.jpg
@@ -2121,7 +2121,7 @@ fukkatsumy-kamikoto:
   profiles:
     - service: vk
       id: '172283748'
-      updated: 2026-07-31-20-52-50
+      updated: 2026-07-31-21-56-48
       username: fukkatsumy_kamikoto
       name: Фуккацуми Камикото
       avatar: store:/avatars/vk-40bd4359.jpg
@@ -2631,7 +2631,7 @@ ilyatamrielsky:
   profiles:
     - service: vk
       id: '450332094'
-      updated: 2026-07-31-15-55-01
+      updated: 2026-07-31-21-56-35
       username: ilyatamrielsky
       name: Илья Кудинов
       avatar: store:/avatars/vk-4dd811d3.jpg
@@ -3232,7 +3232,7 @@ kydinov91:
   profiles:
     - service: vk
       id: '36104583'
-      updated: 2026-07-24-23-54-25
+      updated: 2026-07-31-21-57-14
       username: kydinov91
       name: Илья Кудинов
       avatar: store:/avatars/vk-03d8a48a.jpg
@@ -3429,7 +3429,7 @@ m-a-dadychenko:
   profiles:
     - service: vk
       id: '7106429'
-      updated: 2026-07-28-20-56-34
+      updated: 2026-07-31-21-57-13
       username: m_a_dadychenko
       name: Марина Дадыченко
       avatar: store:/avatars/vk-45fb0778.jpg
@@ -3510,7 +3510,7 @@ maksim-solovev:
   profiles:
     - service: vk
       id: '658767771'
-      updated: 2026-07-31-20-51-01
+      updated: 2026-07-31-21-55-39
       username: id658767771
       name: Максим Соловьев
       avatar: store:/avatars/vk-bee5815b.jpg
@@ -3599,7 +3599,7 @@ max-tsei:
   profiles:
     - service: vk
       id: '353284524'
-      updated: 2026-07-31-20-52-41
+      updated: 2026-07-31-21-56-35
       username: max.tsei
       avatar: store:/avatars/vk-7f160215.jpg
       deleted: true
@@ -4859,7 +4859,7 @@ roman-drovosek:
   profiles:
     - service: vk
       id: '279905837'
-      updated: 2026-07-31-20-50-58
+      updated: 2026-07-31-21-55-35
       username: roman_drovosek
       name: Roman Drovosek
       avatar: store:/avatars/vk-582e5f53.jpg
@@ -6154,7 +6154,7 @@ user-32:
   profiles:
     - service: vk
       id: '314007101'
-      updated: 2026-07-31-20-51-54
+      updated: 2026-07-31-21-57-11
       username: id314007101
       avatar: store:/avatars/vk-7f160215.jpg
       deleted: true
@@ -6458,7 +6458,7 @@ vladms:
   profiles:
     - service: vk
       id: '144316708'
-      updated: 2026-07-24-21-54-07
+      updated: 2026-07-31-21-56-53
       username: vladms
       name: Владислав Масленников
       avatar: store:/avatars/vk-6d6a6086.jpg
