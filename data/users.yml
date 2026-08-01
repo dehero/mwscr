@@ -487,7 +487,7 @@ ansis:
   profiles:
     - service: tg
       id: '517050552'
-      updated: 2026-08-01-07-58-27
+      updated: 2026-08-01-09-53-35
       accessHash: '5231096655311395455'
       username: ansis
       name: ansis
@@ -610,7 +610,7 @@ arya-stark:
   profiles:
     - service: vk
       id: '820702664'
-      updated: 2026-07-31-13-25-43
+      updated: 2026-08-01-09-54-08
       username: id820702664
       name: Арья Старк
       avatar: store:/avatars/vk-689aa89d.jpg
@@ -1420,14 +1420,14 @@ dehero:
       avatar: store:/avatars/gh-c8afe641.jpg
     - service: vk
       id: '3652910'
-      updated: 2026-08-01-07-59-37
+      updated: 2026-08-01-09-53-55
       username: dehero
       name: Антон Курьянов
       avatar: store:/avatars/vk-5356f76e.jpg
     - type: channel
       service: vk
       id: '138249959'
-      updated: 2026-08-01-07-58-27
+      updated: 2026-08-01-09-53-35
       username: mwscr
       name: Morrowind Screenshots
       avatar: store:/avatars/vk-8e97fd4f.jpg
@@ -1779,7 +1779,7 @@ eidelelweise:
   profiles:
     - service: vk
       id: '451140204'
-      updated: 2026-08-01-07-58-27
+      updated: 2026-08-01-09-53-35
       username: eidelelweise
       name: Эйдель Элиас Вайс
       avatar: store:/avatars/vk-16ed1324.jpg
@@ -1999,7 +1999,7 @@ evil-kit:
   profiles:
     - service: vk
       id: '153155138'
-      updated: 2026-08-01-07-59-11
+      updated: 2026-08-01-09-53-55
       username: evil_kit
       name: Никита Метелкин
       avatar: store:/avatars/vk-adb64972.jpg
@@ -3159,7 +3159,7 @@ konstantin-matrosov:
   profiles:
     - service: vk
       id: '93073669'
-      updated: 2026-08-01-07-58-27
+      updated: 2026-08-01-09-53-35
       username: id93073669
       name: Константин Матросов
       avatar: store:/avatars/vk-efbc7ca7.jpg
@@ -3510,7 +3510,7 @@ maksim-solovev:
   profiles:
     - service: vk
       id: '658767771'
-      updated: 2026-08-01-07-58-30
+      updated: 2026-08-01-09-53-37
       username: id658767771
       name: Максим Соловьев
       avatar: store:/avatars/vk-bee5815b.jpg
@@ -4859,7 +4859,7 @@ roman-drovosek:
   profiles:
     - service: vk
       id: '279905837'
-      updated: 2026-08-01-07-58-27
+      updated: 2026-08-01-09-53-34
       username: roman_drovosek
       name: Roman Drovosek
       avatar: store:/avatars/vk-582e5f53.jpg
@@ -5099,7 +5099,7 @@ sergey-b-2:
   profiles:
     - service: vk
       id: '1077446394'
-      updated: 2026-07-31-23-51-37
+      updated: 2026-08-01-09-54-08
       username: id1077446394
       name: Сергей Б
       avatar: store:/avatars/vk-f5b20109.jpg
