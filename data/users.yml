@@ -487,7 +487,7 @@ ansis:
   profiles:
     - service: tg
       id: '517050552'
-      updated: 2026-08-01-01-27-47
+      updated: 2026-08-01-05-14-53
       accessHash: '5231096655311395455'
       username: ansis
       name: ansis
@@ -1420,7 +1420,7 @@ dehero:
       avatar: store:/avatars/gh-c8afe641.jpg
     - service: vk
       id: '3652910'
-      updated: 2026-08-01-01-28-55
+      updated: 2026-08-01-05-16-44
       username: dehero
       name: Антон Курьянов
       avatar: store:/avatars/vk-5356f76e.jpg
@@ -1779,7 +1779,7 @@ eidelelweise:
   profiles:
     - service: vk
       id: '451140204'
-      updated: 2026-08-01-01-27-46
+      updated: 2026-08-01-05-14-53
       username: eidelelweise
       name: Эйдель Элиас Вайс
       avatar: store:/avatars/vk-16ed1324.jpg
@@ -2562,7 +2562,7 @@ idalexeyvav:
   profiles:
     - service: vk
       id: '417783044'
-      updated: 2026-07-25-04-54-29
+      updated: 2026-08-01-05-16-45
       username: idalexeyvav
       name: Алексей Вавилов
       avatar: store:/avatars/vk-6717456e.jpg
@@ -3486,7 +3486,7 @@ maks-perunov:
   profiles:
     - service: vk
       id: '35868942'
-      updated: 2026-07-31-15-53-41
+      updated: 2026-08-01-05-16-15
       username: id35868942
       name: Макс Перунов
       avatar: store:/avatars/vk-3bb92045.jpg
@@ -3510,7 +3510,7 @@ maksim-solovev:
   profiles:
     - service: vk
       id: '658767771'
-      updated: 2026-08-01-01-27-49
+      updated: 2026-08-01-05-14-56
       username: id658767771
       name: Максим Соловьев
       avatar: store:/avatars/vk-bee5815b.jpg
@@ -4859,7 +4859,7 @@ roman-drovosek:
   profiles:
     - service: vk
       id: '279905837'
-      updated: 2026-08-01-01-27-46
+      updated: 2026-08-01-05-14-53
       username: roman_drovosek
       name: Roman Drovosek
       avatar: store:/avatars/vk-582e5f53.jpg
