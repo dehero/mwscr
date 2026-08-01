@@ -487,7 +487,7 @@ ansis:
   profiles:
     - service: tg
       id: '517050552'
-      updated: 2026-08-01-21-42-37
+      updated: 2026-08-01-22-42-45
       accessHash: '5231096655311395455'
       username: ansis
       name: ansis
@@ -610,7 +610,7 @@ arya-stark:
   profiles:
     - service: vk
       id: '820702664'
-      updated: 2026-08-01-21-42-37
+      updated: 2026-08-01-22-42-44
       username: id820702664
       name: Арья Старк
       avatar: store:/avatars/vk-689aa89d.jpg
@@ -1427,7 +1427,7 @@ dehero:
     - type: channel
       service: vk
       id: '138249959'
-      updated: 2026-08-01-21-42-37
+      updated: 2026-08-01-22-42-44
       username: mwscr
       name: Morrowind Screenshots
       avatar: store:/avatars/vk-8e97fd4f.jpg
@@ -1779,7 +1779,7 @@ eidelelweise:
   profiles:
     - service: vk
       id: '451140204'
-      updated: 2026-08-01-21-42-36
+      updated: 2026-08-01-22-42-44
       username: eidelelweise
       name: Эйдель Элиас Вайс
       avatar: store:/avatars/vk-16ed1324.jpg
@@ -3159,7 +3159,7 @@ konstantin-matrosov:
   profiles:
     - service: vk
       id: '93073669'
-      updated: 2026-08-01-21-42-37
+      updated: 2026-08-01-22-42-44
       username: id93073669
       name: Константин Матросов
       avatar: store:/avatars/vk-efbc7ca7.jpg
@@ -4859,7 +4859,7 @@ roman-drovosek:
   profiles:
     - service: vk
       id: '279905837'
-      updated: 2026-08-01-21-42-36
+      updated: 2026-08-01-22-42-44
       username: roman_drovosek
       name: Roman Drovosek
       avatar: store:/avatars/vk-582e5f53.jpg
