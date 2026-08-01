@@ -2489,21 +2489,23 @@
     - service: vk
       id: 3460
       published: 2026-07-31-19-06-29
-      updated: 2026-08-01-05-14-54
+      updated: 2026-08-01-07-58-28
       followers: 1435
-      likes: 28
-      views: 251
+      likes: 36
+      views: 329
       reposts: 1
       comments: !c |-
-        G2sA+B2JcSzJgs7YEVTtnvA5wcgTr4ImLS+QJpJkz9q57cq6/Q2iiCLbrl1KhE5h7LcoA5EElhzi
-        l450rh/rrVq2lyVaos8+wR4aVIWuAp3FUONAnklgdpMROLgCk/ADRxmqszXoTFXffi4M
+        G8gA4ByJsY2KPdgc+dQIon7bvxTJDKFbypAI1TxbhEayL12r7v39zQQDXgrrr9EWD+PO134pVnn7
+        sAEnuhDv2jwsuMfYdo4MhwS77u04eXmidjOGMM1NbQokLnpAMiDgR3YmybkAHsLBukqtHkuRRLJB
+        rECfziwJIDWHtAyskmnMgCTcgN4Dbn+QqKtvdPHHiUyHKipzU5h6KuZEy8HEymWK6OWMZXERRbm5
+        6ADet5C9knHwGnsk
     - service: tg
       id: 1276
       published: 2026-07-31-19-06-35
-      updated: 2026-08-01-05-14-53
+      updated: 2026-08-01-07-58-27
       followers: 921
-      likes: 37
-      views: 118
+      likes: 39
+      views: 129
       comments: !c |-
         iyyAkZPLQnn7newDgAClYW5zaXPZR1RoZSBmcmVzaG5lc3Mgb2YgdGhlIG1vcm5pbmcgd2l0aCBm
         b2dneSwgaHVtaWQsIHN3YW1weSBzdHVmZmluZXNzLiDwn4+gAw==
