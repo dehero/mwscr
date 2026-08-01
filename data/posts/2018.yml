@@ -2489,23 +2489,23 @@
     - service: vk
       id: 3460
       published: 2026-07-31-19-06-29
-      updated: 2026-08-01-18-49-06
+      updated: 2026-08-01-20-03-59
       followers: 1435
-      likes: 49
-      views: 458
+      likes: 50
+      views: 464
       reposts: 1
       comments: !c |-
-        G8gA4ByJsY2KPdgc+dQIon7bvxTJDKFbypAI1TxbhEayL12r7v39zQQDXgrrr9EWD+PO134pVnn7
-        sAEnuhDv2jwsuMfYdo4MhwS77u04eXmidjOGMM1NbQokLnpAMiDgR3YmybkAHsLBukqtHkuRRLJB
-        rECfziwJIDWHtAyskmnMgCTcgN4Dbn+QqKtvdPHHiUyHKipzU5h6KuZEy8HEymWK6OWMZXERRbm5
-        6ADet5C9knHwGnsk
+        G+wAoByHcSyxoDOQ798Q/MPfz0f4OUGLLGmg1Vy4WbWn5rkk+/ubCXUBL4X1Z2uLhmnxXC/FymUf
+        mnGigXOA3QDs48EE5ynLoswE5Q9wNHzF5ancqpt9HQfNivzMj5F90QJqAid+ZWdSiwvgsTwEkjHb
+        glnIQU6OWIw+m5nqgHocGjCwqmkxA6pzA/YIcP3LdXMp+V68yKnM01w9ifzYz6bXnKg4mFi5ghg9
+        hckyzxFFkX9RA7x7IX7V5OB1LRYGqf7iEeskKnWt9WF3NGrRPgA=
     - service: tg
       id: 1276
       published: 2026-07-31-19-06-35
-      updated: 2026-08-01-18-49-05
+      updated: 2026-08-01-20-03-56
       followers: 921
-      likes: 48
-      views: 154
+      likes: 49
+      views: 172
       comments: !c |-
         iyyAkZPLQnn7newDgAClYW5zaXPZR1RoZSBmcmVzaG5lc3Mgb2YgdGhlIG1vcm5pbmcgd2l0aCBm
         b2dneSwgaHVtaWQsIHN3YW1weSBzdHVmZmluZXNzLiDwn4+gAw==
@@ -6581,18 +6581,21 @@
     - service: vk
       id: 3456
       published: 2026-07-28-19-03-26
-      updated: 2026-07-31-19-03-37
+      updated: 2026-08-01-20-04-00
       followers: 1435
-      likes: 43
-      views: 509
+      likes: 46
+      views: 557
       reposts: 4
     - service: tg
       id: 1273
       published: 2026-07-28-19-03-36
-      updated: 2026-07-31-19-03-28
+      updated: 2026-08-01-20-03-57
       followers: 919
-      likes: 57
-      views: 236
+      likes: 58
+      views: 276
+      comments: !c |-
+        ixyAkZPLQnn76qF3AACrZ29vc2V2aWNoNzbZIdGF0Lgg0YXQuCDRhdC4INGF0LAg0YXQvtGD0YPR
+        gy4uLgM=
     - service: mx
       id: '1785265423410'
       published: 2026-07-28-19-03-43
@@ -16621,11 +16624,18 @@
     - service: vk
       id: 3466
       published: 2026-08-01-18-49-22
+      updated: 2026-08-01-20-03-48
       followers: 1436
+      likes: 13
+      views: 119
+      reposts: 1
     - service: tg
       id: 1277
       published: 2026-08-01-18-49-28
+      updated: 2026-08-01-20-03-47
       followers: 922
+      likes: 17
+      views: 82
     - service: mx
       id: '1785610173275'
       published: 2026-08-01-18-49-33
