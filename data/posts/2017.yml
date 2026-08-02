@@ -12945,10 +12945,10 @@
     - service: vk
       id: 3458
       published: 2026-07-30-18-10-57
-      updated: 2026-08-01-17-49-32
+      updated: 2026-08-02-17-50-45
       followers: 1434
-      likes: 60
-      views: 581
+      likes: 63
+      views: 624
       reposts: 6
       comments: !c |-
         G8UBACwPeHM3SWEiwkUN8Zz8ovFPcaMIN2+WLYMmoeRITt5X2dYrNRqy3dCncByc7c5Nut/uS10x
@@ -12959,10 +12959,10 @@
     - service: tg
       id: 1275
       published: 2026-07-30-18-11-06
-      updated: 2026-08-01-17-49-30
+      updated: 2026-08-02-17-50-43
       followers: 920
-      likes: 49
-      views: 223
+      likes: 50
+      views: 247
     - service: mx
       id: '1785435074015'
       published: 2026-07-30-18-11-14
