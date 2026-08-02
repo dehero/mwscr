@@ -1855,6 +1855,18 @@
         30YWx0D3XwUsr1UIGZU4SBEETQ0X0+xEDER54JiU6g8fmmgn9Ks+aIZQ+mGHeLSqYdf5VQuSJ+ji
         k6cn/Kt4t/WMVlG6vawOZ/y1+lGfUO8JYP75iNU7/u0DyQIEAzv9hi88qfRThOJQJxo4jfEDTApR
         trPjnQovSBfpd3qF2etmcCGzVaQyQDy8lJelYd9YuJ7qEOmhn1EQh6WkturmElYuGhysww==
+    - service: vk
+      id: 3468
+      published: 2026-08-02-18-50-06
+      followers: 1436
+    - service: tg
+      id: 1278
+      published: 2026-08-02-18-50-13
+      followers: 921
+    - service: mx
+      id: '1785696618296'
+      published: 2026-08-02-18-50-18
+      followers: 23
 2017-02-07-night-patrol:
   title: Night Patrol
   titleRu: Ночной патруль
