@@ -1440,7 +1440,7 @@ dehero:
     - type: channel
       service: tg
       id: '1264795946'
-      updated: 2026-08-02-18-49-44
+      updated: 2026-08-02-20-04-11
       accessHash: '-5789257269249675714'
       username: mwscr
       name: Morrowind Screenshots
@@ -2315,11 +2315,11 @@ goosevich76:
   profiles:
     - service: tg
       id: '5385620621'
-      updated: 2026-08-01-20-03-57
+      updated: 2026-08-02-20-04-15
       accessHash: '-7130473396589324830'
       username: horwwwaty
       name: Choven
-      avatar: store:/avatars/tg-5325925108683576479.jpg
+      avatar: store:/avatars/tg-5438267073596432167.jpg
 gorheim:
   profiles:
     - service: tg
@@ -2758,7 +2758,7 @@ ivan-scott:
   profiles:
     - service: tg
       id: '6586563421'
-      updated: 2026-07-30-16-26-18
+      updated: 2026-08-02-20-04-16
       accessHash: '2286720855402997925'
       name: Ivan Scott
 ivan-uralov:
@@ -3616,7 +3616,7 @@ mbdtsmo:
   profiles:
     - service: tg
       id: '5093097514'
-      updated: 2026-08-02-18-49-44
+      updated: 2026-08-02-20-04-16
       accessHash: '-613358669572386334'
       username: mbdtsmo
       name: M Bdtsmo
@@ -6665,7 +6665,7 @@ xxxkamaz2008xxx:
   profiles:
     - service: tg
       id: '476274825'
-      updated: 2026-07-31-05-23-14
+      updated: 2026-08-02-20-04-16
       accessHash: '6278268179581961642'
       name: initramfs-linux-cachyos-bore-custom.img
 xxxxvns:
