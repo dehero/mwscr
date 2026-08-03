@@ -1440,7 +1440,7 @@ dehero:
     - type: channel
       service: tg
       id: '1264795946'
-      updated: 2026-08-03-05-27-20
+      updated: 2026-08-03-08-57-00
       accessHash: '-5789257269249675714'
       username: mwscr
       name: Morrowind Screenshots
@@ -1648,6 +1648,8 @@ dr4ug:
   profiles:
     - service: tg
       id: '1881171974'
+      updated: 2026-08-03-08-57-03
+      accessHash: '197104942953691377'
       username: dr4ug
       botChatId: 1881171974
       name: Dräug
@@ -3623,7 +3625,7 @@ mbdtsmo:
   profiles:
     - service: tg
       id: '5093097514'
-      updated: 2026-08-03-05-27-20
+      updated: 2026-08-03-08-57-00
       accessHash: '-613358669572386334'
       username: mbdtsmo
       name: M Bdtsmo
