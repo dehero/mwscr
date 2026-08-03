@@ -2324,11 +2324,11 @@ goosevich76:
   profiles:
     - service: tg
       id: '5385620621'
-      updated: 2026-08-02-20-04-15
+      updated: 2026-08-03-20-52-38
       accessHash: '-7130473396589324830'
       username: horwwwaty
       name: Choven
-      avatar: store:/avatars/tg-5438267073596432167.jpg
+      avatar: store:/avatars/tg-5325925108683576479.jpg
 gorheim:
   profiles:
     - service: tg
@@ -5108,7 +5108,7 @@ sergey-b-2:
   profiles:
     - service: vk
       id: '1077446394'
-      updated: 2026-08-03-01-26-07
+      updated: 2026-08-03-20-52-40
       username: id1077446394
       name: Сергей Б
       avatar: store:/avatars/vk-f5b20109.jpg

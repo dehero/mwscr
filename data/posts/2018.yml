@@ -6581,18 +6581,18 @@
     - service: vk
       id: 3456
       published: 2026-07-28-19-03-26
-      updated: 2026-08-02-20-04-07
+      updated: 2026-08-03-20-52-42
       followers: 1435
-      likes: 49
-      views: 595
+      likes: 51
+      views: 634
       reposts: 4
     - service: tg
       id: 1273
       published: 2026-07-28-19-03-36
-      updated: 2026-08-02-20-04-15
+      updated: 2026-08-03-20-52-39
       followers: 919
-      likes: 58
-      views: 290
+      likes: 59
+      views: 301
       comments: !c |-
         ixyAkZPLQnn76qF3AACrZ29vc2V2aWNoNzbZIdGF0Lgg0YXQuCDRhdC4INGF0LAg0YXQvtGD0YPR
         gy4uLgM=
