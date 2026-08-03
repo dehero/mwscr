@@ -1440,7 +1440,7 @@ dehero:
     - type: channel
       service: tg
       id: '1264795946'
-      updated: 2026-08-03-01-26-06
+      updated: 2026-08-03-05-27-20
       accessHash: '-5789257269249675714'
       username: mwscr
       name: Morrowind Screenshots
@@ -1644,6 +1644,13 @@ dr-jackyll:
       username: dr.jackyll
       name: Никита Синицын
       avatar: store:/avatars/vk-d0bf7b99.jpg
+dr4ug:
+  profiles:
+    - service: tg
+      id: '1881171974'
+      username: dr4ug
+      botChatId: 1881171974
+      name: Dräug
 draugwath:
   profiles:
     - service: ig
@@ -3616,7 +3623,7 @@ mbdtsmo:
   profiles:
     - service: tg
       id: '5093097514'
-      updated: 2026-08-03-01-26-06
+      updated: 2026-08-03-05-27-20
       accessHash: '-613358669572386334'
       username: mbdtsmo
       name: M Bdtsmo
