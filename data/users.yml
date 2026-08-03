@@ -1440,7 +1440,7 @@ dehero:
     - type: channel
       service: tg
       id: '1264795946'
-      updated: 2026-08-02-23-47-45
+      updated: 2026-08-03-01-26-06
       accessHash: '-5789257269249675714'
       username: mwscr
       name: Morrowind Screenshots
@@ -3616,7 +3616,7 @@ mbdtsmo:
   profiles:
     - service: tg
       id: '5093097514'
-      updated: 2026-08-02-23-47-45
+      updated: 2026-08-03-01-26-06
       accessHash: '-613358669572386334'
       username: mbdtsmo
       name: M Bdtsmo
@@ -5099,7 +5099,7 @@ sergey-b-2:
   profiles:
     - service: vk
       id: '1077446394'
-      updated: 2026-08-01-09-54-08
+      updated: 2026-08-03-01-26-07
       username: id1077446394
       name: Сергей Б
       avatar: store:/avatars/vk-f5b20109.jpg
