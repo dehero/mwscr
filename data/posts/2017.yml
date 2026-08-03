@@ -1858,15 +1858,15 @@
     - service: vk
       id: 3468
       published: 2026-08-02-18-50-06
-      updated: 2026-08-03-17-47-14
+      updated: 2026-08-03-19-15-19
       followers: 1436
-      likes: 53
-      views: 496
+      likes: 54
+      views: 513
       reposts: 2
     - service: tg
       id: 1278
       published: 2026-08-02-18-50-13
-      updated: 2026-08-03-17-47-13
+      updated: 2026-08-03-19-15-19
       followers: 921
       likes: 39
       views: 215
@@ -2358,6 +2358,18 @@
       likes: 11
       views: 152
       comments: !c Cw+AkZPLQnWkQFuHAACndXNlci0zNqvQktC+0LTQsF5fXgM=
+    - service: vk
+      id: 3469
+      published: 2026-08-03-19-16-07
+      followers: 1436
+    - service: tg
+      id: 1279
+      published: 2026-08-03-19-16-14
+      followers: 922
+    - service: mx
+      id: '1785784579892'
+      published: 2026-08-03-19-16-19
+      followers: 23
 2017-02-16-sunrise-over-the-ash-forest:
   title: Sunrise Over the Ash Forest
   titleRu: Рассвет над пепельным лесом
@@ -12964,10 +12976,10 @@
     - service: vk
       id: 3458
       published: 2026-07-30-18-10-57
-      updated: 2026-08-02-17-50-45
+      updated: 2026-08-03-19-15-45
       followers: 1434
-      likes: 63
-      views: 624
+      likes: 67
+      views: 683
       reposts: 6
       comments: !c |-
         G8UBACwPeHM3SWEiwkUN8Zz8ovFPcaMIN2+WLYMmoeRITt5X2dYrNRqy3dCncByc7c5Nut/uS10x
@@ -12978,10 +12990,10 @@
     - service: tg
       id: 1275
       published: 2026-07-30-18-11-06
-      updated: 2026-08-02-17-50-43
+      updated: 2026-08-03-19-15-29
       followers: 920
       likes: 50
-      views: 247
+      views: 286
     - service: mx
       id: '1785435074015'
       published: 2026-07-30-18-11-14
