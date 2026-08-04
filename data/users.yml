@@ -610,7 +610,7 @@ arya-stark:
   profiles:
     - service: vk
       id: '820702664'
-      updated: 2026-08-04-19-16-19
+      updated: 2026-08-04-21-00-33
       username: id820702664
       name: Арья Старк
       avatar: store:/avatars/vk-689aa89d.jpg
@@ -2040,7 +2040,7 @@ feanor2la:
   profiles:
     - service: vk
       id: '16294877'
-      updated: 2026-07-31-01-26-42
+      updated: 2026-08-04-21-00-33
       username: feanor2la
       name: Иван Урлапов
       avatar: store:/avatars/vk-14fd45f0.jpg
@@ -2324,7 +2324,7 @@ goosevich76:
   profiles:
     - service: tg
       id: '5385620621'
-      updated: 2026-08-03-20-52-38
+      updated: 2026-08-04-21-00-29
       accessHash: '-7130473396589324830'
       username: horwwwaty
       name: Choven
@@ -2774,7 +2774,7 @@ ivan-uralov:
   profiles:
     - service: vk
       id: '16497155'
-      updated: 2026-07-30-23-54-02
+      updated: 2026-08-04-21-00-33
       username: id16497155
       name: Иван Уралов
       avatar: store:/avatars/vk-51775759.jpg
@@ -3438,7 +3438,7 @@ m-a-dadychenko:
   profiles:
     - service: vk
       id: '7106429'
-      updated: 2026-07-31-21-57-13
+      updated: 2026-08-04-21-00-31
       username: m_a_dadychenko
       name: Марина Дадыченко
       avatar: store:/avatars/vk-45fb0778.jpg
@@ -5108,7 +5108,7 @@ sergey-b-2:
   profiles:
     - service: vk
       id: '1077446394'
-      updated: 2026-08-04-17-28-28
+      updated: 2026-08-04-21-00-33
       username: id1077446394
       name: Сергей Б
       avatar: store:/avatars/vk-f5b20109.jpg
@@ -5124,7 +5124,7 @@ sergey-venkov:
   profiles:
     - service: vk
       id: '217443112'
-      updated: 2026-07-30-22-57-14
+      updated: 2026-08-04-21-00-31
       username: id217443112
       name: Сергей Венков
       avatar: store:/avatars/vk-a77d1a73.jpg

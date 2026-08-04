@@ -6581,18 +6581,18 @@
     - service: vk
       id: 3456
       published: 2026-07-28-19-03-26
-      updated: 2026-08-03-20-52-42
+      updated: 2026-08-04-21-00-20
       followers: 1435
       likes: 51
-      views: 634
+      views: 644
       reposts: 4
     - service: tg
       id: 1273
       published: 2026-07-28-19-03-36
-      updated: 2026-08-03-20-52-39
+      updated: 2026-08-04-21-00-29
       followers: 919
       likes: 59
-      views: 301
+      views: 317
       comments: !c |-
         ixyAkZPLQnn76qF3AACrZ29vc2V2aWNoNzbZIdGF0Lgg0YXQuCDRhdC4INGF0LAg0YXQvtGD0YPR
         gy4uLgM=
@@ -9810,10 +9810,10 @@
     - service: vk
       id: 3440
       published: 2026-07-21-18-07-36
-      updated: 2026-07-28-20-56-34
+      updated: 2026-08-04-21-00-31
       followers: 1433
-      likes: 69
-      views: 800
+      likes: 70
+      views: 839
       reposts: 6
       comments: !c |-
         G8wBAJwHto1sOxwMv/TAkOQZ/yQHi/D0toqseQJRlGALAm8rkuR9rW2EkInJFCyGNvF3Pvibzdi0
