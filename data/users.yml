@@ -4685,7 +4685,7 @@ pyriglena:
   profiles:
     - service: tg
       id: '554672984'
-      updated: 2026-07-31-13-26-18
+      updated: 2026-08-04-22-11-48
       accessHash: '-3565593010225205906'
       username: pyriglena
       name: yarrow
@@ -5657,7 +5657,7 @@ taylor-kinney:
   profiles:
     - service: tg
       id: '8805451892'
-      updated: 2026-07-28-21-55-20
+      updated: 2026-08-04-22-11-41
       accessHash: '-4433703925452983086'
       name: Taylor Kinney
 tea-tsar:
