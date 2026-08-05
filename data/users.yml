@@ -1672,7 +1672,7 @@ dremarretres:
   profiles:
     - service: vk
       id: '801308664'
-      updated: 2026-07-30-23-55-09
+      updated: 2026-08-05-23-45-20
       username: dremarretres
       name: Джон Шепард
       avatar: store:/avatars/vk-ac4f0700.jpg
@@ -6364,9 +6364,12 @@ vectormaly:
   profiles:
     - service: tg
       id: '842358436'
+      updated: 2026-08-05-23-45-24
+      accessHash: '8403750728080648348'
       username: vectormaly
       botChatId: 842358436
       name: VECTOR MALY
+      avatar: store:/avatars/tg-3617901934585948103.jpg
 velikiyh:
   profiles:
     - service: vk
