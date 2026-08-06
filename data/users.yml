@@ -1696,11 +1696,10 @@ durovcici:
   profiles:
     - service: tg
       id: '6054609776'
-      updated: 2026-07-09-12-57-49
+      updated: 2026-08-06-15-05-24
       accessHash: '-3913127932631311318'
       username: Nerevarrine
-      name: ㅤ
-      avatar: store:/avatars/tg-5453979421174863491.jpg
+      name: дшрг чуркич
 dyadyushka-krassius:
   profiles:
     - type: channel
@@ -2782,7 +2781,7 @@ ivanovic:
   profiles:
     - service: tg
       id: '5205246036'
-      updated: 2026-07-30-15-00-01
+      updated: 2026-08-06-15-05-19
       accessHash: '-4096599997074721381'
       name: Ivanovic
 izipvnk:
@@ -3653,7 +3652,7 @@ methamar:
   profiles:
     - service: tg
       id: '227628220'
-      updated: 2026-07-09-12-57-50
+      updated: 2026-08-06-15-05-34
       accessHash: '5119360306419431594'
       username: methamar
       name: эмбэ
