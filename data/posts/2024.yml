@@ -4287,7 +4287,7 @@
     - service: vk
       id: 1991
       published: 2024-12-26-19-32-05
-      updated: 2026-07-31-05-22-37
+      updated: 2026-08-07-10-44-53
       followers: 1031
       likes: 57
       views: 486
@@ -4300,7 +4300,7 @@
     - service: tg
       id: 638
       published: 2024-12-26-19-32-13
-      updated: 2026-07-31-01-26-36
+      updated: 2026-08-07-10-42-24
       followers: 626
       likes: 74
       views: 1030
@@ -4360,7 +4360,7 @@
     - service: vk
       id: 1994
       published: 2024-12-27-18-10-40
-      updated: 2026-07-31-05-22-36
+      updated: 2026-08-07-10-44-52
       followers: 1033
       likes: 49
       views: 415
@@ -4368,10 +4368,10 @@
     - service: tg
       id: 639
       published: 2024-12-27-18-10-46
-      updated: 2026-07-31-01-26-36
+      updated: 2026-08-07-10-42-24
       followers: 631
       likes: 68
-      views: 754
+      views: 756
 2024-12-28-vivecs-feat:
   title: Vivec's Feat
   titleRu: Подвиг Вивека
@@ -4406,7 +4406,7 @@
     - service: vk
       id: 1995
       published: 2024-12-28-18-09-30
-      updated: 2026-07-31-05-22-35
+      updated: 2026-08-07-10-44-51
       followers: 1035
       likes: 62
       views: 556
@@ -4417,10 +4417,10 @@
     - service: tg
       id: 640
       published: 2024-12-28-18-09-36
-      updated: 2026-07-30-23-55-33
+      updated: 2026-08-07-10-42-23
       followers: 638
-      likes: 76
-      views: 674
+      likes: 77
+      views: 675
       comments: !c |-
         iyOAkpPLQnlCbkw1AAClYW5zaXO7VGhlIEZpcnN0IEJyZWF0aCBvZiBTa2liaWRpk8tCeUE1Nk4A
         AKt6aGVjaGthLWRydqTwn5mEAw==
@@ -4453,7 +4453,7 @@
     - service: vk
       id: 2004
       published: 2024-12-30-18-10-48
-      updated: 2026-07-31-05-22-31
+      updated: 2026-08-07-10-44-49
       followers: 1037
       likes: 54
       views: 448
@@ -4467,7 +4467,7 @@
     - service: tg
       id: 642
       published: 2024-12-30-18-10-55
-      updated: 2026-07-30-23-55-32
+      updated: 2026-08-07-10-42-22
       followers: 642
       likes: 80
       views: 1018
@@ -4501,7 +4501,7 @@
     - service: vk
       id: 2007
       published: 2024-12-31-18-10-25
-      updated: 2026-07-31-01-28-39
+      updated: 2026-08-07-10-44-48
       followers: 1038
       likes: 44
       views: 400
@@ -4514,8 +4514,8 @@
     - service: tg
       id: 643
       published: 2024-12-31-18-10-35
-      updated: 2026-07-30-23-55-32
+      updated: 2026-08-07-10-42-21
       followers: 643
       likes: 69
-      views: 612
+      views: 613
       comments: !c ixOAkZPLQnlC1wULgACtY2FpdXMtY29zYWRlc65tZSBpbiB0aGUgaG9vZAM=

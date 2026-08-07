@@ -137,7 +137,7 @@
     - service: vk
       id: 1977
       published: 2024-12-20-18-10-34
-      updated: 2026-07-31-05-22-50
+      updated: 2026-08-07-10-45-00
       followers: 1027
       likes: 40
       views: 431
@@ -146,7 +146,7 @@
     - service: tg
       id: 631
       published: 2024-12-20-18-10-40
-      updated: 2026-07-31-01-26-42
+      updated: 2026-08-07-10-42-30
       followers: 584
       likes: 60
       views: 651
@@ -1645,17 +1645,17 @@
     - service: vk
       id: 2011
       published: 2025-01-02-18-10-56
-      updated: 2026-07-31-01-28-37
+      updated: 2026-08-07-10-44-46
       followers: 1040
       likes: 58
       views: 398
     - service: tg
       id: 645
       published: 2025-01-02-18-11-03
-      updated: 2026-07-30-23-55-30
+      updated: 2026-08-07-10-42-20
       followers: 646
       likes: 75
-      views: 779
+      views: 780
       comments: !c ixWAkZPLQnlChFvpgACuZGFya25lc3MtcmlmaG+xTGlrZSBsb3ZlbHkgZHJlYW0D
 2020-10-22-clagius-clanler-outfitter:
   title: Clagius Clanler, Outfitter
@@ -2200,7 +2200,7 @@
     - service: vk
       id: 2137
       published: 2025-02-18-18-11-39
-      updated: 2026-07-31-01-27-41
+      updated: 2026-08-07-10-41-35
       followers: 1092
       likes: 37
       views: 478
@@ -2212,7 +2212,7 @@
     - service: tg
       id: 714
       published: 2025-02-18-18-11-48
-      updated: 2026-07-30-23-54-48
+      updated: 2026-08-07-10-41-14
       followers: 678
       likes: 60
       views: 675
@@ -2364,7 +2364,7 @@
     - service: vk
       id: 2168
       published: 2025-03-03-18-10-48
-      updated: 2026-07-31-01-27-21
+      updated: 2026-08-07-10-41-13
       followers: 1158
       likes: 58
       views: 501
@@ -2372,7 +2372,7 @@
     - service: tg
       id: 733
       published: 2025-03-03-18-10-55
-      updated: 2026-07-30-23-54-36
+      updated: 2026-08-07-10-40-58
       followers: 689
       likes: 65
       views: 575
