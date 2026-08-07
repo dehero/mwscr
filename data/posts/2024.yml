@@ -524,17 +524,17 @@
     - service: vk
       id: 3025
       published: 2026-01-23-18-33-39
-      updated: 2026-07-30-20-11-02
+      updated: 2026-08-07-04-24-28
       followers: 1583
       likes: 66
       views: 891
     - service: tg
       id: 1129
       published: 2026-01-23-18-33-43
-      updated: 2026-07-30-18-09-00
+      updated: 2026-08-07-04-24-19
       followers: 884
       likes: 65
-      views: 599
+      views: 603
       comments: !c |-
         CyCAkpPLQnm/ZwgZgACob2JlcmhvcnS20J3QtdC70L7RgiDRgNGD0LvQuNGCIZPLQnm+3IjHAACm
         a2V2eS1jpPCfpoAD
@@ -588,7 +588,7 @@
     - service: vk
       id: 2824
       published: 2025-11-07-18-18-05
-      updated: 2026-07-30-20-12-41
+      updated: 2026-08-07-04-26-13
       followers: 1504
       likes: 56
       views: 1087
@@ -605,7 +605,7 @@
     - service: tg
       id: 1048
       published: 2025-11-07-18-18-08
-      updated: 2026-07-30-18-09-54
+      updated: 2026-08-07-04-25-16
       followers: 854
       likes: 61
       views: 668
@@ -1639,7 +1639,7 @@
     - service: vk
       id: 3021
       published: 2026-01-22-18-32-30
-      updated: 2026-07-30-20-11-03
+      updated: 2026-08-07-04-24-29
       followers: 1582
       likes: 109
       views: 1739
@@ -1651,10 +1651,10 @@
     - service: tg
       id: 1128
       published: 2026-01-22-18-32-35
-      updated: 2026-07-30-18-09-01
+      updated: 2026-08-07-04-24-20
       followers: 885
       likes: 76
-      views: 1010
+      views: 1019
       comments: !c CwuAkZPLQnm+ifzxAACma2V2eS1jpPCfpoAD
 2024-04-16-birth-of-fabricant: 2018-01-16-birth-of-fabricant
 2024-04-17-interior-garden: 2017-03-31-interior-garden
@@ -1875,7 +1875,7 @@
     - service: vk
       id: 3059
       published: 2026-02-02-18-43-01
-      updated: 2026-07-30-20-10-49
+      updated: 2026-08-07-04-24-13
       followers: 1595
       likes: 57
       views: 782
@@ -1887,10 +1887,10 @@
     - service: tg
       id: 1139
       published: 2026-02-02-18-43-05
-      updated: 2026-07-30-18-08-50
+      updated: 2026-08-07-04-24-07
       followers: 887
       likes: 73
-      views: 937
+      views: 942
       comments: !c |-
         CyqAkpPLQnnCO09iAACma2V2eS1jpPCfpoCTy0J5wfthaoAArnBhaW5raWxsZXIxOTg22SPQnNGD
         0YHQuiDQu9C10YfQuNGCINCx0L7Qu9C10LfQvdC4LgM=
@@ -2968,14 +2968,14 @@
     - service: vk
       id: 2870
       published: 2025-11-20-19-48-43
-      updated: 2026-07-30-20-12-18
+      updated: 2026-08-07-04-25-44
       followers: 1516
       likes: 62
       views: 729
     - service: tg
       id: 1063
       published: 2025-11-20-19-48-47
-      updated: 2026-07-30-18-09-44
+      updated: 2026-08-07-04-25-04
       followers: 861
       likes: 68
       views: 683
@@ -3438,7 +3438,7 @@
     - service: vk
       id: 3085
       published: 2026-02-13-18-49-37
-      updated: 2026-07-30-16-28-34
+      updated: 2026-08-07-04-23-49
       followers: 1601
       likes: 65
       views: 776
@@ -3615,7 +3615,7 @@
     - service: vk
       id: 2805
       published: 2025-11-01-18-14-32
-      updated: 2026-07-30-20-12-59
+      updated: 2026-08-07-04-26-41
       followers: 1494
       likes: 107
       views: 1440
@@ -3623,7 +3623,7 @@
     - service: tg
       id: 1037
       published: 2025-11-01-18-14-36
-      updated: 2026-07-30-18-09-59
+      updated: 2026-08-07-04-25-35
       followers: 850
       likes: 82
       views: 632

@@ -2761,7 +2761,7 @@
     - service: vk
       id: 2786
       published: 2025-10-27-18-17-50
-      updated: 2026-07-30-20-13-04
+      updated: 2026-08-07-04-26-47
       followers: 1487
       likes: 80
       views: 2229
@@ -2778,10 +2778,10 @@
         - 1031
         - 1032
       published: 2025-10-27-18-18-00
-      updated: 2026-07-30-18-10-17
+      updated: 2026-08-07-04-25-41
       followers: 847
       likes: 72
-      views: 829
+      views: 830
       comments: !c |-
         G4YAwCwO7GbOi9beZImE5PGNbJMUYR1vNKuidtNE6H9I5ulPiLXlBPiEL5CQkgh2jAPgcdZbdABb
         bJRhA04SKxn8ab+b2Rx+NgDwLF7F27jdEAR5uksv7olH9B4xAefDNu+6GrTHl53GCbjAFDIhk/qH
@@ -2849,7 +2849,7 @@
     - service: vk
       id: 2906
       published: 2025-12-01-18-17-50
-      updated: 2026-07-30-22-57-20
+      updated: 2026-08-07-04-25-16
       followers: 1532
       likes: 64
       views: 1041
@@ -2865,10 +2865,10 @@
     - service: tg
       id: 1076
       published: 2025-12-01-18-18-00
-      updated: 2026-07-30-18-09-33
+      updated: 2026-08-07-04-24-44
       followers: 867
       likes: 66
-      views: 651
+      views: 652
       comments: !c |-
         G/YAIJwH2anphLG6kpp48fz7t7Al9AJJKQj0C7VVHAZ5wEFyLlmD58b8VM3iSLBV/shXt8W0Go4O
         dvAIvxoMqb1aX51ypIEGoC2kHE/QPLaDh6w0gnjJZrDtn9fy90/A0wwqDBF1p6GOPT+N/UWy5D5v
@@ -2898,7 +2898,7 @@
     - service: vk
       id: 2917
       published: 2025-12-02-18-27-01
-      updated: 2026-07-30-20-11-52
+      updated: 2026-08-07-04-25-13
       followers: 1532
       likes: 106
       views: 3780
@@ -2906,10 +2906,10 @@
     - service: tg
       id: 1077
       published: 2025-12-02-18-27-05
-      updated: 2026-07-30-18-09-33
+      updated: 2026-08-07-04-24-43
       followers: 867
       likes: 68
-      views: 774
+      views: 775
 2025-12-03-1-near-mababi:
   title: Near Mababi
   titleRu: У Мабаби
@@ -2942,7 +2942,7 @@
     - service: vk
       id: 2919
       published: 2025-12-03-18-27-35
-      updated: 2026-07-30-20-11-50
+      updated: 2026-08-07-04-25-12
       followers: 1536
       likes: 64
       views: 832
@@ -2955,10 +2955,10 @@
     - service: tg
       id: 1078
       published: 2025-12-03-18-27-38
-      updated: 2026-07-30-18-09-29
+      updated: 2026-08-07-04-24-43
       followers: 866
       likes: 67
-      views: 734
+      views: 735
       comments: !c |-
         G5YAAIyUbsI8H/6aZyeaAX5nsY2n7y8qQRsoQ3ReAlWf+zo50QPK4YegLaIo54vlNgaCy+MRxwlq
         9B5P707rFKPnQ2qdI9FqJVd4Ky6DHIM8g0ryq5BjMLcIqbYmffSET1oiX0lVFn+jW4DwY97lY+VY
@@ -2988,7 +2988,7 @@
     - service: vk
       id: 2920
       published: 2025-12-04-19-18-36
-      updated: 2026-07-30-20-11-49
+      updated: 2026-08-07-04-25-10
       followers: 1537
       likes: 55
       views: 658
@@ -2999,10 +2999,10 @@
     - service: tg
       id: 1079
       published: 2025-12-04-19-18-40
-      updated: 2026-07-30-18-09-28
+      updated: 2026-08-07-04-24-42
       followers: 867
       likes: 66
-      views: 770
+      views: 772
 2025-12-05-1-unexplored-shipwreck:
   trach: store:/trash/dehero.2024-12-26-21-30-26.png
   title: Unexplored Shipwreck
@@ -3031,7 +3031,7 @@
     - service: vk
       id: 2922
       published: 2025-12-05-18-23-12
-      updated: 2026-07-30-20-11-47
+      updated: 2026-08-07-04-25-08
       followers: 1537
       likes: 89
       views: 1345
@@ -3049,10 +3049,10 @@
     - service: tg
       id: 1080
       published: 2025-12-05-18-23-15
-      updated: 2026-07-30-18-09-28
+      updated: 2026-08-07-04-24-41
       followers: 868
       likes: 72
-      views: 725
+      views: 726
 2025-12-06-1-senseless-mourning:
   title: Senseless Mourning
   titleRu: Бессмысленный траур
@@ -3081,7 +3081,7 @@
     - service: vk
       id: 2932
       published: 2025-12-06-18-22-10
-      updated: 2026-07-30-20-11-45
+      updated: 2026-08-07-04-25-06
       followers: 1538
       likes: 84
       views: 1027
@@ -3092,7 +3092,7 @@
     - service: tg
       id: 1081
       published: 2025-12-06-18-22-16
-      updated: 2026-07-30-18-09-27
+      updated: 2026-08-07-04-24-41
       followers: 868
       likes: 67
       views: 812
@@ -3125,7 +3125,7 @@
     - service: vk
       id: 2936
       published: 2025-12-07-18-22-41
-      updated: 2026-07-30-20-11-44
+      updated: 2026-08-07-04-25-04
       followers: 1540
       likes: 87
       views: 1280
@@ -3137,10 +3137,10 @@
     - service: tg
       id: 1082
       published: 2025-12-07-18-22-45
-      updated: 2026-07-30-18-09-27
+      updated: 2026-08-07-04-24-40
       followers: 869
       likes: 67
-      views: 799
+      views: 800
 2025-12-08-1-sul-matuul:
   title: Sul-Matuul
   titleRu: Сул-Матуул
@@ -3172,7 +3172,7 @@
     - service: vk
       id: 2940
       published: 2025-12-08-18-26-58
-      updated: 2026-07-30-20-11-43
+      updated: 2026-08-07-04-25-03
       followers: 1541
       likes: 86
       views: 1834
@@ -3185,7 +3185,7 @@
     - service: tg
       id: 1083
       published: 2025-12-08-18-27-03
-      updated: 2026-07-30-18-09-26
+      updated: 2026-08-07-04-24-40
       followers: 868
       likes: 64
       views: 715
@@ -3221,7 +3221,7 @@
     - service: vk
       id: 2942
       published: 2025-12-09-18-22-26
-      updated: 2026-07-30-20-11-42
+      updated: 2026-08-07-04-25-02
       followers: 1541
       likes: 72
       views: 1047
@@ -3237,7 +3237,7 @@
     - service: tg
       id: 1084
       published: 2025-12-09-18-22-30
-      updated: 2026-07-30-18-09-26
+      updated: 2026-08-07-04-24-39
       followers: 868
       likes: 66
       views: 776
@@ -3267,7 +3267,7 @@
     - service: vk
       id: 2949
       published: 2025-12-10-18-26-56
-      updated: 2026-07-30-20-11-40
+      updated: 2026-08-07-04-25-00
       followers: 1541
       likes: 68
       views: 1202
@@ -3275,10 +3275,10 @@
     - service: tg
       id: 1085
       published: 2025-12-10-18-27-00
-      updated: 2026-07-30-18-09-25
+      updated: 2026-08-07-04-24-39
       followers: 869
       likes: 65
-      views: 936
+      views: 937
 2025-12-11-1-the-wicked-almalexia:
   title: The Wicked Almalexia
   titleRu: Свирепая Альмалексия
@@ -3307,7 +3307,7 @@
     - service: vk
       id: 2951
       published: 2025-12-11-18-26-56
-      updated: 2026-07-30-20-11-40
+      updated: 2026-08-07-04-24-59
       followers: 1542
       likes: 70
       views: 3162
@@ -3315,10 +3315,10 @@
     - service: tg
       id: 1086
       published: 2025-12-11-18-27-00
-      updated: 2026-07-30-18-09-25
+      updated: 2026-08-07-04-24-39
       followers: 873
       likes: 67
-      views: 900
+      views: 901
       comments: !c |-
         G2kA6J2HsTMiteoWxM/1StJ6k5R8pSpS/ubbn76x2TShGqFSqnUhCdJEKCkfkPrSLUXWAy5WbAkv
         yo0fH8Ahp/SdJArSXn3e6thmFsqSz8BYWlOUAd8A/OeOxJT0STVhdQ9i1xnRYnNeAQ==
@@ -3347,7 +3347,7 @@
     - service: vk
       id: 2953
       published: 2025-12-15-18-55-54
-      updated: 2026-07-30-20-11-38
+      updated: 2026-08-07-04-24-58
       followers: 1543
       likes: 58
       views: 876
@@ -3355,7 +3355,7 @@
     - service: tg
       id: 1087
       published: 2025-12-15-18-55-59
-      updated: 2026-07-30-18-09-15
+      updated: 2026-08-07-04-24-38
       followers: 874
       likes: 66
       views: 853
@@ -3385,7 +3385,7 @@
     - service: vk
       id: 2954
       published: 2025-12-16-18-44-25
-      updated: 2026-07-30-20-11-37
+      updated: 2026-08-07-04-24-57
       followers: 1545
       likes: 58
       views: 1116
@@ -3397,10 +3397,10 @@
     - service: tg
       id: 1088
       published: 2025-12-16-18-44-32
-      updated: 2026-07-30-18-09-15
+      updated: 2026-08-07-04-24-38
       followers: 880
       likes: 64
-      views: 686
+      views: 687
 2025-12-18-1-malacath-and-his-worshipers:
   title: Malacath and His Worshipers
   titleRu: Малакат и его поклонники
@@ -3426,7 +3426,7 @@
     - service: vk
       id: 2957
       published: 2025-12-18-19-24-30
-      updated: 2026-07-30-20-11-35
+      updated: 2026-08-07-04-24-55
       followers: 1544
       likes: 55
       views: 859
@@ -3439,10 +3439,10 @@
     - service: tg
       id: 1091
       published: 2025-12-18-19-24-34
-      updated: 2026-07-30-18-09-14
+      updated: 2026-08-07-04-24-37
       followers: 880
       likes: 63
-      views: 724
+      views: 725
       comments: !c |-
         CyuAkZTLQnmzNvXRgACqbmVyZXZhcmluZdktdGVsbGluZyBteSBraWRzIHRoaXMgaXMgYSBnZW9y
         Z2UgZmxveWQgc3RhdHVlk8tCebM6he2AAKVhbnNpc6EuAw==
@@ -3471,7 +3471,7 @@
     - service: vk
       id: 2961
       published: 2025-12-19-19-24-26
-      updated: 2026-07-30-20-11-34
+      updated: 2026-08-07-04-24-47
       followers: 1544
       likes: 72
       views: 1114
@@ -3480,10 +3480,10 @@
     - service: tg
       id: 1092
       published: 2025-12-19-19-24-32
-      updated: 2026-07-30-18-09-14
+      updated: 2026-08-07-04-24-31
       followers: 879
       likes: 68
-      views: 753
+      views: 755
 2025-12-20-1-attributes-of-house-dagoth:
   title: Attributes of House Dagoth
   titleRu: Атрибуты Дома Дагот
@@ -3509,7 +3509,7 @@
     - service: vk
       id: 2962
       published: 2025-12-20-19-22-39
-      updated: 2026-07-30-20-11-32
+      updated: 2026-08-07-04-24-46
       followers: 1544
       likes: 68
       views: 888
@@ -3517,10 +3517,10 @@
     - service: tg
       id: 1093
       published: 2025-12-20-19-22-43
-      updated: 2026-07-30-20-10-37
+      updated: 2026-08-07-04-24-30
       followers: 880
       likes: 63
-      views: 1268
+      views: 1275
       comments: !c |-
         G48A6B2JcSzJgqmrL/jnu/ZDOIC7+wuTLIoqrBM8CfO+8y2h3FYXSlquhnoozwT3LrNzZFoSXjYi
         SUrpdG2b/TXWOq93ts0lWyhU0vV8MhcKimuhLlg2UEBxa0BZjbQxecLA8GkuBqSupTHaJdc/jDkk
@@ -3561,7 +3561,7 @@
     - service: vk
       id: 2964
       published: 2025-12-22-18-41-44
-      updated: 2026-07-30-20-11-31
+      updated: 2026-08-07-04-24-45
       followers: 1544
       likes: 61
       views: 1521
@@ -3573,10 +3573,10 @@
     - service: tg
       id: 1094
       published: 2025-12-22-18-41-48
-      updated: 2026-07-30-18-09-10
+      updated: 2026-08-07-04-24-29
       followers: 881
       likes: 62
-      views: 764
+      views: 765
       comments: !c |-
         G1sA+I3TDTWW+ngTz/97G+E/PtIJDActTrATeCbJfZjl7XOW1CD83ibZVKOUZ58ep0OQBJW0FAnt
         zO7nC5elMhq9c597HX80qeuDDb10J9VLDpcBkeKUpwKsFU5jBA==
@@ -3598,7 +3598,7 @@
     - service: vk
       id: 2966
       published: 2025-12-24-19-07-00
-      updated: 2026-07-30-20-11-30
+      updated: 2026-08-07-04-24-44
       followers: 1549
       likes: 62
       views: 2888
@@ -3609,10 +3609,10 @@
     - service: tg
       id: 1095
       published: 2025-12-24-19-07-00
-      updated: 2026-07-30-18-09-09
+      updated: 2026-08-07-04-24-29
       followers: 881
       likes: 60
-      views: 656
+      views: 657
     - service: ig
       id: DSrOxmRl4X3
       mediaId: '18089597725789507'
@@ -3642,17 +3642,17 @@
     - service: vk
       id: 2979
       published: 2025-12-30-18-31-59
-      updated: 2026-07-30-20-11-29
+      updated: 2026-08-07-04-24-43
       followers: 1553
       likes: 52
       views: 620
     - service: tg
       id: 1099
       published: 2025-12-30-18-32-03
-      updated: 2026-07-30-18-09-09
+      updated: 2026-08-07-04-24-29
       followers: 878
       likes: 67
-      views: 707
+      views: 709
 2025-12-31-1-the-end-of-a-difficult-journey:
   title: The End of a Difficult Journey
   titleRu: Конец тяжёлого пути
@@ -3681,7 +3681,7 @@
     - service: vk
       id: 2980
       published: 2025-12-31-21-16-00
-      updated: 2026-07-30-20-11-28
+      updated: 2026-08-07-04-24-42
       followers: 1558
       likes: 45
       views: 992
@@ -3695,7 +3695,7 @@
     - service: tg
       id: 1100
       published: 2025-12-31-21-16-00
-      updated: 2026-07-30-18-09-08
+      updated: 2026-08-07-04-24-28
       followers: 879
       likes: 54
-      views: 639
+      views: 641
