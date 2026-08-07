@@ -422,7 +422,7 @@
     - service: vk
       id: 2523
       published: 2025-07-20-18-36-19
-      updated: 2026-07-30-22-59-21
+      updated: 2026-08-07-08-06-57
       followers: 1349
       likes: 33
       views: 474
@@ -430,10 +430,10 @@
     - service: tg
       id: 922
       published: 2025-07-20-18-36-23
-      updated: 2026-07-30-20-12-26
+      updated: 2026-08-07-08-06-31
       followers: 763
       likes: 67
-      views: 838
+      views: 839
       comments: !c |-
         CzaAkpPLQnmDaYjQAACra2F3YXpha3kyMjOj4pyLlMtCeYKSBiiAAK92YWlsLWFzdG9yLXpraXm/
         0K3RgtC+INC90LUg0L/QvtGB0YLQsNC90L7QstCwP5PLQnmCkgqNgACmZGVoZXJvptCd0LXRggM=
@@ -807,7 +807,7 @@
     - service: vk
       id: 2561
       published: 2025-08-07-18-26-04
-      updated: 2026-07-30-22-58-54
+      updated: 2026-08-07-08-06-34
       followers: 1362
       likes: 31
       views: 639
@@ -821,10 +821,10 @@
     - service: tg
       id: 944
       published: 2025-08-07-18-26-07
-      updated: 2026-07-30-20-12-07
+      updated: 2026-08-07-08-06-12
       followers: 773
       likes: 67
-      views: 665
+      views: 666
       comments: !c iw2AkZPLQnmIYeHCgACra2F3YXpha3kyMjOk8J+YhwM=
 2022-07-07-misty-peaks:
   title: Misty Peaks
@@ -1986,7 +1986,7 @@
     - service: vk
       id: 2573
       published: 2025-08-12-18-24-42
-      updated: 2026-07-30-22-58-48
+      updated: 2026-08-07-08-06-24
       followers: 1362
       likes: 44
       views: 542
@@ -1998,7 +1998,7 @@
     - service: tg
       id: 949
       published: 2025-08-12-18-24-47
-      updated: 2026-07-30-20-12-01
+      updated: 2026-08-07-08-06-05
       followers: 776
       likes: 67
       views: 693

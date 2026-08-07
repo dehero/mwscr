@@ -53,17 +53,17 @@
     - service: vk
       id: 2514
       published: 2025-07-12-18-22-27
-      updated: 2026-07-30-22-59-28
+      updated: 2026-08-07-08-07-05
       followers: 1338
       likes: 43
       views: 539
     - service: tg
       id: 915
       published: 2025-07-12-18-22-31
-      updated: 2026-07-30-20-12-35
+      updated: 2026-08-07-08-06-39
       followers: 761
       likes: 59
-      views: 609
+      views: 610
       comments: !c iw2AkZPLQnmAJyHhAACra2F3YXpha3kyMjOk8J+ZjwM=
     - service: ig
       id: DMOwL2voVx-
@@ -482,7 +482,7 @@
     - service: vk
       id: 2540
       published: 2025-07-28-18-40-11
-      updated: 2026-07-30-22-59-02
+      updated: 2026-08-07-08-06-46
       followers: 1356
       likes: 77
       views: 1712
@@ -497,10 +497,10 @@
     - service: tg
       id: 930
       published: 2025-07-28-18-40-17
-      updated: 2026-07-30-20-12-16
+      updated: 2026-08-07-08-06-21
       followers: 769
       likes: 79
-      views: 800
+      views: 804
       comments: !c |-
         iyaAkZPLQnmFlx3HgACra2F3YXpha3kyMjPZNdCT0YDQuNCx0L7QvNC10LHQtdC70Ywg0LHRi9C7
         0LAg0LHRiyDQutGA0LDRgdC40LLRiNC1Aw==
@@ -594,7 +594,7 @@
     - service: vk
       id: 2719
       published: 2025-10-08-18-29-12
-      updated: 2026-07-30-22-57-41
+      updated: 2026-08-07-08-04-47
       followers: 1454
       likes: 69
       views: 1380
@@ -608,10 +608,10 @@
     - service: tg
       id: 1010
       published: 2025-10-08-18-29-16
-      updated: 2026-07-30-20-10-55
+      updated: 2026-08-07-08-04-52
       followers: 836
       likes: 71
-      views: 621
+      views: 622
       comments: !c |-
         i0yAk5PLQnmcpcIyAACra2F3YXpha3kyMjOk8J+OupTLQnmcaRvUAACqYTItZW5rZWxsabNQaXBl
         Li4uIEJlYXV0aWZ1bC4uk8tCeZxzlbaAAKVhbnNpc6RUaGlzk8tCeZxRoNeAAK92YWlsLWFzdG9y
@@ -2088,14 +2088,14 @@
     - service: vk
       id: 2510
       published: 2025-07-09-18-24-37
-      updated: 2026-07-30-23-54-13
+      updated: 2026-08-07-08-07-08
       followers: 1335
       likes: 35
       views: 624
     - service: tg
       id: 912
       published: 2025-07-09-18-24-42
-      updated: 2026-07-30-20-12-38
+      updated: 2026-08-07-08-06-43
       followers: 758
       likes: 54
       views: 605
@@ -2739,7 +2739,7 @@
     - service: vk
       id: 2531
       published: 2025-07-25-00-59-21
-      updated: 2026-07-30-22-59-06
+      updated: 2026-08-07-08-06-51
       followers: 1350
       likes: 43
       views: 681
@@ -2747,7 +2747,7 @@
     - service: tg
       id: 927
       published: 2025-07-25-00-59-24
-      updated: 2026-07-30-20-12-20
+      updated: 2026-08-07-08-06-24
       followers: 765
       likes: 75
       views: 1114
@@ -2808,7 +2808,7 @@
     - service: vk
       id: 2690
       published: 2025-09-27-18-24-20
-      updated: 2026-07-30-22-57-57
+      updated: 2026-08-07-08-05-16
       followers: 1437
       likes: 48
       views: 870
@@ -2819,10 +2819,10 @@
     - service: tg
       id: 999
       published: 2025-09-27-18-24-24
-      updated: 2026-07-30-20-11-19
+      updated: 2026-08-07-08-05-15
       followers: 812
       likes: 66
-      views: 624
+      views: 626
       comments: !c iw2AkZPLQnmYyTIsgACra2F3YXpha3kyMjOk8J+kkAM=
 2019-10-20-sunset-ridge:
   title: Sunset Ridge
