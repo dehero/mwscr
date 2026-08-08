@@ -1712,10 +1712,10 @@
     - service: tg
       id: 1282
       published: 2026-08-07-18-37-15
-      updated: 2026-08-08-04-02-06
+      updated: 2026-08-08-05-34-10
       followers: 921
-      likes: 38
-      views: 114
+      likes: 39
+      views: 116
     - service: mx
       id: '1786127842230'
       published: 2026-08-07-18-37-22
@@ -1723,11 +1723,11 @@
     - service: vk
       id: 3476
       published: 2026-08-07-19-45-27
-      updated: 2026-08-08-04-02-07
+      updated: 2026-08-08-05-34-11
       followers: 1438
-      likes: 12
-      views: 112
-      reposts: 2
+      likes: 19
+      views: 155
+      reposts: 4
 2018-02-03-omalen-ancestral-tomb:
   title: Omalen Ancestral Tomb
   titleRu: Родовая гробница Омаленов
