@@ -1858,27 +1858,28 @@
     - service: vk
       id: 3468
       published: 2026-08-02-18-50-06
-      updated: 2026-08-08-02-48-05
+      updated: 2026-08-09-02-55-47
       followers: 1436
-      likes: 69
-      views: 980
+      likes: 71
+      views: 1033
       reposts: 6
       comments: !c |-
-        G2kDAKwKbLrh0YLtYHweGzUX42Lxjf6JCyX9Ezu4E4thKBTBTKYihU7FK/vGq9Zkm5hXKIsTnMdw
-        niMLlM+n+xa+r9v5SciBhrJvg2umnf6UeeAnElcKLro5Y1kxNgUREREuHB5S9MXf/383D/AAwwPh
-        UdlaH++FRYvaQIFmum0ilVi2LaFBn32HpqVDXdx68v76W1+e467t+2nH7UHBf/+fn4ReQesqry96
-        N0njrE4v/ajfyUrr0jkmPwZYcMfRvVs4PsJg3EbTiRDmE+UY2rfcPpwT0q6roE5zjlbO0AnAI5Wz
-        dY93HG01cMrSMQzG3yRoEEIuUY2mVUiwqNqf9OCa3HHgnWGuTiYoW5MPjCCLpUoE/unBSzMXELw2
-        p2oxFQrwI209UVcYMDvh5K7JBHxZsOlR7eQxCAt8fQw/9fU7tZ+H5ERh2kXI3c1LJF/I9wCqshQq
-        JRb+pAeCENJ5nqWq51WGsYtE6XL7bbvZwv7zCRzkOqFRnUiPQC0IWnkgSmmIPjiHL0tYuuj3yIAd
-        wgxLvmpAZmVe81ipntOsYWFBxN0yxeWkMjGlVjTidho15UAwgEB9bh0H
+        GxMEACwLeMNW8EN2oKXzfHPuQdnV+Ir/Jy72pG+yYFcswyhKMEkgaBL/cu74N3OyTcwrlMUJzmM4
+        z/FJG/pNl6+lZ71S8JINdCh399AlveyzgYxo4BUZr10UQCZnChCXbs5YVoxNQUREhAuHhxR98vf7
+        /9/Ne9HhBRamiaZ8w0ZjYi+NDuQXUIALJOFtYUARJJhu6rfjGnbWxKIiUtjz1/tve7qvG47Pw47b
+        g4L/+b9+U2LTuvz4hlb+T6PrzuFFVuh5pfX7xyTqYE3BlOjaxRNQgnEZzg7ISUdrcqqE3+FjEHZS
+        UB+wZsnQCsAjStl6KjuOMX34J2XH2cQpQAM5pBzL4YaOlqCw7E+msGB1V+WbYO7mojIPk1AKEmuk
+        qEVIOw9psPwmxDw+jSziYvjR6oi6tQHpTyhtk6SAwmKbkrVTKoewSp0nfu2rTyrfu+REYdpF3Lu7
+        TxW0ke8eVGUGJ1Jb/nEfqAyhneZZYntpSUyUNTq1xw+62c7+6w0yovuGRmgIVJgKAZAHIsOG+PSO
+        zZc1njvlr5iAdwgzMvmpAUmSec4LqY7brMtFBhF1S8OXwpaxSADRiPI02pgDlQMExPvwComZe+Pu
+        kzRVhfzTY8IJTBB4nNg8SkcZurnhjKVBwQirG50NMhBNwa83CgE=
     - service: tg
       id: 1278
       published: 2026-08-02-18-50-13
-      updated: 2026-08-08-02-47-53
+      updated: 2026-08-09-02-55-34
       followers: 921
-      likes: 55
-      views: 352
+      likes: 56
+      views: 372
     - service: mx
       id: '1785696618296'
       published: 2026-08-02-18-50-18
@@ -2370,18 +2371,18 @@
     - service: vk
       id: 3469
       published: 2026-08-03-19-16-07
-      updated: 2026-08-08-02-47-55
+      updated: 2026-08-09-02-55-35
       followers: 1436
-      likes: 45
-      views: 451
+      likes: 46
+      views: 477
       reposts: 2
     - service: tg
       id: 1279
       published: 2026-08-03-19-16-14
-      updated: 2026-08-08-02-47-52
+      updated: 2026-08-09-02-55-34
       followers: 922
-      likes: 52
-      views: 274
+      likes: 54
+      views: 304
     - service: mx
       id: '1785784579892'
       published: 2026-08-03-19-16-19
@@ -8772,18 +8773,18 @@
     - service: vk
       id: 3418
       published: 2026-07-11-18-42-21
-      updated: 2026-08-02-01-25-36
+      updated: 2026-08-09-02-55-51
       followers: 1432
       likes: 45
-      views: 593
+      views: 613
       reposts: 2
     - service: tg
       id: 1256
       published: 2026-07-11-18-42-31
-      updated: 2026-08-02-01-25-33
+      updated: 2026-08-09-02-55-46
       followers: 915
       likes: 53
-      views: 428
+      views: 443
     - service: mx
       id: '1783795358411'
       published: 2026-07-11-18-42-38
