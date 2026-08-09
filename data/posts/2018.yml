@@ -1723,10 +1723,10 @@
     - service: vk
       id: 3476
       published: 2026-08-07-19-45-27
-      updated: 2026-08-09-18-21-26
+      updated: 2026-08-09-19-23-41
       followers: 1438
       likes: 56
-      views: 478
+      views: 483
       reposts: 5
 2018-02-03-omalen-ancestral-tomb:
   title: Omalen Ancestral Tomb
@@ -14011,11 +14011,18 @@
     - service: vk
       id: 3479
       published: 2026-08-09-18-21-49
+      updated: 2026-08-09-19-23-39
       followers: 1438
+      likes: 7
+      views: 66
+      reposts: 2
     - service: tg
       id: 1284
       published: 2026-08-09-18-21-55
+      updated: 2026-08-09-19-23-37
       followers: 923
+      likes: 19
+      views: 72
     - service: mx
       id: '1786299720610'
       published: 2026-08-09-18-22-00
