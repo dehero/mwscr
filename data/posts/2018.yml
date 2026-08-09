@@ -1712,7 +1712,7 @@
     - service: tg
       id: 1282
       published: 2026-08-07-18-37-15
-      updated: 2026-08-09-17-20-04
+      updated: 2026-08-09-18-21-26
       followers: 921
       likes: 49
       views: 194
@@ -1723,10 +1723,10 @@
     - service: vk
       id: 3476
       published: 2026-08-07-19-45-27
-      updated: 2026-08-09-17-20-05
+      updated: 2026-08-09-18-21-26
       followers: 1438
       likes: 56
-      views: 472
+      views: 478
       reposts: 5
 2018-02-03-omalen-ancestral-tomb:
   title: Omalen Ancestral Tomb
@@ -14008,6 +14008,18 @@
       comments: !c |-
         CxuAkZPLQnk0A4vugACoc2VyZ2V5LWLZIdCS0LXRh9C10YDQvdC40Lkg0K3QsdC10L3Qs9Cw0YDQ
         tAM=
+    - service: vk
+      id: 3479
+      published: 2026-08-09-18-21-49
+      followers: 1438
+    - service: tg
+      id: 1284
+      published: 2026-08-09-18-21-55
+      followers: 923
+    - service: mx
+      id: '1786299720610'
+      published: 2026-08-09-18-22-00
+      followers: 23
 2018-09-22-two-ways:
   title: Two Ways
   titleRu: Два пути
