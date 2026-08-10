@@ -937,18 +937,18 @@
     - service: vk
       id: 3478
       published: 2026-08-08-18-19-44
-      updated: 2026-08-10-12-38-58
+      updated: 2026-08-10-14-10-34
       followers: 1438
       likes: 58
-      views: 524
-      reposts: 3
+      views: 542
+      reposts: 4
     - service: tg
       id: 1283
       published: 2026-08-08-18-19-50
-      updated: 2026-08-10-12-38-57
+      updated: 2026-08-10-14-10-34
       followers: 923
       likes: 46
-      views: 198
+      views: 199
     - service: mx
       id: '1786213194892'
       published: 2026-08-08-18-19-54
