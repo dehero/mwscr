@@ -5352,18 +5352,19 @@
     - service: vk
       id: 3481
       published: 2026-08-10-18-40-21
-      updated: 2026-08-11-04-14-26
+      updated: 2026-08-11-05-45-14
       followers: 1438
-      likes: 16
-      views: 187
+      likes: 19
+      views: 221
       reposts: 1
     - service: tg
       id: 1285
       published: 2026-08-10-18-40-30
-      updated: 2026-08-11-04-14-25
+      updated: 2026-08-11-05-45-15
       followers: 922
-      likes: 25
-      views: 109
+      likes: 29
+      views: 118
+      comments: !c CxaAkZPLQnn+9LxKAACrbGVuaW4xNDAyMDC10K3RhSwg0LrRgNCw0YHQuNCy0L4uAw==
     - service: mx
       id: '1786387237297'
       published: 2026-08-10-18-40-37
