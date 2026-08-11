@@ -710,11 +710,18 @@
     - service: vk
       id: 3484
       published: 2026-08-11-18-43-37
+      updated: 2026-08-11-19-52-51
       followers: 1438
+      likes: 3
+      views: 68
+      reposts: 1
     - service: tg
       id: 1286
       published: 2026-08-11-18-43-43
+      updated: 2026-08-11-19-52-50
       followers: 923
+      likes: 19
+      views: 74
     - service: mx
       id: '1786473828312'
       published: 2026-08-11-18-43-48
