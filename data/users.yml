@@ -3303,7 +3303,7 @@ lenin140200:
   profiles:
     - service: tg
       id: '6901129504'
-      updated: 2026-08-11-21-33-23
+      updated: 2026-08-11-22-29-32
       accessHash: '-584145395764363707'
       username: Lenin140200
       name: Ленин
@@ -4699,7 +4699,7 @@ pyriglena:
   profiles:
     - service: tg
       id: '554672984'
-      updated: 2026-08-07-15-42-34
+      updated: 2026-08-11-22-29-44
       accessHash: '-3565593010225205906'
       username: pyriglena
       name: yarrow
@@ -5671,7 +5671,7 @@ taylor-kinney:
   profiles:
     - service: tg
       id: '8805451892'
-      updated: 2026-08-04-22-11-41
+      updated: 2026-08-11-22-29-33
       accessHash: '-4433703925452983086'
       name: Taylor Kinney
 tea-tsar:
