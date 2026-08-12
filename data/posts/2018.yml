@@ -14011,26 +14011,29 @@
     - service: vk
       id: 3479
       published: 2026-08-09-18-21-49
-      updated: 2026-08-11-17-46-24
+      updated: 2026-08-12-17-48-46
       followers: 1438
-      likes: 48
-      views: 478
+      likes: 52
+      views: 544
       reposts: 3
       comments: !c |-
-        G5YCgCwOjG1k6Q+D8C28ieP8xv/zXLQh/MdnFnRNChY4CbgCTjbwjq/cp+XUUBKMS2jPqHNQectD
-        H/hvbswapC+n9+/YdnCITqSLwRLtqttieg07CILDwcHBQ4q3/P8td6CBwi+KfgFGbQElDxpoizAs
-        uZUGljUPME09LWPPMRJ72ojon6+fV23/+/95PB/GjVeg/MuHY7mYxTkhNSfMxqJd0uX7vKdyhHBp
-        Tpzr5TOjgqS6dT8/oCEHldra9AC6zX4cMwQ5kObLDGO60RRKbbtfkrqvyArv8awj6Zfz8siEl0sO
-        WYBzvpGThMMxFGmleiCsw20OVoPYYWBtzF1CWs3hDCZig6hmbcxXf5NrK7I8TCB0PbHvV+3L7snx
-        +/a+V2luhyqgc2pfnYsK5PUzc2dS0kHBTIb3BYzLKagd0nTUTmTLUxbsDRpgOD4gV+UAh5drQARg
-        7pRHVluOvwcbcUSlPOusdTMGKiYViPl7cgWVtZkgfjg=
+        G3gEACwLzEOS+ZsLixnINwunFJ7f+H/i4reEb3x3Qb9J8jlMAq6ZAJMCbzw5V82lpaQYl9BeUOeg
+        yvBHsWO/ZpsBK4jfFqFQur0frBnPNhKPkQQot8W0GiYIgsODBwcLpVlngGRT2Wr5/8//2cajDczm
+        10Gz/dlxXZVmRb3sAgo4jHZoYFnP4yjNNlsQ9KnvCo+pbXrYoP98fP375b3/3o+fZ/qxKw/yO2+G
+        1cY8OafEximzilCvUfKY98x8FsfFOUmul8c8G4jImxrT36CcBF5trJYG4Lf9JMEUEpDPVzA2yhqV
+        amOFv504Aq/VC7/GM4ucXqbLTjheFhKIAqdvSHENh0O5VrF0v3DMwu1AN6ytYwBk0GsRoT0cjgkV
+        yzncs1bBrf8mZawiSQUTODKf4z7//eruxvH90pqiV4ftCn5G/MjZqkCZ7kvuQosULJgQCM4C7MA7
+        TcKpLFEl43pxVUyAEvepBaa/+QFSOgkwHTJCE8I/YJ9LxuwwpcQrJCYWxCeo8HcmLh1NyyN0ZoZG
+        IGhUBTWihXEWaxL5G2o0IIHDZS/Hk4szwS+5SCUwTjCrt/8lix5DENkgwts2qF+JPLMldTxBH7kc
+        1nRGjJXGHiVLpQA4oW0EjITh31BTQWT7Jk6vIhWFQTIOKsWT9kLAbn0cpN9vQuXgXUEDQHnXSVIT
+        2ULkT9TQo9W4lSwMc85WNsfvM8ptEwyyvYzaBwJ0jLH+OH9PqYJXZ2aCCgI=
     - service: tg
       id: 1284
       published: 2026-08-09-18-21-55
-      updated: 2026-08-11-17-46-13
+      updated: 2026-08-12-17-48-34
       followers: 923
-      likes: 49
-      views: 201
+      likes: 54
+      views: 234
     - service: mx
       id: '1786299720610'
       published: 2026-08-09-18-22-00
