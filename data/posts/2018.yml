@@ -1712,10 +1712,11 @@
     - service: tg
       id: 1282
       published: 2026-08-07-18-37-15
-      updated: 2026-08-11-18-43-14
+      updated: 2026-08-12-18-44-49
       followers: 921
-      likes: 55
-      views: 256
+      likes: 56
+      views: 283
+      comments: !c ixCAkZPLQnn/ItEqAACpYi1hbnRvbjE0rE1hYnJpZ2FzaC4uLgM=
     - service: mx
       id: '1786127842230'
       published: 2026-08-07-18-37-22

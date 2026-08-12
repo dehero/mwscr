@@ -646,6 +646,15 @@ ayymacronsa:
       username: ayymacronsa
       name: Bee
       avatar: store:/avatars/ig-dcb51eaa.jpg
+b-anton14:
+  profiles:
+    - service: tg
+      id: '8256432725'
+      updated: 2026-08-12-18-44-49
+      accessHash: '3668354337295081600'
+      username: BAnton14
+      name: Soggio Giunta
+      avatar: store:/avatars/tg-5994635294579297564.jpg
 babybro1991:
   profiles:
     - service: ig
