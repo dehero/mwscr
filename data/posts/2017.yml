@@ -7318,18 +7318,18 @@
     - service: vk
       id: 3487
       published: 2026-08-12-18-45-14
-      updated: 2026-08-12-20-30-27
+      updated: 2026-08-12-21-32-45
       followers: 1438
-      likes: 9
-      views: 88
+      likes: 12
+      views: 162
       reposts: 1
     - service: tg
       id: 1287
       published: 2026-08-12-18-45-24
-      updated: 2026-08-12-20-30-28
+      updated: 2026-08-12-21-32-46
       followers: 925
-      likes: 25
-      views: 99
+      likes: 29
+      views: 112
       comments: !c ixaAkZPLQnn/dZDCAACnbWJkdHNtb7pUaGUgc3RlcHMgdG93YXJkcyByZXZlbmdlLgM=
     - service: mx
       id: '1786560332448'
