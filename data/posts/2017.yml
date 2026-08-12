@@ -7318,11 +7318,19 @@
     - service: vk
       id: 3487
       published: 2026-08-12-18-45-14
+      updated: 2026-08-12-19-55-22
       followers: 1438
+      likes: 5
+      views: 52
+      reposts: 1
     - service: tg
       id: 1287
       published: 2026-08-12-18-45-24
+      updated: 2026-08-12-19-55-24
       followers: 925
+      likes: 21
+      views: 87
+      comments: !c ixaAkZPLQnn/dZDCAACnbWJkdHNtb7pUaGUgc3RlcHMgdG93YXJkcyByZXZlbmdlLgM=
     - service: mx
       id: '1786560332448'
       published: 2026-08-12-18-45-32
@@ -16494,18 +16502,18 @@
     - service: vk
       id: 3475
       published: 2026-08-05-19-10-11
-      updated: 2026-08-11-19-52-55
+      updated: 2026-08-12-19-55-27
       followers: 1437
       likes: 54
-      views: 599
+      views: 609
       reposts: 2
     - service: tg
       id: 1281
       published: 2026-08-05-19-10-17
-      updated: 2026-08-11-19-52-53
+      updated: 2026-08-12-19-55-26
       followers: 921
       likes: 61
-      views: 312
+      views: 330
     - service: mx
       id: '1785957022122'
       published: 2026-08-05-19-10-22
