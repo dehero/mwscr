@@ -7318,23 +7318,24 @@
     - service: vk
       id: 3487
       published: 2026-08-12-18-45-14
-      updated: 2026-08-13-10-06-16
+      updated: 2026-08-13-11-37-28
       followers: 1438
-      likes: 43
-      views: 735
+      likes: 45
+      views: 763
       reposts: 2
       comments: !c |-
-        G0YBYKwObOc5SDDYbaLMoJeK5KN/5MQSfm3SVr2GywRHOLmn06ndhNBXsuPpT4AWvWHu130tWilF
-        jof31XJ1ef/Szo2tW8LetOnkwOXUvkSKpBVIygmkmmDgHCvZMHgQPf7x+f617w+O38sRy3LbeM2y
-        oeqaAjUfrh7HgIR6n9fEeoas4a1olMyeHvl9NhAlwaRfcGWAYKK0uhSA2TNPZgjODaev862X54JW
-        TPnQy2OXURXwLuPXILmqnA==
+        G9wBYJwHdizyAp+vDtjQQaJ/+nsW4dVmfg8400xLMEk82aOyrVODIWRTPJfJ9PuYdnkhJBJZ8drW
+        zwXy+SON2vg324kOEJ7aXyK98O66AkkhSiAZwpybzzk8JCPRWOb780dpea98+7485tBpTIX/wcNd
+        d81h0u1XW17khXWM68qgQe3nHXJ7hqjhR2MXkuzpkd/fJOpQi6ENEIlRTbY4qkUKqD5zZ4bJueH0
+        +/y+D88Uys+6ZuDhsclUe5AX1v0aLFT1+zHaM/CnpqBx5PKGLylsRZz8Kla6Hmg4DSbTqGVVCiyk
+        2TzckPhd09jwOt6rqiWfc/a0ESjcDA==
     - service: tg
       id: 1287
       published: 2026-08-12-18-45-24
-      updated: 2026-08-13-10-06-06
+      updated: 2026-08-13-11-37-18
       followers: 925
-      likes: 37
-      views: 149
+      likes: 38
+      views: 153
       comments: !c ixaAkZPLQnn/dZDCAACnbWJkdHNtb7pUaGUgc3RlcHMgdG93YXJkcyByZXZlbmdlLgM=
     - service: mx
       id: '1786560332448'
