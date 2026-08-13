@@ -562,7 +562,7 @@ artem-petrov:
   profiles:
     - service: vk
       id: '4238605'
-      updated: 2026-08-07-09-48-53
+      updated: 2026-08-13-03-21-40
       username: id4238605
       name: Артем Петров
       avatar: store:/avatars/vk-77942374.jpg
@@ -3648,7 +3648,7 @@ mbdtsmo:
   profiles:
     - service: tg
       id: '5093097514'
-      updated: 2026-08-13-00-55-00
+      updated: 2026-08-13-03-21-30
       accessHash: '-613358669572386334'
       username: mbdtsmo
       name: M Bdtsmo
