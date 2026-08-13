@@ -1435,7 +1435,7 @@ dehero:
     - type: channel
       service: vk
       id: '138249959'
-      updated: 2026-08-12-17-48-46
+      updated: 2026-08-13-18-44-21
       username: mwscr
       name: Morrowind Screenshots
       avatar: store:/avatars/vk-8e97fd4f.jpg
@@ -2639,7 +2639,7 @@ ilya-kolobov:
   profiles:
     - service: vk
       id: '1119473440'
-      updated: 2026-08-12-17-48-46
+      updated: 2026-08-13-18-44-21
       username: id1119473440
       name: Илья Колобов
       avatar: store:/avatars/vk-85ccad18.jpg
@@ -2789,7 +2789,7 @@ ivan-uralov:
   profiles:
     - service: vk
       id: '16497155'
-      updated: 2026-08-13-17-47-52
+      updated: 2026-08-13-18-44-21
       username: id16497155
       name: Иван Уралов
       avatar: store:/avatars/vk-51775759.jpg
@@ -3312,7 +3312,7 @@ lenin140200:
   profiles:
     - service: tg
       id: '6901129504'
-      updated: 2026-08-12-17-48-33
+      updated: 2026-08-13-18-44-10
       accessHash: '-584145395764363707'
       username: Lenin140200
       name: Ленин
@@ -3648,7 +3648,7 @@ mbdtsmo:
   profiles:
     - service: tg
       id: '5093097514'
-      updated: 2026-08-13-17-47-44
+      updated: 2026-08-13-18-44-09
       accessHash: '-613358669572386334'
       username: mbdtsmo
       name: M Bdtsmo
@@ -6769,7 +6769,7 @@ yellow-submarine:
   profiles:
     - service: vk
       id: '21865013'
-      updated: 2026-08-13-17-47-52
+      updated: 2026-08-13-18-44-18
       username: yellowsubm
       name: Yellow Submarine
       avatar: store:/avatars/vk-8254b201.jpg
