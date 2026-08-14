@@ -30,10 +30,10 @@
     - service: vk
       id: 2987
       published: 2026-01-03-19-20-38
-      updated: 2026-08-07-04-24-41
+      updated: 2026-08-14-07-05-07
       followers: 1558
       likes: 61
-      views: 1642
+      views: 1643
       reposts: 1
       comments: !c |-
         G/sA6C2Pd5IvDsmwRVpOeHnxjv9H7tknfCA/l8Bqy1uAWURtyblkOd1M2ZCLoSL+G/MeIduWuzn9
@@ -43,10 +43,10 @@
     - service: tg
       id: 1111
       published: 2026-01-03-19-20-44
-      updated: 2026-08-07-04-24-28
+      updated: 2026-08-14-07-04-50
       followers: 875
       likes: 68
-      views: 644
+      views: 645
 2026-01-04-1-demon-of-the-halls-of-penumbra:
   title: Demon of the Halls of Penumbra
   titleRu: Демон Залов полумрака
@@ -77,10 +77,10 @@
     - service: vk
       id: 2988
       published: 2026-01-04-19-20-38
-      updated: 2026-08-07-04-24-41
+      updated: 2026-08-14-07-05-06
       followers: 1558
       likes: 28
-      views: 603
+      views: 604
       comments: !c |-
         G+IA4B0JNk5zwUZfTlFRFLcIH6QnSyDEJrFIkz2dW8jVkm3OUBD8APG8bbiv67l9PZ8qRGDkup1f
         o9sb14jj7ncDzzOsC0/fuMJucGGiSZL0y/Pz/igJ1x3HdzehM6PE/7w95brg13OiGcLCUg5ThP/R
@@ -88,10 +88,10 @@
     - service: tg
       id: 1112
       published: 2026-01-04-19-20-44
-      updated: 2026-08-07-04-24-28
+      updated: 2026-08-14-07-04-50
       followers: 875
       likes: 48
-      views: 631
+      views: 632
 2026-01-05-1-cave-life:
   title: Cave Life
   titleRu: Пещерный быт
@@ -125,10 +125,10 @@
     - service: vk
       id: 2992
       published: 2026-01-05-18-21-03
-      updated: 2026-08-07-04-24-40
+      updated: 2026-08-14-07-05-04
       followers: 1559
       likes: 80
-      views: 1658
+      views: 1659
       reposts: 3
       comments: !c |-
         CyCAkZPLQnm4/6JPAACqYXJ5YS1zdGFya9kp0KHQsNC80YvQtSDRhdCw0LHQsNGA0L3Ri9C1INC8
@@ -136,10 +136,10 @@
     - service: tg
       id: 1115
       published: 2026-01-05-18-21-07
-      updated: 2026-08-07-04-24-27
+      updated: 2026-08-14-07-04-49
       followers: 875
       likes: 67
-      views: 805
+      views: 806
 2026-01-06-1-a-small-victory:
   title: A Small Victory
   titleRu: Небольшая победа
@@ -167,18 +167,18 @@
     - service: vk
       id: 2995
       published: 2026-01-06-18-47-08
-      updated: 2026-08-07-04-24-39
+      updated: 2026-08-14-07-05-03
       followers: 1561
       likes: 71
-      views: 2668
+      views: 2669
       reposts: 1
     - service: tg
       id: 1116
       published: 2026-01-06-18-47-12
-      updated: 2026-08-07-04-24-27
+      updated: 2026-08-14-07-04-49
       followers: 876
       likes: 68
-      views: 682
+      views: 684
 2026-01-07-1-sky-path:
   title: Sky Path
   titleRu: Небесный путь
@@ -207,18 +207,18 @@
     - service: vk
       id: 2996
       published: 2026-01-07-18-17-54
-      updated: 2026-08-07-04-24-38
+      updated: 2026-08-14-07-05-03
       followers: 1561
       likes: 108
-      views: 2231
+      views: 2233
       reposts: 13
     - service: tg
       id: 1117
       published: 2026-01-07-18-17-58
-      updated: 2026-08-07-04-24-26
+      updated: 2026-08-14-07-04-48
       followers: 876
       likes: 75
-      views: 1546
+      views: 1553
       comments: !c |-
         G5AAwIzEOEZyMYg/8uGveYTHpXeWpBG91kibblQk+T5ObDY5EsIDrdbWf8h5wMX6da90+RLlwMbY
         8EyDoNt0ODy1tk4qT1FXO45zs3J1RxTOj91KsDSa3n4iFiRTMgVhSBychpIFGgbBkCUOpDOxOfPU
@@ -245,10 +245,10 @@
     - service: vk
       id: 2997
       published: 2026-01-08-18-57-23
-      updated: 2026-08-07-04-24-37
+      updated: 2026-08-14-07-05-02
       followers: 1562
       likes: 64
-      views: 886
+      views: 888
       comments: !c |-
         G3kCQJwHdiwYYWb2JQIKJ/6fuGdF+ED6QJkEFmjAJdQUJ5CcS7azqnPHd/r96k9i4mkCQ7SMtTPX
         9qXbTPHpxurtBu5hw0MsRquhmbKlqG4zlhXDWr8ghoPCTQul2WRTN/Xv6fFFH8B2Y53ngaxJ/JGm
@@ -260,7 +260,7 @@
     - service: tg
       id: 1118
       published: 2026-01-08-18-57-27
-      updated: 2026-08-07-04-24-26
+      updated: 2026-08-14-07-04-47
       followers: 880
       likes: 70
       views: 704
@@ -296,10 +296,10 @@
     - service: vk
       id: 3006
       published: 2026-01-10-18-59-53
-      updated: 2026-08-07-04-24-36
+      updated: 2026-08-14-07-05-01
       followers: 1564
       likes: 60
-      views: 1216
+      views: 1219
       reposts: 5
       comments: !c |-
         G/0AsCwO7DbOCzW1t0D4EQLzjFDJecI/sWCVxi/eftSm8FOZVSa8iY108g5qbqVUi8WQbmzvFHig
@@ -309,7 +309,7 @@
     - service: tg
       id: 1121
       published: 2026-01-10-18-59-57
-      updated: 2026-08-07-04-24-25
+      updated: 2026-08-14-07-04-46
       followers: 880
       likes: 64
       views: 842
@@ -349,10 +349,10 @@
     - service: vk
       id: 3010
       published: 2026-01-12-19-21-23
-      updated: 2026-08-07-04-24-35
+      updated: 2026-08-14-07-05-00
       followers: 1570
       likes: 73
-      views: 2023
+      views: 2024
       reposts: 2
       comments: !c |-
         G30BQCwSeA71OaOh8bk1jfjnn5ON8J/ZYFMbSNGsADtB4JEm92lQcxqXbev4Ei+lFF6ouoWmBjn9
@@ -362,7 +362,7 @@
     - service: tg
       id: 1123
       published: 2026-01-12-19-21-26
-      updated: 2026-08-07-04-24-24
+      updated: 2026-08-14-07-04-45
       followers: 880
       likes: 66
       views: 970
@@ -395,15 +395,15 @@
     - service: vk
       id: 3013
       published: 2026-01-15-19-24-16
-      updated: 2026-08-07-04-24-34
+      updated: 2026-08-14-07-04-59
       followers: 1577
       likes: 87
-      views: 969
+      views: 971
       reposts: 1
     - service: tg
       id: 1124
       published: 2026-01-15-19-24-20
-      updated: 2026-08-07-04-24-23
+      updated: 2026-08-14-07-04-45
       followers: 883
       likes: 71
       views: 812
