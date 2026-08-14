@@ -62,7 +62,7 @@
     - service: vk
       id: 2501
       published: 2025-07-02-18-24-04
-      updated: 2026-08-07-09-47-52
+      updated: 2026-08-14-09-50-20
       followers: 1333
       likes: 56
       views: 592
@@ -183,14 +183,14 @@
     - service: vk
       id: 2382
       published: 2025-05-24-18-18-58
-      updated: 2026-08-07-09-48-50
+      updated: 2026-08-14-09-51-25
       followers: 1305
       likes: 55
       views: 470
     - service: tg
       id: 857
       published: 2025-05-24-18-19-06
-      updated: 2026-08-07-09-48-31
+      updated: 2026-08-14-09-51-11
       followers: 739
       likes: 65
       views: 587
@@ -352,10 +352,10 @@
     - service: vk
       id: 2341
       published: 2025-05-06-18-24-44
-      updated: 2026-08-07-09-49-18
+      updated: 2026-08-14-09-52-12
       followers: 1281
       likes: 46
-      views: 488
+      views: 489
       reposts: 2
       comments: !c |-
         G+oAEJ0Htg3rHDPI4QvhoV38P/3FPuEb31n0xgMPuMSLIDnXbfqcr0SRsylU26iYkyUJoinvThF5
@@ -365,10 +365,10 @@
     - service: tg
       id: 832
       published: 2025-05-06-18-24-51
-      updated: 2026-08-07-09-48-53
+      updated: 2026-08-14-09-51-27
       followers: 738
       likes: 69
-      views: 725
+      views: 726
 2023-08-03-spinning-wheel:
   title: Spinning-Wheel
   titleRu: Прялка
@@ -439,7 +439,7 @@
     - service: tg
       id: 767
       published: 2025-03-27-18-12-12
-      updated: 2026-08-07-09-49-32
+      updated: 2026-08-14-09-52-25
       followers: 710
       likes: 65
       views: 531
@@ -759,7 +759,7 @@
     - service: vk
       id: 2251
       published: 2025-04-01-18-21-46
-      updated: 2026-08-07-09-49-53
+      updated: 2026-08-14-09-52-54
       followers: 1226
       likes: 75
       views: 470
@@ -767,7 +767,7 @@
     - service: tg
       id: 773
       published: 2025-04-01-18-21-57
-      updated: 2026-08-07-09-49-30
+      updated: 2026-08-14-09-52-22
       followers: 712
       likes: 68
       views: 683

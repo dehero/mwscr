@@ -658,7 +658,7 @@
     - service: vk
       id: 2412
       published: 2025-06-01-18-25-47
-      updated: 2026-08-07-09-48-41
+      updated: 2026-08-14-09-51-12
       followers: 1314
       likes: 65
       views: 630
@@ -670,7 +670,7 @@
     - service: tg
       id: 868
       published: 2025-06-01-18-25-50
-      updated: 2026-08-07-09-48-24
+      updated: 2026-08-14-09-50-59
       followers: 742
       likes: 62
       views: 603
@@ -840,7 +840,7 @@
     - service: vk
       id: 2489
       published: 2025-06-28-18-25-41
-      updated: 2026-08-07-09-48-08
+      updated: 2026-08-14-09-50-32
       followers: 1332
       likes: 65
       views: 526
@@ -848,7 +848,7 @@
     - service: tg
       id: 899
       published: 2025-06-28-18-25-44
-      updated: 2026-08-07-09-48-03
+      updated: 2026-08-14-09-50-34
       followers: 758
       likes: 65
       views: 655
@@ -2022,7 +2022,7 @@
     - service: vk
       id: 2485
       published: 2025-06-25-18-30-45
-      updated: 2026-08-07-09-48-12
+      updated: 2026-08-14-09-50-37
       followers: 1328
       likes: 80
       views: 1254
@@ -2030,10 +2030,10 @@
     - service: tg
       id: 896
       published: 2025-06-25-18-30-49
-      updated: 2026-08-07-09-48-06
+      updated: 2026-08-14-09-50-37
       followers: 754
       likes: 74
-      views: 999
+      views: 1000
       comments: !c iw2AkZPLQnl6hjgZgACra2F3YXpha3kyMjOk8J+RgQM=
     - service: ig
       id: DLZ5KTksdmG
@@ -2981,7 +2981,7 @@
     - service: vk
       id: 2362
       published: 2025-05-17-18-24-00
-      updated: 2026-08-07-09-48-56
+      updated: 2026-08-14-09-51-50
       followers: 1300
       likes: 67
       views: 579
@@ -2992,10 +2992,10 @@
     - service: tg
       id: 847
       published: 2025-05-17-19-13-22
-      updated: 2026-08-07-09-48-36
+      updated: 2026-08-14-09-51-17
       followers: 737
       likes: 69
-      views: 553
+      views: 554
 2019-10-22-the-wind-is-getting-stronger:
   title: The Wind Is Getting Stronger
   titleRu: Ветер крепчает
