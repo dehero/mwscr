@@ -505,7 +505,7 @@ antiorum:
   profiles:
     - service: vk
       id: '3571955'
-      updated: 2026-08-07-22-24-30
+      updated: 2026-08-14-23-11-57
       username: antiorum
       name: Андрей Барсуков
       avatar: store:/avatars/vk-36f45919.jpg
@@ -1186,7 +1186,7 @@ crazycyrodiliccat:
   profiles:
     - service: vk
       id: '90554843'
-      updated: 2026-08-14-22-11-23
+      updated: 2026-08-14-23-10-43
       username: crazycyrodiliccat
       name: Александр Невский
       avatar: store:/avatars/vk-0db1296b.jpg
@@ -1435,7 +1435,7 @@ dehero:
     - type: channel
       service: vk
       id: '138249959'
-      updated: 2026-08-14-20-22-05
+      updated: 2026-08-14-23-12-33
       username: mwscr
       name: Morrowind Screenshots
       avatar: store:/avatars/vk-8e97fd4f.jpg
@@ -2137,10 +2137,10 @@ fukkatsumy-kamikoto:
   profiles:
     - service: vk
       id: '172283748'
-      updated: 2026-08-07-22-24-26
+      updated: 2026-08-14-23-11-53
       username: fukkatsumy_kamikoto
       name: Фуккацуми Камикото
-      avatar: store:/avatars/vk-40bd4359.jpg
+      avatar: store:/avatars/vk-d88f6ba3.jpg
 fungirl666:
   profiles:
     - service: vk
@@ -2656,7 +2656,7 @@ ilyatamrielsky:
   profiles:
     - service: vk
       id: '450332094'
-      updated: 2026-08-14-17-45-16
+      updated: 2026-08-14-23-11-40
       username: ilyatamrielsky
       name: Илья Кудинов
       avatar: store:/avatars/vk-4dd811d3.jpg
@@ -3257,7 +3257,7 @@ kydinov91:
   profiles:
     - service: vk
       id: '36104583'
-      updated: 2026-08-08-02-49-34
+      updated: 2026-08-14-23-12-20
       username: kydinov91
       name: Илья Кудинов
       avatar: store:/avatars/vk-03d8a48a.jpg
@@ -3462,7 +3462,7 @@ m-a-dadychenko:
   profiles:
     - service: vk
       id: '7106429'
-      updated: 2026-08-11-21-33-33
+      updated: 2026-08-14-23-12-18
       username: m_a_dadychenko
       name: Марина Дадыченко
       avatar: store:/avatars/vk-45fb0778.jpg
@@ -3632,7 +3632,7 @@ max-tsei:
   profiles:
     - service: vk
       id: '353284524'
-      updated: 2026-08-14-22-12-08
+      updated: 2026-08-14-23-11-40
       username: max.tsei
       avatar: store:/avatars/vk-7f160215.jpg
       deleted: true
@@ -6190,7 +6190,7 @@ user-32:
   profiles:
     - service: vk
       id: '314007101'
-      updated: 2026-08-14-22-11-22
+      updated: 2026-08-14-23-12-17
       username: id314007101
       avatar: store:/avatars/vk-7f160215.jpg
       deleted: true
@@ -6504,7 +6504,7 @@ vladms:
   profiles:
     - service: vk
       id: '144316708'
-      updated: 2026-08-07-22-24-31
+      updated: 2026-08-14-23-11-58
       username: vladms
       name: Владислав Масленников
       avatar: store:/avatars/vk-6d6a6086.jpg
