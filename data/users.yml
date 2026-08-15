@@ -1435,7 +1435,7 @@ dehero:
     - type: channel
       service: vk
       id: '138249959'
-      updated: 2026-08-15-03-28-56
+      updated: 2026-08-15-20-08-42
       username: mwscr
       name: Morrowind Screenshots
       avatar: store:/avatars/vk-8e97fd4f.jpg
@@ -2640,7 +2640,7 @@ ilya-kolobov:
   profiles:
     - service: vk
       id: '1119473440'
-      updated: 2026-08-14-19-41-09
+      updated: 2026-08-15-20-08-42
       username: id1119473440
       name: Илья Колобов
       avatar: store:/avatars/vk-85ccad18.jpg
@@ -2790,7 +2790,7 @@ ivan-uralov:
   profiles:
     - service: vk
       id: '16497155'
-      updated: 2026-08-15-19-12-50
+      updated: 2026-08-15-20-08-42
       username: id16497155
       name: Иван Уралов
       avatar: store:/avatars/vk-51775759.jpg
@@ -3184,7 +3184,7 @@ konstantin-matrosov:
   profiles:
     - service: vk
       id: '93073669'
-      updated: 2026-08-15-19-12-48
+      updated: 2026-08-15-20-08-39
       username: id93073669
       name: Константин Матросов
       avatar: store:/avatars/vk-efbc7ca7.jpg
@@ -3313,7 +3313,7 @@ lenin140200:
   profiles:
     - service: tg
       id: '6901129504'
-      updated: 2026-08-14-19-40-54
+      updated: 2026-08-15-20-08-31
       accessHash: '-584145395764363707'
       username: Lenin140200
       name: Ленин
