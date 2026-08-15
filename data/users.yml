@@ -2790,7 +2790,7 @@ ivan-uralov:
   profiles:
     - service: vk
       id: '16497155'
-      updated: 2026-08-14-19-41-08
+      updated: 2026-08-15-19-12-50
       username: id16497155
       name: Иван Уралов
       avatar: store:/avatars/vk-51775759.jpg
@@ -3184,7 +3184,7 @@ konstantin-matrosov:
   profiles:
     - service: vk
       id: '93073669'
-      updated: 2026-08-15-18-11-14
+      updated: 2026-08-15-19-12-48
       username: id93073669
       name: Константин Матросов
       avatar: store:/avatars/vk-efbc7ca7.jpg
@@ -3649,7 +3649,7 @@ mbdtsmo:
   profiles:
     - service: tg
       id: '5093097514'
-      updated: 2026-08-14-18-38-09
+      updated: 2026-08-15-19-12-40
       accessHash: '-613358669572386334'
       username: mbdtsmo
       name: M Bdtsmo
@@ -6770,7 +6770,7 @@ yellow-submarine:
   profiles:
     - service: vk
       id: '21865013'
-      updated: 2026-08-14-18-39-03
+      updated: 2026-08-15-19-12-50
       username: yellowsubm
       name: Yellow Submarine
       avatar: store:/avatars/vk-8254b201.jpg
