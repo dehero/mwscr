@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file.
 
+## [2.27.2](https://github.com/dehero/mwscr/compare/v2.27.1...v2.27.2) (2026-08-16)
+
+### Bug Fixes
+
+- **site:** resolve Firefox bug with setting style for noscript Yandex.Metrika counter image
+  ([bfc4048](https://github.com/dehero/mwscr/commit/bfc404800b19cbffe0340634241e44912d388f54))
+
 ## [2.27.1](https://github.com/dehero/mwscr/compare/v2.27.0...v2.27.1) (2026-07-16)
 
 ### Bug Fixes
