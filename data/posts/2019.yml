@@ -432,18 +432,18 @@
     - service: vk
       id: 3493
       published: 2026-08-15-18-11-46
-      updated: 2026-08-16-17-10-04
+      updated: 2026-08-16-18-11-11
       followers: 1443
       likes: 65
-      views: 1009
+      views: 1018
       reposts: 5
     - service: tg
       id: 1290
       published: 2026-08-15-18-11-55
-      updated: 2026-08-16-17-10-04
+      updated: 2026-08-16-18-11-12
       followers: 925
       likes: 42
-      views: 153
+      views: 154
     - service: mx
       id: '1786817523183'
       published: 2026-08-15-18-12-03
@@ -1521,6 +1521,18 @@
       updated: 2026-08-14-17-44-36
       likes: 3
       views: 662
+    - service: vk
+      id: 3495
+      published: 2026-08-16-18-11-51
+      followers: 1443
+    - service: tg
+      id: 1291
+      published: 2026-08-16-18-12-01
+      followers: 925
+    - service: mx
+      id: '1786903929323'
+      published: 2026-08-16-18-12-09
+      followers: 23
 2019-04-01-aboard:
   title: Aboard
   titleRu: На борт
