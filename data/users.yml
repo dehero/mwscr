@@ -2790,7 +2790,7 @@ ivan-uralov:
   profiles:
     - service: vk
       id: '16497155'
-      updated: 2026-08-15-20-08-42
+      updated: 2026-08-16-20-08-35
       username: id16497155
       name: Иван Уралов
       avatar: store:/avatars/vk-51775759.jpg
@@ -3649,7 +3649,7 @@ mbdtsmo:
   profiles:
     - service: tg
       id: '5093097514'
-      updated: 2026-08-16-03-38-09
+      updated: 2026-08-16-20-08-24
       accessHash: '-613358669572386334'
       username: mbdtsmo
       name: M Bdtsmo
@@ -5193,6 +5193,14 @@ shittyelderscrollsreels:
       username: shittyelderscrollsreels
       name: no longer active
       avatar: store:/avatars/ig-63869cb3.jpg
+shizzowanna:
+  profiles:
+    - service: vk
+      id: '391705430'
+      updated: 2026-08-16-20-08-34
+      username: shizzowanna
+      name: Сергей Игоревич
+      avatar: store:/avatars/vk-9f0a7991.jpg
 shnozward:
   profiles:
     - service: ig
@@ -5688,7 +5696,7 @@ tea-tsar:
   profiles:
     - service: tg
       id: '5266133100'
-      updated: 2026-07-19-20-01-31
+      updated: 2026-08-16-20-08-40
       accessHash: '8155795007823253048'
       username: TeaTsar
       botChatId: 5266133100
@@ -6770,7 +6778,7 @@ yellow-submarine:
   profiles:
     - service: vk
       id: '21865013'
-      updated: 2026-08-15-19-12-50
+      updated: 2026-08-16-20-08-35
       username: yellowsubm
       name: Yellow Submarine
       avatar: store:/avatars/vk-8254b201.jpg
