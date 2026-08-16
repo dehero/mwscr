@@ -4,7 +4,6 @@ import { useLocation } from '@solidjs/router';
 
 const COUNTER_ID = 97623848;
 const SCRIPT_SRC = 'https://mc.yandex.ru/metrika/tag.js';
-const WATCH_URL = `https://mc.yandex.ru/watch/${COUNTER_ID}`;
 
 type YmMethod = 'init' | 'hit' | 'reachGoal' | 'params';
 
@@ -140,11 +139,5 @@ export function YandexMetrikaCounter() {
     });
   });
 
-  return (
-    <noscript>
-      <div>
-        <img src={WATCH_URL} style={{ position: 'absolute', left: '-9999px' }} alt="" />
-      </div>
-    </noscript>
-  );
+  return null;
 }
