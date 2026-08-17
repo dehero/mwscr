@@ -3313,7 +3313,7 @@ lenin140200:
   profiles:
     - service: tg
       id: '6901129504'
-      updated: 2026-08-16-21-09-10
+      updated: 2026-08-17-21-15-05
       accessHash: '-584145395764363707'
       username: Lenin140200
       name: Ленин
@@ -5148,7 +5148,7 @@ sergey-venkov:
   profiles:
     - service: vk
       id: '217443112'
-      updated: 2026-08-17-20-13-36
+      updated: 2026-08-17-21-15-14
       username: id217443112
       name: Сергей Венков
       avatar: store:/avatars/vk-a77d1a73.jpg
