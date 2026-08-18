@@ -979,10 +979,10 @@
     - service: tg
       id: 1292
       published: 2026-08-17-18-20-13
-      updated: 2026-08-18-16-17-12
+      updated: 2026-08-18-18-19-57
       followers: 926
       likes: 41
-      views: 153
+      views: 157
     - service: mx
       id: '1786990818932'
       published: 2026-08-17-18-20-19
@@ -990,11 +990,15 @@
     - service: vk
       id: 3501
       published: 2026-08-17-19-20-07
-      updated: 2026-08-18-17-16-45
+      updated: 2026-08-18-18-20-06
       followers: 1445
-      likes: 44
-      views: 664
+      likes: 45
+      views: 682
       reposts: 2
+      comments: !c |-
+        G+oAaCwO7MafGRniEc9tWaMS/4/cM9K3b20FxVhUYi2xSJNzMadTn/PEKo6MlOrmMFdTMOWpCMrO
+        jeklvWTEuqXsDLAbnBa4JhpoKgEPutkyeMhKv8miyPr9+elL7F2/vo/u6yn//8rFBKk+CXdTWXCI
+        btkQvyQvRO0y7T48EPSpKOC8PUYzDErLVDTCPsC6Mw2zMaBznhF3ZbfQEVdza/w0J5Ado9MJ
 2020-10-12-evening-lights-of-suran:
   title: Evening Lights of Suran
   titleRu: Вечерние огни Сурана
