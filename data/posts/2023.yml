@@ -1067,3 +1067,15 @@
       comments: !c |-
         Cy+Ak5PLQnjfEx14AACsdmlvbGV0c3BpZGVyqkFhYWFoIPCfjJmTy0J4vdqE9IAAr2FsZXhleS1z
         dGVwYW5vdqTwn5Kpk8tCeKq60WUAAK1vbG1lci1pemRleWxhpPCfmLsD
+    - service: vk
+      id: 3506
+      published: 2026-08-19-18-16-03
+      followers: 1445
+    - service: tg
+      id: 1294
+      published: 2026-08-19-18-16-09
+      followers: 930
+    - service: mx
+      id: '1787163374420'
+      published: 2026-08-19-18-16-14
+      followers: 23
