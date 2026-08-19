@@ -2273,7 +2273,7 @@ gleb-zheltuhin:
   profiles:
     - service: vk
       id: '29014473'
-      updated: 2026-08-18-21-13-10
+      updated: 2026-08-19-21-15-06
       username: gleb_zheltuhin
       name: Глеб Желтухин
       avatar: store:/avatars/vk-971eefc1.jpg
@@ -2790,7 +2790,7 @@ ivan-uralov:
   profiles:
     - service: vk
       id: '16497155'
-      updated: 2026-08-18-22-10-23
+      updated: 2026-08-19-21-15-06
       username: id16497155
       name: Иван Уралов
       avatar: store:/avatars/vk-51775759.jpg
@@ -3649,7 +3649,7 @@ mbdtsmo:
   profiles:
     - service: tg
       id: '5093097514'
-      updated: 2026-08-18-21-12-59
+      updated: 2026-08-19-21-14-55
       accessHash: '-613358669572386334'
       username: mbdtsmo
       name: M Bdtsmo
@@ -5132,7 +5132,7 @@ sergey-b-2:
   profiles:
     - service: vk
       id: '1077446394'
-      updated: 2026-08-19-20-12-56
+      updated: 2026-08-19-21-15-02
       username: id1077446394
       name: Сергей Б
       avatar: store:/avatars/vk-f5b20109.jpg
@@ -5197,7 +5197,7 @@ shizzowanna:
   profiles:
     - service: vk
       id: '391705430'
-      updated: 2026-08-18-21-13-08
+      updated: 2026-08-19-21-15-04
       username: shizzowanna
       name: Сергей Игоревич
       avatar: store:/avatars/vk-9f0a7991.jpg
@@ -6778,7 +6778,7 @@ yellow-submarine:
   profiles:
     - service: vk
       id: '21865013'
-      updated: 2026-08-18-21-13-10
+      updated: 2026-08-19-21-15-06
       username: yellowsubm
       name: Yellow Submarine
       avatar: store:/avatars/vk-8254b201.jpg
