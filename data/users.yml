@@ -487,7 +487,7 @@ ansis:
   profiles:
     - service: tg
       id: '517050552'
-      updated: 2026-08-20-17-18-13
+      updated: 2026-08-20-18-20-30
       accessHash: '5231096655311395455'
       username: ansis
       name: ansis
@@ -2459,7 +2459,7 @@ himmelherz:
   profiles:
     - service: tg
       id: '588028426'
-      updated: 2026-08-20-17-18-13
+      updated: 2026-08-20-18-20-29
       accessHash: '3598871882011829639'
       username: himmelherz
       name: Roman
@@ -5132,7 +5132,7 @@ sergey-b-2:
   profiles:
     - service: vk
       id: '1077446394'
-      updated: 2026-08-20-17-18-15
+      updated: 2026-08-20-18-20-33
       username: id1077446394
       name: Сергей Б
       avatar: store:/avatars/vk-f5b20109.jpg
@@ -5148,7 +5148,7 @@ sergey-venkov:
   profiles:
     - service: vk
       id: '217443112'
-      updated: 2026-08-19-18-15-44
+      updated: 2026-08-20-18-20-33
       username: id217443112
       name: Сергей Венков
       avatar: store:/avatars/vk-a77d1a73.jpg

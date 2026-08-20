@@ -15012,7 +15012,7 @@
     - service: vk
       id: 3504
       published: 2026-08-18-18-20-27
-      updated: 2026-08-20-17-18-15
+      updated: 2026-08-20-18-20-32
       followers: 1446
       likes: 13
       views: 297
@@ -15021,10 +15021,10 @@
     - service: tg
       id: 1293
       published: 2026-08-18-18-20-37
-      updated: 2026-08-20-17-18-14
+      updated: 2026-08-20-18-20-30
       followers: 929
       likes: 55
-      views: 738
+      views: 752
     - service: mx
       id: '1787077244792'
       published: 2026-08-18-18-20-44
@@ -18288,6 +18288,18 @@
       followers: 1427
       likes: 69
       views: 360
+    - service: vk
+      id: 3507
+      published: 2026-08-20-18-20-48
+      followers: 1445
+    - service: tg
+      id: 1295
+      published: 2026-08-20-18-20-55
+      followers: 935
+    - service: mx
+      id: '1787250060020'
+      published: 2026-08-20-18-21-00
+      followers: 23
 2017-12-14-northern-light:
   title: Northern Light
   titleRu: Северный свет
