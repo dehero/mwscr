@@ -487,7 +487,7 @@ ansis:
   profiles:
     - service: tg
       id: '517050552'
-      updated: 2026-08-20-20-15-48
+      updated: 2026-08-20-21-16-58
       accessHash: '5231096655311395455'
       username: ansis
       name: ansis
@@ -2459,7 +2459,7 @@ himmelherz:
   profiles:
     - service: tg
       id: '588028426'
-      updated: 2026-08-20-20-15-47
+      updated: 2026-08-20-21-16-58
       accessHash: '3598871882011829639'
       username: himmelherz
       name: Roman
@@ -5197,7 +5197,7 @@ shizzowanna:
   profiles:
     - service: vk
       id: '391705430'
-      updated: 2026-08-19-21-15-04
+      updated: 2026-08-20-21-16-59
       username: shizzowanna
       name: Сергей Игоревич
       avatar: store:/avatars/vk-9f0a7991.jpg
