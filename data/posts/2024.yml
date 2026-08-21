@@ -524,14 +524,14 @@
     - service: vk
       id: 3025
       published: 2026-01-23-18-33-39
-      updated: 2026-08-14-07-04-52
+      updated: 2026-08-21-07-34-40
       followers: 1583
       likes: 66
       views: 892
     - service: tg
       id: 1129
       published: 2026-01-23-18-33-43
-      updated: 2026-08-14-07-04-39
+      updated: 2026-08-21-07-34-20
       followers: 884
       likes: 65
       views: 603
@@ -588,7 +588,7 @@
     - service: vk
       id: 2824
       published: 2025-11-07-18-18-05
-      updated: 2026-08-14-07-06-12
+      updated: 2026-08-21-07-36-01
       followers: 1504
       likes: 56
       views: 1087
@@ -605,7 +605,7 @@
     - service: tg
       id: 1048
       published: 2025-11-07-18-18-08
-      updated: 2026-08-14-07-05-33
+      updated: 2026-08-21-07-35-18
       followers: 854
       likes: 61
       views: 669
@@ -1639,10 +1639,10 @@
     - service: vk
       id: 3021
       published: 2026-01-22-18-32-30
-      updated: 2026-08-14-07-04-53
+      updated: 2026-08-21-07-34-41
       followers: 1582
       likes: 109
-      views: 1743
+      views: 1746
       reposts: 7
       comments: !c |-
         G68AwByJsa3grXggLtYyQ6mhhz/1E2ZqBCIWnJ1Yim3qWFarLqJ5D0MdQtW5xfaQgiEZnCEfJ/Nj
@@ -1651,10 +1651,10 @@
     - service: tg
       id: 1128
       published: 2026-01-22-18-32-35
-      updated: 2026-08-14-07-04-40
+      updated: 2026-08-21-07-34-21
       followers: 885
       likes: 76
-      views: 1023
+      views: 1027
       comments: !c CwuAkZPLQnm+ifzxAACma2V2eS1jpPCfpoAD
 2024-04-16-birth-of-fabricant: 2018-01-16-birth-of-fabricant
 2024-04-17-interior-garden: 2017-03-31-interior-garden
@@ -1875,7 +1875,7 @@
     - service: vk
       id: 3059
       published: 2026-02-02-18-43-01
-      updated: 2026-08-14-07-04-38
+      updated: 2026-08-21-07-34-28
       followers: 1595
       likes: 57
       views: 783
@@ -1887,10 +1887,10 @@
     - service: tg
       id: 1139
       published: 2026-02-02-18-43-05
-      updated: 2026-08-14-07-04-25
+      updated: 2026-08-21-07-34-07
       followers: 887
       likes: 73
-      views: 948
+      views: 950
       comments: !c |-
         CyqAkpPLQnnCO09iAACma2V2eS1jpPCfpoCTy0J5wfthaoAArnBhaW5raWxsZXIxOTg22SPQnNGD
         0YHQuiDQu9C10YfQuNGCINCx0L7Qu9C10LfQvdC4LgM=
@@ -2968,14 +2968,14 @@
     - service: vk
       id: 2870
       published: 2025-11-20-19-48-43
-      updated: 2026-08-14-07-05-53
+      updated: 2026-08-21-07-35-43
       followers: 1516
       likes: 62
       views: 729
     - service: tg
       id: 1063
       published: 2025-11-20-19-48-47
-      updated: 2026-08-14-07-05-16
+      updated: 2026-08-21-07-35-05
       followers: 861
       likes: 68
       views: 683
@@ -3438,7 +3438,7 @@
     - service: vk
       id: 3085
       published: 2026-02-13-18-49-37
-      updated: 2026-08-14-07-04-08
+      updated: 2026-08-21-07-34-11
       followers: 1601
       likes: 65
       views: 777
@@ -3615,7 +3615,7 @@
     - service: vk
       id: 2805
       published: 2025-11-01-18-14-32
-      updated: 2026-08-14-07-06-20
+      updated: 2026-08-21-07-36-08
       followers: 1494
       likes: 107
       views: 1440
@@ -3623,10 +3623,10 @@
     - service: tg
       id: 1037
       published: 2025-11-01-18-14-36
-      updated: 2026-08-14-07-05-41
+      updated: 2026-08-21-07-35-25
       followers: 850
       likes: 82
-      views: 633
+      views: 634
       comments: !c iw6AkZPLQnmk6oKfgACra2F3YXpha3kyMjOm4p2k77iPAw==
 2024-10-05-scamp-before-the-throw:
   title: Scamp Before the Throw
