@@ -619,10 +619,10 @@
     - service: tg
       id: 480
       published: 2024-07-25-18-20-32
-      updated: 2026-08-14-17-43-39
+      updated: 2026-08-21-18-20-11
       followers: 399
       likes: 73
-      views: 710
+      views: 711
       comments: !c |-
         G20AwGT+r/mf3zvwxCigI+tcWKQf4CKSpmscbMAJSDjxsvM0Dx7D65jk9Ck1zx9iGf7fiQqYWBlZ
         4G7fbs3Wr7Gbk53v+rv/Xr4n/dgINgB9yU+sZOKVj+KBAg+EVMBckawsIZUgkVQtGYYG
@@ -3177,7 +3177,7 @@
     - service: vk
       id: 1434
       published: 2024-03-03-18-16-44
-      updated: 2026-08-14-17-43-49
+      updated: 2026-08-21-18-20-23
       followers: 894
       likes: 34
       views: 303
