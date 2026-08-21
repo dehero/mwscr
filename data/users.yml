@@ -1185,7 +1185,7 @@ crazycyrodiliccat:
   profiles:
     - service: vk
       id: '90554843'
-      updated: 2026-08-21-21-13-10
+      updated: 2026-08-21-22-12-45
       username: crazycyrodiliccat
       name: Александр Невский
       avatar: store:/avatars/vk-0db1296b.jpg
@@ -1427,7 +1427,7 @@ dehero:
       avatar: store:/avatars/gh-c8afe641.jpg
     - service: vk
       id: '3652910'
-      updated: 2026-08-21-21-14-38
+      updated: 2026-08-21-22-12-45
       username: dehero
       name: Антон Курьянов
       avatar: store:/avatars/vk-5356f76e.jpg
@@ -1786,7 +1786,7 @@ egorwave:
   profiles:
     - service: vk
       id: '225337507'
-      updated: 2026-08-14-22-10-55
+      updated: 2026-08-21-22-12-17
       username: egorwave
       name: Егор Фролов
       avatar: store:/avatars/vk-ebde0ba3.jpg
@@ -2144,7 +2144,7 @@ fungirl666:
   profiles:
     - service: vk
       id: '480647421'
-      updated: 2026-08-14-22-11-01
+      updated: 2026-08-21-22-12-23
       username: fungirl666
       avatar: store:/avatars/vk-7f160215.jpg
       deleted: true
@@ -2613,7 +2613,7 @@ ilovebashlyk:
   profiles:
     - service: vk
       id: '5362174'
-      updated: 2026-08-14-21-14-15
+      updated: 2026-08-21-22-11-54
       username: ilovebashlyk
       avatar: store:/avatars/vk-7f160215.jpg
       deleted: true
@@ -2787,7 +2787,7 @@ ivan-uralov:
   profiles:
     - service: vk
       id: '16497155'
-      updated: 2026-08-21-21-12-30
+      updated: 2026-08-21-22-11-43
       username: id16497155
       name: Иван Уралов
       avatar: store:/avatars/vk-51775759.jpg
@@ -4131,7 +4131,7 @@ nk2806:
   profiles:
     - service: vk
       id: '18835691'
-      updated: 2026-08-21-21-14-17
+      updated: 2026-08-21-22-11-54
       username: nk2806
       name: Никита Макеев
       avatar: store:/avatars/vk-6d878dd4.jpg
@@ -4327,7 +4327,7 @@ olmer-izdeyla:
   profiles:
     - service: tg
       id: '835160756'
-      updated: 2026-08-21-18-20-13
+      updated: 2026-08-21-22-11-35
       accessHash: '5779481472375422362'
       username: Olmer_Izdeyla
       name: Olmer Izdeyla
@@ -4465,7 +4465,7 @@ pavusmart:
   profiles:
     - service: vk
       id: '385848478'
-      updated: 2026-08-21-21-14-02
+      updated: 2026-08-21-22-12-10
       username: pavusmart
       name: Кордиус Флакс
       avatar: store:/avatars/vk-ca2babad.jpg
@@ -4489,7 +4489,7 @@ peteevandrew:
   profiles:
     - service: vk
       id: '307619379'
-      updated: 2026-08-21-21-12-38
+      updated: 2026-08-21-22-12-22
       username: peteevandrew
       name: Андрей Петеев
       avatar: store:/avatars/vk-1abdc90f.jpg
@@ -6195,7 +6195,7 @@ user-32:
   profiles:
     - service: vk
       id: '314007101'
-      updated: 2026-08-21-21-14-23
+      updated: 2026-08-21-22-12-45
       username: id314007101
       avatar: store:/avatars/vk-7f160215.jpg
       deleted: true
@@ -6372,7 +6372,7 @@ vancleve:
   profiles:
     - service: vk
       id: '84634454'
-      updated: 2026-08-14-22-12-00
+      updated: 2026-08-21-22-12-09
       username: vancleve
       avatar: store:/avatars/vk-7f160215.jpg
       deleted: true
