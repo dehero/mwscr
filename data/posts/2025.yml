@@ -930,10 +930,10 @@
     - service: tg
       id: 768
       published: 2025-03-28-18-22-02
-      updated: 2026-08-14-09-52-24
+      updated: 2026-08-21-10-20-05
       followers: 709
       likes: 66
-      views: 564
+      views: 565
 2025-03-29-bridle-of-foreigners:
   title: Bridge of Foreigners
   titleRu: Мост чужеземцев
@@ -969,10 +969,10 @@
     - service: tg
       id: 769
       published: 2025-03-29-18-19-24
-      updated: 2026-08-14-09-52-24
+      updated: 2026-08-21-10-20-04
       followers: 710
       likes: 63
-      views: 565
+      views: 566
 2025-03-30-frozen-water-stone:
   title: Frozen Water Stone
   titleRu: Камень Замороженной Воды
@@ -1010,10 +1010,10 @@
     - service: tg
       id: 770
       published: 2025-03-30-18-19-32
-      updated: 2026-08-14-09-52-23
+      updated: 2026-08-21-10-20-03
       followers: 711
       likes: 62
-      views: 651
+      views: 652
       comments: !c |-
         G4IAoGX+z/UBBziLEogSiSobaAJtF6XH5/d878APdHCiB+MNLMGwACzBPGUlyzTB7P4e1y/TK6fx
         D8A91juqzkrPLt5iasEy7OnVxyGZRc+U+3UcAzjpSemXP7QJ8TKzrTRBqlDEqBB/AwU5faD9MnW/
@@ -1046,7 +1046,7 @@
     - service: vk
       id: 2245
       published: 2025-03-31-18-21-31
-      updated: 2026-08-14-09-52-54
+      updated: 2026-08-21-10-20-36
       followers: 1221
       likes: 72
       views: 840
@@ -1057,10 +1057,10 @@
     - service: tg
       id: 771
       published: 2025-03-31-18-21-37
-      updated: 2026-08-14-09-52-22
+      updated: 2026-08-21-10-20-02
       followers: 711
       likes: 72
-      views: 713
+      views: 714
 2025-04-01-night-on-suran-square: 2023-08-09-night-on-suran-square
 2025-04-02-fire-fern:
   title: Fire Fern
@@ -1086,7 +1086,7 @@
     - service: vk
       id: 2252
       published: 2025-04-02-18-21-44
-      updated: 2026-08-14-09-52-53
+      updated: 2026-08-21-10-20-35
       followers: 1228
       likes: 50
       views: 411
@@ -1094,10 +1094,10 @@
     - service: tg
       id: 775
       published: 2025-04-02-18-21-50
-      updated: 2026-08-14-09-52-21
+      updated: 2026-08-21-10-19-58
       followers: 713
       likes: 63
-      views: 717
+      views: 718
 2025-04-03-ships: 2018-03-25-ships
 2025-04-04-through-the-waterfalls: 2018-07-12-through-the-waterfalls
 2025-04-05-near-curio-manor:
@@ -1126,7 +1126,7 @@
     - service: vk
       id: 2256
       published: 2025-04-05-19-41-10
-      updated: 2026-08-14-09-52-49
+      updated: 2026-08-21-10-20-31
       followers: 1231
       likes: 77
       views: 953
@@ -1134,7 +1134,7 @@
     - service: tg
       id: 781
       published: 2025-04-05-19-41-19
-      updated: 2026-08-14-09-52-19
+      updated: 2026-08-21-10-19-54
       followers: 716
       likes: 68
       views: 554
@@ -1164,7 +1164,7 @@
     - service: vk
       id: 2260
       published: 2025-04-07-18-21-38
-      updated: 2026-08-14-09-52-48
+      updated: 2026-08-21-10-20-30
       followers: 1235
       likes: 48
       views: 410
@@ -1176,7 +1176,7 @@
     - service: tg
       id: 783
       published: 2025-04-07-18-21-45
-      updated: 2026-08-14-09-52-17
+      updated: 2026-08-21-10-19-53
       followers: 717
       likes: 65
       views: 735
@@ -1214,14 +1214,14 @@
     - service: vk
       id: 2263
       published: 2025-04-08-18-21-15
-      updated: 2026-08-14-09-52-47
+      updated: 2026-08-21-10-20-29
       followers: 1239
       likes: 50
       views: 414
     - service: tg
       id: 784
       published: 2025-04-08-18-21-23
-      updated: 2026-08-14-09-52-17
+      updated: 2026-08-21-10-19-52
       followers: 717
       likes: 58
       views: 607
@@ -1265,14 +1265,14 @@
     - service: vk
       id: 2289
       published: 2025-04-17-18-40-50
-      updated: 2026-08-14-09-52-35
+      updated: 2026-08-21-10-20-17
       followers: 1260
       likes: 53
       views: 416
     - service: tg
       id: 799
       published: 2025-04-17-18-40-59
-      updated: 2026-08-14-09-52-07
+      updated: 2026-08-21-10-19-42
       followers: 721
       likes: 78
       views: 869
@@ -1310,7 +1310,7 @@
     - service: vk
       id: 2293
       published: 2025-04-18-18-21-06
-      updated: 2026-08-14-09-52-35
+      updated: 2026-08-21-10-20-17
       followers: 1260
       likes: 52
       views: 561
@@ -1322,7 +1322,7 @@
     - service: tg
       id: 800
       published: 2025-04-18-18-21-15
-      updated: 2026-08-14-09-51-53
+      updated: 2026-08-21-10-19-41
       followers: 722
       likes: 67
       views: 622
@@ -1360,7 +1360,7 @@
     - service: vk
       id: 2296
       published: 2025-04-20-19-12-26
-      updated: 2026-08-14-09-52-33
+      updated: 2026-08-21-10-20-15
       followers: 1265
       likes: 63
       views: 539
@@ -1368,7 +1368,7 @@
     - service: tg
       id: 805
       published: 2025-04-20-19-12-33
-      updated: 2026-08-14-09-51-51
+      updated: 2026-08-21-10-19-39
       followers: 722
       likes: 69
       views: 549
@@ -1399,7 +1399,7 @@
     - service: vk
       id: 2299
       published: 2025-04-21-19-13-20
-      updated: 2026-08-14-09-52-32
+      updated: 2026-08-21-10-20-14
       followers: 1266
       likes: 91
       views: 716
@@ -1411,7 +1411,7 @@
     - service: tg
       id: 807
       published: 2025-04-21-19-13-26
-      updated: 2026-08-14-09-51-51
+      updated: 2026-08-21-10-19-38
       followers: 723
       likes: 77
       views: 658
@@ -1447,7 +1447,7 @@
     - service: vk
       id: 2303
       published: 2025-04-23-18-24-39
-      updated: 2026-08-14-09-52-30
+      updated: 2026-08-21-10-20-11
       followers: 1266
       likes: 40
       views: 424
@@ -1455,7 +1455,7 @@
     - service: tg
       id: 809
       published: 2025-04-23-18-24-45
-      updated: 2026-08-14-09-51-49
+      updated: 2026-08-21-10-19-37
       followers: 725
       likes: 63
       views: 576
@@ -1488,7 +1488,7 @@
     - service: vk
       id: 2305
       published: 2025-04-24-18-23-20
-      updated: 2026-08-14-09-52-29
+      updated: 2026-08-21-10-20-11
       followers: 1268
       likes: 63
       views: 539
@@ -1496,7 +1496,7 @@
     - service: tg
       id: 810
       published: 2025-04-24-18-23-26
-      updated: 2026-08-14-09-51-49
+      updated: 2026-08-21-10-19-36
       followers: 725
       likes: 65
       views: 925
@@ -1533,7 +1533,7 @@
     - service: vk
       id: 2306
       published: 2025-04-25-19-35-47
-      updated: 2026-08-14-09-52-28
+      updated: 2026-08-21-10-20-10
       followers: 1271
       likes: 74
       views: 709
@@ -1545,7 +1545,7 @@
     - service: tg
       id: 811
       published: 2025-04-25-19-35-54
-      updated: 2026-08-14-09-51-48
+      updated: 2026-08-21-10-19-36
       followers: 725
       likes: 76
       views: 916
@@ -1575,7 +1575,7 @@
     - service: vk
       id: 2307
       published: 2025-04-26-18-21-00
-      updated: 2026-08-14-09-52-27
+      updated: 2026-08-21-10-20-09
       followers: 1274
       likes: 68
       views: 532
@@ -1583,7 +1583,7 @@
     - service: tg
       id: 816
       published: 2025-04-26-20-01-00
-      updated: 2026-08-14-09-51-48
+      updated: 2026-08-21-10-19-35
       followers: 725
       likes: 76
       views: 648
@@ -1632,7 +1632,7 @@
     - service: tg
       id: 833
       published: 2025-05-07-18-50-42
-      updated: 2026-08-14-09-51-27
+      updated: 2026-08-21-10-19-24
       followers: 737
       likes: 72
       views: 623
@@ -1642,7 +1642,7 @@
     - service: vk
       id: 2344
       published: 2025-05-07-19-16-08
-      updated: 2026-08-14-09-52-10
+      updated: 2026-08-21-10-19-54
       followers: 1282
       likes: 47
       views: 468
@@ -1674,7 +1674,7 @@
     - service: vk
       id: 2346
       published: 2025-05-08-18-41-58
-      updated: 2026-08-14-09-52-09
+      updated: 2026-08-21-10-19-53
       followers: 1283
       likes: 36
       views: 460
@@ -1682,7 +1682,7 @@
     - service: tg
       id: 834
       published: 2025-05-08-18-42-05
-      updated: 2026-08-14-09-51-26
+      updated: 2026-08-21-10-19-24
       followers: 737
       likes: 66
       views: 579
@@ -1717,7 +1717,7 @@
     - service: vk
       id: 2348
       published: 2025-05-09-18-26-00
-      updated: 2026-08-14-09-52-08
+      updated: 2026-08-21-10-19-51
       followers: 1283
       likes: 63
       views: 966
@@ -1725,7 +1725,7 @@
     - service: tg
       id: 835
       published: 2025-05-09-19-00-00
-      updated: 2026-08-14-09-51-25
+      updated: 2026-08-21-10-19-22
       followers: 737
       likes: 75
       views: 817
@@ -1764,7 +1764,7 @@
     - service: vk
       id: 2357
       published: 2025-05-14-18-35-17
-      updated: 2026-08-14-09-51-54
+      updated: 2026-08-21-10-19-42
       followers: 1295
       likes: 54
       views: 882
@@ -1777,7 +1777,7 @@
     - service: tg
       id: 844
       published: 2025-05-14-18-35-24
-      updated: 2026-08-14-09-51-19
+      updated: 2026-08-21-10-19-16
       followers: 738
       likes: 69
       views: 650
@@ -1810,7 +1810,7 @@
     - service: vk
       id: 2360
       published: 2025-05-15-18-33-50
-      updated: 2026-08-14-09-51-53
+      updated: 2026-08-21-10-19-41
       followers: 1299
       likes: 33
       views: 447
@@ -1821,7 +1821,7 @@
     - service: tg
       id: 845
       published: 2025-05-15-18-33-57
-      updated: 2026-08-14-09-51-19
+      updated: 2026-08-21-10-19-15
       followers: 738
       likes: 66
       views: 583
@@ -1845,7 +1845,7 @@
     - service: vk
       id: 2361
       published: 2025-05-16-19-04-32
-      updated: 2026-08-14-09-51-52
+      updated: 2026-08-21-10-19-39
       followers: 1298
       likes: 65
       views: 550
@@ -1853,7 +1853,7 @@
     - service: tg
       id: 846
       published: 2025-05-16-19-04-36
-      updated: 2026-08-14-09-51-19
+      updated: 2026-08-21-10-19-14
       followers: 738
       likes: 72
       views: 582
@@ -1883,7 +1883,7 @@
     - service: vk
       id: 2368
       published: 2025-05-16-19-06-00
-      updated: 2026-08-14-09-51-51
+      updated: 2026-08-21-10-19-38
       followers: 1302
       likes: 57
       views: 517
@@ -1893,7 +1893,7 @@
     - service: tg
       id: 849
       published: 2025-05-19-19-10-00
-      updated: 2026-08-14-09-51-16
+      updated: 2026-08-21-10-19-12
       followers: 737
       likes: 61
       views: 608
@@ -1937,7 +1937,7 @@
     - service: vk
       id: 2370
       published: 2025-05-20-18-33-04
-      updated: 2026-08-14-09-51-37
+      updated: 2026-08-21-10-19-34
       followers: 1302
       likes: 68
       views: 485
@@ -1946,7 +1946,7 @@
     - service: tg
       id: 850
       published: 2025-05-20-18-33-11
-      updated: 2026-08-14-09-51-15
+      updated: 2026-08-21-10-19-12
       followers: 736
       likes: 69
       views: 894
@@ -1977,7 +1977,7 @@
     - service: vk
       id: 2379
       published: 2025-05-23-19-07-05
-      updated: 2026-08-14-09-51-27
+      updated: 2026-08-21-10-19-28
       followers: 1302
       likes: 38
       views: 377
@@ -1988,7 +1988,7 @@
     - service: tg
       id: 856
       published: 2025-05-23-19-07-10
-      updated: 2026-08-14-09-51-11
+      updated: 2026-08-21-10-19-07
       followers: 739
       likes: 63
       views: 602
@@ -2030,14 +2030,14 @@
     - service: vk
       id: 2396
       published: 2025-05-28-18-32-00
-      updated: 2026-08-14-09-51-19
+      updated: 2026-08-21-10-19-20
       followers: 1310
       likes: 34
       views: 437
     - service: tg
       id: 861
       published: 2025-05-28-18-37-00
-      updated: 2026-08-14-09-51-03
+      updated: 2026-08-21-10-19-02
       followers: 742
       likes: 67
       views: 613
@@ -2077,7 +2077,7 @@
     - service: vk
       id: 2424
       published: 2025-06-02-19-35-34
-      updated: 2026-08-14-09-51-11
+      updated: 2026-08-21-10-19-12
       followers: 1316
       likes: 72
       views: 625
@@ -2115,7 +2115,7 @@
     - service: tg
       id: 873
       published: 2025-06-02-19-35-38
-      updated: 2026-08-14-09-50-58
+      updated: 2026-08-21-10-18-56
       followers: 742
       likes: 72
       views: 632
@@ -2146,7 +2146,7 @@
     - service: vk
       id: 2439
       published: 2025-06-03-18-33-49
-      updated: 2026-08-14-09-51-08
+      updated: 2026-08-21-10-19-08
       followers: 1317
       likes: 55
       views: 430
@@ -2157,10 +2157,10 @@
     - service: tg
       id: 874
       published: 2025-06-03-18-33-52
-      updated: 2026-08-14-09-50-57
+      updated: 2026-08-21-10-18-55
       followers: 743
       likes: 76
-      views: 630
+      views: 631
       comments: !c |-
         G1MBwBwHdqwxmMRHti6C59sZ4T/PMMAsCyIpj7bdbjCCyXumm7rZeSoTKIFE96Tt0Y/ZRM2nv3kX
         YEAfpH3+iV9/NidIHvDkNJE00FQ90GHBfJk0PlgGdtDBWf8cbMnhfL3h73jN5LBS5G3NT5+aNf1d
@@ -2193,7 +2193,7 @@
     - service: vk
       id: 2444
       published: 2025-06-04-19-34-23
-      updated: 2026-08-14-09-51-07
+      updated: 2026-08-21-10-19-07
       followers: 1317
       likes: 62
       views: 567
@@ -2205,10 +2205,10 @@
     - service: tg
       id: 875
       published: 2025-06-04-19-34-26
-      updated: 2026-08-14-09-50-56
+      updated: 2026-08-21-10-18-53
       followers: 744
       likes: 70
-      views: 628
+      views: 630
       comments: !c iw2AkZPLQnlz/jTxgACra2F3YXpha3kyMjOk8J+arAM=
 2025-06-05-1-meets-his-beloved-owner:
   title: Meets His Beloved Owner
@@ -2239,7 +2239,7 @@
     - service: vk
       id: 2449
       published: 2025-06-05-19-26-00
-      updated: 2026-08-14-09-51-06
+      updated: 2026-08-21-10-19-06
       followers: 1316
       likes: 47
       views: 473
@@ -2247,10 +2247,10 @@
     - service: tg
       id: 876
       published: 2025-06-05-19-26-00
-      updated: 2026-08-14-09-50-55
+      updated: 2026-08-21-10-18-52
       followers: 743
       likes: 69
-      views: 595
+      views: 596
 2025-06-06-1-lava-gorge:
   title: Lava Gorge
   titleRu: Лавовое ущелье
@@ -2280,7 +2280,7 @@
     - service: vk
       id: 2450
       published: 2025-06-06-18-20-31
-      updated: 2026-08-14-09-51-05
+      updated: 2026-08-21-10-19-05
       followers: 1316
       likes: 52
       views: 542
@@ -2292,10 +2292,10 @@
     - service: tg
       id: 877
       published: 2025-06-06-18-20-35
-      updated: 2026-08-14-09-50-55
+      updated: 2026-08-21-10-18-52
       followers: 743
       likes: 65
-      views: 619
+      views: 620
       comments: !c iw2AkZPLQnl0nDP3AACra2F3YXpha3kyMjOk8J+RjgM=
 2025-06-07-1-wraith-of-sul-senipul: 2017-08-24-wraith-of-sul-senipul
 2025-06-08-1-casual-viewer: 2018-07-11-casual-viewer
