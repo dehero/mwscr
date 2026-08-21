@@ -393,7 +393,7 @@ anakiners:
   profiles:
     - service: tg
       id: '1057550226'
-      updated: 2026-08-21-19-18-23
+      updated: 2026-08-21-20-12-18
       accessHash: '4840420460846275938'
       username: anakiners
       name: Aidan°
@@ -2787,7 +2787,7 @@ ivan-uralov:
   profiles:
     - service: vk
       id: '16497155'
-      updated: 2026-08-21-19-18-21
+      updated: 2026-08-21-20-12-16
       username: id16497155
       name: Иван Уралов
       avatar: store:/avatars/vk-51775759.jpg
@@ -3816,7 +3816,7 @@ mongleri:
   profiles:
     - service: tg
       id: '327483476'
-      updated: 2026-08-21-18-21-17
+      updated: 2026-08-21-20-12-19
       accessHash: '-8173097643405976481'
       username: mongleri
       name: Aleksi
@@ -3867,11 +3867,11 @@ moto-jn:
   profiles:
     - service: tg
       id: '580075797'
-      updated: 2026-08-14-16-38-30
+      updated: 2026-08-21-20-12-18
       accessHash: '4469593562714077600'
       username: moto_shinobi
       name: EN
-      avatar: store:/avatars/tg-2491406577776134921.jpg
+      avatar: store:/avatars/tg-2491406577776134926.jpg
 mr-notlob:
   profiles:
     - service: tg
@@ -5129,7 +5129,7 @@ sergey-b-2:
   profiles:
     - service: vk
       id: '1077446394'
-      updated: 2026-08-21-19-18-24
+      updated: 2026-08-21-20-12-18
       username: id1077446394
       name: Сергей Б
       avatar: store:/avatars/vk-f5b20109.jpg
@@ -6843,7 +6843,7 @@ zhechka-drv:
   profiles:
     - service: tg
       id: '5876502612'
-      updated: 2026-08-21-19-18-15
+      updated: 2026-08-21-20-12-11
       accessHash: '1326663562799751033'
       deleted: true
 zhelnovpv:
