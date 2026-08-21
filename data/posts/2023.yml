@@ -425,7 +425,7 @@
     - service: vk
       id: 2233
       published: 2025-03-27-18-12-06
-      updated: 2026-08-14-10-46-49
+      updated: 2026-08-21-11-15-50
       followers: 1215
       likes: 41
       views: 447
@@ -1070,18 +1070,18 @@
     - service: vk
       id: 3506
       published: 2026-08-19-18-16-03
-      updated: 2026-08-21-10-18-09
+      updated: 2026-08-21-11-15-45
       followers: 1445
-      likes: 37
-      views: 365
+      likes: 39
+      views: 376
       reposts: 1
     - service: tg
       id: 1294
       published: 2026-08-19-18-16-09
-      updated: 2026-08-21-10-18-07
+      updated: 2026-08-21-11-15-45
       followers: 930
       likes: 51
-      views: 219
+      views: 223
       comments: !c |-
         G2cAoB2HcUyxUBh9o3jkBtfEi4374pkONC2TTjKvbjNFc30Y/OA9/AfxpWqLpmL9AMIGHLAPgQw2
         DoKLDhtj70gzoa686yXXtg1FFYPh9XWRUhuq5m5tAK1NzQ6wv4CmGRIvtrPwU0gyehg=
