@@ -586,7 +586,7 @@ artyom-karpov:
   profiles:
     - service: vk
       id: '178018548'
-      updated: 2026-08-15-09-14-45
+      updated: 2026-08-22-09-17-00
       username: id178018548
       name: Артём Карпов
       avatar: store:/avatars/vk-72fe5d60.jpg
@@ -1361,7 +1361,7 @@ daryna-dmytrenko:
   profiles:
     - service: vk
       id: '164064457'
-      updated: 2026-08-15-09-14-27
+      updated: 2026-08-22-09-16-38
       username: daryna_dmytrenko
       name: Дарина Дмитренко
       avatar: store:/avatars/vk-0d327853.jpg
@@ -1427,7 +1427,7 @@ dehero:
       avatar: store:/avatars/gh-c8afe641.jpg
     - service: vk
       id: '3652910'
-      updated: 2026-08-22-07-23-26
+      updated: 2026-08-22-09-17-32
       username: dehero
       name: Антон Курьянов
       avatar: store:/avatars/vk-5356f76e.jpg
@@ -2014,7 +2014,7 @@ evil-kit:
   profiles:
     - service: vk
       id: '153155138'
-      updated: 2026-08-15-11-09-23
+      updated: 2026-08-22-09-17-06
       username: evil_kit
       name: Никита Метелкин
       avatar: store:/avatars/vk-adb64972.jpg
@@ -2576,7 +2576,7 @@ idalexeyvav:
   profiles:
     - service: vk
       id: '417783044'
-      updated: 2026-08-22-07-23-26
+      updated: 2026-08-22-09-16-35
       username: idalexeyvav
       name: Алексей Вавилов
       avatar: store:/avatars/vk-6717456e.jpg
@@ -2787,7 +2787,7 @@ ivan-uralov:
   profiles:
     - service: vk
       id: '16497155'
-      updated: 2026-08-22-08-15-19
+      updated: 2026-08-22-09-16-24
       username: id16497155
       name: Иван Уралов
       avatar: store:/avatars/vk-51775759.jpg
@@ -3451,7 +3451,7 @@ lycanthropy:
   profiles:
     - service: vk
       id: '5386912'
-      updated: 2026-08-22-03-32-51
+      updated: 2026-08-22-09-17-35
       username: lycanthropy
       name: Филипп Суворов
       avatar: store:/avatars/vk-8642e0b8.jpg
@@ -5441,7 +5441,7 @@ soulilight:
   profiles:
     - service: vk
       id: '347703822'
-      updated: 2026-08-22-04-21-18
+      updated: 2026-08-22-09-17-17
       username: soulilight
       name: Dima Boev
       avatar: store:/avatars/vk-4a3f332e.jpg
@@ -6227,7 +6227,7 @@ user-36:
   profiles:
     - service: vk
       id: '227500203'
-      updated: 2026-08-15-09-15-13
+      updated: 2026-08-22-09-17-34
       username: id227500203
       avatar: store:/avatars/vk-7f160215.jpg
       deleted: true
