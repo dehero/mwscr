@@ -6685,7 +6685,10 @@
     - service: vk
       id: 3511
       published: 2026-08-22-18-12-26
+      updated: 2026-08-22-19-14-08
       followers: 1445
+      likes: 5
+      views: 72
     - service: tg
       id: 1297
       published: 2026-08-22-18-12-34
