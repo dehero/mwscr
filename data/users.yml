@@ -505,7 +505,7 @@ antiorum:
   profiles:
     - service: vk
       id: '3571955'
-      updated: 2026-08-14-23-11-57
+      updated: 2026-08-22-00-30-36
       username: antiorum
       name: Андрей Барсуков
       avatar: store:/avatars/vk-36f45919.jpg
@@ -1434,7 +1434,7 @@ dehero:
     - type: channel
       service: vk
       id: '138249959'
-      updated: 2026-08-21-21-14-27
+      updated: 2026-08-22-00-31-08
       username: mwscr
       name: Morrowind Screenshots
       avatar: store:/avatars/vk-8e97fd4f.jpg
@@ -2136,7 +2136,7 @@ fukkatsumy-kamikoto:
   profiles:
     - service: vk
       id: '172283748'
-      updated: 2026-08-21-23-13-10
+      updated: 2026-08-22-00-30-32
       username: fukkatsumy_kamikoto
       name: Фуккацуми Камикото
       avatar: store:/avatars/vk-d88f6ba3.jpg
@@ -2787,7 +2787,7 @@ ivan-uralov:
   profiles:
     - service: vk
       id: '16497155'
-      updated: 2026-08-21-23-12-20
+      updated: 2026-08-22-00-30-27
       username: id16497155
       name: Иван Уралов
       avatar: store:/avatars/vk-51775759.jpg
@@ -3254,7 +3254,7 @@ kydinov91:
   profiles:
     - service: vk
       id: '36104583'
-      updated: 2026-08-15-03-30-23
+      updated: 2026-08-22-00-30-56
       username: kydinov91
       name: Илья Кудинов
       avatar: store:/avatars/vk-03d8a48a.jpg
@@ -3459,7 +3459,7 @@ m-a-dadychenko:
   profiles:
     - service: vk
       id: '7106429'
-      updated: 2026-08-18-22-10-20
+      updated: 2026-08-22-00-30-55
       username: m_a_dadychenko
       name: Марина Дадыченко
       avatar: store:/avatars/vk-45fb0778.jpg
@@ -6195,7 +6195,7 @@ user-32:
   profiles:
     - service: vk
       id: '314007101'
-      updated: 2026-08-21-22-12-45
+      updated: 2026-08-22-00-30-54
       username: id314007101
       avatar: store:/avatars/vk-7f160215.jpg
       deleted: true
@@ -6509,7 +6509,7 @@ vladms:
   profiles:
     - service: vk
       id: '144316708'
-      updated: 2026-08-14-23-11-58
+      updated: 2026-08-22-00-30-37
       username: vladms
       name: Владислав Масленников
       avatar: store:/avatars/vk-6d6a6086.jpg
