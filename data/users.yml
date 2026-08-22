@@ -2787,7 +2787,7 @@ ivan-uralov:
   profiles:
     - service: vk
       id: '16497155'
-      updated: 2026-08-22-19-14-17
+      updated: 2026-08-22-20-09-46
       username: id16497155
       name: Иван Уралов
       avatar: store:/avatars/vk-51775759.jpg
@@ -4798,6 +4798,15 @@ reanimatrix:
       updated: 2026-08-21-03-42-05
       accessHash: '2760022429796079203'
       name: reanimatrix
+reborninblackandgold:
+  profiles:
+    - service: tg
+      id: '181435009'
+      updated: 2026-08-22-20-09-44
+      accessHash: '-4212516645013528698'
+      username: reborninblackandgold
+      name: Reborn in black & gold
+      avatar: store:/avatars/tg-779257430460704744.jpg
 redmisstletoe:
   profiles:
     - service: ig
@@ -5129,7 +5138,7 @@ sergey-b-2:
   profiles:
     - service: vk
       id: '1077446394'
-      updated: 2026-08-22-11-11-08
+      updated: 2026-08-22-20-09-49
       username: id1077446394
       name: Сергей Б
       avatar: store:/avatars/vk-f5b20109.jpg
@@ -5145,7 +5154,7 @@ sergey-venkov:
   profiles:
     - service: vk
       id: '217443112'
-      updated: 2026-08-21-19-18-24
+      updated: 2026-08-22-20-09-49
       username: id217443112
       name: Сергей Венков
       avatar: store:/avatars/vk-a77d1a73.jpg
