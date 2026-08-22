@@ -6685,22 +6685,23 @@
     - service: vk
       id: 3511
       published: 2026-08-22-18-12-26
-      updated: 2026-08-22-22-09-28
+      updated: 2026-08-22-23-09-59
       followers: 1445
-      likes: 22
-      views: 166
+      likes: 23
+      views: 176
       reposts: 1
     - service: tg
       id: 1297
       published: 2026-08-22-18-12-34
-      updated: 2026-08-22-21-10-44
+      updated: 2026-08-22-23-10-07
       followers: 936
-      likes: 25
-      views: 89
+      likes: 32
+      views: 111
       comments: !c |-
-        G9oA4ByJsa2Gs+bw0kL0vNwi/PNUAwmjgIs0seTe2rK2mZq5KxbLC7ZsMTR9PDjG/lbyoH93W4wp
-        B+8uCCqStk+eUw5EcmqJxp54WwInu8fYGkQ5clTX/fajvT+dy7NvpQ9rRjBbzfmKv3x2oENzc5FA
-        iXwV/qGSFv7QjYTEFgTq0yVufkxyhHXCS1kgOyPsCU9B0R6TSiGOoqIA
+        G/MAAJwJdgzFbAS6Fo94/PNy40nfPNUsCiJJKM8CTM5d2+dveZOS3G2K0qRgM6Hxc9vN/CkZfO9u
+        izHFFty7IKjEorbPiUZYk7nZkdLJiZ7hbLcvsDj2RJMEIsttDI/jiUaNoNHgPN9c0n3+NVzHligx
+        /31fIs4v+t7XdlU0Opnn8PI3PDPQonmDCUEA80Xzq8h0ASxakSFjHQK12cRqHJMZwjLhUk6Qm8PN
+        CSchb4xGKRFDvsIA
     - service: mx
       id: '1787422360862'
       published: 2026-08-22-18-12-40

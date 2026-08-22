@@ -2787,7 +2787,7 @@ ivan-uralov:
   profiles:
     - service: vk
       id: '16497155'
-      updated: 2026-08-22-22-09-36
+      updated: 2026-08-22-23-10-08
       username: id16497155
       name: Иван Уралов
       avatar: store:/avatars/vk-51775759.jpg
@@ -4802,7 +4802,7 @@ reborninblackandgold:
   profiles:
     - service: tg
       id: '181435009'
-      updated: 2026-08-22-21-10-44
+      updated: 2026-08-22-23-10-07
       accessHash: '-4212516645013528698'
       username: reborninblackandgold
       name: Reborn in black & gold
@@ -6506,6 +6506,15 @@ vladislav-lomin:
       username: id504964620
       name: Владислав Ломин
       avatar: store:/avatars/vk-1b7571ff.jpg
+vladivivi:
+  profiles:
+    - service: tg
+      id: '711641679'
+      updated: 2026-08-22-23-10-06
+      accessHash: '747929475302762435'
+      username: vladivivi
+      name: Vladi
+      avatar: store:/avatars/tg-3056477738235529986.jpg
 vladkr114:
   profiles:
     - service: vk
