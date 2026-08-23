@@ -6685,18 +6685,21 @@
     - service: vk
       id: 3511
       published: 2026-08-22-18-12-26
-      updated: 2026-08-23-00-33-24
+      updated: 2026-08-23-02-16-50
       followers: 1445
-      likes: 23
-      views: 184
+      likes: 25
+      views: 194
       reposts: 1
+      comments: !c |-
+        CyqAkZPLQnoCwgoPgACqc2VyZ2V5LWItMtk90JHQvtC70YzRiNC1INC/0YDQuNCy0YvQuiDQuiDR
+        jdGC0L7QuSAi0LzRg9GC0L3QvtC5IiDQstC+0LTQtQM=
     - service: tg
       id: 1297
       published: 2026-08-22-18-12-34
-      updated: 2026-08-23-00-33-32
+      updated: 2026-08-23-02-16-50
       followers: 936
       likes: 34
-      views: 115
+      views: 117
       comments: !c |-
         G/MAAJwJdgzFbAS6Fo94/PNy40nfPNUsCiJJKM8CTM5d2+dveZOS3G2K0qRgM6Hxc9vN/CkZfO9u
         izHFFty7IKjEorbPiUZYk7nZkdLJiZ7hbLcvsDj2RJMEIsttDI/jiUaNoNHgPN9c0n3+NVzHligx
