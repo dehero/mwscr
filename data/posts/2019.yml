@@ -1547,10 +1547,10 @@
     - service: vk
       id: 3495
       published: 2026-08-16-18-11-51
-      updated: 2026-08-22-20-09-49
+      updated: 2026-08-23-21-10-36
       followers: 1443
       likes: 72
-      views: 1280
+      views: 1285
       reposts: 4
       comments: !c |-
         G8YBAJwHdsO0DRFfNDiuEv9Pf7ElfHn7XSIrsWYiSs412xZSsQbP0Egm78bg5WXwC9XBmxtCFzCC
@@ -1561,10 +1561,10 @@
     - service: tg
       id: 1291
       published: 2026-08-16-18-12-01
-      updated: 2026-08-22-20-09-47
+      updated: 2026-08-23-21-10-33
       followers: 925
-      likes: 55
-      views: 386
+      likes: 56
+      views: 414
     - service: mx
       id: '1786903929323'
       published: 2026-08-16-18-12-09

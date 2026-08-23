@@ -6685,10 +6685,10 @@
     - service: vk
       id: 3511
       published: 2026-08-22-18-12-26
-      updated: 2026-08-23-20-09-21
+      updated: 2026-08-23-21-10-32
       followers: 1445
       likes: 43
-      views: 413
+      views: 421
       reposts: 2
       comments: !c |-
         CyqAkZPLQnoCwgoPgACqc2VyZ2V5LWItMtk90JHQvtC70YzRiNC1INC/0YDQuNCy0YvQuiDQuiDR
@@ -6696,10 +6696,10 @@
     - service: tg
       id: 1297
       published: 2026-08-22-18-12-34
-      updated: 2026-08-23-20-09-20
+      updated: 2026-08-23-21-10-30
       followers: 936
       likes: 53
-      views: 184
+      views: 186
       comments: !c |-
         GzkBYByH6UbjeV7Y2UgRFDVdJkr9+MSK0mlFGSIktTkGoeoedIflLTWThVaEYjOhvee2G/5Y7thf
         8RfcXRBUYlFbnOgTZm1BT0805ZZSWpSGUZCHmknQbtcb1m65MbWDHD4WvZO5fX+FtQizaq3ldZot
@@ -15039,19 +15039,19 @@
     - service: vk
       id: 3504
       published: 2026-08-18-18-20-27
-      updated: 2026-08-22-20-09-48
+      updated: 2026-08-23-21-10-34
       followers: 1446
       likes: 13
-      views: 319
+      views: 327
       reposts: 2
       comments: !c CxiAkZPLQnoBjYXWAACqc2VyZ2V5LWItMrrQp9GR0YLQutC40Lkg0LrQsNC00YAg8J+RjQM=
     - service: tg
       id: 1293
       published: 2026-08-18-18-20-37
-      updated: 2026-08-22-20-09-45
+      updated: 2026-08-23-21-10-31
       followers: 929
-      likes: 59
-      views: 973
+      likes: 60
+      views: 1035
     - service: mx
       id: '1787077244792'
       published: 2026-08-18-18-20-44
@@ -16387,18 +16387,22 @@
     - service: vk
       id: 3513
       published: 2026-08-23-18-12-36
-      updated: 2026-08-23-20-09-10
+      updated: 2026-08-23-21-10-28
       followers: 1445
-      likes: 12
-      views: 113
+      likes: 16
+      views: 145
       reposts: 2
+      comments: !c |-
+        G8wA6C0O7IbPGw2Nt834BSNUOhF1+5ksoQP5HIpKrEks0mQPg5pbScUSQPaKME6okzU5yMmfILBp
+        iZIRy5ayM9iAAx5Qx4UH5AGjg6GdprK8APfz+bXYyhjv0X6n/GfBMWC111QQmlWydKpuvCtvC7uq
+        B10dVTAL0moWxeJjetkwRJlhDg+SQOxIY0uXokkoBBzeGjYb
     - service: tg
       id: 1298
       published: 2026-08-23-18-12-44
-      updated: 2026-08-23-20-09-19
+      updated: 2026-08-23-21-10-29
       followers: 937
-      likes: 23
-      views: 86
+      likes: 27
+      views: 97
       comments: !c |-
         G88AwIzURjcGl2S5u/2D/F4yz7OAImoLsDgLanvCtkACSSRrbqb4oayG83/gwfiH/TbQFk1iqoak
         Tg40wID4RYEGlmc5taiF6Q2/PQciSvbNs9XPXwy3M+ZqMC4uvlI6VgAn019vNQVnFo2E1fxTU7Io
