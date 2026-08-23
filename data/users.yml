@@ -1565,6 +1565,15 @@ dimamotodp:
       username: Dimamotodp
       name: Dmitry
       avatar: store:/avatars/tg-2330272371332720558.jpg
+dinosaurs-bat:
+  profiles:
+    - service: tg
+      id: '8717777839'
+      updated: 2026-08-23-18-12-08
+      accessHash: '-5750694971944648780'
+      username: dinosaurs_bat
+      name: ^^Bat🦇
+      avatar: store:/avatars/tg-5213052934353004994.jpg
 dish-man:
   profiles:
     - service: vk
@@ -2787,7 +2796,7 @@ ivan-uralov:
   profiles:
     - service: vk
       id: '16497155'
-      updated: 2026-08-23-17-11-44
+      updated: 2026-08-23-18-12-07
       username: id16497155
       name: Иван Уралов
       avatar: store:/avatars/vk-51775759.jpg
@@ -4802,7 +4811,7 @@ reborninblackandgold:
   profiles:
     - service: tg
       id: '181435009'
-      updated: 2026-08-23-16-11-10
+      updated: 2026-08-23-18-12-07
       accessHash: '-4212516645013528698'
       username: reborninblackandgold
       name: Reborn in black & gold
@@ -5138,7 +5147,7 @@ sergey-b-2:
   profiles:
     - service: vk
       id: '1077446394'
-      updated: 2026-08-23-17-11-42
+      updated: 2026-08-23-18-12-05
       username: id1077446394
       name: Сергей Б
       avatar: store:/avatars/vk-f5b20109.jpg
@@ -6510,7 +6519,7 @@ vladivivi:
   profiles:
     - service: tg
       id: '711641679'
-      updated: 2026-08-23-16-11-09
+      updated: 2026-08-23-18-12-07
       accessHash: '747929475302762435'
       username: vladivivi
       name: Vladi
