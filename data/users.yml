@@ -487,7 +487,7 @@ ansis:
   profiles:
     - service: tg
       id: '517050552'
-      updated: 2026-08-23-17-11-45
+      updated: 2026-08-23-19-13-48
       accessHash: '5231096655311395455'
       username: ansis
       name: ansis
@@ -973,7 +973,7 @@ caius-cosades:
   profiles:
     - service: tg
       id: '6483220506'
-      updated: 2026-08-21-18-21-07
+      updated: 2026-08-23-19-13-48
       accessHash: '-5537197680289822260'
       username: Gatemate7
       botChatId: 6483220506
@@ -1569,7 +1569,7 @@ dinosaurs-bat:
   profiles:
     - service: tg
       id: '8717777839'
-      updated: 2026-08-23-18-12-08
+      updated: 2026-08-23-19-13-50
       accessHash: '-5750694971944648780'
       username: dinosaurs_bat
       name: ^^Bat🦇
@@ -2796,7 +2796,7 @@ ivan-uralov:
   profiles:
     - service: vk
       id: '16497155'
-      updated: 2026-08-23-18-12-07
+      updated: 2026-08-23-19-13-51
       username: id16497155
       name: Иван Уралов
       avatar: store:/avatars/vk-51775759.jpg
@@ -4811,7 +4811,7 @@ reborninblackandgold:
   profiles:
     - service: tg
       id: '181435009'
-      updated: 2026-08-23-18-12-07
+      updated: 2026-08-23-19-13-50
       accessHash: '-4212516645013528698'
       username: reborninblackandgold
       name: Reborn in black & gold
@@ -5147,7 +5147,7 @@ sergey-b-2:
   profiles:
     - service: vk
       id: '1077446394'
-      updated: 2026-08-23-18-12-05
+      updated: 2026-08-23-19-13-47
       username: id1077446394
       name: Сергей Б
       avatar: store:/avatars/vk-f5b20109.jpg
@@ -6519,7 +6519,7 @@ vladivivi:
   profiles:
     - service: tg
       id: '711641679'
-      updated: 2026-08-23-18-12-07
+      updated: 2026-08-23-19-13-49
       accessHash: '747929475302762435'
       username: vladivivi
       name: Vladi
