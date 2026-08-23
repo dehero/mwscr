@@ -2787,7 +2787,7 @@ ivan-uralov:
   profiles:
     - service: vk
       id: '16497155'
-      updated: 2026-08-23-03-40-19
+      updated: 2026-08-23-04-25-52
       username: id16497155
       name: Иван Уралов
       avatar: store:/avatars/vk-51775759.jpg
@@ -4802,7 +4802,7 @@ reborninblackandgold:
   profiles:
     - service: tg
       id: '181435009'
-      updated: 2026-08-23-03-40-17
+      updated: 2026-08-23-04-25-50
       accessHash: '-4212516645013528698'
       username: reborninblackandgold
       name: Reborn in black & gold
@@ -5138,7 +5138,7 @@ sergey-b-2:
   profiles:
     - service: vk
       id: '1077446394'
-      updated: 2026-08-23-03-40-16
+      updated: 2026-08-23-04-25-51
       username: id1077446394
       name: Сергей Б
       avatar: store:/avatars/vk-f5b20109.jpg
@@ -6510,7 +6510,7 @@ vladivivi:
   profiles:
     - service: tg
       id: '711641679'
-      updated: 2026-08-23-03-40-16
+      updated: 2026-08-23-04-25-50
       accessHash: '747929475302762435'
       username: vladivivi
       name: Vladi
