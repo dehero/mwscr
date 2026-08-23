@@ -6685,10 +6685,10 @@
     - service: vk
       id: 3511
       published: 2026-08-22-18-12-26
-      updated: 2026-08-23-21-10-32
+      updated: 2026-08-23-22-09-40
       followers: 1445
-      likes: 43
-      views: 421
+      likes: 44
+      views: 425
       reposts: 2
       comments: !c |-
         CyqAkZPLQnoCwgoPgACqc2VyZ2V5LWItMtk90JHQvtC70YzRiNC1INC/0YDQuNCy0YvQuiDQuiDR
@@ -6696,10 +6696,10 @@
     - service: tg
       id: 1297
       published: 2026-08-22-18-12-34
-      updated: 2026-08-23-21-10-30
+      updated: 2026-08-23-22-09-39
       followers: 936
-      likes: 53
-      views: 186
+      likes: 54
+      views: 188
       comments: !c |-
         GzkBYByH6UbjeV7Y2UgRFDVdJkr9+MSK0mlFGSIktTkGoeoedIflLTWThVaEYjOhvee2G/5Y7thf
         8RfcXRBUYlFbnOgTZm1BT0805ZZSWpSGUZCHmknQbtcb1m65MbWDHD4WvZO5fX+FtQizaq3ldZot
@@ -16387,10 +16387,10 @@
     - service: vk
       id: 3513
       published: 2026-08-23-18-12-36
-      updated: 2026-08-23-21-10-28
+      updated: 2026-08-23-22-09-38
       followers: 1445
-      likes: 16
-      views: 145
+      likes: 18
+      views: 159
       reposts: 2
       comments: !c |-
         G8wA6C0O7IbPGw2Nt834BSNUOhF1+5ksoQP5HIpKrEks0mQPg5pbScUSQPaKME6okzU5yMmfILBp
@@ -16399,15 +16399,16 @@
     - service: tg
       id: 1298
       published: 2026-08-23-18-12-44
-      updated: 2026-08-23-21-10-29
+      updated: 2026-08-23-22-09-37
       followers: 937
-      likes: 27
-      views: 97
+      likes: 28
+      views: 101
       comments: !c |-
-        G88AwIzURjcGl2S5u/2D/F4yz7OAImoLsDgLanvCtkACSSRrbqb4oayG83/gwfiH/TbQFk1iqoak
-        Tg40wID4RYEGlmc5taiF6Q2/PQciSvbNs9XPXwy3M+ZqMC4uvlI6VgAn019vNQVnFo2E1fxTU7Io
-        qpIgT1iCEiGvC5xAJbRWT4npjwgTuEmfLlquEV4lp12pAjPqqDxr3DDgybxDNZDc24weidmz7BjP
-        6Zcc
+        G2ABoIzUXrU5sBXy6U/NoNhYmvPg1ngsIJtD4Q6wpbWxxvl8/7wgFak5J03JCFMrbk3YwkoCvbaw
+        OfnqeafeznIH+hgGHADe/5pXGFBRW9lLrO2pJZRzk3+w7gqKInWXfWg3H/7Dcp5ZoW5FnjmaL9wo
+        6EeGI3g1pbbw5v9pmT2RKk7YltNCrhv7JdyhAEABpKg4Giwb1XvBNYwbqeJAajpuDj59hwO2+3GU
+        9hqHZYP6yvCHBhakjlHP/Ee/6zSBT5aahBrf+Jj56YpvA38LEyINSJcRkm5Ba3bLpPOZqYJQ6TPE
+        XbZlmPD+tVeBqtextC2GG9WNgs5PYD3Ef9/T1COJ2Vl2jC862gI=
     - service: mx
       id: '1787508771858'
       published: 2026-08-23-18-12-51
