@@ -212,8 +212,13 @@ export class MAXManager extends MAXService implements PostingServiceManager {
   }
 
   async grabFollowerCount() {
-    // TODO: unable to implement for now
-    return 23;
+    const { greenApi } = await this.connect();
+
+    // @ts-expect-error No proper typing
+    const result = await greenApi.getGroupData({ chatId: MAX_CHAT_ID.toString() });
+
+    // @ts-expect-error No proper typing
+    return result.size;
   }
 
   async grabPosts(_afterPublication?: Publication) {
