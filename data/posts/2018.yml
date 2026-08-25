@@ -3968,17 +3968,17 @@
     - service: vk
       id: 3519
       published: 2026-08-25-18-21-30
-      updated: 2026-08-25-20-15-02
+      updated: 2026-08-25-21-15-56
       followers: 1444
-      likes: 4
-      views: 64
+      likes: 5
+      views: 88
     - service: tg
       id: 1300
       published: 2026-08-25-18-21-37
-      updated: 2026-08-25-20-15-08
+      updated: 2026-08-25-21-16-05
       followers: 938
-      likes: 24
-      views: 94
+      likes: 30
+      views: 110
       comments: !c iwyAkZPLQnoDosf/AACpdmxhZGl2aXZppPCfkrgD
     - service: mx
       id: '1787682102752'
