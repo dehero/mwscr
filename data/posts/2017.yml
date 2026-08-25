@@ -13408,21 +13408,21 @@
     - service: vk
       id: 3517
       published: 2026-08-24-18-22-22
-      updated: 2026-08-25-00-31-11
+      updated: 2026-08-25-02-10-48
       followers: 1445
-      likes: 9
-      views: 138
-      reposts: 1
+      likes: 10
+      views: 144
+      reposts: 2
       comments: !c |-
         CyiAkZPLQnoDU7aKgACrYm9yaW5naHllbmHZONCeLCDQnNC+0YDRgNC+0LLQuNC90LTRgdC60LjQ
         uSDQm9GO0Log0KHQutCw0LnRg9C+0LrQtdGAAw==
     - service: tg
       id: 1299
       published: 2026-08-24-18-22-28
-      updated: 2026-08-25-00-31-14
+      updated: 2026-08-25-02-10-49
       followers: 938
       likes: 29
-      views: 112
+      views: 115
       comments: !c CxqAkpPLQnoDUnjqAACtY2FpdXMtY29zYWRlc6JtZZPLQnoDUku/gACpdmxhZGl2aXZppPCfmIwD
     - service: mx
       id: '1787595753173'
@@ -16410,9 +16410,9 @@
     - service: vk
       id: 3513
       published: 2026-08-23-18-12-36
-      updated: 2026-08-25-00-31-13
+      updated: 2026-08-25-02-10-50
       followers: 1445
-      likes: 47
+      likes: 46
       views: 396
       reposts: 3
       comments: !c |-
@@ -16423,10 +16423,10 @@
     - service: tg
       id: 1298
       published: 2026-08-23-18-12-44
-      updated: 2026-08-25-00-31-15
+      updated: 2026-08-25-02-10-51
       followers: 937
       likes: 49
-      views: 196
+      views: 197
       comments: !c |-
         G2ABoIzUXrU5sBXy6U/NoNhYmvPg1ngsIJtD4Q6wpbWxxvl8/7wgFak5J03JCFMrbk3YwkoCvbaw
         OfnqeafeznIH+hgGHADe/5pXGFBRW9lLrO2pJZRzk3+w7gqKInWXfWg3H/7Dcp5ZoW5FnjmaL9wo
