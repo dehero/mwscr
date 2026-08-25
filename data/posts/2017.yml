@@ -6685,10 +6685,10 @@
     - service: vk
       id: 3511
       published: 2026-08-22-18-12-26
-      updated: 2026-08-24-17-21-21
+      updated: 2026-08-25-17-21-46
       followers: 1445
-      likes: 51
-      views: 473
+      likes: 54
+      views: 513
       reposts: 2
       comments: !c |-
         CyqAkZPLQnoCwgoPgACqc2VyZ2V5LWItMtk90JHQvtC70YzRiNC1INC/0YDQuNCy0YvQuiDQuiDR
@@ -6696,10 +6696,10 @@
     - service: tg
       id: 1297
       published: 2026-08-22-18-12-34
-      updated: 2026-08-24-17-21-17
+      updated: 2026-08-25-17-21-45
       followers: 936
-      likes: 59
-      views: 210
+      likes: 64
+      views: 240
       comments: !c |-
         GzkBYByH6UbjeV7Y2UgRFDVdJkr9+MSK0mlFGSIktTkGoeoedIflLTWThVaEYjOhvee2G/5Y7thf
         8RfcXRBUYlFbnOgTZm1BT0805ZZSWpSGUZCHmknQbtcb1m65MbWDHD4WvZO5fX+FtQizaq3ldZot
@@ -13408,10 +13408,10 @@
     - service: vk
       id: 3517
       published: 2026-08-24-18-22-22
-      updated: 2026-08-25-16-23-16
+      updated: 2026-08-25-17-21-41
       followers: 1445
       likes: 23
-      views: 287
+      views: 291
       reposts: 2
       comments: !c |-
         CyiAkZPLQnoDU7aKgACrYm9yaW5naHllbmHZONCeLCDQnNC+0YDRgNC+0LLQuNC90LTRgdC60LjQ
@@ -13419,10 +13419,10 @@
     - service: tg
       id: 1299
       published: 2026-08-24-18-22-28
-      updated: 2026-08-25-16-23-15
+      updated: 2026-08-25-17-21-41
       followers: 938
-      likes: 38
-      views: 147
+      likes: 39
+      views: 150
       comments: !c |-
         G7MAwIzURvVWFkNpp059lODGaCxgY2z6C8fG7JzaK3iBKrZy4FddJyfaYsywlgRYkSWxXsM8h89P
         ksNyrQiRd1296FzxnQA4GFKcIcLuszzAGiMTZc67wGlRgAhOwIlS8KayWD98O5bl8FttvTdJXxOu
@@ -16413,10 +16413,10 @@
     - service: vk
       id: 3513
       published: 2026-08-23-18-12-36
-      updated: 2026-08-25-16-23-18
+      updated: 2026-08-25-17-21-44
       followers: 1445
       likes: 49
-      views: 429
+      views: 432
       reposts: 3
       comments: !c |-
         GzgB4J0Jtq2E7XIw/CO2oIl/nj/Z5wk9kD/18WxAcYkVYXKuk81SitESphNFdzjU3BopU7IhGwN/
@@ -16426,7 +16426,7 @@
     - service: tg
       id: 1298
       published: 2026-08-23-18-12-44
-      updated: 2026-08-25-16-23-17
+      updated: 2026-08-25-17-21-43
       followers: 937
       likes: 52
       views: 214
