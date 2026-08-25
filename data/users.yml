@@ -487,7 +487,7 @@ ansis:
   profiles:
     - service: tg
       id: '517050552'
-      updated: 2026-08-24-23-12-53
+      updated: 2026-08-25-00-31-15
       accessHash: '5231096655311395455'
       username: ansis
       name: ansis
@@ -610,7 +610,7 @@ arya-stark:
   profiles:
     - service: vk
       id: '820702664'
-      updated: 2026-08-22-11-11-08
+      updated: 2026-08-25-00-31-15
       username: id820702664
       name: Арья Старк
       avatar: store:/avatars/vk-689aa89d.jpg
@@ -902,7 +902,7 @@ boringhyena:
   profiles:
     - service: vk
       id: '253856686'
-      updated: 2026-08-24-23-12-52
+      updated: 2026-08-25-00-31-11
       username: boringhyena
       name: Гордей Алешин
       avatar: store:/avatars/vk-35b27bde.jpg
@@ -981,7 +981,7 @@ caius-cosades:
   profiles:
     - service: tg
       id: '6483220506'
-      updated: 2026-08-24-23-12-53
+      updated: 2026-08-25-00-31-14
       accessHash: '-5537197680289822260'
       username: Gatemate7
       botChatId: 6483220506
@@ -1577,7 +1577,7 @@ dinosaurs-bat:
   profiles:
     - service: tg
       id: '8717777839'
-      updated: 2026-08-24-23-12-54
+      updated: 2026-08-25-00-31-15
       accessHash: '-5750694971944648780'
       username: dinosaurs_bat
       name: ^^Bat🦇
@@ -2812,7 +2812,7 @@ ivan-uralov:
   profiles:
     - service: vk
       id: '16497155'
-      updated: 2026-08-24-23-12-56
+      updated: 2026-08-25-00-31-13
       username: id16497155
       name: Иван Уралов
       avatar: store:/avatars/vk-51775759.jpg
@@ -3565,7 +3565,7 @@ maksim-solovev:
   profiles:
     - service: vk
       id: '658767771'
-      updated: 2026-08-24-03-43-09
+      updated: 2026-08-25-00-31-15
       username: id658767771
       name: Максим Соловьев
       avatar: store:/avatars/vk-bee5815b.jpg
@@ -4612,7 +4612,7 @@ pohotlivaya-argonianskaya-deva:
   profiles:
     - service: tg
       id: '754205623'
-      updated: 2026-08-24-23-12-53
+      updated: 2026-08-25-00-31-14
       accessHash: '-9198477663948575721'
       username: PohotlivayaArgonianskayaDeva
       name: Илья
@@ -5163,7 +5163,7 @@ sergey-b-2:
   profiles:
     - service: vk
       id: '1077446394'
-      updated: 2026-08-24-23-12-58
+      updated: 2026-08-25-00-31-13
       username: id1077446394
       name: Сергей Б
       avatar: store:/avatars/vk-f5b20109.jpg
@@ -6535,7 +6535,7 @@ vladivivi:
   profiles:
     - service: tg
       id: '711641679'
-      updated: 2026-08-24-23-12-53
+      updated: 2026-08-25-00-31-14
       accessHash: '747929475302762435'
       username: vladivivi
       name: Vladi
@@ -6818,7 +6818,7 @@ yellow-submarine:
   profiles:
     - service: vk
       id: '21865013'
-      updated: 2026-08-21-09-25-54
+      updated: 2026-08-25-00-31-15
       username: yellowsubm
       name: Yellow Submarine
       avatar: store:/avatars/vk-8254b201.jpg
