@@ -487,7 +487,7 @@ ansis:
   profiles:
     - service: tg
       id: '517050552'
-      updated: 2026-08-26-18-47-20
+      updated: 2026-08-26-21-23-50
       accessHash: '5231096655311395455'
       username: ansis
       name: ansis
@@ -2297,7 +2297,7 @@ gleb-zheltuhin:
   profiles:
     - service: vk
       id: '29014473'
-      updated: 2026-08-24-00-32-03
+      updated: 2026-08-26-21-23-55
       username: gleb_zheltuhin
       name: Глеб Желтухин
       avatar: store:/avatars/vk-971eefc1.jpg
@@ -2811,7 +2811,7 @@ ivan-uralov:
   profiles:
     - service: vk
       id: '16497155'
-      updated: 2026-08-26-18-47-19
+      updated: 2026-08-26-21-23-55
       username: id16497155
       name: Иван Уралов
       avatar: store:/avatars/vk-51775759.jpg
@@ -3670,7 +3670,7 @@ mbdtsmo:
   profiles:
     - service: tg
       id: '5093097514'
-      updated: 2026-08-23-21-10-35
+      updated: 2026-08-26-21-23-52
       accessHash: '-613358669572386334'
       username: mbdtsmo
       name: M Bdtsmo
@@ -6534,7 +6534,7 @@ vladivivi:
   profiles:
     - service: tg
       id: '711641679'
-      updated: 2026-08-26-18-47-18
+      updated: 2026-08-26-21-23-50
       accessHash: '747929475302762435'
       username: vladivivi
       name: Vladi
@@ -6817,7 +6817,7 @@ yellow-submarine:
   profiles:
     - service: vk
       id: '21865013'
-      updated: 2026-08-25-00-31-15
+      updated: 2026-08-26-21-23-55
       username: yellowsubm
       name: Yellow Submarine
       avatar: store:/avatars/vk-8254b201.jpg
