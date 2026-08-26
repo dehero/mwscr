@@ -3968,19 +3968,21 @@
     - service: vk
       id: 3519
       published: 2026-08-25-18-21-30
-      updated: 2026-08-26-16-08-05
+      updated: 2026-08-26-18-47-09
       followers: 1444
-      likes: 26
-      views: 401
+      likes: 27
+      views: 439
       reposts: 2
     - service: tg
       id: 1300
       published: 2026-08-25-18-21-37
-      updated: 2026-08-26-16-08-13
+      updated: 2026-08-26-18-47-16
       followers: 938
-      likes: 50
-      views: 169
-      comments: !c iwyAkZPLQnoDosf/AACpdmxhZGl2aXZppPCfkrgD
+      likes: 52
+      views: 174
+      comments: !c |-
+        Cx+AkpPLQnoD8VLuAAClYW5zaXO0TGlmZSBhcyBpdCBzaG91bGQgYmWTy0J6A6LH/wAAqXZsYWRp
+        dml2aaTwn5K4Aw==
     - service: mx
       id: '1787682102752'
       published: 2026-08-25-18-21-43
