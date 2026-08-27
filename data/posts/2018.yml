@@ -2255,10 +2255,10 @@
     - service: tg
       id: 1267
       published: 2026-07-22-19-18-49
-      updated: 2026-08-19-23-12-17
+      updated: 2026-08-27-02-20-15
       followers: 916
       likes: 62
-      views: 451
+      views: 467
     - service: mx
       id: '1784747938761'
       published: 2026-07-22-19-18-58
@@ -3968,18 +3968,18 @@
     - service: vk
       id: 3519
       published: 2026-08-25-18-21-30
-      updated: 2026-08-26-21-23-43
+      updated: 2026-08-27-02-20-06
       followers: 1444
       likes: 27
-      views: 470
+      views: 476
       reposts: 2
     - service: tg
       id: 1300
       published: 2026-08-25-18-21-37
-      updated: 2026-08-26-21-23-50
+      updated: 2026-08-27-02-20-13
       followers: 938
       likes: 56
-      views: 199
+      views: 207
       comments: !c |-
         Cx+AkpPLQnoD8VLuAAClYW5zaXO0TGlmZSBhcyBpdCBzaG91bGQgYmWTy0J6A6LH/wAAqXZsYWRp
         dml2aaTwn5K4Aw==

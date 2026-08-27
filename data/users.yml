@@ -487,7 +487,7 @@ ansis:
   profiles:
     - service: tg
       id: '517050552'
-      updated: 2026-08-26-21-23-50
+      updated: 2026-08-27-02-20-13
       accessHash: '5231096655311395455'
       username: ansis
       name: ansis
@@ -1696,7 +1696,7 @@ dremarretres:
   profiles:
     - service: vk
       id: '801308664'
-      updated: 2026-08-21-10-19-11
+      updated: 2026-08-27-02-20-17
       username: dremarretres
       name: Джон Шепард
       avatar: store:/avatars/vk-ac4f0700.jpg
@@ -6534,7 +6534,7 @@ vladivivi:
   profiles:
     - service: tg
       id: '711641679'
-      updated: 2026-08-26-21-23-50
+      updated: 2026-08-27-02-20-13
       accessHash: '747929475302762435'
       username: vladivivi
       name: Vladi
