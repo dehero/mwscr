@@ -309,10 +309,10 @@
     - service: vk
       id: 3520
       published: 2026-08-26-18-47-57
-      updated: 2026-08-27-13-13-22
+      updated: 2026-08-27-23-17-59
       followers: 1443
-      likes: 26
-      views: 239
+      likes: 39
+      views: 333
       reposts: 3
       comments: !c |-
         G5cA4I2UbsJ8hEqHf+rSa8I3C5IKGKBMwErpdLeW0gUTjVB9H2MU3RhaSjBawhgY7oQNOAFvtY02
@@ -321,10 +321,10 @@
     - service: tg
       id: 1301
       published: 2026-08-26-18-48-05
-      updated: 2026-08-27-13-13-12
+      updated: 2026-08-27-23-17-50
       followers: 938
-      likes: 43
-      views: 147
+      likes: 47
+      views: 158
     - service: mx
       id: '1787770092308'
       published: 2026-08-26-18-48-12
@@ -895,10 +895,10 @@
     - service: vk
       id: 3414
       published: 2026-07-01-02-54-02
-      updated: 2026-08-20-16-20-00
+      updated: 2026-08-27-23-18-12
       followers: 1431
       likes: 49
-      views: 757
+      views: 765
       reposts: 2
     - service: ig
       id: Dak_IDpkr7c
