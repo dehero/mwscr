@@ -30,7 +30,7 @@
     - service: vk
       id: 2987
       published: 2026-01-03-19-20-38
-      updated: 2026-08-21-07-34-54
+      updated: 2026-08-28-19-42-14
       followers: 1558
       likes: 61
       views: 1643
@@ -43,10 +43,10 @@
     - service: tg
       id: 1111
       published: 2026-01-03-19-20-44
-      updated: 2026-08-21-07-34-36
+      updated: 2026-08-28-19-41-48
       followers: 875
       likes: 68
-      views: 645
+      views: 646
 2026-01-04-1-demon-of-the-halls-of-penumbra:
   title: Demon of the Halls of Penumbra
   titleRu: Демон Залов полумрака
@@ -77,7 +77,7 @@
     - service: vk
       id: 2988
       published: 2026-01-04-19-20-38
-      updated: 2026-08-21-07-34-53
+      updated: 2026-08-28-19-42-14
       followers: 1558
       likes: 28
       views: 604
@@ -88,10 +88,10 @@
     - service: tg
       id: 1112
       published: 2026-01-04-19-20-44
-      updated: 2026-08-21-07-34-36
+      updated: 2026-08-28-19-41-48
       followers: 875
       likes: 48
-      views: 632
+      views: 633
 2026-01-05-1-cave-life:
   title: Cave Life
   titleRu: Пещерный быт
@@ -125,7 +125,7 @@
     - service: vk
       id: 2992
       published: 2026-01-05-18-21-03
-      updated: 2026-08-21-07-34-52
+      updated: 2026-08-28-19-42-13
       followers: 1559
       likes: 80
       views: 1659
@@ -136,10 +136,10 @@
     - service: tg
       id: 1115
       published: 2026-01-05-18-21-07
-      updated: 2026-08-21-07-34-36
+      updated: 2026-08-28-19-41-47
       followers: 875
       likes: 67
-      views: 807
+      views: 809
 2026-01-06-1-a-small-victory:
   title: A Small Victory
   titleRu: Небольшая победа
@@ -167,7 +167,7 @@
     - service: vk
       id: 2995
       published: 2026-01-06-18-47-08
-      updated: 2026-08-21-07-34-51
+      updated: 2026-08-28-19-42-11
       followers: 1561
       likes: 71
       views: 2669
@@ -175,10 +175,10 @@
     - service: tg
       id: 1116
       published: 2026-01-06-18-47-12
-      updated: 2026-08-21-07-34-35
+      updated: 2026-08-28-19-41-47
       followers: 876
       likes: 68
-      views: 684
+      views: 685
 2026-01-07-1-sky-path:
   title: Sky Path
   titleRu: Небесный путь
@@ -207,7 +207,7 @@
     - service: vk
       id: 2996
       published: 2026-01-07-18-17-54
-      updated: 2026-08-21-07-34-51
+      updated: 2026-08-28-19-42-10
       followers: 1561
       likes: 108
       views: 2233
@@ -215,10 +215,10 @@
     - service: tg
       id: 1117
       published: 2026-01-07-18-17-58
-      updated: 2026-08-21-08-24-09
+      updated: 2026-08-28-19-41-46
       followers: 876
       likes: 75
-      views: 1554
+      views: 1559
       comments: !c |-
         G5AAwIzEOEZyMYg/8uGveYTHpXeWpBG91kibblQk+T5ObDY5EsIDrdbWf8h5wMX6da90+RLlwMbY
         8EyDoNt0ODy1tk4qT1FXO45zs3J1RxTOj91KsDSa3n4iFiRTMgVhSBychpIFGgbBkCUOpDOxOfPU
@@ -245,7 +245,7 @@
     - service: vk
       id: 2997
       published: 2026-01-08-18-57-23
-      updated: 2026-08-21-07-34-50
+      updated: 2026-08-28-19-42-09
       followers: 1562
       likes: 64
       views: 888
@@ -260,10 +260,10 @@
     - service: tg
       id: 1118
       published: 2026-01-08-18-57-27
-      updated: 2026-08-21-07-34-31
+      updated: 2026-08-28-19-41-46
       followers: 880
       likes: 70
-      views: 704
+      views: 706
 2026-01-10-1-who-partook-in-the-cup-of-passage:
   title: Who Partook in the Cup of Passage?
   titleRu: Кто пил из Чаши Перехода?
@@ -296,7 +296,7 @@
     - service: vk
       id: 3006
       published: 2026-01-10-18-59-53
-      updated: 2026-08-21-07-34-49
+      updated: 2026-08-28-19-42-08
       followers: 1564
       likes: 60
       views: 1219
@@ -309,10 +309,10 @@
     - service: tg
       id: 1121
       published: 2026-01-10-18-59-57
-      updated: 2026-08-21-07-34-30
+      updated: 2026-08-28-19-41-45
       followers: 880
       likes: 64
-      views: 842
+      views: 846
       comments: !c |-
         G50A4OXq0nuyfergrXsm+KU0C0YbZWKlAQY0QO8GB+xVUoCD2j764Dj8zq6I2M6H819cfpc9tkOP
         vvKrdrWNDpIeeqdokyC/VVWnchC3Z2A8ZxQXbZdqgCjoQcmDxK9KooON0/qnyI/r94bQ0w/ioK1W
@@ -349,7 +349,7 @@
     - service: vk
       id: 3010
       published: 2026-01-12-19-21-23
-      updated: 2026-08-21-07-34-48
+      updated: 2026-08-28-19-42-07
       followers: 1570
       likes: 73
       views: 2024
@@ -362,10 +362,10 @@
     - service: tg
       id: 1123
       published: 2026-01-12-19-21-26
-      updated: 2026-08-21-07-34-29
+      updated: 2026-08-28-19-41-45
       followers: 880
       likes: 66
-      views: 970
+      views: 974
       comments: !c |-
         iyaAkZPLQnm7Orv4AACmdnVzdGV42TpJdCBsb29rcyBjb3p5IHNvbWVob3cuIERlc3BpdGUgdGhl
         IG1ldGFsIHNrZWxldG9uIGFuZCBydXN0Aw==
@@ -395,7 +395,7 @@
     - service: vk
       id: 3013
       published: 2026-01-15-19-24-16
-      updated: 2026-08-21-07-34-47
+      updated: 2026-08-28-19-42-06
       followers: 1577
       likes: 87
       views: 972
@@ -403,10 +403,10 @@
     - service: tg
       id: 1124
       published: 2026-01-15-19-24-20
-      updated: 2026-08-21-07-34-28
+      updated: 2026-08-28-19-41-44
       followers: 883
       likes: 71
-      views: 812
+      views: 816
       comments: !c CwuAkZPLQnm9B41zgACma2V2eS1jpPCfpoAD
 2026-01-19-1-lich: 2018-06-13-lich
 2026-01-20-1-under-the-magic-eye: 2018-06-15-under-the-magic-eye
@@ -717,3 +717,4 @@
 2026-08-25-1-slave-and-slaver: 2018-03-16-slave-and-slaver
 2026-08-26-1-ama-nin: 2020-05-17-ama-nin
 2026-08-27-1-suran-temple: 2018-03-17-suran-temple
+2026-08-28-1-mournhold-temple: 2018-10-16-mournhold-temple
