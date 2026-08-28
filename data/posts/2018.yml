@@ -4019,10 +4019,10 @@
     - service: tg
       id: 1302
       published: 2026-08-27-23-18-45
-      updated: 2026-08-28-05-46-09
+      updated: 2026-08-28-07-19-13
       followers: 938
-      likes: 25
-      views: 91
+      likes: 32
+      views: 116
       comments: !c |-
         Cy+AkZTLQnoEX2DCAACtY2FpdXMtY29zYWRlc9kjd2hlcmUgbWUgYW5kIGhvbWllIHNub3J0IG1v
         b24gc3VnYXKTy0J6BGz1zwAApWFuc2lzsFNodXQgdGhlIGhlbGwgdXAD
@@ -4033,7 +4033,10 @@
     - service: vk
       id: 3524
       published: 2026-08-28-05-49-41
+      updated: 2026-08-28-07-19-05
       followers: 1442
+      likes: 4
+      views: 83
 2018-03-18-two-moons:
   title: Two Moons
   titleRu: Две луны
