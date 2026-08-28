@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file.
 
+## [2.29.0](https://github.com/dehero/mwscr/compare/v2.27.2...v2.29.0) (2026-08-28)
+
+### Features
+
+- implement MAX followers count grabbing
+  ([a9470ab](https://github.com/dehero/mwscr/commit/a9470ab2ef45302774e277193182f1d7eef1110e))
+
 ## [2.28.0](https://github.com/dehero/mwscr/compare/v2.27.2...v2.28.0) (2026-08-24)
 
 ### Features
