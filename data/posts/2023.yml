@@ -62,7 +62,7 @@
     - service: vk
       id: 2501
       published: 2025-07-02-18-24-04
-      updated: 2026-08-21-10-18-14
+      updated: 2026-08-29-09-29-23
       followers: 1333
       likes: 56
       views: 592
@@ -70,10 +70,10 @@
     - service: tg
       id: 905
       published: 2025-07-02-18-24-07
-      updated: 2026-08-21-09-26-20
+      updated: 2026-08-29-09-29-10
       followers: 760
       likes: 72
-      views: 649
+      views: 650
       comments: !c |-
         GzwBICyOx+2nFLWNo94R//xzsuFsoF93zs5Ug0TCuASCMLGS+zBtWyUVwVC9eYOhvxnrQ7aNb/1L
         MqfbBF8QXKZoKOjmYteYFgRFRLCI8rf+mO8GRxoQh+s2TzLrGODAGy4yuMkKG2SzJu63x/O35r7d
@@ -183,17 +183,17 @@
     - service: vk
       id: 2382
       published: 2025-05-24-18-18-58
-      updated: 2026-08-21-10-19-26
+      updated: 2026-08-29-09-30-16
       followers: 1305
       likes: 55
       views: 470
     - service: tg
       id: 857
       published: 2025-05-24-18-19-06
-      updated: 2026-08-21-10-19-07
+      updated: 2026-08-29-09-29-50
       followers: 739
       likes: 65
-      views: 587
+      views: 588
 2023-07-31-overhanging-rock-by-darkness-rifho:
   title: Overhanging Rock
   titleRu: Нависающая скала
@@ -352,7 +352,7 @@
     - service: vk
       id: 2341
       published: 2025-05-06-18-24-44
-      updated: 2026-08-21-10-19-55
+      updated: 2026-08-29-09-30-41
       followers: 1281
       likes: 46
       views: 489
@@ -365,10 +365,10 @@
     - service: tg
       id: 832
       published: 2025-05-06-18-24-51
-      updated: 2026-08-21-10-19-25
+      updated: 2026-08-29-09-30-10
       followers: 738
       likes: 69
-      views: 726
+      views: 727
 2023-08-03-spinning-wheel:
   title: Spinning-Wheel
   titleRu: Прялка

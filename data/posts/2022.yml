@@ -1368,7 +1368,7 @@
     - service: vk
       id: 2350
       published: 2025-05-11-18-23-47
-      updated: 2026-08-21-10-19-48
+      updated: 2026-08-29-09-30-36
       followers: 1292
       likes: 51
       views: 546
@@ -1381,10 +1381,10 @@
     - service: tg
       id: 838
       published: 2025-05-11-18-23-53
-      updated: 2026-08-21-10-19-20
+      updated: 2026-08-29-09-30-01
       followers: 738
       likes: 63
-      views: 635
+      views: 637
 2022-07-16-two-at-the-lantern:
   title: Two at the Lantern
   titleRu: Двое у фонаря
