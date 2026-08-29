@@ -214,7 +214,7 @@
     - service: vk
       id: 1750
       published: 2024-09-11-18-36-08
-      updated: 2026-08-21-13-38-47
+      updated: 2026-08-29-20-18-11
       followers: 945
       likes: 51
       views: 429
@@ -225,7 +225,7 @@
     - service: tg
       id: 529
       published: 2024-09-11-18-36-14
-      updated: 2026-08-21-13-38-10
+      updated: 2026-08-29-20-18-34
       followers: 555
       likes: 57
       views: 1131
@@ -586,7 +586,7 @@
     - service: vk
       id: 1687
       published: 2024-08-11-18-20-27
-      updated: 2026-08-21-14-23-53
+      updated: 2026-08-29-20-19-18
       followers: 930
       likes: 47
       views: 326
@@ -594,7 +594,7 @@
     - service: tg
       id: 498
       published: 2024-08-11-18-20-32
-      updated: 2026-08-21-14-23-17
+      updated: 2026-08-29-20-19-11
       followers: 520
       likes: 68
       views: 682
@@ -694,7 +694,7 @@
     - service: vk
       id: 1644
       published: 2024-07-19-18-20-33
-      updated: 2026-08-21-14-24-38
+      updated: 2026-08-29-20-20-09
       followers: 919
       likes: 49
       views: 350
@@ -705,7 +705,7 @@
     - service: tg
       id: 474
       published: 2024-07-19-18-20-40
-      updated: 2026-08-21-14-23-55
+      updated: 2026-08-29-20-19-57
       followers: 400
       likes: 62
       views: 600
@@ -1383,7 +1383,7 @@
     - service: vk
       id: 1653
       published: 2024-07-23-18-20-55
-      updated: 2026-08-21-14-24-32
+      updated: 2026-08-29-20-20-00
       followers: 921
       likes: 40
       views: 313
@@ -1392,7 +1392,7 @@
     - service: tg
       id: 478
       published: 2024-07-23-18-21-00
-      updated: 2026-08-21-14-23-51
+      updated: 2026-08-29-20-19-53
       followers: 400
       likes: 62
       views: 589
@@ -2114,7 +2114,7 @@
     - service: vk
       id: 1713
       published: 2024-08-28-18-23-48
-      updated: 2026-08-21-14-23-15
+      updated: 2026-08-29-20-18-50
       followers: 940
       likes: 49
       views: 374
@@ -2127,7 +2127,7 @@
     - service: tg
       id: 515
       published: 2024-08-28-18-23-56
-      updated: 2026-08-21-14-22-57
+      updated: 2026-08-29-20-18-50
       followers: 546
       likes: 70
       views: 677
