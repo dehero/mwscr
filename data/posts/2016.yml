@@ -37,7 +37,7 @@
     - service: vk
       id: 1499
       published: 2024-04-18-18-17-57
-      updated: 2026-08-21-16-19-03
+      updated: 2026-08-29-22-54-20
       followers: 910
       likes: 32
       views: 291
@@ -48,7 +48,7 @@
     - service: tg
       id: 382
       published: 2024-04-18-18-18-06
-      updated: 2026-08-21-16-18-43
+      updated: 2026-08-29-22-53-56
       followers: 354
       likes: 67
       views: 460
@@ -296,14 +296,14 @@
     - service: tg
       id: 371
       published: 2024-04-07-18-16-13
-      updated: 2026-08-21-16-18-49
+      updated: 2026-08-29-22-54-08
       followers: 353
       likes: 74
       views: 497
     - service: vk
       id: 1485
       published: 2024-04-07-19-10-42
-      updated: 2026-08-21-16-19-14
+      updated: 2026-08-29-22-54-31
       followers: 909
       likes: 59
       views: 350
@@ -383,14 +383,14 @@
     - service: vk
       id: 1553
       published: 2024-05-29-18-18-55
-      updated: 2026-08-21-16-18-20
+      updated: 2026-08-29-22-53-25
       followers: 917
       likes: 26
       views: 283
     - service: tg
       id: 423
       published: 2024-05-29-18-19-00
-      updated: 2026-08-21-16-18-11
+      updated: 2026-08-29-22-53-11
       followers: 378
       likes: 62
       views: 483
@@ -997,7 +997,7 @@
     - service: vk
       id: 1560
       published: 2024-06-02-18-19-25
-      updated: 2026-08-21-16-18-15
+      updated: 2026-08-29-22-53-19
       followers: 915
       likes: 48
       views: 391
@@ -1005,7 +1005,7 @@
     - service: tg
       id: 427
       published: 2024-06-02-18-19-30
-      updated: 2026-08-21-14-24-45
+      updated: 2026-08-29-22-53-07
       followers: 380
       likes: 65
       views: 510
@@ -1302,7 +1302,7 @@
     - service: vk
       id: 1561
       published: 2024-06-03-18-20-43
-      updated: 2026-08-21-16-18-14
+      updated: 2026-08-29-22-53-18
       followers: 915
       likes: 36
       views: 299
@@ -1311,7 +1311,7 @@
     - service: tg
       id: 428
       published: 2024-06-03-18-20-51
-      updated: 2026-08-21-14-24-44
+      updated: 2026-08-29-22-53-07
       followers: 383
       likes: 59
       views: 506
@@ -1725,7 +1725,7 @@
     - service: vk
       id: 1564
       published: 2024-06-04-18-19-46
-      updated: 2026-08-21-15-21-28
+      updated: 2026-08-29-22-53-16
       followers: 915
       likes: 47
       views: 409
@@ -1741,7 +1741,7 @@
     - service: tg
       id: 429
       published: 2024-06-04-18-19-52
-      updated: 2026-08-21-14-24-43
+      updated: 2026-08-29-22-53-06
       followers: 383
       likes: 64
       views: 490
@@ -1794,14 +1794,14 @@
     - service: vk
       id: 1474
       published: 2024-03-30-18-11-53
-      updated: 2026-08-21-16-19-22
+      updated: 2026-08-29-22-54-38
       followers: 905
       likes: 38
       views: 284
     - service: tg
       id: 362
       published: 2024-03-30-18-11-58
-      updated: 2026-08-21-16-19-07
+      updated: 2026-08-29-22-54-15
       followers: 354
       likes: 70
       views: 494
@@ -1892,7 +1892,7 @@
     - service: vk
       id: 1512
       published: 2024-04-28-18-16-56
-      updated: 2026-08-21-16-18-54
+      updated: 2026-08-29-22-54-06
       followers: 911
       likes: 43
       views: 355
@@ -1900,7 +1900,7 @@
     - service: tg
       id: 392
       published: 2024-04-28-18-17-01
-      updated: 2026-08-21-16-18-35
+      updated: 2026-08-29-22-53-46
       followers: 354
       likes: 71
       views: 561
@@ -2196,7 +2196,7 @@
     - service: vk
       id: 1593
       published: 2024-06-21-18-20-26
-      updated: 2026-08-21-14-25-13
+      updated: 2026-08-29-22-52-49
       followers: 919
       likes: 36
       views: 309
@@ -2204,10 +2204,10 @@
     - service: tg
       id: 446
       published: 2024-06-21-18-20-33
-      updated: 2026-08-21-14-24-25
+      updated: 2026-08-29-22-52-49
       followers: 386
       likes: 55
-      views: 562
+      views: 563
 2016-12-31-far-friends:
   title: Far Friends
   titleRu: Далёкие друзья
