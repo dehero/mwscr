@@ -1461,7 +1461,7 @@
     - service: vk
       id: 2749
       published: 2025-10-19-18-26-11
-      updated: 2026-08-21-09-24-21
+      updated: 2026-08-29-02-32-10
       followers: 1471
       likes: 97
       views: 2118
@@ -1581,7 +1581,7 @@
     - service: vk
       id: 2589
       published: 2025-08-18-18-24-02
-      updated: 2026-08-21-09-26-00
+      updated: 2026-08-29-02-34-02
       followers: 1365
       likes: 42
       views: 927
@@ -1590,10 +1590,10 @@
     - service: tg
       id: 955
       published: 2025-08-18-18-24-05
-      updated: 2026-08-21-09-25-28
+      updated: 2026-08-29-02-33-25
       followers: 781
       likes: 68
-      views: 718
+      views: 721
 2016-12-17-a-path-to-vivec:
   title: A Path to Vivec
   titleRu: Путь к Вивеку
