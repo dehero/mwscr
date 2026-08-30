@@ -981,7 +981,7 @@ caius-cosades:
   profiles:
     - service: tg
       id: '6483220506'
-      updated: 2026-08-30-11-21-14
+      updated: 2026-08-30-15-35-32
       accessHash: '-5537197680289822260'
       username: Gatemate7
       botChatId: 6483220506
@@ -1193,7 +1193,7 @@ crazycyrodiliccat:
   profiles:
     - service: vk
       id: '90554843'
-      updated: 2026-08-30-11-22-22
+      updated: 2026-08-30-15-37-37
       username: crazycyrodiliccat
       name: Александр Невский
       avatar: store:/avatars/vk-0db1296b.jpg
@@ -1393,7 +1393,7 @@ dead-end:
   profiles:
     - service: vk
       id: '172608176'
-      updated: 2026-08-30-11-24-06
+      updated: 2026-08-30-15-35-46
       username: dead___end
       avatar: store:/avatars/vk-7f160215.jpg
       deleted: true
@@ -1435,7 +1435,7 @@ dehero:
       avatar: store:/avatars/gh-c8afe641.jpg
     - service: vk
       id: '3652910'
-      updated: 2026-08-30-11-23-55
+      updated: 2026-08-30-15-36-56
       username: dehero
       name: Антон Курьянов
       avatar: store:/avatars/vk-5356f76e.jpg
@@ -1712,7 +1712,7 @@ dropnz:
   profiles:
     - service: vk
       id: '142480'
-      updated: 2026-08-30-11-23-19
+      updated: 2026-08-30-15-37-41
       username: dropnz
       name: Вячеслав Беляев
       avatar: store:/avatars/vk-a7fd4520.jpg
@@ -1803,7 +1803,7 @@ egorwave:
   profiles:
     - service: vk
       id: '225337507'
-      updated: 2026-08-21-22-12-17
+      updated: 2026-08-30-15-36-11
       username: egorwave
       name: Егор Фролов
       avatar: store:/avatars/vk-ebde0ba3.jpg
@@ -2161,7 +2161,7 @@ fukkatsumy-kamikoto:
   profiles:
     - service: vk
       id: '172283748'
-      updated: 2026-08-22-00-30-32
+      updated: 2026-08-30-15-37-37
       username: fukkatsumy_kamikoto
       name: Фуккацуми Камикото
       avatar: store:/avatars/vk-d88f6ba3.jpg
@@ -2169,7 +2169,7 @@ fungirl666:
   profiles:
     - service: vk
       id: '480647421'
-      updated: 2026-08-21-22-12-23
+      updated: 2026-08-30-15-36-17
       username: fungirl666
       avatar: store:/avatars/vk-7f160215.jpg
       deleted: true
@@ -2398,7 +2398,7 @@ gutzzerk:
   profiles:
     - service: vk
       id: '473163636'
-      updated: 2026-08-21-21-14-53
+      updated: 2026-08-30-15-35-43
       username: gutzzerk
       name: Сард Шрафц
       avatar: store:/avatars/vk-5052bc05.jpg
@@ -2812,7 +2812,7 @@ ivan-uralov:
   profiles:
     - service: vk
       id: '16497155'
-      updated: 2026-08-30-11-21-18
+      updated: 2026-08-30-15-35-35
       username: id16497155
       name: Иван Уралов
       avatar: store:/avatars/vk-51775759.jpg
@@ -3654,7 +3654,7 @@ max-tsei:
   profiles:
     - service: vk
       id: '353284524'
-      updated: 2026-08-22-03-33-42
+      updated: 2026-08-30-15-37-28
       username: max.tsei
       avatar: store:/avatars/vk-7f160215.jpg
       deleted: true
@@ -4490,7 +4490,7 @@ pavusmart:
   profiles:
     - service: vk
       id: '385848478'
-      updated: 2026-08-30-11-23-28
+      updated: 2026-08-30-15-36-04
       username: pavusmart
       name: Кордиус Флакс
       avatar: store:/avatars/vk-ca2babad.jpg
@@ -4514,7 +4514,7 @@ peteevandrew:
   profiles:
     - service: vk
       id: '307619379'
-      updated: 2026-08-30-11-21-47
+      updated: 2026-08-30-15-36-56
       username: peteevandrew
       name: Андрей Петеев
       avatar: store:/avatars/vk-1abdc90f.jpg
@@ -5187,7 +5187,7 @@ seriy-ottenok:
   profiles:
     - service: vk
       id: '402400667'
-      updated: 2026-08-21-23-12-36
+      updated: 2026-08-30-15-36-59
       username: id402400667
       name: Серый Оттенок
       avatar: store:/avatars/vk-a0ca9212.jpg
@@ -5426,7 +5426,7 @@ songfick:
   profiles:
     - service: vk
       id: '147191020'
-      updated: 2026-08-21-23-12-43
+      updated: 2026-08-30-15-37-06
       username: songfick
       name: Нина Лиат
       avatar: store:/avatars/vk-8e1571e9.jpg
@@ -6182,7 +6182,7 @@ user-27:
   profiles:
     - service: vk
       id: '223132255'
-      updated: 2026-08-30-11-22-42
+      updated: 2026-08-30-15-37-28
       username: id223132255
       avatar: store:/avatars/vk-7f160215.jpg
       deleted: true
@@ -6229,7 +6229,7 @@ user-32:
   profiles:
     - service: vk
       id: '314007101'
-      updated: 2026-08-30-11-23-37
+      updated: 2026-08-30-15-36-40
       username: id314007101
       avatar: store:/avatars/vk-7f160215.jpg
       deleted: true
@@ -6237,7 +6237,7 @@ user-33:
   profiles:
     - service: vk
       id: '489808016'
-      updated: 2026-08-21-23-12-56
+      updated: 2026-08-30-15-37-20
       username: id489808016
       avatar: store:/avatars/vk-7f160215.jpg
       deleted: true
@@ -6406,7 +6406,7 @@ vancleve:
   profiles:
     - service: vk
       id: '84634454'
-      updated: 2026-08-21-23-12-56
+      updated: 2026-08-30-15-37-20
       username: vancleve
       avatar: store:/avatars/vk-7f160215.jpg
       deleted: true
@@ -6414,7 +6414,7 @@ variks2004:
   profiles:
     - service: vk
       id: '324009986'
-      updated: 2026-08-30-11-23-19
+      updated: 2026-08-30-15-35-42
       username: variks2004
       name: Данил Бурухин
       avatar: store:/avatars/vk-e71d8728.jpg
