@@ -36,7 +36,7 @@
     - service: vk
       id: 1420
       published: 2024-02-28-19-19-28
-      updated: 2026-08-21-18-20-29
+      updated: 2026-08-30-00-51-30
       followers: 894
       likes: 40
       views: 332
@@ -55,10 +55,10 @@
     - service: tg
       id: 330
       published: 2024-02-28-19-19-34
-      updated: 2026-08-21-16-19-38
+      updated: 2026-08-30-00-51-21
       followers: 338
       likes: 75
-      views: 658
+      views: 659
       comments: !c CxaAkZPLQnjfHLDigACpbmloaWwtc3Vtt215IGZhdm91cml0ZSB0ZyBjaGFubmVsAw==
 2024-02-29-morning-hunt: 2017-03-30-morning-hunt
 2024-03-01-rat-in-the-pasture:
@@ -90,7 +90,7 @@
     - service: vk
       id: 1429
       published: 2024-03-01-18-32-46
-      updated: 2026-08-21-18-20-26
+      updated: 2026-08-30-00-51-27
       followers: 894
       likes: 30
       views: 289
@@ -101,7 +101,7 @@
     - service: tg
       id: 332
       published: 2024-03-01-18-32-52
-      updated: 2026-08-21-16-19-36
+      updated: 2026-08-30-00-51-19
       followers: 339
       likes: 63
       views: 588
@@ -135,7 +135,7 @@
     - service: vk
       id: 1433
       published: 2024-03-02-18-18-15
-      updated: 2026-08-21-18-20-24
+      updated: 2026-08-30-00-51-26
       followers: 895
       likes: 32
       views: 293
@@ -143,7 +143,7 @@
     - service: tg
       id: 333
       published: 2024-03-02-18-18-22
-      updated: 2026-08-21-16-19-36
+      updated: 2026-08-30-00-51-19
       followers: 340
       likes: 72
       views: 588
@@ -176,7 +176,7 @@
     - service: vk
       id: 1436
       published: 2024-03-04-18-18-05
-      updated: 2026-08-21-18-20-22
+      updated: 2026-08-30-00-51-24
       followers: 895
       likes: 36
       views: 309
@@ -184,7 +184,7 @@
     - service: tg
       id: 335
       published: 2024-03-04-18-18-12
-      updated: 2026-08-21-16-19-34
+      updated: 2026-08-30-00-51-18
       followers: 344
       likes: 68
       views: 595
@@ -219,17 +219,17 @@
     - service: vk
       id: 1439
       published: 2024-03-07-18-17-51
-      updated: 2026-08-21-18-20-19
+      updated: 2026-08-30-00-51-21
       followers: 893
       likes: 35
       views: 266
     - service: tg
       id: 338
       published: 2024-03-07-18-17-57
-      updated: 2026-08-21-16-19-22
+      updated: 2026-08-30-00-51-15
       followers: 345
       likes: 58
-      views: 576
+      views: 577
 2024-03-08-a-bridge-to-ascadian-isles:
   title: A Bridge to Ascadian Isles
   titleRu: Мост к Аскадианским островам
@@ -264,7 +264,7 @@
     - service: vk
       id: 1440
       published: 2024-03-08-18-18-36
-      updated: 2026-08-21-18-20-18
+      updated: 2026-08-30-00-51-20
       followers: 893
       likes: 33
       views: 297
@@ -272,7 +272,7 @@
     - service: tg
       id: 339
       published: 2024-03-08-18-18-42
-      updated: 2026-08-21-16-19-21
+      updated: 2026-08-30-00-51-14
       followers: 345
       likes: 61
       views: 561
@@ -307,7 +307,7 @@
     - service: vk
       id: 1441
       published: 2024-03-09-18-16-27
-      updated: 2026-08-21-18-20-17
+      updated: 2026-08-30-00-51-19
       followers: 893
       likes: 35
       views: 275
@@ -315,7 +315,7 @@
     - service: tg
       id: 340
       published: 2024-03-09-18-16-33
-      updated: 2026-08-21-16-19-21
+      updated: 2026-08-30-00-51-14
       followers: 347
       likes: 63
       views: 576
@@ -396,7 +396,7 @@
     - service: vk
       id: 1442
       published: 2024-03-10-18-00-51
-      updated: 2026-08-21-18-20-16
+      updated: 2026-08-30-00-51-18
       followers: 895
       likes: 34
       views: 258
@@ -404,7 +404,7 @@
     - service: tg
       id: 341
       published: 2024-03-10-18-00-59
-      updated: 2026-08-21-16-19-21
+      updated: 2026-08-30-00-51-13
       followers: 349
       likes: 60
       views: 539
@@ -435,7 +435,7 @@
     - service: vk
       id: 1443
       published: 2024-03-11-18-08-24
-      updated: 2026-08-21-18-20-16
+      updated: 2026-08-30-00-51-17
       followers: 896
       likes: 40
       views: 384
@@ -443,7 +443,7 @@
     - service: tg
       id: 342
       published: 2024-03-11-18-08-30
-      updated: 2026-08-21-16-19-20
+      updated: 2026-08-30-00-51-13
       followers: 350
       likes: 63
       views: 625
@@ -501,7 +501,7 @@
     - service: vk
       id: 1444
       published: 2024-03-12-18-17-53
-      updated: 2026-08-21-18-20-15
+      updated: 2026-08-30-00-51-16
       followers: 896
       likes: 33
       views: 289
@@ -509,7 +509,7 @@
     - service: tg
       id: 343
       published: 2024-03-12-18-18-01
-      updated: 2026-08-21-16-19-19
+      updated: 2026-08-30-00-51-12
       followers: 350
       likes: 65
       views: 551
@@ -567,14 +567,14 @@
     - service: vk
       id: 1453
       published: 2024-03-15-18-58-50
-      updated: 2026-08-21-18-20-10
+      updated: 2026-08-30-00-51-12
       followers: 896
       likes: 30
       views: 282
     - service: tg
       id: 347
       published: 2024-03-15-18-58-56
-      updated: 2026-08-21-16-19-17
+      updated: 2026-08-30-00-51-08
       followers: 352
       likes: 47
       views: 509
@@ -642,7 +642,7 @@
     - service: vk
       id: 1455
       published: 2024-03-17-18-09-55
-      updated: 2026-08-21-16-19-34
+      updated: 2026-08-30-00-51-10
       followers: 896
       likes: 42
       views: 333
@@ -651,7 +651,7 @@
     - service: tg
       id: 349
       published: 2024-03-17-18-10-02
-      updated: 2026-08-21-16-19-15
+      updated: 2026-08-30-00-51-07
       followers: 353
       likes: 64
       views: 523
@@ -721,7 +721,7 @@
     - service: tg
       id: 351
       published: 2024-03-19-18-11-30
-      updated: 2026-08-21-16-19-14
+      updated: 2026-08-30-00-51-05
       followers: 352
       likes: 69
       views: 500
@@ -793,7 +793,7 @@
     - service: tg
       id: 353
       published: 2024-03-21-18-11-29
-      updated: 2026-08-21-16-19-13
+      updated: 2026-08-30-00-51-04
       followers: 352
       likes: 59
       views: 504
