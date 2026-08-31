@@ -610,7 +610,7 @@ arya-stark:
   profiles:
     - service: vk
       id: '820702664'
-      updated: 2026-08-29-17-58-30
+      updated: 2026-08-31-17-46-10
       username: id820702664
       name: Арья Старк
       avatar: store:/avatars/vk-689aa89d.jpg
@@ -981,7 +981,7 @@ caius-cosades:
   profiles:
     - service: tg
       id: '6483220506'
-      updated: 2026-08-31-10-10-46
+      updated: 2026-08-31-17-45-07
       accessHash: '-5537197680289822260'
       username: Gatemate7
       botChatId: 6483220506
@@ -1435,7 +1435,7 @@ dehero:
       avatar: store:/avatars/gh-c8afe641.jpg
     - service: vk
       id: '3652910'
-      updated: 2026-08-31-10-12-41
+      updated: 2026-08-31-17-45-57
       username: dehero
       name: Антон Курьянов
       avatar: store:/avatars/vk-5356f76e.jpg
@@ -1696,7 +1696,7 @@ dremarretres:
   profiles:
     - service: vk
       id: '801308664'
-      updated: 2026-08-30-11-21-18
+      updated: 2026-08-31-17-45-08
       username: dremarretres
       name: Джон Шепард
       avatar: store:/avatars/vk-ac4f0700.jpg
@@ -2031,7 +2031,7 @@ evil-kit:
   profiles:
     - service: vk
       id: '153155138'
-      updated: 2026-08-31-10-12-12
+      updated: 2026-08-31-17-45-57
       username: evil_kit
       name: Никита Метелкин
       avatar: store:/avatars/vk-adb64972.jpg
@@ -2812,7 +2812,7 @@ ivan-uralov:
   profiles:
     - service: vk
       id: '16497155'
-      updated: 2026-08-31-10-10-45
+      updated: 2026-08-31-17-45-08
       username: id16497155
       name: Иван Уралов
       avatar: store:/avatars/vk-51775759.jpg
@@ -4731,7 +4731,7 @@ pyriglena:
   profiles:
     - service: tg
       id: '554672984'
-      updated: 2026-08-30-00-51-28
+      updated: 2026-08-31-17-45-05
       accessHash: '-3565593010225205906'
       username: pyriglena
       name: yarrow
@@ -5163,7 +5163,7 @@ sergey-b-2:
   profiles:
     - service: vk
       id: '1077446394'
-      updated: 2026-08-31-10-10-49
+      updated: 2026-08-31-17-46-10
       username: id1077446394
       name: Сергей Б
       avatar: store:/avatars/vk-f5b20109.jpg
