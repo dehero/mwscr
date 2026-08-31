@@ -981,7 +981,7 @@ caius-cosades:
   profiles:
     - service: tg
       id: '6483220506'
-      updated: 2026-08-30-23-59-57
+      updated: 2026-08-31-03-39-52
       accessHash: '-5537197680289822260'
       username: Gatemate7
       botChatId: 6483220506
@@ -2297,7 +2297,7 @@ gleb-zheltuhin:
   profiles:
     - service: vk
       id: '29014473'
-      updated: 2026-08-29-02-32-19
+      updated: 2026-08-31-03-39-55
       username: gleb_zheltuhin
       name: Глеб Желтухин
       avatar: store:/avatars/vk-971eefc1.jpg
@@ -3279,7 +3279,7 @@ kydinov91:
   profiles:
     - service: vk
       id: '36104583'
-      updated: 2026-08-31-00-01-45
+      updated: 2026-08-31-03-40-02
       username: kydinov91
       name: Илья Кудинов
       avatar: store:/avatars/vk-03d8a48a.jpg
@@ -4528,7 +4528,7 @@ petrushkachord:
   profiles:
     - service: vk
       id: '370043102'
-      updated: 2026-08-31-00-01-50
+      updated: 2026-08-31-03-40-15
       username: petrushkachord
       name: Данила Силкин
       avatar: store:/avatars/vk-166e4c44.jpg

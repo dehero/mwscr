@@ -1077,10 +1077,10 @@
     - service: vk
       id: 3436
       published: 2026-07-19-18-46-08
-      updated: 2026-08-24-00-32-03
+      updated: 2026-08-31-03-39-55
       followers: 1433
-      likes: 77
-      views: 1009
+      likes: 78
+      views: 1028
       reposts: 6
       comments: !c |-
         Cx+AkZPLQnn5EJeSgACuZ2xlYi16aGVsdHVoaW7ZIy4uLiDQuCDQt9Cy0LXQt9C00Ysg0L3QsNC0
@@ -1088,10 +1088,10 @@
     - service: tg
       id: 1264
       published: 2026-07-19-18-46-14
-      updated: 2026-08-24-00-32-02
+      updated: 2026-08-31-03-39-52
       followers: 916
       likes: 67
-      views: 658
+      views: 667
     - service: mx
       id: '1784486779130'
       published: 2026-07-19-18-46-19
