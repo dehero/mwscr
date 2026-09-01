@@ -3968,18 +3968,18 @@
     - service: vk
       id: 3519
       published: 2026-08-25-18-21-30
-      updated: 2026-08-31-22-06-42
+      updated: 2026-09-01-22-52-56
       followers: 1444
       likes: 40
-      views: 812
+      views: 813
       reposts: 2
     - service: tg
       id: 1300
       published: 2026-08-25-18-21-37
-      updated: 2026-08-31-22-06-50
+      updated: 2026-09-01-22-53-04
       followers: 938
       likes: 63
-      views: 345
+      views: 361
       comments: !c |-
         Cx+AkpPLQnoD8VLuAAClYW5zaXO0TGlmZSBhcyBpdCBzaG91bGQgYmWTy0J6A6LH/wAAqXZsYWRp
         dml2aaTwn5K4Aw==
@@ -6686,18 +6686,18 @@
     - service: vk
       id: 3456
       published: 2026-07-28-19-03-26
-      updated: 2026-08-25-22-13-35
+      updated: 2026-09-01-22-53-09
       followers: 1435
       likes: 52
-      views: 700
+      views: 703
       reposts: 4
     - service: tg
       id: 1273
       published: 2026-07-28-19-03-36
-      updated: 2026-08-25-22-13-33
+      updated: 2026-09-01-22-53-07
       followers: 919
       likes: 61
-      views: 451
+      views: 461
       comments: !c |-
         ixyAkZPLQnn76qF3AACrZ29vc2V2aWNoNzbZIdGF0Lgg0YXQuCDRhdC4INGF0LAg0YXQvtGD0YPR
         gy4uLgM=
@@ -9913,11 +9913,11 @@
     - service: vk
       id: 3440
       published: 2026-07-21-18-07-36
-      updated: 2026-08-25-22-13-37
+      updated: 2026-09-01-22-53-10
       followers: 1433
       likes: 71
-      views: 882
-      reposts: 6
+      views: 887
+      reposts: 5
       comments: !c |-
         G8wBAJwHto1sOxwMv/TAkOQZ/yQHi/D0toqseQJRlGALAm8rkuR9rW2EkInJFCyGNvF3Pvibzdi0
         vCWbkrSgm6y1//sZxmZi1AShSI3RzcW0Ymz7lf8cPBgEc3uqrjug+0EzDTn7FoTfkifWpYUBJpRw
@@ -15533,10 +15533,10 @@
     - service: tg
       id: 1303
       published: 2026-08-28-19-44-04
-      updated: 2026-08-31-22-06-49
+      updated: 2026-09-01-22-53-03
       followers: 938
-      likes: 53
-      views: 257
+      likes: 54
+      views: 276
       comments: !c ixCAkZPLQnoEvzFSgACtY2FpdXMtY29zYWRlc6h0aGUgaG9vZAM=
     - service: mx
       id: '1787946249217'
