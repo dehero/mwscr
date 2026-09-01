@@ -14710,11 +14710,11 @@
     - service: vk
       id: 3437
       published: 2026-07-20-19-22-09
-      updated: 2026-08-25-00-31-15
+      updated: 2026-09-01-01-29-46
       followers: 1433
       likes: 49
-      views: 782
-      reposts: 3
+      views: 789
+      reposts: 2
       comments: !c |-
         G1QBYBwHdiyz8HC0dOEi/nn/xBK++M+PV0rc+Ey2CQ2WiU/ONbsJOYpxY8+f+Und1KlvmoUBCdA8
         z8fGXt3Yrfhkta47PtjxYPR9/3b4ojhK0yDG1iJIQsnSG8rj+JSy5pAk2+frzyQ/+vN7++EolBfI
@@ -14724,10 +14724,10 @@
     - service: tg
       id: 1265
       published: 2026-07-20-19-22-17
-      updated: 2026-08-25-00-31-16
+      updated: 2026-09-01-01-29-42
       followers: 916
       likes: 53
-      views: 480
+      views: 488
     - service: mx
       id: '1784575342989'
       published: 2026-07-20-19-22-23
@@ -15210,18 +15210,18 @@
     - service: vk
       id: 3529
       published: 2026-08-31-00-02-22
-      updated: 2026-08-31-22-06-39
+      updated: 2026-09-01-01-29-30
       followers: 1442
       likes: 46
-      views: 476
+      views: 479
       reposts: 3
     - service: tg
       id: 1306
       published: 2026-08-31-00-02-30
-      updated: 2026-08-31-22-06-48
+      updated: 2026-09-01-01-29-38
       followers: 939
       likes: 50
-      views: 158
+      views: 161
       comments: !c |-
         G5MA+I3UVnOUNyGCf+xGJ/5Bz+j4oLW21lpWYi2hiJP3MA0kdZs5W7twfywiGIo26UcUpvCDQ24X
         TEQD4IhCCmtswIlIIo/zeuJRam0h3Ou+TeM8LP1NGHAcYNwoZhnFlOQmbVS2me1/Q84pv4CgkgXI
@@ -16929,18 +16929,18 @@
     - service: vk
       id: 3420
       published: 2026-07-13-18-26-20
-      updated: 2026-08-24-23-13-00
+      updated: 2026-09-01-01-29-47
       followers: 1432
       likes: 40
-      views: 567
-      reposts: 2
+      views: 569
+      reposts: 1
     - service: tg
       id: 1258
       published: 2026-07-13-18-26-30
-      updated: 2026-08-24-23-12-55
+      updated: 2026-09-01-01-29-43
       followers: 914
       likes: 57
-      views: 484
+      views: 490
     - service: mx
       id: '1783967197856'
       published: 2026-07-13-18-26-37
