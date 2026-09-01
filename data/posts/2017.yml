@@ -7196,6 +7196,18 @@
       followers: 574
       likes: 58
       views: 526
+    - service: vk
+      id: 3530
+      published: 2026-09-01-20-14-38
+      followers: 1442
+    - service: tg
+      id: 1307
+      published: 2026-09-01-20-14-45
+      followers: 939
+    - service: mx
+      id: '1788293691167'
+      published: 2026-09-01-20-14-51
+      followers: 29
 2017-05-11-inside-of-llethri-manor:
   title: Inside of Llethri Manor
   titleRu: В поместье Ллетри
@@ -15210,18 +15222,18 @@
     - service: vk
       id: 3529
       published: 2026-08-31-00-02-22
-      updated: 2026-09-01-17-02-03
+      updated: 2026-09-01-20-14-08
       followers: 1442
       likes: 46
-      views: 509
+      views: 513
       reposts: 3
     - service: tg
       id: 1306
       published: 2026-08-31-00-02-30
-      updated: 2026-09-01-17-02-12
+      updated: 2026-09-01-20-14-16
       followers: 939
-      likes: 52
-      views: 170
+      likes: 53
+      views: 173
       comments: !c |-
         G5MA+I3UVnOUNyGCf+xGJ/5Bz+j4oLW21lpWYi2hiJP3MA0kdZs5W7twfywiGIo26UcUpvCDQ24X
         TEQD4IhCCmtswIlIIo/zeuJRam0h3Ou+TeM8LP1NGHAcYNwoZhnFlOQmbVS2me1/Q84pv4CgkgXI
