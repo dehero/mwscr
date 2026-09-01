@@ -12,3 +12,19 @@ off for [publication](./publication.md) in all project's accounts. There are som
 [Telegram](https://t.me/mwscr)  
 [YouTube](https://www.youtube.com/@mwscr)  
 [GitHub](https://github.com/dehero/mwscr)
+
+---
+
+# Morrowind Screenshots
+
+Цель проекта - в поиске скрытой красоты и воспевании визуальной эстетики [Morrowind](./morrowind.md). Авторы проекта
+создают оригинальные [скриншоты и видео из игры, а также рисунки](./post-types.md), которые затем
+[рассматриваются редактором](./editing.md) и отбираются для [публикации](./publication.md) во всех аккаунтах проекта.
+Проект следует [основным принципам](./core-principles.md). Любой желающий может
+[принять участие в проекте](./contributing.md).
+
+[Instagram](https://instagram.com/mwscr/)  
+[VK](https://vk.com/mwscr)  
+[Telegram](https://t.me/mwscr)  
+[YouTube](https://www.youtube.com/@mwscr)  
+[GitHub](https://github.com/dehero/mwscr)

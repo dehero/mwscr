@@ -5,3 +5,13 @@ videos must use [Video](./video.md) post type. "MP4" or "AVI" format with a high
 is 10 seconds, minimum framerate is 30 fps.
 
 [Go to Clips](/posts/?type=clip)
+
+---
+
+# Клип
+
+Квадратное [1:1](./aspect-ratio.md) или вертикальное [9:16](./aspect-ratio.md) видео длительностью до 1 минуты. Более
+длинные и горизонтальные видео должны использовать тип поста [Видео](./video.md). Подходит формат "MP4" или "AVI" с
+высоким битрейтом. Минимальная длительность — 10 секунд, минимальная частота кадров — 30 fps.
+
+[Перейти к клипам](/posts/?type=clip)

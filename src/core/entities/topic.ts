@@ -1,8 +1,10 @@
-import { markdownToInlineHtml } from './markdown.js';
+import { markdownToInlineHtml, type MarkdownLinkReplacer } from './markdown.js';
 
 export interface Topic {
   title?: string;
+  titleRu?: string;
   html?: string;
+  htmlRu?: string;
   relatedTopicIds: string[];
 }
 
@@ -29,8 +31,9 @@ export function getTopicBasenameFromId(id: string) {
 export function createTopicEntryFromMarkdown(code: string, filename: string): TopicEntry {
   const id = getTopicIdFromFilename(filename);
   const relatedTopicIds: string[] = [];
+  const [markdown = '', markdownRu] = code.split(/^---$/m, 2).map((part) => part.trim());
 
-  const { html, title } = markdownToInlineHtml(code, (url) => {
+  const linkReplacer: MarkdownLinkReplacer = (url) => {
     let href = url;
     const external = !url.startsWith('./');
     if (!external) {
@@ -42,7 +45,10 @@ export function createTopicEntryFromMarkdown(code: string, filename: string): To
     }
 
     return [href, external];
-  });
+  };
 
-  return [id, { title, html, relatedTopicIds }];
+  const { html, title } = markdownToInlineHtml(markdown, linkReplacer);
+  const { html: htmlRu, title: titleRu } = markdownToInlineHtml(markdownRu ?? '', linkReplacer);
+
+  return [id, { title, titleRu, html, htmlRu, relatedTopicIds: [...new Set(relatedTopicIds)] }];
 }

@@ -12,3 +12,20 @@ used in any sources related to the project, with attribution to you.
 (check out
 [file size restrictions](https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/attaching-files))  
 [Send to administrator via email](mailto:me@dehero.site?subject=mwscr)
+
+---
+
+# предложить работу
+
+Перед тем как предложить свои скриншоты, видео или рисунки, прочитайте [основные принципы](./core-principles.md) и
+[советы по съёмке](./shooting-tips.md). Затем отправьте работу любым удобным способом. Укажите адреса своих профилей,
+если хотите, чтобы при публикации работы в посте была ссылка на вас. Предложенные работы будут автоматически проверены и
+попадут в [Черновики](./drafts.md). После [редактуры](./editing.md) ваши работы будут [опубликованы](./publication.md)
+или [отклонены](./trash.md). Отправляя работу, вы соглашаетесь, что она будет храниться в архиве проекта и может
+использоваться в любых связанных с проектом источниках с указанием вашего авторства.
+
+[Отправить Telegram-боту](https://t.me/mwscrbot)  
+[Отправить предложение через GitHub Issues](https://github.com/dehero/mwscr/issues/new?labels=post-proposal&template=post-proposal.yml)
+(см.
+[ограничения на размер файлов](https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/attaching-files))  
+[Отправить администратору по email](mailto:me@dehero.site?subject=mwscr)

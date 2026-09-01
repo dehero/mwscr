@@ -7,3 +7,14 @@ former ally, the demigod Dagoth Ur and his Sixth House – a cult of followers s
 Mountain.
 
 [Site](https://elderscrolls.bethesda.net/en/morrowind)
+
+---
+
+# Morrowind
+
+Компьютерная игра Bethesda Softworks, третья часть серии The Elder Scrolls. Основной сюжет разворачивается на
+Вварденфелле, острове в данмерской провинции Морровинд, которая является частью континента Тамриэль. Центральный сюжет
+связан с Трибуналом, триумвиратом богоподобных правителей Морровинда, и их борьбой с бывшим союзником, полубогом
+Дагот Уром и его Шестым Домом - культом последователей, распространившимся от вулканической Красной горы.
+
+[Сайт](https://elderscrolls.bethesda.net/en/morrowind)
