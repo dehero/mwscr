@@ -4033,11 +4033,11 @@
     - service: vk
       id: 3524
       published: 2026-08-28-05-49-41
-      updated: 2026-08-31-03-39-46
+      updated: 2026-09-01-06-53-45
       followers: 1442
       likes: 42
-      views: 472
-      reposts: 3
+      views: 511
+      reposts: 2
 2018-03-18-two-moons:
   title: Two Moons
   titleRu: Две луны
@@ -5016,18 +5016,18 @@
     - service: vk
       id: 3528
       published: 2026-08-30-18-55-25
-      updated: 2026-09-01-01-29-31
+      updated: 2026-09-01-06-53-44
       followers: 1442
       likes: 36
-      views: 304
+      views: 305
       reposts: 1
     - service: tg
       id: 1305
       published: 2026-08-30-18-55-33
-      updated: 2026-09-01-01-29-39
+      updated: 2026-09-01-06-53-52
       followers: 938
-      likes: 49
-      views: 188
+      likes: 50
+      views: 189
     - service: mx
       id: '1788116138590'
       published: 2026-08-30-18-55-38
