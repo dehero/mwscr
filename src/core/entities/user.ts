@@ -1,9 +1,11 @@
 import transliterate from '@sindresorhus/transliterate';
 import type { InferOutput } from 'valibot';
 import { array, boolean, date, nonEmpty, number, object, optional, picklist, pipe, string, trim, union } from 'valibot';
+import { texts } from '../texts/index.js';
 import { asArray } from '../utils/common-utils.js';
 import { getDaysPassed } from '../utils/date-utils.js';
 import { stripHashtags } from '../utils/string-utils.js';
+import type { IntlText } from './intl.js';
 import type { Option } from './option.js';
 import { ImageResourceUrl } from './resource.js';
 
@@ -61,6 +63,22 @@ export type UserProfiles = InferOutput<typeof UserProfiles>;
 export type User = InferOutput<typeof User>;
 
 export type UserEntry = [string, User | undefined, ...unknown[]];
+
+interface UserRoleDescriptor {
+  title: IntlText;
+}
+
+export const userRoleDescriptors = Object.freeze<Record<UserRole, UserRoleDescriptor>>({
+  admin: { title: texts.user.admin },
+  author: { title: texts.user.author },
+  beginner: { title: texts.user.beginner },
+  commenter: { title: texts.user.commenter },
+  drawer: { title: texts.user.drawer },
+  follower: { title: texts.user.follower },
+  foreigner: { title: texts.user.foreigner },
+  locator: { title: texts.user.locator },
+  requester: { title: texts.user.requester },
+});
 
 export function getUserEntryTitle(entry: UserEntry) {
   let result = entry[1]?.name;
@@ -137,7 +155,7 @@ export function getUserTitleLetter(title: string | undefined) {
 export function createUserOption(entry: UserEntry): Option {
   return {
     value: entry[0],
-    label: getUserEntryTitle(entry),
+    label: [getUserEntryTitle(entry), getUserEntryTitleRu(entry)],
     image: getUserEntryAvatar(entry),
   };
 }

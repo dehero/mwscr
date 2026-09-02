@@ -1,7 +1,10 @@
 import type { JSX } from 'solid-js';
 import { createEffect, createSignal } from 'solid-js';
 import type { Option } from '../../../core/entities/option.js';
+import { getOptionSearchText } from '../../../core/entities/option.js';
 import { getSearchTokens, search } from '../../../core/utils/common-utils.js';
+import { texts } from '../../texts/index.js';
+import { localize } from '../../utils/intl-utils.js';
 import { Button } from '../Button/Button.jsx';
 import type { DialogProps } from '../Dialog/Dialog.jsx';
 import { Dialog } from '../Dialog/Dialog.jsx';
@@ -32,14 +35,17 @@ export function OptionSelectDialog<T>(props: OptionSelectDialogProps<T>) {
 
   const options = () => {
     const tokens = getSearchTokens(searchTerm());
-    return props.options.filter((option) => search(tokens, [option.label, `${option.value}`]));
+    return props.options.filter((option) => search(tokens, getOptionSearchText(option)));
   };
 
   return (
     <>
       <Dialog
         {...props}
-        actions={[<Button onClick={handleConfirm}>OK</Button>, <Button onClick={props.onClose}>Cancel</Button>]}
+        actions={[
+          <Button onClick={handleConfirm}>{localize(texts.common.ok)}</Button>,
+          <Button onClick={props.onClose}>{localize(texts.common.cancel)}</Button>,
+        ]}
         modal
         contentClass={styles.container}
       >
@@ -49,7 +55,7 @@ export function OptionSelectDialog<T>(props: OptionSelectDialogProps<T>) {
             class={styles.options}
             scrollTarget={wrapperRef()}
             rows={options().map((option) => ({
-              label: option.label,
+              label: localize(option.label) || option.value?.toString() || '',
               onClick: (e: Event) => {
                 e.preventDefault();
                 setCurrentValue(() => option.value);

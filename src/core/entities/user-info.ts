@@ -1,6 +1,9 @@
+import { texts } from '../texts/index.js';
 import type { EntitySelection, SortDirection } from '../utils/common-types.js';
 import { arrayFromAsync, cleanupUndefinedProps, getSearchTokens, search } from '../utils/common-utils.js';
+import { localize } from '../utils/intl-utils.js';
 import type { DataManager } from './data-manager.js';
+import { type IntlText, type Locale } from './intl.js';
 import type { Option } from './option.js';
 import type { PostMark } from './post.js';
 import { getPostMarkFromScore } from './post.js';
@@ -44,9 +47,9 @@ export interface SelectUserInfosParams {
 export type UserInfoSelection = EntitySelection<UserInfo, SelectUserInfosParams>;
 
 export const selectUserInfosSortOptions = [
-  { value: 'contribution', label: 'Contribution', fn: compareUserInfosByContribution },
-  { value: 'commentCount', label: 'Comments', fn: compareUserInfosByCommentCount },
-  { value: 'id', label: 'ID', fn: compareUserInfosById },
+  { value: 'contribution', label: texts.user.contribution, fn: compareUserInfosByContribution },
+  { value: 'commentCount', label: texts.user.comments, fn: compareUserInfosByCommentCount },
+  { value: 'id', label: texts.field.id, fn: compareUserInfosById },
 ] as const satisfies SelectUserInfoSortOption[];
 
 export type SelectUserInfosSortKey = (typeof selectUserInfosSortOptions)[number]['value'];
@@ -206,22 +209,41 @@ export function selectUserInfos(
   };
 }
 
-export function selectUserInfosResultToString(count: number, params: SelectUserInfosParams) {
+export function getUserRoleUnitText(role: UserRole, count: number, locale: Locale) {
+  const entries = {
+    admin: texts.user.adminUnit,
+    author: texts.user.authorUnit,
+    beginner: texts.user.beginnerUnit,
+    commenter: texts.user.commenterUnit,
+    drawer: texts.user.drawerUnit,
+    follower: texts.user.followerUnit,
+    foreigner: texts.user.foreignerUnit,
+    locator: texts.user.locatorUnit,
+    requester: texts.user.requesterUnit,
+  } as const satisfies Record<UserRole, IntlText>;
+
+  return localize(entries[role], locale, { count });
+}
+
+export function selectUserInfosResultToString(count: number, params: SelectUserInfosParams, locale: Locale) {
   const result: string[] = [count.toString()];
   const sortOption = selectUserInfosSortOptions.find((comparator) => comparator.value === params.sortKey);
 
   if (params.role) {
-    result.push(`${params.role}${count !== 1 ? 's' : ''}`);
+    result.push(getUserRoleUnitText(params.role, count, locale));
   } else {
-    result.push(`community member${count !== 1 ? 's' : ''}`);
+    result.push(localize(texts.user.userUnit, locale, { count }));
   }
 
   if (params.search) {
-    result.push(`with "${params.search}" in name or ID`);
+    result.push(localize(texts.userFilter.withSearch, locale, { search: params.search }));
   }
 
   if (sortOption) {
-    result.push(`sorted by "${sortOption.label}" ${params.sortDirection === 'asc' ? 'ascending' : 'descending'}`);
+    const sortLabel = localize(sortOption.label, locale);
+    const direction = localize(params.sortDirection === 'asc' ? texts.userFilter.asc : texts.userFilter.desc, locale);
+
+    result.push(localize(texts.userFilter.sortedBy, locale, { label: sortLabel, direction }));
   }
 
   return result.join(' ');

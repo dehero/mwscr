@@ -9,6 +9,8 @@ import {
   worldMapPositionToLocationCell,
 } from '../../../core/entities/world-map.js';
 import { asArray } from '../../../core/utils/common-utils.js';
+import { texts } from '../../texts/index.js';
+import { localField, localize } from '../../utils/intl-utils.js';
 import { Button } from '../Button/Button.js';
 import { LocationTooltip } from '../LocationTooltip/LocationTooltip.jsx';
 import { Spacer } from '../Spacer/Spacer.jsx';
@@ -88,6 +90,10 @@ export const WorldMap: Component<WorldMapProps> = (props) => {
     }
     return undefined;
   };
+
+  const currentLocation = createMemo(() =>
+    props.locations.find((location) => location.title === props.currentLocation),
+  );
 
   const [currentCell, setCurrentCell] = createSignal<LocationCell | null>(null);
 
@@ -216,12 +222,15 @@ export const WorldMap: Component<WorldMapProps> = (props) => {
         <p class={styles.footer}>
           <Show when={props.locations.length > 1 && worldLocations().length < props.locations.length}>
             <span class={styles.worldLocationCount}>
-              Showing {worldLocations().length} of {props.locations.length} locations
+              {localize(texts.component.showWorldLocationsCount, {
+                shown: worldLocations().length,
+                total: props.locations.length,
+              })}
             </span>
           </Show>
           <Show when={props.currentLocation}>
             <Spacer component="span" />
-            <span class={styles.currentLocationTitle}>{props.currentLocation}</span>
+            <span class={styles.currentLocationTitle}>{localField(currentLocation(), 'title')}</span>
             <Show when={!props.readonly}>
               <Button
                 class={styles.resetButton}
@@ -231,7 +240,7 @@ export const WorldMap: Component<WorldMapProps> = (props) => {
                   props.onSelectLocation?.(undefined);
                 }}
               >
-                Reset
+                {localize(texts.component.reset)}
               </Button>
             </Show>
           </Show>

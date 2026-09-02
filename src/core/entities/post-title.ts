@@ -1,4 +1,4 @@
-import { capitalizeFirstLetter } from '../utils/common-utils.js';
+import { capitalize } from '../utils/string-utils.js';
 
 const POST_TITLE_LOWERCASE_WORDS = [
   'a',
@@ -44,7 +44,7 @@ export function postTitleFromString(value: string) {
       ) {
         return lowerCaseItem;
       }
-      return capitalizeFirstLetter(item.toLocaleLowerCase());
+      return capitalize(item.toLocaleLowerCase());
     })
     .join('');
 }

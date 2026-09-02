@@ -1,4 +1,6 @@
 import { cleanupUndefinedProps } from '../utils/common-utils.js';
+import { localize } from '../utils/intl-utils.js';
+import type { Locale } from './intl.js';
 import type { ListReaderStats } from './list-manager.js';
 import type { PostsManager } from './posts-manager.js';
 import { postsManagerDescriptors, PostsManagerName } from './posts-manager.js';
@@ -47,13 +49,15 @@ export function comparePostsUsages(a: PostsUsage | undefined, b?: PostsUsage | u
   return 0;
 }
 
-export function postsUsageToString(usage: PostsUsage | undefined) {
+export function postsUsageToString(usage: PostsUsage | undefined, locale: Locale) {
   if (!usage) {
     return '';
   }
 
   return PostsManagerName.options
-    .map((name) => (usage[name] ? `${usage[name]} ${postsManagerDescriptors[name].itemsUnit}` : undefined))
+    .map((name) =>
+      usage[name] ? localize(postsManagerDescriptors[name].itemsUnit, locale, { count: usage[name] }) : undefined,
+    )
     .filter((a) => a)
     .join(', ');
 }

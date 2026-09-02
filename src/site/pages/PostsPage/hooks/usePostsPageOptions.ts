@@ -19,6 +19,8 @@ import type { DateRange, SortDirection } from '../../../../core/utils/common-typ
 import { stringToBool } from '../../../../core/utils/common-utils.js';
 import { dateRangeToString, stringToDateRange } from '../../../../core/utils/date-utils.js';
 import { isObjectEqual } from '../../../../core/utils/object-utils.js';
+import { texts } from '../../../texts/index.js';
+import { localize } from '../../../utils/intl-utils.js';
 import type { PostsPageParams, PostsPageSearchParams } from '../PostsPage.data.js';
 
 const emptySearchParams: PostsPageSearchParams = {
@@ -47,26 +49,26 @@ interface PostsPagePreset extends Option {
 }
 
 const presets = [
-  { value: undefined, label: 'All Posts', searchParams: {} },
+  { value: undefined, label: texts.filtering.allPosts, searchParams: {} },
   {
     value: 'editors-choice',
-    label: "Editor's Choice",
+    label: texts.filtering.editorsChoice,
     searchParams: { sort: 'mark,desc', original: 'true' },
   },
   {
     value: 'edits',
-    label: 'Edits',
+    label: texts.filtering.edits,
     searchParams: { status: 'any' },
   },
-  { value: 'shortlist', label: 'Shortlist', searchParams: { publishable: 'true' } },
-  { value: 'requests', label: 'Requests', searchParams: { requester: 'any', original: 'true' } },
-  { value: 'revisit', label: 'Revisit', searchParams: { mark: 'F' } },
+  { value: 'shortlist', label: texts.filtering.shortlist, searchParams: { publishable: 'true' } },
+  { value: 'requests', label: texts.filtering.requests, searchParams: { requester: 'any', original: 'true' } },
+  { value: 'revisit', label: texts.filtering.revisit, searchParams: { mark: 'F' } },
   {
     value: 'unlocated',
-    label: 'Unlocated',
+    label: texts.filtering.unlocated,
     searchParams: { location: NONE_OPTION.value, original: 'true' },
   },
-  { value: 'violations', label: 'Violations', searchParams: { violation: ANY_OPTION.value } },
+  { value: 'violations', label: texts.filtering.violations, searchParams: { violation: ANY_OPTION.value } },
 ] as const satisfies PostsPagePreset[];
 
 export type PresetKey = (typeof presets)[number]['value'];
@@ -182,7 +184,11 @@ export function usePostsPageOptions(params: PostsPageParams) {
     if (!currentPreset) {
       options = [
         ...options,
-        { value: 'custom', label: `Custom Options (${activeCount()})`, searchParams: currentParams },
+        {
+          value: 'custom',
+          label: localize(texts.filtering.customOptions, { count: activeCount() }),
+          searchParams: currentParams,
+        },
       ];
     }
 
@@ -192,7 +198,7 @@ export function usePostsPageOptions(params: PostsPageParams) {
     ALL_OPTION,
     ...PostType.options
       .filter((item) => !layout().typeKeys || layout().typeKeys?.includes(item))
-      .map((value) => ({ value, label: postTypeDescriptors[value].title }))
+      .map((value) => ({ value, label: localize(postTypeDescriptors[value].title) }))
       .sort((a, b) => a.label.localeCompare(b.label)),
   ];
 

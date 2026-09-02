@@ -1,6 +1,7 @@
 import { type Component, For } from 'solid-js';
 import type { DateRange } from '../../../core/utils/common-types.js';
 import { getDecadeYearRange, isDateInRange } from '../../../core/utils/date-utils.js';
+import { currentLocale } from '../../utils/intl-utils.js';
 import { Button } from '../Button/Button.jsx';
 import styles from './Calendar.module.css';
 
@@ -31,7 +32,7 @@ export const Decade: Component<DecadeProps> = (props) => {
               props.onYearSelect?.(date.getUTCFullYear());
             }}
           >
-            {date.toLocaleDateString('en-GB', { year: 'numeric' })}
+            {date.toLocaleDateString(currentLocale(), { year: 'numeric' })}
           </Button>
         )}
       </For>

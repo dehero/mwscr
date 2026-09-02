@@ -4,6 +4,8 @@ import { compareCommentsByDatetime } from '../../../core/entities/comment.js';
 import { getPublicationsCommentsWithService, type Publication } from '../../../core/entities/publication.js';
 import { groupBy } from '../../../core/utils/common-utils.js';
 import { dateToString, formatDate } from '../../../core/utils/date-utils.js';
+import { texts } from '../../texts/index.js';
+import { currentLocale, localize } from '../../utils/intl-utils.js';
 import { Comment } from '../Comment/Comment.jsx';
 import { Divider } from '../Divider/Divider.js';
 import { Frame } from '../Frame/Frame.js';
@@ -25,14 +27,17 @@ export const PostComments: Component<PostCommentsProps> = (props) => {
 
   return (
     <Frame variant="thin" class={clsx(styles.comments, props.class)}>
-      <For each={commentGroups()} fallback={<span class={styles.fallback}>No comments yet</span>}>
+      <For
+        each={commentGroups()}
+        fallback={<span class={styles.fallback}>{localize(texts.content.noCommentsYet)}</span>}
+      >
         {([dateStr, comments], index) => (
           <>
             <Show when={index() > 0}>
               <Divider />
             </Show>
             <section class={styles.group}>
-              <h3 class={styles.title}>{formatDate(new Date(dateStr))}</h3>
+              <h3 class={styles.title}>{formatDate(new Date(dateStr), currentLocale())}</h3>
               <For each={comments}>
                 {(comment) => (
                   <>

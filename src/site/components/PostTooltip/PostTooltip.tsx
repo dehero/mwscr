@@ -1,13 +1,21 @@
 import { type Component, createMemo, createResource, createSignal, For, Show, splitProps } from 'solid-js';
 import { aspectRatioToReadableText } from '../../../core/entities/media.js';
-import { getPostDateById, postTypeDescriptors, postViolationDescriptors } from '../../../core/entities/post.js';
+import {
+  getPostDateById,
+  postPlacementDescriptors,
+  postTypeDescriptors,
+  postViolationDescriptors,
+} from '../../../core/entities/post.js';
 import type { PostAction } from '../../../core/entities/post-action.js';
 import type { PostInfo } from '../../../core/entities/post-info.js';
 import { createPostPath, parsePostPath, postsManagerDescriptors } from '../../../core/entities/posts-manager.js';
-import { asArray, capitalizeFirstLetter } from '../../../core/utils/common-utils.js';
+import { asArray } from '../../../core/utils/common-utils.js';
 import { formatDate, isValidDate } from '../../../core/utils/date-utils.js';
+import { capitalize } from '../../../core/utils/string-utils.js';
 import { dataManager } from '../../data-managers/manager.js';
 import { postRoute } from '../../routes/post-route.js';
+import { texts } from '../../texts/index.js';
+import { currentLocale, localField, localize } from '../../utils/intl-utils.js';
 import { createDetachedDialogFragment } from '../DetachedDialogsProvider/DetachedDialogsProvider.jsx';
 import { Divider } from '../Divider/Divider.js';
 import { GoldIcon } from '../GoldIcon/GoldIcon.js';
@@ -15,7 +23,6 @@ import { Icon } from '../Icon/Icon.js';
 import { PostContentPreview } from '../PostContentPreview/PostContentPreview.jsx';
 import { PostTypeGlyph } from '../PostTypeGlyph/PostTypeGlyph.jsx';
 import { useToaster } from '../Toaster/Toaster.jsx';
-
 import type { TooltipAction, TooltipProps } from '../Tooltip/Tooltip.js';
 import { Tooltip } from '../Tooltip/Tooltip.js';
 import { UserAvatar } from '../UserAvatar/UserAvatar.jsx';
@@ -72,9 +79,9 @@ export const PostTooltip: Component<PostTooltipProps> = (props) => {
       return;
     }
 
-    const result = await messageBox('Are you sure you want to reset current local changes for this post?', [
-      'Yes',
-      'No',
+    const result = await messageBox(localize(texts.editing.resetLocalChanges), [
+      localize(texts.common.yes),
+      localize(texts.common.no),
     ]);
     if (result === 0) {
       dataManager.findPostsManager(info.managerName)?.resetItemPatch(info.id);
@@ -93,13 +100,13 @@ export const PostTooltip: Component<PostTooltipProps> = (props) => {
       props.onSelectedChange
         ? {
             onExecute: () => props.onSelectedChange?.(!props.selected),
-            label: props.selected ? 'Unselect' : 'Select',
+            label: props.selected ? localize(texts.editing.unselect) : localize(texts.editing.select),
           }
         : undefined,
       info.status !== 'removed' && postActions().includes('order') && info.type === 'merch'
         ? {
             url: createDetachedDialogFragment('merch-ordering', createPostPath(info.managerName, info.id)),
-            label: 'Order',
+            label: localize(texts.support.order),
           }
         : undefined,
       info.status !== 'added'
@@ -108,30 +115,30 @@ export const PostTooltip: Component<PostTooltipProps> = (props) => {
               managerName: info.managerName,
               id: info.id,
             }),
-            label: 'View',
+            label: localize(texts.content.view),
           }
         : undefined,
       info.status !== 'removed' && postActions().includes('edit')
         ? {
             url: createDetachedDialogFragment('post-editing', createPostPath(info.managerName, info.id)),
-            label: 'Edit',
+            label: localize(texts.editing.edit),
           }
         : undefined,
       info.status !== 'removed' && postActions().includes('precise')
         ? {
             url: createDetachedDialogFragment('post-precising', createPostPath(info.managerName, info.id)),
-            label: 'Precise',
+            label: localize(texts.editing.precise),
           }
         : undefined,
-      info.status !== 'removed' && !info.location && postActions().includes('locate')
+      info.status !== 'removed' && !info.locationOptions && postActions().includes('locate')
         ? {
             url: createDetachedDialogFragment('post-location', createPostPath(info.managerName, info.id)),
-            label: 'Locate',
+            label: localize(texts.editing.locate),
           }
         : undefined,
       info.status
         ? {
-            label: info.status === 'added' ? 'Remove' : 'Restore',
+            label: info.status === 'added' ? localize(texts.editing.remove) : localize(texts.editing.restore),
             onExecute: handleReset,
           }
         : undefined,
@@ -152,51 +159,50 @@ export const PostTooltip: Component<PostTooltipProps> = (props) => {
                 class={styles.image}
               />
             </Show>
-            <span class={styles.title}>{postInfo().title || postInfo().id}</span>
+            <span class={styles.title}>{localField(postInfo(), 'title') || postInfo().id}</span>
             <Show when={postInfo().titleRu}>
-              <span class={styles.titleRu}>{postInfo().titleRu}</span>
+              <span class={styles.titleRu}>{localField(postInfo(), 'title', true)}</span>
             </Show>
             <Show when={postInfo().published}>
               <span class={styles.published}>
                 <GoldIcon class={styles.icon} />
-                Published
+                {localize(texts.field.published)}
               </span>
             </Show>
             <Show when={isValidDate(date())}>
               <span class={styles.date}>
-                {formatDate(date()!)}
+                {formatDate(date()!, currentLocale())}
                 <Show when={isValidDate(refDate())}>*</Show>
               </span>
             </Show>
             <Show when={postInfo().type}>
               <span class={styles.type}>
-                {'Type: '}
+                {localize(texts.field.type)}:{' '}
                 <Icon color="combat" size="small" variant="flat" class={styles.icon}>
                   <PostTypeGlyph type={postInfo().type} />
                 </Icon>
-                {postTypeDescriptors[postInfo().type].title}
+                {localize(postTypeDescriptors[postInfo().type].title)}
               </span>
             </Show>
             <Show when={postInfo().aspect}>
               <span class={styles.type}>
-                {'Aspect Ratio: '}
-                {aspectRatioToReadableText(postInfo().aspect)}
+                {localize(texts.field.aspect)}: {aspectRatioToReadableText(postInfo().aspect)}
               </span>
             </Show>
             <Show when={postInfo().authorOptions.length}>
               <span class={styles.author}>
-                {'Author: '}
+                {localize(texts.field.author)}:{' '}
                 <For each={postInfo().authorOptions}>
                   {(option, index) => (
                     <>
                       {index() > 0 ? ', ' : ''}
                       <UserAvatar
                         image={option.image}
-                        title={option.label ?? option.value ?? '?'}
+                        title={localize(option.label)}
                         size="small"
                         class={styles.avatar}
                       />
-                      {option.label}
+                      {localize(option.label)}
                     </>
                   )}
                 </For>
@@ -205,46 +211,63 @@ export const PostTooltip: Component<PostTooltipProps> = (props) => {
             <Show when={postInfo().requesterOption}>
               {(option) => (
                 <span class={styles.author}>
-                  {'Requested By: '}
+                  {localize(texts.post.requestedBy)}:{' '}
                   <UserAvatar
                     image={option().image}
-                    title={option().label ?? option().value ?? '?'}
+                    title={localize(option().label)}
                     size="small"
                     class={styles.avatar}
                   />
-                  {option().label}
+                  {localize(option().label)}
                 </span>
               )}
             </Show>
-            <Show when={postInfo().location}>
-              <span class={styles.location}>Location: {asArray(postInfo().location).join(', ')}</span>
+            <Show when={postInfo().locationOptions?.length}>
+              <span class={styles.location}>
+                {localize(texts.field.location)}
+                {': '}
+                <For each={postInfo().locationOptions}>
+                  {(option, index) => (
+                    <>
+                      {index() > 0 ? '; ' : ''}
+                      {localize(option.label)}
+                    </>
+                  )}
+                </For>
+              </span>
             </Show>
             <Show when={postInfo().locatorOption}>
               {(option) => (
                 <span class={styles.author}>
-                  {'Located By: '}
+                  {localize(texts.user.locator)}:{' '}
                   <UserAvatar
                     image={option().image}
-                    title={option().label ?? option().value ?? '?'}
+                    title={localize(option().label)}
                     size="small"
                     class={styles.avatar}
                   />
-                  {option().label}
+                  {localize(option().label)}
                 </span>
               )}
             </Show>
             <Show when={postInfo().placement}>
-              <span class={styles.placement}>Placement: {postInfo().placement}</span>
+              <span class={styles.placement}>
+                {localize(texts.field.placement)}: {localize(postPlacementDescriptors[postInfo().placement!].title)}
+              </span>
             </Show>
             <Show when={postInfo().engine}>
-              <span class={styles.engine}>Engine: {postInfo().engine}</span>
+              <span class={styles.engine}>
+                {localize(texts.field.engine)}: {postInfo().engine}
+              </span>
             </Show>
             <Show when={postInfo().addon}>
-              <span class={styles.addon}>Addon: {postInfo().addon}</span>
+              <span class={styles.addon}>
+                {localize(texts.field.addon)}: {postInfo().addon}
+              </span>
             </Show>
             <Show when={postInfo().mark}>
               <span class={styles.mark}>
-                {"Editor's Mark: "}
+                {localize(texts.field.mark)}:{' '}
                 <Icon color="combat" size="small" variant="flat" class={styles.icon}>
                   {postInfo().mark?.[0]}
                 </Icon>
@@ -253,7 +276,7 @@ export const PostTooltip: Component<PostTooltipProps> = (props) => {
             </Show>
             <Show when={postInfo().violation}>
               <span class={styles.violation}>
-                {'Violation: '}
+                {localize(texts.field.violation)}:{' '}
                 <For each={asArray(postInfo().violation)}>
                   {(violation, index) => (
                     <>
@@ -261,51 +284,67 @@ export const PostTooltip: Component<PostTooltipProps> = (props) => {
                       <Icon color="health" size="small" variant="flat" class={styles.icon}>
                         {postViolationDescriptors[violation].letter}
                       </Icon>
-                      {postViolationDescriptors[violation].title}
+                      {localize(postViolationDescriptors[violation].title)}
                     </>
                   )}
                 </For>
               </span>
             </Show>
             <Show when={postInfo().tags?.length}>
-              <span class={styles.tags}>Tags: {postInfo().tags?.join(', ')}</span>
+              <span class={styles.tags}>
+                {localize(texts.field.tags)}: {postInfo().tags?.join(', ')}
+              </span>
             </Show>
             <Show when={isValidDate(postInfo().created)}>
-              <span class={styles.created}>Created: {formatDate(postInfo().created!)}</span>
+              <span class={styles.created}>
+                {localize(texts.field.created)}: {formatDate(postInfo().created!, currentLocale())}
+              </span>
             </Show>
             <Show when={postInfo().rating}>
-              <span class={styles.rating}>Rating: {postInfo().rating}</span>
+              <span class={styles.rating}>
+                {localize(texts.metrics.rating)}: {postInfo().rating}
+              </span>
             </Show>
             <Show when={postInfo().likes}>
-              <span class={styles.likes}>Likes: {postInfo().likes}</span>
+              <span class={styles.likes}>
+                {localize(texts.metrics.likes)}: {postInfo().likes}
+              </span>
             </Show>
             <Show when={postInfo().views}>
-              <span class={styles.views}>Views: {postInfo().views}</span>
+              <span class={styles.views}>
+                {localize(texts.metrics.views)}: {postInfo().views}
+              </span>
             </Show>
             <Show when={postInfo().followers}>
-              <span class={styles.views}>Followers: {postInfo().followers}</span>
+              <span class={styles.views}>
+                {localize(texts.metrics.followers)}: {postInfo().followers}
+              </span>
             </Show>
             <Show when={postInfo().engagement}>
-              <span class={styles.engagement}>Engagement: {postInfo().engagement}</span>
+              <span class={styles.engagement}>
+                {localize(texts.metrics.engagement)}: {postInfo().engagement}
+              </span>
             </Show>
             <Show when={postInfo().commentCount}>
-              <span class={styles.commentCount}>Comments: {postInfo().commentCount}</span>
+              <span class={styles.commentCount}>
+                {localize(texts.metrics.comments)}: {postInfo().commentCount}
+              </span>
             </Show>
 
             <Show when={isValidDate(refDate()) || postInfo().publishableErrors || postInfo().status}>
               <Divider class={styles.divider} />
 
               <Show when={isValidDate(refDate())}>
-                <span class={styles.date}>* {formatDate(refDate()!)}</span>
+                <span class={styles.date}>* {formatDate(refDate()!, currentLocale())}</span>
               </Show>
 
               <Show when={postInfo().status}>
                 {(status) => (
                   <span class={styles.status}>
                     <Icon color="attribute" size="small" variant="flat">
-                      {capitalizeFirstLetter(status())[0]}
+                      {capitalize(status())[0]}
                     </Icon>{' '}
-                    {capitalizeFirstLetter(status())}
+                    {capitalize(status())}
                   </span>
                 )}
               </Show>
@@ -316,7 +355,7 @@ export const PostTooltip: Component<PostTooltipProps> = (props) => {
                     <Icon color="attribute" size="small" variant="flat">
                       !
                     </Icon>{' '}
-                    {capitalizeFirstLetter(errors().join(', '))}
+                    {capitalize(errors().join(', '))}
                   </p>
                 )}
               </Show>

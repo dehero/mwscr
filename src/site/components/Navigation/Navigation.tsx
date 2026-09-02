@@ -8,6 +8,8 @@ import { homeRoute } from '../../routes/home-route.js';
 import type { RouteMatch } from '../../routes/index.js';
 import { postsRoute } from '../../routes/posts-route.js';
 import { usersRoute } from '../../routes/users-route.js';
+import { texts } from '../../texts/index.js';
+import { getLocaleSwitchUrl, localize, switchLocale } from '../../utils/intl-utils.js';
 import { AppContext } from '../App/App.js';
 import { Button } from '../Button/Button.js';
 // import { DataPatchSelect } from '../DataPatchSelect/DataPatchSelect.jsx';
@@ -78,6 +80,7 @@ export const Navigation: Component = () => {
   const currentMatches = useCurrentMatches();
   const pathname = () => location.pathname;
   const { pageTitle } = useContext(AppContext);
+  const localeSwitchUrl = getLocaleSwitchUrl();
 
   const [patchSize] = useLocalPatch();
 
@@ -132,15 +135,18 @@ export const Navigation: Component = () => {
         {/* <DataPatchSelect class={styles.patch} /> */}
 
         <Button href={createDetachedDialogFragment('contributing', patchSize() > 0 ? 'patch' : 'variants')}>
-          <Show fallback="Contribute" when={patchSize() > 0}>
-            Contribute ({patchSize()})
+          <Show fallback={localize(texts.contributing.contribute)} when={patchSize() > 0}>
+            {localize(texts.contributing.contribute)} ({patchSize()})
           </Show>
+        </Button>
+        <Button href={localeSwitchUrl} onClick={switchLocale}>
+          {localize(texts.app.language, true)}
         </Button>
       </div>
       <For each={options()}>
         {(option) => (
           <Button href={option.value} active={option.value === selectedOption()?.value} class={styles.button}>
-            {option.label}
+            {localize(option.label)}
           </Button>
         )}
       </For>
@@ -156,9 +162,9 @@ export const Navigation: Component = () => {
             {(breadcrumb, index) => (
               <>
                 {index() > 0 && ' / '}
-                <Show when={index() < breadcrumbs().length - 1} fallback={breadcrumb.label}>
+                <Show when={index() < breadcrumbs().length - 1} fallback={localize(breadcrumb.label)}>
                   <a href={breadcrumb.value} class={styles.link}>
-                    {breadcrumb.label}
+                    {localize(breadcrumb.label)}
                   </a>
                 </Show>
               </>

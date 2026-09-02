@@ -2,6 +2,8 @@ import { debounce } from '@solid-primitives/scheduled';
 import clsx from 'clsx';
 import type { Component, JSX } from 'solid-js';
 import { createEffect, createSignal, onCleanup, onMount, Show } from 'solid-js';
+import { texts } from '../../texts/index.js';
+import { localize } from '../../utils/intl-utils.js';
 import { Frame } from '../Frame/Frame.js';
 import styles from './Slider.module.css';
 
@@ -157,7 +159,7 @@ export const Slider: Component<SliderProps> = (props) => {
         onMouseDown={decrementHold.startPress}
         onTouchStart={decrementHold.startPress}
         disabled={props.disabled}
-        aria-label="Decrease value"
+        aria-label={localize(texts.component.decreaseValue)}
       >
         <Show when={props.minLabel}>
           <span class={styles.buttonLabel}>{props.minLabel}</span>
@@ -183,7 +185,7 @@ export const Slider: Component<SliderProps> = (props) => {
         onMouseDown={incrementHold.startPress}
         onTouchStart={incrementHold.startPress}
         disabled={props.disabled}
-        aria-label="Increase value"
+        aria-label={localize(texts.component.increaseValue)}
       >
         <Show when={props.maxLabel}>
           <span class={styles.buttonLabel}>{props.maxLabel}</span>

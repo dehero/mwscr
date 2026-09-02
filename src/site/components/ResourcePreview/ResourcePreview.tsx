@@ -6,6 +6,8 @@ import type { MediaAspectRatio } from '../../../core/entities/media.js';
 // import { parseResourceUrl } from '../../../core/entities/resource.js';
 import { getResourcePreviewUrl } from '../../data-managers/resources.js';
 import YellowExclamationMark from '../../images/exclamation.svg';
+import { texts } from '../../texts/index.js';
+import { localize } from '../../utils/intl-utils.js';
 import type { FrameState } from '../Frame/Frame.js';
 import { Frame } from '../Frame/Frame.js';
 import { useToaster } from '../Toaster/Toaster.js';
@@ -40,7 +42,7 @@ export const ResourcePreview: Component<ResourcePreviewProps> = (props) => {
   };
 
   const handleError = () => {
-    addToast(`Failed to load preview: ${url()}`);
+    addToast(localize(texts.content.failedToLoadPreview, { url: url() }));
     if (ref && ref.src !== YellowExclamationMark) {
       ref.src = YellowExclamationMark;
     }
@@ -57,7 +59,7 @@ export const ResourcePreview: Component<ResourcePreviewProps> = (props) => {
 
   const copyUrl = () => {
     writeClipboard(props.url);
-    addToast('Resource URL copied to clipboard');
+    addToast(localize(texts.content.resourceUrlCopied));
   };
 
   return (
@@ -93,8 +95,8 @@ export const ResourcePreview: Component<ResourcePreviewProps> = (props) => {
             <Tooltip
               forRef={ref}
               actions={[
-                { label: 'Copy', onExecute: copyUrl },
-                ...(props.onEdit ? [{ label: 'Edit', onExecute: props.onEdit }] : []),
+                { label: localize(texts.common.copy), onExecute: copyUrl },
+                ...(props.onEdit ? [{ label: localize(texts.editing.edit), onExecute: props.onEdit }] : []),
               ]}
             >
               {props.url}

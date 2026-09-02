@@ -1,17 +1,17 @@
+import { useLocation } from '@solidjs/router';
 import { createEffect, onCleanup, onMount } from 'solid-js';
 import { isServer } from 'solid-js/web';
-import { useLocation } from '@solidjs/router';
 
 const COUNTER_ID = 97623848;
 const SCRIPT_SRC = 'https://mc.yandex.ru/metrika/tag.js';
 
 type YmMethod = 'init' | 'hit' | 'reachGoal' | 'params';
 
-type Ym = {
+interface Ym {
   (id: number, method: YmMethod, ...args: unknown[]): void;
   a?: unknown[][];
   l?: number;
-};
+}
 
 declare global {
   interface Window {
@@ -62,9 +62,10 @@ const scheduleWhenIdle = (callback: () => void) => {
     return () => undefined;
   }
 
+  // eslint-disable-next-line @typescript-eslint/no-unnecessary-condition
   if (window.requestIdleCallback) {
     const handle = window.requestIdleCallback(callback, { timeout: 2000 });
-    return () => window.cancelIdleCallback?.(handle);
+    return () => window.cancelIdleCallback(handle);
   }
 
   const timeoutId = window.setTimeout(callback, 1500);

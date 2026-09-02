@@ -3,11 +3,12 @@ import { createPostPath } from '../../core/entities/posts-manager.js';
 import type { SiteRoute } from '../../core/entities/site-route.js';
 import type { PostPageData, PostPageParams } from '../pages/PostPage/PostPage.data.js';
 import { queryPostPageData } from '../pages/PostPage/PostPage.data.js';
+import { texts } from '../texts/index.js';
 import { postsRoute } from './posts-route.js';
 
 export const postRoute: SiteRoute<PostPageParams, PostPageData> = {
   path: '/:managerName/:id',
-  info: (params) => ({ label: params.id || 'Post' }),
+  info: (params) => ({ label: params.id || texts.post.post }),
   createUrl: (params) => {
     const { managerName, id, ...rest } = params;
     const searchParams = new URLSearchParams(

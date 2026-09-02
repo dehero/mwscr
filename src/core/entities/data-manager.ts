@@ -6,10 +6,9 @@ import { isNestedLocation } from './location.js';
 import type { LocationInfo } from './location-info.js';
 import { createLocationInfos } from './location-info.js';
 import type { LocationsReader } from './locations-reader.js';
-import { PostType, type PostLocation } from './post.js';
+import { type PostLocation, PostType } from './post.js';
 import type { PostInfo, PostInfoSelection, SelectPostInfosParams } from './post-info.js';
 import { createPostInfos, selectPostInfos } from './post-info.js';
-
 import type { PostsManager, PostsManagerName } from './posts-manager.js';
 import type { PostsUsage } from './posts-usage.js';
 import { PUBLICATION_IS_RECENT_DAYS } from './publication.js';

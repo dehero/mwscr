@@ -8,7 +8,7 @@ export function needCertainAuthor(postAuthor: string): PostRule {
   return (post: Post) => {
     const authors = asArray(post.author);
     if (!authors.includes(postAuthor)) {
-      return `need one of authors to be "${postAuthor}", got ${listItems(authors, true)}`;
+      return `need one of authors to be "${postAuthor}", got ${listItems(authors, { quote: true })}`;
     }
 
     return undefined;
@@ -18,7 +18,7 @@ export function needCertainAuthor(postAuthor: string): PostRule {
 export function needCertainType(...postTypes: PostType[]): PostRule {
   return (post: Post) => {
     if (!postTypes.includes(post.type)) {
-      return `need post type to be ${listItems(postTypes, true)}, got "${post.type}"`;
+      return `need post type to be ${listItems(postTypes, { quote: true })}, got "${post.type}"`;
     }
 
     return undefined;

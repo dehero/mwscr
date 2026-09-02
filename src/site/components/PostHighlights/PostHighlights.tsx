@@ -1,36 +1,23 @@
 import clsx from 'clsx';
 import { type Component, For, Show } from 'solid-js';
+import type { IntlText } from '../../../core/entities/intl.js';
 import type { PostInfo, PostInfoSelection } from '../../../core/entities/post-info.js';
 import { listItems } from '../../../core/utils/common-utils.js';
+import { capitalize } from '../../../core/utils/string-utils.js';
+import { texts } from '../../texts/index.js';
+import { isRu, localize } from '../../utils/intl-utils.js';
 import { Label } from '../Label/Label.js';
 import { PostPreview } from '../PostPreview/PostPreview.js';
 import styles from './PostHighlights.module.css';
 
-export const POST_HIGHIGHT_CHARACTERISTICS = ['First', 'Last', 'Less', 'Top'] as const;
-export const POST_HIGHIGHT_TYPES = [
-  'Post',
-  'Proposal',
-  'Request',
-  'News',
-  'Redrawing',
-  'Achievement',
-  'Mention',
-  'Photoshop',
-  'Outtakes',
-  'Merch',
-] as const;
-
-export type PostHighlightCharacteristic = (typeof POST_HIGHIGHT_CHARACTERISTICS)[number];
-export type PostHighlightType = (typeof POST_HIGHIGHT_TYPES)[number];
-
 export interface PostHighlightsItem {
-  label: `${`${PostHighlightCharacteristic | string}` | PostHighlightCharacteristic} ${PostHighlightType}`;
+  label: IntlText;
   primary?: boolean;
   selection?: PostInfoSelection;
 }
 
 interface PostHighlightsGroup {
-  labels: Partial<Record<PostHighlightType, string[]>>;
+  labels: Partial<Record<string, string[]>>;
   primary?: boolean;
   postInfo: PostInfo;
 }
@@ -40,20 +27,22 @@ export interface PostPreviewsProps {
   class?: string;
 }
 
-function createGroupLabel(labels: Partial<Record<PostHighlightType, string[]>>) {
-  return Object.entries(labels)
-    .map(([type, label]) => `${listItems(label, false, 'and')} ${type}`)
+function createGroupLabel(labels: Partial<Record<string, string[]>>) {
+  const label = Object.entries(labels)
+    .map(([postfix, prefixes]) =>
+      prefixes ? `${listItems(prefixes, { union: localize(texts.common.and) })} ${postfix}` : postfix,
+    )
     .join(', ');
+
+  return isRu() ? capitalize(label.toLocaleLowerCase()) : label;
 }
 
-function splitPostLabel(label: string) {
+function splitPostLabel(label: string): [string, string] {
   const parts = label.split(' ');
-  const typeStr = parts[parts.length - 1] as PostHighlightType;
+  const postfix = parts[parts.length - 1] ?? '';
+  const prefix = parts.slice(0, -1).join(' ');
 
-  if (POST_HIGHIGHT_TYPES.includes(typeStr)) {
-    return { label: parts.slice(0, -1).join(' '), type: typeStr };
-  }
-  return { label, type: 'Post' as PostHighlightType };
+  return [prefix, postfix];
 }
 
 export const PostHighlights: Component<PostPreviewsProps> = (props) => {
@@ -61,14 +50,13 @@ export const PostHighlights: Component<PostPreviewsProps> = (props) => {
     Object.values(
       props.items.reduce(
         (acc, item) => {
-          const { selection, primary } = item;
-          const postInfo = selection?.items[0];
+          const postInfo = item.selection?.items[0];
 
           if (!postInfo) {
             return acc;
           }
 
-          const { label, type } = splitPostLabel(item.label);
+          const [prefix, postfix] = splitPostLabel(localize(item.label));
           const id = `${postInfo.managerName}-${postInfo.id}`;
           const existing = acc[id];
 
@@ -78,9 +66,9 @@ export const PostHighlights: Component<PostPreviewsProps> = (props) => {
               postInfo,
               labels: {
                 ...existing?.labels,
-                [type]: [...(existing?.labels[type] ?? []), label],
+                [postfix]: [...(existing?.labels[postfix] ?? []), prefix],
               },
-              primary: primary || acc[id]?.primary,
+              primary: item.primary || acc[id]?.primary,
             },
           };
         },

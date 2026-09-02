@@ -2,6 +2,8 @@ import { type Component, Show } from 'solid-js';
 import { uploadFiles } from '../../../core/data-managers/uploads-manager.js';
 import { stripCommonExtension } from '../../../core/utils/string-utils.js';
 import { getResourceDataUrl } from '../../data-managers/resources.js';
+import { texts } from '../../texts/index.js';
+import { localize } from '../../utils/intl-utils.js';
 import { Button } from '../Button/Button.jsx';
 import { createDetachedDialogFragment } from '../DetachedDialogsProvider/DetachedDialogsProvider.jsx';
 import type { DialogProps } from '../Dialog/Dialog.jsx';
@@ -25,7 +27,7 @@ export const ImageEditingDialog: Component<ImageEditingDialogProps> = (props) =>
 
   const handleConfirm = async () => {
     if (!editorRef?.hasChanges()) {
-      addToast('No changes to save.');
+      addToast(localize(texts.editing.noChangesToSave));
       return;
     }
 
@@ -76,8 +78,11 @@ export const ImageEditingDialog: Component<ImageEditingDialogProps> = (props) =>
   return (
     <Dialog
       {...props}
-      title="Edit Image"
-      actions={[<Button onClick={handleConfirm}>OK</Button>, <Button onClick={props.onClose}>Cancel</Button>]}
+      title={localize(texts.component.editImage)}
+      actions={[
+        <Button onClick={handleConfirm}>{localize(texts.common.ok)}</Button>,
+        <Button onClick={props.onClose}>{localize(texts.common.cancel)}</Button>,
+      ]}
       modal
       class={styles.dialog}
       contentClass={styles.container}
@@ -87,15 +92,17 @@ export const ImageEditingDialog: Component<ImageEditingDialogProps> = (props) =>
         fallback={
           <div class={styles.fallbackWrapper}>
             <p class={styles.fallback}>
-              You have no access to this resource. Check out{' '}
-              <a
-                href={createDetachedDialogFragment('contributing', 'settings')}
-                class={styles.link}
-                onClick={handleClick}
-              >
-                editor's key
-              </a>
-              {' setting.'}
+              {localize(texts.editing.noResourceAccess, {
+                setting: (parts) => (
+                  <a
+                    href={createDetachedDialogFragment('contributing', 'settings')}
+                    class={styles.link}
+                    onClick={handleClick}
+                  >
+                    {parts}
+                  </a>
+                ),
+              })}
             </p>
           </div>
         }

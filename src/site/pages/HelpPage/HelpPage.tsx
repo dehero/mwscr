@@ -3,7 +3,6 @@ import { createAsync } from '@solidjs/router';
 import { createEffect, createMemo, createResource, createSignal, For, untrack } from 'solid-js';
 import type { SiteRoutePage } from '../../../core/entities/site-route.js';
 import { TOPIC_INDEX_ID, type TopicEntry } from '../../../core/entities/topic.js';
-import { compareTopicInfosByTitle } from '../../../core/entities/topic-info.js';
 import { AppPage } from '../../components/App/App.jsx';
 import { createDetachedDialogFragment } from '../../components/DetachedDialogsProvider/DetachedDialogsProvider.jsx';
 import { Divider } from '../../components/Divider/Divider.jsx';
@@ -11,6 +10,8 @@ import { Frame } from '../../components/Frame/Frame.jsx';
 import { TopicMessage } from '../../components/TopicMessage/TopicMessage.jsx';
 import { dataManager } from '../../data-managers/manager.js';
 import { helpRoute } from '../../routes/help-route.js';
+import { texts } from '../../texts/index.js';
+import { localField, localize } from '../../utils/intl-utils.js';
 import type { HelpPageData, HelpPageParams } from './HelpPage.data.js';
 import { queryHelpPageData } from './HelpPage.data.js';
 import styles from './HelpPage.module.css';
@@ -51,7 +52,7 @@ export const HelpPage: SiteRoutePage<HelpPageParams, HelpPageData> = (props) => 
   const openTopicInfos = () =>
     topicInfos()
       ?.filter((info) => openTopicIds().has(info.id))
-      .sort(compareTopicInfosByTitle('asc'));
+      .sort((a, b) => localField(a, 'title')?.localeCompare(localField(b, 'title') ?? '') ?? 0);
 
   createEffect(() => {
     const entries = untrack(() => messageTopicEntries());
@@ -96,14 +97,15 @@ export const HelpPage: SiteRoutePage<HelpPageParams, HelpPageData> = (props) => 
       <AppPage
         title={
           props.params.topicId && props.params.topicId !== TOPIC_INDEX_ID
-            ? data()?.topic?.title ?? props.params.topicId
-            : data()?.indexTopic.title ?? TOPIC_INDEX_ID
+            ? localField(data()?.topic, 'title') ?? props.params.topicId
+            : localField(data()?.indexTopic, 'title') ?? TOPIC_INDEX_ID
         }
         description={(() => {
-          const topicTitle = data()?.topic?.title || data()?.indexTopic.title || props.params.topicId;
+          const topicTitle =
+            localField(data()?.topic, 'title') || localField(data()?.indexTopic, 'title') || props.params.topicId;
           return topicTitle
-            ? `Information about "${topicTitle}" in Morrowind Screenshots project.`
-            : 'Information about Morrowind Screenshots project.';
+            ? localize(texts.app.helpTopicDescription, { topicTitle })
+            : localize(texts.app.helpDescription);
         })()}
         loading={!data() || topicInfos.loading}
       />
@@ -115,17 +117,17 @@ export const HelpPage: SiteRoutePage<HelpPageParams, HelpPageData> = (props) => 
         <Frame class={styles.topics} component="ul">
           <li>
             <a class={styles.topic} href={createDetachedDialogFragment('subscription')}>
-              Subscribe
+              {localize(texts.support.subscribe)}
             </a>
           </li>
           <li>
             <a class={styles.topic} href={createDetachedDialogFragment('contributing')}>
-              Contribute
+              {localize(texts.contributing.contribute)}
             </a>
           </li>
           <li>
             <a class={styles.topic} href={createDetachedDialogFragment('sponsorship')}>
-              Sponsor
+              {localize(texts.support.sponsor)}
             </a>
           </li>
           <li>
@@ -135,7 +137,7 @@ export const HelpPage: SiteRoutePage<HelpPageParams, HelpPageData> = (props) => 
             {(info) => (
               <li>
                 <a class={styles.topic} href={helpRoute.createUrl({ topicId: info.id })}>
-                  {info.title}
+                  {localField(info, 'title')}
                 </a>
               </li>
             )}

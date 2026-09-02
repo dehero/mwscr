@@ -1,4 +1,7 @@
+import { texts } from '../texts/index.js';
 import { asArray } from '../utils/common-utils.js';
+import type { IntlText } from './intl.js';
+import type { Option } from './option.js';
 import type { PostAddon } from './post.js';
 
 export type LocationCell = `${number} ${number}`;
@@ -15,6 +18,26 @@ export interface Location {
   type: LocationType;
   addon?: PostAddon;
   cell?: LocationCell | LocationCell[];
+}
+
+interface LocationTypeDescriptor {
+  title: IntlText;
+}
+
+export type LocationEntry = [string, Location | undefined, ...unknown[]];
+
+export const locationTypeDescriptors = Object.freeze<Record<LocationType, LocationTypeDescriptor>>({
+  interior: { title: texts.location.interior },
+  exterior: { title: texts.location.exterior },
+  virtual: { title: texts.location.virtual },
+  region: { title: texts.location.region },
+});
+
+export function createLocationOption(location: LocationEntry): Option {
+  return {
+    value: location[0],
+    label: [location[1]?.title ?? location[0], location[1]?.titleRu],
+  };
 }
 
 export function locationMatchesString(a: Location, searchString: string): boolean {

@@ -7,8 +7,10 @@ import { postTypeDescriptors } from '../../../core/entities/post.js';
 import { postsManagerDescriptors, PostsManagerName } from '../../../core/entities/posts-manager.js';
 import { isPostsUsageEmpty } from '../../../core/entities/posts-usage.js';
 import type { SiteRoutePage } from '../../../core/entities/site-route.js';
+import { userRoleDescriptors } from '../../../core/entities/user.js';
 import { services } from '../../../core/services/index.js';
 import { telegram, TELEGRAM_BOT_NAME } from '../../../core/services/telegram.js';
+import { capitalize } from '../../../core/utils/string-utils.js';
 import { AppPage } from '../../components/App/App.jsx';
 import { Button } from '../../components/Button/Button.jsx';
 import { CommentPreviews } from '../../components/CommentPreviews/CommentPreviews.jsx';
@@ -26,6 +28,8 @@ import { UserAvatar } from '../../components/UserAvatar/UserAvatar.jsx';
 import { dataManager } from '../../data-managers/manager.js';
 import { useLocalPatch } from '../../hooks/useLocalPatch.js';
 import { postsRoute } from '../../routes/posts-route.js';
+import { texts } from '../../texts/index.js';
+import { localField, localize } from '../../utils/intl-utils.js';
 import { getPostsPageSearchParamsFromSelectionParams } from '../PostsPage/PostsPage.data.js';
 import type { UserPageData, UserPageParams } from './UserPage.data.js';
 import { queryUserPageData } from './UserPage.data.js';
@@ -38,13 +42,16 @@ export const UserPage: SiteRoutePage<UserPageParams, UserPageData> = (props) => 
 
   const copyIdToClipboard = () => {
     writeClipboard(props.params.id);
-    addToast('User ID copied to clipboard');
+    addToast(localize(texts.content.userIdCopied));
   };
 
   const [userInfo, { refetch }] = createResource(
     () => props.params.id,
     (id) => dataManager.getUserInfo(id),
   );
+
+  const title = () => localField(userInfo(), 'title') || userInfo()?.id || localize(texts.content.unknown);
+  const secondTitle = () => (userInfo() ? localField(userInfo()!, 'title', true) : undefined);
 
   useLocalPatch(() => {
     refetch();
@@ -54,10 +61,10 @@ export const UserPage: SiteRoutePage<UserPageParams, UserPageData> = (props) => 
   return (
     <>
       <AppPage
-        title={userInfo()?.title ?? props.params.id}
-        description={`Information, profiles, comments, posts, requests and statistics of "${
-          userInfo()?.title ?? props.params.id
-        }" in Morrowind Screenshots project.`}
+        title={title()}
+        description={localize(texts.app.userDescription, {
+          title: title(),
+        })}
         loading={!data() || userInfo.loading}
       />
 
@@ -71,15 +78,19 @@ export const UserPage: SiteRoutePage<UserPageParams, UserPageData> = (props) => 
 
               <div class={styles.info}>
                 <section class={styles.titles}>
-                  <p class={styles.title}>{userInfo().title}</p>
+                  <p class={styles.title}>{title()}</p>
 
-                  <Show when={userInfo().titleRu && userInfo().titleRu !== userInfo().title}>
-                    <p class={styles.titleRu}>{userInfo().titleRu}</p>
+                  <Show when={secondTitle() && secondTitle() !== title()}>
+                    <p class={styles.titleRu}>{secondTitle()}</p>
                   </Show>
                 </section>
 
                 <Show when={userInfo().roles.length > 0}>
-                  <p class={styles.roles}>{userInfo().roles.join(', ')}</p>
+                  <p class={styles.roles}>
+                    {userInfo()
+                      .roles.map((role) => localize(userRoleDescriptors[role].title).toLocaleLowerCase())
+                      .join(', ')}
+                  </p>
                 </Show>
 
                 <Show when={data()?.profiles && data()!.profiles!.length > 0}>
@@ -124,10 +135,10 @@ export const UserPage: SiteRoutePage<UserPageParams, UserPageData> = (props) => 
 
                 <Table
                   class={styles.attributes}
-                  label="Authored"
+                  label={localize(texts.metrics.authored)}
                   rows={[
                     {
-                      label: 'Posts',
+                      label: localize(texts.post.posts),
                       value: userInfo().authored?.posts
                         ? () => (
                             <>
@@ -139,7 +150,7 @@ export const UserPage: SiteRoutePage<UserPageParams, UserPageData> = (props) => 
                       link: postsRoute.createUrl({ managerName: 'posts', author: props.params.id, original: 'true' }),
                     },
                     ...(data()?.lastExtraPostInfos.map(([type, selection]) => ({
-                      label: postTypeDescriptors[type].titleMultiple,
+                      label: localize(postTypeDescriptors[type].titleMultiple),
                       link: postsRoute.createUrl({
                         managerName: 'extras',
                         ...getPostsPageSearchParamsFromSelectionParams(selection?.params),
@@ -154,12 +165,12 @@ export const UserPage: SiteRoutePage<UserPageParams, UserPageData> = (props) => 
                         : undefined,
                     })) ?? []),
                     {
-                      label: 'Drafts',
+                      label: localize(texts.postsManager.drafts),
                       value: userInfo().authored?.drafts,
                       link: postsRoute.createUrl({ managerName: 'drafts', author: props.params.id }),
                     },
                     {
-                      label: 'Rejects',
+                      label: localize(texts.postsManager.rejects),
                       value: userInfo().authored?.rejects,
                       link: postsRoute.createUrl({ managerName: 'rejects', author: props.params.id }),
                     },
@@ -172,9 +183,9 @@ export const UserPage: SiteRoutePage<UserPageParams, UserPageData> = (props) => 
 
                 <Table
                   class={styles.attributes}
-                  label="Located"
+                  label={localize(texts.post.located)}
                   rows={PostsManagerName.options.map((name) => ({
-                    label: postsManagerDescriptors[name].title,
+                    label: localize(postsManagerDescriptors[name].title),
                     value: userInfo().located?.[name],
                     link: postsRoute.createUrl({
                       managerName: name,
@@ -191,9 +202,9 @@ export const UserPage: SiteRoutePage<UserPageParams, UserPageData> = (props) => 
 
                 <Table
                   class={styles.attributes}
-                  label="Requested"
+                  label={localize(texts.post.requested)}
                   rows={PostsManagerName.options.map((name) => ({
-                    label: postsManagerDescriptors[name].title,
+                    label: localize(postsManagerDescriptors[name].title),
                     value: userInfo().requested?.[name],
                     link: postsRoute.createUrl({
                       managerName: name,
@@ -210,9 +221,9 @@ export const UserPage: SiteRoutePage<UserPageParams, UserPageData> = (props) => 
 
                 <Table
                   class={styles.attributes}
-                  label="Commented"
+                  label={localize(texts.metrics.commented)}
                   rows={PostsManagerName.options.map((name) => ({
-                    label: postsManagerDescriptors[name].title,
+                    label: localize(postsManagerDescriptors[name].title),
                     value: userInfo().commented?.[name],
                   }))}
                 />
@@ -222,11 +233,11 @@ export const UserPage: SiteRoutePage<UserPageParams, UserPageData> = (props) => 
                 <Divider />
 
                 <Table
-                  label="Average Content Score"
+                  label={localize(texts.metrics.averageContentScore)}
                   class={styles.attributes}
                   rows={[
                     {
-                      label: "Editor's Mark",
+                      label: localize(texts.field.mark),
                       value: userInfo().mark
                         ? () => (
                             <>
@@ -243,7 +254,7 @@ export const UserPage: SiteRoutePage<UserPageParams, UserPageData> = (props) => 
                           )
                         : undefined,
                     },
-                    { label: 'Rating', value: userInfo().rating },
+                    { label: localize(texts.metrics.rating), value: userInfo().rating },
                   ]}
                 />
               </Show>
@@ -252,12 +263,12 @@ export const UserPage: SiteRoutePage<UserPageParams, UserPageData> = (props) => 
                 <Divider />
 
                 <Table
-                  label="Total Reactions"
+                  label={localize(texts.metrics.summaryCommunityActivity)}
                   class={styles.attributes}
                   rows={[
-                    { label: 'Likes', value: userInfo().likes },
-                    { label: 'Views', value: userInfo().views },
-                    { label: 'Average Engagement', value: userInfo().engagement },
+                    { label: localize(texts.metrics.likes), value: userInfo().likes },
+                    { label: localize(texts.metrics.views), value: userInfo().views },
+                    { label: localize(texts.metrics.averageEngagement), value: userInfo().engagement },
                   ]}
                 />
               </Show>
@@ -266,10 +277,13 @@ export const UserPage: SiteRoutePage<UserPageParams, UserPageData> = (props) => 
                 <Divider />
 
                 <p class={styles.talkedToTelegramBot}>
-                  Talked to{' '}
-                  <a href={telegram.getUserProfileUrl(TELEGRAM_BOT_NAME)} class={styles.link}>
-                    Ordinator
-                  </a>
+                  {localize(texts.user.talkedToOrdinatorWithLink, {
+                    link: (parts) => (
+                      <a href={telegram.getUserProfileUrl(TELEGRAM_BOT_NAME)} class={styles.link}>
+                        {parts}
+                      </a>
+                    ),
+                  })}
                 </p>
               </Show>
 
@@ -278,7 +292,7 @@ export const UserPage: SiteRoutePage<UserPageParams, UserPageData> = (props) => 
               <div class={styles.id}>
                 <Input value={props.params.id} readonly />
                 <Button class={styles.copy} onClick={copyIdToClipboard}>
-                  Copy
+                  {localize(texts.common.copy)}
                 </Button>
               </div>
             </Frame>
@@ -303,19 +317,26 @@ export const UserPage: SiteRoutePage<UserPageParams, UserPageData> = (props) => 
                   data()?.lastRejectedPostInfo ||
                   data()?.lastRejectedRequestInfo
                 }
-                fallback={<p class={styles.fallbackText}>No posts yet</p>}
+                fallback={<p class={styles.fallbackText}>{localize(texts.content.noPostsYet)}</p>}
               >
                 <PostHighlights
                   class={styles.postHighlights}
                   items={[
-                    { label: 'Last Post', primary: true, selection: data()?.lastPostInfo },
-                    { label: 'Last Original Post', primary: true, selection: data()?.lastOriginalPostInfo },
-                    { label: 'First Post', selection: data()?.firstPostInfo },
-                    { label: 'Top Rated Post', selection: data()?.topRatedPostInfo },
-                    { label: "Editor's Choice Post", selection: data()?.editorsChoicePostInfo },
-                    { label: 'Top Liked Post', selection: data()?.topLikedPostInfo },
-                    { label: 'Less Liked Post', selection: data()?.lessLikedPostInfo },
-                    { label: 'Last Fulfilled Request', selection: data()?.lastFulfilledPostInfo },
+                    { label: texts.highlights.lastPost, primary: true, selection: data()?.lastPostInfo },
+                    {
+                      label: texts.highlights.lastOriginalPost,
+                      primary: true,
+                      selection: data()?.lastOriginalPostInfo,
+                    },
+                    { label: texts.highlights.firstPost, selection: data()?.firstPostInfo },
+                    { label: texts.highlights.topRatedPost, selection: data()?.topRatedPostInfo },
+                    { label: texts.highlights.editorsChoicePost, selection: data()?.editorsChoicePostInfo },
+                    { label: texts.highlights.topLikedPost, selection: data()?.topLikedPostInfo },
+                    { label: texts.highlights.lessLikedPost, selection: data()?.lessLikedPostInfo },
+                    {
+                      label: texts.highlights.lastFulfilledRequest,
+                      selection: data()?.lastFulfilledPostInfo,
+                    },
                   ]}
                 />
 
@@ -324,7 +345,7 @@ export const UserPage: SiteRoutePage<UserPageParams, UserPageData> = (props) => 
                   items={
                     data()?.lastExtraPostInfos.map(
                       ([type, selection]): PostHighlightsItem => ({
-                        label: `Last ${postTypeDescriptors[type].title}` as PostHighlightsItem['label'],
+                        label: texts.highlights[`last${capitalize(type)}`],
                         primary: true,
                         selection,
                       }),
@@ -335,11 +356,18 @@ export const UserPage: SiteRoutePage<UserPageParams, UserPageData> = (props) => 
                 <PostHighlights
                   class={styles.postHighlights}
                   items={[
-                    { label: 'Last Proposal', primary: true, selection: data()?.lastProposedPostInfo },
-                    { label: 'Last Located Post', selection: data()?.lastLocatedPostInfo },
-                    { label: 'Last Pending Request', selection: data()?.lastRequestedPostInfo },
-                    { label: 'Last Rejected Proposal', selection: data()?.lastRejectedPostInfo },
-                    { label: 'Last Rejected Request', selection: data()?.lastRejectedRequestInfo },
+                    {
+                      label: texts.highlights.lastDraft,
+                      primary: true,
+                      selection: data()?.lastProposedPostInfo,
+                    },
+                    { label: texts.highlights.lastLocatedPost, selection: data()?.lastLocatedPostInfo },
+                    { label: texts.highlights.lastPendingRequest, selection: data()?.lastRequestedPostInfo },
+                    { label: texts.highlights.lastRejectedProposal, selection: data()?.lastRejectedPostInfo },
+                    {
+                      label: texts.highlights.lastRejectedRequest,
+                      selection: data()?.lastRejectedRequestInfo,
+                    },
                   ]}
                 />
               </Show>

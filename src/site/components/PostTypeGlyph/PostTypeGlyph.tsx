@@ -11,6 +11,7 @@ import Redrawing from '../../images/post-type-redrawing.svg';
 import Shot from '../../images/post-type-shot.svg';
 import Video from '../../images/post-type-video.svg';
 import Wallpaper from '../../images/post-type-wallpaper.svg';
+import { localize } from '../../utils/intl-utils.js';
 
 const glyphs: Record<PostType, string> = {
   shot: Shot,
@@ -33,5 +34,5 @@ export interface PostTypeGlyphProps {
 }
 
 export const PostTypeGlyph: Component<PostTypeGlyphProps> = (props) => {
-  return <img src={glyphs[props.type]} alt={postTypeDescriptors[props.type].title} />;
+  return <img src={glyphs[props.type]} alt={localize(postTypeDescriptors[props.type].title)} />;
 };

@@ -2,6 +2,8 @@ import { Match, Switch } from 'solid-js';
 import { NONE_OPTION } from '../../../core/entities/option.js';
 import { useLocalPatch } from '../../hooks/useLocalPatch.js';
 import { postsRoute } from '../../routes/posts-route.js';
+import { texts } from '../../texts/index.js';
+import { localize } from '../../utils/intl-utils.js';
 import { Button } from '../Button/Button.jsx';
 import { DataPatchEditor } from '../DataPatchEditor/DataPatchEditor.jsx';
 import {
@@ -24,32 +26,34 @@ const ContributingDialog: DetachedDialog<ContributingDialogTab> = (props) => {
 
   return (
     <Dialog
-      title="Contributing"
+      title={localize(texts.contributing.contributing)}
       modal
       {...props}
-      actions={[<Button onClick={props.onClose}>OK</Button>]}
+      actions={[<Button onClick={props.onClose}>{localize(texts.common.ok)}</Button>]}
       contentClass={styles.container}
       summary={
         <>
           <a href="https://github.com/dehero/mwscr/blob/main/CONTRIBUTING.md" class={styles.link} target="_blank">
-            Guidelines
+            {localize(texts.contributing.guidelines)}
           </a>
           {' • '}
           <a href="/users/dehero" class={styles.link} target="_blank">
-            Administrator
+            {localize(texts.user.admin)}
           </a>
         </>
       }
     >
       <div class={styles.tabs}>
         <Button active={tab() === 'variants'} href={createDetachedDialogFragment('contributing', 'variants')}>
-          Variants
+          {localize(texts.contributing.variants)}
         </Button>
         <Button active={tab() === 'patch'} href={createDetachedDialogFragment('contributing', 'patch')}>
-          Edits {patchSize() > 0 ? ` (${patchSize()})` : ''}
+          {patchSize() > 0
+            ? localize(texts.editing.editsWithCount, { count: patchSize() })
+            : localize(texts.editing.edits)}
         </Button>
         <Button active={tab() === 'settings'} href={createDetachedDialogFragment('contributing', 'settings')}>
-          Settings
+          {localize(texts.contributing.settings)}
         </Button>
       </div>
 
@@ -67,8 +71,8 @@ const ContributingDialog: DetachedDialog<ContributingDialogTab> = (props) => {
                 <Icon color="stealth" class={styles.variantIcon}>
                   S
                 </Icon>
-                <p class={styles.variantTitle}>Submit Files</p>
-                <p class={styles.variantDescription}>Add your images or videos to Drafts.</p>
+                <p class={styles.variantTitle}>{localize(texts.contributing.submitFiles)}</p>
+                <p class={styles.variantDescription}>{localize(texts.contributing.submitFilesDescription)}</p>
               </Frame>
 
               <Frame
@@ -85,8 +89,8 @@ const ContributingDialog: DetachedDialog<ContributingDialogTab> = (props) => {
                 <Icon color="stealth" class={styles.variantIcon}>
                   C
                 </Icon>
-                <p class={styles.variantTitle}>Create Compilation</p>
-                <p class={styles.variantDescription}>Combine published shots into your own compilation.</p>
+                <p class={styles.variantTitle}>{localize(texts.contributing.createCompilation)}</p>
+                <p class={styles.variantDescription}>{localize(texts.contributing.createCompilationDescription)}</p>
               </Frame>
 
               <Frame
@@ -99,8 +103,8 @@ const ContributingDialog: DetachedDialog<ContributingDialogTab> = (props) => {
                 <Icon color="magic" class={styles.variantIcon}>
                   R
                 </Icon>
-                <p class={styles.variantTitle}>Request Themed Post</p>
-                <p class={styles.variantDescription}>Ask the authors to make a certain post.</p>
+                <p class={styles.variantTitle}>{localize(texts.contributing.requestThemedPost)}</p>
+                <p class={styles.variantDescription}>{localize(texts.contributing.requestThemedPostDescription)}</p>
               </Frame>
 
               <Frame
@@ -116,10 +120,8 @@ const ContributingDialog: DetachedDialog<ContributingDialogTab> = (props) => {
                 <Icon color="magic" class={styles.variantIcon}>
                   L
                 </Icon>
-                <p class={styles.variantTitle}>Find Missing Location</p>
-                <p class={styles.variantDescription}>
-                  Suggest shooting location of screenshot or video if not specified in the post.
-                </p>
+                <p class={styles.variantTitle}>{localize(texts.contributing.findMissingLocation)}</p>
+                <p class={styles.variantDescription}>{localize(texts.contributing.findMissingLocationDescription)}</p>
               </Frame>
             </div>
           </Match>

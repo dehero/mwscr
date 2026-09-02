@@ -1,6 +1,8 @@
 import { createEffect, createSignal } from 'solid-js';
 import type { DateRange } from '../../../core/utils/common-types.js';
 import { dateToString, formatDate } from '../../../core/utils/date-utils.js';
+import { texts } from '../../texts/index.js';
+import { currentLocale, localize } from '../../utils/intl-utils.js';
 import { Button } from '../Button/Button.jsx';
 import { Calendar } from '../Calendar/Calendar.jsx';
 import { Dialog } from '../Dialog/Dialog.jsx';
@@ -21,17 +23,17 @@ export function DatePicker<TPeriod extends boolean | undefined>(props: DatePicke
   const [value, setValue] = createSignal<typeof props.value>(props.value);
   const label = () => {
     if (!props.value) {
-      return props.emptyLabel || 'None';
+      return props.emptyLabel || localize(texts.common.none);
     }
 
     if (Array.isArray(props.value)) {
       if (props.value[1] && dateToString(props.value[0]) !== dateToString(props.value[1])) {
-        return `${formatDate(props.value[0])} — ${formatDate(props.value[1])}`;
+        return `${formatDate(props.value[0], currentLocale())} — ${formatDate(props.value[1], currentLocale())}`;
       }
-      return formatDate(props.value[0]);
+      return formatDate(props.value[0], currentLocale());
     }
 
-    return formatDate(props.value);
+    return formatDate(props.value, currentLocale());
   };
 
   createEffect(() => {
@@ -59,7 +61,7 @@ export function DatePicker<TPeriod extends boolean | undefined>(props: DatePicke
               setDialogOpen(false);
             }}
           >
-            Ok
+            {localize(texts.common.ok)}
           </Button>,
           <Button
             onClick={(e: Event) => {
@@ -68,7 +70,7 @@ export function DatePicker<TPeriod extends boolean | undefined>(props: DatePicke
               setDialogOpen(false);
             }}
           >
-            Reset
+            {localize(texts.component.reset)}
           </Button>,
           <Button
             onClick={(e: Event) => {
@@ -76,7 +78,7 @@ export function DatePicker<TPeriod extends boolean | undefined>(props: DatePicke
               setDialogOpen(false);
             }}
           >
-            Cancel
+            {localize(texts.common.cancel)}
           </Button>,
         ]}
         show={dialogOpen()}

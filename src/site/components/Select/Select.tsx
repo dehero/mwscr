@@ -2,6 +2,7 @@ import clsx from 'clsx';
 import type { JSX } from 'solid-js';
 import { For } from 'solid-js';
 import type { Option } from '../../../core/entities/option.js';
+import { localize } from '../../utils/intl-utils.js';
 import { Frame } from '../Frame/Frame.js';
 import styles from './Select.module.css';
 
@@ -30,7 +31,7 @@ export function Select<T extends string>(props: SelectProps<T>) {
       <For each={props.options}>
         {(option) => (
           <option value={option.value || ''} class={styles.option} selected={props.value === option.value}>
-            {option.label || option.value}
+            {localize(option.label) || option.value?.toString() || ''}
           </option>
         )}
       </For>

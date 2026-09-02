@@ -164,7 +164,6 @@ export function getRecentPublications(publications: Publication[], date: Date): 
 export function getPublicationsStats(publications: Publication[]) {
   return {
     likes: getPublicationsTotalLikes(publications),
-    followers: getPublicationsTotalFollowers(publications),
     views: getPublicationsTotalViews(publications),
     engagement: getPublicationsAverageEngagement(publications),
     commentCount: getPublicationsCommentCount(publications),

@@ -1,6 +1,7 @@
 import type { JSX } from 'solid-js';
 import { createMemo, createSignal } from 'solid-js';
 import type { Option } from '../../../core/entities/option.js';
+import { localize } from '../../utils/intl-utils.js';
 import type { ButtonProps } from '../Button/Button.jsx';
 import { Button } from '../Button/Button.jsx';
 import { OptionSelectDialog } from '../OptionSelectDialog/OptionSelectDialog.jsx';
@@ -27,7 +28,7 @@ export function OptionSelectButton<T>(props: OptionSelectButtonProps<T>) {
   const buttonText = createMemo(() => {
     const selected = selectedUserOption();
     if (!selected && props.emptyLabel) return props.emptyLabel;
-    return selected?.label ?? '';
+    return selected ? localize(selected.label) || selected.value?.toString() || '' : '';
   });
 
   return (

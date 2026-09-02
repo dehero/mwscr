@@ -1,7 +1,10 @@
 import type { InferOutput } from 'valibot';
 import { intersect, notValue, object, picklist, pipe, union } from 'valibot';
+import { texts } from '../texts/index.js';
 import { asArray, getRevisionHash, textToId } from '../utils/common-utils.js';
 import { dateToString } from '../utils/date-utils.js';
+import { localize } from '../utils/intl-utils.js';
+import type { IntlText, Locale } from './intl.js';
 import type { ListReaderStats } from './list-manager.js';
 import { ListManager, ListManagerPatch } from './list-manager.js';
 import {
@@ -77,17 +80,44 @@ export const PostsManagerPatch = ListManagerPatch<Post>(Post);
 export type PostsManagerPatch = InferOutput<typeof PostsManagerPatch>;
 
 export interface PostsManagerDescriptor {
-  title: string;
-  itemsUnit: string;
+  title: IntlText;
+  itemsUnit: IntlText;
   actions: PostAction[];
 }
 
 export const postsManagerDescriptors = Object.freeze<Record<PostsManagerName, PostsManagerDescriptor>>({
-  posts: { title: 'Posts', itemsUnit: 'posts', actions: ['locate', 'precise', 'compile'] },
-  extras: { title: 'Extras', itemsUnit: 'extras', actions: ['precise', 'order'] },
-  drafts: { title: 'Drafts', itemsUnit: 'drafts', actions: ['edit', 'merge', 'create'] },
-  rejects: { title: 'Rejects', itemsUnit: 'rejects', actions: ['edit', 'merge'] },
+  posts: {
+    title: texts.postsManager.posts,
+    itemsUnit: texts.postsManager.postsWithCount,
+    actions: ['locate', 'precise', 'compile'],
+  },
+  extras: {
+    title: texts.postsManager.extras,
+    itemsUnit: texts.postsManager.extrasWithCount,
+    actions: ['precise', 'order'],
+  },
+  drafts: {
+    title: texts.postsManager.drafts,
+    itemsUnit: texts.postsManager.draftsWithCount,
+    actions: ['edit', 'merge', 'create'],
+  },
+  rejects: {
+    title: texts.postsManager.rejects,
+    itemsUnit: texts.postsManager.rejectsWithCount,
+    actions: ['edit', 'merge'],
+  },
 });
+
+export function getPostsManagerUnitTitle(managerName: PostsManagerName, count: number, locale: Locale) {
+  const entries = {
+    posts: texts.postsManager.postsUnit,
+    extras: texts.postsManager.extrasUnit,
+    drafts: texts.postsManager.draftsUnit,
+    rejects: texts.postsManager.rejectsUnit,
+  } as const satisfies Record<PostsManagerName, IntlText>;
+
+  return localize(entries[managerName], locale, { count });
+}
 
 export function isReject(post: Post, errors?: string[]): post is Reject {
   return checkSchema(Reject, post, errors);

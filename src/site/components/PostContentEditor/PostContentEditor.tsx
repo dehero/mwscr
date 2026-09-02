@@ -20,6 +20,8 @@ import { mergePostContents } from '../../../core/entities/post.js';
 import { ImageResourceExtension, ResourceUrl } from '../../../core/entities/resource.js';
 import { assertSchema } from '../../../core/entities/schema.js';
 import { asArray } from '../../../core/utils/common-utils.js';
+import { texts } from '../../texts/index.js';
+import { localize } from '../../utils/intl-utils.js';
 import { Button } from '../Button/Button.jsx';
 import { Dialog } from '../Dialog/Dialog.jsx';
 import { Frame } from '../Frame/Frame.js';
@@ -39,19 +41,6 @@ type ContainerId = (typeof containerIds)[number];
 
 const isContainer = (id: string | number): id is ContainerId =>
   typeof id === 'string' && containerIds.includes(id as ContainerId);
-
-function getContainerLabel(id: ContainerId) {
-  switch (id) {
-    case 'content':
-      return 'Content';
-    case 'snapshot':
-      return 'Snapshot';
-    case 'trash':
-      return 'Trash';
-    default:
-      return '';
-  }
-}
 
 interface ItemProps {
   url: string;
@@ -85,7 +74,7 @@ const List: Component<ListProps> = (props) => {
 
   return (
     <label class={styles.container}>
-      <span class={styles.label}>{getContainerLabel(props.id)}</span>
+      <span class={styles.label}>{localize(texts.field[props.id])}</span>
       <Frame ref={droppable} class={styles.list}>
         <SortableProvider ids={props.urls}>
           <For each={props.urls}>{(url) => <Item url={url} onEdit={() => props.onEdit(url)} />}</For>
@@ -220,7 +209,7 @@ export const PostContentEditor: Component<PostContentEditorProps> = (props) => {
 
   const processUploadFiles = async (items: UploadFile[]) => {
     if (items.length === 0) {
-      addToast('No files selected for upload');
+      addToast(localize(texts.editing.noFilesSelectedForUpload));
       return;
     }
 
@@ -273,7 +262,7 @@ export const PostContentEditor: Component<PostContentEditorProps> = (props) => {
       .filter((line) => line.length > 0);
 
     if (urls.length === 0) {
-      addToast('No links to insert');
+      addToast(localize(texts.editing.noLinksToInsert));
       return;
     }
 
@@ -344,7 +333,7 @@ export const PostContentEditor: Component<PostContentEditorProps> = (props) => {
               selectFiles(processUploadFiles);
             }}
           >
-            Upload Files
+            {localize(texts.editing.uploadFiles)}
           </Button>
           <Button
             onClick={(e: Event) => {
@@ -352,7 +341,7 @@ export const PostContentEditor: Component<PostContentEditorProps> = (props) => {
               handleAddLinks();
             }}
           >
-            Paste Links
+            {localize(texts.editing.pasteLinks)}
           </Button>
         </div>
       </div>
@@ -368,11 +357,11 @@ export const PostContentEditor: Component<PostContentEditorProps> = (props) => {
         onClose={() => setShowInsertLinksDialog(false)}
         modal
         actions={[
-          <Button onClick={handleInsertLinks}>OK</Button>,
-          <Button onClick={() => setShowInsertLinksDialog(false)}>Cancel</Button>,
+          <Button onClick={handleInsertLinks}>{localize(texts.common.ok)}</Button>,
+          <Button onClick={() => setShowInsertLinksDialog(false)}>{localize(texts.common.cancel)}</Button>,
         ]}
       >
-        <Label label="Paste Links" vertical>
+        <Label label={localize(texts.editing.pasteLinks)} vertical>
           <Input value={linksText()} onChange={setLinksText} multiline rows={10} class={styles.linksText} />
         </Label>
       </Dialog>

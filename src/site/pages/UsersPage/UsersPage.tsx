@@ -4,10 +4,10 @@ import type { SearchParams } from '@solidjs/router';
 import { useSearchParams } from '@solidjs/router';
 import { createResource, createSignal, Show } from 'solid-js';
 import type { Option } from '../../../core/entities/option.js';
-import { ALL_OPTION } from '../../../core/entities/option.js';
+import { ALL_OPTION, ASC_OPTION, DESC_OPTION } from '../../../core/entities/option.js';
 import { safeParseSchema } from '../../../core/entities/schema.js';
 import type { SiteRoutePage } from '../../../core/entities/site-route.js';
-import { UserRole } from '../../../core/entities/user.js';
+import { UserRole, userRoleDescriptors } from '../../../core/entities/user.js';
 import type { SelectUserInfosParams, SelectUserInfosSortKey } from '../../../core/entities/user-info.js';
 import { selectUserInfosResultToString, selectUserInfosSortOptions } from '../../../core/entities/user-info.js';
 import type { SortDirection } from '../../../core/utils/common-types.js';
@@ -26,6 +26,8 @@ import { Toast } from '../../components/Toaster/Toaster.jsx';
 import { UserPreviews } from '../../components/UserPreviews/UserPreviews.jsx';
 import { dataManager } from '../../data-managers/manager.js';
 import { useLocalPatch } from '../../hooks/useLocalPatch.js';
+import { texts } from '../../texts/index.js';
+import { currentLocale, localize } from '../../utils/intl-utils.js';
 import type { UsersPageData, UsersPageParams } from './UsersPage.data.js';
 import styles from './UsersPage.module.css';
 
@@ -46,20 +48,20 @@ interface UsersPagePreset extends Option {
 }
 
 const presets = [
-  { value: undefined, label: 'All', searchParams: {} },
+  { value: undefined, label: texts.common.all, searchParams: {} },
   {
     value: 'authors',
-    label: 'Authors',
+    label: texts.user.authors,
     searchParams: { sort: 'contribution,desc', role: 'author' },
   },
   {
     value: 'locators',
-    label: 'Locators',
+    label: texts.user.locators,
     searchParams: { sort: 'contribution,desc', role: 'locator' },
   },
   {
     value: 'requesters',
-    label: 'Requesters',
+    label: texts.user.requesters,
     searchParams: { sort: 'contribution,desc', role: 'requester' },
   },
 ] as const satisfies UsersPagePreset[];
@@ -73,12 +75,18 @@ export const UsersPage: SiteRoutePage<UsersPageParams, UsersPageData> = () => {
   let usersRef: HTMLDivElement | undefined;
   const usersScrollTarget = () => (narrowScreen() ? containerRef : usersRef);
 
+  const activeCount = () => Object.keys(searchParams).length;
+
   const presetOptions = (): UsersPagePreset[] => {
     const options: UsersPagePreset[] = [...presets];
     const currentPreset = presets.find((preset) => isObjectEqual(preset.searchParams, searchParams));
 
     if (!currentPreset) {
-      options.push({ value: 'custom', label: 'Custom Selection', searchParams });
+      options.push({
+        value: 'custom',
+        label: localize(texts.filtering.customOptions, { count: activeCount() }),
+        searchParams,
+      });
     }
 
     return options;
@@ -119,10 +127,10 @@ export const UsersPage: SiteRoutePage<UsersPageParams, UsersPageData> = () => {
 
   return (
     <>
-      <AppPage title="Members" description="List of members of Morrowind Screenshots project." loading={false} />
+      <AppPage title={localize(texts.user.users)} description={localize(texts.app.usersDescription)} loading={false} />
 
       <Frame component="main" class={styles.container} ref={containerRef}>
-        <Toast message="Loading Members" show={userInfos.loading} loading />
+        <Toast message={localize(texts.content.loadingUsers)} show={userInfos.loading} loading />
 
         <Frame class={styles.parameters}>
           <fieldset class={styles.presets}>
@@ -133,7 +141,7 @@ export const UsersPage: SiteRoutePage<UsersPageParams, UsersPageData> = () => {
                 setPreset(undefined);
               }}
             >
-              Reset
+              {localize(texts.filtering.resetOptions)}
             </Button>
             <Show when={narrowScreen()}>
               <Spacer />
@@ -141,8 +149,8 @@ export const UsersPage: SiteRoutePage<UsersPageParams, UsersPageData> = () => {
                 name="showParameters"
                 value={expandParametersOnNarrowScreen()}
                 onChange={setExpandParamatersOnNarrowScreen}
-                trueLabel="Collapse"
-                falseLabel="Expand"
+                trueLabel={localize(texts.filtering.collapse)}
+                falseLabel={localize(texts.filtering.expand)}
               />
             </Show>
           </fieldset>
@@ -150,7 +158,7 @@ export const UsersPage: SiteRoutePage<UsersPageParams, UsersPageData> = () => {
           <Show when={!narrowScreen() || expandParametersOnNarrowScreen()}>
             <Divider />
 
-            <Label label="Search" labelClass={styles.labelWithFixedWidth}>
+            <Label label={localize(texts.filtering.search)} labelClass={styles.labelWithFixedWidth}>
               <fieldset class={styles.fieldset}>
                 <Input
                   name="search"
@@ -169,33 +177,41 @@ export const UsersPage: SiteRoutePage<UsersPageParams, UsersPageData> = () => {
                     setIsSearching(false);
                   }}
                 >
-                  Clear
+                  {localize(texts.filtering.clear)}
                 </Button>
 
-                <Toast message="Searching Members" show={isSearching()} loading />
+                <Toast message={localize(texts.filtering.searchingMembers)} show={isSearching()} loading />
               </fieldset>
             </Label>
 
-            <Label label="Role" labelClass={styles.labelWithFixedWidth}>
+            <Label label={localize(texts.user.role)} labelClass={styles.labelWithFixedWidth}>
               <Select
                 name="role"
-                options={[ALL_OPTION, ...UserRole.options.map((value) => ({ value }))]}
+                options={[
+                  ALL_OPTION,
+                  ...UserRole.options.map((value) => ({ value, label: userRoleDescriptors[value].title })),
+                ]}
                 value={userRole()}
                 onChange={setUserRole}
               />
             </Label>
 
-            <Label label="Order By" labelClass={styles.labelWithFixedWidth}>
+            <Label label={localize(texts.filtering.orderBy)} labelClass={styles.labelWithFixedWidth}>
               <fieldset class={styles.fieldset}>
-                <Select options={selectUserInfosSortOptions} value={sortKey()} onChange={setSortKey} />
+                <div class={styles.selectWrapper}>
+                  <Select
+                    options={selectUserInfosSortOptions}
+                    value={sortKey()}
+                    onChange={setSortKey}
+                    class={styles.select}
+                  />
+                </div>
                 <RadioGroup
                   name="sortDirection"
-                  options={[
-                    { value: 'asc', label: 'Asc' },
-                    { value: 'desc', label: 'Desc' },
-                  ]}
+                  options={[ASC_OPTION, DESC_OPTION]}
                   value={sortDirection()}
                   onChange={setSortDirection}
+                  class={styles.sortDirectionRadioGroup}
                 />
               </fieldset>
             </Label>
@@ -208,7 +224,7 @@ export const UsersPage: SiteRoutePage<UsersPageParams, UsersPageData> = () => {
               <UserPreviews
                 scrollTarget={usersScrollTarget()}
                 userInfos={userInfos().items}
-                label={selectUserInfosResultToString(userInfos().totalCount, userInfos().params)}
+                label={selectUserInfosResultToString(userInfos().totalCount, userInfos().params, currentLocale())}
               />
             )}
           </Show>

@@ -32,6 +32,7 @@ import {
   PostEngine,
   PostMark,
   PostPlacement,
+  postPlacementDescriptors,
   PostType,
   postTypeDescriptors,
   PostViolation,
@@ -42,6 +43,8 @@ import { USER_UNKNOWN } from '../../../core/entities/user.js';
 import { asArray, listItems } from '../../../core/utils/common-utils.js';
 import { dateToString } from '../../../core/utils/date-utils.js';
 import { dataManager } from '../../data-managers/manager.js';
+import { texts } from '../../texts/index.js';
+import { localField, localize } from '../../utils/intl-utils.js';
 import { Button } from '../Button/Button.jsx';
 import { DatePicker } from '../DatePicker/DatePicker.jsx';
 import type { DialogProps } from '../Dialog/Dialog.jsx';
@@ -70,7 +73,7 @@ export interface PostDialogPresetDescriptor {
 
 export const postDialogPresetDescriptors = Object.freeze<Record<PostDialogPreset, PostDialogPresetDescriptor>>({
   edit: {
-    title: (props) => (props.id ? 'Edit Post' : 'Create Draft'),
+    title: (props) => (props.id ? localize(texts.editing.postEditing) : localize(texts.editing.creatingDraft)),
     fields: [
       'content',
       'snapshot',
@@ -95,9 +98,13 @@ export const postDialogPresetDescriptors = Object.freeze<Record<PostDialogPreset
     ],
     features: ['useColumnLayout', 'addContent'],
   },
-  locate: { title: () => 'Locate Post', fields: ['location', 'placement', 'locating'], features: ['previewContent'] },
+  locate: {
+    title: () => localize(texts.editing.locatingPost),
+    fields: ['location', 'placement', 'locating'],
+    features: ['previewContent'],
+  },
   precise: {
-    title: () => 'Precise Post',
+    title: () => localize(texts.editing.postPrecising),
     fields: [
       'title',
       'titleRu',
@@ -118,7 +125,7 @@ export const postDialogPresetDescriptors = Object.freeze<Record<PostDialogPreset
     features: ['previewContent'],
   },
   request: {
-    title: () => 'Request Post',
+    title: () => localize(texts.editing.creatingRequest),
     fields: ['type', 'request'],
     features: [],
   },
@@ -135,7 +142,7 @@ async function getLocationOptions(): Promise<Option[]> {
     ...(await dataManager.getAllLocationInfos())
       .map((info) => ({
         value: info.title,
-        label: info.title,
+        label: localField(info, 'title') ?? info.title,
       }))
       .sort((a, b) => a.label.localeCompare(b.label)),
   ];
@@ -145,7 +152,7 @@ async function getUserOptions(): Promise<Option[]> {
   return [
     EMPTY_OPTION,
     ...(await dataManager.getAllUserInfos())
-      .map((info) => ({ label: info.title, value: info.id, image: info.avatar }))
+      .map((info) => ({ label: localField(info, 'title') ?? info.id, value: info.id, image: info.avatar }))
       .sort((a, b) => a.label.localeCompare(b.label)),
   ];
 }
@@ -372,15 +379,15 @@ export const PostDialog: Component<PostDialogProps> = (props) => {
 
   const loadingResources = () =>
     [
-      (postEntry.loading || mergeWithEntries.loading) && 'Post',
-      locationOptions.loading && 'Locations',
-      userOptions.loading && 'Members',
+      (postEntry.loading || mergeWithEntries.loading) && localize(texts.content.loadingPost),
+      locationOptions.loading && localize(texts.content.loadingLocations),
+      userOptions.loading && localize(texts.content.loadingUsers),
     ].filter((value): value is string => typeof value === 'string');
 
   return (
     <>
       <Toast
-        message={`Loading ${listItems(loadingResources(), false, 'and')}`}
+        message={listItems(loadingResources(), { union: localize(texts.common.and), mergePrefix: true })}
         show={props.show && loadingResources().length > 0}
         loading
       />
@@ -388,7 +395,10 @@ export const PostDialog: Component<PostDialogProps> = (props) => {
         title={preset().title(props)}
         show={props.show && loadingResources().length === 0}
         {...rest}
-        actions={[<Button onClick={handleSubmit}>OK</Button>, <Button onClick={handleClose}>Cancel</Button>]}
+        actions={[
+          <Button onClick={handleSubmit}>{localize(texts.common.ok)}</Button>,
+          <Button onClick={handleClose}>{localize(texts.common.cancel)}</Button>,
+        ]}
         contentClass={clsx(styles.container, ...preset().features.map((feature) => styles[feature]))}
         modal
       >
@@ -421,7 +431,7 @@ export const PostDialog: Component<PostDialogProps> = (props) => {
           <Show when={preset().fields.includes('title') || preset().fields.includes('description')}>
             <fieldset class={clsx(styles.fieldset, styles.main)}>
               <Show when={preset().fields.includes('title')}>
-                <Label label="Title and Description" vertical>
+                <Label label={localize(texts.editing.titleAndDescription)} vertical>
                   <Input
                     name="title"
                     value={post().title ?? undefined}
@@ -446,7 +456,7 @@ export const PostDialog: Component<PostDialogProps> = (props) => {
           <Show when={preset().fields.includes('titleRu') || preset().fields.includes('descriptionRu')}>
             <fieldset class={clsx(styles.fieldset, styles.main)}>
               <Show when={preset().fields.includes('titleRu')}>
-                <Label label="Title and Description on Russian" vertical>
+                <Label label={localize(texts.editing.titleAndDescriptionRu)} vertical>
                   <Input
                     name="titleRu"
                     value={post().titleRu ?? undefined}
@@ -471,11 +481,14 @@ export const PostDialog: Component<PostDialogProps> = (props) => {
           <Show when={preset().fields.includes('placement') || preset().fields.includes('type')}>
             <fieldset class={styles.fieldset}>
               <Show when={preset().fields.includes('type')}>
-                <Label label="Type" vertical>
+                <Label label={localize(texts.field.type)} vertical>
                   <div class={styles.selectWrapper}>
                     <Select
                       name="type"
-                      options={PostType.options.map((value) => ({ label: postTypeDescriptors[value].title, value }))}
+                      options={PostType.options.map((value) => ({
+                        label: postTypeDescriptors[value].title,
+                        value,
+                      }))}
                       value={post().type}
                       onChange={(value) => setPatchField('type', value)}
                       class={styles.select}
@@ -485,7 +498,7 @@ export const PostDialog: Component<PostDialogProps> = (props) => {
               </Show>
 
               <Show when={preset().fields.includes('aspect')}>
-                <Label label="Aspect Ratio" vertical>
+                <Label label={localize(texts.field.aspect)} vertical>
                   <div class={styles.selectWrapper}>
                     <Select
                       name="aspect"
@@ -505,11 +518,17 @@ export const PostDialog: Component<PostDialogProps> = (props) => {
               </Show>
 
               <Show when={preset().fields.includes('placement')}>
-                <Label label="Placement" vertical>
+                <Label label={localize(texts.field.placement)} vertical>
                   <div class={styles.selectWrapper}>
                     <Select
                       name="placement"
-                      options={[EMPTY_OPTION, ...PostPlacement.options.map((value) => ({ value }))]}
+                      options={[
+                        EMPTY_OPTION,
+                        ...PostPlacement.options.map((value) => ({
+                          value,
+                          label: postPlacementDescriptors[value].title,
+                        })),
+                      ]}
                       value={post().placement ?? undefined}
                       onChange={(value) => setPatchField('placement', value)}
                       class={styles.select}
@@ -521,7 +540,7 @@ export const PostDialog: Component<PostDialogProps> = (props) => {
           </Show>
 
           <Show when={preset().fields.includes('location')}>
-            <Label label="Location" class={styles.location} vertical>
+            <Label label={localize(texts.field.location)} class={styles.location} vertical>
               <Show
                 when={!post().addon || postAddonDescriptors[post().addon!].official}
                 fallback={
@@ -536,7 +555,7 @@ export const PostDialog: Component<PostDialogProps> = (props) => {
                   <For each={[...asArray(post().location), undefined]}>
                     {(location, index) => (
                       <OptionSelectButton
-                        title="Select Location"
+                        title={localize(texts.editing.locationSelection)}
                         options={locationOptions() ?? []}
                         value={location}
                         onChange={(location) => setPostLocation(index(), location)}
@@ -553,7 +572,7 @@ export const PostDialog: Component<PostDialogProps> = (props) => {
           </Show>
 
           <Show when={asArray(post().location).length > 0 && preset().fields.includes('locating')}>
-            <Label label="Located By" vertical>
+            <Label label={localize(texts.user.locator)} vertical>
               <fieldset class={clsx(styles.fieldset, styles.locating)}>
                 <div class={styles.selectWrapper}>
                   <Select
@@ -571,7 +590,6 @@ export const PostDialog: Component<PostDialogProps> = (props) => {
                     value={post().locating?.date}
                     period={false}
                     onChange={(date) => setPostLocating({ date })}
-                    emptyLabel="Pick Locating Date"
                   />
 
                   <Input
@@ -596,7 +614,7 @@ export const PostDialog: Component<PostDialogProps> = (props) => {
           >
             <fieldset class={clsx(styles.fieldset, styles.tagsFieldset)}>
               <Show when={preset().fields.includes('engine')}>
-                <Label label="Engine" vertical>
+                <Label label={localize(texts.field.engine)} vertical>
                   <div class={styles.selectWrapper}>
                     <Select
                       name="engine"
@@ -610,7 +628,7 @@ export const PostDialog: Component<PostDialogProps> = (props) => {
               </Show>
 
               <Show when={preset().fields.includes('addon')}>
-                <Label label="Addon" vertical>
+                <Label label={localize(texts.field.addon)} vertical>
                   <div class={styles.selectWrapper}>
                     <Select
                       name="addon"
@@ -624,7 +642,7 @@ export const PostDialog: Component<PostDialogProps> = (props) => {
               </Show>
 
               <Show when={preset().fields.includes('tags')}>
-                <Label label="Tags" vertical class={styles.tags}>
+                <Label label={localize(texts.field.tags)} vertical class={styles.tags}>
                   <Input
                     name="tags"
                     value={asArray(post().tags).join(' ')}
@@ -636,12 +654,12 @@ export const PostDialog: Component<PostDialogProps> = (props) => {
           </Show>
 
           <Show when={preset().fields.includes('author')}>
-            <Label label="Author" vertical class={styles.author}>
+            <Label label={localize(texts.field.author)} vertical class={styles.author}>
               <fieldset class={clsx(styles.fieldset, styles.authors)}>
                 <For each={[...asArray(post().author), undefined]}>
                   {(author, index) => (
                     <OptionSelectButton
-                      title="Select Author"
+                      title={localize(texts.editing.authorSelection)}
                       options={userOptions() ?? []}
                       value={author}
                       onChange={(author) => setPostAuthor(index(), author)}
@@ -657,7 +675,7 @@ export const PostDialog: Component<PostDialogProps> = (props) => {
           <Show when={preset().fields.includes('mark') || preset().fields.includes('violation')}>
             <fieldset class={clsx(styles.fieldset)}>
               <Show when={preset().fields.includes('mark')}>
-                <Label label="Editor's Mark" vertical>
+                <Label label={localize(texts.field.mark)} vertical>
                   <Select
                     name="mark"
                     options={[EMPTY_OPTION, ...PostMark.options.map((value) => ({ value }))]}
@@ -669,13 +687,19 @@ export const PostDialog: Component<PostDialogProps> = (props) => {
               </Show>
 
               <Show when={preset().fields.includes('violation')}>
-                <Label label="Violation" vertical>
+                <Label label={localize(texts.field.violation)} vertical>
                   <fieldset class={clsx(styles.fieldset, styles.violations)}>
                     <For each={asArray(post().violation)}>
                       {(violation, index) => (
                         <div class={styles.selectWrapper}>
                           <Select
-                            options={[{ label: '[Remove]', value: EMPTY_OPTION.value }, ...violationOptions]}
+                            options={[
+                              {
+                                label: texts.editing.removeOption,
+                                value: EMPTY_OPTION.value,
+                              },
+                              ...violationOptions,
+                            ]}
                             name="violation"
                             value={violation}
                             onChange={(violation) => setPostViolation(index(), violation)}
@@ -686,7 +710,13 @@ export const PostDialog: Component<PostDialogProps> = (props) => {
                     </For>
                     <div class={styles.selectWrapper}>
                       <Select
-                        options={[{ label: '[Add]', value: EMPTY_OPTION.value }, ...violationOptions]}
+                        options={[
+                          {
+                            label: texts.editing.addOption,
+                            value: EMPTY_OPTION.value,
+                          },
+                          ...violationOptions,
+                        ]}
                         name="violation"
                         value={undefined}
                         onChange={(violation) => setPostViolation(asArray(post().violation).length, violation)}
@@ -700,7 +730,7 @@ export const PostDialog: Component<PostDialogProps> = (props) => {
           </Show>
 
           <Show when={preset().fields.includes('request')}>
-            <Label label="Requested By" vertical>
+            <Label label={localize(texts.post.requestedBy)} vertical>
               <fieldset class={clsx(styles.fieldset, styles.request)}>
                 <div class={styles.selectWrapper}>
                   <Select
@@ -718,7 +748,6 @@ export const PostDialog: Component<PostDialogProps> = (props) => {
                     value={post().request?.date}
                     period={false}
                     onChange={(date) => setPostRequest({ date })}
-                    emptyLabel="Pick Request Date"
                   />
 
                   <Input
@@ -735,12 +764,12 @@ export const PostDialog: Component<PostDialogProps> = (props) => {
           </Show>
 
           <Show when={preset().fields.includes('created')}>
-            <Label label="Created" vertical>
+            <Label label={localize(texts.field.created)} vertical>
               <DatePicker
                 value={post().created}
                 period={false}
                 onChange={(value) => setPatchField('created', value)}
-                emptyLabel="Pick Date"
+                emptyLabel={localize(texts.editing.pickDate)}
               />
             </Label>
           </Show>

@@ -2,7 +2,7 @@ import 'dotenv/config';
 import { GreenApiClient } from '@green-api/greenapi-integration';
 import { markdownToText } from '../../core/entities/markdown.js';
 import type { PostEntry } from '../../core/entities/post.js';
-import { getPostFirstPublished, postAddonDescriptors, postTypeDescriptors } from '../../core/entities/post.js';
+import { getPostFirstPublished, getPostPublicationTypeTitle, postAddonDescriptors } from '../../core/entities/post.js';
 import type { Publication } from '../../core/entities/publication.js';
 import type { PostingServiceManager } from '../../core/entities/service.js';
 import type { UserProfile } from '../../core/entities/user.js';
@@ -65,7 +65,7 @@ export class MAXManager extends MAXService implements PostingServiceManager {
     if (post.type !== 'news') {
       const contributors: string[] = [];
       const titlePrefix = [
-        post.type !== 'shot' ? postTypeDescriptors[post.type].titleRu : undefined,
+        post.type !== 'shot' ? getPostPublicationTypeTitle(post, 'ru') : undefined,
         post.addon && !postAddonDescriptors[post.addon].official ? post.addon : undefined,
       ]
         .filter(Boolean)

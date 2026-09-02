@@ -1,3 +1,4 @@
+import type { Locale } from './intl.js';
 import type { Post, PostEntry } from './post.js';
 import type { Publication } from './publication.js';
 import type { UserProfile } from './user.js';
@@ -17,7 +18,7 @@ export interface Service {
 
   getSponsorshipUrl?: () => string;
 
-  getPostUrl?: (postId: string, managerName: string) => string | undefined;
+  getPostUrl?: (postId: string, managerName: string, locale: Locale) => string | undefined;
 
   getUserMessagingUrl?: (userId: string, options?: ServiceMessagingOptions) => string | undefined;
 

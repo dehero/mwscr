@@ -5,6 +5,8 @@ import type { Upload } from '../../../core/entities/upload.js';
 import { formatDate, formatTime } from '../../../core/utils/date-utils.js';
 import { stripCommonExtension } from '../../../core/utils/string-utils.js';
 import { dataManager } from '../../data-managers/manager.js';
+import { texts } from '../../texts/index.js';
+import { currentLocale, localize } from '../../utils/intl-utils.js';
 import { Button } from '../Button/Button.jsx';
 import type { DialogProps } from '../Dialog/Dialog.jsx';
 import { Dialog } from '../Dialog/Dialog.jsx';
@@ -27,12 +29,12 @@ const DataPatchPreviewDialog: Component<DataPatchPreviewDialogProps> = (props) =
     return [
       ...dataManager.postsManagers.map(
         (manager): TableRow => ({
-          label: manager.descriptor.title,
+          label: localize(manager.descriptor.title),
           value: Object.keys(patch[manager.name] ?? {}).length,
         }),
       ),
       {
-        label: 'Members',
+        label: localize(texts.user.users),
         value: Object.keys(patch.users ?? {}).length,
       },
     ];
@@ -43,8 +45,11 @@ const DataPatchPreviewDialog: Component<DataPatchPreviewDialogProps> = (props) =
   return (
     <Dialog
       {...props}
-      title="Apply Patch"
-      actions={[<Button onClick={props.onApply}>Apply</Button>, <Button onClick={props.onClose}>Cancel</Button>]}
+      title={localize(texts.editing.applyPatch)}
+      actions={[
+        <Button onClick={props.onApply}>{localize(texts.editing.apply)}</Button>,
+        <Button onClick={props.onClose}>{localize(texts.common.cancel)}</Button>,
+      ]}
       modal
       contentClass={styles.container}
     >
@@ -53,21 +58,29 @@ const DataPatchPreviewDialog: Component<DataPatchPreviewDialogProps> = (props) =
         <Table
           rows={[
             {
-              label: 'Size',
+              label: localize(texts.editing.size),
               value: `${props.meta.size}B`,
             },
             {
-              label: 'Uploaded',
-              value: `${formatDate(props.meta.uploaded)}, ${formatTime(props.meta.uploaded, true)}`,
+              label: localize(texts.editing.uploaded),
+              value: `${formatDate(props.meta.uploaded, currentLocale())}, ${formatTime(
+                props.meta.uploaded,
+                true,
+                currentLocale(),
+              )}`,
             },
             {
-              label: 'Expires',
-              value: `${formatDate(props.meta.expires)}, ${formatTime(props.meta.expires, true)}`,
+              label: localize(texts.editing.expires),
+              value: `${formatDate(props.meta.expires, currentLocale())}, ${formatTime(
+                props.meta.expires,
+                true,
+                currentLocale(),
+              )}`,
             },
           ]}
         />
         <Divider />
-        <Table label="Edits" value={totalEdits()} rows={edits()} />
+        <Table label={localize(texts.editing.edits)} value={totalEdits()} rows={edits()} />
       </Frame>
     </Dialog>
   );

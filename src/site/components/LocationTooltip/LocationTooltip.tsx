@@ -1,8 +1,11 @@
 import type { PositionRelativeToElement } from '@solid-primitives/mouse';
 import { type Component, createResource, Show, splitProps } from 'solid-js';
+import { locationTypeDescriptors } from '../../../core/entities/location.js';
 import type { LocationInfo } from '../../../core/entities/location-info.js';
 import { isPostsUsageEmpty, postsUsageToString } from '../../../core/entities/posts-usage.js';
 import { dataManager } from '../../data-managers/manager.js';
+import { texts } from '../../texts/index.js';
+import { currentLocale, localField, localize } from '../../utils/intl-utils.js';
 import type { TooltipProps } from '../Tooltip/Tooltip.js';
 import { Tooltip } from '../Tooltip/Tooltip.js';
 import styles from './LocationTooltip.module.css';
@@ -31,14 +34,26 @@ export const LocationTooltip: Component<LocationTooltipProps> = (props) => {
 
         return (
           <>
-            <span class={styles.title}>{location.title}</span>
-            <span>{location.titleRu}</span>
-            <span>Type: {location.type}</span>
+            <span class={styles.title}>{localField(location, 'title')}</span>
+            <span>{localField(location, 'title', true)}</span>
+            <span>
+              {localize(texts.editing.fileType)}
+              {': '}
+              {localize(locationTypeDescriptors[location.type].title)}
+            </span>
             <Show when={location.addon}>
-              <span>Addon: {location.addon}</span>
+              <span>
+                {localize(texts.field.addon)}
+                {': '}
+                {location.addon}
+              </span>
             </Show>
             <Show when={'discovered' in location && !isPostsUsageEmpty(location.discovered)}>
-              <span>Usage: {'discovered' in location && postsUsageToString(location.discovered)}</span>
+              <span>
+                {localize(texts.location.usage)}
+                {': '}
+                {'discovered' in location && postsUsageToString(location.discovered, currentLocale())}
+              </span>
             </Show>
           </>
         );

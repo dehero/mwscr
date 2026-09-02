@@ -6,6 +6,7 @@ import type { Resource } from '../../core/entities/resource.js';
 import { site } from '../../core/services/site.js';
 import { telegram } from '../../core/services/telegram.js';
 import { asArray } from '../../core/utils/common-utils.js';
+import { localize } from '../../core/utils/intl-utils.js';
 import { drafts } from '../data-managers/posts.js';
 import { readResource } from '../data-managers/resources.js';
 import { importResourceToStore } from '../data-managers/store-resources.js';
@@ -148,15 +149,14 @@ async function processMessage(message: TelegramBot.Message) {
         if (post.violation) {
           for (const violation of asArray(post.violation)) {
             const descriptor: PostViolationDescriptor = postViolationDescriptors[violation];
+            const title = localize(descriptor.title, 'en-GB');
+            const solution = descriptor.solution ? localize(descriptor.solution, 'en-GB') : undefined;
             replies.push(
               `${getRandomRejectPhrase()}\n<blockquote><b>${esc(asArray(post.content).join(', '))}</b>\n${
                 descriptor.topicId
-                  ? // TODO: don't use hardcoded site domain
-                    `<a href="${encodeURI(`https://mwscr.dehero.site/help/${descriptor.topicId}/`)}">${
-                      descriptor.title
-                    }</a>`
-                  : descriptor.title
-              }.${descriptor.solution ? ` ${descriptor.solution}` : ''}</blockquote>`,
+                  ? `<a href="${encodeURI(`${site.origin}/help/${descriptor.topicId}/`)}">${title}</a>`
+                  : title
+              }.${solution ? ` ${solution}` : ''}</blockquote>`,
             );
           }
         } else {
@@ -165,7 +165,7 @@ async function processMessage(message: TelegramBot.Message) {
 
           console.info(`Created draft "${id}" from "${url}".`);
 
-          const postUrl = site.getPostUrl(id, 'drafts');
+          const postUrl = site.getPostUrl(id, 'drafts', 'en-GB');
 
           replies.push(
             `${getRandomAcceptPhrase()} I've accepted your work with ID\n<pre>${id}</pre>\nWait a couple of minutes for it to appear <a href="${encodeURI(

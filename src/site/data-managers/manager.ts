@@ -1,7 +1,6 @@
 import type { CommentInfo } from '../../core/entities/comment-info.js';
 import type { DataManagerArgs, DataSummary } from '../../core/entities/data-manager.js';
 import { DataManager } from '../../core/entities/data-manager.js';
-
 import type { LocationInfo } from '../../core/entities/location-info.js';
 import type { PostInfo } from '../../core/entities/post-info.js';
 import type { PostsManagerName } from '../../core/entities/posts-manager.js';

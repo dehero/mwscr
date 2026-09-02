@@ -18,6 +18,8 @@ import { Toast, useToaster } from '../../components/Toaster/Toaster.jsx';
 import { dataManager } from '../../data-managers/manager.js';
 import { useLocalPatch } from '../../hooks/useLocalPatch.js';
 import { postsRoute } from '../../routes/posts-route.js';
+import { texts } from '../../texts/index.js';
+import { currentLocale, localize } from '../../utils/intl-utils.js';
 import { usePostsPageOptions } from './hooks/usePostsPageOptions.js';
 import { Options } from './Options.jsx';
 import type { PostsPageData, PostsPageParams } from './PostsPage.data.js';
@@ -36,6 +38,7 @@ export const PostsPage: SiteRoutePage<PostsPageParams, PostsPageData> = (props) 
 
   const parameters = usePostsPageOptions(props.params);
   const managerDescriptor = createMemo(() => postsManagerDescriptors[props.params.managerName]);
+  const managerTitle = createMemo(() => localize(managerDescriptor().title));
   const postActions = createMemo((): PostAction[] => postsManagerDescriptors[props.params.managerName].actions);
 
   const [expandParametersOnNarrowScreen, setExpandParametersOnNarrowScreen] = makePersisted(createSignal(false), {
@@ -66,7 +69,10 @@ export const PostsPage: SiteRoutePage<PostsPageParams, PostsPageData> = (props) 
 
   const handleMerge = async () => {
     if (
-      (await messageBox(`Are you sure you want to merge ${selected().length} selected posts?`, ['Yes', 'No'])) !== 0
+      (await messageBox(localize(texts.editing.mergeSelectedConfirmation, { count: selected().length }), [
+        localize(texts.common.yes),
+        localize(texts.common.no),
+      ])) !== 0
     ) {
       return;
     }
@@ -116,13 +122,15 @@ export const PostsPage: SiteRoutePage<PostsPageParams, PostsPageData> = (props) 
   return (
     <>
       <AppPage
-        title={managerDescriptor().title}
-        description={`List of ${managerDescriptor().title} in Morrowind Screenshots project.`}
+        title={managerTitle()}
+        description={localize(texts.app.postsDescription, {
+          managerTitle: managerTitle(),
+        })}
         loading={!data()}
       />
 
       <Frame component="main" class={styles.container} ref={containerRef}>
-        <Toast message="Loading Posts" show={postInfos.loading} loading />
+        <Toast message={localize(texts.content.loadingPosts)} show={postInfos.loading} loading />
 
         <Show when={data()}>
           {(data) => (
@@ -139,10 +147,15 @@ export const PostsPage: SiteRoutePage<PostsPageParams, PostsPageData> = (props) 
 
         <Frame variant="thin" class={styles.postsWrapper}>
           <div class={styles.toolbar}>
-            <Show when={postInfos()} fallback={<p class={styles.postInfosLabel}>Loading...</p>}>
+            <Show when={postInfos()} fallback={<p class={styles.postInfosLabel}>{localize(texts.content.loading)}</p>}>
               {(postInfos) => (
                 <p class={styles.postInfosLabel}>
-                  {selectPostInfosResultToString(postInfos().totalCount, postInfos().params)}
+                  {selectPostInfosResultToString(
+                    postInfos().totalCount,
+                    postInfos().params,
+                    currentLocale(),
+                    props.params.managerName,
+                  )}
                 </p>
               )}
             </Show>
@@ -162,9 +175,9 @@ export const PostsPage: SiteRoutePage<PostsPageParams, PostsPageData> = (props) 
               </fieldset>
 
               <fieldset class={styles.fieldset}>
-                <Button onClick={() => setSelected([])}>Clear Selection</Button>
+                <Button onClick={() => setSelected([])}>{localize(texts.editing.clearSelection)}</Button>
                 <Show when={postActions().includes('merge') && selected().length > 1}>
-                  <Button onClick={handleMerge}>Merge Selected</Button>
+                  <Button onClick={handleMerge}>{localize(texts.editing.mergeSelected)}</Button>
                 </Show>
 
                 <Show when={postActions().includes('compile') && selected().length > 1}>
@@ -176,19 +189,25 @@ export const PostsPage: SiteRoutePage<PostsPageParams, PostsPageData> = (props) 
                       trash: '',
                     })}
                   >
-                    Compile Selected
+                    {localize(texts.editing.compileSelected)}
                   </Button>
                 </Show>
               </fieldset>
             </Show>
             <Show when={postActions().includes('create')}>
               <fieldset class={styles.fieldset}>
-                <Button href={createDetachedDialogFragment('post-editing', 'drafts')}>Create Draft</Button>
-                <Button href={createDetachedDialogFragment('post-proposal')}>Submit Files</Button>
+                <Button href={createDetachedDialogFragment('post-editing', 'drafts')}>
+                  {localize(texts.editing.createDraft)}
+                </Button>
+                <Button href={createDetachedDialogFragment('post-proposal')}>
+                  {localize(texts.contributing.submitFiles)}
+                </Button>
               </fieldset>
             </Show>
             <Show when={parameters.preset()}>
-              <Button href={postsRoute.createUrl({ managerName: props.params.managerName })}>Reset Options</Button>
+              <Button href={postsRoute.createUrl({ managerName: props.params.managerName })}>
+                {localize(texts.filtering.resetOptions)}
+              </Button>
             </Show>
           </div>
           <Divider class={styles.toolbarDivider} />

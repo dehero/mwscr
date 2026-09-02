@@ -8,7 +8,7 @@ export function needCertainMimeType(mimeTypes: string[]): ResourceRule {
   return (resource: Resource) => {
     const [, mimeType] = resource;
     if (!mimeType || !mimeTypes.includes(mimeType)) {
-      return `need mime type ${listItems(mimeTypes, true)}, got "${mimeType}"`;
+      return `need mime type ${listItems(mimeTypes, { quote: true })}, got "${mimeType}"`;
     }
     return undefined;
   };

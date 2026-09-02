@@ -2,11 +2,13 @@ import { createAsync, revalidate } from '@solidjs/router';
 import clsx from 'clsx';
 import { Show } from 'solid-js';
 import icon from '../../../../assets/icon.png?format=avif&imagetools';
-import { getPostDateById, postTypeDescriptors } from '../../../core/entities/post.js';
+import { getPostDateById } from '../../../core/entities/post.js';
 import { selectPostInfos } from '../../../core/entities/post-info.js';
+import { postsManagerDescriptors } from '../../../core/entities/posts-manager.js';
 import type { SiteRoutePage, SiteRouteParams } from '../../../core/entities/site-route.js';
 import { max } from '../../../core/services/max.js';
 import { dateToString, formatDate, formatTime } from '../../../core/utils/date-utils.js';
+import { capitalize } from '../../../core/utils/string-utils.js';
 import { AppPage } from '../../components/App/App.jsx';
 import { Button } from '../../components/Button/Button.jsx';
 import { CommentPreviews } from '../../components/CommentPreviews/CommentPreviews.jsx';
@@ -23,7 +25,10 @@ import { useLocalPatch } from '../../hooks/useLocalPatch.js';
 import { postRoute } from '../../routes/post-route.js';
 import { postsRoute } from '../../routes/posts-route.js';
 import { usersRoute } from '../../routes/users-route.js';
-import { HomePageData, queryHomePageData } from './HomePage.data.js';
+import { texts } from '../../texts/index.js';
+import { currentLocale, isRu, localize } from '../../utils/intl-utils.js';
+import type { HomePageData } from './HomePage.data.js';
+import { queryHomePageData } from './HomePage.data.js';
 import styles from './HomePage.module.css';
 
 export const HomePage: SiteRoutePage<SiteRouteParams, HomePageData> = () => {
@@ -52,11 +57,8 @@ export const HomePage: SiteRoutePage<SiteRouteParams, HomePageData> = () => {
                 <div class={styles.info}>
                   <img src={icon} class={styles.icon} alt="screenshot of a tree" width={320} />
                   <section class={styles.heading}>
-                    <p class={styles.title}>Morrowind Screenshots</p>
-                    <p class={styles.description}>
-                      Original screenshots and videos from The&nbsp;Elder&nbsp;Scrolls&nbsp;III:&nbsp;Morrowind.
-                      No&nbsp;graphic and unlore mods. No&nbsp;color filters. No&nbsp;interface.
-                    </p>
+                    <p class={styles.title}>{localize(texts.app.title)}</p>
+                    <p class={styles.description}>{localize(texts.app.description)}</p>
                   </section>
                   <p class={styles.links}>
                     <a href="https://instagram.com/mwscr/" class={styles.link}>
@@ -86,35 +88,52 @@ export const HomePage: SiteRoutePage<SiteRouteParams, HomePageData> = () => {
                   <p class={styles.version}>
                     v{import.meta.env.VITE_APP_VERSION}
                     {', '}
-                    {formatDate(buildDate)}, {formatTime(buildDate)}
+                    {formatDate(buildDate, currentLocale())}, {formatTime(buildDate, false, currentLocale())}
                   </p>
 
                   <p class={styles.copyright}>
-                    <GoldIcon />{' '}
-                    <a href="https://dehero.site" class={styles.link}>
-                      dehero
-                    </a>
-                    {' and community '}
-                    <a href={usersRoute.createUrl({})} class={styles.link}>
-                      members
-                    </a>
+                    {localize(texts.app.communityNotice, {
+                      author: (parts) => (
+                        <>
+                          <GoldIcon />{' '}
+                          <a href={isRu() ? 'https://dehero.ru' : 'https://dehero.site'} class={styles.link}>
+                            {parts}
+                          </a>
+                        </>
+                      ),
+                      members: (parts) => (
+                        <a href={usersRoute.createUrl({})} class={styles.link}>
+                          {parts}
+                        </a>
+                      ),
+                    })}
                   </p>
                   <p class={styles.license}>
-                    {'Licenced under '}
-                    <a href="https://github.com/dehero/mwscr/blob/main/LICENSE" class={styles.link}>
-                      CC-BY-4.0
-                    </a>
-                    {' and '}
-                    <a href="https://github.com/dehero/mwscr/blob/main/LICENSE-CODE" class={styles.link}>
-                      MIT
-                    </a>
+                    {localize(texts.app.licenseNotice, {
+                      cc: (parts) => (
+                        <a href="https://github.com/dehero/mwscr/blob/main/LICENSE" class={styles.link}>
+                          {parts}
+                        </a>
+                      ),
+                      mit: (parts) => (
+                        <a href="https://github.com/dehero/mwscr/blob/main/LICENSE-CODE" class={styles.link}>
+                          {parts}
+                        </a>
+                      ),
+                    })}
                   </p>
                   <p class={styles.actions}>
-                    <Button href={createDetachedDialogFragment('subscription')}>Subscribe</Button>
+                    <Button href={createDetachedDialogFragment('subscription')}>
+                      {localize(texts.support.subscribe)}
+                    </Button>
 
-                    <Button href={createDetachedDialogFragment('contributing')}>Contribute</Button>
+                    <Button href={createDetachedDialogFragment('contributing')}>
+                      {localize(texts.contributing.contribute)}
+                    </Button>
 
-                    <Button href={createDetachedDialogFragment('sponsorship')}>Sponsor</Button>
+                    <Button href={createDetachedDialogFragment('sponsorship')}>
+                      {localize(texts.support.sponsor)}
+                    </Button>
                   </p>
                 </div>
                 <Divider />
@@ -122,7 +141,7 @@ export const HomePage: SiteRoutePage<SiteRouteParams, HomePageData> = () => {
                 <Table
                   rows={[
                     {
-                      label: 'Posts',
+                      label: localize(postsManagerDescriptors.posts.title),
                       value: data().totalPosts.posts
                         ? () => (
                             <>
@@ -134,7 +153,7 @@ export const HomePage: SiteRoutePage<SiteRouteParams, HomePageData> = () => {
                       link: postsRoute.createUrl({ managerName: 'posts' }),
                     },
                     {
-                      label: 'Extras',
+                      label: localize(postsManagerDescriptors.extras.title),
                       value: data().totalPosts.extras
                         ? () => (
                             <>
@@ -146,17 +165,17 @@ export const HomePage: SiteRoutePage<SiteRouteParams, HomePageData> = () => {
                       link: postsRoute.createUrl({ managerName: 'extras' }),
                     },
                     {
-                      label: 'Drafts',
+                      label: localize(postsManagerDescriptors.drafts.title),
                       value: data().totalPosts.drafts,
                       link: postsRoute.createUrl({ managerName: 'drafts' }),
                     },
                     {
-                      label: 'Rejects',
+                      label: localize(postsManagerDescriptors.rejects.title),
                       value: data().totalPosts.rejects,
                       link: postsRoute.createUrl({ managerName: 'rejects' }),
                     },
                     {
-                      label: 'Members',
+                      label: localize(texts.user.users),
                       value: data().membersCount,
                       link: usersRoute.createUrl({}),
                     },
@@ -164,18 +183,18 @@ export const HomePage: SiteRoutePage<SiteRouteParams, HomePageData> = () => {
                 />
                 <Divider />
                 <Table
-                  label="Total Reactions"
+                  label={localize(texts.metrics.summaryCommunityActivity)}
                   rows={[
                     {
-                      label: 'Followers',
+                      label: localize(texts.metrics.followers),
                       value: lastPostInfo()?.followers,
                     },
                     {
-                      label: 'Likes',
+                      label: localize(texts.metrics.likes),
                       value: data().totalLikes,
                     },
                     {
-                      label: 'Comments',
+                      label: localize(texts.metrics.comments),
                       value: data().totalCommentCount,
                     },
                   ]}
@@ -186,11 +205,25 @@ export const HomePage: SiteRoutePage<SiteRouteParams, HomePageData> = () => {
                 <PostHighlights
                   class={styles.postHighlights}
                   items={[
-                    { label: 'Last Post', primary: true, selection: data().recentPostInfos },
-                    { label: 'Last Original Post', primary: true, selection: data().lastOriginalPostInfo },
-                    { label: 'Recent Engaging Post', primary: true, selection: recentMostEngagingPostInfo() },
-                    { label: "Recent Editor's Choice Post", selection: recentEditorsChoicePostInfo() },
-                    { label: 'Last Fulfilled Request', selection: data().lastFulfilledPostInfo },
+                    { label: texts.highlights.lastPost, primary: true, selection: data().recentPostInfos },
+                    {
+                      label: texts.highlights.lastOriginalPost,
+                      primary: true,
+                      selection: data().lastOriginalPostInfo,
+                    },
+                    {
+                      label: texts.highlights.recentEngagingPost,
+                      primary: true,
+                      selection: recentMostEngagingPostInfo(),
+                    },
+                    {
+                      label: texts.highlights.recentEditorsChoicePost,
+                      selection: recentEditorsChoicePostInfo(),
+                    },
+                    {
+                      label: texts.highlights.lastFulfilledRequest,
+                      selection: data().lastFulfilledPostInfo,
+                    },
                     // TODO: Last Week Top Rated Post, Current Month Top Rated Post, Previous Month Top Rated Post etc.
                   ]}
                 />
@@ -199,7 +232,7 @@ export const HomePage: SiteRoutePage<SiteRouteParams, HomePageData> = () => {
                   class={styles.postHighlights}
                   items={data().lastExtraPostInfos.map(
                     ([type, selection]): PostHighlightsItem => ({
-                      label: `Last ${postTypeDescriptors[type].title}` as PostHighlightsItem['label'],
+                      label: texts.highlights[`last${capitalize(type)}`],
                       selection,
                     }),
                   )}
@@ -208,9 +241,16 @@ export const HomePage: SiteRoutePage<SiteRouteParams, HomePageData> = () => {
                 <PostHighlights
                   class={styles.postHighlights}
                   items={[
-                    { label: 'Last Proposal', primary: true, selection: data().lastProposedPostInfo },
-                    { label: 'Last Located Post', selection: data().lastLocatedPostInfo },
-                    { label: 'Last Pending Request', selection: data().lastRequestedPostInfo },
+                    {
+                      label: texts.highlights.lastDraft,
+                      primary: true,
+                      selection: data().lastProposedPostInfo,
+                    },
+                    { label: texts.highlights.lastLocatedPost, selection: data().lastLocatedPostInfo },
+                    {
+                      label: texts.highlights.lastPendingRequest,
+                      selection: data().lastRequestedPostInfo,
+                    },
                   ]}
                 />
               </Frame>
@@ -220,7 +260,7 @@ export const HomePage: SiteRoutePage<SiteRouteParams, HomePageData> = () => {
               <Frame class={styles.diagrams}>
                 <Diagram
                   class={styles.diagram}
-                  label="Followers Count"
+                  label={localize(texts.metrics.followersCount)}
                   items={data().recentPostInfos.items}
                   getItemInterval={(item) => dateToString(getPostDateById(item.id) ?? new Date())}
                   getIntervalValue={(_, values) => values[0]?.followers || 0}
@@ -239,7 +279,7 @@ export const HomePage: SiteRoutePage<SiteRouteParams, HomePageData> = () => {
 
                 <Diagram
                   class={styles.diagram}
-                  label="Recent Posts Engagement"
+                  label={localize(texts.metrics.recentPostsEngagement)}
                   items={data().recentPostInfos.items}
                   getItemInterval={(item) => dateToString(getPostDateById(item.id) ?? new Date())}
                   getIntervalValue={(_, values) => values[0]?.engagement || 0}
