@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file.
 
+## [3.1.2](https://github.com/dehero/mwscr/compare/v3.1.1...v3.1.2) (2026-09-02)
+
+### Bug Fixes
+
+- extract full upload name from data patch issue text
+  ([6e1704c](https://github.com/dehero/mwscr/commit/6e1704cbbeed3937905bbd323c0e6f18fb1e5252))
+
 ## [3.1.1](https://github.com/dehero/mwscr/compare/v3.1.0...v3.1.1) (2026-09-02)
 
 ### Continuous Integration
