@@ -205,3 +205,35 @@
       updated: 2026-08-28-05-49-03
       followers: 883
       views: 197
+2026-09-02-1-russian-version-of-the-site:
+  title: Russian Version of the Site
+  titleRu: Русская версия сайта
+  description: >-
+    Dear followers! The Morrowind Screenshots website is now available in Russian at
+    [mwscr.dehero.ru](https://mwscr.dehero.ru/). You can switch between the Russian and English versions using the
+    language button in the site header. The Russian version includes translated interface texts, topics and project
+    materials. Welcome!
+  descriptionRu: >-
+    Дорогие подписчики! У сайта Morrowind Screenshots появилась русская версия по адресу
+    [mwscr.dehero.ru](https://mwscr.dehero.ru/). Переключаться между русской и английской версиями можно с помощью
+    кнопки выбора языка в шапке сайта. В русской версии переведены элементы интерфейса, справочные материалы и материалы
+    проекта. Добро пожаловать!
+  snapshot: store:/snapshots/2026-09-02-1-russian-version-of-the-site
+  type: news
+  author: dehero
+  mark: A1
+  posts:
+    - type: story
+      service: ig
+      id: DcybQoLHHlj
+      mediaId: '18109409512992477'
+      published: 2026-09-02-14-14-07
+      followers: 2061
+    - service: vk
+      id: 3531
+      published: 2026-09-02-14-14-11
+      followers: 1443
+    - service: tg
+      id: 1308
+      published: 2026-09-02-14-14-12
+      followers: 939
