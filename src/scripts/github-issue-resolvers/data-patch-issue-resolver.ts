@@ -30,10 +30,7 @@ export class DataPatchIssueResolver extends DataPatchIssue implements GithubIssu
 
     if (url) {
       const [data] = await readResource(url);
-      if (typeof data !== 'string') {
-        throw new TypeError(`Error reading data patch from URL "${url}".`);
-      }
-      patch = stringToDataPatch(data);
+      patch = stringToDataPatch(typeof data === 'string' ? data : data.toString('utf8'));
     } else {
       const rawDataPatch = extractIssueTextareaValue(dataPatchText, issue.body) ?? '';
       patch = stringToDataPatch(rawDataPatch);
