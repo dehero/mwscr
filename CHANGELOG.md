@@ -2,6 +2,24 @@
 
 All notable changes to this project will be documented in this file.
 
+## [3.1.0](https://github.com/dehero/mwscr/compare/v3.0.0...v3.1.0) (2026-09-02)
+
+### Features
+
+- **site:** add site language alternates for SEO
+  ([5277506](https://github.com/dehero/mwscr/commit/52775064c099a3c09b9d9a129fc43854310b0dd7))
+- **site:** stay on the same page while switching to other locale
+  ([6e556c4](https://github.com/dehero/mwscr/commit/6e556c45c5b9d18750ce92aafd96e494fa2c3cf2))
+- **site:** translate post proposal dialog to Russian
+  ([a6b2bf3](https://github.com/dehero/mwscr/commit/a6b2bf3b08729f01492c892e97704be754706c75))
+
+### Bug Fixes
+
+- **site:** don't switch locale while changing site domain
+  ([32be594](https://github.com/dehero/mwscr/commit/32be594a53acfa154982d5554d1ed1071705bb16))
+- **site:** leave more room for Russian navigation labels before collapsing to menu
+  ([8c127f8](https://github.com/dehero/mwscr/commit/8c127f84120532e2fce500b48c43f1bb9c0dcb6a))
+
 ## [3.0.0](https://github.com/dehero/mwscr/compare/v2.29.0...v3.0.0) (2026-09-02)
 
 ### ⚠ BREAKING CHANGES
