@@ -1,6 +1,8 @@
 export interface ImportVariant {
   label: string;
+  labelRu: string;
   description: string;
+  descriptionRu: string;
   allowedFormats: ImportVariantFormat[];
 }
 

@@ -1,7 +1,9 @@
 {
     "site-uploads": {
         "label": "Upload files to Drafts",
+        "labelRu": "Загрузить файлы в черновики",
         "description": "Send images directly to Drafts, then edit proposed posts in-place. Changes are visible only in your current browser until you send Edits to the project's repository.",
+        "descriptionRu": "Отправьте изображения напрямую в черновики, а затем редактируйте предложенные посты на месте. Изменения видны только в вашем браузере, пока вы не отправите правки в репозиторий проекта.",
         "allowedFormats": [
             {
                 "label": "PNG, BMP",
@@ -31,7 +33,9 @@
     },
     "link": {
         "label": "Insert links to Drafts",
+        "labelRu": "Вставить ссылки в черновики",
         "description": "Insert links to images or videos directly to Drafts, then edit proposed posts in-place. Changes are visible only in your current browser until you send Edits to the project's repository.",
+        "descriptionRu": "Вставьте ссылки на изображения или видео напрямую в черновики, а затем редактируйте предложенные посты на месте. Изменения видны только в вашем браузере, пока вы не отправите правки в репозиторий проекта.",
         "allowedFormats": [
             {
                 "label": "PNG, BMP",
@@ -59,7 +63,9 @@
     },
     "telegram-bot": {
         "label": "Send files to Telegram bot",
+        "labelRu": "Отправить файлы Telegram-боту",
         "description": "Send images or videos to Telegram bot called \"Ordinator\". He will check them and put to Drafts if everything is ok. He answers within an hour.",
+        "descriptionRu": "Отправьте изображения или видео Telegram-боту \"Ordinator\". Он проверит их и поместит в Черновики, если всё в порядке. Ответ обычно приходит в течение часа.",
         "allowedFormats": [
             {
                 "label": "PNG, BMP",
@@ -97,7 +103,9 @@
     },
     "github-issue": {
         "label": "Send files via GitHub Issue",
+        "labelRu": "Отправить файлы через GitHub Issue",
         "description": "Create GitHub Issue in project's repository with your images or videos attached. Use ZIP archives to send large or multiple files. After the issue is created, files will be automatically checked by project's repository workflow and added to Drafts if everything is ok.",
+        "descriptionRu": "Создайте GitHub Issue в репозитории проекта и прикрепите к нему изображения или видео. Используйте ZIP-архивы для отправки больших объёмов или нескольких файлов. После создания issue файлы будут автоматически проверены workflow репозитория и добавлены в Черновики, если всё в порядке.",
         "allowedFormats": [
             {
                 "label": "PNG, BMP",
@@ -134,7 +142,9 @@
     },
     "email": {
         "label": "Send files via email",
+        "labelRu": "Отправить файлы по электронной почте",
         "description": "Send images or videos to project administrator via email. He will check them manually and put to Drafts if everything is ok. Use ZIP archives to send large or multiple files.",
+        "descriptionRu": "Отправьте изображения или видео администратору проекта по электронной почте. Он проверит их вручную и поместит в Черновики, если всё в порядке. Используйте ZIP-архивы для отправки больших объёмов или нескольких файлов.",
         "allowedFormats": [
             {
                 "label": "PNG, JPG, BMP",

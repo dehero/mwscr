@@ -20,7 +20,7 @@ import { dataManager } from '../../data-managers/manager.js';
 import { helpRoute } from '../../routes/help-route.js';
 import { postsRoute } from '../../routes/posts-route.js';
 import { texts } from '../../texts/index.js';
-import { localize } from '../../utils/intl-utils.js';
+import { localField, localize } from '../../utils/intl-utils.js';
 import { Button } from '../Button/Button.js';
 import {
   createDetachedDialogFragment,
@@ -274,7 +274,10 @@ const PostProposalDialog: DetachedDialog = (props) => {
       >
         <div class={styles.variantWrapper}>
           <Select
-            options={Object.entries(importVariants).map(([id, variant]) => ({ label: variant.label, value: id }))}
+            options={Object.entries(importVariants).map(([id, variant]) => ({
+              label: localField(variant, 'label'),
+              value: id,
+            }))}
             value={submitVariant()}
             onChange={setSubmitVariant}
           />
@@ -286,7 +289,7 @@ const PostProposalDialog: DetachedDialog = (props) => {
           <Show when={submitVariantDescriptor()}>
             {(descriptor) => (
               <>
-                <p class={styles.variantDescription}>{descriptor().description}</p>
+                <p class={styles.variantDescription}>{localField(descriptor(), 'description')}</p>
 
                 <Table
                   label={localize(texts.editing.allowedFormats)}
@@ -311,7 +314,7 @@ const PostProposalDialog: DetachedDialog = (props) => {
                 <Table
                   label={requirementGroup.title}
                   rows={requirementGroup.topicInfos.map((topicInfo) => ({
-                    label: topicInfo.title ?? topicInfo.id,
+                    label: localField(topicInfo, 'title') ?? topicInfo.id,
                     tooltip: (ref) => <TopicTooltip topicId={topicInfo.id} forRef={ref} />,
                     link:
                       helpRoute.createUrl({ topicId: topicInfo.id }) + createDetachedDialogFragment('post-proposal'),
