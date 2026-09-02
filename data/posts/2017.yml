@@ -7199,14 +7199,15 @@
     - service: vk
       id: 3530
       published: 2026-09-01-20-14-38
-      updated: 2026-09-02-12-03-18
+      updated: 2026-09-02-12-36-48
       followers: 1442
-      likes: 27
-      views: 366
+      likes: 28
+      views: 374
+      reposts: 1
     - service: tg
       id: 1307
       published: 2026-09-01-20-14-45
-      updated: 2026-09-02-12-03-18
+      updated: 2026-09-02-12-36-47
       followers: 939
       likes: 36
       views: 146
