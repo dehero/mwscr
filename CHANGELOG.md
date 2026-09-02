@@ -2,6 +2,15 @@
 
 All notable changes to this project will be documented in this file.
 
+## [3.1.3](https://github.com/dehero/mwscr/compare/v3.1.2...v3.1.3) (2026-09-02)
+
+### Bug Fixes
+
+- convert patch data from buffer to string
+  ([04a0e18](https://github.com/dehero/mwscr/commit/04a0e18fd6edc6b7044263d977ffb67d06c7fb12))
+- improve Russian translations for import variants and license
+  ([5adb1f4](https://github.com/dehero/mwscr/commit/5adb1f4707be7e2cca1c1b9518700461c7994863))
+
 ## [3.1.2](https://github.com/dehero/mwscr/compare/v3.1.1...v3.1.2) (2026-09-02)
 
 ### Bug Fixes
