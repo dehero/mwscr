@@ -2,6 +2,19 @@
 
 All notable changes to this project will be documented in this file.
 
+## [3.0.0](https://github.com/dehero/mwscr/compare/v2.29.0...v3.0.0) (2026-09-02)
+
+### ⚠ BREAKING CHANGES
+
+- **site:** implement Russian version, closes #434
+
+### Features
+
+- **site:** implement Russian version, closes [#434](https://github.com/dehero/mwscr/issues/434)
+  ([3bde2a8](https://github.com/dehero/mwscr/commit/3bde2a899f8eac14beeb11221ade5bd6dd3a76ed))
+- **site:** translate topics to Russian with updating topic parser
+  ([1724022](https://github.com/dehero/mwscr/commit/17240226a9272361e39b8a1eaa4f4ea9b69d7073))
+
 ## [2.29.0](https://github.com/dehero/mwscr/compare/v2.27.2...v2.29.0) (2026-08-28)
 
 ### Features
