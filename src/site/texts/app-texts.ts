@@ -44,6 +44,6 @@ export const appTexts = {
   ],
   licenseNotice: [
     'Licensed under <cc>CC-BY-4.0</cc> and <mit>MIT</mit>',
-    'Распространяется по лицензиям <cc>CC-BY-4.0</cc> и <mit>MIT</mit>',
+    'Лицензии <cc>CC-BY-4.0</cc> и <mit>MIT</mit>',
   ],
 } satisfies Record<string, IntlText>;

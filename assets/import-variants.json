@@ -65,7 +65,7 @@
         "label": "Send files to Telegram bot",
         "labelRu": "Отправить файлы Telegram-боту",
         "description": "Send images or videos to Telegram bot called \"Ordinator\". He will check them and put to Drafts if everything is ok. He answers within an hour.",
-        "descriptionRu": "Отправьте изображения или видео Telegram-боту \"Ordinator\". Он проверит их и поместит в Черновики, если всё в порядке. Ответ обычно приходит в течение часа.",
+        "descriptionRu": "Отправьте изображения или видео Telegram-боту \"Ordinator\". Он проверит их и поместит в черновики, если всё в порядке. Ответ обычно приходит в течение часа.",
         "allowedFormats": [
             {
                 "label": "PNG, BMP",
@@ -105,7 +105,7 @@
         "label": "Send files via GitHub Issue",
         "labelRu": "Отправить файлы через GitHub Issue",
         "description": "Create GitHub Issue in project's repository with your images or videos attached. Use ZIP archives to send large or multiple files. After the issue is created, files will be automatically checked by project's repository workflow and added to Drafts if everything is ok.",
-        "descriptionRu": "Создайте GitHub Issue в репозитории проекта и прикрепите к нему изображения или видео. Используйте ZIP-архивы для отправки больших объёмов или нескольких файлов. После создания issue файлы будут автоматически проверены workflow репозитория и добавлены в Черновики, если всё в порядке.",
+        "descriptionRu": "Создайте GitHub Issue в репозитории проекта и прикрепите к нему изображения или видео. Используйте ZIP-архивы для отправки больших объёмов или нескольких файлов. После создания issue файлы будут автоматически проверены workflow репозитория и добавлены в черновики, если всё в порядке.",
         "allowedFormats": [
             {
                 "label": "PNG, BMP",
