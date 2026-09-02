@@ -5020,6 +5020,10 @@ sam-m-cooley:
       username: sam.m.cooley
       name: Sam Cooley
       avatar: store:/avatars/ig-3d13d97c.jpg
+samfromvz:
+  profiles:
+    - service: ig
+      username: samfromvz
 sanryyalk:
   profiles:
     - service: ig
