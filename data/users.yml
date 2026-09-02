@@ -487,7 +487,7 @@ ansis:
   profiles:
     - service: tg
       id: '517050552'
-      updated: 2026-09-02-05-11-41
+      updated: 2026-09-02-21-24-48
       accessHash: '5231096655311395455'
       username: ansis
       name: ansis
@@ -981,7 +981,7 @@ caius-cosades:
   profiles:
     - service: tg
       id: '6483220506'
-      updated: 2026-09-02-05-11-41
+      updated: 2026-09-02-21-24-47
       accessHash: '-5537197680289822260'
       username: Gatemate7
       botChatId: 6483220506
@@ -1696,7 +1696,7 @@ dremarretres:
   profiles:
     - service: vk
       id: '801308664'
-      updated: 2026-09-01-20-14-18
+      updated: 2026-09-02-21-24-49
       username: dremarretres
       name: Джон Шепард
       avatar: store:/avatars/vk-ac4f0700.jpg
@@ -2297,7 +2297,7 @@ gleb-zheltuhin:
   profiles:
     - service: vk
       id: '29014473'
-      updated: 2026-08-31-03-39-55
+      updated: 2026-09-02-21-24-53
       username: gleb_zheltuhin
       name: Глеб Желтухин
       avatar: store:/avatars/vk-971eefc1.jpg
@@ -2480,7 +2480,7 @@ himmelherz:
   profiles:
     - service: tg
       id: '588028426'
-      updated: 2026-08-30-00-52-34
+      updated: 2026-09-02-21-24-48
       accessHash: '3598871882011829639'
       username: himmelherz
       name: Roman
@@ -2811,7 +2811,7 @@ ivan-uralov:
   profiles:
     - service: vk
       id: '16497155'
-      updated: 2026-09-02-05-11-43
+      updated: 2026-09-02-21-24-53
       username: id16497155
       name: Иван Уралов
       avatar: store:/avatars/vk-51775759.jpg
@@ -3670,7 +3670,7 @@ mbdtsmo:
   profiles:
     - service: tg
       id: '5093097514'
-      updated: 2026-08-30-21-42-30
+      updated: 2026-09-02-21-24-49
       accessHash: '-613358669572386334'
       username: mbdtsmo
       name: M Bdtsmo
@@ -6825,7 +6825,7 @@ yellow-submarine:
   profiles:
     - service: vk
       id: '21865013'
-      updated: 2026-09-01-01-29-46
+      updated: 2026-09-02-21-24-53
       username: yellowsubm
       name: Yellow Submarine
       avatar: store:/avatars/vk-8254b201.jpg

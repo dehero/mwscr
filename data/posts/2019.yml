@@ -320,10 +320,10 @@
     - service: tg
       id: 1304
       published: 2026-08-29-20-21-12
-      updated: 2026-09-01-20-14-17
+      updated: 2026-09-02-21-24-47
       followers: 939
       likes: 53
-      views: 235
+      views: 279
       comments: !c ixWAkZPLQnoFB3RYgACtY2FpdXMtY29zYWRlc7JoYW1hcyBpbiBtb3Jyb3dpbmQD
     - service: mx
       id: '1788034876969'
