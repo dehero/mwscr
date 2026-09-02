@@ -19,6 +19,8 @@ import { stripCommonExtension } from '../../../core/utils/string-utils.js';
 import { dataManager } from '../../data-managers/manager.js';
 import { helpRoute } from '../../routes/help-route.js';
 import { postsRoute } from '../../routes/posts-route.js';
+import { texts } from '../../texts/index.js';
+import { localize } from '../../utils/intl-utils.js';
 import { Button } from '../Button/Button.js';
 import {
   createDetachedDialogFragment,
@@ -54,13 +56,13 @@ async function getRequirementGroups(): Promise<RequirementGroup[]> {
 
   return [
     {
-      title: 'Minimum Requirments',
+      title: localize(texts.editing.minimumRequirements),
       topicInfos: await dataManager.getTopicInfos(
         requirements.filter((requirement) => !requirement.strict).map(({ topicId }) => topicId),
       ),
     },
     {
-      title: 'Strict Requirements',
+      title: localize(texts.editing.strictRequirements),
       topicInfos: await dataManager.getTopicInfos(
         requirements.filter((requirement) => requirement.strict).map(({ topicId }) => topicId),
       ),
@@ -89,7 +91,7 @@ const PostProposalDialog: DetachedDialog = (props) => {
 
   const processUploadFiles = async (items: UploadFile[]) => {
     if (items.length === 0) {
-      addToast('No files selected for upload');
+      addToast(localize(texts.editing.noFilesSelectedForUpload));
       return;
     }
 
@@ -156,7 +158,7 @@ const PostProposalDialog: DetachedDialog = (props) => {
       .filter((line) => line.length > 0);
 
     if (urls.length === 0) {
-      addToast('No links to insert');
+      addToast(localize(texts.editing.noLinksToInsert));
       return;
     }
 
@@ -196,13 +198,13 @@ const PostProposalDialog: DetachedDialog = (props) => {
       case 'site-uploads': {
         return {
           onClick: () => selectFiles(processUploadFiles),
-          children: 'Select Files',
+          children: localize(texts.editing.selectFiles),
         };
       }
 
       case 'link': {
         return {
-          children: 'Insert Links',
+          children: localize(texts.editing.insertLinks),
           onClick: insertLinks,
         };
       }
@@ -211,7 +213,7 @@ const PostProposalDialog: DetachedDialog = (props) => {
         return {
           href: telegram.getUserProfileUrl(TELEGRAM_BOT_NAME),
           target: '_blank',
-          children: 'Talk to Ordinator',
+          children: localize(texts.editing.talkToOrdinator),
           onClick: handleClose,
         };
 
@@ -219,18 +221,19 @@ const PostProposalDialog: DetachedDialog = (props) => {
         return {
           href: postProposalIssue.createIssueUrl(),
           target: '_blank',
-          children: 'Create GitHub Issue',
+          children: localize(texts.editing.createGithubIssue),
           onClick: handleClose,
         };
 
       case 'email':
         return {
+          // TODO: get email dynamically from users
           href: email.getUserMessagingUrl('me@dehero.site', {
             subject: 'proposal',
             body: "Hello! I've attached .zip archive with works I'd like to propose. Please consider taking them to Drafts. Thank you!",
           }),
           target: '_blank',
-          children: 'Create email',
+          children: localize(texts.editing.createEmail),
           onClick: handleClose,
         };
 
@@ -250,7 +253,7 @@ const PostProposalDialog: DetachedDialog = (props) => {
       <UploadReportDialog show={uploadReport().length > 0} uploadReport={uploadReport()} onClose={handleClose} />
 
       <Dialog
-        title="Submit Files"
+        title={localize(texts.contributing.submitFiles)}
         modal
         {...props}
         show={props.show && uploadReport().length === 0}
@@ -260,11 +263,14 @@ const PostProposalDialog: DetachedDialog = (props) => {
             href={helpRoute.createUrl({ topicId: 'shooting-tips' }) + createDetachedDialogFragment('post-proposal')}
             class={styles.link}
           >
-            Shooting Tips
+            {localize(texts.editing.shootingTips)}
           </a>
         }
         contentClass={styles.container}
-        actions={[<Button {...submitButtonProps()} />, <Button onClick={handleClose}>Cancel</Button>]}
+        actions={[
+          <Button {...submitButtonProps()} />,
+          <Button onClick={handleClose}>{localize(texts.common.cancel)}</Button>,
+        ]}
       >
         <div class={styles.variantWrapper}>
           <Select
@@ -283,7 +289,7 @@ const PostProposalDialog: DetachedDialog = (props) => {
                 <p class={styles.variantDescription}>{descriptor().description}</p>
 
                 <Table
-                  label="Allowed Formats"
+                  label={localize(texts.editing.allowedFormats)}
                   rows={descriptor()
                     .allowedFormats // .filter((format) => !strict() || !format[2])
                     .map((format) => ({

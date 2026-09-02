@@ -4,6 +4,8 @@ import { orderingScenarios } from '../../../core/scenarios/ordering.js';
 import { email } from '../../../core/services/email.js';
 import { postingServices } from '../../../core/services/index.js';
 import { dataManager } from '../../data-managers/manager.js';
+import { texts } from '../../texts/index.js';
+import { localize } from '../../utils/intl-utils.js';
 import { Button } from '../Button/Button.jsx';
 import type { DetachedDialog } from '../DetachedDialogsProvider/DetachedDialogsProvider.jsx';
 import { Dialog } from '../Dialog/Dialog.jsx';
@@ -53,7 +55,7 @@ const MerchOrderingDialog: DetachedDialog = (props) => {
           body: `Hello!\n\nPlease check if ${otherCountry()} is available to deliver "${post()?.title}" merch.`,
         }),
         target: '_blank',
-        children: 'Send Email',
+        children: localize(texts.support.sendEmail),
       };
     }
 
@@ -80,16 +82,16 @@ const MerchOrderingDialog: DetachedDialog = (props) => {
 
   return (
     <>
-      <Toast message="Loading merch" show={props.show && postEntry.loading} loading />
+      <Toast message={localize(texts.content.loadingMerch)} show={props.show && postEntry.loading} loading />
 
       <Dialog
         {...props}
-        title="Order Merch"
+        title={localize(texts.support.merchOrdering)}
         actions={[
           <Show when={orderButtonProps()}>
             <Button {...orderButtonProps()} />
           </Show>,
-          <Button onClick={handleClose}>Cancel</Button>,
+          <Button onClick={handleClose}>{localize(texts.common.cancel)}</Button>,
         ]}
         modal
         contentClass={styles.container}
@@ -99,12 +101,12 @@ const MerchOrderingDialog: DetachedDialog = (props) => {
         </Show>
 
         <form class={styles.form}>
-          <Label label="Country" vertical>
+          <Label label={localize(texts.support.country)} vertical>
             <div class={styles.selectWrapper}>
               <Select
                 name="country"
                 options={[
-                  { value: undefined, label: 'CHECK MY COUNTRY' },
+                  { value: undefined, label: texts.support.checkMyCountry },
                   ...orderingScenarios.map((country) => ({ value: country.country })),
                 ]}
                 onChange={setCountry}
@@ -115,16 +117,13 @@ const MerchOrderingDialog: DetachedDialog = (props) => {
           </Label>
 
           <Show when={country() && !service()}>
-            <p class={styles.text}>Sorry, there are no shipping options to selected country for now.</p>
+            <p class={styles.text}>{localize(texts.support.noShippingOptions)}</p>
           </Show>
 
           <Show when={!country()}>
-            <p class={styles.text}>
-              Please submit a request to let the administrator contact you later to clarify the possibility of making an
-              order to your country.
-            </p>
+            <p class={styles.text}>{localize(texts.support.countryRequestHint)}</p>
 
-            <Label label="Check Country" vertical>
+            <Label label={localize(texts.support.checkCountry)} vertical>
               <Input
                 name="other_country"
                 onChange={setOtherCountry}

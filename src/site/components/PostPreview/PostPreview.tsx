@@ -7,8 +7,10 @@ import { getLimitedAspectRatio } from '../../../core/entities/media.js';
 import { postAddonDescriptors, postViolationDescriptors } from '../../../core/entities/post.js';
 import type { PostInfo } from '../../../core/entities/post-info.js';
 import { createPostPath } from '../../../core/entities/posts-manager.js';
-import { asArray, capitalizeFirstLetter } from '../../../core/utils/common-utils.js';
+import { asArray } from '../../../core/utils/common-utils.js';
+import { capitalize } from '../../../core/utils/string-utils.js';
 import { postRoute } from '../../routes/post-route.js';
+import { localField, localize } from '../../utils/intl-utils.js';
 import { createDetachedDialogFragment } from '../DetachedDialogsProvider/DetachedDialogsProvider.jsx';
 import { Divider } from '../Divider/Divider.js';
 import { Frame } from '../Frame/Frame.js';
@@ -35,7 +37,7 @@ export interface PostPreviewProps {
 }
 
 export const PostPreview: Component<PostPreviewProps> = (props) => {
-  const title = () => props.postInfo.title || props.postInfo.id;
+  const title = () => localField(props.postInfo, 'title') || props.postInfo.id;
 
   const url = () =>
     props.postInfo.status === 'added'
@@ -47,7 +49,7 @@ export const PostPreview: Component<PostPreviewProps> = (props) => {
   const alt = () => props.postInfo.tags?.join(' ');
   const frameState = () => (props.selected ? 'selected' : props.postInfo.status ? 'unsaved' : undefined);
 
-  const description = () => props.postInfo.description ?? props.postInfo.descriptionRu ?? '';
+  const description = () => localField(props.postInfo, 'description') ?? props.postInfo.descriptionRu ?? '';
   const hasRenderableDescription = () => markdownToInlineHtml(description(), () => []).html.length > 0;
 
   const [ref, setRef] = createSignal<HTMLElement>();
@@ -66,9 +68,9 @@ export const PostPreview: Component<PostPreviewProps> = (props) => {
           <Frame variant="thin" state={frameState()} class={styles.request} style={{ 'aspect-ratio': aspectRatio() }}>
             <span class={styles.status}>
               <Icon color="attribute" size="small" variant="flat">
-                {capitalizeFirstLetter(props.postInfo.status!)[0]}
+                {capitalize(props.postInfo.status!)[0]}
               </Icon>{' '}
-              {capitalizeFirstLetter(props.postInfo.status!)}
+              {capitalize(props.postInfo.status!)}
             </span>
           </Frame>
         }
@@ -93,7 +95,7 @@ export const PostPreview: Component<PostPreviewProps> = (props) => {
                   <p class={styles.requestText}>{request().text}</p>
 
                   <Show when={props.postInfo.requesterOption}>
-                    {(option) => <p class={styles.requestUser}>{option().label}</p>}
+                    {(option) => <p class={styles.requestUser}>{localize(option().label)}</p>}
                   </Show>
                 </Frame>
               )}
@@ -144,7 +146,7 @@ export const PostPreview: Component<PostPreviewProps> = (props) => {
                   <Show when={props.postInfo.status}>
                     {(status) => (
                       <Icon color="attribute" size="small" variant="flat">
-                        {capitalizeFirstLetter(status())[0]}
+                        {capitalize(status())[0]}
                       </Icon>
                     )}
                   </Show>

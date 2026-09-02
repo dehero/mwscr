@@ -1,5 +1,8 @@
 import type { InferOutput } from 'valibot';
 import { picklist } from 'valibot';
+import { texts } from '../texts/index.js';
+import { localize } from '../utils/intl-utils.js';
+import type { Locale } from './intl.js';
 
 // Cross-entity field names in order of serialization
 export const Field = picklist([
@@ -66,21 +69,11 @@ export const Field = picklist([
 
 export type Field = InferOutput<typeof Field>;
 
-interface FieldDescriptor {
-  title: string;
-}
+export function getFieldTitle(field: unknown, locale: Locale) {
+  if (typeof field !== 'string') {
+    return String(field);
+  }
 
-export const fieldDescriptors = Object.freeze<Record<string, FieldDescriptor>>({
-  title: { title: 'English title' },
-  titleRu: { title: 'Russian title' },
-  description: { title: 'English description' },
-  descriptionRu: { title: 'Russian description' },
-  nameRu: { title: 'Russian name' },
-  nameRuFrom: { title: 'Russian name in genitive' },
-  mark: { title: "Editor's mark" },
-  aspect: { title: 'Aspect ratio' },
-});
-
-export function getFieldTitle(field: string | number) {
-  return fieldDescriptors[field]?.title ?? field.toString();
+  const descriptor = texts.field[field as keyof typeof texts.field];
+  return localize(descriptor, locale);
 }

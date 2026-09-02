@@ -13,9 +13,9 @@ export abstract class UsersManager extends ListManager<User> {
   readonly ItemSchema = User;
 
   async createItemId(item: User): Promise<string> {
-    let baseId;
+    let baseId = item.name ? textToId(item.name) : undefined;
 
-    if (item.profiles) {
+    if (!baseId && item.profiles) {
       for (const profile of item.profiles) {
         if (profile.username && isUserNameReadable(profile.username)) {
           baseId = textToId(profile.username);

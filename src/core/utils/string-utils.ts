@@ -16,3 +16,10 @@ export function stripCommonExtension(value: string) {
 export function addHtmlBreaksToNewLines(value: string) {
   return value.replace(/\r?\n/g, '<br />\n');
 }
+export function capitalize<T extends string>(value: T): Capitalize<T> {
+  return (value.charAt(0).toLocaleUpperCase() + value.slice(1)) as Capitalize<T>;
+}
+
+export function uncapitalize<T extends string>(value: T): Uncapitalize<T> {
+  return (value.charAt(0).toLocaleLowerCase() + value.slice(1)) as Uncapitalize<T>;
+}

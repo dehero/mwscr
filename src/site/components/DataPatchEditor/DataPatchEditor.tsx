@@ -12,6 +12,8 @@ import { dataManager } from '../../data-managers/manager.js';
 import { useLocalPatch } from '../../hooks/useLocalPatch.js';
 import { postsRoute } from '../../routes/posts-route.js';
 import { usersRoute } from '../../routes/users-route.js';
+import { texts } from '../../texts/index.js';
+import { currentLocale, localize } from '../../utils/intl-utils.js';
 import { Button } from '../Button/Button.jsx';
 import { useDataPatchManager } from '../DataPatchManager/DataPatchManager.jsx';
 import { DataPatchTooltip } from '../DataPatchTooltip/DataPatchTooltip.jsx';
@@ -76,7 +78,7 @@ export const DataPatchEditor: Component<DataPatchEditorProps> = (props) => {
     setRows([
       ...dataManager.postsManagers.map(
         (manager): TableRow => ({
-          label: manager.descriptor.title,
+          label: localize(manager.descriptor.title),
           value: manager.patchSize,
           link:
             postsRoute.createUrl({ managerName: manager.name, status: ANY_OPTION.value }) +
@@ -84,7 +86,7 @@ export const DataPatchEditor: Component<DataPatchEditorProps> = (props) => {
         }),
       ),
       {
-        label: 'Members',
+        label: localize(texts.user.users),
         value: dataManager.users.patchSize,
         link:
           usersRoute.createUrl({ status: ANY_OPTION.value }) + createDetachedDialogFragment('contributing', 'patch'),
@@ -95,7 +97,7 @@ export const DataPatchEditor: Component<DataPatchEditorProps> = (props) => {
     e.preventDefault();
 
     if (localPatchSize() === 0) {
-      addToast('No edits to share.');
+      addToast(localize(texts.editing.noEditsToShare));
       return;
     }
 
@@ -126,33 +128,36 @@ export const DataPatchEditor: Component<DataPatchEditorProps> = (props) => {
           {selectedPatch()
             ? stripCommonExtension(selectedPatch()!.originalName)
             : localPatchSize() > 0
-              ? 'Local Edits*'
-              : ORIGINAL_OPTION.label}
+              ? `${localize(texts.editing.localEdits)}*`
+              : localize(ORIGINAL_OPTION.label)}
         </Button>
 
         <Frame class={styles.selectedPatchWrapper}>
           <Show
             when={selectedPatch()}
-            fallback={
-              <span class={styles.fallback}>
-                Make local edits, like creating drafts, then save them as a single patch. Share your patch to
-                administrator or submit to repository when you are done.
-              </span>
-            }
+            fallback={<span class={styles.fallback}>{localize(texts.editing.localEditsHint)}</span>}
           >
             <Table
               rows={[
                 {
-                  label: 'Size',
+                  label: localize(texts.editing.size),
                   value: `${selectedPatch()!.size}B`,
                 },
                 {
-                  label: 'Uploaded',
-                  value: `${formatDate(selectedPatch()!.uploaded)}, ${formatTime(selectedPatch()!.uploaded, true)}`,
+                  label: localize(texts.editing.uploaded),
+                  value: `${formatDate(selectedPatch()!.uploaded, currentLocale())}, ${formatTime(
+                    selectedPatch()!.uploaded,
+                    true,
+                    currentLocale(),
+                  )}`,
                 },
                 {
-                  label: 'Expires',
-                  value: `${formatDate(selectedPatch()!.expires)}, ${formatTime(selectedPatch()!.expires, true)}`,
+                  label: localize(texts.editing.expires),
+                  value: `${formatDate(selectedPatch()!.expires, currentLocale())}, ${formatTime(
+                    selectedPatch()!.expires,
+                    true,
+                    currentLocale(),
+                  )}`,
                 },
               ]}
             />
@@ -160,15 +165,18 @@ export const DataPatchEditor: Component<DataPatchEditorProps> = (props) => {
         </Frame>
 
         <div class={styles.toolbar}>
-          <Button onClick={handleImport}>Import</Button>
-          <Button onClick={exportLocalPatch}>Export</Button>
-          <Button onClick={copyLocalPatch}>Copy</Button>
-          <Button onClick={() => clearLocalPatch()}>Reset</Button>
+          <Button onClick={handleImport}>{localize(texts.editing.import)}</Button>
+          <Button onClick={exportLocalPatch}>{localize(texts.editing.export)}</Button>
+          <Button onClick={copyLocalPatch}>{localize(texts.common.copy)}</Button>
+          <Button onClick={() => clearLocalPatch()}>{localize(texts.component.reset)}</Button>
         </div>
 
         <Frame class={styles.tableWrapper} ref={dropzoneRef}>
-          <Show when={localPatchSize() > 0} fallback={<span class={styles.fallback}>No edits</span>}>
-            <Table label="Edits" value={localPatchSize()} rows={rows()} />
+          <Show
+            when={localPatchSize() > 0}
+            fallback={<span class={styles.fallback}>{localize(texts.editing.noEdits)}</span>}
+          >
+            <Table label={localize(texts.editing.edits)} value={localPatchSize()} rows={rows()} />
           </Show>
         </Frame>
 
@@ -179,20 +187,20 @@ export const DataPatchEditor: Component<DataPatchEditorProps> = (props) => {
         </div> */}
 
         <div class={styles.toolbar}>
-          <Button onClick={saveLocalPatch}>Save</Button>
+          <Button onClick={saveLocalPatch}>{localize(texts.editing.save)}</Button>
           <Button
             onClick={handleShare}
             href={selectedPatch() ? site.getDataPatchSharingUrl(selectedPatch()!) : undefined}
             target="_blank"
           >
-            Share
+            {localize(texts.editing.share)}
           </Button>
-          <Button onClick={submitSelectedPatch}>Submit</Button>
+          <Button onClick={submitSelectedPatch}>{localize(texts.editing.submit)}</Button>
         </div>
       </div>
 
       <OptionSelectDialog
-        title="Select Patch"
+        title={localize(texts.editing.patchSelection)}
         show={showLoadDialog()}
         onClose={() => setShowLoadDialog(false)}
         onConfirm={handleLoadConfirm}

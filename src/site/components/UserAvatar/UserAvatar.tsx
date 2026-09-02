@@ -5,6 +5,8 @@ import { getUserTitleLetter } from '../../../core/entities/user.js';
 import { getResourcePreviewUrl } from '../../data-managers/resources.js';
 import YellowExclamationMark from '../../images/exclamation.svg';
 import { store } from '../../stores/index.js';
+import { texts } from '../../texts/index.js';
+import { localize } from '../../utils/intl-utils.js';
 import { useToaster } from '../Toaster/Toaster.jsx';
 import styles from './UserAvatar.module.css';
 
@@ -35,7 +37,11 @@ export const UserAvatar: Component<UserAvatarProps> = (props) => {
   };
 
   const handleError = () => {
-    addToast(props.size === 'original' ? `Failed to load: ${url()}` : `Failed to load preview: ${url()}`);
+    addToast(
+      localize(props.size === 'original' ? texts.content.failedToLoad : texts.content.failedToLoadPreview, {
+        url: url(),
+      }),
+    );
     if (ref instanceof HTMLImageElement && ref.src !== YellowExclamationMark) {
       ref.src = YellowExclamationMark;
       ref.ariaLabel = 'yellow exclamation mark';

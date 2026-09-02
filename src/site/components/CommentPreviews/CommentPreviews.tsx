@@ -6,7 +6,8 @@ import { parsePostPath } from '../../../core/entities/posts-manager.js';
 import { groupBy } from '../../../core/utils/common-utils.js';
 import { dateToString } from '../../../core/utils/date-utils.js';
 import { postRoute } from '../../routes/post-route.js';
-
+import { texts } from '../../texts/index.js';
+import { localField, localize } from '../../utils/intl-utils.js';
 import { CommentPreview } from '../CommentPreview/CommentPreview.jsx';
 import { Divider } from '../Divider/Divider.jsx';
 import { Frame } from '../Frame/Frame.jsx';
@@ -54,7 +55,7 @@ const Group: Component<GroupProps> = (props) => {
               />
             </a>
             <a class={styles.title} href={url()} ref={setTitleRef}>
-              {commentInfo().title}
+              {localField(commentInfo(), 'title')}
             </a>
             <Divider class={styles.divider} />
 
@@ -89,7 +90,7 @@ export const CommentPreviews: Component<CommentPreviewsProps> = (props) => {
 
   return (
     <Frame class={clsx(styles.container, props.class)}>
-      <For each={groups()} fallback={<p class={styles.fallbackText}>No comments yet</p>}>
+      <For each={groups()} fallback={<p class={styles.fallbackText}>{localize(texts.content.noCommentsYet)}</p>}>
         {(group) => <Group commentInfos={group[1]} hideAuthorName={props.hideAuthorName} />}
       </For>
     </Frame>

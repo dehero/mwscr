@@ -7,7 +7,8 @@ import type {
   RecordSchema as ValibotRecordSchema,
 } from 'valibot';
 import { is, safeParse } from 'valibot';
-import { listItems, partition, uncapitalizeFirstLetter } from '../utils/common-utils.js';
+import { listItems, partition } from '../utils/common-utils.js';
+import { uncapitalize } from '../utils/string-utils.js';
 import { getFieldTitle } from './field.js';
 
 export type Schema<TOutput> = BaseSchema<unknown, TOutput, BaseIssue<unknown>>;
@@ -32,7 +33,7 @@ export function parseSchema<TSchema extends Schema<unknown>>(
   const output = safeParseSchema(schema, input, messages);
 
   if (messages.length > 0) {
-    const message = messages.map((message) => uncapitalizeFirstLetter(message)).join(', ');
+    const message = messages.map((message) => uncapitalize(message)).join(', ');
     throw new Error(typeof errorMessage === 'function' ? errorMessage(message) : message);
   }
 
@@ -85,7 +86,7 @@ export function assertSchema<TSchema extends Schema<unknown>>(
 }
 
 function getFieldTitleFromPath(path: IssuePathItem[] | undefined) {
-  return path?.map((item) => uncapitalizeFirstLetter(getFieldTitle(String(item.key)))).join(' in ');
+  return path?.map((item) => uncapitalize(getFieldTitle(String(item.key), 'en-GB'))).join(' in ');
 }
 
 function validbotIssuesToMessages(issues: BaseIssue<unknown>[], path?: BaseIssue<unknown>['path']): string[] {
@@ -106,7 +107,7 @@ function validbotIssuesToMessages(issues: BaseIssue<unknown>[], path?: BaseIssue
 
   if (outputIssues.length > 0) {
     const fields = new Set(outputIssues.map((issue) => getFieldTitleFromPath(issue.path ?? path) ?? 'field'));
-    messages.add(`missing ${listItems([...fields], false, 'and')}`);
+    messages.add(`missing ${listItems([...fields], { union: 'and' })}`);
   }
 
   [outputIssues, restIssues] = partition(
@@ -122,7 +123,7 @@ function validbotIssuesToMessages(issues: BaseIssue<unknown>[], path?: BaseIssue
         messages.add(
           `expected ${getFieldTitleFromPath(issue.path ?? path) ?? 'field'} to be ${listItems(
             expected,
-          )}, got ${uncapitalizeFirstLetter(issue.received)}`,
+          )}, got ${uncapitalize(issue.received)}`,
         );
       } else {
         restIssues.push(issue);
@@ -134,16 +135,14 @@ function validbotIssuesToMessages(issues: BaseIssue<unknown>[], path?: BaseIssue
 
   for (const issue of outputIssues) {
     messages.add(
-      `${getFieldTitleFromPath(issue.path ?? path) ?? 'field'} ${uncapitalizeFirstLetter(
-        issue.message,
-      )}, got ${uncapitalizeFirstLetter(issue.received)}`,
+      `${getFieldTitleFromPath(issue.path ?? path) ?? 'field'} ${uncapitalize(issue.message)}, got ${uncapitalize(
+        issue.received,
+      )}`,
     );
   }
 
   for (const issue of restIssues) {
-    messages.add(
-      [getFieldTitleFromPath(issue.path ?? path), uncapitalizeFirstLetter(issue.message)].filter(Boolean).join(' '),
-    );
+    messages.add([getFieldTitleFromPath(issue.path ?? path), uncapitalize(issue.message)].filter(Boolean).join(' '));
   }
 
   return [...messages];

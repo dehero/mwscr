@@ -118,6 +118,7 @@
   font-size: inherit;
   color: var(--color-text);
   margin-top: 6px;
+  white-space: nowrap;
 }
 
 .increment > .buttonLabel {

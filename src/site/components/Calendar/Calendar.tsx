@@ -2,6 +2,8 @@ import clsx from 'clsx';
 import { createEffect, createSignal, Match, Switch } from 'solid-js';
 import type { DateRange } from '../../../core/utils/common-types.js';
 import { getDecade, getDecadeYearRange } from '../../../core/utils/date-utils.js';
+import { texts } from '../../texts/index.js';
+import { currentLocale, localize } from '../../utils/intl-utils.js';
 import { ArrowIcon } from '../ArrowIcon/ArrowIcon.jsx';
 import { Button } from '../Button/Button.jsx';
 import styles from './Calendar.module.css';
@@ -34,13 +36,13 @@ export function Calendar<TPeriod extends boolean | undefined>(props: CalendarPro
   const title = () => {
     switch (view()) {
       case 'month':
-        return viewDate().toLocaleDateString('en-GB', { month: 'long', year: 'numeric' });
+        return viewDate().toLocaleDateString(currentLocale(), { month: 'long', year: 'numeric' });
       case 'year':
-        return viewDate().toLocaleDateString('en-GB', { year: 'numeric' });
+        return viewDate().toLocaleDateString(currentLocale(), { year: 'numeric' });
       case 'decade':
         return getDecadeYearRange(getDecade(viewDate())).join('-');
       default:
-        return 'Error';
+        return '';
     }
   };
 
@@ -117,7 +119,9 @@ export function Calendar<TPeriod extends boolean | undefined>(props: CalendarPro
 
   return (
     <div class={clsx(styles.calendar, props.class)}>
-      <div class={styles.label}>{props.period ? 'Pick date period' : 'Pick date'}</div>
+      <div class={styles.label}>
+        {props.period ? localize(texts.component.pickDatePeriod) : localize(texts.component.pickDate)}
+      </div>
       <div class={styles.header}>
         <Button onClick={createViewDateChanger(-1)}>
           <ArrowIcon direction="left" />

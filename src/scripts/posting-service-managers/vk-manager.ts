@@ -8,9 +8,9 @@ import type { Post, PostEntry } from '../../core/entities/post.js';
 import {
   createPostPublicationTags,
   getPostFirstPublished,
+  getPostPublicationTypeTitle,
   getPostTypeFromContent,
   postAddonDescriptors,
-  postTypeDescriptors,
 } from '../../core/entities/post.js';
 import type { Publication, PublicationComment } from '../../core/entities/publication.js';
 import { RESOURCE_MISSING_IMAGE } from '../../core/entities/resource.js';
@@ -77,7 +77,7 @@ export class VKManager extends VKService implements PostingServiceManager {
   createTitle(entry: PostEntry) {
     const [, post] = entry;
     const titlePrefix = [
-      post.type !== 'shot' ? postTypeDescriptors[post.type].titleRu : undefined,
+      post.type !== 'shot' ? getPostPublicationTypeTitle(post, 'ru') : undefined,
       post.addon && !postAddonDescriptors[post.addon].official ? post.addon : undefined,
     ]
       .filter(Boolean)
@@ -155,7 +155,7 @@ export class VKManager extends VKService implements PostingServiceManager {
       lines.push(formatDate(firstPublished, 'ru-RU'));
     }
 
-    lines.push(`Подробности: ${site.getPostUrl(id, managerName)}`);
+    lines.push(`Подробности: ${site.getPostUrl(id, managerName, 'ru')}`);
 
     if (post.type !== 'news' && tags.length > 0) {
       lines.push('');
@@ -283,7 +283,7 @@ export class VKManager extends VKService implements PostingServiceManager {
 
     const title = this.createTitle(entry) ?? '';
     const content = await this.createCaption(entry);
-    const link = site.getPostUrl(id, managerName);
+    const link = site.getPostUrl(id, managerName, 'ru');
     const published = new Date();
     const publicationId = lastPublication.id + 1;
 
@@ -321,7 +321,7 @@ export class VKManager extends VKService implements PostingServiceManager {
     const { vk } = await this.connect();
 
     const { image } = await createPostStory(post, { ru: true });
-    const linkUrl = site.getPostUrl(id, managerName);
+    const linkUrl = site.getPostUrl(id, managerName, 'ru');
 
     const result = await vk.upload.storiesPhoto({
       source: { value: image },

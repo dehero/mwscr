@@ -1,0 +1,28 @@
+import type { IntlText } from '../../core/entities/intl.js';
+
+export const contentTexts = {
+  download: ['Download', 'Скачать'],
+  view: ['View', 'Открыть'],
+  loading: ['Loading...', 'Загрузка...'],
+  loadingList: ['Loading {list}', 'Загрузка {list}'],
+  loadingContent: ['Loading Content', 'Загрузка контента'],
+  loadingUsers: ['Loading Members', 'Загрузка участников'],
+  loadingMerch: ['Loading Merch', 'Загрузка мерча'],
+  loadingPost: ['Loading Posts', 'Загрузка поста'],
+  loadingPosts: ['Loading Posts', 'Загрузка постов'],
+  loadingTopic: ['Loading Topic', 'Загрузка темы'],
+  loadingLocations: ['Loading Locations', 'Загрузка локаций'],
+  failedToLoad: ['Failed to load: {url}', 'Не удалось загрузить: {url}'],
+  failedToLoadPreview: ['Failed to load preview: {url}', 'Не удалось загрузить превью: {url}'],
+  failedToLoadContent: ['Failed to load content: {url}', 'Не удалось загрузить контент: {url}'],
+  postPathCopied: ['Post path copied to clipboard', 'Путь поста скопирован в буфер обмена'],
+  resourceUrlCopied: ['Resource URL copied to clipboard', 'URL ресурса скопирован в буфер обмена'],
+  userIdCopied: ['User ID copied to clipboard', 'ID пользователя скопирован в буфер обмена'],
+  noPostsYet: ['No posts yet', 'Постов пока нет'],
+  noPublicationsYet: ['No publications yet', 'Публикаций пока нет'],
+  noCommentsYet: ['No comments yet', 'Комментариев пока нет'],
+  untitled: ['Untitled', 'Без названия'],
+  unknown: ['Unknown', 'Неизвестный'],
+  locatedByUserOnDate: ['Located By {user}, {date}', 'Локация указана {user}, {date}'],
+  possibleViolation: ['Possible Violation', 'Возможное нарушение'],
+} satisfies Record<string, IntlText>;

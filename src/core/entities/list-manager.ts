@@ -1,6 +1,7 @@
 import { DeepProxy } from 'proxy-deep';
 import type { InferOutput } from 'valibot';
 import { null as nullSchema, picklist, record, string, undefined as undefinedSchema, union } from 'valibot';
+import { texts } from '../texts/index.js';
 import { arrayFromAsync, cloneValueWithoutProxy } from '../utils/common-utils.js';
 import {
   getObjectValue,
@@ -10,6 +11,7 @@ import {
   mergeObjects,
   setObjectValue,
 } from '../utils/object-utils.js';
+import type { IntlText } from './intl.js';
 import { Patch, patchObject } from './patch.js';
 import type { ObjectSchema, RecordSchema, Schema } from './schema.js';
 import { checkSchema, parseSchema } from './schema.js';
@@ -25,6 +27,18 @@ export type ListReaderChunk<TItem> = Record<string, TItem | string>;
 export type ListReaderStats = ReadonlyMap<string, number>;
 
 export type ListReaderItemStatus = InferOutput<typeof ListReaderItemStatus>;
+
+export interface ListReaderItemStatusDescriptor {
+  title: IntlText;
+}
+
+export const listReaderItemStatusDescriptors = Object.freeze<
+  Record<ListReaderItemStatus, ListReaderItemStatusDescriptor>
+>({
+  added: { title: texts.common.added },
+  changed: { title: texts.common.changed },
+  removed: { title: texts.common.removed },
+});
 
 export abstract class ListReader<TItem> {
   abstract readonly name: string;

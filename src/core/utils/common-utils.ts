@@ -28,14 +28,6 @@ export async function arrayFromAsync<T>(
   return items;
 }
 
-export function capitalizeFirstLetter(value: string) {
-  return value.charAt(0).toLocaleUpperCase() + value.slice(1);
-}
-
-export function uncapitalizeFirstLetter(value: string) {
-  return value.charAt(0).toLocaleLowerCase() + value.slice(1);
-}
-
 export function cleanupUndefinedProps<T extends Record<string, unknown>>(value: T): T {
   Object.keys(value).forEach((key) => value[key] === undefined && delete value[key]);
 
@@ -77,8 +69,33 @@ export function groupBy<K, V>(list: Array<V>, keyGetter: (item: V, map: Map<K, A
   return map;
 }
 
-export function listItems(items: string[], quote?: boolean, union = 'or'): string {
+export interface ListItemsOptions {
+  quote?: boolean;
+  union?: string;
+  mergePrefix?: boolean;
+}
+
+export function listItems(items: string[], options: ListItemsOptions = {}): string {
   const parts: string[] = [];
+  const { quote = false, union = 'or', mergePrefix = false } = options;
+
+  if (mergePrefix && items.length > 1) {
+    const commonPrefix = items.reduce((prefix, item) => {
+      let index = 0;
+      while (index < prefix.length && index < item.length && prefix[index] === item[index]) {
+        index++;
+      }
+      return prefix.slice(0, index);
+    });
+    const prefixLength = commonPrefix.lastIndexOf(' ') + 1;
+
+    if (prefixLength > 0) {
+      return `${commonPrefix.slice(0, prefixLength)}${listItems(
+        items.map((item) => item.slice(prefixLength)),
+        { quote, union },
+      )}`;
+    }
+  }
 
   for (let i = 0; i < items.length; i++) {
     const item = items[i] ?? '';

@@ -4,6 +4,8 @@ import {
   createSignal,
   // Show
 } from 'solid-js';
+import { texts } from '../../texts/index.js';
+import { localize } from '../../utils/intl-utils.js';
 import { Button } from '../Button/Button.jsx';
 import type { DialogProps } from '../Dialog/Dialog.jsx';
 import { Dialog } from '../Dialog/Dialog.jsx';
@@ -57,13 +59,16 @@ const DataPatchSaveDialog: Component<DataPatchSaveDialogProps> = (props) => {
       <Dialog
         {...props}
         // show={props.show && !userOptions.loading}
-        title="Save Patch"
+        title={localize(texts.editing.savePatch)}
         modal
         onClose={props.onClose}
         contentClass={styles.content}
-        actions={[<Button onClick={handleConfirm}>OK</Button>, <Button onClick={props.onClose}>Cancel</Button>]}
+        actions={[
+          <Button onClick={handleConfirm}>{localize(texts.common.ok)}</Button>,
+          <Button onClick={props.onClose}>{localize(texts.common.cancel)}</Button>,
+        ]}
       >
-        <Label label="Title" vertical>
+        <Label label={localize(texts.editing.patchTitle)} vertical>
           <Input value={title()} onChange={setTitle} class={styles.inputBoxInput} />
         </Label>
         {/* 

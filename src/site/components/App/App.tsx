@@ -1,8 +1,10 @@
 import { debounce } from '@solid-primitives/scheduled';
 import { Meta, MetaProvider, Title } from '@solidjs/meta';
-import { useIsRouting } from '@solidjs/router';
+import { useIsRouting, useLocation } from '@solidjs/router';
 import type { Accessor, Component, ParentComponent } from 'solid-js';
 import { createContext, createEffect, createMemo, createSignal, Show, useContext } from 'solid-js';
+import { texts } from '../../texts/index.js';
+import { currentLocale, getCurrentSiteOrigin, localize } from '../../utils/intl-utils.js';
 import { DataPatchManager } from '../DataPatchManager/DataPatchManager.jsx';
 import { DetachedDialogsProvider } from '../DetachedDialogsProvider/DetachedDialogsProvider.jsx';
 import { Frame } from '../Frame/Frame.jsx';
@@ -59,15 +61,17 @@ export const App: ParentComponent = (props) => {
   const [pageLoading, setPageLoading] = createSignal<boolean>(true);
 
   const isRouting = useIsRouting();
+  const location = useLocation();
 
   const isLoading = createMemo(() => isRouting() || pageLoading());
 
-  const metaTitle = createMemo(() => [pageTitle(), 'Morrowind Screenshots'].filter(Boolean).join(' — '));
-  const metaDescription = createMemo(
-    () =>
-      pageDescription() ||
-      'Original screenshots and videos from The Elder Scrolls III: Morrowind. No graphic and unlore mods. No color filters. No interface.',
-  );
+  const metaTitle = createMemo(() => [pageTitle(), localize(texts.app.title)].filter(Boolean).join(' — '));
+  const metaDescription = createMemo(() => pageDescription() || localize(texts.app.description));
+  const metaUrl = createMemo(() => `${getCurrentSiteOrigin()}${location.pathname}${location.search}${location.hash}`);
+
+  createEffect(() => {
+    document.documentElement.lang = currentLocale();
+  });
 
   const [showLoadingToast, setShowLoadingToast] = createSignal(true);
 
@@ -103,7 +107,7 @@ export const App: ParentComponent = (props) => {
             [
               'page-loader',
               {
-                message: 'Loading Page',
+                message: localize(texts.app.loadingPage),
                 loading: true,
                 show: showLoadingToast(),
               },
@@ -116,9 +120,12 @@ export const App: ParentComponent = (props) => {
               <Meta name="description" content={metaDescription()} />
               <Meta property="og:title" content={metaTitle()} />
               <Meta property="og:description" content={metaDescription()} />
+              <Meta property="og:site_name" content={localize(texts.app.title)} />
+              <Meta property="og:url" content={metaUrl()} />
+              <Meta property="og:image" content={`${getCurrentSiteOrigin()}/apple-touch-icon.png`} />
 
               <Frame variant="thick" component="header" class={styles.header}>
-                <h1 class={styles.title}>{pageTitle() || 'Morrowind Screenshots'}</h1>
+                <h1 class={styles.title}>{pageTitle() || localize(texts.app.title)}</h1>
               </Frame>
 
               <Navigation />

@@ -6,6 +6,7 @@ import { services } from '../../../core/services/index.js';
 import { formatDate, formatTime } from '../../../core/utils/date-utils.js';
 import { dataManager } from '../../data-managers/manager.js';
 import { userRoute } from '../../routes/user-route.js';
+import { currentLocale, localField } from '../../utils/intl-utils.js';
 import { UserAvatar } from '../UserAvatar/UserAvatar.jsx';
 import { UserTooltip } from '../UserTooltip/UserTooltip.jsx';
 import styles from './Comment.module.css';
@@ -30,9 +31,9 @@ export const Comment: Component<CommentProps> = (props) => {
 
   const title = () =>
     [
-      !props.hideDate && formatDate(props.comment.datetime),
-      !props.hideTime && formatTime(props.comment.datetime, true),
-      !props.hideAuthorName && (userInfo()?.title || props.comment.author),
+      !props.hideDate && formatDate(props.comment.datetime, currentLocale()),
+      !props.hideTime && formatTime(props.comment.datetime, true, currentLocale()),
+      !props.hideAuthorName && (localField(userInfo(), 'title') || props.comment.author),
       props.service && (services.find((s) => s.id === props.service)?.name || props.service),
     ]
       .filter(Boolean)

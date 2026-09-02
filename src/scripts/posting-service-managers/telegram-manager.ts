@@ -13,9 +13,9 @@ import { markdownToTelegramHtml } from '../../core/entities/markdown.js';
 import type { Post, PostEntry } from '../../core/entities/post.js';
 import {
   getPostFirstPublished,
+  getPostPublicationTypeTitle,
   getPostTypeFromContent,
   postAddonDescriptors,
-  postTypeDescriptors,
 } from '../../core/entities/post.js';
 import type { Publication, PublicationComment } from '../../core/entities/publication.js';
 import { parseResourceUrl, RESOURCE_MISSING_IMAGE } from '../../core/entities/resource.js';
@@ -119,7 +119,7 @@ export class TelegramManager extends Telegram implements PostingServiceManager {
       const contributors: string[] = [];
       const titlePrefix = [
         post.addon && !postAddonDescriptors[post.addon].official ? post.addon : undefined,
-        post.type !== 'shot' ? postTypeDescriptors[post.type].title : undefined,
+        post.type !== 'shot' ? getPostPublicationTypeTitle(post, 'en-GB') : undefined,
       ]
         .filter(Boolean)
         .join(' ');
@@ -162,7 +162,7 @@ export class TelegramManager extends Telegram implements PostingServiceManager {
       lines.push(formatDate(firstPublished));
     }
 
-    lines.push(`<a href="${site.getPostUrl(id, managerName)}">Details</a>`);
+    lines.push(`<a href="${site.getPostUrl(id, managerName, 'en-GB')}">Details</a>`);
 
     return lines.join('\n');
   }

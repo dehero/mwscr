@@ -1,6 +1,8 @@
 import clsx from 'clsx';
 import type { Component, JSX } from 'solid-js';
 import { createEffect, Show } from 'solid-js';
+import { texts } from '../../texts/index.js';
+import { localize } from '../../utils/intl-utils.js';
 import { Frame } from '../Frame/Frame.js';
 import styles from './Checkbox.module.css';
 
@@ -50,14 +52,16 @@ export const Checkbox: Component<CheckboxProps> = (props) => {
         when={props.tristate}
         fallback={
           <>
-            <span class={clsx(styles.label, styles.labelChecked)}>{props.trueLabel || 'On'}</span>
-            <span class={clsx(styles.label, styles.labelNotChecked)}>{props.falseLabel || 'Off'}</span>
+            <span class={clsx(styles.label, styles.labelChecked)}>{props.trueLabel || localize(texts.common.yes)}</span>
+            <span class={clsx(styles.label, styles.labelNotChecked)}>
+              {props.falseLabel || localize(texts.common.no)}
+            </span>
           </>
         }
       >
-        <span class={clsx(styles.label, styles.labelIndeterminate)}>Off</span>
-        <span class={clsx(styles.label, styles.labelChecked)}>{props.trueLabel || 'Yes'}</span>
-        <span class={clsx(styles.label, styles.labelNotChecked)}>{props.falseLabel || 'No'}</span>
+        <span class={clsx(styles.label, styles.labelIndeterminate)}>{localize(texts.common.no)}</span>
+        <span class={clsx(styles.label, styles.labelChecked)}>{props.trueLabel || localize(texts.common.yes)}</span>
+        <span class={clsx(styles.label, styles.labelNotChecked)}>{props.falseLabel || localize(texts.common.no)}</span>
       </Show>
     </Frame>
   );

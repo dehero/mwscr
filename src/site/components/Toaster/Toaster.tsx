@@ -2,6 +2,8 @@ import { ReactiveMap } from '@solid-primitives/map';
 import type { Component, JSX } from 'solid-js';
 import { createContext, createEffect, createSignal, createUniqueId, For, onCleanup, Show, useContext } from 'solid-js';
 import { isServer } from 'solid-js/web';
+import { texts } from '../../texts/index.js';
+import { localize } from '../../utils/intl-utils.js';
 import { Button } from '../Button/Button.jsx';
 import { Dialog } from '../Dialog/Dialog.js';
 import { Frame } from '../Frame/Frame.js';
@@ -214,8 +216,8 @@ export const Toaster: Component<ToasterProps> = (props) => {
         onClose={() => handleMessageBoxButtonClick(-1)}
         class={styles.messageBox}
         actions={[
-          <Button onClick={() => handleInputBoxButtonClick(true)}>OK</Button>,
-          <Button onClick={() => handleInputBoxButtonClick(false)}>Cancel</Button>,
+          <Button onClick={() => handleInputBoxButtonClick(true)}>{localize(texts.common.ok)}</Button>,
+          <Button onClick={() => handleInputBoxButtonClick(false)}>{localize(texts.common.cancel)}</Button>,
         ]}
       >
         <Label label={inputBoxProps()?.label} vertical>

@@ -12,6 +12,8 @@ import { stripCommonExtension } from '../../../core/utils/string-utils.js';
 import { dataManager } from '../../data-managers/manager.js';
 import { getResourceDataUrl } from '../../data-managers/resources.js';
 import { useLocalPatch } from '../../hooks/useLocalPatch.js';
+import { texts } from '../../texts/index.js';
+import { localize } from '../../utils/intl-utils.js';
 import type { DataPatchSaveParams } from '../DataPatchSaveDialog/DataPatchSaveDialog.jsx';
 import { Toast, useToaster } from '../Toaster/Toaster.jsx';
 
@@ -70,20 +72,25 @@ export const DataPatchManager: Component<DataPatchManagerProps> = (props) => {
     }
 
     if (name === localPatchName()) {
-      await messageBox(`Patch "${stripCommonExtension(selectedPatch()!.originalName)}" is already loaded.`, ['OK']);
+      await messageBox(
+        localize(texts.editing.patchAlreadyLoaded, {
+          title: stripCommonExtension(selectedPatch()!.originalName),
+        }),
+        [localize(texts.common.ok)],
+      );
       return true;
     }
 
     const upload = uploads.get(name);
     if (!upload) {
-      await messageBox(`Patch "${name}" is wrong or has expired.`, ['OK']);
+      await messageBox(localize(texts.editing.patchWrongOrExpired, { name }), [localize(texts.common.ok)]);
       return false;
     }
 
     const title = stripCommonExtension(upload.originalName);
 
     try {
-      setProcessingMessage(`Loading patch "${title}"`);
+      setProcessingMessage(localize(texts.editing.loadingPatch, { title }));
 
       const url = getResourceDataUrl(upload.url);
       if (!url) {
@@ -115,7 +122,7 @@ export const DataPatchManager: Component<DataPatchManagerProps> = (props) => {
         return false;
       }
 
-      setProcessingMessage(`Applying patch "${title}"`);
+      setProcessingMessage(localize(texts.editing.applyingPatchTitle, { title }));
 
       // Ensure to show message before blocking `replacePatch`
       await sleep(50);
@@ -125,10 +132,10 @@ export const DataPatchManager: Component<DataPatchManagerProps> = (props) => {
       return true;
     } catch (error) {
       if (error instanceof Error) {
-        addToast(`Failed to load patch "${title}": ${error.message}`);
+        addToast(localize(texts.editing.failedToLoadPatch, { title, error: error.message }));
         console.error(error.message);
       } else {
-        addToast(`Failed to load patch "${title}": ${error}`);
+        addToast(localize(texts.editing.failedToLoadPatch, { title, error: `${error}` }));
       }
     } finally {
       setProcessingMessage(undefined);
@@ -139,7 +146,7 @@ export const DataPatchManager: Component<DataPatchManagerProps> = (props) => {
 
   const saveLocalPatch = async () => {
     if (localPatchSize() === 0) {
-      addToast('No edits to save.');
+      addToast(localize(texts.editing.noEditsToSave));
       return false;
     }
 
@@ -161,7 +168,7 @@ export const DataPatchManager: Component<DataPatchManagerProps> = (props) => {
     const file = new File([blob], `${params.title}.json`);
 
     try {
-      setProcessingMessage(`Saving patch "${params.title}"`);
+      setProcessingMessage(localize(texts.editing.savePatchTitle, { title: params.title }));
 
       const result = await uploadFiles([file], { author: params.author });
 
@@ -191,7 +198,7 @@ export const DataPatchManager: Component<DataPatchManagerProps> = (props) => {
       return false;
     }
 
-    setProcessingMessage(`Clearing local edits`);
+    setProcessingMessage(localize(texts.editing.clearLocalEdits));
 
     // Ensure to show message before blocking `clearPatchPatch`
     await sleep(50);
@@ -204,7 +211,11 @@ export const DataPatchManager: Component<DataPatchManagerProps> = (props) => {
 
   const confirmClearingLocalPatch = async (): Promise<boolean> => {
     if (!selectedPatch() && localPatchSize() > 0) {
-      const result = await messageBox('Save your local edits to patch?', ['Yes', 'No', 'Cancel']);
+      const result = await messageBox(localize(texts.editing.saveLocalEdits), [
+        localize(texts.common.yes),
+        localize(texts.common.no),
+        localize(texts.common.cancel),
+      ]);
       if (result === 0) {
         const uploaded = await saveLocalPatch();
         if (!uploaded) {
@@ -220,7 +231,7 @@ export const DataPatchManager: Component<DataPatchManagerProps> = (props) => {
 
   const exportLocalPatch = async () => {
     if (localPatchSize() === 0) {
-      addToast('No edits to export.');
+      addToast(localize(texts.editing.noEditsToExport));
       return false;
     }
 
@@ -238,10 +249,10 @@ export const DataPatchManager: Component<DataPatchManagerProps> = (props) => {
     });
 
     try {
-      setProcessingMessage(`Exporting edits to "${filename}"`);
+      setProcessingMessage(localize(texts.editing.exportingTo, { filename: filename ?? '' }));
 
       await downloader.start();
-      addToast(`Patch "${filename}" exported`);
+      addToast(localize(texts.editing.exported, { filename: filename ?? '' }));
 
       return true;
     } catch (error) {
@@ -255,7 +266,10 @@ export const DataPatchManager: Component<DataPatchManagerProps> = (props) => {
 
   const importLocalPatch = async (files: File[]) => {
     if (localPatchSize() > 0) {
-      const result = await messageBox('Merge selected files with current local edits?', ['Yes', 'No']);
+      const result = await messageBox(localize(texts.editing.mergeWithLocalEdits), [
+        localize(texts.common.yes),
+        localize(texts.common.no),
+      ]);
       if (result !== 0) {
         return false;
       }
@@ -265,7 +279,7 @@ export const DataPatchManager: Component<DataPatchManagerProps> = (props) => {
 
     for (const file of files) {
       try {
-        setProcessingMessage(`Importing edits from "${file.name}"`);
+        setProcessingMessage(localize(texts.editing.importingFrom, { filename: file.name }));
 
         const data = stringToDataPatch(await file.text());
         dataManager.mergePatch(data);
@@ -287,7 +301,7 @@ export const DataPatchManager: Component<DataPatchManagerProps> = (props) => {
 
   const copyLocalPatch = () => {
     if (localPatchSize() === 0) {
-      addToast('No edits to copy.');
+      addToast(localize(texts.editing.noEditsToCopy));
       return false;
     }
 
@@ -295,7 +309,7 @@ export const DataPatchManager: Component<DataPatchManagerProps> = (props) => {
     const data = dataPatchToString(patch);
 
     writeClipboard(data);
-    addToast('Edits copied to clipboard.');
+    addToast(localize(texts.editing.copied));
 
     return true;
   };
@@ -316,7 +330,7 @@ export const DataPatchManager: Component<DataPatchManagerProps> = (props) => {
       if (error instanceof Error) {
         // If Web Share API does not work (not cancelled by user), copy link to clipboard
         await writeClipboard(url);
-        addToast('Share link copied to clipboard.');
+        addToast(localize(texts.editing.shareLinkCopied));
         return error.name !== 'AbortError';
       }
     }
@@ -326,7 +340,7 @@ export const DataPatchManager: Component<DataPatchManagerProps> = (props) => {
 
   const submitSelectedPatch = async () => {
     if (localPatchSize() === 0) {
-      addToast('No edits to submit.');
+      addToast(localize(texts.editing.noEditsToSubmit));
       return false;
     }
 
@@ -340,13 +354,13 @@ export const DataPatchManager: Component<DataPatchManagerProps> = (props) => {
 
     if (url) {
       window.open(url, '_blank');
-      addToast('Github Issue creation page opened.');
+      addToast(localize(texts.editing.githubIssueOpened));
 
       if (!selectedPatch()) {
-        const result = await messageBox(
-          'You are supposed to create a GitHub Issue containing your edits. Reset local edits?',
-          ['Yes', 'No'],
-        );
+        const result = await messageBox(localize(texts.editing.resetLocalEditsAfterIssue), [
+          localize(texts.common.yes),
+          localize(texts.common.no),
+        ]);
         if (result === 0) {
           clearLocalPatch(true);
         }
@@ -354,7 +368,7 @@ export const DataPatchManager: Component<DataPatchManagerProps> = (props) => {
 
       return true;
     }
-    addToast('Failed to generate Github Issue creation url.');
+    addToast(localize(texts.editing.githubIssueUrlFailed));
 
     return false;
   };

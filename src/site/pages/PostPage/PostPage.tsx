@@ -5,15 +5,21 @@ import clsx from 'clsx';
 import JsFileDownloader from 'js-file-downloader';
 import { createEffect, createMemo, createResource, createSignal, Match, onMount, Show, Switch } from 'solid-js';
 import { aspectRatioToReadableText } from '../../../core/entities/media.js';
-import { getPostDateById, postTypeDescriptors, postViolationDescriptors } from '../../../core/entities/post.js';
+import {
+  getPostDateById,
+  postPlacementDescriptors,
+  postTypeDescriptors,
+  postViolationDescriptors,
+} from '../../../core/entities/post.js';
 import type { PostAction } from '../../../core/entities/post-action.js';
 import type { PostsManagerName } from '../../../core/entities/posts-manager.js';
 import { createPostPath, postsManagerDescriptors } from '../../../core/entities/posts-manager.js';
 import { getPublicationsStats } from '../../../core/entities/publication.js';
 import { resourceIsImage, resourceIsVideo } from '../../../core/entities/resource.js';
 import type { SiteRoutePage } from '../../../core/entities/site-route.js';
-import { asArray, capitalizeFirstLetter } from '../../../core/utils/common-utils.js';
+import { asArray } from '../../../core/utils/common-utils.js';
 import { formatDate, isValidDate } from '../../../core/utils/date-utils.js';
+import { capitalize } from '../../../core/utils/string-utils.js';
 import { AppPage } from '../../components/App/App.jsx';
 import { Button } from '../../components/Button/Button.jsx';
 import { createDetachedDialogFragment } from '../../components/DetachedDialogsProvider/DetachedDialogsProvider.jsx';
@@ -45,6 +51,8 @@ import YellowExclamationMark from '../../images/exclamation.svg';
 import { postRoute } from '../../routes/post-route.js';
 import { postsRoute } from '../../routes/posts-route.js';
 import { userRoute } from '../../routes/user-route.js';
+import { texts } from '../../texts/index.js';
+import { currentLocale, localField, localize } from '../../utils/intl-utils.js';
 import type { PostPageData, PostPageParams } from './PostPage.data.js';
 import { queryPostPageData } from './PostPage.data.js';
 import styles from './PostPage.module.css';
@@ -103,8 +111,10 @@ export const PostPage: SiteRoutePage<PostPageParams, PostPageData> = (props) => 
 
   const date = () => getPostDateById(props.params.id);
 
-  const title = () => postInfo()?.title || 'Untitled';
-  const titleRu = () => postInfo()?.titleRu || 'Без названия';
+  const title = () => localField(postInfo(), 'title') || postInfo()?.id || localize(texts.content.untitled);
+  const secondTitle = () => (postInfo() ? localField(postInfo()!, 'title', true) : undefined);
+  const description = () => localField(postInfo(), 'description') || postInfo()?.description;
+  const secondDescription = () => (postInfo() ? localField(postInfo()!, 'description', true) : undefined);
   const contentInfos = (): ContentInfo[] => [
     ...asArray(postInfo()?.content).map((url) => ({
       url,
@@ -140,7 +150,7 @@ export const PostPage: SiteRoutePage<PostPageParams, PostPageData> = (props) => 
 
   const copyPathToClipboard = () => {
     writeClipboard(createPostPath(props.params.managerName, props.params.id));
-    addToast('Post path copied to clipboard');
+    addToast(localize(texts.content.postPathCopied));
   };
 
   const handleContentLoad = () => {
@@ -148,7 +158,7 @@ export const PostPage: SiteRoutePage<PostPageParams, PostPageData> = (props) => 
   };
 
   const handleContentError = (url: string) => {
-    addToast(`Failed to load content: ${url}`);
+    addToast(localize(texts.content.failedToLoadContent, { url }));
     setLoadingFailedUrls([...loadingFailedUrls(), url]);
     setIsLoading(false);
   };
@@ -169,9 +179,9 @@ export const PostPage: SiteRoutePage<PostPageParams, PostPageData> = (props) => 
   };
 
   const handleReset = async () => {
-    const result = await messageBox('Are you sure you want to reset current local changes for this post?', [
-      'Yes',
-      'No',
+    const result = await messageBox(localize(texts.editing.resetLocalChanges), [
+      localize(texts.common.yes),
+      localize(texts.common.no),
     ]);
     if (result === 0) {
       const targetId = postInfo()?.refId || props.params.id;
@@ -195,9 +205,10 @@ export const PostPage: SiteRoutePage<PostPageParams, PostPageData> = (props) => 
     <>
       <AppPage
         title={title()}
-        description={`Information, content, statistics and comments of ${
-          props.params.managerName
-        } post "${title()}" in Morrowind Screenshots project.`}
+        description={localize(texts.app.postDescription, {
+          managerName: props.params.managerName,
+          title: title(),
+        })}
         loading={!data() || postInfo.loading}
       />
 
@@ -212,7 +223,11 @@ export const PostPage: SiteRoutePage<PostPageParams, PostPageData> = (props) => 
           postInfo()?.type && styles[postInfo()!.type],
         )}
       >
-        <Toast message="Loading Content" show={contentInfos().length > 0 && isLoading()} loading />
+        <Toast
+          message={localize(texts.content.loadingContent)}
+          show={contentInfos().length > 0 && isLoading()}
+          loading
+        />
         <Show when={postInfo()}>
           {(postInfo) => (
             <>
@@ -309,7 +324,7 @@ export const PostPage: SiteRoutePage<PostPageParams, PostPageData> = (props) => 
                                 class={styles.downloadButton}
                                 target="_blank"
                               >
-                                Download
+                                {localize(texts.content.download)}
                               </Button>
                             </Show>
                           </Match>
@@ -328,7 +343,7 @@ export const PostPage: SiteRoutePage<PostPageParams, PostPageData> = (props) => 
                     <Show when={postInfo().requesterOption}>
                       {(option) => (
                         <p class={styles.requestUser}>
-                          {option().label}, {formatDate(request().date)}
+                          {localize(option().label)}, {formatDate(request().date, currentLocale())}
                         </p>
                       )}
                     </Show>
@@ -340,13 +355,15 @@ export const PostPage: SiteRoutePage<PostPageParams, PostPageData> = (props) => 
                 <div class={styles.info}>
                   <section class={styles.titles}>
                     <p class={styles.title}>{title()}</p>
-                    <p class={styles.titleRu}>{titleRu()}</p>
+                    <Show when={secondTitle() && secondTitle() !== title()}>
+                      <p class={styles.titleRu}>{secondTitle()}</p>
+                    </Show>
                   </section>
 
                   <Show
                     when={
                       postActions().some((action) => ['edit', 'precise', 'merge', 'order'].includes(action)) ||
-                      (!postInfo().location && postActions().includes('locate')) ||
+                      (!postInfo().locationOptions && postActions().includes('locate')) ||
                       postInfo().status
                     }
                   >
@@ -365,7 +382,7 @@ export const PostPage: SiteRoutePage<PostPageParams, PostPageData> = (props) => 
                           )}
                           class={styles.action}
                         >
-                          Order
+                          {localize(texts.support.order)}
                         </Button>
                       </Show>
 
@@ -377,7 +394,7 @@ export const PostPage: SiteRoutePage<PostPageParams, PostPageData> = (props) => 
                           )}
                           class={styles.action}
                         >
-                          Edit
+                          {localize(texts.editing.edit)}
                         </Button>
                       </Show>
 
@@ -389,13 +406,15 @@ export const PostPage: SiteRoutePage<PostPageParams, PostPageData> = (props) => 
                           )}
                           class={styles.action}
                         >
-                          Precise
+                          {localize(texts.editing.precise)}
                         </Button>
                       </Show>
 
                       <Show
                         when={
-                          postInfo().status !== 'removed' && !postInfo().location && postActions().includes('locate')
+                          postInfo().status !== 'removed' &&
+                          !postInfo().locationOptions &&
+                          postActions().includes('locate')
                         }
                       >
                         <Button
@@ -405,25 +424,25 @@ export const PostPage: SiteRoutePage<PostPageParams, PostPageData> = (props) => 
                             createPostPath(props.params.managerName, props.params.id),
                           )}
                         >
-                          Locate
+                          {localize(texts.editing.locate)}
                         </Button>
                       </Show>
 
                       <Show when={postInfo().status}>
                         <Button class={styles.action} onClick={handleReset}>
-                          {postInfo().status === 'added' ? 'Remove' : 'Restore'}
+                          {postInfo().status === 'added'
+                            ? localize(texts.editing.remove)
+                            : localize(texts.editing.restore)}
                         </Button>
                       </Show>
                     </div>
                   </Show>
 
-                  <Show when={postInfo().description || postInfo().descriptionRu}>
+                  <Show when={description() || secondDescription()}>
                     <section class={styles.descriptions}>
-                      <Show when={postInfo().description}>
-                        <Markdown>{postInfo().description!}</Markdown>
-                      </Show>
-                      <Show when={postInfo().descriptionRu}>
-                        <Markdown>{postInfo().descriptionRu!}</Markdown>
+                      <Show when={description()}>{(description) => <Markdown>{description()}</Markdown>}</Show>
+                      <Show when={secondDescription() && secondDescription() !== description()}>
+                        <Markdown>{secondDescription()!}</Markdown>
                       </Show>
                     </section>
                   </Show>
@@ -432,21 +451,21 @@ export const PostPage: SiteRoutePage<PostPageParams, PostPageData> = (props) => 
                 <Show when={postInfo().published}>
                   <span class={styles.publishedIcon}>
                     <GoldIcon class={styles.icon} />
-                    Published
+                    {localize(texts.field.published)}
                   </span>
                 </Show>
 
                 <Show when={isValidDate(date())}>
-                  <span class={styles.date}>{formatDate(date()!)}</span>
+                  <span class={styles.date}>{formatDate(date()!, currentLocale())}</span>
                 </Show>
 
                 <Show when={postInfo().status}>
                   {(status) => (
                     <span class={styles.status}>
                       <Icon color="attribute" size="small" variant="flat">
-                        {capitalizeFirstLetter(status())[0]}
+                        {capitalize(status())[0]}
                       </Icon>{' '}
-                      {capitalizeFirstLetter(status())}
+                      {capitalize(status())}
                     </span>
                   )}
                 </Show>
@@ -455,36 +474,36 @@ export const PostPage: SiteRoutePage<PostPageParams, PostPageData> = (props) => 
 
                 <Table
                   rows={[
-                    { label: 'Created', value: postInfo().created },
+                    { label: localize(texts.field.created), value: postInfo().created },
                     {
-                      label: 'Type',
+                      label: localize(texts.field.type),
                       value: () => (
                         <>
                           <Icon color="combat" size="small" variant="flat" class={styles.icon}>
                             <PostTypeGlyph type={postInfo().type} />
                           </Icon>
-                          {postTypeDescriptors[postInfo().type].title}
+                          {localize(postTypeDescriptors[postInfo().type].title)}
                         </>
                       ),
                       link: postsRoute.createUrl({ managerName: props.params.managerName, type: postInfo().type }),
                     },
                     {
-                      label: 'Aspect Ratio',
+                      label: localize(texts.field.aspect),
                       value: aspectRatioToReadableText(postInfo().aspect),
                       link: postsRoute.createUrl({ managerName: props.params.managerName, aspect: postInfo().aspect }),
                     },
                     ...postInfo().authorOptions.map(
                       (option): TableRow => ({
-                        label: 'Author',
+                        label: localize(texts.field.author),
                         value: () => (
                           <>
                             <UserAvatar
                               image={option.image}
-                              title={option.label ?? option.value ?? '?'}
+                              title={localize(option.label)}
                               size="small"
                               class={styles.avatar}
                             />
-                            {option.label}
+                            {localize(option.label)}
                           </>
                         ),
                         link: userRoute.createUrl({ id: option.value ?? '' }),
@@ -492,13 +511,13 @@ export const PostPage: SiteRoutePage<PostPageParams, PostPageData> = (props) => 
                       }),
                     ),
                     {
-                      label: 'Located By',
+                      label: localize(texts.user.locator),
                       value: postInfo().locatorOption
                         ? () => (
                             <>
                               <UserAvatar
                                 image={postInfo().locatorOption!.image}
-                                title={postInfo().locatorOption!.label ?? postInfo().locatorOption!.value ?? '?'}
+                                title={localize(postInfo().locatorOption!.label)}
                                 size="small"
                                 class={styles.avatar}
                               />
@@ -512,13 +531,13 @@ export const PostPage: SiteRoutePage<PostPageParams, PostPageData> = (props) => 
                       tooltip: (ref) => <UserTooltip forRef={ref} user={postInfo().locatorOption!.value} showAvatar />,
                     },
                     {
-                      label: 'Requested By',
+                      label: localize(texts.post.requestedBy),
                       value: postInfo().requesterOption
                         ? () => (
                             <>
                               <UserAvatar
                                 image={postInfo().requesterOption!.image}
-                                title={postInfo().requesterOption!.label ?? postInfo().requesterOption!.value ?? '?'}
+                                title={localize(postInfo().requesterOption!.label)}
                                 size="small"
                                 class={styles.avatar}
                               />
@@ -534,21 +553,23 @@ export const PostPage: SiteRoutePage<PostPageParams, PostPageData> = (props) => 
                       ),
                     },
                     {
-                      label: 'Placement',
-                      value: postInfo().placement,
+                      label: localize(texts.field.placement),
+                      value: postInfo().placement
+                        ? localize(postPlacementDescriptors[postInfo().placement!].title)
+                        : undefined,
                       link: postsRoute.createUrl({
                         managerName: props.params.managerName,
                         placement: postInfo().placement,
                       }),
                     },
-                    { label: 'Engine', value: postInfo().engine },
+                    { label: localize(texts.field.engine), value: postInfo().engine },
                     {
-                      label: 'Addon',
+                      label: localize(texts.field.addon),
                       value: postInfo().addon,
                       link: postsRoute.createUrl({ managerName: props.params.managerName, addon: postInfo().addon }),
                     },
                     {
-                      label: "Editor's Mark",
+                      label: localize(texts.field.mark),
                       value: postInfo().mark
                         ? () => (
                             <>
@@ -569,7 +590,7 @@ export const PostPage: SiteRoutePage<PostPageParams, PostPageData> = (props) => 
                         : undefined,
                     },
                     ...asArray(postInfo().violation).map((violation) => ({
-                      label: 'Violation',
+                      label: localize(texts.field.violation),
                       value: postInfo().violation
                         ? () => (
                             <>
@@ -581,7 +602,7 @@ export const PostPage: SiteRoutePage<PostPageParams, PostPageData> = (props) => 
                               >
                                 {postViolationDescriptors[violation].letter}
                               </Icon>
-                              {postViolationDescriptors[violation].title}
+                              {localize(postViolationDescriptors[violation].title)}
                             </>
                           )
                         : undefined,
@@ -596,10 +617,11 @@ export const PostPage: SiteRoutePage<PostPageParams, PostPageData> = (props) => 
                   <Divider />
 
                   <Table
-                    label="Locations"
+                    label={localize(texts.location.locations)}
+                    value={localize(texts.metrics.postCount)}
                     rows={
                       data()?.locationInfos?.map((info) => ({
-                        label: info.title,
+                        label: localField(info, 'title') || '',
                         value: info.discovered?.posts,
                         link: postsRoute.createUrl({ managerName: 'posts', location: info.title, original: 'true' }),
                         tooltip: (ref) => <LocationTooltip forRef={ref} location={info} />,
@@ -613,7 +635,8 @@ export const PostPage: SiteRoutePage<PostPageParams, PostPageData> = (props) => 
                   <Divider />
 
                   <Table
-                    label="Tags"
+                    label={localize(texts.field.tags)}
+                    value={localize(texts.metrics.postCount)}
                     rows={
                       data()?.tagInfos?.map((info) => ({
                         label: info.id,
@@ -625,36 +648,28 @@ export const PostPage: SiteRoutePage<PostPageParams, PostPageData> = (props) => 
                   />
                 </Show>
 
-                <Show
-                  when={
-                    stats().likes || stats().views || stats().commentCount || postInfo().followers || postInfo().rating
-                  }
-                >
+                <Show when={stats().likes || stats().views || stats().commentCount || postInfo().rating}>
                   <Divider />
 
                   <Table
                     class={styles.table}
-                    label="Total Reactions"
+                    label={localize(texts.metrics.summaryCommunityActivity)}
                     rows={[
                       {
-                        label: 'Likes',
+                        label: localize(texts.metrics.likes),
                         value: stats().likes,
                       },
                       {
-                        label: 'Views',
+                        label: localize(texts.metrics.views),
                         value: stats().views,
                       },
                       {
-                        label: 'Comments',
-                        value: stats().commentCount,
-                      },
-                      {
-                        label: 'Followers',
-                        value: postInfo().followers,
-                      },
-                      {
-                        label: 'Rating',
+                        label: localize(texts.metrics.rating),
                         value: postInfo().rating,
+                      },
+                      {
+                        label: localize(texts.metrics.comments),
+                        value: stats().commentCount,
                       },
                     ]}
                   />
@@ -694,7 +709,10 @@ export const PostPage: SiteRoutePage<PostPageParams, PostPageData> = (props) => 
                       <Show when={postInfo().locatorOption}>
                         {(option) => (
                           <p class={styles.requestUser}>
-                            Located by {option().label}, {formatDate(locating().date)}
+                            {localize(texts.content.locatedByUserOnDate, {
+                              user: localize(option().label),
+                              date: formatDate(locating().date, currentLocale()),
+                            })}
                           </p>
                         )}
                       </Show>
@@ -711,7 +729,7 @@ export const PostPage: SiteRoutePage<PostPageParams, PostPageData> = (props) => 
                           <Icon color="attribute" size="small" variant="flat">
                             !
                           </Icon>{' '}
-                          {capitalizeFirstLetter(errors().join(', '))}
+                          {capitalize(errors().join(', '))}
                         </p>
                       </section>
                     </>
@@ -724,7 +742,7 @@ export const PostPage: SiteRoutePage<PostPageParams, PostPageData> = (props) => 
                   <div class={styles.id}>
                     <Input value={createPostPath(props.params.managerName, props.params.id)} readonly />
                     <Button class={styles.copy} onClick={copyPathToClipboard}>
-                      Copy
+                      {localize(texts.common.copy)}
                     </Button>
                   </div>
                 </div>
@@ -736,6 +754,7 @@ export const PostPage: SiteRoutePage<PostPageParams, PostPageData> = (props) => 
                     <PostComments publications={publications()} class={styles.comments} />
 
                     <PostPublications
+                      managerName={props.params.managerName}
                       postIds={[props.params.id, ...(data()?.repostIds ?? [])]}
                       selectedPostId={repostId() ?? props.params.id}
                       onSelectPostId={setRepostId}

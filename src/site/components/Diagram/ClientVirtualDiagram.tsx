@@ -4,6 +4,8 @@ import clsx from 'clsx';
 import { createContext, createSignal, mergeProps, Show, useContext } from 'solid-js';
 import { Dynamic } from 'solid-js/web';
 import { groupBy } from '../../../core/utils/common-utils.js';
+import { texts } from '../../texts/index.js';
+import { localize } from '../../utils/intl-utils.js';
 import { Frame } from '../Frame/Frame.jsx';
 import { Tooltip } from '../Tooltip/Tooltip.jsx';
 import type {
@@ -92,8 +94,12 @@ function ListItem<TItem>(props: VirtualItemProps<DiagramInterval<TItem>>) {
 function DefaultIntervalTooltipComponent(props: DiagramIntervalTooltipComponentProps<unknown>) {
   return (
     <Tooltip forRef={props.forRef}>
-      <span>Label: {String(props.interval.interval)}</span>
-      <span>Value: {props.interval.value}</span>
+      <span>
+        {localize(texts.component.title)}: {String(props.interval.interval)}
+      </span>
+      <span>
+        {localize(texts.component.value)}: {props.interval.value}
+      </span>
     </Tooltip>
   );
 }

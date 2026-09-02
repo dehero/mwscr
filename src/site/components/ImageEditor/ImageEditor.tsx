@@ -12,6 +12,8 @@ import { PostAspectRatio } from '../../../core/entities/post.js';
 import { ImageResourceExtension } from '../../../core/entities/resource.js';
 import { stripCommonExtension } from '../../../core/utils/string-utils.js';
 import YellowExclamationMark from '../../images/exclamation.svg';
+import { texts } from '../../texts/index.js';
+import { localize } from '../../utils/intl-utils.js';
 import { Button } from '../Button/Button.jsx';
 import { Divider } from '../Divider/Divider.jsx';
 import { Frame } from '../Frame/Frame.jsx';
@@ -694,7 +696,7 @@ export const ImageEditor: Component<ImageEditorProps> = (props) => {
       return;
     }
 
-    addToast(`Failed to load image: ${currentUrl()}`);
+    addToast(localize(texts.content.failedToLoad, { url: currentUrl() }));
     setCurrentUrl(YellowExclamationMark);
   };
 
@@ -807,88 +809,124 @@ export const ImageEditor: Component<ImageEditorProps> = (props) => {
       </svg>
 
       <Frame class={styles.tools}>
-        <Label label={`Exposure (${exposure().toFixed(2)})`} vertical active>
+        <Label
+          label={localize(texts.component.exposure, {
+            value: exposure().toFixed(2),
+          })}
+          vertical
+          active
+        >
           <Slider
             min={0.2}
             max={3}
             step={0.01}
             value={exposure()}
             onChange={setExposure}
-            minLabel="Dark"
-            maxLabel="Bright"
+            minLabel={localize(texts.component.dark)}
+            maxLabel={localize(texts.component.bright)}
           />
         </Label>
 
-        <Label label={`Brightness (${brightness().toFixed(2)})`} vertical active>
+        <Label
+          label={localize(texts.component.brightness, {
+            value: brightness().toFixed(2),
+          })}
+          vertical
+          active
+        >
           <Slider
             min={-0.5}
             max={0.5}
             step={0.01}
             value={brightness()}
             onChange={setBrightness}
-            minLabel="Darker"
-            maxLabel="Brighter"
+            minLabel={localize(texts.component.darker)}
+            maxLabel={localize(texts.component.brighter)}
           />
         </Label>
 
-        <Label label={`Contrast (${contrast().toFixed(2)})`} vertical active>
+        <Label
+          label={localize(texts.component.contrast, {
+            value: contrast().toFixed(2),
+          })}
+          vertical
+          active
+        >
           <Slider
             min={0.5}
             max={2}
             step={0.01}
             value={contrast()}
             onChange={setContrast}
-            minLabel="Softer"
-            maxLabel="Stronger"
+            minLabel={localize(texts.component.softer)}
+            maxLabel={localize(texts.component.stronger)}
           />
         </Label>
 
-        <Label label={`Shadows (${shadows().toFixed(2)})`} vertical active>
+        <Label
+          label={localize(texts.component.shadows, {
+            value: shadows().toFixed(2),
+          })}
+          vertical
+          active
+        >
           <Slider
             min={0}
             max={1}
             step={0.01}
             value={shadows()}
             onChange={setShadows}
-            minLabel="Darker"
-            maxLabel="Brighter"
+            minLabel={localize(texts.component.darker)}
+            maxLabel={localize(texts.component.brighter)}
           />
         </Label>
 
-        <Label label={`Highlights (${highlights().toFixed(2)})`} vertical active>
+        <Label
+          label={localize(texts.component.highlights, {
+            value: highlights().toFixed(2),
+          })}
+          vertical
+          active
+        >
           <Slider
             min={0}
             max={1}
             step={0.01}
             value={highlights()}
             onChange={setHighlights}
-            minLabel="Brighter"
-            maxLabel="Darker"
+            minLabel={localize(texts.component.brighter)}
+            maxLabel={localize(texts.component.darker)}
           />
         </Label>
 
-        <Label label={`Saturation (${saturation().toFixed(2)})`} vertical active>
+        <Label
+          label={localize(texts.component.saturation, {
+            value: saturation().toFixed(2),
+          })}
+          vertical
+          active
+        >
           <Slider
             min={0}
             max={3}
             step={0.01}
             value={saturation()}
             onChange={setSaturation}
-            minLabel="B&W"
-            maxLabel="Vibrant"
+            minLabel={localize(texts.component.blackAndWhite)}
+            maxLabel={localize(texts.component.vibrant)}
           />
         </Label>
 
         <div class={styles.toolbar}>
           <Button onMouseDown={handleCompareStart} onTouchStart={handleCompareStart}>
-            Compare
+            {localize(texts.component.compare)}
           </Button>
-          <Button onClick={resetFilters}>Reset</Button>
+          <Button onClick={resetFilters}>{localize(texts.component.reset)}</Button>
         </div>
 
         <Divider class={styles.divider} />
 
-        <Label label="Crop" vertical active>
+        <Label label={localize(texts.component.crop)} vertical active>
           <Show when={!isCropApplied()} fallback={aspectRatioToReadableText(cropRatio())}>
             <RadioGroup
               options={cropOptions()}
@@ -902,13 +940,13 @@ export const ImageEditor: Component<ImageEditorProps> = (props) => {
 
         <Show when={isCropApplied()}>
           <div class={styles.toolbar}>
-            <Button onClick={handleChangeCrop}>Change</Button>
+            <Button onClick={handleChangeCrop}>{localize(texts.component.change)}</Button>
           </div>
         </Show>
 
         <Divider class={styles.divider} />
 
-        <Label label={`Zoom (x${zoom().toFixed(1)})`} vertical active>
+        <Label label={localize(texts.component.zoom, { value: zoom().toFixed(1) })} vertical active>
           <Slider
             min={PANZOOM_MIN_SCALE}
             max={PANZOOM_MAX_SCALE}
@@ -921,7 +959,7 @@ export const ImageEditor: Component<ImageEditorProps> = (props) => {
         </Label>
 
         <div class={styles.toolbar}>
-          <Button onClick={handleResetZoomAndPan}>Reset</Button>
+          <Button onClick={handleResetZoomAndPan}>{localize(texts.component.reset)}</Button>
         </div>
       </Frame>
 
@@ -959,16 +997,16 @@ export const ImageEditor: Component<ImageEditorProps> = (props) => {
                     selectFiles(processUploadFiles);
                   }}
                 >
-                  Select File
+                  {localize(texts.component.selectFile)}
                 </Button>
                 <Show when={!props.url && currentUrl()}>
-                  <Button onClick={handleDownload}>Download</Button>
+                  <Button onClick={handleDownload}>{localize(texts.component.download)}</Button>
                 </Show>
               </Show>
             }
           >
-            <Button onClick={applyCrop}>Apply</Button>
-            <Button onClick={cancelCrop}>Cancel</Button>
+            <Button onClick={applyCrop}>{localize(texts.component.apply)}</Button>
+            <Button onClick={cancelCrop}>{localize(texts.common.cancel)}</Button>
           </Show>
         </div>
 

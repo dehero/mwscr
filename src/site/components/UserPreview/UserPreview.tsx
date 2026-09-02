@@ -1,7 +1,9 @@
 import clsx from 'clsx';
 import { type Component, createSignal, Show } from 'solid-js';
+import { userRoleDescriptors } from '../../../core/entities/user.js';
 import type { UserInfo } from '../../../core/entities/user-info.js';
 import { userRoute } from '../../routes/user-route.js';
+import { localField, localize } from '../../utils/intl-utils.js';
 import { Frame } from '../Frame/Frame.js';
 import { GoldIcon } from '../GoldIcon/GoldIcon.js';
 import { UserAvatar } from '../UserAvatar/UserAvatar.jsx';
@@ -26,9 +28,11 @@ export const UserPreview: Component<UserPreviewProps> = (props) => {
       <UserAvatar class={styles.avatar} image={props.userInfo.avatar} title={props.userInfo.title} />
 
       <section class={styles.info}>
-        <span class={styles.title}>{props.userInfo.title}</span>
+        <span class={styles.title}>{localField(props.userInfo, 'title')}</span>
 
-        <span class={styles.roles}>{props.userInfo.roles.join(', ')}</span>
+        <span class={styles.roles}>
+          {props.userInfo.roles.map((role) => localize(userRoleDescriptors[role].title).toLocaleLowerCase()).join(', ')}
+        </span>
 
         <Show when={authored()}>
           <span class={styles.published}>

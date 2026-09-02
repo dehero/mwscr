@@ -1,9 +1,12 @@
+import { texts } from '../texts/index.js';
 import type { DateRange, EntitySelection, SortDirection } from '../utils/common-types.js';
 import { asArray, cleanupUndefinedProps, getSearchTokens, search } from '../utils/common-utils.js';
 import { dateToString, formatDate, isDateInRange, isValidDate } from '../utils/date-utils.js';
+import { localize } from '../utils/intl-utils.js';
 import type { DataManager } from './data-manager.js';
-import type { ListReaderItemStatus } from './list-manager.js';
-import { isNestedLocation } from './location.js';
+import type { Locale } from './intl.js';
+import { type ListReaderItemStatus, listReaderItemStatusDescriptors } from './list-manager.js';
+import { createLocationOption, isNestedLocation } from './location.js';
 import { aspectRatioToReadableText } from './media.js';
 import type { Option } from './option.js';
 import { ANY_OPTION, NONE_OPTION } from './option.js';
@@ -12,7 +15,6 @@ import type {
   PostAspectRatio,
   PostContent,
   PostEngine,
-  PostLocation,
   PostMark,
   PostNote,
   PostPlacement,
@@ -26,12 +28,13 @@ import {
   getPostEntriesFromSource,
   getPostEntryStats,
   getPostRating,
+  getPostTypeUnitText,
   postAddonDescriptors,
-  postTypeDescriptors,
+  postPlacementDescriptors,
   postViolationDescriptors,
 } from './post.js';
 import type { PostsManagerName } from './posts-manager.js';
-import { isPublishablePost, isReject } from './posts-manager.js';
+import { getPostsManagerUnitTitle as getPostsManagerUnitText, isPublishablePost, isReject } from './posts-manager.js';
 import { createUserOption } from './user.js';
 
 export interface PostInfo {
@@ -41,7 +44,7 @@ export interface PostInfo {
   titleRu?: string;
   description?: string;
   descriptionRu?: string;
-  location?: PostLocation;
+  locationOptions?: Option[];
   placement?: PostPlacement;
   content?: PostContent;
   snapshot?: PostContent;
@@ -81,15 +84,15 @@ export interface SelectPostInfoSortOption extends Option {
 }
 
 export const selectPostInfosSortOptions = [
-  { value: 'date', label: 'Date', fn: comparePostInfosByDate },
-  { value: 'id', label: 'ID', fn: comparePostInfosById },
-  { value: 'likes', label: 'Likes', fn: comparePostInfosByLikes },
-  { value: 'views', label: 'Views', fn: comparePostInfosByViews },
-  { value: 'engagement', label: 'Engagement', fn: comparePostInfosByEngagement },
-  { value: 'rating', label: 'Rating', fn: comparePostInfosByRating },
-  { value: 'mark', label: "Editor's Mark", fn: comparePostInfosByMark },
-  { value: 'located', label: 'Located', fn: comparePostInfosByLocated },
-  { value: 'requested', label: 'Requested', fn: comparePostInfosByRequested },
+  { value: 'date', label: texts.common.date, fn: comparePostInfosByDate },
+  { value: 'id', label: texts.field.id, fn: comparePostInfosById },
+  { value: 'likes', label: texts.metrics.likes, fn: comparePostInfosByLikes },
+  { value: 'views', label: texts.metrics.views, fn: comparePostInfosByViews },
+  { value: 'engagement', label: texts.metrics.engagement, fn: comparePostInfosByEngagement },
+  { value: 'rating', label: texts.metrics.rating, fn: comparePostInfosByRating },
+  { value: 'mark', label: texts.field.mark, fn: comparePostInfosByMark },
+  { value: 'located', label: texts.post.located, fn: comparePostInfosByLocated },
+  { value: 'requested', label: texts.post.requested, fn: comparePostInfosByRequested },
 ] as const satisfies SelectPostInfoSortOption[];
 
 export type SelectPostInfosSortKey = (typeof selectPostInfosSortOptions)[number]['value'];
@@ -150,7 +153,7 @@ export async function createPostInfos(managerName: string, dataManager: DataMana
         titleRu: post.titleRu,
         description: post.description,
         descriptionRu: post.descriptionRu,
-        location: post.location,
+        locationOptions: (await dataManager.locations.getEntries(asArray(post.location))).map(createLocationOption),
         placement: post.placement,
         content: post.content,
         snapshot: post.snapshot,
@@ -311,9 +314,12 @@ export const selectPostInfos = (
           (params.locator === NONE_OPTION.value && !info.locatorOption) ||
           info.locatorOption?.value === params.locator) &&
         (typeof params.location === 'undefined' ||
-          (params.location === ANY_OPTION.value && info.location) ||
-          (params.location === NONE_OPTION.value && !info.location) ||
-          (info.location && asArray(info.location).some((location) => isNestedLocation(location, params.location!)))) &&
+          (params.location === ANY_OPTION.value && info.locationOptions) ||
+          (params.location === NONE_OPTION.value && !info.locationOptions) ||
+          (info.locationOptions &&
+            asArray(info.locationOptions).some((location) =>
+              isNestedLocation(location.value ?? '', params.location!),
+            ))) &&
         (typeof params.mark === 'undefined' || info.mark === params.mark) &&
         (typeof params.violation === 'undefined' ||
           (params.violation === ANY_OPTION.value && info.violation) ||
@@ -330,127 +336,158 @@ export const selectPostInfos = (
   };
 };
 
-export function selectPostInfosResultToString(count: number, params: SelectPostInfosParams) {
+export function selectPostInfosResultToString(
+  count: number,
+  params: SelectPostInfosParams,
+  locale: Locale,
+  managerName: PostsManagerName,
+) {
   const result: string[] = [count.toString()];
   const sortOption = selectPostInfosSortOptions.find((comparator) => comparator.value === params.sortKey);
 
   if (typeof params.original !== 'undefined') {
-    result.push(params.original ? 'original' : 'reposted');
+    result.push(localize(params.original ? texts.postFilter.original : texts.postFilter.reposted, locale, { count }));
   }
 
   if (typeof params.publishable !== 'undefined') {
-    result.push(params.publishable ? 'publishable' : 'not publishable');
+    result.push(
+      localize(params.publishable ? texts.postFilter.publishable : texts.postFilter.notPublishable, locale, { count }),
+    );
   }
 
   if (params.requester) {
     if (params.requester === ANY_OPTION.value) {
-      result.push('requested');
+      result.push(localize(texts.postFilter.requested, locale, { count }));
     } else if (params.requester === NONE_OPTION.value) {
-      result.push('unprompted');
+      result.push(localize(texts.postFilter.unprompted, locale, { count }));
     }
   }
 
   if (params.type) {
-    const { title, titleMultiple } = postTypeDescriptors[params.type];
-    result.push((count !== 1 ? titleMultiple : title).toLocaleLowerCase());
+    result.push(getPostTypeUnitText(params.type, count, locale));
   } else {
-    result.push(`post${count !== 1 ? 's' : ''}`);
+    result.push(getPostsManagerUnitText(managerName, count, locale));
   }
 
   if (params.aspect) {
-    result.push(`with "${aspectRatioToReadableText(params.aspect)}" aspect ratio`);
+    result.push(localize(texts.postFilter.withAspect, locale, { aspect: aspectRatioToReadableText(params.aspect) }));
   }
 
   if (typeof params.official !== 'undefined') {
-    result.push(params.official ? 'without third-party expansions' : 'with third-party expansions');
+    result.push(
+      localize(
+        params.official ? texts.postFilter.withoutThirdPartyExpansions : texts.postFilter.withThirdPartyExpansions,
+        locale,
+      ),
+    );
   }
 
   if (params.status) {
     if (params.status === ANY_OPTION.value) {
-      result.push('with any unsaved status');
+      result.push(localize(texts.postFilter.withAnyStatus, locale));
     } else if (params.status === NONE_OPTION.value) {
-      result.push('with no unsaved status');
+      result.push(localize(texts.postFilter.withNoStatus, locale));
     } else {
-      result.push(`with "${params.status}" status`);
+      result.push(
+        localize(texts.postFilter.withStatus, locale, {
+          status: localize(listReaderItemStatusDescriptors[params.status].title, locale),
+        }),
+      );
     }
   }
 
   if (params.search) {
-    result.push(`with "${params.search}" in title or description`);
+    result.push(localize(texts.postFilter.withSearch, locale, { search: params.search }));
   }
 
   if (params.location) {
     if (params.location === ANY_OPTION.value) {
-      result.push('in any location');
+      result.push(localize(texts.postFilter.withAnyLocation, locale));
     } else if (params.location === NONE_OPTION.value) {
-      result.push('in unknown location');
+      result.push(localize(texts.postFilter.withUnknownLocation, locale));
     } else {
-      result.push(`in "${params.location}"`);
+      result.push(localize(texts.postFilter.withLocation, locale, { location: params.location }));
     }
   }
 
   if (params.placement) {
     if (params.placement === ANY_OPTION.value) {
-      result.push('with any placement');
+      result.push(localize(texts.postFilter.withAnyPlacement, locale));
     } else if (params.placement === NONE_OPTION.value) {
-      result.push('with unknown placement');
+      result.push(localize(texts.postFilter.withUnknownPlacement, locale));
     } else if (params.placement === 'Mixed') {
-      result.push('with mixed placement');
+      result.push(localize(texts.postFilter.withMixedPlacement, locale));
     } else {
-      result.push(`placed ${params.placement.toLocaleLowerCase()}`);
+      result.push(
+        localize(texts.postFilter.withPlacement, locale, {
+          placement: localize(postPlacementDescriptors[params.placement].title, locale).toLocaleLowerCase(),
+        }),
+      );
     }
   }
 
   if (params.addon) {
     if (params.addon === ANY_OPTION.value) {
-      result.push('with any addon');
+      result.push(localize(texts.postFilter.withAnyAddon, locale));
     } else if (params.addon === NONE_OPTION.value) {
-      result.push('with no addon');
+      result.push(localize(texts.postFilter.withNoAddon, locale));
     } else {
-      result.push(`with "${params.addon.toLocaleLowerCase()}" addon`);
+      result.push(localize(texts.postFilter.withAddon, locale, { addon: params.addon.toLocaleLowerCase() }));
     }
   }
 
   if (params.tag) {
-    result.push(`with "${params.tag}" tag`);
+    result.push(localize(texts.postFilter.withTag, locale, { tag: params.tag }));
   }
 
   if (params.author) {
-    result.push(`by "${params.author}"`);
+    result.push(localize(texts.postFilter.byUser, locale, { user: params.author }));
   }
 
   if (params.locator && params.locator !== ANY_OPTION.value && params.locator !== NONE_OPTION.value) {
-    result.push(`located by "${params.locator}"`);
+    result.push(localize(texts.postFilter.locatedByUser, locale, { user: params.locator }));
   }
 
   if (params.requester && params.requester !== ANY_OPTION.value && params.requester !== NONE_OPTION.value) {
-    result.push(`requested by "${params.requester}"`);
+    result.push(localize(texts.postFilter.requestedByUser, locale, { user: params.requester }));
   }
 
   if (params.mark) {
-    result.push(`marked with ${params.mark}`);
+    result.push(localize(texts.postFilter.markedWith, locale, { mark: params.mark }));
   }
 
   if (params.violation) {
     if (params.violation === ANY_OPTION.value) {
-      result.push('with any violation');
+      result.push(localize(texts.postFilter.withAnyViolation, locale));
     } else if (params.violation === NONE_OPTION.value) {
-      result.push('with no violations');
+      result.push(localize(texts.postFilter.withNoViolation, locale));
     } else {
-      result.push(`with "${postViolationDescriptors[params.violation].title}" violation`);
+      result.push(
+        localize(texts.postFilter.withViolation, locale, {
+          violation: localize(postViolationDescriptors[params.violation].title, locale),
+        }),
+      );
     }
   }
 
   if (params.date) {
     if (params.date[1] && dateToString(params.date[0]) !== dateToString(params.date[1])) {
-      result.push(`from ${formatDate(params.date[0])} to ${formatDate(params.date[1])}`);
+      result.push(
+        localize(texts.postFilter.postedFromTo, locale, {
+          from: formatDate(params.date[0], locale),
+          to: formatDate(params.date[1], locale),
+        }),
+      );
     } else {
-      result.push(`on ${formatDate(params.date[0])}`);
+      result.push(localize(texts.postFilter.postedOn, locale, { date: formatDate(params.date[0], locale) }));
     }
   }
 
   if (sortOption) {
-    result.push(`sorted by "${sortOption.label}" ${params.sortDirection === 'asc' ? 'ascending' : 'descending'}`);
+    const sortLabel = localize(sortOption.label, locale);
+    const direction = localize(params.sortDirection === 'asc' ? texts.postFilter.asc : texts.postFilter.desc, locale);
+
+    result.push(localize(texts.postFilter.sortedBy, locale, { label: sortLabel, direction }));
   }
 
   return result.join(' ');

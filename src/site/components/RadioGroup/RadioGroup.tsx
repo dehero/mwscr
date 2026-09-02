@@ -1,6 +1,7 @@
 import clsx from 'clsx';
 import { For } from 'solid-js';
 import type { Option } from '../../../core/entities/option.js';
+import { localize } from '../../utils/intl-utils.js';
 import { Frame } from '../Frame/Frame.js';
 import styles from './RadioGroup.module.css';
 
@@ -26,7 +27,7 @@ export function RadioGroup<T extends string>(props: RadioGroupProps<T>) {
               onChange={(e) => props.onChange?.((e.target.value || undefined) as T | undefined)}
               class={styles.radio}
             />
-            <span class={styles.optionLabel}>{option.label || option.value}</span>
+            <span class={styles.optionLabel}>{localize(option.label) || option.value?.toString() || ''}</span>
           </Frame>
         )}
       </For>

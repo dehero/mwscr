@@ -3,6 +3,7 @@ import { mergePostContents, PostContentField, postViolationDescriptors } from '.
 import type { DraftProposal } from '../../core/entities/posts-manager.js';
 import { parseResourceUrl } from '../../core/entities/resource.js';
 import { asArray, listItems } from '../../core/utils/common-utils.js';
+import { localize } from '../../core/utils/intl-utils.js';
 import { drafts } from '../data-managers/posts.js';
 import { importResourceToStore } from '../data-managers/store-resources.js';
 
@@ -44,9 +45,8 @@ export async function importResourcesToStore() {
             if (violations.length > 0) {
               console.error(
                 `Resource "${url}" from "${id}" was not imported to store because of violations: ${listItems(
-                  violations.map((violation) => postViolationDescriptors[violation].title),
-                  true,
-                  'and',
+                  violations.map((violation) => localize(postViolationDescriptors[violation].title, 'en-GB')),
+                  { quote: true, union: 'and' },
                 )}`,
               );
               newUrls.push(url);
@@ -54,7 +54,10 @@ export async function importResourcesToStore() {
               const content = asArray(draft.content);
               newUrls.push(...content);
               console.info(
-                `Resource "${url}" from "${id}" was imported to store as ${listItems(content, true, 'and')}}`,
+                `Resource "${url}" from "${id}" was imported to store as ${listItems(content, {
+                  quote: true,
+                  union: 'and',
+                })}}`,
               );
             }
           }

@@ -2,6 +2,8 @@ import { For } from 'solid-js';
 import { services } from '../../../core/services/index.js';
 import thief from '../../images/thief.png';
 import { postsRoute } from '../../routes/posts-route.js';
+import { texts } from '../../texts/index.js';
+import { localize } from '../../utils/intl-utils.js';
 import { Button } from '../Button/Button.jsx';
 import type { DetachedDialog } from '../DetachedDialogsProvider/DetachedDialogsProvider.jsx';
 import { Dialog } from '../Dialog/Dialog.jsx';
@@ -10,17 +12,19 @@ import styles from './SponsorshipDialog.module.css';
 
 const SponsorshipDialog: DetachedDialog = (props) => {
   return (
-    <Dialog modal {...props} actions={[<Button onClick={props.onClose}>OK</Button>]}>
+    <Dialog modal {...props} actions={[<Button onClick={props.onClose}>{localize(texts.common.ok)}</Button>]}>
       <div class={styles.container}>
         <Frame component="img" src={thief} class={styles.icon} alt="thief class" width={256} />
         <section class={styles.heading}>
-          <p class={styles.title}>Sponsorship</p>
+          <p class={styles.title}>{localize(texts.support.sponsorship)}</p>
           <p class={styles.description}>
-            Order{' '}
-            <a href={postsRoute.createUrl({ managerName: 'extras', type: 'merch' })} class={styles.link}>
-              merch
-            </a>{' '}
-            or reward separate posts if you like using the following instruments in social media:
+            {localize(texts.support.sponsorshipDescription, {
+              merch: (parts) => (
+                <a href={postsRoute.createUrl({ managerName: 'extras', type: 'merch' })} class={styles.link}>
+                  {parts}
+                </a>
+              ),
+            })}
           </p>
         </section>
         <div class={styles.buttons}>

@@ -2,6 +2,7 @@ import clsx from 'clsx';
 import { type Component, createMemo, type JSX, Show } from 'solid-js';
 import { Dynamic } from 'solid-js/web';
 import { formatDate } from '../../../core/utils/date-utils.js';
+import { currentLocale } from '../../utils/intl-utils.js';
 import styles from './Table.module.css';
 import VirtualBody from './VirtualBody.jsx';
 
@@ -35,7 +36,7 @@ export function renderValue(value: TableValue) {
     return value();
   }
   if (value instanceof Date) {
-    return formatDate(value);
+    return formatDate(value, currentLocale());
   }
 
   return value?.toString() || '';

@@ -8,6 +8,7 @@ export interface CommentInfo extends Comment {
   service: string;
   path: string;
   title?: string;
+  titleRu?: string;
   content?: PostContent;
   aspect?: PostAspectRatio;
   parent?: Comment;
@@ -31,6 +32,7 @@ export async function createCommentInfos(dataManager: DataManager): Promise<Comm
                   service: parent.service,
                   path: createPostPath(manager.name, id),
                   title: post.title,
+                  titleRu: post.titleRu,
                   content: post.content,
                   aspect: post.aspect,
                   parent:

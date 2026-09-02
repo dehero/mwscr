@@ -20,7 +20,7 @@ export const ResourceUrl = pipe(
   nonEmpty('Should not be empty'),
   custom(
     (value) => ResourceProtocol.options.some((protocol) => String(value).startsWith(protocol)),
-    `Should start with protocol ${listItems(ResourceProtocol.options, true)}"`,
+    `Should start with protocol ${listItems(ResourceProtocol.options, { quote: true })}"`,
   ),
 );
 
@@ -28,7 +28,7 @@ export const LosslessImageResourceUrl = pipe(
   ResourceUrl,
   custom<`${ResourceUrl}${InferOutput<typeof LosslessImageResourceExtension>}`>(
     (value) => LosslessImageResourceExtension.options.some((ext) => String(value).endsWith(ext)),
-    `Should end with image extension ${listItems(LosslessImageResourceExtension.options, true)}"`,
+    `Should end with image extension ${listItems(LosslessImageResourceExtension.options, { quote: true })}"`,
   ),
 );
 
@@ -36,7 +36,7 @@ export const ImageResourceUrl = pipe(
   ResourceUrl,
   custom<`${ResourceUrl}${InferOutput<typeof ImageResourceExtension>}`>(
     (value) => ImageResourceExtension.options.some((ext) => String(value).endsWith(ext)),
-    `Should end with image extension ${listItems(ImageResourceExtension.options, true)}"`,
+    `Should end with image extension ${listItems(ImageResourceExtension.options, { quote: true })}"`,
   ),
 );
 
@@ -44,7 +44,7 @@ export const VideoResourceUrl = pipe(
   ResourceUrl,
   custom<`${ResourceUrl}${InferOutput<typeof VideoResourceExtension>}`>(
     (value) => VideoResourceExtension.options.some((ext) => String(value).endsWith(ext)),
-    `Should end with video extension ${listItems(VideoResourceExtension.options, true)}"`,
+    `Should end with video extension ${listItems(VideoResourceExtension.options, { quote: true })}"`,
   ),
 );
 

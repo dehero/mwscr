@@ -1,8 +1,11 @@
 import type { InferOutput } from 'valibot';
 import { array, date, is, nonEmpty, object, optional, picklist, pipe, string, transform, trim, union } from 'valibot';
+import { texts } from '../texts/index.js';
 import type { SortDirection } from '../utils/common-types.js';
 import { arrayFromAsync, asArray, cleanupUndefinedProps } from '../utils/common-utils.js';
 import { dateToString, stringToDate } from '../utils/date-utils.js';
+import { localize } from '../utils/intl-utils.js';
+import type { IntlText, Locale } from './intl.js';
 import type { ListReaderEntry } from './list-manager.js';
 import { areNestedLocations as areRelatedLocations } from './location.js';
 import { postTitleFromString } from './post-title.js';
@@ -122,10 +125,8 @@ export interface PostDistance {
 }
 
 interface PostTypeDescriptor {
-  title: string;
-  titleRu: string;
-  titleMultiple: string;
-  titleMultipleRu: string;
+  title: IntlText;
+  titleMultiple: IntlText;
   letter: string;
   strict?: boolean;
   topicId: string;
@@ -146,14 +147,18 @@ interface PostMarkDescriptor {
 }
 
 export interface PostViolationDescriptor {
-  title: string;
+  title: IntlText;
   letter: string;
   topicId: string;
-  solution?: string;
+  solution?: IntlText;
   strict?: boolean;
 }
 
 type PostTagDescriptor = [tag: PostTag, rule: (post: Post) => boolean, parse?: (post: Post) => void];
+
+interface PostPlacementDescriptor {
+  title: IntlText;
+}
 
 export interface ParsedPostId {
   author?: string;
@@ -203,103 +208,79 @@ const defaultTags = Object.freeze<PostTagDescriptor[]>([
 ]);
 export const postTypeDescriptors = Object.freeze<Record<PostType, PostTypeDescriptor>>({
   shot: {
-    title: 'Shot',
-    titleRu: 'Кадр',
-    titleMultiple: 'Shots',
-    titleMultipleRu: 'Кадры',
+    title: texts.post.shot,
+    titleMultiple: texts.post.shots,
     letter: 'S',
     strict: true,
     topicId: 'shot',
   },
   compilation: {
-    title: 'Compilation',
-    titleRu: 'Подборка',
-    titleMultiple: 'Compilations',
-    titleMultipleRu: 'Подборки',
+    title: texts.post.compilation,
+    titleMultiple: texts.post.compilations,
     letter: 'H',
     strict: true,
     topicId: 'compilation',
   },
   video: {
-    title: 'Video',
-    titleRu: 'Видео',
-    titleMultiple: 'Videos',
-    titleMultipleRu: 'Видео',
+    title: texts.post.video,
+    titleMultiple: texts.post.videos,
     letter: 'V',
     strict: true,
     topicId: 'video',
   },
   clip: {
-    title: 'Clip',
-    titleRu: 'Клип',
-    titleMultiple: 'Clips',
-    titleMultipleRu: 'Клипы',
+    title: texts.post.clip,
+    titleMultiple: texts.post.clips,
     letter: 'C',
     strict: true,
     topicId: 'clip',
   },
   redrawing: {
-    title: 'Redrawing',
-    titleRu: 'Перерисовка',
-    titleMultiple: 'Redrawings',
-    titleMultipleRu: 'Перерисовки',
+    title: texts.post.redrawing,
+    titleMultiple: texts.post.redrawings,
     letter: 'R',
     topicId: 'redrawing',
   },
   wallpaper: {
-    title: 'Wallpaper',
-    titleRu: 'Обои',
-    titleMultiple: 'Wallpapers',
-    titleMultipleRu: 'Обои',
+    title: texts.post.wallpaper,
+    titleMultiple: texts.post.wallpapers,
     letter: 'W',
     strict: true,
     topicId: 'wallpaper',
   },
   mention: {
-    title: 'Mention',
-    titleRu: 'Упоминание',
-    titleMultiple: 'Mentions',
-    titleMultipleRu: 'Упоминания',
+    title: texts.post.mention,
+    titleMultiple: texts.post.mentions,
     letter: 'M',
     topicId: 'mention',
   },
   news: {
-    title: 'News',
-    titleRu: 'Новость',
-    titleMultiple: 'News',
-    titleMultipleRu: 'Новости',
+    title: texts.post.news,
+    titleMultiple: texts.post.newsPlural,
     letter: 'N',
     topicId: 'news',
   },
   photoshop: {
-    title: 'Photoshop',
-    titleRu: 'Фотомонтаж',
-    titleMultiple: 'Photoshops',
-    titleMultipleRu: 'Фотомонтажи',
+    title: texts.post.photoshop,
+    titleMultiple: texts.post.photoshops,
     letter: 'P',
     topicId: 'photoshop',
   },
   outtakes: {
-    title: 'Outtakes',
-    titleRu: 'Невошедшее',
-    titleMultiple: 'Outtakes',
-    titleMultipleRu: 'Невошедшее',
+    title: texts.post.outtakes,
+    titleMultiple: texts.post.outtakes,
     letter: 'E',
     topicId: 'outtakes',
   },
   achievement: {
-    title: 'Achievement',
-    titleRu: 'Достижение',
-    titleMultiple: 'Achievements',
-    titleMultipleRu: 'Достижения',
+    title: texts.post.achievement,
+    titleMultiple: texts.post.achievements,
     letter: 'A',
     topicId: 'achievement',
   },
   merch: {
-    title: 'Merch',
-    titleRu: 'Мерч',
-    titleMultiple: 'Merch',
-    titleMultipleRu: 'Мерч',
+    title: texts.post.merch,
+    titleMultiple: texts.post.merch,
     letter: 'M',
     topicId: 'merch',
   },
@@ -317,36 +298,91 @@ export const postMarkDescriptors = Object.freeze<Record<PostMark, PostMarkDescri
 });
 
 export const postViolationDescriptors = Object.freeze<Record<PostViolation, PostViolationDescriptor>>({
-  'inappropriate-content': { title: 'Inappropriate content', letter: 'C', topicId: 'appropriate-content' },
-  'jpeg-artifacts': { title: 'JPEG artifacts', letter: 'J', topicId: 'no-jpeg-artifacts', strict: true },
-  'graphic-issues': { title: 'Graphic issues', letter: 'G', topicId: 'no-graphic-issues', strict: true },
-  'no-anti-aliasing': { title: 'No anti-aliasing', topicId: 'anti-aliasing', letter: 'A', strict: true },
-  'non-vanilla-look': { title: 'Non-vanilla look', topicId: 'vanilla-look', letter: 'N', strict: true },
+  'inappropriate-content': {
+    title: texts.postViolation.inappropriateContent,
+    letter: 'C',
+    topicId: 'appropriate-content',
+  },
+  'jpeg-artifacts': {
+    title: texts.postViolation.jpegArtifacts,
+    letter: 'J',
+    topicId: 'no-jpeg-artifacts',
+    strict: true,
+  },
+  'graphic-issues': {
+    title: texts.postViolation.graphicIssues,
+    letter: 'G',
+    topicId: 'no-graphic-issues',
+    strict: true,
+  },
+  'no-anti-aliasing': {
+    title: texts.postViolation.noAntiAliasing,
+    topicId: 'anti-aliasing',
+    letter: 'A',
+    strict: true,
+  },
+  'non-vanilla-look': { title: texts.postViolation.nonVanillaLook, topicId: 'vanilla-look', letter: 'N', strict: true },
   'uses-mods': {
-    title: 'Uses or requires mods',
+    title: texts.postViolation.usesMods,
     topicId: 'no-mods',
     letter: 'M',
     strict: true,
   },
   'ui-visible': {
-    title: 'UI is visible',
+    title: texts.postViolation.uiVisible,
     topicId: 'no-ui',
     letter: 'U',
     strict: true,
   },
   'unreachable-resource': {
-    title: 'Unreachable resource',
-    solution: 'Check the link to have no mistypes and for being accessible without authorization.',
+    title: texts.postViolation.unreachableResource,
+    solution: texts.postViolation.unreachableResourceSolution,
     topicId: 'available-resource',
     letter: 'R',
   },
   'unsupported-resource': {
-    title: 'Unsupported resource',
-    solution: 'Attach your work as PNG, MP4, AVI or ZIP file, respect file size restrictions.',
+    title: texts.postViolation.unsupportedResource,
+    solution: texts.postViolation.unsupportedResourceSolution,
     topicId: 'file-format',
     letter: 'R',
   },
 });
+
+export const postPlacementDescriptors = Object.freeze<Record<PostPlacement, PostPlacementDescriptor>>({
+  Indoors: { title: texts.post.indoors },
+  Mixed: { title: texts.post.mixed },
+  Outdoors: { title: texts.post.outdoors },
+});
+
+export function getPostTypeTitle(type: PostType, locale: Locale, multiple = false) {
+  const descriptor = postTypeDescriptors[type];
+  return localize(multiple ? descriptor.titleMultiple : descriptor.title, locale);
+}
+
+export function getPostTypeUnitText(type: PostType, count: number, locale: Locale) {
+  const entries = {
+    achievement: texts.post.achievementUnit,
+    clip: texts.post.clipUnit,
+    compilation: texts.post.compilationUnit,
+    mention: texts.post.mentionUnit,
+    merch: texts.post.merchUnit,
+    news: texts.post.newsUnit,
+    outtakes: texts.post.outtakesUnit,
+    photoshop: texts.post.photoshopUnit,
+    redrawing: texts.post.redrawingUnit,
+    shot: texts.post.shotUnit,
+    video: texts.post.videoUnit,
+    wallpaper: texts.post.wallpaperUnit,
+  } as const satisfies Record<PostType, IntlText>;
+
+  return localize(entries[type], locale, { count });
+}
+
+export function getPostPublicationTypeTitle(post: Pick<Post, 'aspect' | 'type'>, locale: Locale) {
+  return post.type === 'wallpaper' && (post.aspect === '9/16' || post.aspect === '9/19.5')
+    ? localize(texts.post.verticalWallpaper, locale)
+    : getPostTypeTitle(post.type, locale);
+}
 
 export function getPostTotalLikes(post: Post) {
   return post.posts?.reduce((acc, post) => acc + (post.likes ?? 0), 0) ?? 0;
@@ -393,7 +429,6 @@ export function getPostEntryStats(entry: PostEntry) {
       likes: 0,
       views: 0,
       engagement: 0,
-      followers: undefined,
       commentCount: 0,
     };
   }

@@ -1,5 +1,7 @@
 import { createResource } from 'solid-js';
 import { dataManager } from '../../data-managers/manager.js';
+import { texts } from '../../texts/index.js';
+import { localize } from '../../utils/intl-utils.js';
 import { Button } from '../Button/Button.jsx';
 import { type DetachedDialog } from '../DetachedDialogsProvider/DetachedDialogsProvider.jsx';
 import { Dialog } from '../Dialog/Dialog.jsx';
@@ -15,12 +17,12 @@ const TopicDialog: DetachedDialog = (props) => {
 
   return (
     <>
-      <Toast message="Loading Topic" show={props.show && topicEntry.loading} loading />
+      <Toast message={localize(texts.content.loadingTopic)} show={props.show && topicEntry.loading} loading />
       <Dialog
         modal
         {...props}
         show={props.show && !topicEntry.loading && Boolean(topicEntry())}
-        actions={[<Button onClick={props.onClose}>OK</Button>]}
+        actions={[<Button onClick={props.onClose}>{localize(texts.common.ok)}</Button>]}
       >
         <TopicMessage topicEntry={topicEntry()!} class={styles.content} />
       </Dialog>

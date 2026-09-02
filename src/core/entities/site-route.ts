@@ -1,11 +1,12 @@
 import type { MatchFilters, RoutePreloadFuncArgs, RouteSectionProps } from '@solidjs/router';
 import type { Component } from 'solid-js';
 import { cleanupUndefinedProps } from '../utils/common-utils.js';
+import type { IntlText } from './intl.js';
 
 const SITE_ROUTE_FRAGMENT_REGEX = /^#([^?]+)(\?.+)?$/;
 
 export interface SiteRouteMeta {
-  label?: string;
+  label?: string | IntlText;
 }
 
 export type SiteRouteParams = Record<string, string | undefined>;

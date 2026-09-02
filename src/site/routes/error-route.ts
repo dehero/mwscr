@@ -1,10 +1,11 @@
 import type { SiteRoute } from '../../core/entities/site-route.js';
 import { ErrorPage } from '../pages/ErrorPage/ErrorPage.jsx';
+import { texts } from '../texts/index.js';
 import { homeRoute } from './home-route.js';
 
 export const errorRoute: SiteRoute = {
   path: '*',
-  info: () => ({}),
+  info: () => ({ label: texts.app.error }),
   parent: () => ({
     route: homeRoute,
     params: {},

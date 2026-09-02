@@ -1,6 +1,7 @@
 import { type Component, For } from 'solid-js';
 import type { DateRange } from '../../../core/utils/common-types.js';
 import { isDateInRange } from '../../../core/utils/date-utils.js';
+import { currentLocale } from '../../utils/intl-utils.js';
 import { Button } from '../Button/Button.jsx';
 import styles from './Calendar.module.css';
 
@@ -30,7 +31,7 @@ export const Year: Component<YearProps> = (props) => {
               props.onMonthIndexSelect?.(date.getUTCMonth());
             }}
           >
-            {date.toLocaleDateString('en-GB', { month: 'long' })}
+            {date.toLocaleDateString(currentLocale(), { month: 'long' })}
           </Button>
         )}
       </For>

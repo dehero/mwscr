@@ -1,15 +1,19 @@
 import clsx from 'clsx';
-import { type Component, For, Show } from 'solid-js';
+import { type Component, createResource, For, Show } from 'solid-js';
 import { type Option } from '../../../core/entities/option.js';
 import { getPostDateById } from '../../../core/entities/post.js';
+import type { PostsManagerName } from '../../../core/entities/posts-manager.js';
 import {
   getPublicationEngagement,
-  getPublicationsStats,
   getRecentPublications,
   type Publication,
 } from '../../../core/entities/publication.js';
 import { postingServices } from '../../../core/services/index.js';
 import { formatDate } from '../../../core/utils/date-utils.js';
+import { dataManager } from '../../data-managers/manager.js';
+import { useLocalPatch } from '../../hooks/useLocalPatch.js';
+import { texts } from '../../texts/index.js';
+import { currentLocale, localize } from '../../utils/intl-utils.js';
 import { Divider } from '../Divider/Divider.js';
 import { Frame } from '../Frame/Frame.js';
 import { Select } from '../Select/Select.jsx';
@@ -18,6 +22,7 @@ import styles from './PostPublications.module.css';
 
 export interface PostPublicationsProps {
   class?: string;
+  managerName: PostsManagerName;
   postIds: string[];
   selectedPostId: string;
   onSelectPostId: (id: string | undefined) => void;
@@ -26,8 +31,17 @@ export interface PostPublicationsProps {
 
 export const PostPublications: Component<PostPublicationsProps> = (props) => {
   const date = () => getPostDateById(props.selectedPostId);
+
+  const [postInfo, { refetch }] = createResource(
+    (): [PostsManagerName, string] => [props.managerName, props.selectedPostId],
+    ([managerName, id]) => dataManager.getPostInfo(managerName, id),
+  );
+
+  useLocalPatch(() => {
+    refetch();
+  });
+
   const publications = () => [...(date() ? getRecentPublications(props.publications, date()!) : props.publications)];
-  const stats = () => getPublicationsStats(publications());
 
   const options = (): Option[] =>
     [...props.postIds]
@@ -36,7 +50,7 @@ export const PostPublications: Component<PostPublicationsProps> = (props) => {
         const date = getPostDateById(id);
         return {
           value: id,
-          label: date ? formatDate(date) : id,
+          label: date ? formatDate(date, currentLocale()) : id,
         };
       });
 
@@ -48,24 +62,24 @@ export const PostPublications: Component<PostPublicationsProps> = (props) => {
         class={styles.table}
         rows={[
           {
-            label: 'Likes',
-            value: stats().likes,
+            label: localize(texts.metrics.likes),
+            value: postInfo()?.likes,
           },
           {
-            label: 'Views',
-            value: stats().views,
+            label: localize(texts.metrics.views),
+            value: postInfo()?.views,
           },
           {
-            label: 'Followers',
-            value: stats().followers,
+            label: localize(texts.metrics.engagement),
+            value: Number(postInfo()?.engagement.toFixed(2)),
           },
           {
-            label: 'Engagement',
-            value: Number(stats().engagement.toFixed(2)),
+            label: localize(texts.metrics.comments),
+            value: postInfo()?.commentCount,
           },
           {
-            label: 'Comments',
-            value: stats().commentCount,
+            label: localize(texts.metrics.followersAtPublication),
+            value: postInfo()?.followers,
           },
         ]}
       />
@@ -74,7 +88,7 @@ export const PostPublications: Component<PostPublicationsProps> = (props) => {
 
       <For
         each={publications().sort((a, b) => b.published.getTime() - a.published.getTime())}
-        fallback={<span class={styles.fallback}>No publications yet</span>}
+        fallback={<span class={styles.fallback}>{localize(texts.content.noPublicationsYet)}</span>}
       >
         {(publication, index) => {
           const service = postingServices.find((s) => s.id === publication.service);
@@ -87,32 +101,32 @@ export const PostPublications: Component<PostPublicationsProps> = (props) => {
               <Table
                 class={styles.table}
                 label={service?.name}
-                value={formatDate(publication.published)}
+                value={formatDate(publication.published, currentLocale())}
                 link={service?.getPublicationUrl(publication)}
                 rows={[
                   {
-                    label: 'Likes',
+                    label: localize(texts.metrics.likes),
                     value: publication.likes,
                   },
                   {
-                    label: 'Views',
+                    label: localize(texts.metrics.views),
                     value: publication.views,
                   },
                   {
-                    label: 'Reposts',
+                    label: localize(texts.metrics.repostsCount),
                     value: publication.reposts,
                   },
                   {
-                    label: 'Followers',
-                    value: publication.followers,
-                  },
-                  {
-                    label: 'Engagement',
+                    label: localize(texts.metrics.engagement),
                     value: Number(getPublicationEngagement(publication).toFixed(2)),
                   },
                   {
-                    label: 'Comments',
+                    label: localize(texts.metrics.comments),
                     value: publication.comments?.length,
+                  },
+                  {
+                    label: localize(texts.metrics.followersAtPublication),
+                    value: publication.followers,
                   },
                 ]}
               />

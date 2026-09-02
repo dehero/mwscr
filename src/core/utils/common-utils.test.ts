@@ -58,7 +58,20 @@ test('listItems', async (t) => {
   });
 
   await t.test('should return a comma-separated list of items with quotes', () => {
-    const result = listItems(['foo', 'bar', 'baz'], true);
+    const result = listItems(['foo', 'bar', 'baz'], { quote: true });
     assert.strictEqual(result, '"foo", "bar" or "baz"');
+  });
+
+  await t.test('should merge a common prefix', () => {
+    const result = listItems(['Загрузка поста', 'Загрузка локаций', 'Загрузка участников'], {
+      union: 'и',
+      mergePrefix: true,
+    });
+    assert.strictEqual(result, 'Загрузка поста, локаций и участников');
+  });
+
+  await t.test('should preserve items without a common word prefix', () => {
+    const result = listItems(['foo', 'bar'], { mergePrefix: true });
+    assert.strictEqual(result, 'foo or bar');
   });
 });
