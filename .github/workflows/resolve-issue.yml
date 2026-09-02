@@ -16,7 +16,7 @@ jobs:
     if:
       contains(github.event.issue.labels.*.name, 'data-patch') || contains(github.event.issue.labels.*.name,
       'post-proposal')
-    runs-on: self-hosted
+    runs-on: ubuntu-latest
     timeout-minutes: 60
     env:
       GITHUB_ACTION_CONTEXT: ${{ toJson(github) }}
