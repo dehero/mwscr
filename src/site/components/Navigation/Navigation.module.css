@@ -47,8 +47,7 @@
   width: 100%;
 }
 
-/* @media only screen and (min-width: 832px) { */
-@media only screen and (min-width: 632px) {
+@media only screen and (min-width: 686px) {
   .menu {
     display: none;
   }
@@ -56,5 +55,16 @@
   .button {
     display: inline-block;
     margin: 4px 2px;
+  }
+}
+
+/* Russian navigation labels need more room before replacing with menu. */
+@media only screen and (max-width: 876px) {
+  .container:lang(ru) .menu {
+    display: inline-block;
+  }
+
+  .container:lang(ru) .button {
+    display: none;
   }
 }
