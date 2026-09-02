@@ -139,7 +139,7 @@ export const Navigation: Component = () => {
             {localize(texts.contributing.contribute)} ({patchSize()})
           </Show>
         </Button>
-        <Button href={localeSwitchUrl} onClick={switchLocale}>
+        <Button href={localeSwitchUrl} onClick={localeSwitchUrl ? undefined : switchLocale}>
           {localize(texts.app.language, true)}
         </Button>
       </div>
