@@ -52,7 +52,7 @@ export function createUploadFileName(resource: Resource): string {
 }
 
 export function extractUploadFileName(value: string) {
-  const [, result] = UPLOAD_FILENAME_REGEX.exec(value) ?? [];
+  const [result] = UPLOAD_FILENAME_REGEX.exec(value) ?? [];
 
   return result || undefined;
 }
