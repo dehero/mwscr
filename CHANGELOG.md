@@ -2,6 +2,18 @@
 
 All notable changes to this project will be documented in this file.
 
+## [3.1.1](https://github.com/dehero/mwscr/compare/v3.1.0...v3.1.1) (2026-09-02)
+
+### Continuous Integration
+
+- don't resolve issues on self-hosted runner
+  ([1aa1678](https://github.com/dehero/mwscr/commit/1aa16786cf654725b0081d3bf3f663f029ca2bbb))
+
+### Documentation
+
+- make post location topic more precise
+  ([9f2aa23](https://github.com/dehero/mwscr/commit/9f2aa23bb9e8478c2dfc731a5d94d9fb94677a5f))
+
 ## [3.1.0](https://github.com/dehero/mwscr/compare/v3.0.0...v3.1.0) (2026-09-02)
 
 ### Features
