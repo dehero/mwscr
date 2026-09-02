@@ -55,7 +55,15 @@ export function getOtherSiteOrigin() {
 }
 
 export function getLocaleSwitchUrl() {
-  return isProduction ? getOtherSiteOrigin() : undefined;
+  if (!isProduction) {
+    return undefined;
+  }
+
+  if (typeof window === 'undefined') {
+    return getOtherSiteOrigin();
+  }
+
+  return `${getOtherSiteOrigin()}${window.location.pathname}${window.location.search}${window.location.hash}`;
 }
 
 export function localize(localText: string | IntlText | undefined, invert?: boolean): string;
