@@ -981,7 +981,7 @@ caius-cosades:
   profiles:
     - service: tg
       id: '6483220506'
-      updated: 2026-09-02-21-24-47
+      updated: 2026-09-02-23-39-42
       accessHash: '-5537197680289822260'
       username: Gatemate7
       botChatId: 6483220506
@@ -4730,7 +4730,7 @@ pyriglena:
   profiles:
     - service: tg
       id: '554672984'
-      updated: 2026-09-02-00-38-00
+      updated: 2026-09-02-23-39-41
       accessHash: '-3565593010225205906'
       username: pyriglena
       name: yarrow
