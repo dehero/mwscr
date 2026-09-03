@@ -487,7 +487,7 @@ ansis:
   profiles:
     - service: tg
       id: '517050552'
-      updated: 2026-09-02-21-24-48
+      updated: 2026-09-03-06-35-58
       accessHash: '5231096655311395455'
       username: ansis
       name: ansis
@@ -622,6 +622,10 @@ asbaccan:
       username: asbaccan
       name: André Baccan
       avatar: store:/avatars/ig-c8bc2e31.jpg
+aschgalwis:
+  profiles:
+    - service: ig
+      username: aschgalwis
 attack-on-titan-fan01:
   profiles:
     - service: ig
@@ -981,7 +985,7 @@ caius-cosades:
   profiles:
     - service: tg
       id: '6483220506'
-      updated: 2026-09-02-23-39-42
+      updated: 2026-09-03-06-35-58
       accessHash: '-5537197680289822260'
       username: Gatemate7
       botChatId: 6483220506
@@ -1577,7 +1581,7 @@ dinosaurs-bat:
   profiles:
     - service: tg
       id: '8717777839'
-      updated: 2026-08-31-10-10-46
+      updated: 2026-09-03-06-35-57
       accessHash: '-5750694971944648780'
       username: dinosaurs_bat
       name: ^^Bat🦇
@@ -1696,7 +1700,7 @@ dremarretres:
   profiles:
     - service: vk
       id: '801308664'
-      updated: 2026-09-02-21-24-49
+      updated: 2026-09-03-06-36-03
       username: dremarretres
       name: Джон Шепард
       avatar: store:/avatars/vk-ac4f0700.jpg
@@ -2811,7 +2815,7 @@ ivan-uralov:
   profiles:
     - service: vk
       id: '16497155'
-      updated: 2026-09-02-21-24-53
+      updated: 2026-09-03-06-35-59
       username: id16497155
       name: Иван Уралов
       avatar: store:/avatars/vk-51775759.jpg

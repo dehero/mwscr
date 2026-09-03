@@ -7198,18 +7198,21 @@
     - service: vk
       id: 3530
       published: 2026-09-01-20-14-38
-      updated: 2026-09-03-01-43-56
+      updated: 2026-09-03-06-35-49
       followers: 1442
       likes: 32
-      views: 471
+      views: 475
       reposts: 1
     - service: tg
       id: 1307
       published: 2026-09-01-20-14-45
-      updated: 2026-09-03-01-43-55
+      updated: 2026-09-03-06-35-57
       followers: 939
-      likes: 42
-      views: 203
+      likes: 43
+      views: 213
+      comments: !c |-
+        Cx2AkpPLQnoGWVUsAACtZGlub3NhdXJzLWJhdKTwn5G5k8tCegZZUnyAAK1kaW5vc2F1cnMtYmF0
+        pPCfmLsD
     - service: mx
       id: '1788293691167'
       published: 2026-09-01-20-14-51
@@ -8282,10 +8285,10 @@
     - service: tg
       id: 1260
       published: 2026-07-15-18-51-58
-      updated: 2026-08-27-02-20-16
+      updated: 2026-09-03-06-36-01
       followers: 915
       likes: 54
-      views: 585
+      views: 594
     - service: mx
       id: '1784141523439'
       published: 2026-07-15-18-52-03
@@ -8293,11 +8296,11 @@
     - service: vk
       id: 3425
       published: 2026-07-15-20-00-31
-      updated: 2026-08-27-02-20-17
+      updated: 2026-09-03-06-36-03
       followers: 1432
       likes: 57
-      views: 877
-      reposts: 3
+      views: 881
+      reposts: 2
       comments: !c |-
         G80AqCwOeBNzZYgO3cUzPiL0LFfouUlBmhkOZZnoyCb3ZresVjlthAVC1Jy+YHc7/E7l2VebXIeV
         yWWDDThwD1KccIQN7hJNZzQ975/96aLx3cV0+vHelqi0Bmg8DqxE3XZoY+HlFlEB7vC5zQAtJz1D
@@ -8909,9 +8912,9 @@
       id: DcyZryZlDr4
       mediaId: '17901005592351512'
       published: 2026-09-02-14-00-17
-      updated: 2026-09-03-01-43-59
+      updated: 2026-09-03-06-35-47
       followers: 2061
-      likes: 124
+      likes: 135
 2017-06-14-supper-in-seyda-neen:
   title: Supper in Seyda Neen
   titleRu: Ужин в Сейда Нине
