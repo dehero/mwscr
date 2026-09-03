@@ -92,7 +92,7 @@ export const HomePage: SiteRoutePage<SiteRouteParams, HomePageData> = () => {
                   </p>
 
                   <p class={styles.copyright}>
-                    {localize(texts.app.communityNotice, {
+                    {localize(texts.app.copyrightNotice, {
                       author: (parts) => (
                         <>
                           <GoldIcon />{' '}

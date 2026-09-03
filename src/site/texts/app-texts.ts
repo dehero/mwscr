@@ -38,9 +38,9 @@ export const appTexts = {
     'Оригинальные скриншоты и видео из The Elder Scrolls III: Morrowind. Без графических и нелорных модов, цветовых фильтров и элементов интерфейса.',
   ],
   loadingPage: ['Loading Page', 'Загрузка страницы'],
-  communityNotice: [
+  copyrightNotice: [
     '<author>dehero</author> and community <members>members</members>',
-    '<author>dehero</author> и сообщество <members>участников</members>',
+    '<author>dehero</author> и <members>участники</members> сообщества',
   ],
   licenseNotice: [
     'Licensed under <cc>CC-BY-4.0</cc> and <mit>MIT</mit>',
