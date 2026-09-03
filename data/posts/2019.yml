@@ -1117,10 +1117,13 @@
     - service: tg
       id: 1311
       published: 2026-09-03-19-00-51
-      updated: 2026-09-03-21-32-03
+      updated: 2026-09-03-23-37-29
       followers: 940
-      likes: 24
-      views: 89
+      likes: 26
+      views: 101
+      comments: !c |-
+        ix2AkZPLQnoGlSgdAACtY2FpdXMtY29zYWRlc9khaG93IHRoZSBwb25kcyBiZSBsaWtlIGluIHRo
+        ZSBob29kAw==
     - service: mx
       id: '1788462056846'
       published: 2026-09-03-19-00-57
@@ -1128,7 +1131,10 @@
     - service: vk
       id: 3534
       published: 2026-09-03-21-35-25
+      updated: 2026-09-03-23-37-22
       followers: 1443
+      likes: 1
+      views: 70
 2019-02-27-glassworkers-hall:
   title: Glassworker's Hall
   titleRu: Зал стеклодувов

@@ -989,7 +989,7 @@ caius-cosades:
   profiles:
     - service: tg
       id: '6483220506'
-      updated: 2026-09-03-21-32-13
+      updated: 2026-09-03-23-37-28
       accessHash: '-5537197680289822260'
       username: Gatemate7
       botChatId: 6483220506
@@ -2819,7 +2819,7 @@ ivan-uralov:
   profiles:
     - service: vk
       id: '16497155'
-      updated: 2026-09-03-06-35-59
+      updated: 2026-09-03-23-37-31
       username: id16497155
       name: Иван Уралов
       avatar: store:/avatars/vk-51775759.jpg
@@ -2827,7 +2827,7 @@ ivanovic:
   profiles:
     - service: tg
       id: '5205246036'
-      updated: 2026-08-27-23-18-10
+      updated: 2026-09-03-23-37-36
       accessHash: '-4096599997074721381'
       name: Ivanovic
 izipvnk:
@@ -5239,7 +5239,7 @@ shizzowanna:
   profiles:
     - service: vk
       id: '391705430'
-      updated: 2026-08-27-23-18-11
+      updated: 2026-09-03-23-37-34
       username: shizzowanna
       name: Сергей Игоревич
       avatar: store:/avatars/vk-9f0a7991.jpg
