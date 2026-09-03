@@ -45,7 +45,7 @@ import { readResource } from '../data-managers/resources.js';
 import { saveUserAvatar } from '../data-managers/store-resources.js';
 import { users } from '../data-managers/users.js';
 import { createPostStory } from '../renderers/stories.js';
-import { siteStoreManager } from '../store-managers/index.js';
+import { s3StoreManager } from '../store-managers/index.js';
 
 const INSTAGRAM_PAGE_ID = '17841404237421312'; // Instagram Business ID
 
@@ -160,8 +160,8 @@ export class InstagramManager extends Instagram implements PostingServiceManager
     const filename = `instagram-upload-${this.tempFiles.length + 1}-${Date.now()}.jpeg`;
     this.tempFiles.push(filename);
 
-    await siteStoreManager.put(filename, data);
-    const url = siteStoreManager.getPublicUrl(filename);
+    await s3StoreManager.put(filename, data);
+    const url = s3StoreManager.getPublicUrl(filename);
 
     if (!url) {
       throw new Error(`Cannot get public URL for ${filename}`);
@@ -372,7 +372,7 @@ export class InstagramManager extends Instagram implements PostingServiceManager
   async disconnect() {
     for (const file of this.tempFiles) {
       try {
-        await siteStoreManager.remove(file);
+        await s3StoreManager.remove(file);
       } catch {
         // Ignore error
       }

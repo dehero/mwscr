@@ -1,23 +1,25 @@
 import path from 'path';
 import fastGlob from 'fast-glob';
 import { load } from 'js-yaml';
-import { defineConfig } from 'vite';
+import { defineConfig, loadEnv } from 'vite';
 import { imagetools } from 'vite-imagetools';
+// import { getConstantRedirects } from './src/scripts/utils/vite-utils.js';
+import solidPlugin from 'vite-plugin-solid';
 import { viteStaticCopy } from 'vite-plugin-static-copy';
 import pkg from './package.json';
 import { PostsManagerName } from './src/core/entities/posts-manager.js';
 import { createTopicEntryFromMarkdown } from './src/core/entities/topic.js';
 import { dataManager } from './src/scripts/data-managers/manager.js';
 import { YAML_SCHEMA } from './src/scripts/data-managers/utils/yaml.js';
-// import { getConstantRedirects } from './src/scripts/utils/vite-utils.js';
-import solidPlugin from 'vite-plugin-solid';
 
-export default defineConfig(() => ({
+export default defineConfig(({ mode }) => ({
   root: 'src/site',
   publicDir: 'public',
   define: {
     'import.meta.env.VITE_APP_VERSION': JSON.stringify('version' in pkg ? pkg.version : 'unknown'),
     'import.meta.env.VITE_BUILD_DATE': JSON.stringify(new Date().toISOString()),
+    'import.meta.env.VITE_S3_PUBLIC_URL': JSON.stringify(loadEnv(mode, process.cwd(), '').S3_PUBLIC_URL),
+    'import.meta.env.VITE_S3_STORE_PATH': JSON.stringify(loadEnv(mode, process.cwd(), '').S3_STORE_PATH || ''),
   },
 
   plugins: [
@@ -122,11 +124,6 @@ export default defineConfig(() => ({
         target: 'http://localhost:8080',
         changeOrigin: true,
         rewrite: (path: string) => path.replace(/^\/uploads/, '/uploads'),
-      },
-      '/store/': {
-        target: 'http://mwscr.dehero.site',
-        changeOrigin: true,
-        rewrite: (path: string) => path.replace(/^\/store/, '/store'),
       },
     },
   },
