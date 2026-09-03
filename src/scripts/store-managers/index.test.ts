@@ -1,12 +1,14 @@
+import 'dotenv/config';
 import assert from 'node:assert';
 import test from 'node:test';
 import { Readable } from 'stream';
+import { S3StoreManager } from './s3-store-manager.js';
 import { SiteStoreManager } from './site-store-manager.js';
 import { YandexDiskManager } from './yandex-disk-manager.js';
 
 const testFile = 'shots/test-store-manager.png';
 
-const classes = [SiteStoreManager, YandexDiskManager];
+const classes = [S3StoreManager, SiteStoreManager, YandexDiskManager];
 
 for (const StoreManager of classes) {
   test(StoreManager.name, async (t) => {
