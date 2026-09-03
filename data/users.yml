@@ -562,7 +562,7 @@ artem-petrov:
   profiles:
     - service: vk
       id: '4238605'
-      updated: 2026-08-29-09-30-22
+      updated: 2026-09-03-15-21-21
       username: id4238605
       name: Артем Петров
       avatar: store:/avatars/vk-77942374.jpg
@@ -1581,7 +1581,7 @@ dinosaurs-bat:
   profiles:
     - service: tg
       id: '8717777839'
-      updated: 2026-09-03-11-48-34
+      updated: 2026-09-03-15-21-20
       accessHash: '-5750694971944648780'
       username: dinosaurs_bat
       name: ^^Bat🦇
@@ -1724,7 +1724,7 @@ durovcici:
   profiles:
     - service: tg
       id: '6054609776'
-      updated: 2026-08-06-15-05-24
+      updated: 2026-09-03-15-23-10
       accessHash: '-3913127932631311318'
       username: Nerevarrine
       name: дшрг чуркич
@@ -3702,7 +3702,7 @@ methamar:
   profiles:
     - service: tg
       id: '227628220'
-      updated: 2026-08-06-15-05-34
+      updated: 2026-09-03-15-23-10
       accessHash: '5119360306419431594'
       username: methamar
       name: эмбэ
