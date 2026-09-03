@@ -14,6 +14,9 @@ export class Boosty implements PostingService<BoostyPublication> {
   readonly description =
     'Buy merch on Boosty, and an administrator will contact you to confirm the delivery address. SHIPPING AND TRANSFER FEE ARE INCLUDED IN THE PRICE.';
 
+  readonly descriptionRu =
+    'Закажите мерч на Boosty, и администратор свяжется с вами для подтверждения адреса доставки. СТОИМОСТЬ ДОСТАВКИ И ПЕРЕВОДА ВКЛЮЧЕНА В ЦЕНУ.';
+
   readonly sponsorshipName = 'Boosty Tip';
   readonly merchOnly = true;
 

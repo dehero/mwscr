@@ -5,7 +5,7 @@ import { email } from '../../../core/services/email.js';
 import { postingServices } from '../../../core/services/index.js';
 import { dataManager } from '../../data-managers/manager.js';
 import { texts } from '../../texts/index.js';
-import { localize } from '../../utils/intl-utils.js';
+import { localField, localize } from '../../utils/intl-utils.js';
 import { Button } from '../Button/Button.jsx';
 import type { DetachedDialog } from '../DetachedDialogsProvider/DetachedDialogsProvider.jsx';
 import { Dialog } from '../Dialog/Dialog.jsx';
@@ -52,7 +52,10 @@ const MerchOrderingDialog: DetachedDialog = (props) => {
       return {
         href: email.getUserMessagingUrl('mwscr@dehero.site', {
           subject: post()?.title,
-          body: `Hello!\n\nPlease check if ${otherCountry()} is available to deliver "${post()?.title}" merch.`,
+          body: localize(texts.support.merchShippingRequest, {
+            country: otherCountry(),
+            title: post()?.title,
+          }),
         }),
         target: '_blank',
         children: localize(texts.support.sendEmail),
@@ -70,7 +73,7 @@ const MerchOrderingDialog: DetachedDialog = (props) => {
     return {
       href: service()?.getPublicationUrl(publication()!),
       target: '_blank',
-      children: `Order on ${service()!.name}`,
+      children: localize(texts.support.orderOn, { service: service()!.name }),
     };
   });
 
@@ -107,7 +110,12 @@ const MerchOrderingDialog: DetachedDialog = (props) => {
                 name="country"
                 options={[
                   { value: undefined, label: texts.support.checkMyCountry },
-                  ...orderingScenarios.map((country) => ({ value: country.country })),
+                  ...orderingScenarios
+                    .map((scenario) => ({
+                      value: scenario.country,
+                      label: localField(scenario, 'country'),
+                    }))
+                    .sort((a, b) => a.label?.localeCompare(b.label ?? '') ?? 0),
                 ]}
                 onChange={setCountry}
                 value={country()}
@@ -133,7 +141,9 @@ const MerchOrderingDialog: DetachedDialog = (props) => {
             </Label>
           </Show>
 
-          <Show when={service()?.description}>{(description) => <p class={styles.text}>{description()}</p>}</Show>
+          <Show when={localField(service(), 'description')}>
+            {(description) => <p class={styles.text}>{description()}</p>}
+          </Show>
         </form>
       </Dialog>
     </>

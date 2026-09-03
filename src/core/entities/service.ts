@@ -12,6 +12,7 @@ export interface Service {
   id: string;
   name: string;
   description?: string;
+  descriptionRu?: string;
   sponsorshipName?: string;
   origin?: string;
   merchOnly?: boolean;

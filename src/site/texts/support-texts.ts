@@ -14,6 +14,11 @@ export const supportTexts = {
     'Please submit a request to let the administrator contact you later to clarify the possibility of making an order to your country.',
     'Отправьте запрос, чтобы администратор позднее связался с вами и уточнил возможность заказа в вашу страну.',
   ],
+  merchShippingRequest: [
+    'Hello!\n\nPlease check if {country} is available to deliver "{title}" merch.',
+    'Здравствуйте!\n\nПожалуйста, проверьте, доступна ли доставка мерча «{title}» в страну {country}.',
+  ],
+  orderOn: ['Order on {service}', 'Заказать через {service}'],
   sendEmail: ['Send Email', 'Отправить письмо'],
   subscribe: ['Subscribe', 'Подписаться'],
   subscription: ['Subscription', 'Подписка'],
