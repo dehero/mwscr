@@ -4033,10 +4033,10 @@
     - service: vk
       id: 3524
       published: 2026-08-28-05-49-41
-      updated: 2026-09-02-10-03-18
+      updated: 2026-09-03-11-48-29
       followers: 1442
-      likes: 43
-      views: 545
+      likes: 46
+      views: 561
       reposts: 2
 2018-03-18-two-moons:
   title: Two Moons
@@ -9705,7 +9705,7 @@
       id: Bks_hWbFnTA
       mediaId: '17942716165109363'
       published: 2018-07-01-20-48-04
-      updated: 2026-07-10-16-12-28
+      updated: 2026-09-03-11-50-40
       followers: 350
       likes: 103
       comments: !c |-
@@ -9736,7 +9736,7 @@
       id: BkvTe6DFrlG
       mediaId: '17955654862034707'
       published: 2018-07-02-18-20-59
-      updated: 2026-07-10-13-55-22
+      updated: 2026-09-03-11-50-39
       followers: 350
       likes: 90
     - service: vk
@@ -9772,13 +9772,12 @@
       id: BkyCgwhF-Fr
       mediaId: '17937322297088773'
       published: 2018-07-03-19-50-25
-      updated: 2026-07-10-13-55-21
+      updated: 2026-09-03-11-50-38
       followers: 352
-      likes: 93
+      likes: 92
       comments: !c |-
-        G4gAGIzUWE3NzYau+YSnv6BpBTbXRxRtoBm2UTZI61LoHd4pJxoYxwFlFHsL5KD3gLsgWjQXol2p
-        9cYzaiZThQoELY3MHRBeIDT9D3613+p3/d1+j/rx/XWa235fEwM0+pszooh4KUlFaMJELmHB0jAV
-        QHhBUhHwpLsFeUdFxJCyYbVWhaY4QROqNCM=
+        CyaAkZTLQnZGIO+dAACtaW5uYS1nb3JhaGV2YbpAbXdzY3IgQmFsbW9yYSDwn5izIFN5cmFuP5PL
+        QnZGKXKRgACmZGVoZXJvp0JhbG1vcmED
     - service: vk
       id: 793
       published: 2018-07-03
@@ -9802,9 +9801,9 @@
       id: Bk1f_1_leVP
       mediaId: '17960078698004843'
       published: 2018-07-05-04-05-47
-      updated: 2026-07-10-13-55-17
+      updated: 2026-09-03-11-50-36
       followers: 353
-      likes: 103
+      likes: 102
     - service: vk
       id: 794
       published: 2018-07-04
@@ -9857,9 +9856,9 @@
       id: Bk3ElLVFp3Q
       mediaId: '17858881771266634'
       published: 2018-07-05-18-44-41
-      updated: 2026-07-10-13-55-16
+      updated: 2026-09-03-11-50-35
       followers: 353
-      likes: 96
+      likes: 95
     - service: vk
       id: 795
       published: 2018-07-05
@@ -9959,7 +9958,7 @@
       id: Bk5lNCwF31U
       mediaId: '17899033720201787'
       published: 2018-07-06-18-08-14
-      updated: 2026-07-10-13-55-14
+      updated: 2026-09-03-11-50-34
       followers: 356
       likes: 83
     - service: vk
@@ -9985,9 +9984,9 @@
       id: Bk8Gj1Clzik
       mediaId: '17933871004142805'
       published: 2018-07-07-17-38-11
-      updated: 2026-07-10-13-55-13
+      updated: 2026-09-03-11-50-33
       followers: 356
-      likes: 95
+      likes: 94
     - service: vk
       id: 798
       published: 2018-07-07
@@ -10070,9 +10069,9 @@
       id: Bk-2Dw5FK-J
       mediaId: '17934428407143359'
       published: 2018-07-08-19-11-43
-      updated: 2026-07-10-13-55-12
+      updated: 2026-09-03-11-50-32
       followers: 356
-      likes: 123
+      likes: 122
     - service: vk
       id: 799
       published: 2018-07-08
@@ -10135,7 +10134,7 @@
       id: BlBS3BIFH0X
       mediaId: '17958248755038165'
       published: 2018-07-09-18-01-52
-      updated: 2026-07-10-13-55-11
+      updated: 2026-09-03-11-50-31
       followers: 358
       likes: 92
     - service: vk
@@ -10197,9 +10196,9 @@
       id: BlD-LW1lBZI
       mediaId: '17930488069155389'
       published: 2018-07-10-18-58-52
-      updated: 2026-07-10-13-55-09
+      updated: 2026-09-03-11-50-30
       followers: 358
-      likes: 86
+      likes: 85
     - service: vk
       id: 801
       published: 2018-07-10
@@ -10224,9 +10223,9 @@
       id: BlGqH2mF0NS
       mediaId: '17944186924116706'
       published: 2018-07-11-20-01-21
-      updated: 2026-07-10-13-55-08
+      updated: 2026-09-03-11-50-29
       followers: 358
-      likes: 99
+      likes: 98
     - service: vk
       id: 802
       published: 2018-07-11
@@ -10285,9 +10284,9 @@
       id: BlJBjk6Foeh
       mediaId: '17882225674245243'
       published: 2018-07-12-18-04-35
-      updated: 2026-07-10-13-55-07
+      updated: 2026-09-03-11-50-28
       followers: 358
-      likes: 102
+      likes: 101
     - service: vk
       id: 803
       published: 2018-07-12
@@ -10349,7 +10348,7 @@
       id: BlLnHDGFTP7
       mediaId: '17931614611147616'
       published: 2018-07-13-18-11-13
-      updated: 2026-07-10-13-55-05
+      updated: 2026-09-03-11-50-27
       followers: 358
       likes: 78
     - service: vk
@@ -10382,9 +10381,9 @@
       id: BlOYfOxFUOH
       mediaId: '17928949105166617'
       published: 2018-07-14-20-01-10
-      updated: 2026-07-10-13-55-04
+      updated: 2026-09-03-11-50-26
       followers: 358
-      likes: 113
+      likes: 112
     - service: vk
       id: 806
       published: 2018-07-14
@@ -10441,9 +10440,9 @@
       id: BlQrzZulRIu
       mediaId: '17861778433266155'
       published: 2018-07-15-17-28-26
-      updated: 2026-07-10-13-55-03
+      updated: 2026-09-03-11-50-26
       followers: 358
-      likes: 113
+      likes: 111
     - service: vk
       id: 807
       published: 2018-07-15
@@ -10506,9 +10505,9 @@
       id: BlTTcgvFQhh
       mediaId: '17932770217151503'
       published: 2018-07-16-17-53-19
-      updated: 2026-07-10-13-55-02
+      updated: 2026-09-03-11-50-25
       followers: 360
-      likes: 122
+      likes: 121
       comments: !c |-
         iyGAkpPLQnaSXottAACzc2hvdHMtb2Ytc3VycmVhbGl0eazwn5iN8J+YjfCfmI2Ty0J2SkPgewAA
         pWwzbmt1p3BlcmZlY3QD
@@ -10567,7 +10566,7 @@
       id: BlWE83hlmzn
       mediaId: '17887662148235162'
       published: 2018-07-17-19-44-23
-      updated: 2026-07-10-13-54-59
+      updated: 2026-09-03-11-50-23
       followers: 360
       likes: 79
     - service: vk
@@ -10624,9 +10623,9 @@
       id: BlYh50AFeXe
       mediaId: '17888079793233649'
       published: 2018-07-18-18-35-51
-      updated: 2026-07-10-13-54-57
+      updated: 2026-09-03-11-50-22
       followers: 360
-      likes: 113
+      likes: 112
     - service: vk
       id: 810
       published: 2018-07-18
@@ -10652,7 +10651,7 @@
       id: BlbNZ-4loF6
       mediaId: '17843398615282491'
       published: 2018-07-19-19-34-28
-      updated: 2026-07-10-13-54-55
+      updated: 2026-09-03-11-50-21
       followers: 361
       likes: 91
     - service: vk
@@ -10690,7 +10689,7 @@
       id: BldrEnAle_Z
       mediaId: '17947114849114779'
       published: 2018-07-20-18-32-10
-      updated: 2026-07-10-13-54-54
+      updated: 2026-09-03-11-50-20
       followers: 361
       likes: 95
     - service: vk
@@ -10772,9 +10771,9 @@
       id: BlgdjR1l5tW
       mediaId: '17962848706060526'
       published: 2018-07-21-20-31-45
-      updated: 2026-07-10-13-54-52
+      updated: 2026-09-03-11-50-19
       followers: 361
-      likes: 90
+      likes: 89
       comments: !c |-
         CzGAkZPLQnZL8beLAACrcm93ZS1pbmRpZ2/ZSlJpZ2h0IGFmdGVyIHRha2luZyB0aGlzIHBob3Rv
         LCBvdXIgYWR2ZW50dXJlciB3YXMgbWF1bGVkIGJ5IDEwIENsaWZmcmFjZXJzAw==
@@ -10807,7 +10806,7 @@
       id: Bli1czvFMwm
       mediaId: '17961429304004203'
       published: 2018-07-22-18-39-04
-      updated: 2026-07-10-13-54-49
+      updated: 2026-09-03-11-50-17
       followers: 362
       likes: 103
     - service: vk
@@ -10836,7 +10835,7 @@
       id: BlldXcqF7SD
       mediaId: '17854996762275750'
       published: 2018-07-23-19-06-20
-      updated: 2026-07-10-13-54-48
+      updated: 2026-09-03-11-50-16
       followers: 362
       likes: 78
     - service: vk
@@ -10896,9 +10895,9 @@
       id: BloFVqLlve8
       mediaId: '17938441411187218'
       published: 2018-07-24-19-34-06
-      updated: 2026-07-10-13-54-46
+      updated: 2026-09-03-11-50-14
       followers: 362
-      likes: 97
+      likes: 96
     - service: vk
       id: 823
       published: 2018-07-24
@@ -10930,7 +10929,7 @@
       id: BlqpEABH7wM
       mediaId: '17934462826156730'
       published: 2018-07-25-19-24-44
-      updated: 2026-07-10-13-54-44
+      updated: 2026-09-03-11-50-14
       followers: 362
       likes: 97
     - service: vk
@@ -10999,7 +10998,7 @@
       id: BltFOMvlrC8
       mediaId: '17962701376052089'
       published: 2018-07-26-18-09-17
-      updated: 2026-07-10-13-54-43
+      updated: 2026-09-03-11-50-13
       followers: 362
       likes: 84
     - service: vk
@@ -11056,7 +11055,7 @@
       id: BlvxNcqFzw9
       mediaId: '17963637727019759'
       published: 2018-07-27-19-12-08
-      updated: 2026-07-10-13-54-41
+      updated: 2026-09-03-11-50-12
       followers: 363
       likes: 108
     - service: vk
@@ -11108,7 +11107,7 @@
       id: Bl0JtvDlEOJ
       mediaId: '17922774106199577'
       published: 2018-07-29-12-03-13
-      updated: 2026-07-10-13-54-40
+      updated: 2026-09-03-11-50-11
       followers: 364
       likes: 97
     - service: vk
@@ -11193,9 +11192,9 @@
       id: Bl0_ikVFABb
       mediaId: '17963302813050745'
       published: 2018-07-29-19-53-33
-      updated: 2026-07-10-13-54-38
+      updated: 2026-09-03-11-50-10
       followers: 364
-      likes: 109
+      likes: 108
       comments: !c |-
         G0EAQCwS7NglQKgQn0kvXyJZE2ByOSVQhNrJze5QhrVlI0MO2L8C8sQDD1mpfBJufQyHodl468Dg
         iISiHosC
@@ -11229,7 +11228,7 @@
       id: Bl3hULrls-t
       mediaId: '17965140352061538'
       published: 2018-07-30-19-27-10
-      updated: 2026-07-10-13-54-36
+      updated: 2026-09-03-11-50-09
       followers: 365
       likes: 97
     - service: vk
@@ -11293,9 +11292,9 @@
       id: Bl6BlL_lxaJ
       mediaId: '17875988623252112'
       published: 2018-07-31-18-47-36
-      updated: 2026-07-10-13-54-34
+      updated: 2026-09-03-11-50-08
       followers: 366
-      likes: 84
+      likes: 83
     - service: vk
       id: 834
       published: 2018-07-31
@@ -11323,9 +11322,9 @@
       id: Bl8ljBtFxYy
       mediaId: '17903020618222535'
       published: 2018-08-01-18-40-21
-      updated: 2026-07-10-13-54-32
+      updated: 2026-09-03-11-50-07
       followers: 368
-      likes: 88
+      likes: 87
     - service: vk
       id: 835
       published: 2018-08-01
@@ -11349,7 +11348,7 @@
       id: Bl-99aQFcLK
       mediaId: '17953501909129080'
       published: 2018-08-02-16-52-09
-      updated: 2026-07-10-13-54-31
+      updated: 2026-09-03-11-50-06
       followers: 368
       likes: 91
     - service: vk
@@ -11379,7 +11378,7 @@
       id: BmBpsR_FOq7
       mediaId: '17867353807264154'
       published: 2018-08-03-17-52-46
-      updated: 2026-07-10-13-54-30
+      updated: 2026-09-03-11-50-06
       followers: 368
       likes: 73
     - service: vk
@@ -11413,9 +11412,9 @@
       id: BmEjPkgl-0R
       mediaId: '17904425044222253'
       published: 2018-08-04-20-54-09
-      updated: 2026-07-10-13-54-28
+      updated: 2026-09-03-11-50-05
       followers: 369
-      likes: 82
+      likes: 81
     - service: vk
       id: 838
       published: 2018-08-04
@@ -11484,9 +11483,9 @@
       id: BmGrhpYFNDN
       mediaId: '17952596515107119'
       published: 2018-08-05-16-45-00
-      updated: 2026-07-10-13-54-26
+      updated: 2026-09-03-11-50-04
       followers: 369
-      likes: 100
+      likes: 99
     - service: vk
       id: 839
       published: 2018-08-05
@@ -11517,7 +11516,7 @@
       id: BmJ7o1AF_0o
       mediaId: '17946593527085762'
       published: 2018-08-06-23-03-31
-      updated: 2026-07-10-13-54-25
+      updated: 2026-09-03-11-50-03
       followers: 369
       likes: 96
     - service: vk
@@ -11572,9 +11571,9 @@
       id: BmMIPRyFJmD
       mediaId: '17877814258254016'
       published: 2018-08-07-19-32-06
-      updated: 2026-07-10-13-54-23
+      updated: 2026-09-03-11-50-02
       followers: 369
-      likes: 127
+      likes: 126
       comments: !c |-
         CxyAkpPLQnZUYXDygACscGF1bC1rb2xvYm92p+KaofCflKWTy0J2UXJGm4AApnNjZGxieKdNdWF0
         cmEhAw==
@@ -11604,7 +11603,7 @@
       id: BmOi58GlstW
       mediaId: '17950191982125325'
       published: 2018-08-08-18-03-36
-      updated: 2026-07-10-13-54-20
+      updated: 2026-09-03-11-50-00
       followers: 369
       likes: 87
       comments: !c Cw6AkZPLQnZRsqp+gACpdG9tbXl0b2php0FtYXppbmcD
@@ -11638,9 +11637,9 @@
       id: BmRRe0XFMaW
       mediaId: '17905630804222158'
       published: 2018-08-09-19-29-04
-      updated: 2026-07-10-13-54-17
+      updated: 2026-09-03-11-49-58
       followers: 370
-      likes: 87
+      likes: 86
       comments: !c ixCAkZPLQnZSQGmagACpdG9tbXl0b2phrEJyZWF0aHRha2luZwM=
     - service: vk
       id: 845
@@ -11700,7 +11699,7 @@
       id: BmTzuP_FesA
       mediaId: '17969202355055191'
       published: 2018-08-10-19-06-45
-      updated: 2026-07-10-13-54-14
+      updated: 2026-09-03-11-49-57
       followers: 373
       likes: 86
       comments: !c ixCAkZPLQnZSadWbgACpdG9tbXl0b2phrE1lc21lcml6aW5nLgM=
@@ -11737,7 +11736,7 @@
       id: BmWgMZ0FGWA
       mediaId: '17908016272204815'
       published: 2018-08-11-20-13-50
-      updated: 2026-07-10-13-54-11
+      updated: 2026-09-03-11-49-55
       followers: 373
       likes: 102
       comments: !c |-
@@ -11812,7 +11811,7 @@
       id: BmZFDILFyL_
       mediaId: '17852091055303737'
       published: 2018-08-12-20-14-21
-      updated: 2026-07-10-13-54-08
+      updated: 2026-09-03-11-49-53
       followers: 374
       likes: 126
       comments: !c |-
@@ -11855,9 +11854,9 @@
       id: BmbqFZ_FQIY
       mediaId: '17948420242094724'
       published: 2018-08-13-20-16-27
-      updated: 2026-07-10-13-54-04
+      updated: 2026-09-03-11-49-49
       followers: 376
-      likes: 97
+      likes: 96
     - service: vk
       id: 857
       published: 2018-08-13
@@ -11891,7 +11890,7 @@
       id: BmeGjcWFUYr
       mediaId: '17907345589217095'
       published: 2018-08-14-19-03-42
-      updated: 2026-07-10-13-54-03
+      updated: 2026-09-03-11-49-48
       followers: 379
       likes: 82
       comments: !c ixSAkZPLQnZTzY1UAACpdG9tbXl0b2phtEZ1Y2tpbmcgYnJlYXRodGFraW5nAw==
@@ -11921,9 +11920,9 @@
       id: Bmgl3avFBrZ
       mediaId: '17847866632287220'
       published: 2018-08-15-18-15-48
-      updated: 2026-07-10-13-54-00
+      updated: 2026-09-03-11-49-46
       followers: 382
-      likes: 83
+      likes: 82
     - service: vk
       id: 860
       published: 2018-08-15
@@ -11974,7 +11973,7 @@
       id: BmjV9ssFUYd
       mediaId: '17956184218110877'
       published: 2018-08-16-19-54-34
-      updated: 2026-07-10-13-53-59
+      updated: 2026-09-03-11-49-45
       followers: 383
       likes: 130
       comments: !c |-
@@ -12007,7 +12006,7 @@
       id: BmlxjeFFxd4
       mediaId: '17871791893269321'
       published: 2018-08-17-18-34-08
-      updated: 2026-07-10-13-53-55
+      updated: 2026-09-03-11-49-42
       followers: 383
       likes: 102
     - service: vk
@@ -12072,7 +12071,7 @@
       id: Bmoc9LulUd5
       mediaId: '17941002112158210'
       published: 2018-08-18-19-31-52
-      updated: 2026-07-10-13-53-53
+      updated: 2026-09-03-11-49-41
       followers: 395
       likes: 99
     - service: vk
@@ -12150,9 +12149,9 @@
       id: BmrDQOxlm5N
       mediaId: '17971463704018348'
       published: 2018-08-19-19-45-00
-      updated: 2026-07-10-13-53-52
+      updated: 2026-09-03-11-49-40
       followers: 397
-      likes: 111
+      likes: 110
       comments: !c iw2AkZPLQnZVO5P3AACrc29jaWFsbWl4aW6k8J+RjAM=
     - service: vk
       id: 866
@@ -12214,9 +12213,9 @@
       id: BmtayHblHMD
       mediaId: '17968104982070086'
       published: 2018-08-20-17-49-05
-      updated: 2026-07-10-13-53-49
+      updated: 2026-09-03-11-49-39
       followers: 398
-      likes: 99
+      likes: 98
     - service: vk
       id: 867
       published: 2018-08-20
@@ -12267,7 +12266,7 @@
       id: BmwA9_KFbWg
       mediaId: '17954720179123233'
       published: 2018-08-21-18-01-14
-      updated: 2026-07-10-13-53-47
+      updated: 2026-09-03-11-49-38
       followers: 400
       likes: 123
     - service: vk
@@ -12297,9 +12296,9 @@
       id: BmytQzulbsP
       mediaId: '17842318555295097'
       published: 2018-08-22-19-06-46
-      updated: 2026-07-10-13-53-45
+      updated: 2026-09-03-11-49-37
       followers: 400
-      likes: 109
+      likes: 108
     - service: vk
       id: 871
       published: 2018-08-22
@@ -12354,7 +12353,7 @@
       id: Bm1LUm9FALR
       mediaId: '17946622378187112'
       published: 2018-08-23-18-07-54
-      updated: 2026-07-10-13-53-44
+      updated: 2026-09-03-11-49-36
       followers: 402
       likes: 109
       comments: !c |-
@@ -12390,7 +12389,7 @@
       id: Bm3uN2ZFEBQ
       mediaId: '17955006562126195'
       published: 2018-08-24-17-51-18
-      updated: 2026-07-10-13-53-40
+      updated: 2026-09-03-11-49-35
       followers: 402
       likes: 117
     - service: vk
@@ -12446,7 +12445,7 @@
       id: Bm6Uk5Dl1ty
       mediaId: '17972326294002791'
       published: 2018-08-25-18-04-58
-      updated: 2026-07-10-13-53-39
+      updated: 2026-09-03-11-49-34
       followers: 402
       likes: 93
     - service: vk
@@ -12475,9 +12474,9 @@
       id: Bm88TBeFw8e
       mediaId: '17883479992251808'
       published: 2018-08-26-18-30-32
-      updated: 2026-07-10-13-53-37
+      updated: 2026-09-03-11-49-33
       followers: 405
-      likes: 122
+      likes: 121
     - service: vk
       id: 878
       published: 2018-08-26
@@ -12550,7 +12549,7 @@
       id: Bm_jw4ElpBd
       mediaId: '17989217242022317'
       published: 2018-08-27-18-53-53
-      updated: 2026-07-10-13-53-35
+      updated: 2026-09-03-11-49-32
       followers: 405
       likes: 101
     - service: vk
@@ -12619,7 +12618,7 @@
       id: BnCJCoeF4b6
       mediaId: '17961591811116564'
       published: 2018-08-28-18-58-06
-      updated: 2026-07-10-13-53-34
+      updated: 2026-09-03-11-49-31
       followers: 406
       likes: 104
       comments: !c |-
@@ -12684,7 +12683,7 @@
       id: BnEs6jql2NK
       mediaId: '17867156395277850'
       published: 2018-08-29-18-50-03
-      updated: 2026-07-10-13-53-30
+      updated: 2026-09-03-11-49-29
       followers: 407
       likes: 99
       comments: !c |-
@@ -12718,7 +12717,7 @@
       id: BnHM1idF9Zm
       mediaId: '17945690758181715'
       published: 2018-08-30-18-07-28
-      updated: 2026-07-10-13-53-28
+      updated: 2026-09-03-11-49-27
       followers: 407
       likes: 99
     - service: vk
@@ -12747,7 +12746,7 @@
       id: BnJzjADFUuS
       mediaId: '17960194942119811'
       published: 2018-08-31-18-24-12
-      updated: 2026-07-10-13-53-26
+      updated: 2026-09-03-11-49-26
       followers: 407
       likes: 106
       comments: !c |-
@@ -12805,7 +12804,7 @@
       id: BnMZPStF4mh
       mediaId: '17975092981007007'
       published: 2018-09-01-18-32-03
-      updated: 2026-07-10-13-53-22
+      updated: 2026-09-03-11-49-25
       followers: 407
       likes: 119
       comments: !c ixGAkZPLQnZZeUjiAAC0ZGVsZXRlZC1lcmFzZWQtZGJkaGijLi4uAw==
@@ -12872,7 +12871,7 @@
       id: BnPCxInFSRT
       mediaId: '17976416122052593'
       published: 2018-09-02-19-13-25
-      updated: 2026-07-10-13-53-20
+      updated: 2026-09-03-11-49-23
       followers: 408
       likes: 118
       comments: !c |-
@@ -12953,7 +12952,7 @@
       id: BnRc1WKFrTb
       mediaId: '17947792657146986'
       published: 2018-09-03-17-39-39
-      updated: 2026-07-10-13-53-15
+      updated: 2026-09-03-11-49-21
       followers: 409
       likes: 90
       comments: !c |-
@@ -12988,9 +12987,9 @@
       id: BnUWz5ZFjUY
       mediaId: '17942284516169609'
       published: 2018-09-04-20-44-45
-      updated: 2026-07-10-13-53-11
+      updated: 2026-09-03-11-49-19
       followers: 411
-      likes: 100
+      likes: 99
     - service: vk
       id: 902
       published: 2018-09-04
@@ -13050,9 +13049,9 @@
       id: BnWsOM9FnTG
       mediaId: '17946049843166099'
       published: 2018-09-05-18-30-19
-      updated: 2026-07-10-13-53-09
+      updated: 2026-09-03-11-49-18
       followers: 412
-      likes: 121
+      likes: 120
       comments: !c |-
         CzuAkZXLQnZatQvYAACmbTRuaW912S5EbyB5b3UgdXNlIGFueSBncmFwaGljIG1vZHMgZm9yIHRo
         b3NlIHNjcmVlbnM/k8tCdlrQIyWAAKZkZWhlcm+jTm8uk8tCdlrsY1MAAKZtNG5pb3WuQG13c2Ny
@@ -13135,7 +13134,7 @@
       id: BnZQ8nDlGss
       mediaId: '17969511196076277'
       published: 2018-09-06-18-29-43
-      updated: 2026-07-10-13-53-06
+      updated: 2026-09-03-11-49-16
       followers: 413
       likes: 121
       comments: !c |-
@@ -13202,7 +13201,7 @@
       id: Bnbwck7lAwT
       mediaId: '17860124650304898'
       published: 2018-09-07-17-43-27
-      updated: 2026-07-10-13-53-02
+      updated: 2026-09-03-11-49-14
       followers: 413
       likes: 130
     - service: vk
@@ -13307,9 +13306,9 @@
       id: Bnefa6NFqfS
       mediaId: '17870620696273558'
       published: 2018-09-08-19-12-23
-      updated: 2026-07-10-13-53-01
+      updated: 2026-09-03-11-49-13
       followers: 413
-      likes: 136
+      likes: 134
     - service: vk
       id: 911
       published: 2018-09-08
@@ -13346,9 +13345,9 @@
       id: Bng82jRFOS6
       mediaId: '17888072182253451'
       published: 2018-09-09-18-08-03
-      updated: 2026-07-10-13-52-58
+      updated: 2026-09-03-11-49-12
       followers: 413
-      likes: 138
+      likes: 137
       comments: !c CxCAkZPLQnZcCVB8gACrYnV0dGVyc3RpY2upQmVhdXRpZnVsAw==
     - service: vk
       id: 912
@@ -13392,7 +13391,7 @@
       id: BnjfkzhlDtX
       mediaId: '17916116254220371'
       published: 2018-09-10-17-49-57
-      updated: 2026-07-10-13-52-55
+      updated: 2026-09-03-11-49-10
       followers: 414
       likes: 95
       comments: !c |-
@@ -13466,7 +13465,7 @@
       id: BnmKO7UFZYp
       mediaId: '17982890473026346'
       published: 2018-09-11-18-41-11
-      updated: 2026-07-10-13-52-51
+      updated: 2026-09-03-11-49-07
       followers: 417
       likes: 119
       comments: !c |-
@@ -13511,7 +13510,7 @@
       code: BnorEfqlBRC
       mediaId: '17974096264067807'
       published: 2018-09-12-18-06-35
-      updated: 2026-07-10-13-52-44
+      updated: 2026-09-03-11-49-05
       followers: 418
       likes: 112
       comments: !c CxOAkZPLQnZc9UYBAACtamVzc2VtZWxsb3I3Nq1JIGxvdmUgaXTwn5SlAw==
@@ -13615,7 +13614,7 @@
       id: Bnrb6krFZm5
       mediaId: '17949695539176838'
       published: 2018-09-13-19-51-53
-      updated: 2026-07-10-13-52-42
+      updated: 2026-09-03-11-49-03
       followers: 420
       likes: 115
     - service: vk
@@ -13673,7 +13672,7 @@
       id: BntwNVUh4q7
       mediaId: '17906513266226567'
       published: 2018-09-14-17-27-41
-      updated: 2026-07-10-13-52-40
+      updated: 2026-09-03-11-49-02
       followers: 420
       likes: 105
       comments: !c |-
@@ -13745,7 +13744,7 @@
       id: Bnwnqt6FR4A
       mediaId: '17979698194026174'
       published: 2018-09-15-20-10-47
-      updated: 2026-07-10-13-52-36
+      updated: 2026-09-03-11-49-01
       followers: 420
       likes: 100
     - service: vk
@@ -13824,7 +13823,7 @@
       id: BnzK6akF3Bs
       mediaId: '17951820814192448'
       published: 2018-09-16-19-57-14
-      updated: 2026-07-10-13-52-33
+      updated: 2026-09-03-11-49-00
       followers: 420
       likes: 116
     - service: vk
@@ -13863,9 +13862,9 @@
       id: Bn1qRncFiUd
       mediaId: '17955122914137979'
       published: 2018-09-17-19-09-46
-      updated: 2026-07-10-13-52-32
+      updated: 2026-09-03-11-48-59
       followers: 421
-      likes: 104
+      likes: 103
     - service: vk
       id: 929
       published: 2018-09-17
@@ -13935,7 +13934,7 @@
       id: Bn4QCD0FDYq
       mediaId: '17950384945154984'
       published: 2018-09-18-19-18-11
-      updated: 2026-07-10-13-52-30
+      updated: 2026-09-03-11-48-58
       followers: 422
       likes: 104
     - service: vk
@@ -13977,7 +13976,7 @@
       id: Bn64OP0lEK2
       mediaId: '17972568049074625'
       published: 2018-09-19-19-47-51
-      updated: 2026-07-10-13-52-27
+      updated: 2026-09-03-11-48-57
       followers: 423
       likes: 118
       comments: !c |-
@@ -14015,7 +14014,7 @@
       id: Bn9aCFYBQrx
       mediaId: '17966837458128684'
       published: 2018-09-20-19-21-46
-      updated: 2026-07-10-13-52-24
+      updated: 2026-09-03-11-48-56
       followers: 423
       likes: 112
     - service: vk
@@ -14047,7 +14046,7 @@
       id: Bn_zpl2B42D
       mediaId: '17981754829004934'
       published: 2018-09-21-17-44-06
-      updated: 2026-07-10-13-52-22
+      updated: 2026-09-03-11-48-55
       followers: 425
       likes: 105
       comments: !c |-
@@ -14141,9 +14140,9 @@
       id: BoCeXOIhB0P
       mediaId: '17977161688065755'
       published: 2018-09-22-18-35-48
-      updated: 2026-07-10-13-52-18
+      updated: 2026-09-03-11-48-53
       followers: 426
-      likes: 130
+      likes: 129
       comments: !c |-
         G3YAoJwHtk1qG1kej61ndvl5eymqwoUsVWY2trO3MexKNCUSmhB/SL/nACn55YrQVYYwdoIqJzow
         brLMh9eD2QEPjsPrielKpM/qazgj1SFXmj4wRnwniUrAu1jAktotEP11my9UKAAc5YeT4MoPywj6
@@ -14191,9 +14190,9 @@
       id: BoFCn79hqRl
       mediaId: '17967374326105544'
       published: 2018-09-23-18-31-09
-      updated: 2026-07-10-13-52-14
+      updated: 2026-09-03-11-48-50
       followers: 427
-      likes: 143
+      likes: 142
       comments: !c |-
         G/0AYORwbUtxa4+IZhp0n7webiFZx6v2D4WQvhRsdqKB8V2BNg/TA4k40sB+e7ex8yUMEUdRr7vD
         L9+vbNPmEt01WaHUkgrQp5GDWg7JCiG4JIa6RLGSDb6H/j//R4QeDSpoG8ws1WSlKspdUS2bEs4a
@@ -14271,7 +14270,7 @@
       id: BoHsR7lh0cz
       mediaId: '17941555336198670'
       published: 2018-09-24-19-13-37
-      updated: 2026-07-10-13-52-08
+      updated: 2026-09-03-11-48-48
       followers: 427
       likes: 103
     - service: vk
@@ -14334,7 +14333,7 @@
       id: BoKMnBsBNX-
       mediaId: '17985580297005084'
       published: 2018-09-25-18-34-36
-      updated: 2026-07-10-13-52-06
+      updated: 2026-09-03-11-48-47
       followers: 430
       likes: 104
       comments: !c |-
@@ -14377,9 +14376,9 @@
       id: BoMyohzBAy_
       mediaId: '17909748853235275'
       published: 2018-09-26-18-45-20
-      updated: 2026-07-10-13-52-03
+      updated: 2026-09-03-11-48-45
       followers: 431
-      likes: 94
+      likes: 93
     - service: vk
       id: 947
       published: 2018-09-26
@@ -14413,7 +14412,7 @@
       id: BoPR-owhm4i
       mediaId: '17983523461063369'
       published: 2018-09-27-17-57-43
-      updated: 2026-07-10-13-52-01
+      updated: 2026-09-03-11-48-45
       followers: 432
       likes: 106
     - service: vk
@@ -14445,9 +14444,9 @@
       id: BoR2ja2B8pA
       mediaId: '17968524082118506'
       published: 2018-09-28-17-55-48
-      updated: 2026-07-10-13-52-00
+      updated: 2026-09-03-11-48-44
       followers: 434
-      likes: 117
+      likes: 116
     - service: vk
       id: 949
       published: 2018-09-28
@@ -14510,7 +14509,7 @@
       id: BoUc9rqBuyX
       mediaId: '17909949022234170'
       published: 2018-09-29-18-09-55
-      updated: 2026-07-10-13-51-58
+      updated: 2026-09-03-11-48-43
       followers: 434
       likes: 108
     - service: vk
@@ -14570,7 +14569,7 @@
       id: BoXRJPDBKvK
       mediaId: '17923434994208866'
       published: 2018-09-30-20-24-21
-      updated: 2026-07-10-13-51-56
+      updated: 2026-09-03-11-48-42
       followers: 435
       likes: 106
     - service: vk
@@ -14643,7 +14642,7 @@
       id: BoZtM-JhvQc
       mediaId: '17963845558091915'
       published: 2018-10-01-19-08-01
-      updated: 2026-07-10-13-51-53
+      updated: 2026-09-03-11-48-41
       followers: 436
       likes: 102
     - service: vk
@@ -14706,7 +14705,7 @@
       id: BocPyyhht1E
       mediaId: '17984044891010486'
       published: 2018-10-02-18-48-45
-      updated: 2026-07-10-13-51-52
+      updated: 2026-09-03-11-48-40
       followers: 436
       likes: 93
     - service: vk
@@ -14741,7 +14740,7 @@
       id: Boe_ooGB13d
       mediaId: '17958717961190922'
       published: 2018-10-03-20-25-17
-      updated: 2026-07-10-13-51-50
+      updated: 2026-09-03-11-48-39
       followers: 438
       likes: 106
     - service: vk
@@ -14811,7 +14810,7 @@
       id: BohdtlnBgHu
       mediaId: '17886838063264495'
       published: 2018-10-04-19-26-35
-      updated: 2026-07-10-13-51-48
+      updated: 2026-09-03-11-48-39
       followers: 439
       likes: 104
     - service: vk
@@ -14852,7 +14851,7 @@
       id: BokCUgthFAs
       mediaId: '17969908816120297'
       published: 2018-10-05-19-24-57
-      updated: 2026-07-10-13-51-46
+      updated: 2026-09-03-11-48-37
       followers: 439
       likes: 112
       comments: !c ixWAkZPLQnZkozTQAACqbXNoYWhyaW05NLVWZXJ5IERvcmsgU291bHMgYWxpa2UD
@@ -14915,7 +14914,7 @@
       id: BomlPcyh2n3
       mediaId: '17986708942021735'
       published: 2018-10-06-19-08-34
-      updated: 2026-07-10-13-51-42
+      updated: 2026-09-03-11-48-35
       followers: 439
       likes: 114
       comments: !c iw2AkZPLQnZkrQGaAACrc2lyLXdhY2xvdmWk8J+YjQM=
@@ -15014,7 +15013,7 @@
       id: BopG_9YB_l4
       mediaId: '17965211704087570'
       published: 2018-10-07-18-42-02
-      updated: 2026-07-10-13-51-37
+      updated: 2026-09-03-11-48-33
       followers: 441
       likes: 100
     - service: vk
