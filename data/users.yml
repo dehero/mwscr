@@ -989,7 +989,7 @@ caius-cosades:
   profiles:
     - service: tg
       id: '6483220506'
-      updated: 2026-09-04-11-51-19
+      updated: 2026-09-04-15-16-25
       accessHash: '-5537197680289822260'
       username: Gatemate7
       botChatId: 6483220506
@@ -1059,10 +1059,10 @@ chacal:
   profiles:
     - service: tg
       id: '8095034962'
-      updated: 2026-08-28-07-19-14
+      updated: 2026-09-04-15-16-26
       accessHash: '-7146146524014681806'
       name: Chacal 🇩🇴
-      avatar: store:/avatars/tg-4936124824770252211.jpg
+      avatar: store:/avatars/tg-4956514773986119263.jpg
 chaor-seyda:
   profiles:
     - service: ig
@@ -3997,7 +3997,7 @@ myndowen:
   profiles:
     - service: tg
       id: '720784420'
-      updated: 2026-09-04-06-39-03
+      updated: 2026-09-04-15-16-26
       accessHash: '4385662928393121475'
       username: myndowen
       name: Daniel Beilin
@@ -4260,7 +4260,7 @@ oberhort:
   profiles:
     - service: tg
       id: '19254498'
-      updated: 2026-08-29-02-33-54
+      updated: 2026-09-04-15-16-26
       accessHash: '-564270059565994883'
       username: oberhort
       name: Игорь
