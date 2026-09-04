@@ -1117,10 +1117,10 @@
     - service: tg
       id: 1311
       published: 2026-09-03-19-00-51
-      updated: 2026-09-04-15-16-25
+      updated: 2026-09-04-18-39-04
       followers: 940
-      likes: 42
-      views: 154
+      likes: 43
+      views: 159
       comments: !c |-
         ix2AkZPLQnoGlSgdAACtY2FpdXMtY29zYWRlc9khaG93IHRoZSBwb25kcyBiZSBsaWtlIGluIHRo
         ZSBob29kAw==
@@ -1131,10 +1131,10 @@
     - service: vk
       id: 3534
       published: 2026-09-03-21-35-25
-      updated: 2026-09-04-15-16-16
+      updated: 2026-09-04-18-38-55
       followers: 1443
-      likes: 28
-      views: 272
+      likes: 33
+      views: 311
       reposts: 1
 2019-02-27-glassworkers-hall:
   title: Glassworker's Hall

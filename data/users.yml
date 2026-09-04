@@ -989,7 +989,7 @@ caius-cosades:
   profiles:
     - service: tg
       id: '6483220506'
-      updated: 2026-09-04-15-16-25
+      updated: 2026-09-04-18-39-04
       accessHash: '-5537197680289822260'
       username: Gatemate7
       botChatId: 6483220506
@@ -4042,6 +4042,10 @@ namith-fotedar:
   profiles:
     - service: ig
       username: namith_fotedar
+namraw:
+  profiles:
+    - service: ig
+      username: namraw_
 nars-mcain:
   profiles:
     - service: yt
