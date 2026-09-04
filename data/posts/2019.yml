@@ -123,7 +123,7 @@
     - service: vk
       id: 2816
       published: 2025-11-06-18-17-05
-      updated: 2026-08-28-19-43-10
+      updated: 2026-09-04-21-08-34
       followers: 1500
       likes: 87
       views: 1679
@@ -140,7 +140,7 @@
     - service: tg
       id: 1042
       published: 2025-11-06-18-17-09
-      updated: 2026-08-28-19-42-40
+      updated: 2026-09-04-21-08-12
       followers: 854
       likes: 66
       views: 664
@@ -833,7 +833,7 @@
     - service: vk
       id: 3018
       published: 2026-01-21-18-42-05
-      updated: 2026-08-28-19-41-56
+      updated: 2026-09-04-21-07-27
       followers: 1581
       likes: 91
       views: 1662
@@ -850,10 +850,10 @@
     - service: tg
       id: 1127
       published: 2026-01-21-18-42-09
-      updated: 2026-08-28-19-41-41
+      updated: 2026-09-04-21-07-13
       followers: 886
       likes: 73
-      views: 622
+      views: 623
       comments: !c CwuAkZPLQnm+ifpBgACma2V2eS1jpPCfpoAD
 2019-02-21-skaal-lantern:
   title: Skaal Lantern
@@ -1117,10 +1117,10 @@
     - service: tg
       id: 1311
       published: 2026-09-03-19-00-51
-      updated: 2026-09-04-18-39-04
+      updated: 2026-09-04-21-06-42
       followers: 940
-      likes: 43
-      views: 159
+      likes: 44
+      views: 188
       comments: !c |-
         ix2AkZPLQnoGlSgdAACtY2FpdXMtY29zYWRlc9khaG93IHRoZSBwb25kcyBiZSBsaWtlIGluIHRo
         ZSBob29kAw==
@@ -1131,11 +1131,11 @@
     - service: vk
       id: 3534
       published: 2026-09-03-21-35-25
-      updated: 2026-09-04-18-38-55
+      updated: 2026-09-04-21-06-35
       followers: 1443
-      likes: 33
-      views: 311
-      reposts: 1
+      likes: 36
+      views: 334
+      reposts: 3
 2019-02-27-glassworkers-hall:
   title: Glassworker's Hall
   titleRu: Зал стеклодувов

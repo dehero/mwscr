@@ -2051,11 +2051,17 @@
     - service: vk
       id: 3537
       published: 2026-09-04-18-39-42
+      updated: 2026-09-04-21-06-34
       followers: 1443
+      likes: 9
+      views: 82
     - service: tg
       id: 1312
       published: 2026-09-04-18-39-49
+      updated: 2026-09-04-21-06-34
       followers: 942
+      likes: 31
+      views: 100
     - service: mx
       id: '1788547193864'
       published: 2026-09-04-18-39-54
@@ -2773,10 +2779,10 @@
     - service: vk
       id: 2786
       published: 2025-10-27-18-17-50
-      updated: 2026-08-28-19-43-32
+      updated: 2026-09-04-21-08-44
       followers: 1487
       likes: 80
-      views: 2229
+      views: 2230
       reposts: 3
       comments: !c |-
         G9IAwMTo91s/k7qHyJCSqGXRZGZN9w2JKncZnZzowfBfZC0OAguA0yjT3MbQ5TlGLxu1iscvXFtR
@@ -2790,10 +2796,10 @@
         - 1031
         - 1032
       published: 2025-10-27-18-18-00
-      updated: 2026-08-28-19-42-50
+      updated: 2026-09-04-21-08-22
       followers: 847
       likes: 72
-      views: 832
+      views: 833
       comments: !c |-
         G4YAwCwO7GbOi9beZImE5PGNbJMUYR1vNKuidtNE6H9I5ulPiLXlBPiEL5CQkgh2jAPgcdZbdABb
         bJRhA04SKxn8ab+b2Rx+NgDwLF7F27jdEAR5uksv7olH9B4xAefDNu+6GrTHl53GCbjAFDIhk/qH
@@ -2861,7 +2867,7 @@
     - service: vk
       id: 2906
       published: 2025-12-01-18-17-50
-      updated: 2026-08-28-19-42-35
+      updated: 2026-09-04-21-08-00
       followers: 1532
       likes: 64
       views: 1041
@@ -2877,10 +2883,10 @@
     - service: tg
       id: 1076
       published: 2025-12-01-18-18-00
-      updated: 2026-08-28-19-42-09
+      updated: 2026-09-04-21-07-40
       followers: 867
       likes: 66
-      views: 654
+      views: 655
       comments: !c |-
         G/YAIJwH2anphLG6kpp48fz7t7Al9AJJKQj0C7VVHAZ5wEFyLlmD58b8VM3iSLBV/shXt8W0Go4O
         dvAIvxoMqb1aX51ypIEGoC2kHE/QPLaDh6w0gnjJZrDtn9fy90/A0wwqDBF1p6GOPT+N/UWy5D5v
@@ -2910,7 +2916,7 @@
     - service: vk
       id: 2917
       published: 2025-12-02-18-27-01
-      updated: 2026-08-28-19-42-34
+      updated: 2026-09-04-21-07-58
       followers: 1532
       likes: 106
       views: 3780
@@ -2918,10 +2924,10 @@
     - service: tg
       id: 1077
       published: 2025-12-02-18-27-05
-      updated: 2026-08-28-19-42-08
+      updated: 2026-09-04-21-07-40
       followers: 867
       likes: 68
-      views: 777
+      views: 778
 2025-12-03-1-near-mababi:
   title: Near Mababi
   titleRu: У Мабаби
@@ -2954,7 +2960,7 @@
     - service: vk
       id: 2919
       published: 2025-12-03-18-27-35
-      updated: 2026-08-28-19-42-33
+      updated: 2026-09-04-21-07-58
       followers: 1536
       likes: 64
       views: 832
@@ -2967,7 +2973,7 @@
     - service: tg
       id: 1078
       published: 2025-12-03-18-27-38
-      updated: 2026-08-28-19-42-08
+      updated: 2026-09-04-21-07-39
       followers: 866
       likes: 67
       views: 737
@@ -3000,7 +3006,7 @@
     - service: vk
       id: 2920
       published: 2025-12-04-19-18-36
-      updated: 2026-08-28-19-42-32
+      updated: 2026-09-04-21-07-57
       followers: 1537
       likes: 55
       views: 658
@@ -3011,7 +3017,7 @@
     - service: tg
       id: 1079
       published: 2025-12-04-19-18-40
-      updated: 2026-08-28-19-42-07
+      updated: 2026-09-04-21-07-39
       followers: 867
       likes: 66
       views: 777
@@ -3043,7 +3049,7 @@
     - service: vk
       id: 2922
       published: 2025-12-05-18-23-12
-      updated: 2026-08-28-19-42-31
+      updated: 2026-09-04-21-07-56
       followers: 1537
       likes: 89
       views: 1345
@@ -3061,7 +3067,7 @@
     - service: tg
       id: 1080
       published: 2025-12-05-18-23-15
-      updated: 2026-08-28-19-42-07
+      updated: 2026-09-04-21-07-38
       followers: 868
       likes: 72
       views: 728
@@ -3093,7 +3099,7 @@
     - service: vk
       id: 2932
       published: 2025-12-06-18-22-10
-      updated: 2026-08-28-19-42-30
+      updated: 2026-09-04-21-07-55
       followers: 1538
       likes: 84
       views: 1028
@@ -3104,10 +3110,10 @@
     - service: tg
       id: 1081
       published: 2025-12-06-18-22-16
-      updated: 2026-08-28-19-42-07
+      updated: 2026-09-04-21-07-38
       followers: 868
       likes: 67
-      views: 814
+      views: 816
       comments: !c |-
         iyqAkpPLQnmvtsvZgAC1eWEtaHMtY2hlLXN1ZGEtc3Rhdml0vtCT0YDRg9GB0YLQuNGCINC/0L4g
         0LrQtdC90YLRg5PLQnmvij1bAACma2V2eS1jpPCfpoAD
@@ -3137,7 +3143,7 @@
     - service: vk
       id: 2936
       published: 2025-12-07-18-22-41
-      updated: 2026-08-28-19-42-30
+      updated: 2026-09-04-21-07-54
       followers: 1540
       likes: 87
       views: 1289
@@ -3149,10 +3155,10 @@
     - service: tg
       id: 1082
       published: 2025-12-07-18-22-45
-      updated: 2026-08-28-19-42-06
+      updated: 2026-09-04-21-07-37
       followers: 869
       likes: 67
-      views: 801
+      views: 802
 2025-12-08-1-sul-matuul:
   title: Sul-Matuul
   titleRu: Сул-Матуул
@@ -3184,7 +3190,7 @@
     - service: vk
       id: 2940
       published: 2025-12-08-18-26-58
-      updated: 2026-08-28-19-42-29
+      updated: 2026-09-04-21-07-53
       followers: 1541
       likes: 86
       views: 1834
@@ -3197,7 +3203,7 @@
     - service: tg
       id: 1083
       published: 2025-12-08-18-27-03
-      updated: 2026-08-28-19-42-06
+      updated: 2026-09-04-21-07-37
       followers: 868
       likes: 64
       views: 716
@@ -3233,7 +3239,7 @@
     - service: vk
       id: 2942
       published: 2025-12-09-18-22-26
-      updated: 2026-08-28-19-42-28
+      updated: 2026-09-04-21-07-51
       followers: 1541
       likes: 72
       views: 1048
@@ -3249,7 +3255,7 @@
     - service: tg
       id: 1084
       published: 2025-12-09-18-22-30
-      updated: 2026-08-28-19-42-05
+      updated: 2026-09-04-21-07-37
       followers: 868
       likes: 66
       views: 777
@@ -3279,7 +3285,7 @@
     - service: vk
       id: 2949
       published: 2025-12-10-18-26-56
-      updated: 2026-08-28-19-42-27
+      updated: 2026-09-04-21-07-49
       followers: 1541
       likes: 68
       views: 1203
@@ -3287,7 +3293,7 @@
     - service: tg
       id: 1085
       published: 2025-12-10-18-27-00
-      updated: 2026-08-28-19-42-05
+      updated: 2026-09-04-21-07-36
       followers: 869
       likes: 65
       views: 939
@@ -3319,7 +3325,7 @@
     - service: vk
       id: 2951
       published: 2025-12-11-18-26-56
-      updated: 2026-08-28-19-42-26
+      updated: 2026-09-04-21-07-49
       followers: 1542
       likes: 70
       views: 3164
@@ -3327,7 +3333,7 @@
     - service: tg
       id: 1086
       published: 2025-12-11-18-27-00
-      updated: 2026-08-28-19-41-55
+      updated: 2026-09-04-21-07-36
       followers: 873
       likes: 67
       views: 902
@@ -3359,7 +3365,7 @@
     - service: vk
       id: 2953
       published: 2025-12-15-18-55-54
-      updated: 2026-08-28-19-42-25
+      updated: 2026-09-04-21-07-47
       followers: 1543
       likes: 58
       views: 877
@@ -3367,7 +3373,7 @@
     - service: tg
       id: 1087
       published: 2025-12-15-18-55-59
-      updated: 2026-08-28-19-41-55
+      updated: 2026-09-04-21-07-24
       followers: 874
       likes: 66
       views: 855
@@ -3397,7 +3403,7 @@
     - service: vk
       id: 2954
       published: 2025-12-16-18-44-25
-      updated: 2026-08-28-19-42-25
+      updated: 2026-09-04-21-07-46
       followers: 1545
       likes: 58
       views: 1120
@@ -3409,7 +3415,7 @@
     - service: tg
       id: 1088
       published: 2025-12-16-18-44-32
-      updated: 2026-08-28-19-41-54
+      updated: 2026-09-04-21-07-23
       followers: 880
       likes: 64
       views: 688
@@ -3438,7 +3444,7 @@
     - service: vk
       id: 2957
       published: 2025-12-18-19-24-30
-      updated: 2026-08-28-19-42-23
+      updated: 2026-09-04-21-07-44
       followers: 1544
       likes: 55
       views: 860
@@ -3451,7 +3457,7 @@
     - service: tg
       id: 1091
       published: 2025-12-18-19-24-34
-      updated: 2026-08-28-19-41-54
+      updated: 2026-09-04-21-07-23
       followers: 880
       likes: 63
       views: 726
@@ -3483,7 +3489,7 @@
     - service: vk
       id: 2961
       published: 2025-12-19-19-24-26
-      updated: 2026-08-28-19-42-22
+      updated: 2026-09-04-21-07-43
       followers: 1544
       likes: 72
       views: 1116
@@ -3492,7 +3498,7 @@
     - service: tg
       id: 1092
       published: 2025-12-19-19-24-32
-      updated: 2026-08-28-19-41-53
+      updated: 2026-09-04-21-07-22
       followers: 879
       likes: 68
       views: 757
@@ -3521,7 +3527,7 @@
     - service: vk
       id: 2962
       published: 2025-12-20-19-22-39
-      updated: 2026-08-28-19-42-20
+      updated: 2026-09-04-21-07-41
       followers: 1544
       likes: 68
       views: 889
@@ -3573,7 +3579,7 @@
     - service: vk
       id: 2964
       published: 2025-12-22-18-41-44
-      updated: 2026-08-28-19-42-19
+      updated: 2026-09-04-21-07-40
       followers: 1544
       likes: 61
       views: 1522
@@ -3585,7 +3591,7 @@
     - service: tg
       id: 1094
       published: 2025-12-22-18-41-48
-      updated: 2026-08-28-19-41-49
+      updated: 2026-09-04-21-07-22
       followers: 881
       likes: 62
       views: 767
@@ -3610,7 +3616,7 @@
     - service: vk
       id: 2966
       published: 2025-12-24-19-07-00
-      updated: 2026-08-28-19-42-18
+      updated: 2026-09-04-21-07-40
       followers: 1549
       likes: 62
       views: 2890
@@ -3621,7 +3627,7 @@
     - service: tg
       id: 1095
       published: 2025-12-24-19-07-00
-      updated: 2026-08-28-19-41-49
+      updated: 2026-09-04-21-07-21
       followers: 881
       likes: 60
       views: 659
@@ -3654,17 +3660,17 @@
     - service: vk
       id: 2979
       published: 2025-12-30-18-31-59
-      updated: 2026-08-28-19-42-17
+      updated: 2026-09-04-21-07-39
       followers: 1553
       likes: 52
       views: 621
     - service: tg
       id: 1099
       published: 2025-12-30-18-32-03
-      updated: 2026-08-28-19-41-49
+      updated: 2026-09-04-21-07-21
       followers: 878
       likes: 67
-      views: 710
+      views: 711
 2025-12-31-1-the-end-of-a-difficult-journey:
   title: The End of a Difficult Journey
   titleRu: Конец тяжёлого пути
@@ -3693,7 +3699,7 @@
     - service: vk
       id: 2980
       published: 2025-12-31-21-16-00
-      updated: 2026-08-28-19-42-16
+      updated: 2026-09-04-21-07-38
       followers: 1558
       likes: 45
       views: 993
@@ -3707,7 +3713,7 @@
     - service: tg
       id: 1100
       published: 2025-12-31-21-16-00
-      updated: 2026-08-28-19-41-48
+      updated: 2026-09-04-21-07-20
       followers: 879
       likes: 54
-      views: 643
+      views: 644
