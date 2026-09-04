@@ -2,6 +2,15 @@
 
 All notable changes to this project will be documented in this file.
 
+## [3.1.4](https://github.com/dehero/mwscr/compare/v3.1.3...v3.1.4) (2026-09-04)
+
+### Bug Fixes
+
+- **site:** add missing translations to Russian for merch ordering dialog
+  ([9f7a342](https://github.com/dehero/mwscr/commit/9f7a34264a1ca931c8c946cfc6200208a2c9ae31))
+- **site:** improve Russian copyright notice
+  ([04b1e0b](https://github.com/dehero/mwscr/commit/04b1e0bf31abcec8bd3fbb014cb1c6d530cc508a))
+
 ## [3.1.3](https://github.com/dehero/mwscr/compare/v3.1.2...v3.1.3) (2026-09-02)
 
 ### Bug Fixes
