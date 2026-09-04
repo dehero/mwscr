@@ -321,10 +321,10 @@
     - service: tg
       id: 1304
       published: 2026-08-29-20-21-12
-      updated: 2026-09-03-21-32-14
+      updated: 2026-09-04-23-29-40
       followers: 939
       likes: 53
-      views: 304
+      views: 317
       comments: !c ixWAkZPLQnoFB3RYgACtY2FpdXMtY29zYWRlc7JoYW1hcyBpbiBtb3Jyb3dpbmQD
     - service: mx
       id: '1788034876969'
@@ -1117,10 +1117,10 @@
     - service: tg
       id: 1311
       published: 2026-09-03-19-00-51
-      updated: 2026-09-04-21-06-42
+      updated: 2026-09-04-23-29-39
       followers: 940
       likes: 44
-      views: 188
+      views: 190
       comments: !c |-
         ix2AkZPLQnoGlSgdAACtY2FpdXMtY29zYWRlc9khaG93IHRoZSBwb25kcyBiZSBsaWtlIGluIHRo
         ZSBob29kAw==
@@ -1131,10 +1131,10 @@
     - service: vk
       id: 3534
       published: 2026-09-03-21-35-25
-      updated: 2026-09-04-21-06-35
+      updated: 2026-09-04-23-29-32
       followers: 1443
-      likes: 36
-      views: 334
+      likes: 39
+      views: 349
       reposts: 3
 2019-02-27-glassworkers-hall:
   title: Glassworker's Hall
