@@ -2029,11 +2029,11 @@
     - service: vk
       id: 3321
       published: 2026-04-26-19-03-27
-      updated: 2026-08-28-07-19-18
+      updated: 2026-09-04-11-51-26
       followers: 1432
       likes: 62
-      views: 833
-      reposts: 4
+      views: 836
+      reposts: 3
       comments: !c ixSAkZPLQnnczoxKAACza29uc3RhbnRpbi1tYXRyb3NvdqrQktC40LLQtdC6Aw==
     - service: tg
       id: 1221
@@ -2758,18 +2758,18 @@
     - service: vk
       id: 3532
       published: 2026-09-02-18-13-54
-      updated: 2026-09-04-06-37-58
+      updated: 2026-09-04-11-51-11
       followers: 1443
       likes: 46
-      views: 432
+      views: 443
       reposts: 4
     - service: tg
       id: 1309
       published: 2026-09-02-18-14-02
-      updated: 2026-09-04-06-38-06
+      updated: 2026-09-04-11-51-20
       followers: 939
       likes: 44
-      views: 246
+      views: 253
     - service: mx
       id: '1788372847916'
       published: 2026-09-02-18-14-08
