@@ -2051,10 +2051,11 @@
     - service: vk
       id: 3537
       published: 2026-09-04-18-39-42
-      updated: 2026-09-05-01-39-06
+      updated: 2026-09-05-06-24-28
       followers: 1443
-      likes: 16
-      views: 137
+      likes: 26
+      views: 196
+      reposts: 1
       comments: !c |-
         GwgBcCwSeFNap0FMbBfceJX4f56TjfDjBrkUlVgnsUiT+zBdbTEZWjEaDHmP7pwPDPhfnsUQ0/u/
         C7pobCPdSkYsW8rOnHKqAUALKJRAPAzwJPeAO1XWFXGinPvvzy9f8c/jOL6P7veU/7u3JUkQ6/kg
@@ -2063,10 +2064,10 @@
     - service: tg
       id: 1312
       published: 2026-09-04-18-39-49
-      updated: 2026-09-05-01-38-56
+      updated: 2026-09-05-06-24-19
       followers: 942
-      likes: 36
-      views: 116
+      likes: 40
+      views: 133
     - service: mx
       id: '1788547193864'
       published: 2026-09-04-18-39-54
@@ -2427,17 +2428,17 @@
     - service: vk
       id: 2612
       published: 2025-08-29-18-20-43
-      updated: 2026-08-29-02-33-46
+      updated: 2026-09-05-06-26-46
       followers: 1391
       likes: 42
       views: 658
     - service: tg
       id: 966
       published: 2025-08-29-18-20-46
-      updated: 2026-08-29-02-33-06
+      updated: 2026-09-05-06-25-49
       followers: 783
       likes: 63
-      views: 535
+      views: 536
       comments: !c Cw+AkZPLQnmPdlIigACuZGFya25lc3MtcmlmaG+k8J+YgAM=
 2025-08-30-1-skaal-storages: 2023-08-07-skaal-storages
 2025-08-31-1-rare-weapon:
@@ -2465,7 +2466,7 @@
     - service: vk
       id: 2614
       published: 2025-08-31-18-22-45
-      updated: 2026-08-29-02-33-44
+      updated: 2026-09-05-06-26-44
       followers: 1396
       likes: 52
       views: 1038
@@ -2548,10 +2549,10 @@
     - service: tg
       id: 989
       published: 2025-09-18-18-30-31
-      updated: 2026-08-29-02-32-43
+      updated: 2026-09-05-06-25-21
       followers: 798
       likes: 68
-      views: 1189
+      views: 1190
       comments: !c iw2AkZPLQnmV4mmWAACra2F3YXpha3kyMjOk8J+YngM=
 2025-09-19-1-near-the-fence:
   title: Near the Fence
@@ -2578,7 +2579,7 @@
     - service: vk
       id: 2670
       published: 2025-09-19-18-29-09
-      updated: 2026-08-29-02-33-00
+      updated: 2026-09-05-06-26-06
       followers: 1426
       likes: 46
       views: 660
@@ -2587,10 +2588,10 @@
     - service: tg
       id: 990
       published: 2025-09-19-18-29-13
-      updated: 2026-08-29-02-32-43
+      updated: 2026-09-05-06-25-20
       followers: 801
       likes: 67
-      views: 625
+      views: 626
 2025-09-20-1-low-sky-above-mzanchend:
   title: Low Sky Above Mzanchend
   titleRu: Низкое небо над Мзанчендом
@@ -2617,7 +2618,7 @@
     - service: vk
       id: 2671
       published: 2025-09-20-18-25-41
-      updated: 2026-08-29-02-32-58
+      updated: 2026-09-05-06-26-05
       followers: 1428
       likes: 54
       views: 899
@@ -2625,10 +2626,10 @@
     - service: tg
       id: 991
       published: 2025-09-20-18-25-44
-      updated: 2026-08-29-02-32-42
+      updated: 2026-09-05-06-25-20
       followers: 801
       likes: 65
-      views: 622
+      views: 623
 2025-09-22-1-isolated-shelter: 2020-05-13-isolated-shelter
 2025-09-23-1-on-guard:
   title: On Guard
@@ -2657,7 +2658,7 @@
     - service: vk
       id: 2679
       published: 2025-09-23-18-28-57
-      updated: 2026-08-29-02-32-56
+      updated: 2026-09-05-06-26-02
       followers: 1429
       likes: 41
       views: 814
@@ -2665,10 +2666,10 @@
     - service: tg
       id: 995
       published: 2025-09-23-18-29-01
-      updated: 2026-08-29-02-32-40
+      updated: 2026-09-05-06-25-19
       followers: 802
       likes: 69
-      views: 1449
+      views: 1452
       comments: !c iwqAkZPLQnmX1EUAgAClYW5zaXOk8J+krwM=
 2025-09-24-1-elder-and-scroll:
   title: Elder and Scroll
@@ -2705,7 +2706,7 @@
     - service: vk
       id: 2682
       published: 2025-09-24-18-26-04
-      updated: 2026-08-29-02-32-55
+      updated: 2026-09-05-06-26-00
       followers: 1429
       likes: 36
       views: 793
@@ -2713,10 +2714,10 @@
     - service: tg
       id: 996
       published: 2025-09-24-18-26-08
-      updated: 2026-08-29-02-32-39
+      updated: 2026-09-05-06-25-17
       followers: 802
       likes: 79
-      views: 1088
+      views: 1109
       comments: !c |-
         G80A+J0JdizEZBhanrOwkMmm5Nslm1YYlAaMISiJ6UHpJka5BuEKpeQA9lN6wg3697auNjFbv/82
         zBiRoEWp6gI7W+zEdMHMmKDYaflr+ZRIJbwqE3RGXu+/57nBcXyfnPCyxt+qjkT2mAydrLGQIrhR
@@ -3540,10 +3541,10 @@
     - service: tg
       id: 1093
       published: 2025-12-20-19-22-43
-      updated: 2026-08-29-02-32-09
+      updated: 2026-09-05-06-24-37
       followers: 880
       likes: 63
-      views: 1288
+      views: 1301
       comments: !c |-
         G48A6B2JcSzJgqmrL/jnu/ZDOIC7+wuTLIoqrBM8CfO+8y2h3FYXSlquhnoozwT3LrNzZFoSXjYi
         SUrpdG2b/TXWOq93ts0lWyhU0vV8MhcKimuhLlg2UEBxa0BZjbQxecLA8GkuBqSupTHaJdc/jDkk
