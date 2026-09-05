@@ -989,7 +989,7 @@ caius-cosades:
   profiles:
     - service: tg
       id: '6483220506'
-      updated: 2026-09-05-11-01-19
+      updated: 2026-09-05-13-40-28
       accessHash: '-5537197680289822260'
       username: Gatemate7
       botChatId: 6483220506
@@ -1443,7 +1443,7 @@ dehero:
       avatar: store:/avatars/gh-c8afe641.jpg
     - service: vk
       id: '3652910'
-      updated: 2026-09-05-06-27-04
+      updated: 2026-09-05-13-40-32
       username: dehero
       name: Антон Курьянов
       avatar: store:/avatars/vk-5356f76e.jpg
@@ -1907,7 +1907,7 @@ ellen-ripleyyy:
     - type: channel
       service: vk
       id: '218372347'
-      updated: 2026-09-05-11-01-18
+      updated: 2026-09-05-13-40-30
       username: ellen_ripleyyy
       name: Gxivuvib
       avatar: store:/avatars/vk-63be2516.jpg
@@ -5164,7 +5164,7 @@ sergey-b:
   profiles:
     - service: vk
       id: '889222999'
-      updated: 2026-09-05-11-02-11
+      updated: 2026-09-05-13-40-32
       username: id889222999
       avatar: store:/avatars/vk-7f160215.jpg
       deleted: true
@@ -5178,7 +5178,7 @@ sergey-b-2:
   profiles:
     - service: vk
       id: '1077446394'
-      updated: 2026-09-05-10-59-42
+      updated: 2026-09-05-13-40-26
       username: id1077446394
       name: Сергей Б
       avatar: store:/avatars/vk-f5b20109.jpg
@@ -6559,7 +6559,7 @@ vladkr114:
   profiles:
     - service: vk
       id: '210352858'
-      updated: 2026-09-05-11-02-00
+      updated: 2026-09-05-13-40-29
       username: vladkr114
       name: Влад Крамской
       avatar: store:/avatars/vk-dfe1d842.jpg
