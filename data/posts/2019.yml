@@ -1117,10 +1117,10 @@
     - service: tg
       id: 1311
       published: 2026-09-03-19-00-51
-      updated: 2026-09-05-16-20-23
+      updated: 2026-09-05-18-38-59
       followers: 940
       likes: 48
-      views: 209
+      views: 211
       comments: !c |-
         ix2AkZPLQnoGlSgdAACtY2FpdXMtY29zYWRlc9khaG93IHRoZSBwb25kcyBiZSBsaWtlIGluIHRo
         ZSBob29kAw==
@@ -1131,10 +1131,10 @@
     - service: vk
       id: 3534
       published: 2026-09-03-21-35-25
-      updated: 2026-09-05-16-20-24
+      updated: 2026-09-05-18-39-03
       followers: 1443
       likes: 40
-      views: 387
+      views: 391
       reposts: 3
 2019-02-27-glassworkers-hall:
   title: Glassworker's Hall
@@ -1313,7 +1313,7 @@
     - service: vk
       id: 1847
       published: 2024-10-20-18-09-14
-      updated: 2026-08-29-18-00-39
+      updated: 2026-09-05-18-41-00
       followers: 986
       likes: 56
       views: 385
@@ -1321,7 +1321,7 @@
     - service: tg
       id: 570
       published: 2024-10-20-18-09-24
-      updated: 2026-08-29-17-59-41
+      updated: 2026-09-05-18-40-08
       followers: 561
       likes: 69
       views: 829
@@ -1456,7 +1456,7 @@
     - service: vk
       id: 1915
       published: 2024-11-22-18-11-31
-      updated: 2026-08-29-17-59-35
+      updated: 2026-09-05-18-40-14
       followers: 1008
       likes: 61
       views: 636
@@ -1464,7 +1464,7 @@
     - service: tg
       id: 603
       published: 2024-11-22-18-11-36
-      updated: 2026-08-29-17-59-06
+      updated: 2026-09-05-18-39-32
       followers: 574
       likes: 73
       views: 1570
@@ -2030,7 +2030,7 @@
     - service: vk
       id: 1976
       published: 2024-12-19-18-10-51
-      updated: 2026-08-29-17-58-43
+      updated: 2026-09-05-18-39-28
       followers: 1027
       likes: 64
       views: 448
@@ -2038,7 +2038,7 @@
     - service: tg
       id: 630
       published: 2024-12-19-18-10-59
-      updated: 2026-08-29-17-58-33
+      updated: 2026-09-05-18-39-11
       followers: 584
       likes: 71
       views: 602
@@ -2400,7 +2400,7 @@
     - service: vk
       id: 1890
       published: 2024-11-11-18-10-04
-      updated: 2026-08-29-17-59-58
+      updated: 2026-09-05-18-40-35
       followers: 1006
       likes: 44
       views: 395
@@ -2408,7 +2408,7 @@
     - service: tg
       id: 592
       published: 2024-11-11-18-10-12
-      updated: 2026-08-29-17-59-16
+      updated: 2026-09-05-18-39-42
       followers: 564
       likes: 65
       views: 585
