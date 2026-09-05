@@ -989,7 +989,7 @@ caius-cosades:
   profiles:
     - service: tg
       id: '6483220506'
-      updated: 2026-09-04-23-29-40
+      updated: 2026-09-05-01-39-06
       accessHash: '-5537197680289822260'
       username: Gatemate7
       botChatId: 6483220506
@@ -5178,7 +5178,7 @@ sergey-b-2:
   profiles:
     - service: vk
       id: '1077446394'
-      updated: 2026-09-04-21-08-50
+      updated: 2026-09-05-01-39-06
       username: id1077446394
       name: Сергей Б
       avatar: store:/avatars/vk-f5b20109.jpg

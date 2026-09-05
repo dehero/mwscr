@@ -2051,17 +2051,22 @@
     - service: vk
       id: 3537
       published: 2026-09-04-18-39-42
-      updated: 2026-09-04-23-29-32
+      updated: 2026-09-05-01-39-06
       followers: 1443
-      likes: 14
-      views: 121
+      likes: 16
+      views: 137
+      comments: !c |-
+        GwgBcCwSeFNap0FMbBfceJX4f56TjfDjBrkUlVgnsUiT+zBdbTEZWjEaDHmP7pwPDPhfnsUQ0/u/
+        C7pobCPdSkYsW8rOnHKqAUALKJRAPAzwJPeAO1XWFXGinPvvzy9f8c/jOL6P7veU/7u3JUkQ6/kg
+        tQYkz6CRrJbmCkia/fNwtCvfCzadidngDYy0bCexUrZLk2wgg6KdGWtNNq2yAtA1rhaQAfO12zSv
+        KgEwGBgvYA==
     - service: tg
       id: 1312
       published: 2026-09-04-18-39-49
-      updated: 2026-09-04-23-29-32
+      updated: 2026-09-05-01-38-56
       followers: 942
-      likes: 35
-      views: 110
+      likes: 36
+      views: 116
     - service: mx
       id: '1788547193864'
       published: 2026-09-04-18-39-54
