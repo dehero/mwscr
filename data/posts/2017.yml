@@ -1802,7 +1802,7 @@
     - service: vk
       id: 1598
       published: 2024-06-25-18-21-05
-      updated: 2026-08-29-20-20-45
+      updated: 2026-09-05-22-25-29
       followers: 917
       likes: 45
       views: 339
@@ -7068,7 +7068,7 @@
     - service: vk
       id: 1721
       published: 2024-08-30-18-29-34
-      updated: 2026-08-29-20-18-46
+      updated: 2026-09-05-22-25-27
       followers: 941
       likes: 46
       views: 345
@@ -7197,18 +7197,18 @@
     - service: vk
       id: 3530
       published: 2026-09-01-20-14-38
-      updated: 2026-09-04-21-06-35
+      updated: 2026-09-05-22-25-23
       followers: 1442
-      likes: 32
-      views: 502
+      likes: 33
+      views: 519
       reposts: 1
     - service: tg
       id: 1307
       published: 2026-09-01-20-14-45
-      updated: 2026-09-04-21-06-43
+      updated: 2026-09-05-22-25-19
       followers: 939
       likes: 45
-      views: 259
+      views: 278
       comments: !c |-
         Cx2AkpPLQnoGWVUsAACtZGlub3NhdXJzLWJhdKTwn5G5k8tCegZZUnyAAK1kaW5vc2F1cnMtYmF0
         pPCfmLsD
@@ -8308,7 +8308,7 @@
       id: Dc2AxIVifLD
       mediaId: '17909717964286540'
       published: 2026-09-03-23-39-44
-      updated: 2026-09-05-20-47-20
+      updated: 2026-09-05-22-25-13
       followers: 2063
       likes: 104
 2017-06-01-near-ald-velothi:
@@ -9208,10 +9208,10 @@
     - service: tg
       id: 487
       published: 2024-08-01-03-18-14
-      updated: 2026-08-29-20-19-41
+      updated: 2026-09-05-22-25-21
       followers: 423
       likes: 60
-      views: 826
+      views: 827
       comments: !c Cw6AkZPLQnkTOt+EgACscHVzdG90aXZldHJhpPCfmIID
     - service: vk
       id: 1663
@@ -10260,14 +10260,21 @@
     - service: vk
       id: 3539
       published: 2026-09-05-18-41-41
+      updated: 2026-09-05-22-25-18
       followers: 1442
+      likes: 14
+      views: 155
+      reposts: 1
+      comments: !c |-
+        G2YA+J0JdqwVwwzWPp7/9zYb+OiTjXzQCbIsCrSTUMTJfaAbK9GQo6UecXBE1CmHHmBAIba21uFd
+        ZvaWrRUBJiK0pA/gUHR53p9Xx4i7fefO0WpzScpgi3XC5ZEzzm5OnQkpJflSiFOY
     - service: tg
       id: 1313
       published: 2026-09-05-18-41-48
-      updated: 2026-09-05-20-47-13
+      updated: 2026-09-05-22-25-08
       followers: 944
-      likes: 19
-      views: 78
+      likes: 20
+      views: 88
     - service: mx
       id: '1788633714499'
       published: 2026-09-05-18-41-54
@@ -17824,9 +17831,9 @@
       id: Dc3sBY6IB-M
       mediaId: '18368170465213610'
       published: 2026-09-04-15-16-47
-      updated: 2026-09-05-20-47-18
+      updated: 2026-09-05-22-25-12
       followers: 2067
-      likes: 81
+      likes: 82
       comments: !c ixiAkZPLQnoG1feqgACmbmFtcmF3v0NvenksIGxpa2UgbW9zdCBvZiB0aGUgZ2FtZfCflKUD
 2017-12-03-upper-circles:
   title: Upper Circles
