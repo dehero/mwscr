@@ -52,7 +52,7 @@
     - service: vk
       id: 2514
       published: 2025-07-12-18-22-27
-      updated: 2026-08-29-09-29-08
+      updated: 2026-09-05-11-00-07
       followers: 1338
       likes: 43
       views: 539
@@ -720,7 +720,7 @@
     - service: vk
       id: 2412
       published: 2025-06-01-18-25-47
-      updated: 2026-08-29-09-30-05
+      updated: 2026-09-05-11-01-16
       followers: 1314
       likes: 65
       views: 630
@@ -732,7 +732,7 @@
     - service: tg
       id: 868
       published: 2025-06-01-18-25-50
-      updated: 2026-08-29-09-29-42
+      updated: 2026-09-05-11-00-23
       followers: 742
       likes: 62
       views: 604
@@ -902,7 +902,7 @@
     - service: vk
       id: 2489
       published: 2025-06-28-18-25-41
-      updated: 2026-08-29-09-29-28
+      updated: 2026-09-05-11-00-28
       followers: 1332
       likes: 65
       views: 526
@@ -910,10 +910,10 @@
     - service: tg
       id: 899
       published: 2025-06-28-18-25-44
-      updated: 2026-08-29-09-29-13
+      updated: 2026-09-05-10-59-58
       followers: 758
       likes: 65
-      views: 656
+      views: 657
       comments: !c |-
         G1YAiIzUUY370dbdUU5wwcPh8MuplQVWwC1sx4CTSkUINuBEB+OzidcBbA+4aiWMEJI75lvqtwGO
         S0GgYux5izj6aIOqZd/FHhp3mCFkoQoxHQ==
@@ -1117,10 +1117,10 @@
     - service: tg
       id: 1311
       published: 2026-09-03-19-00-51
-      updated: 2026-09-05-06-24-28
+      updated: 2026-09-05-10-59-40
       followers: 940
-      likes: 44
-      views: 194
+      likes: 46
+      views: 204
       comments: !c |-
         ix2AkZPLQnoGlSgdAACtY2FpdXMtY29zYWRlc9khaG93IHRoZSBwb25kcyBiZSBsaWtlIGluIHRo
         ZSBob29kAw==
@@ -1131,10 +1131,10 @@
     - service: vk
       id: 3534
       published: 2026-09-03-21-35-25
-      updated: 2026-09-05-06-24-29
+      updated: 2026-09-05-10-59-43
       followers: 1443
-      likes: 39
-      views: 364
+      likes: 40
+      views: 378
       reposts: 3
 2019-02-27-glassworkers-hall:
   title: Glassworker's Hall
@@ -2130,7 +2130,7 @@
     - service: vk
       id: 2485
       published: 2025-06-25-18-30-45
-      updated: 2026-08-29-09-29-33
+      updated: 2026-09-05-11-00-33
       followers: 1328
       likes: 80
       views: 1254
@@ -2138,10 +2138,10 @@
     - service: tg
       id: 896
       published: 2025-06-25-18-30-49
-      updated: 2026-08-29-09-29-16
+      updated: 2026-09-05-11-00-01
       followers: 754
       likes: 74
-      views: 1004
+      views: 1007
       comments: !c iw2AkZPLQnl6hjgZgACra2F3YXpha3kyMjOk8J+RgQM=
     - service: ig
       id: DLZ5KTksdmG
@@ -2234,17 +2234,17 @@
     - service: vk
       id: 2510
       published: 2025-07-09-18-24-37
-      updated: 2026-08-29-09-29-12
+      updated: 2026-09-05-11-00-11
       followers: 1335
       likes: 35
       views: 624
     - service: tg
       id: 912
       published: 2025-07-09-18-24-42
-      updated: 2026-08-29-09-29-03
+      updated: 2026-09-05-10-59-46
       followers: 758
       likes: 54
-      views: 606
+      views: 608
       comments: !c Cw2AkZPLQnl/0JrBgACqbWF4LXVwc2hlcqTwn5iYAw==
 2019-10-04-rainy-welcome:
   title: Rainy Welcome
@@ -3089,7 +3089,7 @@
     - service: vk
       id: 2362
       published: 2025-05-17-18-24-00
-      updated: 2026-08-29-09-30-26
+      updated: 2026-09-05-11-01-38
       followers: 1300
       likes: 67
       views: 579
@@ -3100,10 +3100,10 @@
     - service: tg
       id: 847
       published: 2025-05-17-19-13-22
-      updated: 2026-08-29-09-29-57
+      updated: 2026-09-05-11-00-54
       followers: 737
       likes: 69
-      views: 555
+      views: 556
 2019-10-22-the-wind-is-getting-stronger:
   title: The Wind Is Getting Stronger
   titleRu: Ветер крепчает

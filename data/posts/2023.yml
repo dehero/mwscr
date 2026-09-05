@@ -62,7 +62,7 @@
     - service: vk
       id: 2501
       published: 2025-07-02-18-24-04
-      updated: 2026-08-29-09-29-23
+      updated: 2026-09-05-11-00-23
       followers: 1333
       likes: 56
       views: 592
@@ -70,10 +70,10 @@
     - service: tg
       id: 905
       published: 2025-07-02-18-24-07
-      updated: 2026-08-29-09-29-10
+      updated: 2026-09-05-10-59-55
       followers: 760
       likes: 72
-      views: 650
+      views: 652
       comments: !c |-
         GzwBICyOx+2nFLWNo94R//xzsuFsoF93zs5Ug0TCuASCMLGS+zBtWyUVwVC9eYOhvxnrQ7aNb/1L
         MqfbBF8QXKZoKOjmYteYFgRFRLCI8rf+mO8GRxoQh+s2TzLrGODAGy4yuMkKG2SzJu63x/O35r7d
@@ -184,14 +184,14 @@
     - service: vk
       id: 2382
       published: 2025-05-24-18-18-58
-      updated: 2026-08-29-09-30-16
+      updated: 2026-09-05-11-01-30
       followers: 1305
       likes: 55
       views: 470
     - service: tg
       id: 857
       published: 2025-05-24-18-19-06
-      updated: 2026-08-29-09-29-50
+      updated: 2026-09-05-11-00-33
       followers: 739
       likes: 65
       views: 588
@@ -353,7 +353,7 @@
     - service: vk
       id: 2341
       published: 2025-05-06-18-24-44
-      updated: 2026-08-29-09-30-41
+      updated: 2026-09-05-11-01-50
       followers: 1281
       likes: 46
       views: 489
@@ -366,10 +366,10 @@
     - service: tg
       id: 832
       published: 2025-05-06-18-24-51
-      updated: 2026-08-29-09-30-10
+      updated: 2026-09-05-11-01-02
       followers: 738
       likes: 69
-      views: 727
+      views: 728
 2023-08-03-spinning-wheel:
   title: Spinning-Wheel
   titleRu: Прялка
@@ -840,9 +840,9 @@
       id: Dc4DOhWoLIW
       mediaId: '17991846414020266'
       published: 2026-09-04-18-39-32
-      updated: 2026-09-05-06-24-19
+      updated: 2026-09-05-10-59-32
       followers: 2067
-      likes: 53
+      likes: 60
 2023-08-11-waterside-encounters:
   title: Waterside Encounters
   titleRu: Встречи у берега
