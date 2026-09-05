@@ -475,18 +475,18 @@
     - service: vk
       id: 3493
       published: 2026-08-15-18-11-46
-      updated: 2026-08-29-20-17-31
+      updated: 2026-09-05-20-47-29
       followers: 1443
       likes: 77
-      views: 1252
-      reposts: 5
+      views: 1257
+      reposts: 4
     - service: tg
       id: 1290
       published: 2026-08-15-18-11-55
-      updated: 2026-08-29-20-17-33
+      updated: 2026-09-05-20-47-14
       followers: 925
       likes: 55
-      views: 437
+      views: 461
     - service: mx
       id: '1786817523183'
       published: 2026-08-15-18-12-03
@@ -1018,18 +1018,18 @@
     - service: vk
       id: 3478
       published: 2026-08-08-18-19-44
-      updated: 2026-08-29-20-17-32
+      updated: 2026-09-05-20-47-31
       followers: 1438
       likes: 70
-      views: 746
-      reposts: 4
+      views: 750
+      reposts: 3
     - service: tg
       id: 1283
       published: 2026-08-08-18-19-50
-      updated: 2026-08-29-20-17-33
+      updated: 2026-09-05-20-47-14
       followers: 923
       likes: 56
-      views: 445
+      views: 461
     - service: mx
       id: '1786213194892'
       published: 2026-08-08-18-19-54
@@ -1131,10 +1131,10 @@
     - service: vk
       id: 3534
       published: 2026-09-03-21-35-25
-      updated: 2026-09-05-18-39-03
+      updated: 2026-09-05-20-47-28
       followers: 1443
       likes: 40
-      views: 391
+      views: 397
       reposts: 3
 2019-02-27-glassworkers-hall:
   title: Glassworker's Hall
