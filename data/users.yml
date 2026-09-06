@@ -989,7 +989,7 @@ caius-cosades:
   profiles:
     - service: tg
       id: '6483220506'
-      updated: 2026-09-06-05-15-40
+      updated: 2026-09-06-18-42-39
       accessHash: '-5537197680289822260'
       username: Gatemate7
       botChatId: 6483220506
@@ -1720,7 +1720,7 @@ dropnz:
   profiles:
     - service: vk
       id: '142480'
-      updated: 2026-09-06-16-33-37
+      updated: 2026-09-06-18-42-40
       username: dropnz
       name: Вячеслав Беляев
       avatar: store:/avatars/vk-a7fd4520.jpg
@@ -2305,7 +2305,7 @@ gleb-zheltuhin:
   profiles:
     - service: vk
       id: '29014473'
-      updated: 2026-09-06-16-31-45
+      updated: 2026-09-06-18-42-38
       username: gleb_zheltuhin
       name: Глеб Желтухин
       avatar: store:/avatars/vk-971eefc1.jpg
@@ -5227,7 +5227,7 @@ sheloboff:
   profiles:
     - service: vk
       id: '344593993'
-      updated: 2026-09-06-16-31-45
+      updated: 2026-09-06-18-42-38
       username: sheloboff
       name: Роман Капичев
       avatar: store:/avatars/vk-834a1b3d.jpg

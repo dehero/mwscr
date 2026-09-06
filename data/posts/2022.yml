@@ -871,6 +871,14 @@
         zjy8s17sxOVXZWkZ0AHy9LgtSDhKE0w14RZ4GKbY9h0u/B4UDDGNEohuv4yHL4fnrFsVNm42mwvc
         Yjkk8SlRM/lIQEomsjFSbsOXc3M9CPvj91M8UkznUot/zxp70w7s4jOZSFqvhC2rUELjgJtYHgJh
         rtPjJtemQn9aMMSDx0maICa4Dhsk2ni4jHY=
+    - service: tg
+      id: 1314
+      published: 2026-09-06-18-43-15
+      followers: 944
+    - service: mx
+      id: '1788720198982'
+      published: 2026-09-06-18-43-19
+      followers: 32
 2022-07-08-squad:
   title: Squad
   titleRu: Отряд
