@@ -6683,21 +6683,21 @@
     - service: vk
       id: 3511
       published: 2026-08-22-18-12-26
-      updated: 2026-08-30-06-00-22
+      updated: 2026-09-06-09-47-50
       followers: 1445
-      likes: 60
-      views: 650
-      reposts: 2
+      likes: 61
+      views: 662
+      reposts: 1
       comments: !c |-
         CyqAkZPLQnoCwgoPgACqc2VyZ2V5LWItMtk90JHQvtC70YzRiNC1INC/0YDQuNCy0YvQuiDQuiDR
         jdGC0L7QuSAi0LzRg9GC0L3QvtC5IiDQstC+0LTQtQM=
     - service: tg
       id: 1297
       published: 2026-08-22-18-12-34
-      updated: 2026-08-30-06-00-24
+      updated: 2026-09-06-09-47-52
       followers: 936
       likes: 65
-      views: 351
+      views: 446
       comments: !c |-
         GzkBYByH6UbjeV7Y2UgRFDVdJkr9+MSK0mlFGSIktTkGoeoedIflLTWThVaEYjOhvee2G/5Y7thf
         8RfcXRBUYlFbnOgTZm1BT0805ZZSWpSGUZCHmknQbtcb1m65MbWDHD4WvZO5fX+FtQizaq3ldZot
@@ -8897,18 +8897,18 @@
     - service: vk
       id: 3418
       published: 2026-07-11-18-42-21
-      updated: 2026-08-30-06-00-26
+      updated: 2026-09-06-09-47-53
       followers: 1432
       likes: 45
-      views: 664
-      reposts: 2
+      views: 667
+      reposts: 1
     - service: tg
       id: 1256
       published: 2026-07-11-18-42-31
-      updated: 2026-08-30-06-00-27
+      updated: 2026-09-06-09-47-55
       followers: 915
       likes: 53
-      views: 475
+      views: 481
     - service: mx
       id: '1783795358411'
       published: 2026-07-11-18-42-38
@@ -10260,21 +10260,22 @@
     - service: vk
       id: 3539
       published: 2026-09-05-18-41-41
-      updated: 2026-09-06-05-14-14
+      updated: 2026-09-06-09-47-44
       followers: 1442
-      likes: 21
-      views: 222
+      likes: 32
+      views: 305
       reposts: 2
       comments: !c |-
-        G2YA+J0JdqwVwwzWPp7/9zYb+OiTjXzQCbIsCrSTUMTJfaAbK9GQo6UecXBE1CmHHmBAIba21uFd
-        ZvaWrRUBJiK0pA/gUHR53p9Xx4i7fefO0WpzScpgi3XC5ZEzzm5OnQkpJflSiFOY
+        G5YA4J0Htu1i7dBiEnteZ82QLHdP+BwG0vZAzfNEf7+1BUlLKIkkuWvo6DnKb9uZQeN3j6AYSJ66
+        PyJDIurs6kCvgZGIEKi2C3ayrfvfyjG43DGKghL9anuJDMoxGXD1WBNbNQ88KtxZQ2dwqQHLOVyc
+        cqZPzRJ5XRBSRqmNc1kp5nAG
     - service: tg
       id: 1313
       published: 2026-09-05-18-41-48
-      updated: 2026-09-06-05-14-03
+      updated: 2026-09-06-09-47-35
       followers: 944
-      likes: 29
-      views: 109
+      likes: 36
+      views: 124
     - service: mx
       id: '1788633714499'
       published: 2026-09-05-18-41-54
@@ -14797,9 +14798,9 @@
       id: Dc7PP81GqKG
       mediaId: '18091231781170168'
       published: 2026-09-06-00-22-19
-      updated: 2026-09-06-05-14-04
+      updated: 2026-09-06-09-47-41
       followers: 2070
-      likes: 71
+      likes: 104
 2017-10-06-omani-manor:
   title: Omani Manor
   titleRu: Поместье Омани
@@ -15278,18 +15279,18 @@
     - service: vk
       id: 3529
       published: 2026-08-31-00-02-22
-      updated: 2026-09-05-06-24-31
+      updated: 2026-09-06-09-47-47
       followers: 1442
       likes: 48
-      views: 554
+      views: 561
       reposts: 3
     - service: tg
       id: 1306
       published: 2026-08-31-00-02-30
-      updated: 2026-09-05-06-24-29
+      updated: 2026-09-06-09-47-49
       followers: 939
       likes: 56
-      views: 339
+      views: 363
       comments: !c |-
         G5MA+I3UVnOUNyGCf+xGJ/5Bz+j4oLW21lpWYi2hiJP3MA0kdZs5W7twfywiGIo26UcUpvCDQ24X
         TEQD4IhCCmtswIlIIo/zeuJRam0h3Ou+TeM8LP1NGHAcYNwoZhnFlOQmbVS2me1/Q84pv4CgkgXI
@@ -17838,7 +17839,7 @@
       id: Dc3sBY6IB-M
       mediaId: '18368170465213610'
       published: 2026-09-04-15-16-47
-      updated: 2026-09-06-05-14-10
+      updated: 2026-09-06-09-47-45
       followers: 2067
       likes: 85
       comments: !c ixiAkZPLQnoG1feqgACmbmFtcmF3v0NvenksIGxpa2UgbW9zdCBvZiB0aGUgZ2FtZfCflKUD
