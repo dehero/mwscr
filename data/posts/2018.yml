@@ -3177,7 +3177,7 @@
     - service: vk
       id: 1434
       published: 2024-03-03-18-16-44
-      updated: 2026-08-30-00-51-25
+      updated: 2026-09-06-05-14-41
       followers: 894
       likes: 34
       views: 303
@@ -3185,7 +3185,7 @@
     - service: tg
       id: 334
       published: 2024-03-03-18-16-50
-      updated: 2026-08-30-00-51-18
+      updated: 2026-09-06-05-14-36
       followers: 341
       likes: 64
       views: 544
@@ -9935,6 +9935,11 @@
       id: '1784657276933'
       published: 2026-07-21-18-07-57
       followers: 23
+    - service: ig
+      id: Dc7w4_WDDo4
+      mediaId: '18625520851042391'
+      published: 2026-09-06-05-16-15
+      followers: 2076
 2018-07-06-druscashti:
   title: Druscashti
   titleRu: Друскашти
@@ -16716,9 +16721,9 @@
       id: Dc2opfblYaI
       mediaId: '18475712821112445'
       published: 2026-09-04-05-28-10
-      updated: 2026-09-06-00-19-38
+      updated: 2026-09-06-05-14-11
       followers: 2065
-      likes: 67
+      likes: 68
 2018-11-08-bittercup:
   title: Bittercup
   titleRu: Горькая Чаша
