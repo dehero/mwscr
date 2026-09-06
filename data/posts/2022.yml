@@ -874,10 +874,10 @@
     - service: tg
       id: 1314
       published: 2026-09-06-18-43-15
-      updated: 2026-09-06-20-54-23
+      updated: 2026-09-06-22-30-30
       followers: 944
       likes: 31
-      views: 83
+      views: 91
     - service: mx
       id: '1788720198982'
       published: 2026-09-06-18-43-19
@@ -885,7 +885,11 @@
     - service: vk
       id: 3543
       published: 2026-09-06-20-56-49
+      updated: 2026-09-06-22-30-30
       followers: 1442
+      likes: 12
+      views: 79
+      reposts: 1
 2022-07-08-squad:
   title: Squad
   titleRu: Отряд

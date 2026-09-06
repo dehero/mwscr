@@ -1201,7 +1201,7 @@ crazycyrodiliccat:
   profiles:
     - service: vk
       id: '90554843'
-      updated: 2026-09-06-16-33-47
+      updated: 2026-09-06-22-32-31
       username: crazycyrodiliccat
       name: Александр Невский
       avatar: store:/avatars/vk-0db1296b.jpg
@@ -1443,14 +1443,14 @@ dehero:
       avatar: store:/avatars/gh-c8afe641.jpg
     - service: vk
       id: '3652910'
-      updated: 2026-09-06-16-33-06
+      updated: 2026-09-06-22-31-20
       username: dehero
       name: Антон Курьянов
       avatar: store:/avatars/vk-5356f76e.jpg
     - type: channel
       service: vk
       id: '138249959'
-      updated: 2026-09-06-20-56-28
+      updated: 2026-09-06-22-31-53
       username: mwscr
       name: Morrowind Screenshots
       avatar: store:/avatars/vk-8e97fd4f.jpg
@@ -1585,7 +1585,7 @@ dinosaurs-bat:
   profiles:
     - service: tg
       id: '8717777839'
-      updated: 2026-09-06-09-47-51
+      updated: 2026-09-06-22-30-42
       accessHash: '-5750694971944648780'
       username: dinosaurs_bat
       name: ^^Bat🦇
@@ -2305,7 +2305,7 @@ gleb-zheltuhin:
   profiles:
     - service: vk
       id: '29014473'
-      updated: 2026-09-06-20-54-32
+      updated: 2026-09-06-22-30-43
       username: gleb_zheltuhin
       name: Глеб Желтухин
       avatar: store:/avatars/vk-971eefc1.jpg
@@ -2791,7 +2791,7 @@ its-okey-dude:
   profiles:
     - service: vk
       id: '381549157'
-      updated: 2026-08-30-21-43-31
+      updated: 2026-09-06-22-31-36
       username: its_okey_dude
       name: Николай Гачимучев
       avatar: store:/avatars/vk-08ebd553.jpg
@@ -2812,7 +2812,7 @@ ivan-scott:
   profiles:
     - service: tg
       id: '6586563421'
-      updated: 2026-09-04-06-38-28
+      updated: 2026-09-06-22-30-46
       accessHash: '2286720855402997925'
       name: Ivan Scott
 ivan-uralov:
@@ -3270,7 +3270,7 @@ kurov-alexander:
   profiles:
     - service: vk
       id: '233557'
-      updated: 2026-08-31-00-00-07
+      updated: 2026-09-06-22-32-25
       username: kurov.alexander
       name: Александр Куров
       avatar: store:/avatars/vk-c64fc9de.jpg
@@ -3286,7 +3286,7 @@ kydinov91:
   profiles:
     - service: vk
       id: '36104583'
-      updated: 2026-09-06-20-56-15
+      updated: 2026-09-06-22-32-07
       username: kydinov91
       name: Илья Кудинов
       avatar: store:/avatars/vk-03d8a48a.jpg
@@ -3483,7 +3483,7 @@ lycanthropy:
   profiles:
     - service: vk
       id: '5386912'
-      updated: 2026-08-31-10-12-43
+      updated: 2026-09-06-22-32-02
       username: lycanthropy
       name: Филипп Суворов
       avatar: store:/avatars/vk-8642e0b8.jpg
@@ -3678,7 +3678,7 @@ mbdtsmo:
   profiles:
     - service: tg
       id: '5093097514'
-      updated: 2026-09-06-09-47-54
+      updated: 2026-09-06-22-30-46
       accessHash: '-613358669572386334'
       username: mbdtsmo
       name: M Bdtsmo
@@ -4563,7 +4563,7 @@ pinchinium:
   profiles:
     - service: vk
       id: '178716135'
-      updated: 2026-09-06-09-49-29
+      updated: 2026-09-06-22-31-41
       username: pinchinium
       name: Агзам Мубаракшин
       avatar: store:/avatars/vk-77942374.jpg
@@ -5178,7 +5178,7 @@ sergey-b-2:
   profiles:
     - service: vk
       id: '1077446394'
-      updated: 2026-09-06-16-31-47
+      updated: 2026-09-06-22-30-48
       username: id1077446394
       name: Сергей Б
       avatar: store:/avatars/vk-f5b20109.jpg
@@ -5194,7 +5194,7 @@ sergey-venkov:
   profiles:
     - service: vk
       id: '217443112'
-      updated: 2026-09-04-21-07-44
+      updated: 2026-09-06-22-30-48
       username: id217443112
       name: Сергей Венков
       avatar: store:/avatars/vk-a77d1a73.jpg
@@ -5227,7 +5227,7 @@ sheloboff:
   profiles:
     - service: vk
       id: '344593993'
-      updated: 2026-09-06-20-54-31
+      updated: 2026-09-06-22-30-42
       username: sheloboff
       name: Роман Капичев
       avatar: store:/avatars/vk-834a1b3d.jpg
@@ -6268,7 +6268,7 @@ user-34:
   profiles:
     - service: vk
       id: '266402374'
-      updated: 2026-08-30-21-43-55
+      updated: 2026-09-06-22-32-00
       username: id266402374
       avatar: store:/avatars/vk-7f160215.jpg
       deleted: true
@@ -6786,7 +6786,7 @@ xxxkamaz2008xxx:
   profiles:
     - service: tg
       id: '476274825'
-      updated: 2026-09-05-20-48-22
+      updated: 2026-09-06-22-30-47
       accessHash: '6278268179581961642'
       name: initramfs-linux-cachyos-bore-custom.img
 xxxxvns:
