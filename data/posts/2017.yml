@@ -5374,18 +5374,18 @@
     - service: vk
       id: 3481
       published: 2026-08-10-18-40-21
-      updated: 2026-08-31-22-06-43
+      updated: 2026-09-07-23-06-17
       followers: 1438
       likes: 56
-      views: 817
+      views: 818
       reposts: 3
     - service: tg
       id: 1285
       published: 2026-08-10-18-40-30
-      updated: 2026-08-31-22-06-52
+      updated: 2026-09-07-23-06-15
       followers: 922
       likes: 62
-      views: 531
+      views: 553
       comments: !c CxaAkZPLQnn+9LxKAACrbGVuaW4xNDAyMDC10K3RhSwg0LrRgNCw0YHQuNCy0L4uAw==
     - service: mx
       id: '1786387237297'
@@ -7197,18 +7197,18 @@
     - service: vk
       id: 3530
       published: 2026-09-01-20-14-38
-      updated: 2026-09-06-22-30-45
+      updated: 2026-09-07-23-06-16
       followers: 1442
-      likes: 33
-      views: 532
+      likes: 35
+      views: 547
       reposts: 1
     - service: tg
       id: 1307
       published: 2026-09-01-20-14-45
-      updated: 2026-09-06-22-30-42
+      updated: 2026-09-07-23-06-14
       followers: 939
       likes: 47
-      views: 305
+      views: 331
       comments: !c |-
         Cx2AkpPLQnoGWVUsAACtZGlub3NhdXJzLWJhdKTwn5G5k8tCegZZUnyAAK1kaW5vc2F1cnMtYmF0
         pPCfmLsD
@@ -8307,9 +8307,9 @@
       id: Dc2AxIVifLD
       mediaId: '17909717964286540'
       published: 2026-09-03-23-39-44
-      updated: 2026-09-06-22-30-36
+      updated: 2026-09-07-23-06-21
       followers: 2063
-      likes: 111
+      likes: 119
 2017-06-01-near-ald-velothi:
   title: Near Ald Velothi
   titleRu: У Альд Велоти
@@ -10096,9 +10096,9 @@
       id: Dc1yh6GAJOJ
       mediaId: '18465401713117312'
       published: 2026-09-03-21-35-10
-      updated: 2026-09-06-20-54-34
+      updated: 2026-09-07-23-06-22
       followers: 2063
-      likes: 130
+      likes: 138
 2017-07-08-saint-sotha:
   title: Saint Sotha
   titleRu: Святой Сота
@@ -13074,9 +13074,9 @@
       id: Dc-Wruoo1vk
       mediaId: '18189167761363268'
       published: 2026-09-07-05-25-02
-      updated: 2026-09-07-20-13-50
+      updated: 2026-09-07-23-06-17
       followers: 2088
-      likes: 100
+      likes: 108
 2017-09-05-martyr-of-red-mountain:
   title: Martyr of Red Mountain
   titleRu: Мученик Красной Горы
@@ -14804,7 +14804,7 @@
       id: Dc7PP81GqKG
       mediaId: '18091231781170168'
       published: 2026-09-06-00-22-19
-      updated: 2026-09-07-20-13-54
+      updated: 2026-09-07-23-06-20
       followers: 2070
       likes: 131
 2017-10-06-omani-manor:

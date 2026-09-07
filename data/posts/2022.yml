@@ -874,10 +874,10 @@
     - service: tg
       id: 1314
       published: 2026-09-06-18-43-15
-      updated: 2026-09-07-20-13-49
+      updated: 2026-09-07-23-06-13
       followers: 944
-      likes: 50
-      views: 156
+      likes: 54
+      views: 188
     - service: mx
       id: '1788720198982'
       published: 2026-09-06-18-43-19
@@ -885,10 +885,10 @@
     - service: vk
       id: 3543
       published: 2026-09-06-20-56-49
-      updated: 2026-09-07-20-13-50
+      updated: 2026-09-07-23-06-13
       followers: 1442
       likes: 61
-      views: 442
+      views: 458
       reposts: 5
 2022-07-08-squad:
   title: Squad
