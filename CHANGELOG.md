@@ -2,6 +2,15 @@
 
 All notable changes to this project will be documented in this file.
 
+## [3.2.0](https://github.com/dehero/mwscr/compare/v3.1.4...v3.2.0) (2026-09-07)
+
+### Features
+
+- implement S3 store manager
+  ([7557c44](https://github.com/dehero/mwscr/commit/7557c448f70bbb17821a16257adcb2e78640c2d4))
+- replace site store with S3 store
+  ([da264c8](https://github.com/dehero/mwscr/commit/da264c85791b1d4ec36a3b040774bb6b6c35490e))
+
 ## [3.1.4](https://github.com/dehero/mwscr/compare/v3.1.3...v3.1.4) (2026-09-04)
 
 ### Bug Fixes
