@@ -2,6 +2,12 @@
 
 All notable changes to this project will be documented in this file.
 
+## [3.2.2](https://github.com/dehero/mwscr/compare/v3.2.1...v3.2.2) (2026-09-07)
+
+### Continuous Integration
+
+- add S3 store secret key ([5893682](https://github.com/dehero/mwscr/commit/58936824ccc856368b648e9bbcc532fd7fb2fc60))
+
 ## [3.2.1](https://github.com/dehero/mwscr/compare/v3.2.0...v3.2.1) (2026-09-07)
 
 ### Continuous Integration
