@@ -1450,7 +1450,7 @@ dehero:
     - type: channel
       service: vk
       id: '138249959'
-      updated: 2026-09-07-00-26-15
+      updated: 2026-09-07-05-22-31
       username: mwscr
       name: Morrowind Screenshots
       avatar: store:/avatars/vk-8e97fd4f.jpg
@@ -2305,7 +2305,7 @@ gleb-zheltuhin:
   profiles:
     - service: vk
       id: '29014473'
-      updated: 2026-09-07-00-25-51
+      updated: 2026-09-07-05-22-32
       username: gleb_zheltuhin
       name: Глеб Желтухин
       avatar: store:/avatars/vk-971eefc1.jpg
@@ -2669,10 +2669,10 @@ ilya-kolobov:
   profiles:
     - service: vk
       id: '1119473440'
-      updated: 2026-08-31-00-00-02
+      updated: 2026-09-07-05-22-31
       username: id1119473440
       name: Илья Колобов
-      avatar: store:/avatars/vk-07e9d15a.jpg
+      avatar: store:/avatars/vk-affb8974.jpg
 ilya-nikitin:
   profiles:
     - service: vk
@@ -2819,7 +2819,7 @@ ivan-uralov:
   profiles:
     - service: vk
       id: '16497155'
-      updated: 2026-09-07-00-25-53
+      updated: 2026-09-07-05-22-31
       username: id16497155
       name: Иван Уралов
       avatar: store:/avatars/vk-51775759.jpg
@@ -3286,7 +3286,7 @@ kydinov91:
   profiles:
     - service: vk
       id: '36104583'
-      updated: 2026-09-07-00-27-42
+      updated: 2026-09-07-05-22-39
       username: kydinov91
       name: Илья Кудинов
       avatar: store:/avatars/vk-03d8a48a.jpg
@@ -4539,7 +4539,7 @@ petrushkachord:
   profiles:
     - service: vk
       id: '370043102'
-      updated: 2026-09-07-00-27-46
+      updated: 2026-09-07-05-22-52
       username: petrushkachord
       name: Данила Силкин
       avatar: store:/avatars/vk-166e4c44.jpg
@@ -5227,7 +5227,7 @@ sheloboff:
   profiles:
     - service: vk
       id: '344593993'
-      updated: 2026-09-07-00-25-51
+      updated: 2026-09-07-05-22-28
       username: sheloboff
       name: Роман Капичев
       avatar: store:/avatars/vk-834a1b3d.jpg
