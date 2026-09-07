@@ -51,6 +51,7 @@ jobs:
       S3_SECRET_ACCESS_KEY: '${{ secrets.S3_SECRET_ACCESS_KEY }}'
       S3_PUBLIC_URL: '${{ secrets.S3_PUBLIC_URL }}'
       S3_STORE_PATH: '${{ secrets.S3_STORE_PATH }}'
+      S3_STORE_SECRET_KEY: '${{ secrets.S3_STORE_SECRET_KEY }}'
       ACTIONS_ALLOW_USE_UNSECURE_NODE_VERSION: true
     steps:
       - name: Checkout
