@@ -1,17 +1,14 @@
 import type { Store } from '../entities/store.js';
-import { site } from '../services/site.js';
 
-/**
- * @deprecated Use S3 storage instead
- */
-export abstract class AbstractSiteStore implements Store {
-  readonly name = 'Site';
+export abstract class AbstractS3Store implements Store {
+  readonly name = 'S3';
 
   readonly include = [
     'shots/*.png',
     'drawings/*.{png,webp,jpg}',
     'wallpapers/*.png',
-    'videos/*.{jpg,webm}',
+    // TODO: mp4 and avi resources are listed here just to allow transforming URL to webm
+    'videos/*.{mp4,avi,jpg,webm}',
     'news/*.{jpg,png}',
     'photoshops/*.{jpg,png}',
     'snapshots/*.{jpg,png}',
@@ -56,15 +53,9 @@ export abstract class AbstractSiteStore implements Store {
     return name.replace(secretFolderPattern, '');
   }
 
-  getPublicUrl(path: string): string | undefined {
-    const realPath = this.toRealPath(path);
-    if (!realPath) {
-      return undefined;
-    }
-    return `${site.origin}/store/${realPath}`;
-  }
+  abstract getPublicUrl(path: string): string | undefined;
 
-  getPreviewUrl(path: string) {
-    return `${site.origin}/previews/${path.replace(/(.*)\..*/, '/previews/$1.avif')}`;
+  getPreviewUrl(_path: string) {
+    return undefined;
   }
 }

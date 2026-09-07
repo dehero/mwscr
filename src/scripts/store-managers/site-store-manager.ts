@@ -6,6 +6,9 @@ import type { StoreItem, StoreManager } from '../../core/entities/store.js';
 import { AbstractSiteStore } from '../../core/stores/abstract-site-store.js';
 import { streamToBuffer } from '../utils/data-utils.js';
 
+/**
+ * @deprecated Use S3 storage instead
+ */
 export class SiteStoreManager extends AbstractSiteStore implements StoreManager {
   private client: SFTPClient | undefined;
   private disconnectTimer: NodeJS.Timeout | undefined;

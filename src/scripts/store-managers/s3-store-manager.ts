@@ -11,14 +11,17 @@ import {
 import { Upload } from '@aws-sdk/lib-storage';
 import { Readable } from 'stream';
 import type { StoreItem, StoreManager } from '../../core/entities/store.js';
+import { AbstractS3Store } from '../../core/stores/abstract-s3-store.js';
 
-export class S3StoreManager implements StoreManager {
+export class S3StoreManager extends AbstractS3Store implements StoreManager {
   readonly name = 'S3';
-  // Skip this store when no bucket is configured.
-  readonly include = process.env.S3_BUCKET ? undefined : [];
 
   private client: S3Client | undefined;
   private dirCache: Map<string, StoreItem[]> = new Map();
+
+  protected getSecretKey() {
+    return process.env.S3_STORE_SECRET_KEY;
+  }
 
   private connect() {
     const { S3_BUCKET: bucket, S3_STORE_PATH: storePath = '' } = process.env;
@@ -51,7 +54,11 @@ export class S3StoreManager implements StoreManager {
 
   private key(path: string) {
     const { path: root } = this.connect();
-    return posix.join(root, path).replace(/^\.\//, '');
+    const realPath = this.toRealPath(path);
+    if (!realPath) {
+      throw new Error(`Failed to create real path for "${path}".`);
+    }
+    return posix.join(root, realPath).replace(/^\.\//, '');
   }
 
   private invalidate(...paths: string[]) {
@@ -110,10 +117,6 @@ export class S3StoreManager implements StoreManager {
     return base ? `${base.replace(/\/$/, '')}/${this.key(path)}` : undefined;
   }
 
-  getPreviewUrl(_path: string, _width?: number, _height?: number): string | undefined {
-    return undefined;
-  }
-
   async move(from: string, to: string): Promise<void> {
     await this.copy(from, to);
     await this.remove(from);
@@ -156,7 +159,8 @@ export class S3StoreManager implements StoreManager {
       result.push(
         ...(response.CommonPrefixes ?? []).map((item) => {
           const key = item.Prefix?.slice(prefix.length).replace(/\/$/, '') ?? '';
-          return { name: key, url: `store:/${posix.join(path, key)}`, isDirectory: true };
+          const name = this.unprotectFolderName(key);
+          return { name, url: `store:/${posix.join(path, name)}`, isDirectory: true };
         }),
         ...(response.Contents ?? [])
           .filter((item) => item.Key !== prefix)
