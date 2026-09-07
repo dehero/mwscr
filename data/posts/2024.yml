@@ -408,6 +408,18 @@
       followers: 349
       likes: 60
       views: 539
+    - service: vk
+      id: 3544
+      published: 2026-09-07-20-15-13
+      followers: 1441
+    - service: tg
+      id: 1315
+      published: 2026-09-07-20-15-17
+      followers: 944
+    - service: mx
+      id: '1788812120345'
+      published: 2026-09-07-20-15-20
+      followers: 32
 2024-03-11-gray-thorns:
   title: Gray Thorns
   titleRu: Серые шипы
@@ -2758,18 +2770,18 @@
     - service: vk
       id: 3532
       published: 2026-09-02-18-13-54
-      updated: 2026-09-06-16-31-48
+      updated: 2026-09-07-20-13-54
       followers: 1443
-      likes: 49
-      views: 508
+      likes: 52
+      views: 526
       reposts: 4
     - service: tg
       id: 1309
       published: 2026-09-02-18-14-02
-      updated: 2026-09-06-16-31-38
+      updated: 2026-09-07-20-13-53
       followers: 939
-      likes: 53
-      views: 312
+      likes: 55
+      views: 333
     - service: mx
       id: '1788372847916'
       published: 2026-09-02-18-14-08
