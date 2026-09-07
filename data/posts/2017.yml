@@ -10259,10 +10259,10 @@
     - service: vk
       id: 3539
       published: 2026-09-05-18-41-41
-      updated: 2026-09-07-10-52-18
+      updated: 2026-09-07-16-09-57
       followers: 1442
-      likes: 50
-      views: 448
+      likes: 51
+      views: 475
       reposts: 2
       comments: !c |-
         G5YA4J0Htu1i7dBiEnteZ82QLHdP+BwG0vZAzfNEf7+1BUlLKIkkuWvo6DnKb9uZQeN3j6AYSJ66
@@ -10271,10 +10271,10 @@
     - service: tg
       id: 1313
       published: 2026-09-05-18-41-48
-      updated: 2026-09-07-10-52-16
+      updated: 2026-09-07-16-09-56
       followers: 944
       likes: 51
-      views: 193
+      views: 211
     - service: mx
       id: '1788633714499'
       published: 2026-09-05-18-41-54
@@ -13074,9 +13074,9 @@
       id: Dc-Wruoo1vk
       mediaId: '18189167761363268'
       published: 2026-09-07-05-25-02
-      updated: 2026-09-07-10-52-15
+      updated: 2026-09-07-16-10-02
       followers: 2088
-      likes: 63
+      likes: 95
 2017-09-05-martyr-of-red-mountain:
   title: Martyr of Red Mountain
   titleRu: Мученик Красной Горы
@@ -14804,9 +14804,9 @@
       id: Dc7PP81GqKG
       mediaId: '18091231781170168'
       published: 2026-09-06-00-22-19
-      updated: 2026-09-07-10-52-20
+      updated: 2026-09-07-16-10-05
       followers: 2070
-      likes: 128
+      likes: 129
 2017-10-06-omani-manor:
   title: Omani Manor
   titleRu: Поместье Омани
@@ -17845,9 +17845,9 @@
       id: Dc3sBY6IB-M
       mediaId: '18368170465213610'
       published: 2026-09-04-15-16-47
-      updated: 2026-09-06-13-14-32
+      updated: 2026-09-07-16-10-07
       followers: 2067
-      likes: 87
+      likes: 91
       comments: !c ixiAkZPLQnoG1feqgACmbmFtcmF3v0NvenksIGxpa2UgbW9zdCBvZiB0aGUgZ2FtZfCflKUD
 2017-12-03-upper-circles:
   title: Upper Circles
