@@ -19,7 +19,7 @@
     - service: vk
       id: 3
       published: 2017-01-22
-      updated: 2026-08-31-10-12-44
+      updated: 2026-09-07-10-54-17
       followers: 4
       likes: 4
       views: 57
@@ -79,7 +79,7 @@
     - service: vk
       id: 4
       published: 2017-01-22
-      updated: 2026-08-31-10-12-45
+      updated: 2026-09-07-10-54-18
       followers: 4
       likes: 2
       views: 54
@@ -141,7 +141,7 @@
     - service: vk
       id: 5
       published: 2017-01-22
-      updated: 2026-08-31-10-12-46
+      updated: 2026-09-07-10-54-19
       followers: 4
       likes: 3
       views: 56
@@ -200,7 +200,7 @@
     - service: vk
       id: 6
       published: 2017-01-22
-      updated: 2026-08-31-10-12-47
+      updated: 2026-09-07-10-54-20
       likes: 4
       views: 55
     - service: ig
@@ -623,7 +623,7 @@
     - service: vk
       id: 3419
       published: 2026-07-12-20-43-11
-      updated: 2026-08-31-10-10-49
+      updated: 2026-09-07-10-52-26
       followers: 1432
       likes: 59
       views: 671
