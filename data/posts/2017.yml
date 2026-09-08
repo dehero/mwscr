@@ -2395,7 +2395,7 @@
     - service: vk
       id: 3469
       published: 2026-08-03-19-16-07
-      updated: 2026-09-01-06-53-46
+      updated: 2026-09-08-11-49-51
       followers: 1436
       likes: 47
       views: 564
@@ -2403,10 +2403,10 @@
     - service: tg
       id: 1279
       published: 2026-08-03-19-16-14
-      updated: 2026-09-01-06-53-53
+      updated: 2026-09-08-11-49-49
       followers: 922
-      likes: 56
-      views: 486
+      likes: 57
+      views: 506
     - service: mx
       id: '1785784579892'
       published: 2026-08-03-19-16-19
@@ -13074,9 +13074,13 @@
       id: Dc-Wruoo1vk
       mediaId: '18189167761363268'
       published: 2026-09-07-05-25-02
-      updated: 2026-09-08-06-38-25
+      updated: 2026-09-08-11-49-51
       followers: 2088
-      likes: 116
+      likes: 123
+      comments: !c |-
+        G9UAgBwJNi7xcbJmO7r5mOAZNDmgH7v5Y4GFiYReTtoup4CQsC0PHL5ACiyMs6TLwpCz6aBO1oX6
+        BeM24X29rnWeEPqoi1uq/1lGAgAsF3W4VSAxwEJG7/XcfFBc76AP8La62B6sE+zcuKMZ30/nTkd5
+        XQIF8TLJfTx27oCXb/+pOaGvAEeyxl5/wqlMkp6XQaozblBw
 2017-09-05-martyr-of-red-mountain:
   title: Martyr of Red Mountain
   titleRu: Мученик Красной Горы
