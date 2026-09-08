@@ -1117,10 +1117,10 @@
     - service: tg
       id: 1311
       published: 2026-09-03-19-00-51
-      updated: 2026-09-07-20-13-52
+      updated: 2026-09-08-22-06-10
       followers: 940
-      likes: 56
-      views: 281
+      likes: 60
+      views: 315
       comments: !c |-
         ix2AkZPLQnoGlSgdAACtY2FpdXMtY29zYWRlc9khaG93IHRoZSBwb25kcyBiZSBsaWtlIGluIHRo
         ZSBob29kAw==
