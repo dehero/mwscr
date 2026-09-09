@@ -1,3 +1,7 @@
+0menkiller:
+  profiles:
+    - service: ig
+      username: 0menkiller
 15vmg:
   profiles:
     - service: ig
@@ -1454,7 +1458,7 @@ dehero:
     - type: channel
       service: vk
       id: '138249959'
-      updated: 2026-09-07-05-22-31
+      updated: 2026-09-09-14-51-42
       username: mwscr
       name: Morrowind Screenshots
       avatar: store:/avatars/vk-8e97fd4f.jpg
@@ -2309,7 +2313,7 @@ gleb-zheltuhin:
   profiles:
     - service: vk
       id: '29014473'
-      updated: 2026-09-09-10-14-40
+      updated: 2026-09-09-14-51-42
       username: gleb_zheltuhin
       name: Глеб Желтухин
       avatar: store:/avatars/vk-971eefc1.jpg
@@ -2414,6 +2418,10 @@ gutzzerk:
       username: gutzzerk
       name: Сард Шрафц
       avatar: store:/avatars/vk-5052bc05.jpg
+gvxni08:
+  profiles:
+    - service: ig
+      username: gvxni08
 gxdflesh:
   profiles:
     - service: tg
@@ -3909,6 +3917,10 @@ moto-jn:
       username: moto_shinobi
       name: EN
       avatar: store:/avatars/tg-2491406577776134927.jpg
+mr-coloradobomber:
+  profiles:
+    - service: ig
+      username: mr.coloradobomber
 mr-notlob:
   profiles:
     - service: tg
@@ -5183,7 +5195,7 @@ sergey-b-2:
   profiles:
     - service: vk
       id: '1077446394'
-      updated: 2026-09-09-10-14-40
+      updated: 2026-09-09-14-51-42
       username: id1077446394
       name: Сергей Б
       avatar: store:/avatars/vk-f5b20109.jpg
@@ -5550,7 +5562,7 @@ spearow-crow:
   profiles:
     - service: tg
       id: '927392851'
-      updated: 2026-08-12-11-37-37
+      updated: 2026-09-09-14-53-55
       accessHash: '-2683889022174722918'
       username: SpearowCrow
       botChatId: 927392851
@@ -6850,7 +6862,7 @@ yellow-submarine:
   profiles:
     - service: vk
       id: '21865013'
-      updated: 2026-09-08-01-41-14
+      updated: 2026-09-09-14-51-44
       username: yellowsubm
       name: Yellow Submarine
       avatar: store:/avatars/vk-8254b201.jpg
