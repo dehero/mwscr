@@ -487,7 +487,7 @@ ansis:
   profiles:
     - service: tg
       id: '517050552'
-      updated: 2026-09-08-15-29-26
+      updated: 2026-09-09-00-47-39
       accessHash: '5231096655311395455'
       username: ansis
       name: ansis
@@ -610,7 +610,7 @@ arya-stark:
   profiles:
     - service: vk
       id: '820702664'
-      updated: 2026-09-08-01-41-14
+      updated: 2026-09-09-00-47-53
       username: id820702664
       name: Арья Старк
       avatar: store:/avatars/vk-689aa89d.jpg
@@ -1589,7 +1589,7 @@ dinosaurs-bat:
   profiles:
     - service: tg
       id: '8717777839'
-      updated: 2026-09-07-23-06-14
+      updated: 2026-09-09-00-47-38
       accessHash: '-5750694971944648780'
       username: dinosaurs_bat
       name: ^^Bat🦇
@@ -2083,7 +2083,7 @@ feanor2la:
   profiles:
     - service: vk
       id: '16294877'
-      updated: 2026-09-05-16-20-43
+      updated: 2026-09-09-00-47-53
       username: feanor2la
       name: Иван Урлапов
       avatar: store:/avatars/vk-14fd45f0.jpg
@@ -2309,7 +2309,7 @@ gleb-zheltuhin:
   profiles:
     - service: vk
       id: '29014473'
-      updated: 2026-09-08-22-06-07
+      updated: 2026-09-09-00-47-36
       username: gleb_zheltuhin
       name: Глеб Желтухин
       avatar: store:/avatars/vk-971eefc1.jpg
@@ -2368,8 +2368,9 @@ goosevich76:
   profiles:
     - service: tg
       id: '5385620621'
-      updated: 2026-09-05-10-59-50
+      updated: 2026-09-09-00-47-43
       accessHash: '-7130473396589324830'
+      username: horwwwaty
       name: Choven
       avatar: store:/avatars/tg-5325925108683576479.jpg
 gorheim:
@@ -2823,7 +2824,7 @@ ivan-uralov:
   profiles:
     - service: vk
       id: '16497155'
-      updated: 2026-09-07-10-52-22
+      updated: 2026-09-09-00-47-52
       username: id16497155
       name: Иван Уралов
       avatar: store:/avatars/vk-51775759.jpg
@@ -3495,7 +3496,7 @@ m-a-dadychenko:
   profiles:
     - service: vk
       id: '7106429'
-      updated: 2026-09-06-20-56-14
+      updated: 2026-09-09-00-47-51
       username: m_a_dadychenko
       name: Марина Дадыченко
       avatar: store:/avatars/vk-45fb0778.jpg
@@ -4746,7 +4747,7 @@ pyriglena:
   profiles:
     - service: tg
       id: '554672984'
-      updated: 2026-09-07-10-52-17
+      updated: 2026-09-09-00-47-44
       accessHash: '-3565593010225205906'
       username: pyriglena
       name: yarrow
@@ -5182,7 +5183,7 @@ sergey-b-2:
   profiles:
     - service: vk
       id: '1077446394'
-      updated: 2026-09-08-22-06-11
+      updated: 2026-09-09-00-47-53
       username: id1077446394
       name: Сергей Б
       avatar: store:/avatars/vk-f5b20109.jpg
@@ -5198,7 +5199,7 @@ sergey-venkov:
   profiles:
     - service: vk
       id: '217443112'
-      updated: 2026-09-06-22-30-48
+      updated: 2026-09-09-00-47-50
       username: id217443112
       name: Сергей Венков
       avatar: store:/avatars/vk-a77d1a73.jpg
@@ -5747,7 +5748,7 @@ taylor-kinney:
   profiles:
     - service: tg
       id: '8805451892'
-      updated: 2026-09-02-00-37-51
+      updated: 2026-09-09-00-47-43
       accessHash: '-4433703925452983086'
       name: Taylor Kinney
 tea-tsar:
@@ -6562,7 +6563,7 @@ vladivivi:
   profiles:
     - service: tg
       id: '711641679'
-      updated: 2026-09-08-15-29-33
+      updated: 2026-09-09-00-47-39
       accessHash: '747929475302762435'
       username: vladivivi
       name: Vladi
