@@ -4827,19 +4827,22 @@
     - service: vk
       id: 3545
       published: 2026-09-08-19-04-12
-      updated: 2026-09-09-05-27-32
+      updated: 2026-09-09-10-14-40
       followers: 1442
-      likes: 28
-      views: 221
-      reposts: 1
-      comments: !c ixeAkZPLQnoIK3VMAACuZ2xlYi16aGVsdHVoaW610JAg0LPQtNC1INGE0L7RgtC60LA/Aw==
+      likes: 37
+      views: 308
+      reposts: 2
+      comments: !c |-
+        G6MAQJwFdrtFbijLBb5Dr7fC/OfP/QifLkFLYLb9iLZOoI/ZgHluy4jZ6UkQpmynXJhJZoG2BQkc
+        AO8YB27ni9w+AC64y+A4/Dr+emNE22T+NqaYC9w2MJ9bvr5oNhcMxS8YY3OMcPzEXp0ZXmjm45aZ
+        pAO+kqzYwgwvXHCQ0IjhQD1GlV+swh2vLJeph4OSYaH8UyH26PZCLVyoTTXceT15Hg==
     - service: tg
       id: 1316
       published: 2026-09-08-19-04-18
-      updated: 2026-09-09-05-27-30
+      updated: 2026-09-09-10-14-38
       followers: 944
-      likes: 34
-      views: 114
+      likes: 38
+      views: 126
     - service: mx
       id: '1788894263982'
       published: 2026-09-08-19-04-24
@@ -16759,9 +16762,9 @@
       id: Dc2opfblYaI
       mediaId: '18475712821112445'
       published: 2026-09-04-05-28-10
-      updated: 2026-09-08-06-38-28
+      updated: 2026-09-09-10-14-38
       followers: 2065
-      likes: 75
+      likes: 78
 2018-11-08-bittercup:
   title: Bittercup
   titleRu: Горькая Чаша
