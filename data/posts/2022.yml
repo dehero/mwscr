@@ -441,7 +441,7 @@
       id: DMfFKlHNxqa
       mediaId: '18094952209623610'
       published: 2025-07-24-09-33-10
-      updated: 2026-09-02-14-13-16
+      updated: 2026-09-09-21-20-49
       followers: 1572
       likes: 57
 2022-07-01-tel-aruhn-at-dawn:
@@ -801,7 +801,7 @@
       id: DNEFRoMsHSh
       mediaId: '18122328346483039'
       published: 2025-08-07-18-25-59
-      updated: 2026-09-02-14-13-02
+      updated: 2026-09-09-21-20-35
       followers: 1574
       likes: 53
     - service: vk
@@ -885,11 +885,14 @@
     - service: vk
       id: 3543
       published: 2026-09-06-20-56-49
-      updated: 2026-09-08-19-03-39
+      updated: 2026-09-09-21-19-32
       followers: 1442
-      likes: 68
-      views: 554
+      likes: 75
+      views: 640
       reposts: 5
+      comments: !c |-
+        ixqAkZPLQnoIcpVOAACyaXJpbmEtYnlzdHJpdHNrYXlht9C60YDQsNGB0L7RgtC40YnQsCDwn6Ww
+        Aw==
 2022-07-08-squad:
   title: Squad
   titleRu: Отряд
@@ -1999,9 +2002,9 @@
       id: DNQ9FpnMEuC
       mediaId: '18125731516461672'
       published: 2025-08-12-18-24-34
-      updated: 2026-09-02-14-12-56
+      updated: 2026-09-09-21-20-28
       followers: 1574
-      likes: 56
+      likes: 57
     - service: vk
       id: 2573
       published: 2025-08-12-18-24-42
