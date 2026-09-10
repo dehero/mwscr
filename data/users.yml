@@ -566,7 +566,7 @@ artem-petrov:
   profiles:
     - service: vk
       id: '4238605'
-      updated: 2026-09-05-11-01-35
+      updated: 2026-09-10-18-45-49
       username: id4238605
       name: Артем Петров
       avatar: store:/avatars/vk-77942374.jpg
@@ -1458,7 +1458,7 @@ dehero:
     - type: channel
       service: vk
       id: '138249959'
-      updated: 2026-09-10-15-20-38
+      updated: 2026-09-10-18-45-45
       username: mwscr
       name: Morrowind Screenshots
       avatar: store:/avatars/vk-8e97fd4f.jpg
@@ -2313,7 +2313,7 @@ gleb-zheltuhin:
   profiles:
     - service: vk
       id: '29014473'
-      updated: 2026-09-10-15-20-38
+      updated: 2026-09-10-18-45-45
       username: gleb_zheltuhin
       name: Глеб Желтухин
       avatar: store:/avatars/vk-971eefc1.jpg
@@ -2372,7 +2372,7 @@ goosevich76:
   profiles:
     - service: tg
       id: '5385620621'
-      updated: 2026-09-10-15-20-35
+      updated: 2026-09-10-18-45-42
       accessHash: '-7130473396589324830'
       username: horwwwaty
       name: Choven
@@ -3046,7 +3046,7 @@ july31:
   profiles:
     - service: vk
       id: '1105909109'
-      updated: 2026-09-10-15-20-35
+      updated: 2026-09-10-18-45-42
       username: july31
       name: Иван Пластинин
       avatar: store:/avatars/vk-0fe8e951.jpg
@@ -4138,7 +4138,7 @@ neserjesno:
   profiles:
     - service: tg
       id: '851505105'
-      updated: 2026-09-10-15-20-35
+      updated: 2026-09-10-18-45-42
       accessHash: '6186666523695677160'
       username: neserjesno
       name: Victoria
@@ -5216,7 +5216,7 @@ sergey-b-2:
   profiles:
     - service: vk
       id: '1077446394'
-      updated: 2026-09-10-15-20-38
+      updated: 2026-09-10-18-45-46
       username: id1077446394
       name: Сергей Б
       avatar: store:/avatars/vk-f5b20109.jpg
@@ -6883,7 +6883,7 @@ yellow-submarine:
   profiles:
     - service: vk
       id: '21865013'
-      updated: 2026-09-10-15-20-39
+      updated: 2026-09-10-18-45-47
       username: yellowsubm
       name: Yellow Submarine
       avatar: store:/avatars/vk-8254b201.jpg
