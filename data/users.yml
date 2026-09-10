@@ -1827,10 +1827,10 @@ eidelelweise:
   profiles:
     - service: vk
       id: '451140204'
-      updated: 2026-09-05-10-59-49
+      updated: 2026-09-10-23-30-00
       username: eidelelweise
       name: Эйдель Элиас Вайс
-      avatar: store:/avatars/vk-16ed1324.jpg
+      avatar: store:/avatars/vk-e4f61a46.jpg
 eightntexerra:
   profiles:
     - service: tg
@@ -2313,7 +2313,7 @@ gleb-zheltuhin:
   profiles:
     - service: vk
       id: '29014473'
-      updated: 2026-09-10-18-45-45
+      updated: 2026-09-10-23-30-03
       username: gleb_zheltuhin
       name: Глеб Желтухин
       avatar: store:/avatars/vk-971eefc1.jpg
@@ -2372,7 +2372,7 @@ goosevich76:
   profiles:
     - service: tg
       id: '5385620621'
-      updated: 2026-09-10-21-17-03
+      updated: 2026-09-10-23-29-52
       accessHash: '-7130473396589324830'
       username: horwwwaty
       name: Choven
@@ -2772,7 +2772,7 @@ irina-bystritskaya:
       avatar: store:/avatars/vk-dc6960ba.jpg
     - service: vk
       id: '56690300'
-      updated: 2026-09-09-21-19-32
+      updated: 2026-09-10-23-29-56
       username: id56690300
       name: Ирина Быстрицкая
       avatar: store:/avatars/vk-aaa353bd.jpg
@@ -3046,7 +3046,7 @@ july31:
   profiles:
     - service: vk
       id: '1105909109'
-      updated: 2026-09-10-21-17-03
+      updated: 2026-09-10-23-29-54
       username: july31
       name: Иван Пластинин
       avatar: store:/avatars/vk-0fe8e951.jpg
@@ -4138,7 +4138,7 @@ neserjesno:
   profiles:
     - service: tg
       id: '851505105'
-      updated: 2026-09-10-21-17-03
+      updated: 2026-09-10-23-29-52
       accessHash: '6186666523695677160'
       username: neserjesno
       name: Victoria
@@ -5216,7 +5216,7 @@ sergey-b-2:
   profiles:
     - service: vk
       id: '1077446394'
-      updated: 2026-09-10-21-17-04
+      updated: 2026-09-10-23-29-54
       username: id1077446394
       name: Сергей Б
       avatar: store:/avatars/vk-f5b20109.jpg
@@ -5265,7 +5265,7 @@ sheloboff:
   profiles:
     - service: vk
       id: '344593993'
-      updated: 2026-09-09-21-19-33
+      updated: 2026-09-10-23-30-03
       username: sheloboff
       name: Роман Капичев
       avatar: store:/avatars/vk-834a1b3d.jpg
@@ -6883,7 +6883,7 @@ yellow-submarine:
   profiles:
     - service: vk
       id: '21865013'
-      updated: 2026-09-10-21-17-04
+      updated: 2026-09-10-23-29-54
       username: yellowsubm
       name: Yellow Submarine
       avatar: store:/avatars/vk-8254b201.jpg
