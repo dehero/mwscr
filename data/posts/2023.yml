@@ -373,19 +373,19 @@
     - service: vk
       id: 3557
       published: 2026-09-10-18-46-06
-      updated: 2026-09-11-11-54-10
+      updated: 2026-09-11-15-22-29
       followers: 1443
-      likes: 20
-      views: 247
+      likes: 23
+      views: 277
       reposts: 2
       comments: !c CxmAkZPLQnoI9MffAACraXZhbi11cmFsb3a70JIg0LfQsNGB0LDQtNC1INGB0LjQtNC40YIpAw==
     - service: tg
       id: 1318
       published: 2026-09-10-18-46-12
-      updated: 2026-09-11-11-54-09
+      updated: 2026-09-11-15-22-29
       followers: 944
-      likes: 37
-      views: 128
+      likes: 38
+      views: 138
     - service: mx
       id: '1789065983248'
       published: 2026-09-10-18-46-23

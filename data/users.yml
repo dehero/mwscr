@@ -1063,10 +1063,10 @@ chacal:
   profiles:
     - service: tg
       id: '8095034962'
-      updated: 2026-09-04-15-16-26
+      updated: 2026-09-11-15-22-38
       accessHash: '-7146146524014681806'
       name: Chacal 🇩🇴
-      avatar: store:/avatars/tg-4956514773986119263.jpg
+      avatar: store:/avatars/tg-4979090655397219649.jpg
 chaor-seyda:
   profiles:
     - service: ig
@@ -2372,7 +2372,7 @@ goosevich76:
   profiles:
     - service: tg
       id: '5385620621'
-      updated: 2026-09-11-11-54-10
+      updated: 2026-09-11-15-22-30
       accessHash: '-7130473396589324830'
       username: horwwwaty
       name: Choven
@@ -2832,7 +2832,7 @@ ivan-uralov:
   profiles:
     - service: vk
       id: '16497155'
-      updated: 2026-09-11-11-54-26
+      updated: 2026-09-11-15-22-29
       username: id16497155
       name: Иван Уралов
       avatar: store:/avatars/vk-51775759.jpg
@@ -3046,7 +3046,7 @@ july31:
   profiles:
     - service: vk
       id: '1105909109'
-      updated: 2026-09-11-11-54-12
+      updated: 2026-09-11-15-22-30
       username: july31
       name: Иван Пластинин
       avatar: store:/avatars/vk-0fe8e951.jpg
@@ -3238,7 +3238,7 @@ konstantin-matrosov:
   profiles:
     - service: vk
       id: '93073669'
-      updated: 2026-09-11-11-54-27
+      updated: 2026-09-11-15-22-33
       username: id93073669
       name: Константин Матросов
       avatar: store:/avatars/vk-24fd4c7c.jpg
@@ -4026,7 +4026,7 @@ myndowen:
   profiles:
     - service: tg
       id: '720784420'
-      updated: 2026-09-11-06-48-11
+      updated: 2026-09-11-15-22-39
       accessHash: '4385662928393121475'
       username: myndowen
       name: Daniel Beilin
@@ -4138,7 +4138,7 @@ neserjesno:
   profiles:
     - service: tg
       id: '851505105'
-      updated: 2026-09-11-11-54-10
+      updated: 2026-09-11-15-22-31
       accessHash: '6186666523695677160'
       username: neserjesno
       name: Victoria
@@ -4302,7 +4302,7 @@ oberhort:
   profiles:
     - service: tg
       id: '19254498'
-      updated: 2026-09-05-06-26-34
+      updated: 2026-09-11-15-22-39
       accessHash: '-564270059565994883'
       username: oberhort
       name: Игорь
@@ -5216,7 +5216,7 @@ sergey-b-2:
   profiles:
     - service: vk
       id: '1077446394'
-      updated: 2026-09-11-11-54-26
+      updated: 2026-09-11-15-22-31
       username: id1077446394
       name: Сергей Б
       avatar: store:/avatars/vk-f5b20109.jpg
@@ -6883,7 +6883,7 @@ yellow-submarine:
   profiles:
     - service: vk
       id: '21865013'
-      updated: 2026-09-11-11-54-12
+      updated: 2026-09-11-15-22-30
       username: yellowsubm
       name: Yellow Submarine
       avatar: store:/avatars/vk-8254b201.jpg
