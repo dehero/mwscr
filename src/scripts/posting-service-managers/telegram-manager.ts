@@ -68,16 +68,20 @@ export class TelegramManager extends Telegram implements PostingServiceManager {
         output: process.stdout,
       });
 
-      await this.tg.start({
-        phoneNumber: TELEGRAM_PHONE_NUMBER,
-        phoneCode: async (_isCodeViaApp?: boolean): Promise<string> =>
-          new Promise((resolve) => readline.question('PHONE CODE: ', resolve)),
-        onError(e) {
-          throw e;
-        },
-      });
+      try {
+        await this.tg.start({
+          phoneNumber: TELEGRAM_PHONE_NUMBER,
+          phoneCode: async (_isCodeViaApp?: boolean): Promise<string> =>
+            new Promise((resolve) => readline.question('PHONE CODE: ', resolve)),
+          onError(e) {
+            throw e;
+          },
+        });
 
-      await this.tg.connect();
+        await this.tg.connect();
+      } finally {
+        readline.close();
+      }
     }
 
     return { tg: this.tg };
