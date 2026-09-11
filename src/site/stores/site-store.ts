@@ -1,9 +1,6 @@
 import { AbstractSiteStore } from '../../core/stores/abstract-site-store.js';
 import { setStorageItemWithEvent } from '../utils/storage-utils.js';
 
-/**
- * @deprecated Use S3 storage instead
- */
 export class SiteStore extends AbstractSiteStore {
   getSecretKey() {
     return localStorage.getItem('store.secretKey') ?? undefined;

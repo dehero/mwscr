@@ -1,11 +1,11 @@
 import { createEffect, createSignal, onCleanup } from 'solid-js';
-import { s3Store } from '../stores/index.js';
+import { siteStore } from '../stores/index.js';
 
 export function useSettings(onChange?: (secretKey: string | undefined) => void) {
   const [secretKey, setSecretKey] = createSignal<string>();
 
   const handleChange = async () => {
-    const secretKey = s3Store.getSecretKey();
+    const secretKey = siteStore.getSecretKey();
 
     setSecretKey(secretKey);
 

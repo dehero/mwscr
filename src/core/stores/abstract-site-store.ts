@@ -1,9 +1,6 @@
 import type { Store } from '../entities/store.js';
 import { site } from '../services/site.js';
 
-/**
- * @deprecated Use S3 storage instead
- */
 export abstract class AbstractSiteStore implements Store {
   readonly name = 'Site';
 

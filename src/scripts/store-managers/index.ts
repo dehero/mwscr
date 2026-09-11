@@ -9,4 +9,4 @@ export const yandexDiskManager = new YandexDiskManager();
 export const localStoreManager = new LocalStoreManager();
 export const s3StoreManager = new S3StoreManager();
 
-export const storeManager = new MultiStoreManager([s3StoreManager, yandexDiskManager]);
+export const storeManager = new MultiStoreManager([siteStoreManager, yandexDiskManager]);

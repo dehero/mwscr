@@ -125,6 +125,11 @@ export default defineConfig(({ mode }) => ({
         changeOrigin: true,
         rewrite: (path: string) => path.replace(/^\/uploads/, '/uploads'),
       },
+      '/store/': {
+        target: 'http://mwscr.dehero.site',
+        changeOrigin: true,
+        rewrite: (path: string) => path.replace(/^\/store/, '/store'),
+      },
     },
   },
   build: {
