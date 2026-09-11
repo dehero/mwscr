@@ -8,7 +8,8 @@ export abstract class AbstractSiteStore implements Store {
     'shots/*.png',
     'drawings/*.{png,webp,jpg}',
     'wallpapers/*.png',
-    'videos/*.{jpg,webm}',
+    // TODO: mp4 and avi resources are listed here just to allow transforming URL to webm
+    'videos/*.{mp4,avi,jpg,webm}',
     'news/*.{jpg,png}',
     'photoshops/*.{jpg,png}',
     'snapshots/*.{jpg,png}',
