@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file.
 
+## [3.2.3](https://github.com/dehero/mwscr/compare/v3.2.2...v3.2.3) (2026-09-11)
+
+### Bug Fixes
+
+- close readline after connecting to Telegram
+  ([629dae5](https://github.com/dehero/mwscr/commit/629dae52e9ec475c51826629a315c95d3563bbba))
+- undeprecate site store ([5dcc8ec](https://github.com/dehero/mwscr/commit/5dcc8ec7315e30be2c8175005ee86f0f5a5c1b84))
+
 ## [3.2.2](https://github.com/dehero/mwscr/compare/v3.2.1...v3.2.2) (2026-09-07)
 
 ### Continuous Integration
