@@ -35,7 +35,7 @@ export async function renderCalendarToFolder({ folder, year, ru, sundayFirst, im
   }
 
   const { image, html } = await renderCalendarCover({ year, ru });
-  // @ts-expect-error TODO: resolve typing issues
+
   await writeFile(path.join(folder, `00.png`), image);
   await writeFile(path.join(folder, `00.html`), html, 'utf-8');
 
@@ -49,7 +49,7 @@ export async function renderCalendarToFolder({ folder, year, ru, sundayFirst, im
       sundayFirst,
       imageUrl: images[monthIndex],
     });
-    // @ts-expect-error TODO: resolve typing issues
+
     await writeFile(path.join(folder, `${basename}.png`), image);
     await writeFile(path.join(folder, `${basename}.html`), html, 'utf-8');
   }
