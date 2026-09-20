@@ -2485,7 +2485,7 @@ herbertspringmaus:
   profiles:
     - service: tg
       id: '180449420'
-      updated: 2026-09-11-06-47-57
+      updated: 2026-09-20-19-44-52
       accessHash: '-757812475294737112'
       username: herbertspringmaus
       name: Yury
@@ -2825,7 +2825,7 @@ ivan-scott:
   profiles:
     - service: tg
       id: '6586563421'
-      updated: 2026-09-11-06-47-39
+      updated: 2026-09-20-19-45-01
       accessHash: '2286720855402997925'
       name: Ivan Scott
 ivan-uralov:
@@ -2840,7 +2840,7 @@ ivanovic:
   profiles:
     - service: tg
       id: '5205246036'
-      updated: 2026-09-11-01-43-00
+      updated: 2026-09-20-19-44-37
       accessHash: '-4096599997074721381'
       name: Ivanovic
 izipvnk:
@@ -3367,7 +3367,7 @@ lenin140200:
   profiles:
     - service: tg
       id: '6901129504'
-      updated: 2026-09-07-23-06-15
+      updated: 2026-09-20-19-43-58
       accessHash: '-584145395764363707'
       username: Lenin140200
       name: Ленин
@@ -3703,7 +3703,7 @@ mbdtsmo:
   profiles:
     - service: tg
       id: '5093097514'
-      updated: 2026-09-11-06-48-31
+      updated: 2026-09-20-19-45-07
       accessHash: '-613358669572386334'
       username: mbdtsmo
       name: M Bdtsmo
@@ -5781,7 +5781,7 @@ taylor-kinney:
   profiles:
     - service: tg
       id: '8805451892'
-      updated: 2026-09-09-00-47-43
+      updated: 2026-09-20-19-44-16
       accessHash: '-4433703925452983086'
       name: Taylor Kinney
 tea-tsar:
@@ -6824,9 +6824,9 @@ xxxkamaz2008xxx:
   profiles:
     - service: tg
       id: '476274825'
-      updated: 2026-09-06-22-30-47
+      updated: 2026-09-20-19-44-28
       accessHash: '6278268179581961642'
-      name: initramfs-linux-cachyos-bore-custom.img
+      name: initrd.img-7.0.0-31-generic
 xxxxvns:
   profiles:
     - service: tg
