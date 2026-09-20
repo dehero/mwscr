@@ -110,7 +110,7 @@ export class SiteStoreManager extends AbstractSiteStore implements StoreManager 
       }
 
       const stream = site.client.createReadStream(posix.join(site.path, realPath));
-      return streamToBuffer(stream);
+      return await streamToBuffer(stream);
     } finally {
       this.disconnect();
     }
