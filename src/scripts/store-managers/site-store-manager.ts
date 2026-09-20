@@ -7,7 +7,8 @@ import { AbstractSiteStore } from '../../core/stores/abstract-site-store.js';
 import { streamToBuffer } from '../utils/data-utils.js';
 
 export class SiteStoreManager extends AbstractSiteStore implements StoreManager {
-  private client: SFTPClient | undefined;
+  private clientPromise: Promise<SFTPClient> | undefined;
+  private activeOperations = 0;
   private disconnectTimer: NodeJS.Timeout | undefined;
   private dirCache: Map<string, StoreItem[]> = new Map();
 
@@ -38,17 +39,27 @@ export class SiteStoreManager extends AbstractSiteStore implements StoreManager 
       throw new Error('Need site SSH store path');
     }
 
-    if (!this.client) {
-      this.client = new SFTPClient();
+    if (!this.clientPromise) {
+      const client = new SFTPClient();
 
-      await this.client.connect({
-        host: SITE_SSH_HOST,
-        username: SITE_SSH_USER,
-        privateKey: SITE_SSH_PRIVATE_KEY,
-      });
+      this.clientPromise = client
+        .connect({
+          host: SITE_SSH_HOST,
+          username: SITE_SSH_USER,
+          privateKey: SITE_SSH_PRIVATE_KEY,
+        })
+        .then(() => client);
     }
 
-    return { path: SITE_SSH_STORE_PATH, client: this.client };
+    try {
+      const client = await this.clientPromise;
+      this.activeOperations += 1;
+
+      return { path: SITE_SSH_STORE_PATH, client };
+    } catch (error) {
+      this.clientPromise = undefined;
+      throw error;
+    }
   }
 
   private disconnect() {
@@ -56,10 +67,19 @@ export class SiteStoreManager extends AbstractSiteStore implements StoreManager 
       clearTimeout(this.disconnectTimer);
     }
 
+    this.activeOperations = Math.max(0, this.activeOperations - 1);
+
     this.disconnectTimer = setTimeout(() => {
-      this.client?.end();
-      this.client = undefined;
       this.disconnectTimer = undefined;
+
+      if (this.activeOperations > 0) {
+        return;
+      }
+
+      const clientPromise = this.clientPromise;
+      this.clientPromise = undefined;
+
+      clientPromise?.then((client) => client.end()).catch(() => undefined);
     }, 1000);
   }
 
@@ -125,9 +145,26 @@ export class SiteStoreManager extends AbstractSiteStore implements StoreManager 
         throw new Error(`Failed to create real path for "${path}".`);
       }
 
-      return site.client.createReadStream(posix.join(site.path, realPath));
-    } finally {
+      const stream = site.client.createReadStream(posix.join(site.path, realPath));
+      let released = false;
+      const release = () => {
+        if (released) {
+          return;
+        }
+
+        released = true;
+        this.disconnect();
+      };
+
+      // Keep the connection alive until the returned stream is fully consumed.
+      stream.once('end', release);
+      stream.once('close', release);
+      stream.once('error', release);
+
+      return stream;
+    } catch (error) {
       this.disconnect();
+      throw error;
     }
   }
 
