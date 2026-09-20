@@ -2,6 +2,15 @@
 
 All notable changes to this project will be documented in this file.
 
+## [3.2.4](https://github.com/dehero/mwscr/compare/v3.2.3...v3.2.4) (2026-09-20)
+
+### Bug Fixes
+
+- allow loading videos from site store
+  ([1c9d2c1](https://github.com/dehero/mwscr/commit/1c9d2c1491e88859f85468e1add4c90a68304391))
+- don't disconnect site store too early
+  ([51012dc](https://github.com/dehero/mwscr/commit/51012dcf64cafbe7b4c894d3cc61988b7dbb3349))
+
 ## [3.2.3](https://github.com/dehero/mwscr/compare/v3.2.2...v3.2.3) (2026-09-11)
 
 ### Bug Fixes
