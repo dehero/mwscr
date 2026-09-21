@@ -2,6 +2,21 @@
 
 All notable changes to this project will be documented in this file.
 
+## [3.2.6](https://github.com/dehero/mwscr/compare/v3.2.5...v3.2.6) (2026-09-21)
+
+### Bug Fixes
+
+- change import extensions ([c2a8e9f](https://github.com/dehero/mwscr/commit/c2a8e9f8ce6211b37d8da38d7558214330b1513d))
+
+### Build System
+
+- update to Node.js 24 and TypeScript 7
+  ([63f7cd1](https://github.com/dehero/mwscr/commit/63f7cd1f080af051a3bf524669683232509a4def))
+
+### Continuous Integration
+
+- diagnose SSH connectivity ([4459b4c](https://github.com/dehero/mwscr/commit/4459b4c71e82ac62ca688ea73b4ad627f638d6cf))
+
 ## [3.2.5](https://github.com/dehero/mwscr/compare/v3.2.3...v3.2.5) (2026-09-21)
 
 ### Bug Fixes
