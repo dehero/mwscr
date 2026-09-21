@@ -4,12 +4,15 @@ import SFTPClient from 'ssh2-sftp-client';
 import { Readable } from 'stream';
 import type { StoreItem, StoreManager } from '../../core/entities/store.js';
 import { AbstractSiteStore } from '../../core/stores/abstract-site-store.js';
+import { sleep } from '../../core/utils/common-utils.js';
 import { streamToBuffer } from '../utils/data-utils.js';
 
+const OPERATION_ATTEMPTS = 3;
+const RETRY_DELAY = 3000;
+
 export class SiteStoreManager extends AbstractSiteStore implements StoreManager {
-  private clientPromise: Promise<SFTPClient> | undefined;
-  private activeOperations = 0;
-  private disconnectTimer: NodeJS.Timeout | undefined;
+  private client: SFTPClient | undefined;
+  private connecting: Promise<SFTPClient> | undefined;
   private dirCache: Map<string, StoreItem[]> = new Map();
 
   protected getSecretKey() {
@@ -17,11 +20,6 @@ export class SiteStoreManager extends AbstractSiteStore implements StoreManager 
   }
 
   private async connect() {
-    if (this.disconnectTimer) {
-      clearTimeout(this.disconnectTimer);
-      this.disconnectTimer = undefined;
-    }
-
     const { SITE_SSH_HOST, SITE_SSH_USER, SITE_SSH_PRIVATE_KEY, SITE_SSH_STORE_PATH } = process.env;
     if (!SITE_SSH_HOST) {
       throw new Error('Need site SSH host');
@@ -39,54 +37,67 @@ export class SiteStoreManager extends AbstractSiteStore implements StoreManager 
       throw new Error('Need site SSH store path');
     }
 
-    if (!this.clientPromise) {
-      const client = new SFTPClient();
+    if (!this.client) {
+      if (!this.connecting) {
+        this.connecting = this.createClient(SITE_SSH_HOST, SITE_SSH_USER, SITE_SSH_PRIVATE_KEY);
+      }
 
-      this.clientPromise = client
-        .connect({
-          host: SITE_SSH_HOST,
-          username: SITE_SSH_USER,
-          privateKey: SITE_SSH_PRIVATE_KEY,
-        })
-        .then(() => client);
+      try {
+        this.client = await this.connecting;
+      } finally {
+        this.connecting = undefined;
+      }
     }
 
-    try {
-      const client = await this.clientPromise;
-      this.activeOperations += 1;
+    return { path: SITE_SSH_STORE_PATH, client: this.client };
+  }
 
-      return { path: SITE_SSH_STORE_PATH, client };
+  private async createClient(host: string, username: string, privateKey: string) {
+    const client = new SFTPClient();
+
+    // The server may drop the connection at any moment; forget this client so the next operation reconnects.
+    client.on('close', () => {
+      if (this.client === client) {
+        this.client = undefined;
+      }
+    });
+
+    try {
+      await client.connect({ host, username, privateKey });
     } catch (error) {
-      this.clientPromise = undefined;
+      await client.end().catch(() => undefined);
       throw error;
+    }
+
+    return client;
+  }
+
+  private async withClient<T>(operation: (site: { path: string; client: SFTPClient }) => Promise<T>): Promise<T> {
+    for (let attempt = 1; ; attempt += 1) {
+      try {
+        return await operation(await this.connect());
+      } catch (error) {
+        if (attempt >= OPERATION_ATTEMPTS || !isConnectionError(error)) {
+          throw error;
+        }
+
+        // The connection is likely broken, drop it to force a reconnect on the next attempt.
+        console.warn(`Site store operation failed, retrying in ${RETRY_DELAY}ms... (attempt ${attempt + 1})`);
+        this.dropClient();
+        await sleep(RETRY_DELAY);
+      }
     }
   }
 
-  private disconnect() {
-    if (this.disconnectTimer) {
-      clearTimeout(this.disconnectTimer);
-    }
-
-    this.activeOperations = Math.max(0, this.activeOperations - 1);
-
-    this.disconnectTimer = setTimeout(() => {
-      this.disconnectTimer = undefined;
-
-      if (this.activeOperations > 0) {
-        return;
-      }
-
-      const clientPromise = this.clientPromise;
-      this.clientPromise = undefined;
-
-      clientPromise?.then((client) => client.end()).catch(() => undefined);
-    }, 1000);
+  private dropClient() {
+    const client = this.client;
+    this.client = undefined;
+    this.connecting = undefined;
+    client?.end().catch(() => undefined);
   }
 
   async copy(from: string, to: string): Promise<void> {
-    const site = await this.connect();
-
-    try {
+    return this.withClient(async (site) => {
       const fromRealPath = this.toRealPath(from);
       if (!fromRealPath) {
         throw new Error(`Failed to create real path for "${from}".`);
@@ -105,9 +116,7 @@ export class SiteStoreManager extends AbstractSiteStore implements StoreManager 
 
       this.dirCache.delete(posix.dirname(from));
       this.dirCache.delete(posix.dirname(to));
-    } finally {
-      this.disconnect();
-    }
+    });
   }
 
   async exists(path: string): Promise<false | StoreItem> {
@@ -121,57 +130,30 @@ export class SiteStoreManager extends AbstractSiteStore implements StoreManager 
   }
 
   async get(path: string): Promise<Buffer> {
-    const site = await this.connect();
-
-    try {
+    return this.withClient(async (site) => {
       const realPath = this.toRealPath(path);
       if (!realPath) {
         throw new Error(`Failed to create real path for "${path}".`);
       }
 
       const stream = site.client.createReadStream(posix.join(site.path, realPath));
-      return await streamToBuffer(stream);
-    } finally {
-      this.disconnect();
-    }
+      return streamToBuffer(stream);
+    });
   }
 
   async getStream(path: string): Promise<NodeJS.ReadableStream | null> {
-    const site = await this.connect();
-
-    try {
+    return this.withClient(async (site) => {
       const realPath = this.toRealPath(path);
       if (!realPath) {
         throw new Error(`Failed to create real path for "${path}".`);
       }
 
-      const stream = site.client.createReadStream(posix.join(site.path, realPath));
-      let released = false;
-      const release = () => {
-        if (released) {
-          return;
-        }
-
-        released = true;
-        this.disconnect();
-      };
-
-      // Keep the connection alive until the returned stream is fully consumed.
-      stream.once('end', release);
-      stream.once('close', release);
-      stream.once('error', release);
-
-      return stream;
-    } catch (error) {
-      this.disconnect();
-      throw error;
-    }
+      return site.client.createReadStream(posix.join(site.path, realPath));
+    });
   }
 
   async move(from: string, to: string): Promise<void> {
-    const site = await this.connect();
-
-    try {
+    return this.withClient(async (site) => {
       const fromRealPath = this.toRealPath(from);
       if (!fromRealPath) {
         throw new Error(`Failed to create real path for "${from}".`);
@@ -190,9 +172,7 @@ export class SiteStoreManager extends AbstractSiteStore implements StoreManager 
 
       this.dirCache.delete(posix.dirname(fromRealPath));
       this.dirCache.delete(posix.dirname(toRealPath));
-    } finally {
-      this.disconnect();
-    }
+    });
   }
 
   async put(path: string, data: Iterable<unknown> | AsyncIterable<unknown>): Promise<void> {
@@ -201,9 +181,7 @@ export class SiteStoreManager extends AbstractSiteStore implements StoreManager 
   }
 
   async putStream(path: string, stream: NodeJS.ReadableStream): Promise<void> {
-    const site = await this.connect();
-
-    try {
+    return this.withClient(async (site) => {
       const realPath = this.toRealPath(path);
       if (!realPath) {
         throw new Error(`Failed to create real path for "${path}".`);
@@ -217,9 +195,7 @@ export class SiteStoreManager extends AbstractSiteStore implements StoreManager 
       await finished(writeStream);
 
       this.dirCache.delete(posix.dirname(path));
-    } finally {
-      this.disconnect();
-    }
+    });
   }
 
   async readdir(path: string): Promise<StoreItem[]> {
@@ -228,9 +204,7 @@ export class SiteStoreManager extends AbstractSiteStore implements StoreManager 
       return result;
     }
 
-    const site = await this.connect();
-
-    try {
+    result = await this.withClient(async (site) => {
       const realPath = this.toRealPath(path);
       if (!realPath) {
         throw new Error(`Failed to create real path for "${path}".`);
@@ -238,14 +212,12 @@ export class SiteStoreManager extends AbstractSiteStore implements StoreManager 
 
       const list = await site.client.list(posix.join(site.path, realPath));
 
-      result = list.map((item) => ({
+      return list.map((item) => ({
         name: item.type === 'd' ? this.unprotectFolderName(item.name) : item.name,
         url: `store:/${posix.join(path, item.name)}`,
         isDirectory: item.type === 'd',
       }));
-    } finally {
-      this.disconnect();
-    }
+    });
 
     this.dirCache.set(path, result);
 
@@ -253,9 +225,7 @@ export class SiteStoreManager extends AbstractSiteStore implements StoreManager 
   }
 
   async remove(path: string): Promise<void> {
-    const site = await this.connect();
-
-    try {
+    return this.withClient(async (site) => {
       const realPath = this.toRealPath(path);
       if (!realPath) {
         throw new Error(`Failed to create real path for "${path}".`);
@@ -263,8 +233,27 @@ export class SiteStoreManager extends AbstractSiteStore implements StoreManager 
 
       await site.client.delete(posix.join(site.path, realPath));
       this.dirCache.delete(posix.dirname(path));
-    } finally {
-      this.disconnect();
-    }
+    });
   }
+}
+
+function isConnectionError(error: unknown): boolean {
+  if (!(error instanceof Error)) {
+    return false;
+  }
+
+  switch ((error as NodeJS.ErrnoException).code) {
+    case 'ETIMEDOUT':
+    case 'ECONNRESET':
+    case 'ECONNREFUSED':
+    case 'EPIPE':
+    case 'EHOSTUNREACH':
+    case 'ENETUNREACH':
+    case 'ERR_NOT_CONNECTED':
+    case 'ERR_GENERIC_CLIENT':
+      return true;
+    default:
+  }
+
+  return /No response from server|No SFTP connection available|Connection lost/.test(error.message);
 }
