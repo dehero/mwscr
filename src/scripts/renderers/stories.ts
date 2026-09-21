@@ -1,12 +1,12 @@
 import { readFile } from 'fs/promises';
 import sharp from 'sharp';
-import { markdownToText } from '../../core/entities/markdown.js';
-import type { Post } from '../../core/entities/post.js';
-import { getUserEntryAvatar, getUserEntryTitle, getUserEntryTitleRu } from '../../core/entities/user.js';
-import { asArray } from '../../core/utils/common-utils.js';
-import { readResource } from '../data-managers/resources.js';
-import { users } from '../data-managers/users.js';
-import { htmlToImage } from '../utils/image-utils.js';
+import { markdownToText } from '../../core/entities/markdown.ts';
+import type { Post } from '../../core/entities/post.ts';
+import { getUserEntryAvatar, getUserEntryTitle, getUserEntryTitleRu } from '../../core/entities/user.ts';
+import { asArray } from '../../core/utils/common-utils.ts';
+import { readResource } from '../data-managers/resources.ts';
+import { users } from '../data-managers/users.ts';
+import { htmlToImage } from '../utils/image-utils.ts';
 
 let storyStyle: string | undefined;
 let fontDataUrl: string | undefined;
