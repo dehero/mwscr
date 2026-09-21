@@ -1,4 +1,4 @@
-import type { Service } from '../entities/service.js';
+import type { Service } from '../entities/service.ts';
 
 export class GitHub implements Service {
   readonly id = 'gh';

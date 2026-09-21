@@ -1,12 +1,12 @@
 import { query } from '@solidjs/router';
-import type { CommentInfo } from '../../../core/entities/comment-info.js';
-import type { DataManager } from '../../../core/entities/data-manager.js';
-import { PostType } from '../../../core/entities/post.js';
-import type { PostInfoSelection } from '../../../core/entities/post-info.js';
-import type { SiteRouteParams } from '../../../core/entities/site-route.js';
-import type { UserProfile } from '../../../core/entities/user.js';
-import { getUserEntryTitle } from '../../../core/entities/user.js';
-import { dataManager } from '../../data-managers/manager.js';
+import type { CommentInfo } from '../../../core/entities/comment-info.ts';
+import type { DataManager } from '../../../core/entities/data-manager.ts';
+import { PostType } from '../../../core/entities/post.ts';
+import type { PostInfoSelection } from '../../../core/entities/post-info.ts';
+import type { SiteRouteParams } from '../../../core/entities/site-route.ts';
+import type { UserProfile } from '../../../core/entities/user.ts';
+import { getUserEntryTitle } from '../../../core/entities/user.ts';
+import { dataManager } from '../../data-managers/manager.ts';
 
 export interface UserPageData {
   title: string;

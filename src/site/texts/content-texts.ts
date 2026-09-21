@@ -1,4 +1,4 @@
-import type { IntlText } from '../../core/entities/intl.js';
+import type { IntlText } from '../../core/entities/intl.ts';
 
 export const contentTexts = {
   download: ['Download', 'Скачать'],

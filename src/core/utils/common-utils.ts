@@ -1,6 +1,6 @@
 import slugify from '@sindresorhus/slugify';
 import md5Hex from 'md5-hex';
-import { jsonDateReviver } from './date-utils.js';
+import { jsonDateReviver } from './date-utils.ts';
 
 export function asArray<T>(value: T | T[] | undefined | null): T[] {
   return Array.isArray(value) ? value : typeof value !== 'undefined' && value != null ? [value] : [];

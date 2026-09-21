@@ -1,6 +1,6 @@
-import type { Location } from '../../core/entities/location.js';
-import { LocationsReader } from '../../core/entities/locations-reader.js';
-import { loadYaml } from './utils/yaml.js';
+import type { Location } from '../../core/entities/location.ts';
+import { LocationsReader } from '../../core/entities/locations-reader.ts';
+import { loadYaml } from './utils/yaml.ts';
 
 export const LOCATIONS_FILENAME = './data/locations.yml';
 

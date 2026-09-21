@@ -10,8 +10,8 @@ import {
 } from '@aws-sdk/client-s3';
 import { Upload } from '@aws-sdk/lib-storage';
 import { Readable } from 'stream';
-import type { StoreItem, StoreManager } from '../../core/entities/store.js';
-import { AbstractS3Store } from '../../core/stores/abstract-s3-store.js';
+import type { StoreItem, StoreManager } from '../../core/entities/store.ts';
+import { AbstractS3Store } from '../../core/stores/abstract-s3-store.ts';
 
 export class S3StoreManager extends AbstractS3Store implements StoreManager {
   readonly name = 'S3';

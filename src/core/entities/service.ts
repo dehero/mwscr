@@ -1,7 +1,7 @@
-import type { Locale } from './intl.js';
-import type { Post, PostEntry } from './post.js';
-import type { Publication } from './publication.js';
-import type { UserProfile } from './user.js';
+import type { Locale } from './intl.ts';
+import type { Post, PostEntry } from './post.ts';
+import type { Publication } from './publication.ts';
+import type { UserProfile } from './user.ts';
 
 export interface ServiceMessagingOptions {
   subject?: string;

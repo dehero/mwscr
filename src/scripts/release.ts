@@ -1,3 +1,3 @@
-import { createRelease } from './functions/create-release.js';
+import { createRelease } from './functions/create-release.ts';
 
 await createRelease();

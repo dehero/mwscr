@@ -1,18 +1,18 @@
 import clsx from 'clsx';
 import { type Component, For, Show } from 'solid-js';
 import { createSignal } from 'solid-js';
-import type { CommentInfo } from '../../../core/entities/comment-info.js';
-import { parsePostPath } from '../../../core/entities/posts-manager.js';
-import { groupBy } from '../../../core/utils/common-utils.js';
-import { dateToString } from '../../../core/utils/date-utils.js';
-import { postRoute } from '../../routes/post-route.js';
-import { texts } from '../../texts/index.js';
-import { localField, localize } from '../../utils/intl-utils.js';
-import { CommentPreview } from '../CommentPreview/CommentPreview.jsx';
-import { Divider } from '../Divider/Divider.jsx';
-import { Frame } from '../Frame/Frame.jsx';
-import { PostContentPreview } from '../PostContentPreview/PostContentPreview.jsx';
-import { PostTooltip } from '../PostTooltip/PostTooltip.jsx';
+import type { CommentInfo } from '../../../core/entities/comment-info.ts';
+import { parsePostPath } from '../../../core/entities/posts-manager.ts';
+import { groupBy } from '../../../core/utils/common-utils.ts';
+import { dateToString } from '../../../core/utils/date-utils.ts';
+import { postRoute } from '../../routes/post-route.ts';
+import { texts } from '../../texts/index.ts';
+import { localField, localize } from '../../utils/intl-utils.ts';
+import { CommentPreview } from '../CommentPreview/CommentPreview.tsx';
+import { Divider } from '../Divider/Divider.tsx';
+import { Frame } from '../Frame/Frame.tsx';
+import { PostContentPreview } from '../PostContentPreview/PostContentPreview.tsx';
+import { PostTooltip } from '../PostTooltip/PostTooltip.tsx';
 import styles from './CommentPreviews.module.css';
 
 export interface CommentPreviewsProps {

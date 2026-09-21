@@ -1,19 +1,19 @@
 import { Match, Switch } from 'solid-js';
-import { NONE_OPTION } from '../../../core/entities/option.js';
-import { useLocalPatch } from '../../hooks/useLocalPatch.js';
-import { postsRoute } from '../../routes/posts-route.js';
-import { texts } from '../../texts/index.js';
-import { localize } from '../../utils/intl-utils.js';
-import { Button } from '../Button/Button.jsx';
-import { DataPatchEditor } from '../DataPatchEditor/DataPatchEditor.jsx';
+import { NONE_OPTION } from '../../../core/entities/option.ts';
+import { useLocalPatch } from '../../hooks/useLocalPatch.ts';
+import { postsRoute } from '../../routes/posts-route.ts';
+import { texts } from '../../texts/index.ts';
+import { localize } from '../../utils/intl-utils.ts';
+import { Button } from '../Button/Button.tsx';
+import { DataPatchEditor } from '../DataPatchEditor/DataPatchEditor.tsx';
 import {
   createDetachedDialogFragment,
   type DetachedDialog,
-} from '../DetachedDialogsProvider/DetachedDialogsProvider.jsx';
-import { Dialog } from '../Dialog/Dialog.jsx';
-import { Frame } from '../Frame/Frame.jsx';
-import { Icon } from '../Icon/Icon.jsx';
-import { SettingsEditor } from '../SettingsEditor/SettingsEditor.jsx';
+} from '../DetachedDialogsProvider/DetachedDialogsProvider.tsx';
+import { Dialog } from '../Dialog/Dialog.tsx';
+import { Frame } from '../Frame/Frame.tsx';
+import { Icon } from '../Icon/Icon.tsx';
+import { SettingsEditor } from '../SettingsEditor/SettingsEditor.tsx';
 import styles from './ContributingDialog.module.css';
 
 export type ContributingDialogTab = 'patch' | 'variants' | 'settings';

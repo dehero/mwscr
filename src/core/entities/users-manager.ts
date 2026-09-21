@@ -1,8 +1,8 @@
-import { textToId } from '../utils/common-utils.js';
-import type { ListReaderEntry } from './list-manager.js';
-import { ListManager, ListManagerPatch } from './list-manager.js';
-import type { UserProfile } from './user.js';
-import { isUserEqual, isUserNameReadable, isUserProfileEqual, mergeUserWith, User } from './user.js';
+import { textToId } from '../utils/common-utils.ts';
+import type { ListReaderEntry } from './list-manager.ts';
+import { ListManager, ListManagerPatch } from './list-manager.ts';
+import type { UserProfile } from './user.ts';
+import { isUserEqual, isUserNameReadable, isUserProfileEqual, mergeUserWith, User } from './user.ts';
 
 export const UsersManagerPatch = ListManagerPatch<User>(User);
 export type UsersManagerPatch = ListManagerPatch<User>;

@@ -1,15 +1,15 @@
 import type { SearchParams } from '@solidjs/router';
 import { query } from '@solidjs/router';
-import type { DataManager } from '../../../core/entities/data-manager.js';
-import type { LocationInfo } from '../../../core/entities/location-info.js';
-import type { SelectPostInfosParams } from '../../../core/entities/post-info.js';
-import type { PostsManagerName } from '../../../core/entities/posts-manager.js';
-import type { SiteRouteParams } from '../../../core/entities/site-route.js';
-import type { TagInfo } from '../../../core/entities/tag-info.js';
-import type { UserInfo } from '../../../core/entities/user-info.js';
-import { cleanupUndefinedProps, unknownToString } from '../../../core/utils/common-utils.js';
-import { dateRangeToString } from '../../../core/utils/date-utils.js';
-import { dataManager } from '../../data-managers/manager.js';
+import type { DataManager } from '../../../core/entities/data-manager.ts';
+import type { LocationInfo } from '../../../core/entities/location-info.ts';
+import type { SelectPostInfosParams } from '../../../core/entities/post-info.ts';
+import type { PostsManagerName } from '../../../core/entities/posts-manager.ts';
+import type { SiteRouteParams } from '../../../core/entities/site-route.ts';
+import type { TagInfo } from '../../../core/entities/tag-info.ts';
+import type { UserInfo } from '../../../core/entities/user-info.ts';
+import { cleanupUndefinedProps, unknownToString } from '../../../core/utils/common-utils.ts';
+import { dateRangeToString } from '../../../core/utils/date-utils.ts';
+import { dataManager } from '../../data-managers/manager.ts';
 
 export interface PostsPageSearchParams extends SearchParams {
   type?: string;

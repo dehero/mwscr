@@ -1,10 +1,10 @@
-import type { GithubIssue } from '../../../core/entities/github-issue.js';
-import { userName, userProfileIg, userProfileTg, userProfileVk } from '../../../core/entities/github-issue-field.js';
-import type { ListReaderEntry } from '../../../core/entities/list-manager.js';
-import { mergeUserWith, type User } from '../../../core/entities/user.js';
-import { getRevisionHash } from '../../../core/utils/common-utils.js';
-import { saveUserAvatar } from '../../data-managers/store-resources.js';
-import { users } from '../../data-managers/users.js';
+import type { GithubIssue } from '../../../core/entities/github-issue.ts';
+import { userName, userProfileIg, userProfileTg, userProfileVk } from '../../../core/entities/github-issue-field.ts';
+import type { ListReaderEntry } from '../../../core/entities/list-manager.ts';
+import { mergeUserWith, type User } from '../../../core/entities/user.ts';
+import { getRevisionHash } from '../../../core/utils/common-utils.ts';
+import { saveUserAvatar } from '../../data-managers/store-resources.ts';
+import { users } from '../../data-managers/users.ts';
 
 const MARKDOWN_LINK_REGEX = /\[([^\]]+)\]\(([^\)]+)\)/g;
 const MARKDOWN_URL_REGEX =

@@ -1,8 +1,8 @@
 import { query } from '@solidjs/router';
-import type { DataManager } from '../../../core/entities/data-manager.js';
-import type { SiteRouteParams } from '../../../core/entities/site-route.js';
-import { type Topic, TOPIC_INDEX_ID } from '../../../core/entities/topic.js';
-import { dataManager } from '../../data-managers/manager.js';
+import type { DataManager } from '../../../core/entities/data-manager.ts';
+import type { SiteRouteParams } from '../../../core/entities/site-route.ts';
+import { type Topic, TOPIC_INDEX_ID } from '../../../core/entities/topic.ts';
+import { dataManager } from '../../data-managers/manager.ts';
 
 export interface HelpPageData {
   indexTopic: Topic;

@@ -1,12 +1,12 @@
-import { texts as coreTexts } from '../../core/texts/index.js';
-import { appTexts } from './app-texts.js';
-import { componentTexts } from './component-texts.js';
-import { contentTexts } from './content-texts.js';
-import { contributingTexts } from './contributing-texts.js';
-import { editingTexts } from './editing-texts.js';
-import { filteringTexts } from './filtering-texts.js';
-import { highlightsTexts } from './highlights-texts.js';
-import { supportTexts } from './support-texts.js';
+import { texts as coreTexts } from '../../core/texts/index.ts';
+import { appTexts } from './app-texts.ts';
+import { componentTexts } from './component-texts.ts';
+import { contentTexts } from './content-texts.ts';
+import { contributingTexts } from './contributing-texts.ts';
+import { editingTexts } from './editing-texts.ts';
+import { filteringTexts } from './filtering-texts.ts';
+import { highlightsTexts } from './highlights-texts.ts';
+import { supportTexts } from './support-texts.ts';
 
 export const texts = {
   ...coreTexts,

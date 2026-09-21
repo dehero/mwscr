@@ -1,5 +1,5 @@
 import 'dotenv/config';
-import { telegramManager } from './posting-service-managers/telegram-manager.js';
+import { telegramManager } from './posting-service-managers/telegram-manager.ts';
 
 const { tg } = await telegramManager.connect();
 

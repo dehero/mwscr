@@ -1,4 +1,4 @@
-import type { PostMark } from '../entities/post.js';
+import type { PostMark } from '../entities/post.ts';
 import {
   getPostAuthorDistance,
   getPostContentDistance,
@@ -9,11 +9,11 @@ import {
   getPostThirdPartyDistance,
   getPostTypeDistance,
   postAddonDescriptors,
-} from '../entities/post.js';
-import type { PublishablePost } from '../entities/posts-manager.js';
-import type { Rule } from '../entities/rule.js';
-import { getDaysPassed } from '../utils/date-utils.js';
-import type { PostingRuleContext } from './posting-rules.js';
+} from '../entities/post.ts';
+import type { PublishablePost } from '../entities/posts-manager.ts';
+import type { Rule } from '../entities/rule.ts';
+import { getDaysPassed } from '../utils/date-utils.ts';
+import type { PostingRuleContext } from './posting-rules.ts';
 
 export type PostCandidateRule = Rule<PublishablePost, PostingRuleContext>;
 

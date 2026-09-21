@@ -1,6 +1,6 @@
-import type { Post, PostMark, PostType } from '../entities/post.js';
-import type { Rule } from '../entities/rule.js';
-import { asArray, listItems } from '../utils/common-utils.js';
+import type { Post, PostMark, PostType } from '../entities/post.ts';
+import type { Rule } from '../entities/rule.ts';
+import { asArray, listItems } from '../utils/common-utils.ts';
 
 export type PostRule = Rule<Post>;
 

@@ -1,5 +1,5 @@
-import type { Location } from '../../core/entities/location.js';
-import { LocationsReader } from '../../core/entities/locations-reader.js';
+import type { Location } from '../../core/entities/location.ts';
+import { LocationsReader } from '../../core/entities/locations-reader.ts';
 
 class SiteLocationsReader extends LocationsReader {
   protected async loadChunkData() {

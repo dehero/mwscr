@@ -1,8 +1,8 @@
 import fs from 'fs/promises';
 import { posix } from 'path';
-import { asArray } from '../../core/utils/common-utils.js';
-import { dataManager } from '../data-managers/manager.js';
-import { createResourcePreview, RESOURCES_PREVIEWS_EXT, RESOURCES_PREVIEWS_PATH } from '../data-managers/resources.js';
+import { asArray } from '../../core/utils/common-utils.ts';
+import { dataManager } from '../data-managers/manager.ts';
+import { createResourcePreview, RESOURCES_PREVIEWS_EXT, RESOURCES_PREVIEWS_PATH } from '../data-managers/resources.ts';
 
 export async function maintainPreviews() {
   console.group('Maintaining previews...');

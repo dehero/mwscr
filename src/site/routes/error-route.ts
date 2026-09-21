@@ -1,7 +1,7 @@
-import type { SiteRoute } from '../../core/entities/site-route.js';
-import { ErrorPage } from '../pages/ErrorPage/ErrorPage.jsx';
-import { texts } from '../texts/index.js';
-import { homeRoute } from './home-route.js';
+import type { SiteRoute } from '../../core/entities/site-route.ts';
+import { ErrorPage } from '../pages/ErrorPage/ErrorPage.tsx';
+import { texts } from '../texts/index.ts';
+import { homeRoute } from './home-route.ts';
 
 export const errorRoute: SiteRoute = {
   path: '*',

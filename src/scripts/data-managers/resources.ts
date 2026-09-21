@@ -2,18 +2,20 @@ import { createWriteStream } from 'fs';
 import fs from 'fs/promises';
 import { posix } from 'path';
 import mime from 'mime';
-import fetch from 'node-fetch';
 import sharp from 'sharp';
+import { Readable } from 'stream';
 import { pipeline } from 'stream/promises';
-import { getUpload } from '../../core/data-managers/uploads-manager.js';
-import type { MediaMetadata } from '../../core/entities/media.js';
-import type { Resource } from '../../core/entities/resource.js';
-import { parseResourceUrl, resourceIsImage, resourceIsVideo } from '../../core/entities/resource.js';
-import { createStoreItemUrl, parseStoreItemUrl } from '../../core/entities/store.js';
-import { site } from '../../core/services/site.js';
-import { textToId } from '../../core/utils/common-utils.js';
-import { storeManager } from '../store-managers/index.js';
-import { pathExists } from '../utils/file-utils.js';
+import { getUpload } from '../../core/data-managers/uploads-manager.ts';
+import type { MediaMetadata } from '../../core/entities/media.ts';
+import type { Resource } from '../../core/entities/resource.ts';
+import { parseResourceUrl, resourceIsImage, resourceIsVideo } from '../../core/entities/resource.ts';
+import { createStoreItemUrl, parseStoreItemUrl } from '../../core/entities/store.ts';
+import { site } from '../../core/services/site.ts';
+import { textToId } from '../../core/utils/common-utils.ts';
+import { storeManager } from '../store-managers/index.ts';
+import { pathExists } from '../utils/file-utils.ts';
+
+type NodeWebStream = Parameters<typeof Readable.fromWeb>[0];
 
 const DEBUG_RESOURCES = Boolean(process.env.DEBUG_RESOURCES) || false;
 
@@ -106,7 +108,7 @@ export async function copyResource(fromUrl: string, toUrl: string): Promise<void
             throw new Error(`Unable to get body for "${fromUrl}"`);
           }
 
-          return pipeline(response.body, stream);
+          return pipeline(Readable.fromWeb(response.body as NodeWebStream), stream);
         }
         default:
       }

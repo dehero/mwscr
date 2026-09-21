@@ -1,13 +1,13 @@
 import clsx from 'clsx';
 import { type Component, For, Show } from 'solid-js';
-import type { IntlText } from '../../../core/entities/intl.js';
-import type { PostInfo, PostInfoSelection } from '../../../core/entities/post-info.js';
-import { listItems } from '../../../core/utils/common-utils.js';
-import { capitalize } from '../../../core/utils/string-utils.js';
-import { texts } from '../../texts/index.js';
-import { isRu, localize } from '../../utils/intl-utils.js';
-import { Label } from '../Label/Label.js';
-import { PostPreview } from '../PostPreview/PostPreview.js';
+import type { IntlText } from '../../../core/entities/intl.ts';
+import type { PostInfo, PostInfoSelection } from '../../../core/entities/post-info.ts';
+import { listItems } from '../../../core/utils/common-utils.ts';
+import { capitalize } from '../../../core/utils/string-utils.ts';
+import { texts } from '../../texts/index.ts';
+import { isRu, localize } from '../../utils/intl-utils.ts';
+import { Label } from '../Label/Label.tsx';
+import { PostPreview } from '../PostPreview/PostPreview.tsx';
 import styles from './PostHighlights.module.css';
 
 export interface PostHighlightsItem {

@@ -1,9 +1,9 @@
-import type { SiteRoutePage, SiteRouteParams } from '../../../core/entities/site-route.js';
-import { AppPage } from '../../components/App/App.jsx';
-import { Frame } from '../../components/Frame/Frame.jsx';
+import type { SiteRoutePage, SiteRouteParams } from '../../../core/entities/site-route.ts';
+import { AppPage } from '../../components/App/App.tsx';
+import { Frame } from '../../components/Frame/Frame.tsx';
 import YellowExclamationMark from '../../images/exclamation.svg';
-import { texts } from '../../texts/index.js';
-import { localize } from '../../utils/intl-utils.js';
+import { texts } from '../../texts/index.ts';
+import { localize } from '../../utils/intl-utils.ts';
 import styles from './ErrorPage.module.css';
 
 export const ErrorPage: SiteRoutePage<SiteRouteParams, unknown> = () => {

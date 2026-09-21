@@ -1,5 +1,5 @@
-import { postRoute } from '../../site/routes/post-route.js';
-import { dataManager } from '../data-managers/manager.js';
+import { postRoute } from '../../site/routes/post-route.ts';
+import { dataManager } from '../data-managers/manager.ts';
 
 const contextFile = 'index.pageContext.json';
 

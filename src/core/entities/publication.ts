@@ -1,9 +1,9 @@
 import type { InferOutput } from 'valibot';
 import { array, date, minValue, nonEmpty, number, object, optional, picklist, pipe, string, unknown } from 'valibot';
-import { asArray } from '../utils/common-utils.js';
-import { getDaysPassed, getMinutesPassed, isDateInRange } from '../utils/date-utils.js';
-import type { CommentsComparator } from './comment.js';
-import { Comment } from './comment.js';
+import { asArray } from '../utils/common-utils.ts';
+import { getDaysPassed, getMinutesPassed, isDateInRange } from '../utils/date-utils.ts';
+import type { CommentsComparator } from './comment.ts';
+import { Comment } from './comment.ts';
 
 export const PUBLICATION_IS_RECENT_DAYS = 31;
 export const PUBLICATION_MINIMUM_GAP_HOURS = 2;

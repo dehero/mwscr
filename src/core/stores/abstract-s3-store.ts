@@ -1,4 +1,4 @@
-import type { Store } from '../entities/store.js';
+import type { Store } from '../entities/store.ts';
 
 export abstract class AbstractS3Store implements Store {
   readonly name = 'S3';

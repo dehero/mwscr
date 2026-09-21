@@ -1,6 +1,6 @@
 import { createEffect } from 'solid-js';
-import { useDataPatchManager } from '../DataPatchManager/DataPatchManager.jsx';
-import type { DetachedDialog } from '../DetachedDialogsProvider/DetachedDialogsProvider.jsx';
+import { useDataPatchManager } from '../DataPatchManager/DataPatchManager.tsx';
+import type { DetachedDialog } from '../DetachedDialogsProvider/DetachedDialogsProvider.tsx';
 
 const DataPatchLoadingDialog: DetachedDialog = (props) => {
   const { loadPatch, patches } = useDataPatchManager();

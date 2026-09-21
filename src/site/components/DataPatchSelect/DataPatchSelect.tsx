@@ -1,12 +1,12 @@
 import clsx from 'clsx';
 import type { Component } from 'solid-js';
 import { createMemo } from 'solid-js';
-import { ORIGINAL_OPTION } from '../../../core/entities/option.js';
-import { stripCommonExtension } from '../../../core/utils/string-utils.js';
-import { useLocalPatch } from '../../hooks/useLocalPatch.js';
-import { useDataPatchManager } from '../DataPatchManager/DataPatchManager.jsx';
-import { DataPatchTooltip } from '../DataPatchTooltip/DataPatchTooltip.jsx';
-import { Select } from '../Select/Select.jsx';
+import { ORIGINAL_OPTION } from '../../../core/entities/option.ts';
+import { stripCommonExtension } from '../../../core/utils/string-utils.ts';
+import { useLocalPatch } from '../../hooks/useLocalPatch.ts';
+import { useDataPatchManager } from '../DataPatchManager/DataPatchManager.tsx';
+import { DataPatchTooltip } from '../DataPatchTooltip/DataPatchTooltip.tsx';
+import { Select } from '../Select/Select.tsx';
 import styles from './DataPatchSelect.module.css';
 
 interface DataPatchSelectProps {

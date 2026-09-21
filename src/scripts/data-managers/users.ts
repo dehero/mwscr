@@ -1,8 +1,8 @@
 import { unlink } from 'fs/promises';
-import type { ListReaderChunk } from '../../core/entities/list-manager.js';
-import type { User } from '../../core/entities/user.js';
-import { UsersManager } from '../../core/entities/users-manager.js';
-import { loadYaml, saveYaml } from './utils/yaml.js';
+import type { ListReaderChunk } from '../../core/entities/list-manager.ts';
+import type { User } from '../../core/entities/user.ts';
+import { UsersManager } from '../../core/entities/users-manager.ts';
+import { loadYaml, saveYaml } from './utils/yaml.ts';
 
 export const USERS_FILENAME = 'data/users.yml';
 

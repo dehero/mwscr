@@ -1,9 +1,9 @@
 import clsx from 'clsx';
 import { type Component, createResource, Show, splitProps } from 'solid-js';
-import { dataManager } from '../../data-managers/manager.js';
-import type { TooltipProps } from '../Tooltip/Tooltip.jsx';
-import { Tooltip } from '../Tooltip/Tooltip.jsx';
-import { TopicMessage } from '../TopicMessage/TopicMessage.jsx';
+import { dataManager } from '../../data-managers/manager.ts';
+import type { TooltipProps } from '../Tooltip/Tooltip.tsx';
+import { Tooltip } from '../Tooltip/Tooltip.tsx';
+import { TopicMessage } from '../TopicMessage/TopicMessage.tsx';
 import styles from './TopicTooltip.module.css';
 
 interface TopicTooltipProps extends Omit<TooltipProps, 'children'> {

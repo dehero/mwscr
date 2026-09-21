@@ -1,19 +1,19 @@
 import 'dotenv/config';
 import { GreenApiClient } from '@green-api/greenapi-integration';
-import { markdownToText } from '../../core/entities/markdown.js';
-import type { PostEntry } from '../../core/entities/post.js';
-import { getPostFirstPublished, getPostPublicationTypeTitle, postAddonDescriptors } from '../../core/entities/post.js';
-import type { Publication } from '../../core/entities/publication.js';
-import type { PostingServiceManager } from '../../core/entities/service.js';
-import type { UserProfile } from '../../core/entities/user.js';
-import { USER_DEFAULT_AUTHOR } from '../../core/entities/user.js';
-import type { MAXPublication } from '../../core/services/max.js';
-import { MAX as MAXService, MAX_CHAT_ID } from '../../core/services/max.js';
-import { asArray } from '../../core/utils/common-utils.js';
-import { formatDate, getDaysPassed } from '../../core/utils/date-utils.js';
-import { locations } from '../data-managers/locations.js';
-import { readResource } from '../data-managers/resources.js';
-import { users } from '../data-managers/users.js';
+import { markdownToText } from '../../core/entities/markdown.ts';
+import type { PostEntry } from '../../core/entities/post.ts';
+import { getPostFirstPublished, getPostPublicationTypeTitle, postAddonDescriptors } from '../../core/entities/post.ts';
+import type { Publication } from '../../core/entities/publication.ts';
+import type { PostingServiceManager } from '../../core/entities/service.ts';
+import type { UserProfile } from '../../core/entities/user.ts';
+import { USER_DEFAULT_AUTHOR } from '../../core/entities/user.ts';
+import type { MAXPublication } from '../../core/services/max.ts';
+import { MAX as MAXService, MAX_CHAT_ID } from '../../core/services/max.ts';
+import { asArray } from '../../core/utils/common-utils.ts';
+import { formatDate, getDaysPassed } from '../../core/utils/date-utils.ts';
+import { locations } from '../data-managers/locations.ts';
+import { readResource } from '../data-managers/resources.ts';
+import { users } from '../data-managers/users.ts';
 
 const DEBUG_PUBLISHING = Boolean(process.env.DEBUG_PUBLISHING) || false;
 

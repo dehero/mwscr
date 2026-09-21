@@ -1,15 +1,15 @@
 import clsx from 'clsx';
 import { createEffect, createSignal, Match, Switch } from 'solid-js';
-import type { DateRange } from '../../../core/utils/common-types.js';
-import { getDecade, getDecadeYearRange } from '../../../core/utils/date-utils.js';
-import { texts } from '../../texts/index.js';
-import { currentLocale, localize } from '../../utils/intl-utils.js';
-import { ArrowIcon } from '../ArrowIcon/ArrowIcon.jsx';
-import { Button } from '../Button/Button.jsx';
+import type { DateRange } from '../../../core/utils/common-types.ts';
+import { getDecade, getDecadeYearRange } from '../../../core/utils/date-utils.ts';
+import { texts } from '../../texts/index.ts';
+import { currentLocale, localize } from '../../utils/intl-utils.ts';
+import { ArrowIcon } from '../ArrowIcon/ArrowIcon.tsx';
+import { Button } from '../Button/Button.tsx';
 import styles from './Calendar.module.css';
-import { Decade } from './Decade.jsx';
-import { Month } from './Month.jsx';
-import { Year } from './Year.jsx';
+import { Decade } from './Decade.tsx';
+import { Month } from './Month.tsx';
+import { Year } from './Year.tsx';
 
 export interface CalendarProps<
   TPeriod extends boolean | undefined,

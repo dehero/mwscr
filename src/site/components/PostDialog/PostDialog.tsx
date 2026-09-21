@@ -14,12 +14,12 @@ import {
 } from 'solid-js';
 import type { InferOutput } from 'valibot';
 import { picklist } from 'valibot';
-import { aspectRatioToReadableText } from '../../../core/entities/media.js';
-import type { Option } from '../../../core/entities/option.js';
-import { EMPTY_OPTION } from '../../../core/entities/option.js';
-import type { Patch } from '../../../core/entities/patch.js';
-import { patchObject } from '../../../core/entities/patch.js';
-import type { Post, PostContent, PostNote } from '../../../core/entities/post.js';
+import { aspectRatioToReadableText } from '../../../core/entities/media.ts';
+import type { Option } from '../../../core/entities/option.ts';
+import { EMPTY_OPTION } from '../../../core/entities/option.ts';
+import type { Patch } from '../../../core/entities/patch.ts';
+import { patchObject } from '../../../core/entities/patch.ts';
+import type { Post, PostContent, PostNote } from '../../../core/entities/post.ts';
 import {
   mergeAuthors,
   mergePostLocations,
@@ -37,27 +37,27 @@ import {
   postTypeDescriptors,
   PostViolation,
   postViolationDescriptors,
-} from '../../../core/entities/post.js';
-import { parsePostPath } from '../../../core/entities/posts-manager.js';
-import { USER_UNKNOWN } from '../../../core/entities/user.js';
-import { asArray, listItems } from '../../../core/utils/common-utils.js';
-import { dateToString } from '../../../core/utils/date-utils.js';
-import { dataManager } from '../../data-managers/manager.js';
-import { texts } from '../../texts/index.js';
-import { localField, localize } from '../../utils/intl-utils.js';
-import { Button } from '../Button/Button.jsx';
-import { DatePicker } from '../DatePicker/DatePicker.jsx';
-import type { DialogProps } from '../Dialog/Dialog.jsx';
-import { Dialog } from '../Dialog/Dialog.jsx';
-import { Input } from '../Input/Input.jsx';
-import { Label } from '../Label/Label.jsx';
-import { LocationTooltip } from '../LocationTooltip/LocationTooltip.jsx';
-import { OptionSelectButton } from '../OptionSelectButton/OptionSelectButton.jsx';
-import { PostContentEditor } from '../PostContentEditor/PostContentEditor.jsx';
-import { PostContentPreview } from '../PostContentPreview/PostContentPreview.jsx';
-import { Select } from '../Select/Select.jsx';
-import { Toast } from '../Toaster/Toaster.jsx';
-import { UserTooltip } from '../UserTooltip/UserTooltip.jsx';
+} from '../../../core/entities/post.ts';
+import { parsePostPath } from '../../../core/entities/posts-manager.ts';
+import { USER_UNKNOWN } from '../../../core/entities/user.ts';
+import { asArray, listItems } from '../../../core/utils/common-utils.ts';
+import { dateToString } from '../../../core/utils/date-utils.ts';
+import { dataManager } from '../../data-managers/manager.ts';
+import { texts } from '../../texts/index.ts';
+import { localField, localize } from '../../utils/intl-utils.ts';
+import { Button } from '../Button/Button.tsx';
+import { DatePicker } from '../DatePicker/DatePicker.tsx';
+import type { DialogProps } from '../Dialog/Dialog.tsx';
+import { Dialog } from '../Dialog/Dialog.tsx';
+import { Input } from '../Input/Input.tsx';
+import { Label } from '../Label/Label.tsx';
+import { LocationTooltip } from '../LocationTooltip/LocationTooltip.tsx';
+import { OptionSelectButton } from '../OptionSelectButton/OptionSelectButton.tsx';
+import { PostContentEditor } from '../PostContentEditor/PostContentEditor.tsx';
+import { PostContentPreview } from '../PostContentPreview/PostContentPreview.tsx';
+import { Select } from '../Select/Select.tsx';
+import { Toast } from '../Toaster/Toaster.tsx';
+import { UserTooltip } from '../UserTooltip/UserTooltip.tsx';
 import styles from './PostDialog.module.css';
 
 export const PostDialogPreset = picklist(['edit', 'locate', 'precise', 'request']);

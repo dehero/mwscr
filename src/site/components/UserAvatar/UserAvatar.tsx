@@ -1,13 +1,13 @@
 import clsx from 'clsx';
 import { type Component, onMount, Show } from 'solid-js';
-import { parseResourceUrl } from '../../../core/entities/resource.js';
-import { getUserTitleLetter } from '../../../core/entities/user.js';
-import { getResourcePreviewUrl } from '../../data-managers/resources.js';
+import { parseResourceUrl } from '../../../core/entities/resource.ts';
+import { getUserTitleLetter } from '../../../core/entities/user.ts';
+import { getResourcePreviewUrl } from '../../data-managers/resources.ts';
 import YellowExclamationMark from '../../images/exclamation.svg';
-import { store } from '../../stores/index.js';
-import { texts } from '../../texts/index.js';
-import { localize } from '../../utils/intl-utils.js';
-import { useToaster } from '../Toaster/Toaster.jsx';
+import { store } from '../../stores/index.ts';
+import { texts } from '../../texts/index.ts';
+import { localize } from '../../utils/intl-utils.ts';
+import { useToaster } from '../Toaster/Toaster.tsx';
 import styles from './UserAvatar.module.css';
 
 export interface UserAvatarProps {

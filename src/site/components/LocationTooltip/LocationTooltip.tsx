@@ -1,13 +1,13 @@
 import type { PositionRelativeToElement } from '@solid-primitives/mouse';
 import { type Component, createResource, Show, splitProps } from 'solid-js';
-import { locationTypeDescriptors } from '../../../core/entities/location.js';
-import type { LocationInfo } from '../../../core/entities/location-info.js';
-import { isPostsUsageEmpty, postsUsageToString } from '../../../core/entities/posts-usage.js';
-import { dataManager } from '../../data-managers/manager.js';
-import { texts } from '../../texts/index.js';
-import { currentLocale, localField, localize } from '../../utils/intl-utils.js';
-import type { TooltipProps } from '../Tooltip/Tooltip.js';
-import { Tooltip } from '../Tooltip/Tooltip.js';
+import { locationTypeDescriptors } from '../../../core/entities/location.ts';
+import type { LocationInfo } from '../../../core/entities/location-info.ts';
+import { isPostsUsageEmpty, postsUsageToString } from '../../../core/entities/posts-usage.ts';
+import { dataManager } from '../../data-managers/manager.ts';
+import { texts } from '../../texts/index.ts';
+import { currentLocale, localField, localize } from '../../utils/intl-utils.ts';
+import type { TooltipProps } from '../Tooltip/Tooltip.tsx';
+import { Tooltip } from '../Tooltip/Tooltip.tsx';
 import styles from './LocationTooltip.module.css';
 
 interface LocationTooltipProps extends Omit<TooltipProps, 'children'> {

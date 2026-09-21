@@ -1,16 +1,16 @@
 import esc from 'escape-html';
 import TelegramBot from 'node-telegram-bot-api';
-import type { PostViolationDescriptor } from '../../core/entities/post.js';
-import { postViolationDescriptors } from '../../core/entities/post.js';
-import type { Resource } from '../../core/entities/resource.js';
-import { site } from '../../core/services/site.js';
-import { telegram } from '../../core/services/telegram.js';
-import { asArray } from '../../core/utils/common-utils.js';
-import { localize } from '../../core/utils/intl-utils.js';
-import { drafts } from '../data-managers/posts.js';
-import { readResource } from '../data-managers/resources.js';
-import { importResourceToStore } from '../data-managers/store-resources.js';
-import { users } from '../data-managers/users.js';
+import type { PostViolationDescriptor } from '../../core/entities/post.ts';
+import { postViolationDescriptors } from '../../core/entities/post.ts';
+import type { Resource } from '../../core/entities/resource.ts';
+import { site } from '../../core/services/site.ts';
+import { telegram } from '../../core/services/telegram.ts';
+import { asArray } from '../../core/utils/common-utils.ts';
+import { localize } from '../../core/utils/intl-utils.ts';
+import { drafts } from '../data-managers/posts.ts';
+import { readResource } from '../data-managers/resources.ts';
+import { importResourceToStore } from '../data-managers/store-resources.ts';
+import { users } from '../data-managers/users.ts';
 
 let bot: TelegramBot | undefined;
 

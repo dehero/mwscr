@@ -1,7 +1,7 @@
 import { readdir, unlink } from 'fs/promises';
-import type { ListReaderChunk } from '../../core/entities/list-manager.js';
-import type { Post } from '../../core/entities/post.js';
-import type { PostsManagerName, Reject } from '../../core/entities/posts-manager.js';
+import type { ListReaderChunk } from '../../core/entities/list-manager.ts';
+import type { Post } from '../../core/entities/post.ts';
+import type { PostsManagerName, Reject } from '../../core/entities/posts-manager.ts';
 import {
   createPublishedPostId,
   Draft,
@@ -10,11 +10,11 @@ import {
   PostsManager,
   PublishablePost,
   RejectOrDraft,
-} from '../../core/entities/posts-manager.js';
-import type { Schema } from '../../core/entities/schema.js';
-import { isObject } from '../../core/utils/object-utils.js';
-import { pathExists } from '../utils/file-utils.js';
-import { loadYaml, saveYaml } from './utils/yaml.js';
+} from '../../core/entities/posts-manager.ts';
+import type { Schema } from '../../core/entities/schema.ts';
+import { isObject } from '../../core/utils/object-utils.ts';
+import { pathExists } from '../utils/file-utils.ts';
+import { loadYaml, saveYaml } from './utils/yaml.ts';
 
 interface LocalPostsManagerProps<TPost extends Post> {
   name: PostsManagerName;

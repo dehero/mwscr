@@ -1,9 +1,9 @@
 import type { RoutePreloadFuncArgs } from '@solidjs/router';
 import { lazy } from 'solid-js';
-import { postsManagerDescriptors, PostsManagerName } from '../../core/entities/posts-manager.js';
-import type { SiteRoute } from '../../core/entities/site-route.js';
-import { type PostsPageData, type PostsPageParams, queryPostsPageData } from '../pages/PostsPage/PostsPage.data.js';
-import { homeRoute } from './home-route.js';
+import { postsManagerDescriptors, PostsManagerName } from '../../core/entities/posts-manager.ts';
+import type { SiteRoute } from '../../core/entities/site-route.ts';
+import { type PostsPageData, type PostsPageParams, queryPostsPageData } from '../pages/PostsPage/PostsPage.data.ts';
+import { homeRoute } from './home-route.ts';
 
 export const postsRoute: SiteRoute<PostsPageParams, PostsPageData> = {
   path: '/:managerName',
@@ -25,6 +25,6 @@ export const postsRoute: SiteRoute<PostsPageParams, PostsPageData> = {
     route: homeRoute,
     params: {},
   }),
-  component: lazy(() => import('../pages/PostsPage/PostsPage.jsx')),
+  component: lazy(() => import('../pages/PostsPage/PostsPage.tsx')),
   preload: ({ params }: RoutePreloadFuncArgs) => queryPostsPageData(params),
 };

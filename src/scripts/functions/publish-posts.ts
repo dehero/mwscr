@@ -1,11 +1,11 @@
-import type { PostEntry } from '../../core/entities/post.js';
-import { comparePostEntriesByDate, getPostDateById } from '../../core/entities/post.js';
-import { PublicPostsManagerName } from '../../core/entities/posts-manager.js';
-import { PUBLICATION_MINIMUM_GAP_HOURS } from '../../core/entities/publication.js';
-import type { PostingServiceManager } from '../../core/entities/service.js';
-import { getHoursPassed } from '../../core/utils/date-utils.js';
-import { dataManager } from '../data-managers/manager.js';
-import { postingServiceManagers } from '../posting-service-managers/index.js';
+import type { PostEntry } from '../../core/entities/post.ts';
+import { comparePostEntriesByDate, getPostDateById } from '../../core/entities/post.ts';
+import { PublicPostsManagerName } from '../../core/entities/posts-manager.ts';
+import { PUBLICATION_MINIMUM_GAP_HOURS } from '../../core/entities/publication.ts';
+import type { PostingServiceManager } from '../../core/entities/service.ts';
+import { getHoursPassed } from '../../core/utils/date-utils.ts';
+import { dataManager } from '../data-managers/manager.ts';
+import { postingServiceManagers } from '../posting-service-managers/index.ts';
 
 export async function publishPosts() {
   console.group(`Publishing posts...`);

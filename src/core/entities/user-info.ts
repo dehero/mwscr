@@ -1,17 +1,17 @@
-import { texts } from '../texts/index.js';
-import type { EntitySelection, SortDirection } from '../utils/common-types.js';
-import { arrayFromAsync, cleanupUndefinedProps, getSearchTokens, search } from '../utils/common-utils.js';
-import { localize } from '../utils/intl-utils.js';
-import type { DataManager } from './data-manager.js';
-import { type IntlText, type Locale } from './intl.js';
-import type { Option } from './option.js';
-import type { PostMark } from './post.js';
-import { getPostMarkFromScore } from './post.js';
-import type { PostsUsage } from './posts-usage.js';
-import { comparePostsUsages, createPostsUsage } from './posts-usage.js';
-import type { ImageResourceUrl } from './resource.js';
-import type { UserRole } from './user.js';
-import { getUserEntryAvatar, getUserEntryTitle, getUserEntryTitleRu, isUserProfileFollowing } from './user.js';
+import { texts } from '../texts/index.ts';
+import type { EntitySelection, SortDirection } from '../utils/common-types.ts';
+import { arrayFromAsync, cleanupUndefinedProps, getSearchTokens, search } from '../utils/common-utils.ts';
+import { localize } from '../utils/intl-utils.ts';
+import type { DataManager } from './data-manager.ts';
+import { type IntlText, type Locale } from './intl.ts';
+import type { Option } from './option.ts';
+import type { PostMark } from './post.ts';
+import { getPostMarkFromScore } from './post.ts';
+import type { PostsUsage } from './posts-usage.ts';
+import { comparePostsUsages, createPostsUsage } from './posts-usage.ts';
+import type { ImageResourceUrl } from './resource.ts';
+import type { UserRole } from './user.ts';
+import { getUserEntryAvatar, getUserEntryTitle, getUserEntryTitleRu, isUserProfileFollowing } from './user.ts';
 
 export interface UserInfo {
   id: string;

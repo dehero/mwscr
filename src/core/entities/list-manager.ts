@@ -1,8 +1,8 @@
 import { DeepProxy } from 'proxy-deep';
 import type { InferOutput } from 'valibot';
 import { null as nullSchema, picklist, record, string, undefined as undefinedSchema, union } from 'valibot';
-import { texts } from '../texts/index.js';
-import { arrayFromAsync, cloneValueWithoutProxy } from '../utils/common-utils.js';
+import { texts } from '../texts/index.ts';
+import { arrayFromAsync, cloneValueWithoutProxy } from '../utils/common-utils.ts';
 import {
   getObjectValue,
   isObject,
@@ -10,11 +10,11 @@ import {
   isProxy,
   mergeObjects,
   setObjectValue,
-} from '../utils/object-utils.js';
-import type { IntlText } from './intl.js';
-import { Patch, patchObject } from './patch.js';
-import type { ObjectSchema, RecordSchema, Schema } from './schema.js';
-import { checkSchema, parseSchema } from './schema.js';
+} from '../utils/object-utils.ts';
+import type { IntlText } from './intl.ts';
+import { Patch, patchObject } from './patch.ts';
+import type { ObjectSchema, RecordSchema, Schema } from './schema.ts';
+import { checkSchema, parseSchema } from './schema.ts';
 
 export const LIST_READER_CHUNK_NAME_DEFAULT = 'default';
 
@@ -473,7 +473,7 @@ export abstract class ListManager<TItem extends object> extends ListReader<TItem
       return [];
     }
 
-    return [...new Set([...Object.keys(this.patch).map((id) => this.getItemChunkName(id))])];
+    return [...new Set(Object.keys(this.patch).map((id) => this.getItemChunkName(id)))];
   }
 
   /**

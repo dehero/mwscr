@@ -3,8 +3,8 @@ import fs from 'fs/promises';
 import { basename, dirname, join as joinPath } from 'path';
 import { finished } from 'node:stream/promises';
 import { Readable } from 'stream';
-import type { StoreItem, StoreManager } from '../../core/entities/store.js';
-import { isDirectory, pathExists } from '../utils/file-utils.js';
+import type { StoreItem, StoreManager } from '../../core/entities/store.ts';
+import { isDirectory, pathExists } from '../utils/file-utils.ts';
 
 export class LocalStoreManager implements StoreManager {
   readonly name = 'Local';

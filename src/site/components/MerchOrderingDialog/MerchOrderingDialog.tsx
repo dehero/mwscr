@@ -1,19 +1,19 @@
 import { createMemo, createResource, createSignal, Show } from 'solid-js';
-import { parsePostPath } from '../../../core/entities/posts-manager.js';
-import { orderingScenarios } from '../../../core/scenarios/ordering.js';
-import { email } from '../../../core/services/email.js';
-import { postingServices } from '../../../core/services/index.js';
-import { dataManager } from '../../data-managers/manager.js';
-import { texts } from '../../texts/index.js';
-import { localField, localize } from '../../utils/intl-utils.js';
-import { Button } from '../Button/Button.jsx';
-import type { DetachedDialog } from '../DetachedDialogsProvider/DetachedDialogsProvider.jsx';
-import { Dialog } from '../Dialog/Dialog.jsx';
-import { Input } from '../Input/Input.jsx';
-import { Label } from '../Label/Label.jsx';
-import { PostPreview } from '../PostPreview/PostPreview.jsx';
-import { Select } from '../Select/Select.jsx';
-import { Toast } from '../Toaster/Toaster.jsx';
+import { parsePostPath } from '../../../core/entities/posts-manager.ts';
+import { orderingScenarios } from '../../../core/scenarios/ordering.ts';
+import { email } from '../../../core/services/email.ts';
+import { postingServices } from '../../../core/services/index.ts';
+import { dataManager } from '../../data-managers/manager.ts';
+import { texts } from '../../texts/index.ts';
+import { localField, localize } from '../../utils/intl-utils.ts';
+import { Button } from '../Button/Button.tsx';
+import type { DetachedDialog } from '../DetachedDialogsProvider/DetachedDialogsProvider.tsx';
+import { Dialog } from '../Dialog/Dialog.tsx';
+import { Input } from '../Input/Input.tsx';
+import { Label } from '../Label/Label.tsx';
+import { PostPreview } from '../PostPreview/PostPreview.tsx';
+import { Select } from '../Select/Select.tsx';
+import { Toast } from '../Toaster/Toaster.tsx';
 import styles from './MerchOrderingDialog.module.css';
 
 const MerchOrderingDialog: DetachedDialog = (props) => {

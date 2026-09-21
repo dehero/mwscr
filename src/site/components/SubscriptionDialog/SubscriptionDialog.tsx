@@ -1,13 +1,13 @@
 import { For } from 'solid-js';
-import { postingServices } from '../../../core/services/index.js';
+import { postingServices } from '../../../core/services/index.ts';
 import bard from '../../images/bard.png';
-import { postsRoute } from '../../routes/posts-route.js';
-import { texts } from '../../texts/index.js';
-import { localize } from '../../utils/intl-utils.js';
-import { Button } from '../Button/Button.js';
-import type { DetachedDialog } from '../DetachedDialogsProvider/DetachedDialogsProvider.jsx';
-import { Dialog } from '../Dialog/Dialog.js';
-import { Frame } from '../Frame/Frame.jsx';
+import { postsRoute } from '../../routes/posts-route.ts';
+import { texts } from '../../texts/index.ts';
+import { localize } from '../../utils/intl-utils.ts';
+import { Button } from '../Button/Button.tsx';
+import type { DetachedDialog } from '../DetachedDialogsProvider/DetachedDialogsProvider.tsx';
+import { Dialog } from '../Dialog/Dialog.tsx';
+import { Frame } from '../Frame/Frame.tsx';
 import styles from './SubscriptionDialog.module.css';
 
 const SubscriptionDialog: DetachedDialog = (props) => {

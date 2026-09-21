@@ -1,7 +1,7 @@
 import type { Component } from 'solid-js';
 import { For, Show } from 'solid-js';
-import { Row } from './Row.jsx';
-import type { TableRow } from './Table.js';
+import { Row } from './Row.tsx';
+import type { TableRow } from './Table.tsx';
 import styles from './Table.module.css';
 
 export interface BodyProps {

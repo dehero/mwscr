@@ -2,9 +2,9 @@ import { debounce } from '@solid-primitives/scheduled';
 import clsx from 'clsx';
 import type { Component, JSX } from 'solid-js';
 import { createEffect, createSignal, onCleanup, onMount, Show } from 'solid-js';
-import { texts } from '../../texts/index.js';
-import { localize } from '../../utils/intl-utils.js';
-import { Frame } from '../Frame/Frame.js';
+import { texts } from '../../texts/index.ts';
+import { localize } from '../../utils/intl-utils.ts';
+import { Frame } from '../Frame/Frame.tsx';
 import styles from './Slider.module.css';
 
 export interface SliderProps {

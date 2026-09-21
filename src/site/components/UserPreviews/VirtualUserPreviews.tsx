@@ -1,8 +1,8 @@
 import { VirtualContainer } from '@minht11/solid-virtual-container';
 import { type Component, Show } from 'solid-js';
-import { USER_PREVIEW_HEIGHT, USER_PREVIEW_MAX_WIDTH, UserPreview } from '../UserPreview/UserPreview.jsx';
-import { Toolbar } from './Toolbar.jsx';
-import type { UserPreviewsProps } from './UserPreviews.jsx';
+import { USER_PREVIEW_HEIGHT, USER_PREVIEW_MAX_WIDTH, UserPreview } from '../UserPreview/UserPreview.tsx';
+import { Toolbar } from './Toolbar.tsx';
+import type { UserPreviewsProps } from './UserPreviews.tsx';
 import styles from './UserPreviews.module.css';
 
 const gap = 8;

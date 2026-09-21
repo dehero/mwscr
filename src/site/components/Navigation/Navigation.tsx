@@ -1,20 +1,20 @@
 import { useCurrentMatches, useLocation, useNavigate } from '@solidjs/router';
 import { type Component, For, Show, useContext } from 'solid-js';
-import type { Option } from '../../../core/entities/option.js';
-import type { SiteRouteReference } from '../../../core/entities/site-route.js';
-import { useLocalPatch } from '../../hooks/useLocalPatch.js';
-import { helpRoute } from '../../routes/help-route.js';
-import { homeRoute } from '../../routes/home-route.js';
-import type { RouteMatch } from '../../routes/index.js';
-import { postsRoute } from '../../routes/posts-route.js';
-import { usersRoute } from '../../routes/users-route.js';
-import { texts } from '../../texts/index.js';
-import { getLocaleSwitchUrl, localize, switchLocale } from '../../utils/intl-utils.js';
-import { AppContext } from '../App/App.js';
-import { Button } from '../Button/Button.js';
-// import { DataPatchSelect } from '../DataPatchSelect/DataPatchSelect.jsx';
-import { createDetachedDialogFragment } from '../DetachedDialogsProvider/DetachedDialogsProvider.jsx';
-import { Select } from '../Select/Select.js';
+import type { Option } from '../../../core/entities/option.ts';
+import type { SiteRouteReference } from '../../../core/entities/site-route.ts';
+import { useLocalPatch } from '../../hooks/useLocalPatch.ts';
+import { helpRoute } from '../../routes/help-route.ts';
+import { homeRoute } from '../../routes/home-route.ts';
+import type { RouteMatch } from '../../routes/index.ts';
+import { postsRoute } from '../../routes/posts-route.ts';
+import { usersRoute } from '../../routes/users-route.ts';
+import { texts } from '../../texts/index.ts';
+import { getLocaleSwitchUrl, localize, switchLocale } from '../../utils/intl-utils.ts';
+import { AppContext } from '../App/App.tsx';
+import { Button } from '../Button/Button.tsx';
+// import { DataPatchSelect } from '../DataPatchSelect/DataPatchSelect.tsx';
+import { createDetachedDialogFragment } from '../DetachedDialogsProvider/DetachedDialogsProvider.tsx';
+import { Select } from '../Select/Select.tsx';
 import styles from './Navigation.module.css';
 
 const navigationItems = [

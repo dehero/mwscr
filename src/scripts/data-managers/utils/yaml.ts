@@ -1,10 +1,10 @@
 import { readFile, writeFile } from 'fs/promises';
 import yaml, { Type } from 'js-yaml';
 import { is } from 'valibot';
-import { Field } from '../../../core/entities/field.js';
-import { PublicationComments } from '../../../core/entities/publication.js';
-import { dateToString, stringToDate } from '../../../core/utils/date-utils.js';
-import { compressData, decompressData } from '../../utils/data-utils.js';
+import { Field } from '../../../core/entities/field.ts';
+import { PublicationComments } from '../../../core/entities/publication.ts';
+import { dateToString, stringToDate } from '../../../core/utils/date-utils.ts';
+import { compressData, decompressData } from '../../utils/data-utils.ts';
 
 const YAML_DATE_REGEXP = /^\d{4}-\d{2}-\d{2}(?:-\d{2}-\d{2}-\d{2})?$/;
 

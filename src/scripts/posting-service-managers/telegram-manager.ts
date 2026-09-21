@@ -9,28 +9,28 @@ import { CustomFile } from 'telegram/client/uploads.js';
 import { Logger, LogLevel } from 'telegram/extensions/Logger.js';
 // eslint-disable-next-line import/extensions
 import { StringSession } from 'telegram/sessions/index.js';
-import { markdownToTelegramHtml } from '../../core/entities/markdown.js';
-import type { Post, PostEntry } from '../../core/entities/post.js';
+import { markdownToTelegramHtml } from '../../core/entities/markdown.ts';
+import type { Post, PostEntry } from '../../core/entities/post.ts';
 import {
   getPostFirstPublished,
   getPostPublicationTypeTitle,
   getPostTypeFromContent,
   postAddonDescriptors,
-} from '../../core/entities/post.js';
-import type { Publication, PublicationComment } from '../../core/entities/publication.js';
-import { parseResourceUrl, RESOURCE_MISSING_IMAGE } from '../../core/entities/resource.js';
-import type { PostingServiceManager } from '../../core/entities/service.js';
-import type { UserProfile, UserProfileType } from '../../core/entities/user.js';
-import { setUserProfileFollowing, USER_DEFAULT_AUTHOR } from '../../core/entities/user.js';
-import { site } from '../../core/services/site.js';
-import type { TelegramPublication } from '../../core/services/telegram.js';
-import { Telegram, TELEGRAM_CHANNEL } from '../../core/services/telegram.js';
-import { asArray } from '../../core/utils/common-utils.js';
-import { formatDate, getDaysPassed } from '../../core/utils/date-utils.js';
-import { readResource } from '../data-managers/resources.js';
-import { saveUserAvatar } from '../data-managers/store-resources.js';
-import { users } from '../data-managers/users.js';
-import { createPostStory } from '../renderers/stories.js';
+} from '../../core/entities/post.ts';
+import type { Publication, PublicationComment } from '../../core/entities/publication.ts';
+import { parseResourceUrl, RESOURCE_MISSING_IMAGE } from '../../core/entities/resource.ts';
+import type { PostingServiceManager } from '../../core/entities/service.ts';
+import type { UserProfile, UserProfileType } from '../../core/entities/user.ts';
+import { setUserProfileFollowing, USER_DEFAULT_AUTHOR } from '../../core/entities/user.ts';
+import { site } from '../../core/services/site.ts';
+import type { TelegramPublication } from '../../core/services/telegram.ts';
+import { Telegram, TELEGRAM_CHANNEL } from '../../core/services/telegram.ts';
+import { asArray } from '../../core/utils/common-utils.ts';
+import { formatDate, getDaysPassed } from '../../core/utils/date-utils.ts';
+import { readResource } from '../data-managers/resources.ts';
+import { saveUserAvatar } from '../data-managers/store-resources.ts';
+import { users } from '../data-managers/users.ts';
+import { createPostStory } from '../renderers/stories.ts';
 
 const DEBUG_PUBLISHING = Boolean(process.env.DEBUG_PUBLISHING) || false;
 

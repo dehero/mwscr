@@ -1,7 +1,7 @@
 import clsx from 'clsx';
 import { type Component, Show } from 'solid-js';
-import type { CommentInfo } from '../../../core/entities/comment-info.js';
-import { Comment } from '../Comment/Comment.jsx';
+import type { CommentInfo } from '../../../core/entities/comment-info.ts';
+import { Comment } from '../Comment/Comment.tsx';
 import styles from './CommentPreview.module.css';
 
 export interface CommentPreviewProps {

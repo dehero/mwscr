@@ -1,13 +1,13 @@
 import type { youtube_v3 } from '@googleapis/youtube';
 import { youtube } from '@googleapis/youtube';
-import type { PostEntry } from '../../core/entities/post.js';
-import type { Publication, PublicationComment } from '../../core/entities/publication.js';
-import type { PostingServiceManager } from '../../core/entities/service.js';
-import type { UserProfile } from '../../core/entities/user.js';
-import { YouTube } from '../../core/services/youtube.js';
-import { getRevisionHash } from '../../core/utils/common-utils.js';
-import { saveUserAvatar } from '../data-managers/store-resources.js';
-import { users } from '../data-managers/users.js';
+import type { PostEntry } from '../../core/entities/post.ts';
+import type { Publication, PublicationComment } from '../../core/entities/publication.ts';
+import type { PostingServiceManager } from '../../core/entities/service.ts';
+import type { UserProfile } from '../../core/entities/user.ts';
+import { YouTube } from '../../core/services/youtube.ts';
+import { getRevisionHash } from '../../core/utils/common-utils.ts';
+import { saveUserAvatar } from '../data-managers/store-resources.ts';
+import { users } from '../data-managers/users.ts';
 
 const YOUTUBE_CHANNEL_ID = 'UCoSD49h3Nrss_Zix8boMwlw';
 

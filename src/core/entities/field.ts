@@ -1,8 +1,8 @@
 import type { InferOutput } from 'valibot';
 import { picklist } from 'valibot';
-import { texts } from '../texts/index.js';
-import { localize } from '../utils/intl-utils.js';
-import type { Locale } from './intl.js';
+import { texts } from '../texts/index.ts';
+import { localize } from '../utils/intl-utils.ts';
+import type { Locale } from './intl.ts';
 
 // Cross-entity field names in order of serialization
 export const Field = picklist([

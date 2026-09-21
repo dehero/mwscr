@@ -1,4 +1,4 @@
-import { type MarkdownLinkReplacer, markdownToInlineHtml } from './markdown.js';
+import { type MarkdownLinkReplacer, markdownToInlineHtml } from './markdown.ts';
 
 export interface Topic {
   title?: string;

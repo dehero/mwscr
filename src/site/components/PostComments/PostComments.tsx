@@ -1,14 +1,14 @@
 import clsx from 'clsx';
 import { type Component, For, Show } from 'solid-js';
-import { compareCommentsByDatetime } from '../../../core/entities/comment.js';
-import { getPublicationsCommentsWithService, type Publication } from '../../../core/entities/publication.js';
-import { groupBy } from '../../../core/utils/common-utils.js';
-import { dateToString, formatDate } from '../../../core/utils/date-utils.js';
-import { texts } from '../../texts/index.js';
-import { currentLocale, localize } from '../../utils/intl-utils.js';
-import { Comment } from '../Comment/Comment.jsx';
-import { Divider } from '../Divider/Divider.js';
-import { Frame } from '../Frame/Frame.js';
+import { compareCommentsByDatetime } from '../../../core/entities/comment.ts';
+import { getPublicationsCommentsWithService, type Publication } from '../../../core/entities/publication.ts';
+import { groupBy } from '../../../core/utils/common-utils.ts';
+import { dateToString, formatDate } from '../../../core/utils/date-utils.ts';
+import { texts } from '../../texts/index.ts';
+import { currentLocale, localize } from '../../utils/intl-utils.ts';
+import { Comment } from '../Comment/Comment.tsx';
+import { Divider } from '../Divider/Divider.tsx';
+import { Frame } from '../Frame/Frame.tsx';
 import styles from './PostComments.module.css';
 
 export interface PostCommentsProps {

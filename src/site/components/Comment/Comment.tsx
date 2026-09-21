@@ -1,14 +1,14 @@
 import clsx from 'clsx';
 import { type Component, Show } from 'solid-js';
 import { createResource, createSignal } from 'solid-js';
-import type { Comment as CommentType } from '../../../core/entities/comment.js';
-import { services } from '../../../core/services/index.js';
-import { formatDate, formatTime } from '../../../core/utils/date-utils.js';
-import { dataManager } from '../../data-managers/manager.js';
-import { userRoute } from '../../routes/user-route.js';
-import { currentLocale, localField } from '../../utils/intl-utils.js';
-import { UserAvatar } from '../UserAvatar/UserAvatar.jsx';
-import { UserTooltip } from '../UserTooltip/UserTooltip.jsx';
+import type { Comment as CommentType } from '../../../core/entities/comment.ts';
+import { services } from '../../../core/services/index.ts';
+import { formatDate, formatTime } from '../../../core/utils/date-utils.ts';
+import { dataManager } from '../../data-managers/manager.ts';
+import { userRoute } from '../../routes/user-route.ts';
+import { currentLocale, localField } from '../../utils/intl-utils.ts';
+import { UserAvatar } from '../UserAvatar/UserAvatar.tsx';
+import { UserTooltip } from '../UserTooltip/UserTooltip.tsx';
 import styles from './Comment.module.css';
 
 export interface CommentProps {

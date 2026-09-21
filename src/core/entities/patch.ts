@@ -1,7 +1,7 @@
 import { nullable, object, partial } from 'valibot';
-import { isPlainObject } from '../utils/object-utils.js';
-import type { UndefinedToNull } from '../utils/type-utils.js';
-import type { ObjectSchema, Schema } from './schema.js';
+import { isPlainObject } from '../utils/object-utils.ts';
+import type { UndefinedToNull } from '../utils/type-utils.ts';
+import type { ObjectSchema, Schema } from './schema.ts';
 
 export type Patch<T> = Partial<{
   [K in keyof T]: T[K] extends Array<infer U> | undefined ? Array<Patch<U>> | null : UndefinedToNull<T[K]>;

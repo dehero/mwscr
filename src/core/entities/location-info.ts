@@ -1,13 +1,13 @@
-import type { SortDirection } from '../utils/common-types.js';
-import { arrayFromAsync, cleanupUndefinedProps, getSearchTokens, search } from '../utils/common-utils.js';
-import type { DataManager } from './data-manager.js';
-import type { Location, LocationCell, LocationType } from './location.js';
-import { isNestedLocation } from './location.js';
-import type { Option } from './option.js';
-import { type PostAddon, postAddonDescriptors } from './post.js';
-import type { PostsUsage } from './posts-usage.js';
-import { createPostsUsage } from './posts-usage.js';
-import { locationToWorldMapPolygonSvg } from './world-map.js';
+import type { SortDirection } from '../utils/common-types.ts';
+import { arrayFromAsync, cleanupUndefinedProps, getSearchTokens, search } from '../utils/common-utils.ts';
+import type { DataManager } from './data-manager.ts';
+import type { Location, LocationCell, LocationType } from './location.ts';
+import { isNestedLocation } from './location.ts';
+import type { Option } from './option.ts';
+import { type PostAddon, postAddonDescriptors } from './post.ts';
+import type { PostsUsage } from './posts-usage.ts';
+import { createPostsUsage } from './posts-usage.ts';
+import { locationToWorldMapPolygonSvg } from './world-map.ts';
 
 export interface LocationInfo {
   title: string;

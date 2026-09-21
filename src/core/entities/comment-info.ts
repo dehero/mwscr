@@ -1,8 +1,8 @@
-import { type Comment, compareCommentsByDatetime } from './comment.js';
-import type { DataManager } from './data-manager.js';
-import type { PostAspectRatio, PostContent } from './post.js';
-import { createPostPath } from './posts-manager.js';
-import { getPublicationsCommentsWithService } from './publication.js';
+import { type Comment, compareCommentsByDatetime } from './comment.ts';
+import type { DataManager } from './data-manager.ts';
+import type { PostAspectRatio, PostContent } from './post.ts';
+import { createPostPath } from './posts-manager.ts';
+import { getPublicationsCommentsWithService } from './publication.ts';
 
 export interface CommentInfo extends Comment {
   service: string;

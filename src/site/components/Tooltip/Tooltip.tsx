@@ -6,8 +6,8 @@ import clsx from 'clsx';
 import type { Component, JSX } from 'solid-js';
 import { createEffect, createMemo, createSignal, For, onCleanup, Show } from 'solid-js';
 import { Portal } from 'solid-js/web';
-import { Button } from '../Button/Button.jsx';
-import { Frame } from '../Frame/Frame.js';
+import { Button } from '../Button/Button.tsx';
+import { Frame } from '../Frame/Frame.tsx';
 import styles from './Tooltip.module.css';
 
 const CURSOR_OFFSET_X = 8;

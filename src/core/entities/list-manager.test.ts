@@ -2,12 +2,12 @@ import type { IFs } from 'memfs';
 import { memfs } from 'memfs';
 import assert from 'node:assert';
 import test, { afterEach } from 'node:test';
-import { test2016ShotSkar, test2024WallpaperSuran, test2025ReferencedPostId } from '../../test-data/posts.js';
-import { jsonDateReviver } from '../utils/date-utils.js';
-import type { ListReaderChunk } from './list-manager.js';
-import { ListManager } from './list-manager.js';
-import { mergePostWith, Post } from './post.js';
-import type { Schema } from './schema.js';
+import { test2016ShotSkar, test2024WallpaperSuran, test2025ReferencedPostId } from '../../test-data/posts.ts';
+import { jsonDateReviver } from '../utils/date-utils.ts';
+import type { ListReaderChunk } from './list-manager.ts';
+import { ListManager } from './list-manager.ts';
+import { mergePostWith, Post } from './post.ts';
+import type { Schema } from './schema.ts';
 
 const initialData = {
   '2024.json': JSON.stringify(Object.fromEntries([test2024WallpaperSuran])),

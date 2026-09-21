@@ -1,9 +1,9 @@
 import picomatch from 'picomatch';
 import type { InferOutput } from 'valibot';
 import { literal, number, union } from 'valibot';
-import { dateToString, stringToDate } from '../utils/date-utils.js';
-import type { PostType } from './post.js';
-import { parseResourceUrl } from './resource.js';
+import { dateToString, stringToDate } from '../utils/date-utils.ts';
+import type { PostType } from './post.ts';
+import { parseResourceUrl } from './resource.ts';
 
 export const STORE_SHOTS_DIR = 'shots';
 export const STORE_ORIGINAL_DIR = 'original';

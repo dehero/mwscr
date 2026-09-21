@@ -1,7 +1,7 @@
 import type { InferOutput } from 'valibot';
 import { nonEmpty, object, pipe, string } from 'valibot';
-import { Publication } from '../entities/publication.js';
-import type { PostingService } from '../entities/service.js';
+import { Publication } from '../entities/publication.ts';
+import type { PostingService } from '../entities/service.ts';
 
 export const AVITO_USERNAME = '8a8937fb057879595b5e7c941d5ff1eb';
 

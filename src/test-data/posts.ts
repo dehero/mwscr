@@ -1,4 +1,4 @@
-import type { PostEntry } from '../core/entities/post.js';
+import type { PostEntry } from '../core/entities/post.ts';
 
 export const test2016ShotSkar: PostEntry = [
   '2016-11-20-ald-ruhn-under-skar',

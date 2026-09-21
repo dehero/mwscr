@@ -1,7 +1,7 @@
 /* eslint-disable sonarjs/no-duplicate-string */
 import assert from 'node:assert';
 import { test } from 'node:test';
-import { stringToDate } from '../utils/date-utils.js';
+import { stringToDate } from '../utils/date-utils.ts';
 import {
   createStoreItemUrl,
   parseStoreItemUrl,
@@ -18,7 +18,7 @@ import {
   STORE_VIDEOS_DIR,
   STORE_WALLPAPERS_DIR,
   storeIncludesPath,
-} from './store.js';
+} from './store.ts';
 
 test('storeIncludesPath', async (t) => {
   const paths = ['shots/2016-11-20.1.dren-plantation.png', 'drawings/2019-05-08.an-old-bridge.png'];

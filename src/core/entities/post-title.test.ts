@@ -1,6 +1,6 @@
 import assert from 'node:assert';
 import { test } from 'node:test';
-import { postTitleFromString } from './post-title.js';
+import { postTitleFromString } from './post-title.ts';
 
 test('postTitleFromString', async (t) => {
   await t.test('should turn a string into post title', () => {

@@ -1,13 +1,13 @@
 import type { RouteDefinition } from '@solidjs/router';
-import type { SiteRouteParams, SiteRouteReference } from '../../core/entities/site-route.js';
-import { errorRoute } from './error-route.js';
-import { helpRoute } from './help-route.js';
-import { homeRoute } from './home-route.js';
-import { imageEditorRoute } from './image-editor-route.js';
-import { postRoute } from './post-route.js';
-import { postsRoute } from './posts-route.js';
-import { userRoute } from './user-route.js';
-import { usersRoute } from './users-route.js';
+import type { SiteRouteParams, SiteRouteReference } from '../../core/entities/site-route.ts';
+import { errorRoute } from './error-route.ts';
+import { helpRoute } from './help-route.ts';
+import { homeRoute } from './home-route.ts';
+import { imageEditorRoute } from './image-editor-route.ts';
+import { postRoute } from './post-route.ts';
+import { postsRoute } from './posts-route.ts';
+import { userRoute } from './user-route.ts';
+import { usersRoute } from './users-route.ts';
 
 export const routes: RouteDefinition[] = [
   homeRoute as RouteDefinition,

@@ -1,5 +1,5 @@
 import type { Component } from 'solid-js';
-import { type PostType, postTypeDescriptors } from '../../../core/entities/post.js';
+import { type PostType, postTypeDescriptors } from '../../../core/entities/post.ts';
 import Achievement from '../../images/post-type-achievement.svg';
 import Clip from '../../images/post-type-clip.svg';
 import Compilation from '../../images/post-type-compilation.svg';
@@ -11,7 +11,7 @@ import Redrawing from '../../images/post-type-redrawing.svg';
 import Shot from '../../images/post-type-shot.svg';
 import Video from '../../images/post-type-video.svg';
 import Wallpaper from '../../images/post-type-wallpaper.svg';
-import { localize } from '../../utils/intl-utils.js';
+import { localize } from '../../utils/intl-utils.ts';
 
 const glyphs: Record<PostType, string> = {
   shot: Shot,

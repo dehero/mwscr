@@ -1,18 +1,18 @@
 import { type Component, createMemo, For, type JSX, lazy } from 'solid-js';
-import { parseSiteRouteFragment, stringifySiteRouteFragment } from '../../../core/entities/site-route.js';
-import { useHash } from '../../hooks/useHash.js';
+import { parseSiteRouteFragment, stringifySiteRouteFragment } from '../../../core/entities/site-route.ts';
+import { useHash } from '../../hooks/useHash.ts';
 
-const PostEditingDialog = lazy(() => import('../PostEditingDialog/PostEditingDialog.jsx'));
-const PostLocationDialog = lazy(() => import('../PostLocationDialog/PostLocationDialog.jsx'));
-const PostProposalDialog = lazy(() => import('../PostProposalDialog/PostProposalDialog.jsx'));
-const PostRequestDialog = lazy(() => import('../PostRequestDialog/PostRequestDialog.jsx'));
-const PostPrecisingDialog = lazy(() => import('../PostPrecisingDialog/PostPrecisingDialog.jsx'));
-const SubscriptionDialog = lazy(() => import('../SubscriptionDialog/SubscriptionDialog.jsx'));
-const ContributingDialog = lazy(() => import('../ContributingDialog/ContributingDialog.jsx'));
-const SponsorshipDialog = lazy(() => import('../SponsorshipDialog/SponsorshipDialog.jsx'));
-const TopicDialog = lazy(() => import('../TopicDialog/TopicDialog.jsx'));
-const MerchOrderingDialog = lazy(() => import('../MerchOrderingDialog/MerchOrderingDialog.jsx'));
-const DataPatchLoadingDialog = lazy(() => import('../DataPatchLoadingDialog/DataPatchLoadingDialog.jsx'));
+const PostEditingDialog = lazy(() => import('../PostEditingDialog/PostEditingDialog.tsx'));
+const PostLocationDialog = lazy(() => import('../PostLocationDialog/PostLocationDialog.tsx'));
+const PostProposalDialog = lazy(() => import('../PostProposalDialog/PostProposalDialog.tsx'));
+const PostRequestDialog = lazy(() => import('../PostRequestDialog/PostRequestDialog.tsx'));
+const PostPrecisingDialog = lazy(() => import('../PostPrecisingDialog/PostPrecisingDialog.tsx'));
+const SubscriptionDialog = lazy(() => import('../SubscriptionDialog/SubscriptionDialog.tsx'));
+const ContributingDialog = lazy(() => import('../ContributingDialog/ContributingDialog.tsx'));
+const SponsorshipDialog = lazy(() => import('../SponsorshipDialog/SponsorshipDialog.tsx'));
+const TopicDialog = lazy(() => import('../TopicDialog/TopicDialog.tsx'));
+const MerchOrderingDialog = lazy(() => import('../MerchOrderingDialog/MerchOrderingDialog.tsx'));
+const DataPatchLoadingDialog = lazy(() => import('../DataPatchLoadingDialog/DataPatchLoadingDialog.tsx'));
 
 export type DetachedDialogParams = Record<string, string | string[] | undefined>;
 

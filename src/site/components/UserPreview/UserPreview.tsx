@@ -1,13 +1,13 @@
 import clsx from 'clsx';
 import { type Component, createSignal, Show } from 'solid-js';
-import { userRoleDescriptors } from '../../../core/entities/user.js';
-import type { UserInfo } from '../../../core/entities/user-info.js';
-import { userRoute } from '../../routes/user-route.js';
-import { localField, localize } from '../../utils/intl-utils.js';
-import { Frame } from '../Frame/Frame.js';
-import { GoldIcon } from '../GoldIcon/GoldIcon.js';
-import { UserAvatar } from '../UserAvatar/UserAvatar.jsx';
-import { UserTooltip } from '../UserTooltip/UserTooltip.js';
+import { userRoleDescriptors } from '../../../core/entities/user.ts';
+import type { UserInfo } from '../../../core/entities/user-info.ts';
+import { userRoute } from '../../routes/user-route.ts';
+import { localField, localize } from '../../utils/intl-utils.ts';
+import { Frame } from '../Frame/Frame.tsx';
+import { GoldIcon } from '../GoldIcon/GoldIcon.tsx';
+import { UserAvatar } from '../UserAvatar/UserAvatar.tsx';
+import { UserTooltip } from '../UserTooltip/UserTooltip.tsx';
 import styles from './UserPreview.module.css';
 
 export const USER_PREVIEW_MAX_WIDTH = 204;

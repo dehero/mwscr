@@ -1,13 +1,13 @@
 import { query } from '@solidjs/router';
-import type { DataManager } from '../../../core/entities/data-manager.js';
-import type { LocationInfo } from '../../../core/entities/location-info.js';
-import type { PostContent, PostTitle } from '../../../core/entities/post.js';
-import type { PostsManagerName } from '../../../core/entities/posts-manager.js';
-import type { Publication } from '../../../core/entities/publication.js';
-import type { SiteRouteParams } from '../../../core/entities/site-route.js';
-import type { TagInfo } from '../../../core/entities/tag-info.js';
-import { dataManager } from '../../data-managers/manager.js';
-import type { PostPageSearchParams } from './PostPage.jsx';
+import type { DataManager } from '../../../core/entities/data-manager.ts';
+import type { LocationInfo } from '../../../core/entities/location-info.ts';
+import type { PostContent, PostTitle } from '../../../core/entities/post.ts';
+import type { PostsManagerName } from '../../../core/entities/posts-manager.ts';
+import type { Publication } from '../../../core/entities/publication.ts';
+import type { SiteRouteParams } from '../../../core/entities/site-route.ts';
+import type { TagInfo } from '../../../core/entities/tag-info.ts';
+import { dataManager } from '../../data-managers/manager.ts';
+import type { PostPageSearchParams } from './PostPage.tsx';
 
 export interface PostPageData {
   title: PostTitle | undefined;

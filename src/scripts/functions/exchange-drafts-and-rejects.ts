@@ -1,6 +1,6 @@
-import { isReject } from '../../core/entities/posts-manager.js';
-import { drafts, rejects } from '../data-managers/posts.js';
-import { moveDraftResourcesToTrash, restoreRejectResources } from '../data-managers/store-resources.js';
+import { isReject } from '../../core/entities/posts-manager.ts';
+import { drafts, rejects } from '../data-managers/posts.ts';
+import { moveDraftResourcesToTrash, restoreRejectResources } from '../data-managers/store-resources.ts';
 
 export async function exchangeDraftsAndRejects() {
   console.group('Exchanging drafts and rejects...');

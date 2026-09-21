@@ -1,6 +1,6 @@
 import assert from 'node:assert';
 import { test } from 'node:test';
-import { aspectRatioFromSize, checkMediaAspectRatio, getAspectRatioHeightMultiplier } from './media.js';
+import { aspectRatioFromSize, checkMediaAspectRatio, getAspectRatioHeightMultiplier } from './media.ts';
 
 test('aspectRatioFromSize', async (t) => {
   await t.test('should correctly calculate aspect ratio', () => {

@@ -1,10 +1,10 @@
 import type { JSX } from 'solid-js';
 import { createMemo, createSignal } from 'solid-js';
-import type { Option } from '../../../core/entities/option.js';
-import { localize } from '../../utils/intl-utils.js';
-import type { ButtonProps } from '../Button/Button.jsx';
-import { Button } from '../Button/Button.jsx';
-import { OptionSelectDialog } from '../OptionSelectDialog/OptionSelectDialog.jsx';
+import type { Option } from '../../../core/entities/option.ts';
+import { localize } from '../../utils/intl-utils.ts';
+import type { ButtonProps } from '../Button/Button.tsx';
+import { Button } from '../Button/Button.tsx';
+import { OptionSelectDialog } from '../OptionSelectDialog/OptionSelectDialog.tsx';
 
 export interface OptionSelectButtonProps<T> extends Omit<ButtonProps, 'title' | 'onChange'> {
   value: T | undefined;

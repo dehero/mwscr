@@ -1,6 +1,6 @@
 import assert from 'assert';
 import { test } from 'node:test';
-import { asArray, greatestCommonDivisor, listItems, textToId } from './common-utils.js';
+import { asArray, greatestCommonDivisor, listItems, textToId } from './common-utils.ts';
 
 test('asArray', async (t) => {
   await t.test('should return an empty array when the value is undefined', () => {

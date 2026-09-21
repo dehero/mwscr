@@ -1,5 +1,5 @@
-import type { Store } from '../entities/store.js';
-import { site } from '../services/site.js';
+import type { Store } from '../entities/store.ts';
+import { site } from '../services/site.ts';
 
 export abstract class AbstractSiteStore implements Store {
   readonly name = 'Site';

@@ -1,15 +1,15 @@
 import type { InferOutput } from 'valibot';
 import { array, date, is, nonEmpty, object, optional, picklist, pipe, string, transform, trim, union } from 'valibot';
-import { texts } from '../texts/index.js';
-import type { SortDirection } from '../utils/common-types.js';
-import { arrayFromAsync, asArray, cleanupUndefinedProps } from '../utils/common-utils.js';
-import { dateToString, stringToDate } from '../utils/date-utils.js';
-import { localize } from '../utils/intl-utils.js';
-import type { IntlText, Locale } from './intl.js';
-import type { ListReaderEntry } from './list-manager.js';
-import { areNestedLocations as areRelatedLocations } from './location.js';
-import { postTitleFromString } from './post-title.js';
-import { PostDescription, PostVariant } from './post-variant.js';
+import { texts } from '../texts/index.ts';
+import type { SortDirection } from '../utils/common-types.ts';
+import { arrayFromAsync, asArray, cleanupUndefinedProps } from '../utils/common-utils.ts';
+import { dateToString, stringToDate } from '../utils/date-utils.ts';
+import { localize } from '../utils/intl-utils.ts';
+import type { IntlText, Locale } from './intl.ts';
+import type { ListReaderEntry } from './list-manager.ts';
+import { areNestedLocations as areRelatedLocations } from './location.ts';
+import { postTitleFromString } from './post-title.ts';
+import { PostDescription, PostVariant } from './post-variant.ts';
 import {
   getPublicationEngagement,
   getPublicationsStats,
@@ -17,9 +17,9 @@ import {
   isPublicationEqual,
   mergePublications,
   Publication,
-} from './publication.js';
-import { RESOURCE_MISSING_IMAGE, RESOURCE_MISSING_VIDEO, ResourceUrl } from './resource.js';
-import { USER_DEFAULT_AUTHOR } from './user.js';
+} from './publication.ts';
+import { RESOURCE_MISSING_IMAGE, RESOURCE_MISSING_VIDEO, ResourceUrl } from './resource.ts';
+import { USER_DEFAULT_AUTHOR } from './user.ts';
 
 export const PostTitle = pipe(string(), transform(postTitleFromString), trim(), nonEmpty());
 export const PostTitleRu = pipe(string(), trim(), nonEmpty());
@@ -626,7 +626,7 @@ export function mergePostContents(
   content2?: PostContent | undefined,
   exclude?: boolean,
 ) {
-  const urls1 = new Set([...asArray(content1)]);
+  const urls1 = new Set(asArray(content1));
   const urls2 = asArray(content2);
 
   for (const url2 of urls2) {

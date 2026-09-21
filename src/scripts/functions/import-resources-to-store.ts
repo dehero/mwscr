@@ -1,11 +1,11 @@
-import type { PostEntry } from '../../core/entities/post.js';
-import { mergePostContents, PostContentField, postViolationDescriptors } from '../../core/entities/post.js';
-import type { DraftProposal } from '../../core/entities/posts-manager.js';
-import { parseResourceUrl } from '../../core/entities/resource.js';
-import { asArray, listItems } from '../../core/utils/common-utils.js';
-import { localize } from '../../core/utils/intl-utils.js';
-import { drafts } from '../data-managers/posts.js';
-import { importResourceToStore } from '../data-managers/store-resources.js';
+import type { PostEntry } from '../../core/entities/post.ts';
+import { mergePostContents, PostContentField, postViolationDescriptors } from '../../core/entities/post.ts';
+import type { DraftProposal } from '../../core/entities/posts-manager.ts';
+import { parseResourceUrl } from '../../core/entities/resource.ts';
+import { asArray, listItems } from '../../core/utils/common-utils.ts';
+import { localize } from '../../core/utils/intl-utils.ts';
+import { drafts } from '../data-managers/posts.ts';
+import { importResourceToStore } from '../data-managers/store-resources.ts';
 
 export async function importResourcesToStore() {
   console.group(`Importing external resources to store...`);

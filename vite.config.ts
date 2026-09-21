@@ -3,14 +3,14 @@ import fastGlob from 'fast-glob';
 import { load } from 'js-yaml';
 import { defineConfig, loadEnv } from 'vite';
 import { imagetools } from 'vite-imagetools';
-// import { getConstantRedirects } from './src/scripts/utils/vite-utils.js';
+// import { getConstantRedirects } from './src/scripts/utils/vite-utils.ts';
 import solidPlugin from 'vite-plugin-solid';
 import { viteStaticCopy } from 'vite-plugin-static-copy';
-import pkg from './package.json';
-import { PostsManagerName } from './src/core/entities/posts-manager.js';
-import { createTopicEntryFromMarkdown } from './src/core/entities/topic.js';
-import { dataManager } from './src/scripts/data-managers/manager.js';
-import { YAML_SCHEMA } from './src/scripts/data-managers/utils/yaml.js';
+import pkg from './package.json' with { type: 'json' };
+import { PostsManagerName } from './src/core/entities/posts-manager.ts';
+import { createTopicEntryFromMarkdown } from './src/core/entities/topic.ts';
+import { dataManager } from './src/scripts/data-managers/manager.ts';
+import { YAML_SCHEMA } from './src/scripts/data-managers/utils/yaml.ts';
 
 export default defineConfig(({ mode }) => ({
   root: 'src/site',

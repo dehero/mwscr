@@ -1,9 +1,9 @@
-import { locationMatchesString } from '../../core/entities/location.js';
-import { RESOURCE_MISSING_IMAGE } from '../../core/entities/resource.js';
-import { asArray } from '../../core/utils/common-utils.js';
-import { locations } from '../data-managers/locations.js';
-import { drafts, posts, postsManagers } from '../data-managers/posts.js';
-import { resourceExists } from '../data-managers/resources.js';
+import { locationMatchesString } from '../../core/entities/location.ts';
+import { RESOURCE_MISSING_IMAGE } from '../../core/entities/resource.ts';
+import { asArray } from '../../core/utils/common-utils.ts';
+import { locations } from '../data-managers/locations.ts';
+import { drafts, posts, postsManagers } from '../data-managers/posts.ts';
+import { resourceExists } from '../data-managers/resources.ts';
 
 export async function checkPosts() {
   console.group('Checking published and pending posts...');

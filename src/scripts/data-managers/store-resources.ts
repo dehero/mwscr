@@ -1,15 +1,15 @@
 import { posix } from 'path/posix';
 import decompress from 'decompress';
 import mime from 'mime';
-import type { PostContent, PostEntry, PostViolation } from '../../core/entities/post.js';
-import { mergePostContents, parsePostId } from '../../core/entities/post.js';
-import { postTitleFromString } from '../../core/entities/post-title.js';
-import type { Draft, DraftProposal, PublishablePost, Reject } from '../../core/entities/posts-manager.js';
-import { createDraftId } from '../../core/entities/posts-manager.js';
-import type { Resource, ResourceType } from '../../core/entities/resource.js';
-import { ImageResourceUrl, parseResourceUrl, RESOURCE_MISSING_IMAGE } from '../../core/entities/resource.js';
-import { checkRules } from '../../core/entities/rule.js';
-import { assertSchema } from '../../core/entities/schema.js';
+import type { PostContent, PostEntry, PostViolation } from '../../core/entities/post.ts';
+import { mergePostContents, parsePostId } from '../../core/entities/post.ts';
+import { postTitleFromString } from '../../core/entities/post-title.ts';
+import type { Draft, DraftProposal, PublishablePost, Reject } from '../../core/entities/posts-manager.ts';
+import { createDraftId } from '../../core/entities/posts-manager.ts';
+import type { Resource, ResourceType } from '../../core/entities/resource.ts';
+import { ImageResourceUrl, parseResourceUrl, RESOURCE_MISSING_IMAGE } from '../../core/entities/resource.ts';
+import { checkRules } from '../../core/entities/rule.ts';
+import { assertSchema } from '../../core/entities/schema.ts';
 import {
   createStoreItemUrl,
   getTargetStoreDirFromPostType,
@@ -19,12 +19,12 @@ import {
   STORE_INBOX_DIR,
   STORE_SNAPSHOTS_DIR,
   STORE_TRASH_DIR,
-} from '../../core/entities/store.js';
-import { USER_UNKNOWN } from '../../core/entities/user.js';
-import { importingScenarios } from '../../core/scenarios/importing.js';
-import { asArray, getRevisionHash } from '../../core/utils/common-utils.js';
-import { extractDateFromString } from '../../core/utils/date-utils.js';
-import { storeManager } from '../store-managers/index.js';
+} from '../../core/entities/store.ts';
+import { USER_UNKNOWN } from '../../core/entities/user.ts';
+import { importingScenarios } from '../../core/scenarios/importing.ts';
+import { asArray, getRevisionHash } from '../../core/utils/common-utils.ts';
+import { extractDateFromString } from '../../core/utils/date-utils.ts';
+import { storeManager } from '../store-managers/index.ts';
 import {
   extractResourceMediaMetadata,
   getResourceOriginalUrl,
@@ -32,7 +32,7 @@ import {
   readResource,
   resourceExists,
   writeResource,
-} from './resources.js';
+} from './resources.ts';
 
 export async function importResourceToStore(
   resource: string | Resource,

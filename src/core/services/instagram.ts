@@ -1,6 +1,6 @@
 import type { InferOutput } from 'valibot';
 import { intersect, nonEmpty, object, pipe, string, variant } from 'valibot';
-import { Post, PostTitle } from '../entities/post.js';
+import { Post, PostTitle } from '../entities/post.ts';
 import {
   Achievement,
   Compilation,
@@ -11,10 +11,10 @@ import {
   Redrawing,
   Shot,
   Wallpaper,
-} from '../entities/post-variant.js';
-import { Publication } from '../entities/publication.js';
-import { checkSchema } from '../entities/schema.js';
-import type { PostingService } from '../entities/service.js';
+} from '../entities/post-variant.ts';
+import { Publication } from '../entities/publication.ts';
+import { checkSchema } from '../entities/schema.ts';
+import type { PostingService } from '../entities/service.ts';
 
 export const INSTAGRAM_HIGHLIGHTS_ALBUM_ID = 'aGlnaGxpZ2h0OjE3OTkzNTcwNTM3Mzg1MTA3';
 export const INSTAGRAM_ACCOUNT_ID = '4170501247';

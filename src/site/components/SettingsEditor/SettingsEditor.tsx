@@ -1,14 +1,14 @@
 import clsx from 'clsx';
 import type { Component } from 'solid-js';
 import { createEffect, createSignal } from 'solid-js';
-import { useSettings } from '../../hooks/useSettings.js';
-import { siteStore } from '../../stores/index.js';
-import { texts } from '../../texts/index.js';
-import { localize } from '../../utils/intl-utils.js';
-import { Button } from '../Button/Button.jsx';
-import { Input } from '../Input/Input.jsx';
-import { Label } from '../Label/Label.jsx';
-import { useToaster } from '../Toaster/Toaster.jsx';
+import { useSettings } from '../../hooks/useSettings.ts';
+import { siteStore } from '../../stores/index.ts';
+import { texts } from '../../texts/index.ts';
+import { localize } from '../../utils/intl-utils.ts';
+import { Button } from '../Button/Button.tsx';
+import { Input } from '../Input/Input.tsx';
+import { Label } from '../Label/Label.tsx';
+import { useToaster } from '../Toaster/Toaster.tsx';
 import styles from './SettingsEditor.module.css';
 
 export interface SettingsEditorProps {

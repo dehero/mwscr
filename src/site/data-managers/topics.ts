@@ -1,8 +1,8 @@
-import type { ListReaderChunk } from '../../core/entities/list-manager.js';
-import type { Topic } from '../../core/entities/topic.js';
-import { TopicsReader } from '../../core/entities/topics-reader.js';
-import { jsonDateReviver } from '../../core/utils/date-utils.js';
-import { isObject } from '../../core/utils/object-utils.js';
+import type { ListReaderChunk } from '../../core/entities/list-manager.ts';
+import type { Topic } from '../../core/entities/topic.ts';
+import { TopicsReader } from '../../core/entities/topics-reader.ts';
+import { jsonDateReviver } from '../../core/utils/date-utils.ts';
+import { isObject } from '../../core/utils/object-utils.ts';
 
 class SiteTopicsReader extends TopicsReader {
   async loadChunkNames() {

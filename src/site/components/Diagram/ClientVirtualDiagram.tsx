@@ -3,18 +3,18 @@ import { VirtualContainer } from '@minht11/solid-virtual-container';
 import clsx from 'clsx';
 import { createContext, createSignal, mergeProps, Show, useContext } from 'solid-js';
 import { Dynamic } from 'solid-js/web';
-import { groupBy } from '../../../core/utils/common-utils.js';
-import { texts } from '../../texts/index.js';
-import { localize } from '../../utils/intl-utils.js';
-import { Frame } from '../Frame/Frame.jsx';
-import { Tooltip } from '../Tooltip/Tooltip.jsx';
+import { groupBy } from '../../../core/utils/common-utils.ts';
+import { texts } from '../../texts/index.ts';
+import { localize } from '../../utils/intl-utils.ts';
+import { Frame } from '../Frame/Frame.tsx';
+import { Tooltip } from '../Tooltip/Tooltip.tsx';
 import type {
   DiagramInterval,
   DiagramIntervalIconComponent,
   DiagramIntervalTooltipComponent,
   DiagramIntervalTooltipComponentProps,
   DiagramProps,
-} from './Diagram.jsx';
+} from './Diagram.tsx';
 import styles from './Diagram.module.css';
 
 interface ClientVirtualDiagramContext {

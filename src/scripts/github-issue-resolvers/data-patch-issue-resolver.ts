@@ -1,12 +1,12 @@
-import type { DataPatch } from '../../core/entities/data-patch.js';
-import { stringToDataPatch } from '../../core/entities/data-patch.js';
-import type { GithubIssue, GithubIssueResolver } from '../../core/entities/github-issue.js';
-import { dataPatchName, dataPatchText } from '../../core/entities/github-issue-field.js';
-import { extractUploadFileName } from '../../core/entities/upload.js';
-import { DataPatchIssue } from '../../core/github-issues/data-patch-issue.js';
-import { dataManager } from '../data-managers/manager.js';
-import { readResource } from '../data-managers/resources.js';
-import { extractIssueFieldValue, extractIssueTextareaValue, extractIssueUser } from './utils/issue-utils.js';
+import type { DataPatch } from '../../core/entities/data-patch.ts';
+import { stringToDataPatch } from '../../core/entities/data-patch.ts';
+import type { GithubIssue, GithubIssueResolver } from '../../core/entities/github-issue.ts';
+import { dataPatchName, dataPatchText } from '../../core/entities/github-issue-field.ts';
+import { extractUploadFileName } from '../../core/entities/upload.ts';
+import { DataPatchIssue } from '../../core/github-issues/data-patch-issue.ts';
+import { dataManager } from '../data-managers/manager.ts';
+import { readResource } from '../data-managers/resources.ts';
+import { extractIssueFieldValue, extractIssueTextareaValue, extractIssueUser } from './utils/issue-utils.ts';
 
 export class DataPatchIssueResolver extends DataPatchIssue implements GithubIssueResolver {
   async resolve(issue: GithubIssue) {

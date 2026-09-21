@@ -1,9 +1,9 @@
-import { cleanupUndefinedProps } from '../utils/common-utils.js';
-import { localize } from '../utils/intl-utils.js';
-import type { Locale } from './intl.js';
-import type { ListReaderStats } from './list-manager.js';
-import type { PostsManager } from './posts-manager.js';
-import { postsManagerDescriptors, PostsManagerName } from './posts-manager.js';
+import { cleanupUndefinedProps } from '../utils/common-utils.ts';
+import { localize } from '../utils/intl-utils.ts';
+import type { Locale } from './intl.ts';
+import type { ListReaderStats } from './list-manager.ts';
+import type { PostsManager } from './posts-manager.ts';
+import { postsManagerDescriptors, PostsManagerName } from './posts-manager.ts';
 
 export type PostsUsage = Partial<Record<PostsManagerName, number>>;
 

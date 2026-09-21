@@ -5,8 +5,8 @@ import {
   POST_PREVIEW_INFO_MIN_HEIGHT,
   POST_PREVIEW_MAX_WIDTH,
   PostPreview,
-} from '../PostPreview/PostPreview.jsx';
-import type { PostPreviewsProps } from './PostPreviews.jsx';
+} from '../PostPreview/PostPreview.tsx';
+import type { PostPreviewsProps } from './PostPreviews.tsx';
 import styles from './PostPreviews.module.css';
 
 const gap = 8;

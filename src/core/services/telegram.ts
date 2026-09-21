@@ -1,6 +1,6 @@
 import type { InferOutput } from 'valibot';
 import { array, intersect, number, object, union, variant } from 'valibot';
-import { Post, PostTitle } from '../entities/post.js';
+import { Post, PostTitle } from '../entities/post.ts';
 import {
   Achievement,
   Compilation,
@@ -11,10 +11,10 @@ import {
   Redrawing,
   Shot,
   Wallpaper,
-} from '../entities/post-variant.js';
-import { Publication } from '../entities/publication.js';
-import { checkSchema } from '../entities/schema.js';
-import type { PostingService } from '../entities/service.js';
+} from '../entities/post-variant.ts';
+import { Publication } from '../entities/publication.ts';
+import { checkSchema } from '../entities/schema.ts';
+import type { PostingService } from '../entities/service.ts';
 
 export const TELEGRAM_CHANNEL = 'mwscr';
 export const TELEGRAM_BOT_NAME = 'mwscrbot';

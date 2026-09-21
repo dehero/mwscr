@@ -1,9 +1,9 @@
-import type { PostingServiceManager } from '../../core/entities/service.js';
-import { instagramManager } from './instagram-manager.js';
-import { maxManager } from './max-manager.js';
-import { telegramManager } from './telegram-manager.js';
-import { vkManager } from './vk-manager.js';
-import { youtubeManager } from './youtube-manager.js';
+import type { PostingServiceManager } from '../../core/entities/service.ts';
+import { instagramManager } from './instagram-manager.ts';
+import { maxManager } from './max-manager.ts';
+import { telegramManager } from './telegram-manager.ts';
+import { vkManager } from './vk-manager.ts';
+import { youtubeManager } from './youtube-manager.ts';
 
 export const postingServiceManagers: PostingServiceManager[] = [
   instagramManager,

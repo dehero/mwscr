@@ -1,5 +1,5 @@
 import { type Component } from 'solid-js';
-import ClientVirtualDiagram from './ClientVirtualDiagram.jsx';
+import ClientVirtualDiagram from './ClientVirtualDiagram.tsx';
 
 export interface DiagramInterval<TItem> {
   interval: unknown;

@@ -1,8 +1,8 @@
 import clsx from 'clsx';
 import { type Component, createEffect, type JSX, onCleanup, Show } from 'solid-js';
 import { Portal } from 'solid-js/web';
-import { Frame } from '../Frame/Frame.js';
-import { Spacer } from '../Spacer/Spacer.js';
+import { Frame } from '../Frame/Frame.tsx';
+import { Spacer } from '../Spacer/Spacer.tsx';
 import styles from './Dialog.module.css';
 
 export interface DialogProps {

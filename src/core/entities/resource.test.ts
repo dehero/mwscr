@@ -1,7 +1,7 @@
 import assert from 'node:assert';
 import { test } from 'node:test';
 import { is } from 'valibot';
-import { ImageResourceUrl, parseResourceUrl, VideoResourceUrl } from './resource.js';
+import { ImageResourceUrl, parseResourceUrl, VideoResourceUrl } from './resource.ts';
 
 test('ImageResourceUrl', async (t) => {
   await t.test('should be valid if ends with image extension', () => {

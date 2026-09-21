@@ -2,14 +2,14 @@ import { ReactiveMap } from '@solid-primitives/map';
 import type { Component, JSX } from 'solid-js';
 import { createContext, createEffect, createSignal, createUniqueId, For, onCleanup, Show, useContext } from 'solid-js';
 import { isServer } from 'solid-js/web';
-import { texts } from '../../texts/index.js';
-import { localize } from '../../utils/intl-utils.js';
-import { Button } from '../Button/Button.jsx';
-import { Dialog } from '../Dialog/Dialog.js';
-import { Frame } from '../Frame/Frame.js';
-import { Input } from '../Input/Input.jsx';
-import { Label } from '../Label/Label.jsx';
-import { Loader } from '../Loader/Loader.js';
+import { texts } from '../../texts/index.ts';
+import { localize } from '../../utils/intl-utils.ts';
+import { Button } from '../Button/Button.tsx';
+import { Dialog } from '../Dialog/Dialog.tsx';
+import { Frame } from '../Frame/Frame.tsx';
+import { Input } from '../Input/Input.tsx';
+import { Label } from '../Label/Label.tsx';
+import { Loader } from '../Loader/Loader.tsx';
 import styles from './Toaster.module.css';
 
 export interface ToasterContext {

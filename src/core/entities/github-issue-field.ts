@@ -1,4 +1,4 @@
-import { PostAddon, PostEngine, PostMark, PostType } from './post.js';
+import { PostAddon, PostEngine, PostMark, PostType } from './post.ts';
 
 export const postContent = {
   type: 'textarea',

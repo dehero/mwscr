@@ -1,8 +1,8 @@
-import type { PostingServiceManager } from '../../core/entities/service.js';
-import type { UserEntry, UserProfile } from '../../core/entities/user.js';
-import { isUserProfileUpdatable } from '../../core/entities/user.js';
-import { users } from '../data-managers/users.js';
-import { postingServiceManagers } from '../posting-service-managers/index.js';
+import type { PostingServiceManager } from '../../core/entities/service.ts';
+import type { UserEntry, UserProfile } from '../../core/entities/user.ts';
+import { isUserProfileUpdatable } from '../../core/entities/user.ts';
+import { users } from '../data-managers/users.ts';
+import { postingServiceManagers } from '../posting-service-managers/index.ts';
 
 export async function updateUsers() {
   console.group('Updating users...');

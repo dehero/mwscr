@@ -1,6 +1,6 @@
 import clsx from 'clsx';
 import type { Component } from 'solid-js';
-import { markdownToInlineHtml } from '../../../core/entities/markdown.js';
+import { markdownToInlineHtml } from '../../../core/entities/markdown.ts';
 import styles from './Markdown.module.css';
 
 interface MarkdownProps {

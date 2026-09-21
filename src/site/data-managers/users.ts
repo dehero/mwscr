@@ -1,8 +1,8 @@
-import { parseSchema } from '../../core/entities/schema.js';
-import type { User } from '../../core/entities/user.js';
-import { UsersManager, UsersManagerPatch } from '../../core/entities/users-manager.js';
-import { jsonDateReviver } from '../../core/utils/date-utils.js';
-import { setStorageItemWithEvent } from '../utils/storage-utils.js';
+import { parseSchema } from '../../core/entities/schema.ts';
+import type { User } from '../../core/entities/user.ts';
+import { UsersManager, UsersManagerPatch } from '../../core/entities/users-manager.ts';
+import { jsonDateReviver } from '../../core/utils/date-utils.ts';
+import { setStorageItemWithEvent } from '../utils/storage-utils.ts';
 
 export class SiteUsersManager extends UsersManager {
   constructor() {

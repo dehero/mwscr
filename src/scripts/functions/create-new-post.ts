@@ -1,13 +1,13 @@
-import type { PostEntry } from '../../core/entities/post.js';
-import { comparePostEntriesByDate, getPostEntriesFromSource } from '../../core/entities/post.js';
-import type { PostsManager, PublishablePost } from '../../core/entities/posts-manager.js';
-import { isPublishablePost, PublicPostsManagerName } from '../../core/entities/posts-manager.js';
-import { checkRules } from '../../core/entities/rule.js';
-import type { PostingRuleContext } from '../../core/rules/posting-rules.js';
-import type { PostingScenario } from '../../core/scenarios/posting.js';
-import { postingScenarios } from '../../core/scenarios/posting.js';
-import { dataManager } from '../data-managers/manager.js';
-import { movePublishedPostResources } from '../data-managers/store-resources.js';
+import type { PostEntry } from '../../core/entities/post.ts';
+import { comparePostEntriesByDate, getPostEntriesFromSource } from '../../core/entities/post.ts';
+import type { PostsManager, PublishablePost } from '../../core/entities/posts-manager.ts';
+import { isPublishablePost, PublicPostsManagerName } from '../../core/entities/posts-manager.ts';
+import { checkRules } from '../../core/entities/rule.ts';
+import type { PostingRuleContext } from '../../core/rules/posting-rules.ts';
+import type { PostingScenario } from '../../core/scenarios/posting.ts';
+import { postingScenarios } from '../../core/scenarios/posting.ts';
+import { dataManager } from '../data-managers/manager.ts';
+import { movePublishedPostResources } from '../data-managers/store-resources.ts';
 
 const DEBUG_POSTING = Boolean(process.env.DEBUG_POSTING) || false;
 

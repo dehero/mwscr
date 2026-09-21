@@ -1,11 +1,11 @@
 import { createMediaQuery } from '@solid-primitives/media';
 import clsx from 'clsx';
 import { type Component, createMemo, createSignal, Match, onMount, Show, Switch } from 'solid-js';
-import { ListReaderItemStatus, listReaderItemStatusDescriptors } from '../../../core/entities/list-manager.js';
-import type { LocationInfo } from '../../../core/entities/location-info.js';
-import { aspectRatioToReadableText } from '../../../core/entities/media.js';
-import type { Option } from '../../../core/entities/option.js';
-import { ALL_OPTION, ANY_OPTION, ASC_OPTION, DESC_OPTION, NONE_OPTION } from '../../../core/entities/option.js';
+import { ListReaderItemStatus, listReaderItemStatusDescriptors } from '../../../core/entities/list-manager.ts';
+import type { LocationInfo } from '../../../core/entities/location-info.ts';
+import { aspectRatioToReadableText } from '../../../core/entities/media.ts';
+import type { Option } from '../../../core/entities/option.ts';
+import { ALL_OPTION, ANY_OPTION, ASC_OPTION, DESC_OPTION, NONE_OPTION } from '../../../core/entities/option.ts';
 import {
   PostAddon,
   PostAspectRatio,
@@ -14,27 +14,27 @@ import {
   postPlacementDescriptors,
   PostViolation,
   postViolationDescriptors,
-} from '../../../core/entities/post.js';
-import { boolToString, stringToBool } from '../../../core/utils/common-utils.js';
-import { Button } from '../../components/Button/Button.jsx';
-import { Checkbox } from '../../components/Checkbox/Checkbox.jsx';
-import { DatePicker } from '../../components/DatePicker/DatePicker.jsx';
-import { Divider } from '../../components/Divider/Divider.jsx';
-import { Frame } from '../../components/Frame/Frame.jsx';
-import { Input } from '../../components/Input/Input.jsx';
-import { Label } from '../../components/Label/Label.jsx';
-import { LocationTooltip } from '../../components/LocationTooltip/LocationTooltip.jsx';
-import { OverflowContainer } from '../../components/OverflowContainer/OverflowContainer.jsx';
-import { RadioGroup } from '../../components/RadioGroup/RadioGroup.jsx';
-import { Select } from '../../components/Select/Select.jsx';
-import { Table } from '../../components/Table/Table.jsx';
-import { Toast } from '../../components/Toaster/Toaster.jsx';
-import { WorldMap } from '../../components/WorldMap/WorldMap.jsx';
-import { texts } from '../../texts/index.js';
-import { localField, localize } from '../../utils/intl-utils.js';
-import { type FilterKey, postsPageLayouts, type usePostsPageOptions } from './hooks/usePostsPageOptions.js';
+} from '../../../core/entities/post.ts';
+import { boolToString, stringToBool } from '../../../core/utils/common-utils.ts';
+import { Button } from '../../components/Button/Button.tsx';
+import { Checkbox } from '../../components/Checkbox/Checkbox.tsx';
+import { DatePicker } from '../../components/DatePicker/DatePicker.tsx';
+import { Divider } from '../../components/Divider/Divider.tsx';
+import { Frame } from '../../components/Frame/Frame.tsx';
+import { Input } from '../../components/Input/Input.tsx';
+import { Label } from '../../components/Label/Label.tsx';
+import { LocationTooltip } from '../../components/LocationTooltip/LocationTooltip.tsx';
+import { OverflowContainer } from '../../components/OverflowContainer/OverflowContainer.tsx';
+import { RadioGroup } from '../../components/RadioGroup/RadioGroup.tsx';
+import { Select } from '../../components/Select/Select.tsx';
+import { Table } from '../../components/Table/Table.tsx';
+import { Toast } from '../../components/Toaster/Toaster.tsx';
+import { WorldMap } from '../../components/WorldMap/WorldMap.tsx';
+import { texts } from '../../texts/index.ts';
+import { localField, localize } from '../../utils/intl-utils.ts';
+import { type FilterKey, postsPageLayouts, type usePostsPageOptions } from './hooks/usePostsPageOptions.ts';
 import styles from './Options.module.css';
-import type { PostsPageData, PostsPageParams } from './PostsPage.data.js';
+import type { PostsPageData, PostsPageParams } from './PostsPage.data.ts';
 
 interface LocationOption extends Option {
   postCount?: number;

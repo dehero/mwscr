@@ -2,7 +2,7 @@ import { debounce } from '@solid-primitives/scheduled';
 import clsx from 'clsx';
 import type { Component, JSX } from 'solid-js';
 import { createEffect, createSignal, Show } from 'solid-js';
-import { Frame } from '../Frame/Frame.js';
+import { Frame } from '../Frame/Frame.tsx';
 import styles from './Input.module.css';
 
 export interface InputProps {

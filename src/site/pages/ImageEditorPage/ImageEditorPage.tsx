@@ -1,9 +1,9 @@
 import type { JSX } from 'solid-js';
-import { AppPage } from '../../components/App/App.jsx';
-import { Frame } from '../../components/Frame/Frame.jsx';
-import { ImageEditor } from '../../components/ImageEditor/ImageEditor.jsx';
-import { texts } from '../../texts/index.js';
-import { localize } from '../../utils/intl-utils.js';
+import { AppPage } from '../../components/App/App.tsx';
+import { Frame } from '../../components/Frame/Frame.tsx';
+import { ImageEditor } from '../../components/ImageEditor/ImageEditor.tsx';
+import { texts } from '../../texts/index.ts';
+import { localize } from '../../utils/intl-utils.ts';
 import styles from './ImageEditorPage.module.css';
 
 export const ImageEditorPage = (): JSX.Element => {

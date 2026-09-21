@@ -1,9 +1,9 @@
 import { lazy } from 'solid-js';
-import type { SiteRoute } from '../../core/entities/site-route.js';
-import type { HelpPageData, HelpPageParams } from '../pages/HelpPage/HelpPage.data.js';
-import { queryHelpPageData } from '../pages/HelpPage/HelpPage.data.js';
-import { texts } from '../texts/index.js';
-import { homeRoute } from './home-route.js';
+import type { SiteRoute } from '../../core/entities/site-route.ts';
+import type { HelpPageData, HelpPageParams } from '../pages/HelpPage/HelpPage.data.ts';
+import { queryHelpPageData } from '../pages/HelpPage/HelpPage.data.ts';
+import { texts } from '../texts/index.ts';
+import { homeRoute } from './home-route.ts';
 
 export const helpRoute: SiteRoute<HelpPageParams, HelpPageData> = {
   path: '/help/:topicId?',
@@ -21,6 +21,6 @@ export const helpRoute: SiteRoute<HelpPageParams, HelpPageData> = {
           route: homeRoute,
           params: {},
         },
-  component: lazy(() => import('../pages/HelpPage/HelpPage.jsx')),
+  component: lazy(() => import('../pages/HelpPage/HelpPage.tsx')),
   preload: ({ params }) => queryHelpPageData(params),
 };

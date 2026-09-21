@@ -1,10 +1,10 @@
 import type { InferOutput } from 'valibot';
 import { intersect, object, string, variant } from 'valibot';
-import { Post, PostTitleRu } from '../entities/post.js';
-import { Shot, Wallpaper } from '../entities/post-variant.js';
-import { Publication } from '../entities/publication.js';
-import { checkSchema } from '../entities/schema.js';
-import type { PostingService } from '../entities/service.js';
+import { Post, PostTitleRu } from '../entities/post.ts';
+import { Shot, Wallpaper } from '../entities/post-variant.ts';
+import { Publication } from '../entities/publication.ts';
+import { checkSchema } from '../entities/schema.ts';
+import type { PostingService } from '../entities/service.ts';
 
 export const MAX_CHAT_ID = -70980943197599;
 export const MAX_CHANNEL_NAME = 'mwscr';

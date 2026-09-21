@@ -1,6 +1,6 @@
-import { cleanupUndefinedProps } from '../utils/common-utils.js';
-import type { DataManager } from './data-manager.js';
-import { type PostsUsage } from './posts-usage.js';
+import { cleanupUndefinedProps } from '../utils/common-utils.ts';
+import type { DataManager } from './data-manager.ts';
+import { type PostsUsage } from './posts-usage.ts';
 
 export interface TagInfo {
   id: string;

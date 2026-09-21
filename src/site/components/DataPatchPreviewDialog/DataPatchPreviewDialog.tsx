@@ -1,19 +1,19 @@
 import type { Component } from 'solid-js';
 import { createMemo } from 'solid-js';
-import type { DataPatch } from '../../../core/entities/data-patch.js';
-import type { Upload } from '../../../core/entities/upload.js';
-import { formatDate, formatTime } from '../../../core/utils/date-utils.js';
-import { stripCommonExtension } from '../../../core/utils/string-utils.js';
-import { dataManager } from '../../data-managers/manager.js';
-import { texts } from '../../texts/index.js';
-import { currentLocale, localize } from '../../utils/intl-utils.js';
-import { Button } from '../Button/Button.jsx';
-import type { DialogProps } from '../Dialog/Dialog.jsx';
-import { Dialog } from '../Dialog/Dialog.jsx';
-import { Divider } from '../Divider/Divider.jsx';
-import { Frame } from '../Frame/Frame.jsx';
-import type { TableRow } from '../Table/Table.jsx';
-import { Table } from '../Table/Table.jsx';
+import type { DataPatch } from '../../../core/entities/data-patch.ts';
+import type { Upload } from '../../../core/entities/upload.ts';
+import { formatDate, formatTime } from '../../../core/utils/date-utils.ts';
+import { stripCommonExtension } from '../../../core/utils/string-utils.ts';
+import { dataManager } from '../../data-managers/manager.ts';
+import { texts } from '../../texts/index.ts';
+import { currentLocale, localize } from '../../utils/intl-utils.ts';
+import { Button } from '../Button/Button.tsx';
+import type { DialogProps } from '../Dialog/Dialog.tsx';
+import { Dialog } from '../Dialog/Dialog.tsx';
+import { Divider } from '../Divider/Divider.tsx';
+import { Frame } from '../Frame/Frame.tsx';
+import type { TableRow } from '../Table/Table.tsx';
+import { Table } from '../Table/Table.tsx';
 import styles from './DataPatchPreviewDialog.module.css';
 
 interface DataPatchPreviewDialogProps extends Omit<DialogProps, 'title' | 'modal' | 'contentClass' | 'actions'> {

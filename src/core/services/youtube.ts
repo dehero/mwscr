@@ -1,9 +1,9 @@
 import type { InferOutput } from 'valibot';
 import { nonEmpty, object, pipe, string } from 'valibot';
-import type { Post } from '../entities/post.js';
-import { Video } from '../entities/post-variant.js';
-import { Publication } from '../entities/publication.js';
-import type { PostingService } from '../entities/service.js';
+import type { Post } from '../entities/post.ts';
+import { Video } from '../entities/post-variant.ts';
+import { Publication } from '../entities/publication.ts';
+import type { PostingService } from '../entities/service.ts';
 
 export const YouTubePost = Video;
 

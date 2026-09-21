@@ -1,9 +1,9 @@
-import type { GithubIssue, GithubIssueResolver } from '../../core/entities/github-issue.js';
-import { userName, userProfileIg, userProfileTg, userProfileVk } from '../../core/entities/github-issue-field.js';
-import { PostProposalIssue } from '../../core/github-issues/post-proposal-issue.js';
-import { drafts } from '../data-managers/posts.js';
-import { importResourceToStore } from '../data-managers/store-resources.js';
-import { extractIssueLinks, extractIssueUrls, extractIssueUser } from './utils/issue-utils.js';
+import type { GithubIssue, GithubIssueResolver } from '../../core/entities/github-issue.ts';
+import { userName, userProfileIg, userProfileTg, userProfileVk } from '../../core/entities/github-issue-field.ts';
+import { PostProposalIssue } from '../../core/github-issues/post-proposal-issue.ts';
+import { drafts } from '../data-managers/posts.ts';
+import { importResourceToStore } from '../data-managers/store-resources.ts';
+import { extractIssueLinks, extractIssueUrls, extractIssueUser } from './utils/issue-utils.ts';
 
 export class PostProposalIssueResolver extends PostProposalIssue implements GithubIssueResolver {
   async resolve(issue: GithubIssue) {

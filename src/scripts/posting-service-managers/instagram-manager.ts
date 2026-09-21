@@ -16,36 +16,36 @@ import {
   SimplePostMetric,
 } from 'instagram-graph-api';
 import sharp from 'sharp';
-import { markdownToText } from '../../core/entities/markdown.js';
-import type { MediaAspectRatio } from '../../core/entities/media.js';
+import { markdownToText } from '../../core/entities/markdown.ts';
+import type { MediaAspectRatio } from '../../core/entities/media.ts';
 import {
   aspectRatioFromSize,
   getAspectRatioHeightMultiplier,
   getLimitedAspectRatio,
-} from '../../core/entities/media.js';
-import type { Post, PostEntry } from '../../core/entities/post.js';
+} from '../../core/entities/media.ts';
+import type { Post, PostEntry } from '../../core/entities/post.ts';
 import {
   createPostPublicationTags,
   getPostFirstPublished,
   getPostPublicationTypeTitle,
   getPostTypeFromContent,
   postAddonDescriptors,
-} from '../../core/entities/post.js';
-import type { Publication, PublicationComment } from '../../core/entities/publication.js';
-import { RESOURCE_MISSING_IMAGE } from '../../core/entities/resource.js';
-import type { PostingServiceManager } from '../../core/entities/service.js';
-import type { UserProfile } from '../../core/entities/user.js';
-import { USER_DEFAULT_AUTHOR } from '../../core/entities/user.js';
-import type { InstagramPublication } from '../../core/services/instagram.js';
-import { Instagram } from '../../core/services/instagram.js';
-import { site } from '../../core/services/site.js';
-import { asArray, getRevisionHash, randomDelay } from '../../core/utils/common-utils.js';
-import { formatDate, getDaysPassed, getMillisecondsPassed } from '../../core/utils/date-utils.js';
-import { readResource } from '../data-managers/resources.js';
-import { saveUserAvatar } from '../data-managers/store-resources.js';
-import { users } from '../data-managers/users.js';
-import { createPostStory } from '../renderers/stories.js';
-import { siteStoreManager } from '../store-managers/index.js';
+} from '../../core/entities/post.ts';
+import type { Publication, PublicationComment } from '../../core/entities/publication.ts';
+import { RESOURCE_MISSING_IMAGE } from '../../core/entities/resource.ts';
+import type { PostingServiceManager } from '../../core/entities/service.ts';
+import type { UserProfile } from '../../core/entities/user.ts';
+import { USER_DEFAULT_AUTHOR } from '../../core/entities/user.ts';
+import type { InstagramPublication } from '../../core/services/instagram.ts';
+import { Instagram } from '../../core/services/instagram.ts';
+import { site } from '../../core/services/site.ts';
+import { asArray, getRevisionHash, randomDelay } from '../../core/utils/common-utils.ts';
+import { formatDate, getDaysPassed, getMillisecondsPassed } from '../../core/utils/date-utils.ts';
+import { readResource } from '../data-managers/resources.ts';
+import { saveUserAvatar } from '../data-managers/store-resources.ts';
+import { users } from '../data-managers/users.ts';
+import { createPostStory } from '../renderers/stories.ts';
+import { siteStoreManager } from '../store-managers/index.ts';
 
 const INSTAGRAM_PAGE_ID = '17841404237421312'; // Instagram Business ID
 

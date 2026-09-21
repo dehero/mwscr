@@ -1,4 +1,4 @@
-import { storeManager } from '../store-managers/index.js';
+import { storeManager } from '../store-managers/index.ts';
 
 export async function syncStore() {
   console.group(`Synchronizing store...`);

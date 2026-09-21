@@ -1,6 +1,6 @@
-import type { MediaAspectRatio, MediaFormat, MediaMetadata } from '../entities/media.js';
-import { aspectRatioFromSize, checkMediaAspectRatio } from '../entities/media.js';
-import type { Rule } from '../entities/rule.js';
+import type { MediaAspectRatio, MediaFormat, MediaMetadata } from '../entities/media.ts';
+import { aspectRatioFromSize, checkMediaAspectRatio } from '../entities/media.ts';
+import type { Rule } from '../entities/rule.ts';
 
 export type MediaRule = Rule<MediaMetadata>;
 

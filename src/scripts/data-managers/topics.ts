@@ -1,6 +1,6 @@
 import { readdir, readFile } from 'fs/promises';
-import { createTopicEntryFromMarkdown } from '../../core/entities/topic.js';
-import { TopicsReader } from '../../core/entities/topics-reader.js';
+import { createTopicEntryFromMarkdown } from '../../core/entities/topic.ts';
+import { TopicsReader } from '../../core/entities/topics-reader.ts';
 
 export const TOPICS_DIR = 'data/topics';
 

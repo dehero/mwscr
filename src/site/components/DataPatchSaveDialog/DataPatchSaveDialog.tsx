@@ -4,20 +4,20 @@ import {
   createSignal,
   // Show
 } from 'solid-js';
-import { texts } from '../../texts/index.js';
-import { localize } from '../../utils/intl-utils.js';
-import { Button } from '../Button/Button.jsx';
-import type { DialogProps } from '../Dialog/Dialog.jsx';
-import { Dialog } from '../Dialog/Dialog.jsx';
-import { Input } from '../Input/Input.jsx';
-import { Label } from '../Label/Label.jsx';
+import { texts } from '../../texts/index.ts';
+import { localize } from '../../utils/intl-utils.ts';
+import { Button } from '../Button/Button.tsx';
+import type { DialogProps } from '../Dialog/Dialog.tsx';
+import { Dialog } from '../Dialog/Dialog.tsx';
+import { Input } from '../Input/Input.tsx';
+import { Label } from '../Label/Label.tsx';
 import styles from './DataPatchSaveDialog.module.css';
-// import { OptionSelectButton } from '../OptionSelectButton/OptionSelectButton.jsx';
-// import { UserTooltip } from '../UserTooltip/UserTooltip.jsx';
-// import { dataManager } from '../../data-managers/manager.js';
-// import { EMPTY_OPTION, Option } from '../../../core/entities/option.js';
-// import { Toast } from '../Toaster/Toaster.jsx';
-// import { UserPreview } from '../UserPreview/UserPreview.jsx';
+// import { OptionSelectButton } from '../OptionSelectButton/OptionSelectButton.tsx';
+// import { UserTooltip } from '../UserTooltip/UserTooltip.tsx';
+// import { dataManager } from '../../data-managers/manager.ts';
+// import { EMPTY_OPTION, Option } from '../../../core/entities/option.ts';
+// import { Toast } from '../Toaster/Toaster.tsx';
+// import { UserPreview } from '../UserPreview/UserPreview.tsx';
 
 // async function getUserOptions(): Promise<Option[]> {
 //   return [

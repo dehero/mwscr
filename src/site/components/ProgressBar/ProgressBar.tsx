@@ -1,6 +1,6 @@
 import clsx from 'clsx';
 import type { Component } from 'solid-js';
-import { Frame } from '../Frame/Frame.jsx';
+import { Frame } from '../Frame/Frame.tsx';
 import styles from './ProgressBar.module.css';
 
 export interface ProgressBarProps {

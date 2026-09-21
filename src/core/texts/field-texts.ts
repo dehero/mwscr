@@ -1,5 +1,5 @@
-import type { Field } from '../entities/field.js';
-import type { IntlText } from '../entities/intl.js';
+import type { Field } from '../entities/field.ts';
+import type { IntlText } from '../entities/intl.ts';
 
 export const fieldTexts = {
   id: ['ID', 'ID'],

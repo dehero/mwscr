@@ -1,6 +1,6 @@
 import assert from 'node:assert';
 import { after, test } from 'node:test';
-import { copyResource, moveResource, removeResource } from './resources.js';
+import { copyResource, moveResource, removeResource } from './resources.ts';
 
 test('copyResource', async (t) => {
   await t.test('copy external resource to inbox', async () => {

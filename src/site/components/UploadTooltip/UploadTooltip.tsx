@@ -1,11 +1,11 @@
 import { type Component, splitProps } from 'solid-js';
-import type { Upload } from '../../../core/entities/upload.js';
-import { formatDate, formatTime } from '../../../core/utils/date-utils.js';
-import { texts } from '../../texts/index.js';
-import { currentLocale, localize } from '../../utils/intl-utils.js';
-import { Divider } from '../Divider/Divider.jsx';
-import type { TooltipProps } from '../Tooltip/Tooltip.js';
-import { Tooltip } from '../Tooltip/Tooltip.js';
+import type { Upload } from '../../../core/entities/upload.ts';
+import { formatDate, formatTime } from '../../../core/utils/date-utils.ts';
+import { texts } from '../../texts/index.ts';
+import { currentLocale, localize } from '../../utils/intl-utils.ts';
+import { Divider } from '../Divider/Divider.tsx';
+import type { TooltipProps } from '../Tooltip/Tooltip.tsx';
+import { Tooltip } from '../Tooltip/Tooltip.tsx';
 import styles from './UploadTooltip.module.css';
 
 interface UploadTooltipProps extends Omit<TooltipProps, 'children'> {

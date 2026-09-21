@@ -1,8 +1,8 @@
-import { texts } from '../texts/index.js';
-import { asArray } from '../utils/common-utils.js';
-import type { IntlText } from './intl.js';
-import type { Option } from './option.js';
-import type { PostAddon } from './post.js';
+import { texts } from '../texts/index.ts';
+import { asArray } from '../utils/common-utils.ts';
+import type { IntlText } from './intl.ts';
+import type { Option } from './option.ts';
+import type { PostAddon } from './post.ts';
 
 export type LocationCell = `${number} ${number}`;
 

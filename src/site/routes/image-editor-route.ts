@@ -1,7 +1,7 @@
 import { lazy } from 'solid-js';
-import type { SiteRoute } from '../../core/entities/site-route.js';
-import { texts } from '../texts/index.js';
-import { homeRoute } from './home-route.js';
+import type { SiteRoute } from '../../core/entities/site-route.ts';
+import { texts } from '../texts/index.ts';
+import { homeRoute } from './home-route.ts';
 
 export const imageEditorRoute: SiteRoute = {
   path: '/image-editor',
@@ -13,5 +13,5 @@ export const imageEditorRoute: SiteRoute = {
     params: {},
   }),
   createUrl: () => '/image-editor/',
-  component: lazy(() => import('../pages/ImageEditorPage/ImageEditorPage.jsx')),
+  component: lazy(() => import('../pages/ImageEditorPage/ImageEditorPage.tsx')),
 };

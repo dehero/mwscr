@@ -1,19 +1,19 @@
 import { makePersisted } from '@solid-primitives/storage';
 import { createAsync } from '@solidjs/router';
 import { createEffect, createMemo, createResource, createSignal, For, untrack } from 'solid-js';
-import type { SiteRoutePage } from '../../../core/entities/site-route.js';
-import { TOPIC_INDEX_ID, type TopicEntry } from '../../../core/entities/topic.js';
-import { AppPage } from '../../components/App/App.jsx';
-import { createDetachedDialogFragment } from '../../components/DetachedDialogsProvider/DetachedDialogsProvider.jsx';
-import { Divider } from '../../components/Divider/Divider.jsx';
-import { Frame } from '../../components/Frame/Frame.jsx';
-import { TopicMessage } from '../../components/TopicMessage/TopicMessage.jsx';
-import { dataManager } from '../../data-managers/manager.js';
-import { helpRoute } from '../../routes/help-route.js';
-import { texts } from '../../texts/index.js';
-import { localField, localize } from '../../utils/intl-utils.js';
-import type { HelpPageData, HelpPageParams } from './HelpPage.data.js';
-import { queryHelpPageData } from './HelpPage.data.js';
+import type { SiteRoutePage } from '../../../core/entities/site-route.ts';
+import { TOPIC_INDEX_ID, type TopicEntry } from '../../../core/entities/topic.ts';
+import { AppPage } from '../../components/App/App.tsx';
+import { createDetachedDialogFragment } from '../../components/DetachedDialogsProvider/DetachedDialogsProvider.tsx';
+import { Divider } from '../../components/Divider/Divider.tsx';
+import { Frame } from '../../components/Frame/Frame.tsx';
+import { TopicMessage } from '../../components/TopicMessage/TopicMessage.tsx';
+import { dataManager } from '../../data-managers/manager.ts';
+import { helpRoute } from '../../routes/help-route.ts';
+import { texts } from '../../texts/index.ts';
+import { localField, localize } from '../../utils/intl-utils.ts';
+import type { HelpPageData, HelpPageParams } from './HelpPage.data.ts';
+import { queryHelpPageData } from './HelpPage.data.ts';
 import styles from './HelpPage.module.css';
 
 export const HelpPage: SiteRoutePage<HelpPageParams, HelpPageData> = (props) => {

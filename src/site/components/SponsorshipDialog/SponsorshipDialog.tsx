@@ -1,13 +1,13 @@
 import { For } from 'solid-js';
-import { services } from '../../../core/services/index.js';
+import { services } from '../../../core/services/index.ts';
 import thief from '../../images/thief.png';
-import { postsRoute } from '../../routes/posts-route.js';
-import { texts } from '../../texts/index.js';
-import { localize } from '../../utils/intl-utils.js';
-import { Button } from '../Button/Button.jsx';
-import type { DetachedDialog } from '../DetachedDialogsProvider/DetachedDialogsProvider.jsx';
-import { Dialog } from '../Dialog/Dialog.jsx';
-import { Frame } from '../Frame/Frame.jsx';
+import { postsRoute } from '../../routes/posts-route.ts';
+import { texts } from '../../texts/index.ts';
+import { localize } from '../../utils/intl-utils.ts';
+import { Button } from '../Button/Button.tsx';
+import type { DetachedDialog } from '../DetachedDialogsProvider/DetachedDialogsProvider.tsx';
+import { Dialog } from '../Dialog/Dialog.tsx';
+import { Frame } from '../Frame/Frame.tsx';
 import styles from './SponsorshipDialog.module.css';
 
 const SponsorshipDialog: DetachedDialog = (props) => {

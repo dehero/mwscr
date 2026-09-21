@@ -1,6 +1,6 @@
 import { query } from '@solidjs/router';
-import type { DataManager, DataSummary } from '../../../core/entities/data-manager.js';
-import { dataManager } from '../../data-managers/manager.js';
+import type { DataManager, DataSummary } from '../../../core/entities/data-manager.ts';
+import { dataManager } from '../../data-managers/manager.ts';
 
 export type HomePageData = DataSummary;
 

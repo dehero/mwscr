@@ -1,5 +1,5 @@
-import type { IntlText, IntlTextPrimitiveValues, IntlTextResult, IntlTextValues, Locale } from '../entities/intl.js';
-import { getIntlTextFormatter } from '../entities/intl.js';
+import type { IntlText, IntlTextPrimitiveValues, IntlTextResult, IntlTextValues, Locale } from '../entities/intl.ts';
+import { getIntlTextFormatter } from '../entities/intl.ts';
 
 export function localize(intlText: IntlText | undefined, locale: Locale, invert?: boolean): string;
 export function localize(

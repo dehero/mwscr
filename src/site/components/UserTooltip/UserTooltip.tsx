@@ -1,15 +1,15 @@
 import { type Component, createResource, Show, splitProps } from 'solid-js';
-import { postsUsageToString } from '../../../core/entities/posts-usage.js';
-import { userRoleDescriptors } from '../../../core/entities/user.js';
-import type { UserInfo } from '../../../core/entities/user-info.js';
-import { dataManager } from '../../data-managers/manager.js';
-import { texts } from '../../texts/index.js';
-import { currentLocale, localField, localize } from '../../utils/intl-utils.js';
-import { GoldIcon } from '../GoldIcon/GoldIcon.js';
-import { Icon } from '../Icon/Icon.js';
-import type { TooltipProps } from '../Tooltip/Tooltip.js';
-import { Tooltip } from '../Tooltip/Tooltip.js';
-import { UserAvatar } from '../UserAvatar/UserAvatar.jsx';
+import { postsUsageToString } from '../../../core/entities/posts-usage.ts';
+import { userRoleDescriptors } from '../../../core/entities/user.ts';
+import type { UserInfo } from '../../../core/entities/user-info.ts';
+import { dataManager } from '../../data-managers/manager.ts';
+import { texts } from '../../texts/index.ts';
+import { currentLocale, localField, localize } from '../../utils/intl-utils.ts';
+import { GoldIcon } from '../GoldIcon/GoldIcon.tsx';
+import { Icon } from '../Icon/Icon.tsx';
+import type { TooltipProps } from '../Tooltip/Tooltip.tsx';
+import { Tooltip } from '../Tooltip/Tooltip.tsx';
+import { UserAvatar } from '../UserAvatar/UserAvatar.tsx';
 import styles from './UserTooltip.module.css';
 
 interface UserTooltipProps extends Omit<TooltipProps, 'children'> {

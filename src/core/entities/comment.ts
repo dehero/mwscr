@@ -1,6 +1,6 @@
 import type { InferOutput } from 'valibot';
 import { date, nonEmpty, object, pipe, string, trim } from 'valibot';
-import type { SortDirection } from '../utils/common-types.js';
+import type { SortDirection } from '../utils/common-types.ts';
 
 export const Comment = object({
   datetime: date(),

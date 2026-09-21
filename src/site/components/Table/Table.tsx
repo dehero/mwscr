@@ -1,10 +1,10 @@
 import clsx from 'clsx';
 import { type Component, createMemo, type JSX, Show } from 'solid-js';
 import { Dynamic } from 'solid-js/web';
-import { formatDate } from '../../../core/utils/date-utils.js';
-import { currentLocale } from '../../utils/intl-utils.js';
+import { formatDate } from '../../../core/utils/date-utils.ts';
+import { currentLocale } from '../../utils/intl-utils.ts';
 import styles from './Table.module.css';
-import VirtualBody from './VirtualBody.jsx';
+import VirtualBody from './VirtualBody.tsx';
 
 type TableValue = string | number | Date | (() => JSX.Element) | undefined;
 

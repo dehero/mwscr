@@ -1,6 +1,6 @@
 import { array, boolean, date, type InferOutput, nullable, number, object, optional, picklist, string } from 'valibot';
-import { getRevisionHash } from '../utils/common-utils.js';
-import type { Resource } from './resource.js';
+import { getRevisionHash } from '../utils/common-utils.ts';
+import type { Resource } from './resource.ts';
 
 const UPLOAD_FILENAME_REGEX = /(image|video|archive|patch|file)-[a-f0-9]+\.(json|png|jpg|jpeg|bmp|gif|webp)/g;
 

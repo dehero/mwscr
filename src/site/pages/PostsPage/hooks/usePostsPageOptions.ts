@@ -1,7 +1,7 @@
 import { useSearchParams } from '@solidjs/router';
-import { ListReaderItemStatus } from '../../../../core/entities/list-manager.js';
-import type { Option } from '../../../../core/entities/option.js';
-import { ALL_OPTION, ANY_OPTION, NONE_OPTION } from '../../../../core/entities/option.js';
+import { ListReaderItemStatus } from '../../../../core/entities/list-manager.ts';
+import type { Option } from '../../../../core/entities/option.ts';
+import { ALL_OPTION, ANY_OPTION, NONE_OPTION } from '../../../../core/entities/option.ts';
 import {
   PostAddon,
   PostAspectRatio,
@@ -10,18 +10,18 @@ import {
   PostType,
   postTypeDescriptors,
   PostViolation,
-} from '../../../../core/entities/post.js';
-import type { SelectPostInfosParams, SelectPostInfosSortKey } from '../../../../core/entities/post-info.js';
-import { selectPostInfosSortOptions } from '../../../../core/entities/post-info.js';
-import type { PostsManagerName } from '../../../../core/entities/posts-manager.js';
-import { safeParseSchema } from '../../../../core/entities/schema.js';
-import type { DateRange, SortDirection } from '../../../../core/utils/common-types.js';
-import { stringToBool } from '../../../../core/utils/common-utils.js';
-import { dateRangeToString, stringToDateRange } from '../../../../core/utils/date-utils.js';
-import { isObjectEqual } from '../../../../core/utils/object-utils.js';
-import { texts } from '../../../texts/index.js';
-import { localize } from '../../../utils/intl-utils.js';
-import type { PostsPageParams, PostsPageSearchParams } from '../PostsPage.data.js';
+} from '../../../../core/entities/post.ts';
+import type { SelectPostInfosParams, SelectPostInfosSortKey } from '../../../../core/entities/post-info.ts';
+import { selectPostInfosSortOptions } from '../../../../core/entities/post-info.ts';
+import type { PostsManagerName } from '../../../../core/entities/posts-manager.ts';
+import { safeParseSchema } from '../../../../core/entities/schema.ts';
+import type { DateRange, SortDirection } from '../../../../core/utils/common-types.ts';
+import { stringToBool } from '../../../../core/utils/common-utils.ts';
+import { dateRangeToString, stringToDateRange } from '../../../../core/utils/date-utils.ts';
+import { isObjectEqual } from '../../../../core/utils/object-utils.ts';
+import { texts } from '../../../texts/index.ts';
+import { localize } from '../../../utils/intl-utils.ts';
+import type { PostsPageParams, PostsPageSearchParams } from '../PostsPage.data.ts';
 
 const emptySearchParams: PostsPageSearchParams = {
   type: undefined,

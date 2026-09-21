@@ -1,13 +1,13 @@
 import transliterate from '@sindresorhus/transliterate';
 import type { InferOutput } from 'valibot';
 import { array, boolean, date, nonEmpty, number, object, optional, picklist, pipe, string, trim, union } from 'valibot';
-import { texts } from '../texts/index.js';
-import { asArray } from '../utils/common-utils.js';
-import { getDaysPassed } from '../utils/date-utils.js';
-import { stripHashtags } from '../utils/string-utils.js';
-import type { IntlText } from './intl.js';
-import type { Option } from './option.js';
-import { ImageResourceUrl } from './resource.js';
+import { texts } from '../texts/index.ts';
+import { asArray } from '../utils/common-utils.ts';
+import { getDaysPassed } from '../utils/date-utils.ts';
+import { stripHashtags } from '../utils/string-utils.ts';
+import type { IntlText } from './intl.ts';
+import type { Option } from './option.ts';
+import { ImageResourceUrl } from './resource.ts';
 
 const USER_NAME_IS_RU_REGEX = /[ёа-я]/i;
 const USER_NAME_SKIP_AS_ID_REGEX = /^(__deleted__.+|club\d+|id\d+)$/;

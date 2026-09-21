@@ -1,16 +1,16 @@
 import type { JSX } from 'solid-js';
 import { createEffect, createSignal } from 'solid-js';
-import type { Option } from '../../../core/entities/option.js';
-import { getOptionSearchText } from '../../../core/entities/option.js';
-import { getSearchTokens, search } from '../../../core/utils/common-utils.js';
-import { texts } from '../../texts/index.js';
-import { localize } from '../../utils/intl-utils.js';
-import { Button } from '../Button/Button.jsx';
-import type { DialogProps } from '../Dialog/Dialog.jsx';
-import { Dialog } from '../Dialog/Dialog.jsx';
-import { Frame } from '../Frame/Frame.jsx';
-import { Input } from '../Input/Input.jsx';
-import { Table } from '../Table/Table.jsx';
+import type { Option } from '../../../core/entities/option.ts';
+import { getOptionSearchText } from '../../../core/entities/option.ts';
+import { getSearchTokens, search } from '../../../core/utils/common-utils.ts';
+import { texts } from '../../texts/index.ts';
+import { localize } from '../../utils/intl-utils.ts';
+import { Button } from '../Button/Button.tsx';
+import type { DialogProps } from '../Dialog/Dialog.tsx';
+import { Dialog } from '../Dialog/Dialog.tsx';
+import { Frame } from '../Frame/Frame.tsx';
+import { Input } from '../Input/Input.tsx';
+import { Table } from '../Table/Table.tsx';
 import styles from './OptionSelectDialog.module.css';
 
 export interface OptionSelectDialogProps<T = string> extends Omit<DialogProps, 'modal' | 'actions' | 'contentClass'> {

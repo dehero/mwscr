@@ -1,11 +1,11 @@
-import type { DataPatch } from '../entities/data-patch.js';
-import { dataPatchToString } from '../entities/data-patch.js';
-import type { GithubIssueDescriptor } from '../entities/github-issue.js';
-import { GITHUB_ISSUE_CREATE_URL } from '../entities/github-issue.js';
-import { dataPatchName, dataPatchText } from '../entities/github-issue-field.js';
-import type { Upload } from '../entities/upload.js';
-import { site } from '../services/site.js';
-import { stripCommonExtension } from '../utils/string-utils.js';
+import type { DataPatch } from '../entities/data-patch.ts';
+import { dataPatchToString } from '../entities/data-patch.ts';
+import type { GithubIssueDescriptor } from '../entities/github-issue.ts';
+import { GITHUB_ISSUE_CREATE_URL } from '../entities/github-issue.ts';
+import { dataPatchName, dataPatchText } from '../entities/github-issue-field.ts';
+import type { Upload } from '../entities/upload.ts';
+import { site } from '../services/site.ts';
+import { stripCommonExtension } from '../utils/string-utils.ts';
 
 export class DataPatchIssue implements GithubIssueDescriptor {
   readonly label = 'data-patch';

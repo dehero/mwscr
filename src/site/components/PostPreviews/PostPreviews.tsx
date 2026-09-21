@@ -1,6 +1,6 @@
 import type { Component } from 'solid-js';
-import type { PostInfo } from '../../../core/entities/post-info.js';
-import VirtualPostPreviews from './VirtualPostPreviews.jsx';
+import type { PostInfo } from '../../../core/entities/post-info.ts';
+import VirtualPostPreviews from './VirtualPostPreviews.tsx';
 
 export interface PostPreviewsProps {
   postInfos: PostInfo[];

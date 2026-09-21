@@ -1,8 +1,8 @@
-import { assertSchema } from '../entities/schema.js';
-import type { UploadType } from '../entities/upload.js';
-import { Upload, UploadErrorResponse, UploadResult, UploadsResponse } from '../entities/upload.js';
-import { site } from '../services/site.js';
-import { jsonDateReviver } from '../utils/date-utils.js';
+import { assertSchema } from '../entities/schema.ts';
+import type { UploadType } from '../entities/upload.ts';
+import { Upload, UploadErrorResponse, UploadResult, UploadsResponse } from '../entities/upload.ts';
+import { site } from '../services/site.ts';
+import { jsonDateReviver } from '../utils/date-utils.ts';
 
 export interface UploadFilesResult {
   uploads: Upload[];

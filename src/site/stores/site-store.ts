@@ -1,5 +1,5 @@
-import { AbstractSiteStore } from '../../core/stores/abstract-site-store.js';
-import { setStorageItemWithEvent } from '../utils/storage-utils.js';
+import { AbstractSiteStore } from '../../core/stores/abstract-site-store.ts';
+import { setStorageItemWithEvent } from '../utils/storage-utils.ts';
 
 export class SiteStore extends AbstractSiteStore {
   getSecretKey() {

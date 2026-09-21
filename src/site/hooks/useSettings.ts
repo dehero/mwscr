@@ -1,5 +1,5 @@
 import { createEffect, createSignal, onCleanup } from 'solid-js';
-import { siteStore } from '../stores/index.js';
+import { siteStore } from '../stores/index.ts';
 
 export function useSettings(onChange?: (secretKey: string | undefined) => void) {
   const [secretKey, setSecretKey] = createSignal<string>();

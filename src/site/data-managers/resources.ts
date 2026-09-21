@@ -1,5 +1,5 @@
-import { parseResourceUrl } from '../../core/entities/resource.js';
-import { store } from '../stores/index.js';
+import { parseResourceUrl } from '../../core/entities/resource.ts';
+import { store } from '../stores/index.ts';
 
 export function getResourcePreviewUrl(url: string | undefined) {
   return url

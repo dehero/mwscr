@@ -1,6 +1,6 @@
-import type { ListManagerPatch, ListReaderChunk } from '../../core/entities/list-manager.js';
-import type { Post } from '../../core/entities/post.js';
-import type { PostsManagerName } from '../../core/entities/posts-manager.js';
+import type { ListManagerPatch, ListReaderChunk } from '../../core/entities/list-manager.ts';
+import type { Post } from '../../core/entities/post.ts';
+import type { PostsManagerName } from '../../core/entities/posts-manager.ts';
 import {
   Draft,
   getProposedPostChunkName,
@@ -9,12 +9,12 @@ import {
   PostsManagerPatch,
   PublishablePost,
   RejectOrDraft,
-} from '../../core/entities/posts-manager.js';
-import type { Schema } from '../../core/entities/schema.js';
-import { safeParseSchema } from '../../core/entities/schema.js';
-import { jsonDateReviver } from '../../core/utils/date-utils.js';
-import { isObject } from '../../core/utils/object-utils.js';
-import { setStorageItemWithEvent } from '../utils/storage-utils.js';
+} from '../../core/entities/posts-manager.ts';
+import type { Schema } from '../../core/entities/schema.ts';
+import { safeParseSchema } from '../../core/entities/schema.ts';
+import { jsonDateReviver } from '../../core/utils/date-utils.ts';
+import { isObject } from '../../core/utils/object-utils.ts';
+import { setStorageItemWithEvent } from '../utils/storage-utils.ts';
 
 interface SitePostsManagerProps<TPost extends Post> {
   name: PostsManagerName;

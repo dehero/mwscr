@@ -1,6 +1,6 @@
-import { partition } from '../utils/common-utils.js';
-import type { Store, StoreItem, StoreManager } from './store.js';
-import { storeIncludesPath } from './store.js';
+import { partition } from '../utils/common-utils.ts';
+import type { Store, StoreItem, StoreManager } from './store.ts';
+import { storeIncludesPath } from './store.ts';
 
 export class MultiStore implements Store {
   readonly name = 'Multi';

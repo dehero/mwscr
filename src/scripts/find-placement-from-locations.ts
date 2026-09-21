@@ -1,8 +1,8 @@
 import 'dotenv/config';
-import type { PostPlacement } from '../core/entities/post.js';
-import { asArray } from '../core/utils/common-utils.js';
-import { locations } from './data-managers/locations.js';
-import { posts } from './data-managers/posts.js';
+import type { PostPlacement } from '../core/entities/post.ts';
+import { asArray } from '../core/utils/common-utils.ts';
+import { locations } from './data-managers/locations.ts';
+import { posts } from './data-managers/posts.ts';
 
 const publishedPostEntries = await posts.getAllEntries(true);
 

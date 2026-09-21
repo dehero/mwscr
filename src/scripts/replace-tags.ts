@@ -1,5 +1,5 @@
-import { mergePostTags } from '../core/entities/post.js';
-import { posts } from './data-managers/posts.js';
+import { mergePostTags } from '../core/entities/post.ts';
+import { posts } from './data-managers/posts.ts';
 
 const replace: Array<[string, string | null]> = [
   ['nofilter', null],

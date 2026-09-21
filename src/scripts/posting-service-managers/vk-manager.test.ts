@@ -6,8 +6,8 @@ import {
   test2025NewsInterview,
   test2025OuttakesCaves,
   test2025RedrawingMzahnch,
-} from '../../test-data/posts.js';
-import { vkManager } from './vk-manager.js';
+} from '../../test-data/posts.ts';
+import { vkManager } from './vk-manager.ts';
 
 afterEach(() => {
   mock.timers.reset();

@@ -2,16 +2,16 @@ import { writeClipboard } from '@solid-primitives/clipboard';
 import clsx from 'clsx';
 import type { Component } from 'solid-js';
 import { mergeProps, onMount, Show } from 'solid-js';
-import type { MediaAspectRatio } from '../../../core/entities/media.js';
-// import { parseResourceUrl } from '../../../core/entities/resource.js';
-import { getResourcePreviewUrl } from '../../data-managers/resources.js';
+import type { MediaAspectRatio } from '../../../core/entities/media.ts';
+// import { parseResourceUrl } from '../../../core/entities/resource.ts';
+import { getResourcePreviewUrl } from '../../data-managers/resources.ts';
 import YellowExclamationMark from '../../images/exclamation.svg';
-import { texts } from '../../texts/index.js';
-import { localize } from '../../utils/intl-utils.js';
-import type { FrameState } from '../Frame/Frame.js';
-import { Frame } from '../Frame/Frame.js';
-import { useToaster } from '../Toaster/Toaster.js';
-import { Tooltip } from '../Tooltip/Tooltip.js';
+import { texts } from '../../texts/index.ts';
+import { localize } from '../../utils/intl-utils.ts';
+import type { FrameState } from '../Frame/Frame.tsx';
+import { Frame } from '../Frame/Frame.tsx';
+import { useToaster } from '../Toaster/Toaster.tsx';
+import { Tooltip } from '../Tooltip/Tooltip.tsx';
 import styles from './ResourcePreview.module.css';
 
 export interface ResourcePreviewProps {

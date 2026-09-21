@@ -1,10 +1,10 @@
 import { lazy } from 'solid-js';
-import { createPostPath } from '../../core/entities/posts-manager.js';
-import type { SiteRoute } from '../../core/entities/site-route.js';
-import type { PostPageData, PostPageParams } from '../pages/PostPage/PostPage.data.js';
-import { queryPostPageData } from '../pages/PostPage/PostPage.data.js';
-import { texts } from '../texts/index.js';
-import { postsRoute } from './posts-route.js';
+import { createPostPath } from '../../core/entities/posts-manager.ts';
+import type { SiteRoute } from '../../core/entities/site-route.ts';
+import type { PostPageData, PostPageParams } from '../pages/PostPage/PostPage.data.ts';
+import { queryPostPageData } from '../pages/PostPage/PostPage.data.ts';
+import { texts } from '../texts/index.ts';
+import { postsRoute } from './posts-route.ts';
 
 export const postRoute: SiteRoute<PostPageParams, PostPageData> = {
   path: '/:managerName/:id',
@@ -21,6 +21,6 @@ export const postRoute: SiteRoute<PostPageParams, PostPageData> = {
     route: postsRoute,
     params: { managerName: params.managerName },
   }),
-  component: lazy(() => import('../pages/PostPage/PostPage.jsx')),
+  component: lazy(() => import('../pages/PostPage/PostPage.tsx')),
   preload: ({ params }) => queryPostPageData(params),
 };

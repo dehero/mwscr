@@ -1,9 +1,9 @@
 import type { VirtualItemProps } from '@minht11/solid-virtual-container';
 import { VirtualContainer } from '@minht11/solid-virtual-container';
 import { type Component, createEffect, createSignal, onMount, Show } from 'solid-js';
-import { Body, type BodyProps } from './Body.jsx';
-import { Row } from './Row.jsx';
-import { TABLE_ITEM_HEIGHT, type TableRow } from './Table.js';
+import { Body, type BodyProps } from './Body.tsx';
+import { Row } from './Row.tsx';
+import { TABLE_ITEM_HEIGHT, type TableRow } from './Table.tsx';
 import styles from './Table.module.css';
 
 function ListItem(props: VirtualItemProps<TableRow>) {

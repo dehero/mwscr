@@ -7,7 +7,7 @@ import {
   getHoursPassed,
   getVersionFromDate,
   stringToDate,
-} from './date-utils.js';
+} from './date-utils.ts';
 
 afterEach(() => {
   mock.timers.reset();

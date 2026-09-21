@@ -1,5 +1,5 @@
-import type { GithubIssueDescriptor } from '../entities/github-issue.js';
-import { GITHUB_ISSUE_CREATE_URL } from '../entities/github-issue.js';
+import type { GithubIssueDescriptor } from '../entities/github-issue.ts';
+import { GITHUB_ISSUE_CREATE_URL } from '../entities/github-issue.ts';
 
 export class PostProposalIssue implements GithubIssueDescriptor {
   readonly label = 'post-proposal';

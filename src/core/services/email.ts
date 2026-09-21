@@ -1,7 +1,7 @@
-import type { Service, ServiceMessagingOptions } from '../entities/service.js';
-import type { Upload } from '../entities/upload.js';
-import { stripCommonExtension } from '../utils/string-utils.js';
-import { site } from './site.js';
+import type { Service, ServiceMessagingOptions } from '../entities/service.ts';
+import type { Upload } from '../entities/upload.ts';
+import { stripCommonExtension } from '../utils/string-utils.ts';
+import { site } from './site.ts';
 
 export class Email implements Service {
   readonly id = 'em';

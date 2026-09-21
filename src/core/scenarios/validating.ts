@@ -1,8 +1,8 @@
-import type { PostType } from '../entities/post.js';
-import type { MediaRule } from '../rules/media-rules.js';
-import { needAspectRatio, needMinHeight, needMinWidth } from '../rules/media-rules.js';
-import type { ResourceRule } from '../rules/resource-rules.js';
-import { needCertainMimeType, needMaxSize, needMinSize } from '../rules/resource-rules.js';
+import type { PostType } from '../entities/post.ts';
+import type { MediaRule } from '../rules/media-rules.ts';
+import { needAspectRatio, needMinHeight, needMinWidth } from '../rules/media-rules.ts';
+import type { ResourceRule } from '../rules/resource-rules.ts';
+import { needCertainMimeType, needMaxSize, needMinSize } from '../rules/resource-rules.ts';
 
 export type ValidatingScenario = [PostType, ResourceRule[], MediaRule[]];
 

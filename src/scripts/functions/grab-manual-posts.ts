@@ -1,12 +1,12 @@
-import type { Post, PostEntry } from '../../core/entities/post.js';
-import { isPostEqual, mergePostWith } from '../../core/entities/post.js';
-import type { PublishablePost } from '../../core/entities/posts-manager.js';
-import { isPublishablePost } from '../../core/entities/posts-manager.js';
-import type { Publication } from '../../core/entities/publication.js';
-import type { PostingServiceManager } from '../../core/entities/service.js';
-import { arrayFromAsync } from '../../core/utils/common-utils.js';
-import { posts } from '../data-managers/posts.js';
-import { postingServiceManagers } from '../posting-service-managers/index.js';
+import type { Post, PostEntry } from '../../core/entities/post.ts';
+import { isPostEqual, mergePostWith } from '../../core/entities/post.ts';
+import type { PublishablePost } from '../../core/entities/posts-manager.ts';
+import { isPublishablePost } from '../../core/entities/posts-manager.ts';
+import type { Publication } from '../../core/entities/publication.ts';
+import type { PostingServiceManager } from '../../core/entities/service.ts';
+import { arrayFromAsync } from '../../core/utils/common-utils.ts';
+import { posts } from '../data-managers/posts.ts';
+import { postingServiceManagers } from '../posting-service-managers/index.ts';
 
 export async function grabManualPosts() {
   console.group('Grabbing manually created posts...');

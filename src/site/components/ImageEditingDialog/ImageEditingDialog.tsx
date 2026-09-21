@@ -1,16 +1,16 @@
 import { type Component, Show } from 'solid-js';
-import { uploadFiles } from '../../../core/data-managers/uploads-manager.js';
-import { stripCommonExtension } from '../../../core/utils/string-utils.js';
-import { getResourceDataUrl } from '../../data-managers/resources.js';
-import { texts } from '../../texts/index.js';
-import { localize } from '../../utils/intl-utils.js';
-import { Button } from '../Button/Button.jsx';
-import { createDetachedDialogFragment } from '../DetachedDialogsProvider/DetachedDialogsProvider.jsx';
-import type { DialogProps } from '../Dialog/Dialog.jsx';
-import { Dialog } from '../Dialog/Dialog.jsx';
-import type { ImageEditorRef } from '../ImageEditor/ImageEditor.jsx';
-import { ImageEditor } from '../ImageEditor/ImageEditor.jsx';
-import { useToaster } from '../Toaster/Toaster.jsx';
+import { uploadFiles } from '../../../core/data-managers/uploads-manager.ts';
+import { stripCommonExtension } from '../../../core/utils/string-utils.ts';
+import { getResourceDataUrl } from '../../data-managers/resources.ts';
+import { texts } from '../../texts/index.ts';
+import { localize } from '../../utils/intl-utils.ts';
+import { Button } from '../Button/Button.tsx';
+import { createDetachedDialogFragment } from '../DetachedDialogsProvider/DetachedDialogsProvider.tsx';
+import type { DialogProps } from '../Dialog/Dialog.tsx';
+import { Dialog } from '../Dialog/Dialog.tsx';
+import type { ImageEditorRef } from '../ImageEditor/ImageEditor.tsx';
+import { ImageEditor } from '../ImageEditor/ImageEditor.tsx';
+import { useToaster } from '../Toaster/Toaster.tsx';
 import styles from './ImageEditingDialog.module.css';
 
 interface ImageEditingDialogProps extends Omit<DialogProps, 'title' | 'modal' | 'contentClass' | 'actions'> {

@@ -1,4 +1,4 @@
-import { capitalize } from '../utils/string-utils.js';
+import { capitalize } from '../utils/string-utils.ts';
 
 const POST_TITLE_LOWERCASE_WORDS = [
   'a',

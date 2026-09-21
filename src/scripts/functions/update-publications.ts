@@ -1,10 +1,10 @@
-import type { PostEntries } from '../../core/entities/post.js';
-import type { PostsManager } from '../../core/entities/posts-manager.js';
-import type { Publication } from '../../core/entities/publication.js';
-import { isPublicationUpdatable } from '../../core/entities/publication.js';
-import type { PostingServiceManager } from '../../core/entities/service.js';
-import { extras, posts } from '../data-managers/posts.js';
-import { postingServiceManagers } from '../posting-service-managers/index.js';
+import type { PostEntries } from '../../core/entities/post.ts';
+import type { PostsManager } from '../../core/entities/posts-manager.ts';
+import type { Publication } from '../../core/entities/publication.ts';
+import { isPublicationUpdatable } from '../../core/entities/publication.ts';
+import type { PostingServiceManager } from '../../core/entities/service.ts';
+import { extras, posts } from '../data-managers/posts.ts';
+import { postingServiceManagers } from '../posting-service-managers/index.ts';
 
 const MAX_UPDATE_COUNT = 100;
 

@@ -1,17 +1,17 @@
-import type { CommentInfo } from '../../core/entities/comment-info.js';
-import type { DataManagerArgs, DataSummary } from '../../core/entities/data-manager.js';
-import { DataManager } from '../../core/entities/data-manager.js';
-import type { LocationInfo } from '../../core/entities/location-info.js';
-import type { PostInfo } from '../../core/entities/post-info.js';
-import type { PostsManagerName } from '../../core/entities/posts-manager.js';
-import type { TagInfo } from '../../core/entities/tag-info.js';
-import type { TopicInfo } from '../../core/entities/topic-info.js';
-import type { UserInfo } from '../../core/entities/user-info.js';
-import { jsonDateReviver } from '../../core/utils/date-utils.js';
-import { locations } from './locations.js';
-import { postsManagers } from './posts.js';
-import { topics } from './topics.js';
-import { users } from './users.js';
+import type { CommentInfo } from '../../core/entities/comment-info.ts';
+import type { DataManagerArgs, DataSummary } from '../../core/entities/data-manager.ts';
+import { DataManager } from '../../core/entities/data-manager.ts';
+import type { LocationInfo } from '../../core/entities/location-info.ts';
+import type { PostInfo } from '../../core/entities/post-info.ts';
+import type { PostsManagerName } from '../../core/entities/posts-manager.ts';
+import type { TagInfo } from '../../core/entities/tag-info.ts';
+import type { TopicInfo } from '../../core/entities/topic-info.ts';
+import type { UserInfo } from '../../core/entities/user-info.ts';
+import { jsonDateReviver } from '../../core/utils/date-utils.ts';
+import { locations } from './locations.ts';
+import { postsManagers } from './posts.ts';
+import { topics } from './topics.ts';
+import { users } from './users.ts';
 
 class SiteDataManager extends DataManager {
   constructor(args: DataManagerArgs) {

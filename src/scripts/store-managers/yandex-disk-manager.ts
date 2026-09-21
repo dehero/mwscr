@@ -1,12 +1,12 @@
 import 'dotenv/config';
 import { posix } from 'path';
-import fetch from 'node-fetch';
 import { Readable } from 'stream';
 import type { PreviewSize } from 'ya-disk';
 import yaDisk from 'ya-disk';
-import type { StoreItem, StoreManager } from '../../core/entities/store.js';
+import type { StoreItem, StoreManager } from '../../core/entities/store.ts';
 
 type FilesResourceList = Awaited<ReturnType<typeof yaDisk.list>> & { total: number };
+type NodeWebStream = Parameters<typeof Readable.fromWeb>[0];
 
 function diskPathToStoreUrl(path: string) {
   const { YANDEX_DISK_STORE_PATH: storePath } = process.env;
@@ -108,7 +108,7 @@ export class YandexDiskManager implements StoreManager {
       throw new Error(await response.text());
     }
 
-    return response.body;
+    return response.body === null ? null : Readable.fromWeb(response.body as NodeWebStream);
   }
 
   async getPreviewUrl(path: string, width?: number, height?: number): Promise<string | undefined> {
@@ -147,8 +147,9 @@ export class YandexDiskManager implements StoreManager {
     const { href, method } = await yaDisk.upload.link(store.token, srcPath, true);
     const response = await fetch(href, {
       method,
-      body: stream,
-    });
+      body: Readable.toWeb(stream as Readable) as unknown as BodyInit,
+      duplex: 'half',
+    } as RequestInit);
 
     if (!response.ok) {
       throw new Error(await response.text());

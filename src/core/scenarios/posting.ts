@@ -1,6 +1,6 @@
-import type { PostsManagerName, PublicPostsManagerName } from '../entities/posts-manager.js';
-// import { PUBLICATION_IS_RECENT_DAYS } from '../entities/publication.js';
-import type { PostCandidateRule } from '../rules/post-candidate-rules.js';
+import type { PostsManagerName, PublicPostsManagerName } from '../entities/posts-manager.ts';
+// import { PUBLICATION_IS_RECENT_DAYS } from '../entities/publication.ts';
+import type { PostCandidateRule } from '../rules/post-candidate-rules.ts';
 import {
   //   // needAnnouncement,
   // needMaxMarkDistance,
@@ -11,10 +11,10 @@ import {
   needMinThirdPartyDistance,
   needMinTypeDaysAgo,
   needMinTypeDistance,
-} from '../rules/post-candidate-rules.js';
-import { needCertainType } from '../rules/post-rules.js';
-import type { PostingRule } from '../rules/posting-rules.js';
-import { afterHour, lastPostedDaysAgo } from '../rules/posting-rules.js';
+} from '../rules/post-candidate-rules.ts';
+import { needCertainType } from '../rules/post-rules.ts';
+import type { PostingRule } from '../rules/posting-rules.ts';
+import { afterHour, lastPostedDaysAgo } from '../rules/posting-rules.ts';
 
 export interface PostingScenario {
   title: string;

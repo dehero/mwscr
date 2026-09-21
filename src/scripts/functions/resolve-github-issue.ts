@@ -1,6 +1,6 @@
 import 'dotenv/config';
 import type { Issues } from 'github-webhook-event-types';
-import { githubIssueResolvers } from '../github-issue-resolvers/index.js';
+import { githubIssueResolvers } from '../github-issue-resolvers/index.ts';
 
 export async function resolveGithubIssue() {
   if (!process.env.GITHUB_ACTION_CONTEXT) {

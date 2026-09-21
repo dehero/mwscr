@@ -1,5 +1,5 @@
 import type { FormatEnum } from 'sharp';
-import { greatestCommonDivisor } from '../utils/common-utils.js';
+import { greatestCommonDivisor } from '../utils/common-utils.ts';
 
 export type MediaFormat = keyof FormatEnum;
 

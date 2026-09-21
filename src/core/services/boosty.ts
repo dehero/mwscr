@@ -1,7 +1,7 @@
 import type { InferOutput } from 'valibot';
 import { nonEmpty, object, pipe, string } from 'valibot';
-import { Publication } from '../entities/publication.js';
-import type { PostingService } from '../entities/service.js';
+import { Publication } from '../entities/publication.ts';
+import type { PostingService } from '../entities/service.ts';
 
 export const BOOSTY_USERNAME = 'mwscr';
 

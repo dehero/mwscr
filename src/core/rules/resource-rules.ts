@@ -1,6 +1,6 @@
-import type { Resource } from '../entities/resource.js';
-import type { Rule } from '../entities/rule.js';
-import { listItems } from '../utils/common-utils.js';
+import type { Resource } from '../entities/resource.ts';
+import type { Rule } from '../entities/rule.ts';
+import { listItems } from '../utils/common-utils.ts';
 
 export type ResourceRule = Rule<Resource>;
 

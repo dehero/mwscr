@@ -1,8 +1,8 @@
-import type { PostEntries } from '../entities/post.js';
-import { getPostDateById, getPostLastPublished } from '../entities/post.js';
-import type { PublicPostsManagerName } from '../entities/posts-manager.js';
-import type { Rule } from '../entities/rule.js';
-import { getDaysPassed, getHoursPassed, isValidDate } from '../utils/date-utils.js';
+import type { PostEntries } from '../entities/post.ts';
+import { getPostDateById, getPostLastPublished } from '../entities/post.ts';
+import type { PublicPostsManagerName } from '../entities/posts-manager.ts';
+import type { Rule } from '../entities/rule.ts';
+import { getDaysPassed, getHoursPassed, isValidDate } from '../utils/date-utils.ts';
 
 export interface PostingRuleContext {
   targetManager: PublicPostsManagerName;

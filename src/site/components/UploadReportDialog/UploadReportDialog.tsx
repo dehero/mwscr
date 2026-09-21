@@ -1,16 +1,16 @@
 import type { Component } from 'solid-js';
-import type { PostInfo } from '../../../core/entities/post-info.js';
-import { createPostPath } from '../../../core/entities/posts-manager.js';
-import { texts } from '../../texts/index.js';
-import { localize } from '../../utils/intl-utils.js';
-import { Button } from '../Button/Button.js';
-import { createDetachedDialogFragment } from '../DetachedDialogsProvider/DetachedDialogsProvider.jsx';
-import { Dialog } from '../Dialog/Dialog.js';
-import { Frame } from '../Frame/Frame.jsx';
-import { PostTooltip } from '../PostTooltip/PostTooltip.jsx';
-import { ProgressBar } from '../ProgressBar/ProgressBar.jsx';
-import { Table } from '../Table/Table.jsx';
-import { Tooltip } from '../Tooltip/Tooltip.jsx';
+import type { PostInfo } from '../../../core/entities/post-info.ts';
+import { createPostPath } from '../../../core/entities/posts-manager.ts';
+import { texts } from '../../texts/index.ts';
+import { localize } from '../../utils/intl-utils.ts';
+import { Button } from '../Button/Button.tsx';
+import { createDetachedDialogFragment } from '../DetachedDialogsProvider/DetachedDialogsProvider.tsx';
+import { Dialog } from '../Dialog/Dialog.tsx';
+import { Frame } from '../Frame/Frame.tsx';
+import { PostTooltip } from '../PostTooltip/PostTooltip.tsx';
+import { ProgressBar } from '../ProgressBar/ProgressBar.tsx';
+import { Table } from '../Table/Table.tsx';
+import { Tooltip } from '../Tooltip/Tooltip.tsx';
 import styles from './UploadReportDialog.module.css';
 
 export interface UploadReportItem {

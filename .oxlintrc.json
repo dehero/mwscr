@@ -1,0 +1,30 @@
+{
+  "$schema": "./node_modules/oxlint/configuration_schema.json",
+  "plugins": ["typescript", "unicorn", "import"],
+  "categories": {
+    "correctness": "error"
+  },
+  "ignorePatterns": ["dist", "node_modules"],
+  "rules": {
+    /* Project preferences */
+
+    "no-console": "off",
+    "no-irregular-whitespace": "off",
+    "no-unassigned-vars": "off",
+    "no-unused-vars": ["error", { "argsIgnorePattern": "^_", "varsIgnorePattern": "^_" }],
+    "no-useless-escape": "off",
+
+    /* Prettier conflicts */
+
+    "unicorn/no-nested-ternary": "off",
+    "unicorn/number-literal-case": "off"
+  },
+  "overrides": [
+    {
+      "files": ["**/*.ts", "**/*.tsx"],
+      "rules": {
+        "no-irregular-whitespace": ["error", { "skipTemplates": true }]
+      }
+    }
+  ]
+}

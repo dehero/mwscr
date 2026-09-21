@@ -3,15 +3,15 @@ import { Meta, MetaProvider, Title } from '@solidjs/meta';
 import { useIsRouting, useLocation } from '@solidjs/router';
 import type { Accessor, Component, ParentComponent } from 'solid-js';
 import { createContext, createEffect, createMemo, createSignal, Show, useContext } from 'solid-js';
-import { texts } from '../../texts/index.js';
-import { currentLocale, getCurrentSiteOrigin, localize } from '../../utils/intl-utils.js';
-import { DataPatchManager } from '../DataPatchManager/DataPatchManager.jsx';
-import { DetachedDialogsProvider } from '../DetachedDialogsProvider/DetachedDialogsProvider.jsx';
-import { Frame } from '../Frame/Frame.jsx';
-import { Navigation } from '../Navigation/Navigation.js';
-import { Toaster } from '../Toaster/Toaster.jsx';
+import { texts } from '../../texts/index.ts';
+import { currentLocale, getCurrentSiteOrigin, localize } from '../../utils/intl-utils.ts';
+import { DataPatchManager } from '../DataPatchManager/DataPatchManager.tsx';
+import { DetachedDialogsProvider } from '../DetachedDialogsProvider/DetachedDialogsProvider.tsx';
+import { Frame } from '../Frame/Frame.tsx';
+import { Navigation } from '../Navigation/Navigation.tsx';
+import { Toaster } from '../Toaster/Toaster.tsx';
 import styles from './App.module.css';
-import { YandexMetrikaCounter } from './YandexMetrikaCounter.jsx';
+import { YandexMetrikaCounter } from './YandexMetrikaCounter.tsx';
 
 export interface AppContext {
   pageTitle: Accessor<string | undefined>;

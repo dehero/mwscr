@@ -46,6 +46,6 @@
       }
     ],
     "scripts": {
-      "postchangelog": "eslint CHANGELOG.md --fix"
+      "postchangelog": "prettier --write CHANGELOG.md"
     }
   }

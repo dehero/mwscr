@@ -1,4 +1,4 @@
-import type { IntlText } from '../entities/intl.js';
+import type { IntlText } from '../entities/intl.ts';
 
 export const userFilterTexts = {
   withSearch: ['with "{search}" in name or ID', 'с "{search}" в имени или ID'],

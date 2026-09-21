@@ -7,9 +7,9 @@ import type {
   RecordSchema as ValibotRecordSchema,
 } from 'valibot';
 import { is, safeParse } from 'valibot';
-import { listItems, partition } from '../utils/common-utils.js';
-import { uncapitalize } from '../utils/string-utils.js';
-import { getFieldTitle } from './field.js';
+import { listItems, partition } from '../utils/common-utils.ts';
+import { uncapitalize } from '../utils/string-utils.ts';
+import { getFieldTitle } from './field.ts';
 
 export type Schema<TOutput> = BaseSchema<unknown, TOutput, BaseIssue<unknown>>;
 

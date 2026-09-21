@@ -1,5 +1,5 @@
-import { cleanupUndefinedProps } from '../utils/common-utils.js';
-import type { DataManager } from './data-manager.js';
+import { cleanupUndefinedProps } from '../utils/common-utils.ts';
+import type { DataManager } from './data-manager.ts';
 
 export interface TopicInfo {
   id: string;

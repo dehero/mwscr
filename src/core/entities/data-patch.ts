@@ -1,11 +1,11 @@
 import stringify from 'fast-json-stable-stringify';
 import type { InferOutput } from 'valibot';
 import { object, partial } from 'valibot';
-import { jsonDateReviver } from '../utils/date-utils.js';
-import { PostsManagerPatch } from './posts-manager.js';
-import { parseSchema } from './schema.js';
-import { createUploadFileName } from './upload.js';
-import { UsersManagerPatch } from './users-manager.js';
+import { jsonDateReviver } from '../utils/date-utils.ts';
+import { PostsManagerPatch } from './posts-manager.ts';
+import { parseSchema } from './schema.ts';
+import { createUploadFileName } from './upload.ts';
+import { UsersManagerPatch } from './users-manager.ts';
 
 export const DataPatch = partial(
   object({

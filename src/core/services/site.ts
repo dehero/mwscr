@@ -1,6 +1,6 @@
-import type { Locale } from '../entities/intl.js';
-import type { Service } from '../entities/service.js';
-import type { Upload } from '../entities/upload.js';
+import type { Locale } from '../entities/intl.ts';
+import type { Service } from '../entities/service.ts';
+import type { Upload } from '../entities/upload.ts';
 
 export class Site implements Service {
   readonly id = 'mw';

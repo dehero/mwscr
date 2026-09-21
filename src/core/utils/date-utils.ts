@@ -1,4 +1,4 @@
-import type { DateRange } from './common-types.js';
+import type { DateRange } from './common-types.ts';
 
 const DATE_REVIVE_REGEX = /^\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}\.\d{3}Z$/;
 const DATE_EXTRACT_REGEX_YYYYMMDD = /^(.*)(2\d{3})[^\d]?([0-1]\d)[^\d]?([0-3]\d)(.*)$/;

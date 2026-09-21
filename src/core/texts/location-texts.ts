@@ -1,4 +1,4 @@
-import type { IntlText } from '../entities/intl.js';
+import type { IntlText } from '../entities/intl.ts';
 
 export const locationTexts = {
   locations: ['Locations', 'Локации'],

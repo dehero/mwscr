@@ -3,37 +3,37 @@ import { posix } from 'path/posix';
 import { Feed } from 'feed';
 import type { Objects, Responses } from 'vk-io';
 import { VK } from 'vk-io';
-import { markdownToText } from '../../core/entities/markdown.js';
-import type { Post, PostEntry } from '../../core/entities/post.js';
+import { markdownToText } from '../../core/entities/markdown.ts';
+import type { Post, PostEntry } from '../../core/entities/post.ts';
 import {
   createPostPublicationTags,
   getPostFirstPublished,
   getPostPublicationTypeTitle,
   getPostTypeFromContent,
   postAddonDescriptors,
-} from '../../core/entities/post.js';
-import type { Publication, PublicationComment } from '../../core/entities/publication.js';
-import { RESOURCE_MISSING_IMAGE } from '../../core/entities/resource.js';
-import type { PostingServiceManager } from '../../core/entities/service.js';
-import type { UserProfile } from '../../core/entities/user.js';
-import { setUserProfileFollowing, USER_DEFAULT_AUTHOR } from '../../core/entities/user.js';
-import { site } from '../../core/services/site.js';
-import type { VKPublication } from '../../core/services/vk.js';
-import { VK as VKService, VK_GROUP_ID, VK_GROUP_NAME } from '../../core/services/vk.js';
-import { asArray, getRevisionHash, randomDelay } from '../../core/utils/common-utils.js';
-import { formatDate, getDaysPassed } from '../../core/utils/date-utils.js';
-import { addHtmlBreaksToNewLines } from '../../core/utils/string-utils.js';
-import { locations } from '../data-managers/locations.js';
+} from '../../core/entities/post.ts';
+import type { Publication, PublicationComment } from '../../core/entities/publication.ts';
+import { RESOURCE_MISSING_IMAGE } from '../../core/entities/resource.ts';
+import type { PostingServiceManager } from '../../core/entities/service.ts';
+import type { UserProfile } from '../../core/entities/user.ts';
+import { setUserProfileFollowing, USER_DEFAULT_AUTHOR } from '../../core/entities/user.ts';
+import { site } from '../../core/services/site.ts';
+import type { VKPublication } from '../../core/services/vk.ts';
+import { VK as VKService, VK_GROUP_ID, VK_GROUP_NAME } from '../../core/services/vk.ts';
+import { asArray, getRevisionHash, randomDelay } from '../../core/utils/common-utils.ts';
+import { formatDate, getDaysPassed } from '../../core/utils/date-utils.ts';
+import { addHtmlBreaksToNewLines } from '../../core/utils/string-utils.ts';
+import { locations } from '../data-managers/locations.ts';
 import {
   getResourceDataUrl,
   readResource,
   removeResource,
   resourceExists,
   writeResource,
-} from '../data-managers/resources.js';
-import { saveUserAvatar } from '../data-managers/store-resources.js';
-import { users } from '../data-managers/users.js';
-import { createPostStory } from '../renderers/stories.js';
+} from '../data-managers/resources.ts';
+import { saveUserAvatar } from '../data-managers/store-resources.ts';
+import { users } from '../data-managers/users.ts';
+import { createPostStory } from '../renderers/stories.ts';
 
 const DEBUG_PUBLISHING = Boolean(process.env.DEBUG_PUBLISHING) || false;
 const RSS_RESOURCE_URL = 'store:/rss/vk.xml';

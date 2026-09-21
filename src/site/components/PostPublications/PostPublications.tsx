@@ -1,23 +1,23 @@
 import clsx from 'clsx';
 import { type Component, createResource, For, Show } from 'solid-js';
-import { type Option } from '../../../core/entities/option.js';
-import { getPostDateById } from '../../../core/entities/post.js';
-import type { PostsManagerName } from '../../../core/entities/posts-manager.js';
+import { type Option } from '../../../core/entities/option.ts';
+import { getPostDateById } from '../../../core/entities/post.ts';
+import type { PostsManagerName } from '../../../core/entities/posts-manager.ts';
 import {
   getPublicationEngagement,
   getRecentPublications,
   type Publication,
-} from '../../../core/entities/publication.js';
-import { postingServices } from '../../../core/services/index.js';
-import { formatDate } from '../../../core/utils/date-utils.js';
-import { dataManager } from '../../data-managers/manager.js';
-import { useLocalPatch } from '../../hooks/useLocalPatch.js';
-import { texts } from '../../texts/index.js';
-import { currentLocale, localize } from '../../utils/intl-utils.js';
-import { Divider } from '../Divider/Divider.js';
-import { Frame } from '../Frame/Frame.js';
-import { Select } from '../Select/Select.jsx';
-import { Table } from '../Table/Table.js';
+} from '../../../core/entities/publication.ts';
+import { postingServices } from '../../../core/services/index.ts';
+import { formatDate } from '../../../core/utils/date-utils.ts';
+import { dataManager } from '../../data-managers/manager.ts';
+import { useLocalPatch } from '../../hooks/useLocalPatch.ts';
+import { texts } from '../../texts/index.ts';
+import { currentLocale, localize } from '../../utils/intl-utils.ts';
+import { Divider } from '../Divider/Divider.tsx';
+import { Frame } from '../Frame/Frame.tsx';
+import { Select } from '../Select/Select.tsx';
+import { Table } from '../Table/Table.tsx';
 import styles from './PostPublications.module.css';
 
 export interface PostPublicationsProps {

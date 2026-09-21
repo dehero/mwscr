@@ -1,8 +1,8 @@
-import { MultiStoreManager } from '../../core/entities/multi-store.js';
-import { LocalStoreManager } from './local-store-manager.js';
-import { S3StoreManager } from './s3-store-manager.js';
-import { SiteStoreManager } from './site-store-manager.js';
-import { YandexDiskManager } from './yandex-disk-manager.js';
+import { MultiStoreManager } from '../../core/entities/multi-store.ts';
+import { LocalStoreManager } from './local-store-manager.ts';
+import { S3StoreManager } from './s3-store-manager.ts';
+import { SiteStoreManager } from './site-store-manager.ts';
+import { YandexDiskManager } from './yandex-disk-manager.ts';
 
 export const siteStoreManager = new SiteStoreManager();
 export const yandexDiskManager = new YandexDiskManager();

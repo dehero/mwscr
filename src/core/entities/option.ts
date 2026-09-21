@@ -1,6 +1,6 @@
-import { texts } from '../texts/index.js';
-import { asArray } from '../utils/common-utils.js';
-import type { IntlText } from './intl.js';
+import { texts } from '../texts/index.ts';
+import { asArray } from '../utils/common-utils.ts';
+import type { IntlText } from './intl.ts';
 
 export interface Option<T = string> {
   value: T | undefined;

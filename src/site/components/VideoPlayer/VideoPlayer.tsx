@@ -1,7 +1,7 @@
 import clsx from 'clsx';
 import type { Component } from 'solid-js';
-import type { MediaAspectRatio } from '../../../core/entities/media.js';
-import { Frame } from '../Frame/Frame.jsx';
+import type { MediaAspectRatio } from '../../../core/entities/media.ts';
+import { Frame } from '../Frame/Frame.tsx';
 import styles from './VideoPlayer.module.css';
 
 export interface VideoPlayerProps {

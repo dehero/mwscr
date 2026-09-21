@@ -1,7 +1,7 @@
 import assert from 'node:assert';
 import test from 'node:test';
-import type { User } from './user.js';
-import { UsersManager } from './users-manager.js';
+import type { User } from './user.ts';
+import { UsersManager } from './users-manager.ts';
 
 class TestUsersManager extends UsersManager {
   public async createItemId(item: User) {

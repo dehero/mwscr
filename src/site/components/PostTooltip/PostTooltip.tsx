@@ -1,31 +1,31 @@
 import { type Component, createMemo, createResource, createSignal, For, Show, splitProps } from 'solid-js';
-import { aspectRatioToReadableText } from '../../../core/entities/media.js';
+import { aspectRatioToReadableText } from '../../../core/entities/media.ts';
 import {
   getPostDateById,
   postPlacementDescriptors,
   postTypeDescriptors,
   postViolationDescriptors,
-} from '../../../core/entities/post.js';
-import type { PostAction } from '../../../core/entities/post-action.js';
-import type { PostInfo } from '../../../core/entities/post-info.js';
-import { createPostPath, parsePostPath, postsManagerDescriptors } from '../../../core/entities/posts-manager.js';
-import { asArray } from '../../../core/utils/common-utils.js';
-import { formatDate, isValidDate } from '../../../core/utils/date-utils.js';
-import { capitalize } from '../../../core/utils/string-utils.js';
-import { dataManager } from '../../data-managers/manager.js';
-import { postRoute } from '../../routes/post-route.js';
-import { texts } from '../../texts/index.js';
-import { currentLocale, localField, localize } from '../../utils/intl-utils.js';
-import { createDetachedDialogFragment } from '../DetachedDialogsProvider/DetachedDialogsProvider.jsx';
-import { Divider } from '../Divider/Divider.js';
-import { GoldIcon } from '../GoldIcon/GoldIcon.js';
-import { Icon } from '../Icon/Icon.js';
-import { PostContentPreview } from '../PostContentPreview/PostContentPreview.jsx';
-import { PostTypeGlyph } from '../PostTypeGlyph/PostTypeGlyph.jsx';
-import { useToaster } from '../Toaster/Toaster.jsx';
-import type { TooltipAction, TooltipProps } from '../Tooltip/Tooltip.js';
-import { Tooltip } from '../Tooltip/Tooltip.js';
-import { UserAvatar } from '../UserAvatar/UserAvatar.jsx';
+} from '../../../core/entities/post.ts';
+import type { PostAction } from '../../../core/entities/post-action.ts';
+import type { PostInfo } from '../../../core/entities/post-info.ts';
+import { createPostPath, parsePostPath, postsManagerDescriptors } from '../../../core/entities/posts-manager.ts';
+import { asArray } from '../../../core/utils/common-utils.ts';
+import { formatDate, isValidDate } from '../../../core/utils/date-utils.ts';
+import { capitalize } from '../../../core/utils/string-utils.ts';
+import { dataManager } from '../../data-managers/manager.ts';
+import { postRoute } from '../../routes/post-route.ts';
+import { texts } from '../../texts/index.ts';
+import { currentLocale, localField, localize } from '../../utils/intl-utils.ts';
+import { createDetachedDialogFragment } from '../DetachedDialogsProvider/DetachedDialogsProvider.tsx';
+import { Divider } from '../Divider/Divider.tsx';
+import { GoldIcon } from '../GoldIcon/GoldIcon.tsx';
+import { Icon } from '../Icon/Icon.tsx';
+import { PostContentPreview } from '../PostContentPreview/PostContentPreview.tsx';
+import { PostTypeGlyph } from '../PostTypeGlyph/PostTypeGlyph.tsx';
+import { useToaster } from '../Toaster/Toaster.tsx';
+import type { TooltipAction, TooltipProps } from '../Tooltip/Tooltip.tsx';
+import { Tooltip } from '../Tooltip/Tooltip.tsx';
+import { UserAvatar } from '../UserAvatar/UserAvatar.tsx';
 import styles from './PostTooltip.module.css';
 
 interface PostTooltipProps extends Omit<TooltipProps, 'children' | 'actions'> {

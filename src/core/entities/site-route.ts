@@ -1,7 +1,7 @@
 import type { MatchFilters, RoutePreloadFuncArgs, RouteSectionProps } from '@solidjs/router';
 import type { Component } from 'solid-js';
-import { cleanupUndefinedProps } from '../utils/common-utils.js';
-import type { IntlText } from './intl.js';
+import { cleanupUndefinedProps } from '../utils/common-utils.ts';
+import type { IntlText } from './intl.ts';
 
 const SITE_ROUTE_FRAGMENT_REGEX = /^#([^?]+)(\?.+)?$/;
 

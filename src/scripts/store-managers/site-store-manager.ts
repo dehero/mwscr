@@ -2,10 +2,10 @@ import { posix } from 'path';
 import { finished } from 'node:stream/promises';
 import SFTPClient from 'ssh2-sftp-client';
 import { Readable } from 'stream';
-import type { StoreItem, StoreManager } from '../../core/entities/store.js';
-import { AbstractSiteStore } from '../../core/stores/abstract-site-store.js';
-import { sleep } from '../../core/utils/common-utils.js';
-import { streamToBuffer } from '../utils/data-utils.js';
+import type { StoreItem, StoreManager } from '../../core/entities/store.ts';
+import { AbstractSiteStore } from '../../core/stores/abstract-site-store.ts';
+import { sleep } from '../../core/utils/common-utils.ts';
+import { streamToBuffer } from '../utils/data-utils.ts';
 
 const OPERATION_ATTEMPTS = 3;
 const RETRY_DELAY = 3000;

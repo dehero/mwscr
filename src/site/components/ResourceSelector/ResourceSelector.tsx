@@ -1,8 +1,8 @@
 import clsx from 'clsx';
 import { type Component, For } from 'solid-js';
-import type { MediaAspectRatio } from '../../../core/entities/media.js';
-import { Frame } from '../Frame/Frame.js';
-import { ResourcePreview } from '../ResourcePreview/ResourcePreview.js';
+import type { MediaAspectRatio } from '../../../core/entities/media.ts';
+import { Frame } from '../Frame/Frame.tsx';
+import { ResourcePreview } from '../ResourcePreview/ResourcePreview.tsx';
 import styles from './ResourceSelector.module.css';
 
 export interface ResourceSelector {

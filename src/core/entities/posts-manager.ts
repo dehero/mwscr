@@ -1,12 +1,12 @@
 import type { InferOutput } from 'valibot';
 import { intersect, notValue, object, picklist, pipe, union } from 'valibot';
-import { texts } from '../texts/index.js';
-import { asArray, getRevisionHash, textToId } from '../utils/common-utils.js';
-import { dateToString } from '../utils/date-utils.js';
-import { localize } from '../utils/intl-utils.js';
-import type { IntlText, Locale } from './intl.js';
-import type { ListReaderStats } from './list-manager.js';
-import { ListManager, ListManagerPatch } from './list-manager.js';
+import { texts } from '../texts/index.ts';
+import { asArray, getRevisionHash, textToId } from '../utils/common-utils.ts';
+import { dateToString } from '../utils/date-utils.ts';
+import { localize } from '../utils/intl-utils.ts';
+import type { IntlText, Locale } from './intl.ts';
+import type { ListReaderStats } from './list-manager.ts';
+import { ListManager, ListManagerPatch } from './list-manager.ts';
 import {
   comparePostEntriesByDate,
   getPostDateById,
@@ -25,12 +25,12 @@ import {
   PostTitleRu,
   PostType,
   PostViolation,
-} from './post.js';
-import type { PostAction } from './post-action.js';
-import { PostVariant } from './post-variant.js';
-import { getRecentPublications } from './publication.js';
-import type { Schema } from './schema.js';
-import { checkSchema, safeParseSchema } from './schema.js';
+} from './post.ts';
+import type { PostAction } from './post-action.ts';
+import { PostVariant } from './post-variant.ts';
+import { getRecentPublications } from './publication.ts';
+import type { Schema } from './schema.ts';
+import { checkSchema, safeParseSchema } from './schema.ts';
 
 export const ViolatingProposal = object({
   ...Post.entries,

@@ -1,12 +1,12 @@
 import { createResource } from 'solid-js';
-import { dataManager } from '../../data-managers/manager.js';
-import { texts } from '../../texts/index.js';
-import { localize } from '../../utils/intl-utils.js';
-import { Button } from '../Button/Button.jsx';
-import { type DetachedDialog } from '../DetachedDialogsProvider/DetachedDialogsProvider.jsx';
-import { Dialog } from '../Dialog/Dialog.jsx';
-import { Toast } from '../Toaster/Toaster.jsx';
-import { TopicMessage } from '../TopicMessage/TopicMessage.jsx';
+import { dataManager } from '../../data-managers/manager.ts';
+import { texts } from '../../texts/index.ts';
+import { localize } from '../../utils/intl-utils.ts';
+import { Button } from '../Button/Button.tsx';
+import { type DetachedDialog } from '../DetachedDialogsProvider/DetachedDialogsProvider.tsx';
+import { Dialog } from '../Dialog/Dialog.tsx';
+import { Toast } from '../Toaster/Toaster.tsx';
+import { TopicMessage } from '../TopicMessage/TopicMessage.tsx';
 import styles from './TopicDialog.module.css';
 
 const TopicDialog: DetachedDialog = (props) => {

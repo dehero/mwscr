@@ -1,8 +1,8 @@
 import clsx from 'clsx';
 import { For } from 'solid-js';
-import type { Option } from '../../../core/entities/option.js';
-import { localize } from '../../utils/intl-utils.js';
-import { Frame } from '../Frame/Frame.js';
+import type { Option } from '../../../core/entities/option.ts';
+import { localize } from '../../utils/intl-utils.ts';
+import { Frame } from '../Frame/Frame.tsx';
 import styles from './RadioGroup.module.css';
 
 export interface RadioGroupProps<T> {

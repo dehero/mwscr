@@ -1,9 +1,9 @@
 import 'dotenv/config';
-import { parseResourceUrl } from '../core/entities/resource.js';
-import { STORE_INBOX_DIR } from '../core/entities/store.js';
-import { asArray } from '../core/utils/common-utils.js';
-import { drafts } from './data-managers/posts.js';
-import { moveResource, resourceExists } from './data-managers/resources.js';
+import { parseResourceUrl } from '../core/entities/resource.ts';
+import { STORE_INBOX_DIR } from '../core/entities/store.ts';
+import { asArray } from '../core/utils/common-utils.ts';
+import { drafts } from './data-managers/posts.ts';
+import { moveResource, resourceExists } from './data-managers/resources.ts';
 
 const draftsEntries = await drafts.getAllEntries(true);
 

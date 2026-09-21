@@ -1,6 +1,6 @@
 import type { InferOutput } from 'valibot';
 import { array, literal, nonEmpty, object, picklist, pipe, string, trim, tuple, union, variant } from 'valibot';
-import { ImageResourceUrl, LosslessImageResourceUrl, VideoResourceUrl } from './resource.js';
+import { ImageResourceUrl, LosslessImageResourceUrl, VideoResourceUrl } from './resource.ts';
 
 export const PostDescription = pipe(string(), trim(), nonEmpty());
 

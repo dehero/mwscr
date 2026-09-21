@@ -1,11 +1,11 @@
 import { createEffect, createSignal } from 'solid-js';
-import type { DateRange } from '../../../core/utils/common-types.js';
-import { dateToString, formatDate } from '../../../core/utils/date-utils.js';
-import { texts } from '../../texts/index.js';
-import { currentLocale, localize } from '../../utils/intl-utils.js';
-import { Button } from '../Button/Button.jsx';
-import { Calendar } from '../Calendar/Calendar.jsx';
-import { Dialog } from '../Dialog/Dialog.jsx';
+import type { DateRange } from '../../../core/utils/common-types.ts';
+import { dateToString, formatDate } from '../../../core/utils/date-utils.ts';
+import { texts } from '../../texts/index.ts';
+import { currentLocale, localize } from '../../utils/intl-utils.ts';
+import { Button } from '../Button/Button.tsx';
+import { Calendar } from '../Calendar/Calendar.tsx';
+import { Dialog } from '../Dialog/Dialog.tsx';
 
 export interface DatePickerProps<
   TPeriod extends boolean | undefined,

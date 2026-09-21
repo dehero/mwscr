@@ -1,19 +1,19 @@
 import clsx from 'clsx';
 import { batch, type Component, createEffect, createMemo, createSignal, For, onCleanup, Show, untrack } from 'solid-js';
-import { getCenterLocationCell, type LocationCell } from '../../../core/entities/location.js';
-import { type LocationInfo } from '../../../core/entities/location-info.js';
+import { getCenterLocationCell, type LocationCell } from '../../../core/entities/location.ts';
+import { type LocationInfo } from '../../../core/entities/location-info.ts';
 import {
   locationCellToWorldMapPosition,
   WORLD_MAP_HEIGHT,
   WORLD_MAP_WIDTH,
   worldMapPositionToLocationCell,
-} from '../../../core/entities/world-map.js';
-import { asArray } from '../../../core/utils/common-utils.js';
-import { texts } from '../../texts/index.js';
-import { localField, localize } from '../../utils/intl-utils.js';
-import { Button } from '../Button/Button.js';
-import { LocationTooltip } from '../LocationTooltip/LocationTooltip.jsx';
-import { Spacer } from '../Spacer/Spacer.jsx';
+} from '../../../core/entities/world-map.ts';
+import { asArray } from '../../../core/utils/common-utils.ts';
+import { texts } from '../../texts/index.ts';
+import { localField, localize } from '../../utils/intl-utils.ts';
+import { Button } from '../Button/Button.tsx';
+import { LocationTooltip } from '../LocationTooltip/LocationTooltip.tsx';
+import { Spacer } from '../Spacer/Spacer.tsx';
 import styles from './WorldMap.module.css';
 
 export interface WorldMapProps {

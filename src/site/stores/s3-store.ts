@@ -1,5 +1,5 @@
-import { AbstractS3Store } from '../../core/stores/abstract-s3-store.js';
-import { setStorageItemWithEvent } from '../utils/storage-utils.js';
+import { AbstractS3Store } from '../../core/stores/abstract-s3-store.ts';
+import { setStorageItemWithEvent } from '../utils/storage-utils.ts';
 
 export class S3Store extends AbstractS3Store {
   getSecretKey() {

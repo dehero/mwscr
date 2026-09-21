@@ -2,8 +2,8 @@ import clsx from 'clsx';
 import type { Component, JSX } from 'solid-js';
 import { Show } from 'solid-js';
 import { Dynamic } from 'solid-js/web';
-import type { TableRow } from './Table.js';
-import { renderValue } from './Table.js';
+import type { TableRow } from './Table.tsx';
+import { renderValue } from './Table.tsx';
 import styles from './Table.module.css';
 
 export interface RowProps {

@@ -1,8 +1,8 @@
 import { BooleanOperations, Box, Polygon } from '@flatten-js/core';
 import memoize from 'micro-memoize';
-import { asArray } from '../utils/common-utils.js';
-import type { Location, LocationCell } from './location.js';
-import { getLocationCellCoordinates } from './location.js';
+import { asArray } from '../utils/common-utils.ts';
+import type { Location, LocationCell } from './location.ts';
+import { getLocationCellCoordinates } from './location.ts';
 
 export const WORLD_MAP_CELL_SIZE = 18;
 export const WORLD_MAP_CELL_SHIFT_X = 522;

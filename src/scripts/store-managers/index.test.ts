@@ -2,9 +2,9 @@ import 'dotenv/config';
 import assert from 'node:assert';
 import test from 'node:test';
 import { Readable } from 'stream';
-import { S3StoreManager } from './s3-store-manager.js';
-import { SiteStoreManager } from './site-store-manager.js';
-import { YandexDiskManager } from './yandex-disk-manager.js';
+import { S3StoreManager } from './s3-store-manager.ts';
+import { SiteStoreManager } from './site-store-manager.ts';
+import { YandexDiskManager } from './yandex-disk-manager.ts';
 
 const testFile = 'shots/test-store-manager.png';
 

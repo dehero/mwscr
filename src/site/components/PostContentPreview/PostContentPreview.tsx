@@ -1,11 +1,11 @@
 import clsx from 'clsx';
 import type { Component, JSX } from 'solid-js';
 import { For, Match, Show, Switch } from 'solid-js';
-import { getLimitedAspectRatio } from '../../../core/entities/media.js';
-import type { PostAspectRatio, PostContent } from '../../../core/entities/post.js';
-import { asArray } from '../../../core/utils/common-utils.js';
-import type { FrameState } from '../Frame/Frame.jsx';
-import { ResourcePreview } from '../ResourcePreview/ResourcePreview.jsx';
+import { getLimitedAspectRatio } from '../../../core/entities/media.ts';
+import type { PostAspectRatio, PostContent } from '../../../core/entities/post.ts';
+import { asArray } from '../../../core/utils/common-utils.ts';
+import type { FrameState } from '../Frame/Frame.tsx';
+import { ResourcePreview } from '../ResourcePreview/ResourcePreview.tsx';
 import styles from './PostContentPreview.module.css';
 
 export interface PostContentPreviewProps {

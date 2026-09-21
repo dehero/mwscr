@@ -1,15 +1,15 @@
-import { texts } from '../texts/index.js';
-import type { DateRange, EntitySelection, SortDirection } from '../utils/common-types.js';
-import { asArray, cleanupUndefinedProps, getSearchTokens, search } from '../utils/common-utils.js';
-import { dateToString, formatDate, isDateInRange, isValidDate } from '../utils/date-utils.js';
-import { localize } from '../utils/intl-utils.js';
-import type { DataManager } from './data-manager.js';
-import type { Locale } from './intl.js';
-import { type ListReaderItemStatus, listReaderItemStatusDescriptors } from './list-manager.js';
-import { createLocationOption, isNestedLocation } from './location.js';
-import { aspectRatioToReadableText } from './media.js';
-import type { Option } from './option.js';
-import { ANY_OPTION, NONE_OPTION } from './option.js';
+import { texts } from '../texts/index.ts';
+import type { DateRange, EntitySelection, SortDirection } from '../utils/common-types.ts';
+import { asArray, cleanupUndefinedProps, getSearchTokens, search } from '../utils/common-utils.ts';
+import { dateToString, formatDate, isDateInRange, isValidDate } from '../utils/date-utils.ts';
+import { localize } from '../utils/intl-utils.ts';
+import type { DataManager } from './data-manager.ts';
+import type { Locale } from './intl.ts';
+import { type ListReaderItemStatus, listReaderItemStatusDescriptors } from './list-manager.ts';
+import { createLocationOption, isNestedLocation } from './location.ts';
+import { aspectRatioToReadableText } from './media.ts';
+import type { Option } from './option.ts';
+import { ANY_OPTION, NONE_OPTION } from './option.ts';
 import type {
   PostAddon,
   PostAspectRatio,
@@ -21,7 +21,7 @@ import type {
   PostType,
   PostViolation,
   PostViolations,
-} from './post.js';
+} from './post.ts';
 import {
   comparePostEntriesByDate,
   getPostDateById,
@@ -32,10 +32,10 @@ import {
   postAddonDescriptors,
   postPlacementDescriptors,
   postViolationDescriptors,
-} from './post.js';
-import type { PostsManagerName } from './posts-manager.js';
-import { getPostsManagerUnitTitle as getPostsManagerUnitText, isPublishablePost, isReject } from './posts-manager.js';
-import { createUserOption } from './user.js';
+} from './post.ts';
+import type { PostsManagerName } from './posts-manager.ts';
+import { getPostsManagerUnitTitle as getPostsManagerUnitText, isPublishablePost, isReject } from './posts-manager.ts';
+import { createUserOption } from './user.ts';
 
 export interface PostInfo {
   id: string;

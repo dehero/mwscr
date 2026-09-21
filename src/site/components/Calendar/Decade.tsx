@@ -1,8 +1,8 @@
 import { type Component, For } from 'solid-js';
-import type { DateRange } from '../../../core/utils/common-types.js';
-import { getDecadeYearRange, isDateInRange } from '../../../core/utils/date-utils.js';
-import { currentLocale } from '../../utils/intl-utils.js';
-import { Button } from '../Button/Button.jsx';
+import type { DateRange } from '../../../core/utils/common-types.ts';
+import { getDecadeYearRange, isDateInRange } from '../../../core/utils/date-utils.ts';
+import { currentLocale } from '../../utils/intl-utils.ts';
+import { Button } from '../Button/Button.tsx';
 import styles from './Calendar.module.css';
 
 export interface DecadeProps {

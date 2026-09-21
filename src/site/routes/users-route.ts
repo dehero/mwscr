@@ -1,8 +1,8 @@
 import { lazy } from 'solid-js';
-import type { SiteRoute } from '../../core/entities/site-route.js';
-import { queryUsersPageData, type UsersPageData, type UsersPageParams } from '../pages/UsersPage/UsersPage.data.js';
-import { texts } from '../texts/index.js';
-import { homeRoute } from './home-route.js';
+import type { SiteRoute } from '../../core/entities/site-route.ts';
+import { queryUsersPageData, type UsersPageData, type UsersPageParams } from '../pages/UsersPage/UsersPage.data.ts';
+import { texts } from '../texts/index.ts';
+import { homeRoute } from './home-route.ts';
 
 export const usersRoute: SiteRoute<UsersPageParams, UsersPageData> = {
   path: '/users',
@@ -20,6 +20,6 @@ export const usersRoute: SiteRoute<UsersPageParams, UsersPageData> = {
     route: homeRoute,
     params: {},
   }),
-  component: lazy(() => import('../pages/UsersPage/UsersPage.jsx')),
+  component: lazy(() => import('../pages/UsersPage/UsersPage.tsx')),
   preload: ({ params }) => queryUsersPageData(params),
 };

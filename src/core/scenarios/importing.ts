@@ -1,8 +1,8 @@
-import type { ResourceType } from '../entities/resource.js';
-import type { MediaRule } from '../rules/media-rules.js';
-import { needMinHeight, needMinWidth } from '../rules/media-rules.js';
-import type { ResourceRule } from '../rules/resource-rules.js';
-import { needCertainMimeType, needMaxSize, needMinSize } from '../rules/resource-rules.js';
+import type { ResourceType } from '../entities/resource.ts';
+import type { MediaRule } from '../rules/media-rules.ts';
+import { needMinHeight, needMinWidth } from '../rules/media-rules.ts';
+import type { ResourceRule } from '../rules/resource-rules.ts';
+import { needCertainMimeType, needMaxSize, needMinSize } from '../rules/resource-rules.ts';
 
 export type ImportingScenario = [resourceType: ResourceType, resourceRoules: ResourceRule[], mediaRules: MediaRule[]];
 

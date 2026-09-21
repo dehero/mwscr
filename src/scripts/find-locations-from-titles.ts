@@ -1,7 +1,7 @@
 import 'dotenv/config';
-import { arrayFromAsync } from '../core/utils/common-utils.js';
-import { locations } from './data-managers/locations.js';
-import { posts } from './data-managers/posts.js';
+import { arrayFromAsync } from '../core/utils/common-utils.ts';
+import { locations } from './data-managers/locations.ts';
+import { posts } from './data-managers/posts.ts';
 
 const publishedPostEntries = await posts.getAllEntries(true);
 

@@ -1,7 +1,7 @@
 import { query } from '@solidjs/router';
-import type { DataManager } from '../../../core/entities/data-manager.js';
-import type { SiteRouteParams } from '../../../core/entities/site-route.js';
-import { dataManager } from '../../data-managers/manager.js';
+import type { DataManager } from '../../../core/entities/data-manager.ts';
+import type { SiteRouteParams } from '../../../core/entities/site-route.ts';
+import { dataManager } from '../../data-managers/manager.ts';
 
 // eslint-disable-next-line @typescript-eslint/no-empty-interface
 export interface UsersPageData {}

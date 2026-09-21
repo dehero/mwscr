@@ -1,4 +1,4 @@
-import type { IntlText } from '../../core/entities/intl.js';
+import type { IntlText } from '../../core/entities/intl.ts';
 
 export const highlightsTexts = {
   editorsChoicePost: ["Editor's Choice Post", 'Выбор редактора'],

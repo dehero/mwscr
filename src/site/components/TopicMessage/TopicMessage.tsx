@@ -1,10 +1,10 @@
 import clsx from 'clsx';
 import { type Component, Show } from 'solid-js';
-import { postViolationDescriptors } from '../../../core/entities/post.js';
-import type { TopicEntry } from '../../../core/entities/topic.js';
-import { texts } from '../../texts/index.js';
-import { localField, localize } from '../../utils/intl-utils.js';
-import { Icon } from '../Icon/Icon.jsx';
+import { postViolationDescriptors } from '../../../core/entities/post.ts';
+import type { TopicEntry } from '../../../core/entities/topic.ts';
+import { texts } from '../../texts/index.ts';
+import { localField, localize } from '../../utils/intl-utils.ts';
+import { Icon } from '../Icon/Icon.tsx';
 import styles from './TopicMessage.module.css';
 
 interface TopicMessageProps {

@@ -1,6 +1,6 @@
 import type { InferOutput } from 'valibot';
 import { custom, is, nonEmpty, picklist, pipe, string } from 'valibot';
-import { listItems } from '../utils/common-utils.js';
+import { listItems } from '../utils/common-utils.ts';
 
 export const ResourceProtocol = picklist(['store:', 'file:', 'http:', 'https:', 'uploads:']);
 export const ResourceType = picklist(['image', 'video', 'archive']);

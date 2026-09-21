@@ -5,9 +5,9 @@ import type {
   IntlTextResult,
   IntlTextValues,
   Locale,
-} from '../../core/entities/intl.js';
-import { site } from '../../core/services/site.js';
-import { localize as coreLocalize } from '../../core/utils/intl-utils.js';
+} from '../../core/entities/intl.ts';
+import { site } from '../../core/services/site.ts';
+import { localize as coreLocalize } from '../../core/utils/intl-utils.ts';
 
 const isProduction = import.meta.env.MODE === 'production';
 

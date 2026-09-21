@@ -2,8 +2,8 @@
 import './index.css';
 import { Router } from '@solidjs/router';
 import { render } from 'solid-js/web';
-import { App } from './components/App/App.jsx';
-import { routes } from './routes/index.js';
+import { App } from './components/App/App.tsx';
+import { routes } from './routes/index.ts';
 
 const root = document.querySelector('#root');
 

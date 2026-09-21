@@ -1,13 +1,13 @@
-import { commonTexts } from './common-texts.js';
-import { fieldTexts } from './field-texts.js';
-import { locationTexts } from './location-texts.js';
-import { metricsTexts } from './metrics-texts.js';
-import { postFilterTexts } from './post-filter-texts.js';
-import { postTexts } from './post-texts.js';
-import { postViolationTexts } from './post-violation-texts.js';
-import { postsManagerTexts } from './posts-manager-texts.js';
-import { userFilterTexts } from './user-filter-texts.js';
-import { userTexts } from './user-texts.js';
+import { commonTexts } from './common-texts.ts';
+import { fieldTexts } from './field-texts.ts';
+import { locationTexts } from './location-texts.ts';
+import { metricsTexts } from './metrics-texts.ts';
+import { postFilterTexts } from './post-filter-texts.ts';
+import { postTexts } from './post-texts.ts';
+import { postViolationTexts } from './post-violation-texts.ts';
+import { postsManagerTexts } from './posts-manager-texts.ts';
+import { userFilterTexts } from './user-filter-texts.ts';
+import { userTexts } from './user-texts.ts';
 
 export const texts = {
   common: commonTexts,

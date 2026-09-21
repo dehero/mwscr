@@ -2,40 +2,37 @@ import type { UploadFile } from '@solid-primitives/upload';
 import { createFileUploader } from '@solid-primitives/upload';
 import { useNavigate } from '@solidjs/router';
 import { createMemo, createResource, createSignal, For, Show } from 'solid-js';
-import importFormatsRaw from '../../../../assets/import-variants.json';
-import { uploadFiles } from '../../../core/data-managers/uploads-manager.js';
-import type { ImportVariant } from '../../../core/entities/import-variant.js';
-import { PostTitle, PostTitleRu, PostViolation, postViolationDescriptors } from '../../../core/entities/post.js';
-import type { PostInfo } from '../../../core/entities/post-info.js';
-import { ImageResourceExtension } from '../../../core/entities/resource.js';
-import { safeParseSchema } from '../../../core/entities/schema.js';
-import type { TopicInfo } from '../../../core/entities/topic-info.js';
-import { USER_UNKNOWN } from '../../../core/entities/user.js';
-import { postProposalIssue } from '../../../core/github-issues/post-proposal-issue.js';
-import { email } from '../../../core/services/email.js';
-import { telegram, TELEGRAM_BOT_NAME } from '../../../core/services/telegram.js';
-import { dateToString } from '../../../core/utils/date-utils.js';
-import { stripCommonExtension } from '../../../core/utils/string-utils.js';
-import { dataManager } from '../../data-managers/manager.js';
-import { helpRoute } from '../../routes/help-route.js';
-import { postsRoute } from '../../routes/posts-route.js';
-import { texts } from '../../texts/index.js';
-import { localField, localize } from '../../utils/intl-utils.js';
-import { Button } from '../Button/Button.js';
+import { uploadFiles } from '../../../core/data-managers/uploads-manager.ts';
+import { PostTitle, PostTitleRu, PostViolation, postViolationDescriptors } from '../../../core/entities/post.ts';
+import type { PostInfo } from '../../../core/entities/post-info.ts';
+import { ImageResourceExtension } from '../../../core/entities/resource.ts';
+import { safeParseSchema } from '../../../core/entities/schema.ts';
+import type { TopicInfo } from '../../../core/entities/topic-info.ts';
+import { USER_UNKNOWN } from '../../../core/entities/user.ts';
+import { postProposalIssue } from '../../../core/github-issues/post-proposal-issue.ts';
+import { email } from '../../../core/services/email.ts';
+import { telegram, TELEGRAM_BOT_NAME } from '../../../core/services/telegram.ts';
+import { dateToString } from '../../../core/utils/date-utils.ts';
+import { stripCommonExtension } from '../../../core/utils/string-utils.ts';
+import { dataManager } from '../../data-managers/manager.ts';
+import { helpRoute } from '../../routes/help-route.ts';
+import { postsRoute } from '../../routes/posts-route.ts';
+import { texts } from '../../texts/index.ts';
+import { localField, localize } from '../../utils/intl-utils.ts';
+import { Button } from '../Button/Button.tsx';
 import {
   createDetachedDialogFragment,
   type DetachedDialog,
-} from '../DetachedDialogsProvider/DetachedDialogsProvider.jsx';
-import { Dialog } from '../Dialog/Dialog.js';
-import { Input } from '../Input/Input.jsx';
-import { Select } from '../Select/Select.jsx';
-import { Table } from '../Table/Table.jsx';
-import { useToaster } from '../Toaster/Toaster.jsx';
-import { TopicTooltip } from '../TopicTooltip/TopicTooltip.jsx';
-import { UploadReportDialog } from '../UploadReportDialog/UploadReportDialog.jsx';
+} from '../DetachedDialogsProvider/DetachedDialogsProvider.tsx';
+import { Dialog } from '../Dialog/Dialog.tsx';
+import { Input } from '../Input/Input.tsx';
+import { Select } from '../Select/Select.tsx';
+import { Table } from '../Table/Table.tsx';
+import { useToaster } from '../Toaster/Toaster.tsx';
+import { TopicTooltip } from '../TopicTooltip/TopicTooltip.tsx';
+import { UploadReportDialog } from '../UploadReportDialog/UploadReportDialog.tsx';
+import { importVariants } from './import-variants.ts';
 import styles from './PostProposalDialog.module.css';
-
-const importVariants = importFormatsRaw as Record<string, ImportVariant>;
 
 interface UploadReportItem {
   name: string;

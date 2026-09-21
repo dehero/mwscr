@@ -3,16 +3,16 @@ import {
   getPostTypeFromContent,
   mergePostContents,
   mergePostWith,
-} from '../../core/entities/post.js';
-import type { DraftProposal } from '../../core/entities/posts-manager.js';
-import { createDraftId } from '../../core/entities/posts-manager.js';
-import { resourceIsImage, resourceIsVideo } from '../../core/entities/resource.js';
-import type { StoreItem } from '../../core/entities/store.js';
-import { createStoreItemUrl, parseStoreItemUrl, STORE_INBOX_DIR } from '../../core/entities/store.js';
-import { asArray, partition } from '../../core/utils/common-utils.js';
-import { drafts } from '../data-managers/posts.js';
-import { syncStoreResource } from '../data-managers/store-resources.js';
-import { storeManager } from '../store-managers/index.js';
+} from '../../core/entities/post.ts';
+import type { DraftProposal } from '../../core/entities/posts-manager.ts';
+import { createDraftId } from '../../core/entities/posts-manager.ts';
+import { resourceIsImage, resourceIsVideo } from '../../core/entities/resource.ts';
+import type { StoreItem } from '../../core/entities/store.ts';
+import { createStoreItemUrl, parseStoreItemUrl, STORE_INBOX_DIR } from '../../core/entities/store.ts';
+import { asArray, partition } from '../../core/utils/common-utils.ts';
+import { drafts } from '../data-managers/posts.ts';
+import { syncStoreResource } from '../data-managers/store-resources.ts';
+import { storeManager } from '../store-managers/index.ts';
 
 export async function importStoreInbox() {
   console.group(`Importing drafts from store...`);
