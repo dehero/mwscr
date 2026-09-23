@@ -10,6 +10,9 @@ import { streamToBuffer } from '../utils/data-utils.ts';
 const OPERATION_ATTEMPTS = 3;
 const RETRY_DELAY = 3000;
 
+/**
+ * @deprecated Use S3 storage instead
+ */
 export class SiteStoreManager extends AbstractSiteStore implements StoreManager {
   private client: SFTPClient | undefined;
   private connecting: Promise<SFTPClient> | undefined;

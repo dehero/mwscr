@@ -1,6 +1,9 @@
 import type { Store } from '../entities/store.ts';
 import { site } from '../services/site.ts';
 
+/**
+ * @deprecated Use S3 storage instead
+ */
 export abstract class AbstractSiteStore implements Store {
   readonly name = 'Site';
 

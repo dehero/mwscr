@@ -2,7 +2,7 @@ import clsx from 'clsx';
 import type { Component } from 'solid-js';
 import { createEffect, createSignal } from 'solid-js';
 import { useSettings } from '../../hooks/useSettings.ts';
-import { siteStore } from '../../stores/index.ts';
+import { s3Store } from '../../stores/index.ts';
 import { texts } from '../../texts/index.ts';
 import { localize } from '../../utils/intl-utils.ts';
 import { Button } from '../Button/Button.tsx';
@@ -23,7 +23,7 @@ export const SettingsEditor: Component<SettingsEditorProps> = (props) => {
   const handleSecretKeyValidate = async () => {
     try {
       const value = localSecretKey();
-      await siteStore.setSecretKey(value);
+      await s3Store.setSecretKey(value);
       if (value) {
         addToast(localize(texts.editing.secretKeySet));
       } else {
