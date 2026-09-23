@@ -144,32 +144,3 @@ jobs:
             ls -al > /dev/null
             echo $RSYNC_STDOUT
             exit
-
-  diagnose-site-store:
-    if: github.event_name == 'workflow_dispatch'
-    runs-on: ubuntu-latest
-    timeout-minutes: 10
-    env:
-      SITE_SSH_HOST: '${{ secrets.SITE_SSH_HOST }}'
-      SITE_SSH_USER: '${{ secrets.SITE_SSH_USER }}'
-      SITE_SSH_PRIVATE_KEY: '${{ secrets.SITE_SSH_PRIVATE_KEY }}'
-      SITE_SSH_STORE_PATH: '${{ secrets.SITE_SSH_STORE_PATH }}'
-
-    steps:
-      - name: Checkout
-        uses: actions/checkout@v4
-
-      - name: Install Node.js
-        uses: actions/setup-node@v4
-        with:
-          node-version: '24'
-          cache: 'npm'
-
-      - name: Install dependencies
-        shell: bash
-        run: npm ci
-
-      - name: Diagnose site store connection
-        shell: bash
-        continue-on-error: true
-        run: node src/scripts/diagnose-site-store.ts
