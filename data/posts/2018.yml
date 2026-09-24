@@ -8188,7 +8188,7 @@
   title: Mournhold Cactus
   titleRu: Морнхолдский кактус
   placement: Indoors
-  location: 'Mournhold, Royal Palace: Guards'' Quarters'
+  location: "Mournhold, Royal Palace: Guards' Quarters"
   content: store:/shots/2018-06-02-mournhold-cactus.png
   type: shot
   aspect: 1/1
@@ -8543,7 +8543,7 @@
   placement: Indoors
   location:
     - Imperial Prison Ship
-    - 'Mournhold, Royal Palace: Barenziah''s Chambers'
+    - "Mournhold, Royal Palace: Barenziah's Chambers"
     - Tower of Tel Fyr, Hall of Fyr
     - Seyda Neen, Census and Excise Office
   content:
@@ -15141,6 +15141,14 @@
       likes: 70
       views: 633
       comments: !c iw2AkZPLQnl4RuVigACra2F3YXpha3kyMjOk8J+RjQM=
+    - service: tg
+      id: 1320
+      published: 2026-09-23-19-19-00
+      followers: 942
+    - service: max
+      id: 1790191165480
+      published: 2026-09-23-19-19-00
+      followers: 37
 2018-10-09-severe-innkeeper:
   title: Severe Innkeeper
   titleRu: Суровый трактирщик
@@ -17109,7 +17117,8 @@
   locating:
     date: 2026-02-14-20-32-23
     user: pyriglena
-    text: Azura's Coast Region 13,12, the northern coast of the bigger island to the south of Tel Mora (north of Esutanamus)
+    text:
+      Azura's Coast Region 13,12, the northern coast of the bigger island to the south of Tel Mora (north of Esutanamus)
   engine: OpenMW
   mark: B2
   posts:
