@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file.
 
+## [3.3.0](https://github.com/dehero/mwscr/compare/v3.2.6...v3.3.0) (2026-09-26)
+
+### Features
+
+- upload temporary images to ImgBB
+  ([8fdb900](https://github.com/dehero/mwscr/commit/8fdb900e8c34cfc148a23d301f7138435babeefd))
+
 ## [3.2.6](https://github.com/dehero/mwscr/compare/v3.2.5...v3.2.6) (2026-09-21)
 
 ### Bug Fixes
