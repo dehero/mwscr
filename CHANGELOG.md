@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file.
 
+## [3.3.1](https://github.com/dehero/mwscr/compare/v3.3.0...v3.3.1) (2026-09-26)
+
+### Continuous Integration
+
+- pass IMGBB_API_KEY to maintain job
+  ([efcf418](https://github.com/dehero/mwscr/commit/efcf418abaf518b5bb326f4e0e7cb2432314d952))
+
 ## [3.3.0](https://github.com/dehero/mwscr/compare/v3.2.6...v3.3.0) (2026-09-26)
 
 ### Features
