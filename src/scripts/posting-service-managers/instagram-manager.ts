@@ -41,11 +41,11 @@ import { Instagram } from '../../core/services/instagram.ts';
 import { site } from '../../core/services/site.ts';
 import { asArray, getRevisionHash, randomDelay } from '../../core/utils/common-utils.ts';
 import { formatDate, getDaysPassed, getMillisecondsPassed } from '../../core/utils/date-utils.ts';
+import { uploadTempImage } from '../data-managers/image-hosting.ts';
 import { readResource } from '../data-managers/resources.ts';
 import { saveUserAvatar } from '../data-managers/store-resources.ts';
 import { users } from '../data-managers/users.ts';
 import { createPostStory } from '../renderers/stories.ts';
-import { s3StoreManager } from '../store-managers/index.ts';
 
 const INSTAGRAM_PAGE_ID = '17841404237421312'; // Instagram Business ID
 
@@ -56,7 +56,6 @@ const FETCHER_DELAY_MAXIMUM = 60000;
 const DEBUG_PUBLISHING = Boolean(process.env.DEBUG_PUBLISHING) || false;
 
 export class InstagramManager extends Instagram implements PostingServiceManager {
-  private tempFiles: string[] = [];
   ig: Client | undefined;
   fetcher: igApi | undefined | null;
   lastFetched: Date | undefined;
@@ -157,17 +156,9 @@ export class InstagramManager extends Instagram implements PostingServiceManager
   }
 
   async getUploadUrl(data: Buffer) {
-    const filename = `instagram-upload-${this.tempFiles.length + 1}-${Date.now()}.jpeg`;
-    this.tempFiles.push(filename);
+    const filename = `instagram-upload-${Date.now()}.jpeg`;
 
-    await s3StoreManager.put(filename, data);
-    const url = s3StoreManager.getPublicUrl(filename);
-
-    if (!url) {
-      throw new Error(`Cannot get public URL for ${filename}`);
-    }
-
-    return url;
+    return uploadTempImage(data, filename);
   }
 
   async getCroppedImageUrl(image: sharp.Sharp, width: number, height: number): Promise<string> {
@@ -370,14 +361,7 @@ export class InstagramManager extends Instagram implements PostingServiceManager
   }
 
   async disconnect() {
-    for (const file of this.tempFiles) {
-      try {
-        await s3StoreManager.remove(file);
-      } catch {
-        // Ignore error
-      }
-    }
-    this.tempFiles = [];
+    // Uploaded temporary images are removed by the hosting service automatically.
   }
 
   async grabPostInfo(mediaId: string) {

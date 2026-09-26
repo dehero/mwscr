@@ -101,6 +101,7 @@ containing credentials:
 
 ```env
 INSTAGRAM_ACCESS_TOKEN=
+IMGBB_API_KEY=
 
 VK_ACCESS_TOKEN=
 
