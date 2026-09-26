@@ -94,7 +94,7 @@
     - service: vk
       id: 2312
       published: 2025-04-28-18-25-04
-      updated: 2026-09-05-11-01-59
+      updated: 2026-09-26-23-14-59
       followers: 1274
       likes: 72
       views: 525
@@ -149,7 +149,7 @@
       id: DC7LMkPPlFg
       mediaId: '18041061017000292'
       published: 2024-11-28-18-10-36
-      updated: 2026-09-10-06-45-00
+      updated: 2026-09-26-23-16-13
       followers: 1492
       likes: 92
       views: 534
@@ -168,10 +168,10 @@
     - service: tg
       id: 609
       published: 2024-11-28-18-10-52
-      updated: 2026-09-05-18-39-27
+      updated: 2026-09-26-23-14-01
       followers: 578
       likes: 59
-      views: 723
+      views: 724
 2016-11-20-4-aldruhn-under-skar:
   title: Ald'ruhn, Under-Skar
   titleRu: Альд'рун, под Скаром
@@ -225,10 +225,10 @@
     - service: tg
       id: 529
       published: 2024-09-11-18-36-14
-      updated: 2026-09-05-20-47-47
+      updated: 2026-09-26-23-15-32
       followers: 555
       likes: 57
-      views: 1132
+      views: 1136
       comments: !c CwyAkZPLQnkeJgMugAClYW5zaXOnbXkgaG9tZQM=
 2016-11-20-5-galom-daeus:
   title: Galom Daeus
@@ -781,7 +781,7 @@
       id: DCcRiohACzQ
       mediaId: '18082753906486129'
       published: 2024-11-16-18-09-34
-      updated: 2026-09-10-06-45-13
+      updated: 2026-09-26-23-16-52
       followers: 1481
       likes: 119
       views: 510
@@ -802,7 +802,7 @@
     - service: tg
       id: 597
       published: 2024-11-16-18-09-47
-      updated: 2026-09-05-18-39-38
+      updated: 2026-09-26-23-14-16
       followers: 573
       likes: 71
       views: 756
@@ -843,7 +843,7 @@
     - service: vk
       id: 2282
       published: 2025-04-16-18-22-11
-      updated: 2026-09-05-13-40-29
+      updated: 2026-09-26-23-15-20
       followers: 1261
       likes: 75
       views: 565
@@ -888,7 +888,7 @@
       id: DDphn0uzA0I
       mediaId: '17959880600728426'
       published: 2024-12-16-18-11-38
-      updated: 2026-09-10-06-44-38
+      updated: 2026-09-26-23-14-47
       followers: 1508
       likes: 126
       views: 448
@@ -1116,7 +1116,7 @@
       id: DDhzL3sO4Ky
       mediaId: '17846310591368957'
       published: 2024-12-13-18-11-10
-      updated: 2026-09-10-06-44-43
+      updated: 2026-09-26-23-15-00
       followers: 1507
       likes: 98
       views: 458
@@ -2258,7 +2258,7 @@
       id: DAys4YOh7OF
       mediaId: '17855403861278191'
       published: 2024-10-06-18-08-58
-      updated: 2026-09-10-06-45-59
+      updated: 2026-09-26-23-18-38
       followers: 1464
       likes: 126
       views: 920
@@ -2271,7 +2271,7 @@
     - service: tg
       id: 556
       published: 2024-10-06-18-09-23
-      updated: 2026-09-05-18-40-23
+      updated: 2026-09-26-23-15-03
       followers: 559
       likes: 66
       views: 590
