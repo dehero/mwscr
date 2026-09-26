@@ -90,10 +90,10 @@
     - service: vk
       id: 3391
       published: 2026-06-20-18-04-48
-      updated: 2026-09-11-06-47-44
+      updated: 2026-09-26-16-06-53
       followers: 1434
       likes: 56
-      views: 547
+      views: 550
       reposts: 4
     - service: tg
       id: 1242
@@ -522,10 +522,10 @@
     - service: vk
       id: 3386
       published: 2026-06-08-19-32-50
-      updated: 2026-09-11-06-47-49
+      updated: 2026-09-26-16-06-57
       followers: 1437
       likes: 21
-      views: 524
+      views: 526
       reposts: 3
     - service: tg
       id: 1238
@@ -885,10 +885,10 @@
     - service: vk
       id: 3543
       published: 2026-09-06-20-56-49
-      updated: 2026-09-10-23-30-01
+      updated: 2026-09-26-16-04-59
       followers: 1442
-      likes: 79
-      views: 721
+      likes: 89
+      views: 870
       reposts: 5
       comments: !c |-
         izWAkpPLQnoIcpVOAACyaXJpbmEtYnlzdHJpdHNrYXlht9C60YDQsNGB0L7RgtC40YnQsCDwn6Ww
@@ -1314,7 +1314,7 @@
       id: DUEI4m9Duqi
       mediaId: '18100851613884451'
       published: 2026-01-28-18-37-18
-      updated: 2026-09-09-18-05-55
+      updated: 2026-09-26-16-05-11
       followers: 1606
       likes: 53
     - service: vk
@@ -1333,10 +1333,10 @@
     - service: tg
       id: 1134
       published: 2026-01-28-18-37-27
-      updated: 2026-09-04-21-07-07
+      updated: 2026-09-26-16-05-00
       followers: 888
       likes: 68
-      views: 597
+      views: 599
       comments: !c |-
         iyGAkpPLQnnAYpJjAACma2V2eS1jpPCfpoCTy0J5wF+uJwAArnBhaW5raWxsZXIxOTg2s9Cl0LvQ
         tdCxINC/0LXRh9GR0LwD
@@ -1448,7 +1448,7 @@
       id: DQ91W55jYAg
       mediaId: '18080446513887672'
       published: 2025-11-12-18-17-00
-      updated: 2026-09-09-18-07-16
+      updated: 2026-09-26-16-06-17
       followers: 1594
       likes: 44
     - service: vk
@@ -1462,10 +1462,10 @@
     - service: tg
       id: 1053
       published: 2025-11-12-18-17-12
-      updated: 2026-09-04-21-07-54
+      updated: 2026-09-26-16-06-04
       followers: 855
-      likes: 72
-      views: 690
+      likes: 73
+      views: 691
       comments: !c iw2AkZPLQnmn3wA+gACra2F3YXpha3kyMjOk8J+YmAM=
 2022-07-17-slaves-sight:
   title: Slave's Sight
@@ -1558,10 +1558,10 @@
     - service: vk
       id: 3457
       published: 2026-07-29-18-49-58
-      updated: 2026-09-10-06-44-37
+      updated: 2026-09-26-16-06-03
       followers: 1435
       likes: 44
-      views: 588
+      views: 589
       reposts: 1
     - service: tg
       id: 1274
@@ -2107,7 +2107,7 @@
       id: DVHKuVTjEyx
       mediaId: '18393004732195971'
       published: 2026-02-23-19-22-30
-      updated: 2026-09-09-14-53-23
+      updated: 2026-09-26-16-04-47
       followers: 1606
       likes: 45
     - service: vk
@@ -2280,10 +2280,10 @@
     - service: vk
       id: 3416
       published: 2026-07-10-18-20-33
-      updated: 2026-09-05-06-24-51
+      updated: 2026-09-26-16-06-35
       followers: 1432
       likes: 54
-      views: 672
+      views: 674
       reposts: 2
       comments: !c |-
         G7cA4C0PbOcRSGPQkS0giT3/Qcf/499I3/wvl4haYpEm50LNzVKyJTHd6et4AJ1OW4JW61Bk+S/s
