@@ -61,7 +61,7 @@
     - service: vk
       id: 2675
       published: 2025-09-22-18-26-32
-      updated: 2026-09-05-06-26-03
+      updated: 2026-09-26-17-39-57
       followers: 1428
       likes: 41
       views: 665
@@ -213,7 +213,7 @@
     - service: vk
       id: 2863
       published: 2025-11-18-18-17-11
-      updated: 2026-09-04-21-08-16
+      updated: 2026-09-26-17-38-11
       followers: 1511
       likes: 59
       views: 983
@@ -523,7 +523,7 @@
       id: DIHXzHAS7jP
       mediaId: '18068053375935699'
       published: 2025-04-06-18-28-36
-      updated: 2026-09-09-23-38-30
+      updated: 2026-09-26-17-39-15
       followers: 1528
       likes: 162
       views: 735
@@ -542,10 +542,10 @@
     - service: tg
       id: 782
       published: 2025-04-06-18-28-50
-      updated: 2026-09-05-16-20-31
+      updated: 2026-09-26-17-39-07
       followers: 717
       likes: 60
-      views: 640
+      views: 641
       comments: !c |-
         CzKAkpPLQnlgxjHAAACtY2FpdXMtY29zYWRlc9kgbmV0ZmxpeCBhZGFwdGF0aW9uIG9mIHRoZSBk
         YXVnaHOTy0J5YMXVtYAApWFuc2lzuU5vdCB0aGF0IGRlYWRseS4gSSdkIHdpbi4D
@@ -609,7 +609,7 @@
       id: DLS4FQzgAKX
       mediaId: '17868937881306574'
       published: 2025-06-24-19-16-30
-      updated: 2026-09-09-23-36-50
+      updated: 2026-09-26-17-37-21
       followers: 1553
       likes: 61
 2020-05-23-rainy-day-in-sadrith-mora:
@@ -803,7 +803,7 @@
     - service: vk
       id: 2774
       published: 2025-10-25-18-14-12
-      updated: 2026-09-04-21-08-47
+      updated: 2026-09-26-17-39-08
       followers: 1483
       likes: 75
       views: 1601
@@ -1168,7 +1168,7 @@
       id: DJM4hitTnhd
       mediaId: '18005959631685697'
       published: 2025-05-03-18-22-10
-      updated: 2026-09-09-23-37-53
+      updated: 2026-09-26-17-38-33
       followers: 1533
       likes: 75
       comments: !c iw6AkZPLQnlpwgE3AACrZGVsYW5vc3BpZXOmSWNvbmljAw==
@@ -1186,7 +1186,7 @@
     - service: tg
       id: 826
       published: 2025-05-03-18-22-30
-      updated: 2026-09-05-11-01-06
+      updated: 2026-09-26-17-38-28
       followers: 736
       likes: 72
       views: 622
@@ -1287,7 +1287,7 @@
     - service: vk
       id: 2763
       published: 2025-10-23-18-16-08
-      updated: 2026-09-04-21-08-49
+      updated: 2026-09-26-17-39-13
       followers: 1482
       likes: 60
       views: 2140
@@ -1356,7 +1356,7 @@
       id: DLxragfM_So
       mediaId: '18049738211166605'
       published: 2025-07-06-18-22-19
-      updated: 2026-09-09-21-20-59
+      updated: 2026-09-26-17-37-03
       followers: 1559
       likes: 59
     - service: vk
@@ -1431,7 +1431,7 @@
     - service: vk
       id: 2639
       published: 2025-09-09-18-26-37
-      updated: 2026-09-05-06-26-36
+      updated: 2026-09-26-17-40-15
       followers: 1414
       likes: 46
       views: 920
@@ -1620,7 +1620,7 @@
       id: DK5CLi-MK5H
       mediaId: '18006315368602717'
       published: 2025-06-14-18-24-29
-      updated: 2026-09-09-23-37-04
+      updated: 2026-09-26-17-37-36
       followers: 1554
       likes: 126
       comments: !c |-
@@ -1643,7 +1643,7 @@
     - service: tg
       id: 885
       published: 2025-06-14-18-24-42
-      updated: 2026-09-05-11-00-12
+      updated: 2026-09-26-17-37-22
       followers: 746
       likes: 69
       views: 622
@@ -2070,7 +2070,7 @@
       id: DJHvRY6OFPj
       mediaId: '17899687557075981'
       published: 2025-05-01-18-25-07
-      updated: 2026-09-09-23-37-54
+      updated: 2026-09-26-17-38-36
       followers: 1532
       likes: 128
     - service: vk
@@ -2088,7 +2088,7 @@
     - service: tg
       id: 824
       published: 2025-05-01-18-25-26
-      updated: 2026-09-05-11-01-08
+      updated: 2026-09-26-17-38-31
       followers: 734
       likes: 72
       views: 581
@@ -2614,4 +2614,6 @@
       id: DdwcahZk3PD
       mediaId: '17914630995462662'
       published: 2026-09-26-16-17-05
+      updated: 2026-09-26-17-37-00
       followers: 2567
+      likes: 108
