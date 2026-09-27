@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file.
 
+## [3.4.0](https://github.com/dehero/mwscr/compare/v3.3.1...v3.4.0) (2026-09-27)
+
+### Features
+
+- **vk:** add retry logic for wall photo uploads
+  ([0d72cb5](https://github.com/dehero/mwscr/commit/0d72cb5c98f11cbe3e0a2370e2db3c4e8107bcf7))
+
 ## [3.3.1](https://github.com/dehero/mwscr/compare/v3.3.0...v3.3.1) (2026-09-26)
 
 ### Continuous Integration
