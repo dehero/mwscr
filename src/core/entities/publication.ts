@@ -5,7 +5,7 @@ import { getDaysPassed, getMinutesPassed, isDateInRange } from '../utils/date-ut
 import type { CommentsComparator } from './comment.ts';
 import { Comment } from './comment.ts';
 
-export const PUBLICATION_IS_RECENT_DAYS = 31;
+export const PUBLICATION_IS_RECENT_DAYS = 91;
 export const PUBLICATION_MINIMUM_GAP_HOURS = 2;
 
 export const PublicationType = picklist(['story', 'product']);
