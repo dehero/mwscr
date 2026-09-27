@@ -37,6 +37,8 @@ import { createPostStory } from '../renderers/stories.ts';
 
 const DEBUG_PUBLISHING = Boolean(process.env.DEBUG_PUBLISHING) || false;
 const RSS_RESOURCE_URL = 'store:/rss/vk.xml';
+const UPLOAD_PHOTO_ATTEMPTS = 3;
+const UPLOAD_PHOTO_RETRY_DELAY = 3000;
 
 export class VKManager extends VKService implements PostingServiceManager {
   vk: VK | undefined;
@@ -223,16 +225,7 @@ export class VKManager extends VKService implements PostingServiceManager {
     if (post.type === 'news') {
       const url = content[0];
       if (url) {
-        const [file] = await readResource(url);
-
-        const photo = await vk.upload.wallPhoto({
-          source: {
-            value: file,
-          },
-          group_id: Math.abs(VK_GROUP_ID),
-        });
-
-        attachments.push(photo.toString());
+        attachments.push(await this.uploadWallPhoto(vk, url));
       }
     } else {
       if (content.length === 0) {
@@ -240,16 +233,7 @@ export class VKManager extends VKService implements PostingServiceManager {
       }
 
       for (const url of content) {
-        const [file] = await readResource(url);
-
-        const photo = await vk.upload.wallPhoto({
-          source: {
-            value: file,
-          },
-          group_id: Math.abs(VK_GROUP_ID),
-        });
-
-        attachments.push(photo.toString());
+        attachments.push(await this.uploadWallPhoto(vk, url));
       }
     }
 
@@ -263,6 +247,34 @@ export class VKManager extends VKService implements PostingServiceManager {
     const followers = await this.grabFollowerCount();
 
     return [{ service: this.id, id: result.post_id, followers, published: new Date() }];
+  }
+
+  private async uploadWallPhoto(vk: VK, url: string): Promise<string> {
+    const [file, mimeType, filename] = await readResource(url);
+
+    for (let attempt = 1; ; attempt++) {
+      try {
+        const photo = await vk.upload.wallPhoto({
+          source: {
+            value: file,
+            filename,
+            contentType: mimeType ?? undefined,
+          },
+          group_id: Math.abs(VK_GROUP_ID),
+        });
+
+        return photo.toString();
+      } catch (error) {
+        if (attempt >= UPLOAD_PHOTO_ATTEMPTS) {
+          throw error;
+        }
+
+        console.warn(
+          `Failed to upload photo "${url}" to ${this.name}, retrying... (attempt ${attempt + 1} of ${UPLOAD_PHOTO_ATTEMPTS})`,
+        );
+        await randomDelay(UPLOAD_PHOTO_RETRY_DELAY);
+      }
+    }
   }
 
   async publishPostEntryWithRssOptimistic(entry: PostEntry): Promise<VKPublication[]> {
