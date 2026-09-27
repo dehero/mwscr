@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file.
 
+## [3.5.0](https://github.com/dehero/mwscr/compare/v3.4.0...v3.5.0) (2026-09-27)
+
+### Features
+
+- widen recent-publication window to 91 days
+  ([9e39148](https://github.com/dehero/mwscr/commit/9e39148db762eaaf8a5c328ef82efb40392f12fc))
+
 ## [3.4.0](https://github.com/dehero/mwscr/compare/v3.3.1...v3.4.0) (2026-09-27)
 
 ### Features
