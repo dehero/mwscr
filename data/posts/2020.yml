@@ -137,10 +137,10 @@
     - service: vk
       id: 1977
       published: 2024-12-20-18-10-34
-      updated: 2026-09-05-18-39-27
+      updated: 2026-09-27-02-08-00
       followers: 1027
       likes: 40
-      views: 431
+      views: 432
       reposts: 2
       comments: !c CxKAkZPLQnk+VmAkAACoc2VyZ2V5LWKw0JIg0LLQtdC00YDQtSApKQM=
     - service: tg
@@ -1707,7 +1707,7 @@
     - service: vk
       id: 2011
       published: 2025-01-02-18-10-56
-      updated: 2026-09-05-18-39-09
+      updated: 2026-09-27-02-07-41
       followers: 1040
       likes: 58
       views: 398
@@ -2614,6 +2614,6 @@
       id: DdwcahZk3PD
       mediaId: '17914630995462662'
       published: 2026-09-26-16-17-05
-      updated: 2026-09-26-23-14-07
+      updated: 2026-09-27-02-05-24
       followers: 2567
-      likes: 202
+      likes: 237
