@@ -538,7 +538,7 @@
     - service: tg
       id: 316
       published: 2023-08-05
-      updated: 2026-09-06-05-14-49
+      updated: 2026-09-27-08-41-25
       followers: 321
       likes: 57
       views: 757
@@ -606,7 +606,7 @@
     - service: tg
       id: 317
       published: 2023-08-06
-      updated: 2026-09-06-05-14-48
+      updated: 2026-09-27-08-41-24
       followers: 320
       likes: 52
       views: 827
@@ -651,7 +651,7 @@
     - service: tg
       id: 318
       published: 2023-08-07
-      updated: 2026-09-06-05-14-47
+      updated: 2026-09-27-08-41-23
       followers: 319
       likes: 65
       views: 851
@@ -723,7 +723,7 @@
     - service: tg
       id: 319
       published: 2023-08-08
-      updated: 2026-09-06-05-14-47
+      updated: 2026-09-27-08-41-22
       followers: 319
       likes: 56
       views: 924
@@ -768,7 +768,7 @@
     - service: tg
       id: 320
       published: 2023-08-09
-      updated: 2026-09-06-05-14-46
+      updated: 2026-09-27-08-41-21
       followers: 319
       likes: 73
       views: 1007
@@ -832,10 +832,10 @@
     - service: tg
       id: 321
       published: 2023-08-10
-      updated: 2026-09-06-05-14-46
+      updated: 2026-09-27-08-41-21
       followers: 320
       likes: 55
-      views: 1197
+      views: 1198
       comments: !c |-
         G8gAUBwJdizkAz2yskDwfN7GAxnuQxqG0HkQ1SzgBt5dIIEGyXuYm66kZshogn8A/M9OMPOEM+j9
         oNu67YAPLZ2c6BlvfDxoYq15zAG3hHLKUeJRURri7Tt87P3zfX4dUrrpbmnb3P4QCgSyZJf3IJhw
@@ -917,7 +917,7 @@
         - 324
         - 325
       published: 2023-08-11
-      updated: 2026-09-06-05-14-44
+      updated: 2026-09-27-08-41-19
       followers: 322
       likes: 62
       views: 1380
@@ -955,10 +955,10 @@
     - service: tg
       id: 326
       published: 2023-09-16
-      updated: 2026-09-06-05-14-44
+      updated: 2026-09-27-08-41-19
       followers: 325
       likes: 62
-      views: 1132
+      views: 1133
       comments: !c |-
         G3cBwJwHdsO0DRHfKHBcJSLqRnrjTaBvGEb+BVyUBRYme7q2Sqh2/dD3wg4OZIPnBvwCbrs2WaUH
         vamtko72UoA324nOecS7LQ7ygOvyQAOK+C/82KfToSIIfQsTy6kZnOcvhx93bwBceHkM+68OYXRb
@@ -1022,10 +1022,10 @@
     - service: tg
       id: 327
       published: 2023-09-17
-      updated: 2026-09-06-05-14-43
+      updated: 2026-09-27-08-41-18
       followers: 326
       likes: 55
-      views: 1330
+      views: 1331
       comments: !c |-
         iy+AkZTLQniqYT+1AACtb2xtZXItaXpkZXlsYaTwn5iNk8tCeKqcFEEAALJzb2xkaWVyLW9mLWhl
         YXZlbm7ZI9Ch0L/QsNGB0LjQsdC+INC30LAg0YHRgtC40LrQtdGA0YspAw==
@@ -1091,10 +1091,10 @@
     - service: tg
       id: 328
       published: 2023-09-18
-      updated: 2026-09-06-05-14-43
+      updated: 2026-09-27-08-41-17
       followers: 327
       likes: 89
-      views: 3434
+      views: 3439
       comments: !c |-
         Cy+Ak5PLQnjfEx14AACsdmlvbGV0c3BpZGVyqkFhYWFoIPCfjJmTy0J4vdqE9IAAr2FsZXhleS1z
         dGVwYW5vdqTwn5Kpk8tCeKq60WUAAK1vbG1lci1pemRleWxhpPCfmLsD
