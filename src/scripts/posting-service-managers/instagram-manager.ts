@@ -41,7 +41,7 @@ import { Instagram } from '../../core/services/instagram.ts';
 import { site } from '../../core/services/site.ts';
 import { asArray, getRevisionHash, randomDelay } from '../../core/utils/common-utils.ts';
 import { formatDate, getDaysPassed, getMillisecondsPassed } from '../../core/utils/date-utils.ts';
-import { uploadTempImage } from '../data-managers/image-hosting.ts';
+import { deleteTempImage, uploadTempImage } from '../data-managers/image-hosting.ts';
 import { readResource } from '../data-managers/resources.ts';
 import { saveUserAvatar } from '../data-managers/store-resources.ts';
 import { users } from '../data-managers/users.ts';
@@ -56,6 +56,7 @@ const FETCHER_DELAY_MAXIMUM = 60000;
 const DEBUG_PUBLISHING = Boolean(process.env.DEBUG_PUBLISHING) || false;
 
 export class InstagramManager extends Instagram implements PostingServiceManager {
+  private tempImageIds: string[] = [];
   ig: Client | undefined;
   fetcher: igApi | undefined | null;
   lastFetched: Date | undefined;
@@ -156,9 +157,10 @@ export class InstagramManager extends Instagram implements PostingServiceManager
   }
 
   async getUploadUrl(data: Buffer) {
-    const filename = `instagram-upload-${Date.now()}.jpeg`;
+    const { id, url } = await uploadTempImage(data, `instagram-upload-${Date.now()}.jpeg`);
+    this.tempImageIds.push(id);
 
-    return uploadTempImage(data, filename);
+    return url;
   }
 
   async getCroppedImageUrl(image: sharp.Sharp, width: number, height: number): Promise<string> {
@@ -361,7 +363,8 @@ export class InstagramManager extends Instagram implements PostingServiceManager
   }
 
   async disconnect() {
-    // Uploaded temporary images are removed by the hosting service automatically.
+    await Promise.allSettled(this.tempImageIds.map((id) => deleteTempImage(id)));
+    this.tempImageIds = [];
   }
 
   async grabPostInfo(mediaId: string) {
