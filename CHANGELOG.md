@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file.
 
+## [3.5.1](https://github.com/dehero/mwscr/compare/v3.5.0...v3.5.1) (2026-09-28)
+
+### Bug Fixes
+
+- replace ImgBB with ImageKit for temp images
+  ([8fa1063](https://github.com/dehero/mwscr/commit/8fa1063ee6ff17265173e98927527ff7dcc87aab))
+
 ## [3.5.0](https://github.com/dehero/mwscr/compare/v3.4.0...v3.5.0) (2026-09-27)
 
 ### Features
