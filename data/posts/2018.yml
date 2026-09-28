@@ -6776,11 +6776,6 @@
       id: '1785265423410'
       published: 2026-07-28-19-03-43
       followers: 23
-    - service: ig
-      id: DdzY1ExEpWy
-      mediaId: '18128878195824690'
-      published: 2026-09-27-19-43-28
-      followers: 2630
 2018-05-06-roads-of-ascadian-isles:
   title: Roads of Ascadian Isles
   titleRu: Дороги Аскадианских островов
@@ -8224,7 +8219,7 @@
   title: Mournhold Cactus
   titleRu: Морнхолдский кактус
   placement: Indoors
-  location: 'Mournhold, Royal Palace: Guards'' Quarters'
+  location: "Mournhold, Royal Palace: Guards' Quarters"
   content: store:/shots/2018-06-02-mournhold-cactus.png
   type: shot
   aspect: 1/1
@@ -8579,7 +8574,7 @@
   placement: Indoors
   location:
     - Imperial Prison Ship
-    - 'Mournhold, Royal Palace: Barenziah''s Chambers'
+    - "Mournhold, Royal Palace: Barenziah's Chambers"
     - Tower of Tel Fyr, Hall of Fyr
     - Seyda Neen, Census and Excise Office
   content:
@@ -17197,7 +17192,8 @@
   locating:
     date: 2026-02-14-20-32-23
     user: pyriglena
-    text: Azura's Coast Region 13,12, the northern coast of the bigger island to the south of Tel Mora (north of Esutanamus)
+    text:
+      Azura's Coast Region 13,12, the northern coast of the bigger island to the south of Tel Mora (north of Esutanamus)
   engine: OpenMW
   mark: B2
   posts:
