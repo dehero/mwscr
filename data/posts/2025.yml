@@ -937,11 +937,20 @@
     - service: vk
       id: 3575
       published: 2026-09-27-19-43-36
+      updated: 2026-09-28-13-48-58
       followers: 1445
+      likes: 44
+      views: 329
     - service: tg
       id: 1324
       published: 2026-09-27-19-43-42
+      updated: 2026-09-28-13-48-59
       followers: 942
+      likes: 50
+      views: 157
+      comments: !c |-
+        iymAkpPLQnoOZGaCgACra2FyYXRlZGFuY2XZINGN0YLQviDQt9Cw0LzQtdGH0LDRgtC10LvRjNC9
+        0L4uk8tCeg5GWKmAAKtnb29zZXZpY2g3NqTwn5iQAw==
     - service: mx
       id: '1790538227146'
       published: 2026-09-27-19-43-47
@@ -2076,10 +2085,10 @@
     - service: tg
       id: 1312
       published: 2026-09-04-18-39-49
-      updated: 2026-09-20-20-16-24
+      updated: 2026-09-28-13-49-05
       followers: 942
-      likes: 61
-      views: 372
+      likes: 64
+      views: 477
     - service: mx
       id: '1788547193864'
       published: 2026-09-04-18-39-54
