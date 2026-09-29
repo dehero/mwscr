@@ -55,7 +55,11 @@ export async function uploadTempImage(data: Buffer, filename = 'image.jpg'): Pro
 
   let response: Response;
   try {
-    response = await fetch(IMAGEKIT_UPLOAD_URL, { method: 'POST', headers: { Authorization: authorization }, body: form });
+    response = await fetch(IMAGEKIT_UPLOAD_URL, {
+      method: 'POST',
+      headers: { Authorization: authorization },
+      body: form,
+    });
   } catch (error) {
     throw new Error(`Cannot reach ImageKit: ${error instanceof Error ? error.message : String(error)}`);
   }

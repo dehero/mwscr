@@ -39,15 +39,18 @@ export interface SiteRouteParent<
   params: TParams;
 }
 
-export interface SiteRoute<TParams extends SiteRouteParams = SiteRouteParams, TData extends unknown = unknown>
-  extends SiteRouteReference<TParams> {
+export interface SiteRoute<
+  TParams extends SiteRouteParams = SiteRouteParams,
+  TData extends unknown = unknown,
+> extends SiteRouteReference<TParams> {
   component: SiteRoutePage<TParams, TData>;
   preload?: SiteRoutePreload<TParams, TData>;
   matchFilters?: MatchFilters<string>;
 }
 
-export interface SiteRoutePageProps<TParams extends SiteRouteParams, TData extends unknown>
-  extends RouteSectionProps<Promise<TData | undefined>> {
+export interface SiteRoutePageProps<TParams extends SiteRouteParams, TData extends unknown> extends RouteSectionProps<
+  Promise<TData | undefined>
+> {
   params: TParams;
 }
 

@@ -23,12 +23,7 @@
     "jsx": "preserve",
     "jsxImportSource": "solid-js",
     "isolatedModules": true,
-    "lib": [
-      "ESNext",
-      "DOM"
-    ]
+    "lib": ["ESNext", "DOM"]
   },
-  "exclude": [
-    "node_modules"
-  ]
+  "exclude": ["node_modules"]
 }

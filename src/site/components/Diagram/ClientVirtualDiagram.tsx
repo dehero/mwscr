@@ -109,14 +109,12 @@ export function ClientVirtualDiagram<TItem>(props: DiagramProps<TItem>) {
   const [scrollTarget, setScrollTarget] = createSignal<HTMLElement | undefined>(undefined);
 
   const intervals = () =>
-    [...groupBy(merged.items, merged.getItemInterval)].map(
-      ([interval, items]): DiagramInterval<TItem> => ({
-        interval,
-        items,
-        value: merged.getIntervalValue(interval, items),
-        link: merged.getIntervalLink?.(interval, items),
-      }),
-    );
+    [...groupBy(merged.items, merged.getItemInterval)].map(([interval, items]): DiagramInterval<TItem> => ({
+      interval,
+      items,
+      value: merged.getIntervalValue(interval, items),
+      link: merged.getIntervalLink?.(interval, items),
+    }));
 
   const minValue = () => Math.min(...intervals().map((item) => item.value));
   const maxValue = () => Math.max(...intervals().map((item) => item.value));

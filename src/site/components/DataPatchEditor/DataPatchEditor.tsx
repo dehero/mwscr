@@ -76,15 +76,13 @@ export const DataPatchEditor: Component<DataPatchEditorProps> = (props) => {
 
   const handlePatchChange = () =>
     setRows([
-      ...dataManager.postsManagers.map(
-        (manager): TableRow => ({
-          label: localize(manager.descriptor.title),
-          value: manager.patchSize,
-          link:
-            postsRoute.createUrl({ managerName: manager.name, status: ANY_OPTION.value }) +
-            createDetachedDialogFragment('contributing', 'patch'),
-        }),
-      ),
+      ...dataManager.postsManagers.map((manager): TableRow => ({
+        label: localize(manager.descriptor.title),
+        value: manager.patchSize,
+        link:
+          postsRoute.createUrl({ managerName: manager.name, status: ANY_OPTION.value }) +
+          createDetachedDialogFragment('contributing', 'patch'),
+      })),
       {
         label: localize(texts.user.users),
         value: dataManager.users.patchSize,

@@ -169,9 +169,9 @@ export function isUserEqual(a: User, b: User) {
 export function isUserProfileEqual(a: UserProfile, b: UserProfile) {
   return Boolean(
     a.service === b.service &&
-      ((a.id && a.id === b.id) ||
-        (a.username && a.username === b.username) ||
-        (a.botChatId && a.botChatId === b.botChatId)),
+    ((a.id && a.id === b.id) ||
+      (a.username && a.username === b.username) ||
+      (a.botChatId && a.botChatId === b.botChatId)),
   );
 }
 

@@ -36,8 +36,9 @@ export interface PostingService<TPublication extends Publication = Publication> 
   canPublishPost: (post: Post, errors?: string[]) => boolean;
 }
 
-export interface PostingServiceManager<TPublication extends Publication = Publication>
-  extends PostingService<TPublication> {
+export interface PostingServiceManager<
+  TPublication extends Publication = Publication,
+> extends PostingService<TPublication> {
   postingStartDate?: Date;
 
   connect: () => Promise<unknown>;

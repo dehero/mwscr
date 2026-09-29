@@ -343,13 +343,11 @@ export const UserPage: SiteRoutePage<UserPageParams, UserPageData> = (props) => 
                 <PostHighlights
                   class={styles.postHighlights}
                   items={
-                    data()?.lastExtraPostInfos.map(
-                      ([type, selection]): PostHighlightsItem => ({
-                        label: texts.highlights[`last${capitalize(type)}`],
-                        primary: true,
-                        selection,
-                      }),
-                    ) ?? []
+                    data()?.lastExtraPostInfos.map(([type, selection]): PostHighlightsItem => ({
+                      label: texts.highlights[`last${capitalize(type)}`],
+                      primary: true,
+                      selection,
+                    })) ?? []
                   }
                 />
 

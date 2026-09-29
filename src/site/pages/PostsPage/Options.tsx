@@ -104,34 +104,28 @@ export const Options: Component<OptionsProps> = (props) => {
   ]);
   const authorOptions = createMemo((): Option[] => [
     ALL_OPTION,
-    ...props.data.authorInfos.map(
-      (info): Option => ({
-        label: `${localField(info, 'title')} (${info.authored?.[props.params.managerName]})`,
-        value: info.id,
-      }),
-    ),
+    ...props.data.authorInfos.map((info): Option => ({
+      label: `${localField(info, 'title')} (${info.authored?.[props.params.managerName]})`,
+      value: info.id,
+    })),
   ]);
   const locatorOptions = createMemo((): Option[] => [
     ALL_OPTION,
     ANY_OPTION,
     NONE_OPTION,
-    ...props.data.locatorInfos.map(
-      (info): Option => ({
-        label: `${localField(info, 'title')} (${info.located?.[props.params.managerName]})`,
-        value: info.id,
-      }),
-    ),
+    ...props.data.locatorInfos.map((info): Option => ({
+      label: `${localField(info, 'title')} (${info.located?.[props.params.managerName]})`,
+      value: info.id,
+    })),
   ]);
   const requesterOptions = createMemo((): Option[] => [
     ALL_OPTION,
     ANY_OPTION,
     NONE_OPTION,
-    ...props.data.requesterInfos.map(
-      (info): Option => ({
-        label: `${localField(info, 'title')} (${info.requested?.[props.params.managerName]})`,
-        value: info.id,
-      }),
-    ),
+    ...props.data.requesterInfos.map((info): Option => ({
+      label: `${localField(info, 'title')} (${info.requested?.[props.params.managerName]})`,
+      value: info.id,
+    })),
   ]);
 
   const locationOption = createMemo(() =>

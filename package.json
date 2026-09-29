@@ -22,10 +22,11 @@
     "test": "node --test \"src/**/*.test.ts\"",
     "test-resource-management": "node --test src/scripts/store-managers/index.test.ts",
     "typecheck": "tsc --noEmit",
+    "format": "prettier --write \"**/*.{ts,tsx,css,md,json,html,php,webmanifest}\" --ignore-path .gitignore",
     "lint": "oxlint src",
     "lint-fix": "oxlint src --fix",
     "check": "npm run typecheck && npm run lint && npm run test",
-    "check-fix": "npm run typecheck && npm run lint-fix && npm run test"
+    "check-fix": "npm run typecheck && npm run lint-fix && npm run format && npm run test"
   },
   "devDependencies": {
     "@prettier/plugin-php": "^0.22.4",
@@ -42,7 +43,7 @@
     "github-webhook-event-types": "^1.2.1",
     "memfs": "^4.17.0",
     "oxlint": "^1.83.0",
-    "prettier": "^3.0.0",
+    "prettier": "^3.9.9",
     "tosource": "^2.0.0-alpha.3",
     "vite": "^8.0.8",
     "vite-imagetools": "^9.0.3",

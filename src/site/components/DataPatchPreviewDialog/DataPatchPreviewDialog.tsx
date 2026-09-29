@@ -27,12 +27,10 @@ const DataPatchPreviewDialog: Component<DataPatchPreviewDialogProps> = (props) =
     const patch = props.patch;
 
     return [
-      ...dataManager.postsManagers.map(
-        (manager): TableRow => ({
-          label: localize(manager.descriptor.title),
-          value: Object.keys(patch[manager.name] ?? {}).length,
-        }),
-      ),
+      ...dataManager.postsManagers.map((manager): TableRow => ({
+        label: localize(manager.descriptor.title),
+        value: Object.keys(patch[manager.name] ?? {}).length,
+      })),
       {
         label: localize(texts.user.users),
         value: Object.keys(patch.users ?? {}).length,

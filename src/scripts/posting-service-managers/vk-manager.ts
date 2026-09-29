@@ -270,7 +270,9 @@ export class VKManager extends VKService implements PostingServiceManager {
         }
 
         console.warn(
-          `Failed to upload photo "${url}" to ${this.name}, retrying... (attempt ${attempt + 1} of ${UPLOAD_PHOTO_ATTEMPTS})`,
+          `Failed to upload photo "${url}" to ${this.name}, retrying... (attempt ${
+            attempt + 1
+          } of ${UPLOAD_PHOTO_ATTEMPTS})`,
         );
         await randomDelay(UPLOAD_PHOTO_RETRY_DELAY);
       }

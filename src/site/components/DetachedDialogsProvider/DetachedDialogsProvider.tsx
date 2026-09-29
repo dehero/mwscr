@@ -44,12 +44,8 @@ const detachedDialogs = {
 
 export type DialogName = keyof typeof detachedDialogs;
 
-export type DialogParams<T extends DialogName> = (typeof detachedDialogs)[T] extends DetachedDialog<
-  string,
-  infer TParams
->
-  ? TParams
-  : never;
+export type DialogParams<T extends DialogName> =
+  (typeof detachedDialogs)[T] extends DetachedDialog<string, infer TParams> ? TParams : never;
 
 export function createDetachedDialogFragment<
   TDialogName extends DialogName,

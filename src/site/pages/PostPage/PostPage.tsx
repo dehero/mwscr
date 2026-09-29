@@ -492,24 +492,22 @@ export const PostPage: SiteRoutePage<PostPageParams, PostPageData> = (props) => 
                       value: aspectRatioToReadableText(postInfo().aspect),
                       link: postsRoute.createUrl({ managerName: props.params.managerName, aspect: postInfo().aspect }),
                     },
-                    ...postInfo().authorOptions.map(
-                      (option): TableRow => ({
-                        label: localize(texts.field.author),
-                        value: () => (
-                          <>
-                            <UserAvatar
-                              image={option.image}
-                              title={localize(option.label)}
-                              size="small"
-                              class={styles.avatar}
-                            />
-                            {localize(option.label)}
-                          </>
-                        ),
-                        link: userRoute.createUrl({ id: option.value ?? '' }),
-                        tooltip: (ref) => <UserTooltip forRef={ref} user={option.value} showAvatar />,
-                      }),
-                    ),
+                    ...postInfo().authorOptions.map((option): TableRow => ({
+                      label: localize(texts.field.author),
+                      value: () => (
+                        <>
+                          <UserAvatar
+                            image={option.image}
+                            title={localize(option.label)}
+                            size="small"
+                            class={styles.avatar}
+                          />
+                          {localize(option.label)}
+                        </>
+                      ),
+                      link: userRoute.createUrl({ id: option.value ?? '' }),
+                      tooltip: (ref) => <UserTooltip forRef={ref} user={option.value} showAvatar />,
+                    })),
                     {
                       label: localize(texts.user.locator),
                       value: postInfo().locatorOption

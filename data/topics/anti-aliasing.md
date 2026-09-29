@@ -10,6 +10,6 @@ level" to 8x.
 # сглаживание
 
 Скриншоты и видео для раздела [Посты](./posts.md) следует снимать с включённым сглаживанием. Если вы используете
-[OpenMW](./openmw.md), откройте Launcher, перейдите в раздел "Graphics" и на вкладке "Display" установите "Anti-aliasing"
-на 8. Если вы используете ванильный движок с [MGE](./mge.md), перейдите на вкладку "Global graphics", найдите раздел
-"Scene" и установите "Antialiasing level" на 8x.
+[OpenMW](./openmw.md), откройте Launcher, перейдите в раздел "Graphics" и на вкладке "Display" установите
+"Anti-aliasing" на 8. Если вы используете ванильный движок с [MGE](./mge.md), перейдите на вкладку "Global graphics",
+найдите раздел "Scene" и установите "Antialiasing level" на 8x.

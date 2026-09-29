@@ -119,17 +119,15 @@ export async function getUserPageData(
     }),
     lastExtraPostInfos: (
       await Promise.all(
-        PostType.options.map(
-          async (postType): Promise<[PostType, PostInfoSelection | undefined]> => [
-            postType,
-            await dataManager.selectPostInfo('extras', {
-              author: params.id,
-              type: postType,
-              sortKey: 'date',
-              sortDirection: 'desc',
-            }),
-          ],
-        ),
+        PostType.options.map(async (postType): Promise<[PostType, PostInfoSelection | undefined]> => [
+          postType,
+          await dataManager.selectPostInfo('extras', {
+            author: params.id,
+            type: postType,
+            sortKey: 'date',
+            sortDirection: 'desc',
+          }),
+        ]),
       )
     ).filter(([, info]) => info?.totalCount),
     commentInfos: (await dataManager.getAllCommentInfos()).filter((comment) => comment.author === params.id),

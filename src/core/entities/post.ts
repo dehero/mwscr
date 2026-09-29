@@ -195,16 +195,16 @@ const defaultTags = Object.freeze<PostTagDescriptor[]>([
     (post) => ['wallpaper'].includes(post.type),
     (post) => (post.type = ['wallpaper'].includes(post.type) ? post.type : 'wallpaper'),
   ],
-  ...PostAddon.options.map(
-    (addon): PostTagDescriptor => [
-      postAddonDescriptors[addon].tag,
-      (post) => post.addon === addon,
-      (post) => (post.addon = post.addon || addon),
-    ],
-  ),
-  ...PostEngine.options.map(
-    (tag): PostTagDescriptor => [tag, (post) => post.engine === tag, (post) => (post.engine = post.engine || tag)],
-  ),
+  ...PostAddon.options.map((addon): PostTagDescriptor => [
+    postAddonDescriptors[addon].tag,
+    (post) => post.addon === addon,
+    (post) => (post.addon = post.addon || addon),
+  ]),
+  ...PostEngine.options.map((tag): PostTagDescriptor => [
+    tag,
+    (post) => post.engine === tag,
+    (post) => (post.engine = post.engine || tag),
+  ]),
 ]);
 export const postTypeDescriptors = Object.freeze<Record<PostType, PostTypeDescriptor>>({
   shot: {
@@ -450,8 +450,8 @@ export function isPostEqual(a: Post, b: Post): boolean {
   const date2 = getPostFirstPublished(a);
 
   return a.posts && b.posts
-    ? b.posts.some(
-        (partialPublication) => a.posts?.some((publication) => isPublicationEqual(publication, partialPublication)),
+    ? b.posts.some((partialPublication) =>
+        a.posts?.some((publication) => isPublicationEqual(publication, partialPublication)),
       )
     : b.type === a.type &&
         date1 instanceof Date &&

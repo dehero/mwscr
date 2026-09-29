@@ -24,27 +24,25 @@ export async function createCommentInfos(dataManager: DataManager): Promise<Comm
         return entries
           .flatMap(([id, post]) =>
             getPublicationsCommentsWithService(post.posts ?? [], sorter).flatMap((parent) =>
-              [parent, ...(parent.replies ?? [])].map(
-                (comment, index): CommentInfo => ({
-                  author: comment.author,
-                  datetime: comment.datetime,
-                  text: comment.text,
-                  service: parent.service,
-                  path: createPostPath(manager.name, id),
-                  title: post.title,
-                  titleRu: post.titleRu,
-                  content: post.content,
-                  aspect: post.aspect,
-                  parent:
-                    index > 0
-                      ? {
-                          author: parent.author,
-                          datetime: parent.datetime,
-                          text: parent.text,
-                        }
-                      : undefined,
-                }),
-              ),
+              [parent, ...(parent.replies ?? [])].map((comment, index): CommentInfo => ({
+                author: comment.author,
+                datetime: comment.datetime,
+                text: comment.text,
+                service: parent.service,
+                path: createPostPath(manager.name, id),
+                title: post.title,
+                titleRu: post.titleRu,
+                content: post.content,
+                aspect: post.aspect,
+                parent:
+                  index > 0
+                    ? {
+                        author: parent.author,
+                        datetime: parent.datetime,
+                        text: parent.text,
+                      }
+                    : undefined,
+              })),
             ),
           )
           .flat();

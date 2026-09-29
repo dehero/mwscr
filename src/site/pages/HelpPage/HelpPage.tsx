@@ -97,8 +97,8 @@ export const HelpPage: SiteRoutePage<HelpPageParams, HelpPageData> = (props) => 
       <AppPage
         title={
           props.params.topicId && props.params.topicId !== TOPIC_INDEX_ID
-            ? localField(data()?.topic, 'title') ?? props.params.topicId
-            : localField(data()?.indexTopic, 'title') ?? TOPIC_INDEX_ID
+            ? (localField(data()?.topic, 'title') ?? props.params.topicId)
+            : (localField(data()?.indexTopic, 'title') ?? TOPIC_INDEX_ID)
         }
         description={(() => {
           const topicTitle =

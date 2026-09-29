@@ -282,48 +282,47 @@ export const selectPostInfos = (
     return Boolean(
       (typeof params.publishable === 'undefined' ||
         params.publishable !== Boolean(info.status === 'removed' || info.publishableErrors?.length)) &&
-        (typeof params.requester === 'undefined' ||
-          (params.requester === ANY_OPTION.value && info.requesterOption) ||
-          (params.requester === NONE_OPTION.value && !info.requesterOption) ||
-          info.requesterOption?.value === params.requester) &&
-        (typeof params.date === 'undefined' ||
-          (isValidDate(date) ? isDateInRange(date, params.date, 'date') : false)) &&
-        (typeof params.official === 'undefined' ||
-          params.official === (info.addon ? postAddonDescriptors[info.addon].official : true)) &&
-        (typeof params.original === 'undefined' || params.original !== Boolean(info.refId)) &&
-        (typeof params.status === 'undefined' ||
-          (params.status === ANY_OPTION.value && info.status) ||
-          (params.status === NONE_OPTION.value && !info.status) ||
-          info.status === params.status) &&
-        (typeof params.placement === 'undefined' ||
-          (params.placement === ANY_OPTION.value && info.placement) ||
-          (params.placement === NONE_OPTION.value && !info.placement) ||
-          info.placement === params.placement) &&
-        (typeof params.addon === 'undefined' ||
-          (params.addon === ANY_OPTION.value && info.addon) ||
-          (params.addon === NONE_OPTION.value && !info.addon) ||
-          info.addon === params.addon) &&
-        (typeof params.type === 'undefined' || info.type === params.type) &&
-        (typeof params.aspect === 'undefined' || info.aspect === params.aspect) &&
-        (typeof params.tag === 'undefined' || info.tags?.includes(params.tag)) &&
-        (typeof params.author === 'undefined' || info.authorOptions.some((option) => option.value === params.author)) &&
-        (typeof params.locator === 'undefined' ||
-          (params.locator === ANY_OPTION.value && info.locatorOption) ||
-          (params.locator === NONE_OPTION.value && !info.locatorOption) ||
-          info.locatorOption?.value === params.locator) &&
-        (typeof params.location === 'undefined' ||
-          (params.location === ANY_OPTION.value && info.locationOptions) ||
-          (params.location === NONE_OPTION.value && !info.locationOptions) ||
-          (info.locationOptions &&
-            asArray(info.locationOptions).some((location) =>
-              isNestedLocation(location.value ?? '', params.location!),
-            ))) &&
-        (typeof params.mark === 'undefined' || info.mark === params.mark) &&
-        (typeof params.violation === 'undefined' ||
-          (params.violation === ANY_OPTION.value && info.violation) ||
-          (params.violation === NONE_OPTION.value && !info.violation) ||
-          (info.violation && asArray(info.violation).includes(params.violation as PostViolation))) &&
-        search(searchTokens, [info.title, info.titleRu, info.description, info.descriptionRu]),
+      (typeof params.requester === 'undefined' ||
+        (params.requester === ANY_OPTION.value && info.requesterOption) ||
+        (params.requester === NONE_OPTION.value && !info.requesterOption) ||
+        info.requesterOption?.value === params.requester) &&
+      (typeof params.date === 'undefined' || (isValidDate(date) ? isDateInRange(date, params.date, 'date') : false)) &&
+      (typeof params.official === 'undefined' ||
+        params.official === (info.addon ? postAddonDescriptors[info.addon].official : true)) &&
+      (typeof params.original === 'undefined' || params.original !== Boolean(info.refId)) &&
+      (typeof params.status === 'undefined' ||
+        (params.status === ANY_OPTION.value && info.status) ||
+        (params.status === NONE_OPTION.value && !info.status) ||
+        info.status === params.status) &&
+      (typeof params.placement === 'undefined' ||
+        (params.placement === ANY_OPTION.value && info.placement) ||
+        (params.placement === NONE_OPTION.value && !info.placement) ||
+        info.placement === params.placement) &&
+      (typeof params.addon === 'undefined' ||
+        (params.addon === ANY_OPTION.value && info.addon) ||
+        (params.addon === NONE_OPTION.value && !info.addon) ||
+        info.addon === params.addon) &&
+      (typeof params.type === 'undefined' || info.type === params.type) &&
+      (typeof params.aspect === 'undefined' || info.aspect === params.aspect) &&
+      (typeof params.tag === 'undefined' || info.tags?.includes(params.tag)) &&
+      (typeof params.author === 'undefined' || info.authorOptions.some((option) => option.value === params.author)) &&
+      (typeof params.locator === 'undefined' ||
+        (params.locator === ANY_OPTION.value && info.locatorOption) ||
+        (params.locator === NONE_OPTION.value && !info.locatorOption) ||
+        info.locatorOption?.value === params.locator) &&
+      (typeof params.location === 'undefined' ||
+        (params.location === ANY_OPTION.value && info.locationOptions) ||
+        (params.location === NONE_OPTION.value && !info.locationOptions) ||
+        (info.locationOptions &&
+          asArray(info.locationOptions).some((location) =>
+            isNestedLocation(location.value ?? '', params.location!),
+          ))) &&
+      (typeof params.mark === 'undefined' || info.mark === params.mark) &&
+      (typeof params.violation === 'undefined' ||
+        (params.violation === ANY_OPTION.value && info.violation) ||
+        (params.violation === NONE_OPTION.value && !info.violation) ||
+        (info.violation && asArray(info.violation).includes(params.violation as PostViolation))) &&
+      search(searchTokens, [info.title, info.titleRu, info.description, info.descriptionRu]),
     );
   });
 

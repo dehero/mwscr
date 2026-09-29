@@ -8,8 +8,8 @@ want a link to you in the post when the work is published. Proposed works will b
 used in any sources related to the project, with attribution to you.
 
 [Send to Telegram bot](https://t.me/mwscrbot)  
-[Send proposal via GitHub Issues](https://github.com/dehero/mwscr/issues/new?labels=post-proposal&template=post-proposal.yml)
-(check out
+[Send proposal via GitHub Issues](https://github.com/dehero/mwscr/issues/new?labels=post-proposal&template=post-proposal.yml) (check
+out
 [file size restrictions](https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/attaching-files))  
 [Send to administrator via email](mailto:me@dehero.site?subject=mwscr)
 
@@ -25,7 +25,6 @@ used in any sources related to the project, with attribution to you.
 использоваться в любых связанных с проектом источниках с указанием вашего авторства.
 
 [Отправить Telegram-боту](https://t.me/mwscrbot)  
-[Отправить предложение через GitHub Issues](https://github.com/dehero/mwscr/issues/new?labels=post-proposal&template=post-proposal.yml)
-(см.
+[Отправить предложение через GitHub Issues](https://github.com/dehero/mwscr/issues/new?labels=post-proposal&template=post-proposal.yml) (см.
 [ограничения на размер файлов](https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/attaching-files))  
 [Отправить администратору по email](mailto:me@dehero.site?subject=mwscr)

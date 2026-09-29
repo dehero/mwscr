@@ -230,12 +230,10 @@ export const HomePage: SiteRoutePage<SiteRouteParams, HomePageData> = () => {
 
                 <PostHighlights
                   class={styles.postHighlights}
-                  items={data().lastExtraPostInfos.map(
-                    ([type, selection]): PostHighlightsItem => ({
-                      label: texts.highlights[`last${capitalize(type)}`],
-                      selection,
-                    }),
-                  )}
+                  items={data().lastExtraPostInfos.map(([type, selection]): PostHighlightsItem => ({
+                    label: texts.highlights[`last${capitalize(type)}`],
+                    selection,
+                  }))}
                 />
 
                 <PostHighlights

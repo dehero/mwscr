@@ -10,7 +10,7 @@ Secondary section of [Morrowind Screenshots](./mwscr.md) project, which includes
 # Материалы
 
 Второстепенный раздел проекта [Morrowind Screenshots](./mwscr.md), который включает разные дополнительные
-[типы постов](./post-types.md), способные игнорировать некоторые [нарушения](./violations.md), или к которым эти нарушения
-неприменимы.
+[типы постов](./post-types.md), способные игнорировать некоторые [нарушения](./violations.md), или к которым эти
+нарушения неприменимы.
 
 [Перейти в Материалы](/extras/)

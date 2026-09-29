@@ -40,12 +40,12 @@ export function createOption({ route, params }: RouteMatch): Option {
 function isSiteRoute(value: unknown): value is SiteRouteReference {
   return Boolean(
     value &&
-      typeof value === 'object' &&
-      'path' in value &&
-      'info' in value &&
-      typeof value.info === 'function' &&
-      'createUrl' in value &&
-      typeof value.createUrl === 'function',
+    typeof value === 'object' &&
+    'path' in value &&
+    'info' in value &&
+    typeof value.info === 'function' &&
+    'createUrl' in value &&
+    typeof value.createUrl === 'function',
   );
 }
 

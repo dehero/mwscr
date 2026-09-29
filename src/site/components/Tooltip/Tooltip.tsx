@@ -45,7 +45,7 @@ export const Tooltip: Component<TooltipProps> = (props) => {
       ? null
       : props.forceContextMenu || noHoverDevice()
         ? contextMenuPosition()
-        : contextMenuPosition() ?? mousePosition,
+        : (contextMenuPosition() ?? mousePosition),
   );
 
   const relative = createPositionToElement(

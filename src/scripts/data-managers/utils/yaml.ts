@@ -62,9 +62,11 @@ function packComments(comments?: PublicationComments): string | undefined {
     comment.datetime.getTime(),
     comment.author,
     comment.text,
-    ...(comment.replies?.map(
-      (comment): SerializedComment => [comment.datetime.getTime(), comment.author, comment.text],
-    ) || []),
+    ...(comment.replies?.map((comment): SerializedComment => [
+      comment.datetime.getTime(),
+      comment.author,
+      comment.text,
+    ]) || []),
   ]);
 
   return compressData(data);

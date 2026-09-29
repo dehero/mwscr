@@ -240,16 +240,14 @@ export class DataManager {
         }),
         lastExtraPostInfos: (
           await Promise.all(
-            PostType.options.map(
-              async (postType): Promise<[PostType, PostInfoSelection | undefined]> => [
-                postType,
-                await this.selectPostInfo('extras', {
-                  type: postType,
-                  sortKey: 'date',
-                  sortDirection: 'desc',
-                }),
-              ],
-            ),
+            PostType.options.map(async (postType): Promise<[PostType, PostInfoSelection | undefined]> => [
+              postType,
+              await this.selectPostInfo('extras', {
+                type: postType,
+                sortKey: 'date',
+                sortDirection: 'desc',
+              }),
+            ]),
           )
         ).filter(([, info]) => info?.totalCount),
         totalLikes,
