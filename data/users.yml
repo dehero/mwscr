@@ -618,7 +618,7 @@ artyom-melikhoff:
   profiles:
     - service: vk
       id: '299405149'
-      updated: 2026-09-27-16-33-47
+      updated: 2026-09-29-13-47-34
       username: artyom_melikhoff
       name: Артём Мелихов
       avatar: store:/avatars/vk-5b2fd843.jpg
@@ -1488,7 +1488,7 @@ dehero:
       avatar: store:/avatars/gh-c8afe641.jpg
     - service: vk
       id: '3652910'
-      updated: 2026-09-29-11-07-26
+      updated: 2026-09-29-13-47-31
       username: dehero
       name: Антон Курьянов
       avatar: store:/avatars/vk-5356f76e.jpg
@@ -2433,7 +2433,7 @@ goosevich76:
   profiles:
     - service: tg
       id: '5385620621'
-      updated: 2026-09-29-11-05-19
+      updated: 2026-09-29-13-46-38
       accessHash: '-7130473396589324830'
       username: horwwwaty
       name: Horwaty
@@ -3170,7 +3170,7 @@ karatedance:
   profiles:
     - service: tg
       id: '1037255094'
-      updated: 2026-09-29-11-05-19
+      updated: 2026-09-29-13-46-37
       accessHash: '-5098047197051495291'
       username: karatedance
       name: танцы карате
@@ -3389,7 +3389,7 @@ kydinov91:
   profiles:
     - service: vk
       id: '36104583'
-      updated: 2026-09-29-11-07-26
+      updated: 2026-09-29-13-47-53
       username: kydinov91
       name: Илья Кудинов
       avatar: store:/avatars/vk-03d8a48a.jpg
@@ -4672,7 +4672,7 @@ petrushkachord:
   profiles:
     - service: vk
       id: '370043102'
-      updated: 2026-09-07-05-22-52
+      updated: 2026-09-29-13-48-09
       username: petrushkachord
       name: Данила Силкин
       avatar: store:/avatars/vk-166e4c44.jpg
@@ -5639,7 +5639,7 @@ soulilight:
   profiles:
     - service: vk
       id: '347703822'
-      updated: 2026-09-27-19-40-35
+      updated: 2026-09-29-13-47-08
       username: soulilight
       name: Dima Boev
       avatar: store:/avatars/vk-4a3f332e.jpg
@@ -6449,7 +6449,7 @@ user-35:
   profiles:
     - service: vk
       id: '281861772'
-      updated: 2026-09-07-00-27-24
+      updated: 2026-09-29-13-47-01
       username: id281861772
       avatar: store:/avatars/vk-7f160215.jpg
       deleted: true
