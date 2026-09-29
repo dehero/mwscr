@@ -20,13 +20,14 @@
     "script": "node",
     "create-story": "node src/scripts/create-story.ts",
     "test": "node --test \"src/**/*.test.ts\"",
-    "test-resource-management": "node --test src/scripts/store-managers/index.test.ts",
+    "test-unit": "node --test \"src/**/*.unit.test.ts\"",
+    "test-integration": "node --test \"src/**/*.integration.test.ts\"",
     "typecheck": "tsc --noEmit",
     "format": "prettier --write \"**/*.{ts,tsx,css,md,json,html,php,webmanifest}\" --ignore-path .gitignore",
     "lint": "oxlint src",
     "lint-fix": "oxlint src --fix",
     "check": "npm run typecheck && npm run lint && npm run test",
-    "check-fix": "npm run typecheck && npm run lint-fix && npm run format && npm run test"
+    "check-fix": "npm run typecheck && npm run lint-fix && npm run format && npm run test-unit"
   },
   "devDependencies": {
     "@prettier/plugin-php": "^0.22.4",

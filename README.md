@@ -166,8 +166,11 @@ npm run validate
 npm run test
 ```
 
-Runs all scripts in the [`src`](src) folder with a filename ending with `.test.ts` to check if the code is working
-correctly.
+Runs all tests:
+
+- `npm run test-unit` runs unit tests — files ending with `.unit.test.ts`;
+- `npm run test-integration` runs integration tests that use real storage and network — files ending with
+  `.integration.test.ts`.
 
 #### Creating a release
 
