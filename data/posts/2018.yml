@@ -274,10 +274,10 @@
     - service: vk
       id: 3572
       published: 2026-09-27-15-23-00
-      updated: 2026-09-29-06-36-20
+      updated: 2026-09-29-11-05-20
       followers: 1445
-      likes: 44
-      views: 466
+      likes: 46
+      views: 495
       reposts: 2
 2018-01-08-aqueduct-of-old-mournhold:
   title: Aqueduct of Old Mournhold
@@ -2587,7 +2587,15 @@
       id: Dd3IoSgmDeA
       mediaId: '17971329045150624'
       published: 2026-09-29-06-38-54
+      updated: 2026-09-29-11-05-21
       followers: 2671
+      likes: 141
+      comments: !c |-
+        G2kBABwHdiz4pGiRM8kq/f/38xHeM0/bBEfjH69+FvgyrYqLhgOaDqQPb/nIe+7fqMfGGaQzmIYf
+        9YuklcO22U70wfi3pwLqogSzLNPAk3YjS7d5PCIqFMuwYITQ717r3idemNDV8x1Pw3kkFjUfoAYA
+        BAIGAZ0Hrnngeg6XsQMew0BNwUPAeXPhVhWoYBhp7MhYfzSplqaiXqdOTOdM6sfB3YVDCsq5oGng
+        CjFwA3yDu6aBHU7TCM3ydYFhiiAJBumtfGUc+SpZcddzOdZ4svrHS2czsMe9x1E0BQM7RLAs7BSl
+        fRiZkHJj8daMTvCc5NdWi0yxe/95ISl6ugCce/R86FKqJLQJMNdMO04ji3kmK69XGe4W
 2018-02-18-balmora:
   title: Balmora
   titleRu: Балмора
@@ -4308,9 +4316,9 @@
       id: Ddy-APVFyco
       mediaId: '18283196332289075'
       published: 2026-09-27-15-49-03
-      updated: 2026-09-29-06-36-21
+      updated: 2026-09-29-11-05-26
       followers: 2622
-      likes: 364
+      likes: 372
       comments: !c |-
         G8EA4J0HdizyAou7b6QZEPRfOym+UK6GM8ww94/gSIGSzEhN2ReVANxkJdYXnHOANrvU2sJEE4mj
         65afP9qnww+VU040MGy1dbhYQHpQu/PwuyIlmtmzH57Xm6P/b93T5oh05JhyxFc84MASg8QbrGUS
@@ -6203,17 +6211,18 @@
     - service: vk
       id: 3576
       published: 2026-09-28-20-27-09
-      updated: 2026-09-29-06-36-18
+      updated: 2026-09-29-11-05-18
       followers: 1445
-      likes: 16
-      views: 155
+      likes: 26
+      views: 227
+      reposts: 1
     - service: tg
       id: 1325
       published: 2026-09-28-20-27-14
-      updated: 2026-09-29-06-36-16
+      updated: 2026-09-29-11-05-17
       followers: 943
-      likes: 34
-      views: 118
+      likes: 40
+      views: 137
     - service: mx
       id: '1790627238699'
       published: 2026-09-28-20-27-18
@@ -6804,9 +6813,9 @@
       id: Dd1Vc8TF8zE
       mediaId: '17878382136553578'
       published: 2026-09-28-13-52-26
-      updated: 2026-09-29-06-36-19
+      updated: 2026-09-29-11-05-22
       followers: 2658
-      likes: 246
+      likes: 252
 2018-05-06-roads-of-ascadian-isles:
   title: Roads of Ascadian Isles
   titleRu: Дороги Аскадианских островов
@@ -17004,6 +17013,11 @@
       id: '1785610173275'
       published: 2026-08-01-18-49-33
       followers: 23
+    - service: ig
+      id: Dd3nbHojlhF
+      mediaId: '18100451993372832'
+      published: 2026-09-29-11-07-59
+      followers: 2676
 2018-11-09-dusk-in-the-skaal-village:
   title: Dusk in the Skaal Village
   titleRu: Сумерки в деревне Скаалов

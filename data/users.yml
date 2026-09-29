@@ -1177,6 +1177,10 @@ cj-3795:
       username: CJ3795
       name: Fargoth Ur
       avatar: store:/avatars/tg-3487354161651099642.jpg
+cjm-814:
+  profiles:
+    - service: ig
+      username: cjm_814
 clarityplague:
   profiles:
     - service: ig
@@ -1238,7 +1242,7 @@ crazycyrodiliccat:
   profiles:
     - service: vk
       id: '90554843'
-      updated: 2026-09-29-06-38-04
+      updated: 2026-09-29-11-06-11
       username: crazycyrodiliccat
       name: Александр Невский
       avatar: store:/avatars/vk-0db1296b.jpg
@@ -1484,14 +1488,14 @@ dehero:
       avatar: store:/avatars/gh-c8afe641.jpg
     - service: vk
       id: '3652910'
-      updated: 2026-09-29-06-38-04
+      updated: 2026-09-29-11-07-26
       username: dehero
       name: Антон Курьянов
       avatar: store:/avatars/vk-5356f76e.jpg
     - type: channel
       service: vk
       id: '138249959'
-      updated: 2026-09-29-06-37-18
+      updated: 2026-09-29-11-06-37
       username: mwscr
       name: Morrowind Screenshots
       avatar: store:/avatars/vk-8e97fd4f.jpg
@@ -2429,7 +2433,7 @@ goosevich76:
   profiles:
     - service: tg
       id: '5385620621'
-      updated: 2026-09-29-06-36-18
+      updated: 2026-09-29-11-05-19
       accessHash: '-7130473396589324830'
       username: horwwwaty
       name: Horwaty
@@ -2735,7 +2739,7 @@ ilya-goryachev:
   profiles:
     - service: vk
       id: '448748807'
-      updated: 2026-09-07-00-26-20
+      updated: 2026-09-29-11-06-43
       username: id448748807
       name: Илья Горячев
       avatar: store:/avatars/vk-a5784df5.jpg
@@ -3166,7 +3170,7 @@ karatedance:
   profiles:
     - service: tg
       id: '1037255094'
-      updated: 2026-09-29-06-36-18
+      updated: 2026-09-29-11-05-19
       accessHash: '-5098047197051495291'
       username: karatedance
       name: танцы карате
@@ -3369,7 +3373,7 @@ kurov-alexander:
   profiles:
     - service: vk
       id: '233557'
-      updated: 2026-09-07-00-26-08
+      updated: 2026-09-29-11-06-30
       username: kurov.alexander
       name: Александр Куров
       avatar: store:/avatars/vk-c64fc9de.jpg
@@ -3385,7 +3389,7 @@ kydinov91:
   profiles:
     - service: vk
       id: '36104583'
-      updated: 2026-09-29-06-37-04
+      updated: 2026-09-29-11-07-26
       username: kydinov91
       name: Илья Кудинов
       avatar: store:/avatars/vk-03d8a48a.jpg
@@ -3768,7 +3772,7 @@ max-tsei:
   profiles:
     - service: vk
       id: '353284524'
-      updated: 2026-09-29-00-52-59
+      updated: 2026-09-29-11-06-37
       username: max.tsei
       avatar: store:/avatars/vk-7f160215.jpg
       deleted: true
@@ -6196,6 +6200,10 @@ turquoise-slizer:
       updated: 2025-06-27-13-58-12
       username: turquoise_slizer
       avatar: store:/avatars/ig-35825b1a.jpg
+turtle12345678910111213141516:
+  profiles:
+    - service: ig
+      username: turtle12345678910111213141516
 twex:
   profiles:
     - service: ig
@@ -6433,7 +6441,7 @@ user-34:
   profiles:
     - service: vk
       id: '266402374'
-      updated: 2026-09-06-22-32-00
+      updated: 2026-09-29-11-05-30
       username: id266402374
       avatar: store:/avatars/vk-7f160215.jpg
       deleted: true
@@ -6624,6 +6632,10 @@ vectormaly:
       botChatId: 842358436
       name: VECTOR MALY
       avatar: store:/avatars/tg-3617901934585948103.jpg
+veilolololo:
+  profiles:
+    - service: ig
+      username: veilolololo
 velikiyh:
   profiles:
     - service: vk
