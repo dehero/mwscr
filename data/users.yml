@@ -108,6 +108,10 @@
       username: 972otev
       name: 972oTeV
       avatar: store:/avatars/ig-bb00daeb.jpg
+a-w-conservation:
+  profiles:
+    - service: ig
+      username: a_w_conservation_
 a2-enkelli:
   profiles:
     - service: tg
@@ -389,6 +393,10 @@ allor:
       username: allor
       name: Аллор Алкарин
       avatar: store:/avatars/vk-4ae860cb.jpg
+almalexia:
+  profiles:
+    - service: ig
+      username: almalexia__
 alonso-igomez:
   profiles:
     - service: ig
@@ -1422,7 +1430,7 @@ daryna-dmytrenko:
   profiles:
     - service: vk
       id: '164064457'
-      updated: 2026-09-07-10-53-20
+      updated: 2026-09-29-19-12-24
       username: daryna_dmytrenko
       name: Дарина Дмитренко
       avatar: store:/avatars/vk-0d327853.jpg
@@ -1488,7 +1496,7 @@ dehero:
       avatar: store:/avatars/gh-c8afe641.jpg
     - service: vk
       id: '3652910'
-      updated: 2026-09-29-13-47-31
+      updated: 2026-09-29-19-12-19
       username: dehero
       name: Антон Курьянов
       avatar: store:/avatars/vk-5356f76e.jpg
@@ -2100,7 +2108,7 @@ evil-kit:
   profiles:
     - service: vk
       id: '153155138'
-      updated: 2026-09-07-20-14-43
+      updated: 2026-09-29-19-12-19
       username: evil_kit
       name: Никита Метелкин
       avatar: store:/avatars/vk-adb64972.jpg
@@ -2207,6 +2215,10 @@ followingtheroe1952:
       username: '@followingtheroe1952'
       name: Following the Roe
       avatar: store:/avatars/yt-64c75028.jpg
+foolykuri:
+  profiles:
+    - service: ig
+      username: foolykuri
 fragabaglio:
   profiles:
     - service: ig
@@ -2433,7 +2445,7 @@ goosevich76:
   profiles:
     - service: tg
       id: '5385620621'
-      updated: 2026-09-29-13-46-38
+      updated: 2026-09-29-19-10-51
       accessHash: '-7130473396589324830'
       username: horwwwaty
       name: Horwaty
@@ -2686,7 +2698,7 @@ idalexeyvav:
   profiles:
     - service: vk
       id: '417783044'
-      updated: 2026-09-07-10-53-17
+      updated: 2026-09-29-19-12-22
       username: idalexeyvav
       name: Алексей Вавилов
       avatar: store:/avatars/vk-6717456e.jpg
@@ -2906,7 +2918,7 @@ ivan-uralov:
   profiles:
     - service: vk
       id: '16497155'
-      updated: 2026-09-28-13-49-03
+      updated: 2026-09-29-19-10-54
       username: id16497155
       name: Иван Уралов
       avatar: store:/avatars/vk-51775759.jpg
@@ -3170,7 +3182,7 @@ karatedance:
   profiles:
     - service: tg
       id: '1037255094'
-      updated: 2026-09-29-13-46-37
+      updated: 2026-09-29-19-10-51
       accessHash: '-5098047197051495291'
       username: karatedance
       name: танцы карате
@@ -3590,10 +3602,10 @@ lycanthropy:
   profiles:
     - service: vk
       id: '5386912'
-      updated: 2026-09-07-10-54-16
+      updated: 2026-09-29-19-10-59
       username: lycanthropy
       name: Филипп Суворов
-      avatar: store:/avatars/vk-8642e0b8.jpg
+      avatar: store:/avatars/vk-96cd2c06.jpg
 m-a-dadychenko:
   profiles:
     - service: vk
@@ -3655,7 +3667,7 @@ maks-perunov:
   profiles:
     - service: vk
       id: '35868942'
-      updated: 2026-09-27-16-33-46
+      updated: 2026-09-29-19-11-45
       username: id35868942
       name: Макс Перунов
       avatar: store:/avatars/vk-3bb92045.jpg
@@ -6457,7 +6469,7 @@ user-36:
   profiles:
     - service: vk
       id: '227500203'
-      updated: 2026-09-07-10-54-15
+      updated: 2026-09-29-19-12-27
       username: id227500203
       avatar: store:/avatars/vk-7f160215.jpg
       deleted: true
