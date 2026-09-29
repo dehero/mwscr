@@ -521,7 +521,7 @@ export const PostPage: SiteRoutePage<PostPageParams, PostPageData> = (props) => 
                                 size="small"
                                 class={styles.avatar}
                               />
-                              {postInfo().locatorOption!.label}
+                              {localize(postInfo().locatorOption!.label)}
                             </>
                           )
                         : undefined,
@@ -541,7 +541,7 @@ export const PostPage: SiteRoutePage<PostPageParams, PostPageData> = (props) => 
                                 size="small"
                                 class={styles.avatar}
                               />
-                              {postInfo().requesterOption!.label}
+                              {localize(postInfo().requesterOption!.label)}
                             </>
                           )
                         : undefined,

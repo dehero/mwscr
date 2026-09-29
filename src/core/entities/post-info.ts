@@ -73,8 +73,6 @@ export interface PostInfo {
   managerName: PostsManagerName;
   status?: ListReaderItemStatus;
   created?: Date;
-  located?: Date;
-  requested?: Date;
 }
 
 export type PostInfoComparator = (a: PostInfo, b: PostInfo) => number;
@@ -250,16 +248,16 @@ export function comparePostInfosByLocated(direction: SortDirection): PostInfoCom
   const byId = comparePostInfosById(direction);
 
   return direction === 'asc'
-    ? (a, b) => (a.located?.getTime() || 0) - (b.located?.getTime() || 0) || byId(a, b)
-    : (a, b) => (b.located?.getTime() || 0) - (a.located?.getTime() || 0) || byId(a, b);
+    ? (a, b) => (a.locating?.date.getTime() || 0) - (b.locating?.date.getTime() || 0) || byId(a, b)
+    : (a, b) => (b.locating?.date.getTime() || 0) - (a.locating?.date.getTime() || 0) || byId(a, b);
 }
 
 export function comparePostInfosByRequested(direction: SortDirection): PostInfoComparator {
   const byId = comparePostInfosById(direction);
 
   return direction === 'asc'
-    ? (a, b) => (a.requested?.getTime() || 0) - (b.requested?.getTime() || 0) || byId(a, b)
-    : (a, b) => (b.requested?.getTime() || 0) - (a.requested?.getTime() || 0) || byId(a, b);
+    ? (a, b) => (a.request?.date.getTime() || 0) - (b.request?.date.getTime() || 0) || byId(a, b)
+    : (a, b) => (b.request?.date.getTime() || 0) - (a.request?.date.getTime() || 0) || byId(a, b);
 }
 
 export const selectPostInfos = (
