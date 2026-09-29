@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file.
 
+## [3.5.2](https://github.com/dehero/mwscr/compare/v3.5.1...v3.5.2) (2026-09-29)
+
+### Code Refactoring
+
+- **post-info:** replace located/requested with nested date objects
+  ([178f3d2](https://github.com/dehero/mwscr/commit/178f3d2196efaa34845e61d1f5b255921a09107a))
+
 ## [3.5.1](https://github.com/dehero/mwscr/compare/v3.5.0...v3.5.1) (2026-09-28)
 
 ### Bug Fixes
