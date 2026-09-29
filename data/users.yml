@@ -638,6 +638,11 @@ arya-stark:
       username: id820702664
       name: Арья Старк
       avatar: store:/avatars/vk-689aa89d.jpg
+asasin-chel:
+  name: Asasin Chel
+  nameRu: Асасин Чел
+  profiles:
+    - service: mx
 asbaccan:
   profiles:
     - service: ig
