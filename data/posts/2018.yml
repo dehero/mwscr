@@ -2587,16 +2587,17 @@
       id: Dd3IoSgmDeA
       mediaId: '17971329045150624'
       published: 2026-09-29-06-38-54
-      updated: 2026-09-29-19-10-55
+      updated: 2026-09-29-23-28-06
       followers: 2671
-      likes: 249
+      likes: 282
       comments: !c |-
-        G50BIIzEOBZyKj50W1drekIlwu7Eo0uMIRX9sP+8lwdUEQZRA7aVpCorVKeuwvC0sziT76HP4gzS
-        DAJ9RvtpILvpKLOd6IPx1qiAdqMo4CyLI0uwmlARpdvkt0eCbFYZiAR7sxi/hTQzfyZjB4VzKzED
-        V78lTGQBCJHAdDEy+3ifbIfdCfkoTyimnB4KELUAxEULQVw+T8ANH5de/MD1LSxTxoVU2hBMCKGE
-        EU4EkS3plg+ef9YDF1hskwCA/RVuz6agCkR5dGW0323uj1Q036cp3A1yoTDsPTTkoHUWLAs8IQGd
-        ICDd4wSNrYycg+75no6Wnh7+zV6zAdZkvrgTuUDoKkK7jW616Udj8iTO6b5blzP43Navpd8JiL7/
-        D9hOMux8hfBa0yUcKc1uYScx3eIqP2YtSU0pWKSQQ9sB
+        G80BIIzEOCZyaD5gpv//3l3+E/SDrUHLRm2gvqbbHlg8bcxJgXTS6Eed7rtvEc77flMRxXvMr9lj
+        tn+c4NEJHF0YaEC9LOBUdqID479TUVlFUZxQHFiACVaBZZGl23z66pEgm6QJIoKb8uFtz9TXVxYw
+        p9Yellg1tonFhYcFVRZKdXwFwT+46JYhuMl2Nd2SOGkBjMhgaxzYPl5PGsEkFQ9xAzIf+JmwKAVw
+        kA5RXdOOlw/mi+DYdnXrMC9ESVZUTec5nucFXuQlXuaVZZJcC01rm0YNXW+NAMDlji0HabERzDHW
+        Gv3HiGqqtPXnWIbaKaTlYd2gIYL1XjgHjZiAGDqmJjA0zjl76FLTNoSO5uun1qHMgFPxMpn4QTDW
+        pdjtsF4t/xacYEuE99hjLXIEv3rjtyltFOI58wdoK+PjZS41IqTwJMf3CPozkgskvfLbKZSlzyWJ
+        H3oO
 2018-02-18-balmora:
   title: Balmora
   titleRu: Балмора
@@ -6212,18 +6213,21 @@
     - service: vk
       id: 3576
       published: 2026-09-28-20-27-09
-      updated: 2026-09-29-19-10-51
+      updated: 2026-09-29-23-28-03
       followers: 1445
-      likes: 29
-      views: 273
+      likes: 31
+      views: 298
       reposts: 2
     - service: tg
       id: 1325
       published: 2026-09-28-20-27-14
-      updated: 2026-09-29-19-10-50
+      updated: 2026-09-29-23-28-00
       followers: 943
-      likes: 41
-      views: 158
+      likes: 46
+      views: 185
+      comments: !c |-
+        iyuAkZPLQnoO65jcgADZIGdtZmlza2ZtZ3ZrZGlhb2tkZ212a3hrYW9xa2VnbXZl2Ski0JzQvtC2
+        0LXRgiDQsdGL0YLRjCDQuCDQvdC40YfQtdCz0L4uLi4gIgM=
     - service: mx
       id: '1790627238699'
       published: 2026-09-28-20-27-18
@@ -6814,9 +6818,9 @@
       id: Dd1Vc8TF8zE
       mediaId: '17878382136553578'
       published: 2026-09-28-13-52-26
-      updated: 2026-09-29-19-10-56
+      updated: 2026-09-29-23-28-10
       followers: 2658
-      likes: 262
+      likes: 271
 2018-05-06-roads-of-ascadian-isles:
   title: Roads of Ascadian Isles
   titleRu: Дороги Аскадианских островов
@@ -14527,10 +14531,10 @@
     - service: tg
       id: 1322
       published: 2026-09-24-20-16-00
-      updated: 2026-09-28-20-24-18
+      updated: 2026-09-29-23-28-02
       followers: 942
       likes: 48
-      views: 272
+      views: 317
     - service: mx
       id: 1790280974426
       published: 2026-09-24-20-16-00
@@ -14538,10 +14542,10 @@
     - service: vk
       id: 3570
       published: 2026-09-26-23-20-03
-      updated: 2026-09-28-20-24-20
+      updated: 2026-09-29-23-28-05
       followers: 1445
-      likes: 40
-      views: 426
+      likes: 43
+      views: 474
       reposts: 3
 2018-09-27-sethan-ancestral-tomb:
   title: Sethan Ancestral Tomb
@@ -15249,10 +15253,10 @@
     - service: tg
       id: 1320
       published: 2026-09-23-19-19-00
-      updated: 2026-09-28-20-24-22
+      updated: 2026-09-29-23-28-05
       followers: 942
       likes: 54
-      views: 314
+      views: 339
     - service: mx
       id: 1790191165480
       published: 2026-09-23-19-19-00
@@ -15260,10 +15264,10 @@
     - service: vk
       id: 3567
       published: 2026-09-26-13-25-06
-      updated: 2026-09-28-20-24-21
+      updated: 2026-09-29-23-28-07
       followers: 1445
-      likes: 42
-      views: 354
+      likes: 51
+      views: 410
       reposts: 3
 2018-10-09-severe-innkeeper:
   title: Severe Innkeeper
@@ -17018,9 +17022,9 @@
       id: Dd3nbHojlhF
       mediaId: '18100451993372832'
       published: 2026-09-29-11-07-59
-      updated: 2026-09-29-19-10-53
+      updated: 2026-09-29-23-28-02
       followers: 2676
-      likes: 64
+      likes: 76
 2018-11-09-dusk-in-the-skaal-village:
   title: Dusk in the Skaal Village
   titleRu: Сумерки в деревне Скаалов

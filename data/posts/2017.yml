@@ -24,7 +24,7 @@
     - service: vk
       id: 49
       published: 2017-01-22
-      updated: 2026-09-07-20-14-27
+      updated: 2026-09-29-23-29-41
       followers: 4
       likes: 8
       views: 136
@@ -55,7 +55,7 @@
     - service: vk
       id: 50
       published: 2017-01-22
-      updated: 2026-09-07-20-14-28
+      updated: 2026-09-29-23-29-42
       followers: 4
       likes: 5
       views: 97
@@ -108,7 +108,7 @@
     - service: vk
       id: 51
       published: 2017-01-22
-      updated: 2026-09-07-20-14-30
+      updated: 2026-09-29-23-29-43
       followers: 4
       likes: 3
       views: 92
@@ -134,7 +134,7 @@
     - service: vk
       id: 52
       published: 2017-01-22
-      updated: 2026-09-07-20-14-31
+      updated: 2026-09-29-23-29-44
       followers: 4
       views: 100
 2017-01-05-alchemy-corner:
@@ -163,7 +163,7 @@
     - service: vk
       id: 53
       published: 2017-01-22
-      updated: 2026-09-07-20-14-32
+      updated: 2026-09-29-23-29-46
       followers: 4
       likes: 3
       views: 97
@@ -220,7 +220,7 @@
     - service: vk
       id: 54
       published: 2017-01-22
-      updated: 2026-09-07-20-14-33
+      updated: 2026-09-29-23-29-47
       followers: 4
       likes: 4
       views: 95
@@ -307,7 +307,7 @@
     - service: vk
       id: 55
       published: 2017-01-22
-      updated: 2026-09-07-20-14-34
+      updated: 2026-09-29-23-29-48
       followers: 4
       likes: 5
       views: 97
@@ -350,7 +350,7 @@
     - service: vk
       id: 56
       published: 2017-01-22
-      updated: 2026-09-07-20-14-35
+      updated: 2026-09-29-23-29-49
       likes: 6
       views: 74
     - service: ig
@@ -533,7 +533,7 @@
     - service: vk
       id: 62
       published: 2017-01-14
-      updated: 2026-09-07-20-14-48
+      updated: 2026-09-29-23-30-02
       followers: 4
       likes: 6
       views: 131
@@ -592,7 +592,7 @@
     - service: vk
       id: 63
       published: 2017-01-15
-      updated: 2026-09-07-20-14-46
+      updated: 2026-09-29-23-30-01
       followers: 4
       likes: 4
       views: 110
@@ -620,7 +620,7 @@
     - service: vk
       id: 64
       published: 2017-01-16
-      updated: 2026-09-07-20-14-45
+      updated: 2026-09-29-23-30-00
       followers: 4
       likes: 3
       views: 116
@@ -650,7 +650,7 @@
     - service: vk
       id: 65
       published: 2017-01-17
-      updated: 2026-09-07-20-14-44
+      updated: 2026-09-29-23-29-58
       followers: 4
       likes: 3
       views: 122
@@ -678,7 +678,7 @@
     - service: vk
       id: 66
       published: 2017-01-18
-      updated: 2026-09-07-20-14-43
+      updated: 2026-09-29-23-29-57
       followers: 4
       likes: 4
       views: 137
@@ -745,7 +745,7 @@
     - service: vk
       id: 67
       published: 2017-01-19
-      updated: 2026-09-07-20-14-41
+      updated: 2026-09-29-23-29-55
       followers: 4
       likes: 5
       views: 138
@@ -809,7 +809,7 @@
     - service: vk
       id: 68
       published: 2017-01-20
-      updated: 2026-09-07-20-14-40
+      updated: 2026-09-29-23-29-54
       followers: 4
       likes: 5
       views: 146
@@ -888,7 +888,7 @@
     - service: vk
       id: 69
       published: 2017-01-21
-      updated: 2026-09-07-20-14-39
+      updated: 2026-09-29-23-29-52
       followers: 4
       likes: 7
       views: 156
@@ -951,7 +951,7 @@
     - service: vk
       id: 70
       published: 2017-01-22
-      updated: 2026-09-07-20-14-37
+      updated: 2026-09-29-23-29-50
       followers: 4
       likes: 6
       views: 205
@@ -983,10 +983,10 @@
     - service: vk
       id: 71
       published: 2017-01-22
-      updated: 2026-09-07-20-14-38
+      updated: 2026-09-29-23-29-51
       followers: 4
       likes: 8
-      views: 135
+      views: 136
       reposts: 1
 2017-01-23-when-you-meet-yourself:
   title: When You Meet Yourself
@@ -1010,7 +1010,7 @@
     - service: vk
       id: 73
       published: 2017-01-23
-      updated: 2026-09-07-10-54-16
+      updated: 2026-09-29-23-29-05
       followers: 8
       likes: 7
       views: 220
@@ -1073,7 +1073,7 @@
     - service: vk
       id: 74
       published: 2017-01-24
-      updated: 2026-09-07-10-54-15
+      updated: 2026-09-29-23-29-03
       followers: 8
       likes: 5
       views: 172
@@ -1102,7 +1102,7 @@
     - service: vk
       id: 76
       published: 2017-01-25
-      updated: 2026-09-07-10-54-14
+      updated: 2026-09-29-23-29-02
       followers: 8
       likes: 8
       views: 164
@@ -1162,7 +1162,7 @@
     - service: vk
       id: 84
       published: 2017-01-26
-      updated: 2026-09-07-10-54-12
+      updated: 2026-09-29-23-28-59
       followers: 8
       likes: 9
       views: 198
@@ -1279,7 +1279,7 @@
     - service: vk
       id: 99
       published: 2017-01-27
-      updated: 2026-09-07-10-54-08
+      updated: 2026-09-29-23-28-54
       followers: 8
       likes: 7
       views: 163
@@ -1365,7 +1365,7 @@
     - service: vk
       id: 100
       published: 2017-01-28
-      updated: 2026-09-07-10-54-05
+      updated: 2026-09-29-23-28-50
       followers: 8
       likes: 2
       views: 181
@@ -1393,7 +1393,7 @@
     - service: vk
       id: 101
       published: 2017-01-28
-      updated: 2026-09-07-10-54-07
+      updated: 2026-09-29-23-28-53
       followers: 8
       likes: 57
       views: 1429
@@ -1439,7 +1439,7 @@
     - service: vk
       id: 110
       published: 2017-01-29
-      updated: 2026-09-07-10-54-04
+      updated: 2026-09-29-23-28-49
       followers: 19
       likes: 8
       views: 166
@@ -1465,7 +1465,7 @@
     - service: vk
       id: 111
       published: 2017-01-30
-      updated: 2026-09-07-10-54-03
+      updated: 2026-09-29-23-28-47
       followers: 23
       likes: 6
       views: 141
@@ -1515,7 +1515,7 @@
     - service: vk
       id: 112
       published: 2017-01-31
-      updated: 2026-09-07-10-54-02
+      updated: 2026-09-29-23-28-46
       followers: 23
       likes: 6
       views: 135
@@ -1573,7 +1573,7 @@
     - service: vk
       id: 113
       published: 2017-02-01
-      updated: 2026-09-07-10-54-01
+      updated: 2026-09-29-23-28-45
       followers: 22
       likes: 7
       views: 136
@@ -1653,7 +1653,7 @@
     - service: vk
       id: 114
       published: 2017-02-02
-      updated: 2026-09-07-10-54-00
+      updated: 2026-09-29-23-28-44
       followers: 23
       likes: 9
       views: 161
@@ -1702,7 +1702,7 @@
     - service: vk
       id: 115
       published: 2017-02-03
-      updated: 2026-09-07-10-53-59
+      updated: 2026-09-29-23-28-43
       followers: 22
       likes: 8
       views: 137
@@ -1756,7 +1756,7 @@
     - service: vk
       id: 116
       published: 2017-02-04
-      updated: 2026-09-07-10-53-58
+      updated: 2026-09-29-23-28-42
       followers: 22
       likes: 11
       views: 145
@@ -1787,7 +1787,7 @@
     - service: vk
       id: 118
       published: 2017-02-05
-      updated: 2026-09-07-10-53-56
+      updated: 2026-09-29-23-28-40
       followers: 24
       likes: 11
       views: 169
@@ -1838,7 +1838,7 @@
     - service: vk
       id: 119
       published: 2017-02-06
-      updated: 2026-09-07-10-53-55
+      updated: 2026-09-29-23-28-39
       followers: 25
       likes: 8
       views: 168
@@ -1888,13 +1888,13 @@
       id: Dd356LyoK8E
       mediaId: '18116820317061091'
       published: 2026-09-29-13-49-32
-      updated: 2026-09-29-19-10-52
+      updated: 2026-09-29-23-28-01
       followers: 2678
-      likes: 118
+      likes: 146
       comments: !c |-
-        G4cAYJ0JdkxkxOauF+DJcoOLOMABJ5xwwJdBt0mXt9kWmiHTLFrD+aA4fdiAZLJ3Q/rSzMJP85q6
-        c8qJBmhtYYCJR3CUi1zlsAO2NpZl5Cvy02f6tRdd3leGXTkIiL80RfTTDtqQheCFIm0uUjHgpqmJ
-        fc/YmiIlhlCREAY/wXTb31l+C6nE3Jm/cg==
+        G7oACIzUTjccqb35v+YHOuDMDXA2wYtI2htog0bxQEeR4NlThZ/mdHKigXFbazseMA3jCEJJIKTc
+        xs4UdLXsBk3pdBuNjr0WeoMDsFEU32kUO1PC0KgPfSqYIfYUJUPDjzL29zipA7DIo0DQldDLXmhi
+        Hpop5agqBqjzsIRUDtuGLvfFvmmMzBKbZiuZkb662IbgOfmp6PDxf8/yyDdg20gX0/g3HwI=
 2017-02-07-night-patrol:
   title: Night Patrol
   titleRu: Ночной патруль
@@ -1920,7 +1920,7 @@
     - service: vk
       id: 123
       published: 2017-02-07
-      updated: 2026-09-07-10-53-53
+      updated: 2026-09-29-23-28-36
       followers: 25
       likes: 9
       views: 168
@@ -1974,7 +1974,7 @@
     - service: vk
       id: 128
       published: 2017-02-08
-      updated: 2026-09-07-10-53-52
+      updated: 2026-09-29-23-28-34
       followers: 29
       likes: 8
       views: 162
@@ -2054,7 +2054,7 @@
     - service: vk
       id: 132
       published: 2017-02-09
-      updated: 2026-09-07-10-53-50
+      updated: 2026-09-29-23-28-33
       followers: 30
       likes: 13
       views: 159
@@ -2109,7 +2109,7 @@
     - service: vk
       id: 133
       published: 2017-02-10
-      updated: 2026-09-07-10-53-49
+      updated: 2026-09-29-23-28-32
       followers: 30
       likes: 13
       views: 179
@@ -2162,7 +2162,7 @@
     - service: vk
       id: 134
       published: 2017-02-11
-      updated: 2026-09-07-10-53-48
+      updated: 2026-09-29-23-28-31
       followers: 30
       likes: 8
       views: 169
@@ -2268,7 +2268,7 @@
     - service: vk
       id: 135
       published: 2017-02-12
-      updated: 2026-09-07-10-53-47
+      updated: 2026-09-29-23-28-30
       followers: 30
       likes: 53
       views: 1386
@@ -2309,7 +2309,7 @@
     - service: vk
       id: 149
       published: 2017-02-13
-      updated: 2026-09-07-10-53-44
+      updated: 2026-09-29-23-28-25
       followers: 35
       likes: 11
       views: 153
@@ -2339,7 +2339,7 @@
     - service: vk
       id: 151
       published: 2017-02-14
-      updated: 2026-09-07-10-53-42
+      updated: 2026-09-29-23-28-23
       followers: 36
       likes: 4
       views: 160
@@ -2398,7 +2398,7 @@
     - service: vk
       id: 152
       published: 2017-02-15
-      updated: 2026-09-07-10-53-41
+      updated: 2026-09-29-23-28-22
       followers: 36
       likes: 11
       views: 152
@@ -2426,7 +2426,9 @@
       id: Dd4e6YJGI3F
       mediaId: '17982575265085562'
       published: 2026-09-29-19-12-51
+      updated: 2026-09-29-23-27-58
       followers: 2688
+      likes: 83
 2017-02-16-sunrise-over-the-ash-forest:
   title: Sunrise Over the Ash Forest
   titleRu: Рассвет над пепельным лесом
@@ -2457,7 +2459,7 @@
     - service: vk
       id: 154
       published: 2017-02-16
-      updated: 2026-09-07-10-53-40
+      updated: 2026-09-29-23-28-21
       followers: 36
       likes: 18
       views: 178
@@ -2515,7 +2517,7 @@
     - service: vk
       id: 156
       published: 2017-02-17
-      updated: 2026-09-07-10-53-39
+      updated: 2026-09-29-23-28-19
       followers: 36
       likes: 16
       views: 147
@@ -2550,7 +2552,7 @@
     - service: vk
       id: 158
       published: 2017-02-18
-      updated: 2026-09-07-10-53-38
+      updated: 2026-09-29-23-28-15
       followers: 37
       likes: 12
       views: 160
@@ -2607,7 +2609,7 @@
     - service: vk
       id: 159
       published: 2017-02-19
-      updated: 2026-09-07-10-53-37
+      updated: 2026-09-29-23-28-14
       followers: 38
       likes: 17
       views: 175
@@ -2638,7 +2640,7 @@
     - service: vk
       id: 161
       published: 2017-02-20
-      updated: 2026-09-07-10-53-35
+      updated: 2026-09-29-23-28-12
       followers: 38
       likes: 20
       views: 229
@@ -2704,7 +2706,7 @@
     - service: vk
       id: 165
       published: 2017-02-21
-      updated: 2026-09-07-10-53-34
+      updated: 2026-09-29-23-28-10
       followers: 38
       likes: 10
       views: 145
@@ -2757,7 +2759,7 @@
     - service: vk
       id: 166
       published: 2017-02-22
-      updated: 2026-09-07-10-53-33
+      updated: 2026-09-29-23-28-09
       followers: 38
       likes: 9
       views: 149
@@ -10376,11 +10378,17 @@
     - service: vk
       id: 3577
       published: 2026-09-29-19-12-58
+      updated: 2026-09-29-23-28-00
       followers: 1445
+      likes: 7
+      views: 97
     - service: tg
       id: 1326
       published: 2026-09-29-19-13-03
+      updated: 2026-09-29-23-27-59
       followers: 943
+      likes: 27
+      views: 95
     - service: mx
       id: '1790709187125'
       published: 2026-09-29-19-13-07
@@ -11421,10 +11429,10 @@
     - service: tg
       id: 1321
       published: 2026-09-23-22-33-00
-      updated: 2026-09-28-20-24-20
+      updated: 2026-09-29-23-28-04
       followers: 942
       likes: 51
-      views: 299
+      views: 326
       comments: !c |-
         ix2AkZPLQnoNURf+gACra2FyYXRlZGFuY2XZI3dvdy4gaWRrIHdoeSBidXQgaSBsb3ZlIGl0IHNv
         IG11Y2guAw==
@@ -13295,9 +13303,9 @@
       id: Dd2hEp8GDzr
       mediaId: '18016465373951396'
       published: 2026-09-29-00-53-15
-      updated: 2026-09-29-19-10-55
+      updated: 2026-09-29-23-28-08
       followers: 2668
-      likes: 274
+      likes: 296
 2017-09-07-wise-womans-table:
   title: Wise Woman's Table
   titleRu: Столик шаманки
@@ -15227,6 +15235,11 @@
       id: '1785871015506'
       published: 2026-08-04-19-16-55
       followers: 23
+    - service: ig
+      id: Dd48X_9F01B
+      mediaId: '18012775376957603'
+      published: 2026-09-29-23-30-17
+      followers: 2696
 2017-10-12-gnaar-mok:
   title: Gnaar Mok
   titleRu: Гнаар Мок
