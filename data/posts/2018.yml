@@ -263,10 +263,10 @@
     - service: tg
       id: 1323
       published: 2026-09-26-20-19-46
-      updated: 2026-09-29-19-10-52
+      updated: 2026-09-30-21-13-45
       followers: 942
       likes: 47
-      views: 241
+      views: 278
     - service: mx
       id: '1790453989935'
       published: 2026-09-26-20-19-50
@@ -1753,9 +1753,9 @@
       id: Dd6K1SnFJlp
       mediaId: '18113778569278824'
       published: 2026-09-30-10-55-52
-      updated: 2026-09-30-16-41-11
+      updated: 2026-09-30-21-13-41
       followers: 2710
-      likes: 107
+      likes: 146
 2018-02-03-omalen-ancestral-tomb:
   title: Omalen Ancestral Tomb
   titleRu: Родовая гробница Омаленов
@@ -2594,9 +2594,9 @@
       id: Dd3IoSgmDeA
       mediaId: '17971329045150624'
       published: 2026-09-29-06-38-54
-      updated: 2026-09-30-16-41-22
+      updated: 2026-09-30-21-13-49
       followers: 2671
-      likes: 342
+      likes: 353
       comments: !c |-
         G80BIIzEOCZyaD5gpv//3l3+E/SDrUHLRm2gvqbbHlg8bcxJgXTS6Eed7rtvEc77flMRxXvMr9lj
         tn+c4NEJHF0YaEC9LOBUdqID479TUVlFUZxQHFiACVaBZZGl23z66pEgm6QJIoKb8uFtz9TXVxYw
@@ -12260,9 +12260,9 @@
       id: Ddw4LG7F_BO
       mediaId: '18133319548598684'
       published: 2026-09-26-20-19-37
-      updated: 2026-09-29-19-10-59
+      updated: 2026-09-30-21-13-51
       followers: 2570
-      likes: 396
+      likes: 420
       comments: !c |-
         GzUCQIzURjWmE0mSGE2cayKz8W42K43C4DWVQHKWxUfpq/29lR/dtwUp4IedBGuBTu3s8Y+Zf9yi
         RZJeQAF97eim6NELv9HjE4xdG7PCMWmbRFSggYWWzevRkzeSauw2ygd99aOWbfJBjDlRUVLBU6KV
@@ -14264,6 +14264,11 @@
       id: '1786299720610'
       published: 2026-08-09-18-22-00
       followers: 23
+    - service: ig
+      id: Dd7RliMjIHK
+      mediaId: '18416226982156539'
+      published: 2026-09-30-21-14-03
+      followers: 2724
 2018-09-22-two-ways:
   title: Two Ways
   titleRu: Два пути
@@ -14842,6 +14847,18 @@
       followers: 566
       likes: 59
       views: 697
+    - service: vk
+      id: 3578
+      published: 2026-09-30-21-14-10
+      followers: 1445
+    - service: tg
+      id: 1327
+      published: 2026-09-30-21-14-15
+      followers: 944
+    - service: mx
+      id: '1790802858639'
+      published: 2026-09-30-21-14-18
+      followers: 38
 2018-10-02-shatalg:
   title: Shatalg
   titleRu: Шаталг
@@ -17029,9 +17046,9 @@
       id: Dd3nbHojlhF
       mediaId: '18100451993372832'
       published: 2026-09-29-11-07-59
-      updated: 2026-09-30-16-41-19
+      updated: 2026-09-30-21-13-47
       followers: 2676
-      likes: 89
+      likes: 94
 2018-11-09-dusk-in-the-skaal-village:
   title: Dusk in the Skaal Village
   titleRu: Сумерки в деревне Скаалов
