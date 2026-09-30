@@ -385,7 +385,7 @@
     - service: vk
       id: 57
       published: 2017-01-09
-      updated: 2026-09-07-20-14-53
+      updated: 2026-09-30-04-13-17
       followers: 4
       likes: 4
       views: 97
@@ -417,7 +417,7 @@
     - service: vk
       id: 58
       published: 2017-01-10
-      updated: 2026-09-07-20-14-52
+      updated: 2026-09-30-04-13-16
       followers: 4
       views: 105
 2017-01-11-fort-pelagiad:
@@ -442,7 +442,7 @@
     - service: vk
       id: 59
       published: 2017-01-11
-      updated: 2026-09-07-20-14-51
+      updated: 2026-09-30-04-13-15
       followers: 4
       likes: 2
       views: 108
@@ -468,7 +468,7 @@
     - service: vk
       id: 60
       published: 2017-01-12
-      updated: 2026-09-07-20-14-50
+      updated: 2026-09-30-04-13-14
       followers: 4
       likes: 8
       views: 107
@@ -501,7 +501,7 @@
     - service: vk
       id: 61
       published: 2017-01-13
-      updated: 2026-09-07-20-14-49
+      updated: 2026-09-30-04-13-13
       followers: 4
       likes: 5
       views: 110
@@ -1888,9 +1888,9 @@
       id: Dd356LyoK8E
       mediaId: '18116820317061091'
       published: 2026-09-29-13-49-32
-      updated: 2026-09-29-23-28-01
+      updated: 2026-09-30-04-13-15
       followers: 2678
-      likes: 146
+      likes: 155
       comments: !c |-
         G7oACIzUTjccqb35v+YHOuDMDXA2wYtI2htog0bxQEeR4NlThZ/mdHKigXFbazseMA3jCEJJIKTc
         xs4UdLXsBk3pdBuNjr0WeoMDsFEU32kUO1PC0KgPfSqYIfYUJUPDjzL29zipA7DIo0DQldDLXmhi
@@ -2426,9 +2426,9 @@
       id: Dd4e6YJGI3F
       mediaId: '17982575265085562'
       published: 2026-09-29-19-12-51
-      updated: 2026-09-29-23-27-58
+      updated: 2026-09-30-04-13-12
       followers: 2688
-      likes: 83
+      likes: 107
 2017-02-16-sunrise-over-the-ash-forest:
   title: Sunrise Over the Ash Forest
   titleRu: Рассвет над пепельным лесом
@@ -10378,17 +10378,18 @@
     - service: vk
       id: 3577
       published: 2026-09-29-19-12-58
-      updated: 2026-09-29-23-28-00
+      updated: 2026-09-30-04-13-10
       followers: 1445
-      likes: 7
-      views: 97
+      likes: 13
+      views: 148
+      reposts: 2
     - service: tg
       id: 1326
       published: 2026-09-29-19-13-03
-      updated: 2026-09-29-23-27-59
+      updated: 2026-09-30-04-13-09
       followers: 943
-      likes: 27
-      views: 95
+      likes: 34
+      views: 115
     - service: mx
       id: '1790709187125'
       published: 2026-09-29-19-13-07
@@ -13303,9 +13304,9 @@
       id: Dd2hEp8GDzr
       mediaId: '18016465373951396'
       published: 2026-09-29-00-53-15
-      updated: 2026-09-29-23-28-08
+      updated: 2026-09-30-04-13-19
       followers: 2668
-      likes: 296
+      likes: 309
 2017-09-07-wise-womans-table:
   title: Wise Woman's Table
   titleRu: Столик шаманки
@@ -15239,7 +15240,9 @@
       id: Dd48X_9F01B
       mediaId: '18012775376957603'
       published: 2026-09-29-23-30-17
+      updated: 2026-09-30-04-13-10
       followers: 2696
+      likes: 90
 2017-10-12-gnaar-mok:
   title: Gnaar Mok
   titleRu: Гнаар Мок
@@ -16882,6 +16885,11 @@
       id: '1785957022122'
       published: 2026-08-05-19-10-22
       followers: 23
+    - service: ig
+      id: Dd5cy6GIJEi
+      mediaId: '18108489815333918'
+      published: 2026-09-30-04-13-36
+      followers: 2702
 2017-11-13-three-guars-at-the-crossroads:
   title: Three Guars at the Crossroads
   titleRu: Три гуара на распутье

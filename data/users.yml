@@ -646,7 +646,7 @@ arya-stark:
   profiles:
     - service: vk
       id: '820702664'
-      updated: 2026-09-27-08-39-18
+      updated: 2026-09-30-04-13-22
       username: id820702664
       name: Арья Старк
       avatar: store:/avatars/vk-689aa89d.jpg
@@ -2428,7 +2428,7 @@ gmfiskfmgvkdiaokdgmvkxkaoqkegmve:
   profiles:
     - service: tg
       id: '1076943595'
-      updated: 2026-09-29-23-28-00
+      updated: 2026-09-30-04-13-11
       accessHash: '-4454480471355451055'
       username: gmfiskfmgvkdiaokdgmvkxkaoqkegmve
       name: Тереза
@@ -5331,7 +5331,7 @@ sergey-b-2:
   profiles:
     - service: vk
       id: '1077446394'
-      updated: 2026-09-26-17-39-40
+      updated: 2026-09-30-04-13-22
       username: id1077446394
       name: Сергей Б
       avatar: store:/avatars/vk-f5b20109.jpg
