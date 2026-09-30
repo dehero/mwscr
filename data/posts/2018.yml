@@ -274,10 +274,10 @@
     - service: vk
       id: 3572
       published: 2026-09-27-15-23-00
-      updated: 2026-09-29-13-46-38
+      updated: 2026-09-30-16-41-14
       followers: 1445
-      likes: 46
-      views: 498
+      likes: 49
+      views: 546
       reposts: 2
 2018-01-08-aqueduct-of-old-mournhold:
   title: Aqueduct of Old Mournhold
@@ -1753,7 +1753,9 @@
       id: Dd6K1SnFJlp
       mediaId: '18113778569278824'
       published: 2026-09-30-10-55-52
+      updated: 2026-09-30-16-41-11
       followers: 2710
+      likes: 107
 2018-02-03-omalen-ancestral-tomb:
   title: Omalen Ancestral Tomb
   titleRu: Родовая гробница Омаленов
@@ -2592,9 +2594,9 @@
       id: Dd3IoSgmDeA
       mediaId: '17971329045150624'
       published: 2026-09-29-06-38-54
-      updated: 2026-09-30-10-55-34
+      updated: 2026-09-30-16-41-22
       followers: 2671
-      likes: 326
+      likes: 342
       comments: !c |-
         G80BIIzEOCZyaD5gpv//3l3+E/SDrUHLRm2gvqbbHlg8bcxJgXTS6Eed7rtvEc77flMRxXvMr9lj
         tn+c4NEJHF0YaEC9LOBUdqID479TUVlFUZxQHFiACVaBZZGl23z66pEgm6QJIoKb8uFtz9TXVxYw
@@ -4323,9 +4325,9 @@
       id: Ddy-APVFyco
       mediaId: '18283196332289075'
       published: 2026-09-27-15-49-03
-      updated: 2026-09-29-13-46-47
+      updated: 2026-09-30-16-41-28
       followers: 2622
-      likes: 376
+      likes: 405
       comments: !c |-
         G8EA4J0HdizyAou7b6QZEPRfOym+UK6GM8ww94/gSIGSzEhN2ReVANxkJdYXnHOANrvU2sJEE4mj
         65afP9qnww+VU040MGy1dbhYQHpQu/PwuyIlmtmzH57Xm6P/b93T5oh05JhyxFc84MASg8QbrGUS
@@ -6218,18 +6220,18 @@
     - service: vk
       id: 3576
       published: 2026-09-28-20-27-09
-      updated: 2026-09-30-10-55-32
+      updated: 2026-09-30-16-41-12
       followers: 1445
-      likes: 33
-      views: 340
+      likes: 34
+      views: 355
       reposts: 2
     - service: tg
       id: 1325
       published: 2026-09-28-20-27-14
-      updated: 2026-09-30-10-55-37
+      updated: 2026-09-30-16-41-15
       followers: 943
-      likes: 51
-      views: 202
+      likes: 52
+      views: 206
       comments: !c |-
         iyuAkZPLQnoO65jcgADZIGdtZmlza2ZtZ3ZrZGlhb2tkZ212a3hrYW9xa2VnbXZl2Ski0JzQvtC2
         0LXRgiDQsdGL0YLRjCDQuCDQvdC40YfQtdCz0L4uLi4gIgM=
@@ -17027,9 +17029,9 @@
       id: Dd3nbHojlhF
       mediaId: '18100451993372832'
       published: 2026-09-29-11-07-59
-      updated: 2026-09-30-10-55-33
+      updated: 2026-09-30-16-41-19
       followers: 2676
-      likes: 87
+      likes: 89
 2018-11-09-dusk-in-the-skaal-village:
   title: Dusk in the Skaal Village
   titleRu: Сумерки в деревне Скаалов

@@ -2428,7 +2428,7 @@ gmfiskfmgvkdiaokdgmvkxkaoqkegmve:
   profiles:
     - service: tg
       id: '1076943595'
-      updated: 2026-09-30-10-55-36
+      updated: 2026-09-30-16-41-14
       accessHash: '-4454480471355451055'
       username: gmfiskfmgvkdiaokdgmvkxkaoqkegmve
       name: Тереза
@@ -5829,6 +5829,7 @@ stop-kran88:
       updated: 2026-09-28-13-49-48
       accessHash: '-2636851689586952350'
       username: StopKran88
+      botChatId: 7849915452
       name: Яша
 striped-bear:
   profiles:
@@ -6630,7 +6631,7 @@ vanya-letov:
   profiles:
     - service: tg
       id: '1368355493'
-      updated: 2026-09-30-10-55-35
+      updated: 2026-09-30-16-41-12
       accessHash: '304826905023030342'
       username: VanyaLetov
       name: Ваня Белошапкин
