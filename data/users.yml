@@ -2428,7 +2428,7 @@ gmfiskfmgvkdiaokdgmvkxkaoqkegmve:
   profiles:
     - service: tg
       id: '1076943595'
-      updated: 2026-09-30-04-13-11
+      updated: 2026-09-30-10-55-36
       accessHash: '-4454480471355451055'
       username: gmfiskfmgvkdiaokdgmvkxkaoqkegmve
       name: Тереза
@@ -6626,6 +6626,15 @@ vancleve:
       username: vancleve
       avatar: store:/avatars/vk-7f160215.jpg
       deleted: true
+vanya-letov:
+  profiles:
+    - service: tg
+      id: '1368355493'
+      updated: 2026-09-30-10-55-35
+      accessHash: '304826905023030342'
+      username: VanyaLetov
+      name: Ваня Белошапкин
+      avatar: store:/avatars/tg-5230998175299084064.jpg
 variks2004:
   profiles:
     - service: vk

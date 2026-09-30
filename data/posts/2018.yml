@@ -1749,6 +1749,11 @@
       likes: 72
       views: 707
       reposts: 4
+    - service: ig
+      id: Dd6K1SnFJlp
+      mediaId: '18113778569278824'
+      published: 2026-09-30-10-55-52
+      followers: 2710
 2018-02-03-omalen-ancestral-tomb:
   title: Omalen Ancestral Tomb
   titleRu: Родовая гробница Омаленов
@@ -2587,9 +2592,9 @@
       id: Dd3IoSgmDeA
       mediaId: '17971329045150624'
       published: 2026-09-29-06-38-54
-      updated: 2026-09-30-04-13-18
+      updated: 2026-09-30-10-55-34
       followers: 2671
-      likes: 313
+      likes: 326
       comments: !c |-
         G80BIIzEOCZyaD5gpv//3l3+E/SDrUHLRm2gvqbbHlg8bcxJgXTS6Eed7rtvEc77flMRxXvMr9lj
         tn+c4NEJHF0YaEC9LOBUdqID479TUVlFUZxQHFiACVaBZZGl23z66pEgm6QJIoKb8uFtz9TXVxYw
@@ -6213,18 +6218,18 @@
     - service: vk
       id: 3576
       published: 2026-09-28-20-27-09
-      updated: 2026-09-30-04-13-11
+      updated: 2026-09-30-10-55-32
       followers: 1445
-      likes: 31
-      views: 309
+      likes: 33
+      views: 340
       reposts: 2
     - service: tg
       id: 1325
       published: 2026-09-28-20-27-14
-      updated: 2026-09-30-04-13-11
+      updated: 2026-09-30-10-55-37
       followers: 943
-      likes: 48
-      views: 192
+      likes: 51
+      views: 202
       comments: !c |-
         iyuAkZPLQnoO65jcgADZIGdtZmlza2ZtZ3ZrZGlhb2tkZ212a3hrYW9xa2VnbXZl2Ski0JzQvtC2
         0LXRgiDQsdGL0YLRjCDQuCDQvdC40YfQtdCz0L4uLi4gIgM=
@@ -6818,9 +6823,9 @@
       id: Dd1Vc8TF8zE
       mediaId: '17878382136553578'
       published: 2026-09-28-13-52-26
-      updated: 2026-09-30-04-13-20
+      updated: 2026-09-30-10-55-37
       followers: 2658
-      likes: 276
+      likes: 277
 2018-05-06-roads-of-ascadian-isles:
   title: Roads of Ascadian Isles
   titleRu: Дороги Аскадианских островов
@@ -17022,9 +17027,9 @@
       id: Dd3nbHojlhF
       mediaId: '18100451993372832'
       published: 2026-09-29-11-07-59
-      updated: 2026-09-30-04-13-16
+      updated: 2026-09-30-10-55-33
       followers: 2676
-      likes: 83
+      likes: 87
 2018-11-09-dusk-in-the-skaal-village:
   title: Dusk in the Skaal Village
   titleRu: Сумерки в деревне Скаалов
