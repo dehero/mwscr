@@ -1,10 +1,21 @@
 import { parseResourceUrl } from '../../core/entities/resource.ts';
+import { getUploadMetaName, getUploadPreviewName, getUploadPublicUrl } from '../../core/utils/s3-utils.ts';
 import { store } from '../stores/index.ts';
 
 export function getResourcePreviewUrl(url: string | undefined) {
-  return url
-    ?.replace(/^store:\/(.*)\..*/, '/previews/$1.avif')
-    .replace(/^uploads:\/(.*)\..*/, '/uploads/$1.preview.webp');
+  if (!url) {
+    return undefined;
+  }
+
+  const uploadMatch = /^uploads:\/(.*)$/.exec(url);
+  if (uploadMatch) {
+    const [, name] = uploadMatch;
+    if (name) {
+      return getUploadPublicUrl(getUploadPreviewName(name));
+    }
+  }
+
+  return url.replace(/^store:\/(.*)\..*/, '/previews/$1.avif');
 }
 
 // TODO: create lightweight video version and preview image automatically. Now used manual scripts:
@@ -29,7 +40,7 @@ export function getResourceDataUrl(url: string) {
     case 'store:':
       return store.getPublicUrl(path);
     case 'uploads:':
-      return `/uploads/${path}`;
+      return getUploadPublicUrl(path);
     default:
   }
 
@@ -37,5 +48,6 @@ export function getResourceDataUrl(url: string) {
 }
 
 export function getUploadMetaUrl(url: string) {
-  return url.replace(/^uploads:\/(.*)\..*/, '/uploads/$1.meta.json');
+  const { path } = parseResourceUrl(url);
+  return getUploadPublicUrl(getUploadMetaName(path));
 }

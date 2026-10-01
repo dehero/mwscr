@@ -4,8 +4,6 @@ Redirect 301 /help/wallpaper-v /help/wallpaper/
 <IfModule mod_rewrite.c>
 	RewriteEngine on
 
-  RewriteRule ^uploads\/$ uploads.php [L,QSA]
-
   # SPA fallback: if the requested path is not an existing file or directory,
   # serve index.html so client-side routing can handle it.
   RewriteCond %{REQUEST_FILENAME} !-f
