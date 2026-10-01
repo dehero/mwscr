@@ -3190,7 +3190,7 @@ karatedance:
   profiles:
     - service: tg
       id: '1037255094'
-      updated: 2026-09-30-21-13-42
+      updated: 2026-10-01-01-06-01
       accessHash: '-5098047197051495291'
       username: karatedance
       name: танцы карате
@@ -6631,7 +6631,7 @@ vanya-letov:
   profiles:
     - service: tg
       id: '1368355493'
-      updated: 2026-09-30-21-13-40
+      updated: 2026-10-01-01-05-56
       accessHash: '304826905023030342'
       username: VanyaLetov
       name: Ваня Белошапкин
