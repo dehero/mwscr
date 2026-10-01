@@ -6631,7 +6631,7 @@ vanya-letov:
   profiles:
     - service: tg
       id: '1368355493'
-      updated: 2026-10-01-01-05-56
+      updated: 2026-10-01-08-22-28
       accessHash: '304826905023030342'
       username: VanyaLetov
       name: Ваня Белошапкин
@@ -6656,7 +6656,7 @@ vectormaly:
   profiles:
     - service: tg
       id: '842358436'
-      updated: 2026-09-03-01-46-28
+      updated: 2026-10-01-08-22-37
       accessHash: '8403750728080648348'
       username: vectormaly
       botChatId: 842358436
