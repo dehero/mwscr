@@ -646,7 +646,7 @@ arya-stark:
   profiles:
     - service: vk
       id: '820702664'
-      updated: 2026-09-30-04-13-22
+      updated: 2026-10-01-21-34-48
       username: id820702664
       name: Арья Старк
       avatar: store:/avatars/vk-689aa89d.jpg
@@ -2432,7 +2432,7 @@ gmfiskfmgvkdiaokdgmvkxkaoqkegmve:
   profiles:
     - service: tg
       id: '1076943595'
-      updated: 2026-09-30-16-41-14
+      updated: 2026-10-01-21-34-43
       accessHash: '-4454480471355451055'
       username: gmfiskfmgvkdiaokdgmvkxkaoqkegmve
       name: Тереза
@@ -2453,7 +2453,7 @@ goosevich76:
   profiles:
     - service: tg
       id: '5385620621'
-      updated: 2026-09-30-21-13-43
+      updated: 2026-10-01-21-34-45
       accessHash: '-7130473396589324830'
       username: horwwwaty
       name: Horwaty
@@ -2930,7 +2930,7 @@ ivan-uralov:
   profiles:
     - service: vk
       id: '16497155'
-      updated: 2026-09-30-21-13-44
+      updated: 2026-10-01-21-34-48
       username: id16497155
       name: Иван Уралов
       avatar: store:/avatars/vk-51775759.jpg
@@ -3194,7 +3194,7 @@ karatedance:
   profiles:
     - service: tg
       id: '1037255094'
-      updated: 2026-10-01-01-06-01
+      updated: 2026-10-01-21-34-45
       accessHash: '-5098047197051495291'
       username: karatedance
       name: танцы карате
@@ -4097,6 +4097,10 @@ mshyshov:
       accessHash: '1134405027575382008'
       username: mshyshov
       name: Mykhailo Shyshov
+mudman-mudgrass-mudleaf-2:
+  profiles:
+    - service: ig
+      username: mudman_mudgrass_mudleaf_2
 munson-sargassum:
   profiles:
     - service: ig
