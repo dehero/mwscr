@@ -1753,9 +1753,9 @@
       id: Dd6K1SnFJlp
       mediaId: '18113778569278824'
       published: 2026-09-30-10-55-52
-      updated: 2026-10-01-08-22-29
+      updated: 2026-10-01-16-02-06
       followers: 2710
-      likes: 177
+      likes: 186
 2018-02-03-omalen-ancestral-tomb:
   title: Omalen Ancestral Tomb
   titleRu: Родовая гробница Омаленов
@@ -6825,9 +6825,9 @@
       id: Dd1Vc8TF8zE
       mediaId: '17878382136553578'
       published: 2026-09-28-13-52-26
-      updated: 2026-09-30-10-55-37
+      updated: 2026-10-01-16-02-10
       followers: 2658
-      likes: 277
+      likes: 311
 2018-05-06-roads-of-ascadian-isles:
   title: Roads of Ascadian Isles
   titleRu: Дороги Аскадианских островов
@@ -14268,9 +14268,10 @@
       id: Dd7RliMjIHK
       mediaId: '18416226982156539'
       published: 2026-09-30-21-14-03
-      updated: 2026-10-01-08-22-26
+      updated: 2026-10-01-16-02-03
       followers: 2724
-      likes: 158
+      likes: 202
+      comments: !c ixSAkZPLQnoPe3V5gACnY2xlc2VwaLZpIGxvdmUgdGhpcyBhY2NvdW50IDwzAw==
 2018-09-22-two-ways:
   title: Two Ways
   titleRu: Два пути
@@ -14852,17 +14853,18 @@
     - service: vk
       id: 3578
       published: 2026-09-30-21-14-10
-      updated: 2026-10-01-08-22-24
+      updated: 2026-10-01-16-01-59
       followers: 1445
-      likes: 25
-      views: 227
+      likes: 28
+      views: 294
+      reposts: 1
     - service: tg
       id: 1327
       published: 2026-09-30-21-14-15
-      updated: 2026-10-01-08-22-25
+      updated: 2026-10-01-16-02-00
       followers: 944
-      likes: 37
-      views: 130
+      likes: 42
+      views: 150
     - service: mx
       id: '1790802858639'
       published: 2026-09-30-21-14-18
