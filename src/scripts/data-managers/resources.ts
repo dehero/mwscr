@@ -10,7 +10,7 @@ import type { MediaMetadata } from '../../core/entities/media.ts';
 import type { Resource } from '../../core/entities/resource.ts';
 import { parseResourceUrl, resourceIsImage, resourceIsVideo } from '../../core/entities/resource.ts';
 import { createStoreItemUrl, parseStoreItemUrl } from '../../core/entities/store.ts';
-import { site } from '../../core/services/site.ts';
+import { getUploadPublicUrl, replaceUploadExtension } from '../../core/utils/s3-utils.ts';
 import { textToId } from '../../core/utils/common-utils.ts';
 import { storeManager } from '../store-managers/index.ts';
 import { pathExists } from '../utils/file-utils.ts';
@@ -261,7 +261,7 @@ export async function getResourcePreviewUrl(url: string, width?: number, height?
     case 'store:':
       return storeManager.getPreviewUrl(path, width, height);
     case 'uploads:':
-      return url.replace(/^uploads:\/(.*)\..*/, `${site.origin}/uploads/$1.preview.webp`);
+      return getUploadPublicUrl(replaceUploadExtension(path, '.preview.webp'));
     case 'http:':
     case 'https:':
       return url;
@@ -277,7 +277,7 @@ export function getResourceDataUrl(url: string): string | undefined {
     case 'store:':
       return storeManager.getPublicUrl(path);
     case 'uploads:':
-      return url.replace(/^uploads:\//, `${site.origin}/uploads/`);
+      return getUploadPublicUrl(path);
     case 'http:':
     case 'https:':
       return url;

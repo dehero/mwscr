@@ -12,126 +12,130 @@ import { createTopicEntryFromMarkdown } from './src/core/entities/topic.ts';
 import { dataManager } from './src/scripts/data-managers/manager.ts';
 import { YAML_SCHEMA } from './src/scripts/data-managers/utils/yaml.ts';
 
-export default defineConfig(({ mode }) => ({
-  root: 'src/site',
-  publicDir: 'public',
-  define: {
-    'import.meta.env.VITE_APP_VERSION': JSON.stringify('version' in pkg ? pkg.version : 'unknown'),
-    'import.meta.env.VITE_BUILD_DATE': JSON.stringify(new Date().toISOString()),
-    'import.meta.env.VITE_S3_PUBLIC_URL': JSON.stringify(loadEnv(mode, process.cwd(), '').S3_PUBLIC_URL),
-    'import.meta.env.VITE_S3_STORE_PATH': JSON.stringify(loadEnv(mode, process.cwd(), '').S3_STORE_PATH || ''),
-  },
+export default defineConfig(({ mode }) => {
+  const env = loadEnv(mode, process.cwd(), '');
 
-  plugins: [
-    imagetools(),
-    // TODO: add sitemap
-    solidPlugin(),
-    viteStaticCopy({
-      targets: [
-        {
-          src: '../../data/**/*.yml',
-          dest: 'data',
-          transform: (content, filename) =>
-            JSON.stringify(
-              load(content, {
-                filename,
-                schema: YAML_SCHEMA,
-                onWarning: (warning) => console.warn(warning.toString()),
-              }),
-            ),
-          rename: (_fileName, _fileExtension, fullPath) => path.relative('./data', fullPath).replace(/.yml$/, '.json'),
-        },
-        {
-          src: '../../data/**/*.md',
-          dest: 'data',
-          transform: (content, filename) =>
-            JSON.stringify(Object.fromEntries([createTopicEntryFromMarkdown(content, filename)])),
-          rename: (_fileName, _fileExtension, fullPath) => path.relative('./data', fullPath).replace(/.md$/, '.json'),
-        },
-        {
-          src: '../../data/**/*.{yml,md}',
-          dest: 'data',
-          transform: async () =>
-            JSON.stringify(
-              (await fastGlob.glob('**/*.{yml,md}', { cwd: './data' })).map((filename) =>
-                filename.replace(/.(yml|md)$/, '.json'),
-              ),
-            ),
-          rename: 'index.json',
-        },
-        {
-          src: '../../data/**/*.yml',
-          dest: 'data',
-          transform: async () => JSON.stringify(await dataManager.getAllTagInfos()),
-          rename: 'tag-infos.json',
-        },
-        {
-          src: '../../data/locations.yml',
-          dest: 'data',
-          transform: async () => JSON.stringify(await dataManager.getAllLocationInfos()),
-          rename: 'location-infos.json',
-        },
-        {
-          src: '../../data/users.yml',
-          dest: 'data',
-          transform: async () => JSON.stringify(await dataManager.getAllUserInfos()),
-          rename: 'user-infos.json',
-        },
-        {
-          src: '../../data/**/*.yml',
-          dest: 'data',
-          transform: async () => JSON.stringify(await dataManager.getAllCommentInfos()),
-          rename: 'comment-infos.json',
-        },
-        {
-          src: '../../data/**/*.yml',
-          dest: 'data',
-          transform: async () => JSON.stringify(await dataManager.getSummary()),
-          rename: 'summary.json',
-        },
-
-        ...PostsManagerName.options.map((name) => ({
-          src: `../../data/${name}/*.yml`,
-          dest: `data/${name}`,
-          transform: async () => JSON.stringify(await dataManager.getAllPostInfos(name)),
-          rename: `infos.json`,
-        })),
-        {
-          src: `../../data/topics/*.md`,
-          dest: `data/topics`,
-          transform: async () => JSON.stringify(await dataManager.getAllTopicInfos()),
-          rename: `infos.json`,
-        },
-        {
-          src: '../../assets/*',
-          dest: '',
-        },
-        // {
-        //   src: 'public/.htaccess',
-        //   dest: '',
-        //   transform: async (content) => {
-        //     const redirects = [...(await getConstantRedirects())].map(([from, to]) => `Redirect 301 ${from} ${to}`);
-        //     return `${redirects.join('\n')}\n\n${content}`;
-        //   },
-        // },
-      ],
-    }),
-  ],
-  server: {
-    port: 3000,
-    proxy: {
-      '/uploads': {
-        target: 'http://localhost:8080',
-        changeOrigin: true,
-        rewrite: (path: string) => path.replace(/^\/uploads/, '/uploads'),
-      },
+  return {
+    root: 'src/site',
+    publicDir: 'public',
+    define: {
+      'import.meta.env.VITE_APP_VERSION': JSON.stringify('version' in pkg ? pkg.version : 'unknown'),
+      'import.meta.env.VITE_BUILD_DATE': JSON.stringify(new Date().toISOString()),
+      'import.meta.env.VITE_S3_PUBLIC_URL': JSON.stringify(env.S3_PUBLIC_URL ?? ''),
+      'import.meta.env.VITE_S3_STORE_PATH': JSON.stringify(env.S3_STORE_PATH ?? ''),
+      'import.meta.env.VITE_S3_BUCKET': JSON.stringify(env.S3_BUCKET ?? ''),
+      'import.meta.env.VITE_S3_REGION': JSON.stringify(env.S3_REGION ?? ''),
+      'import.meta.env.VITE_S3_ENDPOINT': JSON.stringify(env.S3_ENDPOINT ?? ''),
+      'import.meta.env.VITE_S3_UPLOADS_PATH': JSON.stringify(env.S3_UPLOADS_PATH ?? ''),
+      'import.meta.env.VITE_S3_UPLOADS_ACCESS_KEY_ID': JSON.stringify(env.S3_UPLOADS_ACCESS_KEY_ID ?? ''),
+      'import.meta.env.VITE_S3_UPLOADS_SECRET_ACCESS_KEY': JSON.stringify(env.S3_UPLOADS_SECRET_ACCESS_KEY ?? ''),
     },
-  },
-  build: {
-    target: 'esnext',
-    outDir: '../../dist',
-    cssCodeSplit: false,
-    emptyOutDir: true,
-    minify: true,
-  },
-}));
+
+    plugins: [
+      imagetools(),
+      // TODO: add sitemap
+      solidPlugin(),
+      viteStaticCopy({
+        targets: [
+          {
+            src: '../../data/**/*.yml',
+            dest: 'data',
+            transform: (content, filename) =>
+              JSON.stringify(
+                load(content, {
+                  filename,
+                  schema: YAML_SCHEMA,
+                  onWarning: (warning) => console.warn(warning.toString()),
+                }),
+              ),
+            rename: (_fileName, _fileExtension, fullPath) =>
+              path.relative('./data', fullPath).replace(/.yml$/, '.json'),
+          },
+          {
+            src: '../../data/**/*.md',
+            dest: 'data',
+            transform: (content, filename) =>
+              JSON.stringify(Object.fromEntries([createTopicEntryFromMarkdown(content, filename)])),
+            rename: (_fileName, _fileExtension, fullPath) => path.relative('./data', fullPath).replace(/.md$/, '.json'),
+          },
+          {
+            src: '../../data/**/*.{yml,md}',
+            dest: 'data',
+            transform: async () =>
+              JSON.stringify(
+                (await fastGlob.glob('**/*.{yml,md}', { cwd: './data' })).map((filename) =>
+                  filename.replace(/.(yml|md)$/, '.json'),
+                ),
+              ),
+            rename: 'index.json',
+          },
+          {
+            src: '../../data/**/*.yml',
+            dest: 'data',
+            transform: async () => JSON.stringify(await dataManager.getAllTagInfos()),
+            rename: 'tag-infos.json',
+          },
+          {
+            src: '../../data/locations.yml',
+            dest: 'data',
+            transform: async () => JSON.stringify(await dataManager.getAllLocationInfos()),
+            rename: 'location-infos.json',
+          },
+          {
+            src: '../../data/users.yml',
+            dest: 'data',
+            transform: async () => JSON.stringify(await dataManager.getAllUserInfos()),
+            rename: 'user-infos.json',
+          },
+          {
+            src: '../../data/**/*.yml',
+            dest: 'data',
+            transform: async () => JSON.stringify(await dataManager.getAllCommentInfos()),
+            rename: 'comment-infos.json',
+          },
+          {
+            src: '../../data/**/*.yml',
+            dest: 'data',
+            transform: async () => JSON.stringify(await dataManager.getSummary()),
+            rename: 'summary.json',
+          },
+
+          ...PostsManagerName.options.map((name) => ({
+            src: `../../data/${name}/*.yml`,
+            dest: `data/${name}`,
+            transform: async () => JSON.stringify(await dataManager.getAllPostInfos(name)),
+            rename: `infos.json`,
+          })),
+          {
+            src: `../../data/topics/*.md`,
+            dest: `data/topics`,
+            transform: async () => JSON.stringify(await dataManager.getAllTopicInfos()),
+            rename: `infos.json`,
+          },
+          {
+            src: '../../assets/*',
+            dest: '',
+          },
+          // {
+          //   src: 'public/.htaccess',
+          //   dest: '',
+          //   transform: async (content) => {
+          //     const redirects = [...(await getConstantRedirects())].map(([from, to]) => `Redirect 301 ${from} ${to}`);
+          //     return `${redirects.join('\n')}\n\n${content}`;
+          //   },
+          // },
+        ],
+      }),
+    ],
+    server: {
+      port: 3000,
+    },
+    build: {
+      target: 'esnext',
+      outDir: '../../dist',
+      cssCodeSplit: false,
+      emptyOutDir: true,
+      minify: true,
+    },
+  };
+});

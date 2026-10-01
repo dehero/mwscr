@@ -7,6 +7,7 @@ import { importResourcesToStore } from './functions/import-resources-to-store.ts
 import { importStoreInbox } from './functions/import-store-inbox.ts';
 import { importTelegramBotUpdates } from './functions/import-telegram-bot-updates.ts';
 import { maintainPreviews } from './functions/maintain-previews.ts';
+import { maintainUploads } from './functions/maintain-uploads.ts';
 import { publishPosts } from './functions/publish-posts.ts';
 // import { syncStore } from './functions/sync-store.ts';
 import { updatePublications } from './functions/update-publications.ts';
@@ -38,6 +39,8 @@ await createNewPost();
 await publishPosts();
 
 await maintainPreviews();
+
+await maintainUploads();
 
 // Telegram waits for too long to disconnect, exit process manually
 process.exit();
