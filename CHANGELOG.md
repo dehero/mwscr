@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file.
 
+## [4.1.0](https://github.com/dehero/mwscr/compare/v4.0.3...v4.1.0) (2026-10-02)
+
+### Features
+
+- **comments:** virtualize comment preview lists
+  ([12166e8](https://github.com/dehero/mwscr/commit/12166e8604c89719eee67b4d3d3789c6d6fc6939))
+
 ## [4.0.3](https://github.com/dehero/mwscr/compare/v4.0.2...v4.0.3) (2026-10-02)
 
 ### Bug Fixes
