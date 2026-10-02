@@ -1,4 +1,5 @@
 import { writeClipboard } from '@solid-primitives/clipboard';
+import { createMediaQuery } from '@solid-primitives/media';
 import { createAsync, revalidate } from '@solidjs/router';
 import clsx from 'clsx';
 import { createResource, For, Show } from 'solid-js';
@@ -38,6 +39,9 @@ import styles from './UserPage.module.css';
 export const UserPage: SiteRoutePage<UserPageParams, UserPageData> = (props) => {
   const data = createAsync(() => queryUserPageData(props.params));
 
+  let containerRef: HTMLDivElement | undefined;
+  const narrowScreen = createMediaQuery('(max-width: 811px)');
+
   const { addToast } = useToaster();
 
   const copyIdToClipboard = () => {
@@ -70,7 +74,7 @@ export const UserPage: SiteRoutePage<UserPageParams, UserPageData> = (props) => 
 
       <Show when={userInfo()}>
         {(userInfo) => (
-          <Frame component="main" class={styles.container}>
+          <Frame component="main" class={styles.container} ref={containerRef}>
             <Frame component="section" variant="thin" class={styles.main}>
               <div class={styles.avatarWrapper}>
                 <UserAvatar image={userInfo().avatar} title={userInfo().title} class={styles.avatar} size="original" />
@@ -297,7 +301,12 @@ export const UserPage: SiteRoutePage<UserPageParams, UserPageData> = (props) => 
               </div>
             </Frame>
 
-            <CommentPreviews commentInfos={data()?.commentInfos ?? []} class={styles.comments} hideAuthorName />
+            <CommentPreviews
+              commentInfos={data()?.commentInfos ?? []}
+              class={styles.comments}
+              hideAuthorName
+              scrollTarget={narrowScreen() ? containerRef : undefined}
+            />
 
             <Frame component="section" class={styles.posts}>
               <Show

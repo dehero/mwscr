@@ -1,3 +1,4 @@
+import { createMediaQuery } from '@solid-primitives/media';
 import { createAsync, revalidate } from '@solidjs/router';
 import clsx from 'clsx';
 import { Show } from 'solid-js';
@@ -35,6 +36,12 @@ export const HomePage: SiteRoutePage<SiteRouteParams, HomePageData> = () => {
   const data = createAsync(() => queryHomePageData());
   const buildDate = new Date(import.meta.env.VITE_BUILD_DATE);
 
+  let containerRef: HTMLDivElement | undefined;
+  const wideScreen = createMediaQuery(
+    '(min-height: 750px) and (min-width: 750px), (max-height: 750px) and (min-width: 925px)',
+  );
+  const commentsScrollTarget = () => (wideScreen() ? undefined : containerRef);
+
   useLocalPatch(() => revalidate(queryHomePageData.key));
 
   return (
@@ -52,7 +59,7 @@ export const HomePage: SiteRoutePage<SiteRouteParams, HomePageData> = () => {
             selectPostInfos(data().recentPostInfos.items, { sortKey: 'mark', sortDirection: 'desc' }, 1);
 
           return (
-            <Frame component="main" class={styles.container}>
+            <Frame component="main" class={styles.container} ref={containerRef}>
               <Frame class={styles.about}>
                 <div class={styles.info}>
                   <img src={icon} class={styles.icon} alt="screenshot of a tree" width={320} />
@@ -253,7 +260,11 @@ export const HomePage: SiteRoutePage<SiteRouteParams, HomePageData> = () => {
                 />
               </Frame>
 
-              <CommentPreviews commentInfos={data().recentCommentInfos} class={styles.comments} />
+              <CommentPreviews
+                commentInfos={data().recentCommentInfos}
+                class={styles.comments}
+                scrollTarget={commentsScrollTarget()}
+              />
 
               <Frame class={styles.diagrams}>
                 <Diagram

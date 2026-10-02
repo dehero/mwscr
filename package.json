@@ -72,6 +72,7 @@
     "@solid-primitives/upload": "^0.0.117",
     "@solidjs/meta": "^0.29.4",
     "@solidjs/router": "^0.16.1",
+    "@tanstack/solid-virtual": "^3.13.40",
     "@thisbeyond/solid-dnd": "^0.7.5",
     "@types/ssh2-sftp-client": "^9.0.4",
     "clsx": "^2.1.0",
