@@ -2,6 +2,26 @@
 
 All notable changes to this project will be documented in this file.
 
+## [4.0.0](https://github.com/dehero/mwscr/compare/v3.5.2...v4.0.0) (2026-10-02)
+
+### ⚠ BREAKING CHANGES
+
+- **uploads:** uploads are no longer served from the local `/uploads/` PHP endpoint. Deployments must provide
+  S3_UPLOADS_PATH, S3_UPLOADS_ACCESS_KEY_ID, S3_UPLOADS_SECRET_ACCESS_KEY and a public uploads bucket for uploads to
+  work.
+
+### Features
+
+- **uploads:** store uploads in S3 instead of local PHP backend
+  ([814f310](https://github.com/dehero/mwscr/commit/814f310a2b39051dd6355f065120f516bb6fdcf2))
+
+### Bug Fixes
+
+- **uploads:** load S3 images in editor with CORS enabled
+  ([8b72c6f](https://github.com/dehero/mwscr/commit/8b72c6fe78cbbb3875201724678b16adea63600d))
+- **uploads:** read upload metadata over public S3 URL
+  ([727b665](https://github.com/dehero/mwscr/commit/727b665af1c134208e14ecb9158bfa2a238b78e5))
+
 ## [3.5.2](https://github.com/dehero/mwscr/compare/v3.5.1...v3.5.2) (2026-09-29)
 
 ### Code Refactoring
