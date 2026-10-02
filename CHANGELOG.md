@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file.
 
+## [4.0.3](https://github.com/dehero/mwscr/compare/v4.0.2...v4.0.3) (2026-10-02)
+
+### Bug Fixes
+
+- resolve user and post updating issues
+  ([1587870](https://github.com/dehero/mwscr/commit/158787056d69e2bb41f5b1d53d5b64551fbf22a9))
+
 ## [4.0.2](https://github.com/dehero/mwscr/compare/v4.0.1...v4.0.2) (2026-10-02)
 
 ### Continuous Integration
