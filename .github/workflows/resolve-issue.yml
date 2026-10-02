@@ -22,12 +22,6 @@ jobs:
       GITHUB_ACTION_CONTEXT: ${{ toJson(github) }}
       GITHUB_BOT_EMAIL: '${{ secrets.BOT_EMAIL }}'
       GITHUB_BOT_NAME: '${{ secrets.BOT_NAME }}'
-      SITE_SSH_HOST: '${{ secrets.SITE_SSH_HOST }}'
-      SITE_SSH_USER: '${{ secrets.SITE_SSH_USER }}'
-      SITE_SSH_PRIVATE_KEY: '${{ secrets.SITE_SSH_PRIVATE_KEY }}'
-      SITE_SSH_PATH: '${{ secrets.SITE_SSH_PATH }}'
-      SITE_SSH_STORE_PATH: '${{ secrets.SITE_SSH_STORE_PATH }}'
-      SITE_STORE_SECRET_KEY: '${{ secrets.SITE_STORE_SECRET_KEY }}'
       YANDEX_DISK_STORE_PATH: '${{ secrets.YANDEX_DISK_STORE_PATH }}'
       YANDEX_DISK_ACCESS_TOKEN: '${{ secrets.YANDEX_DISK_ACCESS_TOKEN }}'
       S3_BUCKET: '${{ secrets.S3_BUCKET }}'
@@ -41,7 +35,6 @@ jobs:
       S3_UPLOADS_PATH: '${{ secrets.S3_UPLOADS_PATH }}'
       S3_UPLOADS_ACCESS_KEY_ID: '${{ secrets.S3_UPLOADS_ACCESS_KEY_ID }}'
       S3_UPLOADS_SECRET_ACCESS_KEY: '${{ secrets.S3_UPLOADS_SECRET_ACCESS_KEY }}'
-      ACTIONS_ALLOW_USE_UNSECURE_NODE_VERSION: true
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -71,50 +64,3 @@ jobs:
             git pull --rebase origin main
             git push origin HEAD:main
           fi
-
-      - name: Build site
-        shell: bash
-        run: npm run build
-
-      - name: Upload build artifact
-        uses: actions/upload-artifact@v4
-        with:
-          name: site-dist
-          path: dist/
-          include-hidden-files: true
-
-  deploy:
-    needs: resolve-issue
-    runs-on: self-hosted
-    timeout-minutes: 60
-    env:
-      SITE_SSH_HOST: '${{ secrets.SITE_SSH_HOST }}'
-      SITE_SSH_USER: '${{ secrets.SITE_SSH_USER }}'
-      SITE_SSH_PRIVATE_KEY: '${{ secrets.SITE_SSH_PRIVATE_KEY }}'
-      SITE_SSH_PATH: '${{ secrets.SITE_SSH_PATH }}'
-
-    steps:
-      - name: Download build artifact
-        uses: actions/download-artifact@v4
-        with:
-          name: site-dist
-          path: dist/
-
-      - name: Deploy site
-        uses: easingthemes/ssh-deploy@v5.1.0
-        env:
-          SSH_PRIVATE_KEY: ${{ env.SITE_SSH_PRIVATE_KEY }}
-          ARGS: '-rltgoDzvO --delete'
-          SOURCE: 'dist/'
-          REMOTE_HOST: ${{ env.SITE_SSH_HOST }}
-          REMOTE_USER: ${{ env.SITE_SSH_USER }}
-          TARGET: ${{ env.SITE_SSH_PATH }}
-          EXCLUDE: '/store/, /uploads/'
-          SCRIPT_BEFORE: |
-            whoami
-            ls -al > /dev/null
-          SCRIPT_AFTER: |
-            whoami
-            ls -al > /dev/null
-            echo $RSYNC_STDOUT
-            exit
