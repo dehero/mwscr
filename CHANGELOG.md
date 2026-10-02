@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file.
 
+## [4.0.2](https://github.com/dehero/mwscr/compare/v4.0.1...v4.0.2) (2026-10-02)
+
+### Continuous Integration
+
+- **workflows:** drop SSH deploy job and site build steps
+  ([d1f53d0](https://github.com/dehero/mwscr/commit/d1f53d04aa01c1894d9b02ffe567e1dd5e871544))
+
 ## [4.0.1](https://github.com/dehero/mwscr/compare/v4.0.0...v4.0.1) (2026-10-02)
 
 ### Code Refactoring
