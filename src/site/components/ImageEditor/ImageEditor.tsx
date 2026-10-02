@@ -10,6 +10,7 @@ import type { Option } from '../../../core/entities/option.ts';
 import { ORIGINAL_OPTION } from '../../../core/entities/option.ts';
 import { PostAspectRatio } from '../../../core/entities/post.ts';
 import { ImageResourceExtension } from '../../../core/entities/resource.ts';
+import { getS3CorsUrl, isS3PublicUrl } from '../../../core/utils/s3-utils.ts';
 import { stripCommonExtension } from '../../../core/utils/string-utils.ts';
 import YellowExclamationMark from '../../images/exclamation.svg';
 import { texts } from '../../texts/index.ts';
@@ -105,6 +106,13 @@ export const ImageEditor: Component<ImageEditorProps> = (props) => {
   const [croppedSize, setCroppedSize] = createSignal<{ width: number; height: number }>();
 
   const hasLoadingError = createMemo(() => currentUrl() === YellowExclamationMark);
+
+  const isS3Resource = createMemo(() => isS3PublicUrl(currentUrl()));
+
+  const sourceUrl = createMemo(() => {
+    const url = currentUrl();
+    return url ? getS3CorsUrl(url) : undefined;
+  });
 
   const filename = createMemo(() => {
     if (props.url) {
@@ -1019,7 +1027,8 @@ export const ImageEditor: Component<ImageEditorProps> = (props) => {
             <img
               ref={imgRef}
               class={styles.mainImage}
-              src={currentUrl()}
+              src={sourceUrl()}
+              crossorigin={isS3Resource() ? 'anonymous' : undefined}
               onLoad={handleImageLoad}
               onError={handleImageError}
               style={{ filter: imageFilter(), 'image-rendering': zoom() === 1 ? 'auto' : undefined }}

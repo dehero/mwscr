@@ -38,6 +38,19 @@ export function getUploadPublicUrl(name: string): string | undefined {
   return `${base}/${key}`;
 }
 
+export function isS3PublicUrl(url: string | undefined): boolean {
+  const base = getS3PublicUrl();
+  return Boolean(url && base && url.startsWith(`${base}/`));
+}
+
+export function getS3CorsUrl(url: string): string {
+  if (!isS3PublicUrl(url)) {
+    return url;
+  }
+
+  return `${url}${url.includes('?') ? '&' : '?'}cors=1`;
+}
+
 export function replaceUploadExtension(name: string, extension: string): string {
   return name.replace(/\.[^./]*$/, '') + extension;
 }
