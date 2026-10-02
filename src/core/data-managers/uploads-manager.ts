@@ -3,7 +3,13 @@ import { parseResourceUrl } from '../entities/resource.ts';
 import type { UploadType } from '../entities/upload.ts';
 import { createUploadFileName, getUploadTypeFromMimeType, Upload } from '../entities/upload.ts';
 import { jsonDateReviver } from '../utils/date-utils.ts';
-import { getUploadMetaName, getUploadPreviewName, getS3UploadsPath, getUploadPublicUrl } from '../utils/s3-utils.ts';
+import {
+  getUploadMetaName,
+  getUploadPreviewName,
+  getS3PublicUrl,
+  getS3UploadsPath,
+  getUploadPublicUrl,
+} from '../utils/s3-utils.ts';
 import type { S3ClientConfig } from '@aws-sdk/client-s3';
 import importVariantsRaw from '../../../assets/import-variants.json' with { type: 'json' };
 import type { ImportVariant } from '../entities/import-variant.ts';
@@ -111,17 +117,20 @@ function createUploadKey(env: S3UploadsEnv, name: string) {
   return [env.uploadsPath, name].filter(Boolean).join('/');
 }
 
-async function readUploadMeta(client: import('@aws-sdk/client-s3').S3Client, env: S3UploadsEnv, key: string) {
-  const { GetObjectCommand } = await import('@aws-sdk/client-s3');
+async function readUploadMeta(key: string) {
+  const base = getS3PublicUrl();
+  if (!base) {
+    return undefined;
+  }
 
   try {
-    const response = await client.send(new GetObjectCommand({ Bucket: env.bucket, Key: key }));
-    const text = await response.Body?.transformToString();
-    if (!text) {
+    // Metadata is publicly readable, and a plain fetch avoids a signed request (and its CORS preflight).
+    const response = await fetch(`${base}/${key}`);
+    if (!response.ok) {
       return undefined;
     }
 
-    const data = JSON.parse(text, jsonDateReviver);
+    const data = JSON.parse(await response.text(), jsonDateReviver);
     assertSchema(Upload, data);
 
     return data;
@@ -272,7 +281,7 @@ async function updateReferencedUploads(
 
           const name = str.replace(/^uploads:\//, '');
           const key = createUploadKey(env, getUploadMetaName(name));
-          const meta = await readUploadMeta(client, env, key);
+          const meta = await readUploadMeta(key);
 
           if (!meta) {
             continue;
@@ -313,7 +322,7 @@ async function uploadSingleFile(
   const key = createUploadKey(env, name);
   const metaKey = createUploadKey(env, getUploadMetaName(name));
 
-  const existing = await readUploadMeta(client, env, metaKey);
+  const existing = await readUploadMeta(metaKey);
   if (existing) {
     return existing;
   }
@@ -423,7 +432,7 @@ export async function getUploads(filter?: GetUploadsFilter): Promise<Upload[]> {
   } while (continuationToken);
 
   const metaKeys = keys.filter((key) => key.endsWith('.meta.json'));
-  const metas = await mapWithConcurrency(metaKeys, 8, (key) => readUploadMeta(client, env, key));
+  const metas = await mapWithConcurrency(metaKeys, 8, (key) => readUploadMeta(key));
 
   const now = Date.now();
   const uploads = metas.filter((meta): meta is Upload => Boolean(meta) && new Date(meta!.expires).getTime() > now);
