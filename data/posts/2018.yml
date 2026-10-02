@@ -263,10 +263,13 @@
     - service: tg
       id: 1323
       published: 2026-09-26-20-19-46
-      updated: 2026-10-01-21-34-46
+      updated: 2026-10-02-23-34-30
       followers: 942
       likes: 48
-      views: 298
+      views: 326
+      comments: !c |-
+        G2EA+B2J6cYOWSx3vraIqDxD+OOZmGU84WKpYp2KlbSyh7W85S6q6UxUBVMa83b/c/KhrrgVAWch
+        liQPTODS9/Oly5yjvbtjnev1Z923gjReXqqLYpSRIgJGhLyXzQIilhMD
     - service: mx
       id: '1790453989935'
       published: 2026-09-26-20-19-50
@@ -274,10 +277,10 @@
     - service: vk
       id: 3572
       published: 2026-09-27-15-23-00
-      updated: 2026-10-01-21-34-46
+      updated: 2026-10-02-23-34-31
       followers: 1445
-      likes: 53
-      views: 585
+      likes: 54
+      views: 624
       reposts: 2
 2018-01-08-aqueduct-of-old-mournhold:
   title: Aqueduct of Old Mournhold
@@ -1834,9 +1837,9 @@
       id: Dd94y46GGYK
       mediaId: '18113709692327717'
       published: 2026-10-01-21-35-12
-      updated: 2026-10-02-19-46-40
+      updated: 2026-10-02-23-34-30
       followers: 2791
-      likes: 143
+      likes: 147
 2018-02-04-sadrith-mora:
   title: Sadrith Mora
   titleRu: Садрит Мора
@@ -4332,9 +4335,9 @@
       id: Ddy-APVFyco
       mediaId: '18283196332289075'
       published: 2026-09-27-15-49-03
-      updated: 2026-10-01-21-34-54
+      updated: 2026-10-02-23-34-37
       followers: 2622
-      likes: 417
+      likes: 435
       comments: !c |-
         G8EA4J0HdizyAou7b6QZEPRfOym+UK6GM8ww94/gSIGSzEhN2ReVANxkJdYXnHOANrvU2sJEE4mj
         65afP9qnww+VU040MGy1dbhYQHpQu/PwuyIlmtmzH57Xm6P/b93T5oh05JhyxFc84MASg8QbrGUS
@@ -5192,10 +5195,10 @@
     - service: vk
       id: 3580
       published: 2026-10-01-21-35-21
-      updated: 2026-10-02-19-46-37
+      updated: 2026-10-02-23-34-27
       followers: 1445
-      likes: 35
-      views: 324
+      likes: 37
+      views: 341
       reposts: 3
       comments: !c |-
         iyaAkZPLQnoPqF+FgACqc2VyZ2V5LWItMtk20KXQvtGC0Ywg0LIg0YDQsNC80LrRgyDQuCDQvdCw
@@ -5203,10 +5206,10 @@
     - service: tg
       id: 1328
       published: 2026-10-01-21-35-25
-      updated: 2026-10-02-19-46-35
+      updated: 2026-10-02-23-34-25
       followers: 944
-      likes: 46
-      views: 161
+      likes: 48
+      views: 181
     - service: mx
       id: '1790890529941'
       published: 2026-10-01-21-35-30
@@ -6249,18 +6252,18 @@
     - service: vk
       id: 3576
       published: 2026-09-28-20-27-09
-      updated: 2026-10-01-21-34-43
+      updated: 2026-10-02-23-34-28
       followers: 1445
-      likes: 37
-      views: 393
+      likes: 38
+      views: 441
       reposts: 2
     - service: tg
       id: 1325
       published: 2026-09-28-20-27-14
-      updated: 2026-10-01-21-34-43
+      updated: 2026-10-02-23-34-27
       followers: 943
-      likes: 54
-      views: 237
+      likes: 55
+      views: 290
       comments: !c |-
         iyuAkZPLQnoO65jcgADZIGdtZmlza2ZtZ3ZrZGlhb2tkZ212a3hrYW9xa2VnbXZl2Ski0JzQvtC2
         0LXRgiDQsdGL0YLRjCDQuCDQvdC40YfQtdCz0L4uLi4gIgM=
@@ -12289,9 +12292,9 @@
       id: Ddw4LG7F_BO
       mediaId: '18133319548598684'
       published: 2026-09-26-20-19-37
-      updated: 2026-10-01-21-34-57
+      updated: 2026-10-02-23-34-40
       followers: 2570
-      likes: 432
+      likes: 438
       comments: !c |-
         GzUCQIzURjWmE0mSGE2cayKz8W42K43C4DWVQHKWxUfpq/29lR/dtwUp4IedBGuBTu3s8Y+Zf9yi
         RZJeQAF97eim6NELv9HjE4xdG7PCMWmbRFSggYWWzevRkzeSauw2ygd99aOWbfJBjDlRUVLBU6KV

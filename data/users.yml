@@ -655,7 +655,7 @@ arya-stark:
   profiles:
     - service: vk
       id: '820702664'
-      updated: 2026-10-01-21-34-48
+      updated: 2026-10-02-23-34-33
       username: id820702664
       name: Арья Старк
       avatar: store:/avatars/vk-689aa89d.jpg
@@ -1014,7 +1014,7 @@ bulatmetal:
   profiles:
     - service: tg
       id: '5159568404'
-      updated: 2026-09-26-16-06-14
+      updated: 2026-10-02-23-34-30
       accessHash: '-7589226771447153320'
       username: bulatmetal
       name: Черепашка
@@ -2469,7 +2469,7 @@ gmfiskfmgvkdiaokdgmvkxkaoqkegmve:
   profiles:
     - service: tg
       id: '1076943595'
-      updated: 2026-10-01-21-34-43
+      updated: 2026-10-02-23-34-27
       accessHash: '-4454480471355451055'
       username: gmfiskfmgvkdiaokdgmvkxkaoqkegmve
       name: Тереза
@@ -2491,7 +2491,7 @@ goosevich76:
   profiles:
     - service: tg
       id: '5385620621'
-      updated: 2026-10-01-21-34-45
+      updated: 2026-10-02-23-34-29
       accessHash: '-7130473396589324830'
       username: horwwwaty
       name: Horwaty
@@ -2977,7 +2977,7 @@ ivan-uralov:
   profiles:
     - service: vk
       id: '16497155'
-      updated: 2026-10-01-21-34-48
+      updated: 2026-10-02-23-34-32
       username: id16497155
       name: Иван Уралов
       avatar: store:/avatars/vk-51775759.jpg
@@ -3250,7 +3250,7 @@ karatedance:
   profiles:
     - service: tg
       id: '1037255094'
-      updated: 2026-10-01-21-34-45
+      updated: 2026-10-02-23-34-28
       accessHash: '-5098047197051495291'
       username: karatedance
       name: танцы карате
@@ -5425,7 +5425,7 @@ sergey-b-2:
   profiles:
     - service: vk
       id: '1077446394'
-      updated: 2026-10-02-19-46-37
+      updated: 2026-10-02-23-34-27
       username: id1077446394
       name: Сергей Б
       avatar: store:/avatars/vk-f5b20109.jpg
