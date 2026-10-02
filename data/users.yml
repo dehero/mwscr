@@ -1822,6 +1822,11 @@ duskmancr-gloom:
     - service: ig
       updated: 2026-10-02-12-11-50
       username: duskmancr_gloom
+dvr1ush:
+  profiles:
+    - service: ig
+      updated: 2026-10-02-19-46-35
+      username: dvr1ush
 dyadyushka-krassius:
   profiles:
     - type: channel
@@ -3128,6 +3133,11 @@ johnny-veretti:
       accessHash: '-7749866638725597396'
       name: Johnny Veretti
       avatar: store:/avatars/tg-2128020935438699267.jpg
+jon-bolles:
+  profiles:
+    - service: ig
+      updated: 2026-10-02-19-46-44
+      username: jon.bolles
 jon-heeler:
   profiles:
     - service: ig
@@ -3752,7 +3762,7 @@ maksim-solovev:
   profiles:
     - service: vk
       id: '658767771'
-      updated: 2026-10-02-14-41-19
+      updated: 2026-10-02-19-46-39
       username: id658767771
       name: Максим Соловьев
       avatar: store:/avatars/vk-bee5815b.jpg
@@ -5415,7 +5425,7 @@ sergey-b-2:
   profiles:
     - service: vk
       id: '1077446394'
-      updated: 2026-10-02-14-41-17
+      updated: 2026-10-02-19-46-37
       username: id1077446394
       name: Сергей Б
       avatar: store:/avatars/vk-f5b20109.jpg
@@ -6731,7 +6741,7 @@ vanya-letov:
   profiles:
     - service: tg
       id: '1368355493'
-      updated: 2026-10-01-16-02-02
+      updated: 2026-10-02-19-46-38
       accessHash: '304826905023030342'
       username: VanyaLetov
       name: Ваня Белошапкин

@@ -1834,9 +1834,9 @@
       id: Dd94y46GGYK
       mediaId: '18113709692327717'
       published: 2026-10-01-21-35-12
-      updated: 2026-10-02-14-41-18
+      updated: 2026-10-02-19-46-40
       followers: 2791
-      likes: 125
+      likes: 143
 2018-02-04-sadrith-mora:
   title: Sadrith Mora
   titleRu: Садрит Мора
@@ -5192,10 +5192,10 @@
     - service: vk
       id: 3580
       published: 2026-10-01-21-35-21
-      updated: 2026-10-02-14-41-17
+      updated: 2026-10-02-19-46-37
       followers: 1445
-      likes: 27
-      views: 276
+      likes: 35
+      views: 324
       reposts: 3
       comments: !c |-
         iyaAkZPLQnoPqF+FgACqc2VyZ2V5LWItMtk20KXQvtGC0Ywg0LIg0YDQsNC80LrRgyDQuCDQvdCw
@@ -5203,10 +5203,10 @@
     - service: tg
       id: 1328
       published: 2026-10-01-21-35-25
-      updated: 2026-10-02-14-41-14
+      updated: 2026-10-02-19-46-35
       followers: 944
-      likes: 45
-      views: 155
+      likes: 46
+      views: 161
     - service: mx
       id: '1790890529941'
       published: 2026-10-01-21-35-30
@@ -6854,9 +6854,9 @@
       id: Dd1Vc8TF8zE
       mediaId: '17878382136553578'
       published: 2026-09-28-13-52-26
-      updated: 2026-10-01-16-02-10
+      updated: 2026-10-02-19-46-46
       followers: 2658
-      likes: 311
+      likes: 355
 2018-05-06-roads-of-ascadian-isles:
   title: Roads of Ascadian Isles
   titleRu: Дороги Аскадианских островов
@@ -14297,10 +14297,12 @@
       id: Dd7RliMjIHK
       mediaId: '18416226982156539'
       published: 2026-09-30-21-14-03
-      updated: 2026-10-02-14-41-23
+      updated: 2026-10-02-19-46-44
       followers: 2724
-      likes: 346
-      comments: !c ixSAkZPLQnoPe3V5gACnY2xlc2VwaLZpIGxvdmUgdGhpcyBhY2NvdW50IDwzAw==
+      likes: 381
+      comments: !c |-
+        Cy+AkpPLQnoP1Ro0gACqam9uLWJvbGxlc79Bbm90aGVyIGRheSBhbm90aGVyIHNlcHRpbSDwn6qZ
+        k8tCeg97dXmAAKdjbGVzZXBotmkgbG92ZSB0aGlzIGFjY291bnQgPDMD
 2018-09-22-two-ways:
   title: Two Ways
   titleRu: Два пути
@@ -14882,10 +14884,10 @@
     - service: vk
       id: 3578
       published: 2026-09-30-21-14-10
-      updated: 2026-10-02-14-41-19
+      updated: 2026-10-02-19-46-39
       followers: 1445
-      likes: 34
-      views: 364
+      likes: 36
+      views: 383
       reposts: 1
       comments: !c |-
         G0IA+GXaWWBhmkVFAxrZ8P1p9FM38dd+kP24VEQipioHVxpvDjGBt4BS0OqS6so6dU2r4Ccvf/d3
@@ -14893,10 +14895,10 @@
     - service: tg
       id: 1327
       published: 2026-09-30-21-14-15
-      updated: 2026-10-02-14-41-15
+      updated: 2026-10-02-19-46-36
       followers: 944
       likes: 48
-      views: 205
+      views: 209
     - service: mx
       id: '1790802858639'
       published: 2026-09-30-21-14-18

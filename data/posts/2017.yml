@@ -2141,9 +2141,9 @@
       id: Dd-Sb69mNow
       mediaId: '17970020034158917'
       published: 2026-10-02-01-19-15
-      updated: 2026-10-02-14-41-16
+      updated: 2026-10-02-19-46-39
       followers: 2799
-      likes: 174
+      likes: 197
 2017-02-11-first-tower-of-bthuand:
   title: First Tower of Bthuand
   titleRu: Первая башня Бтуанда
@@ -2433,9 +2433,9 @@
       id: Dd4e6YJGI3F
       mediaId: '17982575265085562'
       published: 2026-09-29-19-12-51
-      updated: 2026-10-01-16-02-09
+      updated: 2026-10-02-19-46-45
       followers: 2688
-      likes: 207
+      likes: 242
 2017-02-16-sunrise-over-the-ash-forest:
   title: Sunrise Over the Ash Forest
   titleRu: Рассвет над пепельным лесом
@@ -5421,9 +5421,9 @@
       id: Dd7sKUxmMlT
       mediaId: '18030394052906388'
       published: 2026-10-01-01-06-20
-      updated: 2026-10-02-14-41-21
+      updated: 2026-10-02-19-46-43
       followers: 2732
-      likes: 138
+      likes: 141
       comments: !c |-
         G2oAgIzURjW5lEWDN0c4GsH3gY7e71CADzwKJMIEyodlfGjGiQbGfTbr5hPUgZssBcBRNLm/nld4
         tf/HBm5VuhvLhzBGzy/w//vqxiZUHQgkEUqK5xkgpq1vE94yjuXOoD4=
@@ -7454,9 +7454,9 @@
       id: Dd9StpwmJ5P
       mediaId: '17912189973470947'
       published: 2026-10-01-16-02-26
-      updated: 2026-10-02-14-41-18
+      updated: 2026-10-02-19-46-41
       followers: 2765
-      likes: 163
+      likes: 170
 2017-05-15-in-the-courtyard-of-royal-palace:
   title: In the Courtyard of Royal Palace
   titleRu: Во внутреннем дворе Королевского дворца
@@ -10402,18 +10402,18 @@
     - service: vk
       id: 3577
       published: 2026-09-29-19-12-58
-      updated: 2026-10-01-16-02-01
+      updated: 2026-10-02-19-46-41
       followers: 1445
-      likes: 48
-      views: 410
+      likes: 54
+      views: 482
       reposts: 2
     - service: tg
       id: 1326
       published: 2026-09-29-19-13-03
-      updated: 2026-10-01-16-02-02
+      updated: 2026-10-02-19-46-38
       followers: 943
-      likes: 54
-      views: 207
+      likes: 55
+      views: 233
       comments: !c |-
         Gy8BKC0S7FguIGlhcMfon/6efaH4PhAJOG3CoPEIkz1k2eYqpS4MZCG9HPocc55Qcxup2II53T9z
         GhhkSwFkvYWoNE1AEj5ZE2w2xR60zwNsF1LkBkcakCcWcGBU4omPuAdcqtOaWOH89Hz99lPr876u
@@ -15322,6 +15322,11 @@
       id: '1787077244792'
       published: 2026-08-18-18-20-44
       followers: 23
+    - service: ig
+      id: DeAROp4DN8n
+      mediaId: '18094627784441514'
+      published: 2026-10-02-19-47-09
+      followers: 2870
 2017-10-13-cult-of-candles:
   title: Cult of Candles
   titleRu: Культ свечей
