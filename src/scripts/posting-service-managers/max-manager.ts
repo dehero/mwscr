@@ -5,7 +5,6 @@ import type { PostEntry } from '../../core/entities/post.ts';
 import { getPostFirstPublished, getPostPublicationTypeTitle, postAddonDescriptors } from '../../core/entities/post.ts';
 import type { Publication } from '../../core/entities/publication.ts';
 import type { PostingServiceManager } from '../../core/entities/service.ts';
-import type { UserProfile } from '../../core/entities/user.ts';
 import { USER_DEFAULT_AUTHOR } from '../../core/entities/user.ts';
 import type { MAXPublication } from '../../core/services/max.ts';
 import { MAX as MAXService, MAX_CHAT_ID } from '../../core/services/max.ts';
@@ -207,10 +206,6 @@ export class MAXManager extends MAXService implements PostingServiceManager {
     return [{ service: this.id, id: result.idMessage, followers, published: new Date() }];
   }
 
-  async updatePublication(_publication: Publication) {
-    // TODO: unable to implement for now
-  }
-
   async grabFollowerCount() {
     const { greenApi } = await this.connect();
 
@@ -224,10 +219,6 @@ export class MAXManager extends MAXService implements PostingServiceManager {
   async grabPosts(_afterPublication?: Publication) {
     // TODO: unable to implement for now
     return [];
-  }
-
-  async updateUserProfile(_profile: UserProfile) {
-    // TODO: unable to implement for now
   }
 
   async grabFollowers() {

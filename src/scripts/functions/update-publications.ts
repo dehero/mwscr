@@ -16,7 +16,9 @@ export async function updatePublications() {
       const postEntries = await manager.getAllEntries(true);
 
       await Promise.all(
-        postingServiceManagers.map((service) => updateServicePublications(manager, service, postEntries)),
+        postingServiceManagers
+          .filter((service) => service.updatePublication)
+          .map((service) => updateServicePublications(manager, service, postEntries)),
       );
     } catch (error) {
       if (error instanceof Error) {
@@ -72,7 +74,7 @@ async function updateServicePublications(
 
   for (const [id, publication] of updatablePublications) {
     try {
-      await service.updatePublication(publication);
+      await service.updatePublication?.(publication);
       await manager.save();
       console.info(`Updated ${service.name} reactions for post "${id}".`);
       failCount = 0;

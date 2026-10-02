@@ -10,7 +10,11 @@ export async function updateUsers() {
   const userEntries = await users.getAllEntries(true);
 
   try {
-    await Promise.all(postingServiceManagers.map((service) => updateServiceUsers(service, userEntries)));
+    await Promise.all(
+      postingServiceManagers
+        .filter((service) => service.updateUserProfile)
+        .map((service) => updateServiceUsers(service, userEntries)),
+    );
   } catch (error) {
     if (error instanceof Error) {
       console.error(`Error updating users: ${error.message}`);
@@ -51,7 +55,7 @@ async function updateServiceUsers(service: PostingServiceManager, userEntries: U
 
   for (const [id, user] of updatableProfiles) {
     try {
-      await service.updateUserProfile(user);
+      await service.updateUserProfile?.(user);
       await users.save();
       console.info(`Updated ${service.name} profile for user "${id}".`);
       failCount = 0;

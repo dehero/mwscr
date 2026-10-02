@@ -623,35 +623,34 @@ export class InstagramManager extends Instagram implements PostingServiceManager
 
     let user;
     let url;
+    let avatar;
 
     const { fetcher } = await this.connect();
-    if (!fetcher) {
-      return;
+    if (fetcher) {
+      if (profile.username) {
+        user = await this.fetchWithDelay(() => fetcher.fetchUserV2(profile.username!));
+        url = user.profile_pic_url_hd;
+      }
+      if (!user && profile.id) {
+        user = (await this.fetchWithDelay(() => fetcher.accountInfo(profile.id))).user;
+        url = user.hd_profile_pic_url_info.url;
+      }
+
+      avatar = url
+        ? await saveUserAvatar(url, `${this.id}-${getRevisionHash(posix.basename(new URL(url).pathname))}.jpg`)
+        : undefined;
+
+      if (!user) {
+        throw new Error(`Cannot find user profile "${profile.id || profile.username}".`);
+      }
     }
 
-    if (profile.username) {
-      user = await this.fetchWithDelay(() => fetcher.fetchUserV2(profile.username!));
-      url = user.profile_pic_url_hd;
-    }
-    if (!user && profile.id) {
-      user = (await this.fetchWithDelay(() => fetcher.accountInfo(profile.id))).user;
-      url = user.hd_profile_pic_url_info.url;
-    }
-
-    const avatar = url
-      ? await saveUserAvatar(url, `${this.id}-${getRevisionHash(posix.basename(new URL(url).pathname))}.jpg`)
-      : undefined;
-
-    if (!user) {
-      throw new Error(`Cannot find user profile "${profile.id || profile.username}".`);
-    }
-
-    profile.id = 'id' in user ? user.id : profile.id;
-    profile.username = user.username;
+    profile.id = user && 'id' in user ? user.id : profile.id;
+    profile.username = user?.username || profile.username;
     profile.type = undefined;
-    profile.deleted = user.username?.startsWith(DELETED_USERNAME_PREFIX) || undefined;
-    profile.name = user.full_name || undefined;
-    profile.avatar = avatar;
+    profile.deleted = profile.username?.startsWith(DELETED_USERNAME_PREFIX) || undefined;
+    profile.name = user?.full_name || profile.name;
+    profile.avatar = avatar ?? profile.avatar;
     profile.updated = new Date();
   }
 

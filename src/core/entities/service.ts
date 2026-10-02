@@ -51,7 +51,7 @@ export interface PostingServiceManager<
 
   publishPostEntry: (entry: PostEntry) => Promise<void>;
 
-  updatePublication: (publication: Publication) => Promise<void>;
+  updatePublication?: (publication: Publication) => Promise<void>;
 
-  updateUserProfile: (profile: UserProfile) => Promise<void>;
+  updateUserProfile?: (profile: UserProfile) => Promise<void>;
 }

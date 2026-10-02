@@ -686,8 +686,8 @@ export class TelegramManager extends Telegram implements PostingServiceManager {
   }
 
   async updateUserProfile(profile: UserProfile) {
-    if (!(profile.id && profile.accessHash) && !profile.username) {
-      throw new Error(`Cannot find user profile id and accessHash or username.`);
+    if (!(profile.id && profile.accessHash) && !profile.username && !profile.botChatId) {
+      throw new Error(`Cannot find user profile id and accessHash or username or botChatId.`);
     }
 
     let entity;
@@ -734,6 +734,7 @@ export class TelegramManager extends Telegram implements PostingServiceManager {
     }
 
     if (!entity || !(entity instanceof Api.User || entity instanceof Api.Chat || entity instanceof Api.Channel)) {
+      profile.updated = new Date();
       return;
     }
 
