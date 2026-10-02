@@ -6,11 +6,13 @@ import { homeRoute } from './home-route.ts';
 import { imageEditorRoute } from './image-editor-route.ts';
 import { postRoute } from './post-route.ts';
 import { postsRoute } from './posts-route.ts';
+import { redirectRoutes } from './redirect-routes.tsx';
 import { userRoute } from './user-route.ts';
 import { usersRoute } from './users-route.ts';
 
 export const routes: RouteDefinition[] = [
   homeRoute as RouteDefinition,
+  ...redirectRoutes,
   helpRoute as unknown as RouteDefinition,
   usersRoute as unknown as RouteDefinition,
   userRoute as unknown as RouteDefinition,
