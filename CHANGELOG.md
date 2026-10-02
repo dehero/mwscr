@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file.
 
+## [4.0.1](https://github.com/dehero/mwscr/compare/v4.0.0...v4.0.1) (2026-10-02)
+
+### Code Refactoring
+
+- **routing:** move legacy redirects from htaccess into router
+  ([767245e](https://github.com/dehero/mwscr/commit/767245ef51693632d4e9166c2f5b92da4697795c))
+
 ## [4.0.0](https://github.com/dehero/mwscr/compare/v3.5.2...v4.0.0) (2026-10-02)
 
 ### ⚠ BREAKING CHANGES
