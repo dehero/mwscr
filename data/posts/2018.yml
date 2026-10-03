@@ -1837,9 +1837,9 @@
       id: Dd94y46GGYK
       mediaId: '18113709692327717'
       published: 2026-10-01-21-35-12
-      updated: 2026-10-02-23-34-30
+      updated: 2026-10-03-04-00-23
       followers: 2791
-      likes: 147
+      likes: 152
 2018-02-04-sadrith-mora:
   title: Sadrith Mora
   titleRu: Садрит Мора
@@ -2604,9 +2604,9 @@
       id: Dd3IoSgmDeA
       mediaId: '17971329045150624'
       published: 2026-09-29-06-38-54
-      updated: 2026-10-02-01-19-01
+      updated: 2026-10-03-04-00-28
       followers: 2671
-      likes: 385
+      likes: 410
       comments: !c |-
         G80BIIzEOCZyaD5gpv//3l3+E/SDrUHLRm2gvqbbHlg8bcxJgXTS6Eed7rtvEc77flMRxXvMr9lj
         tn+c4NEJHF0YaEC9LOBUdqID479TUVlFUZxQHFiACVaBZZGl23z66pEgm6QJIoKb8uFtz9TXVxYw
@@ -5195,10 +5195,10 @@
     - service: vk
       id: 3580
       published: 2026-10-01-21-35-21
-      updated: 2026-10-02-23-34-27
+      updated: 2026-10-03-04-00-15
       followers: 1445
-      likes: 37
-      views: 341
+      likes: 38
+      views: 353
       reposts: 3
       comments: !c |-
         iyaAkZPLQnoPqF+FgACqc2VyZ2V5LWItMtk20KXQvtGC0Ywg0LIg0YDQsNC80LrRgyDQuCDQvdCw
@@ -5206,10 +5206,10 @@
     - service: tg
       id: 1328
       published: 2026-10-01-21-35-25
-      updated: 2026-10-02-23-34-25
+      updated: 2026-10-03-04-00-14
       followers: 944
-      likes: 48
-      views: 181
+      likes: 49
+      views: 186
     - service: mx
       id: '1790890529941'
       published: 2026-10-01-21-35-30
@@ -14591,10 +14591,10 @@
     - service: vk
       id: 3570
       published: 2026-09-26-23-20-03
-      updated: 2026-10-02-01-18-57
+      updated: 2026-10-03-04-00-16
       followers: 1445
-      likes: 48
-      views: 550
+      likes: 49
+      views: 583
       reposts: 3
 2018-09-27-sethan-ancestral-tomb:
   title: Sethan Ancestral Tomb
@@ -15335,10 +15335,10 @@
     - service: vk
       id: 3567
       published: 2026-09-26-13-25-06
-      updated: 2026-10-02-01-18-58
+      updated: 2026-10-03-04-00-17
       followers: 1445
       likes: 52
-      views: 500
+      views: 515
       reposts: 3
 2018-10-09-severe-innkeeper:
   title: Severe Innkeeper
