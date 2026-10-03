@@ -140,10 +140,10 @@
     - service: tg
       id: 1042
       published: 2025-11-06-18-17-09
-      updated: 2026-09-26-16-06-14
+      updated: 2026-10-03-18-36-17
       followers: 854
       likes: 66
-      views: 665
+      views: 666
       comments: !c |-
         ixyAkpPLQnmmbgrgAACra2F3YXpha3kyMjOk8J+Ru5PLQnmmCLkhgACqYnVsYXRtZXRhbKhIdXNi
         YW5kcwM=
@@ -269,10 +269,10 @@
     - service: vk
       id: 3509
       published: 2026-08-21-20-12-44
-      updated: 2026-09-26-16-05-23
+      updated: 2026-10-03-18-35-06
       followers: 1445
       likes: 62
-      views: 572
+      views: 578
       reposts: 1
       comments: !c |-
         G88A+K0OeDPmKqGmdgNk0GOQ/egfObEkTX68qXoNmwlObDq5p7qJMQpxo5pBn7Kx4jYG7dleaoHD
@@ -282,9 +282,9 @@
       id: DeBxkSmDJ_P
       mediaId: '18138686047714718'
       published: 2026-10-03-09-48-58
-      updated: 2026-10-03-14-34-53
+      updated: 2026-10-03-18-34-14
       followers: 2909
-      likes: 76
+      likes: 94
 2019-02-10-molag-mar-canalworks:
   title: Molag Mar, Canalworks
   titleRu: Молаг Мар, Каналы
@@ -340,10 +340,10 @@
     - service: vk
       id: 3527
       published: 2026-08-29-22-55-07
-      updated: 2026-09-26-16-05-11
+      updated: 2026-10-03-18-34-46
       followers: 1442
       likes: 48
-      views: 458
+      views: 467
 2019-02-11-at-the-entrance-to-nchuleftingth:
   title: At the Entrance to Nchuleftingth
   titleRu: У входа в Нчулефтингт
@@ -482,10 +482,10 @@
     - service: vk
       id: 3493
       published: 2026-08-15-18-11-46
-      updated: 2026-09-26-16-05-29
+      updated: 2026-10-03-18-35-16
       followers: 1443
       likes: 77
-      views: 1264
+      views: 1269
       reposts: 4
     - service: tg
       id: 1290
@@ -502,9 +502,9 @@
       id: Dd-9ca9DOKL
       mediaId: '18135746725638534'
       published: 2026-10-02-07-35-02
-      updated: 2026-10-03-14-34-59
+      updated: 2026-10-03-18-34-21
       followers: 2821
-      likes: 121
+      likes: 122
 2019-02-15-telvanni-table:
   title: Telvanni Table
   titleRu: Стол Телванни
@@ -786,10 +786,10 @@
     - service: vk
       id: 3484
       published: 2026-08-11-18-43-37
-      updated: 2026-09-26-16-05-38
+      updated: 2026-10-03-18-35-26
       followers: 1438
       likes: 22
-      views: 398
+      views: 403
       reposts: 1
     - service: tg
       id: 1286
@@ -847,9 +847,9 @@
       id: DTyH2LzDy0H
       mediaId: '18051578093693758'
       published: 2026-01-21-18-41-54
-      updated: 2026-09-26-16-05-20
+      updated: 2026-10-03-18-35-16
       followers: 1608
-      likes: 70
+      likes: 71
       comments: !c CxWAkZPLQnm+VpQNgACpc2hub3p3YXJktUkgY2FuIGhlYXIgdGhpcyBpbWFnZQM=
     - service: vk
       id: 3018
@@ -871,7 +871,7 @@
     - service: tg
       id: 1127
       published: 2026-01-21-18-42-09
-      updated: 2026-09-26-16-05-11
+      updated: 2026-10-03-18-34-59
       followers: 886
       likes: 74
       views: 625
@@ -1039,10 +1039,10 @@
     - service: vk
       id: 3478
       published: 2026-08-08-18-19-44
-      updated: 2026-09-26-16-05-47
+      updated: 2026-10-03-18-35-31
       followers: 1438
       likes: 70
-      views: 753
+      views: 755
       reposts: 3
     - service: tg
       id: 1283
@@ -1059,12 +1059,13 @@
       id: Dd6yajumPO3
       mediaId: '18202357855405784'
       published: 2026-09-30-16-41-45
-      updated: 2026-10-02-14-41-24
+      updated: 2026-10-03-18-34-25
       followers: 2716
-      likes: 152
+      likes: 171
       comments: !c |-
-        G2MAsBwHbkw9SOceTskIld4SZ5Gqms5uctl6e2hCfShCUYysFOYzxm8XbEJqwCEHDi2QAC+BB6TV
-        zVz7/PQBuur4jEOAJdFGdqo/BSVMqmQjlxHM5Piod0jBPYLMFXHtIa/duQE=
+        G64AYGXoXAe2ADobzSuseB7RNNAC3v6f9DnJXycHDv9BDnhpCwPAMNCgefR7nIjMGOu1Hk9lRhi8
+        B+AReEUdeGTa1z9Drj34RhVEpxhyCJAWN+KBesWFDVtHxMpdCFzIprWyMsqDnX2/jP8CTtcLvbr4
+        USqRzR89WLnrucqtyzR7q3a9PFbVaoV2AQ==
 2019-02-24-mehrunes-dagon-and-his-worshiper:
   title: Mehrunes Dagon and His Worshiper
   titleRu: Мехрун Дагон и его идолопоклонник
@@ -1162,10 +1163,10 @@
     - service: vk
       id: 3534
       published: 2026-09-03-21-35-25
-      updated: 2026-09-26-16-05-05
+      updated: 2026-10-03-18-34-36
       followers: 1443
       likes: 70
-      views: 614
+      views: 628
       reposts: 4
 2019-02-27-glassworkers-hall:
   title: Glassworker's Hall
@@ -1366,7 +1367,7 @@
     - service: vk
       id: 3368
       published: 2026-05-17-19-24-06
-      updated: 2026-09-26-16-07-05
+      updated: 2026-10-03-18-37-08
       followers: 1433
       likes: 71
       views: 837
@@ -1619,10 +1620,10 @@
     - service: vk
       id: 3495
       published: 2026-08-16-18-11-51
-      updated: 2026-09-26-16-05-29
+      updated: 2026-10-03-18-35-15
       followers: 1443
       likes: 74
-      views: 1315
+      views: 1322
       reposts: 3
       comments: !c |-
         G8YBAJwHdsO0DRFfNDiuEv9Pf7ElfHn7XSIrsWYiSs412xZSsQbP0Egm78bg5WXwC9XBmxtCFzCC
@@ -1645,9 +1646,9 @@
       id: Dd_QcDclmIK
       mediaId: '18217622176346628'
       published: 2026-10-02-10-21-02
-      updated: 2026-10-03-14-34-59
+      updated: 2026-10-03-18-34-21
       followers: 2829
-      likes: 119
+      likes: 121
       comments: !c |-
         ixqAkZPLQnoPyFVoAAC5bWFudXMtbG9yZC1vZi10aGUtYWJ5c3MtMrBIb3cgbXVjaCBpcyByZW50
         Aw==
@@ -1695,6 +1696,18 @@
       updated: 2026-09-27-16-32-26
       likes: 3
       views: 672
+    - service: vk
+      id: 3585
+      published: 2026-10-03-18-38-28
+      followers: 1445
+    - service: tg
+      id: 1330
+      published: 2026-10-03-18-38-34
+      followers: 946
+    - service: mx
+      id: '1791052718002'
+      published: 2026-10-03-18-38-38
+      followers: 39
 2019-04-02-towers-of-mzanchend:
   title: Towers of Mzanchend
   titleRu: Башни Мзанченда
@@ -1781,9 +1794,9 @@
       id: DVok6CZl7Ra
       mediaId: '17961921570046424'
       published: 2026-03-08-18-46-14
-      updated: 2026-09-26-14-03-25
+      updated: 2026-10-03-18-34-28
       followers: 1612
-      likes: 48
+      likes: 49
     - service: vk
       id: 3160
       published: 2026-03-08-18-46-21
@@ -1970,9 +1983,9 @@
       id: DVJmuxJgI_T
       mediaId: '18005203880851381'
       published: 2026-02-24-18-05-42
-      updated: 2026-09-26-16-04-46
+      updated: 2026-10-03-18-34-41
       followers: 1607
-      likes: 60
+      likes: 61
     - service: vk
       id: 3107
       published: 2026-02-24-18-05-50
@@ -2340,9 +2353,9 @@
       id: DVmAB57Fy4Z
       mediaId: '18042578789732744'
       published: 2026-03-07-18-45-30
-      updated: 2026-09-26-14-03-28
+      updated: 2026-10-03-18-34-30
       followers: 1615
-      likes: 107
+      likes: 108
       comments: !c |-
         ixuAkZPLQnnMnI7BAACtamlyaS1hbGVrc2lpab5JIGNhbiBoZWFyIHRoaXMgaW1hZ2Ug8J+Zj/Cf
         j7sD
@@ -2705,7 +2718,7 @@
     - service: vk
       id: 3360
       published: 2026-05-15-19-47-21
-      updated: 2026-09-26-16-07-08
+      updated: 2026-10-03-18-37-11
       followers: 1433
       likes: 76
       views: 815
