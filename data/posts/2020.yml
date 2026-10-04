@@ -137,7 +137,7 @@
     - service: vk
       id: 1977
       published: 2024-12-20-18-10-34
-      updated: 2026-09-27-02-08-00
+      updated: 2026-10-04-18-01-33
       followers: 1027
       likes: 40
       views: 432
@@ -333,7 +333,10 @@
       id: DeEtBeYG9cG
       mediaId: '17881096626534633'
       published: 2026-10-04-13-07-01
+      updated: 2026-10-04-17-59-38
       followers: 2985
+      likes: 115
+      comments: !c iw6AkZPLQnoQdslRgACpYnJhbnJldHJvqPCfmI3wn5iNAw==
 2020-05-18-behind-the-wall:
   title: Behind the Wall
   titleRu: За стеной
@@ -1720,7 +1723,7 @@
     - service: vk
       id: 2011
       published: 2025-01-02-18-10-56
-      updated: 2026-09-27-02-07-41
+      updated: 2026-10-04-18-01-14
       followers: 1040
       likes: 58
       views: 398
@@ -2275,7 +2278,7 @@
     - service: vk
       id: 2137
       published: 2025-02-18-18-11-39
-      updated: 2026-09-26-23-16-41
+      updated: 2026-10-04-17-59-50
       followers: 1092
       likes: 37
       views: 481
