@@ -282,9 +282,9 @@
       id: DeBxkSmDJ_P
       mediaId: '18138686047714718'
       published: 2026-10-03-09-48-58
-      updated: 2026-10-04-17-59-49
+      updated: 2026-10-04-21-15-16
       followers: 2909
-      likes: 141
+      likes: 150
 2019-02-10-molag-mar-canalworks:
   title: Molag Mar, Canalworks
   titleRu: Молаг Мар, Каналы
@@ -1059,9 +1059,9 @@
       id: Dd6yajumPO3
       mediaId: '18202357855405784'
       published: 2026-09-30-16-41-45
-      updated: 2026-10-03-18-34-25
+      updated: 2026-10-04-21-15-24
       followers: 2716
-      likes: 171
+      likes: 195
       comments: !c |-
         G64AYGXoXAe2ADobzSuseB7RNNAC3v6f9DnJXycHDv9BDnhpCwPAMNCgefR7nIjMGOu1Hk9lRhi8
         B+AReEUdeGTa1z9Drj34RhVEpxhyCJAWN+KBesWFDVtHxMpdCFzIprWyMsqDnX2/jP8CTtcLvbr4
@@ -1345,7 +1345,7 @@
     - service: vk
       id: 1847
       published: 2024-10-20-18-09-14
-      updated: 2026-09-27-08-40-05
+      updated: 2026-10-04-21-16-11
       followers: 986
       likes: 56
       views: 385
@@ -1699,18 +1699,18 @@
     - service: vk
       id: 3585
       published: 2026-10-03-18-38-28
-      updated: 2026-10-04-17-59-36
+      updated: 2026-10-04-21-14-59
       followers: 1445
       likes: 37
-      views: 275
+      views: 280
       reposts: 2
     - service: tg
       id: 1330
       published: 2026-10-03-18-38-34
-      updated: 2026-10-04-17-59-36
+      updated: 2026-10-04-21-14-59
       followers: 946
       likes: 41
-      views: 147
+      views: 150
     - service: mx
       id: '1791052718002'
       published: 2026-10-03-18-38-38
@@ -2461,7 +2461,7 @@
     - service: vk
       id: 1890
       published: 2024-11-11-18-10-04
-      updated: 2026-09-27-02-08-46
+      updated: 2026-10-04-21-15-22
       followers: 1006
       likes: 44
       views: 396
