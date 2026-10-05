@@ -1,38 +1,63 @@
 import clsx from 'clsx';
-import { type Component, Show } from 'solid-js';
+import { type Component, For, Show } from 'solid-js';
+import type { Comment } from '../../../core/entities/comment.ts';
 import type { CommentInfo } from '../../../core/entities/comment-info.ts';
-import { Comment } from '../Comment/Comment.tsx';
+import { Comment as CommentView } from '../Comment/Comment.tsx';
 import styles from './CommentPreview.module.css';
 
 export interface CommentPreviewProps {
-  commentInfo: CommentInfo;
+  commentInfos: CommentInfo[];
+  parent?: Comment;
+  parentInfo?: CommentInfo;
   class?: string;
   hideAuthorName?: boolean;
 }
 
 export const CommentPreview: Component<CommentPreviewProps> = (props) => {
+  const parent = () => props.parentInfo ?? props.parent;
+  const firstComment = () => props.commentInfos[0];
+
   return (
     <Show
-      when={props.commentInfo.parent}
+      when={parent()}
       fallback={
-        <Comment
-          comment={props.commentInfo}
-          class={props.class}
-          hideAuthorName={props.hideAuthorName}
-          service={props.commentInfo.service}
-        />
+        <For each={props.commentInfos}>
+          {(info) => (
+            <CommentView
+              comment={info}
+              class={props.class}
+              hideAuthorName={props.hideAuthorName}
+              service={info.service}
+            />
+          )}
+        </For>
       }
     >
       {(parent) => (
         <section class={clsx(styles.container, props.class)}>
-          <Comment
-            comment={parent()}
-            hideAuthorName={props.hideAuthorName && props.commentInfo.author === parent().author}
-            hideDate
-            hideTime
-            service={props.commentInfo.service}
-          />
-          <Comment comment={props.commentInfo} class={styles.reply} hideAuthorName={props.hideAuthorName} />
+          <Show
+            when={props.parentInfo}
+            fallback={
+              <CommentView
+                comment={parent()}
+                hideAuthorName={props.hideAuthorName && firstComment()?.author === parent().author}
+                hideDate
+                hideTime
+                service={firstComment()?.service}
+              />
+            }
+          >
+            {(parentInfo) => (
+              <CommentView
+                comment={parentInfo()}
+                hideAuthorName={props.hideAuthorName}
+                service={parentInfo().service}
+              />
+            )}
+          </Show>
+          <For each={props.commentInfos}>
+            {(info) => <CommentView comment={info} class={styles.reply} hideAuthorName={props.hideAuthorName} />}
+          </For>
         </section>
       )}
     </Show>

@@ -13,6 +13,7 @@ import { Divider } from '../Divider/Divider.tsx';
 import { Frame } from '../Frame/Frame.tsx';
 import { PostContentPreview } from '../PostContentPreview/PostContentPreview.tsx';
 import { PostTooltip } from '../PostTooltip/PostTooltip.tsx';
+import { createCommentThreads } from './comment-threads.ts';
 import type { CommentPreviewsProps } from './CommentPreviews.tsx';
 import styles from './CommentPreviews.module.css';
 
@@ -22,6 +23,8 @@ const OVERSCAN = 2;
 
 const Group: Component<{ commentInfos: () => CommentInfo[]; hideAuthorName?: boolean }> = (props) => {
   const commentInfo = () => props.commentInfos()[0];
+
+  const threads = createMemo(() => createCommentThreads(props.commentInfos()));
 
   const url = () => {
     const path = commentInfo()?.path;
@@ -60,8 +63,15 @@ const Group: Component<{ commentInfos: () => CommentInfo[]; hideAuthorName?: boo
         )}
       </Show>
       <section class={styles.comments}>
-        <For each={props.commentInfos()}>
-          {(info) => <CommentPreview commentInfo={info} hideAuthorName={props.hideAuthorName} />}
+        <For each={threads()}>
+          {(thread) => (
+            <CommentPreview
+              commentInfos={thread.commentInfos}
+              parent={thread.parent}
+              parentInfo={thread.parentInfo}
+              hideAuthorName={props.hideAuthorName}
+            />
+          )}
         </For>
       </section>
     </section>
