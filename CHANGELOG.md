@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file.
 
+## [4.2.0](https://github.com/dehero/mwscr/compare/v4.1.0...v4.2.0) (2026-10-05)
+
+### Features
+
+- **comments:** group comment previews into reply threads
+  ([3e85eca](https://github.com/dehero/mwscr/commit/3e85eca31ab0550d624bb9a94f194e79dd7dd164))
+
 ## [4.1.0](https://github.com/dehero/mwscr/compare/v4.0.3...v4.1.0) (2026-10-02)
 
 ### Features
