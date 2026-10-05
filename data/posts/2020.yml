@@ -47,7 +47,7 @@
     - service: tg
       id: 203
       published: 2020-05-13
-      updated: 2026-09-27-15-48-48
+      updated: 2026-10-05-05-20-59
       followers: 117
       likes: 2
       views: 707
@@ -122,7 +122,7 @@
     - service: tg
       id: 204
       published: 2020-05-14
-      updated: 2026-09-27-15-48-48
+      updated: 2026-10-05-05-20-58
       followers: 116
       likes: 2
       views: 703
@@ -199,7 +199,7 @@
     - service: tg
       id: 205
       published: 2020-05-15
-      updated: 2026-09-27-15-48-47
+      updated: 2026-10-05-05-20-57
       followers: 116
       likes: 4
       views: 719
@@ -265,7 +265,7 @@
     - service: tg
       id: 206
       published: 2020-05-16
-      updated: 2026-09-27-15-48-47
+      updated: 2026-10-05-05-20-56
       followers: 118
       likes: 5
       views: 735
@@ -302,7 +302,7 @@
     - service: tg
       id: 207
       published: 2020-05-17
-      updated: 2026-09-27-15-48-47
+      updated: 2026-10-05-05-20-55
       followers: 118
       likes: 4
       views: 716
@@ -333,9 +333,9 @@
       id: DeEtBeYG9cG
       mediaId: '17881096626534633'
       published: 2026-10-04-13-07-01
-      updated: 2026-10-05-00-28-04
+      updated: 2026-10-05-05-20-36
       followers: 2985
-      likes: 152
+      likes: 163
       comments: !c |-
         G6AAIB0HucnyitEPiQv9/zef9GIBpp14UTznrU2BrIUfxxT955u8AvhsiCSqbDo51bt/lwca5x5o
         UJzbGLo8UxxF9KL/vPzZhuFC+KqREhpoKnFsIKNzUzZAQQN4od1NrbCzBiqhrqRAni8UUEJhOJ9T
@@ -376,7 +376,7 @@
     - service: tg
       id: 208
       published: 2020-05-18
-      updated: 2026-09-27-15-48-46
+      updated: 2026-10-05-05-20-55
       followers: 119
       likes: 3
       views: 738
@@ -444,10 +444,10 @@
     - service: tg
       id: 209
       published: 2020-05-19
-      updated: 2026-09-27-15-48-46
+      updated: 2026-10-05-05-20-53
       followers: 120
       likes: 4
-      views: 754
+      views: 755
 2020-05-20-bridges:
   title: Bridges
   titleRu: Мосты
@@ -489,7 +489,7 @@
     - service: tg
       id: 210
       published: 2020-05-20
-      updated: 2026-09-27-15-48-45
+      updated: 2026-10-05-05-20-52
       followers: 122
       likes: 4
       views: 813
@@ -526,7 +526,7 @@
     - service: tg
       id: 211
       published: 2020-05-21
-      updated: 2026-09-27-15-48-45
+      updated: 2026-10-05-05-20-52
       followers: 123
       likes: 3
       views: 822
@@ -597,7 +597,7 @@
     - service: tg
       id: 212
       published: 2020-05-22
-      updated: 2026-09-27-15-48-44
+      updated: 2026-10-05-05-20-51
       followers: 125
       likes: 3
       views: 828
@@ -658,7 +658,7 @@
     - service: tg
       id: 213
       published: 2020-05-23
-      updated: 2026-09-27-15-48-44
+      updated: 2026-10-05-05-20-50
       followers: 126
       likes: 3
       views: 884
@@ -732,7 +732,7 @@
     - service: tg
       id: 214
       published: 2020-05-24
-      updated: 2026-09-27-15-48-43
+      updated: 2026-10-05-05-20-49
       followers: 126
       likes: 3
       views: 1048
@@ -1685,7 +1685,7 @@
       id: CGngmEPhfvt
       mediaId: '17871635108016202'
       published: 2020-10-21-19-29-02
-      updated: 2026-09-27-15-48-07
+      updated: 2026-10-05-05-22-51
       followers: 907
       likes: 118
       comments: !c |-
@@ -1754,7 +1754,7 @@
       id: CGqBPNShwkR
       mediaId: '17959305613361077'
       published: 2020-10-22-18-52-45
-      updated: 2026-09-27-15-48-05
+      updated: 2026-10-05-05-22-50
       followers: 912
       likes: 150
       comments: !c |-
@@ -1793,7 +1793,7 @@
       id: CGsphuvBisM
       mediaId: '17869232597073178'
       published: 2020-10-23-19-23-17
-      updated: 2026-09-27-15-48-04
+      updated: 2026-10-05-05-22-48
       followers: 913
       likes: 178
       comments: !c iw2AkZPLQndVb8C4AACobmFmYW5pbm6nUGVyZmVjdAM=
@@ -1836,7 +1836,7 @@
       id: CGvSoY9hxPK
       mediaId: '17872610548975057'
       published: 2020-10-24-20-00-56
-      updated: 2026-09-27-15-48-03
+      updated: 2026-10-05-05-22-47
       followers: 913
       likes: 137
       comments: !c |-
@@ -1878,7 +1878,7 @@
       id: CGxxkTPhr9k
       mediaId: '17888193934740869'
       published: 2020-10-25-19-09-45
-      updated: 2026-09-27-15-48-02
+      updated: 2026-10-05-05-22-45
       followers: 913
       likes: 112
     - service: vk
@@ -1917,7 +1917,7 @@
       id: CG0f4yrhNWs
       mediaId: '17909351203520114'
       published: 2020-10-26-20-32-59
-      updated: 2026-09-27-15-48-01
+      updated: 2026-10-05-05-22-45
       followers: 913
       likes: 108
     - service: vk
@@ -1982,7 +1982,7 @@
       id: CG29Fr9BgpT
       mediaId: '17872069880020187'
       published: 2020-10-27-19-26-38
-      updated: 2026-09-27-15-48-00
+      updated: 2026-10-05-05-22-44
       followers: 913
       likes: 116
       comments: !c |-
@@ -2053,7 +2053,7 @@
       id: CG5p9UXhfW-
       mediaId: '18171952930042500'
       published: 2020-10-28-20-37-11
-      updated: 2026-09-27-15-47-59
+      updated: 2026-10-05-05-22-43
       followers: 913
       likes: 137
       comments: !c |-
@@ -2137,7 +2137,7 @@
       id: CG8FnQsBOL0
       mediaId: '17846638583400461'
       published: 2020-10-29-19-17-19
-      updated: 2026-09-27-15-47-58
+      updated: 2026-10-05-05-22-43
       followers: 913
       likes: 127
     - service: vk
@@ -2176,7 +2176,7 @@
       id: CG-rsDChCNL
       mediaId: '18167836588050373'
       published: 2020-10-30-19-28-30
-      updated: 2026-09-27-15-47-58
+      updated: 2026-10-05-05-22-43
       followers: 914
       likes: 110
       comments: !c |-
@@ -2214,7 +2214,7 @@
       id: CHBOE_5B1mX
       mediaId: '17887301542759740'
       published: 2020-10-31-19-07-29
-      updated: 2026-09-27-15-47-56
+      updated: 2026-10-05-05-22-41
       followers: 915
       likes: 109
     - service: vk
@@ -2248,7 +2248,7 @@
       id: CHD60FLByRT
       mediaId: '18132909298127259'
       published: 2020-11-01-20-16-52
-      updated: 2026-09-27-15-47-56
+      updated: 2026-10-05-05-22-39
       followers: 915
       likes: 123
     - service: vk
@@ -2320,7 +2320,7 @@
       id: CHGbml3BBmP
       mediaId: '17953276516365161'
       published: 2020-11-02-19-41-52
-      updated: 2026-09-27-15-47-56
+      updated: 2026-10-05-05-22-39
       followers: 916
       likes: 181
       comments: !c |-
@@ -2371,7 +2371,7 @@
       id: CHJCFxeBujs
       mediaId: '17861639003173441'
       published: 2020-11-03-19-56-39
-      updated: 2026-09-27-15-47-54
+      updated: 2026-10-05-05-22-37
       followers: 916
       likes: 122
       comments: !c |-
@@ -2409,7 +2409,7 @@
       id: CHODTMgB4_L
       mediaId: '17893849141673442'
       published: 2020-11-05-18-43-26
-      updated: 2026-09-27-15-47-53
+      updated: 2026-10-05-05-22-36
       followers: 918
       likes: 167
       comments: !c |-
@@ -2480,7 +2480,7 @@
       id: CHTR0tNBCZQ
       mediaId: '17864923973114624'
       published: 2020-11-07-19-26-33
-      updated: 2026-09-27-15-47-52
+      updated: 2026-10-05-05-22-35
       followers: 919
       likes: 119
       comments: !c ixKAkZPLQndaQuGXAACrc2lyLXdhY2xvdmWuanVtcCBqdW1wIGp1bXAD
@@ -2523,7 +2523,7 @@
       id: CHYa0d6hhUT
       mediaId: '18130216789140668'
       published: 2020-11-09-19-21-21
-      updated: 2026-09-27-15-47-50
+      updated: 2026-10-05-05-22-34
       followers: 922
       likes: 210
       comments: !c |-
@@ -2570,7 +2570,7 @@
       id: CHdr_lXBR5J
       mediaId: '17874833840008371'
       published: 2020-11-11-20-27-37
-      updated: 2026-09-27-15-47-49
+      updated: 2026-10-05-05-22-32
       followers: 923
       likes: 177
       comments: !c |-
