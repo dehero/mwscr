@@ -1888,13 +1888,14 @@
       id: Dd356LyoK8E
       mediaId: '18116820317061091'
       published: 2026-09-29-13-49-32
-      updated: 2026-10-04-17-59-59
+      updated: 2026-10-05-22-21-17
       followers: 2678
-      likes: 190
+      likes: 199
       comments: !c |-
-        G7oACIzUTjccqb35v+YHOuDMDXA2wYtI2htog0bxQEeR4NlThZ/mdHKigXFbazseMA3jCEJJIKTc
-        xs4UdLXsBk3pdBuNjr0WeoMDsFEU32kUO1PC0KgPfSqYIfYUJUPDjzL29zipA7DIo0DQldDLXmhi
-        Hpop5agqBqjzsIRUDtuGLvfFvmmMzBKbZiuZkb662IbgOfmp6PDxf8/yyDdg20gX0/g3HwI=
+        G9kACBwJtq2aNcj2gc3BMJq6CdYFuLbCr/aiLtACH5sjSywd3ojDMMAsoLiACzjQo58uv8h7qvDT
+        nM1ONAxIa2tt4QGmYVzir/r6KK8nK5H9RbppiijwMo1bO3o4BubOvBJE7uEOKBjApKk+pj7CxRkg
+        cFvg5CCKSPOaHPYUe5JSEQniHP17J3usFYcmBpGff7RAH0ikYoBAELBhtkguGIfwdDeeGiK2Qgq3
+        cpJ9gkMIX5s/AWZuAcy8iAPCOCSbU/NvDQ==
 2017-02-07-night-patrol:
   title: Night Patrol
   titleRu: Ночной патруль
@@ -7466,9 +7467,9 @@
       id: Dd9StpwmJ5P
       mediaId: '17912189973470947'
       published: 2026-10-01-16-02-26
-      updated: 2026-10-04-17-59-56
+      updated: 2026-10-05-22-21-13
       followers: 2765
-      likes: 207
+      likes: 220
 2017-05-15-in-the-courtyard-of-royal-palace:
   title: In the Courtyard of Royal Palace
   titleRu: Во внутреннем дворе Королевского дворца
@@ -9623,6 +9624,18 @@
       followers: 65
       likes: 5
       views: 186
+    - service: vk
+      id: 3589
+      published: 2026-10-05-22-24-49
+      followers: 1447
+    - service: tg
+      id: 1332
+      published: 2026-10-05-22-24-53
+      followers: 947
+    - service: mx
+      id: '1791239097161'
+      published: 2026-10-05-22-24-57
+      followers: 39
 2017-06-28-misty-ledges:
   title: Misty Ledges
   titleRu: Туманные гряды
@@ -13672,9 +13685,9 @@
       id: DeDWy3amIkp
       mediaId: '18127341088856939'
       published: 2026-10-04-00-33-33
-      updated: 2026-10-05-15-35-35
+      updated: 2026-10-05-22-21-10
       followers: 2953
-      likes: 257
+      likes: 268
       comments: !c CxOAkZPLQnoQyJ+DgACuZm9ycmVzdHBoaWxwb3SsUHV0IGhpbUBkb3duAw==
 2017-09-13-netches-have-fallen-out:
   title: Netches Have Fallen Out
@@ -15346,9 +15359,9 @@
       id: DeAROp4DN8n
       mediaId: '18094627784441514'
       published: 2026-10-02-19-47-09
-      updated: 2026-10-04-17-59-56
+      updated: 2026-10-05-22-21-12
       followers: 2870
-      likes: 135
+      likes: 143
 2017-10-13-cult-of-candles:
   title: Cult of Candles
   titleRu: Культ свечей
@@ -15495,6 +15508,11 @@
       id: '1788134558077'
       published: 2026-08-31-00-02-38
       followers: 29
+    - service: ig
+      id: DeIRodMFmnB
+      mediaId: '18103744529369190'
+      published: 2026-10-05-22-24-38
+      followers: 3107
 2017-10-15-mysterious-island:
   title: Mysterious Island
   titleRu: Таинственный остров
