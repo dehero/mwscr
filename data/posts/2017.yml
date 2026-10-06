@@ -2434,9 +2434,9 @@
       id: Dd4e6YJGI3F
       mediaId: '17982575265085562'
       published: 2026-09-29-19-12-51
-      updated: 2026-10-05-00-28-18
+      updated: 2026-10-06-02-43-14
       followers: 2688
-      likes: 299
+      likes: 321
 2017-02-16-sunrise-over-the-ash-forest:
   title: Sunrise Over the Ash Forest
   titleRu: Рассвет над пепельным лесом
@@ -7266,6 +7266,11 @@
       id: '1788293691167'
       published: 2026-09-01-20-14-51
       followers: 29
+    - service: ig
+      id: DeIvftgFxS2
+      mediaId: '18117869455779232'
+      published: 2026-10-06-02-45-33
+      followers: 3119
 2017-05-11-inside-of-llethri-manor:
   title: Inside of Llethri Manor
   titleRu: В поместье Ллетри
@@ -9627,11 +9632,17 @@
     - service: vk
       id: 3589
       published: 2026-10-05-22-24-49
+      updated: 2026-10-06-02-42-59
       followers: 1447
+      likes: 9
+      views: 75
     - service: tg
       id: 1332
       published: 2026-10-05-22-24-53
+      updated: 2026-10-06-02-42-59
       followers: 947
+      likes: 14
+      views: 61
     - service: mx
       id: '1791239097161'
       published: 2026-10-05-22-24-57
@@ -10427,18 +10438,18 @@
     - service: vk
       id: 3577
       published: 2026-09-29-19-12-58
-      updated: 2026-10-05-00-28-08
+      updated: 2026-10-06-02-43-05
       followers: 1445
-      likes: 61
-      views: 530
+      likes: 62
+      views: 547
       reposts: 2
     - service: tg
       id: 1326
       published: 2026-09-29-19-13-03
-      updated: 2026-10-05-00-28-05
+      updated: 2026-10-06-02-43-02
       followers: 943
       likes: 57
-      views: 296
+      views: 318
       comments: !c |-
         Gy8BKC0S7FguIGlhcMfon/6efaH4PhAJOG3CoPEIkz1k2eYqpS4MZCG9HPocc55Qcxup2II53T9z
         GhhkSwFkvYWoNE1AEj5ZE2w2xR60zwNsF1LkBkcakCcWcGBU4omPuAdcqtOaWOH89Hz99lPr876u
@@ -15512,7 +15523,13 @@
       id: DeIRodMFmnB
       mediaId: '18103744529369190'
       published: 2026-10-05-22-24-38
+      updated: 2026-10-06-02-43-01
       followers: 3107
+      likes: 152
+      comments: !c |-
+        G7gAACwO7Ab3G6RNN/cFJainF2uZxYEEErSCLA400MsFrs+L3v9qonp6oAcMpMBP2FpbbdW3ILjq
+        jZ5lLvDwPzvRwPj9KNGstuZRzoenN3yuQcvjkSkvz0N3PSmMcHr/zn1oRkEN3ONDd1nY2r/H5k9M
+        GKYbi1RzRPvznGM53UdRPizVP8FVJ4n73wgDHKXz2qYCvmsMVznwAg==
 2017-10-15-mysterious-island:
   title: Mysterious Island
   titleRu: Таинственный остров
@@ -18747,9 +18764,9 @@
       id: DeBJtSGoBUW
       mediaId: '18111884129232600'
       published: 2026-10-03-04-00-46
-      updated: 2026-10-05-00-28-15
+      updated: 2026-10-06-02-43-11
       followers: 2899
-      likes: 235
+      likes: 251
       comments: !c |-
         GzgA+GXy1gA3sBFvRP/XK9YlHHDnUVWLSQWQROG6P3JCin4AnmnVCKUkVuNi3s2qrnBShrAlOTX6
         Ag==
