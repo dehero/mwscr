@@ -1296,10 +1296,10 @@ crazycyrodiliccat:
   profiles:
     - service: vk
       id: '90554843'
-      updated: 2026-10-06-09-51-34
+      updated: 2026-10-06-16-33-21
       username: crazycyrodiliccat
       name: Александр Невский
-      avatar: store:/avatars/vk-0db1296b.jpg
+      avatar: store:/avatars/vk-6824a11f.jpg
 crulvy:
   profiles:
     - service: ig
@@ -1543,14 +1543,14 @@ dehero:
       avatar: store:/avatars/gh-c8afe641.jpg
     - service: vk
       id: '3652910'
-      updated: 2026-10-06-09-51-34
+      updated: 2026-10-06-16-34-29
       username: dehero
       name: Антон Курьянов
       avatar: store:/avatars/vk-c533aa72.jpg
     - type: channel
       service: vk
       id: '138249959'
-      updated: 2026-10-06-09-50-44
+      updated: 2026-10-06-16-33-54
       username: mwscr
       name: Morrowind Screenshots
       avatar: store:/avatars/vk-8e97fd4f.jpg
@@ -2234,6 +2234,11 @@ feanor2la:
       username: feanor2la
       name: Иван Урлапов
       avatar: store:/avatars/vk-14fd45f0.jpg
+felicitymick:
+  profiles:
+    - service: ig
+      updated: 2026-10-06-16-32-21
+      username: felicitymick
 feronia-felix:
   profiles:
     - service: tg
@@ -2854,7 +2859,7 @@ ilya-goryachev:
   profiles:
     - service: vk
       id: '448748807'
-      updated: 2026-09-29-11-06-43
+      updated: 2026-10-06-16-33-59
       username: id448748807
       name: Илья Горячев
       avatar: store:/avatars/vk-a5784df5.jpg
@@ -3520,10 +3525,10 @@ kurov-alexander:
   profiles:
     - service: vk
       id: '233557'
-      updated: 2026-09-29-11-06-30
+      updated: 2026-10-06-16-33-47
       username: kurov.alexander
       name: Александр Куров
-      avatar: store:/avatars/vk-c64fc9de.jpg
+      avatar: store:/avatars/vk-0f86d694.jpg
 kvuk0:
   profiles:
     - service: vk
@@ -3536,7 +3541,7 @@ kydinov91:
   profiles:
     - service: vk
       id: '36104583'
-      updated: 2026-10-06-09-50-26
+      updated: 2026-10-06-16-34-29
       username: kydinov91
       name: Илья Кудинов
       avatar: store:/avatars/vk-03d8a48a.jpg
@@ -3894,6 +3899,11 @@ martin-freeeman:
       accessHash: '2151534684860554385'
       username: Martin_Freeeman
       name: Martin Freeman
+martins-naglis00:
+  profiles:
+    - service: ig
+      updated: 2026-10-06-16-32-17
+      username: martins.naglis00
 marylingoth2007:
   profiles:
     - service: vk
@@ -3936,7 +3946,7 @@ max-tsei:
   profiles:
     - service: vk
       id: '353284524'
-      updated: 2026-10-06-09-49-22
+      updated: 2026-10-06-16-33-54
       username: max.tsei
       avatar: store:/avatars/vk-7f160215.jpg
       deleted: true
@@ -3953,7 +3963,7 @@ mbdtsmo:
   profiles:
     - service: tg
       id: '5093097514'
-      updated: 2026-10-06-09-49-07
+      updated: 2026-10-06-16-32-06
       accessHash: '-613358669572386334'
       username: mbdtsmo
       name: M Bdtsmo
@@ -4254,6 +4264,11 @@ mudman-mudgrass-mudleaf-2:
     - service: ig
       updated: 2026-10-02-12-12-00
       username: mudman_mudgrass_mudleaf_2
+mumuee4gf:
+  profiles:
+    - service: ig
+      updated: 2026-10-06-16-32-08
+      username: mumuee4gf
 munson-sargassum:
   profiles:
     - service: ig
@@ -6702,7 +6717,7 @@ user-34:
   profiles:
     - service: vk
       id: '266402374'
-      updated: 2026-09-29-11-05-30
+      updated: 2026-10-06-16-32-35
       username: id266402374
       avatar: store:/avatars/vk-7f160215.jpg
       deleted: true
