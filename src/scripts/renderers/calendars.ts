@@ -5,11 +5,11 @@ import {
   calendarWeekdayDescriptors,
   getCalendarDateHoliday,
   isCalendarDateWeekend,
-} from '../../core/entities/calendar.js';
-import type { ImageResourceUrl } from '../../core/entities/resource.js';
-import { site } from '../../core/services/site.js';
-import { htmlToImage } from '../utils/image-utils.js';
-import { getResourceForHtml } from './utils/resource-utils.js';
+} from '../../core/entities/calendar.ts';
+import type { ImageResourceUrl } from '../../core/entities/resource.ts';
+import { site } from '../../core/services/site.ts';
+import { htmlToImage } from '../utils/image-utils.ts';
+import { getResourceForHtml } from './utils/resource-utils.ts';
 
 let calendarStyle: string | undefined;
 let fontDataUrl: string | undefined;
@@ -135,6 +135,14 @@ export async function renderCalendarMonth({ year, monthIndex, ru, sundayFirst, i
   return { html, image };
 }
 
+const OBJECT_POSITION_REGEX = /^[\w\s.%()+\-*/,]+$/;
+
+function getScreenshotObjectPosition(imageUrl?: string): string {
+  const align = imageUrl ? new URL(imageUrl, 'file://').searchParams.get('align')?.trim() : undefined;
+
+  return align && OBJECT_POSITION_REGEX.test(align) ? `center ${align}` : 'center';
+}
+
 export async function createCalendarMonthHtml({
   title,
   imageUrl = 'file://./assets/avatar.png',
@@ -160,6 +168,7 @@ export async function createCalendarMonthHtml({
   }
 
   const image = await getResourceForHtml(imageUrl);
+  const objectPosition = getScreenshotObjectPosition(imageUrl);
 
   return `
 <html>
@@ -173,7 +182,7 @@ export async function createCalendarMonthHtml({
 <body>
   <div class="month-page">
     <div class="image">
-      <img class="screenshot" src="${image.dataUrl}" />
+      <img class="screenshot" src="${image.dataUrl}" style="object-position: ${objectPosition};" />
       <div class="title">${title}</div>
     </div>
     <div class="calendar">
@@ -246,7 +255,7 @@ export async function createCalendarCoverHtml({ year, ru }: CreateCalendarCoverH
       <p class="info"><span class="prefix">${ru ? 'НЭ' : 'CE'}</span><span class="year">${year}</span></p>
     </div>
     <p class="site">
-      ${site.origin.replace(/^https?:\/\//, '')}
+      ${(ru ? site.originRu : site.originEn).replace(/^https?:\/\//, '')}
     </p>
   </div>
 </body>
