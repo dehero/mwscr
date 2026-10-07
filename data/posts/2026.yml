@@ -762,21 +762,22 @@
     - service: vk
       id: 3584
       published: 2026-10-02-19-47-40
-      updated: 2026-10-05-22-21-06
+      updated: 2026-10-07-01-14-02
       followers: 1445
-      likes: 48
-      views: 492
+      likes: 52
+      views: 542
       reposts: 1
       comments: !c |-
-        G2UA+I3UUQ3b3YioW4ABHkihP2dZiTWJRZrsYeCp23KXbjCmcbvXkqxDEGFXWxFfFHJJ2sJOQX3d
-        bzrn8k9Mz9iPsZC2L+tpTfxYMVC4fmGHkFKgkxoS1iPaal79NFY=
+        G4YAYMT//1MDGMCvGRssx0cLtoallFI3buzxMRbIvA+L9QLWMY50IH+gEQaAm/YYG9NWysLUO927
+        XeDDv36RG0X8IKL4FbmPgxajStreWDG0scAZF9yoiO10rlptKsNYcPNMDSrjSs2bfqiC/9fiznzC
+        TyUCJaqYY/RwoDpuTBAA
     - service: tg
       id: 1329
       published: 2026-10-02-19-47-49
-      updated: 2026-10-05-22-21-04
+      updated: 2026-10-07-01-13-59
       followers: 946
-      likes: 46
-      views: 232
+      likes: 48
+      views: 292
     - service: mx
       id: '1790970473793'
       published: 2026-10-02-19-47-54
