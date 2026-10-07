@@ -631,7 +631,7 @@ artyom-karpov:
   profiles:
     - service: vk
       id: '178018548'
-      updated: 2026-09-29-23-28-20
+      updated: 2026-10-07-08-12-54
       username: id178018548
       name: Артём Карпов
       avatar: store:/avatars/vk-72fe5d60.jpg
@@ -1543,7 +1543,7 @@ dehero:
       avatar: store:/avatars/gh-c8afe641.jpg
     - service: vk
       id: '3652910'
-      updated: 2026-10-07-01-16-04
+      updated: 2026-10-07-08-14-13
       username: dehero
       name: Антон Курьянов
       avatar: store:/avatars/vk-c533aa72.jpg
@@ -2180,7 +2180,7 @@ evil-kit:
   profiles:
     - service: vk
       id: '153155138'
-      updated: 2026-10-07-01-16-04
+      updated: 2026-10-07-08-13-09
       username: evil_kit
       name: Никита Метелкин
       avatar: store:/avatars/vk-adb64972.jpg
@@ -3163,6 +3163,11 @@ jezykkolnierzyk:
     - service: ig
       updated: 2026-10-02-12-11-55
       username: jezykkolnierzyk
+jimeq27:
+  profiles:
+    - service: ig
+      updated: 2026-10-07-08-12-39
+      username: jimeq27
 jiri-aleksiii:
   profiles:
     - service: ig
@@ -3758,7 +3763,7 @@ lycanthropy:
   profiles:
     - service: vk
       id: '5386912'
-      updated: 2026-10-06-21-27-23
+      updated: 2026-10-07-08-14-16
       username: lycanthropy
       name: Филипп Суворов
       avatar: store:/avatars/vk-96cd2c06.jpg
@@ -3847,7 +3852,7 @@ maksim-solovev:
   profiles:
     - service: vk
       id: '658767771'
-      updated: 2026-10-06-02-43-03
+      updated: 2026-10-07-08-12-30
       username: id658767771
       name: Максим Соловьев
       avatar: store:/avatars/vk-bee5815b.jpg
@@ -3968,7 +3973,7 @@ mbdtsmo:
   profiles:
     - service: tg
       id: '5093097514'
-      updated: 2026-10-07-01-13-57
+      updated: 2026-10-07-08-12-27
       accessHash: '-613358669572386334'
       username: mbdtsmo
       name: M Bdtsmo
@@ -5881,7 +5886,7 @@ soulilight:
   profiles:
     - service: vk
       id: '347703822'
-      updated: 2026-10-06-21-28-07
+      updated: 2026-10-07-08-13-35
       username: soulilight
       name: Dima Boev
       avatar: store:/avatars/vk-4a3f332e.jpg
@@ -6743,7 +6748,7 @@ user-36:
   profiles:
     - service: vk
       id: '227500203'
-      updated: 2026-10-07-01-16-13
+      updated: 2026-10-07-08-14-15
       username: id227500203
       avatar: store:/avatars/vk-7f160215.jpg
       deleted: true
@@ -6896,7 +6901,7 @@ vanya-letov:
   profiles:
     - service: tg
       id: '1368355493'
-      updated: 2026-10-06-02-43-02
+      updated: 2026-10-07-08-12-32
       accessHash: '304826905023030342'
       username: VanyaLetov
       name: Ваня Белошапкин
