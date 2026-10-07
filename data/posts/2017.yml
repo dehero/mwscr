@@ -385,7 +385,7 @@
     - service: vk
       id: 57
       published: 2017-01-09
-      updated: 2026-09-30-04-13-17
+      updated: 2026-10-07-16-08-12
       followers: 4
       likes: 4
       views: 97
@@ -417,7 +417,7 @@
     - service: vk
       id: 58
       published: 2017-01-10
-      updated: 2026-09-30-04-13-16
+      updated: 2026-10-07-16-08-11
       followers: 4
       views: 105
 2017-01-11-fort-pelagiad:
@@ -442,7 +442,7 @@
     - service: vk
       id: 59
       published: 2017-01-11
-      updated: 2026-09-30-04-13-15
+      updated: 2026-10-07-16-08-10
       followers: 4
       likes: 2
       views: 108
@@ -468,7 +468,7 @@
     - service: vk
       id: 60
       published: 2017-01-12
-      updated: 2026-09-30-04-13-14
+      updated: 2026-10-07-16-08-09
       followers: 4
       likes: 8
       views: 107
@@ -501,7 +501,7 @@
     - service: vk
       id: 61
       published: 2017-01-13
-      updated: 2026-09-30-04-13-13
+      updated: 2026-10-07-16-08-07
       followers: 4
       likes: 5
       views: 110
@@ -533,7 +533,7 @@
     - service: vk
       id: 62
       published: 2017-01-14
-      updated: 2026-09-29-23-30-02
+      updated: 2026-10-07-16-08-06
       followers: 4
       likes: 6
       views: 131
@@ -592,7 +592,7 @@
     - service: vk
       id: 63
       published: 2017-01-15
-      updated: 2026-09-29-23-30-01
+      updated: 2026-10-07-16-08-04
       followers: 4
       likes: 4
       views: 110
@@ -620,7 +620,7 @@
     - service: vk
       id: 64
       published: 2017-01-16
-      updated: 2026-09-29-23-30-00
+      updated: 2026-10-07-16-08-02
       followers: 4
       likes: 3
       views: 116
@@ -650,7 +650,7 @@
     - service: vk
       id: 65
       published: 2017-01-17
-      updated: 2026-09-29-23-29-58
+      updated: 2026-10-07-16-08-01
       followers: 4
       likes: 3
       views: 122
@@ -678,7 +678,7 @@
     - service: vk
       id: 66
       published: 2017-01-18
-      updated: 2026-09-29-23-29-57
+      updated: 2026-10-07-16-07-59
       followers: 4
       likes: 4
       views: 137
@@ -2142,9 +2142,9 @@
       id: Dd-Sb69mNow
       mediaId: '17970020034158917'
       published: 2026-10-02-01-19-15
-      updated: 2026-10-06-09-49-21
+      updated: 2026-10-07-16-08-05
       followers: 2799
-      likes: 329
+      likes: 372
 2017-02-11-first-tower-of-bthuand:
   title: First Tower of Bthuand
   titleRu: Первая башня Бтуанда
@@ -5422,9 +5422,9 @@
       id: Dd7sKUxmMlT
       mediaId: '18030394052906388'
       published: 2026-10-01-01-06-20
-      updated: 2026-10-06-09-49-23
+      updated: 2026-10-07-16-08-07
       followers: 2732
-      likes: 179
+      likes: 190
       comments: !c |-
         G2oAgIzURjW5lEWDN0c4GsH3gY7e71CADzwKJMIEyodlfGjGiQbGfTbr5hPUgZssBcBRNLm/nld4
         tf/HBm5VuhvLhzBGzy/w//vqxiZUHQgkEUqK5xkgpq1vE94yjuXOoD4=
@@ -6749,9 +6749,9 @@
       id: DeCSo6Vl3HJ
       mediaId: '18096394652538473'
       published: 2026-10-03-14-37-59
-      updated: 2026-10-06-09-49-19
+      updated: 2026-10-07-16-08-02
       followers: 2918
-      likes: 211
+      likes: 240
       comments: !c |-
         G8EAIJ0HmduVZkHhtjpPtF/lQtAfNz/CtZ9Almg3xqBA1rKwizig+IN8N7gABwxoWGzBbFmyesqK
         zU2f0ORk08kB+/ddgvwZBOJlGAXOsZRl8rIi38zLKzdFGxDk1i1NdvK/zg5dr2FeR3GT2D6gB8va
@@ -7270,9 +7270,9 @@
       id: DeIvftgFxS2
       mediaId: '18117869455779232'
       published: 2026-10-06-02-45-33
-      updated: 2026-10-07-08-12-29
+      updated: 2026-10-07-16-07-57
       followers: 3119
-      likes: 116
+      likes: 127
 2017-05-11-inside-of-llethri-manor:
   title: Inside of Llethri Manor
   titleRu: В поместье Ллетри
@@ -9634,18 +9634,18 @@
     - service: vk
       id: 3589
       published: 2026-10-05-22-24-49
-      updated: 2026-10-07-08-12-26
+      updated: 2026-10-07-16-07-56
       followers: 1447
-      likes: 39
-      views: 350
+      likes: 41
+      views: 382
       reposts: 1
     - service: tg
       id: 1332
       published: 2026-10-05-22-24-53
-      updated: 2026-10-07-08-12-27
+      updated: 2026-10-07-16-07-53
       followers: 947
       likes: 47
-      views: 197
+      views: 207
       comments: !c CxGAkZPLQnoQ94QnAACnbWJkdHNtb69UcmFpdG9yZXNzIPCfmKAD
     - service: mx
       id: '1791239097161'
@@ -10411,9 +10411,9 @@
       id: DeLKF0YFeqi
       mediaId: '18100172270553032'
       published: 2026-10-07-01-16-29
-      updated: 2026-10-07-08-12-25
+      updated: 2026-10-07-16-07-54
       followers: 3200
-      likes: 99
+      likes: 135
       comments: !c |-
         CyOAkZPLQnoRT4elgACnY2xlc2VwaNkyaXQncyBzbyBiZWF1dGlmdWwKdGhhbmsgeW91IG5vdCBw
         dXR0aW5nIGluIG1vZHMgPDMD
@@ -15328,9 +15328,9 @@
       id: Dd48X_9F01B
       mediaId: '18012775376957603'
       published: 2026-09-29-23-30-17
-      updated: 2026-10-06-09-49-23
+      updated: 2026-10-07-16-08-08
       followers: 2696
-      likes: 272
+      likes: 278
 2017-10-12-gnaar-mok:
   title: Gnaar Mok
   titleRu: Гнаар Мок
@@ -15537,9 +15537,9 @@
       id: DeIRodMFmnB
       mediaId: '18103744529369190'
       published: 2026-10-05-22-24-38
-      updated: 2026-10-07-08-12-31
+      updated: 2026-10-07-16-07-59
       followers: 3107
-      likes: 341
+      likes: 372
       comments: !c |-
         G7gAACwO7Ab3G6RNN/cFJainF2uZxYEEErSCLA400MsFrs+L3v9qonp6oAcMpMBP2FpbbdW3ILjq
         jZ5lLvDwPzvRwPj9KNGstuZRzoenN3yuQcvjkSkvz0N3PSmMcHr/zn1oRkEN3ONDd1nY2r/H5k9M
@@ -19067,18 +19067,21 @@
     - service: vk
       id: 3591
       published: 2026-10-06-21-30-17
-      updated: 2026-10-07-08-12-24
+      updated: 2026-10-07-16-07-55
       followers: 1449
-      likes: 29
-      views: 326
+      likes: 38
+      views: 431
       reposts: 4
+      comments: !c |-
+        Cx2AkZPLQnoRXjIKgACpbWF4LW5hZmln2STQvdCwINGB0LDQvdC60LDRhSDQstC90LjQtyDRg9C4
+        0LjQuCED
     - service: tg
       id: 1333
       published: 2026-10-06-21-30-22
-      updated: 2026-10-07-08-12-25
+      updated: 2026-10-07-16-07-52
       followers: 948
-      likes: 35
-      views: 115
+      likes: 37
+      views: 137
     - service: mx
       id: '1791322225921'
       published: 2026-10-06-21-30-26

@@ -655,7 +655,7 @@ arya-stark:
   profiles:
     - service: vk
       id: '820702664'
-      updated: 2026-10-07-01-14-02
+      updated: 2026-10-07-16-08-18
       username: id820702664
       name: Арья Старк
       avatar: store:/avatars/vk-689aa89d.jpg
@@ -1543,7 +1543,7 @@ dehero:
       avatar: store:/avatars/gh-c8afe641.jpg
     - service: vk
       id: '3652910'
-      updated: 2026-10-07-08-14-13
+      updated: 2026-10-07-16-07-59
       username: dehero
       name: Антон Курьянов
       avatar: store:/avatars/vk-c533aa72.jpg
@@ -2047,6 +2047,11 @@ ellrazor127:
     - service: ig
       updated: 2026-10-02-12-11-50
       username: ellrazor127
+emmaaprice:
+  profiles:
+    - service: ig
+      updated: 2026-10-07-16-07-53
+      username: emmaaprice
 enclave-digimon-tamer:
   profiles:
     - service: ig
@@ -2180,7 +2185,7 @@ evil-kit:
   profiles:
     - service: vk
       id: '153155138'
-      updated: 2026-10-07-08-13-09
+      updated: 2026-10-07-16-07-59
       username: evil_kit
       name: Никита Метелкин
       avatar: store:/avatars/vk-adb64972.jpg
@@ -3572,6 +3577,11 @@ l3nku:
       username: l3nku
       name: leonard
       avatar: store:/avatars/ig-6161e5d8.jpg
+la-seta-errante:
+  profiles:
+    - service: ig
+      updated: 2026-10-07-16-07-53
+      username: la_seta_errante
 landscape-cartridge:
   profiles:
     - service: ig
@@ -3948,7 +3958,7 @@ max-nafig:
   profiles:
     - service: vk
       id: '55201916'
-      updated: 2026-10-05-15-38-47
+      updated: 2026-10-07-16-07-55
       username: max_nafig
       name: Макс Нафиг
       avatar: store:/avatars/vk-e99f7f69.jpg
@@ -3973,7 +3983,7 @@ mbdtsmo:
   profiles:
     - service: tg
       id: '5093097514'
-      updated: 2026-10-07-08-12-27
+      updated: 2026-10-07-16-07-53
       accessHash: '-613358669572386334'
       username: mbdtsmo
       name: M Bdtsmo
@@ -5555,7 +5565,7 @@ sergey-b-2:
   profiles:
     - service: vk
       id: '1077446394'
-      updated: 2026-10-07-01-14-03
+      updated: 2026-10-07-16-08-18
       username: id1077446394
       name: Сергей Б
       avatar: store:/avatars/vk-f5b20109.jpg
@@ -5933,7 +5943,7 @@ spearow-crow:
   profiles:
     - service: tg
       id: '927392851'
-      updated: 2026-09-09-14-53-55
+      updated: 2026-10-07-16-08-24
       accessHash: '-2683889022174722918'
       username: SpearowCrow
       botChatId: 927392851
