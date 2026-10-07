@@ -3958,7 +3958,7 @@ max-nafig:
   profiles:
     - service: vk
       id: '55201916'
-      updated: 2026-10-07-16-07-55
+      updated: 2026-10-07-21-47-35
       username: max_nafig
       name: Макс Нафиг
       avatar: store:/avatars/vk-e99f7f69.jpg
@@ -3983,7 +3983,7 @@ mbdtsmo:
   profiles:
     - service: tg
       id: '5093097514'
-      updated: 2026-10-07-16-07-53
+      updated: 2026-10-07-21-47-34
       accessHash: '-613358669572386334'
       username: mbdtsmo
       name: M Bdtsmo
@@ -4479,6 +4479,11 @@ nickplush:
     - service: ig
       updated: 2026-10-04-06-38-19
       username: nickplush
+nicotheterrible:
+  profiles:
+    - service: ig
+      updated: 2026-10-07-21-47-45
+      username: nicotheterrible
 nihil-sum:
   profiles:
     - service: tg
