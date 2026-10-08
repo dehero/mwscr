@@ -6,7 +6,9 @@ anonimous.2026-10-08-10-09-06:
     - Ashlands Region
     - Bthungthumz
     - Shishi
-  content: store:/shots/2017-05-04-neighboring-towers.png
+  content:
+    - uploads:/image-1bfb9e46.webp
+    - store:/shots/2017-05-04-neighboring-towers.png
   type: redrawing
   aspect: 1/1
   author: rachille
