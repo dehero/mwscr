@@ -1,8 +1,8 @@
 import type { DateRange } from './common-types.ts';
 
 const DATE_REVIVE_REGEX = /^\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}\.\d{3}Z$/;
-const DATE_EXTRACT_REGEX_YYYYMMDD = /^(.*)(2\d{3})[^\d]?([0-1]\d)[^\d]?([0-3]\d)(.*)$/;
-const DATE_EXTRACT_REGEX_DDMMYYYY = /^(.*)([0-3]\d)[^\d]?([0-1]\d)[^\d]?(2\d{3})(.*)$/;
+const DATE_EXTRACT_REGEX_YYYYMMDD = /^(.*)(2\d{3})[^\d]?(0[1-9]|1[0-2])[^\d]?(0[1-9]|[12]\d|3[01])(.*)$/;
+const DATE_EXTRACT_REGEX_DDMMYYYY = /^(.*)(0[1-9]|[12]\d|3[01])[^\d]?(0[1-9]|1[0-2])[^\d]?(2\d{3})(.*)$/;
 
 export function dateToString(date: Date, includeTime?: boolean) {
   const str = date
@@ -39,7 +39,13 @@ export function extractDateFromString(value: string): [date: Date | undefined, r
     }
   }
 
-  return [new Date(`${year}-${month}-${day}T00:00:00Z`), `${before ?? ''}${after ?? ''}`];
+  const date = new Date(`${year}-${month}-${day}T00:00:00Z`);
+
+  if (!isValidDate(date)) {
+    return [undefined, value];
+  }
+
+  return [date, `${before ?? ''}${after ?? ''}`];
 }
 
 export function getDaysPassed(fromDate: Date) {

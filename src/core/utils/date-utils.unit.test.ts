@@ -37,6 +37,29 @@ test('extractDateFromString', async (t) => {
     assert.strictEqual(date, undefined);
     assert.strictEqual(rest, input);
   });
+
+  await t.test('should return undefined and the original string for a date with an out-of-range month', () => {
+    const input = ' first 2023-19-14 and other words';
+    const [date, rest] = extractDateFromString(input);
+
+    assert.strictEqual(date, undefined);
+    assert.strictEqual(rest, input);
+  });
+
+  await t.test('should return undefined and the original string for a date with an out-of-range day', () => {
+    const input = ' first 2023-02-39 and other words';
+    const [date, rest] = extractDateFromString(input);
+
+    assert.strictEqual(date, undefined);
+    assert.strictEqual(rest, input);
+  });
+
+  await t.test('should not return an invalid Date for a title containing an invalid date', () => {
+    const input = 'Sunset over Balmora 2024 13 01';
+    const [date] = extractDateFromString(input);
+
+    assert.strictEqual(date, undefined);
+  });
 });
 
 test('stringToDate', async (t) => {
