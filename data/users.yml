@@ -3958,10 +3958,10 @@ max-nafig:
   profiles:
     - service: vk
       id: '55201916'
-      updated: 2026-10-08-08-28-16
+      updated: 2026-10-08-11-01-49
       username: max_nafig
       name: Макс Нафиг
-      avatar: store:/avatars/vk-e99f7f69.jpg
+      avatar: store:/avatars/vk-7e0444b7.jpg
 max-tsei:
   profiles:
     - service: vk
