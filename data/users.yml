@@ -655,7 +655,7 @@ arya-stark:
   profiles:
     - service: vk
       id: '820702664'
-      updated: 2026-10-07-16-08-18
+      updated: 2026-10-08-01-35-16
       username: id820702664
       name: Арья Старк
       avatar: store:/avatars/vk-689aa89d.jpg
@@ -3335,7 +3335,7 @@ karatedance:
   profiles:
     - service: tg
       id: '1037255094'
-      updated: 2026-10-05-05-20-34
+      updated: 2026-10-08-01-35-14
       accessHash: '-5098047197051495291'
       username: karatedance
       name: танцы карате
@@ -3958,10 +3958,10 @@ max-nafig:
   profiles:
     - service: vk
       id: '55201916'
-      updated: 2026-10-07-21-47-35
+      updated: 2026-10-08-01-35-15
       username: max_nafig
       name: Макс Нафиг
-      avatar: store:/avatars/vk-e99f7f69.jpg
+      avatar: store:/avatars/vk-7e0444b7.jpg
 max-tsei:
   profiles:
     - service: vk
@@ -5570,7 +5570,7 @@ sergey-b-2:
   profiles:
     - service: vk
       id: '1077446394'
-      updated: 2026-10-07-16-08-18
+      updated: 2026-10-08-01-35-18
       username: id1077446394
       name: Сергей Б
       avatar: store:/avatars/vk-f5b20109.jpg

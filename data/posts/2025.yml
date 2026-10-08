@@ -1850,11 +1850,18 @@
     - service: vk
       id: 3593
       published: 2026-10-07-21-48-04
+      updated: 2026-10-08-01-35-12
       followers: 1451
+      likes: 8
+      views: 93
+      reposts: 1
     - service: tg
       id: 1334
       published: 2026-10-07-21-48-09
+      updated: 2026-10-08-01-35-11
       followers: 947
+      likes: 14
+      views: 55
     - service: mx
       id: '1791409692709'
       published: 2026-10-07-21-48-12
@@ -2129,9 +2136,9 @@
       id: DeKwMrGl7ch
       mediaId: '18089672192682772'
       published: 2026-10-06-21-30-11
-      updated: 2026-10-07-21-47-37
+      updated: 2026-10-08-01-35-14
       followers: 3187
-      likes: 166
+      likes: 169
 2025-05-29-1-centurion-spider: 2017-10-26-centurion-spider
 2025-05-30-1-forts-of-imperial-legion: 2018-06-17-forts-of-imperial-legion
 2025-05-31-1-dren-plantation: 2018-09-17-dren-plantation
