@@ -243,3 +243,37 @@
       followers: 939
       likes: 30
       views: 383
+2026-10-08-1-neighboring-towers:
+  title: Neighboring Towers
+  titleRu: Башни-соседи
+  placement: Outdoors
+  location:
+    - Ashlands Region
+    - Bthungthumz
+    - Shishi
+  content:
+    - store:/drawings/2026-10-08-1-neighboring-towers.webp
+    - store:/shots/2017-05-04-neighboring-towers.png
+  type: redrawing
+  aspect: 1/1
+  author: rachille
+  created: 2026-09-06
+  tags:
+    - tower
+  mark: B1
+  posts:
+    - service: ig
+      id: DeO2RPsmOxT
+      mediaId: '18095689727402358'
+      published: 2026-10-08-11-40-14
+      followers: 3300
+    - service: vk
+      id: 3594
+      published: 2026-10-08-11-40-49
+      followers: 1451
+    - service: tg
+      id:
+        - 1335
+        - 1336
+      published: 2026-10-08-11-40-57
+      followers: 947
