@@ -9,6 +9,13 @@ export const LosslessImageResourceExtension = picklist(['.png', '.bmp']);
 export const ImageResourceExtension = picklist(['.png', '.webp', '.jpg', '.jpeg', '.gif', '.bmp']);
 export const VideoResourceExtension = picklist(['.avi', '.mp4']);
 
+export const LosslessImageMimeTypes: string[] = ['image/png', 'image/bmp'];
+export const LossyImageMimeTypes: string[] = ['image/jpeg', 'image/webp', 'image/gif'];
+
+export function isLossyImageMimeType(mimeType: string | null | undefined): boolean {
+  return typeof mimeType === 'string' && LossyImageMimeTypes.includes(mimeType);
+}
+
 export const RESOURCE_MISSING_IMAGE = 'store:/MISSING_IMAGE.png';
 export const RESOURCE_MISSING_VIDEO = 'store:/MISSING_VIDEO.mp4';
 

@@ -1,7 +1,7 @@
 import assert from 'node:assert';
 import { test } from 'node:test';
 import { is } from 'valibot';
-import { ImageResourceUrl, parseResourceUrl, VideoResourceUrl } from './resource.ts';
+import { ImageResourceUrl, isLossyImageMimeType, parseResourceUrl, VideoResourceUrl } from './resource.ts';
 
 test('ImageResourceUrl', async (t) => {
   await t.test('should be valid if ends with image extension', () => {
@@ -20,6 +20,29 @@ test('VideoResourceUrl', async (t) => {
 
   await t.test('should fail if not ends with video extension', () => {
     assert.ok(!is(VideoResourceUrl, 'https://example.com/video.txt'));
+  });
+});
+
+test('isLossyImageMimeType', async (t) => {
+  await t.test('should return true for lossy image mime types', () => {
+    assert.ok(isLossyImageMimeType('image/jpeg'));
+    assert.ok(isLossyImageMimeType('image/webp'));
+    assert.ok(isLossyImageMimeType('image/gif'));
+  });
+
+  await t.test('should return false for lossless image mime types', () => {
+    assert.ok(!isLossyImageMimeType('image/png'));
+    assert.ok(!isLossyImageMimeType('image/bmp'));
+  });
+
+  await t.test('should return false for non-image mime types', () => {
+    assert.ok(!isLossyImageMimeType('video/mp4'));
+    assert.ok(!isLossyImageMimeType('application/zip'));
+  });
+
+  await t.test('should return false for missing mime type', () => {
+    assert.ok(!isLossyImageMimeType(null));
+    assert.ok(!isLossyImageMimeType(undefined));
   });
 });
 

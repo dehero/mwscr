@@ -7,7 +7,12 @@ import { postTitleFromString } from '../../core/entities/post-title.ts';
 import type { Draft, DraftProposal, PublishablePost, Reject } from '../../core/entities/posts-manager.ts';
 import { createDraftId } from '../../core/entities/posts-manager.ts';
 import type { Resource, ResourceType } from '../../core/entities/resource.ts';
-import { ImageResourceUrl, parseResourceUrl, RESOURCE_MISSING_IMAGE } from '../../core/entities/resource.ts';
+import {
+  ImageResourceUrl,
+  isLossyImageMimeType,
+  parseResourceUrl,
+  RESOURCE_MISSING_IMAGE,
+} from '../../core/entities/resource.ts';
 import { checkRules } from '../../core/entities/rule.ts';
 import { assertSchema } from '../../core/entities/schema.ts';
 import {
@@ -62,7 +67,6 @@ export async function importResourceToStore(
   }
 
   const author = template?.author || USER_UNKNOWN;
-  const type = template?.type || 'shot';
 
   const { name, ext: filenameExt } = posix.parse(filename);
   const mimeExt = mimeType ? mime.getExtension(mimeType) : undefined;
@@ -151,11 +155,12 @@ export async function importResourceToStore(
     }
   }
 
+  const type = template?.type ?? (isLossyImageMimeType(mimeType) ? 'outtakes' : 'shot');
+
   const draft: DraftProposal = {
     ...template,
     content,
     author,
-    // TODO: detect possible post type from content
     type,
     title,
     violation,

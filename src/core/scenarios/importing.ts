@@ -1,4 +1,5 @@
 import type { ResourceType } from '../entities/resource.ts';
+import { LosslessImageMimeTypes, LossyImageMimeTypes } from '../entities/resource.ts';
 import type { MediaRule } from '../rules/media-rules.ts';
 import { needMinHeight, needMinWidth } from '../rules/media-rules.ts';
 import type { ResourceRule } from '../rules/resource-rules.ts';
@@ -9,7 +10,12 @@ export type ImportingScenario = [resourceType: ResourceType, resourceRoules: Res
 export const importingScenarios: Array<ImportingScenario> = [
   [
     'image',
-    [needCertainMimeType(['image/png']), needMinSize(1), needMaxSize(10 * 1024 * 1024)],
+    [needCertainMimeType(LosslessImageMimeTypes), needMinSize(1), needMaxSize(10 * 1024 * 1024)],
+    [needMinWidth(800), needMinHeight(800)],
+  ],
+  [
+    'image',
+    [needCertainMimeType(LossyImageMimeTypes), needMinSize(1), needMaxSize(5 * 1024 * 1024)],
     [needMinWidth(800), needMinHeight(800)],
   ],
   [
