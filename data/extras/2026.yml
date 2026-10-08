@@ -266,27 +266,27 @@
       id: DeO2RPsmOxT
       mediaId: '18095689727402358'
       published: 2026-10-08-11-40-14
-      updated: 2026-10-08-16-09-47
+      updated: 2026-10-08-21-51-13
       followers: 3300
-      likes: 173
+      likes: 214
       comments: !c |-
-        G34ACB0JNq5wEw1f5fPdPMJ/1IvyMTWwbIwt2Im1MCvxcrnVLCPSAN3gwCkJAwySVCZe9z3G3rQN
-        uQ7TujHm6r3JDVqFfRyo0C90oMeYG8DpYCVt5raJH3CbNEmZwfdNGXP12OFkD4rCcbj4VQlk1HTq
-        Gp83axB5
+        G6YAYI3UXvnARqHBmxEuCvNzNbBsW/9T4Il9ywrkaxmRkq4nK/WhdTMbjS6ooljEbgNuspQZTpI7
+        wUvfn0rrY+6IObcNPTWq/CJfkY34kgD7bOpi0ZGZ20Zo/tPA6FE6yAAwA6qTeih1dIPqU9MJvV7I
+        yFHYNHMMRhBAuIAe+ILvrQ3jGPyDKxEwAQ==
     - service: vk
       id: 3594
       published: 2026-10-08-11-40-49
-      updated: 2026-10-08-16-09-47
+      updated: 2026-10-08-21-51-13
       followers: 1451
-      likes: 16
-      views: 182
+      likes: 22
+      views: 244
       reposts: 1
     - service: tg
       id:
         - 1335
         - 1336
       published: 2026-10-08-11-40-57
-      updated: 2026-10-08-16-09-47
+      updated: 2026-10-08-21-51-13
       followers: 947
-      likes: 33
-      views: 163
+      likes: 38
+      views: 196
