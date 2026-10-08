@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file.
 
+## [4.2.1](https://github.com/dehero/mwscr/compare/v4.2.0...v4.2.1) (2026-10-08)
+
+### Bug Fixes
+
+- reject out-of-range dates in extractDateFromString
+  ([cb684bc](https://github.com/dehero/mwscr/commit/cb684bc09f1c6618ef3c6d58ed0662340ed819c9))
+
 ## [4.2.0](https://github.com/dehero/mwscr/compare/v4.1.0...v4.2.0) (2026-10-05)
 
 ### Features
