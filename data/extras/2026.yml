@@ -266,14 +266,27 @@
       id: DeO2RPsmOxT
       mediaId: '18095689727402358'
       published: 2026-10-08-11-40-14
+      updated: 2026-10-08-16-09-47
       followers: 3300
+      likes: 173
+      comments: !c |-
+        G34ACB0JNq5wEw1f5fPdPMJ/1IvyMTWwbIwt2Im1MCvxcrnVLCPSAN3gwCkJAwySVCZe9z3G3rQN
+        uQ7TujHm6r3JDVqFfRyo0C90oMeYG8DpYCVt5raJH3CbNEmZwfdNGXP12OFkD4rCcbj4VQlk1HTq
+        Gp83axB5
     - service: vk
       id: 3594
       published: 2026-10-08-11-40-49
+      updated: 2026-10-08-16-09-47
       followers: 1451
+      likes: 16
+      views: 182
+      reposts: 1
     - service: tg
       id:
         - 1335
         - 1336
       published: 2026-10-08-11-40-57
+      updated: 2026-10-08-16-09-47
       followers: 947
+      likes: 33
+      views: 163
