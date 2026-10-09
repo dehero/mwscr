@@ -6,7 +6,7 @@ plot revolves around the Tribunal, a triumvirate of god-like beings ruling over 
 former ally, the demigod Dagoth Ur and his Sixth House – a cult of followers stretching out from the volcanic Red
 Mountain.
 
-[Site](https://elderscrolls.bethesda.net/en/morrowind)
+[Site of the Game](https://elderscrolls.bethesda.net/en/morrowind)
 
 ---
 
@@ -17,4 +17,4 @@ Mountain.
 связан с Трибуналом, триумвиратом богоподобных правителей Морровинда, и их борьбой с бывшим союзником, полубогом Дагот
 Уром и его Шестым Домом - культом последователей, распространившимся от вулканической Красной горы.
 
-[Сайт](https://elderscrolls.bethesda.net/en/morrowind)
+[Сайт игры](https://elderscrolls.bethesda.net/en/morrowind)

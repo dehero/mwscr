@@ -84,7 +84,7 @@ The [`assets`](assets) folder contains:
 
 - [`assets/previews`](assets/previews) - previews of all images and videos that have ever hit the storage in `AVIF`
   format;
-- [`assets/plugins`](assets/plugins) - set of [auxiliary plugins](CONTRIBUTING.md#auxiliary-plugins) for shooting;
+- [`assets/plugins`](assets/plugins) - set of [auxiliary plugins](CONTRIBUTING.md#allowed-mods) for shooting;
 - additional images.
 
 ### Scripts

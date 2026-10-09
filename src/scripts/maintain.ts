@@ -1,4 +1,5 @@
 import 'dotenv/config';
+import { createContributing } from './functions/create-contributing.ts';
 import { createGithubIssueTemplates } from './functions/create-github-issue-templates.ts';
 import { createNewPost } from './functions/create-new-post.ts';
 import { exchangeDraftsAndRejects } from './functions/exchange-drafts-and-rejects.ts';
@@ -14,6 +15,8 @@ import { updatePublications } from './functions/update-publications.ts';
 import { updateUsers } from './functions/update-users.ts';
 
 await createGithubIssueTemplates();
+
+await createContributing();
 
 // TODO: fix parsing captions (causing wrong tags in posts)
 // await grabManualPosts();

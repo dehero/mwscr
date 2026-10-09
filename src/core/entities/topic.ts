@@ -11,6 +11,9 @@ export interface Topic {
 export type TopicEntry = [string, Topic | undefined, ...unknown[]];
 
 const TOPIC_ID_REGEX = /([^\/\\]+).md$/;
+const TOPIC_MARKDOWN_LINK_REGEX = /\]\(\.\/([^)]+\.md)\)/g;
+const TOPIC_MARKDOWN_CODE_FENCE_REGEX = /^[^\S\r\n]*```[^\n]*\n[\s\S]*?^[^\S\r\n]*```[^\S\r\n]*$/gm;
+const MARKDOWN_TITLE_LINE_REGEX = /^#\s+(.*)$/m;
 
 export const TOPIC_INDEX_ID = '';
 export const TOPIC_INDEX_BASENAME = 'index';
@@ -51,4 +54,58 @@ export function createTopicEntryFromMarkdown(code: string, filename: string): To
   const { html: htmlRu, title: titleRu } = markdownToHtml(markdownRu ?? '', linkReplacer);
 
   return [id, { title, titleRu, html, htmlRu, relatedTopicIds: [...new Set(relatedTopicIds)] }];
+}
+
+/**
+ * Raw source of a topic, kept in Markdown form. Unlike {@link Topic}, which
+ * contains only rendered HTML, this is used to assemble combined Markdown
+ * documents (for example, the contributing guidelines).
+ */
+export interface TopicSource {
+  title?: string;
+  titleRu?: string;
+  markdown: string;
+  markdownRu?: string;
+  relatedTopicIds: string[];
+}
+
+export type TopicSourceEntry = [string, TopicSource];
+
+/**
+ * Returns IDs of the topics referenced from the given Markdown. Links inside
+ * code blocks are ignored to match {@link createTopicEntryFromMarkdown}.
+ */
+export function extractRelatedTopicIds(markdown: string): string[] {
+  const source = markdown.replace(TOPIC_MARKDOWN_CODE_FENCE_REGEX, '');
+  const ids: string[] = [];
+
+  for (const match of source.matchAll(TOPIC_MARKDOWN_LINK_REGEX)) {
+    const id = getTopicIdFromFilename(match[1] ?? '');
+
+    if (id) {
+      ids.push(id);
+    }
+  }
+
+  return ids;
+}
+
+export function createTopicSourceFromMarkdown(code: string, filename: string): TopicSourceEntry {
+  const id = getTopicIdFromFilename(filename);
+  const [markdown = '', markdownRu] = code.split(/^---$/m, 2).map((part) => part.trim());
+
+  return [
+    id,
+    {
+      title: extractMarkdownTitle(markdown),
+      titleRu: markdownRu ? extractMarkdownTitle(markdownRu) : undefined,
+      markdown,
+      markdownRu,
+      relatedTopicIds: [...new Set([...extractRelatedTopicIds(markdown), ...extractRelatedTopicIds(markdownRu ?? '')])],
+    },
+  ];
+}
+
+function extractMarkdownTitle(markdown: string) {
+  return MARKDOWN_TITLE_LINE_REGEX.exec(markdown)?.[1]?.trim();
 }

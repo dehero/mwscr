@@ -1,6 +1,7 @@
 import type { IntlText } from '../entities/intl.ts';
 
 export const postViolationTexts = {
+  possibleViolation: ['Possible Violation', 'Возможное нарушение'],
   inappropriateContent: ['Inappropriate content', 'Неподходящий контент'],
   jpegArtifacts: ['JPEG artifacts', 'Артефакты JPEG'],
   graphicIssues: ['Graphic issues', 'Графические проблемы'],

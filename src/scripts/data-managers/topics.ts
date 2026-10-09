@@ -1,5 +1,9 @@
 import { readdir, readFile } from 'fs/promises';
-import { createTopicEntryFromMarkdown } from '../../core/entities/topic.ts';
+import {
+  createTopicEntryFromMarkdown,
+  createTopicSourceFromMarkdown,
+  type TopicSourceEntry,
+} from '../../core/entities/topic.ts';
 import { TopicsReader } from '../../core/entities/topics-reader.ts';
 
 export const TOPICS_DIR = 'data/topics';
@@ -22,3 +26,15 @@ class LocalTopicsReader extends TopicsReader {
 }
 
 export const topics = new LocalTopicsReader();
+
+export async function readTopicSources(): Promise<TopicSourceEntry[]> {
+  const files = (await readdir(TOPICS_DIR)).filter((file) => file.endsWith('.md')).sort();
+
+  return Promise.all(
+    files.map(async (filename) => {
+      const code = await readFile(`${TOPICS_DIR}/${filename}`, 'utf-8');
+
+      return createTopicSourceFromMarkdown(code, filename);
+    }),
+  );
+}

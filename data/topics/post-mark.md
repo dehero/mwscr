@@ -12,7 +12,7 @@ The editor's mark helps to filter [Drafts](./drafts.md) and monitor the overall 
 | D      | Too ordinary or doubling posts, which should be deleted to [Rejects](./trash.md)               |
 | F      | Failed post attempts, candidates for reshooting or revisiting, stored in [Rejects](./trash.md) |
 
-The mark is selected by the following indicators:
+The mark is selected by the editor by the following indicators:
 
 | Indicator   | A1  | A2  | B1  | B2  |  C  |  D  |  E  |  F  | Evaluated                               |
 | ----------- | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | --------------------------------------- |
@@ -46,7 +46,7 @@ evaluates published posts by subscribers reactions.
 | D      | Слишком обычные или дублирующие посты, переносятся в [Отклонённые](./trash.md)                                      |
 | F      | Неудачные варианты постов, кандидаты на пересъёмку или повторное рассмотрение, хранятся в [Отклонённых](./trash.md) |
 
-Метка выбирается по следующим показателям:
+Метка выбирается редактором по следующим показателям:
 
 | Показатель       | A1  | A2  | B1  | B2  |  C  |  D  |  E  |  F  | Оценивается                              |
 | ---------------- | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | ---------------------------------------- |

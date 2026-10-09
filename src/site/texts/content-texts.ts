@@ -1,4 +1,5 @@
 import type { IntlText } from '../../core/entities/intl.ts';
+import { texts as coreTexts } from '../../core/texts/index.ts';
 
 export const contentTexts = {
   download: ['Download', 'Скачать'],
@@ -25,5 +26,5 @@ export const contentTexts = {
   untitled: ['Untitled', 'Без названия'],
   unknown: ['Unknown', 'Неизвестный'],
   locatedByUserOnDate: ['Located By {user}, {date}', 'Локация указана {user}, {date}'],
-  possibleViolation: ['Possible Violation', 'Возможное нарушение'],
+  possibleViolation: coreTexts.postViolation.possibleViolation,
 } satisfies Record<string, IntlText>;

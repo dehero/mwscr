@@ -4,7 +4,7 @@ Stores all posts and post requests that are not going to be published or fulfill
 [ordinary screenshots](./post-mark.md), [violations](./violations.md) and locations that could be revisited to make
 better shots.
 
-[Open](/rejects/)
+[Go to Rejects](/rejects/)
 
 ---
 
@@ -14,4 +14,4 @@ better shots.
 [заурядных скриншотов](./post-mark.md), [нарушений](./violations.md) и локаций, к которым можно вернуться, чтобы сделать
 более удачные снимки.
 
-[Открыть](/rejects/)
+[Перейти к Отклонённым](/rejects/)
