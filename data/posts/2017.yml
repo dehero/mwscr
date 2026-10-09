@@ -8494,9 +8494,9 @@
       id: DeP8OL2mOHI
       mediaId: '17909453241482142'
       published: 2026-10-08-21-51-33
-      updated: 2026-10-09-01-45-56
+      updated: 2026-10-09-08-32-17
       followers: 3337
-      likes: 109
+      likes: 144
       comments: !c |-
         iyCAkZPLQnoR2RXCAACwYm9hbmVyZmFwcGVyOTk5OdkkSSBmZWx0IHdyb25nIHJpZmxpbmcgYXJv
         dW5kIGluIHRoZXJlAw==
@@ -11540,6 +11540,11 @@
         G6EAQB0JNk5xo0aPZIRKh55+bUSxfA3zEqgMnfojnjydJsRK0BR1Xzw9WSlVicduNlzJ2XnA1Ype
         I6SoNmVOgkKmXLVe48v13dmkLetmR16DZtqaM+PZIixxorKEXNlIZzYrB+GyAUPL0a6WIdPvRuNp
         rE3r8jEKe5iCrBwMGw5mcW0JAOW248UuHv1AsvIAIGkd5LYB
+    - service: ig
+      id: DeRFmIcAJTn
+      mediaId: '18109052156603180'
+      published: 2026-10-09-08-32-40
+      followers: 3350
 2017-08-02-over-the-lava:
   title: Over the Lava
   titleRu: Над лавой
@@ -16455,18 +16460,24 @@
     - service: vk
       id: 3596
       published: 2026-10-08-21-52-11
-      updated: 2026-10-09-01-45-55
+      updated: 2026-10-09-08-32-17
       followers: 1451
-      likes: 6
-      views: 57
+      likes: 23
+      views: 226
       reposts: 2
+      comments: !c |-
+        G+gBIK0OeDPmKqGmdgNk0GMQfoRKp3/sQtIf36z6GV4qWMJC51k62YSWs9jhSEgAoa6/3vr0d1ed
+        28zVnM4ZKBuTkZslGu0IuTo9aefG1i1hb9p0cnzTALDlrcjzkDPNJOSorUrA3GBsXUpHPfD9/Ob8
+        x9u378NJy+N/P6yzgGrOwBrJHOaNAYgXILFYsQsJRtDYPXkG9DcUkg5n5gywQE/HcX6oyjk4gTtH
+        xvqEJ5qOtWlR0wgIuScWWMMRJlKQnnnkm3CNjgFFWZ0JaQoZJ5cLjHWcCW4kFCbc+ZoKrRmQCWgh
+        jdAlY9k5gxsn7T9GsEMt1QC9wAlwWzLMC1QpoNbuCw==
     - service: tg
       id: 1337
       published: 2026-10-08-21-52-17
-      updated: 2026-10-09-01-45-55
+      updated: 2026-10-09-08-32-15
       followers: 948
-      likes: 17
-      views: 56
+      likes: 33
+      views: 106
     - service: mx
       id: '1791496341538'
       published: 2026-10-08-21-52-21
@@ -18806,9 +18817,9 @@
       id: DeBJtSGoBUW
       mediaId: '18111884129232600'
       published: 2026-10-03-04-00-46
-      updated: 2026-10-08-08-28-21
+      updated: 2026-10-09-08-32-24
       followers: 2899
-      likes: 271
+      likes: 276
       comments: !c |-
         GzgA+GXy1gA3sBFvRP/XK9YlHHDnUVWLSQWQROG6P3JCin4AnmnVCKUkVuNi3s2qrnBShrAlOTX6
         Ag==
