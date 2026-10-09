@@ -5,11 +5,13 @@ The goal of the project is to seek out the hidden beauty and celebrate the visua
 [screenshots and videos or drawings](./post-types.md), which are then [reviewed by the editor](./editing.md) and pearled
 off for [publication](./publication.md) in all project's accounts. There are some
 [core principles](./core-principles.md) that the project follows. Anyone is welcome to
-[contribute to the project](./contributing.md).
+[contribute to the project](./contributing.md). The code and content are distributed under open
+[licenses](./license.md).
 
 [Instagram](https://instagram.com/mwscr/)  
 [VK](https://vk.com/mwscr)  
 [Telegram](https://t.me/mwscr)  
+[MAX](https://max.ru/channel_mwscr)  
 [YouTube](https://www.youtube.com/@mwscr)  
 [GitHub](https://github.com/dehero/mwscr)
 
@@ -21,10 +23,12 @@ off for [publication](./publication.md) in all project's accounts. There are som
 создают оригинальные [скриншоты и видео из игры, а также рисунки](./post-types.md), которые затем
 [рассматриваются редактором](./editing.md) и отбираются для [публикации](./publication.md) во всех аккаунтах проекта.
 Проект следует [основным принципам](./core-principles.md). Любой желающий может
-[принять участие в проекте](./contributing.md).
+[принять участие в проекте](./contributing.md). Код и материалы проекта распространяются по открытым
+[лицензиям](./license.md).
 
 [Instagram](https://instagram.com/mwscr/)  
 [VK](https://vk.com/mwscr)  
 [Telegram](https://t.me/mwscr)  
+[MAX](https://max.ru/channel_mwscr)  
 [YouTube](https://www.youtube.com/@mwscr)  
 [GitHub](https://github.com/dehero/mwscr)

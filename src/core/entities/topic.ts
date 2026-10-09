@@ -1,4 +1,4 @@
-import { type MarkdownLinkReplacer, markdownToInlineHtml } from './markdown.ts';
+import { type MarkdownLinkReplacer, markdownToHtml } from './markdown.ts';
 
 export interface Topic {
   title?: string;
@@ -47,8 +47,8 @@ export function createTopicEntryFromMarkdown(code: string, filename: string): To
     return [href, external];
   };
 
-  const { html, title } = markdownToInlineHtml(markdown, linkReplacer);
-  const { html: htmlRu, title: titleRu } = markdownToInlineHtml(markdownRu ?? '', linkReplacer);
+  const { html, title } = markdownToHtml(markdown, linkReplacer);
+  const { html: htmlRu, title: titleRu } = markdownToHtml(markdownRu ?? '', linkReplacer);
 
   return [id, { title, titleRu, html, htmlRu, relatedTopicIds: [...new Set(relatedTopicIds)] }];
 }

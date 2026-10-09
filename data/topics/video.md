@@ -1,7 +1,7 @@
 # Video
 
-A [post type](./post-types.md) that contains a video up to 1 hour long with [16:9](./aspect-ratio.md) aspect ratio.
-"MP4" or "AVI" format with a high bitrate is suitable. Minimum duration is 10 seconds, minimum framerate is 30 fps.
+A [post type](./post-types.md) containing a long-form video in the supported [formats](./file-format.md). It is used for
+extended recordings — where a short [Clip](./clip.md) would be too restrictive.
 
 [Go to Videos](/posts/?type=video)
 
@@ -9,8 +9,7 @@ A [post type](./post-types.md) that contains a video up to 1 hour long with [16:
 
 # Видео
 
-[Тип поста](./post-types.md), содержащий видео длительностью до 1 часа с соотношением сторон [16:9](./aspect-ratio.md).
-Подходит формат "MP4" или "AVI" с высоким битрейтом. Минимальная длительность — 10 секунд, минимальная частота кадров —
-30 fps.
+[Тип поста](./post-types.md) с длинным видео. Используется для продолжительных записей — там, где короткого
+[Клипа](./clip.md) недостаточно.
 
 [Перейти к видео](/posts/?type=video)

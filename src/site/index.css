@@ -25,6 +25,7 @@
   --color-loader-top: #00a0a3;
   --color-loader-bottom: #00a1a3;
   --font-family: MysticCards, serif;
+  --font-family-monospace: 'Lucida Console', 'Lucida Sans Typewriter', monospace;
   --font-size: 16px;
   font-family: var(--font-family);
   font-size: var(--font-size);

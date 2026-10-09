@@ -18,6 +18,7 @@ export const contentTexts = {
   postPathCopied: ['Post path copied to clipboard', 'Путь поста скопирован в буфер обмена'],
   resourceUrlCopied: ['Resource URL copied to clipboard', 'URL ресурса скопирован в буфер обмена'],
   userIdCopied: ['User ID copied to clipboard', 'ID пользователя скопирован в буфер обмена'],
+  codeCopied: ['Code copied to clipboard', 'Код скопирован в буфер обмена'],
   noPostsYet: ['No posts yet', 'Постов пока нет'],
   noPublicationsYet: ['No publications yet', 'Публикаций пока нет'],
   noCommentsYet: ['No comments yet', 'Комментариев пока нет'],

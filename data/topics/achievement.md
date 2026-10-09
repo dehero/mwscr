@@ -1,14 +1,15 @@
 # Achievement
 
-A special achievement in the project or in the game. Should include one or more images as a confirmation of achievement.
+A [post type](./post-types.md) for a special achievement in the project or in the game. Should include one or more
+images as confirmation of the achievement.
 
-[Show Achievements](/extras/?type=achievement)
+[Go to Achievements](/extras/?type=achievement)
 
 ---
 
 # Достижение
 
-Значимое достижение в проекте или в игре. В пост нужно добавить одно или несколько изображений, подтверждающих это
-достижение.
+[Тип поста](./post-types.md) для значимого достижения в проекте или в игре. В пост нужно добавить одно или несколько
+изображений, подтверждающих это достижение.
 
-[Показать достижения](/extras/?type=achievement)
+[Перейти к достижениям](/extras/?type=achievement)
