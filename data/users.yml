@@ -3047,7 +3047,7 @@ ivan-uralov:
   profiles:
     - service: vk
       id: '16497155'
-      updated: 2026-10-09-15-51-12
+      updated: 2026-10-09-20-34-54
       username: id16497155
       name: Иван Уралов
       avatar: store:/avatars/vk-51775759.jpg
@@ -3963,10 +3963,10 @@ max-nafig:
   profiles:
     - service: vk
       id: '55201916'
-      updated: 2026-10-08-16-09-36
+      updated: 2026-10-09-20-34-57
       username: max_nafig
       name: Макс Нафиг
-      avatar: store:/avatars/vk-e99f7f69.jpg
+      avatar: store:/avatars/vk-7e0444b7.jpg
 max-tsei:
   profiles:
     - service: vk
@@ -5585,7 +5585,7 @@ sergey-b-2:
   profiles:
     - service: vk
       id: '1077446394'
-      updated: 2026-10-09-01-46-02
+      updated: 2026-10-09-20-34-57
       username: id1077446394
       name: Сергей Б
       avatar: store:/avatars/vk-f5b20109.jpg

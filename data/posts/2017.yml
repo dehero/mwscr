@@ -2142,9 +2142,9 @@
       id: Dd-Sb69mNow
       mediaId: '17970020034158917'
       published: 2026-10-02-01-19-15
-      updated: 2026-10-08-16-09-44
+      updated: 2026-10-09-20-35-08
       followers: 2799
-      likes: 411
+      likes: 456
 2017-02-11-first-tower-of-bthuand:
   title: First Tower of Bthuand
   titleRu: Первая башня Бтуанда
@@ -6747,9 +6747,9 @@
       id: DeCSo6Vl3HJ
       mediaId: '18096394652538473'
       published: 2026-10-03-14-37-59
-      updated: 2026-10-08-16-09-43
+      updated: 2026-10-09-20-35-06
       followers: 2918
-      likes: 273
+      likes: 294
       comments: !c |-
         G8EAIJ0HmduVZkHhtjpPtF/lQtAfNz/CtZ9Almg3xqBA1rKwizig+IN8N7gABwxoWGzBbFmyesqK
         zU2f0ORk08kB+/ddgvwZBOJlGAXOsZRl8rIi38zLKzdFGxDk1i1NdvK/zg5dr2FeR3GT2D6gB8va
@@ -8494,9 +8494,9 @@
       id: DeP8OL2mOHI
       mediaId: '17909453241482142'
       published: 2026-10-08-21-51-33
-      updated: 2026-10-09-15-51-15
+      updated: 2026-10-09-20-34-56
       followers: 3337
-      likes: 162
+      likes: 169
       comments: !c |-
         iyCAkZPLQnoR2RXCAACwYm9hbmVyZmFwcGVyOTk5OdkkSSBmZWx0IHdyb25nIHJpZmxpbmcgYXJv
         dW5kIGluIHRoZXJlAw==
@@ -11544,9 +11544,9 @@
       id: DeRFmIcAJTn
       mediaId: '18109052156603180'
       published: 2026-10-09-08-32-40
-      updated: 2026-10-09-15-51-13
+      updated: 2026-10-09-20-34-52
       followers: 3350
-      likes: 87
+      likes: 101
       comments: !c CxSAkZPLQnoR/lx7gACpdHJhc2hpdHRls1NpbGx5IGxpdHRsZSB0aGluZ3MD
 2017-08-02-over-the-lava:
   title: Over the Lava
@@ -16463,10 +16463,10 @@
     - service: vk
       id: 3596
       published: 2026-10-08-21-52-11
-      updated: 2026-10-09-15-51-12
+      updated: 2026-10-09-20-34-54
       followers: 1451
-      likes: 38
-      views: 318
+      likes: 42
+      views: 347
       reposts: 2
       comments: !c |-
         G+gBIK0OeDPmKqGmdgNk0GMQfoRKp3/sQtIf36z6GV4qWMJC51k62YSWs9jhSEgAoa6/3vr0d1ed
@@ -16477,10 +16477,10 @@
     - service: tg
       id: 1337
       published: 2026-10-08-21-52-17
-      updated: 2026-10-09-15-51-11
+      updated: 2026-10-09-20-34-51
       followers: 948
       likes: 38
-      views: 128
+      views: 131
     - service: mx
       id: '1791496341538'
       published: 2026-10-08-21-52-21
@@ -19108,21 +19108,22 @@
     - service: vk
       id: 3591
       published: 2026-10-06-21-30-17
-      updated: 2026-10-08-16-09-36
+      updated: 2026-10-09-20-34-57
       followers: 1449
-      likes: 49
-      views: 525
+      likes: 54
+      views: 575
       reposts: 4
       comments: !c |-
-        Cx2AkZPLQnoRXjIKgACpbWF4LW5hZmln2STQvdCwINGB0LDQvdC60LDRhSDQstC90LjQtyDRg9C4
-        0LjQuCED
+        G+EA8J0JdizCZBhKHhmh0ukfONkIfzgdYl4SWQkVaXLP6WZJwRLwG5Nxueq2Vp6SKZjytnMQL9zH
+        YEnq5DyL4AqH19KoArJgA07EIwoQtpSOAn0gCSFQyvfnP87nZTi+Dw6ejMo3DxZBGIopIXc5Ed08
+        +Ns6fi91anHH9dcuo0YRU+9CIFA0CvQYQiLhfO0lfqeSEteCItWhHOcOBPQWJ1ijVKXIzhM=
     - service: tg
       id: 1333
       published: 2026-10-06-21-30-22
-      updated: 2026-10-08-16-09-33
+      updated: 2026-10-09-20-34-53
       followers: 948
-      likes: 45
-      views: 200
+      likes: 46
+      views: 218
     - service: mx
       id: '1791322225921'
       published: 2026-10-06-21-30-26
@@ -19242,6 +19243,14 @@
       followers: 113
       likes: 23
       views: 316
+    - service: tg
+      id: 1338
+      published: 2026-10-09-20-36-06
+      followers: 948
+    - service: mx
+      id: '1791578171384'
+      published: 2026-10-09-20-36-11
+      followers: 39
 2017-12-25-corridors-of-tribunal:
   title: Corridors of Tribunal
   titleRu: Коридоры Трибунала
