@@ -3047,7 +3047,7 @@ ivan-uralov:
   profiles:
     - service: vk
       id: '16497155'
-      updated: 2026-10-09-08-32-17
+      updated: 2026-10-09-15-51-12
       username: id16497155
       name: Иван Уралов
       avatar: store:/avatars/vk-51775759.jpg
@@ -6461,6 +6461,11 @@ tommytoja:
       username: tommytoja
       name: Tommy Wersety
       avatar: store:/avatars/ig-457ddab5.jpg
+trashitte:
+  profiles:
+    - service: ig
+      updated: 2026-10-09-15-51-12
+      username: trashitte
 tripp-beacham:
   profiles:
     - service: ig
