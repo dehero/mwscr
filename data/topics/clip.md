@@ -1,8 +1,7 @@
 # Clip
 
-A square [1:1](./aspect-ratio.md) or vertical [9:16](./aspect-ratio.md) video up to 1 minute long. Longer and horizontal
-videos must use [Video](./video.md) post type. "MP4" or "AVI" format with a high bitrate is suitable. Minimum duration
-is 10 seconds, minimum framerate is 30 fps.
+A [post type](./post-types.md) containing a short video in the supported [formats](./file-format.md), sized for social
+feeds. It is used for brief, self-contained moments; longer or horizontal videos belong to [Video](./video.md).
 
 [Go to Clips](/posts/?type=clip)
 
@@ -10,8 +9,7 @@ is 10 seconds, minimum framerate is 30 fps.
 
 # Клип
 
-Квадратное [1:1](./aspect-ratio.md) или вертикальное [9:16](./aspect-ratio.md) видео длительностью до 1 минуты. Более
-длинные и горизонтальные видео должны использовать тип поста [Видео](./video.md). Подходит формат "MP4" или "AVI" с
-высоким битрейтом. Минимальная длительность — 10 секунд, минимальная частота кадров — 30 fps.
+[Тип поста](./post-types.md) с коротким видео до 1 минуты, рассчитанный на социальные ленты. Используется для коротких
+самостоятельных моментов; более длинные и горизонтальные видео относятся к типу [Видео](./video.md).
 
 [Перейти к клипам](/posts/?type=clip)

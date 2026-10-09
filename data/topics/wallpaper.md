@@ -1,7 +1,7 @@
 # Wallpaper
 
-A horizontal [16:9](./aspect-ratio.md) or vertical [9:19.5](./aspect-ratio.md) screenshot suitable as desktop or
-smartphone wallpaper.
+A [post type](./post-types.md) with screenshot composed to work as a desktop or smartphone wallpaper, in both horizontal
+and vertical orientations.
 
 [Go to Wallpapers](/posts/?type=wallpaper)
 
@@ -9,7 +9,7 @@ smartphone wallpaper.
 
 # Обои
 
-Горизонтальный [16:9](./aspect-ratio.md) или вертикальный [9:19.5](./aspect-ratio.md) скриншот, подходящий в качестве
-обоев для рабочего стола или смартфона.
+[Тип поста](./post-types.md), содержащий скриншот, созданный для использования в качестве обоев рабочего стола или
+смартфона, в горизонтальной и вертикальной ориентации.
 
 [Перейти к обоям](/posts/?type=wallpaper)

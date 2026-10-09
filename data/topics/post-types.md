@@ -1,18 +1,49 @@
 # post types
 
-The [Posts](./posts.md) section can include [Shot](./shot.md), [Compilation](./compilation.md),
-[Wallpaper](./wallpaper.md), [Video](./video.md) and [Clip](./clip.md) post types, which should meet the project's
-[core principles](./core-principles.md). [Extras](./extras.md) section can include [Outtakes](./outtakes.md),
-[Redrawing](./redrawing.md), [News](./news.md), [Photoshop](./photoshop.md), [Mention](./mention.md),
-[Merch](./merch.md) and [Achievement](./achievement.md) post types, which are more democratic.
+Post types of the [Posts](./posts.md) section must meet the [core principles](./core-principles.md):
+
+| Type                            | Aspect ratios          | Files | Min side | Max duration | Requirements                      |
+| ------------------------------- | :--------------------- | ----: | -------: | ------------ | --------------------------------- |
+| [Shot](./shot.md)               | 1:1, 3:2               |     1 |    800px |              |                                   |
+| [Compilation](./compilation.md) | 1:1, 3:2, 16:9, 9:19.5 |     4 |    800px |              | Only previously published images. |
+| [Wallpaper](./wallpaper.md)     | 16:9, 9:19.5           |     1 |    800px |              |                                   |
+| [Clip](./clip.md)               | 1:1, 9:16              |     1 |   1080px | 1 minute     |                                   |
+| [Video](./video.md)             | 16:9                   |     1 |   1080px | 1 hour       |                                   |
+
+Post types of the [Extras](./extras.md) section are more democratic:
+
+| Type                            | Files | Requirements                      |
+| ------------------------------- | ----: | --------------------------------- |
+| [Redrawing](./redrawing.md)     |     2 | Includes the original shot.       |
+| [Outtakes](./outtakes.md)       |    10 |                                   |
+| [News](./news.md)               |       | Text description required.        |
+| [Photoshop](./photoshop.md)     |     2 | Includes the original screenshot. |
+| [Mention](./mention.md)         |     1 |                                   |
+| [Merch](./merch.md)             |    1+ |                                   |
+| [Achievement](./achievement.md) |    1+ |                                   |
 
 ---
 
 # типы постов
 
-Раздел [Посты](./posts.md) может включать типы постов [Кадр](./shot.md), [Подборка](./compilation.md),
-[Обои](./wallpaper.md), [Видео](./video.md) и [Клип](./clip.md), которые должны соответствовать
-[основным принципам](./core-principles.md) проекта. Раздел [Материалы](./extras.md) может включать типы постов
-[Невошедшее](./outtakes.md), [Перерисовка](./redrawing.md), [Новость](./news.md), [Фотомонтаж](./photoshop.md),
-[Упоминание](./mention.md), [Мерч](./merch.md) и [Достижение](./achievement.md), к которым требования более
-демократичны.
+Типы постов раздела [Посты](./posts.md) должны соответствовать [основным принципам](./core-principles.md):
+
+| Тип                          | Соотношения сторон     | Файлов | Мин. сторона | Макс. длит. | Требования                               |
+| ---------------------------- | :--------------------- | -----: | -----------: | ----------- | ---------------------------------------- |
+| [Кадр](./shot.md)            | 1:1, 3:2               |      1 |        800px |             |                                          |
+| [Подборка](./compilation.md) | 1:1, 3:2, 16:9, 9:19.5 |      4 |        800px |             | Только ранее опубликованные изображения. |
+| [Обои](./wallpaper.md)       | 16:9, 9:19.5           |      1 |        800px |             |                                          |
+| [Клип](./clip.md)            | 1:1, 9:16              |      1 |       1080px | 1 минута    |                                          |
+| [Видео](./video.md)          | 16:9                   |      1 |       1080px | 1 час       |                                          |
+
+Типы постов раздела [Материалы](./extras.md) более демократичны:
+
+| Тип                            | Файлов | Требования                      |
+| ------------------------------ | -----: | ------------------------------- |
+| [Перерисовка](./redrawing.md)  |      2 | Включает оригинальный кадр.     |
+| [Невошедшее](./outtakes.md)    |     10 |                                 |
+| [Новость](./news.md)           |        | Обязательно текстовое описание. |
+| [Фотомонтаж](./photoshop.md)   |      2 | Включает оригинальный скриншот. |
+| [Упоминание](./mention.md)     |      1 |                                 |
+| [Мерч](./merch.md)             |     1+ |                                 |
+| [Достижение](./achievement.md) |     1+ |                                 |

@@ -5,6 +5,8 @@ currently includes only [Tamriel Rebuilt](./tamriel-rebuilt.md), are allowed. Pl
 when shooting but don't change the game visually such as [NoFightNoHello](./nofightnohello.md),
 [MannequinChallenge](./mannequinchallenge.md) and [TrackPath](./trackpath.md) are allowed also.
 
+In a post, the addon from the white list explicitly involved is specified.
+
 ---
 
 # разрешённые модификации
@@ -13,3 +15,5 @@ when shooting but don't change the game visually such as [NoFightNoHello](./nofi
 списка, в который сейчас входит только [Tamriel Rebuilt](./tamriel-rebuilt.md). Также разрешены плагины, которые дают
 дополнительные возможности при съёмке, но не меняют игру визуально, например [NoFightNoHello](./nofightnohello.md),
 [MannequinChallenge](./mannequinchallenge.md) и [TrackPath](./trackpath.md).
+
+В посте указывается дополнение из белого списка, явно задействованное в работе.

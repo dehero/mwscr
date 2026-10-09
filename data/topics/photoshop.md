@@ -1,6 +1,7 @@
 # Photoshop
 
-A photomontage based on a previously published screenshot. Should include original screenshot as well.
+A [post type](./post-types.md) with a photomontage based on a previously published screenshot. Should include the
+original screenshot for comparison.
 
 [Go to Photoshops](/extras/?type=photoshop)
 
@@ -8,6 +9,7 @@ A photomontage based on a previously published screenshot. Should include origin
 
 # Фотомонтаж
 
-Фотомонтаж на основе ранее опубликованного скриншота. Также должен включать оригинальный скриншот.
+[Тип поста](./post-types.md), содержащий фотомонтаж на основе ранее опубликованного скриншота. Также должен включать
+оригинальный скриншот для сравнения.
 
 [Перейти к фотомонтажам](/extras/?type=photoshop)

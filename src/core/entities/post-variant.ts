@@ -46,7 +46,21 @@ export const Clip = object({
 
 export const Outtakes = object({
   type: literal('outtakes'),
-  content: tuple([ImageResourceUrl, ImageResourceUrl, ImageResourceUrl], 'Should be 3 screenshot resources'),
+  content: tuple(
+    [
+      ImageResourceUrl,
+      ImageResourceUrl,
+      ImageResourceUrl,
+      ImageResourceUrl,
+      ImageResourceUrl,
+      ImageResourceUrl,
+      ImageResourceUrl,
+      ImageResourceUrl,
+      ImageResourceUrl,
+      ImageResourceUrl,
+    ],
+    'Should be 10 screenshot resources',
+  ),
 });
 
 export const News = object({
