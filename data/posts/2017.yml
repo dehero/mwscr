@@ -7268,9 +7268,9 @@
       id: DeIvftgFxS2
       mediaId: '18117869455779232'
       published: 2026-10-06-02-45-33
-      updated: 2026-10-08-01-35-17
+      updated: 2026-10-09-01-46-04
       followers: 3119
-      likes: 136
+      likes: 145
 2017-05-11-inside-of-llethri-manor:
   title: Inside of Llethri Manor
   titleRu: В поместье Ллетри
@@ -7472,9 +7472,9 @@
       id: Dd9StpwmJ5P
       mediaId: '17912189973470947'
       published: 2026-10-01-16-02-26
-      updated: 2026-10-08-01-35-22
+      updated: 2026-10-09-01-46-11
       followers: 2765
-      likes: 228
+      likes: 237
 2017-05-15-in-the-courtyard-of-royal-palace:
   title: In the Courtyard of Royal Palace
   titleRu: Во внутреннем дворе Королевского дворца
@@ -8494,7 +8494,12 @@
       id: DeP8OL2mOHI
       mediaId: '17909453241482142'
       published: 2026-10-08-21-51-33
+      updated: 2026-10-09-01-45-56
       followers: 3337
+      likes: 109
+      comments: !c |-
+        iyCAkZPLQnoR2RXCAACwYm9hbmVyZmFwcGVyOTk5OdkkSSBmZWx0IHdyb25nIHJpZmxpbmcgYXJv
+        dW5kIGluIHRoZXJlAw==
 2017-06-03-almalexia-pierces-dagon:
   title: Almalexia Pierces Dagon
   titleRu: Альмалексия пронзает Дагона
@@ -13713,9 +13718,9 @@
       id: DeDWy3amIkp
       mediaId: '18127341088856939'
       published: 2026-10-04-00-33-33
-      updated: 2026-10-08-01-35-19
+      updated: 2026-10-09-01-46-07
       followers: 2953
-      likes: 286
+      likes: 298
       comments: !c CxOAkZPLQnoQyJ+DgACuZm9ycmVzdHBoaWxwb3SsUHV0IGhpbUBkb3duAw==
 2017-09-13-netches-have-fallen-out:
   title: Netches Have Fallen Out
@@ -15387,9 +15392,9 @@
       id: DeAROp4DN8n
       mediaId: '18094627784441514'
       published: 2026-10-02-19-47-09
-      updated: 2026-10-08-01-35-21
+      updated: 2026-10-09-01-46-09
       followers: 2870
-      likes: 152
+      likes: 157
 2017-10-13-cult-of-candles:
   title: Cult of Candles
   titleRu: Культ свечей
@@ -16450,11 +16455,18 @@
     - service: vk
       id: 3596
       published: 2026-10-08-21-52-11
+      updated: 2026-10-09-01-45-55
       followers: 1451
+      likes: 6
+      views: 57
+      reposts: 2
     - service: tg
       id: 1337
       published: 2026-10-08-21-52-17
+      updated: 2026-10-09-01-45-55
       followers: 948
+      likes: 17
+      views: 56
     - service: mx
       id: '1791496341538'
       published: 2026-10-08-21-52-21

@@ -655,7 +655,7 @@ arya-stark:
   profiles:
     - service: vk
       id: '820702664'
-      updated: 2026-10-08-01-35-16
+      updated: 2026-10-09-01-46-00
       username: id820702664
       name: Арья Старк
       avatar: store:/avatars/vk-689aa89d.jpg
@@ -5585,7 +5585,7 @@ sergey-b-2:
   profiles:
     - service: vk
       id: '1077446394'
-      updated: 2026-10-08-01-35-18
+      updated: 2026-10-09-01-46-02
       username: id1077446394
       name: Сергей Б
       avatar: store:/avatars/vk-f5b20109.jpg
