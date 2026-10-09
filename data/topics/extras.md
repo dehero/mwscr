@@ -13,4 +13,4 @@ Secondary section of [Morrowind Screenshots](./mwscr.md) project, which includes
 [типы постов](./post-types.md), способные игнорировать некоторые [нарушения](./violations.md), или к которым эти
 нарушения неприменимы.
 
-[Перейти в Материалы](/extras/)
+[Перейти к Материалам](/extras/)

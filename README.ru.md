@@ -84,8 +84,7 @@
 
 - [`assets/previews`](assets/previews) - превью всех изображений и видео, когда-либо попадавших в хранилище в формате
   `AVIF`;
-- [`assets/plugins`](assets/plugins) - набор [вспомогательных плагинов](CONTRIBUTING.ru.md#вспомогательные-плагины) для
-  съёмки;
+- [`assets/plugins`](assets/plugins) - набор [вспомогательных плагинов](CONTRIBUTING.ru.md#allowed-mods) для съёмки;
 - дополнительные изображения.
 
 ### Скрипты
