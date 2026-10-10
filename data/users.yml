@@ -527,7 +527,7 @@ ansis:
   profiles:
     - service: tg
       id: '517050552'
-      updated: 2026-10-05-00-30-52
+      updated: 2026-10-10-00-30-15
       accessHash: '5231096655311395455'
       username: ansis
       name: ansis
@@ -3047,7 +3047,7 @@ ivan-uralov:
   profiles:
     - service: vk
       id: '16497155'
-      updated: 2026-10-09-20-34-54
+      updated: 2026-10-10-00-30-16
       username: id16497155
       name: Иван Уралов
       avatar: store:/avatars/vk-51775759.jpg
@@ -3988,7 +3988,7 @@ mbdtsmo:
   profiles:
     - service: tg
       id: '5093097514'
-      updated: 2026-10-08-21-50-49
+      updated: 2026-10-10-00-30-22
       accessHash: '-613358669572386334'
       username: mbdtsmo
       name: M Bdtsmo
@@ -4153,7 +4153,7 @@ mlennic:
   profiles:
     - service: tg
       id: '402884048'
-      updated: 2026-10-04-21-15-27
+      updated: 2026-10-10-00-30-19
       accessHash: '308008325024369067'
       username: mlennic
       name: Kosmos
@@ -5443,6 +5443,11 @@ samfromvz:
     - service: ig
       updated: 2026-10-02-12-12-04
       username: samfromvz
+sanmuropereyra:
+  profiles:
+    - service: ig
+      updated: 2026-10-10-00-30-41
+      username: sanmuropereyra
 sanryyalk:
   profiles:
     - service: ig
@@ -6099,6 +6104,11 @@ striped-bear:
       accessHash: '-7366776363333243224'
       username: StripedBear
       name: Eman Name
+strobbery:
+  profiles:
+    - service: ig
+      updated: 2026-10-10-00-30-14
+      username: strobbery_
 sumerianninkasi:
   profiles:
     - service: vk
