@@ -7268,9 +7268,9 @@
       id: DeIvftgFxS2
       mediaId: '18117869455779232'
       published: 2026-10-06-02-45-33
-      updated: 2026-10-09-01-46-04
+      updated: 2026-10-10-06-43-20
       followers: 3119
-      likes: 145
+      likes: 151
 2017-05-11-inside-of-llethri-manor:
   title: Inside of Llethri Manor
   titleRu: В поместье Ллетри
@@ -8494,9 +8494,9 @@
       id: DeP8OL2mOHI
       mediaId: '17909453241482142'
       published: 2026-10-08-21-51-33
-      updated: 2026-10-10-00-30-24
+      updated: 2026-10-10-06-43-17
       followers: 3337
-      likes: 172
+      likes: 175
       comments: !c |-
         iyCAkZPLQnoR2RXCAACwYm9hbmVyZmFwcGVyOTk5OdkkSSBmZWx0IHdyb25nIHJpZmxpbmcgYXJv
         dW5kIGluIHRoZXJlAw==
@@ -11544,9 +11544,9 @@
       id: DeRFmIcAJTn
       mediaId: '18109052156603180'
       published: 2026-10-09-08-32-40
-      updated: 2026-10-10-00-30-20
+      updated: 2026-10-10-06-43-14
       followers: 3350
-      likes: 109
+      likes: 113
       comments: !c CxSAkZPLQnoR/lx7gACpdHJhc2hpdHRls1NpbGx5IGxpdHRsZSB0aGluZ3MD
 2017-08-02-over-the-lava:
   title: Over the Lava
@@ -13726,9 +13726,9 @@
       id: DeDWy3amIkp
       mediaId: '18127341088856939'
       published: 2026-10-04-00-33-33
-      updated: 2026-10-09-01-46-07
+      updated: 2026-10-10-06-43-22
       followers: 2953
-      likes: 298
+      likes: 308
       comments: !c CxOAkZPLQnoQyJ+DgACuZm9ycmVzdHBoaWxwb3SsUHV0IGhpbUBkb3duAw==
 2017-09-13-netches-have-fallen-out:
   title: Netches Have Fallen Out
@@ -15400,9 +15400,9 @@
       id: DeAROp4DN8n
       mediaId: '18094627784441514'
       published: 2026-10-02-19-47-09
-      updated: 2026-10-09-01-46-09
+      updated: 2026-10-10-06-43-24
       followers: 2870
-      likes: 157
+      likes: 162
 2017-10-13-cult-of-candles:
   title: Cult of Candles
   titleRu: Культ свечей
@@ -16463,10 +16463,10 @@
     - service: vk
       id: 3596
       published: 2026-10-08-21-52-11
-      updated: 2026-10-10-00-30-16
+      updated: 2026-10-10-06-43-13
       followers: 1451
-      likes: 44
-      views: 360
+      likes: 46
+      views: 386
       reposts: 2
       comments: !c |-
         G+gBIK0OeDPmKqGmdgNk0GMQfoRKp3/sQtIf36z6GV4qWMJC51k62YSWs9jhSEgAoa6/3vr0d1ed
@@ -16477,10 +16477,10 @@
     - service: tg
       id: 1337
       published: 2026-10-08-21-52-17
-      updated: 2026-10-10-00-30-21
+      updated: 2026-10-10-06-43-15
       followers: 948
       likes: 40
-      views: 161
+      views: 173
     - service: mx
       id: '1791496341538'
       published: 2026-10-08-21-52-21
@@ -19247,10 +19247,10 @@
     - service: tg
       id: 1338
       published: 2026-10-09-20-36-06
-      updated: 2026-10-10-00-30-19
+      updated: 2026-10-10-06-43-13
       followers: 948
-      likes: 24
-      views: 89
+      likes: 31
+      views: 121
       comments: !c |-
         iyqAkZTLQnoSLJgtAAClYW5zaXOzQnVjayB0aGUgd2hhdD8g8J+YqJPLQnoSMuV1AACnbWxlbm5p
         Y75wcm9iYWJseSBqdXN0IGFuIGFyZ29uaWFuIG5hbWUD
@@ -19261,7 +19261,10 @@
     - service: vk
       id: 3598
       published: 2026-10-10-00-31-07
+      updated: 2026-10-10-06-43-10
       followers: 1452
+      likes: 11
+      views: 120
 2017-12-25-corridors-of-tribunal:
   title: Corridors of Tribunal
   titleRu: Коридоры Трибунала
