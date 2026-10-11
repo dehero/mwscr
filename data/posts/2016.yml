@@ -109,7 +109,7 @@
     - service: tg
       id: 821
       published: 2025-04-28-18-25-09
-      updated: 2026-10-04-00-31-43
+      updated: 2026-10-11-15-23-00
       followers: 726
       likes: 82
       views: 691
@@ -314,10 +314,10 @@
     - service: vk
       id: 3192
       published: 2026-03-19-19-15-16
-      updated: 2026-10-03-22-02-09
+      updated: 2026-10-11-15-21-39
       followers: 1621
       likes: 84
-      views: 1026
+      views: 1027
       reposts: 2
       comments: !c |-
         G+YA4C0OzHOPR1QQb9q1R8PGP/+cbDyhP9w5A1nGAcdR3ingNILJfbo5S8gP/X0M/ZXhbHkKgcX0
@@ -524,7 +524,7 @@
     - service: vk
       id: 2904
       published: 2025-11-30-18-25-05
-      updated: 2026-10-04-00-30-40
+      updated: 2026-10-11-15-22-38
       followers: 1532
       likes: 75
       views: 605
@@ -854,7 +854,7 @@
     - service: tg
       id: 797
       published: 2025-04-16-18-22-22
-      updated: 2026-10-04-00-31-58
+      updated: 2026-10-11-15-23-09
       followers: 720
       likes: 61
       views: 622
@@ -1473,7 +1473,7 @@
     - service: vk
       id: 2749
       published: 2025-10-19-18-26-11
-      updated: 2026-10-04-00-32-32
+      updated: 2026-10-11-15-24-50
       followers: 1471
       likes: 97
       views: 2118
@@ -1587,7 +1587,7 @@
       id: DNgZyYxAhGO
       mediaId: '18033314927487358'
       published: 2025-08-18-18-23-56
-      updated: 2026-10-04-00-30-39
+      updated: 2026-10-11-15-21-56
       followers: 1579
       likes: 63
     - service: vk
@@ -1667,9 +1667,9 @@
       id: DLAxCKwMros
       mediaId: '17862711228356418'
       published: 2025-06-17-18-28-37
-      updated: 2026-10-04-00-32-09
+      updated: 2026-10-11-15-22-43
       followers: 1553
-      likes: 76
+      likes: 75
     - service: vk
       id: 2470
       published: 2025-06-17-18-28-43
@@ -1687,10 +1687,10 @@
     - service: tg
       id: 888
       published: 2025-06-17-18-28-46
-      updated: 2026-10-04-00-30-23
+      updated: 2026-10-11-15-22-00
       followers: 749
       likes: 66
-      views: 616
+      views: 617
 2016-12-19-hla-oad:
   title: Hla Oad
   titleRu: Хла Оуд
@@ -1830,10 +1830,10 @@
     - service: vk
       id: 2887
       published: 2025-11-26-18-22-50
-      updated: 2026-10-04-00-30-52
+      updated: 2026-10-11-15-22-58
       followers: 1527
       likes: 86
-      views: 1609
+      views: 1613
       reposts: 8
     - service: tg
       id: 1070
@@ -1947,7 +1947,7 @@
       id: DMOURmMsu3l
       mediaId: '17895250938255296'
       published: 2025-07-17-21-18-02
-      updated: 2026-10-04-00-31-31
+      updated: 2026-10-11-15-22-24
       followers: 1567
       likes: 102
 2016-12-23-stillness-of-vivec:

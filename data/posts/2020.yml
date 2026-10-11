@@ -61,7 +61,7 @@
     - service: vk
       id: 2675
       published: 2025-09-22-18-26-32
-      updated: 2026-10-04-00-33-14
+      updated: 2026-10-11-15-25-24
       followers: 1428
       likes: 41
       views: 665
@@ -213,7 +213,7 @@
     - service: vk
       id: 2863
       published: 2025-11-18-18-17-11
-      updated: 2026-10-04-00-31-08
+      updated: 2026-10-11-15-23-46
       followers: 1511
       likes: 59
       views: 983
@@ -401,7 +401,7 @@
       id: DMgD1nltOXF
       mediaId: '18050817164185932'
       published: 2025-07-24-18-40-50
-      updated: 2026-10-04-00-31-15
+      updated: 2026-10-11-15-22-16
       followers: 1573
       likes: 66
 2020-05-19-night-guard:
@@ -553,7 +553,7 @@
     - service: tg
       id: 782
       published: 2025-04-06-18-28-50
-      updated: 2026-10-04-00-32-14
+      updated: 2026-10-11-15-23-17
       followers: 717
       likes: 60
       views: 641
@@ -612,15 +612,15 @@
     - service: tg
       id: 895
       published: 2025-06-24-18-28-13
-      updated: 2026-10-04-00-30-14
+      updated: 2026-10-11-15-21-53
       followers: 753
       likes: 66
-      views: 661
+      views: 662
     - service: ig
       id: DLS4FQzgAKX
       mediaId: '17868937881306574'
       published: 2025-06-24-19-16-30
-      updated: 2026-10-04-00-31-57
+      updated: 2026-10-11-15-22-37
       followers: 1553
       likes: 61
 2020-05-23-rainy-day-in-sadrith-mora:
@@ -740,7 +740,7 @@
       id: DNv3QvDYinb
       mediaId: '18326906332225698'
       published: 2025-08-24-18-30-14
-      updated: 2026-10-03-22-02-13
+      updated: 2026-10-11-15-21-52
       followers: 1580
       likes: 75
     - service: vk
@@ -814,7 +814,7 @@
     - service: vk
       id: 2774
       published: 2025-10-25-18-14-12
-      updated: 2026-10-04-00-32-17
+      updated: 2026-10-11-15-24-37
       followers: 1483
       likes: 75
       views: 1601
@@ -1205,7 +1205,7 @@
     - service: tg
       id: 826
       published: 2025-05-03-18-22-30
-      updated: 2026-10-04-00-31-34
+      updated: 2026-10-11-15-22-53
       followers: 736
       likes: 72
       views: 623
@@ -1305,7 +1305,7 @@
     - service: vk
       id: 2763
       published: 2025-10-23-18-16-08
-      updated: 2026-10-04-00-32-22
+      updated: 2026-10-11-15-24-43
       followers: 1482
       likes: 60
       views: 2140
@@ -1374,7 +1374,7 @@
       id: DLxragfM_So
       mediaId: '18049738211166605'
       published: 2025-07-06-18-22-19
-      updated: 2026-10-04-00-31-38
+      updated: 2026-10-11-15-22-27
       followers: 1559
       likes: 59
     - service: vk
@@ -1587,7 +1587,7 @@
       id: DMPTAzKMjL2
       mediaId: '18073958353804419'
       published: 2025-07-18-06-26-22
-      updated: 2026-10-04-00-31-27
+      updated: 2026-10-11-15-22-22
       followers: 1568
       likes: 54
 2020-10-20-longing-for-a-departed-hero:
@@ -1638,7 +1638,7 @@
       id: DK5CLi-MK5H
       mediaId: '18006315368602717'
       published: 2025-06-14-18-24-29
-      updated: 2026-10-04-00-32-17
+      updated: 2026-10-11-15-22-45
       followers: 1554
       likes: 126
       comments: !c |-
@@ -1661,10 +1661,10 @@
     - service: tg
       id: 885
       published: 2025-06-14-18-24-42
-      updated: 2026-10-04-00-30-26
+      updated: 2026-10-11-15-22-03
       followers: 746
       likes: 69
-      views: 622
+      views: 623
 2020-10-21-land-of-rain:
   title: Land of Rain
   titleRu: Земля дождя
@@ -2106,7 +2106,7 @@
     - service: tg
       id: 824
       published: 2025-05-01-18-25-26
-      updated: 2026-10-04-00-31-38
+      updated: 2026-10-11-15-22-56
       followers: 734
       likes: 72
       views: 581

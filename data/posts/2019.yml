@@ -68,7 +68,7 @@
       id: DMOwL2voVx-
       mediaId: '18072508969999645'
       published: 2025-07-18-01-22-00
-      updated: 2026-10-04-00-31-30
+      updated: 2026-10-11-15-22-24
       followers: 1568
       likes: 59
       comments: !c ixWAkZPLQnmBsl4OAACwc29tZW9uZS1zaW1wbGU0Mq9GZWVscyBsaWtlIGhvbWUD
@@ -123,7 +123,7 @@
     - service: vk
       id: 2816
       published: 2025-11-06-18-17-05
-      updated: 2026-10-04-00-31-41
+      updated: 2026-10-11-15-24-19
       followers: 1500
       likes: 87
       views: 1679
@@ -566,7 +566,7 @@
       id: DMqW8NUsqF3
       mediaId: '18145345993403044'
       published: 2025-07-28-18-40-05
-      updated: 2026-10-04-00-31-09
+      updated: 2026-10-11-15-22-13
       followers: 1572
       likes: 85
     - service: vk
@@ -684,10 +684,10 @@
     - service: vk
       id: 2719
       published: 2025-10-08-18-29-12
-      updated: 2026-10-04-00-32-52
+      updated: 2026-10-11-15-25-05
       followers: 1454
       likes: 69
-      views: 1381
+      views: 1382
       reposts: 3
       comments: !c |-
         Gz8BIC0ObBtG9nBhnaMd4w/GP/+cbIRfO2cNfRgEHoctDKKgCJP7dG3FZGjNFIaCvwOZrb3lTiSQ
@@ -742,7 +742,7 @@
       id: DKXj-6XtLsC
       mediaId: '18279810676261476'
       published: 2025-06-01-18-25-42
-      updated: 2026-10-04-00-32-34
+      updated: 2026-10-11-15-22-53
       followers: 1551
       likes: 83
     - service: vk
@@ -760,7 +760,7 @@
     - service: tg
       id: 868
       published: 2025-06-01-18-25-50
-      updated: 2026-10-04-00-30-40
+      updated: 2026-10-11-15-22-18
       followers: 742
       likes: 62
       views: 606
@@ -928,7 +928,7 @@
       id: DLdFbXcM6lH
       mediaId: '17969804192764452'
       published: 2025-06-28-18-25-32
-      updated: 2026-10-04-00-31-51
+      updated: 2026-10-11-15-22-34
       followers: 1553
       likes: 97
       comments: !c |-
@@ -945,7 +945,7 @@
     - service: tg
       id: 899
       published: 2025-06-28-18-25-44
-      updated: 2026-10-04-00-30-10
+      updated: 2026-10-11-15-21-49
       followers: 758
       likes: 65
       views: 657
@@ -1739,6 +1739,11 @@
       id: '1791052718002'
       published: 2026-10-03-18-38-38
       followers: 39
+    - service: ig
+      id: DeW-cmBF1LO
+      mediaId: '18108319256242928'
+      published: 2026-10-11-15-25-35
+      followers: 3457
 2019-04-02-towers-of-mzanchend:
   title: Towers of Mzanchend
   titleRu: Башни Мзанченда
@@ -2223,16 +2228,16 @@
     - service: tg
       id: 896
       published: 2025-06-25-18-30-49
-      updated: 2026-10-04-00-30-13
+      updated: 2026-10-11-15-21-52
       followers: 754
       likes: 74
-      views: 1008
+      views: 1009
       comments: !c iw2AkZPLQnl6hjgZgACra2F3YXpha3kyMjOk8J+RgQM=
     - service: ig
       id: DLZ5KTksdmG
       mediaId: '18068498947844214'
       published: 2025-06-27-12-40-35
-      updated: 2026-10-04-00-31-57
+      updated: 2026-10-11-15-22-37
       followers: 1554
       likes: 123
       comments: !c ixOAkZPLQnl8eRdIAACoMmFiYW5kb26zSSB3aXNoIEkgd2FzIHRoZXJlLgM=
@@ -2313,7 +2318,7 @@
       id: DL5aCGXsDyB
       mediaId: '18515532307004498'
       published: 2025-07-09-18-24-19
-      updated: 2026-10-04-00-31-33
+      updated: 2026-10-11-15-22-25
       followers: 1561
       likes: 66
     - service: vk
@@ -2987,7 +2992,7 @@
       id: DMi0vszNT3e
       mediaId: '18320943061239341'
       published: 2025-07-25-20-26-39
-      updated: 2026-10-04-00-31-12
+      updated: 2026-10-11-15-22-15
       followers: 1573
       likes: 81
 2019-10-15-no-name-club:
@@ -3039,7 +3044,7 @@
     - service: vk
       id: 2690
       published: 2025-09-27-18-24-20
-      updated: 2026-10-04-00-33-08
+      updated: 2026-10-11-15-25-18
       followers: 1437
       likes: 48
       views: 870
@@ -3185,7 +3190,7 @@
     - service: tg
       id: 847
       published: 2025-05-17-19-13-22
-      updated: 2026-10-04-00-31-11
+      updated: 2026-10-11-15-22-37
       followers: 737
       likes: 69
       views: 556
