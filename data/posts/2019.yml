@@ -258,10 +258,10 @@
     - service: tg
       id: 1296
       published: 2026-08-21-18-22-16
-      updated: 2026-10-05-15-35-36
+      updated: 2026-10-12-21-35-05
       followers: 935
       likes: 62
-      views: 504
+      views: 514
     - service: mx
       id: '1787336543723'
       published: 2026-08-21-18-22-23
@@ -504,10 +504,10 @@
     - service: tg
       id: 1290
       published: 2026-08-15-18-11-55
-      updated: 2026-10-05-15-35-39
+      updated: 2026-10-12-21-35-10
       followers: 925
-      likes: 55
-      views: 492
+      likes: 56
+      views: 500
     - service: mx
       id: '1786817523183'
       published: 2026-08-15-18-12-03
@@ -808,10 +808,10 @@
     - service: tg
       id: 1286
       published: 2026-08-11-18-43-43
-      updated: 2026-10-05-15-35-44
+      updated: 2026-10-12-21-35-15
       followers: 923
       likes: 60
-      views: 549
+      views: 558
     - service: mx
       id: '1786473828312'
       published: 2026-08-11-18-43-48
@@ -1061,10 +1061,10 @@
     - service: tg
       id: 1283
       published: 2026-08-08-18-19-50
-      updated: 2026-10-05-15-35-46
+      updated: 2026-10-12-21-35-19
       followers: 923
       likes: 56
-      views: 489
+      views: 497
     - service: mx
       id: '1786213194892'
       published: 2026-08-08-18-19-54
@@ -1250,10 +1250,10 @@
     - service: tg
       id: 1216
       published: 2026-04-21-19-22-01
-      updated: 2026-10-05-15-36-44
+      updated: 2026-10-12-21-36-18
       followers: 900
       likes: 54
-      views: 571
+      views: 573
     - service: mx
       id: '1776799325950'
       published: 2026-04-21-19-22-05
@@ -1658,10 +1658,10 @@
     - service: tg
       id: 1291
       published: 2026-08-16-18-12-01
-      updated: 2026-10-05-15-35-39
+      updated: 2026-10-12-21-35-09
       followers: 925
       likes: 58
-      views: 561
+      views: 569
     - service: mx
       id: '1786903929323'
       published: 2026-08-16-18-12-09
@@ -1743,9 +1743,9 @@
       id: DeW-cmBF1LO
       mediaId: '18108319256242928'
       published: 2026-10-11-15-25-35
-      updated: 2026-10-12-12-47-07
+      updated: 2026-10-12-21-34-51
       followers: 3457
-      likes: 166
+      likes: 172
 2019-04-02-towers-of-mzanchend:
   title: Towers of Mzanchend
   titleRu: Башни Мзанченда
@@ -2769,10 +2769,10 @@
     - service: tg
       id: 1228
       published: 2026-05-15-19-47-25
-      updated: 2026-10-05-15-36-37
+      updated: 2026-10-12-21-36-10
       followers: 906
       likes: 69
-      views: 778
+      views: 784
       comments: !c |-
         GzkA4I3UTrcOLfTphFTZbIoCQYkmJdUe2ptCRWhcD2JIKxSBjTFwfZ/0Oz2/Wg5ghY3YQkkx/Q2V
         cxBCWQ==
