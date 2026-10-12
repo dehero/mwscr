@@ -33,3 +33,19 @@ export function localize<T = never>(
 
   return formatter.format<T>(values);
 }
+
+export function localField<K extends string, T extends { [P in K | `${K}Ru`]?: string }>(
+  obj: T | undefined,
+  fieldName: K,
+  locale: Locale,
+  invert = false,
+): string | undefined {
+  if (!obj) {
+    return undefined;
+  }
+
+  const useRuPostfix = invert ? locale !== 'ru' : locale === 'ru';
+  const key = useRuPostfix ? (`${fieldName}Ru` as const) : fieldName;
+
+  return obj[key] || obj[fieldName];
+}

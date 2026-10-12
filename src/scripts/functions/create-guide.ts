@@ -1,23 +1,20 @@
-import { readFile, writeFile } from 'fs/promises';
+import { writeFile } from 'fs/promises';
 import prettier from 'prettier';
-import { renderTopicGuide, type TopicGuideOrderNode } from '../../core/entities/topic-guide.ts';
-import { site } from '../../core/services/site.ts';
-import { readTopicSources } from '../data-managers/topics.ts';
-
-const FILENAMES = {
-  en: 'CONTRIBUTING.md',
-  ru: 'CONTRIBUTING.ru.md',
-} as const;
+import { topics } from '../data-managers/topics.ts';
+import { localize } from '../../core/utils/intl-utils.ts';
+import { texts } from '../../core/texts/index.ts';
+import { Locale } from '../../core/entities/intl.ts';
+import { renderGuide, type GuideOrderNode } from '../renderers/guide.ts';
 
 /**
- * Deterministic structure of the contributing guidelines. Nesting defines
+ * Deterministic structure of the guide topics. Nesting defines
  * heading levels, order defines section placement. Topics missing from this
  * list are appended alphabetically at the end of the document.
  */
-const CONTRIBUTING_ORDER: TopicGuideOrderNode[] = [
+const GUIDE_ORDER_NODES: GuideOrderNode[] = [
   {
     id: 'mwscr',
-    children: [{ id: 'posts' }, { id: 'extras' }, { id: 'trash' }],
+    children: [{ id: 'posts' }, { id: 'extras' }, { id: 'drafts' }, { id: 'trash' }],
   },
   {
     id: 'core-principles',
@@ -99,7 +96,6 @@ const CONTRIBUTING_ORDER: TopicGuideOrderNode[] = [
       },
       { id: 'merging-posts' },
       { id: 'allowed-processing' },
-      { id: 'drafts' },
       {
         id: 'preparing-post',
         children: [
@@ -117,35 +113,22 @@ const CONTRIBUTING_ORDER: TopicGuideOrderNode[] = [
   { id: 'morrowind' },
 ];
 
-export async function createContributing() {
-  console.group('Creating contributing guidelines...');
+export async function createGuide() {
+  console.group('Creating guide from help topics...');
 
   try {
-    const sources = await readTopicSources();
+    const entries = await topics.getAllEntries();
 
-    for (const language of ['en', 'ru'] as const) {
-      const filename = FILENAMES[language];
-      const content = await formatMarkdown(
-        filename,
-        renderTopicGuide(
-          sources,
-          language,
-          { enFilename: FILENAMES.en, ruFilename: FILENAMES.ru, enOrigin: site.originEn, ruOrigin: site.originRu },
-          CONTRIBUTING_ORDER,
-        ),
-      );
-
-      if ((await readExisting(filename)) === content) {
-        console.info(`"${filename}" is up to date.`);
-        continue;
-      }
+    for (const locale of Locale.options) {
+      const filename = localize(texts.guide.filename, locale);
+      const content = await formatMarkdown(filename, renderGuide(entries, locale, GUIDE_ORDER_NODES));
 
       await writeFile(filename, content, 'utf-8');
       console.info(`Created "${filename}".`);
     }
   } catch (error) {
     if (error instanceof Error) {
-      console.error(`Error creating contributing guidelines: ${error.message}`);
+      console.error(`Error creating guide: ${error.message}`);
     }
   }
 
@@ -156,12 +139,4 @@ async function formatMarkdown(filename: string, markdown: string) {
   const options = await prettier.resolveConfig(filename);
 
   return prettier.format(markdown, { ...options, parser: 'markdown', endOfLine: 'lf' });
-}
-
-async function readExisting(filename: string) {
-  try {
-    return (await readFile(filename, 'utf-8')).replace(/\r\n/g, '\n');
-  } catch {
-    return undefined;
-  }
 }

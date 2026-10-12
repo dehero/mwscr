@@ -7,7 +7,7 @@ import type {
   Locale,
 } from '../../core/entities/intl.ts';
 import { site } from '../../core/services/site.ts';
-import { localize as coreLocalize } from '../../core/utils/intl-utils.ts';
+import { localField as coreLocalField, localize as coreLocalize } from '../../core/utils/intl-utils.ts';
 
 const isProduction = import.meta.env.MODE === 'production';
 
@@ -96,13 +96,5 @@ export function localField<K extends string, T extends { [P in K | `${K}Ru`]?: s
   fieldName: K,
   invert = false,
 ): string | undefined {
-  if (!obj) {
-    return undefined;
-  }
-
-  const useRuPostfix = invert ? !isRu() : isRu();
-
-  const key = useRuPostfix ? (`${fieldName}Ru` as const) : fieldName;
-
-  return obj[key] || obj[fieldName];
+  return coreLocalField(obj, fieldName, currentLocale(), invert);
 }

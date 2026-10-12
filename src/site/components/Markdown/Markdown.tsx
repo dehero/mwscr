@@ -1,16 +1,16 @@
 import clsx from 'clsx';
 import type { Component } from 'solid-js';
-import { markdownToInlineHtml } from '../../../core/entities/markdown.ts';
+import { type MarkdownLinkReplacer, markdownToHtml } from '../../../core/entities/markdown.ts';
 import styles from './Markdown.module.css';
 
 interface MarkdownProps {
   children: string;
-  disableLinks?: boolean;
+  linkReplacer?: MarkdownLinkReplacer;
   class?: string;
 }
 
 export const Markdown: Component<MarkdownProps> = (props) => {
-  const html = () => markdownToInlineHtml(props.children, props.disableLinks ? () => [] : undefined).html;
+  const html = () => markdownToHtml(props.children, props.linkReplacer).html;
 
-  return <p class={clsx(styles.markdown, props.class)} innerHTML={html()} />;
+  return <div class={clsx(styles.markdown, props.class)} innerHTML={html()} />;
 };

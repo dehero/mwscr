@@ -140,7 +140,7 @@ export const Navigation: Component = () => {
           </Show>
         </Button>
         <Button href={localeSwitchUrl} onClick={localeSwitchUrl ? undefined : switchLocale}>
-          {localize(texts.app.language, true)}
+          {localize(texts.common.language, true)}
         </Button>
       </div>
       <For each={options()}>

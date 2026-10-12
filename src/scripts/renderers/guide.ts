@@ -1,64 +1,43 @@
-import { texts } from '../texts/index.ts';
-import { localize } from '../utils/intl-utils.ts';
-import { capitalize } from '../utils/string-utils.ts';
-import type { Locale } from './intl.ts';
-import { postViolationDescriptors } from './post.ts';
-import { getTopicIdFromFilename, TOPIC_INDEX_ID, type TopicSource, type TopicSourceEntry } from './topic.ts';
-
-export type TopicGuideLanguage = 'en' | 'ru';
+import { site } from '../../core/services/site.ts';
+import { texts } from '../../core/texts/index.ts';
+import { localField, localize } from '../../core/utils/intl-utils.ts';
+import { capitalize } from '../../core/utils/string-utils.ts';
+import { getTopicIdFromFilename, TOPIC_INDEX_ID, type Topic, type TopicEntry } from '../../core/entities/topic.ts';
+import type { Locale } from '../../core/entities/intl.ts';
+import { postViolationDescriptors } from '../../core/entities/post.ts';
 
 /**
  * A node of the guide table of contents. Nesting defines heading levels, so the
  * resulting document order is fully determined by this tree.
  */
-export interface TopicGuideOrderNode {
+export interface GuideOrderNode {
   id: string;
-  children?: TopicGuideOrderNode[];
+  children?: GuideOrderNode[];
 }
 
-export interface TopicGuideSection {
+export interface GuideSection {
   id: string;
   level: number;
-  topic: TopicSource;
-}
-
-export interface RenderTopicGuideOptions {
-  enFilename: string;
-  ruFilename: string;
-  enOrigin: string;
-  ruOrigin: string;
+  topic: Topic;
 }
 
 const TOPIC_MARKDOWN_LINK_REGEX = /\]\(\.\/([^)]+\.md)\)/g;
 const ROOT_RELATIVE_MARKDOWN_LINK_REGEX = /\]\((\/[^)]*)\)/g;
 const MAX_HEADING_LEVEL = 6;
 
-const LOCALES: Record<TopicGuideLanguage, Locale> = {
-  en: 'en-GB',
-  ru: 'ru',
-};
-
-const DOCUMENT_TITLES: Record<TopicGuideLanguage, string> = {
-  en: 'Contributing Guidelines',
-  ru: 'Руководство для участников',
-};
-
-const CONTENTS_TITLES: Record<TopicGuideLanguage, string> = {
-  en: 'Contents',
-  ru: 'Содержание',
-};
-
 /**
  * Returns sections in the exact order defined by `order`, with levels derived
  * from nesting. Topics present in the data but missing from `order` are
  * appended alphabetically so nothing is silently dropped.
  */
-export function createTopicGuideSections(
-  entries: Iterable<TopicSourceEntry>,
-  order: TopicGuideOrderNode[],
-): TopicGuideSection[] {
-  const topics = new Map(entries);
-  const sections: TopicGuideSection[] = [];
+export function createGuideSections(entries: Iterable<TopicEntry>, order: GuideOrderNode[]): GuideSection[] {
+  const topics = new Map<string, Topic | undefined>();
+
+  for (const [id, topic] of entries) {
+    topics.set(id, topic);
+  }
+
+  const sections: GuideSection[] = [];
   const placed = new Set<string>();
 
   const add = (id: string, level: number) => {
@@ -72,7 +51,7 @@ export function createTopicGuideSections(
     sections.push({ id, level, topic });
   };
 
-  const visit = (nodes: TopicGuideOrderNode[], level: number) => {
+  const visit = (nodes: GuideOrderNode[], level: number) => {
     for (const node of nodes) {
       add(node.id, level);
 
@@ -91,31 +70,27 @@ export function createTopicGuideSections(
   return sections;
 }
 
-export function renderTopicGuide(
-  entries: Iterable<TopicSourceEntry>,
-  language: TopicGuideLanguage,
-  options: RenderTopicGuideOptions,
-  order: TopicGuideOrderNode[],
-): string {
-  const sections = createTopicGuideSections(entries, order).map((section) => ({
+export function renderGuide(entries: Iterable<TopicEntry>, locale: Locale, order: GuideOrderNode[]): string {
+  const sections = createGuideSections(entries, order).map((section) => ({
     ...section,
-    ...localizeTopic(section.topic, language),
+    title: localField(section.topic, 'title', locale),
+    body: localField(section.topic, 'body', locale),
   }));
 
-  const blocks = [renderHeader(language, options), `# ${DOCUMENT_TITLES[language]}`];
+  const blocks = [renderHeader(locale), `# ${localize(texts.guide.title, locale)}`];
 
-  const origin = language === 'ru' ? options.ruOrigin : options.enOrigin;
+  const origin = locale === 'ru' ? site.originRu : site.originEn;
 
   const introduction = sections.find((section) => section.id === TOPIC_INDEX_ID);
-  if (introduction?.markdown) {
-    blocks.push(renderBody(introduction.markdown, origin));
+  if (introduction?.body) {
+    blocks.push(renderBody(introduction.body, origin));
   }
 
   const titledSections = sections.filter((section) => section.id !== TOPIC_INDEX_ID && section.title);
 
-  blocks.push(`## ${CONTENTS_TITLES[language]}`, renderContents(titledSections));
+  blocks.push(`## ${localize(texts.guide.contents, locale)}`, renderContents(titledSections));
 
-  const content = titledSections.map((section, index) => renderSection(section, index, language, origin)).join('\n\n');
+  const content = titledSections.map((section, index) => renderSection(section, index, locale, origin)).join('\n\n');
 
   if (content) {
     blocks.push('---', content);
@@ -124,21 +99,13 @@ export function renderTopicGuide(
   return normalizeMarkdown(`${blocks.join('\n\n')}\n`);
 }
 
-function localizeTopic(topic: TopicSource, language: TopicGuideLanguage) {
-  return {
-    title: language === 'ru' ? (topic.titleRu ?? topic.title) : topic.title,
-    markdown: language === 'ru' ? (topic.markdownRu ?? topic.markdown) : topic.markdown,
-  };
+function renderHeader(locale: Locale) {
+  return locale === 'ru'
+    ? `[${localize(texts.common.language, locale, true)}](${localize(texts.guide.filename, locale, true)}) ${localize(texts.common.language, locale)}`
+    : `${localize(texts.common.language, locale)} [${localize(texts.common.language, locale, true)}](${localize(texts.guide.filename, locale, true)})`;
 }
 
-function renderHeader(language: TopicGuideLanguage, options: RenderTopicGuideOptions) {
-  const en = '`EN`';
-  const ru = '`RU`';
-
-  return language === 'ru' ? `[${en}](${options.enFilename}) ${ru}` : `${en} [${ru}](${options.ruFilename})`;
-}
-
-function renderContents(sections: (TopicGuideSection & { title?: string })[]) {
+function renderContents(sections: (GuideSection & { title?: string })[]) {
   return sections
     .map((section) => {
       const indent = '  '.repeat(Math.max(section.level - 1, 0));
@@ -149,18 +116,17 @@ function renderContents(sections: (TopicGuideSection & { title?: string })[]) {
 }
 
 function renderSection(
-  section: TopicGuideSection & { title?: string; markdown?: string },
+  section: GuideSection & { title?: string; body?: string },
   index: number,
-  language: TopicGuideLanguage,
+  locale: Locale,
   origin: string,
 ) {
-  const locale = LOCALES[language];
   const level = Math.min(Math.max(section.level + 1, 1), MAX_HEADING_LEVEL);
   const heading = `${'#'.repeat(level)} ${capitalize(section.title as string)}`;
   const parts = [`<a id="${section.id}"></a>`, heading];
 
-  if (section.markdown) {
-    parts.push(renderBody(section.markdown, origin));
+  if (section.body) {
+    parts.push(renderBody(section.body, origin));
   }
 
   const violation = Object.values(postViolationDescriptors).find((descriptor) => descriptor.topicId === section.id);

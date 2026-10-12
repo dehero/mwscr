@@ -16,6 +16,8 @@ export type MarkdownLinkDescriptor = [href?: string, external?: boolean];
 
 export type MarkdownLinkReplacer = (url: string) => MarkdownLinkDescriptor;
 
+export const NO_LINK_REPLACER: MarkdownLinkReplacer = () => [];
+
 type MarkdownTableAlignment = 'left' | 'center' | 'right' | undefined;
 
 function splitMarkdownTableRow(line: string) {
@@ -151,42 +153,14 @@ function replaceMarkdownCodeBlocks(markdown: string, createPlaceholder: (html: s
   return result.join('\n');
 }
 
-export function markdownToInlineHtml(markdown: string, linkReplacer?: MarkdownLinkReplacer) {
-  let title;
-  const html = markdown
-    .replace(MARKDOWN_TITLE_REGEX, (_, match) => {
-      title = match;
-      return '';
-    })
-    .replaceAll(MARKDOWN_LINK_LINE_REGEX, (_, title, url) => {
-      const [href, external] = linkReplacer?.(url) ?? [url];
-
-      return href ? `<a href="${href}"${external ? ' target="_blank"' : ''}>${title}</a>  ` : '';
-    })
-    .replaceAll(MARKDOWN_LINK_REGEX, (_, title, url) => {
-      const [href, external] = linkReplacer?.(url) ?? [url];
-
-      return href ? `<a href="${href}"${external ? ' target="_blank"' : ''}>${title}</a>` : title;
-    })
-    .trim()
-    .replaceAll(MARKDOWN_DOUBLE_BR_REGEX, '<br /><br />')
-    .replaceAll(MARKDOWN_BR_REGEX, '<br />');
-
-  return { html, title };
-}
-
 export function markdownToHtml(markdown: string, linkReplacer?: MarkdownLinkReplacer) {
-  let title;
   const codeHtml: string[] = [];
   const createCodePlaceholder = (html: string) => `\uE000${codeHtml.push(html) - 1}\uE001`;
 
-  const source = replaceMarkdownCodeBlocks(
-    markdown.replace(MARKDOWN_TITLE_REGEX, (_, match) => {
-      title = match;
-      return '';
-    }),
-    createCodePlaceholder,
-  ).replaceAll(MARKDOWN_INLINE_CODE_REGEX, (_, code) => createCodePlaceholder(`<code>${escapeCodeHtml(code)}</code>`));
+  const source = replaceMarkdownCodeBlocks(markdown, createCodePlaceholder).replaceAll(
+    MARKDOWN_INLINE_CODE_REGEX,
+    (_, code) => createCodePlaceholder(`<code>${escapeCodeHtml(code)}</code>`),
+  );
 
   const html = replaceMarkdownTables(source)
     .replaceAll(MARKDOWN_IMAGE_REGEX, (_, alt, url) => `<img src="${url}" alt="${alt}" />`)
@@ -209,7 +183,7 @@ export function markdownToHtml(markdown: string, linkReplacer?: MarkdownLinkRepl
     .replaceAll('<br /><br /><pre>', '<br /><pre>')
     .replaceAll('</pre><br /><br />', '</pre><br />');
 
-  return { html, title };
+  return { html };
 }
 
 export function markdownToTelegramHtml(markdown: string) {

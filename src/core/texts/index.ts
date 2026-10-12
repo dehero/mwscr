@@ -1,5 +1,6 @@
 import { commonTexts } from './common-texts.ts';
 import { fieldTexts } from './field-texts.ts';
+import { guideTexts } from './guide-texts.ts';
 import { locationTexts } from './location-texts.ts';
 import { metricsTexts } from './metrics-texts.ts';
 import { postFilterTexts } from './post-filter-texts.ts';
@@ -12,6 +13,7 @@ import { userTexts } from './user-texts.ts';
 export const texts = {
   common: commonTexts,
   field: fieldTexts,
+  guide: guideTexts,
   location: locationTexts,
   metrics: metricsTexts,
   post: postTexts,

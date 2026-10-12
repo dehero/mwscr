@@ -121,13 +121,18 @@ export const HelpPage: SiteRoutePage<HelpPageParams, HelpPageData> = (props) => 
             </a>
           </li>
           <li>
+            <a class={styles.topic} href={createDetachedDialogFragment('sponsorship')}>
+              {localize(texts.support.sponsor)}
+            </a>
+          </li>
+          <li>
             <a class={styles.topic} href={createDetachedDialogFragment('contributing')}>
               {localize(texts.contributing.contribute)}
             </a>
           </li>
           <li>
-            <a class={styles.topic} href={createDetachedDialogFragment('sponsorship')}>
-              {localize(texts.support.sponsor)}
+            <a class={styles.topic} href={localize(texts.guide.url)} target="_blank">
+              {localize(texts.guide.title)}
             </a>
           </li>
           <li>
