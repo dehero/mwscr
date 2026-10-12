@@ -146,7 +146,7 @@
     - service: tg
       id: 682
       published: 2025-01-26-18-09-37
-      updated: 2026-10-05-06-35-14
+      updated: 2026-10-12-12-47-29
       followers: 660
       likes: 75
       views: 626
@@ -937,18 +937,18 @@
     - service: vk
       id: 3575
       published: 2026-09-27-19-43-36
-      updated: 2026-10-05-05-20-34
+      updated: 2026-10-12-12-47-13
       followers: 1445
-      likes: 65
-      views: 534
+      likes: 67
+      views: 562
       reposts: 1
     - service: tg
       id: 1324
       published: 2026-09-27-19-43-42
-      updated: 2026-10-05-05-20-41
+      updated: 2026-10-12-12-47-09
       followers: 942
       likes: 64
-      views: 344
+      views: 410
       comments: !c |-
         iymAkpPLQnoOZGaCgACra2FyYXRlZGFuY2XZINGN0YLQviDQt9Cw0LzQtdGH0LDRgtC10LvRjNC9
         0L4uk8tCeg5GWKmAAKtnb29zZXZpY2g3NqTwn5iQAw==
@@ -1955,18 +1955,18 @@
     - service: vk
       id: 3587
       published: 2026-10-04-21-18-36
-      updated: 2026-10-11-08-20-51
+      updated: 2026-10-12-12-47-12
       followers: 1445
       likes: 43
-      views: 544
+      views: 548
       reposts: 1
     - service: tg
       id: 1331
       published: 2026-10-04-21-18-41
-      updated: 2026-10-11-08-20-49
+      updated: 2026-10-12-12-47-06
       followers: 946
-      likes: 49
-      views: 316
+      likes: 50
+      views: 327
     - service: mx
       id: '1791148726516'
       published: 2026-10-04-21-18-46
@@ -1975,9 +1975,9 @@
       id: DeXd0E1IKCA
       mediaId: '18133713172668548'
       published: 2026-10-11-19-59-44
-      updated: 2026-10-12-04-34-23
+      updated: 2026-10-12-12-47-06
       followers: 3470
-      likes: 93
+      likes: 109
 2025-05-20-mans-best-friend:
   title: Man's Best Friend
   titleRu: Лучший друг человека
