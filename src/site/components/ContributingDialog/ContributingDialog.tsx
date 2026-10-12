@@ -33,8 +33,8 @@ const ContributingDialog: DetachedDialog<ContributingDialogTab> = (props) => {
       contentClass={styles.container}
       summary={
         <>
-          <a href="https://github.com/dehero/mwscr/blob/main/CONTRIBUTING.md" class={styles.link} target="_blank">
-            {localize(texts.contributing.guidelines)}
+          <a href={localize(texts.guide.url)} class={styles.link} target="_blank">
+            {localize(texts.guide.title)}
           </a>
           {' • '}
           <a href="/users/dehero" class={styles.link} target="_blank">

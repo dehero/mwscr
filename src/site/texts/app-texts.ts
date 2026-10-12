@@ -31,7 +31,6 @@ export const appTexts = {
     'Image editor for Morrowind Screenshots project.',
     'Редактор изображений проекта Morrowind Screenshots.',
   ],
-  language: ['EN', 'RU'],
   title: ['Morrowind Screenshots', 'Morrowind Screenshots'],
   description: [
     'Original screenshots and videos from The Elder Scrolls III: Morrowind. No graphic and unlore mods. No color filters. No interface.',

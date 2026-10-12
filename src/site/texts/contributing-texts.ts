@@ -3,7 +3,6 @@ import type { IntlText } from '../../core/entities/intl.ts';
 export const contributingTexts = {
   contribute: ['Contribute', 'Участвовать'],
   contributing: ['Contributing', 'Участие'],
-  guidelines: ['Contributing Guidelines', 'Руководство для участников'],
   variants: ['Variants', 'Варианты'],
   settings: ['Settings', 'Настройки'],
   submitFiles: ['Submit Files', 'Отправить файлы'],

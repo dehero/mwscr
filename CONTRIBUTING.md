@@ -1,6 +1,6 @@
-`EN` [`RU`](CONTRIBUTING.ru.md)
+EN [RU](CONTRIBUTING.ru.md)
 
-# Contributing Guidelines
+# Guide
 
 Here you can find information about [Morrowind Screenshots](#mwscr) project.
 

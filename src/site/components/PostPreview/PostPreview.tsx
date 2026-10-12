@@ -2,7 +2,7 @@ import clsx from 'clsx';
 import { type Component, createSignal, For, Show } from 'solid-js';
 import { Dynamic } from 'solid-js/web';
 import avatar from '../../../../assets/avatar.png?format=avif&imagetools';
-import { markdownToInlineHtml } from '../../../core/entities/markdown.ts';
+import { NO_LINK_REPLACER, markdownToHtml } from '../../../core/entities/markdown.ts';
 import { getLimitedAspectRatio } from '../../../core/entities/media.ts';
 import { postAddonDescriptors, postViolationDescriptors } from '../../../core/entities/post.ts';
 import type { PostInfo } from '../../../core/entities/post-info.ts';
@@ -50,7 +50,7 @@ export const PostPreview: Component<PostPreviewProps> = (props) => {
   const frameState = () => (props.selected ? 'selected' : props.postInfo.status ? 'unsaved' : undefined);
 
   const description = () => localField(props.postInfo, 'description') ?? props.postInfo.descriptionRu ?? '';
-  const hasRenderableDescription = () => markdownToInlineHtml(description(), () => []).html.length > 0;
+  const hasRenderableDescription = () => markdownToHtml(description(), NO_LINK_REPLACER).html.length > 0;
 
   const [ref, setRef] = createSignal<HTMLElement>();
 
@@ -163,7 +163,7 @@ export const PostPreview: Component<PostPreviewProps> = (props) => {
           <Show when={hasRenderableDescription()}>
             <Divider />
             <div class={styles.description}>
-              <Markdown disableLinks>{description()}</Markdown>
+              <Markdown linkReplacer={NO_LINK_REPLACER}>{description()}</Markdown>
             </div>
           </Show>
         </Frame>

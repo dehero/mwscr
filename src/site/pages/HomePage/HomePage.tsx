@@ -134,12 +134,12 @@ export const HomePage: SiteRoutePage<SiteRouteParams, HomePageData> = () => {
                       {localize(texts.support.subscribe)}
                     </Button>
 
-                    <Button href={createDetachedDialogFragment('contributing')}>
-                      {localize(texts.contributing.contribute)}
-                    </Button>
-
                     <Button href={createDetachedDialogFragment('sponsorship')}>
                       {localize(texts.support.sponsor)}
+                    </Button>
+
+                    <Button href={createDetachedDialogFragment('contributing')}>
+                      {localize(texts.contributing.contribute)}
                     </Button>
                   </p>
                 </div>

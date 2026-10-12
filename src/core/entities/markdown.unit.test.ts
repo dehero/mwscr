@@ -3,11 +3,10 @@ import { test } from 'node:test';
 import { markdownToHtml } from './markdown.ts';
 
 test('markdownToHtml', async (t) => {
-  await t.test('should extract the title and keep inline text', () => {
-    const { html, title } = markdownToHtml('# topic title\n\nSome plain text.');
+  await t.test('should render markdown as is without extracting a title', () => {
+    const { html } = markdownToHtml('# topic title\n\nSome plain text.');
 
-    assert.strictEqual(title, 'topic title');
-    assert.strictEqual(html, 'Some plain text.');
+    assert.strictEqual(html, '# topic title<br /><br />Some plain text.');
   });
 
   await t.test('should render a table with an underlined header and alignment', () => {

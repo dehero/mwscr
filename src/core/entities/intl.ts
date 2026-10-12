@@ -1,6 +1,8 @@
 import { type FormatXMLElementFn, IntlMessageFormat, type PrimitiveType } from 'intl-messageformat';
+import { picklist, type InferOutput } from 'valibot';
 
-export type Locale = 'en-GB' | 'ru';
+export const Locale = picklist(['en-GB', 'ru']);
+export type Locale = InferOutput<typeof Locale>;
 
 export type IntlText = [en: string, ru?: string];
 

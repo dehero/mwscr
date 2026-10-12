@@ -17,4 +17,5 @@ export const commonTexts = {
   cancel: ['Cancel', 'Отмена'],
   copy: ['Copy', 'Копировать'],
   and: ['and', 'и'],
+  language: ['EN', 'RU'],
 } satisfies Record<string, IntlText>;
