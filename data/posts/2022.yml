@@ -576,18 +576,27 @@
     - service: vk
       id: 3607
       published: 2026-10-12-21-38-51
-      updated: 2026-10-13-17-57-22
+      updated: 2026-10-13-22-27-19
       followers: 1453
-      likes: 31
-      views: 311
+      likes: 34
+      views: 349
       reposts: 1
     - service: tg
       id: 1341
       published: 2026-10-12-21-38-57
-      updated: 2026-10-13-17-57-22
+      updated: 2026-10-13-22-27-19
       followers: 949
-      likes: 40
-      views: 143
+      likes: 41
+      views: 146
+    - service: ig
+      id: Dec4ruDgVjb
+      mediaId: '18176650027451521'
+      published: 2026-10-13-22-30-41
+      followers: 3563
+    - service: mx
+      id: '1791930659577'
+      published: 2026-10-13-22-31-00
+      followers: 39
 2022-07-03-crossing-the-edge-of-bitter-coast:
   title: Crossing the Edge of Bitter Coast
   titleRu: Пересекая край Горького берега

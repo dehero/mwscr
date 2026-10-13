@@ -198,6 +198,14 @@
       followers: 722
       likes: 62
       views: 701
+    - service: vk
+      id: 3608
+      published: 2026-10-13-22-30-48
+      followers: 1454
+    - service: tg
+      id: 1342
+      published: 2026-10-13-22-30-54
+      followers: 949
 2017-01-06-daedroth-in-grazelands:
   title: Daedroth in Grazelands
   titleRu: Даэдрот в Грейзленде
@@ -8494,9 +8502,9 @@
       id: DeP8OL2mOHI
       mediaId: '17909453241482142'
       published: 2026-10-08-21-51-33
-      updated: 2026-10-12-21-35-03
+      updated: 2026-10-13-22-27-31
       followers: 3337
-      likes: 199
+      likes: 200
       comments: !c |-
         iyCAkZPLQnoR2RXCAACwYm9hbmVyZmFwcGVyOTk5OdkkSSBmZWx0IHdyb25nIHJpZmxpbmcgYXJv
         dW5kIGluIHRoZXJlAw==
@@ -9663,9 +9671,9 @@
       id: DeYZKnmFRqC
       mediaId: '17989410828077067'
       published: 2026-10-12-04-38-28
-      updated: 2026-10-13-17-57-28
+      updated: 2026-10-13-22-27-27
       followers: 3496
-      likes: 304
+      likes: 309
       comments: !c |-
         C0yAlJPLQnoTXefYAACpYWxtYWxleGlhsFdhaXQgdGhhdOKAmXMgbWWTy0J6EwMQOoAArnNwYWNl
         Y293Z2lybDEyq1RoZSBvZyBkaXZhk8tCehL3mWoAAKhncmltYm9vdK50aGUgT0cgcmVkaGVhZJPL
@@ -16483,10 +16491,10 @@
     - service: vk
       id: 3596
       published: 2026-10-08-21-52-11
-      updated: 2026-10-12-21-34-52
+      updated: 2026-10-13-22-27-22
       followers: 1451
-      likes: 59
-      views: 505
+      likes: 61
+      views: 520
       reposts: 2
       comments: !c |-
         G+gBIK0OeDPmKqGmdgNk0GMQfoRKp3/sQtIf36z6GV4qWMJC51k62YSWs9jhSEgAoa6/3vr0d1ed
@@ -16497,10 +16505,10 @@
     - service: tg
       id: 1337
       published: 2026-10-08-21-52-17
-      updated: 2026-10-12-21-34-55
+      updated: 2026-10-13-22-27-25
       followers: 948
-      likes: 44
-      views: 241
+      likes: 45
+      views: 255
     - service: mx
       id: '1791496341538'
       published: 2026-10-08-21-52-21
@@ -16509,9 +16517,9 @@
       id: DeaySf1DVWg
       mediaId: '18156782035509014'
       published: 2026-10-13-02-56-18
-      updated: 2026-10-13-17-57-25
+      updated: 2026-10-13-22-27-24
       followers: 3530
-      likes: 138
+      likes: 144
 2017-11-02-trebonius-artorius:
   title: Trebonius Artorius
   titleRu: Требониус Арториус
@@ -19160,9 +19168,9 @@
       id: DeZRjaRIJaa
       mediaId: '17988160503070062'
       published: 2026-10-12-12-51-02
-      updated: 2026-10-13-17-57-27
+      updated: 2026-10-13-22-27-26
       followers: 3510
-      likes: 189
+      likes: 202
 2017-12-22-note-to-telvon:
   title: Note to Telvon
   titleRu: Записка Телвону
@@ -19281,10 +19289,10 @@
     - service: tg
       id: 1338
       published: 2026-10-09-20-36-06
-      updated: 2026-10-12-21-34-54
+      updated: 2026-10-13-22-27-23
       followers: 948
-      likes: 56
-      views: 228
+      likes: 58
+      views: 258
       comments: !c |-
         iyqAkZTLQnoSLJgtAAClYW5zaXOzQnVjayB0aGUgd2hhdD8g8J+YqJPLQnoSMuV1AACnbWxlbm5p
         Y75wcm9iYWJseSBqdXN0IGFuIGFyZ29uaWFuIG5hbWUD
@@ -19315,9 +19323,12 @@
       id: DebkGaJF6ih
       mediaId: '17908207665563090'
       published: 2026-10-13-10-11-33
-      updated: 2026-10-13-17-57-23
+      updated: 2026-10-13-22-27-23
       followers: 3539
-      likes: 174
+      likes: 238
+      comments: !c |-
+        G2cA6B2J6bYDWVz9EbXuAg/kxNkT+1bWO7zWSizL2gLKNLFqcjlbABWdcsBeCxMJsMVwED1swLHO
+        Q3D8a+qGrVPmkuYJNpKfx2IgLHdxBKVAF+MSR6Tc+OIOKjVRKn+vAw==
 2017-12-25-corridors-of-tribunal:
   title: Corridors of Tribunal
   titleRu: Коридоры Трибунала
