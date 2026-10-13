@@ -14,7 +14,7 @@ To remove the effect type:
 removespell mannequinchallenge
 ```
 
-[Download](/plugins/MannequinChallenge.esp)
+[Download MannequinChallenge](/plugins/MannequinChallenge.esp)
 
 ---
 
@@ -34,4 +34,4 @@ addspell mannequinchallenge
 removespell mannequinchallenge
 ```
 
-[Скачать](/plugins/MannequinChallenge.esp)
+[Скачать MannequinChallenge](/plugins/MannequinChallenge.esp)

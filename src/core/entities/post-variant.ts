@@ -89,7 +89,9 @@ export const Achievement = object({
 
 export const Merch = object({
   type: literal('merch'),
-  snapshot: union([ImageResourceUrl, array(ImageResourceUrl, 'Should be a list of resource strings')]),
+  description: PostDescription,
+  descriptionRu: PostDescription,
+  content: union([ImageResourceUrl, array(ImageResourceUrl, 'Should be a list of resource strings')]),
 });
 
 export const PostVariant = variant('type', [

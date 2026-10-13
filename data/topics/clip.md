@@ -1,7 +1,8 @@
 # Clip
 
-A [post type](./post-types.md) containing a short video in the supported [formats](./file-format.md), sized for social
-feeds. It is used for brief, self-contained moments; longer or horizontal videos belong to [Video](./video.md).
+A short video of up to 1 minute, square or vertical, sized for social feeds. It is used for small self-contained moments
+from the [game world](./morrowind.md) as the video analogue of [static shots](./shot.md). Longer and horizontal videos
+belong to [Video](./video.md).
 
 [Go to Clips](/posts/?type=clip)
 
@@ -9,7 +10,8 @@ feeds. It is used for brief, self-contained moments; longer or horizontal videos
 
 # Клип
 
-[Тип поста](./post-types.md) с коротким видео до 1 минуты, рассчитанный на социальные ленты. Используется для коротких
-самостоятельных моментов; более длинные и горизонтальные видео относятся к типу [Видео](./video.md).
+Короткое видео до 1 минуты, квадратное или вертикальное, рассчитанное на социальные ленты. Используется для небольших
+самостоятельных моментов из [игрового мира](./morrowind.md) как видео-аналог [статических кадров](./shot.md). Более
+длинные и горизонтальные видео относятся к типу [Видео](./video.md).
 
 [Перейти к клипам](/posts/?type=clip)

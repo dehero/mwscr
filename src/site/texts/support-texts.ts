@@ -16,7 +16,7 @@ export const supportTexts = {
   ],
   merchShippingRequest: [
     'Hello!\n\nPlease check if {country} is available to deliver "{title}" merch.',
-    'Здравствуйте!\n\nПожалуйста, проверьте, доступна ли доставка мерча «{title}» в страну {country}.',
+    'Здравствуйте!\n\nПожалуйста, проверьте, доступна ли доставка мерча "{title}" в страну {country}.',
   ],
   orderOn: ['Order on {service}', 'Заказать через {service}'],
   sendEmail: ['Send Email', 'Отправить письмо'],

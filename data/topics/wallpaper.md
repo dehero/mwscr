@@ -1,7 +1,8 @@
 # Wallpaper
 
-A [post type](./post-types.md) with screenshot composed to work as a desktop or smartphone wallpaper, in both horizontal
-and vertical orientations.
+A screenshot composed to work as a desktop or smartphone wallpaper, in both horizontal and vertical orientations.
+Horizontal wallpapers and [Shots](./shot.md) with a horizontal orientation have
+[different aspect ratios](./post-types.md).
 
 [Go to Wallpapers](/posts/?type=wallpaper)
 
@@ -9,7 +10,8 @@ and vertical orientations.
 
 # Обои
 
-[Тип поста](./post-types.md), содержащий скриншот, созданный для использования в качестве обоев рабочего стола или
-смартфона, в горизонтальной и вертикальной ориентации.
+Скриншот, созданный для использования в качестве обоев рабочего стола или смартфона, в горизонтальной и вертикальной
+ориентации. У горизонтальных обоев и постов типа [Кадр](#shot) с горизонтальной ориентацией
+[разное соотношение сторон](./post-types.md).
 
 [Перейти к обоям](/posts/?type=wallpaper)

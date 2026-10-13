@@ -7,7 +7,7 @@
 Оригинальные скриншоты и видео из The Elder Scrolls III: Morrowind. Графические и нелорные моды не используются.
 Цветовые фильтры не применяются. Элементы интерфейса скрыты.
 
-- [Сайт](https://mwscr.dehero.site)
+- [Сайт](https://mwscr.dehero.ru)
 - [Instagram](https://instagram.com/mwscr/)
 - [VK](https://vk.com/mwscr)
 - [Telegram](https://t.me/mwscr)
@@ -20,51 +20,13 @@
 [Bethesda Softworks](https://elderscrolls.bethesda.net/en/morrowind). Большинство работ создано с помощью движка
 [OpenMW](https://openmw.org/), создаваемого на открытых началах. Основные материалы:
 
-- [Посты](https://mwscr.dehero.site/posts/)
-- [Дополнительные материалы](https://mwscr.dehero.site/extras/)
-- [Черновики](https://mwscr.dehero.site/drafts/)
-- [Отклонённые](https://mwscr.dehero.site/rejects/)
-- [Участники](https://mwscr.dehero.site/users/)
+- [Посты](https://mwscr.dehero.ru/posts/)
+- [Материалы](https://mwscr.dehero.ru/extras/)
+- [Черновики](https://mwscr.dehero.ru/drafts/)
+- [Отклонённые](https://mwscr.dehero.ru/rejects/)
+- [Участники](https://mwscr.dehero.ru/users/)
 
-Если хотите принять участие в проекте, пожалуйста, прочитайте [руководство для участников](CONTRIBUTING.ru.md).
-
-### Основные типы постов
-
-- [Shot](https://mwscr.dehero.site/help/shot/) - квадратный или горизонтальный скриншот;
-- [Compilation](https://mwscr.dehero.site/help/compilation/) - тематическая подборка из четырёх ранее опубликованных
-  скриншотов;
-- [Wallpaper](https://mwscr.dehero.site/help/wallpaper/) - горизонтальный или вертикальный скриншот, подходящий в
-  качестве обоев рабочего стола или смартфона;
-- [Clip](https://mwscr.dehero.site/help/clip/) - квадратное или вертикальное видео продолжительностью до 1 минуты;
-- [Video](https://mwscr.dehero.site/help/video/) - прямоугольное видео продолжительностью не более 1 часа.
-
-### Дополнительные типы постов
-
-- [News](https://mwscr.dehero.site/help/news/) - новости проекта;
-- [Mention](https://mwscr.dehero.site/help/mention/) - упоминание о проекте;
-- [Photoshop](https://mwscr.dehero.site/help/photoshop/) - фотомонтаж на основе ранее опубликованного скриншота;
-- [Redrawing](https://mwscr.dehero.site/help/redrawing/) - рисунок на основе ранее опубликованного скриншота;
-- [Outtakes](https://mwscr.dehero.site/help/outtakes/) - интересные скриншоты, отвергнутые или нарушающие правила
-  проекта;
-- [Achievement](https://mwscr.dehero.site/help/achievement/) - знаменательное достижение в проекте или в игре;
-- [Merch](https://mwscr.dehero.site/help/merch/) - мерч, который можно приобрести для поддержки проекта.
-
-### Публикация
-
-[Черновики](https://mwscr.dehero.site/drafts/), успешно прошедшие [редактуру](CONTRIBUTING.ru.md#редактура), попадают в
-[шорт-лист](https://mwscr.dehero.site/drafts/?publishable=true), откуда постепенно берутся для создания новых постов.
-Выбор нового поста происходит ежедневно.
-
-Пост публикуется одновременно во всех аккаунтах проекта, поддерживающих данный тип постов. В текст поста включаются:
-
-- название;
-- описание (при наличии);
-- автор (если автором не является администратор проекта);
-- имя запросившего пост (если пост сделан по запросу);
-- теги;
-- локация (при наличии).
-
-Ранее опубликованные посты могут публиковаться повторно, без изменений, либо в рамках другого типа постов.
+Если хотите принять участие в проекте, пожалуйста, прочитайте [руководство](CONTRIBUTING.ru.md).
 
 ## О репозитории
 
@@ -203,3 +165,7 @@ npm run release
 
 Вы можете использовать части кода проекта для любых целей, но не копировать проект в целом. Вы свободны использовать
 контент проекта для любых целей со ссылкой на первоисточник и автора.
+
+Все права на The Elder Scrolls III: Morrowind, персонажей, текстуры и ассеты принадлежат Bethesda Softworks и ZeniMax
+Media. Права на русскоязычную локализацию Morrowind, используемую в проекте, включая тексты и озвучивание, принадлежат
+компаниям Акелла и 1С-СофтКлаб.

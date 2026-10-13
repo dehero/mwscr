@@ -80,6 +80,10 @@ const GUIDE_ORDER_NODES: GuideOrderNode[] = [
     children: [{ id: 'tamriel-rebuilt' }, { id: 'nofightnohello' }, { id: 'mannequinchallenge' }, { id: 'trackpath' }],
   },
   {
+    id: 'locations',
+    children: [{ id: 'world-map' }],
+  },
+  {
     id: 'editing',
     children: [
       {
@@ -99,18 +103,24 @@ const GUIDE_ORDER_NODES: GuideOrderNode[] = [
       {
         id: 'preparing-post',
         children: [
+          { id: 'post-media' },
           { id: 'post-title' },
+          { id: 'post-description' },
           { id: 'post-author' },
           { id: 'post-tags' },
           { id: 'post-location' },
+          { id: 'post-placement' },
           { id: 'post-mark' },
         ],
       },
+      { id: 'post-id' },
     ],
   },
-  { id: 'publication', children: [{ id: 'post-statistics' }, { id: 'post-rating' }, { id: 'contribution' }] },
-  { id: 'license' },
-  { id: 'morrowind' },
+  {
+    id: 'publication',
+    children: [{ id: 'post-selection' }, { id: 'post-statistics' }, { id: 'post-rating' }, { id: 'contribution' }],
+  },
+  { id: 'license', children: [{ id: 'morrowind' }] },
 ];
 
 export async function createGuide() {
