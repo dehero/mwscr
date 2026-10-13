@@ -1,7 +1,7 @@
 # Photoshop
 
-A [post type](./post-types.md) with a photomontage based on a previously published screenshot. Should include the
-original screenshot for comparison.
+A photomontage based on a previously published [Shot](./shot.md). This [post type](./post-types.md), like
+[Redrawing](./redrawing.md), includes the original shot as a second image, for comparison.
 
 [Go to Photoshops](/extras/?type=photoshop)
 
@@ -9,7 +9,7 @@ original screenshot for comparison.
 
 # Фотомонтаж
 
-[Тип поста](./post-types.md), содержащий фотомонтаж на основе ранее опубликованного скриншота. Также должен включать
-оригинальный скриншот для сравнения.
+Фотомонтаж на основе ранее опубликованного [кадра](./shot.md). Такой [тип поста](./post-types.md), как и
+[Перерисовка](./redrawing.md) включает в себя оригинальный кадр вторым изображением, для сравнения.
 
 [Перейти к фотомонтажам](/extras/?type=photoshop)

@@ -3,7 +3,8 @@
 The project contributor who proposed the original work for publication. For [Redrawing](./redrawing.md) type posts, the
 first author is the author of the drawing, and the second author is the author of the original post. For
 [Compilation](./compilation.md) posts, the authors of all images in the set are listed. Each of these authors must be
-added to the [members list](./members.md) beforehand.
+added to the [members list](./members.md) beforehand. A member listed as the author of a published work receives the
+[author](./author.md) role.
 
 ---
 
@@ -12,4 +13,5 @@ added to the [members list](./members.md) beforehand.
 Участник проекта, предложивший оригинальную работу для публикации. Для постов типа [Перерисовка](./redrawing.md) первый
 автор - автор рисунка, а второй автор - автор исходного поста. Для постов типа [Подборка](./compilation.md) указываются
 авторы всех изображений в наборе. Каждый из указанных авторов должен быть предварительно внесён в
-[список участников](./members.md).
+[список участников](./members.md). Участник, указанный в качестве автора опубликованной работы, получает роль
+[автора](./author.md).

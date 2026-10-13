@@ -9,6 +9,7 @@ Here you can find information about [Morrowind Screenshots](#mwscr) project.
 - [Morrowind Screenshots](#mwscr)
   - [Posts](#posts)
   - [Extras](#extras)
+  - [Drafts](#drafts)
   - [Rejects](#trash)
 - [Core principles](#core-principles)
   - [No modifications](#no-mods)
@@ -60,6 +61,8 @@ Here you can find information about [Morrowind Screenshots](#mwscr) project.
   - [NoFightNoHello](#nofightnohello)
   - [MannequinChallenge](#mannequinchallenge)
   - [TrackPath](#trackpath)
+- [Locations](#locations)
+  - [World map](#world-map)
 - [Editing](#editing)
   - [Violations](#violations)
     - [Appropriate content](#appropriate-content)
@@ -71,19 +74,23 @@ Here you can find information about [Morrowind Screenshots](#mwscr) project.
     - [No graphic issues](#no-graphic-issues)
   - [Merging posts](#merging-posts)
   - [Allowed processing](#allowed-processing)
-  - [Drafts](#drafts)
   - [Preparing a post](#preparing-post)
+    - [Post media](#post-media)
     - [Post title](#post-title)
+    - [Post description](#post-description)
     - [Post author](#post-author)
     - [Post tags](#post-tags)
     - [Post location](#post-location)
+    - [Post placement](#post-placement)
     - [Editor's mark](#post-mark)
+  - [Post identifier](#post-id)
 - [Publication](#publication)
+  - [Post selection](#post-selection)
   - [Post statistics](#post-statistics)
   - [Post rating](#post-rating)
   - [Members contribution](#contribution)
 - [License](#license)
-- [Morrowind](#morrowind)
+  - [Morrowind](#morrowind)
 
 ---
 
@@ -121,6 +128,17 @@ Secondary section of [Morrowind Screenshots](#mwscr) project, which includes var
 that can ignore some of [violations](#violations) or for which they cannot be applied.
 
 [Go to Extras](https://mwscr.dehero.site/extras/)
+
+<a id="drafts"></a>
+
+### Drafts
+
+A place where all incoming [screenshots, videos, drawings](#proposal) and [post requests](#request) are stored. Everyone
+can see what was proposed and what's going to be posted. [The editing](#editing) is made on Drafts content. Posts for
+[publication](#publication) are selected from Drafts by the [post selection](#post-selection) rules. If the files of a
+draft are removed from the storage, the draft is automatically rejected and moved to [Rejects](#trash).
+
+[Go to Drafts](https://mwscr.dehero.site/drafts/)
 
 <a id="trash"></a>
 
@@ -164,6 +182,8 @@ Screenshots and videos that have been processed in a graphic editor beforehand w
 [Minor processing](#allowed-processing) is allowed only during [the editing process](#editing). If you still want to
 offer your own variant of processing, be sure to send the original image as well.
 
+> **Possible Violation:** Graphic filters
+
 <a id="no-ui"></a>
 
 ### No interface elements
@@ -180,34 +200,33 @@ from the screen. You can disable the interface with the console command `tm` or 
 
 ## Post types
 
-Post types of the [Posts](#posts) section must meet the [core principles](#core-principles):
+Posts [in main section](#posts) must meet the [core principles](#core-principles) and the following requirements:
 
-| Type                        | Aspect ratios          | Files | Min side | Max duration | Requirements                      |
-| --------------------------- | :--------------------- | ----: | -------: | ------------ | --------------------------------- |
-| [Shot](#shot)               | 1:1, 3:2               |     1 |    800px |              |                                   |
-| [Compilation](#compilation) | 1:1, 3:2, 16:9, 9:19.5 |     4 |    800px |              | Only previously published images. |
-| [Wallpaper](#wallpaper)     | 16:9, 9:19.5           |     1 |    800px |              |                                   |
-| [Clip](#clip)               | 1:1, 9:16              |     1 |   1080px | 1 minute     |                                   |
-| [Video](#video)             | 16:9                   |     1 |   1080px | 1 hour       |                                   |
+| Type                        | Aspect ratios          | Content | Min side | Max duration | Requirements                      |
+| --------------------------- | :--------------------- | ------: | -------: | ------------ | --------------------------------- |
+| [Shot](#shot)               | 1:1, 3:2               |       1 |    800px |              |                                   |
+| [Compilation](#compilation) | 1:1, 3:2, 16:9, 9:19.5 |       4 |    800px |              | Only previously published images. |
+| [Wallpaper](#wallpaper)     | 16:9, 9:19.5           |       1 |    800px |              |                                   |
+| [Clip](#clip)               | 1:1, 9:16              |       1 |   1080px | 1 minute     |                                   |
+| [Video](#video)             | 16:9                   |       1 |   1080px | 1 hour       |                                   |
 
-Post types of the [Extras](#extras) section are more democratic:
+The [Extras](#extras) section is more democratic and includes:
 
-| Type                        | Files | Requirements                      |
-| --------------------------- | ----: | --------------------------------- |
-| [Redrawing](#redrawing)     |     2 | Includes the original shot.       |
-| [Outtakes](#outtakes)       |    10 |                                   |
-| [News](#news)               |       | Text description required.        |
-| [Photoshop](#photoshop)     |     2 | Includes the original screenshot. |
-| [Mention](#mention)         |     1 |                                   |
-| [Merch](#merch)             |    1+ |                                   |
-| [Achievement](#achievement) |    1+ |                                   |
+| Type                        | Content | Requirements                                         |
+| --------------------------- | ------: | ---------------------------------------------------- |
+| [Redrawing](#redrawing)     |       2 | Includes the original shot.                          |
+| [Outtakes](#outtakes)       |      10 |                                                      |
+| [Photoshop](#photoshop)     |       2 | Includes the original shot.                          |
+| [Mention](#mention)         |         | A [snapshot](#post-media) is required.               |
+| [News](#news)               |         | A [text description](#post-description) is required. |
+| [Merch](#merch)             |      1+ |                                                      |
+| [Achievement](#achievement) |      1+ |                                                      |
 
 <a id="shot"></a>
 
 ### Shot
 
-A square 1:1 or rectangular 3:2 screenshot, the most popular [type of posts](#post-types) in
-[Morrowind Screenshots](#mwscr).
+A square or rectangular screenshot, the most popular [type of posts](#post-types) in [Morrowind Screenshots](#mwscr).
 
 [Go to Shots](https://mwscr.dehero.site/posts/?type=shot)
 
@@ -215,7 +234,7 @@ A square 1:1 or rectangular 3:2 screenshot, the most popular [type of posts](#po
 
 ### Compilation
 
-A [post type](#post-types) which is a set made of 4 previously published [Posts](#posts) of other types united by a
+A set made of 4 previously published posts of [other types](#post-types) from the [main section](#posts), united by a
 common subject or idea. All items must share the same [aspect ratio](#aspect-ratio).
 
 [Go to Compilations](https://mwscr.dehero.site/posts/?type=compilation)
@@ -224,8 +243,8 @@ common subject or idea. All items must share the same [aspect ratio](#aspect-rat
 
 ### Wallpaper
 
-A [post type](#post-types) with screenshot composed to work as a desktop or smartphone wallpaper, in both horizontal and
-vertical orientations.
+A screenshot composed to work as a desktop or smartphone wallpaper, in both horizontal and vertical orientations.
+Horizontal wallpapers and [Shots](#shot) with a horizontal orientation have [different aspect ratios](#post-types).
 
 [Go to Wallpapers](https://mwscr.dehero.site/posts/?type=wallpaper)
 
@@ -233,8 +252,9 @@ vertical orientations.
 
 ### Clip
 
-A [post type](#post-types) containing a short video in the supported [formats](#file-format), sized for social feeds. It
-is used for brief, self-contained moments; longer or horizontal videos belong to [Video](#video).
+A short video of up to 1 minute, square or vertical, sized for social feeds. It is used for small self-contained moments
+from the [game world](#morrowind) as the video analogue of [static shots](#shot). Longer and horizontal videos belong to
+[Video](#video).
 
 [Go to Clips](https://mwscr.dehero.site/posts/?type=clip)
 
@@ -242,8 +262,10 @@ is used for brief, self-contained moments; longer or horizontal videos belong to
 
 ### Video
 
-A [post type](#post-types) containing a long-form video in the supported [formats](#file-format). It is used for
-extended recordings — where a short [Clip](#clip) would be too restrictive.
+A long-form horizontal video of more than 1 minute, containing beautiful or interesting footage of the
+[game world](#morrowind). It is used where a short [Clip](#clip) is not enough. Like screenshots, videos must follow the
+[core principles of the project](#core-principles), including not containing [UI elements](#no-ui). The
+[format and quality of the video file](#file-format) are also important.
 
 [Go to Videos](https://mwscr.dehero.site/posts/?type=video)
 
@@ -260,8 +282,9 @@ image for comparison, with a credit to [the original author](#post-author).
 
 ### Outtakes
 
-A [post type](#post-types) with a compilation of 10 screenshots from [Morrowind](#morrowind) that violate the
-[strict rules of the project](#violations), but look interesting.
+A set of 10 interesting screenshots or videos from [Morrowind](#morrowind) that violate the
+[strict rules of the project](#violations), submitted by [project members](#members). It is the most democratic
+[post type](#post-types), easy to get into by simply [uploading your screenshots to the project](#proposal).
 
 [Go to Outtakes](https://mwscr.dehero.site/extras/?type=outtakes)
 
@@ -269,8 +292,8 @@ A [post type](#post-types) with a compilation of 10 screenshots from [Morrowind]
 
 ### News
 
-A [post type](#post-types) with project news. Must contain the news text in the description and may include an optional
-illustration.
+A [post type](#post-types) with project news. Must contain the news text in the [description](#post-description) and may
+include an optional illustration.
 
 [Go to News](https://mwscr.dehero.site/extras/?type=news)
 
@@ -278,8 +301,8 @@ illustration.
 
 ### Photoshop
 
-A [post type](#post-types) with a photomontage based on a previously published screenshot. Should include the original
-screenshot for comparison.
+A photomontage based on a previously published [Shot](#shot). This [post type](#post-types), like
+[Redrawing](#redrawing), includes the original shot as a second image, for comparison.
 
 [Go to Photoshops](https://mwscr.dehero.site/extras/?type=photoshop)
 
@@ -287,8 +310,11 @@ screenshot for comparison.
 
 ### Mention
 
-A [post type](#post-types) with a mention of the project on another site. Should include a screenshot of the mention and
-an optional link to it in the description.
+A link to the project on another site, a repost, or the use of [Morrowind Screenshots](#mwscr) materials in posts by
+other projects and accounts. Not every mention falls into [this category](#post-types) - only those that stand out from
+the general background and are known to the [project administrator](#admin). A post of this type should contain a
+screenshot or video of the mention in [snapshot](#post-media) and an optional link to it in the
+[description](#post-description).
 
 [Go to Mentions](https://mwscr.dehero.site/extras/?type=mention)
 
@@ -296,7 +322,11 @@ an optional link to it in the description.
 
 ### Merch
 
-A [post type](#post-types) that describes separate merch items which can be ordered to support the project.
+An item that can be ordered to support the [Morrowind Screenshots](#mwscr) project. Posts of [this type](#post-types)
+must have a [description](#post-description), as well as one or more images of the merch itself. On the site such a post
+has an "Order" button that opens the order dialog. As a rule, the appearance of merch is accompanied by a post of type
+[News](#news). Unlike other post types, which are published to the project's social media, merch
+[is published](#publication) in services that allow ordering and payment, such as Boosty, Avito and others.
 
 [Go to Merch](https://mwscr.dehero.site/extras/?type=merch)
 
@@ -304,8 +334,8 @@ A [post type](#post-types) that describes separate merch items which can be orde
 
 ### Achievement
 
-A [post type](#post-types) for a special achievement in the project or in the game. Should include one or more images as
-confirmation of the achievement.
+A [post type](#post-types) for notable events, records and prize places in the project or in the game, achieved by the
+project itself or by its members. Such a post should include one or more images as confirmation.
 
 [Go to Achievements](https://mwscr.dehero.site/extras/?type=achievement)
 
@@ -331,6 +361,7 @@ link to you in the post when the work is published. Proposed works will be autom
 submitting your work, you agree that it will be stored in the project archive and may be used in any sources related to
 the project, with attribution to you.
 
+[Upload works on the project website](https://mwscr.dehero.site/#post-proposal)  
 [Send to Telegram bot](https://t.me/mwscrbot)  
 [Send proposal via GitHub Issues](https://github.com/dehero/mwscr/issues/new?labels=post-proposal&template=post-proposal.yml) (check
 out
@@ -361,13 +392,13 @@ appropriate material. The request may be rejected if it does not meet the [core 
 
 ### Find missing location
 
-If the location of shooting the screenshot or video is not specified in the post, you can suggest one. Navigate to post
-page or right click (long tap) on post to show the context menu. Click "Locate" button and choose location from the list
-in the dialog. You can select multiple locations if needed.
+If the [shooting location](#post-location) of the screenshot or video is not specified in the post, you can suggest one.
+Navigate to post page or right click (long tap) on post to show the context menu. Click "Locate" button and choose
+location from the list in the dialog. You can select multiple locations if needed.
 
 Submit your suggestion using any of available submitting options in the dialog. Another option is to write a comment
-with the suggested location under post in any of project's channels. The project administrator will check your
-suggestion and accept it if it was confirmed.
+with the suggested location under post in any of [project's channels](#mwscr). The [project administrator](#admin) will
+check your suggestion and accept it if it was confirmed.
 
 <a id="improve-repository"></a>
 
@@ -387,15 +418,14 @@ Any suggestions for improving and fixing the project's repository are welcome.
 
 Information about project members is stored in the
 [members list](https://github.com/dehero/mwscr/blob/main/data/users.yml). For each member the project keeps a display
-name, an avatar, an optional Russian spelling of the name, and links to profiles in the project accounts:
-[Telegram](https://t.me/mwscr), [VK](https://vk.com/mwscr), [Instagram](https://instagram.com/mwscr/) and others. A
+name, an avatar, an optional Russian spelling of the name, and links to profiles in the [project accounts](#mwscr). A
 member who manages the project is marked as an [administrator](#admin).
 
 From a member's activity the project derives roles: [author](#author), [drawer](#drawer), [locator](#locator),
 [requester](#requester), [commenter](#commenter), [follower](#follower) and [beginner](#beginner). Members with no known
-activity receive the [foreigner](#foreigner) role. The [Members](https://mwscr.dehero.site/users/) page of the website
-shows these roles, the number of posts a member [proposed](#proposal), [located](#suggesting-location),
-[requested](#request) or commented, and the likes, views and [rating](#post-rating) collected by their published works.
+activity receive the [foreigner](#foreigner) role. The website shows these roles, the number of posts a member
+[proposed](#proposal), [located](#suggesting-location), [requested](#request) or commented, and the likes, views and
+[rating](#post-rating) collected by their published works.
 
 [Go to Members](https://mwscr.dehero.site/users/)
 
@@ -404,7 +434,9 @@ shows these roles, the number of posts a member [proposed](#proposal), [located]
 ### Administrator
 
 A member who manages the project. Administrator is marked explicitly in the [members list](#members) and can edit
-project data, review [drafts](#drafts) and publish posts.
+project data, process [drafts](#drafts) and publish posts.
+
+[Find Administrator](https://mwscr.dehero.site/users/?role=admin)
 
 <a id="author"></a>
 
@@ -413,12 +445,16 @@ project data, review [drafts](#drafts) and publish posts.
 A member whose work has been published. The role is assigned when the member is listed as the [author](#post-author) of
 a published [post](#posts) or [extra](#extras) work.
 
+[Find Authors](https://mwscr.dehero.site/users/?role=author)
+
 <a id="drawer"></a>
 
 ### Drawer
 
 A member who proposed a drawing. The role is assigned to the first [author](#post-author) of a [redrawing](#redrawing)
 work in published posts, extras or [drafts](#drafts).
+
+[Find Drawers](https://mwscr.dehero.site/users/?role=drawer)
 
 <a id="locator"></a>
 
@@ -427,6 +463,8 @@ work in published posts, extras or [drafts](#drafts).
 A member who suggested a [shooting location](#suggesting-location) for a published post. The role is assigned when at
 least one location suggested by the member has been accepted for [Posts](#posts).
 
+[Find Locators](https://mwscr.dehero.site/users/?role=locator)
+
 <a id="requester"></a>
 
 ### Requester
@@ -434,11 +472,15 @@ least one location suggested by the member has been accepted for [Posts](#posts)
 A member who asked the project to make a certain [post](#request). The role is assigned when the member's request has
 been fulfilled in a published post or is waiting in [drafts](#drafts).
 
+[Find Requesters](https://mwscr.dehero.site/users/?role=requester)
+
 <a id="commenter"></a>
 
 ### Commenter
 
 A member who leaves comments under published [posts](#posts) or [extras](#extras) в in [project's channels](#mwscr).
+
+[Find Commenters](https://mwscr.dehero.site/users/?role=commenter)
 
 <a id="follower"></a>
 
@@ -447,17 +489,23 @@ A member who leaves comments under published [posts](#posts) or [extras](#extras
 A member who follows the [Morrowind Screenshots](#mwscr) project in at least one of its accounts (this role is not
 assignable for now).
 
+[Find Followers](https://mwscr.dehero.site/users/?role=follower)
+
 <a id="beginner"></a>
 
 ### Beginner
 
 A member whose works or requests are still in [drafts](#drafts) or [rejects](#trash) and have not been published yet.
 
+[Find Beginners](https://mwscr.dehero.site/users/?role=beginner)
+
 <a id="foreigner"></a>
 
 ### Foreigner
 
 A member with no known activity in the project — none of the other [member roles](#members) apply to them.
+
+[Find Foreigners](https://mwscr.dehero.site/users/?role=foreigner)
 
 ---
 
@@ -497,8 +545,8 @@ content.
 
 #### Morrowind Graphics Extender
 
-A graphics improvement add-on to the vanilla engine, for longer viewing distances, great sunsets, fine shaders and
-better lighting. As [an engine mod](#game-engine-and-utilities), this is not compatible with [OpenMW](#openmw).
+A graphics improvement add-on to the [vanilla engine](#game-engine-and-utilities), for longer viewing distances, great
+sunsets, fine shaders and better lighting. This is not compatible with [OpenMW](#openmw).
 
 [Download MGE](https://www.nexusmods.com/morrowind/mods/41102)
 
@@ -618,7 +666,7 @@ In a post, the addon from the white list explicitly involved is specified.
 The well-known unofficial expansion by Tamriel Rebuilt Project team that adds the mainland territory to
 [Morrowind](#morrowind).
 
-[Site](https://www.tamriel-rebuilt.org/)
+[Tamriel Rebuilt Site](https://www.tamriel-rebuilt.org/)
 
 <a id="nofightnohello"></a>
 
@@ -627,7 +675,7 @@ The well-known unofficial expansion by Tamriel Rebuilt Project team that adds th
 [A plugin](#allowed-mods) that turns off greeting phrases and removes aggression from all NPCs and creatures. Allows you
 to take screenshots without distracting from gameplay.
 
-[Download](https://mwscr.dehero.site/plugins/NoFightNoHello.esp)
+[Download NoFightNoHello](https://mwscr.dehero.site/plugins/NoFightNoHello.esp)
 
 <a id="mannequinchallenge"></a>
 
@@ -647,7 +695,7 @@ To remove the effect type:
 removespell mannequinchallenge
 ```
 
-[Download](https://mwscr.dehero.site/plugins/MannequinChallenge.esp)
+[Download MannequinChallenge](https://mwscr.dehero.site/plugins/MannequinChallenge.esp)
 
 <a id="trackpath"></a>
 
@@ -686,7 +734,38 @@ interrupt playing the path with the command:
 set playPath to 0
 ```
 
-[Download](https://mwscr.dehero.site/plugins/TrackPath.esp)
+[Download TrackPath](https://mwscr.dehero.site/plugins/TrackPath.esp)
+
+---
+
+<a id="locations"></a>
+
+## Locations
+
+The project contains a list of all game locations from the original [Morrowind](#morrowind) and the official
+[Tribunal or Bloodmoon](#allowed-mods) addons. It is used to specify the [shooting location](#post-location) of posts,
+to build the location filter, and to draw the [world map](#world-map). Each location in the list has an English title
+and a Russian translation, the addon it belongs to, and one of the types:
+
+Interior — an indoor area, such as a cave, tomb or building interior.  
+Exterior — a named outdoor place, such as a city, camp or landmark.  
+Region — a large outdoor area that unites many cells, such as the
+[Ashlands Region](https://mwscr.dehero.site/posts/?location=Ashlands+Region&original=true).  
+Group — a location that has no game resource of its own, but is structurally implied in the location tree, such as
+[Old Mournhold](https://mwscr.dehero.site/posts/?location=Old+Mournhold&original=true).
+
+Exteriors and regions can occupy one or several cells of the [world map](#world-map).
+
+<a id="world-map"></a>
+
+### World map
+
+The project site has a world map used to view and select [shooting locations](#post-location) on post pages and in the
+location filter. The map covers the base game and the [Bloodmoon](#allowed-mods) addon, the islands of Vvardenfell and
+Solstheim. The [Tribunal](#allowed-mods) addon has no additional locations on the world map. Locations of the unofficial
+[Tamriel Rebuilt](#tamriel-rebuilt) addon are deliberately not included in the project.
+
+The map is based on the original game map of [Morrowind](#morrowind).
 
 ---
 
@@ -699,6 +778,8 @@ includes search for [violations](#violations), [merging posts](#merging-posts),
 [allowed processing](#allowed-processing) and [preparing a post](#preparing-post). You can follow the editing process by
 observing [Drafts](#drafts).
 
+Drafts are stored in full size, and access to them requires the editor's key set in the site settings.
+
 <a id="violations"></a>
 
 ### Violations
@@ -707,9 +788,9 @@ The content of the post is checked automatically and manually, and if any violat
 [Rejects](#trash). Common violations include [inappropriate content](#appropriate-content), [unsupported](#file-format)
 and [unreachable](#available-resource) resource.
 
-If you expect your post to be published in [Posts](#posts) section, avoid also stricter
-[non-vanilla look](#vanilla-look), [no anti-aliasing](#anti-aliasing), [JPEG artifacts](#no-jpeg-artifacts),
-[graphic issues](#no-graphic-issues) violations and violating [core principles](#core-principles).
+If you expect your post to be published in [Posts](#posts) section, follow [core principles](#core-principles) and avoid
+other violations like [non-vanilla look](#vanilla-look), [no anti-aliasing](#anti-aliasing),
+[JPEG artifacts](#no-jpeg-artifacts), [graphic issues](#no-graphic-issues).
 
 <a id="appropriate-content"></a>
 
@@ -744,9 +825,9 @@ submission method.
 
 #### Available resource
 
-Morrowind Screenshots project can operate different kind of resource URL's. "store:/" links lead to files stored in
-project's own private storage. "uploads:/" links lead to files uploaded through the project website; such files are
-temporary and expire after about a week, unless a saved draft or patch references them. "http://" and "https://" links
+Morrowind Screenshots project can operate different kind of resource URL's. `store:/` links lead to files stored in
+project's own private storage. `uploads:/` links lead to files uploaded through the project website; such files are
+temporary and expire after about a week, unless a saved draft or patch references them. `http://` and `https://` links
 lead to external resources.
 
 When adding links manually always check the link to have no mistypes and for being accessible without authorization.
@@ -818,7 +899,7 @@ Processing is intended to improve the perception of the original work while pres
 possible. It may include cropping, brightness adjustment, correction of technical errors in shooting (in rare cases),
 duration trimming (for video). It is forbidden to change the color scheme, apply filters, add, change, or distort
 objects. During processing, the original files remain intact, and each new variant is saved to a separate file with the
-variant number appended to the file name. For example:
+variant number appended to the file name, as described in the [post identifier](#post-id). For example:
 
 ```txt
 dehero.2024-02-17-10-53-36.png
@@ -826,22 +907,32 @@ dehero.2024-02-17-10-53-36.1.png
 dehero.2024-02-17-10-53-36.2.png
 ```
 
-<a id="drafts"></a>
-
-### Drafts
-
-A place where all incoming [screenshots, videos, drawings](#proposal) and [post requests](#request) are stored. Everyone
-can see what was proposed and what's going to be posted. [The editing](#editing) is made on Drafts content.
-
-[Open](https://mwscr.dehero.site/drafts/)
-
 <a id="preparing-post"></a>
 
 ### Preparing a post
 
-Preparing a post for publication includes selecting [type and content](#post-types), [title](#post-title),
-[author](#post-author), filling in [tags](#post-tags), [game engine](#game-engine-and-utilities),
-[addon](#allowed-mods), shooting [location](#post-location) and selecting [editor's mark](#post-mark).
+Preparing a post for publication includes selecting [type](#post-types) and [media](#post-media), [title](#post-title)
+and [description](#post-description), [author](#post-author), filling in [tags](#post-tags),
+[game engine](#game-engine-and-utilities), [addon](#allowed-mods), shooting [location](#post-location) and
+[placement](#post-placement), and selecting [editor's mark](#post-mark). The post [identifier](#post-id) is assigned
+automatically.
+
+<a id="post-media"></a>
+
+#### Post media
+
+A post stores its files in three fields.
+
+Content is the main media of a post: the screenshot, video, drawing or set of images it is about. Content files are
+cropped to the post [aspect ratio](#aspect-ratio) when it is set and are shown in full when it is not. It is mostly the
+content that is used for [publications](#publication).
+
+Snapshot is a screenshot (not from [the game](#morrowind)) or other photographic evidence that serves as the basis for a
+post. It is always shown in full size with scrolling. For [Mentions](#mention) it is the main media, since this post
+type has no content. For other types this field is optional and can be used when necessary.
+
+Trash stores files rejected during the [editing](#editing) of a post. Their previews are kept in the project for
+history, but they are not counted in any way, not [published](#publication) and not shown anywhere.
 
 <a id="post-title"></a>
 
@@ -851,6 +942,23 @@ The title of the post is chosen according to its content and can either simply d
 perception of the post by using analogies, references, and other techniques. The title suggested by the author of the
 work is also taken into account. The title should be filled in English and translated into Russian.
 
+English titles are formatted automatically: only Latin letters, digits and the punctuation marks `' , - . : + " ! ?` are
+kept, and a fixed list of short words, such as "a", "of" or "the", is lowercased.
+
+<a id="post-description"></a>
+
+#### Post description
+
+An optional text field of a post that supplements the [title](#post-title) and gives additional context. The description
+is filled in English and translated into Russian. It uses Markdown syntax, so links can be inserted into it.
+
+```
+Learn [Markdown syntax](https://www.markdownguide.org/basic-syntax/)
+```
+
+The description is shown in the published post and is taken into account when searching posts. For [News](#news) posts
+the description is required and contains the news text.
+
 <a id="post-author"></a>
 
 #### Post author
@@ -858,7 +966,8 @@ work is also taken into account. The title should be filled in English and trans
 The project contributor who proposed the original work for publication. For [Redrawing](#redrawing) type posts, the
 first author is the author of the drawing, and the second author is the author of the original post. For
 [Compilation](#compilation) posts, the authors of all images in the set are listed. Each of these authors must be added
-to the [members list](#members) beforehand.
+to the [members list](#members) beforehand. A member listed as the author of a published work receives the
+[author](#author) role.
 
 <a id="post-tags"></a>
 
@@ -872,13 +981,20 @@ in other fields of the post should be avoided in tags.
 
 #### Post location
 
-Specifies the game location that is represented in the post according to the
-[location list](https://github.com/dehero/mwscr/blob/main/data/locations.yml). The goal is to provide a practical
-landmark for finding the place in the game; the exact position within that place is not required. For exterior shots,
-specify both the region and, when possible, the object shown or the nearby landmark, such as a shipwreck or a
-plantation. Additional details, such as an exterior cell number, can be added in the note when selecting a location.
-Specifying only the region may not be sufficient: it may later be difficult to return to the shot and determine the
-location more precisely. If no location can be determined, [it can be suggested](#suggesting-location) later.
+Specifies the game location that is represented in the post according to the [location list](#locations). The goal is to
+provide a practical landmark for finding the place in the game; the exact position within that place is not required.
+For exterior shots, specify both the region and, when possible, the object shown or the nearby landmark, such as a
+shipwreck or a plantation. Additional details, such as an exterior cell number, can be added in the note when selecting
+a location. Specifying only the region may not be sufficient: it may later be difficult to return to the shot and
+determine the location more precisely. If no location can be determined, [it can be suggested](#suggesting-location)
+later.
+
+<a id="post-placement"></a>
+
+#### Post placement
+
+Describes where the content of the post was captured: indoors, outdoors or mixed (for compilations). The placement is
+set when [preparing a post](#preparing-post) and is taken into account when searching and filtering posts.
 
 <a id="post-mark"></a>
 
@@ -914,6 +1030,18 @@ filled in.
 Keep in mind that the mark is subjective and there is a more objective [post rating](#post-rating) score that evaluates
 published posts by subscribers reactions.
 
+<a id="post-id"></a>
+
+### Post identifier
+
+Every post has an identifierthat also defines the names of its files in the storage.
+
+A published post id looks like `YYYY-MM-DD-N-title`, where the date is the publication date, N is the order number
+within that day (no more than 9 posts per day), and the title is a shortened Latin title.
+
+A draft id looks like `author.YYYY-MM-DD-title`, where author is the identifier of the member who proposed the work and
+the date is the date of draft creation.
+
 ---
 
 <a id="publication"></a>
@@ -921,14 +1049,31 @@ published posts by subscribers reactions.
 ## Publication
 
 [Drafts](#drafts) posts that have successfully passed [editing](#editing) are placed to the shortlist, from where they
-are gradually taken to create new posts. A new post is selected every day. The post is published simultaneously on all
-project accounts that support this type of post. Previously published posts may be published again, without changes, or
-as part of a different [post type](#post-types). The text of the post includes: [title](#post-title), description (if
-any), [author](#post-author) (if the author is not the project administrator), requester (if the post was made by
-request), [tags](#post-tags), [location](#post-location) (if available).
+are gradually taken to create new posts. A new post is selected every day according to the
+[post selection](#post-selection) rules. The post is published simultaneously on all project accounts that support this
+type of post. Previously published posts may be published again, without changes, or as part of a different
+[post type](#post-types).
+
+The text of the publication includes: [post type](#post-types) (omitted for [Shot](#shot) and [News](#news) types),
+[title](#post-title), [description](#post-description) (if any), [author](#post-author) (if the author is not the
+[project administrator](#admin)), the name of the requester (if the post was made [by request](#request)),
+[tags](#post-tags), [location](#post-location) (if available), and the date of the first publication (for reposts).
 
 [Published posts](https://mwscr.dehero.site/posts/)  
+[Published extras](https://mwscr.dehero.site/extras/)  
 [Shortlist](https://mwscr.dehero.site/drafts/?publishable=true)
+
+<a id="post-selection"></a>
+
+### Post selection
+
+New posts are selected automatically from the [Drafts](#drafts) that have passed [editing](#editing), according to
+scenarios of different [post types](#post-types). A [Posts](#posts) publication is made after 18:00 UTC, and an
+[Extras](#extras) publication after 9:00 UTC.
+
+To keep the feed varied, the selection maintains a minimum distance: the same content, post types and related
+[locations](#post-location) must be separated by a certain number of other posts. The [editor's mark](#post-mark) is
+also taken into account: works with lower marks are published more rarely.
 
 <a id="post-statistics"></a>
 
@@ -946,8 +1091,18 @@ each post page, and they also define the [contribution](#members) of members to 
 
 ### Post rating
 
-Post rating is calculated for published posts as an average ratio of followers to likes as a percentage. The values are
-taken from all [Morrowind Screenshots](#mwscr) accounts where the post was ever published.
+Post rating is calculated for published posts as the average engagement across all [Morrowind Screenshots](#mwscr)
+accounts where the post was ever published.
+
+```txt
+reactions  = likes + reposts
+engagement = reactions / followers x 100   (followers >= 50)
+engagement = reactions                     (followers < 50)
+rating     = average(engagement)           (2 or more accounts)
+```
+
+Accounts with fewer than 50 followers are counted in absolute reactions instead of a percentage. The rating is shown
+only when there are engagement values from at least two accounts.
 
 <a id="contribution"></a>
 
@@ -972,11 +1127,15 @@ the content of the project for any purpose with the link to the original source 
 [The code is licensed under MIT](https://github.com/dehero/mwscr/blob/main/LICENSE-CODE)  
 [The content is licensed under CC BY 4.0](https://github.com/dehero/mwscr/blob/main/LICENSE)
 
----
+All rights to [The Elder Scrolls III: Morrowind](#morrowind), Tribunal and Bloodmoon expansions, characters, textures,
+and assets belong to Bethesda Softworks and ZeniMax Media.
+
+The rights to the Russian localization, used in this project, including text and voice acting, belong to Akella and
+1C-SoftClub.
 
 <a id="morrowind"></a>
 
-## Morrowind
+### Morrowind
 
 A computer game from Bethesda Softworks, the third part of The Elder Scrolls series. The main story takes place on
 Vvardenfell, an island in the Dunmer (Dark Elf) province of Morrowind, part of the continent of Tamriel. The central

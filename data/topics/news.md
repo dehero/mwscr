@@ -1,7 +1,7 @@
 # News
 
-A [post type](./post-types.md) with project news. Must contain the news text in the description and may include an
-optional illustration.
+A [post type](./post-types.md) with project news. Must contain the news text in the [description](./post-description.md)
+and may include an optional illustration.
 
 [Go to News](/extras/?type=news)
 
@@ -9,7 +9,7 @@ optional illustration.
 
 # Новость
 
-[Тип поста](./post-types.md) с новостями проекта. Должен содержать текст новости в описании и может включать
-необязательную иллюстрацию.
+Важное сообщение о жизни проекта. Этот [тип поста](./post-types.md) должен содержать текст новости в
+[описании](./post-description.md) и может включать необязательную иллюстрацию.
 
 [Перейти к новостям](/extras/?type=news)

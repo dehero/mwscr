@@ -26,45 +26,7 @@ game from [Bethesda Softworks](https://elderscrolls.bethesda.net/en/morrowind). 
 - [Rejects](https://mwscr.dehero.site/rejects/)
 - [Members](https://mwscr.dehero.site/users/)
 
-If you want to participate in the project, please read the [contributing guidelines](CONTRIBUTING.md).
-
-### Main post types
-
-- [Shot](https://mwscr.dehero.site/help/shot/) - square or horizontal screenshot;
-- [Compilation](https://mwscr.dehero.site/help/compilation/) - thematic set of four previously published screenshots;
-- [Wallpaper](https://mwscr.dehero.site/help/wallpaper/) - horizontal or vertical screenshot suitable as desktop or
-  smartphone wallpaper;
-- [Clip](https://mwscr.dehero.site/help/clip/) - a square or vertical video up to 1 minute long;
-- [Video](https://mwscr.dehero.site/help/video/) - rectangular video up to 1 hour long.
-
-### Extra post types
-
-- [News](https://mwscr.dehero.site/help/news/) - project news;
-- [Mention](https://mwscr.dehero.site/help/mention/) - mention of the project;
-- [Photoshop](https://mwscr.dehero.site/help/photoshop/) - a photomontage based on a previously published screenshot;
-- [Redrawing](https://mwscr.dehero.site/help/redrawing/) - a drawing based on a previously published screenshot;
-- [Outtakes](https://mwscr.dehero.site/help/outtakes/) - interesting screenshots that were rejected or violate the rules
-  of the project;
-- [Achievement](https://mwscr.dehero.site/help/achievement/) - a special achievement in the project or in the game;
-- [Merch](https://mwscr.dehero.site/help/merch/) - merch item which can be ordered to support the project.
-
-### Publication
-
-[Drafts](https://mwscr.dehero.site/drafts/) that have successfully passed [editing](CONTRIBUTING.md#editing) are placed
-on the [shortlist](https://mwscr.dehero.site/drafts/?publishable=true), from where they are gradually taken to create
-new posts. A new post is selected every day.
-
-The post is published simultaneously on all project accounts that support this type of post. The text of the post
-includes:
-
-- title;
-- description (if any);
-- author (if the author is not the project administrator);
-- requester (if the post was made by request);
-- tags;
-- location (if available).
-
-Previously published posts may be published again, without changes, or as part of a different post type.
+If you want to participate in the project, please read the [guide](CONTRIBUTING.md).
 
 ## About the repository
 
@@ -201,3 +163,7 @@ As the project develops, it is planned to implement:
 
 You can use the parts of the project code for any purpose, but you may not copy the project as a whole. Feel free to use
 the content of the project for any purpose with the link to the original source and author.
+
+All rights to The Elder Scrolls III: Morrowind, characters, textures, and assets belong to Bethesda Softworks and
+ZeniMax Media. The rights to the Russian localization, used in this project, including text and voice acting, belong to
+Akella and 1C-SoftClub.

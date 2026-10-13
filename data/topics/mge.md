@@ -1,7 +1,7 @@
 # Morrowind Graphics Extender
 
-A graphics improvement add-on to the vanilla engine, for longer viewing distances, great sunsets, fine shaders and
-better lighting. As [an engine mod](./game-engine-and-utilities.md), this is not compatible with [OpenMW](./openmw.md).
+A graphics improvement add-on to the [vanilla engine](./game-engine-and-utilities.md), for longer viewing distances,
+great sunsets, fine shaders and better lighting. This is not compatible with [OpenMW](./openmw.md).
 
 [Download MGE](https://www.nexusmods.com/morrowind/mods/41102)
 
@@ -9,8 +9,7 @@ better lighting. As [an engine mod](./game-engine-and-utilities.md), this is not
 
 # Morrowind Graphics Extender
 
-Дополнение к оригинальному движку, улучшающее графику: увеличивает дальность обзора, даёт красивые закаты, качественные
-шейдеры и улучшенное освещение. Как [модификация движка](./game-engine-and-utilities.md), оно несовместимо с
-[OpenMW](./openmw.md).
+Дополнение к [оригинальному движку](./game-engine-and-utilities.md), улучшающее графику: увеличивает дальность обзора,
+даёт красивые закаты, качественные шейдеры и улучшенное освещение. Несовместимо с [OpenMW](./openmw.md).
 
 [Скачать MGE](https://www.nexusmods.com/morrowind/mods/41102)

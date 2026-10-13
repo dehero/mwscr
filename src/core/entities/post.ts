@@ -41,6 +41,7 @@ export const PostViolation = picklist([
   'ui-visible',
   'unreachable-resource',
   'unsupported-resource',
+  'graphic-filter',
 ]);
 export const PostViolations = union([PostViolation, array(PostViolation)]);
 export const PostAuthor = union([pipe(string(), nonEmpty()), array(pipe(string(), nonEmpty()))]);
@@ -345,6 +346,12 @@ export const postViolationDescriptors = Object.freeze<Record<PostViolation, Post
     solution: texts.postViolation.unsupportedResourceSolution,
     topicId: 'file-format',
     letter: 'R',
+  },
+  'graphic-filter': {
+    title: texts.postViolation.graphicFilter,
+    topicId: 'no-processing',
+    letter: 'F',
+    strict: true,
   },
 });
 

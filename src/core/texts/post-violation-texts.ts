@@ -20,4 +20,5 @@ export const postViolationTexts = {
     'Attach your work as PNG, MP4, AVI or ZIP file, respect file size restrictions.',
     'Прикрепите работу в формате PNG, MP4, AVI или ZIP, соблюдая ограничения на размер файла.',
   ],
+  graphicFilter: ['Graphic filters', 'Графические фильтры'],
 } satisfies Record<string, IntlText>;

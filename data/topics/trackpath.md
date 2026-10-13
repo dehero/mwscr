@@ -33,7 +33,7 @@ interrupt playing the path with the command:
 set playPath to 0
 ```
 
-[Download](/plugins/TrackPath.esp)
+[Download TrackPath](/plugins/TrackPath.esp)
 
 ---
 
@@ -72,4 +72,4 @@ set playPath to PATH_NUMBER
 set playPath to 0
 ```
 
-[Скачать](/plugins/TrackPath.esp)
+[Скачать TrackPath](/plugins/TrackPath.esp)
