@@ -652,10 +652,10 @@
     - service: tg
       id: 480
       published: 2024-07-25-18-20-32
-      updated: 2026-10-04-18-00-50
+      updated: 2026-10-13-10-09-21
       followers: 399
       likes: 73
-      views: 714
+      views: 715
       comments: !c |-
         G20AwGT+r/mf3zvwxCigI+tcWKQf4CKSpmscbMAJSDjxsvM0Dx7D65jk9Ck1zx9iGf7fiQqYWBlZ
         4G7fbs3Wr7Gbk53v+rv/Xr4n/dgINgB9yU+sZOKVj+KBAg+EVMBckawsIZUgkVQtGYYG
@@ -6308,18 +6308,18 @@
     - service: vk
       id: 3576
       published: 2026-09-28-20-27-09
-      updated: 2026-10-06-09-49-11
+      updated: 2026-10-13-10-09-13
       followers: 1445
       likes: 44
-      views: 492
+      views: 510
       reposts: 2
     - service: tg
       id: 1325
       published: 2026-09-28-20-27-14
-      updated: 2026-10-06-09-49-10
+      updated: 2026-10-13-10-09-10
       followers: 943
       likes: 56
-      views: 361
+      views: 442
       comments: !c |-
         iyuAkZPLQnoO65jcgADZIGdtZmlza2ZtZ3ZrZGlhb2tkZ212a3hrYW9xa2VnbXZl2Ski0JzQvtC2
         0LXRgiDQsdGL0YLRjCDQuCDQvdC40YfQtdCz0L4uLi4gIgM=
@@ -6331,9 +6331,9 @@
       id: DeTd6jfjJ9L
       mediaId: '18248977834310986'
       published: 2026-10-10-06-43-35
-      updated: 2026-10-12-04-34-32
+      updated: 2026-10-13-10-09-12
       followers: 3387
-      likes: 143
+      likes: 151
       comments: !c |-
         CyiAkZPLQnoSTsxHgACqZmllbGRmbGFrZdk5QWxsIGhlIHdhbnRzIGlzIGEgcGFpciBvZiBib290
         cywgaG93IGhhcmQgY291bGQgaXQgYmU/IDooAw==
@@ -15519,19 +15519,19 @@
     - service: vk
       id: 3603
       published: 2026-10-11-19-59-51
-      updated: 2026-10-13-02-51-26
+      updated: 2026-10-13-10-09-11
       followers: 1452
-      likes: 52
-      views: 531
-      reposts: 2
+      likes: 56
+      views: 585
+      reposts: 4
       comments: !c ixSAkZPLQnoSzqc8gACpbW1hbGhhc2FutNCR0YDRg9GC0LDQu9C10L3wn5SlAw==
     - service: tg
       id: 1340
       published: 2026-10-11-19-59-57
-      updated: 2026-10-13-02-51-22
+      updated: 2026-10-13-10-09-07
       followers: 949
-      likes: 44
-      views: 172
+      likes: 45
+      views: 188
 2018-10-10-thunderstorm-cave:
   title: Thunderstorm Cave
   titleRu: Грозовая пещера
@@ -15862,7 +15862,7 @@
     - service: tg
       id: 83
       published: 2018-10-15
-      updated: 2026-10-05-06-35-30
+      updated: 2026-10-13-10-10-50
       likes: 1
       views: 239
 2018-10-16-mournhold-temple:
@@ -15899,7 +15899,7 @@
     - service: tg
       id: 84
       published: 2018-10-16
-      updated: 2026-10-05-06-35-29
+      updated: 2026-10-13-10-10-49
       likes: 1
       views: 239
     - service: tg
@@ -15976,7 +15976,7 @@
     - service: tg
       id: 85
       published: 2018-10-18
-      updated: 2026-10-05-06-35-28
+      updated: 2026-10-13-10-10-47
       likes: 2
       views: 234
 2018-10-19-ghostgate:
@@ -16014,7 +16014,7 @@
     - service: tg
       id: 86
       published: 2018-10-19
-      updated: 2026-10-05-06-35-27
+      updated: 2026-10-13-10-10-46
       likes: 1
       views: 238
 2018-10-20-the-mead-hall:
@@ -16052,7 +16052,7 @@
     - service: tg
       id: 87
       published: 2018-10-20
-      updated: 2026-10-05-06-35-26
+      updated: 2026-10-13-10-10-45
       likes: 2
       views: 245
 2018-10-21-bervaso-thenim-apothecary:
@@ -16087,7 +16087,7 @@
     - service: tg
       id: 88
       published: 2018-10-21
-      updated: 2026-10-05-06-35-24
+      updated: 2026-10-13-10-10-42
       likes: 2
       views: 240
     - service: ig
@@ -16187,7 +16187,7 @@
         - 92
         - 93
       published: 2018-10-21
-      updated: 2026-10-05-06-35-25
+      updated: 2026-10-13-10-10-43
       likes: 3
       views: 248
     - service: ig
@@ -16266,7 +16266,7 @@
     - service: tg
       id: 94
       published: 2018-10-22
-      updated: 2026-10-05-06-35-23
+      updated: 2026-10-13-10-10-40
       likes: 2
       views: 251
     - service: ig
@@ -16333,7 +16333,7 @@
     - service: tg
       id: 95
       published: 2018-10-23
-      updated: 2026-10-05-06-35-22
+      updated: 2026-10-13-10-10-39
       likes: 3
       views: 255
     - service: ig
@@ -16401,7 +16401,7 @@
     - service: tg
       id: 96
       published: 2018-10-24
-      updated: 2026-10-05-06-35-21
+      updated: 2026-10-13-10-10-38
       likes: 3
       views: 262
     - service: vk
@@ -16462,7 +16462,7 @@
     - service: tg
       id: 97
       published: 2018-10-25
-      updated: 2026-10-05-06-35-20
+      updated: 2026-10-13-10-10-37
       likes: 2
       views: 270
 2018-10-26-tel-fyr:
@@ -16494,7 +16494,7 @@
     - service: tg
       id: 98
       published: 2018-10-26
-      updated: 2026-10-05-06-35-19
+      updated: 2026-10-13-10-10-36
       likes: 2
       views: 274
     - service: ig
@@ -16570,7 +16570,7 @@
     - service: tg
       id: 99
       published: 2018-10-27
-      updated: 2026-10-05-06-35-18
+      updated: 2026-10-13-10-10-35
       likes: 2
       views: 295
 2018-10-28-azura:
@@ -16610,7 +16610,7 @@
         - 103
         - 104
       published: 2018-10-28
-      updated: 2026-10-05-06-35-17
+      updated: 2026-10-13-10-10-34
       likes: 4
       views: 283
 2018-10-29-bread-and-wine:
@@ -16651,7 +16651,7 @@
     - service: tg
       id: 105
       published: 2018-10-29
-      updated: 2026-10-05-06-35-16
+      updated: 2026-10-13-10-10-33
       likes: 2
       views: 284
     - service: ig
@@ -16733,7 +16733,7 @@
     - service: tg
       id: 106
       published: 2018-10-30
-      updated: 2026-10-05-06-35-16
+      updated: 2026-10-13-10-10-32
       likes: 2
       views: 291
 2018-10-31-creeper-and-dagger:
@@ -16790,7 +16790,7 @@
     - service: tg
       id: 107
       published: 2018-10-31
-      updated: 2026-10-05-06-35-15
+      updated: 2026-10-13-10-10-31
       likes: 2
       views: 288
 2018-11-01-mudcrab-merchant-of-mzahnch:
@@ -16839,7 +16839,7 @@
     - service: tg
       id: 108
       published: 2018-11-01
-      updated: 2026-10-05-05-22-04
+      updated: 2026-10-13-10-10-30
       likes: 2
       views: 287
     - service: tg
@@ -16918,7 +16918,7 @@
     - service: tg
       id: 109
       published: 2018-11-02
-      updated: 2026-10-05-05-22-03
+      updated: 2026-10-13-10-10-29
       likes: 2
       views: 289
     - service: ig
@@ -16973,7 +16973,7 @@
     - service: tg
       id: 110
       published: 2018-11-04
-      updated: 2026-10-05-05-22-02
+      updated: 2026-10-13-10-10-28
       likes: 2
       views: 293
 2018-11-05-3-1:
@@ -17020,7 +17020,7 @@
     - service: tg
       id: 111
       published: 2018-11-05
-      updated: 2026-10-05-05-22-01
+      updated: 2026-10-13-10-10-26
       likes: 2
       views: 305
 2018-11-06-some-like-it-hot:
@@ -17061,7 +17061,7 @@
     - service: tg
       id: 112
       published: 2018-11-06
-      updated: 2026-10-05-05-22-00
+      updated: 2026-10-13-10-10-25
       likes: 2
       views: 307
 2018-11-07-onnissiralis:
@@ -17093,7 +17093,7 @@
     - service: tg
       id: 113
       published: 2018-11-07
-      updated: 2026-10-05-05-21-58
+      updated: 2026-10-13-10-10-24
       likes: 3
       views: 315
     - service: ig
@@ -17185,7 +17185,7 @@
     - service: tg
       id: 114
       published: 2018-11-08
-      updated: 2026-10-05-05-21-57
+      updated: 2026-10-13-10-10-23
       likes: 2
       views: 318
     - service: ig
@@ -17287,7 +17287,7 @@
     - service: tg
       id: 115
       published: 2018-11-09
-      updated: 2026-10-05-05-21-56
+      updated: 2026-10-13-10-10-22
       likes: 2
       views: 346
     - service: ig
@@ -17390,7 +17390,7 @@
     - service: tg
       id: 116
       published: 2018-11-11
-      updated: 2026-10-05-05-21-55
+      updated: 2026-10-13-10-10-21
       likes: 3
       views: 338
     - service: ig
@@ -17454,7 +17454,7 @@
     - service: tg
       id: 117
       published: 2018-11-13
-      updated: 2026-10-05-05-21-54
+      updated: 2026-10-13-10-10-20
       likes: 2
       views: 330
 2018-11-14-sad-reed:
@@ -17492,7 +17492,7 @@
     - service: tg
       id: 118
       published: 2018-11-14
-      updated: 2026-10-05-05-21-53
+      updated: 2026-10-13-10-10-19
       likes: 2
       views: 337
 2018-11-15-mushroom-tree:
@@ -17532,7 +17532,7 @@
     - service: tg
       id: 119
       published: 2018-11-15
-      updated: 2026-10-05-05-21-52
+      updated: 2026-10-13-10-10-18
       likes: 3
       views: 353
 2018-11-16-ship-goods:
@@ -17572,7 +17572,7 @@
     - service: tg
       id: 120
       published: 2018-11-16
-      updated: 2026-10-05-05-21-51
+      updated: 2026-10-13-10-10-17
       likes: 2
       views: 344
     - service: ig
@@ -17635,7 +17635,7 @@
     - service: tg
       id: 121
       published: 2018-11-17
-      updated: 2026-10-05-05-21-49
+      updated: 2026-10-13-10-10-16
       likes: 6
       views: 371
     - service: ig
@@ -17698,7 +17698,7 @@
     - service: tg
       id: 122
       published: 2018-11-18
-      updated: 2026-10-05-05-21-48
+      updated: 2026-10-13-10-10-15
       likes: 3
       views: 373
     - service: ig
@@ -17772,7 +17772,7 @@
     - service: tg
       id: 123
       published: 2018-11-19
-      updated: 2026-10-05-05-21-47
+      updated: 2026-10-13-10-10-14
       likes: 4
       views: 472
 2018-11-20-evening-arch:
@@ -17817,7 +17817,7 @@
     - service: tg
       id: 124
       published: 2018-11-20
-      updated: 2026-10-05-05-21-46
+      updated: 2026-10-13-10-10-13
       likes: 3
       views: 371
 2018-11-21-the-entrance-to-bthungthumz:
@@ -17857,7 +17857,7 @@
     - service: tg
       id: 125
       published: 2018-11-21
-      updated: 2026-10-05-05-21-45
+      updated: 2026-10-13-10-10-12
       likes: 3
       views: 380
     - service: ig
@@ -17919,7 +17919,7 @@
     - service: tg
       id: 126
       published: 2018-11-22
-      updated: 2026-10-05-05-21-44
+      updated: 2026-10-13-10-10-11
       likes: 3
       views: 383
     - service: ig
@@ -18014,7 +18014,7 @@
     - service: tg
       id: 127
       published: 2018-11-23
-      updated: 2026-10-05-05-21-43
+      updated: 2026-10-13-10-10-10
       likes: 3
       views: 383
     - service: ig
@@ -18083,7 +18083,7 @@
     - service: tg
       id: 128
       published: 2018-11-24
-      updated: 2026-10-05-05-21-41
+      updated: 2026-10-13-10-10-09
       likes: 4
       views: 395
 2018-11-26-overnight-in-a-yurt:
@@ -18121,7 +18121,7 @@
     - service: tg
       id: 129
       published: 2018-11-26
-      updated: 2026-10-05-05-21-40
+      updated: 2026-10-13-10-10-08
       likes: 3
       views: 405
 2018-11-28-landing:
@@ -18146,7 +18146,7 @@
       id: BquCbR0BmaV
       mediaId: '17999504671065931'
       published: 2018-11-28-09-41-04
-      updated: 2026-10-05-06-36-52
+      updated: 2026-10-13-10-10-50
       followers: 479
       likes: 120
       comments: !c |-
@@ -18163,7 +18163,7 @@
     - service: tg
       id: 130
       published: 2018-11-28
-      updated: 2026-10-05-05-21-39
+      updated: 2026-10-13-10-10-06
       likes: 4
       views: 426
 2018-11-29-shore-meeting:
@@ -18184,7 +18184,7 @@
       id: BqwlEsxBi6v
       mediaId: '17940561622218596'
       published: 2018-11-29-09-22-18
-      updated: 2026-10-05-06-36-51
+      updated: 2026-10-13-10-10-48
       followers: 479
       likes: 103
       comments: !c |-
@@ -18204,7 +18204,7 @@
     - service: tg
       id: 131
       published: 2018-11-29
-      updated: 2026-10-05-05-21-38
+      updated: 2026-10-13-10-10-05
       likes: 2
       views: 426
 2018-11-30-gathal-llethri:
@@ -18226,7 +18226,7 @@
       id: Bqyu4d6h5rV
       mediaId: '17913718990259219'
       published: 2018-11-30-05-26-29
-      updated: 2026-10-05-06-36-48
+      updated: 2026-10-13-10-10-46
       followers: 481
       likes: 132
       comments: !c |-
@@ -18245,7 +18245,7 @@
     - service: tg
       id: 132
       published: 2018-11-30
-      updated: 2026-10-05-05-21-37
+      updated: 2026-10-13-10-10-04
       likes: 2
       views: 452
     - service: ig
@@ -18290,7 +18290,7 @@
       id: Bq4kQSlB62U
       mediaId: '17976486322145016'
       published: 2018-12-02-11-49-04
-      updated: 2026-10-05-06-36-47
+      updated: 2026-10-13-10-10-44
       followers: 484
       likes: 111
     - service: vk
@@ -18303,7 +18303,7 @@
     - service: tg
       id: 133
       published: 2018-12-02
-      updated: 2026-10-05-05-21-36
+      updated: 2026-10-13-10-10-03
       likes: 2
       views: 438
     - service: ig
@@ -18373,7 +18373,7 @@
       code: Bq9hn0nhd0s
       mediaId: '18006407053027484'
       published: 2018-12-04-10-02-16
-      updated: 2026-10-05-06-36-46
+      updated: 2026-10-13-10-10-42
       followers: 485
       likes: 106
     - service: vk
@@ -18387,7 +18387,7 @@
     - service: tg
       id: 134
       published: 2018-12-04
-      updated: 2026-10-05-05-21-35
+      updated: 2026-10-13-10-10-02
       likes: 2
       views: 524
     - service: vk
@@ -18438,7 +18438,7 @@
       id: BrASrbohnFH
       mediaId: '17976562681156311'
       published: 2018-12-05-11-49-25
-      updated: 2026-10-05-06-36-45
+      updated: 2026-10-13-10-10-41
       followers: 487
       likes: 107
       comments: !c |-
@@ -18468,6 +18468,6 @@
     - service: tg
       id: 135
       published: 2018-12-05
-      updated: 2026-10-05-05-21-34
+      updated: 2026-10-13-10-10-01
       likes: 2
       views: 488

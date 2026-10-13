@@ -9410,7 +9410,7 @@
     - service: vk
       id: 1445
       published: 2024-03-13-18-17-34
-      updated: 2026-10-05-05-21-50
+      updated: 2026-10-13-10-09-15
       followers: 897
       likes: 33
       views: 294
@@ -9663,9 +9663,9 @@
       id: DeYZKnmFRqC
       mediaId: '17989410828077067'
       published: 2026-10-12-04-38-28
-      updated: 2026-10-13-02-51-25
+      updated: 2026-10-13-10-09-09
       followers: 3496
-      likes: 271
+      likes: 287
       comments: !c |-
         izmAk5PLQnoTAxA6gACuc3BhY2Vjb3dnaXJsMTKrVGhlIG9nIGRpdmGTy0J6EveZagAAqGdyaW1i
         b290rnRoZSBPRyByZWRoZWFkk8tCehLmvnkAAKl0b29udG9vd263R29kIEkgd2lzaCB0aGF0IHdl
@@ -13419,9 +13419,9 @@
       id: Dd2hEp8GDzr
       mediaId: '18016465373951396'
       published: 2026-09-29-00-53-15
-      updated: 2026-10-06-09-49-25
+      updated: 2026-10-13-10-09-13
       followers: 2668
-      likes: 461
+      likes: 518
 2017-09-07-wise-womans-table:
   title: Wise Woman's Table
   titleRu: Столик шаманки
@@ -16509,7 +16509,9 @@
       id: DeaySf1DVWg
       mediaId: '18156782035509014'
       published: 2026-10-13-02-56-18
+      updated: 2026-10-13-10-09-06
       followers: 3530
+      likes: 123
 2017-11-02-trebonius-artorius:
   title: Trebonius Artorius
   titleRu: Требониус Арториус
@@ -19158,9 +19160,9 @@
       id: DeZRjaRIJaa
       mediaId: '17988160503070062'
       published: 2026-10-12-12-51-02
-      updated: 2026-10-13-02-51-23
+      updated: 2026-10-13-10-09-08
       followers: 3510
-      likes: 146
+      likes: 172
 2017-12-22-note-to-telvon:
   title: Note to Telvon
   titleRu: Записка Телвону
@@ -19309,6 +19311,11 @@
         3ljPKrSxIyzp4FEzkGDhwBUqDqtjMGWaqWGz3kHGuY8Hn7tt//gLDvWn53JwCc9hIKuRC7hajKp0
         0rVgVYLm014LnaaFJZgShZpzlhddgRSnZlBpLLthdy251RkcA9FYRt/e2gQStBg0vuMHaYGGMkv3
         eWsu
+    - service: ig
+      id: DebkGaJF6ih
+      mediaId: '17908207665563090'
+      published: 2026-10-13-10-11-33
+      followers: 3539
 2017-12-25-corridors-of-tribunal:
   title: Corridors of Tribunal
   titleRu: Коридоры Трибунала
