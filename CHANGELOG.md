@@ -2,6 +2,27 @@
 
 All notable changes to this project will be documented in this file.
 
+## [4.4.0](https://github.com/dehero/mwscr/compare/v4.3.0...v4.4.0) (2026-10-13)
+
+### Features
+
+- assemble guidelines from topic markdown sources
+  ([4b67a64](https://github.com/dehero/mwscr/commit/4b67a64ce3d9136e411d7108760f1d3844195032))
+- cover more projects details with topics and adjust code to fit topics
+  ([b6873e6](https://github.com/dehero/mwscr/commit/b6873e6a1859cafa06dfbae995ef4a4d1e9b82f7))
+- render tables, code, and images in help topics
+  ([c790d06](https://github.com/dehero/mwscr/commit/c790d0682c37872f66c338750e699c095e58e02c))
+
+### Code Refactoring
+
+- generalize contributing rendering into a guide builder
+  ([9cdc60e](https://github.com/dehero/mwscr/commit/9cdc60e0e3dd9a120a1b17bd01f3ea840ec16e66))
+
+### Documentation
+
+- align project overview with the new guide workflow
+  ([4d68779](https://github.com/dehero/mwscr/commit/4d68779d2f6827275cb42513ddc59fcda3e8908d))
+
 ## [4.3.0](https://github.com/dehero/mwscr/compare/v4.2.1...v4.3.0) (2026-10-08)
 
 ### Features
