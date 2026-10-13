@@ -22,11 +22,10 @@ game from [Bethesda Softworks](https://elderscrolls.bethesda.net/en/morrowind). 
 
 - [Posts](https://mwscr.dehero.site/posts/)
 - [Extras](https://mwscr.dehero.site/extras/)
-- [Drafts](https://mwscr.dehero.site/drafts/)
-- [Rejects](https://mwscr.dehero.site/rejects/)
 - [Members](https://mwscr.dehero.site/users/)
 
-If you want to participate in the project, please read the [guide](CONTRIBUTING.md).
+Full information about the project is available in the [guide](CONTRIBUTING.md). If you want to participate in the
+project, please read it.
 
 ## About the repository
 
@@ -38,7 +37,9 @@ original works, due to their large size, are represented by links to the `store:
 project administrator has access to. Other files:
 
 - [`data/users.yml`](data/users.yml) - information about project members in `YAML` format;
-- [`data/locations.yml`](data/locations.yml) - list of game locations in `YAML` format.
+- [`data/locations.yml`](data/locations.yml) - list of game locations in `YAML` format;
+- [`data/topics`](data/topics) - help topics in `Markdown` format with English and Russian versions separated by `---`,
+  used to build the project [guide](CONTRIBUTING.md) and the site help pages.
 
 ### Additional files
 
@@ -51,8 +52,9 @@ The [`assets`](assets) folder contains:
 
 ### Scripts
 
-The [`src`](src) folder contains scripts responsible for working with the repository, storage, and project accounts. You
-need to install dependencies before running scripts locally:
+The [`src/scripts`](src/scripts) folder contains scripts responsible for working with the repository, storage, and
+project accounts, sharing common logic from [`src/core`](src/core). You need to install dependencies before running
+scripts locally:
 
 ```bash
 npm ci
@@ -96,15 +98,19 @@ The sequence of steps is:
 
 1. Create issue templates in [`.github/ISSUE_TEMPLATE`](.github/ISSUE_TEMPLATE) according to the descriptions in
    [`src/scripts/github-issue-resolvers`](src/scripts/github-issue-resolvers).
-2. Add to [`data/posts`](data/posts) posts manually created in project accounts by the administrator.
-3. Import to [`data/drafts`](data/drafts) new files from the `store:/inbox` added manually by the administrator.
-4. Delete rejected posts to [`data/rejects`](data/rejects`), restore posts from the rejects to
-   [`data/drafts`](data/drafts`).
-5. Get reactions to posts in [`data/posts`](data/posts`) and [`data/extras`](data/extras`) from project accounts.
-6. Create a new post in [`data/posts`](data/posts) or [`data/extras`](data/extras) according to the scenarios described
+2. Create the project guide ([CONTRIBUTING.md](CONTRIBUTING.md)) from the help topics.
+3. Import to [`data/drafts`](data/drafts) new files from the `store:/inbox` added manually by the administrator and move
+   deleted files to trash.
+4. Import external resources of drafts to the `store:`.
+5. Import works and messages received by the Telegram bot.
+6. Move rejected drafts to [`data/rejects`](data/rejects) and restore rejected posts to [`data/drafts`](data/drafts).
+7. Get reactions to publications in [`data/posts`](data/posts) and [`data/extras`](data/extras) from project accounts.
+8. Update profiles of project members in [`data/users.yml`](data/users.yml).
+9. Create a new post in [`data/posts`](data/posts) or [`data/extras`](data/extras) according to the scenarios described
    in [`src/core/scenarios/posting.ts`](src/core/scenarios/posting.ts).
-7. Publish unpublished posts from [`data/posts`](data/posts) and [`data/extras`](data/extras) to project accounts.
-8. Create missing and delete unnecessary previews in [`assets/previews`](assets/previews).
+10. Publish unpublished posts from [`data/posts`](data/posts) and [`data/extras`](data/extras) to project accounts.
+11. Create missing and delete unnecessary previews in [`assets/previews`](assets/previews).
+12. Delete expired uploads from the `S3` storage.
 
 #### Issue processing
 
@@ -142,6 +148,39 @@ npm run release
 
 Checks if there are any changes in the project from the previous release. If there are, it creates a commit with new
 release, incrementing the version in [package.json](package.json) and updating [CHANGELOG](CHANGELOG.md).
+
+### Site
+
+The project site is a [SolidJS](https://www.solidjs.com/) application built with [Vite](https://vite.dev/), stored in
+the [`src/site`](src/site) folder. To run it locally, install the dependencies and start the development server:
+
+```bash
+npm start
+```
+
+The site is served at [http://localhost:3000](http://localhost:3000) and reads data from the [`data`](data) and
+[`assets`](assets) folders, so changes there are picked up with hot reload. To build and preview a production bundle:
+
+```bash
+npm run build
+npm run preview
+```
+
+The site reads the same `.env` file in the repository root as the scripts. For local launch, only `S3_PUBLIC_URL` - the
+base public URL of the project storage - matters. The rest of the variables configure the storage API path for
+uploading works through the site:
+
+```env
+S3_PUBLIC_URL=https://mwscr-store.dehero.site
+
+S3_STORE_PATH=
+S3_UPLOADS_PATH=
+S3_REGION=
+S3_ENDPOINT=
+S3_BUCKET=
+S3_UPLOADS_ACCESS_KEY_ID=
+S3_UPLOADS_SECRET_ACCESS_KEY=
+```
 
 ## Roadmap
 
