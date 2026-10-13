@@ -830,7 +830,7 @@
     - service: vk
       id: 1497
       published: 2024-04-16-18-16-52
-      updated: 2026-10-05-05-21-07
+      updated: 2026-10-13-02-52-11
       followers: 910
       likes: 33
       views: 301
@@ -1640,7 +1640,7 @@
     - service: vk
       id: 1514
       published: 2024-04-30-20-27-56
-      updated: 2026-10-05-05-20-50
+      updated: 2026-10-13-02-51-57
       followers: 911
       likes: 30
       views: 245
@@ -3240,14 +3240,14 @@
       id: C4D9QbcS7Mu
       mediaId: '18043982875714235'
       published: 2024-03-03-18-16-34
-      updated: 2026-10-05-05-20-58
+      updated: 2026-10-13-02-51-42
       followers: 1377
       likes: 90
       views: 4
     - service: vk
       id: 1434
       published: 2024-03-03-18-16-44
-      updated: 2026-10-05-05-22-02
+      updated: 2026-10-13-02-54-05
       followers: 894
       likes: 34
       views: 303
@@ -3337,7 +3337,7 @@
     - service: vk
       id: 1503
       published: 2024-04-21-18-17-40
-      updated: 2026-10-05-05-21-02
+      updated: 2026-10-13-02-52-06
       followers: 909
       likes: 46
       views: 315
@@ -3629,7 +3629,7 @@
     - service: vk
       id: 1537
       published: 2024-05-18-18-18-31
-      updated: 2026-10-05-00-30-25
+      updated: 2026-10-13-02-51-36
       followers: 915
       likes: 27
       views: 280
@@ -5137,7 +5137,7 @@
     - service: vk
       id: 1534
       published: 2024-05-16-18-18-18
-      updated: 2026-10-05-00-30-28
+      updated: 2026-10-13-02-51-38
       followers: 915
       likes: 41
       views: 339
@@ -6097,7 +6097,7 @@
     - service: vk
       id: 1540
       published: 2024-05-21-18-18-53
-      updated: 2026-10-05-00-30-22
+      updated: 2026-10-13-02-51-33
       followers: 916
       likes: 26
       views: 306
@@ -6771,7 +6771,7 @@
     - service: vk
       id: 1511
       published: 2024-04-27-18-16-27
-      updated: 2026-10-05-05-20-54
+      updated: 2026-10-13-02-51-59
       followers: 911
       likes: 30
       views: 259
@@ -6923,9 +6923,10 @@
       id: Dd1Vc8TF8zE
       mediaId: '17878382136553578'
       published: 2026-09-28-13-52-26
-      updated: 2026-10-06-02-43-15
+      updated: 2026-10-13-02-51-30
       followers: 2658
-      likes: 484
+      likes: 674
+      comments: !c ixKAkZPLQnoSu84KgACscG9va2llcGFsbWVyrVNvIG15c3RlcmlvdXMD
 2018-05-06-roads-of-ascadian-isles:
   title: Roads of Ascadian Isles
   titleRu: Дороги Аскадианских островов
@@ -7168,7 +7169,7 @@
     - service: vk
       id: 1468
       published: 2024-03-24-18-11-49
-      updated: 2026-10-05-05-21-30
+      updated: 2026-10-13-02-53-03
       followers: 898
       likes: 41
       views: 359
@@ -7615,7 +7616,7 @@
     - service: vk
       id: 1526
       published: 2024-05-09-18-18-25
-      updated: 2026-10-05-05-20-38
+      updated: 2026-10-13-02-51-47
       followers: 913
       likes: 39
       views: 286
@@ -15449,9 +15450,9 @@
       id: DeQXG9TFZk2
       mediaId: '18104968538263945'
       published: 2026-10-09-01-46-24
-      updated: 2026-10-11-23-29-54
+      updated: 2026-10-13-02-51-27
       followers: 3343
-      likes: 213
+      likes: 218
 2018-10-09-severe-innkeeper:
   title: Severe Innkeeper
   titleRu: Суровый трактирщик
@@ -15518,19 +15519,19 @@
     - service: vk
       id: 3603
       published: 2026-10-11-19-59-51
-      updated: 2026-10-12-21-34-51
+      updated: 2026-10-13-02-51-26
       followers: 1452
-      likes: 51
-      views: 520
+      likes: 52
+      views: 531
       reposts: 2
       comments: !c ixSAkZPLQnoSzqc8gACpbW1hbGhhc2FutNCR0YDRg9GC0LDQu9C10L3wn5SlAw==
     - service: tg
       id: 1340
       published: 2026-10-11-19-59-57
-      updated: 2026-10-12-21-34-48
+      updated: 2026-10-13-02-51-22
       followers: 949
-      likes: 42
-      views: 154
+      likes: 44
+      views: 172
 2018-10-10-thunderstorm-cave:
   title: Thunderstorm Cave
   titleRu: Грозовая пещера
