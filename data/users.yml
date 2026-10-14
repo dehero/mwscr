@@ -1296,10 +1296,10 @@ crazycyrodiliccat:
   profiles:
     - service: vk
       id: '90554843'
-      updated: 2026-10-14-01-39-24
+      updated: 2026-10-14-06-01-43
       username: crazycyrodiliccat
       name: Александр Невский
-      avatar: store:/avatars/vk-0db1296b.jpg
+      avatar: store:/avatars/vk-6824a11f.jpg
 crulvy:
   profiles:
     - service: ig
@@ -1550,7 +1550,7 @@ dehero:
     - type: channel
       service: vk
       id: '138249959'
-      updated: 2026-10-14-01-38-45
+      updated: 2026-10-14-06-02-24
       username: mwscr
       name: Morrowind Screenshots
       avatar: store:/avatars/vk-8e97fd4f.jpg
@@ -2883,10 +2883,10 @@ ilya-goryachev:
   profiles:
     - service: vk
       id: '448748807'
-      updated: 2026-10-06-16-33-59
+      updated: 2026-10-14-06-02-44
       username: id448748807
       name: Илья Горячев
-      avatar: store:/avatars/vk-a5784df5.jpg
+      avatar: store:/avatars/vk-d8a94784.jpg
 ilya-kolobov:
   profiles:
     - service: vk
@@ -3032,7 +3032,7 @@ its-okey-dude:
   profiles:
     - service: vk
       id: '381549157'
-      updated: 2026-10-06-09-51-50
+      updated: 2026-10-14-06-00-11
       username: its_okey_dude
       name: Николай Гачимучев
       avatar: store:/avatars/vk-08ebd553.jpg
@@ -3559,7 +3559,7 @@ kurov-alexander:
   profiles:
     - service: vk
       id: '233557'
-      updated: 2026-10-06-16-33-47
+      updated: 2026-10-14-06-02-10
       username: kurov.alexander
       name: Александр Куров
       avatar: store:/avatars/vk-0f86d694.jpg
@@ -3575,10 +3575,10 @@ kydinov91:
   profiles:
     - service: vk
       id: '36104583'
-      updated: 2026-10-14-01-38-27
+      updated: 2026-10-14-06-00-57
       username: kydinov91
       name: Илья Кудинов
-      avatar: store:/avatars/vk-03d8a48a.jpg
+      avatar: store:/avatars/vk-e102541d.jpg
 l-iiiiiiiiiiiiiiiiiiiiiiiiiiiiiii:
   profiles:
     - service: tg
@@ -3797,7 +3797,7 @@ lycanthropy:
   profiles:
     - service: vk
       id: '5386912'
-      updated: 2026-10-07-08-14-16
+      updated: 2026-10-14-06-00-48
       username: lycanthropy
       name: Филипп Суворов
       avatar: store:/avatars/vk-96cd2c06.jpg
@@ -3982,7 +3982,7 @@ max-nafig:
   profiles:
     - service: vk
       id: '55201916'
-      updated: 2026-10-13-17-58-00
+      updated: 2026-10-14-05-59-55
       username: max_nafig
       name: Макс Нафиг
       avatar: store:/avatars/vk-e99f7f69.jpg
@@ -3990,7 +3990,7 @@ max-tsei:
   profiles:
     - service: vk
       id: '353284524'
-      updated: 2026-10-14-01-37-40
+      updated: 2026-10-14-06-02-24
       username: max.tsei
       avatar: store:/avatars/vk-7f160215.jpg
       deleted: true
@@ -4078,7 +4078,7 @@ michael-levington:
   profiles:
     - service: vk
       id: '416916067'
-      updated: 2026-10-13-02-51-28
+      updated: 2026-10-14-05-59-52
       username: michael_levington
       name: Майкл Левингтон
       avatar: store:/avatars/vk-77942374.jpg
@@ -4976,7 +4976,7 @@ pinchinium:
   profiles:
     - service: vk
       id: '178716135'
-      updated: 2026-10-13-13-48-32
+      updated: 2026-10-14-06-00-18
       username: pinchinium
       name: Агзам Мубаракшин
       avatar: store:/avatars/vk-77942374.jpg
@@ -5627,7 +5627,7 @@ sergey-b-2:
   profiles:
     - service: vk
       id: '1077446394'
-      updated: 2026-10-13-02-51-31
+      updated: 2026-10-14-05-59-55
       username: id1077446394
       name: Сергей Б
       avatar: store:/avatars/vk-f5b20109.jpg
@@ -6834,7 +6834,7 @@ user-34:
   profiles:
     - service: vk
       id: '266402374'
-      updated: 2026-10-06-16-32-35
+      updated: 2026-10-14-06-00-46
       username: id266402374
       avatar: store:/avatars/vk-7f160215.jpg
       deleted: true
