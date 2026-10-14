@@ -26,17 +26,24 @@
 
 .text table {
   display: block;
+  width: max-content;
   max-width: 100%;
   overflow-x: auto;
   border-collapse: separate;
   border-spacing: 0;
   margin: 8px 0 4px 0;
+  overflow-wrap: normal;
+  word-break: normal;
+  -webkit-overflow-scrolling: touch;
 }
 
 .text th,
 .text td {
   padding: 1px 16px 1px 0;
   text-align: left;
+  vertical-align: top;
+  overflow-wrap: normal;
+  word-break: normal;
 }
 
 .text th {
