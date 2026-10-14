@@ -1,15 +1,12 @@
 .container {
   flex-grow: 1;
-  display: grid;
+  display: flex;
+  flex-flow: column nowrap;
+  gap: 8px;
   height: 100%;
+  box-sizing: border-box;
   padding: 8px;
   margin: 0 -2px -2px -2px;
-  gap: 8px;
-  grid-template-columns: 100%;
-  grid-template-rows: auto 1fr;
-  grid-template-areas:
-    'parameters'
-    'posts';
   overflow-y: auto;
   /* Make scroller composited for faster scrolling,
     * the downside of that is that on lower
@@ -19,11 +16,54 @@
   will-change: transform;
 }
 
-.parameters {
-  grid-area: parameters;
+.types {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  gap: 8px;
+  flex: 0 0 auto;
+  min-width: 0;
+  padding: 12px;
 }
 
-.postsWrapper {
+.typesOverflow {
+  flex: 0 1 auto;
+  min-width: 0;
+}
+
+.search {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  flex: 1 1 0;
+  min-width: min(100px, 100%);
+}
+
+.searchInputWrapper {
+  display: inline-block;
+  max-width: 100%;
+  flex: 1 1 auto;
+  min-width: 0;
+}
+
+.sort {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  gap: 4px;
+  flex: 0 1 auto;
+  min-width: 0;
+}
+
+.sort select {
+  min-width: 0;
+}
+
+.filters {
+  grid-area: filters;
+}
+
+.postsFrame {
   grid-area: posts;
   display: flex;
   flex-flow: column nowrap;
@@ -52,6 +92,10 @@
 
 .toolbarDivider {
   margin: 0 12px;
+}
+
+.typeNavigationGroup {
+  flex-wrap: nowrap;
 }
 
 .fieldset {
@@ -92,14 +136,19 @@
 
 @media only screen and (min-width: 812px) {
   .container {
+    display: grid;
     grid-template-columns: minmax(var(--size-panel-min-width), 1fr) minmax(var(--size-panel-min-width), 3fr);
-    grid-template-rows: 100%;
-    grid-template-areas: 'parameters posts';
+    grid-template-rows: minmax(0, 1fr);
+    grid-template-areas: 'filters posts';
     padding: 0 8px 8px 8px;
     overflow: hidden;
-    flex-grow: 1;
     margin: 0;
     border: none;
+  }
+
+  .filters,
+  .postsFrame {
+    min-height: 0;
   }
 
   .posts {

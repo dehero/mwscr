@@ -2,6 +2,7 @@ import { createMediaQuery } from '@solid-primitives/media';
 import { makePersisted } from '@solid-primitives/storage';
 import { createAsync, revalidate } from '@solidjs/router';
 import { createEffect, createMemo, createResource, createSignal, For, on, Show } from 'solid-js';
+import { ASC_OPTION, DESC_OPTION } from '../../../core/entities/option.ts';
 import type { PostAction } from '../../../core/entities/post-action.ts';
 import type { SelectPostInfosParams } from '../../../core/entities/post-info.ts';
 import { selectPostInfosResultToString } from '../../../core/entities/post-info.ts';
@@ -12,12 +13,15 @@ import { Button } from '../../components/Button/Button.tsx';
 import { createDetachedDialogFragment } from '../../components/DetachedDialogsProvider/DetachedDialogsProvider.tsx';
 import { Divider } from '../../components/Divider/Divider.tsx';
 import { Frame } from '../../components/Frame/Frame.tsx';
+import { Input } from '../../components/Input/Input.tsx';
+import { OverflowContainer } from '../../components/OverflowContainer/OverflowContainer.tsx';
 import { PostContentPreview } from '../../components/PostContentPreview/PostContentPreview.tsx';
 import { PostPreviews } from '../../components/PostPreviews/PostPreviews.tsx';
+import { RadioGroup } from '../../components/RadioGroup/RadioGroup.tsx';
+import { Select } from '../../components/Select/Select.tsx';
 import { Toast, useToaster } from '../../components/Toaster/Toaster.tsx';
 import { dataManager } from '../../data-managers/manager.ts';
 import { useLocalPatch } from '../../hooks/useLocalPatch.ts';
-import { postsRoute } from '../../routes/posts-route.ts';
 import { texts } from '../../texts/index.ts';
 import { currentLocale, localize } from '../../utils/intl-utils.ts';
 import { usePostsPageOptions } from './hooks/usePostsPageOptions.ts';
@@ -46,6 +50,7 @@ export const PostsPage: SiteRoutePage<PostsPageParams, PostsPageData> = (props) 
   });
 
   const [selected, setSelected] = createSignal<string[]>([]);
+  const [isSearching, setIsSearching] = createSignal(false);
   const [selectedPostInfos] = createResource(selected, (ids) =>
     dataManager.getPostInfos(props.params.managerName, ids),
   );
@@ -138,14 +143,78 @@ export const PostsPage: SiteRoutePage<PostsPageParams, PostsPageData> = (props) 
               params={props.params}
               data={data()}
               options={parameters}
-              class={styles.parameters}
+              class={styles.filters}
               expandedOnNarrowScreen={expandParametersOnNarrowScreen()}
-              onExpandedOnNarrowScreenChange={setExpandParametersOnNarrowScreen}
+              onExpandedChange={setExpandParametersOnNarrowScreen}
             />
           )}
         </Show>
 
-        <Frame variant="thin" class={styles.postsWrapper}>
+        <Frame variant="thin" class={styles.postsFrame}>
+          <div class={styles.types}>
+            <OverflowContainer
+              containerClass={styles.typesOverflow}
+              fallback={
+                <Select options={parameters.typeOptions()} value={parameters.type()} onChange={parameters.setType} />
+              }
+            >
+              <RadioGroup
+                name="postTypeNavigation"
+                options={parameters.typeOptions()}
+                value={parameters.type()}
+                onChange={parameters.setType}
+                class={styles.typeNavigationGroup}
+              />
+            </OverflowContainer>
+
+            <div class={styles.search}>
+              <div class={styles.searchInputWrapper}>
+                <Input
+                  name="search"
+                  value={parameters.search()}
+                  onChange={() => setIsSearching(true)}
+                  onDebouncedChange={(value) => {
+                    parameters.setSearch(value);
+                    setIsSearching(false);
+                  }}
+                />
+              </div>
+
+              <Show when={parameters.search()}>
+                <Button
+                  onClick={(e: Event) => {
+                    e.preventDefault();
+                    parameters.setSearch('');
+                    setIsSearching(false);
+                  }}
+                >
+                  {localize(texts.filtering.clear)}
+                </Button>
+              </Show>
+
+              <Toast message={localize(texts.filtering.searchingPosts)} show={isSearching()} loading />
+            </div>
+
+            <Show when={parameters.sortOptions().length > 0}>
+              <div class={styles.sort}>
+                <Select
+                  options={parameters.sortOptions()}
+                  value={parameters.sortKey()}
+                  onChange={parameters.setSortKey}
+                />
+                <RadioGroup
+                  name="sortDirection"
+                  options={[ASC_OPTION, DESC_OPTION]}
+                  value={parameters.sortDirection()}
+                  onChange={parameters.setSortDirection}
+                  class={styles.sortDirectionRadioGroup}
+                />
+              </div>
+            </Show>
+          </div>
+
+          <Divider class={styles.toolbarDivider} />
+
           <div class={styles.toolbar}>
             <Show when={postInfos()} fallback={<p class={styles.postInfosLabel}>{localize(texts.content.loading)}</p>}>
               {(postInfos) => (
@@ -159,6 +228,11 @@ export const PostsPage: SiteRoutePage<PostsPageParams, PostsPageData> = (props) 
                 </p>
               )}
             </Show>
+
+            <Show when={parameters.activeCount() > 0}>
+              <Button onClick={() => parameters.setPreset(undefined)}>{localize(texts.filtering.resetOptions)}</Button>
+            </Show>
+
             <Show when={selected().length > 0}>
               <fieldset class={styles.fieldset}>
                 <div class={styles.selectedPosts}>
@@ -203,11 +277,6 @@ export const PostsPage: SiteRoutePage<PostsPageParams, PostsPageData> = (props) 
                   {localize(texts.contributing.submitFiles)}
                 </Button>
               </fieldset>
-            </Show>
-            <Show when={parameters.preset()}>
-              <Button href={postsRoute.createUrl({ managerName: props.params.managerName })}>
-                {localize(texts.filtering.resetOptions)}
-              </Button>
             </Show>
           </div>
           <Divider class={styles.toolbarDivider} />
