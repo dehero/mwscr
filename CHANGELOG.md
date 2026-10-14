@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file.
 
+## [4.4.1](https://github.com/dehero/mwscr/compare/v4.4.0...v4.4.1) (2026-10-14)
+
+### Bug Fixes
+
+- refine table layout in help topics
+  ([4e09fea](https://github.com/dehero/mwscr/commit/4e09fea74591cf6ea005ea9937c1b2dff18c913e))
+
 ## [4.4.0](https://github.com/dehero/mwscr/compare/v4.3.0...v4.4.0) (2026-10-13)
 
 ### Features
