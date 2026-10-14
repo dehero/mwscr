@@ -1543,7 +1543,7 @@ dehero:
       avatar: store:/avatars/gh-c8afe641.jpg
     - service: vk
       id: '3652910'
-      updated: 2026-10-14-07-10-53
+      updated: 2026-10-14-13-23-46
       username: dehero
       name: Антон Курьянов
       avatar: store:/avatars/vk-c533aa72.jpg
@@ -2829,7 +2829,7 @@ idalexeyvav:
   profiles:
     - service: vk
       id: '417783044'
-      updated: 2026-10-07-01-16-07
+      updated: 2026-10-14-13-23-46
       username: idalexeyvav
       name: Алексей Вавилов
       avatar: store:/avatars/vk-6717456e.jpg
@@ -3862,7 +3862,7 @@ maks-perunov:
   profiles:
     - service: vk
       id: '35868942'
-      updated: 2026-10-13-02-54-11
+      updated: 2026-10-14-13-23-14
       username: id35868942
       name: Макс Перунов
       avatar: store:/avatars/vk-3bb92045.jpg
@@ -4027,6 +4027,11 @@ megachif1178896:
       username: xxxjuggernaut
       name: Максим Коротеев
       avatar: store:/avatars/vk-0a5c870e.jpg
+mellowraccoon:
+  profiles:
+    - service: ig
+      updated: 2026-10-14-13-21-03
+      username: mellowraccoon
 mercure-adv:
   profiles:
     - service: ig
@@ -5627,7 +5632,7 @@ sergey-b-2:
   profiles:
     - service: vk
       id: '1077446394'
-      updated: 2026-10-14-05-59-55
+      updated: 2026-10-14-13-20-58
       username: id1077446394
       name: Сергей Б
       avatar: store:/avatars/vk-f5b20109.jpg
@@ -7003,7 +7008,7 @@ vanya-letov:
   profiles:
     - service: tg
       id: '1368355493'
-      updated: 2026-10-07-08-12-32
+      updated: 2026-10-14-13-20-55
       accessHash: '304826905023030342'
       username: VanyaLetov
       name: Ваня Белошапкин
