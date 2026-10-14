@@ -1737,6 +1737,14 @@
       likes: 75
       views: 783
       comments: !c ixWAkZPLQnlChFvpgACuZGFya25lc3MtcmlmaG+xTGlrZSBsb3ZlbHkgZHJlYW0D
+    - service: vk
+      id: 3611
+      published: 2026-10-14-18-23-45
+      followers: 1454
+    - service: tg
+      id: 1343
+      published: 2026-10-14-18-23-52
+      followers: 949
 2020-10-22-clagius-clanler-outfitter:
   title: Clagius Clanler, Outfitter
   titleRu: Клагиус Кланлер, галантерейщик

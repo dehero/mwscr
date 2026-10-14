@@ -631,7 +631,7 @@ artyom-karpov:
   profiles:
     - service: vk
       id: '178018548'
-      updated: 2026-10-07-08-12-54
+      updated: 2026-10-14-18-21-56
       username: id178018548
       name: Артём Карпов
       avatar: store:/avatars/vk-72fe5d60.jpg
@@ -1477,7 +1477,7 @@ daryna-dmytrenko:
   profiles:
     - service: vk
       id: '164064457'
-      updated: 2026-10-07-01-16-09
+      updated: 2026-10-14-18-21-22
       username: daryna_dmytrenko
       name: Дарина Дмитренко
       avatar: store:/avatars/vk-0d327853.jpg
@@ -1543,7 +1543,7 @@ dehero:
       avatar: store:/avatars/gh-c8afe641.jpg
     - service: vk
       id: '3652910'
-      updated: 2026-10-14-13-23-46
+      updated: 2026-10-14-18-22-53
       username: dehero
       name: Антон Курьянов
       avatar: store:/avatars/vk-c533aa72.jpg
@@ -2190,7 +2190,7 @@ evil-kit:
   profiles:
     - service: vk
       id: '153155138'
-      updated: 2026-10-07-16-07-59
+      updated: 2026-10-14-18-22-06
       username: evil_kit
       name: Никита Метелкин
       avatar: store:/avatars/vk-adb64972.jpg
@@ -2829,7 +2829,7 @@ idalexeyvav:
   profiles:
     - service: vk
       id: '417783044'
-      updated: 2026-10-14-13-23-46
+      updated: 2026-10-14-18-21-17
       username: idalexeyvav
       name: Алексей Вавилов
       avatar: store:/avatars/vk-6717456e.jpg
@@ -3061,7 +3061,7 @@ ivan-uralov:
   profiles:
     - service: vk
       id: '16497155'
-      updated: 2026-10-13-22-27-22
+      updated: 2026-10-14-18-20-35
       username: id16497155
       name: Иван Уралов
       avatar: store:/avatars/vk-51775759.jpg
@@ -3797,7 +3797,7 @@ lycanthropy:
   profiles:
     - service: vk
       id: '5386912'
-      updated: 2026-10-14-06-00-48
+      updated: 2026-10-14-18-22-56
       username: lycanthropy
       name: Филипп Суворов
       avatar: store:/avatars/vk-96cd2c06.jpg
@@ -4186,7 +4186,7 @@ mmalhasan:
   profiles:
     - service: vk
       id: '509770852'
-      updated: 2026-10-13-17-57-26
+      updated: 2026-10-14-18-20-32
       username: mmalhasan
       name: Margarita Morozova
       avatar: store:/avatars/vk-7df79fdb.jpg
@@ -5632,7 +5632,7 @@ sergey-b-2:
   profiles:
     - service: vk
       id: '1077446394'
-      updated: 2026-10-14-13-20-58
+      updated: 2026-10-14-18-20-30
       username: id1077446394
       name: Сергей Б
       avatar: store:/avatars/vk-f5b20109.jpg
@@ -5963,10 +5963,10 @@ soulilight:
   profiles:
     - service: vk
       id: '347703822'
-      updated: 2026-10-14-07-10-26
+      updated: 2026-10-14-18-22-32
       username: soulilight
       name: Dima Boev
-      avatar: store:/avatars/vk-4a3f332e.jpg
+      avatar: store:/avatars/vk-281afeb3.jpg
 southtextman:
   profiles:
     - service: ig
@@ -6855,7 +6855,7 @@ user-36:
   profiles:
     - service: vk
       id: '227500203'
-      updated: 2026-10-07-08-14-15
+      updated: 2026-10-14-18-22-54
       username: id227500203
       avatar: store:/avatars/vk-7f160215.jpg
       deleted: true
