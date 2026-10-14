@@ -2,23 +2,26 @@
   position: relative;
   overflow: hidden;
   display: flex;
+  min-width: 0;
 }
 
-.container.isOverflowing {
-  overflow: visible;
-}
-
-.fallback {
-  display: none;
-}
-
-.isOverflowing > .fallback {
-  display: block;
+/* The children stay in the layout while overflowing so the container keeps
+ * its natural width; otherwise the shrunk container could never report that
+ * there is enough room again and would stay collapsed. */
+.children {
+  flex: 0 0 auto;
 }
 
 .isOverflowing > .children {
   visibility: hidden;
+}
+
+.fallback {
   position: absolute;
   top: 0;
-  bottom: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  height: 100%;
+  max-width: 100%;
 }

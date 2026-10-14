@@ -22,7 +22,9 @@ export const OverflowContainer: Component<OverflowContainerProps> = (props) => {
       ref={setContainerRef}
       class={clsx(styles.container, isOverflowing() && styles.isOverflowing, props.containerClass)}
     >
-      <Show when={isOverflowing()}>{props.fallback}</Show>
+      <Show when={isOverflowing()}>
+        <div class={styles.fallback}>{props.fallback}</div>
+      </Show>
       <div class={clsx(styles.children, props.class)} ref={setChildrenRef}>
         {props.children}
       </div>

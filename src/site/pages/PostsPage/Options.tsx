@@ -5,7 +5,7 @@ import { ListReaderItemStatus, listReaderItemStatusDescriptors } from '../../../
 import type { LocationInfo } from '../../../core/entities/location-info.ts';
 import { aspectRatioToReadableText } from '../../../core/entities/media.ts';
 import type { Option } from '../../../core/entities/option.ts';
-import { ALL_OPTION, ANY_OPTION, ASC_OPTION, DESC_OPTION, NONE_OPTION } from '../../../core/entities/option.ts';
+import { ALL_OPTION, ANY_OPTION, NONE_OPTION } from '../../../core/entities/option.ts';
 import {
   PostAddon,
   PostAspectRatio,
@@ -16,19 +16,16 @@ import {
   postViolationDescriptors,
 } from '../../../core/entities/post.ts';
 import { boolToString, stringToBool } from '../../../core/utils/common-utils.ts';
-import { Button } from '../../components/Button/Button.tsx';
 import { Checkbox } from '../../components/Checkbox/Checkbox.tsx';
 import { DatePicker } from '../../components/DatePicker/DatePicker.tsx';
 import { Divider } from '../../components/Divider/Divider.tsx';
 import { Frame } from '../../components/Frame/Frame.tsx';
-import { Input } from '../../components/Input/Input.tsx';
 import { Label } from '../../components/Label/Label.tsx';
 import { LocationTooltip } from '../../components/LocationTooltip/LocationTooltip.tsx';
 import { OverflowContainer } from '../../components/OverflowContainer/OverflowContainer.tsx';
 import { RadioGroup } from '../../components/RadioGroup/RadioGroup.tsx';
 import { Select } from '../../components/Select/Select.tsx';
 import { Table } from '../../components/Table/Table.tsx';
-import { Toast } from '../../components/Toaster/Toaster.tsx';
 import { WorldMap } from '../../components/WorldMap/WorldMap.tsx';
 import { texts } from '../../texts/index.ts';
 import { localField, localize } from '../../utils/intl-utils.ts';
@@ -47,13 +44,15 @@ interface TagOption extends Option {
 
 interface ViewOption extends Option {
   filter?: FilterKey;
+  preset?: boolean;
 }
 
 const allViewOptions: ViewOption[] = [
-  { label: texts.filtering.allOptions, value: undefined },
+  { label: texts.filtering.map, value: 'map', filter: 'location' },
   { label: texts.filtering.locations, value: 'locations', filter: 'location' },
   { label: texts.filtering.tags, value: 'tags', filter: 'tag' },
-  { label: texts.filtering.map, value: 'map', filter: 'location' },
+  { label: texts.filtering.presets, value: 'presets', preset: true },
+  { label: texts.filtering.other, value: undefined },
 ] as const;
 
 type View = (typeof allViewOptions)[number]['value'];
@@ -64,7 +63,7 @@ export interface OptionsProps {
   options: ReturnType<typeof usePostsPageOptions>;
   class?: string;
   expandedOnNarrowScreen: boolean;
-  onExpandedOnNarrowScreenChange: (value: boolean | undefined) => void;
+  onExpandedChange: (value: boolean | undefined) => void;
 }
 
 export const Options: Component<OptionsProps> = (props) => {
@@ -72,12 +71,15 @@ export const Options: Component<OptionsProps> = (props) => {
 
   let locationsWrapperRef: HTMLDivElement | undefined;
   let tagsWrapperRef: HTMLDivElement | undefined;
+  let presetsWrapperRef: HTMLDivElement | undefined;
   const narrowScreen = createMediaQuery('(max-width: 811px)');
 
-  const [isSearching, setIsSearching] = createSignal(false);
-
   const viewOptions = () =>
-    allViewOptions.filter((option) => !option.filter || !layout().filters || layout().filters?.includes(option.filter));
+    allViewOptions.filter(
+      (option) =>
+        (!option.filter || !layout().filters || layout().filters?.includes(option.filter)) &&
+        (!option.preset || (layout().presetKeys?.length ?? 0) > 0),
+    );
 
   const locationOptions = createMemo((): LocationOption[] => [
     ALL_OPTION,
@@ -128,12 +130,6 @@ export const Options: Component<OptionsProps> = (props) => {
     })),
   ]);
 
-  const locationOption = createMemo(() =>
-    locationOptions().find((option) => option.value === props.options.location()),
-  );
-
-  const tagOption = createMemo(() => tagOptions().find((option) => option.value === props.options.tag()));
-
   const detectInitialView = () => {
     const locationInfo = props.data.locationInfos.find((location) => location.title === props.options.location());
 
@@ -159,6 +155,13 @@ export const Options: Component<OptionsProps> = (props) => {
   const [view, setView] = createSignal<View>();
   const expanded = () => !narrowScreen() || props.expandedOnNarrowScreen;
 
+  const handleViewChange = (value: View) => {
+    setView(value);
+    if (narrowScreen()) {
+      props.onExpandedChange(true);
+    }
+  };
+
   return (
     <Frame
       class={clsx(
@@ -170,32 +173,24 @@ export const Options: Component<OptionsProps> = (props) => {
     >
       <div class={styles.toolbarWrapper}>
         <div class={styles.toolbar}>
-          <Show
-            when={expanded()}
-            fallback={
-              <div class={styles.selectWrapper}>
-                <Select
-                  options={props.options.presetOptions()}
-                  value={props.options.preset()}
-                  onChange={props.options.setPreset}
-                  class={styles.select}
-                />
-              </div>
-            }
+          <OverflowContainer
+            fallback={<Select options={viewOptions()} value={view()} onChange={handleViewChange} />}
+            containerClass={styles.viewWrapper}
           >
-            <OverflowContainer
-              fallback={<Select options={viewOptions()} value={view()} onChange={setView} />}
-              containerClass={styles.viewWrapper}
-            >
-              <RadioGroup name="view" options={viewOptions()} value={view()} onChange={setView} class={styles.view} />
-            </OverflowContainer>
-          </Show>
+            <RadioGroup
+              name="view"
+              options={viewOptions()}
+              value={view()}
+              onChange={handleViewChange}
+              class={styles.view}
+            />
+          </OverflowContainer>
 
           <Show when={narrowScreen()}>
             <Checkbox
               name="expandParameters"
               value={props.expandedOnNarrowScreen}
-              onChange={props.onExpandedOnNarrowScreenChange}
+              onChange={props.onExpandedChange}
               trueLabel={localize(texts.filtering.collapse)}
               falseLabel={localize(texts.filtering.expand)}
             />
@@ -211,45 +206,6 @@ export const Options: Component<OptionsProps> = (props) => {
         <Switch>
           <Match when={typeof view() === 'undefined'} keyed>
             <form class={styles.parameters}>
-              <Label label={localize(texts.filtering.preset)} labelClass={styles.labelWithFixedWidth}>
-                <div class={styles.selectWrapper}>
-                  <Select
-                    options={props.options.presetOptions()}
-                    value={props.options.preset()}
-                    onChange={props.options.setPreset}
-                    class={styles.select}
-                  />
-                </div>
-              </Label>
-
-              <Label label={localize(texts.filtering.search)} labelClass={styles.labelWithFixedWidth}>
-                <fieldset class={styles.fieldset}>
-                  <div class={styles.searchInputWrapper}>
-                    <Input
-                      name="search"
-                      value={props.options.search()}
-                      onChange={() => setIsSearching(true)}
-                      onDebouncedChange={(value) => {
-                        props.options.setSearch(value);
-                        setIsSearching(false);
-                      }}
-                    />
-                  </div>
-
-                  <Button
-                    onClick={(e: Event) => {
-                      e.preventDefault();
-                      props.options.setSearch('');
-                      setIsSearching(false);
-                    }}
-                  >
-                    {localize(texts.filtering.clear)}
-                  </Button>
-
-                  <Toast message={localize(texts.filtering.searchingPosts)} show={isSearching()} loading />
-                </fieldset>
-              </Label>
-
               <Show when={!layout().filters || layout().filters!.includes('original')}>
                 <Label
                   label={localize(texts.filtering.recency)}
@@ -314,20 +270,6 @@ export const Options: Component<OptionsProps> = (props) => {
                 </Label>
               </Show>
 
-              <Show when={!layout().filters || layout().filters!.includes('type')}>
-                <Label label={localize(texts.field.type)} labelClass={styles.labelWithFixedWidth}>
-                  <div class={styles.selectWrapper}>
-                    <RadioGroup
-                      name="type"
-                      options={props.options.typeOptions()}
-                      value={props.options.type()}
-                      onChange={props.options.setType}
-                      class={styles.select}
-                    />
-                  </div>
-                </Label>
-              </Show>
-
               <Show when={!layout().filters || layout().filters!.includes('aspect')}>
                 <Label label={localize(texts.field.aspect)} labelClass={styles.labelWithFixedWidth}>
                   <div class={styles.selectWrapper}>
@@ -335,7 +277,10 @@ export const Options: Component<OptionsProps> = (props) => {
                       name="aspect"
                       options={[
                         ALL_OPTION,
-                        ...PostAspectRatio.options.map((value) => ({ label: aspectRatioToReadableText(value), value })),
+                        ...PostAspectRatio.options.map((value) => ({
+                          label: aspectRatioToReadableText(value),
+                          value,
+                        })),
                       ]}
                       value={props.options.aspect()}
                       onChange={props.options.setAspect}
@@ -367,19 +312,6 @@ export const Options: Component<OptionsProps> = (props) => {
                 </Label>
               </Show>
 
-              <Show when={!layout().filters || layout().filters!.includes('location')}>
-                <Label
-                  label={localize(texts.field.location)}
-                  class={styles.label}
-                  labelClass={styles.labelWithFixedWidth}
-                >
-                  <Button onClick={() => setView('locations')}>
-                    {locationOption() ? localize(locationOption()!.label) : undefined}
-                    <Show when={locationOption()?.postCount}>{(postCount) => <> ({postCount})</>}</Show>
-                  </Button>
-                </Label>
-              </Show>
-
               <Show when={!layout().filters || layout().filters!.includes('addon')}>
                 <Label label={localize(texts.field.addon)} labelClass={styles.labelWithFixedWidth}>
                   <div class={styles.selectWrapper}>
@@ -391,15 +323,6 @@ export const Options: Component<OptionsProps> = (props) => {
                       class={styles.select}
                     />
                   </div>
-                </Label>
-              </Show>
-
-              <Show when={!layout().filters || layout().filters!.includes('tag')}>
-                <Label label={localize(texts.post.tag)} class={styles.label} labelClass={styles.labelWithFixedWidth}>
-                  <Button onClick={() => setView('tags')}>
-                    {localize(tagOption()?.label)}
-                    <Show when={tagOption()?.postCount}>{(postCount) => <> ({postCount})</>}</Show>
-                  </Button>
                 </Label>
               </Show>
 
@@ -502,29 +425,25 @@ export const Options: Component<OptionsProps> = (props) => {
                   </div>
                 </Label>
               </Show>
-
-              <Show when={props.options.sortOptions().length > 0}>
-                <Label label={localize(texts.filtering.orderBy)} labelClass={styles.labelWithFixedWidth}>
-                  <fieldset class={styles.fieldset}>
-                    <div class={styles.selectWrapper}>
-                      <Select
-                        options={props.options.sortOptions()}
-                        value={props.options.sortKey()}
-                        onChange={props.options.setSortKey}
-                        class={styles.select}
-                      />
-                    </div>
-                    <RadioGroup
-                      name="sortDirection"
-                      options={[ASC_OPTION, DESC_OPTION]}
-                      value={props.options.sortDirection()}
-                      onChange={props.options.setSortDirection}
-                      class={styles.sortDirectionRadioGroup}
-                    />
-                  </fieldset>
-                </Label>
-              </Show>
             </form>
+          </Match>
+          <Match when={view() === 'presets'} keyed>
+            <div class={styles.presetsWrapper} ref={presetsWrapperRef}>
+              <Table
+                class={styles.presets}
+                scrollTarget={presetsWrapperRef}
+                label={localize(texts.filtering.presets)}
+                rows={props.options.presetOptions().map((option) => ({
+                  label: localize(option.label),
+                  onClick: (e: Event) => {
+                    e.preventDefault();
+                    props.options.setPreset(option.value);
+                  },
+                  selected: option.value === props.options.preset(),
+                }))}
+                showEmptyValueRows
+              />
+            </div>
           </Match>
           <Match when={view() === 'locations'} keyed>
             <div class={styles.locationsWrapper} ref={locationsWrapperRef}>
