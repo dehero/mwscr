@@ -1740,11 +1740,22 @@
     - service: vk
       id: 3611
       published: 2026-10-14-18-23-45
+      updated: 2026-10-14-22-03-47
       followers: 1454
+      likes: 8
+      views: 113
+      reposts: 1
     - service: tg
       id: 1343
       published: 2026-10-14-18-23-52
+      updated: 2026-10-14-22-03-44
       followers: 949
+      likes: 25
+      views: 98
+    - service: mx
+      id: '1792015479894'
+      published: 2026-10-14-22-04-40
+      followers: 39
 2020-10-22-clagius-clanler-outfitter:
   title: Clagius Clanler, Outfitter
   titleRu: Клагиус Кланлер, галантерейщик
