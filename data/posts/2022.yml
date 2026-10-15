@@ -576,27 +576,28 @@
     - service: vk
       id: 3607
       published: 2026-10-12-21-38-51
-      updated: 2026-10-14-18-20-30
+      updated: 2026-10-15-21-58-10
       followers: 1453
-      likes: 38
-      views: 415
-      reposts: 1
+      likes: 47
+      views: 505
+      reposts: 3
       comments: !c |-
-        G90AIKwOzFOmAyYLKS7DtvZfMYrvb6RvwkRCL+qLNYlFmuzp3GzZ0KIpfSgKyEGvJmc5QXIbqvKt
-        fimI9ISMWLZuKTuzBzo4kQPKQJ9YfBCMSyy3sSkep4i9qP3z/rq4tYzv8syb8D+X7IR0PIQiPs2r
-        Jt4zRmetVKWt/IiBjwBJMe5YIQOXIqOXQGxeOaU3CMWHhMkbB4CIZUDF5oTdKjdEfAQ=
+        G08BAKwObBvG9sN2IcV1+KPREP0TFzvCP4eJBJRRdoIlVhNRsk91E6cvnESpZn9PYevQuolqVpIW
+        Z7sP7oeqaFUpiJSMmE5O4Ile8cuD9oDwJOnkgPmg3RL88gAk/vzz3MamdHoNcUgY5L/e/3bhXl/G
+        56lpHVP+s2UvxlkMMV/N2ap/C+aGjtLJq2Xm0p4DCjnfMMsAfmTCKDBOL41V4Wg7Y6xG2wdAmxSh
+        SZJGc/U3EcOk7gVq1ccXx88oraVJ83a6OZMEOjixIoDCRZQCmBEkIEViGK2QoMYgQMoC
     - service: tg
       id: 1341
       published: 2026-10-12-21-38-57
-      updated: 2026-10-14-18-20-23
+      updated: 2026-10-15-21-58-06
       followers: 949
-      likes: 49
-      views: 195
+      likes: 52
+      views: 228
     - service: ig
       id: Dec4ruDgVjb
       mediaId: '18176650027451521'
       published: 2026-10-13-22-30-41
-      updated: 2026-10-15-18-01-43
+      updated: 2026-10-15-21-58-00
       followers: 3563
     - service: mx
       id: '1791930659577'

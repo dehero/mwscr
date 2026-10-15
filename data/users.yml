@@ -2224,7 +2224,7 @@ fadeev-alexxx:
   profiles:
     - service: vk
       id: '305246543'
-      updated: 2026-10-11-08-23-44
+      updated: 2026-10-15-21-58-10
       username: fadeev_alexxx
       name: Алексей Фадеев
       avatar: store:/avatars/vk-6a4ed023.jpg
@@ -2494,7 +2494,7 @@ gleb-zheltuhin:
   profiles:
     - service: vk
       id: '29014473'
-      updated: 2026-10-15-18-01-45
+      updated: 2026-10-15-21-58-04
       username: gleb_zheltuhin
       name: Глеб Желтухин
       avatar: store:/avatars/vk-971eefc1.jpg
@@ -3061,7 +3061,7 @@ ivan-uralov:
   profiles:
     - service: vk
       id: '16497155'
-      updated: 2026-10-15-01-14-02
+      updated: 2026-10-15-21-58-13
       username: id16497155
       name: Иван Уралов
       avatar: store:/avatars/vk-51775759.jpg
@@ -4186,7 +4186,7 @@ mmalhasan:
   profiles:
     - service: vk
       id: '509770852'
-      updated: 2026-10-14-18-20-32
+      updated: 2026-10-15-21-58-11
       username: mmalhasan
       name: Margarita Morozova
       avatar: store:/avatars/vk-7df79fdb.jpg
@@ -5632,7 +5632,7 @@ sergey-b-2:
   profiles:
     - service: vk
       id: '1077446394'
-      updated: 2026-10-15-18-01-46
+      updated: 2026-10-15-21-58-10
       username: id1077446394
       name: Сергей Б
       avatar: store:/avatars/vk-f5b20109.jpg
@@ -6176,7 +6176,7 @@ svyatosha:
   profiles:
     - service: tg
       id: '6654011684'
-      updated: 2026-10-15-18-01-51
+      updated: 2026-10-15-21-58-04
       accessHash: '-6782097744855732809'
       name: Святоша
       avatar: store:/avatars/tg-5321215999166062533.jpg
