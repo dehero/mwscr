@@ -784,6 +784,18 @@
       followers: 122
       likes: 8
       views: 172
+    - service: vk
+      id: 3615
+      published: 2026-10-15-18-02-12
+      followers: 1456
+    - service: tg
+      id: 1344
+      published: 2026-10-15-18-02-19
+      followers: 951
+    - service: mx
+      id: '1792087347953'
+      published: 2026-10-15-18-02-28
+      followers: 39
 2018-01-16-birth-of-fabricant:
   title: Birth of Fabricant
   titleRu: Рождение фабриканта
@@ -6328,9 +6340,8 @@
       id: DeTd6jfjJ9L
       mediaId: '18248977834310986'
       published: 2026-10-10-06-43-35
-      updated: 2026-10-14-13-21-06
+      updated: 2026-10-15-18-01-44
       followers: 3387
-      likes: 157
       comments: !c |-
         CyiAkZPLQnoSTsxHgACqZmllbGRmbGFrZdk5QWxsIGhlIHdhbnRzIGlzIGEgcGFpciBvZiBib290
         cywgaG93IGhhcmQgY291bGQgaXQgYmU/IDooAw==
