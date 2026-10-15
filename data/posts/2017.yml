@@ -196,10 +196,10 @@
     - service: vk
       id: 3608
       published: 2026-10-13-22-30-48
-      updated: 2026-10-15-07-00-52
+      updated: 2026-10-15-13-06-21
       followers: 1454
-      likes: 45
-      views: 461
+      likes: 46
+      views: 492
       reposts: 3
       comments: !c |-
         G+UAeKwObMf0NOw05A0QXqMi+ArRP/09I734H0qJF5VYk1ikyR6tmxKi0IUy4x3DhArKbeZsTv4u
@@ -208,15 +208,15 @@
     - service: tg
       id: 1342
       published: 2026-10-13-22-30-54
-      updated: 2026-10-15-07-00-47
+      updated: 2026-10-15-13-06-17
       followers: 949
-      likes: 47
-      views: 183
+      likes: 48
+      views: 189
     - service: ig
       id: DedOT9aj5Qs
       mediaId: '17901686076379163'
       published: 2026-10-14-01-39-42
-      updated: 2026-10-15-07-00-44
+      updated: 2026-10-15-13-06-15
       followers: 3568
       comments: !c |-
         G50A6B0Hbiw9iwidda8aOOcI17S2UQnOmjJ4IBlApQc+0PoNbQx+T9QknXGDAw0D817WxcZhHsRz
@@ -19117,9 +19117,8 @@
       id: DeZRjaRIJaa
       mediaId: '17988160503070062'
       published: 2026-10-12-12-51-02
-      updated: 2026-10-14-07-09-13
+      updated: 2026-10-15-13-06-18
       followers: 3510
-      likes: 216
 2017-12-22-note-to-telvon:
   title: Note to Telvon
   titleRu: Записка Телвону
