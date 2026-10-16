@@ -196,10 +196,10 @@
     - service: vk
       id: 3608
       published: 2026-10-13-22-30-48
-      updated: 2026-10-15-21-58-06
+      updated: 2026-10-16-22-35-06
       followers: 1454
-      likes: 47
-      views: 515
+      likes: 51
+      views: 573
       reposts: 3
       comments: !c |-
         G+UAeKwObMf0NOw05A0QXqMi+ArRP/09I734H0qJF5VYk1ikyR6tmxKi0IUy4x3DhArKbeZsTv4u
@@ -208,10 +208,10 @@
     - service: tg
       id: 1342
       published: 2026-10-13-22-30-54
-      updated: 2026-10-15-21-58-05
+      updated: 2026-10-16-22-34-59
       followers: 949
-      likes: 49
-      views: 207
+      likes: 53
+      views: 226
     - service: ig
       id: DedOT9aj5Qs
       mediaId: '17901686076379163'
@@ -2134,9 +2134,8 @@
       id: Dd-Sb69mNow
       mediaId: '17970020034158917'
       published: 2026-10-02-01-19-15
-      updated: 2026-10-09-20-35-08
+      updated: 2026-10-16-22-35-05
       followers: 2799
-      likes: 456
 2017-02-11-first-tower-of-bthuand:
   title: First Tower of Bthuand
   titleRu: Первая башня Бтуанда
@@ -10456,7 +10455,7 @@
       id: DeULKWLDOKt
       mediaId: '18104746034202939'
       published: 2026-10-10-13-18-57
-      updated: 2026-10-15-21-58-04
+      updated: 2026-10-16-22-35-03
       followers: 3395
       comments: !c |-
         G7EA4I3UTvdQLTR18wn/i0sgm9xlYw0KdEyQLpAFXECVhLhODtjfCo5BEAAlXIVB7uj3HVNJdDu7
@@ -11527,7 +11526,7 @@
       id: DeRFmIcAJTn
       mediaId: '18109052156603180'
       published: 2026-10-09-08-32-40
-      updated: 2026-10-15-21-58-05
+      updated: 2026-10-16-22-35-04
       followers: 3350
       comments: !c CxSAkZPLQnoR/lx7gACpdHJhc2hpdHRls1NpbGx5IGxpdHRsZSB0aGluZ3MD
 2017-08-02-over-the-lava:

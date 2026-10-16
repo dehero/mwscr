@@ -607,7 +607,7 @@ artem-petrov:
   profiles:
     - service: vk
       id: '4238605'
-      updated: 2026-10-16-19-21-31
+      updated: 2026-10-16-22-35-01
       username: id4238605
       name: Артем Петров
       avatar: store:/avatars/vk-77942374.jpg
@@ -2224,7 +2224,7 @@ fadeev-alexxx:
   profiles:
     - service: vk
       id: '305246543'
-      updated: 2026-10-15-21-58-10
+      updated: 2026-10-16-22-35-08
       username: fadeev_alexxx
       name: Алексей Фадеев
       avatar: store:/avatars/vk-6a4ed023.jpg
@@ -3061,10 +3061,10 @@ ivan-uralov:
   profiles:
     - service: vk
       id: '16497155'
-      updated: 2026-10-16-19-21-30
+      updated: 2026-10-16-22-35-10
       username: id16497155
       name: Иван Уралов
-      avatar: store:/avatars/vk-2f752bb1.jpg
+      avatar: store:/avatars/vk-51775759.jpg
 ivanovic:
   profiles:
     - service: tg
@@ -4186,7 +4186,7 @@ mmalhasan:
   profiles:
     - service: vk
       id: '509770852'
-      updated: 2026-10-15-21-58-11
+      updated: 2026-10-16-22-35-09
       username: mmalhasan
       name: Margarita Morozova
       avatar: store:/avatars/vk-7df79fdb.jpg
@@ -5632,10 +5632,10 @@ sergey-b-2:
   profiles:
     - service: vk
       id: '1077446394'
-      updated: 2026-10-16-19-21-35
+      updated: 2026-10-16-22-35-08
       username: id1077446394
       name: Сергей Б
-      avatar: store:/avatars/vk-1454d682.jpg
+      avatar: store:/avatars/vk-70268334.jpg
 sergey-churbanov:
   profiles:
     - service: vk

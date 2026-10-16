@@ -159,11 +159,18 @@
     - service: vk
       id: 3622
       published: 2026-10-16-19-21-50
+      updated: 2026-10-16-22-34-57
       followers: 1456
+      likes: 12
+      views: 120
+      reposts: 2
     - service: tg
       id: 1345
       published: 2026-10-16-19-21-55
+      updated: 2026-10-16-22-34-57
       followers: 951
+      likes: 22
+      views: 107
     - service: mx
       id: '1792178520043'
       published: 2026-10-16-19-22-02
@@ -1888,7 +1895,7 @@
       id: DeaN7bPgfTv
       mediaId: '18134590480663485'
       published: 2026-10-12-21-38-37
-      updated: 2026-10-15-21-58-02
+      updated: 2026-10-16-22-34-58
       followers: 3522
 2025-05-16-on-the-balcony-at-night:
   title: On the Balcony at Night
@@ -1992,7 +1999,7 @@
       id: DeXd0E1IKCA
       mediaId: '18133713172668548'
       published: 2026-10-11-19-59-44
-      updated: 2026-10-15-21-58-02
+      updated: 2026-10-16-22-35-00
       followers: 3470
 2025-05-20-mans-best-friend:
   title: Man's Best Friend
