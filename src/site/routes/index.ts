@@ -4,9 +4,11 @@ import { errorRoute } from './error-route.ts';
 import { helpRoute } from './help-route.ts';
 import { homeRoute } from './home-route.ts';
 import { imageEditorRoute } from './image-editor-route.ts';
+import { locationsRoute } from './locations-route.ts';
 import { postRoute } from './post-route.ts';
 import { postsRoute } from './posts-route.ts';
 import { redirectRoutes } from './redirect-routes.tsx';
+import { statsRoute } from './stats-route.ts';
 import { userRoute } from './user-route.ts';
 import { usersRoute } from './users-route.ts';
 
@@ -19,6 +21,8 @@ export const routes: RouteDefinition[] = [
   postRoute as unknown as RouteDefinition,
   postsRoute as unknown as RouteDefinition,
   imageEditorRoute as RouteDefinition,
+  statsRoute as unknown as RouteDefinition,
+  locationsRoute as unknown as RouteDefinition,
   errorRoute as RouteDefinition,
 ];
 

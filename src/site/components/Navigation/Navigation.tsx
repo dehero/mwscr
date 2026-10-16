@@ -7,7 +7,9 @@ import { helpRoute } from '../../routes/help-route.ts';
 import { homeRoute } from '../../routes/home-route.ts';
 import { imageEditorRoute } from '../../routes/image-editor-route.ts';
 import type { RouteMatch } from '../../routes/index.ts';
+import { locationsRoute } from '../../routes/locations-route.ts';
 import { postsRoute } from '../../routes/posts-route.ts';
+import { statsRoute } from '../../routes/stats-route.ts';
 import { usersRoute } from '../../routes/users-route.ts';
 import { texts } from '../../texts/index.ts';
 import { getLocaleSwitchUrl, localize, switchLocale } from '../../utils/intl-utils.ts';
@@ -30,6 +32,8 @@ const primaryNavigationItems = [
 // Virtual "Workshop" section: project work pages grouped under a single menu,
 // without a page of their own. Statistics is the entry point of the section.
 const workshopNavigationItems = [
+  { route: statsRoute, params: {} },
+  { route: locationsRoute, params: {} },
   { route: postsRoute, params: { managerName: 'drafts' } },
   { route: postsRoute, params: { managerName: 'rejects' } },
   { route: imageEditorRoute, params: {} },

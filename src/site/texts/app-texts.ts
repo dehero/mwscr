@@ -32,6 +32,10 @@ export const appTexts = {
     'Image editor for Morrowind Screenshots project.',
     'Редактор изображений проекта Morrowind Screenshots.',
   ],
+  locationsDescription: [
+    'Full list and world map of locations of the Morrowind Screenshots project: coverage, quick travel and posts.',
+    'Полный список и карта мира локаций проекта Morrowind Screenshots: покрытие, быстрое перемещение и посты.',
+  ],
   title: ['Morrowind Screenshots', 'Morrowind Screenshots'],
   description: [
     'Original screenshots and videos from The Elder Scrolls III: Morrowind. No graphic and unlore mods. No color filters. No interface.',
