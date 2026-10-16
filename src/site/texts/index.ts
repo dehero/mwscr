@@ -6,6 +6,8 @@ import { contributingTexts } from './contributing-texts.ts';
 import { editingTexts } from './editing-texts.ts';
 import { filteringTexts } from './filtering-texts.ts';
 import { highlightsTexts } from './highlights-texts.ts';
+import { locationsTexts } from './locations-texts.ts';
+import { statsTexts } from './stats-texts.ts';
 import { supportTexts } from './support-texts.ts';
 
 export const texts = {
@@ -18,4 +20,6 @@ export const texts = {
   editing: editingTexts,
   contributing: contributingTexts,
   component: componentTexts,
+  stats: statsTexts,
+  locations: locationsTexts,
 } as const;

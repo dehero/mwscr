@@ -62,12 +62,6 @@
   width: 100%;
 }
 
-.searchInputWrapper {
-  display: inline-block;
-  max-width: 100%;
-  flex: 1 1 auto;
-}
-
 .locationsWrapper {
   overflow: hidden auto;
   height: 500px;
@@ -90,13 +84,20 @@
   margin: 8px 12px;
 }
 
-.worldMap {
-  max-height: 500px;
+.presetsWrapper {
+  overflow: hidden auto;
+  height: 500px;
   flex-grow: 1;
 }
 
-.sortDirectionRadioGroup {
-  flex-wrap: nowrap;
+.presets {
+  flex: 1 1 auto;
+  margin: 8px 12px;
+}
+
+.worldMap {
+  max-height: 500px;
+  flex-grow: 1;
 }
 
 .container_view_map.container_expanded .toolbarWrapper {

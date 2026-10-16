@@ -1,12 +1,15 @@
 import { useCurrentMatches, useLocation, useNavigate } from '@solidjs/router';
-import { type Component, For, Show, useContext } from 'solid-js';
+import { type Component, createSignal, For, Show, useContext } from 'solid-js';
 import type { Option } from '../../../core/entities/option.ts';
 import type { SiteRouteReference } from '../../../core/entities/site-route.ts';
 import { useLocalPatch } from '../../hooks/useLocalPatch.ts';
 import { helpRoute } from '../../routes/help-route.ts';
 import { homeRoute } from '../../routes/home-route.ts';
+import { imageEditorRoute } from '../../routes/image-editor-route.ts';
 import type { RouteMatch } from '../../routes/index.ts';
+import { locationsRoute } from '../../routes/locations-route.ts';
 import { postsRoute } from '../../routes/posts-route.ts';
+import { statsRoute } from '../../routes/stats-route.ts';
 import { usersRoute } from '../../routes/users-route.ts';
 import { texts } from '../../texts/index.ts';
 import { getLocaleSwitchUrl, localize, switchLocale } from '../../utils/intl-utils.ts';
@@ -14,17 +17,26 @@ import { AppContext } from '../App/App.tsx';
 import { Button } from '../Button/Button.tsx';
 // import { DataPatchSelect } from '../DataPatchSelect/DataPatchSelect.tsx';
 import { createDetachedDialogFragment } from '../DetachedDialogsProvider/DetachedDialogsProvider.tsx';
+import { MenuDialog } from '../MenuDialog/MenuDialog.tsx';
 import { Select } from '../Select/Select.tsx';
 import styles from './Navigation.module.css';
 
-const navigationItems = [
+const primaryNavigationItems = [
   { route: homeRoute, params: {} },
   { route: postsRoute, params: { managerName: 'posts' } },
   { route: postsRoute, params: { managerName: 'extras' } },
-  { route: postsRoute, params: { managerName: 'drafts' } },
-  { route: postsRoute, params: { managerName: 'rejects' } },
   { route: usersRoute, params: {} },
   { route: helpRoute, params: { topicId: '' } },
+] as RouteMatch[];
+
+// Virtual "Workshop" section: project work pages grouped under a single menu,
+// without a page of their own. Statistics is the entry point of the section.
+const workshopNavigationItems = [
+  { route: statsRoute, params: {} },
+  { route: locationsRoute, params: {} },
+  { route: postsRoute, params: { managerName: 'drafts' } },
+  { route: postsRoute, params: { managerName: 'rejects' } },
+  { route: imageEditorRoute, params: {} },
 ] as RouteMatch[];
 
 export function createOption({ route, params }: RouteMatch): Option {
@@ -84,7 +96,12 @@ export const Navigation: Component = () => {
 
   const [patchSize] = useLocalPatch();
 
-  const options = () => navigationItems.map((item) => createOption(item));
+  const [showWorkshopDialog, setShowWorkshopDialog] = createSignal(false);
+
+  const primaryOptions = () => primaryNavigationItems.map((item) => createOption(item));
+  const workshopOptions = () =>
+    workshopNavigationItems.map((item) => ({ ...createOption(item), group: texts.app.workshop }));
+  const options = () => [...primaryOptions(), ...workshopOptions()];
   const selectedOption = () =>
     options().find((option) =>
       pathname() === '/'
@@ -93,6 +110,8 @@ export const Navigation: Component = () => {
           ? pathname().startsWith(option.value)
           : undefined,
     );
+  const selectedWorkshopOption = () => workshopOptions().find((option) => option.value === selectedOption()?.value);
+  const workshopActive = () => Boolean(selectedWorkshopOption());
 
   const breadcrumbs = () => {
     const leaf = currentMatches().at(-1);
@@ -143,13 +162,34 @@ export const Navigation: Component = () => {
           {localize(texts.common.language, true)}
         </Button>
       </div>
-      <For each={options()}>
+      <For each={primaryOptions()}>
         {(option) => (
           <Button href={option.value} active={option.value === selectedOption()?.value} class={styles.button}>
             {localize(option.label)}
           </Button>
         )}
       </For>
+      <Button
+        active={workshopActive()}
+        class={styles.workshop}
+        onClick={(e: Event) => {
+          e.preventDefault();
+          setShowWorkshopDialog(true);
+        }}
+      >
+        {localize(texts.app.workshop)}
+      </Button>
+      <MenuDialog
+        title={localize(texts.app.workshop)}
+        show={showWorkshopDialog()}
+        value={selectedWorkshopOption()?.value}
+        options={workshopOptions()}
+        onSelect={(value) => {
+          setShowWorkshopDialog(false);
+          navigate(value);
+        }}
+        onClose={() => setShowWorkshopDialog(false)}
+      />
       <Select
         options={options()}
         onChange={(value) => navigate(value ?? '#')}
