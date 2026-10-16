@@ -286,7 +286,7 @@
       id: DeSYUMlGKY-
       mediaId: '17919312918451910'
       published: 2026-10-09-20-35-27
-      updated: 2026-10-15-01-13-59
+      updated: 2026-10-16-05-30-13
       followers: 3374
       comments: !c |-
         G9gAYIzEOEbyIpQ30tHNgAM67cGiZVvj/92cFOgSyRIPqNToILLliQbGX0FhWWiZJVo3mm4MQzWf
@@ -787,18 +787,22 @@
     - service: vk
       id: 3615
       published: 2026-10-15-18-02-12
-      updated: 2026-10-16-00-10-58
+      updated: 2026-10-16-05-30-15
       followers: 1456
-      likes: 13
-      views: 119
+      likes: 19
+      views: 196
       reposts: 1
+      comments: !c |-
+        G7YA6C0PuFOtA6FN2wmQWT0K4aN/5MQS/nhT0BrXsJngxCeTe2Y3JXQnZHXGuw3/9GStKllO/Bsz
+        NhOKgqhLCjm9tHNj65awt2ytiEc2haWeqibv568Tv3J8H84svw4mjZBcyacKt7GEmEGyIL68IIRz
+        hLNhseywlve0CibmQ5YTMrdB1s4hD1lgi/XjAg==
     - service: tg
       id: 1344
       published: 2026-10-15-18-02-19
-      updated: 2026-10-16-00-10-58
+      updated: 2026-10-16-05-30-11
       followers: 951
-      likes: 33
-      views: 106
+      likes: 38
+      views: 120
     - service: mx
       id: '1792087347953'
       published: 2026-10-15-18-02-28
@@ -1864,9 +1868,8 @@
       id: Dd94y46GGYK
       mediaId: '18113709692327717'
       published: 2026-10-01-21-35-12
-      updated: 2026-10-09-01-46-10
+      updated: 2026-10-16-05-30-17
       followers: 2791
-      likes: 223
 2018-02-04-sadrith-mora:
   title: Sadrith Mora
   titleRu: Садрит Мора
@@ -5261,10 +5264,10 @@
     - service: vk
       id: 3580
       published: 2026-10-01-21-35-21
-      updated: 2026-10-09-01-46-02
+      updated: 2026-10-16-05-30-22
       followers: 1445
-      likes: 52
-      views: 533
+      likes: 53
+      views: 577
       reposts: 4
       comments: !c |-
         iyaAkZPLQnoPqF+FgACqc2VyZ2V5LWItMtk20KXQvtGC0Ywg0LIg0YDQsNC80LrRgyDQuCDQvdCw
@@ -5272,10 +5275,10 @@
     - service: tg
       id: 1328
       published: 2026-10-01-21-35-25
-      updated: 2026-10-09-01-45-57
+      updated: 2026-10-16-05-30-20
       followers: 944
-      likes: 59
-      views: 346
+      likes: 61
+      views: 423
     - service: mx
       id: '1790890529941'
       published: 2026-10-01-21-35-30
@@ -5284,7 +5287,7 @@
       id: DeVI5sdF1gK
       mediaId: '17942750520360527'
       published: 2026-10-10-22-18-27
-      updated: 2026-10-15-01-13-58
+      updated: 2026-10-16-05-30-12
       followers: 3419
 2018-04-05-under-the-eaves:
   title: Under the Eaves
@@ -14693,10 +14696,10 @@
     - service: tg
       id: 1322
       published: 2026-09-24-20-16-00
-      updated: 2026-10-09-01-45-58
+      updated: 2026-10-16-05-30-21
       followers: 942
       likes: 49
-      views: 466
+      views: 488
     - service: mx
       id: 1790280974426
       published: 2026-09-24-20-16-00
@@ -14713,7 +14716,7 @@
       id: DeR30_VjDmD
       mediaId: '18050729162816928'
       published: 2026-10-09-15-51-32
-      updated: 2026-10-15-01-14-00
+      updated: 2026-10-16-05-30-14
       followers: 3363
 2018-09-27-sethan-ancestral-tomb:
   title: Sethan Ancestral Tomb
