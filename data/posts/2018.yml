@@ -787,10 +787,10 @@
     - service: vk
       id: 3615
       published: 2026-10-15-18-02-12
-      updated: 2026-10-16-05-30-15
+      updated: 2026-10-16-10-48-26
       followers: 1456
-      likes: 19
-      views: 196
+      likes: 23
+      views: 256
       reposts: 1
       comments: !c |-
         G7YA6C0PuFOtA6FN2wmQWT0K4aN/5MQS/nhT0BrXsJngxCeTe2Y3JXQnZHXGuw3/9GStKllO/Bsz
@@ -799,10 +799,10 @@
     - service: tg
       id: 1344
       published: 2026-10-15-18-02-19
-      updated: 2026-10-16-05-30-11
+      updated: 2026-10-16-10-48-25
       followers: 951
-      likes: 38
-      views: 120
+      likes: 41
+      views: 139
     - service: mx
       id: '1792087347953'
       published: 2026-10-15-18-02-28
@@ -15477,7 +15477,7 @@
       id: DeQXG9TFZk2
       mediaId: '18104968538263945'
       published: 2026-10-09-01-46-24
-      updated: 2026-10-15-07-00-49
+      updated: 2026-10-16-10-48-27
       followers: 3343
 2018-10-09-severe-innkeeper:
   title: Severe Innkeeper

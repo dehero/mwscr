@@ -2494,7 +2494,7 @@ gleb-zheltuhin:
   profiles:
     - service: vk
       id: '29014473'
-      updated: 2026-10-16-05-30-17
+      updated: 2026-10-16-10-48-28
       username: gleb_zheltuhin
       name: Глеб Желтухин
       avatar: store:/avatars/vk-971eefc1.jpg
@@ -3061,7 +3061,7 @@ ivan-uralov:
   profiles:
     - service: vk
       id: '16497155'
-      updated: 2026-10-16-05-30-19
+      updated: 2026-10-16-10-48-26
       username: id16497155
       name: Иван Уралов
       avatar: store:/avatars/vk-51775759.jpg
@@ -4083,7 +4083,7 @@ michael-levington:
   profiles:
     - service: vk
       id: '416916067'
-      updated: 2026-10-15-07-00-54
+      updated: 2026-10-16-10-48-30
       username: michael_levington
       name: Майкл Левингтон
       avatar: store:/avatars/vk-77942374.jpg
@@ -5632,7 +5632,7 @@ sergey-b-2:
   profiles:
     - service: vk
       id: '1077446394'
-      updated: 2026-10-16-05-30-22
+      updated: 2026-10-16-10-48-29
       username: id1077446394
       name: Сергей Б
       avatar: store:/avatars/vk-f5b20109.jpg
@@ -6176,7 +6176,7 @@ svyatosha:
   profiles:
     - service: tg
       id: '6654011684'
-      updated: 2026-10-16-05-30-14
+      updated: 2026-10-16-10-48-26
       accessHash: '-6782097744855732809'
       name: Святоша
       avatar: store:/avatars/tg-5321215999166062533.jpg
