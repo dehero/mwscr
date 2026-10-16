@@ -14,7 +14,6 @@ import { createDetachedDialogFragment } from '../../components/DetachedDialogsPr
 import { Divider } from '../../components/Divider/Divider.tsx';
 import { Frame } from '../../components/Frame/Frame.tsx';
 import { Input } from '../../components/Input/Input.tsx';
-import { OverflowContainer } from '../../components/OverflowContainer/OverflowContainer.tsx';
 import { PostContentPreview } from '../../components/PostContentPreview/PostContentPreview.tsx';
 import { PostPreviews } from '../../components/PostPreviews/PostPreviews.tsx';
 import { RadioGroup } from '../../components/RadioGroup/RadioGroup.tsx';
@@ -151,21 +150,22 @@ export const PostsPage: SiteRoutePage<PostsPageParams, PostsPageData> = (props) 
         </Show>
 
         <Frame variant="thin" class={styles.postsFrame}>
-          <div class={styles.types}>
-            <OverflowContainer
-              containerClass={styles.typesOverflow}
-              fallback={
-                <Select options={parameters.typeOptions()} value={parameters.type()} onChange={parameters.setType} />
-              }
-            >
-              <RadioGroup
-                name="postTypeNavigation"
-                options={parameters.typeOptions()}
-                value={parameters.type()}
-                onChange={parameters.setType}
-                class={styles.typeNavigationGroup}
-              />
-            </OverflowContainer>
+          <div class={styles.filterbar}>
+            <RadioGroup
+              name="postType"
+              options={parameters.typeOptions()}
+              value={parameters.type()}
+              onChange={parameters.setType}
+              class={styles.typeRadioGroup}
+              selectThreshold={10}
+            />
+
+            <Select
+              class={styles.typeSelect}
+              options={parameters.typeOptions()}
+              value={parameters.type()}
+              onChange={parameters.setType}
+            />
 
             <div class={styles.search}>
               <div class={styles.searchInputWrapper}>
@@ -279,7 +279,9 @@ export const PostsPage: SiteRoutePage<PostsPageParams, PostsPageData> = (props) 
               </fieldset>
             </Show>
           </div>
+
           <Divider class={styles.toolbarDivider} />
+
           <Show when={postInfos()}>
             {(postInfos) => (
               <div class={styles.posts} ref={postsRef}>
