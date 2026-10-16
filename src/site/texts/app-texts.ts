@@ -3,6 +3,7 @@ import type { IntlText } from '../../core/entities/intl.ts';
 export const appTexts = {
   home: ['Home', 'Главная'],
   help: ['Help', 'Справка'],
+  workshop: ['Workshop', 'Мастерская'],
   error: ['Error', 'Ошибка'],
   missing: ["This page doesn't exist.", 'Эта страница не существует.'],
   helpDescription: ['Information about Morrowind Screenshots project.', 'Информация о проекте Morrowind Screenshots.'],
