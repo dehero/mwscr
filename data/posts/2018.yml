@@ -787,11 +787,11 @@
     - service: vk
       id: 3615
       published: 2026-10-15-18-02-12
-      updated: 2026-10-16-15-14-45
+      updated: 2026-10-16-19-21-35
       followers: 1456
-      likes: 30
-      views: 309
-      reposts: 1
+      likes: 33
+      views: 357
+      reposts: 2
       comments: !c |-
         G80CACwK7HYGOCKyj7Es99iujLbjeJ64YRfRx7qrLM4oiCNKJrBNeDJ5X60NQSO85LhDOGzXLft8
         vwnqtlZvqRaRburG7QcvXLiGormN4lq6stgmDMvLoQMNqc2GoDCJN3VTH8MXfNKQ56Y2yNjUtrSA
@@ -803,10 +803,10 @@
     - service: tg
       id: 1344
       published: 2026-10-15-18-02-19
-      updated: 2026-10-16-15-14-38
+      updated: 2026-10-16-19-21-29
       followers: 951
-      likes: 42
-      views: 144
+      likes: 44
+      views: 150
     - service: mx
       id: '1792087347953'
       published: 2026-10-15-18-02-28
@@ -6354,7 +6354,7 @@
       id: DeTd6jfjJ9L
       mediaId: '18248977834310986'
       published: 2026-10-10-06-43-35
-      updated: 2026-10-15-18-01-44
+      updated: 2026-10-16-19-21-28
       followers: 3387
       comments: !c |-
         CyiAkZPLQnoSTsxHgACqZmllbGRmbGFrZdk5QWxsIGhlIHdhbnRzIGlzIGEgcGFpciBvZiBib290
