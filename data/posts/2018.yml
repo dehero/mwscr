@@ -787,26 +787,29 @@
     - service: vk
       id: 3615
       published: 2026-10-15-18-02-12
-      updated: 2026-10-17-06-37-16
+      updated: 2026-10-17-11-24-49
       followers: 1456
-      likes: 37
-      views: 392
+      likes: 39
+      views: 414
       reposts: 2
       comments: !c |-
-        G80CACwK7HYGOCKyj7Es99iujLbjeJ64YRfRx7qrLM4oiCNKJrBNeDJ5X60NQSO85LhDOGzXLft8
-        vwnqtlZvqRaRburG7QcvXLiGormN4lq6stgmDMvLoQMNqc2GoDCJN3VTH8MXfNKQ56Y2yNjUtrSA
-        XhPsAivOuAQzd+Wx/HiYzLqHzGLlJ8/rX5/Cbxs+V9jAobUZ+T3gy2Ha/z6UcaLV44cYHza7WHr5
-        YqguIm79IbV6HzXMIy55gMcvFCWTkIyQaIKyNKOhIrX/ABJPzWGTQ/peV8p1LN+k8+GWgpaIA/7R
-        2jOnLNDIpGDXFooIMHlC65gJ9umX7/tk9YsC/fuYvJf9DPTxAsZkHERIzVFIBLHYdjGargiDXDE9
-        qieGINTY7pTN3Ma8VodSocag0WDCIKvZpa6wbMiXKlRYWEypwiB2j0w2R5hbx0ewuaFD3qvkdIvY
-        y58II6MYtM20WCEbaTOJuWBFkGsrWBZkS6OCdCsZFZidzAU=
+        G3gEgCwKbOccUUG8xbNLHVNubfzz//esVkQXa633v8UZBXFEFQQ+M8IjI/sgjIpLa3EBJ2OiMZ86
+        Qx87iXTWNlu1G5pFpJv64t0dTMcLv4UycxvFtXRlsU0YlpdDBxpSmw1BYRJv8lLNW/BB30L6aGMM
+        epq2OmwOba0W61VwAqXWK3GxCrWL+B3DLi3ok+fnrz0Lv6vD9z1s4NDajPz9EWSMcNv3S3kcuNFR
+        OR+JRDfJR/hqSMs60T9MbvVhIa7j1C3gtxcIkZB1FUFWUv3lRJbY5H8BZLyHmu6yMX8uVerpWL4Z
+        P56uMsM17OK+OdqxZEAB5+iEslwRYwgB9Sy8nmN6nP7z63Fj9YsC/eujny50jEHatYAREoOMo5BT
+        YrJeFGxKLUIgHxFHUx9oDLmJ65VYzpWY5C2IOjf5cK2Iur2wVHY2SE7Id6lwwK7kZhga0qWRC7wI
+        czWfjRD5jgz70lBe3vDc5ZvIRx6dqgW+dLjBpQ7JwvMWrEBtXGAYkIYmIkhbl0UAUs3Zoc6c/zox
+        c+XtlycEBcRFrG8ikyEgwahsAdRsieip8tIJiTchJeSjGyzGkTEnZELFPcVE6tVFK2TXWz01ZPvY
+        wQ/VMOJs7RlGnnKNdfw96+FX2o/YJgOG1OoqP+qBJKbKPLIOlmWdHB3FYLJvYWCpXHW+XEedk17o
+        FADIOKS1cAtDUSOwuaTv5uO+Aw==
     - service: tg
       id: 1344
       published: 2026-10-15-18-02-19
-      updated: 2026-10-17-06-37-12
+      updated: 2026-10-17-11-24-46
       followers: 951
       likes: 45
-      views: 185
+      views: 188
     - service: mx
       id: '1792087347953'
       published: 2026-10-15-18-02-28
