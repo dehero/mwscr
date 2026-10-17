@@ -159,10 +159,10 @@
     - service: vk
       id: 3622
       published: 2026-10-16-19-21-50
-      updated: 2026-10-17-21-15-47
+      updated: 2026-10-17-23-46-53
       followers: 1456
-      likes: 44
-      views: 392
+      likes: 46
+      views: 407
       reposts: 2
       comments: !c |-
         G1QCoK0OeDPmKqGmdgNkqreD8PH/9Bdbwje+fZDAE8+wSTDC5FxVlR33u+OeQOKYQOK4jJtoaVMb
@@ -174,10 +174,10 @@
     - service: tg
       id: 1345
       published: 2026-10-16-19-21-55
-      updated: 2026-10-17-21-15-45
+      updated: 2026-10-17-23-46-50
       followers: 951
       likes: 44
-      views: 182
+      views: 187
     - service: mx
       id: '1792178520043'
       published: 2026-10-16-19-22-02
@@ -1902,7 +1902,7 @@
       id: DeaN7bPgfTv
       mediaId: '18134590480663485'
       published: 2026-10-12-21-38-37
-      updated: 2026-10-16-22-34-58
+      updated: 2026-10-17-23-46-48
       followers: 3522
 2025-05-16-on-the-balcony-at-night:
   title: On the Balcony at Night
@@ -2006,7 +2006,7 @@
       id: DeXd0E1IKCA
       mediaId: '18133713172668548'
       published: 2026-10-11-19-59-44
-      updated: 2026-10-16-22-35-00
+      updated: 2026-10-17-23-46-50
       followers: 3470
 2025-05-20-mans-best-friend:
   title: Man's Best Friend
@@ -2155,10 +2155,10 @@
     - service: vk
       id: 3537
       published: 2026-09-04-18-39-42
-      updated: 2026-10-10-22-15-20
+      updated: 2026-10-17-23-47-31
       followers: 1443
       likes: 68
-      views: 723
+      views: 737
       reposts: 2
       comments: !c |-
         GwgBcCwSeFNap0FMbBfceJX4f56TjfDjBrkUlVgnsUiT+zBdbTEZWjEaDHmP7pwPDPhfnsUQ0/u/
@@ -2913,7 +2913,7 @@
         - 1031
         - 1032
       published: 2025-10-27-18-18-00
-      updated: 2026-10-10-22-16-37
+      updated: 2026-10-17-23-49-15
       followers: 847
       likes: 72
       views: 836
@@ -2978,9 +2978,8 @@
       id: DRuyLL3j1TW
       mediaId: '18088197901947674'
       published: 2025-12-01-18-17-37
-      updated: 2026-10-10-22-15-48
+      updated: 2026-10-17-23-47-57
       followers: 1599
-      likes: 86
     - service: vk
       id: 2906
       published: 2025-12-01-18-17-50
@@ -3000,7 +2999,7 @@
     - service: tg
       id: 1076
       published: 2025-12-01-18-18-00
-      updated: 2026-10-10-22-15-59
+      updated: 2026-10-17-23-48-24
       followers: 867
       likes: 66
       views: 663
@@ -3027,9 +3026,8 @@
       id: DRxWYFrmBxp
       mediaId: '18063697112440129'
       published: 2025-12-02-18-26-50
-      updated: 2026-10-10-22-15-48
+      updated: 2026-10-17-23-47-56
       followers: 1599
-      likes: 67
     - service: vk
       id: 2917
       published: 2025-12-02-18-27-01
@@ -3041,7 +3039,7 @@
     - service: tg
       id: 1077
       published: 2025-12-02-18-27-05
-      updated: 2026-10-10-22-15-57
+      updated: 2026-10-17-23-48-23
       followers: 867
       likes: 68
       views: 785
@@ -3071,9 +3069,8 @@
       id: DRz7PyeD1yU
       mediaId: '17991717650731602'
       published: 2025-12-03-18-27-30
-      updated: 2026-10-10-22-15-48
+      updated: 2026-10-17-23-47-55
       followers: 1599
-      likes: 57
     - service: vk
       id: 2919
       published: 2025-12-03-18-27-35
@@ -3090,7 +3087,7 @@
     - service: tg
       id: 1078
       published: 2025-12-03-18-27-38
-      updated: 2026-10-10-22-15-57
+      updated: 2026-10-17-23-48-22
       followers: 866
       likes: 68
       views: 743
@@ -3117,9 +3114,8 @@
       id: DR2l4P4jSBX
       mediaId: '17984359127764520'
       published: 2025-12-04-19-18-30
-      updated: 2026-10-10-22-15-47
+      updated: 2026-10-17-23-47-55
       followers: 1600
-      likes: 55
     - service: vk
       id: 2920
       published: 2025-12-04-19-18-36
@@ -3134,10 +3130,10 @@
     - service: tg
       id: 1079
       published: 2025-12-04-19-18-40
-      updated: 2026-10-10-22-15-56
+      updated: 2026-10-17-23-48-20
       followers: 867
       likes: 66
-      views: 785
+      views: 786
 2025-12-05-1-unexplored-shipwreck:
   trach: store:/trash/dehero.2024-12-26-21-30-26.png
   title: Unexplored Shipwreck
@@ -3160,9 +3156,8 @@
       id: DR5EVHZj5ia
       mediaId: '18399316372121352'
       published: 2025-12-05-18-23-06
-      updated: 2026-10-10-22-15-47
+      updated: 2026-10-17-23-47-55
       followers: 1600
-      likes: 54
     - service: vk
       id: 2922
       published: 2025-12-05-18-23-12
@@ -3184,10 +3179,10 @@
     - service: tg
       id: 1080
       published: 2025-12-05-18-23-15
-      updated: 2026-10-10-22-15-55
+      updated: 2026-10-17-23-48-19
       followers: 868
       likes: 73
-      views: 734
+      views: 735
 2025-12-06-1-senseless-mourning:
   title: Senseless Mourning
   titleRu: Бессмысленный траур
@@ -3207,9 +3202,8 @@
       id: DR7pA38FYxo
       mediaId: '18297391996287422'
       published: 2025-12-06-18-22-04
-      updated: 2026-10-10-22-15-47
+      updated: 2026-10-17-23-47-54
       followers: 1600
-      likes: 109
       comments: !c |-
         Cy+AkpPLQnmvmm0ngACtdGFtcmllbHRlc290dqTwn5Slk8tCea9kUF8AAK9vaHN3ZWV0bmF6YXJl
         dGjZJW9uZSBvZiBteSBhYnNvbHV0ZSBmYXZvcml0ZSBzaG90cyA6KSkD
@@ -3227,10 +3221,10 @@
     - service: tg
       id: 1081
       published: 2025-12-06-18-22-16
-      updated: 2026-10-10-22-15-49
+      updated: 2026-10-17-23-48-19
       followers: 868
       likes: 67
-      views: 826
+      views: 827
       comments: !c |-
         iyqAkpPLQnmvtsvZgAC1eWEtaHMtY2hlLXN1ZGEtc3Rhdml0vtCT0YDRg9GB0YLQuNGCINC/0L4g
         0LrQtdC90YLRg5PLQnmvij1bAACma2V2eS1jpPCfpoAD
@@ -3254,9 +3248,8 @@
       id: DR-N1ZbFfO1
       mediaId: '17923278321192848'
       published: 2025-12-07-18-22-17
-      updated: 2026-10-10-22-15-46
+      updated: 2026-10-17-23-47-54
       followers: 1601
-      likes: 74
     - service: vk
       id: 2936
       published: 2025-12-07-18-22-41
@@ -3272,10 +3265,10 @@
     - service: tg
       id: 1082
       published: 2025-12-07-18-22-45
-      updated: 2026-10-10-22-15-48
+      updated: 2026-10-17-23-48-18
       followers: 869
       likes: 68
-      views: 808
+      views: 809
 2025-12-08-1-sul-matuul:
   title: Sul-Matuul
   titleRu: Сул-Матуул
@@ -3301,9 +3294,8 @@
       id: DSAzJv8DIIz
       mediaId: '18059528915270356'
       published: 2025-12-08-18-26-52
-      updated: 2026-10-10-22-15-46
+      updated: 2026-10-17-23-47-54
       followers: 1602
-      likes: 71
     - service: vk
       id: 2940
       published: 2025-12-08-18-26-58
@@ -3320,10 +3312,10 @@
     - service: tg
       id: 1083
       published: 2025-12-08-18-27-03
-      updated: 2026-10-10-22-15-47
+      updated: 2026-10-17-23-48-17
       followers: 868
       likes: 65
-      views: 720
+      views: 721
       comments: !c |-
         G4YA4B0Hdiy88P2Qs0BTN5/wQZpov1ZrUaDrPN4eaEA1wE+Tr9YRosfnlAOHluSZxxymx3uMvWVi
         KCXXaf3sn3YEO4o9lhhmrXqzGpr9cDUlBcKwSqFjC+hxG+BpkLIeKqu08Aaj+h+LVDFNlbBMIUdJ
@@ -3350,9 +3342,8 @@
       id: DSDXbjwDTli
       mediaId: '17916294228232179'
       published: 2025-12-09-18-22-21
-      updated: 2026-10-10-22-15-45
+      updated: 2026-10-17-23-47-53
       followers: 1602
-      likes: 46
     - service: vk
       id: 2942
       published: 2025-12-09-18-22-26
@@ -3372,10 +3363,10 @@
     - service: tg
       id: 1084
       published: 2025-12-09-18-22-30
-      updated: 2026-10-10-22-15-47
+      updated: 2026-10-17-23-48-16
       followers: 868
       likes: 67
-      views: 783
+      views: 784
       comments: !c iwyAkZPLQnmwaRigAACpZ2hvc3IxMzY4pEdvb2QD
 2025-12-10-1-evening-at-the-harbor:
   title: Evening at the Harbor
@@ -3396,9 +3387,8 @@
       id: DSF8vRED4At
       mediaId: '18058243064309328'
       published: 2025-12-10-18-26-50
-      updated: 2026-10-10-22-15-45
+      updated: 2026-10-17-23-47-53
       followers: 1602
-      likes: 77
     - service: vk
       id: 2949
       published: 2025-12-10-18-26-56
@@ -3410,10 +3400,10 @@
     - service: tg
       id: 1085
       published: 2025-12-10-18-27-00
-      updated: 2026-10-10-22-15-46
+      updated: 2026-10-17-23-48-15
       followers: 869
       likes: 66
-      views: 944
+      views: 945
 2025-12-11-1-the-wicked-almalexia:
   title: The Wicked Almalexia
   titleRu: Свирепая Альмалексия
@@ -3432,9 +3422,8 @@
       id: DSIhXSFDYBp
       mediaId: '18379297021144143'
       published: 2025-12-11-18-26-50
-      updated: 2026-10-10-22-15-45
+      updated: 2026-10-17-23-47-52
       followers: 1603
-      likes: 95
       comments: !c |-
         G60AAIzSHHQE0VEEzzyavDWcwG9bCf0/+MTmRaUfYAstwC4Lom2menZtaSE9w/GC88dPBBdCXUhW
         dXKkB+Pbd8wCDCiHrCWW29h0PEHRRqPZsqy/O2/4jwBcprN7NfnEc9eVbL0pblHnV0Yxxy7uiYEI
@@ -3450,10 +3439,10 @@
     - service: tg
       id: 1086
       published: 2025-12-11-18-27-00
-      updated: 2026-10-10-22-15-46
+      updated: 2026-10-17-23-48-15
       followers: 873
       likes: 67
-      views: 908
+      views: 909
       comments: !c |-
         G2kA6J2HsTMiteoWxM/1StJ6k5R8pSpS/ubbn76x2TShGqFSqnUhCdJEKCkfkPrSLUXWAy5WbAkv
         yo0fH8Ahp/SdJArSXn3e6thmFsqSz8BYWlOUAd8A/OeOxJT0STVhdQ9i1xnRYnNeAQ==
@@ -3475,9 +3464,8 @@
       id: DSS4BZlkajv
       mediaId: '18067269083528110'
       published: 2025-12-15-18-55-45
-      updated: 2026-10-10-22-15-44
+      updated: 2026-10-17-23-47-52
       followers: 1604
-      likes: 98
       comments: !c iw6AkZPLQnmyRDBngACtdGFtcmllbHRlc290dqTwn5SlAw==
     - service: vk
       id: 2953
@@ -3490,10 +3478,10 @@
     - service: tg
       id: 1087
       published: 2025-12-15-18-55-59
-      updated: 2026-10-10-22-15-45
+      updated: 2026-10-17-23-48-13
       followers: 874
       likes: 66
-      views: 861
+      views: 862
       comments: !c Cw2AkZPLQnmyNiIEAAClYW5zaXOpQnkgQXp1cmEhAw==
 2025-12-16-1-throne-of-khash-ti-dhrur:
   title: Throne of Khash-Ti Dhrur
@@ -3514,9 +3502,8 @@
       id: DSVbgAuk_P3
       mediaId: '18047569628467147'
       published: 2025-12-16-18-44-17
-      updated: 2026-10-10-22-15-44
+      updated: 2026-10-17-23-47-52
       followers: 1604
-      likes: 61
     - service: vk
       id: 2954
       published: 2025-12-16-18-44-25
@@ -3532,10 +3519,10 @@
     - service: tg
       id: 1088
       published: 2025-12-16-18-44-32
-      updated: 2026-10-10-22-15-44
+      updated: 2026-10-17-23-48-12
       followers: 880
       likes: 64
-      views: 695
+      views: 696
 2025-12-18-1-malacath-and-his-worshipers:
   title: Malacath and His Worshipers
   titleRu: Малакат и его поклонники
@@ -3554,9 +3541,8 @@
       id: DSaprvCEatI
       mediaId: '17934566253131391'
       published: 2025-12-18-19-24-25
-      updated: 2026-10-10-22-15-44
+      updated: 2026-10-17-23-47-51
       followers: 1605
-      likes: 79
       comments: !c iw+AkZPLQnmzMMn8AACtdGFtcmllbHRlc290dqbinaTvuI8D
     - service: vk
       id: 2957
@@ -3574,10 +3560,10 @@
     - service: tg
       id: 1091
       published: 2025-12-18-19-24-34
-      updated: 2026-10-10-22-15-44
+      updated: 2026-10-17-23-48-11
       followers: 880
       likes: 63
-      views: 730
+      views: 731
       comments: !c |-
         CyuAkZTLQnmzNvXRgACqbmVyZXZhcmluZdktdGVsbGluZyBteSBraWRzIHRoaXMgaXMgYSBnZW9y
         Z2UgZmxveWQgc3RhdHVlk8tCebM6he2AAKVhbnNpc6EuAw==
@@ -3600,9 +3586,8 @@
       id: DSdOdzNGGrh
       mediaId: '17912671932256565'
       published: 2025-12-19-19-24-19
-      updated: 2026-10-10-22-15-42
+      updated: 2026-10-17-23-47-51
       followers: 1606
-      likes: 57
     - service: vk
       id: 2961
       published: 2025-12-19-19-24-26
@@ -3615,10 +3600,10 @@
     - service: tg
       id: 1092
       published: 2025-12-19-19-24-32
-      updated: 2026-10-10-22-15-43
+      updated: 2026-10-17-23-48-10
       followers: 879
       likes: 69
-      views: 762
+      views: 763
 2025-12-20-1-attributes-of-house-dagoth:
   title: Attributes of House Dagoth
   titleRu: Атрибуты Дома Дагот
@@ -3638,9 +3623,8 @@
       id: DSfzDwXj10I
       mediaId: '18112313911611602'
       published: 2025-12-20-19-22-32
-      updated: 2026-10-10-22-15-42
+      updated: 2026-10-17-23-47-50
       followers: 1607
-      likes: 60
     - service: vk
       id: 2962
       published: 2025-12-20-19-22-39
@@ -3652,10 +3636,10 @@
     - service: tg
       id: 1093
       published: 2025-12-20-19-22-43
-      updated: 2026-10-10-22-15-43
+      updated: 2026-10-17-23-48-09
       followers: 880
       likes: 63
-      views: 1328
+      views: 1336
       comments: !c |-
         G48A6B2JcSzJgqmrL/jnu/ZDOIC7+wuTLIoqrBM8CfO+8y2h3FYXSlquhnoozwT3LrNzZFoSXjYi
         SUrpdG2b/TXWOq93ts0lWyhU0vV8MhcKimuhLlg2UEBxa0BZjbQxecLA8GkuBqSupTHaJdc/jDkk
@@ -3690,9 +3674,8 @@
       id: DSk3-MTjCwS
       mediaId: '18085864634106568'
       published: 2025-12-22-18-41-39
-      updated: 2026-10-10-22-15-42
+      updated: 2026-10-17-23-47-49
       followers: 1606
-      likes: 58
     - service: vk
       id: 2964
       published: 2025-12-22-18-41-44
@@ -3708,10 +3691,10 @@
     - service: tg
       id: 1094
       published: 2025-12-22-18-41-48
-      updated: 2026-10-10-22-15-42
+      updated: 2026-10-17-23-48-08
       followers: 881
       likes: 62
-      views: 771
+      views: 772
       comments: !c |-
         G1sA+I3TDTWW+ngTz/97G+E/PtIJDActTrATeCbJfZjl7XOW1CD83ibZVKOUZ58ep0OQBJW0FAnt
         zO7nC5elMhq9c597HX80qeuDDb10J9VLDpcBkeKUpwKsFU5jBA==
@@ -3744,17 +3727,16 @@
     - service: tg
       id: 1095
       published: 2025-12-24-19-07-00
-      updated: 2026-10-10-22-15-41
+      updated: 2026-10-17-23-48-07
       followers: 881
       likes: 60
-      views: 664
+      views: 665
     - service: ig
       id: DSrOxmRl4X3
       mediaId: '18089597725789507'
       published: 2025-12-25-05-58-00
-      updated: 2026-10-10-22-15-41
+      updated: 2026-10-17-23-47-49
       followers: 1605
-      likes: 78
 2025-12-30-1-before-the-storm:
   title: Before the Storm
   titleRu: Перед бурей
@@ -3771,9 +3753,8 @@
       id: DS5dN2jl8GF
       mediaId: '17890772475398197'
       published: 2025-12-30-18-31-54
-      updated: 2026-10-10-22-15-41
+      updated: 2026-10-17-23-47-48
       followers: 1606
-      likes: 58
     - service: vk
       id: 2979
       published: 2025-12-30-18-31-59
@@ -3784,10 +3765,10 @@
     - service: tg
       id: 1099
       published: 2025-12-30-18-32-03
-      updated: 2026-10-10-22-15-41
+      updated: 2026-10-17-23-48-07
       followers: 878
       likes: 68
-      views: 716
+      views: 718
 2025-12-31-1-the-end-of-a-difficult-journey:
   title: The End of a Difficult Journey
   titleRu: Конец тяжёлого пути
@@ -3807,9 +3788,8 @@
       id: DS8UzAAFwHT
       mediaId: '17936308917112165'
       published: 2025-12-31-21-16-00
-      updated: 2026-10-10-22-15-41
+      updated: 2026-10-17-23-47-47
       followers: 1606
-      likes: 65
       comments: !c |-
         G14A4GXq5hM+0AZ7/q9AJ81hnY/FWQEXeEBhgeQGB+xFaZhgoAmtvMfY9RZJ+MzrLZqze6sWHD4P
         veKR6Uc0t5oIxzD9BdMtMngSatcxHhS9WT0A2YRQ37b/1wg=
@@ -3830,7 +3810,7 @@
     - service: tg
       id: 1100
       published: 2025-12-31-21-16-00
-      updated: 2026-10-10-22-15-40
+      updated: 2026-10-17-23-48-06
       followers: 879
       likes: 54
-      views: 648
+      views: 650
