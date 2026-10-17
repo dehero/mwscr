@@ -607,7 +607,7 @@ artem-petrov:
   profiles:
     - service: vk
       id: '4238605'
-      updated: 2026-10-17-11-24-48
+      updated: 2026-10-17-15-02-50
       username: id4238605
       name: Артем Петров
       avatar: store:/avatars/vk-77942374.jpg
@@ -3061,7 +3061,7 @@ ivan-uralov:
   profiles:
     - service: vk
       id: '16497155'
-      updated: 2026-10-17-11-24-49
+      updated: 2026-10-17-15-02-51
       username: id16497155
       name: Иван Уралов
       avatar: store:/avatars/vk-51775759.jpg
@@ -5632,7 +5632,7 @@ sergey-b-2:
   profiles:
     - service: vk
       id: '1077446394'
-      updated: 2026-10-17-11-24-53
+      updated: 2026-10-17-15-02-51
       username: id1077446394
       name: Сергей Б
       avatar: store:/avatars/vk-70268334.jpg
