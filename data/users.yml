@@ -527,7 +527,7 @@ ansis:
   profiles:
     - service: tg
       id: '517050552'
-      updated: 2026-10-16-05-30-15
+      updated: 2026-10-17-06-37-15
       accessHash: '5231096655311395455'
       username: ansis
       name: ansis
@@ -607,7 +607,7 @@ artem-petrov:
   profiles:
     - service: vk
       id: '4238605'
-      updated: 2026-10-17-01-05-40
+      updated: 2026-10-17-06-37-15
       username: id4238605
       name: Артем Петров
       avatar: store:/avatars/vk-77942374.jpg
@@ -3061,7 +3061,7 @@ ivan-uralov:
   profiles:
     - service: vk
       id: '16497155'
-      updated: 2026-10-17-01-05-40
+      updated: 2026-10-17-06-37-14
       username: id16497155
       name: Иван Уралов
       avatar: store:/avatars/vk-51775759.jpg
@@ -4177,7 +4177,7 @@ mlennic:
   profiles:
     - service: tg
       id: '402884048'
-      updated: 2026-10-16-05-30-16
+      updated: 2026-10-17-06-37-15
       accessHash: '308008325024369067'
       username: mlennic
       name: Kosmos
@@ -5632,7 +5632,7 @@ sergey-b-2:
   profiles:
     - service: vk
       id: '1077446394'
-      updated: 2026-10-17-01-05-41
+      updated: 2026-10-17-06-37-16
       username: id1077446394
       name: Сергей Б
       avatar: store:/avatars/vk-70268334.jpg
