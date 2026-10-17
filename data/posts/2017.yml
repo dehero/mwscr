@@ -9201,6 +9201,14 @@
       followers: 65
       likes: 11
       views: 113
+    - service: vk
+      id: 3625
+      published: 2026-10-17-18-11-53
+      followers: 1455
+    - service: tg
+      id: 1346
+      published: 2026-10-17-18-11-58
+      followers: 951
 2017-06-20-crossing-swampy-islands:
   title: Crossing Swampy Islands
   titleRu: Пересекая болотистые острова
@@ -19112,7 +19120,7 @@
       id: DeZRjaRIJaa
       mediaId: '17988160503070062'
       published: 2026-10-12-12-51-02
-      updated: 2026-10-16-15-14-40
+      updated: 2026-10-17-18-11-36
       followers: 3510
 2017-12-22-note-to-telvon:
   title: Note to Telvon

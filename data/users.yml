@@ -2494,7 +2494,7 @@ gleb-zheltuhin:
   profiles:
     - service: vk
       id: '29014473'
-      updated: 2026-10-16-15-14-46
+      updated: 2026-10-17-18-11-38
       username: gleb_zheltuhin
       name: Глеб Желтухин
       avatar: store:/avatars/vk-971eefc1.jpg
@@ -3061,7 +3061,7 @@ ivan-uralov:
   profiles:
     - service: vk
       id: '16497155'
-      updated: 2026-10-17-15-02-51
+      updated: 2026-10-17-18-11-37
       username: id16497155
       name: Иван Уралов
       avatar: store:/avatars/vk-51775759.jpg
@@ -6176,7 +6176,7 @@ svyatosha:
   profiles:
     - service: tg
       id: '6654011684'
-      updated: 2026-10-16-15-14-40
+      updated: 2026-10-17-18-11-37
       accessHash: '-6782097744855732809'
       name: Святоша
       avatar: store:/avatars/tg-5321215999166062533.jpg
