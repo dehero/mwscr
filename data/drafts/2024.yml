@@ -26,13 +26,22 @@ dehero.2024-03-05-19-49-27:
   aspect: 1/1
   author: dehero
 dehero.2024-09-21-11-34-14:
-  content:
-    - store:/inbox/dehero.2024-09-21-11-34-14.png
+  title: Dehero.-11-33-50
+  placement: Outdoors
+  location:
+    - Heran Ancestral Tomb
+    - Grytewake
+    - Bitter Coast Region
+  content: store:/inbox/dehero.2024-09-21-11-33-50.1.png
+  trash:
     - store:/inbox/dehero.2024-09-21-11-33-54.png
+    - store:/inbox/dehero.2024-09-21-11-34-14.png
     - store:/inbox/dehero.2024-09-21-11-33-50.png
-  type: shot
-  aspect: 1/1
+  type: wallpaper
+  aspect: 16/9
   author: dehero
+  created: 2024-09-21
+  engine: OpenMW
 dehero.2024-12-26-21-22-27:
   content: store:/inbox/dehero.2024-12-26-21-22-27.png
   type: shot
