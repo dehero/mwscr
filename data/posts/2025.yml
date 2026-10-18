@@ -159,10 +159,10 @@
     - service: vk
       id: 3622
       published: 2026-10-16-19-21-50
-      updated: 2026-10-17-23-46-53
+      updated: 2026-10-18-08-35-36
       followers: 1456
-      likes: 46
-      views: 407
+      likes: 47
+      views: 432
       reposts: 2
       comments: !c |-
         G1QCoK0OeDPmKqGmdgNkqreD8PH/9Bdbwje+fZDAE8+wSTDC5FxVlR33u+OeQOKYQOK4jJtoaVMb
@@ -174,10 +174,10 @@
     - service: tg
       id: 1345
       published: 2026-10-16-19-21-55
-      updated: 2026-10-17-23-46-50
+      updated: 2026-10-18-08-35-33
       followers: 951
-      likes: 44
-      views: 187
+      likes: 46
+      views: 193
     - service: mx
       id: '1792178520043'
       published: 2026-10-16-19-22-02
@@ -2546,7 +2546,7 @@
     - service: tg
       id: 966
       published: 2025-08-29-18-20-46
-      updated: 2026-10-11-08-22-32
+      updated: 2026-10-18-08-37-10
       followers: 783
       likes: 64
       views: 537
@@ -2590,7 +2590,7 @@
     - service: tg
       id: 968
       published: 2025-08-31-18-22-49
-      updated: 2026-10-11-08-22-29
+      updated: 2026-10-18-08-37-08
       followers: 786
       likes: 71
       views: 630
@@ -2633,9 +2633,8 @@
       id: DOwPKuclQTK
       mediaId: '18142983676423127'
       published: 2025-09-18-18-30-23
-      updated: 2026-10-11-08-22-11
+      updated: 2026-10-18-08-36-45
       followers: 1584
-      likes: 96
     - service: vk
       id: 2657
       published: 2025-09-18-18-30-28
@@ -2660,10 +2659,10 @@
     - service: tg
       id: 989
       published: 2025-09-18-18-30-31
-      updated: 2026-10-11-08-21-51
+      updated: 2026-10-18-08-36-35
       followers: 798
       likes: 68
-      views: 1193
+      views: 1194
       comments: !c iw2AkZPLQnmV4mmWAACra2F3YXpha3kyMjOk8J+YngM=
 2025-09-19-1-near-the-fence:
   title: Near the Fence
@@ -2684,9 +2683,8 @@
       id: DOyzzyekWF6
       mediaId: '18073104515141831'
       published: 2025-09-19-18-29-04
-      updated: 2026-10-11-08-22-10
+      updated: 2026-10-18-08-36-44
       followers: 1585
-      likes: 80
     - service: vk
       id: 2670
       published: 2025-09-19-18-29-09
@@ -2699,10 +2697,10 @@
     - service: tg
       id: 990
       published: 2025-09-19-18-29-13
-      updated: 2026-10-11-08-21-50
+      updated: 2026-10-18-08-36-33
       followers: 801
       likes: 67
-      views: 627
+      views: 628
 2025-09-20-1-low-sky-above-mzanchend:
   title: Low Sky Above Mzanchend
   titleRu: Низкое небо над Мзанчендом
@@ -2723,9 +2721,8 @@
       id: DO1YNFQlEUy
       mediaId: '18067212190993613'
       published: 2025-09-20-18-25-36
-      updated: 2026-10-11-08-22-09
+      updated: 2026-10-18-08-36-44
       followers: 1584
-      likes: 64
     - service: vk
       id: 2671
       published: 2025-09-20-18-25-41
@@ -2737,10 +2734,10 @@
     - service: tg
       id: 991
       published: 2025-09-20-18-25-44
-      updated: 2026-10-11-08-21-49
+      updated: 2026-10-18-08-36-32
       followers: 801
       likes: 66
-      views: 625
+      views: 626
 2025-09-22-1-isolated-shelter: 2020-05-13-isolated-shelter
 2025-09-23-1-on-guard:
   title: On Guard
@@ -2763,9 +2760,8 @@
       id: DO9G9vAERIK
       mediaId: '18084414376737213'
       published: 2025-09-23-18-28-52
-      updated: 2026-10-11-08-22-08
+      updated: 2026-10-18-08-36-42
       followers: 1582
-      likes: 55
     - service: vk
       id: 2679
       published: 2025-09-23-18-28-57
@@ -2777,10 +2773,10 @@
     - service: tg
       id: 995
       published: 2025-09-23-18-29-01
-      updated: 2026-10-11-08-21-47
+      updated: 2026-10-18-08-36-30
       followers: 802
       likes: 69
-      views: 1468
+      views: 1471
       comments: !c iwqAkZPLQnmX1EUAgAClYW5zaXOk8J+krwM=
 2025-09-24-1-elder-and-scroll:
   title: Elder and Scroll
@@ -2811,9 +2807,8 @@
       id: DO_rbtAER6E
       mediaId: '17938699731074336'
       published: 2025-09-24-18-25-59
-      updated: 2026-10-11-08-22-07
+      updated: 2026-10-18-08-36-41
       followers: 1581
-      likes: 67
     - service: vk
       id: 2682
       published: 2025-09-24-18-26-04
@@ -2825,10 +2820,10 @@
     - service: tg
       id: 996
       published: 2025-09-24-18-26-08
-      updated: 2026-10-11-08-21-45
+      updated: 2026-10-18-08-36-29
       followers: 802
       likes: 79
-      views: 1138
+      views: 1144
       comments: !c |-
         G80A+J0JdizEZBhanrOwkMmm5Nslm1YYlAaMISiJ6UHpJka5BuEKpeQA9lN6wg3697auNjFbv/82
         zBiRoEWp6gI7W+zEdMHMmKDYaflr+ZRIJbwqE3RGXu+/57nBcXyfnPCyxt+qjkT2mAydrLGQIrhR
@@ -2890,9 +2885,8 @@
       id: DQUotPzEUFh
       mediaId: '18062212865426671'
       published: 2025-10-27-18-17-37
-      updated: 2026-10-11-08-21-38
+      updated: 2026-10-18-08-36-07
       followers: 1586
-      likes: 55
     - service: vk
       id: 2786
       published: 2025-10-27-18-17-50

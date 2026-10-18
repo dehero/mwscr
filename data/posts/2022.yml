@@ -429,7 +429,7 @@
     - service: tg
       id: 922
       published: 2025-07-20-18-36-23
-      updated: 2026-10-11-08-23-16
+      updated: 2026-10-18-08-37-53
       followers: 763
       likes: 67
       views: 842
@@ -849,7 +849,7 @@
     - service: tg
       id: 944
       published: 2025-08-07-18-26-07
-      updated: 2026-10-11-08-22-58
+      updated: 2026-10-18-08-37-34
       followers: 773
       likes: 67
       views: 669
@@ -913,10 +913,10 @@
     - service: vk
       id: 3543
       published: 2026-09-06-20-56-49
-      updated: 2026-10-10-22-15-11
+      updated: 2026-10-18-08-35-46
       followers: 1442
       likes: 91
-      views: 955
+      views: 967
       reposts: 5
       comments: !c |-
         izWAkpPLQnoIcpVOAACyaXJpbmEtYnlzdHJpdHNrYXlht9C60YDQsNGB0L7RgtC40YnQsCDwn6Ww
@@ -1209,7 +1209,7 @@
     - service: vk
       id: 3180
       published: 2026-03-15-18-52-27
-      updated: 2026-10-11-08-23-07
+      updated: 2026-10-18-08-37-53
       followers: 1619
       likes: 64
       views: 607
@@ -1284,7 +1284,7 @@
     - service: vk
       id: 3172
       published: 2026-03-13-18-57-14
-      updated: 2026-10-11-08-23-10
+      updated: 2026-10-18-08-37-55
       followers: 1617
       likes: 90
       views: 808
@@ -1355,7 +1355,7 @@
     - service: vk
       id: 3049
       published: 2026-01-28-18-37-23
-      updated: 2026-10-11-08-24-22
+      updated: 2026-10-18-08-39-00
       followers: 1591
       likes: 41
       views: 812
@@ -1483,9 +1483,8 @@
       id: DQ91W55jYAg
       mediaId: '18080446513887672'
       published: 2025-11-12-18-17-00
-      updated: 2026-10-11-08-21-22
+      updated: 2026-10-18-08-35-48
       followers: 1594
-      likes: 44
     - service: vk
       id: 2845
       published: 2025-11-12-18-17-07
@@ -2062,7 +2061,7 @@
     - service: tg
       id: 949
       published: 2025-08-12-18-24-47
-      updated: 2026-10-11-08-22-49
+      updated: 2026-10-18-08-37-27
       followers: 776
       likes: 67
       views: 697
@@ -2154,7 +2153,7 @@
     - service: vk
       id: 3105
       published: 2026-02-23-19-22-38
-      updated: 2026-10-11-08-23-46
+      updated: 2026-10-18-08-38-25
       followers: 1607
       likes: 56
       views: 1286
