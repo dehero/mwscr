@@ -24,26 +24,34 @@ export const ResourceUrl = pipe(
   ),
 );
 
+type ResourceUrlQuery = '' | `?${string}`;
+
+function resourceUrlHasExtension(value: string, extensions: readonly string[]) {
+  const [pathname = ''] = value.split(/[?#]/);
+
+  return extensions.some((ext) => pathname.endsWith(ext));
+}
+
 export const LosslessImageResourceUrl = pipe(
   ResourceUrl,
-  custom<`${ResourceUrl}${InferOutput<typeof LosslessImageResourceExtension>}`>(
-    (value) => LosslessImageResourceExtension.options.some((ext) => String(value).endsWith(ext)),
+  custom<`${ResourceUrl}${InferOutput<typeof LosslessImageResourceExtension>}${ResourceUrlQuery}`>(
+    (value) => resourceUrlHasExtension(String(value), LosslessImageResourceExtension.options),
     `Should end with image extension ${listItems(LosslessImageResourceExtension.options, { quote: true })}"`,
   ),
 );
 
 export const ImageResourceUrl = pipe(
   ResourceUrl,
-  custom<`${ResourceUrl}${InferOutput<typeof ImageResourceExtension>}`>(
-    (value) => ImageResourceExtension.options.some((ext) => String(value).endsWith(ext)),
+  custom<`${ResourceUrl}${InferOutput<typeof ImageResourceExtension>}${ResourceUrlQuery}`>(
+    (value) => resourceUrlHasExtension(String(value), ImageResourceExtension.options),
     `Should end with image extension ${listItems(ImageResourceExtension.options, { quote: true })}"`,
   ),
 );
 
 export const VideoResourceUrl = pipe(
   ResourceUrl,
-  custom<`${ResourceUrl}${InferOutput<typeof VideoResourceExtension>}`>(
-    (value) => VideoResourceExtension.options.some((ext) => String(value).endsWith(ext)),
+  custom<`${ResourceUrl}${InferOutput<typeof VideoResourceExtension>}${ResourceUrlQuery}`>(
+    (value) => resourceUrlHasExtension(String(value), VideoResourceExtension.options),
     `Should end with video extension ${listItems(VideoResourceExtension.options, { quote: true })}"`,
   ),
 );

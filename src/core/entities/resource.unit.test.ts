@@ -8,8 +8,16 @@ test('ImageResourceUrl', async (t) => {
     assert.ok(is(ImageResourceUrl, 'https://example.com/image.png'));
   });
 
+  await t.test('should be valid if ends with image extension and has query string', () => {
+    assert.ok(is(ImageResourceUrl, 'store:/shots/image.png?align=bottom'));
+  });
+
   await t.test('should fail if not ends with image extension', () => {
     assert.ok(!is(ImageResourceUrl, 'https://example.com/image.txt'));
+  });
+
+  await t.test('should fail if not ends with image extension and has query string', () => {
+    assert.ok(!is(ImageResourceUrl, 'https://example.com/image.txt?align=bottom'));
   });
 });
 

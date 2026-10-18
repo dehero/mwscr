@@ -1,5 +1,5 @@
 import sharp from 'sharp';
-import { readResource } from '../../data-managers/resources.js';
+import { readResource } from '../../data-managers/resources.ts';
 
 export async function getResourceForHtml(url: string) {
   const [imageData, imageMimeType] = await readResource(url);

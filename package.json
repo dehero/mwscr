@@ -19,6 +19,7 @@
     "release": "node src/scripts/release.ts",
     "script": "node",
     "create-story": "node src/scripts/create-story.ts",
+    "create-calendar": "node src/scripts/create-calendar.ts",
     "test": "node --test \"src/**/*.test.ts\"",
     "test-unit": "node --test \"src/**/*.unit.test.ts\"",
     "test-integration": "node --test \"src/**/*.integration.test.ts\"",
