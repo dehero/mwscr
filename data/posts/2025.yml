@@ -46,7 +46,7 @@
     - service: vk
       id: 2073
       published: 2025-01-20-18-41-09
-      updated: 2026-10-12-04-36-48
+      updated: 2026-10-19-05-48-56
       followers: 1054
       likes: 40
       views: 505
@@ -86,7 +86,7 @@
     - service: vk
       id: 2079
       published: 2025-01-23-18-50-59
-      updated: 2026-10-12-04-36-38
+      updated: 2026-10-19-05-48-47
       followers: 1054
       likes: 63
       views: 550
@@ -135,7 +135,7 @@
     - service: vk
       id: 2089
       published: 2025-01-26-18-09-31
-      updated: 2026-10-12-04-36-26
+      updated: 2026-10-19-05-48-37
       followers: 1055
       likes: 55
       views: 473
@@ -212,7 +212,7 @@
     - service: vk
       id: 2090
       published: 2025-01-27-18-11-00
-      updated: 2026-10-12-04-36-25
+      updated: 2026-10-19-05-48-36
       followers: 1055
       likes: 66
       views: 887
@@ -254,7 +254,7 @@
     - service: vk
       id: 2094
       published: 2025-01-28-18-10-56
-      updated: 2026-10-12-04-36-22
+      updated: 2026-10-19-05-48-33
       followers: 1056
       likes: 34
       views: 366
@@ -297,7 +297,7 @@
     - service: vk
       id: 2105
       published: 2025-02-01-18-09-25
-      updated: 2026-10-12-04-35-58
+      updated: 2026-10-19-05-48-23
       followers: 1059
       likes: 40
       views: 472
@@ -338,10 +338,10 @@
     - service: vk
       id: 2114
       published: 2025-02-05-18-11-07
-      updated: 2026-10-12-04-35-43
+      updated: 2026-10-19-05-48-06
       followers: 1060
       likes: 49
-      views: 514
+      views: 515
       reposts: 3
     - service: tg
       id: 695
@@ -379,7 +379,7 @@
     - service: vk
       id: 2115
       published: 2025-02-06-18-11-33
-      updated: 2026-10-12-04-35-41
+      updated: 2026-10-19-05-48-05
       followers: 1061
       likes: 40
       views: 642
@@ -2090,7 +2090,7 @@
     - service: vk
       id: 2396
       published: 2025-05-28-18-32-00
-      updated: 2026-10-12-04-34-30
+      updated: 2026-10-19-05-46-47
       followers: 1310
       likes: 34
       views: 440
