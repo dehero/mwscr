@@ -814,3 +814,15 @@
     - cave
     - door
   mark: B1
+  posts:
+    - service: vk
+      id: 3631
+      published: 2026-10-19-19-05-13
+      followers: 1456
+    - service: tg
+      id:
+        - 1349
+        - 1350
+        - 1351
+      published: 2026-10-19-19-05-25
+      followers: 948
