@@ -655,7 +655,7 @@ arya-stark:
   profiles:
     - service: vk
       id: '820702664'
-      updated: 2026-10-19-05-49-33
+      updated: 2026-10-19-06-21-49
       username: id820702664
       name: Арья Старк
       avatar: store:/avatars/vk-689aa89d.jpg
@@ -4021,10 +4021,10 @@ megachif1178896:
   profiles:
     - service: vk
       id: '818221716'
-      updated: 2026-10-12-04-35-32
+      updated: 2026-10-19-06-21-55
       username: xxxjuggernaut
       name: Максим Коротеев
-      avatar: store:/avatars/vk-0a5c870e.jpg
+      avatar: store:/avatars/vk-8aeb4b88.jpg
 mellowraccoon:
   profiles:
     - service: ig
@@ -7468,7 +7468,7 @@ yellow-submarine:
   profiles:
     - service: vk
       id: '21865013'
-      updated: 2026-10-19-05-46-44
+      updated: 2026-10-19-06-21-48
       username: yellowsubm
       name: Yellow Submarine
       avatar: store:/avatars/vk-8254b201.jpg
