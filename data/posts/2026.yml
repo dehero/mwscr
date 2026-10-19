@@ -792,3 +792,25 @@
 2026-10-16-1-dark-moon: 2025-01-26-dark-moon
 2026-10-17-1-hentus-still-looks-for-his-pants: 2017-06-19-hentus-still-looks-for-his-pants
 2026-10-18-1-nchurdamz-in-sunset-haze: 2017-10-27-nchurdamz-in-sunset-haze
+2026-10-19-1-cave-passages:
+  title: Cave Passages
+  titleRu: Пещерные проходы
+  placement: Indoors
+  location: Beran Ancestral Tomb
+  content:
+    - store:/shots/2026-10-19-1-cave-passages-0.png
+    - store:/shots/2026-10-19-1-cave-passages-1.png
+    - store:/shots/2026-10-19-1-cave-passages-2.png
+  trash:
+    - store:/trash/natty.2024-03-28-20-28-08.png
+    - store:/trash/natty.2024-03-28-20-27-32.png
+  type: series
+  aspect: 1/1
+  author:
+    - dehero
+    - natty
+  engine: OpenMW
+  tags:
+    - cave
+    - door
+  mark: B1
