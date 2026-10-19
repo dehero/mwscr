@@ -11,6 +11,7 @@ import {
   Redrawing,
   Shot,
   Wallpaper,
+  Series,
 } from '../entities/post-variant.ts';
 import { Publication } from '../entities/publication.ts';
 import { checkSchema } from '../entities/schema.ts';
@@ -21,7 +22,7 @@ export const VK_GROUP_ID = -138249959;
 
 export const VKPost = intersect([
   object({ ...Post.entries, titleRu: PostTitleRu }),
-  variant('type', [Redrawing, Shot, Compilation, Wallpaper, Outtakes, News, Photoshop, Mention, Achievement]),
+  variant('type', [Redrawing, Shot, Compilation, Wallpaper, Outtakes, News, Photoshop, Mention, Achievement, Series]),
 ]);
 
 export const VKPublication = object({

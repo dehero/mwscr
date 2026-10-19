@@ -11,6 +11,7 @@ import {
   Redrawing,
   Shot,
   Wallpaper,
+  Series,
 } from '../entities/post-variant.ts';
 import { Publication } from '../entities/publication.ts';
 import { checkSchema } from '../entities/schema.ts';
@@ -21,7 +22,7 @@ export const TELEGRAM_BOT_NAME = 'mwscrbot';
 
 export const TelegramPost = intersect([
   object({ ...Post.entries, title: PostTitle }),
-  variant('type', [Redrawing, Shot, Compilation, Wallpaper, Outtakes, News, Photoshop, Mention, Achievement]),
+  variant('type', [Redrawing, Shot, Compilation, Wallpaper, Outtakes, News, Photoshop, Mention, Achievement, Series]),
 ]);
 
 export const TelegramPublication = object({

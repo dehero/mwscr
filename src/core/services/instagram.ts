@@ -11,6 +11,7 @@ import {
   Redrawing,
   Shot,
   Wallpaper,
+  Series,
 } from '../entities/post-variant.ts';
 import { Publication } from '../entities/publication.ts';
 import { checkSchema } from '../entities/schema.ts';
@@ -22,7 +23,7 @@ export const INSTAGRAM_USERNAME = 'mwscr';
 
 export const InstagramPost = intersect([
   object({ ...Post.entries, title: PostTitle }),
-  variant('type', [Redrawing, Shot, Compilation, Wallpaper, Outtakes, News, Photoshop, Mention, Achievement]),
+  variant('type', [Redrawing, Shot, Compilation, Wallpaper, Outtakes, News, Photoshop, Mention, Achievement, Series]),
 ]);
 
 export const InstagramPublication = object({ ...Publication.entries, id: pipe(string(), nonEmpty()) });
