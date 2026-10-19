@@ -288,3 +288,24 @@
       followers: 947
       likes: 57
       views: 408
+2026-10-19-1-series:
+  title: Series
+  titleRu: Серия
+  description: >-
+    The new [Series](https://mwscr.dehero.site/help/series/) section will publish selections of 3 screenshots that look
+    stronger together than separately.
+  descriptionRu: >-
+    В новой рубрике [Серия](https://mwscr.dehero.site/help/series/) будут публиковаться подборки по 3 скриншота, которые
+    вместе смотрятся лучше, чем по отдельности.
+  type: news
+  author: dehero
+  mark: B1
+  posts:
+    - service: vk
+      id: 3630
+      published: 2026-10-19-18-51-09
+      followers: 1456
+    - service: tg
+      id: 1348
+      published: 2026-10-19-18-51-10
+      followers: 948
