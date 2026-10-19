@@ -19,6 +19,12 @@ export const postTexts = {
     '{count, plural, one {подборка} few {подборки} many {подборок} other {подборки}}',
   ],
   compilations: ['Compilations', 'Подборки'],
+  series: ['Series', 'Серия'],
+  seriesUnit: [
+    '{count, plural, one {series} other {series}}',
+    '{count, plural, one {серия} few {серии} many {серий} other {серии}}',
+  ],
+  seriesPlural: ['Series', 'Серии'],
   clip: ['Clip', 'Клип'],
   clipUnit: [
     '{count, plural, one {clip} other {clips}}',

@@ -11,6 +11,7 @@ import {
   needMinThirdPartyDistance,
   needMinTypeDaysAgo,
   needMinTypeDistance,
+  needUnpublishedContent,
 } from '../rules/post-candidate-rules.ts';
 import { needCertainType } from '../rules/post-rules.ts';
 import type { PostingRule } from '../rules/posting-rules.ts';
@@ -97,6 +98,19 @@ const compilation: PostingScenario = {
   ],
 };
 
+const series: PostingScenario = {
+  title: 'series',
+  sourceManagers: ['drafts'],
+  targetManager: 'posts',
+  postingRules: [afterHour(18), lastPostedDaysAgo(1)],
+  postCandidateRules: [
+    needCertainType('series'),
+    needUnpublishedContent,
+    needMinTypeDistance(7),
+    needMinThirdPartyDistance(7),
+  ],
+};
+
 const wallpaper: PostingScenario = {
   title: 'wallpaper',
   sourceManagers: ['drafts'], // 'posts'],
@@ -118,6 +132,7 @@ export const postingScenarios: PostingScenario[] = [
   achievement,
   wallpaper,
   compilation,
+  series,
   shot,
   redrawing,
 ];

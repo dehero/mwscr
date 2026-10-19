@@ -36,6 +36,20 @@ export function needMinContentDistance(minContentDistance: number): PostCandidat
   };
 }
 
+export function needUnpublishedContent(post: PublishablePost, context?: PostingRuleContext) {
+  if (!context || !post.content) {
+    return undefined;
+  }
+
+  const { distance, message } = getPostContentDistance(post.content, context.publicPostEntries[context.targetManager]);
+
+  if (distance !== Infinity) {
+    return `${message}, expected all content to be unpublished`;
+  }
+
+  return undefined;
+}
+
 export function needMinTypeDistance(minTypeDistance: number): PostCandidateRule {
   return (post: PublishablePost, context?: PostingRuleContext) => {
     if (!context) {

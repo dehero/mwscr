@@ -25,6 +25,7 @@ const GUIDE_ORDER_NODES: GuideOrderNode[] = [
     children: [
       { id: 'shot' },
       { id: 'compilation' },
+      { id: 'series' },
       { id: 'wallpaper' },
       { id: 'clip' },
       { id: 'video' },

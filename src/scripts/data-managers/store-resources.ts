@@ -222,6 +222,7 @@ export async function movePublishedPostResources([id, post]: PostEntry<Publishab
     case 'news':
     case 'photoshop':
     case 'outtakes':
+    case 'series':
     case 'shot':
     case 'wallpaper': {
       const targetDir = getTargetStoreDirFromPostType(post.type);

@@ -1,5 +1,18 @@
 import type { InferOutput } from 'valibot';
-import { array, literal, nonEmpty, object, picklist, pipe, string, trim, tuple, union, variant } from 'valibot';
+import {
+  array,
+  literal,
+  nonEmpty,
+  object,
+  picklist,
+  pipe,
+  strictTuple,
+  string,
+  trim,
+  tuple,
+  union,
+  variant,
+} from 'valibot';
 import { ImageResourceUrl, LosslessImageResourceUrl, VideoResourceUrl } from './resource.ts';
 
 export const PostDescription = pipe(string(), trim(), nonEmpty());
@@ -18,6 +31,15 @@ export const Compilation = object({
   content: tuple(
     [LosslessImageResourceUrl, LosslessImageResourceUrl, LosslessImageResourceUrl, LosslessImageResourceUrl],
     'Should be 4 resources',
+  ),
+});
+
+export const Series = object({
+  type: literal('series'),
+  aspect: picklist(['1/1', '3/2']),
+  content: strictTuple(
+    [LosslessImageResourceUrl, LosslessImageResourceUrl, LosslessImageResourceUrl],
+    'Should be exactly 3 previously unpublished resources',
   ),
 });
 
@@ -97,6 +119,7 @@ export const Merch = object({
 export const PostVariant = variant('type', [
   Shot,
   Compilation,
+  Series,
   Redrawing,
   Video,
   Clip,

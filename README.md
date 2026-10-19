@@ -167,8 +167,8 @@ npm run preview
 ```
 
 The site reads the same `.env` file in the repository root as the scripts. For local launch, only `S3_PUBLIC_URL` - the
-base public URL of the project storage - matters. The rest of the variables configure the storage API path for
-uploading works through the site:
+base public URL of the project storage - matters. The rest of the variables configure the storage API path for uploading
+works through the site:
 
 ```env
 S3_PUBLIC_URL=https://mwscr-store.dehero.site

@@ -183,8 +183,8 @@ const defaultTags = Object.freeze<PostTagDescriptor[]>([
   ],
   [
     'screenshot',
-    (post) => ['shot', 'compilation', 'redrawing'].includes(post.type),
-    (post) => (post.type = ['shot', 'compilation', 'redrawing'].includes(post.type) ? post.type : 'shot'),
+    (post) => ['shot', 'compilation', 'series', 'redrawing'].includes(post.type),
+    (post) => (post.type = ['shot', 'compilation', 'series', 'redrawing'].includes(post.type) ? post.type : 'shot'),
   ],
   [
     'footage',
@@ -221,6 +221,13 @@ export const postTypeDescriptors = Object.freeze<Record<PostType, PostTypeDescri
     letter: 'H',
     strict: true,
     topicId: 'compilation',
+  },
+  series: {
+    title: texts.post.series,
+    titleMultiple: texts.post.seriesPlural,
+    letter: 'S',
+    strict: true,
+    topicId: 'series',
   },
   video: {
     title: texts.post.video,
@@ -377,6 +384,7 @@ export function getPostTypeUnitText(type: PostType, count: number, locale: Local
     outtakes: texts.post.outtakesUnit,
     photoshop: texts.post.photoshopUnit,
     redrawing: texts.post.redrawingUnit,
+    series: texts.post.seriesUnit,
     shot: texts.post.shotUnit,
     video: texts.post.videoUnit,
     wallpaper: texts.post.wallpaperUnit,

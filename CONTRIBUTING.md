@@ -18,6 +18,7 @@ Here you can find information about [Morrowind Screenshots](#mwscr) project.
 - [Post types](#post-types)
   - [Shot](#shot)
   - [Compilation](#compilation)
+  - [Series](#series)
   - [Wallpaper](#wallpaper)
   - [Clip](#clip)
   - [Video](#video)
@@ -202,13 +203,14 @@ from the screen. You can disable the interface with the console command `tm` or 
 
 Posts [in main section](#posts) must meet the [core principles](#core-principles) and the following requirements:
 
-| Type                        | Aspect ratios          | Content | Min side | Max duration | Requirements                      |
-| --------------------------- | :--------------------- | ------: | -------: | ------------ | --------------------------------- |
-| [Shot](#shot)               | 1:1, 3:2               |       1 |    800px |              |                                   |
-| [Compilation](#compilation) | 1:1, 3:2, 16:9, 9:19.5 |       4 |    800px |              | Only previously published images. |
-| [Wallpaper](#wallpaper)     | 16:9, 9:19.5           |       1 |    800px |              |                                   |
-| [Clip](#clip)               | 1:1, 9:16              |       1 |   1080px | 1 minute     |                                   |
-| [Video](#video)             | 16:9                   |       1 |   1080px | 1 hour       |                                   |
+| Type                        | Aspect ratios          | Content | Min side | Max duration | Requirements                        |
+| --------------------------- | :--------------------- | ------: | -------: | ------------ | ----------------------------------- |
+| [Shot](#shot)               | 1:1, 3:2               |       1 |    800px |              |                                     |
+| [Compilation](#compilation) | 1:1, 3:2, 16:9, 9:19.5 |       4 |    800px |              | Only previously published images.   |
+| [Series](#series)           | 1:1, 3:2               |       3 |    800px |              | Only previously unpublished images. |
+| [Wallpaper](#wallpaper)     | 16:9, 9:19.5           |       1 |    800px |              |                                     |
+| [Clip](#clip)               | 1:1, 9:16              |       1 |   1080px | 1 minute     |                                     |
+| [Video](#video)             | 16:9                   |       1 |   1080px | 1 hour       |                                     |
 
 The [Extras](#extras) section is more democratic and includes:
 
@@ -238,6 +240,16 @@ A set made of 4 previously published posts of [other types](#post-types) from th
 common subject or idea. All items must share the same [aspect ratio](#aspect-ratio).
 
 [Go to Compilations](https://mwscr.dehero.site/posts/?type=compilation)
+
+<a id="series"></a>
+
+### Series
+
+A set of 3 previously unpublished shots from the [main section](#posts), united by a common subject or idea, that look
+stronger together than apart. All frames must share the same [aspect ratio](#aspect-ratio) and are always published
+together, as a single post, in the same order.
+
+[Go to Series](https://mwscr.dehero.site/posts/?type=series)
 
 <a id="wallpaper"></a>
 

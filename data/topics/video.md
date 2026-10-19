@@ -2,8 +2,8 @@
 
 A long-form horizontal video of more than 1 minute, containing beautiful or interesting footage of the
 [game world](./morrowind.md). It is used where a short [Clip](./clip.md) is not enough. Like screenshots, videos must
-follow the [core principles of the project](./core-principles.md), including not containing
-[UI elements](./no-ui.md). The [format and quality of the video file](./file-format.md) are also important.
+follow the [core principles of the project](./core-principles.md), including not containing [UI elements](./no-ui.md).
+The [format and quality of the video file](./file-format.md) are also important.
 
 [Go to Videos](/posts/?type=video)
 

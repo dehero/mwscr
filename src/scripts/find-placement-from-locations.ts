@@ -7,7 +7,7 @@ import { posts } from './data-managers/posts.ts';
 const publishedPostEntries = await posts.getAllEntries(true);
 
 for (const [, post] of publishedPostEntries) {
-  if (!post.location || post.placement || post.type !== 'shot') {
+  if (!post.location || post.placement || !['shot', 'series'].includes(post.type)) {
     continue;
   }
 

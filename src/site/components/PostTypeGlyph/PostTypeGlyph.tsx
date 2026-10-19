@@ -8,6 +8,7 @@ import News from '../../images/post-type-news.svg';
 import Outtakes from '../../images/post-type-outtakes.svg';
 import Photoshop from '../../images/post-type-photoshop.svg';
 import Redrawing from '../../images/post-type-redrawing.svg';
+import Series from '../../images/post-type-series.svg';
 import Shot from '../../images/post-type-shot.svg';
 import Video from '../../images/post-type-video.svg';
 import Wallpaper from '../../images/post-type-wallpaper.svg';
@@ -16,6 +17,7 @@ import { localize } from '../../utils/intl-utils.ts';
 const glyphs: Record<PostType, string> = {
   shot: Shot,
   compilation: Compilation,
+  series: Series,
   clip: Clip,
   wallpaper: Wallpaper,
   redrawing: Redrawing,

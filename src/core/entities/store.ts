@@ -127,6 +127,7 @@ export function parseStoreItemUrl(url: string): StoreItemParsedUrl | undefined {
 export function getTargetStoreDirFromPostType(type: PostType) {
   switch (type) {
     case 'shot':
+    case 'series':
       return STORE_SHOTS_DIR;
     case 'clip':
     case 'video':

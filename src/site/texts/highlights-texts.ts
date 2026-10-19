@@ -20,6 +20,7 @@ export const highlightsTexts = {
   lastRedrawing: ['Last Redrawing', 'Последняя перерисовка'],
   lastRejectedProposal: ['Last Rejected Proposal', 'Последнее отклонённое предложение'],
   lastRejectedRequest: ['Last Rejected Request', 'Последний отклонённый запрос'],
+  lastSeries: ['Last Series', 'Последняя серия'],
   lastShot: ['Last Shot', 'Последний кадр'],
   lastVideo: ['Last Video', 'Последнее видео'],
   lastWallpaper: ['Last Wallpaper', 'Последние обои'],
