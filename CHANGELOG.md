@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file.
 
+## [4.6.0](https://github.com/dehero/mwscr/compare/v4.5.0...v4.6.0) (2026-10-19)
+
+### Features
+
+- support series post type in social schemas
+  ([9d5adb9](https://github.com/dehero/mwscr/commit/9d5adb93c1f9b7eb8cda87b3039c63437cdb0282))
+
 ## [4.5.0](https://github.com/dehero/mwscr/compare/v4.4.1...v4.5.0) (2026-10-19)
 
 ### Features
