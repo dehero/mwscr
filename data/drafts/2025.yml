@@ -63,11 +63,12 @@ dehero.2025-05-23-e1e29151:
 dehero.2025-06-01-15-06-11:
   content:
     - store:/inbox/dehero.2025-06-01-15-06-11.png
-    - store:/inbox/dehero.2025-06-01-15-06-16.png
-    - store:/inbox/dehero.2025-06-01-15-06-13.png
     - store:/inbox/dehero.2025-06-01-15-06-17.png
+    - store:/inbox/dehero.2025-06-01-15-06-13.png
+  trash:
     - store:/inbox/dehero.2025-06-01-15-06-47.png
-  type: shot
+    - store:/inbox/dehero.2025-06-01-15-06-16.png
+  type: series
   aspect: 1/1
   author: dehero
 dehero.2025-06-01-15-17-14:
