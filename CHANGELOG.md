@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file.
 
+## [4.5.0](https://github.com/dehero/mwscr/compare/v4.4.1...v4.5.0) (2026-10-19)
+
+### Features
+
+- **posts:** introduce series post type for trios of shots
+  ([8a60d9d](https://github.com/dehero/mwscr/commit/8a60d9dddf974ce868967196a1f126b1a4901a93))
+
 ## [4.4.1](https://github.com/dehero/mwscr/compare/v4.4.0...v4.4.1) (2026-10-14)
 
 ### Bug Fixes
