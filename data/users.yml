@@ -3347,11 +3347,11 @@ karatedance:
   profiles:
     - service: tg
       id: '1037255094'
-      updated: 2026-10-17-23-47-40
+      updated: 2026-10-19-12-16-55
       accessHash: '-5098047197051495291'
       username: karatedance
       name: танцы карате
-      avatar: store:/avatars/tg-4454976706799405892.jpg
+      avatar: store:/avatars/tg-4454976706799405894.jpg
 katlincase:
   profiles:
     - service: ig
@@ -7468,7 +7468,7 @@ yellow-submarine:
   profiles:
     - service: vk
       id: '21865013'
-      updated: 2026-10-19-06-21-48
+      updated: 2026-10-19-12-16-48
       username: yellowsubm
       name: Yellow Submarine
       avatar: store:/avatars/vk-8254b201.jpg
