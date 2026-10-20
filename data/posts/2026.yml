@@ -818,11 +818,11 @@
     - service: vk
       id: 3631
       published: 2026-10-19-19-05-13
-      updated: 2026-10-20-14-42-55
+      updated: 2026-10-20-18-57-30
       followers: 1456
-      likes: 22
-      views: 276
-      reposts: 1
+      likes: 25
+      views: 312
+      reposts: 2
       comments: !c |-
         CySAkZPLQnoVghKngACraXZhbi11cmFsb3bZMNCa0L7QvdGC0YDQsNGB0YIg0L7RgdCy0LXRidC1
         0L3QuNGPINC60YDRg9GC0L7QuQM=
@@ -832,7 +832,8 @@
         - 1350
         - 1351
       published: 2026-10-19-19-05-25
-      updated: 2026-10-20-14-42-54
+      updated: 2026-10-20-18-57-26
       followers: 948
-      likes: 41
-      views: 170
+      likes: 44
+      views: 179
+2026-10-20-1-table-for-two: 2018-05-04-table-for-two
