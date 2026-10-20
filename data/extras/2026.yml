@@ -304,17 +304,17 @@
     - service: vk
       id: 3630
       published: 2026-10-19-18-51-09
-      updated: 2026-10-20-09-11-09
+      updated: 2026-10-20-14-45-03
       followers: 1456
       likes: 4
-      views: 169
+      views: 186
     - service: tg
       id: 1348
       published: 2026-10-19-18-51-10
-      updated: 2026-10-20-09-11-10
+      updated: 2026-10-20-14-45-04
       followers: 948
-      likes: 11
-      views: 151
+      likes: 12
+      views: 160
       comments: !c |-
         G5wAEByJsY2KPTjziy4Ez/+fGsFgApLjYwpF1+rE0v9UXiAbqGLzPowzjgY8IardS5VlFepucKIB
         SlK4jQsPQMNAq+yUW0BJlmed5HiCD4fzO92VmamM11Yx+qXNfFmNr7PLBQPRPET7XhwgClGaKNkz
@@ -324,5 +324,5 @@
       id: DetK3exlGkS
       mediaId: '18132718891666778'
       published: 2026-10-20-06-17-26
-      updated: 2026-10-20-09-11-10
+      updated: 2026-10-20-14-45-03
       followers: 3751
