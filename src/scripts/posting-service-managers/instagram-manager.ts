@@ -335,6 +335,14 @@ export class InstagramManager extends Instagram implements PostingServiceManager
     const mediaResponse = await ig.newPostPublishMediaRequest(containerId).execute();
     const mediaId = mediaResponse.getId();
 
+    // Instagram Graph API returns an error object instead of an id when publishing fails
+    if (!mediaId) {
+      const { error } = mediaResponse.getData() as { error?: { message?: string; code?: number } };
+      throw new Error(
+        `Cannot publish ${this.name} container ${containerId}: ${error?.message || error?.code || 'unknown error'}`,
+      );
+    }
+
     // Get media information from Instagram
     const mediaInfo = await ig
       .newGetMediaInfoRequest(mediaId, PrivateMediaField.SHORTCODE, PrivateMediaField.IG_ID)
