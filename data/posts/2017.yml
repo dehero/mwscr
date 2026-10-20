@@ -15960,21 +15960,23 @@
     - service: vk
       id: 3627
       published: 2026-10-18-19-15-16
-      updated: 2026-10-20-06-19-45
+      updated: 2026-10-20-09-11-08
       followers: 1456
-      likes: 40
-      views: 247
+      likes: 44
+      views: 279
       reposts: 3
       comments: !c |-
-        CyOAkZPLQnoVTmw+AACxYW5kcmV5LXlhcHJpbnRzZXbZKNCt0YLQviDRgtCw0Lwg0LLQsNC80L/Q
-        uNGA0Ysg0LbQuNCy0YPRgj8D
+        G0MBgJwHdiwYYWb2OSUSiCf82xfJb96CFpdh5iXelnDyzrLf5pdQBYvBIl2Q0+due79Qp5tr1ZKl
+        G7NuiMLOH0K/bi4ma1AYKAyL/qAhNXV4oGGBcQMKMAjqQic74EWi2/14tzHoNV5IriA72V735zsF
+        9zFeR6iFkVGWUfhnehk62iCvJDaruAhlcXThnv/n5yRM1sF+Hnn/H7JsFX1Zt8U9pBh3owWxaqc9
+        czrEUO4T6wHdcPQJ8A/yGaILatlRWNkkwZhdSrhDlmhiIiEqcPF6QLgTENM4eEUClYsPhvwWBw==
     - service: tg
       id: 1347
       published: 2026-10-18-19-15-22
-      updated: 2026-10-20-06-19-42
+      updated: 2026-10-20-09-11-05
       followers: 948
       likes: 51
-      views: 213
+      views: 214
     - service: mx
       id: '1792350926650'
       published: 2026-10-18-19-15-27
