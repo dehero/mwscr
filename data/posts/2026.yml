@@ -818,10 +818,10 @@
     - service: vk
       id: 3631
       published: 2026-10-19-19-05-13
-      updated: 2026-10-19-23-20-36
+      updated: 2026-10-20-03-37-12
       followers: 1456
-      likes: 5
-      views: 94
+      likes: 6
+      views: 102
       reposts: 1
     - service: tg
       id:
@@ -829,7 +829,7 @@
         - 1350
         - 1351
       published: 2026-10-19-19-05-25
-      updated: 2026-10-19-23-20-34
+      updated: 2026-10-20-03-37-12
       followers: 948
-      likes: 26
-      views: 110
+      likes: 29
+      views: 129
