@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file.
 
+## [4.6.1](https://github.com/dehero/mwscr/compare/v4.6.0...v4.6.1) (2026-10-20)
+
+### Bug Fixes
+
+- throw when Instagram publish response lacks media id
+  ([4152ffd](https://github.com/dehero/mwscr/commit/4152ffd6180d52192d908d024dc48ab5efec02ea))
+
 ## [4.6.0](https://github.com/dehero/mwscr/compare/v4.5.0...v4.6.0) (2026-10-19)
 
 ### Features
