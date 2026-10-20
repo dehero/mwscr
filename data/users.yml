@@ -479,7 +479,7 @@ andrey-yaprintsev:
   profiles:
     - service: vk
       id: '599320069'
-      updated: 2026-10-20-03-37-15
+      updated: 2026-10-20-06-19-45
       username: id599320069
       name: Андрей Япринцев
       avatar: store:/avatars/vk-4e415fa2.jpg
@@ -1561,7 +1561,7 @@ dehero:
     - type: channel
       service: tg
       id: '1264795946'
-      updated: 2026-10-20-03-38-48
+      updated: 2026-10-20-06-19-47
       accessHash: '-5789257269249675714'
       username: mwscr
       name: Morrowind Screenshots
@@ -5271,7 +5271,7 @@ reborninblackandgold:
   profiles:
     - service: tg
       id: '181435009'
-      updated: 2026-10-20-03-38-48
+      updated: 2026-10-20-06-19-47
       accessHash: '-4212516645013528698'
       username: reborninblackandgold
       name: Reborn in black & gold
