@@ -1294,7 +1294,7 @@ crazycyrodiliccat:
   profiles:
     - service: vk
       id: '90554843'
-      updated: 2026-10-21-07-10-32
+      updated: 2026-10-21-13-31-02
       username: crazycyrodiliccat
       name: Александр Невский
       avatar: store:/avatars/vk-0db1296b.jpg
@@ -1548,7 +1548,7 @@ dehero:
     - type: channel
       service: vk
       id: '138249959'
-      updated: 2026-10-21-07-09-49
+      updated: 2026-10-21-13-31-28
       username: mwscr
       name: Morrowind Screenshots
       avatar: store:/avatars/vk-8e97fd4f.jpg
@@ -1561,7 +1561,7 @@ dehero:
     - type: channel
       service: tg
       id: '1264795946'
-      updated: 2026-10-21-07-10-34
+      updated: 2026-10-21-13-31-57
       accessHash: '-5789257269249675714'
       username: mwscr
       name: Morrowind Screenshots
@@ -2891,10 +2891,10 @@ ilya-goryachev:
   profiles:
     - service: vk
       id: '448748807'
-      updated: 2026-10-14-06-02-44
+      updated: 2026-10-21-13-31-37
       username: id448748807
       name: Илья Горячев
-      avatar: store:/avatars/vk-d8a94784.jpg
+      avatar: store:/avatars/vk-1db6c63c.jpg
 ilya-kolobov:
   profiles:
     - service: vk
@@ -3045,7 +3045,7 @@ its-okey-dude:
   profiles:
     - service: vk
       id: '381549157'
-      updated: 2026-10-14-06-00-11
+      updated: 2026-10-21-13-29-36
       username: its_okey_dude
       name: Николай Гачимучев
       avatar: store:/avatars/vk-08ebd553.jpg
@@ -3074,7 +3074,7 @@ ivan-uralov:
   profiles:
     - service: vk
       id: '16497155'
-      updated: 2026-10-21-07-07-44
+      updated: 2026-10-21-13-29-06
       username: id16497155
       name: Иван Уралов
       avatar: store:/avatars/vk-51775759.jpg
@@ -3572,10 +3572,10 @@ kurov-alexander:
   profiles:
     - service: vk
       id: '233557'
-      updated: 2026-10-14-06-02-10
+      updated: 2026-10-21-13-31-21
       username: kurov.alexander
       name: Александр Куров
-      avatar: store:/avatars/vk-0f86d694.jpg
+      avatar: store:/avatars/vk-c64fc9de.jpg
 kvuk0:
   profiles:
     - service: vk
@@ -3588,7 +3588,7 @@ kydinov91:
   profiles:
     - service: vk
       id: '36104583'
-      updated: 2026-10-21-07-09-30
+      updated: 2026-10-21-13-30-27
       username: kydinov91
       name: Илья Кудинов
       avatar: store:/avatars/vk-03d8a48a.jpg
@@ -3815,7 +3815,7 @@ lycanthropy:
   profiles:
     - service: vk
       id: '5386912'
-      updated: 2026-10-14-18-22-56
+      updated: 2026-10-21-13-30-18
       username: lycanthropy
       name: Филипп Суворов
       avatar: store:/avatars/vk-96cd2c06.jpg
@@ -4008,7 +4008,7 @@ max-tsei:
   profiles:
     - service: vk
       id: '353284524'
-      updated: 2026-10-21-07-08-31
+      updated: 2026-10-21-13-31-28
       username: max.tsei
       avatar: store:/avatars/vk-7f160215.jpg
       deleted: true
@@ -5004,7 +5004,7 @@ pinchinium:
   profiles:
     - service: vk
       id: '178716135'
-      updated: 2026-10-20-18-58-54
+      updated: 2026-10-21-13-29-43
       username: pinchinium
       name: Агзам Мубаракшин
       avatar: store:/avatars/vk-77942374.jpg
@@ -5296,7 +5296,7 @@ reborninblackandgold:
   profiles:
     - service: tg
       id: '181435009'
-      updated: 2026-10-21-07-10-34
+      updated: 2026-10-21-13-31-57
       accessHash: '-4212516645013528698'
       username: reborninblackandgold
       name: Reborn in black & gold
@@ -6875,7 +6875,7 @@ user-34:
   profiles:
     - service: vk
       id: '266402374'
-      updated: 2026-10-14-06-00-46
+      updated: 2026-10-21-13-30-16
       username: id266402374
       avatar: store:/avatars/vk-7f160215.jpg
       deleted: true
@@ -7044,7 +7044,7 @@ vanya-letov:
   profiles:
     - service: tg
       id: '1368355493'
-      updated: 2026-10-14-13-20-55
+      updated: 2026-10-21-13-29-04
       accessHash: '304826905023030342'
       username: VanyaLetov
       name: Ваня Белошапкин

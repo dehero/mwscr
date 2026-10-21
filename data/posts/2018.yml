@@ -22,7 +22,7 @@
     - service: vk
       id: 559
       published: 2018-01-01
-      updated: 2026-10-14-05-59-57
+      updated: 2026-10-21-13-29-19
       followers: 116
       likes: 16
       views: 187
@@ -51,7 +51,7 @@
     - service: vk
       id: 560
       published: 2018-01-02
-      updated: 2026-10-14-01-39-27
+      updated: 2026-10-21-13-29-17
       followers: 116
       likes: 17
       views: 240
@@ -80,7 +80,7 @@
     - service: vk
       id: 561
       published: 2018-01-03
-      updated: 2026-10-14-01-39-26
+      updated: 2026-10-21-13-29-16
       followers: 116
       likes: 21
       views: 252
@@ -107,7 +107,7 @@
     - service: vk
       id: 562
       published: 2018-01-04
-      updated: 2026-10-14-01-39-25
+      updated: 2026-10-21-13-29-14
       followers: 117
       likes: 10
       views: 185
@@ -808,9 +808,9 @@
       id: DetexuBnebc
       mediaId: '18111067418069133'
       published: 2026-10-20-09-11-24
-      updated: 2026-10-21-07-07-46
+      updated: 2026-10-21-13-29-08
       followers: 3754
-      likes: 100
+      likes: 105
       comments: !c ixGAkZPLQnoVk4yIAACvZHVza21hbmNyLWdsb29tqEFzcyBwaGF0Aw==
 2018-01-16-birth-of-fabricant:
   title: Birth of Fabricant
@@ -6780,18 +6780,23 @@
     - service: vk
       id: 3634
       published: 2026-10-20-19-00-40
-      updated: 2026-10-21-07-07-40
+      updated: 2026-10-21-13-29-05
       followers: 1456
-      likes: 21
-      views: 209
-      reposts: 2
+      likes: 37
+      views: 327
+      reposts: 3
+      comments: !c |-
+        GxIBQKwObOdpCDGx22QOPQrZj/9Hbjzp07YWaMYZtgQ/4ZdzdW4lBUs5FyaCvDZ1dYmEkkmi27r+
+        cS5v9ClXp5d2bmzdEvaWTSe3A2PfkohPgR3AA47h4IQDiZPw+4Pf3+9f5/uN+D2cWP5bclTW8ERz
+        QDVRyXmgCSHRscISoqEHezYwf3AJgtAK2nsW2bJryEV+KuMwa2EgL6ogWU7SwHmy6cQyJS5qAJKK
+        IcDqoDDnAg==
     - service: tg
       id: 1352
       published: 2026-10-20-19-00-46
-      updated: 2026-10-21-07-07-40
+      updated: 2026-10-21-13-29-00
       followers: 948
-      likes: 33
-      views: 131
+      likes: 36
+      views: 145
     - service: mx
       id: '1792522850740'
       published: 2026-10-20-19-00-51
@@ -6800,7 +6805,9 @@
       id: Dev1yUuHcGW
       mediaId: '18134173798671101'
       published: 2026-10-21-07-10-57
+      updated: 2026-10-21-13-29-01
       followers: 3782
+      likes: 80
 2018-05-05-uncle-sweetshares-workshop:
   title: Uncle Sweetshare's Workshop
   titleRu: Мастерская Дядюшки Сладкая Доля
