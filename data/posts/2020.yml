@@ -1720,10 +1720,10 @@
     - service: vk
       id: 3611
       published: 2026-10-14-18-23-45
-      updated: 2026-10-19-23-20-44
+      updated: 2026-10-21-01-19-38
       followers: 1454
-      likes: 60
-      views: 567
+      likes: 61
+      views: 580
       reposts: 1
       comments: !c |-
         GwYBACwSbNsG56MGeeyORsc3/vn+RhG+QD56VMYlFkSycu746txCrqZgCYhDLsDXGTxHPiyRkUU9
@@ -1733,10 +1733,10 @@
     - service: tg
       id: 1343
       published: 2026-10-14-18-23-52
-      updated: 2026-10-19-23-20-40
+      updated: 2026-10-21-01-19-35
       followers: 949
       likes: 54
-      views: 270
+      views: 285
       comments: !c iwyAkZPLQnoUAmS7AACpc3Z5YXRvc2hhpPCfmJgD
     - service: mx
       id: '1792015479894'
@@ -1746,9 +1746,9 @@
       id: DetKz6jFPVu
       mediaId: '17897817603674034'
       published: 2026-10-20-06-17-04
-      updated: 2026-10-20-22-10-32
+      updated: 2026-10-21-01-19-36
       followers: 3751
-      likes: 197
+      likes: 207
       comments: !c iw6AkZPLQnoVgG67gACtcmVpbmhhcmRnYXVzc6Twn6WwAw==
 2020-10-22-clagius-clanler-outfitter:
   title: Clagius Clanler, Outfitter

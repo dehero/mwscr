@@ -818,10 +818,10 @@
     - service: vk
       id: 3631
       published: 2026-10-19-19-05-13
-      updated: 2026-10-20-22-10-32
+      updated: 2026-10-21-01-19-35
       followers: 1456
       likes: 26
-      views: 321
+      views: 323
       reposts: 2
       comments: !c |-
         CySAkZPLQnoVghKngACraXZhbi11cmFsb3bZMNCa0L7QvdGC0YDQsNGB0YIg0L7RgdCy0LXRidC1
@@ -832,8 +832,13 @@
         - 1350
         - 1351
       published: 2026-10-19-19-05-25
-      updated: 2026-10-20-22-10-30
+      updated: 2026-10-21-01-19-32
       followers: 948
       likes: 49
-      views: 193
+      views: 195
+    - service: ig
+      id: DevN-n3nb0x
+      mediaId: '17916071298271668'
+      published: 2026-10-21-01-23-06
+      followers: 3781
 2026-10-20-1-table-for-two: 2018-05-04-table-for-two
