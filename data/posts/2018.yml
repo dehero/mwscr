@@ -777,10 +777,10 @@
     - service: vk
       id: 3615
       published: 2026-10-15-18-02-12
-      updated: 2026-10-20-18-57-37
+      updated: 2026-10-21-22-08-42
       followers: 1456
-      likes: 48
-      views: 547
+      likes: 50
+      views: 564
       reposts: 3
       comments: !c |-
         G3gEgCwKbOccUUG8xbNLHVNubfzz//esVkQXa633v8UZBXFEFQQ+M8IjI/sgjIpLa3EBJ2OiMZ86
@@ -796,10 +796,10 @@
     - service: tg
       id: 1344
       published: 2026-10-15-18-02-19
-      updated: 2026-10-20-18-57-27
+      updated: 2026-10-21-22-08-31
       followers: 951
-      likes: 52
-      views: 277
+      likes: 53
+      views: 292
     - service: mx
       id: '1792087347953'
       published: 2026-10-15-18-02-28
@@ -808,9 +808,9 @@
       id: DetexuBnebc
       mediaId: '18111067418069133'
       published: 2026-10-20-09-11-24
-      updated: 2026-10-21-18-24-59
+      updated: 2026-10-21-22-08-37
       followers: 3754
-      likes: 108
+      likes: 110
       comments: !c ixGAkZPLQnoVk4yIAACvZHVza21hbmNyLWdsb29tqEFzcyBwaGF0Aw==
 2018-01-16-birth-of-fabricant:
   title: Birth of Fabricant
@@ -6780,11 +6780,11 @@
     - service: vk
       id: 3634
       published: 2026-10-20-19-00-40
-      updated: 2026-10-21-18-24-58
+      updated: 2026-10-21-22-08-32
       followers: 1456
-      likes: 46
-      views: 395
-      reposts: 3
+      likes: 52
+      views: 426
+      reposts: 4
       comments: !c |-
         G0ACACwO7IbPGw2NN2SPUD1G/D9yz8ADetr2+6AZtgxbibVFkpyr6maMfYJEmH58p3SsWIXlNiiB
         WGgFg0lDubsXcXvm92IpBkMx9ezq9GQxvYbbbGxGQUgdy90SizDn25r3awm9tSV98IShP7YAA474
@@ -6795,10 +6795,10 @@
     - service: tg
       id: 1352
       published: 2026-10-20-19-00-46
-      updated: 2026-10-21-18-24-55
+      updated: 2026-10-21-22-08-29
       followers: 948
-      likes: 38
-      views: 155
+      likes: 43
+      views: 178
     - service: mx
       id: '1792522850740'
       published: 2026-10-20-19-00-51
@@ -6807,9 +6807,9 @@
       id: Dev1yUuHcGW
       mediaId: '18134173798671101'
       published: 2026-10-21-07-10-57
-      updated: 2026-10-21-18-24-55
+      updated: 2026-10-21-22-08-31
       followers: 3782
-      likes: 120
+      likes: 134
 2018-05-05-uncle-sweetshares-workshop:
   title: Uncle Sweetshare's Workshop
   titleRu: Мастерская Дядюшки Сладкая Доля

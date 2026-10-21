@@ -479,7 +479,7 @@ andrey-yaprintsev:
   profiles:
     - service: vk
       id: '599320069'
-      updated: 2026-10-20-18-57-30
+      updated: 2026-10-21-22-08-34
       username: id599320069
       name: Андрей Япринцев
       avatar: store:/avatars/vk-4e415fa2.jpg
@@ -607,7 +607,7 @@ artem-petrov:
   profiles:
     - service: vk
       id: '4238605'
-      updated: 2026-10-20-18-57-34
+      updated: 2026-10-21-22-08-41
       username: id4238605
       name: Артем Петров
       avatar: store:/avatars/vk-77942374.jpg
@@ -1541,7 +1541,7 @@ dehero:
       avatar: store:/avatars/gh-c8afe641.jpg
     - service: vk
       id: '3652910'
-      updated: 2026-10-21-18-26-23
+      updated: 2026-10-21-22-10-22
       username: dehero
       name: Антон Курьянов
       avatar: store:/avatars/vk-5356f76e.jpg
@@ -2502,7 +2502,7 @@ gleb-zheltuhin:
   profiles:
     - service: vk
       id: '29014473'
-      updated: 2026-10-21-18-24-58
+      updated: 2026-10-21-22-08-34
       username: gleb_zheltuhin
       name: Глеб Желтухин
       avatar: store:/avatars/vk-971eefc1.jpg
@@ -2837,7 +2837,7 @@ idalexeyvav:
   profiles:
     - service: vk
       id: '417783044'
-      updated: 2026-10-14-18-21-17
+      updated: 2026-10-21-22-10-46
       username: idalexeyvav
       name: Алексей Вавилов
       avatar: store:/avatars/vk-6717456e.jpg
@@ -3074,7 +3074,7 @@ ivan-uralov:
   profiles:
     - service: vk
       id: '16497155'
-      updated: 2026-10-21-18-25-00
+      updated: 2026-10-21-22-08-42
       username: id16497155
       name: Иван Уралов
       avatar: store:/avatars/vk-51775759.jpg
@@ -3880,7 +3880,7 @@ maks-perunov:
   profiles:
     - service: vk
       id: '35868942'
-      updated: 2026-10-20-03-38-38
+      updated: 2026-10-21-22-10-23
       username: id35868942
       name: Макс Перунов
       avatar: store:/avatars/vk-3bb92045.jpg
@@ -5655,7 +5655,7 @@ sergey-b-2:
   profiles:
     - service: vk
       id: '1077446394'
-      updated: 2026-10-21-07-07-47
+      updated: 2026-10-21-22-08-42
       username: id1077446394
       name: Сергей Б
       avatar: store:/avatars/vk-70268334.jpg
@@ -7110,6 +7110,14 @@ verian21:
       id: '678724978309397'
       updated: 2026-10-02-12-12-10
       username: verian21
+viktoriya-saridina:
+  profiles:
+    - service: vk
+      id: '202650287'
+      updated: 2026-10-21-22-08-38
+      username: id202650287
+      name: Виктория Саридина
+      avatar: store:/avatars/vk-fd4145c6.jpg
 violetspider:
   profiles:
     - service: tg
