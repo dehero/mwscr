@@ -639,7 +639,7 @@ artyom-melikhoff:
   profiles:
     - service: vk
       id: '299405149'
-      updated: 2026-10-20-03-38-38
+      updated: 2026-10-21-18-26-25
       username: artyom_melikhoff
       name: Артём Мелихов
       avatar: store:/avatars/vk-5b2fd843.jpg
@@ -1541,7 +1541,7 @@ dehero:
       avatar: store:/avatars/gh-c8afe641.jpg
     - service: vk
       id: '3652910'
-      updated: 2026-10-21-07-10-31
+      updated: 2026-10-21-18-26-23
       username: dehero
       name: Антон Курьянов
       avatar: store:/avatars/vk-5356f76e.jpg
@@ -1561,7 +1561,7 @@ dehero:
     - type: channel
       service: tg
       id: '1264795946'
-      updated: 2026-10-21-13-31-57
+      updated: 2026-10-21-18-27-02
       accessHash: '-5789257269249675714'
       username: mwscr
       name: Morrowind Screenshots
@@ -2502,7 +2502,7 @@ gleb-zheltuhin:
   profiles:
     - service: vk
       id: '29014473'
-      updated: 2026-10-21-01-19-37
+      updated: 2026-10-21-18-24-58
       username: gleb_zheltuhin
       name: Глеб Желтухин
       avatar: store:/avatars/vk-971eefc1.jpg
@@ -3074,7 +3074,7 @@ ivan-uralov:
   profiles:
     - service: vk
       id: '16497155'
-      updated: 2026-10-21-13-29-06
+      updated: 2026-10-21-18-25-00
       username: id16497155
       name: Иван Уралов
       avatar: store:/avatars/vk-51775759.jpg
@@ -3362,7 +3362,7 @@ karatedance:
   profiles:
     - service: tg
       id: '1037255094'
-      updated: 2026-10-20-14-42-56
+      updated: 2026-10-21-18-24-58
       accessHash: '-5098047197051495291'
       username: karatedance
       name: танцы карате
@@ -3588,7 +3588,7 @@ kydinov91:
   profiles:
     - service: vk
       id: '36104583'
-      updated: 2026-10-21-13-30-27
+      updated: 2026-10-21-18-26-36
       username: kydinov91
       name: Илья Кудинов
       avatar: store:/avatars/vk-03d8a48a.jpg
@@ -4980,7 +4980,7 @@ petrushkachord:
   profiles:
     - service: vk
       id: '370043102'
-      updated: 2026-10-14-07-11-25
+      updated: 2026-10-21-18-26-47
       username: petrushkachord
       name: Данила Силкин
       avatar: store:/avatars/vk-166e4c44.jpg
@@ -5296,7 +5296,7 @@ reborninblackandgold:
   profiles:
     - service: tg
       id: '181435009'
-      updated: 2026-10-21-13-31-57
+      updated: 2026-10-21-18-27-02
       accessHash: '-4212516645013528698'
       username: reborninblackandgold
       name: Reborn in black & gold
@@ -5986,7 +5986,7 @@ soulilight:
   profiles:
     - service: vk
       id: '347703822'
-      updated: 2026-10-20-14-44-02
+      updated: 2026-10-21-18-26-03
       username: soulilight
       name: Dima Boev
       avatar: store:/avatars/vk-4a3f332e.jpg
@@ -6285,9 +6285,9 @@ tea-tsar:
   profiles:
     - service: tg
       id: '5266133100'
-      updated: 2026-09-23-15-44-38
+      updated: 2026-10-21-18-27-02
       accessHash: '8155795007823253048'
-      username: TeaTsar
+      username: Lord_Of_Teaa
       botChatId: 5266133100
       name: Andre
       avatar: store:/avatars/tg-5188670009876615571.jpg
@@ -6883,7 +6883,7 @@ user-35:
   profiles:
     - service: vk
       id: '281861772'
-      updated: 2026-10-14-07-10-17
+      updated: 2026-10-21-18-25-57
       username: id281861772
       avatar: store:/avatars/vk-7f160215.jpg
       deleted: true
@@ -7498,7 +7498,7 @@ yellow-submarine:
   profiles:
     - service: vk
       id: '21865013'
-      updated: 2026-10-20-14-43-00
+      updated: 2026-10-21-18-25-04
       username: yellowsubm
       name: Yellow Submarine
       avatar: store:/avatars/vk-8254b201.jpg
