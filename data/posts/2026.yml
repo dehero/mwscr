@@ -818,14 +818,16 @@
     - service: vk
       id: 3631
       published: 2026-10-19-19-05-13
-      updated: 2026-10-21-07-07-44
+      updated: 2026-10-22-07-09-49
       followers: 1456
-      likes: 29
-      views: 339
+      likes: 38
+      views: 411
       reposts: 2
       comments: !c |-
-        CySAkZPLQnoVghKngACraXZhbi11cmFsb3bZMNCa0L7QvdGC0YDQsNGB0YIg0L7RgdCy0LXRidC1
-        0L3QuNGPINC60YDRg9GC0L7QuQM=
+        G/YAQC0ObBtG+ZjBeIV1nlIsnn+58QG3Fb95AWdSa4kFXAEXRF84OZfs63fjS8iqwinqPHbnt6nb
+        zmMyG29JtrZPEARxIVqMVbexubrDETQqQaixvqkH3Q/NONFEA9C/dCITHgyQ85RVJZqEz4uO8wsd
+        22dv3u2xcULzXWSmMIBkWJwUmIVkR+UGGSE7l4J+f36XAB/jGLtxq12G2VGNL/fM8Zf+nUonsCAo
+        kkafcv7lXecXen/Wxu55qRRdXRDoDaWyxQKiMgM2yM6EkjAAAg==
     - service: tg
       id:
         - 1349
@@ -840,8 +842,8 @@
       id: DevN-n3nb0x
       mediaId: '17916071298271668'
       published: 2026-10-21-01-23-06
-      updated: 2026-10-22-01-15-58
+      updated: 2026-10-22-07-09-39
       followers: 3781
-      likes: 178
+      likes: 184
 2026-10-20-1-table-for-two: 2018-05-04-table-for-two
 2026-10-21-1-kaushtarari: 2019-02-13-kaushtarari

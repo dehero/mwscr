@@ -655,7 +655,7 @@ arya-stark:
   profiles:
     - service: vk
       id: '820702664'
-      updated: 2026-10-21-01-19-38
+      updated: 2026-10-22-07-10-23
       username: id820702664
       name: Арья Старк
       avatar: store:/avatars/vk-689aa89d.jpg
@@ -1541,14 +1541,14 @@ dehero:
       avatar: store:/avatars/gh-c8afe641.jpg
     - service: vk
       id: '3652910'
-      updated: 2026-10-22-01-17-55
+      updated: 2026-10-22-07-10-11
       username: dehero
       name: Антон Курьянов
       avatar: store:/avatars/vk-5356f76e.jpg
     - type: channel
       service: vk
       id: '138249959'
-      updated: 2026-10-21-13-31-28
+      updated: 2026-10-22-07-09-49
       username: mwscr
       name: Morrowind Screenshots
       avatar: store:/avatars/vk-8e97fd4f.jpg
@@ -2188,7 +2188,7 @@ evil-kit:
   profiles:
     - service: vk
       id: '153155138'
-      updated: 2026-10-22-01-17-10
+      updated: 2026-10-22-07-10-11
       username: evil_kit
       name: Никита Метелкин
       avatar: store:/avatars/vk-adb64972.jpg
@@ -2502,7 +2502,7 @@ gleb-zheltuhin:
   profiles:
     - service: vk
       id: '29014473'
-      updated: 2026-10-22-01-15-58
+      updated: 2026-10-22-07-09-52
       username: gleb_zheltuhin
       name: Глеб Желтухин
       avatar: store:/avatars/vk-971eefc1.jpg
@@ -3074,7 +3074,7 @@ ivan-uralov:
   profiles:
     - service: vk
       id: '16497155'
-      updated: 2026-10-22-01-15-58
+      updated: 2026-10-22-07-09-51
       username: id16497155
       name: Иван Уралов
       avatar: store:/avatars/vk-51775759.jpg
@@ -3362,7 +3362,7 @@ karatedance:
   profiles:
     - service: tg
       id: '1037255094'
-      updated: 2026-10-21-18-24-58
+      updated: 2026-10-22-07-09-42
       accessHash: '-5098047197051495291'
       username: karatedance
       name: танцы карате
@@ -5215,6 +5215,14 @@ quantd7709:
       username: quantd7709
       name: Tran Dang Quan
       avatar: store:/avatars/ig-059bf8ec.jpg
+quantumparabellum:
+  profiles:
+    - service: vk
+      id: '539781913'
+      updated: 2026-10-22-07-09-49
+      username: quantumparabellum
+      name: Павел Витер
+      avatar: store:/avatars/vk-00a45202.jpg
 quintus-fabius:
   profiles:
     - service: tg
@@ -5655,7 +5663,7 @@ sergey-b-2:
   profiles:
     - service: vk
       id: '1077446394'
-      updated: 2026-10-22-01-15-57
+      updated: 2026-10-22-07-10-23
       username: id1077446394
       name: Сергей Б
       avatar: store:/avatars/vk-70268334.jpg
@@ -6199,7 +6207,7 @@ svyatosha:
   profiles:
     - service: tg
       id: '6654011684'
-      updated: 2026-10-21-01-19-34
+      updated: 2026-10-22-07-09-40
       accessHash: '-6782097744855732809'
       name: Святоша
       avatar: store:/avatars/tg-5321215999166062533.jpg
