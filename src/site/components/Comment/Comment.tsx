@@ -51,7 +51,17 @@ export const Comment: Component<CommentProps> = (props) => {
         </a>
       </Show>
 
-      <p class={styles.text}>{props.comment.text}</p>
+      <p class={styles.text}>
+        <Show when={props.comment.score}>
+          {(score) => (
+            <span class={styles.score} title={`${score()}/5`}>
+              {'★'.repeat(score())}
+              {'☆'.repeat(5 - score())}{' '}
+            </span>
+          )}
+        </Show>
+        {props.comment.text}
+      </p>
 
       <UserTooltip forRef={avatarRef()} user={userInfo()} showAvatar />
 

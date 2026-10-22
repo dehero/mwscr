@@ -25,3 +25,8 @@
   margin: 0;
   overflow-wrap: anywhere;
 }
+
+.score {
+  color: var(--color-text-light);
+  white-space: nowrap;
+}

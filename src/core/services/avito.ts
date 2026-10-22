@@ -1,11 +1,15 @@
 import type { InferOutput } from 'valibot';
-import { nonEmpty, object, pipe, string } from 'valibot';
+import { integer, minValue, nonEmpty, number, object, pipe, string, union } from 'valibot';
 import { Publication } from '../entities/publication.ts';
+import { checkSchema } from '../entities/schema.ts';
 import type { PostingService } from '../entities/service.ts';
 
 export const AVITO_USERNAME = '8a8937fb057879595b5e7c941d5ff1eb';
 
-export const AvitoPublication = object({ ...Publication.entries, id: pipe(string(), nonEmpty()) });
+export const AvitoPublication = object({
+  ...Publication.entries,
+  id: union([pipe(string(), nonEmpty()), pipe(number(), integer(), minValue(1))]),
+});
 export type AvitoPublication = InferOutput<typeof AvitoPublication>;
 
 export class Avito implements PostingService<AvitoPublication> {
@@ -25,8 +29,8 @@ export class Avito implements PostingService<AvitoPublication> {
     return false;
   }
 
-  isPublication(_publication: Publication): _publication is AvitoPublication {
-    return false;
+  isPublication(publication: Publication): publication is AvitoPublication {
+    return checkSchema(AvitoPublication, publication) && publication.service === this.id;
   }
 
   getPublicationUrl(publication: Publication, _embed?: boolean) {

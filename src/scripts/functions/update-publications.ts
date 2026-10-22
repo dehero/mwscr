@@ -51,16 +51,18 @@ async function updateServicePublications(
     .sort((a, b) => b[1].published.getTime() - a[1].published.getTime());
 
   if (updatablePublications.length === 0) {
-    console.info(`No ${service.name} publications to update.`);
+    console.info(`No ${service.name} publications to update in "${manager.name}".`);
     return;
   }
   if (updatablePublications.length > MAX_UPDATE_COUNT) {
     console.info(
-      `Found ${updatablePublications.length} ${service.name} publications to update, updating first ${MAX_UPDATE_COUNT}.`,
+      `Found ${updatablePublications.length} ${service.name} publications to update in "${manager.name}", updating first ${MAX_UPDATE_COUNT}.`,
     );
     updatablePublications = updatablePublications.slice(0, MAX_UPDATE_COUNT);
   } else {
-    console.info(`Found ${updatablePublications.length} ${service.name} publications to update.`);
+    console.info(
+      `Found ${updatablePublications.length} ${service.name} publications to update in "${manager.name}".`,
+    );
   }
 
   try {

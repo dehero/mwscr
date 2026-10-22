@@ -8,7 +8,7 @@ import { compressData, decompressData } from '../../utils/data-utils.ts';
 
 const YAML_DATE_REGEXP = /^\d{4}-\d{2}-\d{2}(?:-\d{2}-\d{2}-\d{2})?$/;
 
-type SerializedComment = [datetime: number, author: string, text: string, ...replies: SerializedComment[]];
+type SerializedComment = [datetime: number, author: string, text: string, ...rest: (number | SerializedComment)[]];
 
 export const YAML_SCHEMA = yaml.JSON_SCHEMA.extend({
   implicit: [
@@ -53,21 +53,40 @@ export function saveYaml(filename: string, data: unknown) {
   return writeFile(filename, file);
 }
 
+function packComment(comment: PublicationComments[number]): SerializedComment {
+  const rest: (number | SerializedComment)[] = [];
+
+  if (typeof comment.score === 'number') {
+    rest.push(comment.score);
+  }
+
+  for (const reply of comment.replies ?? []) {
+    rest.push(packComment(reply));
+  }
+
+  return [comment.datetime.getTime(), comment.author, comment.text, ...rest];
+}
+
+function unpackComment([datetime, author, text, ...rest]: SerializedComment): PublicationComments[number] {
+  const [first, ...others] = rest;
+  const score = typeof first === 'number' ? first : undefined;
+  const replies = (typeof first === 'number' ? others : rest) as SerializedComment[];
+
+  return {
+    datetime: new Date(datetime),
+    author,
+    text,
+    ...(score !== undefined ? { score } : {}),
+    replies: replies.map(unpackComment),
+  };
+}
+
 function packComments(comments?: PublicationComments): string | undefined {
   if (!comments || typeof comments === 'string') {
     return comments;
   }
 
-  const data: SerializedComment[] = comments.map((comment) => [
-    comment.datetime.getTime(),
-    comment.author,
-    comment.text,
-    ...(comment.replies?.map((comment): SerializedComment => [
-      comment.datetime.getTime(),
-      comment.author,
-      comment.text,
-    ]) || []),
-  ]);
+  const data: SerializedComment[] = comments.map(packComment);
 
   return compressData(data);
 }
@@ -79,14 +98,5 @@ function unpackComments(value?: string): PublicationComments | undefined {
 
   const data = decompressData<SerializedComment[]>(value);
 
-  return data.map(([datetime, author, text, ...replies]) => ({
-    datetime: new Date(datetime),
-    author,
-    text,
-    replies: replies.map(([datetime, author, text]) => ({
-      datetime: new Date(datetime),
-      author,
-      text,
-    })),
-  }));
+  return data.map(unpackComment);
 }

@@ -15,6 +15,7 @@
     "preview": "vite preview",
     "resolve-github-issue": "node src/scripts/resolve-github-issue.ts",
     "maintain": "node src/scripts/maintain.ts",
+    "update-publications": "node src/scripts/update-publications.ts",
     "validate": "node src/scripts/validate.ts",
     "release": "node src/scripts/release.ts",
     "script": "node",

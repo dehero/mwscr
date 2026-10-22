@@ -1,11 +1,12 @@
 import type { InferOutput } from 'valibot';
-import { date, nonEmpty, object, pipe, string, trim } from 'valibot';
+import { date, integer, maxValue, minValue, nonEmpty, number, object, optional, pipe, string, trim } from 'valibot';
 import type { SortDirection } from '../utils/common-types.ts';
 
 export const Comment = object({
   datetime: date(),
   author: pipe(string(), nonEmpty()),
   text: pipe(string(), trim()),
+  score: optional(pipe(number(), integer(), minValue(1), maxValue(5))),
 });
 export type Comment = InferOutput<typeof Comment>;
 

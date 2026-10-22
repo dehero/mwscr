@@ -26,6 +26,12 @@ https://graph.facebook.com/oauth/access_token?grant_type=fb_exchange_token&clien
 
 Copy resulting JSON field named `access_token` to `INSTAGRAM_ACCESS_TOKEN` environment variable.
 
+## Avito
+
+Go to [Avito Developer Portal](https://developers.avito.ru/), open the application settings and copy "Client ID" to
+`AVITO_CLIENT_ID` and "Client Secret" to `AVITO_CLIENT_SECRET` environment variables. The application needs the
+`ratings:read` scope to receive reviews.
+
 ## VK
 
 Go to https://vkhost.github.io/, select "Instagram" and follow instruction. Copy received access token to

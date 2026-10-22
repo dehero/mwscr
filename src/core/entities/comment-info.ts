@@ -28,6 +28,7 @@ export async function createCommentInfos(dataManager: DataManager): Promise<Comm
                 author: comment.author,
                 datetime: comment.datetime,
                 text: comment.text,
+                score: comment.score,
                 service: parent.service,
                 path: createPostPath(manager.name, id),
                 title: post.title,
@@ -40,6 +41,7 @@ export async function createCommentInfos(dataManager: DataManager): Promise<Comm
                         author: parent.author,
                         datetime: parent.datetime,
                         text: parent.text,
+                        score: parent.score,
                       }
                     : undefined,
               })),
