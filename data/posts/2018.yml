@@ -6781,10 +6781,10 @@
     - service: vk
       id: 3634
       published: 2026-10-20-19-00-40
-      updated: 2026-10-22-13-30-28
+      updated: 2026-10-22-18-20-05
       followers: 1456
       likes: 58
-      views: 472
+      views: 487
       reposts: 4
       comments: !c |-
         G0ACACwO7IbPGw2NN2SPUD1G/D9yz8ADetr2+6AZtgxbibVFkpyr6maMfYJEmH58p3SsWIXlNiiB
@@ -6796,10 +6796,10 @@
     - service: tg
       id: 1352
       published: 2026-10-20-19-00-46
-      updated: 2026-10-22-13-30-24
+      updated: 2026-10-22-18-20-00
       followers: 948
       likes: 45
-      views: 184
+      views: 185
     - service: mx
       id: '1792522850740'
       published: 2026-10-20-19-00-51
@@ -6808,9 +6808,9 @@
       id: Dev1yUuHcGW
       mediaId: '18134173798671101'
       published: 2026-10-21-07-10-57
-      updated: 2026-10-22-13-30-25
+      updated: 2026-10-22-18-20-01
       followers: 3782
-      likes: 165
+      likes: 177
 2018-05-05-uncle-sweetshares-workshop:
   title: Uncle Sweetshare's Workshop
   titleRu: Мастерская Дядюшки Сладкая Доля
