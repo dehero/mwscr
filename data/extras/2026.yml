@@ -265,8 +265,9 @@
       id: DeO2RPsmOxT
       mediaId: '18095689727402358'
       published: 2026-10-08-11-40-14
-      updated: 2026-10-15-21-58-14
+      updated: 2026-10-22-22-08-25
       followers: 3300
+      likes: 336
       comments: !c |-
         G6YAYI3UXvnARqHBmxEuCvNzNbBsW/9T4Il9ywrkaxmRkq4nK/WhdTMbjS6ooljEbgNuspQZTpI7
         wUvfn0rrY+6IObcNPTWq/CJfkY34kgD7bOpi0ZGZ20Zo/tPA6FE6yAAwA6qTeih1dIPqU9MJvV7I
@@ -274,20 +275,20 @@
     - service: vk
       id: 3594
       published: 2026-10-08-11-40-49
-      updated: 2026-10-15-21-58-14
+      updated: 2026-10-22-22-08-26
       followers: 1451
       likes: 46
-      views: 553
+      views: 578
       reposts: 2
     - service: tg
       id:
         - 1335
         - 1336
       published: 2026-10-08-11-40-57
-      updated: 2026-10-15-21-58-15
+      updated: 2026-10-22-22-08-26
       followers: 947
-      likes: 57
-      views: 408
+      likes: 59
+      views: 504
 2026-10-19-1-series:
   title: Series
   titleRu: Серия
@@ -304,17 +305,17 @@
     - service: vk
       id: 3630
       published: 2026-10-19-18-51-09
-      updated: 2026-10-21-18-27-01
+      updated: 2026-10-22-22-08-25
       followers: 1456
       likes: 6
-      views: 223
+      views: 230
     - service: tg
       id: 1348
       published: 2026-10-19-18-51-10
-      updated: 2026-10-21-18-27-02
+      updated: 2026-10-22-22-08-26
       followers: 948
       likes: 18
-      views: 189
+      views: 205
       comments: !c |-
         G5wAEByJsY2KPTjziy4Ez/+fGsFgApLjYwpF1+rE0v9UXiAbqGLzPowzjgY8IardS5VlFepucKIB
         SlK4jQsPQMNAq+yUW0BJlmed5HiCD4fzO92VmamM11Yx+qXNfFmNr7PLBQPRPET7XhwgClGaKNkz
