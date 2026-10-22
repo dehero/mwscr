@@ -6781,10 +6781,10 @@
     - service: vk
       id: 3634
       published: 2026-10-20-19-00-40
-      updated: 2026-10-22-07-09-42
+      updated: 2026-10-22-13-30-28
       followers: 1456
-      likes: 57
-      views: 456
+      likes: 58
+      views: 472
       reposts: 4
       comments: !c |-
         G0ACACwO7IbPGw2NN2SPUD1G/D9yz8ADetr2+6AZtgxbibVFkpyr6maMfYJEmH58p3SsWIXlNiiB
@@ -6796,10 +6796,10 @@
     - service: tg
       id: 1352
       published: 2026-10-20-19-00-46
-      updated: 2026-10-22-07-09-38
+      updated: 2026-10-22-13-30-24
       followers: 948
-      likes: 44
-      views: 182
+      likes: 45
+      views: 184
     - service: mx
       id: '1792522850740'
       published: 2026-10-20-19-00-51
@@ -6808,9 +6808,9 @@
       id: Dev1yUuHcGW
       mediaId: '18134173798671101'
       published: 2026-10-21-07-10-57
-      updated: 2026-10-22-07-09-37
+      updated: 2026-10-22-13-30-25
       followers: 3782
-      likes: 160
+      likes: 165
 2018-05-05-uncle-sweetshares-workshop:
   title: Uncle Sweetshare's Workshop
   titleRu: Мастерская Дядюшки Сладкая Доля
@@ -14280,12 +14280,15 @@
       id: Dd7RliMjIHK
       mediaId: '18416226982156539'
       published: 2026-09-30-21-14-03
-      updated: 2026-10-15-13-06-19
+      updated: 2026-10-22-13-30-33
       followers: 2724
+      likes: 1024
       comments: !c |-
-        G5gAEIzDOBY8CkV6abambgbWpVHbxsLoCevGWuBRFK7ztPM48fqGaiubTk70eCBuHSRsCxLOsSWa
-        Tk7wx5/oYQskC/stywtahA7M0O46gZFIzGgbWOiExnqaRhA7qYHlURSVzizCH6qclxuFrBb5vpE9
-        c6NPj8OWGXHuBNi/XauCrmh6132Dpn07rVK57ZyKoco=
+        G1YBgIzUTjcM4rDr92t3IaGJZCKNRGJIT3bu6d9TDwXx7tIYpl9FS/MG+KH6tO5Ejz9oANjra2FZ
+        2yENNLe+KCxLN8Xn1jixhECvdjYK0/Hywby4LrhEJxZANsy8P3M2Gg0v/1lOBEa6l3/47F3CSh7i
+        0FpJ/HAs0lgQIqqN0UdOMyodjExEotKcu/DjCYHfcSQjN4uE+2VQVC6gn1R+vbbiBTqVfjyORDUb
+        6Ovrf5onEV0pKz0YDBIpK1mA48eIdDiW1C1Pr4+UtODrHvisTwATl1OZwXqlHyqDWGx8lj0Si14r
+        erenCp02isZA4JmMKScx0cYKgDcobeXXp3sgSIRi/YgZMDTxKGmVBoX8WFlGewA=
 2018-09-22-two-ways:
   title: Two Ways
   titleRu: Два пути
@@ -14867,10 +14870,10 @@
     - service: vk
       id: 3578
       published: 2026-09-30-21-14-10
-      updated: 2026-10-15-13-06-22
+      updated: 2026-10-22-13-30-30
       followers: 1445
       likes: 50
-      views: 549
+      views: 563
       reposts: 1
       comments: !c |-
         G0IA+GXaWWBhmkVFAxrZ8P1p9FM38dd+kP24VEQipioHVxpvDjGBt4BS0OqS6so6dU2r4Ccvf/d3
@@ -14878,10 +14881,10 @@
     - service: tg
       id: 1327
       published: 2026-09-30-21-14-15
-      updated: 2026-10-15-13-06-19
+      updated: 2026-10-22-13-30-26
       followers: 944
       likes: 52
-      views: 413
+      views: 436
     - service: mx
       id: '1790802858639'
       published: 2026-09-30-21-14-18
