@@ -281,6 +281,12 @@ aleksandr-kharitonov:
       username: id6736899
       name: Александр Харитонов
       avatar: store:/avatars/vk-27a2ed8c.jpg
+aleksandr-ponomaryov:
+  profiles:
+    - service: av
+      id: '376151261'
+      updated: 2026-10-22-12-02-44
+      name: Александр Пономарёв
 aleksey:
   profiles:
     - service: tg
@@ -433,6 +439,18 @@ anakiners:
       username: Aodhanus
       name: Aidan°
       avatar: store:/avatars/tg-4542143635003648147.jpg
+anastasiya:
+  profiles:
+    - service: av
+      id: '390757661'
+      updated: 2026-10-22-12-02-44
+      name: Анастасия
+anastasiya-2:
+  profiles:
+    - service: av
+      id: '391635901'
+      updated: 2026-10-22-12-02-44
+      name: Анастасия
 anastasiya-golub:
   profiles:
     - service: vk
@@ -1479,6 +1497,12 @@ daryna-dmytrenko:
       username: daryna_dmytrenko
       name: Дарина Дмитренко
       avatar: store:/avatars/vk-0d327853.jpg
+david:
+  profiles:
+    - service: av
+      id: '376503389'
+      updated: 2026-10-22-12-02-44
+      name: Давид
 davydov-arttattoo:
   profiles:
     - service: ig
@@ -1741,6 +1765,18 @@ dmitrii:
       botChatId: 300009119
       name: Dmitrii
       avatar: store:/avatars/tg-1288529355066772226.jpg
+dmitriy:
+  profiles:
+    - service: av
+      id: '374584525'
+      updated: 2026-10-22-12-02-44
+      name: Дмитрий
+dmitriy-makarov:
+  profiles:
+    - service: av
+      id: '374108285'
+      updated: 2026-10-22-12-02-44
+      name: Дмитрий Макаров
 dmrashodov:
   profiles:
     - service: vk
@@ -2168,6 +2204,12 @@ eugene-bochkov:
       username: id8402179
       name: Eugene Bochkov
       avatar: store:/avatars/vk-2a86b104.jpg
+evgeniy:
+  profiles:
+    - service: av
+      id: '391225405'
+      updated: 2026-10-22-12-02-44
+      name: Евгений
 evgeniy-buriy:
   profiles:
     - service: vk
@@ -2865,6 +2907,12 @@ iddqd0110:
       username: iddqd0110
       name: Daniil
       avatar: store:/avatars/tg-3231394889865038607.jpg
+igor:
+  profiles:
+    - service: av
+      id: '380627245'
+      updated: 2026-10-22-12-02-44
+      name: Игорь
 igorquerubin:
   profiles:
     - service: ig
@@ -3883,6 +3931,12 @@ machine-v2:
       username: machine_V2
       name: '@V2'
       avatar: store:/avatars/tg-5350495766180470565.jpg
+mahjong-lover:
+  profiles:
+    - service: av
+      id: '385113133'
+      updated: 2026-10-22-12-02-44
+      name: MahjongLover
 makanatandsasha:
   profiles:
     - service: ig
@@ -3952,6 +4006,12 @@ marie-harris16:
       accessHash: '1354890055343121679'
       username: NoahBaker482
       name: Noah Baker
+mariya-gerasimova:
+  profiles:
+    - service: av
+      id: '375502573'
+      updated: 2026-10-22-12-02-44
+      name: Мария Герасимова
 markbcg:
   profiles:
     - service: ig
@@ -5093,6 +5153,12 @@ polaroids-of-tarkovsky:
       username: polaroids_of_tarkovsky
       name: Сергей Воронин
       avatar: store:/avatars/ig-9c79f8b0.jpg
+polemic-ai:
+  profiles:
+    - service: av
+      id: '384871917'
+      updated: 2026-10-22-12-02-44
+      name: Polemic AI
 pookiepalmer:
   profiles:
     - service: ig
@@ -5658,6 +5724,12 @@ semifelidae:
       username: semifelidae
       name: Vanadis
       avatar: store:/avatars/ig-c75e2b35.jpg
+sergey:
+  profiles:
+    - service: av
+      id: '379272653'
+      updated: 2026-10-22-12-02-44
+      name: Сергей
 sergey-b:
   name: Sergey Bakashinov
   nameRu: Сергей Бакашинов
@@ -5690,6 +5762,12 @@ sergey-churbanov:
       username: id1060712354
       name: Сергей Чурбанов
       avatar: store:/avatars/vk-d648ef95.jpg
+sergey-p:
+  profiles:
+    - service: av
+      id: '379388061'
+      updated: 2026-10-22-12-02-44
+      name: Сергей П
 sergey-venkov:
   profiles:
     - service: vk
@@ -7031,6 +7109,18 @@ valeriy-zhmishenko:
       username: belov_pavel1
       name: Pavel Belov
       avatar: store:/avatars/tg-5337035184055983670.jpg
+valeriya:
+  profiles:
+    - service: av
+      id: '402967885'
+      updated: 2026-10-22-12-02-44
+      name: Валерия
+valeriya-k:
+  profiles:
+    - service: av
+      id: '378883997'
+      updated: 2026-10-22-12-02-44
+      name: Валерия К
 valgroth-mothka:
   profiles:
     - service: ig
@@ -7167,6 +7257,12 @@ visitskyrim:
       username: visitskyrim
       name: Dar'sien the Khajiit
       avatar: store:/avatars/ig-a34b1185.jpg
+vlad-goryunov:
+  profiles:
+    - service: av
+      id: '402668525'
+      updated: 2026-10-22-12-02-44
+      name: Vlad Goryunov
 vladimir-gr:
   profiles:
     - service: tg
