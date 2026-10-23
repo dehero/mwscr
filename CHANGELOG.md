@@ -2,6 +2,18 @@
 
 All notable changes to this project will be documented in this file.
 
+## [4.7.0](https://github.com/dehero/mwscr/compare/v4.6.1...v4.7.0) (2026-10-23)
+
+### Features
+
+- add Avito review import with ratings
+  ([ae1912f](https://github.com/dehero/mwscr/commit/ae1912f23673cce41bc76ac7a2378faaa0dcef82))
+
+### Bug Fixes
+
+- allow png photos in stores and cap post page column width
+  ([18dd1c3](https://github.com/dehero/mwscr/commit/18dd1c3004950f1c667a305c40259a28ad83c9f7))
+
 ## [4.6.1](https://github.com/dehero/mwscr/compare/v4.6.0...v4.6.1) (2026-10-20)
 
 ### Bug Fixes
