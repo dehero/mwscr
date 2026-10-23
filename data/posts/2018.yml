@@ -1859,8 +1859,9 @@
       id: Dd94y46GGYK
       mediaId: '18113709692327717'
       published: 2026-10-01-21-35-12
-      updated: 2026-10-16-05-30-17
+      updated: 2026-10-23-07-01-47
       followers: 2791
+      likes: 238
 2018-02-04-sadrith-mora:
   title: Sadrith Mora
   titleRu: Садрит Мора
@@ -5207,10 +5208,10 @@
     - service: vk
       id: 3580
       published: 2026-10-01-21-35-21
-      updated: 2026-10-16-05-30-22
+      updated: 2026-10-23-07-01-49
       followers: 1445
       likes: 53
-      views: 577
+      views: 619
       reposts: 4
       comments: !c |-
         iyaAkZPLQnoPqF+FgACqc2VyZ2V5LWItMtk20KXQvtGC0Ywg0LIg0YDQsNC80LrRgyDQuCDQvdCw
@@ -5218,10 +5219,10 @@
     - service: tg
       id: 1328
       published: 2026-10-01-21-35-25
-      updated: 2026-10-16-05-30-20
+      updated: 2026-10-23-07-01-43
       followers: 944
-      likes: 61
-      views: 423
+      likes: 62
+      views: 454
     - service: mx
       id: '1790890529941'
       published: 2026-10-01-21-35-30
@@ -6809,9 +6810,10 @@
       id: Dev1yUuHcGW
       mediaId: '18134173798671101'
       published: 2026-10-21-07-10-57
-      updated: 2026-10-23-03-27-49
+      updated: 2026-10-23-07-01-45
       followers: 3782
-      likes: 190
+      likes: 194
+      comments: !c CxGAkZPLQnoWdAr9gACtcGFydGl6YW4tdXNzcqlkYXRlIGlkZWED
 2018-05-05-uncle-sweetshares-workshop:
   title: Uncle Sweetshare's Workshop
   titleRu: Мастерская Дядюшки Сладкая Доля
@@ -14562,10 +14564,10 @@
     - service: tg
       id: 1322
       published: 2026-09-24-20-16-00
-      updated: 2026-10-16-05-30-21
+      updated: 2026-10-23-07-01-44
       followers: 942
       likes: 49
-      views: 488
+      views: 510
     - service: mx
       id: 1790280974426
       published: 2026-09-24-20-16-00

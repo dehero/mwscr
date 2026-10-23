@@ -7401,8 +7401,9 @@
       id: Dd9StpwmJ5P
       mediaId: '17912189973470947'
       published: 2026-10-01-16-02-26
-      updated: 2026-10-16-05-30-19
+      updated: 2026-10-23-07-01-47
       followers: 2765
+      likes: 261
 2017-05-15-in-the-courtyard-of-royal-palace:
   title: In the Courtyard of Royal Palace
   titleRu: Во внутреннем дворе Королевского дворца
@@ -8408,8 +8409,9 @@
       id: DeP8OL2mOHI
       mediaId: '17909453241482142'
       published: 2026-10-08-21-51-33
-      updated: 2026-10-16-05-30-16
+      updated: 2026-10-23-07-01-46
       followers: 3337
+      likes: 223
       comments: !c |-
         iyCAkZPLQnoR2RXCAACwYm9hbmVyZmFwcGVyOTk5OdkkSSBmZWx0IHdyb25nIHJpZmxpbmcgYXJv
         dW5kIGluIHRoZXJlAw==
@@ -11861,17 +11863,21 @@
     - service: vk
       id: 3644
       published: 2026-10-22-18-20-20
-      updated: 2026-10-23-03-27-48
+      updated: 2026-10-23-07-01-44
       followers: 1457
-      likes: 11
-      views: 116
+      likes: 17
+      views: 205
+      reposts: 1
+      comments: !c |-
+        G2UA+B2FcRsdmqpbzZIjPp54bxMan0ynPg0T6yUYYfLP8iZnXWqmedVQNJoSf/Y3xX+3hL1la0VE
+        IcglOQI+Nr3P+/t7lrXd+A6ZyJcxOlihOB4mFPx0MAqBzu7P1E7cVkYgcNvbsAE=
     - service: tg
       id: 1354
       published: 2026-10-22-18-20-26
-      updated: 2026-10-23-03-27-46
+      updated: 2026-10-23-07-01-41
       followers: 948
-      likes: 27
-      views: 105
+      likes: 33
+      views: 122
     - service: mx
       id: '1792693230511'
       published: 2026-10-22-18-20-31
@@ -11880,10 +11886,13 @@
       id: De0BUGSF9S2
       mediaId: '17891933298454525'
       published: 2026-10-22-22-08-35
-      updated: 2026-10-23-03-27-47
+      updated: 2026-10-23-07-01-42
       followers: 3836
-      likes: 79
-      comments: !c iwyAkZPLQnoWZdBpgACpbXVtdWVlNGdmpEN1dGUD
+      likes: 99
+      comments: !c |-
+        G6UAAIyUbsK8vz/1C4UT8K1DcMz3s3db8IB2WqlX8K3VUq2Z9NgJ/7MTDYzfXy2OAm6BUGDneHqy
+        PWmmwSg3wZ9luYkD0f5WCJ38sip9iPzhI3/f/q8JPETN53joO3c8RRsoyRQzISpIShX9pVacDTpb
+        qZlAgc0sg0JAXRAShr1ubRZkHnkZvP0+xbU9AGgXb6W6Ag==
 2017-08-11-west-gash:
   title: West Gash
   titleRu: Западное нагорье
@@ -16382,10 +16391,10 @@
     - service: vk
       id: 3596
       published: 2026-10-08-21-52-11
-      updated: 2026-10-16-05-30-19
+      updated: 2026-10-23-07-01-48
       followers: 1451
       likes: 66
-      views: 560
+      views: 583
       reposts: 2
       comments: !c |-
         G+gBIK0OeDPmKqGmdgNk0GMQfoRKp3/sQtIf36z6GV4qWMJC51k62YSWs9jhSEgAoa6/3vr0d1ed
@@ -16396,10 +16405,10 @@
     - service: tg
       id: 1337
       published: 2026-10-08-21-52-17
-      updated: 2026-10-16-05-30-18
+      updated: 2026-10-23-07-01-42
       followers: 948
-      likes: 46
-      views: 305
+      likes: 47
+      views: 367
     - service: mx
       id: '1791496341538'
       published: 2026-10-08-21-52-21
