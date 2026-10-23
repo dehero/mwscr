@@ -11861,17 +11861,17 @@
     - service: vk
       id: 3644
       published: 2026-10-22-18-20-20
-      updated: 2026-10-23-01-15-18
+      updated: 2026-10-23-03-27-48
       followers: 1457
-      likes: 7
-      views: 99
+      likes: 11
+      views: 116
     - service: tg
       id: 1354
       published: 2026-10-22-18-20-26
-      updated: 2026-10-23-01-15-18
+      updated: 2026-10-23-03-27-46
       followers: 948
-      likes: 25
-      views: 100
+      likes: 27
+      views: 105
     - service: mx
       id: '1792693230511'
       published: 2026-10-22-18-20-31
@@ -11880,9 +11880,10 @@
       id: De0BUGSF9S2
       mediaId: '17891933298454525'
       published: 2026-10-22-22-08-35
-      updated: 2026-10-23-01-15-17
+      updated: 2026-10-23-03-27-47
       followers: 3836
-      likes: 60
+      likes: 79
+      comments: !c iwyAkZPLQnoWZdBpgACpbXVtdWVlNGdmpEN1dGUD
 2017-08-11-west-gash:
   title: West Gash
   titleRu: Западное нагорье
