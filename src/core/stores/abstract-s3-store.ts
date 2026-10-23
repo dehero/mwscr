@@ -14,7 +14,7 @@ export abstract class AbstractS3Store implements Store {
     'snapshots/*.{jpg,png}',
     'outtakes/*.{jpg,png}',
     'avatars/*.jpg',
-    'photos/*.jpg',
+    'photos/*.{jpg,png}',
     'inbox/*.{jpg,png}',
     'misc/*.txt',
     'rss/*.xml',

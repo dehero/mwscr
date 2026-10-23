@@ -326,17 +326,17 @@
   }
 
   .container.withRequest {
-    grid-template-columns: max-content 1fr;
+    grid-template-columns: minmax(min-content, 40vw) 1fr;
     grid-template-areas: 'main request';
   }
 
   .container.withContent {
-    grid-template-columns: max-content 1fr;
+    grid-template-columns: minmax(min-content, 40vw) 1fr;
     grid-template-areas: 'main content';
   }
 
   .container.withContent.withRequest {
-    grid-template-columns: max-content 1fr;
+    grid-template-columns: minmax(min-content, 40vw) 1fr;
     grid-template-rows: auto 1fr;
     grid-template-areas: 'request content' 'main content';
   }
@@ -391,7 +391,7 @@
   .container.news,
   .container.mention,
   .container.photoshop {
-    grid-template-columns: minmax(min-content, max-content) minmax(min-content, 1fr);
+    grid-template-columns: minmax(min-content, 40vw) minmax(min-content, 1fr);
   }
 
   .container.published.news,
