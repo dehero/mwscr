@@ -728,7 +728,7 @@ b-anton14:
   profiles:
     - service: tg
       id: '8256432725'
-      updated: 2026-10-24-18-22-12
+      updated: 2026-10-24-20-18-37
       accessHash: '3668354337295081600'
       username: BAnton14
       name: Soggio Guinta (#3)
@@ -3137,7 +3137,7 @@ ivan-uralov:
   profiles:
     - service: vk
       id: '16497155'
-      updated: 2026-10-24-18-22-15
+      updated: 2026-10-24-20-18-38
       username: id16497155
       name: Иван Уралов
       avatar: store:/avatars/vk-51775759.jpg
@@ -3373,7 +3373,7 @@ july31:
   profiles:
     - service: vk
       id: '1105909109'
-      updated: 2026-10-24-18-22-12
+      updated: 2026-10-24-20-18-38
       username: july31
       name: Иван Пластинин
       avatar: store:/avatars/vk-799f77a4.jpg
@@ -5242,6 +5242,15 @@ puddles-pk:
       updated: 2026-10-20-03-38-05
       accessHash: '-5846457838417971324'
       deleted: true
+pupochello:
+  profiles:
+    - service: tg
+      id: '345124780'
+      updated: 2026-10-24-20-18-37
+      accessHash: '7383914265245401058'
+      username: pupochello
+      name: виктор иммануилович член
+      avatar: store:/avatars/tg-1482299643599194913.jpg
 pupushu:
   profiles:
     - service: tg
@@ -7308,7 +7317,7 @@ vladislav-lomin:
   profiles:
     - service: vk
       id: '504964620'
-      updated: 2026-10-24-18-22-13
+      updated: 2026-10-24-20-18-38
       username: id504964620
       name: Владислав Ломин
       avatar: store:/avatars/vk-1b7571ff.jpg

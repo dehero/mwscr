@@ -968,20 +968,28 @@
       id: De4u_1ll-yi
       mediaId: '18468462205187564'
       published: 2026-10-24-18-04-46
-      updated: 2026-10-24-18-22-08
+      updated: 2026-10-24-20-18-34
       followers: 3891
-      likes: 26
+      likes: 117
     - service: vk
       id: 3652
       published: 2026-10-24-18-04-57
-      updated: 2026-10-24-18-22-09
+      updated: 2026-10-24-20-18-35
       followers: 1458
       likes: 4
-      views: 34
+      views: 86
+      reposts: 1
     - service: tg
       id: 1356
       published: 2026-10-24-18-05-04
+      updated: 2026-10-24-20-18-37
       followers: 948
+      likes: 29
+      views: 109
+      comments: !c |-
+        G4cAgI3UWi037Zr/cw1sNv6+Bp2NCiyiqS6etx1fez9vwrukYc12gwPNMeMAi/Bp54CGjbG1g14S
+        PieTB1Mj//EdgtYyLvlp4NMyB1vU1CCW/ICHcONR4xHLP0HNq4BvGYZEAFahFCnXfEMDVZA1I+TG
+        JszCQJnOOf5WyyP4njghZgA=
     - service: mx
       id: '1792865110690'
       published: 2026-10-24-18-05-11
