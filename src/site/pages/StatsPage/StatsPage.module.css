@@ -1,0 +1,62 @@
+.container {
+  flex-grow: 1;
+  display: flex;
+  flex-flow: column nowrap;
+  height: 100%;
+  padding: 8px;
+  margin: 0 -2px -2px -2px;
+  gap: 8px;
+  overflow-y: auto;
+}
+
+.panel {
+  display: flex;
+  flex-flow: column nowrap;
+  gap: 8px;
+  padding: 8px;
+  min-width: 0;
+  align-self: start;
+}
+
+.panelTitle {
+  color: var(--color-text-light);
+  text-wrap: balance;
+}
+
+.diagrams {
+  display: flex;
+  flex-flow: column nowrap;
+  gap: 12px;
+  align-items: center;
+}
+
+.diagram {
+  max-width: 100%;
+  width: max-content;
+}
+
+.divider {
+  width: 100%;
+}
+
+@media only screen and (min-width: 812px) {
+  .container {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(var(--size-panel-min-width), 1fr));
+    align-content: start;
+    padding: 0 8px 8px 8px;
+    margin: 0;
+    border: none;
+  }
+
+  .diagrams {
+    flex-flow: row nowrap;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 24px;
+  }
+
+  .divider {
+    display: none;
+  }
+}

@@ -1,6 +1,9 @@
+import { texts } from '../texts/index.ts';
 import type { SortDirection } from '../utils/common-types.ts';
-import { arrayFromAsync, cleanupUndefinedProps, getSearchTokens, search } from '../utils/common-utils.ts';
+import { arrayFromAsync, asArray, cleanupUndefinedProps, getSearchTokens, search } from '../utils/common-utils.ts';
+import { localField, localize } from '../utils/intl-utils.ts';
 import type { DataManager } from './data-manager.ts';
+import type { IntlText, Locale } from './intl.ts';
 import type { Location, LocationCell, LocationType } from './location.ts';
 import { isNestedLocation } from './location.ts';
 import type { Option } from './option.ts';
@@ -22,7 +25,7 @@ export interface LocationInfo {
 export type LocationInfoComparator = (a: LocationInfo, b: LocationInfo) => number;
 
 export interface SelectLocationInfoSortOption extends Option {
-  fn: (direction: SortDirection) => LocationInfoComparator;
+  fn: (direction: SortDirection, locale: Locale) => LocationInfoComparator;
 }
 
 export interface SelectLocationInfosParams {
@@ -31,11 +34,12 @@ export interface SelectLocationInfosParams {
   search?: string;
   sortKey: SelectLocationInfosSortKey;
   sortDirection: SortDirection;
+  locale: Locale;
 }
 
 export const selectLocationInfosSortOptions = [
-  { value: 'title', label: 'Title', fn: compareLocationInfosByTitle },
-  { value: 'postCount', label: 'Post Count', fn: compareLocationInfosByPostCount },
+  { value: 'title', label: texts.location.title, fn: compareLocationInfosByTitle },
+  { value: 'postCount', label: texts.metrics.postCount, fn: compareLocationInfosByPostCount },
 ] as const satisfies SelectLocationInfoSortOption[];
 
 export type SelectLocationInfosSortKey = (typeof selectLocationInfosSortOptions)[number]['value'];
@@ -82,12 +86,44 @@ export async function createLocationInfos(dataManager: DataManager): Promise<Loc
   );
 }
 
-export function compareLocationInfosByTitle(direction: SortDirection): LocationInfoComparator {
-  return direction === 'asc' ? (a, b) => a.title.localeCompare(b.title) : (a, b) => b.title.localeCompare(a.title);
+export function findWorldMapLocationInfo(
+  locationInfos: LocationInfo[],
+  titles: string | string[],
+): LocationInfo | undefined {
+  const worldMapLocationInfos = locationInfos
+    .filter((info) => info.cell)
+    .sort((a, b) => b.title.length - a.title.length);
+  const ids = new Set(asArray(titles));
+  const matchingLocationInfos = locationInfos.filter((info) => ids.has(info.title));
+
+  if (matchingLocationInfos.length === 0) {
+    return undefined;
+  }
+
+  for (const info of matchingLocationInfos) {
+    if (!info.cell) {
+      const result = worldMapLocationInfos.find((worldMapInfo) => isNestedLocation(info.title, worldMapInfo.title));
+      if (result) {
+        return result;
+      }
+    } else {
+      return info;
+    }
+  }
+
+  return undefined;
 }
 
-export function compareLocationInfosByPostCount(direction: SortDirection): LocationInfoComparator {
-  const byTitle = compareLocationInfosByTitle(direction);
+export function compareLocationInfosByTitle(direction: SortDirection, locale: Locale): LocationInfoComparator {
+  const getTitle = (info: LocationInfo) => localField(info, 'title', locale) ?? '';
+
+  return direction === 'asc'
+    ? (a, b) => getTitle(a).localeCompare(getTitle(b))
+    : (a, b) => getTitle(b).localeCompare(getTitle(a));
+}
+
+export function compareLocationInfosByPostCount(direction: SortDirection, locale: Locale): LocationInfoComparator {
+  const byTitle = compareLocationInfosByTitle(direction, locale);
 
   return direction === 'asc'
     ? (a, b) => (a.discovered?.posts ?? 0) - (b.discovered?.posts ?? 0) || byTitle(a, b)
@@ -105,9 +141,20 @@ export function selectLocationInfos(locationInfos: LocationInfo[], params: Selec
       (info) =>
         (typeof params.discovered === 'undefined' || Boolean(info.discovered?.posts) === params.discovered) &&
         (typeof params.type === 'undefined' || info.type === params.type) &&
-        search(searchTokens, [info.title]),
+        search(searchTokens, [info.title, info.titleRu]),
     )
-    .sort(comparator(params.sortDirection));
+    .sort(comparator(params.sortDirection, params.locale));
+}
+
+export function getLocationTypeUnitText(type: LocationType, count: number, locale: Locale) {
+  const entries = {
+    interior: texts.locationFilter.interiorUnit,
+    exterior: texts.locationFilter.exteriorUnit,
+    region: texts.locationFilter.regionUnit,
+    virtual: texts.locationFilter.groupUnit,
+  } as const satisfies Record<LocationType, IntlText>;
+
+  return localize(entries[type], locale, { count });
 }
 
 export function selectLocationInfosResultToString(count: number, params: SelectLocationInfosParams) {
@@ -115,25 +162,31 @@ export function selectLocationInfosResultToString(count: number, params: SelectL
   const sortOption = selectLocationInfosSortOptions.find((comparator) => comparator.value === params.sortKey);
 
   if (typeof params.discovered !== 'undefined') {
-    if (params.discovered) {
-      result.push('discovered');
-    } else {
-      result.push('uncharted');
-    }
+    result.push(
+      localize(params.discovered ? texts.locationFilter.visited : texts.locationFilter.unvisited, params.locale, {
+        count,
+      }),
+    );
   }
 
   if (params.type) {
-    result.push(`${params.type}${count !== 1 ? 's' : ''}`);
+    result.push(getLocationTypeUnitText(params.type, count, params.locale));
   } else {
-    result.push(`location${count !== 1 ? 's' : ''}`);
+    result.push(localize(texts.locationFilter.locationUnit, params.locale, { count }));
   }
 
   if (params.search) {
-    result.push(`with "${params.search}" in title`);
+    result.push(localize(texts.locationFilter.withSearch, params.locale, { search: params.search }));
   }
 
   if (sortOption) {
-    result.push(`sorted by "${sortOption.label}" ${params.sortDirection === 'asc' ? 'ascending' : 'descending'}`);
+    const label = localize(sortOption.label, params.locale);
+    const direction = localize(
+      params.sortDirection === 'asc' ? texts.locationFilter.asc : texts.locationFilter.desc,
+      params.locale,
+    );
+
+    result.push(localize(texts.locationFilter.sortedBy, params.locale, { label, direction }));
   }
 
   return result.join(' ');

@@ -11,3 +11,29 @@
 .markdown a:hover {
   color: var(--color-text-selected-hover);
 }
+
+.markdown code {
+  font-family: var(--font-family-monospace);
+  font-size: 0.8em;
+  color: var(--color-text-selected-hover);
+  cursor: pointer;
+}
+
+.markdown pre {
+  max-width: 100%;
+  min-width: 0;
+  overflow-x: auto;
+  margin: 8px 0;
+  padding: 2px 0;
+  font-size: 0.8em;
+  color: var(--color-text-selected-hover);
+  cursor: pointer;
+}
+
+.markdown pre code {
+  padding: 0;
+  border: none;
+  background: none;
+  font-size: inherit;
+  color: inherit;
+}

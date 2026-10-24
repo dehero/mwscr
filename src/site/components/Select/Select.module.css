@@ -26,3 +26,10 @@
   background: var(--color-background);
   color: var(--color-text);
 }
+
+.group {
+  background: var(--color-background);
+  color: var(--color-text);
+  font-style: normal;
+  font-weight: lighter;
+}

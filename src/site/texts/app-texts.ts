@@ -3,6 +3,7 @@ import type { IntlText } from '../../core/entities/intl.ts';
 export const appTexts = {
   home: ['Home', 'Главная'],
   help: ['Help', 'Справка'],
+  workshop: ['Workshop', 'Мастерская'],
   error: ['Error', 'Ошибка'],
   missing: ["This page doesn't exist.", 'Эта страница не существует.'],
   helpDescription: ['Information about Morrowind Screenshots project.', 'Информация о проекте Morrowind Screenshots.'],
@@ -30,6 +31,10 @@ export const appTexts = {
   imageEditorDescription: [
     'Image editor for Morrowind Screenshots project.',
     'Редактор изображений проекта Morrowind Screenshots.',
+  ],
+  locationsDescription: [
+    'Full list and world map of locations of the Morrowind Screenshots project: coverage, quick travel and posts.',
+    'Полный список и карта мира локаций проекта Morrowind Screenshots: покрытие, быстрое перемещение и посты.',
   ],
   title: ['Morrowind Screenshots', 'Morrowind Screenshots'],
   description: [

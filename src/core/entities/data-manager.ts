@@ -2,9 +2,8 @@ import { asArray } from '../utils/common-utils.ts';
 import { type CommentInfo, createCommentInfos } from './comment-info.ts';
 import { type DataPatch, getDataPatchName } from './data-patch.ts';
 import type { ListReaderItemStatus } from './list-manager.ts';
-import { isNestedLocation } from './location.ts';
 import type { LocationInfo } from './location-info.ts';
-import { createLocationInfos } from './location-info.ts';
+import { createLocationInfos, findWorldMapLocationInfo } from './location-info.ts';
 import type { LocationsReader } from './locations-reader.ts';
 import { type PostLocation, PostType } from './post.ts';
 import type { PostInfo, PostInfoSelection, SelectPostInfosParams } from './post-info.ts';
@@ -135,27 +134,7 @@ export class DataManager {
   }
 
   async findWorldMapLocationInfo(location: PostLocation): Promise<LocationInfo | undefined> {
-    const allLocationInfos = (await this.getAllLocationInfos())
-      .filter((info) => info.cell)
-      .sort((a, b) => b.title.length - a.title.length);
-    const locationInfos = (await this.getLocationInfos(location)) ?? [];
-
-    if (locationInfos.length === 0) {
-      return undefined;
-    }
-
-    for (const locationInfo of locationInfos) {
-      if (!locationInfo.cell) {
-        const result = allLocationInfos.find((info) => isNestedLocation(locationInfo.title, info.title));
-        if (result) {
-          return result;
-        }
-      } else {
-        return locationInfo;
-      }
-    }
-
-    return undefined;
+    return findWorldMapLocationInfo(await this.getAllLocationInfos(), location);
   }
 
   findPostsManager(managerName: string): PostsManager | undefined {
