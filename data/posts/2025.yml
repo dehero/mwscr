@@ -156,10 +156,10 @@
     - service: vk
       id: 3622
       published: 2026-10-16-19-21-50
-      updated: 2026-10-23-13-06-39
+      updated: 2026-10-24-14-16-38
       followers: 1456
       likes: 63
-      views: 564
+      views: 572
       reposts: 1
       comments: !c |-
         G1QCoK0OeDPmKqGmdgNkqreD8PH/9Bdbwje+fZDAE8+wSTDC5FxVlR33u+OeQOKYQOK4jJtoaVMb
@@ -171,10 +171,10 @@
     - service: tg
       id: 1345
       published: 2026-10-16-19-21-55
-      updated: 2026-10-23-13-06-32
+      updated: 2026-10-24-14-16-34
       followers: 951
       likes: 57
-      views: 316
+      views: 327
     - service: mx
       id: '1792178520043'
       published: 2026-10-16-19-22-02
@@ -977,8 +977,9 @@
       id: DeSzRVwmD3e
       mediaId: '17989612188060202'
       published: 2026-10-10-00-30-59
-      updated: 2026-10-17-11-24-47
+      updated: 2026-10-24-14-16-37
       followers: 3379
+      likes: 345
 2025-03-29-bridle-of-foreigners:
   title: Bridge of Foreigners
   titleRu: Мост чужеземцев

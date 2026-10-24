@@ -673,7 +673,7 @@ arya-stark:
   profiles:
     - service: vk
       id: '820702664'
-      updated: 2026-10-22-07-10-23
+      updated: 2026-10-24-14-16-41
       username: id820702664
       name: Арья Старк
       avatar: store:/avatars/vk-689aa89d.jpg
@@ -1572,7 +1572,7 @@ dehero:
     - type: channel
       service: vk
       id: '138249959'
-      updated: 2026-10-23-13-06-38
+      updated: 2026-10-24-14-16-37
       username: mwscr
       name: Morrowind Screenshots
       avatar: store:/avatars/vk-8e97fd4f.jpg
@@ -3137,7 +3137,7 @@ ivan-uralov:
   profiles:
     - service: vk
       id: '16497155'
-      updated: 2026-10-24-10-22-45
+      updated: 2026-10-24-14-16-38
       username: id16497155
       name: Иван Уралов
       avatar: store:/avatars/vk-51775759.jpg
@@ -3373,7 +3373,7 @@ july31:
   profiles:
     - service: vk
       id: '1105909109'
-      updated: 2026-10-24-10-22-43
+      updated: 2026-10-24-14-16-34
       username: july31
       name: Иван Пластинин
       avatar: store:/avatars/vk-799f77a4.jpg
@@ -4176,7 +4176,7 @@ michael-levington:
   profiles:
     - service: vk
       id: '416916067'
-      updated: 2026-10-18-16-29-12
+      updated: 2026-10-24-14-16-40
       username: michael_levington
       name: Майкл Левингтон
       avatar: store:/avatars/vk-77942374.jpg
@@ -5305,7 +5305,7 @@ quantumparabellum:
   profiles:
     - service: vk
       id: '539781913'
-      updated: 2026-10-23-13-06-38
+      updated: 2026-10-24-14-16-37
       username: quantumparabellum
       name: Павел Витер
       avatar: store:/avatars/vk-00a45202.jpg
@@ -5755,7 +5755,7 @@ sergey-b-2:
   profiles:
     - service: vk
       id: '1077446394'
-      updated: 2026-10-23-18-07-02
+      updated: 2026-10-24-14-16-41
       username: id1077446394
       name: Сергей Б
       avatar: store:/avatars/vk-70268334.jpg
@@ -7308,7 +7308,7 @@ vladislav-lomin:
   profiles:
     - service: vk
       id: '504964620'
-      updated: 2026-10-24-10-22-43
+      updated: 2026-10-24-14-16-34
       username: id504964620
       name: Владислав Ломин
       avatar: store:/avatars/vk-1b7571ff.jpg
