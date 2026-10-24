@@ -1585,7 +1585,7 @@ dehero:
     - type: channel
       service: tg
       id: '1264795946'
-      updated: 2026-10-22-22-08-26
+      updated: 2026-10-24-00-18-26
       accessHash: '-5789257269249675714'
       username: mwscr
       name: Morrowind Screenshots
@@ -3137,7 +3137,7 @@ ivan-uralov:
   profiles:
     - service: vk
       id: '16497155'
-      updated: 2026-10-23-21-52-05
+      updated: 2026-10-24-00-18-20
       username: id16497155
       name: Иван Уралов
       avatar: store:/avatars/vk-51775759.jpg
@@ -3373,7 +3373,7 @@ july31:
   profiles:
     - service: vk
       id: '1105909109'
-      updated: 2026-10-23-21-52-02
+      updated: 2026-10-24-00-18-19
       username: july31
       name: Иван Пластинин
       avatar: store:/avatars/vk-799f77a4.jpg
@@ -3425,7 +3425,7 @@ karatedance:
   profiles:
     - service: tg
       id: '1037255094'
-      updated: 2026-10-22-22-08-22
+      updated: 2026-10-24-00-18-20
       accessHash: '-5098047197051495291'
       username: karatedance
       name: танцы карате
@@ -5390,7 +5390,7 @@ reborninblackandgold:
   profiles:
     - service: tg
       id: '181435009'
-      updated: 2026-10-22-22-08-26
+      updated: 2026-10-24-00-18-25
       accessHash: '-4212516645013528698'
       username: reborninblackandgold
       name: Reborn in black & gold
@@ -7635,7 +7635,7 @@ yellow-submarine:
   profiles:
     - service: vk
       id: '21865013'
-      updated: 2026-10-22-22-08-23
+      updated: 2026-10-24-00-18-22
       username: yellowsubm
       name: Yellow Submarine
       avatar: store:/avatars/vk-8254b201.jpg
