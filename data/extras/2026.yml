@@ -327,3 +327,40 @@
       published: 2026-10-20-06-17-26
       updated: 2026-10-24-05-25-32
       followers: 3751
+2026-10-24-1-wall-calendar-for-2027-announcement:
+  title: Wall Calendar for 2027 Announcement
+  titleRu: Анонс настенного календаря на 2027 год
+  description: |-
+    I’m sure they’ll release the calendar soon.
+
+    The Morrowind Screenshots calendar for 2027 is set to go on sale at the end of next week. Stay tuned for updates!
+  descriptionRu: >-
+    Календарь скоро выпустят, это точно!
+
+
+    Старт продаж календаря Morrowind Screenshots на 2027 год запланирован на конец следующей недели. Следите за
+    новостями!
+  placement: Indoors
+  location: Imperial Prison Ship
+  content: store:/news/2026-10-24-1-wall-calendar-for-2027-announcement.png
+  trash: store:/trash/dehero.2026-10-24-08-19-30.1.png
+  type: news
+  aspect: 1/1
+  author: dehero
+  engine: OpenMW
+  mark: B1
+  posts:
+    - type: story
+      service: ig
+      id: De4xCa5F5CO
+      mediaId: '18135651883677424'
+      published: 2026-10-24-18-22-35
+      followers: 3892
+    - service: vk
+      id: 3653
+      published: 2026-10-24-18-22-44
+      followers: 1458
+    - service: tg
+      id: 1357
+      published: 2026-10-24-18-22-49
+      followers: 948
