@@ -138,10 +138,10 @@
     - service: tg
       id: 1042
       published: 2025-11-06-18-17-09
-      updated: 2026-10-17-23-48-59
+      updated: 2026-10-25-00-54-43
       followers: 854
       likes: 66
-      views: 666
+      views: 667
       comments: !c |-
         ixyAkpPLQnmmbgrgAACra2F3YXpha3kyMjOk8J+Ru5PLQnmmCLkhgACqYnVsYXRtZXRhbKhIdXNi
         YW5kcwM=
@@ -267,7 +267,7 @@
     - service: vk
       id: 3509
       published: 2026-08-21-20-12-44
-      updated: 2026-10-17-23-47-56
+      updated: 2026-10-25-00-53-22
       followers: 1445
       likes: 62
       views: 585
@@ -280,8 +280,9 @@
       id: DeBxkSmDJ_P
       mediaId: '18138686047714718'
       published: 2026-10-03-09-48-58
-      updated: 2026-10-17-23-46-54
+      updated: 2026-10-25-00-52-41
       followers: 2909
+      likes: 231
 2019-02-10-molag-mar-canalworks:
   title: Molag Mar, Canalworks
   titleRu: Молаг Мар, Каналы
@@ -337,7 +338,7 @@
     - service: vk
       id: 3527
       published: 2026-08-29-22-55-07
-      updated: 2026-10-17-23-47-40
+      updated: 2026-10-25-00-53-06
       followers: 1442
       likes: 49
       views: 479
@@ -525,7 +526,7 @@
     - service: vk
       id: 3493
       published: 2026-08-15-18-11-46
-      updated: 2026-10-17-23-48-06
+      updated: 2026-10-25-00-53-33
       followers: 1443
       likes: 78
       views: 1273
@@ -826,10 +827,10 @@
     - service: vk
       id: 3484
       published: 2026-08-11-18-43-37
-      updated: 2026-10-17-23-48-13
+      updated: 2026-10-25-00-53-40
       followers: 1438
       likes: 22
-      views: 407
+      views: 409
       reposts: 1
     - service: tg
       id: 1286
@@ -887,8 +888,9 @@
       id: DTyH2LzDy0H
       mediaId: '18051578093693758'
       published: 2026-01-21-18-41-54
-      updated: 2026-10-17-23-47-38
+      updated: 2026-10-25-00-53-32
       followers: 1608
+      likes: 71
       comments: !c CxWAkZPLQnm+VpQNgACpc2hub3p3YXJktUkgY2FuIGhlYXIgdGhpcyBpbWFnZQM=
     - service: vk
       id: 3018
@@ -910,7 +912,7 @@
     - service: tg
       id: 1127
       published: 2026-01-21-18-42-09
-      updated: 2026-10-17-23-47-45
+      updated: 2026-10-25-00-53-25
       followers: 886
       likes: 74
       views: 628
@@ -1076,10 +1078,10 @@
     - service: vk
       id: 3478
       published: 2026-08-08-18-19-44
-      updated: 2026-10-17-23-48-18
+      updated: 2026-10-25-00-53-46
       followers: 1438
       likes: 70
-      views: 759
+      views: 760
       reposts: 3
     - service: tg
       id: 1283
@@ -1200,7 +1202,7 @@
     - service: vk
       id: 3534
       published: 2026-09-03-21-35-25
-      updated: 2026-10-17-23-47-33
+      updated: 2026-10-25-00-52-56
       followers: 1443
       likes: 70
       views: 640
@@ -1412,7 +1414,7 @@
     - service: vk
       id: 3368
       published: 2026-05-17-19-24-06
-      updated: 2026-10-17-23-49-48
+      updated: 2026-10-25-00-55-14
       followers: 1433
       likes: 71
       views: 838
@@ -1664,7 +1666,7 @@
     - service: vk
       id: 3495
       published: 2026-08-16-18-11-51
-      updated: 2026-10-17-23-48-06
+      updated: 2026-10-25-00-53-32
       followers: 1443
       likes: 74
       views: 1327
@@ -1852,8 +1854,9 @@
       id: DVok6CZl7Ra
       mediaId: '17961921570046424'
       published: 2026-03-08-18-46-14
-      updated: 2026-10-17-23-46-58
+      updated: 2026-10-25-00-52-45
       followers: 1612
+      likes: 50
     - service: vk
       id: 3160
       published: 2026-03-08-18-46-21
@@ -2040,8 +2043,9 @@
       id: DVJmuxJgI_T
       mediaId: '18005203880851381'
       published: 2026-02-24-18-05-42
-      updated: 2026-10-17-23-47-09
+      updated: 2026-10-25-00-52-57
       followers: 1607
+      likes: 62
     - service: vk
       id: 3107
       published: 2026-02-24-18-05-50
@@ -2406,8 +2410,9 @@
       id: DVmAB57Fy4Z
       mediaId: '18042578789732744'
       published: 2026-03-07-18-45-30
-      updated: 2026-10-17-23-46-59
+      updated: 2026-10-25-00-52-46
       followers: 1615
+      likes: 109
       comments: !c |-
         ixuAkZPLQnnMnI7BAACtamlyaS1hbGVrc2lpab5JIGNhbiBoZWFyIHRoaXMgaW1hZ2Ug8J+Zj/Cf
         j7sD
@@ -2769,7 +2774,7 @@
     - service: vk
       id: 3360
       published: 2026-05-15-19-47-21
-      updated: 2026-10-17-23-49-52
+      updated: 2026-10-25-00-55-20
       followers: 1433
       likes: 76
       views: 816

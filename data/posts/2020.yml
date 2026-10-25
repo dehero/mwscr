@@ -222,10 +222,10 @@
     - service: tg
       id: 1059
       published: 2025-11-18-18-17-15
-      updated: 2026-10-17-23-48-40
+      updated: 2026-10-25-00-54-24
       followers: 860
       likes: 64
-      views: 748
+      views: 749
 2020-05-16-tel-mora:
   title: Tel Mora
   titleRu: Тель Мора
@@ -306,7 +306,7 @@
     - service: vk
       id: 3520
       published: 2026-08-26-18-47-57
-      updated: 2026-10-17-23-47-45
+      updated: 2026-10-25-00-53-11
       followers: 1443
       likes: 64
       views: 777
@@ -883,10 +883,10 @@
     - service: tg
       id: 1253
       published: 2026-07-01-00-01-38
-      updated: 2026-10-17-23-47-00
+      updated: 2026-10-25-00-52-44
       followers: 916
       likes: 57
-      views: 642
+      views: 649
       comments: !c |-
         ixqAkpPLQnn0QkaigACnYW50aWRvc6zQm9GP0L/QvtGC0LCTy0J583dN8QAApmtldnktY6Twn6aA
         Aw==
@@ -897,7 +897,7 @@
     - service: vk
       id: 3414
       published: 2026-07-01-02-54-02
-      updated: 2026-10-17-23-49-14
+      updated: 2026-10-25-00-54-39
       followers: 1431
       likes: 49
       views: 771
@@ -1015,7 +1015,7 @@
     - service: vk
       id: 3501
       published: 2026-08-17-19-20-07
-      updated: 2026-10-17-23-48-03
+      updated: 2026-10-25-00-53-31
       followers: 1445
       likes: 66
       views: 1416
@@ -1087,10 +1087,10 @@
     - service: vk
       id: 3436
       published: 2026-07-19-18-46-08
-      updated: 2026-10-17-23-48-58
+      updated: 2026-10-25-00-54-24
       followers: 1433
       likes: 80
-      views: 1131
+      views: 1157
       reposts: 6
       comments: !c |-
         Cx+AkZPLQnn5EJeSgACuZ2xlYi16aGVsdHVoaW7ZIy4uLiDQuCDQt9Cy0LXQt9C00Ysg0L3QsNC0
@@ -1308,10 +1308,10 @@
     - service: tg
       id: 1025
       published: 2025-10-23-18-16-14
-      updated: 2026-10-17-23-49-23
+      updated: 2026-10-25-00-55-06
       followers: 841
       likes: 69
-      views: 1527
+      views: 1530
       comments: !c |-
         izKAkpPLQnmhq+ZkgACra2F3YXpha3kyMjOk8J+kqJTLQnmhNRH7gACqYTItZW5rZWxsab9hbm90
         aGVyIGRheSB3aXRob3V0IG11ZGNyYWJzICgok8tCeaFWsx0AAKVhbnNpc6Twn6aAAw==
@@ -2023,8 +2023,9 @@
       id: DVB876HF6y6
       mediaId: '18315898357270230'
       published: 2026-02-21-18-45-49
-      updated: 2026-10-17-23-47-10
+      updated: 2026-10-25-00-53-00
       followers: 1606
+      likes: 53
     - service: vk
       id: 3101
       published: 2026-02-21-18-46-03
@@ -2611,7 +2612,7 @@
     - service: vk
       id: 3453
       published: 2026-07-25-18-46-30
-      updated: 2026-10-17-23-48-45
+      updated: 2026-10-25-00-54-11
       followers: 1433
       likes: 56
       views: 802
