@@ -673,7 +673,7 @@ arya-stark:
   profiles:
     - service: vk
       id: '820702664'
-      updated: 2026-10-25-18-13-37
+      updated: 2026-10-25-21-28-11
       username: id820702664
       name: Арья Старк
       avatar: store:/avatars/vk-689aa89d.jpg
@@ -728,7 +728,7 @@ b-anton14:
   profiles:
     - service: tg
       id: '8256432725'
-      updated: 2026-10-25-18-10-53
+      updated: 2026-10-25-21-28-09
       accessHash: '3668354337295081600'
       username: BAnton14
       name: Soggio Guinta (#3)
@@ -1026,7 +1026,7 @@ brg1092:
   profiles:
     - service: tg
       id: '5867861906'
-      updated: 2026-10-25-18-12-25
+      updated: 2026-10-25-21-28-12
       accessHash: '4411929981434940281'
       username: brg1092
       name: B= {|x|>M}
@@ -1080,7 +1080,7 @@ caius-cosades:
   profiles:
     - service: tg
       id: '6483220506'
-      updated: 2026-10-25-18-12-46
+      updated: 2026-10-25-21-28-13
       accessHash: '-5537197680289822260'
       botChatId: 6483220506
       deleted: true
@@ -2190,7 +2190,7 @@ etherealsanguine:
   profiles:
     - service: tg
       id: '295561920'
-      updated: 2026-10-25-18-12-15
+      updated: 2026-10-25-21-28-13
       accessHash: '3144433518309492302'
       username: etherealsanguine
       name: А҆леѯа́ндръ
@@ -3152,7 +3152,7 @@ ivan-uralov:
   profiles:
     - service: vk
       id: '16497155'
-      updated: 2026-10-25-18-10-56
+      updated: 2026-10-25-21-28-14
       username: id16497155
       name: Иван Уралов
       avatar: store:/avatars/vk-51775759.jpg
@@ -4244,7 +4244,7 @@ miklas:
   profiles:
     - service: vk
       id: '9034950'
-      updated: 2026-10-25-18-13-39
+      updated: 2026-10-25-21-28-18
       username: miklas
       name: Михаил Шеголев
       avatar: store:/avatars/vk-ebae0a4a.jpg
@@ -5269,7 +5269,7 @@ pupochello:
   profiles:
     - service: tg
       id: '345124780'
-      updated: 2026-10-25-18-10-53
+      updated: 2026-10-25-21-28-09
       accessHash: '7383914265245401058'
       username: pupochello
       name: виктор иммануилович член
@@ -5787,7 +5787,7 @@ sergey-b-2:
   profiles:
     - service: vk
       id: '1077446394'
-      updated: 2026-10-25-18-13-18
+      updated: 2026-10-25-21-28-14
       username: id1077446394
       name: Сергей Б
       avatar: store:/avatars/vk-70268334.jpg
@@ -6634,7 +6634,7 @@ thomas-kelly:
   profiles:
     - service: tg
       id: '7398502750'
-      updated: 2026-10-25-18-12-00
+      updated: 2026-10-25-21-28-12
       accessHash: '-6963696148515694677'
       username: COORSLIGHT90
       name: COORSLIGHT
@@ -7667,7 +7667,7 @@ yellow-submarine:
   profiles:
     - service: vk
       id: '21865013'
-      updated: 2026-10-25-18-12-52
+      updated: 2026-10-25-21-28-10
       username: yellowsubm
       name: Yellow Submarine
       avatar: store:/avatars/vk-8254b201.jpg
