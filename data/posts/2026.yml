@@ -30,7 +30,7 @@
     - service: vk
       id: 2987
       published: 2026-01-03-19-20-38
-      updated: 2026-10-18-16-28-20
+      updated: 2026-10-25-18-11-11
       followers: 1558
       likes: 61
       views: 1643
@@ -77,7 +77,7 @@
     - service: vk
       id: 2988
       published: 2026-01-04-19-20-38
-      updated: 2026-10-18-16-28-19
+      updated: 2026-10-25-18-11-09
       followers: 1558
       likes: 28
       views: 604
@@ -125,7 +125,7 @@
     - service: vk
       id: 2992
       published: 2026-01-05-18-21-03
-      updated: 2026-10-18-16-28-17
+      updated: 2026-10-25-18-11-08
       followers: 1559
       likes: 80
       views: 1660
@@ -167,7 +167,7 @@
     - service: vk
       id: 2995
       published: 2026-01-06-18-47-08
-      updated: 2026-10-18-16-28-15
+      updated: 2026-10-25-18-11-06
       followers: 1561
       likes: 71
       views: 2669
@@ -207,7 +207,7 @@
     - service: vk
       id: 2996
       published: 2026-01-07-18-17-54
-      updated: 2026-10-18-16-28-14
+      updated: 2026-10-25-18-11-04
       followers: 1561
       likes: 108
       views: 2234
@@ -245,7 +245,7 @@
     - service: vk
       id: 2997
       published: 2026-01-08-18-57-23
-      updated: 2026-10-18-16-28-13
+      updated: 2026-10-25-18-11-04
       followers: 1562
       likes: 64
       views: 888
@@ -296,7 +296,7 @@
     - service: vk
       id: 3006
       published: 2026-01-10-18-59-53
-      updated: 2026-10-18-16-28-11
+      updated: 2026-10-25-18-11-01
       followers: 1564
       likes: 60
       views: 1219
@@ -861,3 +861,4 @@
 2026-10-22-1-grazing-guar: 2017-08-10-grazing-guar
 2026-10-23-1-seyda-neen: 2016-11-20-2-seyda-neen
 2026-10-24-1-endless-dream: 2018-01-18-endless-dream
+2026-10-25-1-evening-on-azuras-coast: 2017-05-18-evening-on-azuras-coast

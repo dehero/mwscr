@@ -107,10 +107,10 @@
     - service: tg
       id: 821
       published: 2025-04-28-18-25-09
-      updated: 2026-10-18-16-29-25
+      updated: 2026-10-25-18-12-19
       followers: 726
       likes: 82
-      views: 691
+      views: 692
       comments: !c |-
         GxMBACwObCc0ME0obunnUpGyRqh0/iFvIxzIxpZJgXVRpMn7ZOncSio6R7IykMnOuKGqcyNnUyO1
         /wTcYKNaiqk79WQxvcaPaMxGrlIzky4gCzo5cGkHuVDh53ksgQSecVgSiAY7YGdyaTh2zutbLX8X
@@ -340,7 +340,7 @@
     - service: vk
       id: 3192
       published: 2026-03-19-19-15-16
-      updated: 2026-10-18-16-28-08
+      updated: 2026-10-25-18-10-59
       followers: 1621
       likes: 84
       views: 1027
@@ -549,7 +549,7 @@
     - service: vk
       id: 2904
       published: 2025-11-30-18-25-05
-      updated: 2026-10-18-16-29-00
+      updated: 2026-10-25-18-11-49
       followers: 1532
       likes: 75
       views: 605
@@ -875,10 +875,10 @@
     - service: tg
       id: 797
       published: 2025-04-16-18-22-22
-      updated: 2026-10-18-16-29-36
+      updated: 2026-10-25-18-12-30
       followers: 720
       likes: 61
-      views: 622
+      views: 623
 2016-12-02-molag-mar:
   title: Molag Mar
   titleRu: Молаг Мар
@@ -1489,7 +1489,7 @@
     - service: vk
       id: 2749
       published: 2025-10-19-18-26-11
-      updated: 2026-10-18-16-30-22
+      updated: 2026-10-25-18-13-01
       followers: 1471
       likes: 97
       views: 2118
@@ -1603,8 +1603,9 @@
       id: DNgZyYxAhGO
       mediaId: '18033314927487358'
       published: 2025-08-18-18-23-56
-      updated: 2026-10-18-16-28-09
+      updated: 2026-10-25-18-11-08
       followers: 1579
+      likes: 64
     - service: vk
       id: 2589
       published: 2025-08-18-18-24-02
@@ -1682,8 +1683,9 @@
       id: DLAxCKwMros
       mediaId: '17862711228356418'
       published: 2025-06-17-18-28-37
-      updated: 2026-10-18-16-29-00
+      updated: 2026-10-25-18-12-06
       followers: 1553
+      likes: 75
     - service: vk
       id: 2470
       published: 2025-06-17-18-28-43
@@ -1701,10 +1703,10 @@
     - service: tg
       id: 888
       published: 2025-06-17-18-28-46
-      updated: 2026-10-18-16-28-22
+      updated: 2026-10-25-18-11-14
       followers: 749
       likes: 66
-      views: 617
+      views: 618
 2016-12-19-hla-oad:
   title: Hla Oad
   titleRu: Хла Оуд
@@ -1842,7 +1844,7 @@
     - service: vk
       id: 2887
       published: 2025-11-26-18-22-50
-      updated: 2026-10-18-16-29-11
+      updated: 2026-10-25-18-11-58
       followers: 1527
       likes: 86
       views: 1618
@@ -1958,8 +1960,9 @@
       id: DMOURmMsu3l
       mediaId: '17895250938255296'
       published: 2025-07-17-21-18-02
-      updated: 2026-10-18-16-28-40
+      updated: 2026-10-25-18-11-41
       followers: 1567
+      likes: 102
 2016-12-23-stillness-of-vivec:
   title: Stillness of Vivec
   titleRu: Спокойствие Вивека

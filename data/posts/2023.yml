@@ -69,10 +69,10 @@
     - service: tg
       id: 905
       published: 2025-07-02-18-24-07
-      updated: 2026-10-18-16-28-03
+      updated: 2026-10-25-18-10-58
       followers: 760
       likes: 72
-      views: 652
+      views: 653
       comments: !c |-
         GzwBICyOx+2nFLWNo94R//xzsuFsoF93zs5Ug0TCuASCMLGS+zBtWyUVwVC9eYOhvxnrQ7aNb/1L
         MqfbBF8QXKZoKOjmYteYFgRFRLCI8rf+mO8GRxoQh+s2TzLrGODAGy4yuMkKG2SzJu63x/O35r7d
@@ -82,8 +82,9 @@
       id: DLodyriseno
       mediaId: '18041435729646241'
       published: 2025-07-03-04-30-02
-      updated: 2026-10-18-16-28-48
+      updated: 2026-10-25-18-11-49
       followers: 1558
+      likes: 88
 2023-07-29-evening-at-the-suran-street-by-darkness-rifho:
   title: Evening at the Suran Street
   titleRu: Вечер на улице Сурана
@@ -186,10 +187,10 @@
     - service: tg
       id: 857
       published: 2025-05-24-18-19-06
-      updated: 2026-10-18-16-28-53
+      updated: 2026-10-25-18-11-41
       followers: 739
       likes: 65
-      views: 588
+      views: 589
 2023-07-31-overhanging-rock-by-darkness-rifho:
   title: Overhanging Rock
   titleRu: Нависающая скала
@@ -357,7 +358,7 @@
     - service: tg
       id: 832
       published: 2025-05-06-18-24-51
-      updated: 2026-10-18-16-29-14
+      updated: 2026-10-25-18-11-59
       followers: 738
       likes: 69
       views: 730
@@ -547,8 +548,9 @@
       id: DN1BJeR4l2n
       mediaId: '17947144779001734'
       published: 2025-08-26-18-32-48
-      updated: 2026-10-18-16-28-03
+      updated: 2026-10-25-18-11-03
       followers: 1583
+      likes: 54
     - service: vk
       id: 2605
       published: 2025-08-26-18-32-53
@@ -652,8 +654,9 @@
       id: DN_Srr3ETir
       mediaId: '17858214702482296'
       published: 2025-08-30-18-18-21
-      updated: 2026-10-18-16-28-00
+      updated: 2026-10-25-18-10-59
       followers: 1582
+      likes: 78
     - service: tg
       id: 967
       published: 2025-08-30-18-18-37
@@ -779,10 +782,10 @@
     - service: tg
       id: 773
       published: 2025-04-01-18-21-57
-      updated: 2026-10-18-16-29-50
+      updated: 2026-10-25-18-12-44
       followers: 712
       likes: 68
-      views: 687
+      views: 688
 2023-08-10-behind-a-barrel:
   title: Behind a Barrel
   titleRu: За бочкой
@@ -1023,7 +1026,7 @@
     - service: vk
       id: 2732
       published: 2025-10-12-18-24-25
-      updated: 2026-10-18-16-30-32
+      updated: 2026-10-25-18-13-10
       followers: 1466
       likes: 56
       views: 1102
