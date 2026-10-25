@@ -52,7 +52,7 @@
     - service: vk
       id: 2514
       published: 2025-07-12-18-22-27
-      updated: 2026-10-18-22-17-02
+      updated: 2026-10-25-23-53-07
       followers: 1338
       likes: 43
       views: 539
@@ -604,7 +604,7 @@
     - service: vk
       id: 2540
       published: 2025-07-28-18-40-11
-      updated: 2026-10-18-22-16-46
+      updated: 2026-10-25-23-52-50
       followers: 1356
       likes: 77
       views: 1713
@@ -969,7 +969,7 @@
     - service: vk
       id: 2489
       published: 2025-06-28-18-25-41
-      updated: 2026-10-18-22-17-16
+      updated: 2026-10-25-23-53-21
       followers: 1332
       likes: 65
       views: 526
@@ -1077,10 +1077,10 @@
     - service: tg
       id: 701
       published: 2025-02-08-18-09-32
-      updated: 2026-10-18-22-15-48
+      updated: 2026-10-25-23-51-50
       followers: 672
       likes: 54
-      views: 557
+      views: 558
     - service: vk
       id: 3478
       published: 2026-08-08-18-19-44
@@ -1351,10 +1351,10 @@
     - service: tg
       id: 702
       published: 2025-02-09-18-09-27
-      updated: 2026-10-18-22-15-46
+      updated: 2026-10-25-23-51-50
       followers: 673
       likes: 61
-      views: 538
+      views: 539
 2019-03-04-evening-road:
   title: Evening Road
   titleRu: Вечерняя дорога
@@ -2249,7 +2249,7 @@
     - service: vk
       id: 2485
       published: 2025-06-25-18-30-45
-      updated: 2026-10-18-22-17-19
+      updated: 2026-10-25-23-53-24
       followers: 1328
       likes: 80
       views: 1255
@@ -2353,7 +2353,7 @@
     - service: vk
       id: 2510
       published: 2025-07-09-18-24-37
-      updated: 2026-10-18-22-17-05
+      updated: 2026-10-25-23-53-10
       followers: 1335
       likes: 35
       views: 624
@@ -2860,10 +2860,10 @@
     - service: tg
       id: 689
       published: 2025-01-30-18-10-59
-      updated: 2026-10-18-22-16-00
+      updated: 2026-10-25-23-51-58
       followers: 661
       likes: 75
-      views: 721
+      views: 722
 2019-10-12-imperial-candelabrum:
   title: Imperial Candelabrum
   titleRu: Имперский канделябр
@@ -3002,7 +3002,7 @@
     - service: vk
       id: 2531
       published: 2025-07-25-00-59-21
-      updated: 2026-10-18-22-16-49
+      updated: 2026-10-25-23-52-54
       followers: 1350
       likes: 43
       views: 681
@@ -3148,7 +3148,7 @@
     - service: tg
       id: 681
       published: 2025-01-25-18-09-38
-      updated: 2026-10-18-22-16-03
+      updated: 2026-10-25-23-52-01
       followers: 658
       likes: 65
       views: 586
@@ -3199,8 +3199,9 @@
       id: DJw73hzz0MB
       mediaId: '18133230601416067'
       published: 2025-05-17-18-24-00
-      updated: 2026-10-18-22-14-58
+      updated: 2026-10-25-23-51-00
       followers: 1536
+      likes: 75
     - service: vk
       id: 2362
       published: 2025-05-17-18-24-00
@@ -3272,7 +3273,7 @@
     - service: tg
       id: 671
       published: 2025-01-18-18-09-39
-      updated: 2026-10-18-22-16-08
+      updated: 2026-10-25-23-52-07
       followers: 655
       likes: 65
       views: 676
