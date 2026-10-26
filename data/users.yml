@@ -673,7 +673,7 @@ arya-stark:
   profiles:
     - service: vk
       id: '820702664'
-      updated: 2026-10-26-09-49-27
+      updated: 2026-10-26-16-32-26
       username: id820702664
       name: Арья Старк
       avatar: store:/avatars/vk-689aa89d.jpg
@@ -728,7 +728,7 @@ b-anton14:
   profiles:
     - service: tg
       id: '8256432725'
-      updated: 2026-10-26-09-46-30
+      updated: 2026-10-26-16-32-20
       accessHash: '3668354337295081600'
       username: BAnton14
       name: Soggio Guinta (#3)
@@ -1577,7 +1577,7 @@ dehero:
     - type: channel
       service: vk
       id: '138249959'
-      updated: 2026-10-26-09-49-55
+      updated: 2026-10-26-16-32-27
       username: mwscr
       name: Morrowind Screenshots
       avatar: store:/avatars/vk-8e97fd4f.jpg
@@ -1834,7 +1834,7 @@ dr4ug:
   profiles:
     - service: tg
       id: '1881171974'
-      updated: 2026-09-28-13-52-14
+      updated: 2026-10-26-16-32-29
       accessHash: '197104942953691377'
       username: dr4ug
       botChatId: 1881171974
@@ -3152,7 +3152,7 @@ ivan-uralov:
   profiles:
     - service: vk
       id: '16497155'
-      updated: 2026-10-26-09-46-35
+      updated: 2026-10-26-16-32-27
       username: id16497155
       name: Иван Уралов
       avatar: store:/avatars/vk-51775759.jpg
@@ -3388,7 +3388,7 @@ july31:
   profiles:
     - service: vk
       id: '1105909109'
-      updated: 2026-10-25-14-51-15
+      updated: 2026-10-26-16-32-25
       username: july31
       name: Иван Пластинин
       avatar: store:/avatars/vk-799f77a4.jpg
@@ -4244,7 +4244,7 @@ miklas:
   profiles:
     - service: vk
       id: '9034950'
-      updated: 2026-10-26-09-50-02
+      updated: 2026-10-26-16-32-28
       username: miklas
       name: Михаил Шеголев
       avatar: store:/avatars/vk-ebae0a4a.jpg
@@ -5269,7 +5269,7 @@ pupochello:
   profiles:
     - service: tg
       id: '345124780'
-      updated: 2026-10-26-09-46-31
+      updated: 2026-10-26-16-32-20
       accessHash: '7383914265245401058'
       username: pupochello
       name: виктор иммануилович член
@@ -5337,7 +5337,7 @@ quantumparabellum:
   profiles:
     - service: vk
       id: '539781913'
-      updated: 2026-10-25-14-51-16
+      updated: 2026-10-26-16-32-27
       username: quantumparabellum
       name: Павел Витер
       avatar: store:/avatars/vk-00a45202.jpg
@@ -5787,7 +5787,7 @@ sergey-b-2:
   profiles:
     - service: vk
       id: '1077446394'
-      updated: 2026-10-26-09-46-35
+      updated: 2026-10-26-16-32-24
       username: id1077446394
       name: Сергей Б
       avatar: store:/avatars/vk-70268334.jpg
@@ -5809,7 +5809,7 @@ sergey-venkov:
   profiles:
     - service: vk
       id: '217443112'
-      updated: 2026-10-25-18-11-18
+      updated: 2026-10-26-16-32-19
       username: id217443112
       name: Сергей Венков
       avatar: store:/avatars/vk-a77d1a73.jpg
@@ -7345,7 +7345,7 @@ vladislav-lomin:
   profiles:
     - service: vk
       id: '504964620'
-      updated: 2026-10-26-03-29-14
+      updated: 2026-10-26-16-32-26
       username: id504964620
       name: Владислав Ломин
       avatar: store:/avatars/vk-1b7571ff.jpg
@@ -7672,7 +7672,7 @@ yellow-submarine:
   profiles:
     - service: vk
       id: '21865013'
-      updated: 2026-10-26-09-46-34
+      updated: 2026-10-26-16-32-22
       username: yellowsubm
       name: Yellow Submarine
       avatar: store:/avatars/vk-8254b201.jpg
