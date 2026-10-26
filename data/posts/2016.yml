@@ -47,10 +47,10 @@
     - service: tg
       id: 382
       published: 2024-04-18-18-18-06
-      updated: 2026-10-19-18-49-06
+      updated: 2026-10-26-21-25-08
       followers: 354
       likes: 67
-      views: 462
+      views: 463
       comments: !c |-
         G2gBAORyuhqD5hVj+aVwNTLpfEZylw/LVRjGkmM7qlEVBqGKbM8XheUuwQPj+16eWp4lVFurjCJJ
         WhR4us3nUnMljEUREd222093mlWjXGCENpKhcRUTTmyawqZrgHpEZcbKRxpMXcGjEXjjGGf7PCiq
@@ -246,7 +246,7 @@
     - service: vk
       id: 1750
       published: 2024-09-11-18-36-08
-      updated: 2026-10-19-18-50-27
+      updated: 2026-10-26-21-26-32
       followers: 945
       likes: 51
       views: 429
@@ -327,10 +327,10 @@
     - service: tg
       id: 371
       published: 2024-04-07-18-16-13
-      updated: 2026-10-19-18-49-23
+      updated: 2026-10-26-21-25-23
       followers: 353
       likes: 74
-      views: 499
+      views: 500
     - service: vk
       id: 1485
       published: 2024-04-07-19-10-42
@@ -420,10 +420,10 @@
     - service: tg
       id: 423
       published: 2024-05-29-18-19-00
-      updated: 2026-10-19-18-47-47
+      updated: 2026-10-26-21-23-54
       followers: 378
       likes: 62
-      views: 483
+      views: 484
 2016-11-23-lanterns-of-tel-branora:
   title: Lanterns of Tel Branora
   titleRu: Фонари Тель Браноры
@@ -609,8 +609,9 @@
       id: C-ihqretmf0
       mediaId: '18026414039205308'
       published: 2024-08-11-18-20-19
-      updated: 2026-10-19-18-47-53
+      updated: 2026-10-26-21-24-33
       followers: 1437
+      likes: 107
       views: 620
     - service: vk
       id: 1687
@@ -728,8 +729,9 @@
       id: C9nTZbKNLvv
       mediaId: '18057727063715097'
       published: 2024-07-19-18-20-26
-      updated: 2026-10-19-18-48-30
+      updated: 2026-10-26-21-25-07
       followers: 1427
+      likes: 96
       views: 549
     - service: vk
       id: 1644
@@ -816,7 +818,7 @@
     - service: vk
       id: 1896
       published: 2024-11-16-18-09-40
-      updated: 2026-10-19-18-48-13
+      updated: 2026-10-26-21-24-17
       followers: 1007
       likes: 56
       views: 437
@@ -1044,10 +1046,10 @@
     - service: tg
       id: 427
       published: 2024-06-02-18-19-30
-      updated: 2026-10-19-18-47-40
+      updated: 2026-10-26-21-23-50
       followers: 380
       likes: 65
-      views: 510
+      views: 511
       comments: !c ixeAkZPLQnj9qMKhAACoYmxhZ29jYmS70JrRgNCw0YHQuNCy0L7QtSDQvNC10YHRgtC+Aw==
     - service: ig
       id: DVRbO4VGuhu
@@ -1349,10 +1351,10 @@
     - service: tg
       id: 428
       published: 2024-06-03-18-20-51
-      updated: 2026-10-19-18-47-37
+      updated: 2026-10-26-21-23-49
       followers: 383
       likes: 59
-      views: 506
+      views: 507
 2016-12-11-khajiit-gives-away:
   title: Khajiit Gives Away
   titleRu: Каджит себя выдал
@@ -1414,8 +1416,9 @@
       id: C9xmndhv1oc
       mediaId: '17926779506919376'
       published: 2024-07-23-18-20-47
-      updated: 2026-10-19-18-48-24
+      updated: 2026-10-26-21-25-02
       followers: 1426
+      likes: 88
       views: 283
     - service: vk
       id: 1653
@@ -1777,10 +1780,10 @@
     - service: tg
       id: 429
       published: 2024-06-04-18-19-52
-      updated: 2026-10-19-18-47-37
+      updated: 2026-10-26-21-23-48
       followers: 383
       likes: 64
-      views: 490
+      views: 491
       comments: !c |-
         G5YAQByH6cZZNrQ/0iVB/3qW8HHTfoFa1dpUloyWSUEGg4EMdHIfJ1Y3XUnRUFFl/mM/nUaH588D
         buLMSLFGxJg0DzyGze/Wrzzu4/xK1zhDuD8bPOPfVlzvQF55UN4RZH1PSfQeMQRCG2S8vCJ9eOMI
@@ -1836,10 +1839,10 @@
     - service: tg
       id: 362
       published: 2024-03-30-18-11-58
-      updated: 2026-10-19-18-49-34
+      updated: 2026-10-26-21-25-36
       followers: 354
       likes: 70
-      views: 495
+      views: 496
       comments: !c |-
         CyiAkZPLQnjpMXEBAACuZmlsaXBwb3YtaXVyaWnZNdCc0L7QttC90L4g0L7RgNC40LPQuNC90LDQ
         uyDQsiDQutC+0LzQvNC10L3RgtGLPyDwn6SyAw==
@@ -1935,10 +1938,10 @@
     - service: tg
       id: 392
       published: 2024-04-28-18-17-01
-      updated: 2026-10-19-18-48-44
+      updated: 2026-10-26-21-24-51
       followers: 354
       likes: 71
-      views: 562
+      views: 563
     - service: ig
       id: C6YMB6DxXL3
       mediaId: '18251438425218335'
@@ -2140,14 +2143,15 @@
       id: C_OTj8gJOd2
       mediaId: '17951710724718116'
       published: 2024-08-28-18-23-41
-      updated: 2026-10-19-18-47-25
+      updated: 2026-10-26-21-24-11
       followers: 1458
+      likes: 110
       views: 424
       comments: !c iw+AkZPLQnkZpKP/gACsZWFzdGNvYXN0LWxnp05ldyBmYXYD
     - service: vk
       id: 1713
       published: 2024-08-28-18-23-48
-      updated: 2026-10-19-18-50-54
+      updated: 2026-10-26-21-26-52
       followers: 940
       likes: 49
       views: 375
@@ -2222,8 +2226,9 @@
       id: C8fNH04tqd6
       mediaId: '17956632458789842'
       published: 2024-06-21-18-20-17
-      updated: 2026-10-19-18-49-13
+      updated: 2026-10-26-21-25-51
       followers: 1419
+      likes: 85
       views: 11
     - service: vk
       id: 1593
@@ -2298,7 +2303,7 @@
     - service: vk
       id: 1812
       published: 2024-10-06-19-01-29
-      updated: 2026-10-19-18-49-49
+      updated: 2026-10-26-21-25-54
       followers: 958
       likes: 53
       views: 391
