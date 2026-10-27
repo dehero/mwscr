@@ -31,7 +31,7 @@
     - service: vk
       id: 1387
       published: 2023-07-28
-      updated: 2026-10-20-14-43-14
+      updated: 2026-10-27-19-50-11
       followers: 891
       likes: 49
       views: 564
@@ -116,7 +116,7 @@
     - service: vk
       id: 1391
       published: 2023-07-29
-      updated: 2026-10-20-14-43-13
+      updated: 2026-10-27-19-50-09
       followers: 891
       likes: 43
       views: 425
@@ -127,10 +127,10 @@
     - service: tg
       id: 309
       published: 2023-07-29
-      updated: 2026-10-20-14-43-06
+      updated: 2026-10-27-19-49-57
       followers: 319
       likes: 70
-      views: 720
+      views: 721
       comments: !c |-
         G+AAAB0HuZnlgsc6ik5M8Hyt7VJj81mFTGoinhayaRefTuj6fkQSoYC1cxlG1w/S62HYrrz6SDpt
         rom5Tm6ehAfkAANLy+6aBvbcxlyO49WoUStlMr7462p78oZxiDiUAsFIOb7694V2YeY99tlEPJF2
@@ -163,7 +163,7 @@
     - service: vk
       id: 1393
       published: 2023-07-30
-      updated: 2026-10-20-14-43-12
+      updated: 2026-10-27-19-50-08
       followers: 891
       likes: 36
       views: 401
@@ -222,7 +222,7 @@
     - service: vk
       id: 1394
       published: 2023-07-31
-      updated: 2026-10-20-14-43-11
+      updated: 2026-10-27-19-50-07
       followers: 891
       likes: 44
       views: 390
@@ -292,7 +292,7 @@
     - service: vk
       id: 1396
       published: 2023-08-01
-      updated: 2026-10-20-14-43-10
+      updated: 2026-10-27-19-50-06
       followers: 893
       likes: 41
       views: 436
@@ -332,7 +332,7 @@
     - service: vk
       id: 1398
       published: 2023-08-02
-      updated: 2026-10-20-14-43-09
+      updated: 2026-10-27-19-50-05
       followers: 893
       likes: 30
       views: 402
@@ -431,7 +431,7 @@
     - service: vk
       id: 1399
       published: 2023-08-03
-      updated: 2026-10-20-14-43-08
+      updated: 2026-10-27-19-50-04
       followers: 893
       likes: 34
       views: 460
@@ -502,7 +502,7 @@
     - service: vk
       id: 1400
       published: 2023-08-04
-      updated: 2026-10-20-14-43-07
+      updated: 2026-10-27-19-50-03
       followers: 893
       likes: 37
       views: 443

@@ -3400,6 +3400,23 @@
       comments: !c |-
         CyOAkpPLQnWqLwlEAACwZGFyeW5hLWRteXRyZW5rb6bQktCw0YOTy0J1qjNgGwAAp3VzZXItMzax
         0J3QtdGC0YfQuNC60LheX14D
+    - service: ig
+      id: DfApq00F1jZ
+      mediaId: '18088505162686712'
+      published: 2026-10-27-19-52-08
+      followers: 3960
+    - service: vk
+      id: 3675
+      published: 2026-10-27-19-52-17
+      followers: 1459
+    - service: tg
+      id: 1360
+      published: 2026-10-27-19-52-23
+      followers: 949
+    - service: mx
+      id: '1793130752327'
+      published: 2026-10-27-19-52-32
+      followers: 41
 2017-03-07-the-road-through-lava:
   title: The Road Through Lava
   titleRu: Дорога сквозь лаву
@@ -7305,9 +7322,9 @@
       id: DeIvftgFxS2
       mediaId: '18117869455779232'
       published: 2026-10-06-02-45-33
-      updated: 2026-10-20-14-42-59
+      updated: 2026-10-27-19-49-52
       followers: 3119
-      likes: 186
+      likes: 191
 2017-05-11-inside-of-llethri-manor:
   title: Inside of Llethri Manor
   titleRu: В поместье Ллетри
@@ -9526,7 +9543,7 @@
     - service: vk
       id: 1445
       published: 2024-03-13-18-17-34
-      updated: 2026-10-20-14-43-06
+      updated: 2026-10-27-19-50-02
       followers: 897
       likes: 33
       views: 294
@@ -9758,18 +9775,18 @@
     - service: vk
       id: 3589
       published: 2026-10-05-22-24-49
-      updated: 2026-10-20-14-43-03
+      updated: 2026-10-27-19-49-59
       followers: 1447
       likes: 51
-      views: 637
+      views: 651
       reposts: 2
     - service: tg
       id: 1332
       published: 2026-10-05-22-24-53
-      updated: 2026-10-20-14-42-58
+      updated: 2026-10-27-19-49-49
       followers: 947
-      likes: 54
-      views: 401
+      likes: 56
+      views: 420
       comments: !c CxGAkZPLQnoQ94QnAACnbWJkdHNtb69UcmFpdG9yZXNzIPCfmKAD
     - service: mx
       id: '1791239097161'
@@ -11239,16 +11256,16 @@
       id: De-PvYEFyBp
       mediaId: '18116940104021755'
       published: 2026-10-26-21-27-07
-      updated: 2026-10-27-14-01-24
+      updated: 2026-10-27-19-49-42
       followers: 3948
-      likes: 196
+      likes: 218
     - service: vk
       id: 3669
       published: 2026-10-26-21-27-23
-      updated: 2026-10-27-14-01-26
+      updated: 2026-10-27-19-49-46
       followers: 1461
-      likes: 31
-      views: 233
+      likes: 39
+      views: 285
       reposts: 1
       comments: !c |-
         iyiAkZPLQnoX1nCTgACqc2VyZ2V5LWItMtk60JrQsNGA0YLQvtGI0LrQsCDQv9GA0L7RgNCw0YHR
@@ -11256,10 +11273,10 @@
     - service: tg
       id: 1359
       published: 2026-10-26-21-27-27
-      updated: 2026-10-27-14-01-23
+      updated: 2026-10-27-19-49-43
       followers: 949
-      likes: 35
-      views: 148
+      likes: 37
+      views: 155
     - service: mx
       id: '1793050051369'
       published: 2026-10-26-21-27-31
@@ -13599,9 +13616,9 @@
       id: Dd2hEp8GDzr
       mediaId: '18016465373951396'
       published: 2026-09-29-00-53-15
-      updated: 2026-10-20-14-43-03
+      updated: 2026-10-27-19-49-58
       followers: 2668
-      likes: 523
+      likes: 522
 2017-09-07-wise-womans-table:
   title: Wise Woman's Table
   titleRu: Столик шаманки
@@ -15755,13 +15772,14 @@
       id: DeIRodMFmnB
       mediaId: '18103744529369190'
       published: 2026-10-05-22-24-38
-      updated: 2026-10-20-14-43-01
+      updated: 2026-10-27-19-49-55
       followers: 3107
-      likes: 624
+      likes: 633
       comments: !c |-
-        G7gAACwO7Ab3G6RNN/cFJainF2uZxYEEErSCLA400MsFrs+L3v9qonp6oAcMpMBP2FpbbdW3ILjq
-        jZ5lLvDwPzvRwPj9KNGstuZRzoenN3yuQcvjkSkvz0N3PSmMcHr/zn1oRkEN3ONDd1nY2r/H5k9M
-        GKYbi1RzRPvznGM53UdRPizVP8FVJ4n73wgDHKXz2qYCvmsMVznwAg==
+        G+4AAJwF5RYfg+02QZRepKFrPuHhV/gvyD4iaSAdPErbAFvn02qAi95/SdW03xAVaGnMdqID4/9N
+        dpMBz+qu85I01TQL4mb9vRGuPfZZqL16/Uu9dAkPsTVcD+Mau0IhcOyZ52RdDw6wNWGACpIceF54
+        WwPaRIIT8zctj7UiSUCxiVp6Sv7Xk2bfVj7P/ZR1EY5CBO8h4SrSGRiSEr6M15EtLwy9OfTBhrcu
+        EOIi4/rb9LbRKCHswQL9TLFTwXUNQAM=
 2017-10-15-mysterious-island:
   title: Mysterious Island
   titleRu: Таинственный остров
@@ -16728,9 +16746,9 @@
       id: DeaySf1DVWg
       mediaId: '18156782035509014'
       published: 2026-10-13-02-56-18
-      updated: 2026-10-20-14-42-58
+      updated: 2026-10-27-19-49-51
       followers: 3530
-      likes: 184
+      likes: 212
 2017-11-02-trebonius-artorius:
   title: Trebonius Artorius
   titleRu: Требониус Арториус
@@ -19543,16 +19561,16 @@
       id: DebkGaJF6ih
       mediaId: '17908207665563090'
       published: 2026-10-13-10-11-33
-      updated: 2026-10-20-18-57-32
+      updated: 2026-10-27-19-49-50
       followers: 3539
-      likes: 609
+      likes: 707
       comments: !c |-
-        G9MBwIxUNX/7v6anZFEC6g4UAOX1p+XkgNW9ySlgxWQsgp1QtYOeoKgI4+ftSxWJVYz3hk08TdZt
-        N7pUpU7Br+HrNp+vy2IM0zGkbsuLN01uE58/knRRIiZwpRM4kEp+OR2OTfJLBV13fPWNOc/Xos+Q
-        w8diqeYrka+DDZWKXBWCJ7aoVE+7HDRXBdLUJPIF+olw4gy8YvixdNPkev3/50mXVbbg9lqRVdQu
-        RnQYfNRzdjFQvfbGdvsCi6jyV5j4G69w9b0XKEGICFN0l2Z7+/F8VsNqlS0VcjlmOm7x0URQEKBm
-        CiPpHGvYQ0UT1BLhSbOhoy9hCajBmIUJIlbkn7WG6au1RfeV0AxrDX0acON8Bkoc58VzzdH7Q38q
-        9Y21bST2WiZeF3MhmL699TX7Sjo=
+        G+cBwORqLiP8t/6EKbBEBUA7f5fwboBVprIKWDEZi2Ar1NuCtc1SPxqzMf6hwoPlbWa78FgFW7X0
+        rbj1tTzd5tnxdYnYELUh+rS8eNOUFk98/kjShYYE4JWPkEBV5VfSkdAkv1zw/YQVNuYy1lKfwYeP
+        qmYxDVkHBS6qZPKCR1qq1Ai7HQzB5QK7JuEvqJ/YTujAFMOvSzdNadH1/18mXXvggkc+WOT589/z
+        RZOOAgNf6xdF6bW37H6fC1W49FXXYFL0yNlTyRUeQ1rtlcJB5ActcF5CWKrH5ba3H89nljBNilzI
+        54nwuIVBx+ZBgGaUkXIu4tqLK0JwNRQnzYEvmBPL0qFgFrZLKIlKdq8NhF+tLT7XhATZLcE8wCtw
+        D+xMgZ9XK/kDLDmrFTbWti3xWzVyHeANJ/zO1u/KNB8=
 2017-12-25-corridors-of-tribunal:
   title: Corridors of Tribunal
   titleRu: Коридоры Трибунала
