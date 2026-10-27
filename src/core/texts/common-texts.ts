@@ -15,6 +15,7 @@ export const commonTexts = {
   removed: ['Removed', 'Удалено'],
   ok: ['OK', 'OK'],
   cancel: ['Cancel', 'Отмена'],
+  close: ['Close', 'Закрыть'],
   copy: ['Copy', 'Копировать'],
   and: ['and', 'и'],
   language: ['EN', 'RU'],

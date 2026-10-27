@@ -1,6 +1,7 @@
 import type { IntlText } from '../entities/intl.ts';
 
 export const locationTexts = {
+  title: ['Name', 'Название'],
   locations: ['Locations', 'Локации'],
   usage: ['Usage', 'Посещения'],
   interior: ['Interior', 'Интерьер'],
