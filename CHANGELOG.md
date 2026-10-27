@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file.
 
+## [4.8.0](https://github.com/dehero/mwscr/compare/v4.7.0...v4.8.0) (2026-10-27)
+
+### Features
+
+- add Ozon merch ordering service with supported countries
+  ([4d35275](https://github.com/dehero/mwscr/commit/4d352759b32536844c2cb61d0098c03a26a20493))
+
 ## [4.7.0](https://github.com/dehero/mwscr/compare/v4.6.1...v4.7.0) (2026-10-23)
 
 ### Features
