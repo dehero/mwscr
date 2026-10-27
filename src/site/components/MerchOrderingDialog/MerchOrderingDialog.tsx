@@ -1,4 +1,4 @@
-import { createMemo, createResource, createSignal, Show } from 'solid-js';
+import { createMemo, createResource, createSignal, For, Show } from 'solid-js';
 import { parsePostPath } from '../../../core/entities/posts-manager.ts';
 import { orderingScenarios } from '../../../core/scenarios/ordering.ts';
 import { email } from '../../../core/services/email.ts';
@@ -35,46 +35,48 @@ const MerchOrderingDialog: DetachedDialog = (props) => {
 
   const post = () => postEntry()?.[1];
 
-  const service = createMemo(() => {
+  const availableServices = createMemo(() => {
     const scenario = orderingScenarios.find((scenario) => scenario.country === country());
 
-    return postingServices.find(
+    return postingServices.filter(
       (service) =>
         scenario?.services.includes(service.id) &&
         post()?.posts?.some((publication) => publication.service === service.id),
     );
   });
 
-  const publication = createMemo(() => post()?.posts?.find((publication) => publication.service === service()?.id));
-
   const orderButtonProps = createMemo(() => {
     if (!country()) {
-      return {
-        href: email.getUserMessagingUrl('mwscr@dehero.site', {
-          subject: post()?.title,
-          body: localize(texts.support.merchShippingRequest, {
-            country: otherCountry(),
-            title: post()?.title,
+      return [
+        {
+          href: email.getUserMessagingUrl('mwscr@dehero.site', {
+            subject: post()?.title,
+            body: localize(texts.support.merchShippingRequest, {
+              country: otherCountry(),
+              title: post()?.title,
+            }),
           }),
-        }),
-        target: '_blank',
-        children: localize(texts.support.sendEmail),
-      };
+          target: '_blank',
+          children: localize(texts.support.sendEmail),
+        },
+      ];
     }
 
-    if (!service()) {
-      return;
-    }
+    return availableServices().flatMap((service) => {
+      const publication = post()?.posts?.find((publication) => publication.service === service.id);
 
-    if (!publication()) {
-      return;
-    }
+      if (!publication) {
+        return [];
+      }
 
-    return {
-      href: service()?.getPublicationUrl(publication()!),
-      target: '_blank',
-      children: localize(texts.support.orderOn, { service: service()!.name }),
-    };
+      return [
+        {
+          href: service.getPublicationUrl(publication),
+          target: '_blank',
+          children: localize(texts.support.orderOn, { service: service.name }),
+        },
+      ];
+    });
   });
 
   const handleClose = () => {
@@ -91,9 +93,7 @@ const MerchOrderingDialog: DetachedDialog = (props) => {
         {...props}
         title={localize(texts.support.merchOrdering)}
         actions={[
-          <Show when={orderButtonProps()}>
-            <Button {...orderButtonProps()} />
-          </Show>,
+          <For each={orderButtonProps()}>{(props) => <Button {...props} />}</For>,
           <Button onClick={handleClose}>{localize(texts.common.cancel)}</Button>,
         ]}
         modal
@@ -124,7 +124,7 @@ const MerchOrderingDialog: DetachedDialog = (props) => {
             </div>
           </Label>
 
-          <Show when={country() && !service()}>
+          <Show when={country() && availableServices().length === 0}>
             <p class={styles.text}>{localize(texts.support.noShippingOptions)}</p>
           </Show>
 
@@ -141,9 +141,13 @@ const MerchOrderingDialog: DetachedDialog = (props) => {
             </Label>
           </Show>
 
-          <Show when={localField(service(), 'description')}>
-            {(description) => <p class={styles.text}>{description()}</p>}
-          </Show>
+          <For each={availableServices()}>
+            {(service) => (
+              <Show when={localField(service, 'description')}>
+                {(description) => <p class={styles.text}>{description()}</p>}
+              </Show>
+            )}
+          </For>
         </form>
       </Dialog>
     </>

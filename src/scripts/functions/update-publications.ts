@@ -60,9 +60,7 @@ async function updateServicePublications(
     );
     updatablePublications = updatablePublications.slice(0, MAX_UPDATE_COUNT);
   } else {
-    console.info(
-      `Found ${updatablePublications.length} ${service.name} publications to update in "${manager.name}".`,
-    );
+    console.info(`Found ${updatablePublications.length} ${service.name} publications to update in "${manager.name}".`);
   }
 
   try {
