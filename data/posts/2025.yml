@@ -186,9 +186,9 @@
       id: DeuE_JsHcit
       mediaId: '18144979198599387'
       published: 2026-10-20-14-45-17
-      updated: 2026-10-25-21-28-17
+      updated: 2026-10-27-01-11-53
       followers: 3760
-      likes: 703
+      likes: 768
       comments: !c |-
         G5oAQIzTFfPsoYykn7/mI/wgl4Bns9noosoG1lhBleANfCDzdYXerDennGhgHrQdMDxeA8ADBs6x
         bGiCDA3nfb/3YOTLDrBODN8VYyn1bDXafBcyMVQU26UtpvWasE2w7OcFL0Vva7eg3RLlUBhX/9tE
@@ -2181,10 +2181,10 @@
     - service: tg
       id: 1312
       published: 2026-09-04-18-39-49
-      updated: 2026-10-19-23-20-45
+      updated: 2026-10-27-01-11-52
       followers: 942
-      likes: 64
-      views: 558
+      likes: 65
+      views: 567
     - service: mx
       id: '1788547193864'
       published: 2026-09-04-18-39-54
