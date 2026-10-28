@@ -22,7 +22,7 @@
     - service: vk
       id: 559
       published: 2018-01-01
-      updated: 2026-10-21-13-29-19
+      updated: 2026-10-28-22-15-19
       followers: 116
       likes: 16
       views: 187
@@ -980,16 +980,16 @@
       id: De4u_1ll-yi
       mediaId: '18468462205187564'
       published: 2026-10-24-18-04-46
-      updated: 2026-10-27-19-49-44
+      updated: 2026-10-28-22-15-13
       followers: 3891
-      likes: 313
+      likes: 327
     - service: vk
       id: 3652
       published: 2026-10-24-18-04-57
-      updated: 2026-10-27-19-49-53
+      updated: 2026-10-28-22-15-16
       followers: 1458
       likes: 47
-      views: 596
+      views: 634
       reposts: 4
       comments: !c |-
         G4MJQJyHsTMiXN3kLWuljniiH2OR6Qx15yf0V8RCJVTRyJAg6YWkoZ+Xrm/nUjkNp9YSwPpjDCgr
@@ -1013,10 +1013,10 @@
     - service: tg
       id: 1356
       published: 2026-10-24-18-05-04
-      updated: 2026-10-27-19-49-48
+      updated: 2026-10-28-22-15-11
       followers: 948
-      likes: 50
-      views: 222
+      likes: 52
+      views: 235
       comments: !c |-
         G4cAgI3UWi037Zr/cw1sNv6+Bp2NCiyiqS6etx1fez9vwrukYc12gwPNMeMAi/Bp54CGjbG1g14S
         PieTB1Mj//EdgtYyLvlp4NMyB1vU1CCW/ICHcONR4xHLP0HNq4BvGYZEAFahFCnXfEMDVZA1I+TG
@@ -6960,9 +6960,9 @@
       id: Dev1yUuHcGW
       mediaId: '18134173798671101'
       published: 2026-10-21-07-10-57
-      updated: 2026-10-27-19-49-45
+      updated: 2026-10-28-22-15-16
       followers: 3782
-      likes: 298
+      likes: 312
       comments: !c CxGAkZPLQnoWdAr9gACtcGFydGl6YW4tdXNzcqlkYXRlIGlkZWED
 2018-05-05-uncle-sweetshares-workshop:
   title: Uncle Sweetshare's Workshop
