@@ -673,7 +673,7 @@ arya-stark:
   profiles:
     - service: vk
       id: '820702664'
-      updated: 2026-10-29-02-08-22
+      updated: 2026-10-29-09-26-22
       username: id820702664
       name: Арья Старк
       avatar: store:/avatars/vk-689aa89d.jpg
@@ -1570,7 +1570,7 @@ dehero:
       avatar: store:/avatars/gh-c8afe641.jpg
     - service: vk
       id: '3652910'
-      updated: 2026-10-29-02-10-21
+      updated: 2026-10-29-09-28-26
       username: dehero
       name: Антон Курьянов
       avatar: store:/avatars/vk-5356f76e.jpg
@@ -2564,7 +2564,7 @@ gleb-zheltuhin:
   profiles:
     - service: vk
       id: '29014473'
-      updated: 2026-10-28-22-15-16
+      updated: 2026-10-29-09-26-22
       username: gleb_zheltuhin
       name: Глеб Желтухин
       avatar: store:/avatars/vk-971eefc1.jpg
@@ -2919,7 +2919,7 @@ idalexeyvav:
   profiles:
     - service: vk
       id: '417783044'
-      updated: 2026-10-22-01-16-23
+      updated: 2026-10-29-09-28-26
       username: idalexeyvav
       name: Алексей Вавилов
       avatar: store:/avatars/vk-6717456e.jpg
@@ -3162,7 +3162,7 @@ ivan-uralov:
   profiles:
     - service: vk
       id: '16497155'
-      updated: 2026-10-29-02-08-21
+      updated: 2026-10-29-09-26-20
       username: id16497155
       name: Иван Уралов
       avatar: store:/avatars/vk-51775759.jpg
@@ -3450,7 +3450,7 @@ karatedance:
   profiles:
     - service: tg
       id: '1037255094'
-      updated: 2026-10-26-21-23-38
+      updated: 2026-10-29-09-26-18
       accessHash: '-5098047197051495291'
       username: karatedance
       name: танцы карате
@@ -3974,7 +3974,7 @@ maks-perunov:
   profiles:
     - service: vk
       id: '35868942'
-      updated: 2026-10-27-05-05-39
+      updated: 2026-10-29-09-28-03
       username: id35868942
       name: Макс Перунов
       avatar: store:/avatars/vk-3bb92045.jpg
@@ -5802,7 +5802,7 @@ sergey-b-2:
   profiles:
     - service: vk
       id: '1077446394'
-      updated: 2026-10-28-22-15-15
+      updated: 2026-10-29-09-26-20
       username: id1077446394
       name: Сергей Б
       avatar: store:/avatars/vk-70268334.jpg
@@ -5824,7 +5824,7 @@ sergey-venkov:
   profiles:
     - service: vk
       id: '217443112'
-      updated: 2026-10-29-02-08-19
+      updated: 2026-10-29-09-26-16
       username: id217443112
       name: Сергей Венков
       avatar: store:/avatars/vk-a77d1a73.jpg
@@ -6357,7 +6357,7 @@ svyatosha:
   profiles:
     - service: tg
       id: '6654011684'
-      updated: 2026-10-22-07-09-40
+      updated: 2026-10-29-09-26-16
       accessHash: '-6782097744855732809'
       name: Святоша
       avatar: store:/avatars/tg-5321215999166062533.jpg
@@ -7244,7 +7244,7 @@ vectormaly:
   profiles:
     - service: tg
       id: '842358436'
-      updated: 2026-10-01-08-22-37
+      updated: 2026-10-29-09-28-30
       accessHash: '8403750728080648348'
       username: vectormaly
       botChatId: 842358436

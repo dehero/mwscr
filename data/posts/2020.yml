@@ -1741,10 +1741,10 @@
     - service: vk
       id: 3611
       published: 2026-10-14-18-23-45
-      updated: 2026-10-22-07-09-52
+      updated: 2026-10-29-09-26-22
       followers: 1454
-      likes: 61
-      views: 584
+      likes: 62
+      views: 597
       reposts: 1
       comments: !c |-
         GwYBACwSbNsG56MGeeyORsc3/vn+RhG+QD56VMYlFkSycu746txCrqZgCYhDLsDXGTxHPiyRkUU9
@@ -1754,10 +1754,10 @@
     - service: tg
       id: 1343
       published: 2026-10-14-18-23-52
-      updated: 2026-10-22-07-09-40
+      updated: 2026-10-29-09-26-16
       followers: 949
-      likes: 55
-      views: 291
+      likes: 59
+      views: 365
       comments: !c iwyAkZPLQnoUAmS7AACpc3Z5YXRvc2hhpPCfmJgD
     - service: mx
       id: '1792015479894'
