@@ -649,7 +649,7 @@ artyom-karpov:
   profiles:
     - service: vk
       id: '178018548'
-      updated: 2026-10-22-01-16-57
+      updated: 2026-10-29-16-39-36
       username: id178018548
       name: Артём Карпов
       avatar: store:/avatars/vk-72fe5d60.jpg
@@ -1493,7 +1493,7 @@ daryna-dmytrenko:
   profiles:
     - service: vk
       id: '164064457'
-      updated: 2026-10-22-01-16-26
+      updated: 2026-10-29-16-39-12
       username: daryna_dmytrenko
       name: Дарина Дмитренко
       avatar: store:/avatars/vk-0d327853.jpg
@@ -1570,7 +1570,7 @@ dehero:
       avatar: store:/avatars/gh-c8afe641.jpg
     - service: vk
       id: '3652910'
-      updated: 2026-10-29-09-28-26
+      updated: 2026-10-29-16-40-17
       username: dehero
       name: Антон Курьянов
       avatar: store:/avatars/vk-5356f76e.jpg
@@ -1882,7 +1882,7 @@ durovcici:
   profiles:
     - service: tg
       id: '6054609776'
-      updated: 2026-10-01-16-02-11
+      updated: 2026-10-29-16-40-55
       accessHash: '-3913127932631311318'
       username: Nerevarrine
       name: дшрг чуркич
@@ -2240,7 +2240,7 @@ evil-kit:
   profiles:
     - service: vk
       id: '153155138'
-      updated: 2026-10-22-07-10-11
+      updated: 2026-10-29-16-39-45
       username: evil_kit
       name: Никита Метелкин
       avatar: store:/avatars/vk-adb64972.jpg
@@ -2919,7 +2919,7 @@ idalexeyvav:
   profiles:
     - service: vk
       id: '417783044'
-      updated: 2026-10-29-09-28-26
+      updated: 2026-10-29-16-39-07
       username: idalexeyvav
       name: Алексей Вавилов
       avatar: store:/avatars/vk-6717456e.jpg
@@ -3903,7 +3903,7 @@ lycanthropy:
   profiles:
     - service: vk
       id: '5386912'
-      updated: 2026-10-28-22-16-16
+      updated: 2026-10-29-16-40-20
       username: lycanthropy
       name: Филипп Суворов
       avatar: store:/avatars/vk-96cd2c06.jpg
@@ -3998,7 +3998,7 @@ maksim-solovev:
   profiles:
     - service: vk
       id: '658767771'
-      updated: 2026-10-25-10-52-51
+      updated: 2026-10-29-16-38-34
       username: id658767771
       name: Максим Соловьев
       avatar: store:/avatars/vk-bee5815b.jpg
@@ -4159,7 +4159,7 @@ methamar:
   profiles:
     - service: tg
       id: '227628220'
-      updated: 2026-10-01-16-02-12
+      updated: 2026-10-29-16-40-56
       accessHash: '5119360306419431594'
       username: methamar
       name: эмбэ
@@ -5824,7 +5824,7 @@ sergey-venkov:
   profiles:
     - service: vk
       id: '217443112'
-      updated: 2026-10-29-09-26-16
+      updated: 2026-10-29-16-38-32
       username: id217443112
       name: Сергей Венков
       avatar: store:/avatars/vk-a77d1a73.jpg
@@ -6144,7 +6144,7 @@ soulilight:
   profiles:
     - service: vk
       id: '347703822'
-      updated: 2026-10-29-02-09-49
+      updated: 2026-10-29-16-39-57
       username: soulilight
       name: Dima Boev
       avatar: store:/avatars/vk-4a3f332e.jpg
@@ -7054,7 +7054,7 @@ user-36:
   profiles:
     - service: vk
       id: '227500203'
-      updated: 2026-10-22-01-17-56
+      updated: 2026-10-29-16-40-19
       username: id227500203
       avatar: store:/avatars/vk-7f160215.jpg
       deleted: true
