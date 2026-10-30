@@ -2,6 +2,7 @@ import type { IntlText } from '../../core/entities/intl.ts';
 
 export const supportTexts = {
   order: ['Order', 'Заказать'],
+  orderVariants: ['Order variants', 'Варианты заказа'],
   merchOrdering: ['Merch Ordering', 'Заказ мерча'],
   country: ['Country', 'Страна'],
   checkCountry: ['Check Country', 'Проверить страну'],
@@ -11,14 +12,15 @@ export const supportTexts = {
     'К сожалению, сейчас нет вариантов доставки в выбранную страну.',
   ],
   countryRequestHint: [
-    'Please submit a request to let the administrator contact you later to clarify the possibility of making an order to your country.',
-    'Отправьте запрос, чтобы администратор позднее связался с вами и уточнил возможность заказа в вашу страну.',
+    'Please submit a request to let the administrator contact you later to clarify the possibility of making an order of physical copy to your country.',
+    'Отправьте запрос, чтобы администратор позднее связался с вами и уточнил возможность заказа физической копии в вашу страну.',
   ],
   merchShippingRequest: [
     'Hello!\n\nPlease check if {country} is available to deliver "{title}" merch.',
     'Здравствуйте!\n\nПожалуйста, проверьте, доступна ли доставка мерча "{title}" в страну {country}.',
   ],
   orderOn: ['Order on {service}', 'Заказать через {service}'],
+  orderVariantOn: ['{service} ({variant})', '{service} ({variant})'],
   sendEmail: ['Send Email', 'Отправить письмо'],
   subscribe: ['Subscribe', 'Подписаться'],
   subscription: ['Subscription', 'Подписка'],

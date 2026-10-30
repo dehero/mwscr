@@ -38,45 +38,41 @@ const MerchOrderingDialog: DetachedDialog = (props) => {
   const availableServices = createMemo(() => {
     const scenario = orderingScenarios.find((scenario) => scenario.country === country());
 
-    return postingServices.filter(
-      (service) =>
-        scenario?.services.includes(service.id) &&
-        post()?.posts?.some((publication) => publication.service === service.id),
+    return postingServices.filter((service) =>
+      post()?.posts?.some(
+        (publication) =>
+          publication.service === service.id &&
+          (publication.type === 'digital-product' || scenario?.services.includes(service.id)),
+      ),
     );
   });
 
   const orderButtonProps = createMemo(() => {
-    if (!country()) {
-      return [
-        {
-          href: email.getUserMessagingUrl('mwscr@dehero.site', {
-            subject: post()?.title,
-            body: localize(texts.support.merchShippingRequest, {
-              country: otherCountry(),
-              title: post()?.title,
-            }),
-          }),
-          target: '_blank',
-          children: localize(texts.support.sendEmail),
-        },
-      ];
+    const buttons = availableServices().flatMap((service) => {
+      const publications =
+        post()?.posts?.filter((publication) => {
+          if (publication.service !== service.id) {
+            return false;
+          }
+
+          const scenario = orderingScenarios.find((scenario) => scenario.country === country());
+          return publication.type === 'digital-product' || scenario?.services.includes(service.id);
+        }) ?? [];
+
+      return publications.map((publication) => ({
+        href: service.getPublicationUrl(publication),
+        target: '_blank',
+        children: publication.variant
+          ? localize(texts.support.orderVariantOn, { service: service.name, variant: publication.variant })
+          : service.name,
+      }));
+    });
+
+    if (country()) {
+      return buttons;
     }
 
-    return availableServices().flatMap((service) => {
-      const publication = post()?.posts?.find((publication) => publication.service === service.id);
-
-      if (!publication) {
-        return [];
-      }
-
-      return [
-        {
-          href: service.getPublicationUrl(publication),
-          target: '_blank',
-          children: localize(texts.support.orderOn, { service: service.name }),
-        },
-      ];
-    });
+    return buttons;
   });
 
   const handleClose = () => {
@@ -92,10 +88,7 @@ const MerchOrderingDialog: DetachedDialog = (props) => {
       <Dialog
         {...props}
         title={localize(texts.support.merchOrdering)}
-        actions={[
-          <For each={orderButtonProps()}>{(props) => <Button {...props} />}</For>,
-          <Button onClick={handleClose}>{localize(texts.common.cancel)}</Button>,
-        ]}
+        actions={[<Button onClick={handleClose}>{localize(texts.common.close)}</Button>]}
         modal
         contentClass={styles.container}
       >
@@ -139,15 +132,46 @@ const MerchOrderingDialog: DetachedDialog = (props) => {
                 class={styles.otherCountryInput}
               />
             </Label>
+
+            <Button
+              href={email.getUserMessagingUrl('mwscr@dehero.site', {
+                subject: post()?.title,
+                body: localize(texts.support.merchShippingRequest, { country: otherCountry(), title: post()?.title }),
+              })}
+              target="_blank"
+            >
+              {localize(texts.support.sendEmail)}
+            </Button>
           </Show>
 
           <For each={availableServices()}>
-            {(service) => (
-              <Show when={localField(service, 'description')}>
-                {(description) => <p class={styles.text}>{description()}</p>}
-              </Show>
-            )}
+            {(service) => {
+              const scenario = orderingScenarios.find((scenario) => scenario.country === country());
+              const publications = () =>
+                post()?.posts?.filter(
+                  (publication) =>
+                    publication.service === service.id &&
+                    (publication.type === 'digital-product' || scenario?.services.includes(service.id)),
+                );
+              const hasPhysicalPublication = () =>
+                publications()?.some((publication) => publication.type !== 'digital-product');
+
+              return (
+                <Show when={hasPhysicalPublication() && localField(service, 'description')}>
+                  {(description) => <p class={styles.text}>{description()}</p>}
+                </Show>
+              );
+            }}
           </For>
+
+          <Show when={orderButtonProps().length > 0}>
+            <div class={styles.orderSection}>
+              <div class={styles.orderHeading}>{localize(texts.support.orderVariants)}</div>
+              <div class={styles.orderActions}>
+                <For each={orderButtonProps()}>{(props) => <Button {...props} />}</For>
+              </div>
+            </div>
+          </Show>
         </form>
       </Dialog>
     </>

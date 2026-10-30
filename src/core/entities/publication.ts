@@ -8,7 +8,7 @@ import { Comment } from './comment.ts';
 export const PUBLICATION_IS_RECENT_DAYS = 91;
 export const PUBLICATION_MINIMUM_GAP_HOURS = 2;
 
-export const PublicationType = picklist(['story', 'product']);
+export const PublicationType = picklist(['story', 'product', 'digital-product']);
 export type PublicationType = InferOutput<typeof PublicationType>;
 
 export const PublicationComment = object({
@@ -24,6 +24,7 @@ export const Publication = object({
   service: pipe(string(), nonEmpty()),
   id: unknown(),
   code: optional(pipe(string(), nonEmpty())),
+  variant: optional(pipe(string(), nonEmpty())),
   mediaId: optional(pipe(string(), nonEmpty())),
   type: optional(PublicationType),
   published: date(),
@@ -66,7 +67,7 @@ export function mergePublications(posts1: Publication[] | undefined, posts2: Pub
     const publication1 = result.find((publication1) => isPublicationEqual(publication1, publication2));
     if (publication1) {
       publication1.code = publication2.code ?? publication1.code;
-      publication1.mediaId = publication2.mediaId ?? publication1.mediaId;
+      publication1.variant = publication2.variant ?? publication1.variant;
       publication1.updated = publication2.updated ?? publication1.updated;
       publication1.followers = publication2.followers ?? publication1.followers;
       publication1.published = publication2.published;
@@ -74,6 +75,7 @@ export function mergePublications(posts1: Publication[] | undefined, posts2: Pub
       publication1.views = publication2.views ?? publication1.views;
       publication1.reposts = publication2.reposts ?? publication1.reposts;
       publication1.comments = publication2.comments ?? publication1.comments;
+      publication1.type = publication2.type ?? publication1.type;
     } else {
       result.push(publication2);
     }

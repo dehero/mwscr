@@ -458,9 +458,12 @@
       published: 2026-10-29-15-00-00
     - service: bt
       id: ef3bf275-8bcd-461d-8902-1769de0e162e
+      variant: Shipping Included
       published: 2026-10-29-16-40-00
       followers: 2
     - service: bt
       id: 5bb32e5b-5031-4c0e-9fb9-1e3f2b764552
+      variant: Digital Print Kit
+      type: digital-product
       published: 2026-10-29-16-40-00
       followers: 2

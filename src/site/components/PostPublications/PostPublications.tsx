@@ -100,7 +100,7 @@ export const PostPublications: Component<PostPublicationsProps> = (props) => {
               </Show>
               <Table
                 class={styles.table}
-                label={service?.name}
+                label={publication.variant ? `${service?.name} (${publication.variant})` : service?.name}
                 value={formatDate(publication.published, currentLocale())}
                 link={service?.getPublicationUrl(publication)}
                 rows={[

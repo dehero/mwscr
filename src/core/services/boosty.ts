@@ -11,11 +11,10 @@ export type BoostyPublication = InferOutput<typeof BoostyPublication>;
 export class Boosty implements PostingService<BoostyPublication> {
   readonly id = 'bt';
   readonly name = 'Boosty';
-  readonly description =
-    'Buy merch on Boosty, and an administrator will contact you to confirm the delivery address. SHIPPING AND TRANSFER FEE ARE INCLUDED IN THE PRICE.';
+  readonly description = 'Buy merch on Boosty, and an administrator will contact you to confirm the delivery address.';
 
   readonly descriptionRu =
-    'Закажите мерч на Boosty, и администратор свяжется с вами для подтверждения адреса доставки. СТОИМОСТЬ ДОСТАВКИ И ПЕРЕВОДА ВКЛЮЧЕНА В ЦЕНУ.';
+    'Закажите мерч на Boosty, и администратор свяжется с вами для подтверждения адреса доставки.';
 
   readonly sponsorshipName = 'Boosty Tip';
   readonly merchOnly = true;

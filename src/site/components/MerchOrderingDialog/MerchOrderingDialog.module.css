@@ -39,6 +39,26 @@
   margin: 0;
 }
 
+.orderActions {
+  grid-column: 1 / -1;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-start;
+  gap: 4px;
+  width: 100%;
+}
+
+.orderSection {
+  display: flex;
+  flex-flow: column nowrap;
+  gap: 4px;
+  width: 100%;
+}
+
+.orderHeading {
+  color: var(--color-text-light);
+}
+
 @media only screen and (min-width: 520px) {
   .container {
     display: grid;
