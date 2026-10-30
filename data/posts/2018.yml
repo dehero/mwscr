@@ -788,10 +788,10 @@
     - service: vk
       id: 3615
       published: 2026-10-15-18-02-12
-      updated: 2026-10-23-01-15-27
+      updated: 2026-10-30-18-19-46
       followers: 1456
       likes: 50
-      views: 567
+      views: 613
       reposts: 3
       comments: !c |-
         G3gEgCwKbOccUUG8xbNLHVNubfzz//esVkQXa633v8UZBXFEFQQ+M8IjI/sgjIpLa3EBJ2OiMZ86
@@ -807,10 +807,10 @@
     - service: tg
       id: 1344
       published: 2026-10-15-18-02-19
-      updated: 2026-10-23-01-15-21
+      updated: 2026-10-30-18-19-30
       followers: 951
-      likes: 54
-      views: 302
+      likes: 56
+      views: 379
     - service: mx
       id: '1792087347953'
       published: 2026-10-15-18-02-28
@@ -980,43 +980,48 @@
       id: De4u_1ll-yi
       mediaId: '18468462205187564'
       published: 2026-10-24-18-04-46
-      updated: 2026-10-28-22-15-13
+      updated: 2026-10-30-18-19-23
       followers: 3891
-      likes: 327
+      likes: 343
     - service: vk
       id: 3652
       published: 2026-10-24-18-04-57
-      updated: 2026-10-28-22-15-16
+      updated: 2026-10-30-18-19-40
       followers: 1458
       likes: 47
-      views: 634
+      views: 698
       reposts: 4
       comments: !c |-
-        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
+        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
     - service: tg
       id: 1356
       published: 2026-10-24-18-05-04
-      updated: 2026-10-28-22-15-11
+      updated: 2026-10-30-18-19-27
       followers: 948
-      likes: 52
-      views: 235
+      likes: 55
+      views: 265
       comments: !c |-
         G4cAgI3UWi037Zr/cw1sNv6+Bp2NCiyiqS6etx1fez9vwrukYc12gwPNMeMAi/Bp54CGjbG1g14S
         PieTB1Mj//EdgtYyLvlp4NMyB1vU1CCW/ICHcONR4xHLP0HNq4BvGYZEAFahFCnXfEMDVZA1I+TG
@@ -1934,7 +1939,7 @@
       id: Dd94y46GGYK
       mediaId: '18113709692327717'
       published: 2026-10-01-21-35-12
-      updated: 2026-10-23-07-01-47
+      updated: 2026-10-30-18-19-35
       followers: 2791
       likes: 238
 2018-02-04-sadrith-mora:
@@ -5035,9 +5040,9 @@
       id: DeNxFD9GCvx
       mediaId: '18120943852893571'
       published: 2026-10-08-01-35-37
-      updated: 2026-10-22-22-08-24
+      updated: 2026-10-30-18-19-33
       followers: 3274
-      likes: 179
+      likes: 181
       comments: !c |-
         CxyAkZPLQnoRr17NgACnZXItMjk0OdkkKmRpc2NyZWV0bHkgc3RlYWxzIHRoZSBsYW50ZXJuKiDw
         n4+uAw==
@@ -5332,21 +5337,21 @@
     - service: vk
       id: 3580
       published: 2026-10-01-21-35-21
-      updated: 2026-10-23-07-01-49
+      updated: 2026-10-30-18-19-49
       followers: 1445
       likes: 53
-      views: 619
-      reposts: 4
+      views: 649
+      reposts: 5
       comments: !c |-
         iyaAkZPLQnoPqF+FgACqc2VyZ2V5LWItMtk20KXQvtGC0Ywg0LIg0YDQsNC80LrRgyDQuCDQvdCw
         INGB0YLQtdC90LrRgyDQstC10YjQsNC5Aw==
     - service: tg
       id: 1328
       published: 2026-10-01-21-35-25
-      updated: 2026-10-23-07-01-43
+      updated: 2026-10-30-18-19-34
       followers: 944
       likes: 62
-      views: 454
+      views: 472
     - service: mx
       id: '1790890529941'
       published: 2026-10-01-21-35-30
@@ -14809,10 +14814,10 @@
     - service: tg
       id: 1322
       published: 2026-09-24-20-16-00
-      updated: 2026-10-23-07-01-44
+      updated: 2026-10-30-18-19-37
       followers: 942
       likes: 49
-      views: 510
+      views: 519
     - service: mx
       id: 1790280974426
       published: 2026-09-24-20-16-00
@@ -15592,9 +15597,9 @@
       id: DeQXG9TFZk2
       mediaId: '18104968538263945'
       published: 2026-10-09-01-46-24
-      updated: 2026-10-23-13-06-34
+      updated: 2026-10-30-18-19-26
       followers: 3343
-      likes: 260
+      likes: 271
 2018-10-09-severe-innkeeper:
   title: Severe Innkeeper
   titleRu: Суровый трактирщик
@@ -17029,9 +17034,9 @@
       id: DeOgVnGDJQv
       mediaId: '18378884458236007'
       published: 2026-10-08-08-28-33
-      updated: 2026-10-22-22-08-23
+      updated: 2026-10-30-18-19-31
       followers: 3290
-      likes: 310
+      likes: 319
       comments: !c |-
         GyMBIJwJ8XbKfPi1Is5VTy/AKgAtSyCwoMAv33eB24/+BsD7LHe0zU8Rjcw1rWr/d8TuJtYijZCX
         AjkWCQ81OWA/zBMpe7ASSrFFkJ0tCEUyDubCT/nPrrv7SHUkZPs9pvgRQDMRRhiHzXUPJgsJFnKa

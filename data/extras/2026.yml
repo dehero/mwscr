@@ -266,7 +266,7 @@
       id: DeO2RPsmOxT
       mediaId: '18095689727402358'
       published: 2026-10-08-11-40-14
-      updated: 2026-10-22-22-08-25
+      updated: 2026-10-30-18-19-51
       followers: 3300
       likes: 336
       comments: !c |-
@@ -276,20 +276,20 @@
     - service: vk
       id: 3594
       published: 2026-10-08-11-40-49
-      updated: 2026-10-22-22-08-26
+      updated: 2026-10-30-18-19-51
       followers: 1451
       likes: 46
-      views: 578
+      views: 592
       reposts: 2
     - service: tg
       id:
         - 1335
         - 1336
       published: 2026-10-08-11-40-57
-      updated: 2026-10-22-22-08-26
+      updated: 2026-10-30-18-19-50
       followers: 947
-      likes: 59
-      views: 504
+      likes: 60
+      views: 530
 2026-10-19-1-series:
   title: Series
   titleRu: Серия
@@ -356,24 +356,24 @@
       id: De4xCa5F5CO
       mediaId: '18135651883677424'
       published: 2026-10-24-18-22-35
-      updated: 2026-10-28-22-18-14
+      updated: 2026-10-30-18-19-49
       followers: 3892
     - service: vk
       id: 3653
       published: 2026-10-24-18-22-44
-      updated: 2026-10-28-22-18-15
+      updated: 2026-10-30-18-19-50
       followers: 1458
-      likes: 63
-      views: 840
+      likes: 67
+      views: 930
       reposts: 6
       comments: !c CxSAkZPLQnoXIO7BgACmbWlrbGFztjMg0Y3QutC30LXQvNC/0LvRj9GA0LAD
     - service: tg
       id: 1357
       published: 2026-10-24-18-22-49
-      updated: 2026-10-28-22-18-14
+      updated: 2026-10-30-18-19-50
       followers: 948
-      likes: 61
-      views: 246
+      likes: 64
+      views: 279
 2026-10-29-1-wall-calendar-for-ce-2027:
   title: Wall Calendar for CE 2027
   titleRu: Настенный календарь НЭ 2027
@@ -456,14 +456,14 @@
       id: BSoe2ek
       mediaId: 6092980835
       published: 2026-10-29-15-00-00
-    - service: bt
+    - variant: Shipping Included
+      service: bt
       id: ef3bf275-8bcd-461d-8902-1769de0e162e
-      variant: Shipping Included
       published: 2026-10-29-16-40-00
       followers: 2
-    - service: bt
-      id: 5bb32e5b-5031-4c0e-9fb9-1e3f2b764552
-      variant: Digital Print Kit
+    - variant: Digital Print Kit
       type: digital-product
+      service: bt
+      id: 5bb32e5b-5031-4c0e-9fb9-1e3f2b764552
       published: 2026-10-29-16-40-00
       followers: 2
