@@ -159,10 +159,10 @@
     - service: vk
       id: 3622
       published: 2026-10-16-19-21-50
-      updated: 2026-10-24-14-16-38
+      updated: 2026-10-31-18-05-34
       followers: 1456
-      likes: 63
-      views: 572
+      likes: 64
+      views: 600
       reposts: 1
       comments: !c |-
         G1QCoK0OeDPmKqGmdgNkqreD8PH/9Bdbwje+fZDAE8+wSTDC5FxVlR33u+OeQOKYQOK4jJtoaVMb
@@ -174,10 +174,10 @@
     - service: tg
       id: 1345
       published: 2026-10-16-19-21-55
-      updated: 2026-10-24-14-16-34
+      updated: 2026-10-31-18-05-31
       followers: 951
-      likes: 57
-      views: 327
+      likes: 61
+      views: 380
     - service: mx
       id: '1792178520043'
       published: 2026-10-16-19-22-02
@@ -997,9 +997,9 @@
       id: DeSzRVwmD3e
       mediaId: '17989612188060202'
       published: 2026-10-10-00-30-59
-      updated: 2026-10-24-14-16-37
+      updated: 2026-10-31-18-05-32
       followers: 3379
-      likes: 345
+      likes: 352
 2025-03-29-bridle-of-foreigners:
   title: Bridge of Foreigners
   titleRu: Мост чужеземцев
@@ -1042,18 +1042,18 @@
     - service: vk
       id: 3686
       published: 2026-10-30-18-20-39
-      updated: 2026-10-31-13-57-21
+      updated: 2026-10-31-18-05-32
       followers: 1462
-      likes: 38
-      views: 307
+      likes: 40
+      views: 339
       reposts: 1
     - service: tg
       id: 1371
       published: 2026-10-30-18-20-44
-      updated: 2026-10-31-13-57-20
+      updated: 2026-10-31-18-05-31
       followers: 948
-      likes: 29
-      views: 114
+      likes: 32
+      views: 126
     - service: mx
       id: '1793384447549'
       published: 2026-10-30-18-20-48
@@ -1062,9 +1062,12 @@
       id: DfIrkbcFGcU
       mediaId: '18069122609610430'
       published: 2026-10-30-22-42-39
-      updated: 2026-10-31-13-57-21
+      updated: 2026-10-31-18-05-32
       followers: 4029
-      likes: 153
+      likes: 166
+      comments: !c |-
+        ix+AkZPLQnoZLYtLAACwYm9hbmVyZmFwcGVyOTk5OdkiI1dFIGFyZSBpbiB0aGUgRm9yZWlnbiBR
+        dWFydGVyISEhIQM=
 2025-03-30-frozen-water-stone:
   title: Frozen Water Stone
   titleRu: Камень Замороженной Воды
