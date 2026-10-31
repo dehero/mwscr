@@ -545,7 +545,7 @@ ansis:
   profiles:
     - service: tg
       id: '517050552'
-      updated: 2026-10-27-19-49-54
+      updated: 2026-10-31-13-57-22
       accessHash: '5231096655311395455'
       username: ansis
       name: ansis
@@ -4303,7 +4303,7 @@ mlennic:
   profiles:
     - service: tg
       id: '402884048'
-      updated: 2026-10-26-21-24-02
+      updated: 2026-10-31-13-57-22
       accessHash: '308008325024369067'
       username: mlennic
       name: Kosmos

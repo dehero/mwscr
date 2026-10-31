@@ -1042,17 +1042,18 @@
     - service: vk
       id: 3686
       published: 2026-10-30-18-20-39
-      updated: 2026-10-31-07-38-13
+      updated: 2026-10-31-13-57-21
       followers: 1462
-      likes: 27
-      views: 213
+      likes: 38
+      views: 307
+      reposts: 1
     - service: tg
       id: 1371
       published: 2026-10-30-18-20-44
-      updated: 2026-10-31-07-38-13
+      updated: 2026-10-31-13-57-20
       followers: 948
       likes: 29
-      views: 109
+      views: 114
     - service: mx
       id: '1793384447549'
       published: 2026-10-30-18-20-48
@@ -1061,9 +1062,9 @@
       id: DfIrkbcFGcU
       mediaId: '18069122609610430'
       published: 2026-10-30-22-42-39
-      updated: 2026-10-31-07-38-12
+      updated: 2026-10-31-13-57-21
       followers: 4029
-      likes: 125
+      likes: 153
 2025-03-30-frozen-water-stone:
   title: Frozen Water Stone
   titleRu: Камень Замороженной Воды
