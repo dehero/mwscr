@@ -17,10 +17,10 @@
     - service: tg
       id: 368
       published: 2024-04-05-09-52-44
-      updated: 2026-10-24-22-58-16
+      updated: 2026-11-01-00-43-10
       followers: 355
       likes: 21
-      views: 514
+      views: 515
     - service: vk
       id: 1482
       published: 2024-04-05-09-53-00
@@ -32,7 +32,7 @@
       service: ig
       mediaId: '3339426476279746828'
       published: 2024-04-05-09-53-00
-      updated: 2026-10-24-22-58-09
+      updated: 2026-11-01-00-43-06
       followers: 1406
       views: 431
 2024-08-09-starting-site:
@@ -55,7 +55,7 @@
     - service: tg
       id: 495
       published: 2024-08-09-14-41-38
-      updated: 2026-10-24-22-58-16
+      updated: 2026-11-01-00-43-10
       followers: 513
       likes: 80
       views: 1539
@@ -84,7 +84,7 @@
       service: ig
       mediaId: '3430892934473638321'
       published: 2024-08-09-14-41-38
-      updated: 2026-10-24-22-58-08
+      updated: 2026-11-01-00-43-06
       followers: 1437
       views: 431
       reposts: 7
@@ -108,10 +108,10 @@
     - service: tg
       id: 536
       published: 2024-09-18-15-02-00
-      updated: 2026-10-24-22-58-15
+      updated: 2026-11-01-00-43-06
       followers: 556
       likes: 23
-      views: 570
+      views: 571
     - service: vk
       id: 1770
       published: 2024-09-18-15-00-00
@@ -126,7 +126,7 @@
       service: ig
       mediaId: '3459965774560664539'
       published: 2024-09-18-15-00-00
-      updated: 2026-10-24-22-58-08
+      updated: 2026-11-01-00-43-06
       followers: 1459
       views: 381
 2024-12-23-interview-to-dmitry-epikhin:
@@ -170,7 +170,7 @@
     - service: tg
       id: 634
       published: 2024-12-23-09-00-15
-      updated: 2026-10-24-22-58-15
+      updated: 2026-11-01-00-43-05
       followers: 592
       likes: 64
       views: 690
@@ -190,6 +190,6 @@
       service: ig
       mediaId: '3339426476279746828'
       published: 2024-12-23-09-00-15
-      updated: 2026-10-24-22-58-08
+      updated: 2026-11-01-00-43-06
       followers: 1511
       views: 534
