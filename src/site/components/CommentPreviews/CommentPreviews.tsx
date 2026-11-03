@@ -7,6 +7,7 @@ export interface CommentPreviewsProps {
   class?: string;
   hideAuthorName?: boolean;
   scrollTarget?: HTMLElement;
+  frameVariant?: 'thin' | 'thick' | 'button' | null;
 }
 
 export const CommentPreviews: Component<CommentPreviewsProps> = (props) => {

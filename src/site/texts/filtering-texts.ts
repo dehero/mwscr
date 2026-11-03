@@ -11,7 +11,7 @@ export const filteringTexts = {
   map: ['Map', 'Карта'],
   official: ['Official', 'Официальный'],
   orderBy: ['Order By', 'Сортировка по'],
-  other: ['Other', 'Другое'],
+  misc: ['Misc', 'Разное'],
   origin: ['Origin', 'Источник'],
   originals: ['Originals', 'Оригиналы'],
   preset: ['Preset', 'Пресет'],

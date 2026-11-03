@@ -52,7 +52,7 @@ const allViewOptions: ViewOption[] = [
   { label: texts.filtering.locations, value: 'locations', filter: 'location' },
   { label: texts.filtering.tags, value: 'tags', filter: 'tag' },
   { label: texts.filtering.presets, value: 'presets', preset: true },
-  { label: texts.filtering.other, value: undefined },
+  { label: texts.filtering.misc, value: undefined },
 ] as const;
 
 type View = (typeof allViewOptions)[number]['value'];
