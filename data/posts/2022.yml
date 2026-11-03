@@ -576,10 +576,10 @@
     - service: vk
       id: 3607
       published: 2026-10-12-21-38-51
-      updated: 2026-10-27-05-04-11
+      updated: 2026-11-03-08-43-39
       followers: 1453
-      likes: 54
-      views: 576
+      likes: 55
+      views: 614
       reposts: 3
       comments: !c |-
         G08BAKwObBvG9sN2IcV1+KPREP0TFzvCP4eJBJRRdoIlVhNRsk91E6cvnESpZn9PYevQuolqVpIW
@@ -589,10 +589,10 @@
     - service: tg
       id: 1341
       published: 2026-10-12-21-38-57
-      updated: 2026-10-27-05-04-06
+      updated: 2026-11-03-08-43-35
       followers: 949
       likes: 57
-      views: 386
+      views: 406
     - service: ig
       id: Dec4ruDgVjb
       mediaId: '18176650027451521'
