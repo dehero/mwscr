@@ -47,7 +47,7 @@
     - service: vk
       id: 2073
       published: 2025-01-20-18-41-09
-      updated: 2026-10-26-09-48-38
+      updated: 2026-11-03-01-25-48
       followers: 1054
       likes: 40
       views: 505
@@ -88,7 +88,7 @@
     - service: vk
       id: 2079
       published: 2025-01-23-18-50-59
-      updated: 2026-10-26-09-48-31
+      updated: 2026-11-03-01-25-44
       followers: 1054
       likes: 63
       views: 550
@@ -138,7 +138,7 @@
     - service: vk
       id: 2089
       published: 2025-01-26-18-09-31
-      updated: 2026-10-26-09-48-22
+      updated: 2026-11-03-01-25-39
       followers: 1055
       likes: 55
       views: 473
@@ -146,7 +146,7 @@
     - service: tg
       id: 682
       published: 2025-01-26-18-09-37
-      updated: 2026-10-26-21-23-40
+      updated: 2026-11-03-01-25-08
       followers: 660
       likes: 75
       views: 626
@@ -227,7 +227,7 @@
     - service: vk
       id: 2090
       published: 2025-01-27-18-11-00
-      updated: 2026-10-26-09-48-21
+      updated: 2026-11-03-01-25-39
       followers: 1055
       likes: 66
       views: 887
@@ -270,7 +270,7 @@
     - service: vk
       id: 2094
       published: 2025-01-28-18-10-56
-      updated: 2026-10-26-09-48-18
+      updated: 2026-11-03-01-25-37
       followers: 1056
       likes: 34
       views: 366
@@ -314,10 +314,10 @@
     - service: vk
       id: 2105
       published: 2025-02-01-18-09-25
-      updated: 2026-10-26-09-48-12
+      updated: 2026-11-03-01-25-23
       followers: 1059
       likes: 40
-      views: 472
+      views: 475
       reposts: 3
     - service: tg
       id: 691
@@ -356,7 +356,7 @@
     - service: vk
       id: 2114
       published: 2025-02-05-18-11-07
-      updated: 2026-10-26-09-47-55
+      updated: 2026-11-03-01-25-14
       followers: 1060
       likes: 49
       views: 515
@@ -398,7 +398,7 @@
     - service: vk
       id: 2115
       published: 2025-02-06-18-11-33
-      updated: 2026-10-26-09-47-54
+      updated: 2026-11-03-01-25-13
       followers: 1061
       likes: 40
       views: 642
@@ -974,18 +974,18 @@
     - service: vk
       id: 3575
       published: 2026-09-27-19-43-36
-      updated: 2026-10-26-21-23-46
+      updated: 2026-11-03-01-24-00
       followers: 1445
       likes: 68
-      views: 571
+      views: 577
       reposts: 1
     - service: tg
       id: 1324
       published: 2026-09-27-19-43-42
-      updated: 2026-10-26-21-23-38
+      updated: 2026-11-03-01-23-50
       followers: 942
       likes: 65
-      views: 444
+      views: 447
       comments: !c |-
         iymAkpPLQnoOZGaCgACra2FyYXRlZGFuY2XZINGN0YLQviDQt9Cw0LzQtdGH0LDRgtC10LvRjNC9
         0L4uk8tCeg5GWKmAAKtnb29zZXZpY2g3NqTwn5iQAw==
@@ -1042,18 +1042,18 @@
     - service: vk
       id: 3686
       published: 2026-10-30-18-20-39
-      updated: 2026-11-01-13-56-51
+      updated: 2026-11-03-01-23-46
       followers: 1462
-      likes: 49
-      views: 423
+      likes: 57
+      views: 506
       reposts: 1
     - service: tg
       id: 1371
       published: 2026-10-30-18-20-44
-      updated: 2026-11-01-13-56-51
+      updated: 2026-11-03-01-23-44
       followers: 948
-      likes: 36
-      views: 161
+      likes: 42
+      views: 211
     - service: mx
       id: '1793384447549'
       published: 2026-10-30-18-20-48
@@ -1062,12 +1062,12 @@
       id: DfIrkbcFGcU
       mediaId: '18069122609610430'
       published: 2026-10-30-22-42-39
-      updated: 2026-11-01-22-30-11
+      updated: 2026-11-03-01-23-46
       followers: 4029
-      likes: 199
+      likes: 210
       comments: !c |-
-        ix+AkZPLQnoZLYtLAACwYm9hbmVyZmFwcGVyOTk5OdkiI1dFIGFyZSBpbiB0aGUgRm9yZWlnbiBR
-        dWFydGVyISEhIQM=
+        G2QAQBQhyezUza+Esh/ctHRR5/EYm/KiEglL+IGCDThwiiTQVTb9cDQmRGr5r5vqG0+5cwfP1tTd
+        MCbJl7hFVAepwin1wh5bhMMG4PVqtwq7yG2asNPqx8Sxghh/WUQWIYQA
 2025-03-30-frozen-water-stone:
   title: Frozen Water Stone
   titleRu: Камень Замороженной Воды
@@ -2028,18 +2028,18 @@
     - service: vk
       id: 3587
       published: 2026-10-04-21-18-36
-      updated: 2026-10-26-21-23-44
+      updated: 2026-11-03-01-23-59
       followers: 1445
-      likes: 43
-      views: 563
+      likes: 44
+      views: 576
       reposts: 1
     - service: tg
       id: 1331
       published: 2026-10-04-21-18-41
-      updated: 2026-10-26-21-23-38
+      updated: 2026-11-03-01-23-49
       followers: 946
       likes: 51
-      views: 421
+      views: 429
     - service: mx
       id: '1791148726516'
       published: 2026-10-04-21-18-46
@@ -2177,7 +2177,7 @@
     - service: vk
       id: 2396
       published: 2025-05-28-18-32-00
-      updated: 2026-10-26-09-46-41
+      updated: 2026-11-03-01-24-03
       followers: 1310
       likes: 34
       views: 440
@@ -2211,10 +2211,10 @@
     - service: tg
       id: 1312
       published: 2026-09-04-18-39-49
-      updated: 2026-10-27-01-11-52
+      updated: 2026-11-03-01-23-55
       followers: 942
       likes: 65
-      views: 567
+      views: 571
     - service: mx
       id: '1788547193864'
       published: 2026-09-04-18-39-54
