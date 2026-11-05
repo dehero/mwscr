@@ -563,7 +563,7 @@ antiorum:
   profiles:
     - service: vk
       id: '3571955'
-      updated: 2026-10-28-17-09-48
+      updated: 2026-11-05-00-01-53
       username: antiorum
       name: Андрей Барсуков
       avatar: store:/avatars/vk-36f45919.jpg
@@ -1577,7 +1577,7 @@ dehero:
     - type: channel
       service: vk
       id: '138249959'
-      updated: 2026-11-04-10-03-36
+      updated: 2026-11-05-00-02-34
       username: mwscr
       name: Morrowind Screenshots
       avatar: store:/avatars/vk-8e97fd4f.jpg
@@ -2421,7 +2421,7 @@ fukkatsumy-kamikoto:
   profiles:
     - service: vk
       id: '172283748'
-      updated: 2026-11-04-18-20-46
+      updated: 2026-11-05-00-01-49
       username: fukkatsumy_kamikoto
       name: Фуккацуми Камикото
       avatar: store:/avatars/vk-d88f6ba3.jpg
@@ -3003,7 +3003,7 @@ ilyatamrielsky:
   profiles:
     - service: vk
       id: '450332094'
-      updated: 2026-11-03-22-08-43
+      updated: 2026-11-05-00-01-36
       username: ilyatamrielsky
       name: Илья Кудинов
       avatar: store:/avatars/vk-4dd811d3.jpg
@@ -3681,7 +3681,7 @@ kydinov91:
   profiles:
     - service: vk
       id: '36104583'
-      updated: 2026-10-29-02-10-40
+      updated: 2026-11-05-00-02-18
       username: kydinov91
       name: Илья Кудинов
       avatar: store:/avatars/vk-03d8a48a.jpg
@@ -3921,7 +3921,7 @@ m-a-dadychenko:
   profiles:
     - service: vk
       id: '7106429'
-      updated: 2026-11-01-06-58-50
+      updated: 2026-11-05-00-02-17
       username: m_a_dadychenko
       name: Марина Дадыченко
       avatar: store:/avatars/vk-45fb0778.jpg
@@ -4123,7 +4123,7 @@ max-tsei:
   profiles:
     - service: vk
       id: '353284524'
-      updated: 2026-11-04-18-20-33
+      updated: 2026-11-05-00-01-36
       username: max.tsei
       avatar: store:/avatars/vk-7f160215.jpg
       deleted: true
@@ -4665,7 +4665,7 @@ nickplush:
 nicotheterrible:
   profiles:
     - service: ig
-      updated: 2026-10-07-21-47-45
+      updated: 2026-11-05-00-03-03
       username: nicotheterrible
 nihil-sum:
   profiles:
@@ -7053,7 +7053,7 @@ user-32:
   profiles:
     - service: vk
       id: '314007101'
-      updated: 2026-11-04-18-19-25
+      updated: 2026-11-05-00-02-15
       username: id314007101
       avatar: store:/avatars/vk-7f160215.jpg
       deleted: true
@@ -7421,7 +7421,7 @@ vladms:
   profiles:
     - service: vk
       id: '144316708'
-      updated: 2026-10-28-17-09-51
+      updated: 2026-11-05-00-01-54
       username: vladms
       name: Владислав Масленников
       avatar: store:/avatars/vk-6d6a6086.jpg
