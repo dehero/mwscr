@@ -3167,7 +3167,7 @@ ivan-uralov:
   profiles:
     - service: vk
       id: '16497155'
-      updated: 2026-11-05-15-52-15
+      updated: 2026-11-06-16-24-21
       username: id16497155
       name: Иван Уралов
       avatar: store:/avatars/vk-51775759.jpg
@@ -5843,7 +5843,7 @@ sergey-b-2:
   profiles:
     - service: vk
       id: '1077446394'
-      updated: 2026-11-06-08-39-43
+      updated: 2026-11-06-16-24-21
       username: id1077446394
       name: Сергей Б
       avatar: store:/avatars/vk-70268334.jpg
@@ -6777,7 +6777,7 @@ toontoown:
 trashitte:
   profiles:
     - service: ig
-      updated: 2026-10-09-15-51-12
+      updated: 2026-11-06-16-24-22
       username: trashitte
 tripp-beacham:
   profiles:
