@@ -369,6 +369,11 @@ alexey-stepanov:
       updated: 2026-11-03-20-03-11
       accessHash: '-5956311577458137926'
       name: Alexey Stepanov
+alexis92402:
+  profiles:
+    - service: ig
+      updated: 2026-11-06-01-51-46
+      username: alexis92402
 alice-rabbit-02:
   profiles:
     - service: tg
@@ -649,7 +654,7 @@ artyom-karpov:
   profiles:
     - service: vk
       id: '178018548'
-      updated: 2026-10-29-16-39-36
+      updated: 2026-11-06-01-52-44
       username: id178018548
       name: Артём Карпов
       avatar: store:/avatars/vk-72fe5d60.jpg
@@ -1493,7 +1498,7 @@ daryna-dmytrenko:
   profiles:
     - service: vk
       id: '164064457'
-      updated: 2026-10-29-16-39-12
+      updated: 2026-11-06-01-52-24
       username: daryna_dmytrenko
       name: Дарина Дмитренко
       avatar: store:/avatars/vk-0d327853.jpg
@@ -1570,7 +1575,7 @@ dehero:
       avatar: store:/avatars/gh-c8afe641.jpg
     - service: vk
       id: '3652910'
-      updated: 2026-11-05-21-40-06
+      updated: 2026-11-06-01-53-18
       username: dehero
       name: Антон Курьянов
       avatar: store:/avatars/vk-5356f76e.jpg
@@ -2240,7 +2245,7 @@ evil-kit:
   profiles:
     - service: vk
       id: '153155138'
-      updated: 2026-10-29-16-50-49
+      updated: 2026-11-06-01-52-51
       username: evil_kit
       name: Никита Метелкин
       avatar: store:/avatars/vk-adb64972.jpg
@@ -2919,7 +2924,7 @@ idalexeyvav:
   profiles:
     - service: vk
       id: '417783044'
-      updated: 2026-11-05-21-40-35
+      updated: 2026-11-06-01-52-21
       username: idalexeyvav
       name: Алексей Вавилов
       avatar: store:/avatars/vk-6717456e.jpg
@@ -3539,6 +3544,11 @@ kilbil200:
       username: kilbil200
       name: Артём Жуков
       avatar: store:/avatars/vk-e757edac.jpg
+kilo-lima6907:
+  profiles:
+    - service: ig
+      updated: 2026-11-06-01-51-46
+      username: kilo_lima6907
 kirillmanyukov:
   profiles:
     - service: vk
@@ -3880,7 +3890,7 @@ lufendo:
 lukaszdrandijski:
   profiles:
     - service: ig
-      updated: 2026-10-08-21-51-04
+      updated: 2026-11-06-01-53-48
       username: lukaszdrandijski
 lukekrian:
   profiles:
@@ -3913,7 +3923,7 @@ lycanthropy:
   profiles:
     - service: vk
       id: '5386912'
-      updated: 2026-11-05-07-30-16
+      updated: 2026-11-06-01-53-21
       username: lycanthropy
       name: Филипп Суворов
       avatar: store:/avatars/vk-96cd2c06.jpg
@@ -4768,7 +4778,7 @@ non-nobis777:
 norbington:
   profiles:
     - service: ig
-      updated: 2026-10-08-21-51-08
+      updated: 2026-11-06-01-53-48
       username: norbington
 notyrobot:
   profiles:
@@ -5471,7 +5481,7 @@ reborninblackandgold:
 recx74:
   profiles:
     - service: ig
-      updated: 2026-10-08-21-50-58
+      updated: 2026-11-06-01-53-48
       username: recx74
 redmisstletoe:
   profiles:
@@ -6180,7 +6190,7 @@ soulilight:
   profiles:
     - service: vk
       id: '347703822'
-      updated: 2026-11-05-15-53-56
+      updated: 2026-11-06-01-53-01
       username: soulilight
       name: Dima Boev
       avatar: store:/avatars/vk-4a3f332e.jpg
@@ -6605,7 +6615,7 @@ theclockworkgod:
 thedrewplanet:
   profiles:
     - service: ig
-      updated: 2026-10-08-21-51-13
+      updated: 2026-11-06-01-53-48
       username: thedrewplanet
 thedrongo7:
   profiles:
@@ -7091,7 +7101,7 @@ user-36:
   profiles:
     - service: vk
       id: '227500203'
-      updated: 2026-10-29-16-40-19
+      updated: 2026-11-06-01-53-19
       username: id227500203
       avatar: store:/avatars/vk-7f160215.jpg
       deleted: true
