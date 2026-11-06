@@ -6,6 +6,7 @@ export interface Option<T = string> {
   value: T | undefined;
   label?: string | IntlText;
   image?: string;
+  group?: string | IntlText;
 }
 
 export const ALL_OPTION = { value: undefined, label: texts.common.all } as const satisfies Option;

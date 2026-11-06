@@ -13,7 +13,7 @@ import {
 } from '../../../../core/entities/post.ts';
 import type { SelectPostInfosParams, SelectPostInfosSortKey } from '../../../../core/entities/post-info.ts';
 import { selectPostInfosSortOptions } from '../../../../core/entities/post-info.ts';
-import type { PostsManagerName } from '../../../../core/entities/posts-manager.ts';
+import { getPublicPostsManagerTypeKeys, type PostsManagerName } from '../../../../core/entities/posts-manager.ts';
 import { safeParseSchema } from '../../../../core/entities/schema.ts';
 import type { DateRange, SortDirection } from '../../../../core/utils/common-types.ts';
 import { stringToBool } from '../../../../core/utils/common-utils.ts';
@@ -119,11 +119,11 @@ export const postsPageLayouts: Record<PostsManagerName, PostsPageInfo> = {
       'official',
       'aspect',
     ],
-    typeKeys: PostType.options.filter((type) => postTypeDescriptors[type].strict),
+    typeKeys: getPublicPostsManagerTypeKeys('posts'),
   },
   extras: {
     presetKeys: ['edits'],
-    typeKeys: PostType.options.filter((type) => !postTypeDescriptors[type].strict),
+    typeKeys: getPublicPostsManagerTypeKeys('extras'),
     filters: ['date', 'author', 'original', 'tag', 'type', 'status', 'aspect'],
   },
   drafts: {
@@ -165,12 +165,27 @@ export const postsPageLayouts: Record<PostsManagerName, PostsPageInfo> = {
   },
 };
 
+// Search params that are configured outside of presets (via their own
+// navigation). Presets neither match nor reset them. Currently empty, so
+// presets and the full reset cover every param, including type, search and sort.
+const presetExcludedKeys: readonly (keyof PostsPageSearchParams)[] = [];
+
 export function usePostsPageOptions(params: PostsPageParams) {
   const layout = () => postsPageLayouts[params.managerName];
 
   const [searchParams, setSearchParams] = useSearchParams<PostsPageSearchParams>();
 
-  const activeCount = () => Object.keys(searchParams).length;
+  const filterParams = (): PostsPageSearchParams => {
+    const params = { ...searchParams };
+
+    for (const key of presetExcludedKeys) {
+      delete params[key];
+    }
+
+    return params;
+  };
+
+  const activeCount = () => Object.keys(filterParams()).length;
 
   const sortOptions = () =>
     selectPostInfosSortOptions.filter((item) => !layout().sortKeys || layout().sortKeys?.includes(item.value));
@@ -178,7 +193,7 @@ export function usePostsPageOptions(params: PostsPageParams) {
     let options: PostsPagePreset[] = presets.filter(
       (item) => !item.value || !layout().presetKeys || layout().presetKeys?.includes(item.value),
     );
-    const currentParams = searchParams;
+    const currentParams = filterParams();
     const currentPreset = options.find((preset) => isObjectEqual(preset.searchParams, currentParams));
 
     if (!currentPreset) {
@@ -198,7 +213,7 @@ export function usePostsPageOptions(params: PostsPageParams) {
     ALL_OPTION,
     ...PostType.options
       .filter((item) => !layout().typeKeys || layout().typeKeys?.includes(item))
-      .map((value) => ({ value, label: localize(postTypeDescriptors[value].title) }))
+      .map((value) => ({ value, label: localize(postTypeDescriptors[value].titleMultiple) }))
       .sort((a, b) => a.label.localeCompare(b.label)),
   ];
 
@@ -220,7 +235,7 @@ export function usePostsPageOptions(params: PostsPageParams) {
     sortOptions().find((sortOption) => sortOption.value === searchParams.sort?.split(',')[0])?.value || 'date';
   const sortDirection = () => (searchParams.sort?.split(',')[1] === 'asc' ? 'asc' : 'desc');
   const search = () => searchParams.search;
-  const preset = () => presetOptions().find((preset) => isObjectEqual(preset.searchParams, searchParams))?.value;
+  const preset = () => presetOptions().find((preset) => isObjectEqual(preset.searchParams, filterParams()))?.value;
   const aspect = () => safeParseSchema(PostAspectRatio, searchParams.aspect);
 
   const date = (): DateRange | undefined => (searchParams.date ? stringToDateRange(searchParams.date!) : undefined);
@@ -237,8 +252,18 @@ export function usePostsPageOptions(params: PostsPageParams) {
       (addon) => addon === searchParams.addon,
     ) as SelectPostInfosParams['addon'];
 
-  const setPreset = (preset: string | undefined) =>
-    setSearchParams({ ...emptySearchParams, ...presetOptions().find((item) => item.value === preset)?.searchParams });
+  const setPreset = (preset: string | undefined) => {
+    const params: PostsPageSearchParams = {
+      ...emptySearchParams,
+      ...presetOptions().find((item) => item.value === preset)?.searchParams,
+    };
+
+    for (const key of presetExcludedKeys) {
+      params[key] = searchParams[key];
+    }
+
+    setSearchParams(params);
+  };
   const setOriginal = (original: boolean | undefined) => setSearchParams({ original });
   const setOfficial = (official: boolean | undefined) => setSearchParams({ official });
   const setPublishable = (publishable: boolean | undefined) => setSearchParams({ publishable });

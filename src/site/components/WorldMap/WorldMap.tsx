@@ -21,6 +21,7 @@ export interface WorldMapProps {
   class?: string;
   onSelectLocation?: (location: string | undefined) => void;
   currentLocation?: string;
+  currentLocationInfo?: LocationInfo;
   discoveredLocations?: string[];
   readonly?: boolean;
 }
@@ -85,6 +86,9 @@ export const WorldMap: Component<WorldMapProps> = (props) => {
   );
 
   const selectedWorldLocation = () => {
+    if (props.currentLocationInfo) {
+      return props.currentLocationInfo;
+    }
     if (props.currentLocation) {
       return worldLocations().find((location) => location.title === props.currentLocation);
     }

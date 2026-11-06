@@ -1,0 +1,207 @@
+.container {
+  flex-grow: 1;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto auto auto auto;
+  grid-template-areas:
+    'coverage'
+    'list'
+    'map'
+    'card';
+  height: 100%;
+  min-height: 0;
+  padding: 0 8px 8px 8px;
+  gap: 8px;
+  overflow-y: auto;
+  border: none;
+}
+
+.coveragePanel {
+  grid-area: coverage;
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  gap: 8px 16px;
+  padding: 12px;
+}
+
+.coverageFilter {
+  flex: 0 0 auto;
+}
+
+.summary {
+  color: var(--color-text-light);
+  flex: 0 0 auto;
+}
+
+.progress {
+  flex: 1 1 0;
+  min-width: 200px;
+}
+
+.listPanel {
+  grid-area: list;
+  display: flex;
+  flex-flow: column nowrap;
+  padding: 0;
+  min-height: 0;
+  overflow: hidden;
+}
+
+.listToolbar {
+  display: grid;
+  grid-template-areas:
+    'types sort'
+    'search search';
+  grid-template-columns: 1fr auto;
+  gap: 8px;
+  align-items: center;
+  padding: 12px;
+  flex: 0 0 auto;
+  min-width: 0;
+}
+
+.typeOverflow {
+  grid-area: types;
+  min-width: 0;
+}
+
+.typeNavigationGroup {
+  flex-wrap: nowrap;
+}
+
+.sort {
+  grid-area: sort;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.searchWrapper {
+  grid-area: search;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  min-width: 0;
+}
+
+.searchInputWrapper {
+  display: inline-block;
+  max-width: 100%;
+  flex: 1 1 auto;
+  min-width: 0;
+}
+
+.listDivider {
+  margin: 0 12px;
+}
+
+.resultRow {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 12px;
+}
+
+.resultText {
+  margin: 0;
+  color: var(--color-text-light);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  flex: 1 1 auto;
+}
+
+.list {
+  margin: 8px 12px;
+}
+
+.listWrapper {
+  flex: 1 1 auto;
+  min-height: 160px;
+  max-height: 50vh;
+  overflow-y: auto;
+  position: relative;
+}
+
+.mapPanel {
+  grid-area: map;
+  display: flex;
+  flex-flow: column nowrap;
+  padding: 0;
+  min-height: 0;
+  min-width: 0;
+  overflow: hidden;
+}
+
+.worldMap {
+  flex: 1 1 auto;
+  min-height: 320px;
+}
+
+.cardPanel {
+  grid-area: card;
+  display: flex;
+  flex-flow: column nowrap;
+  gap: 8px;
+  padding: 8px;
+  min-height: 0;
+  overflow-y: auto;
+}
+
+.titles {
+  display: flex;
+  flex-flow: column nowrap;
+  gap: 4px;
+  text-align: center;
+  text-wrap: balance;
+}
+
+.title {
+  color: var(--color-text-light);
+  font-size: inherit;
+  font-weight: inherit;
+  margin: 0;
+}
+
+.titleRu {
+  margin: 0;
+}
+
+.blockTitle {
+  color: var(--color-text-light);
+  margin-top: 4px;
+}
+
+.placeholder {
+  margin: 0;
+  color: var(--color-text-light);
+}
+
+.actions {
+  display: flex;
+  flex-flow: row wrap;
+  gap: 4px;
+}
+
+@media only screen and (min-width: 812px) {
+  .container {
+    grid-template-columns:
+      minmax(var(--size-panel-min-width), 2fr) minmax(var(--size-panel-min-width), 2fr)
+      minmax(var(--size-panel-min-width), 1fr);
+    grid-template-rows: auto minmax(0, 1fr);
+    grid-template-areas:
+      'coverage coverage coverage'
+      'list map card';
+    overflow: hidden;
+  }
+
+  .listWrapper {
+    max-height: none;
+    min-height: 0;
+  }
+
+  .worldMap {
+    min-height: 0;
+  }
+}

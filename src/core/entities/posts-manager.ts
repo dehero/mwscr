@@ -20,6 +20,7 @@ import {
   PostAuthor,
   PostContent,
   postMarkDescriptors,
+  postTypeDescriptors,
   PostNote,
   PostTitle,
   PostTitleRu,
@@ -75,6 +76,14 @@ export type PostsManagerName = InferOutput<typeof PostsManagerName>;
 
 export const PublicPostsManagerName = picklist(['posts', 'extras']);
 export type PublicPostsManagerName = InferOutput<typeof PublicPostsManagerName>;
+
+export function getPostsManagerNameByType(type: PostType): PublicPostsManagerName {
+  return postTypeDescriptors[type].strict ? 'posts' : 'extras';
+}
+
+export function getPublicPostsManagerTypeKeys(managerName: PublicPostsManagerName): PostType[] {
+  return PostType.options.filter((type) => getPostsManagerNameByType(type) === managerName);
+}
 
 export const PostsManagerPatch = ListManagerPatch<Post>(Post);
 export type PostsManagerPatch = InferOutput<typeof PostsManagerPatch>;

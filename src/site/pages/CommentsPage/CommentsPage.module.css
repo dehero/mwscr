@@ -1,0 +1,185 @@
+.container {
+  flex-grow: 1;
+  display: flex;
+  flex-flow: column nowrap;
+  gap: 8px;
+  height: 100%;
+  box-sizing: border-box;
+  padding: 8px;
+  margin: 0 -2px -2px;
+  overflow-y: auto;
+}
+
+.filters {
+  display: flex;
+  flex-flow: column nowrap;
+  align-content: flex-start;
+  position: relative;
+}
+
+.filterHeader {
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+  padding: 12px;
+}
+
+.filterControls {
+  display: flex;
+  flex-flow: column nowrap;
+  gap: 12px;
+  padding: 12px;
+  overflow: auto;
+}
+
+.filter {
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  gap: 4px;
+  color: var(--color-text-light);
+}
+
+.filter > span {
+  flex: 0 0 88px;
+}
+
+.filterControl {
+  flex: 1 1 auto;
+  min-width: 0;
+  width: 100%;
+}
+
+.filter > button.filterControl {
+  flex: 0 0 auto;
+  width: auto;
+}
+
+.content {
+  display: flex;
+  flex-flow: column nowrap;
+  min-width: 0;
+  min-height: 0;
+  gap: 8px;
+  padding: 8px 0;
+  overflow: hidden;
+  flex: 1 1 0;
+}
+
+.filterbar {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  gap: 8px;
+  flex: 0 0 auto;
+  padding: 8px 12px;
+}
+
+.services {
+  display: inline-flex;
+  flex: 0 1 auto;
+}
+
+.toolbarDivider {
+  margin: 0 12px;
+}
+
+.searchWrapper {
+  display: flex;
+  flex: 1 1 240px;
+  align-items: center;
+  gap: 4px;
+  min-width: 0;
+}
+
+.searchInput {
+  flex: 1 1 auto;
+  min-width: 0;
+}
+
+.sort {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  gap: 4px;
+  flex: 0 1 auto;
+  min-width: 0;
+  color: var(--color-text-light);
+}
+
+.sortDirection {
+  flex-wrap: nowrap;
+}
+
+.resultbar {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  flex: 0 0 auto;
+  padding: 0 12px;
+}
+
+.summary {
+  flex: 0 0 auto;
+  margin: 0;
+  color: var(--color-text-light);
+}
+
+.resultbar > button {
+  margin-left: auto;
+}
+
+.commentsDivider {
+  margin: 0 12px;
+}
+
+.comments {
+  flex: 1 1 0;
+  min-height: 0;
+  overflow-y: auto;
+}
+
+@media only screen and (min-width: 812px) {
+  .container {
+    display: grid;
+    grid-template-columns: minmax(var(--size-panel-min-width), 1fr) minmax(var(--size-panel-min-width), 3fr);
+    grid-template-rows: minmax(0, 1fr);
+    grid-template-areas: 'filters content';
+    padding: 0 8px 8px;
+    margin: 0;
+    overflow: hidden;
+    border: none;
+  }
+
+  .filters,
+  .content {
+    min-height: 0;
+  }
+
+  .filters {
+    grid-area: filters;
+  }
+
+  .content {
+    grid-area: content;
+  }
+}
+
+@media only screen and (max-width: 811px) {
+  .content {
+    min-height: auto;
+    overflow: visible;
+  }
+
+  .filters {
+    flex: 0 0 auto;
+  }
+
+  .comments {
+    flex: 0 0 auto;
+    min-height: 0;
+    overflow: visible;
+  }
+}
