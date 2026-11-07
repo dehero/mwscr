@@ -760,10 +760,10 @@
     - service: vk
       id: 3584
       published: 2026-10-02-19-47-40
-      updated: 2026-10-31-18-05-38
+      updated: 2026-11-07-19-07-47
       followers: 1445
-      likes: 58
-      views: 634
+      likes: 59
+      views: 640
       reposts: 1
       comments: !c |-
         G4YAYMT//1MDGMCvGRssx0cLtoallFI3buzxMRbIvA+L9QLWMY50IH+gEQaAm/YYG9NWysLUO927
@@ -772,10 +772,10 @@
     - service: tg
       id: 1329
       published: 2026-10-02-19-47-49
-      updated: 2026-10-31-18-05-32
+      updated: 2026-11-07-19-07-40
       followers: 946
       likes: 54
-      views: 453
+      views: 461
     - service: mx
       id: '1790970473793'
       published: 2026-10-02-19-47-54
@@ -872,3 +872,4 @@
 2026-11-04-1-near-suran: 2017-08-25-near-suran
 2026-11-05-1-god-of-madness-and-his-follower: 2017-06-07-god-of-madness-and-his-follower
 2026-11-06-1-soul-of-scamp-in-mummys-hands: 2017-11-20-soul-of-scamp-in-mummys-hands
+2026-11-07-1-southern-shore-of-northern-land: 2018-08-28-southern-shore-of-northern-land

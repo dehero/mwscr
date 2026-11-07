@@ -638,7 +638,7 @@ artem-solovev:
   profiles:
     - service: vk
       id: '733007624'
-      updated: 2026-11-07-14-27-48
+      updated: 2026-11-07-19-07-35
       username: id733007624
       name: Twin Lamps
       avatar: store:/avatars/vk-a47b03be.jpg
@@ -678,7 +678,7 @@ arya-stark:
   profiles:
     - service: vk
       id: '820702664'
-      updated: 2026-11-06-21-50-30
+      updated: 2026-11-07-19-07-47
       username: id820702664
       name: Арья Старк
       avatar: store:/avatars/vk-689aa89d.jpg
@@ -3167,7 +3167,7 @@ ivan-uralov:
   profiles:
     - service: vk
       id: '16497155'
-      updated: 2026-11-06-21-50-37
+      updated: 2026-11-07-19-07-44
       username: id16497155
       name: Иван Уралов
       avatar: store:/avatars/vk-51775759.jpg
@@ -4226,7 +4226,7 @@ michael-levington:
   profiles:
     - service: vk
       id: '416916067'
-      updated: 2026-11-01-22-32-16
+      updated: 2026-11-07-19-07-45
       username: michael_levington
       name: Майкл Левингтон
       avatar: store:/avatars/vk-77942374.jpg
@@ -5843,7 +5843,7 @@ sergey-b-2:
   profiles:
     - service: vk
       id: '1077446394'
-      updated: 2026-11-07-14-27-50
+      updated: 2026-11-07-19-07-47
       username: id1077446394
       name: Сергей Б
       avatar: store:/avatars/vk-70268334.jpg
@@ -7511,7 +7511,7 @@ vvardenfell:
 walkingthroughspiderwebs:
   profiles:
     - service: ig
-      updated: 2026-10-10-18-14-19
+      updated: 2026-11-07-19-07-47
       username: walkingthroughspiderwebs
 walter-nyqvist:
   profiles:
