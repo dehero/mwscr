@@ -5843,7 +5843,7 @@ sergey-b-2:
   profiles:
     - service: vk
       id: '1077446394'
-      updated: 2026-11-07-01-22-36
+      updated: 2026-11-07-07-54-00
       username: id1077446394
       name: Сергей Б
       avatar: store:/avatars/vk-70268334.jpg
@@ -7804,6 +7804,11 @@ zac-spryn:
       username: zac_spryn
       name: Zac Spryn
       avatar: store:/avatars/ig-bc5a475a.jpg
+zajic-polni:
+  profiles:
+    - service: ig
+      updated: 2026-11-07-07-53-55
+      username: zajic.polni
 zhechka-drv:
   profiles:
     - service: tg
