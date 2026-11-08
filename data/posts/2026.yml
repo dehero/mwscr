@@ -487,10 +487,10 @@
     - service: tg
       id: 1169
       published: 2026-03-04-19-11-43
-      updated: 2026-11-01-00-42-17
+      updated: 2026-11-08-09-41-07
       followers: 884
       likes: 56
-      views: 501
+      views: 502
       comments: !c |-
         CzmAkpPLQnnLp7gLAACma2V2eS1jpPCfpoCTy0J5y6RUH4AArnBhaW5raWxsZXIxOTg22UHQntGE
         0LjRhtC10YDRgdC60LDRjyDRh9C10YHRgtGMINCyINC70LDQs9C10YDQtSDQo9GA0YjRg9C70LDQ
@@ -548,7 +548,7 @@
     - service: tg
       id: 1206
       published: 2026-04-09-18-46-00
-      updated: 2026-11-01-00-41-43
+      updated: 2026-11-08-09-40-11
       followers: 897
       likes: 53
       views: 696
@@ -560,7 +560,7 @@
       id: DXCGhYhDKDH
       mediaId: '18571358389046109'
       published: 2026-04-12-13-12-20
-      updated: 2026-11-01-00-42-19
+      updated: 2026-11-08-09-40-30
       followers: 1622
       likes: 89
     - service: vk
@@ -594,13 +594,13 @@
       id: DXH5vAAjSsY
       mediaId: '18058600517474559'
       published: 2026-04-14-19-16-02
-      updated: 2026-11-01-00-42-18
+      updated: 2026-11-08-09-40-29
       followers: 1621
       likes: 71
     - service: tg
       id: 1208
       published: 2026-04-14-19-16-12
-      updated: 2026-11-01-00-41-42
+      updated: 2026-11-08-09-40-09
       followers: 897
       likes: 58
       views: 579
