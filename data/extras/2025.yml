@@ -195,10 +195,10 @@
     - service: vk
       id: 2423
       published: 2025-06-02-13-46-51
-      updated: 2026-11-03-01-26-43
+      updated: 2026-11-10-07-54-00
       followers: 1315
       likes: 31
-      views: 353
+      views: 354
     - service: tg
       id:
         - 871
@@ -361,10 +361,10 @@
     - service: vk
       id: 2631
       published: 2025-09-04-09-15-00
-      updated: 2026-11-03-01-26-43
+      updated: 2026-11-10-07-53-59
       followers: 1404
       likes: 25
-      views: 622
+      views: 623
     - service: tg
       id:
         - 972
@@ -473,10 +473,10 @@
         - 992
         - 993
       published: 2025-09-22-09-23-57
-      updated: 2026-11-03-01-26-41
+      updated: 2026-11-10-07-53-57
       followers: 798
       likes: 72
-      views: 679
+      views: 681
 2025-11-19-1-wall-calendar-2026:
   title: Wall Calendar for CE 2026
   titleRu: Настенный календарь НЭ 2026
@@ -708,10 +708,10 @@
     - service: vk
       id: 2886
       published: 2025-11-26-12-44-48
-      updated: 2026-11-03-01-26-42
+      updated: 2026-11-10-07-53-58
       followers: 1527
       likes: 24
-      views: 511
+      views: 514
       reposts: 2
     - service: tg
       id: 1069
@@ -750,18 +750,18 @@
     - service: vk
       id: 2902
       published: 2025-11-30-15-16-00
-      updated: 2026-11-03-01-26-41
+      updated: 2026-11-10-07-53-57
       followers: 1532
       likes: 49
-      views: 717
+      views: 719
       reposts: 5
     - service: tg
       id: 1074
       published: 2025-11-30-15-16-00
-      updated: 2026-11-03-01-26-41
+      updated: 2026-11-10-07-53-57
       followers: 867
       likes: 40
-      views: 666
+      views: 668
     - service: ig
       id: DUMMY
       mediaId: ''

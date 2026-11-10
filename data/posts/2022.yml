@@ -75,10 +75,10 @@
     - service: vk
       id: 2129
       published: 2025-02-13-18-17-15
-      updated: 2026-11-03-01-24-57
+      updated: 2026-11-10-07-52-22
       followers: 1069
       likes: 60
-      views: 542
+      views: 544
       reposts: 3
     - service: tg
       id: 706
@@ -98,7 +98,7 @@
     - service: tg
       id: 1242
       published: 2026-06-20-18-04-54
-      updated: 2026-11-03-01-24-47
+      updated: 2026-11-10-07-52-14
       followers: 917
       likes: 62
       views: 566
@@ -485,17 +485,17 @@
       id: DFIy-QvpBXC
       mediaId: '17919683631030829'
       published: 2025-01-22-18-11-06
-      updated: 2026-11-02-08-37-52
+      updated: 2026-11-10-07-51-33
       followers: 1529
       likes: 78
       views: 326
     - service: vk
       id: 2077
       published: 2025-01-22-18-11-15
-      updated: 2026-11-03-01-25-45
+      updated: 2026-11-10-07-53-00
       followers: 1054
       likes: 38
-      views: 357
+      views: 359
       reposts: 1
       comments: !c |-
         G0YB4K0SeFPfQg0HgvWO468c/4/cswjfPtVWfzFkEbVEIk/OhdQ24wTCjIUjZU87qG3SvDZPf4pU
@@ -530,7 +530,7 @@
     - service: tg
       id: 1238
       published: 2026-06-08-19-33-03
-      updated: 2026-11-03-01-24-51
+      updated: 2026-11-10-07-52-21
       followers: 912
       likes: 65
       views: 762
@@ -706,10 +706,10 @@
     - service: vk
       id: 2165
       published: 2025-03-02-18-10-15
-      updated: 2026-11-03-01-24-27
+      updated: 2026-11-10-07-51-56
       followers: 1153
       likes: 66
-      views: 602
+      views: 603
       reposts: 6
       comments: !c CxSAkZPLQnlVsX4xgACmbWlicm5kttCa0YPQtNCwINC/0LvRi9Cyw6vQvD8D
     - service: tg
@@ -783,10 +783,10 @@
     - service: vk
       id: 2153
       published: 2025-02-27-19-01-40
-      updated: 2026-11-03-01-24-31
+      updated: 2026-11-10-07-52-01
       followers: 1143
       likes: 36
-      views: 593
+      views: 594
 2022-07-06-still-life-with-orc:
   title: Still Life with Orc
   titleRu: Натюрморт с орком
@@ -906,10 +906,10 @@
     - service: tg
       id: 1314
       published: 2026-09-06-18-43-15
-      updated: 2026-11-03-01-23-53
+      updated: 2026-11-10-07-51-23
       followers: 944
       likes: 73
-      views: 551
+      views: 561
     - service: mx
       id: '1788720198982'
       published: 2026-09-06-18-43-19
@@ -1122,7 +1122,7 @@
       id: DEdBVU5N41v
       mediaId: '17961607766841983'
       published: 2025-01-05-18-10-00
-      updated: 2026-11-02-08-38-12
+      updated: 2026-11-10-07-51-58
       followers: 1521
       likes: 185
       views: 615
@@ -1133,10 +1133,10 @@
     - service: vk
       id: 2020
       published: 2025-01-05-18-10-20
-      updated: 2026-11-03-01-26-10
+      updated: 2026-11-10-07-53-27
       followers: 1043
       likes: 56
-      views: 409
+      views: 410
       reposts: 5
       comments: !c |-
         G54BoCwOjFvLA+sgxS3V6Bwf4o3+iYuR/rwONOIzTS+hZppJPNn307xfDLsaBn+xJCQx8g0Hh/rr
@@ -1609,10 +1609,10 @@
     - service: tg
       id: 1274
       published: 2026-07-29-18-50-04
-      updated: 2026-11-03-01-24-18
+      updated: 2026-11-10-07-51-49
       followers: 920
       likes: 58
-      views: 612
+      views: 615
     - service: mx
       id: '1785351008124'
       published: 2026-07-29-18-50-08
@@ -2342,10 +2342,10 @@
     - service: tg
       id: 1255
       published: 2026-07-10-18-20-41
-      updated: 2026-11-03-01-24-36
+      updated: 2026-11-10-07-52-04
       followers: 916
       likes: 63
-      views: 552
+      views: 553
     - service: mx
       id: '1783707647206'
       published: 2026-07-10-18-20-47
