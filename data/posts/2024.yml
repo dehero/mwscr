@@ -699,10 +699,10 @@
     - service: vk
       id: 2462
       published: 2025-06-13-18-28-21
-      updated: 2026-11-02-08-37-18
+      updated: 2026-11-10-00-55-52
       followers: 1323
       likes: 76
-      views: 623
+      views: 625
       reposts: 1
       comments: !c |-
         G2YA+C2Sx51PqajnjgRVuyc8fdUAixJsEok82XUbO2s2rgWCGBk049gDm/mgXtvduqXsbFrZZacm
@@ -1320,10 +1320,10 @@
     - service: vk
       id: 2458
       published: 2025-06-09-18-28-37
-      updated: 2026-11-02-08-37-23
+      updated: 2026-11-10-00-55-56
       followers: 1318
       likes: 45
-      views: 390
+      views: 392
     - service: tg
       id: 880
       published: 2025-06-09-18-28-42
@@ -2922,10 +2922,10 @@
     - service: vk
       id: 2466
       published: 2025-06-15-18-25-37
-      updated: 2026-11-02-01-59-25
+      updated: 2026-11-10-00-55-49
       followers: 1328
       likes: 56
-      views: 525
+      views: 527
       reposts: 2
     - service: tg
       id: 886
@@ -4358,7 +4358,7 @@
     - service: tg
       id: 638
       published: 2024-12-26-19-32-13
-      updated: 2026-11-02-01-58-25
+      updated: 2026-11-10-00-57-50
       followers: 626
       likes: 74
       views: 1033
@@ -4426,7 +4426,7 @@
     - service: tg
       id: 639
       published: 2024-12-27-18-10-46
-      updated: 2026-11-02-01-58-25
+      updated: 2026-11-10-00-57-50
       followers: 631
       likes: 68
       views: 757
@@ -4475,10 +4475,10 @@
     - service: tg
       id: 640
       published: 2024-12-28-18-09-36
-      updated: 2026-11-02-01-58-25
+      updated: 2026-11-10-00-57-49
       followers: 638
       likes: 77
-      views: 684
+      views: 685
       comments: !c |-
         iyOAkpPLQnlCbkw1AAClYW5zaXO7VGhlIEZpcnN0IEJyZWF0aCBvZiBTa2liaWRpk8tCeUE1Nk4A
         AKt6aGVjaGthLWRydqTwn5mEAw==
@@ -4525,7 +4525,7 @@
     - service: tg
       id: 642
       published: 2024-12-30-18-10-55
-      updated: 2026-11-02-01-58-22
+      updated: 2026-11-10-00-57-46
       followers: 642
       likes: 80
       views: 1021
@@ -4572,7 +4572,7 @@
     - service: tg
       id: 643
       published: 2024-12-31-18-10-35
-      updated: 2026-11-02-01-58-22
+      updated: 2026-11-10-00-57-44
       followers: 643
       likes: 69
       views: 616
