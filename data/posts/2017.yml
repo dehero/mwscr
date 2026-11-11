@@ -201,10 +201,10 @@
     - service: vk
       id: 3608
       published: 2026-10-13-22-30-48
-      updated: 2026-11-04-18-18-44
+      updated: 2026-11-11-23-10-56
       followers: 1454
       likes: 56
-      views: 669
+      views: 676
       reposts: 3
       comments: !c |-
         G+UAeKwObMf0NOw05A0QXqMi+ArRP/09I734H0qJF5VYk1ikyR6tmxKi0IUy4x3DhArKbeZsTv4u
@@ -213,10 +213,10 @@
     - service: tg
       id: 1342
       published: 2026-10-13-22-30-54
-      updated: 2026-11-04-18-18-42
+      updated: 2026-11-11-23-10-50
       followers: 949
       likes: 58
-      views: 380
+      views: 395
     - service: ig
       id: DedOT9aj5Qs
       mediaId: '17901686076379163'
@@ -1924,7 +1924,7 @@
       id: Dd356LyoK8E
       mediaId: '18116820317061091'
       published: 2026-09-29-13-49-32
-      updated: 2026-11-04-18-18-52
+      updated: 2026-11-11-23-11-02
       followers: 2678
       likes: 219
       comments: !c |-
@@ -2471,9 +2471,9 @@
       id: Dd4e6YJGI3F
       mediaId: '17982575265085562'
       published: 2026-09-29-19-12-51
-      updated: 2026-11-04-18-18-50
+      updated: 2026-11-11-23-11-00
       followers: 2688
-      likes: 407
+      likes: 406
 2017-02-16-sunrise-over-the-ash-forest:
   title: Sunrise Over the Ash Forest
   titleRu: Рассвет над пепельным лесом
@@ -8393,9 +8393,9 @@
       id: Dfk4hAzF66D
       mediaId: '18117448232593703'
       published: 2026-11-10-21-34-31
-      updated: 2026-11-11-16-42-35
+      updated: 2026-11-11-23-10-50
       followers: 4167
-      likes: 626
+      likes: 687
       comments: !c |-
         G1UBAIzUTndXV/T/z+0HKYlFkwhplGh38/twDUkzh+aaaPBNi2PLbCc6DIj3t7utD6QUo0QD7JLS
         oL1FMrNXRGodWyPl+u+27r6c5o2rUEMxBjzPY4qL7177d+37nprq9WjXAB4YpKZUPE0CAYnPBrh4
@@ -8405,10 +8405,10 @@
     - service: vk
       id: 3727
       published: 2026-11-10-21-34-42
-      updated: 2026-11-11-16-42-36
+      updated: 2026-11-11-23-10-52
       followers: 1467
-      likes: 51
-      views: 564
+      likes: 60
+      views: 673
       reposts: 5
       comments: !c |-
         GxMBwJwJto2K9cDiDb66QDz/cOzFL/rwRyNWroIHtIkVN1ieq8tZjbDzMyLjSAvlE3ZaO/Zn2ra/
@@ -8418,10 +8418,10 @@
     - service: tg
       id: 1383
       published: 2026-11-10-21-34-48
-      updated: 2026-11-11-16-42-32
+      updated: 2026-11-11-23-10-48
       followers: 951
-      likes: 42
-      views: 237
+      likes: 44
+      views: 255
     - service: mx
       id: '1794346492980'
       published: 2026-11-10-21-34-53
@@ -10721,18 +10721,18 @@
     - service: vk
       id: 3577
       published: 2026-09-29-19-12-58
-      updated: 2026-11-04-18-18-48
+      updated: 2026-11-11-23-11-02
       followers: 1445
       likes: 65
-      views: 602
+      views: 608
       reposts: 2
     - service: tg
       id: 1326
       published: 2026-09-29-19-13-03
-      updated: 2026-11-04-18-18-46
+      updated: 2026-11-11-23-10-53
       followers: 943
       likes: 59
-      views: 469
+      views: 478
       comments: !c |-
         Gy8BKC0S7FguIGlhcMfon/6efaH4PhAJOG3CoPEIkz1k2eYqpS4MZCG9HPocc55Qcxup2II53T9z
         GhhkSwFkvYWoNE1AEj5ZE2w2xR60zwNsF1LkBkcakCcWcGBU4omPuAdcqtOaWOH89Hz99lPr876u
@@ -14401,6 +14401,23 @@
       followers: 645
       likes: 70
       views: 603
+    - service: ig
+      id: DfnouAkI6bc
+      mediaId: '18120216827520929'
+      published: 2026-11-11-23-14-15
+      followers: 4177
+    - service: vk
+      id: 3730
+      published: 2026-11-11-23-14-24
+      followers: 1467
+    - service: tg
+      id: 1384
+      published: 2026-11-11-23-14-29
+      followers: 951
+    - service: mx
+      id: '1794438874128'
+      published: 2026-11-11-23-14-34
+      followers: 43
 2017-09-17-night-square:
   title: Night Square
   titleRu: Ночная площадь
@@ -16615,9 +16632,9 @@
       id: Deu4R5RDUu_
       mediaId: '18098075129438774'
       published: 2026-10-20-22-13-28
-      updated: 2026-11-04-18-18-45
+      updated: 2026-11-11-23-10-55
       followers: 3772
-      likes: 536
+      likes: 547
       comments: !c |-
         G4oAIGTiXCvQpoEMbDSbYETTdPTF/xTRQCXw/vdOOdKAuC2QMNHsrre73W1sLLceRQqC1k7nyZV4
         TbEVMHPLkRdCPXhaF+L/RkO1C8PV6GhUxBFcGTBk03taZoIdKyHjFkFqRPH22+3/zw2QfqGf3x4A
@@ -19594,10 +19611,10 @@
     - service: vk
       id: 3591
       published: 2026-10-06-21-30-17
-      updated: 2026-11-04-18-18-47
+      updated: 2026-11-11-23-10-59
       followers: 1449
       likes: 57
-      views: 690
+      views: 705
       reposts: 4
       comments: !c |-
         G+EA8J0JdizCZBhKHhmh0ukfONkIfzgdYl4SWQkVaXLP6WZJwRLwG5Nxueq2Vp6SKZjytnMQL9zH
@@ -19606,10 +19623,10 @@
     - service: tg
       id: 1333
       published: 2026-10-06-21-30-22
-      updated: 2026-11-04-18-18-43
+      updated: 2026-11-11-23-10-51
       followers: 948
       likes: 53
-      views: 418
+      views: 429
     - service: mx
       id: '1791322225921'
       published: 2026-10-06-21-30-26
