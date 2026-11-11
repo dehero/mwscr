@@ -8393,29 +8393,35 @@
       id: Dfk4hAzF66D
       mediaId: '18117448232593703'
       published: 2026-11-10-21-34-31
-      updated: 2026-11-11-08-31-06
+      updated: 2026-11-11-16-42-35
       followers: 4167
-      likes: 506
+      likes: 626
       comments: !c |-
-        GyABYIzUTndXV3Q0t0FKYl0sQoISZ3aPa0iaqa6JplYcW2Y70Qfj/a1be6BSyxINOCkN0m0iQ7yC
-        ztxjCVJQ/dcrB3dCec/lsJYYoHmehwgXnF+bF+3HwrrqukpqQktvFJSKpy6OS3wc54I4AB2bUgiM
-        oSJmE/apgiIthRAosq//acACkukgz3IhHlhbz+2uhj/SYCcpwksSRppMpBv61g1xA0nTF6FAvOfy
-        gH5IaKsfbslpFCYZLYNW7Ba98Bg2IBAOdIDBfZTqxLzzwkK171P5nAE=
+        G1UBAIzUTndXV/T/z+0HKYlFkwhplGh38/twDUkzh+aaaPBNi2PLbCc6DIj3t7utD6QUo0QD7JLS
+        oL1FMrNXRGodWyPl+u+27r6c5o2rUEMxBjzPY4qL7177d+37nprq9WjXAB4YpKZUPE0CAYnPBrh4
+        ABEymzBBY2Ies0lGVHERpARBlPLX/2nOIpEhzrNcgkfWGeTLwoa906CbKQzMSiBsMEuxp6+TBJeW
+        oYRJIpademlAVslpcyZxypbkVtexz32j6Tbd0i88Rc2DJIAQYwIRrvDAePXjWNUfVJnaUFEa9E3U
+        UoBcVhSJhDzEYjy2l/EeB2BRaR1HiAA=
     - service: vk
       id: 3727
       published: 2026-11-10-21-34-42
-      updated: 2026-11-11-08-31-05
+      updated: 2026-11-11-16-42-36
       followers: 1467
-      likes: 34
-      views: 349
-      reposts: 4
+      likes: 51
+      views: 564
+      reposts: 5
+      comments: !c |-
+        GxMBwJwJto2K9cDiDb66QDz/cOzFL/rwRyNWroIHtIkVN1ieq8tZjbDzMyLjSAvlE3ZaO/Zn2ra/
+        inqxzpMSCCqObDc4oDwwL6KAIUlkwFvDQaXs7x++49ZqjLFezuany/lN73J+2B5dvv6XhREGRWOK
+        aTbP3Rcei0lv/P1PABGobqVKYeN7sz9NtxxIR9lqe8HzNEAUE2GqmnagKZbCksCVG0AyalWvjLZB
+        xDyMoFs6IkhZkfIJZgPPiDPLaOqgdEGq3+8D
     - service: tg
       id: 1383
       published: 2026-11-10-21-34-48
-      updated: 2026-11-11-08-31-04
+      updated: 2026-11-11-16-42-32
       followers: 951
-      likes: 37
-      views: 167
+      likes: 42
+      views: 237
     - service: mx
       id: '1794346492980'
       published: 2026-11-10-21-34-53
@@ -9477,9 +9483,9 @@
       id: DeuiL2EnYTz
       mediaId: '18130542046691698'
       published: 2026-10-20-19-00-25
-      updated: 2026-11-04-10-02-11
+      updated: 2026-11-11-16-42-39
       followers: 3771
-      likes: 461
+      likes: 469
       comments: !c |-
         CzmAkpPLQnoWCkmBAACna2liYnlzaNk4V2hhdCBhIG5pY2Ugc2hvdC4gV2hlbiB3aWxsIGhlIGV2
         ZXIgZmluZCBoaXMgcGFudHMuLi4uLi6Ty0J6FgY8JoAArndhbHRlci1ueXF2aXN0rPCflKXwn5Sl
