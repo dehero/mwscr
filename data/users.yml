@@ -568,7 +568,7 @@ antiorum:
   profiles:
     - service: vk
       id: '3571955'
-      updated: 2026-11-05-00-01-53
+      updated: 2026-11-12-13-24-27
       username: antiorum
       name: Андрей Барсуков
       avatar: store:/avatars/vk-36f45919.jpg
@@ -630,7 +630,7 @@ artem-petrov:
   profiles:
     - service: vk
       id: '4238605'
-      updated: 2026-11-10-00-56-47
+      updated: 2026-11-12-13-23-17
       username: id4238605
       name: Артем Петров
       avatar: store:/avatars/vk-77942374.jpg
@@ -1143,6 +1143,11 @@ casralis:
       username: casralis
       name: Кас Ралис
       avatar: store:/avatars/vk-7d995849.jpg
+cateysnax:
+  profiles:
+    - service: ig
+      updated: 2026-11-12-13-23-05
+      username: cateysnax
 ccoteb:
   profiles:
     - service: ig
@@ -1583,7 +1588,7 @@ dehero:
     - type: channel
       service: vk
       id: '138249959'
-      updated: 2026-11-11-23-12-55
+      updated: 2026-11-12-13-25-13
       username: mwscr
       name: Morrowind Screenshots
       avatar: store:/avatars/vk-8e97fd4f.jpg
@@ -2171,6 +2176,11 @@ erhgo4i45gjdf5567:
       botChatId: 8064575089
       name: Ннг
       avatar: store:/avatars/tg-5402363745457081233.jpg
+erikpudans:
+  profiles:
+    - service: ig
+      updated: 2026-11-12-13-23-05
+      username: erikpudans
 eruannosarlan:
   profiles:
     - service: vk
@@ -2427,7 +2437,7 @@ fukkatsumy-kamikoto:
   profiles:
     - service: vk
       id: '172283748'
-      updated: 2026-11-12-04-35-50
+      updated: 2026-11-12-13-24-22
       username: fukkatsumy_kamikoto
       name: Фуккацуми Камикото
       avatar: store:/avatars/vk-d88f6ba3.jpg
@@ -3008,7 +3018,7 @@ ilyatamrielsky:
   profiles:
     - service: vk
       id: '450332094'
-      updated: 2026-11-11-08-32-29
+      updated: 2026-11-12-13-24-06
       username: ilyatamrielsky
       name: Илья Кудинов
       avatar: store:/avatars/vk-4dd811d3.jpg
@@ -3167,7 +3177,7 @@ ivan-uralov:
   profiles:
     - service: vk
       id: '16497155'
-      updated: 2026-11-11-16-42-40
+      updated: 2026-11-12-13-23-05
       username: id16497155
       name: Иван Уралов
       avatar: store:/avatars/vk-51775759.jpg
@@ -3696,7 +3706,7 @@ kydinov91:
   profiles:
     - service: vk
       id: '36104583'
-      updated: 2026-11-05-15-54-38
+      updated: 2026-11-12-13-24-57
       username: kydinov91
       name: Илья Кудинов
       avatar: store:/avatars/vk-03d8a48a.jpg
@@ -3936,7 +3946,7 @@ m-a-dadychenko:
   profiles:
     - service: vk
       id: '7106429'
-      updated: 2026-11-08-09-40-49
+      updated: 2026-11-12-13-24-55
       username: m_a_dadychenko
       name: Марина Дадыченко
       avatar: store:/avatars/vk-45fb0778.jpg
@@ -4138,7 +4148,7 @@ max-tsei:
   profiles:
     - service: vk
       id: '353284524'
-      updated: 2026-11-12-04-35-41
+      updated: 2026-11-12-13-24-06
       username: id353284524
       avatar: store:/avatars/vk-7f160215.jpg
       deleted: true
@@ -5853,7 +5863,7 @@ sergey-b-2:
   profiles:
     - service: vk
       id: '1077446394'
-      updated: 2026-11-12-04-34-07
+      updated: 2026-11-12-13-23-08
       username: id1077446394
       name: Сергей Б
       avatar: store:/avatars/vk-70268334.jpg
@@ -5875,7 +5885,7 @@ sergey-venkov:
   profiles:
     - service: vk
       id: '217443112'
-      updated: 2026-11-12-04-34-01
+      updated: 2026-11-12-13-23-07
       username: id217443112
       name: Сергей Венков
       avatar: store:/avatars/vk-a77d1a73.jpg
@@ -7089,7 +7099,7 @@ user-32:
   profiles:
     - service: vk
       id: '314007101'
-      updated: 2026-11-12-04-34-44
+      updated: 2026-11-12-13-24-53
       username: id314007101
       avatar: store:/avatars/vk-7f160215.jpg
       deleted: true
@@ -7457,7 +7467,7 @@ vladms:
   profiles:
     - service: vk
       id: '144316708'
-      updated: 2026-11-05-00-01-54
+      updated: 2026-11-12-13-24-28
       username: vladms
       name: Владислав Масленников
       avatar: store:/avatars/vk-6d6a6086.jpg
