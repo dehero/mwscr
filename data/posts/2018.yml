@@ -22,7 +22,7 @@
     - service: vk
       id: 559
       published: 2018-01-01
-      updated: 2026-11-05-07-29-24
+      updated: 2026-11-12-21-12-43
       followers: 116
       likes: 16
       views: 187
@@ -51,7 +51,7 @@
     - service: vk
       id: 560
       published: 2018-01-02
-      updated: 2026-11-05-07-29-22
+      updated: 2026-11-12-21-12-42
       followers: 116
       likes: 17
       views: 240
@@ -80,7 +80,7 @@
     - service: vk
       id: 561
       published: 2018-01-03
-      updated: 2026-11-05-07-29-21
+      updated: 2026-11-12-21-12-40
       followers: 116
       likes: 21
       views: 252
@@ -107,7 +107,7 @@
     - service: vk
       id: 562
       published: 2018-01-04
-      updated: 2026-11-05-07-29-20
+      updated: 2026-11-12-21-12-38
       followers: 117
       likes: 10
       views: 185
@@ -167,7 +167,7 @@
     - service: vk
       id: 563
       published: 2018-01-05
-      updated: 2026-11-05-07-29-18
+      updated: 2026-11-12-21-12-36
       followers: 118
       likes: 8
       views: 181
@@ -202,7 +202,7 @@
     - service: vk
       id: 569
       published: 2018-01-06
-      updated: 2026-11-05-00-03-02
+      updated: 2026-11-12-21-12-32
       followers: 118
       likes: 14
       views: 186
@@ -256,7 +256,7 @@
     - service: vk
       id: 570
       published: 2018-01-07
-      updated: 2026-11-05-00-03-01
+      updated: 2026-11-12-21-12-30
       followers: 118
       likes: 12
       views: 196
@@ -323,7 +323,7 @@
     - service: vk
       id: 571
       published: 2018-01-08
-      updated: 2026-11-05-00-03-01
+      updated: 2026-11-12-21-12-28
       followers: 118
       likes: 12
       views: 199
@@ -378,7 +378,7 @@
     - service: vk
       id: 572
       published: 2018-01-09
-      updated: 2026-11-05-00-03-00
+      updated: 2026-11-12-21-12-27
       followers: 119
       likes: 16
       views: 181
@@ -473,7 +473,7 @@
     - service: vk
       id: 573
       published: 2018-01-10
-      updated: 2026-11-05-00-02-59
+      updated: 2026-11-12-21-12-26
       followers: 119
       likes: 14
       views: 167
@@ -1864,9 +1864,9 @@
       id: Dd6K1SnFJlp
       mediaId: '18113778569278824'
       published: 2026-09-30-10-55-52
-      updated: 2026-11-05-15-52-11
+      updated: 2026-11-12-21-12-07
       followers: 2710
-      likes: 428
+      likes: 427
 2018-02-03-omalen-ancestral-tomb:
   title: Omalen Ancestral Tomb
   titleRu: Родовая гробница Омаленов
@@ -13584,6 +13584,23 @@
         XRQlNYHh9jrb/X3/l+0c5xfrd/oR02w9sT6cs0PO/SFZELoJMt+Gv1vrezkfQ+6r3oe2hEioJ5s/
         Hw29pTwH+7w4ebcGEg0+aAo7y5YugVq5N/g3RdZcQkBlyhFd2PxTQsJHr3jGqpkBUlcMPJosN2bY
         wM5KmOLA+OxU89r/Z3LF4iUs5qXxgoVnGJ/EJCVzTTdhrSqaQzI68oJqCghASQWMyQ3t
+    - service: ig
+      id: Dfp_2i6lHBc
+      mediaId: '18112482467617678'
+      published: 2026-11-12-21-14-49
+      followers: 4191
+    - service: vk
+      id: 3733
+      published: 2026-11-12-21-14-58
+      followers: 1467
+    - service: tg
+      id: 1385
+      published: 2026-11-12-21-15-03
+      followers: 952
+    - service: mx
+      id: '1794518109457'
+      published: 2026-11-12-21-15-10
+      followers: 43
 2018-09-06-in-the-wisewomans-yurt:
   title: In the Wisewoman's Yurt
   titleRu: В юрте шаманки
@@ -15645,10 +15662,10 @@
     - service: tg
       id: 1320
       published: 2026-09-23-19-19-00
-      updated: 2026-11-05-15-52-14
+      updated: 2026-11-12-21-12-06
       followers: 942
       likes: 54
-      views: 529
+      views: 538
     - service: mx
       id: 1790191165480
       published: 2026-09-23-19-19-00
