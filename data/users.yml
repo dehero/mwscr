@@ -654,7 +654,7 @@ artyom-karpov:
   profiles:
     - service: vk
       id: '178018548'
-      updated: 2026-11-06-01-52-44
+      updated: 2026-11-13-18-14-30
       username: id178018548
       name: Артём Карпов
       avatar: store:/avatars/vk-72fe5d60.jpg
@@ -1374,6 +1374,14 @@ daddydagoth:
       username: daddydagoth
       name: Brenuin
       avatar: store:/avatars/ig-5db58cc3.jpg
+daemon-tools:
+  profiles:
+    - service: vk
+      id: '1066853973'
+      updated: 2026-11-13-18-12-56
+      username: id1066853973
+      name: Daemon Tools
+      avatar: store:/avatars/vk-012835a3.jpg
 dagoth-ur:
   profiles:
     - service: tg
@@ -1504,7 +1512,7 @@ daryna-dmytrenko:
   profiles:
     - service: vk
       id: '164064457'
-      updated: 2026-11-06-01-52-24
+      updated: 2026-11-13-18-13-58
       username: daryna_dmytrenko
       name: Дарина Дмитренко
       avatar: store:/avatars/vk-0d327853.jpg
@@ -1581,7 +1589,7 @@ dehero:
       avatar: store:/avatars/gh-c8afe641.jpg
     - service: vk
       id: '3652910'
-      updated: 2026-11-13-10-14-31
+      updated: 2026-11-13-18-15-11
       username: dehero
       name: Антон Курьянов
       avatar: store:/avatars/vk-5356f76e.jpg
@@ -2256,7 +2264,7 @@ evil-kit:
   profiles:
     - service: vk
       id: '153155138'
-      updated: 2026-11-06-08-39-29
+      updated: 2026-11-13-18-14-38
       username: evil_kit
       name: Никита Метелкин
       avatar: store:/avatars/vk-adb64972.jpg
@@ -2934,7 +2942,7 @@ idalexeyvav:
   profiles:
     - service: vk
       id: '417783044'
-      updated: 2026-11-13-10-14-32
+      updated: 2026-11-13-18-13-54
       username: idalexeyvav
       name: Алексей Вавилов
       avatar: store:/avatars/vk-6717456e.jpg
@@ -3177,7 +3185,7 @@ ivan-uralov:
   profiles:
     - service: vk
       id: '16497155'
-      updated: 2026-11-13-10-11-48
+      updated: 2026-11-13-18-12-59
       username: id16497155
       name: Иван Уралов
       avatar: store:/avatars/vk-51775759.jpg
@@ -3938,7 +3946,7 @@ lycanthropy:
   profiles:
     - service: vk
       id: '5386912'
-      updated: 2026-11-12-21-13-36
+      updated: 2026-11-13-18-15-14
       username: lycanthropy
       name: Филипп Суворов
       avatar: store:/avatars/vk-96cd2c06.jpg
@@ -5873,7 +5881,7 @@ sergey-b-2:
   profiles:
     - service: vk
       id: '1077446394'
-      updated: 2026-11-13-10-11-51
+      updated: 2026-11-13-18-13-00
       username: id1077446394
       name: Сергей Б
       avatar: store:/avatars/vk-70268334.jpg
@@ -6220,7 +6228,7 @@ soulilight:
   profiles:
     - service: vk
       id: '347703822'
-      updated: 2026-11-13-02-15-01
+      updated: 2026-11-13-18-14-51
       username: soulilight
       name: Dima Boev
       avatar: store:/avatars/vk-4a3f332e.jpg
@@ -7141,7 +7149,7 @@ user-36:
   profiles:
     - service: vk
       id: '227500203'
-      updated: 2026-11-06-01-53-19
+      updated: 2026-11-13-18-15-13
       username: id227500203
       avatar: store:/avatars/vk-7f160215.jpg
       deleted: true
