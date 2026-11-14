@@ -2962,24 +2962,30 @@
       id: DfsQKnBCSkS
       mediaId: '17998060953111834'
       published: 2026-11-13-18-15-52
-      updated: 2026-11-13-23-58-46
+      updated: 2026-11-14-04-43-34
       followers: 4210
-      likes: 139
+      likes: 162
     - service: vk
       id: 3736
       published: 2026-11-13-18-16-03
-      updated: 2026-11-13-23-58-47
+      updated: 2026-11-14-04-43-37
       followers: 1466
-      likes: 20
-      views: 181
+      likes: 28
+      views: 237
       reposts: 2
+      comments: !c |-
+        GwUCICwOeJNxZUxLzqiS8hrx/8Q9K6CA3+T/OxRlgTaJJUuwci7o+qo12U1oh7DzjDsEPisNyzdr
+        Ubel/hTNadu4Hn4Qq7AB54EnMuKCA+HZUnZmswO3oN0Ci9oSaws00AjT1/bmT6yvN3zOZUyRpPze
+        9+d3zfy5vi7fR/d7qnz7Dz9LmCcoCPM3AnmMvmQ0BiNGrnmjJf8eu4M0zJQmUWpidxqmQh1Hq4AV
+        BiNu2LMSwI02O+YEKxFvU6K/bPRw11UzYiJZgxNGk0YYSXwH2JC7p22kmQ/DvLI81weucQhJVQ8H
+        4O0CCR20jgNL/CtWYaLM5JkkMCSkNDJwqxByv6gYJJxz5NEES9wYI7olB6tIQJqzhiy4p9LBJw==
     - service: tg
       id: 1386
       published: 2026-11-13-18-16-08
-      updated: 2026-11-13-23-58-46
+      updated: 2026-11-14-04-43-34
       followers: 952
-      likes: 24
-      views: 106
+      likes: 25
+      views: 110
     - service: mx
       id: '1794593772490'
       published: 2026-11-13-18-16-13

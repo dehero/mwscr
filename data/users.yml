@@ -464,6 +464,11 @@ anastasiya-golub:
       username: id347018094
       name: Анастасия Голубь
       avatar: store:/avatars/vk-bc2aa087.jpg
+ancientrealms1999:
+  profiles:
+    - service: ig
+      updated: 2026-11-14-04-43-35
+      username: ancientrealms1999
 andrew-art:
   profiles:
     - service: tg
@@ -1383,7 +1388,7 @@ daemon-tools:
   profiles:
     - service: vk
       id: '1066853973'
-      updated: 2026-11-13-23-58-53
+      updated: 2026-11-14-04-43-37
       username: id1066853973
       name: Daemon Tools
       avatar: store:/avatars/vk-012835a3.jpg
@@ -3190,7 +3195,7 @@ ivan-uralov:
   profiles:
     - service: vk
       id: '16497155'
-      updated: 2026-11-13-23-59-10
+      updated: 2026-11-14-04-43-37
       username: id16497155
       name: Иван Уралов
       avatar: store:/avatars/vk-51775759.jpg
@@ -5886,7 +5891,7 @@ sergey-b-2:
   profiles:
     - service: vk
       id: '1077446394'
-      updated: 2026-11-13-23-59-54
+      updated: 2026-11-14-04-43-39
       username: id1077446394
       name: Сергей Б
       avatar: store:/avatars/vk-70268334.jpg
