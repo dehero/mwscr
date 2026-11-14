@@ -555,7 +555,7 @@ ansis:
   profiles:
     - service: tg
       id: '517050552'
-      updated: 2026-11-11-08-33-11
+      updated: 2026-11-14-17-23-48
       accessHash: '5231096655311395455'
       username: ansis
       name: ansis
@@ -1388,7 +1388,7 @@ daemon-tools:
   profiles:
     - service: vk
       id: '1066853973'
-      updated: 2026-11-14-11-50-12
+      updated: 2026-11-14-17-23-50
       username: id1066853973
       name: Daemon Tools
       avatar: store:/avatars/vk-012835a3.jpg
@@ -2598,7 +2598,7 @@ gleb-zheltuhin:
   profiles:
     - service: vk
       id: '29014473'
-      updated: 2026-11-12-21-12-23
+      updated: 2026-11-14-17-23-48
       username: gleb_zheltuhin
       name: Глеб Желтухин
       avatar: store:/avatars/vk-971eefc1.jpg
@@ -3195,7 +3195,7 @@ ivan-uralov:
   profiles:
     - service: vk
       id: '16497155'
-      updated: 2026-11-14-11-50-12
+      updated: 2026-11-14-17-23-49
       username: id16497155
       name: Иван Уралов
       avatar: store:/avatars/vk-51775759.jpg
@@ -4366,7 +4366,7 @@ mlennic:
   profiles:
     - service: tg
       id: '402884048'
-      updated: 2026-11-11-01-33-09
+      updated: 2026-11-14-17-23-48
       accessHash: '308008325024369067'
       username: mlennic
       name: Kosmos
@@ -5891,7 +5891,7 @@ sergey-b-2:
   profiles:
     - service: vk
       id: '1077446394'
-      updated: 2026-11-14-11-50-12
+      updated: 2026-11-14-17-23-50
       username: id1077446394
       name: Сергей Б
       avatar: store:/avatars/vk-70268334.jpg
