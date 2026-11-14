@@ -684,7 +684,7 @@ arya-stark:
   profiles:
     - service: vk
       id: '820702664'
-      updated: 2026-11-13-23-59-55
+      updated: 2026-11-14-21-44-47
       username: id820702664
       name: Арья Старк
       avatar: store:/avatars/vk-689aa89d.jpg
@@ -2598,7 +2598,7 @@ gleb-zheltuhin:
   profiles:
     - service: vk
       id: '29014473'
-      updated: 2026-11-14-17-23-48
+      updated: 2026-11-14-21-44-37
       username: gleb_zheltuhin
       name: Глеб Желтухин
       avatar: store:/avatars/vk-971eefc1.jpg
@@ -3195,7 +3195,7 @@ ivan-uralov:
   profiles:
     - service: vk
       id: '16497155'
-      updated: 2026-11-14-17-23-49
+      updated: 2026-11-14-21-44-43
       username: id16497155
       name: Иван Уралов
       avatar: store:/avatars/vk-51775759.jpg
@@ -4264,7 +4264,7 @@ michael-levington:
   profiles:
     - service: vk
       id: '416916067'
-      updated: 2026-11-09-00-14-10
+      updated: 2026-11-14-21-44-45
       username: michael_levington
       name: Майкл Левингтон
       avatar: store:/avatars/vk-77942374.jpg
@@ -5891,7 +5891,7 @@ sergey-b-2:
   profiles:
     - service: vk
       id: '1077446394'
-      updated: 2026-11-14-17-23-50
+      updated: 2026-11-14-21-44-47
       username: id1077446394
       name: Сергей Б
       avatar: store:/avatars/vk-70268334.jpg

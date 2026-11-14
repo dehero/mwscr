@@ -760,10 +760,10 @@
     - service: vk
       id: 3584
       published: 2026-10-02-19-47-40
-      updated: 2026-11-07-19-07-47
+      updated: 2026-11-14-21-44-48
       followers: 1445
       likes: 59
-      views: 640
+      views: 646
       reposts: 1
       comments: !c |-
         G4YAYMT//1MDGMCvGRssx0cLtoallFI3buzxMRbIvA+L9QLWMY50IH+gEQaAm/YYG9NWysLUO927
@@ -772,10 +772,10 @@
     - service: tg
       id: 1329
       published: 2026-10-02-19-47-49
-      updated: 2026-11-07-19-07-40
+      updated: 2026-11-14-21-44-37
       followers: 946
       likes: 54
-      views: 461
+      views: 468
     - service: mx
       id: '1790970473793'
       published: 2026-10-02-19-47-54
@@ -878,3 +878,4 @@
 2026-11-11-1-fort-surrounded-by-fir-trees: 2017-09-16-fort-surrounded-by-fir-trees
 2026-11-12-1-bonewalker: 2018-09-05-bonewalker
 2026-11-13-1-gray-distance: 2019-10-13-gray-distance
+2026-11-14-1-fork-of-horripilation-and-other-accessories: 2018-02-05-fork-of-horripilation-and-other-accessories
