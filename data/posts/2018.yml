@@ -13588,9 +13588,9 @@
       id: Dfp_2i6lHBc
       mediaId: '18112482467617678'
       published: 2026-11-12-21-14-49
-      updated: 2026-11-14-04-43-35
+      updated: 2026-11-14-11-50-07
       followers: 4191
-      likes: 193
+      likes: 202
       comments: !c |-
         G4wA4I2ULuLe5emTZIPmcl7CsTYVpBXdhknA1GWdHLD/3+elUYB5jgFnO6RtPN4kOo9zY0Sz2gB+
         Q6BYJFWdUsubxrJ8x4kGag5+vUi26VBb1gpSL2YMH2Gm2ANXUoKv02axk9aa+VlHA1oFduzQ2t2n
@@ -13598,25 +13598,26 @@
     - service: vk
       id: 3733
       published: 2026-11-12-21-14-58
-      updated: 2026-11-14-04-43-38
+      updated: 2026-11-14-11-50-12
       followers: 1467
-      likes: 25
-      views: 310
-      reposts: 2
+      likes: 27
+      views: 342
+      reposts: 3
       comments: !c |-
-        G4QCICwO7LYeiwPBHngXfq3HEP9Pf7ElfOM7XynJtASLLDmXIM0mmxGSLB5Bgi9lZf07eq+6Cdah
-        udI3vu1O8oWF5trdDc4WG3CFYPujA/JPOb3+qZvCL/gAun2szgN6bil1UTwxHJM4waXbpMurN4KZ
-        Yk2xbV7v38zHvB2fpzCxUNT3//90cRASQe6YP0DSJrEVFeT5QK/ke03AUC4hYmYGwo4cD6NAfhXN
-        w12E9plzAjGZXBI9+wOUgu0XVkgihRWpd4saRoQt0JWMMhpLgFOwWHORP89bA+hiPC/SCCJ82Mck
-        XwrGGsZU2JyGfCVmd5FTC14AGbFbc5JmxS080WBDJclj3LIDu/pSzCyK5Du4Baqc8WzTpjFAg5Cq
-        IY3ipyJ1HKHuYri+D2RTsAupu3MmzIIFnwAnOiVbzAxNWC1QZF0SlkpzDIDgb5g0ZXqI1QE=
+        G/cCQJwHdiwYYWaWkJzGif6Ji0X49WaaU0riCBOryJJ9BAGl2WQYIcniEST47lj5/h3tDs61ITSN
+        N9HI76SLVQI+2uue/BPAoGPylg6Hm+AA9Pee7zyQjfuISqyLXuzC8HmR8yDclddefCUzwllzzvP5
+        Nd8b5l94vO/3YC/dzsH2cP+Jv+/LRQGTCHzE/IFCIxHZoYb6OaGC66+LASbqKyHCejA41S1ODNCv
+        BudpxUH1OccYwkjalxBv/YbiGPYLHSSAtMI2ZbKZEQ2mhlWsK7EZkEJuNS/503wMgIlH80ajgJlO
+        +Fjli4HYU2EUuymawpWYLB+ny+pi8IK6dA40pKlUnSgqnpI/Y/DLiuZqjGyZ2UW5t0NNQJNuNLdE
+        acyUKIhqpihKGcXmuQ7arHNw+dyC2e4gbAU50+zJRE5gwR/AibpKssGMZlIvwEjGI2xosPrnBSUC
+        DUs0Ykifpf8X4fWYnRezlxRK+mT7aDE1WpCxYgHKjcaKXFQx0AT5BmiSDEhaxwE=
     - service: tg
       id: 1385
       published: 2026-11-12-21-15-03
-      updated: 2026-11-14-04-43-34
+      updated: 2026-11-14-11-50-07
       followers: 952
-      likes: 37
-      views: 172
+      likes: 40
+      views: 180
     - service: mx
       id: '1794518109457'
       published: 2026-11-12-21-15-10

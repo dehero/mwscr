@@ -549,9 +549,9 @@
       id: Dd-9ca9DOKL
       mediaId: '18135746725638534'
       published: 2026-10-02-07-35-02
-      updated: 2026-11-07-07-54-03
+      updated: 2026-11-14-11-50-12
       followers: 2821
-      likes: 191
+      likes: 192
 2019-02-15-telvanni-table:
   title: Telvanni Table
   titleRu: Стол Телванни
@@ -1703,7 +1703,7 @@
       id: Dd_QcDclmIK
       mediaId: '18217622176346628'
       published: 2026-10-02-10-21-02
-      updated: 2026-11-07-07-54-03
+      updated: 2026-11-14-11-50-12
       followers: 2829
       likes: 183
       comments: !c |-
@@ -2962,30 +2962,32 @@
       id: DfsQKnBCSkS
       mediaId: '17998060953111834'
       published: 2026-11-13-18-15-52
-      updated: 2026-11-14-04-43-34
+      updated: 2026-11-14-11-50-06
       followers: 4210
-      likes: 162
+      likes: 191
     - service: vk
       id: 3736
       published: 2026-11-13-18-16-03
-      updated: 2026-11-14-04-43-37
+      updated: 2026-11-14-11-50-11
       followers: 1466
-      likes: 28
-      views: 237
+      likes: 42
+      views: 352
       reposts: 2
       comments: !c |-
-        GwUCICwOeJNxZUxLzqiS8hrx/8Q9K6CA3+T/OxRlgTaJJUuwci7o+qo12U1oh7DzjDsEPisNyzdr
-        Ubel/hTNadu4Hn4Qq7AB54EnMuKCA+HZUnZmswO3oN0Ci9oSaws00AjT1/bmT6yvN3zOZUyRpPze
-        9+d3zfy5vi7fR/d7qnz7Dz9LmCcoCPM3AnmMvmQ0BiNGrnmjJf8eu4M0zJQmUWpidxqmQh1Hq4AV
-        BiNu2LMSwI02O+YEKxFvU6K/bPRw11UzYiJZgxNGk0YYSXwH2JC7p22kmQ/DvLI81weucQhJVQ8H
-        4O0CCR20jgNL/CtWYaLM5JkkMCSkNDJwqxByv6gYJJxz5NEES9wYI7olB6tIQJqzhiy4p9LBJw==
+        G7ICACwOzJPdyypD4g8XBqTWEv+P3KMFKvBL/X/QEjVeLkhBl0xogxFMzgWdz7TJMqEdws4hgGQh
+        +FvX8vfteq/qdqWv5LVq2wxGvrAQgkFveF57nN+UPKIU5bhOsAHnge84yDAMhEPYjjQgfhh0u1k4
+        SrTuAg00w/E0g4g1qHZ9HmpzbimnSfzej8/fNcXP9X35erndDnrIt//pzxzmBRLCLGJCTQkXkhaB
+        2NCYQ5j877F7o4ZRQQlTFetpmAztOFwJSopA7IY9Swaq0rRjTjATqqES/+deg7tdVkOFUdDEJwzH
+        iRGX6CqBA7o3tQyn+SmYT+YnPyBnoZAL9dRD8TaAQ6cwbwdu8WOxDnMFQ2ngLdIRZxHPvJdCEyxK
+        BRzO0xh6szDzIWIU47IjrNFBOWiFmakeGevzXQg3/Whcvp9lYsKo/c8hgisdffITbAAApw0WoAu6
+        U6zv8+Uu1IbLWxDJDDnNghSywvl+AY31GFltRYbFQqT1BA==
     - service: tg
       id: 1386
       published: 2026-11-13-18-16-08
-      updated: 2026-11-14-04-43-34
+      updated: 2026-11-14-11-50-06
       followers: 952
-      likes: 25
-      views: 110
+      likes: 32
+      views: 127
     - service: mx
       id: '1794593772490'
       published: 2026-11-13-18-16-13

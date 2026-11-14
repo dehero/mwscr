@@ -1388,7 +1388,7 @@ daemon-tools:
   profiles:
     - service: vk
       id: '1066853973'
-      updated: 2026-11-14-04-43-37
+      updated: 2026-11-14-11-50-12
       username: id1066853973
       name: Daemon Tools
       avatar: store:/avatars/vk-012835a3.jpg
@@ -3195,7 +3195,7 @@ ivan-uralov:
   profiles:
     - service: vk
       id: '16497155'
-      updated: 2026-11-14-04-43-37
+      updated: 2026-11-14-11-50-12
       username: id16497155
       name: Иван Уралов
       avatar: store:/avatars/vk-51775759.jpg
@@ -5891,7 +5891,7 @@ sergey-b-2:
   profiles:
     - service: vk
       id: '1077446394'
-      updated: 2026-11-14-04-43-39
+      updated: 2026-11-14-11-50-12
       username: id1077446394
       name: Сергей Б
       avatar: store:/avatars/vk-70268334.jpg
