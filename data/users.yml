@@ -1388,7 +1388,7 @@ daemon-tools:
   profiles:
     - service: vk
       id: '1066853973'
-      updated: 2026-11-14-17-23-50
+      updated: 2026-11-15-20-40-12
       username: id1066853973
       name: Daemon Tools
       avatar: store:/avatars/vk-012835a3.jpg
@@ -1619,7 +1619,7 @@ dehero:
     - type: channel
       service: tg
       id: '1264795946'
-      updated: 2026-11-15-16-00-33
+      updated: 2026-11-15-20-40-15
       accessHash: '-5789257269249675714'
       username: mwscr
       name: Morrowind Screenshots
@@ -1773,7 +1773,7 @@ dismasterfrane:
   profiles:
     - service: tg
       id: '267540082'
-      updated: 2026-11-15-15-58-20
+      updated: 2026-11-15-20-40-15
       accessHash: '-7587460155502921699'
       username: dismasterfrane
       name: Frane // Dismaster FraNe 🍕
@@ -2080,12 +2080,12 @@ eldrad:
   profiles:
     - service: tg
       id: '398125107'
-      updated: 2026-11-10-21-33-32
+      updated: 2026-11-15-20-40-14
       accessHash: '-8692024594567772976'
       username: Master_Eldrad
       botChatId: 398125107
       name: Master Eldrad
-      avatar: store:/avatars/tg-1709934314741500721.jpg
+      avatar: store:/avatars/tg-1709934314741500722.jpg
 elfikichki:
   profiles:
     - type: channel
@@ -2557,7 +2557,7 @@ ghosr1368:
   profiles:
     - service: tg
       id: '6353853685'
-      updated: 2026-11-08-20-51-30
+      updated: 2026-11-15-20-40-15
       accessHash: '2523169162736182941'
       username: Ghost_1488_1
       botChatId: 6353853685
@@ -3137,7 +3137,7 @@ irina-volkova:
   profiles:
     - service: vk
       id: '830649'
-      updated: 2026-11-15-15-56-28
+      updated: 2026-11-15-20-40-10
       username: id830649
       name: Ирина Волкова
       avatar: store:/avatars/vk-ab8016e5.jpg
@@ -3195,7 +3195,7 @@ ivan-uralov:
   profiles:
     - service: vk
       id: '16497155'
-      updated: 2026-11-15-15-59-55
+      updated: 2026-11-15-20-40-12
       username: id16497155
       name: Иван Уралов
       avatar: store:/avatars/vk-51775759.jpg
@@ -3543,7 +3543,7 @@ kevy-c:
   profiles:
     - service: tg
       id: '5067683234'
-      updated: 2026-11-15-15-59-48
+      updated: 2026-11-15-20-40-15
       accessHash: '-903667913374325979'
       username: thedash35
       name: Dash
@@ -5891,7 +5891,7 @@ sergey-b-2:
   profiles:
     - service: vk
       id: '1077446394'
-      updated: 2026-11-15-16-00-08
+      updated: 2026-11-15-20-40-12
       username: id1077446394
       name: Сергей Б
       avatar: store:/avatars/vk-70268334.jpg
@@ -6352,6 +6352,11 @@ stasyajoystick:
       username: stasyajoystick
       name: Stasya!
       avatar: store:/avatars/tg-5436038329167192775.jpg
+steelreinventer:
+  profiles:
+    - service: ig
+      updated: 2026-11-15-20-40-09
+      username: steelreinventer
 stellarshift69:
   profiles:
     - service: ig
