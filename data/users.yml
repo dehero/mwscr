@@ -684,7 +684,7 @@ arya-stark:
   profiles:
     - service: vk
       id: '820702664'
-      updated: 2026-11-14-21-44-47
+      updated: 2026-11-15-01-23-55
       username: id820702664
       name: Арья Старк
       avatar: store:/avatars/vk-689aa89d.jpg
@@ -739,7 +739,7 @@ b-anton14:
   profiles:
     - service: tg
       id: '8256432725'
-      updated: 2026-11-08-09-39-35
+      updated: 2026-11-15-01-23-49
       accessHash: '3668354337295081600'
       username: BAnton14
       name: Soggio Guinta (#3)
@@ -2598,7 +2598,7 @@ gleb-zheltuhin:
   profiles:
     - service: vk
       id: '29014473'
-      updated: 2026-11-14-21-44-37
+      updated: 2026-11-15-01-23-56
       username: gleb_zheltuhin
       name: Глеб Желтухин
       avatar: store:/avatars/vk-971eefc1.jpg
@@ -3195,7 +3195,7 @@ ivan-uralov:
   profiles:
     - service: vk
       id: '16497155'
-      updated: 2026-11-14-21-44-43
+      updated: 2026-11-15-01-23-56
       username: id16497155
       name: Иван Уралов
       avatar: store:/avatars/vk-51775759.jpg
@@ -4317,7 +4317,7 @@ miklas:
   profiles:
     - service: vk
       id: '9034950'
-      updated: 2026-11-07-23-10-30
+      updated: 2026-11-15-01-23-57
       username: miklas
       name: Михаил Шеголев
       avatar: store:/avatars/vk-ebae0a4a.jpg
@@ -5358,11 +5358,11 @@ pupochello:
   profiles:
     - service: tg
       id: '345124780'
-      updated: 2026-11-07-23-10-28
+      updated: 2026-11-15-01-23-54
       accessHash: '7383914265245401058'
       username: pupochello
       name: виктор иммануилович член
-      avatar: store:/avatars/tg-1482299643599194914.jpg
+      avatar: store:/avatars/tg-1482299643599194917.jpg
 pupushu:
   profiles:
     - service: tg
@@ -5891,7 +5891,7 @@ sergey-b-2:
   profiles:
     - service: vk
       id: '1077446394'
-      updated: 2026-11-14-21-44-47
+      updated: 2026-11-15-01-23-55
       username: id1077446394
       name: Сергей Б
       avatar: store:/avatars/vk-70268334.jpg
@@ -5913,7 +5913,7 @@ sergey-venkov:
   profiles:
     - service: vk
       id: '217443112'
-      updated: 2026-11-13-23-58-56
+      updated: 2026-11-15-01-23-50
       username: id217443112
       name: Сергей Венков
       avatar: store:/avatars/vk-a77d1a73.jpg
@@ -6928,6 +6928,11 @@ ueban123:
       username: ueban123
       name: ronnie radke
       avatar: store:/avatars/tg-2909617567841323779.jpg
+unclegoro:
+  profiles:
+    - service: ig
+      updated: 2026-11-15-01-23-47
+      username: unclegoro
 untitll3d:
   profiles:
     - service: vk
@@ -7797,7 +7802,7 @@ yellow-submarine:
   profiles:
     - service: vk
       id: '21865013'
-      updated: 2026-11-09-17-54-59
+      updated: 2026-11-15-01-23-53
       username: yellowsubm
       name: Yellow Submarine
       avatar: store:/avatars/vk-8254b201.jpg
