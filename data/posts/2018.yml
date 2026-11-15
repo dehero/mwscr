@@ -2047,24 +2047,32 @@
       id: DfvM5dTl7CD
       mediaId: '18129784852844714'
       published: 2026-11-14-21-45-02
-      updated: 2026-11-15-01-23-44
+      updated: 2026-11-15-08-32-26
       followers: 4223
-      likes: 86
+      likes: 117
+      comments: !c CxqAkZPLQnod2yU7AAC0b3V0ZXJiYW5rc2FkdmVudHVyZXK0V2hvIGRyaW5rcyBhbGwgZmxpbj8D
     - service: vk
       id: 3743
       published: 2026-11-14-21-45-10
-      updated: 2026-11-15-01-23-45
+      updated: 2026-11-15-08-32-28
       followers: 1467
-      likes: 5
-      views: 80
-      reposts: 1
+      likes: 10
+      views: 153
+      reposts: 2
+      comments: !c |-
+        G7sCgC0O7FgOSAqlOeK5bNSMkGSW/omLkf7xmwMLJLIjyZsSayJK9pGl1monlDiFtGiGAaHS7kPo
+        k1U9537dV9slEGOv/xRuY3N5hzOKhCB34+yyQ0hv9DTFGtYKAJcqcHeA3xWtlXAZfhvyeDxbFCDb
+        xkeDpckcKDflX/h8/+rerbPPZTZ2WPKX+6cjOEFNMznaJJC85Yn/kZwTyMEIqejX+xaeaIBOUZBB
+        8wFVg3lZqQ471xMlAnYJ1Ejco8TxgUlrS5KIEBmOUsxrQbwVylSc8wVxB9siOhjQ0hE8WE8CJ7GB
+        EmNxvqyd/Y/s+l4TTViVgvB2y0Efg5XT1vw0SPCrEnVqgJExiWERmPGGk08WSPlwRIa1VxQWJV4g
+        IQZzCNLOMCqPlcuZZXt5zMck2uDfyDvz4EdMYy0fzgxkQxMVLuQCFK6OGiUsNS/UFElKQqX6v+8D
     - service: tg
       id: 1387
       published: 2026-11-14-21-45-17
-      updated: 2026-11-15-01-23-46
+      updated: 2026-11-15-08-32-25
       followers: 952
-      likes: 14
-      views: 72
+      likes: 22
+      views: 114
     - service: mx
       id: '1794692722688'
       published: 2026-11-14-21-45-23
@@ -13138,16 +13146,16 @@
       id: Dfc5XF4lIoq
       mediaId: '17882188185549011'
       published: 2026-11-07-19-07-58
-      updated: 2026-11-14-04-43-36
+      updated: 2026-11-15-08-32-27
       followers: 4140
-      likes: 250
+      likes: 262
     - service: vk
       id: 3716
       published: 2026-11-07-19-08-06
-      updated: 2026-11-14-04-43-39
+      updated: 2026-11-15-08-32-31
       followers: 1466
       likes: 65
-      views: 818
+      views: 838
       reposts: 3
       comments: !c |-
         G2AA+J0H2ZnlDLor7X+Ih8/bxCfTic5mWlTQXZO4ywLsIkvex0A2V0I3JUHF/7C9ZMSypeysY9BE
@@ -13155,10 +13163,10 @@
     - service: tg
       id: 1381
       published: 2026-11-07-19-08-11
-      updated: 2026-11-14-04-43-36
+      updated: 2026-11-15-08-32-27
       followers: 950
-      likes: 51
-      views: 313
+      likes: 52
+      views: 326
     - service: mx
       id: '1794078495858'
       published: 2026-11-07-19-08-16
