@@ -62,15 +62,15 @@
     - service: vk
       id: 2501
       published: 2025-07-02-18-24-04
-      updated: 2026-11-09-17-56-09
+      updated: 2026-11-17-01-14-06
       followers: 1333
       likes: 56
-      views: 593
+      views: 595
       reposts: 1
     - service: tg
       id: 905
       published: 2025-07-02-18-24-07
-      updated: 2026-11-09-17-53-17
+      updated: 2026-11-17-01-11-22
       followers: 760
       likes: 72
       views: 654
@@ -83,7 +83,7 @@
       id: DLodyriseno
       mediaId: '18041435729646241'
       published: 2025-07-03-04-30-02
-      updated: 2026-11-09-17-53-51
+      updated: 2026-11-17-01-11-58
       followers: 1558
       likes: 88
 2023-07-29-evening-at-the-suran-street-by-darkness-rifho:
@@ -178,7 +178,7 @@
       id: DKC81wsTK0X
       mediaId: '18026521652678055'
       published: 2025-05-24-18-18-51
-      updated: 2026-11-09-17-54-29
+      updated: 2026-11-17-01-12-44
       followers: 1542
       likes: 69
     - service: vk
@@ -191,7 +191,7 @@
     - service: tg
       id: 857
       published: 2025-05-24-18-19-06
-      updated: 2026-11-09-17-54-29
+      updated: 2026-11-17-01-12-09
       followers: 739
       likes: 65
       views: 589
@@ -249,10 +249,10 @@
     - service: vk
       id: 2629
       published: 2025-09-03-18-21-16
-      updated: 2026-11-09-17-54-38
+      updated: 2026-11-17-01-12-36
       followers: 1404
       likes: 44
-      views: 621
+      views: 624
       reposts: 1
       comments: !c |-
         Cy+AkZPLQnmRFaD7gACwc2VyZ2V5LWNodXJiYW5vdtlB0K3RjdC5KSDQt9C00LDRgNC+0LLQsCEg
@@ -347,7 +347,7 @@
       id: DJUnMgEs2ay
       mediaId: '18082683772680416'
       published: 2025-05-06-18-24-38
-      updated: 2026-11-09-17-54-44
+      updated: 2026-11-17-01-13-09
       followers: 1533
       likes: 50
     - service: vk
@@ -366,7 +366,7 @@
     - service: tg
       id: 832
       published: 2025-05-06-18-24-51
-      updated: 2026-11-09-17-54-57
+      updated: 2026-11-17-01-12-30
       followers: 738
       likes: 69
       views: 730
@@ -566,10 +566,10 @@
     - service: vk
       id: 2605
       published: 2025-08-26-18-32-53
-      updated: 2026-11-09-17-54-55
+      updated: 2026-11-17-01-12-57
       followers: 1381
       likes: 18
-      views: 509
+      views: 513
     - service: tg
       id: 961
       published: 2025-08-26-18-32-55
@@ -686,10 +686,10 @@
     - service: vk
       id: 2613
       published: 2025-08-30-19-10-44
-      updated: 2026-11-09-17-54-50
+      updated: 2026-11-17-01-12-53
       followers: 1395
       likes: 50
-      views: 590
+      views: 594
       reposts: 1
 2023-08-08-under-two-parasols:
   title: Under Two Parasols
@@ -799,7 +799,7 @@
     - service: tg
       id: 773
       published: 2025-04-01-18-21-57
-      updated: 2026-11-09-17-55-47
+      updated: 2026-11-17-01-13-20
       followers: 712
       likes: 68
       views: 688
