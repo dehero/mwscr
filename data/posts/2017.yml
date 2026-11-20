@@ -2571,16 +2571,16 @@
       id: DfxqTgMiUCN
       mediaId: '17919729912549508'
       published: 2026-11-15-20-40-28
-      updated: 2026-11-19-00-49-06
+      updated: 2026-11-20-05-14-26
       followers: 4235
-      likes: 508
+      likes: 536
     - service: vk
       id: 3754
       published: 2026-11-15-20-40-36
-      updated: 2026-11-19-00-49-08
+      updated: 2026-11-20-05-14-28
       followers: 1467
-      likes: 82
-      views: 761
+      likes: 84
+      views: 809
       reposts: 3
       comments: !c |-
         G6sAKB0Jtq2F9RiEPQldM3q+bkd081njjJoiSzDZB5K6zVjM0R/8sSVLuEdBkc+SBd1Y7tYohrsk
@@ -2589,10 +2589,10 @@
     - service: tg
       id: 1388
       published: 2026-11-15-20-40-41
-      updated: 2026-11-19-00-49-09
+      updated: 2026-11-20-05-14-27
       followers: 953
-      likes: 47
-      views: 226
+      likes: 48
+      views: 241
       comments: !c |-
         Gw8EAKwLTDlNw8EeXtcbfHazURbTWKPGP1/37HNCb30ngwDjOJIPFNRME2Fyrpq6lmEv0t8eVF8B
         u9bcwuhLydBFuqVb2t0duAefH0tGQyqWAnRAj25L9U8OXhlZ+/eGiIbUoCQSBFe+2ewUPFq1KZJB
@@ -10989,15 +10989,26 @@
       id: Df8UXyrF0hD
       mediaId: '18076904876758239'
       published: 2026-11-20-00-00-27
+      updated: 2026-11-20-05-14-24
       followers: 4309
+      likes: 134
+      comments: !c CxSAkZPLQnofZB6MgACzZGF2aWRkdmQxMDAwMDAwMDAwMKlkYXZpZCBkdmQD
     - service: vk
       id: 3761
       published: 2026-11-20-00-00-33
+      updated: 2026-11-20-05-14-23
       followers: 1464
+      likes: 24
+      views: 147
+      reposts: 1
     - service: mx
       id: '1795132849766'
       published: 2026-11-20-00-00-50
       followers: 43
+    - service: tg
+      id: 1391
+      published: 2026-11-20-05-17-04
+      followers: 949
 2017-07-15-i-greet-you-in-pelagiad-traveler:
   title: I Greet You in Pelagiad, Traveler
   titleRu: Приветствую тебя в Пелагиаде, странник
@@ -14064,27 +14075,27 @@
       id: Df5J7cFCaLi
       mediaId: '18134698834758948'
       published: 2026-11-18-18-31-30
-      updated: 2026-11-19-23-57-45
+      updated: 2026-11-20-05-14-25
       followers: 4278
-      likes: 342
+      likes: 362
       comments: !c |-
         iyuAkpPLQnofC8yvgACscmVkaGVhZHBpeGVspPCfmI2Ty0J6HwiOXQAArHNoYXJrYmFpdGJvb9ki
         TW9ycm93aW5kIGlzIHN1Y2ggYSBiZWF1dGlmdWwgZ2FtZQM=
     - service: vk
       id: 3758
       published: 2026-11-18-18-32-03
-      updated: 2026-11-19-23-57-44
+      updated: 2026-11-20-05-14-24
       followers: 1463
-      likes: 49
-      views: 378
+      likes: 50
+      views: 385
       reposts: 2
     - service: tg
       id: 1390
       published: 2026-11-18-18-32-09
-      updated: 2026-11-19-23-57-43
+      updated: 2026-11-20-05-14-23
       followers: 949
       likes: 39
-      views: 195
+      views: 196
     - service: mx
       id: '1795026745925'
       published: 2026-11-18-18-32-26
@@ -19852,7 +19863,7 @@
       id: BdF85gVDlCY
       mediaId: '17916763015016375'
       published: 2017-12-24-17-15-01
-      updated: 2026-11-12-13-25-32
+      updated: 2026-11-20-05-16-29
       followers: 259
       likes: 110
     - service: vk
@@ -19937,7 +19948,7 @@
       id: BdIq6LDD0V5
       mediaId: '17914964257008473'
       published: 2017-12-25-18-35-33
-      updated: 2026-11-12-13-25-30
+      updated: 2026-11-20-05-16-29
       followers: 262
       likes: 96
       comments: !c |-
@@ -19968,7 +19979,7 @@
       id: BdLOtpIDLfj
       mediaId: '17914223134038491'
       published: 2017-12-26-18-26-53
-      updated: 2026-11-12-13-25-29
+      updated: 2026-11-20-05-16-27
       followers: 262
       likes: 94
     - service: vk
@@ -19996,7 +20007,7 @@
       id: BdOPZOZj_Qk
       mediaId: '17910331756071031'
       published: 2017-12-27-22-30-33
-      updated: 2026-11-12-13-25-27
+      updated: 2026-11-20-05-16-26
       followers: 262
       likes: 95
     - service: vk
@@ -20028,7 +20039,7 @@
       id: BdQTanFD4Sm
       mediaId: '17902056316104153'
       published: 2017-12-28-17-44-11
-      updated: 2026-11-12-13-25-26
+      updated: 2026-11-20-05-16-25
       followers: 262
       likes: 70
     - service: vk
@@ -20087,7 +20098,7 @@
       id: BdS8Wn0jl5J
       mediaId: '17858038351200404'
       published: 2017-12-29-18-20-23
-      updated: 2026-11-12-13-25-25
+      updated: 2026-11-20-05-16-24
       followers: 263
       likes: 74
     - service: vk
@@ -20144,7 +20155,7 @@
       id: BdVy9_yDkrn
       mediaId: '17916504460021501'
       published: 2017-12-30-20-56-06
-      updated: 2026-11-12-13-25-24
+      updated: 2026-11-20-05-16-23
       followers: 265
       likes: 91
       comments: !c |-
@@ -20179,7 +20190,7 @@
       id: BdX5Dcyj4xf
       mediaId: '17917125574023485'
       published: 2017-12-31-16-27-45
-      updated: 2026-11-12-13-25-21
+      updated: 2026-11-20-05-16-21
       followers: 265
       likes: 93
     - service: vk
