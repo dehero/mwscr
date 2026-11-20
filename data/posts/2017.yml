@@ -10985,6 +10985,19 @@
       followers: 67
       likes: 8
       views: 124
+    - service: ig
+      id: Df8UXyrF0hD
+      mediaId: '18076904876758239'
+      published: 2026-11-20-00-00-27
+      followers: 4309
+    - service: vk
+      id: 3761
+      published: 2026-11-20-00-00-33
+      followers: 1464
+    - service: mx
+      id: '1795132849766'
+      published: 2026-11-20-00-00-50
+      followers: 43
 2017-07-15-i-greet-you-in-pelagiad-traveler:
   title: I Greet You in Pelagiad, Traveler
   titleRu: Приветствую тебя в Пелагиаде, странник
@@ -11872,10 +11885,10 @@
     - service: tg
       id: 1321
       published: 2026-09-23-22-33-00
-      updated: 2026-11-12-21-12-05
+      updated: 2026-11-19-23-57-48
       followers: 942
       likes: 52
-      views: 522
+      views: 526
       comments: !c |-
         ix2AkZPLQnoNURf+gACra2FyYXRlZGFuY2XZI3dvdy4gaWRrIHdoeSBidXQgaSBsb3ZlIGl0IHNv
         IG11Y2guAw==
@@ -14051,27 +14064,27 @@
       id: Df5J7cFCaLi
       mediaId: '18134698834758948'
       published: 2026-11-18-18-31-30
-      updated: 2026-11-19-17-47-28
+      updated: 2026-11-19-23-57-45
       followers: 4278
-      likes: 314
+      likes: 342
       comments: !c |-
         iyuAkpPLQnofC8yvgACscmVkaGVhZHBpeGVspPCfmI2Ty0J6HwiOXQAArHNoYXJrYmFpdGJvb9ki
         TW9ycm93aW5kIGlzIHN1Y2ggYSBiZWF1dGlmdWwgZ2FtZQM=
     - service: vk
       id: 3758
       published: 2026-11-18-18-32-03
-      updated: 2026-11-19-17-47-27
+      updated: 2026-11-19-23-57-44
       followers: 1463
-      likes: 47
-      views: 359
+      likes: 49
+      views: 378
       reposts: 2
     - service: tg
       id: 1390
       published: 2026-11-18-18-32-09
-      updated: 2026-11-19-17-47-26
+      updated: 2026-11-19-23-57-43
       followers: 949
       likes: 39
-      views: 190
+      views: 195
     - service: mx
       id: '1795026745925'
       published: 2026-11-18-18-32-26
