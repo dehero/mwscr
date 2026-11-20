@@ -1338,7 +1338,7 @@ crazycyrodiliccat:
   profiles:
     - service: vk
       id: '90554843'
-      updated: 2026-11-20-00-00-02
+      updated: 2026-11-20-14-31-52
       username: crazycyrodiliccat
       name: Александр Невский
       avatar: store:/avatars/vk-0db1296b.jpg
@@ -1401,7 +1401,7 @@ daemon-tools:
   profiles:
     - service: vk
       id: '1066853973'
-      updated: 2026-11-19-08-04-59
+      updated: 2026-11-20-14-29-12
       username: id1066853973
       name: Daemon Tools
       avatar: store:/avatars/vk-012835a3.jpg
@@ -1617,14 +1617,14 @@ dehero:
       avatar: store:/avatars/gh-c8afe641.jpg
     - service: vk
       id: '3652910'
-      updated: 2026-11-19-23-59-21
+      updated: 2026-11-20-14-30-00
       username: dehero
       name: Антон Курьянов
       avatar: store:/avatars/vk-5356f76e.jpg
     - type: channel
       service: vk
       id: '138249959'
-      updated: 2026-11-20-05-16-45
+      updated: 2026-11-20-14-31-05
       username: mwscr
       name: Morrowind Screenshots
       avatar: store:/avatars/vk-8e97fd4f.jpg
@@ -3207,7 +3207,7 @@ its-okey-dude:
   profiles:
     - service: vk
       id: '381549157'
-      updated: 2026-11-12-21-12-59
+      updated: 2026-11-20-14-30-33
       username: its_okey_dude
       name: Николай Гачимучев
       avatar: store:/avatars/vk-08ebd553.jpg
@@ -3236,7 +3236,7 @@ ivan-uralov:
   profiles:
     - service: vk
       id: '16497155'
-      updated: 2026-11-20-05-14-34
+      updated: 2026-11-20-14-29-12
       username: id16497155
       name: Иван Уралов
       avatar: store:/avatars/vk-51775759.jpg
@@ -3386,6 +3386,11 @@ joderpedr0:
       username: joderpedr0
       name: 🕊️
       avatar: store:/avatars/ig-8192f43a.jpg
+john-marston18731911:
+  profiles:
+    - service: ig
+      updated: 2026-11-20-14-29-00
+      username: john.marston18731911
 johnmara:
   profiles:
     - service: vk
@@ -3749,7 +3754,7 @@ kurov-alexander:
   profiles:
     - service: vk
       id: '233557'
-      updated: 2026-11-12-21-14-20
+      updated: 2026-11-20-14-32-09
       username: kurov.alexander
       name: Александр Куров
       avatar: store:/avatars/vk-c64fc9de.jpg
@@ -3765,7 +3770,7 @@ kydinov91:
   profiles:
     - service: vk
       id: '36104583'
-      updated: 2026-11-20-05-16-33
+      updated: 2026-11-20-14-31-25
       username: kydinov91
       name: Илья Кудинов
       avatar: store:/avatars/vk-03d8a48a.jpg
@@ -3997,7 +4002,7 @@ lycanthropy:
   profiles:
     - service: vk
       id: '5386912'
-      updated: 2026-11-13-18-15-14
+      updated: 2026-11-20-14-31-19
       username: lycanthropy
       name: Филипп Суворов
       avatar: store:/avatars/vk-96cd2c06.jpg
@@ -5149,7 +5154,7 @@ parlsey:
 partizan-ussr:
   profiles:
     - service: ig
-      updated: 2026-10-23-07-01-44
+      updated: 2026-11-20-14-32-15
       username: partizan_ussr
 patrickthebest08:
   profiles:
@@ -5238,7 +5243,7 @@ pinchinium:
   profiles:
     - service: vk
       id: '178716135'
-      updated: 2026-11-19-08-07-05
+      updated: 2026-11-20-14-30-41
       username: pinchinium
       name: Агзам Мубаракшин
       avatar: store:/avatars/vk-77942374.jpg
@@ -5938,7 +5943,7 @@ sergey-b-2:
   profiles:
     - service: vk
       id: '1077446394'
-      updated: 2026-11-20-05-14-34
+      updated: 2026-11-20-14-29-15
       username: id1077446394
       name: Сергей Б
       avatar: store:/avatars/vk-70268334.jpg
@@ -7215,7 +7220,7 @@ user-34:
   profiles:
     - service: vk
       id: '266402374'
-      updated: 2026-11-12-21-13-34
+      updated: 2026-11-20-14-31-16
       username: id266402374
       avatar: store:/avatars/vk-7f160215.jpg
       deleted: true
