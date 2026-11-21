@@ -635,7 +635,7 @@ artem-petrov:
   profiles:
     - service: vk
       id: '4238605'
-      updated: 2026-11-19-17-47-31
+      updated: 2026-11-21-03-36-32
       username: id4238605
       name: Артем Петров
       avatar: store:/avatars/vk-77942374.jpg
@@ -643,7 +643,7 @@ artem-solovev:
   profiles:
     - service: vk
       id: '733007624'
-      updated: 2026-11-18-01-26-50
+      updated: 2026-11-21-03-36-26
       username: id733007624
       name: Twin Lamps
       avatar: store:/avatars/vk-525a6fb0.jpg
@@ -684,7 +684,7 @@ arya-stark:
   profiles:
     - service: vk
       id: '820702664'
-      updated: 2026-11-20-05-14-35
+      updated: 2026-11-21-03-36-30
       username: id820702664
       name: Арья Старк
       avatar: store:/avatars/vk-689aa89d.jpg
@@ -2276,7 +2276,7 @@ evgeniy-bb:
   profiles:
     - service: vk
       id: '520849009'
-      updated: 2026-11-20-22-01-09
+      updated: 2026-11-21-03-36-24
       username: id520849009
       name: Евгений Бб
       avatar: store:/avatars/vk-ffcdd8bf.jpg
@@ -3244,7 +3244,7 @@ ivan-uralov:
   profiles:
     - service: vk
       id: '16497155'
-      updated: 2026-11-20-14-29-12
+      updated: 2026-11-21-03-36-35
       username: id16497155
       name: Иван Уралов
       avatar: store:/avatars/vk-51775759.jpg
@@ -3485,7 +3485,7 @@ july31:
   profiles:
     - service: vk
       id: '1105909109'
-      updated: 2026-11-15-15-56-48
+      updated: 2026-11-21-03-36-29
       username: july31
       name: Иван Пластинин
       avatar: store:/avatars/vk-799f77a4.jpg
@@ -4110,7 +4110,7 @@ maksim-solovev:
   profiles:
     - service: vk
       id: '658767771'
-      updated: 2026-11-20-05-14-37
+      updated: 2026-11-21-03-36-37
       username: id658767771
       name: Максим Соловьев
       avatar: store:/avatars/vk-bee5815b.jpg
@@ -5227,7 +5227,7 @@ petrushkachord:
   profiles:
     - service: vk
       id: '370043102'
-      updated: 2026-11-20-22-03-41
+      updated: 2026-11-21-03-36-49
       username: petrushkachord
       name: Данила Силкин
       avatar: store:/avatars/vk-166e4c44.jpg
@@ -5427,6 +5427,11 @@ pupushu:
       username: pupushu
       name: Alina Drozdova
       avatar: store:/avatars/tg-794175604230130438.jpg
+purelymetaphysicalbeing:
+  profiles:
+    - service: ig
+      updated: 2026-11-21-03-36-22
+      username: purelymetaphysicalbeing
 purple-flame-1985:
   profiles:
     - service: vk
@@ -5951,7 +5956,7 @@ sergey-b-2:
   profiles:
     - service: vk
       id: '1077446394'
-      updated: 2026-11-20-14-29-15
+      updated: 2026-11-21-03-36-37
       username: id1077446394
       name: Сергей Б
       avatar: store:/avatars/vk-70268334.jpg
@@ -7555,7 +7560,7 @@ vladislav-lomin:
   profiles:
     - service: vk
       id: '504964620'
-      updated: 2026-11-17-09-51-34
+      updated: 2026-11-21-03-36-29
       username: id504964620
       name: Владислав Ломин
       avatar: store:/avatars/vk-1b7571ff.jpg

@@ -788,10 +788,10 @@
     - service: vk
       id: 3615
       published: 2026-10-15-18-02-12
-      updated: 2026-11-13-23-59-09
+      updated: 2026-11-21-03-36-33
       followers: 1456
       likes: 51
-      views: 662
+      views: 679
       reposts: 3
       comments: !c |-
         G3gEgCwKbOccUUG8xbNLHVNubfzz//esVkQXa633v8UZBXFEFQQ+M8IjI/sgjIpLa3EBJ2OiMZ86
@@ -807,10 +807,10 @@
     - service: tg
       id: 1344
       published: 2026-10-15-18-02-19
-      updated: 2026-11-13-23-58-51
+      updated: 2026-11-21-03-36-24
       followers: 951
       likes: 56
-      views: 416
+      views: 421
     - service: mx
       id: '1792087347953'
       published: 2026-10-15-18-02-28
@@ -1945,7 +1945,7 @@
       id: Dd94y46GGYK
       mediaId: '18113709692327717'
       published: 2026-10-01-21-35-12
-      updated: 2026-11-13-23-59-02
+      updated: 2026-11-21-03-36-34
       followers: 2791
       likes: 238
 2018-02-04-sadrith-mora:
@@ -5117,7 +5117,7 @@
       id: DeNxFD9GCvx
       mediaId: '18120943852893571'
       published: 2026-10-08-01-35-37
-      updated: 2026-11-13-23-59-02
+      updated: 2026-11-21-03-36-33
       followers: 3274
       likes: 181
       comments: !c |-
@@ -5414,21 +5414,22 @@
     - service: vk
       id: 3580
       published: 2026-10-01-21-35-21
-      updated: 2026-11-13-23-59-12
+      updated: 2026-11-21-03-36-37
       followers: 1445
       likes: 52
-      views: 702
+      views: 714
       reposts: 5
       comments: !c |-
-        iyaAkZPLQnoPqF+FgACqc2VyZ2V5LWItMtk20KXQvtGC0Ywg0LIg0YDQsNC80LrRgyDQuCDQvdCw
-        INGB0YLQtdC90LrRgyDQstC10YjQsNC5Aw==
+        G6cAWJyHsY0j+1hYVKbwIgJvI3ygoQ4oCiQZSIkFkST3UHMrLdl/TByCfw6eG0q+tMgimirtIkdd
+        PXyAQ470YHxQDLB5AqURGgLO7ufXBv/a13hPu3DtHhqQY5KFzn0j0pE83SUqTOnUWbLuEiF7kvsU
+        NgjfoYelH8MyhbVhsg8GokuY4sPoLpU4ygSdbXTjLuQE
     - service: tg
       id: 1328
       published: 2026-10-01-21-35-25
-      updated: 2026-11-13-23-58-54
+      updated: 2026-11-21-03-36-27
       followers: 944
       likes: 62
-      views: 491
+      views: 497
     - service: mx
       id: '1790890529941'
       published: 2026-10-01-21-35-30
@@ -14958,10 +14959,10 @@
     - service: tg
       id: 1322
       published: 2026-09-24-20-16-00
-      updated: 2026-11-13-23-58-56
+      updated: 2026-11-21-03-36-28
       followers: 942
       likes: 49
-      views: 533
+      views: 536
     - service: mx
       id: 1790280974426
       published: 2026-09-24-20-16-00
@@ -15742,9 +15743,9 @@
       id: DeQXG9TFZk2
       mediaId: '18104968538263945'
       published: 2026-10-09-01-46-24
-      updated: 2026-11-13-23-58-56
+      updated: 2026-11-21-03-36-27
       followers: 3343
-      likes: 277
+      likes: 279
 2018-10-09-severe-innkeeper:
   title: Severe Innkeeper
   titleRu: Суровый трактирщик
@@ -17179,9 +17180,9 @@
       id: DeOgVnGDJQv
       mediaId: '18378884458236007'
       published: 2026-10-08-08-28-33
-      updated: 2026-11-13-23-59-00
+      updated: 2026-11-21-03-36-32
       followers: 3290
-      likes: 319
+      likes: 320
       comments: !c |-
         GyMBIJwJ8XbKfPi1Is5VTy/AKgAtSyCwoMAv33eB24/+BsD7LHe0zU8Rjcw1rWr/d8TuJtYijZCX
         AjkWCQ81OWA/zBMpe7ASSrFFkJ0tCEUyDubCT/nPrrv7SHUkZPs9pvgRQDMRRhiHzXUPJgsJFnKa
