@@ -3,7 +3,6 @@ import clsx from 'clsx';
 import { type Component, createEffect, createMemo, createSignal, For, onCleanup, Show } from 'solid-js';
 import type { CommentInfo } from '../../../core/entities/comment-info.ts';
 import { parsePostPath } from '../../../core/entities/posts-manager.ts';
-import { groupBy } from '../../../core/utils/common-utils.ts';
 import { dateToString } from '../../../core/utils/date-utils.ts';
 import { postRoute } from '../../routes/post-route.ts';
 import { texts } from '../../texts/index.ts';
@@ -82,18 +81,26 @@ export const VirtualCommentPreviews: Component<CommentPreviewsProps> = (props) =
   const [container, setContainer] = createSignal<HTMLDivElement>();
   const [scrollMargin, setScrollMargin] = createSignal(0);
 
-  const groups = createMemo(() => [
-    ...groupBy<string, CommentInfo>(props.commentInfos, (info, map) => {
-      const [prevKey, prevGroup] = [...map.entries()].pop() ?? ['', []];
-      const prevInfo = prevGroup[0];
+  const groups = createMemo(() => {
+    const groups = new Map<string, CommentInfo[]>();
+    let previousKey = '';
+    let previousPath: string | undefined;
 
-      if (prevInfo?.path !== info.path) {
-        return `${info.path}/${dateToString(info.datetime, true)}`;
+    for (const info of props.commentInfos) {
+      const key = previousPath === info.path ? previousKey : `${info.path}/${dateToString(info.datetime, true)}`;
+      const group = groups.get(key);
+
+      if (group) {
+        group.push(info);
+      } else {
+        groups.set(key, [info]);
+        previousKey = key;
+        previousPath = info.path;
       }
+    }
 
-      return prevKey;
-    }).entries(),
-  ]);
+    return [...groups.entries()];
+  });
 
   const virtualizer = createVirtualizer<HTMLElement, HTMLDivElement>({
     get count() {
@@ -133,7 +140,7 @@ export const VirtualCommentPreviews: Component<CommentPreviewsProps> = (props) =
   });
 
   return (
-    <Frame class={clsx(styles.container, props.class)} ref={setContainer}>
+    <Frame variant={props.frameVariant} class={clsx(styles.container, props.class)} ref={setContainer}>
       <Show
         when={groups().length > 0}
         fallback={<p class={styles.fallbackText}>{localize(texts.content.noCommentsYet)}</p>}

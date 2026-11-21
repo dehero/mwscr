@@ -19,6 +19,11 @@
   margin: 4px 2px;
 }
 
+.workshop {
+  display: none;
+  margin: 4px 2px;
+}
+
 .button {
   display: none;
 }
@@ -52,6 +57,10 @@
     display: none;
   }
 
+  .workshop {
+    display: inline-block;
+  }
+
   .button {
     display: inline-block;
     margin: 4px 2px;
@@ -62,6 +71,10 @@
 @media only screen and (max-width: 876px) {
   .container:lang(ru) .menu {
     display: inline-block;
+  }
+
+  .container:lang(ru) .workshop {
+    display: none;
   }
 
   .container:lang(ru) .button {

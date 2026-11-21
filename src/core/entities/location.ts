@@ -60,6 +60,20 @@ export function getLocationCellCoordinates(cell: string): LocationCellCoordinate
   return cell.split(' ').map(Number) as LocationCellCoordinates;
 }
 
+export function getLocationCells(cell: LocationCell | LocationCell[] | undefined): LocationCell[] {
+  return asArray(cell);
+}
+
+export function locationCellToTravelCommand(cell: LocationCell): string {
+  return `coe ${cell}`;
+}
+
+export function locationToTravelCommand(location: { title: string; cell?: LocationCell | LocationCell[] }): string {
+  const cell = getCenterLocationCell(location.cell);
+
+  return cell ? locationCellToTravelCommand(cell) : `coc "${location.title}"`;
+}
+
 export function getCenterLocationCell(cell: LocationCell | LocationCell[] | undefined): LocationCell | undefined {
   const cells = asArray(cell);
   if (cells.length === 0) {
