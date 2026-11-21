@@ -684,7 +684,7 @@ arya-stark:
   profiles:
     - service: vk
       id: '820702664'
-      updated: 2026-11-21-18-22-34
+      updated: 2026-11-21-23-37-27
       username: id820702664
       name: Арья Старк
       avatar: store:/avatars/vk-689aa89d.jpg
@@ -2276,7 +2276,7 @@ evgeniy-bb:
   profiles:
     - service: vk
       id: '520849009'
-      updated: 2026-11-21-18-21-35
+      updated: 2026-11-21-23-37-18
       username: id520849009
       name: Евгений Бб
       avatar: store:/avatars/vk-ffcdd8bf.jpg
@@ -3249,7 +3249,7 @@ ivan-uralov:
   profiles:
     - service: vk
       id: '16497155'
-      updated: 2026-11-21-18-21-38
+      updated: 2026-11-21-23-37-23
       username: id16497155
       name: Иван Уралов
       avatar: store:/avatars/vk-51775759.jpg
@@ -3831,6 +3831,11 @@ lapant:
       username: lapant_
       name: Antony
       avatar: store:/avatars/ig-c10da764.jpg
+lauchagarbuzz:
+  profiles:
+    - service: ig
+      updated: 2026-11-21-23-37-14
+      username: lauchagarbuzz
 laughswithahjummas:
   profiles:
     - service: ig
@@ -4324,7 +4329,7 @@ michael-levington:
   profiles:
     - service: vk
       id: '416916067'
-      updated: 2026-11-16-07-26-48
+      updated: 2026-11-21-23-37-25
       username: michael_levington
       name: Майкл Левингтон
       avatar: store:/avatars/vk-77942374.jpg
@@ -4620,7 +4625,7 @@ myndowen:
   profiles:
     - service: tg
       id: '720784420'
-      updated: 2026-11-20-22-01-03
+      updated: 2026-11-21-23-37-16
       accessHash: '4385662928393121475'
       username: myndowen
       name: Daniel Beilin
@@ -5701,6 +5706,11 @@ roman-fetisov:
       username: id639887914
       name: Роман Фетисов
       avatar: store:/avatars/vk-77942374.jpg
+rosarojoholmes:
+  profiles:
+    - service: ig
+      updated: 2026-11-21-23-37-13
+      username: rosarojoholmes
 rowe-indigo:
   profiles:
     - service: ig
@@ -5961,7 +5971,7 @@ sergey-b-2:
   profiles:
     - service: vk
       id: '1077446394'
-      updated: 2026-11-21-18-22-34
+      updated: 2026-11-21-23-37-27
       username: id1077446394
       name: Сергей Б
       avatar: store:/avatars/vk-70268334.jpg
@@ -6503,6 +6513,11 @@ stop-kran88:
       username: StopKran88
       botChatId: 7849915452
       name: Яша
+stormhead-official:
+  profiles:
+    - service: ig
+      updated: 2026-11-21-23-37-13
+      username: stormhead.official
 striped-bear:
   profiles:
     - service: tg
