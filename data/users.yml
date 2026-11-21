@@ -555,7 +555,7 @@ ansis:
   profiles:
     - service: tg
       id: '517050552'
-      updated: 2026-11-20-05-14-27
+      updated: 2026-11-21-11-52-23
       accessHash: '5231096655311395455'
       username: ansis
       name: ansis
@@ -659,7 +659,7 @@ artyom-karpov:
   profiles:
     - service: vk
       id: '178018548'
-      updated: 2026-11-13-18-14-30
+      updated: 2026-11-21-11-54-17
       username: id178018548
       name: Артём Карпов
       avatar: store:/avatars/vk-72fe5d60.jpg
@@ -684,7 +684,7 @@ arya-stark:
   profiles:
     - service: vk
       id: '820702664'
-      updated: 2026-11-21-03-36-30
+      updated: 2026-11-21-11-52-30
       username: id820702664
       name: Арья Старк
       avatar: store:/avatars/vk-689aa89d.jpg
@@ -739,7 +739,7 @@ b-anton14:
   profiles:
     - service: tg
       id: '8256432725'
-      updated: 2026-11-20-05-14-27
+      updated: 2026-11-21-11-52-23
       accessHash: '3668354337295081600'
       username: BAnton14
       name: Soggio Guinta (#3)
@@ -1535,7 +1535,7 @@ daryna-dmytrenko:
   profiles:
     - service: vk
       id: '164064457'
-      updated: 2026-11-13-18-13-58
+      updated: 2026-11-21-11-53-54
       username: daryna_dmytrenko
       name: Дарина Дмитренко
       avatar: store:/avatars/vk-0d327853.jpg
@@ -1617,7 +1617,7 @@ dehero:
       avatar: store:/avatars/gh-c8afe641.jpg
     - service: vk
       id: '3652910'
-      updated: 2026-11-20-22-03-41
+      updated: 2026-11-21-11-54-56
       username: dehero
       name: Антон Курьянов
       avatar: store:/avatars/vk-5356f76e.jpg
@@ -2276,7 +2276,7 @@ evgeniy-bb:
   profiles:
     - service: vk
       id: '520849009'
-      updated: 2026-11-21-03-36-24
+      updated: 2026-11-21-11-52-21
       username: id520849009
       name: Евгений Бб
       avatar: store:/avatars/vk-ffcdd8bf.jpg
@@ -2305,7 +2305,7 @@ evil-kit:
   profiles:
     - service: vk
       id: '153155138'
-      updated: 2026-11-13-23-59-40
+      updated: 2026-11-21-11-54-25
       username: evil_kit
       name: Никита Метелкин
       avatar: store:/avatars/vk-adb64972.jpg
@@ -2503,6 +2503,11 @@ fungirl666:
       username: fungirl666
       avatar: store:/avatars/vk-7f160215.jpg
       deleted: true
+fwubly:
+  profiles:
+    - service: ig
+      updated: 2026-11-21-11-52-22
+      username: fwubly
 gamekeymeta:
   profiles:
     - service: ig
@@ -2634,7 +2639,7 @@ gleb-zheltuhin:
   profiles:
     - service: vk
       id: '29014473'
-      updated: 2026-11-20-05-14-35
+      updated: 2026-11-21-11-52-30
       username: gleb_zheltuhin
       name: Глеб Желтухин
       avatar: store:/avatars/vk-971eefc1.jpg
@@ -3001,7 +3006,7 @@ idalexeyvav:
   profiles:
     - service: vk
       id: '417783044'
-      updated: 2026-11-13-18-13-54
+      updated: 2026-11-21-11-53-51
       username: idalexeyvav
       name: Алексей Вавилов
       avatar: store:/avatars/vk-6717456e.jpg
@@ -3053,7 +3058,7 @@ ilya-denisov:
   profiles:
     - service: vk
       id: '134482858'
-      updated: 2026-11-20-05-14-34
+      updated: 2026-11-21-11-52-30
       username: id134482858
       name: Илья Денисов
       avatar: store:/avatars/vk-45d9d8dd.jpg
@@ -3186,7 +3191,7 @@ irina-volkova:
   profiles:
     - service: vk
       id: '830649'
-      updated: 2026-11-20-05-14-31
+      updated: 2026-11-21-11-52-27
       username: id830649
       name: Ирина Волкова
       avatar: store:/avatars/vk-ab8016e5.jpg
@@ -3244,7 +3249,7 @@ ivan-uralov:
   profiles:
     - service: vk
       id: '16497155'
-      updated: 2026-11-21-03-36-35
+      updated: 2026-11-21-11-52-29
       username: id16497155
       name: Иван Уралов
       avatar: store:/avatars/vk-51775759.jpg
@@ -3700,7 +3705,7 @@ konstantin-matrosov:
   profiles:
     - service: vk
       id: '93073669'
-      updated: 2026-11-20-05-14-27
+      updated: 2026-11-21-11-52-23
       username: id93073669
       name: Константин Матросов
       avatar: store:/avatars/vk-e24b1b77.jpg
@@ -4010,7 +4015,7 @@ lycanthropy:
   profiles:
     - service: vk
       id: '5386912'
-      updated: 2026-11-20-14-31-19
+      updated: 2026-11-21-11-54-59
       username: lycanthropy
       name: Филипп Суворов
       avatar: store:/avatars/vk-96cd2c06.jpg
@@ -4086,7 +4091,7 @@ maks-perunov:
   profiles:
     - service: vk
       id: '35868942'
-      updated: 2026-11-19-00-49-26
+      updated: 2026-11-21-11-52-36
       username: id35868942
       name: Макс Перунов
       avatar: store:/avatars/vk-3bb92045.jpg
@@ -5956,7 +5961,7 @@ sergey-b-2:
   profiles:
     - service: vk
       id: '1077446394'
-      updated: 2026-11-21-03-36-37
+      updated: 2026-11-21-11-52-29
       username: id1077446394
       name: Сергей Б
       avatar: store:/avatars/vk-70268334.jpg
@@ -6308,7 +6313,7 @@ soulilight:
   profiles:
     - service: vk
       id: '347703822'
-      updated: 2026-11-20-22-03-23
+      updated: 2026-11-21-11-54-37
       username: soulilight
       name: Dima Boev
       avatar: store:/avatars/vk-4a3f332e.jpg
@@ -7249,7 +7254,7 @@ user-36:
   profiles:
     - service: vk
       id: '227500203'
-      updated: 2026-11-13-18-15-13
+      updated: 2026-11-21-11-54-58
       username: id227500203
       avatar: store:/avatars/vk-7f160215.jpg
       deleted: true
@@ -7414,7 +7419,7 @@ vanya-letov:
   profiles:
     - service: tg
       id: '1368355493'
-      updated: 2026-11-20-05-14-26
+      updated: 2026-11-21-11-52-22
       accessHash: '304826905023030342'
       username: VanyaLetov
       name: Ваня Белошапкин

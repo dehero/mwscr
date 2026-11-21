@@ -2047,17 +2047,19 @@
       id: DfvM5dTl7CD
       mediaId: '18129784852844714'
       published: 2026-11-14-21-45-02
-      updated: 2026-11-20-05-14-27
+      updated: 2026-11-21-11-52-22
       followers: 4223
-      likes: 215
-      comments: !c CxqAkZPLQnod2yU7AAC0b3V0ZXJiYW5rc2FkdmVudHVyZXK0V2hvIGRyaW5rcyBhbGwgZmxpbj8D
+      likes: 222
+      comments: !c |-
+        CyeAkZTLQnod2yU7AAC0b3V0ZXJiYW5rc2FkdmVudHVyZXK0V2hvIGRyaW5rcyBhbGwgZmxpbj+T
+        y0J6H3jDdgAApmZ3dWJseahu4oCZd2FocwM=
     - service: vk
       id: 3743
       published: 2026-11-14-21-45-10
-      updated: 2026-11-20-05-14-32
+      updated: 2026-11-21-11-52-28
       followers: 1467
       likes: 13
-      views: 300
+      views: 306
       reposts: 2
       comments: !c |-
         Gw8FAKwK7Db0S8HvXIqSlWTrvvH/xD1tZ7KEXrgzfz9YIJEtBxJlQRR4TUTJuWSpObQCBIoKWa/0
@@ -2074,10 +2076,10 @@
     - service: tg
       id: 1387
       published: 2026-11-14-21-45-17
-      updated: 2026-11-20-05-14-29
+      updated: 2026-11-21-11-52-24
       followers: 952
-      likes: 37
-      views: 281
+      likes: 38
+      views: 307
     - service: mx
       id: '1794692722688'
       published: 2026-11-14-21-45-23
