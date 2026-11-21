@@ -555,7 +555,7 @@ ansis:
   profiles:
     - service: tg
       id: '517050552'
-      updated: 2026-11-21-11-52-23
+      updated: 2026-11-21-18-21-36
       accessHash: '5231096655311395455'
       username: ansis
       name: ansis
@@ -684,7 +684,7 @@ arya-stark:
   profiles:
     - service: vk
       id: '820702664'
-      updated: 2026-11-21-11-52-30
+      updated: 2026-11-21-18-22-34
       username: id820702664
       name: Арья Старк
       avatar: store:/avatars/vk-689aa89d.jpg
@@ -1617,7 +1617,7 @@ dehero:
       avatar: store:/avatars/gh-c8afe641.jpg
     - service: vk
       id: '3652910'
-      updated: 2026-11-21-11-54-56
+      updated: 2026-11-21-18-22-20
       username: dehero
       name: Антон Курьянов
       avatar: store:/avatars/vk-5356f76e.jpg
@@ -2276,7 +2276,7 @@ evgeniy-bb:
   profiles:
     - service: vk
       id: '520849009'
-      updated: 2026-11-21-11-52-21
+      updated: 2026-11-21-18-21-35
       username: id520849009
       name: Евгений Бб
       avatar: store:/avatars/vk-ffcdd8bf.jpg
@@ -2305,7 +2305,7 @@ evil-kit:
   profiles:
     - service: vk
       id: '153155138'
-      updated: 2026-11-21-11-54-25
+      updated: 2026-11-21-18-22-20
       username: evil_kit
       name: Никита Метелкин
       avatar: store:/avatars/vk-adb64972.jpg
@@ -3249,7 +3249,7 @@ ivan-uralov:
   profiles:
     - service: vk
       id: '16497155'
-      updated: 2026-11-21-11-52-29
+      updated: 2026-11-21-18-21-38
       username: id16497155
       name: Иван Уралов
       avatar: store:/avatars/vk-51775759.jpg
@@ -4426,7 +4426,7 @@ mlennic:
   profiles:
     - service: tg
       id: '402884048'
-      updated: 2026-11-18-18-28-57
+      updated: 2026-11-21-18-21-36
       accessHash: '308008325024369067'
       username: mlennic
       name: Kosmos
@@ -5961,7 +5961,7 @@ sergey-b-2:
   profiles:
     - service: vk
       id: '1077446394'
-      updated: 2026-11-21-11-52-29
+      updated: 2026-11-21-18-22-34
       username: id1077446394
       name: Сергей Б
       avatar: store:/avatars/vk-70268334.jpg
