@@ -1429,9 +1429,9 @@
       id: DgA3UW2jT8h
       mediaId: '18230498404337851'
       published: 2026-11-21-18-22-48
-      updated: 2026-11-22-03-42-42
+      updated: 2026-11-22-12-04-28
       followers: 4345
-      likes: 215
+      likes: 260
       comments: !c |-
         G8oBwIzTJfZhMnHHz/3Wv4X4r4GHhme3x5jo8WSaSGpZrKmFRkgrBZVKmpq6CfqAjw/CazUWYLwm
         BRR4ZK+N89DSbX4dT58wNT0cQWTQt5WV+9o4/y/EmHTAkBOGJupoOwpP+lBCnIuthgIEAleaM3po
@@ -1442,18 +1442,18 @@
     - service: vk
       id: 3782
       published: 2026-11-21-18-22-54
-      updated: 2026-11-22-03-42-43
+      updated: 2026-11-22-12-04-27
       followers: 1465
-      likes: 27
-      views: 235
+      likes: 37
+      views: 337
       reposts: 1
     - service: tg
       id: 1394
       published: 2026-11-21-18-22-58
-      updated: 2026-11-22-03-42-41
+      updated: 2026-11-22-12-04-27
       followers: 951
-      likes: 29
-      views: 137
+      likes: 37
+      views: 166
     - service: mx
       id: '1795285385130'
       published: 2026-11-21-18-23-05

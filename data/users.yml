@@ -555,7 +555,7 @@ ansis:
   profiles:
     - service: tg
       id: '517050552'
-      updated: 2026-11-21-18-21-36
+      updated: 2026-11-22-12-04-29
       accessHash: '5231096655311395455'
       username: ansis
       name: ansis
@@ -739,7 +739,7 @@ b-anton14:
   profiles:
     - service: tg
       id: '8256432725'
-      updated: 2026-11-22-03-42-44
+      updated: 2026-11-22-12-04-29
       accessHash: '3668354337295081600'
       username: BAnton14
       name: Soggio Guinta (#3)
@@ -1561,7 +1561,7 @@ davydov-arttattoo:
 dcbiscuit:
   profiles:
     - service: ig
-      updated: 2026-10-25-10-50-00
+      updated: 2026-11-22-12-04-37
       username: dcbiscuit
 ddd-yjd:
   profiles:
@@ -2330,7 +2330,7 @@ extenderswpg:
 f-n-r-d:
   profiles:
     - service: ig
-      updated: 2026-10-25-10-50-03
+      updated: 2026-11-22-12-04-37
       username: f.n_r.d
 f213sdf214fx:
   profiles:
@@ -2686,7 +2686,7 @@ gmfiskfmgvkdiaokdgmvkxkaoqkegmve:
 gnomesighting666:
   profiles:
     - service: ig
-      updated: 2026-10-25-10-50-06
+      updated: 2026-11-22-12-04-37
       username: gnomesighting666
 goblin-uk:
   profiles:
@@ -3191,7 +3191,7 @@ irina-volkova:
   profiles:
     - service: vk
       id: '830649'
-      updated: 2026-11-21-11-52-27
+      updated: 2026-11-22-12-04-34
       username: id830649
       name: Ирина Волкова
       avatar: store:/avatars/vk-ab8016e5.jpg
@@ -3249,7 +3249,7 @@ ivan-uralov:
   profiles:
     - service: vk
       id: '16497155'
-      updated: 2026-11-22-03-42-47
+      updated: 2026-11-22-12-04-33
       username: id16497155
       name: Иван Уралов
       avatar: store:/avatars/vk-51775759.jpg
@@ -3705,7 +3705,7 @@ konstantin-matrosov:
   profiles:
     - service: vk
       id: '93073669'
-      updated: 2026-11-21-11-52-23
+      updated: 2026-11-22-12-04-30
       username: id93073669
       name: Константин Матросов
       avatar: store:/avatars/vk-e24b1b77.jpg
@@ -5971,7 +5971,7 @@ sergey-b-2:
   profiles:
     - service: vk
       id: '1077446394'
-      updated: 2026-11-22-03-42-47
+      updated: 2026-11-22-12-04-36
       username: id1077446394
       name: Сергей Б
       avatar: store:/avatars/vk-70268334.jpg
@@ -7434,7 +7434,7 @@ vanya-letov:
   profiles:
     - service: tg
       id: '1368355493'
-      updated: 2026-11-21-11-52-22
+      updated: 2026-11-22-12-04-28
       accessHash: '304826905023030342'
       username: VanyaLetov
       name: Ваня Белошапкин
