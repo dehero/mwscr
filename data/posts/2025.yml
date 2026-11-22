@@ -1429,30 +1429,31 @@
       id: DgA3UW2jT8h
       mediaId: '18230498404337851'
       published: 2026-11-21-18-22-48
-      updated: 2026-11-21-23-37-14
+      updated: 2026-11-22-03-42-42
       followers: 4345
-      likes: 179
+      likes: 215
       comments: !c |-
-        G5QBIIzTJfZhMnH3v9Z+vxJuGnhoeBZPOiwrOszMP00klU7iGiqhEdKWwiOJVdLU1E3QF3wQnqvF
-        UedrUEAhF67z1IJ/bx3uUdbPRj2RFn07PHztrxf/rV02Z0KKQhEFlKSu5tO4EAVk7ZMFS6BuhkYP
-        w7IYZmhJFJbQkm9nKiy7TtNR5rol6gSgjvFwpnEoVjuPlI9+oGHMlVqSdMSuw/f7fFOggeKC0lOU
-        0JYVqi3SGszUh0YGFMIsP0qu+hJQBdQhybxSAta6sERoG5EXQw1Q3DKKdf9HDvEReFu5Pk2w5ATo
-        oyyU6vWXitshW2VOa1RqhzAAkzBo9/NHocuYRoapYCVvA2opceEiyypJXYuOeM4u349P7otk9xk=
+        G8oBwIzTJfZhMnHHz/3Wv4X4r4GHhme3x5jo8WSaSGpZrKmFRkgrBZVKmpq6CfqAjw/CazUWYLwm
+        BRR4ZK+N89DSbX4dT58wNT0cQWTQt5WV+9o4/y/EmHTAkBOGJupoOwpP+lBCnIuthgIEAleaM3po
+        ZCOGSwQyDqNEkN5eh+ErcsEp5qZALAdgmDDDBbcMJnj5mlHfD+xJ0gkXyBxng7KwH5MZ3S3CFOD4
+        CiW8W4UFhRPxmGZDUx0Hw22NUhh80TEALiNzVc8GASwEkrOdpMsGGWKKT5hTvkYODQ94GL/et4kn
+        60QjbNiL47tA0cULjDdCrxRCHbRDPeQccjuvi0uuOmtP6kTskriC84AxMP+Rqvi/5xKHkSApAVyg
+        rcDNl6XtKIJr4lHh8LS+ezmThVs=
     - service: vk
       id: 3782
       published: 2026-11-21-18-22-54
-      updated: 2026-11-21-23-37-14
+      updated: 2026-11-22-03-42-43
       followers: 1465
-      likes: 26
-      views: 212
+      likes: 27
+      views: 235
       reposts: 1
     - service: tg
       id: 1394
       published: 2026-11-21-18-22-58
-      updated: 2026-11-21-23-37-13
+      updated: 2026-11-22-03-42-41
       followers: 951
-      likes: 28
-      views: 125
+      likes: 29
+      views: 137
     - service: mx
       id: '1795285385130'
       published: 2026-11-21-18-23-05
