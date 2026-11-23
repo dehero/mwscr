@@ -1518,7 +1518,7 @@ darkness-rifho:
       deleted: true
     - service: tg
       id: '5704974271'
-      updated: 2026-11-23-09-58-32
+      updated: 2026-11-23-21-46-49
       accessHash: '3506423524566292179'
       username: C4H6O4
       name: Уна
@@ -1689,6 +1689,14 @@ demon-and-seraph:
       username: demon_and_seraph
       name: Даниил Сефиров
       avatar: store:/avatars/vk-6178f35e.jpg
+denis-romanchuk:
+  profiles:
+    - service: vk
+      id: '293582114'
+      updated: 2026-11-23-21-46-46
+      username: denis__romanchuk
+      name: Денис Романчук
+      avatar: store:/avatars/vk-8ef6055e.jpg
 deus-en-shell:
   profiles:
     - service: tg
@@ -1881,11 +1889,10 @@ dr4ug:
   profiles:
     - service: tg
       id: '1881171974'
-      updated: 2026-10-26-16-32-29
+      updated: 2026-11-23-21-46-54
       accessHash: '197104942953691377'
-      username: dr4ug
       botChatId: 1881171974
-      name: Dräug
+      deleted: true
 draugwath:
   profiles:
     - service: ig
@@ -2408,7 +2415,7 @@ filippov-iurii:
 filthy-animal:
   profiles:
     - service: ig
-      updated: 2026-10-26-21-24-03
+      updated: 2026-11-23-21-46-53
       username: _filthy.animal_
 finnverberg:
   profiles:
@@ -2705,7 +2712,7 @@ goosevich76:
   profiles:
     - service: tg
       id: '5385620621'
-      updated: 2026-11-23-09-57-54
+      updated: 2026-11-23-21-46-50
       accessHash: '-7130473396589324830'
       username: horwwwaty
       name: Horwaty
@@ -3249,7 +3256,7 @@ ivan-uralov:
   profiles:
     - service: vk
       id: '16497155'
-      updated: 2026-11-23-01-14-37
+      updated: 2026-11-23-21-46-48
       username: id16497155
       name: Иван Уралов
       avatar: store:/avatars/vk-51775759.jpg
@@ -3572,7 +3579,7 @@ kawazaky223:
   profiles:
     - service: tg
       id: '5641856113'
-      updated: 2026-11-23-09-58-31
+      updated: 2026-11-23-21-46-52
       accessHash: '7421309771527577818'
       username: Kawazaky223
       name: Максим
@@ -3602,7 +3609,7 @@ kevy-c:
   profiles:
     - service: tg
       id: '5067683234'
-      updated: 2026-11-23-09-56-00
+      updated: 2026-11-23-21-46-42
       accessHash: '-903667913374325979'
       username: thedash35
       name: Dash
@@ -5605,7 +5612,7 @@ redoranar:
   profiles:
     - service: tg
       id: '627928484'
-      updated: 2026-11-23-09-58-20
+      updated: 2026-11-23-21-46-52
       accessHash: '4117269213935533016'
       username: Redoranar
       name: Egor
@@ -6298,11 +6305,11 @@ sonnykotya:
   profiles:
     - service: tg
       id: '7937963458'
-      updated: 2026-11-16-07-25-58
+      updated: 2026-11-23-21-46-48
       accessHash: '6311850478953577755'
       username: sonnykotya
       name: дракоша
-      avatar: store:/avatars/tg-5454301401988144670.jpg
+      avatar: store:/avatars/tg-5197550456056521266.jpg
 sothaseel:
   profiles:
     - service: ig
@@ -7907,7 +7914,7 @@ yellow-submarine:
   profiles:
     - service: vk
       id: '21865013'
-      updated: 2026-11-23-09-58-17
+      updated: 2026-11-23-21-46-46
       username: yellowsubm
       name: Yellow Submarine
       avatar: store:/avatars/vk-8254b201.jpg

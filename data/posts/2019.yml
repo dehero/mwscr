@@ -2542,24 +2542,29 @@
       id: DgDnxiUDyIB
       mediaId: '17866947651696121'
       published: 2026-11-22-20-04-43
-      updated: 2026-11-23-09-55-36
+      updated: 2026-11-23-21-46-40
       followers: 4361
-      likes: 212
+      likes: 276
     - service: vk
       id: 3785
       published: 2026-11-22-20-04-51
-      updated: 2026-11-23-01-12-31
+      updated: 2026-11-23-21-46-46
       followers: 1465
-      likes: 17
-      views: 177
+      likes: 46
+      views: 504
       reposts: 3
+      comments: !c |-
+        G/QA6JwHtq0mvfCw4OPIGQUjJJml+P5G+hrvK2WBJVgEJZ7sgeqGERIlF8LC+PNaO43LL4tlMIsU
+        KYtshncRRRlm6yjc3eA4sAFhDGiOZOe3h/lguMGRx0U1yNQP7ueX1+hNrPdwKWSa4936Er/zxAhP
+        oJi1klEx1cRpc/fXKMTSNAz9ipee9UuFcaE7LWZbPR8/A6JcTHB9ZTd72MmSv2vAlTB1MhR057Y/
+        HjQC/Kk53YBWrLUA
     - service: tg
       id: 1395
       published: 2026-11-22-20-04-58
-      updated: 2026-11-23-09-55-36
+      updated: 2026-11-23-21-46-40
       followers: 951
-      likes: 36
-      views: 155
+      likes: 37
+      views: 173
     - service: mx
       id: '1795377902794'
       published: 2026-11-22-20-05-03
