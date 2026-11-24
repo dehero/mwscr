@@ -109,7 +109,7 @@
     - service: tg
       id: 821
       published: 2025-04-28-18-25-09
-      updated: 2026-11-17-01-12-50
+      updated: 2026-11-24-05-40-17
       followers: 726
       likes: 82
       views: 692
@@ -887,7 +887,7 @@
     - service: tg
       id: 797
       published: 2025-04-16-18-22-22
-      updated: 2026-11-17-01-13-04
+      updated: 2026-11-24-05-40-28
       followers: 720
       likes: 61
       views: 624
@@ -1229,24 +1229,24 @@
       id: Df2nozWF7xN
       mediaId: '18131815424310221'
       published: 2026-11-17-18-53-21
-      updated: 2026-11-23-01-12-35
+      updated: 2026-11-24-05-38-37
       followers: 4256
-      likes: 323
+      likes: 335
     - service: vk
       id: 3757
       published: 2026-11-17-18-53-27
-      updated: 2026-11-23-01-12-35
+      updated: 2026-11-24-05-38-40
       followers: 1464
-      likes: 64
-      views: 535
+      likes: 65
+      views: 546
       reposts: 1
     - service: tg
       id: 1389
       published: 2026-11-17-18-53-30
-      updated: 2026-11-23-01-12-33
+      updated: 2026-11-24-05-38-37
       followers: 952
-      likes: 51
-      views: 349
+      likes: 52
+      views: 369
       comments: !c CwyAkZPLQnofAUE5AACobXluZG93ZW6k8J+VtwM=
     - service: mx
       id: '1794941612732'
@@ -1653,7 +1653,7 @@
     - service: vk
       id: 2589
       published: 2025-08-18-18-24-02
-      updated: 2026-11-17-01-13-12
+      updated: 2026-11-24-05-40-25
       followers: 1365
       likes: 42
       views: 930
@@ -1727,9 +1727,9 @@
       id: DLAxCKwMros
       mediaId: '17862711228356418'
       published: 2025-06-17-18-28-37
-      updated: 2026-11-17-01-12-19
+      updated: 2026-11-24-05-39-25
       followers: 1553
-      likes: 75
+      likes: 74
     - service: vk
       id: 2470
       published: 2025-06-17-18-28-43
@@ -1747,7 +1747,7 @@
     - service: tg
       id: 888
       published: 2025-06-17-18-28-46
-      updated: 2026-11-17-01-11-39
+      updated: 2026-11-24-05-39-01
       followers: 749
       likes: 66
       views: 619
@@ -1987,7 +1987,7 @@
     - service: vk
       id: 2513
       published: 2025-07-11-18-23-45
-      updated: 2026-11-17-01-13-57
+      updated: 2026-11-24-05-41-16
       followers: 1337
       likes: 56
       views: 539
@@ -2007,9 +2007,9 @@
       id: DMOURmMsu3l
       mediaId: '17895250938255296'
       published: 2025-07-17-21-18-02
-      updated: 2026-11-17-01-11-50
+      updated: 2026-11-24-05-39-05
       followers: 1567
-      likes: 102
+      likes: 101
 2016-12-23-stillness-of-vivec:
   title: Stillness of Vivec
   titleRu: Спокойствие Вивека
