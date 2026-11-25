@@ -1072,14 +1072,14 @@
     - service: vk
       id: 2119
       published: 2025-02-08-18-09-23
-      updated: 2026-11-17-18-52-00
+      updated: 2026-11-25-01-11-57
       followers: 1062
       likes: 38
       views: 403
     - service: tg
       id: 701
       published: 2025-02-08-18-09-32
-      updated: 2026-11-17-18-50-59
+      updated: 2026-11-25-01-10-58
       followers: 672
       likes: 54
       views: 558
@@ -1346,7 +1346,7 @@
     - service: vk
       id: 2120
       published: 2025-02-09-18-09-21
-      updated: 2026-11-17-18-51-59
+      updated: 2026-11-25-01-11-56
       followers: 1063
       likes: 44
       views: 445
@@ -1354,7 +1354,7 @@
     - service: tg
       id: 702
       published: 2025-02-09-18-09-27
-      updated: 2026-11-17-18-50-59
+      updated: 2026-11-25-01-10-57
       followers: 673
       likes: 61
       views: 539
@@ -1534,7 +1534,7 @@
       id: DCruhchMwP3
       mediaId: '18017361518365954'
       published: 2024-11-22-18-11-25
-      updated: 2026-11-17-18-51-37
+      updated: 2026-11-25-01-12-22
       followers: 1482
       likes: 144
       views: 1158
@@ -2146,7 +2146,7 @@
       id: DDxP6Oppyd-
       mediaId: '17865447045275992'
       published: 2024-12-19-18-10-45
-      updated: 2026-11-17-18-51-09
+      updated: 2026-11-25-01-11-34
       followers: 1507
       likes: 102
       views: 497
@@ -2156,7 +2156,7 @@
     - service: vk
       id: 1976
       published: 2024-12-19-18-10-51
-      updated: 2026-11-17-18-53-03
+      updated: 2026-11-25-01-13-29
       followers: 1027
       likes: 64
       views: 450
@@ -2164,7 +2164,7 @@
     - service: tg
       id: 630
       published: 2024-12-19-18-10-59
-      updated: 2026-11-17-18-52-08
+      updated: 2026-11-25-01-12-05
       followers: 584
       likes: 71
       views: 603
@@ -2519,7 +2519,7 @@
       id: DCPZm-ZNGFH
       mediaId: '18045935668880245'
       published: 2024-11-11-18-09-56
-      updated: 2026-11-17-18-51-47
+      updated: 2026-11-25-01-12-34
       followers: 1484
       likes: 117
       views: 632
@@ -2884,9 +2884,9 @@
       id: DFdZSvtpKtB
       mediaId: '17890976667176344'
       published: 2025-01-30-18-10-45
-      updated: 2026-11-17-18-50-28
+      updated: 2026-11-25-01-10-26
       followers: 1534
-      likes: 101
+      likes: 100
       views: 437
       comments: !c |-
         G00A+I2Ubr4KGjw3lAls5JWPogNX8S1Fb8+wpXnYgAPxUCMNaCC+dmDnadoPl73/AJw5nZAI2jJk
@@ -2894,7 +2894,7 @@
     - service: vk
       id: 2098
       published: 2025-01-30-18-10-52
-      updated: 2026-11-17-18-52-16
+      updated: 2026-11-25-01-12-20
       followers: 1057
       likes: 41
       views: 380
@@ -2902,10 +2902,10 @@
     - service: tg
       id: 689
       published: 2025-01-30-18-10-59
-      updated: 2026-11-17-18-51-09
+      updated: 2026-11-25-01-11-11
       followers: 661
       likes: 75
-      views: 722
+      views: 723
 2019-10-12-imperial-candelabrum:
   title: Imperial Candelabrum
   titleRu: Имперский канделябр
@@ -3214,15 +3214,15 @@
       id: DFQhKTwzYmm
       mediaId: '18085898038560737'
       published: 2025-01-25-18-09-22
-      updated: 2026-11-17-18-50-32
+      updated: 2026-11-25-01-10-34
       followers: 1529
-      likes: 83
+      likes: 82
       views: 321
       comments: !c CxaAkZPLQnlKBpwagACpbnk3NHQtNHJ0t1ByZXR0aWVyIHRoYW4gcmVhbCBsaWZlAw==
     - service: vk
       id: 2086
       published: 2025-01-25-18-09-30
-      updated: 2026-11-17-18-52-20
+      updated: 2026-11-25-01-12-25
       followers: 1054
       likes: 33
       views: 339
@@ -3230,10 +3230,10 @@
     - service: tg
       id: 681
       published: 2025-01-25-18-09-38
-      updated: 2026-11-17-18-51-16
+      updated: 2026-11-25-01-11-18
       followers: 658
       likes: 65
-      views: 586
+      views: 587
 2019-10-21-skaal-circle:
   title: Skaal Circle
   titleRu: Круг Скаалов
@@ -3349,14 +3349,14 @@
       id: DE-fki3RAq5
       mediaId: '17882700603216773'
       published: 2025-01-18-18-09-10
-      updated: 2026-11-17-18-50-38
+      updated: 2026-11-25-01-10-44
       followers: 1526
-      likes: 100
+      likes: 98
       views: 482
     - service: tg
       id: 671
       published: 2025-01-18-18-09-39
-      updated: 2026-11-17-18-51-21
+      updated: 2026-11-25-01-11-27
       followers: 655
       likes: 65
       views: 676
@@ -3364,7 +3364,7 @@
     - service: vk
       id: 2070
       published: 2025-01-18-19-01-37
-      updated: 2026-11-17-18-52-28
+      updated: 2026-11-25-01-12-40
       followers: 1054
       likes: 41
       views: 369
