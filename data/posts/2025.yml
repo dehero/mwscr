@@ -186,9 +186,9 @@
       id: DeuE_JsHcit
       mediaId: '18144979198599387'
       published: 2026-10-20-14-45-17
-      updated: 2026-11-18-18-29-01
+      updated: 2026-11-25-20-16-57
       followers: 3760
-      likes: 1072
+      likes: 1075
       comments: !c |-
         GwQBQByHcaywzsBEJl0HNzvmLIuyLG57gbVtLw18DZ0g7//zlyN9IDfKJP5jTIQsOqOqAsNmJxoY
         X2uBl7WoLQrf8fXpcxvbjSeJYRCN+jP1HtnF45Qgpdjeh5d/nBGzhpi0kbULeuNdoEoGAVvVVfCQ
@@ -1429,9 +1429,9 @@
       id: DgA3UW2jT8h
       mediaId: '18230498404337851'
       published: 2026-11-21-18-22-48
-      updated: 2026-11-24-16-35-29
+      updated: 2026-11-25-20-16-52
       followers: 4345
-      likes: 334
+      likes: 338
       comments: !c |-
         G8oBwIzTJfZhMnHHz/3Wv4X4r4GHhme3x5jo8WSaSGpZrKmFRkgrBZVKmpq6CfqAjw/CazUWYLwm
         BRR4ZK+N89DSbX4dT58wNT0cQWTQt5WV+9o4/y/EmHTAkBOGJupoOwpP+lBCnIuthgIEAleaM3po
@@ -1442,18 +1442,18 @@
     - service: vk
       id: 3782
       published: 2026-11-21-18-22-54
-      updated: 2026-11-24-16-35-28
+      updated: 2026-11-25-20-16-56
       followers: 1465
-      likes: 52
-      views: 489
+      likes: 53
+      views: 504
       reposts: 1
     - service: tg
       id: 1394
       published: 2026-11-21-18-22-58
-      updated: 2026-11-24-16-35-24
+      updated: 2026-11-25-20-16-51
       followers: 951
-      likes: 41
-      views: 248
+      likes: 42
+      views: 264
     - service: mx
       id: '1795285385130'
       published: 2026-11-21-18-23-05
