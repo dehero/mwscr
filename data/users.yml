@@ -635,7 +635,7 @@ artem-petrov:
   profiles:
     - service: vk
       id: '4238605'
-      updated: 2026-11-26-22-39-48
+      updated: 2026-11-28-05-11-33
       username: id4238605
       name: Артем Петров
       avatar: store:/avatars/vk-77942374.jpg
@@ -643,7 +643,7 @@ artem-solovev:
   profiles:
     - service: vk
       id: '733007624'
-      updated: 2026-11-25-10-38-43
+      updated: 2026-11-28-05-11-25
       username: id733007624
       name: Twin Lamps
       avatar: store:/avatars/vk-525a6fb0.jpg
@@ -684,7 +684,7 @@ arya-stark:
   profiles:
     - service: vk
       id: '820702664'
-      updated: 2026-11-27-04-37-41
+      updated: 2026-11-28-05-11-30
       username: id820702664
       name: Арья Старк
       avatar: store:/avatars/vk-689aa89d.jpg
@@ -1338,7 +1338,7 @@ crazycyrodiliccat:
   profiles:
     - service: vk
       id: '90554843'
-      updated: 2026-11-27-14-30-25
+      updated: 2026-11-28-05-13-44
       username: crazycyrodiliccat
       name: Александр Невский
       avatar: store:/avatars/vk-0db1296b.jpg
@@ -1617,14 +1617,14 @@ dehero:
       avatar: store:/avatars/gh-c8afe641.jpg
     - service: vk
       id: '3652910'
-      updated: 2026-11-27-14-29-48
+      updated: 2026-11-28-05-12-23
       username: dehero
       name: Антон Курьянов
       avatar: store:/avatars/vk-00bb5317.jpg
     - type: channel
       service: vk
       id: '138249959'
-      updated: 2026-11-27-23-04-46
+      updated: 2026-11-28-05-13-09
       username: mwscr
       name: Morrowind Screenshots
       avatar: store:/avatars/vk-8e97fd4f.jpg
@@ -3238,7 +3238,7 @@ its-okey-dude:
   profiles:
     - service: vk
       id: '381549157'
-      updated: 2026-11-20-14-30-33
+      updated: 2026-11-28-05-12-47
       username: its_okey_dude
       name: Николай Гачимучев
       avatar: store:/avatars/vk-08ebd553.jpg
@@ -3267,10 +3267,10 @@ ivan-uralov:
   profiles:
     - service: vk
       id: '16497155'
-      updated: 2026-11-27-23-02-33
+      updated: 2026-11-28-05-11-36
       username: id16497155
       name: Иван Уралов
-      avatar: store:/avatars/vk-2f752bb1.jpg
+      avatar: store:/avatars/vk-51775759.jpg
 ivanovic:
   profiles:
     - service: tg
@@ -3508,7 +3508,7 @@ july31:
   profiles:
     - service: vk
       id: '1105909109'
-      updated: 2026-11-22-20-01-13
+      updated: 2026-11-28-05-11-27
       username: july31
       name: Иван Пластинин
       avatar: store:/avatars/vk-799f77a4.jpg
@@ -3790,7 +3790,7 @@ kurov-alexander:
   profiles:
     - service: vk
       id: '233557'
-      updated: 2026-11-20-14-32-09
+      updated: 2026-11-28-05-13-39
       username: kurov.alexander
       name: Александр Куров
       avatar: store:/avatars/vk-c64fc9de.jpg
@@ -3806,7 +3806,7 @@ kydinov91:
   profiles:
     - service: vk
       id: '36104583'
-      updated: 2026-11-27-23-04-34
+      updated: 2026-11-28-05-13-22
       username: kydinov91
       name: Илья Кудинов
       avatar: store:/avatars/vk-03d8a48a.jpg
@@ -4048,7 +4048,7 @@ lycanthropy:
   profiles:
     - service: vk
       id: '5386912'
-      updated: 2026-11-21-11-54-59
+      updated: 2026-11-28-05-13-17
       username: lycanthropy
       name: Филипп Суворов
       avatar: store:/avatars/vk-96cd2c06.jpg
@@ -4148,7 +4148,7 @@ maksim-solovev:
   profiles:
     - service: vk
       id: '658767771'
-      updated: 2026-11-27-14-28-30
+      updated: 2026-11-28-05-11-38
       username: id658767771
       name: Максим Соловьев
       avatar: store:/avatars/vk-bee5815b.jpg
@@ -5294,7 +5294,7 @@ pinchinium:
   profiles:
     - service: vk
       id: '178716135'
-      updated: 2026-11-26-22-41-34
+      updated: 2026-11-28-05-12-55
       username: pinchinium
       name: Агзам Мубаракшин
       avatar: store:/avatars/vk-77942374.jpg
@@ -6004,7 +6004,7 @@ sergey-b-2:
   profiles:
     - service: vk
       id: '1077446394'
-      updated: 2026-11-27-23-02-35
+      updated: 2026-11-28-05-11-38
       username: id1077446394
       name: Сергей Б
       avatar: store:/avatars/vk-01354d41.jpg
@@ -6060,6 +6060,11 @@ sharlin-richter:
       username: SharlinRichter
       name: Sharlin Richter
       avatar: store:/avatars/tg-4720324137126658.jpg
+shaydurzz:
+  profiles:
+    - service: ig
+      updated: 2026-11-28-05-11-17
+      username: shaydurzz
 sheloboff:
   profiles:
     - service: vk
@@ -7300,7 +7305,7 @@ user-34:
   profiles:
     - service: vk
       id: '266402374'
-      updated: 2026-11-20-14-31-16
+      updated: 2026-11-28-05-13-16
       username: id266402374
       avatar: store:/avatars/vk-7f160215.jpg
       deleted: true
@@ -7627,7 +7632,7 @@ vladislav-lomin:
   profiles:
     - service: vk
       id: '504964620'
-      updated: 2026-11-24-16-37-36
+      updated: 2026-11-28-05-11-27
       username: id504964620
       name: Владислав Ломин
       avatar: store:/avatars/vk-1b7571ff.jpg
@@ -7954,7 +7959,7 @@ yellow-submarine:
   profiles:
     - service: vk
       id: '21865013'
-      updated: 2026-11-27-23-02-30
+      updated: 2026-11-28-05-11-20
       username: yellowsubm
       name: Yellow Submarine
       avatar: store:/avatars/vk-8254b201.jpg
