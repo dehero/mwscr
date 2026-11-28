@@ -667,7 +667,7 @@ artyom-melikhoff:
   profiles:
     - service: vk
       id: '299405149'
-      updated: 2026-11-26-13-18-51
+      updated: 2026-11-28-14-40-57
       username: artyom_melikhoff
       name: Артём Мелихов
       avatar: store:/avatars/vk-750bca54.jpg
@@ -684,7 +684,7 @@ arya-stark:
   profiles:
     - service: vk
       id: '820702664'
-      updated: 2026-11-28-05-11-30
+      updated: 2026-11-28-14-38-43
       username: id820702664
       name: Арья Старк
       avatar: store:/avatars/vk-689aa89d.jpg
@@ -1617,14 +1617,14 @@ dehero:
       avatar: store:/avatars/gh-c8afe641.jpg
     - service: vk
       id: '3652910'
-      updated: 2026-11-28-05-12-23
+      updated: 2026-11-28-14-40-55
       username: dehero
       name: Антон Курьянов
       avatar: store:/avatars/vk-00bb5317.jpg
     - type: channel
       service: vk
       id: '138249959'
-      updated: 2026-11-28-05-13-09
+      updated: 2026-11-28-14-38-59
       username: mwscr
       name: Morrowind Screenshots
       avatar: store:/avatars/vk-8e97fd4f.jpg
@@ -2657,7 +2657,7 @@ gleb-zheltuhin:
   profiles:
     - service: vk
       id: '29014473'
-      updated: 2026-11-27-23-02-30
+      updated: 2026-11-28-14-38-42
       username: gleb_zheltuhin
       name: Глеб Желтухин
       avatar: store:/avatars/vk-971eefc1.jpg
@@ -3076,7 +3076,7 @@ ilya-denisov:
   profiles:
     - service: vk
       id: '134482858'
-      updated: 2026-11-26-13-19-13
+      updated: 2026-11-28-14-38-42
       username: id134482858
       name: Илья Денисов
       avatar: store:/avatars/vk-45d9d8dd.jpg
@@ -3084,10 +3084,10 @@ ilya-goryachev:
   profiles:
     - service: vk
       id: '448748807'
-      updated: 2026-11-20-22-01-26
+      updated: 2026-11-28-14-39-14
       username: id448748807
       name: Илья Горячев
-      avatar: store:/avatars/vk-1db6c63c.jpg
+      avatar: store:/avatars/vk-6df633e5.jpg
 ilya-kolobov:
   profiles:
     - service: vk
@@ -3267,7 +3267,7 @@ ivan-uralov:
   profiles:
     - service: vk
       id: '16497155'
-      updated: 2026-11-28-05-11-36
+      updated: 2026-11-28-14-38-41
       username: id16497155
       name: Иван Уралов
       avatar: store:/avatars/vk-51775759.jpg
@@ -3790,7 +3790,7 @@ kurov-alexander:
   profiles:
     - service: vk
       id: '233557'
-      updated: 2026-11-28-05-13-39
+      updated: 2026-11-28-14-38-50
       username: kurov.alexander
       name: Александр Куров
       avatar: store:/avatars/vk-c64fc9de.jpg
@@ -3806,10 +3806,10 @@ kydinov91:
   profiles:
     - service: vk
       id: '36104583'
-      updated: 2026-11-28-05-13-22
+      updated: 2026-11-28-14-40-50
       username: kydinov91
       name: Илья Кудинов
-      avatar: store:/avatars/vk-03d8a48a.jpg
+      avatar: store:/avatars/vk-e102541d.jpg
 l-iiiiiiiiiiiiiiiiiiiiiiiiiiiiiii:
   profiles:
     - service: tg
@@ -4263,7 +4263,7 @@ max-tsei:
   profiles:
     - service: vk
       id: '353284524'
-      updated: 2026-11-27-23-03-53
+      updated: 2026-11-28-14-38-59
       username: id353284524
       avatar: store:/avatars/vk-7f160215.jpg
       deleted: true
@@ -4992,7 +4992,7 @@ oefengod1:
 of-albion:
   profiles:
     - service: ig
-      updated: 2026-10-31-07-38-14
+      updated: 2026-11-28-14-41-03
       username: of_albion
 ohsweetnazareth:
   name: nazareth
@@ -5270,7 +5270,7 @@ petrushkachord:
   profiles:
     - service: vk
       id: '370043102'
-      updated: 2026-11-21-03-36-49
+      updated: 2026-11-28-14-40-55
       username: petrushkachord
       name: Данила Силкин
       avatar: store:/avatars/vk-166e4c44.jpg
@@ -6004,7 +6004,7 @@ sergey-b-2:
   profiles:
     - service: vk
       id: '1077446394'
-      updated: 2026-11-28-05-11-38
+      updated: 2026-11-28-14-38-42
       username: id1077446394
       name: Сергей Б
       avatar: store:/avatars/vk-01354d41.jpg
@@ -6253,7 +6253,7 @@ smsakyr:
   profiles:
     - service: tg
       id: '829095409'
-      updated: 2026-11-27-14-28-24
+      updated: 2026-11-28-14-38-36
       accessHash: '7942946957771729928'
       username: smsakyr
       name: Fеdоr
@@ -6375,7 +6375,7 @@ soulilight:
   profiles:
     - service: vk
       id: '347703822'
-      updated: 2026-11-26-13-19-48
+      updated: 2026-11-28-14-40-39
       username: soulilight
       name: Dima Boev
       avatar: store:/avatars/vk-4a3f332e.jpg
@@ -7313,7 +7313,7 @@ user-35:
   profiles:
     - service: vk
       id: '281861772'
-      updated: 2026-11-20-22-03-16
+      updated: 2026-11-28-14-40-34
       username: id281861772
       avatar: store:/avatars/vk-7f160215.jpg
       deleted: true
@@ -7959,7 +7959,7 @@ yellow-submarine:
   profiles:
     - service: vk
       id: '21865013'
-      updated: 2026-11-28-05-11-20
+      updated: 2026-11-28-14-38-39
       username: yellowsubm
       name: Yellow Submarine
       avatar: store:/avatars/vk-8254b201.jpg
@@ -8069,6 +8069,11 @@ zsoltpalatinus:
       username: zsoltpalatinus
       name: Zsolt Palatinus
       avatar: store:/avatars/ig-1fea7444.jpg
+zuluyoofhyrule:
+  profiles:
+    - service: ig
+      updated: 2026-11-28-14-38-41
+      username: zuluyoofhyrule
 zurawskiandrzej8900:
   profiles:
     - service: ig
